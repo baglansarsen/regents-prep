@@ -1,0 +1,486 @@
+{
+  "subject": "algebra-2",
+  "session": "june-2022",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "For all positive values of x, which expression is equivalent to x 3 4?",
+      "choices": [
+        "x3 4",
+        "x4 3",
+        "(x3)4",
+        "3(x4)"
+      ],
+      "image": "/images/exams/algebra-2/june-2022/q1.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2022/q3.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "4",
+      "choices": [
+        "0",
+        "13",
+        "27",
+        "32"
+      ],
+      "image": "/images/exams/algebra-2/june-2022/q4.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Consider the function y \u0004 h(x), defined by the graph below. y x Which equation could be used to represent the graph shown below? y x",
+      "choices": [
+        "y \u0004 h(x) \u0002 2",
+        "y \u0004 h(x \u0002 2)",
+        "y \u0004 \u0002 h(x)",
+        "y \u0004 h(\u0002 x)"
+      ],
+      "image": "/images/exams/algebra-2/june-2022/q5.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "For the polynomial p(x), if p",
+      "choices": [
+        "x \u0003 3 is a factor of p(x)",
+        "x \u0002 3 is a factor of p(x)",
+        "when p(x) is divided by 3, the remainder is zero",
+        "when p(x) is divided by \u00023, the remainder is zero"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The solution to the equation 5ex \u0003 2 \u0004 7 is",
+      "choices": [
+        "\u00022 \u0003 ln( 7 __ 5 )",
+        "",
+        "\u00023 ___ 5",
+        "\u00022 \u0003 ln"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Consider the system of equations below. x \u0003 2y \u0002 z \u0004 1 \u0002x \u0002 3y \u0003 2z \u0004 0 2x \u0002 4y \u0003 z \u0004 10 What is the solution to the given system of equations?",
+      "choices": [
+        "(1,1,2)",
+        "(3,\u00021,0)",
+        "(5,\u00021,2)",
+        "(3,5,8)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Monthly mortgage payments can be found using the formula below, where M is the monthly payment, P is the amount borrowed, r is the annual interest rate, and n is the total number of monthly payments. M \u0004 P( r __ 12 )(1 \u0003 r __ 12 ) n ____________ (1 \u0003 r __ 12) n \u0002 1 If Adam takes out a 15-year mortgage, borrowing $240,000 at an annual interest rate of 4.5%, his monthly payment will be",
+      "choices": [
+        "$1379.09",
+        "$1604.80",
+        "$1835.98",
+        "$9011.94"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "For all real values of x, if f(x) \u0004 (x \u0002 3)2 and g(x) \u0004 (x \u0003 3)2, what is f(x) \u0002 g(x)?",
+      "choices": [
+        "\u000218",
+        "0",
+        "\u000212x",
+        "2x2 \u0002 12x \u0002 18"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "If f(t) \u0004 50(.5) t ____ 5715 represents a mass, in grams, of carbon-14 remaining after t years, which statement(s) must be true? I. The mass of the carbon-14 is decreasing by half each year. II. The mass of the original sample is 50 g.",
+      "choices": [
+        "I, only",
+        "II, only",
+        "I and II",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Consider the graph of g and the table representing t below. g(x) x t(x) 3 5 2 \u20135 \u20131 3 x \u20131 0 1 2 3 4 Over the interval [2, 4], which statement regarding the average rate of change for g and t is true?",
+      "choices": [
+        "g has a greater average rate of change.",
+        "The average rates of change are equal.",
+        "The average rate of change for g is twice the average rate of change for t.",
+        "The average rate of change for g is half the average rate of change for t."
+      ],
+      "image": "/images/exams/algebra-2/june-2022/q12.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A parabola has a directrix of y \u0004 3 and a vertex at (2,1). Which ordered pair is the focus of the parabola?",
+      "choices": [
+        "(2,\u00021)",
+        "(2,0)",
+        "(2,2)",
+        "(2,5)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The heights of the 3300 students at Oceanview High School are approximately normally distributed with a mean of 65.5 inches and a standard deviation of 2.9 inches. The number of students at Oceanview who are between 64 and 68 inches tall is closest to",
+      "choices": [
+        "1660",
+        "1070",
+        "2244",
+        "1640"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which statement below about the graph of f(x) \u0004 \u0002log(x \u0003 4) \u0003 2 is true?",
+      "choices": [
+        "f(x) has a y-intercept at (0,2).",
+        "\u0002f(x) has a y-intercept at (0,2).",
+        "As x \u2192 \u0005, f(x) \u2192 \u0005.",
+        "As x \u2192 \u00024, f(x) \u2192 \u0005."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A researcher wants to determine if room-darkening shades cause people to sleep longer. Which method of data collection is most appropriate?",
+      "choices": [
+        "census",
+        "survey",
+        "observation study",
+        "controlled experiment"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The inverse of f(x) \u0004 \u00026x \u0003 1 __ 2 is",
+      "choices": [
+        "f\u00021(x) \u0004 6x \u0002 1 __ 2",
+        "f\u00021(x) \u0004 1 ________ \u00026x \u0003 1 __ 2",
+        "f\u00021(x) \u0004 \u0002 1 __ 6 x \u0003 1 ___ 12",
+        "f\u00021(x) \u0004 \u0002 1 __ 6 x \u0003 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The expression x2 \u0003 12 _______ x2 \u0003 3 can be rewritten as",
+      "choices": [
+        "10 ______ x2 \u0003 3",
+        "1 \u0003 9 ______ x2 \u0003 3",
+        "x \u0003 9",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "An angle, , is rotated counterclockwise on the unit circle, with its terminal side in the second quadrant, as shown in the diagram below. x y 1 2 Which value represents the radian measure of angle ?",
+      "choices": [
+        "1",
+        "2",
+        "65.4",
+        "114.6"
+      ],
+      "image": "/images/exams/algebra-2/june-2022/q19.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The depth of the water, d(t), in feet, on a given day at Thunder Bay, t hours after midnight is modeled by d(t) \u0004 5sin ( \u03c0 __ 6 (t \u0002 5))\u0003 7. Which statement about the Thunder Bay tide is false?",
+      "choices": [
+        "A low tide occurred at 2 a.m.",
+        "The maximum depth of the water was 12 feet.",
+        "The water depth at 9 a.m. was approximately 11 feet.",
+        "The difference in water depth between high tide and low tide is 14 feet."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A function is defined as an \u0004 an \u0002 1 \u0003 logn \u0003 1(n \u0002 1), where a1 \u0004 8. What is the value of a3?",
+      "choices": [
+        "8",
+        "8.5",
+        "9.2",
+        "10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which function has a maximum y-value of 4 and a midline of y \u0004 1? f(x) x",
+      "choices": [
+        "",
+        "",
+        "\u20132 \u20134 2 4 \u20135 \u20134 4 5 5 \u20135 g(x) \u0004 \u00023cos(x) \u0003 1 j(x) \u0004 4sin(x) \u0003 1",
+        "h(x) x"
+      ],
+      "image": "/images/exams/algebra-2/june-2022/q22.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to (x \u0003 yi)(x2 \u0002 xyi \u0002 y2), where i is the imaginary unit?",
+      "choices": [
+        "x3 \u0003 y3i",
+        "x3 \u0002 xy2 \u0002 (xy2 \u0003 y3)i",
+        "x3 \u0002 2xy2 \u0002 y3i",
+        "x3 \u0002 y3i"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The growth of a $500 investment can be modeled by the function P(t) \u0004 500(1.03)t, where t represents time in years. In terms of the monthly rate of growth, the value of the investment can be best approximated by",
+      "choices": [
+        "P(t) \u0004 500(1.00247)12t",
+        "P(t) \u0004 500(1.00247)t",
+        "P(t) \u0004 500(1.03)12t",
+        "P(t) \u0004 500(1.03) t __ 12 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Does the equation x2 \u0002 4x \u0003 13 \u0004 0 have imaginary solutions? Justify your answer.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "The initial push of a child on a swing causes the swing to travel a total of 6 feet. Each successive swing travels 80% of the distance of the previous swing. Determine the total distance, to the nearest hundredth of a foot,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Solve algebraically for n: 2 __ n2 \u0003 3 __ n \u0004 4 __ n2 .",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Factor completely over the set of integers: \u00022x4 \u0003 x3 \u0003 18x2 \u0002 9",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "The relative frequency table shows the proportion of a population who have a given eye color and the proportion of the same population who wear glasses. Wear Glasses Don\u2019t Wear Glasses Blue Eyes 0.14 0.26 Brown Eyes 0.11 0.24 Green Eyes 0.10 0.15 Given the data, are the events of having blue eyes and wearing glasses independent?",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2022/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "For x \u2260 0 and y \u2260 0, 81x15y9 3 \" 3a x5y3",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2022/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Graph y \u0004 2cos ( 1 __ 2 x) \u0003 5 on the interval [0,2\u03c0],",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2022/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "A cup of coffee is left out on a countertop to cool. The table below represents the temperature, F(t), in degrees Fahrenheit, of the coffee after it is left out for t minutes. t 0 5 10 15 20 25 F(t) 180 144 120 104 93.3 86.2 Based on these data, write an exponential regression equation, F(t),",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2022/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "On the set of axes below, graph y \u0004 f(x) and y \u0004 g(x) for the given functions. f(x) \u0004 x3 \u0002 3x2 g(x) \u0004 2x \u0002 5 y x State the number of solutions to the equation f(x) \u0004 g(x). Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2022/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "A Foucault pendulum can be used to demonstrate that the Earth rotates. The time, t, in seconds, that it takes for one swing or period of the pendulum can be modeled by the equation t \u0004 2\u03c0 L g where L is the length of the pendulum in meters and g is a constant of 9.81 m/s2. The first Foucault pendulum was constructed in 1851 and has a pendulum length of 67 m. Determine, to the nearest tenth of a second, the time it takes this pendulum to complete one swing. Another Foucault pendulum at the United Nations building takes 9.6 seconds to complete one swing. Determine, to the nearest tenth of a meter,",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2022/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "In order to decrease the percentage of its residents who drive to work, a large city launches a campaign to encourage people to use public transportation instead. Before starting the campaign, the city\u2019s Department of Transportation uses census data to estimate that 65% of its residents drive to work. The Department of Transportation conducts a simulation, shown below, run 400 times based on this estimate. Each dot represents the proportion of 200 randomly selected residents who drive to work. 0.550 0.570 0.590 0.610 0.630 0.650 0.670 0.690 0.710 0.730 Proportion of residents who drive to work Mean = 0.651 SD = 0.034 Use the simulation results to construct a plausible interval containing the middle 95% of the data. Round your answer to the nearest hundredth. One year after launching the campaign, the Department of Transportation conducts a survey of 200 randomly selected city residents and finds that 122 of them drive to work. Should the department conclude that the city\u2019s campaign was effective?",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2022/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Solve the system of equations algebraically: x2 \u0003 y2 \u0004 25 y \u0003 5 \u0004 2",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "The population, in millions of people, of the United States can be represented by the recursive formula below, where a0 represents the population in 1910 and n represents the number of years since 1910. a0 \u0004 92.2 an \u0004 1.015an \u0002 1 Identify the percentage of the annual rate of growth from the equation an \u0004 1.015an \u0002 1. Write an exponential function, P, where P(t) represents the United States population in millions of people, and t is the number of years since 1910. According to this model, determine algebraically the number of years it takes for the population of the United States to be approximately 300 million people. Round your answer to the nearest year. Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0004 2.54 centimeters 1 kilometer \u0004 0.62 mile 1 cup \u0004 8 fluid ounces 1 meter \u0004 39.37 inches 1 pound \u0004 16 ounces 1 pint \u0004 2 cups 1 mile \u0004 5280 feet 1 pound \u0004 0.454 kilogram 1 quart \u0004 2 pints 1 mile \u0004 1760 yards 1 kilogram \u0004 2.2 pounds 1 gallon \u0004 4 quarts 1 mile \u0004 1.609 kilometers 1 ton \u0004 2000 pounds 1 gallon \u0004 3.785 liters 1 liter \u0004 0.264 gallon 1 liter \u0004 1000 cubic centimeters Triangle A \u0004 bh 1 2 Parallelogram A \u0004 bh Circle A \u0004 \u03c0r2 Circle C \u0004 \u03c0d or C \u0004 2\u03c0r General Prisms V \u0004 Bh Cylinder V \u0004 \u03c0r2h Sphere V \u0004 \u03c0r3 4 3 Cone V \u0004 \u03c0r2h 1 3 Pyramid V \u0004 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0004 c2 Quadratic Formula x \u0004 \u0002 \u0006 \u0002 b a b2 2 4ac Arithmetic Sequence an \u0004 a1 \u0003 (n \u0002 1)d Geometric Sequence an \u0004 a1r n \u0002 1 Geometric Series Sn \u0004 where r \u0007 1 a a r r n 1 1 1 \u0002 \u0002 Radians 1 radian \u0004 degrees 180 \u03c0 Degrees 1 degree \u0004 radians \u03c0 180 Exponential Growth/Decay A \u0004 A0ek(t \u0002 t0) \u0003 B0 Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useSubject } from '../context/SubjectContext'
-import { useXP } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { usePetContext } from '../context/PetContext'
 import { getDayQuestion } from '../data/triviaPool'
 import { T } from '../styles/duo'
@@ -15,6 +15,7 @@ import * as physData from '../content/physics/index'
 import * as a1Data   from '../content/algebra-1/index'
 import * as a2Data   from '../content/algebra-2/index'
 import * as geoData  from '../content/geometry/index'
+import * as lsData   from '../content/life-science/index'
 
 const SUBJECT_DATA = {
   'living-environment': leData,
@@ -24,6 +25,7 @@ const SUBJECT_DATA = {
   'algebra-1':          a1Data,
   'algebra-2':          a2Data,
   'geometry':           geoData,
+  'life-science':       lsData,
 }
 
 function today() { return new Date().toISOString().slice(0, 10) }
@@ -33,7 +35,7 @@ export default function PetTriviaCard() {
   const { user }        = useAuthContext()
   const { subject }     = useSubject()
   const uid             = user?.uid
-  const { earnXP }      = useXP(uid)
+  const { earnRP }      = useRP(uid)
   const { pet, triggerReaction } = usePetContext()
 
   const pool = useMemo(() => (SUBJECT_DATA[subject] ?? leData).questions ?? [], [subject])
@@ -62,7 +64,7 @@ export default function PetTriviaCard() {
     setAnswered(true)
     await AsyncStorage.setItem(`@triviaDate_v1_${uid}_${subject}`, today()).catch(() => {})
     if (ok) {
-      await earnXP(50)
+      await earnRP(50)
       triggerReaction('cheer')
     } else {
       triggerReaction('sad')

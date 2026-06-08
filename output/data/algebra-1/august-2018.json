@@ -1,0 +1,491 @@
+{
+  "subject": "algebra-1",
+  "session": "august-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The number of bacteria grown in a lab can be modeled by P(t) \u0002 300 \u2022 24t, where t is the number of hours. Which expression is equivalent to P(t)?",
+      "choices": [
+        "300 \u2022 8t",
+        "300 \u2022 16t",
+        "300t \u2022 24",
+        "3002t \u2022 22t"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "During physical education class, Andrew recorded the exercise times in minutes and heart rates in beats per minute (bpm) of four of his classmates. Which table best represents a linear model of exercise time and heart rate? Student 1 Student 3 Exercise Time (in minutes) Heart Rate (bpm) Exercise Time (in minutes) Heart Rate (bpm) 0 60 0 58 1 65 1 65 2 70 2 70 3 75 3 75 4 80 4 79",
+      "choices": [
+        "",
+        "",
+        "Student 2 Student 4 Exercise Time (in minutes) Heart Rate (bpm) Exercise Time (in minutes) Heart Rate (bpm) 0 62 0 62 1 70 1 65 2 83 2 66 3 88 3 73 4 90 4 75",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/august-2018/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "David correctly factored the expression m2 \u0003 12m \u0003 64. Which expression did he write?",
+      "choices": [
+        "(m \u0003 8)(m \u0003 8)",
+        "(m \u0003 8)(m \u0004 8)",
+        "(m \u0003 16)(m \u0004 4)",
+        "(m \u0004 16)(m \u0003 4)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The solution to \u00032(1 \u0003 4x) \u0002 3x \u0004 8 is",
+      "choices": [
+        "6 11",
+        "2",
+        "\u0003 10 7",
+        "\u00032"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The graph of f(x) is shown below. f(x) x What is the value of f(\u00033)?",
+      "choices": [
+        "6",
+        "2",
+        "\u00032",
+        "\u00034"
+      ],
+      "image": "/images/exams/algebra-1/august-2018/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "If the function f(x) \u0002 x2 has the domain {0, 1, 4, 9}, what is its range?",
+      "choices": [
+        "{0, 1, 2, 3}",
+        "{0, 1, 16, 81}",
+        "{0, \u00031, 1, \u00032, 2, \u00033, 3}",
+        "{0, \u00031, 1, \u000316, 16, \u000381, 81}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The expression 4x2 \u0003 25 is equivalent to",
+      "choices": [
+        "(4x \u0003 5)(x \u0004 5)",
+        "(4x \u0004 5)(x \u0003 5)",
+        "(2x \u0004 5)(2x \u0003 5)",
+        "(2x \u0003 5)(2x \u0003 5)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Compared to the graph of f(x) \u0002 x2, the graph of g(x) \u0002 (x \u0003 2)2 \u0004 3 is the result of translating f(x)",
+      "choices": [
+        "2 units up and 3 units right",
+        "2 units down and 3 units up",
+        "2 units right and 3 units up",
+        "2 units left and 3 units right"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Lizzy has 30 coins that total $4.80. All of her coins are dimes, D, and quarters, Q. Which system of equations models this situation?",
+      "choices": [
+        "D \u0004 Q \u0002 4.80",
+        "D \u0004 Q \u0002 30",
+        "D \u0004 Q \u0002 30 .10D \u0004 .25Q \u0002 30 .25D \u0004 .10Q \u0002 4.80",
+        "D \u0004 Q \u0002 4.80 .10D \u0004 .25Q \u0002 4.80 .25D \u0004 .10Q \u0002 30"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2018/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "11",
+      "choices": [
+        "The y-intercept for h(x) is greater than the y-intercept for f(x).",
+        "The y-intercept for f(x) is greater than the y-intercept for g(x).",
+        "The y-intercept for h(x) is greater than the y-intercept for both g(x) and f(x).",
+        "The y-intercept for g(x) is greater than the y-intercept for both f(x) and h(x)"
+      ],
+      "image": "/images/exams/algebra-1/august-2018/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Olivia entered a baking contest. As part of the contest, she needs to demonstrate how to measure a gallon of milk if she only has a teaspoon measure. She converts the measurement using the ratios below: 1 4 4 quarts 1 gallon 1 quart s s s 2 pints 2 cups 1 pint cup 4 tablespoons 3 teaspoons 1 tablespoon s Which ratio is incorrectly written in Olivia\u2019s conversion?",
+      "choices": [
+        "4 quarts 1 gallon",
+        "1 quart 2 pints",
+        "1 4 cup 4 tablespoons",
+        "3 teaspoons 1 tablespoon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "If y \u0002 3x3 \u0004 x2 \u0003 5 and z \u0002 x2 \u0003 12, which polynomial is equivalent to 2(y \u0004 z)?",
+      "choices": [
+        "6x3 \u0004 4x2 \u0003 34",
+        "6x3 \u0004 3x2 \u0003 17",
+        "6x3 \u0004 3x2 \u0003 22",
+        "6x3 \u0004 2x2 \u0003 17"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "An outdoor club conducted a survey of its members. The members were asked to state their preference between skiing and snowboarding. Each member had to pick one. Of the 60 males, 45 stated they preferred to snowboard. Twenty-two of the 60 females preferred to ski. What is the relative frequency that a male prefers to ski?",
+      "choices": [
+        "0.125",
+        "0.25",
+        "0 333 .",
+        "0 405"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "When the function g(x) \u0002 5x, x \u0003 3 x2 \u0011 4, x \u000e 3 is graphed correctly, how should the points be drawn on the graph for an x-value of 3?",
+      "choices": [
+        "open circles at (3,15) and (3,13)",
+        "closed circles at (3,15) and (3,13)",
+        "an open circle at (3,15) and a closed circle at (3,13)",
+        "a closed circle at (3,15) and an open circle at (3,13)"
+      ],
+      "image": "/images/exams/algebra-1/august-2018/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "If f(x) \u0002 2x2 \u0004 x \u0003 3, which equation can be used to determine the zeros of the function?",
+      "choices": [
+        "0 \u0002 (2x \u0003 3)(x \u0004 1)",
+        "0 \u0002 (2x \u0004 3)(x \u0003 1)",
+        "0 \u0002 2x(x \u0004 1) \u0003 3",
+        "0 \u0002 2x(x \u0003 1) \u0003 3(x \u0004 1)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Each day, a local dog shelter spends an average of $2.40 on food per dog. The manager estimates the shelter\u2019s daily expenses, assuming there is at least one dog in the shelter, using the function E(x) \u0002 30 \u0004 2.40x. Which statements regarding the function E(x) are correct? I. x represents the number of dogs at the shelter per day. II. x represents the number of volunteers at the shelter per day. III. 30 represents the shelter\u2019s total expenses per day. IV. 30 represents the shelter\u2019s nonfood expenses per day.",
+      "choices": [
+        "I and III",
+        "I and IV",
+        "II and III",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which point is not in the solution set of the equation 3y \u0004 2 \u0002 x2 \u00035x \u0004 17?",
+      "choices": [
+        "(\u00032,10)",
+        "(\u00031,7)",
+        "(2,3)",
+        "(5,5)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The functions f(x) and g(x) are graphed below. y x g(x) f(x) Based on the graph, the solutions to the equation f(x) \u0002 g(x) are",
+      "choices": [
+        "the x-intercepts",
+        "the y-intercepts",
+        "the x-values of the points of intersection",
+        "the y-values of the points of intersection"
+      ],
+      "image": "/images/exams/algebra-1/august-2018/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "For the sequence \u000327, \u000312, 3, 18, \u2026, the expression that defines the nth term where a1 \u0002 \u000327 is",
+      "choices": [
+        "15 \u0003 27n",
+        "15 \u0003 27(n \u0003 1)",
+        "\u000327 \u0004 15n",
+        "\u000327 \u0004 15(n \u0003 1)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The data obtained from a random sample of track athletes showed that as the foot size of the athlete decreased, the average running speed decreased. Which statement is best supported by the data?",
+      "choices": [
+        "Smaller foot sizes cause track athletes to run slower.",
+        "The sample of track athletes shows a causal relationship between foot size and running speed.",
+        "The sample of track athletes shows a correlation between foot size and running speed.",
+        "There is no correlation between foot size and running speed in track athletes."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which system of equations will yield the same solution as the system below? x \u0003 y \u0002 3 2x \u0003 3y \u0002 \u00031",
+      "choices": [
+        "\u00032x \u0003 2y \u0002 \u00036",
+        "\u00032x \u0004 2y \u0002 3",
+        "2x \u0003 2y \u0002 6 2x \u0003 3y \u0002 \u00031 2x \u0003 3y \u0002 \u00031",
+        "3x \u0004 3y \u0002 9 2x \u0003 3y \u0002 \u00031 2x \u0003 3y \u0002 \u00031"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which of the three situations given below is best modeled by an exponential function? I. A bacteria culture doubles in size every day. II. A plant grows by 1 inch every 4 days. III. The population of a town declines by 5% every 3 years.",
+      "choices": [
+        "I, only",
+        "II, only",
+        "I and II",
+        "I and III"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The length, width, and height of a rectangular box are represented by 2x, 3x \u0004 1, and 5x \u0003 6, respectively. When the volume is expressed as a polynomial in standard form, what is the coefficient of the 2nd term?",
+      "choices": [
+        "\u000313",
+        "13",
+        "\u000326",
+        "26 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Explain how to determine the zeros of f(x) \u0002 (x \u0004 3)(x \u0003 1)(x \u0003 8)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Four relations are shown below. I II x y \u2013 4 1 0 3 4 5 6 6 III y \u0015 x2 {(1,2), (2,5), (3,8), (2,\u00125), (1,\u00122)} IV y x State which relation(s) are functions. Explain why the other relation(s)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2018/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "The table below represents the height of a bird above the ground during flight, with P(t) representing height in feet and t representing time in seconds. t P(t) 0 6.71 3 6.26 4 6 9 3.41 Calculate the average rate of change from 3 to 9 seconds,",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2018/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Is the solution to the quadratic equation written below rational or irrational? Justify your answer. 0 \u0002 2x2 \u0004 3x \u0003 10",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "The formula for converting degrees Fahrenheit (F) to degrees Kelvin (K) is: K \u0002 5 9 (F \u0004 459.67) Solve for F,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Solve the following equation by completing the square: x2 \u0004 4x \u0002 2",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "The students in Mrs. Lankford\u2019s 4th and 6th period Algebra classes took the same test. The results of the scores are shown in the following table: x\u00af x n min Q1 med Q3 max 4th Period 77.75 10.79 20 58 69 76.5 87.5 96 6th Period 78.4 9.83 20 59 71.5 78 88 96 Based on these data, which class has the largest spread of test scores?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2018/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Write the first five terms of the recursive sequence defined below. a1 \u0002 0 an \u0002 2(an \u0003 1) 2 \u0003 1, for n \b 1 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Sarah wants to buy a snowboard that has a total cost of $580, including tax. She has already saved $135 for it. At the end of each week, she is paid $96",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "A car was purchased for $25,000. Research shows that the car has an average yearly depreciation rate of 18.5%. Create a function that will determine the value, V(t), of the car t years after purchase. Determine, to the nearest cent, how much the car will depreciate from year 3 to year 4",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Graph the following system of inequalities on the set of axes below: 2y \u0007 3x \u0003 16 y \u0004 2x \b \u00035 y x Based upon your graph, explain why (6,1) is a solution to this system and why (\u00036,7)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2018/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Paul plans to have a rectangular garden adjacent to his garage. He will use 36 feet of fence to enclose three sides of the garden. The area of the garden, in square feet, can be modeled by f(w) \u0002 w(36 \u0003 2w), where w is the width in feet. On the set of axes below, sketch the graph of f(w). 2 4 6 8 20 f(w) 80 120 160 40 10 12 14 16 18 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2018/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "At the present time, Mrs. Bee\u2019s age is six years more than four times her son\u2019s age. Three years ago, she was seven times as old as her son was then. If b represents Mrs. Bee\u2019s age now and s represents her son\u2019s age now, write a system of equations that could be used to model this scenario. Use this system of equations to determine, algebraically, the ages of both Mrs. Bee and her son now. Determine how many years from now Mrs. Bee will be three times as old as her son will be then. Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0004 b2 \u0002 c2 Quadratic Formula x \u0002 \u0003 \u0003 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0004 (n \u0003 1)d Geometric Sequence an \u0002 a1r n \u0003 1 Geometric Series Sn \u0002 where r 1 a a r r n 1 1 1 \u0003 \u0003 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0003 t0) \u0004 B0 Tear Here Tear Here ALGEBRA I ALGEBRA I Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

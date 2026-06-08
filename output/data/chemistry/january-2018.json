@@ -1,0 +1,1101 @@
+{
+  "subject": "chemistry",
+  "session": "january-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which statement describes the location of protons and neutrons in an atom of helium?",
+      "choices": [
+        "Protons and neutrons are in the nucleus.",
+        "Protons and neutrons are outside the nucleus.",
+        "Protons are outside the nucleus, and neutrons are in the nucleus.",
+        "Protons are in the nucleus, and neutrons are outside the nucleus."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Given a list of atomic model descriptions: A: electron shells outside a central nucleus B: hard, indivisible sphere C: mostly empty space Which list of atomic model descriptions represents the order of historical development from the earliest to most recent?",
+      "choices": [
+        "A, B, C",
+        "A, C, B",
+        "B, C, A",
+        "B, A, C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which list represents the classification of the elements nitrogen, neon, magnesium, and silicon, respectively?",
+      "choices": [
+        "metal, metalloid, nonmetal, noble gas",
+        "nonmetal, noble gas, metal, metalloid",
+        "nonmetal, metalloid, noble gas, metal",
+        "noble gas, metal, metalloid, nonmetal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In the ground state, all atoms of Group 15 elements have the same number of",
+      "choices": [
+        "valence electrons",
+        "electron shells",
+        "neutrons",
+        "protons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "What is the chemical formula for ammonium sulfide?",
+      "choices": [
+        "(NH4)2S",
+        "(NH4)2SO3",
+        "(NH4)2SO4",
+        "(NH4)2S2O3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which formula is an empirical formula?",
+      "choices": [
+        "N2O4",
+        "NH3",
+        "C3H6",
+        "P4O10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Chemical properties can be used to",
+      "choices": [
+        "determine the temperature of a substance",
+        "determine the density of a substance",
+        "differentiate between two compounds",
+        "differentiate between two neutrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Ice, H2O(s), is classified as",
+      "choices": [
+        "an ionic compound",
+        "a molecular compound",
+        "a homogeneous mixture",
+        "a heterogeneous mixture"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which phrase describes the molecular polarity and distribution of charge in a molecule of carbon dioxide, CO2?",
+      "choices": [
+        "polar and symmetrical",
+        "polar and asymmetrical",
+        "nonpolar and symmetrical",
+        "nonpolar and asymmetrical"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which element tends not to react with other elements?",
+      "choices": [
+        "helium",
+        "hydrogen",
+        "phosphorus",
+        "potassium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: O \u0002 O \u2192O2 Which statement describes the changes that occur as the oxygen molecule is produced?",
+      "choices": [
+        "Energy is absorbed as bonds are broken.",
+        "Energy is absorbed as bonds are formed.",
+        "Energy is released as bonds are broken.",
+        "Energy is released as bonds are formed."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which term represents the strength of the attraction an atom has for the electrons in a chemical bond?",
+      "choices": [
+        "electrical conductivity",
+        "electronegativity",
+        "first ionization energy",
+        "specific heat capacity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Compared to a 15-gram sample of Cu(s) at 25\u00b0C, a 25-gram sample of Cu(s) at 25\u00b0C has",
+      "choices": [
+        "the same density and the same chemical properties",
+        "the same density and different chemical properties",
+        "a different density and the same chemical properties",
+        "a different density and different chemical properties"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which substance can not be broken down by a chemical change?",
+      "choices": [
+        "ammonia",
+        "ethanol",
+        "tungsten",
+        "water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The kinetic molecular theory states that all particles of an ideal gas are",
+      "choices": [
+        "colliding without transferring energy",
+        "in random, constant, straight-line motion",
+        "arranged in a regular geometric pattern",
+        "separated by small distances relative to their size"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which sample of gas at STP has the same number of molecules as 6 liters of Cl2(g) at STP?",
+      "choices": [
+        "3 liters of O2(g)",
+        "6 liters of N2(g)",
+        "3 moles of O2(g)",
+        "6 moles of N2(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A chemical reaction is most likely to occur when the colliding particles have the proper",
+      "choices": [
+        "energy and orientation",
+        "solubility and density",
+        "ionic radii and mass",
+        "atomic radii and volume"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The energy absorbed and the energy released during a chemical reaction are best represented by a",
+      "choices": [
+        "cooling curve",
+        "heating curve",
+        "kinetic energy diagram",
+        "potential energy diagram"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "A catalyst increases the rate of a chemical reaction by",
+      "choices": [
+        "providing an alternate reaction pathway",
+        "providing the required heat of reaction",
+        "increasing the potential energy of the products",
+        "increasing the activation energy of the reaction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which formula represents an alkyne?",
+      "choices": [
+        "CnHn",
+        "C2nHn",
+        "CnH2n + 2",
+        "CnH2n \u2013 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which process involves the transfer of electrons?",
+      "choices": [
+        "double replacement",
+        "neutralization",
+        "oxidation-reduction",
+        "sublimation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which change occurs at the anode in an operating electrochemical cell?",
+      "choices": [
+        "gain of protons",
+        "gain of electrons",
+        "loss of protons",
+        "loss of electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which device requires electrical energy to produce a chemical change?",
+      "choices": [
+        "electrolytic cell",
+        "salt bridge",
+        "voltaic cell",
+        "voltmeter"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which substance is an Arrhenius acid?",
+      "choices": [
+        "HBr",
+        "NaBr",
+        "NaOH",
+        "NH3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which laboratory process is used to determine the concentration of one solution by using a volume of another solution of known concentration?",
+      "choices": [
+        "crystallization",
+        "distillation",
+        "filtration",
+        "titration"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which type of reaction occurs when H\u0002(aq) reacts with OH\u0003(aq)?",
+      "choices": [
+        "combustion",
+        "decomposition",
+        "fermentation",
+        "neutralization"
+      ],
+      "image": "/images/exams/chemistry/january-2018/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "According to one acid-base theory, a molecule acts as an acid when the molecule",
+      "choices": [
+        "accepts an H\u0002",
+        "accepts an OH\u0003",
+        "donates an H\u0002",
+        "donates an OH\u0003"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "In which type of reaction can an atom of one element be converted to an atom of another element?",
+      "choices": [
+        "addition",
+        "reduction",
+        "substitution",
+        "transmutation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "An unstable nucleus spontaneously releases a positron. This is an example of",
+      "choices": [
+        "radioactive decay",
+        "nuclear fusion",
+        "chemical decomposition",
+        "thermal conductivity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which phrase describes a risk associated with producing energy in a nuclear power plant?",
+      "choices": [
+        "depletion of atmospheric hydrogen (H2)",
+        "depletion of atmospheric carbon dioxide (CO2)",
+        "production of wastes needing long-term storage",
+        "production of wastes that cool surrounding water supplies"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "An ion that consists of 7 protons, 9 neutrons, and 10 electrons has a net charge of",
+      "choices": [
+        "2\u0003",
+        "2\u0002",
+        "3\u0002",
+        "3\u0003"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Which electron configuration represents the electrons of an atom in an excited state?",
+      "choices": [
+        "2\u20132",
+        "2\u20132\u20131",
+        "2\u20138",
+        "2\u20138\u20131"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The table below gives the atomic mass and the abundance of the two naturally occurring isotopes of boron. Naturally Occurring Isotopes of Boron Which numerical setup can be used to deter- mine the atomic mass of the element boron?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/chemistry/january-2018/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "In which group on the Periodic Table would a nonmetallic element belong if atoms of this element tend to gain two electrons to complete their valence shell?",
+      "choices": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which trend is observed as the first four elements in Group 17 on the Periodic Table are considered in order of increasing atomic number?",
+      "choices": [
+        "Electronegativity increases.",
+        "First ionization energy decreases.",
+        "The number of valence electrons increases.",
+        "The number of electron shells decreases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "What is the number of moles of KF in a 29-gram sample of the compound?",
+      "choices": [
+        "1.0 mol",
+        "2.0 mol",
+        "0.50 mol",
+        "5.0 mol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which bond is most polar?",
+      "choices": [
+        "C\u2013O",
+        "H\u2013O",
+        "N\u2013O",
+        "S\u2013O"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Based on Table F, which equation represents a saturated solution having the lowest concentration of Cl\u0003 ions?",
+      "choices": [
+        "NaCl(s) \u21ccNa\u0002(aq) \u0002 Cl\u0003(aq)",
+        "AgCl(s) \u21ccAg\u0002(aq) \u0002 Cl\u0003(aq)",
+        "NH4Cl(s) \u21ccNH4 \u0002(aq) \u0002 Cl\u0003(aq)",
+        "KCl(s) \u21ccK\u0002(aq) \u0002 Cl\u0003(aq) 19 9 80 1 2 . . % % \u0002 10 01 11 01 2 . . u u \u0002 ( . )( . ) ( . )( . ) 10 01 0 199 11 01 0 801 100 u u \u0002 ( . )( . ) ( . )( . ) 10 01 19 9 11 01 80 1 100 u u \u0002 Isotope Atomic Mass (u) Natural Abundance (%) B\u201310 10.01 19.9 B\u201311 11.01 80.1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "What is the molarity of a solution that contains 0.500 mole of KNO3 dissolved in 0.500-liter of solution?",
+      "choices": [
+        "1.00 M",
+        "2.00 M",
+        "0.500 M",
+        "4.00 M"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Given samples of water: Sample 1: 100. grams of water at 10.\u00b0C Sample 2: 100. grams of water at 20.\u00b0C Compared to sample 1, sample 2 contains",
+      "choices": [
+        "molecules with a lower average kinetic energy",
+        "molecules with a lower average velocity",
+        "less heat energy",
+        "more heat energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "written",
+      "text": "Given the key: Which particle model diagram represents a chemical change?",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Based on Table H, what is the vapor pressure of CH3COOH at 90.\u00b0C?",
+      "choices": [
+        "40. kPa",
+        "48 kPa",
+        "114 kPa",
+        "150. kPa"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The arrangement of particles is most ordered in a sample of",
+      "choices": [
+        "NaCl(aq)",
+        "NaCl(\u2113)",
+        "NaCl(g)",
+        "NaCl(s)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "What is the net amount of heat released when two moles of C2H6(g) are formed from its elements at 101.3 kPa and 298 K?",
+      "choices": [
+        "42.0 kJ",
+        "84.0 kJ",
+        "126.0 kJ",
+        "168.0 kJ"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which compounds are isomers of each other?",
+      "choices": [
+        "methanol and methanal",
+        "propanoic acid and pentanoic acid",
+        "1-propanol and 2-propanol",
+        "1-chloropropane and 2-bromopropane"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "A reaction between an alcohol and an organic acid is classified as",
+      "choices": [
+        "esterification",
+        "fermentation",
+        "saponification",
+        "substitution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Why is potassium nitrate classified as an electrolyte?",
+      "choices": [
+        "It is a molecular compound.",
+        "It contains a metal.",
+        "It can conduct electricity as a solid.",
+        "It releases ions in an aqueous solution."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "When the concentration of hydrogen ions in a solution is decreased by a factor of ten, the pH of the solution",
+      "choices": [
+        "increases by 1",
+        "increases by 10",
+        "decreases by 1",
+        "decreases by 10 ( 1 ) ( 2 ) ( 3 ) ( 4 ) Key = an atom of element A = an atom of element Z P.S./"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The cooling curve below represents the uniform cooling of a substance, starting at a temperature above its boiling point. During which time interval does the substance exist as both a liquid and a solid?",
+      "choices": [
+        "min 2 to min 4",
+        "min 4 to min 5",
+        "min 5 to min 7",
+        "min 7 to min 9"
+      ],
+      "image": "/images/exams/chemistry/january-2018/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: CH4(g) \u0002 2O2(g) \u2192CO2(g) \u0002 2H2O(g) \u0002 energy Which change in reaction conditions will increase the frequency of effective collisions between reactant molecules?",
+      "choices": [
+        "decreasing the pressure of the reactants",
+        "decreasing the temperature of the reactants",
+        "increasing the concentration of the reactants",
+        "increasing the volume of the reactants Cooling Curve 1 0 3 5 7 8 9 Time (min) 2 4 6 10 11 Temperature"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Convert the melting point of mercury to degrees Celsius.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Draw a Lewis electron-dot diagram for a molecule of hydrogen fluoride, HF.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the quantity of heat in joules required to completely vaporize 102.3 grams of H2O(\u2113) at 100.\u00b0C and 1.0 atm.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "State the color of methyl orange indicator after the indicator is placed in a solution of 0.10 M NH3(aq).",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/q54.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Write the letter of each element present in the mixture.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_55_56.png",
+      "context": "Base your answers to questions 55 and 56 on the information below and on your knowledge of chemistry.\nThe bright-line spectra for four elements and a mixture of elements are shown in the\ndiagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Explain, in terms of electrons and energy states, how the light emitted by excited atoms is produced. Bright-Line Spectra Element A Element D Element X Element Z Mixture Wavelength (nm) 400 500 600 700 750 400 500 600 700 750",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_55_56.png",
+      "context": "Base your answers to questions 55 and 56 on the information below and on your knowledge of chemistry.\nThe bright-line spectra for four elements and a mixture of elements are shown in the\ndiagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "State the chemical property of iodine listed in this table.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of \nchemistry.\nRubidium and iodine have different chemical and physical properties. Some of these\nproperties are shown in the table below.\nSome Physical and Chemical Properties of Rubidium and Iodine",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Compare the atomic radius of an atom of iodine to the atomic radius of an atom of rubidium when both atoms are in the ground state.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of \nchemistry.\nRubidium and iodine have different chemical and physical properties. Some of these\nproperties are shown in the table below.\nSome Physical and Chemical Properties of Rubidium and Iodine",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Compare the electrical conductivity of these two elements at STP.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of \nchemistry.\nRubidium and iodine have different chemical and physical properties. Some of these\nproperties are shown in the table below.\nSome Physical and Chemical Properties of Rubidium and Iodine",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Balance the equation in your answer booklet for the reaction, using the smallest whole- number coefficients.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of \nchemistry.\nGiven the unbalanced equation showing the reactants and product of a reaction\noccurring at 298 K and 100. kPa:\nP4(s) \u0002 Cl2(g) \u2192PCl3(\u2113) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State why this reaction is a synthesis reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of \nchemistry.\nGiven the unbalanced equation showing the reactants and product of a reaction\noccurring at 298 K and 100. kPa:\nP4(s) \u0002 Cl2(g) \u2192PCl3(\u2113) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the percent composition by mass of chlorine in PCl3(\u2113) (gram-formula mass = 137 g/mol). Rubidium Iodine silvery-white solid bluish-black lustrous solid forms ionic compounds with nonmetals forms ionic bonds with active metals reacts with oxygen in the air sublimes at room temperature specific heat = 0.363 J/g\u2022K specific heat = 0.214 J/g\u2022K",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of \nchemistry.\nGiven the unbalanced equation showing the reactants and product of a reaction\noccurring at 298 K and 100. kPa:\nP4(s) \u0002 Cl2(g) \u2192PCl3(\u2113) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Explain, in terms of neutrons and protons, why U-238 and U-234 are different isotopes of uranium.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of \nchemistry.\nThe diagram below shows the first three steps in the uranium-238 radioactive decay\nseries.\nThe decay mode for the first and third steps is shown above the arrows. The decay mode\nfor the second step is not shown in the diagram. Thorium-234 has a half-life of 24.10 days.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Identify the decay mode particle emitted from the Th-234.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of \nchemistry.\nThe diagram below shows the first three steps in the uranium-238 radioactive decay\nseries.\nThe decay mode for the first and third steps is shown above the arrows. The decay mode\nfor the second step is not shown in the diagram. Thorium-234 has a half-life of 24.10 days.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Determine the total time that must elapse until only 1__ 16 of an original sample of Th-234 remains unchanged. Th 234 90 Pa 234 91 U 234 92 U 238 92 \u03b1 ? \u03b2\u2212 P.S./",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of \nchemistry.\nThe diagram below shows the first three steps in the uranium-238 radioactive decay\nseries.\nThe decay mode for the first and third steps is shown above the arrows. The decay mode\nfor the second step is not shown in the diagram. Thorium-234 has a half-life of 24.10 days.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Write the empirical formula for tetrachloroethene.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 66 on the information below and on your knowledge of chemistry.\nTetrachloroethene, C2Cl4, is a solvent used in many dry cleaning processes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Based on Table E, identify the polyatomic ion in the solid product of the reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 67 through 69 on the information below and on your knowledge of \nchemistry.\nThermal energy is absorbed as chemical reactions occur during the process of baking\nmuffins. The batter for muffins often contains baking soda, NaHCO3(s), which decomposes\nas the muffins are baked in an oven at 200.\u00b0C. The balanced equation below represents this\nreaction, which releases CO2(g) and causes the muffins to rise as they bake. The H2O(\u2113) is\nreleased into the air of the oven as it becomes a vapor.\n2NaHCO3(s) \u0002 heat \u2192Na2CO3(s) \u0002 H2O(\u2113) \u0002 CO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "State the direction of heat flow between the air in the oven and the muffin batter when the muffin batter is first placed in the preheated oven at 200.\u00b0C.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 67 through 69 on the information below and on your knowledge of \nchemistry.\nThermal energy is absorbed as chemical reactions occur during the process of baking\nmuffins. The batter for muffins often contains baking soda, NaHCO3(s), which decomposes\nas the muffins are baked in an oven at 200.\u00b0C. The balanced equation below represents this\nreaction, which releases CO2(g) and causes the muffins to rise as they bake. The H2O(\u2113) is\nreleased into the air of the oven as it becomes a vapor.\n2NaHCO3(s) \u0002 heat \u2192Na2CO3(s) \u0002 H2O(\u2113) \u0002 CO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Compare the potential energy of the liquid water molecules to the potential energy of the water vapor molecules.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 67 through 69 on the information below and on your knowledge of \nchemistry.\nThermal energy is absorbed as chemical reactions occur during the process of baking\nmuffins. The batter for muffins often contains baking soda, NaHCO3(s), which decomposes\nas the muffins are baked in an oven at 200.\u00b0C. The balanced equation below represents this\nreaction, which releases CO2(g) and causes the muffins to rise as they bake. The H2O(\u2113) is\nreleased into the air of the oven as it becomes a vapor.\n2NaHCO3(s) \u0002 heat \u2192Na2CO3(s) \u0002 H2O(\u2113) \u0002 CO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State the number of significant figures used to express the pressure at the surface of the lake.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of \nchemistry.\nA bubble of air at the bottom of a lake rises to the surface of the lake. Data for the air\ninside the bubble at the bottom of the lake and at the surface of the lake are listed in the\ntable below. \nData for the Air Inside the Bubble",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the volume of the bubble at the bottom of the lake.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of \nchemistry.\nA bubble of air at the bottom of a lake rises to the surface of the lake. Data for the air\ninside the bubble at the bottom of the lake and at the surface of the lake are listed in the\ntable below. \nData for the Air Inside the Bubble",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Determine the mass of the air in the bubble at the surface of the lake.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of \nchemistry.\nA bubble of air at the bottom of a lake rises to the surface of the lake. Data for the air\ninside the bubble at the bottom of the lake and at the surface of the lake are listed in the\ntable below. \nData for the Air Inside the Bubble",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "State evidence from the equation that the forward reaction is exothermic.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 77 on the information below and on your knowledge of \nchemistry.\nNitrogen dioxide, NO2, is a dark brown gas that is used to make nitric acid and to bleach\nflour. Nitrogen dioxide has a boiling point of 294 K at 101.3 kPa. In a rigid cylinder with a\nmovable piston, nitrogen dioxide can be in equilibrium with colorless dinitrogen tetroxide,\nN2O4. This equilibrium is represented by the equation below.\n2NO2(g) \u21ccN2O4(g) \u0002 58 kJ",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Compare the rate of the forward reaction to the rate of the reverse reaction when the system has reached equilibrium.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 77 on the information below and on your knowledge of \nchemistry.\nNitrogen dioxide, NO2, is a dark brown gas that is used to make nitric acid and to bleach\nflour. Nitrogen dioxide has a boiling point of 294 K at 101.3 kPa. In a rigid cylinder with a\nmovable piston, nitrogen dioxide can be in equilibrium with colorless dinitrogen tetroxide,\nN2O4. This equilibrium is represented by the equation below.\n2NO2(g) \u21ccN2O4(g) \u0002 58 kJ",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "State one stress, other than adding or removing NO2(g) or N2O4(g), that would increase the amount of the dark brown gas.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 77 on the information below and on your knowledge of \nchemistry.\nNitrogen dioxide, NO2, is a dark brown gas that is used to make nitric acid and to bleach\nflour. Nitrogen dioxide has a boiling point of 294 K at 101.3 kPa. In a rigid cylinder with a\nmovable piston, nitrogen dioxide can be in equilibrium with colorless dinitrogen tetroxide,\nN2O4. This equilibrium is represented by the equation below.\n2NO2(g) \u21ccN2O4(g) \u0002 58 kJ",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "At standard pressure, compare the strength of intermolecular forces in NO2(g) to the strength of intermolecular forces in N2(g).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 77 on the information below and on your knowledge of \nchemistry.\nNitrogen dioxide, NO2, is a dark brown gas that is used to make nitric acid and to bleach\nflour. Nitrogen dioxide has a boiling point of 294 K at 101.3 kPa. In a rigid cylinder with a\nmovable piston, nitrogen dioxide can be in equilibrium with colorless dinitrogen tetroxide,\nN2O4. This equilibrium is represented by the equation below.\n2NO2(g) \u21ccN2O4(g) \u0002 58 kJ",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Determine the oxidation state of nitrogen in nitrogen dioxide. Location in Lake Temperature (K) Pressure (kPa) Volume (mL) Density (g/mL) surface 293 104.0 2.5 0.0012 bottom 282 618.3 ? \u2014\u2014\u2014",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 77 on the information below and on your knowledge of \nchemistry.\nNitrogen dioxide, NO2, is a dark brown gas that is used to make nitric acid and to bleach\nflour. Nitrogen dioxide has a boiling point of 294 K at 101.3 kPa. In a rigid cylinder with a\nmovable piston, nitrogen dioxide can be in equilibrium with colorless dinitrogen tetroxide,\nN2O4. This equilibrium is represented by the equation below.\n2NO2(g) \u21ccN2O4(g) \u0002 58 kJ",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Determine the number of moles of Mg2\u0002(aq) ions produced when 2.5 moles of Zn2\u0002(aq) react completely in this cell.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of \nchemistry.\nA student sets up a voltaic cell using magnesium and zinc electrodes. The porous barrier\nin the cell has the same purpose as a salt bridge. The diagram and the ionic equation below\nrepresent this operating cell.\nMg(s) \u0002 Zn2\u0002(aq) \u2192Zn(s) \u0002 Mg2\u0002(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "State, in terms of ions, how the porous barrier functions as a salt bridge in this cell.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of \nchemistry.\nA student sets up a voltaic cell using magnesium and zinc electrodes. The porous barrier\nin the cell has the same purpose as a salt bridge. The diagram and the ionic equation below\nrepresent this operating cell.\nMg(s) \u0002 Zn2\u0002(aq) \u2192Zn(s) \u0002 Mg2\u0002(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "State, in terms of the relative activity of metals, why the reaction in this cell occurs.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of \nchemistry.\nA student sets up a voltaic cell using magnesium and zinc electrodes. The porous barrier\nin the cell has the same purpose as a salt bridge. The diagram and the ionic equation below\nrepresent this operating cell.\nMg(s) \u0002 Zn2\u0002(aq) \u2192Zn(s) \u0002 Mg2\u0002(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Write a balanced half-reaction equation for the oxidation that occurs in this operating cell. Zn(s) electrode Voltaic Cell Voltmeter Mg(s) electrode Wire Mg2+(aq) Zn2+(aq) V Wire Porous barrier",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of \nchemistry.\nA student sets up a voltaic cell using magnesium and zinc electrodes. The porous barrier\nin the cell has the same purpose as a salt bridge. The diagram and the ionic equation below\nrepresent this operating cell.\nMg(s) \u0002 Zn2\u0002(aq) \u2192Zn(s) \u0002 Mg2\u0002(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Explain, in terms of chemical bonds, why the hydrocarbon in equation 1 is unsaturated.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of \nchemistry.\nPolyvinyl chloride (PVC) is a polymer used to make drain pipes, flooring, electric wire\ninsulation, and some plastic bottles. Making PVC requires several reactions. The first step\nis represented by the equation below.\nEquation 1:\nC2H4\n\u0002\nCl2\n\u2192\nC2H4Cl2\nethene\nchlorine\n1,2-dichloroethane\nThe 1,2-dichloroethane is converted to vinyl chloride. To produce PVC, the vinyl\nchloride monomer is polymerized, as represented by the equation below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Identify the class of organic compounds to which the product of equation 1 belongs.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of \nchemistry.\nPolyvinyl chloride (PVC) is a polymer used to make drain pipes, flooring, electric wire\ninsulation, and some plastic bottles. Making PVC requires several reactions. The first step\nis represented by the equation below.\nEquation 1:\nC2H4\n\u0002\nCl2\n\u2192\nC2H4Cl2\nethene\nchlorine\n1,2-dichloroethane\nThe 1,2-dichloroethane is converted to vinyl chloride. To produce PVC, the vinyl\nchloride monomer is polymerized, as represented by the equation below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Draw a structural formula for the product of equation 1.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of \nchemistry.\nPolyvinyl chloride (PVC) is a polymer used to make drain pipes, flooring, electric wire\ninsulation, and some plastic bottles. Making PVC requires several reactions. The first step\nis represented by the equation below.\nEquation 1:\nC2H4\n\u0002\nCl2\n\u2192\nC2H4Cl2\nethene\nchlorine\n1,2-dichloroethane\nThe 1,2-dichloroethane is converted to vinyl chloride. To produce PVC, the vinyl\nchloride monomer is polymerized, as represented by the equation below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "State the number of electrons shared between the carbon atoms in a molecule of vinyl chloride. C H Cl C H H n n H Cl C C H H Note: n and n represent the same large number in the equation. Vinyl chloride (monomer) PVC (polymer) Equation 2: P.S./ P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2018/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of \nchemistry.\nPolyvinyl chloride (PVC) is a polymer used to make drain pipes, flooring, electric wire\ninsulation, and some plastic bottles. Making PVC requires several reactions. The first step\nis represented by the equation below.\nEquation 1:\nC2H4\n\u0002\nCl2\n\u2192\nC2H4Cl2\nethene\nchlorine\n1,2-dichloroethane\nThe 1,2-dichloroethane is converted to vinyl chloride. To produce PVC, the vinyl\nchloride monomer is polymerized, as represented by the equation below.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

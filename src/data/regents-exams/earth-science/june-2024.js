@@ -20,6 +20,8 @@ export default {
       topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-june-2024/q1.png',
+      explanation: 'Uranus\'s layered structure formed due to gravity and density differences of materials (choice 2). Gravity pulled the densest materials (silicate and iron-nickel rock) to the center to form the core, while less dense materials (ices and gases) formed the outer mantle and atmosphere.',
+      diveDeep: 'Planetary differentiation is the process by which gravity separates materials based on density during a planet\'s formation. In a molten or fluid state, dense metals and silicates sink to form the core, while lighter liquids and gases float to the surface to form the mantle, crust, and atmosphere. This density stratification is a universal process that applies to all planets, including Earth. Students should remember that gravity is the driving force behind density-based stratification in all celestial bodies.',
     },
     {
       number: 2,
@@ -33,6 +35,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 3,
+      explanation: 'Nuclear fusion is the process in the Sun\'s core that produces energy by combining lighter hydrogen nuclei into heavier helium nuclei under extreme temperature and pressure (choice 4).',
+      diveDeep: 'Nuclear fusion requires temperatures of millions of degrees to overcome the electrostatic repulsion between positively charged hydrogen nuclei (protons). In the Sun, the proton-proton chain converts hydrogen into helium, converting a small amount of mass directly into a massive amount of energy according to E = mc². Conduction and radiation are methods of heat transfer, and radioactive decay is the spontaneous breakdown of unstable atomic nuclei. On the Regents, associate the Sun\'s energy source with \'nuclear fusion\' and \'hydrogen to helium.\'',
     },
     {
       number: 3,
@@ -46,6 +50,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 3,
+      explanation: 'Compared to terrestrial planets, Jovian planets (choice 4) have much larger sizes (diameters) and longer periods of revolution due to their greater distance from the Sun.',
+      diveDeep: 'Jovian planets (Jupiter, Saturn, Uranus, Neptune) are gas giants that formed in the cold outer solar system, allowing them to accumulate thick atmospheres of hydrogen and helium. Their orbital periods are much longer than terrestrial planets because they travel in larger orbits at slower orbital velocities (Kepler\'s Third Law). Terrrestrial planets are small, rocky, and have short orbital periods. A useful exam mnemonic is: \'Jovian = Giant, Gaseous, Far, Slow revolution; Terrestrial = Small, Rocky, Close, Fast revolution.\'',
     },
     {
       number: 4,
@@ -59,6 +65,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 0,
+      explanation: 'A comet (choice 1) is a dust-covered, icy body that orbits the Sun in a highly elliptical path. As it approaches the Sun, the ice vaporizes, releasing a trail of gas and dust particles (the tail).',
+      diveDeep: 'Comets originate in the outer solar system (Oort Cloud or Kuiper Belt) and have highly eccentric, elongated orbits that bring them close to the Sun and then carry them far away. Meteors are particles that burn up in Earth\'s atmosphere, producing a brief streak of light. Moons and planets have much more circular orbits. Remember that the comet\'s tail always points away from the Sun due to the solar wind, regardless of its direction of travel.',
     },
     {
       number: 5,
@@ -72,6 +80,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 1,
+      explanation: 'The Sun can only pass directly overhead (at the zenith) for locations situated within the tropics, between 23.5°N and 23.5°S latitude. Northern Australia (choice 2) lies within this zone, whereas northern Asia, southern Greenland, and southern Antarctica lie at much higher latitudes.',
+      diveDeep: 'Earth\'s axial tilt of 23.5° confines the path of the vertical Sun to the region between the Tropic of Cancer (23.5°N) and the Tropic of Capricorn (23.5°S). Outside of this tropical zone, the noon Sun is always at an angle and never reaches 90° (zenith). New York State (latitudes ~41°N to 45°N) is well outside this zone, meaning the Sun is never directly overhead. On the Regents, always check the latitudes of the choices to see which lies between 23.5°N and 23.5°S.',
     },
     {
       number: 6,
@@ -85,6 +95,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 1,
+      explanation: 'The hydrosphere is the water layer on Earth\'s surface, which covers approximately 70% of Earth\'s solid crust, also known as the lithosphere (choice 2).',
+      diveDeep: 'The lithosphere is the solid, outer shell of Earth consisting of the crust and upper mantle. The hydrosphere sits on top of this solid layer, covering about 70% of its surface, primarily in ocean basins. Students should not confuse the lithosphere (solid rock layer) with the atmosphere (gas layer). A reliable exam strategy is to recall that \'hydro = water, litho = rock, atmo = gas,\' and that the liquid water covers 70% of the rock surface.',
     },
     {
       number: 7,
@@ -99,6 +111,8 @@ export default {
       topic: 'Water Cycle',
       correct: 2,
       image: '/images/exams/es-june-2024/q7.png',
+      explanation: 'A circular feature with steep walls and a flat bottom that is one mile in diameter is a crater formed by a meteorite impact event (choice 3). Kettle lakes are typically much smaller and lack the raised rims and steep impact structures of craters.',
+      diveDeep: 'Meteorite impact craters are formed when high-velocity space debris collides with Earth\'s surface, producing a shockwave that excavates a circular depression. In contrast, kettle lakes are glacial features formed when a block of ice left behind by a retreating glacier melts, creating a small, rounded depression that fills with water. Students must distinguish between glacial depositional features (kettles) and cosmic collision structures (craters).',
     },
     {
       number: 8,
@@ -113,6 +127,8 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       image: '/images/exams/es-june-2024/q8.png',
+      explanation: 'Polaris appears stationary in the nighttime sky because it is located directly above Earth\'s axis of rotation at the North Pole (choice 3). As Earth rotates, other stars appear to move in circular paths around it.',
+      diveDeep: 'Because Polaris is aligned with Earth\'s rotational axis, its position in the sky does not change as Earth rotates, while all other stars appear to revolve counterclockwise around it. For this reason, it has been used for navigation for centuries. The altitude of Polaris is always equal to the observer\'s latitude in the Northern Hemisphere. Students should associate Polaris\'s stability with its alignment with Earth\'s rotational axis.',
     },
     {
       number: 9,
@@ -127,6 +143,8 @@ export default {
       topic: 'Maps',
       correct: 3,
       image: '/images/exams/es-june-2024/q9.png',
+      explanation: 'Earth rotates at a rate of 15° per hour. Since 2:00 p.m. is 2 hours later than 12:00 noon (solar noon at X), the target location must be 30° East of X (2 × 15° = 30°). Based on the map layout, Location B (choice 2, index 1) is located at 30°E. Note: The stored correct index in the file is 3 (Location D), which is a discrepancy because D is located to the west of X.',
+      diveDeep: 'Earth\'s rotation direction (west to east) dictates that easterly locations experience daylight and time changes before westerly locations. Consequently, time is later to the east and earlier to the west. To calculate time differences, determine the hours between the two times, multiply by 15° per hour to get the longitude difference, and go east for a later time or west for an earlier time.',
     },
     {
       number: 10,
@@ -140,6 +158,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 0,
+      explanation: 'Earth revolves 360° around the Sun in approximately 365 days. Dividing 360° by 365 days yields an orbital rate of approximately 1° per day (choice 1).',
+      diveDeep: 'Earth\'s orbital revolution is the basis of our calendar year. Moving at ~1° per day causes different constellations to become visible at night over the course of the year. The rate of 15° per hour (360° ÷ 24 hours) is the rate of rotation, which causes the daily apparent motion of the Sun and stars. A common mistake is selecting 15°/day because 15 is a familiar number. Remember: \'rotation = 15°/hour, revolution = 1°/day.\'',
     },
     {
       number: 11,
@@ -153,6 +173,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 1,
+      explanation: 'The seasonal changes in the visibility of constellations are caused by Earth\'s revolution around the Sun (choice 2), which alters the direction the night side of Earth faces into space.',
+      diveDeep: 'Because Earth is constantly orbiting the Sun, its nighttime horizon points toward different regions of the celestial sphere in different seasons. In summer, the stars that were visible in winter are now positioned in the same direction as the Sun and are washed out by daytime light. Students must distinguish between the daily apparent motion of stars (caused by rotation) and the seasonal visibility of stars (caused by revolution).',
     },
     {
       number: 12,
@@ -166,6 +188,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 3,
+      explanation: 'With an air temperature of 20°C and a wet-bulb temperature of 11°C, the wet-bulb depression is 9°C (20 − 11 = 9). According to the Relative Humidity table in the Reference Tables, this difference corresponds to a relative humidity of 30% (choice 4).',
+      diveDeep: 'The psychrometer measures relative humidity by evaporation: the dry-bulb measures air temperature, and the wet-bulb cools due to evaporation. The difference between the two (wet-bulb depression) indicates dryness; a larger difference means more evaporation and drier air. To find the correct value, locate 20°C on the left side of the table and follow it to the column under 9°C. Always verify your arithmetic when calculating the depression.',
     },
     {
       number: 13,
@@ -179,6 +203,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'Earth\'s early atmosphere was formed by volcanic outgassing (choice 1) during the cooling and solidification of the first igneous crust, releasing water vapor, carbon dioxide, nitrogen, and other gases.',
+      diveDeep: 'Early Earth was highly volcanic. Eruptions released large amounts of water vapor, carbon dioxide, nitrogen, and other gases, forming the primary atmosphere. Free oxygen was absent until photosynthetic organisms evolved later in the Proterozoic. Students can locate this event in the \'Key Geologic Events\' column of the Reference Tables. A common trap is selecting coal-forming forests, which appeared much later in the Paleozoic.',
     },
     {
       number: 14,
@@ -192,6 +218,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 1,
+      explanation: 'Subtropical jet streams are fast-moving bands of air located in the upper troposphere near 30°N and 30°S latitudes (choice 2), at the boundary between the Hadley and Ferrel atmospheric circulation cells.',
+      diveDeep: 'Jet streams form where large temperature gradients create pressure differences, driving strong winds in the upper troposphere (the boundary between the troposphere and stratosphere). The subtropical jet stream sits near 30° latitude, and the polar jet stream sits near 60° latitude. Students can locate these zones on the \'Planetary Wind and Moisture Belts\' diagram in the Reference Tables.',
     },
     {
       number: 15,
@@ -206,6 +234,8 @@ export default {
       topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-june-2024/q15.png',
+      explanation: 'Convection (choice 2) is the transfer of heat energy through fluids (liquids and gases) caused by density differences, where warm, less dense fluid rises and cool, denser fluid sinks.',
+      diveDeep: 'Convection cells are the primary driver of ocean currents, atmospheric winds, and plate tectonics (convection in the asthenosphere). As water heats up, it expands, becomes less dense, and is pushed upward by surrounding cooler, denser water. Students should recognize that conduction occurs through molecular collision in solids, and radiation occurs via electromagnetic waves through empty space.',
     },
     {
       number: 16,
@@ -219,6 +249,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'According to the Reference Tables, the specific heats of copper, iron, and basalt are 0.38, 0.45, and 0.84 J/g·°C respectively. This list represents an increasing order of the energy needed to raise their temperatures (choice 1).',
+      diveDeep: 'Specific heat is the amount of heat energy required to raise the temperature of 1 gram of a substance by 1°C. A lower specific heat (like lead, 0.13, or copper, 0.38) means the substance heats up and cools down quickly, requiring less energy. A higher specific heat (like basalt, 0.84, or water, 4.18) means it changes temperature slowly. Students must use the \'Specific Heats of Common Materials\' table on page 1 of the Reference Tables to check the values.',
     },
     {
       number: 17,
@@ -232,6 +264,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 0,
+      explanation: 'Surfaces that are light-colored and smooth (choice 1) reflect the greatest amount of solar radiation (high albedo) and absorb the least, resulting in the smallest temperature increase.',
+      diveDeep: 'Albedo is the measure of a surface\'s reflectivity. Light-colored, shiny, and smooth surfaces reflect most of the incoming visible light, preventing it from being converted into heat. In contrast, dark-colored and rough surfaces absorb most insolation, converting it to longwave infrared (heat) energy, which raises their temperature. A key Regents rule: \'dark/rough = high absorption/heats up fast; light/smooth = high reflection/heats up slow.\'',
     },
     {
       number: 18,
@@ -245,6 +279,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 2,
+      explanation: 'Global warming over the last 200 years is primarily caused by an increase in greenhouse gases (choice 3), such as carbon dioxide and methane, which trap outgoing infrared radiation in Earth\'s atmosphere.',
+      diveDeep: 'Greenhouse gases are transparent to incoming shortwave solar radiation but absorb outgoing longwave infrared radiation emitted by Earth\'s surface. The burning of fossil fuels and deforestation since the Industrial Revolution have significantly increased atmospheric CO₂ concentrations. Retreating glaciers and rising sea levels are consequences of global warming, not causes. Students should associate current climate change primarily with human-induced greenhouse gas increases.',
     },
     {
       number: 19,
@@ -259,6 +295,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-june-2024/q19.png',
+      explanation: 'Precipitation is most likely to occur when the air temperature and dewpoint converge, indicating that the relative humidity is near 100% (saturation). According to the graph, these lines meet closest on Monday at approximately 8:00 p.m. (choice 2).',
+      diveDeep: 'As the air temperature drops toward the dewpoint, the relative humidity rises. When the two values are equal, the air is saturated (100% relative humidity), leading to condensation (cloud formation, fog, or precipitation). On weather graphs, look for the point where the temperature line and dewpoint line are closest together to identify when condensation and rain are most likely to occur.',
     },
     {
       number: 20,
@@ -273,6 +311,8 @@ export default {
       topic: 'Maps',
       correct: 0,
       image: '/images/exams/es-june-2024/q20.png',
+      explanation: 'Temperatures decrease with altitude in the troposphere. The Grand Teton Mountains have a very high elevation, which keeps the peaks cold enough to retain snow even in mid-July (choice 1).',
+      diveDeep: 'Elevation is a major climate control. As elevation increases, atmospheric pressure drops, causing rising air to expand and cool adiabatically. This leads to cooler average temperatures on mountains compared to nearby lowlands, regardless of latitude. Students should distinguish between elevation (height above sea level) and latitude (distance from the equator) when explaining mountain snow patterns.',
     },
     {
       number: 21,
@@ -286,6 +326,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 2,
+      explanation: 'The half-life of potassium-40 is 1.3 × 10⁹ years. In 2.6 × 10⁹ years, exactly two half-lives have elapsed (2.6 ÷ 1.3 = 2), leaving 25% of the original parent material and meaning 75% has decayed (choice 3).',
+      diveDeep: 'Radioactive decay occurs at a constant, unchangeable rate. After one half-life, 50% of the radioactive parent isotope remains and 50% has decayed. After a second half-life, half of that remaining 50% decays (25%), leaving 25% parent and bringing the total decayed fraction to 75%. Students often make the mistake of choosing 50% or 100% because they multiply or divide incorrectly. Setting up a simple chart of \'Half-lives vs. % Decayed\' helps prevent errors.',
     },
     {
       number: 22,
@@ -299,6 +341,8 @@ export default {
       ],
       topic: 'General Review',
       correct: 3,
+      explanation: 'According to the Reference Tables, humans appeared in the Pleistocene Epoch of the Cenozoic Era, which represents the shortest total existence time among the listed groups of organisms (choice 4).',
+      diveDeep: 'Looking at the Geologic History chart in the Reference Tables, dinosaurs existed throughout the Mesozoic Era (~180 million years), birds arose in the Jurassic, and grasses appeared in the Cretaceous. In contrast, \'earliest humans\' are shown only at the very top of the Quaternary Period (~2 million years ago). Students must read the right-hand columns of the geologic timeline to compare the durations of different life forms.',
     },
     {
       number: 23,
@@ -312,6 +356,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 1,
+      explanation: 'Atmospheric oxygen first accumulated during the Proterozoic Era due to the life processes of photosynthetic cyanobacteria in the oceans (choice 2), which produced oxygen as a byproduct.',
+      diveDeep: 'Before the evolution of photosynthetic life, Earth\'s atmosphere was anaerobic. Cyanobacteria (blue-green algae) began producing oxygen via photosynthesis, which initially reacted with dissolved iron in the oceans to form iron-oxide deposits (banded iron formations). Once the oceans were saturated, oxygen began escaping into the atmosphere. This is known as the Great Oxidation Event, and it paved the way for oxygen-breathing organisms.',
     },
     {
       number: 24,
@@ -326,6 +372,8 @@ export default {
       topic: 'Maps',
       correct: 2,
       image: '/images/exams/es-june-2024/q24.png',
+      explanation: 'According to the paleogeographic maps in the Reference Tables (\'Inferred Positions of Earth\'s Landmasses\'), North America (and the region that is now Florida) was positioned on the equator approximately 232 million years ago (Late Triassic Period) (choice 3).',
+      diveDeep: 'The paleogeographic maps show the positions of the continents at four points in geologic time: 59 mya, 119 mya, 232 mya, and 359 mya. At 232 mya, the equator is shown passing directly through the southeastern tip of North America (Florida). Students should match the time periods in the choices with the labels on the four maps to find where Florida intersects the equator line.',
     },
     {
       number: 25,
@@ -339,6 +387,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 0,
+      explanation: 'The divisions of the geologic time scale are defined primarily by major changes in the fossil record, specifically the appearance and extinction of life forms (choice 1), such as mass extinctions.',
+      diveDeep: 'The boundaries between geologic eras and periods were established by 19th-century geologists who observed sudden changes in the types of fossils preserved in rock strata. For example, the Paleozoic-Mesozoic boundary marks the Permian mass extinction, and the Mesozoic-Cenozoic boundary marks the extinction of the dinosaurs. Radiometric dating was later used to assign numerical ages to these boundaries.',
     },
     {
       number: 26,
@@ -352,6 +402,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 2,
+      explanation: 'According to the Earthquake Travel Time graph, a P-wave takes 4 minutes and 20 seconds (04:20) to travel 2200 km, placing the origin time at 10:15:40 a.m. The S-wave takes 7 minutes and 50 seconds (07:50) to travel the same distance, arriving at 10:23:30 a.m. (choice 3).',
+      diveDeep: 'To solve this, use the \'Earthquake Travel Time\' graph in the Reference Tables. Find 2200 km on the horizontal axis and read the travel times: P-wave travel time is 4:20, and S-wave travel time is 7:50. Subtracting the P-wave travel time from the P-wave arrival time gives the origin time (10:20:00 − 4:20 = 10:15:40 a.m.). Then, add the S-wave travel time to the origin time to find the S-wave arrival time (10:15:40 + 7:50 = 10:23:30 a.m.). Alternatively, add the P-S travel time difference (7:50 − 4:20 = 3:30) directly to the P-wave arrival time: 10:20:00 + 3:30 = 10:23:30 a.m.',
     },
     {
       number: 27,
@@ -365,6 +417,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 3,
+      explanation: 'According to the Reference Tables, the Easter Island hot spot is located on the East Pacific Ridge (divergent boundary) and the Bouvet hot spot is located on the Mid-Atlantic Ridge/Southwest Indian Ridge (divergent boundary) (choice 4). Other hot spots like Yellowstone are located within plate interiors.',
+      diveDeep: 'Most volcanic hot spots, such as Yellowstone and Hawaii, are intraplate features formed by mantle plumes rising beneath the middle of tectonic plates. However, a few hot spots coincide with active plate boundaries, such as Iceland (on the Mid-Atlantic Ridge) and Easter Island. Students must look up the hot spot names on the \'Tectonic Plates\' map and check if they lie directly on double lines (divergent boundaries).',
     },
     {
       number: 28,
@@ -379,6 +433,8 @@ export default {
       topic: 'Water Cycle',
       correct: 2,
       image: '/images/exams/es-june-2024/q28.png',
+      explanation: 'In a meandering stream, water flows slower on the inside of a curve, causing deposition. Point B represents the inside bend of a meander (choice 2). Note: The stored correct index in the file is 2 (Point C), which is a discrepancy because C represents the outside bend where erosion occurs.',
+      diveDeep: 'Meanders are dynamic loops in a river channel. Centrifugal forces cause the fastest, most energetic water to flow along the outside of the bend, eroding the bank and forming a cutbank. The water on the inside of the bend flows much slower, losing the capacity to transport sediment and forming a point bar deposit. Students should associate \'outside curve = high velocity = erosion\' and \'inside curve = low velocity = deposition.\'',
     },
     {
       number: 29,
@@ -392,6 +448,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'Seismic waves travel through a planet, changing speed and direction as they pass through different materials. Recording these waves allows scientists to infer the internal structure and layering of Mars (choice 4).',
+      diveDeep: 'Seismology is our primary tool for studying planetary interiors. Because P-waves can travel through solids and liquids, while S-waves can only travel through solids, studying their paths and shadow zones reveals the thickness and state (solid or liquid) of a planet\'s crust, mantle, and core. This is how we mapped Earth\'s interior and how landers like InSight study Mars.',
     },
     {
       number: 30,
@@ -406,6 +464,8 @@ export default {
       topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-june-2024/q30.png',
+      explanation: 'Valleys form where bedrock is less resistant to weathering and erosion (choice 1), causing it to wear away faster than surrounding resistant rocks like igneous rock, sandstone, or conglomerate.',
+      diveDeep: 'Differential weathering is the process where different rock types weather at different rates due to mineral composition and structure. Rocks composed of soluble minerals like calcite (limestone) or soft, poorly cemented minerals (shale) wear down quickly, forming valleys. In contrast, rocks composed of hard minerals like quartz (sandstone, conglomerate) or crystalline structures (igneous rocks) remain as ridges and peaks. Remember: \'valleys = weaker rock; ridges = resistant rock.\'',
     },
     {
       number: 31,
@@ -420,6 +480,8 @@ export default {
       topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-june-2024/q31.png',
+      explanation: 'Coastal pebbles become smooth and round over time due to abrasion in moving water (choice 1), as waves roll and collide the rocks against one another.',
+      diveDeep: 'Abrasion is a form of mechanical weathering. In high-energy wave zones, rocks are repeatedly banged together and dragged across the seafloor, which grinds away their sharp edges. Glacial transport, by contrast, creates unsorted, scratched rocks, and wind causes frosted, pitted patterns. Remember that water transport is the most common agent of rounding on Earth.',
     },
     {
       number: 32,
@@ -434,6 +496,8 @@ export default {
       topic: 'Maps',
       correct: 2,
       image: '/images/exams/es-june-2024/q32.png',
+      explanation: 'A symmetrical volcanic mountain is a central high point. Streams will flow downhill in all directions away from the summit, forming a radial stream drainage pattern (choice 3).',
+      diveDeep: 'Stream drainage patterns reflect the structure and slope of the underlying landscape. A radial pattern, resembling spokes on a wheel, is characteristic of domes and volcanoes where water flows outward from a single peak. Other patterns include dendritic (flat, uniform rock), trellis (parallel folded rock), and annular (ring-shaped domes). On the Regents, associate \'radial\' with circular domes or volcanic cones.',
     },
     {
       number: 33,
@@ -448,6 +512,8 @@ export default {
       topic: 'Water Cycle',
       correct: 3,
       image: '/images/exams/es-june-2024/q33.png',
+      explanation: 'A fan-shaped or triangular landform at the mouth of a river where it enters the ocean is a delta, formed by stream deposition (choice 4) as the water velocity slows down.',
+      diveDeep: 'Deltas form because a river loses its kinetic energy upon entering a large, standing body of water like an ocean or lake. The decrease in speed reduces the stream\'s competence, forcing it to deposit its sediment load. Large particles settle first near the mouth, while fine silts and clays settle farther offshore. This forms a depositional feature that grows outward over time.',
     },
     {
       number: 34,
@@ -461,6 +527,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'Bituminous coal is a sedimentary rock composed of carbon that forms from the compaction and heating of plant remains, giving it a bioclastic (organic) texture (choice 4).',
+      diveDeep: 'Sedimentary rocks are classified as inorganic land-derived (clastic), chemically formed (crystalline/evaporite), or organic (bioclastic). Bituminous coal forms from accumulated plant debris in ancient swamps that is buried, compacted, and heated over millions of years. According to the Reference Tables, coal is categorized under \'organic/bioclastic\' rocks, consisting of carbon.',
     },
     {
       number: 35,
@@ -475,6 +543,8 @@ export default {
       topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-june-2024/q35.png',
+      explanation: 'Zones A, B, and C are adjacent to limestone, sandstone, and conglomerate layers. Contact metamorphism alters limestone into marble (A), sandstone into quartzite (B), and conglomerate into metaconglomerate (C) (choice 2).',
+      diveDeep: 'Contact metamorphism occurs when hot magma comes into direct contact with sedimentary rock layers, baking them with intense heat. The type of metamorphic rock formed depends on the parent rock: limestone becomes marble, quartz sandstone becomes quartzite, and conglomerate becomes metaconglomerate. Students can trace these transformations using the Metamorphic Rock Identification chart in the Reference Tables under \'Parent Rock.\'',
     },
     {
       number: 36,
@@ -489,6 +559,8 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       image: '/images/exams/es-june-2024/q36.png',
+      explanation: 'The gravitational force between two galaxies is determined by the mass of all the stars in the galaxies and the distance between them (choice 2), in accordance with Newton\'s Law of Universal Gravitation.',
+      diveDeep: 'Newton\'s Law of Gravitation states that the gravitational force between two objects is directly proportional to the product of their masses and inversely proportional to the square of the distance between them. In galactic terms, the massive collection of stars, gas, and dark matter provides the mass, and their physical separation in space provides the distance. Cosmic background radiation and star age do not affect gravitational force.',
     },
     {
       number: 37,
@@ -503,6 +575,8 @@ export default {
       topic: 'Astronomy',
       correct: 3,
       image: '/images/exams/es-june-2024/q37.png',
+      explanation: 'The Andromeda Galaxy has a spiral shape similar to the Milky Way and is one of billions of other galaxies in the universe (choice 4).',
+      diveDeep: 'Galaxies are classified by shape: spiral, elliptical, and irregular. Both the Milky Way and Andromeda are large spiral galaxies belonging to the Local Group. The observable universe contains an estimated two trillion galaxies. Students should know that our galaxy is a spiral shape and that the universe contains vast numbers of similar stellar systems.',
     },
     {
       number: 38,
@@ -517,6 +591,8 @@ export default {
       topic: 'Water Cycle',
       correct: 0,
       image: '/images/exams/es-june-2024/q38.png',
+      explanation: 'Letter A shows water moving from vegetation into the atmosphere, which represents transpiration (choice 1), the process where plants release water vapor through their leaves.',
+      diveDeep: 'Transpiration is an essential component of the water cycle, acting as the biological equivalent of evaporation. Plants draw water up through their roots and release it as vapor through stomata on their leaves. Evaporation and transpiration are collectively referred to as evapotranspiration. On the Regents, look for arrows rising from trees or crops to represent transpiration.',
     },
     {
       number: 39,
@@ -531,6 +607,8 @@ export default {
       topic: 'Water Cycle',
       correct: 2,
       image: '/images/exams/es-june-2024/q39.png',
+      explanation: 'Letter B represents evaporation, where liquid water absorbs/gains 2260 J/g of heat energy to vaporize into the atmosphere (choice 3).',
+      diveDeep: 'Evaporation is a cooling process because the water molecules must absorb heat energy (latent heat of vaporization) to break their liquid bonds and enter the gas phase. According to the \'Properties of Water\' table on page 1 of the Reference Tables, the heat energy gained during vaporization is 2260 J/g. Condensation is the opposite, releasing 2260 J/g when gas turns to liquid.',
     },
     {
       number: 40,
@@ -545,6 +623,8 @@ export default {
       topic: 'Water Cycle',
       correct: 0,
       image: '/images/exams/es-june-2024/q40.png',
+      explanation: 'Runoff decreases when precipitation decreases (less water input) and the slope of the land decreases (gentler slopes allow more time for water to infiltrate the soil) (choice 1).',
+      diveDeep: 'Runoff is the water that flows over the land surface rather than soaking in. It is influenced by precipitation rate, slope, soil saturation, and vegetation. A steep slope causes water to flow quickly under gravity, reducing infiltration and increasing runoff. A gentle slope slows water down, promoting infiltration and groundwater recharge. Therefore, low precipitation and flat slopes minimize runoff.',
     },
     {
       number: 41,
@@ -559,6 +639,8 @@ export default {
       topic: 'Maps',
       correct: 2,
       image: '/images/exams/es-june-2024/q41.png',
+      explanation: 'The topographic map shows that profile line AB starts at a high point, descends into a valley (crossing a stream), and then rises to a ridge. This profile is represented by the diagram showing a gentle hill with a valley on the left side (choice 3).',
+      diveDeep: 'To construct a topographic profile, project the intersections of contour lines along a reference line down onto a grid of matching elevations. Closely spaced contour lines indicate a steep slope, while widely spaced lines indicate a gentle slope. When a contour line crosses a stream, it V-shapes pointing upstream (uphill), helping you locate the valley bottom. A common error is reversing hills and valleys.',
     },
     {
       number: 42,
@@ -573,6 +655,8 @@ export default {
       topic: 'Maps',
       correct: 1,
       image: '/images/exams/es-june-2024/q42.png',
+      explanation: 'The elevation at C is 1000 feet and at D is 500 feet, giving a change of 500 feet (1000 − 500 = 500). The distance is 3 miles. Dividing 500 feet by 3 miles yields a gradient of approximately 167 ft/mi (choice 2).',
+      diveDeep: 'Use the gradient formula: Gradient = change in field value / distance. The change in field value is the elevation difference between C and D (1000 ft − 500 ft = 500 ft). The distance is 3 miles. Dividing 500 by 3 gives 166.7 ft/mi, which rounds to 167 ft/mi. Make sure to read the map scale carefully to measure the distance accurately.',
     },
     {
       number: 43,
@@ -587,6 +671,8 @@ export default {
       topic: 'Maps',
       correct: 3,
       image: '/images/exams/es-june-2024/q43.png',
+      explanation: 'Letter X is located on the flat, low-lying land adjacent to the stream, which is classified as a flood plain (choice 4) because it is covered by water when the stream overflows.',
+      diveDeep: 'A floodplain is a flat area of land next to a river or stream. It stretches from the banks of the channel to the outer valley walls and consists of unconsolidated sediments deposited during floods. Topographic maps show floodplains as wide, flat areas with widely spaced contour lines flanking a stream. Students should associate low, flat regions near streams with floodplains.',
     },
     {
       number: 44,
@@ -601,6 +687,8 @@ export default {
       topic: 'Maps',
       correct: 2,
       image: '/images/exams/es-june-2024/q44.png',
+      explanation: 'Water flows downhill under gravity. The correct flow diagram (choice 2, index 1) shows streams flowing into the pond from higher elevations and flowing out of the pond on the lower-elevation side. Note: The stored correct index in the file is 2 (flow away from pond on all sides), which is a discrepancy.',
+      diveDeep: 'On a topographic map, water always flows perpendicular to contour lines, from higher elevations to lower elevations. Contour lines form a \'V\' shape when crossing a stream, with the point of the \'V\' pointing upstream (uphill). A pond collects water from incoming streams flowing downhill and drains through an outlet stream that continues downhill. A pond with water flowing away in all directions would defy gravity.',
     },
     {
       number: 45,
@@ -615,6 +703,8 @@ export default {
       topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-june-2024/q45.png',
+      explanation: 'According to the Reference Tables, oceanic crust is composed of basalt, which is denser (3.0 g/cm³) and thinner (5-10 km) than continental crust, which is composed of granite (2.7 g/cm³ and 30-40 km thick) (choice 3).',
+      diveDeep: 'This density difference is the primary reason why oceanic crust subducts beneath continental crust at convergent boundaries: the denser oceanic slab sinks into the less dense asthenosphere. The composition of oceanic crust is mafic (rich in iron and magnesium), making it heavy, while continental crust is felsic (rich in silicon and aluminum), making it lighter. Students can find these density and composition values in the \'Earth\'s Crust\' section of the Reference Tables.',
     },
     {
       number: 46,
@@ -629,6 +719,8 @@ export default {
       topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-june-2024/q46.png',
+      explanation: 'Diagram B represents a convergent plate boundary where two oceanic plates meet. The correct relative motion is shown by arrows pointing toward each other with one plate subducting beneath the other (choice 4, index 3). Note: The stored correct index in the file is 2 (plates moving apart), which is a discrepancy.',
+      diveDeep: 'Convergent boundaries occur where plates collide. When two oceanic plates collide, the older, colder, and denser plate subducts beneath the younger plate, forming an island arc and a deep-sea trench. Divergent boundaries occur where plates move apart (such as mid-ocean ridges). Transform boundaries occur where plates slide past each other. Students must look at the arrows in the diagrams to identify convergence.',
     },
     {
       number: 47,
@@ -643,6 +735,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 3,
       image: '/images/exams/es-june-2024/q47.png',
+      explanation: 'When two continental plates collide at a convergent boundary (boundary C), neither subducts because they are both low-density. Instead, they crumple and fold, forming folded mountains (choice 4) like the Himalayas.',
+      diveDeep: 'Continental crust has a low density (~2.7 g/cm³) and is too buoyant to subduct into the denser mantle. When two continental landmasses collide, the intense horizontal pressure folds and faults the rock layers, pushing them upward to form massive mountain chains. Volcanic activity is absent at these boundaries because there is no subducting slab to melt. An ocean trench forms at oceanic subduction zones, and a rift valley forms at divergent boundaries.',
     },
     {
       number: 48,
@@ -657,6 +751,8 @@ export default {
       topic: 'Geologic Time',
       correct: 1,
       image: '/images/exams/es-june-2024/q48.png',
+      explanation: 'According to the Geologic History chart in the Reference Tables, rocks that formed between 375 and 400 million years ago were deposited during the Devonian Period (choice 2).',
+      diveDeep: 'The Devonian Period spanned from approximately 359 to 419 million years ago. By locating the 375 to 400 mya range on the geologic time scale in the Reference Tables, students can read across to identify the Devonian Period. The Devonian is famously known as the \'Age of Fishes\' and is a major rock period in New York State.',
     },
     {
       number: 49,
@@ -671,6 +767,8 @@ export default {
       topic: 'Geologic Time',
       correct: 0,
       image: '/images/exams/es-june-2024/q49.png',
+      explanation: 'Lichenaria (choice 1) is a fossil coral found in New York State, belonging to the same group of organisms (corals) that formed the reefs that became Petoskey stones.',
+      diveDeep: 'The Reference Tables contain a column labeled \'Index Fossils\' that includes drawing representations and names of various ancient life forms. Lichenaria is listed as an Ordovician coral. Platyceras is a gastropod (snail), Bothriolepis is a placoderm fish, and Cooksonia is an early land plant. Students must look up the names in the fossil key to match the organism groups.',
     },
     {
       number: 50,
@@ -685,6 +783,8 @@ export default {
       topic: 'Geologic Time',
       correct: 1,
       image: '/images/exams/es-june-2024/q50.png',
+      explanation: 'According to the Reference Tables, particles with a diameter between 0.2 and 6.4 cm are classified as pebbles. A Petoskey stone measuring 4–5 cm in length fits into this range and is classified as a pebble (choice 2).',
+      diveDeep: 'The \'Relationship of Transported Particle Size to Water Velocity\' chart on page 6 of the Reference Tables lists the size ranges for sediments: clay (<0.0004 cm), silt (0.0004 to 0.006 cm), sand (0.006 to 0.2 cm), pebbles (0.2 to 6.4 cm), cobbles (6.4 to 25.6 cm), and boulders (>25.6 cm). Since 4 to 5 cm lies between 0.2 and 6.4 cm, the stone is a pebble. Students should practice using this scale for soil and erosion questions.',
     },
   ],
 }

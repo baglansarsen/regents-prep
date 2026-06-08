@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView,
-  Animated, StyleSheet, Alert,
+  Animated, StyleSheet, Alert, Modal,
 } from 'react-native'
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
@@ -96,7 +96,7 @@ export default function SkipChallengeScreen({ route, navigation }) {
   // ── FAILED screen ────────────────────────────────────────────────────────
   if (phase === 'failed') {
     return (
-      <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+      <SafeAreaView style={s.safe} edges={['bottom']}>
         <View style={s.resultContainer}>
           <Text style={{ fontSize: 72 }}>💔</Text>
           <Text style={[T.h1, { color: C.wrong, marginTop: 16, textAlign: 'center' }]}>
@@ -160,7 +160,7 @@ export default function SkipChallengeScreen({ route, navigation }) {
   if (phase === 'done') {
 
     return (
-      <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+      <SafeAreaView style={s.safe} edges={['bottom']}>
         <View style={s.resultContainer}>
           <Text style={{ fontSize: 72 }}>🏆</Text>
           <Text style={[T.h1, { color: C.brand, marginTop: 16, textAlign: 'center' }]}>
@@ -198,7 +198,7 @@ export default function SkipChallengeScreen({ route, navigation }) {
   // ── QUIZ ─────────────────────────────────────────────────────────────────
   return (
     <View style={s.root}>
-      <SafeAreaView style={s.safe} edges={['top']}>
+      <SafeAreaView style={s.safe} edges={['bottom']}>
 
         {/* Header */}
         <View style={s.header}>
@@ -290,9 +290,7 @@ export default function SkipChallengeScreen({ route, navigation }) {
             </Text>
           ) : <View style={{ height: 12 }} />}
           {currentQuestion?.explanation ? (
-            <Text style={[T.small, { color: C.textMuted, marginBottom: 16, lineHeight: 20 }]}>
-              {currentQuestion.explanation}
-            </Text>
+            <ExplanationBlock question={currentQuestion} C={C} />
           ) : <View style={{ height: 8 }} />}
 
           {mistakes < MAX_MISTAKES ? (
@@ -314,6 +312,58 @@ export default function SkipChallengeScreen({ route, navigation }) {
           )}
         </Animated.View>
       )}
+    </View>
+  )
+}
+
+function ExplanationBlock({ question, C }) {
+  const [showDeep, setShowDeep] = useState(false)
+  return (
+    <View style={{ marginBottom: 16, marginTop: 4 }}>
+      <Text style={[T.small, { color: C.textMuted, lineHeight: 20 }]}>
+        {question.explanation}
+      </Text>
+      {question.diveDeep ? (
+        showDeep ? (
+          <View style={{
+            marginTop: 14,
+            backgroundColor: C.surface,
+            borderRadius: 14,
+            padding: 16,
+            borderWidth: 1.5,
+            borderColor: C.brand + '55',
+            borderLeftWidth: 4,
+            borderLeftColor: C.brand,
+          }}>
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: 10 }}>
+              <Text style={{ fontSize: 18 }}>🔍</Text>
+              <Text style={[T.label, { color: C.brand, fontSize: 13, letterSpacing: 1 }]}>DIVE DEEPER</Text>
+            </View>
+            <Text style={[T.body, { color: C.text, lineHeight: 23, fontSize: 15 }]}>{question.diveDeep}</Text>
+          </View>
+        ) : (
+          <TouchableOpacity
+            onPress={() => setShowDeep(true)}
+            activeOpacity={0.75}
+            style={{
+              alignSelf: 'flex-start',
+              marginTop: 10,
+              flexDirection: 'row',
+              alignItems: 'center',
+              gap: 6,
+              borderWidth: 1,
+              borderColor: C.brand + '55',
+              backgroundColor: C.brand + '18',
+              borderRadius: 8,
+              paddingHorizontal: 12,
+              paddingVertical: 6,
+            }}
+          >
+            <Text style={{ fontSize: 14 }}>🔍</Text>
+            <Text style={[T.label, { color: C.brand, textTransform: 'none', letterSpacing: 0, fontSize: 13 }]}>Dive Deeper</Text>
+          </TouchableOpacity>
+        )
+      ) : null}
     </View>
   )
 }

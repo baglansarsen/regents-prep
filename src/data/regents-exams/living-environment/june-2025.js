@@ -18,6 +18,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 3,
+      explanation: 'Cytoplasm (the fluid filling the cell) and ATP (the cellular energy carrier) are fundamental components found in all living cells. Hormones, insulin, chlorophyll, and hemoglobin are specialized molecules found only in specific organisms.',
+      diveDeep: 'This question tests the common characteristics of life. Regardless of species, all living organisms are made of cells containing cytoplasm and require ATP as their primary energy currency. Estrogen and testosterone (choice A) are vertebrate hormones; insulin (choice B) is found in animals; chlorophyll and hemoglobin (choice C) are pigment proteins specific to photosynthesizers and blood-bearing animals, respectively. Remember that all cells, whether prokaryotic or eukaryotic, share basic structures like cytoplasm, cell membranes, ribosomes, and DNA, and utilize ATP.',
     },
     {
       number: 2, part: 'A',
@@ -30,6 +32,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 0,
+      explanation: 'Hormones (used by the endocrine system) and nerve cell chemicals (neurotransmitters used by the nervous system) are the two main types of signaling molecules used for cell-to-cell communication.',
+      diveDeep: 'Cellular communication requires a signaling molecule (messenger) and a specific receptor on the target cell. Hormones act as long-distance messengers in the blood, while neurotransmitters act as short-distance messengers across synapses. Fats and carbohydrates (choice B) are nutrients and structural components; ATP and CO2 (choice C), and glucose and oxygen (choice D), are involved in cellular metabolism and energy production rather than cell signaling. Always associate hormones and neurotransmitters with communication and regulation.',
     },
     {
       number: 3, part: 'A',
@@ -42,6 +46,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 1,
+      explanation: 'The mountain lion\'s prey remains provide food for beetles, wolves, and bears, showing how populations of different species are interconnected within a stable ecosystem.',
+      diveDeep: 'Ecosystems are complex webs of interactions where the activities of one species directly or indirectly affect many others. A top predator like the mountain lion not only regulates prey populations but also provides food resources for scavengers and decomposers, supporting overall community biodiversity. Choices A, C, and D misrepresent ecological relationships or make unsupported assertions. Remember: no population exists in isolation; energy and matter flow between interconnected species.',
     },
     {
       number: 4, part: 'A',
@@ -54,6 +60,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 3,
+      explanation: 'Mutations introduce new genetic variations (alleles) into a population; if a variation provides a survival advantage, it will be favored by natural selection, driving evolution.',
+      diveDeep: 'Mutation is the ultimate source of all genetic variation. For a mutation to drive evolution, it must occur in gametes (sex cells) to be passed on (ruling out choice A) and must be beneficial or neutral; many mutations are harmful (ruling out choice B). Mutations can occur in both sexually and asexually reproducing organisms (ruling out choice C). A key takeaway is that mutations are random, but natural selection acts non-randomly on the variations they produce, preserving those that enhance survival.',
     },
     {
       number: 5, part: 'A',
@@ -66,6 +74,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 2,
+      explanation: 'Because 99% of the introduced ladybugs migrated away, they could disrupt native food webs and outcompete local species in neighboring ecosystems.',
+      diveDeep: 'Biological pest control is an alternative to chemicals, but releasing non-native or commercial species in large numbers can have unintended ecological impacts if they migrate. These ladybugs may prey on non-target native insects or compete with native predators in nearby areas, altering local food webs (choice C). Choices B and D are positive features rather than environmental concerns, and choice A is incorrect. When evaluating biological control, always consider the risk of species migration and impacts on non-target communities.',
     },
     {
       number: 6, part: 'A',
@@ -78,6 +88,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 0,
+      explanation: 'Individuals with traits best suited to their environment survive selective pressures, allowing them to reproduce and pass those adaptive genes to their offspring.',
+      diveDeep: 'Natural selection is often summarized as "survival of the fittest." Fitness in biology is measured by reproductive success: those who survive (choice A) are the ones who can reproduce and pass on their genes. Choice B is incorrect because future environmental changes are unpredictable, and choices C and D confuse biological fitness with physical strength or subjective attractiveness. Remember: survival is the prerequisite for reproduction, which is the mechanism of evolutionary change.',
     },
     {
       number: 7, part: 'A',
@@ -91,6 +103,8 @@ export default {
       topic: 'Genetics',
       correct: 2,
       image: '/images/exams/le-june-2025/q7.png',
+      explanation: 'DNA contains the genetic code (sequence of bases) that directs the cell\'s ribosomes to synthesize specific proteins.',
+      diveDeep: 'This question focuses on the flow of genetic information: DNA contains genes, which are transcribed and translated to produce proteins. This central dogma means DNA controls protein synthesis (choice C). Choices A and B misstate this relationship (DNA does not consist of proteins, and proteins do not make DNA). Choice D is incorrect because cells also contain carbohydrates, lipids, water, and other molecules. Associate DNA with the master instruction manual for building proteins.',
     },
     {
       number: 8, part: 'A',
@@ -103,6 +117,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 1,
+      explanation: 'Ecological succession occurs because communities modify their environment, gradually making it less suitable for themselves and more suitable for new, invading species.',
+      diveDeep: 'As a pond fills with sediment and plant debris, it becomes shallower, transforming into a wetland and eventually a meadow. This environmental change makes it impossible for aquatic species to survive but opens up niches for land plants (succession). Choices A and D imply sudden catastrophic collapses, which are not typical of slow successional changes. Remember: during ecological succession, biotic communities alter the abiotic environment, driving their own replacement.',
     },
     {
       number: 9, part: 'A',
@@ -116,6 +132,8 @@ export default {
       topic: 'Ecology',
       correct: 2,
       image: '/images/exams/le-june-2025/q9.png',
+      explanation: 'If the warbler population declines due to a lack of hemlock nesting sites, predation on their insect prey will decrease, causing insect pest populations to rise.',
+      diveDeep: 'In a food web, predators regulate prey populations. If the warblers lose their nesting habitats, their population will decline, reducing the predation pressure on the insects they eat. This results in an increase in the insect pest population (choice C). Other choices are ecologically incorrect or logically unsupported. To solve food web scenarios, trace the trophic cascade: decreasing a predator increases its prey.',
     },
     {
       number: 10, part: 'A',
@@ -128,6 +146,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 0,
+      explanation: 'The presence of sharks causes turtles to leave, which in turn allows the seagrass population to recover, demonstrating how species influence and regulate one another.',
+      diveDeep: 'This scenario describes a trophic cascade, a key ecological concept where predators (sharks) indirectly benefit producers (seagrasses) by controlling the behavior or abundance of herbivores (sea turtles). This is a clear demonstration of species influencing one another (choice A). Choices B, C, and D focus on individual nutrition or homeostasis, which does not capture the community-level interaction. When an organism\'s presence changes the abundance of another species, it is a community-level influence.',
     },
     {
       number: 11, part: 'A',
@@ -140,6 +160,8 @@ export default {
       ],
       topic: 'Reproduction',
       correct: 0,
+      explanation: 'Runners are a form of asexual reproduction, meaning the new strawberry plants develop through mitosis (producing identical cells) and cell differentiation.',
+      diveDeep: 'Asexual reproduction involves one parent and produces offspring via mitosis, maintaining genetic identity (clones). Meiosis and fertilization (choices B and C) are exclusive to sexual reproduction and introduce genetic variation. Mitosis copies the parent cell\'s DNA, and differentiation allows these identical cells to specialize into roots, stems, and leaves. Remember: asexual reproduction = mitosis + differentiation, while sexual reproduction = meiosis + fertilization.',
     },
     {
       number: 12, part: 'A',
@@ -152,6 +174,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 2,
+      explanation: 'Water temperature and pH are non-living physical and chemical components of the pond, which classifies them as abiotic factors.',
+      diveDeep: 'Abiotic factors are non-living components of an ecosystem. Choices A, B, and D (food webs, decomposers, fish species) all involve living organisms and are therefore biotic factors. When asked to identify abiotic factors, look for non-living environmental measurements such as temperature, pH, light intensity, oxygen levels, or water currents.',
     },
     {
       number: 13, part: 'A',
@@ -165,6 +189,8 @@ export default {
       topic: 'Genetics',
       correct: 2,
       image: '/images/exams/le-june-2025/q13.png',
+      explanation: 'A female spider producing fluid and feeding her offspring is an example of parental care, a behavioral adaptation that increases the survival rate of the young.',
+      diveDeep: 'Parental care is any behavior by a parent that increases the offspring\'s fitness (survival and reproduction). The discovery that spiders feed their young with a milk-like fluid is an adaptation that helps the vulnerable hatchlings survive. Spiders are not mammals (ruling out choices B and D), and this does not prove all females use the same hormones (ruling out choice A). When an organism invests energy into feeding or protecting its young, it is always a strategy for offspring survival.',
     },
     {
       number: 14, part: 'A',
@@ -177,6 +203,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 1,
+      explanation: 'Electric cars eliminate tailpipe emissions from burning gasoline, which reduces local air pollution by lowering levels of carbon dioxide and other harmful exhaust gases.',
+      diveDeep: 'Electric vehicles (EVs) run on battery power rather than internal combustion engines. This reduces local emissions of greenhouse gases (like CO2) and particulate matter that cause smog. Choice A is incorrect because EVs can travel long distances. Choice C is not an environmental benefit. Choice D is incorrect because electricity can still be generated from non-renewable fossil fuels at power plants. When evaluating environmental initiatives, focus on how they reduce emissions or conserve resources.',
     },
     {
       number: 15, part: 'A',
@@ -189,6 +217,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 2,
+      explanation: 'Because these lizards reproduce asexually without sperm from a male, all the offspring\'s DNA comes exclusively from the mother lizard.',
+      diveDeep: 'Parthenogenesis is an asexual reproductive process where offspring develop from unfertilized eggs. Since there is no paternal input, the offspring\'s cells contain DNA found only in the female lizard (choice C). Choice A is incorrect because no fertilization occurs. Choice B is incorrect; the eggs have a normal diploid set, not twice the information. Choice D is contradicted by the text, which states the offspring have the genetic diversity of sexually reproducing lizards (due to a unique chromosome duplication process). Read the choices carefully to find the one that matches the asexual, maternal-only nature of the DNA.',
     },
     {
       number: 16, part: 'A',
@@ -201,6 +231,8 @@ export default {
       ],
       topic: 'Reproduction',
       correct: 1,
+      explanation: 'The placenta performs respiration (oxygen/CO2 exchange), nutrition (transporting digested food), and excretion (removing metabolic wastes) for the fetus.',
+      diveDeep: 'The developing fetus cannot breathe, eat, or excrete waste on its own. The placenta acts as a multi-functional organ, allowing oxygen, nutrients, and waste products to diffuse between maternal and fetal blood vessels. Reproduction (choices A and C) and movement/immunity (choice D) are not the primary transport functions carried out by the placenta. Associate the placenta with three key life processes: respiration, nutrition, and excretion.',
     },
     {
       number: 17, part: 'A',
@@ -213,6 +245,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 3,
+      explanation: 'A vaccine contains antigens from killed bacteria that stimulate white blood cells to produce specific antibodies, creating immunity without causing disease.',
+      diveDeep: 'Vaccines work by introducing harmless antigens to the immune system. White blood cells (B lymphocytes) recognize these antigens and produce antibodies and memory cells. If the active pathogen infects the body in the future, these memory cells enable a rapid response. Choice A is biologically absurd, choice B is incorrect because antibodies bind to antigens, not cell nuclei, and choice C is wrong because killed bacteria do not cause the disease. Remember: vaccines stimulate antibody production.',
     },
     {
       number: 18, part: 'A',
@@ -225,6 +259,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
+      explanation: 'Amino acids (used to build proteins) and simple sugars (used to build starches) are organic monomers used as building blocks to synthesize complex organic compounds.',
+      diveDeep: 'Organic molecules contain both carbon and hydrogen. Amino acids and simple sugars are monomers (simple organic building blocks) that are synthesized into polymers like proteins and starches (complex organic molecules), confirming choice C. Choice A is incorrect because both are used to build organic molecules. Choice B is reversed (starches are made of sugars, proteins of amino acids). Choice D is incorrect because both can diffuse into cells through specific transporters. Remember: monomers are synthesized into polymers.',
     },
     {
       number: 19, part: 'A',
@@ -237,6 +273,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
+      explanation: 'A protein\'s function depends entirely on its specific three-dimensional folding and shape; if the chain breaks, the shape is altered and it cannot interact with target molecules.',
+      diveDeep: 'This question highlights the fundamental biological concept of "shape determines function." Proteins must fold into precise shapes to act as enzymes, receptors, or structural components. If a protein chain breaks, it loses its native conformation (denaturation), preventing it from binding to its specific substrate or target molecule. Choices A, B, and D describe incorrect or exaggerated cellular effects. When a protein is damaged or altered, always focus on the loss of shape-specific function.',
     },
     {
       number: 20, part: 'A',
@@ -249,6 +287,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 3,
+      explanation: 'Enzymes are protein catalysts whose activity is highly dependent on environmental conditions, such as pH and temperature, which can alter their shape.',
+      diveDeep: 'Enzymes are organic catalysts that speed up chemical reactions in the body. Because they are proteins, their shape is held together by hydrogen bonds that can be disrupted by changes in pH or temperature (denaturation), making choice D correct. Choice A is incorrect because enzymes are made of amino acids (proteins), not carbohydrates. Choice B is incorrect because they are highly specific. Choice C is incorrect because they are synthesized by ribosomes, not the cell membrane. Remember: enzymes are shape-specific and pH/temperature sensitive.',
     },
     {
       number: 21, part: 'A',
@@ -261,6 +301,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
+      explanation: 'Replication is the process by which DNA strands unzip and add complementary molecular bases (A, T, C, G) to create an exact copy of the DNA molecule.',
+      diveDeep: 'DNA replication occurs during the S-phase of the cell cycle, ensuring that each new cell receives an identical copy of the genetic material. Protein synthesis (choice A) creates proteins from RNA. Mitosis (choice D) is the division of the nucleus, which happens after replication is complete. DNA replication is the specific biochemical process of copying the DNA molecule. Associate the phrase "separate and add new molecular bases to form another DNA molecule" with replication.',
     },
     {
       number: 22, part: 'A',
@@ -274,6 +316,8 @@ export default {
       topic: 'Cell Biology',
       correct: 1,
       image: '/images/exams/le-june-2025/q22.png',
+      explanation: 'Chloroplasts carry out photosynthesis to make glucose, while mitochondria carry out cellular respiration to break down glucose and release ATP energy.',
+      diveDeep: 'This question tests the complementary relationship between chloroplasts and mitochondria. Chloroplasts use light energy to synthesize glucose from carbon dioxide and water (making glucose). Mitochondria then break down this glucose in the presence of oxygen to release usable chemical energy (using glucose). Row 2 correctly captures these roles. Other rows misidentify these processes or energy sources. Always associate chloroplasts with glucose synthesis and mitochondria with glucose consumption.',
     },
     {
       number: 23, part: 'A',
@@ -288,6 +332,8 @@ export default {
       topic: 'Cell Biology',
       correct: 3,
       image: '/images/exams/le-june-2025/q23.png',
+      explanation: 'The industrial revolution and subsequent global industrialization since the 1800s dramatically increased the demand for energy to power factories, electricity grids, and transportation.',
+      diveDeep: 'This question requires linking historical fossil fuel consumption data to societal trends. The massive, exponential rise in coal, oil, and natural gas usage beginning in the 1800s was driven by industrialization. Renewable energy (choice A) or environmental concern (choice B) would decrease fossil fuel demand. Atmospheric changes (choice C) are a consequence of fossil fuel use, not its cause. When analyzing historical resource consumption graphs, associate the 19th and 20th-century spikes with industrialization.',
     },
     {
       number: 24, part: 'A',
@@ -300,6 +346,8 @@ export default {
       ],
       topic: 'Reproduction',
       correct: 0,
+      explanation: 'Certain medications must be avoided during early pregnancy because this is when the embryo\'s organs are rapidly forming, and chemicals can disrupt this development.',
+      diveDeep: 'The first trimester (early pregnancy) is the period of organogenesis, when cells undergo rapid differentiation to form the brain, heart, and other vital organs. During this critical window, the embryo is highly sensitive to teratogens (chemicals that cause birth defects). Meiosis (choice B) and fertilization (choice D) occur before pregnancy begins, and differentiation (choice C) is a normal process that must occur, not a process to be avoided. Connect early pregnancy warnings to the risk of fetal organ disruption.',
     },
     {
       number: 25, part: 'A',
@@ -312,6 +360,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 1,
+      explanation: 'The lunar cycle (an abiotic environmental factor) influences the hunting behavior of lions and the activity levels of wildebeests.',
+      diveDeep: 'This question illustrates how environmental cues coordinate behavioral responses in ecosystems. The dark phases of the moon act as an environmental factor that changes the behaviors of both the predator (better hunting) and the prey (reduced activity to avoid detection). Choices A, C, and D introduce unrelated ecological terms like carrying capacity or misstate trophic interactions. Remember: abiotic environmental changes (like light levels) can trigger behavioral shifts in organisms.',
     },
     {
       number: 26, part: 'A',
@@ -324,6 +374,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 1,
+      explanation: 'Removing three consecutive bases (one codon) from a gene deletes one amino acid from the polypeptide chain, which alters the folding and three-dimensional structure of the protein.',
+      diveDeep: 'A gene\'s base sequence codes for the amino acid sequence of a protein. Removing three bases (a triplet) deletes exactly one amino acid. This changes the secondary and tertiary folding of the polypeptide, altering the protein\'s structure and function (choice B). Cell membranes, cytoplasm pH, and nucleus size (choices A, C, and D) are not directly determined by a single codon deletion. Remember: DNA base sequence -> amino acid sequence -> protein structure.',
     },
     {
       number: 27, part: 'A',
@@ -336,6 +388,8 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 3,
+      explanation: 'Mitochondria are the organelles responsible for cellular respiration, which produces the ATP molecules that power cellular activities and maintain metabolism.',
+      diveDeep: 'ATP is the cell\'s energy currency. Mitochondria break down glucose to generate ATP through aerobic cellular respiration. If mitochondria are damaged by medication, ATP production drops, halting active transport, synthesis, and other metabolic processes. Mitochondria do not synthesize energy (energy cannot be created, ruling out choice A), and they use oxygen rather than release it (ruling out choices B and C). Always associate mitochondria with ATP production and cellular respiration.',
     },
     {
       number: 28, part: 'A',
@@ -348,6 +402,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 2,
+      explanation: 'Selective breeding involves mating only parent dogs that express the desired solid coat colors and friendly personalities to produce puppies with those traits.',
+      diveDeep: 'Selective breeding (artificial selection) is the process by which humans breed plants or animals for particular genetic traits. By choosing only parents with the desired traits, breeders increase the frequency of those alleles in the offspring. Inserting genes (choice A) is genetic engineering. Mating dogs with different traits (choice B) increases variation, which makes the outcome unpredictable. Dogs cannot be easily cloned or reproduced asexually (choice D). Associate breeding for specific traits with selective breeding.',
     },
     {
       number: 29, part: 'A',
@@ -360,6 +416,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 3,
+      explanation: 'Organ rejection is a harmful immune response where the recipient\'s immune cells recognize the transplanted organ as foreign and attack it.',
+      diveDeep: 'The immune system\'s role is to destroy foreign invaders like cancer (choice A), bacteria (choice B), and viruses (choice C), which are beneficial immune responses. However, when the immune system attacks a transplanted organ because it recognizes the donor tissue as foreign antigens, it causes organ rejection, which is harmful to the patient. To prevent this, transplant patients must take immunosuppressive drugs. Identify organ transplant rejection as an unwanted, harmful immune response.',
     },
     {
       number: 30, part: 'A',
@@ -372,6 +430,8 @@ export default {
       ],
       topic: 'Genetics',
       correct: 1,
+      explanation: 'Tanning beds cause mutations in somatic skin cells, which can lead to skin cancer in that individual but cannot be passed to offspring since the mutations do not occur in gametes.',
+      diveDeep: 'Mutations must occur in the germline (sperm or egg cells) to be inherited by offspring. Skin cancer is caused by UV radiation mutating somatic skin cells. These mutated cells can divide and spread within the parent\'s body (choice B) but are never passed to offspring. Choices C and D are biologically incorrect. A fundamental rule of genetics is that somatic mutations are not heritable, while gametic mutations are.',
     },
 
     // Part B-1
@@ -388,6 +448,8 @@ export default {
       topic: 'General Review',
       correct: 2,
       image: '/images/exams/le-june-2025/q31.png',
+      explanation: 'Nitrogen-fixing bacteria convert atmospheric nitrogen gas (N2) into ammonium, which is then converted into nitrogen compounds that plants can absorb.',
+      diveDeep: 'This question requires reading the provided nitrogen cycle diagram. Locate "atmospheric nitrogen (N2)" and trace the arrow downward; it points to "nitrogen-fixing bacteria in soil/legumes" converting it to ammonium. Aerobic/anaerobic bacteria are decomposers (choice A), nitrifying bacteria convert ammonium to nitrates (choice B), and denitrifying bacteria convert nitrates back to N2 gas (choice D). When interpreting biochemical cycles, trace the arrows from the starting chemical substance to the organism acting on it.',
     },
     {
       number: 32, part: 'B-1',
@@ -402,6 +464,8 @@ export default {
       topic: 'Human Body',
       correct: 3,
       image: '/images/exams/le-june-2025/q32.png',
+      explanation: 'Denitrifying bacteria and nitrogen-fixing bacteria carry out opposite processes: nitrogen-fixers turn nitrogen gas into soil compounds, while denitrifiers turn soil compounds back into nitrogen gas.',
+      diveDeep: 'Opposite processes in biogeochemical cycles act as inputs and outputs. Nitrogen-fixing bacteria take nitrogen out of the atmosphere and put it into the soil. Denitrifying bacteria take nitrogen out of the soil and release it back into the atmosphere as gas. This maintains the atmospheric balance of nitrogen. Review the cycle to identify which two arrows go in opposite directions between the same two pools (atmosphere and soil).',
     },
     {
       number: 33, part: 'B-1',
@@ -416,6 +480,8 @@ export default {
       topic: 'Genetics',
       correct: 0,
       image: '/images/exams/le-june-2025/q33.png',
+      explanation: 'Plants take in carbon dioxide and water from their environment, which provide the carbon, hydrogen, and oxygen needed to synthesize amino acids like alanine.',
+      diveDeep: 'To build the amino acid alanine (C3H7NO2), a plant needs carbon (C), hydrogen (H), oxygen (O), and nitrogen (N). The soil nitrates provide the nitrogen. Carbon dioxide (CO2) from the air provides the carbon and oxygen, and water (H2O) from the soil provides the hydrogen and oxygen during photosynthesis. Sunlight (choice B) is an energy source, not a matter source. Oxygen gas (choices C and D) is released by plants rather than used as a major building block. Remember: plants construct all their organic molecules using CO2, H2O, and minerals.',
     },
     {
       number: 34, part: 'B-1',
@@ -430,6 +496,8 @@ export default {
       topic: 'Ecology',
       correct: 2,
       image: '/images/exams/le-june-2025/q34.png',
+      explanation: 'Without decomposers, nitrogen trapped in dead organic matter and wastes cannot be recycled, reducing soil fertility and decreasing the carrying capacity for plants.',
+      diveDeep: 'Decomposers (bacteria and fungi) recycle nutrients by breaking down organic waste and returning minerals to the soil. If decomposers were lost, nitrogen would remain locked in dead matter, preventing plants from absorbing nitrates to synthesize proteins. This would restrict plant growth, lowering the carrying capacity of the ecosystem for producers (choice C). Carrying capacity is determined by the availability of limiting resources like nitrogen.',
     },
     {
       number: 35, part: 'B-1',
@@ -444,6 +512,8 @@ export default {
       topic: 'Genetics',
       correct: 0,
       image: '/images/exams/le-june-2025/q35.png',
+      explanation: 'The data support the hypothesis because crickets with the wing mutation had a significantly lower rate of fly larvae parasitism (0.8%) compared to crickets without the mutation (30%).',
+      diveDeep: 'This question requires analyzing scientific data to evaluate a hypothesis. The hypothesis states that the wing mutation helps crickets escape the parasitic fly. The data shows that 30% of normal crickets were parasitized, whereas only 0.8% of mutated crickets were parasitized, indicating a massive survival advantage and supporting the hypothesis (choice A). Make sure to match the numerical trend (less parasitism in mutants) to the correct conclusion.',
     },
     {
       number: 36, part: 'B-1',
@@ -458,6 +528,8 @@ export default {
       topic: 'Genetics',
       correct: 2,
       image: '/images/exams/le-june-2025/q36.png',
+      explanation: 'The number of crickets with the wing mutation will increase over time because this trait protects them from the parasitic fly, giving them a survival and reproductive advantage.',
+      diveDeep: 'Natural selection favors traits that increase survival and reproductive success. Since the wing mutation protects crickets from deadly parasites and does not prevent them from attracting mates, mutant crickets will survive and reproduce at higher rates than normal crickets. Over generations, the frequency of the mutant gene in the population will rise (choice C). Always predict that beneficial mutations will increase in frequency within a population over time.',
     },
     {
       number: 37, part: 'B-1',
@@ -471,6 +543,8 @@ export default {
       ],
       topic: 'General Review',
       correct: 0,
+      explanation: 'The table shows that plants in Group A survived and grew significantly (from 15 mm to 71 mm) at 17°C, supporting the claim that they can tolerate and grow in cooler temperatures.',
+      diveDeep: 'To support a claim using data, you must reference the specific measurements in the table. The Group A plants grew from 15 mm to 71 mm over 20 days at 17°C, which directly proves they can survive and grow at this cooler temperature (choice A). Choice B is not supported by the data table (water amounts are not shown), and choices C and D discuss Group B, which was grown at 27°C. When answering data-interpretation questions, choose the option that relies solely on the provided evidence.',
     },
     {
       number: 38, part: 'B-1',
@@ -483,6 +557,8 @@ export default {
       ],
       topic: 'Ecology',
       correct: 2,
+      explanation: 'Improperly disposing of cat litter introduces a non-native parasite into marine food webs, which is an example of human activities inadvertently disrupting ecosystem equilibrium.',
+      diveDeep: 'Human actions often have unintended, far-reaching consequences on ecosystems. Flushing cat litter or letting it wash into storm drains carries the parasite Toxoplasma gondii into the ocean, where it infects and kills sea otters, disrupting the kelp forest food web (choice C). Choices A and D misstate the direction of the impact, and choice B is false. Recognize that human waste disposal practices can act as ecological disturbances.',
     },
     {
       number: 39, part: 'B-1',
@@ -497,6 +573,8 @@ export default {
       topic: 'Cell Biology',
       correct: 3,
       image: '/images/exams/le-june-2025/q39.png',
+      explanation: 'To link soil lead to learning difficulties, scientists must show a biological pathway by demonstrating a correlation between soil lead levels and blood lead levels in the affected children.',
+      diveDeep: 'To strengthen a scientific claim of cause and effect, you must establish a direct physiological connection. Showing that soil lead correlates with blood lead levels (choice D) proves that children are absorbing the toxin into their bodies, where it can affect brain development. Repeating the study near rivers (choice A) or examining iron (choice C) does not validate the lead-to-learning pathway. Always look for steps that establish a direct biological mechanism in experimental design.',
     },
     {
       number: 40, part: 'B-1',
@@ -511,6 +589,8 @@ export default {
       topic: 'Genetics',
       correct: 1,
       image: '/images/exams/le-june-2025/q40.png',
+      explanation: 'Since soil lead clings to hands and toys, having children wash their hands after playing outside reduces the risk of accidental ingestion and lead poisoning.',
+      diveDeep: 'Lead poisoning in young children often occurs through hand-to-mouth contact after playing in contaminated soil. Simple hygiene measures like washing hands (choice B) prevent the ingestion of lead particles. Organic produce (choice A) does not remove soil lead from the yard, and changing schools (choice C) is impractical and does not address home exposure. Look for practical solutions that directly block the pathway of exposure to the environmental toxin.',
     },
     {
       number: 41, part: 'B-1',
@@ -524,6 +604,8 @@ export default {
       topic: 'Ecology',
       correct: 0,
       image: '/images/exams/le-june-2025/q41.png',
+      explanation: 'Beavers are accelerating global climate change because their dams create ponds that thaw permafrost, releasing massive amounts of stored greenhouse gases into the atmosphere.',
+      diveDeep: 'Permafrost contains vast amounts of organic carbon locked in frozen soil. When beavers build dams, they flood the tundra, and the standing water absorbs solar heat, thawing the permafrost. Microbes then decompose the organic matter, releasing methane and CO2. This accelerates global warming (choice A). Choices B, C, and D are contradicted by the text. Understand that species migrations can trigger positive feedback loops in global climate systems.',
     },
     {
       number: 42, part: 'B-1',
@@ -538,6 +620,8 @@ export default {
       topic: 'Genetics',
       correct: 0,
       image: '/images/exams/le-june-2025/q42.png',
+      explanation: 'Breeding in the fall and giving birth in the spring ensures that offspring are born when temperatures are milder and green vegetation (food) is abundant.',
+      diveDeep: 'Evolutionary cycles are adapted to seasonal resource availability. Spring and early summer offer maximum food resources (young plants) and favorable weather, which maximizes fawn survival and maternal lactation success (choice A). Deer do not adapt their biology to avoid hunting season (choice B), and they occupy the same habitat year-round (ruling out choice C). When analyzing reproductive timing in wild animals, correlate births with seasonal food abundance.',
     },
     {
       number: 43, part: 'B-1',
@@ -551,6 +635,8 @@ export default {
       ],
       topic: 'Human Body',
       correct: 3,
+      explanation: 'Because insulin resistance prevents insulin from binding to cells to facilitate glucose uptake, glucose remains in the blood, leading to high blood sugar levels.',
+      diveDeep: 'Insulin is a hormone that lowers blood sugar by binding to cell membrane receptors, opening channels for glucose to enter cells. In insulin resistance, these receptors do not respond properly, so glucose cannot leave the blood. This results in elevated glucose levels in the bloodstream (choice D) and a lack of glucose inside cells (ruling out choice B). Always associate insulin resistance or lack of insulin with high blood sugar (hyperglycemia).',
     },
   ],
 }

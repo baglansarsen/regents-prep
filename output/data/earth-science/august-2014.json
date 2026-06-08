@@ -1,0 +1,1076 @@
+{
+  "subject": "earth-science",
+  "session": "august-2014",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which evidence best supports the theory that the universe was created by an explosion called the Big Bang?",
+      "choices": [
+        "impact craters found on Earth",
+        "cosmic background radiation",
+        "the different compositions of terrestrial and Jovian planets",
+        "the blue shift of light from distant galaxies"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which star is more massive than our Sun, but has a lower surface temperature?",
+      "choices": [
+        "40 Eridani B",
+        "Sirius",
+        "Aldebaran",
+        "Barnard\u2019s Star"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which color of visible light has the shortest wavelength?",
+      "choices": [
+        "violet",
+        "green",
+        "yellow",
+        "red"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The table below shows the times of ocean high tides and low tides on a certain date at a New York State location. Ocean Tides At approximately what time on the following day did the next high tide occur at this location?",
+      "choices": [
+        "4:40 a.m.",
+        "5:40 a.m.",
+        "4:40 p.m.",
+        "5:40 p.m."
+      ],
+      "image": "/images/exams/earth-science/august-2014/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The best evidence of Earth\u2019s rotation is provided by the",
+      "choices": [
+        "shape of Earth\u2019s orbit",
+        "shape of the Milky Way galaxy",
+        "changes in the total yearly duration of insolation at a location on Earth",
+        "apparent changes in the direction of swing of a Foucault pendulum"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The model below shows the apparent path of the Sun as seen by an observer in New York State on the first day of one of the four seasons. This apparent path of the Sun was observed on the first day of",
+      "choices": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "image": "/images/exams/earth-science/august-2014/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which processes are most likely to cause a rise in the water table?",
+      "choices": [
+        "runoff and erosion",
+        "precipitation and infiltration",
+        "deposition and burial",
+        "solidification and condensation Observer Horizon Noon Sun South North East West Path of the Sun Observer Horizon Noon Sun South North East West Path of the Sun Type of Tide Time high 4:45 a.m. low 10:58 a.m. high 5:15 p.m. low 11:22 p.m."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "During which phase change does water release the most heat energy?",
+      "choices": [
+        "freezing",
+        "melting",
+        "condensation",
+        "vaporization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "What is the average air pressure exerted by Earth\u2019s atmosphere at sea level, expressed in millibars and inches of mercury?",
+      "choices": [
+        "1013.25 mb and 29.92 in of Hg",
+        "29.92 mb and 1013.25 in of Hg",
+        "1012.65 mb and 29.91 in of Hg",
+        "29.91 mb and 1012.65 in of Hg"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which two processes lead to cloud formation in rising air?",
+      "choices": [
+        "compressing and cooling",
+        "compressing and warming",
+        "expanding and cooling",
+        "expanding and warming"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The weather station model below shows some of the weather data for a certain location. What is the wind speed shown on the station model and which instrument is used to measure the wind speed?",
+      "choices": [
+        "15 knots, measured by a wind vane",
+        "15 knots, measured by an anemometer",
+        "25 knots, measured by a wind vane",
+        "25 knots, measured by an anemometer"
+      ],
+      "image": "/images/exams/earth-science/august-2014/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "If air has a dry-bulb temperature of 2\u00b0C and a wet-bulb temperature of \u20132\u00b0C, what is the relative humidity?",
+      "choices": [
+        "11%",
+        "20%",
+        "36%",
+        "67%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which current has a cooling effect on the climate of the west coast of South America?",
+      "choices": [
+        "Falkland Current",
+        "Peru Current",
+        "Benguela Current",
+        "Brazil Current"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Near which two latitudes are most of Earth\u2019s dry climate regions found?",
+      "choices": [
+        "0\u00b0 and 60\u00b0 N",
+        "0\u00b0 and 30\u00b0 S",
+        "30\u00b0 N and 60\u00b0 N",
+        "30\u00b0 N and 30\u00b0 S"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which event followed a massive volcanic eruption and led to the cooling of global temperatures?",
+      "choices": [
+        "thunderstorms that developed near the eruption",
+        "the release of carbon dioxide and methane gases",
+        "the outflow of magma over Earth\u2019s surface",
+        "the addition of ash particles into the atmosphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Rifting of tectonic plates in eastern North America during the Jurassic Period was responsible for the",
+      "choices": [
+        "formation of the Catskill delta",
+        "first uplift of the Adirondack Mountains",
+        "Alleghenian orogeny",
+        "opening of the Atlantic Ocean"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The surface bedrock of Mt. Marcy, New York, is composed primarily of which rock?",
+      "choices": [
+        "anorthosite",
+        "marble",
+        "quartzite",
+        "hornfels"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Much of the evidence for the evolution of life- forms on Earth has been obtained by",
+      "choices": [
+        "studying the life spans of present-day animals",
+        "radioactive dating of metamorphic rock",
+        "correlating widespread igneous ash deposits",
+        "examining fossils preserved in the rock record"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The table below shows the radioactive decay of carbon-14. Part of the table has been left blank. After 22,800 years, approximately what percentage of the original carbon-14 remains?",
+      "choices": [
+        "15%",
+        "12.5%",
+        "6.25%",
+        "3.125%"
+      ],
+      "image": "/images/exams/earth-science/august-2014/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a model of Earth\u2019s surface and internal structure. Letters A, B, C, and D represent four different layers. Some depths below Earth\u2019s surface are shown. Which Earth layer is inferred to be composed of solid nickel and iron?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2014/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Oceanic crust is sliding beneath the Aleutian Islands in the North Pacific Ocean, forming the Aleutian Trench at a",
+      "choices": [
+        "convergent plate boundary between the Pacific Plate and the North American Plate",
+        "convergent plate boundary between the Pacific Plate and the Juan de Fuca Plate",
+        "divergent plate boundary between the Pacific Plate and the North American Plate",
+        "divergent plate boundary between the Pacific Plate and the Juan de Fuca Plate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which New York State landscape region is composed of mostly horizontal sedimentary bedrock and has a high elevation?",
+      "choices": [
+        "Hudson Highlands",
+        "Manhattan Prong",
+        "the Catskills",
+        "Taconic Mountains"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which mineral is commonly mined as a source of the element lead (Pb)?",
+      "choices": [
+        "galena",
+        "quartz",
+        "magnetite",
+        "gypsum"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The block diagram below represents a landscape where caverns and sinkholes have gradually developed over a long period of time. Why did these caverns and sinkholes form?",
+      "choices": [
+        "The bedrock chemically reacted with acidic groundwater.",
+        "This type of bedrock contained large amounts of oxygen and silicon.",
+        "Glacial deposits altered the shape of the bedrock.",
+        "Crustal uplift formed gaps in the bedrock. Cavern Sinkhole (Not drawn to scale) Ocean A B C D 2900 km 5200 km 0 km Rigid mantle Crust Half-Life Original Carbon-14 Remaining (%) Number of Years 0 100 0 1 50 5,700 2 25 11,400 3 17,100 4 5"
+      ],
+      "image": "/images/exams/earth-science/august-2014/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The block diagram below represents a stream flowing from a mountain region. A brief, heavy rainstorm occurs in the mountains. How will the volume of water and the rate of erosion in the stream change shortly after the rainstorm?",
+      "choices": [
+        "The volume of water will decrease and the rate of erosion will increase.",
+        "The volume of water will increase and the rate of erosion will decrease.",
+        "Both the volume of water and the rate of erosion will decrease.",
+        "Both the volume of water and the rate of erosion will increase."
+      ],
+      "image": "/images/exams/earth-science/august-2014/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The photograph below shows scratched and polished bedrock produced by weathering and erosion. Which agent of erosion most likely carried sediment that scratched and polished this bedrock surface?",
+      "choices": [
+        "a moving glacier",
+        "running water",
+        "wave action",
+        "wind"
+      ],
+      "image": "/images/exams/earth-science/august-2014/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "At which two Moon positions would an observer on Earth most likely experience the highest high tides and the lowest low tides?",
+      "choices": [
+        "A and B",
+        "B and C",
+        "C and A",
+        "D and B"
+      ],
+      "image": "/images/exams/earth-science/august-2014/context_27_28.png",
+      "context": "Base your answers to questions 27 and 28 on the diagram below and on your knowledge of Earth science.\nThe diagram represents the Moon at different positions, labeled A, B, C, and D, in its orbit around Earth.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "During which Moon phase could an observer on Earth see a lunar eclipse occur? ( 1 ) ( 2 ) ( 3 ) ( 4 ) (Not drawn to scale) Sun\u2019s rays North Pole B D C A",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_27_28.png",
+      "context": "Base your answers to questions 27 and 28 on the diagram below and on your knowledge of Earth science.\nThe diagram represents the Moon at different positions, labeled A, B, C, and D, in its orbit around Earth.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "The graph below shows the varying amount of gravitational attraction between the Sun and an asteroid in our solar system. Letters A, B, C, and D indicate four positions in the asteroid\u2019s orbit. Which diagram best represents the positions of the asteroid in its orbit around the Sun? [Note: The diagrams are not drawn to scale.] A C Sun ( 1 ) D B C A Sun ( 3 ) B D B D Sun ( 2 ) A C D B Sun ( 4 ) C A Asteroid\u2019s orbit Asteroid\u2019s orbit Asteroid\u2019s orbit Asteroid\u2019s orbit A D B C D A B C Orbital Positions of Asteroid Greatest D Gravitational Attraction Least",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The map below shows four major time zones of the United States. The dashed lines represent meridians of longitude. The locations of New York City and Denver are shown. What is the time in New York City when it is noon in Denver?",
+      "choices": [
+        "10 a.m.",
+        "2 p.m.",
+        "3 p.m.",
+        "noon"
+      ],
+      "image": "/images/exams/earth-science/august-2014/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Which station model shows an air temperature of 75\u00b0F and a barometric pressure of 996.3 mb? 963 75 996 ( 1 ) ( 2 ) ( 3 ) ( 4 ) 75 75 963 996 75 75\u00b0 W Central time zone Mountain time zone New York City 120\u00b0 W 105\u00b0 W 90\u00b0 W Eastern time zone Pacific time zone Denver",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "The map below shows air pressures recorded in millibars (mb). Which map shows the correct location of the 996-mb, 1000-mb, and 1004-mb isobars? 997 993 994 993 997 1001 1001 1003 1003 1007 999 1000 1001 1003 1005 1003 1002 1007 996 1000 1004 ( 2 ) 997 993 998 994 993 997 1001 1001 1003 1003 1005 1007 999 1000 1001 1003 1005 1003 1002 1007 996 ( 4 ) 1000 1004 996 1005 998 996 997 993 998 996 994 993 997 1001 1001 1003 1003 1005 1007 999 1000 1001 1003 1005 1003 1002 1007 1000 1004 ( 1 ) 997 993 998 996 994 993 997 1001 1001 1003 1003 1005 1007 999 1000 1001 1003 1005 1003 1002 1007 996 ( 3 ) 1000 1004 996 997 993 998 996 994 993 997 1001 1001 1003 1003 1005 1007 999 1000 1001 1003 1005 1003 1002 1007",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The map below shows the amount of snowfall, in inches, produced by a lake-effect snowstorm in central New York State. The wind that produced this snowfall pattern most likely came from the",
+      "choices": [
+        "northeast",
+        "northwest",
+        "southeast",
+        "southwest"
+      ],
+      "image": "/images/exams/earth-science/august-2014/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The block diagram below represents an igneous dome that uplifted overlying rock layers, which were then weathered and eroded. Which stream drainage pattern is most likely found on the surface of the area represented by the block diagram? Lake Erie Lake Ontario Canada New York State 12\" N S W E 6\" 3\" 6\" 3\" ( 4 ) ( 2 ) ( 1 ) ( 3 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "On the map below, points A through D represent locations on Earth\u2019s surface. Which location is positioned over a mantle hot spot?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D B Asia Africa North America South America Indian Ocean D Pacific Ocean Atlantic Ocean Australia Europe A C"
+      ],
+      "image": "/images/exams/earth-science/august-2014/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "More than half of brachiopod species became extinct at the end of the",
+      "choices": [
+        "Devonian Period",
+        "Silurian Period",
+        "Ordovician Period",
+        "Cambrian Period"
+      ],
+      "image": "/images/exams/earth-science/august-2014/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the data table below and on your knowledge of Earth science.\nThe data table shows information on six major mass extinction events that occurred many million years ago\n(mya) in Earth\u2019s history.\nSome Major Mass Extinctions in Earth\u2019s History",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which event is generally accepted as the cause of the mass extinction that occurred 65.5 million years ago?",
+      "choices": [
+        "volcanic eruption",
+        "continental collision",
+        "asteroid impact",
+        "sea-level change Approximate Time (mya) Certain Life-Forms That Became Extinct 65.5 all dinosaurs and all ammonoids 200 many species of nautiloids, ammonoids, mammal-like reptiles, and early dinosaurs 251 all trilobites and 90% of other marine species and 70% of land species 376 many species of corals, brachiopods, and trilobites 444 more than half of brachiopod species, many trilobite species, and some coral species 520 small shelly fossil species and some early trilobite species"
+      ],
+      "image": "/images/exams/earth-science/august-2014/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the data table below and on your knowledge of Earth science.\nThe data table shows information on six major mass extinction events that occurred many million years ago\n(mya) in Earth\u2019s history.\nSome Major Mass Extinctions in Earth\u2019s History",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which weather condition is shown along the cold front?",
+      "choices": [
+        "fog",
+        "snow",
+        "haze",
+        "thunderstorms"
+      ],
+      "image": "/images/exams/earth-science/august-2014/context_38_40.png",
+      "context": "Base your answers to questions 38 through 40 on the weather map below and on your knowledge of Earth\nscience. The map of a portion of eastern North America shows a high-pressure center (H) and a low-pressure\ncenter (L), frontal boundaries, and present weather conditions.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "What was the most likely source region for the air mass over Pennsylvania?",
+      "choices": [
+        "New York State",
+        "Pacific Ocean",
+        "Gulf of Mexico",
+        "Canada"
+      ],
+      "image": "/images/exams/earth-science/august-2014/context_38_40.png",
+      "context": "Base your answers to questions 38 through 40 on the weather map below and on your knowledge of Earth\nscience. The map of a portion of eastern North America shows a high-pressure center (H) and a low-pressure\ncenter (L), frontal boundaries, and present weather conditions.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The general surface wind circulation associated with the high-pressure center (H) is most likely",
+      "choices": [
+        "clockwise and outward",
+        "clockwise and inward",
+        "counterclockwise and outward",
+        "counterclockwise and inward L Canada New York Pennsylvania Atlantic Ocean Gulf of Mexico Mexico H"
+      ],
+      "image": "/images/exams/earth-science/august-2014/context_38_40.png",
+      "context": "Base your answers to questions 38 through 40 on the weather map below and on your knowledge of Earth\nscience. The map of a portion of eastern North America shows a high-pressure center (H) and a low-pressure\ncenter (L), frontal boundaries, and present weather conditions.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The same type of evidence was used to find the inferred depths of both the Moon\u2019s interior layers and Earth\u2019s interior layers. What evidence was used to determine the inferred depth of the boundary between the Moon\u2019s mantle and core?",
+      "choices": [
+        "seismic data recorded on the Moon\u2019s surface",
+        "magnetic data measured on the Moon\u2019s surface",
+        "convection currents mapped in the Moon\u2019s mantle and core",
+        "temperatures measured in the Moon\u2019s mantle and core"
+      ],
+      "image": "/images/exams/earth-science/august-2014/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the passage and diagram below and on your knowledge of\nEarth science. The passage describes geologic studies of the Moon. The diagram represents the Moon\u2019s surface\nand interior, showing the inferred depth of each layer below the Moon\u2019s surface.\nMoon Studies\nScientific instruments left on the Moon\u2019s surface recorded 12,558 moonquakes in\neight years. Most of these moonquakes originated between 700 km and 1200 km below\nthe Moon\u2019s surface. Scientists infer that most moonquakes are caused by the \ngravitational forces between the Moon, Earth, and the Sun.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "What is the inferred thickness of the Moon\u2019s mantle?",
+      "choices": [
+        "60 km",
+        "638 km",
+        "1040 km",
+        "1738 km"
+      ],
+      "image": "/images/exams/earth-science/august-2014/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the passage and diagram below and on your knowledge of\nEarth science. The passage describes geologic studies of the Moon. The diagram represents the Moon\u2019s surface\nand interior, showing the inferred depth of each layer below the Moon\u2019s surface.\nMoon Studies\nScientific instruments left on the Moon\u2019s surface recorded 12,558 moonquakes in\neight years. Most of these moonquakes originated between 700 km and 1200 km below\nthe Moon\u2019s surface. Scientists infer that most moonquakes are caused by the \ngravitational forces between the Moon, Earth, and the Sun.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Which planet has an average density most similar to the average density of the Moon?",
+      "choices": [
+        "Mercury",
+        "Mars",
+        "Jupiter",
+        "Neptune Key (Not drawn to scale) Inferred Depth Below the Surface: Layers of the Moon A B C Crust: 0 km to 60 km A Mantle: 60 km to 1100 km B Core: 1100 km to 1738 km C"
+      ],
+      "image": "/images/exams/earth-science/august-2014/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the passage and diagram below and on your knowledge of\nEarth science. The passage describes geologic studies of the Moon. The diagram represents the Moon\u2019s surface\nand interior, showing the inferred depth of each layer below the Moon\u2019s surface.\nMoon Studies\nScientific instruments left on the Moon\u2019s surface recorded 12,558 moonquakes in\neight years. Most of these moonquakes originated between 700 km and 1200 km below\nthe Moon\u2019s surface. Scientists infer that most moonquakes are caused by the \ngravitational forces between the Moon, Earth, and the Sun.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which pair of organisms existed when the unconsolidated sediment in layer A was deposited?",
+      "choices": [
+        "birds and trilobites",
+        "dinosaurs and mastodonts",
+        "ammonoids and grasses",
+        "humans and vascular plants"
+      ],
+      "image": "/images/exams/earth-science/august-2014/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the geologic cross section below and on your knowledge\nof Earth science. The cross section represents rock and sediment layers, labeled A through F. Each layer \ncontains fossil remains, which formed in different depositional environments. Some layers contain index fossils.\nThe layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which rock layer formed mainly from the compaction of plant remains?",
+      "choices": [
+        "E",
+        "B",
+        "C",
+        "F"
+      ],
+      "image": "/images/exams/earth-science/august-2014/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the geologic cross section below and on your knowledge\nof Earth science. The cross section represents rock and sediment layers, labeled A through F. Each layer \ncontains fossil remains, which formed in different depositional environments. Some layers contain index fossils.\nThe layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "During which geologic epoch was layer F deposited?",
+      "choices": [
+        "Late Devonian",
+        "Middle Devonian",
+        "Early Devonian",
+        "Late Silurian"
+      ],
+      "image": "/images/exams/earth-science/august-2014/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the geologic cross section below and on your knowledge\nof Earth science. The cross section represents rock and sediment layers, labeled A through F. Each layer \ncontains fossil remains, which formed in different depositional environments. Some layers contain index fossils.\nThe layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The depositional environment during the time these layers and fossils were deposited",
+      "choices": [
+        "was consistently marine",
+        "was consistently terrestrial (land)",
+        "changed from marine to terrestrial (land)",
+        "changed from terrestrial (land) to marine Mammoth tusks in unconsolidated sediment Scale trees and seed ferns Nautiloids and ammonoids . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Fossils Found in Layer Eurypterids Scale trees and seed ferns Fossil jaw of mammal-like reptile (Not drawn to scale) A E F D C B"
+      ],
+      "image": "/images/exams/earth-science/august-2014/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the geologic cross section below and on your knowledge\nof Earth science. The cross section represents rock and sediment layers, labeled A through F. Each layer \ncontains fossil remains, which formed in different depositional environments. Some layers contain index fossils.\nThe layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "All of the particles in these four columns are classified as",
+      "choices": [
+        "clay",
+        "silt",
+        "sand",
+        "pebbles"
+      ],
+      "image": "/images/exams/earth-science/august-2014/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the diagram below and on your knowledge of Earth \nscience. The diagram represents setups of laboratory equipment, labeled A, B, C, and D. This equipment was\nused to test the infiltration rate and water retention of four different particle sizes. Each column was filled to\nthe same level with uniform-sized dry, spherical particles. Water was poured into each column until the water\nlevel rose to the top of the particles. Then, the clamp was opened to allow the water to drain into the beaker\nbeneath each column.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "written",
+      "text": "Which graph best shows the rate of infiltration of water through the particles in these four columns?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the diagram below and on your knowledge of Earth \nscience. The diagram represents setups of laboratory equipment, labeled A, B, C, and D. This equipment was\nused to test the infiltration rate and water retention of four different particle sizes. Each column was filled to\nthe same level with uniform-sized dry, spherical particles. Water was poured into each column until the water\nlevel rose to the top of the particles. Then, the clamp was opened to allow the water to drain into the beaker\nbeneath each column.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which column of particles retained the most water after the clamps were opened and the water was drained into the beakers?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D Rate of Infiltration (cm/s) Particle Diameter (mm) ( 1 ) Particle Diameter (mm) ( 2 ) Particle Diameter (mm) ( 3 ) Particle Diameter (mm) ( 4 ) 4 7 10 13 4 7 10 13 4 7 10 13 4 7 10 13 Rate of Infiltration (cm/s) Rate of Infiltration (cm/s) Rate of Infiltration (cm/s) (Not drawn to scale) Beaker Clamp Particles with a diameter of 4 mm (0.4 cm) Beaker Clamp Particles with a diameter of 10 mm (1.0 cm) Beaker Clamp Particles with a diameter of 13 mm (1.3 cm) Beaker Clamp Particles with a diameter of 7 mm (0.7 cm) C D A B"
+      ],
+      "image": "/images/exams/earth-science/august-2014/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the diagram below and on your knowledge of Earth \nscience. The diagram represents setups of laboratory equipment, labeled A, B, C, and D. This equipment was\nused to test the infiltration rate and water retention of four different particle sizes. Each column was filled to\nthe same level with uniform-sized dry, spherical particles. Water was poured into each column until the water\nlevel rose to the top of the particles. Then, the clamp was opened to allow the water to drain into the beaker\nbeneath each column.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "On the cross section in your answer booklet, draw two arrows, one on each side of line XY, to show the direction of relative movement that has occurred along the fault.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the cross section of part of Earth\u2019s crust in your answer\nbooklet and on your knowledge of Earth science. On the cross section, some rock units are labeled with letters\nA through I. The rock units have not been overturned. Line XY represents a fault. Line UV represents an uncon-\nformity.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Write the letter of the oldest rock unit in the cross section.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the cross section of part of Earth\u2019s crust in your answer\nbooklet and on your knowledge of Earth science. On the cross section, some rock units are labeled with letters\nA through I. The rock units have not been overturned. Line XY represents a fault. Line UV represents an uncon-\nformity.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Identify the contact metamorphic rock that formed between rock units B and C.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the cross section of part of Earth\u2019s crust in your answer\nbooklet and on your knowledge of Earth science. On the cross section, some rock units are labeled with letters\nA through I. The rock units have not been overturned. Line XY represents a fault. Line UV represents an uncon-\nformity.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "The table below shows the ages of the igneous rock units, determined by radioactive dating. How many million years ago did rock unit I most likely form? Rock Unit D G H B Age (million years) 420 454 420 140",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/q54.png",
+      "context": "Base your answers to questions 51 through 54 on the cross section of part of Earth\u2019s crust in your answer\nbooklet and on your knowledge of Earth science. On the cross section, some rock units are labeled with letters\nA through I. The rock units have not been overturned. Line XY represents a fault. Line UV represents an uncon-\nformity.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify one human activity that was a major cause of the huge dust storms that formed in the Great Plains during the 1930s.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the passage and map below and on your knowledge of\nEarth science. The map shows a portion of the Dust Bowl in the southern Great Plains.\nThe Dust Bowl\nIn the 1930s, several years of drought affected over 100 million acres in the Great\nPlains from North Dakota to Texas. For several decades before this drought, farmers\nhad plowed the prairie and loosened the soil. When the soil became extremely dry\nfrom lack of rain, strong prairie winds easily removed huge amounts of soil from the\nfarms, forming dust storms. This region was called the Dust Bowl.\nIn the spring of 1934, a windstorm lasting a day and a half created a dust cloud\nnearly 2000 kilometers long and caused \u201cmuddy rains\u201d in New York State and \u201cblack\nsnow\u201d in Vermont. Months later, a Colorado storm carried dust approximately \n3 kilometers up into the atmosphere and transported it 3000 kilometers, creating \ntwilight conditions at midday in New York State.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Describe one change in the appearance of the sand particles that were abraded when transported by winds within the Dust Bowl region.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the passage and map below and on your knowledge of\nEarth science. The map shows a portion of the Dust Bowl in the southern Great Plains.\nThe Dust Bowl\nIn the 1930s, several years of drought affected over 100 million acres in the Great\nPlains from North Dakota to Texas. For several decades before this drought, farmers\nhad plowed the prairie and loosened the soil. When the soil became extremely dry\nfrom lack of rain, strong prairie winds easily removed huge amounts of soil from the\nfarms, forming dust storms. This region was called the Dust Bowl.\nIn the spring of 1934, a windstorm lasting a day and a half created a dust cloud\nnearly 2000 kilometers long and caused \u201cmuddy rains\u201d in New York State and \u201cblack\nsnow\u201d in Vermont. Months later, a Colorado storm carried dust approximately \n3 kilometers up into the atmosphere and transported it 3000 kilometers, creating \ntwilight conditions at midday in New York State.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify the name of the layer of the atmosphere in which the dust particles were transported by the Colorado storm to New York State.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the passage and map below and on your knowledge of\nEarth science. The map shows a portion of the Dust Bowl in the southern Great Plains.\nThe Dust Bowl\nIn the 1930s, several years of drought affected over 100 million acres in the Great\nPlains from North Dakota to Texas. For several decades before this drought, farmers\nhad plowed the prairie and loosened the soil. When the soil became extremely dry\nfrom lack of rain, strong prairie winds easily removed huge amounts of soil from the\nfarms, forming dust storms. This region was called the Dust Bowl.\nIn the spring of 1934, a windstorm lasting a day and a half created a dust cloud\nnearly 2000 kilometers long and caused \u201cmuddy rains\u201d in New York State and \u201cblack\nsnow\u201d in Vermont. Months later, a Colorado storm carried dust approximately \n3 kilometers up into the atmosphere and transported it 3000 kilometers, creating \ntwilight conditions at midday in New York State.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Explain why the dust clouds that moved to the east coast of the United States during the 1934 storm were composed mostly of silt and clay particles instead of sand. Key Area of severe wind erosion Mountain range Nebraska Kansas Oklahoma Texas New Mexico Colorado A Portion of the Dust Bowl in the Southern Great Plains N Mexico Gulf of Mexico",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the passage and map below and on your knowledge of\nEarth science. The map shows a portion of the Dust Bowl in the southern Great Plains.\nThe Dust Bowl\nIn the 1930s, several years of drought affected over 100 million acres in the Great\nPlains from North Dakota to Texas. For several decades before this drought, farmers\nhad plowed the prairie and loosened the soil. When the soil became extremely dry\nfrom lack of rain, strong prairie winds easily removed huge amounts of soil from the\nfarms, forming dust storms. This region was called the Dust Bowl.\nIn the spring of 1934, a windstorm lasting a day and a half created a dust cloud\nnearly 2000 kilometers long and caused \u201cmuddy rains\u201d in New York State and \u201cblack\nsnow\u201d in Vermont. Months later, a Colorado storm carried dust approximately \n3 kilometers up into the atmosphere and transported it 3000 kilometers, creating \ntwilight conditions at midday in New York State.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Point A on the topographic map in your answer booklet indicates a certain elevation on the east side of the lake. Place an X at the same elevation on the west side of the lake.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 62 on the topographic map in your answer booklet and on your\nknowledge of Earth science. The map shows an area of New York State that includes a campsite, trail, and \nbuildings near a lake. Points A, B, C, and D represent locations on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a topographic profile along line BC. Plot the elevation of each contour line that crosses line BC. Connect all seven plots with a line to complete the profile.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 62 on the topographic map in your answer booklet and on your\nknowledge of Earth science. The map shows an area of New York State that includes a campsite, trail, and \nbuildings near a lake. Points A, B, C, and D represent locations on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "In your answer booklet, circle the phrase that indicates the direction of flow of Woodland Brook. Describe the contour-line evidence that supports your answer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 62 on the topographic map in your answer booklet and on your\nknowledge of Earth science. The map shows an area of New York State that includes a campsite, trail, and \nbuildings near a lake. Points A, B, C, and D represent locations on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Campers hiked along the trail from the shoreline of the lake to point D to view the landscape. Determine the average gradient, in meters per kilometer, of the route they took on their hike.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 62 on the topographic map in your answer booklet and on your\nknowledge of Earth science. The map shows an area of New York State that includes a campsite, trail, and \nbuildings near a lake. Points A, B, C, and D represent locations on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, place an X on Earth\u2019s orbit at one location where Earth\u2019s Northern Hemisphere is in winter.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the diagram in your answer booklet and on your knowledge\nof Earth science. The diagram represents a model of Earth\u2019s orbit around the Sun. Arrows represent two\nmotions of Earth. Distances from the center of the Sun to the center of Earth are indicated in kilometers. Earth\nis represented when it is closest to the Sun and when it is farthest from the Sun.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "How many degrees is Earth\u2019s axis tilted to a line perpendicular to the plane of Earth\u2019s orbit?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the diagram in your answer booklet and on your knowledge\nof Earth science. The diagram represents a model of Earth\u2019s orbit around the Sun. Arrows represent two\nmotions of Earth. Distances from the center of the Sun to the center of Earth are indicated in kilometers. Earth\nis represented when it is closest to the Sun and when it is farthest from the Sun.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "The diagram in your answer booklet represents Earth at one position in its orbit around the Sun. Starting at the North Pole, draw a straight arrow that points to the location of Polaris.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the diagram in your answer booklet and on your knowledge\nof Earth science. The diagram represents a model of Earth\u2019s orbit around the Sun. Arrows represent two\nmotions of Earth. Distances from the center of the Sun to the center of Earth are indicated in kilometers. Earth\nis represented when it is closest to the Sun and when it is farthest from the Sun.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "On the graph in your answer booklet, plot the number of daylight hours for the 21st day of each month listed on the data table. Connect all of your plotted data with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the data table below and on the graph in your answer \nbooklet and on your knowledge of Earth science. The data table lists the number of daylight hours for \na location at 50\u00b0 N on the 21st day of each month for 1 year. The graph shows the number of daylight hours on\nthe 21st day of each month for a location at 70\u00b0 N and for the equator, 0\u00b0.\nDaylight Hours at 50\u00b0 N",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Explain why the number of daylight hours for all three latitudes was 12 hours on March 21 and September 21.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the data table below and on the graph in your answer \nbooklet and on your knowledge of Earth science. The data table lists the number of daylight hours for \na location at 50\u00b0 N on the 21st day of each month for 1 year. The graph shows the number of daylight hours on\nthe 21st day of each month for a location at 70\u00b0 N and for the equator, 0\u00b0.\nDaylight Hours at 50\u00b0 N",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Predict the number of daylight hours that occur at 70\u00b0 S on June 21. Date Daylight (h) January 21 8.4 February 21 10.0 March 21 12.0 April 21 13.8 May 21 15.5 June 21 16.2 July 21 15.5 August 21 14.0 September 21 12.0 October 21 10.2 November 21 8.4 December 21 7.5",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the data table below and on the graph in your answer \nbooklet and on your knowledge of Earth science. The data table lists the number of daylight hours for \na location at 50\u00b0 N on the 21st day of each month for 1 year. The graph shows the number of daylight hours on\nthe 21st day of each month for a location at 70\u00b0 N and for the equator, 0\u00b0.\nDaylight Hours at 50\u00b0 N",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Describe the color and texture of the surfaces inside the greenhouse that would most likely absorb the greatest amount of visible light.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the data table below and on your knowledge of Earth \nscience. The table shows air temperatures recorded under identical conditions at 2-hour intervals on a sunny\nday. Data were recorded 1 meter above ground level both inside and outside of a glass greenhouse.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Calculate the rate of change in the outside air temperature from 8 a.m. to 2 p.m. in Celsius degrees per hour.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the data table below and on your knowledge of Earth \nscience. The table shows air temperatures recorded under identical conditions at 2-hour intervals on a sunny\nday. Data were recorded 1 meter above ground level both inside and outside of a glass greenhouse.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Most atmospheric scientists infer that global warming is occurring due to an increase in greenhouse gases. State the names of two greenhouse gases.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the data table below and on your knowledge of Earth \nscience. The table shows air temperatures recorded under identical conditions at 2-hour intervals on a sunny\nday. Data were recorded 1 meter above ground level both inside and outside of a glass greenhouse.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "The center of the asteroid belt is approximately 503 million kilometers from the Sun. In your answer booklet, draw an X on the model between two planets to indicate the center of the asteroid belt.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 76 on the side-view model of the solar system in your answer\nbooklet and on your knowledge of Earth science. The planets are shown in their relative order of distance from\nthe Sun. Letter A indicates one of the planets.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "State the period of rotation at the equator of planet A. Label your answer with the correct units.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 76 on the side-view model of the solar system in your answer\nbooklet and on your knowledge of Earth science. The planets are shown in their relative order of distance from\nthe Sun. Letter A indicates one of the planets.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "How many million years ago did Earth and the solar system form?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 76 on the side-view model of the solar system in your answer\nbooklet and on your knowledge of Earth science. The planets are shown in their relative order of distance from\nthe Sun. Letter A indicates one of the planets.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Calculate how many times larger the equatorial diameter of the Sun is than the equatorial diameter of Venus.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 76 on the side-view model of the solar system in your answer\nbooklet and on your knowledge of Earth science. The planets are shown in their relative order of distance from\nthe Sun. Letter A indicates one of the planets.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Identify the process that occurs within the Sun that converts mass into large amounts of energy. Time Inside Air Temperature (\u00b0C) Outside Air Temperature (\u00b0C) 8 a.m. 15 15 10 a.m. 18 16 12 noon 21 17 2 p.m. 24 18 4 p.m. 24 17",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 76 on the side-view model of the solar system in your answer\nbooklet and on your knowledge of Earth science. The planets are shown in their relative order of distance from\nthe Sun. Letter A indicates one of the planets.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw five lines to connect the diagram of granite to the symbols of the minerals that are commonly part of granite\u2019s composition.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 80 on the diagram in your answer booklet and on your knowledge\nof Earth science. The diagram represents several common rock-forming minerals and some of the igneous rocks\nin which they commonly occur. The minerals are divided into two groups, A and B. Dashed lines connect the\ndiagram of diorite to the three minerals that are commonly part of diorite\u2019s composition.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Describe one characteristic of the minerals in group A that makes them different from the minerals in group B.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 80 on the diagram in your answer booklet and on your knowledge\nof Earth science. The diagram represents several common rock-forming minerals and some of the igneous rocks\nin which they commonly occur. The minerals are divided into two groups, A and B. Dashed lines connect the\ndiagram of diorite to the three minerals that are commonly part of diorite\u2019s composition.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Based on the Earth Science Reference Tables, identify one other mineral found in some samples of diorite that is not shown in the diorite sample in the diagram.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 80 on the diagram in your answer booklet and on your knowledge\nof Earth science. The diagram represents several common rock-forming minerals and some of the igneous rocks\nin which they commonly occur. The minerals are divided into two groups, A and B. Dashed lines connect the\ndiagram of diorite to the three minerals that are commonly part of diorite\u2019s composition.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "A sedimentary rock sample has the same basic mineral composition as granite. Describe one observable characteristic of the sedimentary rock that is different from granite.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/q80.png",
+      "context": "Base your answers to questions 77 through 80 on the diagram in your answer booklet and on your knowledge\nof Earth science. The diagram represents several common rock-forming minerals and some of the igneous rocks\nin which they commonly occur. The minerals are divided into two groups, A and B. Dashed lines connect the\ndiagram of diorite to the three minerals that are commonly part of diorite\u2019s composition.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Describe one ocean surface condition or atmospheric condition that makes the area over the Atlantic Ocean between 10\u00b0 N latitude and 20\u00b0 N latitude ideal for these hurricanes to form.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_81_82.png",
+      "context": "Base your answers to questions 81 and 82 on the Atlantic hurricane map below and on your knowledge of Earth\nscience. The arrows on the map show the tracks of various hurricanes that occurred during late summer and early fall.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Several of these hurricanes have affected land areas. Describe two actions that people who live in hurricane- prone areas should take in order to prepare for future hurricanes. 50\u00b0 N 90\u00b0 W 80\u00b0 W 70\u00b0 W 60\u00b0 W 50\u00b0 W 40\u00b0 W 30\u00b0 W 20\u00b0 W 10\u00b0 W 20\u00b0 N 10\u00b0 N 30\u00b0 N 40\u00b0 N 90\u00b0 W 80\u00b0 W 70\u00b0 W 60\u00b0 W 50\u00b0 W 40\u00b0 W 30\u00b0 W 20\u00b0 W 10\u00b0 W 50\u00b0 N 20\u00b0 N 10\u00b0 N 30\u00b0 N 40\u00b0 N Atlantic Ocean",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_81_82.png",
+      "context": "Base your answers to questions 81 and 82 on the Atlantic hurricane map below and on your knowledge of Earth\nscience. The arrows on the map show the tracks of various hurricanes that occurred during late summer and early fall.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Name the major fault along which both of these earthquakes occurred and identify the type of plate tectonic boundary that is located along this fault.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the maps and table below and on your knowledge of Earth\nscience. The maps show earthquake intensities (IV to IX), according to the table of the Modified Mercalli \nIntensity Scale, for the 1906 and 1989 earthquakes at several locations in California. The asterisk (\n) on each\nmap is the location of each epicenter. The dashed line represents the location of a major fault.\nModified Mercalli Intensity Scale",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Based on the Modified Mercalli Intensity Scale, identify the perceived shaking and the observed damage that occurred in the San Francisco area during the 1906 earthquake.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the maps and table below and on your knowledge of Earth\nscience. The maps show earthquake intensities (IV to IX), according to the table of the Modified Mercalli \nIntensity Scale, for the 1906 and 1989 earthquakes at several locations in California. The asterisk (\n) on each\nmap is the location of each epicenter. The dashed line represents the location of a major fault.\nModified Mercalli Intensity Scale",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Explain why Santa Rosa experienced a lower Modified Mercalli intensity shaking than Salinas experienced during the 1989 earthquake. * Level of Intensity IV V VI VII VIII IX Perceived shaking light moderate strong very strong severe violent Observed damage none very light light moderate moderate to heavy heavy 38\u00b0 N 37\u00b0 N 123\u00b0 W VIII VII VII VI VII VI Santa Rosa Tracy San Francisco 0 50 km 122\u00b0 W 121\u00b0 W Salinas 38\u00b0 N 37\u00b0 N 123\u00b0 W VIII VII VI VI IX V IV Santa Rosa Tracy San Francisco 122\u00b0 W 121\u00b0 W Salinas VII VIII VIII 0 50 km * * Pacific Ocean Pacific Ocean 1906 Earthquake Intensities 1989 Earthquake Intensities IX * Earthquake epicenter Modified Mercalli intensities City Key P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2014/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the maps and table below and on your knowledge of Earth\nscience. The maps show earthquake intensities (IV to IX), according to the table of the Modified Mercalli \nIntensity Scale, for the 1906 and 1989 earthquakes at several locations in California. The asterisk (\n) on each\nmap is the location of each epicenter. The dashed line represents the location of a major fault.\nModified Mercalli Intensity Scale",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

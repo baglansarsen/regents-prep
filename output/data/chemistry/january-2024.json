@@ -1,0 +1,1096 @@
+{
+  "subject": "chemistry",
+  "session": "january-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which particles surround the nucleus of a neon atom?",
+      "choices": [
+        "electrons",
+        "neutrons",
+        "positrons",
+        "protons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which conclusion was proposed as a result of an experiment during which some alpha particles were deflected while passing through a thin sheet of gold foil?",
+      "choices": [
+        "Atoms are hard, indivisible spheres.",
+        "Atoms have small, dense, positive nuclei.",
+        "Atoms contain negatively charged particles.",
+        "Atoms have electrons with wavelike properties."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The mass of each proton and each neutron is approximately equal to",
+      "choices": [
+        "1 g",
+        "1 mL",
+        "1 u",
+        "1 mol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which statement describes the relationship between two electrons in an atom of magnesium in the ground state?",
+      "choices": [
+        "An electron in the first shell has the same amount of energy as an electron in the second shell.",
+        "An electron in the first shell has a greater amount of energy than an electron in the second shell.",
+        "An electron in the second shell has the same amount of energy as an electron in the third shell.",
+        "An electron in the third shell has a greater amount of energy than an electron in the second shell."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "As an atom in the ground state changes to an atom in an excited state, the atom",
+      "choices": [
+        "absorbs energy",
+        "releases energy",
+        "increases in mass number",
+        "decreases in mass number"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which statement describes a chemical property of copper?",
+      "choices": [
+        "Copper has a red-orange color.",
+        "Copper can be flattened into sheets.",
+        "Copper reacts with oxygen.",
+        "Copper conducts an electric current."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "At STP, two forms of solid carbon, diamond and graphite, have different properties because",
+      "choices": [
+        "diamond has a different percent composition than graphite",
+        "diamond has more electrons per atom than graphite",
+        "diamond has stronger hydrogen bonding than graphite",
+        "diamond has a different crystal structure than graphite"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which element in Period 2 has the highest first ionization energy?",
+      "choices": [
+        "boron",
+        "lithium",
+        "neon",
+        "nitrogen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which phrase describes a specific compound?",
+      "choices": [
+        "can contain only one element",
+        "can be physically separated into elements",
+        "is composed of elements chemically combined in a definite ratio",
+        "is composed of elements mixed in proportions that can vary"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which type of chemical formula shows the arrangement of the atoms in a molecule?",
+      "choices": [
+        "empirical formula",
+        "general formula",
+        "molecular formula",
+        "structural formula"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A 2.5 L sample of SO2(g) at STP and a 2.5 L sample of CO2(g) at STP can be differentiated by comparing their",
+      "choices": [
+        "masses",
+        "phases",
+        "temperatures",
+        "volumes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which terms identify the two different major categories of compounds?",
+      "choices": [
+        "covalent and molecular",
+        "covalent and thermal",
+        "ionic and molecular",
+        "ionic and thermal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which molecule of an element contains a multiple covalent bond?",
+      "choices": [
+        "Br2",
+        "F2",
+        "H2",
+        "O2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which molecule is symmetrical in both shape and distribution of charge?",
+      "choices": [
+        "HCl",
+        "H2O",
+        "NH3",
+        "CH4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "What occurs when two atoms of bromine react to form a molecule of bromine?",
+      "choices": [
+        "A bond is broken as energy is released.",
+        "A bond is broken as energy is absorbed.",
+        "A bond is formed as energy is released.",
+        "A bond is formed as energy is absorbed."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Atoms of which element have the strongest attraction for electrons in a chemical bond?",
+      "choices": [
+        "fluorine",
+        "nitrogen",
+        "phosphorus",
+        "potassium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Heat flows from an object at a temperature of 20.\u00b0C to an object at a temperature of",
+      "choices": [
+        "15\u00b0C",
+        "25\u00b0C",
+        "35\u00b0C",
+        "45\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "According to the kinetic molecular theory, an ideal gas has particles with",
+      "choices": [
+        "large volume",
+        "large atomic radii",
+        "no attractive forces",
+        "no random motion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which sample at STP contains the same number of atoms as 2.0 liters of He(g) at STP?",
+      "choices": [
+        "1.0 liter of Ar(g)",
+        "2.0 liters of Ar(g)",
+        "3.0 liters of Ne(g)",
+        "4.0 liters of Ne(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "All chemical systems at equilibrium have equal",
+      "choices": [
+        "masses of reactants and products",
+        "concentrations of reactants and products",
+        "rates of forward and reverse reactions",
+        "activation energies of forward and reverse reactions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which expression represents the heat of reaction for a chemical change?",
+      "choices": [
+        "(PEproducts) 1 (PEreactants)",
+        "(PEproducts) 2 (PEreactants)",
+        "(PEproducts) 4 (PEreactants)",
+        "(PEproducts) 3 (PEreactants)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which phase change represents an increase in entropy?",
+      "choices": [
+        "liquid to gas",
+        "liquid to solid",
+        "gas to solid",
+        "gas to liquid"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Systems in nature tend to change toward",
+      "choices": [
+        "lower energy and less disorder",
+        "lower energy and greater disorder",
+        "higher energy and less disorder",
+        "higher energy and greater disorder"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which name represents a hydrocarbon?",
+      "choices": [
+        "1\u2013hexene",
+        "1\u2013iodohexane",
+        "3\u2013hexanone",
+        "3\u2013hexanol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which process occurs at the anode in an electrolytic cell?",
+      "choices": [
+        "addition",
+        "combustion",
+        "oxidation",
+        "reduction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which formula represents an electrolyte?",
+      "choices": [
+        "H2O",
+        "CCl4",
+        "H2SO4",
+        "C6H12O6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which formula represents an Arrhenius acid?",
+      "choices": [
+        "KCl",
+        "HCl",
+        "NH3",
+        "KOH"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "According to one acid-base theory, an acid is a substance that",
+      "choices": [
+        "donates hydroxide ions",
+        "donates hydrogen ions",
+        "accepts hydroxide ions",
+        "accepts hydrogen ions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which nuclear emission has the greatest mass and ionizing power?",
+      "choices": [
+        "alpha particle",
+        "beta particle",
+        "gamma radiation",
+        "positron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which statement describes a benefit of the nuclear reaction that occurs in a nuclear power plant?",
+      "choices": [
+        "Large amounts of water are needed to cool the nuclear reactor.",
+        "The power plant reaction can be used in dating geologic formations.",
+        "Radioactive isotopes are stored for a very long time at the power plant site.",
+        "A large amount of energy is produced from a small amount of a radioisotope."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The bright-line spectra produced by four elements and a mixture of two of these elements are represented in the diagram below. Wavelength (nm) Bright-Line Spectra of Four Elements and a Mixture 750 700 650 600 550 500 450 400 Wavelength (nm) 750 700 650 600 550 500 450 400 Element E Element G Element J Element L Mixture Which elements are present in the mixture?",
+      "choices": [
+        "L and G",
+        "L and J",
+        "E and G",
+        "E and J"
+      ],
+      "image": "/images/exams/chemistry/january-2024/q31.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Which particle model diagram represents a noble gas at STP? Key = atom of one element = atom of a different element ( 1 ) ( 3 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2024/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "A student determines the density of a copper sample at room temperature to be 9.46 g/cm3. Based on Table S, what is the student\u2019s percent error in determining the density of copper?",
+      "choices": [
+        "0.50%",
+        "5.0%",
+        "5.3%",
+        "5.6%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "What is the gram-formula mass of Mg(NO3)2?",
+      "choices": [
+        "86 g/mol",
+        "134 g/mol",
+        "148 g/mol",
+        "172 g/mol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Compared to a rubidium atom, a Rb1 ion has",
+      "choices": [
+        "one more electron and a larger radius",
+        "one more electron and a smaller radius",
+        "one fewer electron and a larger radius",
+        "one fewer electron and a smaller radius"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which ion in the ground state has the same electron configuration as an atom of neon in the ground state?",
+      "choices": [
+        "K1",
+        "Li1",
+        "F2",
+        "Cl2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which substance can not be broken down by a chemical change?",
+      "choices": [
+        "barium",
+        "butanal",
+        "methane",
+        "methanol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The difference in which property allows the separation of a sample of water and sand by using filter paper and a funnel?",
+      "choices": [
+        "boiling point",
+        "melting point",
+        "particle size",
+        "sample volume"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "According to Table F, which compound has a very low solubility in water?",
+      "choices": [
+        "sodium carbonate",
+        "sodium sulfide",
+        "calcium hydroxide",
+        "calcium phosphate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "What is the molarity of a NaOH solution containing 0.125 mole of NaOH in 0.200 L of water?",
+      "choices": [
+        "0.025 M",
+        "0.250 M",
+        "0.625 M",
+        "1.60 M"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Compared to a 0.10 M aqueous NaNO3 solution at 1 atmosphere, a 1.0 M aqueous NaNO3 solution at 1 atmosphere has a",
+      "choices": [
+        "lower freezing point and a lower boiling point",
+        "lower freezing point and a higher boiling point",
+        "higher freezing point and a higher boiling point",
+        "higher freezing point and a lower boiling point"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "What is the temperature, in degrees Celsius, of a sample of matter at 35 K?",
+      "choices": [
+        "2238\u00b0C",
+        "2308\u00b0C",
+        "35\u00b0C",
+        "308\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "written",
+      "text": "Which graph represents the relationship between pressure and volume for an ideal gas at constant temperature? ( 3 ) ( 1 ) Pressure Volume ( 2 ) Pressure Volume Volume ( 4 ) Pressure Volume Pressure",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2024/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which equation represents a physical change?",
+      "choices": [
+        "H2(g) 1 I2(g) \u2192 2HI(g)",
+        "N2(g) 1 2O2(g) \u2192 2NO2(g)",
+        "I2(s) \u2192 I2(g)",
+        "3O2(g) \u2192 2O3(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which combination of reactants would result in the fastest reaction rate?",
+      "choices": [
+        "a 1.0 g strip of zinc with 10 mL of 0.20 M HCl(aq)",
+        "a 1.0 g strip of zinc with 10 mL of 2.0 M HCl(aq)",
+        "1.0 g of powdered zinc with 10 mL of 0.20 M HCl(aq)",
+        "1.0 g of powdered zinc with 10 mL of 2.0 M HCl(aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which equation represents a redox reaction?",
+      "choices": [
+        "H3O1(aq) 1 OH2(aq) \u2192 2H2O( )",
+        "NaCl(aq) 1 AgNO3(aq) \u2192 NaNO3(aq) 1 AgCl(s)",
+        "4Fe(s) 1 3O2(g) \u2192 2Fe2O3(s)",
+        "NaOH(aq) 1 HBr(aq) \u2192 H2O ( )1 NaBr(aq)"
+      ],
+      "image": "/images/exams/chemistry/january-2024/q46.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which equation represents a reduction half-reaction?",
+      "choices": [
+        "Na \u2192 Na1 1 e2",
+        "Na 1 e2 \u2192 Na1",
+        "Na1 \u2192 Na 1 e2",
+        "Na1 1 e2 \u2192 Na"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The pH value of a solution is changed from 6.0 to 4.0. Which phrase describes the change in the hydronium ion concentration of the solution?",
+      "choices": [
+        "decreased by a factor of 2",
+        "increased by a factor of 2",
+        "decreased by a factor of 100",
+        "increased by a factor of 100"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "A key is plated with nickel as shown in the diagram below. Key (cathode) Nickel electrode (anode) NiSO4(aq) Power source (+) (\u2013) Which type of cell is represented by the diagram and what change occurs?",
+      "choices": [
+        "electrolytic cell; electrical energy produces a chemical change",
+        "electrolytic cell; a chemical change produces electrical energy",
+        "voltaic cell; electrical energy produces a chemical change",
+        "voltaic cell; a chemical change produces electrical energy"
+      ],
+      "image": "/images/exams/chemistry/january-2024/q49.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which equation represents a nuclear fusion reaction?",
+      "choices": [
+        "87 37Rb \u2192 0 21e 1 87 38Sr",
+        "11 6C \u2192 0 11e 1 11 5B",
+        "2 1H 1 3 1H \u2192 4 2He 1 1 0n",
+        "235 92U 1 1 0n \u2192 142 56Ba 1 91 36Kr 1 31 0n"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Determine the molecular formula for a compound that has the empirical formula CH2O and a molar mass of 180. grams per mole.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for C6H12O6. The order of the elements may vary."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "State the trend in atomic radius for these four elements as they are considered in order of increasing atomic number.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 54 on the information below and on your knowledge of chemistry.\nBromine, chlorine, fluorine, and iodine are four elements in Group 17 that can be \ndifferentiated by some of their properties.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: As atomic number increases, atomic radius increases. Radius increases. increases"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Determine the mass of a sample of iodine that has a volume of 2.5 cm3 at room temperature and standard pressure.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 54 on the information below and on your knowledge of chemistry.\nBromine, chlorine, fluorine, and iodine are four elements in Group 17 that can be \ndifferentiated by some of their properties.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 12 g or any value from 12 g to 12.333 g, inclusive."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "State, in terms of electrons, why these elements have similar chemical properties.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 54 on the information below and on your knowledge of chemistry.\nBromine, chlorine, fluorine, and iodine are four elements in Group 17 that can be \ndifferentiated by some of their properties.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Atoms of these elements have the same number of valence electrons. These elements each have seven electrons in the outermost shell of their atoms. same number of valence e2"
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "State the molecular polarity of a CO2 molecule.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 and 56 on the information below and on your knowledge of chemistry.\nWhen solid calcium carbonate is heated, solid calcium oxide and carbon dioxide gas are \nformed. The balanced equation below represents this reaction.\nCaCO3(s) + energy \u2192 CaO(s) + CO2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: nonpolar molecule nonpolar"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Based on Table S, determine the electronegativity difference between oxygen and calcium in calcium oxide.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 and 56 on the information below and on your knowledge of chemistry.\nWhen solid calcium carbonate is heated, solid calcium oxide and carbon dioxide gas are \nformed. The balanced equation below represents this reaction.\nCaCO3(s) + energy \u2192 CaO(s) + CO2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 2.4."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Classify, in terms of saturation, the type of solution produced.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, a student dissolves 20.0 grams of solid ammonium chloride, \nNH4Cl(s), in 100.0 grams of water at 25\u00b0C. After thorough stirring, no undissolved NH4Cl(s) \nremains. During this laboratory activity, appropriate safety equipment is used and safety \nprocedures are followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: unsaturated not saturated"
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "State evidence from Table I that indicates that this dissolving process is endothermic.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, a student dissolves 20.0 grams of solid ammonium chloride, \nNH4Cl(s), in 100.0 grams of water at 25\u00b0C. After thorough stirring, no undissolved NH4Cl(s) \nremains. During this laboratory activity, appropriate safety equipment is used and safety \nprocedures are followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The nH for this dissolving is 114.78 kJ/mol. The heat of solution is positive. Part B\u20132 Allow a total of 15 credits for this part. The student must answer all questions in this part. P.S./Chem. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "State, in terms of particle distribution, why this solution is classified as a homogeneous mixture.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, a student dissolves 20.0 grams of solid ammonium chloride, \nNH4Cl(s), in 100.0 grams of water at 25\u00b0C. After thorough stirring, no undissolved NH4Cl(s) \nremains. During this laboratory activity, appropriate safety equipment is used and safety \nprocedures are followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The particles are distributed uniformly throughout the mixture. There is an even distribution of particles in the solution. All particles are evenly dispersed. Concentration of the particles is the same throughout the solution. mixed uniformly"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify the interval during which the average distance between the particles is the greatest.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2024/context_60_61.png",
+      "context": "Base your answers to questions 60 and 61 on the information below and on your knowledge of chemistry.\nStarting as a solid, a sample of a substance is heated uniformly at standard pressure, as \nshown by the heating curve below.\nTime (min)\nTemperature (\u00b0C)\nA\nB\nC\nD\nE\nF\nHeating Curve for a Substance",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: EF FE from E to F"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State what happens to the potential energy of the particles during the melting of the substance.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2024/context_60_61.png",
+      "context": "Base your answers to questions 60 and 61 on the information below and on your knowledge of chemistry.\nStarting as a solid, a sample of a substance is heated uniformly at standard pressure, as \nshown by the heating curve below.\nTime (min)\nTemperature (\u00b0C)\nA\nB\nC\nD\nE\nF\nHeating Curve for a Substance",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The potential energy of the particles increases during melting. The particles of the substance gain potential energy. The PE increases. increases"
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "State the color of bromcresol green indicator if it were added to a sample of the 0.10 M KOH(aq).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nA 30.0-milliliter sample of HCl(aq) was exactly neutralized by 18.0 milliliters of 0.10 M \nKOH(aq). During this laboratory activity, appropriate safety equipment was used and safety \nprocedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for blue."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "State the number of significant figures used to express the concentration of KOH(aq).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nA 30.0-milliliter sample of HCl(aq) was exactly neutralized by 18.0 milliliters of 0.10 M \nKOH(aq). During this laboratory activity, appropriate safety equipment was used and safety \nprocedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 2 or two."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Determine the concentration of the HCl(aq) sample, using the titration data.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nA 30.0-milliliter sample of HCl(aq) was exactly neutralized by 18.0 milliliters of 0.10 M \nKOH(aq). During this laboratory activity, appropriate safety equipment was used and safety \nprocedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.060 M or .06 M."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Compare the hydroxide ion concentration of the 0.10 M KOH(aq) with the hydroxide ion concentration of the resulting neutral solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nA 30.0-milliliter sample of HCl(aq) was exactly neutralized by 18.0 milliliters of 0.10 M \nKOH(aq). During this laboratory activity, appropriate safety equipment was used and safety \nprocedures were followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The hydroxide ion concentration of the 0.10 M KOH(aq) is greater than the hydroxide ion concentration of the resulting neutral solution. The resulting solution has a lower concentration of OH2. greater in KOH solution P.S./Chem. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Compare the number of protons to the number of electrons in an atom of oxygen-18.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nSome scientists study samples of ancient ice. A water molecule trapped in ancient ice \ntypically has an oxygen-16 or an oxygen-18 in its structure. Water with oxygen-16 evaporates \nslightly faster from seawater than water with oxygen-18. The three naturally occurring \nisotopes of oxygen have mass numbers of 16, 17, or 18.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The number of protons in an atom of O-18 is equal to the number of electrons in the atom. The number of protons and the number of electrons are the same. There are 8 protons and 8 electrons in an atom of O-18. equal same"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "In the space in your answer booklet, draw a Lewis electron-dot diagram for an atom of oxygen.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nSome scientists study samples of ancient ice. A water molecule trapped in ancient ice \ntypically has an oxygen-16 or an oxygen-18 in its structure. Water with oxygen-16 evaporates \nslightly faster from seawater than water with oxygen-18. The three naturally occurring \nisotopes of oxygen have mass numbers of 16, 17, or 18.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. The position of electrons may vary. Examples of 1-credit responses: O O"
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "State, in terms of neutrons, why a water molecule containing an O-18 atom has a greater mass than a water molecule containing an O-16 atom.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nSome scientists study samples of ancient ice. A water molecule trapped in ancient ice \ntypically has an oxygen-16 or an oxygen-18 in its structure. Water with oxygen-16 evaporates \nslightly faster from seawater than water with oxygen-18. The three naturally occurring \nisotopes of oxygen have mass numbers of 16, 17, or 18.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: An O-18 atom in a water molecule has two more neutrons than an O-16 atom. The O-18 atom has 10 neutrons and the O-16 atom has 8 neutrons. There are more neutrons in an oxygen-18 atom. Part C Allow a total of 20 credits for this part. The student must answer all questions in this part. P.S./Chem. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the percent composition by mass of oxygen in the sodium hydrogen carbonate (gram-formula mass = 84 g/mol).",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2024/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of chemistry.\nThe table below shows two compounds and their uses.\nCompound\nUse\nKO2\nas a source of O2(g) in space shuttles\nNaHCO3\nas a source of CO2(g) in baking\nPotassium superoxide, KO2, removes carbon dioxide from the air and produces oxygen \nin space shuttles, as represented in balanced equation 1 below.\nEquation 1:     4KO2(s) 1 2CO2(g) \u2192 2K2CO3(s) 1 3O2(g) 1 energy\nThe heating of sodium hydrogen carbonate, NaHCO3, causes baked goods to rise when \nit produces steam and carbon dioxide gas, as shown in unbalanced equation 2 below.\nEquation 2:     NaHCO3(s) 1 heat \u2192 Na2CO3(s) 1 H2O(g) 1 CO2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: 3(15.9994) 84.00484 x 100 5 3(16 g/mol) 100 84 g/mol 3 48(100) 84 4800 84 Note: Do not allow credit if the fraction is not multiplied by 100."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Determine the number of moles of K2CO3 produced when 3.50 moles of KO2 completely reacts, as represented in equation 1.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2024/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of chemistry.\nThe table below shows two compounds and their uses.\nCompound\nUse\nKO2\nas a source of O2(g) in space shuttles\nNaHCO3\nas a source of CO2(g) in baking\nPotassium superoxide, KO2, removes carbon dioxide from the air and produces oxygen \nin space shuttles, as represented in balanced equation 1 below.\nEquation 1:     4KO2(s) 1 2CO2(g) \u2192 2K2CO3(s) 1 3O2(g) 1 energy\nThe heating of sodium hydrogen carbonate, NaHCO3, causes baked goods to rise when \nit produces steam and carbon dioxide gas, as shown in unbalanced equation 2 below.\nEquation 2:     NaHCO3(s) 1 heat \u2192 Na2CO3(s) 1 H2O(g) 1 CO2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 1.75 mol."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Balance equation 2 in your answer booklet for the heating of NaHCO3(s), using smallest whole-number coefficients.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2024/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of chemistry.\nThe table below shows two compounds and their uses.\nCompound\nUse\nKO2\nas a source of O2(g) in space shuttles\nNaHCO3\nas a source of CO2(g) in baking\nPotassium superoxide, KO2, removes carbon dioxide from the air and produces oxygen \nin space shuttles, as represented in balanced equation 1 below.\nEquation 1:     4KO2(s) 1 2CO2(g) \u2192 2K2CO3(s) 1 3O2(g) 1 energy\nThe heating of sodium hydrogen carbonate, NaHCO3, causes baked goods to rise when \nit produces steam and carbon dioxide gas, as shown in unbalanced equation 2 below.\nEquation 2:     NaHCO3(s) 1 heat \u2192 Na2CO3(s) 1 H2O(g) 1 CO2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 2 NaHCO3(s) + heat \u2192 ___ Na2CO3(s) + ___ H2O(g) + ___CO2(g). Allow credit even if the coefficient \u201c1\u201d is written in front of Na2CO3(s), H2O(g), and/or CO2(g)."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Determine the volume of this sample of helium gas at 350. K.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2024/context_72_73.png",
+      "context": "Base your answers to questions 72 and 73 on the information below and on your knowledge of chemistry.\nIn 1787, Jacques Charles, a French scientist and pioneer balloonist, performed \nexperiments on how the volume of a gas depends on temperature.\nUsing a rigid cylinder with a movable piston containing a sample of helium gas, a scientist \nobtained data for temperature and volume. The graph below represents the relationship \nbetween the temperature and volume of the sample of helium gas at 1.0 atmosphere.\n0\n0.0\n1.0\n2.0\n3.0\n4.0\n5.0\n6.0\nTemperature (K)\nVolume (L)\nVolume versus Temperature\nfor a Sample of Helium Gas\n7.0\n100.\n200.\n300.\n400.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 5.6 L to 5.9 L, inclusive."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Compare the average kinetic energy of the helium atoms in the sample at 200. K to the average kinetic energy of the helium atoms at 300. K.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2024/context_72_73.png",
+      "context": "Base your answers to questions 72 and 73 on the information below and on your knowledge of chemistry.\nIn 1787, Jacques Charles, a French scientist and pioneer balloonist, performed \nexperiments on how the volume of a gas depends on temperature.\nUsing a rigid cylinder with a movable piston containing a sample of helium gas, a scientist \nobtained data for temperature and volume. The graph below represents the relationship \nbetween the temperature and volume of the sample of helium gas at 1.0 atmosphere.\n0\n0.0\n1.0\n2.0\n3.0\n4.0\n5.0\n6.0\nTemperature (K)\nVolume (L)\nVolume versus Temperature\nfor a Sample of Helium Gas\n7.0\n100.\n200.\n300.\n400.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The helium atoms have less average kinetic energy at 200. K than at 300. K. Energy is higher at 300 K. lower at 200 K"
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Explain, in terms of collision theory, why reacting hydrogen and nitrogen at high temperature increases the rate of the reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 74 through 77 on the information below and on your knowledge of chemistry.\nIn the early 1900s, scientists developed a process to produce ammonia from hydrogen \nand atmospheric nitrogen on an industrial scale. The balanced equation below represents \nthis reaction.\nN2(g) 1 3H2(g) \u2192 2NH3(g) 1 91.8 kJ\nAt room temperature, the reaction occurs at a very slow rate. Therefore, this process \ntakes place in a special reaction vessel at high temperature and high pressure. A catalyst is \nused to increase the rate of the production of ammonia. The reaction gases are cooled to \nremove the ammonia as a liquid and the remaining gases are sent back to the reaction vessel.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: At high temperature, molecules of H2 and N2 collide more frequently with greater energy. greater frequency of collisions There is an increase in the percentage of effective collisions of reactant particles. more collisions P.S./Chem. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Determine the net quantity of heat released when 1.0 mole of ammonia gas, NH3(g), is produced by this reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 74 through 77 on the information below and on your knowledge of chemistry.\nIn the early 1900s, scientists developed a process to produce ammonia from hydrogen \nand atmospheric nitrogen on an industrial scale. The balanced equation below represents \nthis reaction.\nN2(g) 1 3H2(g) \u2192 2NH3(g) 1 91.8 kJ\nAt room temperature, the reaction occurs at a very slow rate. Therefore, this process \ntakes place in a special reaction vessel at high temperature and high pressure. A catalyst is \nused to increase the rate of the production of ammonia. The reaction gases are cooled to \nremove the ammonia as a liquid and the remaining gases are sent back to the reaction vessel.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 45.9 kJ or 46 kJ."
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Using the axes in your answer booklet, draw a potential energy diagram for the reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 74 through 77 on the information below and on your knowledge of chemistry.\nIn the early 1900s, scientists developed a process to produce ammonia from hydrogen \nand atmospheric nitrogen on an industrial scale. The balanced equation below represents \nthis reaction.\nN2(g) 1 3H2(g) \u2192 2NH3(g) 1 91.8 kJ\nAt room temperature, the reaction occurs at a very slow rate. Therefore, this process \ntakes place in a special reaction vessel at high temperature and high pressure. A catalyst is \nused to increase the rate of the production of ammonia. The reaction gases are cooled to \nremove the ammonia as a liquid and the remaining gases are sent back to the reaction vessel.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for showing that the PE of the products is lower than the PE of the reactants. Example of a 1-credit response: Reaction Coordinate Potential Energy"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "State, in terms of activation energy and reaction pathway, why the addition of a catalyst increases the rate of production of ammonia.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 74 through 77 on the information below and on your knowledge of chemistry.\nIn the early 1900s, scientists developed a process to produce ammonia from hydrogen \nand atmospheric nitrogen on an industrial scale. The balanced equation below represents \nthis reaction.\nN2(g) 1 3H2(g) \u2192 2NH3(g) 1 91.8 kJ\nAt room temperature, the reaction occurs at a very slow rate. Therefore, this process \ntakes place in a special reaction vessel at high temperature and high pressure. A catalyst is \nused to increase the rate of the production of ammonia. The reaction gases are cooled to \nremove the ammonia as a liquid and the remaining gases are sent back to the reaction vessel.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The catalyst provides a different reaction pathway, which has a lower activation energy. The activation energy is lower for the alternate reaction pathway. lower energy, different mechanism"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Identify the element present in the reactants that allows them to be classified as organic compounds.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to questions 78 through 81 on the information below and on your knowledge of chemistry.\nIn a laboratory activity, a student reacts an organic acid with an alcohol and produces a \ncompound with a distinct odor. The incomplete equation below shows the reaction in the \nlaboratory activity with a missing product, X.\nCH3COOH 1 CH3CH2OH \u2192 CH3COOCH2CH3 1 X\nReactant 1        Reactant 2\nDuring the laboratory activity, appropriate safety equipment is used and safety procedures \nare followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for C or carbon."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Write a chemical name for reactant 1.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to questions 78 through 81 on the information below and on your knowledge of chemistry.\nIn a laboratory activity, a student reacts an organic acid with an alcohol and produces a \ncompound with a distinct odor. The incomplete equation below shows the reaction in the \nlaboratory activity with a missing product, X.\nCH3COOH 1 CH3CH2OH \u2192 CH3COOCH2CH3 1 X\nReactant 1        Reactant 2\nDuring the laboratory activity, appropriate safety equipment is used and safety procedures \nare followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: ethanoic acid acetic acid"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Write a formula for the missing product, X, in the equation.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to questions 78 through 81 on the information below and on your knowledge of chemistry.\nIn a laboratory activity, a student reacts an organic acid with an alcohol and produces a \ncompound with a distinct odor. The incomplete equation below shows the reaction in the \nlaboratory activity with a missing product, X.\nCH3COOH 1 CH3CH2OH \u2192 CH3COOCH2CH3 1 X\nReactant 1        Reactant 2\nDuring the laboratory activity, appropriate safety equipment is used and safety procedures \nare followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for H2O or HOH."
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Identify the class of organic compounds to which CH3COOCH2CH3 belongs.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to questions 78 through 81 on the information below and on your knowledge of chemistry.\nIn a laboratory activity, a student reacts an organic acid with an alcohol and produces a \ncompound with a distinct odor. The incomplete equation below shows the reaction in the \nlaboratory activity with a missing product, X.\nCH3COOH 1 CH3CH2OH \u2192 CH3COOCH2CH3 1 X\nReactant 1        Reactant 2\nDuring the laboratory activity, appropriate safety equipment is used and safety procedures \nare followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for ester or esters. P.S./Chem. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Compare the penetrating power of the beta particle emitted from the I-131 nuclide to the penetrating power of the alpha particle emitted from the U-238 nuclide.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2024/context_82_85.png",
+      "context": "Base your answer to questions 82 through 85 on the information below and on your knowledge of chemistry.\nRadioactive isotopes are used in a variety of ways. Several isotopes and their uses are \nshown below.\nRadioactive Isotopes and Their Uses\nIsotope\nUse\nFe-59\nanemia diagnosis\nl-131\nthyroid function diagnosis\nU-238\ndating geological formations\nAm-241\nsmoke detectors",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The beta emission from I-131 has a greater penetrating power than the alpha particle from U-238. Beta particles have greater penetrating power than alpha particles. U-238\u2019s alpha particle has a weaker penetrating power."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Complete the nuclear equation, in your answer booklet, for the decay of the Fe-59 used to diagnose anemia disorders, by writing a notation for the missing product.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2024/context_82_85.png",
+      "context": "Base your answer to questions 82 through 85 on the information below and on your knowledge of chemistry.\nRadioactive isotopes are used in a variety of ways. Several isotopes and their uses are \nshown below.\nRadioactive Isotopes and Their Uses\nIsotope\nUse\nFe-59\nanemia diagnosis\nl-131\nthyroid function diagnosis\nU-238\ndating geological formations\nAm-241\nsmoke detectors",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: 59 27Co Co-59 cobalt-59 59Co"
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Determine the fraction of an original sample of the radioactive isotope used to test for thyroid problems that remains unchanged after 24.063 days.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2024/context_82_85.png",
+      "context": "Base your answer to questions 82 through 85 on the information below and on your knowledge of chemistry.\nRadioactive isotopes are used in a variety of ways. Several isotopes and their uses are \nshown below.\nRadioactive Isotopes and Their Uses\nIsotope\nUse\nFe-59\nanemia diagnosis\nl-131\nthyroid function diagnosis\nU-238\ndating geological formations\nAm-241\nsmoke detectors",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: __1 8 0.125 12.5%"
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Determine the number of neutrons in an atom of Am-241. P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2024/context_82_85.png",
+      "context": "Base your answer to questions 82 through 85 on the information below and on your knowledge of chemistry.\nRadioactive isotopes are used in a variety of ways. Several isotopes and their uses are \nshown below.\nRadioactive Isotopes and Their Uses\nIsotope\nUse\nFe-59\nanemia diagnosis\nl-131\nthyroid function diagnosis\nU-238\ndating geological formations\nAm-241\nsmoke detectors",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 146. P.S./Chem. Rating Guide\u2013Jan. \u2019"
+    }
+  ]
+}

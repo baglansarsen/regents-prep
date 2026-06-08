@@ -1,0 +1,1066 @@
+{
+  "subject": "physics",
+  "session": "june-2014",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which quantity is scalar?",
+      "choices": [
+        "mass",
+        "force",
+        "momentum",
+        "acceleration"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "What is the final speed of an object that starts from rest and accelerates uniformly at 4.0 meters per second2 over a distance of 8.0 meters?",
+      "choices": [
+        "8.0 m/s",
+        "16 m/s",
+        "32 m/s",
+        "64 m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The components of a 15-meters-per-second velocity at an angle of 60.\u00b0 above the horizontal are",
+      "choices": [
+        "7.5 m/s vertical and 13 m/s horizontal",
+        "13 m/s vertical and 7.5 m/s horizontal",
+        "6.0 m/s vertical and 9.0 m/s horizontal",
+        "9.0 m/s vertical and 6.0 m/s horizontal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "What is the time required for an object starting from rest to fall freely 500. meters near Earth\u2019s surface?",
+      "choices": [
+        "51.0 s",
+        "25.5 s",
+        "10.1 s",
+        "7.14 s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "A baseball bat exerts a force of magnitude F on a ball. If the mass of the bat is three times the mass of the ball, the magnitude of the force of the ball on the bat is",
+      "choices": [
+        "F",
+        "2F",
+        "3F",
+        "F/3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A 2.0-kilogram mass is located 3.0 meters above the surface of Earth. What is the magnitude of Earth\u2019s gravitational field strength at this location?",
+      "choices": [
+        "4.9 N/kg",
+        "2.0 N/kg",
+        "9.8 N/kg",
+        "20. N/kg"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "A truck, initially traveling at a speed of 22 meters per second, increases speed at a constant rate of 2.4 meters per second2 for 3.2 seconds. What is the total distance traveled by the truck during this 3.2-second time interval?",
+      "choices": [
+        "12 m",
+        "58 m",
+        "70. m",
+        "83 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A 750-newton person stands in an elevator that is accelerating downward. The upward force of the elevator floor on the person must be",
+      "choices": [
+        "equal to 0 N",
+        "less than 750 N",
+        "equal to 750 N",
+        "greater than 750 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A 3.0-kilogram object is acted upon by an impulse having a magnitude of 15 newton\u2022seconds. What is the magnitude of the object\u2019s change in momentum due to this impulse?",
+      "choices": [
+        "5.0 kg\u2022m/s",
+        "15 kg\u2022m/s",
+        "3.0 kg\u2022m/s",
+        "45 kg\u2022m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "An air bag is used to safely decrease the momentum of a driver in a car accident. The air bag reduces the magnitude of the force acting on the driver by",
+      "choices": [
+        "increasing the length of time the force acts on the driver",
+        "decreasing the distance over which the force acts on the driver",
+        "increasing the rate of acceleration of the driver",
+        "decreasing the mass of the driver"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "An electron moving at constant speed produces",
+      "choices": [
+        "a magnetic field, only",
+        "an electric field, only",
+        "both a magnetic and an electric field",
+        "neither a magnetic nor an electric field"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A beam of electrons passes through an electric field where the magnitude of the electric field strength is 3.00 \u00d7 103 newtons per coulomb. What is the magnitude of the electrostatic force exerted by the electric field on each electron in the beam?",
+      "choices": [
+        "5.33 \u00d7 10\u221223 N",
+        "4.80 \u00d7 10\u221216 N",
+        "3.00 \u00d7 103 N",
+        "1.88 \u00d7 1022 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "How much work is required to move 3.0 coulombs of electric charge a distance of 0.010 meter through a potential difference of 9.0 volts?",
+      "choices": [
+        "2.7 \u00d7 103 J",
+        "27 J",
+        "3.0 J",
+        "3.0 \u00d7 10\u22122 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "What is the resistance of a 20.0-meter-long tungsten rod with a cross-sectional area of 1.00 \u00d7 10\u22124 meter2 at 20\u00b0C?",
+      "choices": [
+        "2.80 \u00d7 10\u22125 \u03a9",
+        "1.12 \u00d7 10\u22122 \u03a9",
+        "89.3 \u03a9",
+        "112 \u03a9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Two pieces of flint rock produce a visible spark when they are struck together. During this process, mechanical energy is converted into",
+      "choices": [
+        "nuclear energy and electromagnetic energy",
+        "internal energy and nuclear energy",
+        "electromagnetic energy and internal energy",
+        "elastic potential energy and nuclear energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A 15-kilogram cart is at rest on a horizontal surface. A 5-kilogram box is placed in the cart. Compared to the mass and inertia of the cart, the cart-box system has",
+      "choices": [
+        "more mass and more inertia",
+        "more mass and the same inertia",
+        "the same mass and more inertia",
+        "less mass and more inertia"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Transverse waves are to radio waves as longitudinal waves are to",
+      "choices": [
+        "light waves",
+        "microwaves",
+        "ultraviolet waves",
+        "sound waves"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "As a monochromatic light ray passes from air into water, two characteristics of the ray that will not change are",
+      "choices": [
+        "wavelength and period",
+        "frequency and period",
+        "wavelength and speed",
+        "frequency and speed"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "When a mass is placed on a spring with a spring constant of 60.0 newtons per meter, the spring is compressed 0.500 meter. How much energy is stored in the spring?",
+      "choices": [
+        "60.0 J",
+        "30.0 J",
+        "15.0 J",
+        "7.50 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A boy pushes his sister on a swing. What is the frequency of oscillation of his sister on the swing if the boy counts 90. complete swings in 300. seconds?",
+      "choices": [
+        "0.30 Hz",
+        "2.0 Hz",
+        "1.5 Hz",
+        "18 Hz"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "What is the period of a sound wave having a frequency of 340. hertz?",
+      "choices": [
+        "3.40 \u00d7 102 s",
+        "1.02 \u00d7 100 s",
+        "9.73 \u00d7 10\u22121 s",
+        "2.94 \u00d7 10\u22123 s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "An MP3 player draws a current of 0.120 ampere from a 3.00-volt battery. What is the total charge that passes through the player in 900. seconds?",
+      "choices": [
+        "324 C",
+        "108 C",
+        "5.40 C",
+        "1.80 C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A beam of light has a wavelength of 4.5 \u00d7 10\u22127 meter in a vacuum. The frequency of this light is",
+      "choices": [
+        "1.5 \u00d7 10\u221215 Hz",
+        "4.5 \u00d7 10\u22127 Hz",
+        "1.4 \u00d7 102 Hz",
+        "6.7 \u00d7 1014 Hz"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "When x-ray radiation and infrared radiation are traveling in a vacuum, they have the same",
+      "choices": [
+        "speed",
+        "frequency",
+        "wavelength",
+        "energy per photon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The diagram below represents two identical pulses approaching each other in a uniform medium. As the pulses meet and are superposed, the maximum displacement of the medium is",
+      "choices": [
+        "\u22126 cm",
+        "0 cm",
+        "3 cm",
+        "6 cm"
+      ],
+      "image": "/images/exams/physics/june-2014/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "As a car approaches a pedestrian crossing the road, the driver blows the horn. Compared to the sound wave emitted by the horn, the sound wave detected by the pedestrian has a",
+      "choices": [
+        "higher frequency and a lower pitch",
+        "higher frequency and a higher pitch",
+        "lower frequency and a higher pitch",
+        "lower frequency and a lower pitch"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "When air is blown across the top of an open water bottle, air molecules in the bottle vibrate at a particular frequency and sound is produced. This phenomenon is called",
+      "choices": [
+        "diffraction",
+        "refraction",
+        "resonance",
+        "the Doppler effect"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "An antibaryon composed of two antiup quarks and one antidown quark would have a charge of",
+      "choices": [
+        "+1e",
+        "\u22121e",
+        "0e",
+        "\u22123e"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which force is responsible for producing a stable nucleus by opposing the electrostatic force of repulsion between protons?",
+      "choices": [
+        "strong",
+        "weak",
+        "frictional",
+        "gravitational"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "What is the total energy released when 9.11 \u00d7 10\u221231 kilogram of mass is converted into energy?",
+      "choices": [
+        "2.73 \u00d7 10\u221222 J",
+        "8.20 \u00d7 10\u221214 J",
+        "9.11 \u00d7 10\u221231 J",
+        "1.01 \u00d7 10\u221247 J \u0002\u0003\u0004\u0005\u0006\u0007\b \u0002\u0003\u0004\u0005\u0006 \u0002\u0003\u0004\u0005\u0006\u0007\b \u0002\u0003\u0004\u0005\u0006\u0007 \u0007 \u0007"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "A shopping cart slows as it moves along a level floor. Which statement describes the energies of the cart?",
+      "choices": [
+        "The kinetic energy increases and the gravitational potential energy remains the same.",
+        "The kinetic energy increases and the gravitational potential energy decreases.",
+        "The kinetic energy decreases and the gravitational potential energy remains the same.",
+        "The kinetic energy decreases and the gravitational potential energy increases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Two identically-sized metal spheres, A and B, are on insulating stands, as shown in the diagram below. Sphere A possesses an excess of 6.3 \u00d7 1010 electrons and sphere B is neutral. Which diagram best represents the charge distribution on sphere B?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Two points, A and B, are located within the electric field produced by a \u22123.0 nanocoulomb charge. Point A is 0.10 meter to the left of the charge and point B is 0.20 meter to the right of the charge, as shown in the diagram below. Compared to the magnitude of the electric field strength at point A, the magnitude of the electric field strength at point B is",
+      "choices": [
+        "half as great",
+        "twice as great",
+        "one-fourth as great",
+        "four times as great \b \u0007 \u000e \u0007\u000f\u0010 \u000e\u0011 \u0007\u0012 \u000e\u0013 \u0007\u0012 \b \u0014\u000f\u0005\u0003\u0004\u0015\u0016\u0017\u000f\u0018\u0007\u0005\u0016\u0015\u000f\u0019\u0005 \u001a\u0007\u0013\u0007\u001b \u001a\u0007 \u0007\u001b \u001a\u0007 \u0007\u001b \u001a\u0007\u0011\u0007\u001b"
+      ],
+      "image": "/images/exams/physics/june-2014/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The diagram below represents two waves, A and B, traveling through the same uniform medium. Which characteristic is the same for both waves?",
+      "choices": [
+        "amplitude",
+        "frequency",
+        "period",
+        "wavelength"
+      ],
+      "image": "/images/exams/physics/june-2014/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The diagram below shows a periodic wave. Which two points on the wave are 180.\u00b0 out of phase?",
+      "choices": [
+        "A and C",
+        "B and E",
+        "F and G",
+        "D and H \u0015 \u0006\u0007\b \u0015 \u0006\u0007 \b \u0010 ! \" \u0014"
+      ],
+      "image": "/images/exams/physics/june-2014/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The height of a 30-story building is approximately",
+      "choices": [
+        "100 m",
+        "101 m",
+        "102 m",
+        "103 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Two identically-sized metal spheres on insulating stands are positioned as shown below. The charge on sphere A is \u22124.0 \u00d7 10\u22126 coulomb and the charge on sphere B is \u22128.0 \u00d7 10\u22126 coulomb. The two spheres are touched together and then separated. The total number of excess electrons on sphere A after the separation is",
+      "choices": [
+        "2.5 \u00d7 1013",
+        "3.8 \u00d7 1013",
+        "5.0 \u00d7 1013",
+        "7.5 \u00d7 1013"
+      ],
+      "image": "/images/exams/physics/june-2014/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "A 1.0 \u00d7 103-kilogram car travels at a constant speed of 20. meters per second around a horizontal circular track. The diameter of the track is 1.0 \u00d7 102 meters. The magnitude of the car\u2019s centripetal acceleration is",
+      "choices": [
+        "0.20 m/s2",
+        "2.0 m/s2",
+        "8.0 m/s2",
+        "4.0 m/s2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which combination of units can be used to express electrical energy?",
+      "choices": [
+        "",
+        "",
+        "volt\u2022coulomb",
+        "volt\u2022coulomb\u2022second"
+      ],
+      "image": "/images/exams/physics/june-2014/q39.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The total amount of electrical energy used by a 315-watt television during 30.0 minutes of operation is",
+      "choices": [
+        "5.67 \u00d7 105 J",
+        "9.45 \u00d7 103 J",
+        "1.05 \u00d7 101 J",
+        "1.75 \u00d7 10\u00021 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "written",
+      "text": "Which graph best represents the relationship between the absolute index of refraction and the speed of light (f = 5.09 \u00d7 1014 Hz) in various media?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "A 25-gram paper cup falls from rest off the edge of a tabletop 0.90 meter above the floor. If the cup has 0.20 joule of kinetic energy when it hits the floor, what is the total amount of energy converted into internal (thermal) energy during the cup\u2019s fall?",
+      "choices": [
+        "0.02 J",
+        "0.22 J",
+        "2.2 J",
+        "220 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Which electron transition between the energy levels of hydrogen causes the emission of a photon of visible light?",
+      "choices": [
+        "n = 6 to n = 5",
+        "n = 5 to n = 6",
+        "n = 5 to n = 2",
+        "n = 2 to n = 5 \u001a\u0007\u0013\u0007\u001b \u0005 \u000e\u000f\u0010\u0011\u000f\u0012\u0003\u0013\u0014 \u0015\u0016\u0004\u0010\u0006\u0017 \u0018 \u000e \u0019\u000f\u0010\u0011 \u001a \u0011\u001b\u0007\b \u0003\u0010 \u001a\u0007\u0011\u0007\u001b \u0005 \u000e\u000f\u0010\u0011\u000f\u0012\u0003\u0013\u0014 \u0015\u0016\u0004\u0010\u0006\u0017 \u0018 \u000e \u0019\u000f\u0010\u0011 \u001a \u0011\u001b\u0007\b \u0003\u0010 \u001a\u0007 \u0007\u001b \u0005 \u000e\u000f\u0010\u0011\u000f\u0012\u0003\u0013\u0014 \u0015\u0016\u0004\u0010\u0006\u0017 \u0018 \u000e \u0019\u000f\u0010\u0011 \u001a \u0011\u001b\u0007\b \u0003\u0010 \u001a\u0007 \u0007\u001b \u0005 \u000e\u000f\u0010\u0011\u000f\u0012\u0003\u0013\u0014 \u0015\u0016\u0004\u0010\u0006\u0017 \u0018 \u000e \u0019\u000f\u0010\u0011 \u001a \u0011\u001b\u0007\b \u0003\u0010 coulomb volt volt coulomb \b \u0007 \u000e \u0007\u0007\u0007\u0007\u0011 \u0007 \u0007\u0010 \u0007#\u000e \u0007\u0007\u0007\u0007\u0011 \u0007 \u0007\u0010"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Which graph best represents an object in equilibrium moving in a straight line?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/q44.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "A body, B, is moving at constant speed in a horizontal circular path around point P. Which diagram shows the direction of the velocity (v) and the direction of the centripetal force (Fc) acting on the body?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/q45.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Which graph best represents the relationship between photon energy and photon wavelength?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/q46.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "written",
+      "text": "Which combination of initial horizontal velocity, (vH) and initial vertical velocity, (vv) results in the greatest horizontal range for a projectile over level ground? [Neglect friction.] $\u0007%\u0007 \u0007\u0012&\u0005 \"\u0007%\u0007#\u0007\u0012&\u0005 \u001a\u0007\u0011\u0007\u001b $\u0007%\u0007#\u0007\u0012&\u0005 \"\u0007%\u0007 \u0007\u0012&\u0005 \u001a\u0007\u0013\u0007\u001b $\u0007%\u0007#\u0007\u0012&\u0005 \"\u0007%\u0007#\u0007\u0012&\u0005 \u001a\u0007 \u0007\u001b \u001a\u0007 \u0007\u001b $\u0007%\u0007 \u0007\u0012&\u0005 \"\u0007%\u0007 \u0007\u0012&\u0005 \u001a\u0007 \u0007\u001b \u0007 \u0006 \u0013 \u0014 \u0014\u0010 \u0010 \u001b\u0013 \u001a\u0007\u0011\u0007\u001b \u0007 \u0006 \u0013 \u0014 \u0014\u0010 \u0010 \u001b\u0013 \u001a\u0007 \u0007\u001b \u0007 \u0006 \u0013 \u0014 \u0014\u0010 \u0010 \u001b\u0013 \u001a\u0007\u0013\u0007\u001b \u0007 \u0006 \u0013 \u0014 \u0014\u0010 \u0010 \u001b\u0013 \u001a\u0007\u0013\u0007\u001b ' \u0002 \u001a\u0007 \u0007\u001b ' \u0002 \u001a\u0007\u0011\u0007\u001b \u0002 ' \u001a\u0007 \u0007\u001b \u0002 ' !\u0003 \u0002\u0003\u0004 \u0007 \b \u001a\u0007\u0011\u0007\u001b !\u0003 \" \u0006\u0010\b\u0003 \u001a\u0007\u0013\u0007\u001b \u001a\u0007 \u0007\u001b !\u0003 #\u0003 \u0003\b\u000f \u001b\u0013 \u001a\u0007 \u0007\u001b !\u0003 $\u0010 \u0017",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/q47.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Which graph best represents the greatest amount of work?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/q48.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "written",
+      "text": "When a ray of light traveling in water reaches a boundary with air, part of the light ray is reflected and part is refracted. Which ray diagram best represents the paths of the reflected and refracted light rays?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The graph below represents the work done against gravity by a student as she walks up a flight of stairs at constant speed. Compared to the power generated by the student after 2.0 seconds, the power generated by the student after 4.0 seconds is",
+      "choices": [
+        "the same",
+        "twice as great",
+        "half as great",
+        "four times as great \u0011 # \u0011 \u0013 ( ) \u0010\u001b%\u000f \u0004&\u000f!\u0003 !\u0003 \u000f\u0003\b\u0006 \u0010\u001b%\u000f\u0003 \u0006 \b\u0017* +\u0017\u0018,\u0016 *\u0015- \u0015\u0016\u0006* ./*\u0012\u0015\u0004 \b\u0017* +\u0017\u0018,\u0016 *\u0015- \u0015\u0016\u0006* ./*\u0012\u0015\u0004 \b\u0017* +\u0017\u0018,\u0016 *\u0015- \u0015\u0016\u0006* ./*\u0012\u0015\u0004 \b\u0017* +\u0017\u0018,\u0016 *\u0015- \u0015\u0016\u0006* ./*\u0012\u0015\u0004 \u001a\u0007\u0011\u0007\u001b \u001a\u0007 \u0007\u001b \u001a\u0007\u0013\u0007\u001b \u001a\u0007 \u0007\u001b \u0002\u0003\u0004\u0005\u0006\u0007\b \u0007\u001a\u0012\u001b \b \u001a.\u001b \u001a\u0007\u0011\u0007\u001b # \u000e\u0013( \u000e( \u0002\u0003\u0004\u0005\u0006\u0007\b \u0007\u001a\u0012\u001b \b \u001a.\u001b \u001a\u0007 \u0007\u001b # \u000e\u0013( \u000e( \u0002\u0003\u0004\u0005\u0006\u0007\b \u0007\u001a\u0012\u001b \b \u0007\u001a.\u001b \u001a\u0007 \u0007\u001b # \u000e\u0013( \u000e( \u0002\u0003\u0004\u0005\u0006\u0007\b \u0007\u001a\u0012\u001b \u001a\u0007\u0013\u0007\u001b # \u000e\u0013( \u000e( \b \u001a.\u001b"
+      ],
+      "image": "/images/exams/physics/june-2014/q50.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Using a ruler, determine the scale used in the vector diagram.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the information below and the scaled vector diagram in your\nanswer booklet and on your knowledge of physics.\nTwo forces, a 60.-newton force east and an 80.-newton force north, act concurrently on an\nobject located at point P, as shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Draw the resultant force vector to scale on the diagram in your answer booklet. Label the vector \u201cR.\u201d",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the information below and the scaled vector diagram in your\nanswer booklet and on your knowledge of physics.\nTwo forces, a 60.-newton force east and an 80.-newton force north, act concurrently on an\nobject located at point P, as shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Determine the magnitude of the resultant force, R.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the information below and the scaled vector diagram in your\nanswer booklet and on your knowledge of physics.\nTwo forces, a 60.-newton force east and an 80.-newton force north, act concurrently on an\nobject located at point P, as shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Determine the measure of the angle, in degrees, between north and the resultant force, R.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the information below and the scaled vector diagram in your\nanswer booklet and on your knowledge of physics.\nTwo forces, a 60.-newton force east and an 80.-newton force north, act concurrently on an\nobject located at point P, as shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "55\u201356 A 3.00-newton force causes a spring to stretch 60.0 centimeters. Calculate the spring constant of this spring. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "A 7.28-kilogram bowling ball traveling 8.50 meters per second east collides head-on with a 5.45 kilogram bowling ball traveling 10.0 meters per second west. Determine the magnitude of the total momentum of the two-ball system after the collision.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "58\u201359 Calculate the average power required to lift a 490-newton object a vertical distance of 2.0 meters in 10. seconds. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "The diagram in your answer booklet shows wave fronts approaching an opening in a barrier. The size of the opening is approximately equal to one-half the wavelength of the waves. On the diagram in your answer booklet, draw the shape of at least three of the wave fronts after they have passed through this opening.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "The diagram in your answer booklet shows a mechanical transverse wave traveling to the right in a medium. Point A represents a particle in the medium. Draw an arrow originating at point A to indicate the initial direction that the particle will move as the wave continues to travel to the right in the medium.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Regardless of the method used to generate electrical energy, the amount of energy provided by the source is always greater than the amount of electrical energy produced. Explain why there is a difference between the amount of energy provided by the source and the amount of electrical energy produced.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/q62.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Determine the magnitude of the average velocity of the car from t = 6.0 seconds to t = 10. seconds.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the graph below, which represents the relationship between\nvelocity and time for a car moving along a straight line, and your knowledge of physics.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Determine the magnitude of the car\u2019s acceleration during the first 6.0 seconds.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the graph below, which represents the relationship between\nvelocity and time for a car moving along a straight line, and your knowledge of physics.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Identify the physical quantity represented by the shaded area on the graph. \u0011\u000e \u000e ( \u0011 \u0013( \" \u0006\u0010\b\u0003 \u000f \u0004&\u000f!\u0003 !\u0003 \u0002\u0003\b\u0006 \" \u0006\u0010\b\u0003 \u0002\u0003\u0005 \b\u0006 \u0013\u000e \u000e (\u000e \u000e \u0011( \u0013 )\u000e #\u000e 0\u000e \u0011 \u000e",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the graph below, which represents the relationship between\nvelocity and time for a car moving along a straight line, and your knowledge of physics.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "In the space in your answer booklet, draw a diagram of the series circuit constructed to operate the lamp, using symbols from the Reference Tables for Physical Setting/Physics.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of physics.\nA student constructed a series circuit consisting of a 12.0-volt battery, a 10.0-ohm lamp, and a\nresistor. The circuit does not contain a voltmeter or an ammeter. When the circuit is operating, the\ntotal current through the circuit is 0.50 ampere.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Determine the equivalent resistance of the circuit.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of physics.\nA student constructed a series circuit consisting of a 12.0-volt battery, a 10.0-ohm lamp, and a\nresistor. The circuit does not contain a voltmeter or an ammeter. When the circuit is operating, the\ntotal current through the circuit is 0.50 ampere.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Determine the resistance of the resistor.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of physics.\nA student constructed a series circuit consisting of a 12.0-volt battery, a 10.0-ohm lamp, and a\nresistor. The circuit does not contain a voltmeter or an ammeter. When the circuit is operating, the\ntotal current through the circuit is 0.50 ampere.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of physics.\nA student constructed a series circuit consisting of a 12.0-volt battery, a 10.0-ohm lamp, and a\nresistor. The circuit does not contain a voltmeter or an ammeter. When the circuit is operating, the\ntotal current through the circuit is 0.50 ampere.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "69\u201370 Calculate the power consumed by the lamp. [Show all work, including the equation and substitution with the units.]",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of physics.\nA student constructed a series circuit consisting of a 12.0-volt battery, a 10.0-ohm lamp, and a\nresistor. The circuit does not contain a voltmeter or an ammeter. When the circuit is operating, the\ntotal current through the circuit is 0.50 ampere.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of physics.\nPluto orbits the Sun at an average distance of 5.91 \u00d7 1012 meters. Pluto\u2019s diameter is 2.30 \u00d7 106\nmeters and its mass is 1.31 \u00d7 1022 kilograms.\nCharon orbits Pluto with their centers separated by a distance of 1.96 \u00d7 107 meters. Charon has\na diameter of 1.21 \u00d7 106 meters and a mass of 1.55 \u00d7 1021 kilograms.\n71\u201372 Calculate the magnitude of the gravitational force of attraction that Pluto exerts on Charon. [Show all\nwork, including the equation and substitution with units.]   [2]\n73\u201374 Calculate the magnitude of the acceleration of Charon toward Pluto. [Show all work, including the\nequation and substitution with units.]   [2]\n75 State the reason why the magnitude of the Sun\u2019s gravitational force on Pluto is greater than the\nmagnitude of the Sun\u2019s gravitational force on Charon.   [1]\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2006 Edition Reference Tables for Physical Setting/Physics.\nP.S./Physics\u2013June \u201914\n[12]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "71\u201372 Calculate the magnitude of the gravitational force of attraction that Pluto exerts on Charon. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of physics.\nPluto orbits the Sun at an average distance of 5.91 \u00d7 1012 meters. Pluto\u2019s diameter is 2.30 \u00d7 106\nmeters and its mass is 1.31 \u00d7 1022 kilograms.\nCharon orbits Pluto with their centers separated by a distance of 1.96 \u00d7 107 meters. Charon has\na diameter of 1.21 \u00d7 106 meters and a mass of 1.55 \u00d7 1021 kilograms.\n71\u201372 Calculate the magnitude of the gravitational force of attraction that Pluto exerts on Charon. [Show all\nwork, including the equation and substitution with units.]   [2]\n73\u201374 Calculate the magnitude of the acceleration of Charon toward Pluto. [Show all work, including the\nequation and substitution with units.]   [2]\n75 State the reason why the magnitude of the Sun\u2019s gravitational force on Pluto is greater than the\nmagnitude of the Sun\u2019s gravitational force on Charon.   [1]\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2006 Edition Reference Tables for Physical Setting/Physics.\nP.S./Physics\u2013June \u201914\n[12]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of physics.\nPluto orbits the Sun at an average distance of 5.91 \u00d7 1012 meters. Pluto\u2019s diameter is 2.30 \u00d7 106\nmeters and its mass is 1.31 \u00d7 1022 kilograms.\nCharon orbits Pluto with their centers separated by a distance of 1.96 \u00d7 107 meters. Charon has\na diameter of 1.21 \u00d7 106 meters and a mass of 1.55 \u00d7 1021 kilograms.\n71\u201372 Calculate the magnitude of the gravitational force of attraction that Pluto exerts on Charon. [Show all\nwork, including the equation and substitution with units.]   [2]\n73\u201374 Calculate the magnitude of the acceleration of Charon toward Pluto. [Show all work, including the\nequation and substitution with units.]   [2]\n75 State the reason why the magnitude of the Sun\u2019s gravitational force on Pluto is greater than the\nmagnitude of the Sun\u2019s gravitational force on Charon.   [1]\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2006 Edition Reference Tables for Physical Setting/Physics.\nP.S./Physics\u2013June \u201914\n[12]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "73\u201374 Calculate the magnitude of the acceleration of Charon toward Pluto. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of physics.\nPluto orbits the Sun at an average distance of 5.91 \u00d7 1012 meters. Pluto\u2019s diameter is 2.30 \u00d7 106\nmeters and its mass is 1.31 \u00d7 1022 kilograms.\nCharon orbits Pluto with their centers separated by a distance of 1.96 \u00d7 107 meters. Charon has\na diameter of 1.21 \u00d7 106 meters and a mass of 1.55 \u00d7 1021 kilograms.\n71\u201372 Calculate the magnitude of the gravitational force of attraction that Pluto exerts on Charon. [Show all\nwork, including the equation and substitution with units.]   [2]\n73\u201374 Calculate the magnitude of the acceleration of Charon toward Pluto. [Show all work, including the\nequation and substitution with units.]   [2]\n75 State the reason why the magnitude of the Sun\u2019s gravitational force on Pluto is greater than the\nmagnitude of the Sun\u2019s gravitational force on Charon.   [1]\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2006 Edition Reference Tables for Physical Setting/Physics.\nP.S./Physics\u2013June \u201914\n[12]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "State the reason why the magnitude of the Sun\u2019s gravitational force on Pluto is greater than the magnitude of the Sun\u2019s gravitational force on Charon.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information below and on your knowledge of physics.\nPluto orbits the Sun at an average distance of 5.91 \u00d7 1012 meters. Pluto\u2019s diameter is 2.30 \u00d7 106\nmeters and its mass is 1.31 \u00d7 1022 kilograms.\nCharon orbits Pluto with their centers separated by a distance of 1.96 \u00d7 107 meters. Charon has\na diameter of 1.21 \u00d7 106 meters and a mass of 1.55 \u00d7 1021 kilograms.\n71\u201372 Calculate the magnitude of the gravitational force of attraction that Pluto exerts on Charon. [Show all\nwork, including the equation and substitution with units.]   [2]\n73\u201374 Calculate the magnitude of the acceleration of Charon toward Pluto. [Show all work, including the\nequation and substitution with units.]   [2]\n75 State the reason why the magnitude of the Sun\u2019s gravitational force on Pluto is greater than the\nmagnitude of the Sun\u2019s gravitational force on Charon.   [1]\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2006 Edition Reference Tables for Physical Setting/Physics.\nP.S./Physics\u2013June \u201914\n[12]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Determine the magnitude of the force of friction acting on the box.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below and on your knowledge of physics.\nA horizontal 20.-newton force is applied to a 5.0-kilogram box to push it across a rough,\nhorizontal floor at a constant velocity of 3.0 meters per second to the right.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below and on your knowledge of physics.\nA horizontal 20.-newton force is applied to a 5.0-kilogram box to push it across a rough,\nhorizontal floor at a constant velocity of 3.0 meters per second to the right.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "77\u201378 Calculate the weight of the box. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below and on your knowledge of physics.\nA horizontal 20.-newton force is applied to a 5.0-kilogram box to push it across a rough,\nhorizontal floor at a constant velocity of 3.0 meters per second to the right.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below and on your knowledge of physics.\nA horizontal 20.-newton force is applied to a 5.0-kilogram box to push it across a rough,\nhorizontal floor at a constant velocity of 3.0 meters per second to the right.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "79\u201380 Calculate the coefficient of kinetic friction between the box and the floor. [Show all work, including the equation and substitution with units]",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below and on your knowledge of physics.\nA horizontal 20.-newton force is applied to a 5.0-kilogram box to push it across a rough,\nhorizontal floor at a constant velocity of 3.0 meters per second to the right.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information below and on your knowledge of physics.\nAn electron traveling with a speed of 2.50 \u00d7 106 meters per second collides with a photon\nhaving a frequency of 1.00 \u00d7 1016 hertz. After the collision, the photon has 3.18 \u00d7 10\u221218 joule of\nenergy.\n81\u201382 Calculate the original kinetic energy of the electron. [Show all work, including the equation and\nsubstitution with units.]   [2]\n83 Determine the energy in joules of the photon before the collision.   [1]\n84 Determine the energy lost by the photon during the collision.   [1]\n85 Name two physical quantities conserved in the collision.   [1]\nP.S./Physics\u2013June \u201914\n[13]\n\n\n\nP.S./PHYSICS\nP.S./PHYSICS\nPrinted on Recycled Paper",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "81\u201382 Calculate the original kinetic energy of the electron. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information below and on your knowledge of physics.\nAn electron traveling with a speed of 2.50 \u00d7 106 meters per second collides with a photon\nhaving a frequency of 1.00 \u00d7 1016 hertz. After the collision, the photon has 3.18 \u00d7 10\u221218 joule of\nenergy.\n81\u201382 Calculate the original kinetic energy of the electron. [Show all work, including the equation and\nsubstitution with units.]   [2]\n83 Determine the energy in joules of the photon before the collision.   [1]\n84 Determine the energy lost by the photon during the collision.   [1]\n85 Name two physical quantities conserved in the collision.   [1]\nP.S./Physics\u2013June \u201914\n[13]\n\n\n\nP.S./PHYSICS\nP.S./PHYSICS\nPrinted on Recycled Paper",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Determine the energy in joules of the photon before the collision.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information below and on your knowledge of physics.\nAn electron traveling with a speed of 2.50 \u00d7 106 meters per second collides with a photon\nhaving a frequency of 1.00 \u00d7 1016 hertz. After the collision, the photon has 3.18 \u00d7 10\u221218 joule of\nenergy.\n81\u201382 Calculate the original kinetic energy of the electron. [Show all work, including the equation and\nsubstitution with units.]   [2]\n83 Determine the energy in joules of the photon before the collision.   [1]\n84 Determine the energy lost by the photon during the collision.   [1]\n85 Name two physical quantities conserved in the collision.   [1]\nP.S./Physics\u2013June \u201914\n[13]\n\n\n\nP.S./PHYSICS\nP.S./PHYSICS\nPrinted on Recycled Paper",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Determine the energy lost by the photon during the collision.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information below and on your knowledge of physics.\nAn electron traveling with a speed of 2.50 \u00d7 106 meters per second collides with a photon\nhaving a frequency of 1.00 \u00d7 1016 hertz. After the collision, the photon has 3.18 \u00d7 10\u221218 joule of\nenergy.\n81\u201382 Calculate the original kinetic energy of the electron. [Show all work, including the equation and\nsubstitution with units.]   [2]\n83 Determine the energy in joules of the photon before the collision.   [1]\n84 Determine the energy lost by the photon during the collision.   [1]\n85 Name two physical quantities conserved in the collision.   [1]\nP.S./Physics\u2013June \u201914\n[13]\n\n\n\nP.S./PHYSICS\nP.S./PHYSICS\nPrinted on Recycled Paper",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Name two physical quantities conserved in the collision. P.S./PHYSICS P.S./PHYSICS Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/physics/june-2014/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information below and on your knowledge of physics.\nAn electron traveling with a speed of 2.50 \u00d7 106 meters per second collides with a photon\nhaving a frequency of 1.00 \u00d7 1016 hertz. After the collision, the photon has 3.18 \u00d7 10\u221218 joule of\nenergy.\n81\u201382 Calculate the original kinetic energy of the electron. [Show all work, including the equation and\nsubstitution with units.]   [2]\n83 Determine the energy in joules of the photon before the collision.   [1]\n84 Determine the energy lost by the photon during the collision.   [1]\n85 Name two physical quantities conserved in the collision.   [1]\nP.S./Physics\u2013June \u201914\n[13]\n\n\n\nP.S./PHYSICS\nP.S./PHYSICS\nPrinted on Recycled Paper",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

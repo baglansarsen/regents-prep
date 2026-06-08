@@ -1,0 +1,1051 @@
+{
+  "subject": "living-environment",
+  "session": "june-2013",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Fish absorb oxygen through the gills, earth- worms absorb oxygen through the skin, amebas take in oxygen through the cell membranes, and cows inhale oxygen through the nasal passages into their lungs. This statement demonstrates that living things",
+      "choices": [
+        "rely on similar or the same processes, but accomplish them in different ways",
+        "rely on different processes and accomplish them in different ways",
+        "rely on different processes, but perform them in the same or related ways",
+        "have no relationship to one another, and are all independent individuals"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "In New York State, small farms that were abandoned many years ago have become hardwood forests. This is an example of",
+      "choices": [
+        "local deforestation",
+        "biotechnology",
+        "ecological succession",
+        "habitat loss"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Goats have been genetically modified to produce an anticlotting protein in their milk. The protein is extracted from the milk and given to people who have inherited a disorder that causes their bodies to produce blood clots, which can be fatal. A benefit of the technology used to produce this protein is that it",
+      "choices": [
+        "can be used to overcome the effects of a harmful mutation",
+        "can provide people with a new kind of nutrient-rich milk",
+        "will result in healthier goats with more nutritious milk for their offspring",
+        "will reduce blood clots in other farm animals that are modified in this way"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The diagram below represents factors that affect New York State ecosystems. An increase in human activity at X would most likely result in",
+      "choices": [
+        "a decrease in rainfall in the area",
+        "a decrease in available carbon dioxide",
+        "an increase in air pollution in the area",
+        "an increase in the supply of fossil fuels"
+      ],
+      "image": "/images/exams/living-environment/june-2013/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "written",
+      "text": "Which graph correctly represents the pattern of human population growth over the past 5000 years? \u0002\u0003\u0004\u0005 \u0006\u0007\b \u0003\u0007 \u0002\u0003\u0004\u0003\u0005 \u0002\u0003\u0004\u0005 \u0006\u0007\b \u0003\u0007 \u0002\u0003\u0006\u0003\u0005 \u0002\u0003\u0004\u0005 \u0006\u0007\b \u0003\u0007 \u0002\u0003\u0007\u0003\u0005 \u0002\u0003\u0004\u0005 \u0006\u0007\b \u0003\u0007 \u0002\u0003\b\u0003\u0005 X",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The fossil record of ancient life forms provides scientific evidence of",
+      "choices": [
+        "direct harvesting",
+        "selective breeding",
+        "gene manipulation",
+        "evolutionary changes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Spider plants can reproduce both sexually and asexually. The diagram below represents a spider plant reproducing asexually by a method known as vegetative propagation. Which statement best describes the relationship between the parent plant and the offspring in the diagram?",
+      "choices": [
+        "The cells of the offspring contain half the amount of DNA as the cells of the parent plant.",
+        "The parent plant provides genetic material to the offspring through its gametes.",
+        "The cells of the offspring have the same genetic content as the cells of the parent plant.",
+        "The cells of the parent plant have more genetic diversity, compared to the cells of the offspring."
+      ],
+      "image": "/images/exams/living-environment/june-2013/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The processes of deletion, insertion, and substitution can alter genes in a skin cell. The altered genes will most likely be passed on to",
+      "choices": [
+        "sperm cells",
+        "egg cells",
+        "every cell that develops from that skin cell",
+        "only a few of the cells that develop from that skin cell"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Before starch can enter a cell, it must be",
+      "choices": [
+        "absorbed by simple sugars",
+        "diffused into simple sugars",
+        "digested to form simple sugars",
+        "actively transported by simple sugars"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "In a cell, protein synthesis is the primary function of",
+      "choices": [
+        "ribosomes",
+        "mitochondria",
+        "chloroplasts",
+        "vacuoles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "In a multicellular organism, organs carry out a variety of life functions. In a single-celled organism, these functions are performed by",
+      "choices": [
+        "tissues",
+        "organelles",
+        "organ systems",
+        "organs"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Chlorophyll gives plants their green color. Chlorophyll is produced only when plants are exposed to light, so plants kept in darkness have no chlorophyll and appear white. The best explanation for this is that",
+      "choices": [
+        "chlorophyll is not needed by green plants at night",
+        "darkness mutates the chlorophyll genes, causing them to produce a white color",
+        "light is required for chlorophyll genes to be expressed",
+        "genetic information in cells is not influenced by the outside environment"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "In order for the human body to maintain homeostasis, the breakdown of glucose to release energy must be followed by the",
+      "choices": [
+        "production of oxygen",
+        "division of the cell",
+        "removal of wastes",
+        "production of receptor molecules"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "In the past, humans developed varieties of dogs, such as the German shepherd and the bearded collie, using",
+      "choices": [
+        "selective breeding for particular traits",
+        "recombination of genes during mitosis",
+        "mutations present only in body cells",
+        "natural selection of favorable traits \u000e\u0003\u000f\u0010 \u000e \u0011\u0012\u0012\u0013\u000f \u0014 \u0015"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "In an organism, a muscle cell has the same DNA as a nerve cell, yet the cells perform different functions. This is possible because",
+      "choices": [
+        "different mutations occur in each cell type, changing the genetic instructions",
+        "temperature variations within the body alter DNA",
+        "proteins in each cell type change the structure of DNA",
+        "different parts of the genetic instructions are used in each type of cell"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which sequence best represents sexual reproduction?",
+      "choices": [
+        "mitosis \u2192gametes \u2192zygote \u2192fertilization",
+        "gametes \u2192meiosis \u2192mitosis \u2192fertilization",
+        "fertilization \u2192gametes \u2192meiosis \u2192zygote",
+        "meiosis \u2192gametes \u2192fertilization \u2192zygote"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The reproductive system of a male mammal provides",
+      "choices": [
+        "support for the internal development of the embryo",
+        "materials through the placenta",
+        "a means for the delivery of gametes",
+        "the ovaries for gamete production"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The energy used to obtain, transfer, and transport materials within an organism comes directly from",
+      "choices": [
+        "ATP",
+        "DNA",
+        "sunlight",
+        "starch"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The failure of the human body to effectively maintain dynamic equilibrium can result in",
+      "choices": [
+        "reproductive success",
+        "gene manipulation",
+        "differentiation",
+        "disease"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Melanoma is a type of cancer in which abnormal skin cells divide uncontrollably. Some chemotherapy drugs, which stop the growth of the cancer, directly interfere with the process of",
+      "choices": [
+        "meiosis",
+        "coordination",
+        "mitosis",
+        "recombination"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Riding a bicycle requires balance and constant adjustment and monitoring by the rider in order to continue cycling. Successfully riding a bicycle most directly results from the ability to",
+      "choices": [
+        "sexually reproduce",
+        "grow and develop",
+        "detect and respond to change",
+        "metabolize food for energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The first successful transplant of insulin- producing cells from a living donor pancreas was completed in April 2000 in Japan. This enabled the body of the recipient to",
+      "choices": [
+        "regulate fat concentration by a feedback mechanism",
+        "provide protection against an infectious disease",
+        "slow down the heart rate after a period of activity ends",
+        "maintain blood sugar levels throughout the day"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A study was done on three different fish species living in a pond in New York State. The influence of temperature on the growth rates of the fish populations is shown in the graph below. In this pond where these fish live, temperature is a",
+      "choices": [
+        "limiting factor",
+        "hereditary factor",
+        "source of ATP",
+        "source of solar energy 0 40 10 20 30 Temperature (\u00b0C) Population Growth Rate Rainbow trout Largemouth bass Yellow perch The Influence of Temperature on Growth Rates of Fish Populations"
+      ],
+      "image": "/images/exams/living-environment/june-2013/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A 6-year-old child ate a peanut butter sandwich at snack time in school. Five minutes later, her throat became swollen and she collapsed. This allergic reaction occurred because her body",
+      "choices": [
+        "recognized an antigen in peanut butter and produced antibiotics against it",
+        "digested the white blood cells that can recognize an antigen in peanut butter",
+        "did not recognize an antigen in peanut butter and could not produce antibodies against it",
+        "recognized an antigen in peanut butter and produced an immune response"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which type of organism helps to reduce atmospheric carbon dioxide?",
+      "choices": [
+        "carnivores",
+        "producers",
+        "decomposers",
+        "herbivores"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which statement best describes an ecosystem maintaining a state of approximate equilibrium?",
+      "choices": [
+        "Nutrients from decayed organisms are recycled in a forest ecosystem.",
+        "All the frog species in a South American rain forest become extinct.",
+        "A mutation spreads through a species of bacterium, making them unable to decompose wastes.",
+        "Mice are released into a field ecosystem as food for a declining predator population."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "In some parts of the world, forests are being cut down and burned to clear land for new homes and new farmland. A negative effect of these activities might be",
+      "choices": [
+        "an increase in global warming",
+        "destruction of the ozone shield",
+        "a decrease in the average temperature of the atmosphere",
+        "an increase in biodiversity of the deforested areas"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The photograph below shows two penguins of the same species displaying different feather color patterns. The newly discovered all-black penguin had only black feathers since emerging from the egg. The sudden appearance of this characteristic was most likely due to",
+      "choices": [
+        "a change in environmental conditions",
+        "deposition of oil on the feathers due to pollution",
+        "a random change in the sequences of bases in DNA",
+        "a change in the diet of the penguin chick \u0016\u0017\u0018 \u0019 \u001a\u0003\u001b\u000e\u000e\u000f\u001a \u0015 \u001b\u0017\u0017 \u0019\u0017 \u0010\u0017\u0015 \u0015\u0018 \u0013\u000e! \u0010\u0017\u0015\u0015 \u0013 \u0007\b \u0010\u0010\" \u0010 \u0019#\"\u000f \u0015\u0018\u0014 \"$\u0014\u0013\u0019\u0017% $ \u001b\u000e \u0010"
+      ],
+      "image": "/images/exams/living-environment/june-2013/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The diagram below represents different stages of an ecosystem over a period of time. Which stage of the ecosystem has the greatest long-term stability?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/june-2013/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the same field of mice hunted by a hawk over a period of three months. The overall changes in the population of mice can be explained best by",
+      "choices": [
+        "natural selection",
+        "succession",
+        "reproduction",
+        "mouse extinction A\u2013Grass stage B\u2013Shrub stage C\u2013Pine forest stage D\u2013Hardwood forest stage Bare field Time &\u0017 \u000e\u001b\u0003\u0004 &\u0017 \u000e\u001b\u0003\u0007 &\u0017 \u000e\u001b\u0003\u0006"
+      ],
+      "image": "/images/exams/living-environment/june-2013/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Testosterone directly affects the",
+      "choices": [
+        "formation of a zygote",
+        "changes within an ovary",
+        "production of sperm cells",
+        "development of a placenta"
+      ],
+      "image": "/images/exams/living-environment/june-2013/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "If the population of hawks in this area increases, their prey populations might decrease. Later, with fewer prey, the hawk population might decrease. The prey populations might then increase. This is an example of",
+      "choices": [
+        "an ecosystem that is completely out of balance",
+        "how ecosystems maintain stability over time",
+        "interaction between biotic and abiotic factors within an ecosystem",
+        "ecological succession in an ecosystem"
+      ],
+      "image": "/images/exams/living-environment/june-2013/context_32_34.png",
+      "context": "Base your answers to questions 32 through 34 on\nthe diagram below and on your knowledge of biology.\nThe diagram represents a food web in an ecosystem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Missing from the diagram of this ecosystem are the",
+      "choices": [
+        "biotic factors and decomposers",
+        "abiotic factors and decomposers",
+        "autotrophs, only",
+        "heterotrophs, only"
+      ],
+      "image": "/images/exams/living-environment/june-2013/context_32_34.png",
+      "context": "Base your answers to questions 32 through 34 on\nthe diagram below and on your knowledge of biology.\nThe diagram represents a food web in an ecosystem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Which row in the chart below best identifies the relationship between the mice and the wheat?",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_32_34.png",
+      "context": "Base your answers to questions 32 through 34 on\nthe diagram below and on your knowledge of biology.\nThe diagram represents a food web in an ecosystem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a sequence of events that occurs in living things. Letter X represents",
+      "choices": [
+        "inorganic molecules",
+        "organic molecules",
+        "biological catalysts",
+        "simple sugars"
+      ],
+      "image": "/images/exams/living-environment/june-2013/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "In the cells of the human body, oxygen molecules are used directly in a process that",
+      "choices": [
+        "producer consumer",
+        "predator host",
+        "host predator",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which statement explains the importance of maintaining a constant internal environment to ensure proper enzyme functioning?",
+      "choices": [
+        "Changes in pH and temperature will cause the enzyme reaction rate to be too fast.",
+        "Temperature and pH determine amino acid sequences in enzymes.",
+        "Changes in pH will change the genetic instructions of enzymes.",
+        "Increasing the temperature and pH can alter the specific shape of enzymes."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "In the future, the current population of about ten pink land iguanas will probably",
+      "choices": [
+        "migrate to new islands in the Galapagos in order to survive",
+        "soon become extinct, because they have little genetic diversity",
+        "undergo evolution by natural selection and survive",
+        "soon become extinct, because they have too much genetic diversity"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 38 through 41 on the information below and on your knowledge of \nbiology.\nThe Galapagos pink land iguana, Conolophus marthae (C. marthae), is native to only\none of the Galapagos Islands. Its entire range is currently limited to Wolf Volcano on\nIsabella Island. The iguana was first discovered on this island in 1986. Genetic studies of\nthe animal began sometime later, and it was identified as a species separate from other \niguana populations on the Galapagos in 2009. Its population might have been as high as 100\nin 1986, but now there might be as few as 10 of the animals left alive.\nOther evidence indicates that this species could have diverged from another line of\niguanas about 5.7 million years ago. After that, the other line of iguanas diverged into two\nother species, C. pallidus and C. subcristatus.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The testing that revealed that these iguanas are a separate species from the other iguanas present in the Galapagos most likely included",
+      "choices": [
+        "genetic engineering",
+        "cloning studies",
+        "DNA analysis",
+        "the use of paper chromatography"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 38 through 41 on the information below and on your knowledge of \nbiology.\nThe Galapagos pink land iguana, Conolophus marthae (C. marthae), is native to only\none of the Galapagos Islands. Its entire range is currently limited to Wolf Volcano on\nIsabella Island. The iguana was first discovered on this island in 1986. Genetic studies of\nthe animal began sometime later, and it was identified as a species separate from other \niguana populations on the Galapagos in 2009. Its population might have been as high as 100\nin 1986, but now there might be as few as 10 of the animals left alive.\nOther evidence indicates that this species could have diverged from another line of\niguanas about 5.7 million years ago. After that, the other line of iguanas diverged into two\nother species, C. pallidus and C. subcristatus.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "One likely reason for the existence of these pink land iguanas today is that their ancestors",
+      "choices": [
+        "had the same variations as other iguanas but, after a long period of changing environmental conditions, mutated to the pink form when the environment eventually stabilized",
+        "had variations not present in other iguanas that allowed them to live in a particular environment more successfully than the other iguanas",
+        "lived on several other islands long ago, but migrated to Isabella Island around 1980 to have the environment to themselves, without predators to harm them",
+        ""
+      ],
+      "image": null,
+      "context": "Base your answers to questions 38 through 41 on the information below and on your knowledge of \nbiology.\nThe Galapagos pink land iguana, Conolophus marthae (C. marthae), is native to only\none of the Galapagos Islands. Its entire range is currently limited to Wolf Volcano on\nIsabella Island. The iguana was first discovered on this island in 1986. Genetic studies of\nthe animal began sometime later, and it was identified as a species separate from other \niguana populations on the Galapagos in 2009. Its population might have been as high as 100\nin 1986, but now there might be as few as 10 of the animals left alive.\nOther evidence indicates that this species could have diverged from another line of\niguanas about 5.7 million years ago. After that, the other line of iguanas diverged into two\nother species, C. pallidus and C. subcristatus.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "written",
+      "text": "Which evolutionary tree best represents the information about the pink land iguana provided in the passage?",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/q41.png",
+      "context": "Base your answers to questions 38 through 41 on the information below and on your knowledge of \nbiology.\nThe Galapagos pink land iguana, Conolophus marthae (C. marthae), is native to only\none of the Galapagos Islands. Its entire range is currently limited to Wolf Volcano on\nIsabella Island. The iguana was first discovered on this island in 1986. Genetic studies of\nthe animal began sometime later, and it was identified as a species separate from other \niguana populations on the Galapagos in 2009. Its population might have been as high as 100\nin 1986, but now there might be as few as 10 of the animals left alive.\nOther evidence indicates that this species could have diverged from another line of\niguanas about 5.7 million years ago. After that, the other line of iguanas diverged into two\nother species, C. pallidus and C. subcristatus.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The diagram below represents specialized cells in the surface of the leaf of a green plant. The main function of these cells is to",
+      "choices": [
+        "change the size of the stomate to regulate water loss",
+        "close the stomate to keep dust and dirt out of the leaf",
+        "directly provide leaf cells with the water involved in photosynthesis",
+        "allow newly formed glucose to be released from the leaf"
+      ],
+      "image": "/images/exams/living-environment/june-2013/q42.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "written",
+      "text": "Which diagram correctly represents a step in the normal process of human reproduction? \u0002 \u0003\u0002 \u0004 \u0003\u0002 \u0005\u0006\u0007\u0006\b \u0003\u0002 \u0002 \u0004 \u0002 \u0005\u0006\u0003\u0006\b \u0002 \u0003\u0002 \u0004 \u0002 \u0005\u0006 \u0006\b \u0002 \u0003\u0002 \u0004 \u0003\u0002 \u0005\u0006 \u0006\b \u0002\u0003\u0004 \u0006 \u000e\u000f\u0006\u0010\u0011\u0002\u0011 \u0012\u0013\u0006\u0014\u000e \u0011\u0015\u0012\u000e\u000f\u0006 \u0016\u0006\u000e\u0006\u0017\u0018\u0014\u000e\u0002\u0006\u0013\u0011\u000f\u000f \u0006 \u0002\u0011\u0006\u0017\u000e\u000f\u0016\u0006 \u0016\u0006 \u0017\u0011\u0006 \u000e\u000f\u0006\u0010\u0011\u0002\u0011 \u0012\u0013\u0006\u0014\u000e \u0011\u0015\u0012\u000e\u000f\u0006 \u0016\u0006\u000e\u0006\u0017\u0018\u0014\u000e\u0002\u0006\u0013\u0011\u000f\u000f \u0003\u0002 \u0002 \u0019 \u0014\u000e \u0011 \u0005 \u001a\u0011\u0002\u0012\u0002\u0010\b \u0019\u001a\u0011\u0013\u0012\u000e\u000f\u0012\u001b\u0011 \u0006\u0013\u0011\u000f\u000f \u0002\u0003\u0004\u0005\u0006\u0007\u0007\b \u0002\u0003\u0004 \u0006 \u000e\u000f\u0006\u0010 \u0002\u0003\u0004 \u0011\u0012 \b \u000e\u0006\u000e \u0005\u0006\u0007\u0006\b \u0002\u0003\u0004\u0005\u0006\u0007\u0007\b \u0002\u0003\u0004 \u0006 \u000e\u000f\u0006\u0010 \u0002\u0003\u0004 \u0011\u0012 \b \u000e\u0006\u000e \u0005\u0006 \u0006\b \u0002\u0003\u0004\u0005\u0006\u0007\u0007\b \u0002\u0003\u0004 \u0006 \u000e\u000f\u0006\u0010 \u0002\u0003\u0004 \u0011\u0012 \b \u000e\u0006\u000e \u0005\u0006\u0003\u0006\b \u0002\u0003\u0004\u0005\u0006\u0007\u0007\b \u0002\u0003\u0004 \u0006 \u000e\u000f\u0006\u0010 \u0002\u0003\u0004 \u0011\u0012 \b \u000e\u0006\u000e \u0005\u0006 \u0006\b",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the data table below and on your knowledge of biology.\nThe data table shows the number of breeding pairs of bald eagles in New York State from 1991 to 2003.\nYear\nNumber of Breeding Pairs\n1991\n15\n1993\n20\n1995\n25\n1997\n35\n1999\n45\n2001\n65\n2003\n75\nNumber of Breeding Pairs of\nBald Eagles in New York State from 1991 to 2003\nPart B\u20132\nAnswer all questions in this part.   [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nLiving Environment\u2013June \u201913\n[11]\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data on the grid. Surround each point with a small circle and connect the points.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the data table below and on your knowledge of biology.\nThe data table shows the number of breeding pairs of bald eagles in New York State from 1991 to 2003.\nYear\nNumber of Breeding Pairs\n1991\n15\n1993\n20\n1995\n25\n1997\n35\n1999\n45\n2001\n65\n2003\n75\nNumber of Breeding Pairs of\nBald Eagles in New York State from 1991 to 2003\nPart B\u20132\nAnswer all questions in this part.   [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nLiving Environment\u2013June \u201913\n[11]\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "State one possible reason for the increase in the number of breeding pairs of bald eagles in New York State.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the data table below and on your knowledge of biology.\nThe data table shows the number of breeding pairs of bald eagles in New York State from 1991 to 2003.\nYear\nNumber of Breeding Pairs\n1991\n15\n1993\n20\n1995\n25\n1997\n35\n1999\n45\n2001\n65\n2003\n75\nNumber of Breeding Pairs of\nBald Eagles in New York State from 1991 to 2003\nPart B\u20132\nAnswer all questions in this part.   [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nLiving Environment\u2013June \u201913\n[11]\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "In which time period did New York State see the largest increase in breeding pairs of bald eagles?",
+      "choices": [
+        "1991\u20131993",
+        "1993\u20131995",
+        "1995\u20131997",
+        "1999\u20132001 Year Number of Breeding Pairs of Bald Eagles in New York State from 1991 to 2003 Number of Breeding Pairs Example:"
+      ],
+      "image": "/images/exams/living-environment/june-2013/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the data table below and on your knowledge of biology.\nThe data table shows the number of breeding pairs of bald eagles in New York State from 1991 to 2003.\nYear\nNumber of Breeding Pairs\n1991\n15\n1993\n20\n1995\n25\n1997\n35\n1999\n45\n2001\n65\n2003\n75\nNumber of Breeding Pairs of\nBald Eagles in New York State from 1991 to 2003\nPart B\u20132\nAnswer all questions in this part.   [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nLiving Environment\u2013June \u201913\n[11]\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "State one reason for the changes in population size represented by line A between years 5 and 10.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the graph below and on your knowledge of biology. The graph\nshows the size of a population over time.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which term best identifies line B in the graph?",
+      "choices": [
+        "niche of the species in the environment",
+        "biodiversity in the environment",
+        "carrying capacity of the environment",
+        "number of populations in the environment A B Time (years) Population Size Population Size 0 10 5"
+      ],
+      "image": "/images/exams/living-environment/june-2013/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the graph below and on your knowledge of biology. The graph\nshows the size of a population over time.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "If a student supplies more light than was received during trial X, a bar placed on the graph to represent the results would most likely be",
+      "choices": [
+        "shorter than bar X and placed to the left of bar X",
+        "shorter than bar X and placed to the right of bar X",
+        "taller than bar X and placed to the left of bar X",
+        "taller than bar X and placed to the right of bar X"
+      ],
+      "image": "/images/exams/living-environment/june-2013/context_50_52.png",
+      "context": "Base your answers to questions 50 through 52 on the information and graph below and on your knowledge\nof biology.\nA student conducts an experiment to determine how the amount of light affects the rate\nof oxygen production in a plant. The graph represents the rate of oxygen produced for one\ntrial, X, in the experiment. By the end of the experiment, the plant had not reached \nmaximum oxygen production.\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "The diagram below represents a cell from the plant being used in the study. Draw an arrow to a cell structure directly responsible for oxygen production in this cell. The tip of the arrow must touch the cell structure.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_50_52.png",
+      "context": "Base your answers to questions 50 through 52 on the information and graph below and on your knowledge\nof biology.\nA student conducts an experiment to determine how the amount of light affects the rate\nof oxygen production in a plant. The graph represents the rate of oxygen produced for one\ntrial, X, in the experiment. By the end of the experiment, the plant had not reached \nmaximum oxygen production.\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify the biochemical process occurring in this cell that produces the oxygen. Process: _______________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_50_52.png",
+      "context": "Base your answers to questions 50 through 52 on the information and graph below and on your knowledge\nof biology.\nA student conducts an experiment to determine how the amount of light affects the rate\nof oxygen production in a plant. The graph represents the rate of oxygen produced for one\ntrial, X, in the experiment. By the end of the experiment, the plant had not reached \nmaximum oxygen production.\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "The diagram below represents a process that is involved in the formation of wrinkles. Complete the diagram by drawing an appropriate structure on the muscle cell membrane that would allow the nerve cell to communicate with the muscle cell. Nerve Cell Muscle Cell Membrane Key = Acetylcholine",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/q53.png",
+      "context": "Base your answer to question 53 on the information below and on your knowledge of biology.\nBotulinum toxin is a protein produced by the bacterium Clostridium botulinum. It \ncauses a serious form of food poisoning in humans. In a very dilute form, it is also commonly\nused to eliminate some signs of aging, such as wrinkles. It does this by preventing nerves\nfrom releasing a chemical messenger called acetylcholine into the synapse (space between\na nerve cell and a muscle cell). The toxin affects the process that causes the muscle cell to\ncontract and form wrinkles.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Explain why the percentage of resistant bacteria increased over time.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the scatter-plot graph below and on your knowledge of \nbiology. The graph shows changes in the percentage of vancomycin-resistant bacteria in a population between\nthe years 1983 and 2001.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "State what scientists might do to successfully combat bacteria that are resistant to vancomycin. \u0006* \u0007+ \u0007* \u0004+ \u0004* + * \u0004,-\u0006 \u0004,-+ \u0004,-. \u0004,-, \u0004,,\u0004 \u0004,,\u0006 \u0004,,+ \u0004,,. \u0004,,, \u0007**\u0004 \u0010\u0005 \u0011 \u0012\u0005\u0013\u0003\u0013 \u0014\u0005\u0015 \u0007\u0015\u0016 \u0014\u0007\u0004\u000f\u0014\u0003 \u0006\u0005\u0011\u0014\u0005 \u0017\u0005\u0015\u0007\u0018 \u0012\u0005\u0013\u0003\u0013 \u0015\u0019 \u0014 \u0005\u0011\u0003 \u0016\u0017\u0018 \u0019 \u001a\u0003\u001b\u000e\u000e\u000f\u001a %\u0017\u0010\u0018\u000e\u0014\u0017 # \u0010 $\u0018 %\u0017\u0010\u0014 \u000e\u0014\u0019\u0010 \u0015\u0013\u000e \u0017 !*\u0006",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the scatter-plot graph below and on your knowledge of \nbiology. The graph shows changes in the percentage of vancomycin-resistant bacteria in a population between\nthe years 1983 and 2001.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "When insects are accidentally transported from one country to a new habitat in another country, the population of these insects often increases rapidly. State one environmental factor in the new habitat that would account for this increase in the population.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_57_60.png",
+      "context": "Base your answer to question 57\u201360 on the information below and on your knowledge of biology.\nThe year 2010 was declared the International Year of Biodiversity. However, significant\nloss of biodiversity is still occurring. Researchers around the world are working on a variety\nof ways to protect natural resources. According to an article in Science News, March 13,\n2010, \u201creversing the downward spiral of biodiversity will take more than protecting wild\nplaces, but that\u2019s where scientists are starting.\u201d\n57\u201360 Explain the importance of biodiversity to an ecosystem. In your answer, be sure to:\n\u2022 state one effect of a loss of biodiversity in an ecosystem   [1]\n\u2022 identify a source of variation within a species that leads to biodiversity   [1]\n\u2022 identify one specific ecosystem that has shown a decrease in biodiversity and state one cause of the\ndecrease in biodiversity in the ecosystem you identified   [1]\n\u2022 identify one human activity, other than setting up protected wildlife areas, that has helped to preserve\nbiodiversity   [1]\nLiving Environment\u2013June \u201913\n[16]\nPart C\nAnswer all questions in this part.\n[17]\nDirections (56\u201372): Record your answers in the spaces provided in this examination booklet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "57\u201360 Explain the importance of biodiversity to an ecosystem. In your answer, be sure to: \u2022 state one effect of a loss of biodiversity in an ecosystem \u2022 identify a source of variation within a species that leads to biodiversity \u2022 identify one specific ecosystem that has shown a decrease in biodiversity and state one cause of the decrease in biodiversity in the ecosystem you identified \u2022 identify one human activity, other than setting up protected wildlife areas,",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_57_60.png",
+      "context": "Base your answer to question 57\u201360 on the information below and on your knowledge of biology.\nThe year 2010 was declared the International Year of Biodiversity. However, significant\nloss of biodiversity is still occurring. Researchers around the world are working on a variety\nof ways to protect natural resources. According to an article in Science News, March 13,\n2010, \u201creversing the downward spiral of biodiversity will take more than protecting wild\nplaces, but that\u2019s where scientists are starting.\u201d\n57\u201360 Explain the importance of biodiversity to an ecosystem. In your answer, be sure to:\n\u2022 state one effect of a loss of biodiversity in an ecosystem   [1]\n\u2022 identify a source of variation within a species that leads to biodiversity   [1]\n\u2022 identify one specific ecosystem that has shown a decrease in biodiversity and state one cause of the\ndecrease in biodiversity in the ecosystem you identified   [1]\n\u2022 identify one human activity, other than setting up protected wildlife areas, that has helped to preserve\nbiodiversity   [1]\nLiving Environment\u2013June \u201913\n[16]\nPart C\nAnswer all questions in this part.\n[17]\nDirections (56\u201372): Record your answers in the spaces provided in this examination booklet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_61_64.png",
+      "context": "Base your answer to question 61\u201364 on the information below and on your knowledge of biology.\nScientists have been experimenting with different forms of alternate energy to help\nreduce the amount of fossil fuels that are burned. They studied yeast, which convert plant\nmaterials into ethanol, a form of alcohol that can be used in automobiles. These experi-\nments were carried out at room temperature. The scientists wondered whether more\nethanol would be produced at different temperatures.\n61\u201364 Design an experiment to determine the effect of temperature on ethanol production by yeast. In your\nanswer, be sure to:\n\u2022 state one hypothesis the experiment would test   [1]\n\u2022 state how the control group would be treated differently from the experimental group   [1]\n\u2022 identify two factors that must be kept the same in both the experimental and control groups   [1]\n\u2022 identify the independent variable in the experiment   [1]\nLiving Environment\u2013June \u201913\n[17]\n[OVER]\n\nLiving Environment\u2013June \u201913\n[18]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "61\u201364 Design an experiment to determine the effect of temperature on ethanol production by yeast. In your answer, be sure to: \u2022 state one hypothesis the experiment would test \u2022 state how the control group would be treated differently from the experimental group \u2022 identify two factors that must be kept the same in both the experimental and control groups \u2022",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_61_64.png",
+      "context": "Base your answer to question 61\u201364 on the information below and on your knowledge of biology.\nScientists have been experimenting with different forms of alternate energy to help\nreduce the amount of fossil fuels that are burned. They studied yeast, which convert plant\nmaterials into ethanol, a form of alcohol that can be used in automobiles. These experi-\nments were carried out at room temperature. The scientists wondered whether more\nethanol would be produced at different temperatures.\n61\u201364 Design an experiment to determine the effect of temperature on ethanol production by yeast. In your\nanswer, be sure to:\n\u2022 state one hypothesis the experiment would test   [1]\n\u2022 state how the control group would be treated differently from the experimental group   [1]\n\u2022 identify two factors that must be kept the same in both the experimental and control groups   [1]\n\u2022 identify the independent variable in the experiment   [1]\nLiving Environment\u2013June \u201913\n[17]\n[OVER]\n\nLiving Environment\u2013June \u201913\n[18]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Based on the information given in the passage, state the relationship between the number of cigarettes young males smoke and their IQ.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 65 and 66 on the passage below and on your knowledge of biology.\nSmoking is Dumb\nA study by Prof. Mark Weiner of Tel Aviv University\u2019s Department of Psychiatry and the\nSheba Medical Center of Tel Hashomer Hospital has determined that young men who\nsmoke are likely to have lower IQs than their nonsmoking peers. Tracking 18- to 21-year-\nold men enlisted in the Israeli army in the largest study of its kind, he has been able to\ndemonstrate an important connection between the number of cigarettes young males\nsmoke and their IQ.\nThe average IQ for a nonsmoker was about 101, while the smokers\u2019 average was more\nthan seven IQ points lower at about 94, the study determined. The IQs of young men who\nsmoked more than a pack a day were lower still, at about 90. An IQ score in a healthy \npopulation of such young men, with no mental disorders, falls within the range of 84 to 116.\nSource: Science Daily April 2, 2010",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Explain how chemicals present in cigarette smoke are able to enter the body and reach the brain.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 65 and 66 on the passage below and on your knowledge of biology.\nSmoking is Dumb\nA study by Prof. Mark Weiner of Tel Aviv University\u2019s Department of Psychiatry and the\nSheba Medical Center of Tel Hashomer Hospital has determined that young men who\nsmoke are likely to have lower IQs than their nonsmoking peers. Tracking 18- to 21-year-\nold men enlisted in the Israeli army in the largest study of its kind, he has been able to\ndemonstrate an important connection between the number of cigarettes young males\nsmoke and their IQ.\nThe average IQ for a nonsmoker was about 101, while the smokers\u2019 average was more\nthan seven IQ points lower at about 94, the study determined. The IQs of young men who\nsmoked more than a pack a day were lower still, at about 90. An IQ score in a healthy \npopulation of such young men, with no mental disorders, falls within the range of 84 to 116.\nSource: Science Daily April 2, 2010",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "State one advantage, other than decreased reliance on fossil fuels, of the increased production of biofuels in New York State.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 67 through 70 on the information below and on your knowledge of biology.\nThe rapidly growing biofuel industry converts resources such as corn plants, vegetable\noils, and industrial wastes into products that can be used to power cars and trucks, and heat\nhomes. The increased demand for fossil fuel has led to the construction of factories to pro-\nduce biofuels. A proposal has been made to build a biofuel factory near Syracuse in New\nYork State.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "State one disadvantage of the increased use of corn for biofuels.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 67 through 70 on the information below and on your knowledge of biology.\nThe rapidly growing biofuel industry converts resources such as corn plants, vegetable\noils, and industrial wastes into products that can be used to power cars and trucks, and heat\nhomes. The increased demand for fossil fuel has led to the construction of factories to pro-\nduce biofuels. A proposal has been made to build a biofuel factory near Syracuse in New\nYork State.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "State one economic advantage of constructing a biofuel factory.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 67 through 70 on the information below and on your knowledge of biology.\nThe rapidly growing biofuel industry converts resources such as corn plants, vegetable\noils, and industrial wastes into products that can be used to power cars and trucks, and heat\nhomes. The increased demand for fossil fuel has led to the construction of factories to pro-\nduce biofuels. A proposal has been made to build a biofuel factory near Syracuse in New\nYork State.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State one concern that local residents might have about having a biofuel factory in their area.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/q70.png",
+      "context": "Base your answers to questions 67 through 70 on the information below and on your knowledge of biology.\nThe rapidly growing biofuel industry converts resources such as corn plants, vegetable\noils, and industrial wastes into products that can be used to power cars and trucks, and heat\nhomes. The increased demand for fossil fuel has led to the construction of factories to pro-\nduce biofuels. A proposal has been made to build a biofuel factory near Syracuse in New\nYork State.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Select structure A or B and indicate your selection on the line below. Describe specifically how the growths that are characteristic of endometriosis at the location you selected could affect the ability of a female to become pregnant. Structure:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the information and diagram below and on your knowledge of\nbiology.\nEndometriosis is a condition that occurs in some women, causing multiple cells or \nlayers of cells to grow outside of the uterus. In some cases, these growths can actually cover\nthe entire ovary or cause the tube leading from the ovary to the uterus to be blocked. The\ndiagram below represents the female reproductive system. Two structures, A and B, are\nlabeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Select either surgical procedure or hormone therapy and explain why it can be an effective treatment for endometriosis. Effective treatment:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the information and diagram below and on your knowledge of\nbiology.\nEndometriosis is a condition that occurs in some women, causing multiple cells or \nlayers of cells to grow outside of the uterus. In some cases, these growths can actually cover\nthe entire ovary or cause the tube leading from the ovary to the uterus to be blocked. The\ndiagram below represents the female reproductive system. Two structures, A and B, are\nlabeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "The best explanation for the changes observed by the student is that, when switching from low to high power, the",
+      "choices": [
+        "diameter of the field of view decreases",
+        "slide was accidentally moved",
+        "diameter of the field of view increases",
+        "image is inverted and reversed"
+      ],
+      "image": "/images/exams/living-environment/june-2013/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the information below and on your knowledge of biology.\nA student observes a red onion cell with a compound light microscope using low, then\nhigh power. The two views are represented below.\nNote: The answers to questions 73 and 74 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Which diagram represents where the cell should be located in the low-power field of view to be sure the entire cell will be visible after switching to high power? \u0005\u0006\u0007\u0006\b \u0005\u0006\u0003\u0006\b \u0005\u0006 \u0006\b \u0005\u0006 \u0006\b",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the information below and on your knowledge of biology.\nA student observes a red onion cell with a compound light microscope using low, then\nhigh power. The two views are represented below.\nNote: The answers to questions 73 and 74 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Hospital patients are often given intravenous fluids (IVs) to maintain proper levels of water and salts in the body. Great care is used in preparing these solutions. If a manufacturer accidentally prepared a batch of IV fluid that contained much more than the usual amount of salt, harm to the patient could result. The most likely effect on a patient if this incorrectly prepared IV fluid was used is that",
+      "choices": [
+        "water would move into body cells and cause them to burst",
+        "water would move out of body cells and cause them to dehydrate",
+        "salt and water would both move out of body cells and disrupt homeostasis",
+        "salt and water would both move into body cells and preserve homeostasis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "Which technique could be used to determine the relative number of bases in fragments taken from a sample of DNA?",
+      "choices": [
+        "electrophoresis",
+        "cloning",
+        "paper chromatography",
+        "light microscopy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify the mRNA codons that would be produced using this DNA as a template. DNA base sequence: AAC GCC GTC CGC TAG mRNA codons: _____ _____ _____ _____ _____",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 and 78 on the DNA base sequence below and on your knowledge of \nbiology.\nAAC\u2013GCC\u2013GTC\u2013CGC\u2013TAG",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "If a mutation occurs, leaving 12 bases, what is the maximum number of amino acids that could be coded for by this DNA segment? _______________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 and 78 on the DNA base sequence below and on your knowledge of \nbiology.\nAAC\u2013GCC\u2013GTC\u2013CGC\u2013TAG",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Describe procedure A and explain why it would cause the change shown.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the diagram below and on your knowledge of biology. The \ndiagram represents a cell and its changes as a result of two laboratory procedures, A and B.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Explain why procedure B has the opposite effect of procedure A.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the diagram below and on your knowledge of biology. The \ndiagram represents a cell and its changes as a result of two laboratory procedures, A and B.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Which processes are directly responsible for the presence of the different species of birds shown in the diagram?",
+      "choices": [
+        "mitosis and differentiation",
+        "gene manipulation and overpopulation",
+        "gene mutations and natural selection",
+        "competition and cloning"
+      ],
+      "image": "/images/exams/living-environment/june-2013/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the information and diagram below and on your \nknowledge of biology.\nThe circled areas in the diagram represent bird species that are in the same genus, a\nclassification group that includes closely related species. These birds are found on the\nHawaiian Islands.\nSource: Biology, 9th Edition, Mader, McGraw-Hill, Boston, MA, 2007, p.313\nLesser\nKoa finch\nPalila\nGreater\nKoa finch\nKona\nfinch\nLaysan\nfinch\nOu\nMaui parrot bill\nAkiapolaau\nNukupuu\nAkialoa\nKauai\nakialoa\nG\ne\nn\nu\ns\nP\ns\ne\nu\nd\no\nn\ne\ns\nto\nr\nGenus\nHemign\nathu\ns\nGenu\ns Ps\nittir\nostr\na\nA\nB\n\nLiving Environment\u2013June \u201913\n[23]\n[OVER]\nNote: The answers to questions 81 and 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "Which two finches are most closely related?",
+      "choices": [
+        "Lesser Koa finch and Nukupuu",
+        "Akialoa and Ou",
+        "Kauai akialoa and Maui parrot bill",
+        "Ou and Greater Koa finch"
+      ],
+      "image": "/images/exams/living-environment/june-2013/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the information and diagram below and on your \nknowledge of biology.\nThe circled areas in the diagram represent bird species that are in the same genus, a\nclassification group that includes closely related species. These birds are found on the\nHawaiian Islands.\nSource: Biology, 9th Edition, Mader, McGraw-Hill, Boston, MA, 2007, p.313\nLesser\nKoa finch\nPalila\nGreater\nKoa finch\nKona\nfinch\nLaysan\nfinch\nOu\nMaui parrot bill\nAkiapolaau\nNukupuu\nAkialoa\nKauai\nakialoa\nG\ne\nn\nu\ns\nP\ns\ne\nu\nd\no\nn\ne\ns\nto\nr\nGenus\nHemign\nathu\ns\nGenu\ns Ps\nittir\nostr\na\nA\nB\n\nLiving Environment\u2013June \u201913\n[23]\n[OVER]\nNote: The answers to questions 81 and 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "If the Akialoa migrated to an ecosystem occupied by a Greater Koa finch, could both species survive? Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2013/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the information and diagram below and on your \nknowledge of biology.\nThe circled areas in the diagram represent bird species that are in the same genus, a\nclassification group that includes closely related species. These birds are found on the\nHawaiian Islands.\nSource: Biology, 9th Edition, Mader, McGraw-Hill, Boston, MA, 2007, p.313\nLesser\nKoa finch\nPalila\nGreater\nKoa finch\nKona\nfinch\nLaysan\nfinch\nOu\nMaui parrot bill\nAkiapolaau\nNukupuu\nAkialoa\nKauai\nakialoa\nG\ne\nn\nu\ns\nP\ns\ne\nu\nd\no\nn\ne\ns\nto\nr\nGenus\nHemign\nathu\ns\nGenu\ns Ps\nittir\nostr\na\nA\nB\n\nLiving Environment\u2013June \u201913\n[23]\n[OVER]\nNote: The answers to questions 81 and 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify one specific molecule that will increase in concentration in the blood as a result of increased activ- ity of the circulatory system during physical exercise.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Before deciding whether a conclusion was valid or invalid, students looked at the results of the entire class. Explain why the results of the entire class were analyzed, rather than just the results of one individual student. LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

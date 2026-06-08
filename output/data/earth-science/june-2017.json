@@ -1,0 +1,1096 @@
+{
+  "subject": "earth-science",
+  "session": "june-2017",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Evidence that the universe is expanding is best supported by the observation that the wave- lengths of light from distant galaxies are shifted toward the",
+      "choices": [
+        "red end of the spectrum because they are shortened",
+        "red end of the spectrum because they are lengthened",
+        "blue end of the spectrum because they are shortened",
+        "blue end of the spectrum because they are lengthened"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Scientists infer that the Big Bang occurred approximately",
+      "choices": [
+        "4.6 billion years ago",
+        "7 billion years ago",
+        "9 billion years ago",
+        "13.8 billion years ago"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which process produces the largest amount of energy given off by stars?",
+      "choices": [
+        "nuclear fusion of lighter elements into heavier elements",
+        "nuclear fusion of heavier elements into lighter elements",
+        "radioactive decay of lighter elements into heavier elements",
+        "radioactive decay of heavier elements into lighter elements"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which two factors caused the interior layering of Earth and other planets in our solar system during their formation?",
+      "choices": [
+        "cosmic background radiation and density differences",
+        "cosmic background radiation and speci\ufb01 c heat",
+        "gravity and density differences",
+        "gravity and speci\ufb01 c heat"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The map below shows the location of the Chicxulub impact crater, which was formed in the Gulf of Mexico approximately 65.5 million years ago. With an estimated 108-mile diameter, this crater, which is now buried beneath surface crustal rocks, is one of the largest craters on Earth. Gulf of Mexico UNITED STATES MEXICO Buried Chicxulub Crater The asteroid impact that formed this large crater is theorized to have caused",
+      "choices": [
+        "a drop in sea level from the sea water draining into the large crater",
+        "warmer than normal worldwide ocean temperatures from the hot asteroid",
+        "mass extinctions of many species on Earth from extreme climate changes",
+        "an increase in worldwide greenhouse gases from vaporizing crustal rocks"
+      ],
+      "image": "/images/exams/earth-science/june-2017/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The altitude of Polaris measured by an observer at the Tropic of Cancer is",
+      "choices": [
+        "15\u00b0",
+        "23.5\u00b0",
+        "66.5\u00b0",
+        "90\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "During which month does the Sun rise north of due east in New York State?",
+      "choices": [
+        "February",
+        "July",
+        "October",
+        "December"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The graph below shows the change in tide heights of the Hudson River at Newburgh, New York. 0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 12 p.m. 12 a.m. 12 p.m. 12 a.m. Time Tide Height (feet) Tide Heights May 3 May 4 According to the graph, the time difference between high tide and the next low tide is approximately",
+      "choices": [
+        "2 hours",
+        "3 hours",
+        "6 hours",
+        "12 hours"
+      ],
+      "image": "/images/exams/earth-science/june-2017/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "During a rainstorm, water is \ufb02 owing down the side of a hill composed of solid bedrock. What will be the effect on the relative amounts of runoff and in\ufb01 ltration when the water reaches an area of unsaturated soil with a gentler slope?",
+      "choices": [
+        "Runoff will decrease as in\ufb01 ltration decreases.",
+        "Runoff will decrease as in\ufb01 ltration increases.",
+        "Runoff will increase as in\ufb01 ltration decreases.",
+        "Runoff will increase as in\ufb01 ltration increases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "What is the dewpoint when the dry bulb temper- ature is 20\u00b0C and the relative humidity is 17%?",
+      "choices": [
+        "\u20135\u00b0C",
+        "\u20132\u00b0C",
+        "11\u00b0C",
+        "15\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the apparent changes in the direction of swing of a Foucault pendulum. Swing Floor 0 2 4 6 8 hours Apparent change in pendulum swing direction Point of attachment This apparent change in direction of swing provides evidence that Earth",
+      "choices": [
+        "has a spherical shape",
+        "is tilted on its axis",
+        "orbits around the Sun",
+        "turns on its axis"
+      ],
+      "image": "/images/exams/earth-science/june-2017/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which change in the heat energy content of water occurs when water changes phase from a liquid to a solid?",
+      "choices": [
+        "gain of 334 Joules of heat energy per gram",
+        "release of 334 Joules of heat energy per gram",
+        "gain of 2260 Joules of heat energy per gram",
+        "release of 2260 Joules of heat energy per gram"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "What is the primary source of energy for Earth\u2019s weather systems?",
+      "choices": [
+        "incoming solar radiation",
+        "subtropical jet streams",
+        "precipitation from clouds",
+        "heat from Earth\u2019s interior"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a view of Earth from above the North Pole. Points A and B represent locations on Earth\u2019s surface. 90\u00b0 E 90\u00b0 W 180\u00b0 0\u00b0 30\u00b0 E 150\u00b0 E 30\u00b0 W 150\u00b0 W 120\u00b0 E 60\u00b0 E 120\u00b0 W 60\u00b0 W Sun\u2019s rays A B 60\u00b0 30\u00b0 North Pole Locations A and B have the same",
+      "choices": [
+        "latitude and local time",
+        "latitude and elevation",
+        "longitude and local time",
+        "longitude and elevation"
+      ],
+      "image": "/images/exams/earth-science/june-2017/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The diagram below shows an instrument used in weather forecasting. 990 980 970 960 950 940 1050 1040 1030 1020 1010 1060 29.5 in 29 28.5 28 31.5 31 30.5 30 Change Rain Stormy Fair Very dry 1 0 0 0 m b This instrument measures atmospheric",
+      "choices": [
+        "wind speed",
+        "wind direction",
+        "pressure",
+        "temperature"
+      ],
+      "image": "/images/exams/earth-science/june-2017/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The map of North America below shows the posi- tion of the polar front jet stream on January 7, 2014, and the location of Atlanta, Georgia. N P o l a r F r o n t J e t S t r e a m P o l a r F r o n t J e t S t r e a m Atlanta, GA Which type of air mass was most likely located over Atlanta, Georgia?",
+      "choices": [
+        "mT",
+        "mP",
+        "cT",
+        "cP"
+      ],
+      "image": "/images/exams/earth-science/june-2017/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "As altitude increases in the troposphere and stratosphere, the air temperature",
+      "choices": [
+        "decreases in the troposphere and increases in the stratosphere",
+        "decreases in both the troposphere and stratosphere",
+        "increases in the troposphere and decreases in the stratosphere",
+        "increases in both the troposphere and stratosphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which factor causes the surface of Lake Ontario to cool at a slower rate than the surface of the land along the shore of the lake?",
+      "choices": [
+        "Evaporating water releases more heat into the lake than into the land.",
+        "Lake water has a higher speci\ufb01 c heat than land.",
+        "Water vapor cools the lake as it condenses.",
+        "Sunlight passes through the top layers of the lake water."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The map below shows location X in northern India. Indian Ocean Indian Ocean India X Summer monsoon rains normally occur in India when",
+      "choices": [
+        "high pressure exists near location X, pulling moisture in from the Indian Ocean",
+        "high pressure exists near location X, pushing moisture out to the Indian Ocean",
+        "low pressure exists near location X, pulling moisture in from the Indian Ocean",
+        "low pressure exists near location X, pushing moisture out to the Indian Ocean"
+      ],
+      "image": "/images/exams/earth-science/june-2017/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which gas absorbs some of the harmful insolation in Earth\u2019s upper atmosphere before that insolation reaches Earth\u2019s surface?",
+      "choices": [
+        "nitrogen",
+        "ozone",
+        "oxygen",
+        "hydrogen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which ocean current brings warm water to the southeastern coast of Africa?",
+      "choices": [
+        "Agulhas Current",
+        "Benguela Current",
+        "West Australian Current",
+        "Equatorial Countercurrent"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The intensity of insolation at solar noon from November 1 to February 1 in New York State will",
+      "choices": [
+        "decrease, only",
+        "increase, only",
+        "decrease, then increase",
+        "increase, then decrease"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Most scientists infer that a major factor in the increased rate of melting of Earth\u2019s glaciers is",
+      "choices": [
+        "a decrease in the output of energy from the Sun",
+        "a decrease in Earth\u2019s atmospheric transparency",
+        "an increase in Earth\u2019s orbital distance from the Sun",
+        "an increase in carbon dioxide in Earth\u2019s atmosphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "What is the approximate percentage of geologic time that humans have existed on Earth since its origin?",
+      "choices": [
+        "less than 1%",
+        "1.8%",
+        "11.8%",
+        "more than 25%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The photograph below shows the East African Rift Valley in Africa. Which tectonic movement of Earth\u2019s crust is most likely responsible for this feature?",
+      "choices": [
+        "convergence of continental crust",
+        "convergence of oceanic crust",
+        "divergence of continental crust",
+        "divergence of oceanic crust"
+      ],
+      "image": "/images/exams/earth-science/june-2017/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Radioactive dating of fossils and rocks is possible because radioactive isotopes",
+      "choices": [
+        "are found in all fossils and rocks",
+        "are easily collected and measured",
+        "disintegrate into organic substances",
+        "disintegrate at a predictable rate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The photograph below shows the bedrock structure of a limestone outcrop. Which process is responsible for the deformation of this bedrock?",
+      "choices": [
+        "folding",
+        "weathering",
+        "mass movement",
+        "volcanic activity"
+      ],
+      "image": "/images/exams/earth-science/june-2017/q27.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which particles will be transported by a stream moving at a velocity of 5 cm/s?",
+      "choices": [
+        "pebbles, sand, silt, and clay, only",
+        "sand, silt, and clay, only",
+        "silt and clay, only",
+        "clay, only"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The surface bedrock of New York State that is most likely to contain the mineral garnet can be found in an area 30 miles",
+      "choices": [
+        "north of Binghamton",
+        "south of Mt. Marcy",
+        "east of Oswego",
+        "west of Utica"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The geologic cross section below represents surface landscape features that developed in an arid climate. A change in climate to one that is more humid would cause the",
+      "choices": [
+        "shape of the hills to become more rounded",
+        "elevation of the area to become higher",
+        "porosity of the bedrock to increase",
+        "rate of chemical weathering to decrease"
+      ],
+      "image": "/images/exams/earth-science/june-2017/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The cross section below represents an outcrop of sedimentary rock layers exposed on Earth\u2019s surface. Rock layers A, B, C, and D are labeled. B C D A Which rock layer shows the greatest resistance to weathering and erosion?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2017/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The diagrams below represent the compass direction and altitude of the Sun\u2019s rays at noon for a location on Earth on four different dates. S N Sun\u2019s rays March 21 S N Sun\u2019s rays June 21 S N Sun\u2019s rays September 23 S N Sun\u2019s rays December 21 66.5\u00b0 90\u00b0 90\u00b0 66.5\u00b0 What is the latitude of this location?",
+      "choices": [
+        "0\u00b0",
+        "23.5\u00b0 N",
+        "23.5\u00b0 S",
+        "90\u00b0 N"
+      ],
+      "image": "/images/exams/earth-science/june-2017/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The map below shows the present-day positions of the continents. Points A through D represent locations on Earth\u2019s surface. The location of New York State on the North American continent is indicated. D C A New York State B 0\u00b0 0\u00b0 0\u00b0 0\u00b0 Which letter best represents the inferred position of the New York State region on Earth at the end of the Devonian Period?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2017/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The image below shows a spear point embedded in part of a mastodon\u2019s rib bone, found near Seattle, Washington. Spear point Rib bone Scientists infer that early North American humans hunted the mastodon. Carbon-14 dating of the rib bone indicates that 2.4 half-lives have passed since the mastodon was killed. Approximately how many years ago did the mastodon die?",
+      "choices": [
+        "5700",
+        "11,400",
+        "13,700",
+        "17,100"
+      ],
+      "image": "/images/exams/earth-science/june-2017/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The cross section below represents two types of sorted-sand depositional features found at a coastal location. Cross Section of a Coastal Location Sand dunes Water Bedrock Sand bar Sand bar Which table correctly pairs these depositional features with the agents of erosion that formed them? Depositional Feature Agent of Erosion Depositional Feature Agent of Erosion sand dune mass movement sand dune mass movement sand bar wind sand bar glaciers",
+      "choices": [
+        "",
+        "",
+        "Depositional Feature Agent of Erosion Depositional Feature Agent of Erosion sand dune glaciers sand dune wind sand bar waves sand bar waves",
+        ""
+      ],
+      "image": "/images/exams/earth-science/june-2017/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "How many hours (h) of daylight are received at the Arctic Circle when Earth is at position A?",
+      "choices": [
+        "0 h",
+        "12 h",
+        "18 h",
+        "24 h"
+      ],
+      "image": "/images/exams/earth-science/june-2017/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth\u2019s position in its orbit on the \ufb01 rst day of each of the four seasons, one of which is \nlabeled A. The North Pole is labeled N. Earth\u2019s closest distance to the Sun and Earth\u2019s farthest distance from the \nSun are labeled in kilometers.\nSun\n(Not drawn to scale)\nN\nDay\nNight\nN\nN\nNight\nDay\nArctic\nCircle\n147 million km\n152 million km\nN\n \n \n \n \n \nE\nq\nu\na\nt\no\nr\nA",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "When Earth is closest to the Sun, which season is occurring in the Northern Hemisphere?",
+      "choices": [
+        "spring",
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "image": "/images/exams/earth-science/june-2017/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth\u2019s position in its orbit on the \ufb01 rst day of each of the four seasons, one of which is \nlabeled A. The North Pole is labeled N. Earth\u2019s closest distance to the Sun and Earth\u2019s farthest distance from the \nSun are labeled in kilometers.\nSun\n(Not drawn to scale)\nN\nDay\nNight\nN\nN\nNight\nDay\nArctic\nCircle\n147 million km\n152 million km\nN\n \n \n \n \n \nE\nq\nu\na\nt\no\nr\nA",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "What would most likely happen to New York State\u2019s summer and winter temperatures if the tilt of Earth\u2019s axis increased from 23.5\u00b0 to 30\u00b0?",
+      "choices": [
+        "Both the summers and winters would become cooler.",
+        "Both the summers and winters would become warmer.",
+        "The summers would become cooler and the winters would become warmer.",
+        "The summers would become warmer and the winters would become cooler."
+      ],
+      "image": "/images/exams/earth-science/june-2017/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth\u2019s position in its orbit on the \ufb01 rst day of each of the four seasons, one of which is \nlabeled A. The North Pole is labeled N. Earth\u2019s closest distance to the Sun and Earth\u2019s farthest distance from the \nSun are labeled in kilometers.\nSun\n(Not drawn to scale)\nN\nDay\nNight\nN\nN\nNight\nDay\nArctic\nCircle\n147 million km\n152 million km\nN\n \n \n \n \n \nE\nq\nu\na\nt\no\nr\nA",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Capillarity will cause water to rise highest in column",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2017/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the diagrams below and on your knowledge of Earth science. \nThe diagrams represent four columns, labeled A, B, C, and D, that are partially \ufb01 lled with equal volumes of dry, \nsorted sediments. A \ufb01 ne wire mesh screen covers the bottom of each column to prevent the sediment from falling \nout. The lower part of each column has been placed in a beaker of water.\nScreen\nWater\nScreen\nWater\nScreen\nWater\nSmall\npebbles\nLarge\nsand\nMedium\nsand\nWater\nScreen\nA\nB\nC\nD\n(Particles not drawn to scale)\nLarge\nsilt",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "written",
+      "text": "Equal volumes of sediments from all four columns are mixed and poured into a column of water. Which diagram best represents how the sediments will most likely settle? Water level Small pebbles Large sand Medium sand Large silt Water level Small pebbles Large sand Medium sand Large silt Water level Small pebbles Large sand Medium sand Large silt Water level Small pebbles Large sand Medium sand Large silt ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the diagrams below and on your knowledge of Earth science. \nThe diagrams represent four columns, labeled A, B, C, and D, that are partially \ufb01 lled with equal volumes of dry, \nsorted sediments. A \ufb01 ne wire mesh screen covers the bottom of each column to prevent the sediment from falling \nout. The lower part of each column has been placed in a beaker of water.\nScreen\nWater\nScreen\nWater\nScreen\nWater\nSmall\npebbles\nLarge\nsand\nMedium\nsand\nWater\nScreen\nA\nB\nC\nD\n(Particles not drawn to scale)\nLarge\nsilt",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "In outcrop I, which geologic principle is best represented by the rock units?",
+      "choices": [
+        "crosscutting relationships",
+        "correlation",
+        "original horizontality",
+        "inclusion"
+      ],
+      "image": "/images/exams/earth-science/june-2017/context_41_42.png",
+      "context": "Base your answers to questions 41 and 42 on the cross sections below and on your knowledge of Earth science. \nThe cross sections represent two rock outcrops, labeled I and II, located 10 miles apart. Letters A through E and \nnumbers 1 through 8 identify rock units. The rock units have not been overturned.\nB\nC\nD\nE\n1\n2\n3\n5\n4\n6\n7\n8\nOutcrop II\nKey\nIgneous rock\nA\nOutcrop I\nContact\nmetamorphism",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The rock record in outcrop II suggests that an unconformity probably exists in outcrop I between rock units",
+      "choices": [
+        "A and B",
+        "B and C",
+        "C and D",
+        "D and E"
+      ],
+      "image": "/images/exams/earth-science/june-2017/context_41_42.png",
+      "context": "Base your answers to questions 41 and 42 on the cross sections below and on your knowledge of Earth science. \nThe cross sections represent two rock outcrops, labeled I and II, located 10 miles apart. Letters A through E and \nnumbers 1 through 8 identify rock units. The rock units have not been overturned.\nB\nC\nD\nE\n1\n2\n3\n5\n4\n6\n7\n8\nOutcrop II\nKey\nIgneous rock\nA\nOutcrop I\nContact\nmetamorphism",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "How long did it take for the \ufb01 rst P-wave to travel from the epicenter of this earthquake to a seismic station in Trenton, New Jersey?",
+      "choices": [
+        "1 minute 10 seconds",
+        "2 minutes 10 seconds",
+        "3 minutes 20 seconds",
+        "4 minutes 20 seconds"
+      ],
+      "image": "/images/exams/earth-science/june-2017/context_43_44.png",
+      "context": "Base your answers to questions 43 and 44 on the map and table below and on your knowledge of Earth \nscience. The map shows the zones of observed effects reported after a 1944 earthquake that occurred near \nMassena, New York. The isolines on the map are boundaries between zones of observed effects described in the \nModi\ufb01 ed Mercalli Scale table. Four cities are labeled on the map.\nMassena Earthquake, 1944\nAlbany\n0\n100\n200\n300\n400\n500\n600 km\nN\nAtlantic Ocean\n70\u00b0\n75\u00b0\n80\u00b0\nII\n70\u00b0\n75\u00b0\n80\u00b0\n45\u00b0\n40\u00b0\n45\u00b0\n40\u00b0\nEarthquake\nepicenter\nKey\nMontpelier\nTrenton\nVI\nV\nVII\nV\nIV\nIII\nII\nIV\nIII\nVIII\nOttawa\nModi\ufb01 ed Mercalli Scale\nIntensity Value\nDescription of Observed Effects\nI\nUsually detected only by instruments\nII\nFelt by a few persons at rest, especially on upper \ufb02 oors\nIII\nHanging objects swing; vibration like passing of truck; noticeable indoors\nIV\nFelt indoors by many, outdoors by few; sensation like heavy truck striking \nbuilding; parked automobiles sway\nV\nFelt by nearly everyone; sleepers awakened; liquids disturbed; unstable \nobjects overturned; some dishes and windows broken\nVI\nFelt by all; many frightened and run outdoors; some heavy furniture moved; \nglassware broken; books off shelves; damage slight\nVII\nDif\ufb01 cult to stand; noticed in moving automobiles; damage to some \nmasonry; weak chimneys broken at roo\ufb02 ine\nVIII\nPartial collapse of masonry; chimneys, factory stacks, columns fall; heavy \nfurniture overturned; frame houses moved on foundations\n\n P.S./E. Sci.\u2013June \u201917 \n[13] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Based on the Modi\ufb01 ed Mercalli Scale, the darker shading on which map shows the area where the Massena earthquake was felt by nearly everyone? ( 1 ) ( 3 ) ( 2 ) ( 4 ) Albany Atlantic Ocean 70\u00b0 75\u00b0 80\u00b0 II 70\u00b0 75\u00b0 80\u00b0 45\u00b0 40\u00b0 45\u00b0 40\u00b0 Montpelier Albany Atlantic Ocean 70\u00b0 75\u00b0 80\u00b0 II 70\u00b0 75\u00b0 80\u00b0 45\u00b0 40\u00b0 45\u00b0 40\u00b0 Montpelier Albany Atlantic Ocean 70\u00b0 75\u00b0 80\u00b0 II 70\u00b0 75\u00b0 80\u00b0 45\u00b0 40\u00b0 45\u00b0 40\u00b0 Montpelier Albany Atlantic Ocean 70\u00b0 75\u00b0 80\u00b0 II 70\u00b0 75\u00b0 80\u00b0 45\u00b0 40\u00b0 45\u00b0 40\u00b0 Montpelier VI V VII V IV III II IV III VIII VI V VII V IV III II IV III VIII VI V VII V IV III II IV III VIII VI V VII V IV III II IV III VIII Ottawa Ottawa Trenton Ottawa Trenton Trenton Ottawa Trenton",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_43_44.png",
+      "context": "Base your answers to questions 43 and 44 on the map and table below and on your knowledge of Earth \nscience. The map shows the zones of observed effects reported after a 1944 earthquake that occurred near \nMassena, New York. The isolines on the map are boundaries between zones of observed effects described in the \nModi\ufb01 ed Mercalli Scale table. Four cities are labeled on the map.\nMassena Earthquake, 1944\nAlbany\n0\n100\n200\n300\n400\n500\n600 km\nN\nAtlantic Ocean\n70\u00b0\n75\u00b0\n80\u00b0\nII\n70\u00b0\n75\u00b0\n80\u00b0\n45\u00b0\n40\u00b0\n45\u00b0\n40\u00b0\nEarthquake\nepicenter\nKey\nMontpelier\nTrenton\nVI\nV\nVII\nV\nIV\nIII\nII\nIV\nIII\nVIII\nOttawa\nModi\ufb01 ed Mercalli Scale\nIntensity Value\nDescription of Observed Effects\nI\nUsually detected only by instruments\nII\nFelt by a few persons at rest, especially on upper \ufb02 oors\nIII\nHanging objects swing; vibration like passing of truck; noticeable indoors\nIV\nFelt indoors by many, outdoors by few; sensation like heavy truck striking \nbuilding; parked automobiles sway\nV\nFelt by nearly everyone; sleepers awakened; liquids disturbed; unstable \nobjects overturned; some dishes and windows broken\nVI\nFelt by all; many frightened and run outdoors; some heavy furniture moved; \nglassware broken; books off shelves; damage slight\nVII\nDif\ufb01 cult to stand; noticed in moving automobiles; damage to some \nmasonry; weak chimneys broken at roo\ufb02 ine\nVIII\nPartial collapse of masonry; chimneys, factory stacks, columns fall; heavy \nfurniture overturned; frame houses moved on foundations\n\n P.S./E. Sci.\u2013June \u201917 \n[13] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "The last continental ice sheet retreated northward across New York State during which geologic epoch?",
+      "choices": [
+        "Pleistocene",
+        "Pliocene",
+        "Eocene",
+        "Paleocene"
+      ],
+      "image": "/images/exams/earth-science/june-2017/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the passage and map below and on your knowledge of \nEarth science. The map shows glacial features found in Mendon Ponds Park.\nMendon Ponds Park\nMendon Ponds Park, in New York State, is listed in the National Registry of National \nLandmarks due to its outstanding glacial landscape features. Glacial ice that covered \nmost of New York State retreated northward at the end of the last ice age. As this \nglacial ice melted, great amounts of sediments were deposited at the glacier\u2019s southern \nedge. Four glacial features dominate the park\u2019s landscape. Kettles are bowl-shaped \ndepressions formed when buried blocks of glacial ice melt. If the depressions \ufb01 ll with \nwater, they are called kettle lakes. The Mendon Park ponds are all kettle lakes. Eskers \nare ridges of sorted sediments deposited within streams \ufb02 owing beneath the melting \nglacier. Kames are small hills of unsorted sediment deposited at the base of waterfalls \nformed by streams \ufb02 owing over the edge of a melting glacier.\n77\u00b0 34' W\n77\u00b0 33' W\n43\u00b0 02' N\n43\u00b0 01' N\nN\nMendon Ponds Park\nHundred\nAcre Pond\nDeep\nPond\nKettles\nKettle\nEsker\nKame\nLost Pond\nKame\nRound\nLake\nDevil\u2019s\nBathtub\nKame\nKettle\nEsker\nQuaker\nPond\n0\n0.5\n1 mile\nScale\nSwamp\nKey\n\n P.S./E. Sci.\u2013June \u201917 \n[15] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "The cross sections below represent how a present-day glacial landscape feature was formed in Mendon Ponds Park and its appearance at present. Present Day 11,000 Years Ago Outwash sediment Buried ice block Melting glacier Glacial landscape feature Water Which glacial landscape feature is indicated in the present-day cross section?",
+      "choices": [
+        "esker",
+        "kame",
+        "\ufb01 nger lake",
+        "kettle lake"
+      ],
+      "image": "/images/exams/earth-science/june-2017/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the passage and map below and on your knowledge of \nEarth science. The map shows glacial features found in Mendon Ponds Park.\nMendon Ponds Park\nMendon Ponds Park, in New York State, is listed in the National Registry of National \nLandmarks due to its outstanding glacial landscape features. Glacial ice that covered \nmost of New York State retreated northward at the end of the last ice age. As this \nglacial ice melted, great amounts of sediments were deposited at the glacier\u2019s southern \nedge. Four glacial features dominate the park\u2019s landscape. Kettles are bowl-shaped \ndepressions formed when buried blocks of glacial ice melt. If the depressions \ufb01 ll with \nwater, they are called kettle lakes. The Mendon Park ponds are all kettle lakes. Eskers \nare ridges of sorted sediments deposited within streams \ufb02 owing beneath the melting \nglacier. Kames are small hills of unsorted sediment deposited at the base of waterfalls \nformed by streams \ufb02 owing over the edge of a melting glacier.\n77\u00b0 34' W\n77\u00b0 33' W\n43\u00b0 02' N\n43\u00b0 01' N\nN\nMendon Ponds Park\nHundred\nAcre Pond\nDeep\nPond\nKettles\nKettle\nEsker\nKame\nLost Pond\nKame\nRound\nLake\nDevil\u2019s\nBathtub\nKame\nKettle\nEsker\nQuaker\nPond\n0\n0.5\n1 mile\nScale\nSwamp\nKey\n\n P.S./E. Sci.\u2013June \u201917 \n[15] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Based on the map, in which New York State landscape region is Mendon Ponds Park located?",
+      "choices": [
+        "Allegheny Plateau",
+        "Tug Hill Plateau",
+        "Erie-Ontario Lowlands",
+        "Hudson-Mohawk Lowlands"
+      ],
+      "image": "/images/exams/earth-science/june-2017/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the passage and map below and on your knowledge of \nEarth science. The map shows glacial features found in Mendon Ponds Park.\nMendon Ponds Park\nMendon Ponds Park, in New York State, is listed in the National Registry of National \nLandmarks due to its outstanding glacial landscape features. Glacial ice that covered \nmost of New York State retreated northward at the end of the last ice age. As this \nglacial ice melted, great amounts of sediments were deposited at the glacier\u2019s southern \nedge. Four glacial features dominate the park\u2019s landscape. Kettles are bowl-shaped \ndepressions formed when buried blocks of glacial ice melt. If the depressions \ufb01 ll with \nwater, they are called kettle lakes. The Mendon Park ponds are all kettle lakes. Eskers \nare ridges of sorted sediments deposited within streams \ufb02 owing beneath the melting \nglacier. Kames are small hills of unsorted sediment deposited at the base of waterfalls \nformed by streams \ufb02 owing over the edge of a melting glacier.\n77\u00b0 34' W\n77\u00b0 33' W\n43\u00b0 02' N\n43\u00b0 01' N\nN\nMendon Ponds Park\nHundred\nAcre Pond\nDeep\nPond\nKettles\nKettle\nEsker\nKame\nLost Pond\nKame\nRound\nLake\nDevil\u2019s\nBathtub\nKame\nKettle\nEsker\nQuaker\nPond\n0\n0.5\n1 mile\nScale\nSwamp\nKey\n\n P.S./E. Sci.\u2013June \u201917 \n[15] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Which landscape feature is also formed directly by glacial deposition?",
+      "choices": [
+        "drumlin",
+        "delta",
+        "barrier island",
+        "escarpment"
+      ],
+      "image": "/images/exams/earth-science/june-2017/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the passage and map below and on your knowledge of \nEarth science. The map shows glacial features found in Mendon Ponds Park.\nMendon Ponds Park\nMendon Ponds Park, in New York State, is listed in the National Registry of National \nLandmarks due to its outstanding glacial landscape features. Glacial ice that covered \nmost of New York State retreated northward at the end of the last ice age. As this \nglacial ice melted, great amounts of sediments were deposited at the glacier\u2019s southern \nedge. Four glacial features dominate the park\u2019s landscape. Kettles are bowl-shaped \ndepressions formed when buried blocks of glacial ice melt. If the depressions \ufb01 ll with \nwater, they are called kettle lakes. The Mendon Park ponds are all kettle lakes. Eskers \nare ridges of sorted sediments deposited within streams \ufb02 owing beneath the melting \nglacier. Kames are small hills of unsorted sediment deposited at the base of waterfalls \nformed by streams \ufb02 owing over the edge of a melting glacier.\n77\u00b0 34' W\n77\u00b0 33' W\n43\u00b0 02' N\n43\u00b0 01' N\nN\nMendon Ponds Park\nHundred\nAcre Pond\nDeep\nPond\nKettles\nKettle\nEsker\nKame\nLost Pond\nKame\nRound\nLake\nDevil\u2019s\nBathtub\nKame\nKettle\nEsker\nQuaker\nPond\n0\n0.5\n1 mile\nScale\nSwamp\nKey\n\n P.S./E. Sci.\u2013June \u201917 \n[15] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "In the years immediately after each volcanic eruption occurred, average global air temperatures",
+      "choices": [
+        "decreased because volcanic gases and dust blocked insolation",
+        "decreased because molten rock released heat",
+        "increased because volcanic gases and dust blocked insolation",
+        "increased because molten rock released heat"
+      ],
+      "image": "/images/exams/earth-science/june-2017/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the graph below and on your knowledge of Earth science. \nThe graph shows the average global air temperature changes that have occurred since the late 1800s. \nFive volcanoes that experienced major eruptions during this time period are indicated.\nAir Temperature Change (\u00b0C)\n0\n1\n2\n3\n1880\n2000\n1900\n1920\n1940\n1960\n1980\nYear\nAverage Global Air Temperature Changes\n(relative to the late 1800s)\nAir Temperature Change (\u00b0C)\nKrakatau\nSanta Mar\u00eda\nAgung\nEl Chich\u00f3n\nPinatubo\n0\n1\n2\n3",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which conclusion can be made from the data shown in the graph?",
+      "choices": [
+        "Volcanic eruptions occur in a cyclic and predictable pattern.",
+        "Volcanic eruptions have generally increased in strength since the late 1800s.",
+        "Global air temperatures are warmer today than they were in the late 1800s.",
+        "Global air temperatures have had fewer changes since 1950."
+      ],
+      "image": "/images/exams/earth-science/june-2017/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the graph below and on your knowledge of Earth science. \nThe graph shows the average global air temperature changes that have occurred since the late 1800s. \nFive volcanoes that experienced major eruptions during this time period are indicated.\nAir Temperature Change (\u00b0C)\n0\n1\n2\n3\n1880\n2000\n1900\n1920\n1940\n1960\n1980\nYear\nAverage Global Air Temperature Changes\n(relative to the late 1800s)\nAir Temperature Change (\u00b0C)\nKrakatau\nSanta Mar\u00eda\nAgung\nEl Chich\u00f3n\nPinatubo\n0\n1\n2\n3",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify the name of the planet represented in the diagram that has the most eccentric orbit.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a planetary system, discovered in 2013, with seven exoplanets (planets that orbit a star \nother than our Sun) labeled b through h orbiting a star. The exoplanet orbits are represented with solid lines. \nFor comparison, the orbits of three planets of our solar system are shown with dashed lines. The sizes of the star, \nexoplanets, and planets are not drawn to scale.\nh\ng\nf\ne d\nc\nVenus\nEarth\nb\nStar\nKey\nExoplanet orbit\nSolar system\nplanet orbit\nMercury\n(Orbits are drawn to scale.)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "In your answer booklet, circle the type of planet (terrestrial or Jovian) to indicate the classi\ufb01 cation of the three solar system planets shown in the diagram. Describe one characteristic of this type of planet that distinguishes it from the other type of planet.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a planetary system, discovered in 2013, with seven exoplanets (planets that orbit a star \nother than our Sun) labeled b through h orbiting a star. The exoplanet orbits are represented with solid lines. \nFor comparison, the orbits of three planets of our solar system are shown with dashed lines. The sizes of the star, \nexoplanets, and planets are not drawn to scale.\nh\ng\nf\ne d\nc\nVenus\nEarth\nb\nStar\nKey\nExoplanet orbit\nSolar system\nplanet orbit\nMercury\n(Orbits are drawn to scale.)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Identify the letter of the exoplanet with the shortest period of revolution and explain why that exoplanet has the shortest period of revolution.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a planetary system, discovered in 2013, with seven exoplanets (planets that orbit a star \nother than our Sun) labeled b through h orbiting a star. The exoplanet orbits are represented with solid lines. \nFor comparison, the orbits of three planets of our solar system are shown with dashed lines. The sizes of the star, \nexoplanets, and planets are not drawn to scale.\nh\ng\nf\ne d\nc\nVenus\nEarth\nb\nStar\nKey\nExoplanet orbit\nSolar system\nplanet orbit\nMercury\n(Orbits are drawn to scale.)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "On the star chart in your answer booklet, circle the dot that represents the star Polaris.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 56 on the star chart in your answer booklet and on your knowledge \nof Earth science. The star chart shows the approximate locations of the Big Dipper, Little Dipper, and Cassiopeia \nvisible in the night sky from Syracuse, New York, at a particular time of night. The dots represent individual stars. \nDuring the night, these stars appear to move counterclockwise around the star in the center of the chart. Straight \nlines are at 15-degree intervals. The stars Caph, Kochab, and Merak are labeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "On the star chart in your answer booklet, place an X to indicate the location of the star Merak after \ufb01 ve hours have passed.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 56 on the star chart in your answer booklet and on your knowledge \nof Earth science. The star chart shows the approximate locations of the Big Dipper, Little Dipper, and Cassiopeia \nvisible in the night sky from Syracuse, New York, at a particular time of night. The dots represent individual stars. \nDuring the night, these stars appear to move counterclockwise around the star in the center of the chart. Straight \nlines are at 15-degree intervals. The stars Caph, Kochab, and Merak are labeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify the Earth motion that causes the apparent counterclockwise movement of these stars.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/q56.png",
+      "context": "Base your answers to questions 54 through 56 on the star chart in your answer booklet and on your knowledge \nof Earth science. The star chart shows the approximate locations of the Big Dipper, Little Dipper, and Cassiopeia \nvisible in the night sky from Syracuse, New York, at a particular time of night. The dots represent individual stars. \nDuring the night, these stars appear to move counterclockwise around the star in the center of the chart. Straight \nlines are at 15-degree intervals. The stars Caph, Kochab, and Merak are labeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify the group of organisms listed on the data table that was the \ufb01 rst group to exist on Earth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the table below and on your knowledge of Earth science. \nThe table shows how many million years each group of organisms existed on Earth before they became extinct.\nExistence on Earth\nGroup of Organisms\nDuration of Existence\n(million years)\nAmmonoids\n340\nEurypterids\n200\nGraptolites\n195\nPlacoderm \ufb01 sh\n70\nTrilobites\n270",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Identify the name of one speci\ufb01 c index fossil from the eurypterid group that is found in New York State bedrock.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the table below and on your knowledge of Earth science. \nThe table shows how many million years each group of organisms existed on Earth before they became extinct.\nExistence on Earth\nGroup of Organisms\nDuration of Existence\n(million years)\nAmmonoids\n340\nEurypterids\n200\nGraptolites\n195\nPlacoderm \ufb01 sh\n70\nTrilobites\n270",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Identify the type of environment on Earth where all of these groups of organisms appear to have lived.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the table below and on your knowledge of Earth science. \nThe table shows how many million years each group of organisms existed on Earth before they became extinct.\nExistence on Earth\nGroup of Organisms\nDuration of Existence\n(million years)\nAmmonoids\n340\nEurypterids\n200\nGraptolites\n195\nPlacoderm \ufb01 sh\n70\nTrilobites\n270",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify the type of plate boundary represented in the cross sections.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the cross sections below and on your knowledge of Earth \nscience. The cross sections represent three different stages in the development of Denali (Mt. McKinley) and \nthe growth of the North American Plate in Alaska near the boundary with the Paci\ufb01 c Plate. Arrows represent the \ndirection of plate movement.\nFormation of Denali (Mt. McKinley)\nPacific Plate\nNorth American\nPlate\n(Not drawn to scale)\nPacific\nOcean\nInland sea over\nsedimentary rock layers\nStage 1\n100 Million Years Ago:\nSedimentary rocks that would later form\nDenali\u2019s (Mt. McKinley\u2019s) north peak\nbegan as sediments deposited under\nan inland sea.\nPacific Plate\n(Not drawn to scale)\nPacific\nOcean\nStage 2\n56 Million Years Ago:\nMagma rose into the sedimentary rocks.\nThis would later form the granite rock\nmaking up Denali\u2019s (Mt. McKinley\u2019s)\nsouth peak.Tectonic forces continued\nto push up the land surface.\nPacific Plate\n(Not drawn to scale)\nPacific\nOcean\nDenali (Mt. McKinley)\nStage 3\nToday:\nTectonic forces continue to\ncause uplift in the region.\nNorth American\nPlate\nNorth American Plate\nRising magma\nSedimentary rock\nSouth\nNorth\nSouth\nNorth\nSouth\nNorth\nGranite",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "In your answer booklet, circle either volcanic or plutonic to identify the environment of formation of the granite found on Denali (Mt. McKinley). Describe the cooling rate of the magma that produced this granite.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the cross sections below and on your knowledge of Earth \nscience. The cross sections represent three different stages in the development of Denali (Mt. McKinley) and \nthe growth of the North American Plate in Alaska near the boundary with the Paci\ufb01 c Plate. Arrows represent the \ndirection of plate movement.\nFormation of Denali (Mt. McKinley)\nPacific Plate\nNorth American\nPlate\n(Not drawn to scale)\nPacific\nOcean\nInland sea over\nsedimentary rock layers\nStage 1\n100 Million Years Ago:\nSedimentary rocks that would later form\nDenali\u2019s (Mt. McKinley\u2019s) north peak\nbegan as sediments deposited under\nan inland sea.\nPacific Plate\n(Not drawn to scale)\nPacific\nOcean\nStage 2\n56 Million Years Ago:\nMagma rose into the sedimentary rocks.\nThis would later form the granite rock\nmaking up Denali\u2019s (Mt. McKinley\u2019s)\nsouth peak.Tectonic forces continued\nto push up the land surface.\nPacific Plate\n(Not drawn to scale)\nPacific\nOcean\nDenali (Mt. McKinley)\nStage 3\nToday:\nTectonic forces continue to\ncause uplift in the region.\nNorth American\nPlate\nNorth American Plate\nRising magma\nSedimentary rock\nSouth\nNorth\nSouth\nNorth\nSouth\nNorth\nGranite",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "State the average density of the continental crust of the North American Plate and the average density of the oceanic crust of the Paci\ufb01 c Plate.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the cross sections below and on your knowledge of Earth \nscience. The cross sections represent three different stages in the development of Denali (Mt. McKinley) and \nthe growth of the North American Plate in Alaska near the boundary with the Paci\ufb01 c Plate. Arrows represent the \ndirection of plate movement.\nFormation of Denali (Mt. McKinley)\nPacific Plate\nNorth American\nPlate\n(Not drawn to scale)\nPacific\nOcean\nInland sea over\nsedimentary rock layers\nStage 1\n100 Million Years Ago:\nSedimentary rocks that would later form\nDenali\u2019s (Mt. McKinley\u2019s) north peak\nbegan as sediments deposited under\nan inland sea.\nPacific Plate\n(Not drawn to scale)\nPacific\nOcean\nStage 2\n56 Million Years Ago:\nMagma rose into the sedimentary rocks.\nThis would later form the granite rock\nmaking up Denali\u2019s (Mt. McKinley\u2019s)\nsouth peak.Tectonic forces continued\nto push up the land surface.\nPacific Plate\n(Not drawn to scale)\nPacific\nOcean\nDenali (Mt. McKinley)\nStage 3\nToday:\nTectonic forces continue to\ncause uplift in the region.\nNorth American\nPlate\nNorth American Plate\nRising magma\nSedimentary rock\nSouth\nNorth\nSouth\nNorth\nSouth\nNorth\nGranite",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw the 60-inch snowfall isoline. Extend the isoline to the edge of Lake Erie.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows the total amount of snowfall, measured in inches, from a lake-effect snow storm \nthat affected western New York from November 17 through November 21, 2014. The 20-inch and 40-inch \nsnowfall isolines have been drawn. Niagara Falls and Cowlesville are labeled on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Cowlesville, New York, received a total of 88 inches of snow in 85 hours. Calculate the average rate of snowfall in inches per hour (in/h) for Cowlesville.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows the total amount of snowfall, measured in inches, from a lake-effect snow storm \nthat affected western New York from November 17 through November 21, 2014. The 20-inch and 40-inch \nsnowfall isolines have been drawn. Niagara Falls and Cowlesville are labeled on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Describe two actions that people could take to prepare for a forecasted lake-effect snowstorm.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows the total amount of snowfall, measured in inches, from a lake-effect snow storm \nthat affected western New York from November 17 through November 21, 2014. The 20-inch and 40-inch \nsnowfall isolines have been drawn. Niagara Falls and Cowlesville are labeled on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify by number the Moon\u2019s position where a solar eclipse might be observed from Earth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth as viewed from above the North Pole. The nighttime side of Earth and the Moon \nhave been shaded. The Moon is represented in eight positions in its orbit around Earth.\n5\n(Not drawn to scale)\n7\n6\n4\n3\n1\nNorth\nPole\nSun\u2019s \nrays\n8\n2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "The photographs in your answer booklet show the changing appearance of the Moon as viewed from New York State during three consecutive Moon phases. In the space below each photograph, identify the number of the Moon position that matches each of these phases.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth as viewed from above the North Pole. The nighttime side of Earth and the Moon \nhave been shaded. The Moon is represented in eight positions in its orbit around Earth.\n5\n(Not drawn to scale)\n7\n6\n4\n3\n1\nNorth\nPole\nSun\u2019s \nrays\n8\n2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Explain how the Moon\u2019s rotation and revolution cause the same side of the Moon to always face Earth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth as viewed from above the North Pole. The nighttime side of Earth and the Moon \nhave been shaded. The Moon is represented in eight positions in its orbit around Earth.\n5\n(Not drawn to scale)\n7\n6\n4\n3\n1\nNorth\nPole\nSun\u2019s \nrays\n8\n2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "On the map in your answer booklet, place an L to indicate the location of the center of a low-pressure system and place an H to indicate the location of the center of a high-pressure system.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the map in your answer booklet and on your knowledge of \nEarth science. The weather map shows isobars, recorded in millibars (mb).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "A weather station recorded the barometric pressure on a weather station model as shown below. 026 On the map in your answer booklet, place an X to represent a possible location for this weather station.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/q70.png",
+      "context": "Base your answers to questions 69 through 71 on the map in your answer booklet and on your knowledge of \nEarth science. The weather map shows isobars, recorded in millibars (mb).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "The table below lists some weather conditions for another location on this map. Temperature (\u00b0F) Dewpoint (\u00b0F) Precipitation (inches in past 6 hours) Present Weather 76 74 0.85 Rain showers On the weather station model in your answer booklet, using the proper format, record the weather conditions listed in the table.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/q71.png",
+      "context": "Base your answers to questions 69 through 71 on the map in your answer booklet and on your knowledge of \nEarth science. The weather map shows isobars, recorded in millibars (mb).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw a line showing the most likely path of a stream that begins at point X and \ufb02 ows to the edge of the map.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 75 on the topographic map in your answer booklet and on your \nknowledge of Earth science. The map is centered on the peak of New York State\u2019s Slide Mountain at 42\u00b0 North. \nPoints A, B, and X represent locations on the map. Line AB is a reference line on the map. Elevations are shown \nin feet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Determine one possible elevation of point X.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 75 on the topographic map in your answer booklet and on your \nknowledge of Earth science. The map is centered on the peak of New York State\u2019s Slide Mountain at 42\u00b0 North. \nPoints A, B, and X represent locations on the map. Line AB is a reference line on the map. Elevations are shown \nin feet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a topographic pro\ufb01 le along line AB by plotting the elevation of each contour line that crosses line AB. Points A and B have already been plotted. Connect all ten plots with a line, starting at A and ending at B, to complete the pro\ufb01 le.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 75 on the topographic map in your answer booklet and on your \nknowledge of Earth science. The map is centered on the peak of New York State\u2019s Slide Mountain at 42\u00b0 North. \nPoints A, B, and X represent locations on the map. Line AB is a reference line on the map. Elevations are shown \nin feet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Describe one piece of evidence shown on the map that indicates that the northeastern side of Slide Mountain has the steepest slope.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 75 on the topographic map in your answer booklet and on your \nknowledge of Earth science. The map is centered on the peak of New York State\u2019s Slide Mountain at 42\u00b0 North. \nPoints A, B, and X represent locations on the map. Line AB is a reference line on the map. Elevations are shown \nin feet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Complete the line graph in your answer booklet, by plotting the average density for the average percentages of sodium and calcium of each sample shown on the data table. The data for albite and oligoclase have been plotted for you. Connect all six plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the passage and data table below, on the graph in your \nanswer booklet, and on your knowledge of Earth science. The data table shows the average percentages of \nsodium and calcium, and the average densities of samples from each of the six varieties of plagioclase feldspar. \nThe graph in your answer booklet shows the range of sodium and calcium percentages for each of the six varieties \nof plagioclase feldspar.\nPlagioclase Feldspars\nThe plagioclase feldspars are a family of six silicate minerals that are dif\ufb01 cult to tell \napart. They have the same crystal structure, cleavage, and hardness, and can be similar in \ncolor; however, they do differ slightly in chemical composition and density. The general \nchemical composition for plagioclase is (Na,Ca)AlSi3O8. The percentages of sodium \n(Na) and calcium (Ca) vary relative to each other, causing the differences in density. The \nmineral albite is sodium-rich, with little or no calcium, while anorthite is calcium-rich, \nwith little or no sodium. The plagioclase feldspars with higher sodium content are more \nlikely to be found in felsic igneous rocks, while the plagioclase feldspars with higher \ncalcium content are more likely to be found in ma\ufb01 c igneous rocks.\nData Table\nVariety of\nPlagioclase Feldspar\nAverage \nPercentage of \nSodium (%)\nAverage \nPercentage of \nCalcium (%)\nAverage Density\n(g/cm3)\nalbite\n100\n0\n2.63\noligoclase\n80\n20\n2.65\nandesine\n60\n40\n2.67\nlabradorite\n40\n60\n2.69\nbytownite\n20\n80\n2.71\nanorthite\n0\n100\n2.73",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "A sample of plagioclase feldspar was found to have a ratio of 35% sodium to 65% calcium. Based on the graph, state the name of this variety of plagioclase feldspar.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the passage and data table below, on the graph in your \nanswer booklet, and on your knowledge of Earth science. The data table shows the average percentages of \nsodium and calcium, and the average densities of samples from each of the six varieties of plagioclase feldspar. \nThe graph in your answer booklet shows the range of sodium and calcium percentages for each of the six varieties \nof plagioclase feldspar.\nPlagioclase Feldspars\nThe plagioclase feldspars are a family of six silicate minerals that are dif\ufb01 cult to tell \napart. They have the same crystal structure, cleavage, and hardness, and can be similar in \ncolor; however, they do differ slightly in chemical composition and density. The general \nchemical composition for plagioclase is (Na,Ca)AlSi3O8. The percentages of sodium \n(Na) and calcium (Ca) vary relative to each other, causing the differences in density. The \nmineral albite is sodium-rich, with little or no calcium, while anorthite is calcium-rich, \nwith little or no sodium. The plagioclase feldspars with higher sodium content are more \nlikely to be found in felsic igneous rocks, while the plagioclase feldspars with higher \ncalcium content are more likely to be found in ma\ufb01 c igneous rocks.\nData Table\nVariety of\nPlagioclase Feldspar\nAverage \nPercentage of \nSodium (%)\nAverage \nPercentage of \nCalcium (%)\nAverage Density\n(g/cm3)\nalbite\n100\n0\n2.63\noligoclase\n80\n20\n2.65\nandesine\n60\n40\n2.67\nlabradorite\n40\n60\n2.69\nbytownite\n20\n80\n2.71\nanorthite\n0\n100\n2.73",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "A sample of plagioclase feldspar has a mass of 534 grams and a volume of 200 cubic centimeters. State the name of this variety of plagioclase feldspar.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the passage and data table below, on the graph in your \nanswer booklet, and on your knowledge of Earth science. The data table shows the average percentages of \nsodium and calcium, and the average densities of samples from each of the six varieties of plagioclase feldspar. \nThe graph in your answer booklet shows the range of sodium and calcium percentages for each of the six varieties \nof plagioclase feldspar.\nPlagioclase Feldspars\nThe plagioclase feldspars are a family of six silicate minerals that are dif\ufb01 cult to tell \napart. They have the same crystal structure, cleavage, and hardness, and can be similar in \ncolor; however, they do differ slightly in chemical composition and density. The general \nchemical composition for plagioclase is (Na,Ca)AlSi3O8. The percentages of sodium \n(Na) and calcium (Ca) vary relative to each other, causing the differences in density. The \nmineral albite is sodium-rich, with little or no calcium, while anorthite is calcium-rich, \nwith little or no sodium. The plagioclase feldspars with higher sodium content are more \nlikely to be found in felsic igneous rocks, while the plagioclase feldspars with higher \ncalcium content are more likely to be found in ma\ufb01 c igneous rocks.\nData Table\nVariety of\nPlagioclase Feldspar\nAverage \nPercentage of \nSodium (%)\nAverage \nPercentage of \nCalcium (%)\nAverage Density\n(g/cm3)\nalbite\n100\n0\n2.63\noligoclase\n80\n20\n2.65\nandesine\n60\n40\n2.67\nlabradorite\n40\n60\n2.69\nbytownite\n20\n80\n2.71\nanorthite\n0\n100\n2.73",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "State the name of one variety of plagioclase feldspar that is more likely to be found in the igneous rock pegmatite.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the passage and data table below, on the graph in your \nanswer booklet, and on your knowledge of Earth science. The data table shows the average percentages of \nsodium and calcium, and the average densities of samples from each of the six varieties of plagioclase feldspar. \nThe graph in your answer booklet shows the range of sodium and calcium percentages for each of the six varieties \nof plagioclase feldspar.\nPlagioclase Feldspars\nThe plagioclase feldspars are a family of six silicate minerals that are dif\ufb01 cult to tell \napart. They have the same crystal structure, cleavage, and hardness, and can be similar in \ncolor; however, they do differ slightly in chemical composition and density. The general \nchemical composition for plagioclase is (Na,Ca)AlSi3O8. The percentages of sodium \n(Na) and calcium (Ca) vary relative to each other, causing the differences in density. The \nmineral albite is sodium-rich, with little or no calcium, while anorthite is calcium-rich, \nwith little or no sodium. The plagioclase feldspars with higher sodium content are more \nlikely to be found in felsic igneous rocks, while the plagioclase feldspars with higher \ncalcium content are more likely to be found in ma\ufb01 c igneous rocks.\nData Table\nVariety of\nPlagioclase Feldspar\nAverage \nPercentage of \nSodium (%)\nAverage \nPercentage of \nCalcium (%)\nAverage Density\n(g/cm3)\nalbite\n100\n0\n2.63\noligoclase\n80\n20\n2.65\nandesine\n60\n40\n2.67\nlabradorite\n40\n60\n2.69\nbytownite\n20\n80\n2.71\nanorthite\n0\n100\n2.73",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Name one tectonic plate that is interacting with the South American Plate to uplift the Andes Mountains.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_80_83.png",
+      "context": "Base your answers to questions 80 through 83 on the passage and the map of South America below and on \nyour knowledge of Earth science.\nTwo South American Deserts\nSouth America is an excellent example of the in\ufb02 uence that plate tectonic features \nhave on climates. The Andes mountain range, formed by plate tectonics, is on the western \nedge of South America. When prevailing winds come from the southeast, which usually \noccurs between 0\u00b0 and 30\u00b0 S latitudes, rainfall is increased on the eastern side of the \nmountain range. The Atacama Desert lies in the rain shadow (dry area) to the west of \nthe mountains. Farther south, the reverse pattern is found, due to different prevailing \nwinds blowing between 30\u00b0 S and 60\u00b0 S latitudes. The Patagonian Desert lies on the \neastern side of the Andes, between the Andes and the South Atlantic Ocean.\nSouth\nAtlantic\nOcean\n40\u00b0 S\n50\u00b0 W\n40\u00b0 W\n30\u00b0 W\n20\u00b0 W\n60\u00b0 W\n70\u00b0 W\n80\u00b0 W\n90\u00b0 W\n40\u00b0 S\n20\u00b0 S\n0\u00b0\n80\u00b0 W\n70\u00b0 W\n60\u00b0 W\n50\u00b0 W\n40\u00b0 W\n20\u00b0 S\n0\u00b0\nSouth\nPacific\nOcean\nPatagonian\nDesert\nAtacama \nDesert\n30\u00b0 S\n30\u00b0 S\n10\u00b0 S\n10\u00b0 S\n10\u00b0 N\n10\u00b0 N\n\n P.S./E. Sci.\u2013June \u201917 \n[25] \n[OVER]\nGO ON TO THE NEXT PAGE \u00be",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw one arrow in the box located on the Andes Mountains to indicate the surface planetary wind direction that helped produce the Atacama Desert.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_80_83.png",
+      "context": "Base your answers to questions 80 through 83 on the passage and the map of South America below and on \nyour knowledge of Earth science.\nTwo South American Deserts\nSouth America is an excellent example of the in\ufb02 uence that plate tectonic features \nhave on climates. The Andes mountain range, formed by plate tectonics, is on the western \nedge of South America. When prevailing winds come from the southeast, which usually \noccurs between 0\u00b0 and 30\u00b0 S latitudes, rainfall is increased on the eastern side of the \nmountain range. The Atacama Desert lies in the rain shadow (dry area) to the west of \nthe mountains. Farther south, the reverse pattern is found, due to different prevailing \nwinds blowing between 30\u00b0 S and 60\u00b0 S latitudes. The Patagonian Desert lies on the \neastern side of the Andes, between the Andes and the South Atlantic Ocean.\nSouth\nAtlantic\nOcean\n40\u00b0 S\n50\u00b0 W\n40\u00b0 W\n30\u00b0 W\n20\u00b0 W\n60\u00b0 W\n70\u00b0 W\n80\u00b0 W\n90\u00b0 W\n40\u00b0 S\n20\u00b0 S\n0\u00b0\n80\u00b0 W\n70\u00b0 W\n60\u00b0 W\n50\u00b0 W\n40\u00b0 W\n20\u00b0 S\n0\u00b0\nSouth\nPacific\nOcean\nPatagonian\nDesert\nAtacama \nDesert\n30\u00b0 S\n30\u00b0 S\n10\u00b0 S\n10\u00b0 S\n10\u00b0 N\n10\u00b0 N\n\n P.S./E. Sci.\u2013June \u201917 \n[25] \n[OVER]\nGO ON TO THE NEXT PAGE \u00be",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Glaciers are found on some of the mountains in the Andes near the equator. Identify one climate factor that causes the cold temperatures on these mountains.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_80_83.png",
+      "context": "Base your answers to questions 80 through 83 on the passage and the map of South America below and on \nyour knowledge of Earth science.\nTwo South American Deserts\nSouth America is an excellent example of the in\ufb02 uence that plate tectonic features \nhave on climates. The Andes mountain range, formed by plate tectonics, is on the western \nedge of South America. When prevailing winds come from the southeast, which usually \noccurs between 0\u00b0 and 30\u00b0 S latitudes, rainfall is increased on the eastern side of the \nmountain range. The Atacama Desert lies in the rain shadow (dry area) to the west of \nthe mountains. Farther south, the reverse pattern is found, due to different prevailing \nwinds blowing between 30\u00b0 S and 60\u00b0 S latitudes. The Patagonian Desert lies on the \neastern side of the Andes, between the Andes and the South Atlantic Ocean.\nSouth\nAtlantic\nOcean\n40\u00b0 S\n50\u00b0 W\n40\u00b0 W\n30\u00b0 W\n20\u00b0 W\n60\u00b0 W\n70\u00b0 W\n80\u00b0 W\n90\u00b0 W\n40\u00b0 S\n20\u00b0 S\n0\u00b0\n80\u00b0 W\n70\u00b0 W\n60\u00b0 W\n50\u00b0 W\n40\u00b0 W\n20\u00b0 S\n0\u00b0\nSouth\nPacific\nOcean\nPatagonian\nDesert\nAtacama \nDesert\n30\u00b0 S\n30\u00b0 S\n10\u00b0 S\n10\u00b0 S\n10\u00b0 N\n10\u00b0 N\n\n P.S./E. Sci.\u2013June \u201917 \n[25] \n[OVER]\nGO ON TO THE NEXT PAGE \u00be",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Andesite makes up much of the volcanic rock of the Andes Mountains. Name three minerals that are commonly found in a single andesite rock.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_80_83.png",
+      "context": "Base your answers to questions 80 through 83 on the passage and the map of South America below and on \nyour knowledge of Earth science.\nTwo South American Deserts\nSouth America is an excellent example of the in\ufb02 uence that plate tectonic features \nhave on climates. The Andes mountain range, formed by plate tectonics, is on the western \nedge of South America. When prevailing winds come from the southeast, which usually \noccurs between 0\u00b0 and 30\u00b0 S latitudes, rainfall is increased on the eastern side of the \nmountain range. The Atacama Desert lies in the rain shadow (dry area) to the west of \nthe mountains. Farther south, the reverse pattern is found, due to different prevailing \nwinds blowing between 30\u00b0 S and 60\u00b0 S latitudes. The Patagonian Desert lies on the \neastern side of the Andes, between the Andes and the South Atlantic Ocean.\nSouth\nAtlantic\nOcean\n40\u00b0 S\n50\u00b0 W\n40\u00b0 W\n30\u00b0 W\n20\u00b0 W\n60\u00b0 W\n70\u00b0 W\n80\u00b0 W\n90\u00b0 W\n40\u00b0 S\n20\u00b0 S\n0\u00b0\n80\u00b0 W\n70\u00b0 W\n60\u00b0 W\n50\u00b0 W\n40\u00b0 W\n20\u00b0 S\n0\u00b0\nSouth\nPacific\nOcean\nPatagonian\nDesert\nAtacama \nDesert\n30\u00b0 S\n30\u00b0 S\n10\u00b0 S\n10\u00b0 S\n10\u00b0 N\n10\u00b0 N\n\n P.S./E. Sci.\u2013June \u201917 \n[25] \n[OVER]\nGO ON TO THE NEXT PAGE \u00be",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "The slope of the stream in area A is steeper than the slope of the stream in area C. Describe one piece of evidence shown by the block diagrams that supports this statement.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the map and block diagrams below and on your knowledge of \nEarth science. The map shows a stream and its tributaries. Enlarged block diagrams, labeled A, B, and C, indicate \nthe relative widths of \ufb02 oodplains in the rectangular areas along the stream. Points W, X, Y, and Z are locations \non the stream banks.\nNo floodplain\nA\nB\nFloodplain\nW\nX\nZ\nFloodplain\nC\nStream and Its Tributaries\nY\n\n P.S./E. Sci.\u2013June \u201917 \n[27]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "The cross section below represents the shape of the stream channel between W and X. Stream bottom Stream surface W X On the cross section in your answer booklet, draw the shape of the stream bottom between Y and Z. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2017/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the map and block diagrams below and on your knowledge of \nEarth science. The map shows a stream and its tributaries. Enlarged block diagrams, labeled A, B, and C, indicate \nthe relative widths of \ufb02 oodplains in the rectangular areas along the stream. Points W, X, Y, and Z are locations \non the stream banks.\nNo floodplain\nA\nB\nFloodplain\nW\nX\nZ\nFloodplain\nC\nStream and Its Tributaries\nY\n\n P.S./E. Sci.\u2013June \u201917 \n[27]",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -1,0 +1,1106 @@
+{
+  "subject": "chemistry",
+  "session": "august-2015",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which subatomic particles are paired with their charges?",
+      "choices": [
+        "electron\u2013positive, neutron\u2013negative, proton\u2013neutral",
+        "electron\u2013negative, neutron\u2013neutral, proton\u2013positive",
+        "electron\u2013negative, neutron\u2013positive, proton\u2013neutral",
+        "electron\u2013neutral, neutron\u2013positive, proton\u2013negative"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "In the ground state, an atom of which element has two valence electrons?",
+      "choices": [
+        "Cr",
+        "Cu",
+        "Ni",
+        "Se"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The atoms in a sample of an element are in excited states. A bright-line spectrum is produced when these atoms",
+      "choices": [
+        "absorb energy",
+        "absorb positrons",
+        "emit energy",
+        "emit positrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which statement describes a concept included in the wave-mechanical model of the atom?",
+      "choices": [
+        "Positrons are located in shells outside the nucleus.",
+        "Neutrons are located in shells outside the nucleus.",
+        "Protons are located in orbitals outside the nucleus.",
+        "Electrons are located in orbitals outside the nucleus."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "All elements on the modern Periodic Table are arranged in order of increasing",
+      "choices": [
+        "atomic mass",
+        "molar mass",
+        "number of neutrons per atom",
+        "number of protons per atom"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "At STP, which substance is a noble gas?",
+      "choices": [
+        "ammonia",
+        "chlorine",
+        "neon",
+        "nitrogen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "At STP, oxygen exists in two forms, O2(g) and O3(g). These two forms of oxygen have",
+      "choices": [
+        "different molecular structures and different properties",
+        "different molecular structures and the same properties",
+        "the same molecular structure and different properties",
+        "the same molecular structure and the same properties"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which statement describes a chemical property of sodium?",
+      "choices": [
+        "Sodium has a melting point of 371 K.",
+        "Sodium has a molar mass of 23 grams.",
+        "Sodium can conduct electricity in the liquid phase.",
+        "Sodium can combine with chlorine to produce a salt."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which term identifies a type of chemical reaction?",
+      "choices": [
+        "decomposition",
+        "distillation",
+        "sublimation",
+        "vaporization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Based on Table S, an atom of which element has the weakest attraction for electrons in a chemical bond?",
+      "choices": [
+        "polonium",
+        "sulfur",
+        "selenium",
+        "tellurium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation: F2 \u0002 energy \u2192F \u0002 F Which statement describes what occurs during this reaction?",
+      "choices": [
+        "Energy is absorbed as a bond is formed.",
+        "Energy is absorbed as a bond is broken.",
+        "Energy is released as a bond is formed.",
+        "Energy is released as a bond is broken."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which atoms will bond when valence electrons are transferred from one atom to the other?",
+      "choices": [
+        "O and Se",
+        "O and Sr",
+        "O and H",
+        "O and P"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which sample of matter is a mixture?",
+      "choices": [
+        "Br2(\u2113)",
+        "K(s)",
+        "KBr(s)",
+        "KBr(aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "According to kinetic molecular theory, collisions between gas particles in a sample of an ideal gas",
+      "choices": [
+        "increase the energy content of the gas sample",
+        "produce strong attractive forces between the gas particles",
+        "result in a net loss of energy by the gas sample",
+        "transfer energy between the gas particles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which substance can not be broken down by a chemical change?",
+      "choices": [
+        "ethane",
+        "propanone",
+        "silicon",
+        "water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The temperature of a sample of matter is a measure of the",
+      "choices": [
+        "average potential energy of the particles of the sample",
+        "average kinetic energy of the particles of the sample",
+        "total nuclear energy of the sample",
+        "total thermal energy of the sample"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Under which conditions of temperature and pressure does a real gas behave most like an ideal gas?",
+      "choices": [
+        "37 K and 1 atm",
+        "37 K and 8 atm",
+        "347 K and 1 atm",
+        "347 K and 8 atm"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The ratio of chromium to iron to carbon varies among the different types of stainless steel. Therefore, stainless steel is classified as",
+      "choices": [
+        "a compound",
+        "an element",
+        "a mixture",
+        "a substance"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which statement explains why increasing the temperature increases the rate of a chemical reaction, while other conditions remain the same?",
+      "choices": [
+        "The reacting particles have less energy and collide less frequently.",
+        "The reacting particles have less energy and collide more frequently.",
+        "The reacting particles have more energy and collide less frequently.",
+        "The reacting particles have more energy and collide more frequently."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "An open flask is half filled with water at 25\u00b0C. Phase equilibrium can be reached after",
+      "choices": [
+        "more water is added to the flask",
+        "the flask is stoppered",
+        "the temperature is decreased to 15\u00b0C",
+        "the temperature is increased to 35\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which formula represents an unsaturated organic compound?",
+      "choices": [
+        "CH4",
+        "C2H4",
+        "C3H8",
+        "C4H10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "All isomers of octane have the same",
+      "choices": [
+        "molecular formula",
+        "structural formula",
+        "physical properties",
+        "IUPAC name"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which formula represents a hydrocarbon?",
+      "choices": [
+        "CH3I",
+        "CH3NH2",
+        "CH3CH3",
+        "CH3OH"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "In a redox reaction, the number of electrons lost is equal to the number of",
+      "choices": [
+        "protons lost",
+        "neutrons lost",
+        "neutrons gained",
+        "electrons gained"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "At which electrode does oxidation occur in a voltaic cell and in an electrolytic cell?",
+      "choices": [
+        "the anode in a voltaic cell and the cathode in an electrolytic cell",
+        "the cathode in a voltaic cell and the anode in an electrolytic cell",
+        "the anode in both a voltaic cell and an electrolytic cell",
+        "the cathode in both a voltaic cell and an electrolytic cell"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Based on the Arrhenius theory, when potassium hydroxide dissolves in water, the only negative ion in the aqueous solution is",
+      "choices": [
+        "O2\u0003 (aq)\ufffc",
+        "OH2\u0003 (aq)\ufffc",
+        "H\u0003 (aq)",
+        "OH\u0003 (aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Compared to distilled water, an aqueous salt solution has",
+      "choices": [
+        "better electrical conductivity",
+        "poorer electrical conductivity",
+        "a lower boiling point at standard pressure",
+        "a higher freezing point at standard pressure"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "According to one acid-base theory, water can act as a base because a water molecule can",
+      "choices": [
+        "donate an H\u0002 ion",
+        "accept an H\u0002 ion",
+        "donate an H\u0003 ion",
+        "accept an H\u0003 ion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Compared to the half-life and decay mode of the nuclide 90Sr, the nuclide 226Ra has",
+      "choices": [
+        "a longer half-life and the same decay mode",
+        "a longer half-life and a different decay mode",
+        "a shorter half-life and the same decay mode",
+        "a shorter half-life and a different decay mode"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which net change occurs in a nuclear fusion reaction?",
+      "choices": [
+        "Ionic bonds are broken.",
+        "Ionic bonds are formed.",
+        "Energy is converted to mass.",
+        "Mass is converted to energy."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which conclusion was drawn from the results of the gold foil experiment?",
+      "choices": [
+        "An atom is electrically neutral.",
+        "An atom is mostly empty space.",
+        "The nucleus of an atom is negatively charged.",
+        "The electrons in an atom are located in specific shells."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Which electron configuration represents an atom of magnesium in an excited state?",
+      "choices": [
+        "2\u20137\u20133",
+        "2\u20137\u20136",
+        "2\u20138\u20132",
+        "2\u20138\u20135"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which group on the Periodic Table has elements with atoms that tend not to bond with atoms of other elements?",
+      "choices": [
+        "Group 1",
+        "Group 2",
+        "Group 17",
+        "Group 18"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which group on the Periodic Table has at least one element in each of the three phases of matter at STP?",
+      "choices": [
+        "1",
+        "2",
+        "17",
+        "18"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Rubidium and cesium have similar chemical properties because, in the ground state, the atoms of both elements each have",
+      "choices": [
+        "one electron in the outermost shell",
+        "two electrons in the outermost shell",
+        "one neutron in the nucleus",
+        "two neutrons in the nucleus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "As the first five elements in Group 15 are considered in order of increasing atomic number, first ionization energy",
+      "choices": [
+        "decreases",
+        "increases",
+        "decreases, then increases",
+        "increases, then decreases"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which substance in the table below has the strongest intermolecular forces?",
+      "choices": [
+        "HF",
+        "HCl",
+        "HBr",
+        "HI"
+      ],
+      "image": "/images/exams/chemistry/august-2015/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which ion in the ground state has the same electron configuration as an atom of argon in the ground state?",
+      "choices": [
+        "A13\u0002",
+        "O2\u0003",
+        "K\u0002",
+        "F\u0003"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "What is the number of pairs of electrons shared in a molecule of N2?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "6 Substance Molar Mass (g/mol) Boiling Point (kelvins) HF 20.01 293 HCl 36.46 188 HBr 80.91 207 HI 127.91 237"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which statement explains why a C\u2013O bond is more polar than a F\u2013O bond?",
+      "choices": [
+        "At STP, carbon has a greater density than fluorine.",
+        "A carbon atom has more valence electrons than a fluorine atom.",
+        "The difference in electronegativity between carbon and oxygen is greater than that between fluorine and oxygen.",
+        "The difference in first ionization energy between carbon and oxygen is greater than that between fluorine and oxygen."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "A mixture consists of sand and an aqueous salt solution. Which procedure can be used to separate the sand, salt, and water from each other?",
+      "choices": [
+        "Evaporate the water, then filter out the salt.",
+        "Evaporate the water, then filter out the sand.",
+        "Filter out the salt, then evaporate the water.",
+        "Filter out the sand, then evaporate the water."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "An aqueous solution has a mass of 490 grams containing 8.5 \u0004 10\u00033 gram of calcium ions. The concentration of calcium ions in this solution is",
+      "choices": [
+        "4.3 ppm",
+        "8.5 ppm",
+        "17 ppm",
+        "34 ppm"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "A sample of hydrogen gas at 2.0 atmospheres and 273 K occupies a volume of 5.0 liters. The gas sample is completely transferred to a 10.0-liter sealed, rigid container. What is the new pressure of the gas sample when the temperature returns to 273 K?",
+      "choices": [
+        "1.0 atm",
+        "2.0 atm",
+        "3.0 atm",
+        "4.0 atm"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Given the equation for a system at equilibrium: N2(g) \u0002 3H2(g) \u21cc2NH3(g) \u0002 energy If only the concentration of N2(g) is increased, the concentration of",
+      "choices": [
+        "NH3(g) increases",
+        "NH3(g) remains the same",
+        "H2(g) increases",
+        "H2(g) remains the same"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "A hydrocarbon molecule has seven carbon atoms in a straight chain. There is a double bond between the third carbon atom and the fourth carbon atom in the chain. The IUPAC name for this hydrocarbon is",
+      "choices": [
+        "3-heptyne",
+        "4-heptyne",
+        "3-heptene",
+        "4-heptene"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: Which type of reaction is represented by this equation?",
+      "choices": [
+        "addition",
+        "fermentation",
+        "polymerization",
+        "substitution"
+      ],
+      "image": "/images/exams/chemistry/august-2015/q46.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Given the diagram representing an incomplete electrochemical cell: Solid copper will be deposited on one of the carbon electrodes when the wires are connected to",
+      "choices": [
+        "each other",
+        "a battery",
+        "a switch",
+        "a voltmeter"
+      ],
+      "image": "/images/exams/chemistry/august-2015/q47.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "What is the volume of 0.30 M NaOH(aq) needed to completely neutralize 15.0 milliliters of 0.80 M HCl(aq)?",
+      "choices": [
+        "3.6 mL",
+        "5.6 mL",
+        "20. mL",
+        "40. mL Wire Wire Carbon electrode Carbon electrode CuCl2(aq) H F C C H F H H H H H H C C F2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which equation represents a spontaneous transmutation?",
+      "choices": [
+        "Ca(s) \u0002 2H2O(\u2113) \u2192Ca(OH)2(aq) \u0002 H2(g)",
+        "2KClO3(s) \u21922KCl(s) \u0002 3O2(g)",
+        "239 94Pu \u0002 21 0n \u2192241 95Am \u0002 0 \u00031e",
+        "37 20Ca \u219237 19K \u0002 0 \u00021 e"
+      ],
+      "image": "/images/exams/chemistry/august-2015/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which particle has two neutrons?",
+      "choices": [
+        "1 0n",
+        "1 1H",
+        "2 1H",
+        "4 2He\ufffc"
+      ],
+      "image": "/images/exams/chemistry/august-2015/q50.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Determine the vapor pressure of ethanol at 90.\u00b0C.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Explain, in terms of particle arrangement, why a sample of solid NaCl has less entropy than a sample of aqueous NaCl.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Determine the molecular formula for a compound that has the empirical formula CH2O and a molar mass of 120. grams per mole.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "A student drew the Lewis electron-dot diagram below to represent sodium chloride. Explain why this diagram is not an accurate representation for the bonding in NaCl.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2015/q54.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Given the formula for heptanal: Determine the gram-formula mass of heptanal.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2015/q55.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Compare the mass of a proton to the mass of an electron.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "In nature, 1.07% of the atoms in a carbon sample are C-13 atoms. In the space in your answer booklet, show a numerical setup for calculating the number of C-13 atoms in a sample containing 3.28 \u0004 1024 atoms of carbon. H H H C C H H H H C H H C H C H H C H H C O Cl Na",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Determine the boiling point of the sample at standard pressure.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2015/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the information below and on your knowledge of chemistry.\nA sample of a substance is a liquid at 65\u00b0C. The sample is heated uniformly to 125\u00b0C.\nThe heating curve for the sample at standard pressure is shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "State what happens to the potential energy of the particles of the sample during time interval BC.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2015/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the information below and on your knowledge of chemistry.\nA sample of a substance is a liquid at 65\u00b0C. The sample is heated uniformly to 125\u00b0C.\nThe heating curve for the sample at standard pressure is shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Write a name of the positive ion present in this sample.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 and 61 on the information below and on your knowledge of chemistry.\nA sample of nitric acid contains both H3O\u0002 ions and NO3\n\u0003 ions. This sample has a pH\nvalue of 1.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "What is the color of methyl orange after it is added to this sample? Time (min) A B C D 65 80. 95 110. 125 Heating Curve",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 and 61 on the information below and on your knowledge of chemistry.\nA sample of nitric acid contains both H3O\u0002 ions and NO3\n\u0003 ions. This sample has a pH\nvalue of 1.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Explain, in terms of both reactants and products, why the reaction represented by the nuclear equation is a fission reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nOne fission reaction for U-235 is represented by the balanced nuclear equation below.\n235\n92U \u0002 1\n0n \u2192140\n54Xe \u0002 94\n38Sr \u0002 21\n0n\nBoth radioisotopes produced by this fission reaction undergo beta decay. The half-life\nof Xe-140 is 13.6 seconds and the half-life of Sr-94 is 1.25 minutes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Complete the equation in your answer booklet for the decay of Xe-140 by writing a notation for the missing product.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nOne fission reaction for U-235 is represented by the balanced nuclear equation below.\n235\n92U \u0002 1\n0n \u2192140\n54Xe \u0002 94\n38Sr \u0002 21\n0n\nBoth radioisotopes produced by this fission reaction undergo beta decay. The half-life\nof Xe-140 is 13.6 seconds and the half-life of Sr-94 is 1.25 minutes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Determine the time required for an original 24.0-gram sample of Sr-94 to decay until only 1.5 grams of the sample remains unchanged.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nOne fission reaction for U-235 is represented by the balanced nuclear equation below.\n235\n92U \u0002 1\n0n \u2192140\n54Xe \u0002 94\n38Sr \u0002 21\n0n\nBoth radioisotopes produced by this fission reaction undergo beta decay. The half-life\nof Xe-140 is 13.6 seconds and the half-life of Sr-94 is 1.25 minutes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw an arrow to represent the path of an emitted beta particle in the electric field between two oppositely charged metal plates.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nOne fission reaction for U-235 is represented by the balanced nuclear equation below.\n235\n92U \u0002 1\n0n \u2192140\n54Xe \u0002 94\n38Sr \u0002 21\n0n\nBoth radioisotopes produced by this fission reaction undergo beta decay. The half-life\nof Xe-140 is 13.6 seconds and the half-life of Sr-94 is 1.25 minutes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Determine the percent composition by mass of antimony in stibnite (gram-formula mass \u0005 340. g/mol).",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2015/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nThe two naturally occurring isotopes of antimony are Sb-121 and Sb-123. The table\nbelow shows the atomic mass and percent natural abundance for these isotopes.\nNaturally Occurring Isotopes of Antimony\nAntimony and sulfur are both found in the mineral stibnite, Sb2S3. To obtain antimony,\nstibnite is roasted (heated in air), producing oxides of antimony and sulfur. The unbalanced\nequation below represents one of the reactions that occurs during the roasting.\nSb2S3(s) \u0002 O2(g) \u2192Sb2O3(s) \u0002 SO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "In the space in your answer booklet, show a correct numerical setup for calculating the atomic mass of antimony.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2015/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nThe two naturally occurring isotopes of antimony are Sb-121 and Sb-123. The table\nbelow shows the atomic mass and percent natural abundance for these isotopes.\nNaturally Occurring Isotopes of Antimony\nAntimony and sulfur are both found in the mineral stibnite, Sb2S3. To obtain antimony,\nstibnite is roasted (heated in air), producing oxides of antimony and sulfur. The unbalanced\nequation below represents one of the reactions that occurs during the roasting.\nSb2S3(s) \u0002 O2(g) \u2192Sb2O3(s) \u0002 SO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Complete the balancing of the equation in your answer booklet for the roasting of stibnite, using the smallest whole-number coefficients. Isotope Atomic Mass (u) Natural Abundance (%) Sb-121 120.90 57 Sb-123 122.90 43",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2015/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nThe two naturally occurring isotopes of antimony are Sb-121 and Sb-123. The table\nbelow shows the atomic mass and percent natural abundance for these isotopes.\nNaturally Occurring Isotopes of Antimony\nAntimony and sulfur are both found in the mineral stibnite, Sb2S3. To obtain antimony,\nstibnite is roasted (heated in air), producing oxides of antimony and sulfur. The unbalanced\nequation below represents one of the reactions that occurs during the roasting.\nSb2S3(s) \u0002 O2(g) \u2192Sb2O3(s) \u0002 SO2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Identify two types of bonds in the solute.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2015/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nIn a laboratory investigation, ammonium chloride was dissolved in water. Laboratory\nprocedures and corresponding observations made by a student during the investigation are\nshown in the table below.\nDissolving NH4Cl(s) in H2O(\u2113)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State evidence from the investigation that indicates the NH4Cl(aq) solution is saturated.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2015/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nIn a laboratory investigation, ammonium chloride was dissolved in water. Laboratory\nprocedures and corresponding observations made by a student during the investigation are\nshown in the table below.\nDissolving NH4Cl(s) in H2O(\u2113)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "State evidence from the investigation that indicates the process of dissolving the NH4Cl(s) in water is endothermic.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2015/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nIn a laboratory investigation, ammonium chloride was dissolved in water. Laboratory\nprocedures and corresponding observations made by a student during the investigation are\nshown in the table below.\nDissolving NH4Cl(s) in H2O(\u2113)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "State the observation that would be made if procedure 3 is repeated with the original temperature of the H2O(\u2113) at 98\u00b0C. Procedure Observation 1. Measure the temperature of 10.0 milliliters (10.0 grams) of H2O(\u2113) in a test tube. 1. The temperature of the H2O(\u2113) was 25.8\u00b0C. 2. Add 5.0 grams of the solute, NH4Cl(s), to the H2O(\u2113). 2. The NH4Cl(s) settled to the bottom of the test tube. 3. Stir the contents of the test tube for 4 minutes. 3. A small amount of NH4Cl(s) remained at the bottom of the test tube. 4. Measure the temperature of the NH4Cl(aq) solution. 4. The temperature of the solution was 11.2\u00b0C.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2015/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nIn a laboratory investigation, ammonium chloride was dissolved in water. Laboratory\nprocedures and corresponding observations made by a student during the investigation are\nshown in the table below.\nDissolving NH4Cl(s) in H2O(\u2113)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "In your answer booklet, use the key to draw at least five particles in the box to represent the phase of the product.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 and 74 on the information below and on your knowledge of chemistry.\nCoal is a fuel consisting primarily of carbon. In an open system, the carbon that burns\ncompletely in air produces carbon dioxide and heat. This reaction is represented by the \nbalanced equation below.\nC(s) \u0002 O2(g) \u2192CO2(g) \u0002 heat",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "On the potential energy diagram in your answer booklet, draw a double-headed arrow (\u0002) to indicate the interval that represents the heat of reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 and 74 on the information below and on your knowledge of chemistry.\nCoal is a fuel consisting primarily of carbon. In an open system, the carbon that burns\ncompletely in air produces carbon dioxide and heat. This reaction is represented by the \nbalanced equation below.\nC(s) \u0002 O2(g) \u2192CO2(g) \u0002 heat",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "State, in terms of freezing point, why sodium chloride is part of the mixture put on icy roads.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 and 76 on the information below and on your knowledge of chemistry.\nDuring the winter months, icy roads pose a threat to motorists and can lead to \naccidents. A mixture of sand and sodium chloride, NaCl, can be spread on roads to make\nwinter driving safer.\nOne New York town requires that a mixture of sand and salt used on \nresidential roads should contain 25% or less of NaCl by mass. A 10.0-gram sample of a \nmixture of sand and NaCl was analyzed and found to contain 3.3 grams of NaCl.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Explain, in terms of composition by mass, why the mixture from which the analyzed sample was taken should not be used on residential roads of the town.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 and 76 on the information below and on your knowledge of chemistry.\nDuring the winter months, icy roads pose a threat to motorists and can lead to \naccidents. A mixture of sand and sodium chloride, NaCl, can be spread on roads to make\nwinter driving safer.\nOne New York town requires that a mixture of sand and salt used on \nresidential roads should contain 25% or less of NaCl by mass. A 10.0-gram sample of a \nmixture of sand and NaCl was analyzed and found to contain 3.3 grams of NaCl.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify the compound produced that is insoluble in water.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 and 78 on the information below and on your knowledge of chemistry.\nIn a laboratory investigation, a solution that contains 13.2 grams of Pb(NO3)2 reacts\ncompletely with a solution that contains 12.0 grams of NaI, producing 18.4 grams of PbI2\nand an undetermined mass of a second product, NaNO3. This reaction is represented by\nthe balanced equation below.\nPb(NO3)2 \u0002 2NaI \u2192PbI2 \u0002 2NaNO3",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Determine the mass of NaNO3 produced.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 and 78 on the information below and on your knowledge of chemistry.\nIn a laboratory investigation, a solution that contains 13.2 grams of Pb(NO3)2 reacts\ncompletely with a solution that contains 12.0 grams of NaI, producing 18.4 grams of PbI2\nand an undetermined mass of a second product, NaNO3. This reaction is represented by\nthe balanced equation below.\nPb(NO3)2 \u0002 2NaI \u2192PbI2 \u0002 2NaNO3",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Write the name of the class of organic compound to which both geraniol and linalool belong.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2015/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the information below and on your knowledge of chemistry.\nTwo organic compounds, geraniol and linalool, can be represented by the molecular \nformula C10H18O. Geraniol has an odor similar to the scent of roses and linalool has an odor\nsimilar to the scent of citrus fruits. Both compounds are nearly insoluble in water. The\nstructural formulas of geraniol and linalool are shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Explain, in terms of molecular polarity, why geraniol and linalool are nearly insoluble in water.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2015/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the information below and on your knowledge of chemistry.\nTwo organic compounds, geraniol and linalool, can be represented by the molecular \nformula C10H18O. Geraniol has an odor similar to the scent of roses and linalool has an odor\nsimilar to the scent of citrus fruits. Both compounds are nearly insoluble in water. The\nstructural formulas of geraniol and linalool are shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Complete the equation in your answer booklet by writing the formula of the missing product.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 and 82 on the information below and on your knowledge of chemistry.\nThe gastric juice of the human stomach has a pH value of approximately 1.5.\nHydrochloric acid in the gastric juice is necessary for the digestion process. However, excess\nhydrochloric acid may harm the stomach lining. One type of antacid uses Mg(OH)2(s) to\nneutralize excess hydrochloric acid in the stomach. This neutralization is represented by the\nincomplete equation below.\nMg(OH)2(s) \u0002 2HCl(aq) \u2192___ (aq) \u0002 2H2O(\u2113)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Describe the changes in both the hydrogen ion concentration and the pH of the gastric juice of a human after ingesting this type of antacid. C C H C H H C H C H H C H H H C H H H C H H C H C H H OH C C H C H H C H C H H C H H H C H H H C H H C C OH H H H Geraniol Linalool",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 and 82 on the information below and on your knowledge of chemistry.\nThe gastric juice of the human stomach has a pH value of approximately 1.5.\nHydrochloric acid in the gastric juice is necessary for the digestion process. However, excess\nhydrochloric acid may harm the stomach lining. One type of antacid uses Mg(OH)2(s) to\nneutralize excess hydrochloric acid in the stomach. This neutralization is represented by the\nincomplete equation below.\nMg(OH)2(s) \u0002 2HCl(aq) \u2192___ (aq) \u0002 2H2O(\u2113)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "State why early scientists classified the reaction represented by equation 1 as oxidation.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nEarly scientists defined oxidation as a chemical reaction in which oxygen combined with\nanother element to produce an oxide of the element. An example of oxidation based on this\ndefinition is the combustion of methane. This reaction is represented by the balanced \nequation below.\nEquation 1: CH4(g) \u0002 2O2(g) \u2192CO2(g) \u0002 2H2O(g)\nThe definition of oxidation has since been expanded to include many reactions that do\nnot involve oxygen.  An example of oxidation based on this expanded definition is the \nreaction between magnesium ribbon and powdered sulfur when heated in a crucible. This\nreaction is represented by the balanced equation below.\nEquation 2: Mg(s) \u0002 S(s) \u2192MgS(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Determine the change in oxidation number of carbon in equation 1.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nEarly scientists defined oxidation as a chemical reaction in which oxygen combined with\nanother element to produce an oxide of the element. An example of oxidation based on this\ndefinition is the combustion of methane. This reaction is represented by the balanced \nequation below.\nEquation 1: CH4(g) \u0002 2O2(g) \u2192CO2(g) \u0002 2H2O(g)\nThe definition of oxidation has since been expanded to include many reactions that do\nnot involve oxygen.  An example of oxidation based on this expanded definition is the \nreaction between magnesium ribbon and powdered sulfur when heated in a crucible. This\nreaction is represented by the balanced equation below.\nEquation 2: Mg(s) \u0002 S(s) \u2192MgS(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Write a balanced half-reaction equation for the oxidation that occurs in the reaction represented by equation 2. P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nEarly scientists defined oxidation as a chemical reaction in which oxygen combined with\nanother element to produce an oxide of the element. An example of oxidation based on this\ndefinition is the combustion of methane. This reaction is represented by the balanced \nequation below.\nEquation 1: CH4(g) \u0002 2O2(g) \u2192CO2(g) \u0002 2H2O(g)\nThe definition of oxidation has since been expanded to include many reactions that do\nnot involve oxygen.  An example of oxidation based on this expanded definition is the \nreaction between magnesium ribbon and powdered sulfur when heated in a crucible. This\nreaction is represented by the balanced equation below.\nEquation 2: Mg(s) \u0002 S(s) \u2192MgS(s)",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

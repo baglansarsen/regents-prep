@@ -1,0 +1,1101 @@
+{
+  "subject": "chemistry",
+  "session": "august-2017",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which phrase describes an Al atom?",
+      "choices": [
+        "a negatively charged nucleus, surrounded by negatively charged electrons",
+        "a negatively charged nucleus, surrounded by positively charged electrons",
+        "a positively charged nucleus, surrounded by negatively charged electrons",
+        "a positively charged nucleus, surrounded by positively charged electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "What is the number of electrons in an atom that has 20 protons and 17 neutrons?",
+      "choices": [
+        "37",
+        "20",
+        "3",
+        "17"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The mass of a proton is approximately equal to the mass of",
+      "choices": [
+        "an electron",
+        "a neutron",
+        "an alpha particle",
+        "a beta particle"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "When a sample of CO2(s) becomes CO2(g), there is a change in",
+      "choices": [
+        "bond type",
+        "gram-formula mass",
+        "molecular polarity",
+        "particle arrangement"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which properties are characteristic of Group 2 elements at STP?",
+      "choices": [
+        "good electrical conductivity and electro- negativities less than 1.7",
+        "good electrical conductivity and electro- negativities greater than 1.7",
+        "poor electrical conductivity and electro- negativities less than 1.7",
+        "poor electrical conductivity and electro- negativities greater than 1.7"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Compared to an atom of C-12, an atom of C-14 has a greater",
+      "choices": [
+        "number of electrons",
+        "number of protons",
+        "atomic number",
+        "mass number"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Elements that have atoms with stable valence electron configurations in the ground state are found in",
+      "choices": [
+        "Group 1",
+        "Group 8",
+        "Group 11",
+        "Group 18"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A magnesium atom that loses two electrons becomes a",
+      "choices": [
+        "positive ion with a smaller radius",
+        "negative ion with a smaller radius",
+        "positive ion with a larger radius",
+        "negative ion with a larger radius"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "An atom of which element has the strongest attraction for the electrons in a bond?",
+      "choices": [
+        "aluminum",
+        "carbon",
+        "chlorine",
+        "lithium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which type of matter can not be broken down into simpler substances by a chemical change?",
+      "choices": [
+        "an element",
+        "a solution",
+        "a mixture",
+        "a compound"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "According to Table F, which substance is most soluble in water?",
+      "choices": [
+        "AgCl",
+        "CaCO3",
+        "Na2CO3",
+        "SrSO4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: H \u0002 H \u2192H2 Which statement describes the energy change in this reaction?",
+      "choices": [
+        "A bond is broken as energy is absorbed.",
+        "A bond is broken as energy is released.",
+        "A bond is formed as energy is absorbed.",
+        "A bond is formed as energy is released."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which sample of matter is a mixture?",
+      "choices": [
+        "air",
+        "ammonia",
+        "manganese",
+        "water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Paper chromatography can separate the components of a mixture of colored dyes because the components have differences in",
+      "choices": [
+        "decay mode",
+        "thermal conductivity",
+        "ionization energy",
+        "molecular polarity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "At standard pressure, the boiling point of an unsaturated NaNO3(aq) solution increases when",
+      "choices": [
+        "the solution is diluted with water",
+        "some of the NaNO3(aq) solution is removed",
+        "the solution is stirred",
+        "more NaNO3(s) is dissolved in the solution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which term identifies a form of energy?",
+      "choices": [
+        "combustion",
+        "exothermic",
+        "thermal",
+        "electrolytic"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "According to kinetic molecular theory, which statement describes one characteristic of an ideal gas system?",
+      "choices": [
+        "The distance between gas molecules is smaller than the diameter of one gas molecule.",
+        "The attractive force between two gas molecules is strong.",
+        "The energy of the system decreases as gas molecules collide.",
+        "The straight-line motion of the gas molecules is constant and random."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The temperature of a substance is a measure of the",
+      "choices": [
+        "average kinetic energy of its particles",
+        "average potential energy of its particles",
+        "ionization energy of its particles",
+        "activation energy of its particles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "A real gas behaves most like an ideal gas at",
+      "choices": [
+        "low pressure and high temperature",
+        "low pressure and low temperature",
+        "high pressure and high temperature",
+        "high pressure and low temperature"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A reaction is most likely to occur when the colliding particles have proper orientation and",
+      "choices": [
+        "mass",
+        "volume",
+        "half-life",
+        "energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "At STP, a 12.0-liter sample of CH4(g) has the same total number of molecules as",
+      "choices": [
+        "6.0 L of H2(g) at STP",
+        "12.0 L of CO2(g) at STP",
+        "18.0 L of HCl(g) at STP",
+        "24.0 L of O2(g) at STP"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "At standard pressure, during which physical change does the potential energy decrease?",
+      "choices": [
+        "liquid to gas",
+        "liquid to solid",
+        "solid to gas",
+        "solid to liquid"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which equation represents a chemical equilibrium?",
+      "choices": [
+        "N2(\u2113) \u21ccN2(g)",
+        "2NO2(g) \u21ccN2O4(g)",
+        "CO2(s) \u21ccCO2(g)",
+        "NH3(\u2113) \u21ccNH3(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The amount of randomness of the atoms in a system is an indication of the",
+      "choices": [
+        "entropy of the system",
+        "polarity of the system",
+        "excited state of the atoms",
+        "ground state of the atoms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "When a sample of Ca(s) loses 1 mole of electrons in a reaction with a sample of O2(g), the oxygen",
+      "choices": [
+        "loses 1 mole of electrons",
+        "loses 2 moles of electrons",
+        "gains 1 mole of electrons",
+        "gains 2 moles of electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which reaction occurs at the anode of an electrochemical cell?",
+      "choices": [
+        "oxidation",
+        "reduction",
+        "neutralization",
+        "transmutation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which substance is an electrolyte?",
+      "choices": [
+        "CCl4",
+        "C6H12O6",
+        "SiO2",
+        "H2SO4"
+      ],
+      "image": "/images/exams/chemistry/august-2017/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "In which process does a heavy nucleus split into two lighter nuclei?",
+      "choices": [
+        "titration",
+        "fission",
+        "electrolysis",
+        "neutralization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which process converts mass into energy?",
+      "choices": [
+        "distillation of ethanol",
+        "filtration of a mixture",
+        "fusion of hydrogen atoms",
+        "ionization of cesium atoms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which radioisotope is used to determine the age of once-living organisms?",
+      "choices": [
+        "carbon-14",
+        "cobalt-60",
+        "iodine-131",
+        "uranium-238"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which electron configuration represents the electrons in an atom of calcium in an excited state?",
+      "choices": [
+        "2\u20138\u20138",
+        "2\u20138\u20138\u20132",
+        "2\u20137\u20138\u20131",
+        "2\u20137\u20138\u20133"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The table below gives the atomic mass and the abundance of the two naturally occurring isotopes of bromine. Naturally Occurring Isotopes of Bromine Which numerical setup can be used to calculate the atomic mass of the element bromine?",
+      "choices": [
+        "(78.92 u)(50.69) \u0002 (80.92 u)(49.31)",
+        "(78.92 u)(49.31) \u0002 (80.92 u)(50.69)",
+        "(78.92 u)(0.5069) \u0002 (80.92 u)(0.4931)",
+        "(78.92 u)(0.4931) \u0002 (80.92 u)(0.5069)"
+      ],
+      "image": "/images/exams/chemistry/august-2017/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Given the formulas of two substances: These diagrams represent substances that have",
+      "choices": [
+        "the same molecular structure and the same physical properties",
+        "the same molecular structure and different physical properties",
+        "different molecular structures and the same physical properties",
+        "different molecular structures and different physical properties"
+      ],
+      "image": "/images/exams/chemistry/august-2017/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "What is the chemical formula of titanium(II) oxide?",
+      "choices": [
+        "TiO",
+        "Ti2O",
+        "TiO2",
+        "Ti2O3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which equation shows conservation of mass and energy for a reaction at 101.3 kPa and 298 K?",
+      "choices": [
+        "2H2(g) \u0002 O2(g) \u21922H2O(g) \u0002 483.6 kJ",
+        "2H2(g) \u0002 O2(g) \u21922H2O(\u2113) \u0002 285.8 kJ",
+        "H2(g) \u0002 O2(g) \u2192H2O(g) \u0002 483.6 kJ",
+        "H2(g) \u0002 O2(g) \u2192H2O(\u2113) \u0002 285.8 kJ"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which two particle diagrams each represent a sample of one substance?",
+      "choices": [
+        "I and II",
+        "I and III",
+        "II and III",
+        "II and IV Key = atom of oxygen = atom of hydrogen = atom of chlorine I II III IV O O O O O Isotopes Atomic Mass (u) Natural Abundance (%) Br-79 78.92 50.69 Br-81 80.92 49.31"
+      ],
+      "image": "/images/exams/chemistry/august-2017/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "According to Table G, which substance forms an unsaturated solution when 80. grams of the substance are stirred into 100. grams of H2O at 10.\u00b0C?",
+      "choices": [
+        "KNO3",
+        "KI",
+        "NH3",
+        "NaCl"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "What is the concentration of AgCl in an aqueous solution that contains 1.2 \u0003 10\u00043 gram of AgCl in 800. grams of the solution?",
+      "choices": [
+        "1.2 ppm",
+        "1.5 ppm",
+        "7.2 ppm",
+        "9.6 ppm"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "A sample of gas is in a rigid cylinder with a movable piston. The pressure of the gas is kept constant. If the Kelvin temperature of the gas is doubled, the volume of the gas is",
+      "choices": [
+        "halved",
+        "doubled",
+        "tripled",
+        "unchanged"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "What is the amount of heat required to completely melt a 200.-gram sample of H2O(s) at STP?",
+      "choices": [
+        "334 J",
+        "836 J",
+        "66 800 J",
+        "452 000 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "As a 15.1-gram sample of a metal absorbs 48.75 J of heat, its temperature increases 25.0 K. What is the specific heat capacity of the metal?",
+      "choices": [
+        "0.129 J/g\u2022K",
+        "1.95 J/g\u2022K",
+        "3.23 J/g\u2022K",
+        "7.74 J/g\u2022K"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Given the formula: What is a chemical name of this compound?",
+      "choices": [
+        "propane",
+        "propanal",
+        "propanol",
+        "propanone"
+      ],
+      "image": "/images/exams/chemistry/august-2017/q42.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: Which type of reaction is represented by this equation?",
+      "choices": [
+        "addition",
+        "esterification",
+        "polymerization",
+        "substitution"
+      ],
+      "image": "/images/exams/chemistry/august-2017/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Atoms of which element react spontaneously with Mg2\u0002(aq)?",
+      "choices": [
+        "chromium",
+        "barium",
+        "iron",
+        "zinc"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "In a titration, 5.0 mL of a 2.0 M NaOH(aq) solution exactly neutralizes 10.0 mL of an HCl(aq) solution. What is the concentration of the HCl(aq) solution?",
+      "choices": [
+        "1.0 M",
+        "2.0 M",
+        "10. M",
+        "20. M"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction at equilibrium: NH3(g) \u0002 H2O(\u2113) \u21ccNH4 \u0002(aq) \u0002 OH\u0004(aq) If an acid is defined as an H\u0002 donor, what is the acid in the forward reaction?",
+      "choices": [
+        "OH\u0004(aq)",
+        "H2O(\u2113)",
+        "NH3(g)",
+        "NH4 \u0002(aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Compared to a solution with a pH value of 7, a solution with a thousand times greater hydronium ion concentration has a pH value of",
+      "choices": [
+        "10",
+        "7",
+        "3",
+        "4 \u0002 \u0003 \u0002 \u0002 \u0002 \u0002 \u0003\u0004 \u0003 \u0002 \u0002 \u0003\u0004 \u0003\u0004 \u0003\u0004 \u0002 H H C H C H H C H O"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Which Lewis electron-dot diagram represents the bonding in potassium iodide?",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/q48.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The table below shows properties of two compounds at standard pressure. Selected Properties of Two Compounds Which statement classifies the two compounds?",
+      "choices": [
+        "Both compounds are ionic.",
+        "Both compounds are molecular.",
+        "Compound 1 is ionic, and compound 2 is molecular.",
+        "Compound 1 is molecular, and compound 2 is ionic."
+      ],
+      "image": "/images/exams/chemistry/august-2017/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Given two balanced equations, each representing a reaction: Equation 1: 88 226Ra \u2192 86 222Rn \u0002 2 4He \u0002 4.8 \u0003 108 kJ Equation 2: C3H8 \u0002 5O2 \u21923CO2 \u0002 4H2O \u0002 2.2 \u0003 103 kJ Which statement compares the energy terms in these two equations?",
+      "choices": [
+        "Equation 1 shows 2.2 \u0003 105 times more energy being absorbed.",
+        "Equation 2 shows 2.2 \u0003 105 times more energy being absorbed.",
+        "Equation 1 shows 2.2 \u0003 105 times more energy being released.",
+        "Equation 2 shows 2.2 \u0003 105 times more energy being released. Compound Melting Point (\u00b0C) Boiling Point (\u00b0C) Electrical Conductivity 1 775 1935 good as a liquid or in an aqueous solution 2 \u0004112.1 46 poor as a liquid ( 1 ) K+ I \u2013 ( 2 ) + I \u2013 K ( 4 ) I K ( 3 ) I K"
+      ],
+      "image": "/images/exams/chemistry/august-2017/q50.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State the type of chemical bond between a hydrogen atom and the nitrogen atom in the molecule.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_51_52.png",
+      "context": "Base your answers to questions 51 and 52 on the information below and on your knowledge of chemistry.\nThe formula below represents a molecule of butanamide.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Explain, in terms of charge distribution, why a molecule of butanamide is polar.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_51_52.png",
+      "context": "Base your answers to questions 51 and 52 on the information below and on your knowledge of chemistry.\nThe formula below represents a molecule of butanamide.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Compare the rate of the forward reaction to the rate of the reverse reaction at equilibrium.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 53 and 54 on the information below and on your knowledge of chemistry.\nAn equilibrium system in a sealed, rigid container is represented by the equation below.\nCO(g) \u0002 H2O(g) \u21ccCO2(g) \u0002 H2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "State the effect on the concentrations of H2O(g) and CO2(g) when more H2(g) is added to the system. H H C C H C H H H C N H H H O",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 53 and 54 on the information below and on your knowledge of chemistry.\nAn equilibrium system in a sealed, rigid container is represented by the equation below.\nCO(g) \u0002 H2O(g) \u21ccCO2(g) \u0002 H2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify the phase of the chlorine at STP.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the information below and on your knowledge of chemistry.\nThe table below contains selected information about chlorine and two compounds \ncontaining chlorine. One piece of information is missing for each of the substances in the\ntable.\nChlorine and Two Compounds Containing Chlorine",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Determine the molar mass for calcium chloride.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the information below and on your knowledge of chemistry.\nThe table below contains selected information about chlorine and two compounds \ncontaining chlorine. One piece of information is missing for each of the substances in the\ntable.\nChlorine and Two Compounds Containing Chlorine",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "The liquid compound has an empirical formula of CHCl. Write the molecular formula for this compound.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the information below and on your knowledge of chemistry.\nThe table below contains selected information about chlorine and two compounds \ncontaining chlorine. One piece of information is missing for each of the substances in the\ntable.\nChlorine and Two Compounds Containing Chlorine",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Explain, in terms of electrons, why the compound containing calcium and chlorine is classified as an ionic compound.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the information below and on your knowledge of chemistry.\nThe table below contains selected information about chlorine and two compounds \ncontaining chlorine. One piece of information is missing for each of the substances in the\ntable.\nChlorine and Two Compounds Containing Chlorine",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Explain, in terms of chemical bonds, why the hydrocarbon is unsaturated.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_59_60.png",
+      "context": "Base your answers to questions 59 and 60 on the information below and on your knowledge of chemistry.\nThe equation below represents the reaction between 2-methylpropene and hydrogen\nchloride gas.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify the class of organic compounds to which the product belongs. C H H H C H C H C H H HCl H H H C H C Cl C H H C H H H H Name Formula Molar Mass (g/mol) Phase at STP chlorine Cl2 71 ? calcium chloride CaCl2 ? solid 1,2-dichloroethene ? 97 liquid",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_59_60.png",
+      "context": "Base your answers to questions 59 and 60 on the information below and on your knowledge of chemistry.\nThe equation below represents the reaction between 2-methylpropene and hydrogen\nchloride gas.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Identify the triad that contains a metalloid.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_61_65.png",
+      "context": "Base your answers to questions 61 through 65 on the information below and on your knowledge of chemistry.\nMany scientists made observations of the elements that led to the modern Periodic\nTable. In 1829, Dobereiner found groups of three elements that have similar properties and\ncalled each of these groups a triad. Dobereiner noticed a relationship between the atomic\nmasses of the elements in each triad. Triad 1, shown in the table below, consists of sulfur,\nselenium, and tellurium. The middle element, selenium, has an atomic mass that is close to\nthe sum of the atomic masses of sulfur and tellurium, divided by 2.\nFor example: \n\u0005 80. u, which is close to the 79 u value in the table. \nThe other triads shown in the table below demonstrate the same mathematical relationship.\nDobereiner\u2019s Triads",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Explain, in terms of electrons, why the elements in triad 2 have similar chemical properties.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_61_65.png",
+      "context": "Base your answers to questions 61 through 65 on the information below and on your knowledge of chemistry.\nMany scientists made observations of the elements that led to the modern Periodic\nTable. In 1829, Dobereiner found groups of three elements that have similar properties and\ncalled each of these groups a triad. Dobereiner noticed a relationship between the atomic\nmasses of the elements in each triad. Triad 1, shown in the table below, consists of sulfur,\nselenium, and tellurium. The middle element, selenium, has an atomic mass that is close to\nthe sum of the atomic masses of sulfur and tellurium, divided by 2.\nFor example: \n\u0005 80. u, which is close to the 79 u value in the table. \nThe other triads shown in the table below demonstrate the same mathematical relationship.\nDobereiner\u2019s Triads",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "State the trend in first ionization energy as the elements in triad 3 are considered in order of increasing atomic number.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_61_65.png",
+      "context": "Base your answers to questions 61 through 65 on the information below and on your knowledge of chemistry.\nMany scientists made observations of the elements that led to the modern Periodic\nTable. In 1829, Dobereiner found groups of three elements that have similar properties and\ncalled each of these groups a triad. Dobereiner noticed a relationship between the atomic\nmasses of the elements in each triad. Triad 1, shown in the table below, consists of sulfur,\nselenium, and tellurium. The middle element, selenium, has an atomic mass that is close to\nthe sum of the atomic masses of sulfur and tellurium, divided by 2.\nFor example: \n\u0005 80. u, which is close to the 79 u value in the table. \nThe other triads shown in the table below demonstrate the same mathematical relationship.\nDobereiner\u2019s Triads",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Compare the volume of a 100.-gram sample of the first element in triad 4 to the volume of a 100.-gram sample of the third element in triad 4 when both samples are at room temperature.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_61_65.png",
+      "context": "Base your answers to questions 61 through 65 on the information below and on your knowledge of chemistry.\nMany scientists made observations of the elements that led to the modern Periodic\nTable. In 1829, Dobereiner found groups of three elements that have similar properties and\ncalled each of these groups a triad. Dobereiner noticed a relationship between the atomic\nmasses of the elements in each triad. Triad 1, shown in the table below, consists of sulfur,\nselenium, and tellurium. The middle element, selenium, has an atomic mass that is close to\nthe sum of the atomic masses of sulfur and tellurium, divided by 2.\nFor example: \n\u0005 80. u, which is close to the 79 u value in the table. \nThe other triads shown in the table below demonstrate the same mathematical relationship.\nDobereiner\u2019s Triads",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Show a numerical setup that demonstrates Dobereiner\u2019s mathematical relationship for triad 2. 32 128 2 u u \u0002 Triad Triad Dobereiner\u2019s Atomic Masses (u) 1 sulfur selenium tellurium 32 79 128 2 calcium strontium barium 40. 88 137 3 chlorine bromine iodine 35.5 80. 127 4 lithium sodium potassium 7 23 39",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_61_65.png",
+      "context": "Base your answers to questions 61 through 65 on the information below and on your knowledge of chemistry.\nMany scientists made observations of the elements that led to the modern Periodic\nTable. In 1829, Dobereiner found groups of three elements that have similar properties and\ncalled each of these groups a triad. Dobereiner noticed a relationship between the atomic\nmasses of the elements in each triad. Triad 1, shown in the table below, consists of sulfur,\nselenium, and tellurium. The middle element, selenium, has an atomic mass that is close to\nthe sum of the atomic masses of sulfur and tellurium, divided by 2.\nFor example: \n\u0005 80. u, which is close to the 79 u value in the table. \nThe other triads shown in the table below demonstrate the same mathematical relationship.\nDobereiner\u2019s Triads",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "State evidence from the equation that this reaction is exothermic.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nWood is mainly cellulose, a polymer produced by plants. One use of wood is as a fuel in\ncampfires, fireplaces, and wood furnaces. The molecules of cellulose are long chains of\nrepeating units. Each unit of the chain can be represented as C6H10O5. The balanced \nequation below represents a reaction that occurs when C6H10O5 is burned in air.\nC6H10O5 \u0002 6O2 \u21926CO2 \u0002 5H2O \u0002 heat",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Explain, in terms of substances in the reaction, why the equation represents a chemical change.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nWood is mainly cellulose, a polymer produced by plants. One use of wood is as a fuel in\ncampfires, fireplaces, and wood furnaces. The molecules of cellulose are long chains of\nrepeating units. Each unit of the chain can be represented as C6H10O5. The balanced \nequation below represents a reaction that occurs when C6H10O5 is burned in air.\nC6H10O5 \u0002 6O2 \u21926CO2 \u0002 5H2O \u0002 heat",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the percent composition by mass of carbon in C6H10O5 (gram-formula mass \u0005 162.1 g/mol).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nWood is mainly cellulose, a polymer produced by plants. One use of wood is as a fuel in\ncampfires, fireplaces, and wood furnaces. The molecules of cellulose are long chains of\nrepeating units. Each unit of the chain can be represented as C6H10O5. The balanced \nequation below represents a reaction that occurs when C6H10O5 is burned in air.\nC6H10O5 \u0002 6O2 \u21926CO2 \u0002 5H2O \u0002 heat",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Balance equation 1 in your answer booklet, using the smallest whole-number coefficients.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nMillions of tons of ammonia are produced each year for use as fertilizer to increase food\nproduction. Most of the hydrogen needed to produce ammonia comes from methane gas\nreacting with steam. This reaction, which occurs in a container under controlled conditions,\nis shown below in unbalanced equation 1.\nEquation 1:  CH4(g) \u0002 H2O(g) \u0002 energy \u2192CO(g) \u0002 H2(g) \nThe reaction that produces ammonia is represented by balanced equation 2, shown below.\nA catalyst can be used to increase the rate of the reaction.\nEquation 2:  N2(g) \u0002 3H2(g) \u21922NH3(g) \u0002 energy\nA potential energy diagram for equation 2 is shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Explain, in terms of collision theory, why an increase in temperature increases the rate of reaction between methane gas and steam.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nMillions of tons of ammonia are produced each year for use as fertilizer to increase food\nproduction. Most of the hydrogen needed to produce ammonia comes from methane gas\nreacting with steam. This reaction, which occurs in a container under controlled conditions,\nis shown below in unbalanced equation 1.\nEquation 1:  CH4(g) \u0002 H2O(g) \u0002 energy \u2192CO(g) \u0002 H2(g) \nThe reaction that produces ammonia is represented by balanced equation 2, shown below.\nA catalyst can be used to increase the rate of the reaction.\nEquation 2:  N2(g) \u0002 3H2(g) \u21922NH3(g) \u0002 energy\nA potential energy diagram for equation 2 is shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "State what is represented by interval A on the potential energy diagram.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nMillions of tons of ammonia are produced each year for use as fertilizer to increase food\nproduction. Most of the hydrogen needed to produce ammonia comes from methane gas\nreacting with steam. This reaction, which occurs in a container under controlled conditions,\nis shown below in unbalanced equation 1.\nEquation 1:  CH4(g) \u0002 H2O(g) \u0002 energy \u2192CO(g) \u0002 H2(g) \nThe reaction that produces ammonia is represented by balanced equation 2, shown below.\nA catalyst can be used to increase the rate of the reaction.\nEquation 2:  N2(g) \u0002 3H2(g) \u21922NH3(g) \u0002 energy\nA potential energy diagram for equation 2 is shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Determine the number of moles of hydrogen gas required to react completely with 50.0 moles of nitrogen gas in the production of ammonia. A Potential Energy Reaction Coordinate P.S./",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nMillions of tons of ammonia are produced each year for use as fertilizer to increase food\nproduction. Most of the hydrogen needed to produce ammonia comes from methane gas\nreacting with steam. This reaction, which occurs in a container under controlled conditions,\nis shown below in unbalanced equation 1.\nEquation 1:  CH4(g) \u0002 H2O(g) \u0002 energy \u2192CO(g) \u0002 H2(g) \nThe reaction that produces ammonia is represented by balanced equation 2, shown below.\nA catalyst can be used to increase the rate of the reaction.\nEquation 2:  N2(g) \u0002 3H2(g) \u21922NH3(g) \u0002 energy\nA potential energy diagram for equation 2 is shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Identify the element in diethyl ether that allows it to be classified as an organic compound.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_73_77.png",
+      "context": "Base your answers to questions 73 through 77 on the information below and on your knowledge of \nchemistry.\nDiethyl ether is used as a laboratory and industrial solvent. The boiling point of diethyl\nether at standard pressure is 34.6\u00b0C. The equation below represents a reaction that \nproduces diethyl ether.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "State the number of electrons shared between the carbon atoms in one molecule of the organic reactant.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_73_77.png",
+      "context": "Base your answers to questions 73 through 77 on the information below and on your knowledge of \nchemistry.\nDiethyl ether is used as a laboratory and industrial solvent. The boiling point of diethyl\nether at standard pressure is 34.6\u00b0C. The equation below represents a reaction that \nproduces diethyl ether.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "State why the reaction is classified as a synthesis reaction.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_73_77.png",
+      "context": "Base your answers to questions 73 through 77 on the information below and on your knowledge of \nchemistry.\nDiethyl ether is used as a laboratory and industrial solvent. The boiling point of diethyl\nether at standard pressure is 34.6\u00b0C. The equation below represents a reaction that \nproduces diethyl ether.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Explain, in terms of the strength of intermolecular forces, why the boiling point of diethyl ether at standard pressure is lower than the boiling point of water at standard pressure.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_73_77.png",
+      "context": "Base your answers to questions 73 through 77 on the information below and on your knowledge of \nchemistry.\nDiethyl ether is used as a laboratory and industrial solvent. The boiling point of diethyl\nether at standard pressure is 34.6\u00b0C. The equation below represents a reaction that \nproduces diethyl ether.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Draw a structural formula for an isomer of the product that has the same functional group. H2O catalyst C H H H H H C H H H C C H H O H H H H C C H H H H C C",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_73_77.png",
+      "context": "Base your answers to questions 73 through 77 on the information below and on your knowledge of \nchemistry.\nDiethyl ether is used as a laboratory and industrial solvent. The boiling point of diethyl\nether at standard pressure is 34.6\u00b0C. The equation below represents a reaction that \nproduces diethyl ether.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Explain, in terms of energy, why this cell is an electrolytic cell.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of \nchemistry.\nThe electrolysis of brine, a concentrated aqueous sodium chloride solution, produces\nthree important industrial chemicals: chlorine gas, hydrogen gas, and sodium hydroxide.\nThe diagram and equation below represent a brine electrolysis cell. Before the battery is\nconnected, the pH value of the brine solution is 7.0.\n2NaCl(aq) \u0002 2H2O(\u2113) \u2192Cl2(g) \u0002 H2(g) \u0002 2NaOH(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Explain, in terms of ions, why the aqueous solution in the cell conducts an electric current.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of \nchemistry.\nThe electrolysis of brine, a concentrated aqueous sodium chloride solution, produces\nthree important industrial chemicals: chlorine gas, hydrogen gas, and sodium hydroxide.\nThe diagram and equation below represent a brine electrolysis cell. Before the battery is\nconnected, the pH value of the brine solution is 7.0.\n2NaCl(aq) \u0002 2H2O(\u2113) \u2192Cl2(g) \u0002 H2(g) \u0002 2NaOH(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "State the oxidation number of oxygen in the aqueous product.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of \nchemistry.\nThe electrolysis of brine, a concentrated aqueous sodium chloride solution, produces\nthree important industrial chemicals: chlorine gas, hydrogen gas, and sodium hydroxide.\nThe diagram and equation below represent a brine electrolysis cell. Before the battery is\nconnected, the pH value of the brine solution is 7.0.\n2NaCl(aq) \u0002 2H2O(\u2113) \u2192Cl2(g) \u0002 H2(g) \u0002 2NaOH(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Compare the pH value of the solution before the battery is connected to the pH value of the solution after the cell operates for 20 minutes. Battery + \u2013 H2(g) Cathode (\u2013) Cl2(g) Anode (+) Brine Cl _ Na+ H+ OH _",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of \nchemistry.\nThe electrolysis of brine, a concentrated aqueous sodium chloride solution, produces\nthree important industrial chemicals: chlorine gas, hydrogen gas, and sodium hydroxide.\nThe diagram and equation below represent a brine electrolysis cell. Before the battery is\nconnected, the pH value of the brine solution is 7.0.\n2NaCl(aq) \u0002 2H2O(\u2113) \u2192Cl2(g) \u0002 H2(g) \u0002 2NaOH(aq)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Determine the number of neutrons in an atom of Pb-214.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of \nchemistry.\nThe isotope Rn-222 is produced by the decay of uranium in Earth\u2019s crust. Some of this\nisotope leaks into basements of homes in areas where the ground is more porous. An atom\nof Rn-222 decays to an atom of Pb-206 through a series of steps as shown on the graph\nbelow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Complete the nuclear equation in your answer booklet for the decay of Po-218 by writing a notation for the missing product.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of \nchemistry.\nThe isotope Rn-222 is produced by the decay of uranium in Earth\u2019s crust. Some of this\nisotope leaks into basements of homes in areas where the ground is more porous. An atom\nof Rn-222 decays to an atom of Pb-206 through a series of steps as shown on the graph\nbelow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Determine the fraction of an original sample of Rn-222 that remains unchanged after 7.646 days.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of \nchemistry.\nThe isotope Rn-222 is produced by the decay of uranium in Earth\u2019s crust. Some of this\nisotope leaks into basements of homes in areas where the ground is more porous. An atom\nof Rn-222 decays to an atom of Pb-206 through a series of steps as shown on the graph\nbelow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Explain, in terms of elements, why the decay of Bi-210 is considered a transmutation. Mass Number 214 218 222 210 206 84 86 82 Atomic Number 85 83 202 Decay Series of Rn-222 P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2017/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of \nchemistry.\nThe isotope Rn-222 is produced by the decay of uranium in Earth\u2019s crust. Some of this\nisotope leaks into basements of homes in areas where the ground is more porous. An atom\nof Rn-222 decays to an atom of Pb-206 through a series of steps as shown on the graph\nbelow.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

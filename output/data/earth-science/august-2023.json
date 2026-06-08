@@ -1,0 +1,1056 @@
+{
+  "subject": "earth-science",
+  "session": "august-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which two factors caused Earth and the other planets to become layered during the formation of our solar system?",
+      "choices": [
+        "gravity and densities of materials making up the planet",
+        "gravity and percent of water in the planet\u2019s composition",
+        "distance from the Moon and densities of materials making up the planet",
+        "distance from the Moon and percent of water in the planet\u2019s composition"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The photograph below shows an object, labeled A, that was observed in the night sky for several weeks. A What is the celestial object labeled A?",
+      "choices": [
+        "a meteor",
+        "an asteroid",
+        "a galaxy",
+        "a comet"
+      ],
+      "image": "/images/exams/earth-science/august-2023/q2.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The latitudes of the Tropic of Cancer and the Tropic of Capricorn are determined by Earth\u2019s",
+      "choices": [
+        "rotation",
+        "axial tilt",
+        "surface ocean currents",
+        "average surface air temperature"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The Coriolis effect can best be used to explain the",
+      "choices": [
+        "cyclic time pattern of ocean tides",
+        "direction of convection currents in the asthenosphere",
+        "deflection of winds to the right in the Northern Hemisphere",
+        "movement of air in a straight path from low pressure to high pressure"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "What is Earth\u2019s approximate rate of revolution?",
+      "choices": [
+        "1\u00b0/hour",
+        "1\u00b0/day",
+        "15\u00b0/hour",
+        "15\u00b0/day"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "At a location in the Northern Hemisphere, a camera was placed outside at night with the lens pointing at a group of stars. The shutter was left open for a few hours, resulting in the image of star trails shown below. The star at the center of the image did not leave a trail because the star is",
+      "choices": [
+        "too far away to observe its movement",
+        "too massive to move in space",
+        "not luminous enough to leave a trail",
+        "centered over Earth\u2019s axis"
+      ],
+      "image": "/images/exams/earth-science/august-2023/q6.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "written",
+      "text": "Which table best lists the differences between a terrestrial planet and a Jovian planet in our solar system? Terrestrial Planet Jovian Planet mainly rocky in composition mainly gaseous in composition small in size large in size Terrestrial Planet Jovian Planet mainly gaseous in composition mainly rocky in composition small in size large in size Terrestrial Planet Jovian Planet mainly rocky in composition mainly gaseous in composition large in size small in size Terrestrial Planet Jovian Planet mainly gaseous in composition mainly rocky in composition large in size small in size",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "written",
+      "text": "The names and appearances of four Moon phases viewed by an observer in New York State in June are shown below. New Moon June 8 First quarter June 15 Full Moon June 23 Last quarter June 1 Which diagram best represents the Moon\u2019s appearance on June 3? ( 2 ) ( 4 ) ( 3 ) ( 1 ) ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "written",
+      "text": "Which graph most accurately represents the approximate percentage of Earth\u2019s surface covered by the hydrosphere? Percent of Earth\u2019s surface (%) Hydrosphere ( 1 ) Hydrosphere ( 2 ) Hydrosphere ( 3 ) Hydrosphere ( 4 ) Percent of Earth\u2019s surface (%) Percent of Earth\u2019s surface (%) Percent of Earth\u2019s surface (%) 100 75 50 25 100 75 50 25 100 75 50 25 100 75 50 25",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "written",
+      "text": "Which diagram shows the correct position of Polaris in the night sky as seen by an observer at Watertown, NY? South North South North North South North South East ( 1 ) ( 3 ) ( 2 ) ( 4 ) East West 0 30 60 90 60 30 0 East West 30 60 90 60 30 0 West 0 30 60 90 60 30 0 East West 0 30 60 90 60 30 0 0 10 20 40 50 70 80 80 70 50 40 20 10 10 20 40 50 70 80 80 70 50 40 20 10 10 20 40 50 70 80 80 70 50 40 20 10 10 20 40 50 70 80 80 70 50 40 20 10 Polaris Polaris Polaris Polaris",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which process transports groundwater upward through the soil to the surface, where it quickly evaporates during a dry season?",
+      "choices": [
+        "capillarity",
+        "convection",
+        "infiltration",
+        "saturation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The diagram below represents four cylinders of particles, labeled 1 through 4. Cylinders 1 through 3 each contain equal volumes of round particles of uniform size. Cylinder 4 contains round mixed-size particles. Sizes of particles are indicated for each cylinder. 12 mm particles 1 3 mm particles 3 7 mm particles 2 Mixed-sized particles (3 mm to 12 mm) 4 (Not drawn to scale) Which cylinder contains the particles with the lowest porosity?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/earth-science/august-2023/q12.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which factor is responsible for the circulation of convection currents occurring in the hydrosphere, troposphere, and mantle?",
+      "choices": [
+        "radioactive decay",
+        "solar radiation",
+        "density differences",
+        "planetary winds"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The arrows on the two maps below show how the monsoon winds blow over India during the summer and winter seasons. Summer Winter India India Monsoon winds Monsoon winds Compared to the amount of rainfall that India receives during the summer monsoon season, the amount of rainfall that India receives during the winter monsoon season is",
+      "choices": [
+        "less because winds blow from the water to the land",
+        "less because winds blow from the land to the water",
+        "more because winds blow from the water to the land",
+        "more because winds blow from the land to the water"
+      ],
+      "image": "/images/exams/earth-science/august-2023/q14.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "written",
+      "text": "Which map shows the type of air mass and the direction of polar front jet stream flow associated with this winter weather pattern? ( 2 ) ( 4 ) cT cT ( 1 ) ( 3 ) cA cA P o l a r F ro nt J et S tr e a m P o l a r F ro nt J et S tr e a m P o l a r F ro nt J et S tr e a m P o l a r F ro nt J et S tr e a m",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_15_16.png",
+      "context": "Base your answers to questions 15 and 16 on the map below and on your knowledge of Earth science. The \nmap shows the location of the polar front jet stream during winter. This winter weather pattern brings extremely \ncold air from the far north into the United States.\nP\no\nl\na\nr \nF\nro\nnt\n J\net\n \nS\ntr\ne\na\nm",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In which atmospheric temperature zone is the polar front jet stream located?",
+      "choices": [
+        "thermosphere",
+        "mesosphere",
+        "stratosphere",
+        "troposphere"
+      ],
+      "image": "/images/exams/earth-science/august-2023/context_15_16.png",
+      "context": "Base your answers to questions 15 and 16 on the map below and on your knowledge of Earth science. The \nmap shows the location of the polar front jet stream during winter. This winter weather pattern brings extremely \ncold air from the far north into the United States.\nP\no\nl\na\nr \nF\nro\nnt\n J\net\n \nS\ntr\ne\na\nm",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "written",
+      "text": "Which diagram correctly matches the weather front symbol with its atmospheric cross section? ( 3 ) Front Symbol Atmospheric Cross Section Front Symbol Atmospheric Cross Section Front Symbol Atmospheric Cross Section Front Symbol Atmospheric Cross Section ( 4 ) Cold Warm Cold Cool Warm Cold Cool Warm Cold Warm ( 2 ) ( 1 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "If the Tug Hill Plateau region of New York State is experiencing lake-effect snow, winds are most likely blowing in which direction?",
+      "choices": [
+        "north to south",
+        "south to north",
+        "east to west",
+        "west to east"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which set of psychrometer measurements was recorded when the dewpoint was 4\u00b0C?",
+      "choices": [
+        "dry bulb, 4\u00b0C; wet bulb, 1\u00b0C",
+        "dry bulb, 14\u00b0C; wet bulb, 9\u00b0C",
+        "dry bulb, 20\u00b0C; wet bulb, 16\u00b0C",
+        "dry bulb, 28\u00b0C; wet bulb, 13\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Compared to the summer and winter temperatures at low elevations, higher elevations at the same latitude have",
+      "choices": [
+        "warmer summers and warmer winters",
+        "warmer summers and cooler winters",
+        "cooler summers and cooler winters",
+        "cooler summers and warmer winters"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "During which geologic period did humans first appear on Earth?",
+      "choices": [
+        "Quaternary",
+        "Paleogene",
+        "Triassic",
+        "Permian"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The graph below shows the radioactive decay of potassium-40. 100 50 0 1.3 2.6 3.9 Time (billion years) Amount of Potassium-40 Remaining (%) 0 Approximately what percentage of potassium-40 remains in the 1.0 billion-year-old bedrock of the Hudson Highlands landscape region of New York State?",
+      "choices": [
+        "10%",
+        "25%",
+        "60%",
+        "75%"
+      ],
+      "image": "/images/exams/earth-science/august-2023/q22.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The surface bedrock at Old Forge, New York, is mostly",
+      "choices": [
+        "flat-lying, sedimentary rock formed during the Grenville Orogeny",
+        "flat-lying, sedimentary rock formed during the Acadian Orogeny",
+        "intensely metamorphosed rock formed during the Grenville Orogeny",
+        "intensely metamorphosed rock formed during the Acadian Orogeny"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which agent of erosion produced many of the large parallel grooves and scratches seen in surface bedrock across New York State?",
+      "choices": [
+        "mass movement",
+        "wind",
+        "running water",
+        "glaciers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The diagram below represents rock A changing into rock B. Rock A Rock B Rearrangement of atoms Which process causes rock A to change into rock B?",
+      "choices": [
+        "melting",
+        "solidification",
+        "precipitation",
+        "metamorphism"
+      ],
+      "image": "/images/exams/earth-science/august-2023/q25.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which mineral is usually present in pegmatite, phyllite, and siltstone?",
+      "choices": [
+        "quartz",
+        "garnet",
+        "olivine",
+        "pyroxene"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The table below shows the hardness of some common items. Item Hardness fingernail 2.5 penny coin 3 iron nail 4.5 steel file 6 Which mineral could be scratched by an iron nail, but not by a penny coin?",
+      "choices": [
+        "quartz",
+        "halite",
+        "dolomite",
+        "amphibole"
+      ],
+      "image": "/images/exams/earth-science/august-2023/q27.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Which graph shows the general relationship between an increase in urbanization in an area and the average annual air temperature for that area? Average Annual Air Temperature Urbanization ( 1 ) Urbanization ( 2 ) Urbanization ( 3 ) Urbanization ( 4 ) Average Annual Air Temperature Average Annual Air Temperature Average Annual Air Temperature",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The cross section below represents sedimentary rock layers A, B, and C. An igneous intrusion is labeled D. Line E represents a fault. Overturning has not occurred. Igneous rock Contact metamorphism Key B C D D B A A E Which events occurred after the formation of rock layer A?",
+      "choices": [
+        "igneous intrusion D and faulting at E",
+        "deposition of sediments in rock layers B and C",
+        "faulting at E and deposition of sediments in rock layer C",
+        "formation of sedimentary rock layer B and igneous intrusion D"
+      ],
+      "image": "/images/exams/earth-science/august-2023/q29.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The diagram below represents magnetic patterns of normal and reversed polarity of ocean crust on the west side of a mid-ocean ridge. Letters A, B, C, D, and E represent locations on the seafloor on the east side of the mid-ocean ridge. Reversed polarity Normal polarity Key Mid-ocean ridge West East A B C D E Which two locations on the east side of the mid-ocean ridge represent areas of reversed magnetic polarity?",
+      "choices": [
+        "A and B",
+        "B and D",
+        "C and D",
+        "E and A"
+      ],
+      "image": "/images/exams/earth-science/august-2023/q30.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Letters A through D on the block diagram below represent four features resulting from glaciers. Ocean Stream Glacier Bedrock C Meltwater stream Beach B Partially buried ice block Me lti n g g l a c ia l f r o nt D Elongated hills A Glacial sediment (Not drawn to scale) Which feature will later form a kettle lake?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2023/q31.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "A seismic station is located 2000 kilometers from the epicenter of an earthquake. Which seismogram indicates the correct time difference between the arrival of the first P-wave and the first S-wave at this station? Time (hours : minutes) 00:00 00:01 00:02 00:03 00:04 00:05 ( 1 ) ( 2 ) Time (hours : minutes) 00:00 00:01 00:02 00:03 00:04 00:05 ( 3 ) Time (hours : minutes) 00:00 00:01 00:02 00:03 00:04 00:05 ( 4 ) P-wave arrival S-wave arrival P-wave arrival S-wave arrival P-wave arrival S-wave arrival Time (hours : minutes) 00:00 00:01 00:02 00:03 00:04 00:05 P-wave arrival S-wave arrival",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The topographic map below shows the path of a river. Points A through E are locations in the river. 200 100 A B C D E Between which two points is the river flowing the fastest?",
+      "choices": [
+        "A and B",
+        "B and C",
+        "C and D",
+        "D and E"
+      ],
+      "image": "/images/exams/earth-science/august-2023/q33.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The diagrams below represent landscapes in regions A and B. Region A Region B Which chart best summarizes the landscape type and climate of regions A and B? Region A mountain humid Landscape Type Climate Region B mountain arid Region A plateau plateau plateau plateau humid Landscape Type Climate Region B arid ( 1 ) ( 3 ) Region A mountain humid Landscape Type Climate Region B mountain arid humid arid Region A Landscape Type Climate Region B ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The map below shows a coastal landscape feature, labeled X, that resulted from wave action and offshore currents parallel to the coastline. Atlantic Ocean X Which landscape feature is represented by X?",
+      "choices": [
+        "moraines",
+        "drumlins",
+        "barrier islands",
+        "sand dunes"
+      ],
+      "image": "/images/exams/earth-science/august-2023/q35.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "What was the surface wind circulation pattern around the center of Hurricane Sandy?",
+      "choices": [
+        "counterclockwise and outward",
+        "counterclockwise and inward",
+        "clockwise and outward",
+        "clockwise and inward"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 36 and 37 on the passage below and on your knowledge of Earth science.\nHurricane Sandy\nHurricane Sandy was one of the most severe hurricanes to affect the northeastern \nUnited States in many years. On October 29, 2012, this storm made landfall in New Jersey. \nIt produced a 14-foot storm surge, which is a rise in the level of ocean water along a coast \ncaused by strong winds and low air pressure. The Moon also enhanced the effects of this \nstorm surge, since the Moon was in full phase at the time Hurricane Sandy made landfall. \nDuring a full Moon, above-normal high tides occur on Earth.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which air temperature and moisture characteristics are associated with the source region over which Hurricane Sandy formed?",
+      "choices": [
+        "cool and dry",
+        "cool and moist",
+        "warm and dry",
+        "warm and moist"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 36 and 37 on the passage below and on your knowledge of Earth science.\nHurricane Sandy\nHurricane Sandy was one of the most severe hurricanes to affect the northeastern \nUnited States in many years. On October 29, 2012, this storm made landfall in New Jersey. \nIt produced a 14-foot storm surge, which is a rise in the level of ocean water along a coast \ncaused by strong winds and low air pressure. The Moon also enhanced the effects of this \nstorm surge, since the Moon was in full phase at the time Hurricane Sandy made landfall. \nDuring a full Moon, above-normal high tides occur on Earth.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "In our solar system, the orbits of the planets are best described as",
+      "choices": [
+        "elliptical with the Sun at one focus",
+        "elliptical with Earth at one focus",
+        "circular with the Sun at one focus",
+        "circular with Earth at one focus"
+      ],
+      "image": "/images/exams/earth-science/august-2023/context_38_39.png",
+      "context": "Base your answers to questions 38 and 39 on the diagram below and on your knowledge of Earth science.\nThe diagram represents a model of a portion of our solar system.\nUranus\nJupiter\nMars\n(Not drawn to scale)\nSun\nVenus\nSaturn\nEarth\nMercury\nNeptune",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which planet takes approximately twice as long as Earth to complete one revolution around the Sun?",
+      "choices": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "image": "/images/exams/earth-science/august-2023/context_38_39.png",
+      "context": "Base your answers to questions 38 and 39 on the diagram below and on your knowledge of Earth science.\nThe diagram represents a model of a portion of our solar system.\nUranus\nJupiter\nMars\n(Not drawn to scale)\nSun\nVenus\nSaturn\nEarth\nMercury\nNeptune",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which longitude line passes through New York State?",
+      "choices": [
+        "45\u00b0 W",
+        "45\u00b0 E",
+        "75\u00b0 W",
+        "75\u00b0 E"
+      ],
+      "image": "/images/exams/earth-science/august-2023/context_40_41.png",
+      "context": "Base your answers to questions 40 and 41 on the diagram below and on your knowledge of Earth science. The \ndiagram of Earth shows the longitude lines that are used to determine time zones.\nEquator\n30\u00b0E\n0\u00b0\n15\u00b0W\n30\u00b0W\n45\u00b0W\n75\u00b0W\n90\u00b0W\n105\u00b0W\n135\u00b0E\n120\u00b0E\n105\u00b0E\n90\u00b0E\n75\u00b0E\n60\u00b0E\n45\u00b0E\n120\u00b0W\n135\u00b0W\n180\u00b0\n165\u00b0W\n150\u00b0W\n150\u00b0E\n165\u00b0E\nPrime Meridian\nPole\nNorth\n15\u00b0E\n60\u00b0W",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "What is the time at 30\u00b0 W when it is 7:00 a.m. at 30\u00b0 E?",
+      "choices": [
+        "1:00 p.m.",
+        "7:00 p.m.",
+        "3:00 a.m.",
+        "11:00 a.m."
+      ],
+      "image": "/images/exams/earth-science/august-2023/context_40_41.png",
+      "context": "Base your answers to questions 40 and 41 on the diagram below and on your knowledge of Earth science. The \ndiagram of Earth shows the longitude lines that are used to determine time zones.\nEquator\n30\u00b0E\n0\u00b0\n15\u00b0W\n30\u00b0W\n45\u00b0W\n75\u00b0W\n90\u00b0W\n105\u00b0W\n135\u00b0E\n120\u00b0E\n105\u00b0E\n90\u00b0E\n75\u00b0E\n60\u00b0E\n45\u00b0E\n120\u00b0W\n135\u00b0W\n180\u00b0\n165\u00b0W\n150\u00b0W\n150\u00b0E\n165\u00b0E\nPrime Meridian\nPole\nNorth\n15\u00b0E\n60\u00b0W",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which geologic principle could be used to support the inference that rock layers A through D experienced crustal movement?",
+      "choices": [
+        "original horizontality",
+        "crosscutting relationships",
+        "superposition",
+        "contact metamorphism"
+      ],
+      "image": "/images/exams/earth-science/august-2023/context_42_45.png",
+      "context": "Base your answers to questions 42 through 45 on the cross section below and on your knowledge of Earth \nscience. Letters A through E represent rock units. Letter F represents a geologic feature. Some layers contain \nindex fossils.\nF\nA\nC\nE\nB\nD",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "During the Ordovician Period when layer C was forming, most of the United States was inferred to be located",
+      "choices": [
+        "slightly north of the equator",
+        "slightly south of the equator",
+        "at the North Pole",
+        "at the South Pole"
+      ],
+      "image": "/images/exams/earth-science/august-2023/context_42_45.png",
+      "context": "Base your answers to questions 42 through 45 on the cross section below and on your knowledge of Earth \nscience. Letters A through E represent rock units. Letter F represents a geologic feature. Some layers contain \nindex fossils.\nF\nA\nC\nE\nB\nD",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "The geologic feature represented by letter F is most likely a",
+      "choices": [
+        "buried erosional surface",
+        "contact metamorphic surface",
+        "meteoritic debris layer",
+        "volcanic ash layer"
+      ],
+      "image": "/images/exams/earth-science/august-2023/context_42_45.png",
+      "context": "Base your answers to questions 42 through 45 on the cross section below and on your knowledge of Earth \nscience. Letters A through E represent rock units. Letter F represents a geologic feature. Some layers contain \nindex fossils.\nF\nA\nC\nE\nB\nD",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Carbon-14 was not used to date the trilobite fossils represented in the cross section because these trilobites",
+      "choices": [
+        "were never living organisms",
+        "were buried too deep",
+        "lived too long ago",
+        "became extinct"
+      ],
+      "image": "/images/exams/earth-science/august-2023/context_42_45.png",
+      "context": "Base your answers to questions 42 through 45 on the cross section below and on your knowledge of Earth \nscience. Letters A through E represent rock units. Letter F represents a geologic feature. Some layers contain \nindex fossils.\nF\nA\nC\nE\nB\nD",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which water cycle process releases 2260 joules of heat energy per gram of water?",
+      "choices": [
+        "A",
+        "E",
+        "F",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2023/context_46_47.png",
+      "context": "Base your answers to questions 46 and 47 on the block diagram below and on your knowledge of Earth science.\nThe diagram represents the water cycle. Letters A through F represent water cycle processes. The water table \nhas been labeled.\nBedrock\nCloud\nOcean\nF\nA\nC\nE\nB\nD\nC\nWater table",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "written",
+      "text": "Which diagram would most likely represent the height of the water table if processes E and F increased? ( 1 ) ( 2 ) ( 3 ) ( 4 ) Bedrock Cloud Ocean A C E B D C Water table F Bedrock Cloud Ocean A C E B D C Water table F Bedrock Cloud Ocean A C E B D C Water table F Bedrock Cloud Ocean A C E B D C F Water table",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_46_47.png",
+      "context": "Base your answers to questions 46 and 47 on the block diagram below and on your knowledge of Earth science.\nThe diagram represents the water cycle. Letters A through F represent water cycle processes. The water table \nhas been labeled.\nBedrock\nCloud\nOcean\nF\nA\nC\nE\nB\nD\nC\nWater table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Which location is receiving direct rays from the Sun?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2023/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the diagram below and on your knowledge of Earth science. \nThe diagram represents insolation received on four Earth land surfaces at locations A, B, C, and D.\nNorth Pole\nEquator\n(Not drawn to scale)\nSun\u2019s\nrays\nA\nB\nC\nD\nSouth Pole",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Equal areas of which type of land surface usually absorb the most insolation and reflect the least insolation?",
+      "choices": [
+        "light-colored and smooth",
+        "light-colored and rough",
+        "dark-colored and smooth",
+        "dark-colored and rough"
+      ],
+      "image": "/images/exams/earth-science/august-2023/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the diagram below and on your knowledge of Earth science. \nThe diagram represents insolation received on four Earth land surfaces at locations A, B, C, and D.\nNorth Pole\nEquator\n(Not drawn to scale)\nSun\u2019s\nrays\nA\nB\nC\nD\nSouth Pole",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Most of the energy radiated by these land surfaces into space is in the form of",
+      "choices": [
+        "gamma rays",
+        "infrared",
+        "ultraviolet",
+        "visible light"
+      ],
+      "image": "/images/exams/earth-science/august-2023/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the diagram below and on your knowledge of Earth science. \nThe diagram represents insolation received on four Earth land surfaces at locations A, B, C, and D.\nNorth Pole\nEquator\n(Not drawn to scale)\nSun\u2019s\nrays\nA\nB\nC\nD\nSouth Pole",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Explain why shale is rarely used in the building and construction industry.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the passage and the data table below and on your knowledge \nof Earth science. The data table shows the percentage of quarries in New York State that mine specific types of \nbedrock to produce crushed stone. A quarry is an area where rock material is removed.\nCrushed Stone in New York State\nCrushed stone is any bedrock that has been broken into smaller, irregularly shaped \nfragments. The fragment sizes can range from silt to boulders. The smallest sizes could be \nused to make concrete and cement while the largest could be used to line a river bank to \nprevent stream erosion. Although some crushed stone is used in agriculture, most is used \nin the building and construction industry. Shale, a common rock found in New York State, \nis rarely mined because it tends to weather too easily to be used as a construction material.\nCrushed Stone Production in New York State\nType of Bedrock Mined\nPercentage of Quarries (%)\ndolostone\n14\ngranite and gneiss\n6\nlimestone\n46\nsandstone\n11\nslate and marble\n4\nall others\n19",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Shale weathers too easily. \u2014 Shale may split easily. \u2014 Shale will break down too quickly."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "In the building and construction industry, rock sold as granite might actually be gneiss. Identify one observable property of gneiss that could be used to distinguish it from granite.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the passage and the data table below and on your knowledge \nof Earth science. The data table shows the percentage of quarries in New York State that mine specific types of \nbedrock to produce crushed stone. A quarry is an area where rock material is removed.\nCrushed Stone in New York State\nCrushed stone is any bedrock that has been broken into smaller, irregularly shaped \nfragments. The fragment sizes can range from silt to boulders. The smallest sizes could be \nused to make concrete and cement while the largest could be used to line a river bank to \nprevent stream erosion. Although some crushed stone is used in agriculture, most is used \nin the building and construction industry. Shale, a common rock found in New York State, \nis rarely mined because it tends to weather too easily to be used as a construction material.\nCrushed Stone Production in New York State\nType of Bedrock Mined\nPercentage of Quarries (%)\ndolostone\n14\ngranite and gneiss\n6\nlimestone\n46\nsandstone\n11\nslate and marble\n4\nall others\n19",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 banding \u2014 minerals segregated into bands \u2014 foliation \u2014 contains pyroxene and/or garnet crystals"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Identify one mineral found in crushed sandstone that is used to make glass in the building and construction industry.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the passage and the data table below and on your knowledge \nof Earth science. The data table shows the percentage of quarries in New York State that mine specific types of \nbedrock to produce crushed stone. A quarry is an area where rock material is removed.\nCrushed Stone in New York State\nCrushed stone is any bedrock that has been broken into smaller, irregularly shaped \nfragments. The fragment sizes can range from silt to boulders. The smallest sizes could be \nused to make concrete and cement while the largest could be used to line a river bank to \nprevent stream erosion. Although some crushed stone is used in agriculture, most is used \nin the building and construction industry. Shale, a common rock found in New York State, \nis rarely mined because it tends to weather too easily to be used as a construction material.\nCrushed Stone Production in New York State\nType of Bedrock Mined\nPercentage of Quarries (%)\ndolostone\n14\ngranite and gneiss\n6\nlimestone\n46\nsandstone\n11\nslate and marble\n4\nall others\n19",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 quartz \u2014 potassium feldspar (orthoclase) \u2014 plagioclase feldspar \u2014 feldspar"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Determine the approximate present-day distance, in light-years, from the Sun to Lalande 21185.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_54_58.png",
+      "context": "Base your answers to questions 54 through 58 on the graph below and on your knowledge of Earth science. \nThe graph shows the predicted distance of five nearby stars in our galaxy in relation to our Sun over the next \n60,000 years (y). Distance is represented in light-years (ly) from the Sun. One light-year is the distance light \ntravels in one year.\n10\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10,000 20,000\n30,000 40,000\n50,000 60,000\nTime ( y )\nPredicted Distance of Stars\nRelative to the Sun Over Time\nAlpha\nCentauri\nProxima Centauri\nLalande 21185\nBarnard\u2019s Star\nRoss 248\n0\nPresent\nDistance from the Sun (ly)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 8.5 to 8.8 ly. Note: Allow credit if a student indicates a fraction, such as 8__2 3 ."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify the star that will show a redshift in its wavelengths of light as viewed from Earth 15,000 years from the present.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_54_58.png",
+      "context": "Base your answers to questions 54 through 58 on the graph below and on your knowledge of Earth science. \nThe graph shows the predicted distance of five nearby stars in our galaxy in relation to our Sun over the next \n60,000 years (y). Distance is represented in light-years (ly) from the Sun. One light-year is the distance light \ntravels in one year.\n10\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10,000 20,000\n30,000 40,000\n50,000 60,000\nTime ( y )\nPredicted Distance of Stars\nRelative to the Sun Over Time\nAlpha\nCentauri\nProxima Centauri\nLalande 21185\nBarnard\u2019s Star\nRoss 248\n0\nPresent\nDistance from the Sun (ly)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Barnard\u2019s Star."
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "At present, Proxima Centauri is the closest star to our Sun. However, Alpha Centauri is more easily visible in the night sky. In your answer booklet, circle the relative luminosity and relative mass of Alpha Centauri compared with the luminosity and mass of Proxima Centauri.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_54_58.png",
+      "context": "Base your answers to questions 54 through 58 on the graph below and on your knowledge of Earth science. \nThe graph shows the predicted distance of five nearby stars in our galaxy in relation to our Sun over the next \n60,000 years (y). Distance is represented in light-years (ly) from the Sun. One light-year is the distance light \ntravels in one year.\n10\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10,000 20,000\n30,000 40,000\n50,000 60,000\nTime ( y )\nPredicted Distance of Stars\nRelative to the Sun Over Time\nAlpha\nCentauri\nProxima Centauri\nLalande 21185\nBarnard\u2019s Star\nRoss 248\n0\nPresent\nDistance from the Sun (ly)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for circling both greater luminosity and greater mass."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "State the name of the galaxy in which all of these stars are located.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_54_58.png",
+      "context": "Base your answers to questions 54 through 58 on the graph below and on your knowledge of Earth science. \nThe graph shows the predicted distance of five nearby stars in our galaxy in relation to our Sun over the next \n60,000 years (y). Distance is represented in light-years (ly) from the Sun. One light-year is the distance light \ntravels in one year.\n10\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10,000 20,000\n30,000 40,000\n50,000 60,000\nTime ( y )\nPredicted Distance of Stars\nRelative to the Sun Over Time\nAlpha\nCentauri\nProxima Centauri\nLalande 21185\nBarnard\u2019s Star\nRoss 248\n0\nPresent\nDistance from the Sun (ly)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the Milky Way Galaxy."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Identify the nuclear process that produces most of the energy released from all of these stars.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_54_58.png",
+      "context": "Base your answers to questions 54 through 58 on the graph below and on your knowledge of Earth science. \nThe graph shows the predicted distance of five nearby stars in our galaxy in relation to our Sun over the next \n60,000 years (y). Distance is represented in light-years (ly) from the Sun. One light-year is the distance light \ntravels in one year.\n10\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10,000 20,000\n30,000 40,000\n50,000 60,000\nTime ( y )\nPredicted Distance of Stars\nRelative to the Sun Over Time\nAlpha\nCentauri\nProxima Centauri\nLalande 21185\nBarnard\u2019s Star\nRoss 248\n0\nPresent\nDistance from the Sun (ly)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 fusion \u2014 nuclear fusion \u2014 combining lighter elements into heavier elements \u2014 combining hydrogen into helium Part B\u20132 Allow a maximum of 15 credits for this part. To ensure the accuracy of overlays, select a printer setting such as full, actual size, or 100% when printing this document. Do not select the fit to page setting. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "In the table in your answer booklet, identify the numerical value of the data on the station model measured by each weather instrument given. Include units with your answer.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_59_60.png",
+      "context": "Base your answers to questions 59 and 60 on the station model below and on your knowledge of Earth science.\nThe station model indicates weather conditions at Albany, New York.\n019\n56\n54\n.31\n\u201321\\\n1\n4",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses include the correct numerical value and unit. Acceptable responses include, but are not limited to: Note: Allow credit for any value from 20.7 miles/hour to 25.3 miles/hour for the anemometer. Allow credit for \u201c0.31 inches in past 6 hours\u201d for a precipitation gauge unit. Albany, New York Weather Data Weather Instrument Numerical Value with Units anemometer Any value from 18 knots to 22 knots precipitation gauge .31 inches or 0.31 in or 31 ___ 100in"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Based on data from the station model, explain how a scientist could infer that there was a high relative humidity in Albany.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_59_60.png",
+      "context": "Base your answers to questions 59 and 60 on the station model below and on your knowledge of Earth science.\nThe station model indicates weather conditions at Albany, New York.\n019\n56\n54\n.31\n\u201321\\\n1\n4",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The air temperature and dewpoint were close in value. \u2014 There is only a 2 F\u00b0 difference between air temperature and dewpoint. \u2014 A rain shower/rain was occurring. \u2014 Cloud cover was 100%. \u2014 There is low pressure in Albany at this time. / The pressure in Albany has dropped during the past 3 hours. \u2014 low visibility P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw the 8 mm/y and the 12 mm/y isolines. Extend the isolines to the edge of the map or the edge of the land area.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_61_65.png",
+      "context": "Base your answers to questions 61 through 65 on the passage and the map of Alaska below, on the partial\nisoline map in your answer booklet, and on your knowledge of Earth science. The map of Alaska shows the\nregion from where the isoline map is taken. The isoline map shows the uplift (increase in elevation), in millimeters\nper year (mm/y), that has occurred for an area in southeastern Alaska. Some isolines have been drawn on the \nmap. Letter A represents a surface location.\nAlaskan Rebound\nThe fastest measured rates of uplift on Earth today are in southeast Alaska. Scientists \nfirst hypothesized that the cause of this uplift may have been due to tectonic forces, since \nthis region of Alaska is located on a plate boundary where mountain building occurred. \nScientists now hypothesize there is another factor causing the uplift of this region. They \ndetermined that, during the last ice age, the weight of mountain glaciers caused Earth\u2019s \nlithosphere to sink lower into the plastic mantle. As atmospheric greenhouse gases \nincreased, the climate changed, causing these glaciers to melt. The lost weight of glacial \nice on the lithosphere allowed the crust to rebound and float higher on the plastic mantle \nbelow, thus increasing land surface elevations. This phenomenon is called glacial rebound \nand accounts for the continued uplift rates seen on the rebound map on your answer sheet.\nAlaska Map\nAlaska\nIsoline\nmap area\nAleutian Trench\nPlate boundary\nCanada",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both the 8 mm/y and 12 mm/y isolines are correctly drawn with each end drawn to the edge of the map or edge of the land area. Note: Do not allow credit if student-drawn isolines do not pass through or touch all 8 and 12 data points. If additional isolines are drawn, all isolines must be correct to receive credit. The isolines need not be continued over the Pacific Ocean. Example of a 1-credit response: Pacific Ocean 10 14 10 12 8 12 14 24 28 16 20 24 28 A 20 16 10 10 12 6 4 8 12 10 14 6 10 8 10 6 8 6 8 8 12 12 14 12 8 6 Alaskan Rebound Isoline Map 0"
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "The greatest rate of uplift occurred around location A. State one possible value, in millimeters/year (mm/y), for location A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_61_65.png",
+      "context": "Base your answers to questions 61 through 65 on the passage and the map of Alaska below, on the partial\nisoline map in your answer booklet, and on your knowledge of Earth science. The map of Alaska shows the\nregion from where the isoline map is taken. The isoline map shows the uplift (increase in elevation), in millimeters\nper year (mm/y), that has occurred for an area in southeastern Alaska. Some isolines have been drawn on the \nmap. Letter A represents a surface location.\nAlaskan Rebound\nThe fastest measured rates of uplift on Earth today are in southeast Alaska. Scientists \nfirst hypothesized that the cause of this uplift may have been due to tectonic forces, since \nthis region of Alaska is located on a plate boundary where mountain building occurred. \nScientists now hypothesize there is another factor causing the uplift of this region. They \ndetermined that, during the last ice age, the weight of mountain glaciers caused Earth\u2019s \nlithosphere to sink lower into the plastic mantle. As atmospheric greenhouse gases \nincreased, the climate changed, causing these glaciers to melt. The lost weight of glacial \nice on the lithosphere allowed the crust to rebound and float higher on the plastic mantle \nbelow, thus increasing land surface elevations. This phenomenon is called glacial rebound \nand accounts for the continued uplift rates seen on the rebound map on your answer sheet.\nAlaska Map\nAlaska\nIsoline\nmap area\nAleutian Trench\nPlate boundary\nCanada",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value greater than 28 mm/y but less than 32 mm/y."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify the name of the plastic mantle layer into which the lithosphere sank due to the weight of the mountain glaciers.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_61_65.png",
+      "context": "Base your answers to questions 61 through 65 on the passage and the map of Alaska below, on the partial\nisoline map in your answer booklet, and on your knowledge of Earth science. The map of Alaska shows the\nregion from where the isoline map is taken. The isoline map shows the uplift (increase in elevation), in millimeters\nper year (mm/y), that has occurred for an area in southeastern Alaska. Some isolines have been drawn on the \nmap. Letter A represents a surface location.\nAlaskan Rebound\nThe fastest measured rates of uplift on Earth today are in southeast Alaska. Scientists \nfirst hypothesized that the cause of this uplift may have been due to tectonic forces, since \nthis region of Alaska is located on a plate boundary where mountain building occurred. \nScientists now hypothesize there is another factor causing the uplift of this region. They \ndetermined that, during the last ice age, the weight of mountain glaciers caused Earth\u2019s \nlithosphere to sink lower into the plastic mantle. As atmospheric greenhouse gases \nincreased, the climate changed, causing these glaciers to melt. The lost weight of glacial \nice on the lithosphere allowed the crust to rebound and float higher on the plastic mantle \nbelow, thus increasing land surface elevations. This phenomenon is called glacial rebound \nand accounts for the continued uplift rates seen on the rebound map on your answer sheet.\nAlaska Map\nAlaska\nIsoline\nmap area\nAleutian Trench\nPlate boundary\nCanada",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for asthenosphere. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Identify the names of the two tectonic plates that are on either side of the two plate boundaries that are located within the area shown on the Alaska map.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_61_65.png",
+      "context": "Base your answers to questions 61 through 65 on the passage and the map of Alaska below, on the partial\nisoline map in your answer booklet, and on your knowledge of Earth science. The map of Alaska shows the\nregion from where the isoline map is taken. The isoline map shows the uplift (increase in elevation), in millimeters\nper year (mm/y), that has occurred for an area in southeastern Alaska. Some isolines have been drawn on the \nmap. Letter A represents a surface location.\nAlaskan Rebound\nThe fastest measured rates of uplift on Earth today are in southeast Alaska. Scientists \nfirst hypothesized that the cause of this uplift may have been due to tectonic forces, since \nthis region of Alaska is located on a plate boundary where mountain building occurred. \nScientists now hypothesize there is another factor causing the uplift of this region. They \ndetermined that, during the last ice age, the weight of mountain glaciers caused Earth\u2019s \nlithosphere to sink lower into the plastic mantle. As atmospheric greenhouse gases \nincreased, the climate changed, causing these glaciers to melt. The lost weight of glacial \nice on the lithosphere allowed the crust to rebound and float higher on the plastic mantle \nbelow, thus increasing land surface elevations. This phenomenon is called glacial rebound \nand accounts for the continued uplift rates seen on the rebound map on your answer sheet.\nAlaska Map\nAlaska\nIsoline\nmap area\nAleutian Trench\nPlate boundary\nCanada",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for both Pacific Plate and North American Plate."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Identify two major greenhouse gases that contribute to climate change and the melting of these Alaskan glaciers.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_61_65.png",
+      "context": "Base your answers to questions 61 through 65 on the passage and the map of Alaska below, on the partial\nisoline map in your answer booklet, and on your knowledge of Earth science. The map of Alaska shows the\nregion from where the isoline map is taken. The isoline map shows the uplift (increase in elevation), in millimeters\nper year (mm/y), that has occurred for an area in southeastern Alaska. Some isolines have been drawn on the \nmap. Letter A represents a surface location.\nAlaskan Rebound\nThe fastest measured rates of uplift on Earth today are in southeast Alaska. Scientists \nfirst hypothesized that the cause of this uplift may have been due to tectonic forces, since \nthis region of Alaska is located on a plate boundary where mountain building occurred. \nScientists now hypothesize there is another factor causing the uplift of this region. They \ndetermined that, during the last ice age, the weight of mountain glaciers caused Earth\u2019s \nlithosphere to sink lower into the plastic mantle. As atmospheric greenhouse gases \nincreased, the climate changed, causing these glaciers to melt. The lost weight of glacial \nice on the lithosphere allowed the crust to rebound and float higher on the plastic mantle \nbelow, thus increasing land surface elevations. This phenomenon is called glacial rebound \nand accounts for the continued uplift rates seen on the rebound map on your answer sheet.\nAlaska Map\nAlaska\nIsoline\nmap area\nAleutian Trench\nPlate boundary\nCanada",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for two correct responses. Acceptable responses include, but are not limited to: \u2014 carbon dioxide or CO2 \u2014 methane or CH4 \u2014 water vapor or H2O \u2014 nitrous oxide or N2O \u2014 ozone or O3 \u2014 chlorofluorocarbons or CFCs P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw the path of the Sun for November 5. The line representing the Sun\u2019s path must begin and end on the horizon.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents three apparent paths of the Sun, labeled A, B, and C, on the first day of \neach season, as seen by an observer at Binghamton, New York. The Sun\u2019s position on path B indicates a specific \ntime of day. Compass directions are indicated along the horizon.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the line is located between path B and path C as shown below. The line representing the Sun\u2019s path must extend to the horizon line. Example of a 1-credit response: SW W NW Horizon SE S NE E Path C Path B Path A (Not drawn to scale) Sun The Sun\u2019s Changing Position at Binghamton, NY"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Describe how the length of the observer\u2019s shadow changes from sunrise to sunset as the Sun appears to travel along path A.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents three apparent paths of the Sun, labeled A, B, and C, on the first day of \neach season, as seen by an observer at Binghamton, New York. The Sun\u2019s position on path B indicates a specific \ntime of day. Compass directions are indicated along the horizon.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The length of the shadow will get shorter until solar noon, then longer until sunset. \u2014 decreases then increases \u2014 starts long, gets short, then long again"
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Identify the time of day indicated by the Sun\u2019s position on path B. Indicate a.m. or p.m. in your response.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents three apparent paths of the Sun, labeled A, B, and C, on the first day of \neach season, as seen by an observer at Binghamton, New York. The Sun\u2019s position on path B indicates a specific \ntime of day. Compass directions are indicated along the horizon.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 8 a.m. to 10 a.m. Note: Allow credit for a response that indicates \u201ca.m.\u201d, such as 9 in the morning or 0900."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "In your answer booklet, circle the relative intensity of insolation and the relative duration of insolation of the Sun for path C compared to the intensity and duration of insolation of the Sun for path B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/q69.png",
+      "context": "Base your answers to questions 66 through 69 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents three apparent paths of the Sun, labeled A, B, and C, on the first day of \neach season, as seen by an observer at Binghamton, New York. The Sun\u2019s position on path B indicates a specific \ntime of day. Compass directions are indicated along the horizon.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for circling both less intensity and shorter duration. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Identify the geologic period of the bedrock in which this specific New York State index fossil can be found.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the diagram below and on your knowledge of Earth\nscience. The diagram represents a specific New York State index fossil that is a member of a group of extinct \nmarine animals called eurypterids.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Silurian Period."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Describe one characteristic necessary for this fossil to be classified as an index fossil.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the diagram below and on your knowledge of Earth\nscience. The diagram represents a specific New York State index fossil that is a member of a group of extinct \nmarine animals called eurypterids.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 widespread geographic distribution \u2014 existed for a short period of geologic time \u2014 easily distinguishable/recognizable"
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Infer the past environment that existed at a New York State location where eurypterid fossils have been discovered in the bedrock.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the diagram below and on your knowledge of Earth\nscience. The diagram represents a specific New York State index fossil that is a member of a group of extinct \nmarine animals called eurypterids.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 A marine environment existed. \u2014 There was an inland sea. \u2014 warm shallow sea \u2014 Part of New York State was underwater."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "In your answer booklet, circle either felsic or mafic to indicate the composition of the rock at Federal Plaza and list two minerals likely to be found in this rock.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 75 on the passage below and on your knowledge of Earth science.\nA Geologist\u2019s Tour of New York City\nWhen taking a tour of New York City, one can find many geologic points of interest at \nlocations such as Federal Plaza, Wall Street, Foley Square, and Central Park.\nFederal Plaza: These buildings contain granite from Avalon, a small continent that was \nonce attached to our east coast when Africa, Europe, and North America pulled apart.\nWall Street: Some buildings contain stone that comes from Morocco in North Africa \nand contains coral fossils. The same 370-million-year-old coral fossils are also found in \nsome New York State surface bedrock.\nFoley Square: A building here is made of limestone that came from Indiana, a region \nthat was a sea floor during the Pennsylvanian Period.\nCentral Park: The exposed bedrock is schist, and is what remains of an ancient \nmountain that stood 15,000 feet high. This mountain formed from ocean-bottom mud \nthat was heated, squeezed, and folded upward under pressure.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for both circling felsic and listing two correct minerals. Acceptable responses include, but are not limited to: \u2014 potassium feldspar/orthoclase \u2014 quartz \u2014 plagioclase/plagioclase feldspar \u2014 biotite/biotite mica \u2014 amphibole/hornblende Note: Allow credit for \u201cfeldspar\u201d alone if it is paired only with quartz, biotite/biotite mica or amphibole/hornblende."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Identify the New York State landscape region where the surface bedrock most likely contains the same coral fossils as the ones found in Morocco.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 75 on the passage below and on your knowledge of Earth science.\nA Geologist\u2019s Tour of New York City\nWhen taking a tour of New York City, one can find many geologic points of interest at \nlocations such as Federal Plaza, Wall Street, Foley Square, and Central Park.\nFederal Plaza: These buildings contain granite from Avalon, a small continent that was \nonce attached to our east coast when Africa, Europe, and North America pulled apart.\nWall Street: Some buildings contain stone that comes from Morocco in North Africa \nand contains coral fossils. The same 370-million-year-old coral fossils are also found in \nsome New York State surface bedrock.\nFoley Square: A building here is made of limestone that came from Indiana, a region \nthat was a sea floor during the Pennsylvanian Period.\nCentral Park: The exposed bedrock is schist, and is what remains of an ancient \nmountain that stood 15,000 feet high. This mountain formed from ocean-bottom mud \nthat was heated, squeezed, and folded upward under pressure.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Allegheny Plateau or the Catskills or Appalachian Plateau (Uplands) or Hudson-Mohawk Lowlands or Erie-Ontario Lowlands or Hudson Highlands."
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Explain how the 15,000-foot-high ancient mountain was reduced to small hills in today\u2019s Central Park.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 75 on the passage below and on your knowledge of Earth science.\nA Geologist\u2019s Tour of New York City\nWhen taking a tour of New York City, one can find many geologic points of interest at \nlocations such as Federal Plaza, Wall Street, Foley Square, and Central Park.\nFederal Plaza: These buildings contain granite from Avalon, a small continent that was \nonce attached to our east coast when Africa, Europe, and North America pulled apart.\nWall Street: Some buildings contain stone that comes from Morocco in North Africa \nand contains coral fossils. The same 370-million-year-old coral fossils are also found in \nsome New York State surface bedrock.\nFoley Square: A building here is made of limestone that came from Indiana, a region \nthat was a sea floor during the Pennsylvanian Period.\nCentral Park: The exposed bedrock is schist, and is what remains of an ancient \nmountain that stood 15,000 feet high. This mountain formed from ocean-bottom mud \nthat was heated, squeezed, and folded upward under pressure.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 weathering and/or erosion \u2014 The mountain was weathered and eroded by ice and running water. \u2014 Glaciers wore away rock materials. Note: Do not allow credit for the name of an erosional agent along, such as \u201cglaciers\u201d or \u201crunning water,\u201d without an explanation of how these erosional agents reduce the mountain size. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Identify the two letters that indicate locations on transform plate boundaries.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the map below and on your knowledge of Earth science. \nThe map shows a portion of Earth\u2019s Tectonic Plates map from the 2011 Edition Reference Tables for Physical \nSetting/Earth Science. The arrows represent relative crustal plate movement. Letters A, B, C, D, E, F, G, and H \nrepresent locations on Earth\u2019s surface.\nHawaii\nHot Spot\nPhilippine\nPlate\nAl\ne\nu\nti\na\nn\n \nT\nr\ne\nn\nc\nh\nIndian-Australian\nPlate\nPaci\ufb01c\nPlate\nFiji Plate\nAntarctic\nPlate\nArabian\nPlate\nEurasian\nPlate\nEast\n A\nfr\ni\nc\na\nn\n \n \nR\ni\nf\nt\nM\ni\nd\n-\nI\nn\nd\ni\na\nn\n \nRi\ndge\n \nS\no\nut\nhe\nas\nt   \n In\ndia\nn R\nidg\ne\nSouthwest Indian\nRidge\nTasman\nHot Spot\nM\na\nr\ni\na\nn\na\nT\nr\ne\nn\nc\nh\nT\no\nn\ng\na\nT\nr\ne\nn\nc\nh\nG\nH\nD\nF\nC\nE\nB\nA",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for both B and F."
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Explain why earthquakes are more likely to occur near location H than near location A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the map below and on your knowledge of Earth science. \nThe map shows a portion of Earth\u2019s Tectonic Plates map from the 2011 Edition Reference Tables for Physical \nSetting/Earth Science. The arrows represent relative crustal plate movement. Letters A, B, C, D, E, F, G, and H \nrepresent locations on Earth\u2019s surface.\nHawaii\nHot Spot\nPhilippine\nPlate\nAl\ne\nu\nti\na\nn\n \nT\nr\ne\nn\nc\nh\nIndian-Australian\nPlate\nPaci\ufb01c\nPlate\nFiji Plate\nAntarctic\nPlate\nArabian\nPlate\nEurasian\nPlate\nEast\n A\nfr\ni\nc\na\nn\n \n \nR\ni\nf\nt\nM\ni\nd\n-\nI\nn\nd\ni\na\nn\n \nRi\ndge\n \nS\no\nut\nhe\nas\nt   \n In\ndia\nn R\nidg\ne\nSouthwest Indian\nRidge\nTasman\nHot Spot\nM\na\nr\ni\na\nn\na\nT\nr\ne\nn\nc\nh\nT\no\nn\ng\na\nT\nr\ne\nn\nc\nh\nG\nH\nD\nF\nC\nE\nB\nA",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 H is near a tectonic plate boundary. \u2014 A is farther away from a plate boundary. \u2014 Earthquakes are more frequent at plate boundaries."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Scientists infer that the magma that formed the hot spot at location E originates at the boundary between the stiffer mantle and the outer core. Determine the depth, in kilometers, below Earth\u2019s surface where the boundary between the stiffer mantle and the outer core is located.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the map below and on your knowledge of Earth science. \nThe map shows a portion of Earth\u2019s Tectonic Plates map from the 2011 Edition Reference Tables for Physical \nSetting/Earth Science. The arrows represent relative crustal plate movement. Letters A, B, C, D, E, F, G, and H \nrepresent locations on Earth\u2019s surface.\nHawaii\nHot Spot\nPhilippine\nPlate\nAl\ne\nu\nti\na\nn\n \nT\nr\ne\nn\nc\nh\nIndian-Australian\nPlate\nPaci\ufb01c\nPlate\nFiji Plate\nAntarctic\nPlate\nArabian\nPlate\nEurasian\nPlate\nEast\n A\nfr\ni\nc\na\nn\n \n \nR\ni\nf\nt\nM\ni\nd\n-\nI\nn\nd\ni\na\nn\n \nRi\ndge\n \nS\no\nut\nhe\nas\nt   \n In\ndia\nn R\nidg\ne\nSouthwest Indian\nRidge\nTasman\nHot Spot\nM\na\nr\ni\na\nn\na\nT\nr\ne\nn\nc\nh\nT\no\nn\ng\na\nT\nr\ne\nn\nc\nh\nG\nH\nD\nF\nC\nE\nB\nA",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 2800 km to 2999 km."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "State the name and the density of the igneous rock found at the surface of the Pacific Ocean crust.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the map below and on your knowledge of Earth science. \nThe map shows a portion of Earth\u2019s Tectonic Plates map from the 2011 Edition Reference Tables for Physical \nSetting/Earth Science. The arrows represent relative crustal plate movement. Letters A, B, C, D, E, F, G, and H \nrepresent locations on Earth\u2019s surface.\nHawaii\nHot Spot\nPhilippine\nPlate\nAl\ne\nu\nti\na\nn\n \nT\nr\ne\nn\nc\nh\nIndian-Australian\nPlate\nPaci\ufb01c\nPlate\nFiji Plate\nAntarctic\nPlate\nArabian\nPlate\nEurasian\nPlate\nEast\n A\nfr\ni\nc\na\nn\n \n \nR\ni\nf\nt\nM\ni\nd\n-\nI\nn\nd\ni\na\nn\n \nRi\ndge\n \nS\no\nut\nhe\nas\nt   \n In\ndia\nn R\nidg\ne\nSouthwest Indian\nRidge\nTasman\nHot Spot\nM\na\nr\ni\na\nn\na\nT\nr\ne\nn\nc\nh\nT\no\nn\ng\na\nT\nr\ne\nn\nc\nh\nG\nH\nD\nF\nC\nE\nB\nA",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses are acceptable. Acceptable responses include, but are not limited to: Rock name: \u2014 Basalt/basaltic Rock density: \u2014 3.0 g/cm3 \u2014 3 g/cm3"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw an X along the streambank where erosion is most likely greater than deposition.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 82 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows a stream and its tributary. Letters A and B are locations in the stream. The arrows \nindicate the direction of streamflow.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the center of an X is within or touches the clear region shown below. Note: It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating. B A (Not drawn to scale)"
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "The velocity of the stream was determined to be greater at location B than at location A. State one possible reason why the stream velocity was greater at location B.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 82 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows a stream and its tributary. Letters A and B are locations in the stream. The arrows \nindicate the direction of streamflow.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The discharge volume of water at location B is greater with the additional water from the tributary. \u2014 The volume of water is greater at B. \u2014 The slope at location B could be steeper so the water flows faster. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Describe one change that would occur to an angular pebble as it is transported by this stream for a longer period of time. P.S./",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 82 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows a stream and its tributary. Letters A and B are locations in the stream. The arrows \nindicate the direction of streamflow.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The pebble will become rounder. \u2014 The pebble will decrease in size and mass. \u2014 The pebble will become smoother. \u2014 The pebble will become smaller."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "On the graph in your answer booklet, construct a line graph by plotting the average monthly high air temperature for La Junta, Argentina, for each month listed on the data table. Connect the plots with a line. The average monthly high air temperatures for Antofagasta, Chile, have already been plotted on the graph.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the map below, the data table on the next page, and on your \nknowledge of Earth science. The map shows the location of the Atacama and Patagonia deserts in relation to the \nAndes Mountains in South America. The cities of Antofagasta, Chile, and La Junta, Argentina, are shown. The \ndata table shows the average monthly high air temperatures for Antofagasta and La Junta.\nA n\nd\ne\ns\nM o u\nn t\na\ni\nn s\n45\u00b0W\n60\u00b0 W\n75\u00b0 W\n30\u00b0 W\n90\u00b0 W\n45\u00b0 S\n0\u00b0\n15\u00b0 S\n45\u00b0 S\n30\u00b0 S\n0\u00b0\n15\u00b0 S\n45\u00b0 W\n60\u00b0 W\n75\u00b0 W\n90\u00b0 W\nS o u t h  A m e r i c a\n30\u00b0 S\n105\u00b0 W\nLa Junta\nAntofagasta\nKEY\nAtacama\nDesert\nPatagonia\nDesert\n\nP.S./E. Sci.\u2013Aug. \u201923\t\n[31]\t\nAverage Monthly High Air Temperatures\nMonth\nAntofagasta Air\nTemperature (\u00b0C)\nLa Junta Air\nTemperature (\u00b0C)\nJanuary\n24\n29\nFebruary\n24\n28\nMarch\n23\n25\nApril\n21\n20\nMay\n19\n16\nJune\n18\n13\nJuly\n17\n13\nAugust\n17\n15\nSeptember\n18\n17\nOctober\n19\n22\nNovember\n20\n25\nDecember\n22\n28",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all twelve student plots are within or touch the circles shown and are correctly connected with a line that passes within or touches each circle. Note: Allow credit if the student line does not pass through the student plots but is still within or touches the circles. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating. 30 10 12 14 16 18 20 22 24 26 28 30 10 12 14 16 18 20 22 24 26 28 Month Average Monthly High Air Temperatures Air Temperature (\u00b0C) Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Ant ofaga s t a , C h i l e"
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "State one reason Antofagasta, Chile, has a smaller yearly temperature range than La Junta, Argentina.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the map below, the data table on the next page, and on your \nknowledge of Earth science. The map shows the location of the Atacama and Patagonia deserts in relation to the \nAndes Mountains in South America. The cities of Antofagasta, Chile, and La Junta, Argentina, are shown. The \ndata table shows the average monthly high air temperatures for Antofagasta and La Junta.\nA n\nd\ne\ns\nM o u\nn t\na\ni\nn s\n45\u00b0W\n60\u00b0 W\n75\u00b0 W\n30\u00b0 W\n90\u00b0 W\n45\u00b0 S\n0\u00b0\n15\u00b0 S\n45\u00b0 S\n30\u00b0 S\n0\u00b0\n15\u00b0 S\n45\u00b0 W\n60\u00b0 W\n75\u00b0 W\n90\u00b0 W\nS o u t h  A m e r i c a\n30\u00b0 S\n105\u00b0 W\nLa Junta\nAntofagasta\nKEY\nAtacama\nDesert\nPatagonia\nDesert\n\nP.S./E. Sci.\u2013Aug. \u201923\t\n[31]\t\nAverage Monthly High Air Temperatures\nMonth\nAntofagasta Air\nTemperature (\u00b0C)\nLa Junta Air\nTemperature (\u00b0C)\nJanuary\n24\n29\nFebruary\n24\n28\nMarch\n23\n25\nApril\n21\n20\nMay\n19\n16\nJune\n18\n13\nJuly\n17\n13\nAugust\n17\n15\nSeptember\n18\n17\nOctober\n19\n22\nNovember\n20\n25\nDecember\n22\n28",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Antofagasta is located near a large body of water/ocean. \u2014 La Junta is located in the interior of the continent. \u2014 Large bodies of water moderate air temperatures. \u2014 Antofagasta is a coastal location. \u2014 La Junta\u2019s climate is not moderated by a large body of water. \u2014 Water has a high specific heat and changes temperatures more slowly, and Antofagasta is closer to a large body of water. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Explain why both Antofagasta and La Junta have their coolest air temperatures for the year in June, July, and August, and their warmest air temperatures for the year in December, January, and February. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2023/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the map below, the data table on the next page, and on your \nknowledge of Earth science. The map shows the location of the Atacama and Patagonia deserts in relation to the \nAndes Mountains in South America. The cities of Antofagasta, Chile, and La Junta, Argentina, are shown. The \ndata table shows the average monthly high air temperatures for Antofagasta and La Junta.\nA n\nd\ne\ns\nM o u\nn t\na\ni\nn s\n45\u00b0W\n60\u00b0 W\n75\u00b0 W\n30\u00b0 W\n90\u00b0 W\n45\u00b0 S\n0\u00b0\n15\u00b0 S\n45\u00b0 S\n30\u00b0 S\n0\u00b0\n15\u00b0 S\n45\u00b0 W\n60\u00b0 W\n75\u00b0 W\n90\u00b0 W\nS o u t h  A m e r i c a\n30\u00b0 S\n105\u00b0 W\nLa Junta\nAntofagasta\nKEY\nAtacama\nDesert\nPatagonia\nDesert\n\nP.S./E. Sci.\u2013Aug. \u201923\t\n[31]\t\nAverage Monthly High Air Temperatures\nMonth\nAntofagasta Air\nTemperature (\u00b0C)\nLa Junta Air\nTemperature (\u00b0C)\nJanuary\n24\n29\nFebruary\n24\n28\nMarch\n23\n25\nApril\n21\n20\nMay\n19\n16\nJune\n18\n13\nJuly\n17\n13\nAugust\n17\n15\nSeptember\n18\n17\nOctober\n19\n22\nNovember\n20\n25\nDecember\n22\n28",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Earth\u2019s southern axis is tilted toward the Sun in December, January, and February, producing warmer temperatures. \u2014 In the Southern Hemisphere, summer occurs in December, January, and February, and winter occurs in June, July, and August. \u2014 The intensity and duration of insolation is greatest in December, January, and February at these locations. \u2014 Both cities are located in the Southern Hemisphere. Note: Do not allow credit for \u201cthe cities are located in South America\u201d or \u201cSouth America is located below the equator\u201d because parts of South America are located above the equator. Do not allow credit for \u201cthe Southern Hemisphere faces the Sun\u201d because part of the Northern Hemisphere also faces the Sun during daylight hours. Do not allow credit for \u201cEarth is tilted toward the Sun\u201d because only the Southern Hemisphere is tilted toward the Sun. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    }
+  ]
+}

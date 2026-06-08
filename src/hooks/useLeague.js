@@ -1,0 +1,162 @@
+import { useState, useEffect, useCallback, useRef } from 'react'
+import {
+  collection, query, where, getDocs,
+  doc, getDoc, setDoc, orderBy, limit,
+} from 'firebase/firestore'
+import { db } from '../firebase'
+import { getWeekKey } from './useXP'
+
+export const TIERS = ['bronze', 'silver', 'gold', 'diamond']
+
+export const TIER_META = {
+  bronze:  { label: 'Bronze',  emoji: '🥉', color: '#CD7F32', light: '#FEF3E2', dark: '#2D1F0D' },
+  silver:  { label: 'Silver',  emoji: '🥈', color: '#8C9BAB', light: '#F0F4F8', dark: '#1A1F25' },
+  gold:    { label: 'Gold',    emoji: '🥇', color: '#D97706', light: '#FFFBE6', dark: '#2D2000' },
+  diamond: { label: 'Diamond', emoji: '💎', color: '#1CB0F6', light: '#EBF8FF', dark: '#001D2D' },
+}
+
+export const PROMOTE_N  = 10
+export const DEMOTE_N   = 5
+export const LEAGUE_CAP = 50
+
+export function dynamicCounts(total) {
+  return {
+    promote: Math.min(PROMOTE_N, Math.max(1, Math.round(total * 0.2))),
+    demote:  Math.min(DEMOTE_N,  Math.max(0, Math.round(total * 0.15))),
+  }
+}
+
+export function msUntilReset() {
+  const now = new Date()
+  const utcDay = now.getUTCDay()
+  const daysToMonday = utcDay === 0 ? 1 : utcDay === 1 ? 7 : 8 - utcDay
+  const nextMon = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + daysToMonday))
+  return nextMon.getTime() - now.getTime()
+}
+
+export function formatCountdown(ms) {
+  if (ms <= 0) return 'Resetting…'
+  const d = Math.floor(ms / 86_400_000)
+  const h = Math.floor((ms % 86_400_000) / 3_600_000)
+  const m = Math.floor((ms % 3_600_000) / 60_000)
+  if (d > 0) return `${d}d ${h}h ${m}m`
+  if (h > 0) return `${h}h ${m}m`
+  return `${m}m`
+}
+
+export function useLeague(uid) {
+  const [tier,         setTier]         = useState('bronze')
+  const [members,      setMembers]      = useState([])
+  const [loading,      setLoading]      = useState(true)
+  const [justPromoted, setJustPromoted] = useState(false)
+  const [justDemoted,  setJustDemoted]  = useState(false)
+  const [promoteN,     setPromoteN]     = useState(PROMOTE_N)
+  const [demoteN,      setDemoteN]      = useState(DEMOTE_N)
+
+  const uidRef = useRef(uid)
+  uidRef.current = uid
+
+  useEffect(() => {
+    if (!uid) { setLoading(false); return }
+    initLeague(uid)
+  }, [uid])
+
+  async function initLeague(uid) {
+    setLoading(true)
+    try {
+      const lbRef  = doc(db, 'leaderboard', uid)
+      const lbSnap = await getDoc(lbRef)
+      const lb     = lbSnap.exists() ? lbSnap.data() : {}
+
+      let currentTier = lb.tier ?? 'bronze'
+      const currentWeek = getWeekKey()
+
+      if (!lb.tier) {
+        await setDoc(lbRef, { tier: 'bronze' }, { merge: true })
+      }
+
+      const hasLastWeek = lb.lastWeekKey && lb.lastWeekKey !== currentWeek
+      const notChecked  = lb.promotionChecked !== currentWeek
+
+      if (hasLastWeek && notChecked) {
+        const outcome = await computeOutcome(uid, currentTier, lb.lastWeekKey, lb.lastWeekXP ?? 0)
+        const idx = TIERS.indexOf(currentTier)
+        if (outcome === 'promoted' && idx < TIERS.length - 1) {
+          currentTier = TIERS[idx + 1]
+          setJustPromoted(true)
+        } else if (outcome === 'demoted' && idx > 0) {
+          currentTier = TIERS[idx - 1]
+          setJustDemoted(true)
+        }
+        await setDoc(lbRef, { tier: currentTier, promotionChecked: currentWeek }, { merge: true })
+      }
+
+      setTier(currentTier)
+      await loadMembers(currentTier, currentWeek)
+    } catch (e) {
+      console.warn('[useLeague] init error', e)
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  async function computeOutcome(uid, tier, lastWeekKey, myLastXP) {
+    try {
+      const q = query(
+        collection(db, 'leaderboard'),
+        where('tier',        '==', tier),
+        where('lastWeekKey', '==', lastWeekKey),
+        orderBy('lastWeekXP', 'desc'),
+        limit(LEAGUE_CAP),
+      )
+      const snap   = await getDocs(q)
+      const ranked = snap.docs.map((d) => ({ uid: d.id, xp: d.data().lastWeekXP ?? 0 }))
+      const myRank = ranked.findIndex((m) => m.uid === uid) + 1
+      if (myRank === 0) return 'none'
+      const total = ranked.length
+      const { promote, demote } = dynamicCounts(total)
+      const demoteFrom = Math.max(total - demote + 1, promote + 1)
+      if (myRank <= promote && tier !== 'diamond') return 'promoted'
+      if (demote > 0 && myRank >= demoteFrom && tier !== 'bronze') return 'demoted'
+      return 'none'
+    } catch { return 'none' }
+  }
+
+  async function loadMembers(tier, weekKey) {
+    try {
+      const q = query(
+        collection(db, 'leaderboard'),
+        where('tier', '==', tier),
+        orderBy('weeklyXP', 'desc'),
+        limit(LEAGUE_CAP),
+      )
+      const snap = await getDocs(q)
+      const list = snap.docs.map((d) => {
+        const data = d.data()
+        const weekXP = data.weekKey === weekKey ? (data.weeklyXP ?? 0) : 0
+        return { uid: d.id, displayName: data.displayName ?? 'Student', weeklyXP: weekXP, xp: data.xp ?? 0 }
+      })
+      list.sort((a, b) => b.weeklyXP - a.weeklyXP || b.xp - a.xp)
+      const { promote, demote } = dynamicCounts(list.length)
+      setPromoteN(promote)
+      setDemoteN(demote)
+      setMembers(list)
+    } catch (e) {
+      console.warn('[useLeague] loadMembers error', e)
+    }
+  }
+
+  const refresh = useCallback(async () => {
+    const uid = uidRef.current
+    if (!uid) return
+    setLoading(true)
+    try {
+      const lbSnap = await getDoc(doc(db, 'leaderboard', uid))
+      const t = lbSnap.exists() ? (lbSnap.data().tier ?? 'bronze') : 'bronze'
+      setTier(t)
+      await loadMembers(t, getWeekKey())
+    } finally { setLoading(false) }
+  }, [])
+
+  return { tier, members, loading, justPromoted, justDemoted, refresh, promoteN, demoteN }
+}

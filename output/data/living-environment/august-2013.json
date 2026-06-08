@@ -1,0 +1,1051 @@
+{
+  "subject": "living-environment",
+  "session": "august-2013",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The organisms in a pond and the physical factors influencing them best describe",
+      "choices": [
+        "a population",
+        "an ecosystem",
+        "a biosphere",
+        "a food chain"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "written",
+      "text": "Which row in the chart below best describes decomposers?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Some processes that occur in a cell are listed below. A. utilize energy B. detect changes in the environment C. rearrange and synthesize chemical compounds Which processes will all living organisms use to maintain homeostasis?",
+      "choices": [
+        "A and B, only",
+        "B and C, only",
+        "C and A, only",
+        "A, B, and C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which cell structures are correctly paired with their functions?",
+      "choices": [
+        "The mitochondria produce enzymes, and ribosomes transport them.",
+        "The ribosomes make proteins, and the nucleus stores genetic information.",
+        "The cell membrane makes enzymes, and cytoplasm transports them.",
+        "The vacuole stores genetic information, and chloroplasts make proteins."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the region between two nerve cells. Cell A releases a chemical that travels to and binds with structure X on cell B. Structure X most likely represents",
+      "choices": [
+        "a receptor molecule",
+        "an inorganic substance",
+        "a ribosome",
+        "an antibody"
+      ],
+      "image": "/images/exams/living-environment/august-2013/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Over the past few thousand years, humans have helped to bring about changes in many plant and animal species in order to make them more useful. Examples include strong workhorses, hunting dogs, large-eared corn, and beautiful flower varieties. These changes were primarily brought about by humans, using the process of",
+      "choices": [
+        "mitosis",
+        "selective breeding",
+        "cloning",
+        "natural selection"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Certain antibacterial soaps kill 99% of the bacteria present on hands. Constant use of these soaps could be harmful over time because",
+      "choices": [
+        "autotrophic nutrients",
+        "heterotrophic nutrients",
+        "autotrophic energy",
+        "heterotrophic energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which factor would cause two specialized tissues that contain identical chromosomes to function differently?",
+      "choices": [
+        "Specific sections of DNA molecules in the chromosomes are activated.",
+        "All of the sections of DNA molecules in the chromosomes are activated.",
+        "Specific sections of the amino acid molecules in the cytoplasm are activated.",
+        "All of the amino acid molecules in the cytoplasm are activated."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Some variation must be present in a population in order for natural selection to take place. These variations arise from mutations in the DNA and",
+      "choices": [
+        "sorting of chromosomes during sexual reproduction",
+        "combining of chromosomes during organ development",
+        "changing of chromosomes during cloning",
+        "removal of chromosomes during selective breeding"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a segment of a gene on two chromosomes. The change in the gene sequence is an example of",
+      "choices": [
+        "an insertion",
+        "a deletion",
+        "a substitution",
+        "a replication"
+      ],
+      "image": "/images/exams/living-environment/august-2013/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "In a certain species of insect, some individuals have flattened white disks on their bodies that protrude and interlock, resembling an orchid flower. This adaptation provides the insect with a better opportunity to capture its prey. If environmental conditions remain unchanged, it is most likely that, in future generations, the pro- portion of the population with this adaptation will",
+      "choices": [
+        "increase, only",
+        "decrease, only",
+        "increase, then decrease",
+        "decrease, then increase"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which structure is correctly paired with its function?",
+      "choices": [
+        "ovary \u2014 provides milk for newborns",
+        "testis \u2014 development of sperm",
+        "placenta \u2014 storage of released eggs",
+        "uterus \u2014 produces estrogen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The fruit fly represented in the diagram below has unusual, curled wings that formed after exposure to radiation. In order for the fly to pass this trait on to its offspring, a change had to occur in",
+      "choices": [
+        "the blood cells of the fly",
+        "the gametes of the fly",
+        "all the body cells of the fly",
+        "the muscles of the fly"
+      ],
+      "image": "/images/exams/living-environment/august-2013/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "In a population of birds, the percentage of individuals having a certain gene changes from 20% to 60% over the span of several hundred years. This situation will most likely affect the rate of",
+      "choices": [
+        "biological evolution",
+        "asexual reproduction",
+        "gene mutation",
+        "ecological succession"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The finite resources of Earth are often affected by increasing human consumption. These finite resources are",
+      "choices": [
+        "not renewable over a short period of time",
+        "the products of rapid human population growth",
+        "the result of deforestation",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A student made the drawing shown below of a single-celled organism as he observed it with a compound light microscope under the high-power objective. Several minutes later, he drew the diagram shown below of the same organism, using the same magnification. These drawings show that the organism is carrying out the process of",
+      "choices": [
+        "asexual reproduction",
+        "sexual reproduction",
+        "embryo formation",
+        "genetic alteration"
+      ],
+      "image": "/images/exams/living-environment/august-2013/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which statement best describes why pathogens are harmful?",
+      "choices": [
+        "All of the cells of an organism infected by pathogens become pathogens.",
+        "Pathogens cannot be controlled once they enter the cells of an organism.",
+        "Pathogens produce antibodies that will kill the host organism.",
+        "Pathogens can interfere with normal life functions."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "In 1996, scientists cloned the first mammal, a sheep. This technique involved the removal of the nucleus from an egg cell. The nucleus from a cell of another adult sheep was then inserted into this egg cell. Once this cell began to develop into an embryo, it was implanted into a third female sheep that later gave birth to a healthy lamb, Dolly. Which statement concerning Dolly is correct?",
+      "choices": [
+        "Her offspring would be genetically identical.",
+        "Dolly and her DNA donor are genetically identical.",
+        "Two different gametes were manipulated to produce Dolly.",
+        "Dolly was produced by the recombination of genetic material."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which activity would most likely increase the mutation rate in a culture of bacteria being grown in a laboratory experiment?",
+      "choices": [
+        "adding more distilled water to the culture",
+        "adding excess nutrients to the culture",
+        "exposing the culture to a higher concentration of CO2",
+        "exposing the culture to ultraviolet radiation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which two processes are responsible for keeping the percentage of atmospheric oxygen at relatively constant levels?",
+      "choices": [
+        "circulation and coordination",
+        "respiration and coordination",
+        "respiration and photosynthesis",
+        "photosynthesis and circulation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Chemicals that help chemical reactions occur at faster rates in living organisms are known as",
+      "choices": [
+        "biotic resources",
+        "simple sugars",
+        "oxygen molecules",
+        "organic catalysts"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The action of insulin on sugar levels in the blood helps to",
+      "choices": [
+        "interfere with homeostasis",
+        "maintain dynamic equilibrium",
+        "coordinate enzyme production",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "An individual recovers from the common cold, which is caused by rhinovirus A. The person then becomes infected with the avian influenza virus, which causes the bird flu. Which statement best describes what will most likely happen to this person?",
+      "choices": [
+        "He will have the symptoms of the bird flu because he is not immune to the avian influenza virus.",
+        "He will have the symptoms of the common cold because he is not immune to the avian influenza virus.",
+        "He will not have the symptoms of the bird flu because he is immune to rhinovirus A.",
+        "He will not have the symptoms of the common cold because the avian influenza virus causes it."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The wetland plant purple loosestrife was imported to North America from Europe. Since its introduction, the loosestrife has spread, which has resulted in a dramatic decline in the biological diversity of native wetland plants. A likely reason for the spread of the purple loosestrife is that it can",
+      "choices": [
+        "successfully compete with native herbivores for food",
+        "serve as an excellent food source for native herbivores",
+        "successfully compete with native plants for space",
+        "prevent the migration of native plants"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Deer ticks are responsible for spreading Lyme disease. This organism, which feeds on the blood of warm-blooded organisms like mice, deer, and humans, is best described as a",
+      "choices": [
+        "predator",
+        "scavenger",
+        "parasite",
+        "host"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Years ago, an article was written titled \u201cMedicine Chest in the Jungle.\u201d This article most likely described the",
+      "choices": [
+        "potential for ecosystems to be a source for new drugs",
+        "dangers of poisonous jungle plants and animals",
+        "deforestation of jungles for the development of large pharmacies",
+        "use of antibiotics to treat certain disorders in trees"
+      ],
+      "image": "/images/exams/living-environment/august-2013/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "After a building was torn down and the area was cleared, grasses began to grow in the area. Several years later, small bushes replaced the grasses. This pattern of plant growth is known as ecological",
+      "choices": [
+        "stability",
+        "cultivation",
+        "succession",
+        "coordination"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "A human activity that could significantly decrease the amount of carbon dioxide in the air is",
+      "choices": [
+        "increasing the use of fossil fuel",
+        "controlling insect pests that eat stored grain",
+        "burning garbage and trash to generate electricity",
+        "preserving and expanding forest habitats that shelter wildlife"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Ethanol-fueled vehicles have increased in popu- larity as people try to be more environmentally responsible. Ethanol can be made from corn. Some farmers are clearing forests and planting large expanses of corn to meet the rising demand. Which statement describes a likely result of this increased corn production?",
+      "choices": [
+        "There will be a reduction in the biodiversity of areas that are converted to grow corn.",
+        "The corn will produce more carbon dioxide than it uses, contributing to global warming.",
+        "Insect biodiversity in the area will increase.",
+        "Growing more corn will increase the nutrient content of the soil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Windmills that generate electricity are being built in coastal areas. The main benefit of these windmills is that they",
+      "choices": [
+        "produce finite resources",
+        "reduce dependency on fuels that cause air pollution",
+        "absorb the noise of passing boats",
+        "maintain the salt concentration in the ocean"
+      ],
+      "image": "/images/exams/living-environment/august-2013/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "The dichotomous key below provides a way to classify some animals into groups according to their physical characteristics. The key can be used to classify each of the four animals represented below. Which row in the chart shows the correct classification group for each animal?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Part of a process necessary for reproduction in complex organisms is represented below. Step C results in the production of",
+      "choices": [
+        "group D group D group A group B",
+        "group B group A group D group C",
+        "group B group D group A group C",
+        "group D group A group A group B Wasp Ant Tiger Bird Dichotomous Key I wings\u2026\u2026\u2026\u2026\u2026\u2026. go to II no wings\u2026\u2026\u2026\u2026\u2026 group A II feathers\u2026\u2026\u2026\u2026\u2026. group B no feathers\u2026\u2026\u2026\u2026 go to III III two legs\u2026\u2026\u2026\u2026\u2026. group C six legs\u2026\u2026\u2026\u2026\u2026.. group D"
+      ],
+      "image": "/images/exams/living-environment/august-2013/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The diagram below represents an evolutionary tree. Which statement best describes species E?",
+      "choices": [
+        "Species D is an ancestor of species E.",
+        "Through natural selection, species E produced increased survival mechanisms.",
+        "Species E had greater success due to patterns of behavior.",
+        "Species E had insufficient adaptive characteristics for survival in a changing environment."
+      ],
+      "image": "/images/exams/living-environment/august-2013/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The diagram below represents one type of white blood cell. This type of white blood cell ingests microbes. A function of another type of white blood cell is to",
+      "choices": [
+        "prevent the loss of blood from a wound",
+        "produce specialized molecules that mark invaders",
+        "increase the number of red blood cells in the blood",
+        "cause gene mutations that will increase immune responses"
+      ],
+      "image": "/images/exams/living-environment/august-2013/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The table below indicates a reproductive pattern in some sea turtles when eggs develop in areas with differing temperatures. The sex of turtle offspring is most probably",
+      "choices": [
+        "determined only by genes inherited from the parent turtles",
+        "controlled entirely by the location where the young are raised",
+        "a result of genetic information being influenced by environmental conditions",
+        "an identical pattern to the reproductive pattern found in humans"
+      ],
+      "image": "/images/exams/living-environment/august-2013/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a food web. Which statement regarding organisms in this food web is correct?",
+      "choices": [
+        "There would be more snakes than pocket gophers.",
+        "There would be more coyotes than rabbits.",
+        "There would be more insects than insect- eating birds.",
+        "There would be more hawks than seed- eating birds. Coyotes Pocket gophers Snakes Lice Hawks Seed-eating birds Insect-eating birds Spiders Rabbits Grasses, Shrubs Deer Insects Frogs Sex Determination in Sea Turtles Temperature (\u00b0C) Offspring Produced below 23 usually none 23\u201327 mostly males 28\u201330 50/50 males: females 31\u201333 mostly females above 33"
+      ],
+      "image": "/images/exams/living-environment/august-2013/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "What will most likely happen to the action of an enzyme from the small intestine if it is placed in an environment similar to the environment in which enzyme C functions best?",
+      "choices": [
+        "It would no longer be able to function because the environment is too acidic.",
+        "It would adapt to the new environment and start carrying out the same function as enzyme C.",
+        "It would continue to function because it is able to modify the pH of the environment.",
+        "It would be able to function because the pH of the environment is similar to that of the intestine."
+      ],
+      "image": "/images/exams/living-environment/august-2013/context_37_39.png",
+      "context": "Base your answers to questions 37 through 39 on the information and graph below and on your knowledge\nof biology.\nThe pH of the internal environment of lysosomes (organelles that contain digestive\nenzymes) is approximately 4.5, while the pH of the surrounding cytoplasm is \napproximately 7. The average pH of the human stomach during digestion is approximately\n2.5, while the average pH of the small intestine during digestion is about 8.\nThe graph below shows how pH affects the enzyme activity of four different enzymes,\nA, B, C, and D.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Lysosomes break open during the process of digestion, releasing enzymes into the cytoplasm. Which statement may explain why the entire cell may not be digested?",
+      "choices": [
+        "The acidic environment of the cytoplasm destroys the enzymes.",
+        "Antibodies in the cytoplasm break down foreign enzymes.",
+        "The pH of the cytoplasm causes the enzymes to function less effectively.",
+        "Enzymes can function only in the location where they are synthesized."
+      ],
+      "image": "/images/exams/living-environment/august-2013/context_37_39.png",
+      "context": "Base your answers to questions 37 through 39 on the information and graph below and on your knowledge\nof biology.\nThe pH of the internal environment of lysosomes (organelles that contain digestive\nenzymes) is approximately 4.5, while the pH of the surrounding cytoplasm is \napproximately 7. The average pH of the human stomach during digestion is approximately\n2.5, while the average pH of the small intestine during digestion is about 8.\nThe graph below shows how pH affects the enzyme activity of four different enzymes,\nA, B, C, and D.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which enzyme functions best in a pH environment most similar to that of human stomach enzymes?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D Relative Rate of Enzyme Activity pH 7 A B C D 1 14 Acid Base The Effect of pH on Enzyme Activity"
+      ],
+      "image": "/images/exams/living-environment/august-2013/context_37_39.png",
+      "context": "Base your answers to questions 37 through 39 on the information and graph below and on your knowledge\nof biology.\nThe pH of the internal environment of lysosomes (organelles that contain digestive\nenzymes) is approximately 4.5, while the pH of the surrounding cytoplasm is \napproximately 7. The average pH of the human stomach during digestion is approximately\n2.5, while the average pH of the small intestine during digestion is about 8.\nThe graph below shows how pH affects the enzyme activity of four different enzymes,\nA, B, C, and D.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "written",
+      "text": "The blood glucose range for a healthy adult is 65\u2013104 mg/dL. Which graph best illustrates normal blood glucose levels in a healthy adult over the course of a day?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The decrease in the honeybee population is partly due to",
+      "choices": [
+        "the use of pesticides",
+        "a decrease in prey",
+        "the use of fertilizers",
+        "a decrease in fruits and vegetables"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 41 through 43 on the information below and on your knowledge of biology.\n\u2026Unless actions are taken to slow the decline of domesticated honeybees and augment\n[increase] their populations with wild bees, many fruits and vegetables may disappear from\nthe food supply, said Claire Kremen, a conservation biologist at Princeton University in\nNew Jersey.\u2026\nThe honeybee decline, which is affecting domesticated and wild bee populations\naround the world, is mostly the result of diseases spread as a result of mites and other \nparasites as well as the spraying of crops with pesticides, scientists say.\u2026\nSource: \u201cBee Declines May Spell End of Some Fruits, Vegetables,\u201d \nNational Geographic News, October 5, 2005",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "A decrease in honeybee populations will",
+      "choices": [
+        "eliminate the need to spray crops",
+        "increase the number of bee parasites",
+        "reduce the occurrence of natural disasters",
+        "disrupt the stability of an ecosystem"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 41 through 43 on the information below and on your knowledge of biology.\n\u2026Unless actions are taken to slow the decline of domesticated honeybees and augment\n[increase] their populations with wild bees, many fruits and vegetables may disappear from\nthe food supply, said Claire Kremen, a conservation biologist at Princeton University in\nNew Jersey.\u2026\nThe honeybee decline, which is affecting domesticated and wild bee populations\naround the world, is mostly the result of diseases spread as a result of mites and other \nparasites as well as the spraying of crops with pesticides, scientists say.\u2026\nSource: \u201cBee Declines May Spell End of Some Fruits, Vegetables,\u201d \nNational Geographic News, October 5, 2005",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Some honeybees have been able to survive the changes in their environment and reproduce. This is most likely due to",
+      "choices": [
+        "the aggressive behavior of wild bees",
+        "an abundance of food sources for the bees",
+        "genetic diversity in the bees",
+        "lack of mutations in the bees ( 3 ) Blood Glucose Level Time Blood Glucose Level Time 140 mg/dL 140 mg/dL Blood Glucose Level Time Blood Glucose Level Time 140 mg/dL 140 mg/dL ( 2 ) ( 4 ) ( 1 )"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 41 through 43 on the information below and on your knowledge of biology.\n\u2026Unless actions are taken to slow the decline of domesticated honeybees and augment\n[increase] their populations with wild bees, many fruits and vegetables may disappear from\nthe food supply, said Claire Kremen, a conservation biologist at Princeton University in\nNew Jersey.\u2026\nThe honeybee decline, which is affecting domesticated and wild bee populations\naround the world, is mostly the result of diseases spread as a result of mites and other \nparasites as well as the spraying of crops with pesticides, scientists say.\u2026\nSource: \u201cBee Declines May Spell End of Some Fruits, Vegetables,\u201d \nNational Geographic News, October 5, 2005",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks, on the axis labeled \u201cNumber of Pups.\u201d",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nYellowstone Park Wolf Update\nFor the first time in nearly 70 years, the howl of the wolf is being echoed throughout\nYellowstone National Park. Canis lupus, the gray wolf, one of the largest and most complex\nof the canine species, has been successfully reintroduced into the Yellowstone ecosystem.\nIn mid-January 1995, 14 wolves from many separate packs were captured in Canada and\nthen transported into Yellowstone Park and placed into three one acre pens.\u2026\nSource: http://www.yellowstone-bearman.com/w-update.html\nAfter the wolves were given time to establish a new pack structure, the packs were released into the wild.\nThe number of wolf pups was counted each year for four years. The data are shown in the table below.\nDirections (44\u201345): Using the information in the data table, construct a bar graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Construct vertical bars to represent the data. Shade in each bar. Number of Wolf Pups Observed Year Number of Pups 1996 11 1997 64 1998 42 1999 61",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nYellowstone Park Wolf Update\nFor the first time in nearly 70 years, the howl of the wolf is being echoed throughout\nYellowstone National Park. Canis lupus, the gray wolf, one of the largest and most complex\nof the canine species, has been successfully reintroduced into the Yellowstone ecosystem.\nIn mid-January 1995, 14 wolves from many separate packs were captured in Canada and\nthen transported into Yellowstone Park and placed into three one acre pens.\u2026\nSource: http://www.yellowstone-bearman.com/w-update.html\nAfter the wolves were given time to establish a new pack structure, the packs were released into the wild.\nThe number of wolf pups was counted each year for four years. The data are shown in the table below.\nDirections (44\u201345): Using the information in the data table, construct a bar graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "State one positive result of reintroducing wolves into Yellowstone Park.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nYellowstone Park Wolf Update\nFor the first time in nearly 70 years, the howl of the wolf is being echoed throughout\nYellowstone National Park. Canis lupus, the gray wolf, one of the largest and most complex\nof the canine species, has been successfully reintroduced into the Yellowstone ecosystem.\nIn mid-January 1995, 14 wolves from many separate packs were captured in Canada and\nthen transported into Yellowstone Park and placed into three one acre pens.\u2026\nSource: http://www.yellowstone-bearman.com/w-update.html\nAfter the wolves were given time to establish a new pack structure, the packs were released into the wild.\nThe number of wolf pups was counted each year for four years. The data are shown in the table below.\nDirections (44\u201345): Using the information in the data table, construct a bar graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The number of wolves that can be supported in this environment for a long period of time is known as",
+      "choices": [
+        "ecosystem stability",
+        "carrying capacity",
+        "ecological succession",
+        "biological evolution"
+      ],
+      "image": "/images/exams/living-environment/august-2013/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nYellowstone Park Wolf Update\nFor the first time in nearly 70 years, the howl of the wolf is being echoed throughout\nYellowstone National Park. Canis lupus, the gray wolf, one of the largest and most complex\nof the canine species, has been successfully reintroduced into the Yellowstone ecosystem.\nIn mid-January 1995, 14 wolves from many separate packs were captured in Canada and\nthen transported into Yellowstone Park and placed into three one acre pens.\u2026\nSource: http://www.yellowstone-bearman.com/w-update.html\nAfter the wolves were given time to establish a new pack structure, the packs were released into the wild.\nThe number of wolf pups was counted each year for four years. The data are shown in the table below.\nDirections (44\u201345): Using the information in the data table, construct a bar graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "State one possible reason why the wolf population showed a decline from 1997 to 1998. Number of Wolf Pups Observed Year Number of Pups 1996 1997 1998 1999",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nYellowstone Park Wolf Update\nFor the first time in nearly 70 years, the howl of the wolf is being echoed throughout\nYellowstone National Park. Canis lupus, the gray wolf, one of the largest and most complex\nof the canine species, has been successfully reintroduced into the Yellowstone ecosystem.\nIn mid-January 1995, 14 wolves from many separate packs were captured in Canada and\nthen transported into Yellowstone Park and placed into three one acre pens.\u2026\nSource: http://www.yellowstone-bearman.com/w-update.html\nAfter the wolves were given time to establish a new pack structure, the packs were released into the wild.\nThe number of wolf pups was counted each year for four years. The data are shown in the table below.\nDirections (44\u201345): Using the information in the data table, construct a bar graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Some levels of organization in a multicellular organism are shown in the sequence below. A \u2192cells \u2192tissues \u2192B \u2192organ systems \u2192organism Which terms represented by letters A and B would complete the sequence?",
+      "choices": [
+        "A\u2013gametes; B\u2013zygote",
+        "A\u2013zygote; B\u2013gametes",
+        "A\u2013organs; B\u2013organelles",
+        "A\u2013organelles; B\u2013organs"
+      ],
+      "image": "/images/exams/living-environment/august-2013/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The BMI for a person who is 5 feet 9 inches tall and weighs 170 pounds is between",
+      "choices": [
+        "24 and 25",
+        "25 and 26",
+        "27 and 28",
+        "29 and 30"
+      ],
+      "image": "/images/exams/living-environment/august-2013/context_50_53.png",
+      "context": "Base your answers to questions 50 through 53 on the information and chart below and on your knowledge\nof biology.\nExcess body weight is considered to be a risk factor for diseases such as diabetes and\nhigh blood pressure. The Body Mass Index (BMI) chart below can be used as a guide to\ndetermine if a person\u2019s body weight puts that person at risk for such diseases.\nHealthy\n19\n24\nOverweight\n25\n26\n27\n28\n29\nObese\n30\n35\n40\n45\nBMI\nHeight\nWeight in Pounds\n5'0''\n5'1''\n5'2''\n5'3''\n97\n123\n100\n127\n104\n131\n107\n135\n128\n133\n138\n143\n148\n132\n137\n143\n148\n153\n136\n142\n147\n153\n158\n141\n146\n152\n158\n163\n153\n179\n204\n230\n158\n185\n211\n238\n164\n191\n218\n246\n169\n197\n225\n254\n5'4''\n5'5'' \n5'6''\n5'7''\n110\n140\n114\n144\n118\n148\n121\n153\n145\n151\n157\n163\n169\n150\n156\n162\n168\n174\n155\n161\n167\n173\n179\n159\n166\n172\n178\n185\n174\n204\n232\n262\n180\n210\n240\n270\n186\n216\n247\n278\n191\n223\n255\n287\n5'8''\n5'9''\n5'10''\n5'11''\n125\n158\n128\n162\n132\n167\n136\n172\n164\n171\n177\n184\n190\n169\n176\n182\n189\n196\n174\n181\n188\n195\n202\n179\n186\n193\n200\n208\n197\n230\n262\n295\n203\n236\n270\n304\n209\n243\n278\n313\n215\n250\n286\n322\n6'0''\n6'1''\n6'2''\n6'3''\n140\n177\n144\n182\n148\n186\n152\n192\n184\n191\n199\n206\n213\n189\n197\n204\n212\n219\n194\n202\n210\n218\n225\n200\n208\n216\n224\n232\n221\n258\n294\n331\n227\n265\n302\n340\n233\n272\n311\n350\n240\n279\n319\n359\nBody Mass Index (BMI)\nLiving Environment\u2013August \u201913\n[12]\n\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Is a person with a BMI of 27 at risk for diseases such as diabetes or high blood pressure? Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_50_53.png",
+      "context": "Base your answers to questions 50 through 53 on the information and chart below and on your knowledge\nof biology.\nExcess body weight is considered to be a risk factor for diseases such as diabetes and\nhigh blood pressure. The Body Mass Index (BMI) chart below can be used as a guide to\ndetermine if a person\u2019s body weight puts that person at risk for such diseases.\nHealthy\n19\n24\nOverweight\n25\n26\n27\n28\n29\nObese\n30\n35\n40\n45\nBMI\nHeight\nWeight in Pounds\n5'0''\n5'1''\n5'2''\n5'3''\n97\n123\n100\n127\n104\n131\n107\n135\n128\n133\n138\n143\n148\n132\n137\n143\n148\n153\n136\n142\n147\n153\n158\n141\n146\n152\n158\n163\n153\n179\n204\n230\n158\n185\n211\n238\n164\n191\n218\n246\n169\n197\n225\n254\n5'4''\n5'5'' \n5'6''\n5'7''\n110\n140\n114\n144\n118\n148\n121\n153\n145\n151\n157\n163\n169\n150\n156\n162\n168\n174\n155\n161\n167\n173\n179\n159\n166\n172\n178\n185\n174\n204\n232\n262\n180\n210\n240\n270\n186\n216\n247\n278\n191\n223\n255\n287\n5'8''\n5'9''\n5'10''\n5'11''\n125\n158\n128\n162\n132\n167\n136\n172\n164\n171\n177\n184\n190\n169\n176\n182\n189\n196\n174\n181\n188\n195\n202\n179\n186\n193\n200\n208\n197\n230\n262\n295\n203\n236\n270\n304\n209\n243\n278\n313\n215\n250\n286\n322\n6'0''\n6'1''\n6'2''\n6'3''\n140\n177\n144\n182\n148\n186\n152\n192\n184\n191\n199\n206\n213\n189\n197\n204\n212\n219\n194\n202\n210\n218\n225\n200\n208\n216\n224\n232\n221\n258\n294\n331\n227\n265\n302\n340\n233\n272\n311\n350\n240\n279\n319\n359\nBody Mass Index (BMI)\nLiving Environment\u2013August \u201913\n[12]\n\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "State whether an individual who is 5 feet 3 inches tall and weighs 146 pounds needs to gain or lose weight in order to be classified as healthy.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_50_53.png",
+      "context": "Base your answers to questions 50 through 53 on the information and chart below and on your knowledge\nof biology.\nExcess body weight is considered to be a risk factor for diseases such as diabetes and\nhigh blood pressure. The Body Mass Index (BMI) chart below can be used as a guide to\ndetermine if a person\u2019s body weight puts that person at risk for such diseases.\nHealthy\n19\n24\nOverweight\n25\n26\n27\n28\n29\nObese\n30\n35\n40\n45\nBMI\nHeight\nWeight in Pounds\n5'0''\n5'1''\n5'2''\n5'3''\n97\n123\n100\n127\n104\n131\n107\n135\n128\n133\n138\n143\n148\n132\n137\n143\n148\n153\n136\n142\n147\n153\n158\n141\n146\n152\n158\n163\n153\n179\n204\n230\n158\n185\n211\n238\n164\n191\n218\n246\n169\n197\n225\n254\n5'4''\n5'5'' \n5'6''\n5'7''\n110\n140\n114\n144\n118\n148\n121\n153\n145\n151\n157\n163\n169\n150\n156\n162\n168\n174\n155\n161\n167\n173\n179\n159\n166\n172\n178\n185\n174\n204\n232\n262\n180\n210\n240\n270\n186\n216\n247\n278\n191\n223\n255\n287\n5'8''\n5'9''\n5'10''\n5'11''\n125\n158\n128\n162\n132\n167\n136\n172\n164\n171\n177\n184\n190\n169\n176\n182\n189\n196\n174\n181\n188\n195\n202\n179\n186\n193\n200\n208\n197\n230\n262\n295\n203\n236\n270\n304\n209\n243\n278\n313\n215\n250\n286\n322\n6'0''\n6'1''\n6'2''\n6'3''\n140\n177\n144\n182\n148\n186\n152\n192\n184\n191\n199\n206\n213\n189\n197\n204\n212\n219\n194\n202\n210\n218\n225\n200\n208\n216\n224\n232\n221\n258\n294\n331\n227\n265\n302\n340\n233\n272\n311\n350\n240\n279\n319\n359\nBody Mass Index (BMI)\nLiving Environment\u2013August \u201913\n[12]\n\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Calculate the minimum number of pounds that an individual who is 6 feet 3 inches tall and weighs 232 pounds would have to gain or lose to be classified as a healthy individual with a BMI of 24. pounds",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_50_53.png",
+      "context": "Base your answers to questions 50 through 53 on the information and chart below and on your knowledge\nof biology.\nExcess body weight is considered to be a risk factor for diseases such as diabetes and\nhigh blood pressure. The Body Mass Index (BMI) chart below can be used as a guide to\ndetermine if a person\u2019s body weight puts that person at risk for such diseases.\nHealthy\n19\n24\nOverweight\n25\n26\n27\n28\n29\nObese\n30\n35\n40\n45\nBMI\nHeight\nWeight in Pounds\n5'0''\n5'1''\n5'2''\n5'3''\n97\n123\n100\n127\n104\n131\n107\n135\n128\n133\n138\n143\n148\n132\n137\n143\n148\n153\n136\n142\n147\n153\n158\n141\n146\n152\n158\n163\n153\n179\n204\n230\n158\n185\n211\n238\n164\n191\n218\n246\n169\n197\n225\n254\n5'4''\n5'5'' \n5'6''\n5'7''\n110\n140\n114\n144\n118\n148\n121\n153\n145\n151\n157\n163\n169\n150\n156\n162\n168\n174\n155\n161\n167\n173\n179\n159\n166\n172\n178\n185\n174\n204\n232\n262\n180\n210\n240\n270\n186\n216\n247\n278\n191\n223\n255\n287\n5'8''\n5'9''\n5'10''\n5'11''\n125\n158\n128\n162\n132\n167\n136\n172\n164\n171\n177\n184\n190\n169\n176\n182\n189\n196\n174\n181\n188\n195\n202\n179\n186\n193\n200\n208\n197\n230\n262\n295\n203\n236\n270\n304\n209\n243\n278\n313\n215\n250\n286\n322\n6'0''\n6'1''\n6'2''\n6'3''\n140\n177\n144\n182\n148\n186\n152\n192\n184\n191\n199\n206\n213\n189\n197\n204\n212\n219\n194\n202\n210\n218\n225\n200\n208\n216\n224\n232\n221\n258\n294\n331\n227\n265\n302\n340\n233\n272\n311\n350\n240\n279\n319\n359\nBody Mass Index (BMI)\nLiving Environment\u2013August \u201913\n[12]\n\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "State one benefit of drilling for oil in the refuge in Alaska.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nThe Arctic National Wildlife Refuge in Alaska is over 19 million acres of land. This\nunique habitat supports many species of land and marine animals, including 36 species of\nfish and 180 species of birds. Some people want to drill for oil in parts of the refuge.\nScientists estimate that the total amount of recoverable oil in the refuge is between 5 and\n16 billion barrels.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "55",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nThe Arctic National Wildlife Refuge in Alaska is over 19 million acres of land. This\nunique habitat supports many species of land and marine animals, including 36 species of\nfish and 180 species of birds. Some people want to drill for oil in parts of the refuge.\nScientists estimate that the total amount of recoverable oil in the refuge is between 5 and\n16 billion barrels.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_56_58.png",
+      "context": "Base your answer to question 56\u201358 on the information below and on your knowledge of biology.\nFish Farming\nFish farming has risen in popularity to the point that, in 2009, it was estimated that 30%\nof all fish consumed by humans came from fish farms. Fish farms tend to specialize in one\nor two species of fish, which are produced in great numbers. Fish farms are conveniently\nlocated along shorelines, where the fish are contained in pens. Deep-sea vessels are not \nnecessary to harvest the fish, as they are when fish are caught in the wild. The farms \nprovide a relatively inexpensive way to provide protein for a growing world population.\nAs the technique gains in popularity, however, scientists and coastal residents have\nbecome concerned that the concentrated mass of fish in fish farms is producing large \nquantities of wastes. These wastes may be carried by ocean currents to public beaches and\nrecreational boating areas, making them unusable. Others are concerned that uneaten fish\nfood will decay, produce strong odors, and pollute marine environments miles away. If the\nwastes are not flushed out of the pens, they accumulate on the ocean floor and create a toxic\n\u201cdead zone\u201d beneath the fish.\n56\u201358 Describe some aspects of fish farming that are examples of humans interacting with the environment.\nIn your answer, be sure to:\n\u2022 state one specific benefit humans gain from fish farming   [1]\n\u2022 state how biodiversity may be reduced by fish farming and support your answer   [1]\n\u2022 describe the impact, other than a reduction in biodiversity, fish farming may have on the natural\necosystems of coastal water if no changes are made   [1]\n\nLiving Environment\u2013August \u201913\n[15]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "56\u201358 Describe some aspects of fish farming that are examples of humans interacting with the environment. In your answer, be sure to: \u2022 state one specific benefit humans gain from fish farming \u2022 state how biodiversity may be reduced by fish farming and support your answer \u2022 describe the impact, other than a reduction in biodiversity,",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_56_58.png",
+      "context": "Base your answer to question 56\u201358 on the information below and on your knowledge of biology.\nFish Farming\nFish farming has risen in popularity to the point that, in 2009, it was estimated that 30%\nof all fish consumed by humans came from fish farms. Fish farms tend to specialize in one\nor two species of fish, which are produced in great numbers. Fish farms are conveniently\nlocated along shorelines, where the fish are contained in pens. Deep-sea vessels are not \nnecessary to harvest the fish, as they are when fish are caught in the wild. The farms \nprovide a relatively inexpensive way to provide protein for a growing world population.\nAs the technique gains in popularity, however, scientists and coastal residents have\nbecome concerned that the concentrated mass of fish in fish farms is producing large \nquantities of wastes. These wastes may be carried by ocean currents to public beaches and\nrecreational boating areas, making them unusable. Others are concerned that uneaten fish\nfood will decay, produce strong odors, and pollute marine environments miles away. If the\nwastes are not flushed out of the pens, they accumulate on the ocean floor and create a toxic\n\u201cdead zone\u201d beneath the fish.\n56\u201358 Describe some aspects of fish farming that are examples of humans interacting with the environment.\nIn your answer, be sure to:\n\u2022 state one specific benefit humans gain from fish farming   [1]\n\u2022 state how biodiversity may be reduced by fish farming and support your answer   [1]\n\u2022 describe the impact, other than a reduction in biodiversity, fish farming may have on the natural\necosystems of coastal water if no changes are made   [1]\n\nLiving Environment\u2013August \u201913\n[15]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "State how the control group would be treated differently from the experimental groups.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_59_62.png",
+      "context": "Base your answers to questions 59 through 62 on the data table and information below and on your \nknowledge of biology. The data table describes various pH levels.\nA scientist is concerned about the effects of acid rain on newly fertilized fish eggs in\nlakes in the Adirondack Mountains of New York State. The scientist would like to \ninvestigate the hatching rates of these fish eggs in water at different acidic pH levels. The \nscientist designed an experiment that could show the effect of an acid pH on the hatching\nof these fish eggs.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "State two factors that must be kept the same in both the experimental groups and the control group.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_59_62.png",
+      "context": "Base your answers to questions 59 through 62 on the data table and information below and on your \nknowledge of biology. The data table describes various pH levels.\nA scientist is concerned about the effects of acid rain on newly fertilized fish eggs in\nlakes in the Adirondack Mountains of New York State. The scientist would like to \ninvestigate the hatching rates of these fish eggs in water at different acidic pH levels. The \nscientist designed an experiment that could show the effect of an acid pH on the hatching\nof these fish eggs.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Describe the type of data to be collected.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_59_62.png",
+      "context": "Base your answers to questions 59 through 62 on the data table and information below and on your \nknowledge of biology. The data table describes various pH levels.\nA scientist is concerned about the effects of acid rain on newly fertilized fish eggs in\nlakes in the Adirondack Mountains of New York State. The scientist would like to \ninvestigate the hatching rates of these fish eggs in water at different acidic pH levels. The \nscientist designed an experiment that could show the effect of an acid pH on the hatching\nof these fish eggs.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "State one example of experimental results that would show that the increasing acidity of lake water has a negative effect on the hatching rate of fish eggs. pH Levels pH pH Description 1 very acidic 5 slightly acidic 7 neutral 9 slightly basic 13 very basic",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_59_62.png",
+      "context": "Base your answers to questions 59 through 62 on the data table and information below and on your \nknowledge of biology. The data table describes various pH levels.\nA scientist is concerned about the effects of acid rain on newly fertilized fish eggs in\nlakes in the Adirondack Mountains of New York State. The scientist would like to \ninvestigate the hatching rates of these fish eggs in water at different acidic pH levels. The \nscientist designed an experiment that could show the effect of an acid pH on the hatching\nof these fish eggs.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Based on the symptoms shown by individuals with hereditary ataxia, state two functions regulated by the cerebellum and spinal cord. Functions:_________________________________ and _______________________________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 and 64 on the passage below and on your knowledge of biology.\nThe Protein Shredder\nIn every cell, thousands of important processes are occurring around the clock. One of\nthe ways a cell manages to coordinate all of these processes is by sending protein messages.\nAfter the protein messages are delivered and read, they need to be destroyed to prepare for\nthe arrival of the next message.\nThe task of destroying these proteins falls on cell structures known as proteasomes.\nThink of a proteasome as a tubelike protein shredder. Protein molecules that have served\ntheir purpose are transported to the proteasome, unfolded, fed through the tube, and cut\ninto smaller molecules that can then be used to synthesize new protein molecules.\nProteasomes can shred any type of protein.\nIndividuals with a neurological disorder known as hereditary ataxia have been found to\nhave an excess of protein in the cells of their brains and spinal cords. The abnormal level\nsomehow leads to the death of cells in portions of the cerebellum. These areas of cell loss\ncan be seen on a brain scan.\nThere are several forms of hereditary ataxia but all of them result in poor coordination.\nThe symptoms progress over a period of years. In the beginning, the individuals experience\nonly minor coordination problems. As time passes, the symptoms become worse. The\naffected individuals will have poor balance when walking. They will be clumsy and have \ndifficulty talking and swallowing.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Explain why researchers could think that proteasomes might not be working correctly in nerve cells of individuals with hereditary ataxia.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/q64.png",
+      "context": "Base your answers to questions 63 and 64 on the passage below and on your knowledge of biology.\nThe Protein Shredder\nIn every cell, thousands of important processes are occurring around the clock. One of\nthe ways a cell manages to coordinate all of these processes is by sending protein messages.\nAfter the protein messages are delivered and read, they need to be destroyed to prepare for\nthe arrival of the next message.\nThe task of destroying these proteins falls on cell structures known as proteasomes.\nThink of a proteasome as a tubelike protein shredder. Protein molecules that have served\ntheir purpose are transported to the proteasome, unfolded, fed through the tube, and cut\ninto smaller molecules that can then be used to synthesize new protein molecules.\nProteasomes can shred any type of protein.\nIndividuals with a neurological disorder known as hereditary ataxia have been found to\nhave an excess of protein in the cells of their brains and spinal cords. The abnormal level\nsomehow leads to the death of cells in portions of the cerebellum. These areas of cell loss\ncan be seen on a brain scan.\nThere are several forms of hereditary ataxia but all of them result in poor coordination.\nThe symptoms progress over a period of years. In the beginning, the individuals experience\nonly minor coordination problems. As time passes, the symptoms become worse. The\naffected individuals will have poor balance when walking. They will be clumsy and have \ndifficulty talking and swallowing.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_65_68.png",
+      "context": "Base your answer to question 65\u201368 on the diagram below and on your knowledge of biology. The diagram\nrepresents three groups of organisms that are part of an ecosystem.\nA\nB\nC\nGroups of Organisms\nPlants\nAnimals\nFungi\nLiving Environment\u2013August \u201913\n[16]\n\nLiving Environment\u2013August \u201913\n[17]\n[OVER]\n65\u201368 Explain the role of these groups of organisms in the cycling of materials and the transfer of energy in\nan ecosystem. In your answer, be sure to:\n\u2022 explain why an ecosystem requires a constant input of energy   [1]\n\u2022 explain how organisms in group B obtain energy   [1]\n\u2022 explain the role of organisms in group C in the ecosystem   [1]\n\u2022 identify the process used by all three groups of organisms to make energy available to their cells to\ncarry out life functions   [1]\n69\u201372 Discuss the process used by scientists to insert a gene from one organism into the DNA of another. \nIn your answer, be sure to:\n\u2022 identify the scientific technique used to insert a gene from one organism into another   [1]\n\u2022 describe the function of a gene   [1]\n\u2022 identify the type of molecule used to cut the gene from the DNA of an organism   [1]\n\u2022 state one benefit of this technique to humans   [1]\n\nLiving Environment\u2013August \u201913\n[18]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "65\u201368 Explain the role of these groups of organisms in the cycling of materials and the transfer of energy in an ecosystem. In your answer, be sure to: \u2022 explain why an ecosystem requires a constant input of energy \u2022 explain how organisms in group B obtain energy \u2022 explain the role of organisms in group C in the ecosystem \u2022 identify the process used by all three groups of organisms to make energy available to their cells to carry out life functions",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_65_68.png",
+      "context": "Base your answer to question 65\u201368 on the diagram below and on your knowledge of biology. The diagram\nrepresents three groups of organisms that are part of an ecosystem.\nA\nB\nC\nGroups of Organisms\nPlants\nAnimals\nFungi\nLiving Environment\u2013August \u201913\n[16]\n\nLiving Environment\u2013August \u201913\n[17]\n[OVER]\n65\u201368 Explain the role of these groups of organisms in the cycling of materials and the transfer of energy in\nan ecosystem. In your answer, be sure to:\n\u2022 explain why an ecosystem requires a constant input of energy   [1]\n\u2022 explain how organisms in group B obtain energy   [1]\n\u2022 explain the role of organisms in group C in the ecosystem   [1]\n\u2022 identify the process used by all three groups of organisms to make energy available to their cells to\ncarry out life functions   [1]\n69\u201372 Discuss the process used by scientists to insert a gene from one organism into the DNA of another. \nIn your answer, be sure to:\n\u2022 identify the scientific technique used to insert a gene from one organism into another   [1]\n\u2022 describe the function of a gene   [1]\n\u2022 identify the type of molecule used to cut the gene from the DNA of an organism   [1]\n\u2022 state one benefit of this technique to humans   [1]\n\nLiving Environment\u2013August \u201913\n[18]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "69\u201372 Discuss the process used by scientists to insert a gene from one organism into the DNA of another. In your answer, be sure to: \u2022 identify the scientific technique used to insert a gene from one organism into another \u2022 describe the function of a gene \u2022 identify the type of molecule used to cut the gene from the DNA of an organism \u2022",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "Which statement is best supported by the graph?",
+      "choices": [
+        "Before exercising, the average pulse rate was 65; four minutes after exercising, the average pulse rate was 65.",
+        "After four minutes of exercising, the average pulse rate was 120; two minutes after exercising, the average pulse rate was 120.",
+        "While exercising, the highest average pulse rate was 150; before exercising, the average pulse rate was 65.",
+        "Two minutes before exercising, the average pulse rate was 80; after two minutes of exercise, the average pulse rate was 140."
+      ],
+      "image": "/images/exams/living-environment/august-2013/context_73_75.png",
+      "context": "Base your answers to questions 73 through 75 on the information and graph below and on your knowledge\nof biology.\nStudents were asked to design a lab that investigated the relationship between exercise\nand heart rate. Heart rate was determined by recording the pulse rate in beats per minute.\nThe students hypothesized that increased exercise results in an increased heart rate. The\nclass results for the experiment are shown in the graph below.\nNote: The answers to questions 73 through 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "Students in a different science class carried out the same experiment. The data they obtained did not support the hypothesis that increased exercise results in increased heart rate. The most scientifically sound way to deal with this situation is to",
+      "choices": [
+        "write a new hypothesis",
+        "read about pulse rate in a biology textbook",
+        "have the students in both classes vote to decide which hypothesis is correct",
+        "ask students in a third class to do the experiment and see if their results support the hypothesis Time (minutes) Average Heart Rate (beats per minute) 160 140 120 100 80 60 40 20 0 0 1 2 3 4 5 6 7 8 9 10 Heart Rate Response to Exercise (class average) Before After Exercise period"
+      ],
+      "image": "/images/exams/living-environment/august-2013/context_73_75.png",
+      "context": "Base your answers to questions 73 through 75 on the information and graph below and on your knowledge\nof biology.\nStudents were asked to design a lab that investigated the relationship between exercise\nand heart rate. Heart rate was determined by recording the pulse rate in beats per minute.\nThe students hypothesized that increased exercise results in an increased heart rate. The\nclass results for the experiment are shown in the graph below.\nNote: The answers to questions 73 through 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "The change in heart rate that occurs between 1 and 5 minutes of exercise is an adaptation that",
+      "choices": [
+        "reduces the rate at which oxygen is carried to the muscle cells",
+        "increases the rate at which carbon dioxide is carried to the muscle cells",
+        "results in the production of more ATP in muscle cells",
+        "slows the destruction of enzymes involved in respiration of muscle cells"
+      ],
+      "image": "/images/exams/living-environment/august-2013/context_73_75.png",
+      "context": "Base your answers to questions 73 through 75 on the information and graph below and on your knowledge\nof biology.\nStudents were asked to design a lab that investigated the relationship between exercise\nand heart rate. Heart rate was determined by recording the pulse rate in beats per minute.\nThe students hypothesized that increased exercise results in an increased heart rate. The\nclass results for the experiment are shown in the graph below.\nNote: The answers to questions 73 through 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "A student hypothesized that watching sports on television would cause viewers\u2019 pulse rates to increase. She designed an experiment to determine the effect of watching sports on pulse rate. A group of 200 volunteers took their pulse rates and then watched their favorite sports on television. After the games, they immediately took their pulse rates again. The data collected showed that the pulse rates of some people increased, but the pulse rates of an equal number of people did not change. Although the hypothesis was not supported by the data, the hypothesis is still valuable because it",
+      "choices": [
+        "may lead to further investigation",
+        "can be changed to fit the data",
+        "is the opinion of the experimenter",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "The table below shows the DNA, mRNA, and amino acid sequences from two similar plant species. Using the information given, fill in the missing mRNA base sequences for species A on the table below.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_77_78.png",
+      "context": "Base your answers to questions 77 and 78 on the Universal Genetic Code Chart below and on your \nknowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Using the Universal Genetic Code Chart, fill in the missing amino acids for species B on the table below. Species A DNA base sequence mRNA base sequence amino acid sequence CCG _________ GLY TGC _________ THR ATA UAU TYR CAG _________ VAL GTA _________ HIS Species B DNA base sequence mRNA base sequence amino acid sequence CCG GGC GLY TGC ACG _________ ATA UAU _________ CAG GUC VAL GTT CAA _________",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_77_78.png",
+      "context": "Base your answers to questions 77 and 78 on the Universal Genetic Code Chart below and on your \nknowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "State one reason for the color change in beaker A after one hour.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the information and diagram below and on your knowledge of\nbiology.\nTwo models of a cell were made with dialysis tubing and placed in two beakers of fluid,\nA and B, each containing starch indicator solution, as represented in the diagram below.\nEnzyme Z was added to the artificial cell in beaker B. The solution outside each cell was\ntested for the presence of sugar. Initially, no sugar was present in the solution outside each\ncell. The results after one hour are represented below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "How would the results have been different in beaker B if an enzyme that digests protein was used instead of enzyme Z? \u0002\u0003\u0004\u0005\u0003\u0006\u0007\b \u0012\u000e\u0013\u0003\u0007\u0004\b\u0014\b \u0015\u0005\u0004\u0016 \u0002\u0003\u000e\u0004\u0006 \b\u0017\u0015\u000f\u0005\u0003 \u0015\u0018 \u0012\u0019\u000f\u0005\u0007\u001a\u0019\u000f\u000e\u0006\u001b\u0016 \u0002\u0003\u0004\u0005\u0003\u0006\u0007\u0002 \u0012\u000e\u0003\b\u0017\u0003\u000e\u0004\u0003\u0016 \u0011\u0007\u000e\u001b\u0007\u0004 \u0002\u0003\u000e\u0004\u0006 \b\u0017\u0015\u000f\u0005\u0003 \u0015\u0018 \u0003 \b\u0007\u0018 \u0007\b \u0012 \u000f\u001b \b \u0003\u0007\u0016 \u0010\u0004\u0003 \u0013 \u0006 \u000e\u000f\b\u0006\u0007\u000f\u000f \u0002\u0003\u000e\u0004\u0006 \b \u0018 \u0006\u000e\u0003\u0015\u0004 \u0018\b \u000e\u0003\u0007\u0004 \u0002\u0003\u0004\u0005\u0003\u0006\u0007\b \u0012\u000e\u0003\b\u0017\u0003\u000e\u0004\u0003\u0016 \u0011\u0007\u000e\u001b\u0007\u0004 \u0002\u0003\u000e\u0004\u0006 \u0017\u0015\u000f\u0005\u0003 \u0015\u0018 \u0012 \u000f\u001b \b \u0003\u0007\u0016 \u0002\u0005!\u000e\u0004 \"\u0004\u0007\u0017\u0007\u0018\u0003 \u0002\u0003\u0004\u0005\u0003\u0006\u0007\u0002 \u0012\u000e\u0013\u0003\u0007\u0004\b\u0014\b \u0015\u0005\u0004\u0016 \u0002\u0003\u000e\u0004\u0006 \b\u0017\u0015\u000f\u0005\u0003 \u0015\u0018 \u0003 \b\u0007\u0018 \u0007\b \u0012\u0019\u000f\u0005\u0007\u001a\u0019\u000f\u000e\u0006\u001b\u0016 \u0014\b \u0015\u0005\u0004 \u0014\b \u0015\u0005\u0004 \u0010\u0004\u0003 \u0013 \u0006 \u000e\u000f\b\u0006\u0007\u000f\u000f #\u0015\b\u0017\u0005!\u000e\u0004 \"\u0004\u0007\u0017\u0007\u0018\u0003 \u0002\u0003\u000e\u0004\u0006 \b \u0018 \u0006\u000e\u0003\u0015\u0004 \u0018\b \u000e\u0003\u0007\u0004",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the information and diagram below and on your knowledge of\nbiology.\nTwo models of a cell were made with dialysis tubing and placed in two beakers of fluid,\nA and B, each containing starch indicator solution, as represented in the diagram below.\nEnzyme Z was added to the artificial cell in beaker B. The solution outside each cell was\ntested for the presence of sugar. Initially, no sugar was present in the solution outside each\ncell. The results after one hour are represented below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Which finches would be most like the ancestral finch?",
+      "choices": [
+        "large ground finches",
+        "cactus finches",
+        "warbler finches",
+        "large tree finches"
+      ],
+      "image": "/images/exams/living-environment/august-2013/context_81_82.png",
+      "context": "Base your answers to questions 81 and 82 on the chart below and on your knowledge of biology.\nNote: The answers to questions 81 and 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "Present-day cactus finches are a type of",
+      "choices": [
+        "tree finch",
+        "ground finch",
+        "warbler finch",
+        "ancestral finch \u0002\u0003\u0004\u0005\u0006\u0007\b\u0004 \u000e\u000f \u0007 \u0004\u0010 \u0011 \u0005 \u0012 \u0013\u0004\u0014 \u0015\b \u0016\u000f\u0017\u0014 $\u0015\u0015 \"\u0007\u0006\u001b\u0007\u0004\b\u0013 \u0018\u0006 %\u000e\u0018!\u0004\u0015&\u0007\b\u0013 \u0018\u0006 '\u0007!\u0007\u0003\u000e\u0004 \u000e\u0018\b\u0013 \u0018\u0006 (\u000e\u0004!\u0007\b\u0003\u0004\u0007\u0007\b\u0013 \u0018\u0006 %\u0007 \u0005 \b\u0003\u0004\u0007\u0007\b\u0013 \u0018\u0006 \u0002 \u000e\u000f\u000f\b\u0003\u0004\u0007\u0007\b\u0013 \u0018\u0006 )\u0004\u0007\u0017\u0007\u0018\u0003\b\u0003 \u0007 (\u0015\u0018!\b\u000e!\u0015 \u0010\u0018\u0006\u0007\u0017\u0003\u0004\u000e\u000f\b\u0013 \u0018\u0006 $\u000e\u0004\u0019\u000f\u0007\u0004\b\u0013 \u0018\u0006 (\u000e\u0004!\u0007\b!\u0004\u0015\u0005\u0018 \b\u0013 \u0018\u0006 %\u0007 \u0005 \b!\u0004\u0015\u0005\u0018 \b\u0013 \u0018\u0006 \u0002 \u000e\u000f\u000f\b!\u0004\u0015\u0005\u0018 \b\u0013 \u0018\u0006 \u0002 \u000e\u0004\"\u001a\u0019 \u000f\u000f\u0007 \b!\u0004\u0015\u0005\u0018 \b\u0013 \u0018\u0006 \u000e\u0006\u0003\u0005\u0017\b\u0013 \u0018\u0006 (\u000e\u0004!\u0007\b\u0006\u000e\u0006\u0003\u0005\u0017 \u0013 \u0018\u0006 \u000e \u000e\"\u0003\u0007 \b\u0013\u0004\u0015 *\b\u0002\u0003\u0004\u0003\u0005\u0003\u0006\u0007\b \u0003 \u000e\u000f\u0003\u0004 \u0010\u0011\b \u0007\u000f\u0012 \u0002\u000e\u0011\u0013\u0014 +\u0004\u0015\u0005\u0018 \b\u0013 \u0018\u0006 \u0007\u0017 ,\u0004\u0007\u0007\b\u0013 \u0018\u0006 \u0007\u0017"
+      ],
+      "image": "/images/exams/living-environment/august-2013/context_81_82.png",
+      "context": "Base your answers to questions 81 and 82 on the chart below and on your knowledge of biology.\nNote: The answers to questions 81 and 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Circle the band in the diagram below in the results for plant X that would contain the smallest DNA fragments. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2013/q83.png",
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of biology.\nAs part of a laboratory technique, DNA samples taken from four plants were separated.\nThe results are represented in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Which plant is most closely related to plant X? Support your answer using information from the diagram. Plant number: ____________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of biology.\nAs part of a laboratory technique, DNA samples taken from four plants were separated.\nThe results are represented in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify the technique used to obtain the results represented in the diagram. __________________________________________ $\u0007\u000f\u000f\u0017 )\u000f\u000e\u0018\u0003\b- )\u000f\u000e\u0018\u0003\b. )\u000f\u000e\u0018\u0003\b\u0014 )\u000f\u000e\u0018\u0003\b LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of biology.\nAs part of a laboratory technique, DNA samples taken from four plants were separated.\nThe results are represented in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

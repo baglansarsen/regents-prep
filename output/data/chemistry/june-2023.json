@@ -1,0 +1,1096 @@
+{
+  "subject": "chemistry",
+  "session": "june-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which phrase describes the nucleus of any atom?",
+      "choices": [
+        "has an overall positive charge",
+        "has an overall negative charge",
+        "contains negative electrons",
+        "contains positive electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which two particles each have a mass of approximately one atomic mass unit?",
+      "choices": [
+        "an electron and a proton",
+        "an electron and a positron",
+        "a neutron and a proton",
+        "a neutron and a positron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The wave-mechanical model of the atom describes the location of electrons",
+      "choices": [
+        "as loosely packed in the nucleus of an atom",
+        "as densely packed in the nucleus of an atom",
+        "in circular paths around the nucleus",
+        "in orbitals outside the nucleus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "When a ground state electron in an atom moves to an excited state, the electron",
+      "choices": [
+        "absorbs energy as it moves to a higher energy state",
+        "absorbs energy as it moves to a lower energy state",
+        "releases energy as it moves to a higher energy state",
+        "releases energy as it moves to a lower energy state"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which statement describes a chemical property of iron?",
+      "choices": [
+        "Iron is malleable.",
+        "Iron conducts electricity.",
+        "Iron reacts with nitric acid.",
+        "Iron has a high melting point."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Diamond and graphite are two forms of solid carbon. These two forms of carbon have",
+      "choices": [
+        "different crystal structures and different properties",
+        "different crystal structures and the same properties",
+        "the same crystal structure and different properties",
+        "the same crystal structure and the same properties"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which substance can be broken down by a chemical change?",
+      "choices": [
+        "cobalt",
+        "ethane",
+        "krypton",
+        "manganese"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Based on Table I, which equation represents conservation of mass and energy?",
+      "choices": [
+        "CH4(g) 1 O2(g) 1 890.4 kJ \u2192 CO2(g) 1 H2O( )",
+        "CH4(g) 1 O2(g) \u2192 CO2(g) 1 H2O( ) 1 890.4 kJ",
+        "CH4(g) 1 2O2(g) 1 890.4 kJ \u2192 CO2(g) 1 2H2O( )",
+        "CH4(g) 1 2O2(g) \u2192 CO2(g) 1 2H2O( ) 1 890.4 kJ"
+      ],
+      "image": "/images/exams/chemistry/june-2023/q8.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "At STP, which property can be used to differentiate a 10.-gram sample of NaCl(s) from a 10.-gram sample of NaNO3(s)?",
+      "choices": [
+        "mass of the sample",
+        "temperature of the sample",
+        "solubility in water",
+        "phase at STP"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "What is the number of electrons shared between the two atoms in an O2 molecule?",
+      "choices": [
+        "6",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which changes in both charge and radius occur when an atom loses an electron?",
+      "choices": [
+        "A negative ion is formed with a smaller radius than the atom.",
+        "A negative ion is formed with a larger radius than the atom.",
+        "A positive ion is formed with a smaller radius than the atom.",
+        "A positive ion is formed with a larger radius than the atom."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which statement describes what occurs when two iodine atoms react to produce an iodine molecule?",
+      "choices": [
+        "A bond forms and energy is absorbed.",
+        "A bond forms and energy is released.",
+        "A bond breaks and energy is absorbed.",
+        "A bond breaks and energy is released."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which process can be used to separate a mixture of two liquids having different boiling points?",
+      "choices": [
+        "deposition",
+        "distillation",
+        "filtration",
+        "sublimation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which statement describes a solution of sodium chloride in water?",
+      "choices": [
+        "The mixture is heterogeneous, the solute is NaCl and the solvent is H2O.",
+        "The mixture is heterogeneous, the solute is H2O and the solvent is NaCl.",
+        "The mixture is homogeneous, the solute is NaCl and the solvent is H2O.",
+        "The mixture is homogeneous, the solute is H2O and the solvent is NaCl."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "At STP, which property would be the same for 1.0 liter of helium and 1.0 liter of argon?",
+      "choices": [
+        "boiling point",
+        "density",
+        "mass",
+        "number of atoms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The melting of an ice cube is an example of an",
+      "choices": [
+        "endothermic, chemical change",
+        "endothermic, physical change",
+        "exothermic, chemical change",
+        "exothermic, physical change"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which statement explains the low boiling point of hydrogen, H2, at standard pressure?",
+      "choices": [
+        "Hydrogen has strong covalent bonds.",
+        "Hydrogen has weak covalent bonds.",
+        "Hydrogen has strong intermolecular forces.",
+        "Hydrogen has weak intermolecular forces."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "In chemical reactions, which term is defined as the difference between the potential energy of the products and the potential energy of the reactants?",
+      "choices": [
+        "heat of fusion",
+        "heat of reaction",
+        "thermal conductivity",
+        "electrical conductivity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which phrase describes what happens to the reaction pathway and activation energy of a reaction to which a catalyst is added?",
+      "choices": [
+        "the same pathway with the same activation energy",
+        "the same pathway with a lower activation energy",
+        "a different pathway with the same activation energy",
+        "a different pathway with a lower activation energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "An atom of which element is bonded to the carbon atom in the amide functional group?",
+      "choices": [
+        "iodine",
+        "nitrogen",
+        "phosphorus",
+        "sulfur"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which statement describes the two isomers of butane?",
+      "choices": [
+        "They have the same molecular formula but different structural formulas.",
+        "They have the same molecular formula and the same structural formula.",
+        "They have different molecular formulas and different structural formulas.",
+        "They have different molecular formulas but the same structural formula."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which term represents an organic reaction that produces soap?",
+      "choices": [
+        "esterification",
+        "fermentation",
+        "saponification",
+        "solidification"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "In which part of an electrochemical cell does reduction occur?",
+      "choices": [
+        "anode",
+        "cathode",
+        "wire",
+        "voltmeter"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which energy change occurs in an operating voltaic cell?",
+      "choices": [
+        "chemical energy to electrical energy",
+        "chemical energy to nuclear energy",
+        "electrical energy to chemical energy",
+        "electrical energy to nuclear energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which substance is an Arrhenius base?",
+      "choices": [
+        "HNO3",
+        "KNO3",
+        "LiOH",
+        "CH3COOH"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which statement represents neutralization?",
+      "choices": [
+        "An Arrhenius acid and an Arrhenius base react to produce water and a salt.",
+        "An Arrhenius acid and a salt react to produce water and an Arrhenius base.",
+        "Water and an Arrhenius acid react to produce an Arrhenius base and a salt.",
+        "Water and a salt react to produce an Arrhenius base and an Arrhenius acid."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "A tenfold increase in hydronium ion concentration is represented by",
+      "choices": [
+        "a decrease of one unit of pH",
+        "a decrease of 10 units of pH",
+        "an increase of one unit of pH",
+        "an increase of 10 units of pH"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Based on Table N, which particle is emitted by the radioactive decay of francium-220?",
+      "choices": [
+        "an alpha particle",
+        "a beta particle",
+        "a positron",
+        "a neutron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which type of reaction releases the greatest amount of energy per kilogram of reactant?",
+      "choices": [
+        "acid-base reaction",
+        "fission reaction",
+        "organic reaction",
+        "redox reaction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which risk is related to the radioactive isotopes used to generate electricity?",
+      "choices": [
+        "depletion of fossil fuels",
+        "depletion of atmospheric ozone",
+        "exposure to acid rain",
+        "exposure to nuclear emissions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Which Lewis electron-dot diagram represents an atom of nitrogen in the ground state? N ( 1 ) N ( 2 ) N ( 3 ) N ( 4 )",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The atomic masses and natural abundances of the two naturally occurring isotopes of silver are shown in the table below. Silver Isotopes Isotope Atomic Mass (u) Natural Abundance (%) Ag-107 106.905 51.8 Ag-109 108.905 48.2 Which numerical setup can be used to calculate the atomic mass of silver?",
+      "choices": [
+        "(106.905 u)(51.8) 1 (108.905 u)(48.2)",
+        "(106.905 u)(51.8%) 1 (108.905 u)(48.2%)",
+        "(106.905 u)(48.2) 1 (108.905 u)(51.8)",
+        "(106.905 u)(48.2%) 1 (108.905 u)(51.8%)"
+      ],
+      "image": "/images/exams/chemistry/june-2023/q32.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "A potassium atom has a mass number of 37. What is the number of neutrons in this atom?",
+      "choices": [
+        "15",
+        "18",
+        "22",
+        "37"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "At room temperature, a student determines the density of a sample of nickel to be 9.79 g/cm3. Based on Table S, what is the student\u2019s percent error for the density of nickel?",
+      "choices": [
+        "0.091%",
+        "0.10%",
+        "9.1%",
+        "10.%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Compared to the metals in Period 2, the nonmetals in Period 2 have",
+      "choices": [
+        "lower first ionization energies and lower electronegativity values",
+        "lower first ionization energies and higher electronegativity values",
+        "higher first ionization energies and lower electronegativity values",
+        "higher first ionization energies and higher electronegativity values"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which formula represents calcium hydride?",
+      "choices": [
+        "CaH",
+        "CaH2",
+        "CaOH",
+        "Ca(OH)2"
+      ],
+      "image": "/images/exams/chemistry/june-2023/q36.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "What is the number of moles in a 78.8-gram sample of MgCO3 (gram-formula mass 5 84.3 g/mol)?",
+      "choices": [
+        "0.949 mol",
+        "0.935 mol",
+        "0.843 mol",
+        "1.070 mol"
+      ],
+      "image": "/images/exams/chemistry/june-2023/q37.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: F2(g) 1 2KCl(aq) \u2192 2KF(aq) 1 Cl2(g) Which type of chemical reaction is represented by the equation?",
+      "choices": [
+        "synthesis",
+        "decomposition",
+        "single replacement",
+        "double replacement"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Based on Table H, which compound has the strongest intermolecular forces at 60 kPa?",
+      "choices": [
+        "ethanoic acid",
+        "ethanol",
+        "propanone",
+        "water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "written",
+      "text": "Which particle diagram represents a sample of xenon at STP? Key = atom of xenon ( 1 ) ( 3 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Based on Table G, which compound is less soluble in water as the temperature increases from 0\u00b0C to 100\u00b0C?",
+      "choices": [
+        "KNO3",
+        "NH3",
+        "KClO3",
+        "NH4Cl"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "How many moles of KI are needed to make 0.50 L of a 0.20 M aqueous solution?",
+      "choices": [
+        "0.10 mol",
+        "0.25 mol",
+        "0.40 mol",
+        "0.70 mol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "A solution is prepared using 9.80 grams of NaHCO3 in enough water to make 1500. grams of total solution. What is the concentration of the solution expressed in parts per million?",
+      "choices": [
+        "6.49 3 1023 ppm",
+        "6.53 3 1023 ppm",
+        "6.49 3 103 ppm",
+        "6.53 3 103 ppm"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "A potential energy diagram for a chemical reaction is given below. Each interval on the potential energy axis represents 100. kilojoules of potential energy. Potential Energy Reaction Coordinate What can be concluded from the diagram?",
+      "choices": [
+        "The reaction is endothermic, and the heat of reaction is 2200. kJ.",
+        "The reaction is endothermic, and the heat of reaction is 1200. kJ.",
+        "The reaction is exothermic, and the heat of reaction is 2200. kJ.",
+        "The reaction is exothermic, and the heat of reaction is 1200. kJ."
+      ],
+      "image": "/images/exams/chemistry/june-2023/q44.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Given the formula representing a compound: C H H C C C H H H C H H H H H Br Br What is a chemical name of this compound?",
+      "choices": [
+        "1,1-dibromopentane",
+        "2,2-dibromopentane",
+        "1,2-dibromopentane",
+        "4,5-dibromopentane"
+      ],
+      "image": "/images/exams/chemistry/june-2023/q45.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "The diagram and equation below represent an electrochemical cell. Cathode Anode Cl\u2013 Na+ Wire Wire Battery 2NaCl( ) 2Na( ) Cl2(g) + Which process is represented by this diagram?",
+      "choices": [
+        "chromatography",
+        "distillation",
+        "electrolysis",
+        "polymerization"
+      ],
+      "image": "/images/exams/chemistry/june-2023/q46.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which aqueous solution has the greatest ability to conduct an electric current?",
+      "choices": [
+        "0.10 M NaCl(aq)",
+        "0.010 M NaCl(aq)",
+        "0.10 M C6H12O6 (aq)",
+        "0.010 M C6H12O6 (aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "What fraction of an original sample of 131I remains unchanged after 24.063 days?",
+      "choices": [
+        "1/8",
+        "1/2",
+        "1/3",
+        "1/4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: 2 1H 1 3 1H \u2192 4 2He 1 1 0n 1 energy Which type of reaction is represented by the equation?",
+      "choices": [
+        "nuclear fission",
+        "nuclear fusion",
+        "combustion",
+        "substitution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Given the nuclear equation and isotopic masses: What is the amount of mass converted to energy as a result of the reaction between the two reactant nuclei?",
+      "choices": [
+        "0.0239 u",
+        "4.0265 u",
+        "8.0052 u",
+        "16.0343 u 6 3Li 1 2 1H \u2192 2(4 2He) 1 energy 6.0151 u 2.0140 u 2(4.0026 u)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Compare the energy of an electron in the first shell of a technetium atom to the energy of an electron in the third shell of the same atom.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 and 52 on the information below and on your knowledge of chemistry.\nThe element technetium, Tc, has several isotopes. The bright-line spectrum of technetium \nhas been observed in the spectra of some stars.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: An electron in the first shell of a Tc atom has less energy than an electron in the third shell. The third shell electron has greater energy. The electron in the first shell has less."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "State, in terms of protons and neutrons, why the various nuclides of technetium are isotopes of each other.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 and 52 on the information below and on your knowledge of chemistry.\nThe element technetium, Tc, has several isotopes. The bright-line spectrum of technetium \nhas been observed in the spectra of some stars.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Atoms of technetium have 43 protons, but can have different numbers of neutrons. The Tc atoms have the same number of protons, but can have a different number of neutrons. same number of p, different number of n"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the volume of this sample of gas at 298 K and 1.00 atm.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 53 and 54 on the information below and on your knowledge of chemistry.\nA sample of a gas in a sealed, rigid cylinder with a movable piston has a volume of \n0.250 liter at STP.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: (1.00 atm)(0.250 L) ________________________ 5 (1.00 atm)V2 ___________ 273 K 298 K (.250)(298) 5 (273)V2 x 5 (.25)(298) ________ 273 0.250 L _______ 5 V2 _____ 273 K 298 K"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "State a change in pressure that will cause the gas in the cylinder to behave more like an ideal gas.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 53 and 54 on the information below and on your knowledge of chemistry.\nA sample of a gas in a sealed, rigid cylinder with a movable piston has a volume of \n0.250 liter at STP.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Decrease the pressure. lower any pressure less than 1.00 atm Part B\u20132 Allow a total of 15 credits for this part. The student must answer all questions in this part. P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "State the direction of heat flow between the candle flame and the beaker of water during the time the candle is lit.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/context_55_57.png",
+      "context": "Base your answers to questions 55 through 57 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, a student heats a beaker containing 120.0 grams of water as \nshown in the diagram below. \nBeaker containing water\nWire gauze\nIron ring\nCandle\nRing stand\nGlass square\nThermometer\nThe table below shows the mass of the water and the temperature of the water before \nand after heating. During this laboratory activity, appropriate safety equipment is used and \nsafety procedures are followed.\nData for Heating Water\nMass of 120.0 mL of water\n120.0 g\nTemperature of water before heating\n  23.0\u00b0C\nTemperature of water after heating 20.0  min\n  86.0\u00b0C",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: from the candle flame to the beaker of water from the flame to the beaker. from the candle flame to the water from candle to water"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the amount of heat, in joules, absorbed by the water in the beaker as a result of the burning candle.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/context_55_57.png",
+      "context": "Base your answers to questions 55 through 57 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, a student heats a beaker containing 120.0 grams of water as \nshown in the diagram below. \nBeaker containing water\nWire gauze\nIron ring\nCandle\nRing stand\nGlass square\nThermometer\nThe table below shows the mass of the water and the temperature of the water before \nand after heating. During this laboratory activity, appropriate safety equipment is used and \nsafety procedures are followed.\nData for Heating Water\nMass of 120.0 mL of water\n120.0 g\nTemperature of water before heating\n  23.0\u00b0C\nTemperature of water after heating 20.0  min\n  86.0\u00b0C",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: (120.0 g)(4.18 J/g\u2022K)(86.0\u00b0C 2 23.0\u00b0C) (120.0 g)(4.18 J/g\u2022K)(359 K 2 296 K) (120)(4.2)(63)"
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "State how the molecular motion of the water molecules in the beaker changes as the temperature increases.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/context_55_57.png",
+      "context": "Base your answers to questions 55 through 57 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, a student heats a beaker containing 120.0 grams of water as \nshown in the diagram below. \nBeaker containing water\nWire gauze\nIron ring\nCandle\nRing stand\nGlass square\nThermometer\nThe table below shows the mass of the water and the temperature of the water before \nand after heating. During this laboratory activity, appropriate safety equipment is used and \nsafety procedures are followed.\nData for Heating Water\nMass of 120.0 mL of water\n120.0 g\nTemperature of water before heating\n  23.0\u00b0C\nTemperature of water after heating 20.0  min\n  86.0\u00b0C",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The water molecules move faster as the temperature increases. The water molecules collide more often and hit harder as the temperature increases. The average kinetic energy of the molecules increases. Molecular motion increases."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Compare the rate of the forward reaction to the rate of the reverse reaction when the system is at equilibrium.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the information below and on your knowledge of chemistry.\nNitrogen dioxide gas, NO2(g), can reach equilibrium with dinitrogen tetroxide gas, N2O4(g),\nin a closed system. At 1.0 atmosphere, the boiling point of N2O4 is 21\u00b0C. The equation below \nrepresents this system.\n2NO2(g) \n N2O4(g) 1 energy",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The rate of the forward reaction is the same as the rate of the reverse reaction. The rates are equal. equal same"
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "State how the equilibrium shifts when the pressure on the equilibrium system is increased at constant temperature.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the information below and on your knowledge of chemistry.\nNitrogen dioxide gas, NO2(g), can reach equilibrium with dinitrogen tetroxide gas, N2O4(g),\nin a closed system. At 1.0 atmosphere, the boiling point of N2O4 is 21\u00b0C. The equation below \nrepresents this system.\n2NO2(g) \n N2O4(g) 1 energy",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Increasing the pressure favors the forward reaction. Equilibrium shifts to the right. Equilibrium shifts to the side with fewer moles of gas, N2O4(g). P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Compare the entropy of a sample of dinitrogen tetroxide gas at 25\u00b0C and 1.0 atmosphere to the entropy of the same sample of dinitrogen tetroxide liquid at 15\u00b0C and 1.0 atmosphere.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the information below and on your knowledge of chemistry.\nNitrogen dioxide gas, NO2(g), can reach equilibrium with dinitrogen tetroxide gas, N2O4(g),\nin a closed system. At 1.0 atmosphere, the boiling point of N2O4 is 21\u00b0C. The equation below \nrepresents this system.\n2NO2(g) \n N2O4(g) 1 energy",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The entropy of the dinitrogen tetroxide in the gaseous phase is higher than the entropy of the liquid dinitrogen tetroxide. The entropy at 15\u00b0C is less than at 25\u00b0C. The entropy of the N2O4 is greater at 25\u00b0C. greater in gas"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State the change in oxidation state of copper in this reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of chemistry.\nWhen solid copper is placed in an aqueous silver nitrate solution, a reaction occurs, as \nrepresented by the equation below.\nCu(s) 1 2AgNO3(aq) \u2192 2Ag(s) 1 Cu(NO3)2(aq)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: from 0 to 12 from zero to positive two from Cu0 to Cu21"
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Based on Table J, state why Cu(s) reacts spontaneously with Ag1(aq).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of chemistry.\nWhen solid copper is placed in an aqueous silver nitrate solution, a reaction occurs, as \nrepresented by the equation below.\nCu(s) 1 2AgNO3(aq) \u2192 2Ag(s) 1 Cu(NO3)2(aq)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Copper is more active than silver. Silver is less active than copper. Cu is above Ag on Table J. Note: Do not allow credit for Cu is more active than Ag1."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Write a balanced half-reaction equation to represent the reduction of the silver ions to silver atoms.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of chemistry.\nWhen solid copper is placed in an aqueous silver nitrate solution, a reaction occurs, as \nrepresented by the equation below.\nCu(s) 1 2AgNO3(aq) \u2192 2Ag(s) 1 Cu(NO3)2(aq)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Ag1(aq) 1 e2 \u2192 Ag(s) Ag1 1 e2 \u2192 Ag 2Ag1 1 2e2 \u2192 2Ag Note: Do not allow credit for the e without the minus sign (2). P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Write the name of the laboratory procedure used in this activity.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, 15.0 mL of hydrochloric acid, HCl(aq), is exactly neutralized \nby 18.2 mL of 0.11 M sodium hydroxide, NaOH(aq). During the laboratory activity, \nappropriate safety equipment is used and safety procedures are followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: titration volumetric analysis Note: Do not allow credit for neutralization."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the molarity of the HCl(aq) solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, 15.0 mL of hydrochloric acid, HCl(aq), is exactly neutralized \nby 18.2 mL of 0.11 M sodium hydroxide, NaOH(aq). During the laboratory activity, \nappropriate safety equipment is used and safety procedures are followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: MA(15.0 mL) 5 (0.11 M)(18.2 mL) (0.11 M)(18.2 mL) _______________ 15.0 mL x 5 (.11)(18.2) _________ 15 P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify the three endangered elements listed in the passage that are classified as metals.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nSeveral elements are considered endangered because there is a risk of these elements \nbecoming unavailable for commercial uses in the next 100 years. Helium, zinc, gallium, \nindium, and tellurium are included in the list of these endangered elements.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Zn, Ga, In gallium, indium, zinc"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Explain, in terms of electrons, why gallium and indium have similar chemical properties.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nSeveral elements are considered endangered because there is a risk of these elements \nbecoming unavailable for commercial uses in the next 100 years. Helium, zinc, gallium, \nindium, and tellurium are included in the list of these endangered elements.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Atoms of gallium and indium each have three valence electrons. Atoms of Ga and In have the same number of electrons in their outermost shells. same number of valence e2"
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Compare the density of a sample of helium at STP with the density of a sample of tellurium at STP.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nSeveral elements are considered endangered because there is a risk of these elements \nbecoming unavailable for commercial uses in the next 100 years. Helium, zinc, gallium, \nindium, and tellurium are included in the list of these endangered elements.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The density of He is lower than the density of tellurium. Tellurium is more dense. Helium is a gas, so it is less dense."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Explain, in terms of electron shells, why the atomic radius of an atom of indium is greater than the atomic radius of an atom of gallium when both atoms are in the ground state.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nSeveral elements are considered endangered because there is a risk of these elements \nbecoming unavailable for commercial uses in the next 100 years. Helium, zinc, gallium, \nindium, and tellurium are included in the list of these endangered elements.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Indium atoms have 5 shells of electrons; gallium atoms have only 4 shells of electrons. Indium has one more electron shell than gallium. The In has more shells. Part C Allow a total of 20 credits for this part. The student must answer all questions in this part. P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Determine the percent composition by mass of nitrogen in HNO3 (gram-formula mass 5 63.0 g/mol).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nThe Ostwald process is an industrial method to produce nitric acid, HNO3(aq), used in \nthe manufacture of fertilizers. Several steps are involved in this process. In the first step, \nammonia and oxygen react in the presence of a catalyst, as represented by unbalanced \nequation 1.\nEquation 1:  NH3(g) 1 O2(g) \u2192 NO(g) 1 H2O(g) 1 heat\nIn the second step, nitrogen(II) oxide reacts with oxygen to produce nitrogen(IV) oxide, \nrepresented by balanced equation 2 below.\nEquation 2:  2NO(g) 1 O2(g) \u2192 2NO2(g) 1 heat",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 22.2% or for any value from 22% to 22.24%, inclusive."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Balance equation 1 in your answer booklet, using the smallest whole-number coefficients.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nThe Ostwald process is an industrial method to produce nitric acid, HNO3(aq), used in \nthe manufacture of fertilizers. Several steps are involved in this process. In the first step, \nammonia and oxygen react in the presence of a catalyst, as represented by unbalanced \nequation 1.\nEquation 1:  NH3(g) 1 O2(g) \u2192 NO(g) 1 H2O(g) 1 heat\nIn the second step, nitrogen(II) oxide reacts with oxygen to produce nitrogen(IV) oxide, \nrepresented by balanced equation 2 below.\nEquation 2:  2NO(g) 1 O2(g) \u2192 2NO2(g) 1 heat",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 4 ___ NH3(g) 1 5 ___ O2(g) \u2192 4 ___ NO(g) 1 6 ___ H2O(g) 1 heat."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the gram-formula mass of the NO2(g) produced in equation 2.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nThe Ostwald process is an industrial method to produce nitric acid, HNO3(aq), used in \nthe manufacture of fertilizers. Several steps are involved in this process. In the first step, \nammonia and oxygen react in the presence of a catalyst, as represented by unbalanced \nequation 1.\nEquation 1:  NH3(g) 1 O2(g) \u2192 NO(g) 1 H2O(g) 1 heat\nIn the second step, nitrogen(II) oxide reacts with oxygen to produce nitrogen(IV) oxide, \nrepresented by balanced equation 2 below.\nEquation 2:  2NO(g) 1 O2(g) \u2192 2NO2(g) 1 heat",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: 14.0067 g/mol 1 2(15.9994) g/mol 2(16.0 g/mol) 1 14.0 g/mol 14 1 32"
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Determine the number of moles of oxygen required to completely react with 4.0 moles of NO(g) in equation 2.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nThe Ostwald process is an industrial method to produce nitric acid, HNO3(aq), used in \nthe manufacture of fertilizers. Several steps are involved in this process. In the first step, \nammonia and oxygen react in the presence of a catalyst, as represented by unbalanced \nequation 1.\nEquation 1:  NH3(g) 1 O2(g) \u2192 NO(g) 1 H2O(g) 1 heat\nIn the second step, nitrogen(II) oxide reacts with oxygen to produce nitrogen(IV) oxide, \nrepresented by balanced equation 2 below.\nEquation 2:  2NO(g) 1 O2(g) \u2192 2NO2(g) 1 heat",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 2.0 mol or 2 mol."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "State the molecular polarity for each of the reactants in the equation.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 74 through 78 on the information below and on your knowledge of chemistry.\nAs plants grow, light energy is converted into chemical energy during the process of \nphotosynthesis. The reaction produces glucose and oxygen. The balanced equation below \nrepresents photosynthesis.\n6CO2 1 6H2O 1 light energy \u2192 C6H12O6 1 6O2",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: CO2 : nonpolar molecule H2O : polar molecule CO2 : nonpolar H2O : polar P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "In the space in your answer booklet, draw a Lewis electron-dot diagram for a molecule of water.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 74 through 78 on the information below and on your knowledge of chemistry.\nAs plants grow, light energy is converted into chemical energy during the process of \nphotosynthesis. The reaction produces glucose and oxygen. The balanced equation below \nrepresents photosynthesis.\n6CO2 1 6H2O 1 light energy \u2192 C6H12O6 1 6O2",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Examples of 1-credit responses: O H H O H H O H H O H H Note: Do not allow credit for or or for a bond, because each represents one electron and each represents two electrons."
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Based on Table S, compare the strength of attraction of a carbon atom for electrons with the strength of attraction of an oxygen atom for the electrons in a bond between them.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 74 through 78 on the information below and on your knowledge of chemistry.\nAs plants grow, light energy is converted into chemical energy during the process of \nphotosynthesis. The reaction produces glucose and oxygen. The balanced equation below \nrepresents photosynthesis.\n6CO2 1 6H2O 1 light energy \u2192 C6H12O6 1 6O2",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The oxygen atom has a greater strength of attraction for electrons than the carbon atom in the bond between them. The carbon atom has a weaker strength of attraction for the bonded electrons. Carbon has an electronegativity value of 2.6, which is lower than oxygen\u2019s electronegativity value of 3.4."
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "State, in terms of element classification, why CO2 is a molecular compound.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 74 through 78 on the information below and on your knowledge of chemistry.\nAs plants grow, light energy is converted into chemical energy during the process of \nphotosynthesis. The reaction produces glucose and oxygen. The balanced equation below \nrepresents photosynthesis.\n6CO2 1 6H2O 1 light energy \u2192 C6H12O6 1 6O2",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Carbon and oxygen are nonmetals; the nonmetal atoms share electrons, producing a molecular compound. The nonmetals C and O form covalent bonds with each other and produce molecular compounds. Carbon dioxide is a molecular compound because it is composed of two nonmetals."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Write the empirical formula for glucose.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/q78.png",
+      "context": "Base your answers to questions 74 through 78 on the information below and on your knowledge of chemistry.\nAs plants grow, light energy is converted into chemical energy during the process of \nphotosynthesis. The reaction produces glucose and oxygen. The balanced equation below \nrepresents photosynthesis.\n6CO2 1 6H2O 1 light energy \u2192 C6H12O6 1 6O2",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for CH2O. The order of the elements may vary. P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "State the class of organic compound to which the product in the equation belongs.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the information below and on your knowledge of chemistry.\nIn the United States, nearly all fuel for automobiles is a mixture of gasoline and ethanol, \nC2H5OH. The equation below represents a reaction between ethene and water to produce \nethanol.\nH\nH\nC\nC\nOH\nH\nH\nH\nC\nC\nH\nH\nH\nH\nH2O\n+\ncatalyst",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for alcohol or alcohols."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "State, in terms of carbon-to-carbon bonds, why the hydrocarbon in the equation is unsaturated.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the information below and on your knowledge of chemistry.\nIn the United States, nearly all fuel for automobiles is a mixture of gasoline and ethanol, \nC2H5OH. The equation below represents a reaction between ethene and water to produce \nethanol.\nH\nH\nC\nC\nOH\nH\nH\nH\nC\nC\nH\nH\nH\nH\nH2O\n+\ncatalyst",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Ethene is classified as an unsaturated hydrocarbon because each molecule of ethene contains a carbon-to-carbon double bond. There is a C5C bond in each molecule. Ethene molecules contain a multiple carbon-carbon bond. Two more hydrogen atoms can be added to the double-bonded carbon atoms."
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Identify the element in the product of the reaction that allows it to be classified as an organic compound.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the information below and on your knowledge of chemistry.\nIn the United States, nearly all fuel for automobiles is a mixture of gasoline and ethanol, \nC2H5OH. The equation below represents a reaction between ethene and water to produce \nethanol.\nH\nH\nC\nC\nOH\nH\nH\nH\nC\nC\nH\nH\nH\nH\nH2O\n+\ncatalyst",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for C or carbon."
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Identify the liquid tested by the student that is most acidic.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIn a laboratory activity, a student measures the pH values of four household liquids \nand distilled water, as shown in the table below. During this laboratory activity, appropriate \nsafety equipment is used and safety procedures are followed.\nMeasured pH Value of Liquids Tested\nLiquid Tested\nMeasured pH Value\n aqueous ammonia\n11.9\n black coffee\n4.9\n lemon juice\n2.1\n vinegar\n3.3\n distilled water\n7.0",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: lemon juice lemon"
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "State the color of bromcresol green after the indicator is added to a sample of lemon juice.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIn a laboratory activity, a student measures the pH values of four household liquids \nand distilled water, as shown in the table below. During this laboratory activity, appropriate \nsafety equipment is used and safety procedures are followed.\nMeasured pH Value of Liquids Tested\nLiquid Tested\nMeasured pH Value\n aqueous ammonia\n11.9\n black coffee\n4.9\n lemon juice\n2.1\n vinegar\n3.3\n distilled water\n7.0",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for yellow."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Complete the equation in your answer booklet by writing the formula of the missing product in the reaction of aqueous potassium hydroxide with the vinegar, acetic acid.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIn a laboratory activity, a student measures the pH values of four household liquids \nand distilled water, as shown in the table below. During this laboratory activity, appropriate \nsafety equipment is used and safety procedures are followed.\nMeasured pH Value of Liquids Tested\nLiquid Tested\nMeasured pH Value\n aqueous ammonia\n11.9\n black coffee\n4.9\n lemon juice\n2.1\n vinegar\n3.3\n distilled water\n7.0",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for H2O or HOH."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Based on the pH value in the table, compare the concentration of hydronium ions to the concentration of hydroxide ions in the distilled water. P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2023/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below and on your knowledge of chemistry.\nIn a laboratory activity, a student measures the pH values of four household liquids \nand distilled water, as shown in the table below. During this laboratory activity, appropriate \nsafety equipment is used and safety procedures are followed.\nMeasured pH Value of Liquids Tested\nLiquid Tested\nMeasured pH Value\n aqueous ammonia\n11.9\n black coffee\n4.9\n lemon juice\n2.1\n vinegar\n3.3\n distilled water\n7.0",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The hydronium ion concentration and hydroxide ion concentration in the distilled water are equal. The hydronium ion and hydroxide ion concentrations in the distilled water are both equal to 1 3 1027 M. concentration of H3O1(aq) 5 concentration of OH2(aq) equal same P.S./Chem. Rating Guide\u2013June \u2019"
+    }
+  ]
+}

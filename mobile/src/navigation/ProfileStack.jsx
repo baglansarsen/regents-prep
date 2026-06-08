@@ -4,6 +4,7 @@ import ProfileScreen        from '../screens/ProfileScreen'
 import ShopScreen           from '../screens/ShopScreen'
 import SupportScreen        from '../screens/SupportScreen'
 import SchoolOnboardingScreen from '../screens/SchoolOnboardingScreen'
+import PetPersonalityQuizScreen from '../screens/PetPersonalityQuizScreen'
 
 const Stack = createNativeStackNavigator()
 
@@ -21,6 +22,7 @@ export default function ProfileStack() {
           />
         )}
       </Stack.Screen>
+      <Stack.Screen name="PetPersonalityQuiz" component={PetPersonalityQuizScreen} />
     </Stack.Navigator>
   )
 }

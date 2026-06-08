@@ -1,0 +1,1061 @@
+{
+  "subject": "living-environment",
+  "session": "january-2015",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which observation could lead to the conclusion that an object is nonliving?",
+      "choices": [
+        "It passes on hereditary information only through asexual reproduction.",
+        "It carries out synthesis.",
+        "It cannot perform metabolic processes.",
+        "It is composed of a cell, but does not have tissues."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Decomposers are necessary in a food chain because they",
+      "choices": [
+        "manufacture food by photosynthesis",
+        "return nutrients to the ecosystem",
+        "absorb energy from the Sun",
+        "produce organic nutrients"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "In early spring, many wildflowers begin to grow, produce flowers, and release seeds. The leaves of the wildflowers make food before the leaves of the trees in the area begin to develop. The early growth pattern of the wildflowers would likely result in",
+      "choices": [
+        "decreased competition for sunlight between the trees and the wildflowers",
+        "decreased competition for suitable temperature between the trees and the wildflowers",
+        "increased competition for space between the trees and the wildflowers",
+        "increased competition for oxygen between the trees and the wildflowers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which sequence best represents increasing complexity?",
+      "choices": [
+        "tissues \u2192cells \u2192organelles \u2192organs",
+        "cells \u2192organelles \u2192organs \u2192organism",
+        "organelles \u2192cells \u2192tissues \u2192organs",
+        "organism \u2192cells \u2192tissues \u2192organelles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The diagram below represents two processes that occur in organisms. A characteristic represented by X is common to both of these processes. A characteristic that the two processes have in common is that each process",
+      "choices": [
+        "uses ATP",
+        "requires enzymes",
+        "uses oxygen",
+        "moves molecules"
+      ],
+      "image": "/images/exams/living-environment/january-2015/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The molecules represented in the diagram below can interact to cause a biochemical process to occur. Molecule A and molecule B most likely represent",
+      "choices": [
+        "a nerve signal and a gene",
+        "a receptor and a hormone",
+        "a chromosome and an antigen",
+        "a starch and an amino acid"
+      ],
+      "image": "/images/exams/living-environment/january-2015/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The cytoplasm in a single-celled organism and the circulatory system in a human both",
+      "choices": [
+        "break down molecules into smaller components",
+        "release energy to be used by the organism",
+        "transport substances throughout the organism",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A hydrangea plant has blue flowers when grown in acidic soil, but has pink flowers when grown in basic soil. A clone of the pink-flowered plant is grown in acidic soil and produces blue flowers. This change in flower color is most likely due to",
+      "choices": [
+        "sexual reproduction in the plants, resulting in variation",
+        "asexual reproduction in the plants, resulting in variation",
+        "genes being expressed in different ways due to environmental conditions",
+        "a gene mutation that occurred after the clone was produced"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a microscopic structure observed during mitosis. The region indicated by letter A is known as",
+      "choices": [
+        "an enzyme",
+        "a gamete",
+        "a gene",
+        "an amino acid"
+      ],
+      "image": "/images/exams/living-environment/january-2015/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A significant difference between the effects of the genetic information passed on from asexually reproducing parents to their offspring and sexually reproducing parents to their offspring is the",
+      "choices": [
+        "degree of modification of the size of chromosomes",
+        "types of DNA subunits",
+        "number of chromosomes in the body cells of the offspring",
+        "amount of variation between the parents and the offspring"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A normal sequence of DNA bases in a single human skin cell is CATGGC. If this sequence replicates in this cell and becomes GATGGC, this alteration will most likely be passed to",
+      "choices": [
+        "every cell that develops from it",
+        "all human body cells",
+        "offspring of the human",
+        "all skin cells of this person"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Beta cells in the pancreas and human skin cells both contain the insulin gene. The beta cells can make insulin; however, skin cells cannot. Which process is responsible for this gene being expressed in one cell type and not in another cell type?",
+      "choices": [
+        "mitosis",
+        "replication",
+        "differentiation",
+        "meiosis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Information in segments of human DNA can be expressed by a bacterial cell as a result of",
+      "choices": [
+        "sexual reproduction",
+        "random mutation",
+        "genetic variability",
+        "genetic engineering"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a recently discovered all-black penguin chick and several typical black- and-white chicks. The appearance of this penguin chick with all black feathers might",
+      "choices": [
+        "increase the types of foods penguins can eat",
+        "decrease the diversity of the penguin population",
+        "decrease the number of variations present in the black penguin population",
+        "result in an increase in black penguins over time if the trait provides a reproductive advantage"
+      ],
+      "image": "/images/exams/living-environment/january-2015/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Natural selection and its evolutionary consequences provide a scientific explanation for",
+      "choices": [
+        "the fossil record of ancient life-forms",
+        "predictions about the rate of global warming",
+        "the amount of precipitation in a rain forest",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Some organs in the human body are represented in the diagram below. A sudden change in the DNA of cells developing in which organ could be passed to future generations?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/january-2015/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "written",
+      "text": "Two cellular events that normally occur during two processes are represented below. Which row in the chart below correctly identifies the processes in which these events occur?",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2015/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Photosynthesis and respiration are alike in that they both",
+      "choices": [
+        "require the Sun as a direct source of energy",
+        "result in the production of glucose molecules",
+        "require specific catalysts",
+        "occur within mitochondria"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The reproductive cycle in females is regulated primarily by",
+      "choices": [
+        "estrogen and testosterone",
+        "estrogen and progesterone",
+        "progesterone and insulin",
+        "progesterone and testosterone"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "One function of the male reproductive system in mammals is to",
+      "choices": [
+        "produce insulin necessary for sexual reproduction",
+        "transport eggs necessary for fertilization",
+        "allow for delivery of gametes needed for reproduction",
+        "provide protection for the developing zygote"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A zygote develops into a multicellular organism through",
+      "choices": [
+        "mitosis and specialization",
+        "mitosis and meiosis",
+        "recombination and communication",
+        "genetic engineering and natural selection"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Pneumocystis is an organism normally found in the human lungs that can cause pneumonia. It seldom causes problems in individuals with healthy immune systems. However, people with AIDS sometimes become seriously ill with pneumonia. This is most likely due to the fact that individuals with AIDS have",
+      "choices": [
+        "asexual reproduction sexual reproduction",
+        "zygote formation cloning",
+        "sexual reproduction asexual reproduction",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2015/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A technique used to alter cells is represented in the diagram below. The genetic material contained in the nucleus of each of the new cells is most likely",
+      "choices": [
+        "identical to that in the original body cell",
+        "identical to that in the original egg cell",
+        "50% the same as the original egg cell and 50% the same as the original body cell",
+        "25% the same as the original egg cell and 75% the same as the original body cell"
+      ],
+      "image": "/images/exams/living-environment/january-2015/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A graph is shown below. The graph contains information about",
+      "choices": [
+        "finite resources",
+        "limiting factors",
+        "biotic factors",
+        "mineral availability Month Average Temperature (\u00b0C) Climate Conditions in Philadelphia, Pennsylvania Average Precipitation (mm) Key Temperature Precipitation 40 30 20 10 0 \u201310 \u201320 \u201330 400 300 200 100 0"
+      ],
+      "image": "/images/exams/living-environment/january-2015/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Nicotine is only one of the many toxic chemicals inhaled while smoking. What effect can such toxic chemicals have on the body?",
+      "choices": [
+        "They stimulate an increase in height.",
+        "They stimulate uncontrolled cell division.",
+        "They eliminate carbon dioxide from cells.",
+        "They eliminate chromosomes from many cells."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The diagram below represents different feeding levels in an energy pyramid. The most likely explanation for showing fewer organisms at each feeding level going up the pyramid is that",
+      "choices": [
+        "some energy is lost to the environment as heat",
+        "the larger the organism, the less energy it requires",
+        "some energy is recycled within each level and remains there",
+        "decomposers convert most of the energy into inorganic compounds"
+      ],
+      "image": "/images/exams/living-environment/january-2015/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which process uses energy to combine inorganic molecules to synthesize organic molecules?",
+      "choices": [
+        "respiration",
+        "digestion",
+        "photosynthesis",
+        "decomposition"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The Nature Conservancy is an organization that protects a variety of habitats around the world. A project this organization would probably support is one that",
+      "choices": [
+        "uses endangered animals for medical research",
+        "protects the biodiversity of areas for future generations",
+        "alters habitats for industry and housing",
+        "prevents animal species from migrating to other habitats"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Certain animal species that are endangered or threatened have been cloned. Closely related species have been used to carry the embryos of the endangered species. This process of increasing the population size of a species in danger of becoming extinct is an example of a",
+      "choices": [
+        "natural method to decrease ecosystem stability",
+        "natural method of controlling the population of an endangered species",
+        "technological fix to increase habitat destruction",
+        "technological fix for the problem of endangered species"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Car manufacturers have begun to explore the use of biofuels, such as biodiesel, ethanol, and cooking oils made from plant material. The desired outcome of using these biofuels would be",
+      "choices": [
+        "a decrease in the use of fossil fuels",
+        "a decrease in the release of oxygen gas",
+        "an increase in abiotic resources",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "In the 18th century, Carolus Linnaeus classified organisms based on their structural similarities. Modern classification determines relationships more accurately because it is based on genetic and other biochemical similarities. This change in classification method best illustrates that",
+      "choices": [
+        "multiple trials are required to increase the validity of a scientific explanation",
+        "scientific explanations are subject to the ethical view of the scientist proposing them",
+        "peer review is required to validate the results of scientific investigations",
+        "all scientific explanations are tentative and subject to change and improvement"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Rabbits have evolved strategies that get them through periods of time when there is little food. The diagram below represents essential life functions that rabbits need to perform. Which life function in the diagram could be eliminated without affecting an individual rabbit\u2019s ability to survive when food is scarce?",
+      "choices": [
+        "digestion",
+        "excretion",
+        "circulation",
+        "reproduction"
+      ],
+      "image": "/images/exams/living-environment/january-2015/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The inability of an organism to produce certain proteins can occur when an organism is lacking an enzyme needed to combine",
+      "choices": [
+        "oxygen molecules",
+        "simple sugars",
+        "amino acids",
+        "biological catalysts"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Bumblebees show some ability to control their own body temperature. During cold weather, bumblebees have been observed warming their flight muscles by shivering. The bees are able to maintain a body temperature several degrees above that of the surrounding air. Regulation of their internal body temperature is an example of",
+      "choices": [
+        "diffusion",
+        "synthesis",
+        "respiration",
+        "homeostasis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "A cell begins to produce a new type of protein. This is most likely due to an alteration of the",
+      "choices": [
+        "structure of the cell membrane",
+        "sequence of bases in a section of a chromosome",
+        "chemical makeup of the cytoplasm",
+        "shape of the antibodies produced by the nucleus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Mother rattlesnakes care for and protect their young. Baby rattlesnakes find safety in the coils of their mothers. Female snakes stay together for the first few weeks after giving birth. This gathering of female rattlesnakes provides a safe environment for newborn rattlers. This is an example of which type of adaptation?",
+      "choices": [
+        "structural",
+        "nutritional",
+        "molecular",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The diagram below represents one stage during the human reproductive process. A function of structure A is to",
+      "choices": [
+        "remove nutrients from the fetus",
+        "provide the fetus with metabolic wastes",
+        "remove all toxins from the blood of the mother",
+        "provide for the exchange of oxygen and carbon dioxide"
+      ],
+      "image": "/images/exams/living-environment/january-2015/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which statement is supported by the information in the graph below?",
+      "choices": [
+        "The enzymes respond in a similar way to changes in temperature.",
+        "The enzymes in bacteria function best at 40\u00b0C.",
+        "The enzymes function best at the same temperature.",
+        "The enzymes break down the same substances."
+      ],
+      "image": "/images/exams/living-environment/january-2015/q38.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Farmland abandoned in 1899 was observed to have significant changes in plant species over a 50-year period. The changes are shown in the chart below. Changes in Plant Species on Abandoned Farmland A forest fire burned all the trees on the land in 1955. Assuming no human interference, climate changes, or natural disasters, the plant species you would expect to see on this land in 2010 would most likely be",
+      "choices": [
+        "grasses",
+        "shrubs and briars",
+        "birch and cherry trees",
+        "beech and maple trees"
+      ],
+      "image": "/images/exams/living-environment/january-2015/q39.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "A list of environmental issues is shown below. \u2022 Rabbits transported from Europe overrun and deplete farmlands in Australia. \u2022 Many areas in the southeastern United States are overgrown with the kudzu plant from Asia. \u2022 In parts of New York State, bluebirds must compete with starlings originally brought here from England. All of these issues are the result of",
+      "choices": [
+        "introduction of nonnative species into stable ecosystems",
+        "genetic engineering without using adequate safety precautions",
+        "preservation of habitats due to human population growth",
+        "use of foreign species to replace native predators Temperature (\u00b0C) Rate of Reaction Optimal temperature for typical human enzyme Optimal temperature for enzyme of thermophilic (heat tolerant) bacteria 0 20 40 60 80 100 Enzyme Activity Year Observed Plant Species 1900 grasses 1910 shrubs and briars 1920 birch and cherry trees 1950"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "written",
+      "text": "The diagram below represents a specimen in the low-power field of view of a compound light microscope. If the slide is not moved, which view best represents the way the specimen will look when the high-power objective lens is switched into place?",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2015/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Two methods of moving from place to place are represented below. The single-celled ameba moves by a process that involves the flow of cytoplasm. Which statement is best supported by these diagrams?",
+      "choices": [
+        "Both simple and complex organisms move directly by the movement of cytoplasm.",
+        "Single-celled organisms, like complex organisms, are able to move; however, they differ in the way they carry out this activity.",
+        "Cytoplasm is a fluid substance in simple cells and a solid substance in cells of complex organisms.",
+        "Cells in complex organisms function in the exact same way as cells in simple organisms."
+      ],
+      "image": "/images/exams/living-environment/january-2015/q42.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "What information would be appropriate to add to box X in order to complete the diagram?",
+      "choices": [
+        "cellular respiration by humans",
+        "simple sugar",
+        "oxygen",
+        "burned by automobiles Photosynthetic organisms Fossil fuels X CO2 ( 1 ) ( 2 ) ( 4 ) ( 3 )"
+      ],
+      "image": "/images/exams/living-environment/january-2015/context_43_43.png",
+      "context": "Base your answer to question 43 on the diagram below and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2015/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nOnondaga Lake is a small lake located near Syracuse, New York. Industrialized municipal\nwastes have been polluting the lake for decades. Eating fish from the lake has been banned\ndue to mercury concentrations in the fish. The data table below indicates the mercury \nconcentrations in smallmouth bass taken from Onondaga Lake. Smallmouth bass eat \nsmaller fish, which feed on aquatic plants.\nAt each feeding level in the food chain, more mercury accumulates. The older and \nlarger the fish, the greater the concentration of mercury.\nMercury in Onondaga Lake\nSmallmouth Bass\nYear\nMercury Concentration\n(ppm \u2013 wet weight)\n2000\n1.5\n2001\n2.0\n2002\n1.75\n2003\n1.0\n2004\n2.5\n2005\n2.25\nLiving Environment\u2013Jan. \u201915\n[10]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data on the grid. Surround each point with a small circle and connect the points.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2015/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nOnondaga Lake is a small lake located near Syracuse, New York. Industrialized municipal\nwastes have been polluting the lake for decades. Eating fish from the lake has been banned\ndue to mercury concentrations in the fish. The data table below indicates the mercury \nconcentrations in smallmouth bass taken from Onondaga Lake. Smallmouth bass eat \nsmaller fish, which feed on aquatic plants.\nAt each feeding level in the food chain, more mercury accumulates. The older and \nlarger the fish, the greater the concentration of mercury.\nMercury in Onondaga Lake\nSmallmouth Bass\nYear\nMercury Concentration\n(ppm \u2013 wet weight)\n2000\n1.5\n2001\n2.0\n2002\n1.75\n2003\n1.0\n2004\n2.5\n2005\n2.25\nLiving Environment\u2013Jan. \u201915\n[10]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Explain how mercury dumped into the lake and taken up by plants reached the smallmouth bass population.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2015/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nOnondaga Lake is a small lake located near Syracuse, New York. Industrialized municipal\nwastes have been polluting the lake for decades. Eating fish from the lake has been banned\ndue to mercury concentrations in the fish. The data table below indicates the mercury \nconcentrations in smallmouth bass taken from Onondaga Lake. Smallmouth bass eat \nsmaller fish, which feed on aquatic plants.\nAt each feeding level in the food chain, more mercury accumulates. The older and \nlarger the fish, the greater the concentration of mercury.\nMercury in Onondaga Lake\nSmallmouth Bass\nYear\nMercury Concentration\n(ppm \u2013 wet weight)\n2000\n1.5\n2001\n2.0\n2002\n1.75\n2003\n1.0\n2004\n2.5\n2005\n2.25\nLiving Environment\u2013Jan. \u201915\n[10]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which statement could be a possible explanation for the drop in mercury concentration in the fish of Onondaga Lake between the years 2002 and 2003?",
+      "choices": [
+        "Between 2000 and 2005, a large number of fish were sampled.",
+        "The dumping of industrial waste was prohibited in 2004.",
+        "More young fish were tested in 2003, compared to the other years.",
+        "The industrial waste contained more mercury in 2004. Example: Mercury in Onondaga Lake Smallmouth Bass Year Mercury Concentration (ppm \u2013 wet weight)"
+      ],
+      "image": "/images/exams/living-environment/january-2015/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nOnondaga Lake is a small lake located near Syracuse, New York. Industrialized municipal\nwastes have been polluting the lake for decades. Eating fish from the lake has been banned\ndue to mercury concentrations in the fish. The data table below indicates the mercury \nconcentrations in smallmouth bass taken from Onondaga Lake. Smallmouth bass eat \nsmaller fish, which feed on aquatic plants.\nAt each feeding level in the food chain, more mercury accumulates. The older and \nlarger the fish, the greater the concentration of mercury.\nMercury in Onondaga Lake\nSmallmouth Bass\nYear\nMercury Concentration\n(ppm \u2013 wet weight)\n2000\n1.5\n2001\n2.0\n2002\n1.75\n2003\n1.0\n2004\n2.5\n2005\n2.25\nLiving Environment\u2013Jan. \u201915\n[10]\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "State one kind of evidence that would support the conclusion that birds evolved from dinosaurs like Tyrannosaurus rex.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 48 and 49 on the passage below and on your knowledge of biology.\nMost animal fossils include hard body parts such as teeth and bones. Until recently, \nscientists had little hope that soft tissue could be preserved in the bones. A team of \nscientists has removed soft tissue containing a collagen protein from the leg bone of a \n68-million-year-old fossil from a dinosaur, Tyrannosaurus rex. The technique of mass \nspectrometry was used to identify the sequences of certain molecules in several small \nfragments of the dinosaur collagen protein.\nThe molecular sequences were compared to those of modern animals. The scientist\nfound that the collagen protein of the Tyrannosaurus rex more closely resembled the \ncollagen protein found in modern chickens than that in some other modern animals.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "When the scientists compared the molecular sequences in the collagen proteins of the Tyrannosaurus rex to those of modern animals, they were most likely seeking information about",
+      "choices": [
+        "patterns of behavior",
+        "reproductive cycles",
+        "common ancestry",
+        ""
+      ],
+      "image": null,
+      "context": "Base your answers to questions 48 and 49 on the passage below and on your knowledge of biology.\nMost animal fossils include hard body parts such as teeth and bones. Until recently, \nscientists had little hope that soft tissue could be preserved in the bones. A team of \nscientists has removed soft tissue containing a collagen protein from the leg bone of a \n68-million-year-old fossil from a dinosaur, Tyrannosaurus rex. The technique of mass \nspectrometry was used to identify the sequences of certain molecules in several small \nfragments of the dinosaur collagen protein.\nThe molecular sequences were compared to those of modern animals. The scientist\nfound that the collagen protein of the Tyrannosaurus rex more closely resembled the \ncollagen protein found in modern chickens than that in some other modern animals.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "written",
+      "text": "Which row best characterizes Bagheera kiplingi and acacia shrubs?",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2015/q50.png",
+      "context": "Base your answers to questions 50 through 52 on the information below and on your knowledge of biology.\nFound: A Plant-Eating Spider\nSpiders are meat-eaters. Until recently, scientists thought that was true for the roughly\n40,000 spider species in the world. Now, researchers have discovered a spider that eats\nmostly plants.\nBagheera kiplingi, a jumping spider, lives in Central America and Mexico. It nests in the\nleaves of acacia shrubs. Scientists have long known that ants live in these plants. The ants\neat the plants\u2019 little yellow vegetables. But scientists had no idea that the spiders eat the\nvegetables too.\nChristopher Meehan was a college student when he found the plant nibbling spiders. \u201cI\nthought I was hallucinating,\u201d he told TFK (Time for Kids). \u201cBut by the end of the day, I had\nseen about 100 more spiders eating plants.\u201d\nSource: Time for Kids World Report,\nEdition 10/23/09 Vol. 15, #7 p.3\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify one abiotic factor that most likely affects the size of the acacia shrub population.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 50 through 52 on the information below and on your knowledge of biology.\nFound: A Plant-Eating Spider\nSpiders are meat-eaters. Until recently, scientists thought that was true for the roughly\n40,000 spider species in the world. Now, researchers have discovered a spider that eats\nmostly plants.\nBagheera kiplingi, a jumping spider, lives in Central America and Mexico. It nests in the\nleaves of acacia shrubs. Scientists have long known that ants live in these plants. The ants\neat the plants\u2019 little yellow vegetables. But scientists had no idea that the spiders eat the\nvegetables too.\nChristopher Meehan was a college student when he found the plant nibbling spiders. \u201cI\nthought I was hallucinating,\u201d he told TFK (Time for Kids). \u201cBut by the end of the day, I had\nseen about 100 more spiders eating plants.\u201d\nSource: Time for Kids World Report,\nEdition 10/23/09 Vol. 15, #7 p.3\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "multiple-choice",
+      "text": "Is competition likely to occur between the Bagheera kiplingi and ants living in acacia shrubs? Support your answer. Row Bagheera kiplingi Acacia",
+      "choices": [
+        "host parasite",
+        "consumer producer",
+        "autotroph heterotroph",
+        ""
+      ],
+      "image": null,
+      "context": "Base your answers to questions 50 through 52 on the information below and on your knowledge of biology.\nFound: A Plant-Eating Spider\nSpiders are meat-eaters. Until recently, scientists thought that was true for the roughly\n40,000 spider species in the world. Now, researchers have discovered a spider that eats\nmostly plants.\nBagheera kiplingi, a jumping spider, lives in Central America and Mexico. It nests in the\nleaves of acacia shrubs. Scientists have long known that ants live in these plants. The ants\neat the plants\u2019 little yellow vegetables. But scientists had no idea that the spiders eat the\nvegetables too.\nChristopher Meehan was a college student when he found the plant nibbling spiders. \u201cI\nthought I was hallucinating,\u201d he told TFK (Time for Kids). \u201cBut by the end of the day, I had\nseen about 100 more spiders eating plants.\u201d\nSource: Time for Kids World Report,\nEdition 10/23/09 Vol. 15, #7 p.3\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Identify the structure that contains the inherited instructions that determine the different color patterns in these snakes.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 53 through 55 on the passage below and on your knowledge of biology.\nInherited instructions control the color patterns of snakes. Some snakes that are not \npoisonous have colors that resemble the patterns on poisonous snakes. Predators avoid \neating harmless snakes that have color patterns similar to those of the poisonous snakes.\nThe results of a recent study indicate that predators in areas that have only harmless snakes\ndo not avoid attacking snakes that have color patterns similar to poisonous snakes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "State one advantage for a nonpoisonous snake having coloration similar to that of a poisonous snake.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 53 through 55 on the passage below and on your knowledge of biology.\nInherited instructions control the color patterns of snakes. Some snakes that are not \npoisonous have colors that resemble the patterns on poisonous snakes. Predators avoid \neating harmless snakes that have color patterns similar to those of the poisonous snakes.\nThe results of a recent study indicate that predators in areas that have only harmless snakes\ndo not avoid attacking snakes that have color patterns similar to poisonous snakes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "State one reason why predators in some areas attack and eat harmless snakes,",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 53 through 55 on the passage below and on your knowledge of biology.\nInherited instructions control the color patterns of snakes. Some snakes that are not \npoisonous have colors that resemble the patterns on poisonous snakes. Predators avoid \neating harmless snakes that have color patterns similar to those of the poisonous snakes.\nThe results of a recent study indicate that predators in areas that have only harmless snakes\ndo not avoid attacking snakes that have color patterns similar to poisonous snakes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "56\u201359 Daphnia are freshwater organisms sometimes referred to as \u201cwater fleas.\u201d Design an experiment that could be used to test the effects of temperature on the size of a daphnia population. In your experimental design, be sure to: \u2022 state a hypothesis to be tested \u2022 describe how the control group will be treated differently from the experimental group \u2022 identify the independent variable in the experiment \u2022",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify the two main substances contained in the vaccine. _____________________________________ and ____________________________________________",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the passage below and on your knowledge of biology.\nA Vaccine to Treat Addiction\nA vaccine for cocaine addiction has been developed. This vaccine temporarily blocks\nthe effects of cocaine. The vaccine consists of a cocaine molecule attached to the surface of\nan inactive, harmless cholera protein.\nSince cocaine molecules alone are too small to stimulate the immune system to create\nantibodies, they are attached to the cholera protein. When people are injected with the \nvaccine, their bodies make antibodies against cholera. They also make antibodies against\ncocaine. When cocaine later enters the bloodstream, the antibodies bind to cocaine and\nprevent it from leaving the bloodstream, so it does not reach the brain. If the drug does not\nreach the brain, the user does not feel its effect. When antibodies were blocking the\ncocaine, people who took cocaine didn\u2019t get an effect from it, so the drug lost its appeal.\nLater, an enzyme breaks down the cocaine and it is flushed out of the body.\nOne problem revealed by the trial was that only 38 percent of vaccinated subjects \ndeveloped high levels of antibodies against the drug. Additionally, the vaccine\u2019s protection\nseems to last for only about two months. Users need to receive booster shots every few\nmonths for approximately two years to make a complete recovery from the addiction.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Describe one effect the cocaine vaccine has on the immune system.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the passage below and on your knowledge of biology.\nA Vaccine to Treat Addiction\nA vaccine for cocaine addiction has been developed. This vaccine temporarily blocks\nthe effects of cocaine. The vaccine consists of a cocaine molecule attached to the surface of\nan inactive, harmless cholera protein.\nSince cocaine molecules alone are too small to stimulate the immune system to create\nantibodies, they are attached to the cholera protein. When people are injected with the \nvaccine, their bodies make antibodies against cholera. They also make antibodies against\ncocaine. When cocaine later enters the bloodstream, the antibodies bind to cocaine and\nprevent it from leaving the bloodstream, so it does not reach the brain. If the drug does not\nreach the brain, the user does not feel its effect. When antibodies were blocking the\ncocaine, people who took cocaine didn\u2019t get an effect from it, so the drug lost its appeal.\nLater, an enzyme breaks down the cocaine and it is flushed out of the body.\nOne problem revealed by the trial was that only 38 percent of vaccinated subjects \ndeveloped high levels of antibodies against the drug. Additionally, the vaccine\u2019s protection\nseems to last for only about two months. Users need to receive booster shots every few\nmonths for approximately two years to make a complete recovery from the addiction.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "How does this vaccine help to treat cocaine addiction?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the passage below and on your knowledge of biology.\nA Vaccine to Treat Addiction\nA vaccine for cocaine addiction has been developed. This vaccine temporarily blocks\nthe effects of cocaine. The vaccine consists of a cocaine molecule attached to the surface of\nan inactive, harmless cholera protein.\nSince cocaine molecules alone are too small to stimulate the immune system to create\nantibodies, they are attached to the cholera protein. When people are injected with the \nvaccine, their bodies make antibodies against cholera. They also make antibodies against\ncocaine. When cocaine later enters the bloodstream, the antibodies bind to cocaine and\nprevent it from leaving the bloodstream, so it does not reach the brain. If the drug does not\nreach the brain, the user does not feel its effect. When antibodies were blocking the\ncocaine, people who took cocaine didn\u2019t get an effect from it, so the drug lost its appeal.\nLater, an enzyme breaks down the cocaine and it is flushed out of the body.\nOne problem revealed by the trial was that only 38 percent of vaccinated subjects \ndeveloped high levels of antibodies against the drug. Additionally, the vaccine\u2019s protection\nseems to last for only about two months. Users need to receive booster shots every few\nmonths for approximately two years to make a complete recovery from the addiction.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "State one positive effect the use of this MKS device has on the environment.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 and 64 on the information below and on your knowledge of biology.\nMosquito Technologies of New York, Inc., has developed a Mosquito Killing System\n(MKS) to help control the mosquito population and reduce the transmission of West Nile\nVirus. The MKS works by taking advantage of the natural hunting strategies of mosquitoes,\nsuch as heat sensing and carbon dioxide detection. Beneficial insects do not use the same\nhunting strategies. The MKS unit produces heat and releases carbon dioxide in cycles,\nmimicking the breathing and body temperatures of humans, pets, and other warm-blooded\nanimals. This attracts the mosquitoes to the device and, once inside, a vacuum pulls them\nin, where they pass through an electrocution grid, killing them. The mosquito remains are\nthen returned to the environment through the bottom of the unit.\nThe unit contains a solar-powered photocell that turns the device on at dusk and turns\nit off at dawn.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "A town wants to buy a number of MKS devices to solve their mosquito problem. One individual is concerned that this device could have a negative effect on insects that are beneficial to the environment. Based on the information given, is this a valid concern?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 and 64 on the information below and on your knowledge of biology.\nMosquito Technologies of New York, Inc., has developed a Mosquito Killing System\n(MKS) to help control the mosquito population and reduce the transmission of West Nile\nVirus. The MKS works by taking advantage of the natural hunting strategies of mosquitoes,\nsuch as heat sensing and carbon dioxide detection. Beneficial insects do not use the same\nhunting strategies. The MKS unit produces heat and releases carbon dioxide in cycles,\nmimicking the breathing and body temperatures of humans, pets, and other warm-blooded\nanimals. This attracts the mosquitoes to the device and, once inside, a vacuum pulls them\nin, where they pass through an electrocution grid, killing them. The mosquito remains are\nthen returned to the environment through the bottom of the unit.\nThe unit contains a solar-powered photocell that turns the device on at dusk and turns\nit off at dawn.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Explain why athletes who practice blood doping would be expected to perform better at an athletic event.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2015/context_65_67.png",
+      "context": "Base your answers to questions 65 through 67 on the information and diagram below and on your \nknowledge of biology.\nBlood Doping\nBlood is a fluid tissue, which means that blood cells are suspended in a fluid called \nplasma. Blood tests are concerned with not only the number of blood cells present, but with\nthe amount of plasma that surrounds the cells.\nThe diagram below represents tubes containing blood samples from an athlete before\nand after blood doping. Blood doping is an illegal practice reportedly used by some athletes\na few weeks before an athletic event, and involves removing whole blood from an athlete,\nseparating the oxygen-carrying red blood cells (RBCs), and then freezing them. These\nRBCs are thawed and returned to the athlete\u2019s body just before the athlete competes.\nSerious health risks are associated with this practice.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "State one reason why the extra RBCs represented in sample 2 could be dangerous to the health of an athlete. 1 2 Normal Blood Sample of Athlete Blood Sample After Blood Doping Key = Fluid or plasma = Solids;",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2015/context_65_67.png",
+      "context": "Base your answers to questions 65 through 67 on the information and diagram below and on your \nknowledge of biology.\nBlood Doping\nBlood is a fluid tissue, which means that blood cells are suspended in a fluid called \nplasma. Blood tests are concerned with not only the number of blood cells present, but with\nthe amount of plasma that surrounds the cells.\nThe diagram below represents tubes containing blood samples from an athlete before\nand after blood doping. Blood doping is an illegal practice reportedly used by some athletes\na few weeks before an athletic event, and involves removing whole blood from an athlete,\nseparating the oxygen-carrying red blood cells (RBCs), and then freezing them. These\nRBCs are thawed and returned to the athlete\u2019s body just before the athlete competes.\nSerious health risks are associated with this practice.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "More middle- and long-distance runners have tested positive for blood doping than short-distance runners, such as sprinters. State one reason why athletes participating in certain events might be more likely to practice blood doping than others.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2015/context_65_67.png",
+      "context": "Base your answers to questions 65 through 67 on the information and diagram below and on your \nknowledge of biology.\nBlood Doping\nBlood is a fluid tissue, which means that blood cells are suspended in a fluid called \nplasma. Blood tests are concerned with not only the number of blood cells present, but with\nthe amount of plasma that surrounds the cells.\nThe diagram below represents tubes containing blood samples from an athlete before\nand after blood doping. Blood doping is an illegal practice reportedly used by some athletes\na few weeks before an athletic event, and involves removing whole blood from an athlete,\nseparating the oxygen-carrying red blood cells (RBCs), and then freezing them. These\nRBCs are thawed and returned to the athlete\u2019s body just before the athlete competes.\nSerious health risks are associated with this practice.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Explain how some dandelions were able to survive the spraying of the herbicide.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 68 and 69 on the information below and on your knowledge of biology.\nA woman wanted to remove the dandelion plants from her lawn. She went to the store\nand bought an herbicide spray that was supposed to kill the dandelions. She sprayed it on\nher lawn according to the directions. Within two weeks, almost all of the dandelions had\ndied; however, a few dandelions remained.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "69",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 68 and 69 on the information below and on your knowledge of biology.\nA woman wanted to remove the dandelion plants from her lawn. She went to the store\nand bought an herbicide spray that was supposed to kill the dandelions. She sprayed it on\nher lawn according to the directions. Within two weeks, almost all of the dandelions had\ndied; however, a few dandelions remained.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Describe how the wolf population is controlled naturally in the environment without human intervention.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of biology.\nTypes of Predators\nWhen large predators, such as lions or wolves, are removed from a food web, smaller\n\u201cmesopredators\u201d step in to take their places, and the results may be severe. Mesopredators\nare usually smaller and more numerous than the larger \u201capex\u201d predators that they replace.\nSome are also omnivores, eating plant and animal food sources, rather than eating the \nmeat-only diet of the largest predators. Examples of mesopredators include coyotes, \nraccoons, and skunks.\nIn 1874, General George Custer noted that there was an abundance of wolves, but few\ncoyotes, in South Dakota. Today, there is an abundance of coyotes, but no wolves. The\nwolves were removed to protect domestic sheep, but now the coyotes are often responsible\nfor attacking sheep and other animals. The cost of controlling mesopredators by human\nintervention can be very high, as mesopredators are very numerous and quickly \u201cbounce\nback\u201d after control efforts. Meanwhile, the number of apex predators that are endangered\ncontinues to increase.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "State how the mesopredator population was most likely controlled before the wolves were removed from the food web.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of biology.\nTypes of Predators\nWhen large predators, such as lions or wolves, are removed from a food web, smaller\n\u201cmesopredators\u201d step in to take their places, and the results may be severe. Mesopredators\nare usually smaller and more numerous than the larger \u201capex\u201d predators that they replace.\nSome are also omnivores, eating plant and animal food sources, rather than eating the \nmeat-only diet of the largest predators. Examples of mesopredators include coyotes, \nraccoons, and skunks.\nIn 1874, General George Custer noted that there was an abundance of wolves, but few\ncoyotes, in South Dakota. Today, there is an abundance of coyotes, but no wolves. The\nwolves were removed to protect domestic sheep, but now the coyotes are often responsible\nfor attacking sheep and other animals. The cost of controlling mesopredators by human\nintervention can be very high, as mesopredators are very numerous and quickly \u201cbounce\nback\u201d after control efforts. Meanwhile, the number of apex predators that are endangered\ncontinues to increase.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "If apex predators are so valuable to the ecological balance,",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of biology.\nTypes of Predators\nWhen large predators, such as lions or wolves, are removed from a food web, smaller\n\u201cmesopredators\u201d step in to take their places, and the results may be severe. Mesopredators\nare usually smaller and more numerous than the larger \u201capex\u201d predators that they replace.\nSome are also omnivores, eating plant and animal food sources, rather than eating the \nmeat-only diet of the largest predators. Examples of mesopredators include coyotes, \nraccoons, and skunks.\nIn 1874, General George Custer noted that there was an abundance of wolves, but few\ncoyotes, in South Dakota. Today, there is an abundance of coyotes, but no wolves. The\nwolves were removed to protect domestic sheep, but now the coyotes are often responsible\nfor attacking sheep and other animals. The cost of controlling mesopredators by human\nintervention can be very high, as mesopredators are very numerous and quickly \u201cbounce\nback\u201d after control efforts. Meanwhile, the number of apex predators that are endangered\ncontinues to increase.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "A laboratory setup that can be used to provide information about relationships between four plant species is represented below. This setup is part of the technique known as",
+      "choices": [
+        "electrophoresis",
+        "biological staining",
+        "dissection",
+        "chromatography"
+      ],
+      "image": "/images/exams/living-environment/january-2015/q73.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "When people exercise, their body cells build up more waste quickly. Which two body systems work together to remove these wastes from their cells?",
+      "choices": [
+        "immune and endocrine",
+        "digestive and skeletal",
+        "respiratory and circulatory",
+        "circulatory and digestive"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Red onion cells undergo the change represented in the diagram below. This change is most likely caused by the cell being transferred from",
+      "choices": [
+        "distilled water to starch indicator",
+        "distilled water to salt water",
+        "salt water to tap water",
+        "salt water to distilled water A B 1 4 3 Water 2"
+      ],
+      "image": "/images/exams/living-environment/january-2015/q75.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "Which chemicals are used to cut DNA into fragments for a gel electrophoresis procedure?",
+      "choices": [
+        "enzymes",
+        "molecular bases",
+        "hormones",
+        "ATP molecules"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "The diagram below represents a laboratory setup used to demonstrate the movement of molecules across a selectively permeable membrane. In the diagram below, draw the 5 starch and the 12 glucose molecules to show where they would most likely be located after 15",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2015/q77.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "A student hypothesized that drinking tea would cause an increase in pulse rate. He measured his pulse 20 minutes after drinking a glass of tea. It was 86",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "The diagram of the island suggests that in region B finches can feed on",
+      "choices": [
+        "large seeds and insects",
+        "small seeds, only",
+        "a large variety of different-sized seeds",
+        "insects and a limited number of small seeds"
+      ],
+      "image": "/images/exams/living-environment/january-2015/context_81_84.png",
+      "context": "Base your answers to questions 81 through 84 on the diagrams below and on your knowledge of biology. The\ndiagrams represent the variations in the beaks of finches in the Galapagos Islands and the relative abundance of\nfood sources on a certain island.\nRegion A\nRegion B\nRegion C\nRegion D\nRelative Abundance of Food Sources\non a Certain Island\nKey\nLarge seeds\nSmall seeds\nInsects\nFrom: Galapagos: A Natural History Guide\nVariations in Beaks of Galapagos Islands Finches\nLarge\nground\nfinch\nVegetarian\nfinch\nLarge\ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler\nfinch\nCactus\nfinch\nSharp-billed\nground finch\nSmall\nground\nfinch\nMedium\nground\nfinch\nE\nd\ng\ne\nc\nr\nu\ns\nh\ni\nn\ng\nB\ni\nt\ni\nn\ng\nt\ni\np\ns\nC\nr\nu\ns\nh\ni\nn\ng\nb\ni\nl\nl\ns\nMainly\nplant\nfood\nMainly\nanimal\nfood\nG\nr\na\ns\np\ni\nn\ng\nb\ni\nl\nl\ns\n100%\nanimal\nfood\nP\nr\no\nb\ni\nn\ng\nP\nr\no\nb\ni\nn\ng\nb\ni\nl\nl\ns\nLiving Environment\u2013Jan. \u201915\n[24]\n\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Which histogram displays the relative abundance of small seeds in regions A, B, C, and D?",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2015/context_81_84.png",
+      "context": "Base your answers to questions 81 through 84 on the diagrams below and on your knowledge of biology. The\ndiagrams represent the variations in the beaks of finches in the Galapagos Islands and the relative abundance of\nfood sources on a certain island.\nRegion A\nRegion B\nRegion C\nRegion D\nRelative Abundance of Food Sources\non a Certain Island\nKey\nLarge seeds\nSmall seeds\nInsects\nFrom: Galapagos: A Natural History Guide\nVariations in Beaks of Galapagos Islands Finches\nLarge\nground\nfinch\nVegetarian\nfinch\nLarge\ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler\nfinch\nCactus\nfinch\nSharp-billed\nground finch\nSmall\nground\nfinch\nMedium\nground\nfinch\nE\nd\ng\ne\nc\nr\nu\ns\nh\ni\nn\ng\nB\ni\nt\ni\nn\ng\nt\ni\np\ns\nC\nr\nu\ns\nh\ni\nn\ng\nb\ni\nl\nl\ns\nMainly\nplant\nfood\nMainly\nanimal\nfood\nG\nr\na\ns\np\ni\nn\ng\nb\ni\nl\nl\ns\n100%\nanimal\nfood\nP\nr\no\nb\ni\nn\ng\nP\nr\no\nb\ni\nn\ng\nb\ni\nl\nl\ns\nLiving Environment\u2013Jan. \u201915\n[24]\n\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Explain why researchers would most likely observe the large ground finch in regions A and D on the island and not in regions B and C.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2015/context_81_84.png",
+      "context": "Base your answers to questions 81 through 84 on the diagrams below and on your knowledge of biology. The\ndiagrams represent the variations in the beaks of finches in the Galapagos Islands and the relative abundance of\nfood sources on a certain island.\nRegion A\nRegion B\nRegion C\nRegion D\nRelative Abundance of Food Sources\non a Certain Island\nKey\nLarge seeds\nSmall seeds\nInsects\nFrom: Galapagos: A Natural History Guide\nVariations in Beaks of Galapagos Islands Finches\nLarge\nground\nfinch\nVegetarian\nfinch\nLarge\ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler\nfinch\nCactus\nfinch\nSharp-billed\nground finch\nSmall\nground\nfinch\nMedium\nground\nfinch\nE\nd\ng\ne\nc\nr\nu\ns\nh\ni\nn\ng\nB\ni\nt\ni\nn\ng\nt\ni\np\ns\nC\nr\nu\ns\nh\ni\nn\ng\nb\ni\nl\nl\ns\nMainly\nplant\nfood\nMainly\nanimal\nfood\nG\nr\na\ns\np\ni\nn\ng\nb\ni\nl\nl\ns\n100%\nanimal\nfood\nP\nr\no\nb\ni\nn\ng\nP\nr\no\nb\ni\nn\ng\nb\ni\nl\nl\ns\nLiving Environment\u2013Jan. \u201915\n[24]\n\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "A bird count was done on the island and the small tree finch was found in all regions. State one possible reason why the small tree finch is able to inhabit the entire island. 2 0 4 6 8 10 2 0 4 6 8 10 2 0 4 6 8 10 2 0 4 6 8 10 A B C Regions ( 1 ) Regions ( 3 ) A B C D Regions ( 2 ) A B C D Regions ( 4 ) D A B C D Relative Abundance of Small Seeds( ) Relative Abundance of Small Seeds( ) Relative Abundance of Small Seeds( ) Relative Abundance of Small Seeds( )",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2015/context_81_84.png",
+      "context": "Base your answers to questions 81 through 84 on the diagrams below and on your knowledge of biology. The\ndiagrams represent the variations in the beaks of finches in the Galapagos Islands and the relative abundance of\nfood sources on a certain island.\nRegion A\nRegion B\nRegion C\nRegion D\nRelative Abundance of Food Sources\non a Certain Island\nKey\nLarge seeds\nSmall seeds\nInsects\nFrom: Galapagos: A Natural History Guide\nVariations in Beaks of Galapagos Islands Finches\nLarge\nground\nfinch\nVegetarian\nfinch\nLarge\ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler\nfinch\nCactus\nfinch\nSharp-billed\nground finch\nSmall\nground\nfinch\nMedium\nground\nfinch\nE\nd\ng\ne\nc\nr\nu\ns\nh\ni\nn\ng\nB\ni\nt\ni\nn\ng\nt\ni\np\ns\nC\nr\nu\ns\nh\ni\nn\ng\nb\ni\nl\nl\ns\nMainly\nplant\nfood\nMainly\nanimal\nfood\nG\nr\na\ns\np\ni\nn\ng\nb\ni\nl\nl\ns\n100%\nanimal\nfood\nP\nr\no\nb\ni\nn\ng\nP\nr\no\nb\ni\nn\ng\nb\ni\nl\nl\ns\nLiving Environment\u2013Jan. \u201915\n[24]\n\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Several days after a litter of three purebred puppies was born, a breeder noticed one extra puppy in the litter. The diagram below shows the results of electrophoresis of DNA fragments from all of the dogs. The puppies are labeled 1, 2, 5, and 6. The parent dogs are labeled 3 and 4. Identify which puppy might have been placed into this litter by mistake. Support your answer. Puppy: ____________ 1 2 3 4 5 6 1 2 3 4 5 6 LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2015/q85.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

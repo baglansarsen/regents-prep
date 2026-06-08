@@ -1,0 +1,376 @@
+{
+  "subject": "english",
+  "session": "january-2026",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The description of the mother in lines 1 through 5 emphasizes her",
+      "choices": [
+        "level of frustration",
+        "delight in her work",
+        "concern about the weather",
+        "sense of determination"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Lines 14 through 21 establish a theme of",
+      "choices": [
+        "cooperation",
+        "celebration",
+        "prosperity",
+        "patience"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The statement in line 22 emphasizes the",
+      "choices": [
+        "simplicity of being admitted to the haenyeo",
+        "danger associated with being a haenyeo",
+        "importance of the tradition of the haenyeo",
+        "isolation involved with becoming a haenyeo"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Lines 26 through 29 serve to",
+      "choices": [
+        "describe an image",
+        "compare and contrast",
+        "introduce a confl ict",
+        "explain and defi ne"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Mi-ja\u2019s use of the word \u201cAuntie\u201d (line 51) implies her",
+      "choices": [
+        "enthusiasm",
+        "admiration",
+        "sarcasm",
+        "sympathy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The responses to the mother\u2019s question (lines 55 through 59) indicate that the women",
+      "choices": [
+        "lack confi dence in the mother\u2019s leadership",
+        "are worried about the girls\u2019 lack of skills",
+        "can fi nd humor in their diffi cult task",
+        "plan to accomplish their task quickly 80 Regents Exam in ELA \u2014 Jan. \u201926"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The central idea of lines 63 through 66 is that the collectives are organized to",
+      "choices": [
+        "avoid unsafe territories",
+        "ensure there are no limitations to harvesting",
+        "enlarge the breeding grounds",
+        "provide equal opportunities to harvest"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Lines 75 and 76 indicate that the haenyeo collectives",
+      "choices": [
+        "compete for their harvesting areas",
+        "carefully rank divers by experience",
+        "reluctantly accept beginner divers",
+        "guard their secret harvesting knowledge"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which lines signal a shift in mood?",
+      "choices": [
+        "\u201c \u2018You girls learned to swim together,\u2019 Mother said. \u2018You\u2019ve watched and learned as apprentices. You, Mi-ja, have worked especially hard.\u2019 \u201d (lines 14 and 15)",
+        "\u201cMi-ja set down her basket and hurried to the fi re. \u2018No need for you to worry about tending the fi re now,\u2019 Yang Do-saeng called out good-naturedly.\u201d (lines 39 through 41)",
+        "\u201cThe other women laughed, causing Mi-ja to blush. \u2018Stop teasing her,\u2019 my mother said. \u2018These two have enough to worry about today.\u2019 \u201d (lines 52 and 53)",
+        "\u201c \u2018The most experienced among us can go as deep as we want, while the baby-divers can pick through those spots close to the surface.\u2019 \u201d (lines 78 through 80) Regents Exam in ELA \u2014 Jan. \u201926 Reading Comprehension Passage B To a Snake I knew you were not poisonous when I saw you in the side garden; even your name\u2014milk snake\u2014 sounds harmless, and yet your pattern of copper splotches outlined in black frightened me, and the way you were curled in loops; and it offended me that you were so close to the house and clearly living underneath it if not inside, in the cellar, where I have found your torn shed skins. You must have been frightened too when I caught you in the webbing of the lacrosse stick and fl ung you into the woods, where you landed dangling from a vine-covered branch, shamelessly twisted. Now I am the one who is ashamed, unable to untangle my feelings, braided into my DNA or buried deep in the part of my brain that is most like yours. \u2014Jeffrey Harrison \u201cTo a Snake\u201d from Into Daylight, 2014 Tupelo Press 10 15 20 5 Regents Exam in ELA \u2014 Jan. \u201926"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The speaker\u2019s reaction to the snake (lines 1 through 6) was triggered by",
+      "choices": [
+        "curiosity",
+        "coloring",
+        "movement",
+        "aggression"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The word \u201cif\u201d in line 10 indicates the speaker",
+      "choices": [
+        "provokes a response from the snake",
+        "tolerates that the snake lives near the garden",
+        "respects the needs of the snake",
+        "resents that the snake goes into the cellar"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The use of \u201cthe lacrosse stick\u201d (line 14) to move the snake most likely suggests",
+      "choices": [
+        "hastiness",
+        "precision",
+        "creativity",
+        "sensitivity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The phrase \u201cshamelessly twisted\u201d (line 17) emphasizes the speaker\u2019s",
+      "choices": [
+        "pride in the quick reaction",
+        "surprise at the snake\u2019s inaction",
+        "guilt surrounding the violent act",
+        "certainty about the snake\u2019s survival"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Lines 17 through 22 demonstrate a shift in mood from",
+      "choices": [
+        "boredom to excitement",
+        "innocence to vengeance",
+        "courage to bitterness",
+        "hesitancy to regret Regents Exam in ELA \u2014 Jan. \u201926 Reading Comprehension Passage C If You\u2019re Just Not a Morning Person, Science Says You May Never Be If Cassidy Sokolis ever needs to wake up before 11 am, she scatters three alarm clocks throughout her bedroom. Even then, she still often sleeps through the clamor. \u2026 When she was 19, Sokolis was diagnosed with delayed sleep phase, a disorder that sets her internal clock permanently out of sync with the rest of the world. It\u2019s not that she needs more sleep than the average person. It\u2019s just that her body prefers her to begin a seven- or eight-hour cycle after 3 am. While she\u2019s still a college student, Sokolis can start her day at 11 am, thanks to a fl exible class schedule. But now she\u2019s nearing graduation, and she\u2019s worried her unusual schedule will get in the way of her dream of becoming a teacher \u2014 a profession with notoriously early start times. \u201cIf it\u2019s between changing my career and fi nding a way to make it work, I\u2019m defi nitely going to have to fi nd a way to make it work,\u201d she says. Sokolis is on the far end of the bell curve1 of human sleep habits. We all have a preferred, inborn time for sleeping. Science has validated the idea that there are \u201cmorning people,\u201d \u201cevening people,\u201d and those in between. These are called chronotypes. And just like it\u2019s rare for a person to be 7 feet tall, it\u2019s rare for Sokolis to not be able to sleep until 3 am. We all have a chronotype, just like we all have a height. Even people who are slightly more oriented to the evening \u2014 people who like to sleep between 1 am and 9 am, say \u2014 may be faced with a diffi cult choice: Listen to your body, or force it to match the sleep habits of most everyone else? Research has been gaining insight on that question. It turns out our internal clocks are infl uenced by genes and are incredibly diffi cult to change. If you\u2019re just not a morning person, it\u2019s likely you\u2019ll never be, at least until the effects of aging kick in. And what\u2019s more, if we try to live out of sync with these clocks, our health likely suffers. The mismatch between internal time and real-world time has been linked to heart disease, obesity, and depression. This all amounts to a case \u2014 not an absolute case, but a compelling one nonetheless \u2014 that we should listen to our bodies and not the alarm clocks. Your body is a clock Most people \u2014 around 30 to 50 percent \u2014 fall right in the middle of the chronotype bell curve, sleeping between the hours of 11 pm and 7 am. Another 40 percent are either slightly morning people or slightly evening people, off by an hour or so. People like Sokolis are even more rare: Only around 0.2 percent \u2014 one out of 500 \u2014 of adults have a delayed sleep phase like Sokolis. (The condition is much more common among teens, whose clocks gradually shift earlier as they age.) A few more adults (1 percent) have advanced sleep phase syndrome and prefer to go to sleep around 8 pm, according to the American Sleep Association. Society tends to be more forgiving of them. To understand why some people are early birds while others are night owls, let\u2019s consider the body\u2019s circadian system.2 The body is an orchestra of organs, each providing an essential function. In this metaphor, the circadian rhythm is the conductor. 1bell curve \u2014 a graph showing a distribution of data that occurs naturally in many situations 2circadian system \u2014 the body\u2019s internal clock of 24-hour cycles that controls essential functions and processes 20 10 5 15 25 30 35 Regents Exam in ELA \u2014 Jan. \u201926 The most important thing to know about the circadian system is that it doesn\u2019t just control when we\u2019re sleepy. \u201cEvery neurotransmitter,3 hormone, and chemical in the body cycles with the daily rhythm,\u201d Philip Gehrman, a sleep researcher and clinician at the University of Pennsylvania, tells me. \u201cIt\u2019s not just humans; even single-cell organisms follow a circadian rhythm. It really seems to be a fundamental property of life.\u201d Our bodies run this tight schedule to try to keep up with our actions. Since we usually eat a meal after waking up, we produce the most insulin in the morning. We\u2019re primed to metabolize breakfast before even taking a bite. It\u2019s more effi cient that way. For people who are either more morning-oriented or evening-oriented, everything the circadian system controls is delayed. \u201cEvening types on average get down to their lowest core body temperature later than normal,\u201d Leon Lack, who studies circadian rhythms at Flinders University in Australia, tells me in an email. \u201cTheir circadian system doesn\u2019t start producing sleepiness until later or alertness until later.\u201d They also release cortisol, the stress hormone, later than average. Most people hit their peak alertness around 10 am. Evening-type people can hit theirs hours later. Some extreme night owls gather on Reddit4 to discuss the unique challenges of being out of sync with the world. That\u2019s where I found Sokolis and several others, including Kat Park, who were willing to share their personal stories. Mainly I wanted to know what it feels like to be on a schedule mismatched with the rest of the world. \u201cWhen I wake up in the morning, it\u2019s like I\u2019m fi ghting horse tranquilizers,\u201d says Park, a 34-year-old health care administrator who lives in Overland Park, Kansas. If she had it her way, she\u2019d fall asleep around 3 am and wake up around noon. You\u2019re also subject to judgment if you\u2019re groggy when others are at their peak, Park and others said. \u2026 When our personal clock is out of sync with society\u2019s, our health suffers Scientists have a term for being out of sync: social jet lag. It\u2019s a social nuisance for the people who have it, but it also puts stress on the body that may undermine health. \u2026 In 2012, researchers in Europe analyzed a self-report data set of 65,000 Europeans and found \u201csocial jet lag signifi cantly increased the probability of belonging to the group of overweight participants.\u201d There\u2019s also correlational research5 indicating that late chronotypes may be at a greater risk for depression, and that they\u2019re more likely to engage in risky behaviors like smoking. \u2026 A 2015 study tracking the sleep of 447 middle-aged adults for a week also picked up on this worrisome pattern. It found social jet lag correlated with insulin resistance \u2014 a precursor6 to diabetes \u2014 lower HDL cholesterol (the good kind), higher levels of triglycerides,7 higher waist circumference, and higher BMI [Body Mass Index].8 These correlations remained even after adjusting for behaviors like exercise, smoking, and alcohol use. \u2026 3neurotransmitter \u2014 a chemical substance that facilitates the transmission of impulses between neurons in the brain 4Reddit \u2014 an Internet-based social media platform 5correlational research \u2014 research that determines the statistical relationship between two or more variables 6precursor \u2014 something that precedes or predicts an occurrence 7triglycerides \u2014 type of fat found in blood 8BMI \u2014 a ratio comparing a person\u2019s weight to their height 45 50 55 60 65 70 75 40 Regents Exam in ELA \u2014 Jan. \u201926 Toward a \u201cchronotype acceptance\u201d movement Simply put: Society favors early risers. Think no further than phrases like, \u201cThe early bird catches the worm.\u201d Getting an offi cial diagnosis can help lift the burden from people on a different clock. \u201cIt really helps to know it isn\u2019t my fault,\u201d Sokolis says of her diagnosis. But people like her are still left with a hard choice. The best-paying jobs start in the morning. Educational opportunities do, too. Can they really afford to miss out on everything that happens before noon? The delayed sleep phase sufferers I spoke to all agreed: The one thing they wished for was greater tolerance of people like them. \u2026 \u2014Brian Resnick excerpted and adapted from \u201cIf You\u2019re Just Not a Morning Person, Science Says You May Never Be\u201d www.vox.com, March 17, 2017"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The details in lines 1 through 6 show that Cassidy Sokolis",
+      "choices": [
+        "functions on little sleep",
+        "has an unusual sleep cycle",
+        "has an unpredictable sleep pattern",
+        "requires less sleep than most people"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The comparison of chronotypes to height in lines 14 through 16 clarifi es that chronotypes",
+      "choices": [
+        "are universal",
+        "determine growth",
+        "are adjustable",
+        "provide stability"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "As used in line 17, the phrase \u201coriented to\u201d most nearly means",
+      "choices": [
+        "disturbed by",
+        "inclined toward",
+        "experienced with",
+        "excited about"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The metaphor in lines 38 and 39 suggests that",
+      "choices": [
+        "aging transforms sleep phases",
+        "breathing is stressed during sleep",
+        "health is affected by sleep patterns",
+        "exercise determines sleep patterns"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Lines 40 through 44 emphasize a central idea about",
+      "choices": [
+        "our traditional beliefs about preferred circadian rhythms",
+        "our limited knowledge of the purpose of circadian rhythms",
+        "the confl icting theories in circadian rhythms research",
+        "the critical importance of circadian rhythms to life"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A primary function of lines 50 through 54 is to",
+      "choices": [
+        "introduce a bias",
+        "reinforce a claim",
+        "dismiss a counterclaim",
+        "propose a solution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The phrase \u201csocial jet lag\u201d in lines 64 through 68 serves to",
+      "choices": [
+        "suggest reasons to ignore warnings",
+        "exaggerate the supposed danger",
+        "question the connection to disease",
+        "identify possible side effects 80 Regents Exam in ELA \u2014 Jan. \u201926"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The function of an \u201coffi cial diagnosis\u201d (line 78) is that it enables people like Sokolis to",
+      "choices": [
+        "be more comfortable with their natural sleep patterns",
+        "request more comfortable working conditions",
+        "supplement their sleep loss with daily naps",
+        "receive appropriate treatment for their medical diagnosis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which statement refl ects a central idea of the text as a whole?",
+      "choices": [
+        "\u201cWhile she\u2019s still a college student, Sokolis can start her day at 11 am, thanks to a fl exible class schedule\u201d (lines 7 and 8)",
+        "\u201cwe should listen to our bodies and not the alarm clocks\u201d (line 27)",
+        "\u201cSome extreme night owls gather on Reddit to discuss the unique challenges\u201d (line 55)",
+        "\u201cresearchers in Europe analyzed a self-report data set of 65,000 Europeans\u201d (line 66)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The text is developed primarily through the use of",
+      "choices": [
+        "detailed examples",
+        "chronological order",
+        "order of importance",
+        "claim and counterclaim Regents Exam in ELA \u2014 Jan. \u201926 Part 2 Argument Directions: Closely read each of the four texts provided on pages 13 through 20 and write a source-based argument on the topic below. You may use the margins to take notes as you read and scrap paper to plan your response. Write your argument beginning on page 1 of your essay booklet. Topic: Should employers consider social media activity when evaluating potential candidates? Social Media is a term for computer and cellphone-based communication systems where participants can send messages, photographs and videos to others, forming communities of connected individuals. These platforms usually keep the communications of their participants available for access indefi nitely. Your Task: Carefully read each of the four texts provided. Then, using evidence from at least three of the texts, write a well-developed argument regarding whether or not employers should consider social media activity when evaluating potential candidates. Clearly establish your claim, distinguish your claim from alternate or opposing claims, and use specifi c, relevant, and suffi cient evidence from at least three of the texts to develop your argument. Do not simply summarize each text. Guidelines: Be sure to: \u2022 Establish your claim regarding whether or not employers should consider social media activity when evaluating potential candidates \u2022 Distinguish your claim from alternate or opposing claims \u2022 Use specifi c, relevant, and suffi cient evidence from at least three of the texts to develop your argument \u2022 Identify each source that you reference by text number and line number(s) or graphic (for example: Text 1, line 4 or Text 2, graphic) \u2022 Organize your ideas in a cohesive and coherent manner \u2022 Maintain a formal style of writing \u2022 Follow the conventions of standard written English Texts: Text 1 \u2013 How Social Media Can Reveal the Best (And Worst) of Your Employment Candidates Text 2 \u2013 Should You Consider Social Media When Evaluating Job Candidates? Text 3 \u2013 Guardrails for Using Social Media During the Hiring Process Text 4 \u2013 How Social Media Could Affect Your Job Regents Exam in ELA \u2014 Jan. \u201926 Text 1 How Social Media Can Reveal the Best (And Worst) of Your Employment Candidates Picture this: You had an argument three months ago on social media with a stranger over the hot-button issue of the day. You were provoked because you felt the other poster was such a jerk, and you had to stand your ground. You didn\u2019t even care that much about the topic (what was it again?), but somebody had to set that person straight. You didn\u2019t love the way you conducted yourself, but the comments are buried under millions of new posts and forgotten now, anyway, so who cares, right? Well, someone might. And that someone might be your next potential employer. As the president of a company that provides pre-employment screenings for clients, it\u2019s my job to fi nd everything I can about a candidate through their social media. I don\u2019t make any decisions for clients; I simply hand over the information. Through this experience, I\u2019m fi nding that hiring managers are more frequently conducting background checks that go beyond criminal and public records and employment history. And a candidate\u2019s irate,1 aggressive and potentially threatening postings are what many are on the lookout for. \u2026 Those decision makers are checking Facebook, Instagram, LinkedIn, Twitter [renamed as X], TikTok, Reddit and more\u2014every place where a candidate might have made a posting that can raise a red fl ag. As a job-seeker, you might have consented when you checked a box online or on your paper application. And even if you didn\u2019t, statements made in public forums, which includes social media, are fair game.2 Screenings might range from simply viewing content available to the public to in-depth searches of posts you\u2019ve made on social media over the past six months (even the posts you\u2019ve deleted). A CareerBuilder survey found that 57% of employers have found social content that caused them to rule out a candidate. What might rule someone out? Some of it is obvious, based on my experience: patterns of overt3 anger, suggestions of violence, associations with questionable characters, signs of crass4 behavior or even too many political posts. I\u2019ve seen that a post one might consider mild or mainstream could get a resume tossed in the recycle bin. Getting oneself in trouble with a social media post on the employment side isn\u2019t limited to the job search. In June , the Washington Post fi red a reporter for a days-long Twitter [X] dispute related to another reporter who himself had received a one-month suspension for an unsavory5 posting. I\u2019ve seen that legal issues can also prompt a closer look at a person\u2019s social media. The most obvious gaffes6 are those in which a person is caught in a fraud situation, such as posting a picture of themselves waterskiing when they\u2019re supposed to be home in bed collecting workers\u2019 compensation benefi ts, for instance. \u2026 1irate \u2014 annoyed or angry 2fair game \u2014 appropriate, available or reasonable to review 3overt \u2014 obvious 4crass \u2014 rude or distasteful 5unsavory \u2014 objectionable 6gaffes \u2014 blunders 5 10 15 20 25 30 Regents Exam in ELA \u2014 Jan. \u201926"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "As an employer, it\u2019s all about eliminating potential risk. For this reason, I suggest to clients that they take a look at current employees\u2019 social media accounts, too\u2014a practice I do myself. Now, what they do in their private time is their own business, and I don\u2019t believe an untoward7 social media post is grounds to let someone go. But I do believe it\u2019s good to know what is going on in employees\u2019 lives by their postings. If their social media revelations don\u2019t affect their performance or raise issues with co-workers, they probably will not pose a problem at the workplace. \u2026 \u2014Harry Kazakian excerpted and adapted from \u201cHow Social Media Can Reveal the Best (And Worst) of Your Employment Candidates\u201d www.forbes.com, September 26, 2022 7untoward \u2014 inappropriate 40 Regents Exam in ELA \u2014 Jan. \u201926 Text 2 Should You Consider Social Media When Evaluating Job Candidates? You\u2019re a hiring manager in the process of screening a pool of applicants for a senior management position. You\u2019ve narrowed your list down to fi ve top candidates, but you want to limit yourself to three people for a third round of interviews. You\u2019re naturally nervous about making a poor choice\u2014this new hire will have a largely public-facing role and a potentially huge impact on your company\u2019s brand and reputation. So you decide to do a little scouting on social media to see if you can turn up anything interesting that might sway your decision one way or the other\u2014and what you fi nd gives you pause about one of your top picks. What should you do? Know the Risks\u2026 What you may fi nd in a candidate\u2019s social media presence\u2014for the most part\u2014is fair game, says Jeff Williams, VP of enterprise and HR [Human Resources] solutions at Paychex. \u201cIt\u2019s 2023, and what is posted on TikTok, Instagram, Twitter [X]\u2014and even Facebook for the nostalgic\u2014is an accessible, noninvasive way of gaining insight on your candidate,\u201d he says. You\u2019re not stalking or \u201ccreeping,\u201d he adds. You\u2019re accessing information that anyone can see. But social media can be both a blessing and a curse when hiring, says Jennifer Preston, an HR consultant with Flex HR. While social media channels can yield ample benefi ts for HR professionals, recruiters and hiring managers for vetting1 job candidates, consulting such sources can also be risky\u2014particularly when they are used to evaluate candidates based on their personal lives, opinions and what they choose to post and re-post. Preston says this information can create dangerous biases that can lead to legal risks. Marlene Allen Murray, a business litigation attorney at the law fi rm Fennemore Craig, says that an employer is not violating any laws by looking into an applicant\u2019s interests and values. \u201cSocial media posts can reveal a more honest view of an applicant than what they might share during an interview,\u201d she says. However, Murray adds that there\u2019s a big caveat:2 Employers must not use the information they fi nd on social media outlets \u201cto discriminate against a candidate based on ethnicity, religious beliefs, gender or other protected classes.\u201d Employers, Murray says, \u201cmight be sued by a candidate if any unlawful prejudice is shown by the employer during the recruitment process,\u201d even if employers do not intentionally or explicitly use the information they fi nd online. \u2026 Stick to What\u2019s Relevant\u2026 Preston says appropriate uses of conducting a social media search on a job candidate include determining if the candidate is qualifi ed to perform the essential functions of the job and evaluating whether the candidate\u2019s profi le is consistent with their resume and the answers they give during the interview process. Amy Laiker, the head of the New York City offi ce of Tiger Recruitment, a boutique staffi ng agency, says that information about a job candidate discovered online through a general search of social media profi les can legitimately be used in considering candidates unless that information is related to a legally protected status such as race, gender, sexual orientation or religion. 1vetting \u2014 evaluating 2caveat \u2014 caution 10 5 15 20 25 30 35 Regents Exam in ELA \u2014 Jan. \u201926 40 45 50 55 60 For example, says Laiker, legitimate red fl ags may go up if a candidate for a position that requires a high degree of confi dentiality and discretion has profi les in which they share every minute detail of their daily life, or post images with their computer monitor in full view. Hiring managers may also take note if a candidate has a LinkedIn profi le with a career history that materially differs from what they represented on their resume. Jeff Williams says a good practice is for hiring managers to ask themselves what information is necessary to make a good decision and whether what they discover is relevant to their hiring choice. For example, \u2022 Is your candidate who they say they are? That is, is the person you interviewed refl ected in their social media accounts? \u2022 Does your candidate possess credentials relevant to the position you are seeking to fi ll (e.g., education levels, association memberships and awards received)? \u2022 Does your candidate bash their former employers or colleagues? \u2022 Does your candidate exhibit extreme behavior or poor judgment? \u2022 Is your candidate engaged in any illegal behavior? Laiker says it\u2019s generally better to review a candidate\u2019s social media presence (which may contain a photo of the individual) only after an initial video or in-person interview. Doing so, says Laiker, can minimize the risk of an applicant saying they were rejected on the grounds of race, age, disability or other discrimination. \u2026 The bottom line? \u201cThe essence of using social media to evaluate a candidate should be to determine if this person can perform the essential functions of the job,\u201d says Preston. \u201cIs this person\u2019s candidacy accurate and consistent with their resume?\u201d Asking that question when evaluating information learned during the hiring process is the most important step you can take in determining whether you\u2019ve come across a true red fl ag or just irrelevant information. \u2014Lin Grensing-Pophal excerpted and adapted from \u201cShould You Consider Social Media When Evaluating Job Candidates?\u201d www.shrm.org, June 9, 2023 Regents Exam in ELA \u2014 Jan. \u201926 Text 3 Guardrails for Using Social Media During the Hiring Process It\u2019s increasingly common for employers to use social media during the hiring process. The temptation is obvious \u2014 there\u2019s a wealth of potentially useful information about applicants available online. It\u2019s not unreasonable to wish to use social media to understand a prospective employee\u2019s professional qualifi cations and skills to determine whether they fi t with the criteria for the position. It\u2019s no wonder that a recent survey from The Harris Poll fi nds that seventy-one percent of US hiring decision-makers agree that looking at candidates\u2019 social media profi les is an effective way to screen applicants. Furthermore, 70% believe employers should screen all applicants\u2019 social media profi les, while the majority (67%) say they use social networking sites to research potential job candidates. Despite the potential benefi ts, this sleuthing causes signifi cant heartburn for employment and privacy lawyers and HR [Human Resources] professionals. While social media can be a fruitful way to fi nd and recruit candidates, a minefi eld of legal risks appear when companies use social media during the screening process. Potential Risks \u2022 Discrimination! Federal, state and local anti-discrimination laws prohibit discrimination in hiring based on a prospective employee\u2019s protected class. The danger of researching applicants using social media is that you may become aware that the applicant belongs to a protected category \u2014 something that through the general application process you otherwise would be unaware of. And, you can\u2019t put the genie back in the bottle. If a recruiter or hiring manager has accessed this data, it is diffi cult to prove that they were not infl uenced by it in their hiring decision. Two cases underscore this danger: \u25cb In Gaskell v. University of Kentucky, the court denied a defense motion for summary judgment1 when a top candidate was passed over partly due to information about the employee\u2019s religious beliefs the employer discovered through an online search. \u25cb In Hardin v. Dadlani, the court concluded that since the hiring manager had previously expressed a preference for white female employees, his instructions to an employee to look up an applicant on Facebook and invite her in for an interview \u201cif she looks good\u201d can be reasonably construed to refer to her race, which can establish discriminatory animus.2 \u2022 Running up against lawful off-duty conduct laws. Many states have enacted laws prohibiting employers from discriminating on the basis of an employee\u2019s lawful off-duty conduct (for example, California, Illinois, New Jersey and New York). These laws vary in specifi city. They generally protect an employee\u2019s participation in recreational or leisure activities during personal time, such as tobacco use, consuming alcohol, possessing fi rearms, or engaging in political activities. 1summary judgment \u2014 a ruling by a judge designed to resolve a lawsuit before going to court 2animus \u2014 attitude 20 25 30 35 10 5 15 Regents Exam in ELA \u2014 Jan. \u201926 \u2022 Violating the Fair Credit Reporting Act [FCRA]. In some instances, companies may fi nd that working with a third-party social media background check provider may be preferable since the third-party provider can separate out any information about a prospective employee\u2019s protected class or lawful off-duty conduct. But \u2014 be aware that social media background check companies are considered consumer reporting agencies3 under the FCRA or similarly regulated entities under state background check laws because they assemble or evaluate consumer report information that is provided to employers using that information as a factor in determining eligibility for employment. Accordingly, employers using social media background check companies must also comply with disclosure and authorization requirements for obtaining consumer reports and taking adverse employment actions based on information in the reports under the FCRA and similar state laws. In particular, before obtaining a consumer report, an employer must under the FCRA: \u25cb Notify the prospective employee or current employee that the employer may obtain a consumer report for employment purposes. \u25cb Obtain written consent from the prospective employee or current employee. \u2022 Running afoul of the National Labor Relations Act. In recent years, the NLRB4 has scrutinized how social media policies, or enforcement of these policies, might discourage current employees from using social media to engage in concerted activity, such as discussing unions, wages, or other employment terms and conditions. The NLRB prohibits discrimination against applicants based on union affi liation or support. Therefore, using social media to screen out applicants on this basis may lead to an unfair labor charge against the company. \u2022 Liability under password protection laws. More than two dozen states have enacted laws addressing employer access to current and prospective employees\u2019 social media accounts. These laws generally prohibit employers from requesting password and username information or otherwise accessing the password-protected portions of a prospective or current employee\u2019s personal social media accounts, with certain exceptions. (Further, in all 50 states, asking for an applicant\u2019s (or employee\u2019s) password creates a real risk of violating the federal Stored Communications Act.) \u2026 \u2022 Computer interference laws. To comply with computer interference laws, like the United States Federal Computer Fraud and Abuse Act, employers must ensure that none of its employees or agents exceed any access to social media sites granted in the sites\u2019 terms of use (which would be a violation both of the site terms as well as applicable computer interference laws). \u2026 \u2014Caroline Burnett & Sofi a Chesnokova excerpted and adapted from \u201cGuardrails for Using Social Media During the Hiring Process\u201d www.theemployerreport.com, February 8, 2022 3consumer reporting agency \u2014 individuals or companies that collect information on people, such as debt and work histories, and then package and sell that information 4NLRB \u2014 the National Labor Relations Board is the agency created by the act that protects the rights of employees 45 50 55 60 65 70 40 Regents Exam in ELA \u2014 Jan. \u201926 Text 4 How Social Media Could Affect Your Job \u2026A social media screening is usually done prior to employment, when a candidate is applying for a job. It involves researching a prospect\u2019s social media profi les and their activity, including what they post, like and comment on. Some of the platforms they are likely to check are LinkedIn, Instagram, Facebook, Twitter [X], TikTok, and WhatsApp. \u2026 Audit your social media accounts before applying for a position. While it\u2019s important to check every account, there are some platforms hiring managers are more likely to check, such as LinkedIn. \u2026 Most employers view LinkedIn as a secondary resume, and some even post jobs on LinkedIn. However, they are still likely to check other social media channels, such as Instagram. In addition to what you\u2019re posting, make sure you are cognizant1 of who you follow and how they are interacting with your content. \u2026 Tip Showcase your positive personality traits on your social media profi les to be an effective applicant. Just one negative impression from your social media profi le could disqualify you from a position. \u2026 1. Don\u2019t erase your profi le. While the fear of something embarrassing or negative being discovered might tempt some job candidates to completely erase their online persona, employers say that strategy can backfi re. About 1 in 5 employers in The Harris Poll\u2019s survey said they won\u2019t call a person for an interview if they can\u2019t fi nd them online. In addition to seeming like you\u2019re trying to hide something, it\u2019s not a good idea to delete your profi le, because it doesn\u2019t guarantee the data is completely gone. Instead, the best practice is to keep your social accounts clean and up to date. \u2026 2. Use social media to your benefi t. Despite what job candidates might think, most employers are looking for reasons to hire someone. The Harris Poll surveyed over 1,000 employers and found that 67 percent of them look for information that supports a candidate\u2019s qualifi cations to get them through the door. \u2026 3. Google yourself. Every few weeks or months, take a minute to Google yourself in an incognito window.2 This is likely where your employer is going to start when they take a look at your online presence, so it\u2019s good to know what will pop up. This will also help you get ahead of anything negative, so you can make sure all the top search results are things you would be fi ne with your employer seeing. \u2026 What to avoid on social media The study found that a whopping 55 percent of employers who use social media screenings said they have found content that caused them not to hire a candidate. 1cognizant \u2014 mindful 2incognito window \u2014 a private browsing window in an Internet search engine 20 25 30 10 5 15 Regents Exam in ELA \u2014 Jan. \u201926 Follow these guidelines from The Harris Poll\u2019s survey to keep your online presence professional: 1. Avoid posting anything potentially offensive. If you wouldn\u2019t bring in a particular picture and post it in your cubicle, or say something at the workplace, remove it from your public page. 2. Be purposeful in your posts. Ask yourself: What is my goal with posting this? Is this best for a private or public page? 3. Keep it simple: Remember that less is more in your public profi les. 4. Never complain about employers or colleagues \u2014 past or present \u2014 on social media. While these tips are geared toward job seekers, the results of the Express Employment Professionals survey also make clear that existing employees should take this advice to heart. Not only are employers sometimes monitoring their employees\u2019 social media behavior, but future employers may conduct social media screenings as well. \u2026 \u2014David Cotriss excerpted and adapted from \u201cHow Social Media Could Affect Your Job\u201d www.businessnewsdaily.com, May 11, 2023 45 35 40 Regents Exam in ELA \u2014 Jan. \u201926 Part 3 Text-Analysis Response Your Task: Closely read the text provided on pages 22 and 23 and write a well-developed, text-based response of two to three paragraphs. In your response, identify a central idea in the text and analyze how the author\u2019s use of one writing strategy (literary element or literary technique or rhetorical device) develops this central idea. Use strong and thorough evidence from the text to support your analysis. Do not simply summarize the text. You may use the margins to take notes as you read and scrap paper to plan your response. Write your response in the spaces provided on pages 7 through 9 of your essay booklet. Guidelines: Be sure to: \u2022 Identify a central idea in the text \u2022 Analyze how the author\u2019s use of one writing strategy (literary element or literary technique or rhetorical device) develops this central idea. Examples include: characterization, confl ict, denotation/connotation, metaphor, simile, irony, language use, point-of-view, setting, structure, symbolism, theme, tone, etc. \u2022 Use strong and thorough evidence from the text to support your analysis \u2022 Organize your ideas in a cohesive and coherent manner \u2022 Maintain a formal style of writing \u2022 Follow the conventions of standard written English Regents Exam in ELA \u2014 Jan. \u201926 Text Ballpark: Baseball in the American City \u2026In the baseball park we can see how this country expressed a concept of community, and how we imbued1 the public realm with shared meaning. The baseball park was always a special kind of place, usually privately built and privately owned but able to instill people with a greater sense that it belonged to them than most places that had been built by their government: this garden in the center of the city, this piece of rus in urbe,2 was spiritually public if legally private, and in almost every city it formed a defi ning element of the civic realm. As much as the town square, the street, the park, and the plaza, the baseball park is a key part of American public space. We can see through baseball parks how Americans went from viewing their cities as central to the idea of community in the fi rst decades of the twentieth century to wanting to run away from them in the decades after World War II, and then how we have tried in our own time to use baseball parks to get our cities back. The fi rst generation of ballparks, places like Union Grounds and Washington Park in Brooklyn and South End Grounds in Boston and Sportsman\u2019s Park in St. Louis, as well as the ornate and marvelously named Palace of the Fans in Cincinnati and the still larger Ebbets Field and Fenway Park and Wrigley Field that followed not far behind, grew out of neighborhoods, took their eccentric3 forms from the pattern of city streets, and were inextricably tied to their surroundings. The story of Ebbets Field is the story of Brooklyn, as the story of Tiger Stadium is the story of downtown Detroit. The second generation of ballparks, places like Shea Stadium, is a different story: concrete bunkers, often circular, shaped not by the grid of urban streets but by a backward glance to the ancient Colosseum, an amphitheater built for gladiators, not pitching duels. (Not by accident, perhaps, were many of them designed to do double duty as football stadiums.) Set in a sea of parking, these ballparks were generally built during the years after World War II to escape the city, or at least to minimize any connection to it, and they were invariably4 suburban in concept if not in geography. They reveal how far Americans had come in the postwar years from thinking of urban neighborhoods as desirable turf. The most famous of the postwar structures built for baseball, the Astrodome, had a roof that rendered the entire ball fi eld interior space, removing even the fi g leaf 5 of rus in the urbe. And the Astrodome was far from the only ballpark whose builders thought baseball would be better off played on artifi cial turf under a huge dome than on grass under the sky. And the story changes again with the ballparks of the third generation. Beginning in 1992 with Oriole Park at Camden Yards in Baltimore, new ballparks in cities across the country brought baseball back to its downtown origins, often, as at Camden Yards, quite literally integrated into older urban neighborhoods, and returning to the fi eld of grass under the open sky. (A few recent ballparks have had retractable roofs, very different from permanent domes; they use technology as a means of avoiding rain postponements, not of cutting all play off from nature.) But what is most important about the ballparks of the third generation is that most of them were designed in the hope of weaving together an urban fabric that had been broken, aspiring to use baseball to heal the city rather than to run away from it. 1imbued \u2014 fi lled 2rus in urbe \u2014 countryside in the city 3eccentric \u2014 unusual 4invariably \u2014 consistently 5fi g leaf \u2014 used in art to censor nudity 5 10 15 20 25 30 35 Regents Exam in ELA \u2014 Jan. \u201926 Today, more than a quarter century after Camden Yards opened to great acclaim, it still represents our most encouraging model. But the commitment to a vibrant and open urbanism that it aspired to is threatened by the very latest development in ballparks, the movement away from connecting to the real city in favor of envisioning the ballpark as more like the centerpiece of a developer-built theme park. This trend is exemplifi ed by SunTrust Park in Atlanta, which opened in 2017 in the Atlanta suburbs as part of the Battery, a quasi-urban,6 instant neighborhood of restaurants, condos, bars, and hotels in which everything, even the streets, is part of a private development project, largely controlled by the Atlanta Braves. Atlanta is the most fully realized project of this type, but the idea it represents\u2014the extension of the private space of the ballpark into the surrounding streets and neighborhood\u2014is playing out around older ballparks such as Wrigley Field in Chicago and Busch Stadium in St. Louis, as these teams try to remake much of their surroundings. And it is the blueprint for future new ballparks, like Globe Life Field, which the Texas Rangers are building in Arlington, Texas, to replace Globe Life Park, which opened only twenty-fi ve years ago, and the new ballpark the Oakland Athletics plan for the Howard Terminal section of the Oakland waterfront. Until these recent developments, it looked as if you could summarize the saga of the ballpark as one of city to suburb and back again. But now, a generation after Baltimore reconnected baseball to the energy of the city, ballparks have begun to move in yet another direction, blurring the distinction between the real city and the artifi ce7 of the ballpark. The private realm of the ballpark has pushed its way into the public realm of the surrounding city, competing with it in places like St. Louis\u2019s Ballpark Village adjacent to Busch Stadium; in Atlanta, it has obliterated all traces of the real city in favor of the artifi cial neighborhood of the Battery, which is, for all intents and purposes, a theme park version of a city. Whether this phenomenon becomes a true fourth generation in the evolution of the ballpark remains to be seen. But these recent developments underscore what has been true of the baseball park throughout its life of more than a century and a half: that it has been an indicator not only of our architectural taste, but also of our attitudes towards cities and community, our notions of public space, and our changing views about the nature of place. The ballpark is one of the greatest of all American building types, and it reveals as much about how we treat our cities today as it ever has in the past. \u2026 \u2014Paul Goldberger excerpted from Ballpark: Baseball in the American City, 2019 Alfred A. Knopf 6quasi-urban \u2014 partially urban 7artifi ce \u2014 deception 45 50 55 60 65 70 40 REGENTS IN ELA REGENTS IN ELA",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

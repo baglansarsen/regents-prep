@@ -1,6 +1,6 @@
 import { useState, useMemo, useCallback } from 'react'
-import { NY_SCHOOLS, BOROUGHS, getSuggestions, getSchoolsSortedByDistance, distanceMi } from '../data/schools'
-import { SUBJECT_META } from '../data/subjects'
+import { NY_SCHOOLS, BOROUGHS, getSuggestions, getSchoolsSortedByDistance, distanceMi } from '@content/schools'
+import { SUBJECT_META } from '@content/subjects'
 
 const TYPE_LABELS = { public: 'Public', private: 'Private', charter: 'Charter' }
 

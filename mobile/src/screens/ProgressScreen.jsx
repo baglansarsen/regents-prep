@@ -6,10 +6,33 @@ import { useAuthContext } from '../context/AuthContext'
 import { useSubject } from '../context/SubjectContext'
 import { useProgress } from '../hooks/useProgress'
 import { useDailyStreak } from '../hooks/useDailyStreak'
-import { useXP, getLevel, LEVELS } from '../hooks/useXP'
+import { useRP, LEVELS } from '../hooks/useRP'
 import { SUBJECTS } from '../content/subjects'
-import * as leData from '../content/living-environment/index'
-import * as esData from '../content/earth-science/index'
+import * as leData   from '../content/living-environment/index'
+import * as esData   from '../content/earth-science/index'
+import * as chemData from '../content/chemistry/index'
+import * as physData from '../content/physics/index'
+import * as a1Data   from '../content/algebra-1/index'
+import * as a2Data   from '../content/algebra-2/index'
+import * as geoData  from '../content/geometry/index'
+import * as lsData   from '../content/life-science/index'
+import * as enData   from '../content/english/index'
+import * as ghData   from '../content/global-history/index'
+import * as usData   from '../content/us-history/index'
+
+const SUBJECT_DATA = {
+  'living-environment': leData,
+  'earth-science':      esData,
+  'chemistry':          chemData,
+  'physics':            physData,
+  'algebra-1':          a1Data,
+  'algebra-2':          a2Data,
+  'geometry':           geoData,
+  'life-science':       lsData,
+  'english':            enData,
+  'global-history':     ghData,
+  'us-history':         usData,
+}
 import { T, cardShadow, duoBtn } from '../styles/duo'
 
 export default function ProgressScreen({ navigation }) {
@@ -18,11 +41,11 @@ export default function ProgressScreen({ navigation }) {
   const uid = user?.uid
 
   const { subject } = useSubject()
-  const sd = subject === SUBJECTS.EARTH_SCIENCE ? esData : leData
+  const sd = SUBJECT_DATA[subject] ?? leData
 
   const { history, masteryPct, isMastered } = useProgress(uid)
   const { streak, weekDays, studiedToday } = useDailyStreak(uid)
-  const { xp, level, spendXP } = useXP(uid)
+  const { rp, level, spendRP } = useRP(uid)
 
   const subjectHistory = history.filter((h) => (h.subject ?? 'living-environment') === subject)
   const totalQuizzes   = subjectHistory.length
@@ -30,8 +53,8 @@ export default function ProgressScreen({ navigation }) {
     ? Math.round(subjectHistory.reduce((a, h) => a + (h.pct ?? 0), 0) / totalQuizzes)
     : 0
 
-  const nextLevel  = LEVELS.find((l) => l.min > xp)
-  const xpProgress = nextLevel ? (xp - level.min) / (nextLevel.min - level.min) : 1
+  const nextLevel  = LEVELS.find((l) => l.min > rp)
+  const rpProgress = nextLevel ? (rp - level.min) / (nextLevel.min - level.min) : 1
 
   const s = makeStyles(C)
 
@@ -41,7 +64,7 @@ export default function ProgressScreen({ navigation }) {
 
         <Text style={[T.h1, { color: C.text, padding: 20, paddingBottom: 16 }]}>Progress</Text>
 
-        {/* XP / Level card */}
+        {/* RP / Level card */}
         <View style={[s.card, cardShadow(C.shadow)]}>
           <View style={s.levelRow}>
             <View style={[s.levelCircle, { borderColor: C.brand }]}>
@@ -49,16 +72,16 @@ export default function ProgressScreen({ navigation }) {
             </View>
             <View style={{ flex: 1 }}>
               <Text style={[T.h3, { color: C.text }]}>{level.name}</Text>
-              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>{xp} XP total</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>{rp} RP total</Text>
             </View>
             {nextLevel && (
               <Text style={[T.small, { color: C.textMuted }]}>
-                {nextLevel.min - xp} to next
+                {nextLevel.min - rp} to next
               </Text>
             )}
           </View>
-          <View style={s.xpBarBg}>
-            <View style={[s.xpBarFill, { width: `${xpProgress * 100}%` }]} />
+          <View style={s.rpBarBg}>
+            <View style={[s.rpBarFill, { width: `${rpProgress * 100}%` }]} />
           </View>
         </View>
 
@@ -87,9 +110,9 @@ export default function ProgressScreen({ navigation }) {
           {!studiedToday && (
             <TouchableOpacity
               style={[duoBtn(C.surface2, C.border, { marginTop: 12 })]}
-              onPress={() => spendXP(100)}
+              onPress={() => spendRP(100)}
             >
-              <Text style={[T.btn, { color: C.textMuted }]}>🧊 STREAK FREEZE (100 XP)</Text>
+              <Text style={[T.btn, { color: C.textMuted }]}>🧊 STREAK FREEZE (100 RP)</Text>
             </TouchableOpacity>
           )}
         </View>
@@ -99,7 +122,7 @@ export default function ProgressScreen({ navigation }) {
           {[
             { num: totalQuizzes, label: 'Quizzes' },
             { num: `${avgPct}%`, label: 'Avg Score' },
-            { num: sd.TOPIC_ORDER.filter((t) => isMastered(t, subject)).length, label: 'Mastered' },
+            { num: (sd.TOPIC_ORDER ?? []).filter((t) => isMastered(t, subject)).length, label: 'Mastered' },
           ].map(({ num, label }) => (
             <View key={label} style={[s.statCard, cardShadow(C.shadow)]}>
               <Text style={[T.num, { color: C.brand, fontSize: 28 }]}>{num}</Text>
@@ -112,7 +135,7 @@ export default function ProgressScreen({ navigation }) {
         <Text style={[T.label, { color: C.textMuted, marginHorizontal: 16, marginBottom: 10, marginTop: 4 }]}>
           Topic Mastery
         </Text>
-        {sd.TOPIC_ORDER.map((topic) => {
+        {(sd.TOPIC_ORDER ?? []).map((topic) => {
           const pct     = masteryPct(topic, subject)
           const mastered = isMastered(topic, subject)
           const passing  = pct !== null && pct >= 65
@@ -167,8 +190,8 @@ function makeStyles(C) {
     cardHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 14 },
     levelRow:   { flexDirection: 'row', alignItems: 'center', gap: 14, marginBottom: 14 },
     levelCircle:{ width: 56, height: 56, borderRadius: 28, borderWidth: 3, alignItems: 'center', justifyContent: 'center' },
-    xpBarBg:    { height: 10, backgroundColor: C.surface2, borderRadius: 5, overflow: 'hidden' },
-    xpBarFill:  { height: 10, backgroundColor: C.brand, borderRadius: 5 },
+    rpBarBg:    { height: 10, backgroundColor: C.surface2, borderRadius: 5, overflow: 'hidden' },
+    rpBarFill:  { height: 10, backgroundColor: C.brand, borderRadius: 5 },
     weekRow:    { flexDirection: 'row', gap: 6 },
     dayDot:     { flex: 1, aspectRatio: 1, borderRadius: 999, backgroundColor: C.surface2, alignItems: 'center', justifyContent: 'center', borderWidth: 2, borderColor: C.border },
     statsRow:   { flexDirection: 'row', marginHorizontal: 16, gap: 10, marginBottom: 16 },

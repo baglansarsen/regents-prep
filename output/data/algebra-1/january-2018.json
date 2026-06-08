@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-1",
+  "session": "january-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "When solving the equation 12x2 2 7x 5 6 2 2(x2 2 1), Evan wrote 12x2 2 7x 5 6 2 2x2 1 2 as his first step. Which property justifies this step?",
+      "choices": [
+        "subtraction property of equality",
+        "multiplication property of equality",
+        "associative property of multiplication",
+        "distributive property of multiplication over subtraction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Jill invests $400 in a savings bond. The value of the bond, V(x), in hundreds of dollars after x years is illustrated in the table below. x V(x) 0 4 1 5.4 2 7.29 3 9.84 Which equation and statement illustrate the approximate value of the bond in hundreds of dollars over time in years?",
+      "choices": [
+        "V(x) 5 4(0.65)x, and it grows.",
+        "V(x) 5 4(0.65)x, and it decays.",
+        "V(x) 5 4(1.35)x, and it grows.",
+        "V(x) 5 4(1.35)x, and it decays."
+      ],
+      "image": "/images/exams/algebra-1/january-2018/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Alicia purchased H half-gallons of ice cream for $3.50 each and P packages of ice cream cones for $2.50 each. She purchased 14 items and spent $43. Which system of equations could be used to determine how many of each item Alicia purchased?",
+      "choices": [
+        "3.50H 1 2.50P 5 43",
+        "3.50P 1 2.50H 5 43",
+        "3.50H 1 2.50P 5 14 H 1 P 5 14 H 1 P 5 43",
+        "3.50P 1 2.50H 5 14 P 1 H 5 14 P 1 H 5 43"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "A relation is graphed on the set of axes below. y x Based on this graph, the relation is",
+      "choices": [
+        "a function because it passes the horizontal line test",
+        "a function because it passes the vertical line test",
+        "not a function because it fails the horizontal line test",
+        "not a function because it fails the vertical line test"
+      ],
+      "image": "/images/exams/algebra-1/january-2018/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Ian is saving up to buy a new baseball glove. Every month he puts $10 into a jar. Which type of function best models the total amount of money in the jar after a given number of months?",
+      "choices": [
+        "linear",
+        "exponential",
+        "quadratic",
+        "square root"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which ordered pair would not be a solution to y 5 x3 2 x?",
+      "choices": [
+        "(24,260)",
+        "(23,224)",
+        "(22,26)",
+        "(21,22)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Last weekend, Emma sold lemonade at a yard sale. The function P(c) 5 .50c 2 9.96 represented the profit, P(c), Emma earned selling c cups of lemonade. Sales were strong, so she raised the price for this weekend by 25 cents per cup. Which function represents her profit for this weekend?",
+      "choices": [
+        "P(c) 5 .25c 2 9.96",
+        "P(c) 5 .50c 2 9.71",
+        "P(c) 5 .50c 2 10.21",
+        "P(c) 5 .75c 2 9.96"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The product of 576 and 684 is",
+      "choices": [
+        "irrational because both factors are irrational",
+        "rational because both factors are rational",
+        "irrational because one factor is irrational",
+        "rational because one factor is rational"
+      ],
+      "image": "/images/exams/algebra-1/january-2018/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to y4 2 100?",
+      "choices": [
+        "(y2 2 10)2",
+        "(y2 2 50)2",
+        "(y2 1 10)(y2 2 10)",
+        "(y2 1 50)(y2 2 50)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The graphs of y 5 x2 2 3 and y 5 3x 2 4 intersect at approximately",
+      "choices": [
+        "(0.38,22.85), only",
+        "(2.62, 3.85), only",
+        "(0.38,22.85) and (2.62, 3.85)",
+        "(0.38,22.85) and (3.85, 2.62)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The expression 24.9t2 1 50t 1 2 represents the height, in meters, of a toy rocket t seconds after launch. The initial height of the rocket, in meters, is",
+      "choices": [
+        "0",
+        "2",
+        "4.9",
+        "50"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "If the domain of the function f(x) 5 2x2 2 8 is {22, 3, 5}, then the range is",
+      "choices": [
+        "{216, 4, 92}",
+        "{216, 10, 42}",
+        "{0, 10, 42}",
+        "{0, 4, 92}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which polynomial is twice the sum of 4x2 2 x 1 1 and 26x2 1 x 2 4?",
+      "choices": [
+        "22x2 2 3",
+        "24x2 2 3",
+        "24x2 2 6",
+        "22x2 1 x 2 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "What are the solutions to the equation 3(x 2 4)2 5 27?",
+      "choices": [
+        "1 and 7",
+        "21 and 27",
+        "4 6 24",
+        "24 6 24"
+      ],
+      "image": "/images/exams/algebra-1/january-2018/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "A system of equations is shown below. Equation A: 5x 1 9y 5 12 Equation B: 4x 2 3y 5 8 Which method eliminates one of the variables?",
+      "choices": [
+        "Multiply equation A by 21 3 and add the result to equation B.",
+        "Multiply equation B by 3 and add the result to equation A.",
+        "Multiply equation A by 2 and equation B by 26 and add the results together.",
+        "Multiply equation B by 5 and equation A by 4 and add the results together."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The 15 members of the French Club sold candy bars to help fund their trip to Quebec. The table below shows the number of candy bars each member sold. Number of Candy Bars Sold 0 35 38 41 43 45 50 53 53 55 68 68 68 72 120 When referring to the data, which statement is false?",
+      "choices": [
+        "The mode is the best measure of central tendency for the data.",
+        "The data have two outliers.",
+        "The median is 53.",
+        "The range is 120"
+      ],
+      "image": "/images/exams/algebra-1/january-2018/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Given the set {x| 2 2 # x # 2, where x is an integer}, what is the solution of 22(x 2 5) , 10?",
+      "choices": [
+        "0, 1, 2",
+        "1, 2",
+        "22, 21, 0",
+        "22, 21"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "If the pattern below continues, which equation(s) is a recursive formula that represents the number of squares in this sequence? Design 1 Design 3 Design 2 Design 4",
+      "choices": [
+        "y 5 2x 1 1",
+        "y 5 2x 1 3",
+        "a1 5 3 an 5 an 2 1 1 2",
+        "a1 5 1 an 5 an 2 1 1 2"
+      ],
+      "image": "/images/exams/algebra-1/january-2018/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "If the original function f(x) 5 2x2 2 1 is shifted to the left 3 units to make the function g(x), which expression would represent g(x)?",
+      "choices": [
+        "2(x 2 3)2 2 1",
+        "2(x 1 3)2 2 1",
+        "2x2 1 2",
+        "2x2 2 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "First consider the system of equations y 5 21 2 x 1 1 and y 5 x 2 5. Then consider the system of inequalities y . 21 2 x 1 1 and y , x 2 5. When comparing the number of solutions in each of these systems, which statement is true?",
+      "choices": [
+        "Both systems have an infinite number of solutions.",
+        "The system of equations has more solutions.",
+        "The system of inequalities has more solutions.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Nora inherited a savings account that was started by her grandmother 25 years ago. This scenario is modeled by the function A(t) 5 5000(1.013)t 1 25, where A(t) represents the value of the account, in dollars, t years after the inheritance. Which function below is equivalent to A(t)?",
+      "choices": [
+        "A(t) 5 5000[(1.013t)]25",
+        "A(t) 5 5000[(1.013)t 1 (1.013)25]",
+        "A(t) 5 (5000)t (1.013)25",
+        "A(t) 5 5000(1.013)t (1.013)25"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The value of x which makes 2 3( 1 4x 2 2) 5 1 5( 4 3x 2 1) true is",
+      "choices": [
+        "210",
+        "22",
+        "29 09 .",
+        "211 3."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which quadratic function has the largest maximum over the set of real numbers? x \u20139 \u20133 1 3 3 1 h(x) \u20132 \u20131 0 1 2 3 x \u20131 3 5 5 3 \u20131 k(x) \u20131 0 1 2 3 4 f(x) \u0015 \u0012x2 \u0011 2x \u0011 4 g(x) \u0015 \u0012(x \u0012 5)2 \u0011 5",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/january-2018/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Voting rates in presidential elections from 1996-2012 are modeled below. 80 70 60 50 40 30 1996 2000 2004 2008 2012 69.1 68.2 56.9 65 years and over 72.0 67.9 45 to 64 years 30 to 44 years 18 to 29 years 39.6 59.5 45.0 Percent Voting Rates in Presidential Elections, by Age, for the Voting-Age Citizen Population: 1996-2012 Year Which statement does not correctly interpret voting rates by age based on the given graph?",
+      "choices": [
+        "For citizens 18-29 years of age, the rate of change in voting rate was greatest between years 2000-2004.",
+        "From 1996-2012, the average rate of change was positive for only two age groups.",
+        "About 70% of people 45 and older voted in the 2004 election.",
+        "The voting rates of eligible age groups lies between 35 and 75 percent during presidential elections every 4 years from 1996-2012 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/algebra-1/january-2018/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "On the set of axes below, graph f(x) 5 |x 2 3| 1 2. x f(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2018/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Determine all the zeros of m(x) 5 x2 2 4x 1 3, algebraically.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "The distance traveled is equal to the rate of speed multiplied by the time traveled. If the distance is measured in feet and the time is measured in minutes, then the rate of speed is expressed in which units?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Determine if the point (0,4) is a solution to the system of inequalities graphed below. Justify your answer. y x 10 \u001210 \u001210 10 y \u0004 \u20132x + 4",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2018/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "If the zeros of a quadratic function, F, are 23 and 5, what is the equation of the axis of symmetry of F? Justify your answer.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The formula Fg 5 GM r 1 2 M2 calculates the gravitational force between two objects where G is the gravitational constant, M1 is the mass of one object, M2 is the mass of the other object, and r is the distance between them. Solve for the positive value of r in terms of Fg, G, M1, and M2",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "At Mountain Lakes High School, the mathematics and physics scores of nine students were compared as shown in the table below. Mathematics 55 93 89 60 90 45 64 76 89 Physics 66 89 94 52 84 56 66 73 92 State the correlation coefficient, to the nearest hundredth,",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2018/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "The graph of the function f(x) 5 ax2 1 bx 1 c is given below. f(x) x Could the factors of f(x) be (x 1 2) and (x 2 3)? Based on the graph, Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2018/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Jim is a furniture salesman. His weekly pay is $300 plus 3.5% of his total sales for the week. Jim sells x dollars\u2019 worth of furniture during the week. Write a function, p(x), which can be used to determine his pay for the week. Use this function to determine Jim\u2019s pay to the nearest cent for a week when his sales total is $8250",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Omar has a piece of rope. He ties a knot in the rope and measures the new length of the rope. He then repeats this process several times. Some of the data collected are listed in the table below. Number of Knots 4 5 6 7 8 Length of Rope (cm) 64 58 49 39 31 State, to the nearest tenth, the linear regression equation that approximates the length, y,",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2018/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "The drama club is running a lemonade stand to raise money for its new production. A local grocery store donated cans of lemonade and bottles of water. Cans of lemonade sell for $2 each and bottles of water sell for $1.50 each. The club needs to raise at least $500 to cover the cost of renting costumes. The students can accept a maximum of 360 cans and bottles. Write a system of inequalities that can be used to represent this situation. The club sells 144 cans of lemonade. What is the least number of bottles of water that must be sold to cover the cost of renting costumes?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "A manager wanted to analyze the online shoe sales for his business. He collected data for the number of pairs of shoes sold each hour over a 14-hour time period. He created a graph to model the data, as shown below. 48 24 0 t (Time in Hours) P(t) (Number of Pairs of Shoes Sold in the Previous Hour) 72 2 4 6 8 10 12 14 96 120 1 3 5 7 9 11 13 The manager believes the set of integers would be the most appropriate domain for this model. Explain why he is incorrect. State the entire interval for which the number of pairs of shoes sold is increasing. Determine the average rate of change between the sixth and fourteenth hours, Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2018/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "At Bea\u2019s Pet Shop, the number of dogs, d, is initially five less than twice the number of cats, c. If she decides to add three more of each, the ratio of cats to dogs will be 3 4. Write an equation or system of equations that can be used to find the number of cats and dogs Bea has in her pet shop. Could Bea\u2019s Pet Shop initially have 15 cats and 20 dogs? Explain your reasoning. Determine algebraically the number of cats and the number of dogs Bea initially had in her pet shop. Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0004 2.54 centimeters 1 kilometer \u0004 0.62 mile 1 cup \u0004 8 fluid ounces 1 meter \u0004 39.37 inches 1 pound \u0004 16 ounces 1 pint \u0004 2 cups 1 mile \u0004 5280 feet 1 pound \u0004 0.454 kilogram 1 quart \u0004 2 pints 1 mile \u0004 1760 yards 1 kilogram \u0004 2.2 pounds 1 gallon \u0004 4 quarts 1 mile \u0004 1.609 kilometers 1 ton \u0004 2000 pounds 1 gallon \u0004 3.785 liters 1 liter \u0004 0.264 gallon 1 liter \u0004 1000 cubic centimeters Triangle A \u0004 bh 1 2 Parallelogram A \u0004 bh Circle A \u0004 \u03c0r2 Circle C \u0004 \u03c0d or C \u0004 2\u03c0r General Prisms V \u0004 Bh Cylinder V \u0004 \u03c0r2h Sphere V \u0004 \u03c0r3 4 3 Cone V \u0004 \u03c0r2h 1 3 Pyramid V \u0004 Bh 1 3 Pythagorean Theorem a2 \u0002 b2 \u0004 c2 Quadratic Formula x \u0004 \u0003 \u0005 \u0003 b a b2 2 4ac Arithmetic Sequence an \u0004 a1 \u0002 (n \u0003 1)d Geometric Sequence an \u0004 a1r n \u0003 1 Geometric Series Sn \u0004 where r \u0006 1 a a r r n 1 1 1 \u0003 \u0003 Radians 1 radian \u0004 degrees 180 \u03c0 Degrees 1 degree \u0004 radians \u03c0 180 Exponential Growth/Decay A \u0004 A0ek(t \u0003 t0) \u0002 B0 Tear Here Tear Here ALGEBRA I ALGEBRA I Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

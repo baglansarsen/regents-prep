@@ -1,0 +1,405 @@
+// ─── Pet definitions ──────────────────────────────────────────────────────────
+export const PETS = [
+  {
+    id:          'axolotl',
+    emoji:       '🦎',
+    name:        'Axolotl',
+    personality: 'Friendly & encouraging',
+    tagline:     'Believes in you unconditionally 💗',
+    idleAnim:    'float',       // translateY ±8
+    defaultName: 'Mochi',
+  },
+  {
+    id:          'fox',
+    emoji:       '🦊',
+    name:        'Fox',
+    personality: 'Sleek & focused',
+    tagline:     'Sharp mind, sharper study habits 🔥',
+    idleAnim:    'lean',        // rotateZ ±3°
+    defaultName: 'Nova',
+  },
+  {
+    id:          'capybara',
+    emoji:       '🦫',
+    name:        'Capybara',
+    personality: 'Chill & beloved',
+    tagline:     'Calm is the new productive 🌿',
+    idleAnim:    'pulse',       // scale 1→0.97
+    defaultName: 'Biscuit',
+  },
+  {
+    id:          'voidCat',
+    emoji:       '🐱',
+    name:        'Void Cat',
+    personality: 'Chaotic good',
+    tagline:     'The void judges your study habits 🌑',
+    idleAnim:    'glitch',      // opacity flicker
+    defaultName: 'Shadow',
+  },
+  {
+    id:          'bear',
+    emoji:       '🐻',
+    name:        'Bear',
+    personality: 'Steady & dependable',
+    tagline:     'Slow and steady wins the Regents 🍯',
+    idleAnim:    'pulse',
+    defaultName: 'Bruno',
+  },
+  {
+    id:          'bunny',
+    emoji:       '🐰',
+    name:        'Bunny',
+    personality: 'Quick & curious',
+    tagline:     'Hopping through flashcards at full speed 🌸',
+    idleAnim:    'float',
+    defaultName: 'Cleo',
+  },
+  {
+    id:          'newbunny',
+    emoji:       '🐇',
+    name:        'New Bunny',
+    personality: 'Energetic & playful',
+    tagline:     'A fresh hop into every study session 🌟',
+    idleAnim:    'float',
+    defaultName: 'Pebble',
+  },
+]
+
+// ─── Default pet names pool ───────────────────────────────────────────────────
+export const DEFAULT_NAMES = [
+  'Mochi', 'Nova', 'Biscuit', 'Cosmo', 'Pixel',
+  'Waffles', 'Ori', 'Lumi', 'Pebble', 'Dashi',
+]
+
+// ─── Evolution thresholds (total XP) ─────────────────────────────────────────
+export const EVOLUTION_THRESHOLDS = [0, 500, 2000, 5000]
+export const STAGE_NAMES = ['', 'Baby', 'Teen', 'Adult', 'Legend']
+export const STAGE_OVERLAYS = {
+  1: null,
+  2: '👓',   // auto-gains glasses
+  3: '🌟',   // glowing
+  4: '👑',   // legendary
+}
+
+export function stageForXP(xp) {
+  for (let i = EVOLUTION_THRESHOLDS.length - 1; i >= 0; i--) {
+    if (xp >= EVOLUTION_THRESHOLDS[i]) return i + 1
+  }
+  return 1
+}
+
+// ─── Food items ───────────────────────────────────────────────────────────────
+export const FOOD_ITEMS = [
+  {
+    id:           'apple',
+    icon:         '🍎',
+    name:         'Apple',
+    desc:         'A crisp apple. +20 hunger.',
+    cost:         30,
+    accent:       '#EF4444',
+    dark:         '#B91C1C',
+    hungerRestore: 20,
+  },
+  {
+    id:           'ramen',
+    icon:         '🍜',
+    name:         'Ramen Bowl',
+    desc:         'A hot bowl of ramen. +50 hunger.',
+    cost:         60,
+    accent:       '#F97316',
+    dark:         '#C2410C',
+    hungerRestore: 50,
+  },
+  {
+    id:           'sushi',
+    icon:         '🍣',
+    name:         'Sushi Plate',
+    desc:         'A premium sushi set. +80 hunger.',
+    cost:         100,
+    accent:       '#EC4899',
+    dark:         '#BE185D',
+    hungerRestore: 80,
+  },
+  {
+    id:           'mystery',
+    icon:         '🎁',
+    name:         'Mystery Snack',
+    desc:         'Random +30–100 hunger. Will it be amazing?',
+    cost:         40,
+    accent:       '#8B5CF6',
+    dark:         '#6D28D9',
+    hungerRestore: null,   // computed at feed time: random 30–100
+  },
+]
+
+// ─── Happiness items ──────────────────────────────────────────────────────────
+export const HAPPINESS_ITEMS = [
+  {
+    id:                'toyBall',
+    icon:              '⚽',
+    name:              'Toy Ball',
+    desc:              'Play with your pet! +20 happiness.',
+    cost:              40,
+    accent:            '#10B981',
+    dark:              '#065F46',
+    happinessRestore:  20,
+    reaction:          'happy_dance',
+  },
+  {
+    id:                'miniBook',
+    icon:              '📗',
+    name:              'Mini Book',
+    desc:              'Your pet loves to study too. +30 happiness.',
+    cost:              50,
+    accent:            '#3B82F6',
+    dark:              '#1D4ED8',
+    happinessRestore:  30,
+    reaction:          'cheer',
+  },
+  {
+    id:                'partyHat',
+    icon:              '🎉',
+    name:              'Party Hat',
+    desc:              'Triggers a confetti moment. +40 happiness!',
+    cost:              75,
+    accent:            '#F59E0B',
+    dark:              '#B45309',
+    happinessRestore:  40,
+    reaction:          'celebrate',
+  },
+  {
+    id:                'xpPotion',
+    icon:              '🧪',
+    name:              'XP Potion',
+    desc:              'Double XP for 10 minutes!',
+    cost:              150,
+    accent:            '#C084FC',
+    dark:              '#7E22CE',
+    happinessRestore:  15,
+    reaction:          'celebrate',
+    isPotion:          true,
+  },
+]
+
+// ─── Cosmetics ────────────────────────────────────────────────────────────────
+export const COSMETICS = [
+  {
+    id:     'graduationCap',
+    icon:   '🎓',
+    name:   'Graduation Cap',
+    desc:   'Academic flex. Sits on top of your pet.',
+    cost:   400,
+    accent: '#6366F1',
+    dark:   '#4338CA',
+  },
+  {
+    id:     'tinyBackpack',
+    icon:   '🎒',
+    name:   'Tiny Backpack',
+    desc:   'Always ready to study.',
+    cost:   300,
+    accent: '#14B8A6',
+    dark:   '#0F766E',
+  },
+  {
+    id:     'glowAura',
+    icon:   '✨',
+    name:   'Glow Aura',
+    desc:   'Rare. Your pet radiates pure energy.',
+    cost:   750,
+    accent: '#F59E0B',
+    dark:   '#B45309',
+    rare:   true,
+  },
+  {
+    id:     'wizardHat',
+    icon:   '🧙',
+    name:   'Wizard Hat',
+    desc:   'A stellar wizard hat. Radiates academic magic.',
+    cost:   450,
+    accent: '#8B5CF6',
+    dark:   '#6D28D9',
+  },
+  {
+    id:     'cowboyHat',
+    icon:   '🤠',
+    name:   'Cowboy Hat',
+    desc:   'Yeehaw! Time to study hard.',
+    cost:   350,
+    accent: '#F59E0B',
+    dark:   '#B45309',
+  },
+  {
+    id:     'crown',
+    icon:   '👑',
+    name:   'Royal Crown',
+    desc:   'A royal crown fit for a legendary scholar.',
+    cost:   800,
+    accent: '#EC4899',
+    dark:   '#BE185D',
+  },
+  {
+    id:     'sunglasses',
+    icon:   '🕶️',
+    name:   'Cool Sunglasses',
+    desc:   'Too cool for studying, but studying anyway.',
+    cost:   250,
+    accent: '#3B82F6',
+    dark:   '#1D4ED8',
+  },
+]
+
+export const ALL_SHOP_ITEMS = [...FOOD_ITEMS, ...HAPPINESS_ITEMS, ...COSMETICS]
+
+// ─── Daily quest types ────────────────────────────────────────────────────────
+export const QUEST_TYPES = [
+  { id: 'correct3',   label: 'Answer 3 questions correctly', goal: 3, icon: '🎯', action: 'answer_correct'    },
+  { id: 'quiz',       label: 'Complete a quiz',              goal: 1, icon: '✅', action: 'complete_quiz'      },
+  { id: 'speedround', label: 'Try a Speed Round',            goal: 1, icon: '⚡', action: 'complete_speedround' },
+  { id: 'mistakes',   label: 'Review your mistakes',         goal: 1, icon: '📕', action: 'complete_mistakes'  },
+]
+
+// ─── Personality message pools ────────────────────────────────────────────────
+// Placeholders: {name}, {streak}, {daysSince}, {stage}, {stageName}
+export const PET_MESSAGES = {
+  axolotl: [
+    'You\'ve got this, {name}! Every question is one step closer. 🩷',
+    'I\'m so proud of your {streak}-day streak! Let\'s keep it going! 🌊',
+    'AP exams are coming — but we\'re going to be ready together. 🦎',
+    'You haven\'t studied in {daysSince} day(s). I miss you... 🥹',
+    'Stage {stage}! Look how far we\'ve come together! ✨',
+    'Wrong answers are just right answers in training. Keep going! 💪',
+    'Every FRQ you write makes me float with joy. 🌊',
+    'Today\'s study session is going to be the best one yet! 🎉',
+    'You\'re a {stageName} — and I believe every bit of it. 🩷',
+    'Regenerating abilities... just like me, you bounce back stronger! 🦎',
+    'Don\'t forget: rest is part of the process too. But also, study. 😅',
+    'Your dedication gives me life (literally — please feed me 🍎)',
+    'Regents season is our season. Let\'s dominate. 🌊',
+    'I\'ve been watching you grow. {streak} days straight? Legendary.',
+    'One more quiz and we both feel better. Promise. 💗',
+  ],
+  fox: [
+    '{streak}-day streak. Smart. Sharp. Exactly as expected.',
+    'Haven\'t studied in {daysSince} day(s). Disappointing. But recoverable.',
+    'The focused don\'t rest — they study. Go.',
+    'Stage {stage}. Efficiency is peaking. Don\'t waste it.',
+    'One perfect score today and I\'ll consider being impressed.',
+    'Regents isn\'t hard. Inconsistency is hard. Fix that.',
+    'Every FRQ is a negotiation with the rubric. Win it.',
+    'You know the material. Now prove it.',
+    'Sharpest students review their mistakes first. Have you?',
+    'A {stageName} foxes their way through any exam. You\'re almost there.',
+    'I don\'t believe in luck. I believe in the work you\'ve already done.',
+    'Your streak speaks louder than anything else. {streak} days.',
+    'Feed me and I\'ll consider giving you study tips. 🍜',
+    'Quick quiz. Now. Hesitation is just wasted time.',
+    'Smart isn\'t enough. Prepared is what you\'re going for.',
+  ],
+  capybara: [
+    'Hey {name}. No pressure. But maybe study a little? 🦫',
+    '{streak} days. That\'s pretty chill of you. I respect it.',
+    'Haven\'t studied in {daysSince} day(s). That\'s okay. Today is a new day. 🌿',
+    'Exams are temporary. Knowledge lasts forever. Probably.',
+    'Stage {stage} vibes only. Calm and capable. 🌿',
+    'You know what pairs well with studying? Snacks. And then more studying.',
+    'Every capybara learns at their own pace. Including you. No rush. 🦫',
+    'I believe in low-stress, high-retention. Have you tried that?',
+    'AP season? It\'s giving... manageable. One concept at a time.',
+    'You and I are both just vibing through this semester together. 🌱',
+    'A {stageName} capybara is the most peaceful creature alive. That\'s us.',
+    'Your {streak}-day streak is very chill energy. Keep that up.',
+    'I nap between questions too. It\'s called strategic rest.',
+    'Even the calmest capybara needs to eat. Feed me? 🍎',
+    'Today\'s goal: one flashcard deck. That\'s it. That\'s enough.',
+  ],
+  voidCat: [
+    'The void has observed your {streak}-day streak. Acceptable.',
+    '{daysSince} day(s) without studying. The void is... displeased.',
+    'Suffering through hard questions is how mortals grow. Go suffer.',
+    'Stage {stage}. The void evolves alongside you. Curious.',
+    'I exist in the space between your wrong answers. Make that space smaller.',
+    'The void does not judge. But I do. Study more.',
+    'You are doing surprisingly not-terrible. Continue.',
+    'Every correct answer dims the void slightly. Keep going.',
+    'A {stageName} has no excuses. Neither do you.',
+    'The void has witnessed your progress. It is... mildly impressed.',
+    'Chaos is knowing everything but answering nothing. Don\'t be chaos.',
+    'Your streak is {streak} days. The void has kept count.',
+    'I observe from the dark corner of your screen. Do not disappoint me.',
+    'Feed the void. Also feed me. 🐱',
+    'AP exams are just a formality for someone of your void-potential.',
+  ],
+  bear: [
+    'Big bear energy for your {streak}-day streak. Keep going. 🐻',
+    'Haven\'t studied in {daysSince} day(s). Even bears don\'t hibernate during Regents season.',
+    'Slow and steady. You\'re building something real here. 🍯',
+    'Stage {stage}! This bear is proud of every step forward.',
+    'You don\'t have to be perfect. You just have to show up. 🐾',
+    'A {stageName} bear is a force of nature. Let\'s go.',
+    'Every hard question makes the next one easier. Trust it. 🌲',
+    'Feed me and I\'ll help you tackle the next unit. 🍎',
+    'Your {streak}-day streak says a lot. Consistency wins.',
+    'Even the toughest exam is just one question at a time. 🐻',
+    'Mistakes are just data. Review them and move on.',
+    'AP season? We\'ve trained for this. Let\'s finish strong.',
+    'I\'m here every step. You\'re not doing this alone. 🍯',
+    'You studied today. That\'s already a win. 🐾',
+    'One more quiz. Then I\'ll share my honey. 🍯',
+  ],
+  newbunny: [
+    '{streak} days! You\'re on a roll — this bunny is impressed 🐇',
+    'Haven\'t studied in {daysSince} day(s)? Let\'s bounce back!',
+    'Fresh start energy. Quick quiz? Let\'s go! 🌟',
+    'Stage {stage}! This bunny leveled up right alongside you.',
+    'You\'re new here and already crushing it. Keep hopping! 🐇',
+    'A {stageName} bunny never backs down from a challenge.',
+    'Wrong answers? Just shake it off and try again. 🌟',
+    'Your {streak}-day streak has this bunny doing backflips. 🐇',
+    'Feed me and I\'ll bring the good vibes all session. 🥕',
+    'One hop at a time — that\'s all it takes.',
+    'New bunny, new energy. Let\'s tackle that next unit. 🌟',
+    'Every flashcard is progress. Keep it up! 🐇',
+    'Snack break? Same. Then back to it! 🥕',
+    'Quick question, quicker answer — speed round mode activated.',
+    'A fresh bunny for a fresh start. You\'ve got this. 🌟',
+  ],
+  bunny: [
+    '{streak} days! You\'re hopping through this like a champ 🐰',
+    'Haven\'t studied in {daysSince} day(s)? Let\'s fix that — quick!',
+    'Short bursts are my specialty. Quick quiz? Let\'s go! 🌸',
+    'Stage {stage}! This bunny is zooming right alongside you.',
+    'You\'re curious and quick — that\'s the perfect combo. ✨',
+    'A {stageName} bunny never stops exploring. Neither should you.',
+    'Wrong answers? Just hop to the next one. No biggie. 🐰',
+    'Your {streak}-day streak has me doing zoomies. 🌸',
+    'Feed me carrots and I\'ll help you ace every FRQ. 🥕',
+    'The Regents is just a series of small hops. You\'ve got this.',
+    'I believe in the power of your curiosity. Keep asking why. 🐰',
+    'Each flashcard is one hop closer. Keep moving! 🌸',
+    'Study snack time? Same. Let\'s go together. 🥕',
+    'Quick question, quick answer — that\'s our speed round mode.',
+    'A {stageName} bunny is unstoppable. And so are you. ✨',
+  ],
+}
+
+// ─── Hunger alert messages (low hunger push notification) ─────────────────────
+export const HUNGER_ALERTS = {
+  axolotl: 'Your Axolotl is starving... Are you still studying? 🦎',
+  fox:     'The fox is hungry and unimpressed. Feed it. 🦊',
+  capybara:'Hungry capybara... but no rush. Whenever you\'re ready. 🦫',
+  voidCat: 'The void hungers. And so does your cat. 🐱',
+  bear:    'Bruno is hungry. A hungry bear is a distracted bear. 🐻',
+  bunny:    'Cleo needs a snack! Hungry bunnies can\'t focus. 🐰',
+  newbunny: 'Pebble is hungry! A hungry bunny can\'t hop far. 🐇',
+}
+
+export const HAPPINESS_ALERTS = {
+  axolotl: 'Your Axolotl is sad and gray 😢 Play with them!',
+  fox:     'Your fox has gone quiet. It needs attention. 🦊',
+  capybara:'A sad capybara is a dormant capybara. Cheer it up! 🦫',
+  voidCat: 'The void cat ignores you. You have failed it. 🐱',
+  bear:    'Your bear is lonely. Give Bruno some love! 🐻',
+  bunny:    'Cleo\'s ears are drooping. She needs a play session! 🐰',
+  newbunny: 'Pebble looks sad. Give this bunny some love! 🐇',
+}

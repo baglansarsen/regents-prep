@@ -1,0 +1,1091 @@
+{
+  "subject": "earth-science",
+  "session": "august-2019",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Most asteroids in our solar system are located in the asteroid belt between the orbits of Mars and Jupiter. What is the approximate distance from the Sun to the asteroid belt?",
+      "choices": [
+        "129 million km",
+        "210 million km",
+        "403 million km",
+        "1103 million km"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The table below shows tide data for a location on the north shore of Long Island, in New York State. Day Tide Time Tuesday High Tide 12:11 a.m. Low Tide 6:23 a.m. High Tide 12:36 p.m. Low Tide 6:49 p.m. Wednesday High Tide 1:02 a.m. Low Tide 7:15 a.m. High Tide 1:27 p.m. Based on these data, what is the most likely time of the next high tide?",
+      "choices": [
+        "1:53 a.m.",
+        "1:53 p.m.",
+        "7:40 a.m.",
+        "7:40 p.m."
+      ],
+      "image": "/images/exams/earth-science/august-2019/q2.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which planet takes longer to complete one rotation on its axis than it does to complete one orbit of the Sun?",
+      "choices": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Jupiter is a Jovian planet. Compared to the terrestrial planets, Jupiter has a",
+      "choices": [
+        "shorter period of revolution",
+        "shorter distance to the Sun",
+        "greater density",
+        "greater mass"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The entire constellation of Orion is visible in the night sky in January to an observer in New York State. Which statement explains why this constellation is not visible in the night sky to this observer in June?",
+      "choices": [
+        "Earth rotates on its axis.",
+        "Earth revolves around the Sun.",
+        "The constellation Orion orbits the Sun.",
+        "The tilt of Earth\u2019s axis changes throughout the year."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The approximate age of the universe is estimated to be",
+      "choices": [
+        "4.6 million years",
+        "4.6 billion years",
+        "13.8 million years",
+        "13.8 billion years"
+      ],
+      "image": "/images/exams/earth-science/august-2019/q6.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The photograph below shows the apparent path of the Sun photographed at 20-minute intervals and combined into one photograph. Baker, Robert H. An Introduction to Astronomy Which motion is responsible for the apparent path of the Sun shown in the photograph?",
+      "choices": [
+        "Earth\u2019s rotation",
+        "Earth\u2019s revolution",
+        "Sun\u2019s rotation",
+        "Sun\u2019s revolution"
+      ],
+      "image": "/images/exams/earth-science/august-2019/q7.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The mass extinction of the dinosaurs, approximately 65.5 million years ago, is inferred by most scientists to have been caused by",
+      "choices": [
+        "a large energy surge from the surface of the Sun",
+        "the occurrence of a major ice age",
+        "an impact event occurring on Earth\u2019s surface",
+        "earthquakes occurring along crustal plate boundaries"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The diagram below represents Earth as viewed from space. Letter A represents the angle of tilt of Earth\u2019s rotational axis. Line XY is perpendicular to the plane of Earth\u2019s orbit. Earth\u00b7s axis To Polaris X Y A Plane of Earth\u00b7s orbit What is the value of the angle represented by letter A?",
+      "choices": [
+        "15.0\u00b0",
+        "23.5\u00b0",
+        "66.5\u00b0",
+        "90.0\u00b0"
+      ],
+      "image": "/images/exams/earth-science/august-2019/q9.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "In the spring, when snow cover on the land melts, the water will most likely in\ufb01 ltrate Earth\u2019s surface where that land surface is",
+      "choices": [
+        "still frozen with a steep slope",
+        "still frozen with a gentle slope",
+        "no longer frozen with a steep slope",
+        "no longer frozen with a gentle slope"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Water is returned from Earth\u2019s surface to the atmosphere by",
+      "choices": [
+        "condensation and transpiration",
+        "condensation and precipitation",
+        "evaporation and transpiration",
+        "evaporation and precipitation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which type of sediment sample normally has the greatest permeability rate?",
+      "choices": [
+        "unsorted pebbles",
+        "unsorted sand",
+        "sorted pebbles",
+        "sorted sand"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The presence of which atmospheric condition will most likely result in clear skies in Binghamton, New York?",
+      "choices": [
+        "high humidity",
+        "high-pressure center",
+        "increasing wind speed",
+        "dewpoint equal to air temperature"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which changes in air temperature and atmospheric pressure will normally be recorded by a weather balloon when it is released at Earth\u2019s surface and rises through the troposphere?",
+      "choices": [
+        "a decrease in both air temperature and atmospheric pressure",
+        "a decrease in air temperature and an increase in atmospheric pressure",
+        "an increase in both air temperature and atmospheric pressure",
+        "an increase in air temperature and a decrease in atmospheric pressure"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which gas is most effective in absorbing incoming harmful ultraviolet radiation in Earth\u2019s stratosphere before that radiation reaches Earth\u2019s surface?",
+      "choices": [
+        "nitrogen",
+        "hydrogen",
+        "oxygen",
+        "ozone"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The major cause of monsoon rains in India and southeast Asia is seasonal",
+      "choices": [
+        "shifts in the prevailing wind belts",
+        "shifts in ocean currents",
+        "changes in the energy radiated from the Sun",
+        "changes in worldwide atmospheric temperatures"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The cross section below represents the windward and leeward sides of a mountain. The arrows show the direction of air movement over the mountain. Points X and Y represent locations on Earth\u2019s surface. Windward Leeward X Y Clouds Compared to the temperature and water vapor content of the air at location X, the temperature and water vapor content at location Y are most likely",
+      "choices": [
+        "warmer and wetter",
+        "warmer and drier",
+        "cooler and wetter",
+        "cooler and drier"
+      ],
+      "image": "/images/exams/earth-science/august-2019/q17.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which surface ocean current transports cool water to lower latitudes?",
+      "choices": [
+        "Gulf Stream",
+        "Peru Current",
+        "West Greenland Current",
+        "East Australia Current"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which land surface characteristics produce the greatest amount of absorption of insolation at Earth\u2019s surface?",
+      "choices": [
+        "dark color and rough texture",
+        "dark color and smooth texture",
+        "light color and rough texture",
+        "light color and smooth texture"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The planetary surface winds and air currents near Earth\u2019s equator are usually",
+      "choices": [
+        "converging and sinking",
+        "diverging and sinking",
+        "converging and rising",
+        "diverging and rising"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Oxygen in Earth\u2019s early atmosphere was \ufb01 rst produced during the Precambrian from",
+      "choices": [
+        "cyanobacteria in Earth\u2019s oceans",
+        "volcanic activity along plate boundaries",
+        "the absorption of sunlight by plants",
+        "evaporation of ocean water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which life-form existed on Earth for the shortest period of time?",
+      "choices": [
+        "dinosaurs",
+        "trilobites",
+        "ammonoids",
+        "placoderm \ufb01 sh"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "During the late Silurian epoch, very salty seas extended from New York State to Michigan. These environmental conditions resulted in the formation of halite layers. At the same time, Eurypterus remipes lived in nearby environments. Both the halite layers and Eurypterus remipes fossils can now be used to identify a speci\ufb01 c geologic time interval because both formed over a",
+      "choices": [
+        "large geographic area and in a short geologic time",
+        "large geographic area and in a long geologic time",
+        "small geographic area and in a short geologic time",
+        "small geographic area and in a long geologic time"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "If it takes a P-wave \ufb01 ve minutes to travel from the epicenter of an earthquake to a seismic station, approximately how long will it take an S-wave to travel that same distance?",
+      "choices": [
+        "15 minutes",
+        "12 minutes",
+        "9 minutes",
+        "4 minutes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Earthquake S-waves do not pass through which two interior Earth layers?",
+      "choices": [
+        "rigid mantle and asthenosphere",
+        "asthenosphere and stiffer mantle",
+        "stiffer mantle and outer core",
+        "outer core and inner core"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The cross section below represents the bedrock structure of a section of Earth\u2019s crust. Letters A through H represent rock units. Line XY represents a fault. The rock layers have not been overturned. Igneous rock Contact metamorphism Key A B C D E F G X Y D H When did faulting along line XY occur?",
+      "choices": [
+        "after the intrusion of rock unit A",
+        "after the deposition of rock units B, C, and D",
+        "after the formation of rock units E and F",
+        "before the formation of rock units G and H"
+      ],
+      "image": "/images/exams/earth-science/august-2019/q26.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The cross section below represents rock units within Earth\u2019s crust. Granite inclusions Granite bedrock Sandstone The age of the granite that makes up the inclusions is most likely",
+      "choices": [
+        "older than the sandstone, but the same age as the granite bedrock",
+        "older than the sandstone and the granite bedrock",
+        "younger than the sandstone, but the same age as the granite bedrock",
+        "younger than the sandstone and the granite bedrock"
+      ],
+      "image": "/images/exams/earth-science/august-2019/q27.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "A portion of the Generalized Landscape Regions of New York State map below shows the location of the Catskill Aqueduct that \ufb02 ows into the Kensico Reservoir, which supplies the residents of New York City with drinkable water. Massachusetts Connecticut The Catskills Long Island Kensico Reservoir C a ts k il l A q u e d u c t Which sequence shows the order of landscape regions that are crossed as water \ufb02 ows through the Catskill Aqueduct?",
+      "choices": [
+        "Allegheny Plateau, Hudson-Mohawk Lowlands, Taconic Mountains, Newark Lowlands",
+        "Allegheny Plateau, Hudson-Mohawk Lowlands, Hudson Highlands, Manhattan Prong",
+        "Atlantic Coastal Plain, Newark Lowlands, Hudson Highlands, Hudson-Mohawk Lowlands",
+        "Atlantic Coastal Plain, Manhattan Prong, Hudson Highlands, Allegheny Plateau"
+      ],
+      "image": "/images/exams/earth-science/august-2019/q28.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The map below shows the land area in New York State drained by the Oswego River and its tributaries. Lake Ontario Rochester Binghamton Elmira Ithaca Syracuse Utica Erie C anal Erie Canal Oswego River Geneva The land area drained by the Oswego River and its tributaries is called a",
+      "choices": [
+        "delta",
+        "watershed",
+        "water table",
+        "\ufb02 oodplain"
+      ],
+      "image": "/images/exams/earth-science/august-2019/q29.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a portion of the Genesee River in western New York. Letters A, B, C, and D are locations in the river. C D B A At which location would deposition of sediments most likely be greater than erosion?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2019/q30.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The rate of soil development in tropical areas is usually greater than the rate of soil development in arctic areas because tropical areas have",
+      "choices": [
+        "less chemical weathering and a scarcity of living organisms",
+        "less chemical weathering and an abundance of living organisms",
+        "more chemical weathering and a scarcity of living organisms",
+        "more chemical weathering and an abundance of living organisms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "New York State\u2019s Finger Lakes exist today because",
+      "choices": [
+        "U-shaped valleys were dammed by glacial sediments",
+        "V-shaped valleys are being eroded by streams",
+        "a drop in sea level occurred, leaving the lakes",
+        "a rise in sea level occurred, \ufb02 ooding the region"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which igneous rock could physically weather to beach sand that contains the minerals pyroxene, plagioclase feldspar, and olivine?",
+      "choices": [
+        "dunite",
+        "granite",
+        "peridotite",
+        "gabbro"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which two physical properties of graphite make it a good mineral for use in pencils?",
+      "choices": [
+        "luster and fracture",
+        "cleavage and color",
+        "hardness and streak",
+        "greasy feel and composition"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which mineral is produced when two atoms of iron chemically combine with three atoms of oxygen?",
+      "choices": [
+        "garnet",
+        "pyrite",
+        "magnetite",
+        "hematite"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Compared to the time of sunrise in Kingston, the time of sunrise in Jamestown would be approximately",
+      "choices": [
+        "1 hour earlier",
+        "1 hour later",
+        "20 minutes earlier",
+        "20 minutes later"
+      ],
+      "image": "/images/exams/earth-science/august-2019/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the map below and on your knowledge of Earth science. \nThe map shows the locations of Jamestown, Watertown, and Kingston in New York State.\n76\u00b0\n75\u00b0\n74\u00b0\n73\u00b0\n72\u00b0\n77\u00b0\n78\u00b0\n79\u00b0\n79\u00b0\n78\u00b0\n77\u00b0\n76\u00b0\n75\u00b0\n74\u00b0\n42\u00b0\n43\u00b0\n44\u00b0\n45\u00b0\n41\u00b0\n43\u00b0\n42\u00b0\nLake Erie\nLake Ontario\nJamestown\nWatertown\nKingston",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "An observer in Watertown, New York, would see the star Polaris at an altitude of approximately",
+      "choices": [
+        "44\u00b0",
+        "45\u00b0",
+        "75\u00b0",
+        "76\u00b0"
+      ],
+      "image": "/images/exams/earth-science/august-2019/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the map below and on your knowledge of Earth science. \nThe map shows the locations of Jamestown, Watertown, and Kingston in New York State.\n76\u00b0\n75\u00b0\n74\u00b0\n73\u00b0\n72\u00b0\n77\u00b0\n78\u00b0\n79\u00b0\n79\u00b0\n78\u00b0\n77\u00b0\n76\u00b0\n75\u00b0\n74\u00b0\n42\u00b0\n43\u00b0\n44\u00b0\n45\u00b0\n41\u00b0\n43\u00b0\n42\u00b0\nLake Erie\nLake Ontario\nJamestown\nWatertown\nKingston",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Earth\u2019s system of longitude is based on which motion?",
+      "choices": [
+        "Earth\u2019s rotation",
+        "the Sun\u2019s rotation",
+        "Earth\u2019s revolution around the Sun",
+        "the Sun\u2019s revolution around Earth"
+      ],
+      "image": "/images/exams/earth-science/august-2019/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the map below and on your knowledge of Earth science. \nThe map shows the locations of Jamestown, Watertown, and Kingston in New York State.\n76\u00b0\n75\u00b0\n74\u00b0\n73\u00b0\n72\u00b0\n77\u00b0\n78\u00b0\n79\u00b0\n79\u00b0\n78\u00b0\n77\u00b0\n76\u00b0\n75\u00b0\n74\u00b0\n42\u00b0\n43\u00b0\n44\u00b0\n45\u00b0\n41\u00b0\n43\u00b0\n42\u00b0\nLake Erie\nLake Ontario\nJamestown\nWatertown\nKingston",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The map below shows four locations in South America, labeled A, B, C, and D. 50\u00b0 W 40\u00b0 W 30\u00b0 W 20\u00b0 W 60\u00b0 W 70\u00b0 W 80\u00b0 W 90\u00b0 W 40\u00b0 S 20\u00b0 S 0\u00b0 80\u00b0 W 70\u00b0 W 60\u00b0 W 50\u00b0 W 40\u00b0 W 30\u00b0 S 10\u00b0 S 10\u00b0 N 50\u00b0 S A B C D 40\u00b0 S 20\u00b0 S 0\u00b0 30\u00b0 S 10\u00b0 S 10\u00b0 N 50\u00b0 S Which lettered point on the map best represents the location of the Patagonia Marble Caves?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2019/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows a portion of the Patagonia Marble Caves found in South America.\nPatagonia Marble Caves\nThe Patagonia Marble Caves of South America are found on the shores of General \nCarrera Lake at a location of 46.5\u00b0 S 72\u00b0 W. Most of the water in the lake comes from the \nmelting of nearby glaciers. Many small particles carried by the glacier remain suspended \nin the meltwater that \ufb01 lls this lake, causing a distinct blue color. Over the last 6200 years, \nthe water of the lake has been weathering and eroding the marble bedrock found along the \nshores and within the lake itself. The marble dissolved faster at the water surface, where \nthe moving water is interacting with the marble bedrock, producing countless caves, \nmazes, columns, and tunnels in the marble.\nhttp://www.dont-complain.com/2015/01/17/marble-caves-chile/\n\n P.S./E. Sci.\u2013Aug. \u201919 \n[11] \n[OVER]",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which two processes formed the marble bedrock shown in the photograph?",
+      "choices": [
+        "heat and pressure",
+        "compaction and cementation",
+        "melting and solidi\ufb01 cation",
+        "precipitation and evaporation"
+      ],
+      "image": "/images/exams/earth-science/august-2019/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows a portion of the Patagonia Marble Caves found in South America.\nPatagonia Marble Caves\nThe Patagonia Marble Caves of South America are found on the shores of General \nCarrera Lake at a location of 46.5\u00b0 S 72\u00b0 W. Most of the water in the lake comes from the \nmelting of nearby glaciers. Many small particles carried by the glacier remain suspended \nin the meltwater that \ufb01 lls this lake, causing a distinct blue color. Over the last 6200 years, \nthe water of the lake has been weathering and eroding the marble bedrock found along the \nshores and within the lake itself. The marble dissolved faster at the water surface, where \nthe moving water is interacting with the marble bedrock, producing countless caves, \nmazes, columns, and tunnels in the marble.\nhttp://www.dont-complain.com/2015/01/17/marble-caves-chile/\n\n P.S./E. Sci.\u2013Aug. \u201919 \n[11] \n[OVER]",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Most marble is composed primarily of",
+      "choices": [
+        "quartz and/or potassium feldspar",
+        "calcite and/or dolomite",
+        "halite and/or olivine",
+        "pyroxene and/or plagioclase feldspar"
+      ],
+      "image": "/images/exams/earth-science/august-2019/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows a portion of the Patagonia Marble Caves found in South America.\nPatagonia Marble Caves\nThe Patagonia Marble Caves of South America are found on the shores of General \nCarrera Lake at a location of 46.5\u00b0 S 72\u00b0 W. Most of the water in the lake comes from the \nmelting of nearby glaciers. Many small particles carried by the glacier remain suspended \nin the meltwater that \ufb01 lls this lake, causing a distinct blue color. Over the last 6200 years, \nthe water of the lake has been weathering and eroding the marble bedrock found along the \nshores and within the lake itself. The marble dissolved faster at the water surface, where \nthe moving water is interacting with the marble bedrock, producing countless caves, \nmazes, columns, and tunnels in the marble.\nhttp://www.dont-complain.com/2015/01/17/marble-caves-chile/\n\n P.S./E. Sci.\u2013Aug. \u201919 \n[11] \n[OVER]",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The barometric pressure was recorded on the digital device in millibars. What is the equivalent air pressure in inches of mercury (Hg)?",
+      "choices": [
+        "29.59 in of Hg",
+        "29.60 in of Hg",
+        "29.62 in of Hg",
+        "29.65 in of Hg"
+      ],
+      "image": "/images/exams/earth-science/august-2019/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the photographs below and on your knowledge of Earth \nscience. One photograph shows a digital device that recorded several weather variables. The second photograph \nshows two weather instruments, labeled A and B.\nINSIDE TEMP\nHUMIDITY\n\u00b0C\n%\nSUNNY\nCLOUD COVER\nTIME\nAM\nDATE\nOUTSIDE TEMP\nHUMIDITY\n\u00b0C\n%\nPRESSURE\nPRESSURE  TREND\nWIND DIRECTION\nSSE\nWIND SPEED\nDigital Device\nmb\nKNOTS",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Based on the outside air temperature and relative humidity shown on the digital device, what is the approximate dewpoint for the time shown on the device?",
+      "choices": [
+        "8\u00b0C",
+        "12\u00b0C",
+        "18\u00b0C",
+        "31\u00b0C A B Adapted from: https://www.pce-instruments.com/us/measuring-instruments/ Weather Instruments"
+      ],
+      "image": "/images/exams/earth-science/august-2019/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the photographs below and on your knowledge of Earth \nscience. One photograph shows a digital device that recorded several weather variables. The second photograph \nshows two weather instruments, labeled A and B.\nINSIDE TEMP\nHUMIDITY\n\u00b0C\n%\nSUNNY\nCLOUD COVER\nTIME\nAM\nDATE\nOUTSIDE TEMP\nHUMIDITY\n\u00b0C\n%\nPRESSURE\nPRESSURE  TREND\nWIND DIRECTION\nSSE\nWIND SPEED\nDigital Device\nmb\nKNOTS",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Which table correctly identi\ufb01 es weather instruments A and B and the weather variable that each measures? Weather Instrument Weather Variable Measured A wind vane wind direction B anemometer wind speed ( 1 ) Weather Instrument Weather Variable Measured A wind vane wind speed B anemometer wind direction ( 3 ) Weather Instrument Weather Variable Measured A anemometer wind speed B wind vane wind direction Weather Instrument Weather Variable Measured A anemometer wind direction B wind vane wind speed ( 2 ) ( 4 ) GO ON TO THE NEXT PAGE \u27af",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the photographs below and on your knowledge of Earth \nscience. One photograph shows a digital device that recorded several weather variables. The second photograph \nshows two weather instruments, labeled A and B.\nINSIDE TEMP\nHUMIDITY\n\u00b0C\n%\nSUNNY\nCLOUD COVER\nTIME\nAM\nDATE\nOUTSIDE TEMP\nHUMIDITY\n\u00b0C\n%\nPRESSURE\nPRESSURE  TREND\nWIND DIRECTION\nSSE\nWIND SPEED\nDigital Device\nmb\nKNOTS",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "The apparent shift in the direction of swing of a Foucault pendulum and the curving of winds by the Coriolis effect are both evidence of Earth\u2019s",
+      "choices": [
+        "tilt",
+        "shape",
+        "rotation",
+        "revolution"
+      ],
+      "image": "/images/exams/earth-science/august-2019/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the diagrams below and on your knowledge of Earth \nscience. Diagram A represents a Foucault pendulum set up at a particular location on Earth. The line on the \n\ufb02 oor marked 0 is the path of the pendulum when it was \ufb01 rst set in motion. Diagram B represents the curving of \nplanetary winds located in two areas of Earth\u2019s surface due to the Coriolis effect.\nSwing\nWire 200 feet long\nFloor\n0 2 4 6\n8 hours\nSteel ball\nDiagram A: Foucault\u2019s Pendulum\nKey\nOriginal direction of wind\nDeflected path of wind\n(Not drawn to scale)\nNorth Pole\nEquator\nDiagram B: Coriolis Effect on Planetary Winds\nSouth Pole",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "In diagram A, the apparent shift of the path of the pendulum is shown at two-hour intervals for the \ufb01 rst eight hours of pendulum motion. During the eight hours, the pendulum\u2019s path was displaced 60 degrees from where it started. How many degrees did the apparent path of the pendulum change each hour (h)?",
+      "choices": [
+        "7.5\u00b0/h",
+        "15\u00b0/h",
+        "60\u00b0/h",
+        "120\u00b0/h"
+      ],
+      "image": "/images/exams/earth-science/august-2019/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the diagrams below and on your knowledge of Earth \nscience. Diagram A represents a Foucault pendulum set up at a particular location on Earth. The line on the \n\ufb02 oor marked 0 is the path of the pendulum when it was \ufb01 rst set in motion. Diagram B represents the curving of \nplanetary winds located in two areas of Earth\u2019s surface due to the Coriolis effect.\nSwing\nWire 200 feet long\nFloor\n0 2 4 6\n8 hours\nSteel ball\nDiagram A: Foucault\u2019s Pendulum\nKey\nOriginal direction of wind\nDeflected path of wind\n(Not drawn to scale)\nNorth Pole\nEquator\nDiagram B: Coriolis Effect on Planetary Winds\nSouth Pole",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "written",
+      "text": "In diagram B, what are the names of the planetary wind belts formed by the de\ufb02 ected winds shown in the Northern and Southern hemispheres? Hemisphere Wind Belt Northern Southeast winds Southern Northwest winds Hemisphere Wind Belt Northern Southwest winds Southern Northwest winds Hemisphere Wind Belt Northern Northeast winds Southern Southeast winds Hemisphere Wind Belt Northern Northwest winds Southern Southeast winds ( 1 ) ( 3 ) ( 2 ) ( 4 ) GO ON TO THE NEXT PAGE \u27af",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the diagrams below and on your knowledge of Earth \nscience. Diagram A represents a Foucault pendulum set up at a particular location on Earth. The line on the \n\ufb02 oor marked 0 is the path of the pendulum when it was \ufb01 rst set in motion. Diagram B represents the curving of \nplanetary winds located in two areas of Earth\u2019s surface due to the Coriolis effect.\nSwing\nWire 200 feet long\nFloor\n0 2 4 6\n8 hours\nSteel ball\nDiagram A: Foucault\u2019s Pendulum\nKey\nOriginal direction of wind\nDeflected path of wind\n(Not drawn to scale)\nNorth Pole\nEquator\nDiagram B: Coriolis Effect on Planetary Winds\nSouth Pole",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "In which diagram do the arrows best represent the relative motion of the upper mantle at this plate boundary? (Not drawn to scale) ( 3 ) Continental crust Mantle Pacific Juan de Fuca Plate North American Plate Mantle Oceanic Ocean crust (Not drawn to scale) ( 2 ) (Not drawn to scale) ( 1 ) (Not drawn to scale) ( 4 ) Continental crust Mantle Pacific Juan de Fuca Plate North American Plate Mantle Oceanic Ocean crust Continental crust Mantle Pacific Juan de Fuca Plate North American Plate Mantle Oceanic Ocean crust Continental crust Mantle Pacific Juan de Fuca Plate North American Plate Mantle Oceanic Ocean crust",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the cross section below and on your knowledge of Earth \nscience. The cross section shows the boundary between the Juan de Fuca Plate and the North American Plate.\nContinental crust\nMantle\nPacific   Ocean\nJuan de Fuca\nPlate\nNorth American\nPlate\nMantle\n(Not drawn to scale)\nOceanic\ncrust",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Compared to the crust of the North American Plate, the crust of the Juan de Fuca Plate is",
+      "choices": [
+        "thicker and less dense",
+        "thicker and more dense",
+        "thinner and less dense",
+        "thinner and more dense"
+      ],
+      "image": "/images/exams/earth-science/august-2019/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the cross section below and on your knowledge of Earth \nscience. The cross section shows the boundary between the Juan de Fuca Plate and the North American Plate.\nContinental crust\nMantle\nPacific   Ocean\nJuan de Fuca\nPlate\nNorth American\nPlate\nMantle\n(Not drawn to scale)\nOceanic\ncrust",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The boundary between the asthenosphere and the stiffer mantle is located below the Earth\u2019s surface at a depth of approximately",
+      "choices": [
+        "100 km",
+        "700 km",
+        "2500 km",
+        "3000 km"
+      ],
+      "image": "/images/exams/earth-science/august-2019/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the cross section below and on your knowledge of Earth \nscience. The cross section shows the boundary between the Juan de Fuca Plate and the North American Plate.\nContinental crust\nMantle\nPacific   Ocean\nJuan de Fuca\nPlate\nNorth American\nPlate\nMantle\n(Not drawn to scale)\nOceanic\ncrust",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Complete the diagram in your answer booklet by shading in the pattern of normal polarity on the east side of the Mid-Atlantic Ridge center. Assume that the rate of plate movement was constant on both sides of the ridge center. Your answer must show the correct width and placement of each normal polarity section.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the passage below, the cross section in your answer booklet, \nand on your knowledge of Earth science. The passage describes the discovery of ocean \ufb02 oor magnetism. The \ncross section represents a pattern of normal and reverse polarity of the magnetic \ufb01 eld preserved in the igneous \nbedrock of the oceanic crust west of the Mid-Atlantic Ridge. The magnetic polarity pattern of the bedrock on the \neast side of the ridge has been left blank.\nOcean Floor Magnetism\nScientists in the early 1960s were surprised to \ufb01 nd there was a pattern in the ocean \n\ufb02 oor magnetism preserved in the bedrock of the Atlantic Ocean \ufb02 oor. They found that \nthe magnetism in the bedrock was arranged in an orderly pattern parallel to the Mid-\nAtlantic Ridge. This mountain ridge, often marked by earthquakes and volcanic eruptions, \nruns roughly north-south. Earth is currently in a period of normal polarity. However, the \nmagnetic record preserved in the rocks indicates that Earth\u2019s magnetic poles have reversed \npositions many times in the past. Since the initial discovery of this ocean \ufb02 oor magnetism, \nsimilar magnetic patterns have also been found parallel to the mid-ocean ridges in all of \nthe other oceans.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the width and placement of the shaded areas are correctly indicated, as shown below."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify the type of tectonic plate boundary at the mid-ocean ridges where these magnetic patterns were produced.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the passage below, the cross section in your answer booklet, \nand on your knowledge of Earth science. The passage describes the discovery of ocean \ufb02 oor magnetism. The \ncross section represents a pattern of normal and reverse polarity of the magnetic \ufb01 eld preserved in the igneous \nbedrock of the oceanic crust west of the Mid-Atlantic Ridge. The magnetic polarity pattern of the bedrock on the \neast side of the ridge has been left blank.\nOcean Floor Magnetism\nScientists in the early 1960s were surprised to \ufb01 nd there was a pattern in the ocean \n\ufb02 oor magnetism preserved in the bedrock of the Atlantic Ocean \ufb02 oor. They found that \nthe magnetism in the bedrock was arranged in an orderly pattern parallel to the Mid-\nAtlantic Ridge. This mountain ridge, often marked by earthquakes and volcanic eruptions, \nruns roughly north-south. Earth is currently in a period of normal polarity. However, the \nmagnetic record preserved in the rocks indicates that Earth\u2019s magnetic poles have reversed \npositions many times in the past. Since the initial discovery of this ocean \ufb02 oor magnetism, \nsimilar magnetic patterns have also been found parallel to the mid-ocean ridges in all of \nthe other oceans.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for divergent/diverging."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "On the set of axes in your answer booklet, draw a line to represent the relationship between the distance from the Mid-Atlantic Ridge and the age of the ocean \ufb02 oor bedrock.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the passage below, the cross section in your answer booklet, \nand on your knowledge of Earth science. The passage describes the discovery of ocean \ufb02 oor magnetism. The \ncross section represents a pattern of normal and reverse polarity of the magnetic \ufb01 eld preserved in the igneous \nbedrock of the oceanic crust west of the Mid-Atlantic Ridge. The magnetic polarity pattern of the bedrock on the \neast side of the ridge has been left blank.\nOcean Floor Magnetism\nScientists in the early 1960s were surprised to \ufb01 nd there was a pattern in the ocean \n\ufb02 oor magnetism preserved in the bedrock of the Atlantic Ocean \ufb02 oor. They found that \nthe magnetism in the bedrock was arranged in an orderly pattern parallel to the Mid-\nAtlantic Ridge. This mountain ridge, often marked by earthquakes and volcanic eruptions, \nruns roughly north-south. Earth is currently in a period of normal polarity. However, the \nmagnetic record preserved in the rocks indicates that Earth\u2019s magnetic poles have reversed \npositions many times in the past. Since the initial discovery of this ocean \ufb02 oor magnetism, \nsimilar magnetic patterns have also been found parallel to the mid-ocean ridges in all of \nthe other oceans.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a U-shape or V-shape with the youngest age at the Mid-Atlantic Ridge and the oldest ages farthest from the ridge. Examples of 1-credit responses: Note: Allow credit even if the oldest ages are not exactly at the same \u201coceanic bedrock age\u201d level. 0 40 Atlantic Ocean 10 20 30 East Distance from Ridge 0 Mid-Atlantic Ridge Oceanic Bedrock Age Distance from Ridge 0 Mid-Atlantic Ridge Oceanic Bedrock Age Oceanic Bedrock Age Oceanic Bedrock Age West East West East P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the name of the sedimentary rock.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the photograph below and on your knowledge of Earth \nscience. The photograph is of a rock sample composed of pebbles that have been cemented together.\nwww.geolsoc.org.uk",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for conglomerate."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify the total possible range of particle diameters, in centimeters, for a particle to be classi\ufb01 ed as a pebble.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the photograph below and on your knowledge of Earth \nscience. The photograph is of a rock sample composed of pebbles that have been cemented together.\nwww.geolsoc.org.uk",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.2 cm to 6.4 cm."
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Describe the evidence from the photograph that supports the inference that the particles in this rock were most likely transported by running water.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the photograph below and on your knowledge of Earth \nscience. The photograph is of a rock sample composed of pebbles that have been cemented together.\nwww.geolsoc.org.uk",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Rounded pebbles usually indicate transportation by running water. \u2014 Sediments tumbling or bouncing in a stream produce the round shapes. \u2014 The particles are smooth and have round shapes."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Determine the number of carbon-14 atoms that would most likely remain at the end of the second half-life.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the diagrams below and on your knowledge of \nEarth science. The diagrams represent a model of the disintegration of a sample of the radioactive isotope \ncarbon-14 (14C).\nOriginal sample\nAfter one half-life\nCarbon - 14\nStable\ndisintegration\nproduct\nKey",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 4 or four."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Identify the stable disintegration product that is produced when carbon-14 decays.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the diagrams below and on your knowledge of \nEarth science. The diagrams represent a model of the disintegration of a sample of the radioactive isotope \ncarbon-14 (14C).\nOriginal sample\nAfter one half-life\nCarbon - 14\nStable\ndisintegration\nproduct\nKey",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 nitrogen-14 \u2014 14N \u2014 14C \u2192 14N"
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Identify the radioactive isotope that has a half-life that is approximately the same as the estimated age of Earth, by using the Radioactive Decay Data table in the Earth Science Reference Tables.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the diagrams below and on your knowledge of \nEarth science. The diagrams represent a model of the disintegration of a sample of the radioactive isotope \ncarbon-14 (14C).\nOriginal sample\nAfter one half-life\nCarbon - 14\nStable\ndisintegration\nproduct\nKey",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 uranium-238 \u2014 238U Note: Do not accept \u201curanium\u201d alone because there are different isotopes of uranium. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify the geologic period when rock layer A was deposited.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the diagrams below and on your knowledge of Earth \nscience. The diagrams represent drill core samples from two different locations (I and II). A drill core is \na cylinder of rock material removed from the bedrock. Letters A through J represent different rock layers. Some \nlayers contain index fossils. The rock layers shown have not been overturned.\nII\nJ\nI\nH\nF\nG\nUnconformity\nKey\nLocation I\nD\nB\nA\nC",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Ordovician Period. Note: Do not accept \u201cMiddle Ordovician\u201d because that is an epoch."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "List the relative ages of rock layers D, E, F, and G by listing the letters from oldest to youngest.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the diagrams below and on your knowledge of Earth \nscience. The diagrams represent drill core samples from two different locations (I and II). A drill core is \na cylinder of rock material removed from the bedrock. Letters A through J represent different rock layers. Some \nlayers contain index fossils. The rock layers shown have not been overturned.\nII\nJ\nI\nH\nF\nG\nUnconformity\nKey\nLocation I\nD\nB\nA\nC",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct order shown below. _______E_______ \u2192 _______D_______ \u2192 _______G_______ \u2192 _______F_______ Oldest Youngest"
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify two processes that formed the unconformities in these drill cores.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the diagrams below and on your knowledge of Earth \nscience. The diagrams represent drill core samples from two different locations (I and II). A drill core is \na cylinder of rock material removed from the bedrock. Letters A through J represent different rock layers. Some \nlayers contain index fossils. The rock layers shown have not been overturned.\nII\nJ\nI\nH\nF\nG\nUnconformity\nKey\nLocation I\nD\nB\nA\nC",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for two acceptable processes. Acceptable responses include, but are not limited to: \u2014 uplift/emergence \u2014 weathering \u2014 erosion \u2014 submergence/subsidence/sinking \u2014 deposition/sedimentation/precipitation \u2014 burial"
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify the date shown on the graph when the river was most likely carrying the greatest amount of sediment.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the graph below and on your knowledge of Earth science. \nThe graph shows the discharge of the Delaware River at Barryville, New York, for a one-week period during \nMarch 2004.\n8000\n7000\n6000\n5000\n4000\n3000\n2000\nDelaware River Discharge\nDate\nDischarge (cubic feet per second)\nMar 11\nMar 12\nMar 13\nMar 14\nMar 15\nMar 16\nMar 17",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for March 11."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "State one possible cause for the increase in stream discharge on March 15.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the graph below and on your knowledge of Earth science. \nThe graph shows the discharge of the Delaware River at Barryville, New York, for a one-week period during \nMarch 2004.\n8000\n7000\n6000\n5000\n4000\n3000\n2000\nDelaware River Discharge\nDate\nDischarge (cubic feet per second)\nMar 11\nMar 12\nMar 13\nMar 14\nMar 15\nMar 16\nMar 17",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 precipitation \u2014 rain shower \u2014 snowmelt \u2014 increased runoff \u2014 flooding \u2014 increase in the volume of water in the stream Note: Do not allow credit for \u201cvelocity of water\u201d or \u201cincrease in water velocity\u201d because water velocity is a result of an increase in water volume or discharge."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "The Delaware River \ufb02 ows out of the Catskills and into the Atlantic Ocean. Identify the general compass direction toward which the Delaware River \ufb02 ows along the Pennsylvania\u2013New York State border.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the graph below and on your knowledge of Earth science. \nThe graph shows the discharge of the Delaware River at Barryville, New York, for a one-week period during \nMarch 2004.\n8000\n7000\n6000\n5000\n4000\n3000\n2000\nDelaware River Discharge\nDate\nDischarge (cubic feet per second)\nMar 11\nMar 12\nMar 13\nMar 14\nMar 15\nMar 16\nMar 17",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for southeast/SE or south/S or south southeast/SSE. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Calculate the gradient along the line between points A and B in feet per mile.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the topographic map below and on your knowledge of Earth \nscience. The map shows an eroded drumlin at Chimney Bluffs State Park along the shoreline of Lake Ontario \neast of Rochester, New York. Lines AB and CD are reference lines. Elevations are shown in feet.\n0\n0.5\n1\nMiles\nContour interval = 10 feet\nChimney Bluffs\nC\nD\nA\nB\n350\nLake Ontario\n300\n400\n250\nN\n250",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 636 to 778 ft/mile."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a topographic pro\ufb01 le along line CD by plotting the elevation of each contour line that crosses line CD. The elevations for points C and D have been plotted on the grid. Connect all nine plots with a line from point C to point D to complete the pro\ufb01 le.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the topographic map below and on your knowledge of Earth \nscience. The map shows an eroded drumlin at Chimney Bluffs State Park along the shoreline of Lake Ontario \neast of Rochester, New York. Lines AB and CD are reference lines. Elevations are shown in feet.\n0\n0.5\n1\nMiles\nContour interval = 10 feet\nChimney Bluffs\nC\nD\nA\nB\n350\nLake Ontario\n300\n400\n250\nN\n250",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all seven plots are within or touch the rectangles shown below and all nine plots are correctly connected with a line, from C to D, that passes within or touches each rectangle. Note: It is recommended that an overlay of the same scale as the student answer booklet be used to ensure reliability in rating. Allow credit if the line misses a plot, but is still within or touches the rectangle."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Describe one piece of evidence represented by the contour lines on the map that indicates the north side of Chimney Bluffs is steep.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the topographic map below and on your knowledge of Earth \nscience. The map shows an eroded drumlin at Chimney Bluffs State Park along the shoreline of Lake Ontario \neast of Rochester, New York. Lines AB and CD are reference lines. Elevations are shown in feet.\n0\n0.5\n1\nMiles\nContour interval = 10 feet\nChimney Bluffs\nC\nD\nA\nB\n350\nLake Ontario\n300\n400\n250\nN\n250",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The contour lines are close together on the north side of Chimney Bluffs. \u2014 The spacing between the contour lines is small. \u2014 There is a great change in elevation in a short distance on the north side. C D Distance (mi) Elevation (ft) 390 380 370 360 350 340 330 320 310 Profile along Line CD P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "The station model below represents the weather conditions for Albany, New York. 009 64 66 Complete the table in your answer booklet by indicating the weather conditions represented on the station model for Albany, New York.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the weather map below and on your knowledge of Earth \nscience. The map shows the center of a low-pressure system (L). The location for Albany, New York, is shown.\nPacific\nOcean\nAtlantic\nOcean\nGulf of Mexico\nMexico\nCanada\nAlbany\nL\n120\u00b0 W\n110\u00b0 W\n100\u00b0 W\n90\u00b0 W\n80\u00b0 W\n70\u00b0 W\n60\u00b0 W\n55\u00b0 N\n45\u00b0 N\n40\u00b0 N\n35\u00b0 N\n30\u00b0 N\n25\u00b0 N\n50\u00b0 N\n55\u00b0 N\n45\u00b0 N\n40\u00b0 N\n35\u00b0 N\n30\u00b0 N\n25\u00b0 N\n50\u00b0 N\n110\u00b0 W\n100\u00b0 W\n90\u00b0 W\n80\u00b0 W\n130\u00b0 W",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if all four weather conditions are correctly recorded as shown below."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Write the standard two-letter air-mass symbol to identify the air mass that normally forms over the Gulf of Mexico.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the weather map below and on your knowledge of Earth \nscience. The map shows the center of a low-pressure system (L). The location for Albany, New York, is shown.\nPacific\nOcean\nAtlantic\nOcean\nGulf of Mexico\nMexico\nCanada\nAlbany\nL\n120\u00b0 W\n110\u00b0 W\n100\u00b0 W\n90\u00b0 W\n80\u00b0 W\n70\u00b0 W\n60\u00b0 W\n55\u00b0 N\n45\u00b0 N\n40\u00b0 N\n35\u00b0 N\n30\u00b0 N\n25\u00b0 N\n50\u00b0 N\n55\u00b0 N\n45\u00b0 N\n40\u00b0 N\n35\u00b0 N\n30\u00b0 N\n25\u00b0 N\n50\u00b0 N\n110\u00b0 W\n100\u00b0 W\n90\u00b0 W\n80\u00b0 W\n130\u00b0 W",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for mT. Allow credit for either uppercase or lowercase letters. Note: Do not allow credit if air-mass letters are reversed, such as Tm. For students who used the Spanish edition, either exclusively or in conjunction with the English edition of the exam, allow credit for the correct two-letter air-mass symbol as it appears in either the English or Spanish 2011 Edition Reference Tables for Physical Setting/Earth Science."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Identify one process that causes clouds to form in the moist air rising along the frontal boundaries of the low-pressure system.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the weather map below and on your knowledge of Earth \nscience. The map shows the center of a low-pressure system (L). The location for Albany, New York, is shown.\nPacific\nOcean\nAtlantic\nOcean\nGulf of Mexico\nMexico\nCanada\nAlbany\nL\n120\u00b0 W\n110\u00b0 W\n100\u00b0 W\n90\u00b0 W\n80\u00b0 W\n70\u00b0 W\n60\u00b0 W\n55\u00b0 N\n45\u00b0 N\n40\u00b0 N\n35\u00b0 N\n30\u00b0 N\n25\u00b0 N\n50\u00b0 N\n55\u00b0 N\n45\u00b0 N\n40\u00b0 N\n35\u00b0 N\n30\u00b0 N\n25\u00b0 N\n50\u00b0 N\n110\u00b0 W\n100\u00b0 W\n90\u00b0 W\n80\u00b0 W\n130\u00b0 W",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 condensation \u2014 cooling \u2014 expansion \u2014 deposition/phase change directly from water vapor to ice Weather in Albany, New York Dewpoint 64\u00b0F Amount of cloud cover 100% Barometric pressure 1000.9 mb Present weather Haze P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a line graph by plotting the average high air temperatures for each month listed in the data table. Connect all twelve plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_72_74.png",
+      "context": "Base your answers to questions 72 through 74 on the passage and data table below and on your knowledge of \nEarth science. The data table shows the monthly average high air temperatures, in degrees Fahrenheit (\u00b0F), and \nmonthly average snowfall, in inches (in), at the summit (top) of Mount Washington in New Hampshire.\nMount Washington\nMount Washington, located in the state of New Hampshire, is one of the highest \nmountains east of the Mississippi River. This mountain, as well as many mountains across \nupstate New York and the northeast, has deep-cut glacial valleys formed by continental \nglaciers approximately 1.7 to 1.8 million years ago. Hurricane-force wind gusts are observed \nat the summit of Mount Washington on the average of 110 days per year, including a record \nwind speed of 231 miles per hour. It also receives very high levels of snow, averaging 282 \ninches (23.5 feet) of snow per year.\nMount Washington Monthly Average High Air Temperatures and Average Snowfall\nMonth\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nAverage High Air \nTemperature \n(\u00b0F)\n14\n15\n21\n30\n41\n50\n54\n53\n47\n36\n28\n18\nAverage\nSnowfall\n(in)\n44\n40\n45\n36\n12\n1\nTrace\n0.1\n2\n18\n38\n46",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all twelve plots are within or touch the circles shown below and are correctly connected with a line that passes within or touches each circle. Note: It is recommended that an overlay of the same scale as the student answer booklet be used to ensure reliability in rating. Allow credit if the student-drawn line does not pass through the student plot points but is still within or touches the circles. Do not allow credit if the student makes any attempt to graph average snowfall on the Monthly Average High Temperatures graph because the vertical axis is in degrees Fahrenheit, not inches."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Identify the climate factor that best explains why Mount Washington has relatively low air temperatures throughout the year.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_72_74.png",
+      "context": "Base your answers to questions 72 through 74 on the passage and data table below and on your knowledge of \nEarth science. The data table shows the monthly average high air temperatures, in degrees Fahrenheit (\u00b0F), and \nmonthly average snowfall, in inches (in), at the summit (top) of Mount Washington in New Hampshire.\nMount Washington\nMount Washington, located in the state of New Hampshire, is one of the highest \nmountains east of the Mississippi River. This mountain, as well as many mountains across \nupstate New York and the northeast, has deep-cut glacial valleys formed by continental \nglaciers approximately 1.7 to 1.8 million years ago. Hurricane-force wind gusts are observed \nat the summit of Mount Washington on the average of 110 days per year, including a record \nwind speed of 231 miles per hour. It also receives very high levels of snow, averaging 282 \ninches (23.5 feet) of snow per year.\nMount Washington Monthly Average High Air Temperatures and Average Snowfall\nMonth\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nAverage High Air \nTemperature \n(\u00b0F)\n14\n15\n21\n30\n41\n50\n54\n53\n47\n36\n28\n18\nAverage\nSnowfall\n(in)\n44\n40\n45\n36\n12\n1\nTrace\n0.1\n2\n18\n38\n46",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 elevation \u2014 height above sea level \u2014 high altitude Note: Do not allow credit for \u201cmountain\u201d or \u201ctop of a mountain\u201d because this identifies the location from which the data were taken but does not identify the climate factor affecting this mountain that causes low air temperatures."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "State the name of the geologic epoch when continental glaciers last carved the valleys around Mount Washington and across upstate New York.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_72_74.png",
+      "context": "Base your answers to questions 72 through 74 on the passage and data table below and on your knowledge of \nEarth science. The data table shows the monthly average high air temperatures, in degrees Fahrenheit (\u00b0F), and \nmonthly average snowfall, in inches (in), at the summit (top) of Mount Washington in New Hampshire.\nMount Washington\nMount Washington, located in the state of New Hampshire, is one of the highest \nmountains east of the Mississippi River. This mountain, as well as many mountains across \nupstate New York and the northeast, has deep-cut glacial valleys formed by continental \nglaciers approximately 1.7 to 1.8 million years ago. Hurricane-force wind gusts are observed \nat the summit of Mount Washington on the average of 110 days per year, including a record \nwind speed of 231 miles per hour. It also receives very high levels of snow, averaging 282 \ninches (23.5 feet) of snow per year.\nMount Washington Monthly Average High Air Temperatures and Average Snowfall\nMonth\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nAverage High Air \nTemperature \n(\u00b0F)\n14\n15\n21\n30\n41\n50\n54\n53\n47\n36\n28\n18\nAverage\nSnowfall\n(in)\n44\n40\n45\n36\n12\n1\nTrace\n0.1\n2\n18\n38\n46",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Pleistocene Epoch. 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 Jan Feb Mar Apr May Jun Jul Aug Sept Oct Nov Dec Months Air Temperature (\u00b0F) Air Temperature (\u00b0F) 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 Monthly Average High Air Temperatures 56 56 P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "List the galaxies in order from closest to Earth to farthest from Earth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_75_78.png",
+      "context": "Base your answers to questions 75 through 78 on the table below and on your knowledge of Earth science. \nThe table shows the velocities, in kilometers per second (km/s), for several galaxies, represented by letters A, \nB, C, D, and E, that are moving away from Earth. The vast majority of stars and galaxies in the universe are \nmoving away from our solar system. Scienti\ufb01 c evidence indicates that the farther away a galaxy is, the faster it is \nmoving away. \nVelocities of Galaxies \nMoving Away From Earth\nGalaxy\nVelocity \n(km/s)\nA\n61,000\nB\n15,000\nC\n1200\nD\n39,000\nE\n22,000",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a correct list as shown below. Closest to Earth: ____C____ ____B____ ____E____ ____D____ Farthest from Earth: ____A____ Note: Allow credit if the correct velocities are substituted for the letters."
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Identify the name of the theory for the formation of the universe that scientists developed after observing that most galaxies are moving away from each other.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_75_78.png",
+      "context": "Base your answers to questions 75 through 78 on the table below and on your knowledge of Earth science. \nThe table shows the velocities, in kilometers per second (km/s), for several galaxies, represented by letters A, \nB, C, D, and E, that are moving away from Earth. The vast majority of stars and galaxies in the universe are \nmoving away from our solar system. Scienti\ufb01 c evidence indicates that the farther away a galaxy is, the faster it is \nmoving away. \nVelocities of Galaxies \nMoving Away From Earth\nGalaxy\nVelocity \n(km/s)\nA\n61,000\nB\n15,000\nC\n1200\nD\n39,000\nE\n22,000",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the Big Bang theory or the Big Bang."
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify the evidence scientists use to determine that a galaxy is moving away from Earth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_75_78.png",
+      "context": "Base your answers to questions 75 through 78 on the table below and on your knowledge of Earth science. \nThe table shows the velocities, in kilometers per second (km/s), for several galaxies, represented by letters A, \nB, C, D, and E, that are moving away from Earth. The vast majority of stars and galaxies in the universe are \nmoving away from our solar system. Scienti\ufb01 c evidence indicates that the farther away a galaxy is, the faster it is \nmoving away. \nVelocities of Galaxies \nMoving Away From Earth\nGalaxy\nVelocity \n(km/s)\nA\n61,000\nB\n15,000\nC\n1200\nD\n39,000\nE\n22,000",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The Doppler effect shows a red shift in light. \u2014 Spectral lines are shifted toward the red end of the spectrum. \u2014 Wavelengths of the light from the galaxies appear to be longer. \u2014 Doppler effect \u2014 red shift Note: Do not allow credit for \u201ccosmic background radiation\u201d because, even though this is evidence for the Big Bang event, it is not used to determine that a galaxy is moving away from Earth."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "A star in one of these galaxies has a surface temperature of 8000 K and a luminosity of 10. Identify the stage and color of this star.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_75_78.png",
+      "context": "Base your answers to questions 75 through 78 on the table below and on your knowledge of Earth science. \nThe table shows the velocities, in kilometers per second (km/s), for several galaxies, represented by letters A, \nB, C, D, and E, that are moving away from Earth. The vast majority of stars and galaxies in the universe are \nmoving away from our solar system. Scienti\ufb01 c evidence indicates that the farther away a galaxy is, the faster it is \nmoving away. \nVelocities of Galaxies \nMoving Away From Earth\nGalaxy\nVelocity \n(km/s)\nA\n61,000\nB\n15,000\nC\n1200\nD\n39,000\nE\n22,000",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses are acceptable. Stage: main sequence or early stage Color: white"
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify the date represented by the data shown on the graph.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the graph below and on your knowledge of Earth science.\nThe graph shows the altitude of the Sun for a 24-hour period on a certain day of the year at four different\nlatitudes.\nAltitude of the Sun (degrees)\nAltitude of the Sun at Four Different Latitudes\nHour of the Day\n0\nmidnight\n90\n10\n20\n30\n40\n50\n60\n70\n80\n1\n2\n3\n4\n5\n6\n7\n8\n9 10 11\nnoon\n1\n2\n3\n4\n5\n6\n7\n8\n9 10 11\nmidnight\nam\npm\n23.5\u00b0 N\n66.5\u00b0 N\n0\u00b0\n90\u00b0 N",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 June 20 \u2014 June 21 \u2014 June 22 \u2014 summer solstice"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Identify the latitude that has the greatest intensity of insolation at approximately noon on this date, and describe the evidence shown on the graph to support your answer.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the graph below and on your knowledge of Earth science.\nThe graph shows the altitude of the Sun for a 24-hour period on a certain day of the year at four different\nlatitudes.\nAltitude of the Sun (degrees)\nAltitude of the Sun at Four Different Latitudes\nHour of the Day\n0\nmidnight\n90\n10\n20\n30\n40\n50\n60\n70\n80\n1\n2\n3\n4\n5\n6\n7\n8\n9 10 11\nnoon\n1\n2\n3\n4\n5\n6\n7\n8\n9 10 11\nmidnight\nam\npm\n23.5\u00b0 N\n66.5\u00b0 N\n0\u00b0\n90\u00b0 N",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 23.5\u00b0 N or Tropic of Cancer and acceptable evidence. Acceptable evidence includes, but is not limited to: \u2014 The graph shows the altitude of the Sun is greatest at 23.5\u00b0 N. \u2014 Sun is highest in the sky. \u2014 The Sun\u2019s altitude is 90\u00b0. \u2014 The Sun is directly overhead."
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Identify the compass direction toward which an observer\u2019s shadow would extend if the observer is located exactly at 90\u00b0 N at noon on this date.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the graph below and on your knowledge of Earth science.\nThe graph shows the altitude of the Sun for a 24-hour period on a certain day of the year at four different\nlatitudes.\nAltitude of the Sun (degrees)\nAltitude of the Sun at Four Different Latitudes\nHour of the Day\n0\nmidnight\n90\n10\n20\n30\n40\n50\n60\n70\n80\n1\n2\n3\n4\n5\n6\n7\n8\n9 10 11\nnoon\n1\n2\n3\n4\n5\n6\n7\n8\n9 10 11\nmidnight\nam\npm\n23.5\u00b0 N\n66.5\u00b0 N\n0\u00b0\n90\u00b0 N",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for south."
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "The photograph below shows the surface of the Moon as seen from Earth during the full moon phase. Identify the lettered position of Earth and the Moon when this full moon phase can be observed, and state the name of the eclipse that could occur at this position.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth in its orbit around the Sun and the Moon (M) in different positions in its orbit \naround Earth. Letters A through D represent four positions of Earth in its orbit. Earth is closest to the Sun near \nposition D and farthest from the Sun near position B.\nSun\nC\n(Not drawn to scale)\nA\nArctic\nCircle\nNorth \nPole\nEquator\nB\nM\nM\nM\nM\nD\n152.6 million km\n147.5 million km",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for lettered position D and lunar eclipse."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Identify the Northern Hemisphere season that is beginning at position A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth in its orbit around the Sun and the Moon (M) in different positions in its orbit \naround Earth. Letters A through D represent four positions of Earth in its orbit. Earth is closest to the Sun near \nposition D and farthest from the Sun near position B.\nSun\nC\n(Not drawn to scale)\nA\nArctic\nCircle\nNorth \nPole\nEquator\nB\nM\nM\nM\nM\nD\n152.6 million km\n147.5 million km",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for spring."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Explain why the gravitational attraction between the Sun and Earth increases as Earth moves from position C to position D.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth in its orbit around the Sun and the Moon (M) in different positions in its orbit \naround Earth. Letters A through D represent four positions of Earth in its orbit. Earth is closest to the Sun near \nposition D and farthest from the Sun near position B.\nSun\nC\n(Not drawn to scale)\nA\nArctic\nCircle\nNorth \nPole\nEquator\nB\nM\nM\nM\nM\nD\n152.6 million km\n147.5 million km",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Earth is getting closer to the Sun. \u2014 The distance between Earth and the Sun is decreasing. \u2014 Earth\u2019s orbit is elliptical, and position D is closer to the Sun."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Describe one piece of evidence shown by the diagram that indicates this is a heliocentric model. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2019/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth in its orbit around the Sun and the Moon (M) in different positions in its orbit \naround Earth. Letters A through D represent four positions of Earth in its orbit. Earth is closest to the Sun near \nposition D and farthest from the Sun near position B.\nSun\nC\n(Not drawn to scale)\nA\nArctic\nCircle\nNorth \nPole\nEquator\nB\nM\nM\nM\nM\nD\n152.6 million km\n147.5 million km",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The Sun is near the center of the diagram. \u2014 Earth orbits the Sun. \u2014 The small arrows by Earth indicate that Earth rotates. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    }
+  ]
+}

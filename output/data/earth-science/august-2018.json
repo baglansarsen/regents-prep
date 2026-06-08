@@ -1,0 +1,1076 @@
+{
+  "subject": "earth-science",
+  "session": "august-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a sundial positioned in New York State. During daylight, the shadow cast by the gnomon (pointer) moves across the disc, with the tip of the shadow pointing to the time of day. P.S./ a s describe above This motion of the gnomon\u2019s shadow on the sundial is mainly due to",
+      "choices": [
+        "Earth\u2019s rotation",
+        "Earth\u2019s revolution",
+        "the Sun\u2019s rotation",
+        "the Sun\u2019s revolution"
+      ],
+      "image": "/images/exams/earth-science/august-2018/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The formation of the planet Uranus is estimated to have occurred approximately",
+      "choices": [
+        "100,000 million years ago",
+        "2.0 billion years ago",
+        "4.6 billion years ago",
+        "13.7 billion years ago"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Compared to the Jovian planets in our solar system, the terrestrial planets have",
+      "choices": [
+        "less mass and are less dense",
+        "less mass and are more dense",
+        "more mass and are less dense",
+        "more mass and are more dense"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the constellation Leo that can be seen by an observer in New York State at midnight during March. as describe above Leo is not visible to this observer at midnight during September because",
+      "choices": [
+        "Leo has rotated on its axis",
+        "Leo has revolved in its orbit around the Sun",
+        "Earth has rotated on its axis",
+        "Earth has revolved in its orbit around the Sun"
+      ],
+      "image": "/images/exams/earth-science/august-2018/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "An observer in New York City measured the angle of insolation at solar noon each day. During which month did this observer see the noontime angle of insolation increase each day?",
+      "choices": [
+        "April",
+        "July",
+        "September",
+        "December"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The Coriolis effect occurs as a result of Earth\u2019s",
+      "choices": [
+        "rotation",
+        "revolution",
+        "tilted axis",
+        "magnetic \ufb01 eld"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "During the process of condensation, water vapor",
+      "choices": [
+        "releases 334 J/g of heat energy",
+        "releases 2260 J/g of heat energy",
+        "gains 334 J/g of heat energy",
+        "gains 2260 J/g of heat energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "In\ufb01ltration is generally greater than runoff where the land has a",
+      "choices": [
+        "gentle slope and permeable soil",
+        "gentle slope and impermeable bedrock",
+        "steep slope and permeable soil",
+        "steep slope and impermeable bedrock"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Nearly 90% of the water vapor that enters Earth\u2019s atmosphere comes from the evaporation of Earth\u2019s surface waters. Most of the remaining 10% is water vapor that enters the atmosphere through",
+      "choices": [
+        "precipitation from clouds",
+        "transpiration from plants",
+        "condensation within the troposphere",
+        "melting of polar ice caps"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "What is the relative humidity if the dry-bulb temperature is 26\u00b0C and the wet-bulb temperature is 18\u00b0C?",
+      "choices": [
+        "13%",
+        "33%",
+        "45%",
+        "51%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Most of the long-wave energy radiated from Earth and lost to space on a cloudless night is",
+      "choices": [
+        "ultraviolet",
+        "infrared",
+        "visible light",
+        "gamma rays"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "In addition to carbon dioxide, two other major greenhouse gases in Earth\u2019s atmosphere are",
+      "choices": [
+        "oxygen and nitrogen",
+        "oxygen and methane",
+        "water vapor and nitrogen",
+        "water vapor and methane"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The arrows in the diagram below represent the movement of air over a mountain. P.S./ as descr ibe above Clouds are forming on the windward side of this mountain because the air is",
+      "choices": [
+        "expanding and cooling to the dewpoint",
+        "expanding and warming to the dewpoint",
+        "compressing and cooling to the dewpoint",
+        "compressing and warming to the dewpoint"
+      ],
+      "image": "/images/exams/earth-science/august-2018/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The graph below shows the average monthly amount of insolation received throughout a year at four locations (A, B, C, and D) on Earth. as de scribe above Which line on the graph best represents the average monthly insolation received at the equator?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2018/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Earth\u2019s polar regions have cold, dry climates because the Sun\u2019s rays are at a",
+      "choices": [
+        "low angle, and upper atmospheric air is sinking",
+        "low angle, and upper atmospheric air is rising",
+        "high angle, and lower atmospheric air is sinking",
+        "high angle, and lower atmospheric air is rising"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Atmospheric transparency will increase when",
+      "choices": [
+        "volcanic eruptions occur",
+        "fog is produced",
+        "insolation is re\ufb02ected by clouds",
+        "precipitation removes dust particles from the air"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The existence of which group of organisms spans the shortest geologic time?",
+      "choices": [
+        "birds",
+        "humans",
+        "dinosaurs",
+        "placoderm \ufb01 sh"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which New York State geologic event occurred most recently?",
+      "choices": [
+        "Taconian orogeny",
+        "Grenville orogeny",
+        "formation of the Catskill delta",
+        "dome-like uplift of the Adirondack region"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The only dinosaur fossils found in New York State are footprints found on 210-million-year- old bedrock. In which New York State landscape region were these dinosaur fossils found?",
+      "choices": [
+        "Tug Hill Plateau",
+        "Newark Lowlands",
+        "Allegheny Plateau",
+        "Adirondack Mountains"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The \ufb01 rst P-wave of an earthquake travels 5600 kilometers from the epicenter and arrives at a seismic station at 10:05 a.m. At what time did this earthquake occur?",
+      "choices": [
+        "9:49 a.m.",
+        "9:56 a.m.",
+        "10:02 a.m.",
+        "10:14 a.m."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a New York State index fossil.as describe above What is the best classi\ufb01cation of this fossil, and during which geologic time period did the organism that produced this fossil exist?",
+      "choices": [
+        "Classi\ufb01 cation: Coral Geologic time period: Permian",
+        "Classi\ufb01 cation: Coral Geologic time period: Ordovician",
+        "Classi\ufb01 cation: Trilobite Geologic time period: Permian",
+        "Classi\ufb01 cation: Trilobite Geologic time period: Ordovician"
+      ],
+      "image": "/images/exams/earth-science/august-2018/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "As a quartz pebble is transported by a stream, the pebble will become more rounded as a result of",
+      "choices": [
+        "dissolving as water is running over the rock",
+        "abrasion by colliding with other rocks",
+        "deposition in well-sorted layers",
+        "resistance to weathering and erosion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which three minerals are most likely used in the construction of a house?",
+      "choices": [
+        "graphite, pyrite, and halite",
+        "garnet, galena, and sulfur",
+        "talc, amphibole, and \ufb02 uorite",
+        "selenite gypsum, dolomite, and muscovite mica"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The topographic map below shows a portion of a volcanic island in the Paci\ufb01c Ocean. Elevations are shown in feet. Letters A and B represent locations on Earth\u2019s surface. Locations A and B are 2.5 miles apart. P.S./ as describe a bove What is the approximate gradient from point A to point B on the island?",
+      "choices": [
+        "1000 ft/mi",
+        "1250 ft/mi",
+        "2000 ft/mi",
+        "2500 ft/mi"
+      ],
+      "image": "/images/exams/earth-science/august-2018/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which two rocks usually consist of only one mineral, but may contain additional minerals?",
+      "choices": [
+        "hornfels and diorite",
+        "quartzite and dunite",
+        "rock salt and basalt",
+        "gabbro and bituminous coal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which rock has never melted, but was produced by great heat and pressure, which distorted and rearranged its minerals?",
+      "choices": [
+        "siltstone",
+        "breccia",
+        "pegmatite",
+        "metaconglomerate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The map below shows a portion of the North Carolina coastline, including some of the Outer Banks. The Outer Banks is a string of narrow barrier islands consisting of well-sorted sand along the Atlantic Ocean coast. as descri be ab ove Which agent of erosion is primarily responsible for the formation of these barrier islands?",
+      "choices": [
+        "wave action",
+        "landslides",
+        "streams",
+        "glacial ice"
+      ],
+      "image": "/images/exams/earth-science/august-2018/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a magni\ufb01 ed view of a portion of a rock that can \ufb02oat if placed in water. as d Which terms best describe this rock?",
+      "choices": [
+        "non-crystalline and vesicular",
+        "coarse and non-vesicular",
+        "clastic and fragmental",
+        "foliated and banded"
+      ],
+      "image": "/images/exams/earth-science/august-2018/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "The map below shows three locations, labeled A, X, and B, on Earth\u2019s surface. P.S./ wor ld map , W est to Ea st, with latitu des an d lon git ude s Which table correctly indicates the solar times at locations A and B when it is 12 noon at location X? Location Solar Time A 6 a.m. B 9 a.m. ( 1 ) Location Solar Time A 6 a.m. B 3 p.m. ( 2 ) Location Solar Time A 6 p.m. B 9 a.m. ( 3 ) ________ Location Solar Time A 6 p.m. B 3 p.m. ( 4 ) ours",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which equation is used to determine the approximate rate of Earth\u2019s revolution?",
+      "choices": [
+        "Approximate rate of Earth\u2019s revolution \u0002 365 degrees divided by 360 days",
+        "Approximate rate of Earth\u2019s revolution \u0002 360 degr ees divided by 24 hours",
+        "Approximate rate of Earth\u2019s revolution \u0002 360 degr ees divided by 365 days",
+        "Approximate rate of Earth\u2019s revolution \u0002 24 degree s di vided by 360 hours"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Which cross section best represents a cold front? P.S./ warm, moist air traveling right direction; cold, dry air traveling up ( 1 ) cold, dry air t raveling right direction; warm, moist air traveling up direction ( 3 ) warm, moist air traveling up direction; cold, dry air traveling right direction ( 2 ) cold, dry air traveling up direction; warm, moist air traveling right direction ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The isolines on the map below show snowfall totals from a lake-effect storm that affected a portion of New York State. as described above c o m pass rose for map The surface winds that produced this storm came from which direction?",
+      "choices": [
+        "northwest",
+        "northeast",
+        "southeast",
+        "southwest"
+      ],
+      "image": "/images/exams/earth-science/august-2018/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "The photograph below shows Mount Rainier, a volcano in the state of Washington. P.S./ as described abo Which map best shows the complete stream drainage pattern for this mountain? ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Which table best represents the characteristics of the continental crust and the oceanic crust? Type of Crust Density (g/cm3) Composition Relative Thickness Continental 3.0 basaltic thicker Oceanic 2.7 granitic thinner ( 1 ) Type of Crust Density (g/cm3) Composition Relative Thickness Continental 3.0 granitic thicker Oceanic 2.7 basaltic thinner ( 2 ) Type of Crust Density (g/cm3) Composition Relative Thickness Continental 2.7 granitic thinner Oceanic 3.0 basaltic thicker ( 3 ) Type of Crust Density (g/cm3) Composition Relative Thickness Continental 2.7 granitic thicker Oceanic 3.0 basaltic thinner ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The map below shows the locations of some oil and gas \ufb01 elds in New York State. as described above Which type of bedrock contains these oil and gas deposits?",
+      "choices": [
+        "extrusive igneous rock",
+        "intrusive igneous rock",
+        "metamorphic rock",
+        "sedimentary rock"
+      ],
+      "image": "/images/exams/earth-science/august-2018/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which map information indicates that the wind velocity is greater at location Z than at location X?",
+      "choices": [
+        "Location Z is closer to the ocean.",
+        "The isobars are closer together at Z.",
+        "The latitude of location X is greater.",
+        "Location X is closer to the front."
+      ],
+      "image": "/images/exams/earth-science/august-2018/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the map below and on your knowledge of Earth science. \nThe map shows typical weather systems over North America. Letters X, Y, and Z represent locations on the map. \nThe isobars on the map are measured in millibars (mb).\nP.S./E. Sci.\u2013Aug. \u201918 \n[10]\na\ns de\nscri\nbed \nabov\ne",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which type of front extends northwest from location Y?",
+      "choices": [
+        "warm front",
+        "cold front",
+        "occluded front",
+        "stationary front"
+      ],
+      "image": "/images/exams/earth-science/august-2018/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the map below and on your knowledge of Earth science. \nThe map shows typical weather systems over North America. Letters X, Y, and Z represent locations on the map. \nThe isobars on the map are measured in millibars (mb).\nP.S./E. Sci.\u2013Aug. \u201918 \n[10]\na\ns de\nscri\nbed \nabov\ne",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "written",
+      "text": "Which map best shows the locations for the centers of high pressure (H) and low pressure (L)? a s de scri bed abov e a s de scri bed abov e a s de scri bed abov e a s de scri bed abov e ( 1 ) ( 3 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the map below and on your knowledge of Earth science. \nThe map shows typical weather systems over North America. Letters X, Y, and Z represent locations on the map. \nThe isobars on the map are measured in millibars (mb).\nP.S./E. Sci.\u2013Aug. \u201918 \n[10]\na\ns de\nscri\nbed \nabov\ne",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Supermoon total lunar eclipses are celestial events that",
+      "choices": [
+        "are random occurrences",
+        "are predictable",
+        "will never happen again after 2033",
+        "will happen every full Moon"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 39 through 41 on the passage below and on your knowledge of Earth Science.\nSupermoon Eclipse\nOn September 27, 2015, a rare total lunar eclipse of a supermoon occurred. \nA supermoon occurs when the entire lighted half of the Moon faces Earth (full Moon \nphase) and the Moon is at its closest point to Earth in its orbit. At this time, the Moon \nwill appear 14% larger and 30% brighter than normal. Supermoon events are rare, \nbut a total lunar eclipse during a supermoon is even more rare. There have been only \nsix total supermoon lunar eclipses since 1900. The next one will not happen until 2033.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the Moon in four positions, A through D, in its orbit around Earth. as described abov e At which position in its orbit was the Moon located during the 2015 supermoon total lunar eclipse?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2018/q40.png",
+      "context": "Base your answers to questions 39 through 41 on the passage below and on your knowledge of Earth Science.\nSupermoon Eclipse\nOn September 27, 2015, a rare total lunar eclipse of a supermoon occurred. \nA supermoon occurs when the entire lighted half of the Moon faces Earth (full Moon \nphase) and the Moon is at its closest point to Earth in its orbit. At this time, the Moon \nwill appear 14% larger and 30% brighter than normal. Supermoon events are rare, \nbut a total lunar eclipse during a supermoon is even more rare. There have been only \nsix total supermoon lunar eclipses since 1900. The next one will not happen until 2033.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The time it took for the Moon to go from this supermoon to the next full moon phase was",
+      "choices": [
+        "15 days",
+        "27.3 days",
+        "29.5 days",
+        "365 days"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 39 through 41 on the passage below and on your knowledge of Earth Science.\nSupermoon Eclipse\nOn September 27, 2015, a rare total lunar eclipse of a supermoon occurred. \nA supermoon occurs when the entire lighted half of the Moon faces Earth (full Moon \nphase) and the Moon is at its closest point to Earth in its orbit. At this time, the Moon \nwill appear 14% larger and 30% brighter than normal. Supermoon events are rare, \nbut a total lunar eclipse during a supermoon is even more rare. There have been only \nsix total supermoon lunar eclipses since 1900. The next one will not happen until 2033.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which layers of Earth\u2019s interior are represented by letters A and B?",
+      "choices": [
+        "A is the crust and B is the rigid mantle.",
+        "A is the lithosphere and B is the asthenosphere.",
+        "A is the asthenosphere and B is the crust.",
+        "A is the rigid mantle and B is the lithosphere."
+      ],
+      "image": "/images/exams/earth-science/august-2018/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the diagram and graph below and on your knowledge of \nEarth science. The diagram represents a portion of Earth\u2019s interior. Letters A, B, and C represent interior layers. \nThe graph shows the velocity of P-waves and S-waves at various depths in Earth\u2019s interior.\nas described above",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "What is the approximate velocity in kilometers/second of the P-waves at a depth of 1000 kilometers?",
+      "choices": [
+        "6.2 km/s",
+        "7.2 km/s",
+        "11.3 km/s",
+        "13.8 km/s"
+      ],
+      "image": "/images/exams/earth-science/august-2018/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the diagram and graph below and on your knowledge of \nEarth science. The diagram represents a portion of Earth\u2019s interior. Letters A, B, and C represent interior layers. \nThe graph shows the velocity of P-waves and S-waves at various depths in Earth\u2019s interior.\nas described above",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Some locations within layer C have an inferred density of",
+      "choices": [
+        "3.4 g/cm3",
+        "5.6 g/cm3",
+        "11.5 g/cm3",
+        "12.9 g/cm3"
+      ],
+      "image": "/images/exams/earth-science/august-2018/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the diagram and graph below and on your knowledge of \nEarth science. The diagram represents a portion of Earth\u2019s interior. Letters A, B, and C represent interior layers. \nThe graph shows the velocity of P-waves and S-waves at various depths in Earth\u2019s interior.\nas described above",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which is a possible surface temperature of this star at point 2?",
+      "choices": [
+        "3000 K",
+        "5000 K",
+        "7000 K",
+        "10,000 K"
+      ],
+      "image": "/images/exams/earth-science/august-2018/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the graph below and on your knowledge of Earth science. \nThe graph shows the changes in a single star\u2019s luminosity and relative temperature from its formation (point 1) to \nits late stage (point 4) relative to the Sun.\nP.S./E. Sci.\u2013Aug. \u201918 \n[14]\nas described above",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Between points 1 and 3, this star is visible to observers on Earth because it emits light energy. This energy is released by the process of nuclear fusion when",
+      "choices": [
+        "dust collides with the star",
+        "dust is broken apart by radiation",
+        "lighter elements combine to form heavier elements",
+        "heavier elements are broken down to form lighter elements"
+      ],
+      "image": "/images/exams/earth-science/august-2018/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the graph below and on your knowledge of Earth science. \nThe graph shows the changes in a single star\u2019s luminosity and relative temperature from its formation (point 1) to \nits late stage (point 4) relative to the Sun.\nP.S./E. Sci.\u2013Aug. \u201918 \n[14]\nas described above",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "written",
+      "text": "Which table correctly classi\ufb01es this star at points 3 and 4? Point Classi\ufb01 cation 3 Giant 4 White Dwarf ( 1 ) Point Classi\ufb01 cation 3 White Dwarf 4 Supergiant ( 2 ) Point Classi\ufb01 cation 3 Supergiant 4 Main Sequence ( 3 ) Point Classi\ufb01 cation 3 Giant 4 Main Sequence ( 4 ) GO ON TO THE NEXT PAGE \u27af",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the graph below and on your knowledge of Earth science. \nThe graph shows the changes in a single star\u2019s luminosity and relative temperature from its formation (point 1) to \nits late stage (point 4) relative to the Sun.\nP.S./E. Sci.\u2013Aug. \u201918 \n[14]\nas described above",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The streambank at location B is steeper than the streambank at location A because the water near location B is moving",
+      "choices": [
+        "slower than the water near location A, causing more erosion",
+        "slower than the water near location A, causing more deposition",
+        "faster than the water near location A, causing more erosion",
+        "faster than the water near location A, causing more deposition"
+      ],
+      "image": "/images/exams/earth-science/august-2018/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the photograph below and on your knowledge of Earth \nscience. The photograph shows a meandering stream in a wooded area. Points A and B represent locations on the \nstreambanks. Letter X represents a \ufb02at area near the stream.\na\ns\n described above",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The area labeled letter X represents a portion of a",
+      "choices": [
+        "delta",
+        "sand dune",
+        "\ufb01 nger lake",
+        "\ufb02 oodplain"
+      ],
+      "image": "/images/exams/earth-science/august-2018/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the photograph below and on your knowledge of Earth \nscience. The photograph shows a meandering stream in a wooded area. Points A and B represent locations on the \nstreambanks. Letter X represents a \ufb02at area near the stream.\na\ns\n described above",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Most of the particles deposited where the stream velocity decreases from 50 centimeters per second to 5 centimeters per second are",
+      "choices": [
+        "small cobbles and large pebbles",
+        "small pebbles and large sand",
+        "small sand and large silt",
+        "small silt and large clay"
+      ],
+      "image": "/images/exams/earth-science/august-2018/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the photograph below and on your knowledge of Earth \nscience. The photograph shows a meandering stream in a wooded area. Points A and B represent locations on the \nstreambanks. Letter X represents a \ufb02at area near the stream.\na\ns\n described above",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State the number of degrees that Earth\u2019s axis is tilted from a line perpendicular to the plane of its orbit at each lettered location.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the diagram below and on your knowledge of Earth science. \nIn the diagram, letters A, B, C, and D represent Earth\u2019s location on the \ufb01rst day of the four seasons as it orbits the \nSun. Aphelion (Earth\u2019s farthest distance from the Sun) and perihelion (Earth\u2019s closest distance to the Sun) are \nlabeled to show the approximate positions where they occur in Earth\u2019s orbit. The dashed lines represent Earth\u2019s \naxis, and the North Pole is labeled N.\nas \nd\nescri be d a\nb\nove\nC\nN\nN\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify the season in New York State during which Earth is at perihelion.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the diagram below and on your knowledge of Earth science. \nIn the diagram, letters A, B, C, and D represent Earth\u2019s location on the \ufb01rst day of the four seasons as it orbits the \nSun. Aphelion (Earth\u2019s farthest distance from the Sun) and perihelion (Earth\u2019s closest distance to the Sun) are \nlabeled to show the approximate positions where they occur in Earth\u2019s orbit. The dashed lines represent Earth\u2019s \naxis, and the North Pole is labeled N.\nas \nd\nescri be d a\nb\nove\nC\nN\nN\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "State the number of hours of daylight that an observer in New York State will experience when Earth is at position D.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the diagram below and on your knowledge of Earth science. \nIn the diagram, letters A, B, C, and D represent Earth\u2019s location on the \ufb01rst day of the four seasons as it orbits the \nSun. Aphelion (Earth\u2019s farthest distance from the Sun) and perihelion (Earth\u2019s closest distance to the Sun) are \nlabeled to show the approximate positions where they occur in Earth\u2019s orbit. The dashed lines represent Earth\u2019s \naxis, and the North Pole is labeled N.\nas \nd\nescri be d a\nb\nove\nC\nN\nN\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the name of the star that is aligned with Earth\u2019s axis above the North Pole.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the diagram below and on your knowledge of Earth science. \nIn the diagram, letters A, B, C, and D represent Earth\u2019s location on the \ufb01rst day of the four seasons as it orbits the \nSun. Aphelion (Earth\u2019s farthest distance from the Sun) and perihelion (Earth\u2019s closest distance to the Sun) are \nlabeled to show the approximate positions where they occur in Earth\u2019s orbit. The dashed lines represent Earth\u2019s \naxis, and the North Pole is labeled N.\nas \nd\nescri be d a\nb\nove\nC\nN\nN\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "In the \ufb01 rst line of the passage, referring to Cambrian as an \u201cera\u201d is scienti\ufb01 cally incorrect. State the unit of geologic time that should be substituted for the word \u201cera.\u201d",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the passage, chart of de\ufb01nitions and photograph below, and \non your knowledge of Earth science. The passage is an excerpt from the 1994 novel Inca Gold, by Clive Cussler, \nwhich describes the formation of a sinkhole in the Andes Mountains of South America. The chart of de\ufb01 nitions \nhelps the reader understand some concepts in the passage. The photograph shows a sinkhole that formed in a \nSouth American village.\nExcerpt from Inca Gold\n\u2026The sinkhole\u2019s early history began in the Cambrian era when the region was part \nof an ancient sea. Through the following geological eras, thousands of generations of \nshell\ufb01sh and coral lived and died, their skeletal carcasses forming an enormous mass \nof lime and sand that compressed into a limestone and dolomite layer two kilometers \nthick. Then, beginning sixty-\ufb01ve million years ago, an intense earth uplifting occurred \nthat raised the Andes Mountains to their present height. As the rain ran down from the \nmountains it formed a great underground water table that slowly began dissolving the \nlimestone. Where it collected and pooled, the water ate upward until the land surface \ncollapsed and created the sinkhole.\u2026\nP.S./E. Sci.\u2013Aug. \u201918 \n[18]\nChart of De\ufb01 nitions\nSinkhole\nA natural depression or hole in the ground surface caused by \nsome form of collapse of the bedrock beneath.\nMost are caused when slightly acidic groundwater chemically \nbreaks down the carbonate rocks or the carbonate cement holding \nthe rock particles together. The removal of the carbonates by \ngroundwater gradually forms a hollow space or cavern under the \nsurface layer. As the roof of the cavern weakens, it sometimes \ncollapses, forming a sinkhole.\nLime\nA general term for material containing the element calcium that \ncombined with oxygen.\nPhotograph of a Sinkholeas described\n\nP.S./E. Sci.\u2013Aug. \u201918 \n[19] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify one group of animals that became extinct at the time the passage states that intense uplifting of the Andes Mountains began.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the passage, chart of de\ufb01nitions and photograph below, and \non your knowledge of Earth science. The passage is an excerpt from the 1994 novel Inca Gold, by Clive Cussler, \nwhich describes the formation of a sinkhole in the Andes Mountains of South America. The chart of de\ufb01 nitions \nhelps the reader understand some concepts in the passage. The photograph shows a sinkhole that formed in a \nSouth American village.\nExcerpt from Inca Gold\n\u2026The sinkhole\u2019s early history began in the Cambrian era when the region was part \nof an ancient sea. Through the following geological eras, thousands of generations of \nshell\ufb01sh and coral lived and died, their skeletal carcasses forming an enormous mass \nof lime and sand that compressed into a limestone and dolomite layer two kilometers \nthick. Then, beginning sixty-\ufb01ve million years ago, an intense earth uplifting occurred \nthat raised the Andes Mountains to their present height. As the rain ran down from the \nmountains it formed a great underground water table that slowly began dissolving the \nlimestone. Where it collected and pooled, the water ate upward until the land surface \ncollapsed and created the sinkhole.\u2026\nP.S./E. Sci.\u2013Aug. \u201918 \n[18]\nChart of De\ufb01 nitions\nSinkhole\nA natural depression or hole in the ground surface caused by \nsome form of collapse of the bedrock beneath.\nMost are caused when slightly acidic groundwater chemically \nbreaks down the carbonate rocks or the carbonate cement holding \nthe rock particles together. The removal of the carbonates by \ngroundwater gradually forms a hollow space or cavern under the \nsurface layer. As the roof of the cavern weakens, it sometimes \ncollapses, forming a sinkhole.\nLime\nA general term for material containing the element calcium that \ncombined with oxygen.\nPhotograph of a Sinkholeas described\n\nP.S./E. Sci.\u2013Aug. \u201918 \n[19] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Using chemical symbols, state the chemical composition of the mineral found in limestone.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the passage, chart of de\ufb01nitions and photograph below, and \non your knowledge of Earth science. The passage is an excerpt from the 1994 novel Inca Gold, by Clive Cussler, \nwhich describes the formation of a sinkhole in the Andes Mountains of South America. The chart of de\ufb01 nitions \nhelps the reader understand some concepts in the passage. The photograph shows a sinkhole that formed in a \nSouth American village.\nExcerpt from Inca Gold\n\u2026The sinkhole\u2019s early history began in the Cambrian era when the region was part \nof an ancient sea. Through the following geological eras, thousands of generations of \nshell\ufb01sh and coral lived and died, their skeletal carcasses forming an enormous mass \nof lime and sand that compressed into a limestone and dolomite layer two kilometers \nthick. Then, beginning sixty-\ufb01ve million years ago, an intense earth uplifting occurred \nthat raised the Andes Mountains to their present height. As the rain ran down from the \nmountains it formed a great underground water table that slowly began dissolving the \nlimestone. Where it collected and pooled, the water ate upward until the land surface \ncollapsed and created the sinkhole.\u2026\nP.S./E. Sci.\u2013Aug. \u201918 \n[18]\nChart of De\ufb01 nitions\nSinkhole\nA natural depression or hole in the ground surface caused by \nsome form of collapse of the bedrock beneath.\nMost are caused when slightly acidic groundwater chemically \nbreaks down the carbonate rocks or the carbonate cement holding \nthe rock particles together. The removal of the carbonates by \ngroundwater gradually forms a hollow space or cavern under the \nsurface layer. As the roof of the cavern weakens, it sometimes \ncollapses, forming a sinkhole.\nLime\nA general term for material containing the element calcium that \ncombined with oxygen.\nPhotograph of a Sinkholeas described\n\nP.S./E. Sci.\u2013Aug. \u201918 \n[19] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Describe the chemical weathering that contributes to the formation of sinkholes.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the passage, chart of de\ufb01nitions and photograph below, and \non your knowledge of Earth science. The passage is an excerpt from the 1994 novel Inca Gold, by Clive Cussler, \nwhich describes the formation of a sinkhole in the Andes Mountains of South America. The chart of de\ufb01 nitions \nhelps the reader understand some concepts in the passage. The photograph shows a sinkhole that formed in a \nSouth American village.\nExcerpt from Inca Gold\n\u2026The sinkhole\u2019s early history began in the Cambrian era when the region was part \nof an ancient sea. Through the following geological eras, thousands of generations of \nshell\ufb01sh and coral lived and died, their skeletal carcasses forming an enormous mass \nof lime and sand that compressed into a limestone and dolomite layer two kilometers \nthick. Then, beginning sixty-\ufb01ve million years ago, an intense earth uplifting occurred \nthat raised the Andes Mountains to their present height. As the rain ran down from the \nmountains it formed a great underground water table that slowly began dissolving the \nlimestone. Where it collected and pooled, the water ate upward until the land surface \ncollapsed and created the sinkhole.\u2026\nP.S./E. Sci.\u2013Aug. \u201918 \n[18]\nChart of De\ufb01 nitions\nSinkhole\nA natural depression or hole in the ground surface caused by \nsome form of collapse of the bedrock beneath.\nMost are caused when slightly acidic groundwater chemically \nbreaks down the carbonate rocks or the carbonate cement holding \nthe rock particles together. The removal of the carbonates by \ngroundwater gradually forms a hollow space or cavern under the \nsurface layer. As the roof of the cavern weakens, it sometimes \ncollapses, forming a sinkhole.\nLime\nA general term for material containing the element calcium that \ncombined with oxygen.\nPhotograph of a Sinkholeas described\n\nP.S./E. Sci.\u2013Aug. \u201918 \n[19] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "List the letters E, H, and K to indicate the correct order of rock unit formation, from oldest to youngest, that formed this portion of Earth\u2019s crust.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the geologic cross section below and on your knowledge \nof Earth science. The cross section represents rock units, labeled A through K, that have not been overturned. \nTwo unconformities and a volcanic ash layer are indicated.\na\ns\n \nd\ne\nscr\nibed above",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify two processes that most likely caused the formation of both unconformities.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the geologic cross section below and on your knowledge \nof Earth science. The cross section represents rock units, labeled A through K, that have not been overturned. \nTwo unconformities and a volcanic ash layer are indicated.\na\ns\n \nd\ne\nscr\nibed above",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Identify one metamorphic rock that most likely formed within rock unit G at the boundary of rock unit K.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the geologic cross section below and on your knowledge \nof Earth science. The cross section represents rock units, labeled A through K, that have not been overturned. \nTwo unconformities and a volcanic ash layer are indicated.\na\ns\n \nd\ne\nscr\nibed above",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "On the map in your answer booklet, complete the 30-foot water depth isoline from point W to point X.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the \ufb01eld map in your answer booklet and on your \nknowledge of Earth science. The map shows the depth of Cuba Lake, located in New York State at latitude 42\u00b014\u2019 N, \nlongitude 78\u00b018\u2019 W. Isoline values indicate water depth, in feet. Points A and B represent locations on the \nshoreline of Cuba Lake. Points W, X, Y, and Z represent locations on the bottom of the lake. The 30-foot isoline \nhas been partially drawn.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a pro\ufb01le of the bottom of Cuba Lake from point A to point B. Plot each point where an isoline showing depth is crossed by line AB. Connect the plots with a line, starting at A and ending at B, to complete the pro\ufb01le.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the \ufb01eld map in your answer booklet and on your \nknowledge of Earth science. The map shows the depth of Cuba Lake, located in New York State at latitude 42\u00b014\u2019 N, \nlongitude 78\u00b018\u2019 W. Isoline values indicate water depth, in feet. Points A and B represent locations on the \nshoreline of Cuba Lake. Points W, X, Y, and Z represent locations on the bottom of the lake. The 30-foot isoline \nhas been partially drawn.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "State the compass direction and distance in feet (ft) from point Y to point Z.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the \ufb01eld map in your answer booklet and on your \nknowledge of Earth science. The map shows the depth of Cuba Lake, located in New York State at latitude 42\u00b014\u2019 N, \nlongitude 78\u00b018\u2019 W. Isoline values indicate water depth, in feet. Points A and B represent locations on the \nshoreline of Cuba Lake. Points W, X, Y, and Z represent locations on the bottom of the lake. The 30-foot isoline \nhas been partially drawn.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Identify the New York State landscape region where Cuba Lake is located.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the \ufb01eld map in your answer booklet and on your \nknowledge of Earth science. The map shows the depth of Cuba Lake, located in New York State at latitude 42\u00b014\u2019 N, \nlongitude 78\u00b018\u2019 W. Isoline values indicate water depth, in feet. Points A and B represent locations on the \nshoreline of Cuba Lake. Points W, X, Y, and Z represent locations on the bottom of the lake. The 30-foot isoline \nhas been partially drawn.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify the name of Pluto\u2019s moon that most likely has an orbit farthest from Pluto. Explain how the data indicate that this moon\u2019s orbit has the greatest distance from Pluto.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the table below and on your knowledge of Earth science. \nThe data table lists some information about the dwarf planet Pluto, which revolves around our Sun, and the \ufb01 ve \nknown moons that orbit Pluto.\nData for Dwarf Planet Pluto and Its Five Moons\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\nPeriod of \nObject \nName\nClassi\ufb01 cation\nRevolution in \nEarth Days \nEccentricity\nof Orbit\nDiameter\n(km)\n(d)\nPluto\nDwarf Planet\n90,511.4 \n(247.8 years)\n0.2488\n \n2370\nCharon\nMoon\n6.4\n0.0022\n \n1208\nStyx\nMoon\n20.2\n0.0058\n10 to 15 *\nNix\nMoon\n24.9\n0.0020\n \n40\nKerberos\nMoon\n32.2\n0.0033\n13 to 34 *\nHydra\nMoon\n38.2\n0.0059\n33 to 43 *\n* There is a range in diameters for these moons due to their irregular shapes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Describe the shape of the orbit of Pluto and the orbits of its \ufb01ve moons.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the table below and on your knowledge of Earth science. \nThe data table lists some information about the dwarf planet Pluto, which revolves around our Sun, and the \ufb01 ve \nknown moons that orbit Pluto.\nData for Dwarf Planet Pluto and Its Five Moons\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\nPeriod of \nObject \nName\nClassi\ufb01 cation\nRevolution in \nEarth Days \nEccentricity\nof Orbit\nDiameter\n(km)\n(d)\nPluto\nDwarf Planet\n90,511.4 \n(247.8 years)\n0.2488\n \n2370\nCharon\nMoon\n6.4\n0.0022\n \n1208\nStyx\nMoon\n20.2\n0.0058\n10 to 15 *\nNix\nMoon\n24.9\n0.0020\n \n40\nKerberos\nMoon\n32.2\n0.0033\n13 to 34 *\nHydra\nMoon\n38.2\n0.0059\n33 to 43 *\n* There is a range in diameters for these moons due to their irregular shapes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Explain why Pluto and its \ufb01ve moons are considered to be part of our solar system.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the table below and on your knowledge of Earth science. \nThe data table lists some information about the dwarf planet Pluto, which revolves around our Sun, and the \ufb01 ve \nknown moons that orbit Pluto.\nData for Dwarf Planet Pluto and Its Five Moons\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\nPeriod of \nObject \nName\nClassi\ufb01 cation\nRevolution in \nEarth Days \nEccentricity\nof Orbit\nDiameter\n(km)\n(d)\nPluto\nDwarf Planet\n90,511.4 \n(247.8 years)\n0.2488\n \n2370\nCharon\nMoon\n6.4\n0.0022\n \n1208\nStyx\nMoon\n20.2\n0.0058\n10 to 15 *\nNix\nMoon\n24.9\n0.0020\n \n40\nKerberos\nMoon\n32.2\n0.0033\n13 to 34 *\nHydra\nMoon\n38.2\n0.0059\n33 to 43 *\n* There is a range in diameters for these moons due to their irregular shapes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Describe two characteristics of the circulation pattern of the surface winds around the center of the low-pressure area represented on the map.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the passage and map below and on your knowledge of \nEarth science. The map shows a satellite image of a nor\u2019easter that in\ufb02uenced the weather of the northeastern \nUnited States. The white areas represent clouds associated with this storm system. The locations of North Carolina \nand Albany, New York, are labeled on the map. The storm\u2019s low-pressure center is represented by letter L. \nLetters cP and mT represent two air masses.\nNor\u2019easters\nA nor\u2019easter is a large, low-pressure storm system that moves along the east coast \nof the United States. The wind over the land blows generally from the northeast as the \ncenter of the low passes by a location, hence the name nor\u2019easter. Due to the circulation \nof winds around the center of the low-pressure system, large amounts of precipitation \noccur as moist air is carried from the ocean to the land. These storms usually intensify \noff of the North Carolina coast as they track toward the northeast.\nP.S./E. Sci.\u2013Aug. \u201918 \n[22]\nas des\ncr\ni\nbe\nd abo\nve",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Circle the terms that best describe the relative moisture and relative temperature characteristics of the mT air mass compared to the cP air mass shown on the map.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the passage and map below and on your knowledge of \nEarth science. The map shows a satellite image of a nor\u2019easter that in\ufb02uenced the weather of the northeastern \nUnited States. The white areas represent clouds associated with this storm system. The locations of North Carolina \nand Albany, New York, are labeled on the map. The storm\u2019s low-pressure center is represented by letter L. \nLetters cP and mT represent two air masses.\nNor\u2019easters\nA nor\u2019easter is a large, low-pressure storm system that moves along the east coast \nof the United States. The wind over the land blows generally from the northeast as the \ncenter of the low passes by a location, hence the name nor\u2019easter. Due to the circulation \nof winds around the center of the low-pressure system, large amounts of precipitation \noccur as moist air is carried from the ocean to the land. These storms usually intensify \noff of the North Carolina coast as they track toward the northeast.\nP.S./E. Sci.\u2013Aug. \u201918 \n[22]\nas des\ncr\ni\nbe\nd abo\nve",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "The map below shows some of the principal storm tracks across the United States and the names of these storm tracks. as desc ribed above Identify the name of the storm track that this nor\u2019easter most closely followed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the passage and map below and on your knowledge of \nEarth science. The map shows a satellite image of a nor\u2019easter that in\ufb02uenced the weather of the northeastern \nUnited States. The white areas represent clouds associated with this storm system. The locations of North Carolina \nand Albany, New York, are labeled on the map. The storm\u2019s low-pressure center is represented by letter L. \nLetters cP and mT represent two air masses.\nNor\u2019easters\nA nor\u2019easter is a large, low-pressure storm system that moves along the east coast \nof the United States. The wind over the land blows generally from the northeast as the \ncenter of the low passes by a location, hence the name nor\u2019easter. Due to the circulation \nof winds around the center of the low-pressure system, large amounts of precipitation \noccur as moist air is carried from the ocean to the land. These storms usually intensify \noff of the North Carolina coast as they track toward the northeast.\nP.S./E. Sci.\u2013Aug. \u201918 \n[22]\nas des\ncr\ni\nbe\nd abo\nve",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "The table below shows weather conditions recorded in Albany, New York, at the time that the satellite image was taken. Weather Conditions Dewpoint 22\u00b0F Barometric Pressure 988.0 mb Cloud Cover 100% Present Weather Snow On the station model in your answer booklet, use the correct symbols and proper format to indicate the four conditions in the table.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the passage and map below and on your knowledge of \nEarth science. The map shows a satellite image of a nor\u2019easter that in\ufb02uenced the weather of the northeastern \nUnited States. The white areas represent clouds associated with this storm system. The locations of North Carolina \nand Albany, New York, are labeled on the map. The storm\u2019s low-pressure center is represented by letter L. \nLetters cP and mT represent two air masses.\nNor\u2019easters\nA nor\u2019easter is a large, low-pressure storm system that moves along the east coast \nof the United States. The wind over the land blows generally from the northeast as the \ncenter of the low passes by a location, hence the name nor\u2019easter. Due to the circulation \nof winds around the center of the low-pressure system, large amounts of precipitation \noccur as moist air is carried from the ocean to the land. These storms usually intensify \noff of the North Carolina coast as they track toward the northeast.\nP.S./E. Sci.\u2013Aug. \u201918 \n[22]\nas des\ncr\ni\nbe\nd abo\nve",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Identify one weather instrument that was most likely used to determine the dewpoint at Albany, New York.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the passage and map below and on your knowledge of \nEarth science. The map shows a satellite image of a nor\u2019easter that in\ufb02uenced the weather of the northeastern \nUnited States. The white areas represent clouds associated with this storm system. The locations of North Carolina \nand Albany, New York, are labeled on the map. The storm\u2019s low-pressure center is represented by letter L. \nLetters cP and mT represent two air masses.\nNor\u2019easters\nA nor\u2019easter is a large, low-pressure storm system that moves along the east coast \nof the United States. The wind over the land blows generally from the northeast as the \ncenter of the low passes by a location, hence the name nor\u2019easter. Due to the circulation \nof winds around the center of the low-pressure system, large amounts of precipitation \noccur as moist air is carried from the ocean to the land. These storms usually intensify \noff of the North Carolina coast as they track toward the northeast.\nP.S./E. Sci.\u2013Aug. \u201918 \n[22]\nas des\ncr\ni\nbe\nd abo\nve",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a line graph by plotting the data for the mass of carbon-14 in the sample for each half-life shown on the data table. Connect the plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_74_76.png",
+      "context": "Base your answers to questions 74 through 76 on the data table below and on your knowledge of Earth \nscience. The data table shows the mass of a sample of radioactive carbon-14 remaining after each half-life.\nData Table\nNumber of Half-lives\nMass of Carbon-14 (g)\n0\n64\n1\n32\n2\n16\n3\n8\n4\n4\n5\n2\n6\n1",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Identify the stable disintegration product of the radioactive isotope carbon-14.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_74_76.png",
+      "context": "Base your answers to questions 74 through 76 on the data table below and on your knowledge of Earth \nscience. The data table shows the mass of a sample of radioactive carbon-14 remaining after each half-life.\nData Table\nNumber of Half-lives\nMass of Carbon-14 (g)\n0\n64\n1\n32\n2\n16\n3\n8\n4\n4\n5\n2\n6\n1",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Determine the number of grams of carbon-14 remaining in this sample at 17,100 years.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_74_76.png",
+      "context": "Base your answers to questions 74 through 76 on the data table below and on your knowledge of Earth \nscience. The data table shows the mass of a sample of radioactive carbon-14 remaining after each half-life.\nData Table\nNumber of Half-lives\nMass of Carbon-14 (g)\n0\n64\n1\n32\n2\n16\n3\n8\n4\n4\n5\n2\n6\n1",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify the water depth range and the soil depth range, in meters, that have the same average maximum temperature of 12.5\u00b0C.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_77_79.png",
+      "context": "Base your answers to questions 77 through 79 on the data tables below and on your knowledge of Earth \nscience. Data table 1 shows the average maximum and average minimum water temperatures at different \ndepths in Lake Michigan. Data table 2 shows the average maximum and average minimum land temperatures at \ndifferent depths in soil at St. Paul Minnesota (MN).\nTable 1\nWater in Lake Michigan, 45\u00b0 N\nWater\nDepth Range\n(m)\nAverage Tem\nMaximum \n(Occurs in \nSummer)\nperature (\u00b0C)\nMinimum \n(Occurs in \nWinter)\n0 \u2013 10\n24.0\n4.0\n10 \u2013 20\n19.5\n4.0\n20 \u2013 30\n12.5\n4.0\n30 \u2013 40\n7.5\n4.0\n40 \u2013 60\n5.5\n4.0\n60 \u2013 110\n4.5\n4.0\n110 \u2013 150\n4.0\n4.0\nTable 2\nLand in St. Paul, MN, 45\u00b0 N\nSoil\nDepth Range\n(m)\nAverage Tem\nMaximum \n(Occurs in \nSummer)\nperature (\u00b0C)\nMinimum \n(Occurs in \nWinter)\n0 \u2013 0.1\n25.5\n\u20136.0\n0.1 \u2013 1\n23.0\n\u20131.5\n1 \u2013 2\n19.5\n2.0\n2 \u2013 3\n16.0\n4.5\n3 \u2013 4\n13.5\n7.0\n4 \u2013 5\n12.5\n8.5\n5 \u2013 6\n11.0\n10.0",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Describe the general relationship between depth and average temperature for both water and soil in the summer.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_77_79.png",
+      "context": "Base your answers to questions 77 through 79 on the data tables below and on your knowledge of Earth \nscience. Data table 1 shows the average maximum and average minimum water temperatures at different \ndepths in Lake Michigan. Data table 2 shows the average maximum and average minimum land temperatures at \ndifferent depths in soil at St. Paul Minnesota (MN).\nTable 1\nWater in Lake Michigan, 45\u00b0 N\nWater\nDepth Range\n(m)\nAverage Tem\nMaximum \n(Occurs in \nSummer)\nperature (\u00b0C)\nMinimum \n(Occurs in \nWinter)\n0 \u2013 10\n24.0\n4.0\n10 \u2013 20\n19.5\n4.0\n20 \u2013 30\n12.5\n4.0\n30 \u2013 40\n7.5\n4.0\n40 \u2013 60\n5.5\n4.0\n60 \u2013 110\n4.5\n4.0\n110 \u2013 150\n4.0\n4.0\nTable 2\nLand in St. Paul, MN, 45\u00b0 N\nSoil\nDepth Range\n(m)\nAverage Tem\nMaximum \n(Occurs in \nSummer)\nperature (\u00b0C)\nMinimum \n(Occurs in \nWinter)\n0 \u2013 0.1\n25.5\n\u20136.0\n0.1 \u2013 1\n23.0\n\u20131.5\n1 \u2013 2\n19.5\n2.0\n2 \u2013 3\n16.0\n4.5\n3 \u2013 4\n13.5\n7.0\n4 \u2013 5\n12.5\n8.5\n5 \u2013 6\n11.0\n10.0",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Explain why the winter water surface is warmer than the winter land surface.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_77_79.png",
+      "context": "Base your answers to questions 77 through 79 on the data tables below and on your knowledge of Earth \nscience. Data table 1 shows the average maximum and average minimum water temperatures at different \ndepths in Lake Michigan. Data table 2 shows the average maximum and average minimum land temperatures at \ndifferent depths in soil at St. Paul Minnesota (MN).\nTable 1\nWater in Lake Michigan, 45\u00b0 N\nWater\nDepth Range\n(m)\nAverage Tem\nMaximum \n(Occurs in \nSummer)\nperature (\u00b0C)\nMinimum \n(Occurs in \nWinter)\n0 \u2013 10\n24.0\n4.0\n10 \u2013 20\n19.5\n4.0\n20 \u2013 30\n12.5\n4.0\n30 \u2013 40\n7.5\n4.0\n40 \u2013 60\n5.5\n4.0\n60 \u2013 110\n4.5\n4.0\n110 \u2013 150\n4.0\n4.0\nTable 2\nLand in St. Paul, MN, 45\u00b0 N\nSoil\nDepth Range\n(m)\nAverage Tem\nMaximum \n(Occurs in \nSummer)\nperature (\u00b0C)\nMinimum \n(Occurs in \nWinter)\n0 \u2013 0.1\n25.5\n\u20136.0\n0.1 \u2013 1\n23.0\n\u20131.5\n1 \u2013 2\n19.5\n2.0\n2 \u2013 3\n16.0\n4.5\n3 \u2013 4\n13.5\n7.0\n4 \u2013 5\n12.5\n8.5\n5 \u2013 6\n11.0\n10.0",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Identify the type of tectonic plate boundary found at location Z.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the map below and on your knowledge of Earth science. \nThe map shows an enlargement of a portion of the Tectonic Plates map from the Physical Setting/Earth Science \nReference Tables. Arrows showing plate motion have been omitted. Points Y and Z represent locations on plate \nboundaries.\na\ns\n \ndescribed abov\ne",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "State the names of the tectonic plates on each side of the Bouvet Hot Spot.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the map below and on your knowledge of Earth science. \nThe map shows an enlargement of a portion of the Tectonic Plates map from the Physical Setting/Earth Science \nReference Tables. Arrows showing plate motion have been omitted. Points Y and Z represent locations on plate \nboundaries.\na\ns\n \ndescribed abov\ne",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "The cross section in your answer booklet represents a portion of Earth\u2019s interior beneath point Y. On this cross section, draw an arrowhead on each of the four bold lines, to represent the direction of the convection currents in the asthenosphere.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2018/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the map below and on your knowledge of Earth science. \nThe map shows an enlargement of a portion of the Tectonic Plates map from the Physical Setting/Earth Science \nReference Tables. Arrows showing plate motion have been omitted. Points Y and Z represent locations on plate \nboundaries.\na\ns\n \ndescribed abov\ne",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Describe the relationship between the thickness of a glacier and its rate of movement downhill.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the passage below and on your knowledge of Earth \nscience.\nGlacier Movement\nGlaciers are thick sheets of ice in motion. Mountain glaciers tend to move down \nthe slopes of mountains from higher elevations to lower elevations, while continental \nice sheets move over large areas of continents. The bottom of a glacier is under great \npressure due to the weight of the thick sheet of ice. This pressure causes the bottom of \nthe glacier to partially melt, allowing the glacier to move. As the glacier thickens, more \npressure is created and the glacier moves faster. Different parts of a glacier can move at \ndifferent rates, depending on the amount of pressure and friction between the glacier \nand the underlying bedrock.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Describe the most likely shape of the cross section of a valley formed as a result of erosion by a mountain glacier.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the passage below and on your knowledge of Earth \nscience.\nGlacier Movement\nGlaciers are thick sheets of ice in motion. Mountain glaciers tend to move down \nthe slopes of mountains from higher elevations to lower elevations, while continental \nice sheets move over large areas of continents. The bottom of a glacier is under great \npressure due to the weight of the thick sheet of ice. This pressure causes the bottom of \nthe glacier to partially melt, allowing the glacier to move. As the glacier thickens, more \npressure is created and the glacier moves faster. Different parts of a glacier can move at \ndifferent rates, depending on the amount of pressure and friction between the glacier \nand the underlying bedrock.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Compared to sediments deposited by meltwater from a glacier, describe the difference in the arrangement of the sediment deposited directly by a glacier. P.S./EARTH SCIENCE Printed on Recycled Paper P.S./EARTH SCIENCE",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the passage below and on your knowledge of Earth \nscience.\nGlacier Movement\nGlaciers are thick sheets of ice in motion. Mountain glaciers tend to move down \nthe slopes of mountains from higher elevations to lower elevations, while continental \nice sheets move over large areas of continents. The bottom of a glacier is under great \npressure due to the weight of the thick sheet of ice. This pressure causes the bottom of \nthe glacier to partially melt, allowing the glacier to move. As the glacier thickens, more \npressure is created and the glacier moves faster. Different parts of a glacier can move at \ndifferent rates, depending on the amount of pressure and friction between the glacier \nand the underlying bedrock.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

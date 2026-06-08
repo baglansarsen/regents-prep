@@ -4,7 +4,7 @@ import { doc, getDoc, setDoc } from 'firebase/firestore'
 import { db } from '../firebase'
 
 const MAX_LIVES      = 5
-const REFILL_COST_XP = 300
+const REFILL_COST_RP = 300
 const REFILL_MS      = 30 * 60 * 1000   // 30 minutes
 const KEY_LIVES      = '@lives'
 const KEY_REFILL_AT  = '@livesNextRefillAt'
@@ -39,7 +39,7 @@ async function save(uid, lives, nextRefillAt) {
   try {
     await AsyncStorage.multiSet([
       [KEY_LIVES,     String(lives)],
-      [KEY_REFILL_AT, nextRefillAt],
+      [KEY_REFILL_AT, nextRefillAt ?? ''],
     ])
   } catch (_) {}
 
@@ -61,7 +61,20 @@ export function useLives(uid, isSubscribed = false) {
   // ─── Load on mount ────────────────────────────────────────────────────────
   useEffect(() => {
     async function load() {
-      // Try Firestore first
+      // ── Optimistic paint from AsyncStorage first (~5ms) ─────────────────────
+      try {
+        const [lvPair, raPair] = await AsyncStorage.multiGet([KEY_LIVES, KEY_REFILL_AT])
+        if (lvPair[1]) {
+          const storedLives = parseInt(lvPair[1])
+          const { lives: lv, nextRefillAt: ra } = catchUpRefills(storedLives, raPair[1] ?? null)
+          livesRef.current = lv
+          setLives(lv)
+          setNextRefillAt(ra)
+          refillRef.current = ra
+        }
+      } catch (_) {}
+
+      // ── Confirm / update from Firestore ─────────────────────────────────────
       if (uid) {
         try {
           const snap = await getDoc(doc(db, 'users', uid))
@@ -73,23 +86,11 @@ export function useLives(uid, isSubscribed = false) {
               setLives(lv)
               setNextRefillAt(ra)
               refillRef.current = ra
-              if (lv !== d.lives) await save(uid, lv, ra)   // persist offline accrual
-              return
+              if (lv !== d.lives) await save(uid, lv, ra)
             }
           }
         } catch (_) {}
       }
-      // Fallback: AsyncStorage
-      try {
-        const [lvPair, raPair] = await AsyncStorage.multiGet([KEY_LIVES, KEY_REFILL_AT])
-        const storedLives = lvPair[1] ? parseInt(lvPair[1]) : MAX_LIVES
-        const { lives: lv, nextRefillAt: ra } = catchUpRefills(storedLives, raPair[1] ?? null)
-        livesRef.current = lv
-        setLives(lv)
-        setNextRefillAt(ra)
-        refillRef.current = ra
-        if (lv !== storedLives) await save(uid_ref.current, lv, ra)
-      } catch (_) {}
     }
     load()
   }, [uid])
@@ -130,9 +131,9 @@ export function useLives(uid, isSubscribed = false) {
     await save(uid_ref.current, newLives, newRefill)
   }, [])
 
-  // ─── refillLives (costs 300 XP) ──────────────────────────────────────────
-  const refillLives = useCallback(async (spendXP) => {
-    const spent = await spendXP(REFILL_COST_XP)
+  // ─── refillLives (costs 300 RP) ──────────────────────────────────────────
+  const refillLives = useCallback(async (spendRP) => {
+    const spent = await spendRP(REFILL_COST_RP)
     if (!spent) return false
     livesRef.current = MAX_LIVES
     setLives(MAX_LIVES)
@@ -157,5 +158,5 @@ export function useLives(uid, isSubscribed = false) {
     await save(uid_ref.current, newLives, newRefill)
   }, [])
 
-  return { lives, maxLives: MAX_LIVES, loseLife, refillLives, addLife, nextRefillAt, refillCost: REFILL_COST_XP, isSubscribed }
+  return { lives, maxLives: MAX_LIVES, loseLife, refillLives, addLife, nextRefillAt, refillCost: REFILL_COST_RP, isSubscribed }
 }

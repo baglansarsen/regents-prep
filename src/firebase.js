@@ -1,6 +1,11 @@
 import { initializeApp } from 'firebase/app'
 import { getAuth, GoogleAuthProvider, connectAuthEmulator } from 'firebase/auth'
-import { getFirestore } from 'firebase/firestore'
+import {
+  initializeFirestore,
+  persistentLocalCache,
+  persistentSingleTabManager,
+  connectFirestoreEmulator,
+} from 'firebase/firestore'
 
 const firebaseConfig = {
   apiKey:            import.meta.env.VITE_FIREBASE_API_KEY,
@@ -14,9 +19,17 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig)
 
 export const auth = getAuth(app)
-if (import.meta.env.DEV) {
-  connectAuthEmulator(auth, 'http://localhost:9099')
-}
-
 export const googleProvider = new GoogleAuthProvider()
-export const db = getFirestore(app)
+
+// Persistent Firestore cache so the app works offline and reloads fast
+export const db = initializeFirestore(app, {
+  localCache: persistentLocalCache({
+    tabManager: persistentSingleTabManager({ forceOwnership: false }),
+  }),
+})
+
+// Only use emulators when explicitly opted in: VITE_USE_EMULATORS=true in .env.local
+if (import.meta.env.VITE_USE_EMULATORS === 'true') {
+  connectAuthEmulator(auth, 'http://localhost:9099', { disableWarnings: true })
+  connectFirestoreEmulator(db, 'localhost', 8080)
+}

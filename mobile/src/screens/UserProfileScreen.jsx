@@ -9,8 +9,8 @@ import { db } from '../firebase'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useFriends, timeAgo } from '../hooks/useFriends'
-import { getLevel } from '../hooks/useXP'
-import { getWeekKey } from '../hooks/useXP'
+import { getLevel } from '../hooks/useRP'
+import { getWeekKey } from '../hooks/useRP'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 
 const AVATAR_COLORS = ['#58CC02', '#1CB0F6', '#CE82FF', '#FFC800', '#FF4B4B', '#FF9600']
@@ -48,7 +48,7 @@ export default function UserProfileScreen({ route, navigation }) {
   useEffect(() => {
     ;(async () => {
       try {
-        // Public leaderboard doc: { displayName, xp, weeklyXP, weekKey }
+        // Public leaderboard doc: { displayName, rp  weeklyXP, weekKey }
         const lbSnap = await getDoc(doc(db, 'leaderboard', targetUid))
         setProfile(lbSnap.exists() ? lbSnap.data() : {})
 
@@ -70,9 +70,9 @@ export default function UserProfileScreen({ route, navigation }) {
 
   // ── Derived stats ─────────────────────────────────────────────────────────
   const name      = profile?.displayName ?? paramName ?? 'Student'
-  const totalXP   = profile?.xp ?? 0
-  const weeklyXP  = profile?.weekKey === getWeekKey() ? (profile?.weeklyXP ?? 0) : 0
-  const level     = getLevel(totalXP)
+  const totalRP   = profile?.xp ?? 0
+  const weeklyRP  = profile?.weekKey === getWeekKey() ? (profile?.weeklyXP ?? 0) : 0
+  const level     = getLevel(totalRP)
   const levelIcon = LEVEL_ICONS[Math.min(level.level - 1, LEVEL_ICONS.length - 1)]
   const color     = avatarColor(name)
   const inits     = initials(name)
@@ -111,7 +111,7 @@ export default function UserProfileScreen({ route, navigation }) {
 
   if (loading) {
     return (
-      <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+      <SafeAreaView style={s.safe} edges={['bottom']}>
         <TouchableOpacity style={s.backBtn} onPress={() => navigation.goBack()}>
           <Text style={s.backBtnText}>←</Text>
         </TouchableOpacity>
@@ -160,7 +160,7 @@ export default function UserProfileScreen({ route, navigation }) {
   }
 
   return (
-    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       {/* Back button */}
       <TouchableOpacity style={s.backBtn} onPress={() => navigation.goBack()}>
         <Text style={s.backBtnText}>←</Text>
@@ -185,12 +185,12 @@ export default function UserProfileScreen({ route, navigation }) {
         {/* ── Stats row ── */}
         <Animated.View style={[s.statsRow, cardShadow(C.shadow), { opacity: contentOp }]}>
           <View style={s.statCell}>
-            <Text style={s.statValue}>⭐ {totalXP >= 1000 ? `${(totalXP / 1000).toFixed(1)}k` : totalXP}</Text>
-            <Text style={[T.label, { color: C.textMuted }]}>Total XP</Text>
+            <Text style={s.statValue}>⭐ {totalRP >= 1000 ? `${(totalRP / 1000).toFixed(1)}k` : totalRP}</Text>
+            <Text style={[T.label, { color: C.textMuted }]}>Total RP</Text>
           </View>
           <View style={[s.statDivider, { backgroundColor: C.border }]} />
           <View style={s.statCell}>
-            <Text style={s.statValue}>🔥 {weeklyXP}</Text>
+            <Text style={s.statValue}>🔥 {weeklyRP}</Text>
             <Text style={[T.label, { color: C.textMuted }]}>This Week</Text>
           </View>
           <View style={[s.statDivider, { backgroundColor: C.border }]} />
@@ -213,7 +213,7 @@ export default function UserProfileScreen({ route, navigation }) {
           </View>
           {level.next ? (
             <Text style={[T.label, { color: C.textDim, textAlign: 'center', marginTop: 6, textTransform: 'none', letterSpacing: 0 }]}>
-              {level.next.min - totalXP} XP to {level.next.name}
+              {level.next.min - totalRP} RP to {level.next.name}
             </Text>
           ) : (
             <Text style={[T.label, { color: C.brand, textAlign: 'center', marginTop: 6 }]}>MAX LEVEL 🏆</Text>

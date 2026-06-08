@@ -1,0 +1,1076 @@
+{
+  "subject": "earth-science",
+  "session": "january-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The de\ufb02 ection of Earth\u2019s planetary winds is an example of",
+      "choices": [
+        "the Coriolis effect",
+        "the Doppler effect",
+        "convection",
+        "gravitational pull"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The universe is approximately 13.8 billion years old. Compared to the age of the solar system, the age of the universe is approximately",
+      "choices": [
+        "the same age as the solar system",
+        "two times older than the solar system",
+        "three times older than the solar system",
+        "four times older than the solar system"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Planets that are closest to the Sun are identi\ufb01 ed as",
+      "choices": [
+        "low-density Jovian",
+        "low-density terrestrial",
+        "high-density Jovian",
+        "high-density terrestrial"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which process of the water cycle occurs when water absorbs 2260 Joules of heat energy per gram?",
+      "choices": [
+        "melting of ice",
+        "condensation of water vapor",
+        "evaporation of water",
+        "freezing of water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "In which temperature zone of Earth\u2019s atmosphere is the polar jet stream located?",
+      "choices": [
+        "lower thermosphere",
+        "lower mesosphere",
+        "upper stratosphere",
+        "upper troposphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Arrows in the diagram below show three methods of energy transfer labeled A, B, and C. C A B Which list correctly identi\ufb01 es the energy transfer processes A, B, and C?",
+      "choices": [
+        "A\u2013conduction",
+        "A\u2013convection",
+        "A\u2013convection B\u2013convection B\u2013radiation C\u2013radiation C\u2013conduction",
+        "A\u2013conduction B\u2013conduction B\u2013radiation C\u2013radiation C\u2013convection"
+      ],
+      "image": "/images/exams/earth-science/january-2018/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "What is the relative humidity of the air when the dry-bulb temperature is 4\u00b0C and the dewpoint is \u00024\u00b0C?",
+      "choices": [
+        "42%",
+        "46%",
+        "51%",
+        "56%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the light spectra given off by the same element as observed under two different conditions. Spectrum A was observed when that element was heated in a laboratory. Spectrum B shows the same element as seen in the light from a distant star. Spectrum A: (laboratory) Spectrum B: (distant star) Violet Red Violet Red The light spectrum observed from this distant star shows a",
+      "choices": [
+        "red shift, which indicates that the star is moving away from Earth",
+        "red shift, which indicates that the star is moving toward Earth",
+        "blue shift, which indicates that the star is moving away from Earth",
+        "blue shift, which indicates that the star is moving toward Earth"
+      ],
+      "image": "/images/exams/earth-science/january-2018/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The diagrams below represent the constellations seen by an observer in New York State while looking toward the southern horizon at midnight on July 9 and January 8. Southern horizon July 9 Cygnus Lyra Aquila Capricornus Sagittarius Leo Canis Minor Gemini Auriga Taurus Orion Canis Major Scorpius Southern horizon January 8 Which motion is mainly responsible for the difference in the constellations visible at midnight on these two dates?",
+      "choices": [
+        "The Sun orbits Earth.",
+        "Earth orbits the Sun.",
+        "The stars in the constellations orbit Earth.",
+        "Earth orbits the stars in the constellations."
+      ],
+      "image": "/images/exams/earth-science/january-2018/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "written",
+      "text": "Which graph best shows the general relationship between air pressure and altitude? Air Pressure Altitude ( 1 ) Air Pressure Altitude ( 3 ) Air Pressure Altitude ( 2 ) Air Pressure Altitude ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Most clouds form in the atmosphere when moist air",
+      "choices": [
+        "rises, expands, and cools to the dewpoint",
+        "rises, expands, and warms to the dewpoint",
+        "sinks, compresses, and cools to the dewpoint",
+        "sinks, compresses, and warms to the dewpoint"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Equal areas of which surface would absorb the greatest amount of insolation on a sunny day?",
+      "choices": [
+        "light-colored, smooth surface",
+        "light-colored, rough surface",
+        "dark-colored, smooth surface",
+        "dark-colored, rough surface"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which natural event periodically weakens western surface ocean currents in the equatorial Paci\ufb01 c Ocean, resulting in a change in air temperature and precipitation patterns in the United States?",
+      "choices": [
+        "El Nin\u02dc o",
+        "transpiration",
+        "ocean tides",
+        "volcanic eruptions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Ocean gyres in the Northern Hemisphere consist of a number of surface ocean currents that, together, generally \ufb02 ow clockwise in a roughly circular pattern. Which list contains three warm surface ocean currents that make up most of the North Atlantic Ocean gyre?",
+      "choices": [
+        "Kuroshio Current, North Paci\ufb01 c Current, and California Current",
+        "Canary Current, North Equatorial Current, and Equatorial Countercurrent",
+        "Labrador Current, North Atlantic Current, and East Greenland Current",
+        "North Equatorial Current, Gulf Stream Current, and North Atlantic Current"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Most of the oceanic oxygen that began to enter Earth\u2019s atmosphere in the early Proterozoic Era was probably produced by",
+      "choices": [
+        "formation of silicate rocks",
+        "photosynthesis by cyanobacteria",
+        "impact events on Earth\u2019s surface",
+        "outgassing from volcanoes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "During which geologic period did plants and animals \ufb01 rst appear in land environments?",
+      "choices": [
+        "Cambrian",
+        "Ordovician",
+        "Silurian",
+        "Devonian"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Sedimentary rock layers that were deposited between 488 million and 444 million years ago are found on the surface at which two New York State locations?",
+      "choices": [
+        "Ithaca and Jamestown",
+        "Utica and Syracuse",
+        "Oswego and Old Forge",
+        "Albany and Massena"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A volcanic ash layer is a good geologic time marker for correlating rock layers because the ash layer was deposited over a",
+      "choices": [
+        "limited geographic area over a short time",
+        "limited geographic area over a long time",
+        "wide geographic area over a short time",
+        "wide geographic area over a long time"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The photograph below shows the results of a landslide. This landslide is an example of",
+      "choices": [
+        "wind abrasion",
+        "glacial deposition",
+        "wave action",
+        "mass movement"
+      ],
+      "image": "/images/exams/earth-science/january-2018/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "written",
+      "text": "Which cross section correctly represents a cold front and the air-mass movements associated with this front? Warm air mass ( 1 ) ( 3 ) ( 2 ) ( 4 ) Earth\u2019s surface Earth\u2019s surface Earth\u2019s surface Earth\u2019s surface F r o n t a l b o u n d a ry F r o n t a l b o u n d a ry Cold air mass Frontal boundary Frontal boundary Cold air mass Warm air mass Warm air mass Cold air mass Cold air mass Warm air mass",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Earth\u2019s interior at a depth of 3500 kilometers is believed to be",
+      "choices": [
+        "liquid at a temperature of approximately 4900\u00b0C",
+        "solid at a temperature of approximately 4900\u00b0C",
+        "liquid at a temperature of approximately 5400\u00b0C",
+        "solid at a temperature of approximately 5400\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Compared to the density and composition of the oceanic crust, the continental crust is",
+      "choices": [
+        "less dense and more ma\ufb01 c",
+        "less dense and more felsic",
+        "more dense and less ma\ufb01 c",
+        "more dense and less felsic"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "An earthquake occurs at 10:05 a.m. At 10:09 a.m., the \ufb01 rst P-wave from this earthquake is detected at a seismic station. Approximately how many kilometers (km) from the epicenter is this seismic station located?",
+      "choices": [
+        "1000 km",
+        "2000 km",
+        "2600 km",
+        "5600 km"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The aerial photograph below shows two streams that have been displaced by tectonic movement along the San Andreas fault. The arrows show the relative direction of movement along the fault. Fault This movement occurred along which type of plate boundary?",
+      "choices": [
+        "convergent",
+        "divergent",
+        "transform",
+        "complex"
+      ],
+      "image": "/images/exams/earth-science/january-2018/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The magnitude of an earthquake is a number that represents the",
+      "choices": [
+        "arrival time of the \ufb01 rst P-wave",
+        "difference in arrival times between P- and S- waves",
+        "distance to the epicenter",
+        "energy released by an earthquake"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The Genesee River \ufb02 ows across both the Allegheny Plateau and the Erie-Ontario Lowlands in New York State. This river \ufb02 ows",
+      "choices": [
+        "northward, in the same general direction as the Hudson River",
+        "northward, in the same general direction as the Niagara River",
+        "southward, in the same general direction as the Hudson River",
+        "southward, in the same general direction as the Niagara River"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "What is the name of the largest sediment that can be transported by a stream moving at a velocity of 100 centimeters per second (cm/s)?",
+      "choices": [
+        "silt",
+        "sand",
+        "pebbles",
+        "cobbles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which mineral is commonly used as an abrasive?",
+      "choices": [
+        "garnet",
+        "halite",
+        "sulfur",
+        "graphite"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "If a metamorphic rock bubbles when a drop of acid is placed on its surface, the rock is most likely",
+      "choices": [
+        "schist",
+        "slate",
+        "marble",
+        "quartzite"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The map below shows a portion of the coast of Texas. Letter X indicates features formed by wave action. N Texas Gulf of Mexico X What is the name of the features indicated by letter X?",
+      "choices": [
+        "barrier islands",
+        "island arc",
+        "deltas",
+        "moraines"
+      ],
+      "image": "/images/exams/earth-science/january-2018/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The diagrams below represent the crystal shape and type of cleavage of two different minerals. Crystal shape: cubic Cleavage: three directions \u2013 all at right angles Crystal shape: rhombohedral Cleavage: three directions \u2013 not at right angles The crystal shape and type of cleavage of these two minerals are determined mainly by the minerals\u2019",
+      "choices": [
+        "color and type of luster",
+        "streak and hardness",
+        "composition and atomic arrangement",
+        "density and magnetism"
+      ],
+      "image": "/images/exams/earth-science/january-2018/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "The block diagram below represents a meandering stream. Outside of the curve Inside of the curve Which table indicates where the greatest stream velocity and the greatest rate of stream erosion occur? Greatest Stream Velocity Greatest Stream Erosion Greatest Stream Velocity Greatest Stream Erosion outside of the curve outside of the curve inside of the curve inside of the curve ( 1 ) ( 3 ) Greatest Stream Velocity Greatest Stream Erosion Greatest Stream Velocity Greatest Stream Erosion outside of the curve inside of the curve inside of the curve outside of the curve ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "The diagram below represents the size and shape of a pebble. This pebble and 20 other pebbles having a similar size and shape were placed in a rock tumbler with water and allowed to abrade for \ufb01 ve days. Pebble Which diagram best represents the size and shape of this pebble after the \ufb01 ve-day period? ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The photograph below shows bedrock composed of sediments that have been deposited by wind. This bedrock is most likely",
+      "choices": [
+        "sandstone",
+        "limestone",
+        "hornfels",
+        "granite"
+      ],
+      "image": "/images/exams/earth-science/january-2018/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Which diagram below best represents both the relative wavelength of visible light entering a house through a window and the relative wavelength of infrared rays being given off by a table within the house? ( 4 ) Window Table ( 3 ) Window Table ( 1 ) Window Table Visible light Visible light ( 2 ) Window Table Infrared ray Infrared ray Infrared ray Infrared ray Visible light Visible light",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which two-letter symbol represents the most likely air mass formed over portions of the Indian Ocean shown on the maps?",
+      "choices": [
+        "mP",
+        "mT",
+        "cP",
+        "cT"
+      ],
+      "image": "/images/exams/earth-science/january-2018/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the maps below and on your knowledge of Earth science. \nThe maps show a portion of India and Southeast Asia, bordering on the Indian Ocean, during the winter and \nsummer monsoon seasons. Large areas of high and low air pressure are shown during each season.\nIndia\nLow\nLow\nIndia\nHigh\nHigh\nHigh\nLow\nWinter Monsoon\nSummer Monsoon",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The heavy monsoon rains affecting India and Southeast Asia occur during",
+      "choices": [
+        "winter, when winds blow from the land",
+        "winter, when winds blow toward the high pressure",
+        "summer, when winds blow from the ocean",
+        "summer, when winds blow toward the high pressure"
+      ],
+      "image": "/images/exams/earth-science/january-2018/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the maps below and on your knowledge of Earth science. \nThe maps show a portion of India and Southeast Asia, bordering on the Indian Ocean, during the winter and \nsummer monsoon seasons. Large areas of high and low air pressure are shown during each season.\nIndia\nLow\nLow\nIndia\nHigh\nHigh\nHigh\nLow\nWinter Monsoon\nSummer Monsoon",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Mars reaches its closest distance to Earth approximately every",
+      "choices": [
+        "16 years",
+        "8 years",
+        "3 years",
+        "0.36 years"
+      ],
+      "image": "/images/exams/earth-science/january-2018/context_38_40.png",
+      "context": "Base your answers to questions 38 through 40 on the graph below and on your knowledge of Earth science. \nThe graph shows the closest distance between Earth and Mars during each year from 2001 to 2035. Distances are \nmeasured in astronomical units (AU). One AU equals the average distance from Earth to the Sun.\nYear\nDistance (AU)\n0.3\nClosest Distance Each Year Between Earth and Mars \n0.4\n0.5\n0.6\n0.7\n0.8\n2001 2003 2005 2007 2009 2011 2013 2015 2017 2019 2021 2023 2025 2027 2029 2031 2033 2035",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "How many million kilometers is one astronomical unit?",
+      "choices": [
+        "108.2 million km",
+        "149.6 million km",
+        "227.9 million km",
+        "377.5 million km"
+      ],
+      "image": "/images/exams/earth-science/january-2018/context_38_40.png",
+      "context": "Base your answers to questions 38 through 40 on the graph below and on your knowledge of Earth science. \nThe graph shows the closest distance between Earth and Mars during each year from 2001 to 2035. Distances are \nmeasured in astronomical units (AU). One AU equals the average distance from Earth to the Sun.\nYear\nDistance (AU)\n0.3\nClosest Distance Each Year Between Earth and Mars \n0.4\n0.5\n0.6\n0.7\n0.8\n2001 2003 2005 2007 2009 2011 2013 2015 2017 2019 2021 2023 2025 2027 2029 2031 2033 2035",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "written",
+      "text": "The diagram below represents the positions of Earth and Mars in their orbits around the Sun when they were closest in the year 2003. Sun Mars Earth (Not drawn to scale) Which diagram represents the positions of Earth and Mars approximately one-half of an Earth year (183 days) later? Sun ( 1 ) Mars Earth Sun ( 3 ) Mars Sun ( 2 ) Earth Mars Sun ( 4 ) Earth Mars Earth",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_38_40.png",
+      "context": "Base your answers to questions 38 through 40 on the graph below and on your knowledge of Earth science. \nThe graph shows the closest distance between Earth and Mars during each year from 2001 to 2035. Distances are \nmeasured in astronomical units (AU). One AU equals the average distance from Earth to the Sun.\nYear\nDistance (AU)\n0.3\nClosest Distance Each Year Between Earth and Mars \n0.4\n0.5\n0.6\n0.7\n0.8\n2001 2003 2005 2007 2009 2011 2013 2015 2017 2019 2021 2023 2025 2027 2029 2031 2033 2035",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Which dates are represented by months X, Y, and Z?",
+      "choices": [
+        "X-February 1, Y-March 1, Z-April 1",
+        "X-May 1, Y-June 1, Z-July 1",
+        "X-August 1, Y-September 1, Z-October 1",
+        "X-November 1, Y-December 1, Z-January 1"
+      ],
+      "image": "/images/exams/earth-science/january-2018/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the three Sun\u2019s path diagrams below and on your knowledge \nof Earth science. The diagrams represent the position of the noon Sun along its apparent daily path as seen by \nan observer on the \ufb01 rst day of three consecutive months (X, Y, and Z). The observer was located in Utica, New \nYork.\nW\nN\nMonth X\nNoon Sun\n35\u00b0\nE\nS\nMonth Y\nNoon Sun\n42\u00b0\nMonth Z\nNoon Sun\n50\u00b0\nObserver\nW\nN\nE\nS\nObserver\nW\nN\nE\nS\nObserver",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which characteristic of the Sun\u2019s apparent daily path stays constant from month X to month Z?",
+      "choices": [
+        "locations of sunrise and sunset",
+        "altitude of the noon Sun",
+        "length of time that the Sun moves along its apparent path",
+        "rate of the Sun\u2019s movement along its apparent path"
+      ],
+      "image": "/images/exams/earth-science/january-2018/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the three Sun\u2019s path diagrams below and on your knowledge \nof Earth science. The diagrams represent the position of the noon Sun along its apparent daily path as seen by \nan observer on the \ufb01 rst day of three consecutive months (X, Y, and Z). The observer was located in Utica, New \nYork.\nW\nN\nMonth X\nNoon Sun\n35\u00b0\nE\nS\nMonth Y\nNoon Sun\n42\u00b0\nMonth Z\nNoon Sun\n50\u00b0\nObserver\nW\nN\nE\nS\nObserver\nW\nN\nE\nS\nObserver",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "For an observer in the Southern Hemisphere at 43\u00b0 S latitude, the highest altitude of the noon Sun occurs when the Sun is above the",
+      "choices": [
+        "eastern horizon",
+        "western horizon",
+        "northern horizon",
+        "southern horizon"
+      ],
+      "image": "/images/exams/earth-science/january-2018/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the three Sun\u2019s path diagrams below and on your knowledge \nof Earth science. The diagrams represent the position of the noon Sun along its apparent daily path as seen by \nan observer on the \ufb01 rst day of three consecutive months (X, Y, and Z). The observer was located in Utica, New \nYork.\nW\nN\nMonth X\nNoon Sun\n35\u00b0\nE\nS\nMonth Y\nNoon Sun\n42\u00b0\nMonth Z\nNoon Sun\n50\u00b0\nObserver\nW\nN\nE\nS\nObserver\nW\nN\nE\nS\nObserver",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Position A represents the position of the Sun at another time of day during month Z. What is the time of day when the Sun is at position A? Month Z Noon Sun 50\u00b0 W N E S Observer Position A",
+      "choices": [
+        "1 p.m.",
+        "5 p.m.",
+        "7 a.m.",
+        "11 a.m."
+      ],
+      "image": "/images/exams/earth-science/january-2018/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the three Sun\u2019s path diagrams below and on your knowledge \nof Earth science. The diagrams represent the position of the noon Sun along its apparent daily path as seen by \nan observer on the \ufb01 rst day of three consecutive months (X, Y, and Z). The observer was located in Utica, New \nYork.\nW\nN\nMonth X\nNoon Sun\n35\u00b0\nE\nS\nMonth Y\nNoon Sun\n42\u00b0\nMonth Z\nNoon Sun\n50\u00b0\nObserver\nW\nN\nE\nS\nObserver\nW\nN\nE\nS\nObserver",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "The youngest rock unit shown in the cross section is",
+      "choices": [
+        "breccia",
+        "conglomerate",
+        "sandstone",
+        "shale"
+      ],
+      "image": "/images/exams/earth-science/january-2018/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the geologic cross section of a portion of Earth\u2019s crust shown \nbelow and on your knowledge of Earth science. None of the rock units has been overturned.\nGabbro\nKey\nContact\nmetamorphism\nGranite",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which process most probably produced the irregularly shaped boundary between the limestone and the shale?",
+      "choices": [
+        "folding",
+        "faulting",
+        "contact metamorphism",
+        "erosion"
+      ],
+      "image": "/images/exams/earth-science/january-2018/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the geologic cross section of a portion of Earth\u2019s crust shown \nbelow and on your knowledge of Earth science. None of the rock units has been overturned.\nGabbro\nKey\nContact\nmetamorphism\nGranite",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which sequence shows the relative ages of the gabbro, granite, and schist from oldest to youngest?",
+      "choices": [
+        "gabbro \u2014\u203a granite \u2014\u203a schist",
+        "gabbro \u2014\u203a schist \u2014\u203a granite",
+        "schist \u2014\u203a granite \u2014\u203a gabbro",
+        "schist \u2014\u203a gabbro \u2014\u203a granite"
+      ],
+      "image": "/images/exams/earth-science/january-2018/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the geologic cross section of a portion of Earth\u2019s crust shown \nbelow and on your knowledge of Earth science. None of the rock units has been overturned.\nGabbro\nKey\nContact\nmetamorphism\nGranite",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Which agent of erosion is mainly responsible for the formation of the Grand Canyon?",
+      "choices": [
+        "running water",
+        "glacial ice",
+        "wind",
+        "wave action"
+      ],
+      "image": "/images/exams/earth-science/january-2018/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the cross section below and on your knowledge of Earth \nscience. The cross section represents the landscape features and rock units of the Grand Canyon region in the \nsouthwestern United States. The names and ages of some rock formations are shown.\nTapeats\nShinumo Quartzite\nColorado\nRiver\nSupai\nHermit\nKaibab\nPlateau\nRed Butte\nPERMIAN\nMISSISSIPPIAN\nCAMBRIAN\nRedwall\nCliffs\nBright Angel\nPRECAMBRIAN\nMuav\nCoconino\nRedwall\nZoroaster\nGranite\nAlgonkian Wedge\nDiabase\nVishnu \nSchist \nVishnu \nSchist",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Approximately how many million years ago (mya) was the Coconino sandstone deposited as sediment?",
+      "choices": [
+        "180 mya",
+        "275 mya",
+        "330 mya",
+        "495 mya"
+      ],
+      "image": "/images/exams/earth-science/january-2018/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the cross section below and on your knowledge of Earth \nscience. The cross section represents the landscape features and rock units of the Grand Canyon region in the \nsouthwestern United States. The names and ages of some rock formations are shown.\nTapeats\nShinumo Quartzite\nColorado\nRiver\nSupai\nHermit\nKaibab\nPlateau\nRed Butte\nPERMIAN\nMISSISSIPPIAN\nCAMBRIAN\nRedwall\nCliffs\nBright Angel\nPRECAMBRIAN\nMuav\nCoconino\nRedwall\nZoroaster\nGranite\nAlgonkian Wedge\nDiabase\nVishnu \nSchist \nVishnu \nSchist",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "If the climate of the Grand Canyon region became more humid, the rate of weathering and erosion would most likely",
+      "choices": [
+        "decrease, and the landscape features would become more rounded",
+        "decrease, and the landscape features would become more angular",
+        "increase, and the landscape features would become more rounded",
+        "increase, and the landscape features would become more angular"
+      ],
+      "image": "/images/exams/earth-science/january-2018/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the cross section below and on your knowledge of Earth \nscience. The cross section represents the landscape features and rock units of the Grand Canyon region in the \nsouthwestern United States. The names and ages of some rock formations are shown.\nTapeats\nShinumo Quartzite\nColorado\nRiver\nSupai\nHermit\nKaibab\nPlateau\nRed Butte\nPERMIAN\nMISSISSIPPIAN\nCAMBRIAN\nRedwall\nCliffs\nBright Angel\nPRECAMBRIAN\nMuav\nCoconino\nRedwall\nZoroaster\nGranite\nAlgonkian Wedge\nDiabase\nVishnu \nSchist \nVishnu \nSchist",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Describe the general relationship between particle size and the amount of water retained.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_51_52.png",
+      "context": "Base your answers to questions 51 and 52 on the diagram and data table below, and on your knowledge of \nEarth science. The diagram represents the laboratory materials used for an investigation of the effects of particle \nsize on water retention. Five separate columns were \ufb01 lled to the same level with particles. The particle type is \nindicated for each column. The particles within each column are of uniform shape. A volume of 50 milliliters \n(mL) of water was poured through each column, and the amount of water retained was determined. The data \ntable shows the results of this experiment.\n(Not drawn to scale)\nScreen\nEmpty \nbeaker\nSilt\nFine\nsand\nScreen\nEmpty \nbeaker\nCoarse\nsand\nScreen\nEmpty \nbeaker\nFine\npebbles\nScreen\nEmpty \nbeaker\nCoarse\npebbles\nScreen\nEmpty \nbeaker\nWater Retention\nParticle Type\n(size)\nWater Retained\n(mL)\nCoarse pebbles\n7\nFine pebbles\n15\nCoarse sand\n32\nFine sand\n38\nSilt\n46",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Name the particle type used in the investigation that most likely had the greatest permeability when the 50 milliliters of water were poured through these columns.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_51_52.png",
+      "context": "Base your answers to questions 51 and 52 on the diagram and data table below, and on your knowledge of \nEarth science. The diagram represents the laboratory materials used for an investigation of the effects of particle \nsize on water retention. Five separate columns were \ufb01 lled to the same level with particles. The particle type is \nindicated for each column. The particles within each column are of uniform shape. A volume of 50 milliliters \n(mL) of water was poured through each column, and the amount of water retained was determined. The data \ntable shows the results of this experiment.\n(Not drawn to scale)\nScreen\nEmpty \nbeaker\nSilt\nFine\nsand\nScreen\nEmpty \nbeaker\nCoarse\nsand\nScreen\nEmpty \nbeaker\nFine\npebbles\nScreen\nEmpty \nbeaker\nCoarse\npebbles\nScreen\nEmpty \nbeaker\nWater Retention\nParticle Type\n(size)\nWater Retained\n(mL)\nCoarse pebbles\n7\nFine pebbles\n15\nCoarse sand\n32\nFine sand\n38\nSilt\n46",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Compared to the relative amount of time that star A remains in the main sequence, state how the relative amount of time that star C remains in the main sequence is different. Explain why this amount of time is different.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the passage and the Characteristics of Stars graph below, \nand your knowledge of Earth science. Letters A, B, and C represent main sequence stars on the graph. The giant \nstar Aldebaran is also shown.\nGlobular Star Clusters\nGlobular star clusters appear as small, hazy spots among the other stars. These \nclusters are groups of hundreds of thousands of stars held together by gravity. Individual \nstars within a cluster can be seen by using powerful telescopes, allowing scientists to \ndetermine their luminosities and temperatures.\nAll of the stars in a given cluster formed at the same time. In young clusters, most \nof the stars are classi\ufb01 ed as main sequence stars. As the stars in a cluster age, they \neventually use up their core hydrogen and expand, changing from main sequence stars \nto giants. The most massive main sequence stars become supergiants. The less massive a \nstar is in the cluster, the longer it remains a main sequence star. Over time, the number \nof main sequence stars in a cluster decreases. \nCharacteristics of Stars\nColor\nSurface Temperature (K)\n0.0001\n0.001\n0.01\n0.1\n1\n10\n100\n1,000\n10,000\n100,000\n1,000,000\nLuminosity\n(Rate at which a star emits energy relative to the Sun)\n20,000\n10,000 8,000\n6,000\n4,000\n3,000\nBlue\nBlue White\nWhite\nYellow\n2,000\nRed\nOrange\nSUPERGIANTS\n(Intermediate stage)\n(Intermediate stage)\nGIANTS\nAldebaran\nSmall\nStars\nMassive\nStars\nWHITE DWARFS\n(Late stage)\nMAIN SEQU\nENCE\n(Early stage)\n30,000\nB\nA\nC\n\n P.S./E. Sci.\u2013Jan. \u201918 \n[17] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "The globular star cluster containing stars A, B, and C is located in the same galaxy as our Sun. Identify the name of this galaxy.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the passage and the Characteristics of Stars graph below, \nand your knowledge of Earth science. Letters A, B, and C represent main sequence stars on the graph. The giant \nstar Aldebaran is also shown.\nGlobular Star Clusters\nGlobular star clusters appear as small, hazy spots among the other stars. These \nclusters are groups of hundreds of thousands of stars held together by gravity. Individual \nstars within a cluster can be seen by using powerful telescopes, allowing scientists to \ndetermine their luminosities and temperatures.\nAll of the stars in a given cluster formed at the same time. In young clusters, most \nof the stars are classi\ufb01 ed as main sequence stars. As the stars in a cluster age, they \neventually use up their core hydrogen and expand, changing from main sequence stars \nto giants. The most massive main sequence stars become supergiants. The less massive a \nstar is in the cluster, the longer it remains a main sequence star. Over time, the number \nof main sequence stars in a cluster decreases. \nCharacteristics of Stars\nColor\nSurface Temperature (K)\n0.0001\n0.001\n0.01\n0.1\n1\n10\n100\n1,000\n10,000\n100,000\n1,000,000\nLuminosity\n(Rate at which a star emits energy relative to the Sun)\n20,000\n10,000 8,000\n6,000\n4,000\n3,000\nBlue\nBlue White\nWhite\nYellow\n2,000\nRed\nOrange\nSUPERGIANTS\n(Intermediate stage)\n(Intermediate stage)\nGIANTS\nAldebaran\nSmall\nStars\nMassive\nStars\nWHITE DWARFS\n(Late stage)\nMAIN SEQU\nENCE\n(Early stage)\n30,000\nB\nA\nC\n\n P.S./E. Sci.\u2013Jan. \u201918 \n[17] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify the nuclear process that uses up a star\u2019s core hydrogen and produces the energy released by stars in a globular cluster.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the passage and the Characteristics of Stars graph below, \nand your knowledge of Earth science. Letters A, B, and C represent main sequence stars on the graph. The giant \nstar Aldebaran is also shown.\nGlobular Star Clusters\nGlobular star clusters appear as small, hazy spots among the other stars. These \nclusters are groups of hundreds of thousands of stars held together by gravity. Individual \nstars within a cluster can be seen by using powerful telescopes, allowing scientists to \ndetermine their luminosities and temperatures.\nAll of the stars in a given cluster formed at the same time. In young clusters, most \nof the stars are classi\ufb01 ed as main sequence stars. As the stars in a cluster age, they \neventually use up their core hydrogen and expand, changing from main sequence stars \nto giants. The most massive main sequence stars become supergiants. The less massive a \nstar is in the cluster, the longer it remains a main sequence star. Over time, the number \nof main sequence stars in a cluster decreases. \nCharacteristics of Stars\nColor\nSurface Temperature (K)\n0.0001\n0.001\n0.01\n0.1\n1\n10\n100\n1,000\n10,000\n100,000\n1,000,000\nLuminosity\n(Rate at which a star emits energy relative to the Sun)\n20,000\n10,000 8,000\n6,000\n4,000\n3,000\nBlue\nBlue White\nWhite\nYellow\n2,000\nRed\nOrange\nSUPERGIANTS\n(Intermediate stage)\n(Intermediate stage)\nGIANTS\nAldebaran\nSmall\nStars\nMassive\nStars\nWHITE DWARFS\n(Late stage)\nMAIN SEQU\nENCE\n(Early stage)\n30,000\nB\nA\nC\n\n P.S./E. Sci.\u2013Jan. \u201918 \n[17] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw the 50-ft and 55-ft contour lines. The contour lines must extend to the edges of the map.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the topographic map in your answer booklet and on your \nknowledge of Earth science. Points A and B represent locations on Earth\u2019s surface. Elevations are shown in feet. \nThe 50-ft and 55-ft contour lines are not shown on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Calculate the gradient between points A and B.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the topographic map in your answer booklet and on your \nknowledge of Earth science. Points A and B represent locations on Earth\u2019s surface. Elevations are shown in feet. \nThe 50-ft and 55-ft contour lines are not shown on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Identify the general compass direction toward which Ames Stream \ufb02 ows. Describe the contour line evidence shown on the map that supports your answer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the topographic map in your answer booklet and on your \nknowledge of Earth science. Points A and B represent locations on Earth\u2019s surface. Elevations are shown in feet. \nThe 50-ft and 55-ft contour lines are not shown on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw one curved arrow between 0\u00b0 and 30\u00b0 N to indicate the direction of prevailing planetary winds between these latitudes.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows an imaginary continent on a planet that has climate conditions similar to Earth. \nThe continent is surrounded by oceans. Points A through D represent locations on the continent.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Compared to the average air temperature and the average moisture conditions at A, describe how the relative average air temperature and the relative average moisture conditions at B are different.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows an imaginary continent on a planet that has climate conditions similar to Earth. \nThe continent is surrounded by oceans. Points A through D represent locations on the continent.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Identify the primary factor that causes location C to have a colder climate than location D.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows an imaginary continent on a planet that has climate conditions similar to Earth. \nThe continent is surrounded by oceans. Points A through D represent locations on the continent.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify the Earth motion that causes the daytime-nighttime boundary to appear to move.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the map below and on your knowledge of Earth science. \nThe map shows areas of daylight and darkness in New York State on March 21. Six locations are labeled on the \nmap.\n76\u00b0\n77\u00b0\n78\u00b0\n79\u00b0\nDaytime-Nighttime\nboundary\n42\u00b0\n43\u00b0\n75\u00b0\n74\u00b0\n79\u00b0\n78\u00b0\n77\u00b0\n76\u00b0\n75\u00b0\n74\u00b0\n73\u00b0\n45\u00b0\n44\u00b0\n43\u00b0\n42\u00b0\n41\u00b0\nBuffalo\nElmira\nWatertown\nAlbany\nSlide Mt.\nN\nSyracuse\n73\u00b0",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "State the number of hours of nighttime that people in Syracuse will experience on March 21.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the map below and on your knowledge of Earth science. \nThe map shows areas of daylight and darkness in New York State on March 21. Six locations are labeled on the \nmap.\n76\u00b0\n77\u00b0\n78\u00b0\n79\u00b0\nDaytime-Nighttime\nboundary\n42\u00b0\n43\u00b0\n75\u00b0\n74\u00b0\n79\u00b0\n78\u00b0\n77\u00b0\n76\u00b0\n75\u00b0\n74\u00b0\n73\u00b0\n45\u00b0\n44\u00b0\n43\u00b0\n42\u00b0\n41\u00b0\nBuffalo\nElmira\nWatertown\nAlbany\nSlide Mt.\nN\nSyracuse\n73\u00b0",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "State the name of the location labeled on this map where sunset will next be observed after Syracuse.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the map below and on your knowledge of Earth science. \nThe map shows areas of daylight and darkness in New York State on March 21. Six locations are labeled on the \nmap.\n76\u00b0\n77\u00b0\n78\u00b0\n79\u00b0\nDaytime-Nighttime\nboundary\n42\u00b0\n43\u00b0\n75\u00b0\n74\u00b0\n79\u00b0\n78\u00b0\n77\u00b0\n76\u00b0\n75\u00b0\n74\u00b0\n73\u00b0\n45\u00b0\n44\u00b0\n43\u00b0\n42\u00b0\n41\u00b0\nBuffalo\nElmira\nWatertown\nAlbany\nSlide Mt.\nN\nSyracuse\n73\u00b0",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "State the altitude of Polaris as seen by an observer on Slide Mountain.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the map below and on your knowledge of Earth science. \nThe map shows areas of daylight and darkness in New York State on March 21. Six locations are labeled on the \nmap.\n76\u00b0\n77\u00b0\n78\u00b0\n79\u00b0\nDaytime-Nighttime\nboundary\n42\u00b0\n43\u00b0\n75\u00b0\n74\u00b0\n79\u00b0\n78\u00b0\n77\u00b0\n76\u00b0\n75\u00b0\n74\u00b0\n73\u00b0\n45\u00b0\n44\u00b0\n43\u00b0\n42\u00b0\n41\u00b0\nBuffalo\nElmira\nWatertown\nAlbany\nSlide Mt.\nN\nSyracuse\n73\u00b0",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a pro\ufb01 le along line AB by plotting the thickness of the ice sheet where each isoline crosses line AB. Thicknesses of the ice sheet at A and B have been plotted on the grid. Connect all twelve plots with a line from A to B to complete the pro\ufb01 le.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the map and passage below and on your knowledge of \nEarth science. The map shows isolines that represent the thickness of a portion of the Greenland Ice Sheet in \nmeters (m). Letters A and B represent points on the ice sheet\u2019s surface.\nBaffin\nBay\n500\n2500\n3000\n1000\n1500\n2000\n2000\n1500\n1000\n500\n2500\nGreenland\nSea\n0\n0\nThickness of Greenland Ice Sheet\nA\nB\nN\nGreenland Ice Sheet\nThe Greenland Ice Sheet is a vast body of ice covering roughly 80 percent of the \nsurface of Greenland. The ice sheet is almost 2400 kilometers long in a north-south \ndirection. The ice sheet, consisting of layers of snow compressed over more than 100,000 \nyears, contains a valuable record about Earth\u2019s past climates. The ice sheet glaciers \ncontinue to \ufb02 ow seaward and deposit sediment, but global warming has affected them. \nWarmer air temperatures have caused increased melting, resulting in a thinning of the \nice sheet and faster glacial movement at the ice sheet edges.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Describe one glacial feature that could be found on the exposed surface bedrock of Greenland that would indicate the direction that the ice moved.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the map and passage below and on your knowledge of \nEarth science. The map shows isolines that represent the thickness of a portion of the Greenland Ice Sheet in \nmeters (m). Letters A and B represent points on the ice sheet\u2019s surface.\nBaffin\nBay\n500\n2500\n3000\n1000\n1500\n2000\n2000\n1500\n1000\n500\n2500\nGreenland\nSea\n0\n0\nThickness of Greenland Ice Sheet\nA\nB\nN\nGreenland Ice Sheet\nThe Greenland Ice Sheet is a vast body of ice covering roughly 80 percent of the \nsurface of Greenland. The ice sheet is almost 2400 kilometers long in a north-south \ndirection. The ice sheet, consisting of layers of snow compressed over more than 100,000 \nyears, contains a valuable record about Earth\u2019s past climates. The ice sheet glaciers \ncontinue to \ufb02 ow seaward and deposit sediment, but global warming has affected them. \nWarmer air temperatures have caused increased melting, resulting in a thinning of the \nice sheet and faster glacial movement at the ice sheet edges.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Identify two major greenhouse gases that are inferred to contribute to global warming and increased temperatures in Greenland.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the map and passage below and on your knowledge of \nEarth science. The map shows isolines that represent the thickness of a portion of the Greenland Ice Sheet in \nmeters (m). Letters A and B represent points on the ice sheet\u2019s surface.\nBaffin\nBay\n500\n2500\n3000\n1000\n1500\n2000\n2000\n1500\n1000\n500\n2500\nGreenland\nSea\n0\n0\nThickness of Greenland Ice Sheet\nA\nB\nN\nGreenland Ice Sheet\nThe Greenland Ice Sheet is a vast body of ice covering roughly 80 percent of the \nsurface of Greenland. The ice sheet is almost 2400 kilometers long in a north-south \ndirection. The ice sheet, consisting of layers of snow compressed over more than 100,000 \nyears, contains a valuable record about Earth\u2019s past climates. The ice sheet glaciers \ncontinue to \ufb02 ow seaward and deposit sediment, but global warming has affected them. \nWarmer air temperatures have caused increased melting, resulting in a thinning of the \nice sheet and faster glacial movement at the ice sheet edges.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "On the graph in your answer booklet, plot the percentage of stable disintegration product for each of the times shown on the data table and connect all \ufb01 ve plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the data table below, on the graph in your answer booklet, \nand on your knowledge of Earth science. The data table shows the percentage of the stable disintegration product \nproduced over time by the radioactive decay of isotope X after each half-life. The graph shows the percentage of \nradioactive isotope X remaining over time during the radioactive decay of isotope X.\nDisintegration Product of Isotope X\nPercentage of Stable\nDisintegration Product\n(%)\nTime\n(years)\nNumber of\nHalf-Lives\n0\n0\n0\n50\n5700\n1\n75\n11,400\n2\n87.5\n17,100\n3\n93.75\n22,800\n4",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Determine the number of years (y) it takes for only 25% of radioactive isotope X to remain in a sample.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the data table below, on the graph in your answer booklet, \nand on your knowledge of Earth science. The data table shows the percentage of the stable disintegration product \nproduced over time by the radioactive decay of isotope X after each half-life. The graph shows the percentage of \nradioactive isotope X remaining over time during the radioactive decay of isotope X.\nDisintegration Product of Isotope X\nPercentage of Stable\nDisintegration Product\n(%)\nTime\n(years)\nNumber of\nHalf-Lives\n0\n0\n0\n50\n5700\n1\n75\n11,400\n2\n87.5\n17,100\n3\n93.75\n22,800\n4",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Identify radioactive isotope X and its stable disintegration product.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the data table below, on the graph in your answer booklet, \nand on your knowledge of Earth science. The data table shows the percentage of the stable disintegration product \nproduced over time by the radioactive decay of isotope X after each half-life. The graph shows the percentage of \nradioactive isotope X remaining over time during the radioactive decay of isotope X.\nDisintegration Product of Isotope X\nPercentage of Stable\nDisintegration Product\n(%)\nTime\n(years)\nNumber of\nHalf-Lives\n0\n0\n0\n50\n5700\n1\n75\n11,400\n2\n87.5\n17,100\n3\n93.75\n22,800\n4",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw a dot (\u2022) on the Moon at position 2 to indicate the location of crater C when the Moon is at position 2.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 75 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents two positions of the Moon as it orbits Earth. Positions 1 and 2 are on \nopposite sides of Earth. Point C represents the location of a crater on the Moon\u2019s surface when the Moon is at \nposition 1.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, place an X on the Moon\u2019s orbit to indicate the position of the Moon when a lunar eclipse could be viewed from Earth.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 75 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents two positions of the Moon as it orbits Earth. Positions 1 and 2 are on \nopposite sides of Earth. Point C represents the location of a crater on the Moon\u2019s surface when the Moon is at \nposition 1.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Determine the number of days needed for the Moon to move from position 1 to position 2, completing one-half of its orbit.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 75 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents two positions of the Moon as it orbits Earth. Positions 1 and 2 are on \nopposite sides of Earth. Point C represents the location of a crater on the Moon\u2019s surface when the Moon is at \nposition 1.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, shade the portion of the Moon that is in darkness as viewed from New York State when the Moon is at position 1.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 75 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents two positions of the Moon as it orbits Earth. Positions 1 and 2 are on \nopposite sides of Earth. Point C represents the location of a crater on the Moon\u2019s surface when the Moon is at \nposition 1.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Complete the table in your answer booklet with the actual weather conditions represented by the weather station model at Atlanta, Georgia.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the weather map below and on your knowledge of Earth \nscience. On the weather map, the location of the center of a high-pressure system (H) and a front are shown. \nIsobar values are labeled in millibars (mb). Weather station models represent the weather conditions at Atlanta, \nGeorgia, and Tampa, Florida.\nH\n73\n75\n171\n232\n58\nN\n1016\n1012\n1016\n1020\n1028\n48\nAtlanta\nTampa\n1024\n1024",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify the type of front shown on the map.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the weather map below and on your knowledge of Earth \nscience. On the weather map, the location of the center of a high-pressure system (H) and a front are shown. \nIsobar values are labeled in millibars (mb). Weather station models represent the weather conditions at Atlanta, \nGeorgia, and Tampa, Florida.\nH\n73\n75\n171\n232\n58\nN\n1016\n1012\n1016\n1020\n1028\n48\nAtlanta\nTampa\n1024\n1024",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Describe one piece of evidence shown on the map that indicates that Tampa, Florida, has a high probability of precipitation.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the weather map below and on your knowledge of Earth \nscience. On the weather map, the location of the center of a high-pressure system (H) and a front are shown. \nIsobar values are labeled in millibars (mb). Weather station models represent the weather conditions at Atlanta, \nGeorgia, and Tampa, Florida.\nH\n73\n75\n171\n232\n58\nN\n1016\n1012\n1016\n1020\n1028\n48\nAtlanta\nTampa\n1024\n1024",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify the names of the tectonic plates at locations A and B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the map below and on your knowledge of Earth science. \nThe map shows the surface location of a tectonic plate boundary along the western coast of South America. The \nMid-Atlantic Ridge is also shown. Points A through D represent locations on Earth\u2019s surface.\nSouth America\nPacific \nOcean\nB\nC\nN\nMid-Atlantic Ridge\nAtlantic \nOcean\nA\nBoundary\nSurface\nPlate\nD",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Compared to the relative age of the surface oceanic bedrock at location C, state the relative age of the surface oceanic bedrock at location D. Explain why this difference in relative age occurs.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the map below and on your knowledge of Earth science. \nThe map shows the surface location of a tectonic plate boundary along the western coast of South America. The \nMid-Atlantic Ridge is also shown. Points A through D represent locations on Earth\u2019s surface.\nSouth America\nPacific \nOcean\nB\nC\nN\nMid-Atlantic Ridge\nAtlantic \nOcean\nA\nBoundary\nSurface\nPlate\nD",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Identify the term for the large ocean wave produced by offshore earthquakes that is hazardous to humans living along the west coast of South America. Describe one emergency action that should be taken to avoid loss of life when a warning for an approaching large wave has been given.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the map below and on your knowledge of Earth science. \nThe map shows the surface location of a tectonic plate boundary along the western coast of South America. The \nMid-Atlantic Ridge is also shown. Points A through D represent locations on Earth\u2019s surface.\nSouth America\nPacific \nOcean\nB\nC\nN\nMid-Atlantic Ridge\nAtlantic \nOcean\nA\nBoundary\nSurface\nPlate\nD",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Complete the table in your answer booklet by writing the missing information represented by letters A through D.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the \ufb02 owchart below and on your knowledge of Earth \nscience. Letters A through D represent information that is missing in the chart.\nRock\nSedimentary\nA\nBasalt\nGabbro\nIgneous \nD\nPhyllite\nFoliated\nNonfoliated\nRock salt\nCrystalline\nC\nSandstone\nClastic\nFine\nB\nExample\nExample\nExample\nExample\nExample\nExample\nExample\nBioclastic\nTexture\nTexture\nTexture",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Identify the two elements that make up the chemical composition of the mineral in rock salt.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the \ufb02 owchart below and on your knowledge of Earth \nscience. Letters A through D represent information that is missing in the chart.\nRock\nSedimentary\nA\nBasalt\nGabbro\nIgneous \nD\nPhyllite\nFoliated\nNonfoliated\nRock salt\nCrystalline\nC\nSandstone\nClastic\nFine\nB\nExample\nExample\nExample\nExample\nExample\nExample\nExample\nBioclastic\nTexture\nTexture\nTexture",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "The pie graph below shows the percentages of four minerals that compose the igneous rock gabbro. Letter X represents one of the minerals. X Pyroxene Amphibole Olivine Identify the mineral represented by letter X in the graph.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the \ufb02 owchart below and on your knowledge of Earth \nscience. Letters A through D represent information that is missing in the chart.\nRock\nSedimentary\nA\nBasalt\nGabbro\nIgneous \nD\nPhyllite\nFoliated\nNonfoliated\nRock salt\nCrystalline\nC\nSandstone\nClastic\nFine\nB\nExample\nExample\nExample\nExample\nExample\nExample\nExample\nBioclastic\nTexture\nTexture\nTexture",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify the name of one foliated rock formed when phyllite undergoes increased heat and pressure. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2018/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the \ufb02 owchart below and on your knowledge of Earth \nscience. Letters A through D represent information that is missing in the chart.\nRock\nSedimentary\nA\nBasalt\nGabbro\nIgneous \nD\nPhyllite\nFoliated\nNonfoliated\nRock salt\nCrystalline\nC\nSandstone\nClastic\nFine\nB\nExample\nExample\nExample\nExample\nExample\nExample\nExample\nBioclastic\nTexture\nTexture\nTexture",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

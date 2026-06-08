@@ -1,0 +1,481 @@
+{
+  "subject": "algebra-2",
+  "session": "august-2017",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The function is undefined when x equals",
+      "choices": [
+        "2 or \u00024",
+        "4 or \u00022",
+        "3, only",
+        "2, only"
+      ],
+      "image": "/images/exams/algebra-2/august-2017/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to (3k \u0002 2i)2 , where i is the imaginary unit?",
+      "choices": [
+        "9k2 \u00024",
+        "9k2 \u0003 4",
+        "9k2 \u0002 12ki \u00024",
+        "9k2 \u0002 12ki \u0003 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The roots of the equation x2 \u0003 2x \u0003 5 \u0004 0 are",
+      "choices": [
+        "\u00023 and 1",
+        "\u00021, only",
+        "\u00021 \u0003 2i and \u00021 \u0002 2i",
+        "\u00021 \u0003 4i and \u00021 \u0002 4i"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The solution set for the equation is",
+      "choices": [
+        "{\u00026}",
+        "{2}",
+        "{18}",
+        "{2, 22}"
+      ],
+      "image": "/images/exams/algebra-2/august-2017/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "As x increases from 0 to , the graph of the equation y \u0004 2 tan x will",
+      "choices": [
+        "increase from 0 to 2",
+        "decrease from 0 to \u00022",
+        "increase without limit",
+        "decrease without limit \u03c0 2 x x \u0003 \u0002 \u0003 \u0004 14 5 1 2 f x x x x ( ) \u0004 \u0002 \u0003 \u0002 3 2 8 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which equation represents a parabola with the focus at (0, \u00021) and the directrix y \u0004 1?",
+      "choices": [
+        "x2 \u0004 \u00028y",
+        "x2 \u0004 \u00024y",
+        "x2 \u0004 8y",
+        "x2 \u0004 4y"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which diagram represents an angle, \u03b1, measuring radians drawn in standard position, and its reference angle, \u03b8? 13 20 \u03c0 \u03b8 \u03b1 \u03b8 \u03b1 \u03b8 \u03b1 \u03b8 \u03b1",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/august-2017/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "What are the zeros of P(m) \u0004 (m2 \u0002 4)(m2 \u0003 1)?",
+      "choices": [
+        "2 and \u00022, only",
+        "2, \u00022, and \u00024",
+        "\u00024, i, and \u0002i",
+        "2, \u00022, i, and \u0002i"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The value of a new car depreciates over time. Greg purchased a new car in June 2011. The value, V, of his car after t years can be modeled by the equation log0.8 What is the average decreasing rate of change per year of the value of the car from June 2012 to June 2014, to the nearest ten dollars per year?",
+      "choices": [
+        "1960",
+        "2180",
+        "2450",
+        "2770"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Iridium-192 is an isotope of iridium and has a half-life of 73.83 days. If a laboratory experiment begins with 100 grams of Iridium-192, the number of grams, A, of Iridium-192 present after t days would be A \u0004 100 . Which equation approximates the amount of Iridium-192 present after t days?",
+      "choices": [
+        "A \u0004 100",
+        "A \u0004 100 0",
+        "A \u0004 100(0.990656)t",
+        "A \u0004 100(0.116381)t"
+      ],
+      "image": "/images/exams/algebra-2/august-2017/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The distribution of the diameters of ball bearings made under a given manufacturing process is normally distributed with a mean of 4 cm and a standard deviation of 0.2 cm. What proportion of the ball bearings will have a diameter less than 3.7 cm?",
+      "choices": [
+        "0.0668",
+        "0.4332",
+        "0.8664",
+        "0.9500 1 147 66 . ( ) t 73 83 2 . ( ) t 1 2 73 83 ( ) t . V t 17000 ( ) \u0004"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A polynomial equation of degree three, p(x), is used to model the volume of a rectangular box. The graph of p(x) has x intercepts at \u00022, 10, and 14. Which statements regarding p(x) could be true? A. The equation of p(x) \u0004 (x \u0002 2)(x \u0003 10)(x \u0003 14). B. The equation of p(x) \u0004 \u0002(x \u0003 2)(x \u0002 10)(x \u0002 14). C. The maximum volume occurs when x \u0004 10. D. The maximum volume of the box is approximately 56.",
+      "choices": [
+        "A and C",
+        "A and D",
+        "B and C",
+        "B and D"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to , where",
+      "choices": [
+        "2x2 \u0003 x \u0003 5",
+        "",
+        "2x2 \u0002 x \u0003 5",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/august-2017/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The inverse of the function is",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/august-2017/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which expression has been rewritten correctly to form a true statement?",
+      "choices": [
+        "(x \u0003 2)2 \u0003 2(x \u0003 2)\u0002 8 \u0004 (x \u0003 6)x",
+        "x4\u0003 4x2 \u0003 9x2y2 \u0002 36y2 \u0004 (x \u0003 3y)2 (x \u0002 2)2",
+        "x3\u0003 3x2\u0002 4xy2 \u0002 12y2 \u0004 (x \u0002 2y) (x \u0003 3)2",
+        "(x2 \u0002 4)2 \u0002 5(x2 \u0002 4)\u0002 6 \u0004 (x2 \u0002 7)(x2 \u0002 6) x \u22601 2 ? 4x x x 3 9 5 2 1 \u0003 \u0002 \u0002 f x x x \u0002 \u0004 \u0003 \u0002 1 2 1 1 ( ) f x x x \u0002 \u0004 \u0002 \u0003 1 1 1 ( ) f x x x \u0002 \u0004 \u0003 \u0003 1 1 2 ( ) f x x x \u0002 \u0004 \u0003 \u0002 1 1 2 ( ) f x x x ( ) \u0004 \u0003 \u0002 1 2 2 11 2 1 2 2 1 2 x x \u0003 \u0003 \u0002 ( ) 2 4 1 2 1 2 x x x \u0002 \u0003 \u0003 \u0002"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A study conducted in 2004 in New York City found that 212 out of 1334 participants had hypertension. Kim ran a simulation of 100 studies based on these data. The output of the simulation is shown in the diagram below. At a 95% confidence level, the proportion of New York City residents with hypertension and the margin of error are closest to",
+      "choices": [
+        "proportion \u0002 .16; margin of error \u0002 .01",
+        "proportion \u0002 .16; margin of error \u0002 .02",
+        "proportion \u0002 .01; margin of error \u0002 .16",
+        "proportion \u0002 .02; margin of error \u0002 .16"
+      ],
+      "image": "/images/exams/algebra-2/august-2017/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which scenario is best described as an observational study?",
+      "choices": [
+        "For a class project, students in Health class ask every tenth student entering the school if they eat breakfast in the morning.",
+        "A social researcher wants to learn whether or not there is a link between attendance and grades. She gathers data from 15 school districts.",
+        "A researcher wants to learn whether or not there is a link between children\u2019s daily amount of physical activity and their overall energy level. During lunch at the local high school, she distributed a short questionnaire to students in the cafeteria.",
+        "Sixty seniors taking a course in Advanced Algebra Concepts are randomly divided into two classes. One class uses a graphing calculator all the time, and the other class never uses graphing calculators. A guidance counselor wants to determine whether there is a link between graphing calculator use and students\u2019 final exam grades. \u0002\u0003\u0004\u0005 \u0002\u0003\u0004\u0006 \u0002\u0003\u0004\u0007 \u0002\u0003\u0004\b \u0002\u0003\u0004 \u0002\u0003\u0004 \u0002 \b \u0004 \u0002\u0003\u0004 \u0002\u0003\u0004\u0005\u0004\u0003\u0006\u0007\u0004\b \u0004 \u000e\u000f\u000f\u000e\u000f \u0010\u0003\u000e\u0011 \u000e\b \u0012"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "written",
+      "text": "Which sinusoid has the greatest amplitude?",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2017/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Consider the system shown below. 2x \u0002 y \u0004 4 (x \u0003 3)2 \u0003 y2 \u0004 8 The two solutions of the system can be described as",
+      "choices": [
+        "both imaginary",
+        "both irrational",
+        "both rational",
+        "one rational and one irrational"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which binomial is not a factor of the expression x3 \u0002 11x2 \u0003 16x \u0003 84?",
+      "choices": [
+        "x \u0003 2",
+        "x \u0003 4",
+        "x \u0002 6",
+        "x \u0002 7"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A ball is dropped from a height of 32 feet. It bounces and rebounds 80% of the height from which it was falling. What is the total downward distance, in feet, the ball traveled up to the 12th bounce?",
+      "choices": [
+        "",
+        "",
+        "",
+        "x 1 \u00023 y 5 1 5 \u00025 y \u0004 3 sin (\u0005\u00023) \u0003 5 y \u0004 \u00025 sin (\u0005\u00021) \u0002 3 y x 7 1 \u00021 \u00022 1 10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A public opinion poll was conducted on behalf of Mayor Ortega\u2019s reelection campaign shortly before the election. 264 out of 550 likely voters said they would vote for Mayor Ortega; the rest said they would vote for his opponent. Which statement is least appropriate to make, according to the results of the poll?",
+      "choices": [
+        "There is a 48% chance that Mayor Ortega will win the election.",
+        "The point estimate (\u02c6p) of voters who will vote for Mayor Ortega is 48%.",
+        "It is most likely that between 44% and 52% of voters will vote for Mayor Ortega.",
+        "Due to the margin of error, an inference cannot be made regarding whether Mayor Ortega or his opponent is most likely to win the election."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "What does ( ) equal?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/august-2017/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The Rickerts decided to set up an account for their daughter to pay for her college education. The day their daughter was born, they deposited $1000 in an account that pays 1.8% compounded annually. Beginning with her first birthday, they deposit an additional $750 into the account on each of her birthdays. Which expression correctly represents the amount of money in the account n years after their daughter was born?",
+      "choices": [
+        "an \u0004 1000(1.018)n \u0003 750",
+        "an \u0004 1000(1.018)n \u0003 750n",
+        "a0 \u0004 1000 an \u0004 an\u00021(1.018) \u0003 750",
+        "a0 \u0004 1000 an \u0004 an\u00021(1.018) \u0003 750n 2 3 \u000254 9 4 x y 9 4 6 3 2 3 2 ix y y 9 4 6 3 2 3 2 x y y 9 4 6 3 3 2 ix y y 9 4 6 3 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Explain how can be evaluated using properties of rational exponents to result in an integer answer.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "A study was designed to test the effectiveness of a new drug. Half of the volunteers received the drug. The other half received a sugar pill. The probability of a volunteer receiving the drug and getting well was 40%. What is the probability of a volunteer getting well, given that the volunteer received the drug? ( ) \u00028 4 3 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Verify the following Pythagorean identity for all values of x and y: (x2 \u0003 y2)2 \u0004 (x2 \u0002 y2)2 \u0003 (2xy)2",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Mrs. Jones had hundreds of jelly beans in a bag that contained equal numbers of six different flavors. Her student randomly selected four jelly beans and they were all black licorice. Her student complained and said \u201cWhat are the odds I got all of that kind?\u201d Mrs. Jones replied, \u201csimulate rolling a die 250 times and tell me if four black licorice jelly beans is unusual.\u201d",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "While experimenting with her calculator, Candy creates the sequence 4, 9, 19, 39, 79, \u2026",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "In New York State, the minimum wage has grown exponentially. In 1966, the minimum wage was $1.25 an hour and in 2015, it was $8.75. Algebraically determine the rate of growth to the nearest percent.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Algebraically determine whether the function j(x) \u0004 x4 \u0002 3x2 \u0002 4 is odd, even,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "On the axes below, sketch a possible function p(x) \u0004 (x \u0002 a)(x \u0002 b)(x \u0003 c), where a, b, and c are positive, a \u0006 b, and p(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2017/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Solve for all values of p: 3 2 3 3 p p p p p \u0002 \u0002 \u0003 \u0004 \u0003 5 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2017/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Simon lost his library card and has an overdue library book. When the book was 5 days late, he owed $2.25 to replace his library card and pay the fine for the overdue book. When the book was 21 days late, he owed $6.25 to replace his library card and pay the fine for the overdue book. Suppose the total amount Simon owes when the book is n days late can be determined by an arithmetic sequence. Determine a formula for an, the nth term of this sequence. Use the formula to determine the amount of money, in dollars, Simon needs to pay when the book is 60 35 a) On the axes below, sketch at least one cycle of a sine curve with an amplitude of 2, a midline at , and a period of 2\u03c0. b) Explain any differences between a sketch of y \u0004 2 sin ( ) and the sketch from part a. x \u0002 \u03c0 3 \u0002 3 2 y x y \u0004 \u00023 2",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Using a microscope, a researcher observed and recorded the number of bacteria spores on a large sample of uniformly sized pieces of meat kept at room temperature. A summary of the data she recorded is shown in the table below. Using these data, write an exponential regression equation, rounding all values to the nearest thousandth. The researcher knows that people are likely to suffer from food-borne illness if the number of spores exceeds 100. Using the exponential regression equation, determine the maximum amount of time, to the nearest quarter hour, that the meat can be kept at room temperature safely. Hours (x) Average Number of Spores (y) 0 4 0.5 10 1 15 2 60 3 260 4 1130 6 16,380",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2017/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "The value of a certain small passenger car based on its use in years is modeled by V(t) \u0004 28482.698(0.684)t, where V(t) is the value in dollars and t is the time in years. Zach had to take out a loan to purchase the small passenger car. The function Z(t) \u0004 22151.327(0.778)t, where Z(t) is measured in dollars, and t is the time in years, models the unpaid amount of Zach\u2019s loan over time. Graph V(t) and Z(t) over the interval 0 \u0007 t \u0007 5, on the set of axes below. Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, State when V(t) \u0004 Z(t), to the nearest hundredth, and interpret its meaning in the context of the problem. Zach takes out an insurance policy that requires him to pay a $3000 deductible in case of a collision. Zach will cancel the collision policy when the value of his car equals his deductible. To the nearest year, how long will it take Zach to cancel this policy? Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-2/august-2017/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

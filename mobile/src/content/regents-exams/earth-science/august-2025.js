@@ -1,0 +1,507 @@
+// Earth Science Regents — August 2025
+export default {
+  id: 'ea-aug-2025',
+  subject: 'earth-science',
+  year: 2025,
+  session: 'August',
+  totalMinutes: 180,
+  questions: [
+    {
+      number: 1, part: 'A',
+      text: 'A graph of tidal height changes in sea level shows two complete tidal cycles over 24 hours. The number of hours from one low tide to the next low tide is approximately',
+      choices: ['6 h', '18 h', '12 h', '24 h'],
+      topic: 'Astronomy',
+      correct: 2,
+      explanation: 'Tides follow a roughly 12-hour cycle due to the Moon\'s gravitational influence, so the interval from one low tide to the next is approximately 12 hours.',
+      diveDeep: 'Earth experiences two high tides and two low tides approximately every 24 hours because the Moon\'s gravity creates a tidal bulge on both the near and far sides of Earth. As Earth rotates through these bulges, each location experiences two cycles. The semidiurnal period is about 12 hours 25 minutes. Students often confuse the 6-hour interval (from low to high or high to low) with the full cycle. Always read "low tide to next low tide" as one complete cycle.'
+    },
+    {
+      number: 2, part: 'A',
+      text: 'The circles below represent celestial objects made of the same uniform material. The line represents the distance between them. Between which two objects is the gravitational attraction the greatest?',
+      choices: ['Two large objects close together', 'Two large objects far apart', 'Two small objects close together', 'Two small objects far apart'],
+      topic: 'Astronomy',
+      correct: 0,
+      image: '/images/exams/es-august-2025/q2.png',
+      explanation: 'Gravitational attraction is greatest when both the masses are large and the distance between them is small, as described by Newton\'s law of universal gravitation.',
+      diveDeep: 'Newton\'s law of gravitation states F = Gm₁m₂/r². Gravitational force increases with greater mass and decreases with the square of distance. The pair with the largest masses AND smallest separation will always have the greatest attraction. Students frequently overlook that distance is squared, so halving distance quadruples force. When objects have the same material (density), larger circles indicate larger masses.'
+    },
+    {
+      number: 3, part: 'A',
+      text: 'Observations of wavelengths of light emitted from most galaxies show a shift toward the',
+      choices: ['red end of the visible spectrum, indicating that galaxies are moving away from Earth', 'red end of the visible spectrum, indicating that galaxies are moving toward Earth', 'blue end of the visible spectrum, indicating that galaxies are moving away from Earth', 'blue end of the visible spectrum, indicating that galaxies are moving toward Earth'],
+      topic: 'Astronomy',
+      correct: 0,
+      explanation: 'The redshift of light from distant galaxies indicates they are moving away from Earth, which is key evidence supporting the expanding universe and Big Bang theory.',
+      diveDeep: 'The Doppler effect causes light from approaching objects to shift toward shorter (blue) wavelengths and light from receding objects to shift toward longer (red) wavelengths. Since most galaxies show redshift, the universe is expanding in all directions. This was first observed by Edwin Hubble in 1929. Blueshift is seen only in a few nearby galaxies, like Andromeda, which is gravitationally approaching our Milky Way. Students should remember: red = retreating, blue = approaching.'
+    },
+    {
+      number: 4, part: 'A',
+      text: 'The direction of swing of a Foucault pendulum appears to change due to Earth\'s',
+      choices: ['elliptical orbit', 'revolution', 'spherical shape', 'rotation'],
+      topic: 'General',
+      correct: 3,
+      explanation: 'A Foucault pendulum\'s apparent change in swing direction is caused by Earth\'s rotation beneath the freely swinging pendulum.',
+      diveDeep: 'The pendulum swings in a fixed plane relative to the stars (inertial frame). As Earth rotates beneath it, the pendulum appears to change direction. At the North Pole it completes a full 360° rotation in 24 hours; at other latitudes the rate depends on the sine of the latitude. This is direct, observable proof of Earth\'s rotation. Students confuse rotation (spinning on axis) with revolution (orbiting the Sun) — the Foucault pendulum demonstrates rotation only.'
+    },
+    {
+      number: 5, part: 'A',
+      text: 'Which diagram best represents the shape of Earth\'s orbit around the Sun?',
+      choices: ['A nearly circular ellipse with the Sun near one focus', 'A highly elongated ellipse with the Sun at the center', 'A perfect circle with the Sun at the center', 'A parabola with the Sun at the vertex'],
+      topic: 'Astronomy',
+      correct: 0,
+      explanation: 'Earth\'s orbit is a nearly circular ellipse with the Sun located at one focus, not at the center.',
+      diveDeep: 'Kepler\'s First Law states that all planetary orbits are ellipses with the Sun at one focus. Earth\'s orbital eccentricity is about 0.017, making it very close to circular. The eccentricity of a perfect circle is 0. Students often draw or imagine highly elongated ellipses, but Earth\'s orbit deviates from a circle by only about 3% in distance. The Reference Tables list eccentricity values for all planets — Earth\'s is the second smallest after Venus.'
+    },
+    {
+      number: 6, part: 'A',
+      text: 'At which New York State location would an observer measure the greatest altitude of Polaris above the horizon?',
+      choices: ['Riverhead', 'Albany', 'Massena', 'Binghamton'],
+      topic: 'Astronomy',
+      correct: 2,
+      explanation: 'The altitude of Polaris equals the observer\'s latitude, so Massena, the northernmost city in New York State, will observe Polaris at the greatest altitude.',
+      diveDeep: 'Polaris is located nearly directly above Earth\'s North Pole, so its altitude above the horizon equals the observer\'s latitude. New York State spans from about 40.5°N (New York City area) to about 45°N (Massena). Students should memorize the relationship: altitude of Polaris = latitude of observer. This relationship lets you determine latitude using only a simple angle measurement to Polaris at night.'
+    },
+    {
+      number: 7, part: 'A',
+      text: 'Earth\'s rate of revolution around the Sun is approximately',
+      choices: ['1 degree/hour', '15 degrees/hour', '1 degree/day', '15 degrees/day'],
+      topic: 'Astronomy',
+      correct: 2,
+      explanation: 'Earth travels 360° in its orbit around the Sun in approximately 365 days, giving a rate of about 1 degree per day.',
+      diveDeep: 'Revolution refers to Earth\'s orbit around the Sun (one year = ~365 days). Rotation refers to Earth spinning on its axis (once in 24 hours = 15°/hour). A common exam trap is confusing rotation rate (15°/hour) with revolution rate (1°/day). For revolution: 360° ÷ 365 days ≈ 1°/day. For rotation: 360° ÷ 24 hours = 15°/hour. These values appear directly in the Earth Science Reference Tables under "Planetary Data."'
+    },
+    {
+      number: 8, part: 'A',
+      text: 'As the infiltration of water increases and becomes stored in the soil, the amount of groundwater',
+      choices: ['decreases and the water table rises', 'decreases and the water table lowers', 'increases and the water table rises', 'increases and the water table lowers'],
+      topic: 'Water Cycle',
+      correct: 2,
+      explanation: 'When infiltration increases, more water percolates into the ground, adding to groundwater storage and raising the water table.',
+      diveDeep: 'The water table is the upper boundary of the saturated zone in soil and rock. When infiltration increases — due to rain, permeable soils, or reduced runoff — more water enters the groundwater system, causing the water table to rise. Conversely, during drought or increased runoff (e.g., paved surfaces), infiltration decreases and the water table drops. Students must track the cause-and-effect chain: more infiltration → more groundwater → higher water table.'
+    },
+    {
+      number: 9, part: 'A',
+      text: 'Equal volumes of water were poured through four well-sorted soil samples each containing differently sized particles. Which particle size would have the greatest amount of water retention?',
+      choices: ['silt', 'pebbles', 'sand', 'cobbles'],
+      topic: 'Geology',
+      correct: 0,
+      explanation: 'Silt has the smallest particles among the choices, giving it the greatest surface area and capillary spaces, resulting in the highest water retention.',
+      diveDeep: 'Water retention (capillarity) is inversely related to particle size. Smaller particles have more surface area and smaller pore spaces, holding water through surface tension and capillary forces. Silt retains more water than sand, which retains more than pebbles or cobbles. However, permeability (flow rate) is the opposite — larger particles let water flow through faster. Students frequently confuse retention with permeability. Clay retains even more water than silt but has the lowest permeability.'
+    },
+    {
+      number: 10, part: 'A',
+      text: 'Below are four steps involved in the formation of a cloud. A. air expands and air temperature decreases  B. air rises upward through the atmosphere  C. air temperature equals the dew point  D. condensation of excess water vapor  What is the correct sequence of these steps involved in the formation of a cloud?',
+      choices: ['A → B → D → C', 'A → C → B → D', 'B → A → C → D', 'B → D → A → C'],
+      topic: 'Meteorology',
+      correct: 2,
+      explanation: 'Air must first rise, then expand and cool as pressure decreases, then reach the dew point, and finally condense to form cloud droplets.',
+      diveDeep: 'Cloud formation follows this sequence: rising air (B) encounters lower pressure and expands (A), causing adiabatic cooling. When the temperature drops to the dew point (C), water vapor condenses on condensation nuclei (D). The key is that rising precedes expansion, and expansion precedes reaching dew point, which precedes condensation. Students sometimes reverse A and B. Remember that air rises first — it is the lifting mechanism that triggers all subsequent steps.'
+    },
+    {
+      number: 11, part: 'A',
+      text: 'A weather station records a dry-bulb temperature of 20°C and a wet-bulb temperature of 14°C. What is the relative humidity?',
+      choices: ['44%', '54%', '64%', '74%'],
+      topic: 'Meteorology',
+      correct: 1,
+      explanation: 'With a dry-bulb of 20°C and a wet-bulb depression of 6°C, the Reference Tables psychrometric chart gives a relative humidity of approximately 54%.',
+      diveDeep: 'A psychrometer measures relative humidity using two thermometers: the dry-bulb reads air temperature, and the wet-bulb (covered in wet cloth) reads lower due to evaporative cooling. The difference (depression) is used with the Reference Tables to find relative humidity. A larger depression means drier air. Students must practice using the psychrometric table carefully — locate the dry-bulb temperature on one axis and the depression value on the other. Relative humidity of 100% means no depression (both thermometers read the same).'
+    },
+    {
+      number: 12, part: 'A',
+      text: 'The diagram below shows rock layers in a cliff face. Which principle states that older rock layers are generally found below younger rock layers?',
+      choices: ['cross-cutting relationships', 'original horizontality', 'superposition', 'uniformitarianism'],
+      topic: 'Geology',
+      correct: 2,
+      image: '/images/exams/es-august-2025/q12.png',
+      explanation: 'The principle of superposition states that in undisturbed rock sequences, older layers are deposited first and lie beneath younger layers.',
+      diveDeep: 'Superposition was formalized by Nicolas Steno in the 17th century. It is the foundational principle of stratigraphy. The principle applies to undisturbed sequences — if layers have been overturned by tectonic activity, index fossils or cross-cutting relationships must be used to determine true age. Original horizontality states layers are deposited flat and parallel; cross-cutting relationships state that intrusions or faults are younger than the rocks they cut. Students should know all four of Steno\'s principles.'
+    },
+    {
+      number: 13, part: 'A',
+      text: 'Which list of forms of electromagnetic energy are correctly arranged from shortest to longest wavelength?',
+      choices: ['ultraviolet, infrared, red light', 'microwaves, blue light, gamma rays', 'radio waves, infrared, violet light', 'X-rays, green light, microwaves'],
+      topic: 'General',
+      correct: 3,
+      explanation: 'X-rays have shorter wavelengths than visible green light, which has shorter wavelengths than microwaves, making this the correct shortest-to-longest sequence.',
+      diveDeep: 'The electromagnetic spectrum from shortest to longest wavelength: gamma rays, X-rays, ultraviolet, visible light (violet through red), infrared, microwaves, radio waves. A helpful mnemonic is "Guys, X-rays Unite Visible Infrared Microwaves and Radio." Students should recognize that higher frequency corresponds to shorter wavelength and more energy. Visible light occupies a narrow range from about 400 nm (violet) to 700 nm (red). The Earth Science Reference Tables show the electromagnetic spectrum diagram.'
+    },
+    {
+      number: 14, part: 'A',
+      text: 'Which list of properties explains why basalt absorbs more heat energy and heats up more quickly than an equal volume of water?',
+      choices: ['light color, smooth surface, and low specific heat', 'light color, rough surface, and high specific heat', 'dark color, rough surface, and low specific heat', 'dark color, smooth surface, and high specific heat'],
+      topic: 'General',
+      correct: 2,
+      explanation: 'Basalt is dark-colored (absorbs more radiation), has a rough surface (increases absorption), and has a lower specific heat than water, so it heats up faster.',
+      diveDeep: 'Three factors affect how quickly a surface heats up: color (dark absorbs more), texture (rough absorbs more due to greater surface area and less reflection), and specific heat (lower specific heat means a smaller amount of energy is needed per degree of temperature rise). Water\'s specific heat is 4.18 J/g·°C while basalt\'s is about 0.84 J/g·°C. Students should look up specific heat values in the Reference Tables. The combination of all three properties explains why land heats faster than ocean.'
+    },
+    {
+      number: 15, part: 'A',
+      text: 'Which surface ocean current warms the east coast of South America?',
+      choices: ['Brazil Current', 'Falkland Current', 'Gulf Stream Current', 'Peru Current'],
+      topic: 'Climate',
+      correct: 0,
+      explanation: 'The Brazil Current flows southward along the east coast of South America carrying warm tropical water, warming that coastline.',
+      diveDeep: 'Warm currents originate near the equator and flow poleward along the east coasts of continents. The Brazil Current is the South Atlantic equivalent of the Gulf Stream. Cold currents, like the Falkland (Malvinas) Current, flow equatorward along west coasts in the Southern Hemisphere and east coasts in the Southern Hemisphere at higher latitudes. Students should use the Reference Tables ocean current map, noting that warm currents are shown as one style and cold currents as another. West coasts at mid-latitudes are typically cooled by upwelling cold currents.'
+    },
+    {
+      number: 16, part: 'A',
+      text: 'Which New York State city is located on bedrock that is between 359 million years old and 416 million years old?',
+      choices: ['Massena', 'Niagara Falls', 'New York City', 'Elmira'],
+      topic: 'Geology',
+      correct: 3,
+      image: '/images/exams/es-august-2025/q16.png',
+      explanation: 'Elmira is located in the Southern Tier of New York on Devonian-age bedrock (359–416 million years old), as shown on the Geologic Map of New York State in the Reference Tables.',
+      diveDeep: 'The New York State Bedrock Geology map in the Reference Tables color-codes surface bedrock by age. Devonian rocks (359–416 Ma) underlie much of the Southern Tier including Elmira. Massena is underlain by much older Precambrian or Ordovician rocks. New York City is underlain by Precambrian metamorphic rocks. Niagara Falls sits on Silurian and Ordovician rocks. Students should practice reading the geologic map to match cities with bedrock ages — this is a common exam skill.'
+    },
+    {
+      number: 17, part: 'A',
+      text: 'A location in Texas in North America was inferred to have been located on the equator approximately',
+      choices: ['75 million years ago', '140 million years ago', '60 million years ago', '500 million years ago'],
+      topic: 'General',
+      correct: 2,
+      image: '/images/exams/es-august-2025/q17.png',
+      explanation: 'Based on the plate tectonic history shown, the Texas location was near the equator about 60 million years ago when North America was positioned closer to the tropics.',
+      diveDeep: 'Paleogeographic maps show the positions of continents at different times in geologic history. Tectonic plate motion moves landmasses over millions of years. The Reference Tables contain diagrams of past continental positions. Evidence for past equatorial locations includes the discovery of coral reef fossils or tropical rock types in now-temperate regions. Students should be comfortable reading paleogeographic maps and inferring when specific locations were at different latitudes based on the Reference Tables tectonic history timeline.'
+    },
+    {
+      number: 18, part: 'A',
+      text: 'Which two groups of life-forms became extinct during the same time?',
+      choices: ['trilobites and graptolites', 'gastropods and brachiopods', 'eurypterids and placoderm fish', 'dinosaurs and ammonoids'],
+      topic: 'General',
+      correct: 3,
+      explanation: 'Dinosaurs and ammonoids both became extinct at the end of the Cretaceous Period approximately 66 million years ago.',
+      diveDeep: 'Mass extinctions appear as abrupt disappearances in the fossil record. The end-Cretaceous (K-Pg) extinction event wiped out non-avian dinosaurs, ammonoids, and many other groups. Trilobites went extinct at the end of the Permian, as did many other groups. Graptolites went extinct earlier, during the Devonian. The Reference Tables Geologic History chart shows the time ranges of index organisms — students can use it to identify which organisms existed at the same time and when they disappeared.'
+    },
+    {
+      number: 19, part: 'A',
+      text: 'Analysis of seismic waves are used for the determination of the',
+      choices: ['frequency of past magnetic pole reversals', 'magnitude of an earthquake', 'rate of tectonic plate motion', 'age of the Mid-Atlantic Ridge'],
+      topic: 'Geology',
+      correct: 1,
+      explanation: 'Seismographs record seismic wave amplitudes, and the Richter or moment magnitude scale uses these recordings to determine earthquake magnitude.',
+      diveDeep: 'Seismographs detect and record three types of seismic waves: P-waves (primary, compressional), S-waves (secondary, shear), and surface waves. The amplitude of surface waves on the seismogram is used to calculate earthquake magnitude using the Richter scale. The travel time difference between P and S waves gives the distance to the epicenter. Students should not confuse magnitude (energy released) with intensity (damage at a specific location). Magnetic pole reversals are determined from rock magnetism, not seismic waves.'
+    },
+    {
+      number: 20, part: 'A',
+      text: 'Which hot spot is located on a divergent plate boundary?',
+      choices: ['Hawaii Hot Spot', 'Tasman Hot Spot', 'Bouvet Hot Spot', 'Canary Islands Hot Spot'],
+      topic: 'Plate Tectonics',
+      correct: 2,
+      image: '/images/exams/es-august-2025/q20.png',
+      explanation: 'The Bouvet Hot Spot is located on the Mid-Atlantic Ridge, which is a divergent plate boundary where plates are moving apart.',
+      diveDeep: 'Hot spots are areas of volcanic activity caused by plumes of hot mantle material rising to the surface. They can occur at any location on a plate, not just at plate boundaries. Hawaii is on the Pacific Plate far from any boundary. The Bouvet Hot Spot lies on the mid-ocean ridge system — a divergent boundary. Iceland is another example of a hot spot sitting on a divergent boundary. Students should practice reading the Reference Tables tectonic plate map to identify boundary types (convergent, divergent, transform) and hot spot locations.'
+    },
+    {
+      number: 21, part: 'A',
+      text: 'Two variables that affect the rate of deposition of sediments in water are',
+      choices: ['shape and density', 'shape and luster', 'hardness and density', 'hardness and luster'],
+      topic: 'Geology',
+      correct: 0,
+      image: '/images/exams/es-august-2025/q21.png',
+      explanation: 'The shape and density of sediment particles determine how quickly they settle in water — rounder, denser particles settle faster.',
+      diveDeep: 'Stokes\' Law describes how particles settle in a fluid: settling velocity depends on particle density, fluid density, viscosity, and particle size. Additionally, particle shape affects settling — angular particles experience more drag and settle more slowly than spherical particles of the same mass and density. Hardness and luster are mineral properties that describe scratch resistance and light reflection, not settling behavior. Students should know that larger, denser, and rounder particles settle first in fluvial or marine environments.'
+    },
+    {
+      number: 22, part: 'A',
+      text: 'Which two chemical elements do selenite gypsum, dolomite, and calcite all have in common?',
+      choices: ['hydrogen and oxygen', 'calcium and oxygen', 'hydrogen and magnesium', 'calcium and magnesium'],
+      topic: 'General',
+      correct: 1,
+      explanation: 'Selenite gypsum (CaSO₄·2H₂O), dolomite (CaMg(CO₃)₂), and calcite (CaCO₃) all contain calcium and oxygen in their chemical formulas.',
+      diveDeep: 'Using the Reference Tables Mineral Properties chart: calcite is CaCO₃ (calcium, carbon, oxygen); dolomite is CaMg(CO₃)₂ (calcium, magnesium, carbon, oxygen); gypsum is CaSO₄·2H₂O (calcium, sulfur, oxygen, hydrogen). The common elements are calcium and oxygen. Students should practice reading mineral chemical formulas from the Reference Tables rather than memorizing them. This question tests the ability to identify shared chemical components across multiple minerals.'
+    },
+    {
+      number: 23, part: 'A',
+      text: 'Which location will most likely have the least runoff during a rainstorm?',
+      choices: ['Steep slope with bare soil', 'Gentle slope with dense vegetation', 'Flat paved parking lot', 'Steep slope with dense vegetation'],
+      topic: 'Meteorology',
+      correct: 3,
+      explanation: 'Steep slopes with dense vegetation have the least runoff because vegetation intercepts rain, roots increase infiltration, and the slope steepness is offset by the vegetation\'s water-holding capacity.',
+      diveDeep: 'Runoff is affected by slope angle, vegetation cover, soil permeability, and rainfall intensity. Dense vegetation intercepts precipitation, increases infiltration through root channels, and slows water movement. Paved surfaces maximize runoff because water cannot infiltrate. Bare steep slopes maximize runoff because there is nothing to slow water or increase infiltration. This is why deforestation dramatically increases flood risk. Students should rank surfaces from highest to lowest runoff potential for exam scenarios.'
+    },
+    {
+      number: 24, part: 'A',
+      text: 'The cross section shows rock units labeled A, B, C, and D, which have not been overturned. A granite intrusion with contact metamorphism is also present. Which rock unit formed most recently?',
+      choices: ['A', 'C', 'B', 'D'],
+      topic: 'Geology',
+      correct: 2,
+      image: '/images/exams/es-august-2025/q24.png',
+      explanation: 'The granite intrusion is the most recently formed feature because it cuts through all other rock units, and by the principle of cross-cutting relationships, intrusions are younger than the rocks they cut.',
+      diveDeep: 'Cross-cutting relationships (another of Steno\'s principles) state that any feature that cuts across or into pre-existing rock must be younger than those rocks. An intrusion contacts and metamorphoses adjacent rocks, providing dual evidence: it post-dates the country rocks (cross-cutting) and the contact metamorphism zone exists only where heat from the intrusion affected surrounding rock. Students must identify which rock unit the intrusion cuts — the intrusion is youngest, and contact metamorphism zones indicate the intrusion\'s boundaries.'
+    },
+    {
+      number: 25, part: 'A',
+      text: 'A first P-wave created by an earthquake traveled for 7 minutes before being recorded at a seismic station. Which values correctly show the distance to the epicenter and the P-S wave arrival time difference?',
+      choices: ['Distance: 1900 km; P-S difference: 3 min 0 sec', 'Distance: 4000 km; P-S difference: 4 min 40 sec', 'Distance: 1900 km; P-S difference: 6 min 40 sec', 'Distance: 4000 km; P-S difference: 12 min 40 sec'],
+      topic: 'Geology',
+      correct: 3,
+      explanation: 'Using the Reference Tables travel time graph, P-waves traveling for 7 minutes have traveled approximately 4000 km; at that distance, the S-P time difference is about 12 minutes 40 seconds.',
+      diveDeep: 'The Earthquake Travel Time graph in the Reference Tables shows arrival times for P and S waves at various epicentral distances. To find distance: look up where the P-wave curve reaches 7 minutes — this gives approximately 4000 km. Then read the S-wave arrival time at 4000 km and subtract the P-wave time to get the S-P interval. This interval is used at three or more seismic stations to triangulate the epicenter. Students should practice reading this graph accurately under timed conditions.'
+    },
+    {
+      number: 26, part: 'A',
+      text: 'The diagram below shows the relative positions of Earth, Moon, and Sun. Which phase of the Moon would be observed from Earth when the Moon is in the position shown?',
+      choices: ['new moon', 'first quarter', 'full moon', 'third quarter'],
+      topic: 'Astronomy',
+      correct: 2,
+      explanation: 'When the Moon is on the opposite side of Earth from the Sun, the entire sunlit face of the Moon is visible from Earth, which is a full moon.',
+      diveDeep: 'Moon phases result from the changing angle between the Sun, Moon, and Earth. New moon: Moon is between Earth and Sun (not visible). First quarter: Moon is 90° ahead in orbit (right half lit). Full moon: Moon is opposite the Sun (fully lit). Third quarter: Moon is 270° ahead (left half lit). A lunar eclipse can only occur at full moon when Earth\'s shadow falls on the Moon. A solar eclipse can only occur at new moon. Students should practice drawing the phase diagram from memory.'
+    },
+    {
+      number: 27, part: 'A',
+      text: 'Which type of plate boundary is characterized by plates sliding horizontally past each other, producing earthquakes but little volcanic activity?',
+      choices: ['convergent oceanic-oceanic boundary', 'convergent oceanic-continental boundary', 'divergent boundary', 'transform fault boundary'],
+      topic: 'Plate Tectonics',
+      correct: 3,
+      explanation: 'Transform fault boundaries are where plates slide horizontally past each other, creating frequent earthquakes but very little volcanism.',
+      diveDeep: 'The three main plate boundary types: convergent (plates collide — creates mountains, trenches, volcanoes); divergent (plates separate — creates mid-ocean ridges, rift valleys, basaltic volcanism); transform/strike-slip (plates slide past each other — creates fault lines and earthquakes but minimal volcanism). The San Andreas Fault in California is a classic transform boundary. Students should know that the Pacific Ring of Fire is primarily associated with convergent boundaries. The Reference Tables show plate boundaries and types globally.'
+    },
+    {
+      number: 28, part: 'A',
+      text: 'Which mineral is most commonly found in granite?',
+      choices: ['olivine', 'pyroxene', 'quartz', 'calcite'],
+      topic: 'Geology',
+      correct: 2,
+      explanation: 'Quartz is a major component of granite, which is a felsic igneous rock composed primarily of quartz, feldspar, and mica.',
+      diveDeep: 'Granite is a coarse-grained, intrusive igneous rock with high silica content (felsic). Its major minerals are quartz (clear/glassy), potassium feldspar (pink/white), plagioclase feldspar (white/gray), and biotite/muscovite mica. Olivine and pyroxene are found in mafic rocks like basalt and gabbro. Calcite is a sedimentary mineral found in limestone. The Reference Tables show the Scheme for Igneous Rock Identification which lists minerals by rock composition. Students should practice associating specific minerals with their parent rock types.'
+    },
+    {
+      number: 29, part: 'A',
+      text: 'Which property of a mineral is described as the color of the mineral\'s powder when rubbed against a white porcelain plate?',
+      choices: ['luster', 'cleavage', 'streak', 'hardness'],
+      topic: 'Geology',
+      correct: 2,
+      explanation: 'Streak is the color of a mineral\'s powder, observed by rubbing the mineral against an unglazed porcelain streak plate.',
+      diveDeep: 'Streak is more reliable than surface color for mineral identification because many minerals vary in color (e.g., quartz can be clear, purple, pink, brown) but produce a consistent streak color. The streak test works on minerals with a Mohs hardness of 6.5 or less (softer than the porcelain plate, hardness ~6.5). Pyrite (fool\'s gold) has a metallic golden surface color but a dark greenish-black streak, distinguishing it from real gold. Students should review all diagnostic mineral properties in the Reference Tables mineral chart.'
+    },
+    {
+      number: 30, part: 'A',
+      text: 'Which process involves the breakdown of rock into smaller particles through physical or chemical means?',
+      choices: ['cementation', 'compaction', 'weathering', 'deposition'],
+      topic: 'Geology',
+      correct: 2,
+      explanation: 'Weathering is the process by which rock is broken down into smaller particles, either physically (mechanical weathering) or chemically (chemical weathering).',
+      diveDeep: 'Physical weathering breaks rock into smaller pieces without changing mineral composition — examples include frost wedging, exfoliation, abrasion, and root wedging. Chemical weathering changes the mineral composition through oxidation, hydrolysis, carbonation, and dissolution. Granite weathers slowly while limestone weathers rapidly by carbonation. Climate matters: chemical weathering is faster in warm, wet climates; physical weathering dominates in cold, dry climates. Cementation and compaction are lithification processes that turn sediments into sedimentary rock — the opposite of weathering.'
+    },
+    {
+      number: 31, part: 'B',
+      text: 'The table below shows data about four planets in our solar system. Based on the data, describe the relationship between a planet\'s distance from the Sun and its period of revolution.',
+      choices: [],
+      type: 'written',
+      topic: 'Astronomy',
+      correct: -1,
+      modelAnswer: 'As a planet\'s distance from the Sun increases, the period of revolution (the time to complete one orbit) also increases. Planets farther from the Sun travel a longer orbital path and move at slower orbital speeds, both of which increase the period.',
+      explanation: 'This is Kepler\'s Third Law: the square of a planet\'s orbital period is proportional to the cube of its average distance from the Sun (P² ∝ a³).',
+      diveDeep: 'Kepler\'s Third Law quantifies the relationship: T² = a³ (in convenient units where T is in Earth years and a is in astronomical units). Mercury orbits in 88 days while Neptune takes 165 years. The Reference Tables list orbital periods and distances for all planets. Students should be able to state the qualitative relationship (farther = longer period) and recognize the mathematical form P² ∝ r³. This is also related to orbital speed decreasing with distance from the Sun.'
+    },
+    {
+      number: 32, part: 'B',
+      text: 'The diagram below shows a cross section of rock layers. Explain one piece of evidence from the diagram that indicates the granite intrusion formed after the surrounding sedimentary rock layers.',
+      choices: [],
+      type: 'written',
+      topic: 'Geology',
+      correct: -1,
+      modelAnswer: 'The granite intrusion cuts across the pre-existing sedimentary rock layers, indicating it is younger by the principle of cross-cutting relationships. Additionally, the presence of contact metamorphism zones adjacent to the intrusion shows that heat from the molten granite altered the surrounding rocks after they had already formed.',
+      explanation: 'Cross-cutting relationships and contact metamorphism both indicate the intrusion is younger than the surrounding sedimentary layers.',
+      diveDeep: 'Two principles apply here: cross-cutting relationships (the intrusion must post-date what it cuts) and contact metamorphism (the zone of metamorphosed rock around an intrusion proves the intrusion brought heat into already-formed rock). Students should state both the observation (cuts through layers / metamorphic zone present) and the principle it supports. Avoid vague answers; always reference specific evidence from the diagram and name the geologic principle.'
+    },
+    {
+      number: 33, part: 'B',
+      text: 'A student measures the altitude of Polaris to be 43°N at one location in New York State. The student then travels due north and measures Polaris again. Explain what change in the altitude of Polaris the student would observe and why.',
+      choices: [],
+      type: 'written',
+      topic: 'Astronomy',
+      correct: -1,
+      modelAnswer: 'The student would observe an increase in the altitude of Polaris. This is because the altitude of Polaris equals the observer\'s latitude. Traveling north increases the observer\'s latitude, which causes Polaris to appear higher above the horizon.',
+      explanation: 'The altitude of Polaris directly equals the observer\'s latitude, so moving northward (increasing latitude) causes Polaris to appear at a greater altitude above the horizon.',
+      diveDeep: 'This relationship exists because Polaris is located almost directly above Earth\'s geographic North Pole, essentially at the celestial pole. As you move north, the angle between your horizon and the celestial pole increases. At the North Pole (90°N), Polaris would be directly overhead (90° altitude). At the equator (0°), Polaris would sit right on the horizon (0° altitude). This makes Polaris an excellent navigation tool — sailors have used it for centuries to determine latitude at sea.'
+    },
+    {
+      number: 34, part: 'B',
+      text: 'Explain why New York State experiences four seasons, even though Earth\'s distance from the Sun changes slightly throughout the year.',
+      choices: [],
+      type: 'written',
+      topic: 'Astronomy',
+      correct: -1,
+      modelAnswer: 'New York State experiences four seasons primarily because of the 23.5° tilt of Earth\'s axis. When Earth\'s axis is tilted toward the Sun (summer), New York receives more direct solar radiation and has longer days, causing higher temperatures. When the axis is tilted away from the Sun (winter), solar radiation is more indirect and days are shorter, causing lower temperatures. Earth\'s slight variation in distance from the Sun plays a minor role and actually works opposite to expectations — Earth is closest to the Sun in January (winter in the Northern Hemisphere).',
+      explanation: 'Seasons are caused by the 23.5° tilt of Earth\'s axis, which changes the angle of insolation and the length of daylight throughout the year, not by variation in Earth\'s distance from the Sun.',
+      diveDeep: 'Students commonly believe seasons are caused by distance from the Sun — this is a major misconception. In fact, Earth is closest to the Sun (perihelion) around January 3 and farthest (aphelion) around July 4 — the opposite of what the distance hypothesis would predict for Northern Hemisphere seasons. The tilt hypothesis correctly predicts both hemispheres having opposite seasons simultaneously (Southern Hemisphere summer when Northern Hemisphere has winter). Two key effects of tilt: angle of insolation (more direct = more concentrated energy) and length of daylight (more hours of sunlight = more total energy received).'
+    },
+    {
+      number: 35, part: 'B',
+      text: 'Describe how the water cycle connects the atmosphere to the hydrosphere, and identify two processes that return water to the atmosphere.',
+      choices: [],
+      type: 'written',
+      topic: 'Water Cycle',
+      correct: -1,
+      modelAnswer: 'The water cycle connects the atmosphere and hydrosphere through a continuous exchange of water. Precipitation (rain, snow) transfers water from the atmosphere to the hydrosphere. Two processes that return water to the atmosphere are evaporation (liquid water converts to water vapor, especially from ocean and lake surfaces) and transpiration (plants release water vapor through their leaves, also called evapotranspiration).',
+      explanation: 'Evaporation and transpiration are the two main processes by which liquid water enters the atmosphere as water vapor, driving the continuous water cycle.',
+      diveDeep: 'The water cycle is driven by solar energy (causes evaporation) and gravity (causes precipitation and runoff). Key processes: evaporation, transpiration, condensation, precipitation, runoff, infiltration, and groundwater flow. Evapotranspiration combines both plant and surface evaporation. The oceans are the primary source of atmospheric moisture (about 85% of water vapor). Students should be able to trace a single water molecule through all possible pathways in the water cycle for constructed-response questions.'
+    },
+    {
+      number: 36, part: 'B',
+      text: 'The diagram below shows a geologic cross section. Describe how scientists could use index fossils to determine the relative age of rock layer X.',
+      choices: [],
+      type: 'written',
+      topic: 'Geologic Time',
+      correct: -1,
+      modelAnswer: 'Scientists would identify the index fossil species found in rock layer X. Since index fossils come from organisms that lived for a short, well-defined period of geologic time and were widespread geographically, the presence of a specific index fossil indicates that rock layer X was deposited during the known time range of that organism. By comparing the index fossil in layer X to the Reference Tables\' geologic history chart, scientists can determine when layer X was deposited.',
+      explanation: 'Index fossils are used as time markers because they come from organisms with short geologic ranges and wide geographic distribution, allowing rocks with the same index fossils to be correlated in age.',
+      diveDeep: 'Good index fossils must meet four criteria: (1) the organism lived for a short time period, (2) it was abundant, (3) it was widespread geographically, and (4) it had distinctive, easily recognizable hard parts. Examples of NYS index fossils: Phacops (Devonian trilobite), Eurypterus (Silurian sea scorpion), Condor (Ordovician). The Reference Tables list index fossils with their time ranges. Students should understand the difference between index fossils (time markers) and other fossils that provide environmental information (facies fossils).'
+    },
+    {
+      number: 37, part: 'C',
+      text: 'A student collects data showing that the temperature of the ocean surface is warmer on the western side of an ocean basin than on the eastern side at the same latitude in the Northern Hemisphere. Using the Reference Tables, explain why this pattern exists.',
+      choices: [],
+      type: 'written',
+      topic: 'Climate',
+      correct: -1,
+      modelAnswer: 'This pattern is caused by surface ocean current circulation. In the Northern Hemisphere, ocean gyres circulate clockwise due to the Coriolis effect. Warm equatorial currents move northward along the western sides of ocean basins (e.g., the Gulf Stream along North America\'s east coast), warming western ocean margins and adjacent land. Cold currents flow southward along eastern ocean margins (e.g., the California Current along the western US coast), cooling those areas.',
+      explanation: 'Northern Hemisphere ocean gyres rotate clockwise, directing warm tropical currents poleward on the west side of ocean basins and cold polar currents equatorward on the east side.',
+      diveDeep: 'The Coriolis effect deflects moving air and water to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. This creates clockwise gyres in the Northern Hemisphere oceans and counterclockwise gyres in the Southern Hemisphere. The Reference Tables ocean current map shows warm currents (solid arrows) and cold currents (dashed arrows). Marine climates near warm currents are warmer and wetter than expected for their latitude; those near cold currents are cooler and drier. This is why western Europe is warmer than Labrador at the same latitude.'
+    },
+    {
+      number: 38, part: 'C',
+      text: 'A rock sample is found to contain 25% of its original radioactive parent isotope. If the half-life of the parent isotope is 710 million years, what is the age of the rock? Show your work.',
+      choices: [],
+      type: 'written',
+      topic: 'Geologic Time',
+      correct: -1,
+      modelAnswer: 'Starting with 100% parent isotope:\nAfter 1 half-life: 50% parent remains\nAfter 2 half-lives: 25% parent remains\nSo the sample is 2 half-lives old.\n2 × 710 million years = 1,420 million years (1.42 billion years)',
+      explanation: 'When 25% of the parent isotope remains, exactly two half-lives have elapsed. Multiplying the number of half-lives (2) by the half-life duration (710 million years) gives the age.',
+      diveDeep: 'Radioactive decay follows a predictable pattern: after each half-life, half of the remaining parent isotope decays to daughter product. Starting from 100%: after 1 half-life = 50%; after 2 half-lives = 25%; after 3 half-lives = 12.5%; etc. The Reference Tables list common radioactive isotope pairs (parent → daughter) and their half-lives: U-238→Pb-206 (4.5 billion years), K-40→Ar-40 (1.3 billion years), C-14→N-14 (5,700 years). Students should practice both forward calculations (given half-lives, find age) and reverse calculations (given percent remaining, find half-lives elapsed).'
+    },
+    {
+      number: 39, part: 'C',
+      text: 'Describe two ways that human activities have increased the concentration of greenhouse gases in Earth\'s atmosphere, and explain one potential consequence of this increase on global climate.',
+      choices: [],
+      type: 'written',
+      topic: 'Meteorology',
+      correct: -1,
+      modelAnswer: 'Two human activities that increase greenhouse gases: (1) Burning fossil fuels (coal, oil, natural gas) releases large amounts of carbon dioxide into the atmosphere during combustion. (2) Deforestation removes trees that would otherwise absorb CO₂ through photosynthesis, while the burning or decomposition of trees releases additional CO₂.\n\nOne consequence: Increased greenhouse gases trap more outgoing infrared radiation, raising global average temperatures (global warming). This can lead to melting of polar ice and glaciers, causing sea levels to rise and flooding coastal areas.',
+      explanation: 'Burning fossil fuels and deforestation are the primary human contributors to elevated CO₂ levels; increased greenhouse gas concentrations enhance the greenhouse effect, raising global temperatures.',
+      diveDeep: 'The greenhouse effect is a natural process where atmospheric gases (CO₂, water vapor, methane, nitrous oxide) absorb outgoing infrared radiation and re-emit it, warming Earth\'s surface. Without it, Earth\'s average temperature would be about -18°C instead of +15°C. The enhanced greenhouse effect, caused by increasing greenhouse gas concentrations from human activities, is causing observed global warming. Key data: CO₂ levels have risen from ~280 ppm (pre-industrial) to over 420 ppm today. Feedback loops (melting ice → less albedo → more absorption → more warming) amplify the effect.'
+    },
+    {
+      number: 40, part: 'C',
+      text: 'The diagram below shows a stream cross section at two locations. Explain why the stream is eroding on the outside of the curve and depositing sediment on the inside of the curve.',
+      choices: [],
+      type: 'written',
+      topic: 'Geology',
+      correct: -1,
+      modelAnswer: 'On the outside of a stream curve (cut bank), water moves faster due to a longer path and centrifugal effects, giving it more energy to erode the stream bank and carry sediment. On the inside of the curve (point bar), water moves slower because it travels a shorter path, reducing energy and causing sediment to be deposited. This differential in stream velocity creates the erosion-deposition pattern observed at meanders.',
+      explanation: 'The outside of a meander has faster-moving water that erodes, while the inside has slower water that deposits sediment, because water velocity is higher on the outer bank.',
+      diveDeep: 'Stream meanders develop and migrate over time through this erosion-deposition process. Cut banks (outside of curves) are steep and actively eroding; point bars (inside of curves) are gently sloping and accumulating sediment. As meanders migrate laterally, they can eventually cut off loops to form oxbow lakes. Stream velocity determines whether erosion, transportation, or deposition occurs — the Hjulström diagram (not in NYS Reference Tables but conceptually important) shows the critical velocities for each process. Larger, denser particles require higher velocities to transport but settle at higher velocities too.'
+    },
+    {
+      number: 41, part: 'C',
+      text: 'The table below gives data for four locations on a seismic network. Using the data, describe the procedure scientists use to determine the location of an earthquake epicenter.',
+      choices: [],
+      type: 'written',
+      topic: 'Geology',
+      correct: -1,
+      modelAnswer: 'Scientists use the S-P time interval (difference in arrival times of S-waves and P-waves) at each seismic station to determine the distance from that station to the epicenter using the earthquake travel time graph in the Reference Tables. Each station\'s distance is drawn as a circle around that station on a map. The epicenter is located at the point where circles from at least three stations intersect. This process is called triangulation.',
+      explanation: 'The S-P time interval determines the distance from each station to the epicenter; three stations are needed for triangulation to pinpoint the epicenter\'s location.',
+      diveDeep: 'The earthquake travel time graph shows that P-waves always travel faster than S-waves, so P-waves arrive first. The greater the distance, the larger the S-P gap. With data from one station, you only know the distance (not the direction) — giving a circle of possible locations. Two stations give two intersecting circles with two possible points. Three stations uniquely identify the epicenter where all three circles intersect. The epicenter is on Earth\'s surface directly above the focus (hypocenter) where the earthquake originated. Students should practice reading the travel time graph and drawing circles to scale.'
+    },
+    {
+      number: 42, part: 'C',
+      text: 'Describe the rock cycle pathway by which igneous rock can eventually become metamorphic rock. Include at least two steps and identify the processes involved.',
+      choices: [],
+      type: 'written',
+      topic: 'Geology',
+      correct: -1,
+      modelAnswer: 'Igneous rock at Earth\'s surface undergoes weathering and erosion, breaking into smaller sediments. These sediments are transported and deposited in layers. Through compaction and cementation (lithification), the sediments become sedimentary rock. If the sedimentary rock is buried deeply and subjected to intense heat and pressure (without melting), it undergoes metamorphism and becomes metamorphic rock.',
+      explanation: 'Igneous rock can become metamorphic rock through a multi-step pathway involving weathering, transportation, deposition, lithification, and finally metamorphism from heat and pressure.',
+      diveDeep: 'The rock cycle has no fixed starting or ending point — any rock type can be transformed into any other through the right conditions. Metamorphism requires heat and pressure but NOT melting (melting produces igneous rock). Contact metamorphism occurs near igneous intrusions; regional metamorphism occurs during mountain-building events. The Reference Tables contain a rock cycle diagram showing all transformation pathways. Students should trace multiple pathways and identify the process (not just the rock type) at each transformation step.'
+    },
+    {
+      number: 43, part: 'C',
+      text: 'A soil sample from a field is tested and found to have a high percentage of sand-sized particles and low water retention. Suggest one modification to this soil and explain how that modification would improve water retention.',
+      choices: [],
+      type: 'written',
+      topic: 'Geology',
+      correct: -1,
+      modelAnswer: 'Adding organic matter (humus or compost) to the sandy soil would improve water retention. Organic matter fills the large pore spaces between sand particles, creating smaller pores with greater capillary force to hold water. Additionally, organic matter has a high water-holding capacity itself, directly increasing the soil\'s overall ability to retain moisture.',
+      explanation: 'Adding organic matter to sandy soil reduces pore size and increases the soil\'s capacity to hold water through capillary forces and direct absorption.',
+      diveDeep: 'Sandy soils have large particles with large pore spaces, allowing water to drain quickly (high permeability, low retention). Clay soils have the opposite problem — tiny pores hold water but can become waterlogged. The ideal agricultural soil is loam, a mixture of sand, silt, clay, and organic matter. The addition of clay or humus to sandy soil, or sand to clay soil, improves the balance. Students should understand that particle size inversely affects retention but directly affects permeability — these two properties trade off with each other.'
+    },
+    {
+      number: 44, part: 'C',
+      text: 'Compare and contrast P-waves and S-waves in terms of their wave motion and ability to travel through Earth\'s interior.',
+      choices: [],
+      type: 'written',
+      topic: 'Geology',
+      correct: -1,
+      modelAnswer: 'P-waves (primary waves) are compressional waves that vibrate parallel to the direction of travel. They can travel through solids, liquids, and gases, making them the fastest seismic waves. S-waves (secondary waves) are shear waves that vibrate perpendicular to the direction of travel. They can only travel through solids, not through liquids or gases. Because Earth\'s outer core is liquid, S-waves cannot pass through it, creating an "S-wave shadow zone" on the opposite side of Earth from an earthquake.',
+      explanation: 'P-waves compress material parallel to their direction of travel and can pass through liquids; S-waves shear material perpendicular to their travel and cannot pass through liquids, which is why they do not reach the far side of Earth.',
+      diveDeep: 'The S-wave shadow zone (between ~103° and 180° from the epicenter) was one of the key pieces of evidence that Earth has a liquid outer core. P-waves are also refracted (bent) by the liquid outer core, creating a P-wave shadow zone (103°–142°) where P-waves arrive weakly or not at all. The inner core was later inferred to be solid because P-waves travel faster through it than through the liquid outer core. These wave behaviors are powerful remote sensing tools for studying Earth\'s inaccessible interior structure.'
+    },
+    {
+      number: 45, part: 'C',
+      text: 'The diagram below represents an air mass moving over a mountain range. Describe the changes in temperature and moisture content of the air mass as it rises on the windward side and descends on the leeward side. Explain why this creates different climates on each side of the mountain.',
+      choices: [],
+      type: 'written',
+      topic: 'Meteorology',
+      correct: -1,
+      modelAnswer: 'On the windward (ocean-facing) side, the air mass rises, cools at the dry adiabatic rate (~10°C/km) until it reaches the dew point, then cools more slowly at the wet adiabatic rate (~6°C/km) as condensation releases latent heat and precipitation occurs. The air loses moisture as precipitation. On the leeward (inland) side, the now-drier air descends, warming at the dry adiabatic rate. Because it released moisture during ascent, it arrives at the base of the leeward side warmer and drier than when it started. This creates a rain shadow effect: wet, cool climate on the windward side and warm, dry climate on the leeward side.',
+      explanation: 'The orographic effect causes precipitation on the windward side (rain shadow\'s wet side) and creates a warm, dry rain shadow on the leeward side because the air loses moisture during its ascent.',
+      diveDeep: 'The rain shadow effect explains many arid regions: the Great Basin east of the Sierra Nevada, the Atacama Desert east of the Andes, and the dry climate east of the Cascade Mountains. The Chinook wind in the Rocky Mountain region is an example of the warm, dry descending air on the leeward side. Adiabatic processes involve no heat exchange with surroundings — temperature changes result purely from compression (warming) or expansion (cooling). The wet adiabatic rate is lower than the dry because latent heat released during condensation partially offsets the cooling.'
+    },
+    {
+      number: 46, part: 'D',
+      text: 'Using the information in the Earth Science Reference Tables, describe the rock type most commonly found at divergent plate boundaries and explain why this rock forms there.',
+      choices: [],
+      type: 'written',
+      topic: 'Plate Tectonics',
+      correct: -1,
+      modelAnswer: 'At divergent plate boundaries, the most commonly found rock is basalt, which is a mafic, fine-grained extrusive igneous rock. As plates separate, the decrease in pressure allows the underlying mantle rock (peridotite) to partially melt through decompression melting, producing basaltic magma. This magma erupts at mid-ocean ridges and cools rapidly in seawater, forming fine-grained basalt. The newest (youngest) basalt is found closest to the ridge, with age increasing with distance from the ridge.',
+      explanation: 'Basalt forms at divergent boundaries because decompression melting of the mantle produces basaltic magma, which erupts and cools rapidly to form fine-grained igneous rock.',
+      diveDeep: 'Basalt is the most abundant rock on Earth\'s surface if we include the ocean floor. Sea-floor spreading creates symmetrical strips of basalt with alternating magnetic orientations (normal and reversed), providing some of the strongest evidence for plate tectonics. The age of the oceanic crust increases with distance from the spreading ridge, and no oceanic crust is older than about 200 million years (old crust subducts). Continental crust is granitic and much older (up to 4 billion years). The Reference Tables\' plate tectonic diagram shows boundary types and associated rock/geology.'
+    },
+    {
+      number: 47, part: 'D',
+      text: 'Explain how the carbon cycle connects the biosphere and the geosphere, providing a specific example of how carbon moves from a living organism into rock.',
+      choices: [],
+      type: 'written',
+      topic: 'General',
+      correct: -1,
+      modelAnswer: 'The carbon cycle connects the biosphere and geosphere through several pathways. One specific example: marine organisms such as coral and shellfish extract dissolved carbon dioxide from seawater to build calcium carbonate (CaCO₃) shells and skeletons. When these organisms die, their shells accumulate on the seafloor. Over millions of years, the shells are buried, compressed, and cemented, forming limestone (a sedimentary rock). Carbon from living organisms has thus been incorporated into the geosphere.',
+      explanation: 'Marine organisms use dissolved CO₂ to build calcium carbonate shells, which accumulate as seafloor sediment and eventually lithify into limestone, transferring carbon from the biosphere into the geosphere.',
+      diveDeep: 'The carbon cycle operates on multiple timescales: short-term (photosynthesis/respiration, years to decades) and long-term (weathering/volcanism/sedimentation, millions of years). The long-term carbon cycle acts as a thermostat: when CO₂ levels rise, increased weathering of silicate rocks removes CO₂; when levels fall, volcanic outgassing adds CO₂. Limestone is a carbon reservoir storing about 60 million gigatons of carbon. Coal and oil represent organic carbon buried in sedimentary rocks. Burning fossil fuels rapidly releases geospheric carbon back to the atmosphere, disrupting the carbon cycle\'s balance.'
+    },
+    {
+      number: 48, part: 'D',
+      text: 'A student observes that the bedrock in one region of New York State is composed of gneiss and schist. What does this tell the student about the geologic history of this region? Explain your reasoning.',
+      choices: [],
+      type: 'written',
+      topic: 'Geology',
+      correct: -1,
+      modelAnswer: 'The presence of gneiss and schist indicates that the region experienced intense heat and pressure at depth, likely during a mountain-building event (orogeny). These are high-grade metamorphic rocks — gneiss forms under very high temperature and pressure, and schist forms under high pressure with moderate temperature. In New York State, the Adirondack Mountains and Hudson Highlands are underlain by such metamorphic and igneous rocks, which are remnants of ancient orogenies (such as the Grenville orogeny about 1 billion years ago). The rocks now exposed at the surface were once deeply buried, indicating significant erosion has occurred since their formation.',
+      explanation: 'Gneiss and schist are high-grade metamorphic rocks that require intense heat and pressure to form, indicating the region was once the site of deep burial and likely a major mountain-building event.',
+      diveDeep: 'Metamorphic grade reflects the temperature and pressure conditions of formation: low-grade (slate, phyllite) → medium-grade (schist) → high-grade (gneiss). Foliation is a key feature of metamorphic rocks — the alignment of minerals perpendicular to the direction of pressure. In New York State, the Adirondacks represent a Precambrian basement of high-grade metamorphic and igneous rocks, while the Hudson Highlands are similar ancient terrains. The NYS Geological Map shows the distribution of rock ages and types, and students should be able to infer the geologic history of a region from its rock types.'
+    },
+    {
+      number: 49, part: 'D',
+      text: 'A weather forecaster predicts that a cold front will pass through New York City. Describe the weather changes that would typically occur before, during, and after the passage of this cold front.',
+      choices: [],
+      type: 'written',
+      topic: 'Meteorology',
+      correct: -1,
+      modelAnswer: 'Before the cold front: warm, humid air with southerly winds, rising temperatures, and decreasing air pressure as the front approaches. Clouds may develop (cirrus followed by cumulus).\n\nDuring front passage: rapid temperature drop, shifting winds (from south/southwest to northwest), heavy precipitation (often thunderstorms), minimum air pressure, and gusty winds.\n\nAfter the cold front: temperatures decrease significantly, air pressure rises, winds shift to northwesterly, skies clear, humidity drops, and cooler, drier air prevails.',
+      explanation: 'A cold front brings dramatic weather changes: warm humid conditions before, intense precipitation during passage, and cool, dry, clearing conditions afterward as the cold air mass replaces the warm one.',
+      diveDeep: 'Cold fronts move faster than warm fronts and produce more dramatic, short-lived weather. The cold, dense air mass undercuts the warm air mass, forcing it steeply upward (steep frontal slope), causing rapid condensation and intense but brief storms. Warm fronts have a gentler slope, producing gradual weather changes over wider areas and more sustained precipitation. Occluded fronts form when a fast-moving cold front overtakes a warm front. Weather maps show front symbols: triangles point in the direction of cold front movement; semicircles point in the direction of warm front movement.'
+    },
+    {
+      number: 50, part: 'D',
+      text: 'The graph below shows changes in the number of sunspots over several decades. Describe the pattern of sunspot activity and explain how sunspot activity can affect Earth\'s climate.',
+      choices: [],
+      type: 'written',
+      topic: 'Astronomy',
+      correct: -1,
+      modelAnswer: 'Sunspot activity follows an approximately 11-year cycle, with periods of maximum sunspot activity (solar maximum) alternating with periods of minimal activity (solar minimum). Sunspots are dark, cooler regions on the Sun\'s surface caused by strong magnetic fields. During solar maximum, the Sun actually emits slightly more total energy (solar irradiance increases by about 0.1%). Increased solar output during solar maximum can cause slight warming of Earth\'s atmosphere. Periods of very low sunspot activity, like the Maunder Minimum (1645–1715), have been correlated with cooler global temperatures, such as the "Little Ice Age" in Europe.',
+      explanation: 'Sunspots follow an 11-year cycle, and periods of high sunspot activity correlate with slightly increased solar energy output, which can cause minor warming effects on Earth\'s climate.',
+      diveDeep: 'The relationship between sunspot cycles and Earth\'s climate is real but modest — solar variability accounts for only a fraction of observed 20th/21st century warming. The current warming trend is primarily attributed to increased greenhouse gases rather than solar cycles. The Maunder Minimum (very few sunspots, ~1645–1715) coincided with the Little Ice Age, suggesting a connection. Solar maximum also increases aurora activity and can disrupt satellite communications and power grids. Students should understand sunspot cycles as a natural climate influence distinct from anthropogenic (human-caused) climate change.'
+    },
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "subject": "algebra-2",
+  "session": "june-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to c 2c3 ?",
+      "choices": [
+        "2c 4 3",
+        "2c 3 4",
+        "(2c) 4 3",
+        "(2c) 3 4"
+      ],
+      "image": "/images/exams/algebra-2/june-2025/q1.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "3",
+      "choices": [
+        "19 log(50) x 5",
+        "19 x 5 log2(10)",
+        "19 x 5 log2(45)",
+        "19 5 x 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The function P(t) 5 256,485(0.965)t models the decreasing population of a city from 1999 to 2014, where t is the time in years since 1999. Which statement is not true?",
+      "choices": [
+        "The function estimated the population was 256,485 in 1999.",
+        "The decay rate was 0.35%.",
+        "The decay factor is 0.965.",
+        "The population declined over 15 years."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Four different surveys gathered data about the purchasing behaviors of pet owners. Pet owners from the same population were randomly selected. While collecting data, Chris surveyed 942 pet owners, John surveyed 410, Brooke surveyed 800, and Shane surveyed 100. Whose survey will likely have the smallest margin of error?",
+      "choices": [
+        "Brooke",
+        "Chris",
+        "John",
+        "Shane"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Given i is the imaginary unit and a 5 i3, b 5 i2, and c 5 i, which expression is equivalent to 2ax2 1 3bx 2 cx?",
+      "choices": [
+        "22ix2 2 3x 1 ix",
+        "22ix2 2 3ix",
+        "22ix2 2 3x 2 ix",
+        "28ix3 2 3x 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which sequence has a common ratio of 2 1 ?",
+      "choices": [
+        "2 4 1 a, 2 8 1 a, 216 1 a, 232 1 a,\u2026",
+        "32 1 a, 16 1 a, 8 1 a, 4 1 a,\u2026",
+        "20a, 2 39a, 19a, 2 37a,\u2026",
+        "22a, 22.5a, 23a, 23.5a,\u2026"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The result of dividing 2x3 + 6x2 + 7x + 2 by x + 1 is",
+      "choices": [
+        "2x2 1 4x 1 3 2 x 1 1 1",
+        "2x2 1 4x 1 3 1 x 1 1 5",
+        "2x2 1 8x 2 15 1 x 1 1 17",
+        "2x2 1 8x 1 15 2 x 1 1 13"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The probabilities that a randomly selected teenager uses social media websites F and I are shown below. P(F) 5 0.71 P(I) 5 0.52 P(F or I) 5 0.77 Given this information, what is P(F and I), the probability that a randomly selected teenager uses both websites?",
+      "choices": [
+        "0.06",
+        "0.19",
+        "0.46",
+        "0.96"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Consider f(x) 5 (x 2 2)2(x 1 3), and g(x) as strictly defined in the table below. x g(x) 23 0 22 1 21 22 0 26 1 21 2 0 Which statement or statements must be true, based on the information given? I. Both f(x) and g(x) have the same x-intercepts. II. Both f(x) and g(x) have a y-intercept at y 5 26.",
+      "choices": [
+        "I, only",
+        "II, only",
+        "I and II",
+        "neither I nor II"
+      ],
+      "image": "/images/exams/algebra-2/june-2025/q10.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Josie examines the graphs of f(x) 5 3x 2 8 and x2 2 4 1 g(x) 5 . The number of solutions to f(x) 5 g(x) is",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which binomial is a factor of g3 1 6g2 1 g 2 14?",
+      "choices": [
+        "g 2 1",
+        "g 2 2",
+        "g 1 1",
+        "g 1 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Consider the recursively defined sequence below. a1 5 8 an 5 2an21 Which explicit formula represents the same sequence?",
+      "choices": [
+        "an 5 2n",
+        "an 5 2(4n)",
+        "an 5 2n 1 2",
+        "an 5 8n"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "What is the exact value of tan(2 6 5\u03c0)?",
+      "choices": [
+        "1 3",
+        "2 1 3",
+        "3",
+        "3 2"
+      ],
+      "image": "/images/exams/algebra-2/june-2025/q14.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Given m \u2260 0 and (17 1 m) n 5 172, what is n in terms of m?",
+      "choices": [
+        "2m",
+        "m 2",
+        "m 2",
+        "2m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In order to qualify for a college tennis scholarship, Joe needs to win 90% of the matches he plays during his senior year of high school. If he has won 8 of the 10 matches that he has played, which equation can be used to determine how many more consecutive matches, x, Joe must win in order for his winning percentage to equal 90%?",
+      "choices": [
+        "x 8 1 x 5 0.90",
+        "8 10 1 x 5 0.90",
+        "8 10 1 x 5 0.90",
+        "8 1 x 10 1 x 5 0.90"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Consider the system of equations below. 3x 1 2y 5 1 2y 1 z 5 2 2x 2 2z 5 26 What is the value of x?",
+      "choices": [
+        "1",
+        "\u20131",
+        "24",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The point (2,\u20133) lies on the graph of the equation y 5 f(x). Which point must lie on the graph of the equation y 5 f(x 2 4) 1 1?",
+      "choices": [
+        "(1,1)",
+        "(22,22)",
+        "(3,27)",
+        "(6,22)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which statement best describes the end behavior of the function y 5 log(x 2 3)?",
+      "choices": [
+        "As x \u2192 2`, y \u2192 2`, and as x \u2192 `, y \u2192 `.",
+        "As x \u2192 3, y \u2192 2`, and as x \u2192 `, y \u2192 `.",
+        "As x \u2192 2`, y \u2192 0, and as x \u2192 `, y \u2192 `.",
+        "As x \u2192 3, y \u2192 0, and as x \u2192 `, y \u2192 `."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The black bear population for a certain area of the Adirondacks can be modeled by the equation B 5 5835.943(1.026)t, where t is measured in years since 2010. Kieran would like to rewrite this model in terms of a 5-year growth rate. Kieran\u2019s model is best represented by",
+      "choices": [
+        "B 5 5835.943(1.005147) t 5",
+        "B 5 5835.943(1.005147)5t",
+        "B 5 5835.943(1.136938) t 5",
+        "B 5 5835.943(1.136938)5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which expression or expressions are equal to 0 for all real numbers? I. (x2 1 y2)2 1 (x2 1 y2)2 2 2(x2 1 y2)2 II. (x2 1 y2)2 2 (x2 2 y2)2 III. (x2 1 y2)2 2 (x2 2 y2)2 2 (2xy)2",
+      "choices": [
+        "I, only",
+        "III, only",
+        "I and II, only",
+        "I and III, only"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The equation x 1 2 5 1 5 5 x has",
+      "choices": [
+        "rational solutions",
+        "irrational solutions",
+        "imaginary solutions",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "For x ? 6 4y, the expression x2 1 3xy 2 28y2 16y2 2 x2 is equivalent to",
+      "choices": [
+        "21 2 4 7 y",
+        "x 2 7y 4y 2 x",
+        "x 1 7y x 1 4y",
+        "2x 2 7y x 1 4y"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which equation represents a parabola with a focus of (22,1) and directrix of y 5 5?",
+      "choices": [
+        "(x 1 2)2 5 28(y 2 3)",
+        "(x 1 2)2 5 5(y 2 1)",
+        "(x 1 2)2 5 28(y 2 1)",
+        "(x 1 2)2 5 8(y 2 3) Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Data collected showing the depth of the water in a bay during a 24-hour period are shown in the graph below. d(t) 1 5 25 t 25 The depth of the water can be modeled with a trigonometric function of the form d(t) 5 A sin( 6 \u03c0 t) 1 C. Estimate the value of A,",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2025/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "The Chart for Determining the Final Examination Score for the June 2025 https://www.nysed.gov/state-assessment/high-school-regents-examinations on the day of the examination. Conversion charts provided for previous administrations of the scores for this administration. Online Submission of Teacher Evaluations of the Test to the Department Suggestions and feedback from teachers provide an important contribution to the test development process. The Department provides an online evaluation form for State assessments. It contains spaces for teachers to respond to several specific questions and to make suggestions. Instructions for completing the evaluation form are as follows: 1. Go to https://www.nysed.gov/state-assessment/teacher-feedback-state-assessments. 2. Click Regents Examinations. 3. Complete the required demographic fields. 4. Select the test title from the Regents Examination dropdown list. 5. Complete each evaluation question and provide comments in the space provided. 6. Click the SUBMIT button at the bottom of the page to submit the completed form."
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Algebraically determine the solution to the equation below. x 2 2 1 x 5 4",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2025/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Factor the expression completely. (x 2 1)2 1 5(x 2 1) 2 6",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The results of a survey of the students at the local high school regarding the topic \u201cWhat I Do to Relax\u201d are displayed in the table below. Read Listen to Music Exercise Female 87 94 21 Male 68 110 18 If a student from this survey is selected at random,",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2025/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "The graph of y 5 f(x) is shown below. The cubic function has a leading coefficient of 1. y x Write an equation for f(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2025/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Given f(x) 5 3 2 x 1 6, write the equation of f21(x)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "On the coordinate plane below, sketch at least one cycle of the function f(x) 5 4cos(2x). Label the axes with an appropriate scale. x f(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2025/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "In a recent online contest with a large number of randomly selected human players, the computer player won 67% of the time. The game-design company claims that the computer player can beat human players 70% of the time. The company runs a simulation of a large number of games, with the same number of human players, assuming that the computer wins 70% of the time. The simulation is approximately normal with a mean of 0.705 and a standard deviation of 0.045. Does the contest result provide evidence to contradict the designer\u2019s claim? Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Solve algebraically for x: x 2 2x 1 3 x 2 4 5 . Express your answers in simplest a 1",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "A highly selective college reports that the mean score earned by accepted students on the Mathematics Level 2 subject test is 750 with a standard deviation of 20 and that the scores are approximately normally distributed. Given this information, determine the interval representing the middle 95% of student scores. To the nearest whole percent, determine the percentage of accepted students who scored a 760",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "For c(x) 5 3x2 2 4x 1 7 and d(x) 5 x 2 2, determine c(x) \u2022 d(x) 2 [d(x)]3",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Christopher works for a defense contractor and earned $85,000 his first year. For each additional year he will receive a 2.5% raise. Write a geometric series formula, Cn, for Christopher\u2019s total earnings over n years. Use this formula to find Christopher\u2019s total earnings, to the nearest hundred dollars, over his first 10 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Cesium-137 decay can be modeled with the formula A(t) 5 A0ekt, where A(t) represents the mass remaining in grams after t years and A0 represents the initial mass. A sample of 500 grams of cesium-137 takes approximately 60.34 years to decay to 125 grams. Use this sample with the given formula to determine the constant k, to the nearest thousandth. Use this value for k to write a function, A(t), that will find the mass of the 500-gram sample remaining after any amount of time, t, in years. Question 37 Graph A(t) on the graph below from t 5 0 to t 5 150 years. A(t) t Use A(t) to calculate the average rate of change in grams per year, from t 5 0 to t 5 60 years, to the nearest tenth. Explain what this value means in the given context. Question 37 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

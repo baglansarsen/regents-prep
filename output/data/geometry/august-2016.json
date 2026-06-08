@@ -1,0 +1,486 @@
+{
+  "subject": "geometry",
+  "session": "august-2016",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "In the diagram below, lines \u2113, m, n, and p intersect line r. Which statement is true?",
+      "choices": [
+        "\u2113 || n",
+        "\u2113 || p",
+        "m || p",
+        "m || n"
+      ],
+      "image": "/images/exams/geometry/august-2016/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which transformation would not always produce an image that would be congruent to the original figure?",
+      "choices": [
+        "translation",
+        "dilation",
+        "rotation",
+        "reflection"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "If an equilateral triangle is continuously rotated around one of its medians, which 3-dimensional object is generated?",
+      "choices": [
+        "cone",
+        "pyramid",
+        "prism",
+        "sphere m 68\u00b0 122\u00b0 78\u00b0 112\u00b0 n p r Part I Answer all 24 questions in this part. Each correct answer will receive 2 credits. No partial credit will be allowed. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For each statement or question, choose the word or expression that, of those given, best completes the statement or answers the question."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In the diagram below, m\u2220BDC \u0002 100\u00b0, m\u2220A \u0002 50\u00b0, and m\u2220DBC \u0002 30\u00b0. Which statement is true?",
+      "choices": [
+        "\u0002ABD is obtuse.",
+        "\u0002ABC is isosceles.",
+        "m\u2220ABD \u0002 80\u00b0",
+        "\u0002ABD is scalene."
+      ],
+      "image": "/images/exams/geometry/august-2016/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which point shown in the graph below is the image of point P after a counterclockwise rotation of 90\u00b0 about the origin?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D y x D C P B A B A C D Geometry (Common Core) Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/august-2016/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "In \u0002ABC, where \u2220C is a right angle, . What is sin B?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/geometry/august-2016/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Quadrilateral ABCD with diagonals ___ AC and ___ BD is shown in the diagram below. Which information is not enough to prove ABCD is a parallelogram?",
+      "choices": [
+        "AB ___ \u0002 CD ___ and AB ___ || DC ___",
+        "AB ___ \u0002 CD ___ and BC ___ \u0002 ___ DA",
+        "AB ___ \u0002 CD ___ and BC ___ || AD ___",
+        "AB ___ || DC ___ and BC ___ || AD ___"
+      ],
+      "image": "/images/exams/geometry/august-2016/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "An equilateral triangle has sides of length 20. To the nearest tenth, what is the height of the equilateral triangle?",
+      "choices": [
+        "10.0",
+        "11.5",
+        "17.3",
+        "23.1 5 21 A B C D cos A = 21 5 21 2 2 5 21 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Given: \u0002AEC, \u0002DEF, and ___ FE \u22a5 ___ CE What is a correct sequence of similarity transformations that shows \u0002AEC ~ \u0002DEF?",
+      "choices": [
+        "a rotation of 180 degrees about point E followed by a horizontal translation",
+        "a counterclockwise rotation of 90 degrees about point E followed by a horizontal translation",
+        "a rotation of 180 degrees about point E followed by a dilation with a scale factor of 2 centered at point E",
+        "a counterclockwise rotation of 90 degrees about point E followed by a dilation with a scale factor of 2 centered at point E"
+      ],
+      "image": "/images/exams/geometry/august-2016/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "In the diagram of right triangle ABC, CD ___ intersects hypotenuse \ufffc AB ___ at D. If AD \u0002 4 and DB \u0002 6, which length of ___ AC makes CD ___ \u22a5AB ___ ?",
+      "choices": [
+        "",
+        "",
+        "",
+        "2 10 4 2 2 6 2 15 D 6 B C A 4 F 6 8 E D A 4 3 C Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/august-2016/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Segment CD is the perpendicular bisector of AB ___ at E. Which pair of segments does not have to be congruent?",
+      "choices": [
+        "AD ___ , ___ BD",
+        "___ AC, BC ___",
+        "___ AE, ___ BE",
+        "___ DE, ___ CE"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "In triangle CHR, O is on ___ HR, and D is on ___ CR so that \u2220H \u0002 \u2220RDO. If RD \u0002 4, RO \u0002 6, and OH \u0002 4, what is the length of CD ___ ?",
+      "choices": [
+        "",
+        "",
+        "11",
+        "15"
+      ],
+      "image": "/images/exams/geometry/august-2016/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The cross section of a regular pyramid contains the altitude of the pyramid. The shape of this cross section is a",
+      "choices": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The diagonals of rhombus TEAM intersect at P(2,1). If the equation of the line that contains diagonal ___ TA is y \u0002 \u0003x \u0004 3, what is the equation of a line that contains diagonal ____ EM ?",
+      "choices": [
+        "y \u0002 x \u0003 1",
+        "y \u0002 x \u0003 3",
+        "y \u0002 \u0003x \u0003 1",
+        "y \u0002 \u0003x \u0003 3 6 2 3 2 2 3 H R D C O Geometry (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The coordinates of vertices A and B of \u0002ABC are A(3,4) and B(3,12). If the area of \u0002ABC is 24 square units, what could be the coordinates of point C?",
+      "choices": [
+        "(3,6)",
+        "(8,\u00033)",
+        "(\u00033,8)",
+        "(6,3)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "What are the coordinates of the center and the length of the radius of the circle represented by the equation x2 \u0004 y2 \u00034x \u0004 8y \u0004 11 \u0002 0?",
+      "choices": [
+        "center (2,\u00034) and radius 3",
+        "center (\u00032,4) and radius 3",
+        "center (2,\u00034) and radius 9",
+        "center (\u00032,4) and radius 9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The density of the American white oak tree is 752 kilograms per cubic meter. If the trunk of an American white oak tree has a circumference of 4.5 meters and the height of the trunk is 8 meters, what is the approximate number of kilograms of the trunk?",
+      "choices": [
+        "13",
+        "9694",
+        "13,536",
+        "30,456 Geometry (Common Core) Geometry (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Point P is on the directed line segment from point X(\u00026,\u00022) to point Y(6,7) and divides the segment in the ratio 1:5. What are the coordinates of point P?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/geometry/august-2016/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "In circle O, diameter AB ___ , chord ____ BC, and radius ____ OC are drawn, and the measure of arc BC is 108\u00b0. Some students wrote these formulas to find the area of sector COB: Amy Beth Carl Dex Which students wrote correct formulas?",
+      "choices": [
+        "Amy and Dex",
+        "Beth and Carl",
+        "Carl and Amy",
+        "Dex and Beth 108 360 1 2( ) \u2022 \u2022 \u03c0 AB 2 3 10 1 2 ( ) \u2022 \u2022 \u03c0 AB 2 ( , ) \u0002 \u0002 4 1 2 ( , ) \u0002 \u0002 1 2 4 ( , ) \u00024 0 1 2 ( , ) 4 5 1 2 108 360 ( ) \u2022 \u2022 \u03c0 OC 2 3 10 ( ) \u2022 \u2022 \u03c0 BC 2 A B C O 108\u00b0 Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/august-2016/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Tennis balls are sold in cylindrical cans with the balls stacked one on top of the other. A tennis ball has a diameter of 6.7 cm. To the nearest cubic centimeter, what is the minimum volume of the can that holds a stack of 4 tennis balls?",
+      "choices": [
+        "236",
+        "282",
+        "564",
+        "945"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Line segment A\u0005B\u0005, whose endpoints are (4,\u00032) and (16,14), is the image of AB ___ after a dilation of 1__ 2 centered at the origin. What is the length of AB ___ ?",
+      "choices": [
+        "5",
+        "10",
+        "20",
+        "40"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Given: \u0002ABE and \u0002CBD shown in the diagram below with ___ DB \u0002 BE ___ \ufffc Which statement is needed to prove \u0002ABE \u0002 \u0002CBD using only SAS \u0002 SAS?",
+      "choices": [
+        "\u2220CDB \u0002 \u2220AEB",
+        "\u2220AFD \u0002 \u2220EFC",
+        "AD ___ \u0002 ___ CE",
+        "___ AE \u0002 CD ___ A B C D E F Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/august-2016/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "In the diagram below, BC ___ is the diameter of circle A. Point D, which is unique from points B and C, is plotted on circle A. Which statement must always be true?",
+      "choices": [
+        "\u0002BCD is a right triangle.",
+        "\u0002BCD is an isosceles triangle.",
+        "\u0002BAD and \u0002CBD are similar triangles.",
+        "\u0002BAD and \u0002CAD are congruent triangles."
+      ],
+      "image": "/images/exams/geometry/august-2016/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "In the diagram below, ABCD is a parallelogram, \u2013\u2014 \u2013\u2014 AB is extended through B to E, and \u2013\u2014 \u2013\u2014 CE is drawn. If \u2013\u2014 \u2013\u2014 CE \u0002 \u2013\u2014 \u2013\u2014 BE and m\u2220D \u0002 112\u00b0, what is m\u2220E?",
+      "choices": [
+        "44\u00b0",
+        "56\u00b0",
+        "68\u00b0",
+        "112\u00b0 \u0002 \u0003 \u0004 \u0005 \u0006 B C A Geometry (Common Core) Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/geometry/august-2016/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Lines AE and BD are tangent to circles O and P at A, E, B, and D, as shown in the diagram below. If AC:CE \u0002 5:3, and BD \u0002 56, determine and state the length of CD ___ . A B O P D E C",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2016/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "In the diagram below, \u0002ABC has coordinates A(1,1), B(4,1), and C(4,5). Graph and label \u0002A\u0006B\u0006C\u0006, the image of \u0002ABC after the translation five units to the right and two units up followed by the reflection over the line y \u0002 0. \u0002 \u0003 \u0004 \u0005 \u0006 Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2016/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "A regular hexagon is rotated in a counterclockwise direction about its center. Determine and state the minimum number of degrees in the rotation such that the hexagon will coincide with itself. Geometry (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "In the diagram of \u0002ABC shown below, use a compass and straightedge to construct the median to AB ___ . [Leave all construction marks.] C A B Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2016/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Triangle MNP is the image of triangle JKL after a 120\u00b0 counterclockwise rotation about point Q. If the measure of angle L is 47\u00b0 and the measure of angle N is 57\u00b0, determine the measure of angle M. Explain how you arrived at your answer. Q K J L M P N 120\u00b0 Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2016/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "A circle has a center at (1,\u20132) and radius of 4. Does the point (3.4,1.2) lie on the circle? Justify your answer. Geometry (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "In the diagram below, a window of a house is 15 feet above the ground. A ladder is placed against the house with its base at an angle of 75\u00b0 with the ground. Determine and state the length of the ladder to the nearest tenth of a foot. \u0007\b \b Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2016/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Using a compass and straightedge, construct and label \u0002A\u0005B\u0005C\u0005, the image of \u0002ABC after a dilation with a scale factor of 2 and centered at B. [Leave all construction marks.] Describe the relationship between the lengths of ___ AC and ____ A\u0005C\u0005. C B A Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Geometry (Common Core) Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2016/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "The grid below shows \u0002ABC and \u0002DEF. Let \u0002A\u0005B\u0005C\u0005 be the image of \u0002ABC after a rotation about point A. Determine and state the location of B\u0005 if the location of point C\u0005is (8,\u20133). Explain your answer. Is \u0002DEF congruent to \u0002A\u0005B\u0005C\u0005? Explain your answer. y x A C B E D F",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2016/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "As modeled below, a movie is projected onto a large outdoor screen. The bottom of the 60-foot-tall screen is 12 feet off the ground. The projector sits on the ground at a horizontal distance of 75 feet from the screen. Determine and state, to the nearest tenth of a degree, the measure of \u0007, the projection angle. 60 12 75 \u0007 Geometry (Common Core) Geometry (Common Core) Part IV Answer the 2 questions in this part. Each correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2016/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Given: Circle O, chords AB ___ and CD ___ intersect at E Theorem: If two chords intersect in a circle, the product of the lengths of the segments of one chord is equal to the product of the lengths of the segments of the other chord. Prove this theorem by proving . AE EB CE ED \u2022 \u2022 \u0002 A D B C O E Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2016/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "A snow cone consists of a paper cone completely filled with shaved ice and topped with a hemisphere of shaved ice, as shown in the diagram below. The inside diameter of both the cone and the hemisphere is 8.3 centimeters. The height of the cone is 10.2 centimeters. The desired density of the shaved ice is 0.697 g/cm3, and the cost, per kilogram, of ice is $3.83. Determine and state the cost of the ice needed to make 50 snow cones. 8.3 cm 10.2 cm High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here Geometry (Common Core) Tear Here Tear Here Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here GEOMETRY (COMMON CORE) GEOMETRY (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2016/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

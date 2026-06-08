@@ -10,7 +10,7 @@ import { useAuthContext } from '../context/AuthContext'
 import { useSubject } from '../context/SubjectContext'
 import { useProgress } from '../hooks/useProgress'
 import { useDailyStreak } from '../hooks/useDailyStreak'
-import { useXP } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { useLivesContext } from '../context/LivesContext'
 import { useDailyGoal } from '../hooks/useDailyGoal'
 import { useMistakes } from '../hooks/useMistakes'
@@ -25,6 +25,10 @@ import * as physicsData from '../content/physics/index'
 import * as algebra1Data from '../content/algebra-1/index'
 import * as algebra2Data from '../content/algebra-2/index'
 import * as geometryData from '../content/geometry/index'
+import * as lifeScienceData from '../content/life-science/index'
+import * as englishData from '../content/english/index'
+import * as globalHistoryData from '../content/global-history/index'
+import * as usHistoryData from '../content/us-history/index'
 import { STRATEGY_CATEGORIES } from '../content/strategies-meta'
 import { T, duoBtn, duoBtnOutline, cardShadow, elevatedCard, sectionLabel } from '../styles/duo'
 import GoalRing from '../components/GoalRing'
@@ -35,20 +39,36 @@ import PetTriviaCard from '../components/PetTriviaCard'
 import { usePetContext } from '../context/PetContext'
 import { useSpeechContext, loadDailyMessage } from '../context/SpeechContext'
 import { FOOD_ITEMS } from '../data/petConfig'
+import { PET_RESULTS } from '../data/petPersonality'
 import PlacementTestScreen from './PlacementTestScreen'
+import { useLeague, formatCountdown, msUntilReset } from '../hooks/useLeague'
+import { getLevel } from '../hooks/useRP'
+import { useStudyTime, formatTime as fmtStudyTime } from '../hooks/useStudyTime'
+import { getExamLabel, getDaysUntilExam } from '../utils/examDates'
+import NudgeBanner from '../components/NudgeBanner'
+import { getEngagementNudge } from '../hooks/useEngagementNudge'
 
 const MILESTONE_GIFTS = {
-  3:  { xp: 100,  items: {},                       label: '100 ⭐ XP!' },
-  7:  { xp: 250,  items: { apple: 1 },             label: '250 ⭐ XP + 🍎 Apple!' },
-  14: { xp: 500,  items: { ramen: 1 },             label: '500 ⭐ XP + 🍜 Ramen!' },
-  30: { xp: 1000, items: { sushi: 1, glowAura: 1 }, label: '1000 ⭐ XP + 🍣 Sushi + ✨ Glow Aura!' },
+  3:  { rp: 100,  items: {},                       label: '100 ⭐ RP!' },
+  7:  { rp: 250,  items: { apple: 1 },             label: '250 ⭐ RP + 🍎 Apple!' },
+  14: { rp: 500,  items: { ramen: 1 },             label: '500 ⭐ RP + 🍜 Ramen!' },
+  30: { rp: 1000, items: { sushi: 1, glowAura: 1 }, label: '1000 ⭐ RP + 🍣 Sushi + ✨ Glow Aura!' },
+}
+
+const GOAL_PET_MESSAGES = {
+  dog:     "WOOF WOOF! You crushed it! I'm so proud of you today! 🐕",
+  cat:     "Hmm... I suppose you've done adequately. *purrs approvingly* 🐱",
+  parrot:  "GOAL! GOAL! YOU REACHED YOUR GOAL! Squawk! Outstanding! 🦜",
+  rabbit:  "You hopped all the way to the finish! Goal complete! 🐰",
+  fish:    "*blows celebratory bubbles* You're absolutely amazing today! 🐟",
+  hamster: "You ran the whole wheel and made it! Goal reached! 🐹",
+  default: "Amazing! You reached your daily goal! Keep it up! 🌟",
 }
 
 const W_RAW = Dimensions.get('window').width
 const width = Platform.OS === 'web' ? Math.min(Math.max(W_RAW || 360, 320), 480) : W_RAW
 const NODE_SIZE = 84
 const ZIGZAG   = 72
-const COLORS = { axolotl: '#ec4899', fox: '#f97316', capybara: '#84cc16', voidCat: '#8b5cf6', bear: '#a16207', bunny: '#f472b6' }
 
 export default function HomeScreen({ navigation }) {
   const { C, isDark } = useTheme()
@@ -68,13 +88,18 @@ export default function HomeScreen({ navigation }) {
     [SUBJECTS.ALGEBRA_1]:     algebra1Data,
     [SUBJECTS.ALGEBRA_2]:     algebra2Data,
     [SUBJECTS.GEOMETRY]:      geometryData,
+    [SUBJECTS.LIFE_SCIENCE]:  lifeScienceData,
+    [SUBJECTS.ENGLISH]:       englishData,
+    [SUBJECTS.GLOBAL_HISTORY]:globalHistoryData,
+    [SUBJECTS.US_HISTORY]:    usHistoryData,
   }
   const sd = mobileSubjectMap[subject] ?? leData
 
-  const { history } = useProgress(uid)
-  const { weekDays, streak, studiedToday } = useDailyStreak(uid)
-  const { xp, earnXP, spendXP } = useXP(uid)
+  const { history, reloadHistory } = useProgress(uid)
+  const { weekDays, streak, studiedToday, hasFreeze, buyFreeze } = useDailyStreak(uid)
+  const { rp, earnRP, spendRP, loaded: rpLoaded } = useRP(uid)
   const { lives, maxLives, nextRefillAt, refillLives } = useLivesContext()
+  const { todaySeconds } = useStudyTime(uid, null, null)  // read-only: no session, just load persisted totals
 
   const subjectHistory = useMemo(
     () => history.filter((h) => (h.subject ?? 'living-environment') === subject),
@@ -85,6 +110,7 @@ export default function HomeScreen({ navigation }) {
   const units = sd.UNITS ?? []
   const { isUnitUnlocked, unitUnlockHint, reloadSkipUnlocks } = useUnitUnlocks(units, lessonComplete, unitComplete, subject)
   useFocusEffect(useCallback(() => {
+    reloadHistory()
     reloadSkipUnlocks()
     if (pendingEvolution) navigation.navigate('PetEvolution')
 
@@ -103,7 +129,7 @@ export default function HomeScreen({ navigation }) {
         const top  = earned[earned.length - 1]
         const gift = MILESTONE_GIFTS[top]
         await AsyncStorage.setItem(key, String(top)).catch(() => {})
-        if (gift.xp)      await earnXP(gift.xp)
+        if (gift.xp)      await earnRP(gift.xp)
         for (const [itemId, qty] of Object.entries(gift.items ?? {})) {
           await addInventory(itemId, qty)
         }
@@ -113,29 +139,80 @@ export default function HomeScreen({ navigation }) {
       })()
     }
 
-    // Daily greeting (once per day, cached) — stored in state, shown in right-side bubble
+    // Daily greeting (once per day, cached)
     loadDailyMessage({
       uid,
       petType:       pet.petType,
       streak,
-      daysUntilExam: 14,  // TODO: wire to real exam date
+      daysUntilExam: daysToExam,
       subject,
-    }).then((msg) => { if (msg) setDailyMsg(msg) }).catch(() => {})
-  }, [reloadSkipUnlocks, pendingEvolution, uid, streak]))
+    }).then((msg) => { if (msg) say(msg) }).catch(() => {})
+  }, [reloadHistory, reloadSkipUnlocks, pendingEvolution, uid, streak]))
 
-  const { goal, setGoal, todayXP, progress: goalProgress, goalMet, GOALS } = useDailyGoal(xp)
+  const { goal, setGoal, todayRP, progress: goalProgress, goalMet, GOALS, celebrated, markCelebrated } = useDailyGoal(rp, rpLoaded)
   const { mistakes, mistakeCount } = useMistakes()
-  const { pet, pendingEvolution, getPetMessage, dailyDig, getTodayQuest, updateQuestProgress, triggerReaction, addInventory } = usePetContext()
-  const { say, current: speechCurrent, onDone: onSpeechDone } = useSpeechContext()
 
-  const [dailyMsg,        setDailyMsg]         = useState(null)
-  const [selectedLesson,  setSelectedLesson]  = useState(null)
-  const [showGoalPicker,  setShowGoalPicker]   = useState(false)
-  const [digReward,       setDigReward]        = useState(null)
-  const [questData,       setQuestData]        = useState(null)
+  // ── Exam countdown (real dates — computed once per render) ─────────────────
+  const daysToExam = getDaysUntilExam(subject)
+  const examLabel  = getExamLabel(subject)
+  const { pet, pendingEvolution, getPetMessage, dailyDig, getTodayQuest, updateQuestProgress, triggerReaction, addInventory, studyBoost } = usePetContext()
+  const { say } = useSpeechContext()
+
+  const [selectedLesson,    setSelectedLesson]    = useState(null)
+  const [showGoalPicker,    setShowGoalPicker]     = useState(false)
+  const [digReward,         setDigReward]          = useState(null)
+  const [questData,         setQuestData]          = useState(null)
+  const [goalCelebModal,    setGoalCelebModal]    = useState(false)
   const [milestoneModal,  setMilestoneModal]   = useState(null)
+  const [levelUpModal,    setLevelUpModal]     = useState(null)  // { level, name }
+  const [showFreezeBanner,setShowFreezeBanner] = useState(false)
   const [tipsUnit,        setTipsUnit]         = useState(null)
   const [expandedTip,     setExpandedTip]      = useState(null)
+  const [nudgeDismissed,  setNudgeDismissed]   = useState(false)
+  const [bannerResolved,  setBannerResolved]   = useState(false)
+
+  // ── League ────────────────────────────────────────────────────────────────
+  const { tier, members, promoteN } = useLeague(uid)
+
+  // ── Level-up detection (reads flag written by useXP) ──────────────────────
+  useFocusEffect(useCallback(() => {
+    AsyncStorage.getItem('@levelUp').then((raw) => {
+      if (!raw) return
+      AsyncStorage.removeItem('@levelUp').catch(() => {})
+      const data = JSON.parse(raw)
+      // Award bonus RP for levelling up
+      earnRP(200)
+      setLevelUpModal(data)
+    }).catch(() => {})
+
+    // Streak-at-risk freeze banner (show once per day if streak > 2 and no freeze)
+    if (streak >= 3 && !studiedToday && !hasFreeze) {
+      const today = new Date().toISOString().slice(0, 10)
+      AsyncStorage.getItem(`@streakWarnDismissed_${today}`).then((val) => {
+        if (!val) setShowFreezeBanner(true)
+        setBannerResolved(true)
+        setNudgeDismissed(false)
+      }).catch(() => {
+        setBannerResolved(true)
+        setNudgeDismissed(false)
+      })
+    } else {
+      setShowFreezeBanner(false)
+      setBannerResolved(true)
+      setNudgeDismissed(false)
+    }
+  }, [uid, streak, studiedToday, hasFreeze]))
+
+  // ── Re-run uid-dependent init when auth resolves after mount ────────────────
+  // useFocusEffect fires once on mount (uid may still be null). This effect
+  // covers the gap so quest data, history, and unlocks load without requiring
+  // the user to switch tabs and back.
+  useEffect(() => {
+    if (!uid) return
+    reloadHistory()
+    reloadSkipUnlocks()
+    getTodayQuest().then(setQuestData).catch(() => {})
+  }, [uid])
 
   // ── Placement test — triggered before the user's first lesson ────────────
   const [placementDone,   setPlacementDone]   = useState(null)   // null = loading
@@ -149,6 +226,16 @@ export default function HomeScreen({ navigation }) {
       .then((val) => setPlacementDone(!!val))
       .catch(() => setPlacementDone(true))  // fail open — don't block lessons
   }, [uid])
+
+  // ── Daily goal celebration ────────────────────────────────────────────────
+  useEffect(() => {
+    if (!goalMet || celebrated || !pet.chosen) return
+    markCelebrated()
+    triggerReaction('celebrate')
+    studyBoost()
+    say(GOAL_PET_MESSAGES[pet.petType] ?? GOAL_PET_MESSAGES.default)
+    setTimeout(() => setGoalCelebModal(true), 600)
+  }, [goalMet, celebrated, pet.petType, pet.chosen])
 
   const sheetAnim     = useRef(new Animated.Value(400)).current
   const goalSheetAnim = useRef(new Animated.Value(400)).current
@@ -175,15 +262,19 @@ export default function HomeScreen({ navigation }) {
     'algebra-1':          'Algebra 1',
     'algebra-2':          'Algebra 2',
     'geometry':           'Geometry',
+    'life-science':       'Life Science',
+    'english':            'English',
+    'global-history':     'Global History',
+    'us-history':         'US History',
   }[subject] ?? 'Regents'
 
   const idleMessages = pet.petType ? {
-    axolotl: [`Your ${subjectName} notes are looking great lately 💗`, 'One more quiz? For me? 🦎', `I believe in your ${subjectName} skills. Always. 🌊`],
-    fox:     [`You know what separates good ${subjectName} scores from great? Consistency.`, 'Sharp mind. Keep it that way. 🦊', 'Quick quiz. Go.'],
-    capybara:[`No rush. One ${subjectName} flashcard deck is enough 🌿`, 'Breathe. You\'re doing well 🦫', 'Chill energy, real results.'],
-    voidCat: [`The void observes your ${subjectName} progress. It is... adequate. 🐱`, 'Study. The void commands it. 🌑', 'Do not disappoint the void.'],
-    bear:    [`One more ${subjectName} unit. Bears don\'t quit midway 🐻`, `Slow and steady wins the ${subjectName} Regents 🍯`, 'I\'m proud of your consistency 🐾'],
-    bunny:   [`Quick question — what\'s your weak ${subjectName} topic? Let\'s fix it 🐰`, `You\'re hopping through ${subjectName}! 🌸`, 'Keep going! Almost there 🐰'],
+    dog:     [`Your ${subjectName} progress makes me so proud! 🐶`, `One more ${subjectName} quiz? Let's do it together! 🐾`, `I believe in your ${subjectName} skills. Always. 🐶`],
+    parrot:  [`Quick ${subjectName} question — let's go! 🦜`, `You're flying through ${subjectName}! 🦜`, `One more ${subjectName} quiz? I'm ready! 🌸`],
+    cat:     [`Your ${subjectName} progress is noted. Continue. 🐱`, `Solo ${subjectName} study time. That's where you shine. 🐱`, `Trust your ${subjectName} approach. It works. 🌑`],
+    rabbit:  [`Your ${subjectName} dedication means everything 💗`, `One more ${subjectName} quiz? For us? 🐰`, `Steady hops through ${subjectName}. You've got this 🌸`],
+    fish:    [`No rush with ${subjectName}. One concept at a time 🐠`, `Stay calm. ${subjectName} mastery flows naturally 🌊`, `Your steady ${subjectName} progress is beautiful 🐠`],
+    hamster: [`One more ${subjectName} unit at your pace 🐹`, `Quiet ${subjectName} study sessions suit you best 🐹`, `Grounded progress in ${subjectName}. Keep going 🐹`],
   }[pet.petType] ?? [] : []
 
   useEffect(() => {
@@ -194,13 +285,6 @@ export default function HomeScreen({ navigation }) {
     }, delay)
     return () => clearTimeout(id)
   }, [pet.petType])
-
-  // ── Auto-advance speech queue: dismiss current after 4 s ─────────────────
-  useEffect(() => {
-    if (!speechCurrent) return
-    const id = setTimeout(() => onSpeechDone?.(), 4000)
-    return () => clearTimeout(id)
-  }, [speechCurrent])
 
   // ── Tips sheet open / close ──────────────────────────────────────────────
   function openTips(unit) {
@@ -259,9 +343,9 @@ export default function HomeScreen({ navigation }) {
     const min = Math.ceil(ms / 60000)
     Alert.alert(
       '🚫 Out of Lives!',
-      `Next life in ${min > 0 ? `${min}m` : 'a moment'}, or refill all 5 for 300 ⭐ XP.`,
+      `Next life in ${min > 0 ? `${min}m` : 'a moment'}, or refill all 5 for 300 ⭐ RP.`,
       [
-        { text: 'Refill (300 XP)', onPress: () => refillLives(spendXP).then((ok) => ok && onProceed()) },
+        { text: 'Refill (300 RP)', onPress: () => refillLives(spendRP).then((ok) => ok && onProceed()) },
         { text: 'Not now', style: 'cancel' },
       ],
     )
@@ -271,9 +355,29 @@ export default function HomeScreen({ navigation }) {
   function handlePlacementComplete() {
     setShowPlacement(false)
     setPlacementDone(true)
+    reloadSkipUnlocks()          // re-read @skipUnlocks_${subject} so unlocked units render immediately
     const p = pendingLesson
     setPendingLesson(null)
     if (p) startLesson(p.unit, p.lessonIndex, true)  // bypassPlacement — resume the tapped lesson
+  }
+
+  // Android hardware back inside the placement modal → confirm, then skip
+  function handlePlacementBack() {
+    Alert.alert(
+      'Skip the placement test?',
+      "You can take it later — we'll just start you from the beginning for now.",
+      [
+        { text: 'Keep going', style: 'cancel' },
+        {
+          text: 'Skip',
+          style: 'destructive',
+          onPress: async () => {
+            try { await AsyncStorage.setItem(`@placementDone_v1_${uid}`, '1') } catch {}
+            handlePlacementComplete()
+          },
+        },
+      ],
+    )
   }
 
   // ── Quiz / Flashcards ────────────────────────────────────────────────────
@@ -327,11 +431,13 @@ export default function HomeScreen({ navigation }) {
 
   function startStimulusPractice(unit) {
     const questionSet = sd.getExamContextQuestions(unit.topic)
+    if (!questionSet.length) return
     livesGate(() => navigation.navigate('Quiz', { questionSet, topic: unit.topic, subject, lessonIndex: null }))
   }
 
   function startQuiz(topic) {
     const pool = topic ? sd.getByTopic(topic) : sd.questions
+    if (!pool.length) return
     const shuffled = [...pool].sort(() => Math.random() - 0.5)
     livesGate(() => navigation.navigate('Quiz', { questionSet: shuffled, topic, subject }))
   }
@@ -342,12 +448,14 @@ export default function HomeScreen({ navigation }) {
 
   function startStudy(topic) {
     const pool = topic ? sd.getByTopic(topic) : sd.questions
+    if (!pool.length) return
     closeSheet(() => navigation.navigate('Study', { questionSet: pool, subject }))
   }
 
   function startSkipChallenge(unit, unitIdx) {
     const prev = units[unitIdx - 1]
     const pool = sd.getByTopic(prev?.topic ?? unit.topic).sort(() => Math.random() - 0.5).slice(0, 15)
+    if (!pool.length) return
     navigation.navigate('SkipChallenge', {
       topic: unit.topic,
       prereqTopic: prev?.topic ?? unit.topic,
@@ -373,15 +481,16 @@ export default function HomeScreen({ navigation }) {
 
   function startSpeedRound() {
     const pool = [...sd.questions].sort(() => Math.random() - 0.5).slice(0, 30)
+    if (!pool.length) return
     navigation.navigate('SpeedRound', { questionSet: pool, subject })
   }
 
   async function handleDig() {
     const result = await dailyDig()
     if (!result.ok) return
-    if (result.type === 'xp') await earnXP(result.amount)
+    if (result.type === 'xp') await earnRP(result.amount)
     const label = result.type === 'xp'
-      ? `${pet.name} found ⭐ ${result.amount} XP!`
+      ? `${pet.name} found ⭐ ${result.amount} RP!`
       : `${pet.name} dug up a ${FOOD_ITEMS.find((f) => f.id === result.itemId)?.icon ?? '🎁'}!`
     setDigReward(label)
     setTimeout(() => setDigReward(null), 3000)
@@ -438,14 +547,25 @@ export default function HomeScreen({ navigation }) {
 
       <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={s.scroll}>
 
-        {/* Greeting + coin balance */}
+        {/* Greeting + status bar */}
         <View style={s.header}>
-          <View>
+          <View style={{ flex: 1 }}>
             <Text style={[T.h1, { color: C.text }]}>Good {timeOfDay()} 👋</Text>
             <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-              {user?.displayName?.split(' ')[0] ?? 'Student'} · Level {Math.floor(xp / 500) + 1}
+              {user?.displayName?.split(' ')[0] ?? 'Student'} · {getLevel(rp).name}
+            </Text>
+            <Text style={[T.small, { color: daysToExam <= 14 ? C.wrong : C.textMuted, marginTop: 3 }]}>
+              {examLabel}
             </Text>
           </View>
+
+          {/* Study time today — shown only after 1 min of study */}
+          {todaySeconds >= 60 && (
+            <View style={[s.studyTimePill, { backgroundColor: C.brand + '18', borderColor: C.brand + '40' }]}>
+              <Text style={s.studyTimePillIcon}>📚</Text>
+              <Text style={[s.studyTimePillText, { color: C.brand }]}>{fmtStudyTime(todaySeconds)}</Text>
+            </View>
+          )}
         </View>
 
         {/* Week streak dots */}
@@ -470,6 +590,43 @@ export default function HomeScreen({ navigation }) {
           ))}
         </View>
 
+        {/* Engagement nudge */}
+        {bannerResolved && !nudgeDismissed && !showFreezeBanner && getEngagementNudge('home', { streak, studiedToday, hasFreeze, weekDays, todayRP, goal, goalMet }) && (
+          <NudgeBanner
+            {...getEngagementNudge('home', { streak, studiedToday, hasFreeze, weekDays, todayRP, goal, goalMet })}
+            onDismiss={() => setNudgeDismissed(true)}
+          />
+        )}
+
+        {/* Streak-at-risk freeze banner */}
+        {showFreezeBanner && (
+          <View style={[s.freezeBanner, { backgroundColor: '#FF460015', borderColor: '#FF460040' }]}>
+            <Text style={[T.body, { color: C.wrong, flex: 1 }]}>
+              ⚠️ Study today to keep your {streak}-day streak!
+            </Text>
+            <View style={s.freezeBannerBtns}>
+              <TouchableOpacity
+                style={[s.freezeBtn, { backgroundColor: C.brand }]}
+                onPress={() => buyFreeze(spendRP).then((res) => {
+                  if (res === 'success') { setShowFreezeBanner(false); Alert.alert('🧊 Streak Freeze active!', 'Your streak is protected if you miss today.') }
+                  else if (res === 'insufficient_xp') Alert.alert('Not enough RP', 'You need 200 RP to buy a Streak Freeze.')
+                })}
+              >
+                <Text style={{ color: '#fff', fontSize: 11, fontWeight: '700' }}>🧊 Freeze (200 RP)</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                onPress={() => {
+                  const today = new Date().toISOString().slice(0, 10)
+                  AsyncStorage.setItem(`@streakWarnDismissed_${today}`, '1').catch(() => {})
+                  setShowFreezeBanner(false)
+                }}
+              >
+                <Text style={[T.small, { color: C.textMuted, padding: 6 }]}>Dismiss</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        )}
+
         {/* Daily Goal Ring */}
         <TouchableOpacity
           style={[s.goalCard, elevatedCard(C), glassStyle, { borderLeftWidth: 4, borderLeftColor: goalMet ? C.correct : C.brand }]}
@@ -485,7 +642,7 @@ export default function HomeScreen({ navigation }) {
             trackColor={C.surface2}
           >
             <Text style={[T.label, { color: C.text, textTransform: 'none', letterSpacing: 0, fontSize: 13 }]}>
-              {todayXP}
+              {todayRP}
             </Text>
           </GoalRing>
 
@@ -493,11 +650,11 @@ export default function HomeScreen({ navigation }) {
           <View style={{ flex: 1, marginLeft: 14 }}>
             <Text style={[T.h3, { color: C.text }]}>Daily Goal</Text>
             <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-              {todayXP} / {goal} XP today
+              {todayRP} / {goal} RP today
             </Text>
             {goalMet
               ? <Text style={[T.small, { color: C.correct, marginTop: 3 }]}>🎯 Goal reached!</Text>
-              : <Text style={[T.small, { color: C.textMuted, marginTop: 3 }]}>{goal - todayXP} XP to go</Text>
+              : <Text style={[T.small, { color: C.textMuted, marginTop: 3 }]}>{goal - todayRP} RP to go</Text>
             }
           </View>
 
@@ -509,22 +666,19 @@ export default function HomeScreen({ navigation }) {
         {pet.chosen && (
           <View style={s.petSection}>
             <View style={s.petRow}>
-              <PetWidget size={90} onLongPress={() => navigation.navigate('PetShop')} isSpeaking={!!speechCurrent} />
-
-              {/* Speech bubble — right side, shows active speech or daily message */}
+              <PetWidget size={90} onLongPress={() => navigation.navigate('PetShop')} />
+              
+              {/* Personality message */}
               {(() => {
                 const daysSince = studiedToday ? 0 : 1
-                const msg = speechCurrent || dailyMsg || getPetMessage({ streak, daysSince })
+                const msg = getPetMessage({ streak, daysSince })
                 if (!msg) return null
-                const accentColor = COLORS[pet.petType] ?? C.brand
                 return (
-                  <View style={[s.petMsgBubble, { backgroundColor: C.surface, borderColor: C.border, borderLeftColor: accentColor, borderLeftWidth: 3 }, glassStyle]}>
-                    {pet.name ? (
-                      <Text style={[T.label, { color: accentColor, marginBottom: 4 }]}>{pet.name}</Text>
-                    ) : null}
-                    <Text style={[T.body, { color: C.text, lineHeight: 20, fontSize: 14 }]}>
+                  <View style={[s.petMsgBubble, { backgroundColor: C.surface, borderColor: C.border }, glassStyle]}>
+                    <Text style={[T.body, { color: C.text }]}>
                       {msg}
                     </Text>
+                    {/* Speech bubble pointer arrow */}
                     <View style={[s.bubblePointer, { borderRightColor: C.surface, borderLeftColor: 'transparent' }]} />
                   </View>
                 )
@@ -532,21 +686,32 @@ export default function HomeScreen({ navigation }) {
             </View>
             <PetStatusBars />
 
-            {/* Daily dig button */}
-            <TouchableOpacity
-              style={[s.digBtn, { backgroundColor: C.surface, borderColor: C.border }]}
-              onPress={handleDig}
-              activeOpacity={0.8}
-            >
-              <Text style={{ fontSize: 18 }}>🐾</Text>
-              <Text style={[T.btn, { color: C.text, fontSize: 13 }]}>Let {pet.name} dig!</Text>
-              <Text style={[T.small, { color: C.textMuted }]}>once/day</Text>
-            </TouchableOpacity>
+            {/* Daily dig button + shop button */}
+            <View style={{ flexDirection: 'row', marginHorizontal: 24, marginTop: 10, gap: 10 }}>
+              <TouchableOpacity
+                style={[s.digBtn, { flex: 1, marginHorizontal: 0, marginTop: 0, backgroundColor: C.surface, borderColor: C.border }]}
+                onPress={handleDig}
+                activeOpacity={0.8}
+              >
+                <Text style={{ fontSize: 18 }}>🐾</Text>
+                <Text style={[T.btn, { color: C.text, fontSize: 13 }]}>Let {pet.name} dig!</Text>
+                <Text style={[T.small, { color: C.textMuted }]}>once/day</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={[s.digBtn, { marginHorizontal: 0, marginTop: 0, paddingHorizontal: 16, backgroundColor: C.surface, borderColor: C.border }]}
+                onPress={() => navigation.navigate('PetShop')}
+                activeOpacity={0.8}
+              >
+                <Text style={{ fontSize: 18 }}>🛍</Text>
+                <Text style={[T.btn, { color: C.text, fontSize: 13 }]}>Shop</Text>
+              </TouchableOpacity>
+            </View>
             {digReward && (
               <View style={[s.digRewardBanner, { backgroundColor: C.brandBg, borderColor: C.brand }]}>
                 <Text style={[T.body, { color: C.brand, textAlign: 'center' }]}>{digReward}</Text>
               </View>
             )}
+
           </View>
         )}
 
@@ -604,6 +769,47 @@ export default function HomeScreen({ navigation }) {
             <Text style={[T.btn, { color: '#fff', fontSize: 11 }]}>Practice{'\n'}Mistakes</Text>
           </TouchableOpacity>
         </View>
+
+        {/* ── FOCUS TIMER ── */}
+        <TouchableOpacity
+          style={[s.focusRow, elevatedCard(C), glassStyle]}
+          onPress={() => navigation.navigate('FocusMain')}
+          activeOpacity={0.85}
+        >
+          <Text style={{ fontSize: 22 }}>⏱</Text>
+          <View style={{ flex: 1, marginLeft: 12 }}>
+            <Text style={[T.h3, { color: C.text }]}>Focus Timer</Text>
+            <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Pomodoro study sessions</Text>
+          </View>
+          <Text style={{ fontSize: 18, color: C.textMuted }}>›</Text>
+        </TouchableOpacity>
+
+        {/* ── LEAGUE WIDGET ── */}
+        {tier !== 'none' && (
+          <TouchableOpacity
+            style={[s.leagueCard, elevatedCard(C), glassStyle]}
+            onPress={() => navigation.navigate('FriendsMain')}
+            activeOpacity={0.85}
+          >
+            <View style={{ flex: 1 }}>
+              <View style={s.leagueHeader}>
+                <Text style={[T.h3, { color: C.text }]}>
+                  {tier === 'bronze' ? '🥉' : tier === 'silver' ? '🥈' : tier === 'gold' ? '🥇' : '💎'}{' '}
+                  {tier.charAt(0).toUpperCase() + tier.slice(1)} League
+                </Text>
+                <Text style={[T.small, { color: C.textMuted }]}>
+                  {formatCountdown(msUntilReset())} left
+                </Text>
+              </View>
+              {members.length > 0 && (
+                <Text style={[T.small, { color: C.textMuted, marginTop: 3 }]}>
+                  You're #{members.findIndex((m) => m.uid === uid) + 1 || '–'} of {members.length} · Top {promoteN} promote 🆙
+                </Text>
+              )}
+            </View>
+            <Text style={{ fontSize: 18, color: C.textMuted }}>›</Text>
+          </TouchableOpacity>
+        )}
 
         {/* ── DUOLINGO UNIT PATH ── */}
         <Text style={[sectionLabel(C), { paddingHorizontal: 20, marginBottom: 16 }]}>Learning Path</Text>
@@ -810,8 +1016,17 @@ export default function HomeScreen({ navigation }) {
         <Animated.View
           style={[s.sheet, cardShadow(C.shadow), { backgroundColor: C.surface, transform: [{ translateY: goalSheetAnim }] }]}
         >
-          <View style={s.sheetHandle} />
-          <Text style={[T.h3, { color: C.text, marginBottom: 4 }]}>🎯 Daily XP Goal</Text>
+          <View style={s.sheetHeader}>
+            <View style={s.sheetHandle} />
+            <TouchableOpacity
+              onPress={closeGoalPicker}
+              style={s.sheetCloseBtn}
+              hitSlop={{ top: 10, right: 10, bottom: 10, left: 10 }}
+            >
+              <Text style={[T.label, { color: C.textMuted, fontSize: 22 }]}>✕</Text>
+            </TouchableOpacity>
+          </View>
+          <Text style={[T.h3, { color: C.text, marginBottom: 4 }]}>🎯 Daily RP Goal</Text>
           <Text style={[T.small, { color: C.textMuted, marginBottom: 20 }]}>
             How much do you want to learn today?
           </Text>
@@ -834,7 +1049,7 @@ export default function HomeScreen({ navigation }) {
                 >
                   <Text style={{ fontSize: 22 }}>{emojis[g]}</Text>
                   <View style={{ flex: 1, marginLeft: 12 }}>
-                    <Text style={[T.h3, { color: active ? C.brand : C.text }]}>{g} XP / day</Text>
+                    <Text style={[T.h3, { color: active ? C.brand : C.text }]}>{g} RP / day</Text>
                     <Text style={[T.small, { color: C.textMuted }]}>{labels[g]}</Text>
                   </View>
                   {active && <Text style={[T.label, { color: C.brand }]}>✓ ACTIVE</Text>}
@@ -910,7 +1125,7 @@ export default function HomeScreen({ navigation }) {
         visible={showPlacement}
         animationType="slide"
         presentationStyle="fullScreen"
-        onRequestClose={() => {}}
+        onRequestClose={handlePlacementBack}
       >
         <PlacementTestScreen onComplete={handlePlacementComplete} />
       </Modal>
@@ -940,6 +1155,58 @@ export default function HomeScreen({ navigation }) {
         </View>
       </Modal>
 
+      {/* Level-up modal */}
+      <Modal transparent visible={!!levelUpModal} animationType="fade" onRequestClose={() => setLevelUpModal(null)}>
+        <View style={s.modalBackdrop}>
+          <View style={[s.modalCard, { backgroundColor: C.surface }]}>
+            <Text style={{ fontSize: 52, textAlign: 'center' }}>🏆</Text>
+            <Text style={[T.h2, { color: C.text, textAlign: 'center', marginTop: 8 }]}>Level Up!</Text>
+            <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 4 }]}>
+              You've reached
+            </Text>
+            <Text style={[T.h1, { color: C.brand, textAlign: 'center', marginTop: 4 }]}>
+              {levelUpModal?.name}
+            </Text>
+            <Text style={[T.small, { color: C.textMuted, textAlign: 'center', marginTop: 8 }]}>
+              +200 bonus RP awarded 🎁
+            </Text>
+            <TouchableOpacity
+              style={[duoBtn(C.brand, C.brandDark), { marginTop: 20 }]}
+              onPress={() => setLevelUpModal(null)}
+              activeOpacity={0.85}
+            >
+              <Text style={[T.btn, { color: '#fff' }]}>AWESOME! 🚀</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </Modal>
+
+      {/* Daily goal celebration modal */}
+      <Modal transparent visible={goalCelebModal} animationType="fade" onRequestClose={() => setGoalCelebModal(false)}>
+        <View style={s.modalBackdrop}>
+          <View style={[s.modalCard, { backgroundColor: C.surface }]}>
+            <Text style={{ fontSize: 64, textAlign: 'center' }}>🎯</Text>
+            <Text style={[T.h2, { color: C.text, textAlign: 'center', marginTop: 8 }]}>Daily Goal Reached!</Text>
+            <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 4 }]}>
+              {todayRP} RP earned today
+            </Text>
+            <View style={{ backgroundColor: C.brand + '20', borderRadius: 12, padding: 12, marginTop: 16, alignItems: 'center' }}>
+              <Text style={{ fontSize: 36 }}>{PET_RESULTS[pet.petType]?.emoji ?? '🐾'}</Text>
+              <Text style={[T.label, { color: C.brand, marginTop: 4, textAlign: 'center' }]}>
+                +8 Happiness bonus for {pet.name}!
+              </Text>
+            </View>
+            <TouchableOpacity
+              style={[duoBtn('#58CC02', '#3D8B02'), { marginTop: 20 }]}
+              onPress={() => setGoalCelebModal(false)}
+              activeOpacity={0.85}
+            >
+              <Text style={[T.btn, { color: '#fff' }]}>Keep Studying! 🚀</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </Modal>
+
     </SafeAreaView>
   )
 }
@@ -956,7 +1223,16 @@ function makeStyles(C) {
   return StyleSheet.create({
     safe:       { flex: 1, backgroundColor: C.bg },
     scroll:     { paddingBottom: 20 },
-    header:     { paddingHorizontal: 20, paddingTop: 16, paddingBottom: 12, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+    header:       { paddingHorizontal: 20, paddingTop: 16, paddingBottom: 12, flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12 },
+    studyTimePill: { flexDirection: 'row', alignItems: 'center', gap: 4, borderRadius: 14, paddingHorizontal: 10, paddingVertical: 6, borderWidth: 1, marginTop: 6, alignSelf: 'flex-start' },
+    studyTimePillIcon: { fontSize: 14 },
+    studyTimePillText: { fontSize: 13, fontWeight: '700' },
+    freezeBanner: { marginHorizontal: 16, marginBottom: 12, borderRadius: 14, padding: 12, borderWidth: 1, gap: 8 },
+    freezeBannerBtns: { flexDirection: 'row', alignItems: 'center', gap: 8 },
+    freezeBtn:    { borderRadius: 10, paddingHorizontal: 12, paddingVertical: 7 },
+    focusRow:     { marginHorizontal: 16, marginBottom: 14, borderRadius: 16, padding: 14, flexDirection: 'row', alignItems: 'center', gap: 10 },
+    leagueCard:   { marginHorizontal: 16, marginBottom: 14, borderRadius: 16, padding: 14, flexDirection: 'row', alignItems: 'center', gap: 10 },
+    leagueHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
     coinChip:   { borderRadius: 16, paddingHorizontal: 10, paddingVertical: 5, borderWidth: 1 },
     petSection: { paddingTop: 8, paddingBottom: 4 },
     petRow: {
@@ -970,10 +1246,9 @@ function makeStyles(C) {
     },
     petMsgBubble: {
       flex: 1,
-      borderRadius: 12,
+      borderRadius: 16,
       borderWidth: 1,
-      borderLeftWidth: 3,
-      paddingHorizontal: 14,
+      paddingHorizontal: 16,
       paddingVertical: 12,
       position: 'relative',
       justifyContent: 'center',
@@ -1003,6 +1278,18 @@ function makeStyles(C) {
       borderRadius:   14,
       borderWidth:    1,
       paddingVertical: 10,
+      paddingHorizontal: 16,
+    },
+    shopBtn: {
+      flexDirection:  'row',
+      alignItems:     'center',
+      justifyContent: 'center',
+      gap:            8,
+      marginHorizontal: 24,
+      marginTop:      8,
+      borderRadius:   14,
+      borderWidth:    1,
+      paddingVertical: 12,
       paddingHorizontal: 16,
     },
     digRewardBanner: {
@@ -1151,6 +1438,19 @@ function makeStyles(C) {
       borderRadius: 3,
       backgroundColor: 'rgba(0,0,0,0.15)',
       marginBottom: 16,
+    },
+    sheetHeader: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center',
+      marginBottom: 8,
+      position: 'relative',
+    },
+    sheetCloseBtn: {
+      position: 'absolute',
+      right: 0,
+      padding: 8,
+      zIndex: 10,
     },
   })
 }

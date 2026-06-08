@@ -121,8 +121,8 @@ function MemberRow({ entry, rank, isMe, inPromote, inDemote, C }) {
         {isMe ? '  👈' : ''}
       </Text>
 
-      {/* Weekly XP */}
-      <View style={s.xpChip}>
+      {/* Weekly RP */}
+      <View style={s.rpChip}>
         <Text style={[T.label, { color: C.warn, textTransform: 'none', letterSpacing: 0, fontSize: 13 }]}>
           ⭐ {entry.weeklyXP.toLocaleString()}
         </Text>
@@ -187,7 +187,7 @@ export default function LeagueScreen({ navigation }) {
   const rows = buildRows()
 
   return (
-    <SafeAreaView style={[s.safe, { backgroundColor: C.bg }]} edges={['top', 'bottom']}>
+    <SafeAreaView style={[s.safe, { backgroundColor: C.bg }]} edges={['bottom']}>
 
       {/* ── Navigation row ── */}
       <View style={s.navRow}>
@@ -241,7 +241,7 @@ export default function LeagueScreen({ navigation }) {
             No one here yet!
           </Text>
           <Text style={[T.body, { color: C.textMuted, marginTop: 8, textAlign: 'center' }]}>
-            Earn XP this week to appear on the leaderboard.
+            Earn RP this week to appear on the leaderboard.
           </Text>
         </View>
       ) : (
@@ -334,7 +334,7 @@ const s = StyleSheet.create({
     width:      30,
     textAlign:  'center',
   },
-  xpChip: {
+  rpChip: {
     backgroundColor:   'transparent',
     alignItems:        'flex-end',
     minWidth:          70,

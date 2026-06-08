@@ -1,0 +1,476 @@
+{
+  "subject": "geometry",
+  "session": "june-2019",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, triangle ABC is graphed. Triangles A\u0002B\u0002C\u0002 and A\u0003B\u0003C\u0003, the images of triangle ABC, are graphed after a sequence of rigid motions. Identify which sequence of rigid motions maps rABC onto rA\u0002B\u0002C\u0002 and then maps rA\u0002B\u0002C\u0002 onto rA\u0003B\u0003C\u0003.",
+      "choices": [
+        "a rotation followed by another rotation",
+        "a translation followed by a reflection",
+        "a reflection followed by a translation",
+        ""
+      ],
+      "image": "/images/exams/geometry/june-2019/q1.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The table below shows the population and land area, in square miles, of four counties in New York State at the turn of the century. Which county had the greatest population density?",
+      "choices": [
+        "Broome",
+        "Dutchess",
+        "Niagara",
+        "Saratoga"
+      ],
+      "image": "/images/exams/geometry/june-2019/q2.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "If a rectangle is continuously rotated around one of its sides, what is the three-dimensional figure formed?",
+      "choices": [
+        "rectangular prism",
+        "cylinder",
+        "sphere",
+        "cone County 2000 Census Population 2000 Land Area (mi2) Broome 200,536 706.82 Dutchess 280,150 801.59 Niagara 219,846 522.95 Saratoga 200,635 811.84"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which transformation carries the parallelogram below onto itself?",
+      "choices": [
+        "a reflection over y \u0004 x",
+        "a reflection over y \u0004 \u0005x",
+        "a rotation of 90\u00b0 counterclockwise about the origin",
+        "a rotation of 180\u00b0 counterclockwise about the origin"
+      ],
+      "image": "/images/exams/geometry/june-2019/q4.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "After a dilation centered at the origin, the image of CD ___ is C\u0002D\u0002 ____ . If the coordinates of the endpoints of these segments are C(6,\u00054), D(2,\u00058), C\u0002(9,\u00056), and D\u0002(3,\u000512), the scale factor of the dilation is",
+      "choices": [
+        "3__ 2",
+        "2__ 3",
+        "3",
+        "1__ 3 T(2,\u20133) x A(4,3) M(\u20132,3) H(\u20134,\u20133)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A tent is in the shape of a right pyramid with a square floor. The square floor has side lengths of 8 feet. If the height of the tent at its center is 6 feet, what is the volume of the tent, in cubic feet?",
+      "choices": [
+        "48",
+        "128",
+        "192",
+        "384"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The line \u00053x \u0006 4y \u0004 8 is transformed by a dilation centered at the origin. Which linear equation could represent its image?",
+      "choices": [
+        "y \u0004 4__ 3 x \u0006 8",
+        "y \u0004 3__ 4 x \u0006 8",
+        "y \u0004 \u0005 3__ 4 x \u0005 8",
+        "y \u0004 \u0005 4__ 3 x \u0005 8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "In the diagram below, AC ___ and BD ___ intersect at E. Which information is always sufficient to prove rABE \u0002 rCDE?",
+      "choices": [
+        "AB ___ || CD ___",
+        "AB ___ \u0002 CD ___ and BE ___ \u0002 DE ___",
+        "E is the midpoint of AC ___ .",
+        "BD ___ and AC ___ bisect each other."
+      ],
+      "image": "/images/exams/geometry/june-2019/q8.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The expression sin 57\u00b0 is equal to",
+      "choices": [
+        "tan 33\u00b0",
+        "cos 33\u00b0",
+        "tan 57\u00b0",
+        "cos 57\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "What is the volume of a hemisphere that has a diameter of 12.6 cm, to the nearest tenth of a cubic centimeter?",
+      "choices": [
+        "523.7",
+        "1047.4",
+        "4189.6",
+        "8379.2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "In the diagram below of rABC, D is a point on BA ___ , E is a point on BC ___ , and DE ___ is drawn. If BD \u0004 5, DA \u0004 12, and BE \u0004 7, what is the length of BC ___ so that AC ___ || DE ___ ?",
+      "choices": [
+        "23.8",
+        "16.8",
+        "15.6",
+        "8.6"
+      ],
+      "image": "/images/exams/geometry/june-2019/q11.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A quadrilateral must be a parallelogram if",
+      "choices": [
+        "one pair of sides is parallel and one pair of angles is congruent",
+        "one pair of sides is congruent and one pair of angles is congruent",
+        "one pair of sides is both parallel and congruent",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "In the diagram below of circle O, chords JT ___ and ER ___ intersect at M. If EM \u0004 8 and RM \u0004 15, the lengths of JM ___ and TM ___ could be",
+      "choices": [
+        "12 and 9.5",
+        "14 and 8.5",
+        "16 and 7.5",
+        "18 and 6.5"
+      ],
+      "image": "/images/exams/geometry/june-2019/q13.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Triangles JOE and SAM are drawn such that \u2220E \u0002 \u2220M and EJ __ \u0002 MS ___ . Which mapping would not always lead to rJOE \u0002 rSAM?",
+      "choices": [
+        "\u2220J maps onto \u2220S",
+        "\u2220O maps onto \u2220A",
+        "EO ____ maps onto MA ___",
+        "JO ___ maps onto SA ___"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "In rABC shown below, \u2220ACB is a right angle, E is a point on AC ___ , and ED ___ is drawn perpendicular to hypotenuse AB ___ . If AB \u0004 9, BC \u0004 6, and DE \u0004 4, what is the length of AE ___ ?",
+      "choices": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "image": "/images/exams/geometry/june-2019/q15.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which equation represents a line parallel to the line whose equation is \u00052x \u0006 3y \u0004 \u00054 and passes through the point (1,3)?",
+      "choices": [
+        "y \u0005 3 \u0004 \u0005 3__ 2 (x \u0005 1)",
+        "y \u0005 3 \u0004 2__ 3 (x \u0005 1)",
+        "y \u0006 3 \u0004 \u0005 3__ 2 (x \u0006 1)",
+        "y \u0006 3 \u0004 2__ 3 (x \u0006 1)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "In rhombus TIGE, diagonals TG ___ and IE ___ intersect at R. The perimeter of TIGE is 68, and TG \u0004 16. What is the length of diagonal IE ___ ?",
+      "choices": [
+        "15",
+        "30",
+        "34",
+        "52"
+      ],
+      "image": "/images/exams/geometry/june-2019/q17.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "In circle O two secants, ABP ____ and CDP ____ , are drawn to external point P. If mAC \u00aa \u0004 72\u00b0, and mBD \u00aa \u0004 34\u00b0, what is the measure of \u2220P?",
+      "choices": [
+        "19\u00b0",
+        "38\u00b0",
+        "53\u00b0",
+        "106\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "What are the coordinates of point C on the directed segment from A(\u00058,4) to B(10,\u00052) that partitions the segment such that AC:CB is 2:1?",
+      "choices": [
+        "(1,1)",
+        "(\u00052,2)",
+        "(2,\u00052)",
+        "(4,0)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The equation of a circle is x2 \u0006 8x \u0006 y2 \u0005 12y \u0004 144. What are the coordinates of the center and the length of the radius of the circle?",
+      "choices": [
+        "center (4,\u00056) and radius 12",
+        "center (\u00054,6) and radius 12",
+        "center (4,\u00056) and radius 14",
+        "center (\u00054,6) and radius 14"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "In parallelogram PQRS, QP ___ is extended to point T and ST ___ is drawn. If ST ___ \u0002 SP ___ and m\u2220R \u0004 130\u00b0, what is m\u2220PST?",
+      "choices": [
+        "130\u00b0",
+        "80\u00b0",
+        "65\u00b0",
+        "50\u00b0"
+      ],
+      "image": "/images/exams/geometry/june-2019/q21.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A 12-foot ladder leans against a building and reaches a window 10 feet above ground. What is the measure of the angle, to the nearest degree, that the ladder forms with the ground?",
+      "choices": [
+        "34",
+        "40",
+        "50",
+        "56"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "In the diagram of equilateral triangle ABC shown below, E and F are the midpoints of AC ___ and BC ___ , respectively. If EF = 2x \u0006 8 and AB = 7x \u0005 2, what is the perimeter of trapezoid ABFE?",
+      "choices": [
+        "36",
+        "60",
+        "100",
+        "120"
+      ],
+      "image": "/images/exams/geometry/june-2019/q23.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which information is not sufficient to prove that a parallelogram is a square?",
+      "choices": [
+        "The diagonals are both congruent and perpendicular.",
+        "The diagonals are congruent and one pair of adjacent sides are congruent.",
+        "The diagonals are perpendicular and one pair of adjacent sides are congruent.",
+        ""
+      ],
+      "image": "/images/exams/geometry/june-2019/q24.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Triangle A\u0002B\u0002C\u0002 is the image of triangle ABC after a dilation with a scale factor of 1__ 2 and centered at point A. Is triangle ABC congruent to triangle A\u0002B\u0002C\u0002? Explain your answer. Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Determine and state the area of triangle PQR, whose vertices have coordinates P(\u00052,\u00055), Q(3,5), and R(6,1). [The use of the set of axes below is optional.]",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2019/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "A support wire reaches from the top of a pole to a clamp on the ground. The pole is perpendicular to the level ground and the clamp is 10 feet from the base of the pole. The support wire makes a 68\u00b0 angle with the ground. Find the length of the support wire to the nearest foot.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "In the diagram below, circle O has a radius of 10. If mAB \u00aa \u0004 72\u00b0, find the area of shaded sector AOB, in terms of \u03c0. A B O 10",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2019/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "On the set of axes below, rABC \u0002 rSTU. Describe a sequence of rigid motions that maps rABC onto rSTU. y x A C B S T U",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2019/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "In right triangle PRT, m\u2220P \u0004 90\u00b0, altitude PQ ___ is drawn to hypotenuse RT ___ , RT \u0004 17, and PR \u0004 15. Determine and state, to the nearest tenth, the length of RQ ___ . T R P Q 15 17",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2019/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Given circle O with radius OA ___ , use a compass and straightedge to construct an equilateral triangle inscribed in circle O. [Leave all construction marks.]",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2019/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Riley plotted A(\u00051,6), B(3,8), C(6,\u00051), and D(1,0) to form a quadrilateral. Prove that Riley\u2019s quadrilateral ABCD is a trapezoid. [The use of the set of axes on the next page is optional.] Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Question 32 Question 32",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2019/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "A child-sized swimming pool can be modeled by a cylinder. The pool has a diameter of 6 1__ 2 feet and a height of 12 inches. The pool is filled with water to 2__ 3 of its height. Determine and state the volume of the water in the pool, to the nearest cubic foot. One cubic foot equals 7.48 gallons of water. Determine and state, to the nearest gallon,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Nick wanted to determine the length of one blade of the windmill pictured below. He stood at a point on the ground 440 feet from the windmill\u2019s base. Using surveyor\u2019s tools, Nick measured the angle between the ground and the highest point reached by the top blade and found it was 38.8\u00b0. He also measured the angle between the ground and the lowest point of the top blade, and found it was 30\u00b0. Determine and state a blade\u2019s length, x, to the nearest foot. 30\u00b0 38.8\u00b0 440 ft x",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2019/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Given: Quadrilateral MATH, HM ___ \u0002 AT ___ , HT ___ \u0002 AM ___ , HE ___ MEA ____ , and HA ___ AT ___ Prove: TA \u2022 HA \u0002 HE \u2022 TH M H T E A \u22a5 \u22a5 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for the question to determine your answer. Note that diagrams are not necessarily drawn to scale. For the question in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Work space for question 35 Question 35 continued Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0004 2.54 centimeters 1 kilometer \u0004 0.62 mile 1 cup \u0004 8 fluid ounces 1 meter \u0004 39.37 inches 1 pound \u0004 16 ounces 1 pint \u0004 2 cups 1 mile \u0004 5280 feet 1 pound \u0004 0.454 kilogram 1 quart \u0004 2 pints 1 mile \u0004 1760 yards 1 kilogram \u0004 2.2 pounds 1 gallon \u0004 4 quarts 1 mile \u0004 1.609 kilometers 1 ton \u0004 2000 pounds 1 gallon \u0004 3.785 liters 1 liter \u0004 0.264 gallon 1 liter \u0004 1000 cubic centimeters Triangle A \u0004 bh 1 2 Parallelogram A \u0004 bh Circle A \u0004 \u03c0r2 Circle C \u0004 \u03c0d or C \u0004 2\u03c0r General Prisms V \u0004 Bh Cylinder V \u0004 \u03c0r2h Sphere V \u0004 \u03c0r3 4 3 Cone V \u0004 \u03c0r2h 1 3 Pyramid V \u0004 Bh 1 3 Pythagorean Theorem a2 \u0006 b2 \u0004 c2 Quadratic Formula x \u0004 \u0005 \u0007 \u0005 b a b2 2 4ac Arithmetic Sequence an \u0004 a1 \u0006 (n \u0005 1)d Geometric Sequence an \u0004 a1r n \u0005 1 Geometric Series Sn \u0004 where r \b 1 a a r r n 1 1 1 \u0005 \u0005 Radians 1 radian \u0004 degrees 180 \u03c0 Degrees 1 degree \u0004 radians \u03c0 180 Exponential Growth/Decay A \u0004 A0ek(t \u0005 t0) \u0006 B0 Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2019/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

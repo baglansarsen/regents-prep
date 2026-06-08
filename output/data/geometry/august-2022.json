@@ -1,0 +1,471 @@
+{
+  "subject": "geometry",
+  "session": "august-2022",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "In the diagram below, rABC is reflected over line \u2113 to create rDEF. If m\u2220A \u0002 40\u00b0 and m\u2220B \u0002 95\u00b0, what is m\u2220F?",
+      "choices": [
+        "40\u00b0",
+        "45\u00b0",
+        "85\u00b0",
+        "95\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2022/q1.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The diagram below shows triangle ABC with point X on side AB ___ and point Y on side CB ___ . Which information is sufficient to prove that rBXY \u223c rBAC?",
+      "choices": [
+        "\u2220B is a right angle.",
+        "___ XY is parallel to ___ AC.",
+        "rABC is isosceles.",
+        "___ AX \u0002 ___ CY"
+      ],
+      "image": "/images/exams/geometry/august-2022/q2.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Quadrilateral MATH is congruent to quadrilateral WXYZ. Which statement is always true?",
+      "choices": [
+        "MA \u0002 XY",
+        "m\u2220H \u0002 m\u2220W",
+        "Quadrilateral WXYZ can be mapped onto quadrilateral MATH using a sequence of rigid motions.",
+        "Quadrilateral MATH and quadrilateral WXYZ are the same shape, but not necessarily the same size."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "A quadrilateral has diagonals that are perpendicular but not congruent. This quadrilateral could be",
+      "choices": [
+        "a square",
+        "a rhombus",
+        "a rectangle",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which regular polygon has a minimum rotation of 36\u00b0 about its center that carries the polygon onto itself?",
+      "choices": [
+        "pentagon",
+        "octagon",
+        "nonagon",
+        "decagon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, rRST is the image of rABC after a dilation centered at point P. The scale factor of the dilation that maps rABC onto rRST is",
+      "choices": [
+        "",
+        "2",
+        "3",
+        "y x S R P B C T A 1 3 2 3"
+      ],
+      "image": "/images/exams/geometry/august-2022/q6.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In the diagram of rABC below, m\u2220C \u0002 90\u00b0, CB \u0002 13, and AB \u0002 16. What is the measure of \u2220A, to the nearest degree?",
+      "choices": [
+        "36\u00b0",
+        "39\u00b0",
+        "51\u00b0",
+        "54\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2022/q7.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The Pyramid of Memphis, in Tennessee, stands 107 yards tall and has a square base whose side is 197 yards long. What is the volume of the Pyramid of Memphis, to the nearest cubic yard?",
+      "choices": [
+        "751,818",
+        "1,384,188",
+        "2,076,212",
+        "4,152,563 A C 13 B 16"
+      ],
+      "image": "/images/exams/geometry/august-2022/q8.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A square is graphed on the set of axes below, with vertices at (\u00031,2), (\u00031,\u00032), (3,\u00032), and (3,2). Which transformation would not carry the square onto itself?",
+      "choices": [
+        "reflection over the y-axis",
+        "reflection over the x-axis",
+        "rotation of 180 degrees around point (1,0)",
+        "reflection over the line y \u0002 x \u0003 1"
+      ],
+      "image": "/images/exams/geometry/august-2022/q9.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "If scalene triangle XYZ is similar to triangle QRS and m\u2220X \u0002 90\u00b0, which equation is always true?",
+      "choices": [
+        "sin Y \u0002 sin S",
+        "cos R \u0002 cos Z",
+        "cos Y \u0002 sin Q",
+        "sin R \u0002"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A plane intersects a cylinder perpendicular to its bases. This cross section can be described as a",
+      "choices": [
+        "rectangle",
+        "parabola",
+        "triangle",
+        "circle"
+      ],
+      "image": "/images/exams/geometry/august-2022/q11.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2022/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "B 16 9 A square is graphed on the set of axes below, with vertices at (\u00031,2), (\u00031,\u00032), (3,\u00032), and (3,2). Which transformation would not carry the square onto itself?",
+      "choices": [
+        "(\u00034,0)",
+        "(0,\u00034)",
+        "(\u00031,\u00033)",
+        "(\u0003 \u2019\u0003 ) 5 2 3 2 2 3"
+      ],
+      "image": "/images/exams/geometry/august-2022/q13.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, rectangle WIND has vertices with coordinates W(\u00034,2), I(4,0), N(3,\u00034), and D(\u00035,\u00032). What is the area of rectangle WIND?",
+      "choices": [
+        "17",
+        "31",
+        "32",
+        "34"
+      ],
+      "image": "/images/exams/geometry/august-2022/q14.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "In parallelogram ABCD shown below, ___ EB bisects \u2220ABC. If m\u2220A \u0002 40\u00b0, then m\u2220BED is",
+      "choices": [
+        "40\u00b0",
+        "70\u00b0",
+        "110\u00b0",
+        "140\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2022/q15.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In right triangles ABC and RST, hypotenuse AB \u0002 4 and hypotenuse RS \u0002 16. If rABC \u223c rRST, then 1:16 is the ratio of the corresponding",
+      "choices": [
+        "legs",
+        "areas",
+        "volumes",
+        "perimeters"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Parallelogram ABCD with diagonal ___ DB is drawn below. Line segment EF is drawn such that it bisects ___ DB at M. Which triangle congruence method would prove that rEMB \u0002 rFMD?",
+      "choices": [
+        "ASA, only",
+        "AAS, only",
+        "both ASA and AAS",
+        ""
+      ],
+      "image": "/images/exams/geometry/august-2022/q17.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "In the diagram below of circle O, chords ___ AD and BC ___ intersect at E, and chords AB ___ and CD ___ are drawn. Which statement must always be true?",
+      "choices": [
+        "AB ___ \u0002 CD ___",
+        "___ AD \u0002 BC ___",
+        "\u2220B \u0002 \u2220C",
+        "\u2220A \u0002 \u2220C"
+      ],
+      "image": "/images/exams/geometry/august-2022/q18.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "What are the coordinates of the center and length of the radius of the circle whose equation is x2 \u0004 y2 \u0003 12y \u0003 20.25 \u0002 0?",
+      "choices": [
+        "center (0,6) and radius 7.5",
+        "center (0,\u00036) and radius 7.5",
+        "center (0,12) and radius 4.5",
+        "center (0,\u000312) and radius 4.5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "In the diagram below, ABCD is a rectangle, and diagonal ___ BD is drawn. Line \u2113, a vertical line of symmetry, and line m, a horizontal line of symmetry, intersect at point E. Which sequence of transformations will map rABD onto rCDB?",
+      "choices": [
+        "a reflection over line \u2113 followed by a 180\u00b0 rotation about point E",
+        "a reflection over line \u2113 followed by a reflection over line m",
+        "a 180\u00b0 rotation about point B",
+        "a reflection over ___ DB"
+      ],
+      "image": "/images/exams/geometry/august-2022/q20.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The diagram below models a countertop designed for a kitchen. The countertop is made of solid oak and is 3 inches thick. If oak weighs approximately 44 pounds per cubic foot, the approximate weight, in pounds, of the countertop is",
+      "choices": [
+        "630",
+        "730",
+        "750",
+        "870 A B m D C E 3 in 3 ft 3 ft 3 in 12 ft 10"
+      ],
+      "image": "/images/exams/geometry/august-2022/q21.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "In the diagram below of rABC, intersects AB ___ and ___ AC at points T and V respectively, and m\u2220ATV \u0002 m\u2220ABC. If AT \u0002 4, BC \u0002 18, TB \u0002 5, and AV \u0002 6, what is the perimeter of quadrilateral TBCV?",
+      "choices": [
+        "38.5",
+        "39.5",
+        "40.5",
+        "44.9"
+      ],
+      "image": "/images/exams/geometry/august-2022/q22.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A circle centered at the origin passes through A(\u00033,4). What is the equation of the line tangent to the circle at A?",
+      "choices": [
+        "",
+        "",
+        "",
+        "TV \uf073\uf072 \uf075\uf075 V T C B A A y x 4 ( 3) 4 3 y x \u0003 \u0002 \u0004 4 ( 3) 4 3 y x \u0004 \u0002 \u0003 4 ( 3) 3 4 y x \u0003 \u0002 \u0004 4 ( 3) 3 4 y x \u0004 \u0002 \u0003"
+      ],
+      "image": "/images/exams/geometry/august-2022/q23.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "In the diagram below, quadrilateral ABCD is inscribed in circle O, m\u2220A \u0002 (2x)\u00b0, m\u2220B \u0002 (x\u000310)\u00b0, and m\u2220C \u0002 (x\u000415)\u00b0. What is m\u2220D?",
+      "choices": [
+        "55\u00b0",
+        "70\u00b0",
+        "110\u00b0",
+        "135\u00b0 D A B C O 2x x \u0004 15 x \u0003 10 Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/geometry/august-2022/q24.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "On the set of axes below, rDOG \u0002",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2022/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "In right triangle MTH shown below, m\u2220H \u0002 90\u00b0, HT \u0002 8, and HM \u0002 5. Determine and state, to the nearest tenth, the volume of the three-dimensional solid formed by rotating rMTH continuously around ___ MH. T H M 5 8",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2022/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Using a compass and straightedge, dilate triangle ABC by a scale factor of 2 centered at C. [Leave all construction marks.]",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2022/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "A rock-climbing wall at a local park has a right triangular section that slants toward the climber, as shown in the picture below. The height of the wall is 5 meters and the slanted section begins 1.2 meters up the wall at an angle of 14 degrees. Determine and state, to the nearest hundredth, the number of meters in the length of the section of the wall that is slanted (hypotenuse). 1.2 m 5 m 14\u00b0",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2022/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "In the diagram below of right triangle BAL, altitude ___ AD is drawn to hypotenuse . The length of ___ AD is 6. If the length of ___ DL is four times the length of ___ BD, determine and state the length of ___ BD. BDL B L A D 6",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2022/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Trapezoid ABCD, where AB ___ || CD ___ , is shown below. Diagonals AC ___ and ___ DB intersect ___ MN at E, and ___ AD \u0002 ___ AE. If m\u2220DAE \u0002 35\u00b0, m\u2220DCE \u0002 25\u00b0, and m\u2220NEC \u0002 30\u00b0, determine and state m\u2220",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2022/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "In the diagram below of circle O, the measure of inscribed angle ABC is 36\u00b0 and the length of ___ OA is 4 inches. Determine and state, to the nearest tenth of a square inch, the area of the shaded sector. O 4 in 36\u00b0 Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2022/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "As modeled in the diagram below, a building has a height of 50 meters. The angle of depression from the top of the building to the top of the tree, T, is 13.3\u00b0. The angle of depression from the top of the building to the bottom of the tree, B, is 22.2\u00b0. Determine and state, to the nearest meter, the height of the tree. 22.2\u00b0 T B 50 m 13.3\u00b0",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2022/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "The coordinates of the vertices of quadrilateral HYPE are H(\u00033,6), Y(2,9), P(8,\u00031), and E(3,\u00034). Prove HYPE is a rectangle. [The use of the set of axes below is optional.]",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2022/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "A packing box for baseballs is the shape of a rectangular prism with dimensions of 2 ft \u0005 1 ft \u0005 18 in. Each baseball has a diameter of 2.94 inches. Determine and state the maximum number of baseballs that can be packed in the box if they are stacked in layers and each layer contains an equal number of baseballs. The weight of a baseball is approximately 0.025 pound per cubic inch. Determine and state, to the nearest pound, Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2022/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Given: Quadrilateral ABCD, ___ AC and ___ EF intersect at H, ___ EF || ___ AD, ___ EF || BC ___ , and ___ AD \u0002 BC ___ Prove: (EH)(CH) \u0002 (FH)(AH) A E H D F C B Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0004 b2 \u0002 c2 Quadratic Formula x \u0002 \u0003 \u0006 \u0003 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0004 (n \u0003 1)d Geometric Sequence an \u0002 a1r n \u0003 1 Geometric Series Sn \u0002 where r \u0007 1 a a r r n 1 1 1 \u0003 \u0003 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0003 t0) \u0004 B0 Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2022/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

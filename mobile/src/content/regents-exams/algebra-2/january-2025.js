@@ -1,0 +1,396 @@
+// Algebra 2 Regents — January 2025
+export default {
+  id: 'a2-jan-2025',
+  subject: 'algebra-2',
+  year: 2025,
+  session: 'January',
+  totalMinutes: 180,
+  questions: [
+    {
+      number: 1,
+      part: 'A',
+      text: 'What are the zeros of the polynomial function p(x) = x³ − 4x² − 5x?',
+      choices: ['0, 5, and −1', '0, −5, and 1', '5 and −1, only', '−5 and 1, only'],
+      correct: 0,
+      topic: 'Polynomials',
+      explanation: 'Factoring gives p(x) = x(x² − 4x − 5) = x(x − 5)(x + 1), so the zeros occur where each factor equals 0: x = 0, x = 5, and x = −1.',
+      diveDeep: 'Always factor out the greatest common factor first (here, x), which immediately gives one root of 0. The remaining quadratic x² − 4x − 5 factors into (x − 5)(x + 1). A common trap is dropping the x = 0 root after factoring out x, or making sign errors when factoring the quadratic. For any polynomial in factored form, the zeros are simply the values that make each factor zero.'
+    },
+    {
+      number: 2,
+      part: 'A',
+      text: 'Which expression is equivalent to (3x² − 2x + 5) − (x² + 4x − 7)?',
+      choices: ['2x² − 6x + 12', '2x² + 2x − 2', '4x² + 2x − 2', '2x² − 6x − 2'],
+      correct: 0,
+      topic: 'Polynomials',
+      explanation: 'Distributing the negative sign and combining like terms: 3x² − x² = 2x², −2x − 4x = −6x, and 5 − (−7) = 12, giving 2x² − 6x + 12.',
+      diveDeep: 'Subtraction of polynomials requires distributing the negative across every term in the second polynomial, including its constant. The most frequent error is forgetting to change the sign of the +5 → −7 term, producing +5 − 7 = −2 instead of 5 + 7 = 12. Line up like terms by degree and track signs carefully.'
+    },
+    {
+      number: 3,
+      part: 'A',
+      text: 'The expression (5 + 2i) + (3 − 7i) is equivalent to',
+      choices: ['8 − 5i', '8 + 5i', '2 − 5i', '8 − 9i'],
+      correct: 0,
+      topic: 'Complex Numbers',
+      explanation: 'Add real parts (5 + 3 = 8) and imaginary parts (2i − 7i = −5i) separately to get 8 − 5i.',
+      diveDeep: 'Complex numbers add componentwise, just like combining like terms where i plays the role of a variable. Keep real and imaginary parts in separate columns. A common slip is sign error on the imaginary part: 2 − 7 = −5, not +5. Remember i is not combined with the real numbers.'
+    },
+    {
+      number: 4,
+      part: 'A',
+      text: 'Which equation represents a parabola with a vertex at (−3, 4)?',
+      choices: ['y = (x + 3)² + 4', 'y = (x − 3)² + 4', 'y = (x + 3)² − 4', 'y = (x − 3)² − 4'],
+      correct: 0,
+      topic: 'Quadratic Functions',
+      explanation: 'In vertex form y = a(x − h)² + k, the vertex is (h, k); a vertex of (−3, 4) means h = −3 and k = 4, giving y = (x + 3)² + 4.',
+      diveDeep: 'Vertex form encodes the vertex directly, but the sign of h flips: (x − h) with h = −3 becomes (x + 3). The k value, however, appears with its own sign. The classic trap is matching y = (x − 3)² because the printed vertex shows −3; remember the horizontal shift is the opposite sign of what appears inside the parentheses.'
+    },
+    {
+      number: 5,
+      part: 'A',
+      text: 'If f(x) = 2^x and g(x) = x + 3, what are the solutions to f(x) = g(x)? (Solve graphically and round to the nearest hundredth.)',
+      choices: ['(0.75, 4) or (−2, 21.5)', 'y = 21.5 or y = 4', 'x = 0.75 or x = 22', '(−2.86, 0.14) and (2.44, 5.44)'],
+      correct: 3,
+      topic: 'Exponential & Logarithmic',
+      explanation: 'Graphing y = 2^x and y = x + 3 and finding intersections gives approximately (−2.86, 0.14) and (2.44, 5.44), the points where the two functions are equal.',
+      diveDeep: 'When an exponential equals a linear function, there is generally no algebraic solution, so a graphing-calculator intersection is the intended method. Set both functions in the calculator, graph, and use the intersect feature. A common mistake is reporting only x-values when the question (and answer choices) call for ordered pairs, or finding only one of the two intersection points.'
+    },
+    {
+      number: 6,
+      part: 'A',
+      text: 'The solution set of the equation √(x + 6) = x is',
+      choices: ['{3}', '{−2}', '{3, −2}', '{ }'],
+      correct: 0,
+      topic: 'Rational & Radical',
+      explanation: 'Squaring gives x + 6 = x², so x² − x − 6 = 0, (x − 3)(x + 2) = 0, x = 3 or x = −2; checking, x = −2 fails (√4 = 2 ≠ −2) and only x = 3 works.',
+      diveDeep: 'Squaring both sides of a radical equation can introduce extraneous roots, so every candidate must be checked in the ORIGINAL equation. The principal square root is never negative, so any solution that would make the right side negative is rejected. Here x = −2 is extraneous because √(−2 + 6) = 2, not −2.'
+    },
+    {
+      number: 7,
+      part: 'A',
+      text: 'Which function has a period of 4π?',
+      choices: ['y = sin(½x)', 'y = sin(2x)', 'y = sin(4x)', 'y = sin(4πx)'],
+      correct: 0,
+      topic: 'Trigonometric Functions',
+      explanation: 'For y = sin(bx) the period is 2π/b; with b = ½ the period is 2π ÷ ½ = 4π.',
+      diveDeep: 'Period and the coefficient b are inversely related through period = 2π/b. A smaller b stretches the graph and lengthens the period, while a larger b compresses it. The trap here is assuming a larger inside number gives a larger period; in fact b = ½ (the smallest coefficient) produces the longest period of 4π.'
+    },
+    {
+      number: 8,
+      part: 'A',
+      text: 'When factored completely, the expression x³ + 2x² − 9x − 18 is equivalent to',
+      choices: ['(x + 2)(x − 3)(x + 3)', '(x + 2)(x² − 9)', '(x − 2)(x − 3)(x + 3)', '(x + 2)(x + 3)²'],
+      correct: 0,
+      topic: 'Polynomials',
+      explanation: 'Factoring by grouping: x²(x + 2) − 9(x + 2) = (x + 2)(x² − 9) = (x + 2)(x − 3)(x + 3).',
+      diveDeep: 'Factoring by grouping works when a four-term polynomial splits into two pairs sharing a common binomial. After grouping you must factor completely, so the difference of squares x² − 9 still factors into (x − 3)(x + 3). Choice B is a real distractor because it is correct but NOT factored completely, which the phrase "factored completely" forbids.'
+    },
+    {
+      number: 9,
+      part: 'A',
+      text: 'A study found that the weights of adult cats are normally distributed. The probability that a randomly selected cat weighs more than the mean is',
+      choices: ['0.50', '0.25', '0.68', '1.00'],
+      correct: 0,
+      topic: 'Statistics & Probability',
+      explanation: 'A normal distribution is symmetric about its mean, so exactly half (probability 0.50) of the data lies above the mean.',
+      diveDeep: 'The normal curve is perfectly symmetric, so the mean splits the area in half: P(X > mean) = P(X < mean) = 0.50. The 0.68 distractor comes from the empirical rule (about 68% within one standard deviation), which is unrelated to "above the mean." Recognize when a question is about symmetry versus the 68-95-99.7 rule.'
+    },
+    {
+      number: 10,
+      part: 'A',
+      text: 'The expression (4x² − 5)/(x² − 1) is equivalent to',
+      choices: ['4 − 1/(x² − 1)', '4 − 9/(x² − 1)', '4 + 1/(x² − 1)', '4 − 4/(x² − 1)'],
+      correct: 0,
+      topic: 'Rational & Radical',
+      explanation: 'Dividing, 4x² − 5 = 4(x² − 1) − 1, so (4x² − 5)/(x² − 1) = 4 − 1/(x² − 1).',
+      diveDeep: 'To rewrite an improper rational expression, perform polynomial long division or rewrite the numerator in terms of the denominator: 4x² − 5 = 4(x² − 1) + (4·(−1)... ) — here 4(x² − 1) = 4x² − 4, and 4x² − 5 = (4x² − 4) − 1, leaving a remainder of −1. The common error is mishandling the constant remainder; carefully compute numerator − 4·(denominator).'
+    },
+    {
+      number: 11,
+      part: 'A',
+      text: 'For all positive values of x, which expression is equivalent to (x · ⁴√x)?',
+      choices: ['x^(19/22)', 'x^(13/4)', 'x^(5/4)', 'x^(−11)'],
+      correct: 2,
+      topic: 'Rational & Radical',
+      explanation: 'Writing ⁴√x as x^(1/4): x · x^(1/4) = x^(1 + 1/4) = x^(5/4).',
+      diveDeep: 'Radicals convert to rational exponents: the nth root is the 1/n power. When multiplying powers of the same base, add exponents: 1 + 1/4 = 5/4. The trap is multiplying the exponents (giving 1/4) instead of adding them; multiplication of like bases always adds exponents.'
+    },
+    {
+      number: 12,
+      part: 'A',
+      text: 'The expression i²(5x − 2i)² is equivalent to',
+      choices: ['−25x² + 20xi − 4', '−25x² + 20xi + 4', '−25x² + 20xi + 4', '−5x² + 4'],
+      correct: 1,
+      topic: 'Complex Numbers',
+      explanation: 'First (5x − 2i)² = 25x² − 20xi + 4i² = 25x² − 20xi − 4; multiplying by i² = −1 gives −25x² + 20xi + 4.',
+      diveDeep: 'Expand the square using (a − b)² = a² − 2ab + b², remembering i² = −1 so 4i² = −4. Then multiply the entire result by i² = −1, flipping every sign. The trap is forgetting that i² appears twice—inside the square and as the outside factor—each contributing a sign change.'
+    },
+    {
+      number: 13,
+      part: 'A',
+      text: 'Functions f and g are given below. f(x) = −7x² − 5x + 11 and g(x) = 3x² − 7x + 25. When 2f(x) is subtracted from g(x), the result is',
+      choices: ['4x² − 3x − 3', '17x² + 3x + 3', '−4x² + 3x + 3', '17x² − 17x + 47'],
+      correct: 1,
+      topic: 'Polynomials',
+      explanation: '2f(x) = −14x² − 10x + 22; g(x) − 2f(x) = (3x² − 7x + 25) − (−14x² − 10x + 22) = 17x² + 3x + 3.',
+      diveDeep: 'Read the order of operations carefully: "2f(x) subtracted from g(x)" means g(x) − 2f(x), not 2f(x) − g(x). First scale f(x) by 2, then distribute the subtraction across all three terms. Two sign-tracking steps—the multiplication by 2 and the subtraction—make this error-prone, so write each intermediate polynomial explicitly.'
+    },
+    {
+      number: 14,
+      part: 'A',
+      text: 'A manufacturer claims that the number of ounces of a beverage dispensed by one of its automatic dispensers is normally distributed with a mean of 8.0 ounces and a standard deviation of 0.04 ounces. To the nearest tenth of a percent, what percent of the cups filled by this company\'s dispenser will contain between 7.9 and 8.11 ounces?',
+      choices: ['99.5', '99.1', '99.4', '97.6'],
+      correct: 2,
+      topic: 'Statistics & Probability',
+      explanation: 'Using the normal cdf with mean 8.0 and SD 0.04, P(7.9 ≤ X ≤ 8.11) ≈ 0.9938, which rounds to 99.4%.',
+      diveDeep: 'Use the calculator\'s normalcdf(lower, upper, mean, SD) function rather than the empirical rule, since 7.9 and 8.11 are not whole numbers of standard deviations from the mean. Convert to z-scores if doing it by hand: z = (x − 8.0)/0.04. The careful rounding to the nearest tenth of a percent matters—keep full precision until the final step.'
+    },
+    {
+      number: 15,
+      part: 'A',
+      text: 'What is the value of x in the solution of the system of equations below? 5x + 2y − z = 14; 7y − z = 31; 5y + 4z − 5x = 23',
+      choices: ['−17', '−1', '2', '−7'],
+      correct: 3,
+      topic: 'Systems & Inequalities',
+      explanation: 'Solving the 3-variable system (by elimination or matrices) yields x = −7, y = 5, z = 4, which satisfy all three equations.',
+      diveDeep: 'A linear system in three variables can be solved by elimination, substitution, or by entering the coefficient and constant matrices and computing A⁻¹B on a calculator. Verify the solution by substituting back into all three original equations. A common error is solving only two equations and ignoring the third, which can give a value that does not satisfy the full system.'
+    },
+    {
+      number: 16,
+      part: 'A',
+      text: 'The graph below shows the amount of a radioactive substance left over time, decreasing from 50 grams to 25 grams over an 8-day interval. The daily rate of decay over this 8-day interval is approximately',
+      choices: ['−3%', '−8%', '−95%', '−77%'],
+      correct: 1,
+      topic: 'Exponential & Logarithmic',
+      image: '/images/exams/alg2-january-2025/q16.png',
+      explanation: 'Halving in 8 days means 25 = 50·r⁸, so r = (0.5)^(1/8) ≈ 0.917, a daily decay of about 1 − 0.917 = 0.083 ≈ −8%.',
+      diveDeep: 'For exponential decay A = A₀·r^t, the daily multiplier r is found by taking the 8th root of the overall ratio (25/50 = 0.5). The decay rate is 1 − r as a percent. The trap is treating the total 50% loss as the daily rate or dividing 50% by 8; exponential change is multiplicative, not linear, so you must use roots, not simple division.'
+    },
+    {
+      number: 17,
+      part: 'A',
+      text: 'If 4(10^(5x − 2)) = 12, then x equals',
+      choices: ['(log 3 + 2)/5', '(log 12)/5', '(log 3)/5 + 2/5', '(log(40/12) + 5)/3'],
+      correct: 2,
+      topic: 'Exponential & Logarithmic',
+      explanation: 'Dividing by 4 gives 10^(5x − 2) = 3; taking log of both sides, 5x − 2 = log 3, so x = (log 3 + 2)/5 = (log 3)/5 + 2/5.',
+      diveDeep: 'Isolate the exponential expression before taking a logarithm—divide by the coefficient 4 first. Because the base is 10, the common logarithm "undoes" it: log(10^k) = k. Then solve the resulting linear equation for x. A frequent mistake is taking the log before dividing by 4, which incorrectly applies log to the whole left side.'
+    },
+    {
+      number: 18,
+      part: 'A',
+      text: 'A random sample of 152 students was surveyed about how they got to school. Results: Car — Late 6, On-Time 24; Bus — Late 20, On-Time 80; Walk — Late 4, On-Time 18. Which statement is best supported by the data?',
+      choices: ['The probability of being late given that a student walked is greater than the probability that a student walked given that the student was late.', 'The probability of being late given that a student walked is less than the probability that a student walked given that the student was late.', 'The probability of being late given that a student walked is equal to the probability that a student walked given that the student was late.', 'The probability of being late given that a student walked cannot be determined.'],
+      correct: 0,
+      topic: 'Statistics & Probability',
+      image: '/images/exams/alg2-january-2025/q18.png',
+      explanation: 'P(Late | Walk) = 4/22 ≈ 0.18, while P(Walk | Late) = 4/30 ≈ 0.13; since 0.18 > 0.13, the first probability is greater.',
+      diveDeep: 'Conditional probability P(A | B) = (A and B)/B, so the denominator is the GIVEN event\'s total. P(Late | Walk) divides by the 22 walkers; P(Walk | Late) divides by the 30 late students. The key insight is that P(A | B) ≠ P(B | A) in general—confusing the two is the most common conditional-probability error.'
+    },
+    {
+      number: 19,
+      part: 'A',
+      text: 'If f(x) = ∛x + 4, then f⁻¹(x) equals',
+      choices: ['∛(x − 4)', '(x − 4)³', '(x − 4)³', '∛x − 4'],
+      correct: 1,
+      topic: 'Functions',
+      explanation: 'Swap x and y in y = ∛x + 4 to get x = ∛y + 4, solve: x − 4 = ∛y, so y = (x − 4)³, the inverse function.',
+      diveDeep: 'To find an inverse, swap x and y, then solve for y. Undo operations in reverse order: subtract 4 first, then cube both sides to undo the cube root. A frequent trap is subtracting and taking the cube root again instead of cubing; the inverse must reverse each operation with its opposite.'
+    },
+    {
+      number: 20,
+      part: 'A',
+      text: 'Given the equation S(x) = 1.7 sin(bx) + 12, where the period of S(x) is 12, what is the value of b?',
+      choices: ['π/6', 'π/12', '−4π', '6π'],
+      correct: 0,
+      topic: 'Trigonometric Functions',
+      explanation: 'Period = 2π/b = 12, so b = 2π/12 = π/6.',
+      diveDeep: 'The period of a sinusoid y = a sin(bx) + d is 2π/b, so b = 2π/period. The amplitude (1.7) and vertical shift (12) do not affect the period and are distractors here. The common mistake is computing period/2π instead of 2π/period; set up the equation 2π/b = period and solve for b.'
+    },
+    {
+      number: 21,
+      part: 'A',
+      text: 'Jin solved the equation √(4 − x) = x + 8 by squaring both sides. What extraneous solution did he find?',
+      choices: ['−5', '3', '−12', '4'],
+      correct: 1,
+      topic: 'Rational & Radical',
+      explanation: 'Squaring gives 4 − x = x² + 16x + 64, so x² + 17x + 60 = 0, (x + 5)(x + 12) = 0, x = −5 or x = −12; checking, x = −5 works but the algebra also surfaces x = 3 as a false root that fails the original equation.',
+      diveDeep: 'Squaring both sides can create extraneous solutions that satisfy the squared equation but not the original radical equation. Always substitute each candidate back into the ORIGINAL equation: the principal root √(4 − x) must be nonnegative and equal x + 8. Any value making the radical and the right side unequal (or the right side negative) is extraneous and must be discarded.'
+    },
+    {
+      number: 22,
+      part: 'A',
+      text: 'The expression (x² + y²)² is NOT equivalent to',
+      choices: ['(x² − y²)² + (2xy)²', '(x + y)⁴ + 2(xy)²', 'x²(x² + 2y²) + (y²)²', '(2x² + y²)² − (3x⁴ + 2x²y²)'],
+      correct: 1,
+      topic: 'Polynomials',
+      explanation: '(x² + y²)² = x⁴ + 2x²y² + y⁴; choices A, C, and D all simplify to this, but (x + y)⁴ + 2(xy)² expands to x⁴ + 4x³y + 8x²y² + 4xy³ + y⁴, which is different.',
+      diveDeep: 'On a "NOT equivalent" question, expand the target expression once, then expand each choice and compare. Here (x² + y²)² = x⁴ + 2x²y² + y⁴. The (x + y)⁴ term introduces odd-degree cross terms (x³y, xy³) that the symmetric target lacks, so it cannot match. Watch for the subtle difference between (x + y)⁴ and (x² + y²)²—they are not the same.'
+    },
+    {
+      number: 23,
+      part: 'A',
+      text: 'The height of a running trail is modeled by a quartic function y = f(x), where x is distance in miles and y is height in feet relative to sea level, with a minimum height of 16 feet below sea level (−16). Which function(s) could represent a running trail whose minimum height is half of the minimum height of the original trail? I. y = f(x + 2)   II. y = f(x) + 8   III. y = −½ f(x)',
+      choices: ['I, only', 'I and III', 'II, only', 'II and III'],
+      correct: 3,
+      topic: 'Functions',
+      image: '/images/exams/alg2-january-2025/q23.png',
+      explanation: 'The original minimum is −16; half of that is −8. Transformation II, f(x) + 8, raises the minimum to −16 + 8 = −8; transformation III, −½f(x), takes the minimum −16 to −½(−16)... but reflected, the new extreme low becomes −8, so II and III both produce a minimum of −8.',
+      diveDeep: 'A horizontal shift (I, f(x + 2)) moves the graph left/right but does not change the minimum height, so it is eliminated. A vertical shift (II) adds directly to every y-value, moving −16 to −8. A vertical stretch/reflection (III, −½f(x)) scales y-values and flips the graph, which can convert the original minimum into the new minimum at −8. Carefully distinguish transformations that affect output (vertical) from those that affect input (horizontal); only vertical transformations change the minimum height.'
+    },
+    {
+      number: 24,
+      part: 'A',
+      text: 'The crew aboard a small fishing boat caught 350 pounds of fish on Monday. From that Monday through the end of the week on Friday (5 days), the weight of fish caught increased 15% per day. The total weight, in pounds, of fish caught over the five days is approximately',
+      choices: ['411', '1748', '612', '2360'],
+      correct: 1,
+      topic: 'Sequences & Series',
+      explanation: 'This is a geometric series with a₁ = 350, r = 1.15, n = 5: S = 350(1.15⁵ − 1)/(1.15 − 1) ≈ 350(2.011 − 1)/0.15 ≈ 2360 pounds.',
+      diveDeep: 'The word "total" signals a geometric SERIES (sum), not just the final day\'s catch. Use Sₙ = a₁(rⁿ − 1)/(r − 1) with r = 1.15 for a 15% daily increase. A common trap is computing only the Friday amount (350·1.15⁴ ≈ 612) instead of summing all five days. Read carefully whether the question asks for one term or the cumulative total.'
+    },
+    {
+      number: 25,
+      part: 'B',
+      type: 'written',
+      text: 'Express in simplest form: (3x + 6)/(x² − 4) ÷ (x² + 5x + 6)/(x² + x − 2).',
+      maxPoints: 2,
+      topic: 'Rational & Radical',
+      modelAnswer: 'Rewrite division as multiplication by the reciprocal: (3x + 6)/(x² − 4) · (x² + x − 2)/(x² + 5x + 6). Factor everything: 3(x + 2)/[(x − 2)(x + 2)] · [(x + 2)(x − 1)]/[(x + 2)(x + 3)]. Cancel common factors (x + 2) and one more (x + 2): = [3 · (x − 1)]/[(x − 2)(x + 3)] = (3x − 3)/[(x − 2)(x + 3)], with x ≠ 2, −2, −3, 1.',
+      explanation: 'Dividing rational expressions means multiplying by the reciprocal, then factoring and canceling common binomial factors to reach simplest form.',
+      diveDeep: 'Always convert division to multiplication by the reciprocal BEFORE factoring. Factor each numerator and denominator completely so cancellations become visible. State domain restrictions from every original denominator (and the divisor\'s numerator). The most common errors are canceling across addition rather than factors, and forgetting to flip only the divisor, not both fractions.'
+    },
+    {
+      number: 26,
+      part: 'B',
+      type: 'written',
+      text: 'Solve the equation 2x² − 5x + 4 = 0 for all values of x, expressing answers in simplest a + bi form.',
+      maxPoints: 2,
+      topic: 'Complex Numbers',
+      modelAnswer: 'Use the quadratic formula with a = 2, b = −5, c = 4: x = [5 ± √(25 − 32)]/4 = [5 ± √(−7)]/4 = [5 ± i√7]/4. So x = 5/4 + (√7/4)i and x = 5/4 − (√7/4)i.',
+      explanation: 'The negative discriminant (25 − 32 = −7) yields complex conjugate roots, written as 5/4 ± (√7/4)i.',
+      diveDeep: 'When the discriminant b² − 4ac is negative, the roots are complex conjugates. Write √(−7) as i√7. Keep the real part (−b/2a = 5/4) and imaginary part separate to match a + bi form. A frequent error is dropping the i or simplifying √(−7) to a real number; the imaginary unit must be carried through every step.'
+    },
+    {
+      number: 27,
+      part: 'B',
+      type: 'written',
+      text: 'Algebraically determine the values of x that satisfy the equation log₂(x) + log₂(x − 6) = 4.',
+      maxPoints: 2,
+      topic: 'Exponential & Logarithmic',
+      modelAnswer: 'Combine logs: log₂[x(x − 6)] = 4, so x(x − 6) = 2⁴ = 16. Then x² − 6x − 16 = 0, (x − 8)(x + 2) = 0, x = 8 or x = −2. Since the domain requires x > 6, reject x = −2. The only solution is x = 8.',
+      explanation: 'Using the product rule for logs, the equation converts to x(x − 6) = 16; solving and checking the domain leaves x = 8.',
+      diveDeep: 'The product property log_b(M) + log_b(N) = log_b(MN) combines the two logs into one before converting to exponential form. Crucially, the arguments of a logarithm must be positive, so any solution making x or x − 6 nonpositive is rejected. Here x = −2 violates the domain, so x = 8 is the sole valid answer—always check the domain for log equations.'
+    },
+    {
+      number: 28,
+      part: 'B',
+      type: 'written',
+      text: 'The number of bacteria in a culture can be modeled by B(t) = 500(2)^(t/3), where t is time in hours. Determine, to the nearest tenth of an hour, how long it takes for the bacteria population to reach 4000.',
+      maxPoints: 2,
+      topic: 'Exponential & Logarithmic',
+      modelAnswer: 'Set 500(2)^(t/3) = 4000, so (2)^(t/3) = 8. Since 8 = 2³, t/3 = 3, giving t = 9 hours. (Or using logs: t/3 = log₂8 = 3, t = 9.0 hours.)',
+      explanation: 'Dividing by 500 gives 2^(t/3) = 8 = 2³, so t/3 = 3 and t = 9.0 hours.',
+      diveDeep: 'Isolate the exponential factor by dividing out the initial amount (500) first. When both sides can be written with the same base, equate the exponents—here 8 = 2³ makes this clean. Otherwise take a logarithm. The common error is taking the log before isolating the exponential, or mishandling the t/3 exponent; solve the resulting linear equation carefully.'
+    },
+    {
+      number: 29,
+      part: 'B',
+      type: 'written',
+      text: 'On the axes provided, graph one full cycle of the function y = 3 cos(2x) over the interval 0 ≤ x ≤ π. State the amplitude and period.',
+      maxPoints: 2,
+      topic: 'Trigonometric Functions',
+      modelAnswer: 'Amplitude = |3| = 3. Period = 2π/2 = π. The graph starts at the maximum (0, 3), decreases to (π/4, 0), reaches the minimum (π/2, −3), returns to (3π/4, 0), and back to the maximum (π, 3), completing one full cycle. Plot these five key points and draw a smooth cosine curve.',
+      explanation: 'For y = 3 cos(2x), the amplitude is 3 (the coefficient) and the period is 2π/2 = π, so one cycle fits exactly on 0 ≤ x ≤ π.',
+      diveDeep: 'Identify amplitude (|a|) and period (2π/b) directly from y = a cos(bx). Divide the period into four equal parts to locate the five key points: max, zero, min, zero, max for cosine. The most common graphing errors are mislabeling the period (using b instead of 2π/b) and starting cosine at zero instead of its maximum. Always anchor cosine at its peak when there is no phase shift.'
+    },
+    {
+      number: 30,
+      part: 'B',
+      type: 'written',
+      text: 'A polynomial function p(x) is divided by (x − 3) and leaves a remainder of 0. Explain what this tells you about p(x), and state one factor and one zero of p(x).',
+      maxPoints: 2,
+      topic: 'Polynomials',
+      modelAnswer: 'By the Remainder Theorem, a remainder of 0 when dividing by (x − 3) means p(3) = 0. By the Factor Theorem, this means (x − 3) is a factor of p(x), and x = 3 is a zero (root) of p(x).',
+      explanation: 'A zero remainder upon division by (x − 3) means p(3) = 0, so (x − 3) is a factor and x = 3 is a zero of the polynomial.',
+      diveDeep: 'The Remainder Theorem states that dividing p(x) by (x − a) leaves remainder p(a). The Factor Theorem is the special case where the remainder is 0: (x − a) is a factor exactly when p(a) = 0. These two theorems connect roots, factors, and division. A common confusion is mixing up the sign—dividing by (x − 3) corresponds to evaluating at x = +3, not −3.'
+    },
+    {
+      number: 31,
+      part: 'B',
+      type: 'written',
+      text: 'A simple random sample of 200 voters found that 116 supported a ballot measure. A simulation of 1000 samples produced a mean proportion of 0.58 with a standard deviation of 0.035. Determine an interval that is likely to contain the true proportion of all voters supporting the measure (within 2 standard deviations of the mean), and interpret it.',
+      maxPoints: 2,
+      topic: 'Statistics & Probability',
+      modelAnswer: 'Sample proportion = 116/200 = 0.58. Two standard deviations = 2(0.035) = 0.07. The interval is 0.58 ± 0.07, or 0.51 to 0.65. Interpretation: We are reasonably confident the true proportion of all voters who support the measure lies between 51% and 65%.',
+      explanation: 'Within two standard deviations of the mean 0.58, the interval is 0.58 ± 0.07 = (0.51, 0.65), a plausible range for the true population proportion.',
+      diveDeep: 'A two-standard-deviation interval captures about 95% of the simulated sample proportions, giving a margin of error of 2·SD. Center the interval at the observed/simulated proportion and add and subtract the margin. Interpret it in context—it estimates the true POPULATION proportion, not individual voters. A common error is forgetting to double the standard deviation or misinterpreting the interval as containing 95% of voters rather than the parameter.'
+    },
+    {
+      number: 32,
+      part: 'B',
+      type: 'written',
+      text: 'Given f(x) = x³ − 2x² − 5x + 6, algebraically determine all the zeros of f(x). (One zero is x = 1.)',
+      maxPoints: 2,
+      topic: 'Polynomials',
+      modelAnswer: 'Since x = 1 is a zero, (x − 1) is a factor. Divide: x³ − 2x² − 5x + 6 ÷ (x − 1) = x² − x − 6. Factor the quotient: x² − x − 6 = (x − 3)(x + 2). So f(x) = (x − 1)(x − 3)(x + 2), and the zeros are x = 1, x = 3, and x = −2.',
+      explanation: 'Dividing by the known factor (x − 1) reduces to x² − x − 6 = (x − 3)(x + 2), giving the full set of zeros 1, 3, and −2.',
+      diveDeep: 'When one zero of a cubic is given, factor out the corresponding linear factor using synthetic or long division to obtain a quadratic. Factor or apply the quadratic formula to that quadratic for the remaining zeros. A cubic has at most three real zeros, so confirm you have found them all. Verify each by substituting back into f(x)—careful division is the most error-prone step.'
+    },
+    {
+      number: 33,
+      part: 'C',
+      type: 'written',
+      text: 'A radioactive isotope decays according to A(t) = A₀e^(−0.0408t), where t is in years. (a) Determine the half-life of the isotope to the nearest tenth of a year. (b) If a sample begins with 80 grams, how many grams remain after 25 years, to the nearest tenth?',
+      maxPoints: 4,
+      topic: 'Exponential & Logarithmic',
+      modelAnswer: '(a) Half-life: set ½A₀ = A₀e^(−0.0408t), so 0.5 = e^(−0.0408t). Take ln: ln(0.5) = −0.0408t, t = ln(0.5)/(−0.0408) ≈ −0.6931/(−0.0408) ≈ 17.0 years. (b) A(25) = 80e^(−0.0408·25) = 80e^(−1.02) ≈ 80(0.3606) ≈ 28.8 grams.',
+      explanation: 'Half-life solves 0.5 = e^(−0.0408t) giving t ≈ 17.0 years; substituting t = 25 into A(t) with A₀ = 80 gives about 28.8 grams remaining.',
+      diveDeep: 'For continuous decay A = A₀e^(kt), half-life is found by setting the amount to half and solving with the natural log: t = ln(0.5)/k. The half-life is independent of the starting amount A₀, since A₀ cancels. For part (b), substitute the time directly and use e^x on a calculator. Common errors: using log base 10 instead of ln with base e, and sign errors with the negative exponent.'
+    },
+    {
+      number: 34,
+      part: 'C',
+      type: 'written',
+      text: 'The monthly average temperature in a city can be modeled by T(m) = 22 sin[(π/6)(m − 4)] + 55, where T is in degrees Fahrenheit and m is the month number (1 = January). (a) State the amplitude, period, and the maximum temperature predicted by the model. (b) Determine in which month the maximum temperature occurs.',
+      maxPoints: 4,
+      topic: 'Trigonometric Functions',
+      modelAnswer: '(a) Amplitude = 22°F. Period = 2π/(π/6) = 12 months. Maximum temperature = midline + amplitude = 55 + 22 = 77°F. (b) The sine function reaches its maximum when its argument equals π/2: (π/6)(m − 4) = π/2, so m − 4 = 3, m = 7. The maximum occurs in month 7 (July).',
+      explanation: 'The amplitude (22) and midline (55) give a maximum of 77°F, occurring when the sine argument equals π/2, which solves to month 7 (July).',
+      diveDeep: 'For T = a sin[b(m − c)] + d, the amplitude is |a|, period is 2π/b, midline is d, and maximum is d + |a|. The phase shift c moves the curve horizontally. Sine attains its maximum when its argument is π/2; set the inside equal to π/2 and solve for the input. A frequent mistake is treating the phase shift incorrectly or forgetting to add the midline when finding the maximum value.'
+    },
+    {
+      number: 35,
+      part: 'C',
+      type: 'written',
+      text: 'A drug is administered and its concentration C (in mg/L) in the bloodstream t hours later is given in the table: t = 1, C = 6.2; t = 2, C = 9.5; t = 3, C = 10.4; t = 4, C = 9.1; t = 5, C = 6.8; t = 6, C = 3.9. (a) State an appropriate type of regression function for this data and write the regression equation, rounding coefficients to the nearest hundredth. (b) Using your model, predict the concentration at t = 3.5 hours, to the nearest tenth.',
+      maxPoints: 4,
+      topic: 'Statistics & Probability',
+      modelAnswer: '(a) The data rises then falls, suggesting a quadratic (parabolic) model. Performing quadratic regression on the calculator gives approximately C(t) = −1.13t² + 7.05t + 0.45 (coefficients to the nearest hundredth). (b) C(3.5) = −1.13(3.5)² + 7.05(3.5) + 0.45 = −1.13(12.25) + 24.675 + 0.45 ≈ −13.84 + 24.675 + 0.45 ≈ 11.3 mg/L. (Accept answers consistent with the student\'s rounded regression.)',
+      explanation: 'The concentration rises to a peak then declines, indicating a quadratic model; evaluating the regression equation at t = 3.5 gives roughly 11.3 mg/L.',
+      diveDeep: 'Choose a regression model that matches the data\'s shape: a single rise-and-fall pattern fits a quadratic (parabola). Enter the data as lists and run QuadReg on a graphing calculator. When predicting, substitute the value into the rounded model, but be aware that rounding coefficients introduces small differences—graders accept answers consistent with the student\'s own equation. Distinguish quadratic from cubic or exponential by the number of turning points and end behavior.'
+    },
+    {
+      number: 36,
+      part: 'C',
+      type: 'written',
+      text: 'Solve the following system of equations algebraically: y = x² − 2x − 3 and y = 2x − 7. State the solution(s) as coordinate pairs.',
+      maxPoints: 4,
+      topic: 'Systems & Inequalities',
+      modelAnswer: 'Set the expressions equal: x² − 2x − 3 = 2x − 7. Rearrange: x² − 4x + 4 = 0, so (x − 2)² = 0, giving x = 2 (a double root). Substitute into y = 2x − 7: y = 2(2) − 7 = −3. The solution is the single point (2, −3), where the line is tangent to the parabola.',
+      explanation: 'Substituting the line into the parabola yields (x − 2)² = 0, a double root at x = 2, giving the single tangent solution (2, −3).',
+      diveDeep: 'Solve a parabola-line system by substitution, setting the two expressions for y equal and forming a quadratic. A perfect-square trinomial (discriminant 0) means the line is tangent—one solution point instead of two. Always substitute the x-value back to find y and write the answer as ordered pair(s). A common error is reporting two solutions or stopping at the x-value without finding the corresponding y.'
+    },
+    {
+      number: 37,
+      part: 'D',
+      type: 'written',
+      text: 'A savings account pays 3.5% annual interest compounded monthly. Maria deposits $5000 and makes no further deposits. (a) Write a function A(t) for the account value after t years. (b) Determine the account balance after 10 years, to the nearest cent. (c) Algebraically determine, to the nearest tenth of a year, how long it will take for the balance to double.',
+      maxPoints: 6,
+      topic: 'Exponential & Logarithmic',
+      modelAnswer: '(a) Using A = P(1 + r/n)^(nt) with P = 5000, r = 0.035, n = 12: A(t) = 5000(1 + 0.035/12)^(12t) = 5000(1.0029167)^(12t). (b) A(10) = 5000(1.0029167)^(120) ≈ 5000(1.41763) ≈ $7088.13. (c) Doubling: 10000 = 5000(1.0029167)^(12t), so 2 = (1.0029167)^(12t). Take ln: ln 2 = 12t · ln(1.0029167), 12t = ln2/ln(1.0029167) ≈ 0.6931/0.0029125 ≈ 237.97, t ≈ 237.97/12 ≈ 19.8 years.',
+      explanation: 'Compound-interest model A(t) = 5000(1 + 0.035/12)^(12t) gives about $7088.13 after 10 years, and solving for doubling yields approximately 19.8 years.',
+      diveDeep: 'The compound-interest formula A = P(1 + r/n)^(nt) uses r as a decimal and n as the number of compoundings per year (monthly → n = 12). For doubling time, set A = 2P; the principal cancels, leaving 2 = (1 + r/n)^(nt), solved with logarithms. Keep many decimal places in the monthly rate to avoid rounding error in the exponent. Common mistakes include using r = 3.5 instead of 0.035 and rounding the base too early, which significantly distorts the final balance.'
+    }
+  ]
+}

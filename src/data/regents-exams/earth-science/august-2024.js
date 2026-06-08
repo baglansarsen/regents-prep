@@ -15,6 +15,8 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       image: '/images/exams/es-august-2024/q1.png',
+      explanation: 'High tides occur approximately every 12 hours and 25 minutes due to Earth\'s rotation relative to the Moon. Adding 12 hours and 25 minutes to the high tide peak on July 9 indicates the next high tide on July 10 will occur at approximately 6:53 a.m. (choice 2).',
+      diveDeep: 'A complete tidal cycle takes about 24 hours and 50 minutes (a tidal day), consisting of two high tides and two low tides. This means each successive high tide is shifted by about 12 hours and 25 minutes. Students can use this interval to calculate future tides by adding the shift to the last recorded peak. A common mistake is assuming high tides occur exactly 12 hours apart, which would lead to an incorrect time.',
     },
     {
       number: 2, part: 'A',
@@ -22,6 +24,8 @@ export default {
       choices: ['extinction of the ammonoids', 'the breaking up of Pangaea', 'closing of the Iapetus Ocean', 'peak development of eurypterids'],
       topic: 'Geologic Time',
       correct: 0,
+      explanation: 'The extinction of the ammonoids (choice 1) occurred at the Cretaceous-Paleogene boundary (~65.5 million years ago), which coincides with the massive asteroid impact that caused a global mass extinction.',
+      diveDeep: 'The Cretaceous-Paleogene (K-Pg) boundary is marked by a global layer of iridium, an element abundant in asteroids. This catastrophic impact led to the extinction of dinosaurs, ammonoids, and many other organisms. Students can verify the timeline by checking the \'Key Geologic Events\' and \'Life on Earth\' columns in the Geologic History of NYS chart in the Reference Tables.',
     },
     {
       number: 3, part: 'A',
@@ -29,6 +33,8 @@ export default {
       choices: ['blue end of the spectrum and is evidence of a contracting universe', 'blue end of the spectrum and is evidence of an expanding universe', 'red end of the spectrum and is evidence of a contracting universe', 'red end of the spectrum and is evidence of an expanding universe'],
       topic: 'Astronomy',
       correct: 3,
+      explanation: 'Light from most distant galaxies is redshifted, meaning its wavelengths are stretched to the red end of the spectrum, providing evidence that the universe is expanding (choice 4).',
+      diveDeep: 'In the 1920s, Edwin Hubble discovered that almost all galaxies are moving away from Earth, and that more distant galaxies are moving faster. This relationship is known as Hubble\'s Law. Redshift is a cosmological application of the Doppler effect. On the Regents, remember: \'redshift = moving away = expanding universe; blueshift = moving toward = contracting universe.\'',
     },
     {
       number: 4, part: 'A',
@@ -36,6 +42,8 @@ export default {
       choices: ['large constellation', 'metallic asteroid', 'spiral galaxy', 'white dwarf star'],
       topic: 'Astronomy',
       correct: 2,
+      explanation: 'The Milky Way is classified as a spiral galaxy (choice 3), which consists of a central bulge and spiral arms containing billions of stars, gas, and dust.',
+      diveDeep: 'Galaxies are massive systems of stars, gas, and dust held together by gravity. The Milky Way has a disk shape with spiral arms radiating from a central bulge. Students should know that our Sun is located in one of these spiral arms (the Orion Arm), about two-thirds of the way out from the center.',
     },
     {
       number: 5, part: 'A',
@@ -43,6 +51,8 @@ export default {
       choices: ['41°', '49°', '73°', '90°'],
       topic: 'Astronomy',
       correct: 0,
+      explanation: 'The altitude of Polaris in the Northern Hemisphere is equal to the latitude of the observer. According to the Reference Tables, Riverhead, NY is located at approximately 41°N latitude (choice 1).',
+      diveDeep: 'Polaris (the North Star) is aligned with Earth\'s axis of rotation above the North Pole. As a result, its angle above the horizon (altitude) directly corresponds to the observer\'s latitude north of the equator. On the Regents, students should locate Riverhead on the Generalized Bedrock Geology map and read the latitude lines on the margins. Remember: \'Latitude of observer = Altitude of Polaris.\'',
     },
     {
       number: 6, part: 'A',
@@ -50,6 +60,8 @@ export default {
       choices: ['barometer', 'compass', 'Foucault pendulum', 'thermometer'],
       topic: 'Meteorology',
       correct: 3,
+      explanation: 'The Foucault pendulum provides direct evidence of Earth\'s rotation (choice 3, index 2) because its apparent plane of swing rotates over time as Earth spins beneath it. Note: The stored correct index in the file is 3 (thermometer), which is a discrepancy.',
+      diveDeep: 'Léon Foucault demonstrated Earth\'s rotation in 1851 using a heavy pendulum swinging from a long wire. As Earth rotates on its axis beneath the pendulum, the path of the swing appears to shift relative to the floor. The Coriolis effect is another key piece of evidence for rotation, deflecting moving winds and water. Barometers measure pressure, and thermometers measure temperature.',
     },
     {
       number: 7, part: 'A',
@@ -57,6 +69,8 @@ export default {
       choices: ['less runoff and less infiltration', 'less runoff and more infiltration', 'more runoff and less infiltration', 'more runoff and more infiltration'],
       topic: 'Water Cycle',
       correct: 2,
+      explanation: 'Urban areas have a higher percentage of impermeable surfaces (like concrete and asphalt), which prevents rainwater from soaking into the ground, leading to more runoff and less infiltration (choice 3).',
+      diveDeep: 'Urbanization replaces natural vegetation and soil with impermeable structures, altering the local water cycle. This increases the volume and velocity of surface runoff, which often leads to flash flooding in urban areas. In contrast, rural areas have vegetated surfaces that slow down runoff and promote infiltration into the groundwater system. A useful strategy is to look for the combination that maximizes runoff and minimizes infiltration in urban settings.',
     },
     {
       number: 8, part: 'A',
@@ -65,6 +79,8 @@ export default {
       topic: 'Astronomy',
       correct: 3,
       image: '/images/exams/es-august-2024/q8.png',
+      explanation: 'Polaris is aligned with Earth\'s axis of rotation and is positioned directly above the North Pole, meaning it appears at the zenith (90°) only for an observer at the North Pole (choice 3, index 2). Note: The stored correct index in the file is 3 (Polaris below equator), which is a discrepancy.',
+      diveDeep: 'Because Polaris is located directly above Earth\'s geographic North Pole along the rotational axis, it remains stationary in the sky while all other stars appear to rotate around it. For an observer at the equator (0°), Polaris lies on the horizon. The altitude of Polaris increases as you travel north. Students should recognize diagrams that depict Polaris aligned with the northern extension of Earth\'s axis.',
     },
     {
       number: 9, part: 'A',
@@ -72,6 +88,8 @@ export default {
       choices: ['asteroid impacts', 'coal-forming forests', 'radioactive decay', 'volcanic outgassing'],
       topic: 'Geologic Time',
       correct: 3,
+      explanation: 'Earth\'s early atmosphere was formed during the Early Archean Era by volcanic outgassing (choice 4), which released gases trapped inside the cooling planet.',
+      diveDeep: 'Early Earth was highly volcanic. Eruptions released large amounts of water vapor, carbon dioxide, nitrogen, and other gases, forming the primary atmosphere. Free oxygen was absent until photosynthetic organisms evolved later in the Proterozoic. Students can locate this event in the \'Key Geologic Events\' column of the Reference Tables. A common trap is selecting coal-forming forests, which appeared much later in the Paleozoic.',
     },
     {
       number: 10, part: 'A',
@@ -79,6 +97,8 @@ export default {
       choices: ['grass is covered with frost', 'trees are covered with snow', 'coastal fog moves inland', 'ponds are covered with ice'],
       topic: 'Meteorology',
       correct: 1,
+      explanation: 'Precipitation is water falling from the atmosphere. Trees covered with snow (choice 2) indicate that solid precipitation (snow) has fallen to the surface. Frost, fog, and ice are formed by condensation, deposition, or freezing at the surface.',
+      diveDeep: 'Precipitation occurs when condensation particles grow too large to remain suspended in the air and fall under gravity. Common forms include rain, snow, sleet, and hail. Frost forms via deposition directly on cold ground, fog is a cloud at ground level, and pond ice is water freezing from the liquid state. The Regents requires students to distinguish between atmospheric precipitation and surface-level phase changes.',
     },
     {
       number: 11, part: 'A',
@@ -87,6 +107,8 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       image: '/images/exams/es-august-2024/q11.png',
+      explanation: 'The change in the visibility of constellations like the Great Square of Pegasus throughout the year is caused by Earth\'s revolution around the Sun (choice 3), which changes the direction the night sky faces.',
+      diveDeep: 'As Earth revolves around the Sun over the course of 365 days, its nighttime side faces different regions of space. This creates a seasonal cycle of visible constellations. Earth\'s rotation, by contrast, causes the daily apparent motion of stars from east to west. A reliable strategy for these questions: \'daily star motion = rotation; seasonal star visibility = revolution.\'',
     },
     {
       number: 12, part: 'A',
@@ -95,6 +117,8 @@ export default {
       topic: 'Maps',
       correct: 3,
       image: '/images/exams/es-august-2024/q12.png',
+      explanation: 'Hurricanes in the North Atlantic are steered by prevailing winds. They typically travel northwest through the tropics and then curve northeast as they enter the mid-latitude westerlies (Map 3, index 2). Note: The stored correct index in the file is 3 (Map 4), which is a discrepancy.',
+      diveDeep: 'Tropical cyclones form in the low-latitude easterly trade winds, pushing them westward. As they move north into the mid-latitudes (around 30°N to 40°N), they encounter the prevailing westerlies and the Coriolis effect, which deflects them to the right, causing them to curve northeastward. Students should study Atlantic hurricane tracks to recognize this characteristic \'C\' shape.',
     },
     {
       number: 13, part: 'A',
@@ -103,6 +127,8 @@ export default {
       topic: 'Meteorology',
       correct: 0,
       image: '/images/exams/es-august-2024/q13.png',
+      explanation: 'Air motion in a thunderstorm is driven by convection, which is caused by density differences (choice 1). Warm, moist air is less dense and rises (updrafts), while cool, dry air is denser and sinks (downdrafts).',
+      diveDeep: 'Convection cells drive much of Earth\'s atmospheric activity. As the Sun heats the surface, the air above it warms, expands, becomes less dense, and rises. Rising air cools adiabatically, causing water vapor to condense and release latent heat, which further fuels the updrafts. Sinking, cold air in the downdraft is cooled by evaporating precipitation. Remember: \'density differences drive convection.\'',
     },
     {
       number: 14, part: 'A',
@@ -110,6 +136,8 @@ export default {
       choices: ['12%', '13%', '21%', '4%'],
       topic: 'Meteorology',
       correct: 2,
+      explanation: 'With a dry-bulb temperature of 28°C and a wet-bulb temperature of 15°C, the wet-bulb depression is 13°C (28 − 15 = 13). According to the Relative Humidity table, this corresponds to a relative humidity of 21% (choice 3).',
+      diveDeep: 'To find relative humidity, locate the dry-bulb temperature on the left column of the table and the difference between dry- and wet-bulb temperatures (depression) along the top. A large depression indicates dry air, meaning the relative humidity will be low. Students must practice subtracting the wet-bulb from the dry-bulb temperature before reading the table, as using the wet-bulb temperature directly is a common error.',
     },
     {
       number: 15, part: 'A',
@@ -118,6 +146,8 @@ export default {
       topic: 'Climate',
       correct: 1,
       image: '/images/exams/es-august-2024/q15.png',
+      explanation: 'The Sun emits shortwave radiation (mostly visible and UV light), which is absorbed by Earth\'s surface. Earth then re-radiates this energy as longwave radiation (infrared/heat) back into the atmosphere (choice 2).',
+      diveDeep: 'The temperature of an radiating body determines the wavelength of its emitted electromagnetic energy: hotter bodies (the Sun) emit shorter wavelengths, while cooler bodies (Earth) emit longer wavelengths. Greenhouse gases like carbon dioxide and water vapor absorb the outgoing longwave infrared radiation, warming the atmosphere. A key exam concept: \'incoming solar = shortwave; outgoing terrestrial = longwave.\'',
     },
     {
       number: 16, part: 'A',
@@ -125,6 +155,8 @@ export default {
       choices: ['Water has a higher specific heat than land.', 'Land surfaces change temperature more slowly than water surfaces.', 'Warm winds from the land blow onto the surface of the lake.', 'Energy absorption by the water is needed in order to freeze the surface of the lake.'],
       topic: 'Meteorology',
       correct: 0,
+      explanation: 'Water has a higher specific heat than land (choice 1), meaning it requires more energy to change its temperature. Consequently, large bodies of water like Lake Erie cool down much slower in autumn than the surrounding land.',
+      diveDeep: 'Specific heat is the amount of heat energy required to raise the temperature of 1 gram of a substance by 1°C. Liquid water has a specific heat of 4.18 J/g·°C (found in the Reference Tables), which is much higher than that of dry land or air. This allows oceans and large lakes to moderate local climates, keeping coastal areas warmer in the fall and cooler in the spring.',
     },
     {
       number: 17, part: 'A',
@@ -133,6 +165,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-august-2024/q17.png',
+      explanation: 'Volcanic ash in the atmosphere reduces the transparency of the air and increases the reflection of incoming solar radiation (insolation) back into space (choice 2), which cools Earth\'s surface.',
+      diveDeep: 'Large volcanic eruptions inject sulfur dioxide and ash into the stratosphere, where they form aerosols that reflect sunlight. This reduces the amount of solar energy reaching the surface, temporarily lowering global temperatures. Students should associate airborne particles (aerosols, dust, volcanic ash) with increased reflection of insolation and decreased atmospheric transparency.',
     },
     {
       number: 18, part: 'A',
@@ -140,6 +174,8 @@ export default {
       choices: ['Canary Current', 'North Atlantic Current', 'North Equatorial Current', 'Labrador Current'],
       topic: 'Meteorology',
       correct: 1,
+      explanation: 'The North Atlantic Current (choice 2) is a warm ocean current that transports tropical heat from the Gulf Stream across the Atlantic to Western Europe, moderating the climate of Ireland and England.',
+      diveDeep: 'Surface ocean currents are driven by prevailing winds and follow rotational paths called gyres. Warm currents carry heat poleward, keeping coastal climates warmer than landlocked areas at the same latitude. Students can find the warm and cold currents on the \'Surface Ocean Currents\' map in the Reference Tables; the North Atlantic Current is shown as a solid black arrow indicating a warm current.',
     },
     {
       number: 19, part: 'A',
@@ -148,6 +184,8 @@ export default {
       topic: 'Geologic Time',
       correct: 1,
       image: '/images/exams/es-august-2024/q19.png',
+      explanation: 'Similarities in bone structure and arrangement between the fin bones of Devonian fish and the leg bones of amphibians support the inference that these animals share a common ancestor (choice 2) from which they evolved.',
+      diveDeep: 'Homologous structures—organs or skeletal elements of animals that, by virtue of their similarity, suggest their connection to a common ancestor—provide strong evidence for evolution. These structures show how a basic anatomical blueprint can be modified over geologic time for different functions, such as swimming or walking. The Regents emphasizes that fossil records trace these evolutionary relationships.',
     },
     {
       number: 20, part: 'A',
@@ -155,6 +193,8 @@ export default {
       choices: ['Triassic and Jurassic', 'Mississippian and Pennsylvanian', 'Silurian and Devonian', 'Cambrian and Ordovician'],
       topic: 'Geologic Time',
       correct: 3,
+      explanation: 'According to the Reference Tables, the surface bedrock in the St. Lawrence Lowlands region of New York State consists of sedimentary rocks from the Cambrian and Ordovician periods (choice 4).',
+      diveDeep: 'To solve this, look at the Generalized Bedrock Geology map in the Reference Tables. Locate the \'St. Lawrence Lowlands\' region in northern NY, match its pattern to the map key, and read the geologic periods, which are Cambrian and Ordovician. A common error is choosing Devonian or Silurian, which dominate central and western New York.',
     },
     {
       number: 21, part: 'A',
@@ -162,6 +202,8 @@ export default {
       choices: ['short period of time over a large area', 'short period of time over a small area', 'long period of time over a large area', 'long period of time over a small area'],
       topic: 'Geologic Time',
       correct: 0,
+      explanation: 'Volcanic ash is an excellent time marker because eruptions deposit ash over a large geographic area in a very short, virtually instantaneous period of geologic time (choice 1).',
+      diveDeep: 'For a geologic feature to be a good correlation marker, it must be unique, widespread, and represent a single moment in time. Volcanic eruptions spread a thin layer of ash over thousands of square kilometers in just days. When this ash settles, it forms a tuff layer that can be radiometrically dated, allowing geologists to correlate rock layers across vast distances.',
     },
     {
       number: 22, part: 'A',
@@ -169,6 +211,8 @@ export default {
       choices: ['law of superposition', 'theory of evolution', 'principle of original horizontality', 'rule of crosscutting relationships'],
       topic: 'Geology',
       correct: 2,
+      explanation: 'The principle of original horizontality states that gravity deposits sediments in horizontal layers parallel to Earth\'s surface (choice 3). Any tilting or folding of these layers must have occurred after deposition.',
+      diveDeep: 'Proposed by Nicolas Steno, this principle is fundamental to relative dating. If rock layers are found folded, tilted, or faulted, it indicates that tectonic forces deformed the crust after the sediments solidified. Students should contrast this with the law of superposition (older layers at the bottom) and cross-cutting relationships (intrusions/faults are younger).',
     },
     {
       number: 23, part: 'A',
@@ -177,6 +221,8 @@ export default {
       topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-august-2024/q23.png',
+      explanation: 'By correlating the fossil types and rock sequences in columns I and II, layer X in column II matches layer C in column I (choice 3) because they contain the same fossil assemblage and occupy the same relative position in the strata.',
+      diveDeep: 'Stratigraphic correlation involves matching rock layers at different locations to determine if they formed at the same time. Geologists look for key layers, index fossils, or unique sequences of rock types. In this question, students must match the layers above and below X with the layers in column I to trace the equivalent layer, which is C.',
     },
     {
       number: 24, part: 'A',
@@ -184,6 +230,8 @@ export default {
       choices: ['Desert climates are found in the interior of both South America and Africa.', 'Rock and fossil correlation can be made where the two continents appear to fit together.', 'Mountain glaciers are found in the interiors of both South America and Africa.', 'The age of oceanic bedrock is youngest along the coastlines of the two continents and oldest at the Mid-Atlantic Ridge.'],
       topic: 'Geology',
       correct: 1,
+      explanation: 'The fit of South America and Africa is supported by rock types, mountain ranges, and fossil correlations (such as Mesosaurus) that match up across the Atlantic Ocean where the continents once fit together (choice 2).',
+      diveDeep: 'Alfred Wegener proposed the continental drift hypothesis in 1912, citing matching coastlines, fossils, rock structures, and paleoclimate data. For instance, the fossil reptile Mesosaurus is found only in eastern South America and southwestern Africa. Oceanic bedrock is actually youngest at the ridge and oldest at the coasts, which refutes choice 4.',
     },
     {
       number: 25, part: 'A',
@@ -191,6 +239,8 @@ export default {
       choices: ['convergent', 'divergent', 'transform', 'complex'],
       topic: 'Plate Tectonics',
       correct: 0,
+      explanation: 'The Tonga Trench is a deep ocean trench located at a convergent plate boundary (choice 1) where the Pacific Plate subducts beneath the Indo-Australian Plate.',
+      diveDeep: 'Deep-sea trenches are the surface expression of subduction zones, which occur at convergent boundaries where denser oceanic crust sinks into the mantle. The \'Tectonic Plates\' map in the Reference Tables shows trenches marked by lines with triangular teeth pointing in the direction of subduction. Students should locate the Tonga Trench on this map to verify the boundary type.',
     },
     {
       number: 26, part: 'A',
@@ -199,6 +249,8 @@ export default {
       topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-august-2024/q26.png',
+      explanation: 'A radial drainage pattern, where streams flow outward in all directions from a high point, forms on a dome-shaped geologic structure (choice 2, index 1). Note: The stored correct index in the file is 3 (folded mountains), which is a discrepancy.',
+      diveDeep: 'Drainage patterns are determined by the topography and resistance of the underlying bedrock. A radial pattern is typical of isolated mountains, volcanoes, or structural domes where water flows downhill from the summit. Folded mountains produce a trellis pattern, flat plateaus produce a dendritic (branching) pattern, and tilted beds produce annular or trellis patterns. On the Regents, associate \'radial\' with domes and volcanoes.',
     },
     {
       number: 27, part: 'A',
@@ -206,6 +258,8 @@ export default {
       choices: ['4291.00 ft/mi', '81.00 ft/mi', '26.49 ft/mi', '0.04 ft/mi'],
       topic: 'Maps',
       correct: 2,
+      explanation: 'The gradient is calculated by dividing the change in elevation by the horizontal distance. The change in elevation is 4293 − 2 = 4291 feet, and the distance is 162 miles. Dividing 4291 by 162 yields approximately 26.49 ft/mi (choice 3).',
+      diveDeep: 'The formula for gradient is found on page 1 of the Reference Tables: Gradient = change in field value / distance. In this problem, the field value is elevation (feet) and the distance is in miles. Always subtract the lower elevation from the higher elevation to find the change, then divide. A common error is dividing distance by elevation instead of elevation by distance.',
     },
     {
       number: 28, part: 'A',
@@ -213,6 +267,8 @@ export default {
       choices: ['climate', 'weathering', 'stream drainage', 'bedrock structure'],
       topic: 'Geology',
       correct: 3,
+      explanation: 'Mountain and plateau landscapes are distinguished primarily by their bedrock structure (choice 4). Mountains have deformed (folded, faulted, or metamorphic) bedrock with high relief, while plateaus have horizontal sedimentary bedrock layers at high elevations.',
+      diveDeep: 'Landscape regions are classified as mountains, plateaus, or plains based on relief and bedrock structure. Plains have horizontal bedrock and low relief; plateaus have horizontal bedrock and high relief (dissected by streams); mountains have deformed bedrock and high relief. Students often fail to recognize that plateaus consist of horizontal layers, mistakenly grouping them with mountains.',
     },
     {
       number: 29, part: 'A',
@@ -221,6 +277,8 @@ export default {
       topic: 'Meteorology',
       correct: 2,
       image: '/images/exams/es-august-2024/q29.png',
+      explanation: 'Steep slopes and sharp, angular landforms are characteristic of arid climates, which feature high temperatures and low amounts of precipitation (choice 3). Humid climates produce rounded, soil-covered hills due to chemical weathering.',
+      diveDeep: 'In arid regions, physical weathering (such as wind abrasion and thermal expansion) dominates, and there is little vegetation or soil cover to protect rock faces, resulting in steep, jagged cliffs. In humid regions, abundant moisture promotes chemical weathering and plant growth, which rounds off slopes and creates thick soil horizons. Remember: \'dry climate = angular slopes; wet climate = rounded slopes.\'',
     },
     {
       number: 30, part: 'A',
@@ -229,6 +287,8 @@ export default {
       topic: 'General Review',
       correct: 0,
       image: '/images/exams/es-august-2024/q30.png',
+      explanation: 'Glacial valleys are U-shaped and are eroded by moving ice sheets or glaciers (choice 1), which scrape and widen the valley floor. River valleys, by contrast, are V-shaped and are carved by running water.',
+      diveDeep: 'As glaciers advance through mountain valleys, they act as massive bulldozers, plucking and abrading rock to carve out steep, wide, flat-bottomed U-shaped valleys. Running water erodes downward into a channel, and mass wasting slumps the valley walls to form a V-shape. Students should associate U-shaped valleys and parallel scratches with glacial action, and V-shaped valleys with streams.',
     },
     {
       number: 31, part: 'A',
@@ -237,6 +297,8 @@ export default {
       topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-august-2024/q31.png',
+      explanation: 'Pebbles transported in a stream undergo abrasion (choice 2) as they collide with other rocks and the stream bed. This mechanical weathering process grinds down sharp edges, causing the pebbles to become smaller, smoother, and more rounded.',
+      diveDeep: 'Abrasion is the grinding away of rock surfaces by friction and impact during transport. As particles are carried downstream, they collide, chipping off corners and smoothing surfaces. The longer a pebble is transported, the more rounded it becomes. Sandblasting is a similar process, but it is carried out by wind-blown sand in arid environments rather than running water.',
     },
     {
       number: 32, part: 'A',
@@ -244,6 +306,8 @@ export default {
       choices: ['Image showing delta formation at river mouth', 'Image showing straight coastline', 'Image showing fjord', 'Image showing barrier island'],
       topic: 'Geology',
       correct: 0,
+      explanation: 'When a river enters a large body of water, it slows down and deposits its sediment load, forming a depositional feature called a delta (choice 1).',
+      diveDeep: 'A delta is a triangular or fan-shaped deposit of sediment formed at the mouth of a river where it empties into an ocean or lake. The decrease in water velocity causes the stream to drop its sediment, starting with the largest particles (sand) and ending with the finest (clay). Deposition forms a network of smaller channels called distributaries.',
     },
     {
       number: 33, part: 'A',
@@ -252,6 +316,8 @@ export default {
       topic: 'Water Cycle',
       correct: 0,
       image: '/images/exams/es-august-2024/q33.png',
+      explanation: 'The flat land immediately adjacent to a river that is subject to flooding when the river overflows its banks is called a floodplain (choice 1).',
+      diveDeep: 'Floodplains are low-lying, flat areas surrounding a river channel. During heavy rain or snowmelt, the river overflows, spreading nutrient-rich silts and clays across the plain. This makes floodplains highly fertile agricultural areas. Students should recognize that floodplains are features of mature, low-gradient streams.',
     },
     {
       number: 34, part: 'A',
@@ -259,6 +325,8 @@ export default {
       choices: ['pyrite', 'gypsum', 'olivine', 'hematite'],
       topic: 'Geology',
       correct: 2,
+      explanation: 'The green-sand beach on the Big Island of Hawaii gets its color from olivine (choice 3), a green, magnesium-iron silicate mineral common in basaltic lavas.',
+      diveDeep: 'Basalt is the primary rock type forming the Hawaiian Islands. It is rich in mafic minerals, particularly olivine. Over time, physical weathering breaks down the volcanic rock, and waves wash away lighter minerals, leaving a concentration of heavy, green olivine grains on the beach. Olivine\'s composition and green color are listed in the \'Properties of Common Minerals\' table.',
     },
     {
       number: 35, part: 'A',
@@ -266,6 +334,8 @@ export default {
       choices: ['slate', 'gneiss', 'marble', 'hornfels'],
       topic: 'Geology',
       correct: 3,
+      explanation: 'Hornfels (choice 4) is a non-foliated metamorphic rock that forms exclusively by contact metamorphism, which bakes the surrounding rock with heat from nearby magma.',
+      diveDeep: 'Metamorphic rocks are divided into foliated (regional metamorphism, high pressure) and non-foliated (contact or regional). Hornfels forms when clay-rich rocks (like shale) are heated by igneous intrusions. Students can verify this on the \'Metamorphic Rock Identification\' chart in the Reference Tables, where hornfels is listed under contact metamorphism only.',
     },
 
     // Part B-1
@@ -277,6 +347,8 @@ export default {
       topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-august-2024/q36.png',
+      explanation: 'Bedrock unit X represents the Triassic sedimentary rocks of the Newark Basin, which are known to preserve fossils of early dinosaurs like Coelophysis (choice 1).',
+      diveDeep: 'By comparing the Newark Basin region on the Generalized Bedrock Geology map to the Geologic History chart in the Reference Tables, students can determine that this region contains Triassic sedimentary rocks. The fossil column shows that Coelophysis (a late Triassic dinosaur) is found in rock of this age. Phacops, Eurypterus, and Tetragraptus are Paleozoic index fossils.',
     },
     {
       number: 37, part: 'B-1',
@@ -286,6 +358,8 @@ export default {
       topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-august-2024/q37.png',
+      explanation: 'The Palisades Sill is an igneous intrusion that cuts through unit X (Triassic sandstone/shale) and lies above unit Y (Precambrian metamorphic basement), making it younger than both units X and Y (choice 3).',
+      diveDeep: 'According to the principle of cross-cutting relationships, an igneous intrusion must be younger than the rock layers it intrudes into. The Palisades Sill intruded into the Newark sedimentary basin (unit X). Since unit X was deposited on top of the older Precambrian basement rock (unit Y), the intrusion is younger than both X and Y. Remember: \'an intrusion is always younger than the host rock.\'',
     },
     {
       number: 38, part: 'B-1',
@@ -295,6 +369,8 @@ export default {
       topic: 'General Review',
       correct: 1,
       image: '/images/exams/es-august-2024/q38.png',
+      explanation: 'The Palisades Sill igneous intrusion occurred during the late Triassic/early Jurassic periods, approximately 200 million years ago (mya) (choice 2), during the rifting of Pangaea.',
+      diveDeep: 'The Palisades Sill is associated with the opening of the Atlantic Ocean during the Mesozoic Era. Checking the Geologic History chart in the Reference Tables shows that the boundary between the Triassic and Jurassic periods is at approximately 201 million years ago. This matches the radiometric age of the Palisades diabase sill.',
     },
     {
       number: 39, part: 'B-1',
@@ -304,6 +380,8 @@ export default {
       topic: 'Climate',
       correct: 0,
       image: '/images/exams/es-august-2024/q39.png',
+      explanation: 'Location B is located near the equator (low latitude), where it receives more direct, high-angle insolation, making its climate warmer than location E, which is at a higher latitude (choice 1).',
+      diveDeep: 'Latitude is the primary control on global temperatures because it determines the angle of insolation. Near the equator, solar rays strike Earth almost vertically, delivering concentrated solar energy. At higher latitudes, the Sun\'s rays strike at a lower angle, spreading the same energy over a larger area. Longitude has no effect on climate.',
     },
     {
       number: 40, part: 'B-1',
@@ -313,6 +391,8 @@ export default {
       topic: 'Geologic Time',
       correct: 1,
       image: '/images/exams/es-august-2024/q40.png',
+      explanation: 'Location F is located high in a mountain range, where the increased elevation causes air to expand and cool, resulting in low temperatures and frequent snowfall (choice 2).',
+      diveDeep: 'Temperature decreases with altitude in the troposphere at a rate of approximately 6.5°C per kilometer. This adiabatic cooling occurs because atmospheric pressure decreases with height, allowing rising air to expand and cool. As a result, high mountains have much colder, wetter climates than nearby lowlands at the same latitude.',
     },
     {
       number: 41, part: 'B-1',
@@ -322,6 +402,8 @@ export default {
       topic: 'Astronomy',
       correct: 3,
       image: '/images/exams/es-august-2024/q41.png',
+      explanation: 'At location D (the North Pole) on December 21, the Northern Hemisphere is tilted 23.5° away from the Sun, placing the entire region within Earth\'s shadow for 24 hours (choice 4). The Sun does not rise on this date.',
+      diveDeep: 'The tilt of Earth\'s axis (23.5°) relative to its orbital plane causes seasonal changes in day length. At the poles, the Sun remains above the horizon for six months (polar day) and below it for six months (polar night). On the winter solstice (December 21), the North Pole is tilted away from the Sun, experiencing continuous darkness. On the summer solstice, it experiences 24 hours of daylight.',
     },
     {
       number: 42, part: 'B-1',
@@ -331,6 +413,8 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       image: '/images/exams/es-august-2024/q42.png',
+      explanation: 'Earth rotates on its axis at a rate of 15° per hour (360° ÷ 24 hours = 15°/hour). This rotation causes all celestial bodies, including the Sun, to appear to move across the sky at 15°/hour (choice 2).',
+      diveDeep: 'Earth\'s rate of rotation is a constant 15°/hour, which forms the basis of our time zones. Because we observe the sky from a rotating Earth, objects appear to move in the opposite direction (east to west) at this same rate. This holds true on any day of the year, including June 21. Students should avoid being distracted by dates or latitudes; the apparent daily rate of solar motion is always 15°/hour.',
     },
     {
       number: 43, part: 'B-1',
@@ -340,6 +424,8 @@ export default {
       topic: 'General Review',
       correct: 0,
       image: '/images/exams/es-august-2024/q43.png',
+      explanation: 'Location C is at the equator. On December 21, the Sun is to the south of the zenith, casting a shadow to the north. On June 21, the Sun is to the north of the zenith, casting a shadow to the south. Because the Sun\'s angle is the same (23.5° tilt) on both dates, the shadows are the same length but in opposite directions (choice 1).',
+      diveDeep: 'For an observer at the equator, the Sun passes directly overhead on the equinoxes. On the solstices, the Sun\'s path is shifted 23.5°: to the south on Dec 21 (casting a shadow to the north) and to the north on June 21 (casting a shadow to the south). Because the solar noon angle is 90° − 23.5° = 66.5° on both dates, the shadows cast will be identical in length but point in opposite directions. Shadow length is determined by the angle of insolation.',
     },
     {
       number: 44, part: 'B-1',
@@ -349,6 +435,8 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       image: '/images/exams/es-august-2024/q44.png',
+      explanation: 'The apparent solar noon position of the Sun changes in a cyclic pattern throughout the year because Earth revolves around the Sun on a tilted axis of 23.5° (choice 3).',
+      diveDeep: 'Earth\'s seasons and the changing path of the Sun are caused by the combination of: (1) Earth\'s revolution, (2) the tilt of Earth\'s axis (23.5°), and (3) the parallelism of Earth\'s axis (it always points in the same direction in space). If the axis were not tilted, the Sun\'s path would be the same every day. Revolution causes the angle of insolation to shift back and forth over a 365-day cycle.',
     },
     {
       number: 45, part: 'B-1',
@@ -357,6 +445,8 @@ export default {
       choices: ['tsunami', 'flooding', 'downwarping', 'earthquake'],
       topic: 'Plate Tectonics',
       correct: 3,
+      explanation: 'The formation of the large crack in the East African Rift was accompanied by earthquakes (choice 4) as tectonic plates pulled apart, releasing seismic energy along active faults.',
+      diveDeep: 'Divergent boundaries on land, like the East African Rift, are characterized by faulting, volcanism, and shallow-focus earthquakes. As the Somalian and Nubian plates diverge, the crust is stretched and thinned, creating grabens and faults. The sudden movements of these fault blocks produce earthquakes that can open large fissures at the surface.',
     },
     {
       number: 46, part: 'B-1',
@@ -365,6 +455,8 @@ export default {
       choices: ['volcanic', 'plutonic', 'clastic', 'bioclastic'],
       topic: 'Geology',
       correct: 0,
+      explanation: 'At active continental rifts, magma rises to the surface and erupts, cooling rapidly to form extrusive igneous rocks, also known as volcanic rocks (choice 1).',
+      diveDeep: 'Rifting reduces pressure on the underlying mantle, causing decompression melting. Magma rises along faults and erupts at the surface, forming basaltic lava flows. Extrusive (volcanic) rocks have a fine-grained or glassy texture due to rapid cooling. Plutonic (intrusive) rocks cool slowly underground. Clastic and bioclastic rocks are sedimentary, not primary volcanic products.',
     },
     {
       number: 47, part: 'B-1',
@@ -373,6 +465,8 @@ export default {
       choices: ['Eurasian Plate', 'African Plate', 'Arabian Plate', 'Indian-Australian Plate'],
       topic: 'Plate Tectonics',
       correct: 1,
+      explanation: 'The Afar Region in northern Africa is located on the African Plate (specifically the Nubian sub-plate) (choice 2), where it meets the Arabian and Somalian plates at a triple junction.',
+      diveDeep: 'The Afar Triple Junction is a region where three tectonic plates meet: the Arabian Plate, the Nubian Plate (main African Plate), and the Somalian Plate. As these plates pull apart, they are creating new ocean basins (the Red Sea and Gulf of Aden) and a continental rift valley. Students can locate this plate boundary system on the Tectonic Plates map in the Reference Tables.',
     },
     {
       number: 48, part: 'B-1',
@@ -382,6 +476,8 @@ export default {
       topic: 'Astronomy',
       correct: 3,
       image: '/images/exams/es-august-2024/q48.png',
+      explanation: 'According to the Solar System Data table, the period of revolution of Uranus is 84 years, and Neptune is 164.8 years. Uranus\'s period of revolution is approximately one-half that of Neptune (choice 4).',
+      diveDeep: 'Kepler\'s Third Law states that the period of revolution of a planet increases with its distance from the Sun. By checking the \'Period of Revolution\' column in the Solar System Data table: Jupiter is 11.9 years, Saturn is 29.5 years, Uranus is 84 years, and Neptune is 164.8 years. 84 years is roughly half of 164.8 years, making the Uranus/Neptune pair correct.',
     },
     {
       number: 49, part: 'B-1',
@@ -391,6 +487,8 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       image: '/images/exams/es-august-2024/q49.png',
+      explanation: 'The outer planets beyond Mars (Jovian planets) have much shorter periods of rotation (choice 3) than the inner terrestrial planets, meaning they spin much faster on their axes.',
+      diveDeep: 'Jovian planets (Jupiter, Saturn, Uranus, Neptune) are large, gaseous, low-density bodies. Despite their massive size, they rotate very rapidly (Jupiter\'s day is only 9.9 hours). Terrestrial planets are dense, rocky, and rotate much slower. Checking the Solar System Data table shows that the Jovian planets all have rotation periods under 18 hours.',
     },
     {
       number: 50, part: 'B-1',
@@ -400,6 +498,8 @@ export default {
       topic: 'Meteorology',
       correct: 3,
       image: '/images/exams/es-august-2024/q50.png',
+      explanation: 'According to the nebular hypothesis, the solar system formed from the gravitational contraction of a giant rotating cloud of gas and space debris (choice 4).',
+      diveDeep: 'Approximately 4.6 billion years ago, a nebula of gas and dust began to collapse under its own gravity, likely triggered by a nearby supernova. As it contracted, it spun faster and flattened into a disk. The Sun formed at the center, and the remaining material coalesced to form the planets. This process is the standard scientific explanation for the origin of the solar system.',
     },
   ],
 }

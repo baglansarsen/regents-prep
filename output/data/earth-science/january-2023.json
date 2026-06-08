@@ -1,0 +1,1076 @@
+{
+  "subject": "earth-science",
+  "session": "january-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The apparent change in direction of swing of a Foucault pendulum, at one specifi c location, provides evidence that Earth",
+      "choices": [
+        "travels around the Sun",
+        "spins on its axis",
+        "has a tilted axis",
+        "has a spherical shape"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The presence of cosmic background radiation is evidence that helps support the",
+      "choices": [
+        "Big Bang theory",
+        "Plate Tectonic theory",
+        "process of global warming",
+        "process of radioactive decay"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "In New York State, the highest altitude of Polaris will be observed at",
+      "choices": [
+        "Utica",
+        "Kingston",
+        "Massena",
+        "Old Forge"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Earth\u2019s rate of revolution is approximately",
+      "choices": [
+        "1\u00b0/day",
+        "15\u00b0/day",
+        "23.5\u00b0/day",
+        "360\u00b0/day"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "As water vapor changes phase from gas to liquid, each gram of water vapor",
+      "choices": [
+        "releases 2260 joules of heat energy",
+        "releases 334 joules of heat energy",
+        "gains 2260 joules of heat energy",
+        "gains 334 joules of heat energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "At the time of an equinox, the subtropical jet streams in Earth\u2019s troposphere generally are located closest to",
+      "choices": [
+        "0\u00b0 and 90\u00b0 S",
+        "30\u00b0 N and 30\u00b0 S",
+        "60\u00b0 N and 60\u00b0 S",
+        "90\u00b0 N and 90\u00b0 S"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "When the dry-bulb temperature is 16\u00b0C and the dewpoint is 7\u00b0C, what are the wet-bulb temperature and the relative humidity?",
+      "choices": [
+        "wet-bulb temperature 5 9\u00b0C and relative humidity 5 7%",
+        "wet-bulb temperature 5 9\u00b0C and relative humidity 5 54%",
+        "wet-bulb temperature 5 11\u00b0C and relative humidity 5 7%",
+        "wet-bulb temperature 5 11\u00b0C and relative humidity 5 54%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which ocean current warms the climate along a continent\u2019s east coast?",
+      "choices": [
+        "California Current",
+        "Brazil Current",
+        "Falkland Current",
+        "Guinea Current"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which process transfers heat energy through molecular collisions?",
+      "choices": [
+        "radiation",
+        "convection",
+        "infi ltration",
+        "conduction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Two major greenhouse gases that can be found in Earth\u2019s atmosphere are",
+      "choices": [
+        "carbon dioxide and methane",
+        "methane and nitrogen",
+        "nitrogen and oxygen",
+        "oxygen and carbon dioxide"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which event causes a temporary slowing or reversal of the surface ocean currents in the equatorial region of the Pacifi c Ocean, which may disrupt normal weather patterns in North America?",
+      "choices": [
+        "a volcanic eruption",
+        "a tsunami",
+        "El Ni\u00f1o",
+        "Grenville orogeny"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The map below shows the time zones of the continental United States. The dashed lines represent meridians of longitude. The locations of Cleveland, Ohio, and Portland, Oregon, are shown. 120\u00b0 W 105\u00b0 W 90\u00b0 W 75\u00b0 W Portland Pacific time zone Mountain time zone Central time zone Eastern time zone Cleveland What time is it in Portland, Oregon, when it is 9 p.m. in Cleveland, Ohio?",
+      "choices": [
+        "5 p.m.",
+        "6 p.m.",
+        "11 p.m.",
+        "12 midnight"
+      ],
+      "image": "/images/exams/earth-science/january-2023/q12.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The diagrams below represent the constellations that are visible above the southern horizon at midnight from the same New York State location on two different dates of the year. Canis Major Canis Minor Monoceros Lepus Orion Hydra Aquila Scutum Sagittarius Scorpius Corona Australis Southern horizon \u2013 January 8 Southern horizon \u2013 July 9 (Not drawn to scale) Libra Why are different constellations seen on these two dates at midnight?",
+      "choices": [
+        "Constellations rotate on an axis.",
+        "Constellations revolve around the Sun.",
+        "Earth rotates on its axis.",
+        "Earth revolves around the Sun."
+      ],
+      "image": "/images/exams/earth-science/january-2023/q13.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Letters A, B, C, and D in the diagram below represent processes in the water cycle. A B C D Which letter represents the process of transpiration?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/january-2023/q14.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The cross section below represents a lake-effect snowstorm that resulted from air moving across Lake Ontario and over Oswego, New York. Lake Ontario Oswego These lake-effect snowstorms commonly occur in the region around Oswego during winter because Lake Ontario",
+      "choices": [
+        "cools the air so that it is no longer saturated, which then produces frozen drops of water",
+        "warms the air so that it is no longer saturated, which then produces frozen drops of water",
+        "cools the air, which rises, contracts, and warms to the dewpoint, forming clouds and snow",
+        "warms the air, which rises, expands, and cools to the dewpoint, forming clouds and snow"
+      ],
+      "image": "/images/exams/earth-science/january-2023/q15.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "written",
+      "text": "Assuming that no overturning of rock layers has occurred, which geologic outcrop containing New York State index fossils represents the correct sequence of time within the same group of organisms? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Equal areas of which type of surface absorb the most insolation?",
+      "choices": [
+        "dark-colored and smooth",
+        "dark-colored and rough",
+        "light-colored and smooth",
+        "light-colored and rough"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which material requires the least amount of heat energy to raise its temperature one Celsius degree?",
+      "choices": [
+        "liquid water",
+        "ice",
+        "basalt",
+        "granite"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "One characteristic of a good index fossil is that the organisms that produced these fossils",
+      "choices": [
+        "left remains that can be found in igneous, sedimentary, and metamorphic rocks",
+        "lived over a wide geographic area",
+        "existed on Earth for a long period of geologic time",
+        "lived both on land and in the water during part of their lives"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "During which geologic epoch was nearly all of Earth\u2019s landmass inferred to have been located in the Southern Hemisphere?",
+      "choices": [
+        "Early Cretaceous",
+        "Early Mississippian",
+        "Middle Triassic",
+        "Middle Ordovician"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The Alleghenian orogeny occurred as a result of the",
+      "choices": [
+        "intrusion of the Palisades sill",
+        "breakup of Pangaea, which formed the Atlantic Ocean",
+        "collision of the North American Plate with the African Plate",
+        "metamorphism of the bedrock in the Adirondack Mountains"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which concept states that most sediments are deposited in layers that are fl at and parallel to Earth\u2019s surface?",
+      "choices": [
+        "principle of superposition",
+        "cross-cutting relationship",
+        "dynamic equilibrium",
+        "original horizontality"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which layer of Earth\u2019s interior is inferred to be composed mostly of iron and nickel, and has an interior temperature that is greater than its melting point?",
+      "choices": [
+        "plastic mantle",
+        "stiffer mantle",
+        "outer core",
+        "inner core"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A seismic station that is 4000 kilometers from the epicenter of an earthquake records the arrival time of the fi rst P-wave at 10:00:00 (hours: minutes: seconds). At what time did the fi rst S-wave arrive at this station?",
+      "choices": [
+        "9:54:20",
+        "10:05:40",
+        "10:07:05",
+        "10:12:40"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "What is the approximate latitude and longitude of the Bouvet Hot Spot?",
+      "choices": [
+        "54\u00b0 N 3\u00b0 W",
+        "54\u00b0 S 3\u00b0 E",
+        "3\u00b0 N 54\u00b0 E",
+        "3\u00b0 S 54\u00b0 W"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "As the distance from the Mid-Atlantic Ridge increases, the age of the ocean fl oor surface bedrock",
+      "choices": [
+        "decreases, only",
+        "increases, only",
+        "decreases, then increases",
+        "increases, then decreases"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The graph below shows the decay of a 50-gram sample of a radioactive isotope over 30 days. Radioactive Decay Time (days) Amount of Radioactive Isotope (grams) 0 5 10 15 20 25 30 50 40 30 20 10 0 The half-life of this radioactive isotope is approximately",
+      "choices": [
+        "7.5 days",
+        "12.5 days",
+        "15.0 days",
+        "25.0 days"
+      ],
+      "image": "/images/exams/earth-science/january-2023/q27.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Based on fossil evidence, which pie graph best shows the percentage of time that humans have existed on Earth since the time of Earth\u2019s origin? ( 1 ) ( 2 ) ( 3 ) ( 4 ) Key Without humans With humans",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "The photograph below shows a cone-shaped volcano. Which stream drainage pattern most likely will be found on this volcano? ( 1 ) ( 3 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The topographic map below shows the surface features of a coastal location. Line XY is a reference line on the map. Y 200 100 Red River Ocean X Which profi le best shows the landscape elevations along line XY? Distance X Y 0 100 200 300 Elevation (m) ( 1 ) Distance X Y 0 100 200 300 Elevation (m) ( 2 ) Distance X Y 0 100 200 300 Elevation (m) ( 3 ) Distance X Y 0 100 200 300 Elevation (m) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The block diagram below represents a meandering river. Points A, B, C, and D represent locations near the edge of the river. A B C D The greatest amount of erosion is most likely occurring at locations",
+      "choices": [
+        "A and B",
+        "B and C",
+        "C and D",
+        "D and A"
+      ],
+      "image": "/images/exams/earth-science/january-2023/q31.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The map below shows the locations of numerous drumlins south of Lake Ontario. Key Drumlins N S W E Niagara Falls Buffalo Rochester Lake Ontario Which agent of erosion formed these drumlins?",
+      "choices": [
+        "wind",
+        "streams",
+        "moving ice",
+        "wave action"
+      ],
+      "image": "/images/exams/earth-science/january-2023/q32.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The landscape diagram below represents a fan- shaped feature that is composed of sediments that were transported and deposited by a stream entering a lake. Lake This fan-shaped feature is best identifi ed as a",
+      "choices": [
+        "watershed",
+        "moraine",
+        "delta",
+        "tributary"
+      ],
+      "image": "/images/exams/earth-science/january-2023/q33.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The tendency of a mineral to split along fl at surfaces indicates the mineral property called",
+      "choices": [
+        "cleavage",
+        "fracture",
+        "composition",
+        "hardness"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The data table below shows a student\u2019s observations of a mineral sample. Property Observation luster metallic color brassy yellow streak green-black density 5.0 g/cm3 Based on the student\u2019s observations, the mineral can best be identifi ed as",
+      "choices": [
+        "magnetite",
+        "hematite",
+        "sulfur",
+        "pyrite"
+      ],
+      "image": "/images/exams/earth-science/january-2023/q35.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Which diagram best represents the new gibbous phase of the Moon as seen by an observer in New York State? ( 2 ) ( 4 ) ( 1 ) ( 3 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_36_40.png",
+      "context": "Base your answers to questions 36 through 40 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the Moon at different positions in its orbit around Earth. The phases of the Moon as seen \nby an observer in New York State have been labeled.\n(Not drawn to scale)\nNew\nMoon\nLast\nquarter\nOld \ncrescent\nNew\ncrescent\nFirst\nquarter\nOld \ngibbous\nSun\u00b7s \nrays\nEarth\nFull\nMoon\nNew \ngibbous\nNorth\nPole",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "How many days (d) are required for the Moon to complete a cycle of phases from one full Moon phase to the next full Moon phase?",
+      "choices": [
+        "15.0 d",
+        "27.3 d",
+        "29.5 d",
+        "365.3 d"
+      ],
+      "image": "/images/exams/earth-science/january-2023/context_36_40.png",
+      "context": "Base your answers to questions 36 through 40 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the Moon at different positions in its orbit around Earth. The phases of the Moon as seen \nby an observer in New York State have been labeled.\n(Not drawn to scale)\nNew\nMoon\nLast\nquarter\nOld \ncrescent\nNew\ncrescent\nFirst\nquarter\nOld \ngibbous\nSun\u00b7s \nrays\nEarth\nFull\nMoon\nNew \ngibbous\nNorth\nPole",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "At which two Moon phases will the difference in height between high tide and low tide most likely be the greatest?",
+      "choices": [
+        "new Moon and full Moon",
+        "new gibbous and old crescent",
+        "new crescent and old gibbous",
+        "fi rst quarter and last quarter"
+      ],
+      "image": "/images/exams/earth-science/january-2023/context_36_40.png",
+      "context": "Base your answers to questions 36 through 40 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the Moon at different positions in its orbit around Earth. The phases of the Moon as seen \nby an observer in New York State have been labeled.\n(Not drawn to scale)\nNew\nMoon\nLast\nquarter\nOld \ncrescent\nNew\ncrescent\nFirst\nquarter\nOld \ngibbous\nSun\u00b7s \nrays\nEarth\nFull\nMoon\nNew \ngibbous\nNorth\nPole",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Eclipses do not occur each time that the Moon revolves around Earth because the Moon\u2019s",
+      "choices": [
+        "orbit is less eccentric than Earth\u2019s orbit",
+        "orbit is inclined to Earth\u2019s orbit",
+        "diameter is greater than Earth\u2019s diameter",
+        "diameter is less than Earth\u2019s diameter"
+      ],
+      "image": "/images/exams/earth-science/january-2023/context_36_40.png",
+      "context": "Base your answers to questions 36 through 40 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the Moon at different positions in its orbit around Earth. The phases of the Moon as seen \nby an observer in New York State have been labeled.\n(Not drawn to scale)\nNew\nMoon\nLast\nquarter\nOld \ncrescent\nNew\ncrescent\nFirst\nquarter\nOld \ngibbous\nSun\u00b7s \nrays\nEarth\nFull\nMoon\nNew \ngibbous\nNorth\nPole",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The same side of the Moon always faces Earth because the period of revolution of the Moon is",
+      "choices": [
+        "shorter than the period of rotation of Earth",
+        "shorter than the period of rotation of the Moon",
+        "equal to the period of rotation of Earth",
+        "equal to the period of rotation of the Moon GO ON TO THE NEXT PAGE \u27af"
+      ],
+      "image": "/images/exams/earth-science/january-2023/context_36_40.png",
+      "context": "Base your answers to questions 36 through 40 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the Moon at different positions in its orbit around Earth. The phases of the Moon as seen \nby an observer in New York State have been labeled.\n(Not drawn to scale)\nNew\nMoon\nLast\nquarter\nOld \ncrescent\nNew\ncrescent\nFirst\nquarter\nOld \ngibbous\nSun\u00b7s \nrays\nEarth\nFull\nMoon\nNew \ngibbous\nNorth\nPole",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The outwash sediment that formed Scoby Hill is best described as",
+      "choices": [
+        "sorted and layered",
+        "sorted and nonlayered",
+        "unsorted and layered",
+        "unsorted and nonlayered"
+      ],
+      "image": "/images/exams/earth-science/january-2023/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the passage and cross section below and on your knowledge \nof Earth science. The cross section represents the area of Scoby Hill where fi ll was added to construct a roadway.\nScoby Hill Landslides\nScoby Hill is approximately 40 miles south of Buffalo, New York. The silt layer of Scoby \nHill may have been unstable ever since it formed from glacial outwash approximately \n12,000 years ago. Construction of a road required the addition of fi ll, which consisted of \nclay, silt, sand, and pebbles. The resulting landslides that occurred were a surprise because \nthe gradient of Scoby Hill was thought to be too low for landslides. Geologists discovered \nthat landslides easily started because of the weight of the fi ll. In order to decrease pressure \non the silt layer, engineers decided to remove the fi ll and some of the silt layer to create a \nlevel surface for the road. In addition, drain pipes were installed to lower the water table \nand reduce the chance of future landslides.\nCross Section of Scoby Hill\nFill\nSilt\nClay\nWater\ntable",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The maximum diameter of the particles in the fi ll was",
+      "choices": [
+        "0.006 cm",
+        "0.2 cm",
+        "6.4 cm",
+        "25.6 cm"
+      ],
+      "image": "/images/exams/earth-science/january-2023/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the passage and cross section below and on your knowledge \nof Earth science. The cross section represents the area of Scoby Hill where fi ll was added to construct a roadway.\nScoby Hill Landslides\nScoby Hill is approximately 40 miles south of Buffalo, New York. The silt layer of Scoby \nHill may have been unstable ever since it formed from glacial outwash approximately \n12,000 years ago. Construction of a road required the addition of fi ll, which consisted of \nclay, silt, sand, and pebbles. The resulting landslides that occurred were a surprise because \nthe gradient of Scoby Hill was thought to be too low for landslides. Geologists discovered \nthat landslides easily started because of the weight of the fi ll. In order to decrease pressure \non the silt layer, engineers decided to remove the fi ll and some of the silt layer to create a \nlevel surface for the road. In addition, drain pipes were installed to lower the water table \nand reduce the chance of future landslides.\nCross Section of Scoby Hill\nFill\nSilt\nClay\nWater\ntable",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The drain pipes that were installed lowered the water table by",
+      "choices": [
+        "decreasing the porosity of the clay",
+        "decreasing the permeability of the silt",
+        "removing infi ltrated water from the ground",
+        "removing clay and silt from the groundwater"
+      ],
+      "image": "/images/exams/earth-science/january-2023/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the passage and cross section below and on your knowledge \nof Earth science. The cross section represents the area of Scoby Hill where fi ll was added to construct a roadway.\nScoby Hill Landslides\nScoby Hill is approximately 40 miles south of Buffalo, New York. The silt layer of Scoby \nHill may have been unstable ever since it formed from glacial outwash approximately \n12,000 years ago. Construction of a road required the addition of fi ll, which consisted of \nclay, silt, sand, and pebbles. The resulting landslides that occurred were a surprise because \nthe gradient of Scoby Hill was thought to be too low for landslides. Geologists discovered \nthat landslides easily started because of the weight of the fi ll. In order to decrease pressure \non the silt layer, engineers decided to remove the fi ll and some of the silt layer to create a \nlevel surface for the road. In addition, drain pipes were installed to lower the water table \nand reduce the chance of future landslides.\nCross Section of Scoby Hill\nFill\nSilt\nClay\nWater\ntable",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "In which New York State landscape region is Scoby Hill located?",
+      "choices": [
+        "Allegheny Plateau",
+        "Tug Hill Plateau",
+        "Adirondack Mountains",
+        "Atlantic Coastal Plain"
+      ],
+      "image": "/images/exams/earth-science/january-2023/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the passage and cross section below and on your knowledge \nof Earth science. The cross section represents the area of Scoby Hill where fi ll was added to construct a roadway.\nScoby Hill Landslides\nScoby Hill is approximately 40 miles south of Buffalo, New York. The silt layer of Scoby \nHill may have been unstable ever since it formed from glacial outwash approximately \n12,000 years ago. Construction of a road required the addition of fi ll, which consisted of \nclay, silt, sand, and pebbles. The resulting landslides that occurred were a surprise because \nthe gradient of Scoby Hill was thought to be too low for landslides. Geologists discovered \nthat landslides easily started because of the weight of the fi ll. In order to decrease pressure \non the silt layer, engineers decided to remove the fi ll and some of the silt layer to create a \nlevel surface for the road. In addition, drain pipes were installed to lower the water table \nand reduce the chance of future landslides.\nCross Section of Scoby Hill\nFill\nSilt\nClay\nWater\ntable",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "The number 2 1_ 2 on the station model indicates that",
+      "choices": [
+        "2.5 inches of precipitation has fallen in the past 6 hours",
+        "the farthest object that can be seen is located 2.5 miles away",
+        "an advancing cold front is 2.5 miles away",
+        "the air pressure has risen 2.5 millibars in the past 3 hours"
+      ],
+      "image": "/images/exams/earth-science/january-2023/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the station model below and on your knowledge of Earth \nscience.\n84\n86\n996\n2 2\n1",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Which present-weather symbol represents the form of precipitation that is most likely occurring at this location? ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the station model below and on your knowledge of Earth \nscience.\n84\n86\n996\n2 2\n1",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "What are the wind direction and the wind speed at this location?",
+      "choices": [
+        "wind from the southeast at 15 knots",
+        "wind from the northwest at 15 knots",
+        "wind from the southeast at 25 knots",
+        "wind from the northwest at 25 knots"
+      ],
+      "image": "/images/exams/earth-science/january-2023/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the station model below and on your knowledge of Earth \nscience.\n84\n86\n996\n2 2\n1",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Rock unit A was formed most likely by",
+      "choices": [
+        "chemical weathering",
+        "regional metamorphism",
+        "the eruption of a volcano",
+        "the compaction of sediments"
+      ],
+      "image": "/images/exams/earth-science/january-2023/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the cross section below and on your knowledge of Earth \nscience. The cross section represents rock units labeled A through E that have not been overturned. A lava fl ow \nis represented between rock units A and B. Letter X represents a location in the igneous rock.\n.    .    .    .    .\n.    .    . \n.    .    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .    .    .    .\n.    . \n.    .    .    .    .\n.    .    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .    .    .    .\n. .    .    .    .\n.    .    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .   \n.    .    .  \n.    .   \nLava flow\nD\nE\nC\nB\nA\nKey\nIgneous rock\nContact metamorphism\nX",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which two minerals would most likely be found in the igneous rock if the rock is highly mafi c?",
+      "choices": [
+        "quartz and potassium feldspar",
+        "quartz and pyroxene",
+        "olivine and potassium feldspar",
+        "olivine and pyroxene"
+      ],
+      "image": "/images/exams/earth-science/january-2023/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the cross section below and on your knowledge of Earth \nscience. The cross section represents rock units labeled A through E that have not been overturned. A lava fl ow \nis represented between rock units A and B. Letter X represents a location in the igneous rock.\n.    .    .    .    .\n.    .    . \n.    .    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .    .    .    .\n.    . \n.    .    .    .    .\n.    .    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .    .    .    .\n. .    .    .    .\n.    .    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .   \n.    .    .  \n.    .   \nLava flow\nD\nE\nC\nB\nA\nKey\nIgneous rock\nContact metamorphism\nX",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which metamorphic rock most likely formed at the interface between rock unit B and the igneous rock?",
+      "choices": [
+        "quartzite",
+        "metaconglomerate",
+        "phyllite",
+        "marble"
+      ],
+      "image": "/images/exams/earth-science/january-2023/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the cross section below and on your knowledge of Earth \nscience. The cross section represents rock units labeled A through E that have not been overturned. A lava fl ow \nis represented between rock units A and B. Letter X represents a location in the igneous rock.\n.    .    .    .    .\n.    .    . \n.    .    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .    .    .    .\n.    . \n.    .    .    .    .\n.    .    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .    .    .    .\n. .    .    .    .\n.    .    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .    .    .\n.    .    .    .    .\n.    .   \n.    .    .  \n.    .   \nLava flow\nD\nE\nC\nB\nA\nKey\nIgneous rock\nContact metamorphism\nX",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify one process that formed rock salt from the shallow inland sea that covered parts of New York State.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the passage below and on your knowledge of Earth science.\nSalt \u2014 A Valuable Commodity\nIn New York State, salt is a valuable natural resource. Approximately 8500 square miles \nof New York State has bedrock that contains rock salt. The layers of rock salt formed after \nparts of New York State were covered by a shallow inland sea, which eventually evaporated. \nGroundwater dissolved some of the deeper rock salt layers and carried salty water up to \nthe surface in central New York. Commercial salt production began in the Syracuse area \nin the late 1700s. Early production of salt involved heating the salty water by burning \nwood from the surrounding area. The heat vaporized the water, leaving salt behind. When \nlumber supplies dwindled, solar methods were used to evaporate the water. Although the \nsalt industry had an overall positive effect on Syracuse, the industry in Syracuse closed \ndown in the 1920s, leaving negative environmental effects. There are currently salt mines \noperating south of Syracuse and in the Finger Lakes region of New York State.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 evaporation/vaporization \u2014 precipitation \u2014 deposition/sedimentation \u2014 crystallization Note: Do not allow credit for evaporite or precipitate because they are not processes. They are types of sedimentary rock."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify the geologic time period during which the rock salt in the surface bedrock at Syracuse was formed.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the passage below and on your knowledge of Earth science.\nSalt \u2014 A Valuable Commodity\nIn New York State, salt is a valuable natural resource. Approximately 8500 square miles \nof New York State has bedrock that contains rock salt. The layers of rock salt formed after \nparts of New York State were covered by a shallow inland sea, which eventually evaporated. \nGroundwater dissolved some of the deeper rock salt layers and carried salty water up to \nthe surface in central New York. Commercial salt production began in the Syracuse area \nin the late 1700s. Early production of salt involved heating the salty water by burning \nwood from the surrounding area. The heat vaporized the water, leaving salt behind. When \nlumber supplies dwindled, solar methods were used to evaporate the water. Although the \nsalt industry had an overall positive effect on Syracuse, the industry in Syracuse closed \ndown in the 1920s, leaving negative environmental effects. There are currently salt mines \noperating south of Syracuse and in the Finger Lakes region of New York State.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Silurian Period."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Identify the name of the mineral that makes up rock salt and describe one use of this mineral.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the passage below and on your knowledge of Earth science.\nSalt \u2014 A Valuable Commodity\nIn New York State, salt is a valuable natural resource. Approximately 8500 square miles \nof New York State has bedrock that contains rock salt. The layers of rock salt formed after \nparts of New York State were covered by a shallow inland sea, which eventually evaporated. \nGroundwater dissolved some of the deeper rock salt layers and carried salty water up to \nthe surface in central New York. Commercial salt production began in the Syracuse area \nin the late 1700s. Early production of salt involved heating the salty water by burning \nwood from the surrounding area. The heat vaporized the water, leaving salt behind. When \nlumber supplies dwindled, solar methods were used to evaporate the water. Although the \nsalt industry had an overall positive effect on Syracuse, the industry in Syracuse closed \ndown in the 1920s, leaving negative environmental effects. There are currently salt mines \noperating south of Syracuse and in the Finger Lakes region of New York State.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for halite and an acceptable use. Acceptable uses include, but are not limited to: \u2014 food additive/table salt \u2014 melts ice \u2014 food preservative/flavoring"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Describe one negative environmental effect that resulted from the mining of salt in Syracuse.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the passage below and on your knowledge of Earth science.\nSalt \u2014 A Valuable Commodity\nIn New York State, salt is a valuable natural resource. Approximately 8500 square miles \nof New York State has bedrock that contains rock salt. The layers of rock salt formed after \nparts of New York State were covered by a shallow inland sea, which eventually evaporated. \nGroundwater dissolved some of the deeper rock salt layers and carried salty water up to \nthe surface in central New York. Commercial salt production began in the Syracuse area \nin the late 1700s. Early production of salt involved heating the salty water by burning \nwood from the surrounding area. The heat vaporized the water, leaving salt behind. When \nlumber supplies dwindled, solar methods were used to evaporate the water. Although the \nsalt industry had an overall positive effect on Syracuse, the industry in Syracuse closed \ndown in the 1920s, leaving negative environmental effects. There are currently salt mines \noperating south of Syracuse and in the Finger Lakes region of New York State.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The Syracuse area experienced deforestation. \u2014 pollution of water wells and groundwater \u2014 The air was polluted by the burning of lumber. \u2014 salt spills \u2014 pollution from transporting salt \u2014 mine collapse/sinkholes \u2014 loss of animal habitat \u2014 Lumber supplies dwindled. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify the date of the sunrise position when the insolation from the noontime Sun will be most intense.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_55_56.png",
+      "context": "Base your answers to questions 55 and 56 on the diagram below and on your knowledge of Earth science. \nThe letters A through G on the diagram represent positions of sunrise on several dates during the year as seen \nby an observer at 40\u00b0 N latitude.\nA\n6/21\nB\n5/21\nC\n4/21\nD\n3/21\nE\n2/21\nF\n1/21\nG\n12/21\nSunrise Positions\nHorizon\n(Not drawn to scale)\nSunrise",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 6/21 or June 21. Note: Allow credit for A because the introduction states that letters represent specific dates."
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "A stick is placed vertically into the ground at the observer\u2019s location, and its shadow is observed from sunrise to sunset on January 21 (1/21). Identify the time of day when the shortest shadow is cast by the stick.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_55_56.png",
+      "context": "Base your answers to questions 55 and 56 on the diagram below and on your knowledge of Earth science. \nThe letters A through G on the diagram represent positions of sunrise on several dates during the year as seen \nby an observer at 40\u00b0 N latitude.\nA\n6/21\nB\n5/21\nC\n4/21\nD\n3/21\nE\n2/21\nF\n1/21\nG\n12/21\nSunrise Positions\nHorizon\n(Not drawn to scale)\nSunrise",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for either solar noon or noon or 12:00 p.m."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "State the general relationship between a planet\u2019s distance from the Sun and the planet\u2019s period of revolution.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_57_61.png",
+      "context": "Base your answers to questions 57 through 61 on the diagram below and on your knowledge of Earth science. \nThe diagram represents relative orbital positions for the planets and the asteroid belt in our solar system.\nMars\nMercury\nVenus\nEarth\nSun\nJupiter\nSaturn\nAsteroid\nbelt\nUranus\n(Not drawn to scale)\nNeptune",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 the greater a planet\u2019s distance from the Sun, the longer its period of revolution \u2014 If a planet is farther from the Sun, it will take longer to revolve. \u2014 Planets closer to the Sun orbit faster. \u2014 direct relationship"
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Identify one terrestrial planet and one Jovian planet represented in the diagram.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_57_61.png",
+      "context": "Base your answers to questions 57 through 61 on the diagram below and on your knowledge of Earth science. \nThe diagram represents relative orbital positions for the planets and the asteroid belt in our solar system.\nMars\nMercury\nVenus\nEarth\nSun\nJupiter\nSaturn\nAsteroid\nbelt\nUranus\n(Not drawn to scale)\nNeptune",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both the terrestrial planet and the Jovian planet are correct. Acceptable responses include: Terrestrial: \u2014 Mercury \u2014 Venus \u2014 Earth \u2014 Mars Jovian: \u2014 Jupiter \u2014 Saturn \u2014 Uranus \u2014 Neptune"
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Explain why this diagram represents a heliocentric model of the solar system.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_57_61.png",
+      "context": "Base your answers to questions 57 through 61 on the diagram below and on your knowledge of Earth science. \nThe diagram represents relative orbital positions for the planets and the asteroid belt in our solar system.\nMars\nMercury\nVenus\nEarth\nSun\nJupiter\nSaturn\nAsteroid\nbelt\nUranus\n(Not drawn to scale)\nNeptune",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The Sun is at the center of the solar system. \u2014 All solar system objects revolve around the Sun. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "State one possible distance from the Sun, in million kilometers, at which an asteroid in the asteroid belt can be found.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_57_61.png",
+      "context": "Base your answers to questions 57 through 61 on the diagram below and on your knowledge of Earth science. \nThe diagram represents relative orbital positions for the planets and the asteroid belt in our solar system.\nMars\nMercury\nVenus\nEarth\nSun\nJupiter\nSaturn\nAsteroid\nbelt\nUranus\n(Not drawn to scale)\nNeptune",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value greater than 227.9 million km but less than 778.4 million km."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Calculate how many times greater Mercury\u2019s average density is than Neptune\u2019s average density.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_57_61.png",
+      "context": "Base your answers to questions 57 through 61 on the diagram below and on your knowledge of Earth science. \nThe diagram represents relative orbital positions for the planets and the asteroid belt in our solar system.\nMars\nMercury\nVenus\nEarth\nSun\nJupiter\nSaturn\nAsteroid\nbelt\nUranus\n(Not drawn to scale)\nNeptune",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 3 times greater."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify one geologic feature found along the subducting plate boundary at location A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the map below and on your knowledge of Earth science. \nThe map shows some of Earth\u2019s tectonic plates and the boundaries between them. Letters A through D represent \nlocations on Earth\u2019s surface.\n120\u00b0\n140\u00b0\n160\u00b0\n180\u00b0\n160\u00b0\n140\u00b0\n120\u00b0\n100\u00b0\n120\u00b0\n140\u00b0\n160\u00b0\n180\u00b0\n160\u00b0\n140\u00b0\n120\u00b0\n100\u00b0\nD\nIndian-Australian\nPlate\nPacific Plate\nPhilippine\nPlate\nA\nB\nNorth American\nPlate\nC\nNazca\nPlate\nAntarctic Plate",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Mariana Trench \u2014 trench/ocean trench \u2014 island arc/islands \u2014 volcano \u2014 faults/fault lines \u2014 mountains Note: Do not allow credit for earthquakes or tsunamis because these are geologic events not features."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify the names of the subducting plate and overriding plate at location B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the map below and on your knowledge of Earth science. \nThe map shows some of Earth\u2019s tectonic plates and the boundaries between them. Letters A through D represent \nlocations on Earth\u2019s surface.\n120\u00b0\n140\u00b0\n160\u00b0\n180\u00b0\n160\u00b0\n140\u00b0\n120\u00b0\n100\u00b0\n120\u00b0\n140\u00b0\n160\u00b0\n180\u00b0\n160\u00b0\n140\u00b0\n120\u00b0\n100\u00b0\nD\nIndian-Australian\nPlate\nPacific Plate\nPhilippine\nPlate\nA\nB\nNorth American\nPlate\nC\nNazca\nPlate\nAntarctic Plate",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses are correct. Subducting plate: Pacific Plate or Pacific Overriding plate: North American Plate or North American"
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "State the name of the mid-ocean ridge found at location C.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the map below and on your knowledge of Earth science. \nThe map shows some of Earth\u2019s tectonic plates and the boundaries between them. Letters A through D represent \nlocations on Earth\u2019s surface.\n120\u00b0\n140\u00b0\n160\u00b0\n180\u00b0\n160\u00b0\n140\u00b0\n120\u00b0\n100\u00b0\n120\u00b0\n140\u00b0\n160\u00b0\n180\u00b0\n160\u00b0\n140\u00b0\n120\u00b0\n100\u00b0\nD\nIndian-Australian\nPlate\nPacific Plate\nPhilippine\nPlate\nA\nB\nNorth American\nPlate\nC\nNazca\nPlate\nAntarctic Plate",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for East Pacific Ridge or East Pacific Rise."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Identify the type of tectonic plate boundary represented at location D.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the map below and on your knowledge of Earth science. \nThe map shows some of Earth\u2019s tectonic plates and the boundaries between them. Letters A through D represent \nlocations on Earth\u2019s surface.\n120\u00b0\n140\u00b0\n160\u00b0\n180\u00b0\n160\u00b0\n140\u00b0\n120\u00b0\n100\u00b0\n120\u00b0\n140\u00b0\n160\u00b0\n180\u00b0\n160\u00b0\n140\u00b0\n120\u00b0\n100\u00b0\nD\nIndian-Australian\nPlate\nPacific Plate\nPhilippine\nPlate\nA\nB\nNorth American\nPlate\nC\nNazca\nPlate\nAntarctic Plate",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for transform plate boundary or transform fault or transform. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "On the graph in your answer booklet, construct a bar graph that shows the mass of each size of sand listed inside the column.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a laboratory setup that is used to analyze the different sizes of sand in a 100-gram sample \nof beach sand. The laboratory setup consists of a column containing a series of screens. The size of each screen \nopening and the size of sand stopped by each screen are labeled. The beach sand was poured into the top of the \ncolumn, which was then shaken from side to side to sort the sand. The total mass, in grams, of each size of sand \nstopped by the screen at that level is indicated above each screen.\nBeach\nSand\nVery coarse\nsand\nCoarse\nsand\nMedium\nsand\nFine\nsand\nVery fine\nsand\nSize of sand\nstopped by \nscreen\n16 grams\n14 grams\n25 grams\n38 grams\n7 grams\nScreen opening \ndiameter\n(Not drawn to scale)\nOpen top\n0.1 cm screen\n0.05 cm screen\n0.025 cm screen\n0.0125 cm screen\nBottom collecting\ntray",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the tops of all five bars are within or touch the clear rectangular spaces shown below. Note: It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "The various sand samples separated by the screens were tested to determine capillarity. On the graph in your answer booklet, draw a line to show the general relationship between the size of sand and capillarity.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a laboratory setup that is used to analyze the different sizes of sand in a 100-gram sample \nof beach sand. The laboratory setup consists of a column containing a series of screens. The size of each screen \nopening and the size of sand stopped by each screen are labeled. The beach sand was poured into the top of the \ncolumn, which was then shaken from side to side to sort the sand. The total mass, in grams, of each size of sand \nstopped by the screen at that level is indicated above each screen.\nBeach\nSand\nVery coarse\nsand\nCoarse\nsand\nMedium\nsand\nFine\nsand\nVery fine\nsand\nSize of sand\nstopped by \nscreen\n16 grams\n14 grams\n25 grams\n38 grams\n7 grams\nScreen opening \ndiameter\n(Not drawn to scale)\nOpen top\n0.1 cm screen\n0.05 cm screen\n0.025 cm screen\n0.0125 cm screen\nBottom collecting\ntray",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a line showing that, generally, as the size of sand increases, capillarity decreases. Examples of 1-credit responses: Very coarse sand Coarse sand Medium sand Fine sand Very fine sand 0 10 20 30 40 Mass of Sand (g) Beach Sand Bar Graph Size of Sand 0 10 20 30 40 Capillarity Size of Sand Very Fine Very Coarse Very Fine Very Coarse Capillarity Very Fine Very Coarse Capillarity Size of Sand Size of Sand Part C Allow a maximum of 20 credits for this part. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Identify the minimum stream velocity, in centimeters per second, needed to maintain movement of a sand particle with a diameter of 0.1 centimeter.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a laboratory setup that is used to analyze the different sizes of sand in a 100-gram sample \nof beach sand. The laboratory setup consists of a column containing a series of screens. The size of each screen \nopening and the size of sand stopped by each screen are labeled. The beach sand was poured into the top of the \ncolumn, which was then shaken from side to side to sort the sand. The total mass, in grams, of each size of sand \nstopped by the screen at that level is indicated above each screen.\nBeach\nSand\nVery coarse\nsand\nCoarse\nsand\nMedium\nsand\nFine\nsand\nVery fine\nsand\nSize of sand\nstopped by \nscreen\n16 grams\n14 grams\n25 grams\n38 grams\n7 grams\nScreen opening \ndiameter\n(Not drawn to scale)\nOpen top\n0.1 cm screen\n0.05 cm screen\n0.025 cm screen\n0.0125 cm screen\nBottom collecting\ntray",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 5 cm/s to 6 cm/s."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "On the cross section in your answer booklet, place an X on the Great Unconformity at the point where the greatest difference in age between the bedrock above and below the unconformity exists.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the passage below, the cross section in your answer booklet, \nand on your knowledge of Earth science. The cross section represents a portion of the Grand Canyon, indicating \nthe location of the Great Unconformity. Letter A identifi es an igneous rock unit. Line BC represents another \nunconformity.\nThe Great Unconformity\nOne of the world\u2019s most famous unconformities is located in North America. This \ndramatic gap in the geologic record (The Great Unconformity) stretches from Arizona in \nthe United States to Alberta in Canada. Perhaps the best place to see this unconformity \nis in Grand Canyon National Park, where, over the last 5 to 6 million years, the Colorado \nRiver has cut down through the overlying sedimentary rock layers to reveal the 2-billion-\nyear-old Vishnu schist. In the Grand Canyon, the Great Unconformity exists at the bottom \nof the Tapeats sandstone. At certain locations, where the Vishnu schist is in contact with \nthe Tapeats sandstone, it is possible to touch two rock units that are over 1.5 billion years \napart in age with the span of your hand.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the center of the X is within or touches the clear rectangular region shown below. Note: Allow credit if a symbol other than an X is used. If more than one X is drawn, the centers of all Xs must be within or touch the clear rectangular region to receive credit. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Identify two geologic processes necessary for the formation of any unconformity.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the passage below, the cross section in your answer booklet, \nand on your knowledge of Earth science. The cross section represents a portion of the Grand Canyon, indicating \nthe location of the Great Unconformity. Letter A identifi es an igneous rock unit. Line BC represents another \nunconformity.\nThe Great Unconformity\nOne of the world\u2019s most famous unconformities is located in North America. This \ndramatic gap in the geologic record (The Great Unconformity) stretches from Arizona in \nthe United States to Alberta in Canada. Perhaps the best place to see this unconformity \nis in Grand Canyon National Park, where, over the last 5 to 6 million years, the Colorado \nRiver has cut down through the overlying sedimentary rock layers to reveal the 2-billion-\nyear-old Vishnu schist. In the Grand Canyon, the Great Unconformity exists at the bottom \nof the Tapeats sandstone. At certain locations, where the Vishnu schist is in contact with \nthe Tapeats sandstone, it is possible to touch two rock units that are over 1.5 billion years \napart in age with the span of your hand.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for two correct responses. Acceptable responses include, but are not limited to: \u2014 uplift/emergence \u2014 weathering \u2014 erosion \u2014 submergence/sinking/subsidence \u2014 deposition/sedimentation \u2014 burial Igneous rock Key Contact metamorphism Great Unconformity Cambrian Precambrian Vishnu schist Chuar shales A B Vishnu schist conglomerate Hotauta Colorado River C Hakatai shale Shinumo sandstone Dox sandstone Nankoweap sandstone Muav limestone Bright Angel shale Tapeats sandstone Bass dolomite Bright Angel shale Tapeats sandstone P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Describe one piece of evidence shown in the cross section that supports the inference that rock unit A is younger than unconformity BC.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the passage below, the cross section in your answer booklet, \nand on your knowledge of Earth science. The cross section represents a portion of the Grand Canyon, indicating \nthe location of the Great Unconformity. Letter A identifi es an igneous rock unit. Line BC represents another \nunconformity.\nThe Great Unconformity\nOne of the world\u2019s most famous unconformities is located in North America. This \ndramatic gap in the geologic record (The Great Unconformity) stretches from Arizona in \nthe United States to Alberta in Canada. Perhaps the best place to see this unconformity \nis in Grand Canyon National Park, where, over the last 5 to 6 million years, the Colorado \nRiver has cut down through the overlying sedimentary rock layers to reveal the 2-billion-\nyear-old Vishnu schist. In the Grand Canyon, the Great Unconformity exists at the bottom \nof the Tapeats sandstone. At certain locations, where the Vishnu schist is in contact with \nthe Tapeats sandstone, it is possible to touch two rock units that are over 1.5 billion years \napart in age with the span of your hand.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Rock unit A cuts across unconformity BC. \u2014 Rock unit A intrudes into both the Bass dolomite and the Hotauta conglomerate, which are younger than unconformity BC. \u2014 Rock A is an igneous intrusion that is younger than the bedrock that it intrudes."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Identify one process that produced the Vishnu schist from a previously existing rock.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the passage below, the cross section in your answer booklet, \nand on your knowledge of Earth science. The cross section represents a portion of the Grand Canyon, indicating \nthe location of the Great Unconformity. Letter A identifi es an igneous rock unit. Line BC represents another \nunconformity.\nThe Great Unconformity\nOne of the world\u2019s most famous unconformities is located in North America. This \ndramatic gap in the geologic record (The Great Unconformity) stretches from Arizona in \nthe United States to Alberta in Canada. Perhaps the best place to see this unconformity \nis in Grand Canyon National Park, where, over the last 5 to 6 million years, the Colorado \nRiver has cut down through the overlying sedimentary rock layers to reveal the 2-billion-\nyear-old Vishnu schist. In the Grand Canyon, the Great Unconformity exists at the bottom \nof the Tapeats sandstone. At certain locations, where the Vishnu schist is in contact with \nthe Tapeats sandstone, it is possible to touch two rock units that are over 1.5 billion years \napart in age with the span of your hand.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 metamorphism/regional metamorphism \u2014 recrystallization \u2014 heating \u2014 pressure/compression Note: Do not allow credit for contact metamorphism because schist forms by regional metamorphism."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Identify the weather instrument that is used to measure air pressure.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_73_77.png",
+      "context": "Base your answers to questions 73 through 77 on the weather map below and on your knowledge of Earth \nscience. The weather map shows a low-pressure center (L) with associated fronts. A high-pressure center (H) is \nalso shown. The isobars represent air pressure in millibars (mb). Point X represents a surface location.\nGulf of Mexico\nAtlantic Ocean\nWeather Map\n1004\n1008\n1012\nH\n1020\n1012\n1016\n1012\n1008\n1004\n1000\n1020\n1016\nL\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for barometer or barograph."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Identify the type of front that extends eastward through New York State from the center of the low.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_73_77.png",
+      "context": "Base your answers to questions 73 through 77 on the weather map below and on your knowledge of Earth \nscience. The weather map shows a low-pressure center (L) with associated fronts. A high-pressure center (H) is \nalso shown. The isobars represent air pressure in millibars (mb). Point X represents a surface location.\nGulf of Mexico\nAtlantic Ocean\nWeather Map\n1004\n1008\n1012\nH\n1020\n1012\n1016\n1012\n1008\n1004\n1000\n1020\n1016\nL\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stationary front."
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "The air mass over location X originated in the Gulf of Mexico. Write the two-letter air mass symbol that represents this air mass.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_73_77.png",
+      "context": "Base your answers to questions 73 through 77 on the weather map below and on your knowledge of Earth \nscience. The weather map shows a low-pressure center (L) with associated fronts. A high-pressure center (H) is \nalso shown. The isobars represent air pressure in millibars (mb). Point X represents a surface location.\nGulf of Mexico\nAtlantic Ocean\nWeather Map\n1004\n1008\n1012\nH\n1020\n1012\n1016\n1012\n1008\n1004\n1000\n1020\n1016\nL\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for mT. Allow credit for either uppercase or lowercase letters. Note: Do not allow credit if air mass letters are reversed, such as Tm. For students who used the Spanish edition, either exclusively or in conjunction with the English edition of the exam, allow credit for the correct two-letter air mass symbol as it appears in either the English or Spanish editions of the reference tables."
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "This low-pressure center is following a normal storm track. Identify the compass direction toward which this low-pressure center will move in the next 24 hours.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_73_77.png",
+      "context": "Base your answers to questions 73 through 77 on the weather map below and on your knowledge of Earth \nscience. The weather map shows a low-pressure center (L) with associated fronts. A high-pressure center (H) is \nalso shown. The isobars represent air pressure in millibars (mb). Point X represents a surface location.\nGulf of Mexico\nAtlantic Ocean\nWeather Map\n1004\n1008\n1012\nH\n1020\n1012\n1016\n1012\n1008\n1004\n1000\n1020\n1016\nL\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 NE \u2014 east \u2014 NNE \u2014 east northeast \u2014 from west to east P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Describe the pattern of surface wind circulation around the high-pressure system.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_73_77.png",
+      "context": "Base your answers to questions 73 through 77 on the weather map below and on your knowledge of Earth \nscience. The weather map shows a low-pressure center (L) with associated fronts. A high-pressure center (H) is \nalso shown. The isobars represent air pressure in millibars (mb). Point X represents a surface location.\nGulf of Mexico\nAtlantic Ocean\nWeather Map\n1004\n1008\n1012\nH\n1020\n1012\n1016\n1012\n1008\n1004\n1000\n1020\n1016\nL\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 clockwise and away from the center \u2014 outward/diverging \u2014 clockwise"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "On the eastern section of the Average Yearly Rainfall Map for Maui in your answer booklet, draw the 100-centimeter rainfall isoline. Extend the isoline to the edge of the island.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 81 on the map in your answer booklet and on your knowledge \nof Earth science. The map shows the average yearly rainfall received, in centimeters, at various locations on the \nHawaiian island of Maui. Rainfall isolines have been drawn on the northwestern part of the island. Points A, B, \nand C represent surface locations.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a correctly drawn 100-cm isoline. The isoline must extend to the edges of the island. If additional isolines are drawn, or if isolines extend into the ocean, all isolines must be correct to receive credit. Note: The 100-centimeter isoline must pass through all three 100-cm points. Example of a 1-credit response:"
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "State a possible average yearly rainfall amount, in centimeters, for location A.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 81 on the map in your answer booklet and on your knowledge \nof Earth science. The map shows the average yearly rainfall received, in centimeters, at various locations on the \nHawaiian island of Maui. Rainfall isolines have been drawn on the northwestern part of the island. Points A, B, \nand C represent surface locations.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value greater than 100 cm but less than 200 cm."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Calculate the average yearly rainfall gradient between locations B and C, in centimeters per kilometer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 through 81 on the map in your answer booklet and on your knowledge \nof Earth science. The map shows the average yearly rainfall received, in centimeters, at various locations on the \nHawaiian island of Maui. Rainfall isolines have been drawn on the northwestern part of the island. Points A, B, \nand C represent surface locations.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 1.4 cm/km to 1.6 cm/km. Note: Allow credit if the student indicates a correct fraction such as 1 1__ 2. Do not allow credit for 90 ___ 60 or 3__ 2 because these are not complete calculations. 72 73 46 102 103 75 17 34 55 C 150 37 39 29 39 64 83 60 135 154 64 100 290 353 250 175 150 146 75 25 76 51 18 10 16 19 12 B 10 17 25 25 10 35 35 8 35 45 200 75 100 75 Pacific Ocean 36 62 0 15 30 45 60 75 90 km 156 40 A 100 100 300 Isoline Interval 100 cm N Average Yearly Rainfall Map for Maui"
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "The topographic map below shows contour lines on the island of Maui. Points X and Y represent two locations on the island. Mt. Haleakala is a volcano on this island. The arrow represents the direction of the prevailing winds. Pacific Ocean Prevailing Winds 2000 4000 X 2000 4000 6000 8000 Y N Contour interval 2000 feet Topographic Map of Maui Mt. Haleakala State one reason why location X receives more yearly rainfall than location Y.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/q81.png",
+      "context": "Base your answers to questions 78 through 81 on the map in your answer booklet and on your knowledge \nof Earth science. The map shows the average yearly rainfall received, in centimeters, at various locations on the \nHawaiian island of Maui. Rainfall isolines have been drawn on the northwestern part of the island. Points A, B, \nand C represent surface locations.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Location X is on the windward side of the mountain. \u2014 Location Y is in the rainfall shadow/leeward side of Mt. Haleakala. \u2014 The prevailing winds bring moisture from the ocean to Location X. Note: Do not allow credit for \u201cX is closer to the ocean\u201d because Y is approximately the same distance to the ocean."
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Calculate the number of days (d) that it takes Earth to travel in its orbit from position A to position D.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth in its orbit. Letters A through D represent Earth\u2019s location on the fi rst day of each \nof the four seasons.\n(Not drawn to scale)\nSun\nN\nS\nD\nC\nN\nS\nA\nN\nS\nN\nS\nB",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 270 d to 278 d."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Identify the latitude where the Sun is directly overhead when Earth is at position B. Include units and compass direction in your answer.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth in its orbit. Letters A through D represent Earth\u2019s location on the fi rst day of each \nof the four seasons.\n(Not drawn to scale)\nSun\nN\nS\nD\nC\nN\nS\nA\nN\nS\nN\nS\nB",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 23.4\u00b0 N to 23.5\u00b0 N. The acceptable units and compass direction must be indicated. Note: Allow credit if the student indicates a fraction such as 23 1__ 2\u00b0 N or uses minutes such as 23\u00b0309 N."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify the primary force that causes Earth\u2019s orbital velocity to change from position B to position D.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth in its orbit. Letters A through D represent Earth\u2019s location on the fi rst day of each \nof the four seasons.\n(Not drawn to scale)\nSun\nN\nS\nD\nC\nN\nS\nA\nN\nS\nN\nS\nB",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 gravity \u2014 gravitational attraction \u2014 gravitational force \u2014 the Sun\u2019s gravitational pull"
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Over 42,000 years, Earth\u2019s axis tilt has varied between 22.1\u00b0 and 24.5\u00b0. Describe the effect on New York State\u2019s relative summer and winter temperatures when the tilt of Earth\u2019s axis increased from 22.1\u00b0 to 24.5\u00b0. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2023/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth in its orbit. Letters A through D represent Earth\u2019s location on the fi rst day of each \nof the four seasons.\n(Not drawn to scale)\nSun\nN\nS\nD\nC\nN\nS\nA\nN\nS\nN\nS\nB",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both descriptions are acceptable. Acceptable responses include, but are not limited to: Relative summer temperatures: \u2014 warmer/hotter \u2014 higher in temperature Relative winter temperatures: \u2014 cooler/colder \u2014 lower in temperature P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    }
+  ]
+}

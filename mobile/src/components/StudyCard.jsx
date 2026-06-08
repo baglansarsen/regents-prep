@@ -1,10 +1,11 @@
 import { useState, useRef, useEffect } from 'react'
 import { View, Text, TouchableOpacity, Animated, StyleSheet } from 'react-native'
-import { C } from '../theme'
+import { useTheme } from '../context/ThemeContext'
 
 const LABELS = ['A', 'B', 'C', 'D']
 
 export default function StudyCard({ question, onGotIt, onStudyMore }) {
+  const { C } = useTheme()
   const [revealed, setRevealed] = useState(false)
 
   const slideAnim = useRef(new Animated.Value(40)).current
@@ -22,6 +23,8 @@ export default function StudyCard({ question, onGotIt, onStudyMore }) {
     setRevealed(true)
     Animated.timing(revealAnim, { toValue: 1, duration: 300, useNativeDriver: true }).start()
   }
+
+  const s = makeStyles(C)
 
   return (
     <Animated.View style={[s.card, { opacity: fadeAnim, transform: [{ translateY: slideAnim }] }]}>
@@ -75,7 +78,7 @@ export default function StudyCard({ question, onGotIt, onStudyMore }) {
   )
 }
 
-const s = StyleSheet.create({
+function makeStyles(C) { return StyleSheet.create({
   card: {
     backgroundColor: C.surface,
     borderRadius: 14,
@@ -174,4 +177,4 @@ const s = StyleSheet.create({
     borderColor: C.correct,
   },
   gotItText: { color: C.correct, fontSize: 14, fontWeight: '700' },
-})
+}) }

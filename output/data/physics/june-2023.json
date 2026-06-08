@@ -1,0 +1,1076 @@
+{
+  "subject": "physics",
+  "session": "june-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which pair of quantities are both scalar quantities?",
+      "choices": [
+        "speed and mass",
+        "speed and momentum",
+        "momentum and displacement",
+        "mass and displacement"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "In an attempt to get ketchup out of a bottle, a student takes off the cap, turns the bottle upside down, accelerates it downward, and then suddenly stops it. Ketchup is released from the open bottle because the ketchup doesn\u2019t stop moving when the bottle does. The ketchup leaving the bottle illustrates",
+      "choices": [
+        "inertia",
+        "resistivity",
+        "resonance",
+        "mass being converted to energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The same net force is applied to object A and object B. The mass of B is three times greater than the mass of A. Compared to the acceleration of A, the acceleration of B is",
+      "choices": [
+        "the same",
+        "one-third as great",
+        "three times as great",
+        "one-ninth as great"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "What is the mass equivalent of 3.37 \u00d7 10\u221219 joule?",
+      "choices": [
+        "1.26 \u00d7 10\u201354 kg",
+        "3.74 \u00d7 10\u201336 kg",
+        "1.12 \u00d7 10\u201327 kg",
+        "5.08 \u00d7 1014 kg"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which object is in equilibrium?",
+      "choices": [
+        "Earth orbiting the Sun",
+        "a thrown baseball at its highest point above the ground",
+        "a car moving at a constant speed in a straight line",
+        "a bicycle skidding to a stop in a straight line"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A race car travels around a flat circular track at constant speed. The net force on the car acts",
+      "choices": [
+        "perpendicular to the car\u2019s velocity and toward the center of the circle",
+        "perpendicular to the car\u2019s velocity and away from the center of the circle",
+        "parallel to the car\u2019s velocity and in the same direction as the velocity",
+        "parallel to the car\u2019s velocity and in the opposite direction as the velocity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "An object is traveling in a horizontal, circular path at a constant speed. If the radius of the path were doubled while the speed remained constant, the centripetal acceleration would be",
+      "choices": [
+        "quartered",
+        "doubled",
+        "halved",
+        "quadrupled"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "A 600.-newton student pushes on a vertical wall for 20.0 seconds with a constant force having a magnitude of 100. newtons. What is the magnitude of the force that the wall exerts on the student?",
+      "choices": [
+        "0.00 N",
+        "5.00 N",
+        "100. N",
+        "600. N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "An unbalanced force of 20. newtons is applied to a mass of 1.0 \u00d7 103 kilograms. After 10. seconds, the momentum of the mass will have changed by",
+      "choices": [
+        "2.0 \u00d7 102 kg\u2022m/s",
+        "2.0 \u00d7 103 kg\u2022m/s",
+        "1.0 \u00d7 104 kg\u2022m/s",
+        "2.0 \u00d7 104 kg\u2022m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "written",
+      "text": "To lift a heavy block off the floor, a student pulls with force F on a rope that passes over a pulley, as shown in the diagram below. F Which pair of vectors represents the perpendicular components of the force the student exerts on the rope? ( 4 ) ( 2 ) ( 1 ) ( 3 )",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "written",
+      "text": "Which graph best represents the relationship between the mass of an object and its distance from Earth\u2019s surface? ( 2 ) Mass Distance ( 4 ) Mass Distance ( 1 ) Mass Distance ( 3 ) Mass Distance",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "written",
+      "text": "A compass is placed near a strong bar magnet as represented in the diagram below. N S Bar magnet Compass Which diagram best represents the direction of the compass needle? ( 1 ) S N ( 3 ) ( 4 ) S N N S ( 2 ) S N",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "As Earth orbits the Sun in its elliptical orbit, the gravitational force between the Sun and Earth is",
+      "choices": [
+        "always attractive",
+        "attractive as the Sun and Earth get closer together and repulsive as the Sun and Earth get farther apart",
+        "repulsive as the Sun and Earth get closer together and attractive as the Sun and Earth get farther apart",
+        "always repulsive"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which unit is used to measure the work per unit charge required to move a charge in an electric field?",
+      "choices": [
+        "ampere",
+        "coulomb",
+        "volt",
+        "watt"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The diagram below shows a negatively charged sphere and a point, P, located within the electric field produced by the charge on the sphere. Sphere \u2013 D P B C A The direction of the electric field at point P is toward point",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/physics/june-2023/q15.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Two point charges, q1 and q2, are initially a distance, d, apart. Which change will cause the greatest increase in the electrostatic force between the two point charges, q1 and q2?",
+      "choices": [
+        "double q1",
+        "halve q2",
+        "double d",
+        "halve d"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The diagram below represents two identical conducting spheres. A + + + + + \u2013 \u2013 \u2013 \u2013 \u2013 B + + + + + \u2013 \u2013 \u2013 \u2013 \u2013 Which statement could be the correct explanation for the charge distribution on the spheres?",
+      "choices": [
+        "A small positively charged object is located between sphere A and sphere B.",
+        "A small negatively charged object is located between sphere A and sphere B.",
+        "A small positively charged object is located to the right of sphere B.",
+        "A small negatively charged object is located to the right of sphere B."
+      ],
+      "image": "/images/exams/physics/june-2023/q17.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a circuit containing a battery, two operating lamps, A and B, and four closed switches, S1, S2, S3, and S4. Lamp A Lamp B S1 S2 S3 S4 Which switch, when opened, causes both lamps to turn off?",
+      "choices": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "image": "/images/exams/physics/june-2023/q18.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "What is the resistance of a 100.-watt bulb when operating a potential difference of 120. volts?",
+      "choices": [
+        "1.20 W",
+        "100. W",
+        "120. W",
+        "144 W"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The interaction that is most responsible for binding three quarks together in a proton is the",
+      "choices": [
+        "strong force",
+        "electromagnetic force",
+        "weak force",
+        "gravitational force"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "One example of a force doing work is the force exerted by",
+      "choices": [
+        "Earth on a high diver falling toward a pool from a platform above",
+        "a hook on an engine held stationary above a car",
+        "a frictionless horizontal air hockey table on a puck moving across the table at a constant velocity",
+        "a weightlifter on a barbell he holds motionless over his head"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A ball falls freely from a rooftop to the street below. The ball starts from rest with 20. joules of gravitational potential energy with respect to the street. The total mechanical energy of the ball just before it hits the street is",
+      "choices": [
+        "0 J",
+        "5.0 J",
+        "10. J",
+        "20. J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which statement describes the gravitational potential energy (PE), kinetic energy (KE), and internal (thermal) energy (Q), of a wooden crate as it is pushed across a level classroom floor at constant speed?",
+      "choices": [
+        "The PE decreases, KE remains the same, and Q decreases.",
+        "The PE increases, KE increases, and Q decreases.",
+        "The PE remains the same, KE decreases, and Q increases.",
+        "The PE remains the same, KE remains the same, and Q increases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The oscillation of electrons up and down a metal antenna produces waves. These waves are",
+      "choices": [
+        "mechanical and longitudinal",
+        "mechanical and transverse",
+        "electromagnetic and transverse",
+        "electromagnetic and longitudinal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The diagram below shows an incident light ray reflecting from a plane mirror. Incident ray Reflected ray 84\u00b0 Plane mirror What is the angle of reflection?",
+      "choices": [
+        "96\u00b0",
+        "84\u00b0",
+        "48\u00b0",
+        "42\u00b0"
+      ],
+      "image": "/images/exams/physics/june-2023/q25.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "A characteristic common to both sound waves and x rays is that they both",
+      "choices": [
+        "travel fastest in a vacuum",
+        "cause particles to vibrate in a direction parallel to the wave\u2019s direction of motion",
+        "transmit energy without transmitting matter",
+        "are mechanical"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a wave moving to the right through a rope. P Point P in the rope is moving toward the",
+      "choices": [
+        "top of the page",
+        "bottom of the page",
+        "right",
+        "left"
+      ],
+      "image": "/images/exams/physics/june-2023/q27.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "What is the wavelength of a 300.-hertz sound wave in air at STP?",
+      "choices": [
+        "0.906 m",
+        "1.10 m",
+        "3.00 \u00d7 102 m",
+        "1.00 \u00d7 106 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "In the diagram below, a remote control is aimed at a television. When the signal from the remote reaches the sensor on the television, the signal will most likely be",
+      "choices": [
+        "neither reflected nor absorbed",
+        "partially absorbed and partially reflected",
+        "completely reflected",
+        "completely absorbed"
+      ],
+      "image": "/images/exams/physics/june-2023/q29.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Compared to waves of blue light traveling in a vacuum, waves of red light traveling in a vacuum have",
+      "choices": [
+        "a lower frequency and a lower speed",
+        "a lower frequency and the same speed",
+        "the same frequency and a lower speed",
+        "the same frequency and the same speed"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Earthquakes often cause buildings between twelve and forty stories high to vibrate at an amplitude high enough to be destructive. Buildings are often designed to absorb this vibrational energy that might cause them to vibrate at their natural frequency. This tendency for an earthquake to cause a building to vibrate at a large amplitude is an example of",
+      "choices": [
+        "resonance",
+        "the Doppler effect",
+        "refraction",
+        "diffraction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "During the radioactive decay of a uranium-238 atom, a thorium-234 atom and an alpha particle are produced. During this process, there is conservation of",
+      "choices": [
+        "charge, only",
+        "mass-energy, only",
+        "both charge and mass-energy",
+        "neither charge nor mass-energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "An antiproton has a charge of",
+      "choices": [
+        "+1e",
+        "+ 2 3 e",
+        "0",
+        "\u20131e"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Two pulses approach each other in the same medium. Which pair of pulses will result in the largest magnitude displacement of the medium as the pulses pass through each other? ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Two waves of the same wavelength interfere to form a standing wave pattern as represented in the diagram below. A B C D Wall Wall Which point on the diagram represents a node?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/physics/june-2023/q35.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "A round dinner plate has a diameter closest to",
+      "choices": [
+        "2 \u00d7 10\u20132 m",
+        "2 \u00d7 10\u20131 m",
+        "2 \u00d7 100 m",
+        "2 \u00d7 101 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Several springs are lying on frictionless tabletops with one end attached to a wall and a variable force F applied to the free end of each spring. The springs have different spring constants, k. The diagram below shows the setup for one of the springs. F Wall Frictionless Tabletop The elongation of the springs produced by force F depends",
+      "choices": [
+        "directly on both F and k",
+        "directly on F and inversely on k",
+        "inversely on F and directly on k",
+        "inversely on both F and k"
+      ],
+      "image": "/images/exams/physics/june-2023/q37.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The table below shows the weight of four athletes (A, B, C, and D) and the time required for each athlete to run from the base of a hill to its top. Athlete Weight (N) Time (s) A 600. 11.8 B 650. 10.7 C 700. 10.8 D 750. 11.9 Which athlete ran up the hill with the greatest average power?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/physics/june-2023/q38.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "A copper wire carries 2.8 amperes of current. The total amount of charge that passes a point in the wire in 1.3 milliseconds is",
+      "choices": [
+        "4.6 \u00d7 10\u20134 C",
+        "3.6 \u00d7 10\u20133 C",
+        "3.6 C",
+        "2.2 \u00d7 103 C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The diagram below represents four solid copper wire segments at 20\u00b0C with different lengths (L) and cross -sectional areas (A). A 2 cm = L 2 cm2 = A B 1 cm = L 2 cm2 = A C 2 cm = L 1 cm2 = A D 1 cm = L 1 cm2 = A Which two segments have the same resistance?",
+      "choices": [
+        "A and B",
+        "B and D",
+        "B and C",
+        "A and D"
+      ],
+      "image": "/images/exams/physics/june-2023/q40.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "In substance X, a ray of light with a frequency of 5.09 \u00d7 1014 hertz has a speed of 2.04 \u00d7 108 meters per second. Substance X could be",
+      "choices": [
+        "diamond",
+        "water",
+        "zircon",
+        "glycerol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which could not be the charge on a particle?",
+      "choices": [
+        "3.2 \u00d7 10\u201319 C",
+        "4.5 \u00d7 10\u201319 C",
+        "4.8 \u00d7 10\u201319 C",
+        "6.4 \u00d7 10\u201319 C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "written",
+      "text": "Which graph best represents the relationship between photon energy (Ephoton) and wavelength? E photon ( 4 ) Wavelength E photon E photon ( 2 ) Wavelength E photon ( 1 ) Wavelength ( 3 ) Wavelength",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Light travels from air into another medium with an index of refraction of n. The light has a wavelength of 6.0 \u00d7 10\u20137 meter in the new medium. Which expression represents the wavelength of this light in air?",
+      "choices": [
+        "n(6.0 \u00d7 10\u20137m)",
+        "6.0 \u00d7 10\u20137m n",
+        "n 6.0 \u00d7 10\u20137m",
+        "(6.0 \u00d7 10\u20137m) - n"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "If 80. joules of electrical energy is dissipated by a 10.-ohm resistor in 2.0 seconds, the current in the resistor is",
+      "choices": [
+        "5.0 A",
+        "2.0 A",
+        "8.0 A",
+        "4.0 A"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which wave has a period that is twice that of wave W?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/physics/june-2023/context_46_47.png",
+      "context": "Base your answers to questions 46 and 47 on the diagrams below, and on your knowledge of physics. The \ndiagrams represent waves W, A, B, C, and D traveling through the same uniform medium.\nWave\nW\nWave\nA\nWave\nB\nWave\nC\nWave\nD",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which wave is always 180 degrees out of phase with wave W?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/physics/june-2023/context_46_47.png",
+      "context": "Base your answers to questions 46 and 47 on the diagrams below, and on your knowledge of physics. The \ndiagrams represent waves W, A, B, C, and D traveling through the same uniform medium.\nWave\nW\nWave\nA\nWave\nB\nWave\nC\nWave\nD",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Which graph best represents the relationship between acceleration and time for a freely falling object as the object falls near the surface of Earth? Acceleration ( 4 ) Time Acceleration Acceleration ( 2 ) Time Acceleration ( 1 ) Time ( 3 ) Time",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/q48.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the forces acting on a skydiver with his parachute. Force of air friction Gravitational force The total mass of the skydiver with his parachute is 85.0 kilograms. If the magnitude of the gravitational force is 834 newtons, and the magnitude of the force of air friction is 652 newtons, the acceleration of the skydiver at the time shown is",
+      "choices": [
+        "2.14 m/s2 up",
+        "2.14 m/s2 down",
+        "7.67 m/s2 up",
+        "9.81 m/s2 down"
+      ],
+      "image": "/images/exams/physics/june-2023/q49.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "A 15.0-gram air hockey puck sliding on a horizontal surface at a velocity of 7.00 meters per second north collides with a 15.0-gram air hockey puck traveling at a velocity of 8.00 meters per second south. The momentum of the system of pucks after the collision is",
+      "choices": [
+        "0.0150 kg\u2022m/s north",
+        "0.0150 kg\u2022m/s south",
+        "0.225 kg\u2022m/s north",
+        "0.225 kg\u2022m/s south"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Determine the potential difference across the battery.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information and circuit diagram below and on your \nknowledge of physics.\nAn electric circuit contains a battery, a 3.0-ohm resistor, a 6.0-ohm resistor, and three \nmeters. Ammeter A1 reads 6.0 amperes, ammeter A2 reads 4.0 amperes, and the voltmeter \nreads 12.0 volts.\n6.0 \u2126\nV 12.0 V\n3.0 \u2126\n4.0 A\nA2\n6.0 A\nA1",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 12.0 V or 12 V."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Determine the current through the 6.0-ohm resistor.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information and circuit diagram below and on your \nknowledge of physics.\nAn electric circuit contains a battery, a 3.0-ohm resistor, a 6.0-ohm resistor, and three \nmeters. Ammeter A1 reads 6.0 amperes, ammeter A2 reads 4.0 amperes, and the voltmeter \nreads 12.0 volts.\n6.0 \u2126\nV 12.0 V\n3.0 \u2126\n4.0 A\nA2\n6.0 A\nA1",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 2.0 A or for an answer that is consistent with the student\u2019s response to question 51."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information and circuit diagram below and on your \nknowledge of physics.\nAn electric circuit contains a battery, a 3.0-ohm resistor, a 6.0-ohm resistor, and three \nmeters. Ammeter A1 reads 6.0 amperes, ammeter A2 reads 4.0 amperes, and the voltmeter \nreads 12.0 volts.\n6.0 \u2126\nV 12.0 V\n3.0 \u2126\n4.0 A\nA2\n6.0 A\nA1",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units or for an answer, with units, that is consistent with the student\u2019s response to question 51 and/or 52. Refer to Scoring Criteria for Calculations in this rating guide. Examples of 1-credit responses: or or 1 = 1 + 1 R = V I = = R1 R2 1 Req Req Req = 1 + 1 R = 12 V 6.0 A Req R1R2 R1 + R2 6.0 \u2126 3.0 \u2126 (3.0 \u2126) (6.0 \u2126) 3.0 \u2126 + 6.0 \u2126"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "53\u201354 Calculate the equivalent resistance of the circuit. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the information and circuit diagram below and on your \nknowledge of physics.\nAn electric circuit contains a battery, a 3.0-ohm resistor, a 6.0-ohm resistor, and three \nmeters. Ammeter A1 reads 6.0 amperes, ammeter A2 reads 4.0 amperes, and the voltmeter \nreads 12.0 volts.\n6.0 \u2126\nV 12.0 V\n3.0 \u2126\n4.0 A\nA2\n6.0 A\nA1",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 53. Example of a 1-credit response: Req = 2.0 W Note: Do not penalize the student more than 1 credit for errors in units in questions 53 and 54."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "The diagram below shows parallel straight wave fronts approaching a rigid barrier that has a small opening in its center. Wave fronts Barrier On the diagram in your answer booklet, draw three wave fronts after they have passed through the opening.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/q55.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the student draws circular wave fronts with a center located at the opening. There must be at least three wave fronts to receive credit. Example of a 1-credit response: Wave fronts Barrier Note: Do not penalize the student for an incorrect wavelength. Wave fronts may or may not touch the barrier. P.S./Physics\u2013June \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 59 on the information below and on your knowledge of physics.\nA projectile is launched from level ground with an initial vertical speed of 26 meters per \nsecond upward and an initial horizontal speed of 15 meters per second. [Neglect friction.]\n56\u201357\t Calculate the total time the projectile is in the air before the projectile returns to the level ground. [Show \nall work, including the equation and substitution with units.]   [2]\n\t\n58\t Determine the total horizontal distance the projectile travels before the projectile returns to the \nground.   [1]\n\t\n59\t Determine the angle above the horizontal at which the projectile is launched.   [1]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units. Refer to Scoring Criteria for Calculations in the rating guide. Examples of 1-credit responses: or a = t = 26m/s (+26 m/s) 9.81m/s2 vf = vi+ at t = vf vi a t = 0 26m/s 9.81m/s2 ttotal = 2t t = a t v \u2206 v \u2206 or g = t = g t = 52 m/s 9.81m/s2 t v \u2206 v \u2206 or d = vi t+ 1 2 at2 + 1 2 0 = 26m/s (t) (\u22129.8 m/s2)(t)2"
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "56\u201357 Calculate the total time the projectile is in the air before the projectile returns to the level ground. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 59 on the information below and on your knowledge of physics.\nA projectile is launched from level ground with an initial vertical speed of 26 meters per \nsecond upward and an initial horizontal speed of 15 meters per second. [Neglect friction.]\n56\u201357\t Calculate the total time the projectile is in the air before the projectile returns to the level ground. [Show \nall work, including the equation and substitution with units.]   [2]\n\t\n58\t Determine the total horizontal distance the projectile travels before the projectile returns to the \nground.   [1]\n\t\n59\t Determine the angle above the horizontal at which the projectile is launched.   [1]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 56. Example of a 1-credit response: t = 5.3 s \u00b1 0.1 s Note: Do not penalize the student more than 1 credit for errors in units in questions 56 and 57."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Determine the total horizontal distance the projectile travels before the projectile returns to the ground.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 59 on the information below and on your knowledge of physics.\nA projectile is launched from level ground with an initial vertical speed of 26 meters per \nsecond upward and an initial horizontal speed of 15 meters per second. [Neglect friction.]\n56\u201357\t Calculate the total time the projectile is in the air before the projectile returns to the level ground. [Show \nall work, including the equation and substitution with units.]   [2]\n\t\n58\t Determine the total horizontal distance the projectile travels before the projectile returns to the \nground.   [1]\n\t\n59\t Determine the angle above the horizontal at which the projectile is launched.   [1]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 80. m or for an answer that is consistent with the student\u2019s response to question 57."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Determine the angle above the horizontal at which the projectile is launched.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/q59.png",
+      "context": "Base your answers to questions 56 through 59 on the information below and on your knowledge of physics.\nA projectile is launched from level ground with an initial vertical speed of 26 meters per \nsecond upward and an initial horizontal speed of 15 meters per second. [Neglect friction.]\n56\u201357\t Calculate the total time the projectile is in the air before the projectile returns to the level ground. [Show \nall work, including the equation and substitution with units.]   [2]\n\t\n58\t Determine the total horizontal distance the projectile travels before the projectile returns to the \nground.   [1]\n\t\n59\t Determine the angle above the horizontal at which the projectile is launched.   [1]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 60.\u00b0 \u00b1 2\u00b0. P.S./Physics\u2013June \u2019"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Using a ruler, determine the scale used in the diagram.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_60_62.png",
+      "context": "Base your answers to question 60 through 62 on the information below and on your knowledge of physics.\nA 20.-newton force due east and a 25-newton force due south act concurrently at \npoint P. The diagram shows a vector drawn to scale representing the 20.-newton force due \neast.\nP\nS\nN\nW\nE\n20. N",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 5.0 N \u00b1 0.3 N."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, use a metric ruler and the scale shown in the diagram to draw a vector to represent the 25 newton force due south acting at point P. Begin the vector at point P and label its magnitude in newtons.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_60_62.png",
+      "context": "Base your answers to question 60 through 62 on the information below and on your knowledge of physics.\nA 20.-newton force due east and a 25-newton force due south act concurrently at \npoint P. The diagram shows a vector drawn to scale representing the 20.-newton force due \neast.\nP\nS\nN\nW\nE\n20. N",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a vector of length 5.0 cm \u00b1 0.2 cm directed south, or for an answer that is consistent with the student\u2019s response to question 60. Example of a 1-credit response: P 20. N 25 N Note: Do not allow this credit if the arrowhead is missing. Do not deduct credit if the 25 N vector is not labeled. Do not deduct credit if the 25 N does not start at point P."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Determine the magnitude of the resultant force acting at point P.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_60_62.png",
+      "context": "Base your answers to question 60 through 62 on the information below and on your knowledge of physics.\nA 20.-newton force due east and a 25-newton force due south act concurrently at \npoint P. The diagram shows a vector drawn to scale representing the 20.-newton force due \neast.\nP\nS\nN\nW\nE\n20. N",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 32 N \u00b1 3 N or for an answer that is consistent with the student\u2019s responses to questions 60 and 61."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Determine the amount of energy, in electronvolts, that must be absorbed by a hydrogen atom to excite the atom from the n = 1 energy level directly to the n = 4 energy level.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 12.75 eV."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Determine the sign and magnitude of the net charge, in coulombs, of a particle that has a quark composition of bbb.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for -1.60 \u00d7 10-19 C. Note: Do not allow credit for 1.60 \u00d7 10-19 C or +1.60 \u00d7 10-19 C."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "What type of electromagnetic radiation would contain photons each having an energy of 2.65 \u00d7 10\u201320 joule?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for infrared or IR. P.S./Physics\u2013June \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of physics.\nA car, initially traveling at a velocity of 25 meters per second west, accelerates uniformly \nat a rate of 1.5 meters per second squared east for 6.0 seconds.\n66\u201367\t Calculate the magnitude of the car\u2019s velocity after the 6.0 seconds. [Show all work, including the \n\t\nequation and substitution with units.]   [2]\n\t\n68\t Determine the direction of the car\u2019s velocity after the 6.0 seconds.   [1]\n69\u201370\t Calculate the total distance traveled by the car during the 6.0 seconds. [Show all work, including the \nequation and substitution with units.]   [2]\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2006 Edition Reference Tables for Physical Setting/Physics.\n\nP.S./Physics\u2013June \u201923\t\n[15]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units or for an answer, with units, that is consistent with the student\u2019s response to questions 67 and 70. Refer to Scoring Criteria for Calculations in this rating guide. Examples of 1-credit responses: or vf = vi+ at vf = 25 m/s + vf = vi+ at vf = 25 m/s + = + v ad v 2 f f 2 2 = v (25 m/s)2 + 2(\u22121.5 m/s2)(120 m) or i (\u22121.5 m/s2) (6.0 s) (+1.5 m/s2) (6.0 s)"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "66\u201367 Calculate the magnitude of the car\u2019s velocity after the 6.0 seconds. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of physics.\nA car, initially traveling at a velocity of 25 meters per second west, accelerates uniformly \nat a rate of 1.5 meters per second squared east for 6.0 seconds.\n66\u201367\t Calculate the magnitude of the car\u2019s velocity after the 6.0 seconds. [Show all work, including the \n\t\nequation and substitution with units.]   [2]\n\t\n68\t Determine the direction of the car\u2019s velocity after the 6.0 seconds.   [1]\n69\u201370\t Calculate the total distance traveled by the car during the 6.0 seconds. [Show all work, including the \nequation and substitution with units.]   [2]\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2006 Edition Reference Tables for Physical Setting/Physics.\n\nP.S./Physics\u2013June \u201923\t\n[15]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 66. Example of a 1-credit response: vf = 16 m/s Note: Do not penalize the student for an answer of -16 m/s. Do not penalize the student more than 1 credit for errors in units in questions 66 and 67."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Determine the direction of the car\u2019s velocity after the 6.0 seconds.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of physics.\nA car, initially traveling at a velocity of 25 meters per second west, accelerates uniformly \nat a rate of 1.5 meters per second squared east for 6.0 seconds.\n66\u201367\t Calculate the magnitude of the car\u2019s velocity after the 6.0 seconds. [Show all work, including the \n\t\nequation and substitution with units.]   [2]\n\t\n68\t Determine the direction of the car\u2019s velocity after the 6.0 seconds.   [1]\n69\u201370\t Calculate the total distance traveled by the car during the 6.0 seconds. [Show all work, including the \nequation and substitution with units.]   [2]\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2006 Edition Reference Tables for Physical Setting/Physics.\n\nP.S./Physics\u2013June \u201923\t\n[15]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for west or for an answer that is consistent with the student\u2019s response to question 67. P.S./Physics\u2013June \u2019"
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of physics.\nA car, initially traveling at a velocity of 25 meters per second west, accelerates uniformly \nat a rate of 1.5 meters per second squared east for 6.0 seconds.\n66\u201367\t Calculate the magnitude of the car\u2019s velocity after the 6.0 seconds. [Show all work, including the \n\t\nequation and substitution with units.]   [2]\n\t\n68\t Determine the direction of the car\u2019s velocity after the 6.0 seconds.   [1]\n69\u201370\t Calculate the total distance traveled by the car during the 6.0 seconds. [Show all work, including the \nequation and substitution with units.]   [2]\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2006 Edition Reference Tables for Physical Setting/Physics.\n\nP.S./Physics\u2013June \u201923\t\n[15]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units or for an answer, with units, that is consistent with the student\u2019s response to question 67. Refer to Scoring Criteria for Calculations in this rating guide. Examples of 1-credit responses: d = vi t+ 1 2 at2 d = (25 m/s)(6.0 s)+ 1 2 ( 1.5 d = vi t+ 1 2 at2 d = ( 25 m/s)(6.0 s)+ 1 2 (+1.5 m/s2)(6.0 s) 2 m/s2)(6.0 s) 2 or or v= d t \u2022 t d = v vf 2 = vi 2 + 2ad d = vf 2 \u2212vi 2 2a d = (16m/s) 2 (25m/s) 2 (2)( 1.5 m/s 2) d = (25m/s) (16m/s) 2 + (6.0s)"
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "69\u201370 Calculate the total distance traveled by the car during the 6.0 seconds. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of physics.\nA car, initially traveling at a velocity of 25 meters per second west, accelerates uniformly \nat a rate of 1.5 meters per second squared east for 6.0 seconds.\n66\u201367\t Calculate the magnitude of the car\u2019s velocity after the 6.0 seconds. [Show all work, including the \n\t\nequation and substitution with units.]   [2]\n\t\n68\t Determine the direction of the car\u2019s velocity after the 6.0 seconds.   [1]\n69\u201370\t Calculate the total distance traveled by the car during the 6.0 seconds. [Show all work, including the \nequation and substitution with units.]   [2]\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2006 Edition Reference Tables for Physical Setting/Physics.\n\nP.S./Physics\u2013June \u201923\t\n[15]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 69. Example of a 1-credit response: d = 120 m Note: Do not penalize the student for an answer of \u2013120 m. Do not penalize the student more than 1 credit for errors in units in questions 69 and 70."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_71_76.png",
+      "context": "Base your answer to questions 71 through 76 on the information and diagram below and on your knowledge \nof physics.\nStarting from rest at the top of the slide, a 40.-kilogram child accelerates uniformly \nalong the surface of a 4.2-meter-long slide at a rate of 0.30 meter per second squared until \nshe reaches the bottom of the slide.\n4.2 m\n1.5 m\n71\u201372\t Calculate the speed of the child at the instant she reaches the bottom of the slide. [Show all work, \nincluding the equation and substitution with units.]   [2]\n73\u201374\t Calculate the child\u2019s kinetic energy at the bottom of the slide. [Show all work, including the equation \nand substitution with units.]   [2]\n\t\n75\t Determine the total gravitational potential energy gained by the child when climbing 1.5 meters vertically \nfrom the bottom to the top of the slide.   [1]\n\t\n76\t Determine the total amount of mechanical energy lost by the child\u2013slide system as the child slides from \nthe top to the bottom of the slide.   [1]\n\nP.S./Physics\u2013June \u201923\t\n[16]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units. Refer to Scoring Criteria for Calculations in this rating guide. Examples of 1-credit responses: vf 2 = vi 2 + 2ad vf = vi 2 + 2ad vf = or vf = vi + at vf = 0 m/s + (0.30 m/s2)(5.3 s) (0 m/s)2 + 2(0.30 m/s2)(4.2 m) P.S./Physics\u2013June \u2019"
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "71\u201372 Calculate the speed of the child at the instant she reaches the bottom of the slide. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_71_76.png",
+      "context": "Base your answer to questions 71 through 76 on the information and diagram below and on your knowledge \nof physics.\nStarting from rest at the top of the slide, a 40.-kilogram child accelerates uniformly \nalong the surface of a 4.2-meter-long slide at a rate of 0.30 meter per second squared until \nshe reaches the bottom of the slide.\n4.2 m\n1.5 m\n71\u201372\t Calculate the speed of the child at the instant she reaches the bottom of the slide. [Show all work, \nincluding the equation and substitution with units.]   [2]\n73\u201374\t Calculate the child\u2019s kinetic energy at the bottom of the slide. [Show all work, including the equation \nand substitution with units.]   [2]\n\t\n75\t Determine the total gravitational potential energy gained by the child when climbing 1.5 meters vertically \nfrom the bottom to the top of the slide.   [1]\n\t\n76\t Determine the total amount of mechanical energy lost by the child\u2013slide system as the child slides from \nthe top to the bottom of the slide.   [1]\n\nP.S./Physics\u2013June \u201923\t\n[16]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with the student\u2019s response to question 71. Example of a 1-credit response: vf = 1.6 m/s Note: Do not penalize a student more than 1 credit for errors in units in questions 71 and 72."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_71_76.png",
+      "context": "Base your answer to questions 71 through 76 on the information and diagram below and on your knowledge \nof physics.\nStarting from rest at the top of the slide, a 40.-kilogram child accelerates uniformly \nalong the surface of a 4.2-meter-long slide at a rate of 0.30 meter per second squared until \nshe reaches the bottom of the slide.\n4.2 m\n1.5 m\n71\u201372\t Calculate the speed of the child at the instant she reaches the bottom of the slide. [Show all work, \nincluding the equation and substitution with units.]   [2]\n73\u201374\t Calculate the child\u2019s kinetic energy at the bottom of the slide. [Show all work, including the equation \nand substitution with units.]   [2]\n\t\n75\t Determine the total gravitational potential energy gained by the child when climbing 1.5 meters vertically \nfrom the bottom to the top of the slide.   [1]\n\t\n76\t Determine the total amount of mechanical energy lost by the child\u2013slide system as the child slides from \nthe top to the bottom of the slide.   [1]\n\nP.S./Physics\u2013June \u201923\t\n[16]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units or for an answer, with units, that is consistent with the student\u2019s response to question 72. Refer to Scoring Criteria for Calculations in this rating guide. Example of a 1-credit response: KE = 1 2 mv2 KE = 1 2 (40. kg)(1.6 m/s)2"
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "73\u201374 Calculate the child\u2019s kinetic energy at the bottom of the slide. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_71_76.png",
+      "context": "Base your answer to questions 71 through 76 on the information and diagram below and on your knowledge \nof physics.\nStarting from rest at the top of the slide, a 40.-kilogram child accelerates uniformly \nalong the surface of a 4.2-meter-long slide at a rate of 0.30 meter per second squared until \nshe reaches the bottom of the slide.\n4.2 m\n1.5 m\n71\u201372\t Calculate the speed of the child at the instant she reaches the bottom of the slide. [Show all work, \nincluding the equation and substitution with units.]   [2]\n73\u201374\t Calculate the child\u2019s kinetic energy at the bottom of the slide. [Show all work, including the equation \nand substitution with units.]   [2]\n\t\n75\t Determine the total gravitational potential energy gained by the child when climbing 1.5 meters vertically \nfrom the bottom to the top of the slide.   [1]\n\t\n76\t Determine the total amount of mechanical energy lost by the child\u2013slide system as the child slides from \nthe top to the bottom of the slide.   [1]\n\nP.S./Physics\u2013June \u201923\t\n[16]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units or for an answer, with units, that is consistent with student\u2019s response to question 73. Example of a 1-credit response: KE = 51 J Note: Do not penalize a student more than 1 credit for errors in units in questions 73 and 74."
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Determine the total gravitational potential energy gained by the child when climbing 1.5 meters vertically from the bottom to the top of the slide.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_71_76.png",
+      "context": "Base your answer to questions 71 through 76 on the information and diagram below and on your knowledge \nof physics.\nStarting from rest at the top of the slide, a 40.-kilogram child accelerates uniformly \nalong the surface of a 4.2-meter-long slide at a rate of 0.30 meter per second squared until \nshe reaches the bottom of the slide.\n4.2 m\n1.5 m\n71\u201372\t Calculate the speed of the child at the instant she reaches the bottom of the slide. [Show all work, \nincluding the equation and substitution with units.]   [2]\n73\u201374\t Calculate the child\u2019s kinetic energy at the bottom of the slide. [Show all work, including the equation \nand substitution with units.]   [2]\n\t\n75\t Determine the total gravitational potential energy gained by the child when climbing 1.5 meters vertically \nfrom the bottom to the top of the slide.   [1]\n\t\n76\t Determine the total amount of mechanical energy lost by the child\u2013slide system as the child slides from \nthe top to the bottom of the slide.   [1]\n\nP.S./Physics\u2013June \u201923\t\n[16]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 590 J or 589 J or 588 J."
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Determine the total amount of mechanical energy lost by the child\u2013slide system as the child slides from the top to the bottom of the slide.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_71_76.png",
+      "context": "Base your answer to questions 71 through 76 on the information and diagram below and on your knowledge \nof physics.\nStarting from rest at the top of the slide, a 40.-kilogram child accelerates uniformly \nalong the surface of a 4.2-meter-long slide at a rate of 0.30 meter per second squared until \nshe reaches the bottom of the slide.\n4.2 m\n1.5 m\n71\u201372\t Calculate the speed of the child at the instant she reaches the bottom of the slide. [Show all work, \nincluding the equation and substitution with units.]   [2]\n73\u201374\t Calculate the child\u2019s kinetic energy at the bottom of the slide. [Show all work, including the equation \nand substitution with units.]   [2]\n\t\n75\t Determine the total gravitational potential energy gained by the child when climbing 1.5 meters vertically \nfrom the bottom to the top of the slide.   [1]\n\t\n76\t Determine the total amount of mechanical energy lost by the child\u2013slide system as the child slides from \nthe top to the bottom of the slide.   [1]\n\nP.S./Physics\u2013June \u201923\t\n[16]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 540 J or for an answer that is consistent with the student\u2019s responses to questions 74 and 75."
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_77_80.png",
+      "context": "Base your answer to questions 77 through 80 on the information and diagram below and on your knowledge \nof physics.\nThe diagram below represents a ray of light (f = 5.09 \u00d7 1014 Hz) in flint glass incident \non air at an angle of incidence of 30.\u00b0.\nFlint\nGlass\nAir\nNormal\n30.\u00b0\n77\u201378\t Calculate the angle of refraction of the light ray in the air. [Show all work, including the equation and \nsubstitution with units.]   [2]\n\t\n79\t Using a protractor and a straightedge, draw the refracted light ray on the diagram in your \nanswer booklet.   [1]\n\t\n80\t State what happens to the wavelength of the light ray as the light ray passes into the air from the \nflint glass.   [1]\n\nP.S./Physics\u2013June \u201923\t\n[17]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units. Refer to Scoring Criteria for Calculations in the rating guide. Example of a 1-credit response: n1 sin 1 = n2 sin 2 sin 2 = n1 sin 1 n2 sin 2 = 1.66 ( )sin30.\u00b0 1.00 \u03b8 \u03b8 \u03b8 \u03b8 \u03b8 P.S./Physics\u2013June \u2019"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "77\u201378 Calculate the angle of refraction of the light ray in the air. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_77_80.png",
+      "context": "Base your answer to questions 77 through 80 on the information and diagram below and on your knowledge \nof physics.\nThe diagram below represents a ray of light (f = 5.09 \u00d7 1014 Hz) in flint glass incident \non air at an angle of incidence of 30.\u00b0.\nFlint\nGlass\nAir\nNormal\n30.\u00b0\n77\u201378\t Calculate the angle of refraction of the light ray in the air. [Show all work, including the equation and \nsubstitution with units.]   [2]\n\t\n79\t Using a protractor and a straightedge, draw the refracted light ray on the diagram in your \nanswer booklet.   [1]\n\t\n80\t State what happens to the wavelength of the light ray as the light ray passes into the air from the \nflint glass.   [1]\n\nP.S./Physics\u2013June \u201923\t\n[17]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer with units, or for an answer, with units, that is consistent with the student\u2019s response to question 77. Example of a 1-credit response: \u03b82 = 56\u00b0 Note: Do not penalize a student more than 1 credit for errors in units in questions 77 and 78."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Using a protractor and a straightedge, draw the refracted light ray on the diagram in your answer booklet.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_77_80.png",
+      "context": "Base your answer to questions 77 through 80 on the information and diagram below and on your knowledge \nof physics.\nThe diagram below represents a ray of light (f = 5.09 \u00d7 1014 Hz) in flint glass incident \non air at an angle of incidence of 30.\u00b0.\nFlint\nGlass\nAir\nNormal\n30.\u00b0\n77\u201378\t Calculate the angle of refraction of the light ray in the air. [Show all work, including the equation and \nsubstitution with units.]   [2]\n\t\n79\t Using a protractor and a straightedge, draw the refracted light ray on the diagram in your \nanswer booklet.   [1]\n\t\n80\t State what happens to the wavelength of the light ray as the light ray passes into the air from the \nflint glass.   [1]\n\nP.S./Physics\u2013June \u201923\t\n[17]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for drawing the refracted light ray in air at an angle of 56\u00b0 \u00b1 2\u00b0 from the normal, or for an answer that is consistent with the student\u2019s response to question 78. Example of a 1-credit response: Flint Glass Air Normal 30.\u00b0 56\u00b0 Note: Allow credit even if the arrowhead is missing. The refracted angle does not have to be labeled in order to receive credit."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "State what happens to the wavelength of the light ray as the light ray passes into the air from the flint glass.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_77_80.png",
+      "context": "Base your answer to questions 77 through 80 on the information and diagram below and on your knowledge \nof physics.\nThe diagram below represents a ray of light (f = 5.09 \u00d7 1014 Hz) in flint glass incident \non air at an angle of incidence of 30.\u00b0.\nFlint\nGlass\nAir\nNormal\n30.\u00b0\n77\u201378\t Calculate the angle of refraction of the light ray in the air. [Show all work, including the equation and \nsubstitution with units.]   [2]\n\t\n79\t Using a protractor and a straightedge, draw the refracted light ray on the diagram in your \nanswer booklet.   [1]\n\t\n80\t State what happens to the wavelength of the light ray as the light ray passes into the air from the \nflint glass.   [1]\n\nP.S./Physics\u2013June \u201923\t\n[17]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer or for an answer that is consistent with the student\u2019s response to question 79. Examples of 1-credit responses: \u2014 The wavelength increases. \u2014 increases \u2014 gets longer P.S./Physics\u2013June \u2019"
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Based on the graph, determine the force of kinetic friction acting on the block as it is pulled at constant velocity across the laboratory table.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information, graph, and diagram below and on your \nknowledge of physics.\nA student pulls a block weighing 2.0 newtons, resting on a horizontal laboratory table, \nwith a string and force sensor. The sensor measures the force applied to the block when \nthe block is at rest and when the block is moving. The force applied to the block is plotted \nagainst time on the graph.\nForce\nSensor\nString\nBlock\nBlock started in motion\n0 \n1.0 \n2.0 \n3.0 \n4.0\n1.2\n1.1\n1.0\n0.9\n0.8\n0.7\n0.6\n0.5\n0.4\n0.3\n0.2\n0.1\n0\nTime (s)\nForce (N)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.90 N"
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information, graph, and diagram below and on your \nknowledge of physics.\nA student pulls a block weighing 2.0 newtons, resting on a horizontal laboratory table, \nwith a string and force sensor. The sensor measures the force applied to the block when \nthe block is at rest and when the block is moving. The force applied to the block is plotted \nagainst time on the graph.\nForce\nSensor\nString\nBlock\nBlock started in motion\n0 \n1.0 \n2.0 \n3.0 \n4.0\n1.2\n1.1\n1.0\n0.9\n0.8\n0.7\n0.6\n0.5\n0.4\n0.3\n0.2\n0.1\n0\nTime (s)\nForce (N)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the equation and substitution with units or for an answer, with units, that is consistent with the student\u2019s response to question 81. Refer to Scoring Criteria for Calculations in this rating guide. Example of a 1-credit response: Ff =\u00b5FN \u00b5 = Ff FN \u00b5 = 0.90N 2.0N"
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "82\u201383 Calculate the coefficient of kinetic friction between the block and the laboratory table. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information, graph, and diagram below and on your \nknowledge of physics.\nA student pulls a block weighing 2.0 newtons, resting on a horizontal laboratory table, \nwith a string and force sensor. The sensor measures the force applied to the block when \nthe block is at rest and when the block is moving. The force applied to the block is plotted \nagainst time on the graph.\nForce\nSensor\nString\nBlock\nBlock started in motion\n0 \n1.0 \n2.0 \n3.0 \n4.0\n1.2\n1.1\n1.0\n0.9\n0.8\n0.7\n0.6\n0.5\n0.4\n0.3\n0.2\n0.1\n0\nTime (s)\nForce (N)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct answer, without units or for an answer, without units, that is consistent with the student\u2019s response to question 82. Example of a 1-credit response: m = 0.45 Note: Do not penalize the student more than 1 credit for errors in units in questions 82 and 83."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "At the instant the block begins to move, what happens to the value of the coefficient of friction?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information, graph, and diagram below and on your \nknowledge of physics.\nA student pulls a block weighing 2.0 newtons, resting on a horizontal laboratory table, \nwith a string and force sensor. The sensor measures the force applied to the block when \nthe block is at rest and when the block is moving. The force applied to the block is plotted \nagainst time on the graph.\nForce\nSensor\nString\nBlock\nBlock started in motion\n0 \n1.0 \n2.0 \n3.0 \n4.0\n1.2\n1.1\n1.0\n0.9\n0.8\n0.7\n0.6\n0.5\n0.4\n0.3\n0.2\n0.1\n0\nTime (s)\nForce (N)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for an answer indicating the coefficient of friction decreases."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "How would the coefficient of kinetic friction (\u00b5) between the block and the laboratory table be affected if a 0.50-kilogram mass were placed on the block? P.S./PHYSICS P.S./PHYSICS Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/physics/june-2023/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information, graph, and diagram below and on your \nknowledge of physics.\nA student pulls a block weighing 2.0 newtons, resting on a horizontal laboratory table, \nwith a string and force sensor. The sensor measures the force applied to the block when \nthe block is at rest and when the block is moving. The force applied to the block is plotted \nagainst time on the graph.\nForce\nSensor\nString\nBlock\nBlock started in motion\n0 \n1.0 \n2.0 \n3.0 \n4.0\n1.2\n1.1\n1.0\n0.9\n0.8\n0.7\n0.6\n0.5\n0.4\n0.3\n0.2\n0.1\n0\nTime (s)\nForce (N)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for an answer indicating the coefficient of friction remains the same. P.S./Physics\u2013June \u2019"
+    }
+  ]
+}

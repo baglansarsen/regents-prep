@@ -1,0 +1,486 @@
+{
+  "subject": "geometry",
+  "session": "june-2017",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "In the diagram below, \u0002ABC \u0002 \u0002DEF. Which sequence of transformations maps \u0002ABC onto \u0002DEF?",
+      "choices": [
+        "a reflection over the x-axis followed by a translation",
+        "a reflection over the y-axis followed by a translation",
+        "a rotation of 180\u00b0 about the origin followed by a translation",
+        "a counterclockwise rotation of 90\u00b0 about the origin followed by a translation y x C B F E D A Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/june-2017/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, the vertices of \u0002PQR have coordinates P(\u00026,7), Q(2,1), and R(\u00021,\u00023). What is the area of \u0002PQR?",
+      "choices": [
+        "10",
+        "20",
+        "25",
+        "50"
+      ],
+      "image": "/images/exams/geometry/june-2017/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "In right triangle ABC, m\u2220C \u0003 90\u00b0. If cos B \u0003 5__ 13, which function also equals 5__ 13?",
+      "choices": [
+        "tan A",
+        "tan B",
+        "sin A",
+        "sin B y x Q R P Geometry (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In the diagram below, m\u0002 ABC \u0003 268\u00b0. What is the number of degrees in the measure of \u2220ABC?",
+      "choices": [
+        "134\u00b0",
+        "92\u00b0",
+        "68\u00b0",
+        "46\u00b0"
+      ],
+      "image": "/images/exams/geometry/june-2017/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Given \u0002MRO shown below, with trapezoid PTRO, MR \u0003 9, MP \u0003 2, and PO \u0003 4. What is the length of TR ___ ?",
+      "choices": [
+        "4.5",
+        "5",
+        "3",
+        "6 O M R P T 9 2 4 A B C Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/june-2017/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A line segment is dilated by a scale factor of 2 centered at a point not on the line segment. Which statement regarding the relationship between the given line segment and its image is true?",
+      "choices": [
+        "The line segments are perpendicular, and the image is one-half of the length of the given line segment.",
+        "The line segments are perpendicular, and the image is twice the length of the given line segment.",
+        "The line segments are parallel, and the image is twice the length of the given line segment.",
+        "The line segments are parallel, and the image is one-half of the length of the given line segment."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which figure always has exactly four lines of reflection that map the figure onto itself?",
+      "choices": [
+        "square",
+        "rectangle",
+        "regular octagon",
+        "equilateral triangle"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "In the diagram below of circle O, chord DF ___ bisects chord BC ___ at E. If BC \u0003 12 and FE is 5 more than DE, then FE is",
+      "choices": [
+        "13",
+        "9",
+        "6",
+        "4 O E B C D F Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/june-2017/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Kelly is completing a proof based on the figure below. She was given that \u2220A \u0002 \u2220EDF, and has already proven AB ___ \u0002 DE ___ . Which pair of corresponding parts and triangle congruency method would not prove \u0002ABC \u0002 \u0002DEF?",
+      "choices": [
+        "AC ___ \u0002 DF ___ and SAS",
+        "BC ___ \u0002 EF ___ and SAS",
+        "\u2220C \u0002 \u2220F and AAS",
+        "\u2220CBA \u0002 \u2220FED and ASA"
+      ],
+      "image": "/images/exams/geometry/june-2017/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "In the diagram below, DE ___ divides AB ___ and AC ___ proportionally, m\u2220C \u0003 26\u00b0, m\u2220A \u0003 82\u00b0, and DF ___ bisects \u2220BDE. The measure of angle DFB is",
+      "choices": [
+        "36\u00b0",
+        "54\u00b0",
+        "72\u00b0",
+        "82\u00b0 A D C B E F Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/june-2017/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which set of statements would describe a parallelogram that can always be classified as a rhombus? I. Diagonals are perpendicular bisectors of each other. II. Diagonals bisect the angles from which they are drawn. III. Diagonals form four congruent isosceles right triangles.",
+      "choices": [
+        "I and II",
+        "I and III",
+        "II and III",
+        "I, II, and III"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The equation of a circle is x2 \u0004 y2 \u0002 12y \u0004 20 \u0003 0. What are the coordinates of the center and the length of the radius of the circle?",
+      "choices": [
+        "center (0,6) and radius 4",
+        "center (0,\u00026) and radius 4",
+        "center (0,6) and radius 16",
+        "center (0,\u00026) and radius 16"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "In the diagram of \u0002RST below, m\u2220T \u0003 90\u00b0, RS \u0003 65, and ST \u0003 60. What is the measure of \u2220S, to the nearest degree?",
+      "choices": [
+        "23\u00b0",
+        "43\u00b0",
+        "47\u00b0",
+        "67\u00b0 T 65 S R 60 Geometry (Common Core) Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/june-2017/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Triangle A\u0005B\u0005C\u0005 is the image of \u0002ABC after a dilation followed by a translation. Which statement(s) would always be true with respect to this sequence of transformations? I. \u0002ABC \u0002 \u0002A\u0005B\u0005C\u0005 II. \u0002ABC \u0003 \u0002A\u0005B\u0005C\u0005 III. AB ___ || A\u0005 __ B\u0005 ___ IV. AA\u0005 \u0003 BB\u0005",
+      "choices": [
+        "II, only",
+        "I and II",
+        "II and III",
+        "II, III, and IV"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Line segment RW has endpoints R(\u00024,5) and W(6,20). Point P is on RW ____ such that RP:PW is 2:3. What are the coordinates of point P?",
+      "choices": [
+        "(2,9)",
+        "(0,11)",
+        "(2,14)",
+        "(10,2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The pyramid shown below has a square base, a height of 7, and a volume of 84. What is the length of the side of the base?",
+      "choices": [
+        "6",
+        "12",
+        "18",
+        "36 7 Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/june-2017/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "In the diagram below of triangle MNO, \u2220M and \u2220O are bisected by MS ___ and OR ___ , respectively. Segments MS and OR intersect at T, and m\u2220N \u0003 40\u00b0. If m\u2220TMR \u0003 28\u00b0, the measure of angle OTS is",
+      "choices": [
+        "40\u00b0",
+        "50\u00b0",
+        "60\u00b0",
+        "70\u00b0"
+      ],
+      "image": "/images/exams/geometry/june-2017/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "In the diagram below, right triangle ABC has legs whose lengths are 4 and 6. What is the volume of the three-dimensional object formed by continuously rotating the right triangle around AB ___ ?",
+      "choices": [
+        "32\u03c0",
+        "48\u03c0",
+        "96\u03c0",
+        "144\u03c0 6 A B C 4 O S N R M T 40\u00b0"
+      ],
+      "image": "/images/exams/geometry/june-2017/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "What is an equation of a line that is perpendicular to the line whose equation is 2y \u0003 3x \u0002 10 and passes through (\u00026,1)?",
+      "choices": [
+        "y = \u0002 2__ 3 x \u0002 5",
+        "y = \u0002 2__ 3 x \u0002 3",
+        "y = 2__ 3 x \u0004 1",
+        "y = 2__ 3 x \u0004 10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "In quadrilateral BLUE shown below, BE ___ \u0002 UL ___ . Which information would be sufficient to prove quadrilateral BLUE is a parallelogram?",
+      "choices": [
+        "BL ___ || EU ___",
+        "LU ___ || BE ___",
+        "BE ___ \u0002 BL ___",
+        "LU ___ \u0002 EU ___"
+      ],
+      "image": "/images/exams/geometry/june-2017/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A ladder 20 feet long leans against a building, forming an angle of 71\u00b0 with the level ground. To the nearest foot, how high up the wall of the building does the ladder touch the building?",
+      "choices": [
+        "15",
+        "16",
+        "18",
+        "19"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "In the two distinct acute triangles ABC and DEF, \u2220B \u0002 \u2220E. Triangles ABC and DEF are congruent when there is a sequence of rigid motions that maps",
+      "choices": [
+        "\u2220A onto \u2220D, and \u2220C onto \u2220F",
+        "AC ___ onto DF ___ , and BC ___ onto EF ___",
+        "\u2220C onto \u2220F, and BC ___ onto EF ___",
+        "point A onto point D, and AB ___ onto DE ___ E U B L Geometry (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A fabricator is hired to make a 27-foot-long solid metal railing for the stairs at the local library. The railing is modeled by the diagram below. The railing is 2.5 inches high and 2.5 inches wide and is comprised of a rectangular prism and a half-cylinder. How much metal, to the nearest cubic inch, will the railing contain?",
+      "choices": [
+        "151",
+        "795",
+        "1808",
+        "2025"
+      ],
+      "image": "/images/exams/geometry/june-2017/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "In the diagram below, AC \u0003 7.2 and CE \u0003 2.4. Which statement is not sufficient to prove \u0002ABC \u0003 \u0002EDC?",
+      "choices": [
+        "AB ___ || ED ___",
+        "DE \u0003 2.7 and AB \u0003 8.1",
+        "CD \u0003 3.6 and BC \u0003 10.8",
+        "DE \u0003 3.0, AB \u0003 9.0, CD \u0003 2.9, and BC \u0003 8.7 A B E C D 7.2 2.4 2.5 in 27 ft 2.5 in Geometry (Common Core) Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/geometry/june-2017/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Given: Trapezoid JKLM with JK ___ || ML ___ Using a compass and straightedge, construct the altitude from vertex J to ML ___ . [Leave all construction marks.] M L K J Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2017/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Determine and state, in terms of \u03c0, the area of a sector that intercepts a 40\u00b0 arc of a circle with a radius of 4.5. Geometry (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "The diagram below shows two figures. Figure A is a right triangular prism and figure B is an oblique triangular prism. The base of figure A has a height of 5 and a length of 8 and the height of prism A is 14. The base of figure B has a height of 8 and a length of 5 and the height of prism B is 14. Use Cavalieri\u2019s Principle to explain why the volumes of these two triangular prisms are equal. 14 8 5 Figure A Figure B 5 14 8 Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2017/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "When volleyballs are purchased, they are not fully inflated. A partially inflated volleyball can be modeled by a sphere whose volume is approximately 180 in3. After being fully inflated, its volume is approximately 294 in3. To the nearest tenth of an inch, how much does the radius increase when the volleyball is fully inflated? Geometry (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "In right triangle ABC shown below, altitude CD ___ is drawn to hypotenuse AB ___ . Explain why \u0002ABC \u0003 \u0002ACD. C D A B Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2017/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Triangle ABC and triangle DEF are drawn below. If AB ___ \u0002 DE ___ , AC ___ \u0002 DF ___ , and \u2220A \u0002 \u2220D, write a sequence of transformations that maps triangle ABC onto triangle DEF. A B C F E D Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2017/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Line n is represented by the equation 3x \u0004 4y \u0003 20. Determine and state the equation of line p, the image of line n, after a dilation of scale factor 1__ 3 centered at the point (4,2). [The use of the set of axes below is optional.] Explain your answer. y x Geometry (Common Core) Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2017/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Triangle ABC has vertices at A(\u00025,2), B(\u00024,7), and C(\u00022,7), and triangle DEF has vertices at D(3,2), E(2,7), and F(0,7). Graph and label \u0002ABC and \u0002DEF on the set of axes below. Determine and state the single transformation where \u0002DEF is the image of \u0002ABC. Use your transformation to explain why \u0002ABC \u0002 \u0002DEF. y x Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2017/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Given: RS ___ and TV ___ bisect each other at point X TR ___ and SV ___ are drawn Prove: TR ___ || SV ___ T S X R V Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2017/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "A gas station has a cylindrical fueling tank that holds the gasoline for its pumps, as modeled below. The tank holds a maximum of 20,000 gallons of gasoline and has a length of 34.5 feet. A metal pole is used to measure how much gas is in the tank. To the nearest tenth of a foot, how long does the pole need to be in order to reach the bottom of the tank and still extend one foot outside the tank? Justify your answer. [1 ft3 \u0003 7.48 gallons] Geometry (Common Core) Part IV Answer the 2 questions in this part. Each correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2017/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Quadrilateral PQRS has vertices P(\u00022,3), Q(3,8), R(4,1), and S(\u00021,\u00024). Prove that PQRS is a rhombus. [The use of the set of axes on the next page is optional.] Geometry (Common Core) Question 35 is continued on the next page. Prove that PQRS is not a square. [The use of the set of axes below is optional.] y x Geometry (Common Core) Question 35 continued.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Freda, who is training to use a radar system, detects an airplane flying at a constant speed and heading in a straight line to pass directly over her location. She sees the airplane at an angle of elevation of 15\u00b0 and notes that it is maintaining a constant altitude of 6250 feet. One minute later, she sees the airplane at an angle of elevation of 52\u00b0. How far has the airplane traveled, to the nearest foot? Determine and state the speed of the airplane, to the nearest mile per hour. Geometry (Common Core) High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here Geometry (Common Core) Tear Here Tear Here Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here GEOMETRY (COMMON CORE) GEOMETRY (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

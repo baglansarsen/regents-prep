@@ -1,0 +1,466 @@
+{
+  "subject": "geometry",
+  "session": "january-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "In the diagram below, a line reflection followed by a rotation maps nABC onto nDEF. Which statement is always true?",
+      "choices": [
+        "BC ___ > EF ___",
+        "AC ___ > DE ___",
+        "/A > /F",
+        "/B > /D"
+      ],
+      "image": "/images/exams/geometry/january-2023/q1.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A circle is continuously rotated about its diameter. Which three- dimensional object will be formed?",
+      "choices": [
+        "cone",
+        "prism",
+        "sphere",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "In the diagram below of nCER, LA ___ || CR ___ . If CL 5 3.5, LE 5 7.5, and EA 5 9.5, what is the length of AR ___ , to the nearest tenth?",
+      "choices": [
+        "5.5",
+        "4.4",
+        "3.0",
+        "2.8"
+      ],
+      "image": "/images/exams/geometry/january-2023/q3.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Right triangle ABC is shown below. Which trigonometric equation is always true for triangle ABC?",
+      "choices": [
+        "sin A 5 cos C",
+        "cos A 5 sin A",
+        "cos A 5 cos C",
+        "tan A 5"
+      ],
+      "image": "/images/exams/geometry/january-2023/q4.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "In the diagram of nABC below, AE ___ bisects angle BAC, and altitude BD ___ is drawn. If m/C 5 50\u00b0 and m/ABC 5 60\u00b0, m/FEB is",
+      "choices": [
+        "35\u00b0",
+        "40\u00b0",
+        "55\u00b0",
+        "85\u00b0"
+      ],
+      "image": "/images/exams/geometry/january-2023/q5.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A jewelry company makes copper heart pendants. Each heart uses 0.75 in3 of copper and there is 0.323 pound of copper per cubic inch. If copper costs $3.68 per pound, what is the total cost for 24 copper hearts?",
+      "choices": [
+        "$5.81",
+        "$21.40",
+        "$66.24",
+        "$205.08"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In right triangle LMN shown below, m/M 5 90\u00b0, MN 5 12, and LM 5 16. The ratio of cos N is",
+      "choices": [
+        "12 ___ 20",
+        "16 ___ 20",
+        "12 ___ 16",
+        "16 ___ 12"
+      ],
+      "image": "/images/exams/geometry/january-2023/q7.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "In nABC below, DE ___ is drawn such that D and E are on AB ___ and AC ___ , respectively. If DE ___ || BC ___ , which equation will always be true?",
+      "choices": [
+        "AD ___ DE 5 DB ___ BC",
+        "AD ___ DE 5 AB ___ BC",
+        "AD ___ BC 5 DE ___ DB",
+        "AD ___ BC 5 DE ___ AB"
+      ],
+      "image": "/images/exams/geometry/january-2023/q8.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which polygon does not always have congruent diagonals?",
+      "choices": [
+        "square",
+        "rectangle",
+        "rhombus",
+        "isosceles trapezoid A E D B C 16 12"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "If the circumference of a standard lacrosse ball is 19.9 cm, what is the volume of this ball, to the nearest cubic centimeter?",
+      "choices": [
+        "42",
+        "133",
+        "415",
+        "1065"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2023/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "10 If the circumference of a standard lacrosse ball is 19.9 cm, what is the volume of this ball, to the nearest cubic centimeter?",
+      "choices": [
+        "",
+        "",
+        "",
+        "Square Isosceles trapezoid Regular pentagon Rectangle 24"
+      ],
+      "image": "/images/exams/geometry/january-2023/q12.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The equation of a line is 3x 2 5y 5 8. All lines perpendicular to this line must have a slope of",
+      "choices": [
+        "3__ 5",
+        "5__ 3",
+        "2 3__ 5",
+        "2 5__ 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "What are the coordinates of the center and length of the radius of the circle whose equation is x2 1 y2 1 2x 2 16y 1 49 5 0?",
+      "choices": [
+        "center (1,28) and radius 4",
+        "center (21,8) and radius 4",
+        "center (1,28) and radius 16",
+        "center (21,8) and radius 16"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "In the diagram below of right triangle MDL, altitude DG ___ is drawn to hypotenuse ML ___ . If MG 5 3 and GL 5 24, what is the length of DG ___ ?",
+      "choices": [
+        "8",
+        "9",
+        "\u221a ___ 63",
+        "\u221a ___ 72"
+      ],
+      "image": "/images/exams/geometry/january-2023/q15.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Segment AB is the perpendicular bisector of CD ___ at point M. Which statement is always true?",
+      "choices": [
+        "CB ___ > DB ___",
+        "CD ___ > AB ___",
+        "nACD | nBCD",
+        "nACM | nBCM"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "In the diagram below of circle O, AC ___ and BC ___ are chords, and m/ACB 5 70\u00b0. If OA 5 9, the area of the shaded sector AOB is",
+      "choices": [
+        "3.5\u03c0",
+        "7\u03c0",
+        "15.75\u03c0",
+        "31.5\u03c0 A C B O 70\u00b0"
+      ],
+      "image": "/images/exams/geometry/january-2023/q17.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Quadrilateral BEST has diagonals that intersect at point D. Which statement would not be sufficient to prove quadrilateral BEST is a parallelogram?",
+      "choices": [
+        "BD ___ > SD ___ and ED ___ > TD ___",
+        "BE ___ > ST ___ and ES ___ > TB ___",
+        "ES ___ > TB ___ and BE ___ || TS ___",
+        "ES ___ || BT ___ and BE ___ || TS ___"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "20",
+      "choices": [
+        "704",
+        "804",
+        "5264",
+        "6016"
+      ],
+      "image": "/images/exams/geometry/january-2023/q20.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The area of nTAP is 36 cm2. A second triangle, JOE, is formed by connecting the midpoints of each side of nTAP. What is the area of nJOE, in square centimeters?",
+      "choices": [
+        "9",
+        "12",
+        "18",
+        "27"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, the endpoints of AB ___ have coordinates A(23,4) and B(5,2). If AB ___ is dilated by a scale factor of 2 centered at (3,5), what are the coordinates of the endpoints of its image, A9B9 _____ ?",
+      "choices": [
+        "A9(27,5) and B9(9,1)",
+        "A9(21,6) and B9(7,4)",
+        "A9(26,8) and B9(10,4)",
+        "A9(29,3) and B9(7,21)"
+      ],
+      "image": "/images/exams/geometry/january-2023/q22.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "In the circle below, AD ___ , AC ___ , BC ___ , and DC ___ are chords, EDF is tangent at point D, and AD ___ || BC ___ . Which statement is always true?",
+      "choices": [
+        "/ADE > /CAD",
+        "/CDF > /ACB",
+        "/BCA > /DCA",
+        "/ADC > /ADE"
+      ],
+      "image": "/images/exams/geometry/january-2023/q23.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "In the diagram below of nABC, D and E are the midpoints of AB ___ and AC ___ , respectively, and DE ___ is drawn. I. AA similarity II. SSS similarity III. SAS similarity Which methods could be used to prove nABC | nADE?",
+      "choices": [
+        "I and II, only",
+        "II and III, only",
+        "I and III, only",
+        "I, II,"
+      ],
+      "image": "/images/exams/geometry/january-2023/q24.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Using a compass and straightedge, construct the angle bisector of /ABC. [Leave all construction marks.] A B C Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2023/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "On the set of axes below,",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2023/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "As shown in the diagram below, a symmetrical roof frame rises 4 feet above a house and has a width of 24 feet. Determine and state, to the nearest degree, the angle of elevation of the roof frame. 24 ft 4",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2023/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Directed line segment AB has endpoints whose coordinates are A(22,5) and B(8,21). Determine and state the coordinates of P, the point which divides the segment in the ratio 3:2. [The use of the set of axes below is optional.]",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2023/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "In nABC, AB 5 5, AC 5 12, and m/A 5 90\u00b0. In nDEF, m/D 5 90\u00b0, DF 5 12, and EF 5 13. Brett claims nABC > nDEF and nABC | nDEF. Is Brett correct?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The volume of a triangular prism is 70 in3. The base of the prism is a right triangle with one leg whose measure is 5 inches. If the height of the prism is 4 inches, determine and state the length, in inches,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Triangle ABC with coordinates A(22,5), B(4,2), and C(28,21)",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2023/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Sally and Mary both get ice cream from an ice cream truck. Sally\u2019s ice cream is served as a cylinder with a diameter of 4 cm and a total height of 8 cm. Mary\u2019s ice cream is served as a cone with a diameter of 7 cm and a total height of 12.5 cm. Assume that ice cream fills Sally\u2019s cylinder and Mary\u2019s cone. Who was served more ice cream, Sally or Mary? Justify your answer. Determine and state how much more is served in the larger ice cream than the smaller ice cream, to the nearest cubic centimeter. 7 cm 0DU\\\u00b7V 4 cm 6DOO\\\u00b7V 12.5 cm 8 cm Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2023/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Given: nAEB and nDFC, ABCD ______ , AE ___ || DF ___ , EB ___ || FC ___ , AC ___ > DB ___ Prove: nEAB >",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2023/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Barry wants to find the height of a tree that is modeled in the diagram below, where /C is a right angle. The angle of elevation from point A on the ground to the top of the tree, H, is 40\u00b0. The angle of elevation from point B on the ground to the top of the tree, H, is 80\u00b0. The distance between points A and B is 85 feet. Barry claims that nABH is isosceles. Explain why Barry is correct. Determine and state, to the nearest foot, the height of the tree. 40\u00b0 A 85 ft B C H 80\u00b0",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2023/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Given: Triangle DUC with coordinates D(23,21), U(21,8), and C(8,6) Prove: nDUC is a right triangle [The use of the set of axes on the next page is optional.] Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, Question 35 is continued on the next page. Question 35 continued Point U is reflected over DC ___ to locate its image point, U9, forming quadrilateral DUCU9. Prove quadrilateral DUCU9 Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 /r2 Circle C 5 /d or C 5 2/r General Prisms V 5 Bh Cylinder V 5 /r2h Sphere V 5 4_ 3 /r3 Cone V 5 1_ 3 /r2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u008f 1 Radians 1 radian 5 180 ___ / degrees Degrees 1 degree 5 / ___ \u000f\u0016\u000e radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

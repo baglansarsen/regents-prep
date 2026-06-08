@@ -19,6 +19,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 2,
+      explanation: 'Jovian planets are gas giants that have a much greater mass but a much lower density (choice 3) compared to the dense, rocky terrestrial planets.',
+      diveDeep: 'Jovian planets (Jupiter, Saturn, Uranus, Neptune) are massive bodies composed primarily of hydrogen, helium, and ices. Because of their gaseous composition, they have very low average densities (Saturn would even float in water). Terrestrial planets (Mercury, Venus, Earth, Mars) are small and composed of heavy metals and silicates, giving them high densities. Students can confirm these physical properties by referring to the \'Solar System Data\' table in the Reference Tables. A common trap is confusing high mass with high density.',
     },
     {
       number: 2, part: 'A',
@@ -31,6 +33,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 3,
+      explanation: 'Vega is classified as a main sequence star (choice 4) because its surface temperature of 10,000 K and high luminosity place it along the diagonal band of the H-R diagram.',
+      diveDeep: 'The Hertzsprung-Russell (H-R) diagram in the Reference Tables plots stars based on their luminosity and surface temperature. Main sequence stars span from hot, bright stars in the upper left to cool, dim stars in the lower right. A star with a temperature of 10,000 K and a luminosity of ~70 fits directly on this diagonal band. Giants and supergiants are much brighter, and white dwarfs are much dimmer. Students should practice locating stars on this diagram by aligning the temperature on the x-axis with luminosity on the y-axis.',
     },
     {
       number: 3, part: 'A',
@@ -44,6 +48,8 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       image: '/images/exams/es-august-2022/q3.png',
+      explanation: 'Based on the Moon\'s orbital position relative to Earth and the Sun, the observer in New York State sees a Gibbous phase, specifically a gibbous Moon (choice 3) where more than half of the visible surface is illuminated.',
+      diveDeep: 'Moon phases are determined by the angle between the Sun, Earth, and Moon. From Earth\'s perspective, we see varying amounts of the Moon\'s illuminated half. In this position, the Moon has orbited past the First Quarter but has not yet reached the Full Moon, making it a waxing gibbous. Students should visualize the view from Earth, looking toward the Moon, to determine which side (right or left) is lit and how much of the disk is visible.',
     },
     {
       number: 4, part: 'A',
@@ -57,6 +63,8 @@ export default {
       topic: 'Maps',
       correct: 0,
       image: '/images/exams/es-august-2022/q4.png',
+      explanation: 'The longitude difference between location A and location B represents a solar time difference of 5 hours (choice 1) because they are separated by 75° of longitude (75° ÷ 15°/hour = 5 hours).',
+      diveDeep: 'Earth rotates at a rate of 15° per hour (360° in 24 hours). This rate establishes the relationship between longitude and time. To calculate the time difference, measure the degrees of longitude separating the two points and divide by 15. If one location is east of the other, its time is ahead. Remember the formula: \'Time difference = Longitude difference / 15.\'',
     },
     {
       number: 5, part: 'A',
@@ -69,6 +77,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 1,
+      explanation: 'Orion is not visible in the summer night sky because Earth revolves around the Sun (choice 2), which changes the direction the night side of Earth faces over the course of a year.',
+      diveDeep: 'Earth\'s orbital revolution around the Sun at ~1° per day shifts the nighttime horizon\'s view of outer space by 360° over a year. Constellations located opposite the Sun during winter, like Orion, are hidden behind the Sun\'s brightness during summer. Students often confuse rotation (daily cycle) with revolution (seasonal cycle). A key exam strategy is to recall: \'seasonal changes in star visibility = revolution.\'',
     },
     {
       number: 6, part: 'A',
@@ -81,6 +91,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 0,
+      explanation: 'Earth\'s rate of orbital movement along its orbit around the Sun is approximately 1° per day (choice 1), as it completes a 360° revolution in 365 days.',
+      diveDeep: 'Earth\'s daily orbital progress is small (about 1° per day), which causes the Sun to appear to move slightly eastward relative to the background stars each day. The rate of 15° per hour (360° ÷ 24 hours) is the rate of rotation, not revolution. A common mistake is selecting 15°/hour because it is a familiar rate on the exam. Remember: \'rotation = 15°/hour, revolution = 1°/day.\'',
     },
     {
       number: 7, part: 'A',
@@ -94,6 +106,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-august-2022/q7.png',
+      explanation: 'If the Sun\'s surface temperature was cooler (4000 K), the Habitable Zone would shift closer to the Sun. According to the graph, Mercury (choice 1) would lie within this closer Habitable Zone.',
+      diveDeep: 'The Habitable Zone is the range of distances from a star where liquid water can exist on a planet\'s surface. Cooler stars emit less energy, so their habitable zones are closer to the star. For a star of 4000 K, the graph shows the habitable zone ranges from approximately 40 to 80 million kilometers. Since Mercury is closest to the Sun (~58 million km), it would enter this zone, while Earth would become too cold. Students must read the graph\'s temperature axis to find the corresponding distance range.',
     },
     {
       number: 8, part: 'A',
@@ -107,6 +121,8 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       image: '/images/exams/es-august-2022/q8.png',
+      explanation: 'The Chicxulub asteroid impact occurred approximately 65 million years ago and is most closely linked to worldwide mass extinctions (choice 2), which wiped out the dinosaurs and ammonoids.',
+      diveDeep: 'The Chicxulub impact in Mexico injected massive amounts of dust and sulfur aerosols into the atmosphere, blocking sunlight and causing a global winter. This led to the collapse of food chains and a mass extinction event that marks the Cretaceous-Paleogene boundary. Students can verify the date (~65.5 million years ago) and the corresponding mass extinction on the Geologic History chart in the Reference Tables.',
     },
     {
       number: 9, part: 'A',
@@ -120,6 +136,8 @@ export default {
       topic: 'Meteorology',
       correct: 0,
       image: '/images/exams/es-august-2022/q9.png',
+      explanation: 'Isobars are drawn at regular intervals (typically 4 mb). Following the isobar pattern on the map yields values of X = 1012 mb, Y = 1016 mb, and Z = 1000 mb (choice 1).',
+      diveDeep: 'Isobars are lines connecting points of equal atmospheric pressure. On weather maps, they are spaced at intervals of 4 millibars, centered around 1013.2 mb (normal sea level pressure). To find the value of a labeled isobar, trace it to a known numbered line or follow the gradient from high to low pressure. Remember that values must increase or decrease in steps of 4 mb.',
     },
     {
       number: 10, part: 'A',
@@ -132,6 +150,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 3,
+      explanation: 'At the North Pole, cold, dense air sinks to the surface, creating high pressure and a downward/outward atmospheric circulation pattern (represented by diagram 4, choice 4).',
+      diveDeep: 'The global atmospheric circulation model features three convection cells in each hemisphere. At the North Pole (90°N), cold air descends, creating a polar high pressure zone. This air then flows southward along the surface toward the polar front at 60°N. Students should consult the \'Planetary Wind and Moisture Belts\' diagram in the Reference Tables to trace the vertical and horizontal air movements at the poles.',
     },
     {
       number: 11, part: 'A',
@@ -145,6 +165,8 @@ export default {
       topic: 'Meteorology',
       correct: 2,
       image: '/images/exams/es-august-2022/q11.png',
+      explanation: 'In winter, the polar front jet stream has a more southerly path and winds travel at greater speeds (choice 3) because the temperature gradient between the equator and the pole is steeper. During winter, the Northern Hemisphere tilts away from the Sun.',
+      diveDeep: 'Jet stream wind speed is driven by the temperature contrast between air masses: a larger temperature difference creates a steeper pressure gradient, which generates faster winds. In winter, polar regions cool dramatically while the tropics remain warm, maximizing this contrast and speeding up the jet stream. Additionally, the jet stream shifts south as cold polar air expands. The Northern Hemisphere tilts away from the Sun in winter, reducing solar energy.',
     },
     {
       number: 12, part: 'A',
@@ -157,6 +179,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 3,
+      explanation: 'Surfaces that are dark-colored and rough, such as rough black marble gravel (choice 4), have a low albedo and absorb the greatest amount of incoming solar radiation (insolation).',
+      diveDeep: 'The absorption of solar energy is determined by surface color and texture. Dark colors absorb all visible wavelengths, whereas light colors reflect them. Rough textures increase absorption by causing incoming light to reflect multiple times within surface crevices, increasing the likelihood of absorption. Remember: \'dark and rough = maximum absorption; light and smooth = maximum reflection.\'',
     },
     {
       number: 13, part: 'A',
@@ -169,6 +193,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 1,
+      explanation: 'Polaris (choice 2) is the star in the center of the northern sky that does not leave a star trail because it is aligned with Earth\'s rotational axis above the North Pole.',
+      diveDeep: 'As Earth rotates on its axis, all stars appear to move in circular paths around the celestial North Pole. Because Polaris is positioned directly above this pole, it remains stationary, while other stars (circumpolar stars) create concentric arcs. The altitude of Polaris above the horizon is equal to the observer\'s latitude in the Northern Hemisphere.',
     },
     {
       number: 14, part: 'A',
@@ -181,6 +207,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 3,
+      explanation: 'Volcanic outgassing during Earth\'s early history released gases like water vapor, carbon dioxide, and nitrogen, which formed Earth\'s early atmosphere (choice 4).',
+      diveDeep: 'Early Earth was highly volcanic. Eruptions released large amounts of water vapor, carbon dioxide, nitrogen, and other gases, forming the primary atmosphere. Free oxygen was absent until photosynthetic organisms evolved later in the Proterozoic. Students can locate this event in the \'Key Geologic Events\' column of the Reference Tables. A common trap is selecting coal-forming forests, which appeared much later in the Paleozoic.',
     },
     {
       number: 15, part: 'A',
@@ -193,6 +221,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 0,
+      explanation: 'According to the Electromagnetic Spectrum chart in the Reference Tables, infrared radiation (choice 1) has the longest wavelength among the listed forms of radiation.',
+      diveDeep: 'The electromagnetic spectrum is organized by wavelength and frequency. On the spectrum chart on page 14 of the Reference Tables, wavelength increases from left to right: gamma rays are the shortest, followed by X-rays, UV, visible light (violet to red), infrared, microwaves, and radio waves. Since infrared lies to the right of visible light and UV, it has the longest wavelength among the choices.',
     },
     {
       number: 16, part: 'A',
@@ -205,6 +235,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 2,
+      explanation: 'Volcanic eruptions inject large quantities of ash, dust, and aerosols into the atmosphere, which decreases atmospheric transparency, reflecting solar radiation back into space and cooling global temperatures (choice 3).',
+      diveDeep: 'Volcanic aerosols (especially sulfur dioxide) act as tiny mirrors in the stratosphere, reflecting incoming insolation. This solar dimming reduces the amount of solar energy reaching Earth\'s surface, leading to short-term global cooling. Students should connect volcanic ash and atmospheric aerosols with decreased transparency and a drop in surface temperatures.',
     },
     {
       number: 17, part: 'A',
@@ -217,6 +249,8 @@ export default {
       ],
       topic: 'General Review',
       correct: 2,
+      explanation: 'From September 1 to June 1, daylight hours in New York State decrease until the winter solstice on December 21 (shortest day) and then increase until the summer solstice (choice 3).',
+      diveDeep: 'The duration of insolation (daylight hours) varies cyclically in New York State due to Earth\'s axial tilt. Day length decreases from the autumn equinox (September) to the winter solstice (December 21, ~9 hours), and then increases through the spring equinox (March) toward the summer solstice (June 21, ~15 hours). This results in a decrease-then-increase pattern.',
     },
     {
       number: 18, part: 'A',
@@ -230,6 +264,8 @@ export default {
       topic: 'Maps',
       correct: 1,
       image: '/images/exams/es-august-2022/q18.png',
+      explanation: 'The Alleghenian orogeny occurred during the Permian Period as Pangaea assembled. The inferred position of landmasses showing all continents joined into the supercontinent Pangaea is represented by diagram 2 (choice 2).',
+      diveDeep: 'The \'Inferred Positions of Earth\'s Landmasses\' maps in the Reference Tables show Pangaea assembled during the Late Permian/Early Triassic (around 232 million years ago). This occurred after the Alleghenian orogeny, which was the final collision of Gondwana with North America. The Atlantic Ocean began rifting later in the Mesozoic, separating the plates. Students should match the geologic events with the paleogeographic maps.',
     },
     {
       number: 19, part: 'A',
@@ -242,6 +278,8 @@ export default {
       ],
       topic: 'General Review',
       correct: 2,
+      explanation: 'Banded iron formations (iron oxide layers) were deposited on ocean floors as oxygen produced by early cyanobacteria reacted with dissolved iron, primarily during the Late Archean and Early Proterozoic eras (choice 3).',
+      diveDeep: 'Photosynthetic cyanobacteria in Archean oceans produced oxygen as a byproduct, which initially reacted with dissolved iron to form banded iron formations. Once the oceans were saturated, oxygen escaped into the atmosphere during the Proterozoic Era. This transition is noted on the right side of the Geologic History chart in the Reference Tables under \'Key Geologic Events.\' Students should practice scanning the events column to locate atmosphere-related milestones.',
     },
     {
       number: 20, part: 'A',
@@ -254,6 +292,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 3,
+      explanation: 'Placoderm fish (choice 4) are completely extinct and are only found as fossils today. Nautiloids, brachiopods, and vascular plants have living representatives in the modern biosphere.',
+      diveDeep: 'Placoderms were heavily armored prehistoric fish that went extinct at the end of the Devonian Period, as noted on the Geologic History chart. In contrast, brachiopods, nautiloids (like the chambered nautilus), and vascular plants (ferns, conifers, flowering plants) still exist today. Students can look up these groups in the Reference Tables to check their geologic ranges.',
     },
     {
       number: 21, part: 'A',
@@ -266,6 +306,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'Compared to the granitic continental crust, the basaltic oceanic crust is thinner and more dense (choice 2).',
+      diveDeep: 'Oceanic crust is composed of basalt (density ~3.0 g/cm³, thickness 5-10 km). Continental crust is composed of granite (density ~2.7 g/cm³, thickness 30-40 km). This density difference is the reason why oceanic crust subducts beneath continental crust at convergent boundaries. Students can find these density and composition values in the \'Earth\'s Crust\' section of the Reference Tables.',
     },
     {
       number: 22, part: 'A',
@@ -278,6 +320,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'The lithosphere is rigid and has the lowest density. The mantle features partial melting and convection in the asthenosphere. The outer core is completely liquid, and the inner core has the highest pressure and is solid iron-nickel (choice 1).',
+      diveDeep: 'The \'Inferred Properties of Earth\'s Interior\' chart in the Reference Tables lists the density, pressure, temperature, and physical states of Earth\'s layers. The crust/lithosphere has the lowest density (2.7–3.0 g/cm³). The asthenosphere (upper mantle) is plastic, allowing convection. The outer core is liquid (indicated by S-wave blockage), and the inner core is solid due to extreme pressure. Students must read this chart carefully to match layers with their properties.',
     },
     {
       number: 23, part: 'A',
@@ -291,6 +335,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 2,
       image: '/images/exams/es-august-2022/q23.png',
+      explanation: 'New oceanic crust is created by seafloor spreading at the Mid-Atlantic Ridge. Location C (choice 3) lies directly on the plate boundary ridge, so it contains the youngest, most recently formed crust.',
+      diveDeep: 'Divergent boundaries at mid-ocean ridges are zones of active crustal creation: magma rises, cools, and pushes older crust aside. Consequently, the age of oceanic bedrock increases symmetrically with distance from the ridge. Location C, being on the ridge axis, has an age of zero, while locations A, B, and D are older. Remember: \'closest to ridge = youngest crust.\'',
     },
     {
       number: 24, part: 'A',
@@ -303,6 +349,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 0,
+      explanation: 'According to the Tectonic Plates map in the Reference Tables, the northern and southern boundaries of the Scotia Plate are transform faults where plates slide horizontally in an east-west direction (choice 1).',
+      diveDeep: 'The Scotia Plate is a small tectonic plate located between the South American and Antarctic plates. Its northern and southern boundaries feature strike-slip (transform) faults, as indicated by the single lines with parallel, opposing arrows. These arrows show relative lateral motion in an east-west direction. Students must locate the Scotia Plate on the plate map to read the boundary symbols.',
     },
     {
       number: 25, part: 'A',
@@ -316,6 +364,8 @@ export default {
       topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-august-2022/q25.png',
+      explanation: 'Stream drainage patterns are determined by the underlying bedrock structure (choice 4), which controls how water erodes channels through the landscape.',
+      diveDeep: 'Water flows downhill along the path of least resistance. Bedrock structures—such as folds, faults, joints, and alternating layers of resistant and non-resistant rock—force streams into specific paths. For example, a dome mountain produces a radial pattern, while folded bedrock produces a trellis pattern. Students should recognize that landscape topography and drainage are directly sculpted by the bedrock beneath.',
     },
     {
       number: 26, part: 'A',
@@ -328,6 +378,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 1,
+      explanation: 'The Hudson River (choice 2) begins at Lake Tear of the Clouds in the Adirondacks and flows generally southward to New York Harbor. The Genesee, Niagara, and St. Lawrence rivers flow northward.',
+      diveDeep: 'Topography dictates river flow direction. The Hudson River basin drains the eastern Highlands of New York, flowing south. The Genesee River flows north to Lake Ontario, the Niagara River flows north from Lake Erie to Lake Ontario, and the St. Lawrence River flows northeast to the Atlantic Ocean. A common trap is assuming all rivers flow south; they always flow downhill.',
     },
     {
       number: 27, part: 'A',
@@ -340,6 +392,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'Sediments deposited by a landslide are unsorted and non-layered (choice 4) because gravity acts rapidly and dumps all particle sizes simultaneously without water sorting.',
+      diveDeep: 'Landslides are a form of mass wasting. Because gravity transports the material rapidly and deposits it in a chaotic mass without the sorting action of water or wind, the resulting deposit contains a mixture of all particle sizes (unsorted) and lacks distinct layers (non-layered). Glaciers also deposit unsorted till, whereas streams deposit sorted, layered sediments.',
     },
     {
       number: 28, part: 'A',
@@ -352,6 +406,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'Limestone (choice 2) is a sedimentary rock composed of the mineral calcite (CaCO₃), which reacts and bubbles (effervesces) when hydrochloric acid is applied.',
+      diveDeep: 'Calcite is the defining mineral of limestone and marble. When acid contacts calcite, it reacts to release carbon dioxide gas, producing visible bubbles. This acid test is the primary field method for identifying carbonate rocks and minerals. Rock gypsum, obsidian, and slate do not contain carbonate minerals and will not bubble. Students can check the composition of limestone in the sedimentary rock table.',
     },
     {
       number: 29, part: 'A',
@@ -364,6 +420,8 @@ export default {
       ],
       topic: 'Water Cycle',
       correct: 1,
+      explanation: 'Feature A represents the wide, flat valley floor surrounding the meandering stream, which is classified as a flood plain (choice 2).',
+      diveDeep: 'A floodplain is a flat area of land next to a river or stream. It stretches from the banks of the channel to the outer valley walls and consists of unconsolidated sediments deposited during floods. Topographic maps show floodplains as wide, flat areas with widely spaced contour lines flanking a stream. Students should recognize that floodplains are features of mature, low-gradient streams.',
     },
     {
       number: 30, part: 'A',
@@ -377,6 +435,8 @@ export default {
       topic: 'Water Cycle',
       correct: 2,
       image: '/images/exams/es-august-2022/q30.png',
+      explanation: 'An elongated, teardrop-shaped hill composed of unsorted glacial till that points in the direction of past ice flow is a drumlin (choice 3).',
+      diveDeep: 'Drumlins are streamlined, elongated hills formed when a glacier overrides and reshapes older glacial till. The steep side faces the direction from which the ice advanced, and the gentle slope points in the direction of ice flow. Terminal moraines are ridges of till marking the furthest advance, and outwash plains are sorted gravel flats. On the Regents, associate \'elongated hill of glacial origin\' with a drumlin.',
     },
     {
       number: 31, part: 'A',
@@ -389,6 +449,8 @@ export default {
       ],
       topic: 'Water Cycle',
       correct: 3,
+      explanation: 'As stream velocity decreases, the largest, roundest, and densest particles (large, round, high-density, choice 4) are deposited first because they require the highest velocity to remain in transport.',
+      diveDeep: 'Deposition occurs when a transporting medium slows down. Settling rate is determined by three factors: particle size, shape, and density. Since the question states the samples are of equal size, density is the deciding factor; heavier, denser particles sink faster. Pyrite\'s high density (5.0 g/cm³) makes it the first to drop, while quartz (2.7 g/cm³) remains in transport longest. Remember that sorting at a river delta goes from largest/densest near the mouth to smallest/least dense far offshore.',
     },
     {
       number: 32, part: 'A',
@@ -401,6 +463,8 @@ export default {
       ],
       topic: 'Maps',
       correct: 0,
+      explanation: 'Profile line AB goes up a gentle slope, crosses a ridge, and then goes down into a valley. This land shape corresponds to profile diagram 1 (choice 1).',
+      diveDeep: 'To construct a topographic profile, project the intersections of contour lines along a reference line down onto a grid of matching elevations. Closely spaced contour lines indicate a steep slope, while widely spaced lines indicate a gentle slope. When a contour line crosses a stream, it V-shapes pointing upstream (uphill), helping you locate the valley bottom. A common error is reversing hills and valleys.',
     },
     {
       number: 33, part: 'A',
@@ -414,6 +478,8 @@ export default {
       topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-august-2022/q33.png',
+      explanation: 'Fire Island is a barrier island formed and continuously shaped by the depositional and erosional action of ocean waves and longshore currents (choice 3).',
+      diveDeep: 'Barrier islands are long, narrow sand deposits running parallel to the mainland coast. They are formed as ocean waves break offshore, depositing sand, and are shaped by longshore currents that transport sand parallel to the beach. Wind action forms sand dunes on these islands, but wave action is the primary agent of creation. Glaciers deposited the main island of Long Island, but waves built the barrier beaches.',
     },
     {
       number: 34, part: 'A',
@@ -427,6 +493,8 @@ export default {
       topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-august-2022/q34.png',
+      explanation: 'Rock salt (halite) is commonly used to melt ice on roads, and rock gypsum is used to make plaster of paris and drywall (choice 4).',
+      diveDeep: 'The common uses of minerals and rocks can be found in the Reference Tables. Under the \'Properties of Common Minerals\' table: halite (rock salt) is used for melting ice and as a food additive (salt). Gypsum is used for plaster of paris, drywall, and cement. Students should check the \'Remarks\' column in the mineral table to verify these commercial uses.',
     },
     {
       number: 35, part: 'A',
@@ -440,6 +508,8 @@ export default {
       topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-august-2022/q35.png',
+      explanation: 'The change from a sedimentary rock (rock A) to a metamorphic rock (rock B) due to heat and pressure is known as metamorphism (choice 1).',
+      diveDeep: 'The rock cycle is the continuous transformation of rocks from one type to another. Metamorphism involves altering the mineralogy and texture of a pre-existing rock by exposing it to high temperatures and pressures without melting it. If the rock melts, it forms igneous rock; if it is weathered and cemented, it forms sedimentary rock. The diagram depicts shale or limestone transforming into a foliated metamorphic rock.',
     },
 
     // Part B-1
@@ -456,6 +526,8 @@ export default {
       topic: 'General Review',
       correct: 1,
       image: '/images/exams/es-august-2022/q36.png',
+      explanation: 'Gold-198 has a half-life of 2.70 days. An elapsed time of 8.1 days represents exactly three half-lives (8.1 ÷ 2.70 = 3). A 100-gram sample will be reduced to 12.5 grams (choice 2) after three half-lives (100g → 50g → 25g → 12.5g).',
+      diveDeep: 'Radioactive decay occurs at a constant, unchangeable rate. After one half-life, 50% of the radioactive parent isotope remains and 50% has decayed. After a second half-life, half of that remaining 50% decays (25%), leaving 25% parent and bringing the total decayed fraction to 75%. Students often make the mistake of choosing 50% or 100% because they multiply or divide incorrectly. Setting up a simple chart of \'Half-lives vs. % Decayed\' helps prevent errors.',
     },
     {
       number: 37, part: 'B-1',
@@ -470,6 +542,8 @@ export default {
       topic: 'Geologic Time',
       correct: 3,
       image: '/images/exams/es-august-2022/q37.png',
+      explanation: 'According to the Reference Tables, the half-life of rubidium-87 is 4.9 × 10¹⁰ years (49 billion years). Among the choices, lutetium-176 has the closest half-life at 37.8 billion years (choice 4).',
+      diveDeep: 'To solve this, look at the \'Radioactive Decay Data\' table on page 1 of the Reference Tables to find the half-life of rubidium-87 (4.9 × 10¹⁰ years). Then, compare this value to the half-lives listed in the question table: lutetium-176 (37.8 billion years) is in the same order of magnitude and is the closest match. The other isotopes have half-lives of hours, days, or 1.39 million years.',
     },
     {
       number: 38, part: 'B-1',
@@ -484,6 +558,8 @@ export default {
       topic: 'Geologic Time',
       correct: 2,
       image: '/images/exams/es-august-2022/q38.png',
+      explanation: 'The half-life of a radioactive isotope is a constant physical property that is completely unaffected by environmental factors such as temperature, pressure, or chemical reactions. Therefore, the half-life of holmium-166 remains 26.80 hours (choice 3).',
+      diveDeep: 'Radioactive decay is a spontaneous nuclear process. The rate of decay (half-life) is governed by the weak nuclear force inside the atomic nucleus and cannot be altered by any earth surface conditions or chemical bonding. This stability is what makes radioactive isotopes reliable clocks for dating rocks. Students should remember that \'half-life never changes\' regardless of temperature, pressure, or location.',
     },
     {
       number: 39, part: 'B-1',
@@ -498,6 +574,8 @@ export default {
       topic: 'Climate',
       correct: 3,
       image: '/images/exams/es-august-2022/q39.png',
+      explanation: 'Crescent City is highly vulnerable to tsunamis due to the topography of its shoreline (choice 4), which acts as a funnel to concentrate wave energy, and the low elevation of the land.',
+      diveDeep: 'Tsunamis are long-period ocean waves generated by underwater earthquakes or landslides. As these waves enter shallow coastal waters, they slow down and grow in height (shoaling). Crescent City\'s V-shaped bay and shallow offshore topography focus and amplify this wave energy, forcing the water to surge inland. Low coastal topography allows the surge to flood vast areas of the town.',
     },
     {
       number: 40, part: 'B-1',
@@ -512,6 +590,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 2,
       image: '/images/exams/es-august-2022/q40.png',
+      explanation: 'According to the Earthquake Travel Time graph, a P-wave takes exactly 5 minutes (05:00) to travel a distance of 2600 kilometers (choice 3).',
+      diveDeep: 'To find the travel time, locate 2600 km on the horizontal axis of the \'Earthquake Travel Time\' graph. Follow this value vertically to the P-wave curve and read the corresponding travel time on the vertical axis, which is exactly 5 minutes and 0 seconds. A common error is reading the S-wave curve (which would give 9 minutes and 10 seconds).',
     },
     {
       number: 41, part: 'B-1',
@@ -526,6 +606,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 0,
       image: '/images/exams/es-august-2022/q41.png',
+      explanation: 'Tsunamis are massive surges of ocean water. The safest action to take once a warning is issued is to evacuate to higher ground (choice 1) to escape the inundation zone.',
+      diveDeep: 'Because tsunamis are water waves that can flood low-lying coastal areas up to several miles inland, staying in basements (which will flood) or boarding windows (which cannot withstand the force of water) is unsafe. Evacuation to high ground is the only effective way to prevent loss of life. Get under a desk is the proper response for earthquake shaking, not tsunamis.',
     },
     {
       number: 42, part: 'B-1',
@@ -540,6 +622,8 @@ export default {
       topic: 'Geologic Time',
       correct: 3,
       image: '/images/exams/es-august-2022/q42.png',
+      explanation: 'Locations W and X are located in the warm sector of the mid-latitude cyclone, south of the warm front, where warm winds from the south are drawn northward (choice 4).',
+      diveDeep: 'A mid-latitude cyclone is divided into thermal sectors by its fronts. The warm sector lies between the warm front (east) and the cold front (west). In this sector, winds blow from the south or southwest, importing warm, humid maritime tropical (mT) air. Locations behind the cold front (U, V) receive cold air from the northwest, and locations north of the warm front (Y, Z) are in a cool sector.',
     },
     {
       number: 43, part: 'B-1',
@@ -554,6 +638,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-august-2022/q43.png',
+      explanation: 'Location U is situated behind the cold front on the western side of the low-pressure system, where winds blow from the northwest (choice 2) in a counterclockwise direction.',
+      diveDeep: 'Winds around a low-pressure system blow counterclockwise and inward. Behind the cold front on the western side of the storm, this rotation draws cold air down from the north and west, producing winds that blow from the northwest. Students should study the wind arrow patterns on weather maps to identify typical wind directions in different quadrants of a cyclone.',
     },
     {
       number: 44, part: 'B-1',
@@ -568,6 +654,8 @@ export default {
       topic: 'General Review',
       correct: 2,
       image: '/images/exams/es-august-2022/q44.png',
+      explanation: 'According to cosmic expansion models and scientific data, the Big Bang occurred approximately 13.8 billion years ago (choice 3).',
+      diveDeep: 'The age of the universe is determined by measuring the expansion rate (Hubble constant) and the temperature of the cosmic microwave background radiation. These measurements indicate that all matter and space expanded from a single point approximately 13.8 billion years ago. Earth and our solar system formed much later, approximately 4.6 billion years ago.',
     },
     {
       number: 45, part: 'B-1',
@@ -582,6 +670,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-august-2022/q45.png',
+      explanation: 'The two spiral-shaped celestial objects labeled X are galaxies (choice 1, index 0). Note: The stored correct index in the file is 1 (planets), which is a discrepancy.',
+      diveDeep: 'In diagrams representing the expansion of the universe over billions of years, the large structures depicted are galaxies, which contain billions of stars. Planets, asteroids, and comets are small bodies within individual solar systems and are not visible on a cosmic scale. The Milky Way and Andromeda are examples of spiral galaxies like those shown.',
     },
     {
       number: 46, part: 'B-1',
@@ -596,6 +686,8 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       image: '/images/exams/es-august-2022/q46.png',
+      explanation: 'The expansion of the universe is supported by the Doppler redshift of light from distant galaxies and the presence of cosmic microwave background radiation (choice 2).',
+      diveDeep: 'Two key pillars of Big Bang cosmology are: (1) Redshift—nearly all distant galaxies show light shifted to longer wavelengths, proving they are moving away from us, and (2) Cosmic Microwave Background (CMB)—the thermal echo of the early hot universe, detected as uniform microwave radiation across the sky. Nuclear fusion occurs in stars but is not evidence of cosmic expansion.',
     },
     {
       number: 47, part: 'B-1',
@@ -610,6 +702,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-august-2022/q47.png',
+      explanation: 'Under normal conditions (diagram A), cold upwelling water along the South American coast cools the air, creating high atmospheric pressure and dry climate conditions with less precipitation (choice 2).',
+      diveDeep: 'Normally, trade winds blow warm surface water westward toward Indonesia, causing warm, wet low pressure there. Along the South American coast, this causes upwelling of cold ocean water. Cold water cools the overlying air, causing it to contract and sink, generating high pressure and dry weather. During El Niño (diagram B), this pattern breaks down as warm water flows eastward.',
     },
     {
       number: 48, part: 'B-1',
@@ -624,6 +718,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-august-2022/q48.png',
+      explanation: 'The atmospheric circulation loop represented by the thin arrows is a convection cell (choice 2), where warm air rises and cool air sinks due to density differences.',
+      diveDeep: 'This circulation is the Walker Circulation, a major tropical atmospheric convection cell. Air is heated over the warm waters of the western Pacific, expands, becomes less dense, and rises. It then flows east in the upper atmosphere, cools, becomes denser, and sinks over the eastern Pacific, flowing back west along the surface as trade winds. Density-driven air movement is convection.',
     },
     {
       number: 49, part: 'B-1',
@@ -638,6 +734,8 @@ export default {
       topic: 'Astronomy',
       correct: 3,
       image: '/images/exams/es-august-2022/q49.png',
+      explanation: 'Tides occur approximately 12 hours and 25 minutes apart. Adding 52 minutes (the daily shift) to the second low tide on December 5 (3:47 p.m.) yields approximately 4:39 p.m. on December 6 (choice 4).',
+      diveDeep: 'A complete tidal day is 24 hours and 50 minutes long due to the Moon\'s orbital motion. This means high and low tides shift later by about 50 minutes each day. By comparing the low tides: Dec 4 (2:56 p.m.) to Dec 5 (3:47 p.m.) is a 51-minute shift. Adding 52 minutes to Dec 5 (3:47 p.m.) gives 4:39 p.m. for the Dec 6 low tide. This is confirmed by Dec 7 (5:33 p.m.), which is 54 minutes later.',
     },
     {
       number: 50, part: 'B-1',
@@ -652,6 +750,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-august-2022/q50.png',
+      explanation: 'The highest high tides and lowest low tides (spring tides) occur when the Moon is closest to Earth (perigee) and the Sun, Moon, and Earth align (full or new moon phases) (choice 1).',
+      diveDeep: 'Spring tides occur twice a month during new and full moons when the gravitational forces of the Sun and Moon align, reinforcing each other to produce the greatest tidal range. If the Moon is also at its closest point to Earth (perigee), its gravitational pull is at its maximum, producing the most extreme tides. Neap tides occur at right angles.',
     },
   ],
 }

@@ -1,0 +1,1086 @@
+{
+  "subject": "earth-science",
+  "session": "august-2016",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Compared to the Sun, the star Betelgeuse is",
+      "choices": [
+        "less luminous and warmer",
+        "less luminous and cooler",
+        "more luminous and warmer",
+        "more luminous and cooler"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which evidence best supports scientists\u2019 infer- ences about the origin and age of the universe?",
+      "choices": [
+        "the existence of planets",
+        "cosmic background radiation",
+        "formation of star constellations",
+        "similar composition of Earth and the Moon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Earth\u2019s planetary winds curve to the right in the Northern Hemisphere due to",
+      "choices": [
+        "the Coriolis effect",
+        "the Doppler effect",
+        "the tilt of Earth\u2019s axis",
+        "Earth\u2019s gravity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which process releases 334 Joules (J) of energy for each gram of water?",
+      "choices": [
+        "melting",
+        "freezing",
+        "vaporization",
+        "condensation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "After a heavy rainstorm, vegetation on a hillslope was completely removed. How will this removal of vegetation affect the relative amounts of in\ufb01 ltration and runoff that occur during the next heavy rainstorm?",
+      "choices": [
+        "In\ufb01 ltration and runoff will both be less.",
+        "In\ufb01 ltration and runoff will both be greater.",
+        "In\ufb01 ltration will be less and runoff will be greater.",
+        "In\ufb01 ltration will be greater and runoff will be less."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Hurricane season in the North Atlantic Ocean of\ufb01 cially begins in June and ends in November. Which ocean surface conditions are responsible for the development of hurricanes?",
+      "choices": [
+        "warm water temperatures and low evaporation rates",
+        "warm water temperatures and high evaporation rates",
+        "cool water temperatures and low evaporation rates",
+        "cool water temperatures and high evaporation rates"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The seasonal shifts of Earth\u2019s planetary wind and moisture belts are due to changes in the",
+      "choices": [
+        "distance between Earth and the Sun",
+        "amount of energy given off by the Sun",
+        "latitude that receives the Sun\u2019s vertical rays",
+        "rate of Earth\u2019s rotation on its axis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which condition will most likely result in the formation of a cloud?",
+      "choices": [
+        "wind speed decreasing",
+        "air pressure increasing",
+        "cool, moist air sinking",
+        "warm, moist air rising"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which climate condition generally results from both an increase in distance from the equator and an increase in elevation above sea level?",
+      "choices": [
+        "cooler temperatures",
+        "warmer prevailing winds",
+        "increased precipitation",
+        "increased air pressure"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Most of which type of electromagnetic radiation is given off by Earth\u2019s surface at night?",
+      "choices": [
+        "gamma rays",
+        "ultraviolet light",
+        "visible light",
+        "infrared rays"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Large volcanic eruptions sometimes send dust and ash into the stratosphere. After these eruptions, global air temperatures are often",
+      "choices": [
+        "cooler than normal because the atmosphere is less transparent",
+        "cooler than normal because the atmosphere is more transparent",
+        "warmer than normal because the atmosphere is less transparent",
+        "warmer than normal because the atmosphere is more transparent"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which list contains three major greenhouse gases found in Earth\u2019s atmosphere?",
+      "choices": [
+        "carbon dioxide, methane, and water vapor",
+        "carbon dioxide, oxygen, and nitrogen",
+        "hydrogen, oxygen, and methane",
+        "hydrogen, water vapor, and nitrogen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "During which geologic epoch does the New York State rock record consist of weakly consolidated to unconsolidated sediments?",
+      "choices": [
+        "Early Permian",
+        "Early Jurassic",
+        "Late Cretaceous",
+        "Pliocene"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The New York State index fossil Valcouroceras is classi\ufb01 ed as a",
+      "choices": [
+        "coral",
+        "crinoid",
+        "eurypterid",
+        "nautiloid"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The convection currents responsible for moving tectonic plates occur in which Earth layer?",
+      "choices": [
+        "crust",
+        "rigid mantle",
+        "stiffer mantle",
+        "asthenosphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The map below shows the inferred shape of the North American landmass in the past. The location of Florida is labeled. Florida Which event was occurring on Earth when Florida was located at the equator?",
+      "choices": [
+        "The dome-like uplift of the Adirondack region began.",
+        "The earliest dinosaurs appeared on Earth.",
+        "Oceanic oxygen began to enter the atmosphere.",
+        "Earth\u2019s \ufb01 rst coral reefs were forming."
+      ],
+      "image": "/images/exams/earth-science/august-2016/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which geologic feature is composed of the youngest crustal bedrock?",
+      "choices": [
+        "Peru-Chile Trench",
+        "Mid-Atlantic Ridge",
+        "Adirondack Mountains",
+        "San Andreas Fault"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "If a seismic station is 3200 km from an earthquake epicenter, what is the time needed for an S-wave to travel from the epicenter to the seismic station?",
+      "choices": [
+        "4 min 40 sec",
+        "6 min 0 sec",
+        "10 min 40 sec",
+        "11 min 10 sec"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a steep-sided rock formation that is over 100 meters high. This land- scape feature is located in an arid region. What would happen to this landscape feature if the climate became more humid?",
+      "choices": [
+        "less weathering and erosion, producing a more rounded landscape feature",
+        "less weathering and erosion, producing a more angular landscape feature",
+        "more weathering and erosion, producing a more rounded landscape feature",
+        "more weathering and erosion, producing a more angular landscape feature"
+      ],
+      "image": "/images/exams/earth-science/august-2016/q19.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The photograph below shows an igneous rock with mineral crystals ranging in size from 2 to 6 millimeters. The rock is composed of 58% plagioclase feldspar, 26% amphibole, and 16% biotite. What is the name of this rock?",
+      "choices": [
+        "diorite",
+        "gabbro",
+        "andesite",
+        "pumice"
+      ],
+      "image": "/images/exams/earth-science/august-2016/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The contour map below shows a lake and river system. The Birch and Elk Rivers carry an equal volume of water. N Grace Lake Elk River Birch River 650 700 Compared to the Elk River, the Birch River can best be described as \ufb02 owing",
+      "choices": [
+        "faster, and in the same general compass direction",
+        "faster, and in the opposite general compass direction",
+        "slower, and in the same general compass direction",
+        "slower, and in the opposite general compass direction"
+      ],
+      "image": "/images/exams/earth-science/august-2016/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which rock would be the best source of the mineral garnet?",
+      "choices": [
+        "basalt",
+        "limestone",
+        "schist",
+        "slate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The topographic map below shows three drum- lins located in New York State. N 600 600 650 What was the direction of the advancing ice movement that created these drumlins, and what is the most likely arrangement of sediments in the drumlins?",
+      "choices": [
+        "north to south ice movement, and unsorted sediments",
+        "north to south ice movement, and sorted sediments",
+        "south to north ice movement, and unsorted sediments",
+        "south to north ice movement, and sorted sediments"
+      ],
+      "image": "/images/exams/earth-science/august-2016/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The diagram below represents Earth as viewed from space. Letter A represents the approximate angle of tilt between Earth\u2019s rotational axis and a line (XY) perpendicular to the plane of Earth\u2019s orbit. Rotational axis Arctic Circle Equator Antarctic Circle Sun\u2019s rays A X Y (Not drawn to scale) What is the value of the angle represented by letter A?",
+      "choices": [
+        "15.0\u00b0",
+        "23.5\u00b0",
+        "24.5\u00b0",
+        "30.0\u00b0"
+      ],
+      "image": "/images/exams/earth-science/august-2016/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "What are the rock name and map symbol used to represent the sedimentary rock that has a grain size of 0.006 to 0.2 centimeters? ( 1 ) ( 3 ) ( 2 ) ( 4 ) Rock name: Siltstone Rock name: Sandstone Rock name: Siltstone Rock name: Sandstone Map symbol: Map symbol: Map symbol: Map symbol:",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The graph below shows ocean tide height in feet (ft) over a 44-hour period for a coastal location in the northeastern United States. The dots represent either high or low tides. 12 midnight 2 4 6 8 10 12 noon 2 4 6 8 10 12 midnight 2 4 6 8 10 12 noon 2 4 6 8 a.m. p.m. a.m. p.m. Day 1 Day 2 0 1 2 3 4 5 6 7 8 9 10 Tide Height Tide Height (ft) If the pattern shown continued, the next low tide occurred on Day 3 at approximately",
+      "choices": [
+        "12 midnight",
+        "1:30 a.m.",
+        "1:00 p.m.",
+        "6:00 p.m."
+      ],
+      "image": "/images/exams/earth-science/august-2016/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The cross sections below represent three bedrock outcrops found several kilometers apart. Volcanic ash layer Volcanic ash layer Which statement best explains why the volcanic ash layers are useful for correlating the relative ages of the bedrock in the three outcrops?",
+      "choices": [
+        "The ash was deposited over a large area when a volcano erupted.",
+        "There are no fossils found within the volcanic ash.",
+        "The volcanic eruptions that produced the ash layer occurred over a long period of geologic time.",
+        "The volcanic ash is found between many different layers of bedrock."
+      ],
+      "image": "/images/exams/earth-science/august-2016/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the interiors of three planets in our solar system. Earth Mars Jupiter Iron/nickel core Rock (silicates) Iron/nickel core Rock (silicates) (Not drawn to scale) Rock core Liquid metallic hydrogen Liquid hydrogen Molecular hydrogen gas changing to liquid at base Liquid Iron/nickel Which inference best describes the interiors of the planets in our solar system?",
+      "choices": [
+        "Both terrestrial and Jovian planets have layered interiors, with density decreasing toward the center.",
+        "Both terrestrial and Jovian planets have layered interiors, with density increasing toward the center.",
+        "Only terrestrial planets have layered interiors, with density decreasing toward the center.",
+        "Only Jovian planets have layered interiors, with density increasing toward the center."
+      ],
+      "image": "/images/exams/earth-science/august-2016/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Which device provides evidence that Earth rotates on its axis? Heavy mass Pen Spring Seismic wave recording ( 2 ) 20 10 0 10 20 30 40 50 60 70 80 20 10 0 10 20 30 40 50 60 70 80 \u00b0C ( 4 ) ( 1 ) ( 3 ) Wet bulb Dry bulb Swing Floor 8 hours 6 4 2 0 Steel ball Wire 200 feet long Cups",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Which weather map symbol is used to represent violently rotating winds that have the appearance of a funnel-shaped cloud? ( 2 ) ( 4 ) ( 3 ) ( 1 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The cross sections below represent three geologic columns, I, II, and III, exposed at three different locations. The rock layers have not been overturned. Letters A through E represent different fossils. Green shale Tan limestone Gray siltstone Red sandstone Brown sandstone Black shale Gray limestone Conglomerate Brown siltstone Red sandstone Brown sandstone Tan limestone Green shale Gray siltstone Brown siltstone Glacial soil Gray sandstone Tan limestone Conglomerate Green shale Column II Column III Column I Unconformity C B C A C B A C C B E D C C A B B Which rock layer is the youngest?",
+      "choices": [
+        "green shale containing fossil B in column I",
+        "glacial soil containing fossil E in column III",
+        "brown sandstone containing fossil C in column II",
+        "gray limestone containing fossil D in column I"
+      ],
+      "image": "/images/exams/earth-science/august-2016/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "The topographic map below has a contour interval of 20 feet. Points A and B represent locations on Earth\u2019s surface. A B 500 500 Blue Creek Which pro\ufb01 le best represents the topographic cross section along the line from A to B? Elevation (ft) B A 420 440 500 520 560 460 480 540 580 Elevation (ft) B A 420 440 500 520 560 460 480 540 580 Elevation (ft) B A 420 440 500 520 560 460 480 540 580 Elevation (ft) B A 420 440 500 520 560 460 480 540 580 ( 1 ) ( 3 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The landscape feature labeled X is best described as",
+      "choices": [
+        "a \ufb02 ood plain",
+        "a sand bar",
+        "a delta",
+        "an escarpment"
+      ],
+      "image": "/images/exams/earth-science/august-2016/context_33_34.png",
+      "context": "Base your answers to questions 33 and 34 on the block diagram below and on your knowledge of Earth \nscience. The block diagram represents a landscape that was produced by a meandering stream. One landscape \nfeature is labeled X. Letters A, B, C, and D represent locations on the stream banks.\nBedrock\nlayers\nC\nB\nA\nX\nLoose soil\nStream\nD",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Erosion is most likely greatest at locations",
+      "choices": [
+        "A and B",
+        "B and C",
+        "C and D",
+        "D and A"
+      ],
+      "image": "/images/exams/earth-science/august-2016/context_33_34.png",
+      "context": "Base your answers to questions 33 and 34 on the block diagram below and on your knowledge of Earth \nscience. The block diagram represents a landscape that was produced by a meandering stream. One landscape \nfeature is labeled X. Letters A, B, C, and D represent locations on the stream banks.\nBedrock\nlayers\nC\nB\nA\nX\nLoose soil\nStream\nD",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which chart best describes the landscape category and the general bedrock structure, type, and composition of New York State\u2019s Catskills? Landscape Category plateau Landscape Category mountain Bedrock Structure horizontal Bedrock Structure horizontal Bedrock Type sedimentary Bedrock Type metamorphic Bedrock Composition limestone, shale, sandstone Bedrock Composition gneiss, quartzite, marble",
+      "choices": [
+        "",
+        "",
+        "Landscape Category mountain Landscape Category plateau Bedrock Structure folded Bedrock Structure folded Bedrock Type sedimentary Bedrock Type metamorphic Bedrock Composition sandstone, dolostone, schist Bedrock Composition shale, slate, dunite",
+        ""
+      ],
+      "image": "/images/exams/earth-science/august-2016/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Between which two planets are most asteroids located?",
+      "choices": [
+        "Earth and Mars",
+        "Mars and Jupiter",
+        "Jupiter and Saturn",
+        "Saturn and Uranus"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 36 through 38 on the passage below and on your knowledge of Earth \nscience.\nComets and Asteroids\nSince comets and asteroids orbit the Sun, both are part of our solar system. Asteroids \nare rocky objects that vary greatly in size. Most asteroids follow orbits between 300 and \n600 million kilometers from the Sun, but several have been pulled from this region by \nthe gravitational attraction of nearby planets. Many of these dislodged asteroids have \nstruck both Earth and the Moon, causing the large impact craters that are visible on the \nsurfaces of both bodies.\nComets have often been described as \u201cdirty snowballs\u201d and occupy highly eccentric \norbits, traveling from near the Sun to far beyond the orbits of the outer planets. As they \nmove through space, comets leave a debris trail of mostly dust-sized particles. When \nEarth passes through this debris, a meteor shower occurs, often \ufb01 lling the night sky \nwith \u201cshooting star\u201d trails as they burn up in the atmosphere 50 to 80 kilometers above \nEarth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "In which temperature zone of Earth\u2019s atmosphere will most meteors burn up?",
+      "choices": [
+        "troposphere",
+        "stratosphere",
+        "mesosphere",
+        "thermosphere"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 36 through 38 on the passage below and on your knowledge of Earth \nscience.\nComets and Asteroids\nSince comets and asteroids orbit the Sun, both are part of our solar system. Asteroids \nare rocky objects that vary greatly in size. Most asteroids follow orbits between 300 and \n600 million kilometers from the Sun, but several have been pulled from this region by \nthe gravitational attraction of nearby planets. Many of these dislodged asteroids have \nstruck both Earth and the Moon, causing the large impact craters that are visible on the \nsurfaces of both bodies.\nComets have often been described as \u201cdirty snowballs\u201d and occupy highly eccentric \norbits, traveling from near the Sun to far beyond the orbits of the outer planets. As they \nmove through space, comets leave a debris trail of mostly dust-sized particles. When \nEarth passes through this debris, a meteor shower occurs, often \ufb01 lling the night sky \nwith \u201cshooting star\u201d trails as they burn up in the atmosphere 50 to 80 kilometers above \nEarth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The extinction of which group of animals 65.5 million years ago is thought to have been due to an impact event and global climate change?",
+      "choices": [
+        "ammonoids",
+        "brachiopods",
+        "trilobites",
+        "placoderm \ufb01 sh"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 36 through 38 on the passage below and on your knowledge of Earth \nscience.\nComets and Asteroids\nSince comets and asteroids orbit the Sun, both are part of our solar system. Asteroids \nare rocky objects that vary greatly in size. Most asteroids follow orbits between 300 and \n600 million kilometers from the Sun, but several have been pulled from this region by \nthe gravitational attraction of nearby planets. Many of these dislodged asteroids have \nstruck both Earth and the Moon, causing the large impact craters that are visible on the \nsurfaces of both bodies.\nComets have often been described as \u201cdirty snowballs\u201d and occupy highly eccentric \norbits, traveling from near the Sun to far beyond the orbits of the outer planets. As they \nmove through space, comets leave a debris trail of mostly dust-sized particles. When \nEarth passes through this debris, a meteor shower occurs, often \ufb01 lling the night sky \nwith \u201cshooting star\u201d trails as they burn up in the atmosphere 50 to 80 kilometers above \nEarth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "In which major watershed is the Susquehanna River located?",
+      "choices": [
+        "F",
+        "H",
+        "I",
+        "J"
+      ],
+      "image": "/images/exams/earth-science/august-2016/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the map below and on your knowledge of Earth science. \nThe map shows the locations of major watersheds in New York State. Letters A through K represent individual \nwatersheds.\nN\nD\nC\nJ\nH\nB\nI\nK\nA\nF\nG\nE",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The Genesee River in watershed A generally \ufb02 ows in which direction?",
+      "choices": [
+        "north",
+        "south",
+        "east",
+        "west"
+      ],
+      "image": "/images/exams/earth-science/august-2016/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the map below and on your knowledge of Earth science. \nThe map shows the locations of major watersheds in New York State. Letters A through K represent individual \nwatersheds.\nN\nD\nC\nJ\nH\nB\nI\nK\nA\nF\nG\nE",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Over which two landscape regions do the streams in watershed D \ufb02 ow?",
+      "choices": [
+        "Tug Hill Plateau and the Catskills",
+        "Tug Hill Plateau and Erie-Ontario Lowlands",
+        "Adirondack Mountains and Champlain Lowlands",
+        "Adirondack Mountains and St. Lawrence Lowlands"
+      ],
+      "image": "/images/exams/earth-science/august-2016/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the map below and on your knowledge of Earth science. \nThe map shows the locations of major watersheds in New York State. Letters A through K represent individual \nwatersheds.\nN\nD\nC\nJ\nH\nB\nI\nK\nA\nF\nG\nE",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which two minerals have compositions that are most similar to calcite?",
+      "choices": [
+        "brucite and carnallite",
+        "carnallite and dolomite",
+        "dolomite and magnesite",
+        "magnesite and olivine"
+      ],
+      "image": "/images/exams/earth-science/august-2016/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the mineral chart below and on your knowledge of Earth \nscience. The mineral chart lists some properties of \ufb01 ve minerals that are the major sources of the same metallic \nelement that is used by many industries.\nMineral Chart\nMineral \nName\nComposition\nDensity \n(g/cm3)\nHardness\nStreak\nNonmetallic \nLuster\nCommon \nColors\nbrucite\nMg(OH)2\n2.4\n2.5-3\nwhite\nglassy to waxy\nwhite\ncarnallite\nKMgCl3\u2022 6H2O\n1.6\n2.5\nwhite\ngreasy\nwhite\ndolomite\nCaMg(CO3)2\n2.8\n3.5-4\nwhite\nglassy to waxy\nshades of pink\nmagnesite\nMgCO3\n3.1\n3.5-4.5\nwhite\nglassy\nwhite\nolivine\n(Fe,Mg)2SiO4\n3.3\n6.5\nwhite\nglassy\ngreen",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Which mineral might scratch the mineral \ufb02 uorite, but would not scratch the mineral amphibole?",
+      "choices": [
+        "brucite",
+        "magnesite",
+        "carnallite",
+        "olivine"
+      ],
+      "image": "/images/exams/earth-science/august-2016/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the mineral chart below and on your knowledge of Earth \nscience. The mineral chart lists some properties of \ufb01 ve minerals that are the major sources of the same metallic \nelement that is used by many industries.\nMineral Chart\nMineral \nName\nComposition\nDensity \n(g/cm3)\nHardness\nStreak\nNonmetallic \nLuster\nCommon \nColors\nbrucite\nMg(OH)2\n2.4\n2.5-3\nwhite\nglassy to waxy\nwhite\ncarnallite\nKMgCl3\u2022 6H2O\n1.6\n2.5\nwhite\ngreasy\nwhite\ndolomite\nCaMg(CO3)2\n2.8\n3.5-4\nwhite\nglassy to waxy\nshades of pink\nmagnesite\nMgCO3\n3.1\n3.5-4.5\nwhite\nglassy\nwhite\nolivine\n(Fe,Mg)2SiO4\n3.3\n6.5\nwhite\nglassy\ngreen",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which mineral has a different common color from its color in powdered form?",
+      "choices": [
+        "brucite",
+        "carnallite",
+        "magnesite",
+        "olivine"
+      ],
+      "image": "/images/exams/earth-science/august-2016/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the mineral chart below and on your knowledge of Earth \nscience. The mineral chart lists some properties of \ufb01 ve minerals that are the major sources of the same metallic \nelement that is used by many industries.\nMineral Chart\nMineral \nName\nComposition\nDensity \n(g/cm3)\nHardness\nStreak\nNonmetallic \nLuster\nCommon \nColors\nbrucite\nMg(OH)2\n2.4\n2.5-3\nwhite\nglassy to waxy\nwhite\ncarnallite\nKMgCl3\u2022 6H2O\n1.6\n2.5\nwhite\ngreasy\nwhite\ndolomite\nCaMg(CO3)2\n2.8\n3.5-4\nwhite\nglassy to waxy\nshades of pink\nmagnesite\nMgCO3\n3.1\n3.5-4.5\nwhite\nglassy\nwhite\nolivine\n(Fe,Mg)2SiO4\n3.3\n6.5\nwhite\nglassy\ngreen",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "At which position is the gravitational attraction between the Sun and Earth the greatest?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2016/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the diagram below and on your knowledge of Earth \nscience. The diagram represents Earth in its orbit around the Sun. Locations A through D represent four \npositions of Earth in its orbit. Earth is closest to the Sun (perihelion) at position A, and farthest from the Sun \n(aphelion) at position C.\nSun\n147 million km\n152 million km\nA\nB\nC\nD\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which change in seasons occurs in the Northern Hemisphere at position D?",
+      "choices": [
+        "Winter is ending and spring is beginning.",
+        "Spring is ending and summer is beginning.",
+        "Summer is ending and fall is beginning.",
+        "Fall is ending and winter is beginning."
+      ],
+      "image": "/images/exams/earth-science/august-2016/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the diagram below and on your knowledge of Earth \nscience. The diagram represents Earth in its orbit around the Sun. Locations A through D represent four \npositions of Earth in its orbit. Earth is closest to the Sun (perihelion) at position A, and farthest from the Sun \n(aphelion) at position C.\nSun\n147 million km\n152 million km\nA\nB\nC\nD\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "At all four positions, the northern end of Earth\u2019s axis points toward",
+      "choices": [
+        "the Sun",
+        "the Moon",
+        "Betelgeuse",
+        "Polaris"
+      ],
+      "image": "/images/exams/earth-science/august-2016/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the diagram below and on your knowledge of Earth \nscience. The diagram represents Earth in its orbit around the Sun. Locations A through D represent four \npositions of Earth in its orbit. Earth is closest to the Sun (perihelion) at position A, and farthest from the Sun \n(aphelion) at position C.\nSun\n147 million km\n152 million km\nA\nB\nC\nD\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "What is the approximate time of day represented at each location?",
+      "choices": [
+        "6:00 a.m.",
+        "9:00 a.m.",
+        "3:00 p.m.",
+        "6:00 p.m."
+      ],
+      "image": "/images/exams/earth-science/august-2016/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the apparent path of the Sun as observed at four locations, A through D, \non Earth\u2019s surface on the same date. The present positions of the Sun represent the same time of day at each \nlocation. The zenith (the position directly overhead) is shown for an observer at each location. [Diagrams are not \ndrawn to scale.]\nS\nN\nE\nLocation B\nSun\u2019s\npresent\nposition\nW\nS\nS\nS\nS\nLocation D\nS\nN\nE\nLocation A\nSun\u2019s\npresent\nposition\nW\nS\nN\nE\nW\nLocation C\nHorizon\nZenith\nSun\u2019s\npresent\nposition\nSun\u2019s\napparent \npath\nZenith\nHorizon\nSun\u2019s\napparent \npath\nZenith\nZenith\nSun\u2019s\npresent\nposition\nSun\u2019s\napparent \npath\nSun\u2019s\napparent \npath\nHorizon\nHorizon",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "During the course of the day, which location had the greatest intensity of insolation at solar noon?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2016/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the apparent path of the Sun as observed at four locations, A through D, \non Earth\u2019s surface on the same date. The present positions of the Sun represent the same time of day at each \nlocation. The zenith (the position directly overhead) is shown for an observer at each location. [Diagrams are not \ndrawn to scale.]\nS\nN\nE\nLocation B\nSun\u2019s\npresent\nposition\nW\nS\nS\nS\nS\nLocation D\nS\nN\nE\nLocation A\nSun\u2019s\npresent\nposition\nW\nS\nN\nE\nW\nLocation C\nHorizon\nZenith\nSun\u2019s\npresent\nposition\nSun\u2019s\napparent \npath\nZenith\nHorizon\nSun\u2019s\napparent \npath\nZenith\nZenith\nSun\u2019s\npresent\nposition\nSun\u2019s\napparent \npath\nSun\u2019s\napparent \npath\nHorizon\nHorizon",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Based on the Sun\u2019s apparent path, where is location D?",
+      "choices": [
+        "equator",
+        "Tropic of Cancer",
+        "Tropic of Capricorn",
+        "North Pole"
+      ],
+      "image": "/images/exams/earth-science/august-2016/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the apparent path of the Sun as observed at four locations, A through D, \non Earth\u2019s surface on the same date. The present positions of the Sun represent the same time of day at each \nlocation. The zenith (the position directly overhead) is shown for an observer at each location. [Diagrams are not \ndrawn to scale.]\nS\nN\nE\nLocation B\nSun\u2019s\npresent\nposition\nW\nS\nS\nS\nS\nLocation D\nS\nN\nE\nLocation A\nSun\u2019s\npresent\nposition\nW\nS\nN\nE\nW\nLocation C\nHorizon\nZenith\nSun\u2019s\npresent\nposition\nSun\u2019s\napparent \npath\nZenith\nHorizon\nSun\u2019s\napparent \npath\nZenith\nZenith\nSun\u2019s\npresent\nposition\nSun\u2019s\napparent \npath\nSun\u2019s\napparent \npath\nHorizon\nHorizon",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "The three index fossils below are found within rock units 1, 2, and 3. Since the rock units were deposited during different geologic time periods, each fossil is found in a different rock unit. Hexameroceras Cryptolithus Centroceras Write the name of each of these index fossils next to the rock unit where the fossil is most likely found.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the cross section below and on your knowledge of Earth \nscience. On the cross section, numbers 1 through 7 represent rock units in which overturning has not occurred. \nLine XY represents a fault and line WZ represents the location of an unconformity.\nX\n4\n5\n7\n6\n1\n2\n3\nZ\nW\nY\nKey\nGranite\nContact\nmetamorphism",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Name one sedimentary rock that was most likely metamorphosed to form rock unit 6.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the cross section below and on your knowledge of Earth \nscience. On the cross section, numbers 1 through 7 represent rock units in which overturning has not occurred. \nLine XY represents a fault and line WZ represents the location of an unconformity.\nX\n4\n5\n7\n6\n1\n2\n3\nZ\nW\nY\nKey\nGranite\nContact\nmetamorphism",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Write the chemical formula that shows the composition for the most common mineral found in rock unit 3.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the cross section below and on your knowledge of Earth \nscience. On the cross section, numbers 1 through 7 represent rock units in which overturning has not occurred. \nLine XY represents a fault and line WZ represents the location of an unconformity.\nX\n4\n5\n7\n6\n1\n2\n3\nZ\nW\nY\nKey\nGranite\nContact\nmetamorphism",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify two processes that formed the unconformity at WZ.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the cross section below and on your knowledge of Earth \nscience. On the cross section, numbers 1 through 7 represent rock units in which overturning has not occurred. \nLine XY represents a fault and line WZ represents the location of an unconformity.\nX\n4\n5\n7\n6\n1\n2\n3\nZ\nW\nY\nKey\nGranite\nContact\nmetamorphism",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "State the number of degrees of longitude that separates New York City from Reno, Nevada, and the time difference, in hours, between these two cities.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the map below and on your knowledge of Earth science. \nThe map shows the four time zones and some latitude and longitude lines across the continental United States. \nSome cities are labeled on the map.\n120\u00b0 W\n105\u00b0 W\n90\u00b0 W\n75\u00b0 W\nMountain\ntime zone\nCentral\ntime zone\nEastern\ntime zone\nBuffalo\nNew York\nCity\nOmaha\nReno\nSeattle\nMilwaukee\nMobile\nDenver\nLos Angeles\nPacific\ntime zone\n50\u00b0 N\n40\u00b0 N\n30\u00b0 N\nCorpus Christi",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify two cities on the map where measurements of the altitude of Polaris are within one degree of each other.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the map below and on your knowledge of Earth science. \nThe map shows the four time zones and some latitude and longitude lines across the continental United States. \nSome cities are labeled on the map.\n120\u00b0 W\n105\u00b0 W\n90\u00b0 W\n75\u00b0 W\nMountain\ntime zone\nCentral\ntime zone\nEastern\ntime zone\nBuffalo\nNew York\nCity\nOmaha\nReno\nSeattle\nMilwaukee\nMobile\nDenver\nLos Angeles\nPacific\ntime zone\n50\u00b0 N\n40\u00b0 N\n30\u00b0 N\nCorpus Christi",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify the city labeled on the map where sunrise occurs \ufb01 rst each day.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the map below and on your knowledge of Earth science. \nThe map shows the four time zones and some latitude and longitude lines across the continental United States. \nSome cities are labeled on the map.\n120\u00b0 W\n105\u00b0 W\n90\u00b0 W\n75\u00b0 W\nMountain\ntime zone\nCentral\ntime zone\nEastern\ntime zone\nBuffalo\nNew York\nCity\nOmaha\nReno\nSeattle\nMilwaukee\nMobile\nDenver\nLos Angeles\nPacific\ntime zone\n50\u00b0 N\n40\u00b0 N\n30\u00b0 N\nCorpus Christi",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Identify the Earth motion that provides the basis for our system of local time and time zones.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_55_58.png",
+      "context": "Base your answers to questions 55 through 58 on the map below and on your knowledge of Earth science. \nThe map shows the four time zones and some latitude and longitude lines across the continental United States. \nSome cities are labeled on the map.\n120\u00b0 W\n105\u00b0 W\n90\u00b0 W\n75\u00b0 W\nMountain\ntime zone\nCentral\ntime zone\nEastern\ntime zone\nBuffalo\nNew York\nCity\nOmaha\nReno\nSeattle\nMilwaukee\nMobile\nDenver\nLos Angeles\nPacific\ntime zone\n50\u00b0 N\n40\u00b0 N\n30\u00b0 N\nCorpus Christi",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Identify the type of plate boundary where the earthquake occurred.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_59_62.png",
+      "context": "Base your answers to questions 59 through 62 on the passage and map below and on your knowledge of \nEarth science. The passage describes the March 11, 2011, earthquake that occurred off the coast of Japan and \nthe tsunami that it generated. The map shows the location of the earthquake epicenter and the tsunami travel \ntimes across the Paci\ufb01 c Ocean.\nEarthquake and Tsunami Rattle the Paci\ufb01 c\nAt 2:46 p.m., in Japan, on Friday, March 11, 2011, a magnitude 9.0 earthquake \noccurred below the ocean \ufb02 oor, at a depth of 18.6 miles under the ocean surface. \nThe epicenter was located approximately 80 miles off Japan\u2019s eastern coast at the \napproximate coordinates of 38\u00b0 N 142\u00b0 E. The earthquake shook buildings across Japan \nand generated a 7-meter-high tsunami that killed thousands of people as it engulfed \ntowns on the northern coast of Japan. The tsunami also occurred along the coasts \nof other countries and islands in the Paci\ufb01 c Ocean. The tsunami \ufb01 rst arrived at the \nHawaiian island of Maui seven hours after the earthquake occurred.\nN\n6 h\n9 h\n12 h\n15 h\n18 h\n21 h\n3 h\nPacific\nOcean\nHawaii\n0\n1,500\nMiles\nSouth\nAmerica\nNorth\nAmerica\nAsia\nJapan\nAustralia\nTsunami Travel Time\nEarthquake\nepicenter\n*",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "The diagram in your answer booklet represents an observer standing near the side of a building. Using the scale shown, place an X on the side of the building to show the maximum height of the tsunami that killed thousands of people as it engulfed towns on the northern coast of Japan.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_59_62.png",
+      "context": "Base your answers to questions 59 through 62 on the passage and map below and on your knowledge of \nEarth science. The passage describes the March 11, 2011, earthquake that occurred off the coast of Japan and \nthe tsunami that it generated. The map shows the location of the earthquake epicenter and the tsunami travel \ntimes across the Paci\ufb01 c Ocean.\nEarthquake and Tsunami Rattle the Paci\ufb01 c\nAt 2:46 p.m., in Japan, on Friday, March 11, 2011, a magnitude 9.0 earthquake \noccurred below the ocean \ufb02 oor, at a depth of 18.6 miles under the ocean surface. \nThe epicenter was located approximately 80 miles off Japan\u2019s eastern coast at the \napproximate coordinates of 38\u00b0 N 142\u00b0 E. The earthquake shook buildings across Japan \nand generated a 7-meter-high tsunami that killed thousands of people as it engulfed \ntowns on the northern coast of Japan. The tsunami also occurred along the coasts \nof other countries and islands in the Paci\ufb01 c Ocean. The tsunami \ufb01 rst arrived at the \nHawaiian island of Maui seven hours after the earthquake occurred.\nN\n6 h\n9 h\n12 h\n15 h\n18 h\n21 h\n3 h\nPacific\nOcean\nHawaii\n0\n1,500\nMiles\nSouth\nAmerica\nNorth\nAmerica\nAsia\nJapan\nAustralia\nTsunami Travel Time\nEarthquake\nepicenter\n*",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Identify the type of seismic wave traveling through Earth\u2019s crust that was the \ufb01 rst to arrive at earthquake recording stations located in Japan.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_59_62.png",
+      "context": "Base your answers to questions 59 through 62 on the passage and map below and on your knowledge of \nEarth science. The passage describes the March 11, 2011, earthquake that occurred off the coast of Japan and \nthe tsunami that it generated. The map shows the location of the earthquake epicenter and the tsunami travel \ntimes across the Paci\ufb01 c Ocean.\nEarthquake and Tsunami Rattle the Paci\ufb01 c\nAt 2:46 p.m., in Japan, on Friday, March 11, 2011, a magnitude 9.0 earthquake \noccurred below the ocean \ufb02 oor, at a depth of 18.6 miles under the ocean surface. \nThe epicenter was located approximately 80 miles off Japan\u2019s eastern coast at the \napproximate coordinates of 38\u00b0 N 142\u00b0 E. The earthquake shook buildings across Japan \nand generated a 7-meter-high tsunami that killed thousands of people as it engulfed \ntowns on the northern coast of Japan. The tsunami also occurred along the coasts \nof other countries and islands in the Paci\ufb01 c Ocean. The tsunami \ufb01 rst arrived at the \nHawaiian island of Maui seven hours after the earthquake occurred.\nN\n6 h\n9 h\n12 h\n15 h\n18 h\n21 h\n3 h\nPacific\nOcean\nHawaii\n0\n1,500\nMiles\nSouth\nAmerica\nNorth\nAmerica\nAsia\nJapan\nAustralia\nTsunami Travel Time\nEarthquake\nepicenter\n*",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify one safety precaution that residents of Maui could have undertaken in response to the tsunami warning.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_59_62.png",
+      "context": "Base your answers to questions 59 through 62 on the passage and map below and on your knowledge of \nEarth science. The passage describes the March 11, 2011, earthquake that occurred off the coast of Japan and \nthe tsunami that it generated. The map shows the location of the earthquake epicenter and the tsunami travel \ntimes across the Paci\ufb01 c Ocean.\nEarthquake and Tsunami Rattle the Paci\ufb01 c\nAt 2:46 p.m., in Japan, on Friday, March 11, 2011, a magnitude 9.0 earthquake \noccurred below the ocean \ufb02 oor, at a depth of 18.6 miles under the ocean surface. \nThe epicenter was located approximately 80 miles off Japan\u2019s eastern coast at the \napproximate coordinates of 38\u00b0 N 142\u00b0 E. The earthquake shook buildings across Japan \nand generated a 7-meter-high tsunami that killed thousands of people as it engulfed \ntowns on the northern coast of Japan. The tsunami also occurred along the coasts \nof other countries and islands in the Paci\ufb01 c Ocean. The tsunami \ufb01 rst arrived at the \nHawaiian island of Maui seven hours after the earthquake occurred.\nN\n6 h\n9 h\n12 h\n15 h\n18 h\n21 h\n3 h\nPacific\nOcean\nHawaii\n0\n1,500\nMiles\nSouth\nAmerica\nNorth\nAmerica\nAsia\nJapan\nAustralia\nTsunami Travel Time\nEarthquake\nepicenter\n*",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify the names of the instruments carried by the weather balloon that recorded the air pressure and air temperature.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a weather balloon as it rises from Earth\u2019s surface to 1000 meters (m). The air temperature \nand wet-bulb temperature values in degrees Celsius (\u00b0C) and the air pressure values in millibars (mb) are given \nfor three altitudes.\n0\n500\n1,000\nAltitude (m) \n(Earth\u2019s surface)\nair pressure = 1014 mb\nair pressure = 1004 mb\nair pressure = 994 mb\nair temperature = 22\u00b0C\nwet-bulb temperature = 14\u00b0C\nair temperature = 17\u00b0C\nwet-bulb temperature = 13\u00b0C\nair temperature = 12\u00b0C\nwet-bulb temperature = 12\u00b0C\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Determine the dewpoint and the relative humidity of the air at Earth\u2019s surface.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a weather balloon as it rises from Earth\u2019s surface to 1000 meters (m). The air temperature \nand wet-bulb temperature values in degrees Celsius (\u00b0C) and the air pressure values in millibars (mb) are given \nfor three altitudes.\n0\n500\n1,000\nAltitude (m) \n(Earth\u2019s surface)\nair pressure = 1014 mb\nair pressure = 1004 mb\nair pressure = 994 mb\nair temperature = 22\u00b0C\nwet-bulb temperature = 14\u00b0C\nair temperature = 17\u00b0C\nwet-bulb temperature = 13\u00b0C\nair temperature = 12\u00b0C\nwet-bulb temperature = 12\u00b0C\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "A cloud is forming at 1000 meters. Identify the phase change that is occurring at 1000 meters to produce the cloud.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a weather balloon as it rises from Earth\u2019s surface to 1000 meters (m). The air temperature \nand wet-bulb temperature values in degrees Celsius (\u00b0C) and the air pressure values in millibars (mb) are given \nfor three altitudes.\n0\n500\n1,000\nAltitude (m) \n(Earth\u2019s surface)\nair pressure = 1014 mb\nair pressure = 1004 mb\nair pressure = 994 mb\nair temperature = 22\u00b0C\nwet-bulb temperature = 14\u00b0C\nair temperature = 17\u00b0C\nwet-bulb temperature = 13\u00b0C\nair temperature = 12\u00b0C\nwet-bulb temperature = 12\u00b0C\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "State the general relationship between the galaxies\u2019 distances from Earth and their recession velocities.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the data table below and on your knowledge of Earth \nscience. The data table shows \ufb01 ve galaxies, A through E, their distances from Earth, and their recession \nvelocities, the velocities at which they are moving away from Earth.\nGalaxy Information\nGalaxy\nGalaxy\u2019s Distance \nfrom Earth \n(million light years)\nRecession Velocity \n(km/s)\nA\n62\n1210\nB\n978\n15,000\nC\n1402\n21,600\nD\n2510\n39,300\nE\n3912\n61,200\nNote: One light year is the distance that light travels in one year.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Another galaxy has a recession velocity of 30,000 kilometers per second. What is this galaxy\u2019s approximate distance from Earth in million light years if it follows the same pattern shown on the data table?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the data table below and on your knowledge of Earth \nscience. The data table shows \ufb01 ve galaxies, A through E, their distances from Earth, and their recession \nvelocities, the velocities at which they are moving away from Earth.\nGalaxy Information\nGalaxy\nGalaxy\u2019s Distance \nfrom Earth \n(million light years)\nRecession Velocity \n(km/s)\nA\n62\n1210\nB\n978\n15,000\nC\n1402\n21,600\nD\n2510\n39,300\nE\n3912\n61,200\nNote: One light year is the distance that light travels in one year.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Identify the nuclear process that produces the energy released by stars within these galaxies.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the data table below and on your knowledge of Earth \nscience. The data table shows \ufb01 ve galaxies, A through E, their distances from Earth, and their recession \nvelocities, the velocities at which they are moving away from Earth.\nGalaxy Information\nGalaxy\nGalaxy\u2019s Distance \nfrom Earth \n(million light years)\nRecession Velocity \n(km/s)\nA\n62\n1210\nB\n978\n15,000\nC\n1402\n21,600\nD\n2510\n39,300\nE\n3912\n61,200\nNote: One light year is the distance that light travels in one year.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Identify the element formed when carbon-14 (14C) undergoes radioactive decay.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of Earth \nscience.\nA scientist found the bone of a mastodont. In the lab, the scientist found that 12.5% \nof the original radioactive C-14 still remained in the bone.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Explain why 14C was used to date the mastodont bone.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of Earth \nscience.\nA scientist found the bone of a mastodont. In the lab, the scientist found that 12.5% \nof the original radioactive C-14 still remained in the bone.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Identify one important geologic event that occurred in New York State when mastodonts existed.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of Earth \nscience.\nA scientist found the bone of a mastodont. In the lab, the scientist found that 12.5% \nof the original radioactive C-14 still remained in the bone.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "The Moon phase shown below was seen by an observer in New York State. On the diagram in your answer booklet, place an X on the Moon\u2019s orbit to indicate the Moon\u2019s position when this phase was observed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/q72.png",
+      "context": "Base your answers to questions 72 through 75 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents the Moon at four positions, A through D, in its orbit around Earth as \nviewed from above the North Pole (NP). The shaded parts of the Moon and Earth represent darkness.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Calculate the number of days from the Moon phase at position C to the Moon phase at position A as seen from Earth.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 75 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents the Moon at four positions, A through D, in its orbit around Earth as \nviewed from above the North Pole (NP). The shaded parts of the Moon and Earth represent darkness.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Describe the effect on the heights of Earth\u2019s high and low tides when the Moon moves from position D to position A.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 75 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents the Moon at four positions, A through D, in its orbit around Earth as \nviewed from above the North Pole (NP). The shaded parts of the Moon and Earth represent darkness.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Identify the celestial object in our solar system that has a period of rotation that is most similar to the period of rotation of Earth\u2019s Moon.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 75 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents the Moon at four positions, A through D, in its orbit around Earth as \nviewed from above the North Pole (NP). The shaded parts of the Moon and Earth represent darkness.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw both the 50\u00b0F and 60\u00b0F isotherms. Extend each isotherm to the edge of the map.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 78 on the map in your answer booklet and on your knowledge \nof Earth science. The map shows surface air temperatures for some locations in the United States on a day in \nNovember. The 20\u00b0F, 30\u00b0F, 40\u00b0F, and 70\u00b0F isotherms are shown. Points A, W, X, Y, and Z represent locations on \nEarth\u2019s surface. The air temperature at location A is shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify the air temperature at Watertown, New York.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 78 on the map in your answer booklet and on your knowledge \nof Earth science. The map shows surface air temperatures for some locations in the United States on a day in \nNovember. The 20\u00b0F, 30\u00b0F, 40\u00b0F, and 70\u00b0F isotherms are shown. Points A, W, X, Y, and Z represent locations on \nEarth\u2019s surface. The air temperature at location A is shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Describe the evidence shown on the map that indicates that the temperature gradient between locations W and X is greater than the temperature gradient between locations Y and Z.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 78 on the map in your answer booklet and on your knowledge \nof Earth science. The map shows surface air temperatures for some locations in the United States on a day in \nNovember. The 20\u00b0F, 30\u00b0F, 40\u00b0F, and 70\u00b0F isotherms are shown. Points A, W, X, Y, and Z represent locations on \nEarth\u2019s surface. The air temperature at location A is shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify the characteristic of gold shown in the table that allows gold to be deposited behind the rif\ufb02 es, while other material \ufb02 ows out of the sluice box as tailings.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the passage, two diagrams, and table below and on your \nknowledge of Earth science. The passage describes a method used to mine gold and the diagrams represent two \ndifferent views of a sluice box, which is used to separate gold from other sediments. The table shows the mineral \ncharacteristics of gold.\nGold Mining\nA sluice box is used to remove gold pieces from other sediments in a stream. \nThe box is placed in the stream to channel some of the water \ufb02 ow. Gold-bearing sediment \nis placed at the upper end of the box. The rif\ufb02 es in the bottom of the box are designed \nand positioned to create disruptions in the water \ufb02 ow. These disruptions cause dead \nzones in the current that allow the more dense gold to drop out of suspension and be \ndeposited behind the rif\ufb02 es. Lighter material \ufb02 ows out of the box as tailings. Typically, \nparticles of the mineral pyrite, which shares characteristics with gold, are deposited \nwith gold particles in the sluice box. Since miners were fooled into thinking the nuggets \nof pyrite were gold, the name \u201cfool\u2019s gold\u201d is often applied to pyrite.\nSluice Box\nTailings\nWater and \ngold-bearing \nsediment\nRiffles\nSide View of Sluice Box\nKey\nGold\nOther sediment\nWater flow\n(Not drawn to scale)\nRiffle\nSurface of water\nMineral Characteristics of Gold\nLuster\nHardness\nDominant Form \nof Breakage\nColor\nStreak\nDensity \ng/cm3\nChemical \nSymbol\nmetallic\n2.5 to 3\nfracture\ngolden yellow\ngolden yellow\n19.3\nAu\n\n P.S./E. Sci.\u2013Aug. \u201916 \n[23]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "The velocity of the water leaving the sluice box was 90 centimeters per second (cm/s). State the diameter of the largest particle that could be found in the tailings.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the passage, two diagrams, and table below and on your \nknowledge of Earth science. The passage describes a method used to mine gold and the diagrams represent two \ndifferent views of a sluice box, which is used to separate gold from other sediments. The table shows the mineral \ncharacteristics of gold.\nGold Mining\nA sluice box is used to remove gold pieces from other sediments in a stream. \nThe box is placed in the stream to channel some of the water \ufb02 ow. Gold-bearing sediment \nis placed at the upper end of the box. The rif\ufb02 es in the bottom of the box are designed \nand positioned to create disruptions in the water \ufb02 ow. These disruptions cause dead \nzones in the current that allow the more dense gold to drop out of suspension and be \ndeposited behind the rif\ufb02 es. Lighter material \ufb02 ows out of the box as tailings. Typically, \nparticles of the mineral pyrite, which shares characteristics with gold, are deposited \nwith gold particles in the sluice box. Since miners were fooled into thinking the nuggets \nof pyrite were gold, the name \u201cfool\u2019s gold\u201d is often applied to pyrite.\nSluice Box\nTailings\nWater and \ngold-bearing \nsediment\nRiffles\nSide View of Sluice Box\nKey\nGold\nOther sediment\nWater flow\n(Not drawn to scale)\nRiffle\nSurface of water\nMineral Characteristics of Gold\nLuster\nHardness\nDominant Form \nof Breakage\nColor\nStreak\nDensity \ng/cm3\nChemical \nSymbol\nmetallic\n2.5 to 3\nfracture\ngolden yellow\ngolden yellow\n19.3\nAu\n\n P.S./E. Sci.\u2013Aug. \u201916 \n[23]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "The angle of the sluice box is changed so that the box has a steeper slope. Describe the most likely change in water velocity and the amount of sediment passing through the sluice box as tailings.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the passage, two diagrams, and table below and on your \nknowledge of Earth science. The passage describes a method used to mine gold and the diagrams represent two \ndifferent views of a sluice box, which is used to separate gold from other sediments. The table shows the mineral \ncharacteristics of gold.\nGold Mining\nA sluice box is used to remove gold pieces from other sediments in a stream. \nThe box is placed in the stream to channel some of the water \ufb02 ow. Gold-bearing sediment \nis placed at the upper end of the box. The rif\ufb02 es in the bottom of the box are designed \nand positioned to create disruptions in the water \ufb02 ow. These disruptions cause dead \nzones in the current that allow the more dense gold to drop out of suspension and be \ndeposited behind the rif\ufb02 es. Lighter material \ufb02 ows out of the box as tailings. Typically, \nparticles of the mineral pyrite, which shares characteristics with gold, are deposited \nwith gold particles in the sluice box. Since miners were fooled into thinking the nuggets \nof pyrite were gold, the name \u201cfool\u2019s gold\u201d is often applied to pyrite.\nSluice Box\nTailings\nWater and \ngold-bearing \nsediment\nRiffles\nSide View of Sluice Box\nKey\nGold\nOther sediment\nWater flow\n(Not drawn to scale)\nRiffle\nSurface of water\nMineral Characteristics of Gold\nLuster\nHardness\nDominant Form \nof Breakage\nColor\nStreak\nDensity \ng/cm3\nChemical \nSymbol\nmetallic\n2.5 to 3\nfracture\ngolden yellow\ngolden yellow\n19.3\nAu\n\n P.S./E. Sci.\u2013Aug. \u201916 \n[23]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "A gold nugget with a volume of 0.8 cubic centimeter (cm3) was found in the sluice box. Calculate the mass of this gold nugget.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the passage, two diagrams, and table below and on your \nknowledge of Earth science. The passage describes a method used to mine gold and the diagrams represent two \ndifferent views of a sluice box, which is used to separate gold from other sediments. The table shows the mineral \ncharacteristics of gold.\nGold Mining\nA sluice box is used to remove gold pieces from other sediments in a stream. \nThe box is placed in the stream to channel some of the water \ufb02 ow. Gold-bearing sediment \nis placed at the upper end of the box. The rif\ufb02 es in the bottom of the box are designed \nand positioned to create disruptions in the water \ufb02 ow. These disruptions cause dead \nzones in the current that allow the more dense gold to drop out of suspension and be \ndeposited behind the rif\ufb02 es. Lighter material \ufb02 ows out of the box as tailings. Typically, \nparticles of the mineral pyrite, which shares characteristics with gold, are deposited \nwith gold particles in the sluice box. Since miners were fooled into thinking the nuggets \nof pyrite were gold, the name \u201cfool\u2019s gold\u201d is often applied to pyrite.\nSluice Box\nTailings\nWater and \ngold-bearing \nsediment\nRiffles\nSide View of Sluice Box\nKey\nGold\nOther sediment\nWater flow\n(Not drawn to scale)\nRiffle\nSurface of water\nMineral Characteristics of Gold\nLuster\nHardness\nDominant Form \nof Breakage\nColor\nStreak\nDensity \ng/cm3\nChemical \nSymbol\nmetallic\n2.5 to 3\nfracture\ngolden yellow\ngolden yellow\n19.3\nAu\n\n P.S./E. Sci.\u2013Aug. \u201916 \n[23]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a line graph by plotting the average insolation re\ufb02 ected during the summer by the Greenland ice sheet from 2006 to 2012. Connect all seven plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the data table below and on your knowledge of Earth \nscience. The data table shows the average percentage of insolation from 2006 to 2012 that was re\ufb02 ected during \nthe summer months by the ice sheet that covers a large portion of Greenland.\nData Table\nYear\nAverage Insolation Re\ufb02 ected \nDuring the Summer (%)\n2006\n74.3\n2007\n72.8\n2008\n72.9\n2009\n71.8\n2010\n70.3\n2011\n70.1\n2012\n68.3",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Describe the general trend for the average insolation re\ufb02 ected by the Greenland ice sheet from 2006 to 2012 and state what can be inferred about the change in size of the Greenland ice sheet during this time period.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the data table below and on your knowledge of Earth \nscience. The data table shows the average percentage of insolation from 2006 to 2012 that was re\ufb02 ected during \nthe summer months by the ice sheet that covers a large portion of Greenland.\nData Table\nYear\nAverage Insolation Re\ufb02 ected \nDuring the Summer (%)\n2006\n74.3\n2007\n72.8\n2008\n72.9\n2009\n71.8\n2010\n70.3\n2011\n70.1\n2012\n68.3",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Describe one characteristic of the ice sheet that makes it a good re\ufb02 ector of insolation. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2016/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the data table below and on your knowledge of Earth \nscience. The data table shows the average percentage of insolation from 2006 to 2012 that was re\ufb02 ected during \nthe summer months by the ice sheet that covers a large portion of Greenland.\nData Table\nYear\nAverage Insolation Re\ufb02 ected \nDuring the Summer (%)\n2006\n74.3\n2007\n72.8\n2008\n72.9\n2009\n71.8\n2010\n70.3\n2011\n70.1\n2012\n68.3",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

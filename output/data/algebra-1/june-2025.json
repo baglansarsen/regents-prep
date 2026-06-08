@@ -1,0 +1,481 @@
+{
+  "subject": "algebra-1",
+  "session": "june-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The expression 2 10 is equivalent to",
+      "choices": [
+        "5",
+        "20",
+        "2 5",
+        "2 10"
+      ],
+      "image": "/images/exams/algebra-1/june-2025/q1.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A parabola is graphed on the set of axes below. y x Over which interval is the parabola only increasing?",
+      "choices": [
+        "[1,4]",
+        "[3,`)",
+        "(2`,3]",
+        "[21,1]"
+      ],
+      "image": "/images/exams/algebra-1/june-2025/q2.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which scenario represents an exponential relationship?",
+      "choices": [
+        "Kirsten\u2019s New Year\u2019s resolution is to lose one pound each week.",
+        "Sarah wants to increase her grade by 5 points each quarter.",
+        "Tommy wants to reduce his spending by $50 each month.",
+        "Dylan hopes to grow his business by 5%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The geometry test scores for Andrea and Joe are shown in the table below. Andrea Joe 82 91 87 78 90 94 84 67 Which statement about their test scores is correct?",
+      "choices": [
+        "Both the mean and standard deviation of Andrea\u2019s test scores are higher than Joe\u2019s.",
+        "Both the mean and standard deviation of Joe\u2019s test scores are higher than Andrea\u2019s.",
+        "The mean of Andrea\u2019s test scores is higher than Joe\u2019s, but Joe\u2019s standard deviation is higher than Andrea\u2019s.",
+        "The mean of Joe\u2019s test scores is higher than Andrea\u2019s, but Andrea\u2019s standard deviation is higher than Joe\u2019s."
+      ],
+      "image": "/images/exams/algebra-1/june-2025/q4.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which polynomial has a degree of 3 and a leading coefficient of 2?",
+      "choices": [
+        "2x2 1 3x 1 1",
+        "6x3 1 3x2 2 2x",
+        "3x2 1 2x 1 2",
+        "2x3 1 x2 1 4x"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The expression (23x2 1 9) 2 (7x2 2 5x 1 4) is equivalent to",
+      "choices": [
+        "210x2 1 5x 1 5",
+        "210x2 1 5x 1 13",
+        "210x2 2 5x 1 5",
+        "210x2 2 5x 1 13"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The function h(x) is used to calculate the average height, in inches, of a tomato plant x weeks after it is transplanted. These data are represented in the table below. x h(x) 2 6 4 12 6 24 9 51 12 60 16 64 Between weeks 4 and 12, the average rate of change, in inches per week, is",
+      "choices": [
+        "6",
+        "8",
+        "48",
+        "58"
+      ],
+      "image": "/images/exams/algebra-1/june-2025/q7.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Chloe is solving the equation x2 1 5x 5 3x 1 3. Her first step is shown below. Given: x2 1 5x 5 3x 1 3 Step 1: x2 1 2x 2 3 5 0 Which property justifies this step?",
+      "choices": [
+        "the zero product property",
+        "the commutative property",
+        "the distributive property",
+        "the subtraction property of equality"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which function represents the graph of w(x) 5 |x| shifted 2 units to the right?",
+      "choices": [
+        "g(x) 5 |x 1 2|",
+        "h(x) 5 |x 2 2|",
+        "q(x) 5 |x| 1 2",
+        "r(x) 5 |x| 2 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Given the system of equations: y 1 4x 5 5 2x 2 3y 5 10 A step in solving this system by using the substitution method would be",
+      "choices": [
+        "2(5 2 4x) 1 4x 5 5",
+        "2(5 1 4x) 1 4x 5 5",
+        "2x 2 3(5 2 4x) 5 10",
+        "2x 2 3(5 1 4x) 5 10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which equation is equivalent to x2 2 6x 5 27?",
+      "choices": [
+        "(x 2 3)2 5 27 2 9",
+        "(x 2 3)2 5 27 1 9",
+        "(x 2 3)2 5 27 1 36",
+        "(x 2 3)2 5 27 2 36"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The box plots below summarize the ages of athletes on the swim team and the track team. 9 10 11 12 13 Swim Team 15 16 17 8 9 10 11 14 12 Track Team 13 14 15 Based on the box plots, which statement must be true?",
+      "choices": [
+        "The IQR of both teams is the same.",
+        "There are more athletes on the swim team than on the track team.",
+        "The median age of the swim team is less than the median age of the track team.",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/june-2025/q12.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The graph of f(x) is shown below. y x 5 10 10 20 30 40 50 15 f(x) The domain of this function is",
+      "choices": [
+        "[0,12]",
+        "[15,45]",
+        "0 , x # 12",
+        "15 , x # 45"
+      ],
+      "image": "/images/exams/algebra-1/june-2025/q13.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The sum of 3 and 5 is",
+      "choices": [
+        "rational, since the sum can be expressed as an integer",
+        "rational, since the sum can be expressed as a nonterminating decimal",
+        "irrational, since the sum can be expressed as a terminating decimal",
+        "irrational, since the sum cannot be expressed as a terminating or repeating decimal"
+      ],
+      "image": "/images/exams/algebra-1/june-2025/q14.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to a8 2 b6?",
+      "choices": [
+        "(a4 2 b3)2",
+        "(a6 2 b4)2",
+        "(a4)2 2 (b3)2",
+        "(a6)2 2 (b4)2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The sum of 27 2 and 12 4 is",
+      "choices": [
+        "3 14",
+        "3 34",
+        "39 6",
+        "39 8"
+      ],
+      "image": "/images/exams/algebra-1/june-2025/q16.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The sum of Tim\u2019s age and Jack\u2019s age is 44. Tim\u2019s age is 4 less than 7 times Jack\u2019s age, x. An equation that could be used to model this scenario is",
+      "choices": [
+        "(7x 2 4) 1 x 5 44",
+        "(4 2 7x) 1 x 5 44",
+        "7x 2 4 5 44",
+        "4 2 7x 5 44"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Given the function g(x) 5 x2 2 2 2 x 1 3 , what is the value of g(22)?",
+      "choices": [
+        "1",
+        "3 1",
+        "21",
+        "2 3 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Four graphs are shown below. y x y x C A y x B D y x Which of the graphs represent(s) a function?",
+      "choices": [
+        "A, only",
+        "A and B, only",
+        "A, B, and C, only",
+        "A, B, C,"
+      ],
+      "image": "/images/exams/algebra-1/june-2025/q19.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The formula to calculate kinetic energy is K 5 2 1 mv2, where K is kinetic energy, m is mass, and v is velocity. When m is written in terms of K and v, the equation is",
+      "choices": [
+        "m 5 v2 2K",
+        "m 5 2Kv2",
+        "m 5 2Kv2",
+        "m 5 2v2 K"
+      ],
+      "image": "/images/exams/algebra-1/june-2025/q20.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The solution to the equation 3 2(3x 21) 5 x 1 2 is",
+      "choices": [
+        "3 1",
+        "3 2",
+        "3 4",
+        "3 8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which equation represents the sequence 12, 6, 3, 2 3 ,\u2026, where a1 5 12?",
+      "choices": [
+        "an 5 12 \u2022 (2 1) n 2 1",
+        "",
+        "an 5 12 \u2022",
+        "an 5 12 \u2022"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The axis of symmetry is x 5 2 for which quadratic function? x g(x) f(x) h(x) 5 x22 4x 2 5 x \u20132 6 3 2 6 3 \u20131 0 1 2",
+      "choices": [
+        "",
+        "",
+        "",
+        "j(x) 5 2x21 8x"
+      ],
+      "image": "/images/exams/algebra-1/june-2025/q23.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Each day, a freight train passes by Anna\u2019s house. This freight train travels at 49 miles per hour. Each railroad car is 56 feet long. Which expression represents the number of railroad cars that pass by Anna\u2019s house per minute?",
+      "choices": [
+        "1 hr 49 mi 56 ft 1 car 5280 ft 1 mi \u2022 60 min 1 hr \u2022 \u2022",
+        "1 hr 49 mi 56 ft 1 car 5280 ft 1 mi \u2022 1 hr 60 min \u2022 \u2022",
+        "1 hr 49 mi 56 ft 1 car 1 mi 5280 ft \u2022 60 min 1 hr \u2022 \u2022",
+        "1 hr 49 mi 56 ft 1 car 1 mi 5280 ft \u2022 1 hr 60 min \u2022 \u2022 Part II Answer all 6 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "A survey was taken to determine whether students preferred to watch videos or listen to music. Of the 100 students surveyed, 44 were seniors. Of the 65 students who preferred to watch videos, 42",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2025/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "The Chart for Determining the Final Examination Score for the June 2025 https://www.nysed.gov/state-assessment/high-school-regents-examinations on the day of the examination. Conversion charts provided for previous administrations of the for this administration. Online Submission of Teacher Evaluations of the Test to the Department Suggestions and feedback from teachers provide an important contribution to the test development process. The Department provides an online evaluation form for State assessments. It contains spaces for teachers to respond to several specific questions and to make suggestions. Instructions for completing the evaluation form are as follows: 1. Go to https://www.nysed.gov/state-assessment/teacher-feedback-state-assessments. 2. Click Regents Examinations. 3. Complete the required demographic fields. 4. Select the test title from the Regents Examination dropdown list. 5. Complete each evaluation question and provide comments in the space provided. 6. Click the SUBMIT button at the bottom of the page to submit the completed form."
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Solve the inequality for y: 5(2 2 y) . 211y 2 8",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Express (5x 2 3)(22x 1 7)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The first and fourth terms in an arithmetic sequence are given below. 220, _____, _____, 22",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Write an equation in slope-intercept form for the line that passes through (22,5) and has a slope of 23. [Use of the set of axes below is optional.]",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2025/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Factor the expression x3 2 36 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Graph f(x) 5 23x and g(x) 5 x2 1 2 on the set of axes below. y x State the values of x that satisfy the equation f(x) 5 g(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2025/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Using the quadratic formula, solve 6x2 1 2x 2 1 5 0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2025/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "34",
+      "choices": [
+        "1 hr 49 mi 56 ft 1 car 5280 ft 1 mi \u2022 60 min 1 hr \u2022 \u2022",
+        "1 hr 49 mi 56 ft 1 car 5280 ft 1 mi \u2022 1 hr 60 min \u2022 \u2022",
+        "1 hr 49 mi 56 ft 1 car 1 mi 5280 ft \u2022 60 min 1 hr \u2022 \u2022",
+        "1 hr 49 mi 56 ft 1 car 1 mi 5280 ft \u2022 1 hr 60 min \u2022 \u2022 Part II Answer all 6 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. 25 A survey was taken to determine whether students preferred to watch videos or listen to music. Of the 100 students surveyed, 44 were seniors. Of the 65 students who preferred to watch videos, 42 26 Solve the inequality for y: 5(2 2 y) . 211y 2 8 27 Express (5x 2 3)(22x 1 7) 28 The first and fourth terms in an arithmetic sequence are given below. 220, _____, _____, 22 29 Write an equation in slope-intercept form for the line that passes through (22,5) and has a slope of 23. [Use of the set of axes below is optional.] 30 Factor the expression x3 2 36 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. 31 Graph f(x) 5 23x and g(x) 5 x2 1 2 on the set of axes below. y x State the values of x that satisfy the equation f(x) 5 g(x) 32 Using the quadratic formula, solve 6x2 1 2x 2 1 5 0 33 The table below shows the price of a new cell phone and the length of time, in months, since its release. Time Since Release, in Months (x) 0 3 6 9 12 Price, in Dollars (y) 1200 1150 1100 1000 920 State the linear regression equation for this set of data. Round all values to the nearest hundredth. State the correlation coefficient for this data set, 34 Solve the following system of equations algebraically for all values of x and y. y 5 x2 1 9x 1 4 y 2 2x 5 26 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/algebra-1/june-2025/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Sarah earns $6 per hour babysitting and $12 per hour tutoring. Her goal is to earn at least $120 per week. Sarah is allowed to work a maximum of 14 hours per week doing both jobs. If x represents the number of hours Sarah babysits and y represents the number of hours she tutors, write a system of inequalities that could model this situation. On the set of axes below, graph the system of inequalities that you wrote. Hours Tutoring Hours Babysitting 20 15 10 5 5 10 15 20 x y Question 35 State a combination of hours babysitting and tutoring that would satisfy this situation. Justify your answer. Question 35 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here Reference Sheet for Algebra I Conversions Conversions Across Measurement Systems 1 mile 5 5280 feet 1 mile 5 1760 yards 1 pound 5 16 ounces 1 ton 5 2000 pounds 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 1.609 kilometers 1 kilometer 5 0.6214 mile 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds Quadratic Equation y 5 ax2 1 bx 1 c Quadratic Formula b 2 2 4ac 2a 2b 6 x 5 Equation of the Axis of Symmetry b 2a x 5 2 Slope y2 2 y1 x2 2 x1 m 5 Linear Equation Slope Intercept y 5 mx 1 b Linear Equation Point Slope y 2 y1 5 m(x 2 x1) Exponential Equation y 5 abx Annual Compound Interest A 5 P(1 1 r)n Arithmetic Sequence an 5 a1 1 d(n 2 1) Geometric Sequence an 5 a1rn 2 1 Interquartile Range (IQR) IQR 5 Q3 2 Q1 Outlier Lower Outlier Boundary 5 Q1 2 1.5(IQR) Upper Outlier Boundary 5 Q3 1 1.5(IQR) Tear Here Tear Here ALGEBRA I ALGEBRA I Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2025/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

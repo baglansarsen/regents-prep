@@ -10,7 +10,9 @@ function generateCode() {
 }
 
 export function timeAgo(ms) {
+  if (!ms || ms === 0) return 'just now'
   const d = Date.now() - ms
+  if (d < 0) return 'just now'
   if (d < 60_000)        return 'just now'
   if (d < 3_600_000)     return `${Math.floor(d / 60_000)}m ago`
   if (d < 86_400_000)    return `${Math.floor(d / 3_600_000)}h ago`
@@ -61,23 +63,110 @@ export function useFriends(uid, user) {
         query(collection(db, 'friendRequests'), where('fromUid', '==', uid), where('status', '==', 'pending'))
       )
       setSent(sentSnap.docs.map((d) => ({ id: d.id, ...d.data() })))
-    } catch {}
+    } catch (e) {
+      console.error('[useFriends] loadRequests error:', e.message)
+    }
   }
 
   async function loadFriends() {
     try {
       const snap = await getDocs(collection(db, 'users', uid, 'friends'))
-      setFriends(snap.docs.map((d) => ({ id: d.id, ...d.data() })))
-    } catch {}
+      const friendDocs = snap.docs.map((d) => ({ id: d.id, ...d.data() }))
+
+      // Enrich friend data with stats
+      const enrichedFriends = await Promise.all(
+        friendDocs.map(async (friend) => {
+          try {
+            const userUid = friend.uid || friend.id
+
+            // Get RP/level
+            const rpDoc = await getDoc(doc(db, 'users', userUid, 'meta', 'xp'))
+            const totalRP = rpDoc.exists() ? (rpDoc.data().total ?? 0) : 0
+
+            // Get weekly RP
+            const weeklyDoc = await getDoc(doc(db, 'users', userUid, 'meta', 'weeklyXP'))
+            const weeklyRP = weeklyDoc.exists() ? (weeklyDoc.data().xp ?? 0) : 0
+
+            // Get streak
+            const streakDoc = await getDoc(doc(db, 'users', userUid, 'meta', 'streak'))
+            const streak = streakDoc.exists() ? (streakDoc.data().count ?? 0) : 0
+
+            // Get pet emoji
+            const petDoc = await getDoc(doc(db, 'users', userUid, 'meta', 'pet'))
+            const petType = petDoc.exists() ? (petDoc.data().petType ?? 'dog') : 'dog'
+            const petEmojis = { dog: '🐶', cat: '🐱', parrot: '🦜', rabbit: '🐰', fish: '🐠', hamster: '🐹' }
+            const petEmoji = petEmojis[petType] ?? '🐾'
+
+            // Calculate level
+            const LEVELS = [
+              { level: 1, min: 0 },
+              { level: 2, min: 200 },
+              { level: 3, min: 500 },
+              { level: 4, min: 1000 },
+              { level: 5, min: 2000 },
+              { level: 6, min: 4000 },
+              { level: 7, min: 8000 },
+            ]
+            const level = [...LEVELS].reverse().find((l) => totalRP >= l.min)?.level ?? 1
+
+            return {
+              ...friend,
+              level,
+              totalRP,
+              weeklyRP,
+              streak,
+              petEmoji,
+            }
+          } catch (e) {
+            console.error(`[useFriends] Failed to enrich friend ${friend.id}:`, e.message)
+            return friend
+          }
+        })
+      )
+
+      setFriends(enrichedFriends)
+    } catch (e) {
+      console.error('[useFriends] loadFriends error:', e.message)
+    }
   }
 
   async function loadFeed() {
     try {
-      const snap = await getDocs(
-        query(collection(db, 'users', uid, 'activity'), orderBy('timestamp', 'desc'), limit(20))
-      )
-      setFeed(snap.docs.map((d) => ({ id: d.id, ...d.data() })))
-    } catch {}
+      const friendList = await getDocs(collection(db, 'users', uid, 'friends'))
+      const friendUids = friendList.docs.map((d) => d.data().uid || d.id)
+
+      // Load activities from all friends + user
+      const allActivityDocs = []
+      const uidsToCheck = [uid, ...friendUids]
+
+      for (const checkUid of uidsToCheck) {
+        try {
+          const snap = await getDocs(
+            query(collection(db, 'users', checkUid, 'activity'), orderBy('timestamp', 'desc'), limit(10))
+          )
+          allActivityDocs.push(
+            ...snap.docs.map((d) => ({
+              id: d.id,
+              fromUid: checkUid,
+              ...d.data(),
+            }))
+          )
+        } catch (e) {
+          console.warn(`[useFriends] Failed to load activity for ${checkUid}:`, e.message)
+        }
+      }
+
+      // Sort all activities by timestamp (newest first)
+      allActivityDocs.sort((a, b) => {
+        const aTime = a.timestamp?.toMillis?.() ?? a.timestamp ?? 0
+        const bTime = b.timestamp?.toMillis?.() ?? b.timestamp ?? 0
+        return bTime - aTime
+      })
+
+      setFeed(allActivityDocs.slice(0, 20))
+    } catch (e) {
+      console.error('[useFriends] loadFeed error:', e.message)
+    }
   }
 
   const addByCode = useCallback(async (code) => {

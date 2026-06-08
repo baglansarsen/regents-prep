@@ -1,0 +1,481 @@
+{
+  "subject": "algebra-1",
+  "session": "january-2015",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The owner of a small computer repair business has one employee, who is paid an hourly rate of $22. The owner estimates his weekly profit using the function P(x) \u0002 8600 \u0003 22x. In this function, x represents the number of",
+      "choices": [
+        "computers repaired per week",
+        "hours worked per week",
+        "customers served per week",
+        "days worked per week"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Peyton is a sprinter who can run the 40-yard dash in 4.5 seconds. He converts his speed into miles per hour, as shown below. Which ratio is incorrectly written to convert his speed?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/january-2015/q2.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which equation has the same solutions as 2x2 \u0004 x \u0003 3 \u0002 0?",
+      "choices": [
+        "(2x \u0003 1)(x \u0004 3) \u0002 0",
+        "(2x \u0004 1)(x \u0003 3) \u0002 0",
+        "(2x \u0003 3)(x \u0004 1) \u0002 0",
+        "(2x \u0004 3)(x \u0003 1) \u0002 0 60 1 min hr 60 1 sec min 5280 1 ft mi 3 1 ft yd 40 3 1 5280 1 60 1 60 yd 4.5 sec ft yd ft mi sec min min \u2022 \u2022 \u2022 \u2022 1 hr Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Krystal was given $3000 when she turned 2 years old. Her parents invested it at a 2% interest rate compounded annually. No deposits or withdrawals were made. Which expression can be used to determine how much money Krystal had in the account when she turned 18?",
+      "choices": [
+        "3000(1 \u0004 0.02)16",
+        "3000(1 \u0003 0.02)16",
+        "3000(1 \u0004 0.02)18",
+        "3000(1 \u0003 0.02)18"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "written",
+      "text": "Which table of values represents a linear relationship?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2015/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which domain would be the most appropriate set to use for a function that predicts the number of household online-devices in terms of the number of people in the household?",
+      "choices": [
+        "x \u22121 0 1 2 3 f(x) 1 2 4 8 x \u22121 0 1 2 3 f(x) \u22121 0 1 8 27 x \u22121 0 1 2 3 f(x) \u22123 \u22122 1 6 13 1 2 x \u22121 0 1 2 3 f(x) \u22123 \u22121 1 3 5 Algebra I (Common Core)",
+        "",
+        "",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The inequality 7 \u0003 2__ 3 x \u0005 x \u0003 8 is equivalent to",
+      "choices": [
+        "x \u0006 9",
+        "x \u0006 \u0003 3__ 5",
+        "x \u0005 9",
+        "x \u0005 \u0003 3__ 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The value in dollars, v(x), of a certain car after x years is represented by the equation v(x) \u0002 25,000(0.86)x. To the nearest dollar, how much more is the car worth after 2 years than after 3 years?",
+      "choices": [
+        "2589",
+        "6510",
+        "15,901",
+        "18,490"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which function has the same y-intercept as the graph below?",
+      "choices": [
+        "y \u0002 _____ 12 \u0003 6x ____ 4",
+        "27 \u0004 3y \u0002 6x",
+        "6y \u0004 x \u0002 18",
+        "y \u0004 3 \u0002 6x y x Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/january-2015/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Fred is given a rectangular piece of paper. If the length of Fred\u2019s piece of paper is represented by 2x \u0003 6 and the width is represented by 3x \u0003 5, then the paper has a total area represented by",
+      "choices": [
+        "5x \u0003 11",
+        "6x2 \u0003 28x \u0004 30",
+        "10x \u0003 22",
+        "6x2 \u0003 6x \u0003 11"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The graph of a linear equation contains the points (3,11) and (\u00032,1). Which point also lies on the graph?",
+      "choices": [
+        "(2,1)",
+        "(2,4)",
+        "(2,6)",
+        "(2,9)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "How does the graph of f(x) \u0002 3(x \u0003 2)2 \u0004 1 compare to the graph of g(x) \u0002 x2?",
+      "choices": [
+        "The graph of f(x) is wider than the graph of g(x), and its vertex is moved to the left 2 units and up 1 unit.",
+        "The graph of f(x) is narrower than the graph of g(x), and its vertex is moved to the right 2 units and up 1 unit.",
+        "The graph of f(x) is narrower than the graph of g(x), and its vertex is moved to the left 2 units and up 1 unit.",
+        "The graph of f(x) is wider than the graph of g(x), and its vertex is moved to the right 2 units and up 1 unit."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Connor wants to attend the town carnival. The price of admission to the carnival is $4.50, and each ride costs an additional 79 cents. If he can spend at most $16.00 at the carnival, which inequality can be used to solve for r, the number of rides Connor can go on, and what is the maximum number of rides he can go on?",
+      "choices": [
+        "0.79 \u0004 4.50r \u226416.00; 3 rides",
+        "0.79 \u0004 4.50r \u226416.00; 4 rides",
+        "4.50 \u0004 0.79r \u226416.00; 14 rides",
+        "4.50 \u0004 0.79r \u226416.00; 15 rides Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Corinne is planning a beach vacation in July and is analyzing the daily high temperatures for her potential destination. She would like to choose a destination with a high median temperature and a small interquartile range. She constructed box plots shown in the diagram below. Which destination has a median temperature above 80 degrees and the smallest interquartile range?",
+      "choices": [
+        "Ocean Beach",
+        "Whispering Palms",
+        "Serene Shores",
+        "Pelican Beach"
+      ],
+      "image": "/images/exams/algebra-1/january-2015/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Some banks charge a fee on savings accounts that are left inactive for an extended period of time. The equation y \u0002 5000(0.98)x represents the value, y, of one account that was left inactive for a period of x years. What is the y-intercept of this equation and what does it represent?",
+      "choices": [
+        "0.98, the percent of money in the account initially",
+        "0.98, the percent of money in the account after x years",
+        "5000, the amount of money in the account initially",
+        "5000, the amount of money in the account after x years 70 75 80 85 90 95 100 70 75 80 85 90 95 100 Ocean Beach Whispering Palms Serene Shores Pelican Beach Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The equation for the volume of a cylinder is V \u0002 \u03c0r2h. The positive value of r, in terms of h and V, is",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/january-2015/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which equation has the same solutions as x2 \u0004 6x \u0003 7 \u0002 0?",
+      "choices": [
+        "(x \u0004 3)2 \u0002 2",
+        "(x \u0003 3)2 \u0002 2",
+        "(x \u0003 3)2 \u0002 16",
+        "(x \u0004 3)2 \u0002 16"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Two functions, y \u0002 |x \u0003 3| and 3x \u0004 3y \u0002 27, are graphed on the same set of axes. Which statement is true about the solution to the system of equations?",
+      "choices": [
+        "(3,0) is the solution to the system because it satisfies the equation y \u0002 |x \u0003 3|.",
+        "(9,0) is the solution to the system because it satisfies the equation 3x \u0004 3y \u0002 27.",
+        "(6,3) is the solution to the system because it satisfies both equations.",
+        "(3,0), (9,0), and (6,3) are the solutions to the system of equations because they all satisfy at least one of the equations. r V \u0002 2\u03c0 r V h \u0002 2 \u03c0 r V h \u0002 \u03c0 r V h \u0002 \u03c0 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Miriam and Jessica are growing bacteria in a laboratory. Miriam uses the growth function f(t) \u0002 n2t while Jessica uses the function g(t) \u0002 n4t, where n represents the initial number of bacteria and t is the time, in hours. If Miriam starts with 16 bacteria, how many bacteria should Jessica start with to achieve the same growth over time?",
+      "choices": [
+        "32",
+        "16",
+        "8",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "If a sequence is defined recursively by f(0) \u0002 2 and f(n \u0004 1) \u0002 \u00032f(n) \u0004 3 for n \u22650, then f",
+      "choices": [
+        "1",
+        "\u000311",
+        "5",
+        "17"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "An astronaut drops a rock off the edge of a cliff on the Moon. The distance, d(t), in meters, the rock travels after t seconds can be modeled by the function d(t) \u0002 0.8t2. What is the average speed, in meters per second, of the rock between 5 and 10 seconds after it was dropped?",
+      "choices": [
+        "12",
+        "20",
+        "60",
+        "80"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "When factored completely, the expression p4 \u0003 81 is equivalent to",
+      "choices": [
+        "(p2 \u0004 9)(p2 \u0003 9)",
+        "(p2 \u0003 9)(p2 \u0003 9)",
+        "(p2 \u0004 9)(p \u0004 3)(p \u0003 3)",
+        "(p \u0004 3)(p \u0003 3)(p \u0004 3)(p \u0003 3) Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "In 2013, the United States Postal Service charged $0.46 to mail a letter weighing up to 1 oz. and $0.20 per ounce for each additional ounce. Which function would determine the cost, in dollars, c(z), of mailing a letter weighing z ounces where z is an integer greater than 1?",
+      "choices": [
+        "c(z) \u0002 0.46z \u0004 0.20",
+        "c(z) \u0002 0.20z \u0004 0.46",
+        "c(z) \u0002 0.46(z \u0003 1) \u0004 0.20",
+        "c(z) \u0002 0.20(z \u0003 1) \u0004 0.46"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A polynomial function contains the factors x, x \u0003 2, and x \u0004 5. Which graph(s) below could represent the graph of this function?",
+      "choices": [
+        "I, only",
+        "II, only",
+        "I and III",
+        "I, II, and III y x x x \u0002 y \u0002\u0002 y \u0002\u0002\u0002 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/january-2015/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Ms. Fox asked her class \u201cIs the sum of 4.2 and rational or irrational?\u201d Patrick answered that the sum would be irrational. State whether Patrick is correct or incorrect. Justify your reasoning. 2 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2015/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "The school newspaper surveyed the student body for an article about club membership. The table below shows the number of students in each grade level who belong to one or more clubs. If there are 180 students in ninth grade, what percentage of the ninth grade students belong to more than one club? 1 Club 2 Clubs 3 or More Clubs 9th 90 33 12 10th 125 12 15 11th 87 22 18 12th 75 27 23 Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2015/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "A function is shown in the table below. If included in the table, which ordered pair, (\u00034,1) or (1,\u00034), would result in a relation that is no longer a function? Explain your answer. x f(x) \u20134 2 \u20131 \u20134 0 \u20132 3 16 Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2015/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Subtract 5x2 \u0004 2x \u0003 11 from 3x2 \u0004 8x \u0003 7. Express the result as a trinomial. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Solve the equation 4x2 \u0003 12x \u0002 7 algebraically for x. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Graph the following function on the set of axes below. f(x) \u0002 { |x|, \u00033 \u2264x \u0005 1 4, 1 \u2264x \u22648 f(x) x Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2015/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "A gardener is planting two types of trees: Type A is three feet tall and grows at a rate of 15 inches per year. Type B is four feet tall and grows at a rate of 10 inches per year. Algebraically determine exactly how many years it will take for these trees to be the same height. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Write an exponential equation for the graph shown below. Explain how you determined the equation. y x \u20137 \u20132 \u20133 \u20134 \u20135 1 2 3 4 5 \u20131 6 7 8 9 \u20136 \u20137 \u20138 \u20139 \u20131 7 9 \u20136 \u20137 \u20138 \u20139 8 \u20132 \u20133 \u20134 \u20135 5 6 1 2 3 4 Algebra I (Common Core) Algebra I (Common Core) Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2015/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Jacob and Zachary go to the movie theater and purchase refreshments for their friends. Jacob spends a total of $18.25 on two bags of popcorn and three drinks. Zachary spends a total of $27.50 for four bags of popcorn and two drinks. Write a system of equations that can be used to find the price of one bag of popcorn and the price of one drink. Using these equations, determine and state the price of a bag of popcorn and the price of a drink, to the nearest cent.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The graph of an inequality is shown below. a) Write the inequality represented by the graph. b)On the same set of axes, graph the inequality x \u0004 2y \u0005 4. c) The two inequalities graphed on the set of axes form a system. Oscar thinks that the point (2,1) is in the solution set for this system of inequalities. Determine and state whether you agree with Oscar. Explain your reasoning. y x Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2015/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "A nutritionist collected information about different brands of beef hot dogs. She made a table showing the number of Calories and the amount of sodium in each hot dog. a) Write the correlation coefficient for the line of best fit. Round your answer to the nearest hundredth. b)Explain what the correlation coefficient suggests in the context of this problem. Calories per Beef Hot Dog Milligrams of Sodium per Beef Hot Dog 186 495 181 477 176 425 149 322 184 482 190 587 158 370 139 322 Algebra I (Common Core) 36 a) Given the function f(x) \u0002 \u0003x2 \u0004 8x \u0004 9, state whether the vertex represents a maximum or minimum point for the function. Explain your answer. b) Rewrite f(x) in vertex form by completing the square. Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/january-2015/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "New Clarendon Park is undergoing renovations to its gardens. One garden that was originally a square is being adjusted so that one side is doubled in length, while the other side is decreased by three meters. The new rectangular garden will have an area that is 25% more than the original square garden. Write an equation that could be used to determine the length of a side of the original square garden. Explain how your equation models the situation. Determine the area, in square meters, of the new rectangular garden. Algebra I (Common Core) Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be written in pencil. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Algebra I (Common Core) Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here ALGEBRA I (COMMON CORE) ALGEBRA I (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

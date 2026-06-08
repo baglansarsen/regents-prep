@@ -19,6 +19,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 2,
+      explanation: 'The heliocentric model of the solar system places the Sun at the center, explaining the locations and orbital motions of the planets (choice 3). Other characteristics, like temperature, size, and age, are physical properties of individual celestial bodies rather than defining features of the model.',
+      diveDeep: 'The word heliocentric is derived from the Greek words \'helios\' (sun) and \'kentron\' (center). Nicolaus Copernicus popularized this model in the 16th century, replacing the geocentric (Earth-centered) model. A common misconception is that this model explains planetary sizes or ages; it only describes orbital geometry. On the Regents, remember that gravity and inertia maintain the orbits of the planets in this model.',
     },
     {
       number: 2,
@@ -33,6 +35,8 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       image: '/images/exams/es-june-2025/q2.png',
+      explanation: 'During a full moon, the alignment of the Sun, Earth, and Moon creates a stronger combined gravitational pull, leading to spring tides with a greater tidal range (choice 3). This results in higher high tides and lower low tides than during other moon phases.',
+      diveDeep: 'Tidal range is the height difference between consecutive high and low tides. Spring tides occur during full and new moons because the gravitational pulls of the Sun and Moon reinforce each other. Neap tides, occurring during quarter moons, have the smallest tidal range because the pulls are perpendicular. On the Regents, look for the greatest difference between high and low tide peaks on graphs aligned with full or new moons.',
     },
     {
       number: 3,
@@ -46,6 +50,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 3,
+      explanation: 'The Foucault pendulum and the Coriolis effect both provide direct evidence of Earth\'s rotation (choice 4). The pendulum\'s plane of swing appears to rotate over time, and moving air or water is deflected relative to Earth\'s surface.',
+      diveDeep: 'Earth rotates 15° per hour, causing the apparent deflection of moving objects (Coriolis) and the shifting swing path of a pendulum (Foucault). Students often confuse rotation (spinning on the axis) with revolution (orbiting the Sun). A reliable exam strategy is to associate \'rotation\' with Foucault and Coriolis, and \'revolution\' with seasonal stars and parallax.',
     },
     {
       number: 4,
@@ -59,6 +65,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 3,
+      explanation: 'The altitude of Polaris in the sky is equal to the observer\'s latitude in the Northern Hemisphere. Binghamton is located at approximately 42°N latitude (choice 4), whereas Rochester is near 43°N, Plattsburgh is near 44°40\'N, and New York City is near 41°N.',
+      diveDeep: 'Polaris is positioned directly above Earth\'s geographic North Pole, making its altitude in the sky equal to the observer\'s latitude north of the equator. Students can find the latitudes of New York State cities on the Generalized Bedrock Geology map in the Reference Tables. A common trap is using longitude instead of latitude, so always read the horizontal latitude lines on the map sides.',
     },
     {
       number: 5,
@@ -73,6 +81,8 @@ export default {
       topic: 'Maps',
       correct: 0,
       image: '/images/exams/es-june-2025/q5.png',
+      explanation: 'Since Location A (30°W) and Location B (45°E) are separated by 75° of longitude, there is a 5-hour time difference (75° ÷ 15°/hour = 5 hours). Because Location B is east of Location A, its time is ahead, making it 5:00 p.m. at Location B when it is 12 noon at A. Note: The stored correct index in the file is 0 (8 a.m.), which represents a discrepancy since 8 a.m. would correspond to a location 60° west of A (90°W).',
+      diveDeep: 'Earth rotates at a rate of 15° per hour (360° in 24 hours), which establishes the relationship between longitude and time. To find the time difference, add longitudes if they are in opposite hemispheres (W and E) and divide by 15. Since B is east of A, it has rotated into daylight earlier, so its time is later. A useful exam tip: \'East is later, West is earlier.\'',
     },
     {
       number: 6,
@@ -86,6 +96,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 1,
+      explanation: 'Orion is not visible year-round in New York State because Earth revolves around the Sun (choice 2), causing the nighttime sky to face different directions in space during different seasons.',
+      diveDeep: 'Earth\'s orbital revolution around the Sun at ~1° per day shifts the nighttime horizon\'s view of outer space by 360° over a year. Constellations located opposite the Sun during winter, like Orion, are hidden behind the Sun\'s brightness during summer. Students often confuse rotation (daily cycle) with revolution (seasonal cycle). A key exam strategy is to recall: \'seasonal changes in star visibility = revolution.\'',
     },
     {
       number: 7,
@@ -99,6 +111,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 2,
+      explanation: 'The hydrosphere is the water layer of Earth, which covers approximately 70% of Earth\'s surface (choice 3). It is relatively thin compared to the solid lithosphere beneath it.',
+      diveDeep: 'Earth\'s sphere system includes the atmosphere (gases), hydrosphere (liquid water), lithosphere (solid rock crust), and biosphere (living things). According to the Reference Tables, the hydrosphere is a thin layer consisting primarily of water, covering about 70% of the lithosphere. Students often confuse the percentage of water covering Earth\'s surface (~70%) with the percentage of fresh water (less than 3%). A useful strategy is to remember that \'hydro\' means water, and it dominates Earth\'s surface coverage.',
     },
     {
       number: 8,
@@ -112,6 +126,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 0,
+      explanation: 'Earth revolves around the Sun at a rate of approximately 1° per day (choice 1), completing a full 360° orbit in 365.25 days. The rate of 15° per hour represents Earth\'s rotation on its axis.',
+      diveDeep: 'Earth\'s daily orbital progress is small (about 1° per day), which causes the Sun to appear to move slightly eastward relative to the background stars each day. The rate of 15° per hour (360° ÷ 24 hours) is the rate of rotation, not revolution. A common mistake is selecting 15°/hour because it is a familiar rate on the exam. Remember: \'rotation = 15°/hour, revolution = 1°/day.\'',
     },
     {
       number: 9,
@@ -125,6 +141,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 1,
+      explanation: 'At the equator on September 23 (autumnal equinox), the Sun\'s solar noon rays strike at 90°. During the next six months, the angle decreases to 66.5° on December 21 (winter solstice) and then increases back to 90° on March 21 (vernal equinox) (choice 2).',
+      diveDeep: 'The Sun\'s direct (90°) rays migrate between the Tropic of Cancer (23.5°N) on June 21 and the Tropic of Capricorn (23.5°S) on December 21. At the equator, the Sun is directly overhead twice a year (on the equinoxes: Sept 23 and Mar 21). Between these dates, the solar noon angle drops to its lowest (66.5°) on the winter solstice before returning to 90°. Students must visualize the seasonal migration of the overhead Sun to solve solstice and equinox geometry questions.',
     },
     {
       number: 10,
@@ -138,6 +156,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'Rounded and loosely packed sediment (choice 2) has the largest and most interconnected pore spaces, allowing water to pass through most rapidly, which maximizes permeability.',
+      diveDeep: 'Permeability measures how easily water flows through soil or rock, which depends on pore size and connectivity. Rounded, large, and loosely packed sediments maximize the size of these channels, whereas tight packing and flat shapes (like clay) clog paths. Porosity, by contrast, is the percentage of open space and is independent of grain size for sorted, packed sediments. An excellent exam tip is: \'loose packing and round shapes always maximize permeability.\'',
     },
     {
       number: 11,
@@ -152,6 +172,8 @@ export default {
       topic: 'Astronomy',
       correct: 3,
       image: '/images/exams/es-june-2025/q11.png',
+      explanation: 'On December 21 (winter solstice), the Sun rises south of east, sets south of west, and reaches its lowest noon altitude of the year in New York State. This shortest path is represented by path D (choice 4).',
+      diveDeep: 'In New York State, the apparent path of the Sun varies by season due to Earth\'s tilt: it is highest and longest on June 21 (summer solstice), intermediate on the equinoxes, and lowest and shortest on December 21 (winter solstice). The noon Sun is never directly overhead in New York, always appearing in the southern sky. Students often confuse the paths; remember that the winter path starts in the southeast, peaks lowest in the south, and sets in the southwest.',
     },
     {
       number: 12,
@@ -166,6 +188,8 @@ export default {
       topic: 'Meteorology',
       correct: 0,
       image: '/images/exams/es-june-2025/q12.png',
+      explanation: 'According to the Reference Tables, planetary wind zones dictate that the polar front jet stream is located near 60°N and 60°S, and the subtropical jet stream is located near 30°N and 30°S (choice 1).',
+      diveDeep: 'Jet streams are high-altitude, fast-moving wind currents situated at boundaries between major atmospheric circulation cells. The polar jet forms at the boundary of the Polar and Ferrel cells (~60° latitude), while the subtropical jet forms between the Ferrel and Hadley cells (~30° latitude). Students can locate these zones on the \'Planetary Wind and Moisture Belts in the Troposphere\' diagram in the Reference Tables. A common trap is reversing these latitudes, so verify using the low-pressure and high-pressure zones shown on the diagram.',
     },
     {
       number: 13,
@@ -180,6 +204,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-june-2025/q13.png',
+      explanation: 'A temperature of 86°F and a dewpoint of 80°F are very close, indicating hot and highly humid air. The wind staff extends to the east on the station model, which represents winds blowing from the east (choice 2).',
+      diveDeep: 'Humidity is high when the air temperature and dewpoint temperature are close together; a difference of only 6°F indicates near-saturation. On a weather station model, the wind feather shaft extends from the center in the direction the wind is coming *from*. Students often misinterpret wind direction by thinking the line points to where the wind is going. Remember: \'wind is named for the direction from which it blows.\'',
     },
     {
       number: 14,
@@ -193,6 +219,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 0,
+      explanation: 'A maritime polar (mP) air mass (choice 1) forms over cold oceans at high latitudes, which gives it low temperatures (polar) and high moisture/humidity (maritime).',
+      diveDeep: 'Air masses are classified by their source regions: maritime (m) means humid (originates over water), continental (c) means dry (originates over land), tropical (T) means warm (low latitudes), and polar (P) means cold (high latitudes). An mP air mass originates over high-latitude oceans (such as the North Pacific or North Atlantic). Students often confuse mP (cold, wet) with cP (cold, dry). Remember to check the \'Key to Weather Map Symbols\' in the Reference Tables to verify the abbreviations.',
     },
     {
       number: 15,
@@ -207,6 +235,8 @@ export default {
       topic: 'Geologic Time',
       correct: 1,
       image: '/images/exams/es-june-2025/q15.png',
+      explanation: 'Earth\'s internal heat is supplied by radioactive decay (A) and residual heat from Earth\'s accretion during formation (B). The primary external heat source driving surface processes is solar energy (C) (choice 2).',
+      diveDeep: 'Earth\'s core remains hot due to the ongoing decay of radioactive isotopes like uranium, thorium, and potassium, along with the slow release of heat from planetary accretion. Solar radiation is external, powering the atmosphere, oceans, and weather. Students sometimes mistake volcanism as a primary heat source, whereas volcanoes are actually a *consequence* of internal heat escaping. A reliable strategy is to identify the single external source as solar energy first, which helps eliminate incorrect options.',
     },
     {
       number: 16,
@@ -221,6 +251,8 @@ export default {
       topic: 'Meteorology',
       correct: 2,
       image: '/images/exams/es-june-2025/q16.png',
+      explanation: 'Visible satellite imagery displays cloud cover as bright white. Because clouds are the primary source of rain and snow, satellite cloud patterns are most useful for forecasting areas of precipitation (choice 3).',
+      diveDeep: 'Visible satellite imagery displays the albedo of clouds (reflecting sunlight as bright white), which helps track frontal systems and storms. While satellites cannot directly measure temperature or wind speed at the surface, cloud distribution is a direct indicator of where condensation and precipitation are occurring. Students must distinguish between satellite images (cloud cover) and radar images (precipitation intensity). A helpful tip is that clouds are the visible precursor to precipitation.',
     },
     {
       number: 17,
@@ -235,6 +267,8 @@ export default {
       topic: 'Geologic Time',
       correct: 0,
       image: '/images/exams/es-june-2025/q17.png',
+      explanation: 'Correlating the rock layers across the three outcrops from oldest (bottom) to youngest (top) yields the sequence Y, Z, W, and X (choice 1). Outcrop 1 contains Y and Z, Outcrop 2 contains Z and W, and Outcrop 3 contains W and X.',
+      diveDeep: 'Relative dating relies on the principle of superposition, where older layers are deposited first and lie at the bottom of an undisturbed sequence. Outcrop correlation involves matching rock types and key index fossils across different locations to build a master geologic column. Students should look for overlapping layers in the diagrams to step-stone from the oldest bottom layer to the youngest top layer. A common error is looking at only one outcrop rather than tracing the connection across all three.',
     },
     {
       number: 18,
@@ -248,6 +282,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 0,
+      explanation: 'Dark-colored surfaces absorb more visible light because of their low albedo, and rough textures increase absorption by trapping light within surface crevices (choice 1). Light-colored and smooth surfaces reflect more insolation.',
+      diveDeep: 'The absorption of solar energy (insolation) is determined by surface color and texture. Dark surfaces absorb all visible wavelengths, whereas light surfaces reflect them. Rough surfaces have tiny crevices that cause multiple reflections, increasing the chance of absorption. Students can relate this to asphalt (dark and rough, heats up quickly) versus snow (light and smooth, remains cold). On the Regents, remember: \'dark and rough = maximum absorption; light and smooth = maximum reflection.\'',
     },
     {
       number: 19,
@@ -261,6 +297,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 3,
+      explanation: 'According to the Geologic History of New York State chart in the Reference Tables, oceanic oxygen began to enter Earth\'s atmosphere during the Early Proterozoic Era (choice 4), resulting from photosynthetic life.',
+      diveDeep: 'Photosynthetic cyanobacteria in Archean oceans produced oxygen as a byproduct, which initially reacted with dissolved iron to form banded iron formations. Once the oceans were saturated, oxygen escaped into the atmosphere during the Proterozoic Era. This transition is noted on the right side of the Geologic History chart in the Reference Tables under \'Key Geologic Events.\' Students should practice scanning the events column to locate atmosphere-related milestones.',
     },
     {
       number: 20,
@@ -274,6 +312,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 2,
+      explanation: 'According to the Reference Tables, humans first appeared on Earth during the Pleistocene Epoch, which occurred at the same time that mastodonts and mammoths existed (choice 3).',
+      diveDeep: 'According to the Geologic History chart in the Reference Tables, the \'earliest humans\' and the abundance of \'mastodonts and mammoths\' are both located in the Quaternary Period (Pleistocene Epoch). The distractors list life forms from much older periods (like ammonoids from the Mesozoic/Paleozoic or first forests from the Devonian). A key exam strategy is to align the fossil names with their specific time blocks on the Reference Tables.',
     },
     {
       number: 21,
@@ -287,6 +327,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 2,
+      explanation: 'The rock\'s potassium-40 decreased from 200g to 25g, which represents exactly three half-lives (200g → 100g → 50g → 25g). Since the half-life of potassium-40 is 1.3 × 10⁹ years, the rock\'s age is 3 × 1.3 × 10⁹ = 3.9 × 10⁹ years (choice 3).',
+      diveDeep: 'Radioactive decay is exponential, with half the remaining parent material decaying every half-life. To solve, determine the number of half-lives elapsed by cutting the starting amount in half repeatedly until you reach the final amount: 200 → 100 (1) → 50 (2) → 25 (3). Multiply this count (3) by the half-life of ⁴⁰K (1.3 billion years, found in the Radioactive Decay Data table). Students often make arithmetic errors; setting up a simple table with columns for \'Half-lives,\' \'Mass (g),\' and \'Time\' avoids confusion.',
     },
     {
       number: 22,
@@ -300,6 +342,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'Orogenies are mountain-building events that occur due to the collision of tectonic plates and landmasses (choice 4). The Acadian and Alleghenian orogenies occurred when North America collided with other landmasses to form Pangea.',
+      diveDeep: 'An \'orogeny\' is a mountain-building event. The Paleozoic Era in eastern North America was marked by a series of tectonic collisions: the Taconic, Acadian, and Alleghenian orogenies. These events are detailed in the \'Key Geologic Events\' column of the Reference Tables. Students should remember that continental collisions push up mountains (crustal thickening), while divergent boundaries form oceans.',
     },
     {
       number: 23,
@@ -313,6 +357,8 @@ export default {
       ],
       topic: 'General Review',
       correct: 0,
+      explanation: 'According to the paleogeographic maps in the Reference Tables (\'Inferred Positions of Earth\'s Landmasses\'), Africa and South America are shown completely separated 59 million years ago (Late Cretaceous/Early Tertiary) (choice 1).',
+      diveDeep: 'The breakup of Pangaea began in the Triassic Period. By the Late Cretaceous and Early Tertiary (around 59 million years ago), the South Atlantic Ocean had widened significantly, isolating South America from Africa. Students must match the times given in the choices with the four paleogeographic maps in the Reference Tables. A common trap is selecting a time when they were just beginning to rift; look for clear ocean separation.',
     },
     {
       number: 24,
@@ -326,6 +372,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 2,
+      explanation: 'The Southeast Indian Ridge (choice 3) is a mid-ocean ridge formed by seafloor spreading at a divergent plate boundary. The San Andreas Fault is transform, and the Peru-Chile Trench is convergent.',
+      diveDeep: 'Divergent boundaries are characterised by tension, rifting, and seafloor spreading. Magma from the asthenosphere rises to fill the gap, cooling to form basaltic ridge systems. Students should consult the \'Tectonic Plates\' map in the Reference Tables to look up the boundary symbols: double lines indicate divergent boundaries (ridges), lines with teeth indicate convergent boundaries (trenches), and single lines indicate transform boundaries.',
     },
     {
       number: 25,
@@ -339,6 +387,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'According to the Solar System Data table, Mercury\'s density is 5.4 g/cm³. The \'Inferred Properties of Earth\'s Interior\' chart shows that the stiffer mantle\'s density ranges from 3.4 to 5.6 g/cm³ (choice 2), which matches Mercury\'s density.',
+      diveDeep: 'Mercury\'s overall high density is due to its large iron core, but it matches the range of Earth\'s stiffer mantle (3.4–5.6 g/cm³). The \'Inferred Properties of Earth\'s Interior\' chart lists density ranges for the crust (2.7–3.0), asthenosphere (3.0–3.4), stiffer mantle (3.4–5.6), outer core (9.9–12.2), and inner core (12.8–13.1). Students must carefully read the density scale on this chart and compare it to the planetary density data in the Solar System Data table.',
     },
     {
       number: 26,
@@ -352,6 +402,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'Bedrock structure (choice 2)—such as the folding, faulting, joints, and relative hardness of rock layers—is the primary factor that controls where and how stream channels erode, developing distinct drainage patterns.',
+      diveDeep: 'Water always takes the path of least resistance. Bedrock structures—such as folds, faults, joints, and alternating layers of resistant and non-resistant rock—force streams into specific paths. For example, a dome mountain produces a radial pattern, while folded bedrock produces a trellis pattern. Students should recognize that landscape topography and drainage are directly sculpted by the bedrock beneath.',
     },
     {
       number: 27,
@@ -365,6 +417,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 2,
+      explanation: 'Soil is formed through the physical and chemical weathering of rocks combined with biological activity (choice 3), which adds organic nutrients and humus from decaying organisms.',
+      diveDeep: 'Weathering breaks down solid rock into inorganic sediments (sand, silt, clay), while living organisms like plants, earthworms, and bacteria decompose organic matter to enrich it. Soil profiles develop horizons (A, B, C) over long periods. Compaction and cementation form sedimentary rocks, melting forms igneous rocks, and heat/pressure form metamorphic rocks. A simple exam mnemonic is: \'soil = broken rock + organic decay.\'',
     },
     {
       number: 28,
@@ -379,6 +433,8 @@ export default {
       topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-june-2025/q28.png',
+      explanation: 'As stream velocity slows down entering a lake, particles are deposited. Given equal particle sizes, the densest mineral will settle first. Pyrite has the highest density (5.0 g/cm³) among the choices and will be deposited first (choice 4).',
+      diveDeep: 'Deposition occurs when a transporting medium slows down. Settling rate is determined by three factors: particle size, shape, and density. Since the question states the samples are of equal size, density is the deciding factor; heavier, denser particles sink faster. Pyrite\'s high density (5.0 g/cm³) makes it the first to drop, while quartz (2.7 g/cm³) remains in transport longest. Remember that sorting at a river delta goes from largest/densest near the mouth to smallest/least dense far offshore.',
     },
     {
       number: 29,
@@ -393,6 +449,8 @@ export default {
       topic: 'General Review',
       correct: 0,
       image: '/images/exams/es-june-2025/q29.png',
+      explanation: 'According to the Reference Tables, hematite and magnetite are primary ores mined for the element iron (choice 1). Their chemical compositions both consist of iron oxides.',
+      diveDeep: 'The chemical formulas and uses of minerals are located in the \'Properties of Common Minerals\' table in the Reference Tables. Hematite is used as an ore of iron and in jewelry, while magnetite is also an ore of iron and is highly magnetic. Students can easily find this information under the \'Composition\' and \'Remarks\' columns.',
     },
     {
       number: 30,
@@ -407,6 +465,8 @@ export default {
       topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-june-2025/q30.png',
+      explanation: 'Inclusions are fragments of older rock trapped inside a younger rock body. The limestone inclusion is older than the surrounding basalt intrusion, and because the limestone layer sits below the siltstone layer, it is also older than the siltstone (choice 4).',
+      diveDeep: 'Inclusions are fragments of older rock trapped inside younger rock (like chocolate chips in a cookie—the chips must exist before the cookie is baked). In this cross section, the basalt intrusion contains inclusions of limestone, meaning the limestone was already there when the basalt intruded. Superposition also states that the limestone layer at the bottom is older than the overlying siltstone layer.',
     },
     {
       number: 31,
@@ -421,6 +481,8 @@ export default {
       topic: 'Geology',
       correct: 3,
       image: '/images/exams/es-june-2025/q31.png',
+      explanation: 'Seafloor spreading is symmetrical; rocks on opposite sides of a mid-ocean ridge are the same age if they are the same distance from the ridge axis. Location D on the east side is the same distance from the ridge as location X on the west side, so they are the same age (choice 4).',
+      diveDeep: 'The oceanic crust acts as a magnetic tape recorder: as magma cools, magnetic minerals align with Earth\'s current magnetic field, preserving a symmetrical pattern of normal and reversed polarity bands. Age increases symmetrically away from the ridge axis (where age is zero). To find the location of matching age, measure the distance from the ridge axis to X on the west and find the matching distance on the east, which corresponds to D.',
     },
     {
       number: 32,
@@ -435,6 +497,8 @@ export default {
       topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-june-2025/q32.png',
+      explanation: 'An escarpment is a steep, rocky cliff (choice 1) that separates two flatter areas of differing elevations. It is typically formed by differential erosion of tilted sedimentary rock layers.',
+      diveDeep: 'Escarpments occur when a resistant sedimentary rock layer (like the Niagara Escarpment\'s Lockport dolomite) overlies weaker rock. The weaker rock erodes faster, leaving the resistant layer protruding as a vertical cliff. Students should associate the term \'escarpment\' with cliffs or steep slopes on topographic profiles and landscapes.',
     },
     {
       number: 33,
@@ -449,6 +513,8 @@ export default {
       topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-june-2025/q33.png',
+      explanation: 'Glaciers produce parallel scratches and grooves (striations) on bedrock as they drag rocks along their base (choice 2). Wind, wave action, and running water do not produce parallel scratches on large bedrock surfaces.',
+      diveDeep: 'Glaciers act as giant sheets of sandpaper, dragging rocks along their base and gouging the underlying bedrock. The direction of these scratches tells geologists the direction the glacier was moving. Students should contrast this with other erosion types: wind causes frosting/pitting on sand grains, running water rounds pebbles, and waves create beaches. A key exam clue is: \'parallel scratches or grooves = glacial erosion.\'',
     },
     {
       number: 34,
@@ -463,6 +529,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 1,
       image: '/images/exams/es-june-2025/q34.png',
+      explanation: 'Hornfels is a fine-grained, non-foliated metamorphic rock that forms when existing rock is baked by contact with rising magma (choice 2), which supplies intense heat.',
+      diveDeep: 'Contact metamorphism is driven primarily by intense heat rather than pressure, resulting in non-foliated rocks. Hornfels can form from various parent rocks (like shale or siltstone) when they are baked by adjacent magma. Students can verify this on the Metamorphic Rock Identification chart in the Reference Tables under the \'Type of Metamorphism\' column. A common error is choosing regional metamorphism, which produces foliated rocks like schist and gneiss over broad areas due to pressure.',
     },
     {
       number: 35,
@@ -477,6 +545,8 @@ export default {
       topic: 'Geology',
       correct: 2,
       image: '/images/exams/es-june-2025/q35.png',
+      explanation: 'In a meandering stream, deposition occurs on the inside bend (C) because water velocity is lowest. Deposition also occurs where the stream enters a lake (D) because the velocity drops to near zero (choice 3).',
+      diveDeep: 'In a stream bend, the fastest water flows on the outside of the curve (causing erosion), while the slowest water flows on the inside of the curve (causing deposition). Additionally, a stream\'s velocity drops abruptly when it enters a standing body of water like a lake, forming a delta. Therefore, the inside bend (C) and the lake entrance (D) are zones of maximum deposition. Students should memorize: \'outside curve = fast water = erosion; inside curve = slow water = deposition.\'',
     },
     {
       number: 36,
@@ -490,6 +560,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 2,
+      explanation: 'Earth\'s orbit is divided into four quadrants by solstices and equinoxes, each representing ~91 days. Moving from position A (December solstice) to D (September equinox) spans three quadrants, taking approximately 274 days (choice 3).',
+      diveDeep: 'Earth\'s orbit is divided into four quadrants by the solstices and equinoxes, each representing about 3 months or 91 days. The path from A (perihelion/winter) through B (spring), C (aphelion/summer), to D (autumn) spans three quadrants. Calculating 3 × 91 days gives 273 days, which is closest to the choice of 274 days. Students should avoid selecting 365 days, which is the time for a full revolution back to position A.',
     },
     {
       number: 37,
@@ -503,6 +575,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 2,
+      explanation: 'At perihelion (early January), the Northern Hemisphere is tilted away from the Sun, putting the Arctic Circle (66.5°N) in continuous darkness. Location X lies at the boundary of this darkness, representing the Arctic Circle (choice 3).',
+      diveDeep: 'On the winter solstice (December 21), Earth\'s Northern Hemisphere is tilted away from the Sun, causing the Arctic Circle (66.5°N) to experience 24 hours of continuous darkness. Perihelion occurs in early January, making position A represent the December solstice/winter period. Students should use the tilt relative to the Sun\'s rays to identify solar boundaries: the Tropic of Cancer is at 23.5°N, and the Arctic Circle is at 66.5°N.',
     },
     {
       number: 38,
@@ -516,6 +590,8 @@ export default {
       ],
       topic: 'General Review',
       correct: 1,
+      explanation: 'Increasing Earth\'s axial tilt from 23.5° to 31° would make the seasons more extreme, causing summers to be warmer (tilted more toward the Sun) and winters to be cooler (tilted farther away) (choice 2).',
+      diveDeep: 'Earth\'s tilt of 23.5° is the reason we have seasons. A greater tilt means the summer hemisphere tilts more directly toward the Sun, increasing the angle of insolation and day length, while the winter hemisphere tilts further away, reducing them. If the tilt were 0°, there would be no seasons at all. A helpful rule of thumb for the Regents: \'more tilt = more extreme seasons (hotter summers, colder winters); less tilt = milder seasons.\'',
     },
     {
       number: 39,
@@ -530,6 +606,8 @@ export default {
       topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-june-2025/q39.png',
+      explanation: 'Halite (choice 1), commonly known as rock salt (NaCl), is an evaporite mineral that precipitates out of water on the shores of highly saline lakes like the Dead Sea as water evaporates.',
+      diveDeep: 'Halite (NaCl) is the primary mineral that precipitates when seawater or saline lake water evaporates. The Reference Tables classify halite under \'chemical\' sedimentary rocks (rock salt) and list its composition as NaCl. Students should associate dry, salty shores or evaporite basins with halite or gypsum.',
     },
     {
       number: 40,
@@ -544,6 +622,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 3,
       image: '/images/exams/es-june-2025/q40.png',
+      explanation: 'The boundary at the Dead Sea is a transform plate boundary (choice 4) where the Sinai Sub-plate and the Arabian Plate slide horizontally past each other along strike-slip faults.',
+      diveDeep: 'Transform boundaries occur where two tectonic plates slide past one another horizontally, such as the San Andreas Fault or the Dead Sea Fault. Crust is neither created nor destroyed at these boundaries. Students can identify transform boundaries on the Reference Tables plate tectonics map by the single line indicating lateral sliding.',
     },
     {
       number: 41,
@@ -558,6 +638,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 1,
       image: '/images/exams/es-june-2025/q42.png',
+      explanation: 'According to the Reference Tables, a P-wave takes 5 minutes (05:00) to travel 2600 km. Subtracting this travel time from the P-wave\'s arrival time (02:30:00 p.m. − 5 minutes) gives an origin time of 02:25:00 p.m. (choice 2).',
+      diveDeep: 'The origin time of an earthquake is calculated by: Origin Time = Arrival Time − Travel Time. First, use the \'Earthquake Travel Time\' graph in the Reference Tables: find 2600 km on the x-axis, follow it up to the P-wave curve, and read the travel time on the y-axis, which is exactly 5 minutes (5:00). Then, subtract 5 minutes from the P-wave arrival time. A common trap is using the S-wave arrival time without adjusting for its longer travel time (9 minutes).',
     },
     {
       number: 42,
@@ -572,6 +654,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 0,
       image: '/images/exams/es-june-2025/q42.png',
+      explanation: 'P-waves travel faster than S-waves, so the time gap between their arrivals increases with distance. The seismogram with P and S waves arriving closest together (choice 1) indicates the station is closest to the epicenter.',
+      diveDeep: 'Because P-waves (primary/compressional) are faster than S-waves (secondary/shear), they pull ahead of S-waves over time, similar to two runners in a race. Near the starting line (epicenter), the runners are close together; far from the start, the gap is wide. Therefore, a short P-S time interval corresponds to a short distance to the epicenter. On the Regents, remember: \'smaller P-S lag time = closer to epicenter.\'',
     },
     {
       number: 43,
@@ -585,6 +669,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 3,
+      explanation: 'The graph shows the Orthida group\'s evolutionary line terminating in the Permian Period, which indicates that many types lived in the past but are now extinct (choice 4).',
+      diveDeep: 'Extinction is represented on evolutionary graphs by a group\'s line ending before the \'present\' line at the top. The Orthida line ends in the Permian period, indicating they went extinct. Students should analyze the width of the bars on the graph, which represent the diversity/number of genera in each group over time.',
     },
     {
       number: 44,
@@ -598,6 +684,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 1,
+      explanation: 'The graph shows Orthida first appearing in the Cambrian Period. According to the Reference Tables, trilobites and gastropods also first appeared during the Cambrian Period (choice 2).',
+      diveDeep: 'In the Geologic History of New York State chart, the \'Life on Earth\' column shows when different fossil groups first appeared. Trilobites and gastropods both arose in the Cambrian. Eurypterids first appeared in the Ordovician, and ammonoids in the Devonian. Students must use the Reference Tables to match the origin periods of these fossil groups.',
     },
     {
       number: 45,
@@ -611,6 +699,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 2,
+      explanation: 'The index fossil Platyceras lived during the Devonian Period. On the brachiopod graph, the Spiriferida group (choice 3) has the widest horizontal bar during the Devonian, indicating it had the greatest number of types.',
+      diveDeep: 'To answer this question, students must perform a two-step lookup: (1) Find the geologic period of the index fossil *Platyceras* (Devonian) in the Reference Tables, and (2) look at that specific Devonian period on the brachiopod graph to see which group has the widest horizontal profile. Spiriferida is the widest bar in the Devonian.',
     },
     {
       number: 46,
@@ -624,6 +714,8 @@ export default {
       ],
       topic: 'Maps',
       correct: 3,
+      explanation: 'Hilo is located on the windward (eastern) side of the island. Prevailing winds blow from the east and carry moisture-laden air from the ocean, which is forced to rise, cool, and condense, yielding greater rainfall at Hilo (choice 4).',
+      diveDeep: 'This illustrates the orographic effect (rain shadow effect). The windward side of a mountain range (east/Hilo, facing the prevailing trade winds) receives moist air that is forced upward (orographic lifting), leading to clouds and rain. The leeward side (west/Kailua-Kona) receives dry sinking air, creating an arid climate. Remember the formula: \'windward = rising air, cooling, condensation, precipitation; leeward = sinking air, warming, dry.\'',
     },
     {
       number: 47,
@@ -637,6 +729,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 2,
+      explanation: 'The land surfaces absorb short-wave visible light from the Sun and re-radiate it as longer-wave infrared (heat) radiation back into the atmosphere (choice 3).',
+      diveDeep: 'Electromagnetic energy absorption and re-radiation are central to Earth\'s energy budget. Incoming solar radiation is primarily short-wave visible light. After absorption, the energy is re-emitted at a lower temperature, which corresponds to longer wavelengths, specifically infrared radiation. Greenhouse gases like CO₂ and water vapor trap this outgoing infrared, causing the greenhouse effect. Remember: \'incoming = short-wave visible; outgoing = long-wave infrared.\'',
     },
     {
       number: 48,
@@ -650,6 +744,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 1,
+      explanation: 'Temperatures decrease with altitude in the troposphere. Mauna Loa is a volcanic peak with a high elevation, making its climate cooler than coastal locations (choice 2).',
+      diveDeep: 'Altitude is a key climate control factor. As air rises, it expands and cools adiabatically due to lower atmospheric pressure. Thus, even at tropical latitudes like Hawaii, high mountain summits can experience freezing temperatures and snow. Students should not select \'farther from ocean\' or \'different wind belt\' since Hawaii is a small island in the same wind belt, and elevation is the dominant factor here.',
     },
     {
       number: 49,
@@ -664,6 +760,8 @@ export default {
       topic: 'Water Cycle',
       correct: 3,
       image: '/images/exams/es-june-2025/q48.png',
+      explanation: 'An increase in yearly precipitation increases infiltration, which adds groundwater to the zone of saturation (Zone D) and raises the water table (choice 4).',
+      diveDeep: 'The water table is the boundary between the zone of aeration (above) and the zone of saturation (Zone D, below). Increased rainfall increases infiltration, adding water to the zone of saturation and causing the water table to rise closer to the surface. Students should avoid choosing Zone C (capillary action zone) because capillary action pulls water upward from the water table but is not the main storage zone.',
     },
     {
       number: 50,
@@ -678,6 +776,8 @@ export default {
       topic: 'Water Cycle',
       correct: 0,
       image: '/images/exams/es-june-2025/q48.png',
+      explanation: 'Process X represents transpiration (choice 1), which is the release of water vapor from plants and trees back into the atmosphere as part of the water cycle.',
+      diveDeep: 'Transpiration is the process by which moisture is carried through plants from roots to small pores on the underside of leaves, where it changes to vapor and is released to the atmosphere. Together with evaporation, it is often referred to as evapotranspiration. On the Regents, look for arrows rising from vegetated land to represent transpiration, and arrows rising from open water to represent evaporation.',
     },
   ],
 }

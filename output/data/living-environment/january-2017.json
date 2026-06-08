@@ -1,0 +1,1106 @@
+{
+  "subject": "living-environment",
+  "session": "january-2017",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "For a human zygote to become an embryo, it must undergo",
+      "choices": [
+        "fertilization",
+        "recombination",
+        "meiotic divisions",
+        "mitotic divisions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Many homeowners and businesses are installing solar electric systems. Greater use of solar electric systems bene\ufb01 ts the environment because it",
+      "choices": [
+        "depends on the greater use of fossil fuels",
+        "conserves nonrenewable resources",
+        "produces gases that cause global warming",
+        "reduces the need for the ozone shield"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "A cell in the leaf of a corn plant contains more chloroplasts than a cell in the stem of a corn plant. Based on this observation, it can be inferred that, when compared to the cell in the stem, the cell in the leaf",
+      "choices": [
+        "synthesizes more sugar",
+        "has a higher chromosome count",
+        "produces fewer proteins",
+        "uses less carbon dioxide"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "When the human body is responding to stress, the hormone adrenaline is released. A short time later, the body returns to normal. This is an example of how a human",
+      "choices": [
+        "reacts to an antibody",
+        "develops genetic variation in body cells",
+        "maintains cellular organization",
+        "maintains dynamic equilibrium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "A direct indication that the white blood cells of the body are functioning would be",
+      "choices": [
+        "an increase in the number of oxygen mole- cules in the lungs",
+        "a decrease in the number of pathogens in the body",
+        "a decreased secretion of hormones by certain glands",
+        "an increase of carbon dioxide in the cells of the body"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A fully functioning enzyme molecule is arranged in a complex three-dimensional shape. This shape determines the",
+      "choices": [
+        "speci\ufb01 c type of molecule it interacts with during a reaction",
+        "rate at which the enzyme breaks down during a reaction it regulates",
+        "pH of all body systems",
+        "temperature of the products of the reaction it regulates"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "A student received a \ufb02 u shot in the fall. During the \ufb02 u season, the student caught a cold. The most likely reason the vaccine he received did not prevent the cold was that",
+      "choices": [
+        "his illness was not caused by a pathogen",
+        "he did not get the vaccine at the right time of year",
+        "his body produced antibiotics in response to the vaccine",
+        "the vaccine he received contained only \ufb02 u virus antigens"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "In August 2010, the Asian clam was discovered in Lake George. It is not native to that area. A single clam can reproduce and release hundreds of offspring in a day. Fish and cray\ufb01 sh eat the clams but cannot keep pace with the rate at which the clams reproduce. The introduction of the Asian clam into Lake George is",
+      "choices": [
+        "positive, because it adds to the stability of the ecosystem",
+        "positive, because the \ufb01 sh and cray\ufb01 sh would otherwise not have food",
+        "negative, because it decreases water pollution in the lake",
+        "negative, because it competes with native clam species and reduces stability"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Like humans, animals including dogs and cats get goose bumps. On a cold day, these goose bumps cause their coats to expand creating a layer of insulation. If the animal is scared, the coat will also expand making the animal look larger to predators. These responses serve as examples of",
+      "choices": [
+        "allergic reactions",
+        "learned behaviors",
+        "detection and response to stimuli",
+        "reproductive and feeding success"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which factor is a major cause of the changes that occur during puberty, the years when the rate of human physical growth increases and reproductive maturity occurs?",
+      "choices": [
+        "changes in some hormone levels",
+        "an increase in meiosis in body cells",
+        "a decrease in the rate of metabolism",
+        "change in the gene sequences in reproductive cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which statement best describes how a new human trait develops and can be passed on to future generations?",
+      "choices": [
+        "A mutation in a stomach cell results in the inability of a woman to produce a certain digestive enzyme.",
+        "A mother consumes alcohol during pregnancy, causing the fetus to have a low birth weight.",
+        "During meiosis, a new combination of DNA subunits is formed.",
+        "During mitosis, DNA does not divide correctly and the cells die."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Survival of at least a few members of a population after a major environmental change is most dependent on",
+      "choices": [
+        "the population having an individual that is adapted to the original environment",
+        "the population having an individual that is adapted to great changes in the temperature in its environment",
+        "variations in many different traits in many individuals in the population",
+        "no variations in the color of the fur, skin, or feathers of the individuals in the population"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A characteristic common to both diffusion and active transport is that",
+      "choices": [
+        "enzymes are required",
+        "oxygen is moved across a membrane",
+        "ATP is needed",
+        "the movement of molecules occurs"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The theory of evolution states that",
+      "choices": [
+        "species that are extinct have no biological relationship to living species",
+        "different animal species always interbreed to form new and different species",
+        "species change over time, sometimes devel- oping into new species",
+        "the environment of Earth is constant over time"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Scientists in Brazil have developed speci\ufb01 c fertilizers and special breeds of soybeans and corn so crops can grow on large areas of tropical lands. This is valuable because farmers can help to feed the growing human population and strengthen the economy. However, trade-offs must be considered because farming on tropical lands can also",
+      "choices": [
+        "add helpful microorganisms to the soil",
+        "remove oxygen from the atmosphere",
+        "reduce populations of native species",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The photograph below shows two color variations of Himalayan rabbits. In the winter, the rabbits resemble the one on the left. In the summer, the rabbits resemble the one on the right. Himalayan Rabbits Winter Summer The changes in fur color are most likely due to",
+      "choices": [
+        "a virus that affected genes in speci\ufb01 c areas of the body",
+        "the sorting and recombination of genes",
+        "gene expression due to the differences in abiotic conditions",
+        "the molecular arrangement of sugars"
+      ],
+      "image": "/images/exams/living-environment/january-2017/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The diagram represents a process used to modify bacterial cells. Bacterial DNA Y Foreign DNA X In the diagram, arrows labeled X and Y represent the use of",
+      "choices": [
+        "clones",
+        "receptors",
+        "genes",
+        "enzymes"
+      ],
+      "image": "/images/exams/living-environment/january-2017/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the changes over time in an area. Bare field Grass stage Shrub stage Pine forest stage Hardwood forest stage Which example is not a natural process that could return a hardwood forest to the grass stage once again?",
+      "choices": [
+        "a forest \ufb01 re caused by a lightning strike",
+        "the aging and falling of trees",
+        "clearing the land for agriculture",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2017/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The Mississippi River Delta wetlands ecosystem is home to a large number of \ufb01 sh, birds, and other aquatic organisms. During the last century, this ecosystem has seen a decrease in wetland areas and species diversity due to land development, agriculture, and \ufb02 ooding. Conservation groups have been working to reconnect the Mississippi River with its \ufb02 ood plain and restore lost wetlands. One result of restoring wetland areas in this ecosystem would be",
+      "choices": [
+        "an increase in abiotic factors that would cause organisms to develop new adaptations",
+        "the development of an ecosystem that will prevent invasive species from settling there",
+        "an increase in the carrying capacity of the ecosystem for wetland organisms",
+        "to prevent the organisms that live in this eco- system from competing for food and shelter"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a form of cellular reproduction. Organism A Offspring 1 Offspring 2 As a result of this process, offspring 1 and offspring 2 will have",
+      "choices": [
+        "the same number of genes but different traits",
+        "a different number of genes but the same traits",
+        "the same number of genes and the same traits",
+        "a different number of genes and different traits"
+      ],
+      "image": "/images/exams/living-environment/january-2017/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The instructions for the genetic traits of an organism are directly determined by the",
+      "choices": [
+        "numbers of A, T, C, and G units in a sugar molecule",
+        "sequence of bases in DNA molecules",
+        "length of a DNA molecule",
+        "way the bases are paired in the two strands of a DNA molecule"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which statement best describes some protein molecules in a cell?",
+      "choices": [
+        "Proteins are long, folded chains that can form various cell parts.",
+        "Proteins are composed of four different starches that direct cell activity.",
+        "Proteins are long, twisted strands of glucose that regulate cells.",
+        "Proteins are genetically diverse substances that are synthesized in the nucleus."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Raf\ufb02 esia arnoldii is a bright red and yellow \ufb02 owering plant that has no leaves, roots, or stems. Raf\ufb02 esia do not carry out photosynthesis. They take nutrients from the cells of grapevines. Raf\ufb02 esia arnoldii is an example of a",
+      "choices": [
+        "producer",
+        "omnivore",
+        "carnivore",
+        "parasite"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Female hammerhead sharks sometimes produce offspring by a type of asexual reproduction. These offspring",
+      "choices": [
+        "are a result of the uniting of a male and a fe- male gamete",
+        "have cells that contain DNA found only in the female shark",
+        "are considered to be a different species from the male parent",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "A tomato gene, known as the SIKLUH gene, has recently been discovered. The gene leads to the production of larger tomatoes. The gene affects fruit size by increasing cell layers and promoting extra cell divisions. In order to produce large fruit in other commercial plant species, scientists might",
+      "choices": [
+        "clone the genes of other types of plants until they develop larger fruits",
+        "breed the tomatoes with other fruits such as apples",
+        "insert the gene into other types of plants",
+        "stimulate the process of meiosis in the other plants"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "During the last century, human impacts on our planet have led to an increasing and alarming loss of biodiversity in rainforest ecosystems. Scientists estimate that current extinction rates exceed those of some prehistoric mass extinctions. This loss of biodiversity also means loss of genetic diversity and loss of ecosystems. What could be done to minimize this loss of biodiversity?",
+      "choices": [
+        "Introduce new species to rainforest ecosys- tems.",
+        "Write and pass new environmental protection laws speci\ufb01 c to rainforest ecosystems.",
+        "Build barriers around rainforest ecosystems to keep animals and plants contained.",
+        "Move all rainforest animals to new ecosystems where they will be safe."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Molecules in a certain medication attach to receptors on nerve cells. This prevents the normal chemical signal from binding to the receptor. One immediate result of taking this medication might be a disruption in the ability of",
+      "choices": [
+        "the body to produce reproductive cells",
+        "cells to communicate with each other",
+        "cells to synthesize proteins",
+        "the body to convert inorganic material into organic nutrients"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The chart below contains information about some structures found in single-celled organisms Cell Structures Structure Function contractile vacuole maintains water balance \ufb02 agellum movement chloroplast food production The information in this chart best illustrates the biological concept that",
+      "choices": [
+        "all single-celled organisms contain contrac- tile vacuoles, a \ufb02 agellum, and chloroplasts",
+        "single-celled organisms contain structures that function in maintaining homeostasis",
+        "the organs found in complex organisms evolved from these three structures",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2017/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a process that occurs in human systems. + Water + Simple sugar Complex sugar Catalyst Catalyst Simple sugar This process is known as",
+      "choices": [
+        "excretion",
+        "respiration",
+        "circulation",
+        "digestion"
+      ],
+      "image": "/images/exams/living-environment/january-2017/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The diagram below represents levels of glucose and insulin found within the bloodstream of a healthy person throughout the course of the day. Key Glucose Insulin Concentration Time The increase in insulin levels following an increase in glucose levels in the blood can best be explained by",
+      "choices": [
+        "insulin being released into the blood to digest glucose",
+        "a feedback mechanism that regulates blood glucose levels",
+        "an excess of glucose-stimulating guard cells",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2017/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The number of white-tailed deer in certain areas of Long Island, NY has increased signi\ufb01 cantly. Homeowners and farmers have put up tall fencing to protect their gardens and crops from the deer. One reason why the white tailed-deer might have increased signi\ufb01 cantly in certain areas of Long Island is",
+      "choices": [
+        "the lack of natural predators",
+        "an increase in deer pathogens",
+        "a shortage of biotic resources needed by the deer",
+        "that carrying capacity has no effect on deer populations"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Researchers have discovered a chemical that sterilizes soil by killing all of the bacteria that are normally present. If this chemical were released in a forest ecosystem, the most likely result would be that",
+      "choices": [
+        "the food web would be disrupted because there would be little recycling of nutrients",
+        "fewer animals would suffer from disease such as cancer",
+        "there would be more energy available for insects and worms that live in the soil",
+        "the diversity of plants and animals present would increase"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "In order to be accepted, a scienti\ufb01 c theory must be",
+      "choices": [
+        "widely tested and supported by extensive data",
+        "based on the results of a single experiment",
+        "controversial and cause debate",
+        "in line with all previous historical ideas"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Anoles are a group of lizards consisting of approximately 400 species. A scientist studying them on an island observed two species that live in different habitats and display different behaviors. His observations are listed in the table below. Observations of Two Species of Anoles Characteristics Species A Species B length 130 \u2013 191 mm 55 \u2013 79 mm toepad size large intermediate color usually green brown tail length long long Based on the scientist\u2019s observations, which state- ment best describes these two species of anoles?",
+      "choices": [
+        "Both species evolved through the process of ecological succession.",
+        "Each species is adapted to a different niche.",
+        "The two species can interbreed.",
+        "Species A is an herbivore and species B is a decomposer."
+      ],
+      "image": "/images/exams/living-environment/january-2017/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "In an appropriately designed experiment, a scientist is able to test the effect of",
+      "choices": [
+        "a single variable",
+        "multiple variables",
+        "the hypothesis",
+        "scienti\ufb01 c observations"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Molecules 1 and 2 are most likely",
+      "choices": [
+        "carbon dioxide and oxygen",
+        "carbon dioxide and water",
+        "nitrogen and oxygen",
+        "nitrogen and water"
+      ],
+      "image": "/images/exams/living-environment/january-2017/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the information and diagram below and on your knowledge \nof biology. The diagram represents a plant leaf cell and two different molecules used in the process of glucose \nsynthesis.\nKey\nMolecule 1\nMolecule 2\nGlucose",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Molecules 1 and 2 enter the cell and glucose leaves the cell through the process of",
+      "choices": [
+        "respiration",
+        "digestion",
+        "active transport",
+        "diffusion"
+      ],
+      "image": "/images/exams/living-environment/january-2017/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the information and diagram below and on your knowledge \nof biology. The diagram represents a plant leaf cell and two different molecules used in the process of glucose \nsynthesis.\nKey\nMolecule 1\nMolecule 2\nGlucose",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which statement best describes a function of glucose in plant cells?",
+      "choices": [
+        "It is converted into solar energy in the chloroplasts.",
+        "It can be used directly as a building block in protein synthesis.",
+        "It can be used during the digestion of fats.",
+        "It is used during cellular respiration in the mitochondria."
+      ],
+      "image": "/images/exams/living-environment/january-2017/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the information and diagram below and on your knowledge \nof biology. The diagram represents a plant leaf cell and two different molecules used in the process of glucose \nsynthesis.\nKey\nMolecule 1\nMolecule 2\nGlucose",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Students collected data about the capacities of their lungs by in\ufb02 ating balloons with a single breath. They measured the circumference of the balloons in centimeters. Each student completed three trials and calculated the average. Balloon Circumference (cm) Student Trial 1 Trial 2 Trial 3 Average 1 66.0 66.5 68.5 67.0 2 67.5 64.0 70.5 67.3 3 60.3 60.5 60.5 61.0 4 55.0 58.0 59.0 57.3 Which student miscalculated her average?",
+      "choices": [
+        "student 1",
+        "student 2",
+        "student 3",
+        "student 4"
+      ],
+      "image": "/images/exams/living-environment/january-2017/q39.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Based on this information and the graph provided, which crops are most at risk if honeybees continue to decline?",
+      "choices": [
+        "strawberries, peanuts, and grapes",
+        "almonds, apples, and blueberries",
+        "almonds, oranges, and soybeans",
+        "peaches, cotton, and grapes"
+      ],
+      "image": "/images/exams/living-environment/january-2017/context_40_41.png",
+      "context": "Base your answers to questions 40 and 41 on the information and chart below and on your knowledge of \nbiology.\nIn recent years, biologists have noticed that honeybees responsible for pollinating \nfood crops across the United States are dying at an alarming rate. Farmers, economists, \nand biologists are very worried about the impact that the loss of honeybees might have on \nthe food supply.\n \nRelying on Bees\nSome of the most valuable fruits, vegetables, nuts and field crops depend \non insect pollinators, particularly honeybees. Besides insects, other means \nof pollination include birds, wind and rainwater.\nCrop value\nin billions\n2006\nPercentage\npollinated by\nhoneybees\nPercentage of crop pollinated by...\nHoneybees\nOther insects\nOther\nSoybeans \n$19.70 \n 5%\nCotton \n    5.20 \n  16\nGrapes \n    3.20 \n    1\nAlmonds \n    2.20 \n100\nApples \n    2.10 \n  90\nOranges \n    1.80 \n  27\nStrawberries \n    1.52 \n    2\nPeanuts \n      .06 \n    2\nPeaches \n      .05 \n  48\nBlueberries \n      .05 \n  90\ncultivated\nAdapted from: United States Department of Agriculture:\nRoger A. Morse and Nicholas W. Calderone, Cornell University",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Peach blossom pollinations could be at risk if there is a total loss of honeybee populations in areas where peaches are grown. Which action would be most likely to help peach growers stay in business and be able to produce good-sized crops of peaches?",
+      "choices": [
+        "Hire scientists to \ufb01 nd a way to kill other pollinating insects in the area so there are more peach blossoms for the honeybees to pollinate.",
+        "Hire researchers to identify which other native insects are able to pollinate peach blossoms and \ufb01 nd a way to increase their populations.",
+        "Encourage the peach growers to plant other kinds of fruit instead of peaches.",
+        "Genetically engineer peach trees to be able to reproduce without producing any fruit (peaches)"
+      ],
+      "image": "/images/exams/living-environment/january-2017/context_40_41.png",
+      "context": "Base your answers to questions 40 and 41 on the information and chart below and on your knowledge of \nbiology.\nIn recent years, biologists have noticed that honeybees responsible for pollinating \nfood crops across the United States are dying at an alarming rate. Farmers, economists, \nand biologists are very worried about the impact that the loss of honeybees might have on \nthe food supply.\n \nRelying on Bees\nSome of the most valuable fruits, vegetables, nuts and field crops depend \non insect pollinators, particularly honeybees. Besides insects, other means \nof pollination include birds, wind and rainwater.\nCrop value\nin billions\n2006\nPercentage\npollinated by\nhoneybees\nPercentage of crop pollinated by...\nHoneybees\nOther insects\nOther\nSoybeans \n$19.70 \n 5%\nCotton \n    5.20 \n  16\nGrapes \n    3.20 \n    1\nAlmonds \n    2.20 \n100\nApples \n    2.10 \n  90\nOranges \n    1.80 \n  27\nStrawberries \n    1.52 \n    2\nPeanuts \n      .06 \n    2\nPeaches \n      .05 \n  48\nBlueberries \n      .05 \n  90\ncultivated\nAdapted from: United States Department of Agriculture:\nRoger A. Morse and Nicholas W. Calderone, Cornell University",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which structure is responsible for the passage of materials into and out of the cell?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/january-2017/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the information and diagram below and on your knowledge of \nbiology. The diagram represents a cell.\nB\nC\nD\nA",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Which structure is responsible for the synthesis of ATP?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2017/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the information and diagram below and on your knowledge of \nbiology. The diagram represents a cell.\nB\nC\nD\nA",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on the axis labeled \u201cAmount of Gas Collected in One Minute (mL).\u201d",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your knowledge \nof biology.\nHydrogen peroxide (H2O2), a byproduct of cellular metabolism, is broken down by \nthe enzyme catalase which is produced by nearly all organisms. When catalase is added to \nhydrogen peroxide, a reaction occurs that produces bubbles of oxygen gas (O2) and water \n(H2O).\n2H2O2 \u2192 2H2O \u0002 O2\nThe laboratory setup represented below was used to investigate the effect of pH on \nthe breakdown of H2O2. Five setups were made with H2O2 solutions, each at a different \npH level.\nCatalase was added to the solution in the \ufb01 rst setup and the reaction proceeded for \none minute and the amount of gas produced by the reaction was recorded on the data \ntable. This exact procedure was repeated with the other four setups containing different \nH2O2 solutions.\nGas collected\nGas bubbles\nWater\nGlass tube\nReaction Flask\nH2O2 solution\nplus catalase\nGas Collected in Reactions\nat Different pH Levels\npH\nGas Collected in\nOne Minute (mL)\n3\n2\n5\n5\n7\n11\n9\n9\n11\n6\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201917 \n[13] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a bar graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Construct vertical bars to represent the data. Shade in each bar. pH of the H2O2 Solution Amount of Gas Collected in One Minute (mL) 3 5 7 9 11 Gas Collected at Different pH Levels",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your knowledge \nof biology.\nHydrogen peroxide (H2O2), a byproduct of cellular metabolism, is broken down by \nthe enzyme catalase which is produced by nearly all organisms. When catalase is added to \nhydrogen peroxide, a reaction occurs that produces bubbles of oxygen gas (O2) and water \n(H2O).\n2H2O2 \u2192 2H2O \u0002 O2\nThe laboratory setup represented below was used to investigate the effect of pH on \nthe breakdown of H2O2. Five setups were made with H2O2 solutions, each at a different \npH level.\nCatalase was added to the solution in the \ufb01 rst setup and the reaction proceeded for \none minute and the amount of gas produced by the reaction was recorded on the data \ntable. This exact procedure was repeated with the other four setups containing different \nH2O2 solutions.\nGas collected\nGas bubbles\nWater\nGlass tube\nReaction Flask\nH2O2 solution\nplus catalase\nGas Collected in Reactions\nat Different pH Levels\npH\nGas Collected in\nOne Minute (mL)\n3\n2\n5\n5\n7\n11\n9\n9\n11\n6\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201917 \n[13] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a bar graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "This investigation was performed again with identical conditions except with a hydrogen peroxide solution at pH 8. Predict the number of mL of gas that was collected in one minute. mL",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your knowledge \nof biology.\nHydrogen peroxide (H2O2), a byproduct of cellular metabolism, is broken down by \nthe enzyme catalase which is produced by nearly all organisms. When catalase is added to \nhydrogen peroxide, a reaction occurs that produces bubbles of oxygen gas (O2) and water \n(H2O).\n2H2O2 \u2192 2H2O \u0002 O2\nThe laboratory setup represented below was used to investigate the effect of pH on \nthe breakdown of H2O2. Five setups were made with H2O2 solutions, each at a different \npH level.\nCatalase was added to the solution in the \ufb01 rst setup and the reaction proceeded for \none minute and the amount of gas produced by the reaction was recorded on the data \ntable. This exact procedure was repeated with the other four setups containing different \nH2O2 solutions.\nGas collected\nGas bubbles\nWater\nGlass tube\nReaction Flask\nH2O2 solution\nplus catalase\nGas Collected in Reactions\nat Different pH Levels\npH\nGas Collected in\nOne Minute (mL)\n3\n2\n5\n5\n7\n11\n9\n9\n11\n6\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201917 \n[13] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a bar graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Based on the investigation, the student should conclude that enzymes",
+      "choices": [
+        "function best within a speci\ufb01 c range of conditions",
+        "function best when observed in living cells",
+        "are not affected by changes in environmental factors",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2017/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your knowledge \nof biology.\nHydrogen peroxide (H2O2), a byproduct of cellular metabolism, is broken down by \nthe enzyme catalase which is produced by nearly all organisms. When catalase is added to \nhydrogen peroxide, a reaction occurs that produces bubbles of oxygen gas (O2) and water \n(H2O).\n2H2O2 \u2192 2H2O \u0002 O2\nThe laboratory setup represented below was used to investigate the effect of pH on \nthe breakdown of H2O2. Five setups were made with H2O2 solutions, each at a different \npH level.\nCatalase was added to the solution in the \ufb01 rst setup and the reaction proceeded for \none minute and the amount of gas produced by the reaction was recorded on the data \ntable. This exact procedure was repeated with the other four setups containing different \nH2O2 solutions.\nGas collected\nGas bubbles\nWater\nGlass tube\nReaction Flask\nH2O2 solution\nplus catalase\nGas Collected in Reactions\nat Different pH Levels\npH\nGas Collected in\nOne Minute (mL)\n3\n2\n5\n5\n7\n11\n9\n9\n11\n6\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Jan. \u201917 \n[13] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a bar graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Explain why some disorders, such as CF, can be passed on from generation to generation, whereas some other disorders, such as skin cancer, cannot.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/q48.png",
+      "context": "Base your answers to questions 48 and 49 on the information below and on your knowledge of biology.\nMutations cause many disorders in humans. Cystic \ufb01 brosis (CF) is a disorder that \ncan be passed on from generation to generation. Skin cancer is a disorder that sometimes \noriginates in skin cells as a result of overexposure to the Sun.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which statement best explains the formation of the mutations that cause both cystic \ufb01 brosis and skin cancer?",
+      "choices": [
+        "These mutations are a direct result of a change in the amino acid molecule that controls the formation of genetic codes in gametes.",
+        "These mutations are caused by a change in the sugars that make up the genetic codes in all cells.",
+        "Both of these mutations involve a change in the makeup of genes.",
+        ""
+      ],
+      "image": null,
+      "context": "Base your answers to questions 48 and 49 on the information below and on your knowledge of biology.\nMutations cause many disorders in humans. Cystic \ufb01 brosis (CF) is a disorder that \ncan be passed on from generation to generation. Skin cancer is a disorder that sometimes \noriginates in skin cells as a result of overexposure to the Sun.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which inference best explains these differences?",
+      "choices": [
+        "The coastal snakes have been selectively bred for slug-eating behavior.",
+        "Genetic manipulation has enabled the coastal snakes to recognize slugs as prey.",
+        "The coastal snakes evolved a new organ so that they could recognize and feed on slugs.",
+        "An adaptation enabled coastal snakes to use slugs as food source."
+      ],
+      "image": "/images/exams/living-environment/january-2017/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the information and table below and on your knowledge of \nbiology.\nPrey selection in a species of California garter snake depends upon where the snake \nlives. Snakes living inland feed on frogs, leeches, and \ufb01 sh while coastal snakes have added \nbanana slugs to their diet. Banana slugs are found only in coastal areas. Researchers \nperformed an experiment to determine what prey newly born snakes preferred. \nThe table below summarizes the \ufb01 ndings.\nPrey Preference in Newborn Garter Snakes\nNewborn \nCoastal Snakes\nNewborn\nInland Snakes\nPercentage of Snakes \nEating Banana Slugs\n60%\n20%\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State how the feeding habits of this population of inland snakes would most likely change over many generations if they were relocated to a coastal region where frogs, leeches, and \ufb01 sh were rare.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the information and table below and on your knowledge of \nbiology.\nPrey selection in a species of California garter snake depends upon where the snake \nlives. Snakes living inland feed on frogs, leeches, and \ufb01 sh while coastal snakes have added \nbanana slugs to their diet. Banana slugs are found only in coastal areas. Researchers \nperformed an experiment to determine what prey newly born snakes preferred. \nThe table below summarizes the \ufb01 ndings.\nPrey Preference in Newborn Garter Snakes\nNewborn \nCoastal Snakes\nNewborn\nInland Snakes\nPercentage of Snakes \nEating Banana Slugs\n60%\n20%\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Estrogen is one of the hormones produced by human females. Identify one organ that produces estrogen and state one speci\ufb01 c function of estrogen in a human female. Organ: Function:",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/q52.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/q53.png",
+      "context": "Base your answer to question 53\u201354 on the information below and on your knowledge of biology.\nBoth food chains and food webs can be used to illustrate relationships between \norganisms in an ecosystem.\n 53\u201354 Discuss these methods of representing relationships. In your answer, be sure to:\n\u2022 state one similarity in the way relationships between organisms are shown in food chains and food \nwebs   [1]\n\u2022 explain why using a food chain is more limiting than using a food web to show relationships between \norganisms in an ecosystem   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "53\u201354 Discuss these methods of representing relationships. In your answer, be sure to: \u2022 state one similarity in the way relationships between organisms are shown in food chains and food webs \u2022 explain why using a food chain is more limiting than using a food web to show relationships between organisms in an ecosystem",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/q54.png",
+      "context": "Base your answer to question 53\u201354 on the information below and on your knowledge of biology.\nBoth food chains and food webs can be used to illustrate relationships between \norganisms in an ecosystem.\n 53\u201354 Discuss these methods of representing relationships. In your answer, be sure to:\n\u2022 state one similarity in the way relationships between organisms are shown in food chains and food \nwebs   [1]\n\u2022 explain why using a food chain is more limiting than using a food web to show relationships between \norganisms in an ecosystem   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify two biological processes that are responsible for the production of varying amounts of carbon dioxide and oxygen within the aquatic ecosystem. Processes: ____________________________________ and ____________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/context_55_55.png",
+      "context": "Base your answer to question 55 on the information below and on your knowledge of biology.\nA student measured oxygen and carbon dioxide concentration levels in an aquatic \necosystem during a 24 hour period. The data are represented in the graph below.\nKey\nOxygen\nCarbon\ndioxide\nIncreasing\nConcentration\nTime of day\nDaily Concentrations of Carbon Dioxide \nand Oxygen in an Aquatic Ecosystem\nEarly \nMorning\nNoon\nAfternoon\nMidnight\nEarly \nMorning",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/context_56_58.png",
+      "context": "Base your answer to question 56\u201358 on the information below and on your knowledge of biology.\nSuper-Size It?\nThe American Academy of Pediatrics has noted an increase in the population of \nchildren with disorders that are usually associated with older adults, such as diabetes. \nObservers of American culture point to the trend to \u201csuper-size\u201d food servings as a possible \ncause. Larger servings might encourage children of today to eat more fats and sugars than \nchildren ate a generation ago.\nIn an attempt to determine if there is a relationship between diet and the development \nof diabetes in children, a study was done which surveyed a group of children regarding \ntheir eating habits and whether or not they were diabetic. When the survey results were \ncollected, the data were used to organize the children into two groups based on their \nresponses, and then the data were analyzed.\n 56\u201358 Discuss this investigation. In your answer, be sure to:\n\u2022 state the hypothesis being tested in this investigation    [1]\n\u2022 identify one survey response that was most likely used for organizing the children into two \ngroups   [1]\n\u2022 state what survey results would support the hypothesis stated above    [1]\nPart C\nAnswer all questions in this part.     [17]\nDirections (56\u201372):  Record your answers in the spaces provided in this examination booklet.\n\n Living Environment\u2013Jan. \u201917 \n[18]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "56\u201358 Discuss this investigation. In your answer, be sure to: \u2022 state the hypothesis being tested in this investigation \u2022 identify one survey response that was most likely used for organizing the children into two groups \u2022 state what survey results would support the hypothesis stated above",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/context_56_58.png",
+      "context": "Base your answer to question 56\u201358 on the information below and on your knowledge of biology.\nSuper-Size It?\nThe American Academy of Pediatrics has noted an increase in the population of \nchildren with disorders that are usually associated with older adults, such as diabetes. \nObservers of American culture point to the trend to \u201csuper-size\u201d food servings as a possible \ncause. Larger servings might encourage children of today to eat more fats and sugars than \nchildren ate a generation ago.\nIn an attempt to determine if there is a relationship between diet and the development \nof diabetes in children, a study was done which surveyed a group of children regarding \ntheir eating habits and whether or not they were diabetic. When the survey results were \ncollected, the data were used to organize the children into two groups based on their \nresponses, and then the data were analyzed.\n 56\u201358 Discuss this investigation. In your answer, be sure to:\n\u2022 state the hypothesis being tested in this investigation    [1]\n\u2022 identify one survey response that was most likely used for organizing the children into two \ngroups   [1]\n\u2022 state what survey results would support the hypothesis stated above    [1]\nPart C\nAnswer all questions in this part.     [17]\nDirections (56\u201372):  Record your answers in the spaces provided in this examination booklet.\n\n Living Environment\u2013Jan. \u201917 \n[18]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "This expression has been applied to many ecological problems, such as global warming [global climate change], and air pollution. Choose one of these ecological problems and write the name of the problem on your answer sheet. For the problem chosen, state one speci\ufb01 c \u201clocal action\u201d that could be taken. Problem: Local action:",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/q59.png",
+      "context": "Base your answer to question 59 on the expression below and on your knowledge of biology.\nThink globally, act locally!",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "60",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/q60.png",
+      "context": "Base your answer to question 60 on the information below and on your knowledge of biology.\nIncreased food production is essential to feed the growing human population. Some \nexperts suggest that technology will be the answer. One application of technology is to \nclone a single plant to produce large numbers of it to grow as a single crop.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Biofuels are produced from resources that can be grown, such as algae. Explain one speci\ufb01 c bene\ufb01 t of using biofuels in place of the fossil fuels in wide use today.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 64 on the information below and on your knowledge of biology.\nGreen Algae Could Help Clean up Radioactive Nuclear Waste\nRecent studies have shown that the uses of green algae are boundless. First, scientists at \nR.I.T. used algae to synthesize biofuel, and recently scientists at Northwestern University \nand Argonne National have found that freshwater algae can remove strontium 90 from \nradioactive wastewater. These developments can signi\ufb01 cantly aid the future effort to clean \nup radioactive waste at the Fukushima Daichi Plant [a nuclear power plant in Japan]. \nScientists discovered that the process begins when the green algae \ufb01 rst absorb strontium, \ncalcium and barium from water. The strontium and barium form crystals inside each algae \ncell. The crystals remain inside the cells, but the algae \ufb01 lters out and excretes calcium and \nother minerals that may be present. The strontium is then isolated, and thus able to be \ntreated.\nResearchers are still \ufb01 guring the best way to harness the algae\u2019s capabilities. Since \nalgae doesn\u2019t differentiate between radioactive and inactive strontium (they are chemically \nidentical), it is not known how the algae would hold up in a highly radioactive environment. \nBut the good news is that they have been able to manipulate the algae\u2019s process to be more \nstrontium-selective, thus removing as much as possible.\u2026\nSource: http://inhabitat.com/green-algae-could-help-clean-up-radioactive-nuclear-waste/algae-ed01/",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "State one speci\ufb01 c way that radioactive wastes from nuclear fuels can be harmful to humans.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 64 on the information below and on your knowledge of biology.\nGreen Algae Could Help Clean up Radioactive Nuclear Waste\nRecent studies have shown that the uses of green algae are boundless. First, scientists at \nR.I.T. used algae to synthesize biofuel, and recently scientists at Northwestern University \nand Argonne National have found that freshwater algae can remove strontium 90 from \nradioactive wastewater. These developments can signi\ufb01 cantly aid the future effort to clean \nup radioactive waste at the Fukushima Daichi Plant [a nuclear power plant in Japan]. \nScientists discovered that the process begins when the green algae \ufb01 rst absorb strontium, \ncalcium and barium from water. The strontium and barium form crystals inside each algae \ncell. The crystals remain inside the cells, but the algae \ufb01 lters out and excretes calcium and \nother minerals that may be present. The strontium is then isolated, and thus able to be \ntreated.\nResearchers are still \ufb01 guring the best way to harness the algae\u2019s capabilities. Since \nalgae doesn\u2019t differentiate between radioactive and inactive strontium (they are chemically \nidentical), it is not known how the algae would hold up in a highly radioactive environment. \nBut the good news is that they have been able to manipulate the algae\u2019s process to be more \nstrontium-selective, thus removing as much as possible.\u2026\nSource: http://inhabitat.com/green-algae-could-help-clean-up-radioactive-nuclear-waste/algae-ed01/",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "State one way the scientists may \u201chave been able to manipulate the algae\u2019s process to be more strontium-selective.\u201d",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 64 on the information below and on your knowledge of biology.\nGreen Algae Could Help Clean up Radioactive Nuclear Waste\nRecent studies have shown that the uses of green algae are boundless. First, scientists at \nR.I.T. used algae to synthesize biofuel, and recently scientists at Northwestern University \nand Argonne National have found that freshwater algae can remove strontium 90 from \nradioactive wastewater. These developments can signi\ufb01 cantly aid the future effort to clean \nup radioactive waste at the Fukushima Daichi Plant [a nuclear power plant in Japan]. \nScientists discovered that the process begins when the green algae \ufb01 rst absorb strontium, \ncalcium and barium from water. The strontium and barium form crystals inside each algae \ncell. The crystals remain inside the cells, but the algae \ufb01 lters out and excretes calcium and \nother minerals that may be present. The strontium is then isolated, and thus able to be \ntreated.\nResearchers are still \ufb01 guring the best way to harness the algae\u2019s capabilities. Since \nalgae doesn\u2019t differentiate between radioactive and inactive strontium (they are chemically \nidentical), it is not known how the algae would hold up in a highly radioactive environment. \nBut the good news is that they have been able to manipulate the algae\u2019s process to be more \nstrontium-selective, thus removing as much as possible.\u2026\nSource: http://inhabitat.com/green-algae-could-help-clean-up-radioactive-nuclear-waste/algae-ed01/",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "64",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 64 on the information below and on your knowledge of biology.\nGreen Algae Could Help Clean up Radioactive Nuclear Waste\nRecent studies have shown that the uses of green algae are boundless. First, scientists at \nR.I.T. used algae to synthesize biofuel, and recently scientists at Northwestern University \nand Argonne National have found that freshwater algae can remove strontium 90 from \nradioactive wastewater. These developments can signi\ufb01 cantly aid the future effort to clean \nup radioactive waste at the Fukushima Daichi Plant [a nuclear power plant in Japan]. \nScientists discovered that the process begins when the green algae \ufb01 rst absorb strontium, \ncalcium and barium from water. The strontium and barium form crystals inside each algae \ncell. The crystals remain inside the cells, but the algae \ufb01 lters out and excretes calcium and \nother minerals that may be present. The strontium is then isolated, and thus able to be \ntreated.\nResearchers are still \ufb01 guring the best way to harness the algae\u2019s capabilities. Since \nalgae doesn\u2019t differentiate between radioactive and inactive strontium (they are chemically \nidentical), it is not known how the algae would hold up in a highly radioactive environment. \nBut the good news is that they have been able to manipulate the algae\u2019s process to be more \nstrontium-selective, thus removing as much as possible.\u2026\nSource: http://inhabitat.com/green-algae-could-help-clean-up-radioactive-nuclear-waste/algae-ed01/",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Explain how increasing the wolf population caused an increase in birds and beavers.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 65 through 67 on the information below and on your knowledge of biology.\nGray Wolves in the Rocky Mountains\nReintroduction of gray wolves in the northern Rocky Mountains has increased the \necological health of Yellowstone National Park in Wyoming. When all wolves in Yellowstone \nNational Park were killed in 1920, elk soon ate trees and shrubs down to short stubs. Now \nthat wolves are reducing elk numbers, many aspens and willow trees are taller and fuller \nand birds are returning to the trees to nest. The beaver population has grown from one \ncolony to 12 colonies in 13 years. Spreading these bene\ufb01 ts across the Rocky Mountain \nregion would require increasing the present wolf population of 1,770 to 17,000.\nIn September 2012, wolves lost federal protection in Wyoming. In 2014, Wyoming \nclosed its hunting season after meeting its quota of 26 wolves around Yellowstone and \nGrand Teton parks. The sizes of traps to catch wolves have been regulated to reduce the \nchance of trapping endangered species such as lynx and wolverines and the hunting season \nwas shortened. Some ecologists wonder if removing the wolves from federal protection \nand allowing them to be hunted is a good ecological decision.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Explain why some ecologists are concerned about removing wolves from federal protection.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 65 through 67 on the information below and on your knowledge of biology.\nGray Wolves in the Rocky Mountains\nReintroduction of gray wolves in the northern Rocky Mountains has increased the \necological health of Yellowstone National Park in Wyoming. When all wolves in Yellowstone \nNational Park were killed in 1920, elk soon ate trees and shrubs down to short stubs. Now \nthat wolves are reducing elk numbers, many aspens and willow trees are taller and fuller \nand birds are returning to the trees to nest. The beaver population has grown from one \ncolony to 12 colonies in 13 years. Spreading these bene\ufb01 ts across the Rocky Mountain \nregion would require increasing the present wolf population of 1,770 to 17,000.\nIn September 2012, wolves lost federal protection in Wyoming. In 2014, Wyoming \nclosed its hunting season after meeting its quota of 26 wolves around Yellowstone and \nGrand Teton parks. The sizes of traps to catch wolves have been regulated to reduce the \nchance of trapping endangered species such as lynx and wolverines and the hunting season \nwas shortened. Some ecologists wonder if removing the wolves from federal protection \nand allowing them to be hunted is a good ecological decision.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "In the space below, construct a food chain using three organisms identi\ufb01",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 65 through 67 on the information below and on your knowledge of biology.\nGray Wolves in the Rocky Mountains\nReintroduction of gray wolves in the northern Rocky Mountains has increased the \necological health of Yellowstone National Park in Wyoming. When all wolves in Yellowstone \nNational Park were killed in 1920, elk soon ate trees and shrubs down to short stubs. Now \nthat wolves are reducing elk numbers, many aspens and willow trees are taller and fuller \nand birds are returning to the trees to nest. The beaver population has grown from one \ncolony to 12 colonies in 13 years. Spreading these bene\ufb01 ts across the Rocky Mountain \nregion would require increasing the present wolf population of 1,770 to 17,000.\nIn September 2012, wolves lost federal protection in Wyoming. In 2014, Wyoming \nclosed its hunting season after meeting its quota of 26 wolves around Yellowstone and \nGrand Teton parks. The sizes of traps to catch wolves have been regulated to reduce the \nchance of trapping endangered species such as lynx and wolverines and the hunting season \nwas shortened. Some ecologists wonder if removing the wolves from federal protection \nand allowing them to be hunted is a good ecological decision.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "State one way the immune system reacts when one of these viruses enters the body.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 68 and 69 on the information below and on your knowledge of biology.\nSome viruses can enter cells by \ufb01 rst attaching to the cell membrane. The \ufb02 u virus \ntargets and attaches to the cells of the nose and mouth. The hepatitis virus targets only \nspeci\ufb01 c cells of the liver.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "69",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 68 and 69 on the information below and on your knowledge of biology.\nSome viruses can enter cells by \ufb01 rst attaching to the cell membrane. The \ufb02 u virus \ntargets and attaches to the cells of the nose and mouth. The hepatitis virus targets only \nspeci\ufb01 c cells of the liver.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Explain what must be done with the embryo after in vitro fertilization (IVF) has been completed so the embryo can complete development.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of biology.\nMitochondrial Replacement Therapy\nMutations in mitochondrial DNA (mtDNA) are associated with some severe human \ndiseases and are inherited through the cytoplasm in the egg cell. These diseases vary, but \noften affect organs and tissues with the highest energy requirements, including the brain, \nheart, muscle, pancreas, and kidney.\nScientists have successfully used mitochondrial replacement therapy with monkeys. \nScientists are considering using this technique to reduce the incidence of mitochondrial \ndisease in children. The proposed treatment would involve removing the nucleus from \nan egg donated by a healthy woman and replacing it with an egg nucleus from a patient \n(mother) with mitochondrial disease. This would place the patient\u2019s egg nucleus into the \ncytoplasm of the donor\u2019s egg containing healthy mitochondria. The egg is then fertilized \nwith the father\u2019s sperm externally using in vitro fertilization (IVF) to produce a zygote. \nThe zygote is cultured for a few days to produce an embryo.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Explain why the scientists used the cytoplasm from the donor\u2019s egg.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of biology.\nMitochondrial Replacement Therapy\nMutations in mitochondrial DNA (mtDNA) are associated with some severe human \ndiseases and are inherited through the cytoplasm in the egg cell. These diseases vary, but \noften affect organs and tissues with the highest energy requirements, including the brain, \nheart, muscle, pancreas, and kidney.\nScientists have successfully used mitochondrial replacement therapy with monkeys. \nScientists are considering using this technique to reduce the incidence of mitochondrial \ndisease in children. The proposed treatment would involve removing the nucleus from \nan egg donated by a healthy woman and replacing it with an egg nucleus from a patient \n(mother) with mitochondrial disease. This would place the patient\u2019s egg nucleus into the \ncytoplasm of the donor\u2019s egg containing healthy mitochondria. The egg is then fertilized \nwith the father\u2019s sperm externally using in vitro fertilization (IVF) to produce a zygote. \nThe zygote is cultured for a few days to produce an embryo.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "72",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 72 on the information below and on your knowledge of biology.\nMitochondrial Replacement Therapy\nMutations in mitochondrial DNA (mtDNA) are associated with some severe human \ndiseases and are inherited through the cytoplasm in the egg cell. These diseases vary, but \noften affect organs and tissues with the highest energy requirements, including the brain, \nheart, muscle, pancreas, and kidney.\nScientists have successfully used mitochondrial replacement therapy with monkeys. \nScientists are considering using this technique to reduce the incidence of mitochondrial \ndisease in children. The proposed treatment would involve removing the nucleus from \nan egg donated by a healthy woman and replacing it with an egg nucleus from a patient \n(mother) with mitochondrial disease. This would place the patient\u2019s egg nucleus into the \ncytoplasm of the donor\u2019s egg containing healthy mitochondria. The egg is then fertilized \nwith the father\u2019s sperm externally using in vitro fertilization (IVF) to produce a zygote. \nThe zygote is cultured for a few days to produce an embryo.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "A student collected data from an experiment on muscle fatigue. In order to interpret these data, the student should",
+      "choices": [
+        "ignore the data because they do not support their hypothesis",
+        "recalculate the data so that the numbers are easier to work with",
+        "share the data with a student who has none",
+        "organize the data into a table or graph"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "Paper chromatography is a method used in",
+      "choices": [
+        "comparing the shapes of plant leaves",
+        "separating mixtures of plant pigments",
+        "comparing habitats of different plants",
+        "separating individual DNA fragments of plants"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the relationship between beak structure and food in several species of \ufb01 nches found on the Galapagos Islands. Large ground finch Vegetarian finch Large tree finch Small tree finch Woodpecker finch Warbler finch Cactus finch Sharp-billed ground finch Small ground finch Medium ground finch E d g e c r u s h i n g B i t i n g t i p s C r u s h i n g b i l l s Mainly plant food Mainly animal food G r a s p i n g b i l l s All animal food P r o b i n g P r o b i n g b i l l s From: Galapagos: A Natural History Guide Variations in Beaks of Galapagos Islands Finches",
+      "choices": [
+        "different species of \ufb01 nches adapting to different environments over many generations",
+        "\ufb01 nches changing their beak characteristics so that they could feed ef\ufb01 ciently",
+        "\ufb01 nch species with different beak structures coming to the Galapagos Islands from the mainland",
+        "\ufb01"
+      ],
+      "image": "/images/exams/living-environment/january-2017/q75.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "If a sudden genetic mutation in the birds that feed on these frogs made them able to consume any amount of the poison with no harm to them, it is most likely that",
+      "choices": [
+        "the frogs that are least poisonous and less conspicuous now would survive better than those that have more poison",
+        "the frogs that are most poisonous would continue to survive and be protected by the poison they contain",
+        "without the protection of the poison, all of the frogs would need to change color to become less conspicuous",
+        "the birds would \ufb01 nd another source of food that does not contain any poison"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 76 through 78 on the information below and on your knowledge of biology.\nSeriously, We\u2019re Poisonous: Coloration Is An Honest Signal \nOf Toxicity In Poison Frogs\nThe conspicuous [noticeable] colors of poisonous frogs serve as a warning to predators: \nDon\u2019t eat me; I\u2019m toxic. And a new study shows that in the case of at least one frog \nspecies, they aren\u2019t bluf\ufb01 ng\u2013the more conspicuous the color, the more poisonous the \nfrog. Researchers Martine Maan (University of Groningen, the Netherlands) and Molly \nCummings (University of Texas) studied strawberry poison dart frogs, which are native to \nPanama and come in more than a dozen different color patterns that vary from region to \nregion.\u2026\n\u2026Maan and Cummings tested the toxicity levels of 10 differently colored frog \npopulations. Then using known properties of birds\u2019 visual systems, the researchers \nestimated how each color pattern would look to a bird, an important frog predator. \nThe results show that frogs with more conspicuous color patterns\u2013as seen by birds\u2013tended \nto be more toxic. The \ufb01 ndings suggest that \u201cbirds can predict the toxicity of frogs by \nlooking at their colors, possibly better than the frogs can themselves,\u201d Maan said.\u2026\nSource: http://www.ineffableisland.com/2012/01/seriously-were-poisonous-coloration-is.html\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Researcher Austin Penner of the University of Alberta has noted that climate change and deforestation in the habitat of the strawberry poison dart frog could have \u201cdrastic effects\u201d as the habitat required for the development of the tadpoles [young] of these frogs is extremely speci\ufb01 c. Explain why it is important to protect these poisonous frog species and the habitat that supports them.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 78 on the information below and on your knowledge of biology.\nSeriously, We\u2019re Poisonous: Coloration Is An Honest Signal \nOf Toxicity In Poison Frogs\nThe conspicuous [noticeable] colors of poisonous frogs serve as a warning to predators: \nDon\u2019t eat me; I\u2019m toxic. And a new study shows that in the case of at least one frog \nspecies, they aren\u2019t bluf\ufb01 ng\u2013the more conspicuous the color, the more poisonous the \nfrog. Researchers Martine Maan (University of Groningen, the Netherlands) and Molly \nCummings (University of Texas) studied strawberry poison dart frogs, which are native to \nPanama and come in more than a dozen different color patterns that vary from region to \nregion.\u2026\n\u2026Maan and Cummings tested the toxicity levels of 10 differently colored frog \npopulations. Then using known properties of birds\u2019 visual systems, the researchers \nestimated how each color pattern would look to a bird, an important frog predator. \nThe results show that frogs with more conspicuous color patterns\u2013as seen by birds\u2013tended \nto be more toxic. The \ufb01 ndings suggest that \u201cbirds can predict the toxicity of frogs by \nlooking at their colors, possibly better than the frogs can themselves,\u201d Maan said.\u2026\nSource: http://www.ineffableisland.com/2012/01/seriously-were-poisonous-coloration-is.html\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Frogs come in \u201cmore than a dozen different color patterns.\u201d",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 78 on the information below and on your knowledge of biology.\nSeriously, We\u2019re Poisonous: Coloration Is An Honest Signal \nOf Toxicity In Poison Frogs\nThe conspicuous [noticeable] colors of poisonous frogs serve as a warning to predators: \nDon\u2019t eat me; I\u2019m toxic. And a new study shows that in the case of at least one frog \nspecies, they aren\u2019t bluf\ufb01 ng\u2013the more conspicuous the color, the more poisonous the \nfrog. Researchers Martine Maan (University of Groningen, the Netherlands) and Molly \nCummings (University of Texas) studied strawberry poison dart frogs, which are native to \nPanama and come in more than a dozen different color patterns that vary from region to \nregion.\u2026\n\u2026Maan and Cummings tested the toxicity levels of 10 differently colored frog \npopulations. Then using known properties of birds\u2019 visual systems, the researchers \nestimated how each color pattern would look to a bird, an important frog predator. \nThe results show that frogs with more conspicuous color patterns\u2013as seen by birds\u2013tended \nto be more toxic. The \ufb01 ndings suggest that \u201cbirds can predict the toxicity of frogs by \nlooking at their colors, possibly better than the frogs can themselves,\u201d Maan said.\u2026\nSource: http://www.ineffableisland.com/2012/01/seriously-were-poisonous-coloration-is.html\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Pulse rate is measured in beats per minute (bpm). Individual A has a resting pulse rate of 64 bpm. Individual B has a resting pulse rate of 82 bpm. Identify two reasons why the pulse rates of both of these individuals could be considered \u201cnormal.\u201d Reason 1: Reason 2:",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/q79.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "The athlete received the following results from the tests. Test for Fat Test for Starch Test for Glucose Student\u2019s Result paper not greasy blue black color brick red/orange color Identify the contents of the sports gel.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/context_80_81.png",
+      "context": "Base your answers to questions 80 and 81 on the information below and on your knowledge of biology.\nAn athlete bought a sport gel food and wanted to test it to see if it contained fats, \nstarches, and glucose. The tests that the student used are shown in the table below.\nTest for Fat\nTest for Starch\nTest for Glucose\nPositive Result\npaper that is greasy\nblue black color\nbrick red/orange color\nNegative Result\npaper that is not greasy\namber color\nblue color",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "If a starch-digesting enzyme were added to a sports gel that lists starch as an ingredient, which substance would increase in concentration?",
+      "choices": [
+        "fat",
+        "glucose",
+        "amino acids",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2017/context_80_81.png",
+      "context": "Base your answers to questions 80 and 81 on the information below and on your knowledge of biology.\nAn athlete bought a sport gel food and wanted to test it to see if it contained fats, \nstarches, and glucose. The tests that the student used are shown in the table below.\nTest for Fat\nTest for Starch\nTest for Glucose\nPositive Result\npaper that is greasy\nblue black color\nbrick red/orange color\nNegative Result\npaper that is not greasy\namber color\nblue color",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "The students want to improve the validity of their conclusion. The best way to accomplish this is to",
+      "choices": [
+        "change the hypothesis",
+        "repeat the investigation several times",
+        "increase the number of variables",
+        "increase the height of participants in each group"
+      ],
+      "image": "/images/exams/living-environment/january-2017/context_82_84.png",
+      "context": "Base your answers to questions 82 through 84 on the information below and on your knowledge of biology.\nStudents in a high school biology class conducted an investigation on pulse rates. The \nthirty students performed three different activities and determined their pulse rates. Each \nactivity was done three times. The average is shown in the graph below.\nKey\nStudents over 6 feet tall\nStudents 6 feet tall and \nunder \nSitting\nWalking\nRunning\nExercise\nAverage Pulse Rate\n(beats/minute)\n0\n20\n40\n60\n80\n100\n120\n140\nAverage Pulse Rates\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Some biology students concluded that classmates over 6 feet tall always have higher pulse rates than shorter classmates. Does the information from the investigation support this conclusion? Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/context_82_84.png",
+      "context": "Base your answers to questions 82 through 84 on the information below and on your knowledge of biology.\nStudents in a high school biology class conducted an investigation on pulse rates. The \nthirty students performed three different activities and determined their pulse rates. Each \nactivity was done three times. The average is shown in the graph below.\nKey\nStudents over 6 feet tall\nStudents 6 feet tall and \nunder \nSitting\nWalking\nRunning\nExercise\nAverage Pulse Rate\n(beats/minute)\n0\n20\n40\n60\n80\n100\n120\n140\nAverage Pulse Rates\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "State the relationship between intensity of physical activity and pulse rate.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/context_82_84.png",
+      "context": "Base your answers to questions 82 through 84 on the information below and on your knowledge of biology.\nStudents in a high school biology class conducted an investigation on pulse rates. The \nthirty students performed three different activities and determined their pulse rates. Each \nactivity was done three times. The average is shown in the graph below.\nKey\nStudents over 6 feet tall\nStudents 6 feet tall and \nunder \nSitting\nWalking\nRunning\nExercise\nAverage Pulse Rate\n(beats/minute)\n0\n20\n40\n60\n80\n100\n120\n140\nAverage Pulse Rates\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify one adaptation, other than beak size and shape, a \ufb01 nch species might possess and state how that would aid in its survival. LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2017/q85.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

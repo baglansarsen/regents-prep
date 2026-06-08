@@ -1,13 +1,14 @@
 import { useState, useCallback, useMemo, useEffect, useRef } from 'react'
-import { getLevel, regentsXP } from './data/levels'
-import * as livingEnvData from './data/living-environment/index'
-import * as earthScienceData from './data/earth-science/index'
-import * as chemistryData from './data/chemistry/index'
-import * as physicsData from './data/physics/index'
-import * as algebra1Data from './data/algebra-1/index'
-import * as algebra2Data from './data/algebra-2/index'
-import * as geometryData from './data/geometry/index'
-import { SUBJECT_META } from './data/subjects'
+import { regentsXP, getLevel } from '@content/levels'
+import * as livingEnvData from '@content/living-environment/index'
+import * as earthScienceData from '@content/earth-science/index'
+import * as chemistryData from '@content/chemistry/index'
+import * as physicsData from '@content/physics/index'
+import * as algebra1Data from '@content/algebra-1/index'
+import * as algebra2Data from '@content/algebra-2/index'
+import * as geometryData from '@content/geometry/index'
+import * as lifeScienceData from '@content/life-science/index'
+import { SUBJECT_META } from '@content/subjects'
 import { useAuth } from './hooks/useAuth'
 import { useTheme } from './hooks/useTheme'
 import { useProgress } from './hooks/useProgress'
@@ -20,6 +21,9 @@ import { useDailyQuestion } from './hooks/useDailyQuestion'
 import { useBookmarks } from './hooks/useBookmarks'
 import { useFriends } from './hooks/useFriends'
 import { useChallenges } from './hooks/useChallenges'
+import { usePet } from './hooks/usePet'
+import { useLeague } from './hooks/useLeague'
+import { useMistakes } from './hooks/useMistakes'
 import LoginScreen from './screens/LoginScreen'
 import HomeScreen from './screens/HomeScreen'
 import QuizScreen from './screens/QuizScreen'
@@ -39,10 +43,27 @@ import RegentsExamPickerScreen from './screens/RegentsExamPickerScreen'
 import RegentsExamScreen from './screens/RegentsExamScreen'
 import RegentsExamResultsScreen from './screens/RegentsExamResultsScreen'
 import TestStrategiesScreen from './screens/TestStrategiesScreen'
+import PetPickerScreen from './screens/PetPickerScreen'
+import PetShopScreen from './screens/PetShopScreen'
+import PetEvolutionScreen from './screens/PetEvolutionScreen'
+import LeagueScreen from './screens/LeagueScreen'
+import PetWidget from './components/PetWidget'
+
+const SCALE_TABLE = [
+  [100,100],[98,99],[96,98],[94,97],[92,96],[90,95],[88,94],[86,93],[84,91],
+  [82,89],[80,87],[78,85],[76,83],[74,81],[72,79],[70,77],[68,75],[66,73],
+  [64,71],[62,69],[60,67],[58,65],[56,63],[54,61],[52,59],[50,57],[48,55],
+  [46,53],[44,51],[42,49],[40,47],[38,45],[36,43],[34,40],[32,37],[30,34],
+  [28,31],[26,28],[24,25],[22,22],[20,19],[0,0],
+]
+function toRegentsScale(pct) {
+  for (const [raw, sc] of SCALE_TABLE) if (pct >= raw) return sc
+  return 0
+}
 
 export default function App() {
   const { theme, setTheme } = useTheme()
-  const { user, signInWithGoogle, signInWithEmail, signUpWithEmail, signInAsGuest, linkEmailToGuest, linkGoogleToGuest, logOut } = useAuth()
+  const { user, signInWithGoogle, signInWithEmail, signUpWithEmail, signInAsGuest, linkEmailToGuest, linkGoogleToGuest, logOut, resetPassword } = useAuth()
 
   const [subject, setSubjectRaw] = useState(
     () => localStorage.getItem('regents_subject') || 'living-environment'
@@ -64,6 +85,7 @@ export default function App() {
     'algebra-1': algebra1Data,
     'algebra-2': algebra2Data,
     'geometry': geometryData,
+    'life-science': lifeScienceData,
   }
   const sd = subjectDataMap[subject] ?? livingEnvData
   const { questions, getByTopic, shuffled, buildDiagnosticSet, getContextual, TOPIC_ORDER } = sd
@@ -82,7 +104,7 @@ export default function App() {
 
   const { streak, studiedToday, weekDays, markStudied } = useDailyStreak(user?.uid)
   const { isUnlocked, unlockHint, completedCount, totalTopics } = useUnlocks(subjectHistory, TOPIC_ORDER)
-  const { xp, earnXP, spendXP, loaded: xpLoaded } = useXP(user?.uid)
+  const { xp, weeklyXP, earnXP, spendXP, loaded: xpLoaded } = useXP(user?.uid)
   const { earnedIds, allAchievements, currentToast, dismissToast, queueToast, recordPracticeTest, recordDiagnostic } =
     useAchievements(user?.uid, { history: subjectHistory, streak, xp, achievements: sd.achievements })
 
@@ -109,6 +131,26 @@ export default function App() {
     acceptRequest, declineRequest, removeFriend, logActivity,
   } = useFriends(user?.uid, user)
   const { challenges, sendBattleRequest, acceptBattle, declineBattle, submitScore } = useChallenges(user?.uid)
+  const { mistakes, mistakeCount, saveMistakes } = useMistakes()
+
+  // ── Pets ──────────────────────────────────────────────────────────────────
+  const {
+    pet, inventory, pendingEvolution, activeReaction, activeFloatMessage,
+    feedPet, playWithPet, addInventory, checkAndEvolve, clearPendingEvolution,
+    getPetMessage, initializePet, switchBuddy, petPet, dailyDig,
+    getTodayQuest, updateQuestProgress,
+  } = usePet(user?.uid)
+
+  // ── League ────────────────────────────────────────────────────────────────
+  const {
+    tier, members, loading: leagueLoading, justPromoted, justDemoted,
+    promoteN, demoteN, refresh: refreshLeague,
+  } = useLeague(user?.uid)
+
+  // Check pet evolution whenever XP changes
+  useEffect(() => {
+    if (xp > 0 && pet.chosen) checkAndEvolve(xp)
+  }, [xp, pet.chosen, checkAndEvolve])
 
   const handleDailySubmit = useCallback(async (choiceIndex) => {
     const res = await submitDailyAnswer(choiceIndex)
@@ -120,10 +162,10 @@ export default function App() {
   const [questionSet, setQuestionSet] = useState([])
   const [quizResult, setQuizResult]   = useState(null)
   const [activeTopic, setActiveTopic] = useState(null)
+  const [activeLessonIndex, setActiveLessonIndex] = useState(null)
   const [tipsUnit,    setTipsUnit]    = useState(null)
   const [diagResult, setDiagResult]   = useState(null)
   const [speedResult, setSpeedResult] = useState(null)
-  const [noTimer, setNoTimer]         = useState(false)
   // Regents exam state
   const [activeExam, setActiveExam]         = useState(null)
   const [examResult, setExamResult]         = useState(null)
@@ -132,14 +174,21 @@ export default function App() {
   const [challengeResult, setChallengeResult] = useState(null)
   // Guest upgrade modal
   const [showUpgrade, setShowUpgrade] = useState(false)
+  // Pet onboarding flag
+  const [petChosen, setPetChosen] = useState(() => !!localStorage.getItem('regents_pet_chosen'))
 
-  const startQuiz = useCallback((topic) => {
-    const pool = topic ? getByTopic(topic) : questions
+  const startQuiz = useCallback((topic, lessonIndex = null, lessonCount = null) => {
+    let pool
+    if (lessonIndex != null && sd.getLessonQuestions) {
+      pool = sd.getLessonQuestions(topic, lessonIndex, lessonCount ?? 3)
+    } else {
+      pool = topic ? getByTopic(topic) : questions
+    }
     setQuestionSet(shuffled(pool))
     setActiveTopic(topic)
-    setNoTimer(false)
+    setActiveLessonIndex(lessonIndex)
     setScreen('quiz')
-  }, [questions, getByTopic, shuffled])
+  }, [questions, getByTopic, shuffled, sd])
 
   const startPracticeTest = useCallback(() => {
     setQuestionSet(shuffled(questions))
@@ -154,7 +203,6 @@ export default function App() {
   const startContextPractice = useCallback(() => {
     setQuestionSet(shuffled(getContextual()))
     setActiveTopic(null)
-    setNoTimer(true)
     setScreen('quiz')
   }, [getContextual, shuffled])
 
@@ -233,14 +281,27 @@ export default function App() {
     setScreen('results')
     const correct = result.results.filter((r) => r.correct).length
     const pct     = Math.round((correct / result.total) * 100)
-    saveResult({ topic: activeTopic, score: result.score, total: result.total, correct, pct })
+    saveResult({ topic: activeTopic, score: result.score, total: result.total, correct, pct, lessonIndex: activeLessonIndex })
     markStudied()
     // `score` is now denominated in XP (speed + streak baked in), so it IS the payout.
     const xpEarned = Math.round(result.score)
     earnXP(xpEarned)
     logActivity({ type: 'quiz', label: `scored ${pct}% on ${activeTopic ?? 'All Topics'}`, emoji: pct >= 85 ? '🏆' : pct >= 65 ? '✅' : '📝', xp: xpEarned })
+    // Save wrong answers to mistakes bank
+    const wrong = result.results?.filter((r) => !r.correct).map((r) => r.question).filter(Boolean)
+    if (wrong?.length) saveMistakes(wrong, subject)
     if (user?.isAnonymous) setShowUpgrade(true)
-  }, [activeTopic, saveResult, markStudied, earnXP, logActivity, user])
+  }, [activeTopic, saveResult, markStudied, earnXP, logActivity, user, saveMistakes, subject])
+
+  const startPracticeMistakes = useCallback(() => {
+    const forSubject = mistakes.filter((q) => (q.subject ?? 'living-environment') === subject)
+    const pool = (forSubject.length ? forSubject : mistakes).slice(0, 50)
+    if (!pool.length) return
+    setQuestionSet([...pool].sort(() => Math.random() - 0.5))
+    setActiveTopic(null)
+    setActiveLessonIndex(null)
+    setScreen('quiz')
+  }, [mistakes, subject])
 
   const buyStreak = useCallback(async () => {
     const ok = await spendXP(100)
@@ -274,8 +335,9 @@ export default function App() {
   }, [])
 
   const finishRegentsExam = useCallback((result) => {
-    const scaled = result.total ? Math.round((result.correct / result.total) * 100) : 0
-    const xpEarned = regentsXP(scaled)
+    const pct = result.total ? Math.round((result.correct / result.total) * 100) : 0
+    const scaled = toRegentsScale(pct)
+    const xpEarned = regentsXP(pct)
     // Save personal best
     const PB_KEY = 'regents_personal_best_v1'
     try {
@@ -303,6 +365,23 @@ export default function App() {
           onSignInEmail={signInWithEmail}
           onSignUpEmail={signUpWithEmail}
           onGuest={signInAsGuest}
+          onResetPassword={resetPassword}
+        />
+      </div>
+    )
+  }
+
+  // Pet onboarding (after school/subject, before main app) — skip for guests
+  if (!petChosen && !user.isAnonymous && school !== null && subjectChosen) {
+    return (
+      <div className="app-shell">
+        <PetPickerScreen
+          theme={theme}
+          onComplete={async (petType, petName) => {
+            await initializePet(petType, petName)
+            localStorage.setItem('regents_pet_chosen', '1')
+            setPetChosen(true)
+          }}
         />
       </div>
     )
@@ -396,6 +475,32 @@ export default function App() {
           onLabPractice={startLabPractice}
           onAdmin={user?.email === ADMIN_EMAIL ? () => setScreen('admin') : null}
           onUpgrade={user?.isAnonymous ? () => setShowUpgrade(true) : null}
+          onPracticeMistakes={mistakes.length ? startPracticeMistakes : null}
+          mistakeCount={mistakeCount}
+          onLeague={() => setScreen('league')}
+          onShop={() => setScreen('petShop')}
+          tier={tier}
+          weeklyXP={weeklyXP}
+          petQuest={pet?.chosen ? getTodayQuest() : null}
+          pet={pet}
+          petWidget={pet?.chosen ? (
+            <PetWidget
+              pet={pet}
+              inventory={inventory}
+              theme={theme}
+              activeReaction={activeReaction}
+              activeFloatMessage={activeFloatMessage}
+              onFeed={feedPet}
+              onPlay={playWithPet}
+              onPetTap={petPet}
+              onShop={() => setScreen('petShop')}
+              onDig={async () => {
+                const result = await dailyDig()
+                if (!result.ok) return
+                if (result.type === 'xp') earnXP(result.amount)
+              }}
+            />
+          ) : null}
         />
       )}
 
@@ -408,7 +513,7 @@ export default function App() {
       )}
 
       {screen === 'quiz' && questionSet.length > 0 && (
-        <QuizScreen key={questionSet[0]?.id} questionSet={questionSet} onDone={finishQuiz} onHome={goHome} bookmarkedIds={bookmarkedIds} onBookmark={toggleBookmark} noTimer={noTimer} />
+        <QuizScreen key={questionSet[0]?.id} questionSet={questionSet} onDone={finishQuiz} onHome={goHome} bookmarkedIds={bookmarkedIds} onBookmark={toggleBookmark} />
       )}
 
       {screen === 'results' && quizResult && (
@@ -514,6 +619,45 @@ export default function App() {
           {...examResult}
           onRetake={() => startRegentsExam(activeExam)}
           onHome={goHome}
+        />
+      )}
+
+      {screen === 'petShop' && (
+        <PetShopScreen
+          xp={xp}
+          inventory={inventory}
+          theme={theme}
+          onBack={() => setScreen('home')}
+          onBuy={async (item) => {
+            const cost = item.cost ?? item.price ?? 0
+            const ok = await spendXP(cost)
+            if (ok) await addInventory(item.id, 1)
+          }}
+        />
+      )}
+
+      {screen === 'league' && (
+        <LeagueScreen
+          uid={user?.uid}
+          tier={tier}
+          members={members}
+          loading={leagueLoading}
+          justPromoted={justPromoted}
+          justDemoted={justDemoted}
+          promoteN={promoteN}
+          demoteN={demoteN}
+          weeklyXP={weeklyXP}
+          theme={theme}
+          onBack={() => setScreen('home')}
+          onRefresh={refreshLeague}
+        />
+      )}
+
+      {pendingEvolution && pet?.chosen && (
+        <PetEvolutionScreen
+          pet={pet}
+          theme={theme}
+          onDismiss={clearPendingEvolution}
         />
       )}
 

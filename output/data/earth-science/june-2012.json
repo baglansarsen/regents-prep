@@ -1,0 +1,1061 @@
+{
+  "subject": "earth-science",
+  "session": "june-2012",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "A Foucault pendulum appears to change its direction of swing because Earth",
+      "choices": [
+        "is tilted on its axis",
+        "is spinning on its axis",
+        "has a curved surface",
+        "has a density of 5.5 g/cm3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The modern heliocentric model of planetary motion states that the planets travel around",
+      "choices": [
+        "the Sun in slightly elliptical orbits",
+        "the Sun in circular orbits",
+        "Earth in slightly elliptical orbits",
+        "Earth in circular orbits"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "To an observer on Earth, the Sun appears brighter than the star Rigel because the Sun is",
+      "choices": [
+        "hotter than Rigel",
+        "more luminous than Rigel",
+        "closer than Rigel",
+        "larger than Rigel"
+      ],
+      "image": "/images/exams/earth-science/june-2012/q3.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The cross section below represents four locations on a mountain. The arrow indicates the prevailing wind direction. Which location has the warmest and most arid climate?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2012/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The map below shows an eastern portion of North America. Points A and B represent locations on the eastern shoreline. Which factor is primarily responsible for location A having a lower average yearly temperature than location B?",
+      "choices": [
+        "nearness to a large body of water",
+        "elevation",
+        "latitude",
+        "prevailing winds"
+      ],
+      "image": "/images/exams/earth-science/june-2012/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "El Cuy is a South American city located at 40\u00b0 south latitude. The first day of winter at this location occurs on June 21. During which month would the coldest day of the year most likely occur at this location?",
+      "choices": [
+        "May",
+        "July",
+        "November",
+        "January A 0 500 miles Gulf of Mexico Atlantic Ocean B Florida Canada New York Prevailing wind Ocean A B C D"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The map below shows a typical position and average velocity of the polar front jet stream during two different seasons. For the eastern United States, the change of the polar front jet stream from this summer position to this winter position causes",
+      "choices": [
+        "warmer temperatures farther north and causes storms to move more slowly",
+        "warmer temperatures farther north and causes storms to move more rapidly",
+        "cooler temperatures farther south and causes storms to move more slowly",
+        "cooler temperatures farther south and causes storms to move more rapidly"
+      ],
+      "image": "/images/exams/earth-science/june-2012/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which soil characteristic allows greater amounts of water retention?",
+      "choices": [
+        "large-size particles",
+        "small-size particles",
+        "high-density particles",
+        "low-density particles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A paved blacktop parking lot was built on what was once a soil-covered field. This area will now experience increased runoff when rain occurs because the paved parking lot has",
+      "choices": [
+        "less capillarity",
+        "less permeability",
+        "greater infiltration",
+        "greater porosity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which processes of the water cycle return water vapor directly to the atmosphere?",
+      "choices": [
+        "evaporation and transpiration",
+        "infiltration and capillarity",
+        "freezing and precipitation",
+        "water retention and runoff"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Evidence supports the idea that increases in carbon dioxide and methane in Earth\u2019s atmosphere are major contributors to global warming. This is based primarily on the fact that carbon dioxide and methane are excellent absorbers of",
+      "choices": [
+        "gamma rays",
+        "microwaves",
+        "visible light",
+        "infrared radiation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The bedrock of the Adirondack Mountains was formed mainly by the",
+      "choices": [
+        "cementation of clastic sediments and precipitates from seawater",
+        "compaction and recrystallization of volcanic material",
+        "regional metamorphism of sedimentary and igneous rocks",
+        "contact metamorphism of unconsolidated gravels"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which element, found in both biotite mica and muscovite mica, makes up the greatest percent by volume of Earth\u2019s crust?",
+      "choices": [
+        "nitrogen",
+        "oxygen",
+        "potassium",
+        "silicon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The inferred temperature and pressure of Earth\u2019s interior at a depth of 3,000 kilometers are approximately",
+      "choices": [
+        "1000\u00b0C and 0.5 million atmospheres",
+        "1000\u00b0C and 1.0 million atmospheres",
+        "5000\u00b0C and 1.5 million atmospheres",
+        "5000\u00b0C and 3.0 million atmospheres"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which agent of erosion most likely formed the drumlins and finger lakes in New York State?",
+      "choices": [
+        "running water",
+        "moving ice",
+        "wave action",
+        "mass movement"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The longest portion of the Genesee River in New York State flows through which landscape region?",
+      "choices": [
+        "Erie-Ontario Lowlands",
+        "Tug Hill Plateau",
+        "Allegheny Plateau",
+        "St. Lawrence Lowlands N P ol ar front jet stream \u2014 S u m m e r (6 0 k m/h) Polar fro nt jet stre am \u2014 W in t e r ( 1 2 5 km /h) United States"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A model of Earth\u2019s internal structure is shown below. Analysis of which type of data led to the development of this model?",
+      "choices": [
+        "seismic waves",
+        "depth of Earth\u2019s oceans",
+        "electromagnetic radiation",
+        "isobar gradients"
+      ],
+      "image": "/images/exams/earth-science/june-2012/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "What caused the interior of Earth to separate into layers?",
+      "choices": [
+        "a decrease in the rate of rotation of Earth",
+        "the gravitational pull on materials of varying densities",
+        "variations in heating by the Sun due to Earth\u2019s tilt",
+        "collisions with meteors and comets"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which plate tectonic events occurred as the Iapetus Ocean closed?",
+      "choices": [
+        "Taconian orogeny and Grenville orogeny",
+        "Taconian orogeny and Acadian orogeny",
+        "Alleghenian orogeny and Acadian orogeny",
+        "Alleghenian orogeny and Grenville orogeny"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which mineral will scratch fluorite, galena, and pyroxene?",
+      "choices": [
+        "graphite",
+        "calcite",
+        "olivine",
+        "dolomite"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which radioactive isotope is most often used when determining the age of fossil bones found in sediments deposited during the Holocene Epoch?",
+      "choices": [
+        "carbon-14",
+        "potassium-40",
+        "uranium-238",
+        "rubidium-87"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The photograph below shows index fossil shells found in bedrock in New York State. These index fossil shells were most likely found in the surface bedrock of which landscape region?",
+      "choices": [
+        "Adirondack Mountains",
+        "the Catskills",
+        "St. Lawrence Lowlands",
+        "Tug Hill Plateau Asth eno sp here Liquid Solid Core Mantle Lithosphere (crust and rigid mantle) (Not drawn to scale) P.S./"
+      ],
+      "image": "/images/exams/earth-science/june-2012/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "written",
+      "text": "The arrows on which map best represent the surface wind pattern around this low-pressure center?",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_23_24.png",
+      "context": "Base your answers to questions 23 and 24 on the weather map below, which represents a low-pressure \nsystem over New York State. The L on the map represents the center of the low-pressure system. Two fronts\nextend from the center of the low, and are labeled front 1 and front 2. Cloud cover has been omitted from the\nstation models.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "written",
+      "text": "Which map best represents the type of fronts and direction of movement of these fronts in relation to the low-pressure center? ( 1 ) L ( 2 ) L ( 3 ) L ( 4 ) L ( 3 ) L ( 2 ) L ( 1 ) L ( 4 ) L L Old Forge Binghamton 74 76 52 Front 2 N Buffalo Front 1 Riverhead 78 Kingston 54",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_23_24.png",
+      "context": "Base your answers to questions 23 and 24 on the weather map below, which represents a low-pressure \nsystem over New York State. The L on the map represents the center of the low-pressure system. Two fronts\nextend from the center of the low, and are labeled front 1 and front 2. Cloud cover has been omitted from the\nstation models.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "A timeline from the origin of Earth until the present is shown below. At which letter on the timeline did the Ediacaran fauna exist?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2012/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "The diagram below represents three identical beakers filled to the same level with spherical beads. If the packing of the beads within each beaker is the same, which graph best represents the porosity within each beaker? Beaker ( 1 ) Porosity A B C Porosity Beaker ( 2 ) A B C Porosity Beaker ( 3 ) A B C Porosity Beaker ( 4 ) A B C Beads of 0.15-cm diameter A Beads of 0.45-cm diameter B Beads of 0.70-cm diameter C ARCHEAN PROTEROZOIC PHANERO- ZOIC Present Origin of Earth A B D PRECAMBRIAN C",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Which diagram correctly represents the curving of Earth\u2019s ocean currents and prevailing winds due to the Coriolis effect?",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "A topographic map and an incorrectly constructed profile from point A to point H on the map are shown below. What mistake was made in the construction of this profile?",
+      "choices": [
+        "using a contour interval of 10 feet",
+        "plotting points A through H the same distance apart horizontally",
+        "drawing a curved line instead of a straight line from point B to point C",
+        "increasing the elevation from point F to point H Incorrect Profile 190 180 170 160 150 140 130 120 110 100 Elevation (ft) Distance (mi) A B C D E F G H Topographic Map 150 150 100 H G E D C B A F ( 1 ) North Pole ( 2 ) North Pole ( 3 ) North Pole ( 4 ) North Pole Key = Ocean currents = Prevailing winds P.S./"
+      ],
+      "image": "/images/exams/earth-science/june-2012/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Which map best illustrates the apparent path of Virgo during the next 4 hours?",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_29_30.png",
+      "context": "Base your answers to questions 29 and 30 on the map of the night sky below, which represents the apparent \nlocations of some of the constellations that are visible to an observer at approximately 40\u00b0 N latitude at 9 p.m.\nin April. The point directly above the observer is labeled zenith.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which motion causes the constellation Leo to no longer be visible to an observer at 40\u00b0 N in October?",
+      "choices": [
+        "spin of the constellation on its axis",
+        "revolution of the constellation around the Sun",
+        "spin of Earth on its axis",
+        "revolution of Earth around the Sun ( 1 ) ( 3 ) ( 2 ) ( 4 ) South North West East Cassiopeia Little Dipper Polaris Big Dipper ZenithLeo Virgo Orion Canis Major Bootes Pleiades South North West East Cassiopeia Little Dipper Polaris Big Dipper ZenithLeo Virgo Orion Canis Major Bootes Pleiades South North West East Cassiopeia Little Dipper Polaris Big Dipper ZenithLeo Virgo Orion Canis Major Bootes Pleiades South North West East Cassiopeia Little Dipper Polaris Big Dipper ZenithLeo Virgo Orion Canis Major Bootes Pleiades South North West East Cassiopeia Little Dipper Polaris Big Dipper Zenith Leo Virgo Orion Canis Major Bootes Pleiades H o ri zo n H o r i z o n"
+      ],
+      "image": "/images/exams/earth-science/june-2012/context_29_30.png",
+      "context": "Base your answers to questions 29 and 30 on the map of the night sky below, which represents the apparent \nlocations of some of the constellations that are visible to an observer at approximately 40\u00b0 N latitude at 9 p.m.\nin April. The point directly above the observer is labeled zenith.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "An earthquake occurs at 12:02 p.m. A seismic station records the first S-wave at 12:19 p.m. Which set of data shows the approximate arrival time of the first P-wave and the distance to the epicenter?",
+      "choices": [
+        "12:11:25 p.m. and 4000 km",
+        "12:11:25 p.m. and 6000 km",
+        "12:19:40 p.m. and 4000 km",
+        "12:19:40 p.m. and 6000 km"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The cross section below represents a portion of Earth\u2019s crust. Letters A through D are locations within the rock units. At which location is quartzite most likely found?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2012/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "The diagram below represents a total solar eclipse as seen from Earth. Which diagram correctly represents the relative positions of the Sun (S), Earth (E), and the Moon (M) in space during a total solar eclipse? [The diagrams are not drawn to scale.] ( 1 ) M S E ( 3 ) M S E ( 2 ) M S E ( 4 ) M S E B D A Key Igneous intrusion Contact metamorphism C",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "In this experiment, the water velocity could be increased by",
+      "choices": [
+        "decreasing the slope of the rain gutter",
+        "increasing the amount of water from the faucet",
+        "lowering the flexible hose",
+        "widening the rain gutter"
+      ],
+      "image": "/images/exams/earth-science/june-2012/context_34_35.png",
+      "context": "Base your answers to questions 34 and 35 on the diagram and data table below. The diagram shows the\nequipment used to determine the factors affecting the rate of erosion in a stream. The data table shows the time\nit took a 10-gram sample of quartz sand to move 100 centimeters down the rain gutter under various conditions.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "What is the relationship between the water velocity and the rate of erosion?",
+      "choices": [
+        "If the water velocity decreases, the rate of erosion increases.",
+        "If the water velocity increases, the rate of erosion increases.",
+        "If the water velocity remains constant, the rate of erosion decreases.",
+        "If the water velocity remains constant, the rate of erosion increases. Rain Gutter Slope Water Velocity Erosion Time (s) Fine Sand Coarse Sand 5\u00b0 slow 20 60 fast 15 40 10\u00b0 slow 15 40 fast 10 30 20\u00b0 slow 10 30 fast 5 15 Water faucet Bucket Sink Rain gutter Flexible hose Textbooks"
+      ],
+      "image": "/images/exams/earth-science/june-2012/context_34_35.png",
+      "context": "Base your answers to questions 34 and 35 on the diagram and data table below. The diagram shows the\nequipment used to determine the factors affecting the rate of erosion in a stream. The data table shows the time\nit took a 10-gram sample of quartz sand to move 100 centimeters down the rain gutter under various conditions.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which statement best explains how global climate would most likely be affected after this large meteor impact?",
+      "choices": [
+        "Large quantities of ejecta in the atmosphere would block insolation and lower global temperatures.",
+        "An increase in vapor and ejecta would allow radiation to escape Earth\u2019s atmosphere and lower global temperatures.",
+        "Ejecta settling in thick layers would increase the absorption of insolation by Earth\u2019s surface and raise global temperatures.",
+        "Forest fires produced from the vapor and ejecta would raise global temperatures."
+      ],
+      "image": "/images/exams/earth-science/june-2012/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the diagrams below. The diagrams represent the events that\noccur when a large meteor, such as the one believed to have caused the extinction of many organisms, impacts\nEarth\u2019s surface. Diagram A shows the meteor just before impact. Diagram B represents the crater forming,\nalong with the vapor and ejecta (the fragmented rock and dust) thrown into the atmosphere.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Many meteors are believed to be fragments of celestial objects normally found between the orbits of Mars and Jupiter. These objects are classified as",
+      "choices": [
+        "stars",
+        "asteroids",
+        "planets",
+        "moons Vapor Diagram A: Before Impact Diagram B: During Impact Meteor Melt Ejecta"
+      ],
+      "image": "/images/exams/earth-science/june-2012/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the diagrams below. The diagrams represent the events that\noccur when a large meteor, such as the one believed to have caused the extinction of many organisms, impacts\nEarth\u2019s surface. Diagram A shows the meteor just before impact. Diagram B represents the crater forming,\nalong with the vapor and ejecta (the fragmented rock and dust) thrown into the atmosphere.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which value should be placed in the data table for the Sun\u2019s maximum altitude on December 21?",
+      "choices": [
+        "16.5\u00b0",
+        "23.5\u00b0",
+        "40\u00b0",
+        "90\u00b0"
+      ],
+      "image": "/images/exams/earth-science/june-2012/context_38_41.png",
+      "context": "Base your answers to questions 38 through 41 on the diagram and data table below. The diagram represents\nthe Sun\u2019s apparent paths as viewed by an observer located at 50\u00b0 N latitude on June 21 and March 21. The data\ntable shows the Sun\u2019s maximum altitude for the same two dates of the year. The Sun\u2019s maximum altitude for\nDecember 21 has been left blank.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "written",
+      "text": "Which graph best represents the relationship between the time of day and the length of a shadow cast by the observer on March 21? E W 0 10 20 30 40 50 60 70 80 90 80 70 60 50 40 30 20 10 0 S N Observer March 21 June 21 Date Sun\u2019s Maximum Altitude June 21 63.5\u00b0 March 21 40\u00b0 December 21 Data Table 12 noon 6 a.m. 6 p.m. Length of Shadow ( 1 ) 12 noon 6 a.m. 6 p.m. Length of Shadow ( 2 ) 12 noon 6 a.m. 6 p.m. Length of Shadow ( 3 ) 12 noon 6 a.m. 6 p.m. Length of Shadow ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_38_41.png",
+      "context": "Base your answers to questions 38 through 41 on the diagram and data table below. The diagram represents\nthe Sun\u2019s apparent paths as viewed by an observer located at 50\u00b0 N latitude on June 21 and March 21. The data\ntable shows the Sun\u2019s maximum altitude for the same two dates of the year. The Sun\u2019s maximum altitude for\nDecember 21 has been left blank.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which statement best compares the intensity and angle of insolation at noon on March 21 and June 21?",
+      "choices": [
+        "The intensity and angle of insolation are greatest on March 21.",
+        "The intensity and angle of insolation are greatest on June 21.",
+        "The intensity of insolation is greatest on June 21 and the angle of insolation is greatest on March 21.",
+        "The intensity of insolation is greatest on March 21 and the angle of insolation is greatest on June 21."
+      ],
+      "image": "/images/exams/earth-science/june-2012/context_38_41.png",
+      "context": "Base your answers to questions 38 through 41 on the diagram and data table below. The diagram represents\nthe Sun\u2019s apparent paths as viewed by an observer located at 50\u00b0 N latitude on June 21 and March 21. The data\ntable shows the Sun\u2019s maximum altitude for the same two dates of the year. The Sun\u2019s maximum altitude for\nDecember 21 has been left blank.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "written",
+      "text": "Which diagram represents the approximate location of the Sun at 3 p.m. on March 21? E W 0 10 20 30 40 50 60 70 80 90 80 70 60 50 40 30 20 10 0 S N ( 1 ) Sun 0 10 20 30 40 50 60 70 80 90 80 70 60 50 40 30 20 10 0 S N ( 3 ) Sun E W 0 10 20 30 40 50 60 70 80 90 80 70 60 50 40 30 20 10 0 S N ( 2 ) Sun E W 0 10 20 30 40 50 60 70 80 90 80 70 60 50 40 30 20 10 0 S N ( 4 ) Sun E W",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_38_41.png",
+      "context": "Base your answers to questions 38 through 41 on the diagram and data table below. The diagram represents\nthe Sun\u2019s apparent paths as viewed by an observer located at 50\u00b0 N latitude on June 21 and March 21. The data\ntable shows the Sun\u2019s maximum altitude for the same two dates of the year. The Sun\u2019s maximum altitude for\nDecember 21 has been left blank.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which Earth process is being modeled in this experiment?",
+      "choices": [
+        "physical weathering in the hydrosphere",
+        "physical weathering in the mesosphere",
+        "chemical weathering in the hydrosphere",
+        "chemical weathering in the mesosphere"
+      ],
+      "image": "/images/exams/earth-science/june-2012/context_42_45.png",
+      "context": "Base your answers to questions 42 through 45 on the laboratory experiment described below.\nThe weathering of four different rock samples with different masses was studied.\nEach rock sample was placed in a separate beaker containing 500 milliliters of a dilute\nacid for 10 minutes. Bubbling was observed in some of the beakers. The data table\nbelow shows the mass of each sample, in grams, before placement in the acid and after\nremoval from the acid.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "written",
+      "text": "Which table correctly shows the classification of the rock samples based on the amount of weathering during this experiment?",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_42_45.png",
+      "context": "Base your answers to questions 42 through 45 on the laboratory experiment described below.\nThe weathering of four different rock samples with different masses was studied.\nEach rock sample was placed in a separate beaker containing 500 milliliters of a dilute\nacid for 10 minutes. Bubbling was observed in some of the beakers. The data table\nbelow shows the mass of each sample, in grams, before placement in the acid and after\nremoval from the acid.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Approximately what percentage of the marble sample remained after the experiment?",
+      "choices": [
+        "0.4%",
+        "8.0%",
+        "20.7%",
+        "99.6%"
+      ],
+      "image": "/images/exams/earth-science/june-2012/context_42_45.png",
+      "context": "Base your answers to questions 42 through 45 on the laboratory experiment described below.\nThe weathering of four different rock samples with different masses was studied.\nEach rock sample was placed in a separate beaker containing 500 milliliters of a dilute\nacid for 10 minutes. Bubbling was observed in some of the beakers. The data table\nbelow shows the mass of each sample, in grams, before placement in the acid and after\nremoval from the acid.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which property of the gneiss sample prevented it from weathering?",
+      "choices": [
+        "",
+        "",
+        "",
+        "Group A Group B granite limestone marble gneiss Group A Group B limestone granite marble gneiss Group A Group B limestone gneiss granite marble Rock Mass Before (g) Mass After (g) limestone 19.72 19.64 granite 20.77 20.77 gneiss 26.83 26.83 marble 20.81 20.73 Data Table"
+      ],
+      "image": "/images/exams/earth-science/june-2012/context_42_45.png",
+      "context": "Base your answers to questions 42 through 45 on the laboratory experiment described below.\nThe weathering of four different rock samples with different masses was studied.\nEach rock sample was placed in a separate beaker containing 500 milliliters of a dilute\nacid for 10 minutes. Bubbling was observed in some of the beakers. The data table\nbelow shows the mass of each sample, in grams, before placement in the acid and after\nremoval from the acid.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "What is a possible elevation of point A?",
+      "choices": [
+        "575 meters",
+        "600 meters",
+        "655 meters",
+        "710 meters"
+      ],
+      "image": "/images/exams/earth-science/june-2012/context_46_48.png",
+      "context": "Base your answers to questions 46 through 48 on the topographic map below. Points A, X, and Y are \nreference points on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "In which general direction does Flint Creek flow?",
+      "choices": [
+        "southwest",
+        "southeast",
+        "northwest",
+        "northeast"
+      ],
+      "image": "/images/exams/earth-science/june-2012/context_46_48.png",
+      "context": "Base your answers to questions 46 through 48 on the topographic map below. Points A, X, and Y are \nreference points on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "What is the approximate gradient along the straight dashed line between points X and Y?",
+      "choices": [
+        "50 m/km",
+        "100 m/km",
+        "150 m/km",
+        "300 m/km Y A X Flint Cree k 0 1 2 3 4 5 km Contour interval = 50 meters N 250 500 500 500 500"
+      ],
+      "image": "/images/exams/earth-science/june-2012/context_46_48.png",
+      "context": "Base your answers to questions 46 through 48 on the topographic map below. Points A, X, and Y are \nreference points on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "As planet A moves in orbit from its current location to position X, planet B most likely moves in orbit from its current location to position",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/earth-science/june-2012/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the diagram below, which represents the current locations of\ntwo planets, A and B, orbiting a star. Letter X indicates a position in the orbit of planet A. Numbers 1 through\n4 indicate positions in the orbit of planet B.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "If the diagram represents our solar system and planet B is Venus, which planet is represented by planet A?",
+      "choices": [
+        "Mercury",
+        "Jupiter",
+        "Earth",
+        "Mars A B 1 2 3 4 X Star (Not drawn to scale)"
+      ],
+      "image": "/images/exams/earth-science/june-2012/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the diagram below, which represents the current locations of\ntwo planets, A and B, orbiting a star. Letter X indicates a position in the orbit of planet A. Numbers 1 through\n4 indicate positions in the orbit of planet B.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify the environment of formation of this igneous rock based on the size of its intergrown crystals.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the magnified views shown below of the minerals found\nin an igneous rock and in a metamorphic rock. The millimeter scale indicates the size of the crystals shown in\nthe magnified views.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Based on the minerals present, identify the relative color and density of this igneous rock compared to mafic igneous rocks with the same crystal size.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the magnified views shown below of the minerals found\nin an igneous rock and in a metamorphic rock. The millimeter scale indicates the size of the crystals shown in\nthe magnified views.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Describe the texture shown by this metamorphic rock that indicates it could be schist. Igneous Rock Metamorphic Rock Key Amphibole Biotite Quartz Plagioclase feldspar Potassium feldspar 0 2 4 mm Scale",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the magnified views shown below of the minerals found\nin an igneous rock and in a metamorphic rock. The millimeter scale indicates the size of the crystals shown in\nthe magnified views.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "During which geologic era is Rugops primus inferred to have lived?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 58 on the passage below.\nDinosaur Skull Offers Hints About Africa\u2019s Past\nA fossil skull was found in Africa among many dinosaur bones from the Late\nCretaceous Epoch. This skull came from a dinosaur named Rugops primus, or \u201cfirst\nwrinkle face.\u201d This meat eater, believed to have been about 30 feet long and to have\nlived 95 million years ago, belonged to a group of dinosaurs called abelisaurids.\nThis fossil skull, unearthed in the Sahara Desert in 2000, provides new evidence\nthat Africa split from other southern continents at a later time than previously thought.\nBefore this discovery, abelisaurids from that period had been found only in South\nAmerica, Madagascar, and India, but not in Africa. This new fossil, Rugops primus,\nfound only in Africa, indicates that Africa was still connected to the other southern\nlandmasses, at least by a land bridge, 100 million years ago.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "What evidence suggests that Africa was still attached to South America 100 million years ago?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 58 on the passage below.\nDinosaur Skull Offers Hints About Africa\u2019s Past\nA fossil skull was found in Africa among many dinosaur bones from the Late\nCretaceous Epoch. This skull came from a dinosaur named Rugops primus, or \u201cfirst\nwrinkle face.\u201d This meat eater, believed to have been about 30 feet long and to have\nlived 95 million years ago, belonged to a group of dinosaurs called abelisaurids.\nThis fossil skull, unearthed in the Sahara Desert in 2000, provides new evidence\nthat Africa split from other southern continents at a later time than previously thought.\nBefore this discovery, abelisaurids from that period had been found only in South\nAmerica, Madagascar, and India, but not in Africa. This new fossil, Rugops primus,\nfound only in Africa, indicates that Africa was still connected to the other southern\nlandmasses, at least by a land bridge, 100 million years ago.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "State the type of rock in which Rugops primus was most likely preserved.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 58 on the passage below.\nDinosaur Skull Offers Hints About Africa\u2019s Past\nA fossil skull was found in Africa among many dinosaur bones from the Late\nCretaceous Epoch. This skull came from a dinosaur named Rugops primus, or \u201cfirst\nwrinkle face.\u201d This meat eater, believed to have been about 30 feet long and to have\nlived 95 million years ago, belonged to a group of dinosaurs called abelisaurids.\nThis fossil skull, unearthed in the Sahara Desert in 2000, provides new evidence\nthat Africa split from other southern continents at a later time than previously thought.\nBefore this discovery, abelisaurids from that period had been found only in South\nAmerica, Madagascar, and India, but not in Africa. This new fossil, Rugops primus,\nfound only in Africa, indicates that Africa was still connected to the other southern\nlandmasses, at least by a land bridge, 100 million years ago.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Rugops primus is not a good index fossil. Describe one characteristic of a good index fossil.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 58 on the passage below.\nDinosaur Skull Offers Hints About Africa\u2019s Past\nA fossil skull was found in Africa among many dinosaur bones from the Late\nCretaceous Epoch. This skull came from a dinosaur named Rugops primus, or \u201cfirst\nwrinkle face.\u201d This meat eater, believed to have been about 30 feet long and to have\nlived 95 million years ago, belonged to a group of dinosaurs called abelisaurids.\nThis fossil skull, unearthed in the Sahara Desert in 2000, provides new evidence\nthat Africa split from other southern continents at a later time than previously thought.\nBefore this discovery, abelisaurids from that period had been found only in South\nAmerica, Madagascar, and India, but not in Africa. This new fossil, Rugops primus,\nfound only in Africa, indicates that Africa was still connected to the other southern\nlandmasses, at least by a land bridge, 100 million years ago.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Identify the type of tectonic plate movement that caused Africa to separate from South America.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 58 on the passage below.\nDinosaur Skull Offers Hints About Africa\u2019s Past\nA fossil skull was found in Africa among many dinosaur bones from the Late\nCretaceous Epoch. This skull came from a dinosaur named Rugops primus, or \u201cfirst\nwrinkle face.\u201d This meat eater, believed to have been about 30 feet long and to have\nlived 95 million years ago, belonged to a group of dinosaurs called abelisaurids.\nThis fossil skull, unearthed in the Sahara Desert in 2000, provides new evidence\nthat Africa split from other southern continents at a later time than previously thought.\nBefore this discovery, abelisaurids from that period had been found only in South\nAmerica, Madagascar, and India, but not in Africa. This new fossil, Rugops primus,\nfound only in Africa, indicates that Africa was still connected to the other southern\nlandmasses, at least by a land bridge, 100 million years ago.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "On the map in your answer booklet, place an X at the location between the bridges where the greatest amount of deposition is most likely occurring.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the map in your answer booklet, which represents two\nbridges that cross the Green River. Letters A, B, and C represent locations in the river. A ball was dropped from \nbridge 1 at location A and the distance and travel time to location B were recorded. The results are shown in\nthe data table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Determine the rate at which the ball traveled, in centimeters per second, from location A to location B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the map in your answer booklet, which represents two\nbridges that cross the Green River. Letters A, B, and C represent locations in the river. A ball was dropped from \nbridge 1 at location A and the distance and travel time to location B were recorded. The results are shown in\nthe data table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "After a thunderstorm, the velocity of the river at location C was 100 centimeters per second. What was the largest type of sediment transported by the river at this location? Distance (cm) Time (s) 12,000 240 Travel from A to B",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the map in your answer booklet, which represents two\nbridges that cross the Green River. Letters A, B, and C represent locations in the river. A ball was dropped from \nbridge 1 at location A and the distance and travel time to location B were recorded. The results are shown in\nthe data table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "What is Earth\u2019s rotational surface velocity, in miles per hour, at 23.5\u00b0 south latitude?",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the diagram below. The diagram represents daytime and\nnighttime on Earth. Point X is a location on Earth\u2019s surface. Earth\u2019s rotational surface velocity is shown in miles\nper hour (mi/h) at specific latitudes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Record, to the nearest hour, the duration of insolation at location X for one Earth rotation.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the diagram below. The diagram represents daytime and\nnighttime on Earth. Point X is a location on Earth\u2019s surface. Earth\u2019s rotational surface velocity is shown in miles\nper hour (mi/h) at specific latitudes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "On the grid in your answer booklet, draw a line to show the general relationship between distance from the equator and Earth\u2019s rotational surface velocity.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the diagram below. The diagram represents daytime and\nnighttime on Earth. Point X is a location on Earth\u2019s surface. Earth\u2019s rotational surface velocity is shown in miles\nper hour (mi/h) at specific latitudes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Identify the Northern Hemisphere season that is just beginning when Earth is at the position represented in this diagram. 0 mi/h 416 mi/h 955 mi/h 1041 mi/h 0 mi/h",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the diagram below. The diagram represents daytime and\nnighttime on Earth. Point X is a location on Earth\u2019s surface. Earth\u2019s rotational surface velocity is shown in miles\nper hour (mi/h) at specific latitudes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify the two lettered locations from the map that are least likely to experience volcanic activity or earthquakes.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_66_67.png",
+      "context": "Base your answers to questions 66 and 67 on the world map below. Points A through H represent locations\non Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Identify the tectonic feature responsible for the formation of the Hawaiian Islands. A B C E F H Asia Europe Africa Hawaiian Islands North America South America Pacific Ocean Atlantic Ocean Indian Ocean Antarctica D G Australia",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_66_67.png",
+      "context": "Base your answers to questions 66 and 67 on the world map below. Points A through H represent locations\non Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "On the partial weather station model for Oklahoma City in your answer booklet, add the correct weather map symbols to indicate the weather conditions shown in the data table.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_68_69.png",
+      "context": "Base your answers to questions 68 and 69 on the data table below and on the partial weather station model\nfor Oklahoma City, Oklahoma, in your answer booklet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "State the actual barometric pressure at Oklahoma City. Visibility 7 miles Dewpoint 48\u00b0F Wind Direction from the south Wind Speed 25 knots Data Table",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_68_69.png",
+      "context": "Base your answers to questions 68 and 69 on the data table below and on the partial weather station model\nfor Oklahoma City, Oklahoma, in your answer booklet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "In the box that represents box A on the cross section in your answer booklet, draw both the volcanic ash layer and the basaltic intrusion to clearly show their relative age.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the geologic cross section below, which represents a portion\nof Earth\u2019s crust. Some rock units contain index fossils. Box A indicates a missing portion of the cross section.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Describe one piece of evidence which indicates that the horizontal rock layers are younger than the tilted rock layers.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the geologic cross section below, which represents a portion\nof Earth\u2019s crust. Some rock units contain index fossils. Box A indicates a missing portion of the cross section.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "The meteor impact debris was deposited at the time trilobites became extinct. State the age, in million years, of this debris layer. Volcanic ash Meteor impact debris Basaltic intrusion Key Fossils of earliest grasses Fossils of large carnivorous mammals x x x x x x x x x x x x x x x x A",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the geologic cross section below, which represents a portion\nof Earth\u2019s crust. Some rock units contain index fossils. Box A indicates a missing portion of the cross section.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw two additional isobars around the outside of the 1000-mb isobar in a way that indicates that the strongest winds are west of the low-pressure center.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 and 74 on the map in your answer booklet, which represents the center\nof a low-pressure system indicated by L. The 1000-millibar (mb) isobar is drawn around the center of this \nlow-pressure system.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Identify one factor that usually causes many low-pressure centers to generally move from west to east across the United States.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 and 74 on the map in your answer booklet, which represents the center\nof a low-pressure system indicated by L. The 1000-millibar (mb) isobar is drawn around the center of this \nlow-pressure system.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Use the standard two-letter air-mass symbols to identify air-masses X and Y.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_75_76.png",
+      "context": "Base your answers to questions 75 and 76 on the map below, which represents the geographic source regions\nof two air masses, X and Y. The arrows represent the convergence of these air masses, which may result in \ntornadoes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "A tornado watch or warning is issued for a location in the area labeled Tornado Alley. State one safety precaution that should be taken to avoid possible injury from this tornado. Tornado X Pacific Ocean Atlantic Ocean North America Y Alley",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2012/context_75_76.png",
+      "context": "Base your answers to questions 75 and 76 on the map below, which represents the geographic source regions\nof two air masses, X and Y. The arrows represent the convergence of these air masses, which may result in \ntornadoes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "On the grid in your answer booklet, plot the tide height for each time of day listed in the data table. Connect the plots with a line.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 82 on the calendar and data table below. The calendar shows the\nmonth of February 2007, indicating the dates when some lunar phases occurred. February 24 lists only the name\nof the Moon phase that occurred on that day. The data table shows the highest and lowest tides (in feet) recorded\nfor the Hudson River at Kingston, New York, over a 2-day period in February 2007.\nFebruary 2007\nSun\nMon\nTue\nWed\nThu\nFri\nSat\nFull\nLast quarter\n4\n5\n6\n7\n8\n9\n10\n1\n2\n3\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\nNew\nFirst\nquarter\nOld gibbous\nNew crescent\nDate\nTime of Day\nTide Height (ft)\nFriday,\nFebruary 2\n1:30 a.m.\n3.5\n7:30 a.m.\n\u20130.2\n1:30 p.m.\n4.1\n8:00 p.m.\n\u20130.4\nSaturday,\nFebruary 3\n2:00 a.m.\n3.6\n8:30 a.m.\n\u20130.2\n2:00 p.m.\n4.0\n9:00 p.m.\n\u20130.4\nHigh and Low Tides for Kingston, New York\nP.S./E. Sci.\u2013June \u201912\n[26]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Predict the time of the first high tide on Sunday, February 4. Include a.m. or p.m. in your answer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 82 on the calendar and data table below. The calendar shows the\nmonth of February 2007, indicating the dates when some lunar phases occurred. February 24 lists only the name\nof the Moon phase that occurred on that day. The data table shows the highest and lowest tides (in feet) recorded\nfor the Hudson River at Kingston, New York, over a 2-day period in February 2007.\nFebruary 2007\nSun\nMon\nTue\nWed\nThu\nFri\nSat\nFull\nLast quarter\n4\n5\n6\n7\n8\n9\n10\n1\n2\n3\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\nNew\nFirst\nquarter\nOld gibbous\nNew crescent\nDate\nTime of Day\nTide Height (ft)\nFriday,\nFebruary 2\n1:30 a.m.\n3.5\n7:30 a.m.\n\u20130.2\n1:30 p.m.\n4.1\n8:00 p.m.\n\u20130.4\nSaturday,\nFebruary 3\n2:00 a.m.\n3.6\n8:30 a.m.\n\u20130.2\n2:00 p.m.\n4.0\n9:00 p.m.\n\u20130.4\nHigh and Low Tides for Kingston, New York\nP.S./E. Sci.\u2013June \u201912\n[26]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw a small circle (O) on the Moon\u2019s orbit to show the position of the Moon in its orbit on February 2.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 82 on the calendar and data table below. The calendar shows the\nmonth of February 2007, indicating the dates when some lunar phases occurred. February 24 lists only the name\nof the Moon phase that occurred on that day. The data table shows the highest and lowest tides (in feet) recorded\nfor the Hudson River at Kingston, New York, over a 2-day period in February 2007.\nFebruary 2007\nSun\nMon\nTue\nWed\nThu\nFri\nSat\nFull\nLast quarter\n4\n5\n6\n7\n8\n9\n10\n1\n2\n3\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\nNew\nFirst\nquarter\nOld gibbous\nNew crescent\nDate\nTime of Day\nTide Height (ft)\nFriday,\nFebruary 2\n1:30 a.m.\n3.5\n7:30 a.m.\n\u20130.2\n1:30 p.m.\n4.1\n8:00 p.m.\n\u20130.4\nSaturday,\nFebruary 3\n2:00 a.m.\n3.6\n8:30 a.m.\n\u20130.2\n2:00 p.m.\n4.0\n9:00 p.m.\n\u20130.4\nHigh and Low Tides for Kingston, New York\nP.S./E. Sci.\u2013June \u201912\n[26]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "State the date of the next full Moon that occurred after February 2.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 82 on the calendar and data table below. The calendar shows the\nmonth of February 2007, indicating the dates when some lunar phases occurred. February 24 lists only the name\nof the Moon phase that occurred on that day. The data table shows the highest and lowest tides (in feet) recorded\nfor the Hudson River at Kingston, New York, over a 2-day period in February 2007.\nFebruary 2007\nSun\nMon\nTue\nWed\nThu\nFri\nSat\nFull\nLast quarter\n4\n5\n6\n7\n8\n9\n10\n1\n2\n3\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\nNew\nFirst\nquarter\nOld gibbous\nNew crescent\nDate\nTime of Day\nTide Height (ft)\nFriday,\nFebruary 2\n1:30 a.m.\n3.5\n7:30 a.m.\n\u20130.2\n1:30 p.m.\n4.1\n8:00 p.m.\n\u20130.4\nSaturday,\nFebruary 3\n2:00 a.m.\n3.6\n8:30 a.m.\n\u20130.2\n2:00 p.m.\n4.0\n9:00 p.m.\n\u20130.4\nHigh and Low Tides for Kingston, New York\nP.S./E. Sci.\u2013June \u201912\n[26]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "In the circle in your answer booklet, shade the part of the Moon that appeared dark to an observer in New York State on February 24.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 82 on the calendar and data table below. The calendar shows the\nmonth of February 2007, indicating the dates when some lunar phases occurred. February 24 lists only the name\nof the Moon phase that occurred on that day. The data table shows the highest and lowest tides (in feet) recorded\nfor the Hudson River at Kingston, New York, over a 2-day period in February 2007.\nFebruary 2007\nSun\nMon\nTue\nWed\nThu\nFri\nSat\nFull\nLast quarter\n4\n5\n6\n7\n8\n9\n10\n1\n2\n3\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\nNew\nFirst\nquarter\nOld gibbous\nNew crescent\nDate\nTime of Day\nTide Height (ft)\nFriday,\nFebruary 2\n1:30 a.m.\n3.5\n7:30 a.m.\n\u20130.2\n1:30 p.m.\n4.1\n8:00 p.m.\n\u20130.4\nSaturday,\nFebruary 3\n2:00 a.m.\n3.6\n8:30 a.m.\n\u20130.2\n2:00 p.m.\n4.0\n9:00 p.m.\n\u20130.4\nHigh and Low Tides for Kingston, New York\nP.S./E. Sci.\u2013June \u201912\n[26]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Determine the altitude of Polaris at Kingston, New York, to the nearest degree.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 82 on the calendar and data table below. The calendar shows the\nmonth of February 2007, indicating the dates when some lunar phases occurred. February 24 lists only the name\nof the Moon phase that occurred on that day. The data table shows the highest and lowest tides (in feet) recorded\nfor the Hudson River at Kingston, New York, over a 2-day period in February 2007.\nFebruary 2007\nSun\nMon\nTue\nWed\nThu\nFri\nSat\nFull\nLast quarter\n4\n5\n6\n7\n8\n9\n10\n1\n2\n3\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\nNew\nFirst\nquarter\nOld gibbous\nNew crescent\nDate\nTime of Day\nTide Height (ft)\nFriday,\nFebruary 2\n1:30 a.m.\n3.5\n7:30 a.m.\n\u20130.2\n1:30 p.m.\n4.1\n8:00 p.m.\n\u20130.4\nSaturday,\nFebruary 3\n2:00 a.m.\n3.6\n8:30 a.m.\n\u20130.2\n2:00 p.m.\n4.0\n9:00 p.m.\n\u20130.4\nHigh and Low Tides for Kingston, New York\nP.S./E. Sci.\u2013June \u201912\n[26]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Name the highest layer of the atmosphere into which the steam from the volcanic eruption rose on December 9, 2005.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the passage below.\nMount Manaro Erupts!\nMount Manaro is a volcano on Ambae Island, about 1400 miles northeast of\nAustralia. Ambae Island is located in the South Pacific Ocean at 15\u00b0 south latitude,\n168\u00b0 east longitude.\nAfter Mount Manaro had erupted in 1995, Ambae Island residents developed an\nevacuation plan. When Mount Manaro began erupting gas, steam, and ash on\nNovember 27, 2005, scientists and residents watched the volcano carefully.\nThe eruption became more severe on December 9, 2005, when steam and gases\nrose 1.8 miles up into the air. Rocks and ash began to fall on nearby farms and homes.\nThousands of people left their homes, making it the largest evacuation ever on Ambae\nIsland.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify the ocean current off the northeast coast of Australia that most affects the climate of Ambae Island.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the passage below.\nMount Manaro Erupts!\nMount Manaro is a volcano on Ambae Island, about 1400 miles northeast of\nAustralia. Ambae Island is located in the South Pacific Ocean at 15\u00b0 south latitude,\n168\u00b0 east longitude.\nAfter Mount Manaro had erupted in 1995, Ambae Island residents developed an\nevacuation plan. When Mount Manaro began erupting gas, steam, and ash on\nNovember 27, 2005, scientists and residents watched the volcano carefully.\nThe eruption became more severe on December 9, 2005, when steam and gases\nrose 1.8 miles up into the air. Rocks and ash began to fall on nearby farms and homes.\nThousands of people left their homes, making it the largest evacuation ever on Ambae\nIsland.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw one arrow through point X and one arrow through point Y to indicate the direction of tectonic plate motion near Mount Manaro. P.S./ P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the passage below.\nMount Manaro Erupts!\nMount Manaro is a volcano on Ambae Island, about 1400 miles northeast of\nAustralia. Ambae Island is located in the South Pacific Ocean at 15\u00b0 south latitude,\n168\u00b0 east longitude.\nAfter Mount Manaro had erupted in 1995, Ambae Island residents developed an\nevacuation plan. When Mount Manaro began erupting gas, steam, and ash on\nNovember 27, 2005, scientists and residents watched the volcano carefully.\nThe eruption became more severe on December 9, 2005, when steam and gases\nrose 1.8 miles up into the air. Rocks and ash began to fall on nearby farms and homes.\nThousands of people left their homes, making it the largest evacuation ever on Ambae\nIsland.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

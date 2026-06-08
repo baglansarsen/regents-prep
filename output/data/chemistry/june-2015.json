@@ -1,0 +1,1101 @@
+{
+  "subject": "chemistry",
+  "session": "june-2015",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Compared to an electron, which particle has a charge that is equal in magnitude but opposite in sign?",
+      "choices": [
+        "an alpha particle",
+        "a beta particle",
+        "a neutron",
+        "a proton"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The mass of a proton is approximately equal to",
+      "choices": [
+        "1 atomic mass unit",
+        "12 atomic mass units",
+        "the mass of 1 mole of carbon atoms",
+        "the mass of 12 moles of electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which property decreases when the elements in Group 17 are considered in order of increasing atomic number?",
+      "choices": [
+        "atomic mass",
+        "atomic radius",
+        "melting point",
+        "electronegativity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Any substance composed of two or more elements that are chemically combined in a fixed proportion is",
+      "choices": [
+        "an isomer",
+        "an isotope",
+        "a solution",
+        "a compound"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which term refers to how strongly an atom of an element attracts electrons in a chemical bond with an atom of a different element?",
+      "choices": [
+        "entropy",
+        "electronegativity",
+        "activation energy",
+        "first ionization energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "At STP, which substance has metallic bonding?",
+      "choices": [
+        "ammonium chloride",
+        "barium oxide",
+        "iodine",
+        "silver"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "What is the number of electrons shared between the carbon atoms in a molecule of ethyne?",
+      "choices": [
+        "6",
+        "2",
+        "8",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which atom in the ground state has a stable valence electron configuration?",
+      "choices": [
+        "Ar",
+        "Al",
+        "Si",
+        "Na"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "What occurs when two fluorine atoms react to produce a fluorine molecule?",
+      "choices": [
+        "Energy is absorbed as a bond is broken.",
+        "Energy is absorbed as a bond is formed.",
+        "Energy is released as a bond is broken.",
+        "Energy is released as a bond is formed."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which gas sample at STP has the same number of molecules as a 2.0-liter sample of Cl2(g) at STP?",
+      "choices": [
+        "1.0 L of NH3(g)",
+        "2.0 L of CH4(g)",
+        "3.0 L of CO2(g)",
+        "4.0 L of NO(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "All atoms of uranium have the same",
+      "choices": [
+        "mass number",
+        "atomic number",
+        "number of neutrons plus protons",
+        "number of neutrons plus electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The concentration of a solution can be expressed in",
+      "choices": [
+        "kelvins",
+        "milliliters",
+        "joules per kilogram",
+        "moles per liter"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Compared to the boiling point and the freezing point of water at 1 atmosphere, a 1.0 M CaCl2(aq) solution at 1 atmosphere has a",
+      "choices": [
+        "lower boiling point and a lower freezing point",
+        "lower boiling point and a higher freezing point",
+        "higher boiling point and a lower freezing point",
+        "higher boiling point and higher freezing point"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "According to the kinetic molecular theory, which statement describes an ideal gas?",
+      "choices": [
+        "The gas particles are diatomic.",
+        "Energy is created when the gas particles collide.",
+        "There are no attractive forces between the gas particles.",
+        "The distance between the gas particles is small, compared to their size."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which physical change is endothermic?",
+      "choices": [
+        "CO2(s) \u2192CO2(g)",
+        "CO2(\u2113) \u2192CO2(s)",
+        "CO2(g) \u2192CO2(\u2113)",
+        "CO2(g) \u2192CO2(s)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which Group 16 element combines with hydrogen to form a compound that has the strongest hydrogen bonding between its molecules?",
+      "choices": [
+        "oxygen",
+        "selenium",
+        "sulfur",
+        "tellurium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Hydrocarbons are composed of the elements",
+      "choices": [
+        "carbon and hydrogen, only",
+        "carbon and oxygen, only",
+        "carbon, hydrogen, and oxygen",
+        "carbon, nitrogen, and oxygen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which atom is bonded to the carbon atom in the functional group of a ketone?",
+      "choices": [
+        "fluorine",
+        "hydrogen",
+        "nitrogen",
+        "oxygen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Two types of organic reactions are",
+      "choices": [
+        "addition and sublimation",
+        "deposition and saponification",
+        "decomposition and evaporation",
+        "esterification and polymerization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The isomers butane and methylpropane have",
+      "choices": [
+        "the same molecular formula and the same properties",
+        "the same molecular formula and different properties",
+        "different molecular formulas and the same properties",
+        "different molecular formulas and different properties"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "In a redox reaction, which particles are lost and gained in equal numbers?",
+      "choices": [
+        "electrons",
+        "neutrons",
+        "hydroxide ions",
+        "hydronium ions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "What is the oxidation state for a Mn atom?",
+      "choices": [
+        "0",
+        "\u00027",
+        "\u00023",
+        "\u00024"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which compounds are classified as electrolytes?",
+      "choices": [
+        "KNO3 and H2SO4",
+        "KNO3 and CH3OH",
+        "CH3OCH3 and H2SO4",
+        "CH3OCH3 and CH3OH"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which compound is an Arrhenius base?",
+      "choices": [
+        "CO2",
+        "CaSO4",
+        "Ca(OH)2",
+        "C2H5OH"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "According to one acid-base theory, a water molecule acts as a base when it accepts",
+      "choices": [
+        "an H\u0002 ion",
+        "an OH\u0003 ion",
+        "a neutron",
+        "an electron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a system at equilibrium: N2(g) \u0002 3H2(g) \u21cc2NH3(g) Which statement describes this reaction at equilibrium?",
+      "choices": [
+        "The concentration of N2(g) decreases.",
+        "The concentration of N2(g) is constant.",
+        "The rate of the reverse reaction decreases.",
+        "The rate of the reverse reaction increases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The acidity or alkalinity of an unknown aqueous solution is indicated by its",
+      "choices": [
+        "pH value",
+        "electronegativity value",
+        "percent by mass concentration",
+        "percent by volume concentration"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The laboratory process in which the volume of a solution of known concentration is used to determine the concentration of another solution is called",
+      "choices": [
+        "distillation",
+        "fermentation",
+        "titration",
+        "transmutation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which list of nuclear emissions is arranged in order from the greatest penetrating power to the least penetrating power?",
+      "choices": [
+        "alpha particle, beta particle, gamma ray",
+        "alpha particle, gamma ray, beta particle",
+        "gamma ray, alpha particle, beta particle",
+        "gamma ray, beta particle, alpha particle"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Given the diagram representing a reaction: Which type of change is represented?",
+      "choices": [
+        "fission",
+        "fusion",
+        "deposition",
+        "evaporation 94 38Sr 140 54Xe 1 0n 235 92U 1 0n 1 0n"
+      ],
+      "image": "/images/exams/chemistry/june-2015/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which electron shell contains the valence electrons of a radium atom in the ground state?",
+      "choices": [
+        "the sixth shell",
+        "the second shell",
+        "the seventh shell",
+        "the eighteenth shell"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Each diagram below represents the nucleus of an atom. How many different elements are represented by the diagrams?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/chemistry/june-2015/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Chlorine and element X have similar chemical properties. An atom of element X could have an electron configuration of",
+      "choices": [
+        "2-2",
+        "2-8-1",
+        "2-8-8",
+        "2-8-18-7"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which group of elements contains a metalloid?",
+      "choices": [
+        "Group 8",
+        "Group 2",
+        "Group 16",
+        "Group 18"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Which Lewis electron-dot diagram represents a fluoride ion?",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "In the formula for the compound XCl4, the X could represent",
+      "choices": [
+        "C",
+        "H",
+        "Mg",
+        "Zn"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The formula C2H4 can be classified as",
+      "choices": [
+        "a structural formula, only",
+        "a molecular formula, only",
+        "both a structural formula and an empirical formula",
+        "both a molecular formula and an empirical formula"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: 4Al(s) + 3O2(g) \u21922Al2O3(s) How many moles of Al(s) react completely with 4.50 moles of O2(g) to produce 3.00 moles of Al2O3(s)?",
+      "choices": [
+        "1.50 mol",
+        "2.00 mol",
+        "6.00 mol",
+        "4.00 mol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "What is the percent composition by mass of oxygen in Ca(NO3)2 (gram-formula mass = 164 g/mol)?",
+      "choices": [
+        "9.8%",
+        "29%",
+        "48%",
+        "59% \u2013 F F F \u2013 F ( 1 ) ( 2 ) ( 3 ) ( 4 ) 1p 0n 1p 1n 2p 1n 2p 2n"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: 6Li \u0002 N2 \u21922Li3N Which type of chemical reaction is represented by this equation?",
+      "choices": [
+        "synthesis",
+        "decomposition",
+        "single replacement",
+        "double replacement"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Which elements can react to produce a molecular compound?",
+      "choices": [
+        "calcium and chlorine",
+        "hydrogen and sulfur",
+        "lithium and fluorine",
+        "magnesium and oxygen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Compared to a 1.0-mole sample of NaCl(s), a 1.0-mole sample of NaCl(\u2113) has a different",
+      "choices": [
+        "number of ions",
+        "empirical formula",
+        "gram-formula mass",
+        "electrical conductivity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Which property of an unsaturated solution of sodium chloride in water remains the same when more water is added to the solution?",
+      "choices": [
+        "density of the solution",
+        "boiling point of the solution",
+        "mass of sodium chloride in the solution",
+        "percent by mass of water in the solution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which ion combines with Ba2\u0002 to form a compound that is most soluble in water?",
+      "choices": [
+        "S2\u0003",
+        "OH\u0003",
+        "CO3 2\u0003",
+        "SO4 2\u0003"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "When a sample of gas is cooled in a sealed, rigid container, the pressure the gas exerts on the walls of the container will decrease because the gas particles hit the walls of the container",
+      "choices": [
+        "less often and with less force",
+        "less often and with more force",
+        "more often and with less force",
+        "more often and with more force"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "A rigid cylinder with a movable piston contains 50.0 liters of a gas at 30.0\u00b0C with a pressure of 1.00 atmosphere. What is the volume of the gas in the cylinder at STP?",
+      "choices": [
+        "5.49 L",
+        "45.0 L",
+        "55.5 L",
+        "455 L"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Given the potential energy diagram for a chemical reaction: Which numbered interval represents the heat of reaction?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4 1 2 3 4 Potential Energy Reaction Coordinate"
+      ],
+      "image": "/images/exams/chemistry/june-2015/q47.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "What is represented by the number \u201c1\u201d in the IUPAC name for three of these alcohols?",
+      "choices": [
+        "the number of isomers for each alcohol",
+        "the number of \u0003OH groups for each carbon atom in each alcohol molecule",
+        "the location of an \u0003OH group on one end of the carbon chain in each alcohol molecule",
+        "the location of an \u0003OH group in the middle of the carbon chain in each alcohol molecule"
+      ],
+      "image": "/images/exams/chemistry/june-2015/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the graph below and on your knowledge of chemistry.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "What can be concluded from this graph?",
+      "choices": [
+        "At 101.3 kPa, water has a higher boiling point than 1-butanol.",
+        "At 101.3 kPa, water has a lower boiling point than ethanol.",
+        "The greater the number of carbon atoms per alcohol molecule, the lower the boiling point of the alcohol.",
+        "The greater the number of carbon atoms per alcohol molecule, the higher the boiling point of the alcohol. 150 125 100 75 50 methanol ethanol 1-propanol 1-butanol 1-pentanol Boiling Points of Selected Alcohols at 101.3 kPa Alcohol"
+      ],
+      "image": "/images/exams/chemistry/june-2015/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the graph below and on your knowledge of chemistry.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "In the laboratory, a student investigates the effect of concentration on the reaction between HCl(aq) and Mg(s), changing only the concentration of HCl(aq). Data for two trials in the investigation are shown in the table below. Data Table Compared to trial 1, what is the expected reaction time for trial 2 and the explanation for that result?",
+      "choices": [
+        "less than 48 s, because there are fewer effective particle collisions per second",
+        "less than 48 s, because there are more effective particle collisions per second",
+        "more than 48 s, because there are fewer effective particle collisions per second",
+        "more than 48 s, because there are more effective particle collisions per second Trial Volume of HCl(aq) (mL) Concentration of HCl(aq) (M) Mass of Mg(s) (g) Reaction Time (s) 1 50.0 0.2 0.1 48 2 50.0 0.4 0.1 ? P.S./"
+      ],
+      "image": "/images/exams/chemistry/june-2015/q50.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Determine the volume of 2.00 M HCl(aq) solution required to completely neutralize 20.0 milliliters of 1.00 M NaOH(aq) solution.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Determine the mass of KNO3 that dissolves in 100. grams of water at 40.\u00b0C to produce a saturated solution.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "State, in terms of molecular polarity, why ethanol is soluble in water.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/q53.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the physical property in the table that could be used to differentiate the samples of the three elements from each other.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of \nchemistry.\nThree elements, represented by D, E, and Q, are located in Period 3. Some properties\nof these elements are listed in the table below. A student\u2019s experimental result indicates that\nthe density of element Q is 2.10 g/cm3, at room temperature and standard pressure.\nProperties of Samples of Three Elements \nat Room Temperature and Standard Pressure",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify the group on the Periodic Table to which element D belongs.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of \nchemistry.\nThree elements, represented by D, E, and Q, are located in Period 3. Some properties\nof these elements are listed in the table below. A student\u2019s experimental result indicates that\nthe density of element Q is 2.10 g/cm3, at room temperature and standard pressure.\nProperties of Samples of Three Elements \nat Room Temperature and Standard Pressure",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Determine the percent error between the student\u2019s experimental density and the accepted density of element Q. Element Phase Mass (g) Density (g/cm3) Oxide Formula D solid 50.0 0.97 D2O E solid 50.0 1.74 EO Q solid 50.0 2.00 QO2 or QO3",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of \nchemistry.\nThree elements, represented by D, E, and Q, are located in Period 3. Some properties\nof these elements are listed in the table below. A student\u2019s experimental result indicates that\nthe density of element Q is 2.10 g/cm3, at room temperature and standard pressure.\nProperties of Samples of Three Elements \nat Room Temperature and Standard Pressure",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Compare the rates of the forward and reverse reactions at equilibrium.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of \nchemistry.\nThe equation below represents an equilibrium system of SO2(g), O2(g), and SO3(g). \nThe reaction can be catalyzed by vanadium or platinum.\n2SO2(g) \u0002 O2(g) \u21cc2SO3(g) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "State how the equilibrium shifts when SO3(g) is removed from the system.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of \nchemistry.\nThe equation below represents an equilibrium system of SO2(g), O2(g), and SO3(g). \nThe reaction can be catalyzed by vanadium or platinum.\n2SO2(g) \u0002 O2(g) \u21cc2SO3(g) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "A potential energy diagram for the forward reaction is shown in your answer booklet. On this diagram, draw a dashed line to show how the potential energy changes when the reaction occurs by the catalyzed pathway.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/q59.png",
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of \nchemistry.\nThe equation below represents an equilibrium system of SO2(g), O2(g), and SO3(g). \nThe reaction can be catalyzed by vanadium or platinum.\n2SO2(g) \u0002 O2(g) \u21cc2SO3(g) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Explain, in terms of bonding, why compound A is saturated.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_60_61.png",
+      "context": "Base your answers to questions 60 and 61 on the information below and on your knowledge of chemistry.\nThe formulas for two compounds are shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Explain, in terms of molecular structure, why the chemical properties of compound A are different from the chemical properties of compound B. H H C H C C H H H H H C H C C H H H H H H H C H C C H H H H H C H C C H H O OH Compound A Compound B",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_60_61.png",
+      "context": "Base your answers to questions 60 and 61 on the information below and on your knowledge of chemistry.\nThe formulas for two compounds are shown below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify the decay mode of K-37.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of \nchemistry.\nSome isotopes of potassium are K-37, K-39, K-40, K-41, and K-42. The natural \nabundance and the atomic mass for the naturally occurring isotopes of potassium are shown\nin the table below.\nNaturally Occurring Isotopes of Potassium",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Complete the nuclear equation in your answer booklet for the decay of K-40 by writing a notation for the missing nuclide.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of \nchemistry.\nSome isotopes of potassium are K-37, K-39, K-40, K-41, and K-42. The natural \nabundance and the atomic mass for the naturally occurring isotopes of potassium are shown\nin the table below.\nNaturally Occurring Isotopes of Potassium",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Determine the fraction of an original sample of K-42 that remains unchanged after 24.72 hours.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of \nchemistry.\nSome isotopes of potassium are K-37, K-39, K-40, K-41, and K-42. The natural \nabundance and the atomic mass for the naturally occurring isotopes of potassium are shown\nin the table below.\nNaturally Occurring Isotopes of Potassium",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the atomic mass of potassium. Isotope Notation Natural Abundance (%) Atomic Mass (u) K-39 93.26 38.96 K-40 0.01 39.96 K-41 6.73 40.96",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of \nchemistry.\nSome isotopes of potassium are K-37, K-39, K-40, K-41, and K-42. The natural \nabundance and the atomic mass for the naturally occurring isotopes of potassium are shown\nin the table below.\nNaturally Occurring Isotopes of Potassium",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "State the atomic number and the mass number of this element.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of \nchemistry.\nThe Bohr model of the atom was developed in the early part of the twentieth century.\nA diagram of the Bohr model for one atom, in the ground state, of a specific element is\nshown below. The nucleus of this atom contains 4 protons and 5 neutrons.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "State the number of electrons in each shell in this atom in the ground state.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of \nchemistry.\nThe Bohr model of the atom was developed in the early part of the twentieth century.\nA diagram of the Bohr model for one atom, in the ground state, of a specific element is\nshown below. The nucleus of this atom contains 4 protons and 5 neutrons.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Using the Bohr model, describe the changes in electron energy and electron location when an atom changes from the ground state to an excited state. Nucleus Second shell First shell Bohr Model",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of \nchemistry.\nThe Bohr model of the atom was developed in the early part of the twentieth century.\nA diagram of the Bohr model for one atom, in the ground state, of a specific element is\nshown below. The nucleus of this atom contains 4 protons and 5 neutrons.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Identify the element in urea that makes it an organic compound.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of \nchemistry.\nIn 1828, Friedrich W\u00f6hler produced urea when he heated a solution of ammonium\ncyanate. This reaction is represented by the balanced equation below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Determine the gram-formula mass of the product.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of \nchemistry.\nIn 1828, Friedrich W\u00f6hler produced urea when he heated a solution of ammonium\ncyanate. This reaction is represented by the balanced equation below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Write an empirical formula for the product.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of \nchemistry.\nIn 1828, Friedrich W\u00f6hler produced urea when he heated a solution of ammonium\ncyanate. This reaction is represented by the balanced equation below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Explain why this balanced equation represents a conservation of atoms.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of \nchemistry.\nIn 1828, Friedrich W\u00f6hler produced urea when he heated a solution of ammonium\ncyanate. This reaction is represented by the balanced equation below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "State evidence that indicates the proportions of the components in rubbing alcohol can vary.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 75 on the information below and on your knowledge of \nchemistry.\nRubbing alcohol sold in stores is aqueous 2-propanol, CH3CHOHCH3(aq). Rubbing\nalcohol is available in concentrations of 70.% and 91% 2-propanol by volume.\nTo make 100. mL of 70.% aqueous 2-propanol, 70. mL of 2-propanol is diluted with\nenough water to produce a total volume of 100. mL. In a laboratory investigation, a student\nis given a 132-mL sample of 91% aqueous 2-propanol to separate using the process of \ndistillation.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Identify the property of the components that makes it possible to use distillation to separate the 2-propanol from water.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 75 on the information below and on your knowledge of \nchemistry.\nRubbing alcohol sold in stores is aqueous 2-propanol, CH3CHOHCH3(aq). Rubbing\nalcohol is available in concentrations of 70.% and 91% 2-propanol by volume.\nTo make 100. mL of 70.% aqueous 2-propanol, 70. mL of 2-propanol is diluted with\nenough water to produce a total volume of 100. mL. In a laboratory investigation, a student\nis given a 132-mL sample of 91% aqueous 2-propanol to separate using the process of \ndistillation.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Determine the maximum volume of 2-propanol in the 132-mL sample. + H N H H H C N O \u2212 N H H C N H H O Ammonium cyanate Urea",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 75 on the information below and on your knowledge of \nchemistry.\nRubbing alcohol sold in stores is aqueous 2-propanol, CH3CHOHCH3(aq). Rubbing\nalcohol is available in concentrations of 70.% and 91% 2-propanol by volume.\nTo make 100. mL of 70.% aqueous 2-propanol, 70. mL of 2-propanol is diluted with\nenough water to produce a total volume of 100. mL. In a laboratory investigation, a student\nis given a 132-mL sample of 91% aqueous 2-propanol to separate using the process of \ndistillation.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Write a chemical formula of one compound formed by the combination of K\u0002 ions with one of these ions as water completely evaporates from the seawater sample.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the information below and on your knowledge of chemistry.\nA sample of seawater is analyzed. The table below gives the concentration of some ions\nin the sample.\nConcentration of Some Ions\nin a Seawater Sample",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Determine the number of moles of the SO4 2\u0003 ion in a 1400.-liter sample of the seawater.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the information below and on your knowledge of chemistry.\nA sample of seawater is analyzed. The table below gives the concentration of some ions\nin the sample.\nConcentration of Some Ions\nin a Seawater Sample",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Compare the radius of an Mg2\u0002 ion in the seawater to the radius of an Mg atom.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the information below and on your knowledge of chemistry.\nA sample of seawater is analyzed. The table below gives the concentration of some ions\nin the sample.\nConcentration of Some Ions\nin a Seawater Sample",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Using the key in your answer booklet, draw two water molecules in the box, showing the orientation of each water molecule toward the calcium ion.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the information below and on your knowledge of chemistry.\nA sample of seawater is analyzed. The table below gives the concentration of some ions\nin the sample.\nConcentration of Some Ions\nin a Seawater Sample",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Explain, in terms of ions, why the gaseous reactant in the equation is classified as an Arrhenius acid.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of chemistry.\nA scientist bubbled HCl(g) through a sample of H2O(\u2113). This process is represented by\nthe balanced equation below.\nH2O(\u2113) + HCl(g) \u2192H3O\u0002(aq) + Cl\u0003(aq)\nThe scientist measured the pH of the liquid in the flask before and after the gas was\nbubbled through the water. The initial pH value of the water was 7.0 and the final pH value\nof the solution was 3.0.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "What would be the color of bromcresol green if it had been added to the water in the flask before any of the HCl(g) was bubbled through the water?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of chemistry.\nA scientist bubbled HCl(g) through a sample of H2O(\u2113). This process is represented by\nthe balanced equation below.\nH2O(\u2113) + HCl(g) \u2192H3O\u0002(aq) + Cl\u0003(aq)\nThe scientist measured the pH of the liquid in the flask before and after the gas was\nbubbled through the water. The initial pH value of the water was 7.0 and the final pH value\nof the solution was 3.0.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Compare the hydronium ion concentration of the solution that has the pH value of 3.0 to the hydronium ion concentration of the water. Ion Concentration (M) Cl\u2013 0.545 Na+ 0.468 Mg2+ 0.054 SO4 2\u2013 0.028 Ca2+ 0.010 K+ 0.010",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of chemistry.\nA scientist bubbled HCl(g) through a sample of H2O(\u2113). This process is represented by\nthe balanced equation below.\nH2O(\u2113) + HCl(g) \u2192H3O\u0002(aq) + Cl\u0003(aq)\nThe scientist measured the pH of the liquid in the flask before and after the gas was\nbubbled through the water. The initial pH value of the water was 7.0 and the final pH value\nof the solution was 3.0.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "State the direction of electron flow in wire A as the two cells operate.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of \nchemistry.\nA small digital clock can be powered by a battery made from two potatoes and some\nhousehold materials. The \u201cpotato clock\u201d battery consists of two cells connected in a way \nto produce enough electricity to allow the clock to operate. In each cell, zinc atoms react \nto form zinc ions. Hydrogen ions from phosphoric acid in the potatoes react to form \nhydrogen gas. The labeled diagram and balanced ionic equation below show the reaction,\nthe materials, and connections necessary to make a \u201cpotato clock\u201d battery.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Write a balanced half-reaction equation for the oxidation that occurs in the \u201cpotato clock\u201d battery.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of \nchemistry.\nA small digital clock can be powered by a battery made from two potatoes and some\nhousehold materials. The \u201cpotato clock\u201d battery consists of two cells connected in a way \nto produce enough electricity to allow the clock to operate. In each cell, zinc atoms react \nto form zinc ions. Hydrogen ions from phosphoric acid in the potatoes react to form \nhydrogen gas. The labeled diagram and balanced ionic equation below show the reaction,\nthe materials, and connections necessary to make a \u201cpotato clock\u201d battery.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Explain why phosphoric acid is needed for the battery to operate. 11:00 p.m. Zn(s) + 2H+(aq) Zn2+(aq) + H2(g) Clock Zinc-coated nail Wire A Copper rod Zinc-coated nail Wire C Potato Potato Wire B Copper rod P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2015/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of \nchemistry.\nA small digital clock can be powered by a battery made from two potatoes and some\nhousehold materials. The \u201cpotato clock\u201d battery consists of two cells connected in a way \nto produce enough electricity to allow the clock to operate. In each cell, zinc atoms react \nto form zinc ions. Hydrogen ions from phosphoric acid in the potatoes react to form \nhydrogen gas. The labeled diagram and balanced ionic equation below show the reaction,\nthe materials, and connections necessary to make a \u201cpotato clock\u201d battery.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

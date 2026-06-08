@@ -1,0 +1,486 @@
+{
+  "subject": "geometry",
+  "session": "january-2016",
+  "questions": [
+    {
+      "number": 1,
+      "type": "written",
+      "text": "William is drawing pictures of cross sections of the right circular cone below. Which drawing can not be a cross section of a cone?",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2016/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "An equation of a line perpendicular to the line represented by the equation y \u0002 \u0003 1__ 2 x \u0003 5 and passing through (6,\u00034) is",
+      "choices": [
+        "",
+        "",
+        "",
+        "Part I Answer all 24 questions in this part. Each correct answer will receive 2 credits. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For each statement or question, choose the word or expression that, of those given, best completes the statement or answers the question. Geometry (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "In parallelogram QRST shown below, diagonal TR ___ is drawn, U and V are points on TS ___ and QR ___ , respectively, and UV ___ intersects TR ___ at W. If m\u2220S \u0002 60\u00b0, m\u2220SRT \u0002 83\u00b0, and m\u2220TWU \u0002 35\u00b0, what is m\u2220WVQ?",
+      "choices": [
+        "37\u00ba",
+        "60\u00ba",
+        "72\u00ba",
+        "83\u00ba"
+      ],
+      "image": "/images/exams/geometry/january-2016/q3.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "A fish tank in the shape of a rectangular prism has dimensions of 14 inches, 16 inches, and 10 inches. The tank contains 1680 cubic inches of water. What percent of the fish tank is empty?",
+      "choices": [
+        "10",
+        "25",
+        "50",
+        "75"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which transformation would result in the perimeter of a triangle being different from the perimeter of its image?",
+      "choices": [
+        "(x,y) \u2192(y,x)",
+        "(x,y) \u2192(x,\u0003y)",
+        "(x,y) \u2192(4x,4y)",
+        "(x,y) \u2192(x \u0004 2,y \u0003 5) \u0002 \u0003 \u0004 \u0005 \u0006 \u0007 \b Geometry (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "In the diagram below, FE \u2039___\u203a bisects AC ___ at B, and GE \u2039___\u203a bisects BD ___ at C. Which statement is always true?",
+      "choices": [
+        "AB ___ \u0002 DC ___",
+        "FB ___ \u0002 EB ___",
+        "BD \u2039___\u203a bisects GE ___ at C.",
+        "AC \u2039___\u203a bisects FE ___ at B."
+      ],
+      "image": "/images/exams/geometry/january-2016/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "As shown in the diagram below, a regular pyramid has a square base whose side measures 6 inches. If the altitude of the pyramid measures 12 inches, its volume, in cubic inches, is",
+      "choices": [
+        "72",
+        "144",
+        "288",
+        "432 A B C D F G E 6 in Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/january-2016/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Triangle ABC and triangle DEF are graphed on the set of axes below. Which sequence of transformations maps triangle ABC onto triangle DEF?",
+      "choices": [
+        "a reflection over the x-axis followed by a reflection over the y-axis",
+        "a 180\u00ba rotation about the origin followed by a reflection over the line y \u0002 x",
+        "a 90\u00ba clockwise rotation about the origin followed by a reflection over the y-axis",
+        "a translation 8 units to the right and 1 unit up followed by a 90\u00ba counterclockwise rotation about the origin y x A C B F E D Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/january-2016/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "In \u0002ABC, the complement of \u2220B is \u2220A. Which statement is always true?",
+      "choices": [
+        "tan \u2220A \u0002 tan \u2220B",
+        "sin \u2220A \u0002 sin \u2220B",
+        "cos \u2220A \u0002 tan \u2220B",
+        "sin \u2220A \u0002 cos \u2220B"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A line that passes through the points whose coordinates are (1,1) and (5,7) is dilated by a scale factor of 3 and centered at the origin. The image of the line",
+      "choices": [
+        "is perpendicular to the original line",
+        "is parallel to the original line",
+        "passes through the origin",
+        "is the original line"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Quadrilateral ABCD is graphed on the set of axes below. When ABCD is rotated 90\u00b0 in a counterclockwise direction about the origin, its image is quadrilateral A\u0005B\u0005C\u0005D\u0005. Is distance preserved under this rotation, and which coordinates are correct for the given vertex?",
+      "choices": [
+        "no and C\u0005(1,2)",
+        "no and D\u0005(2,4)",
+        "yes and A\u0005(6,2)",
+        "yes and B\u0005(\u00033,4) x y B A C D Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/january-2016/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "In the diagram below of circle O, the area of the shaded sector LOM is 2\u03c0 cm2. If the length of NL ___ is 6 cm, what is m\u2220N?",
+      "choices": [
+        "10\u00b0",
+        "20\u00b0",
+        "40\u00b0",
+        "80\u00b0"
+      ],
+      "image": "/images/exams/geometry/january-2016/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "In the diagram below, \u0002ABC \u0002 \u0002DEF. If AB \u0002 6 and AC \u0002 8, which statement will justify similarity by SAS?",
+      "choices": [
+        "DE \u0002 9, DF \u0002 12, and \u2220A \u0003 \u2220D",
+        "DE \u0002 8, DF \u0002 10, and \u2220A \u0003 \u2220D",
+        "DE \u0002 36, DF \u0002 64, and \u2220C \u0003 \u2220F",
+        "DE \u0002 15, DF \u0002 20, and \u2220C \u0003 \u2220F"
+      ],
+      "image": "/images/exams/geometry/january-2016/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The diameter of a basketball is approximately 9.5 inches and the diameter of a tennis ball is approximately 2.5 inches. The volume of the basketball is about how many times greater than the volume of the tennis ball?",
+      "choices": [
+        "3591",
+        "65",
+        "55",
+        "4 M O L N \u0002 \u0003 \u0004 \u0005 \u0006 \u0007 \b Geometry (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The endpoints of one side of a regular pentagon are (\u00031,4) and (2,3). What is the perimeter of the pentagon?",
+      "choices": [
+        "\u221a\u0004\u0004 10",
+        "5\u221a\u0004\u0004 10",
+        "5\u221a\u00042",
+        "25\u221a\u00042"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In the diagram of right triangle ABC shown below, AB \u0002 14 and AC \u0002 9. What is the measure of \u2220A, to the nearest degree?",
+      "choices": [
+        "33",
+        "40",
+        "50",
+        "57"
+      ],
+      "image": "/images/exams/geometry/january-2016/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "What are the coordinates of the center and length of the radius of the circle whose equation is x2 \u0004 6x \u0004 y2 \u0003 4y \u0002 23?",
+      "choices": [
+        "(3,\u00032) and 36",
+        "(3,\u00032) and 6",
+        "(\u00033,2) and 36",
+        "(\u00033,2) and 6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The coordinates of the vertices of \u0002RST are R(\u00032,\u00033), S(8,2), and T(4,5). Which type of triangle is \u0002RST?",
+      "choices": [
+        "right",
+        "acute",
+        "obtuse",
+        "equiangular \u0002 \u0003\u0004 \u0005 \u0006 \u0007 Geometry (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Molly wishes to make a lawn ornament in the form of a solid sphere. The clay being used to make the sphere weighs .075 pound per cubic inch. If the sphere\u2019s radius is 4 inches, what is the weight of the sphere, to the nearest pound?",
+      "choices": [
+        "34",
+        "20",
+        "15",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The ratio of similarity of \u0002BOY to \u0002GRL is 1:2. If BO \u0002 x \u0004 3 and GR \u0002 3x \u0003 1, then the length of GR ___ is",
+      "choices": [
+        "5",
+        "7",
+        "10",
+        "20"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "In the diagram below, DC ___ , AC ___ , DOB ____ , CB ___ , and AB ___ are chords of circle O, FDE \u2039____\u203a is tangent at point D, and radius AO ___ is drawn. Sam decides to apply this theorem to the diagram: \u201cAn angle inscribed in a semi-circle is a right angle.\u201d Which angle is Sam referring to?",
+      "choices": [
+        "\u2220AOB",
+        "\u2220BAC",
+        "\u2220DCB",
+        "\u2220FDB A B C D E O F Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/january-2016/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "In the diagram below, CD ___ is the altitude drawn to the hypotenuse AB ___ of right triangle ABC. Which lengths would not produce an altitude that measures 6\u221a\u00042?",
+      "choices": [
+        "AD \u0002 2 and DB \u0002 36",
+        "AD \u0002 3 and AB \u0002 24",
+        "AD \u0002 6 and DB \u0002 12",
+        "AD \u0002 8 and AB \u0002 17"
+      ],
+      "image": "/images/exams/geometry/january-2016/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A designer needs to create perfectly circular necklaces. The necklaces each need to have a radius of 10 cm. What is the largest number of necklaces that can be made from 1000 cm of wire?",
+      "choices": [
+        "15",
+        "16",
+        "31",
+        "32"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "In \u0002SCU shown below, points T and O are on SU ___ and CU ___ , respectively. Segment OT is drawn so that \u2220C \u0002 \u2220OTU. If TU \u0002 4, OU \u0002 5, and OC \u0002 7, what is the length of ST ___ ?",
+      "choices": [
+        "5.6",
+        "8.75",
+        "11",
+        "15 S C O U T A B D C"
+      ],
+      "image": "/images/exams/geometry/january-2016/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Triangle ABC is graphed on the set of axes below. Graph and label \u0002A\u0005B\u0005C\u0005, the image of \u0002ABC after a reflection over the line x \u0002 1. y x C A B Geometry (Common Core) Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2016/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "In the diagram below of circle O with diameter BC ___ and radius OA ___ , chord DC ___ is parallel to chord BA ___ . If m\u2220BCD \u0002 30\u00b0, determine and state m\u2220AOB. A C D B O Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2016/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Directed line segment PT has endpoints whose coordinates are P(\u00032,1) and T(4,7). Determine the coordinates of point J that divides the segment in the ratio 2 to 1. [The use of the set of axes below is optional.] y x Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2016/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "As graphed on the set of axes below, \u0002A\u0005B\u0005C\u0005 is the image of \u0002ABC after a sequence of transformations. Is \u0002A\u0005B\u0005C\u0005 congruent to \u0002ABC? Use the properties of rigid motion to explain your answer. y x A A\u0005 C\u0005 B\u0005 C B Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2016/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "A carpenter leans an extension ladder against a house to reach the bottom of a window 30 feet above the ground. As shown in the diagram below, the ladder makes a 70\u00ba angle with the ground. To the nearest foot, determine and state the length of the ladder. 30 ft 70\u0011 Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2016/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "During an experiment, the same type of bacteria is grown in two petri dishes. Petri dish A has a diameter of 51 mm and has approximately 40,000 bacteria after 1 hour. Petri dish B has a diameter of 75 mm and has approximately 72,000 bacteria after 1 hour. Determine and state which petri dish has the greater population density of bacteria at the end of the first hour. 51 mm 75 mm 72,000 B 40,000 A Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2016/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Line \u2113is mapped onto line m by a dilation centered at the origin with a scale factor of 2. The equation of line \u2113is 3x \u0003 y \u0002 4. Determine and state an equation for line m. Geometry (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "The aspect ratio (the ratio of screen width to height) of a rectangular flat-screen television is 16:9. The length of the diagonal of the screen is the television\u2019s screen size. Determine and state, to the nearest inch, the screen size (diagonal) of this flat-screen television with a screen height of 20.6 inches. Geometry (Common Core) Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Given the theorem, \u201cThe sum of the measures of the interior angles of a triangle is 180\u00b0,\u201d complete the proof for this theorem. Given: \u0002ABC Prove: m\u22201 \u0004 m\u22202 \u0004 m\u22203 \u0002 180\u00b0 Fill in the missing reasons below. Statements Reasons",
+      "choices": [
+        "Given",
+        "",
+        "",
+        "(5) m\u22201 \u0004 m\u22202 \u0004 m\u22203 \u0002 180\u00b0 (5) A B C E D 1 3 2 Geometry (Common Core)"
+      ],
+      "image": "/images/exams/geometry/january-2016/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Triangle XYZ is shown below. Using a compass and straightedge, on the line below, construct and label \u0002ABC, such that \u0002ABC \u0002 \u0002XYZ. [Leave all construction marks.] Based on your construction, state the theorem that justifies why \u0002ABC is congruent to \u0002XYZ. Z X Y Geometry (Common Core)",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2016/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Given: Parallelogram ANDR with AW ___ and DE ___ bisecting NWD _____ and REA ____ at points W and E, respectively Prove that \u0002ANW \u0002 \u0002DRE. Prove that quadrilateral AWDE is a parallelogram. A E R N W D Geometry (Common Core) Part IV Answer the 2 questions in this part. Each correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2016/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Cathy wants to determine the height of the flagpole shown in the diagram below. She uses a survey instrument to measure the angle of elevation to the top of the flagpole, and determines it to be 34.9\u00b0. She walks 8 meters closer and determines the new measure of the angle of elevation to be 52.8\u00b0. At each measurement, the survey instrument is 1.7 meters above the ground. Determine and state, to the nearest tenth of a meter, the height of the flagpole. \u0012\u0013\u0014\u0015\u0011 \u0016\u0017\u0014 \u0011 8 m 1.7 m Geometry (Common Core) Geometry (Common Core) Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here GEOMETRY (COMMON CORE) GEOMETRY (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2016/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

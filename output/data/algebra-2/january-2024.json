@@ -1,0 +1,491 @@
+{
+  "subject": "algebra-2",
+  "session": "january-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "A cafeteria food manager studied the lunchtime eating habits of a group of employees in their office building. The purpose of the study was to determine the proportion of employees who purchased lunch in the cafeteria, brought their lunch from home, or purchased lunch from an outside vendor. This collection of data would best be classified as",
+      "choices": [
+        "a census",
+        "an experiment",
+        "an observational study",
+        "a simulation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "written",
+      "text": "Which graph has imaginary roots? y x y x ( 1 ) ( 3 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2024/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Given 3 is a root of f(x) 5 x4 2 x3 2 21x2 1 45x, what are the other unique roots of f(x)?",
+      "choices": [
+        "25, only",
+        "25 and 0",
+        "23, 1 and 5",
+        "25, 23 and 0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Given p \u00de q, p 5 ( 2 1) q , expressed in logarithmic form, is equivalent to",
+      "choices": [
+        "logp( 2 1) 5 q",
+        "logq(p) 5 2 1",
+        "log 1 2 (p) 5 q",
+        "log 1 2 (q) 5 p"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "written",
+      "text": "Which graph best represents the graph of f(x) 5 (x 1 a)2(x 2 b), where a and b are positive real numbers? f(x) x f(x) x f(x) x f(x) x ( 1 ) ( 3 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2024/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The equations y 5 3t 1 6 and y 5 (1.82)t approximately model the growth of two separate populations where t . 0. What is the best approximation of the time, t, at which the populations are the same?",
+      "choices": [
+        "21.9",
+        "0.3",
+        "5.1",
+        "21.3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Given y 5 22x and x2 1 y2 5 5, the point of intersection in Quadrant II is",
+      "choices": [
+        "(1, 22)",
+        "(22, 1)",
+        "(21, 1)",
+        "(21, 2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The rational expression 2x4 2 5x2 1 3x 2 2 x 2 3 is equivalent to",
+      "choices": [
+        "2x3 2 5x 2 12 2 x 2 3 38",
+        "2x3 1 6x2 1 13x 1 42 1 x 2 3 124",
+        "2x3 2 5x 1 18 2 x 2 3 56",
+        "2x3 2 6x2 1 13x 2 36 1 x 2 3 106"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The equation of the parabola that has its focus at the point (23, 2) and directrix at y 5 0 is",
+      "choices": [
+        "y 5 4 1 (x 1 3)2 1 1",
+        "y 5 4 1 (x 2 3)2 1 1",
+        "y 5 8 1 (x 1 3)2 1 1",
+        "y 5 8 1 (x 2 3)2 1 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The seventh term of the geometric sequence 6, 3 22 , 6 2 , 3 24 \u2026 is",
+      "choices": [
+        "6 6",
+        "3 26",
+        "6 8",
+        "3 28"
+      ],
+      "image": "/images/exams/algebra-2/january-2024/q10.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A company wishes to determine the cooking time for one pound of spaghetti. The company\u2019s technicians cooked one pound of spaghetti and recorded the time needed for the spaghetti to be ready to eat. Repeating this process 35 times resulted in an approximately normal distribution, with a mean of 9.82 minutes and a standard deviation of 1.4 minutes. In which interval should the middle 95% of cooking times fall?",
+      "choices": [
+        "(8.42, 11.22)",
+        "(7.02, 12.62)",
+        "(9.35, 10.29)",
+        "(6.82, 11.32)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Given f(x) 5 2x2 1 7x 2 15 and g(x) 5 3 2 2x, what is f(x) g(x) for all defined values?",
+      "choices": [
+        "2x 2 5",
+        "2x 1 5",
+        "x 2 5",
+        "x 1 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which equation is equivalent to P 5 210x 4 3 y 7 3?",
+      "choices": [
+        "P 5 3 210x4y7",
+        "P 5 70xy2 xy 3",
+        "P 5 210xy2 xy 3",
+        "P 5 210xy2 3 x3y5"
+      ],
+      "image": "/images/exams/algebra-2/january-2024/q13.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The average cost of a gallon of milk in the United States between the years of 1995 and 2018 can be modeled by the equation P(t) 5 20.0004t3 1 0.0114t2 2 0.0150t 1 2.6602, where P(t) represents the cost, in dollars, and t is time in years since January 1995. During this time period, in what year did P(t) reach its maximum?",
+      "choices": [
+        "1995",
+        "2013",
+        "2014",
+        "2018"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The temperature, F, in degrees Fahrenheit, after t hours of a roast put into an oven is given by the equation F 5 325 2 185e20.4t. What was the temperature of the roast when it was put into the oven?",
+      "choices": [
+        "325",
+        "200",
+        "185",
+        "140"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The roots of the equation 0 5 x2 1 6x 1 10 in simplest a 1 bi form are",
+      "choices": [
+        "23 6 2i",
+        "26 6 i",
+        "23 6 i",
+        "23 6 i 2"
+      ],
+      "image": "/images/exams/algebra-2/january-2024/q16.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which equation does not represent an identity?",
+      "choices": [
+        "x2 2 y2 5 (x 1 y)(x 2 y)",
+        "(x 2 y)2 5 (x 2 y)(x 2 y)",
+        "(x 1 y)2 5 x2 1 2xy 1 y2",
+        "(x 1 y)3 5 x3 1 3xy 1 y3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Two surveys were conducted to estimate the proportion of teens who use social media at least once per day. 100 Samples of 5 Teens 100 Samples of 50 Teens 0 Mean = 0.732 SD = 0.207 0 10 20 30 40 50 0.20 Proportion of Teens Who Use Social Media At Least Once Per Day 0.40 0.60 0.80 1 0.54 Mean = 0.742 SD = 0.057 0 10 20 30 0.60 0.66 Proportion of Teens Who Use Social Media At Least Once Per Day 0.72 0.78 0.84 0.90 0.96 Frequency Frequency Based on these results, it was determined that approximately 75% of teens use social media at least once per day. What is the best explanation of the difference in the results between the two surveys?",
+      "choices": [
+        "The smaller sample size of five teens resulted in a smaller margin of error and should provide a more accurate estimate.",
+        "The smaller sample size of five teens resulted in a bigger margin of error and should provide a more accurate estimate.",
+        "The larger sample size of 50 teens resulted in a smaller margin of error and should provide a more accurate estimate.",
+        "The larger sample size of 50 teens resulted in a bigger margin of error and should provide a more accurate estimate."
+      ],
+      "image": "/images/exams/algebra-2/january-2024/q18.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Given f(x) 5 x3 2 3 and f 21(x) 5 3 x 2 3b, the value of b is",
+      "choices": [
+        "1",
+        "21",
+        "3",
+        "23"
+      ],
+      "image": "/images/exams/algebra-2/january-2024/q19.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Robert is buying a car that costs $22,000. After a down payment of $4000, he borrows the remainder from a bank, a six year loan at 6.24% annual interest rate. The following formula can be used to calculate his monthly loan payment. R 5 (P)(i) 1 2 (1 1 i)2t R 5 monthly payment P 5 loan amount i 5 monthly interest rate t 5 time, in months Robert\u2019s monthly payment will be",
+      "choices": [
+        "$298.31",
+        "$300.36",
+        "$307.35",
+        "$367.10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Given tan q 5 2 3 4 where 2 \u03c0 , q , p, what is the value of sec q?",
+      "choices": [
+        "2 3 5",
+        "2 5 3",
+        "5 4",
+        "3 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "To solve the equation x 1 7 1 5 7 x 2 7 4 x x 2 7 3x 1 7, Joan\u2019s first step is to multiply both sides by the least common denominator. Which statement is true?",
+      "choices": [
+        "214 is an extraneous solution.",
+        "7 and 27 are extraneous solutions.",
+        "7 is an extraneous solution.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Beginning July 1, 2019, Michelle deposited $250 into an account that yields 0.15% each month. She continued to make $250 deposits into this account on the first of each month for 3 years. Which expression represents the amount of money that was in the account after her last deposit was made on June 1, 2022?",
+      "choices": [
+        "250(1.0015)3",
+        "250(1.0015)36",
+        "250 2 250(1.0015)3 1 2 1.0015",
+        "250 2 250(1.0015)36 1 2 1.0015"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A study of the red tailed hawk population in a given area shows the population, H(t), can be represented by the function H(t) 5 50(1.19)t where t represents the number of years since the study began. In terms of the monthly rate of growth, the population can be best approximated by the function",
+      "choices": [
+        "H(t) 5 50(1.015)12t",
+        "H(t) 5 50(1.15) t 12",
+        "H(t) 5 50(1.19)12t",
+        "H(t) 5 50(1.19) t 12 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "26",
+      "choices": [
+        "H(t) 5 50(1.015)12t",
+        "H(t) 5 50(1.15) t 12",
+        "H(t) 5 50(1.19)12t",
+        "H(t) 5 50(1.19) t 12 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. 25 Factor x3 1 4x2 2 9x 2 36, 26 Determine if x 1 4 is a factor of 2x3 1 10x2 1 4x 2 16. Explain your answer."
+      ],
+      "image": "/images/exams/algebra-2/january-2024/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "An initial investment of $1000 reaches a value, V(t), according to the model V(t) 5 1000(1.01)4t, where t is the time in years. Determine the average rate of change, to the nearest dollar per year, of this investment from year 2 to year 7",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "When ( 1 3 y2 ) y4 is written in the form yn, what is the value of n? Justify your answer.",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2024/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "The heights of the members of a ski club are normally distributed. The average height is 64.7 inches with a standard deviation of 4.3 inches. Determine the percentage of club members, to the nearest percent, who are between 67 inches and 72",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The explicit formula an 5 6 1 6n represents the number of seats in each row in a movie theater, where n represents the row number. Rewrite this formula in recursive form.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Express (2xi3 2 3y)2",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "A survey was given to 1250 randomly selected high school students at the end of their junior year. The survey offered four post-graduation options: two-year college, four-year college, military, or work. Of the 1250 responses, 475 chose a four-year college. State one possible conclusion that can be made about the population of high school juniors, Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "A researcher wants to determine if nut allergies and milk allergies are related to each other. The researcher surveyed 1500 people and asked them if they are allergic to nuts or milk. The survey results are summarized in the table below. Allergic to Nuts Not Allergic to Nuts Allergic to Milk 3 42 Not Allergic to Milk 12 1443 Determine the probability that a randomly selected survey respondent is allergic to milk. Determine the probability that a randomly selected survey respondent is allergic to milk, given that the person is allergic to nuts. Based on the survey data,",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2024/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Algebraically solve for x: 2x 5 6 1 2 x 2 1",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2024/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "During the summer, Adam saved $4000 and Betty saved $3500. Adam deposited his money in Bank A at an annual rate of 2.4% compounded monthly. Betty deposited her money in Bank B at an annual rate of 4% compounded quarterly. Write two functions that represent the value of each account after t years if no other deposits or withdrawals are made, where Adam\u2019s account value is represented by A(t), and Betty\u2019s by B(t). Using technology, determine, to the nearest tenth of a year,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "On the graph below, draw at least one complete cycle of a sine graph passing through point (0,2) that has an amplitude of 3, a period of p, and a midline at y 5 2. y x 2 \u03c0 \u2013 2 \u03c0 \u2013 \u2013\u03c0 \u03c0 \u20132\u03c0 2\u03c0 3\u03c0 2 3\u03c0 2 Based on your graph, Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2024/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "A manufacturer of sweatshirts finds that profits and costs fluctuate depending on the number of products created. Creating more products doesn\u2019t always increase profits because it requires additional costs, such as building a larger facility or hiring more workers. The manufacturer determines the profit, p(x), in thousands of dollars, as a function of the number of sweatshirts sold, x, in thousands. This function, p, is given below. p(x) 5 2x3 1 11x2 2 7x 2 69 Graph y 5 p(x), over the interval 0 # x # 9, on the set of axes below. y x 30 1 Question 37 Over the given interval, state the coordinates of the maximum of p and round all values to the nearest integer. Explain what this point represents in terms of the number of sweatshirts sold and profit. Determine how many sweatshirts, to the nearest whole sweatshirt, the manufacturer would need to produce in order to first make a positive profit. Justify your answer. Question 37 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2024/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

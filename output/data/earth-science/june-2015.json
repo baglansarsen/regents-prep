@@ -1,0 +1,1086 @@
+{
+  "subject": "earth-science",
+  "session": "june-2015",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Compared to the terrestrial planets, the Jovian planets are",
+      "choices": [
+        "larger and less dense",
+        "smaller and more dense",
+        "closer to the Sun and less rocky",
+        "farther from the Sun and more rocky"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Earth, the Sun, and billions of stars are contained within",
+      "choices": [
+        "a single constellation",
+        "the Milky Way galaxy",
+        "the solar system",
+        "a giant cloud of gas"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a globe that is spinning to represent Earth rotating. The globe is spinning in the direction indicated by the arrow. Points A, B, C, D, X, and Y are locations on the globe. A student attempted to draw a straight line from point X to point Y on the spinning globe. Due to the Coriolis effect, the student\u2019s drawn line most likely passed through point",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2015/q3.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Flash flooding is most likely to occur when heavy rain falls on",
+      "choices": [
+        "deforested landscapes with clay soils",
+        "deforested landscapes with sandy soils",
+        "forested landscapes with clay soils",
+        "forested landscapes with sandy soils"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Radioactive decay of 40K atoms in an igneous rock has resulted in a ratio of 25 percent 40K atoms to 75 percent 40Ar and 40Ca atoms. How many years old is this rock?",
+      "choices": [
+        "0.3 \u0002 109 y",
+        "1.3 \u0002 109 y",
+        "2.6 \u0002 109 y",
+        "3.9 \u0002 109 y"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A student using a sling psychrometer measured a wet-bulb temperature of 10\u00b0C and a dry-bulb temperature of 16\u00b0C. What was the dewpoint?",
+      "choices": [
+        "\u000310\u00b0C",
+        "45\u00b0C",
+        "6\u00b0C",
+        "4\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Most of the hurricanes that affect the east coast of the United States originally form over the",
+      "choices": [
+        "warm waters of the Atlantic Ocean in summer",
+        "warm land of the southeastern United States in summer",
+        "cool waters of the Atlantic Ocean in spring",
+        "cool land of the southeastern United States in spring"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The ozone layer protects life on Earth by absorbing harmful ultraviolet radiation. The ozone layer is located between 17 kilometers and 35 kilometers above Earth\u2019s surface in which atmospheric temperature zone?",
+      "choices": [
+        "troposphere",
+        "stratosphere",
+        "mesosphere",
+        "thermosphere A B X C D Y"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "written",
+      "text": "Which weather map symbol is associated with extremely low air pressure?",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which two elements make up the greatest percentages by mass in Earth\u2019s crust?",
+      "choices": [
+        "oxygen and potassium",
+        "oxygen and silicon",
+        "aluminum and potassium",
+        "aluminum and silicon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "What is the approximate P-wave travel time from an earthquake if the P-wave arrives at the seismic station 8 minutes before the S-wave?",
+      "choices": [
+        "4 minutes 20 seconds",
+        "6 minutes 30 seconds",
+        "10 minutes 0 seconds",
+        "11 minutes 20 seconds"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which two factors have the most influence on the development of landscape features?",
+      "choices": [
+        "bedrock age and weathering rates",
+        "bedrock structure and climate variations",
+        "rate of deposition and thickness of the bedrock",
+        "rate of erosion and fossils in the bedrock"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which two New York State landscape regions have surface bedrock that formed about 1000 million years ago?",
+      "choices": [
+        "Hudson Highlands and Adirondack Mountains",
+        "Erie-Ontario Lowlands and Atlantic Coastal Plain",
+        "Tug Hill Plateau and Allegheny Plateau",
+        "Newark Lowlands and Manhattan Prong"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "What is the minimum water velocity necessary to maintain movement of 0.1-centimeter-diameter particles in a stream?",
+      "choices": [
+        "0.02 cm/s",
+        "0.5 cm/s",
+        "5.0 cm/s",
+        "20.0 cm/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Compared to a light-colored rock with a smooth surface, a dark-colored rock with a rough surface will",
+      "choices": [
+        "both absorb and reflect less insolation",
+        "both absorb and reflect more insolation",
+        "absorb less insolation and reflect more insolation",
+        "absorb more insolation and reflect less insolation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The diagram below indicates regions of daylight and darkness on Earth on the first day of summer in the Northern Hemisphere. Four latitudes are labeled A, B, C, and D. At which latitude is the Sun above the horizon for the least number of hours on the day shown?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2015/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which process is responsible for the greatest loss of energy from Earth\u2019s surface into space on a clear night?",
+      "choices": [
+        "condensation",
+        "conduction",
+        "radiation",
+        "convection Day Night 23 1/2\u00b0 A B C D ( 1 ) ( 2 ) ( 3 ) ( 4 )"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The timeline below represents time from the present to 20 billion years ago. Letters A, B, C, and D represent specific times. Which letter on the timeline best represents the time when scientists estimate that the Big Bang occurred?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2015/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "written",
+      "text": "The diagram below represents a Foucault pendulum that is swinging back and forth. Which diagram best represents the change in the motion of a Foucault pendulum that provides evidence of Earth\u2019s rotation? Different direction of swing Longer length of swing Swinging stops Begins to spin ( 1 ) ( 2 ) ( 3 ) ( 4 ) Timeline (billions of years ago) A B D C 5 10 15",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Present P.S./ 20 The diagram below represents some constellations and one position of Earth in its orbit around the Sun. These constellations are visible to an observer on Earth at different times of the year. When Earth is located in the orbital position shown, two constellations that are both visible to an observer on Earth at midnight are",
+      "choices": [
+        "Libra and Virgo",
+        "Gemini and Taurus",
+        "Aquarius and Capricorn",
+        "Cancer and Sagittarius"
+      ],
+      "image": "/images/exams/earth-science/june-2015/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The cross sections below represent three beakers that were used to test porosity. Beakers A, B, and C each contain a different size of bead. Each beaker holds an equal volume of beads. The amount of water needed to fill the total pore space between the beads in each beaker was measured. Which statement best describes the porosity that was found for these three samples?",
+      "choices": [
+        "A had a greater porosity than B and C.",
+        "B had a greater porosity than A and C.",
+        "C had a greater porosity than A and B.",
+        "All three samples had the same porosity. C B A Aries Pisces Aquarius Capricorn Sagittarius Scorpius Libra Virgo Leo Cancer Gemini Taurus Earth Sun (Not drawn to scale)"
+      ],
+      "image": "/images/exams/earth-science/june-2015/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "written",
+      "text": "Which graph best indicates the general relationship between soil particle size and the amount of water retention by a permeable soil?",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The cross section below represents surface bedrock where faulting has occurred along line AB. When could this faulting have occurred?",
+      "choices": [
+        "before the Ordovician rocks were deposited",
+        "during the Ordovician period",
+        "before the Cambrian rocks were deposited",
+        "during the Cambrian period"
+      ],
+      "image": "/images/exams/earth-science/june-2015/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The two block diagrams below represent the formation of caves. Which types of weathering and erosion are primarily responsible for the formation of caves?",
+      "choices": [
+        "chemical weathering and groundwater flow",
+        "chemical weathering and runoff",
+        "physical weathering and groundwater flow",
+        "physical weathering and runoff Early stage Later stage Igneous rock Key Cave Acid rain O O C C C C O C B Key to Rock Age O \u2014 Ordovician C \u2014 Cambrian Fault A Amount of Water Retention ( 4 ) ( 3 ) Particle Size ( 1 ) ( 2 ) Particle Size Particle Size Particle Size Amount of Water Retention Amount of Water Retention Amount of Water Retention"
+      ],
+      "image": "/images/exams/earth-science/june-2015/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The cross section below represents several rock units within Earth\u2019s crust. Letter A represents Earth\u2019s surface. Letters B, C, and D indicate boundaries between rock units. One of the unconformities is labeled. Which lettered boundary is most likely another unconformity?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2015/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The map below shows the distribution of ash across the United States as a result of the May 18, 1980 volcanic eruption of Mount St. Helens. Volcanic ash deposits such as these are usually excellent geologic time markers because they",
+      "choices": [
+        "occur at regular time intervals",
+        "spread over a large area in a short amount of time",
+        "represent a time gap in the rock record",
+        "contain index fossils from different time periods Mount St. Helens \u0002\u0003\u0004\u0005\u0006\u0007\b Mount St. Helens May 18, 1980 Ash Fallout Distribution Within the United States Source: United States Geological Survey, 1990 (adapted) 2 to 5 inches 1/2 to 2 inches Trace to 1/2 inch Key N A B Unconformity D C Igneous rock Contact metamorphism Key"
+      ],
+      "image": "/images/exams/earth-science/june-2015/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Which diagram represents a side view of a sand dune most commonly formed as a result of the prevailing wind direction shown?",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The map below indicates an air-pressure field over North America. Isobar values are recorded in millibars. At which city was the greatest wind speed occurring?",
+      "choices": [
+        "Boise",
+        "Denver",
+        "Kansas City",
+        "Austin Pacific Ocean Atlantic Ocean Gulf of Mexico H L Austin Boise Kansas City Denver 1016 1020 1012 988 1012 1008 992 996 1004 1000 1016 N ( 1 ) ( 3 ) ( 2 ) ( 4 ) Wind Wind Wind Wind"
+      ],
+      "image": "/images/exams/earth-science/june-2015/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The striped areas on the map below show regions along the Great Lakes that often receive large amounts of snowfall due to lake-effect storms. These storms generally develop when",
+      "choices": [
+        "cold air moves to the east over warmer lake water",
+        "cold air moves to the west over warmer land regions",
+        "warm air moves to the east over colder lake water",
+        "warm air moves to the west over colder land regions"
+      ],
+      "image": "/images/exams/earth-science/june-2015/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The graph below shows the heating effect that different land uses have on surface air temperatures on a summer afternoon. Which land use results in the least heating effect in urban areas?",
+      "choices": [
+        "commercial",
+        "downtown",
+        "residential",
+        "parks 86 88 90 92 Late Afternoon Temperature (\u00b0F) Rural forest Suburban residential Urban commercial Urban downtown Urban residential Urban parks Suburban residential Rural farmland Source: US Global Change Research Program (adapted) Heating Effect of Land Use on Surface Air Temperature Canada New York Atlantic Ocean N P.S./"
+      ],
+      "image": "/images/exams/earth-science/june-2015/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which lettered box could represent the rock conglomerate?",
+      "choices": [
+        "E",
+        "G",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the flowchart below and on your knowledge of Earth science.\nThe boxes labeled A through G represent rocks and rock materials. Arrows represent the processes of the rock\ncycle.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The arrows in the block diagram below represent forces forming mountains in a region of Earth\u2019s lithosphere. Metamorphic rocks that formed from these forces are represented by which lettered box in the flowchart?",
+      "choices": [
+        "A",
+        "B",
+        "E",
+        "F Mountains B A C D F G E M e lt i n g Regio n a l folding a nd pr e ssur e W e a t h e r i n g a n d e r o s i o n We at h er i n g a n d e r o s i o n So lid fic ati on wit hou t c ry st al liz at io n Regi on a l f o ld in g a n d pr essure C o m p a ct io n C e m entati o n C r ys ta lli za ti o n"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the flowchart below and on your knowledge of Earth science.\nThe boxes labeled A through G represent rocks and rock materials. Arrows represent the processes of the rock\ncycle.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which rock is composed of the mineral halite that formed when seawater evaporated?",
+      "choices": [
+        "limestone",
+        "dolostone",
+        "rock gypsum",
+        "rock salt"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which mineral is mined for its iron content?",
+      "choices": [
+        "hematite",
+        "fluorite",
+        "galena",
+        "talc"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The data table below gives characteristics of the gemstone peridot. Characteristics of Peridot Peridot is a form of the mineral",
+      "choices": [
+        "pyrite",
+        "pyroxene",
+        "olivine",
+        "garnet Luster nonmetallic Hardness 6.5 Color green Composition (Fe,Mg)2SiO4"
+      ],
+      "image": "/images/exams/earth-science/june-2015/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The computer image below shows a rainstorm over Texas. Letters A and B represent locations on Earth\u2019s surface. If Doppler radar is used at locations A and B, as this rainstorm moves eastward, reflected wavelengths from this storm will be",
+      "choices": [
+        "shorter at both locations A and B",
+        "longer at both locations A and B",
+        "shorter at location A and longer at location B",
+        "longer at location A and shorter at location B"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the diagrams below and on your knowledge of Earth \nscience. The diagrams represent electromagnetic waves being transmitted (T) by a Doppler radar weather\ninstrument and waves being reflected (R) by rain showers. This instrument produces computer images that\nshow the movement of rainstorms.\nA Stationary\nRain Shower\nR\nT\nThe reflected wavelengths (R) from a stationary\nrain shower are equal to the transmitted\nwavelengths (T ).\nR\nT\nThe reflected wavelengths (R) from a rain shower\nmoving toward the instrument are shorter than\nthe transmitted wavelengths (T ).\nR\nT\nThe reflected wavelengths (R) from a rain shower\nmoving away from the instrument are longer than\nthe transmitted wavelengths (T ).\nA Rain Shower Moving\nToward the Instrument\nA Rain Shower\n Moving Away from\n the Instrument\nPart B\u20131\nAnswer all questions in this part.\nDirections (36\u201350): For each statement or question, choose the word or expression that, of those given, best\ncompletes the statement or answers the question. Some questions may require the use of the 2011 Edition\nReference Tables for Physical Setting/Earth Science. Record your answers on your separate answer sheet.\n\nP.S./E. Sci.\u2013June \u201915\n[13]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "This Doppler radar instrument transmits electromagnetic energy in the form of microwaves. Some microwave wavelengths are between the wavelengths of",
+      "choices": [
+        "gamma rays and x rays",
+        "infrared and radio waves",
+        "ultraviolet and infrared",
+        "x rays and ultraviolet"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the diagrams below and on your knowledge of Earth \nscience. The diagrams represent electromagnetic waves being transmitted (T) by a Doppler radar weather\ninstrument and waves being reflected (R) by rain showers. This instrument produces computer images that\nshow the movement of rainstorms.\nA Stationary\nRain Shower\nR\nT\nThe reflected wavelengths (R) from a stationary\nrain shower are equal to the transmitted\nwavelengths (T ).\nR\nT\nThe reflected wavelengths (R) from a rain shower\nmoving toward the instrument are shorter than\nthe transmitted wavelengths (T ).\nR\nT\nThe reflected wavelengths (R) from a rain shower\nmoving away from the instrument are longer than\nthe transmitted wavelengths (T ).\nA Rain Shower Moving\nToward the Instrument\nA Rain Shower\n Moving Away from\n the Instrument\nPart B\u20131\nAnswer all questions in this part.\nDirections (36\u201350): For each statement or question, choose the word or expression that, of those given, best\ncompletes the statement or answers the question. Some questions may require the use of the 2011 Edition\nReference Tables for Physical Setting/Earth Science. Record your answers on your separate answer sheet.\n\nP.S./E. Sci.\u2013June \u201915\n[13]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which weather instrument was used to measure the amount of rainfall from this storm?",
+      "choices": [
+        "barometer",
+        "anemometer",
+        "precipitation gauge",
+        "wind vane Texas A B Gulf of Mexico N"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the diagrams below and on your knowledge of Earth \nscience. The diagrams represent electromagnetic waves being transmitted (T) by a Doppler radar weather\ninstrument and waves being reflected (R) by rain showers. This instrument produces computer images that\nshow the movement of rainstorms.\nA Stationary\nRain Shower\nR\nT\nThe reflected wavelengths (R) from a stationary\nrain shower are equal to the transmitted\nwavelengths (T ).\nR\nT\nThe reflected wavelengths (R) from a rain shower\nmoving toward the instrument are shorter than\nthe transmitted wavelengths (T ).\nR\nT\nThe reflected wavelengths (R) from a rain shower\nmoving away from the instrument are longer than\nthe transmitted wavelengths (T ).\nA Rain Shower Moving\nToward the Instrument\nA Rain Shower\n Moving Away from\n the Instrument\nPart B\u20131\nAnswer all questions in this part.\nDirections (36\u201350): For each statement or question, choose the word or expression that, of those given, best\ncompletes the statement or answers the question. Some questions may require the use of the 2011 Edition\nReference Tables for Physical Setting/Earth Science. Record your answers on your separate answer sheet.\n\nP.S./E. Sci.\u2013June \u201915\n[13]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "What causes clouds of dust and gas to form a protostar?",
+      "choices": [
+        "magnetism",
+        "gravitational attraction",
+        "expansion of matter",
+        "cosmic background radiation"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_39_42.png",
+      "context": "Base your answers to questions 39 through 42 on the diagram below and on your knowledge of Earth \nscience. The diagram represents two possible sequences in the evolution of stars.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which property primarily determines whether a giant star or a supergiant star will form?",
+      "choices": [
+        "mass",
+        "color",
+        "shape",
+        "composition"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_39_42.png",
+      "context": "Base your answers to questions 39 through 42 on the diagram below and on your knowledge of Earth \nscience. The diagram represents two possible sequences in the evolution of stars.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Which table includes data that are characteristic of the surface temperature and luminosity of some white dwarf stars?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_39_42.png",
+      "context": "Base your answers to questions 39 through 42 on the diagram below and on your knowledge of Earth \nscience. The diagram represents two possible sequences in the evolution of stars.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which process generates the energy that is released by stars?",
+      "choices": [
+        "nuclear fusion",
+        "thermal conduction",
+        "convection currents",
+        "radioactive decay Surface Temperature 5000 K Luminosity 0.001 Surface Temperature 10,000 K Luminosity 0.001 Surface Temperature 5000 K Luminosity 100 Surface Temperature 10,000 K Luminosity 100 Stages of Star Evolution Protostar (early stage of star) Mediu m- mass stars Supernova White dwarf Clouds of dust and gas (nebula) High-mass stars Main sequence star Black dwarf Neutron star Black hole New nebula Supergiant Giant (Not drawn to scale)"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_39_42.png",
+      "context": "Base your answers to questions 39 through 42 on the diagram below and on your knowledge of Earth \nscience. The diagram represents two possible sequences in the evolution of stars.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Compared to the surrounding material, mantle plumes rise toward Earth\u2019s surface from the core-mantle boundary because they are",
+      "choices": [
+        "cooler and less dense",
+        "cooler and more dense",
+        "hotter and less dense",
+        "hotter and more dense"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_43_45.png",
+      "context": "Base your answers to questions 43 through 45 on the passage and cross section below and on your \nknowledge of Earth science. The cross section represents one theory of the movement of rock materials in\nEarth\u2019s dynamic interior. Some mantle plumes that are slowly rising from the boundary between Earth\u2019s outer\ncore and stiffer mantle are indicated.\nHot Spots and Mantle Plumes\nResearch of mantle hot spots indicates that mantle plumes form in a variety of sizes\nand shapes. These mantle plumes range in diameter from several hundred kilometers\nto 1000 kilometers. Some plumes rise as blobs rather than in a continuous streak; \nhowever, most plumes are long, slender columns of hot rock slowly rising in Earth\u2019s\nstiffer mantle. One theory is that most plumes form at the boundary between the outer\ncore and the stiffer mantle. They may reach Earth\u2019s surface in the center of plates or\nat plate boundaries, producing volcanoes or large domes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "At which depth below Earth\u2019s surface is the boundary between Earth\u2019s outer core and stiffer mantle located?",
+      "choices": [
+        "700 km",
+        "2000 km",
+        "2900 km",
+        "5100 km"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_43_45.png",
+      "context": "Base your answers to questions 43 through 45 on the passage and cross section below and on your \nknowledge of Earth science. The cross section represents one theory of the movement of rock materials in\nEarth\u2019s dynamic interior. Some mantle plumes that are slowly rising from the boundary between Earth\u2019s outer\ncore and stiffer mantle are indicated.\nHot Spots and Mantle Plumes\nResearch of mantle hot spots indicates that mantle plumes form in a variety of sizes\nand shapes. These mantle plumes range in diameter from several hundred kilometers\nto 1000 kilometers. Some plumes rise as blobs rather than in a continuous streak; \nhowever, most plumes are long, slender columns of hot rock slowly rising in Earth\u2019s\nstiffer mantle. One theory is that most plumes form at the boundary between the outer\ncore and the stiffer mantle. They may reach Earth\u2019s surface in the center of plates or\nat plate boundaries, producing volcanoes or large domes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "The basaltic rock that forms volcanic mountains where mantle plumes reach Earth\u2019s surface is usually composed of",
+      "choices": [
+        "fine-grained, dark-colored felsic minerals",
+        "fine-grained, dark-colored mafic minerals",
+        "coarse-grained, light-colored felsic minerals",
+        "coarse-grained, light-colored mafic minerals Island arc Hot spot Mid-ocean ridge Dome Island arc Avalanche of slabs Outer core Inner core Plume A st h en os ph e r e S ti f fe r man tl e (Not drawn to scale)"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_43_45.png",
+      "context": "Base your answers to questions 43 through 45 on the passage and cross section below and on your \nknowledge of Earth science. The cross section represents one theory of the movement of rock materials in\nEarth\u2019s dynamic interior. Some mantle plumes that are slowly rising from the boundary between Earth\u2019s outer\ncore and stiffer mantle are indicated.\nHot Spots and Mantle Plumes\nResearch of mantle hot spots indicates that mantle plumes form in a variety of sizes\nand shapes. These mantle plumes range in diameter from several hundred kilometers\nto 1000 kilometers. Some plumes rise as blobs rather than in a continuous streak; \nhowever, most plumes are long, slender columns of hot rock slowly rising in Earth\u2019s\nstiffer mantle. One theory is that most plumes form at the boundary between the outer\ncore and the stiffer mantle. They may reach Earth\u2019s surface in the center of plates or\nat plate boundaries, producing volcanoes or large domes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "The inclusions shown near the bottom of the Palisades sill are pieces of the Triassic sandstone that",
+      "choices": [
+        "formed from deposits of minerals within the sill",
+        "crystallized within the sill and were cemented together",
+        "were part of the olivine-rich layer that broke apart",
+        "broke off from the surrounding bedrock during the intrusion 10 20 30 40 50 60 70 0 100 200 300 400 500 600 700 800 900 1000 Cross Section of the Palisades Sill Graph of Changes in Mineral Composition Within the Palisades Sill Mineral Composition (%) Olivine-rich diabase layer Coarse diabase region Normal diabase becoming coarser toward the top Fine-grained diabase contact zone Inclusions of sedimentary rock Contact metamorphism Key Height Above Bottom of Sill (ft) Top of sill Bottom of sill 0 % olivine % pyroxene % plagioclase Triassic sandstone of Newark formation"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_46_50.png",
+      "context": "Base your answers to questions 46 through 50 on the geologic cross section and graph below, and on your\nknowledge of Earth science. The cross section represents the intrusive igneous rock of the Palisades sill and \nsurrounding bedrock located on the west side of the Hudson River across from New York City. The graph \nindicates changes in the percentages of the major minerals found in the sill.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Approximately how far above the bottom of the Palisades sill is the coarse diabase region found?",
+      "choices": [
+        "50 ft",
+        "400 ft",
+        "800 ft",
+        "950 ft"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_46_50.png",
+      "context": "Base your answers to questions 46 through 50 on the geologic cross section and graph below, and on your\nknowledge of Earth science. The cross section represents the intrusive igneous rock of the Palisades sill and \nsurrounding bedrock located on the west side of the Hudson River across from New York City. The graph \nindicates changes in the percentages of the major minerals found in the sill.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The graph shows that, within the olivine-rich diabase layer near the bottom of the sill, as the percentage of olivine increases, the",
+      "choices": [
+        "percentages of both plagioclase and pyroxene decrease",
+        "percentages of both plagioclase and pyroxene increase",
+        "percentage of plagioclase decreases and the percentage of pyroxene increases",
+        "percentage of plagioclase increases and the percentage of pyroxene decreases"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_46_50.png",
+      "context": "Base your answers to questions 46 through 50 on the geologic cross section and graph below, and on your\nknowledge of Earth science. The cross section represents the intrusive igneous rock of the Palisades sill and \nsurrounding bedrock located on the west side of the Hudson River across from New York City. The graph \nindicates changes in the percentages of the major minerals found in the sill.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The Palisades sill intruded as North America began the process of separating from Africa and Europe as Pangaea was breaking apart. Approximately when did these events occur?",
+      "choices": [
+        "65 million years ago",
+        "200 million years ago",
+        "299 million years ago",
+        "400 million years ago"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_46_50.png",
+      "context": "Base your answers to questions 46 through 50 on the geologic cross section and graph below, and on your\nknowledge of Earth science. The cross section represents the intrusive igneous rock of the Palisades sill and \nsurrounding bedrock located on the west side of the Hudson River across from New York City. The graph \nindicates changes in the percentages of the major minerals found in the sill.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which two minerals, not shown on the Graph of Changes in Mineral Composition Within the Palisades Sill, are also likely to be found in some other samples of diabase?",
+      "choices": [
+        "amphibole and potassium feldspar",
+        "potassium feldspar and quartz",
+        "quartz and biotite",
+        "biotite and amphibole"
+      ],
+      "image": "/images/exams/earth-science/june-2015/context_46_50.png",
+      "context": "Base your answers to questions 46 through 50 on the geologic cross section and graph below, and on your\nknowledge of Earth science. The cross section represents the intrusive igneous rock of the Palisades sill and \nsurrounding bedrock located on the west side of the Hudson River across from New York City. The graph \nindicates changes in the percentages of the major minerals found in the sill.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Describe the effect that global warming most likely will have on both present-day glaciers and sea level.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/q51.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "An air mass acquires the characteristics of the surface over which it forms. In your answer booklet, circle the type of Earth surface (land or ocean) and describe the relative temperature of the surface over which the mT air mass most likely formed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_52_53.png",
+      "context": "Base your answers to questions 52 and 53 on the weather map below and on your knowledge of Earth \nscience. The map indicates the location of a low-pressure system over New York State during late summer.\nIsobar values are recorded in millibars. Shading indicates regions receiving precipitation. The air masses are\nlabeled mT and cP. The locations of some New York State cities are shown. Points A and B represent other \nlocations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "The cross section in your answer booklet represents the atmosphere along the dashed line from A to B on the map. The warm frontal boundary is already shown on the cross section. Draw a curved line to represent the shape and location of the cold frontal boundary. A B Plattsburgh LOW Syracuse Binghamton 1008 1004 1000 996 Albany New York City cP cP mT Buffalo Rochester N",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_52_53.png",
+      "context": "Base your answers to questions 52 and 53 on the weather map below and on your knowledge of Earth \nscience. The map indicates the location of a low-pressure system over New York State during late summer.\nIsobar values are recorded in millibars. Shading indicates regions receiving precipitation. The air masses are\nlabeled mT and cP. The locations of some New York State cities are shown. Points A and B represent other \nlocations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the motion of Earth that causes these stars to appear to move in a circular path.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the diagram below and on your knowledge of Earth \nscience. The diagram represents a time-exposure photograph taken by aiming a camera at Polaris in the night\nsky and leaving the shutter open for a period of time to record star trails. The angular arcs (star trails) show the\napparent motions of some stars.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Determine the number of hours it took to record the star trails labeled on the diagram.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the diagram below and on your knowledge of Earth \nscience. The diagram represents a time-exposure photograph taken by aiming a camera at Polaris in the night\nsky and leaving the shutter open for a period of time to record star trails. The angular arcs (star trails) show the\napparent motions of some stars.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "The diagram in your answer booklet represents Earth as viewed from space. The dashed line indicates Earth\u2019s axis. Some latitudes are labeled. On the diagram in your answer booklet, draw an arrow that points from the North Pole toward Polaris.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the diagram below and on your knowledge of Earth \nscience. The diagram represents a time-exposure photograph taken by aiming a camera at Polaris in the night\nsky and leaving the shutter open for a period of time to record star trails. The angular arcs (star trails) show the\napparent motions of some stars.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Record, to the nearest whole degree, the altitude of Polaris when it is viewed from the top of New York State\u2019s Mt. Marcy. 360\u00b0 0\u00b0 180\u00b0 270\u00b0 90\u00b0 300\u00b0 60\u00b0 330\u00b0 30\u00b0 Star trail 240\u00b0 120\u00b0 210\u00b0 150\u00b0 Polaris",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the diagram below and on your knowledge of Earth \nscience. The diagram represents a time-exposure photograph taken by aiming a camera at Polaris in the night\nsky and leaving the shutter open for a period of time to record star trails. The angular arcs (star trails) show the\napparent motions of some stars.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "The top of the box in your answer booklet represents the stream surface between points A and B. In the box, draw a line from point A to point B to represent a cross-sectional view of the shape of the bottom of the stream channel.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the block diagram below and on your knowledge of Earth\nscience. The diagram represents a meandering stream flowing into the ocean. Points A and B represent \nlocations along the streambanks. Letter C indicates a triangular-shaped depositional feature where the stream\nenters the ocean.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Explain how sediments eroded by the water in this stream become smoother and rounder in shape.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the block diagram below and on your knowledge of Earth\nscience. The diagram represents a meandering stream flowing into the ocean. Points A and B represent \nlocations along the streambanks. Letter C indicates a triangular-shaped depositional feature where the stream\nenters the ocean.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify the triangular-shaped depositional feature indicated by letter C.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the block diagram below and on your knowledge of Earth\nscience. The diagram represents a meandering stream flowing into the ocean. Points A and B represent \nlocations along the streambanks. Letter C indicates a triangular-shaped depositional feature where the stream\nenters the ocean.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Identify two factors that determine the rate of stream erosion. Ocean A B C",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the block diagram below and on your knowledge of Earth\nscience. The diagram represents a meandering stream flowing into the ocean. Points A and B represent \nlocations along the streambanks. Letter C indicates a triangular-shaped depositional feature where the stream\nenters the ocean.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Calculate the rate of change in the average monthly temperature for Omaha during the two-month period between October and December, as shown on the graph.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the graph and map below and on your knowledge of Earth\nscience. The average monthly temperatures for Eureka, California, and Omaha, Nebraska, are plotted on the\ngraph. The map indicates the locations of these two cities.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Explain why Omaha, which is farther inland, has a greater variation in temperatures throughout the year than Eureka, which is closer to the ocean.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the graph and map below and on your knowledge of Earth\nscience. The average monthly temperatures for Eureka, California, and Omaha, Nebraska, are plotted on the\ngraph. The map indicates the locations of these two cities.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Identify the month with the greatest difference in the average temperature between these two cities.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the graph and map below and on your knowledge of Earth\nscience. The average monthly temperatures for Eureka, California, and Omaha, Nebraska, are plotted on the\ngraph. The map indicates the locations of these two cities.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Identify the surface ocean current that affects the climate of Eureka. Month Average Temperature ( C) D J F M A M J J A S O N D 28 24 20 16 12 8 4 0 \u2013 4 \u2013 8 Average Monthly Temperatures Omaha Eureka 0 500 1000 km Pacific Ocean Atlantic Ocean Gulf of Mexico \b \u0004 \u000e\u0006\u0007\u0006\u000f\u0006 \u0010\u0007 \u0011\b\u000f\u0012\u0002\u0011\u0006\u0011\b\u0013 Omaha 41 \u0012\u0014 41 \u0012\u0014 Eureka N",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the graph and map below and on your knowledge of Earth\nscience. The average monthly temperatures for Eureka, California, and Omaha, Nebraska, are plotted on the\ngraph. The map indicates the locations of these two cities.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "The cross section below represents the windward and leeward sides of a mountain range. Arrows show the movement of air over a mountain. Points X and Y represent locations on Earth\u2019s surface. Describe how the air\u2019s temperature and water vapor content at point X is different from the air\u2019s temperature and water vapor content at point Y. Windward Leeward X Y Clouds",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/q66.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "What is the elevation of location A?",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_67_71.png",
+      "context": "Base your answers to questions 67 through 71 on the topographic map below and on your knowledge of\nEarth science. Point A represents a location on Earth\u2019s surface. Lines BC and XY are reference lines on the map.\nPoints D, E, F, and G represent locations along Coe Creek. Elevations are shown in feet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a topographic profile of the land surface along the line from point B to point C. Plot the elevation of each contour line that crosses line BC. Connect all nine plots with a line to complete the profile.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_67_71.png",
+      "context": "Base your answers to questions 67 through 71 on the topographic map below and on your knowledge of\nEarth science. Point A represents a location on Earth\u2019s surface. Lines BC and XY are reference lines on the map.\nPoints D, E, F, and G represent locations along Coe Creek. Elevations are shown in feet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Describe the evidence shown on the map that indicates Coe Creek flows toward the northeast.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_67_71.png",
+      "context": "Base your answers to questions 67 through 71 on the topographic map below and on your knowledge of\nEarth science. Point A represents a location on Earth\u2019s surface. Lines BC and XY are reference lines on the map.\nPoints D, E, F, and G represent locations along Coe Creek. Elevations are shown in feet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Describe how the contour lines indicate that Coe Creek flows faster between locations D and E than between locations F and G.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_67_71.png",
+      "context": "Base your answers to questions 67 through 71 on the topographic map below and on your knowledge of\nEarth science. Point A represents a location on Earth\u2019s surface. Lines BC and XY are reference lines on the map.\nPoints D, E, F, and G represent locations along Coe Creek. Elevations are shown in feet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Calculate the gradient along line XY. Label your answer with the correct units. A 340 B Coe Creek Y X 0 1 2 3 miles Key Depression contour line Contour interval = 20 ft Calden Pond E F G C D 200 300 N P.S./",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_67_71.png",
+      "context": "Base your answers to questions 67 through 71 on the topographic map below and on your knowledge of\nEarth science. Point A represents a location on Earth\u2019s surface. Lines BC and XY are reference lines on the map.\nPoints D, E, F, and G represent locations along Coe Creek. Elevations are shown in feet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "On the map in your answer booklet, a line has been drawn to separate regions with Mercalli values of V from regions with Mercalli values of VI. Draw another line to separate regions with Mercalli values of VI from regions with Mercalli values of VII.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_72_76.png",
+      "context": "Base your answers to questions 72 through 76 on the modified Mercalli scale of earthquake intensity below,\non the map of Japan in your answer booklet, and on your knowledge of Earth science. The modified Mercalli\nscale classifies earthquake intensity based on observations made during an earthquake. The map indicates the\nmodified Mercalli scale intensity values recorded at several locations in Japan during the March 11, 2011 \nearthquake, which triggered destructive tsunamis in the Pacific Ocean.\nModified Mercalli Scale of Earthquake Intensity\nIntensity\nValue\nDescription of Effects\nI\nNot felt except by a very few under especially favorable \nconditions.\nII\nFelt only by a few persons at rest, especially on upper floors of\nbuildings.\nIII\nFelt quite noticeably by persons indoors, especially on upper\nfloors of buildings. Many people do not recognize it as an \nearthquake. Parked cars may rock slightly. Vibrations similar to\nthe passing of a truck.\nIV\nFelt indoors by many, outdoors by few during the day. At night,\nsome awakened. Dishes, windows, doors disturbed; walls make\ncracking sound. Sensation like heavy truck striking building.\nParked cars rocked noticeably.\nV\nFelt by nearly everyone; many awakened. Some dishes, windows\nbroken. Unstable objects overturned. Pendulum clocks may stop.\nVI\nFelt by all, many frightened. Some heavy furniture moved; a few\ninstances of fallen plaster. Damage slight.\nVII\nDamage minimal in buildings of good design and construction;\nslight to moderate in well-built ordinary structures; considerable\ndamage in poorly built or badly designed structures; some \nchimneys broken.\nVIII\nDamage slight in specially designed structures; considerable\ndamage with partial collapse in ordinary substantial buildings.\nDamage great in poorly built structures. Fall of chimneys, factory\nstacks, columns, monuments, walls. Heavy furniture overturned.\nIX\nDamage considerable in specially designed structures; \nwell-designed frame structures tilted. Damage great in substantial\nbuildings, with partial collapse. Buildings shifted off foundations.\nX\nMost masonry and frame structures and foundations are\ndestroyed. Train rails bent.\nXI\nFew, if any, structures remain standing. Bridges destroyed. \nTrain rails bent greatly.\nXII\nDamage total. Objects thrown into the air.\n\nP.S./E. Sci.\u2013June \u201915\n[25]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Your answer booklet lists some observations that might be made during an earthquake according to the modified Mercalli scale. In your answer booklet, place a check mark (\u221a) in the box if that observation most likely was recorded at Yamagata during the March 11, 2011 earthquake. More than one box may be checked.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_72_76.png",
+      "context": "Base your answers to questions 72 through 76 on the modified Mercalli scale of earthquake intensity below,\non the map of Japan in your answer booklet, and on your knowledge of Earth science. The modified Mercalli\nscale classifies earthquake intensity based on observations made during an earthquake. The map indicates the\nmodified Mercalli scale intensity values recorded at several locations in Japan during the March 11, 2011 \nearthquake, which triggered destructive tsunamis in the Pacific Ocean.\nModified Mercalli Scale of Earthquake Intensity\nIntensity\nValue\nDescription of Effects\nI\nNot felt except by a very few under especially favorable \nconditions.\nII\nFelt only by a few persons at rest, especially on upper floors of\nbuildings.\nIII\nFelt quite noticeably by persons indoors, especially on upper\nfloors of buildings. Many people do not recognize it as an \nearthquake. Parked cars may rock slightly. Vibrations similar to\nthe passing of a truck.\nIV\nFelt indoors by many, outdoors by few during the day. At night,\nsome awakened. Dishes, windows, doors disturbed; walls make\ncracking sound. Sensation like heavy truck striking building.\nParked cars rocked noticeably.\nV\nFelt by nearly everyone; many awakened. Some dishes, windows\nbroken. Unstable objects overturned. Pendulum clocks may stop.\nVI\nFelt by all, many frightened. Some heavy furniture moved; a few\ninstances of fallen plaster. Damage slight.\nVII\nDamage minimal in buildings of good design and construction;\nslight to moderate in well-built ordinary structures; considerable\ndamage in poorly built or badly designed structures; some \nchimneys broken.\nVIII\nDamage slight in specially designed structures; considerable\ndamage with partial collapse in ordinary substantial buildings.\nDamage great in poorly built structures. Fall of chimneys, factory\nstacks, columns, monuments, walls. Heavy furniture overturned.\nIX\nDamage considerable in specially designed structures; \nwell-designed frame structures tilted. Damage great in substantial\nbuildings, with partial collapse. Buildings shifted off foundations.\nX\nMost masonry and frame structures and foundations are\ndestroyed. Train rails bent.\nXI\nFew, if any, structures remain standing. Bridges destroyed. \nTrain rails bent greatly.\nXII\nDamage total. Objects thrown into the air.\n\nP.S./E. Sci.\u2013June \u201915\n[25]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "The epicenter of this earthquake was located at 38\u00b0 N 142\u00b0 E. Identify the type of tectonic plate boundary that is located nearest to the epicenter of this earthquake.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_72_76.png",
+      "context": "Base your answers to questions 72 through 76 on the modified Mercalli scale of earthquake intensity below,\non the map of Japan in your answer booklet, and on your knowledge of Earth science. The modified Mercalli\nscale classifies earthquake intensity based on observations made during an earthquake. The map indicates the\nmodified Mercalli scale intensity values recorded at several locations in Japan during the March 11, 2011 \nearthquake, which triggered destructive tsunamis in the Pacific Ocean.\nModified Mercalli Scale of Earthquake Intensity\nIntensity\nValue\nDescription of Effects\nI\nNot felt except by a very few under especially favorable \nconditions.\nII\nFelt only by a few persons at rest, especially on upper floors of\nbuildings.\nIII\nFelt quite noticeably by persons indoors, especially on upper\nfloors of buildings. Many people do not recognize it as an \nearthquake. Parked cars may rock slightly. Vibrations similar to\nthe passing of a truck.\nIV\nFelt indoors by many, outdoors by few during the day. At night,\nsome awakened. Dishes, windows, doors disturbed; walls make\ncracking sound. Sensation like heavy truck striking building.\nParked cars rocked noticeably.\nV\nFelt by nearly everyone; many awakened. Some dishes, windows\nbroken. Unstable objects overturned. Pendulum clocks may stop.\nVI\nFelt by all, many frightened. Some heavy furniture moved; a few\ninstances of fallen plaster. Damage slight.\nVII\nDamage minimal in buildings of good design and construction;\nslight to moderate in well-built ordinary structures; considerable\ndamage in poorly built or badly designed structures; some \nchimneys broken.\nVIII\nDamage slight in specially designed structures; considerable\ndamage with partial collapse in ordinary substantial buildings.\nDamage great in poorly built structures. Fall of chimneys, factory\nstacks, columns, monuments, walls. Heavy furniture overturned.\nIX\nDamage considerable in specially designed structures; \nwell-designed frame structures tilted. Damage great in substantial\nbuildings, with partial collapse. Buildings shifted off foundations.\nX\nMost masonry and frame structures and foundations are\ndestroyed. Train rails bent.\nXI\nFew, if any, structures remain standing. Bridges destroyed. \nTrain rails bent greatly.\nXII\nDamage total. Objects thrown into the air.\n\nP.S./E. Sci.\u2013June \u201915\n[25]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Describe one way the P-waves and S-waves recorded on seismograms at Ishinomaki and Nagano were used to indicate that Ishinomaki was closer to the earthquake epicenter than was Nagano.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_72_76.png",
+      "context": "Base your answers to questions 72 through 76 on the modified Mercalli scale of earthquake intensity below,\non the map of Japan in your answer booklet, and on your knowledge of Earth science. The modified Mercalli\nscale classifies earthquake intensity based on observations made during an earthquake. The map indicates the\nmodified Mercalli scale intensity values recorded at several locations in Japan during the March 11, 2011 \nearthquake, which triggered destructive tsunamis in the Pacific Ocean.\nModified Mercalli Scale of Earthquake Intensity\nIntensity\nValue\nDescription of Effects\nI\nNot felt except by a very few under especially favorable \nconditions.\nII\nFelt only by a few persons at rest, especially on upper floors of\nbuildings.\nIII\nFelt quite noticeably by persons indoors, especially on upper\nfloors of buildings. Many people do not recognize it as an \nearthquake. Parked cars may rock slightly. Vibrations similar to\nthe passing of a truck.\nIV\nFelt indoors by many, outdoors by few during the day. At night,\nsome awakened. Dishes, windows, doors disturbed; walls make\ncracking sound. Sensation like heavy truck striking building.\nParked cars rocked noticeably.\nV\nFelt by nearly everyone; many awakened. Some dishes, windows\nbroken. Unstable objects overturned. Pendulum clocks may stop.\nVI\nFelt by all, many frightened. Some heavy furniture moved; a few\ninstances of fallen plaster. Damage slight.\nVII\nDamage minimal in buildings of good design and construction;\nslight to moderate in well-built ordinary structures; considerable\ndamage in poorly built or badly designed structures; some \nchimneys broken.\nVIII\nDamage slight in specially designed structures; considerable\ndamage with partial collapse in ordinary substantial buildings.\nDamage great in poorly built structures. Fall of chimneys, factory\nstacks, columns, monuments, walls. Heavy furniture overturned.\nIX\nDamage considerable in specially designed structures; \nwell-designed frame structures tilted. Damage great in substantial\nbuildings, with partial collapse. Buildings shifted off foundations.\nX\nMost masonry and frame structures and foundations are\ndestroyed. Train rails bent.\nXI\nFew, if any, structures remain standing. Bridges destroyed. \nTrain rails bent greatly.\nXII\nDamage total. Objects thrown into the air.\n\nP.S./E. Sci.\u2013June \u201915\n[25]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "A 25-foot high tsunami hit the Japanese city of Ishinomaki. Describe a precaution the city could take now to protect citizens from tsunamis in future years.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_72_76.png",
+      "context": "Base your answers to questions 72 through 76 on the modified Mercalli scale of earthquake intensity below,\non the map of Japan in your answer booklet, and on your knowledge of Earth science. The modified Mercalli\nscale classifies earthquake intensity based on observations made during an earthquake. The map indicates the\nmodified Mercalli scale intensity values recorded at several locations in Japan during the March 11, 2011 \nearthquake, which triggered destructive tsunamis in the Pacific Ocean.\nModified Mercalli Scale of Earthquake Intensity\nIntensity\nValue\nDescription of Effects\nI\nNot felt except by a very few under especially favorable \nconditions.\nII\nFelt only by a few persons at rest, especially on upper floors of\nbuildings.\nIII\nFelt quite noticeably by persons indoors, especially on upper\nfloors of buildings. Many people do not recognize it as an \nearthquake. Parked cars may rock slightly. Vibrations similar to\nthe passing of a truck.\nIV\nFelt indoors by many, outdoors by few during the day. At night,\nsome awakened. Dishes, windows, doors disturbed; walls make\ncracking sound. Sensation like heavy truck striking building.\nParked cars rocked noticeably.\nV\nFelt by nearly everyone; many awakened. Some dishes, windows\nbroken. Unstable objects overturned. Pendulum clocks may stop.\nVI\nFelt by all, many frightened. Some heavy furniture moved; a few\ninstances of fallen plaster. Damage slight.\nVII\nDamage minimal in buildings of good design and construction;\nslight to moderate in well-built ordinary structures; considerable\ndamage in poorly built or badly designed structures; some \nchimneys broken.\nVIII\nDamage slight in specially designed structures; considerable\ndamage with partial collapse in ordinary substantial buildings.\nDamage great in poorly built structures. Fall of chimneys, factory\nstacks, columns, monuments, walls. Heavy furniture overturned.\nIX\nDamage considerable in specially designed structures; \nwell-designed frame structures tilted. Damage great in substantial\nbuildings, with partial collapse. Buildings shifted off foundations.\nX\nMost masonry and frame structures and foundations are\ndestroyed. Train rails bent.\nXI\nFew, if any, structures remain standing. Bridges destroyed. \nTrain rails bent greatly.\nXII\nDamage total. Objects thrown into the air.\n\nP.S./E. Sci.\u2013June \u201915\n[25]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "How many months after Earth\u2019s perihelion position does Earth\u2019s aphelion position occur?",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_77_78.png",
+      "context": "Base your answers to questions 77 and 78 on the diagram below, which represents an exaggerated model of\nthe shape of Earth\u2019s orbit, and on your knowledge of Earth science. The positions of Earth in its orbit on\nDecember 21 and June 21 are indicated. The positions of perihelion (when Earth is closest to the Sun) and\naphelion (when Earth is farthest from the Sun) are also indicated. Both perihelion and aphelion occur \napproximately two weeks after the dates shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Explain why warm summer temperatures occur in New York State when Earth is at aphelion. (Not drawn to scale) Sun Perihelion December 21 June 21 Aphelion N N N N",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_77_78.png",
+      "context": "Base your answers to questions 77 and 78 on the diagram below, which represents an exaggerated model of\nthe shape of Earth\u2019s orbit, and on your knowledge of Earth science. The positions of Earth in its orbit on\nDecember 21 and June 21 are indicated. The positions of perihelion (when Earth is closest to the Sun) and\naphelion (when Earth is farthest from the Sun) are also indicated. Both perihelion and aphelion occur \napproximately two weeks after the dates shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Complete the graph in your answer booklet by drawing a bar to represent the time span that each human species existed. The bars for the first four species listed have already been drawn.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the passage and chart below, and on your knowledge of\nEarth science. The chart identifies some human species and the times when they are believed to have existed.\nHuman Species\nModern humans, Homo sapiens, appear to have evolved through several species of\nearlier members of the genus Homo. Each of these human species possessed specific\nfeatures that made that species distinct. Many lived in (or at least have been discovered\nin) specific geographic areas, and existed for specific time ranges shown in the chart.\nIn many cases, fossil remains are partial, often consisting of only teeth and skulls.\nInterpretation of human evolution continues to change with new discoveries.\nHuman Species Distributed Through Time",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Which human species shown in the chart was the first to exist?",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the passage and chart below, and on your knowledge of\nEarth science. The chart identifies some human species and the times when they are believed to have existed.\nHuman Species\nModern humans, Homo sapiens, appear to have evolved through several species of\nearlier members of the genus Homo. Each of these human species possessed specific\nfeatures that made that species distinct. Many lived in (or at least have been discovered\nin) specific geographic areas, and existed for specific time ranges shown in the chart.\nIn many cases, fossil remains are partial, often consisting of only teeth and skulls.\nInterpretation of human evolution continues to change with new discoveries.\nHuman Species Distributed Through Time",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "One species of the genus Homo could have evolved directly from another species of the genus Homo only if the other species: \u2022 existed before the new species appeared \u2022 did not become extinct before the new species appeared Identify two species of the genus Homo from which Homo neanderthalensis may have directly evolved.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the passage and chart below, and on your knowledge of\nEarth science. The chart identifies some human species and the times when they are believed to have existed.\nHuman Species\nModern humans, Homo sapiens, appear to have evolved through several species of\nearlier members of the genus Homo. Each of these human species possessed specific\nfeatures that made that species distinct. Many lived in (or at least have been discovered\nin) specific geographic areas, and existed for specific time ranges shown in the chart.\nIn many cases, fossil remains are partial, often consisting of only teeth and skulls.\nInterpretation of human evolution continues to change with new discoveries.\nHuman Species Distributed Through Time",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "During which geologic epoch did the Homo mauritanicus species exist? Human Species Time of Existence from Fossil Evidence (million years ago) Homo sapiens 0.25 to the present Homo neanderthalensis 0.35 to 0.03 Homo rhodesiensis 0.6 to 0.1 Homo heidelbergensis 0.6 to 0.3 Homo mauritanicus 1.2 to 0.6 Homo erectus 1.5 to 0.2 Homo ergaster 1.8 to 1.25 Homo habilis 2.25 to 1.4",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the passage and chart below, and on your knowledge of\nEarth science. The chart identifies some human species and the times when they are believed to have existed.\nHuman Species\nModern humans, Homo sapiens, appear to have evolved through several species of\nearlier members of the genus Homo. Each of these human species possessed specific\nfeatures that made that species distinct. Many lived in (or at least have been discovered\nin) specific geographic areas, and existed for specific time ranges shown in the chart.\nIn many cases, fossil remains are partial, often consisting of only teeth and skulls.\nInterpretation of human evolution continues to change with new discoveries.\nHuman Species Distributed Through Time",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Determine the length of time between the two high tides shown for May 13.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the diagrams and tables below and on your knowledge of\nEarth science. Each diagram represents the Moon\u2019s orbital position and each table lists times of high and low\ntides and tide heights, in meters, at New York City for the date shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, shade the portion of the Moon that is in darkness to observers in New York City on May 13.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the diagrams and tables below and on your knowledge of\nEarth science. Each diagram represents the Moon\u2019s orbital position and each table lists times of high and low\ntides and tide heights, in meters, at New York City for the date shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, place an X on the Moon\u2019s orbit to represent the location of the Moon on May 28. Tide Time Height (m) low 1:22 a.m. 0.06 high 7:50 a.m. 2.47 low 2:10 p.m. 0.09 high 8:10 p.m. 2.21 Earth May 20 (Not drawn to scale) Moon\u2019s Orbital Position and Tide Data on May 20 Moon Earth\u2019s orbit Moon\u2019s orbit Earth\u2019s orbit Sun Tide Time Height (m) high 12:59 a.m. 1.92 low 7:15 a.m. 0.37 high 1:32 p.m. 2.07 low 7:59 p.m. 0.27 Moon\u2019s Orbital Position and Tide Data on May 13 (Not drawn to scale) Earth\u2019s orbit Sun Moon Earth May 13 Moon\u2019s orbit P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2015/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the diagrams and tables below and on your knowledge of\nEarth science. Each diagram represents the Moon\u2019s orbital position and each table lists times of high and low\ntides and tide heights, in meters, at New York City for the date shown.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

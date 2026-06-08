@@ -1,0 +1,1056 @@
+{
+  "subject": "earth-science",
+  "session": "august-2015",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which characteristics best describe the star Betelgeuse?",
+      "choices": [
+        "reddish orange with low luminosity and high surface temperature",
+        "reddish orange with high luminosity and low surface temperature",
+        "blue white with low luminosity and low surface temperature",
+        "blue white with high luminosity and high surface temperature"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which motion occurs at a rate of approximately one degree per day?",
+      "choices": [
+        "the Moon revolving around Earth",
+        "the Moon rotating on its axis",
+        "Earth revolving around the Sun",
+        "Earth rotating on its axis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "If the tilt of Earth\u2019s axis were increased from 23.5\u00b0 to 30\u00b0, summers in New York State would become",
+      "choices": [
+        "cooler, and winters would become cooler",
+        "cooler, and winters would become warmer",
+        "warmer, and winters would become cooler",
+        "warmer, and winters would become warmer"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which object in space emits light because it releases energy produced by nuclear fusion?",
+      "choices": [
+        "Earth\u2019s Moon",
+        "Halley\u2019s comet",
+        "Venus",
+        "Polaris"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Since Denver\u2019s longitude is 105\u00b0 W and Utica\u2019s longitude is 75\u00b0 W, sunrise in Denver occurs",
+      "choices": [
+        "2 hours earlier",
+        "2 hours later",
+        "3 hours earlier",
+        "3 hours later"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A major piece of evidence supporting the Big Bang theory is the observation that wavelengths of light from stars in distant galaxies show a",
+      "choices": [
+        "redshift, appearing to be shorter",
+        "redshift, appearing to be longer",
+        "blueshift, appearing to be shorter",
+        "blueshift, appearing to be longer"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "During the month of January, at which location in New York State is the Sun lowest in the sky at solar noon?",
+      "choices": [
+        "Massena",
+        "Niagara Falls",
+        "Utica",
+        "New York City"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which process releases 2260 joules of heat energy per gram of water into the environment?",
+      "choices": [
+        "melting",
+        "freezing",
+        "condensation",
+        "evaporation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "When snow cover on the land melts, the water will most likely become surface runoff if the land surface is",
+      "choices": [
+        "frozen",
+        "porous",
+        "grass covered",
+        "unconsolidated gravel"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which area is the most common source region for cold, dry air masses that move over New York State?",
+      "choices": [
+        "North Atlantic Ocean",
+        "Gulf of Mexico",
+        "central Canada",
+        "central Mexico"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The map below shows a portion of the Hudson River and three tributaries: Catskill Creek, Fishkill Creek, and Wallkill River. The greatest discharge of the Hudson River is generally observed near",
+      "choices": [
+        "Albany",
+        "Kingston",
+        "Poughkeepsie",
+        "Ossining"
+      ],
+      "image": "/images/exams/earth-science/august-2015/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "written",
+      "text": "Which station model represents a location that has the greatest chance of precipitation?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The Adirondacks are classified as mountains because of the high elevation and bedrock that consists mainly of",
+      "choices": [
+        "deformed and intensely metamorphosed rocks",
+        "glacial deposits of unconsolidated gravels, sands, and clays",
+        "Cambrian and Ordovician quartzites and marbles",
+        "horizontal sedimentary rocks of marine origin"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "In which landscape region are New York State\u2019s Finger Lakes primarily located?",
+      "choices": [
+        "Adirondack Mountains",
+        "Allegheny Plateau",
+        "Atlantic Coastal Plain",
+        "Erie-Ontario Lowlands"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "What is the range of pressure in Earth\u2019s interior where rock with a density range of 9.9 to 12.2 g/cm3 is found?",
+      "choices": [
+        "0.2 to 1.4 million atmospheres",
+        "0.8 to 2.3 million atmospheres",
+        "1.4 to 3.1 million atmospheres",
+        "2.3 to 3.5 million atmospheres 82 101 81 76 163 66 30 191 23 65 123 60 ( 1 ) ( 3 ) ( 2 ) ( 4 ) W al l k ill Ri v er Kingston Fi sh k i ll C r e e k Albany C a t s k i ll C re e k H u d s o n R i v e r New York City Poughkeepsie Ossining"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Earth\u2019s magnetic field has reversed itself several times during the past. This pattern of magnetic reversal is best preserved in",
+      "choices": [
+        "metamorphic bedrock in mountain ranges",
+        "bedrock with fossils containing radioactive carbon-14",
+        "layers of sedimentary bedrock of the Grand Canyon",
+        "igneous bedrock of the oceanic crust"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which two features are commonly found at divergent plate boundaries?",
+      "choices": [
+        "mid-ocean ridges and rift valleys",
+        "wide valleys and deltas",
+        "ocean trenches and subduction zones",
+        "hot spots and island arcs"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "New York State bedrock of which age contains salt, gypsum, and hematite?",
+      "choices": [
+        "Cambrian",
+        "Devonian",
+        "Mississippian",
+        "Silurian"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Scientists infer that oxygen in Earth\u2019s atmos- phere did not exist in large quantities until after",
+      "choices": [
+        "the first multicellular, soft-bodied marine organisms appeared on Earth",
+        "the initial opening of the Atlantic Ocean",
+        "the first sexually reproducing organisms appeared on Earth",
+        "photosynthetic cyanobacteria evolved in Earth\u2019s oceans"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which organisms were alive when New York State was last covered by a continental ice sheet?",
+      "choices": [
+        "Eurypterus and Cooksonia",
+        "Aneurophyton and Naples Tree",
+        "mastodont and Beluga whale",
+        "Coelophysis and Elliptocephala"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "One difference between a breccia rock and a conglomerate rock is that the particles in a breccia rock are",
+      "choices": [
+        "more aligned",
+        "more angular",
+        "harder",
+        "land derived"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The photograph below shows rock layers separated by unconformity XY. Which sequence of events most likely produced this unconformity?",
+      "choices": [
+        "uplift and erosion of bedrock, followed by subsidence and more deposition",
+        "intrusion of magma into preexisting rock, causing contact metamorphism",
+        "eruption of a volcano, spreading lava over horizontal sedimentary rock layers",
+        "separation of one rock layer, by movement along a plate boundary"
+      ],
+      "image": "/images/exams/earth-science/august-2015/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The igneous rock gabbro most likely formed from molten material that cooled",
+      "choices": [
+        "rapidly at Earth\u2019s surface",
+        "slowly at Earth\u2019s surface",
+        "rapidly, deep underground",
+        "slowly, deep underground"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which statement best supports the inference that most of Earth\u2019s present-day land surfaces have, at one time, been covered by water?",
+      "choices": [
+        "Volcanic eruptions contain large amounts of water vapor.",
+        "Coral reefs formed, in the past, along the edges of many continents.",
+        "Seafloor spreading has pulled landmasses apart and pushed them together.",
+        "Sedimentary bedrock of marine origin covers large areas of Earth\u2019s continents. X Y"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Which diagram best represents the correct orientation of the North Pole [NP] as Earth revolves around the Sun? [Diagrams are not drawn to scale.]",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Which diagram best represents how greenhouse gases in our atmosphere trap heat energy? (Not drawn to scale) Earth ( 1 ) Earth A t m o s p h e r e ( 2 ) Earth A t m o s p h e r e ( 3 ) Earth A t m o s p h e r e ( 4 ) Earth A t m o s p h e r e Key Visible light radiation Infrared radiation Absorbed energy Sun NP NP ( 1 ) Sun NP NP NP ( 2 ) Sun NP NP NP NP ( 3 ) Sun NP NP ( 4 ) NP NP NP NP NP",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "The symbols below represent two planets. Which combination of planet masses and distances produces the greatest gravitational force between the planets?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the circulation of air above Earth\u2019s surface at a coastal location during the day and at night. This local air movement is best described as an example of",
+      "choices": [
+        "conduction between Earth\u2019s surface and the atmosphere above it",
+        "condensation of water vapor during the day, and evaporation of water during the night",
+        "convection resulting from temperature and pressure differences above land and water",
+        "greater radiation from the warmer ocean during the day and from the warmer land at night Water Day Land Water Night Land 9 represents a planet with a mass 9 times Earth\u2019s mass. represents a planet with a mass 5 times Earth\u2019s mass. 5 9 9 9 ( 1 ) ( 4 ) ( 3 ) 200 106 km \u00d7 100 106 km \u00d7 ( 2 ) 200 106 km \u00d7 100 106 km \u00d7 5 5 5 5 9"
+      ],
+      "image": "/images/exams/earth-science/august-2015/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "A change in the type and location of large high-pressure systems (H) and large low-pressure systems (L) over Asia creates shifts in prevailing winds that cause a rainy summer season and a dry winter season in southern Asia. Which set of maps below best represents the type and location of pressure systems and the wind pattern around these pressure systems that cause these seasonal changes? Winter Summer Winter Summer Winter Summer Winter Summer ( 3 ) ( 1 ) ( 2 ) ( 4 ) H L H L L H H L",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The photograph below shows both erosional and depositional features formed by an agent of erosion. Which agent of erosion produced the features shown in the photograph?",
+      "choices": [
+        "running water",
+        "glacial ice",
+        "ocean waves",
+        "prevailing wind"
+      ],
+      "image": "/images/exams/earth-science/august-2015/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Which cross section best represents the pattern of sediments deposited on the bottom of a lake as the velocity of the stream entering the lake steadily decreased?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Which graph best shows the relationship between the compositions of different igneous rocks and their densities? ( 3 ) Density Felsic Mafic Composition ( 2 ) Density Felsic Mafic Composition Density ( 4 ) Felsic Mafic Composition Density ( 1 ) Felsic Mafic Composition ( 1 ) ( 3 ) ( 2 ) Top Bottom ( 4 ) Bottom Top Top Bottom Bottom Top",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The geologic cross section below shows rock layers that have not been overturned. The fault is older than the",
+      "choices": [
+        "slate",
+        "marble",
+        "unconformity",
+        "shale"
+      ],
+      "image": "/images/exams/earth-science/august-2015/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The pie graph below represents the composition, in percent by mass, of the chemical elements found in an Earth layer. The composition of which Earth layer is represented by the pie graph?",
+      "choices": [
+        "crust",
+        "outer core",
+        "troposphere",
+        "hydrosphere"
+      ],
+      "image": "/images/exams/earth-science/august-2015/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The diagram below indicates physical changes that accompany the conversion of shale to gneiss. Which geologic process is occurring to cause this conversion?",
+      "choices": [
+        "sedimentary layering",
+        "intrusion of magma",
+        "metamorphism",
+        "weathering Obvious foliation Schist Banding Gneiss Clastic texture Shale Slaty cleavage Slate Magnesium 2.3% Oxygen 46.1% Silicon 28.2% Iron 5.6% Calcium 4.2% Potassium 2.1% All others 0.9% Sodium 2.4% Aluminum 8.2% Unconformity Fault"
+      ],
+      "image": "/images/exams/earth-science/august-2015/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Water was added to each tube to just cover the sediments and the volumes of water added were recorded. These data can best be used to determine the",
+      "choices": [
+        "particle size of the sediments",
+        "particle shape of the sediments",
+        "water retention of the sediments",
+        "porosity of the sediments"
+      ],
+      "image": "/images/exams/earth-science/august-2015/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the diagram below and on your knowledge of Earth science.\nThe diagram represents four tubes, labeled A, B, C, and D, each containing 150 mL of sediments. Tubes A, B,\nand C contain well-sorted, closely packed sediments of uniform shape and size. Tube D contains uniformly\nshaped, closely packed sediments of mixed sizes. The particle size of the sediment in each tube is labeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "If tubes A, B, and C were set up to test for capillarity, the data would show that capillarity is",
+      "choices": [
+        "greatest in tube A",
+        "greatest in tube B",
+        "greatest in tube C",
+        "the same for tubes A, B, and C 0.005 cm A (Not drawn to scale) B 0.1 cm D 0.005\u20130.3 cm C 0.3 cm"
+      ],
+      "image": "/images/exams/earth-science/august-2015/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the diagram below and on your knowledge of Earth science.\nThe diagram represents four tubes, labeled A, B, C, and D, each containing 150 mL of sediments. Tubes A, B,\nand C contain well-sorted, closely packed sediments of uniform shape and size. Tube D contains uniformly\nshaped, closely packed sediments of mixed sizes. The particle size of the sediment in each tube is labeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Seismic station A is 5000 kilometers from the epicenter. What is the difference between the arrival time of the first P-wave and the arrival time of the first S-wave recorded at this station?",
+      "choices": [
+        "2 minutes 20 seconds",
+        "6 minutes 40 seconds",
+        "8 minutes 20 seconds",
+        "15 minutes 00 second"
+      ],
+      "image": "/images/exams/earth-science/august-2015/context_38_40.png",
+      "context": "Base your answers to questions 38 through 40 on the diagram below and on your knowledge of Earth \nscience. The diagram represents a cut-away view of Earth\u2019s interior and the paths of some of the seismic waves\nproduced by an earthquake that originated below Earth\u2019s surface. Points A, B, and C represent seismic stations\non Earth\u2019s surface. Point D represents a location at the boundary between the core and the mantle.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which process prevented P-waves from arriving at seismic station B?",
+      "choices": [
+        "refraction",
+        "reflection",
+        "convection",
+        "conduction"
+      ],
+      "image": "/images/exams/earth-science/august-2015/context_38_40.png",
+      "context": "Base your answers to questions 38 through 40 on the diagram below and on your knowledge of Earth \nscience. The diagram represents a cut-away view of Earth\u2019s interior and the paths of some of the seismic waves\nproduced by an earthquake that originated below Earth\u2019s surface. Points A, B, and C represent seismic stations\non Earth\u2019s surface. Point D represents a location at the boundary between the core and the mantle.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Only P-waves were recorded at seismic station C because P-waves travel",
+      "choices": [
+        "only through Earth\u2019s interior, and S-waves travel only on Earth\u2019s surface",
+        "fast enough to penetrate the core, and S-waves travel too slowly",
+        "through iron and nickel, while S-waves cannot",
+        "through liquids, while S-waves cannot P- and S-waves received at seismic stations No waves received Only P-waves received Crust A B C Epicenter Mantle Core Key P-waves S-waves D"
+      ],
+      "image": "/images/exams/earth-science/august-2015/context_38_40.png",
+      "context": "Base your answers to questions 38 through 40 on the diagram below and on your knowledge of Earth \nscience. The diagram represents a cut-away view of Earth\u2019s interior and the paths of some of the seismic waves\nproduced by an earthquake that originated below Earth\u2019s surface. Points A, B, and C represent seismic stations\non Earth\u2019s surface. Point D represents a location at the boundary between the core and the mantle.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "As viewed in sequence from A to B to C, these diagrams represent which months and which change in the intensity of insolation?",
+      "choices": [
+        "December \u2192March \u2192June; and decreasing intensity",
+        "December \u2192March \u2192June; and increasing intensity",
+        "June \u2192September \u2192December; and decreasing intensity",
+        "June \u2192September \u2192December; and increasing intensity"
+      ],
+      "image": "/images/exams/earth-science/august-2015/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the diagrams below and on your knowledge of Earth \nscience. The diagrams, labeled A, B, and C, represent equal-sized portions of the Sun\u2019s rays striking Earth\u2019s \nsurface at 23.5\u00b0 N latitude at noon at three different times of the year. The angle at which the Sun\u2019s rays hit\nEarth\u2019s surface and the relative areas of Earth\u2019s surface receiving the rays at the three different angles of \ninsolation are shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "As the angle of the Sun\u2019s rays striking Earth\u2019s surface at noon changes from 90\u00b0 to 43\u00b0, the length of a shadow cast by an object will",
+      "choices": [
+        "decrease",
+        "increase",
+        "decrease, then increase",
+        "increase, then decrease"
+      ],
+      "image": "/images/exams/earth-science/august-2015/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the diagrams below and on your knowledge of Earth \nscience. The diagrams, labeled A, B, and C, represent equal-sized portions of the Sun\u2019s rays striking Earth\u2019s \nsurface at 23.5\u00b0 N latitude at noon at three different times of the year. The angle at which the Sun\u2019s rays hit\nEarth\u2019s surface and the relative areas of Earth\u2019s surface receiving the rays at the three different angles of \ninsolation are shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "written",
+      "text": "Which graph best shows the duration of insolation at this location as the angle of insolation changes? Duration Angle (\u00b0) ( 1 ) Angle (\u00b0) ( 2 ) Angle (\u00b0) ( 3 ) Angle (\u00b0) ( 4 ) 90 66.5 43 Duration Duration Duration 90 66.5 43 90 66.5 43 90 66.5 43 A B C 90\u00b0 66.5\u00b0 43\u00b0 Sun\u2019s rays Sun\u2019s rays Sun\u2019s rays Earth\u2019s surface",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the diagrams below and on your knowledge of Earth \nscience. The diagrams, labeled A, B, and C, represent equal-sized portions of the Sun\u2019s rays striking Earth\u2019s \nsurface at 23.5\u00b0 N latitude at noon at three different times of the year. The angle at which the Sun\u2019s rays hit\nEarth\u2019s surface and the relative areas of Earth\u2019s surface receiving the rays at the three different angles of \ninsolation are shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Approximately how many days (d) does it take for the Moon to move from the phase shown at position A to the full-Moon phase?",
+      "choices": [
+        "7.4 d",
+        "14.7 d",
+        "27.3 d",
+        "29.5 d"
+      ],
+      "image": "/images/exams/earth-science/august-2015/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the Moon at four positions, labeled A, B, C, and D, in its orbit around Earth.\nThe position of the full-Moon phase is labeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Which phase of the Moon could be observed from New York State when the Moon is at position C?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the Moon at four positions, labeled A, B, C, and D, in its orbit around Earth.\nThe position of the full-Moon phase is labeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "The same side of the Moon always faces Earth because the Moon\u2019s period of revolution",
+      "choices": [
+        "is longer than the Moon\u2019s period of rotation",
+        "equals the Moon\u2019s period of rotation",
+        "is longer than Earth\u2019s period of rotation",
+        "equals Earth\u2019s period of rotation"
+      ],
+      "image": "/images/exams/earth-science/august-2015/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the Moon at four positions, labeled A, B, C, and D, in its orbit around Earth.\nThe position of the full-Moon phase is labeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Solar and lunar eclipses rarely happen during a cycle of phases because the",
+      "choices": [
+        "Moon\u2019s orbit is circular and Earth\u2019s orbit is elliptical",
+        "Moon\u2019s orbit is elliptical and Earth\u2019s orbit is elliptical",
+        "plane of the Moon\u2019s orbit is different from the plane of Earth\u2019s orbit",
+        "plane of the Moon\u2019s orbit is the same as the plane of Earth\u2019s orbit ( 1 ) ( 2 ) ( 3 ) ( 4 ) Sun\u2019s rays (Not drawn to scale) North Pole B C D A Key Lighted side Dark side Full Moon"
+      ],
+      "image": "/images/exams/earth-science/august-2015/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the Moon at four positions, labeled A, B, C, and D, in its orbit around Earth.\nThe position of the full-Moon phase is labeled.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The Outer Banks were formed primarily from sediments eroded and deposited by ocean waves. Which type of landform are the Outer Banks?",
+      "choices": [
+        "outwash plains",
+        "moraine deposits",
+        "river deltas",
+        "barrier islands"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 48 through 50 on the maps and data table below and on your knowledge of\nEarth science. Map I shows the Outer Banks and part of North Carolina along the southeastern coast of the\nUnited States. Maps II and III show enlargements of the Avon-Buxton section of the Outer Banks indicated by\nbox X on map I. Map II shows the land and shoreline in 1852. Map III shows the land and shoreline in 1998.\nThe dotted line on map III shows the location of the 1852 shoreline. The data table shows the average width,\nin meters, at various years, of the Avon-Buxton section.\nAvon-Buxton Section Width from 1852 to 1998\nYear\nAverage Width\n(m)\n1852\n813\n1917\n547\n1940\n426\n1962\n284\n1974\n284\n1998\n219\nCore\nBanks\nBuxton\nX\nAvon\nAtlantic\nOcean\nPamlico\nSound\nOuter\nBanks\nNorth\nCarolina\nNorth\nCarolina\nN\n1852 shoreline\nKey\nN\nMap \u0002\u0002\nMap \u0002\u0002\u0002\nAvon-Buxton Section of Outer Banks\nAvon-Buxton\n1852\nAvon-Buxton\n1998\nPamlico\nSound\nPamlico\nSound\nOcean\nOcean\nMap \u0002\nP.S./E. Sci.\u2013Aug. \u201915\n[14]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "written",
+      "text": "Which bar graph best shows the average width of the Avon-Buxton section of the Outer Banks from 1852 to 1998?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/q49.png",
+      "context": "Base your answers to questions 48 through 50 on the maps and data table below and on your knowledge of\nEarth science. Map I shows the Outer Banks and part of North Carolina along the southeastern coast of the\nUnited States. Maps II and III show enlargements of the Avon-Buxton section of the Outer Banks indicated by\nbox X on map I. Map II shows the land and shoreline in 1852. Map III shows the land and shoreline in 1998.\nThe dotted line on map III shows the location of the 1852 shoreline. The data table shows the average width,\nin meters, at various years, of the Avon-Buxton section.\nAvon-Buxton Section Width from 1852 to 1998\nYear\nAverage Width\n(m)\n1852\n813\n1917\n547\n1940\n426\n1962\n284\n1974\n284\n1998\n219\nCore\nBanks\nBuxton\nX\nAvon\nAtlantic\nOcean\nPamlico\nSound\nOuter\nBanks\nNorth\nCarolina\nNorth\nCarolina\nN\n1852 shoreline\nKey\nN\nMap \u0002\u0002\nMap \u0002\u0002\u0002\nAvon-Buxton Section of Outer Banks\nAvon-Buxton\n1852\nAvon-Buxton\n1998\nPamlico\nSound\nPamlico\nSound\nOcean\nOcean\nMap \u0002\nP.S./E. Sci.\u2013Aug. \u201915\n[14]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which ocean current has the greatest warming influence on the climate of the Outer Banks of North Carolina?",
+      "choices": [
+        "Gulf Stream Current",
+        "North Atlantic Current",
+        "Labrador Current",
+        "Canary Current 0 100 200 300 400 500 600 700 800 900 Section Width (m) Year 1852 1917 1940 1962 1974 1998 0 100 200 300 400 500 600 700 800 900 Section Width (m) Year 1852 1917 1940 1962 1974 1998 0 100 200 300 400 500 600 700 800 900 Section Width (m) Year 1852 1917 1940 1962 1974 1998 0 100 200 300 400 500 600 700 800 900 Section Width (m) Year 1852 1917 1940 1962 1974 1998 ( 1 ) ( 3 ) ( 2 ) ( 4 )"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 48 through 50 on the maps and data table below and on your knowledge of\nEarth science. Map I shows the Outer Banks and part of North Carolina along the southeastern coast of the\nUnited States. Maps II and III show enlargements of the Avon-Buxton section of the Outer Banks indicated by\nbox X on map I. Map II shows the land and shoreline in 1852. Map III shows the land and shoreline in 1998.\nThe dotted line on map III shows the location of the 1852 shoreline. The data table shows the average width,\nin meters, at various years, of the Avon-Buxton section.\nAvon-Buxton Section Width from 1852 to 1998\nYear\nAverage Width\n(m)\n1852\n813\n1917\n547\n1940\n426\n1962\n284\n1974\n284\n1998\n219\nCore\nBanks\nBuxton\nX\nAvon\nAtlantic\nOcean\nPamlico\nSound\nOuter\nBanks\nNorth\nCarolina\nNorth\nCarolina\nN\n1852 shoreline\nKey\nN\nMap \u0002\u0002\nMap \u0002\u0002\u0002\nAvon-Buxton Section of Outer Banks\nAvon-Buxton\n1852\nAvon-Buxton\n1998\nPamlico\nSound\nPamlico\nSound\nOcean\nOcean\nMap \u0002\nP.S./E. Sci.\u2013Aug. \u201915\n[14]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "The passage states, \u201cThe cooler lake waters suppress cloud development\u2026\u201d because the water cools the air above its surface. Explain why this cool air above the lake surface reduces the amount of cloud development.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the passage and the graph below and on your knowledge\nof Earth science.\nGreat Lake Effects\nThe Great Lakes influence the weather and climate of nearby land regions at all\ntimes of the year. Much of this lake effect is determined by the relative temperatures\nof surface lake water compared to the surface air temperatures over those land areas.\nThe graph below shows the average monthly temperature of the surface water of \nLake Erie and the surface air temperature at Buffalo, New York.\nIn an average year, four lake-effect seasons are experienced. When surface lake\ntemperatures are colder than surface air temperatures, a stable season occurs. \nThe cooler lake waters suppress cloud development and reduce the strength of \nrainstorms. As a result, late spring and early summer in the Buffalo region tends to be\nvery sunny.\nA season of lake-effect rains follows. August is usually a time of heavy nighttime\nrains, and much of the rainy season is marked by heavy, localized rainstorms downwind\nfrom the lake. Gradually, during late October, lake-effect rains are replaced by snows.\nGenerally, the longer the time the wind travels over the lake, the heavier the lake effect\nbecomes in Buffalo.\nFinally, conditions stabilize again, as the relatively shallow Lake Erie freezes over,\nusually near the end of January. Very few lake-effect storms occur during this time \nperiod.\n80\n70\n60\n50\n40\n30\n20\n80\n70\n60\n50\n40\n30\n20\nJ\nF\nM\nA\nM\nJ\nJ\nA\nS\nO\nN\nD\nLake-\neffect\nsnow\nLake-effect\nstable\n season\nFrozen\nlake\nMonth\nTemperature (\u0002F)\nTemperature (\u0002F)\nAverage Monthly Temperatures\nSource: www.erh.noaa.gov (adapted)\nLake-\neffect\nrain\nS\nu\nr\nf\na\nc\ne\nwater of\nLake E\nrie\nSurface air at Buffalo\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\nP.S./E. Sci.\u2013Aug. \u201915\n[16]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify one weather variable that determines whether Buffalo receives rain or snow from a lake-effect storm in October.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the passage and the graph below and on your knowledge\nof Earth science.\nGreat Lake Effects\nThe Great Lakes influence the weather and climate of nearby land regions at all\ntimes of the year. Much of this lake effect is determined by the relative temperatures\nof surface lake water compared to the surface air temperatures over those land areas.\nThe graph below shows the average monthly temperature of the surface water of \nLake Erie and the surface air temperature at Buffalo, New York.\nIn an average year, four lake-effect seasons are experienced. When surface lake\ntemperatures are colder than surface air temperatures, a stable season occurs. \nThe cooler lake waters suppress cloud development and reduce the strength of \nrainstorms. As a result, late spring and early summer in the Buffalo region tends to be\nvery sunny.\nA season of lake-effect rains follows. August is usually a time of heavy nighttime\nrains, and much of the rainy season is marked by heavy, localized rainstorms downwind\nfrom the lake. Gradually, during late October, lake-effect rains are replaced by snows.\nGenerally, the longer the time the wind travels over the lake, the heavier the lake effect\nbecomes in Buffalo.\nFinally, conditions stabilize again, as the relatively shallow Lake Erie freezes over,\nusually near the end of January. Very few lake-effect storms occur during this time \nperiod.\n80\n70\n60\n50\n40\n30\n20\n80\n70\n60\n50\n40\n30\n20\nJ\nF\nM\nA\nM\nJ\nJ\nA\nS\nO\nN\nD\nLake-\neffect\nsnow\nLake-effect\nstable\n season\nFrozen\nlake\nMonth\nTemperature (\u0002F)\nTemperature (\u0002F)\nAverage Monthly Temperatures\nSource: www.erh.noaa.gov (adapted)\nLake-\neffect\nrain\nS\nu\nr\nf\na\nc\ne\nwater of\nLake E\nrie\nSurface air at Buffalo\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\nP.S./E. Sci.\u2013Aug. \u201915\n[16]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw one straight arrow in Lake Erie to show the winter wind direction most likely to bring the heaviest lake-effect snows to Buffalo.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the passage and the graph below and on your knowledge\nof Earth science.\nGreat Lake Effects\nThe Great Lakes influence the weather and climate of nearby land regions at all\ntimes of the year. Much of this lake effect is determined by the relative temperatures\nof surface lake water compared to the surface air temperatures over those land areas.\nThe graph below shows the average monthly temperature of the surface water of \nLake Erie and the surface air temperature at Buffalo, New York.\nIn an average year, four lake-effect seasons are experienced. When surface lake\ntemperatures are colder than surface air temperatures, a stable season occurs. \nThe cooler lake waters suppress cloud development and reduce the strength of \nrainstorms. As a result, late spring and early summer in the Buffalo region tends to be\nvery sunny.\nA season of lake-effect rains follows. August is usually a time of heavy nighttime\nrains, and much of the rainy season is marked by heavy, localized rainstorms downwind\nfrom the lake. Gradually, during late October, lake-effect rains are replaced by snows.\nGenerally, the longer the time the wind travels over the lake, the heavier the lake effect\nbecomes in Buffalo.\nFinally, conditions stabilize again, as the relatively shallow Lake Erie freezes over,\nusually near the end of January. Very few lake-effect storms occur during this time \nperiod.\n80\n70\n60\n50\n40\n30\n20\n80\n70\n60\n50\n40\n30\n20\nJ\nF\nM\nA\nM\nJ\nJ\nA\nS\nO\nN\nD\nLake-\neffect\nsnow\nLake-effect\nstable\n season\nFrozen\nlake\nMonth\nTemperature (\u0002F)\nTemperature (\u0002F)\nAverage Monthly Temperatures\nSource: www.erh.noaa.gov (adapted)\nLake-\neffect\nrain\nS\nu\nr\nf\na\nc\ne\nwater of\nLake E\nrie\nSurface air at Buffalo\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\nP.S./E. Sci.\u2013Aug. \u201915\n[16]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Explain why the Buffalo surface air temperatures increase faster and earlier in the year than do the surface water temperatures of Lake Erie.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the passage and the graph below and on your knowledge\nof Earth science.\nGreat Lake Effects\nThe Great Lakes influence the weather and climate of nearby land regions at all\ntimes of the year. Much of this lake effect is determined by the relative temperatures\nof surface lake water compared to the surface air temperatures over those land areas.\nThe graph below shows the average monthly temperature of the surface water of \nLake Erie and the surface air temperature at Buffalo, New York.\nIn an average year, four lake-effect seasons are experienced. When surface lake\ntemperatures are colder than surface air temperatures, a stable season occurs. \nThe cooler lake waters suppress cloud development and reduce the strength of \nrainstorms. As a result, late spring and early summer in the Buffalo region tends to be\nvery sunny.\nA season of lake-effect rains follows. August is usually a time of heavy nighttime\nrains, and much of the rainy season is marked by heavy, localized rainstorms downwind\nfrom the lake. Gradually, during late October, lake-effect rains are replaced by snows.\nGenerally, the longer the time the wind travels over the lake, the heavier the lake effect\nbecomes in Buffalo.\nFinally, conditions stabilize again, as the relatively shallow Lake Erie freezes over,\nusually near the end of January. Very few lake-effect storms occur during this time \nperiod.\n80\n70\n60\n50\n40\n30\n20\n80\n70\n60\n50\n40\n30\n20\nJ\nF\nM\nA\nM\nJ\nJ\nA\nS\nO\nN\nD\nLake-\neffect\nsnow\nLake-effect\nstable\n season\nFrozen\nlake\nMonth\nTemperature (\u0002F)\nTemperature (\u0002F)\nAverage Monthly Temperatures\nSource: www.erh.noaa.gov (adapted)\nLake-\neffect\nrain\nS\nu\nr\nf\na\nc\ne\nwater of\nLake E\nrie\nSurface air at Buffalo\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\nP.S./E. Sci.\u2013Aug. \u201915\n[16]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "In your answer booklet, place an X on the graph to indicate where Neptune would be plotted, based on its mean distance from the Sun and its equatorial diameter.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 58 on the graph in your answer booklet and on your knowledge\nof Earth science. The graph shows planet equatorial diameters and planet mean distances from the Sun.\nNeptune is not shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "The diagram in your answer booklet represents Earth drawn to a scale of 1 cm = 2000 km. Centimeter markings along the equatorial diameter of Earth are also shown on the diagram. On the diagram in your answer booklet, shade in the space between the centimeter markings to represent the equatorial diameter of Earth\u2019s Moon at this same scale.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 58 on the graph in your answer booklet and on your knowledge\nof Earth science. The graph shows planet equatorial diameters and planet mean distances from the Sun.\nNeptune is not shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Compared to the periods of revolution and periods of rotation of the terrestrial planets, how are the periods of revolution and periods of rotation for the Jovian planets different?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 58 on the graph in your answer booklet and on your knowledge\nof Earth science. The graph shows planet equatorial diameters and planet mean distances from the Sun.\nNeptune is not shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "The center of the asteroid belt is approximately 404 million kilometers from the Sun. State the name of the planet that is closest to the center of the asteroid belt.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 58 on the graph in your answer booklet and on your knowledge\nof Earth science. The graph shows planet equatorial diameters and planet mean distances from the Sun.\nNeptune is not shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "On the earthquake intensity map in your answer booklet, boundary lines have been drawn between the Modified Mercalli intensity values of IV and V. On the map in your answer booklet, draw boundary lines between the Modified Mercalli intensity values of V and VI.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the map of Haiti\u2019s location and portion of the Modified\nMercalli Intensity Scale below, on the Haiti Earthquake Intensity Map in your answer booklet, and on your\nknowledge of Earth science. The map shows the location of Haiti in the Atlantic Ocean. The Modified Mercalli\nIntensity Scale describes the amount and type of damage caused by an earthquake on a scale from I to XII. \nA portion of this scale is shown below. Modified Mercalli intensity values for the January 12, 2010, earthquake\nin Haiti are represented on the Haiti Earthquake Intensity Map in your answer booklet.\nA Portion of the Modified Mercalli Intensity Scale\nIntensity\nDescription of Effects\nIV\nGenerally felt by people in motion, loose objects disturbed\nV\nFelt by nearly everyone; some dishes, windows broken\nVI\nFelt by all; slight damage to ordinary structures\nVII\nDamage rare in buildings of good design and construction; slight\nto moderate in ordinary structures; considerable damage in poorly\nbuilt structures; some chimneys broken\nVIII\nDamage slight in specially designed structures; considerable \ndamage in ordinary substantial buildings with partial collapse;\ndamage great in poorly built structures; falling chimneys, columns,\nmonuments, walls\nIX\nDamage considerable in specially designed structures; damage\ngreat in substantial buildings, with partial collapse; buildings \nshifted off foundations\nX\nSome well-built wooden structures destroyed; most concrete and\nframe structures destroyed along with foundations\nNorth America\nSouth America\nAtlantic Ocean\nPacific Ocean\nHaiti\nCaribbean\nSea\nMap of Haiti\u2019s Location\nP.S./E. Sci.\u2013Aug. \u201915\n[18]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "State the latitude and longitude of Savane Baptiste. Include the units and compass directions in your answer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the map of Haiti\u2019s location and portion of the Modified\nMercalli Intensity Scale below, on the Haiti Earthquake Intensity Map in your answer booklet, and on your\nknowledge of Earth science. The map shows the location of Haiti in the Atlantic Ocean. The Modified Mercalli\nIntensity Scale describes the amount and type of damage caused by an earthquake on a scale from I to XII. \nA portion of this scale is shown below. Modified Mercalli intensity values for the January 12, 2010, earthquake\nin Haiti are represented on the Haiti Earthquake Intensity Map in your answer booklet.\nA Portion of the Modified Mercalli Intensity Scale\nIntensity\nDescription of Effects\nIV\nGenerally felt by people in motion, loose objects disturbed\nV\nFelt by nearly everyone; some dishes, windows broken\nVI\nFelt by all; slight damage to ordinary structures\nVII\nDamage rare in buildings of good design and construction; slight\nto moderate in ordinary structures; considerable damage in poorly\nbuilt structures; some chimneys broken\nVIII\nDamage slight in specially designed structures; considerable \ndamage in ordinary substantial buildings with partial collapse;\ndamage great in poorly built structures; falling chimneys, columns,\nmonuments, walls\nIX\nDamage considerable in specially designed structures; damage\ngreat in substantial buildings, with partial collapse; buildings \nshifted off foundations\nX\nSome well-built wooden structures destroyed; most concrete and\nframe structures destroyed along with foundations\nNorth America\nSouth America\nAtlantic Ocean\nPacific Ocean\nHaiti\nCaribbean\nSea\nMap of Haiti\u2019s Location\nP.S./E. Sci.\u2013Aug. \u201915\n[18]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Haiti is located at a transform boundary between which two tectonic plates?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the map of Haiti\u2019s location and portion of the Modified\nMercalli Intensity Scale below, on the Haiti Earthquake Intensity Map in your answer booklet, and on your\nknowledge of Earth science. The map shows the location of Haiti in the Atlantic Ocean. The Modified Mercalli\nIntensity Scale describes the amount and type of damage caused by an earthquake on a scale from I to XII. \nA portion of this scale is shown below. Modified Mercalli intensity values for the January 12, 2010, earthquake\nin Haiti are represented on the Haiti Earthquake Intensity Map in your answer booklet.\nA Portion of the Modified Mercalli Intensity Scale\nIntensity\nDescription of Effects\nIV\nGenerally felt by people in motion, loose objects disturbed\nV\nFelt by nearly everyone; some dishes, windows broken\nVI\nFelt by all; slight damage to ordinary structures\nVII\nDamage rare in buildings of good design and construction; slight\nto moderate in ordinary structures; considerable damage in poorly\nbuilt structures; some chimneys broken\nVIII\nDamage slight in specially designed structures; considerable \ndamage in ordinary substantial buildings with partial collapse;\ndamage great in poorly built structures; falling chimneys, columns,\nmonuments, walls\nIX\nDamage considerable in specially designed structures; damage\ngreat in substantial buildings, with partial collapse; buildings \nshifted off foundations\nX\nSome well-built wooden structures destroyed; most concrete and\nframe structures destroyed along with foundations\nNorth America\nSouth America\nAtlantic Ocean\nPacific Ocean\nHaiti\nCaribbean\nSea\nMap of Haiti\u2019s Location\nP.S./E. Sci.\u2013Aug. \u201915\n[18]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "On the timeline in your answer booklet, place an X on line AB to indicate the time when Abydosaurus mcintoshi lived.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the passage below and on your knowledge of Earth \nscience.\nDinosaur Fossils\nBones of juvenile long-necked sauropod dinosaurs, Abydosaurus mcintoshi,\nhave recently been found in 105-million-year-old sandstone at the Dinosaur National\nMonument in Utah. The remains of four individual dinosaurs were found, including\ntwo intact skulls. This find is unusual because the softer tissue holding the thin \nsauropod dinosaur skull bones together usually disintegrates, allowing the skull bones\nto separate. Only 8 of 120 types of sauropods discovered have complete skull \nspecimens. These dinosaurs were herbivores, with large numbers of sharp teeth that\nwere probably replaced five to six times each year. These teeth allowed only for the\nharvesting of plant material, but not for chewing it afterward. The plant-harvesting\nteeth and long neck identify Abydosaurus mcintoshi as a descendant of the \nbrachiosaurs.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Indicate the range of grain sizes in the type of bedrock in which Abydosaurus mcintoshi bones were found.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the passage below and on your knowledge of Earth \nscience.\nDinosaur Fossils\nBones of juvenile long-necked sauropod dinosaurs, Abydosaurus mcintoshi,\nhave recently been found in 105-million-year-old sandstone at the Dinosaur National\nMonument in Utah. The remains of four individual dinosaurs were found, including\ntwo intact skulls. This find is unusual because the softer tissue holding the thin \nsauropod dinosaur skull bones together usually disintegrates, allowing the skull bones\nto separate. Only 8 of 120 types of sauropods discovered have complete skull \nspecimens. These dinosaurs were herbivores, with large numbers of sharp teeth that\nwere probably replaced five to six times each year. These teeth allowed only for the\nharvesting of plant material, but not for chewing it afterward. The plant-harvesting\nteeth and long neck identify Abydosaurus mcintoshi as a descendant of the \nbrachiosaurs.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Identify one group of organisms that was a likely food source for Abydosaurus mcintoshi.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the passage below and on your knowledge of Earth \nscience.\nDinosaur Fossils\nBones of juvenile long-necked sauropod dinosaurs, Abydosaurus mcintoshi,\nhave recently been found in 105-million-year-old sandstone at the Dinosaur National\nMonument in Utah. The remains of four individual dinosaurs were found, including\ntwo intact skulls. This find is unusual because the softer tissue holding the thin \nsauropod dinosaur skull bones together usually disintegrates, allowing the skull bones\nto separate. Only 8 of 120 types of sauropods discovered have complete skull \nspecimens. These dinosaurs were herbivores, with large numbers of sharp teeth that\nwere probably replaced five to six times each year. These teeth allowed only for the\nharvesting of plant material, but not for chewing it afterward. The plant-harvesting\nteeth and long neck identify Abydosaurus mcintoshi as a descendant of the \nbrachiosaurs.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "State a natural event that is inferred by most scientists to be the cause of extinction of the last of the dinosaurs.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the passage below and on your knowledge of Earth \nscience.\nDinosaur Fossils\nBones of juvenile long-necked sauropod dinosaurs, Abydosaurus mcintoshi,\nhave recently been found in 105-million-year-old sandstone at the Dinosaur National\nMonument in Utah. The remains of four individual dinosaurs were found, including\ntwo intact skulls. This find is unusual because the softer tissue holding the thin \nsauropod dinosaur skull bones together usually disintegrates, allowing the skull bones\nto separate. Only 8 of 120 types of sauropods discovered have complete skull \nspecimens. These dinosaurs were herbivores, with large numbers of sharp teeth that\nwere probably replaced five to six times each year. These teeth allowed only for the\nharvesting of plant material, but not for chewing it afterward. The plant-harvesting\nteeth and long neck identify Abydosaurus mcintoshi as a descendant of the \nbrachiosaurs.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Describe the evidence represented in the diagram that indicates that the shale layer and the limestone layer are older than the igneous intrusion.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the block diagram below and on your knowledge of Earth\nscience. The diagram represents an igneous intrusion that solidified between some layers of sedimentary rock.\nLetter X represents an index fossil in a sedimentary rock layer. The rock layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "The limestone layer is composed mostly of what mineral?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the block diagram below and on your knowledge of Earth\nscience. The diagram represents an igneous intrusion that solidified between some layers of sedimentary rock.\nLetter X represents an index fossil in a sedimentary rock layer. The rock layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Describe one characteristic of fossil X that makes it a good index fossil.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the block diagram below and on your knowledge of Earth\nscience. The diagram represents an igneous intrusion that solidified between some layers of sedimentary rock.\nLetter X represents an index fossil in a sedimentary rock layer. The rock layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "The igneous intrusion contains the radioactive isotope potassium-40, which is used in radioactive dating to determine the age of rocks. State one property of potassium-40 that allows it to be useful in the radioactive dating of rocks. (Not drawn to scale) Key Contact metamorphism Igneous intrusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . X . .",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the block diagram below and on your knowledge of Earth\nscience. The diagram represents an igneous intrusion that solidified between some layers of sedimentary rock.\nLetter X represents an index fossil in a sedimentary rock layer. The rock layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "On the grid in your answer booklet, plot the hourly change in a Foucault pendulum\u2019s apparent direction of swing at the latitudes shown on the data table. Connect the plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the data table below and on your knowledge of Earth \nscience. The data show the rate of change in the apparent direction of the swing of a Foucault pendulum at \nvarious latitudes on Earth, in degrees per hour.\nA Foucault Pendulum\u2019s Swing",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Calculate how many hours are needed for a Foucault pendulum located at the North Pole to complete a 360\u00b0 change in its apparent direction of swing.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the data table below and on your knowledge of Earth \nscience. The data show the rate of change in the apparent direction of the swing of a Foucault pendulum at \nvarious latitudes on Earth, in degrees per hour.\nA Foucault Pendulum\u2019s Swing",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "If a Foucault pendulum were set up on Mars, it would most likely show similar changes in the pendulum\u2019s apparent direction of swing. Identify the motion of the planet Mars that would cause this change.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the data table below and on your knowledge of Earth \nscience. The data show the rate of change in the apparent direction of the swing of a Foucault pendulum at \nvarious latitudes on Earth, in degrees per hour.\nA Foucault Pendulum\u2019s Swing",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "The Coriolis force results from the same motion that causes the Foucault pendulum to change its apparent direction of swing. The diagram below represents the relative strength of the Coriolis force acting on air moving over Earth\u2019s surface. Describe how the strength of the Coriolis force changes with latitude. North Pole Deflection to right Deflection to left South Pole No deflection Equator Key Direction of air motion Strength of Coriolis force (indicated by the length of the arrows) C o ri ol i s fo rc e P at h of m ot io n Latitude (\u00b0) Rate of Change in Apparent Direction of Swing (\u00b0/h) 0 0.0 10 2.6 20 5.1 30 7.5 40 9.6 50 11.5 60 13.0 70 14.1 80 14.8 90 15.0 P.S./",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the data table below and on your knowledge of Earth \nscience. The data show the rate of change in the apparent direction of the swing of a Foucault pendulum at \nvarious latitudes on Earth, in degrees per hour.\nA Foucault Pendulum\u2019s Swing",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Explain how the appearance of rock sample A indicates that the sample has spent very little time being transported by the stream.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 74 through 76 on the block diagram below, which represents a landscape\ndrained by a stream system, and on your knowledge of Earth science. The actual sizes and shapes of three rock\nsamples, labeled A, B, and C, and the locations where they were found in the stream are indicated in the \ndiagram. A New York State index fossil is shown in rock sample A.\nLake\nB\nC\nA",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Rock sample C has a diameter of 2 centimeters. Determine the minimum stream velocity needed to transport rock sample C to its present location.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 74 through 76 on the block diagram below, which represents a landscape\ndrained by a stream system, and on your knowledge of Earth science. The actual sizes and shapes of three rock\nsamples, labeled A, B, and C, and the locations where they were found in the stream are indicated in the \ndiagram. A New York State index fossil is shown in rock sample A.\nLake\nB\nC\nA",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "The stream profile below shows the locations of rock samples A, B, and C in the streambed. Calculate the stream gradient between the locations of rock sample A and rock sample C.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/q76.png",
+      "context": "Base your answers to questions 74 through 76 on the block diagram below, which represents a landscape\ndrained by a stream system, and on your knowledge of Earth science. The actual sizes and shapes of three rock\nsamples, labeled A, B, and C, and the locations where they were found in the stream are indicated in the \ndiagram. A New York State index fossil is shown in rock sample A.\nLake\nB\nC\nA",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "On the map in your answer booklet, place an X at a location where the tornado damage was greatest.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 80 on the map in your answer booklet and on your knowledge of\nEarth science. The map shows the path of a tornado that moved through a portion of Nebraska on May 22, 2004\nbetween 7:30 p.m. and 9:10 p.m. The path of the tornado along the ground is indicated by the shaded region.\nThe width of the shading indicates the width of destruction on the ground. Numbers on the tornado\u2019s path \nindicate the Fujita intensity at those locations. The Fujita Intensity Scale (F-Scale), in the left corner of the map,\nprovides information about wind speed and damage at various F-Scale intensities.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "State a possible wind speed of the tornado, in kilometers per hour (km/h), when it was moving through the town of Bennet.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 80 on the map in your answer booklet and on your knowledge of\nEarth science. The map shows the path of a tornado that moved through a portion of Nebraska on May 22, 2004\nbetween 7:30 p.m. and 9:10 p.m. The path of the tornado along the ground is indicated by the shaded region.\nThe width of the shading indicates the width of destruction on the ground. Numbers on the tornado\u2019s path \nindicate the Fujita intensity at those locations. The Fujita Intensity Scale (F-Scale), in the left corner of the map,\nprovides information about wind speed and damage at various F-Scale intensities.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify the weather instrument usually used to measure wind speed.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 80 on the map in your answer booklet and on your knowledge of\nEarth science. The map shows the path of a tornado that moved through a portion of Nebraska on May 22, 2004\nbetween 7:30 p.m. and 9:10 p.m. The path of the tornado along the ground is indicated by the shaded region.\nThe width of the shading indicates the width of destruction on the ground. Numbers on the tornado\u2019s path \nindicate the Fujita intensity at those locations. The Fujita Intensity Scale (F-Scale), in the left corner of the map,\nprovides information about wind speed and damage at various F-Scale intensities.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Describe one safety precaution that should be taken if a tornado has been sighted approaching your home. A B C Lake Distance (km) Elevation (m) 100 200 300 400 500 0 1 2 km",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 77 through 80 on the map in your answer booklet and on your knowledge of\nEarth science. The map shows the path of a tornado that moved through a portion of Nebraska on May 22, 2004\nbetween 7:30 p.m. and 9:10 p.m. The path of the tornado along the ground is indicated by the shaded region.\nThe width of the shading indicates the width of destruction on the ground. Numbers on the tornado\u2019s path \nindicate the Fujita intensity at those locations. The Fujita Intensity Scale (F-Scale), in the left corner of the map,\nprovides information about wind speed and damage at various F-Scale intensities.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a profile of the thickness of the volcanic ash deposits by plotting the ash fall along line AB. Plot each point where an isoline showing thickness is crossed by line AB. Ash thickness at location A has been plotted. Complete the profile by connecting all seven plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the reading passage and map below and on your \nknowledge of Earth science. The passage provides information regarding the eruption of a volcano in Iceland.\nThe map shows the thickness of ash deposits, in centimeters (cm), during the first three days of the eruption. \nPoint A, representing the volcano\u2019s location, and point B, representing a location on Earth\u2019s surface, are \nconnected with a reference line.\nIceland Volcano Eruption Spreads Ash Cloud over Europe\nOn April 14, 2010, Eyjafjallaj\u00f6kull volcano, located in southern Iceland, explosively\nerupted, sending large volumes of volcanic ash high into the atmosphere. Much of the\nash fell quickly to Earth, as seen in the map, but large quantities remained airborne\nand spread over Europe. Most of the ash was transported within the atmosphere below\n10 kilometers. Air traffic across the Atlantic and throughout Europe was severely \ndisrupted, as airlines were forced to keep jet aircraft on the ground.\nA\nB\n0.5\n0.5\n5\n0.1\n1\n2\n3\n10\nAsh Fall (cm) April 14\u201316 in Iceland\n19\u00b0 30\u2032 W\n18\u00b0 30\u2032 W\n63\u00b0 30\u2032 N\n63\u00b0 40\u2032 N\n20\nAtlantic\nOcean\n10 km\n0\n5\nSource: Ash generation and distribution from the April-May 2010 eruption of Eyjafjallaj\u00f6kull,\n                        Iceland, Gudmundsson et al., Scientific Reports, August 14, 2012 (adapted)\nP.S./E. Sci.\u2013Aug. \u201915\n[24]\n\nP.S./E. Sci.\u2013Aug. \u201915\n[25]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Identify the atmospheric layer within which most of the volcanic ash was transported.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the reading passage and map below and on your \nknowledge of Earth science. The passage provides information regarding the eruption of a volcano in Iceland.\nThe map shows the thickness of ash deposits, in centimeters (cm), during the first three days of the eruption. \nPoint A, representing the volcano\u2019s location, and point B, representing a location on Earth\u2019s surface, are \nconnected with a reference line.\nIceland Volcano Eruption Spreads Ash Cloud over Europe\nOn April 14, 2010, Eyjafjallaj\u00f6kull volcano, located in southern Iceland, explosively\nerupted, sending large volumes of volcanic ash high into the atmosphere. Much of the\nash fell quickly to Earth, as seen in the map, but large quantities remained airborne\nand spread over Europe. Most of the ash was transported within the atmosphere below\n10 kilometers. Air traffic across the Atlantic and throughout Europe was severely \ndisrupted, as airlines were forced to keep jet aircraft on the ground.\nA\nB\n0.5\n0.5\n5\n0.1\n1\n2\n3\n10\nAsh Fall (cm) April 14\u201316 in Iceland\n19\u00b0 30\u2032 W\n18\u00b0 30\u2032 W\n63\u00b0 30\u2032 N\n63\u00b0 40\u2032 N\n20\nAtlantic\nOcean\n10 km\n0\n5\nSource: Ash generation and distribution from the April-May 2010 eruption of Eyjafjallaj\u00f6kull,\n                        Iceland, Gudmundsson et al., Scientific Reports, August 14, 2012 (adapted)\nP.S./E. Sci.\u2013Aug. \u201915\n[24]\n\nP.S./E. Sci.\u2013Aug. \u201915\n[25]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Describe one way the volcanic ash cloud may have contributed to cooler weather conditions in Europe.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the reading passage and map below and on your \nknowledge of Earth science. The passage provides information regarding the eruption of a volcano in Iceland.\nThe map shows the thickness of ash deposits, in centimeters (cm), during the first three days of the eruption. \nPoint A, representing the volcano\u2019s location, and point B, representing a location on Earth\u2019s surface, are \nconnected with a reference line.\nIceland Volcano Eruption Spreads Ash Cloud over Europe\nOn April 14, 2010, Eyjafjallaj\u00f6kull volcano, located in southern Iceland, explosively\nerupted, sending large volumes of volcanic ash high into the atmosphere. Much of the\nash fell quickly to Earth, as seen in the map, but large quantities remained airborne\nand spread over Europe. Most of the ash was transported within the atmosphere below\n10 kilometers. Air traffic across the Atlantic and throughout Europe was severely \ndisrupted, as airlines were forced to keep jet aircraft on the ground.\nA\nB\n0.5\n0.5\n5\n0.1\n1\n2\n3\n10\nAsh Fall (cm) April 14\u201316 in Iceland\n19\u00b0 30\u2032 W\n18\u00b0 30\u2032 W\n63\u00b0 30\u2032 N\n63\u00b0 40\u2032 N\n20\nAtlantic\nOcean\n10 km\n0\n5\nSource: Ash generation and distribution from the April-May 2010 eruption of Eyjafjallaj\u00f6kull,\n                        Iceland, Gudmundsson et al., Scientific Reports, August 14, 2012 (adapted)\nP.S./E. Sci.\u2013Aug. \u201915\n[24]\n\nP.S./E. Sci.\u2013Aug. \u201915\n[25]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "The graphs below indicate the percent by mass of different diameters of ash particles deposited at 2 kilometers and 60 kilometers from the volcanic eruption. Describe how the size of the deposited ash particles changed with increased distance from the volcano.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the reading passage and map below and on your \nknowledge of Earth science. The passage provides information regarding the eruption of a volcano in Iceland.\nThe map shows the thickness of ash deposits, in centimeters (cm), during the first three days of the eruption. \nPoint A, representing the volcano\u2019s location, and point B, representing a location on Earth\u2019s surface, are \nconnected with a reference line.\nIceland Volcano Eruption Spreads Ash Cloud over Europe\nOn April 14, 2010, Eyjafjallaj\u00f6kull volcano, located in southern Iceland, explosively\nerupted, sending large volumes of volcanic ash high into the atmosphere. Much of the\nash fell quickly to Earth, as seen in the map, but large quantities remained airborne\nand spread over Europe. Most of the ash was transported within the atmosphere below\n10 kilometers. Air traffic across the Atlantic and throughout Europe was severely \ndisrupted, as airlines were forced to keep jet aircraft on the ground.\nA\nB\n0.5\n0.5\n5\n0.1\n1\n2\n3\n10\nAsh Fall (cm) April 14\u201316 in Iceland\n19\u00b0 30\u2032 W\n18\u00b0 30\u2032 W\n63\u00b0 30\u2032 N\n63\u00b0 40\u2032 N\n20\nAtlantic\nOcean\n10 km\n0\n5\nSource: Ash generation and distribution from the April-May 2010 eruption of Eyjafjallaj\u00f6kull,\n                        Iceland, Gudmundsson et al., Scientific Reports, August 14, 2012 (adapted)\nP.S./E. Sci.\u2013Aug. \u201915\n[24]\n\nP.S./E. Sci.\u2013Aug. \u201915\n[25]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Explain why the lithosphere in the vicinity of Eyjafjallaj\u00f6kull is more volcanically active than most other regions of Earth\u2019s surface. Diameter (mm) Mass (%) Deposited 2 km from Volcano 0 5 10 15 20 25 30 35 Volcanic Ash Deposited from the April 14-16 Eruption 8.0 4.0 2.0 1.0 0.500 0.250 0.125 0.063 0.032 0.016 0.008 0.004 0.002 0.001 Diameter (mm) Mass (%) Deposited 60 km from Volcano 0 5 10 15 20 25 30 35 8.0 4.0 2.0 1.0 0.500 0.250 0.125 0.063 0.032 0.016 0.008 0.004 0.002 0.001 P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2015/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the reading passage and map below and on your \nknowledge of Earth science. The passage provides information regarding the eruption of a volcano in Iceland.\nThe map shows the thickness of ash deposits, in centimeters (cm), during the first three days of the eruption. \nPoint A, representing the volcano\u2019s location, and point B, representing a location on Earth\u2019s surface, are \nconnected with a reference line.\nIceland Volcano Eruption Spreads Ash Cloud over Europe\nOn April 14, 2010, Eyjafjallaj\u00f6kull volcano, located in southern Iceland, explosively\nerupted, sending large volumes of volcanic ash high into the atmosphere. Much of the\nash fell quickly to Earth, as seen in the map, but large quantities remained airborne\nand spread over Europe. Most of the ash was transported within the atmosphere below\n10 kilometers. Air traffic across the Atlantic and throughout Europe was severely \ndisrupted, as airlines were forced to keep jet aircraft on the ground.\nA\nB\n0.5\n0.5\n5\n0.1\n1\n2\n3\n10\nAsh Fall (cm) April 14\u201316 in Iceland\n19\u00b0 30\u2032 W\n18\u00b0 30\u2032 W\n63\u00b0 30\u2032 N\n63\u00b0 40\u2032 N\n20\nAtlantic\nOcean\n10 km\n0\n5\nSource: Ash generation and distribution from the April-May 2010 eruption of Eyjafjallaj\u00f6kull,\n                        Iceland, Gudmundsson et al., Scientific Reports, August 14, 2012 (adapted)\nP.S./E. Sci.\u2013Aug. \u201915\n[24]\n\nP.S./E. Sci.\u2013Aug. \u201915\n[25]",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

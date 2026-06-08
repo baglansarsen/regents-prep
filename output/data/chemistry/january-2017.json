@@ -1,0 +1,1101 @@
+{
+  "subject": "chemistry",
+  "session": "january-2017",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which statement describes the location of two types of subatomic particles in a helium atom?",
+      "choices": [
+        "Protons and neutrons are located in the nucleus.",
+        "Protons and neutrons are located outside the nucleus.",
+        "Protons and electrons are located in the nucleus.",
+        "Protons and electrons are located outside the nucleus."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "An atom that contains six protons, six neutrons, and six electrons has a mass of approximately",
+      "choices": [
+        "12 u",
+        "12 g",
+        "18 u",
+        "18 g"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which term identifies the most probable location of an electron in the wave-mechanical model of the atom?",
+      "choices": [
+        "anode",
+        "orbital",
+        "nucleus",
+        "cathode"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which element has atoms in the ground state with the greatest number of valence electrons?",
+      "choices": [
+        "tin",
+        "sulfur",
+        "arsenic",
+        "fluorine"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which group on the Periodic Table has two elements that exist as gases at STP?",
+      "choices": [
+        "Group 1",
+        "Group 2",
+        "Group 16",
+        "Group 17"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which list of elements contains a metal, a metalloid, and a nonmetal?",
+      "choices": [
+        "Ag, Si, I2",
+        "Ge, As, Ne",
+        "K, Cu, Br2",
+        "S, Cl2, Ar"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "What is the charge of the nucleus of a copper atom?",
+      "choices": [
+        "\u00021",
+        "\u00022",
+        "\u000229",
+        "\u000264"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "At STP, O2(g) and O3(g) have different properties because O3(g) has",
+      "choices": [
+        "more dense nuclei than in O2(g)",
+        "more protons per atom than in O2(g)",
+        "molecules with a different structure than in O2(g)",
+        "molecules with fewer covalent bonds than in O2(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A compound is a substance composed of two or more elements that are",
+      "choices": [
+        "physically mixed in a fixed proportion",
+        "physically mixed in a variable proportion",
+        "chemically combined in a fixed proportion",
+        "chemically combined in a variable proportion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which element has the highest boiling point at standard pressure?",
+      "choices": [
+        "Mg",
+        "Na",
+        "Rb",
+        "Sr"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "How many pairs of electrons are shared between the nitrogen atoms in a molecule of N2?",
+      "choices": [
+        "5",
+        "2",
+        "3",
+        "6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A molecule must be nonpolar if the molecule",
+      "choices": [
+        "is linear",
+        "is neutral",
+        "has ionic and covalent bonding",
+        "has a symmetrical charge distribution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which property is used to determine the degree of polarity between two bonded atoms?",
+      "choices": [
+        "density",
+        "electronegativity",
+        "pressure",
+        "temperature"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "In a chemical reaction, a catalyst provides an alternate reaction pathway that",
+      "choices": [
+        "decreases the concentration of the products",
+        "increases the concentration of the reactants",
+        "has a lower activation energy",
+        "has a higher activation energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which substance can be decomposed by chemical means?",
+      "choices": [
+        "cobalt",
+        "krypton",
+        "methane",
+        "zirconium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which sample of matter represents a mixture?",
+      "choices": [
+        "aqueous ammonia",
+        "gaseous ethane",
+        "liquid mercury",
+        "solid iodine"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Differences in which property allow the separation of a sample of sand and seawater by filtration?",
+      "choices": [
+        "concentration of ions",
+        "volume of sample",
+        "mass of sample",
+        "particle size"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which process is a chemical change?",
+      "choices": [
+        "evaporating an alcohol",
+        "subliming of iodine",
+        "melting an ice cube",
+        "rusting of iron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which term represents an intermolecular force in a sample of water?",
+      "choices": [
+        "hydrogen bonding",
+        "covalent bonding",
+        "metallic bonding",
+        "ionic bonding"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which sample of matter has particles arranged in a crystalline structure?",
+      "choices": [
+        "Ne(g)",
+        "Br2(\u2113)",
+        "NaCl(aq)",
+        "CuSO4(s)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which term is defined as a measure of the randomness of a system?",
+      "choices": [
+        "heat",
+        "entropy",
+        "pressure",
+        "temperature"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which formula represents an alkane?",
+      "choices": [
+        "C2H2",
+        "C2H4",
+        "C3H4",
+        "C3H8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which term represents a chemical reaction?",
+      "choices": [
+        "deposition",
+        "combustion",
+        "sublimation",
+        "vaporization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which type of reaction includes esterification and polymerization?",
+      "choices": [
+        "decomposition",
+        "neutralization",
+        "organic",
+        "nuclear"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "In a redox reaction, the total number of electrons lost is",
+      "choices": [
+        "less than the total number of electrons gained",
+        "greater than the total number of electrons gained",
+        "equal to the total number of electrons gained",
+        "unrelated to the total number of electrons gained"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which type of equation can represent the oxidation occurring in a reaction?",
+      "choices": [
+        "a double-replacement reaction equation",
+        "a half-reaction equation",
+        "a neutralization reaction equation",
+        "a transmutation reaction equation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The electrical conductivity of an aqueous solution depends on the concentration of which particles in the solution?",
+      "choices": [
+        "molecules",
+        "electrons",
+        "atoms",
+        "ions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "An electrolytic cell differs from a voltaic cell because an electrolytic cell",
+      "choices": [
+        "generates its own energy from a spontaneous physical reaction",
+        "generates its own energy from a nonsponta- neous physical reaction",
+        "requires an outside energy source for a spontaneous chemical reaction to occur",
+        "requires an outside energy source for a nonspontaneous chemical reaction to occur"
+      ],
+      "image": "/images/exams/chemistry/january-2017/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "A sample of which radioisotope emits particles having the greatest mass?",
+      "choices": [
+        "137Cs",
+        "53Fe",
+        "220Fr",
+        "3H"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which term represents a nuclear reaction?",
+      "choices": [
+        "combustion",
+        "fermentation",
+        "transmutation",
+        "saponification"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which electron configuration represents the distribution of electrons in a potassium atom in the ground state?",
+      "choices": [
+        "2-8-8-1",
+        "2-8-7-2",
+        "2-8-5",
+        "2-7-6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "At STP, which element is malleable and a good conductor of electricity?",
+      "choices": [
+        "xenon",
+        "silicon",
+        "platinum",
+        "hydrogen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which general trends in atomic radius and electronegativity are observed as the elements in Period 3 are considered in order of increasing atomic number?",
+      "choices": [
+        "Atomic radius decreases and electronegativity increases.",
+        "Atomic radius increases and electronegativity decreases.",
+        "Both atomic radius and electronegativity increase.",
+        "Both atomic radius and electronegativity decrease."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "What is the chemical name for Na2SO3?",
+      "choices": [
+        "sodium sulfite",
+        "sodium sulfate",
+        "sodium sulfide",
+        "sodium thiosulfate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which molecular formula is also an empirical formula?",
+      "choices": [
+        "C6H6",
+        "H2O2",
+        "N2H4",
+        "N2O5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: 2H2 \u0002 O2 \u21922H2O \u0002 energy Which mass of oxygen completely reacts with 4.0 grams of hydrogen to produce 36.0 grams of water?",
+      "choices": [
+        "8.0 g",
+        "16.0 g",
+        "32.0 g",
+        "40.0 g"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "What is the gram-formula mass of Ca(OH)2?",
+      "choices": [
+        "29 g/mol",
+        "54 g/mol",
+        "57 g/mol",
+        "74 g/mol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: H2(g) + I2(g) \u21922HI(g) Which statement describes the energy changes that occur in this reaction?",
+      "choices": [
+        "Energy is absorbed as bonds are formed, only.",
+        "Energy is released as bonds are broken, only.",
+        "Energy is absorbed as bonds are formed, and energy is released as bonds are broken.",
+        "Energy is absorbed as bonds are broken, and energy is released as bonds are formed."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Based on Table F, which compound is least soluble in water?",
+      "choices": [
+        "AlPO4",
+        "Li2SO4",
+        "Ca(OH)2",
+        "AgC2H3O2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "How many joules of heat are absorbed to raise the temperature of 435 grams of water at 1 atm from 25\u00b0C to its boiling point, 100.\u00b0C?",
+      "choices": [
+        "4.5 \u0003 104 J",
+        "1.4 \u0003 105 J",
+        "2.5 \u0003 107 J",
+        "7.4 \u0003 107 J P.S./"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Which temperature represents the highest average kinetic energy of the particles in a sample of matter?",
+      "choices": [
+        "298 K",
+        "267 K",
+        "27\u00b0C",
+        "12\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which change in the H\u0002 ion concentration of an aqueous solution represents a decrease of one unit on the pH scale?",
+      "choices": [
+        "a tenfold increase",
+        "a tenfold decrease",
+        "a hundredfold increase",
+        "a hundredfold decrease"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "written",
+      "text": "Which particle diagram represents a mixture of three substances?",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a system at equilibrium: PCl5(g) \u21ccPCl3(g) \u0002 Cl2(g) Which statement describes this system?",
+      "choices": [
+        "The concentration of PCl5(g) is increasing.",
+        "The concentration of PCl5(g) is decreasing.",
+        "The concentrations of PCl5(g) and PCl3(g) are equal.",
+        "The concentrations of PCl5(g) and PCl3(g) are constant."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Given the formula representing a compound: What is the IUPAC name of this compound?",
+      "choices": [
+        "2-chloroheptane",
+        "6-chloroheptane",
+        "2,2-dichloroheptane",
+        "6,6-dichloroheptane"
+      ],
+      "image": "/images/exams/chemistry/january-2017/q45.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: Sn4\u0002(aq) \u0002 2e\u0004 \u2192Sn2\u0002(aq) Which term best describes this reaction?",
+      "choices": [
+        "ionization",
+        "neutralization",
+        "oxidation",
+        "reduction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which ionic equation represents a spontaneous reaction that can occur in a voltaic cell?",
+      "choices": [
+        "Cu(s) \u0002 Zn(s) \u2192Cu2\u0002(aq) \u0002 Zn2\u0002(aq)",
+        "Cu(s) \u0002 Zn2\u0002(aq) \u2192Cu2\u0002(aq) \u0002 Zn(s)",
+        "Cu2\u0002(aq) \u0002 Zn(s) \u2192Cu(s) \u0002 Zn2\u0002(aq)",
+        "Cu2\u0002(aq) \u0002 Zn2\u0002(aq) \u2192Cu(s) \u0002 Zn(s) CI H H H C C H H C C CI C H H H C C H H H H H H Key = an atom of one element = an atom of a different element ( 1 ) ( 2 ) ( 3 ) ( 4 )"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Given the formulas representing two compounds at standard pressure: The compounds can be differentiated by their",
+      "choices": [
+        "boiling points",
+        "gram-formula masses",
+        "numbers of hydrogen atoms",
+        "percent compositions by mass of carbon"
+      ],
+      "image": "/images/exams/chemistry/january-2017/q48.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The table below shows the atomic mass and natural abundance of the two naturally occurring isotopes of lithium. Naturally Occurring Isotopes of Lithium Which numerical setup can be used to determine the atomic mass of naturally occurring lithium?",
+      "choices": [
+        "(7.6)(6.015 u) \u0002 (92.4)(7.016 u)",
+        "(0.076)(6.015 u) \u0002 (0.924)(7.016 u)",
+        "",
+        ""
+      ],
+      "image": "/images/exams/chemistry/january-2017/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction at equilibrium: H2S(aq) \u0002 CH3NH2(aq) \u21ccHS\u0004(aq) \u0002 CH3NH3 \u0002(aq) According to one acid-base theory, the forward reaction is classified as an acid-base reaction because",
+      "choices": [
+        "H2S is a H\u0002 donor and CH3NH2 is a H\u0002 acceptor",
+        "CH3NH2 is a H\u0002 donor and H2S is a H\u0002 acceptor",
+        "HS\u0004 and CH3NH3 \u0002 are both H\u0002 donors",
+        "CH3NH3 \u0002 and HS\u0004 are both H\u0002 acceptors \u0002 \u0003 \u0004 \u0004 \u0002 \u0004 \u0002 \u0002 \u0004 \u0004 \u0004 \u0004 \u0004 \u0005\u0002\u0003\u0002\u0006\u0007\b\u0006 \b \u0004 \u0004 \u0002 \u0004 \u0003 \u0002 \u0004 \u0004 \u0004 \u000e\u000f\u0010 \u0011 \u000e\u000f\u0010 \u0011 \u000e\u000f \u0007 \u0004 \u0004 0 076 6 015 0 924 7 016 2 . . . . ( )( ) ( )( ) u u \u0002 7 6 6 015 92 4 7 016 2 . . . . ( )( ) ( )( ) u u \u0002 Isotope Atomic Mass (u) Natural Abundance (%) Li-6 6.015 7.6 Li-7 7.016 92.4"
+      ],
+      "image": "/images/exams/chemistry/january-2017/q50.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Explain, in terms of electron configuration, why arsenic and antimony are chemically similar.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify the element in Period 3 that is an unreactive gas at STP.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Compare the energy of an electron in the first shell of a cadmium atom to the energy of an electron in the third shell of the same atom.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/q53.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Compare the number of carbon atoms in a 0.30-cm3 sample of graphite and a 0.30-cm3 sample of diamond.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of chemistry.\nThe densities for two forms of carbon at room temperature are listed in the table below.\nDensities of Two Forms of Carbon",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "A student calculated the density of a sample of graphite to be 2.3 g/cm3. Show a numerical setup for calculating the student\u2019s percent error for the density of graphite.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of chemistry.\nThe densities for two forms of carbon at room temperature are listed in the table below.\nDensities of Two Forms of Carbon",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the number of moles in the sample of CaCO3.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of chemistry.\nA sample of calcium carbonate, CaCO3, has a mass of 42.2 grams. Calcium carbonate\nhas a gram-formula mass of 100. g/mol.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Determine the percent composition by mass of oxygen in the CaCO3. Element Form Density (g/cm3) carbon (graphite) 2.2 carbon (diamond) 3.513",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of chemistry.\nA sample of calcium carbonate, CaCO3, has a mass of 42.2 grams. Calcium carbonate\nhas a gram-formula mass of 100. g/mol.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Explain, in terms of collision theory, why an increase in temperature increases the rate of the reaction.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the information below and on your knowledge of chemistry.\nCarbon monoxide, CO(g), is a toxic gas found in automobile exhaust. The concentration\nof CO(g) can be decreased by using a catalyst in the reaction between CO(g) and O2(g).\nThis reaction is represented by the balanced equation below.\n2CO(g) \u0002 O2(g)\ncatalyst\n2CO2(g) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "On the labeled axes in your answer booklet, draw the potential energy curve for the reaction represented by this equation.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the information below and on your knowledge of chemistry.\nCarbon monoxide, CO(g), is a toxic gas found in automobile exhaust. The concentration\nof CO(g) can be decreased by using a catalyst in the reaction between CO(g) and O2(g).\nThis reaction is represented by the balanced equation below.\n2CO(g) \u0002 O2(g)\ncatalyst\n2CO2(g) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Determine the volume of the gas in the cylinder at STP.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/context_60_61.png",
+      "context": "Base your answers to questions 60 and 61 on the information below and on your knowledge of chemistry.\nThe diagram and data below represent a gas and the conditions of pressure, volume,\nand temperature of the gas in a rigid cylinder with a moveable piston.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State one change in temperature and one change in pressure that will cause the gas in the cylinder to behave more like an ideal gas. \u0012\u0013\u0014\u0015\u0016 \u0002\u0011\u0017 \u0005\u0018\u0019\u0011 \u000e \u0003\u0011\u0017 \u0013\u0018\u001a\u0011\u001b \u0004\u0011\u0017 \u0013 \u0011",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/context_60_61.png",
+      "context": "Base your answers to questions 60 and 61 on the information below and on your knowledge of chemistry.\nThe diagram and data below represent a gas and the conditions of pressure, volume,\nand temperature of the gas in a rigid cylinder with a moveable piston.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify the only positive ion in the HC2H3O2(aq).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nDuring a titration, 10.00 mL of acetic acid, HC2H3O2(aq), is completely neutralized by\nadding 12.50 mL of 0.64 M sodium hydroxide, NaOH(aq).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "State the number of significant figures used to express the volume of the acetic acid.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nDuring a titration, 10.00 mL of acetic acid, HC2H3O2(aq), is completely neutralized by\nadding 12.50 mL of 0.64 M sodium hydroxide, NaOH(aq).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Determine the molarity of the acetic acid.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nDuring a titration, 10.00 mL of acetic acid, HC2H3O2(aq), is completely neutralized by\nadding 12.50 mL of 0.64 M sodium hydroxide, NaOH(aq).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Explain why it is better to use data from multiple trials to determine the molarity of acetic acid, rather than data from a single trial.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nDuring a titration, 10.00 mL of acetic acid, HC2H3O2(aq), is completely neutralized by\nadding 12.50 mL of 0.64 M sodium hydroxide, NaOH(aq).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "State the direction of heat flow between the dry ice and the water vapor in the air.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nCarbon dioxide, CO2, changes from the solid phase to the gas phase at 1 atm and 194.5 K.\nIn the solid phase, CO2 is often called dry ice. When dry ice sublimes in air at 298 K, the\nwater vapor in the air can condense, forming a fog of small water droplets. This fog is often\nused for special effects at concerts and in movie-making.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "At 1 atm and 298 K, compare the potential energies of the water molecules before and after the water vapor condenses.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nCarbon dioxide, CO2, changes from the solid phase to the gas phase at 1 atm and 194.5 K.\nIn the solid phase, CO2 is often called dry ice. When dry ice sublimes in air at 298 K, the\nwater vapor in the air can condense, forming a fog of small water droplets. This fog is often\nused for special effects at concerts and in movie-making.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "At 1 atm and 190. K, compare the amount of thermal energy in a 1.0-kilogram block of dry ice to the amount of thermal energy in a 2.0-kilogram block of dry ice.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nCarbon dioxide, CO2, changes from the solid phase to the gas phase at 1 atm and 194.5 K.\nIn the solid phase, CO2 is often called dry ice. When dry ice sublimes in air at 298 K, the\nwater vapor in the air can condense, forming a fog of small water droplets. This fog is often\nused for special effects at concerts and in movie-making.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Explain, in terms of particle distribution, why a coolant solution is a homogeneous mixture.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nA solution of ethylene glycol and water can be used as the coolant in an engine-cooling\nsystem. The ethylene glycol concentration in a coolant solution is often given as percent by\nvolume. For example, 100. mL of a coolant solution that is 40.% ethylene glycol by volume\ncontains 40. mL of ethylene glycol diluted with enough water to produce a total volume of\n100. mL. The graph below shows the freezing point of coolants that have different ethylene\nglycol concentrations.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Explain, in terms of the molecular polarity, why ethylene glycol dissolves in water to form a solution.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nA solution of ethylene glycol and water can be used as the coolant in an engine-cooling\nsystem. The ethylene glycol concentration in a coolant solution is often given as percent by\nvolume. For example, 100. mL of a coolant solution that is 40.% ethylene glycol by volume\ncontains 40. mL of ethylene glycol diluted with enough water to produce a total volume of\n100. mL. The graph below shows the freezing point of coolants that have different ethylene\nglycol concentrations.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Identify the percent by volume of ethylene glycol in a solution that freezes at \u000410.\u00b0C.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nA solution of ethylene glycol and water can be used as the coolant in an engine-cooling\nsystem. The ethylene glycol concentration in a coolant solution is often given as percent by\nvolume. For example, 100. mL of a coolant solution that is 40.% ethylene glycol by volume\ncontains 40. mL of ethylene glycol diluted with enough water to produce a total volume of\n100. mL. The graph below shows the freezing point of coolants that have different ethylene\nglycol concentrations.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "One engine-cooling system has a volume of 6400 mL. Determine the volume of ethylene glycol in the completely filled engine-cooling system when the concentration of ethylene glycol is 50.% by volume. \u201360. Freezing Points of Coolants Percent by Volume of Ethylene Glycol (%) Temperature (\u00b0C) 100. 0 10. 20. 30. 40. 50. 60. 70. 80. 90. \u201350. \u201340. \u201330. \u201320. \u201310. 0",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of chemistry.\nA solution of ethylene glycol and water can be used as the coolant in an engine-cooling\nsystem. The ethylene glycol concentration in a coolant solution is often given as percent by\nvolume. For example, 100. mL of a coolant solution that is 40.% ethylene glycol by volume\ncontains 40. mL of ethylene glycol diluted with enough water to produce a total volume of\n100. mL. The graph below shows the freezing point of coolants that have different ethylene\nglycol concentrations.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Explain, in terms of bonding, why the hydrocarbon reactant in equation 1 is unsaturated.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 77 on the information below and on your knowledge of chemistry.\nMolecules containing two carbon atoms and a functional group have many home and\nindustrial uses. These compounds can be produced by a variety of reactions, as shown by\nthe equations below.\nEquation 1:  C2H4 \u0002 H2O \u2192CH3CH2OH\nEquation 2:  2CH3CH2OH \u0002 O2 \u21922CH3CHO \u0002 2H2O\nEquation 3:  2CH3CHO \u0002 O2 \u21922CH3COOH",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Draw a structural formula of the ethanal molecule in equation 2.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 77 on the information below and on your knowledge of chemistry.\nMolecules containing two carbon atoms and a functional group have many home and\nindustrial uses. These compounds can be produced by a variety of reactions, as shown by\nthe equations below.\nEquation 1:  C2H4 \u0002 H2O \u2192CH3CH2OH\nEquation 2:  2CH3CH2OH \u0002 O2 \u21922CH3CHO \u0002 2H2O\nEquation 3:  2CH3CHO \u0002 O2 \u21922CH3COOH",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Explain, in terms of atoms, why CH3CH2OH and CH3CHO are not isomers of each other.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 77 on the information below and on your knowledge of chemistry.\nMolecules containing two carbon atoms and a functional group have many home and\nindustrial uses. These compounds can be produced by a variety of reactions, as shown by\nthe equations below.\nEquation 1:  C2H4 \u0002 H2O \u2192CH3CH2OH\nEquation 2:  2CH3CH2OH \u0002 O2 \u21922CH3CHO \u0002 2H2O\nEquation 3:  2CH3CHO \u0002 O2 \u21922CH3COOH",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Identify the class of organic compounds to which the product in equation 3 belongs.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 77 on the information below and on your knowledge of chemistry.\nMolecules containing two carbon atoms and a functional group have many home and\nindustrial uses. These compounds can be produced by a variety of reactions, as shown by\nthe equations below.\nEquation 1:  C2H4 \u0002 H2O \u2192CH3CH2OH\nEquation 2:  2CH3CH2OH \u0002 O2 \u21922CH3CHO \u0002 2H2O\nEquation 3:  2CH3CHO \u0002 O2 \u21922CH3COOH",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Determine the number of moles of oxygen required to completely react with six moles of CH3CHO in equation 3.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/q77.png",
+      "context": "Base your answers to questions 73 through 77 on the information below and on your knowledge of chemistry.\nMolecules containing two carbon atoms and a functional group have many home and\nindustrial uses. These compounds can be produced by a variety of reactions, as shown by\nthe equations below.\nEquation 1:  C2H4 \u0002 H2O \u2192CH3CH2OH\nEquation 2:  2CH3CH2OH \u0002 O2 \u21922CH3CHO \u0002 2H2O\nEquation 3:  2CH3CHO \u0002 O2 \u21922CH3COOH",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Identify the independent variable in this experiment.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the information below and on your knowledge of chemistry.\nThe hydrangea is a flowering plant. The color of the flowers it produces can change\ndepending on the pH value of the soil in which the plant grows.  Adding aluminum sulfate\nmakes the soil more acidic and adding calcium hydroxide makes the soil more basic.\nA student performed an experiment by varying soil pH and recording the color of the\nflowers. The following table summarizes the results of the experiment.\nHydrangea Soil pH and Flower Color",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Hydrangea plants can be grown in soil that turns litmus red. What color are the flowers of the plants grown in this soil? Soil pH Flower Color 5.5 and below blue between 5.5 and 6.5 purple 6.5 and above pink",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the information below and on your knowledge of chemistry.\nThe hydrangea is a flowering plant. The color of the flowers it produces can change\ndepending on the pH value of the soil in which the plant grows.  Adding aluminum sulfate\nmakes the soil more acidic and adding calcium hydroxide makes the soil more basic.\nA student performed an experiment by varying soil pH and recording the color of the\nflowers. The following table summarizes the results of the experiment.\nHydrangea Soil pH and Flower Color",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Determine the oxidation number of nitrogen in the negative ion in the aqueous solutions.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of chemistry.\nThe diagram and balanced ionic equation below represent two half-cells connected to\nproduce an operating voltaic cell in a laboratory investigation. The half-cells are connected\nby a salt bridge.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "State the purpose of the salt bridge in this voltaic cell.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of chemistry.\nThe diagram and balanced ionic equation below represent two half-cells connected to\nproduce an operating voltaic cell in a laboratory investigation. The half-cells are connected\nby a salt bridge.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Explain, in terms of atoms and ions, why the mass of the Mg(s) electrode decreases as the cell operates.",
+      "choices": [],
+      "image": "/images/exams/chemistry/january-2017/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of chemistry.\nThe diagram and balanced ionic equation below represent two half-cells connected to\nproduce an operating voltaic cell in a laboratory investigation. The half-cells are connected\nby a salt bridge.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Complete the nuclear equation in your answer booklet for the nuclear decay of Mo-99.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nThe radioisotope Mo-99 naturally decays to produce the metastable isotope Tc-99m,\nwhich is used in medical diagnosis. A doctor can obtain images of organs and bones by\ninjecting a patient with a solution of Tc-99m. The half-life of the metastable Tc-99m is six\nhours.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "State both the number of protons and the number of neutrons in a Tc-99 nuclide.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nThe radioisotope Mo-99 naturally decays to produce the metastable isotope Tc-99m,\nwhich is used in medical diagnosis. A doctor can obtain images of organs and bones by\ninjecting a patient with a solution of Tc-99m. The half-life of the metastable Tc-99m is six\nhours.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Determine the fraction of an original sample of metastable Tc-99m that remains unchanged after 24 hours. Salt bridge Cu(s) electrode Voltaic Cell Voltmeter V Mg(s) electrode 1.0 M Mg(NO3)2(aq) 1.0 M Cu(NO3)2(aq) Mg(s) + Cu2+(aq) Mg2+(aq) + Cu(s) Wire P.S./ P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nThe radioisotope Mo-99 naturally decays to produce the metastable isotope Tc-99m,\nwhich is used in medical diagnosis. A doctor can obtain images of organs and bones by\ninjecting a patient with a solution of Tc-99m. The half-life of the metastable Tc-99m is six\nhours.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

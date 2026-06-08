@@ -1,0 +1,1086 @@
+{
+  "subject": "earth-science",
+  "session": "january-2026",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The concept that the planets travel around the Sun in eccentric orbits is best explained by the",
+      "choices": [
+        "Big Bang theory",
+        "Plate Tectonic theory",
+        "geocentric model",
+        "heliocentric model"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The table below shows the times of ocean high tides and low tides on a certain date at a location in Massachusetts. Ocean Tides Type of Tide Time low 12:18 a.m. high 7:08 a.m. low 1:08 p.m. high 7:49 p.m. At what time would the next low tide occur at this location?",
+      "choices": [
+        "1:49 a.m.",
+        "1:49 p.m.",
+        "8:29 a.m.",
+        "8:29 p.m."
+      ],
+      "image": "/images/exams/earth-science/january-2026/q2.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which energy-producing process that combines lighter elements into heavier elements (such as hydrogen into helium) occurs inside the Sun?",
+      "choices": [
+        "radioactive decay",
+        "nuclear fusion",
+        "condensation",
+        "outgassing"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which factor causes the swing of a Foucault pendulum to appear to change direction over a period of time?",
+      "choices": [
+        "Earth\u2019s rotation on its axis",
+        "Earth\u2019s revolution around the Sun",
+        "23.5\u00b0 tilt of Earth\u2019s axis",
+        "gravitational pull of the Moon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The time exposure photograph shows star trails in a portion of the night sky, as viewed from a location in the United States. Source: astro.unl.edu/naap/motion2/starpath.html Which direction was the camera pointing when this photograph was taken?",
+      "choices": [
+        "east",
+        "west",
+        "north",
+        "south"
+      ],
+      "image": "/images/exams/earth-science/january-2026/q5.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Earth\u2019s early atmosphere is inferred to be the result of",
+      "choices": [
+        "outgassing from Earth\u2019s interior",
+        "crustal plate movement",
+        "convection in Earth\u2019s outer core",
+        "decay of radioactive isotopes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The diagram below represents one position of Earth in its orbit around the Sun and 12 constellations that can be seen in the night sky by an observer in New York State. Aries Pisces Aquarius Capricornus Sagittarius Scorpius Libra Virgo Leo Cancer Gemini Taurus Earth Sun (Not drawn to scale) Which statement best explains why some constellations are not visible in the night sky in New York State at certain times of the year?",
+      "choices": [
+        "Earth spins on its axis.",
+        "The constellations spin on their axes.",
+        "Earth orbits the Sun.",
+        "The constellations orbit Earth."
+      ],
+      "image": "/images/exams/earth-science/january-2026/q7.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "written",
+      "text": "Which diagram correctly shows the orientation of Earth\u2019s tilted axis in relation to the Sun as Earth revolves around the Sun? Sun ( 1 ) Sun ( 3 ) Sun (Not drawn to scale) ( 2 ) Sun ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "written",
+      "text": "Which station model correctly represents a location with overcast skies that is experiencing drizzle with a visibility of one-quarter mile? .25 .25 ( 1 ) ( 2 ) ( 3 ) 1 4 ( 4 ) 1 4",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the water cycle. Letter A identifi es one of the processes occurring in the cycle. Lake A Groundwater Water absorbed by roots Runoff The process represented by letter A involves",
+      "choices": [
+        "334 J/g of heat energy gained to change into water vapor",
+        "334 J/g of heat energy released into the lake water",
+        "2260 J/g of heat energy gained to change into water vapor",
+        "2260 J/g of heat energy released into the lake water"
+      ],
+      "image": "/images/exams/earth-science/january-2026/q10.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Approximately 90% of atmospheric ozone is located in the stratosphere. Between which altitudes is most of this ozone layer located?",
+      "choices": [
+        "0 km and 10 km",
+        "12 km and 50 km",
+        "50 km and 75 km",
+        "80 km and 120 km"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "On March 21, the duration of insolation at Albany, New York, is approximately 12 hours. Each day for the next six months, the duration of insolation at Albany will",
+      "choices": [
+        "decrease",
+        "increase",
+        "decrease, then increase",
+        "increase, then decrease"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The photograph below shows Chimborazo, a volcano in South America, located near the equator. Source: http://www.alpineinstitute.com/catalog/ecuador- chimborazo-climb/ Which climate factor is responsible for the snow on this volcano?",
+      "choices": [
+        "low latitude",
+        "low elevation",
+        "high latitude",
+        "high elevation"
+      ],
+      "image": "/images/exams/earth-science/january-2026/q13.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The least absorption of insolation occurs with surfaces that are",
+      "choices": [
+        "dark and smooth",
+        "dark and rough",
+        "light and smooth",
+        "light and rough"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Why is the range between the summer and winter temperatures greater in central New York State than on Long Island?",
+      "choices": [
+        "Long Island has a higher percentage of urbanization.",
+        "Long Island is surrounded by a large body of water.",
+        "Central New York State has higher elevations.",
+        "Central New York State receives more insolation."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Equal amounts of which material at room temperature would have the greatest increase in temperature with the addition of 100 joules of heat?",
+      "choices": [
+        "basalt",
+        "copper",
+        "granite",
+        "water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The photograph below is a satellite image of a portion of the Northern Hemisphere. Source: https://www.star.nesdis.noaa.gov/goes/ conus_band.php?sat=G16&band=02&length=12 The white regions on this image indicate areas of",
+      "choices": [
+        "cloud cover",
+        "snow cover",
+        "high pressure",
+        "fl ooded surfaces"
+      ],
+      "image": "/images/exams/earth-science/january-2026/q17.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "written",
+      "text": "Which map best indicates the inferred position of Earth\u2019s landmasses when the fi rst coral reefs were formed? ( 1 ) ( 3 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The photograph below shows an outcrop. Source: https://dec.vermont.gov/geological-survey/about/current-projects What evidence shown in the photograph indicates that crustal movement has occurred?",
+      "choices": [
+        "A variety of sediment sizes are shown.",
+        "The rock layers have different thicknesses.",
+        "A forest of trees are found above the outcrop.",
+        "The rock layers are no longer horizontal."
+      ],
+      "image": "/images/exams/earth-science/january-2026/q19.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "written",
+      "text": "The block diagram below shows some of the bedrock geology and landscape regions in the states of Virginia and West Virginia. Valley and Ridge Appalachian Plateau Blue Ridge Coastal Plain Which stream drainage pattern has most likely developed in the Valley and Ridge landscape region of Virginia? ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "In the expanse of geologic time, which group of organisms listed below has existed for the shortest period of time?",
+      "choices": [
+        "birds",
+        "dinosaurs",
+        "humans",
+        "placoderm fi sh"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which index fossil found in surface bedrock of New York State may be classifi ed as a Cambrian- age trilobite?",
+      "choices": [
+        "Elliptocephala",
+        "Cryptolithus",
+        "Centroceras",
+        "Phacops"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Preserved life-forms, found in the fossil record, show the progression to more complex organisms over geologic time. This pattern of fossils provides evidence for",
+      "choices": [
+        "plate tectonics",
+        "animal migration",
+        "the evolution of life",
+        "the widespread distribution of life"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Earth\u2019s last magnetic pole reversal occurred about 780,000 years ago. Evidence on Earth\u2019s surface for this phenomenon would be found in the",
+      "choices": [
+        "basaltic bedrock found along the Mid-Atlantic Ridge",
+        "metamorphic bedrock in Australia",
+        "salt and gypsum deposits found in the Erie-Ontario Lowlands",
+        "sand and clay deposits along the west coast of the United States"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Convection currents that cause Earth\u2019s lithospheric plates to move occur in the",
+      "choices": [
+        "plastic mantle",
+        "stiffer mantle",
+        "outer core",
+        "inner core"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Compared to the density and thickness of continental crust, the oceanic crust is",
+      "choices": [
+        "more dense and thicker",
+        "more dense and thinner",
+        "less dense and thicker",
+        "less dense and thinner"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Landslides are most commonly found in regions having a",
+      "choices": [
+        "low rainfall event and gentle slopes",
+        "low rainfall event and steep slopes",
+        "high rainfall event and gentle slopes",
+        "high rainfall event and steep slopes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Vesicular texture is used to describe",
+      "choices": [
+        "metamorphic rocks with distorted pebbles",
+        "igneous rocks with gas pockets",
+        "metamorphic rocks with platy mica crystals",
+        "igneous rocks that are smooth and glassy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which characteristic would be most useful in distinguishing graphite from magnetite?",
+      "choices": [
+        "luster",
+        "color",
+        "streak",
+        "hardness"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a sample of gneiss. What is the texture and grain size of this gneiss?",
+      "choices": [
+        "foliated and fi ne grained",
+        "foliated and coarse grained",
+        "nonfoliated and fi ne grained",
+        "nonfoliated and coarse grained"
+      ],
+      "image": "/images/exams/earth-science/january-2026/q30.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which table best describes the landscape category and the general bedrock structure, type, and composition of bedrock in Old Forge, New York? Landscape Category plateau region Bedrock Structure horizontal Bedrock Type sedimentary Bedrock Composition limestone, shale, sandstone",
+      "choices": [
+        "Landscape Category mountain region Bedrock Structure folded Bedrock Type metamorphic Bedrock Composition gneiss, quartzite, marble",
+        "Landscape Category plateau region Bedrock Structure folded Bedrock Type sedimentary Bedrock Composition limestone, shale, sandstone",
+        "Landscape Category mountain region Bedrock Structure horizontal Bedrock Type metamorphic Bedrock Composition gneiss, quartzite, marble",
+        ""
+      ],
+      "image": "/images/exams/earth-science/january-2026/q31.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The satellite image below shows a portion of a river as it enters the ocean. OCEAN Source: https://www.tinyurl.com/yas5hpw5 Which landform is produced where this river enters the ocean?",
+      "choices": [
+        "delta",
+        "landslide",
+        "string of kettle lakes",
+        "string of fi nger lakes"
+      ],
+      "image": "/images/exams/earth-science/january-2026/q32.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a series of long, parallel gouges on the surface of exposed bedrock in New York City. Parallel gouges Source: https://hudsonvalleygeologist.blogspot.com/2011/03/ umpire-rat-rock-in-central-park.html The gouges on the rock were formed by boulders that were",
+      "choices": [
+        "deposited on bedrock at the bottom of a river",
+        "tumbled over the bedrock on a hillside during a landslide",
+        "moved along the bedrock at the bottom of a stream",
+        "dragged across the bedrock at the bottom of a glacier"
+      ],
+      "image": "/images/exams/earth-science/january-2026/q33.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The map below shows major watershed areas in New York State. Letters A through K represent individual watersheds. A F G B H \u0d86 N K J C D E Which table indicates the watersheds of the Mohawk River and the Susquehanna River? River Watershed Mohawk \u0d7a Susquehanna B",
+      "choices": [
+        "River Watershed Mohawk J Susquehanna H",
+        "River Watershed Mohawk H Susquehanna J",
+        "River Watershed Mohawk B Susquehanna \u0d7a",
+        ""
+      ],
+      "image": "/images/exams/earth-science/january-2026/q34.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a dome of rock found in Saratoga Springs, New York. The dome of rock is travertine, a variety of limestone. Which mineral makes up most of the travertine?",
+      "choices": [
+        "quartz",
+        "calcite",
+        "halite",
+        "talc"
+      ],
+      "image": "/images/exams/earth-science/january-2026/q35.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which weather instrument is shown?",
+      "choices": [
+        "anemometer",
+        "psychrometer",
+        "barometer",
+        "rain gauge"
+      ],
+      "image": "/images/exams/earth-science/january-2026/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the diagram below and on your knowledge of Earth science.\nWet bulb\nDry bulb\nHandle\n-15 -10 -5\n0\n5\n10\n15\n20\n25\n30\n35 40\u00b0C\n-15 -10 -5\n0\n5\n10\n15\n20\n25\n30\n35 40\u00b0C\nThe diagram represents a weather instrument used to determine relative humidity and dew point.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "According to the temperature readings shown, what is the dew point?",
+      "choices": [
+        "5\u00b0C",
+        "12\u00b0C",
+        "17\u00b0C",
+        "63\u00b0C"
+      ],
+      "image": "/images/exams/earth-science/january-2026/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the diagram below and on your knowledge of Earth science.\nWet bulb\nDry bulb\nHandle\n-15 -10 -5\n0\n5\n10\n15\n20\n25\n30\n35 40\u00b0C\n-15 -10 -5\n0\n5\n10\n15\n20\n25\n30\n35 40\u00b0C\nThe diagram represents a weather instrument used to determine relative humidity and dew point.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which conditions would exist if the relative humidity were 100%?",
+      "choices": [
+        "The dry-bulb temperature would be below the wet-bulb temperature.",
+        "The dry-bulb temperature would be the same as the wet-bulb temperature.",
+        "The wet-bulb temperature would be lower than 0\u00b0C and the dry-bulb temperature would be higher than 0\u00b0C.",
+        "The wet-bulb temperature would be lower than 20\u00b0C and the dry-bulb temperature would be higher than 20\u00b0C."
+      ],
+      "image": "/images/exams/earth-science/january-2026/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the diagram below and on your knowledge of Earth science.\nWet bulb\nDry bulb\nHandle\n-15 -10 -5\n0\n5\n10\n15\n20\n25\n30\n35 40\u00b0C\n-15 -10 -5\n0\n5\n10\n15\n20\n25\n30\n35 40\u00b0C\nThe diagram represents a weather instrument used to determine relative humidity and dew point.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which tectonic plate is subducting under the Sandwich Plate?",
+      "choices": [
+        "South American Plate",
+        "African Plate",
+        "Antarctic Plate",
+        "Scotia Plate"
+      ],
+      "image": "/images/exams/earth-science/january-2026/context_39_42.png",
+      "context": "Base your answers to questions 39 through 42 on the passage and map below and on your knowledge of Earth \nscience. The map shows the ocean fl oor and the location of seven volcanic islands, labeled A through G, found on \nthe Sandwich Plate. Tectonic plate boundaries are indicated. One plate boundary is labeled X.\nThe Sandwich Plate is one of the smallest tectonic plates on Earth. Several volcanic \nislands are located west of the South Sandwich Trench. Due to their location, most of the \nislands are covered by glaciers. This chain of volcanic islands is a result of subduction. \nDue to their volcanic origin, over 70% of the islands are made of basalt from lava fl ows. \nA spreading center is located west of these islands.\nX\nSandwich\nPlate\nG\nF\nE\nD\nC\nB\nA\nSO\nUT\nH   \nSA\nND\nWIC\nH   T\nREN\nCH\n30\u00b0 W\n28\u00b0 W\n26\u00b0 W\n56\u00b0 S\n57\u00b0 S\n58\u00b0 S\n59\u00b0 S\n60\u00b0 S\n56\u00b0 S\n57\u00b0 S\n58\u00b0 S\n59\u00b0 S\n60\u00b0 S\n30\u00b0 W\n28\u00b0 W\n26\u00b0 W\n\nP.S./E. Sci.\u2013Jan. \u201926 \n[15] \n[OVER]",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which type of plate boundary is represented by letter X?",
+      "choices": [
+        "convergent",
+        "complex or uncertain",
+        "divergent",
+        "transform"
+      ],
+      "image": "/images/exams/earth-science/january-2026/context_39_42.png",
+      "context": "Base your answers to questions 39 through 42 on the passage and map below and on your knowledge of Earth \nscience. The map shows the ocean fl oor and the location of seven volcanic islands, labeled A through G, found on \nthe Sandwich Plate. Tectonic plate boundaries are indicated. One plate boundary is labeled X.\nThe Sandwich Plate is one of the smallest tectonic plates on Earth. Several volcanic \nislands are located west of the South Sandwich Trench. Due to their location, most of the \nislands are covered by glaciers. This chain of volcanic islands is a result of subduction. \nDue to their volcanic origin, over 70% of the islands are made of basalt from lava fl ows. \nA spreading center is located west of these islands.\nX\nSandwich\nPlate\nG\nF\nE\nD\nC\nB\nA\nSO\nUT\nH   \nSA\nND\nWIC\nH   T\nREN\nCH\n30\u00b0 W\n28\u00b0 W\n26\u00b0 W\n56\u00b0 S\n57\u00b0 S\n58\u00b0 S\n59\u00b0 S\n60\u00b0 S\n56\u00b0 S\n57\u00b0 S\n58\u00b0 S\n59\u00b0 S\n60\u00b0 S\n30\u00b0 W\n28\u00b0 W\n26\u00b0 W\n\nP.S./E. Sci.\u2013Jan. \u201926 \n[15] \n[OVER]",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Peridotite has also been found exposed along the sides of some of the volcanic islands. How is this rock different than the basalt that makes up 70% of the islands?",
+      "choices": [
+        "Basalt contains more olivine than peridotite.",
+        "Basalt contains more quartz than peridotite.",
+        "Peridotite formed extrusively, while basalt formed intrusively.",
+        "Peridotite formed intrusively, while basalt formed extrusively."
+      ],
+      "image": "/images/exams/earth-science/january-2026/context_39_42.png",
+      "context": "Base your answers to questions 39 through 42 on the passage and map below and on your knowledge of Earth \nscience. The map shows the ocean fl oor and the location of seven volcanic islands, labeled A through G, found on \nthe Sandwich Plate. Tectonic plate boundaries are indicated. One plate boundary is labeled X.\nThe Sandwich Plate is one of the smallest tectonic plates on Earth. Several volcanic \nislands are located west of the South Sandwich Trench. Due to their location, most of the \nislands are covered by glaciers. This chain of volcanic islands is a result of subduction. \nDue to their volcanic origin, over 70% of the islands are made of basalt from lava fl ows. \nA spreading center is located west of these islands.\nX\nSandwich\nPlate\nG\nF\nE\nD\nC\nB\nA\nSO\nUT\nH   \nSA\nND\nWIC\nH   T\nREN\nCH\n30\u00b0 W\n28\u00b0 W\n26\u00b0 W\n56\u00b0 S\n57\u00b0 S\n58\u00b0 S\n59\u00b0 S\n60\u00b0 S\n56\u00b0 S\n57\u00b0 S\n58\u00b0 S\n59\u00b0 S\n60\u00b0 S\n30\u00b0 W\n28\u00b0 W\n26\u00b0 W\n\nP.S./E. Sci.\u2013Jan. \u201926 \n[15] \n[OVER]",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "What is the name and relative temperature of the ocean current that fl ows south of the Sandwich Plate?",
+      "choices": [
+        "warm Brazil Current",
+        "cool Brazil Current",
+        "warm Antarctic Circumpolar Current",
+        "cool Antarctic Circumpolar Current"
+      ],
+      "image": "/images/exams/earth-science/january-2026/context_39_42.png",
+      "context": "Base your answers to questions 39 through 42 on the passage and map below and on your knowledge of Earth \nscience. The map shows the ocean fl oor and the location of seven volcanic islands, labeled A through G, found on \nthe Sandwich Plate. Tectonic plate boundaries are indicated. One plate boundary is labeled X.\nThe Sandwich Plate is one of the smallest tectonic plates on Earth. Several volcanic \nislands are located west of the South Sandwich Trench. Due to their location, most of the \nislands are covered by glaciers. This chain of volcanic islands is a result of subduction. \nDue to their volcanic origin, over 70% of the islands are made of basalt from lava fl ows. \nA spreading center is located west of these islands.\nX\nSandwich\nPlate\nG\nF\nE\nD\nC\nB\nA\nSO\nUT\nH   \nSA\nND\nWIC\nH   T\nREN\nCH\n30\u00b0 W\n28\u00b0 W\n26\u00b0 W\n56\u00b0 S\n57\u00b0 S\n58\u00b0 S\n59\u00b0 S\n60\u00b0 S\n56\u00b0 S\n57\u00b0 S\n58\u00b0 S\n59\u00b0 S\n60\u00b0 S\n30\u00b0 W\n28\u00b0 W\n26\u00b0 W\n\nP.S./E. Sci.\u2013Jan. \u201926 \n[15] \n[OVER]",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "When it is 3:00 p.m. in Anchorage, Alaska, what time is it in Dallas, Texas?",
+      "choices": [
+        "6:00 a.m.",
+        "9:00 a.m.",
+        "12:00 noon",
+        "6:00 p.m."
+      ],
+      "image": "/images/exams/earth-science/january-2026/context_43_44.png",
+      "context": "Base your answers to questions 43 and 44 on the map below and on your knowledge of Earth science. \nThe map shows a portion of North America, including parts of Canada and the United States. The shaded areas \non the map show continental North American time zones. The number in each time zone indicates the difference \nin hours compared to the time at the Prime Meridian. Some cities are labeled on the map.\n60\u00b0 N\nMountain\nStandard Time\n\u20137\nPacific\nStandard Time\n\u20138\nRegina\nWinnipeg\nCentral\nStandard Time\n\u20136\nPueblo\nDallas\nATLANTIC \nOCEAN\n135\u00b0 W\n120\u00b0 W\n105\u00b0 W\n90\u00b0 W\n40\u00b0 N\n165\u00b0 W\n180\u00b0 W\n150\u00b0 W\nAnchorage\nPACIFIC \nOCEAN\n40\u00b0 N\nAlaska\nStandard Time\n\u20139\nEastern\nStandard Time\n\u20135\nSpringfield\nSavannah\nSta\nEastern\nStandard Time\n\u20135\nSpringfield\nSavannah",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "From which two cities can Polaris be observed at nearly the same angle above the northern horizon?",
+      "choices": [
+        "Dallas and Savannah",
+        "Regina and Springfi eld",
+        "Pueblo and Savannah",
+        "Winnipeg and Dallas"
+      ],
+      "image": "/images/exams/earth-science/january-2026/context_43_44.png",
+      "context": "Base your answers to questions 43 and 44 on the map below and on your knowledge of Earth science. \nThe map shows a portion of North America, including parts of Canada and the United States. The shaded areas \non the map show continental North American time zones. The number in each time zone indicates the difference \nin hours compared to the time at the Prime Meridian. Some cities are labeled on the map.\n60\u00b0 N\nMountain\nStandard Time\n\u20137\nPacific\nStandard Time\n\u20138\nRegina\nWinnipeg\nCentral\nStandard Time\n\u20136\nPueblo\nDallas\nATLANTIC \nOCEAN\n135\u00b0 W\n120\u00b0 W\n105\u00b0 W\n90\u00b0 W\n40\u00b0 N\n165\u00b0 W\n180\u00b0 W\n150\u00b0 W\nAnchorage\nPACIFIC \nOCEAN\n40\u00b0 N\nAlaska\nStandard Time\n\u20139\nEastern\nStandard Time\n\u20135\nSpringfield\nSavannah\nSta\nEastern\nStandard Time\n\u20135\nSpringfield\nSavannah",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which star would appear red to the unaided eye?",
+      "choices": [
+        "Vega",
+        "Procyon",
+        "Altair",
+        "Antares"
+      ],
+      "image": "/images/exams/earth-science/january-2026/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the data table below, which describes the ten stars that \nappear brightest in the nighttime sky over New York State. Stars are ranked by how bright they appear to the \nunaided eye from 1 (brightest) to 10 (dimmest). Distances are measured in light-years from Earth. A light-year \nis the distance light travels in one year. \nThe Ten Brightest Stars in New York State Nighttime Skies\nRank\nStar Name\nLuminosity \n(relative to Sun)\nDistance \n(light-years)\nSurface Temperature \n(K)\n(brightest)\n1\nSirius\n27\n8.6\n9500\n2\nArcturus\n298\n36.7\n4106\n3\nVega\n61\n25.3\n8912\n4\nCapella\n162\n42.2\n5419\n5\nRigel\n51,194\n777\n9076\n6\nProcyon\n7.5\n11.6\n6500\n7\nBetelgeuse\n58,980\n429\n3488\n8\nAltair\n12\n16.8\n7757\n9\nAldebaran\n1080\n65\n3406\n(dimmest)\n10\nAntares\n387,000\n604\n2776",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Based on its luminosity and temperature, the star Capella would be classifi ed as a",
+      "choices": [
+        "main sequence",
+        "white dwarf",
+        "giant",
+        "supergiant"
+      ],
+      "image": "/images/exams/earth-science/january-2026/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the data table below, which describes the ten stars that \nappear brightest in the nighttime sky over New York State. Stars are ranked by how bright they appear to the \nunaided eye from 1 (brightest) to 10 (dimmest). Distances are measured in light-years from Earth. A light-year \nis the distance light travels in one year. \nThe Ten Brightest Stars in New York State Nighttime Skies\nRank\nStar Name\nLuminosity \n(relative to Sun)\nDistance \n(light-years)\nSurface Temperature \n(K)\n(brightest)\n1\nSirius\n27\n8.6\n9500\n2\nArcturus\n298\n36.7\n4106\n3\nVega\n61\n25.3\n8912\n4\nCapella\n162\n42.2\n5419\n5\nRigel\n51,194\n777\n9076\n6\nProcyon\n7.5\n11.6\n6500\n7\nBetelgeuse\n58,980\n429\n3488\n8\nAltair\n12\n16.8\n7757\n9\nAldebaran\n1080\n65\n3406\n(dimmest)\n10\nAntares\n387,000\n604\n2776",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "When viewed from Earth, why does Arcturus appear brighter than Betelgeuse?",
+      "choices": [
+        "Arcturus is hotter and farther from Earth than Betelgeuse.",
+        "Arcturus is hotter and closer to Earth than Betelgeuse.",
+        "Arcturus is cooler and farther from Earth than Betelgeuse.",
+        "Arcturus is cooler and closer to Earth than Betelgeuse."
+      ],
+      "image": "/images/exams/earth-science/january-2026/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the data table below, which describes the ten stars that \nappear brightest in the nighttime sky over New York State. Stars are ranked by how bright they appear to the \nunaided eye from 1 (brightest) to 10 (dimmest). Distances are measured in light-years from Earth. A light-year \nis the distance light travels in one year. \nThe Ten Brightest Stars in New York State Nighttime Skies\nRank\nStar Name\nLuminosity \n(relative to Sun)\nDistance \n(light-years)\nSurface Temperature \n(K)\n(brightest)\n1\nSirius\n27\n8.6\n9500\n2\nArcturus\n298\n36.7\n4106\n3\nVega\n61\n25.3\n8912\n4\nCapella\n162\n42.2\n5419\n5\nRigel\n51,194\n777\n9076\n6\nProcyon\n7.5\n11.6\n6500\n7\nBetelgeuse\n58,980\n429\n3488\n8\nAltair\n12\n16.8\n7757\n9\nAldebaran\n1080\n65\n3406\n(dimmest)\n10\nAntares\n387,000\n604\n2776",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "What is the latitude and longitude of the epicenter of this earthquake?",
+      "choices": [
+        "51\u00b0 N, 1\u00b0 E",
+        "51\u00b0 N, 1\u00b0 W",
+        "1\u00b0 N, 51\u00b0 E",
+        "1\u00b0 N, 51\u00b0 W"
+      ],
+      "image": "/images/exams/earth-science/january-2026/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the map and diagram below and on your knowledge of \nEarth science. The star (\uf0ea) on the map shows the location of the epicenter of an earthquake that occurred in \nthe British Isles on April 28, 2007. The diagram represents seismograms showing the arrival of P- and S-waves \nrecorded from this earthquake at three locations.\n20\u00b0 W\nBritish\nIsles\n10\u00b0 W\nSite of April 28, 2007 Earthquake\n0\u00b0\n10\u00b0 E\n20\u00b0 E\n60\u00b0 N\n50\u00b0 N\n50\u00b0 N\n10\u00b0 W\n0\u00b0\n10\u00b0 E\n20\u00b0 E\nEurope\nEdinburgh\nSeismograms of April 28, 2007 Earthquake\n from Three Stations\nP\nS\nPoole\nP\nS\nHertford\nP\nS\n\nP.S./E. Sci.\u2013Jan. \u201926 \n[19] \n[OVER]",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Based on the seismograms, which list shows the three locations from the closest to the epicenter to farthest from the epicenter?",
+      "choices": [
+        "Edinburgh \u2192 Poole \u2192 Hertford",
+        "Edinburgh \u2192 Hertford \u2192 Poole",
+        "Hertford \u2192 Poole \u2192 Edinburgh",
+        "Hertford \u2192 Edinburgh \u2192 Poole"
+      ],
+      "image": "/images/exams/earth-science/january-2026/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the map and diagram below and on your knowledge of \nEarth science. The star (\uf0ea) on the map shows the location of the epicenter of an earthquake that occurred in \nthe British Isles on April 28, 2007. The diagram represents seismograms showing the arrival of P- and S-waves \nrecorded from this earthquake at three locations.\n20\u00b0 W\nBritish\nIsles\n10\u00b0 W\nSite of April 28, 2007 Earthquake\n0\u00b0\n10\u00b0 E\n20\u00b0 E\n60\u00b0 N\n50\u00b0 N\n50\u00b0 N\n10\u00b0 W\n0\u00b0\n10\u00b0 E\n20\u00b0 E\nEurope\nEdinburgh\nSeismograms of April 28, 2007 Earthquake\n from Three Stations\nP\nS\nPoole\nP\nS\nHertford\nP\nS\n\nP.S./E. Sci.\u2013Jan. \u201926 \n[19] \n[OVER]",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "More earthquakes occur in Iceland and along the west coast of the United States than in the British Isles because Iceland and the west coast of the United States",
+      "choices": [
+        "are located on plate boundaries while the British Isles are not",
+        "are closer to the asthenosphere than the British Isles",
+        "have fewer fault zones than the British Isles",
+        "have less volcanic bedrock than the British Isles"
+      ],
+      "image": "/images/exams/earth-science/january-2026/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the map and diagram below and on your knowledge of \nEarth science. The star (\uf0ea) on the map shows the location of the epicenter of an earthquake that occurred in \nthe British Isles on April 28, 2007. The diagram represents seismograms showing the arrival of P- and S-waves \nrecorded from this earthquake at three locations.\n20\u00b0 W\nBritish\nIsles\n10\u00b0 W\nSite of April 28, 2007 Earthquake\n0\u00b0\n10\u00b0 E\n20\u00b0 E\n60\u00b0 N\n50\u00b0 N\n50\u00b0 N\n10\u00b0 W\n0\u00b0\n10\u00b0 E\n20\u00b0 E\nEurope\nEdinburgh\nSeismograms of April 28, 2007 Earthquake\n from Three Stations\nP\nS\nPoole\nP\nS\nHertford\nP\nS\n\nP.S./E. Sci.\u2013Jan. \u201926 \n[19] \n[OVER]",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Describe how the gravitational force between Halley\u2019s Comet and the Sun changes as it travels from location A to perihelion and then back to position A again.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a portion of our solar system. The Sun (S) and the orbits of four planets are labeled. \nHalley\u2019s comet (\n) is shown at perihelion, its closest distance to the Sun. The path of Halley\u2019s Comet is also \nlabeled. Letter A represents another location in the orbit of Halley\u2019s Comet.\nJ\nu\np\ni\nt\ne\nr\n\u2019\ns\no\nr\nb\ni\nt\nA\nNep\ntun\ne\u2019s\norbi\nt\nHalley\u2019s comet\u2019s orbit\n(Not drawn to scale)\nE\na\nr\nt\nh\n\u2019\ns\no\nr\nb\ni\nt\nS\na\nt\nu\nr\nn\n\u2019\ns\no\nr\nb\nit\nS",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The gravitational force increases from location A to perihelion, and then decreases form perihelion to location A. \u2014 increases, then decreases \u2014 gets greater, then it gets less \u2014 As the comet gets closer to the Sun, the force gets stronger; as the comet gets farther from the Sun, the force gets weaker."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Compared to the terrestrial planets, describe how the mass and density of the Jovian planets are different.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a portion of our solar system. The Sun (S) and the orbits of four planets are labeled. \nHalley\u2019s comet (\n) is shown at perihelion, its closest distance to the Sun. The path of Halley\u2019s Comet is also \nlabeled. Letter A represents another location in the orbit of Halley\u2019s Comet.\nJ\nu\np\ni\nt\ne\nr\n\u2019\ns\no\nr\nb\ni\nt\nA\nNep\ntun\ne\u2019s\norbi\nt\nHalley\u2019s comet\u2019s orbit\n(Not drawn to scale)\nE\na\nr\nt\nh\n\u2019\ns\no\nr\nb\ni\nt\nS\na\nt\nu\nr\nn\n\u2019\ns\no\nr\nb\nit\nS",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for two correct responses. Acceptable responses include, but are not limited to: Mass: \u2014 mass is greater \u2014 larger \u2014 more \u2014 Jovian planets have a greater mass. Density: \u2014 smaller \u2014 less \u2014 Terrestrial planets have a greater density."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, the shaded distance between 0 mm and 1 mm represents the equatorial diameter of Earth drawn to scale. On this same diagram, starting at 0 mm, shade in the bar labeled \u201cdiameter of Sun\u201d to represent the equatorial diameter of the Sun to the same scale.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a portion of our solar system. The Sun (S) and the orbits of four planets are labeled. \nHalley\u2019s comet (\n) is shown at perihelion, its closest distance to the Sun. The path of Halley\u2019s Comet is also \nlabeled. Letter A represents another location in the orbit of Halley\u2019s Comet.\nJ\nu\np\ni\nt\ne\nr\n\u2019\ns\no\nr\nb\ni\nt\nA\nNep\ntun\ne\u2019s\norbi\nt\nHalley\u2019s comet\u2019s orbit\n(Not drawn to scale)\nE\na\nr\nt\nh\n\u2019\ns\no\nr\nb\ni\nt\nS\na\nt\nu\nr\nn\n\u2019\ns\no\nr\nb\nit\nS",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for shading the bar labeled \u201cDiameter of Sun\u201d that ends in the clear rectangle area from 108 mm to 110 mm, as shown below: 0 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 Diameter of Earth Diameter of Sun Scale 1 mm = 12,756 km Note: Allow 1 credit for a student answer that correctly marks the diameter of the Sun even if the area is not shaded between zero and their mark. Part B\u20132 Allow a maximum of 15 credits for this part. To ensure the accuracy of overlays, select a printer setting such as full, actual size, or 100% when printing this document. Do not select the fi t to page setting. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Explain why location B, which is located on the outside of a meander curve, has a greater amount of erosion than location A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the block diagram below and on your knowledge of Earth \nscience. The diagram represents a meandering river fl owing into a lake. Letters A and B indicate locations along \nthe riverbank.\n(Not drawn to scale)\nA\nB\nMeanders\nLake\nN",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The velocity of the river is greater at location B so the water can carry larger and more particles. \u2014 The velocity of the river is greater on the outside of the curve of the meander."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "In terms of sediment size, describe the pattern of deposition that occurs when the transported sediments enter the lake.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the block diagram below and on your knowledge of Earth \nscience. The diagram represents a meandering river fl owing into a lake. Letters A and B indicate locations along \nthe riverbank.\n(Not drawn to scale)\nA\nB\nMeanders\nLake\nN",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Particle size decreases as you travel farther off shore. \u2014 Larger particles are deposited closer to the shoreline and smaller particles are deposited farther out. \u2014 Sediments are deposited from larger to smaller sizes, horizontally ."
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Describe how the sediment transported in the river weathers and becomes rounded.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the block diagram below and on your knowledge of Earth \nscience. The diagram represents a meandering river fl owing into a lake. Letters A and B indicate locations along \nthe riverbank.\n(Not drawn to scale)\nA\nB\nMeanders\nLake\nN",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The sediments become rounder by abrasion with other sediments. \u2014 Sharp corners break off or wear off when they hit other rocks or sediments. \u2014 Particles tumble, bounce, and roll along the bed of the river, chipping off parts to become rounder. \u2014 Particles collide with other rock fragments or sediments. Note: Do not allow credit for \u201cwater erosion\u201d because \u201cwater\u201d alone, without sediments, does not produce rounding."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Determine the correct relative age sequence of rock layers V, W, X, Y, and Z from oldest to youngest.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the cross sections below and on your knowledge of Earth \nscience. The cross sections represent rock units labeled V, W, X, Y, and Z in three hills in a region. A New York \nState index fossil is found in one rock layer. No overturning of rock layers has occurred.\n(Not drawn to scale)\nUnconformity\nY\nX\nV\nW\nZ\nV\nX\nY\nV\nZ\nHill 1\nHill 2\nHill 3",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a correct sequence, as shown below: Oldest Youngest W Z V X Y"
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Explain how rock unit W formed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the cross sections below and on your knowledge of Earth \nscience. The cross sections represent rock units labeled V, W, X, Y, and Z in three hills in a region. A New York \nState index fossil is found in one rock layer. No overturning of rock layers has occurred.\n(Not drawn to scale)\nUnconformity\nY\nX\nV\nW\nZ\nV\nX\nY\nV\nZ\nHill 1\nHill 2\nHill 3",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Schist formed from the metamorphism of clay or feldspar under extreme heat and pressure. \u2014 formed from the high temperature and pressure conditions \u2014 regional metamorphism of slate and/or phyllite P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Describe one characteristic of index fossils that allows them to be useful in correlating rock layers.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the cross sections below and on your knowledge of Earth \nscience. The cross sections represent rock units labeled V, W, X, Y, and Z in three hills in a region. A New York \nState index fossil is found in one rock layer. No overturning of rock layers has occurred.\n(Not drawn to scale)\nUnconformity\nY\nX\nV\nW\nZ\nV\nX\nY\nV\nZ\nHill 1\nHill 2\nHill 3",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 They are distributed over a wide geographic area. \u2014 They lived for a short period of time. \u2014 easily recognizable"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Determine the contour interval for this map.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the topographic map below and on your knowledge of Earth \nscience. The map shows a portion of the Colorado Rockies in the western United States. Elevations are measured \nin feet.\nB\n11600 \n11800 \n0\n0.1\n0.2\n0.4\n0.3\nD\n12200 \n12000 \nN\n11000 \nA\n11200 \n11400 \nC\nMiles (mi)\nStream",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 40 ft."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Identify the general direction the stream fl ows on this map.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the topographic map below and on your knowledge of Earth \nscience. The map shows a portion of the Colorado Rockies in the western United States. Elevations are measured \nin feet.\nB\n11600 \n11800 \n0\n0.1\n0.2\n0.4\n0.3\nD\n12200 \n12000 \nN\n11000 \nA\n11200 \n11400 \nC\nMiles (mi)\nStream",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for north or northward."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Explain how the contour lines on the map indicate that the slope between points C and D is steeper than the slope between points A and B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the topographic map below and on your knowledge of Earth \nscience. The map shows a portion of the Colorado Rockies in the western United States. Elevations are measured \nin feet.\nB\n11600 \n11800 \n0\n0.1\n0.2\n0.4\n0.3\nD\n12200 \n12000 \nN\n11000 \nA\n11200 \n11400 \nC\nMiles (mi)\nStream",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The contour lines are closer together between points C and D. \u2014 The contour lines are farther apart between points A and B. \u2014 There are more contour lines between points C and D. \u2014 There are more lines closer together."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Describe the change in the strength of the trade winds during an El Ni\u00f1o event.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the two maps and cross sections below and on your \nknowledge of Earth science. The maps and cross sections represent oceanic and atmospheric circulation during \nnormal conditions and El Ni\u00f1o conditions. Ocean currents and trade-wind directions are indicated with arrows. \nClouds indicate regions of frequent thunderstorm activity.\nEquator\nStrong trade winds\nRising moist air\nWarm water\nCold water\nUpwelling\nAustralia\nSouth\nAmerica\nEquator\nWeak trade winds\nRising \nmoist air\nAustralia\nSouth\nAmerica\nCold water\nWarm water\nDescending \ndry air\nNormal Conditions\nSurface Oceanic Circulation\nSurface Oceanic Circulation\nOceanic Atmospheric Circulation\nEl Ni\u00f1o Conditions\n(Not drawn to scale)\nUpwelling\nOceanic Atmospheric Circulation\nOceanic Atmospheric Circulation",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 During El Ni\u00f1o conditions, the trade winds become weaker. \u2014 they become weaker"
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Compared to the general air pressure over Australia under normal conditions, identify how the overall general air pressure over Australia under El Ni\u00f1o conditions is different.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the two maps and cross sections below and on your \nknowledge of Earth science. The maps and cross sections represent oceanic and atmospheric circulation during \nnormal conditions and El Ni\u00f1o conditions. Ocean currents and trade-wind directions are indicated with arrows. \nClouds indicate regions of frequent thunderstorm activity.\nEquator\nStrong trade winds\nRising moist air\nWarm water\nCold water\nUpwelling\nAustralia\nSouth\nAmerica\nEquator\nWeak trade winds\nRising \nmoist air\nAustralia\nSouth\nAmerica\nCold water\nWarm water\nDescending \ndry air\nNormal Conditions\nSurface Oceanic Circulation\nSurface Oceanic Circulation\nOceanic Atmospheric Circulation\nEl Ni\u00f1o Conditions\n(Not drawn to scale)\nUpwelling\nOceanic Atmospheric Circulation\nOceanic Atmospheric Circulation",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 There is a higher air pressure over Australia during El Ni\u00f1o conditions and a lower air pressure over Australia during normal conditions. \u2014 During normal conditions, Australia generally has low pressures, and during El Ni\u00f1o conditions the air pressure is greater."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Describe what happens in rising moist air that causes clouds to form.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the two maps and cross sections below and on your \nknowledge of Earth science. The maps and cross sections represent oceanic and atmospheric circulation during \nnormal conditions and El Ni\u00f1o conditions. Ocean currents and trade-wind directions are indicated with arrows. \nClouds indicate regions of frequent thunderstorm activity.\nEquator\nStrong trade winds\nRising moist air\nWarm water\nCold water\nUpwelling\nAustralia\nSouth\nAmerica\nEquator\nWeak trade winds\nRising \nmoist air\nAustralia\nSouth\nAmerica\nCold water\nWarm water\nDescending \ndry air\nNormal Conditions\nSurface Oceanic Circulation\nSurface Oceanic Circulation\nOceanic Atmospheric Circulation\nEl Ni\u00f1o Conditions\n(Not drawn to scale)\nUpwelling\nOceanic Atmospheric Circulation\nOceanic Atmospheric Circulation",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Air expands and cools, causing water vapor to condense. \u2014 Air is cooled to the dew point. \u2014 Condensation occurs when the rising air reaches the dew point. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw the 20\u00b0F and 40\u00b0F isotherms. Extend the isotherms to the edges of the map.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the weather map in your answer booklet and on your \nknowledge of Earth science. The weather map shows some station model data in and around New York State. \nThe center of a low-pressure system (L) is indicated, and two associated fronts are represented by front A and \nfront B.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly drawing both isotherms extended to the edges of the map. Note: If additional isotherms are drawn, all must be drawn correctly to receive credit. Allow credit if the student draws their lines through the numbers instead of through the center of the weather station model. Example of a 1-credit response: N 38 39 37 40 45 48 46 29 28 26 28 38 40 28 37 27 39 16 19 22 20 L 20 21 L 20 Front A Front B 28"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "The air mass located between these two fronts originated along the Tropic of Cancer in the southern Florida region. Write the two-letter air-mass symbol to represent this air-mass.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the weather map in your answer booklet and on your \nknowledge of Earth science. The weather map shows some station model data in and around New York State. \nThe center of a low-pressure system (L) is indicated, and two associated fronts are represented by front A and \nfront B.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for mT or cT. Allow credit for either uppercase or lowercase letters. Note: Do not allow credit if air-mass letters are reversed, such as Tm. For students who used the Spanish edition, either exclusively or in conjunction with the English edition of the exam, allow credit for the correct two-letter air-mass symbol as it appears in either the English or Spanish 2011 Edition Reference Tables for Physical Setting/Earth Science. Part C Allow a maximum of 20 credits for this part. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Heavy snow with blizzard conditions is forecast for Elmira, New York, during this weather event. Describe two emergency preparedness actions that people should take three to six hours before this storm is predicted to arrive.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the weather map in your answer booklet and on your \nknowledge of Earth science. The weather map shows some station model data in and around New York State. \nThe center of a low-pressure system (L) is indicated, and two associated fronts are represented by front A and \nfront B.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses are correct. Acceptable responses include, but are not limited to: \u2014 Stock up on food and/or water. \u2014 Obtain necessary prescription medications. \u2014 Make sure emergency lighting/fl ashlights operate. \u2014 Buy or change batteries for electronic devices. \u2014 Make sure generator is working. \u2014 Bring fi rewood indoors. \u2014 Buy rock salt to melt ice on sidewalks. \u2014 Check on elderly neighbors to see if they need assistance."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Identify two rock cycle processes that formed the bluestone after the deposition of sand grains.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the passage and map below and on your knowledge of Earth \nscience. The map shows the names of some counties in southeastern New York State and the percentages of \nbluestone currently being mined in those counties.\nNew York State Bluestone\nBluestone is the name given to a specifi c Devonian age sandstone quarried in \nsoutheastern New York. Although called \u201cbluestone,\u201d the color varies from greenish gray \nto grayish-red purple. However, while color is important, it is the mineral composition \nthat makes the rock valuable. Instead of being a quartz sandstone, bluestones are quartz-\nfeldspar sandstones. This mix results in a dense, tough, durable rock ideal for many uses \nsuch as street curbing, patio surfaces, and fi replaces. Bluestone was fi rst mined in Ulster \nCounty over 200 years ago, but other New York counties now produce a greater percentage \nof these valuable and versatile rocks.\nGreene\n1.5%\nUlster\n3%\nDelaware\n33%\nBroome\n51%\nOtsego\n1.5%\nChenango\n6%\nAlbany\n2%\nPercentage of Total Bluestone Mined in Eight New York State Counties\nTompkins\n2%",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for two correct responses. Acceptable responses include, but are not limited to: \u2014 compaction \u2014 cementation \u2014 dewatering \u2014 burial Note: Do not allow credit for deposition or sedimentation, as the question states the sand grains have already been deposited."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State a reason why the color blue is not a useful property for the identifi cation of bluestone.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the passage and map below and on your knowledge of Earth \nscience. The map shows the names of some counties in southeastern New York State and the percentages of \nbluestone currently being mined in those counties.\nNew York State Bluestone\nBluestone is the name given to a specifi c Devonian age sandstone quarried in \nsoutheastern New York. Although called \u201cbluestone,\u201d the color varies from greenish gray \nto grayish-red purple. However, while color is important, it is the mineral composition \nthat makes the rock valuable. Instead of being a quartz sandstone, bluestones are quartz-\nfeldspar sandstones. This mix results in a dense, tough, durable rock ideal for many uses \nsuch as street curbing, patio surfaces, and fi replaces. Bluestone was fi rst mined in Ulster \nCounty over 200 years ago, but other New York counties now produce a greater percentage \nof these valuable and versatile rocks.\nGreene\n1.5%\nUlster\n3%\nDelaware\n33%\nBroome\n51%\nOtsego\n1.5%\nChenango\n6%\nAlbany\n2%\nPercentage of Total Bluestone Mined in Eight New York State Counties\nTompkins\n2%",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The color of bluestone varies from greenish gray to grayish red purple. \u2014 Bluestone isn\u2019t always blue in color. \u2014 Bluestones occur in many colors. \u2014 Some other types of rock may have the same color as bluestone."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "The quartz and feldspar particles in bluestone average 0.05 cm in diameter. State the minimum stream velocity needed to maintain the movement of these particles to their point of deposition in New York State.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the passage and map below and on your knowledge of Earth \nscience. The map shows the names of some counties in southeastern New York State and the percentages of \nbluestone currently being mined in those counties.\nNew York State Bluestone\nBluestone is the name given to a specifi c Devonian age sandstone quarried in \nsoutheastern New York. Although called \u201cbluestone,\u201d the color varies from greenish gray \nto grayish-red purple. However, while color is important, it is the mineral composition \nthat makes the rock valuable. Instead of being a quartz sandstone, bluestones are quartz-\nfeldspar sandstones. This mix results in a dense, tough, durable rock ideal for many uses \nsuch as street curbing, patio surfaces, and fi replaces. Bluestone was fi rst mined in Ulster \nCounty over 200 years ago, but other New York counties now produce a greater percentage \nof these valuable and versatile rocks.\nGreene\n1.5%\nUlster\n3%\nDelaware\n33%\nBroome\n51%\nOtsego\n1.5%\nChenango\n6%\nAlbany\n2%\nPercentage of Total Bluestone Mined in Eight New York State Counties\nTompkins\n2%",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 2 cm/s to 4 cm/s."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "State the name of the New York State landscape region where the highest percentage of bluestone is currently mined.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the passage and map below and on your knowledge of Earth \nscience. The map shows the names of some counties in southeastern New York State and the percentages of \nbluestone currently being mined in those counties.\nNew York State Bluestone\nBluestone is the name given to a specifi c Devonian age sandstone quarried in \nsoutheastern New York. Although called \u201cbluestone,\u201d the color varies from greenish gray \nto grayish-red purple. However, while color is important, it is the mineral composition \nthat makes the rock valuable. Instead of being a quartz sandstone, bluestones are quartz-\nfeldspar sandstones. This mix results in a dense, tough, durable rock ideal for many uses \nsuch as street curbing, patio surfaces, and fi replaces. Bluestone was fi rst mined in Ulster \nCounty over 200 years ago, but other New York counties now produce a greater percentage \nof these valuable and versatile rocks.\nGreene\n1.5%\nUlster\n3%\nDelaware\n33%\nBroome\n51%\nOtsego\n1.5%\nChenango\n6%\nAlbany\n2%\nPercentage of Total Bluestone Mined in Eight New York State Counties\nTompkins\n2%",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Allegheny Plateau or Appalachian Plateau (Uplands). P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a line graph by plotting the disintegration product of uranium-238 for each half-life indicated. Connect all six plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_73_75.png",
+      "context": "Base your answers to questions 73 through 75 on the data table below, the grid in your answer booklet, and \non your knowledge of Earth science. The data table shows the amount of radioactive uranium-238 and the \ndisintegration product of uranium-238 over fi ve half-lives. \nHalf-Life\nRadioactive Uranium-238 \n(%)\nDisintegration Product of \nUranium-238 (%)\n0\n100\n0\n1\n50\n50\n2\n25\n75\n3\n12.5\n87.5\n4\n6.25\n93.75\n5\n3.125\n96.875",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all six plots are within or touch the circles shown and all six plots are correctly connected with a line that passes within or touches each circle. Example of a 1-credit response: 0 1 2 3 4 5 Number of Half-Lives 0 25 50 75 100 Disintegration Product of U-238 (%) Percentage of Disintegration Product Versus Half-Lives Note: Allow credit if the student-drawn line does not pass through the student plots, but is still within or touches the circles. It is recommended that an overlay of the same scale as the student answer booklet be used to ensure reliability in rating."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Describe the relationship between the amount of original radioactive isotope and the amount of disintegration product over time.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_73_75.png",
+      "context": "Base your answers to questions 73 through 75 on the data table below, the grid in your answer booklet, and \non your knowledge of Earth science. The data table shows the amount of radioactive uranium-238 and the \ndisintegration product of uranium-238 over fi ve half-lives. \nHalf-Life\nRadioactive Uranium-238 \n(%)\nDisintegration Product of \nUranium-238 (%)\n0\n100\n0\n1\n50\n50\n2\n25\n75\n3\n12.5\n87.5\n4\n6.25\n93.75\n5\n3.125\n96.875",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 As the amount of original radioactive isotope decreases, over time, the amount of disintegration product increases. \u2014 The amount of disintegration product increases as the original isotope decays. \u2014 inverse relationship/indirect relationship/negative correlation"
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Identify the disintegration product for this radioactive isotope.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_73_75.png",
+      "context": "Base your answers to questions 73 through 75 on the data table below, the grid in your answer booklet, and \non your knowledge of Earth science. The data table shows the amount of radioactive uranium-238 and the \ndisintegration product of uranium-238 over fi ve half-lives. \nHalf-Life\nRadioactive Uranium-238 \n(%)\nDisintegration Product of \nUranium-238 (%)\n0\n100\n0\n1\n50\n50\n2\n25\n75\n3\n12.5\n87.5\n4\n6.25\n93.75\n5\n3.125\n96.875",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 lead-206 \u2014 206Pb \u2014 Pb-206 Note: Do not allow credit for lead or Pb alone because lead has more than one isotope. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "On the set of axes in your answer booklet, draw a line to represent the relationship between the amount of trees in the Great Green Wall and the amount of carbon dioxide absorbed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the passage and map below, and on your knowledge of \nEarth science. The map shows the location of the Sahara Desert, the Sahel, and the proposed Great Green Wall.\nGreat Green Wall\nThe Great Green Wall is a project to combat the effects of climate change and \ndesertifi cation (becoming a desert) in Northern Africa. The initial idea of this project \nwas to plant a 10-mile wide line of trees resistant to arid conditions along the 4815-mile-\nlong southern border of the Sahara Desert, a region known as the Sahel, to keep the \ndesert from \u201cexpanding\u201d southward. This $8-billion project intends to restore 247 million \nacres of land in danger of becoming a desert. A secondary effect of this project will be to \nrestore grasslands ruined by decades of overuse. Many years of poor farming techniques \nand droughts caused by climate change have removed much of the surface vegetation. \nFertile topsoil has been lost by winds, making the land less able to support crops and other \nvegetation.\nBy 2030, it is expected that these planted trees could absorb approximately 250 metric \ntons of carbon dioxide as part of the trees\u2019 life process of photosynthesis, thus greatly \nreducing the effect carbon dioxide has on global warming. This amount is the equivalent \nof keeping all of California\u2019s cars parked for 3.5 years. Trees will also hold soils in place \nand prevent topsoil erosion. Deep planting pits and placing stone barriers around farming \nfi elds will help raise the level of the water table when rain occurs.\nKey\nProposed Great Green Wall\nSahara Desert\nSahel\nEquator (0\u00b0)\n30\u00b0 N\nNorthern Africa\n\nP.S./E. Sci.\u2013Jan. \u201926 \n[29] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a line drawn that represents a direct relationship. Examples of a 1-credit response: Carbon Dioxide Absorbed Amount of Trees Carbon Dioxide Absorbed Amount of Trees"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "June, July, and sometimes August are the drought season in the Sahel. Describe the relative air temperature and the relative humidity that most likely causes drought conditions in the Sahel.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the passage and map below, and on your knowledge of \nEarth science. The map shows the location of the Sahara Desert, the Sahel, and the proposed Great Green Wall.\nGreat Green Wall\nThe Great Green Wall is a project to combat the effects of climate change and \ndesertifi cation (becoming a desert) in Northern Africa. The initial idea of this project \nwas to plant a 10-mile wide line of trees resistant to arid conditions along the 4815-mile-\nlong southern border of the Sahara Desert, a region known as the Sahel, to keep the \ndesert from \u201cexpanding\u201d southward. This $8-billion project intends to restore 247 million \nacres of land in danger of becoming a desert. A secondary effect of this project will be to \nrestore grasslands ruined by decades of overuse. Many years of poor farming techniques \nand droughts caused by climate change have removed much of the surface vegetation. \nFertile topsoil has been lost by winds, making the land less able to support crops and other \nvegetation.\nBy 2030, it is expected that these planted trees could absorb approximately 250 metric \ntons of carbon dioxide as part of the trees\u2019 life process of photosynthesis, thus greatly \nreducing the effect carbon dioxide has on global warming. This amount is the equivalent \nof keeping all of California\u2019s cars parked for 3.5 years. Trees will also hold soils in place \nand prevent topsoil erosion. Deep planting pits and placing stone barriers around farming \nfi elds will help raise the level of the water table when rain occurs.\nKey\nProposed Great Green Wall\nSahara Desert\nSahel\nEquator (0\u00b0)\n30\u00b0 N\nNorthern Africa\n\nP.S./E. Sci.\u2013Jan. \u201926 \n[29] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses are correct. Acceptable responses include, but are not limited to: Relative air temperature: \u2014 The air temperature is greater. \u2014 higher temperature Relative humidity: \u2014 low \u2014 drier air"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Other than evaporation, identify the process that occurs in trees by which water vapor exits the leaves of the trees.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the passage and map below, and on your knowledge of \nEarth science. The map shows the location of the Sahara Desert, the Sahel, and the proposed Great Green Wall.\nGreat Green Wall\nThe Great Green Wall is a project to combat the effects of climate change and \ndesertifi cation (becoming a desert) in Northern Africa. The initial idea of this project \nwas to plant a 10-mile wide line of trees resistant to arid conditions along the 4815-mile-\nlong southern border of the Sahara Desert, a region known as the Sahel, to keep the \ndesert from \u201cexpanding\u201d southward. This $8-billion project intends to restore 247 million \nacres of land in danger of becoming a desert. A secondary effect of this project will be to \nrestore grasslands ruined by decades of overuse. Many years of poor farming techniques \nand droughts caused by climate change have removed much of the surface vegetation. \nFertile topsoil has been lost by winds, making the land less able to support crops and other \nvegetation.\nBy 2030, it is expected that these planted trees could absorb approximately 250 metric \ntons of carbon dioxide as part of the trees\u2019 life process of photosynthesis, thus greatly \nreducing the effect carbon dioxide has on global warming. This amount is the equivalent \nof keeping all of California\u2019s cars parked for 3.5 years. Trees will also hold soils in place \nand prevent topsoil erosion. Deep planting pits and placing stone barriers around farming \nfi elds will help raise the level of the water table when rain occurs.\nKey\nProposed Great Green Wall\nSahara Desert\nSahel\nEquator (0\u00b0)\n30\u00b0 N\nNorthern Africa\n\nP.S./E. Sci.\u2013Jan. \u201926 \n[29] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for transpiration. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, shade the portion of the Moon that is in darkness, as viewed from New York State, when the Moon is at position B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the Moon at eight positions, A through H, in its orbit around Earth.\nSun\u2019s\nrays\nE\nG\nC\nEarth\nD\nF\nH\nB\nNorth\nPole\nA\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the student shades more than half of the Moon curving toward the lighted side, leaving a lighted crescent on the right edge, as shown below. Examples of a 1-credit response:"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Identify the letter of the Moon\u2019s position in its orbit where a lunar eclipse might be observed from Earth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the Moon at eight positions, A through H, in its orbit around Earth.\nSun\u2019s\nrays\nE\nG\nC\nEarth\nD\nF\nH\nB\nNorth\nPole\nA\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for E."
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "State the number of days needed for the Moon to complete one cycle of phases.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the Moon at eight positions, A through H, in its orbit around Earth.\nSun\u2019s\nrays\nE\nG\nC\nEarth\nD\nF\nH\nB\nNorth\nPole\nA\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 29 d to 30 d."
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Explain how the Moon\u2019s motions cause the same side of the Moon to always face Earth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the Moon at eight positions, A through H, in its orbit around Earth.\nSun\u2019s\nrays\nE\nG\nC\nEarth\nD\nF\nH\nB\nNorth\nPole\nA\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The Moon\u2019s rate of rotation is equal to its rate of revolution. \u2014 For every one moon revolution it also rotates once. \u2014 One spin on the Moon\u2019s axis takes the same time as one orbit around Earth."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Describe the relationship between latitude in the northern hemisphere and the number of daylight hours on this day.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth as viewed from space on December 21.\nNorth Pole \nArctic Circle\nTropic of Cancer\nTropic of Capricorn\nEquator\nAntarctic Circle\nSouth Pole\n(Not drawn to scale)\nDecember 21\nSun\u2019s rays",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit Acceptable responses include, but are not limited to: \u2014 As latitude in the northern hemisphere increases, the number of daylight hours decreases. \u2014 The duration of insolation will be shorter the farther north a location is from the Equator. \u2014 indirect relationship/negative correlation/inverse relationship"
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Describe the change in the length of an observer\u2019s shadow when measured at solar noon on the Tropic of Cancer for the next 3 months.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth as viewed from space on December 21.\nNorth Pole \nArctic Circle\nTropic of Cancer\nTropic of Capricorn\nEquator\nAntarctic Circle\nSouth Pole\n(Not drawn to scale)\nDecember 21\nSun\u2019s rays",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The shadow length will decrease. \u2014 The shadow will be shorter. \u2014 become smaller"
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify the season that is beginning on the Antarctic Circle on this day. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2026/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth as viewed from space on December 21.\nNorth Pole \nArctic Circle\nTropic of Cancer\nTropic of Capricorn\nEquator\nAntarctic Circle\nSouth Pole\n(Not drawn to scale)\nDecember 21\nSun\u2019s rays",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for summer. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    }
+  ]
+}

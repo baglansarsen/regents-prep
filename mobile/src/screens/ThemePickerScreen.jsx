@@ -138,7 +138,7 @@ export default function ThemePickerScreen({ onComplete }) {
 
   return (
     <View style={[styles.root, { backgroundColor: bgColor }]}>
-      <SafeAreaView style={styles.safe} edges={['top', 'bottom']}>
+      <SafeAreaView style={styles.safe} edges={['bottom']}>
 
         {/* Hero text */}
         <View style={styles.hero}>

@@ -1,0 +1,1111 @@
+{
+  "subject": "living-environment",
+  "session": "june-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Producers are generally found at the beginning of a food chain. Which statement best explains why this is true?",
+      "choices": [
+        "Producers are usually smaller in size than consumers.",
+        "Producers do not rely on other organisms for food.",
+        "There are always more consumers than producers in food chains.",
+        "Consumers are always more complex organisms than producers."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A lion cub resembles its parents because it inherits genes that produce",
+      "choices": [
+        "DNA identical to all of the DNA found in both parents",
+        "proteins identical to all of the proteins found in both parents",
+        "ATP identical to some of the ATP found in each parent",
+        "enzymes identical to some of the enzymes found in each parent"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "If body temperature is too high, some blood vessels increase in size and sweat glands will excrete sweat, resulting in a lower body temperature. These changes are an example of",
+      "choices": [
+        "a learned behavior",
+        "feedback mechanisms",
+        "an inherited disorder",
+        "genetic mutations"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "A farmer grows beans that he sells to local markets. Over a period of 40 years, the farmer has identi\ufb01 ed the plants that produced the most beans and only used those beans to produce new plants. This procedure is part of the process of",
+      "choices": [
+        "selective breeding",
+        "genetic engineering",
+        "replication",
+        "cloning"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Although we rely on coal, oil, and natural gas to produce energy, some environmental scientists have proposed that we use less fossil fuel. One reason to support this proposal is to",
+      "choices": [
+        "enable us to preserve rain forests in tropical areas",
+        "help us to reduce the production of carbon dioxide gas",
+        "allow us to decrease the use of fertilizers on crops",
+        "encourage us to end research on wind and water power sources"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The diagram below represents relationships in an ecosystem. Hawks Mountain lions Snakes Field Rabbits Elk mice Trees Shrubs Grasses What is the primary source of energy in this environment?",
+      "choices": [
+        "cellular respiration in the plants",
+        "energy from minerals in the soil",
+        "fossil fuels",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2018/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Research has shown that treadmill training increases the number of certain energy-releasing structures in the brain cells of rats. The cellular structures referred to in this study are most likely",
+      "choices": [
+        "mitochondria",
+        "nuclei",
+        "vacuoles",
+        "ribosomes"
+      ],
+      "image": "/images/exams/living-environment/june-2018/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which process must \ufb01rst take place in order for the proteins in foods to be used by body cells?",
+      "choices": [
+        "digestion",
+        "storage",
+        "synthesis",
+        "excretion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which statement is characteristic of reproduction in humans?",
+      "choices": [
+        "The reproductive cells of males and females differ in chromosome number.",
+        "Males and females produce gametes in the ovaries.",
+        "Males and females produce the same num\u00ad ber of gametes.",
+        "The reproductive cycles of males and females are regulated by hormones."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "written",
+      "text": "Which row in the chart below represents the most likely changes in the atmosphere due to widespread deforestation?",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The chart below represents some of the events that occur during the cycling of nutrients in an ecosystem. X Converts Organic Wastes into Compounds usable by autotrophs Which organisms would most appropriately complete the chart when written in the circle at X?",
+      "choices": [
+        "increases \u2191 increases \u2191",
+        "increases \u2191 decreases \u2193",
+        "decreases \u2193 increases \u2191",
+        "decreases \u2193 decreases \u2193"
+      ],
+      "image": "/images/exams/living-environment/june-2018/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the formation of a cancerous growth. Time Time Skin cells Blood vessel Cancerous growth Which statement best explains the events represented in this diagram?",
+      "choices": [
+        "A gene mutation caused the cells to become muscle cells.",
+        "The growth resulted from the introduction of a vaccine.",
+        "A gene mutation caused abnormal mitotic cell division.",
+        "The growth resulted from uncontrolled meiotic cell division."
+      ],
+      "image": "/images/exams/living-environment/june-2018/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A standard laboratory technique used to produce a new plant is represented in the diagram below. Cell division One leaf cell removed Cells grown in a Cell division Cell specialization Tomato plant laboratory New tomato plant This technique is best identi\ufb01 ed as",
+      "choices": [
+        "gene alteration",
+        "selective breeding",
+        "replication",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2018/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "An example of competition between members of two different species is",
+      "choices": [
+        "mold growing on a dead tree that has fallen in the forest",
+        "purple loosestrife plants growing in the same wet areas as cattail plants",
+        "a coyote feeding on the remains of a deer that died of starvation",
+        "two male turkeys displaying mating behaviors to attract a female turkey"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which statement best explains why different body cells of the same individual look and function differently?",
+      "choices": [
+        "Each cell contains different genes.",
+        "Different genes are activated in different kinds of cells.",
+        "Cells are able to change to adapt to their surroundings.",
+        "Half of the genes in the cells came from the mother and half from the father."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A diagram of the female reproductive system is shown below. A D C B Identify the structure within which the egg cell is normally fertilized.",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/june-2018/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The ameba, a single-celled organism, reproduces asexually. Variations in an ameba would most commonly occur through",
+      "choices": [
+        "differentiation during development",
+        "the fusion of gametes",
+        "random mutations",
+        "recombination during fertilization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The development of organs and tissues from a zygote includes",
+      "choices": [
+        "mitosis and differentiation",
+        "mitosis and gamete production",
+        "meiosis and gamete production",
+        "meiosis and fertilization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "In the 1920s, over 25 million acres of the American southern plains were stripped of prairie grasses to provide more land for farmers to grow wheat. The prairie grasses had served to hold the soil in place and prevent erosion. In the early 1930s, a series of severe dust storms eroded topsoil from more than 13 million acres of the southern plains and dumped it as tons of dust particles over many cities in the Northeast. Farmland was destroyed and people were sickened from \u201cdust pneumonia.\u201d This occurrence illustrates that",
+      "choices": [
+        "farmers should never clear land to grow crops as it always creates problems",
+        "once an ecosystem has been altered, it can not be restored to normal",
+        "the farmers deliberately altered the equilibrium of the cities in the Northeast",
+        "when humans alter ecosystems, serious consequences may result"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The Cornell University News Service reported, \u201cThe sugar maple is the most economically valuable tree in the eastern United States because of its high-priced lumber, syrup and tourist-attracting fall colors.\u201d The effects of acid rain now threaten the survival of these trees. This threat is the result of a human activity that has",
+      "choices": [
+        "introduced a foreign species by accident",
+        "stabilized a forest ecosystem through technology",
+        "weakened an ecosystem through pollution",
+        "weakened a species by direct harvesting"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The human male reproductive system is adapted for the production of",
+      "choices": [
+        "sperm and the delivery of these cells for internal fertilization",
+        "gametes that transport food to the egg",
+        "zygotes and the development of these cells into a fetus",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The diagram below represents an important biological technique scientists rely on to produce replacement hormones. DNA Human cell DNA Bacterial cell Specific section of human DNA Bacterial DNA Bacterial cell Which two processes are required for the technique to successfully produce hormones?",
+      "choices": [
+        "replication of DNA in bacterial cells and cell division",
+        "replication of DNA in bacterial cells and gamete formation",
+        "meiosis and development",
+        "mitosis and fertilization"
+      ],
+      "image": "/images/exams/living-environment/june-2018/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The diagram below summarizes some of the steps in the development of humans. + A B C D All the genetic information needed for the organism to develop is \ufb01rst present at",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2018/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Five different living organisms are represented below. Flowering plant Mosquito larva Frog Green heron Aquatic plant (Not drawn to scale) Which statement about the organisms represented above is correct?",
+      "choices": [
+        "All of the organisms are autotrophs.",
+        "Only the \ufb02owering plant, green heron, and aquatic plant carry out photosynthesis.",
+        "Only the frog and green heron can maintain homeostasis.",
+        "All of the organisms pass on traits through reproduction."
+      ],
+      "image": "/images/exams/living-environment/june-2018/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Mistletoe is an evergreen shrub that can produce most of its own food. Often, mistletoe can be found living on trees and taking water and nutrients away from the tissues of the trees. Mistletoe The relationship between mistletoe and trees is an example of",
+      "choices": [
+        "consumer/herbivore",
+        "predator/prey",
+        "scavenger/decomposer",
+        "parasite/"
+      ],
+      "image": "/images/exams/living-environment/june-2018/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Rabbits are not native to Australia. They were imported by European settlers. In 1936, the myxoma virus was introduced into Australia as a means of biological control to infect and reduce the rabbit population. This method of controlling the rabbit population was an attempt to",
+      "choices": [
+        "stop the overpopulation of a native species",
+        "stop the overproduction of an introduced species",
+        "limit the food sources of the rabbit",
+        "limit the number of rabbits brought into the country"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The major role of carbohydrates in the human diet is to",
+      "choices": [
+        "form the membranes that surround mitochondria",
+        "act as a catalyst for cellular reactions",
+        "supply energy for the body",
+        "provide building blocks for amino acids"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Throughout New York State, some farmers have switched from growing a variety of vegetable crops to growing a single crop, such as corn. Other farmers are concerned that such a practice will make it more likely that an entire crop could be lost to disease or infestation by an insect pest. This is a valid concern because this practice",
+      "choices": [
+        "reduces the biodiversity of their \ufb01 elds",
+        "increases the number of decomposers in their \ufb01 elds",
+        "decreases the need to import food",
+        "increases the number of invasive species"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The breathing rate, heart rate, and blood hormone levels of an individual would directly provide information about that individual\u2019s",
+      "choices": [
+        "cellular organization",
+        "nutrition",
+        "inheritance",
+        "metabolic activity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The diagram below represents an energy pyramid. D C B A Which type of organism could occupy levels B, C, and D of this energy pyramid?",
+      "choices": [
+        "consumer",
+        "producer",
+        "autotroph",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2018/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "In the 1920s, two con\ufb02icting newspaper headlines called attention to a mysterious new illness. 1921\u2013\u201cDon\u2019t breathe the air! Mysterious disease affecting thousands is caused by breathing the air in swamps.\u201d 1922\u2013\u201cDon\u2019t drink the water! Mysterious disease affecting thousands is caused by drinking the water in swamps.\u201d Another series of headlines appeared in the 1940s and 50s. 1945\u2013\u201cNew technology \ufb01nds tiny worms on swamp vegetation.\u201d 1950\u2013\u201cTiny worms found in lungs of patients suffering from mysterious swamp disease.\u201d 1952\u2013\u201cMysterious disease known to be caused by worms given name Swamp Lung Disease.\u201d Headlines such as these best illustrate the concept that",
+      "choices": [
+        "scienti\ufb01c explanations are tentative and subject to change",
+        "some newspapers are not honest and report incorrect information on purpose",
+        "worms can enter the body many different ways",
+        "worms found in swamps should not be used for \ufb01 shing"
+      ],
+      "image": "/images/exams/living-environment/june-2018/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "From this, he concluded that plants gain weight from the water they take in. His conclusion was based on",
+      "choices": [
+        "the input of scientists from many countries doing similar studies",
+        "the application of advanced technologies to the study of a problem",
+        "careful observation, measurements, and inferences from his data",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2018/context_32_32.png",
+      "context": "Base your answer to question 32 on the information and diagram below and on your knowledge of biology. \nIn the early 1600s, a scientist planted a willow tree that weighed 5 pounds in 200 pounds \nof dry soil. He placed it outside and watered it for 5 years. At the end of that time, he observed \nthat the tree had gained 164 pounds 3 ounces, while the soil had lost just 2 ounces. \nWillow \nWillow \nDry soil \nDry soil \n5 years \nWater only \n200 lbs \n199 lbs 14 oz \n5 lbs \n169 lbs 3 oz",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "A student observed \ufb01ve living cells in the \ufb01 eld of view of a microscope as represented below. Diameter = 500 \u03bcm What is the approximate diameter of one cell?",
+      "choices": [
+        "10 \u00b5m",
+        "50 \u00b5m",
+        "250 \u00b5m",
+        "500 \u00b5m"
+      ],
+      "image": "/images/exams/living-environment/june-2018/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Ecologists are concerned that the golden-winged warbler population is at a dangerously low level. One reason this could lead to extinction of this warbler is that",
+      "choices": [
+        "after a species becomes extinct, it won\u2019t be able to carry out its role in the ecosystem",
+        "there may not be enough diversity among the birds for the species to be able to survive an environmental change",
+        "extinction always occurs when populations begin to decrease in number",
+        "an increase in biodiversity within a population often causes the population to be classi\ufb01 ed as threatened or endangered"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "One primary function of the cell membrane is",
+      "choices": [
+        "regulating the \ufb02ow of simple sugars into or out of the cell",
+        "synthesizing substances by breaking down cell organelles",
+        "storing carbohydrates, water, and starches for future use",
+        "digesting carbohydrates, fats, and protein"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "For several years now, there has been discussion of constructing a large oil pipeline across the United States. Which statement expresses a major concern many people are likely to have about the proposed pipeline?",
+      "choices": [
+        "The pipeline will bring a large number of jobs to the area where it is being constructed.",
+        "The oil pipeline will increase the amount of \ufb01 nite resources.",
+        "If this pipeline were to leak, the oil could contaminate soil, water, and wildlife.",
+        "The pipeline is a technological \ufb01x for ozone depletion."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The rings in the diagram below represent the annual growth of a tree approximately 20 years old. Tree trunks grow wider each year by continuous growth in a thin layer of cells just beneath the bark. Since one new layer is added each year, the number of rings in a tree can be used to tell its age. The thickness of the rings provides information about the environmental conditions in past years. By observing the annual rings in the diagram, one can infer that",
+      "choices": [
+        "environmental conditions did not change over the last 20 years",
+        "trees grow faster on the side that faces the Sun",
+        "some years provide better conditions for growth than other years",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2018/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "This treatment for acne, using phages, is effective because phages",
+      "choices": [
+        "produce antibodies to clean out clogged pores and hair follicles",
+        "eliminate bacteria by attacking speci\ufb01c cell structures",
+        "carry genes and infect follicles",
+        "attack every known type of bacteria"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 38 through 40 on the information below and on your knowledge of biology. \nHarmless Skin Virus Fights Acne \n\u2026Acne is caused when hair follicles become blocked with an oily substance called \nsebum, which the body makes to stop the hair and skin from drying out. \nNormally harmless bacteria, such as Propionibacterium acnes, that live on the skin can \nthen contaminate and infect the plugged follicles. \nPhages [a type of virus] appear to help counteract this. \nWhen the scientists sequenced the DNA coding of the phages, they discovered that, as \nwell as sharing most of their genetic material, the viruses all had some key features in common. \nAll carry a gene that makes a protein called endolysin \u2013 an enzyme thought to destroy \nbacteria by breaking down their cell walls. \nAnd unlike antibiotics, which kill many types of bacteria, including \u201cgood\u201d ones that live \nin our gut, phages are programmed to target only speci\ufb01 c bacteria\u2026 \nSource: BBC News \nSeptember 25, 2012",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The protein endolysin belongs to which group of chemical substances?",
+      "choices": [
+        "hormones",
+        "receptors",
+        "biological catalysts",
+        "molecular bases"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 38 through 40 on the information below and on your knowledge of biology. \nHarmless Skin Virus Fights Acne \n\u2026Acne is caused when hair follicles become blocked with an oily substance called \nsebum, which the body makes to stop the hair and skin from drying out. \nNormally harmless bacteria, such as Propionibacterium acnes, that live on the skin can \nthen contaminate and infect the plugged follicles. \nPhages [a type of virus] appear to help counteract this. \nWhen the scientists sequenced the DNA coding of the phages, they discovered that, as \nwell as sharing most of their genetic material, the viruses all had some key features in common. \nAll carry a gene that makes a protein called endolysin \u2013 an enzyme thought to destroy \nbacteria by breaking down their cell walls. \nAnd unlike antibiotics, which kill many types of bacteria, including \u201cgood\u201d ones that live \nin our gut, phages are programmed to target only speci\ufb01 c bacteria\u2026 \nSource: BBC News \nSeptember 25, 2012",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The typical response of the human body to an infection by bacteria is to",
+      "choices": [
+        "stimulate the production of antigens",
+        "decrease the number of enzymes in the blood",
+        "ignore the organisms, unless they are pathogens",
+        ""
+      ],
+      "image": null,
+      "context": "Base your answers to questions 38 through 40 on the information below and on your knowledge of biology. \nHarmless Skin Virus Fights Acne \n\u2026Acne is caused when hair follicles become blocked with an oily substance called \nsebum, which the body makes to stop the hair and skin from drying out. \nNormally harmless bacteria, such as Propionibacterium acnes, that live on the skin can \nthen contaminate and infect the plugged follicles. \nPhages [a type of virus] appear to help counteract this. \nWhen the scientists sequenced the DNA coding of the phages, they discovered that, as \nwell as sharing most of their genetic material, the viruses all had some key features in common. \nAll carry a gene that makes a protein called endolysin \u2013 an enzyme thought to destroy \nbacteria by breaking down their cell walls. \nAnd unlike antibiotics, which kill many types of bacteria, including \u201cgood\u201d ones that live \nin our gut, phages are programmed to target only speci\ufb01 c bacteria\u2026 \nSource: BBC News \nSeptember 25, 2012",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Two biological processes that occur in certain organelles are represented in the diagrams below. CO2 O2 O2 CO2 Process X Process Y Which statement is correct regarding the types of organisms able to carry out these processes?",
+      "choices": [
+        "Process X occurs in heterotrophs, but not in autotrophs.",
+        "Process Y occurs in consumers, but not in producers.",
+        "Both processes X and Y occur in all living things.",
+        "Both processes X and Y occur in green plants."
+      ],
+      "image": "/images/exams/living-environment/june-2018/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which cell structure is represented by B?",
+      "choices": [
+        "vacuole",
+        "ribosome",
+        "cytoplasm",
+        "chloroplast"
+      ],
+      "image": "/images/exams/living-environment/june-2018/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the diagram below and on your knowledge of biology. The \ndiagram shows how ATP is used by some cell structures to perform various functions. \nATP Molecules \nMitochondria \nB \nNucleus \nSynthesis of \nEnzymes \nC \nSynthesis of \nMolecules of \nA",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The nucleus contains molecules of A, which",
+      "choices": [
+        "recycle waste products",
+        "remove water from the cell",
+        "store hereditary information",
+        "GO ON TO THE NEXT PAGE \u27af \u20132"
+      ],
+      "image": "/images/exams/living-environment/june-2018/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the diagram below and on your knowledge of biology. The \ndiagram shows how ATP is used by some cell structures to perform various functions. \nATP Molecules \nMitochondria \nB \nNucleus \nSynthesis of \nEnzymes \nC \nSynthesis of \nMolecules of \nA",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on the axis labeled \u201cEstimated Moose Population.\u201d",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology. \nMoose-killing Winter Ticks \nMoose habitat is determined by temperature. Moose prefer areas where the average \nsummer temperature is around 15\u00b0C and does not exceed 27\u00b0C for too long. The reason for \nthis temperature dependency: Moose cannot sweat. \nBesides the cooling effect of water, which moose are almost always near, aquatic \nenvironments provide them with a good supply of food, and in the past, have protected \nthem against biting insects. However, the North American moose population is facing a new \nthreat: a parasite called the winter tick. These ticks lodge themselves in the animal\u2019s fur and \nhold on through the winter, sucking the animal\u2019s blood. Many infected moose end up dying \nof exhaustion and weakness as a result of the large number of ticks feeding on them. \nTicks are most active during dry days in the fall. Adult ticks that drop off moose in the \nspring and land on snow cover have a poorer survival rate. Climate change can be predicted \nto improve conditions for winter ticks due to longer and warmer falls, and earlier snowmelt \nin the spring. \nSurveys of the moose population in northeastern Minnesota have recorded the change \nshown below in the moose population between 2005 and 2013. \nEstimated Moose Population  \nIn Northeastern Minnesota  \nSurvey Year \nEstimated Moose \nPopulation \n2005 \n8160 \n2006 \n8840 \n2007 \n6860 \n2008 \n7890 \n2009 \n7840 \n2010 \n5700 \n2011 \n4900 \n2012 \n4230 \n2013 \n2760 \nLiving Environment\u2013June \u201918 \n[14] \n\n \n \n \n \n \n \n \n \n \nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data for the estimated moose population on the grid. Connect the points and surround each point with a small circle. Example: Estimated Moose Population Estimated Moose Population in Northeastern Minnesota 2015 2014 2013 2012 2011 2010 2009 2008 2007 2006 2005 2004 2003 2002 2001 2000 Years",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology. \nMoose-killing Winter Ticks \nMoose habitat is determined by temperature. Moose prefer areas where the average \nsummer temperature is around 15\u00b0C and does not exceed 27\u00b0C for too long. The reason for \nthis temperature dependency: Moose cannot sweat. \nBesides the cooling effect of water, which moose are almost always near, aquatic \nenvironments provide them with a good supply of food, and in the past, have protected \nthem against biting insects. However, the North American moose population is facing a new \nthreat: a parasite called the winter tick. These ticks lodge themselves in the animal\u2019s fur and \nhold on through the winter, sucking the animal\u2019s blood. Many infected moose end up dying \nof exhaustion and weakness as a result of the large number of ticks feeding on them. \nTicks are most active during dry days in the fall. Adult ticks that drop off moose in the \nspring and land on snow cover have a poorer survival rate. Climate change can be predicted \nto improve conditions for winter ticks due to longer and warmer falls, and earlier snowmelt \nin the spring. \nSurveys of the moose population in northeastern Minnesota have recorded the change \nshown below in the moose population between 2005 and 2013. \nEstimated Moose Population  \nIn Northeastern Minnesota  \nSurvey Year \nEstimated Moose \nPopulation \n2005 \n8160 \n2006 \n8840 \n2007 \n6860 \n2008 \n7890 \n2009 \n7840 \n2010 \n5700 \n2011 \n4900 \n2012 \n4230 \n2013 \n2760 \nLiving Environment\u2013June \u201918 \n[14] \n\n \n \n \n \n \n \n \n \n \nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Explain how climate change could result in an increased number of moose infested with winter ticks.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology. \nMoose-killing Winter Ticks \nMoose habitat is determined by temperature. Moose prefer areas where the average \nsummer temperature is around 15\u00b0C and does not exceed 27\u00b0C for too long. The reason for \nthis temperature dependency: Moose cannot sweat. \nBesides the cooling effect of water, which moose are almost always near, aquatic \nenvironments provide them with a good supply of food, and in the past, have protected \nthem against biting insects. However, the North American moose population is facing a new \nthreat: a parasite called the winter tick. These ticks lodge themselves in the animal\u2019s fur and \nhold on through the winter, sucking the animal\u2019s blood. Many infected moose end up dying \nof exhaustion and weakness as a result of the large number of ticks feeding on them. \nTicks are most active during dry days in the fall. Adult ticks that drop off moose in the \nspring and land on snow cover have a poorer survival rate. Climate change can be predicted \nto improve conditions for winter ticks due to longer and warmer falls, and earlier snowmelt \nin the spring. \nSurveys of the moose population in northeastern Minnesota have recorded the change \nshown below in the moose population between 2005 and 2013. \nEstimated Moose Population  \nIn Northeastern Minnesota  \nSurvey Year \nEstimated Moose \nPopulation \n2005 \n8160 \n2006 \n8840 \n2007 \n6860 \n2008 \n7890 \n2009 \n7840 \n2010 \n5700 \n2011 \n4900 \n2012 \n4230 \n2013 \n2760 \nLiving Environment\u2013June \u201918 \n[14] \n\n \n \n \n \n \n \n \n \n \nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Increased average yearly temperatures in regions presently inhabited by moose could result in a disruption in homeostasis in these animals because",
+      "choices": [
+        "a decrease in average temperatures will increase mutations in their skin cells",
+        "an increase in average temperatures will decrease the amount of blood ticks can consume",
+        "moose will not be able to maintain an appropriate body temperature, since they do not sweat",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2018/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology. \nMoose-killing Winter Ticks \nMoose habitat is determined by temperature. Moose prefer areas where the average \nsummer temperature is around 15\u00b0C and does not exceed 27\u00b0C for too long. The reason for \nthis temperature dependency: Moose cannot sweat. \nBesides the cooling effect of water, which moose are almost always near, aquatic \nenvironments provide them with a good supply of food, and in the past, have protected \nthem against biting insects. However, the North American moose population is facing a new \nthreat: a parasite called the winter tick. These ticks lodge themselves in the animal\u2019s fur and \nhold on through the winter, sucking the animal\u2019s blood. Many infected moose end up dying \nof exhaustion and weakness as a result of the large number of ticks feeding on them. \nTicks are most active during dry days in the fall. Adult ticks that drop off moose in the \nspring and land on snow cover have a poorer survival rate. Climate change can be predicted \nto improve conditions for winter ticks due to longer and warmer falls, and earlier snowmelt \nin the spring. \nSurveys of the moose population in northeastern Minnesota have recorded the change \nshown below in the moose population between 2005 and 2013. \nEstimated Moose Population  \nIn Northeastern Minnesota  \nSurvey Year \nEstimated Moose \nPopulation \n2005 \n8160 \n2006 \n8840 \n2007 \n6860 \n2008 \n7890 \n2009 \n7840 \n2010 \n5700 \n2011 \n4900 \n2012 \n4230 \n2013 \n2760 \nLiving Environment\u2013June \u201918 \n[14] \n\n \n \n \n \n \n \n \n \n \nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "An environmental change severely affected the organism represented by species K. What was the result? Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the information and diagram below and on your knowledge of \nbiology. The diagram represents the evolutionary relationships among many organisms. \nA \nB \nC \nD \nF \nH \nJ \nE \nG \nPresent \nPast \nI \nTime \nK",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Three species with the most similar traits are most likely",
+      "choices": [
+        "F, I, G",
+        "D, H, J",
+        "B, D, G",
+        "F, A,"
+      ],
+      "image": "/images/exams/living-environment/june-2018/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the information and diagram below and on your knowledge of \nbiology. The diagram represents the evolutionary relationships among many organisms. \nA \nB \nC \nD \nF \nH \nJ \nE \nG \nPresent \nPast \nI \nTime \nK",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The organisms found at the second trophic level of this pyramid would be",
+      "choices": [
+        "producers",
+        "decomposers",
+        "carnivores",
+        "herbivores"
+      ],
+      "image": "/images/exams/living-environment/june-2018/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the diagram below and on your knowledge of biology. The \ndiagram represents trophic levels in an ocean environment. \nThird Trophic Level \nSecond Trophic Level \nFirst Trophic Level \nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State one reason why there is less energy available at each trophic level going from the \ufb01",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the diagram below and on your knowledge of biology. The \ndiagram represents trophic levels in an ocean environment. \nThird Trophic Level \nSecond Trophic Level \nFirst Trophic Level \nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Stable predator-prey relationships are necessary to maintain a healthy ecosystem. The removal of a predator species from an area caused the deer population to sharply increase from 1910 to 1925. Changes in the deer population and carrying capacity of the area are represented in the graph below. Population of Deer (thousands) Changes in Deer Population Size 100 75 50 25 0 Year 1905 1910 1915 1920 1925 1930 1935 1940 1945 Key Actual number of deer Carrying capacity of the area Based on the information provided, explain how the sharp population increase from 1910 to 1925 might have resulted in the decrease in the carrying capacity after 1925",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/q52.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/context_53_54.png",
+      "context": "Base your answers to question 53\u201354 on the diagram below and on your knowledge of biology. The diagram \nindicates a change in an ecosystem. \nStable \nDisruption \nNew stable\ngrassy field \necosystem\necosystem \n53\u201354 Identify some of the key events associated with the change. In your answer, be sure to: \n\u2022 identify one natural event that could cause the disruption indicated in the diagram [1] \n\u2022 state what would most likely happen to the new stable ecosystem in future years if no further \ndisruptions occur [1] \n55 Explain why a mutation that occurs in a body cell will not contribute to the evolution of a species. [1] \nLiving Environment\u2013June \u201918 \n[19] \n[OVER] \n\n \n \n \n \n \n \nPart C \nAnswer all questions in this part. \n[17] \nDirections (56\u201372): Record your answers in the spaces provided in this examination booklet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "53\u201354 Identify some of the key events associated with the change. In your answer, be sure to: \u2022 identify one natural event that could cause the disruption indicated in the diagram \u2022 state what would most likely happen to the new stable ecosystem in future years if no further disruptions occur",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/context_53_54.png",
+      "context": "Base your answers to question 53\u201354 on the diagram below and on your knowledge of biology. The diagram \nindicates a change in an ecosystem. \nStable \nDisruption \nNew stable\ngrassy field \necosystem\necosystem \n53\u201354 Identify some of the key events associated with the change. In your answer, be sure to: \n\u2022 identify one natural event that could cause the disruption indicated in the diagram [1] \n\u2022 state what would most likely happen to the new stable ecosystem in future years if no further \ndisruptions occur [1] \n55 Explain why a mutation that occurs in a body cell will not contribute to the evolution of a species. [1] \nLiving Environment\u2013June \u201918 \n[19] \n[OVER] \n\n \n \n \n \n \n \nPart C \nAnswer all questions in this part. \n[17] \nDirections (56\u201372): Record your answers in the spaces provided in this examination booklet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "55",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Nitrogen fertilizers are used by plants to synthesize amino acids. State one reason why a supply of amino acids is important for the survival of complex organisms.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the passage below and on your knowledge of biology. \nOur [Nitrogen] Fertilized World \nIt is the engine of agriculture, the key to plenty in our crowded, hungry world. \u2026 \n\u2026Enter modern chemistry. Giant factories capture inert nitrogen gas from the vast \nstores in our atmosphere and force it into a chemical union with the hydrogen in natural \ngas, creating the reactive compounds that plants crave. That nitrogen fertilizer \u2013 more than \na hundred million tons applied worldwide every year \u2013 fuels bountiful harvests. Without it, \nhuman civilization in its current form could not exist. Our planet\u2019s soil simply could not grow \nenough food to provide all seven billion of us our accustomed diet. In fact, almost half of the \nnitrogen found in our bodies\u2019 muscle and organ tissue started out in a fertilizer factory. \nSource: National Geographic, May 2013",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify one possible effect on the human population if nitrogen fertilizers were not available.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the passage below and on your knowledge of biology. \nOur [Nitrogen] Fertilized World \nIt is the engine of agriculture, the key to plenty in our crowded, hungry world. \u2026 \n\u2026Enter modern chemistry. Giant factories capture inert nitrogen gas from the vast \nstores in our atmosphere and force it into a chemical union with the hydrogen in natural \ngas, creating the reactive compounds that plants crave. That nitrogen fertilizer \u2013 more than \na hundred million tons applied worldwide every year \u2013 fuels bountiful harvests. Without it, \nhuman civilization in its current form could not exist. Our planet\u2019s soil simply could not grow \nenough food to provide all seven billion of us our accustomed diet. In fact, almost half of the \nnitrogen found in our bodies\u2019 muscle and organ tissue started out in a fertilizer factory. \nSource: National Geographic, May 2013",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "58",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the passage below and on your knowledge of biology. \nOur [Nitrogen] Fertilized World \nIt is the engine of agriculture, the key to plenty in our crowded, hungry world. \u2026 \n\u2026Enter modern chemistry. Giant factories capture inert nitrogen gas from the vast \nstores in our atmosphere and force it into a chemical union with the hydrogen in natural \ngas, creating the reactive compounds that plants crave. That nitrogen fertilizer \u2013 more than \na hundred million tons applied worldwide every year \u2013 fuels bountiful harvests. Without it, \nhuman civilization in its current form could not exist. Our planet\u2019s soil simply could not grow \nenough food to provide all seven billion of us our accustomed diet. In fact, almost half of the \nnitrogen found in our bodies\u2019 muscle and organ tissue started out in a fertilizer factory. \nSource: National Geographic, May 2013",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/context_59_60.png",
+      "context": "Base your answers to question 59\u201360 on the information and diagram below and on your knowledge of biology. \nAn experiment was carried out to determine the effect of exposure to ultraviolet (UV) \nlight on the growth of bacteria. Equal quantities of bacterial cells were spread on Petri \ndishes that are used to grow colonies of bacteria. Half of each dish was shielded from the \nUV light with a UV screen. The other half was exposed to UV light for various amounts of \ntime. After the UV treatment, the bacteria were grown in an incubator for 24 hours and the \nnumber of colonies was counted. \nThe diagram below represents the setup of the experiment. \nUV Screen \n24 hours \nBacterial \nColonies \nUnscreened side \nThe table below contains the data collected at different exposure times by counting the \nnumber of bacterial colonies on both the screen-covered side and unscreened side. \nBacterial Growth \nExposure Time to \nUV Light (min) \nColonies on \nScreened Side \nColonies on \nUnscreened Side \n0 (No exposure) \n20 \n22 \n0.5 \n21 \n19 \n1.0 \n23 \n16 \n2.0 \n22 \n10 \n5.0 \n24 \n5 \n10.0 \n23 \n1 \n59\u201360 Analyze the experiment that produced the data in the table. In your answer, be sure to: \n\u2022 state a hypothesis for the experiment [1] \n\u2022 state whether the results of the experiment support or fail to support your hypothesis. Support \nyour answer [1] \nLiving Environment\u2013June \u201918 \n[21] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "59\u201360 Analyze the experiment that produced the data in the table. In your answer, be sure to: \u2022 state a hypothesis for the experiment \u2022",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/context_59_60.png",
+      "context": "Base your answers to question 59\u201360 on the information and diagram below and on your knowledge of biology. \nAn experiment was carried out to determine the effect of exposure to ultraviolet (UV) \nlight on the growth of bacteria. Equal quantities of bacterial cells were spread on Petri \ndishes that are used to grow colonies of bacteria. Half of each dish was shielded from the \nUV light with a UV screen. The other half was exposed to UV light for various amounts of \ntime. After the UV treatment, the bacteria were grown in an incubator for 24 hours and the \nnumber of colonies was counted. \nThe diagram below represents the setup of the experiment. \nUV Screen \n24 hours \nBacterial \nColonies \nUnscreened side \nThe table below contains the data collected at different exposure times by counting the \nnumber of bacterial colonies on both the screen-covered side and unscreened side. \nBacterial Growth \nExposure Time to \nUV Light (min) \nColonies on \nScreened Side \nColonies on \nUnscreened Side \n0 (No exposure) \n20 \n22 \n0.5 \n21 \n19 \n1.0 \n23 \n16 \n2.0 \n22 \n10 \n5.0 \n24 \n5 \n10.0 \n23 \n1 \n59\u201360 Analyze the experiment that produced the data in the table. In your answer, be sure to: \n\u2022 state a hypothesis for the experiment [1] \n\u2022 state whether the results of the experiment support or fail to support your hypothesis. Support \nyour answer [1] \nLiving Environment\u2013June \u201918 \n[21] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Explain the importance of the presence of variations within a population.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 and 62 on the information below and on your knowledge of biology. \nEvolution leads to changes in how frequently certain traits appear in a population.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Describe how the process of natural selection can result in an increase in frequencies of certain traits found in a population.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 and 62 on the information below and on your knowledge of biology. \nEvolution leads to changes in how frequently certain traits appear in a population.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Describe the importance of receptors in cellular communication.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of biology. \nA typical human liver cell can have over 90,000 insulin receptors. Due to a genetic \ndifference, some people have liver cells that contain only about 1000 insulin receptors.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Describe the importance of the shape of receptor molecules for carrying out their function.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of biology. \nA typical human liver cell can have over 90,000 insulin receptors. Due to a genetic \ndifference, some people have liver cells that contain only about 1000 insulin receptors.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "65",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of biology. \nA typical human liver cell can have over 90,000 insulin receptors. Due to a genetic \ndifference, some people have liver cells that contain only about 1000 insulin receptors.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Explain why the genetic material in an offspring produced by sexual reproduction contains genetic material that is not identical to the genetic material of either parent.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the passage below and on your knowledge of biology. \nBiologists have been studying the genes present in newborn twins. \nTwins Don\u2019t Share Everything \n\u2026Chemicals called epigenetic markers can be attached to those [inherited] genes, like \n\ufb02 ags or balloons hanging off the sides of the DNA ladder. These don\u2019t just change the look \nof the genes. Like pieces of tape stuck over a light switch, these markers can force a gene to \nremain turned on or off. The type of marker scientists studied in the twins generally sticks \nthe switch in the off position so that some proteins don\u2019t get made. And that means the \nproteins\u2019 jobs won\u2019t get done. \nEvery time a cell divides, new epigenetic markers may form. Foods, pollutants, and \nstress may all contribute to the development of new markers. So throughout our lives we \ntend to accumulate more and more. But a few are there from the day we\u2019re born. \n\u2026His [Jeffrey Craig\u2019s] team found that newborn twins have markers attached \nto different genes from the very start. It\u2019s true in identical twins, which come from \nthe same fertilized egg. It\u2019s also true in fraternal twins, which come from different \nfertilized eggs. However, fraternal twins had more such differences than identical twins did. \nSource: Science News for Students; July 31, 2012",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "State one reason why identical twins should have fewer genetic differences than fraternal twins.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 68 on the passage below and on your knowledge of biology. \nBiologists have been studying the genes present in newborn twins. \nTwins Don\u2019t Share Everything \n\u2026Chemicals called epigenetic markers can be attached to those [inherited] genes, like \n\ufb02 ags or balloons hanging off the sides of the DNA ladder. These don\u2019t just change the look \nof the genes. Like pieces of tape stuck over a light switch, these markers can force a gene to \nremain turned on or off. The type of marker scientists studied in the twins generally sticks \nthe switch in the off position so that some proteins don\u2019t get made. And that means the \nproteins\u2019 jobs won\u2019t get done. \nEvery time a cell divides, new epigenetic markers may form. Foods, pollutants, and \nstress may all contribute to the development of new markers. So throughout our lives we \ntend to accumulate more and more. But a few are there from the day we\u2019re born. \n\u2026His [Jeffrey Craig\u2019s] team found that newborn twins have markers attached \nto different genes from the very start. It\u2019s true in identical twins, which come from \nthe same fertilized egg. It\u2019s also true in fraternal twins, which come from different \nfertilized eggs. However, fraternal twins had more such differences than identical twins did. \nSource: Science News for Students; July 31, 2012",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "68",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/q68.png",
+      "context": "Base your answers to questions 66 through 68 on the passage below and on your knowledge of biology. \nBiologists have been studying the genes present in newborn twins. \nTwins Don\u2019t Share Everything \n\u2026Chemicals called epigenetic markers can be attached to those [inherited] genes, like \n\ufb02 ags or balloons hanging off the sides of the DNA ladder. These don\u2019t just change the look \nof the genes. Like pieces of tape stuck over a light switch, these markers can force a gene to \nremain turned on or off. The type of marker scientists studied in the twins generally sticks \nthe switch in the off position so that some proteins don\u2019t get made. And that means the \nproteins\u2019 jobs won\u2019t get done. \nEvery time a cell divides, new epigenetic markers may form. Foods, pollutants, and \nstress may all contribute to the development of new markers. So throughout our lives we \ntend to accumulate more and more. But a few are there from the day we\u2019re born. \n\u2026His [Jeffrey Craig\u2019s] team found that newborn twins have markers attached \nto different genes from the very start. It\u2019s true in identical twins, which come from \nthe same fertilized egg. It\u2019s also true in fraternal twins, which come from different \nfertilized eggs. However, fraternal twins had more such differences than identical twins did. \nSource: Science News for Students; July 31, 2012",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Describe how nutrients move from the mother to the fetus.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 and 70 on the information below and on your knowledge of biology. \nWith the emotional roller coaster that pregnancy brings, it can be daunting [challenging] \nfor pregnant women to take on the additional pressure of eating the \u201cperfect\u201d pregnancy \ndiet. The good news: there is no single perfect diet for pregnancy. The best way for \nexpectant mothers to meet their nutritional needs is to focus on consuming an overall \nhealthy diet, with a variety of vegetables, fruits, whole grains, lean meats or meat substitutes, \nand low-fat dairy or dairy substitutes.\u2026 \nSource: US News Health 11/9/2012",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State one other way, in addition to consuming a balanced diet, pregnant women can help ensure proper development of the fetus.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 and 70 on the information below and on your knowledge of biology. \nWith the emotional roller coaster that pregnancy brings, it can be daunting [challenging] \nfor pregnant women to take on the additional pressure of eating the \u201cperfect\u201d pregnancy \ndiet. The good news: there is no single perfect diet for pregnancy. The best way for \nexpectant mothers to meet their nutritional needs is to focus on consuming an overall \nhealthy diet, with a variety of vegetables, fruits, whole grains, lean meats or meat substitutes, \nand low-fat dairy or dairy substitutes.\u2026 \nSource: US News Health 11/9/2012",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "State one way the use of these new \u201clittle electric heaters\u201d might represent a long-term bene\ufb01t over using antibiotics to treat bacterial infections.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 71 on the information below and on your knowledge of biology. \n\u2026Bacteria often evolve clever ways of evading chemical assaults, but they will always \nstruggle to resist the old-fashioned way of killing them; heating them up. It takes only a rela\u00ad\ntively mild warming to kill bugs [bacteria] without discomfort or harm to tissues. So imagine if \nlittle electric heaters could be implanted into wounds and powered wirelessly to fry bacteria \nduring healing before dissolving harmlessly into body \ufb02uids once their job is done.\u2026 \nSource: BBC Future, May 24, 2013",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "A child became ill with the measles. Measles is a disease that is highly contagious. The child\u2019s mother did not get sick,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the major parts of a growing onion plant. Nutrients are represented in the soil around the onion. Nutrients Which statement best describes how nutrients enter the root cells of the onion plant?",
+      "choices": [
+        "Only nutrients needed by the plant enter root cells.",
+        "The nutrients usually move from an area of high concentration in the soil to an area of low concentration in root cells.",
+        "Nutrients always move into the plant cells by active transport.",
+        "The nutrients always move from an area of low concentration in the soil to an area of high concentration in root cells."
+      ],
+      "image": "/images/exams/living-environment/june-2018/q73.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "Which concept is correctly matched with an example from The Beaks of Finches lab?",
+      "choices": [
+        "Variation \u2013 different \u201cbeaks\u201d were available.",
+        "Adaptation \u2013 different types of foods were available.",
+        "Selecting Agent \u2013 an insecticide was used to kill insects on one island.",
+        "Environment \u2013 \u201cbeaks\u201d"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "When comparing characteristics of two organisms, which evidence would be considered the strongest for supporting a possible evolutionary relationship?",
+      "choices": [
+        "The two organisms are the same color.",
+        "The two organisms are the same height.",
+        "The two organisms produce many of the same proteins.",
+        "The two organisms are found in the same locations."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "A and B below represent two different slide preparations of elodea leaves. Elodea is a plant found in streams and ponds in New York State. The water used on slide A contained 1% salt and 99% water. The salt solution used on slide B contained 6% salt and 94% water. Elodea cells normally contain 1% salt. A B Elodea leaf mounted in 1% salt solution Elodea leaf mounted in 6% salt solution Five minutes after the slides were prepared, a student using a compound light microscope to observe the cells in leaves A and B would most likely see that",
+      "choices": [
+        "water had moved out of the cells of the leaf on slide A",
+        "salt had moved into the cells of the leaf on slide A",
+        "water had moved out of the cells of the leaf on slide B",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2018/q76.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "The table below shows the food sources for two different species of Galapagos \ufb01nches on an island. Two Galapagos Finches and Their Sources of Food Name Foods Vegetarian finch Platyspiza crassirostris Buds, leaves,",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/q77.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "According to the data table, does the student\u2019s pulse rate fall within the normal range? Circle yes or no and support your answer. yes no",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the information below and on your knowledge of biology. \nDuring a lab activity, a 14-year-old student took his resting pulse rate. He counted \n20 beats in 20 seconds. He calculated his pulse rate for a minute and compared the result \nto the data shown in the table below. \nNormal Pulse Rate Ranges \nAge Group \nResting Heart Rate \n(beats per minute) \nChildren (ages 6-15) \n70 \u2013 100 \nAdults (ages 18 and over) \n60 \u2013 100",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Using a biological explanation,",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the information below and on your knowledge of biology. \nDuring a lab activity, a 14-year-old student took his resting pulse rate. He counted \n20 beats in 20 seconds. He calculated his pulse rate for a minute and compared the result \nto the data shown in the table below. \nNormal Pulse Rate Ranges \nAge Group \nResting Heart Rate \n(beats per minute) \nChildren (ages 6-15) \n70 \u2013 100 \nAdults (ages 18 and over) \n60 \u2013 100",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "The chart below shows the molecular comparison between several species. Molecular Comparison Chart Botana curus DNA GTG GAC TGA GGA CTC mRNA CAC CUG ACU CCU GAG Amino acid His Leu Thr Pro Glu Species X DNA GTG GAC AGA GGA CAC mRNA CAC CUG UCU CCU GUG Amino acid His Leu Ser Pro Val Species Y DNA GTG GAC AGA GGA CAC mRNA CAC CUG UCU CCU GUG Amino acid His Leu Ser Pro Val Species Z DNA GTA GAC TGA GGA CTC mRNA CAU CUG ACU CCU GAG Amino acid His Leu Thr Pro Glu Identify which species is likely to be more closely related to Botana curus. Support your answer. Species: Support:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/q80.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "A factor that contributed to the evolution of \ufb01nches on the Galapagos Islands was most likely the",
+      "choices": [
+        "lack of variation in beak structure of the \ufb01 nches",
+        "isolation of the \ufb01nches on separate islands",
+        "relatively constant atmospheric temperature",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "The rise of the liquid in the test tube that was observed after one hour can be explained as a result of the",
+      "choices": [
+        "starch solution moving into the test tube and out of the beaker",
+        "water moving from the beaker into the test tube",
+        "large starch molecules blocking the dialysis membrane",
+        "dialysis membrane acting as a barrier to the water molecules"
+      ],
+      "image": "/images/exams/living-environment/june-2018/context_82_83.png",
+      "context": "Base your answers to questions 82 and 83 on the diagram below and on your knowledge of biology. The \ndiagram represents a laboratory setup. \nA starch solution in a test tube was separated from the water in a beaker by a dialysis membrane. One hour \nlater, it was observed that the liquid had risen in the test tube. \nTest tube \nBeaker \nWater \nStarch solution \nDialysis membrane \nInitial set-up \nOne hour later \nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "If a starch indicator solution was initially added to the water in the beaker,",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/context_82_83.png",
+      "context": "Base your answers to questions 82 and 83 on the diagram below and on your knowledge of biology. The \ndiagram represents a laboratory setup. \nA starch solution in a test tube was separated from the water in a beaker by a dialysis membrane. One hour \nlater, it was observed that the liquid had risen in the test tube. \nTest tube \nBeaker \nWater \nStarch solution \nDialysis membrane \nInitial set-up \nOne hour later \nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "The diagram below represents an electrophoresis gel that was used to separate DNA fragments. Lanes 1, 2, and 3 contain DNA samples that were treated with the same restriction enzyme. Lane 1 Lane 2 Lane 3 Wells + \u2013 Explain why the DNA sample in lane 3 did not separate into fragments.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2018/q84.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "An experiment is performed to determine the effect of watching basketball games on pulse rates. Ten students agreed to wear devices that monitor pulse rates while watching a basketball game between competitive opponents. Their pulse rates were measured every minute for \ufb01ve minutes in the \ufb01rst quarter of the game. The data collected indicated that pulse rates did not change signi\ufb01 LIVING ENVIRONMENT Printed on Recycled Paper LIVING ENVIRONMENT",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

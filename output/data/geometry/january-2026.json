@@ -1,0 +1,476 @@
+{
+  "subject": "geometry",
+  "session": "january-2026",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, nRST and its image, nR9S9T9, are graphed. y x R9 R S9 S T9 T Which rigid motion is sufficient to prove nRST > nR9S9T9?",
+      "choices": [
+        "a rotation of 90\u00b0 clockwise about the origin",
+        "a translation 4 units to the right",
+        "a reflection over the x-axis",
+        ""
+      ],
+      "image": "/images/exams/geometry/january-2026/q1.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which regular polygon would carry onto itself after a rotation of 60\u00b0 about its center?",
+      "choices": [
+        "pentagon",
+        "hexagon",
+        "octagon",
+        "decagon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The right triangle below is continuously rotated about the 4 cm side. 4 cm 7 cm The solid formed is",
+      "choices": [
+        "a cone with a height of 4 cm and a radius of 7 cm",
+        "a cone with a height of 4 cm and a radius of 14 cm",
+        "a pyramid with a height of 4 cm and a base length of 7 cm",
+        "a pyramid with a height of 4 cm and a base length of 14 cm"
+      ],
+      "image": "/images/exams/geometry/january-2026/q3.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In isosceles triangle AHP below, AH > PH, and AH is extended through H to C. A P H C If m/A 5 (2x 1 12)\u00b0 and m/P 5 (3x 2 8)\u00b0, what is the measure of /CHP?",
+      "choices": [
+        "52\u00b0",
+        "76\u00b0",
+        "104\u00b0",
+        "128\u00b0"
+      ],
+      "image": "/images/exams/geometry/january-2026/q4.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "In the diagram below, nXYZ is the image of nABC after a dilation of scale factor 1 2 . y x A B C Y Z X Which point must be the center of dilation?",
+      "choices": [
+        "(2, 21)",
+        "(8, 3)",
+        "(5, 1)",
+        "(0, 0)"
+      ],
+      "image": "/images/exams/geometry/january-2026/q5.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "In a right triangle, the acute angles have the relationship cos(5x 1 7)\u00b0 5 sin(3x 1 3)\u00b0. Which equation is always true?",
+      "choices": [
+        "5x 1 7 5 3x 1 3",
+        "5x 1 7 1 3x 1 3 5 90",
+        "5x 1 7 1 3x 1 3 5 180",
+        "5x 1 7 1 3x 1 3 1 x 5 180"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In the diagram below, circle O has a radius of 8 cm and a central angle that measures 140\u00b0. O A B 8 cm 140\u00b0 What is the length of AB, to the nearest centimeter?",
+      "choices": [
+        "10",
+        "20",
+        "25",
+        "78"
+      ],
+      "image": "/images/exams/geometry/january-2026/q7.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Lucy wants to use a wagon to move a pile of sand in as few trips as possible. The pile of sand can be modeled by a cone, as shown below. The height and radius of the sandpile are both 3.5 feet. 3.5 ft 3.5 ft If the wagon holds 5 cubic feet of sand, what is the fewest number of trips Lucy needs to make to move the entire pile of sand?",
+      "choices": [
+        "27",
+        "14",
+        "3",
+        "9"
+      ],
+      "image": "/images/exams/geometry/january-2026/q8.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "In the diagram below, BD and AE intersect at C, and AB and DE are drawn. B A C D E If AB || DE, which statement is not always true?",
+      "choices": [
+        "/ABC > /EDC",
+        "/ACB > /ECD",
+        "nABC , nEDC",
+        "nABC > nEDC"
+      ],
+      "image": "/images/exams/geometry/january-2026/q9.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The face of a shed is modeled below. The rectangular section of the face, BFGK, is 10 feet wide. The triangular section of the face, FEG, is an isosceles triangle with vertex angle FEG and a height of 6 feet. E 6 ft 10 ft D F B K G What is m/EGD, to the nearest degree?",
+      "choices": [
+        "34\u00b0",
+        "40\u00b0",
+        "50\u00b0",
+        "56\u00b0"
+      ],
+      "image": "/images/exams/geometry/january-2026/q10.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Triangles ABC, A9B9C9, and A0B0C0 are graphed on the set of axes below. y B0 A C B A9 C9 B9 C0 A0 x Which sequence of transformations maps nABC onto nA9B9C9, and then maps nA9B9C9 onto nA0B0C0?",
+      "choices": [
+        "a translation followed by a rotation",
+        "a rotation followed by a translation",
+        "a line reflection followed by a rotation",
+        "a translation followed by a line reflection"
+      ],
+      "image": "/images/exams/geometry/january-2026/q11.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A line contains the points (21, 24) and (3, 21). An equation of a line perpendicular to this line is",
+      "choices": [
+        "y 1 4 5 3 4 (x 1 1)",
+        "y 2 4 5 4 3 (x 2 1)",
+        "y 2 1 5 2 3 4 (x 1 3)",
+        "y 1 1 5 2 4 3 (x 2 3)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "In the diagram below of right triangles DAY and NIT, AD 5 6, DY 5 6, IT 5 16, and nDAY , nNIT. Y D 6 6 A N I T 16 The length of TN is",
+      "choices": [
+        "8",
+        "2 8",
+        "3 8",
+        "2 16"
+      ],
+      "image": "/images/exams/geometry/january-2026/q13.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The volume of a sphere is 333 cm3. To the nearest tenth of a centimeter, the diameter of the sphere is",
+      "choices": [
+        "4.3",
+        "5.2",
+        "8.6",
+        "10.4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Line BTS is parallel to line MAVR, as shown in the diagram below, and AE ' TV. B M A V R T E S If m/STE 5 38\u00b0, what is the measure of /VAE?",
+      "choices": [
+        "38\u00b0",
+        "52\u00b0",
+        "128\u00b0",
+        "142\u00b0"
+      ],
+      "image": "/images/exams/geometry/january-2026/q15.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Segment RAZ has endpoints with coordinates R(6, 6) and Z(212, 23). If A divides RZ such that RA:AZ 5 5:4, then the coordinates of A are",
+      "choices": [
+        "(26, 0)",
+        "(22, 2)",
+        "(0, 3)",
+        "(24, 1)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "In nABC below, points D and E are on AB and CB respectively, such that DE || AC. B D A C E If BD 5 9, DA 5 3, and EC 5 4, what is the length of BC?",
+      "choices": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "image": "/images/exams/geometry/january-2026/q17.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Triangle ABC is mapped onto nA9B9C9 after a sequence of rigid motions. Which statement is always true?",
+      "choices": [
+        "Segment AB is parallel to segment A9B9.",
+        "Segment AB is congruent to segment A9B9.",
+        "The measure of angle A is the same as the measure of angle B9.",
+        "The orientation of nABC is the same as the orientation of nA9B9C9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "What are the coordinates of the center and the length of the radius of the circle whose equation is x2 2 16x 1 y2 1 20y 5 2155?",
+      "choices": [
+        "center (8, 210) and radius 9",
+        "center (28, 10) and radius 9",
+        "center (8, 210) and radius 3",
+        "center (28, 10) and radius 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "State populations and land areas from the 2020 US Census are shown in the table below. 2020 State Population and Land Area State Population Land Area (mi2) Connecticut 3,605,944 4,842 New Jersey 9,288,994 7,354 New York 20,201,249 47,126 Pennsylvania 13,002,700 44,743 Which list shows the state population densities, in order from smallest to largest?",
+      "choices": [
+        "Pennsylvania, New York, Connecticut, New Jersey",
+        "Connecticut, New Jersey, Pennsylvania, New York",
+        "New York, Pennsylvania, New Jersey, Connecticut",
+        "New Jersey, Connecticut, New York, Pennsylvania"
+      ],
+      "image": "/images/exams/geometry/january-2026/q20.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Line t is represented by the equation y 5 2x 2 1. If the line is dilated by a scale factor of 3 centered at the origin, which equation represents the image of line t after the dilation?",
+      "choices": [
+        "y 5 2x 2 3",
+        "y 5 6x 2 3",
+        "y 5 2x 2 1",
+        "y 5 6x 2 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Quadrilateral ABCD is a parallelogram. Which additional statement is sufficient to prove ABCD is a rhombus?",
+      "choices": [
+        "AB > CD",
+        "AD || BC",
+        "AD > DC",
+        "/ADC > /ABC"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "In right triangle ABC below, m/ABC 5 90\u00b0, and BD ' ADC. D A B C If AD 5 3 and CD 5 12, the length of AB is",
+      "choices": [
+        "6",
+        "9",
+        "5 3",
+        "3 5"
+      ],
+      "image": "/images/exams/geometry/january-2026/q23.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "In nGBT shown below, GXM, BXR, and TXE are drawn such that point X is the centroid. E X M T B G R Which statement is always true?",
+      "choices": [
+        "MX GX 5 1 3",
+        "TX EX 5 2 1",
+        "BX > R X",
+        "TM > Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/geometry/january-2026/q24.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "A triangle has vertices with coordinates (2, 1), (0, 3), and (22, 21). Determine and state the coordinates of the vertices of the image of the triangle after a reflection over the x-axis followed by a translation of 3 units to the right and 2 units down. [The use of the set of axes below is optional.]",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2026/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "A cylindrical bucket is being used to transport topsoil. The bucket has an inside diameter of 10 inches and a height of 15 inches. If the topsoil weighs 0.0231 pound per cubic inch, determine and state the weight of the topsoil in the bucket when the bucket is full,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "The Chart for Determining the Final Examination Score for the January 2026 at: https://www.nysed.gov/state-assessment/high-school-regents-examinations on the day of the examination. Conversion charts provided for previous administrations of the to determine students\u2019 final scores for this administration. Online Submission of Teacher Evaluations of the Test to the Department Suggestions and feedback from teachers provide an important contribution to the test development process. The Department provides an online evaluation form for State assessments. It contains spaces for teachers to respond to several specific questions and to make suggestions. Instructions for completing the evaluation form are as follows: 1. Go to https://www.nysed.gov/state-assessment/teacher-feedback-state-assessments. 2. Click Regents Examinations. 3. Complete the required demographic fields. 4. Select the test title from the Regents Examination dropdown list. 5. Complete each evaluation question and provide comments in the space provided. 6. Click the SUBMIT button at the bottom of the page to submit the completed form."
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "In right triangle SRT, m/R 5 90\u00b0, m/S 5 27\u00b0, and ST 5 31.8. Determine and state the length of SR,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "In nLET below, LE 5 7.5, ET 5 9.3, and m/LET 5 115\u00b0. E 7.5 L 9.3 T 115\u00b0 Determine and state the area of nLET,",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2026/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "A pool owner has a circular deck that surrounds her circular pool, as modeled in the diagram below. The pool has a diameter of 24 feet. The distance from the edge of the pool to the outer edge of the deck is 8 feet. 8 ft Pool 24 ft Deck Determine and state the number of square feet of the deck,",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2026/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Use a compass and straightedge to construct an equilateral triangle with AB, shown below, as one of the sides. [Leave all construction marks.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "In the diagram below, Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2026/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "In isosceles triangle ABC below, AD is an altitude drawn to base BC. A D C B If m/BAC 5 80\u00b0 and AD 5 8, determine and state the perimeter of nABC,",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2026/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "In quadrilateral SMIL below, diagonals IS and ML intersect at point E, MS || IL, and MS > IL. M E S L I Prove: nMIE >",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2026/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "A solid glass trophy is composed of a rectangular prism and a rectangular pyramid, as modeled below. The rectangular prism has a length of 12 centimeters, a width of 6 centimeters, and a height of 3 centimeters. 12 cm 6 cm 3 cm The height of the pyramid is 10 centimeters. If the density of glass is 2.5 grams per cubic centimeter, determine and state the mass of the trophy, Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2026/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Quadrilateral ABCD is graphed on the set of axes below, with vertices at coordinates A(23, 1), B(23, \u20137), C(6, 5), and D(0, 5). Segment EF is graphed with endpoints at coordinates E(23, 23) and F(3, 5). y D F C A E B x Prove ABCD is a trapezoid. Question 35 Use coordinate geometry to prove EF is parallel to AD and BC. Is EF 5 1 2 (AD 1 BC)? Use coordinate geometry to justify your answer. Question 35 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 Reference Sheet for Geometry Cylinder V 5 Bh where B is the area of the base General Prism V 5 Bh where B is the area of the base Volume Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 Bh where B is the area of the base Pyramid V 5 1_ 3 Bh where B is the area of the base Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2026/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

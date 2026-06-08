@@ -1,0 +1,476 @@
+{
+  "subject": "geometry",
+  "session": "june-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "A square pyramid is intersected by a plane passing through the vertex and perpendicular to the base. Which two-dimensional shape describes this cross section?",
+      "choices": [
+        "square",
+        "triangle",
+        "pentagon",
+        "rectangle"
+      ],
+      "image": "/images/exams/geometry/june-2023/q1.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Trapezoid ABCD is drawn such that AB ___ || DC ___ . Trapezoid A9B9C9D9 is the image of trapezoid ABCD after a rotation of 1108 counterclockwise about point P. C9 D9 P D A B C A9 B9 Which statement is always true?",
+      "choices": [
+        "/A > /D9",
+        "AC ___ > B9D9 ____",
+        "A9B9 ____ || D9C9 ____",
+        "B9A9 ____ > C9D9 ____"
+      ],
+      "image": "/images/exams/geometry/june-2023/q2.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "What is the volume of a right circular cone that has a height of 7.2 centimeters and a radius of 2.5 centimeters, to the nearest tenth of a cubic centimeter?",
+      "choices": [
+        "37.7",
+        "47.1",
+        "113.1",
+        "141.4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In the diagram below of right triangle SUN, where /N is a right angle, SU 5 13.6 and SN 5 12.3. U N S 12.3 13.6 What is m/S, to the nearest degree?",
+      "choices": [
+        "258",
+        "428",
+        "488",
+        "658"
+      ],
+      "image": "/images/exams/geometry/june-2023/q4.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "In the diagram below of circle O, diameter AOB ____ and chord CB ___ are drawn, and m/B 5 288. O A C B 28\u00b0 What is mBC?",
+      "choices": [
+        "56\u00b0",
+        "124\u00b0",
+        "152\u00b0",
+        "166\u00b0"
+      ],
+      "image": "/images/exams/geometry/june-2023/q5.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "In the diagram below of parallelogram ABCD, diagonal BED ____ and EF ___ are drawn, EF ___ ^ DFC ____ , m/DAB 5 111\u00b0, and m/DBC 5 39\u00b0. E F C D A 111\u00b0 39\u00b0 B What is m/DEF?",
+      "choices": [
+        "30\u00b0",
+        "51\u00b0",
+        "60\u00b0",
+        "120\u00b0"
+      ],
+      "image": "/images/exams/geometry/june-2023/q6.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In the diagram below of nACT, ES is drawn parallel to AT ___ such that E is on CA ___ and S is on CT ___ . C A T S E Which statement is always true?",
+      "choices": [
+        "CE ___ CA 5 CS ___ ST",
+        "CE ___ ES 5 EA ___ AT",
+        "CE ___ EA 5 CS ___ ST",
+        "CE ___ ST 5 EA ___"
+      ],
+      "image": "/images/exams/geometry/june-2023/q7.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, congruent triangles ABC and DEF are drawn. A B D E F C y x Which sequence of transformations maps nABC onto nDEF?",
+      "choices": [
+        "A counterclockwise rotation of 90 degrees about the origin, followed by a translation 8 units to the right.",
+        "A counterclockwise rotation of 90 degrees about the origin, followed by a reflection over the y-axis.",
+        "A counterclockwise rotation of 90 degrees about the origin, followed by a translation 4 units down.",
+        "A clockwise rotation of 90 degrees about the origin, followed by a reflection over the x-axis."
+      ],
+      "image": "/images/exams/geometry/june-2023/q8.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "An equation of circle M is x2 1 y2 1 6x 2 2y 1 1 5 0. What are the coordinates of the center and the length of the radius of circle M?",
+      "choices": [
+        "center (3,21) and radius 9",
+        "center (3,21) and radius 3",
+        "center (23,1) and radius 9",
+        "center (23,1) and radius 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Parallelogram BETH, with diagonals BT ___ and HE ___ , is drawn below. B H E T Which additional statement is sufficient to prove that BETH is a rectangle?",
+      "choices": [
+        "BT ___ ' HE ___",
+        "BE ___ || HT ___",
+        "BT ___ > HE ___",
+        "BE ___ > ET ___"
+      ],
+      "image": "/images/exams/geometry/june-2023/q10.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A gardener wants to buy enough mulch to cover a rectangular garden that is 3 feet by 10 feet. One bag contains 2 cubic feet of mulch and costs $3.66. How much will the minimum number of bags cost to cover the garden with mulch 3 inches deep?",
+      "choices": [
+        "$3.66",
+        "$10.98",
+        "$14.64",
+        "$29.28"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "In the diagram below, nDOG | nCAT, where /G and /T are right angles. A O G D T C Which expression is always equivalent to sin D?",
+      "choices": [
+        "cos A",
+        "sin A",
+        "tan A",
+        ""
+      ],
+      "image": "/images/exams/geometry/june-2023/q12.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, nDEF is the image of nABC after a dilation of scale factor 1__ 3 . A B E D C F y x The center of dilation is at",
+      "choices": [
+        "(0,0)",
+        "(2,23)",
+        "(0,22)",
+        "(24,0)"
+      ],
+      "image": "/images/exams/geometry/june-2023/q13.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "In the diagram below of isosceles triangle AHE with the vertex angle at H, CB ___ ' AE ___ and FD ___ ' AE ___ . H F C A B D E Which statement is always true?",
+      "choices": [
+        "AH ___ AC 5 EH ___ EF",
+        "AC ___ EF 5 AB ___ ED",
+        "AB ___ ED 5 CB ___ FE",
+        "AD ___ AB 5 BE ___ DE"
+      ],
+      "image": "/images/exams/geometry/june-2023/q14.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Rectangle ABCD has two vertices at coordinates A(21,23) and B(6,5). The slope of BC ___ is",
+      "choices": [
+        "2__7 8",
+        "__7 8",
+        "2__8 7",
+        "__8 7"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In right triangle ABC, m/A 5 908, m/B 5 188, and AC 5 8. To the nearest tenth, the length of BC ___ is",
+      "choices": [
+        "2.5",
+        "8.4",
+        "24.6",
+        "25.9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The measure of one of the base angles of an isosceles triangle is 42\u00b0. The measure of an exterior angle at the vertex of the triangle is",
+      "choices": [
+        "42\u00b0",
+        "84\u00b0",
+        "96\u00b0",
+        "138\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "In the diagram below, AF ___ KB ___ || CH ____ LM ___ , FH ___ > LH ___ , FL ___ > KL ___ , and LF ___ bisects /HFK. D A F K B C H E L M Which statement is always true?",
+      "choices": [
+        "2(m/HLF) 5 m/CHE",
+        "2(m/FLK) 5 m/LKB",
+        "m/AFD 5 m/BKL",
+        "m/DFK 5 m/KLF"
+      ],
+      "image": "/images/exams/geometry/june-2023/q18.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The line whose equation is 6x 1 3y 5 3 is dilated by a scale factor of 2 centered at the point (0,0). An equation of its image is",
+      "choices": [
+        "y 5 22x 1 1",
+        "y 5 22x 1 2",
+        "y 5 24x 1 1",
+        "y 5 24x 1 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which figure will not carry onto itself after a 120-degree rotation about its center?",
+      "choices": [
+        "equilateral triangle",
+        "regular hexagon",
+        "regular octagon",
+        "regular nonagon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Triangle ADF is drawn and BC ___ || DF ___ . F C B A D Which statement must be true?",
+      "choices": [
+        "AB ___ BC 5 BD ___ DF",
+        "BC 5 __1 2 DF",
+        "AB:AD 5 AC:CF",
+        "/ACB > /AFD"
+      ],
+      "image": "/images/exams/geometry/june-2023/q21.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "In nABC, M is the midpoint of AB ___ and N is the midpoint of AC ___ . If MN 5 x 1 13 and BC 5 5x 2 1, what is the length of MN ____ ?",
+      "choices": [
+        "3.5",
+        "9",
+        "16.5",
+        "22"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "In the diagram below of isosceles trapezoid STAR, diagonals AS ___ and RT ___ intersect at O and ST ___ || RA ___ , with nonparallel sides SR ___ and TA ___ . S T R A O Which pair of triangles are not always similar?",
+      "choices": [
+        "nSTO and nARO",
+        "nSOR and nTOA",
+        "nSRA and nATS",
+        "nSRT and nTAS"
+      ],
+      "image": "/images/exams/geometry/june-2023/q23.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The endpoints of AB ___ are A(0,4) and B(\u20134,6). Which equation of a line represents the perpendicular bisector of AB ___ ?",
+      "choices": [
+        "y 5 2 1__ 2 x 1 4",
+        "y 5 22x 1 1",
+        "y 5 2x 1 8",
+        "y 5 2x 1 9 Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "In nABC below, use a compass and straightedge to construct the altitude from C to AB ___ . [Leave all construction marks.]",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2023/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "26",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2023/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Line segment PQ has endpoints P(\u20135,1) and Q(5,6), and point R is on PQ ___ . Determine and state the coordinates of R, such that PR:RQ 5 2:3. [The use of the set of axes below is optional.]",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2023/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "A circle has a radius of 6.4 inches. Determine and state, to the nearest square inch, the area of a sector whose arc measures 80\u00b0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "A large snowman is made of three spherical snowballs with radii of 1 foot, 2 feet, and 3 feet, respectively. Determine and state the amount of snow, in cubic feet, that is used to make the snowman. [Leave your answer in terms of p.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "In the diagram below of right triangle ACB, altitude CD ___ is drawn to hypotenuse AB ___ , AD 5 2 and AC 5 6. C 6 A 2 D B Determine and state the length of AB ___",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2023/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Triangle RST has vertices with coordinates R(23,22), S(3,2) and T(4,24). Determine and state an equation of the line parallel to RT ___ that passes through point S. [The use of the set of axes below is optional.] Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2023/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Cape Canaveral, Florida is where NASA launches rockets into space. As modeled in the diagram below, a person views the launch of a rocket from observation area A, 3280 feet away from launch pad B. After launch, the rocket was sighted at C with an angle of elevation of 158. The rocket was later sighted at D with an angle of elevation of 318. 3280 ft 15\u00b0 C B A 31\u00b0 D Determine and state, to the nearest foot, the distance the rocket traveled between the two sightings,",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2023/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "A small can of soup is a right circular cylinder with a base diameter of 7 cm and a height of 9 cm. A large container is also a right circular cylinder with a base diameter of 9 cm and a height of 13 cm. Determine and state the volume of the small can and the volume of the large container to the nearest cubic centimeter. What is the minimum number of small cans that must be opened to fill the large container?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Parallelogram MATH has vertices M(27,22), A(0,4), T(9,2), and H(2,24). Prove that parallelogram MATH is a rhombus. [The use of the set of axes below is optional.] Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2023/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Given: Quadrilateral ABCD, AB ___ > CD ___ , AB ___ || CD ___ , diagonal AC ___ intersects EF ___ at G, and DE ___ > BF ___ C F B D E A G Prove: G is the midpoint of EF ___ Work space for question 35 Question 35 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2023/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

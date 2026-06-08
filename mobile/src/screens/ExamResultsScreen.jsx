@@ -1,11 +1,35 @@
 import React, { useState, useMemo, useRef, useEffect } from 'react'
-import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Animated } from 'react-native'
+import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Animated, Modal } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { analyzeExamResults } from '../utils/topicAnalysis'
+import { saveExamScore } from '../hooks/useExamScores'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
-import * as leData from '../content/living-environment/index'
-import * as esData from '../content/earth-science/index'
+import * as leData   from '../content/living-environment/index'
+import * as esData   from '../content/earth-science/index'
+import * as chemData from '../content/chemistry/index'
+import * as physData from '../content/physics/index'
+import * as a1Data   from '../content/algebra-1/index'
+import * as a2Data   from '../content/algebra-2/index'
+import * as geoData  from '../content/geometry/index'
+import * as lsData   from '../content/life-science/index'
+import * as enData   from '../content/english/index'
+import * as ghData   from '../content/global-history/index'
+import * as usData   from '../content/us-history/index'
+
+const EXAM_SUBJECT_DATA = {
+  'living-environment': leData,
+  'earth-science':      esData,
+  'chemistry':          chemData,
+  'physics':            physData,
+  'algebra-1':          a1Data,
+  'algebra-2':          a2Data,
+  'geometry':           geoData,
+  'life-science':       lsData,
+  'english':            enData,
+  'global-history':     ghData,
+  'us-history':         usData,
+}
 import { SUBJECTS } from '../content/subjects'
 
 // ⚠️ ESTIMATE ONLY — not an official NY Regents conversion.
@@ -35,30 +59,38 @@ function topicIndicator(pct) {
 }
 
 export default function ExamResultsScreen({ route, navigation }) {
-  const { exam, questions, answers, correct, total, xpEarned } = route.params
+  const { exam, questions, answers, writtenAnswers = {}, correct, total, rpEarned } = route.params
   const { C } = useTheme()
   const s = makeStyles(C)
-  const [showReview, setShowReview] = useState(false)
+  const [showReview,    setShowReview]    = useState(false)
   const [showStudyPlan, setShowStudyPlan] = useState(true)
+  const [diveDeepQ,     setDiveDeepQ]    = useState(null)
 
   const raw    = correct
   const scaled = getScaledScore(raw, total)
   const passed = scaled >= 65
   const color  = passed ? C.correct : C.wrong
 
+  const writtenQuestions  = questions.filter((q) => q.type === 'written')
+  const writtenMaxPts     = writtenQuestions.reduce((sum, q) => sum + (q.maxPoints ?? 1), 0)
+  const mcMaxPts          = questions.filter((q) => q.type !== 'written').length
+  const totalMaxPts       = mcMaxPts + writtenMaxPts
+
   const [displayScore, setDisplayScore] = useState(0)
-  const [displayXP,    setDisplayXP]    = useState(0)
+  const [displayRP,    setDisplayRP]    = useState(0)
   const scoreAnim = useRef(new Animated.Value(0)).current
-  const xpAnim    = useRef(new Animated.Value(0)).current
+  const rpAnim    = useRef(new Animated.Value(0)).current
+
+  useEffect(() => { saveExamScore(exam.id, scaled) }, [])
 
   useEffect(() => {
     const scoreId = scoreAnim.addListener(({ value }) => setDisplayScore(Math.round(value)))
-    const xpId    = xpAnim.addListener(({ value }) => setDisplayXP(Math.round(value)))
+    const rpId    = rpAnim.addListener(({ value }) => setDisplayRP(Math.round(value)))
     Animated.parallel([
       Animated.timing(scoreAnim, { toValue: scaled,   duration: 1000, useNativeDriver: false }),
-      Animated.timing(xpAnim,    { toValue: xpEarned, duration: 900,  useNativeDriver: false }),
+      Animated.timing(rpAnim,    { toValue: rpEarned, duration: 900,  useNativeDriver: false }),
     ]).start()
-    return () => { scoreAnim.removeListener(scoreId); xpAnim.removeListener(xpId) }
+    return () => { scoreAnim.removeListener(scoreId); rpAnim.removeListener(rpId) }
   }, [])
 
   // ── Topic breakdown ───────────────────────────────────────────────────────
@@ -71,7 +103,7 @@ export default function ExamResultsScreen({ route, navigation }) {
   const topPriority = weakTopics.slice(0, 2).map((t) => t.topic).join(', ')
 
   function studyTopic(topicName) {
-    const sd = exam.subject === SUBJECTS.EARTH_SCIENCE ? esData : leData
+    const sd = EXAM_SUBJECT_DATA[exam.subject] ?? leData
     const pool = sd.getByTopic ? sd.getByTopic(topicName) : []
     if (!pool?.length) {
       navigation.navigate('Main', { screen: 'StudyTab' })
@@ -88,7 +120,7 @@ export default function ExamResultsScreen({ route, navigation }) {
   }
 
   return (
-    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       <ScrollView contentContainerStyle={s.scroll}>
         {/* Header */}
         <Text style={[T.label, { color: C.textMuted, textAlign: 'center' }]}>{exam.label} Regents</Text>
@@ -106,9 +138,9 @@ export default function ExamResultsScreen({ route, navigation }) {
           {passed ? '🎉 Passed!' : '📚 Not yet — keep studying'}
         </Text>
 
-        {xpEarned > 0 && (
+        {rpEarned > 0 && (
           <View style={s.xpBanner}>
-            <Text style={[T.body, { color: C.warn }]}>⭐ +{displayXP} XP earned</Text>
+            <Text style={[T.body, { color: C.warn }]}>⭐ +{displayRP} RP earned</Text>
           </View>
         )}
 
@@ -125,6 +157,27 @@ export default function ExamResultsScreen({ route, navigation }) {
               <Text style={[T.h3, { color: valueColor }]}>{value}</Text>
             </View>
           ))}
+
+          {/* Divider */}
+          <View style={{ height: 1, backgroundColor: C.border, marginVertical: 10 }} />
+
+          {/* Point breakdown */}
+          <Text style={[T.label, { color: C.textMuted, marginBottom: 8 }]}>EXAM POINT BREAKDOWN</Text>
+          <View style={s.breakdownRow}>
+            <Text style={[T.body, { color: C.textMuted }]}>Part I — MC ({mcMaxPts} pts max)</Text>
+            <Text style={[T.h3, { color: C.text }]}>{raw} / {mcMaxPts}</Text>
+          </View>
+          {writtenQuestions.length > 0 && (
+            <View style={s.breakdownRow}>
+              <Text style={[T.body, { color: C.textMuted }]}>Written Responses ({writtenMaxPts} pts max)</Text>
+              <Text style={[T.h3, { color: C.textMuted }]}>{writtenQuestions.length} submitted</Text>
+            </View>
+          )}
+          <View style={[s.breakdownRow, { marginTop: 4 }]}>
+            <Text style={[T.body, { color: C.text, fontWeight: '700' }]}>Total Possible Points</Text>
+            <Text style={[T.h3, { color: C.brand }]}>{totalMaxPts}</Text>
+          </View>
+
           <Text style={[T.small, { color: C.textDim, marginTop: 10, lineHeight: 16 }]}>
             ⚠️ Estimated score based on multiple-choice only. The official Regents
             conversion changes each exam and also counts written/lab responses, so
@@ -215,18 +268,57 @@ export default function ExamResultsScreen({ route, navigation }) {
         </TouchableOpacity>
 
         {showReview && questions.map((q, i) => {
-          const userAns   = answers[i] ?? answers[String(i)]
+          if (q.type === 'written') {
+            const studentText = writtenAnswers[i] ?? writtenAnswers[String(i)] ?? ''
+            return (
+              <View key={i} style={[s.reviewRow, { borderColor: studentText ? C.brand : C.border }]}>
+                <Text style={[T.label, { color: C.textMuted, width: 22, textTransform: 'none', letterSpacing: 0 }]}>{i + 1}</Text>
+                <View style={{ flex: 1, gap: 4 }}>
+                  <Text style={[T.label, { color: C.brand, textTransform: 'none', letterSpacing: 0 }]}>Part {q.part} · Written</Text>
+                  <Text style={[T.small, { color: C.text, lineHeight: 18 }]} numberOfLines={2}>{q.text}</Text>
+                  {studentText ? (
+                    <Text style={[T.small, { color: C.textMuted, fontStyle: 'italic', lineHeight: 16 }]} numberOfLines={3}>
+                      Your answer: {studentText}
+                    </Text>
+                  ) : (
+                    <Text style={[T.small, { color: C.wrong }]}>Not answered</Text>
+                  )}
+                  {q.modelAnswer && (
+                    <Text style={[T.small, { color: C.correct, lineHeight: 16 }]} numberOfLines={4}>
+                      ✓ Model: {q.modelAnswer}
+                    </Text>
+                  )}
+                </View>
+                <Text>{studentText ? '✍️' : '—'}</Text>
+              </View>
+            )
+          }
+          const userAns    = answers[i] ?? answers[String(i)]
           const correctAns = q.correct ?? q.correctIndex
           const isCorrect  = userAns === correctAns
           return (
             <View key={i} style={[s.reviewRow, { borderColor: isCorrect ? C.correct : C.wrong }]}>
               <Text style={[T.label, { color: C.textMuted, width: 22, textTransform: 'none', letterSpacing: 0 }]}>{i + 1}</Text>
-              <View style={{ flex: 1 }}>
+              <View style={{ flex: 1, gap: 3 }}>
                 <Text style={[T.small, { color: C.text, lineHeight: 18 }]} numberOfLines={2}>{q.text}</Text>
                 {!isCorrect && (
-                  <Text style={[T.label, { color: C.correct, textTransform: 'none', letterSpacing: 0, marginTop: 2 }]}>
+                  <Text style={[T.label, { color: C.correct, textTransform: 'none', letterSpacing: 0 }]}>
                     ✓ {q.choices?.[correctAns]}
                   </Text>
+                )}
+                {q.explanation && (
+                  <Text style={[T.small, { color: C.textMuted, lineHeight: 16 }]} numberOfLines={2}>
+                    {q.explanation}
+                  </Text>
+                )}
+                {(q.explanation || q.diveDeep) && (
+                  <TouchableOpacity
+                    onPress={() => setDiveDeepQ(q)}
+                    style={[s.diveDeepBtn, { borderColor: C.brand + '50', backgroundColor: C.brandBg }]}
+                    activeOpacity={0.7}
+                  >
+                    <Text style={[T.label, { color: C.brand, textTransform: 'none', letterSpacing: 0 }]}>🔍 Dive Deep</Text>
+                  </TouchableOpacity>
                 )}
               </View>
               <Text>{isCorrect ? '✅' : '❌'}</Text>
@@ -234,24 +326,48 @@ export default function ExamResultsScreen({ route, navigation }) {
           )
         })}
 
-        {/* Actions */}
+        {/* Actions — read-only after submission, no retake */}
         <View style={s.actions}>
           <TouchableOpacity
             style={[duoBtn(C.brand, C.brandDark, { flex: 1 })]}
-            onPress={() => navigation.navigate('Exam', { exam, questions, subject: exam.subject })}
-          >
-            <Text style={[T.btn, { color: '#fff' }]}>🔄 RETAKE</Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={[duoBtnOutline(C.border, { flex: 1 })]}
             onPress={() => navigation.navigate('Main', { screen: 'ExamsTab', params: { screen: 'ExamPicker' } })}
           >
-            <Text style={[T.btn, { color: C.text }]}>← ALL EXAMS</Text>
+            <Text style={[T.btn, { color: '#fff' }]}>← ALL EXAMS</Text>
           </TouchableOpacity>
         </View>
 
         <View style={{ height: 20 }} />
       </ScrollView>
+
+      {/* Dive Deep modal */}
+      <Modal visible={!!diveDeepQ} transparent animationType="slide" onRequestClose={() => setDiveDeepQ(null)}>
+        <TouchableOpacity style={s.diveBackdrop} activeOpacity={1} onPress={() => setDiveDeepQ(null)} />
+        <View style={[s.diveSheet, { backgroundColor: C.surface }]}>
+          <View style={[s.diveHandle, { backgroundColor: C.border }]} />
+          <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ gap: 14, paddingBottom: 32 }}>
+            {diveDeepQ?.explanation ? (
+              <>
+                <Text style={[s.diveTitle, { color: C.brand }]}>🔍 Explanation</Text>
+                <Text style={[s.diveBody, { color: C.text }]}>{diveDeepQ.explanation}</Text>
+              </>
+            ) : null}
+            {diveDeepQ?.diveDeep && (
+              <>
+                {diveDeepQ?.explanation && <View style={[s.diveDivider, { backgroundColor: C.border }]} />}
+                <Text style={[s.diveDeepLabel, { color: C.textMuted }]}>DEEP DIVE</Text>
+                <Text style={[s.diveBody, { color: C.text }]}>{diveDeepQ.diveDeep}</Text>
+              </>
+            )}
+          </ScrollView>
+          <TouchableOpacity
+            style={[s.diveCloseBtn, { backgroundColor: C.brand }]}
+            onPress={() => setDiveDeepQ(null)}
+            activeOpacity={0.85}
+          >
+            <Text style={s.diveCloseBtnText}>Got it ✓</Text>
+          </TouchableOpacity>
+        </View>
+      </Modal>
     </SafeAreaView>
   )
 }
@@ -298,6 +414,16 @@ function makeStyles(C) {
       flexDirection: 'row', gap: 10, backgroundColor: C.surface,
       borderRadius: 12, padding: 12, borderLeftWidth: 3,
     },
-    actions:       { flexDirection: 'row', gap: 12, marginTop: 8 },
+    diveDeepBtn:     { alignSelf: 'flex-start', borderWidth: 1, borderRadius: 8, paddingHorizontal: 10, paddingVertical: 4, marginTop: 2 },
+    diveBackdrop:    { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.45)' },
+    diveSheet:       { position: 'absolute', bottom: 0, left: 0, right: 0, borderTopLeftRadius: 24, borderTopRightRadius: 24, padding: 20, maxHeight: '75%' },
+    diveHandle:      { width: 40, height: 4, borderRadius: 2, alignSelf: 'center', marginBottom: 16 },
+    diveTitle:       { fontSize: 17, fontWeight: '800' },
+    diveBody:        { fontSize: 15, lineHeight: 24 },
+    diveDivider:     { height: 1 },
+    diveDeepLabel:   { fontSize: 11, fontWeight: '700', letterSpacing: 1 },
+    diveCloseBtn:    { borderRadius: 14, paddingVertical: 14, alignItems: 'center', marginTop: 8 },
+    diveCloseBtnText:{ color: '#fff', fontWeight: '800', fontSize: 15 },
+    actions:         { flexDirection: 'row', gap: 12, marginTop: 8 },
   })
 }

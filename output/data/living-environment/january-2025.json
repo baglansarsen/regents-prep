@@ -1,0 +1,1116 @@
+{
+  "subject": "living-environment",
+  "session": "january-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "When you cut your finger, new skin quickly grows that repairs and replaces the damaged skin cells. Information directing this process is located in the",
+      "choices": [
+        "mitochondria in neighboring skin cells, which provide the energy needed for mitotic cell division",
+        "mitochondria in neighboring skin cells, which provide the energy needed for meiotic cell division",
+        "DNA of neighboring cells, which divide by mitotic cell division",
+        "DNA of neighboring cells, which divide by meiotic cell division"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "ATP is produced in the",
+      "choices": [
+        "vacuoles",
+        "nuclei",
+        "mitochondria",
+        "ribosomes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Some trees release toxins into the soil that can kill the plants nearby. This ability can best be described as",
+      "choices": [
+        "a means of establishing a consistent soil pH",
+        "a benefit to the ecosystem, since it results in increased biodiversity",
+        "a trait acquired by the species to eliminate the consumers that feed on them",
+        "an evolutionary advantage, reducing competition for water, nutrients, and sunlight"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "When the frequency of a gene in a population changes, the most likely result would be",
+      "choices": [
+        "ecological succession",
+        "biological evolution",
+        "species extinction",
+        "genetic mutation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "During the 1880s, in an attempt to control the rat population, the Asian mongoose was brought to the Hawaiian Islands. However, there was a flaw in the plan. Rats are active at night, while mongooses feed on birds and eggs during the day. They had little effect on the rat population. The mongoose population rapidly increased and caused the extinction of many bird species native to the islands. Bringing mongooses to the Hawaiian Islands is an example of",
+      "choices": [
+        "a technological fix to solve problems caused by population growth",
+        "developing a research plan to study unintended outcomes",
+        "humans altering ecosystems, resulting in unintended consequences",
+        "an imported species solving an ecological problem"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Many companies today are looking for ways to reduce the use of finite resources. They are working to recycle, reuse, and repair more products to reduce dumping and pollution. Which statement best describes a positive result of these changes?",
+      "choices": [
+        "Fossil fuels will be renewed for future generations to utilize.",
+        "Finite resources will not be depleted as quickly.",
+        "These activities can result in unstable ecosystems.",
+        "Destruction of ecosystems will result in a loss of biodiversity."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which characteristic would give one species the greatest advantage over other species?",
+      "choices": [
+        "higher number of surviving offspring",
+        "lower number of matings",
+        "lower adaptation to the environment",
+        "higher rate of disease"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the same location over a period of many years. Grass stage Shrub stage Pine forest stage Hardwood forest stage Bare field Time As a result of these changes,",
+      "choices": [
+        "biodiversity in the area decreases",
+        "the community becomes more stable",
+        "the community becomes less stable",
+        "biodiversity is not affected"
+      ],
+      "image": "/images/exams/living-environment/january-2025/q8.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Between 1880 and 2020, Earth\u2019s temperature increased slightly more than 1\u00b0C. 1880 \u20130.5 0.0 0.5 1.0 1.5 1900 1920 1940 1960 Year Change in Global Average Temperature Temperature Change (\u00b0C) 1980 2000 Baseline 1\u00b0C 2020 The best explanation for this increase is",
+      "choices": [
+        "a decrease in the amount of sunlight reaching Earth each year",
+        "an increase in the amount of solar radiation reflected back into space",
+        "changing concentrations of gases in the atmosphere",
+        "volcanic activity releasing ash and dust into the atmosphere"
+      ],
+      "image": "/images/exams/living-environment/january-2025/q9.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Two different species of animal prefer the same plant for food. One eats the leaves of the plant, the other prefers the fruit. By eating different parts of the same plant these species can successfully coexist because they do not",
+      "choices": [
+        "compete for limited resources",
+        "live in the same area",
+        "reproduce at the same time of year",
+        "interact in a predator-prey relationship"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Different techniques are used to study cells. Fluorescent (glowing) tags allow scientists to visualize specific proteins as they are synthesized inside cells. Which part of a cell would be studied when using this technology to visualize protein synthesis?",
+      "choices": [
+        "nucleus",
+        "ribosome",
+        "cell wall",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The image below shows a recently discovered fossil of an unhatched egg of a theropod dinosaur. The dinosaur is in a prehatching position similar to bird embryos in unhatched eggs today. Prior to finding the fossil, this behavior was never seen in animals other than birds. The fact that both theropod dinosaurs and birds share this behavior is evidence that",
+      "choices": [
+        "birds and theropod dinosaurs are related and share a common ancestor",
+        "animals that develop in eggs must use this behavior to survive",
+        "this behavior decreases reproductive success",
+        "behaviors like this must be learned from parents"
+      ],
+      "image": "/images/exams/living-environment/january-2025/q12.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The graph below represents the amount of stored energy in each level of an energy pyramid. Stored Energy Level 1 2 3 4 Amount of Energy Stored The amount of stored energy between level 1 and level 4 decreases because",
+      "choices": [
+        "there are more organisms at level 4",
+        "level 1 has more consumers",
+        "at each level some energy is released as heat",
+        "there are more producers at each level"
+      ],
+      "image": "/images/exams/living-environment/january-2025/q13.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "In a sexually reproducing species of plant, which change could occur that would have an effect on the species in the future?",
+      "choices": [
+        "changes in the egg cells in the ovaries of the plants\u2019 flowers",
+        "variations that occur in the root cells of the plants in a field",
+        "differences in leaf cells that are exposed to solar radiation",
+        "a change in the DNA sequence caused by ultraviolet radiation in the cells of the plants\u2019 stems"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Many factors go into producing goods that are used by people in their everyday lives. In manufacturing, the production of goods and use of energy",
+      "choices": [
+        "is always positive because it is the only way for goods to be produced",
+        "can only be negative because it generates a lot of pollution",
+        "is neither positive nor negative because the energy is necessary",
+        "can have both positive and negative effects"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The illustration below represents two cellular processes, A and B. Cellular Process A Cellular Process B Select the row in the table that correctly identifies the cellular process. Row Cellular Process A Cellular Process B",
+      "choices": [
+        "meiosis differentiation",
+        "recombination cloning",
+        "fertilization recombination",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2025/q16.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A food web is represented below. Mountain lions Hawks Owls Frogs Crickets Mice Grasses Shrubs Rabbits Snakes Trees Deer A chemical was introduced into this environment that caused a decrease in the population of mice. This would most likely cause",
+      "choices": [
+        "an increase in the deer population",
+        "an increase in the shrub population",
+        "a decrease in the tree population",
+        "a decrease in the snake population"
+      ],
+      "image": "/images/exams/living-environment/january-2025/q17.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Populations of organisms making up an Arctic food chain are represented below. Algae Zooplankton Arctic cod Ringed seal Polar bear Which statement concerning this food chain is the most accurate?",
+      "choices": [
+        "The greatest amount of energy in this food chain is located in the polar bear population.",
+        "Zooplankton, which provide food for the cod, are the main producers in this chain.",
+        "A reduction in the algae populations would most likely affect the survival of all the other populations in this food chain.",
+        "The organisms in this chain can all produce their own energy during long periods of cold weather."
+      ],
+      "image": "/images/exams/living-environment/january-2025/q18.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The protein in a hamburger is broken down into amino acids. Which two processes are involved in the breakdown of the protein and the absorption of the amino acids into the bloodstream?",
+      "choices": [
+        "synthesis and mitosis",
+        "digestion and diffusion",
+        "mitosis and digestion",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Tuatara are the last survivors of an ancient group of reptiles that lived at the same time as the dinosaurs. Tuatara contain a very large genome. The genome, its complete set of genes, is about two-thirds bigger than the human genome. One possible explanation for why the tuatara has survived since prehistoric times is that their large genome",
+      "choices": [
+        "has enabled them to live on a part of Earth that has not gone through any environmental changes since the time of the dinosaurs",
+        "provided the members of the species with characteristics that gave them advantages for survival in changing environments",
+        "can mutate when the species needs to develop characteristics that will adapt the members to live in areas that are very cold or very warm",
+        "can rearrange genes so that the species evolves when environmental changes occur"
+      ],
+      "image": "/images/exams/living-environment/january-2025/q20.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Two primary chemical messengers used in communication within the human body include",
+      "choices": [
+        "antibodies and pathogens",
+        "organic catalysts and toxins",
+        "enzymes and antigens produced by body cells",
+        "hormones and chemicals produced by nerve cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Holstein cows have become the most widespread breed of dairy cow in the United States. They have been selectively bred to have many characteristics beneficial to dairy farmers. Holsteins are known for their ability to produce large quantities of milk. In addition, they are often calm and agreeable animals. Which statement best describes a potential risk of the selective breeding process to future generations of Holstein dairy cows?",
+      "choices": [
+        "Genetic diversity in the breed may become limited over time.",
+        "It increases the chances of having even more desired characteristics.",
+        "It results in many highly productive and long- lived animals.",
+        "It improves the health of future generations of Holstein cattle."
+      ],
+      "image": "/images/exams/living-environment/january-2025/q22.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "An organism that normally has 32 chromosomes in its body cells is found to be producing gametes with either 15 or 17 chromosomes. It has not been able to successfully reproduce. The most likely reason for its inability to reproduce would be errors during the process of",
+      "choices": [
+        "mitosis",
+        "differentiation",
+        "meiosis",
+        "cloning"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which sequence correctly identifies the flow of energy through an ecosystem?",
+      "choices": [
+        "producers \u2192 consumer \u2192 herbivore",
+        "consumer \u2192 decomposer \u2192 producer",
+        "carnivore \u2192 herbivore \u2192 producer",
+        "producer \u2192 consumer \u2192"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "An ameba, which is a single-celled aquatic organism, is represented below. Which of the ameba's cell structures is the most important in obtaining oxygen from its environment?",
+      "choices": [
+        "cell membrane",
+        "ribosome",
+        "mitochondrion",
+        "cell wall"
+      ],
+      "image": "/images/exams/living-environment/january-2025/q25.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a specialized gamete that plays a role in human reproduction. Mitochondria Nucleus Tail The proper functioning of cells like these is vital for human reproduction because",
+      "choices": [
+        "its mitochondria provide the nutrition to support the embryo",
+        "the tail makes it possible to deliver all the genetic information needed in a zygote",
+        "the cell differentiates to form specialized structures such as tissues and organs",
+        "its nucleus carries half the genetic information needed to form a zygote"
+      ],
+      "image": "/images/exams/living-environment/january-2025/q26.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "If the amounts of carbon dioxide and water available increase, it is most likely that the first response by the producer organisms would be to",
+      "choices": [
+        "increase glucose synthesis",
+        "increase DNA synthesis",
+        "decrease amino acid synthesis",
+        "decrease nucleic acid synthesis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "There are high numbers of stray and feral cats in communities across the United States. In order to humanely control these cat populations, many areas are participating in programs to trap, spay, and release the animals. When a female cat is spayed, organs are surgically removed to prevent the animal from being able to reproduce. Which two organs are most likely removed from the female cat during this surgery?",
+      "choices": [
+        "uterus and placenta",
+        "ovaries and uterus",
+        "ovaries and stomach",
+        "placenta and testes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "When you purchase a fishing license in New York State, you are told to check the Advisory Tables before consuming any of the fish you catch. The tables list the fish species you should not eat and others you can eat up to four times per month, due to the presence of toxic chemicals in the fish. A likely reason the table recommends that children under the age of 15 and young women should not eat any of the fish caught in some bodies of water is that",
+      "choices": [
+        "young women and children already have a large amount of these chemicals in their bodies",
+        "the chemicals may affect their development or harm potential unborn children",
+        "the chemicals do not affect males, so they can eat up to four of the fish per month",
+        "the fish species on the list are in danger of extinction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Examples of two abiotic resources present in an ecosystem are",
+      "choices": [
+        "nitrogen and carbon dioxide in the atmosphere",
+        "animal species and water",
+        "the plant species and soil minerals",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Organisms A and B represent microorganisms viewed through a microscope. Although both seem to occupy the same field of view, which organism is actually larger? Organism A viewed with 10x objective Organism B viewed with 40x objective",
+      "choices": [
+        "A is larger since it fills the field of view at low magnification.",
+        "B is larger since the magnification is lower.",
+        "A is larger since the magnification is higher.",
+        "B is larger since it fills the field of view at high magnification."
+      ],
+      "image": "/images/exams/living-environment/january-2025/q31.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The data represented in the graph below show differences in the concentration of carbon dioxide (CO2) in the atmosphere during the summer and winter months. CO2 (ppm) 320 315 310 305 Carbon Dioxide Concentration Year 1958 1959 1960 1961 1962 Which statement best explains why these differences occur?",
+      "choices": [
+        "The rate of respiration in plants increases during the summer, releasing more CO2 into the atmosphere.",
+        "The activity of decomposers increases during the winter months, removing large amounts of CO2 from the atmosphere.",
+        "The increased exposure of plants to sunlight during the winter results in increased CO2 production.",
+        "The activity of autotrophs increases during the summer, removing CO2 from the atmosphere."
+      ],
+      "image": "/images/exams/living-environment/january-2025/q32.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Altering the DNA of a muscle cell in a mouse by substituting one base pair with another could likely",
+      "choices": [
+        "change all the DNA sequences in the mouse",
+        "change one amino acid in a protein a muscle cell produces",
+        "alter the carbohydrates that the muscle cells\u2019 ribosomes produce",
+        "alter the DNA of the offspring of the mouse"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the interaction of a human cell and the hormone, insulin, that maintains a healthy blood glucose level in the body. Insulin X Human cell Structure X is best described as a",
+      "choices": [
+        "signal molecule that is attached to the cell wall",
+        "protein molecule that releases energy that can be used by the cell",
+        "carbohydrate molecule that sends signals to other cells",
+        "receptor molecule that allows the cell to respond to changes"
+      ],
+      "image": "/images/exams/living-environment/january-2025/q34.png",
+      "context": "Base your answers to questions 34 and 35 on the diagram and information below and on your knowledge of \nbiology.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Some individuals cannot produce insulin. As a result, their cells will",
+      "choices": [
+        "produce another molecule to take over the function of insulin",
+        "synthesize more glucose for energy production",
+        "not respond appropriately to changes in blood glucose levels",
+        "divide at a faster rate than when insulin is available"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 34 and 35 on the diagram and information below and on your knowledge of \nbiology.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Two different human disorders are compared in the table below. Blood Disorder That Affects Hemoglobin Skin Disorder With a Sore That Does Not Heal \u2022 caused by a gene mutation \u2022 individuals with two copies of the mutated gene have the disorder \u2022 this disorder is more common in some populations than in others \u2022 individuals are born with this disorder \u2022 caused by a gene mutation \u2022 some individuals exposed to UV radiation develop the disorder \u2022 there are environmental factors associated with the disorder \u2022 abnormal skin cells reproduce rapidly in exposed individual Which statement describes the patterns of inheritance for these two disorders?",
+      "choices": [
+        "The blood disorder is not inherited but the skin disorder is inherited.",
+        "Both the blood and skin disorders are not inherited but can be passed to offspring.",
+        "The blood disorder can be inherited, and there are factors associated with the skin disorder that may be inherited.",
+        "Both the blood and skin disorders can be inherited,"
+      ],
+      "image": "/images/exams/living-environment/january-2025/q36.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The ecosystem will be disrupted with the loss of this keystone species because the loss would lead to",
+      "choices": [
+        "a decrease in the elk population",
+        "a decrease in the coyote population",
+        "an increase in the plant populations",
+        "a decrease in the plant populations"
+      ],
+      "image": "/images/exams/living-environment/january-2025/context_37_38.png",
+      "context": "Base your answers to questions 37 and 38 on the diagram and information below and on your knowledge of \nbiology. \nGray wolves have been identified as a keystone species, which is a species that is critical \nto the health of the Yellowstone ecosystem.\nElk\nGrass\nPlants\nCoyotes\nGray wolves\nGrain\nFruits\nVoles\nFood Web in the Yellowstone Ecosystem",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Due to human concerns, wolves were removed from the Yellowstone ecosystem for approximately 70 years, from the 1920s until 1995. Scientists felt that, as a keystone species, it was important to reintroduce the wolves to",
+      "choices": [
+        "increase the stability of the natural environment",
+        "limit the use of pesticides to control plant populations",
+        "increase the reproductive rate of the elk population",
+        "stimulate growth of the coyote population"
+      ],
+      "image": "/images/exams/living-environment/january-2025/context_37_38.png",
+      "context": "Base your answers to questions 37 and 38 on the diagram and information below and on your knowledge of \nbiology. \nGray wolves have been identified as a keystone species, which is a species that is critical \nto the health of the Yellowstone ecosystem.\nElk\nGrass\nPlants\nCoyotes\nGray wolves\nGrain\nFruits\nVoles\nFood Web in the Yellowstone Ecosystem",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Hydrangeas are plants with flowers that can change color. If the pH of the soil in which the plants are growing is altered, the flower color can vary from pink to blue. What is the best explanation for this phenomenon?",
+      "choices": [
+        "The genes of the hydrangea plants are mutated by the change in pH.",
+        "Some of the genes of the hydrangea plants die off due to the pH change.",
+        "The genes of the hydrangea plants can be turned on and off by different soil pH levels.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "How many more months did the Maggie Creek area have some green vegetation cover in 2006-2016, compared with the number of months of green cover in 1985-1994?",
+      "choices": [
+        "5 months",
+        "7 months",
+        "3 months",
+        "10 months"
+      ],
+      "image": "/images/exams/living-environment/january-2025/context_40_41.png",
+      "context": "Base your answers to questions 40 and 41 on the information below and on your knowledge of biology.\nIn the 1990s, ranchers on Maggie Creek in Nevada moved the areas where their cattle \nwere grazing. The move was done to help vegetation regrow on the banks of the creek, which \nhad been eroding due to lack of vegetation.\nAfter the move, vegetation began to return to the creek banks. The graph below shows \nthe changes in the amount of green vegetation from 1985 to 2016.\nEffect of Restoration at Maggie Creek, Nevada\nJanuary 1\nFebruary 1\nMarch 1\nApril 1\nMay 1\nJune 1\nJuly 1\nAugust 1\nSeptember 1\nOctober 1\nNovember 1\nDecember 1\nPercentage of Area With \nGreen Vegetation\n100\n80\n60\n40\n20\n0\nKey\n1985\u20131994\n1995\u20132005\n2006\u20132016\nDates",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The change in the environmental conditions of Maggie Creek over time is an example of how",
+      "choices": [
+        "human actions in one state can cause an ecosystem to develop into a stable grassland community in another state",
+        "grazing animals will eventually have a positive environmental effect on the land where they are kept",
+        "changing agricultural practices can help to restore environmental stability to certain locations",
+        "once humans interfere with environmental factors,"
+      ],
+      "image": "/images/exams/living-environment/january-2025/context_40_41.png",
+      "context": "Base your answers to questions 40 and 41 on the information below and on your knowledge of biology.\nIn the 1990s, ranchers on Maggie Creek in Nevada moved the areas where their cattle \nwere grazing. The move was done to help vegetation regrow on the banks of the creek, which \nhad been eroding due to lack of vegetation.\nAfter the move, vegetation began to return to the creek banks. The graph below shows \nthe changes in the amount of green vegetation from 1985 to 2016.\nEffect of Restoration at Maggie Creek, Nevada\nJanuary 1\nFebruary 1\nMarch 1\nApril 1\nMay 1\nJune 1\nJuly 1\nAugust 1\nSeptember 1\nOctober 1\nNovember 1\nDecember 1\nPercentage of Area With \nGreen Vegetation\n100\n80\n60\n40\n20\n0\nKey\n1985\u20131994\n1995\u20132005\n2006\u20132016\nDates",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Based on information provided in the Antarctic food web, one reason blue whales may contain a lower concentration of PCBs than killer whales is that blue whales",
+      "choices": [
+        "eat krill, which have a lower accumulation of PCBs than penguins and elephant seals",
+        "eat only plants that contain PCBs",
+        "are eaten by killer whales that accumulate PCBs from blue whales and other species",
+        "do not live as long as killer whales, and therefore their PCB concentration is lower"
+      ],
+      "image": "/images/exams/living-environment/january-2025/context_42_42.png",
+      "context": "Base your answer to question 42 on the information below and on your knowledge of biology.\nPCBs in the Environment\nPCBs are chemicals once used in electrical equipment. Their use has now been banned \nbecause PCBs have been found to cause cancer. These harmful chemicals made their way into \nthe ocean and have accumulated in the tissues of organisms. Beginning with the producers, \nthe levels of PCBs become more concentrated as larger organisms eat smaller ones. It has \nbeen shown that organisms higher in the food chain contain the greatest levels of PCBs.\nA student examined the diagram below of an Antarctic food web and made the claim that \nthe greatest concentration of PCBs would be found in leopard seals.\nKiller \nwhale\nLeopard \nseal\nElephant seal\nEmperor\nPenguin\nSquid\nBlue whale\nZooplankton and \nphytoplankton\nAntarctic\nsilverfish\nKrill",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "C. explodens, a species of ant that resides in the tropical jungles of Borneo, can explode when their nest is threatened. The nests contain adult ants, eggs, and larvae. When an adult ant comes in contact with an enemy ant, the C. explodens ant latches onto it and squeezes its own abdominal muscles until its abdomen bursts open, releasing a toxic goo. Which statement best describes this phenomenon?",
+      "choices": [
+        "The ants needed a way to protect their offspring, so they developed a way to release a toxic goo to kill enemies.",
+        "This behavior has resulted in greater reproductive success of the ants, since it kills the enemies who would have fed on their offspring.",
+        "The offspring of the ants will not inherit the exploding abdomen trait because this trait is not genetic.",
+        "The ant species will likely become extinct,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Identify the organism in the diagram that became extinct about 60 million years ago. \u20132",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_44_44.png",
+      "context": "Base your answer to question 44 on the diagram below and on your knowledge of biology. The diagram \nrepresents an evolutionary pathway for certain organisms over many years.\nPresent time\n25 million years ago\n50 million years ago \n75 million years ago \n100 million years ago \nJ\nK\nN\nO\nP\nI\nQ\nF\nE\nD\nB\nA\nC\nH\nG\nL\nM\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for D."
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the information below and on your knowledge of biology.\nThe Common Loon\nLoons are aquatic birds found on freshwater lakes throughout Canada and the northern \npart of the United States from early spring through fall. They inhabit lakes over five acres \nin size, with clear water and a good supply of fish for food. They migrate to coastal areas for \nthe winter.\nIn most states where loons are found, they are at risk of becoming extinct and require \nmanagement to ensure the health of the population. To help keep track of how many loons \nare living on specific lakes, state wildlife specialists train volunteer citizen scientists how to \nmonitor loon populations during breeding season. This provides additional data that helps \nresearchers determine loon population trends and factors affecting their survival.\nDuring the breeding season, a pair of loons typically produces one or two chicks per year. \nThe chicks are slow to mature. They are usually seven years old before their first successful \nbreeding season.\nLoons have dense bones rather than the hollow bones characteristic of most birds. Their \nwings are comparatively small for their body size. Adults weigh an average of 8\u201312 lbs. \nAnother trait of loons is their large, webbed feet and legs set far back on their bodies. To fly, \nthey run on top of the water, and flap their wings to gain enough momentum for liftoff.\nThe data table below shows the number of adult loons and chicks counted in the southern \npart of Maine between 1985 and 2020.\nNumber of Loon Adults and Chicks \nCounted in Southern Maine 1985-2020\nYear\nChicks\nAdults\n1985\n200\n1470\n1995\n260\n2650\n2010\n280\n2780\n2017\n453\n2817\n2019\n372\n2820\n2020\n414\n2974\n\nLiving Environment \u2013 Jan. \u201925\t\n[15]\t\n[OVER]\nDirections (45\u201346): Using the information given in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for marking an appropriate scale, without any breaks in the data, on each labeled axis."
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Plot the data for both the adults and the chicks following the directions below: \u2014 Plot the data for the loon adults on the grid and connect the points. Surround each point for the loon adults with a small triangle. \u2014 Plot the data for the loon chicks on the grid and connect the points. Surround each point for the loon chicks with a small circle. Example: (loon adults) Example: (loon chicks) Years Number of Loon Adults and Chicks Counted in Southern Maine 1985-2020 Number of Loons = Loon chicks = Below are two graphs showing the number of loon adults, immature loons, and chicks observed during the annual loon census conducted by the Audubon Society of New York on the lakes and ponds throughout the Adirondack Park in New York State. 2001 Annual Loon Census Number of Adult, Chick, and Immature Loons Observed #Loons Observed 450 400 350 300 250 0 200 150 100 50 59 6 #Immature Loons #Chicks 308 #Adults 2020 Annual Loon Census Number of Adult, Chick, and Immature Loons Observed #Loons Observed 600 500 400 300 0 200 100 551 70 17 #Immature Loons #Chicks #Adults",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the information below and on your knowledge of biology.\nThe Common Loon\nLoons are aquatic birds found on freshwater lakes throughout Canada and the northern \npart of the United States from early spring through fall. They inhabit lakes over five acres \nin size, with clear water and a good supply of fish for food. They migrate to coastal areas for \nthe winter.\nIn most states where loons are found, they are at risk of becoming extinct and require \nmanagement to ensure the health of the population. To help keep track of how many loons \nare living on specific lakes, state wildlife specialists train volunteer citizen scientists how to \nmonitor loon populations during breeding season. This provides additional data that helps \nresearchers determine loon population trends and factors affecting their survival.\nDuring the breeding season, a pair of loons typically produces one or two chicks per year. \nThe chicks are slow to mature. They are usually seven years old before their first successful \nbreeding season.\nLoons have dense bones rather than the hollow bones characteristic of most birds. Their \nwings are comparatively small for their body size. Adults weigh an average of 8\u201312 lbs. \nAnother trait of loons is their large, webbed feet and legs set far back on their bodies. To fly, \nthey run on top of the water, and flap their wings to gain enough momentum for liftoff.\nThe data table below shows the number of adult loons and chicks counted in the southern \npart of Maine between 1985 and 2020.\nNumber of Loon Adults and Chicks \nCounted in Southern Maine 1985-2020\nYear\nChicks\nAdults\n1985\n200\n1470\n1995\n260\n2650\n2010\n280\n2780\n2017\n453\n2817\n2019\n372\n2820\n2020\n414\n2974\n\nLiving Environment \u2013 Jan. \u201925\t\n[15]\t\n[OVER]\nDirections (45\u201346): Using the information given in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly plotting the data, connecting the points, and surrounding each point for the loon adults with a small triangle and each point for the loon chicks with a small circle. Example of a 2-credit graph for questions 45-46: Years Number of Loon Adults and Chicks Counted in Southern Maine 1985-2020 Number of Loons 1986 1988 1990 1992 1994 1996 1998 2000 2002 2004 2006 2008 2010 2012 2014 2016 2018 2020 1000 1400 1800 2200 2600 3000 0 200 600 = Loon chicks = Loon adults Key Do not assume the intersection of the x- and y-axes is the origin (0,0) unless it is labeled. An appropriate scale only needs to include the data range in the data table. Do not allow credit if points are plotted that are not in the data table, e.g., (0,0), or for extending lines beyond the data points. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The best explanation for why loon populations did not show a rapid change in size during the Maine and New York studies is that loons",
+      "choices": [
+        "produce three or four chicks per year",
+        "take seven years to reach sexual maturity",
+        "live mainly on large lakes",
+        "were counted by volunteers, not wildlife experts"
+      ],
+      "image": "/images/exams/living-environment/january-2025/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the information below and on your knowledge of biology.\nThe Common Loon\nLoons are aquatic birds found on freshwater lakes throughout Canada and the northern \npart of the United States from early spring through fall. They inhabit lakes over five acres \nin size, with clear water and a good supply of fish for food. They migrate to coastal areas for \nthe winter.\nIn most states where loons are found, they are at risk of becoming extinct and require \nmanagement to ensure the health of the population. To help keep track of how many loons \nare living on specific lakes, state wildlife specialists train volunteer citizen scientists how to \nmonitor loon populations during breeding season. This provides additional data that helps \nresearchers determine loon population trends and factors affecting their survival.\nDuring the breeding season, a pair of loons typically produces one or two chicks per year. \nThe chicks are slow to mature. They are usually seven years old before their first successful \nbreeding season.\nLoons have dense bones rather than the hollow bones characteristic of most birds. Their \nwings are comparatively small for their body size. Adults weigh an average of 8\u201312 lbs. \nAnother trait of loons is their large, webbed feet and legs set far back on their bodies. To fly, \nthey run on top of the water, and flap their wings to gain enough momentum for liftoff.\nThe data table below shows the number of adult loons and chicks counted in the southern \npart of Maine between 1985 and 2020.\nNumber of Loon Adults and Chicks \nCounted in Southern Maine 1985-2020\nYear\nChicks\nAdults\n1985\n200\n1470\n1995\n260\n2650\n2010\n280\n2780\n2017\n453\n2817\n2019\n372\n2820\n2020\n414\n2974\n\nLiving Environment \u2013 Jan. \u201925\t\n[15]\t\n[OVER]\nDirections (45\u201346): Using the information given in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "48",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the information below and on your knowledge of biology.\nThe Common Loon\nLoons are aquatic birds found on freshwater lakes throughout Canada and the northern \npart of the United States from early spring through fall. They inhabit lakes over five acres \nin size, with clear water and a good supply of fish for food. They migrate to coastal areas for \nthe winter.\nIn most states where loons are found, they are at risk of becoming extinct and require \nmanagement to ensure the health of the population. To help keep track of how many loons \nare living on specific lakes, state wildlife specialists train volunteer citizen scientists how to \nmonitor loon populations during breeding season. This provides additional data that helps \nresearchers determine loon population trends and factors affecting their survival.\nDuring the breeding season, a pair of loons typically produces one or two chicks per year. \nThe chicks are slow to mature. They are usually seven years old before their first successful \nbreeding season.\nLoons have dense bones rather than the hollow bones characteristic of most birds. Their \nwings are comparatively small for their body size. Adults weigh an average of 8\u201312 lbs. \nAnother trait of loons is their large, webbed feet and legs set far back on their bodies. To fly, \nthey run on top of the water, and flap their wings to gain enough momentum for liftoff.\nThe data table below shows the number of adult loons and chicks counted in the southern \npart of Maine between 1985 and 2020.\nNumber of Loon Adults and Chicks \nCounted in Southern Maine 1985-2020\nYear\nChicks\nAdults\n1985\n200\n1470\n1995\n260\n2650\n2010\n280\n2780\n2017\n453\n2817\n2019\n372\n2820\n2020\n414\n2974\n\nLiving Environment \u2013 Jan. \u201925\t\n[15]\t\n[OVER]\nDirections (45\u201346): Using the information given in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for comparing the trend in loon population sizes represented in the two New York graphs to the trend observed in the data table for the southern part of Maine and supporting the answer. Acceptable responses include, but are not limited to: \u2014 In both New York and Maine the number of adult loons and chicks increased. \u2014 In 2001 there were 308 adults and 59 chicks counted in New York. The number increased to 551 adults and 70 chicks in 2020. In Maine the number of adults and chicks also increased over this time. \u2014 In New York and Maine the number of loons increased during the study. In Maine, there were 2780 adult loons in 2010 and in 2020, there were 2974. In New York, there were 308 adult loons in 2001 and 551 in 2020. 49 2 50 2"
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Doctors claim that the earlier someone stops smoking, the lower the risk of dying of lung cancer. Which statement best describes evidence that supports this claim?",
+      "choices": [
+        "Men that smoked 40 cigarettes per day have the same risk as smoking 20 cigarettes per day at any age.",
+        "Men that continued to smoke had an approximately 16% risk of death, and those that stopped at age 30 had a lower risk.",
+        "Men that never smoked had the same risk as those that smoked until the age of 30.",
+        "Men that stop smoking at age 40"
+      ],
+      "image": "/images/exams/living-environment/january-2025/context_49_49.png",
+      "context": "Base your answer to question 49 on the graph below and on your knowledge of biology.\nThe graph shows the effects of stopping smoking at different ages along with the \ncumulative risk (%) of death from lung cancer up to age 75 in men. The study took place in \nthe United Kingdom.\nContinuing cigarette smokers\nStopped age 60\nStopped age 50\nStopped age 40\nStopped age 30\nLifelong nonsmokers\n75\n65\n55\n45\n0\n2\n4\n6\n8\n10\nCumulative Risk (%)\nAge\n12\n14\n16\nCumulative Risk (%) of Death\nfrom Lung Cancer\n\t\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The two labeled structures that function to produce gametes and hormones are",
+      "choices": [
+        "A and F",
+        "B and E",
+        "C and H",
+        "D and G"
+      ],
+      "image": "/images/exams/living-environment/january-2025/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the diagram below and on your knowledge of biology. The dia\u00ad\ngram represents the reproductive systems of the human female and male.\nG\nF\nA\nB\nC\nD\nH\nE\n\t\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Pelvic inflammatory disease and sexually transmitted infections can lead to a blockage of the structure represented by letter A. Explain how this blockage would interfere with the formation of a zygote.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the diagram below and on your knowledge of biology. The dia\u00ad\ngram represents the reproductive systems of the human female and male.\nG\nF\nA\nB\nC\nD\nH\nE\n\t\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The blockage could prevent sperm from fertilizing the egg. \u2014 The sperm will be prevented from reaching the egg. \u2014 This could cause infertility since gametes won\u2019t combine. \u2014 If the other oviduct/fallopian tube is not blocked, fertilization could still occur but the chance of pregnancy would be reduced. \u2014 It prevents fertilization in humans."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "52",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Detritivores recycle nutrients needed for ecosystem stability. \u2014 If detritivores were removed, the dead organisms would not be broken down in the ecosystem, and there would not be enough nutrients for other organisms. \u2014 Nutrients/material cycles will be disrupted. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Identify one factor that would influence the rate at which the experimental enzyme breaks down this type of plastic. The research team claimed that the experimental enzyme would break down all plastics. The students repeated the experiment with a different type of plastic. This time, the plastic was not broken down by the enzyme.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_53_54.png",
+      "context": "Base your answers to questions 53 and 54 on the information and photograph below and on your knowledge \nof biology.\nA research team of students added water and an experimental enzyme to a jar containing \na piece of the type of plastic that is commonly used in food packaging. Several days later, the \nplastic was no longer visible. \nJar with \noriginal \nplastic\nJar\nseveral \ndays later",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 pH \u2014 temperature \u2014 concentration of enzyme \u2014 concentration of substrate"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Explain why the enzyme is not able to break down all types of plastics.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_53_54.png",
+      "context": "Base your answers to questions 53 and 54 on the information and photograph below and on your knowledge \nof biology.\nA research team of students added water and an experimental enzyme to a jar containing \na piece of the type of plastic that is commonly used in food packaging. Several days later, the \nplastic was no longer visible. \nJar with \noriginal \nplastic\nJar\nseveral \ndays later",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Enzymes are specific. \u2014 Enzymes react with substrates based on shape. \u2014 because enzymes/substrates do not fit"
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify one concern, other than its effectiveness,",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 55 on the information below and on your knowledge of biology.\nUltrasonic repellents are electronic devices designed to repel and remove household \npests. When plugged in, they produce ultrahigh-frequency sound waves to chase away mice, \nrats, fleas, cockroaches, silverfish, and spiders. The sound these devices make cannot be \nheard by humans. These pest-control devices are often used in environments where the use \nof poison is prohibited or not recommended.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 It might harm pets such as dogs and cats. \u2014 Is it safe for people? Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Sometimes identical twins have different physical traits. Using the experiment Duke scientists performed on mice with the yellow fur color gene as a model, explain how epigenetics could be the cause of differences observed in identical twins.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_56_57.png",
+      "context": "Base your answers to questions 56 and 57 on the information, photograph, and illustration below and on the \nnext page, and on your knowledge of biology.\nMouse DNA and Epigenetics\nThe model illustrated below shows methylated and non-methylated DNA.\nMethylated DNA\nM\nMethyl\ngroup\nC\nA\nC\nA\nG\nT\nC\nG\nC\nT\nG\nA\nC\nT\nG\nG\nM\nM\nM\nM\nNon-Methylated DNA\nC\nA\nC\nA\nG\nT\nC\nG\nC\nT\nG\nA\nC\nT\nG\nG\nPart C\nAnswer all questions in this part.     [17]\nDirections (56\u201372): Record your answers in the spaces provided in this examination booklet.\nIn 2000, scientists at Duke University designed an experiment \nusing mice that carry a gene for yellow fur color. Mice with the \nyellow fur gene also have a large appetite and a tendency to develop \ncancer and diabetes. The photo shows a mouse with the yellow fur \ngene (on the left) next to a normal mouse with the brown fur gene \n(on the right).\nThe scientists wanted to see if they could reduce the chances \nof the offspring of the yellow mice developing these diseases by \nchanging the expression of the gene for yellow fur color.\nThey began by changing the diet of yellow female mice to a diet \ncontaining food rich in methyl groups. Methyl groups are small \nclusters of chemicals that can attach to a gene and turn it off. Their \noffspring, that had methylated DNA, were found to be thin, have \nbrown fur, and had less chance of developing cancer and diabetes.\n\nLiving Environment \u2013 Jan. \u201925\t\n[21]\t\n[OVER]\nThe researchers concluded that the offspring were born with an epigenetic alteration \nto their DNA. Epigenetic alterations are inheritable changes in gene expression patterns \nindependent of the primary DNA sequence. The expression of the gene is altered but \nthe DNA sequence usually remains unchanged. In addition to diet, other factors such \nas hormones, physical activity, stress, tobacco, and alcohol use can also cause epigenetic \nchanges.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 One of the twins could have a diet high in foods with methyl groups while the other twin does not. \u2014 One twin may be under more stress/smoke/use drugs while the other twin is/does not. These activities could cause epigenetic changes. \u2014 Some genes could be turned off (not function) due to methylation in one twin and not the other. \u2014 Only one twin has methylated DNA."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Explain why epigenetic changes are not usually considered to be mutations.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_56_57.png",
+      "context": "Base your answers to questions 56 and 57 on the information, photograph, and illustration below and on the \nnext page, and on your knowledge of biology.\nMouse DNA and Epigenetics\nThe model illustrated below shows methylated and non-methylated DNA.\nMethylated DNA\nM\nMethyl\ngroup\nC\nA\nC\nA\nG\nT\nC\nG\nC\nT\nG\nA\nC\nT\nG\nG\nM\nM\nM\nM\nNon-Methylated DNA\nC\nA\nC\nA\nG\nT\nC\nG\nC\nT\nG\nA\nC\nT\nG\nG\nPart C\nAnswer all questions in this part.     [17]\nDirections (56\u201372): Record your answers in the spaces provided in this examination booklet.\nIn 2000, scientists at Duke University designed an experiment \nusing mice that carry a gene for yellow fur color. Mice with the \nyellow fur gene also have a large appetite and a tendency to develop \ncancer and diabetes. The photo shows a mouse with the yellow fur \ngene (on the left) next to a normal mouse with the brown fur gene \n(on the right).\nThe scientists wanted to see if they could reduce the chances \nof the offspring of the yellow mice developing these diseases by \nchanging the expression of the gene for yellow fur color.\nThey began by changing the diet of yellow female mice to a diet \ncontaining food rich in methyl groups. Methyl groups are small \nclusters of chemicals that can attach to a gene and turn it off. Their \noffspring, that had methylated DNA, were found to be thin, have \nbrown fur, and had less chance of developing cancer and diabetes.\n\nLiving Environment \u2013 Jan. \u201925\t\n[21]\t\n[OVER]\nThe researchers concluded that the offspring were born with an epigenetic alteration \nto their DNA. Epigenetic alterations are inheritable changes in gene expression patterns \nindependent of the primary DNA sequence. The expression of the gene is altered but \nthe DNA sequence usually remains unchanged. In addition to diet, other factors such \nas hormones, physical activity, stress, tobacco, and alcohol use can also cause epigenetic \nchanges.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The original DNA sequence is not altered. \u2014 The sequence of nitrogen bases in the DNA remains the same. The only difference is the presence of methyl groups turning the gene off. \u2014 They can be reversed."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "In a population of scorpions, a mutation occurred that resulted in the venom having no effect on its predators. Explain why the number of predators that feed exclusively on scorpions would decrease over time. Justify your answer. Getting stung by a scorpion is painful. The pain serves as a warning to its predators to stay away. Scorpion venom contains toxins that are recognized by the pain receptors on nerve cells. These receptors are the same as those that cause a burning feeling when you touch something hot. But,",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_58_58.png",
+      "context": "Base your answer to question 58 on the information below and on your knowledge of biology.\nA Scorpion\u2019s Secret Weapon Ingredient",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for explaining why the number of predators that feed exclusively on scorpions would decrease over time and justify your answer. Acceptable responses include, but are not limited to: \u2014 The predators would decrease because they have more competition, since more animals would be able to eat the scorpions. \u2014 The number of predators would decrease because they would consume many of the scorpions and would not have enough food. \u2014 The predators would die of starvation. Their number would decrease because they ate most of their food."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Identify the original source of the brown variation.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nScientists have studied the medicinal herb, Fritillaria delavayi (fritillary), which is very \ndifficult to cultivate. This herb is used in Chinese traditional medicine to treat lung conditions \nsuch as bronchitis and bad coughs. This threatened herb grows wild among the rocks in dry, \ncold, mountainous places in China. Most fritillary have bright green leaves and sunny yellow \nflowers. The scientists have noticed something unusual: In places where people often gather \nand harvest the herb, more and more plants of the same species have a dull brown flower \ncolor. Many people have trouble finding this dull brown variety that blends in with the rocky \narea where it grows.\nFlower\nFlower\nFritillary Plant\nNormal yellow individuals in\nareas with low harvesting rates\nDull brown individuals in areas\nwith high harvesting rates",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying the original source as mutation/genetic recombination."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Fritillary grows very slowly, taking five years to reproduce. Predict which flower color will be more common in areas accessible by humans after 20 years. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nScientists have studied the medicinal herb, Fritillaria delavayi (fritillary), which is very \ndifficult to cultivate. This herb is used in Chinese traditional medicine to treat lung conditions \nsuch as bronchitis and bad coughs. This threatened herb grows wild among the rocks in dry, \ncold, mountainous places in China. Most fritillary have bright green leaves and sunny yellow \nflowers. The scientists have noticed something unusual: In places where people often gather \nand harvest the herb, more and more plants of the same species have a dull brown flower \ncolor. Many people have trouble finding this dull brown variety that blends in with the rocky \narea where it grows.\nFlower\nFlower\nFritillary Plant\nNormal yellow individuals in\nareas with low harvesting rates\nDull brown individuals in areas\nwith high harvesting rates",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The brown color will increase in frequency because humans will pick the yellow ones before they can reproduce. \u2014 There will be more brown flowers because they will blend in with the rocks and survive and reproduce while the yellow ones will be picked and die. \u2014 Brown will increase since they will pass on their genes while the yellow will be picked and not reproduce. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Human efforts to cultivate this endangered species have not been successful. What argument could be made to justify continued efforts to preserve this species by cultivation? Three different food chains present in a food web are represented below. (a) prickly pear cactus \u2192 antelope squirrel \u2192 western diamondback rattlesnake \u2192 red-tailed hawk (b) saguaro cactus \u2192 wood rat \u2192 western diamondback rattlesnake (c) brittlebrush \u2192 grasshopper mouse",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of biology.\nScientists have studied the medicinal herb, Fritillaria delavayi (fritillary), which is very \ndifficult to cultivate. This herb is used in Chinese traditional medicine to treat lung conditions \nsuch as bronchitis and bad coughs. This threatened herb grows wild among the rocks in dry, \ncold, mountainous places in China. Most fritillary have bright green leaves and sunny yellow \nflowers. The scientists have noticed something unusual: In places where people often gather \nand harvest the herb, more and more plants of the same species have a dull brown flower \ncolor. Many people have trouble finding this dull brown variety that blends in with the rocky \narea where it grows.\nFlower\nFlower\nFritillary Plant\nNormal yellow individuals in\nareas with low harvesting rates\nDull brown individuals in areas\nwith high harvesting rates",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating one argument to justify continued efforts to preserve this species. Acceptable responses include, but are not limited to: \u2014 The herb is a medicine that could be useful, so we should try to grow it instead of direct-harvesting it from the environment. \u2014 One reason to try and grow the herb is to maintain biodiversity so it doesn\u2019t become extinct. \u2014 The plant has value for humans, so we should try to preserve it by cultivating it."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify the food chain, (a), (b) or (c), in which there would be the least amount of energy available to the last consumer in the feeding sequence. Support your answer.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for selecting food chain (a) and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Food chain (a) because it has four feeding levels. Energy is transferred to the environment at each level. \u2014 Energy is transferred as heat to the environment at each feeding level and is no longer available to the organisms. Food chain (a) has the most levels and would have the least energy available for the last consumer."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Describe a role of the uterus in the process of human reproduction. During pregnancy, the women are given medication to prevent the transplanted uterus from being rejected. After the baby is born, the transplanted uterus is removed.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 and 64 on the information below and on your knowledge of biology.\nWoman Gives Birth After Uterus Transplant\nWomen with uterine factor infertility (UFI) either don\u2019t have a uterus or have a uterus \nthat doesn\u2019t function. A uterus transplant has emerged as a potential solution for these \nwomen. In 2019, the first baby in North America was delivered by a mother who received a \nuterus transplant.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The uterus supports the internal development of the embryo/fetus. \u2014 The uterus is the organ to which the placenta attaches. \u2014 The embryo/fetus develops in the uterus."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "64",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 and 64 on the information below and on your knowledge of biology.\nWoman Gives Birth After Uterus Transplant\nWomen with uterine factor infertility (UFI) either don\u2019t have a uterus or have a uterus \nthat doesn\u2019t function. A uterus transplant has emerged as a potential solution for these \nwomen. In 2019, the first baby in North America was delivered by a mother who received a \nuterus transplant.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The immune system might attack the transplanted organ because it is interpreted as foreign. \u2014 The immune system would attack the uterus because antigens on the transplanted organ would activate an immune response. \u2014 The woman could make antibodies or white blood cells that attack the organ if she doesn\u2019t take certain drugs to prevent this."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Make a claim as to how human actions have affected biodiversity. Support your claim with evidence from the graph.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_65_65.png",
+      "context": "Base your answers to question 65 on the information and graph below and on your knowledge of biology.\nHuman actions have affected the biodiversity of multiple ecosystems on Earth.\n60000\n0\n10000\n20000\n30000\n40000\n50000\nSpecies Extinctions\nSpecies Extinctions and Human Population Size\nHuman Population (millions)\n6000\n0\n1000\n2000\n3000\n4000\n5000\n7000\n8000\nTime\n1800\n1830\n1860\n1890\n1920\n1950\n1980\n2010\nSpecies\nExtinctions\nHuman\nPopulation\nKey",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for making a claim about how human actions have affected biodiversity, and supporting the claim with evidence from the graph. Acceptable responses include, but are not limited to: \u2014 Biodiversity has declined because the number of species extinctions has increased as the human population increased and destroyed habitats. \u2014 As the increasing human population used resources required by other species, biodiversity decreased as extinctions increased. \u2014 An increase in human population has lead to more deforestation, resulting in an increase in extinction, as shown in the graph. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "66",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_66_66.png",
+      "context": "Base your answer to question 66 on the diagram below and on your knowledge of biology. \nThe diagram represents a feedback mechanism in humans.\nHigher blood sugar\nLower blood sugar\nPancreas secretes\nmore of a hormone\nPancreas secretes\nless of a hormone",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for explaining why the pancreas would secrete more hormone a short time later and supporting the answer. Acceptable responses include, but are not limited to: \u2014 The starchy snack will be broken down into sugar that would be absorbed into the blood, causing high blood sugar. This would cause the pancreas to secrete more hormone to lower the blood sugar. \u2014 Starch will be broken down into sugar, and insulin will be released due to the blood sugar level increase."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Explain how the lack of nutrients can impact the cellular process needed to move molecule A into this cell.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_67_67.png",
+      "context": "Base your answer to question 67 on the information and diagram below and on your knowledge of biology. \nThe diagram represents two molecules, A and B, resulting from the digestion of foods, moving into a cell.\nA\nB\nB\nB\nB\nB\nA\nA\nA\nA",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Energy is needed to move A across the membrane. Without nutrients, energy is not available. \u2014 Active transport requires energy, which is supplied by nutrients used to make ATP. Without nutrients, ATP will not be available. \u2014 Energy from nutrients is stored in ATP, which is needed to move material A across the membrane. \u2014 Without nutrients, the cell will not have the energy to carry out active transport, which is needed to move A across the cell membrane. \u2014 If there is a lack of energy from nutrients, the cell will not transport A into the cell."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Mitochondrial Inheritance Father with disease Children do not have the disease Children have the disease Mother with disease (all mitochondria mutant)",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_68_70.png",
+      "context": "Base your answers to questions 68 through 70 on the information below and on your knowledge of biology.\nMitochondria\nMitochondria are organelles present in most complex cells. The diagram below illustrates \na typical mitochondrion in cells.\nMitochondrial DNA\nCell\nMitochondrion",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The mitochondria make energy available for life functions. Without this energy, an organism would die. \u2014 The mitochondria convert energy stored in food to usable energy for the organism. \u2014 Respiration takes place in the mitochondria, and energy is made available for use by the organism."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Provide evidence from the mitochondrial inheritance chart that supports the claim that mitochondria are usually inherited from the mother. NUMBER OF MITOCHONDRIA IN VARIOUS CELLS 2,500 1,200 700 200 100 0 Liver cell Skeletal muscle cell White blood cell in lung Dermal cell (just under the skin) White adipose cell (fat storage) Red blood cell Number of mitochondria per cell",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_68_70.png",
+      "context": "Base your answers to questions 68 through 70 on the information below and on your knowledge of biology.\nMitochondria\nMitochondria are organelles present in most complex cells. The diagram below illustrates \na typical mitochondrion in cells.\nMitochondrial DNA\nCell\nMitochondrion",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The chart shows that the children are only affected when the mother has mutated mitochondrial DNA. \u2014 The chart shows that when the father has the disease, it is not passed on to his children."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State which cell type would probably be most affected by mitochondrial diseases. Support your answer. Unlike most other organelles, mitochondria contain their own DNA. This DNA is in the form of a double-stranded,",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_68_70.png",
+      "context": "Base your answers to questions 68 through 70 on the information below and on your knowledge of biology.\nMitochondria\nMitochondria are organelles present in most complex cells. The diagram below illustrates \na typical mitochondrion in cells.\nMitochondrial DNA\nCell\nMitochondrion",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for liver cells and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Liver cells may be most affected since they contain the most mitochondria. \u2014 Liver cells could be most affected since they contain more mitochondria than the other cells listed. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "State one reason for supporting the use of this technology.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the information below and on your knowledge of biology.\nWhy Is the Sky White?\nOne method researchers are investigating to decrease the impact of climate change \nis stratospheric aerosol scattering. This involves using airplanes or balloons to spray tiny \nparticles of sulfate aerosols or calcium carbonate into the upper atmosphere. The particles \nreflect sunlight back into space.\nClimate modeling has shown that the use of this technology could lead to a decrease in \nextreme temperatures and the intensity of tropical storms. It could also reduce ice loss and \nsea-level rise as well.\nHowever, there are risks associated with this technology. While the models show global \nbenefits, local benefits might vary considerably. Also, since this technology doesn\u2019t address \ncarbon emissions, as it continues to get warmer there will be a need to spray more and more \nparticles into the atmosphere. This could change the appearance of the sky from blue to \nwhite. There are also concerns that introducing sulfate aerosols into the upper atmosphere \ncould damage the ozone layer.\nTethered boom delivery system\nTethered boom delivery system\n1km\nPipe\nPipe tethered to a ship\nFine spray of particles\nBalloon",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The loss of ice or sea-level rise could be reduced. \u2014 The severity of storms could be reduced. \u2014 Climate change could be slowed. \u2014 It could have a positive effect on climate change."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "72",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the information below and on your knowledge of biology.\nWhy Is the Sky White?\nOne method researchers are investigating to decrease the impact of climate change \nis stratospheric aerosol scattering. This involves using airplanes or balloons to spray tiny \nparticles of sulfate aerosols or calcium carbonate into the upper atmosphere. The particles \nreflect sunlight back into space.\nClimate modeling has shown that the use of this technology could lead to a decrease in \nextreme temperatures and the intensity of tropical storms. It could also reduce ice loss and \nsea-level rise as well.\nHowever, there are risks associated with this technology. While the models show global \nbenefits, local benefits might vary considerably. Also, since this technology doesn\u2019t address \ncarbon emissions, as it continues to get warmer there will be a need to spray more and more \nparticles into the atmosphere. This could change the appearance of the sky from blue to \nwhite. There are also concerns that introducing sulfate aerosols into the upper atmosphere \ncould damage the ozone layer.\nTethered boom delivery system\nTethered boom delivery system\n1km\nPipe\nPipe tethered to a ship\nFine spray of particles\nBalloon",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Without reducing carbon emissions, the planet will still continue to warm up. \u2014 More carbon emissions will continue to warm the planet, and more particles will need to be sprayed into the upper atmosphere. \u2014 This technology only tries to cool the planet, but doesn\u2019t address how to prevent it from warming up in the first place. \u2014 This technology doesn\u2019t address increased CO2 in oceans, which leads to ocean acidification. \u2014 Continually adding chemicals to the atmosphere could damage the ozone layer. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "When the proportion of a gene for a specific trait in a population of finches increases over time, the most likely cause of this increase would be",
+      "choices": [
+        "selective breeding",
+        "species extinction",
+        "natural selection",
+        "ecological succession"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "A scientist conducts an experiment in order to",
+      "choices": [
+        "choose variables",
+        "test a hypothesis",
+        "collect data",
+        "identify a control"
+      ],
+      "image": "/images/exams/living-environment/january-2025/q74.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Which species is most closely related to species M?",
+      "choices": [
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "image": "/images/exams/living-environment/january-2025/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information and diagram below and on your knowledge \nof biology.\nThe diagram represents evolutionary pathways of seven groups of organisms alive today.\nPresent\nTime\nA\nB\nC\nD\nE\nF\nG\nM\nE\nL\nH\nJ\nK\nE\n\t\nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "Which species appears to have been well adapted to its environment for a long period of time?",
+      "choices": [
+        "E",
+        "F",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/january-2025/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information and diagram below and on your knowledge \nof biology.\nThe diagram represents evolutionary pathways of seven groups of organisms alive today.\nPresent\nTime\nA\nB\nC\nD\nE\nF\nG\nM\nE\nL\nH\nJ\nK\nE\n\t\nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "The diagram was based on fossil evidence. Explain why other forms of evidence would help support the accuracy of the evolutionary pathways represented in the diagram.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information and diagram below and on your knowledge \nof biology.\nThe diagram represents evolutionary pathways of seven groups of organisms alive today.\nPresent\nTime\nA\nB\nC\nD\nE\nF\nG\nM\nE\nL\nH\nJ\nK\nE\n\t\nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 DNA sequences/protein comparisons could show relatedness of these species. \u2014 Using additional forms of evidence would provide more reliability."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "When determining a pulse rate, why is it best to use the average of three readings?",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/q78.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Finding the average pulse rate is more valid. \u2014 You may not get the same number every time. \u2014 decreases the effect of sampling error"
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify one selecting agent that could have a potential impact on the number of individuals in the various penguin populations living in the Antarctic Peninsula.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_79_79.png",
+      "context": "Base your answer to question 79 on the information below and on your knowledge of biology. \nSelecting agents can have a significant impact on the size of many populations living in \nan area.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 amount of food available to them \u2014 predators in the area \u2014 climate and temperature of the area \u2014 temperature of the peninsula (environment)"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "80",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_80_80.png",
+      "context": "Base your answer to question 80 on the information below and on your knowledge of biology.\nPulse-rate data were collected from some students during their study hall. The data are \nshown in the histogram below.\nAverage Pulse-Rate Range (beats/min)\nNumber of Students\n> 90\n< 51\n51\u201360 61\u201370 71\u201380 81\u201390\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\nStudent Pulse-Rate Data",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The pulse rates would be higher. \u2014 There might be more variation in pulse rates. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Ground finches in the Galapagos Islands are seed eaters. The beaks of the offspring are very close in size to the beaks of their parents. The best explanation for this observation is that",
+      "choices": [
+        "a bird with a very small beak will die",
+        "the temperature of the environment determines the size of the beak",
+        "only birds with very small beaks are able to reproduce",
+        "the size of the beak is determined mostly by genes"
+      ],
+      "image": "/images/exams/living-environment/january-2025/q81.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "A valid conclusion that can be drawn from these results is that",
+      "choices": [
+        "genetic material is not useful in determining evolutionary relationships",
+        "species M is most closely related to BC",
+        "species L and N are most closely related to BC",
+        "BC is not related to any of the species"
+      ],
+      "image": "/images/exams/living-environment/january-2025/context_82_83.png",
+      "context": "Base your answers to questions 82 and 83 on the information below and on your knowledge of biology.\nA student was assigned the task of determining which of three species of plant\n(species L, M, or N) was most closely related to Botana curus (BC).\nThe student compared a segment of genetic material from each species using the \nprocedure represented below.\nBC\nL\nM\nN\nResults\nSample\nwells\nPower\nsupply\n\t\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Identify another biochemical test that would provide data to support which of the three plant species is most closely related to Botana curus.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_82_83.png",
+      "context": "Base your answers to questions 82 and 83 on the information below and on your knowledge of biology.\nA student was assigned the task of determining which of three species of plant\n(species L, M, or N) was most closely related to Botana curus (BC).\nThe student compared a segment of genetic material from each species using the \nprocedure represented below.\nBC\nL\nM\nN\nResults\nSample\nwells\nPower\nsupply\n\t\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 chromatography \u2014 Test to see if the plants make the same enzymes or proteins. \u2014 Test for the presence of a particular enzyme/enzyme, M. \u2014 Compare the amino acid sequence of a protein produced by all plants."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "During physical activity, a person\u2019s pulse rate changes. Choose one body system, other than circulatory, that would be involved in maintaining homeostasis,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Respiratory system \u2014 The breathing rate would increase. Skin/integumentary system/excretory system \u2014 They would sweat more. Muscular system \u2014 Muscle cells would be using more energy."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "State one reason why it would be possible for a single island to support populations of both small tree finches and sharp-billed ground finches. LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2025/context_85_85.png",
+      "context": "Base your answer to question 85 on the diagram below and on your knowledge of biology.\nVariation in Beaks of Galapagos Islands Finches\nLarge ground \nfinch\nVegetarian\nfinch\nLarge \ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler finch\nCactus\nfinch\nSharp-billed\nground finch\nSmall ground\nfinch\nMedium ground\nfinch\nE\nd\ng\ne\n \nc\nr\nu\ns\nh\ni\nn\ng\n \n \n \n \n \n \n \n \nB\ni\nti\nn\ng\n \nt\ni\np\ns\nMainly\nanimal \nfood\nG\nr\na\ns\np\ni\nn\ng\n \nb\ni\nl\nl\ns\n100%\nanimal\nfood\nP\nr\no\nb\ni\nn\ng\nC\nr\nu\ns\nh\ni\nn\ng\n \nb\ni\nl\nl\ns\n \n \n \nP\nr\no\nb\ni\nn\ng\n \nb\ni\nl\nl\ns\nMainly\nplant \nfood",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Two species do not compete for food. \u2014 The island has both plant food and animal food. \u2014 The two species have different beaks for different types of food. Living Environment Rating Guide \u2013 Jan. \u2019"
+    }
+  ]
+}

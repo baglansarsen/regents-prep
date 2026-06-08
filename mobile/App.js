@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { View, StyleSheet, TurboModuleRegistry, Platform } from 'react-native'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import { StatusBar } from 'expo-status-bar'
@@ -13,14 +13,15 @@ import {
 import { ThemeProvider, useTheme } from './src/context/ThemeContext'
 import { AuthProvider } from './src/context/AuthContext'
 import { SubjectProvider } from './src/context/SubjectContext'
-import { DoubleXPProvider } from './src/context/DoubleXPContext'
+import { DoubleRPProvider } from './src/context/DoubleRPContext'
 import { LivesProvider } from './src/context/LivesContext'
 import { SubscriptionProvider } from './src/context/SubscriptionContext'
 import { PetProvider }    from './src/context/PetContext'
 import { SpeechProvider } from './src/context/SpeechContext'
+import { StreakProvider } from './src/context/StreakContext'
 import AppNavigator from './src/navigation/AppNavigator'
 
-SplashScreen.preventAutoHideAsync()
+if (Platform.OS !== 'web') SplashScreen.preventAutoHideAsync()
 
 function Inner() {
   const { isDark } = useTheme()
@@ -30,12 +31,20 @@ function Inner() {
     Nunito_800ExtraBold,
     Nunito_900Black,
   })
+  const [fontTimeout, setFontTimeout] = useState(false)
 
   useEffect(() => {
-    if (fontsLoaded) SplashScreen.hideAsync()
+    if (fontsLoaded && Platform.OS !== 'web') SplashScreen.hideAsync()
   }, [fontsLoaded])
 
-  if (!fontsLoaded) return null
+  // On web, don't block forever if fonts fail — render after 3 s regardless
+  useEffect(() => {
+    if (Platform.OS !== 'web') return
+    const t = setTimeout(() => setFontTimeout(true), 3000)
+    return () => clearTimeout(t)
+  }, [])
+
+  if (!fontsLoaded && !fontTimeout) return null
 
   const rootStyle = Platform.OS === 'web'
     ? [s.root, s.webContainer, { backgroundColor: isDark ? '#0f172a' : '#ffffff', borderColor: isDark ? '#1e293b' : '#cbd5e1', height: '100%' }]
@@ -55,15 +64,34 @@ function Inner() {
   )
 }
 
+const ADS_AVAILABLE = !!TurboModuleRegistry?.get?.('RNGoogleMobileAdsModule')
+
+let _ads = null
+function getAds() {
+  if (!ADS_AVAILABLE) return {}
+  if (_ads) return _ads
+  try { _ads = require('react-native-google-mobile-ads') } catch { _ads = {} }
+  return _ads
+}
+
 export default function App() {
   useEffect(() => {
-    // Only initialize AdMob when the native module is present (custom dev build / production).
-    // In Expo Go the module is absent; on web TurboModuleRegistry itself may be
-    // undefined — optional chaining makes both cases a clean no-op.
-    if (!TurboModuleRegistry?.get?.('RNGoogleMobileAdsModule')) return
-    import('react-native-google-mobile-ads')
-      .then(({ default: MobileAds }) => MobileAds().initialize())
-      .catch((e) => console.warn('[AdMob] init error:', e))
+    if (!ADS_AVAILABLE) return
+    try {
+      const { default: mobileAds } = getAds()
+      if (typeof mobileAds === 'function') {
+        mobileAds()
+          .initialize()
+          .then(adapterStatuses => {
+            console.log('[AdMob] SDK Initialized', adapterStatuses)
+          })
+          .catch(err => {
+            console.warn('[AdMob] SDK Initialization Error', err)
+          })
+      }
+    } catch (err) {
+      console.warn('[AdMob] Failed to load/initialize AdMob', err)
+    }
   }, [])
 
   return (
@@ -71,17 +99,19 @@ export default function App() {
     <ThemeProvider>
       <AuthProvider>
         <SubjectProvider>
-          <DoubleXPProvider>
+          <DoubleRPProvider>
             <SubscriptionProvider>
               <LivesProvider>
                 <PetProvider>
                   <SpeechProvider>
-                    <Inner />
+                    <StreakProvider>
+                      <Inner />
+                    </StreakProvider>
                   </SpeechProvider>
                 </PetProvider>
               </LivesProvider>
             </SubscriptionProvider>
-          </DoubleXPProvider>
+          </DoubleRPProvider>
         </SubjectProvider>
       </AuthProvider>
     </ThemeProvider>

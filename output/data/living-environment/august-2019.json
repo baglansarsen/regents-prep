@@ -1,0 +1,1101 @@
+{
+  "subject": "living-environment",
+  "session": "august-2019",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The diagram below represents an energy pyramid. Level A Level B Level C Level D In this pyramid, the greatest amount of stored energy is found at level",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/august-2019/q1.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A certain species of plant serves as the only food for the young larvae of a particular species of butter\ufb02 y. In a large \ufb01 eld, a disease kills all the members of this plant species. As a result of the plant disease, the butter\ufb02 y population will most likely",
+      "choices": [
+        "quickly adapt to eat other plants",
+        "disappear from the area",
+        "evolve to form a new species",
+        "enter the adult stage more quickly"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "When handling cat litter, humans can potentially be exposed to a harmful single-celled protozoan. Its primary host is the common domestic cat, but it can also live in humans. This protozoan is an example of a",
+      "choices": [
+        "predator",
+        "producer",
+        "parasite",
+        "scavenger"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Certain seaweeds contain a greater concentration of iodine inside their cells than there is in the seawater surrounding them. The energy required to maintain this concentration difference is most closely associated with the action of",
+      "choices": [
+        "ribosomes",
+        "mitochondria",
+        "vacuoles",
+        "nuclei"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Doctors sometimes use a vaccine to prepare the body to defend itself against future infections. These vaccines most often contain",
+      "choices": [
+        "antibodies",
+        "antibiotics",
+        "white blood cells",
+        "weakened pathogens"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Building large manufacturing facilities can affect ecosystems by increasing the",
+      "choices": [
+        "atmospheric quality",
+        "biodiversity in the area",
+        "demand for resources such as fossil fuels",
+        "availability of space and resources for organisms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "An ameba is a single-celled organism. It uses its cell membrane to obtain food from its environment, digests the food with the help of organelles called lysosomes, and uses other organelles to process the digested food. From this, we can best infer that",
+      "choices": [
+        "all single-celled organisms have lysosomes to digest food",
+        "amebas are capable of digesting any type of food molecule",
+        "single-celled organisms are as complex as multicellular organisms",
+        "structures in amebas have functions similar to organs in multicellular organisms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "White blood cells are most closely associated with which two body systems?",
+      "choices": [
+        "circulatory and digestive",
+        "immune and circulatory",
+        "digestive and excretory",
+        "excretory and immune"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Carnivorous plants, such as pitcher plants and sundews, live in bogs where many other organisms cannot. Due to the high rate of decomposition occurring in bogs, the environment is acidic and contains very little oxygen and nutrients. The bogs only support certain types of organisms because",
+      "choices": [
+        "organisms in an environment are not limited by available energy and resources",
+        "the growth and survival of organisms depends upon speci\ufb01 c physical conditions",
+        "favorable gene mutations only occur when organisms live in harsh environments",
+        "photosynthetic organisms can only inhabit environments that have a low acidity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Anhidrosis is the inability to sweat normally. If the human body cannot sweat properly, it cannot cool itself, which is potentially harmful. Anhidrosis most directly interferes with",
+      "choices": [
+        "a feedback mechanism that maintains homeostasis",
+        "an immune system response to harmless antigens",
+        "the synthesis of hormones in the circulatory system",
+        "the enzymatic breakdown of water in cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The hair colors of the members of a family are listed below. mother \u2013 brown hair father \u2013 blond hair older son \u2013 brown hair younger son \u2013 blond hair The hair colors of the sons are most likely a direct result of",
+      "choices": [
+        "natural selection in males",
+        "heredity",
+        "evolution",
+        "environmental in\ufb02 uences"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A sample of DNA from a human skin cell contains 32% cytosine (C) bases. Approximately what percentage of the bases in this sample will be thymine (T)?",
+      "choices": [
+        "18",
+        "24",
+        "32",
+        "36"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Carmine, a compound that comes from the cochineal beetle, shown below, is used as a food coloring. Source: https://alibi.com/events/256770/ Cochineal-Empire-making-Insect.html The food coloring is not harmful to most people, but in a small number of individuals, it causes a reaction and affects their ability to breathe. This response to carmine is known as",
+      "choices": [
+        "a stimulus",
+        "an allergy",
+        "natural selection",
+        "an adaptation"
+      ],
+      "image": "/images/exams/living-environment/august-2019/q13.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "As a way to reduce the number of cases of malaria, a human tropical disease, a speci\ufb01 c DNA sequence is inserted into the reproductive cells of Anopheles mosquitoes. Which process was most likely used to alter these mosquitoes?",
+      "choices": [
+        "cloning studies",
+        "genetic engineering",
+        "natural selection",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which row in the chart below accurately identi\ufb01 es two causes of mutations and the cells that must be affected in order for the mutations to be passed on to offspring? Row Cause of Mutations Cells Affected",
+      "choices": [
+        "infections and antigens body cells",
+        "meiosis and mitosis body cells",
+        "disease and differentiation sex cells",
+        "chemicals and radiation sex cells"
+      ],
+      "image": "/images/exams/living-environment/august-2019/q15.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Many tiny plants can be seen developing asexually along the edge of the mother-of-thousands plant leaf, as shown in the photo below. The tiny plants eventually drop to the ground and grow into new plants of the same species. Source: http://www.plantamundo.com/produto_completo.asp?IDProduto=255 One way this form of reproduction differs from sexual reproduction is",
+      "choices": [
+        "more genetic variations are seen in the offspring",
+        "there is a greater chance for mutations to occur",
+        "the offspring and the parents are genetically identical",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2019/q16.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A food web is represented in the diagram below. Blue whales Seagulls Leopard seals Penguins Killer whales Ocean Food Web Elephant seals Squid Seaweed Crabs Fish Zooplankton Krill Phytoplankton Adapted from: www.siyavula.com/gr7-9-websites/natural-sciences/gr8/gr8-11-02.html If the \ufb01 sh population decreases, what is the most direct effect this will have on the aquatic ecosystem?",
+      "choices": [
+        "The leopard seals will all die from lack of food.",
+        "The krill population will only be consumed by seagulls.",
+        "The zooplankton population will increase in size.",
+        "The phytoplankton population will increase in size."
+      ],
+      "image": "/images/exams/living-environment/august-2019/q17.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The chart below shows a sequence of events that was observed at an abandoned ski center over a period of years. Changes in Plant Species Over Time Year Dominant Plant Species Observed 1985 grasses 1995 shrubs and bushes 2005 cherry, birch, and poplar trees This sequence of changes is the result of",
+      "choices": [
+        "ecological succession",
+        "decreased biodiversity",
+        "biological evolution",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2019/q18.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Some salmon have been genetically modi\ufb01 ed to grow bigger and mature faster than wild salmon. They are kept in \ufb01 sh-farming facilities. Which statement regarding genetically modi\ufb01 ed salmon is correct?",
+      "choices": [
+        "Genetically modi\ufb01 ed salmon produce more of some proteins than wild salmon.",
+        "Genetically modi\ufb01 ed salmon and wild salmon would have identical DNA.",
+        "Wild salmon reproduce asexually while genetically modi\ufb01 ed salmon reproduce sexually.",
+        "Wild salmon have an altered protein sequence, but genetically modi\ufb01 ed salmon do not."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which group of organisms in an ecosystem \ufb01 lls the niche of recycling organic matter back to the environment?",
+      "choices": [
+        "carnivores",
+        "decomposers",
+        "producers",
+        "predators"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The use of solar panels has increased in the last ten years. A bene\ufb01 t of using solar energy would include",
+      "choices": [
+        "adding more carbon dioxide to the atmosphere",
+        "using less fossil fuel to meet energy needs",
+        "using a nonrenewable source of energy",
+        "releasing more gases for photosynthesis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "In a sewage treatment facility, an optimal environment is maintained for the survival of naturally occurring species of microorganisms. These organisms can then break the sewage down into relatively harmless wastewater. For these microorganisms, the wastewater facility serves as",
+      "choices": [
+        "its carrying capacity",
+        "a food chain",
+        "an ecosystem",
+        "an energy pyramid"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a process taking place in a cell. AA U G C AA AA AA A C G G Ribosome Amino acid (AA) Next amino acid to be added Newly forming organic molecule The type of organic molecule that is being synthesized is",
+      "choices": [
+        "DNA",
+        "starch",
+        "protein",
+        "fat"
+      ],
+      "image": "/images/exams/living-environment/august-2019/q23.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The governments of many countries have regulations that are designed to prevent the accidental introduction of nonnative insects into their countries. This is because, in these new habitats, the nonnative insects might",
+      "choices": [
+        "become food for birds",
+        "not survive a cold winter",
+        "not have natural predators",
+        "add to the biodiversity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The process of transferring energy during respiration occurs in a series of steps. This prevents too much heat from being released at one time. Maintaining an appropriate temperature is bene\ufb01 cial to an organism because",
+      "choices": [
+        "enzymes need a proper range of temperatures to catalyze vital reactions",
+        "cellular waste products can only be excreted in cooler temperatures",
+        "hormones can only produce antibodies if temperatures are not excessive",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The diagram below represents some structures in the human female reproductive system. 4 3 1 2 5 The processes of meiosis and fertilization are essential in human reproduction. Which row in the chart correctly identi\ufb01 es where in the female reproductive system these two processes occur? Row Meiosis Fertilization",
+      "choices": [
+        "1 3",
+        "2 5",
+        "3 4",
+        "4 5"
+      ],
+      "image": "/images/exams/living-environment/august-2019/q26.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Fruits and vegetables exposed to air begin to brown because of a chemical reaction in their cells. This may result in these foods being thrown out. Some people have found that adding lemon juice (citric acid) to apple slices keeps them from turning brown. The prevention of browning is likely the result of",
+      "choices": [
+        "increasing the concentration of enzymes",
+        "increasing the temperature",
+        "slowing the rate of enzyme action",
+        "maintaining the pH"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Scientists monitoring frog populations have noticed that the ratio of male frogs to female frogs varies when certain chemicals are present in the environment. The in\ufb02 uence of estrogen, for example, has a noticeable effect. In the presence of a higher amount of estrogen, it would be most likely that",
+      "choices": [
+        "fewer males would be found because they are much larger and fewer are produced",
+        "fewer females would be found because they are more sensitive to pesticides",
+        "more males would be found because estrogen promotes the development of male characteristics",
+        "more females would be found because estrogen promotes the development of female characteristics"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which action could humans take to slow the rate of global warming?",
+      "choices": [
+        "Cut down trees for more ef\ufb01 cient land use.",
+        "Increase the consumption of petroleum products.",
+        "Use alternate sources of energy such as wind.",
+        "Reduce the use of fuel-ef\ufb01 cient automobiles."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The role of antibodies in the human body is to",
+      "choices": [
+        "stimulate pathogen reproduction to produce additional white blood cells",
+        "increase the production of guard cells to defend against pathogens",
+        "promote the production of antigens to stimulate an immune response",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which statement is an accurate observation that can be made based on this trail of footprints?",
+      "choices": [
+        "The individuals were running from a predator.",
+        "The volcano was about to erupt again.",
+        "One individual was much taller than the other.",
+        "One individual had larger feet than the other."
+      ],
+      "image": "/images/exams/living-environment/august-2019/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the information below and on your knowledge of biology.\nFossil Footprints\nScientists examined a trail of fossil footprints left by early humans in soft, volcanic ash \nin Eastern Africa. A drawing of the trail of footprints is shown below. Each footprint is \nrepresented as a series of lines indicating the depth that different parts of the foot sank into \nthe volcanic ash.\nKey\nHeel\nToe\nHeel\nToe\nSource: http://www.indiana.edu/~eniweb/lessons/foot-topo-10inch.pdf",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The type of information directly provided by these fossil footprints is useful because it",
+      "choices": [
+        "offers details about how these individuals changed during their lifetime",
+        "offers data regarding their exposure to ultraviolet (UV) radiation",
+        "is a record of information about what these individuals ate during their lifetime",
+        "is a record of some similarities and differences they share with present-day species"
+      ],
+      "image": "/images/exams/living-environment/august-2019/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the information below and on your knowledge of biology.\nFossil Footprints\nScientists examined a trail of fossil footprints left by early humans in soft, volcanic ash \nin Eastern Africa. A drawing of the trail of footprints is shown below. Each footprint is \nrepresented as a series of lines indicating the depth that different parts of the foot sank into \nthe volcanic ash.\nKey\nHeel\nToe\nHeel\nToe\nSource: http://www.indiana.edu/~eniweb/lessons/foot-topo-10inch.pdf",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Since the early 1990s, proton pump inhibitors (PPIs) have been widely used to treat acid re\ufb02 ux disease. Although clinical tests in the 1980s deemed PPIs to be safe for humans, in 2012 the FDA announced warnings that long-term use of PPIs could increase the risk of bone fractures, kidney disease, and some intestinal infections. Which statement best explains why the safety of PPIs is now in question when clinical experiments in the 1980s provided evidence that they were safe?",
+      "choices": [
+        "Researchers have been able to collect more data than were available in the 1980s.",
+        "Fewer people had acid re\ufb02 ux in the 1980s compared to today.",
+        "The medication containing PPIs has changed since the 1980s when tests were done.",
+        "The original experiments in the 1980s used only test animals and did not use human subjects."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The process of embryonic development is represented in the diagram below. Zygote Developing embryo The three arrows in the diagram each represent a process known as",
+      "choices": [
+        "mitotic cell division",
+        "meiotic cell division",
+        "fertilization of gamete cells",
+        "differentiation of tissues"
+      ],
+      "image": "/images/exams/living-environment/august-2019/q34.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "A cell with receptors for two different hormones is represented below. Key Hormone A Hormone B Cell Which chemical would most likely interfere with the activity of hormone A, but not hormone B? ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2019/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The results of this scienti\ufb01 c investigation will most likely lead other scientists to hypothesize that",
+      "choices": [
+        "human sex cells also contain the TRPV4 protein",
+        "other reptiles may have the TRPV4 protein in their eggs",
+        "the TRPV4 protein affects the growth of plants",
+        "the TRPV4 protein is present in all of the foods eaten by alligators"
+      ],
+      "image": "/images/exams/living-environment/august-2019/context_36_39.png",
+      "context": "Base your answers to questions 36 through 39 on the information and photograph below and on your \nknowledge of biology.\nScientists Investigate Sex Determination in Alligators\nThe sex of some reptiles, including the American alligator, is determined by the \ntemperature at which the eggs are incubated. For example, incubating them at 33\u00b0C \nproduces mostly males, while incubation at 30\u00b0C produces mostly females.\nScientists recently discovered a thermosensor protein, TRPV4, that is associated with this \nprocess in American alligators. TRPV4 is activated by temperatures near the mid-30s, and \nincreases the movement of calcium ions into certain cells involved with sex determination.\nA baby alligator emerges from\nits egg shell during hatching\nSource: http://www.dailymail.\nco.uk/news/article-2190839/",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which information was most essential in preparing to carry out this scienti\ufb01 c investigation?",
+      "choices": [
+        "a knowledge of the variety of mutations found in American alligator populations",
+        "the arrangement of the DNA bases found in the TRPV4 protein",
+        "the effects of temperature on the incubation of alligator eggs",
+        "a knowledge of previous cloning experiments conducted on alligators and other reptiles"
+      ],
+      "image": "/images/exams/living-environment/august-2019/context_36_39.png",
+      "context": "Base your answers to questions 36 through 39 on the information and photograph below and on your \nknowledge of biology.\nScientists Investigate Sex Determination in Alligators\nThe sex of some reptiles, including the American alligator, is determined by the \ntemperature at which the eggs are incubated. For example, incubating them at 33\u00b0C \nproduces mostly males, while incubation at 30\u00b0C produces mostly females.\nScientists recently discovered a thermosensor protein, TRPV4, that is associated with this \nprocess in American alligators. TRPV4 is activated by temperatures near the mid-30s, and \nincreases the movement of calcium ions into certain cells involved with sex determination.\nA baby alligator emerges from\nits egg shell during hatching\nSource: http://www.dailymail.\nco.uk/news/article-2190839/",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The movement of the calcium ions into certain cells is most likely due to",
+      "choices": [
+        "the destruction of the TRPV4 when it contacts the cell membrane",
+        "the action of TRPV4 proteins on the cells involved with sex determination",
+        "the sex of the alligator embryo present in that particular egg",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2019/context_36_39.png",
+      "context": "Base your answers to questions 36 through 39 on the information and photograph below and on your \nknowledge of biology.\nScientists Investigate Sex Determination in Alligators\nThe sex of some reptiles, including the American alligator, is determined by the \ntemperature at which the eggs are incubated. For example, incubating them at 33\u00b0C \nproduces mostly males, while incubation at 30\u00b0C produces mostly females.\nScientists recently discovered a thermosensor protein, TRPV4, that is associated with this \nprocess in American alligators. TRPV4 is activated by temperatures near the mid-30s, and \nincreases the movement of calcium ions into certain cells involved with sex determination.\nA baby alligator emerges from\nits egg shell during hatching\nSource: http://www.dailymail.\nco.uk/news/article-2190839/",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Environmental changes, such as global warming, could affect species such as the American alligator because even slight increases in environmental temperature could",
+      "choices": [
+        "lead to an overabundance of females and few, if any, males",
+        "lead to an overabundance of males and few, if any, females",
+        "cause the breakdown of the TRPV4 protein in female alligators",
+        "increase the rate at which calcium ions exit the sex cells"
+      ],
+      "image": "/images/exams/living-environment/august-2019/context_36_39.png",
+      "context": "Base your answers to questions 36 through 39 on the information and photograph below and on your \nknowledge of biology.\nScientists Investigate Sex Determination in Alligators\nThe sex of some reptiles, including the American alligator, is determined by the \ntemperature at which the eggs are incubated. For example, incubating them at 33\u00b0C \nproduces mostly males, while incubation at 30\u00b0C produces mostly females.\nScientists recently discovered a thermosensor protein, TRPV4, that is associated with this \nprocess in American alligators. TRPV4 is activated by temperatures near the mid-30s, and \nincreases the movement of calcium ions into certain cells involved with sex determination.\nA baby alligator emerges from\nits egg shell during hatching\nSource: http://www.dailymail.\nco.uk/news/article-2190839/",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which human activity can have a negative impact on the stability of a mature ecosystem?",
+      "choices": [
+        "replanting trees in areas where forests have been cut down for lumber",
+        "building dams to control the \ufb02 ow of water in rivers, in order to produce electricity",
+        "preserving natural wetlands, such as swamps, to reduce \ufb02 ooding after heavy rainfalls",
+        "passing laws that limit the dumping of pollutants in forests"
+      ],
+      "image": "/images/exams/living-environment/august-2019/q40.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Energy in this ecosystem passes directly from the Sun to",
+      "choices": [
+        "herbivores",
+        "consumers",
+        "heterotrophs",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2019/context_41_41.png",
+      "context": "Base your answer to question 41 on the diagram below and on your knowledge of biology. The diagram \nrepresents a pond ecosystem.\nSun\nSource:freshwaterecosystemswebquest.wikispaces.\ncom/ponds,+lakes,+and+inland+seas",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The risk to the horses during the roundups compared to the entire loss of plants and soils is considered",
+      "choices": [
+        "selective breeding",
+        "a technological \ufb01 x",
+        "direct harvesting",
+        "a trade-off"
+      ],
+      "image": "/images/exams/living-environment/august-2019/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the information and photograph below and on your knowledge \nof biology.\nWild Horse Roundup\nSource: http://tuesdayshorse.wordpress.com/2012/10/31outrage-\nover-advisory-board-proposal-to-sterilize-wild-mustangs/\nWild horses called mustangs roam acres of federally owned land in the western United \nStates. These horses have overgrazed the local vegetation to the extent that plants and soils \nare being lost entirely.\nWhen the number of mustangs that roam the land exceeds the number of horses that \nthe land can sustain, the government organizes helicopter-driven roundups. The horses are \nguided into a roped-off area and then are sold to the public or brought to pastures in the \nMidwest. About one percent of the horses captured die from injuries or accidents that occur \nduring roundups.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The number of organisms that an area of land can sustain over a long period of time is known as",
+      "choices": [
+        "ecological succession",
+        "its \ufb01 nite resources",
+        "its carrying capacity",
+        "\u20132"
+      ],
+      "image": "/images/exams/living-environment/august-2019/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the information and photograph below and on your knowledge \nof biology.\nWild Horse Roundup\nSource: http://tuesdayshorse.wordpress.com/2012/10/31outrage-\nover-advisory-board-proposal-to-sterilize-wild-mustangs/\nWild horses called mustangs roam acres of federally owned land in the western United \nStates. These horses have overgrazed the local vegetation to the extent that plants and soils \nare being lost entirely.\nWhen the number of mustangs that roam the land exceeds the number of horses that \nthe land can sustain, the government organizes helicopter-driven roundups. The horses are \nguided into a roped-off area and then are sold to the public or brought to pastures in the \nMidwest. About one percent of the horses captured die from injuries or accidents that occur \nduring roundups.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on the axis labeled \u201cNumber of Bats.\u201d",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2019/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your knowledge \nof biology.\nWhite Nose Syndrome Found in Bats\nWhite nose syndrome (WNS) is a disease found in bats. The disease, \ufb01 rst detected in \nbats during the winter of 2006, is characterized by the appearance of a white fungus on the \nnose, skin, and wings of some bats, which live in and around caves and mines. It affects the \ncycle of hibernation and is responsible for the deaths of large numbers of bats of certain \nspecies. In some areas, 80-90% of bats have died. Not all bats in an area are affected, and \ncertain bats that are susceptible in one area are not affected in other areas.\nThe roles of temperature and humidity in the environment of the bats are two of the \nmany factors being investigated to help control the disease. Over the past few years, the \nConserve Wildlife Foundation of New Jersey conducted summer bat counts of two bat \nspecies at 22 different sites, totaled the number, and reported the results. The approximate \nnumbers of bats counted (to the nearest hundred) are listed in the table below.\nSummer Bat Count (Total Number of Bats)\nYear\nBig Brown Bats\n(Eptesicus fuscus)\nLittle Brown Bats\n(Myotis lucifugus)\n2009\n900\n6100\n2010\n1000\n1700\n2011\n1000\n500\n2012\n1000\n400\n2013\n1300\n300\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next \npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for marking an appropriate scale, without any breaks in the data, on the axis labeled \u201cNumber of Bats.\u201d Note: Do not allow credit if the grid is extended to accommodate the scale."
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data for big brown bats on the grid, connect the points, and surround each point with a small circle. Example:",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2019/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your knowledge \nof biology.\nWhite Nose Syndrome Found in Bats\nWhite nose syndrome (WNS) is a disease found in bats. The disease, \ufb01 rst detected in \nbats during the winter of 2006, is characterized by the appearance of a white fungus on the \nnose, skin, and wings of some bats, which live in and around caves and mines. It affects the \ncycle of hibernation and is responsible for the deaths of large numbers of bats of certain \nspecies. In some areas, 80-90% of bats have died. Not all bats in an area are affected, and \ncertain bats that are susceptible in one area are not affected in other areas.\nThe roles of temperature and humidity in the environment of the bats are two of the \nmany factors being investigated to help control the disease. Over the past few years, the \nConserve Wildlife Foundation of New Jersey conducted summer bat counts of two bat \nspecies at 22 different sites, totaled the number, and reported the results. The approximate \nnumbers of bats counted (to the nearest hundred) are listed in the table below.\nSummer Bat Count (Total Number of Bats)\nYear\nBig Brown Bats\n(Eptesicus fuscus)\nLittle Brown Bats\n(Myotis lucifugus)\n2009\n900\n6100\n2010\n1000\n1700\n2011\n1000\n500\n2012\n1000\n400\n2013\n1300\n300\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next \npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly plotting the data for big brown bats, connecting the points, and surrounding each point with a small circle."
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Plot the data for little brown bats on the grid, connect the points, and surround each point with a small triangle. Example: 2009 2010 2011 2012 2013 Years Number of Bats Summer Brown Bat Count =Big brown bats =Little brown bats Key",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2019/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your knowledge \nof biology.\nWhite Nose Syndrome Found in Bats\nWhite nose syndrome (WNS) is a disease found in bats. The disease, \ufb01 rst detected in \nbats during the winter of 2006, is characterized by the appearance of a white fungus on the \nnose, skin, and wings of some bats, which live in and around caves and mines. It affects the \ncycle of hibernation and is responsible for the deaths of large numbers of bats of certain \nspecies. In some areas, 80-90% of bats have died. Not all bats in an area are affected, and \ncertain bats that are susceptible in one area are not affected in other areas.\nThe roles of temperature and humidity in the environment of the bats are two of the \nmany factors being investigated to help control the disease. Over the past few years, the \nConserve Wildlife Foundation of New Jersey conducted summer bat counts of two bat \nspecies at 22 different sites, totaled the number, and reported the results. The approximate \nnumbers of bats counted (to the nearest hundred) are listed in the table below.\nSummer Bat Count (Total Number of Bats)\nYear\nBig Brown Bats\n(Eptesicus fuscus)\nLittle Brown Bats\n(Myotis lucifugus)\n2009\n900\n6100\n2010\n1000\n1700\n2011\n1000\n500\n2012\n1000\n400\n2013\n1300\n300\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next \npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly plotting the data for little brown bats, connecting the points, and surrounding each point with a small triangle. Example of a 3-credit response for questions 44\u201346. Note: Allow credit only if circles and triangles are used. Do not assume that the intersection of the x- and y-axes is the origin (0,0) unless it is labeled. An appropriate scale only needs to include the data range in the data table. Do not allow credit if points are plotted that are not in the data table, e.g., (0,0), or for extending lines beyond the data points. Do not deduct more than 1 credit for plotting points that are not in the data table or for extending lines beyond the data points. 2009 2010 2011 2012 2013 Years 3000 4500 6000 Number of Bats Summer Brown Bat Count =Big brown bats =Little brown bats Key 500 1000 1500 2000 2500 3500 4000 5000 5500 6500 7000 Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Biologists in New York and Vermont have noted that, in recent years, a higher percentage of the little brown bats are now surviving. Which statement best explains this increased survival rate?",
+      "choices": [
+        "A few of the bats possessed an immunity to the WNS disease and produced offspring that were immune.",
+        "The bats needed to reproduce in greater numbers, otherwise they would have died out completely.",
+        "The people that performed the recent counts did not identify the bats correctly and were counting bats of a different species.",
+        "The original decline in the bat population due to WNS was a natural occurrence and is part of a natural cycle."
+      ],
+      "image": "/images/exams/living-environment/august-2019/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your knowledge \nof biology.\nWhite Nose Syndrome Found in Bats\nWhite nose syndrome (WNS) is a disease found in bats. The disease, \ufb01 rst detected in \nbats during the winter of 2006, is characterized by the appearance of a white fungus on the \nnose, skin, and wings of some bats, which live in and around caves and mines. It affects the \ncycle of hibernation and is responsible for the deaths of large numbers of bats of certain \nspecies. In some areas, 80-90% of bats have died. Not all bats in an area are affected, and \ncertain bats that are susceptible in one area are not affected in other areas.\nThe roles of temperature and humidity in the environment of the bats are two of the \nmany factors being investigated to help control the disease. Over the past few years, the \nConserve Wildlife Foundation of New Jersey conducted summer bat counts of two bat \nspecies at 22 different sites, totaled the number, and reported the results. The approximate \nnumbers of bats counted (to the nearest hundred) are listed in the table below.\nSummer Bat Count (Total Number of Bats)\nYear\nBig Brown Bats\n(Eptesicus fuscus)\nLittle Brown Bats\n(Myotis lucifugus)\n2009\n900\n6100\n2010\n1000\n1700\n2011\n1000\n500\n2012\n1000\n400\n2013\n1300\n300\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next \npage, following the directions below.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "48",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2019/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your knowledge \nof biology.\nWhite Nose Syndrome Found in Bats\nWhite nose syndrome (WNS) is a disease found in bats. The disease, \ufb01 rst detected in \nbats during the winter of 2006, is characterized by the appearance of a white fungus on the \nnose, skin, and wings of some bats, which live in and around caves and mines. It affects the \ncycle of hibernation and is responsible for the deaths of large numbers of bats of certain \nspecies. In some areas, 80-90% of bats have died. Not all bats in an area are affected, and \ncertain bats that are susceptible in one area are not affected in other areas.\nThe roles of temperature and humidity in the environment of the bats are two of the \nmany factors being investigated to help control the disease. Over the past few years, the \nConserve Wildlife Foundation of New Jersey conducted summer bat counts of two bat \nspecies at 22 different sites, totaled the number, and reported the results. The approximate \nnumbers of bats counted (to the nearest hundred) are listed in the table below.\nSummer Bat Count (Total Number of Bats)\nYear\nBig Brown Bats\n(Eptesicus fuscus)\nLittle Brown Bats\n(Myotis lucifugus)\n2009\n900\n6100\n2010\n1000\n1700\n2011\n1000\n500\n2012\n1000\n400\n2013\n1300\n300\nDirections (44\u201346): Using the information in the data table, construct a line graph on the grid on the next \npage, following the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The bat houses are more easily monitored than the natural bat habitats and the sick bats could be removed or treated. \u2014 The factors of temperature and humidity could be better controlled. \u2014 The bat houses can be sterilized and the disease will be less likely to be transmitted. \u2014 The degree of contact between members of the bat population would be less, slowing the spread of the disease. \u2014 keeps bats away from infected areas/infected bats 49 MC on scoring key 50 MC on scoring key"
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "In the coastal waters off western North America, there is a star\ufb01 sh species that feeds primarily on mussels, another marine organism. In an experimental area, the star\ufb01 sh were removed from the waters. The effect of this removal is shown in the graph below. 1963 '64 '65 '66 '67 '68 '69 '70 '71 '72 '73 '70 Year Influence of Starfish Number of Species Present 20 15 10 5 0 With starfish (control) Without starfish (experimental) Source: Biology, 8th Ed., Campbell, Reese, et al. Pearson, San Francisco, CA, 2009, p. 1208. What conclusion can be made regarding the role of the star\ufb01 sh in this ecosystem?",
+      "choices": [
+        "The biodiversity of this ecosystem increased within ten years as organisms adjusted to the loss of the star\ufb01 sh.",
+        "The star\ufb01 sh is important in maintaining the biodiversity of this ecosystem.",
+        "When the star\ufb01 sh were removed, the ecosystem decreased in stability and increased in biodiversity.",
+        "Biodiversity in this ecosystem is not dependent on the presence of star\ufb01 sh."
+      ],
+      "image": "/images/exams/living-environment/august-2019/q49.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "In a community, before biomass is widely used as an energy source, several experts, including an ecologist, are hired to provide speci\ufb01 c information. The ecologist would most likely be asked about",
+      "choices": [
+        "the cost of producing the fuel compared with the pro\ufb01 t when the fuel is sold",
+        "whether the fuel will be widely accepted by consumers",
+        "what effect the production of the fuel will have on the environment",
+        ""
+      ],
+      "image": null,
+      "context": "Base your answers to questions 50 through 52 on the information below and on your knowledge of biology.\nBiomass Energy\nBiomass is the term for all living, or recently living, materials coming from plants and \nanimals that can be used as a source of energy. Biomass can be burned to produce heat and \nused to make electricity. The most common materials used for biomass energy are wood, \nplants, decaying materials, and wastes, including garbage and food waste. Burning the wood \nand plant matter does produce some air pollutants. Biomass contains energy that originally \ncame from the Sun. Some biomass can be converted into liquid biofuels. These biofuels can \nbe used to power cars and machinery.\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Explain why biomass is considered a renewable energy source.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 50 through 52 on the information below and on your knowledge of biology.\nBiomass Energy\nBiomass is the term for all living, or recently living, materials coming from plants and \nanimals that can be used as a source of energy. Biomass can be burned to produce heat and \nused to make electricity. The most common materials used for biomass energy are wood, \nplants, decaying materials, and wastes, including garbage and food waste. Burning the wood \nand plant matter does produce some air pollutants. Biomass contains energy that originally \ncame from the Sun. Some biomass can be converted into liquid biofuels. These biofuels can \nbe used to power cars and machinery.\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Biomass is continually being produced by plants and animals. \u2014 More plants or trees can be grown to replace those used for fuel. \u2014 Humans will always be generating food wastes and garbage. \u2014 Biomass is an energy source that is quickly replaced by natural processes."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "State one speci\ufb01 c advantage and one speci\ufb01 c disadvantage of the use of biofuels as an energy source. Advantage: Disadvantage:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 50 through 52 on the information below and on your knowledge of biology.\nBiomass Energy\nBiomass is the term for all living, or recently living, materials coming from plants and \nanimals that can be used as a source of energy. Biomass can be burned to produce heat and \nused to make electricity. The most common materials used for biomass energy are wood, \nplants, decaying materials, and wastes, including garbage and food waste. Burning the wood \nand plant matter does produce some air pollutants. Biomass contains energy that originally \ncame from the Sun. Some biomass can be converted into liquid biofuels. These biofuels can \nbe used to power cars and machinery.\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for one specific advantage and one specific disadvantage of the use of biofuels as an energy source. Acceptable responses include, but are not limited to: Advantage: \u2014 Fossil fuel use will decrease. \u2014 less waste or garbage in the landfills \u2014 less use of gasoline \u2014 It is renewable. \u2014 It can be used to power cars and generate electricity. Disadvantage: \u2014 fewer crops for food \u2014 There will still be some pollution. \u2014 Burning the wood and plant matter produces some air pollution. \u2014 Transporting it can be costly. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Identify two raw materials necessary for photosynthesis. and \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 53 and 54 on the information below and on your knowledge of biology.\nPhotosynthesis is a process that is important to the survival of many organisms on Earth.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 carbon dioxide/CO2 \u2014 water/H2O Note: Do not accept sunlight. Sunlight is a form of energy, not a raw material."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "54",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 53 and 54 on the information below and on your knowledge of biology.\nPhotosynthesis is a process that is important to the survival of many organisms on Earth.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Photosynthesis provides the raw materials for cell respiration. \u2014 A product of photosynthesis is glucose/other energy-containing compounds that heterotrophs use for food. \u2014 It is the source of stored energy for the ecosystem. \u2014 Photosynthesis produces oxygen. Note: Do not accept \u201cphotosynthesis makes energy.\u201d It stores, transfers, or transforms energy."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "The diagram below represents a pond ecosystem. Identify one abiotic factor present in the pond ecosystem and explain how this abiotic factor would affect the frogs in the pond. Abiotic factor:",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2019/q55.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying one abiotic factor present in the pond ecosystem and explaining how this abiotic factor would affect the frogs in the pond. Acceptable responses include, but are not limited to: Abiotic factor: Sun Effect: The Sun provides energy to the plants so they can perform photosynthesis to produce oxygen/food for the frogs. Abiotic factor: Oxygen Effect: Frogs use oxygen for respiration. Abiotic factor: pH/temperature Effect: If the pH/temperature of the water is too high or low, the frogs could die. Abiotic factor: Soil Effect: It anchors the plants where frogs hide and tadpoles eat. Abiotic factor: Water Effect: The frogs need the water for their habitat. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "State how the TR4 fungus threatens homeostasis within the banana plant.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of biology.\nBye \u2013 Bye Bananas?\nThe world\u2019s most popular type of banana is facing a major health crisis. According to \na new study, a disease caused by a powerful fungus is killing the Cavendish banana, which \naccounts for 99% of the banana market around the globe. The disease, called tropical race 4 \n(TR4), has affected banana crops in southeast Asia for decades. In recent years, it has spread \nto the Middle East and the African nation of Mozambique. Now experts fear the disease will \nshow up in Latin America, where the majority of the world\u2019s bananas are grown. \u2026\n\u2026Once a banana plant is infected with TR4, it cannot get nourishment from water and \nnutrients, and basically dies of thirst. TR4 lives in soil, and can easily end up on a person\u2019s \nboots. If the contaminated boots are then worn on a \ufb01 eld where Cavendish bananas are \ngrown, the disease could be transferred. \u201cOnce a \ufb01 eld has been contaminated with the \ndisease, you can\u2019t grow Cavendish bananas there anymore,\u201d Randy Ploetz [scientist] says. \n\u201cThe disease lasts a long time in the soil.\u201d\u2026\n\u2026But Cavendish [banana] is also particularly vulnerable to TR4. The banana is grown \nin what is called monoculture. \u201cYou see a big \ufb01 eld of bananas and each one is genetically \nidentical to its neighbor\u201d Ploetz says. \u201cAnd they are all uniformly susceptible to this disease. \nSo once one plant gets infected, it just runs like wild\ufb01 re throughout that entire plantation.\u201d\u2026\nSource: http://www.timeforkids.come/new/bye-bye-bananas/3311666",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The TR4 fungus interferes with the transport of water and other materials within the banana plant. \u2014 The fungus that attacks the banana plant interferes with the plant\u2019s normal functions and the plant basically dies of thirst. \u2014 The fungus prevents water from reaching the leaves, preventing photosynthesis. \u2014 The plant cannot get nourishment from water and nutrients."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Explain why the entire Cavendish banana crop worldwide is particularly vulnerable to the TR4 fungus.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of biology.\nBye \u2013 Bye Bananas?\nThe world\u2019s most popular type of banana is facing a major health crisis. According to \na new study, a disease caused by a powerful fungus is killing the Cavendish banana, which \naccounts for 99% of the banana market around the globe. The disease, called tropical race 4 \n(TR4), has affected banana crops in southeast Asia for decades. In recent years, it has spread \nto the Middle East and the African nation of Mozambique. Now experts fear the disease will \nshow up in Latin America, where the majority of the world\u2019s bananas are grown. \u2026\n\u2026Once a banana plant is infected with TR4, it cannot get nourishment from water and \nnutrients, and basically dies of thirst. TR4 lives in soil, and can easily end up on a person\u2019s \nboots. If the contaminated boots are then worn on a \ufb01 eld where Cavendish bananas are \ngrown, the disease could be transferred. \u201cOnce a \ufb01 eld has been contaminated with the \ndisease, you can\u2019t grow Cavendish bananas there anymore,\u201d Randy Ploetz [scientist] says. \n\u201cThe disease lasts a long time in the soil.\u201d\u2026\n\u2026But Cavendish [banana] is also particularly vulnerable to TR4. The banana is grown \nin what is called monoculture. \u201cYou see a big \ufb01 eld of bananas and each one is genetically \nidentical to its neighbor\u201d Ploetz says. \u201cAnd they are all uniformly susceptible to this disease. \nSo once one plant gets infected, it just runs like wild\ufb01 re throughout that entire plantation.\u201d\u2026\nSource: http://www.timeforkids.come/new/bye-bye-bananas/3311666",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 All of the banana plants are genetically identical. \u2014 There is no diversity among the most common type of bananas that people consume. \u2014 Without genetic variation, the banana plants are more likely to be killed by the fungus. \u2014 The crop is grown in monoculture, so all plants are susceptible. \u2014 The fungus is easily transferred."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "If the fungus cannot be stopped by chemical treatment of the soil, describe one other possible way that the growers may be able to combat the disease.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of biology.\nBye \u2013 Bye Bananas?\nThe world\u2019s most popular type of banana is facing a major health crisis. According to \na new study, a disease caused by a powerful fungus is killing the Cavendish banana, which \naccounts for 99% of the banana market around the globe. The disease, called tropical race 4 \n(TR4), has affected banana crops in southeast Asia for decades. In recent years, it has spread \nto the Middle East and the African nation of Mozambique. Now experts fear the disease will \nshow up in Latin America, where the majority of the world\u2019s bananas are grown. \u2026\n\u2026Once a banana plant is infected with TR4, it cannot get nourishment from water and \nnutrients, and basically dies of thirst. TR4 lives in soil, and can easily end up on a person\u2019s \nboots. If the contaminated boots are then worn on a \ufb01 eld where Cavendish bananas are \ngrown, the disease could be transferred. \u201cOnce a \ufb01 eld has been contaminated with the \ndisease, you can\u2019t grow Cavendish bananas there anymore,\u201d Randy Ploetz [scientist] says. \n\u201cThe disease lasts a long time in the soil.\u201d\u2026\n\u2026But Cavendish [banana] is also particularly vulnerable to TR4. The banana is grown \nin what is called monoculture. \u201cYou see a big \ufb01 eld of bananas and each one is genetically \nidentical to its neighbor\u201d Ploetz says. \u201cAnd they are all uniformly susceptible to this disease. \nSo once one plant gets infected, it just runs like wild\ufb01 re throughout that entire plantation.\u201d\u2026\nSource: http://www.timeforkids.come/new/bye-bye-bananas/3311666",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Look for a biological control that would attack the fungus. \u2014 Genetically engineer the bananas so that they are not affected by the fungus. \u2014 Do not allow people to bring contaminated boots to new areas."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "It is recommended that children eat foods high in calcium and iron as a way to reduce the accumulation of lead in their cells and enzymes. Explain why this is a scienti\ufb01 cally valid recommendation.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the passage below and on your knowledge of biology.\nLead Poisoning\nTwo pathways by which lead can enter the human body are ingestion and inhalation. \nOnce in the bloodstream, lead is distributed to parts of the body including the brain, bones, \nand teeth.\nOne reason that lead is toxic is that it interferes with the functioning of a variety of \nenzymes. It acts like metals such as calcium and iron and replaces them, changing the \nmolecular structure of these enzymes. In the case of calcium, lead is absorbed through the \nsame cell membrane channels that take in calcium.\nLead affects children and adults in different ways. Even low lead levels in children can \ncause many different problems, including nervous system damage, learning disabilities, \ndecreased intelligence, poor bone growth, and death. In adults, high levels of lead can \ncause hearing problems, memory and concentration problems, muscle and joint pain, brain \ndamage, and death. It wasn\u2019t until 1971 that steps were taken against the use of lead with \nthe passage of the Lead Poisoning Prevention Act. However, lead is still a public health risk \ntoday.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 If there is a high amount of calcium in the diet, it is less likely that lead will be used in the formation of enzymes. \u2014 Having a lot of calcium and iron available in the cells will make it more available when enzymes are synthesized. \u2014 A greater concentration of iron and calcium will make it more likely to move from the blood (high concentration), through the channels in the cell membrane, and into the cells. \u2014 When more calcium moves into cells, less lead can go in."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Describe how the presence of lead in body cells could interfere with the ability of enzymes to function.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the passage below and on your knowledge of biology.\nLead Poisoning\nTwo pathways by which lead can enter the human body are ingestion and inhalation. \nOnce in the bloodstream, lead is distributed to parts of the body including the brain, bones, \nand teeth.\nOne reason that lead is toxic is that it interferes with the functioning of a variety of \nenzymes. It acts like metals such as calcium and iron and replaces them, changing the \nmolecular structure of these enzymes. In the case of calcium, lead is absorbed through the \nsame cell membrane channels that take in calcium.\nLead affects children and adults in different ways. Even low lead levels in children can \ncause many different problems, including nervous system damage, learning disabilities, \ndecreased intelligence, poor bone growth, and death. In adults, high levels of lead can \ncause hearing problems, memory and concentration problems, muscle and joint pain, brain \ndamage, and death. It wasn\u2019t until 1971 that steps were taken against the use of lead with \nthe passage of the Lead Poisoning Prevention Act. However, lead is still a public health risk \ntoday.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Lead would give the enzyme a different shape/molecular structure. Enzymes work based on their shape. \u2014 If lead replaces calcium or iron in the enzyme molecule, the enzyme will not have the right shape to do its job. \u2014 The enzyme changes shape. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Based on the parts of the body that are most affected by lead intake, identify one type of cell that would be expected to have numerous calcium channels. Support your answer. Type of cell: Support:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the passage below and on your knowledge of biology.\nLead Poisoning\nTwo pathways by which lead can enter the human body are ingestion and inhalation. \nOnce in the bloodstream, lead is distributed to parts of the body including the brain, bones, \nand teeth.\nOne reason that lead is toxic is that it interferes with the functioning of a variety of \nenzymes. It acts like metals such as calcium and iron and replaces them, changing the \nmolecular structure of these enzymes. In the case of calcium, lead is absorbed through the \nsame cell membrane channels that take in calcium.\nLead affects children and adults in different ways. Even low lead levels in children can \ncause many different problems, including nervous system damage, learning disabilities, \ndecreased intelligence, poor bone growth, and death. In adults, high levels of lead can \ncause hearing problems, memory and concentration problems, muscle and joint pain, brain \ndamage, and death. It wasn\u2019t until 1971 that steps were taken against the use of lead with \nthe passage of the Lead Poisoning Prevention Act. However, lead is still a public health risk \ntoday.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying one type of cell that would be expected to have numerous calcium channels and supporting the answer. Acceptable responses include, but are not limited to: Type of cell: Nerve or brain \u2014 Lead enters cells through calcium channels. Nerve or brain cells are damaged; therefore, they likely contain numerous calcium channels. Type of cell: Muscle or nerve \u2014 because children with lead poisoning suffer from poor coordination/learning problems Type of cell: Bone \u2014 Calcium is needed for healthy bone growth. \u2014 Children with lead poisioning have poor bone growth."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "State one reason why the mutation in Manx cat embryos causes them to have such very short tails.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2019/context_62_63.png",
+      "context": "Base your answers to questions 62 and 63 on the illustration and passage below and on your knowledge of \nbiology.\nThe Telltale DNA of Manx Cats\nSource: http://commons.wikimedia.org/wiki/File:Manx cat (stylizes) 1885.jpg\nA few breeds of cat have no tails. Manx cats have extremely short tails and may even \nappear to have no tail at all. Manx cats were \ufb01 rst discovered several hundred years ago.\nScientists have determined that a certain mutation in a group of genes (called T-box \ngenes) interferes with the development of the spine in the cat embryo. Mutations in these \nT-box genes can cause abnormalities in the number, shape, and/or size of bones in the spines \nof Manx cats, which results in smaller spines and shorter tails.\nIf a Manx cat inherits one copy of the mutated T-box gene and one copy of the normal \ngene, it will have a very short tail or no tail at all.\nIf the cat embryo inherits two copies of these mutated genes, it will stop developing and \ndie. Therefore, all surviving Manx cats have only one copy of the mutated gene.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Manx genes cause abnormalities in the number and/or shape/size of bones in the spine. \u2014 The mutation causes the spine to be shorter, so there could be too few or smaller tail bones formed. \u2014 It interferes with the development of the spine."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "63",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2019/context_62_63.png",
+      "context": "Base your answers to questions 62 and 63 on the illustration and passage below and on your knowledge of \nbiology.\nThe Telltale DNA of Manx Cats\nSource: http://commons.wikimedia.org/wiki/File:Manx cat (stylizes) 1885.jpg\nA few breeds of cat have no tails. Manx cats have extremely short tails and may even \nappear to have no tail at all. Manx cats were \ufb01 rst discovered several hundred years ago.\nScientists have determined that a certain mutation in a group of genes (called T-box \ngenes) interferes with the development of the spine in the cat embryo. Mutations in these \nT-box genes can cause abnormalities in the number, shape, and/or size of bones in the spines \nof Manx cats, which results in smaller spines and shorter tails.\nIf a Manx cat inherits one copy of the mutated T-box gene and one copy of the normal \ngene, it will have a very short tail or no tail at all.\nIf the cat embryo inherits two copies of these mutated genes, it will stop developing and \ndie. Therefore, all surviving Manx cats have only one copy of the mutated gene.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 If a kitten gets one mutated gene from one parent, it will have a short tail or no tail. \u2014 If it gets a normal gene from each parent, it will have a normal tail. \u2014 Each parent has a Manx gene and a normal gene, so kittens will be born with Manx tail traits or normal traits, depending on whether they inherit one or two normal genes. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2019/context_64_66.png",
+      "context": "Base your answer to question 64\u201366 on the passage below and on your knowledge of biology.\nHummingbirds Are Sugar Junkies\nSource: http://bug-bird.com/hummingbirds-large-images/\nMost humans enjoy candy, cake, and ice cream. As a result of evolutionary history, we \nhave a wide variety of tastes. This is not true of all animals. Cats do not seek sweets. Over \nthe course of their evolutionary history, the cat family tree lost a gene to detect sweet \ufb02 avors. \nMost birds also lack this gene, with a few exceptions. Hummingbirds are sugar junkies.\nHummingbirds evolved from an insect-eating ancestor. The genes that detect the savory \n\ufb02 avor of insects underwent changes, making hummingbirds more sensitive to sugars. These \nnew sweet-sensing genes give hummingbirds a preference for high-calorie \ufb02 ower nectar. \nHummingbirds actually reject certain \ufb02 owers whose nectar is not sweet enough!\n\n Living Environment\u2013Aug. \u201919 \n[23] \n[OVER]\n64\u201366 Discuss how sweet sensitivity in hummingbirds has developed. In your answer, be sure to:\n\u2022 identify the initial event responsible for the new sweet-sensing gene   [1]\n\u2022 explain how the presence of the sweet-sensing gene increased in the hummingbird population over \ntime   [1]\n\u2022 describe how the fossil record of hummingbird ancestors might be used to learn more about the \nevolution of food preferences in hummingbirds   [1]\n\n Living Environment\u2013Aug. \u201919 \n[24]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying the initial event responsible for the new sweet-sensing gene as a mutation/change in the genetic code."
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "64\u201366 Discuss how sweet sensitivity in hummingbirds has developed. In your answer, be sure to: \u2022 identify the initial event responsible for the new sweet-sensing gene \u2022 explain how the presence of the sweet-sensing gene increased in the hummingbird population over time \u2022",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2019/context_64_66.png",
+      "context": "Base your answer to question 64\u201366 on the passage below and on your knowledge of biology.\nHummingbirds Are Sugar Junkies\nSource: http://bug-bird.com/hummingbirds-large-images/\nMost humans enjoy candy, cake, and ice cream. As a result of evolutionary history, we \nhave a wide variety of tastes. This is not true of all animals. Cats do not seek sweets. Over \nthe course of their evolutionary history, the cat family tree lost a gene to detect sweet \ufb02 avors. \nMost birds also lack this gene, with a few exceptions. Hummingbirds are sugar junkies.\nHummingbirds evolved from an insect-eating ancestor. The genes that detect the savory \n\ufb02 avor of insects underwent changes, making hummingbirds more sensitive to sugars. These \nnew sweet-sensing genes give hummingbirds a preference for high-calorie \ufb02 ower nectar. \nHummingbirds actually reject certain \ufb02 owers whose nectar is not sweet enough!\n\n Living Environment\u2013Aug. \u201919 \n[23] \n[OVER]\n64\u201366 Discuss how sweet sensitivity in hummingbirds has developed. In your answer, be sure to:\n\u2022 identify the initial event responsible for the new sweet-sensing gene   [1]\n\u2022 explain how the presence of the sweet-sensing gene increased in the hummingbird population over \ntime   [1]\n\u2022 describe how the fossil record of hummingbird ancestors might be used to learn more about the \nevolution of food preferences in hummingbirds   [1]\n\n Living Environment\u2013Aug. \u201919 \n[24]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for describing how the fossil record of hummingbird ancestors might be used to learn more about the evolution of food preferences in hummingbirds. Acceptable responses include, but are not limited to: \u2014 Changes in the shape of hummingbird beaks could be followed. Beaks adapted for eating insects would probably be different from those adapted to drinking nectar. \u2014 Fossils might allow scientists to learn more about the environment that hummingbirds lived in. This would provide information about the plants and insects present. \u2014 Different beak shapes could indicate different food preferences."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Explain why taking folic acid early in pregnancy is important to the prevention of neural tube defects.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 67 through 70 on the information below and on your knowledge of biology.\nFolic acid is a type of vitamin that is essential for the normal growth and development of \ncells in the body. If a woman consumes folic acid in her diet before and during the earliest \nstages of pregnancy, it can help to reduce her baby\u2019s risk for developing a type of birth defect \ncalled a neural tube defect. Early in pregnancy, the neural tube forms the brain and spinal \ncord. If the neural tube does not form properly, serious birth defects may result.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Early in pregnancy, folic acid promotes the normal development of the brain and spinal cord. \u2014 It is essential for normal development. \u2014 The brain and spinal cord form early during pregnancy. Folic acid helps them develop normally. \u2014 Folic acid prevents the risk of developing neural tube defects."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Describe how a fetus receives folic acid and other essential materials directly from its mother for its development.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 67 through 70 on the information below and on your knowledge of biology.\nFolic acid is a type of vitamin that is essential for the normal growth and development of \ncells in the body. If a woman consumes folic acid in her diet before and during the earliest \nstages of pregnancy, it can help to reduce her baby\u2019s risk for developing a type of birth defect \ncalled a neural tube defect. Early in pregnancy, the neural tube forms the brain and spinal \ncord. If the neural tube does not form properly, serious birth defects may result.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Materials diffuse from the mother\u2019s bloodstream into the blood of the fetus. \u2014 Materials diffuse/are transported across the placenta. \u2014 Essential materials are exchanged between the mother and the fetus within the structure of the placenta. \u2014 through the placenta Note: Simply stating \u201cthrough the umbilical cord\u201d by itself is not an acceptable answer, because the umbilical cord is only fetal tissue. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Identify one factor, other than a lack of folic acid, that may interfere with the proper development of essential organs during pregnancy.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 67 through 70 on the information below and on your knowledge of biology.\nFolic acid is a type of vitamin that is essential for the normal growth and development of \ncells in the body. If a woman consumes folic acid in her diet before and during the earliest \nstages of pregnancy, it can help to reduce her baby\u2019s risk for developing a type of birth defect \ncalled a neural tube defect. Early in pregnancy, the neural tube forms the brain and spinal \ncord. If the neural tube does not form properly, serious birth defects may result.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 genetic mutations \u2014 mother\u2019s use of drugs/alcohol/tobacco during pregnancy \u2014 mother\u2019s exposure to environmental toxins \u2014 infections during pregnancy \u2014 The mother does not eat a healthy diet."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Many foods, such as breads, cereals, pastas, and rice, are forti\ufb01",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 67 through 70 on the information below and on your knowledge of biology.\nFolic acid is a type of vitamin that is essential for the normal growth and development of \ncells in the body. If a woman consumes folic acid in her diet before and during the earliest \nstages of pregnancy, it can help to reduce her baby\u2019s risk for developing a type of birth defect \ncalled a neural tube defect. Early in pregnancy, the neural tube forms the brain and spinal \ncord. If the neural tube does not form properly, serious birth defects may result.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Folic acid is essential for normal growth and development of cells. \u2014 More individuals will get folic acid, an important vitamin for cell growth and development. \u2014 Fewer people will suffer from a deficiency of folic acid."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Are species A and B more closely related than A and D? Circle yes or no and support your answer with information from the diagram. Circle one: Yes or No",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2019/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the diagram below and on your knowledge of biology. The \ndiagram represents an evolutionary tree.\nA\nB\nC\nD\nPresent\ntime\n10 million\nyears ago\nJ\nH\nK\nF\nG\nI\nE",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for yes and supporting the answer. Acceptable responses include, but are not limited to: \u2014 A and B share a more recent common ancestor than do A and D. \u2014 A and B evolved from H; D evolved from G. \u2014 A and B evolved from H."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "72",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2019/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the diagram below and on your knowledge of biology. The \ndiagram represents an evolutionary tree.\nA\nB\nC\nD\nPresent\ntime\n10 million\nyears ago\nJ\nH\nK\nF\nG\nI\nE",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Species E was not fit for its environment. \u2014 Species E could not successfully compete in the environment. \u2014 The environment changed, and species E was not adapted to this change. \u2014 lack of food/resources Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "Based on the results of this comparison alone, is there enough information to conclude which of the other three species is most closely related to Botana curus?",
+      "choices": [
+        "Yes. Only species X has the same bands as Botana curus.",
+        "Yes. Species Z has only two of the bands that Botana curus has.",
+        "No. Additional tests should be done to test for other chemical similarities.",
+        "No. Other rainforest plant species should be tested."
+      ],
+      "image": "/images/exams/living-environment/august-2019/context_73_73.png",
+      "context": "Base your answer to question 73 on the information and diagram below and on your knowledge of biology.\nDuring the Relationships and Biodiversity lab, simulated pigments from three plant \nspecies were compared to those in Botana curus. The results were similar to those represented \nbelow.\nB. curus X\nY\nZ\nEnd- Time after 20 minutes\nB. curus X\nY\nZ\nStart - Time 0",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "Insects can get diseases just like other organisms. A deadly bacteria infected the insects on one Galapagos Island. Among the birds living there, the \ufb01 nches most likely to experience a drastic decrease in population size would be the",
+      "choices": [
+        "warbler \ufb01 nches",
+        "cactus \ufb01 nches",
+        "large ground \ufb01 nches",
+        "medium ground \ufb01"
+      ],
+      "image": "/images/exams/living-environment/august-2019/context_74_74.png",
+      "context": "Base your answer to question 74 on the diagram below and on your knowledge of biology.\nLarge\nground \nfinch\nVegetarian\nfinch\nLarge \ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler\nfinch\nCactus\nfinch\nSharp-billed\nground finch\nSmall\nground\nfinch\nMedium\nground\nfinch\nE\nd\ng\ne\n \nc\nr\nu\ns\nh\ni\nn\ng\n \n \n \n \n \n \n \n \nB\ni\nti\nn\ng\n \nt\ni\np\ns\nMainly\nplant \nfood\nMainly\nanimal \nfood\nG\nr\na\ns\np\ni\nn\ng\n \nb\nil\nl\ns\n100%\nanimal\nfood\nP\nr\no\nb\ni\nn\ng\n \n \n \nP\nr\no\nb\ni\nn\ng\n \nb\ni\nl\nl\ns\nVariations in Beaks of Galapagos Islands Finches\nSource: Galapagos: A Natural History Guide\nC\nr\nu\ns\nh\ni\nn\ng\n \nb\ni\nl\nl\ns",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "A variety of species of Galapagos \ufb01 nches evolved from one original species long ago through the process of",
+      "choices": [
+        "asexual reproduction",
+        "ecological succession",
+        "natural selection",
+        "selective breeding"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "If scientists want to determine the similarities in the DNA fragments in several plant species, they should",
+      "choices": [
+        "add salt water to cells from each plant",
+        "analyze electrophoresis results",
+        "compare seed structures of the plants",
+        "examine their chromosomes with a microscope"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "One coach of an Olympic rowing team makes his athletes warm up by doing 30 minutes of stretching and jogging in place before practicing each day. Another coach suggests that resting before practicing will result in better performance by her team. They decide to conduct an experiment to see which practice is correct. One team rests before practice, the other team warms up for thirty minutes, and they then record the time that it takes each team to row a speci\ufb01 c distance. Identify the dependent variable in this experiment.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. \u2014 the time it takes to row a specific distance \u2014 time \u2014 the speed at which they complete the course Note: Do not accept just \u201cperformance.\u201d The type of data must be measurable."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "A student squeezes a clothespin 82 times in a minute. Then, using the same hand and the same clothespin, he squeezes the clothespin 68 times in a minute. State one biological reason for the decrease in the number of squeezes during the second trial.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The student squeezed the clothespin less the second time because the muscles in his hand began to fatigue. \u2014 The student squeezed the clothespin fewer times because his muscles had less oxygen. \u2014 The student squeezed the clothespin less the second time because waste products were building up in his cells."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "During rest, an adult\u2019s heart rate averages 60-100 beats per minute. When exercising, an adult\u2019s heart rate may increase to 100-170 beats per minute. State one reason why the heart rate increased during exercise.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 It helps lower the level of carbon dioxide in the bloodstream. \u2014 Increased blood flow helps to maintain homeostasis. \u2014 Muscles require more nutrients and oxygen, which must be delivered by the circulatory system."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "In some single-celled protozoans living in fresh water, such as the paramecium,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Excess water would diffuse into the freshwater paramecium, but the saltwater organism would lose water. \u2014 The saltwater organism would lose water to its environment/dehydrate instead. \u2014 In freshwater organisms, the higher water concentration outside causes water to enter cells. This is the opposite of what happens in saltwater organisms. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Which row in the chart correctly describes what would be expected to occur in the potato cells, with regard to both the starch and water molecules? Row Water Starch",
+      "choices": [
+        "More water will move into the cell than will leave the cell. Starch will remain inside the potato cell.",
+        "More water will leave the cell than will enter. Starch will move out of the cell.",
+        "Water content of the cell will not change. Starch will move out of the cell.",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2019/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the information and diagram below and on your knowledge \nof biology.\nA cube cut from a potato is placed in a beaker of distilled water. The potato cells have \na relatively high concentration of starch and a relatively low concentration of water. The \ndiagram represents the water and starch molecules in and around one of the potato cells in \ncontact with the water in the beaker.\nPotato cell\nDistilled water\nin beaker\nKey\n= water molecule\n= starch molecule\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "Which statement correctly describes a possible result if starch indicator is added to the water in the beaker one hour after the potato cube was added?",
+      "choices": [
+        "The indicator solution would turn to an amber color in the water if starch molecules were present in the water in the beaker.",
+        "The indicator would remain amber in color if starch molecules were not present in the water in the beaker.",
+        "The indicator would change to a black color if starch molecules were not present in the water in the beaker.",
+        "The indicator solution would remain black in color if starch molecules were present in the water in the beaker."
+      ],
+      "image": "/images/exams/living-environment/august-2019/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the information and diagram below and on your knowledge \nof biology.\nA cube cut from a potato is placed in a beaker of distilled water. The potato cells have \na relatively high concentration of starch and a relatively low concentration of water. The \ndiagram represents the water and starch molecules in and around one of the potato cells in \ncontact with the water in the beaker.\nPotato cell\nDistilled water\nin beaker\nKey\n= water molecule\n= starch molecule\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Before placing the potato in the beaker, the student used an electronic balance to determine the mass of the potato cube. The mass of the cube was determined again after it was in the beaker for an hour. Describe how this information could speci\ufb01",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2019/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the information and diagram below and on your knowledge \nof biology.\nA cube cut from a potato is placed in a beaker of distilled water. The potato cells have \na relatively high concentration of starch and a relatively low concentration of water. The \ndiagram represents the water and starch molecules in and around one of the potato cells in \ncontact with the water in the beaker.\nPotato cell\nDistilled water\nin beaker\nKey\n= water molecule\n= starch molecule\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 It could indicate if the water moved into the potato cells. \u2014 A change in mass would indicate a change in water content of the potato cells. \u2014 If the mass changes, then water moved."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Select one row in the chart below and explain how the systems in that row work together during exercise. System System System Row 1 Respiratory Circulatory Muscular Row 2 Muscular Circulatory Excretory Row 3 Digestive Circulatory Muscular Row:",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2019/q84.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Row 1: \u2014 These systems work together to take in and move oxygenated blood to the muscles for use. \u2014 The respiratory system takes in oxygen, which is passed into the circulatory system, which then takes it to the muscles. \u2014 The respiratory and circulatory systems work together to remove carbon dioxide from the muscles. Row 2: \u2014 Muscle cells produce wastes and circulatory transports wastes to excretory organs to be excreted. Row 3: \u2014 Digestive breaks down food into nutrients and circulatory transports nutrients to muscle cells for energy."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Based on the information given, state one way the bag or its contents will have changed by the next day. Support your answer with an explanation. LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2019/context_85_85.png",
+      "context": "Base your answer to question 85 on the information below and on your knowledge of biology.\nIn an experiment, a membrane bag containing 95% water and 5% salt was placed in a \nbeaker containing 80% water and 20% salt, as shown below. The setup was put aside until \nthe next day.\n80% water\n20% salt in beaker\n95% water\n5% salt in a membrane bag",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating one way that the bag or its contents will have changed by the next day and supporting the answer. Acceptable responses include, but are not limited to: \u2014 The bag will become smaller because the water will diffuse from inside the bag to outside the bag. \u2014 Water will move from higher concentration inside the bag to lower concentration outside the bag. \u2014 The membrane bag will decrease in size due to osmosis of the water out of the bag. \u2014 The size of the bag will become smaller due to water loss. \u2014 The salt concentration inside the bag will have increased as water moved out of the bag. \u2014 The salt concentration in the bag will increase because the salt will move from high concentration to low concentration. Living Environment Rating Guide \u2013 Aug. \u2019"
+    }
+  ]
+}

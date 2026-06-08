@@ -1,0 +1,476 @@
+{
+  "subject": "geometry",
+  "session": "august-2019",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, AB ___ is dilated by a scale factor of 5__ 2 centered at point P. Which statement is always true?",
+      "choices": [
+        "PA ___ \u0002 AA\u0002 ___",
+        "AB ___ || A\u0002B\u0002 ___",
+        "AB \u0003 A\u0002B\u0002",
+        "5__"
+      ],
+      "image": "/images/exams/geometry/august-2019/q1.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "(A\u0002B\u0002) \u0003 AB 2 The coordinates of the vertices of parallelogram CDEH are C(\u00045,5), D(2,5), E(\u00041,\u00041), and H(\u00048,\u00041). What are the coordinates of P, the point of intersection of diagonals CE ___ and DH ___ ?",
+      "choices": [
+        "(\u00042,3)",
+        "(\u00042,2)",
+        "(\u00043,2)",
+        "(\u00043,\u00042) y A A\u0002 P B B\u0002"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The coordinates of the endpoints of QS ___ are Q(\u00049,8) and S(9,\u00044). Point R is on QS ___ such that QR:RS is in the ratio of 1:2. What are the coordinates of point R?",
+      "choices": [
+        "(0,2)",
+        "(3,0)",
+        "(\u00043,4)",
+        "(\u00046,6)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "If the altitudes of a triangle meet at one of the triangle\u2019s vertices, then the triangle is",
+      "choices": [
+        "a right triangle",
+        "an acute triangle",
+        "an obtuse triangle",
+        "an equilateral triangle"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "In the diagram below of rACD, DB ___ is a median to AC ___ , and AB ___ \u0002 DB ___ . If m\u2220DAB \u0003 32\u00b0, what is m\u2220BDC?",
+      "choices": [
+        "32\u00b0",
+        "52\u00b0",
+        "58\u00b0",
+        "64\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2019/q5.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "What are the coordinates of the center and the length of the radius of the circle whose equation is x2 \u0005 y2 \u0003 8x \u0004 6y \u0005 39?",
+      "choices": [
+        "center (\u00044,3) and radius 64",
+        "center (4,\u00043) and radius 64",
+        "center (\u00044,3) and radius 8",
+        "center (4,\u00043) and radius 8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In the diagram below of parallelogram ABCD, ___ AFGB ___ , CF ___ bisects \u2220DCB, DG ___ bisects \u2220ADC, and CF ___ and DG ___ intersect at E. If m\u2220B \u0003 75\u00b0, then the measure of \u2220EFA is",
+      "choices": [
+        "142.5\u00b0",
+        "127.5\u00b0",
+        "52.5\u00b0",
+        "37.5\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2019/q7.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "What is an equation of a line that is perpendicular to the line whose equation is 2y \u0005 3x \u0003 1?",
+      "choices": [
+        "y = 2__ 3 x \u0005 5__ 2",
+        "y = 3__ 2 x \u0005 2",
+        "y = \u0004 2__ 3 x \u0005 1",
+        "y = \u0004 3__ 2 x \u0005 1__ 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Triangles ABC and RST are graphed on the set of axes below. Which sequence of rigid motions will prove rABC \u0002 rRST?",
+      "choices": [
+        "a line reflection over y \u0003 x",
+        "a rotation of 180\u00b0 centered at (1,0)",
+        "a line reflection over the x-axis followed by a translation of 6 units right",
+        "a line reflection over the x-axis followed by a line reflection over y \u0003 1"
+      ],
+      "image": "/images/exams/geometry/august-2019/q9.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "If the line represented by y \u0003 \u0004 1__ 4 x \u0004 2 is dilated by a scale factor of 4 centered at the origin, which statement about the image is true?",
+      "choices": [
+        "The slope is \u0004 1__ 4 and the y-intercept is \u00048.",
+        "The slope is \u0004 1__ 4 and the y-intercept is \u00042.",
+        "The slope is \u00041 and the y-intercept is \u00048.",
+        "The slope is \u00041 and the y-intercept is \u00042"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Square MATH has a side length of 7 inches. Which three-dimensional object will be formed by continuously rotating square MATH around side AT ___ ?",
+      "choices": [
+        "a right cone with a base diameter of 7 inches",
+        "a right cylinder with a diameter of 7 inches",
+        "a right cone with a base radius of 7 inches",
+        "a right cylinder with a radius of 7 inches"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Circle O with a radius of 9 is drawn below. The measure of central angle AOC is 120\u00b0. What is the area of the shaded sector of circle O?",
+      "choices": [
+        "6\u03c0",
+        "12\u03c0",
+        "27\u03c0",
+        "54\u03c0"
+      ],
+      "image": "/images/exams/geometry/august-2019/q12.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "In quadrilateral QRST, diagonals QS ___ and RT ___ intersect at M. Which statement would always prove quadrilateral QRST is a parallelogram?",
+      "choices": [
+        "\u2220TQR and \u2220QRS are supplementary.",
+        "QM ____ \u0002 SM ___ and QT ___ \u0002 RS ___",
+        "QR ___ \u0002 TS ___ and QT ___ \u0002 RS ___",
+        "QR ___ \u0002 TS ___ and QT ___ || RS ___ 120\u00b0 9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "A standard-size golf ball has a diameter of 1.680 inches. The material used to make the golf ball weighs 0.6523 ounce per cubic inch. What is the weight, to the nearest hundredth of an ounce, of one golf ball?",
+      "choices": [
+        "1.10",
+        "1.62",
+        "2.48",
+        "3.81"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Chelsea is sitting 8 feet from the foot of a tree. From where she is sitting, the angle of elevation of her line of sight to the top of the tree is 36\u00b0. If her line of sight starts 1.5 feet above ground, how tall is the tree, to the nearest foot?",
+      "choices": [
+        "8",
+        "7",
+        "6",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In the diagram below of right triangle ABC, altitude CD ___ intersects hypotenuse AB ___ at D. Which equation is always true?",
+      "choices": [
+        "AD ___ AC \u0003 CD ___ BC",
+        "AD ___ CD \u0003 BD ___ CD",
+        "AC ___ CD \u0003 BC ___ CD",
+        "AD ___ AC \u0003 AC ___"
+      ],
+      "image": "/images/exams/geometry/august-2019/q16.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A countertop for a kitchen is modeled with the dimensions shown below. An 18-inch by 21-inch rectangle will be removed for the installation of the sink. What is the area of the top of the installed countertop, to the nearest square foot?",
+      "choices": [
+        "26",
+        "23",
+        "22",
+        "19"
+      ],
+      "image": "/images/exams/geometry/august-2019/q17.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "In the diagram below, BC ___ connects points B and C on the congruent sides of isosceles triangle ADE, such that rABC is isosceles with vertex angle A. If AB \u0003 10, BD \u0003 5, and DE \u0003 12, what is the length of BC ___ ?",
+      "choices": [
+        "6",
+        "7",
+        "8",
+        "9 Sink 8 ft 5 ft 2 ft 2 ft 21 in 18"
+      ],
+      "image": "/images/exams/geometry/august-2019/q18.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "In rABC below, angle C is a right angle. Which statement must be true?",
+      "choices": [
+        "sin A \u0003 cos B",
+        "sin A \u0003 tan B",
+        "sin B \u0003 tan A",
+        "sin B \u0003 cos B"
+      ],
+      "image": "/images/exams/geometry/august-2019/q19.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "In right triangle RST, altitude TV ___ is drawn to hypotenuse RS ___ . If RV \u0003 12 and RT \u0003 18, what is the length of SV ___ ?",
+      "choices": [
+        "6\u0003\u0004\u00045",
+        "15",
+        "6\u0003\u0004\u00046",
+        "27"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "What is the volume, in cubic centimeters, of a right square pyramid with base edges that are 64 cm long and a slant height of 40 cm?",
+      "choices": [
+        "8192.0",
+        "13,653.3 _",
+        "32,768.0",
+        "54,613.3 _ 13 12 B C A 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "In the diagram below, chords PQ ___ and RS ___ of circle O intersect at T. Which relationship must always be true?",
+      "choices": [
+        "RT \u0002 TQ",
+        "RT \u0002 TS",
+        "RT \u0003 TS \u0002 PT \u0003 TQ",
+        "RT \u0004 TS \u0002 PT \u0004 TQ"
+      ],
+      "image": "/images/exams/geometry/august-2019/q22.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A rhombus is graphed on the set of axes below. Which transformation would carry the rhombus onto itself?",
+      "choices": [
+        "180\u00b0 rotation counterclockwise about the origin",
+        "reflection over the line y \u0002 1__ 2 x \u0003 1",
+        "reflection over the line y \u0002 0",
+        "reflection over the line x \u0002 0"
+      ],
+      "image": "/images/exams/geometry/august-2019/q23.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A 15-foot ladder leans against a wall and makes an angle of 65\u00b0 with the ground. What is the horizontal distance from the wall to the base of the ladder, to the nearest tenth of a foot?",
+      "choices": [
+        "6.3",
+        "7.0",
+        "12.9",
+        "13.6 Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/geometry/august-2019/q24.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "In parallelogram ABCD shown below, m\u2220DAC \u0003 98\u00b0 and m\u2220ACD \u0003 36\u00b0. What is the measure of angle B? Explain why. A B D C 98\u00b0 36\u00b0",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2019/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "An airplane took off at a constant angle of elevation. After the plane traveled for 25 miles, it reached an altitude of 5 miles, as modeled below. To the nearest tenth of a degree, what was the angle of elevation? 25 miles 5",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2019/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "On the set of axes below, rABC \u0002",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2019/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The vertices of rABC have coordinates A(\u00042,\u00041), B(10,\u00041), and C(4,4). Determine and state the area of rABC. [The use of the set of axes below is optional.]",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2019/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Using the construction below, state the degree measure of \u2220",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2019/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "In the diagram below of circle K, secant __ PLKE ___ and tangent PZ ___ are drawn from external point P. If mLZ \u00aa \u0003 56\u00b0,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2019/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "A large water basin is in the shape of a right cylinder. The inside of the basin has a diameter of 8 1__ 4 feet and a height of 3 feet. Determine and state, to the nearest cubic foot, the number of cubic feet of water that it will take to fill the basin to a level of 1__ 2 Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Triangle ABC is shown below. Using a compass and straightedge, construct the dilation of rABC centered at B with a scale factor of 2. [Leave all construction marks.] Is the image of rABC similar to the original triangle?",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2019/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "In the diagram below, rABE \u0002 rCBD. Prove: rAFD \u0002",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2019/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "A cargo trailer, pictured below, can be modeled by a rectangular prism and a triangular prism. Inside the trailer, the rectangular prism measures 6 feet wide and 10 feet long. The walls that form the triangular prism each measure 4 feet wide inside the trailer. The diagram below is of the floor, showing the inside measurements of the trailer. If the inside height of the trailer is 6.5 feet, what is the total volume of the inside of the trailer, to the nearest cubic foot? Cargo Trailer 4 ft 4 ft 10 ft 10 ft 6",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2019/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "The coordinates of the vertices of rABC are A(1,2), B(\u00045,3), and C(\u00046,\u00043). Prove that rABC is isosceles. [The use of the set of axes on the next page is optional.] State the coordinates of point D such that quadrilateral ABCD is a square. Question 35 is continued on the next page. Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for the question to determine your answer. Note that diagrams are not necessarily drawn to scale. For the question in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, Question 35 continued Prove that your quadrilateral ABCD is a square. [The use of the set of axes below is optional.] y x Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0003 2.54 centimeters 1 kilometer \u0003 0.62 mile 1 cup \u0003 8 fluid ounces 1 meter \u0003 39.37 inches 1 pound \u0003 16 ounces 1 pint \u0003 2 cups 1 mile \u0003 5280 feet 1 pound \u0003 0.454 kilogram 1 quart \u0003 2 pints 1 mile \u0003 1760 yards 1 kilogram \u0003 2.2 pounds 1 gallon \u0003 4 quarts 1 mile \u0003 1.609 kilometers 1 ton \u0003 2000 pounds 1 gallon \u0003 3.785 liters 1 liter \u0003 0.264 gallon 1 liter \u0003 1000 cubic centimeters Triangle A \u0003 bh 1 2 Parallelogram A \u0003 bh Circle A \u0003 \u03c0r2 Circle C \u0003 \u03c0d or C \u0003 2\u03c0r General Prisms V \u0003 Bh Cylinder V \u0003 \u03c0r2h Sphere V \u0003 \u03c0r3 4 3 Cone V \u0003 \u03c0r2h 1 3 Pyramid V \u0003 Bh 1 3 Pythagorean Theorem a2 \u0005 b2 \u0003 c2 Quadratic Formula x \u0003 \u0004 \u0007 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0003 a1 \u0005 (n \u0004 1)d Geometric Sequence an \u0003 a1r n \u0004 1 Geometric Series Sn \u0003 where r \b 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0003 degrees 180 \u03c0 Degrees 1 degree \u0003 radians \u03c0 180 Exponential Growth/Decay A \u0003 A0ek(t \u0004 t0) \u0005 B0 Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

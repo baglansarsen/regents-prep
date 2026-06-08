@@ -1,0 +1,481 @@
+{
+  "subject": "geometry",
+  "session": "august-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "In the diagram below, , and and are drawn. If m\u2220EFG \u0002 32\u00b0 and m\u2220AEG \u0002 137\u00b0, what is m\u2220EGF?",
+      "choices": [
+        "11\u00b0",
+        "43\u00b0",
+        "75\u00b0",
+        "105\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2018/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "If \u0002ABC is mapped onto \u0002DEF after a line reflection and \u0002DEF is mapped onto \u0002XYZ after a translation, the relationship between \u0002ABC and \u0002XYZ is that they are always",
+      "choices": [
+        "congruent and similar",
+        "congruent but not similar",
+        "similar but not congruent",
+        "neither similar nor congruent \u0003 \u0005 \u0006 \u0007 \u0002 \u0004 \b AEFB CGD || GF GE"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "An isosceles right triangle whose legs measure 6 is continuously rotated about one of its legs to form a three-dimensional object. The three-dimensional object is a",
+      "choices": [
+        "cylinder with a diameter of 6",
+        "cylinder with a diameter of 12",
+        "cone with a diameter of 6",
+        "cone with a diameter of 12"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In regular hexagon ABCDEF shown below, , , and all intersect at G. When \u0002ABG is reflected over and then rotated 180\u00b0 about point G, \u0002ABG is mapped onto",
+      "choices": [
+        "\u0002FEG",
+        "\u0002AFG",
+        "\u0002CBG",
+        "\u0002DEG"
+      ],
+      "image": "/images/exams/geometry/august-2018/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "A right cylinder is cut perpendicular to its base. The shape of the cross section is a",
+      "choices": [
+        "circle",
+        "cylinder",
+        "rectangle",
+        "BG A B G C F E D AD BE CF"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Yolanda is making a springboard to use for gymnastics. She has 8-inch-tall springs and wants to form a 16.5\u00b0 angle with the base, as modeled in the diagram below. To the nearest tenth of an inch, what will be the length of the springboard, x?",
+      "choices": [
+        "2.3",
+        "8.3",
+        "27.0",
+        "28.2"
+      ],
+      "image": "/images/exams/geometry/august-2018/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In the diagram below of right triangle ABC, altitude is drawn to hypotenuse . If BD \u0002 4, AD \u0002 x \u0003 6, and CD \u0002 x, what is the length of ?",
+      "choices": [
+        "5",
+        "2",
+        "8",
+        "11"
+      ],
+      "image": "/images/exams/geometry/august-2018/q7.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Rhombus STAR has vertices S(\u20131,2), T(2,3), A(3,0), and R(0,\u20131). What is the perimeter of rhombus STAR?",
+      "choices": [
+        "",
+        "",
+        "",
+        "4 34 4 10 34 10 CD B C A D AC BD \u000e\u000f\u0010\u0011"
+      ],
+      "image": "/images/exams/geometry/august-2018/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "In the diagram below of \u0002HAR and \u0002NTY, angles H and N are right angles, and \u0002HAR \u0002 \u0002NTY. If AR \u0002 13 and HR \u0002 12, what is the measure of angle Y, to the nearest degree?",
+      "choices": [
+        "23\u00b0",
+        "25\u00b0",
+        "65\u00b0",
+        "67\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2018/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "In the diagram below, , , , and are drawn such that \u0003 . Which additional statement is sufficient to prove \u0002KAN \u0003 \u0002KSC by AAS?",
+      "choices": [
+        "and bisect each other.",
+        "K is the midpoint of .",
+        "",
+        "|| AN SC AS CN \u22a5"
+      ],
+      "image": "/images/exams/geometry/august-2018/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which equation represents a line that is perpendicular to the line represented by y \u0002 x \u0004 1?",
+      "choices": [
+        "3x \u0004 2y \u0002 12",
+        "3x \u0003 2y \u0002 12",
+        "y \u0002 x \u0004 2",
+        "y \u0002 \u0003 x \u0004 4"
+      ],
+      "image": "/images/exams/geometry/august-2018/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "In the diagram of \u0002ABC below, points D and E are on sides and respectively, such that || . If EB is 3 more than DB, AB \u0002 14, and CB \u0002 21, what is the length of ?",
+      "choices": [
+        "6",
+        "8",
+        "9",
+        "12"
+      ],
+      "image": "/images/exams/geometry/august-2018/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Quadrilateral MATH has both pairs of opposite sides congruent and parallel. Which statement about quadrilateral MATH is always true?",
+      "choices": [
+        "\u0003",
+        "",
+        "\u2220MHT \u0003 \u2220ATH",
+        "\u2220MAT \u0003 \u2220MHT 2 3 3 2 AH MT MT AH \u22a5 AD A D C B E AC DE CB AB 2 3"
+      ],
+      "image": "/images/exams/geometry/august-2018/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "In the figure shown below, quadrilateral TAEO is circumscribed around circle D. The midpoint of is R, and \u0003 . If AP \u0002 10 and EO = 12, what is the perimeter of quadrilateral TAEO?",
+      "choices": [
+        "56",
+        "64",
+        "72",
+        "76"
+      ],
+      "image": "/images/exams/geometry/august-2018/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The coordinates of the endpoints of directed line segment ABC are A(\u00038,7) and C(7,\u000313). If AB:BC \u0002 3:2, the coordinates of B are",
+      "choices": [
+        "(1,\u00035)",
+        "(\u00032,\u00031)",
+        "(\u00033,0)",
+        "(3,\u00036) Use this space for"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In triangle ABC, points D and E are on sides and , respectively, such that || , and AD:DB \u0002 3:5. If DB \u0002 6.3 and AC = 9.4, what is the length of , to the nearest tenth?",
+      "choices": [
+        "3.8",
+        "5.6",
+        "5.9",
+        "15.7 DE BC AB AC DE \u0005 \b \u0003 \u0007 \u0004"
+      ],
+      "image": "/images/exams/geometry/august-2018/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "In the diagram below, rectangle ABCD has vertices whose coordinates are A(7,1), B(9,3), C(3,9), and D(1,7). Which transformation will not carry the rectangle onto itself?",
+      "choices": [
+        "a reflection over the line y \u0002 x",
+        "a reflection over the line y \u0002 \u0003x \u0004 10",
+        "a rotation of 180\u00b0 about the point (6,6)",
+        "a rotation of 180\u00b0 about the point (5,5)"
+      ],
+      "image": "/images/exams/geometry/august-2018/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A circle with a diameter of 10 cm and a central angle of 30\u00b0 is drawn below. What is the area, to the nearest tenth of a square centimeter, of the sector formed by the 30\u00b0 angle?",
+      "choices": [
+        "5.2",
+        "6.5",
+        "13.1",
+        "26.2"
+      ],
+      "image": "/images/exams/geometry/august-2018/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "A child\u2019s tent can be modeled as a pyramid with a square base whose sides measure 60 inches and whose height measures 84 inches. What is the volume of the tent, to the nearest cubic foot?",
+      "choices": [
+        "35",
+        "58",
+        "82",
+        "175 10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "In the accompanying diagram of right triangle ABC, altitude is drawn to hypotenuse . Which statement must always be true?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/geometry/august-2018/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "An equation of circle O is x2 \u0004 y2 \u0004 4x \u0003 8y \u0002 \u000316. The statement that best describes circle O is the",
+      "choices": [
+        "center is (2,\u00034) and is tangent to the x-axis",
+        "center is (2,\u00034) and is tangent to the y-axis",
+        "center is (\u00032,4) and is tangent to the x-axis",
+        "center is (\u00032,4) and is tangent to the y-axis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "In \u0002ABC, is the perpendicular bisector of . Based upon this information, which statements below can be proven? I. is a median. II. bisects \u2220ABC. III. \u0002ABC is isosceles.",
+      "choices": [
+        "I and II, only",
+        "I and III, only",
+        "II and III, only",
+        "I, II, and III BD BD ADC BD \u0002 AB BC BD AC AD AB \u0002 AB AC \u0002 BD BC AB AD AD BC \u0002"
+      ],
+      "image": "/images/exams/geometry/august-2018/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Triangle RJM has an area of 6 and a perimeter of 12. If the triangle is dilated by a scale factor of 3 centered at the origin, what are the area and perimeter of its image, triangle R\u0005J\u0005M\u0005?",
+      "choices": [
+        "area of 9 and perimeter of 15",
+        "area of 18 and perimeter of 36",
+        "area of 54 and perimeter of 36",
+        "area of 54 and perimeter of 108"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "If sin (2x \u0004 7)\u00b0 \u0002 cos (4x \u0003 7)\u00b0, what is the value of x?",
+      "choices": [
+        "7",
+        "15",
+        "21",
+        "30"
+      ],
+      "image": "/images/exams/geometry/august-2018/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "In the circle below, is a chord. Using a compass and straightedge, construct a diameter of the circle. [Leave all construction marks.] \u0005 \u0003 AB Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2018/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "In parallelogram ABCD shown below, the bisectors of \u2220ABC and \u2220DCB meet at E, a point on . If m\u2220A \u0002 68\u00b0, determine and state m\u2220",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2018/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "In circle A below, chord and diameter intersect at F. If m \u0002 46\u00b0 and m \u0002 102\u00b0, what is m\u2220CFE? CD \u0002 DB \u0002",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2018/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Trapezoids ABCD and A\u0006B\u0006C\u0006D\u0006 are graphed on the set of axes below. Describe a sequence of transformations that maps trapezoid ABCD onto trapezoid A\u0006B\u0006C\u0006D\u0006",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2018/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "In the model below, a support wire for a telephone pole is attached to the pole and anchored to a stake in the ground 15 feet from the base of the telephone pole. Jamal places a 6-foot wooden pole under the support wire parallel to the telephone pole,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2018/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Aliyah says that when the line 4x \u0004 3y \u0002 24 is dilated by a scale factor of 2 centered at the point (3,4), the equation of the dilated line is y \u0002 x \u0004 16. Is Aliyah correct? Explain why. [The use of the set of axes below is optional.] y x \u00034 3",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2018/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Ian needs to replace two concrete sections in his sidewalk, as modeled below. Each section is 36 inches by 36 inches and 4 inches deep. He can mix his own concrete for $3.25 per cubic foot. How much money will it cost Ian to replace the two concrete sections? 36 in 36 in 4",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2018/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Given: \u0002ABC, , with \u2220ABE \u0003 \u2220CBE, and \u2220ADE \u0003 \u2220CDE Prove: is the perpendicular bisector of Fill in the missing statement and reasons below. Statements Reasons B D C A E BDE AC AEC BDE Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [
+        "\u0002ABC, , with \u2220ABE \u0003 \u2220CBE and \u2220ADE \u0003 \u2220CDE",
+        "\u0003",
+        "\u2220BDA and \u2220ADE are supplementary. \u2220BDC and \u2220CDE are supplementary.",
+        "(5) \u0002ABD \u0003 \u0002CBD (6) \u0003 , \u0003 (7)"
+      ],
+      "image": "/images/exams/geometry/august-2018/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "A homeowner is building three steps leading to a deck, as modeled by the diagram below. All three step rises, , , and , are congruent, and all three step runs, , , and , are congruent. Each step rise is perpendicular to the step run it joins. The measure of \u2220CAB \u0002 36\u00b0 and m\u2220CBA \u0002 90\u00b0. If each step run is parallel to and has a length of 10 inches, determine and state the length of each step rise, to the nearest tenth of an inch. Determine and state the length of , to the nearest inch. AC AB F Step rise H G Step run D C E A B HA FG DE HG FE DC",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2018/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "A bakery sells hollow chocolate spheres. The larger diameter of each sphere is 4 cm. The thickness of the chocolate of each sphere is 0.5 cm. Determine and state, to the nearest tenth of a cubic centimeter, the amount of chocolate in each hollow sphere. The bakery packages 8 of them into a box. If the density of the chocolate is 1.308 g/cm3, determine and state, to the nearest gram, GO RIGHT ON TO THE NEXT PAGE \u00ac",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "The vertices of quadrilateral MATH have coordinates M(\u00034,2), A(\u00031,\u20133), T(9,3), and H(6,8). Prove that quadrilateral MATH is a parallelogram. [The use of the set of axes on the next page is optional.] Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for the question to determine your answer. Note that diagrams are not necessarily drawn to scale. For the question in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Question 35 Question 35 continued Prove that quadrilateral MATH is a rectangle. [The use of the set of axes below is optional.] y x Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b2 4ac \u0004b a 2 Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn 1 \u0002 where r \u0006 a a a r n \u0004 1 1 r 1 \u0004 Radians 1 radian \u0002 degrees radian 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 GEOMETRY Printed on Recycled Paper Tear Here Tear Here Y GEOMETR",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { REGENTS_EXAMS } from '../data/regents-exams/index'
-import { SUBJECT_META } from '../data/subjects'
+import { REGENTS_EXAMS } from '@content/regents-exams/index'
+import { SUBJECT_META } from '@content/subjects'
 
 const PB_KEY = 'regents_personal_best_v1'
 function getPersonalBests() {
@@ -22,6 +22,16 @@ export default function RegentsExamPickerScreen({ onSelect, onHome, subject: ini
     byYear[e.year].push(e)
   })
   const years = Object.keys(byYear).map(Number).sort((a, b) => b - a)
+
+  // Sort exams within each year by session descending (August -> June -> January)
+  const sessionOrder = { 'August': 3, 'June': 2, 'January': 1 }
+  years.forEach((year) => {
+    byYear[year].sort((a, b) => {
+      const orderA = sessionOrder[a.session] || 0
+      const orderB = sessionOrder[b.session] || 0
+      return orderB - orderA
+    })
+  })
 
   return (
     <div className="home-screen">

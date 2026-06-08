@@ -1,0 +1,491 @@
+{
+  "subject": "algebra-1",
+  "session": "june-2015",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The cost of airing a commercial on television is modeled by the function C(n) \u0002 110n \u0003 900, where n is the number of times the commercial is aired. Based on this model, which statement is true?",
+      "choices": [
+        "The commercial costs $0 to produce and $110 per airing up to $900.",
+        "The commercial costs $110 to produce and $900 each time it is aired.",
+        "The commercial costs $900 to produce and $110 each time it is aired.",
+        "The commercial costs $1010 to produce and can air an unlimited number of times."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The graph below represents a jogger\u2019s speed during her 20-minute jog around her neighborhood. Which statement best describes what the jogger was doing during the 9\u201312 minute interval of her jog?",
+      "choices": [
+        "She was standing still.",
+        "She was increasing her speed.",
+        "She was decreasing her speed.",
+        "She was jogging at a constant rate. 20 18 14 12 10 6 4 2 2 4 6 \u0002\u0003\u0004\u0005\u0006\u0002\u0003\u0004\u0005\u0006\u0003\u0004\u0007\b 8 16 8 \u0007\b\u0005\u0005 \u0006\u0002\u0006\u0003 \u0005 \u000e\u0005\u000f\u0010\u0007\u000e 0 0 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/june-2015/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "If the area of a rectangle is expressed as x4 \u0004 9y2, then the product of the length and the width of the rectangle could be expressed as",
+      "choices": [
+        "(x \u0004 3y)(x \u0003 3y)",
+        "(x2 \u0004 3y)(x2 \u0003 3y)",
+        "(x2 \u0004 3y)(x2 \u0004 3y)",
+        "(x4 \u0003 y)(x \u0004 9y)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which table represents a function?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/june-2015/q4.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which inequality is represented in the graph below?",
+      "choices": [
+        "y \u2265\u00043x \u0003 4",
+        "y \u2264\u00043x \u0003 4",
+        "y \u2265\u00044x \u0004 3",
+        "y \u2264\u00044x \u0004 3 y \u20134 \u20133 \u20132 \u20131 0 1 2 3 4 \u20135 x 5 \u20131 \u20132 \u20133 \u20134 \u20135 1 2 3 4 5 x 0 1 \u00041 0 f(x) 0 \u00041 0 1 x 0 \u00041 0 1 f(x) 0 1 \u00041 0 x 3 5 7 9 f(x) 2 4 2 4 x 2 4 2 4 f(x) 3 5 7 9 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/june-2015/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Mo\u2019s farm stand sold a total of 165 pounds of apples and peaches. She sold apples for $1.75 per pound and peaches for $2.50 per pound. If she made $337.50, how many pounds of peaches did she sell?",
+      "choices": [
+        "11",
+        "18",
+        "65",
+        "100"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Morgan can start wrestling at age 5 in Division 1. He remains in that division until his next odd birthday when he is required to move up to the next division level. Which graph correctly represents this information? 5 7 9 11 13 15 5 4 3 2 1 Division Age 5 7 9 11 13 15 5 4 3 2 1 Division Age",
+      "choices": [
+        "",
+        "",
+        "",
+        "5 7 9 11 13 15 5 4 3 2 1 Division Age 5 7 9 11 13 15 5 4 3 2 1 Division Age Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/june-2015/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which statement is not always true?",
+      "choices": [
+        "The sum of two rational numbers is rational.",
+        "The product of two irrational numbers is rational.",
+        "The sum of a rational number and an irrational number is irrational.",
+        "The product of a nonzero rational number and an irrational number is irrational."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The graph of the function is shown below. The domain of the function is",
+      "choices": [
+        "{x|x \u0005 0}",
+        "{x|x \u22650}",
+        "{x|x \u0005 \u00044}",
+        "{x|x \u2265\u00044}"
+      ],
+      "image": "/images/exams/algebra-1/june-2015/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "What are the zeros of the function f(x) \u0002 x2 \u0004 13x \u0004 30?",
+      "choices": [
+        "\u000410 and 3",
+        "10 and \u00043",
+        "\u000415 and 2",
+        "15 and \u00042 f x x ( ) \u0002 \u0003 4 f(x) x Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Joey enlarged a 3-inch by 5-inch photograph on a copy machine. He enlarged it four times. The table below shows the area of the photograph after each enlargement. What is the average rate of change of the area from the original photograph to the fourth enlargement, to the nearest tenth?",
+      "choices": [
+        "4.3",
+        "4.5",
+        "5.4",
+        "6.0"
+      ],
+      "image": "/images/exams/algebra-1/june-2015/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which equation(s) represent the graph below? I y \u0002 (x \u0003 2)(x2 \u0004 4x \u0004 12) II y \u0002 (x \u0004 3)(x2 \u0003 x \u0004 2) III y \u0002 (x \u0004 1)(x2 \u0004 5x \u0004 6)",
+      "choices": [
+        "I, only",
+        "II, only",
+        "I and II",
+        "II and III \u0011 \u0012 \u0013 \u0014 \u0015 \u0016 \u0017 \u0017 \u0016 \u0015 \u0014 \u0013 \u0004\u0017 \u0004\u0016 \u0004\u0015 \u0004\u0014 \u0004\u0013 \u0004\u0017 \u0004\u0016 \u0004\u0015 \u0004\u0014 y x \u0018 Enlargement 0 1 2 3 4 Area (square inches) 15 18.8 23.4 29.3 36.6 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/june-2015/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A laboratory technician studied the population growth of a colony of bacteria. He recorded the number of bacteria every other day, as shown in the partial table below. Which function would accurately model the technician\u2019s data?",
+      "choices": [
+        "f(t) \u0002 25t",
+        "f(t) \u0002 25t\u00031",
+        "f(t) \u0002 25t",
+        "f(t) \u0002 25(t \u0003 1)"
+      ],
+      "image": "/images/exams/algebra-1/june-2015/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "written",
+      "text": "Which quadratic function has the largest maximum?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2015/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "If f(x) \u0002 3x and g(x) \u0002 2x \u0003 5, at which value of x is f(x) \u0006 g(x)?",
+      "choices": [
+        "\u00043 5 9 9 5 \u00043 \u0006\u0006 \u00041 0 1 2 3 4 g(x) x",
+        "",
+        "",
+        "1 \u20131 t (time, in days) 0 2 4 f(t) (bacteria) 25 15,625 9,765,625 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Beverly did a study this past spring using data she collected from a cafeteria. She recorded data weekly for ice cream sales and soda sales. Beverly found the line of best fit and the correlation coefficient, as shown in the diagram below. Given this information, which statement(s) can correctly be concluded? I. Eating more ice cream causes a person to become thirsty. II. Drinking more soda causes a person to become hungry. III. There is a strong correlation between ice cream sales and soda sales.",
+      "choices": [
+        "I, only",
+        "III, only",
+        "I and III",
+        "II and III"
+      ],
+      "image": "/images/exams/algebra-1/june-2015/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The function V(t) \u0002 1350(1.017)t represents the value V(t), in dollars, of a comic book t years after its purchase. The yearly rate of appreciation of the comic book is",
+      "choices": [
+        "17%",
+        "1.7%",
+        "1.017%",
+        "0.017% \u000e\u000f\u0005\u0006\u0010\u0011\u0005\u0012\u0004\u0006\u0013\u0012\u0011\u0014\u0006\u0007\u0015\u0016 \u0010\u0012\u0017\u0014\u0006\u0015 \u0006\u0007\u0015 \u0012\u0006\u0007\u0015\u0016 \u0013\u0005\u0018\u0005\u0011\u0016\u0019\u001a\u0014\u0006\u0010\u0012 \u0005\u001b\u0005\u0011\u0003\u0012\u0006\u0007\u001b \u0019 \u000e\u0006\u0002\u0006\u0019\u001a\u0012 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "When directed to solve a quadratic equation by completing the square, Sam arrived at the equation (x \u0004 5__ 2 ) 2 \u0002 13 __ 4 . Which equation could have been the original equation given to Sam?",
+      "choices": [
+        "x2 \u0003 5x \u0003 7 \u0002 0",
+        "x2 \u0003 5x \u0003 3 \u0002 0",
+        "x2 \u0004 5x \u0003 7 \u0002 0",
+        "x2 \u0004 5x \u0003 3 \u0002 0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The distance a free falling object has traveled can be modeled by the equation d \u0002 1__ 2 at2, where a is acceleration due to gravity and t is the amount of time the object has fallen. What is t in terms of a and d?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/june-2015/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The table below shows the annual salaries for the 24 members of a professional sports team in terms of millions of dollars. The team signs an additional player to a contract worth 10 million dollars per year. Which statement about the median and mean is true?",
+      "choices": [
+        "Both will increase.",
+        "Only the median will increase.",
+        "Only the mean will increase.",
+        "Neither will change. 0.5 0.5 0.6 0.7 0.75 0.8 1.0 1.0 1.1 1.25 1.3 1.4 1.4 1.8 2.5 3.7 3.8 4 4.2 4.6 5.1 6 6.3 7.2 t d a \u0002 2 2 ( ) t d a \u0002 2 t da d \u0002 ( ) 2 t da \u0002 2 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/june-2015/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A student is asked to solve the equation 4(3x \u0004 1)2 \u0004 17 \u0002 83. The student\u2019s solution to the problem starts as 4(3x \u0004 1)2 \u0002 100 (3x \u0004 1)2 \u0002 25 A correct next step in the solution of the problem is",
+      "choices": [
+        "3x \u0004 1 \u0002 \u00075",
+        "3x \u0004 1 \u0002 \u000725",
+        "9x2 \u0004 1 \u0002 25",
+        "9x2 \u0004 6x \u0003 1\u0002 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A pattern of blocks is shown below. If the pattern of blocks continues, which formula(s) could be used to determine the number of blocks in the nth term?",
+      "choices": [
+        "I and II",
+        "I and III",
+        "II and III",
+        "III, only Term 1 Term 2 Term 3 Term 4 I II III an \u0002 n \u0003 4 a1 \u0002 2 an \u0002 an \u0004 1 \u0003 4 an \u0002 4n \u0004 2 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/june-2015/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "What are the solutions to the equation x2 \u0004 8x \u0002 24?",
+      "choices": [
+        "x \u0002 4 \u0007 2\u0002\u0003\u0003 10",
+        "x \u0002 \u00044 \u0007 2\u0002\u0003\u0003 10",
+        "x \u0002 4 \u0007 2\u0002\u0003\u00032",
+        "x \u0002 \u00044 \u0007 2\u0002\u0003\u00032"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Natasha is planning a school celebration and wants to have live music and food for everyone who attends. She has found a band that will charge her $750 and a caterer who will provide snacks and drinks for $2.25 per person. If her goal is to keep the average cost per person between $2.75 and $3.25, how many people, p, must attend?",
+      "choices": [
+        "225 \u0006 p \u0006 325",
+        "325 \u0006 p \u0006 750",
+        "500 \u0006 p \u0006 1000",
+        "750 \u0006 p \u0006 1500 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Graph the function y \u0002 |x \u0004 3| on the set of axes below. Explain how the graph of y \u0002 |x \u0004 3| has changed from the related graph y \u0002 |x|. y x Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2015/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Alex is selling tickets to a school play. An adult ticket costs $6.50 and a student ticket costs $4.00. Alex sells x adult tickets and 12 student tickets. Write a function, f(x), to represent how much money Alex collected from selling tickets. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "John and Sarah are each saving money for a car. The total amount of money John will save is given by the function f(x) \u0002 60 \u0003 5x. The total amount of money Sarah will save is given by the function g(x) \u0002 x2 \u0003 46. After how many weeks, x, will they have the same amount of money saved? Explain how you arrived at your answer. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "If the difference (3x2 \u0004 2x \u0003 5) \u0004 (x2 \u0003 3x \u0004 2) is multiplied by 1__ 2 x2, what is the result, written in standard form? Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Dylan invested $600 in a savings account at a 1.6% annual interest rate. He made no deposits or withdrawals on the account for 2 years. The interest was compounded annually. Find, to the nearest cent, the balance in the account after 2 years. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Determine the smallest integer that makes \u00043x \u0003 7 \u0004 5x \u0006 15 true. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "The residual plots from two different sets of bivariate data are graphed below. Explain, using evidence from graph A and graph B, which graph indicates that the model for the data is a good fit. \u0011\u0012\b \u0006\u0013 \u0011\u0012\b \u0006 0.6 0.4 0.2 0 \u00040.2 \u00040.4 \u00040.6 5 4 3 2 1 0 \u00041 \u00042 \u00043 2 4 6 8 10 12 2 4 6 8 10 12 Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2015/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "A landscaper is creating a rectangular flower bed such that the width is half of the length. The area of the flower bed is 34 square feet. Write and solve an equation to determine the width of the flower bed, to the nearest tenth of a foot. Algebra I (Common Core) Algebra I (Common Core) Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Albert says that the two systems of equations shown below have the same solutions. Determine and state whether you agree with Albert. Justify your answer. First System Second System 8x \u0003 9y \u0002 48 12x \u0003 5y \u0002 21 8x \u0003 9y \u0002 48 \u00048.5y \u0002 \u000451",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2015/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The equation to determine the weekly earnings of an employee at The Hamburger Shack is given by w(x), where x is the number of hours worked. w(x) \u0002 { 10x, 0 \u2264x \u226440 15(x \u0004 40) \u0003 400, x \u0005 40 Determine the difference in salary, in dollars, for an employee who works 52 hours versus one who works 38 hours. Determine the number of hours an employee must work in order to earn $445. Explain how you arrived at this answer. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "An on-line electronics store must sell at least $2500 worth of printers and computers per day. Each printer costs $50 and each computer costs $500. The store can ship a maximum of 15 items per day. On the set of axes below, graph a system of inequalities that models these constraints. Determine a combination of printers and computers that would allow the electronics store to meet all of the constraints. Explain how you obtained your answer. ! \u0004\"\u0005\u0011\u0006\u0015 \u0006#\u0011\u0003\u0017\u001b\u0005\u0011\u0014 ! \u0004\"\u0005\u0011\u0006\u0015 \u0006\u0010\u0015\u0004\b \u001b\u0005\u0011\u0014 Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2015/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "An application developer released a new app to be downloaded. The table below gives the number of downloads for the first four weeks after the launch of the app. Write an exponential equation that models these data. Use this model to predict how many downloads the developer would expect in the 26th week if this trend continues. Round your answer to the nearest download. Would it be reasonable to use this model to predict the number of downloads past one year? Explain your reasoning. Number of Weeks 1 2 3 4 Number of Downloads 120 180 270 405 Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2015/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "A football player attempts to kick a football over a goal post. The path of the football can be modeled by the function h(x) \u0002 \u0004 1 ___ 225 x2 \u0003 2__ 3 x, where x is the horizontal distance from the kick, and h(x) is the height of the football above the ground, when both are measured in feet. On the set of axes below, graph the function y \u0002 h(x) over the interval 0 \u2264x \u2264150. Determine the vertex of y \u0002 h(x). Interpret the meaning of this vertex in the context of the problem. The goal post is 10 feet high and 45 yards away from the kick. Will the ball be high enough to pass over the goal post? Justify your answer. y x Algebra I (Common Core) Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be written in pencil. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Algebra I (Common Core) Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here ALGEBRA I (COMMON CORE) ALGEBRA I (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2015/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

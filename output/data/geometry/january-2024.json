@@ -1,0 +1,476 @@
+{
+  "subject": "geometry",
+  "session": "january-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which expression is equal to sin 30\u00b0?",
+      "choices": [
+        "tan 30\u00b0",
+        "sin 60\u00b0",
+        "cos 60\u00b0",
+        "cos 30\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "In the diagram of nSRA below, ___ KP is drawn such that /SKP > /SRA. A R K P S If SK 5 10, SP 5 8, and PA 5 6, what is the length of ___ KR, to the nearest tenth?",
+      "choices": [
+        "4.8",
+        "7.5",
+        "8.0",
+        "13.3"
+      ],
+      "image": "/images/exams/geometry/january-2024/q2.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "A rectangle is graphed on the set of axes below. y x A reflection over which line would carry the rectangle onto itself?",
+      "choices": [
+        "y 5 2",
+        "y 5 10",
+        "y 5 1__ 2 x 2 3",
+        "y 5 2 1__ 2 x 1 7"
+      ],
+      "image": "/images/exams/geometry/january-2024/q3.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The surface of the roof of a house is modeled by two congruent rectangles with dimensions 40 feet by 16 feet, as shown below. 16 16 40 40 Roofing shingles are sold in bundles. Each bundle covers 33 1__ 3 square feet. What is the minimum number of bundles that must be purchased to completely cover both rectangular sides of the roof?",
+      "choices": [
+        "20",
+        "2",
+        "39",
+        "4"
+      ],
+      "image": "/images/exams/geometry/january-2024/q4.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which equation represents a line that is perpendicular to the line whose equation is y 2 3x 5 4?",
+      "choices": [
+        "y 5 2 1__ 3 x 2 4",
+        "y 5 1__ 3 x 1 4",
+        "y 5 23x 1 4",
+        "y 5 3x 2 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A vertical mine shaft is modeled in the diagram below. At a point on the ground 50 feet from the top of the mine, a ventilation tunnel is dug at an angle of 47\u00b0. Tunnel Mine 50 ft 47\u00b0 What is the length of the tunnel, to the nearest foot?",
+      "choices": [
+        "47",
+        "54",
+        "68",
+        "73"
+      ],
+      "image": "/images/exams/geometry/january-2024/q6.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, nBLU has vertices with coordinates B(23,22), L(22,5), and U(1,1). y x U L B What is the area of nBLU?",
+      "choices": [
+        "11",
+        "12.5",
+        "14",
+        "17.1"
+      ],
+      "image": "/images/exams/geometry/january-2024/q7.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "In the diagram below, nCAR is mapped onto nBUS after a sequence of rigid motions. C A R U B S If AR 5 3x 1 4, RC 5 5x 2 10, CA 5 2x 1 6, and SB 5 4x 2 4, what is the length of SB ___ ?",
+      "choices": [
+        "6",
+        "16",
+        "20",
+        "28"
+      ],
+      "image": "/images/exams/geometry/january-2024/q8.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "In the diagram below, nGHJ is dilated by a scale factor of 1__ 2 centered at point B to map onto nCDF. H G J D C F B If m/DFC 5 40\u00b0, what is m/HJG?",
+      "choices": [
+        "20\u00b0",
+        "40\u00b0",
+        "60\u00b0",
+        "80\u00b0"
+      ],
+      "image": "/images/exams/geometry/january-2024/q9.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Directed line segment AJ has endpoints whose coordinates are A(5,7) and J(210,28). Point E is on __ AJ such that AE:EJ is 2:3. What are the coordinates of point E?",
+      "choices": [
+        "(1,21)",
+        "(25,23)",
+        "(24,22)",
+        "(21,1)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A tipping platform is a ramp used to unload trucks, as shown in the diagram below. Tipping angle x The truck is on a 75-foot-long ramp. The ramp is tipped at an angle of 30\u00b0. What is the height of the upper end of the ramp, x, to the nearest tenth of a foot?",
+      "choices": [
+        "68.7",
+        "65.0",
+        "43.3",
+        "37.5"
+      ],
+      "image": "/images/exams/geometry/january-2024/q11.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "In the diagram below of right triangle MET, altitude ___ ES is drawn to hypotenuse ___ MT. E M T S If ME 5 6 and SM 5 4, what is MT?",
+      "choices": [
+        "9",
+        "8",
+        "5",
+        "4"
+      ],
+      "image": "/images/exams/geometry/january-2024/q12.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "In the diagram below of square CASH, diagonals ___ AH and ___ CS intersect at Z. S H A C Z Which statement is true?",
+      "choices": [
+        "m/ACZ . m/ZCH",
+        "m/ACZ , m/ASZ",
+        "m/AZC 5 m/SHC",
+        "m/AZC 5 m/"
+      ],
+      "image": "/images/exams/geometry/january-2024/q13.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "In the diagram below of circle O, secants ____ CFD and ____ CHE are drawn from external point C. C D E H O F If m DE 5 136\u00b0 and m/C 5 44\u00b0, then m FH is",
+      "choices": [
+        "46\u00b0",
+        "48\u00b0",
+        "68\u00b0",
+        "88\u00b0"
+      ],
+      "image": "/images/exams/geometry/january-2024/q14.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "A right circular cylinder has a diameter of 8 inches and a height of 12 inches. Which two-dimensional figure shows a cross section that is perpendicular to the base and passes through the center of the base? 4 4 12 12 8 8",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/geometry/january-2024/q15.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, AB is drawn and passes through A(22,6) and B(4,0). y x A B If CD is the image of AB after a dilation with a scale factor of 1__ 2 centered at the origin, which equation represents CD?",
+      "choices": [
+        "y 5 2x 1 4",
+        "y 5 2x 1 2",
+        "y 5 2 1__ 2 x 1 4",
+        "y 5 2 1__ 2 x 1 2"
+      ],
+      "image": "/images/exams/geometry/january-2024/q16.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "In parallelogram ABCD with ___ AC ^ ___ BD, AC 5 12 and BD 5 16. What is the perimeter of ABCD?",
+      "choices": [
+        "10",
+        "24",
+        "40",
+        "56"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "In the diagram of nCAT below, m/A 5 90\u00b0 and altitude ___ AE is drawn from vertex A. A E C T Which statement is always true?",
+      "choices": [
+        "CE ___ AE 5 AE ___ ET",
+        "AE ___ CE 5 AE ___ ET",
+        "AC ___ CE 5 AT ___ ET",
+        "CE ___ AC 5 AC ___ ET"
+      ],
+      "image": "/images/exams/geometry/january-2024/q18.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "A sandbox in the shape of a rectangular prism has a length of 43 inches and a width of 30 inches. Jack uses bags of sand to fill the sandbox to a depth of 9 inches. Each bag of sand has a volume of 0.5 cubic foot. What is the minimum number of bags of sand that must be purchased to fill the sandbox?",
+      "choices": [
+        "14",
+        "13",
+        "7",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Parallelogram EATK has diagonals ET ___ and ___ AK. Which information is always sufficient to prove EATK is a rhombus?",
+      "choices": [
+        "___ EA ^ AT ___",
+        "___ EA > AT ___",
+        "___ ET > AK ___",
+        "___ ___ ET > AT ___"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "In the diagram below, ABCD || EHK, and MBHP and NCHL are drawn such that ___ BC > ___ BH. A E B C D K H L P M N If m/NCD 5 62\u00b0, what is m/PHK?",
+      "choices": [
+        "118\u00b0",
+        "68\u00b0",
+        "62\u00b0",
+        "56\u00b0"
+      ],
+      "image": "/images/exams/geometry/january-2024/q21.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Triangles YEG and POM are two distinct non-right triangles such that /G > /M. Which statement is sufficient to prove nYEG is always congruent to nPOM?",
+      "choices": [
+        "/E > /O and /Y > /P",
+        "YG ___ > PM ___ and YE ___ > PO ___",
+        "There is a sequence of rigid motions that maps /E onto /O and YE ___ onto PO ___ .",
+        "There is a sequence of rigid motions that maps point Y onto point P and YG ___ onto PM ___"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "In the diagram of triangles ABD and CBE below, sides AD ___ and CE ___ intersect at F, and /ADB > /CEB. B D C E A F Which statement can not be proven?",
+      "choices": [
+        "nADB > nCEB",
+        "/EAF > /DCF",
+        "nADB | nCEB",
+        "nEAF | nDCF"
+      ],
+      "image": "/images/exams/geometry/january-2024/q23.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A small town is installing a water storage tank in the shape of a cylinder. The tank must be able to hold at least 100,000 gallons of water. The tank must have a height of exactly 30 feet. [1 cubic foot holds 7.48 gallons of water] What should the minimum diameter of the tank be, to the nearest foot?",
+      "choices": [
+        "12",
+        "24",
+        "65",
+        "75 Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "In isosceles triangle ABC shown below, ___ AB > ___ AC, and altitude ___ AD is drawn. B A D C The length of ___ AD is 12 cm and the length of ___ BC is 10 cm. Determine and state, to the nearest cubic centimeter, the volume of the solid formed by continuously rotating nABC about ___",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2024/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "The diagram below models the projection of light from a lighthouse, L. The sector has a radius of 38 miles and spans 102\u00b0. L 102\u00b0 38 miles Determine and state the area of the sector,",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2024/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Segment CA is drawn below. Using a compass and straightedge, construct isosceles right triangle CAT where ___ CA ^ CT ___ and ___ CA > CT ___ . [Leave all construction marks.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "On the set of axes below,",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2024/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "In nADC below, EB ___ is drawn such that AB 5 4.1, AE 5 5.6, BC 5 8.22, and ED 5 3.42. D C A B E 3.42 5.6 4.1 8.22 Is nABE similar to nADC?",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2024/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Determine and state the coordinates of the center and the length of the radius of the circle represented by the equation x2 1 16x 1 y2 1 12y 2 44 5 0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "In the diagram below, nSBC | nCMJ and cos J 5 3__ 5 . S B C M J Determine and state m/S, Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2024/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Trish is a surveyor who was asked to estimate the distance across a pond. She stands at point C, 85 meters from point D, and locates points A and B on either side of the pond such that A, D, and B are collinear. A C B D 85 m Trish approximates the measure of angle DCB to be 35\u00b0 and the measure of angle ACD to be 75\u00b0. Determine and state the distance across the pond, AB ___ ,",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2024/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "A candle in the shape of a right pyramid is modeled below. Each side of the square base measures 12 centimeters. The slant height of the pyramid measures 16 centimeters. 12 cm 16 cm Determine and state the volume of the candle, to the nearest cubic centimeter. The wax used to make the candle weighs 0.032 ounce per cubic centimeter. Determine and state the weight of the candle,",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2024/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "In the diagram of quadrilateral ABCD below, ___ AB > CD ___ , and ___ AB || CD ___ . Segments CE and AF are drawn to diagonal ___ BD such that ___ BE > DF ___ . E D A B C F Prove: ___ CE > AF ___ Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/january-2024/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Quadrilateral MATH has vertices with coordinates M(21,7), A(3,5), T(2,27), and H(26,23). Prove that quadrilateral MATH is a trapezoid. [The use of the set of axes on the next page is optional.] State the coordinates of point Y such that point A is the midpoint of MY ___ . Question 35 is continued on the next page. Prove that quadrilateral MYTH is a rectangle. [The use of the set of axes below is optional.] Question 35 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-2",
+  "session": "june-2019",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "A sociologist reviews randomly selected surveillance videos from a public park over a period of several years and records the amount of time people spent on a smartphone. The statistical procedure the sociologist used is called",
+      "choices": [
+        "a census",
+        "an experiment",
+        "an observational study",
+        "a sample survey"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which statement(s) are true for all real numbers? I (x \u0002 y)2 \u0003 x2 \u0004 y2 II (x \u0004 y)3 \u0003 x3 \u0004 3xy \u0004 y3",
+      "choices": [
+        "I, only",
+        "II, only",
+        "I and II",
+        "neither I nor II"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "What is the solution set of the following system of equations? y \u0003 3x \u0004 6 y \u0003 (x \u0004 4)2 \u0002 10",
+      "choices": [
+        "{(\u00025,\u00029)}",
+        "{(5,21)}",
+        "{(0,6),(\u00025,\u00029)}",
+        "{(0,6),(5,21)}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Irma initially ran one mile in over ten minutes. She then began a training program to reduce her one-mile time. She recorded her one-mile time once a week for twelve consecutive weeks, as modeled in the graph below. Which statement regarding Irma\u2019s one-mile training program is correct?",
+      "choices": [
+        "Her one-mile speed increased as the number of weeks increased.",
+        "Her one-mile speed decreased as the number of weeks increased.",
+        "If the trend continues, she will run under a six-minute mile by week thirteen.",
+        "She reduced her one-mile time the most between weeks ten and twelve."
+      ],
+      "image": "/images/exams/algebra-2/june-2019/q4.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "A 7-year lease for office space states that the annual rent is $85,000 for the first year and will increase by 6% each additional year of the lease. What will the total rent expense be for the entire 7-year lease?",
+      "choices": [
+        "$42,809.63",
+        "$90,425.53",
+        "$595,000.00",
+        "$713,476.20 5 5 Number of Weeks One-Mile Time (in minutes)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The graph of y \u0003 f(x) is shown below. Which expression defines f(x)?",
+      "choices": [
+        "2x",
+        "5(2x)",
+        "5(2 )",
+        "5(22x)"
+      ],
+      "image": "/images/exams/algebra-2/june-2019/q6.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Given P(x) \u0003 x3 \u0002 3x2 \u0002 2x \u0004 4, which statement is true?",
+      "choices": [
+        "\u0003 0.",
+        "(x \u0004 1) is a factor because P(\u00021) \u0003 2.",
+        "(x \u0004 1) is a factor because P",
+        "(x \u0002 1) is a factor because P"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "For x \u0005 0, which equation is false?",
+      "choices": [
+        "(x ) 2 \u0003 4\u0002\u0003\u0003 x3",
+        "(x3) \u0003 4\u0002\u0003\u0003 x3",
+        "(x ) \u0003 4\u0002\u0003\u0003 x3",
+        "(x ) 2 \u0003 3\u0002\u0003\u0003 x4 (6,40) (4,20) (2,10) x y 10 \u00022 1 8 x__ 2 1___ 2 3__ 2 3__ 2 2__ 3 1___ 4"
+      ],
+      "image": "/images/exams/algebra-2/june-2019/q8.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "What is the inverse of the function y \u0003 4x \u0004 5?",
+      "choices": [
+        "x \u0003 1__ 4 y \u0002 5__ 4",
+        "y \u0003 1__ 4 x \u0002 5__ 4",
+        "y \u0003 4x \u0002 5",
+        "y \u0003 1 ______ 4x \u0004 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which situation could be modeled using a geometric sequence?",
+      "choices": [
+        "A cell phone company charges $30.00 per month for 2 gigabytes of data and $12.50 for each additional gigabyte of data.",
+        "The temperature in your car is 79\u00b0. You lower the temperature of your air conditioning by 2\u00b0 every 3 minutes in order to find a comfortable temperature.",
+        "David\u2019s parents have set a limit of 50 minutes per week that he may play online games during the school year. However, they will increase his time by 5% per week for the next ten weeks.",
+        "Sarah has $100.00 in her piggy bank and saves an additional $15.00 each week."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The completely factored form of n4 \u0002 9n2 \u0004 4n3 \u0002 36n \u0002 12n2 \u0004 108 is",
+      "choices": [
+        "(n2 \u0002 9)(n \u0004 6)(n \u0002 2)",
+        "(n \u0004 3)(n \u0002 3)(n \u0004 6)(n \u0002 2)",
+        "(n \u0002 3)(n \u0002 3)(n \u0004 6)(n \u0002 2)",
+        "(n \u0004 3)(n \u0002 3)(n \u0002 6)(n \u0004 2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "What is the solution when the equation wx2 \u0004 w \u0003 0 is solved for x, where w is a positive integer?",
+      "choices": [
+        "\u00021",
+        "0",
+        "6",
+        "\u0006"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A group of students was trying to determine the proportion of candies in a bag that are blue. The company claims that 24% of candies in bags are blue. A simulation was run 100 times with a sample size of 50, based on the premise that 24% of the candies are blue. The approximately normal results of the simulation are shown in the dot plot below. 0.10 0 10 20 0.20 0.30 Frequency Proportion 0.40 The simulation results in a mean of 0.254 and a standard deviation of 0.060. Based on this simulation, what is a plausible interval containing the middle 95% of the data?",
+      "choices": [
+        "(0.194, 0.314)",
+        "(0.134, 0.374)",
+        "(\u00020.448, 0.568)",
+        "(0.254, 0.374)"
+      ],
+      "image": "/images/exams/algebra-2/june-2019/q13.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Selected values for the functions f and g are shown in the tables below. A solution to the equation f(x) \u0003 g(x) is",
+      "choices": [
+        "0",
+        "2.53",
+        "3.01",
+        "8.52"
+      ],
+      "image": "/images/exams/algebra-2/june-2019/q14.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The expression 6 \u0002 (3x \u0002 2i)2 is equivalent to",
+      "choices": [
+        "\u00029x2 \u0004 12xi \u0004 10",
+        "9x2 \u0002 12xi \u0004 2",
+        "\u00029x2 \u0004 10",
+        "\u00029x2 \u0004 12xi \u0002 4i\u0004 6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A number, minus twenty times its reciprocal, equals eight. The number is",
+      "choices": [
+        "10 or \u00022",
+        "10 or 2",
+        "\u000210 or \u00022",
+        "\u000210 or 2 x f(x) \u22123.12 \u22124.88 0 \u22126 1.23 \u22124.77 8.52 2.53 9.01 3.01 x g(x) \u22122.01 \u22121.01 0 0.58 8.52 2.53 13.11 3.01 16.52 3.29"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A savings account, S, has an initial value of $50. The account grows at a 2% interest rate compounded n times per year, t, according to the function below. S(t) \u0003 50(1 \u0004 .02 ___ n ) nt Which statement about the account is correct?",
+      "choices": [
+        "As the value of n increases, the amount of interest per year decreases.",
+        "As the value of n increases, the value of the account approaches the function S(t) \u0003 50e0.02t.",
+        "As the value of n decreases to one, the amount of interest per year increases.",
+        "As the value of n decreases to one, the value of the account approaches the function S(t) \u0003 50(1 \u0002 0.02)t."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "There are 400 students in the senior class at Oak Creek High School. All of these students took the SAT. The distribution of their SAT scores is approximately normal. The number of students who scored within 2 standard deviations of the mean is approximately",
+      "choices": [
+        "75",
+        "95",
+        "300",
+        "380"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The solution set for the equation b \u0003 \u0002\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003 2b2 \u0002 64 is",
+      "choices": [
+        "{\u00028}",
+        "{8}",
+        "{\u00068}",
+        "{ }"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which table best represents an exponential relationship?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/june-2019/q20.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A sketch of r(x) is shown below. An equation for r(x) could be",
+      "choices": [
+        "r(x) \u0003 (x \u0002 a)(x \u0004 b)(x \u0004 c)",
+        "r(x) \u0003 (x \u0004 a)(x \u0002 b)(x \u0002 c)2",
+        "r(x) \u0003 (x \u0004 a)(x \u0002 b)(x \u0002 c)",
+        "r(x) \u0003 (x \u0002 a)(x \u0004 b)(x \u0004 c)2 x y 8 0 4 1 0 2 \u22124 3 \u22128 4 x y 0 0 1 1 2 4 3 9 4 16 x y 1 1 2 8 3 27 4 64 5 125 r(x) a \u2013 b \u2013 c x x y 1 8 2 4 3 2 4 1 5 1__ 2"
+      ],
+      "image": "/images/exams/algebra-2/june-2019/q21.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The temperature, in degrees Fahrenheit, in Times Square during a day in August can be predicted by the function T(x) \u0003 8sin(0.3x \u0002 3) \u0004 74, where x is the number of hours after midnight. According to this model, the predicted temperature, to the nearest degree Fahrenheit, at 7 P.M. is",
+      "choices": [
+        "68",
+        "74",
+        "77",
+        "81"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Consider the system of equations below: x \u0004 y \u0002 z \u0003 6 2x \u0002 3y \u0004 2z \u0003 \u000219 \u0002x \u0004 4y \u0002 z \u0003 17 Which number is not the value of any variable in the solution of the system?",
+      "choices": [
+        "\u00021",
+        "2",
+        "3",
+        "\u00024"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Camryn puts $400 into a savings account that earns 6% annually. The amount in her account can be modeled by C(t) \u0003 400(1.06)t where t is the time in years. Which expression best approximates the amount of money in her account using a weekly growth rate?",
+      "choices": [
+        "400(1.001153846)t",
+        "400(1.001121184)t",
+        "400(1.001153846)52t",
+        "400(1.001121184)52 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/algebra-2/june-2019/q24.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "The table below shows the number of hours of daylight on the first day of each month in Rochester, NY. Given the data, what is the average rate of change in hours of daylight per month from January 1st to April 1st? Interpret what this means in the context of the problem. Month Hours of Daylight Jan. 9.4 Feb. 10.6 March 11.9 April 13.9 May 14.7 June 15.4 July 15.1 Aug. 13.9 Sept. 12.5 Oct. 11.1 Nov. 9.7 Dec. 9.0",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2019/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Algebraically solve for x: 7 ___ 2x \u0002 2 _____ x \u0004 1 \u0003 1__ 4",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Graph f(x) \u0003 log2(x \u0004 6) on the set of axes below. f(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2019/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Given tan \u0007 \u0003 7 ___ 24, and \u0007 terminates in Quadrant III, determine the value of cos \u0007.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Kenzie believes that for x \u0005 0, the expression ( 7\u0002\u0003\u0003 x2 )( 5\u0002\u0003\u0003 x3 ) is equivalent to 35\u0002\u0003\u0003 x6 . Is she correct? Justify your response algebraically.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "When the function p(x) is divided by x \u0002 1 the quotient is x2 \u0004 7 \u0004 5 _____ x \u0002 1 . State p(x)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Write a recursive formula for the sequence 6, 9, 13.5, 20.25,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Robin flips a coin 100 times. It lands heads up 43 times, and she wonders if the coin is unfair. She runs a computer simulation of 750 samples of 100 fair coin flips. The output of the proportion of heads is shown below. Do the results of the simulation provide strong evidence that Robin\u2019s coin is unfair? Explain your answer. Mean \u0003 0.499 SD \u0003 0.049 0 20 40 60 0.32 0.36 0.40 0.44 0.48 0.52 0.56 0.60 0.64 Proportion of Heads Frequency",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2019/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Factor completely over the set of integers: 16x4 \u0002 81 Sara graphed the polynomial y \u0003 16x4 \u0002 81 and stated \u201cAll the roots of y \u0003 16x4 \u0002 81 are real.\u201d Is Sara correct? Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The half-life of a radioactive substance is 15 years. Write an equation that can be used to determine the amount, s(t), of 200 grams of this substance that remains after t years. Determine algebraically, to the nearest year, how long it will take for 1__ 10",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Determine an equation for the parabola with focus (4, \u00021) and directrix y \u0003 \u00025. (Use of the grid below is optional.)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2019/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Juan and Filipe practice at the driving range before playing golf. The number of wins and corresponding practice times for each player are shown in the table below. Given that the practice time was long, determine the exact probability that Filipe wins the next match. Determine whether or not the two events \u201cFilipe wins\u201d and \u201clong practice time\u201d are independent. Justify your answer. Juan Wins Filipe Wins Short Practice Time 8 10 Long Practice Time 15 12",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2019/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Griffin is riding his bike down the street in Churchville, N.Y. at a constant speed, when a nail gets caught in one of his tires. The height of the nail above the ground, in inches, can be represented by the trigonometric function f(t) \u0003 \u000213cos(0.8\u03c0t) \u0004 13, where t represents the time (in seconds) since the nail first became caught in the tire. Determine the period of f(t). Interpret what the period represents in this context. Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Question 37 Question 37 continued On the grid below, graph at least one cycle of f(t) that includes the y-intercept of the function. Does the height of the nail ever reach 30 inches above the ground? Justify your answer. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0003 2.54 centimeters 1 kilometer \u0003 0.62 mile 1 cup \u0003 8 fluid ounces 1 meter \u0003 39.37 inches 1 pound \u0003 16 ounces 1 pint \u0003 2 cups 1 mile \u0003 5280 feet 1 pound \u0003 0.454 kilogram 1 quart \u0003 2 pints 1 mile \u0003 1760 yards 1 kilogram \u0003 2.2 pounds 1 gallon \u0003 4 quarts 1 mile \u0003 1.609 kilometers 1 ton \u0003 2000 pounds 1 gallon \u0003 3.785 liters 1 liter \u0003 0.264 gallon 1 liter \u0003 1000 cubic centimeters Triangle A \u0003 bh 1 2 Parallelogram A \u0003 bh Circle A \u0003 \u03c0r2 Circle C \u0003 \u03c0d or C \u0003 2\u03c0r General Prisms V \u0003 Bh Cylinder V \u0003 \u03c0r2h Sphere V \u0003 \u03c0r3 4 3 Cone V \u0003 \u03c0r2h 1 3 Pyramid V \u0003 Bh 1 3 Pythagorean Theorem a2 \u0004 b2 \u0003 c2 Quadratic Formula x \u0003 \u0002 \u0006 \u0002 b a b2 2 4ac Arithmetic Sequence an \u0003 a1 \u0004 (n \u0002 1)d Geometric Sequence an \u0003 a1r n \u0002 1 Geometric Series Sn \u0003 where r \b 1 a a r r n 1 1 1 \u0002 \u0002 Radians 1 radian \u0003 degrees 180 \u03c0 Degrees 1 degree \u0003 radians \u03c0 180 Exponential Growth/Decay A \u0003 A0ek(t \u0002 t0) \u0004 B0 Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2019/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

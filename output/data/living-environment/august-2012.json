@@ -1,0 +1,1051 @@
+{
+  "subject": "living-environment",
+  "session": "august-2012",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The cell represented below produces oxygen. Which structure allows the passage of this oxygen to the environment?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/august-2012/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a cell and several molecules. The number of molecules shown represents the relative concentration of the molecules inside and outside of the cell. Molecule B could enter the cell as a direct result of",
+      "choices": [
+        "digestion",
+        "diffusion",
+        "active transport",
+        "enzyme production"
+      ],
+      "image": "/images/exams/living-environment/august-2012/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which two terms are considered to be opposite processes?",
+      "choices": [
+        "photosynthesis and autotrophic nutrition",
+        "cloning and mitosis",
+        "digestion and synthesis",
+        "dynamic equilibrium and homeostasis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which statement concerning cell communication is correct?",
+      "choices": [
+        "DNA codes for certain molecules that become cell receptors involved in cell communication.",
+        "Cells produce ATP molecules, which become cell receptors for communication.",
+        "Cells build new cell parts, which function as communication genes.",
+        "Certain proteins use cell communication to build new cell parts made of DNA."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "A towel placed on a lawn for a length of time can cause the grass beneath it to lose its green color. The most probable explanation for this is that darkness",
+      "choices": [
+        "affects the expression of certain genes in the grass",
+        "causes a mutation in the plants",
+        "affects the structure of cell membranes in the grass",
+        "causes plants to switch to heterotrophic nutrition"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which sequence correctly represents the arrangement of structures containing genetic material, from the largest to the smallest size?",
+      "choices": [
+        "chromosome \u2192gene \u2192nucleus",
+        "nucleus \u2192chromosome \u2192gene",
+        "gene \u2192chromosome \u2192nucleus",
+        "gene \u2192nucleus \u2192chromosome"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The DNA of a fly and the DNA of a gorilla are made up of subunits that are",
+      "choices": [
+        "arranged in the same order in both species",
+        "arranged in chains of the same length in both species",
+        "different bases in each of the two species",
+        "in different sequences in each of the two species Key Molecule A Molecule B Molecule C Cell A B C D"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The diagram below represents one process that might occur in cells. Which process is represented in the diagram?",
+      "choices": [
+        "cell reproduction",
+        "meiosis",
+        "mutation",
+        "gene replication"
+      ],
+      "image": "/images/exams/living-environment/august-2012/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The way a protein molecule is folded determines the shape of the molecule, which determines the",
+      "choices": [
+        "function of that protein",
+        "structure of ATP containing that protein",
+        "type of simple sugars in that protein",
+        "amino acids in that protein"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "In order for a species to evolve, it must be able to",
+      "choices": [
+        "consume a large quantity of food",
+        "reproduce successfully",
+        "maintain a constant body temperature",
+        "be domesticated"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Domestic horses have a greater diversity of coat colors than that of wild horses. The process that led to a greater diversity of coat colors in domes- tic horses is",
+      "choices": [
+        "selective breeding",
+        "random mutation",
+        "gene alteration",
+        "natural selection"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A population of white moths lives in a forest near a factory. This factory burns coal and pollutes the air with black dust. Over time, this dust has settled on the trees in the area, making them darker in color. This could result in",
+      "choices": [
+        "an increase in the white moth population",
+        "a decrease in the white moth population",
+        "an increase in the number of trees in the area",
+        "a decrease in the air pollution affecting the area"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The crucian carp, a Scandinavian fish, thrives in shallow ponds that freeze over during winter. While other creatures in the pond die from lack of oxygen, these carp are able to obtain energy through a biochemical pathway that does not require oxygen. This characteristic is an example of a",
+      "choices": [
+        "feedback mechanism common to carnivores that inhabit shallow pond ecosystems",
+        "favorable adaptive trait that has led to increased survival",
+        "stage of succession that leads to a new community",
+        "gene mutation that occurred because carp need to survive to maintain ecological stability"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Examination of ancient rock layers at a certain location reveals many different fossils. Which conclusion can be drawn concerning the species that formed these fossils?",
+      "choices": [
+        "Only the predators are still present.",
+        "Many of them are now extinct.",
+        "They produced offspring that were all genetically identical.",
+        "They had no variations due to mutations."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Breathing rate is constantly being monitored and adjusted in the human body, which results in",
+      "choices": [
+        "the differentiation of mature body cells",
+        "feedback mechanisms removing damaged cells",
+        "modification of gene activity in cells",
+        "the internal environment being kept within certain limits"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Modern technology could be used to clone pet dogs and cats. The cloned animals would resemble the original pets because",
+      "choices": [
+        "the genes of the new animals are different from those of the original pets",
+        "half of the genetic information of the new animals is the same as that of the original pets",
+        "the new animals have mutations not found in the original pets",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The colors and scents of plants attract helpful insects and repel insects that feed on them. The production of the proteins that provide these colors and scents is the direct result of the",
+      "choices": [
+        "behavior learned from parent plants",
+        "presence of specific genes",
+        "the genetic makeup of the surrounding vegetation",
+        "inability of plants to move as animals do"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which situation would be part of the normal reproductive cycle of a human?",
+      "choices": [
+        "the presence of testosterone regulating gamete production in a male",
+        "estrogen in concentrations that would produce sperm in a female",
+        "a high progesterone level in a male",
+        "a low insulin level in either a male or a female"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "What is the primary source of energy for all the organisms in the ecosystem represented below?",
+      "choices": [
+        "photosynthesis in the producers",
+        "respiration in the heterotrophs",
+        "light energy from the Sun",
+        "minerals from the rocks"
+      ],
+      "image": "/images/exams/living-environment/august-2012/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which statement best describes enzymes?",
+      "choices": [
+        "Every enzyme controls many different reactions.",
+        "The rate of activity of an enzyme might change as pH changes.",
+        "Temperature changes do not affect enzymes.",
+        "Enzymes are produced from the building blocks of carbohydrates."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "More energy can be released from a fat molecule than from a glucose molecule because the fat molecule contains more",
+      "choices": [
+        "genes",
+        "organic compounds",
+        "chemical bonds",
+        "mitochondria"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "People who have AIDS are more likely than others to become ill with multiple infections because the pathogen that causes AIDS",
+      "choices": [
+        "targets many body systems",
+        "mutates, releasing toxins directly into the bloodstream",
+        "increases the rate of enzyme activity in different types of body cells",
+        "damages the immune system"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which organism would most likely have new gene combinations?",
+      "choices": [
+        "a frog that was produced from a skin cell of a frog",
+        "a hamster resulting from sexual reproduction",
+        "a bacterium resulting from asexual reproduction",
+        "a starfish that grew from part of a starfish"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A certain fungus can be harmful when it infects the outermost layers of the human foot, while another type of fungus can be beneficial when it recycles nutrients by breaking down dead organisms. Which terms identify these two roles of fungi?",
+      "choices": [
+        "producer, prey",
+        "host, autotroph",
+        "parasite, decomposer",
+        "herbivore, predator"
+      ],
+      "image": "/images/exams/living-environment/august-2012/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Shawangunk Grasslands National Wildlife Refuge has been developed from an abandoned airport to restore habitat for six species of birds that require an area rich in tall grasses. Workers must continually remove trees that are beginning to invade the area as a result of",
+      "choices": [
+        "direct harvesting",
+        "genetic engineering",
+        "evolutionary change",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "In order for an ecosystem to remain stable there must be",
+      "choices": [
+        "drastic modifications to the environment",
+        "interrelationships and interdependencies among organisms",
+        "limited biodiversity",
+        "gradual changes in the climate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Some data suggest that the average global temperature will increase by 1\u00b0C\u20132\u00b0C by the year 2050. If this occurs, a major concern for humans would most likely be that",
+      "choices": [
+        "sea levels might rise enough to flood some coastal areas",
+        "long-term stability of the climate will benefit ecosystems",
+        "the availability of salt water for agricultural use will increase",
+        "the threat of extinction of land organisms will decrease"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "A wetland provides a variety of services for an ecosystem, such as filtering pollutants from the water, allowing animals to lay eggs and reproduce, and producing fertile soils for plants. When humans build houses on wetland areas, they always",
+      "choices": [
+        "change this area so these processes can still take place",
+        "create new habitats for the wetland species",
+        "transport the wetland species to a new area",
+        "make changes that might not be reversible"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which occurrence most likely led to the other three?",
+      "choices": [
+        "Human population growth reached 6.8 billion in 2010 and it continues to increase.",
+        "The number of African elephants has declined from 1.2 million in 1979 to about 20,000 today.",
+        "Approximately 6,500 gallons of oil were spilled into a river in Illinois after a pipeline broke.",
+        "At one time, rain forests covered 14 percent of Earth and today they cover only 6 percent."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "A community is trying to decide on the location for a new shopping center. Two possible locations have been proposed, with each location having some benefits and some problems. The proper approach to deciding the best location would be to",
+      "choices": [
+        "select the site that could hold the most stores",
+        "select the site that would be the least expensive to develop",
+        "compare the problems, but not the benefits",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "A diagram of the actual size of a peppered moth wingspan is shown below. An estimated length of the wingspan could be",
+      "choices": [
+        "3 centimeters",
+        "3 grams",
+        "3 milliliters",
+        "3 kilometers"
+      ],
+      "image": "/images/exams/living-environment/august-2012/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "An investigation was carried out to determine which of three antibacterial soaps is most effective. Four petri dishes labeled A, B, C, and D were set up. The same amount and type of bacteria was added to each dish. Next, 2 mL of a different brand of soap were added to dishes B, C, and D. Then, 2 mL of water were added to dish A, instead of soap. The dishes were incubated at 37\u00b0C for 24 hours. At the end of the investigation, the amount of bacteria in each dish was determined. Dish D had the least bacteria. It was concluded that the soap in dish D was the most effective soap to use against bacteria. Which statement best describes the validity of this conclusion?",
+      "choices": [
+        "The conclusion is not valid since the same amount of bacteria was used in each dish.",
+        "The conclusion is valid since too small a sample of bacteria was used in this investigation.",
+        "The conclusion is valid since the amounts of bacteria were measured at the end of the investigation.",
+        "The conclusion might not be valid since the investigation was carried out only once."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which statement is a valid inference concerning structure X represented in the diagram below?",
+      "choices": [
+        "Structure X contains guard cells that regulate glucose intake.",
+        "Structure X carries out heterotrophic nutrition.",
+        "Structure X produces gametes for asexual reproduction.",
+        "Structure X transports materials for metabolic activities."
+      ],
+      "image": "/images/exams/living-environment/august-2012/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a food web composed of producers, consumers, and decomposers. Which group would represent the decomposer organisms?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2012/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "The chart below shows three ecological terms used to describe levels of organization on Earth. Which diagram best represents the relationship of these ecological terms?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The diagram below represents some changes that took place in a bacterial population recently exposed to an antibiotic. Which statement would best explain the presence of bacteria on day 4?",
+      "choices": [
+        "A bacterial population cannot survive exposure to antibiotics.",
+        "This bacterial population cannot survive exposure to this antibiotic.",
+        "Bacteria can change whenever it is necessary to survive antibiotic treatment.",
+        "Some of the bacterial population was resistant to this antibiotic. Antibiotic treatment Day 1 Day 2 Day 3 Day 4 A B C ( 1 ) A C B ( 2 ) C A B ( 3 ) B A C ( 4 ) A ecosystem B population C biosphere"
+      ],
+      "image": "/images/exams/living-environment/august-2012/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Two different species of single-celled organisms that eat the same food were placed in the same container. A constant food supply was provided starting on day 2, and the populations were monitored daily. The graph below represents the growth of the two populations. The most likely reason for the observed changes in the populations over the 18-day period is",
+      "choices": [
+        "P. caudatum outcompeted P. aurelia",
+        "P. aurelia outcompeted P. caudatum",
+        "the two species shared available resources",
+        "P. caudatum became a predator for P. aurelia"
+      ],
+      "image": "/images/exams/living-environment/august-2012/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "In which structure would both mitosis and differentiation of an embryo occur?",
+      "choices": [
+        "G",
+        "B",
+        "E",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/august-2012/context_38_39.png",
+      "context": "Base your answers to questions 38 and 39 on the diagram below and on your knowledge of biology. The \ndiagram represents the reproductive systems of the human female and male.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "In which structure do gametes usually unite to produce a zygote?",
+      "choices": [
+        "A",
+        "G",
+        "C",
+        "F F E B D C A G H Days Size of Population 2 4 6 8 10 12 14 16 18"
+      ],
+      "image": "/images/exams/living-environment/august-2012/context_38_39.png",
+      "context": "Base your answers to questions 38 and 39 on the diagram below and on your knowledge of biology. The \ndiagram represents the reproductive systems of the human female and male.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "written",
+      "text": "Which graph best shows the relationship between the amount of biodiversity and the number of different populations in an ecosystem?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The diagram below represents one possible evolutionary change that could have led lobe-finned fish to develop into the first amphibians. Amphibians are animals that live on land some of their life. This change from fins on the lobe-finned fish to legs and feet on the early amphibian is most likely due to",
+      "choices": [
+        "a sudden mutation that changed the gills of the lobe-finned fish to lungs",
+        "increased competition between animals that had adapted to living on the land",
+        "the need to move to land because of increased competition for food in the ocean",
+        "variations among offspring, followed by natural selection Millions of years Lobe-finned fish Early amphibian Water Land Biodiversity Number of Different Populations ( 1 ) Biodiversity Number of Different Populations ( 3 ) Biodiversity Number of Different Populations ( 2 ) Biodiversity Number of Different Populations ( 4 )"
+      ],
+      "image": "/images/exams/living-environment/august-2012/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "written",
+      "text": "Which diagram best represents the evolutionary pathway of the strawberry-tinted iguana?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/q42.png",
+      "context": "Base your answers to questions 42 and 43 on the information below and on your knowledge of biology.\nYes, This Big Lizard is Pink\nA new study from the University of Rome Tor Vergata shows that a rare strawberry-tinted\nland iguana [rosada iguana] in the Galapagos Islands is genetically distinct from other \niguanas there, having diverged from them more than five million years ago as the \narchipelago [a group of islands] formed. The rosada iguana\u2014which escaped Darwin\u2019s\nnotice\u2014was discovered only recently, largely because it lives on the desolate slopes of an\nactive volcano.\nSource: Smithsonian, March 2009",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "According to information in the article, it is most likely that",
+      "choices": [
+        "the ancestors of this iguana were separated from ancestors of other Galapagos iguanas millions of years ago and adapted to different environments",
+        "the ancestors of this iguana came from the mainland of South America millions of years ago and needed to adapt to the conditions of the Galapagos",
+        "gases released from an active volcano caused ancestral iguanas to mutate so they could adapt to the hot, dry environment near the volcano",
+        "it is a color variation of the same species of iguana that lives elsewhere on the island, and it was not discovered because it blended in with its environment near the volcano Present day Time (millions of years ago) 1 2 3 4 5 6 ( 1 ) ( 2 ) ( 3 ) ( 4 )"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 42 and 43 on the information below and on your knowledge of biology.\nYes, This Big Lizard is Pink\nA new study from the University of Rome Tor Vergata shows that a rare strawberry-tinted\nland iguana [rosada iguana] in the Galapagos Islands is genetically distinct from other \niguanas there, having diverged from them more than five million years ago as the \narchipelago [a group of islands] formed. The rosada iguana\u2014which escaped Darwin\u2019s\nnotice\u2014was discovered only recently, largely because it lives on the desolate slopes of an\nactive volcano.\nSource: Smithsonian, March 2009",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Organize the data by completing both columns in the data table below, so that the height of the plants increases from the top to the bottom of the table. Height of Tomato Plants After Three Weeks",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/q44.png",
+      "context": "Base your answers to questions 44 and 45 on the information below and on your knowledge of biology.\nA student grew ten tomato plants from seed. After three weeks, the heights of the ten\nplants were measured in centimeters (cm). The results are shown below.\nTomato plant A = 5 cm\nTomato plant F = 9 cm\nTomato plant B = 3 cm\nTomato plant G = 7 cm\nTomato plant C = 3 cm\nTomato plant H = 5 cm\nTomato plant D = 3 cm\nTomato plant I = 3 cm\nTomato plant E = 5 cm\nTomato plant J = 7 cm",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "State one likely reason for differences in the heights of the plants. Height of Plant (cm)",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 44 and 45 on the information below and on your knowledge of biology.\nA student grew ten tomato plants from seed. After three weeks, the heights of the ten\nplants were measured in centimeters (cm). The results are shown below.\nTomato plant A = 5 cm\nTomato plant F = 9 cm\nTomato plant B = 3 cm\nTomato plant G = 7 cm\nTomato plant C = 3 cm\nTomato plant H = 5 cm\nTomato plant D = 3 cm\nTomato plant I = 3 cm\nTomato plant E = 5 cm\nTomato plant J = 7 cm",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "The chart below contains characteristics that can be used to classify organisms A, B, and C. State one reason why organism A and organism C might be placed into two different classification groups, even though they are both single celled.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/q46.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "One action humans can take that might ensure that these sea otters will continue their function as a keystone species in their environment is to",
+      "choices": [
+        "establish a sea otter wildlife refuge in the Atlantic Ocean",
+        "pass laws to regulate the hunting of sea otters",
+        "plant kelp in the Pacific Ocean",
+        "destroy sea urchins found living in the kelp beds Characteristics Organism A Organism B Organism C Number of Cells single celled multicellular single celled Type of Nutrition autotrophic autotrophic heterotrophic Nuclear Membrane absent present absent Ribosomes present present present"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 47 through 50 on the passage below and on your knowledge of biology.\nKeystone Species\nA keystone species is one whose presence contributes to the diversity of life and whose\nextinction would lead to the extinction of other forms of life. A keystone species helps to\nsupport the ecosystem of which it is a part.\nAn example of what can happen when a keystone species is removed occurred when fur\nhunters eliminated sea otters from some Pacific Ocean kelp beds. Otters eat sea urchins,\nwhich eat kelp. With its major predator gone, sea urchin populations exploded and \nconsumed most of the kelp. Fish, snails, and other animals associated with the kelp beds\ndisappeared.\nThe grizzly bear is another example of a keystone species. Grizzlies transfer nutrients\nfrom the ocean ecosystem to the forest ecosystem. The first stage of this transfer is \nperformed by salmon that swim up rivers, sometimes for hundreds of miles. Salmon are rich\nin nitrogen, sulfur, carbon, and phosphorus. The bears capture the salmon and carry them\nonto dry land, scattering nutrient-rich feces (wastes) and partially eaten salmon carcasses.\nIt has been estimated that the bears leave up to half of the salmon they harvest on the \nforest floor.\nNote: The answer to question 47 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Some people feel the grizzly bear should be eliminated from parts of its natural range. Describe the impact of this proposed action on the forest ecosystems in these areas if the bears are eliminated. Support your answer with information from the passage.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 47 through 50 on the passage below and on your knowledge of biology.\nKeystone Species\nA keystone species is one whose presence contributes to the diversity of life and whose\nextinction would lead to the extinction of other forms of life. A keystone species helps to\nsupport the ecosystem of which it is a part.\nAn example of what can happen when a keystone species is removed occurred when fur\nhunters eliminated sea otters from some Pacific Ocean kelp beds. Otters eat sea urchins,\nwhich eat kelp. With its major predator gone, sea urchin populations exploded and \nconsumed most of the kelp. Fish, snails, and other animals associated with the kelp beds\ndisappeared.\nThe grizzly bear is another example of a keystone species. Grizzlies transfer nutrients\nfrom the ocean ecosystem to the forest ecosystem. The first stage of this transfer is \nperformed by salmon that swim up rivers, sometimes for hundreds of miles. Salmon are rich\nin nitrogen, sulfur, carbon, and phosphorus. The bears capture the salmon and carry them\nonto dry land, scattering nutrient-rich feces (wastes) and partially eaten salmon carcasses.\nIt has been estimated that the bears leave up to half of the salmon they harvest on the \nforest floor.\nNote: The answer to question 47 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which organism is most likely not functioning as a keystone species in its ecosystem?",
+      "choices": [
+        "beaver \u2014 transforms its territory from a stream to a pond or swamp, maintaining the habitat for a variety of native species",
+        "elephant \u2014 destroys trees, making room for grass species and preventing the environment from becoming a woodland",
+        "black-tailed prairie dogs \u2014 burrows act as homes to other creatures, including burrowing owls, badgers, rabbits, snakes, salamanders, and insects",
+        "zebra mussels \u2014 compete with native species, reducing the biodiversity of the Great Lakes ecosystem"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 47 through 50 on the passage below and on your knowledge of biology.\nKeystone Species\nA keystone species is one whose presence contributes to the diversity of life and whose\nextinction would lead to the extinction of other forms of life. A keystone species helps to\nsupport the ecosystem of which it is a part.\nAn example of what can happen when a keystone species is removed occurred when fur\nhunters eliminated sea otters from some Pacific Ocean kelp beds. Otters eat sea urchins,\nwhich eat kelp. With its major predator gone, sea urchin populations exploded and \nconsumed most of the kelp. Fish, snails, and other animals associated with the kelp beds\ndisappeared.\nThe grizzly bear is another example of a keystone species. Grizzlies transfer nutrients\nfrom the ocean ecosystem to the forest ecosystem. The first stage of this transfer is \nperformed by salmon that swim up rivers, sometimes for hundreds of miles. Salmon are rich\nin nitrogen, sulfur, carbon, and phosphorus. The bears capture the salmon and carry them\nonto dry land, scattering nutrient-rich feces (wastes) and partially eaten salmon carcasses.\nIt has been estimated that the bears leave up to half of the salmon they harvest on the \nforest floor.\nNote: The answer to question 47 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which sequence best represents the feeding relationships in a kelp ecosystem that has not been disturbed by humans?",
+      "choices": [
+        "sea urchins \u2192kelp \u2192fish",
+        "kelp \u2192sea urchins \u2192sea otters",
+        "kelp \u2192sea otters \u2192sea urchins",
+        "sea urchins \u2192snails \u2192kelp"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 47 through 50 on the passage below and on your knowledge of biology.\nKeystone Species\nA keystone species is one whose presence contributes to the diversity of life and whose\nextinction would lead to the extinction of other forms of life. A keystone species helps to\nsupport the ecosystem of which it is a part.\nAn example of what can happen when a keystone species is removed occurred when fur\nhunters eliminated sea otters from some Pacific Ocean kelp beds. Otters eat sea urchins,\nwhich eat kelp. With its major predator gone, sea urchin populations exploded and \nconsumed most of the kelp. Fish, snails, and other animals associated with the kelp beds\ndisappeared.\nThe grizzly bear is another example of a keystone species. Grizzlies transfer nutrients\nfrom the ocean ecosystem to the forest ecosystem. The first stage of this transfer is \nperformed by salmon that swim up rivers, sometimes for hundreds of miles. Salmon are rich\nin nitrogen, sulfur, carbon, and phosphorus. The bears capture the salmon and carry them\nonto dry land, scattering nutrient-rich feces (wastes) and partially eaten salmon carcasses.\nIt has been estimated that the bears leave up to half of the salmon they harvest on the \nforest floor.\nNote: The answer to question 47 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State one role of white blood cells at the site of a wound during the healing of the wound.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "52",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Which two chemical waste products are most likely represented by the smoke above the mitochondrion? ______________________________________ and _____________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the diagram below and on your knowledge of biology. The\ndiagram compares cell functions with jobs in a factory.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "What chemical substance produced by the mitochondrion is represented by arrow A?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the diagram below and on your knowledge of biology. The\ndiagram compares cell functions with jobs in a factory.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Which cell structure synthesized the \u201cProtein being exported\u201d?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on the diagram below and on your knowledge of biology. The\ndiagram compares cell functions with jobs in a factory.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 56\u201360 on the information below and on your knowledge of biology.\nPoison ivy is a weed that grows in New York State. It synthesizes an oil, urushiol, that\ncauses skin rashes. Researchers have found that if poison ivy grows in an environment that\ncontains an increased concentration of carbon dioxide, the plants grow larger, faster, and\nproduce more urushiol. Because carbon dioxide levels in the atmosphere are rising, poison\nivy might become a hazard to people who work or vacation outdoors.\n56\u201360 In order to verify this research, experiments must be carried out. Design an experiment to test whether\npoison ivy is affected by air containing higher than normal concentrations of carbon dioxide. In your\nanswer, be sure to:\n\u2022 state the hypothesis the experiment would test   [1]\n\u2022 state one way the control group should be treated differently from the experimental group   [1]\n\u2022 identify two conditions that should be kept the same in both the control and the experimental groups   [1]\n\u2022 describe the type of data to be collected   [1]\n\u2022 identify one safety precaution that should be taken during the experiment and explain why it is \nnecessary   [1]\nPart C\nAnswer all questions in this part.\n[17]\nDirections (56\u201372): Record your answers in the spaces provided in this examination booklet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "56\u201360 In order to verify this research, experiments must be carried out. Design an experiment to test whether poison ivy is affected by air containing higher than normal concentrations of carbon dioxide. In your answer, be sure to: \u2022 state the hypothesis the experiment would test \u2022 state one way the control group should be treated differently from the experimental group \u2022 identify two conditions that should be kept the same in both the control and the experimental groups \u2022 describe the type of data to be collected \u2022 identify one safety precaution that should be taken during the experiment and explain why it is necessary",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 56\u201360 on the information below and on your knowledge of biology.\nPoison ivy is a weed that grows in New York State. It synthesizes an oil, urushiol, that\ncauses skin rashes. Researchers have found that if poison ivy grows in an environment that\ncontains an increased concentration of carbon dioxide, the plants grow larger, faster, and\nproduce more urushiol. Because carbon dioxide levels in the atmosphere are rising, poison\nivy might become a hazard to people who work or vacation outdoors.\n56\u201360 In order to verify this research, experiments must be carried out. Design an experiment to test whether\npoison ivy is affected by air containing higher than normal concentrations of carbon dioxide. In your\nanswer, be sure to:\n\u2022 state the hypothesis the experiment would test   [1]\n\u2022 state one way the control group should be treated differently from the experimental group   [1]\n\u2022 identify two conditions that should be kept the same in both the control and the experimental groups   [1]\n\u2022 describe the type of data to be collected   [1]\n\u2022 identify one safety precaution that should be taken during the experiment and explain why it is \nnecessary   [1]\nPart C\nAnswer all questions in this part.\n[17]\nDirections (56\u201372): Record your answers in the spaces provided in this examination booklet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "A wildlife manager in New Jersey wants to use poisons to destroy the nutria. State one problem that might result from this action.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/q61.png",
+      "context": "Base your answers to questions 61 and 62 on the information below and on your knowledge of biology.\nInvasion of the Giant Rodents\nLarge, 20-pound rodents [nutria] that were originally from South America are spreading\nnorthward from the southern United States.\nThe nutria were brought in and raised in the southern United States for their fur. Nutria\nescaped and started a wild population.\nThey have since moved up the east coast, damaging plant life in Delaware and\nMaryland. Currently, they have reached New Jersey. These rodents are damaging New\nJersey\u2019s marshland ecosystems.\nA nutria can eat up to 5 pounds of marshland plants a day. This loss of plant life is \nharming the marshland ecosystems.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "62",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 and 62 on the information below and on your knowledge of biology.\nInvasion of the Giant Rodents\nLarge, 20-pound rodents [nutria] that were originally from South America are spreading\nnorthward from the southern United States.\nThe nutria were brought in and raised in the southern United States for their fur. Nutria\nescaped and started a wild population.\nThey have since moved up the east coast, damaging plant life in Delaware and\nMaryland. Currently, they have reached New Jersey. These rodents are damaging New\nJersey\u2019s marshland ecosystems.\nA nutria can eat up to 5 pounds of marshland plants a day. This loss of plant life is \nharming the marshland ecosystems.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "State two ways that the release of these chemicals is beneficial to these plants. (1) (2)",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 66 on the information below and on your knowledge of biology.\nResearch has shown that plants might chemically change their environment. The roots\nof certain plants release many chemicals. Some chemicals made by plants can kill nearby\nplants or discourage herbivores from eating them. Other plant chemicals kill plant\npathogens such as bacteria and fungi.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Predict what would happen to the size of the population of these plants if other plants in the area began releasing similar chemicals. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/q64.png",
+      "context": "Base your answers to questions 63 through 66 on the information below and on your knowledge of biology.\nResearch has shown that plants might chemically change their environment. The roots\nof certain plants release many chemicals. Some chemicals made by plants can kill nearby\nplants or discourage herbivores from eating them. Other plant chemicals kill plant\npathogens such as bacteria and fungi.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Predict what would happen to the herbivore population if many plants in the area made protective chemicals. Support your answer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 66 on the information below and on your knowledge of biology.\nResearch has shown that plants might chemically change their environment. The roots\nof certain plants release many chemicals. Some chemicals made by plants can kill nearby\nplants or discourage herbivores from eating them. Other plant chemicals kill plant\npathogens such as bacteria and fungi.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "66",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 66 on the information below and on your knowledge of biology.\nResearch has shown that plants might chemically change their environment. The roots\nof certain plants release many chemicals. Some chemicals made by plants can kill nearby\nplants or discourage herbivores from eating them. Other plant chemicals kill plant\npathogens such as bacteria and fungi.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/context_67_70.png",
+      "context": "Base your answer to question 67\u201370 on the information below and on your knowledge of biology.\nAn Experimental SARS Vaccine Works in Animals\nScientists reported that they had protected animals from the effects of the SARS virus\nby using an experimental vaccine. The SARS virus causes an acute respiratory illness in\nhumans and other animals.\nThis vaccine was sprayed once into the nostrils of each of four African green monkeys.\nFour weeks later, these monkeys were exposed to the virus that causes SARS. The monkeys\nshowed no sign of the disease in their respiratory tracts. Blood tests confirmed the presence\nof proteins known as neutralizing antibodies that indicate protection against disease.\nThe scientists also sprayed a placebo (a substance that did not contain the vaccine) into\nthe nostrils of each of four other African green monkeys. After exposure to the virus that\ncauses SARS, all of these monkeys developed symptoms of this condition.\n67\u201370 Briefly explain the nature of a vaccine and some steps that should be taken before a vaccine is available\nfor public use. In your answer, be sure to include:\n\u2022 a description of what a vaccine is   [1]\n\u2022 an explanation of why one group had a placebo sprayed into their nostrils before exposure to the virus   [1]\n\u2022 an explanation of why scientists used monkeys to test the SARS vaccine   [1]\n\u2022 a statement of what could be done to verify the results   [1]\nLiving Environment\u2013Aug. \u201912\n[18]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "67\u201370 Briefly explain the nature of a vaccine and some steps that should be taken before a vaccine is available for public use. In your answer, be sure to include: \u2022 a description of what a vaccine is \u2022 an explanation of why one group had a placebo sprayed into their nostrils before exposure to the virus \u2022 an explanation of why scientists used monkeys to test the SARS vaccine \u2022",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/context_67_70.png",
+      "context": "Base your answer to question 67\u201370 on the information below and on your knowledge of biology.\nAn Experimental SARS Vaccine Works in Animals\nScientists reported that they had protected animals from the effects of the SARS virus\nby using an experimental vaccine. The SARS virus causes an acute respiratory illness in\nhumans and other animals.\nThis vaccine was sprayed once into the nostrils of each of four African green monkeys.\nFour weeks later, these monkeys were exposed to the virus that causes SARS. The monkeys\nshowed no sign of the disease in their respiratory tracts. Blood tests confirmed the presence\nof proteins known as neutralizing antibodies that indicate protection against disease.\nThe scientists also sprayed a placebo (a substance that did not contain the vaccine) into\nthe nostrils of each of four other African green monkeys. After exposure to the virus that\ncauses SARS, all of these monkeys developed symptoms of this condition.\n67\u201370 Briefly explain the nature of a vaccine and some steps that should be taken before a vaccine is available\nfor public use. In your answer, be sure to include:\n\u2022 a description of what a vaccine is   [1]\n\u2022 an explanation of why one group had a placebo sprayed into their nostrils before exposure to the virus   [1]\n\u2022 an explanation of why scientists used monkeys to test the SARS vaccine   [1]\n\u2022 a statement of what could be done to verify the results   [1]\nLiving Environment\u2013Aug. \u201912\n[18]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Identify one specific air-quality problem caused by pollution that affects New York State.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the diagram below and on your knowledge of biology. The \ndiagram identifies four groups that can have an effect on air quality in New York State.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Select one of the four groups and record its name on the space below. Describe one way the group you selected could help to improve the air quality in New York State. Group:",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the diagram below and on your knowledge of biology. The \ndiagram identifies four groups that can have an effect on air quality in New York State.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "Which two finches could temporarily occupy the same niche?",
+      "choices": [
+        "large ground finch and warbler finch",
+        "vegetarian tree finch and medium ground finch",
+        "large insectivorous tree finch and woodpecker finch",
+        "small insectivorous tree finch and cactus ground finch"
+      ],
+      "image": "/images/exams/living-environment/august-2012/context_73_75.png",
+      "context": "Base your answers to questions 73 through 75 on the diagram below and on your knowledge of biology.\nNote: The answers to questions 73 through 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "Several of the Galapagos Islands are inhabited by grasshoppers, beetles, flies, bees, and butterflies. Finches that feed on these consumers would have beaks adapted for",
+      "choices": [
+        "probing, only",
+        "probing or grasping",
+        "crushing or probing",
+        "parrotlike feeding or grasping"
+      ],
+      "image": "/images/exams/living-environment/august-2012/context_73_75.png",
+      "context": "Base your answers to questions 73 through 75 on the diagram below and on your knowledge of biology.\nNote: The answers to questions 73 through 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Farmers on a few of the Galapagos Islands have orchards of oranges, apples, grapes, and pears. Which species of finch would consume these foods?",
+      "choices": [
+        "woodpecker finch",
+        "small ground finch",
+        "sharp-beaked ground finch",
+        "vegetarian tree finch Large ground finch Vegetarian tree finch Large insectivorous tree finch Small insectivorous tree finch Woodpecker finch Warbler finch Cactus ground finch Sharp-beaked ground finch Small ground finch Medium ground finch G ra s pi ng bi ll s P ro bi n g bi ll s Cr u sh in g bi ll s Wa rb ler fi n ch Tr e e fi nc he s Gr o un d fin ch es Insect eaters Cactus eaters Seed eaters Fruit eaters Pa rr ot -li ke bi ll s Source: www.pbs.org"
+      ],
+      "image": "/images/exams/living-environment/august-2012/context_73_75.png",
+      "context": "Base your answers to questions 73 through 75 on the diagram below and on your knowledge of biology.\nNote: The answers to questions 73 through 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "Which two organisms would most likely synthesize the most similar enzymes?",
+      "choices": [
+        "monkey and mouse",
+        "cow and horse",
+        "chimp and rat",
+        "horse and dog"
+      ],
+      "image": "/images/exams/living-environment/august-2012/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the diagram below and on your knowledge of biology. The\ndiagram shows the evolutionary relationships of some organisms.\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "77",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the diagram below and on your knowledge of biology. The\ndiagram shows the evolutionary relationships of some organisms.\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Using the information given, fill in the missing mRNA base sequences in the table for species B and species C.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/context_78_80.png",
+      "context": "Base your answers to questions 78 through 80 on the information below and on your knowledge of biology.\nDNA samples were taken from three different species and used to determine the amino\nacid sequence for a portion of a particular protein. The amino acids were then compared in\norder to determine which species were most closely related. Some of the information is\nshown on the table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Using the Universal Genetic Code Chart below, fill in the missing amino acid sequences in the table for species A and species B. Universal Genetic Code Chart Messenger RNA Codons and the Amino Acids for Which They Code",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/context_78_80.png",
+      "context": "Base your answers to questions 78 through 80 on the information below and on your knowledge of biology.\nDNA samples were taken from three different species and used to determine the amino\nacid sequence for a portion of a particular protein. The amino acids were then compared in\norder to determine which species were most closely related. Some of the information is\nshown on the table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "State one specific effect on the protein produced if an mRNA code is changed from AGU to AGA. SECOND BASE T H I R D B A S E F I R S T B A S E C A G U C A G U C A G UUU UUC UUA UUG CUU CUC CUA CUG AUU AUC AUA AUG GUU GUC GUA GUG UCU UCC UCA UCG CCU CCC CCA CCG ACU ACC ACA ACG GCU GCC GCA GCG UAU UAC UAA UAG CAU CAC CAA CAG AAU AAC AAA AAG GAU GAC GAA GAG UGU UGC UGA UGG CGU CGC CGA CGG AGU AGC AGA AGG GGU GGC GGA GGG U C A G U C A G U C A G PHE LEU LEU ILE MET or START VAL SER PRO THR ALA TYR STOP HIS GLN ASN LYS ASP GLU ARG SER ARG GLY CYS STOP TRP U Species A DNA base sequence mRNA base sequence amino acid sequence GAC CUG LEU TGA ACU THR CTC GAG CAC GUG VAL TGA ACU Species B DNA base sequence mRNA base sequence amino acid sequence GAC LEU AGA UCU CTT GAA CAC VAL TGA ACU THR Species C DNA base sequence mRNA base sequence amino acid sequence GAC CUG LEU TGC THR CAC GUG VAL CTC GLU AGA UCU SER",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/context_78_80.png",
+      "context": "Base your answers to questions 78 through 80 on the information below and on your knowledge of biology.\nDNA samples were taken from three different species and used to determine the amino\nacid sequence for a portion of a particular protein. The amino acids were then compared in\norder to determine which species were most closely related. Some of the information is\nshown on the table below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "In an experiment to test the effect of exercise on the number of times a clothespin can be squeezed in 1 minute, the dependent variable would be the",
+      "choices": [
+        "test subject",
+        "amount of exercise",
+        "number of squeezes",
+        "clothespin"
+      ],
+      "image": "/images/exams/living-environment/august-2012/q81.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "To measure the volume of the starch-water mixture in the dialysis bag, the students should have used a",
+      "choices": [
+        "meterstick",
+        "triple-beam balance",
+        "graduated cylinder",
+        "test tube"
+      ],
+      "image": "/images/exams/living-environment/august-2012/context_82_84.png",
+      "context": "Base your answers to questions 82 through 84 on the information and diagram below and on your \nknowledge of biology.\nIn an experiment, students placed a dialysis bag containing 100 mL of a starch-water\nmixture in a beaker of water, as shown below. They left the setup until class the next day,\nwhen they removed the dialysis bag and measured the volume of the contents. They found\nthat there were now 125 mL of the starch-water mixture.\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Identify the process that caused the increase in volume.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/context_82_84.png",
+      "context": "Base your answers to questions 82 through 84 on the information and diagram below and on your \nknowledge of biology.\nIn an experiment, students placed a dialysis bag containing 100 mL of a starch-water\nmixture in a beaker of water, as shown below. They left the setup until class the next day,\nwhen they removed the dialysis bag and measured the volume of the contents. They found\nthat there were now 125 mL of the starch-water mixture.\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify one organ in the human body where this process occurs and identify one substance that moves into the blood at that location. Organ: Substance:",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2012/context_82_84.png",
+      "context": "Base your answers to questions 82 through 84 on the information and diagram below and on your \nknowledge of biology.\nIn an experiment, students placed a dialysis bag containing 100 mL of a starch-water\nmixture in a beaker of water, as shown below. They left the setup until class the next day,\nwhen they removed the dialysis bag and measured the volume of the contents. They found\nthat there were now 125 mL of the starch-water mixture.\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "State one possible reason a certain substance can not pass across a cell membrane. Day One Water 100 mL starch-water mixture Day Two Water 125 LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

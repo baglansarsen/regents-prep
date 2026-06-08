@@ -1,0 +1,476 @@
+{
+  "subject": "us-history",
+  "session": "january-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The Fundamental Orders of Connecticut represent an early step in the colonial advance toward",
+      "choices": [
+        "representative government",
+        "an American monarchy",
+        "freedom of speech and of the press",
+        "abolition of slavery"
+      ],
+      "image": "/images/exams/us-history/january-2025/context_1_2.png",
+      "context": "Base your answers to questions 1 and 2 on the excerpt below and on your knowledge of social studies.\n. . . It is Ordered, sentenced, and decreed, that there shall be yearly two \nGeneral Assemblies or Courts, the one the second Thursday in April, the \nother the second Thursday in September following; the first shall be called \nthe Court of Election, wherein shall be yearly chosen from time to time, \nso many Magistrates and other public Officers as shall be found requisite \n[needed]: Whereof one to be chosen Governor for the year ensuing and \nanother be chosen, and no other Magistrate to be chosen for more than one \nyear: provided always there be six chosen besides the Governor, which being \nchosen and sworn according to an Oath recorded for that purpose, shall have \nthe power to administer justice according to the Laws here established, and \nfor want thereof, according to the Rule of the Word of God; which choice \nshall be made by all that are admitted freemen and have taken the Oath \nof Fidelity, and do cohabit within this Jurisdiction having been admitted \ninhabitants by the major part of the Town wherein they live or the major part \nof such as shall be then present. . . .\nSource: Fundamental Orders of Connecticut, Section 1, January 14, 1639\n\nU.S. Hist. & Gov\u2019t. \u2013 Jan. \u201925\t\n[3]\t\n[OVER]\n\u2002 5\t What was an important impact of the McCulloch \nv. Maryland (1819) decision?\n(1)\tIt established the idea that states should have \nthe power to overturn federal laws.\n(2)\tIt determined that the creation of the National \nBank was constitutional.\n(3)\tIt stated that the bicameral legislature \nestablished by the Constitution was illegal.\n(4)\tIt limited the power of Congress to add new \nstates to the Union.\n\u2002 6\t The Supreme Court decision described in this \nexcerpt is an example of which principle?\n(1)\trepublican government\n(2)\tpopular sovereignty\n(3)\tsectionalism\n(4)\tfederal supremacy\n\u2002 3\t What is the primary purpose of this proclamation?\n(1)\tto align the United States with Great Britain\n(2)\tto negotiate a peace treaty between the \nwarring states of Europe\n(3)\tto avoid being drawn into the war between \nGreat Britain and France\n(4)\tto stay out of the affairs of the French colonies \nin Latin America\n\u2002 4\t Which later United States foreign policy action is \nmost consistent with the ideas expressed in this \nproclamation?\n(1)\tannouncing the Monroe Doctrine\n(2)\tratifying the Treaty of Guadalupe Hidalgo\n(3)\tannexing the Philippines\n(4)\tnegotiating the Camp David Accords",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which colonial development was most similar to the Fundamental Orders of Connecticut?",
+      "choices": [
+        "Maryland Toleration Act",
+        "Virginia House of Burgesses",
+        "Proclamation of 1763",
+        "Stamp Act Part I"
+      ],
+      "image": "/images/exams/us-history/january-2025/context_1_2.png",
+      "context": "Base your answers to questions 1 and 2 on the excerpt below and on your knowledge of social studies.\n. . . It is Ordered, sentenced, and decreed, that there shall be yearly two \nGeneral Assemblies or Courts, the one the second Thursday in April, the \nother the second Thursday in September following; the first shall be called \nthe Court of Election, wherein shall be yearly chosen from time to time, \nso many Magistrates and other public Officers as shall be found requisite \n[needed]: Whereof one to be chosen Governor for the year ensuing and \nanother be chosen, and no other Magistrate to be chosen for more than one \nyear: provided always there be six chosen besides the Governor, which being \nchosen and sworn according to an Oath recorded for that purpose, shall have \nthe power to administer justice according to the Laws here established, and \nfor want thereof, according to the Rule of the Word of God; which choice \nshall be made by all that are admitted freemen and have taken the Oath \nof Fidelity, and do cohabit within this Jurisdiction having been admitted \ninhabitants by the major part of the Town wherein they live or the major part \nof such as shall be then present. . . .\nSource: Fundamental Orders of Connecticut, Section 1, January 14, 1639\n\nU.S. Hist. & Gov\u2019t. \u2013 Jan. \u201925\t\n[3]\t\n[OVER]\n\u2002 5\t What was an important impact of the McCulloch \nv. Maryland (1819) decision?\n(1)\tIt established the idea that states should have \nthe power to overturn federal laws.\n(2)\tIt determined that the creation of the National \nBank was constitutional.\n(3)\tIt stated that the bicameral legislature \nestablished by the Constitution was illegal.\n(4)\tIt limited the power of Congress to add new \nstates to the Union.\n\u2002 6\t The Supreme Court decision described in this \nexcerpt is an example of which principle?\n(1)\trepublican government\n(2)\tpopular sovereignty\n(3)\tsectionalism\n(4)\tfederal supremacy\n\u2002 3\t What is the primary purpose of this proclamation?\n(1)\tto align the United States with Great Britain\n(2)\tto negotiate a peace treaty between the \nwarring states of Europe\n(3)\tto avoid being drawn into the war between \nGreat Britain and France\n(4)\tto stay out of the affairs of the French colonies \nin Latin America\n\u2002 4\t Which later United States foreign policy action is \nmost consistent with the ideas expressed in this \nproclamation?\n(1)\tannouncing the Monroe Doctrine\n(2)\tratifying the Treaty of Guadalupe Hidalgo\n(3)\tannexing the Philippines\n(4)\tnegotiating the Camp David Accords",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "What is the primary purpose of this proclamation?",
+      "choices": [
+        "to align the United States with Great Britain",
+        "to negotiate a peace treaty between the warring states of Europe",
+        "to avoid being drawn into the war between Great Britain and France",
+        "to stay out of the affairs of the French colonies in Latin America"
+      ],
+      "image": "/images/exams/us-history/january-2025/context_3_4.png",
+      "context": "Base your answers to questions 3 and 4 on the proclamation below and on your knowledge of social studies.\nWhereas it appears that a state of war exists between Austria, Prussia, \nSardinia, Great Britain, and the United Netherlands, of the one part, and \nFrance on the other; and the duty and interest of the United States require, \nthat they should with sincerity and good faith adopt and pursue a conduct \nfriendly and impartial toward the belligerent Powers; . . .\nSource: President George Washington, Proclamation of Neutrality, April 22, 1793",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/us-history/january-2025/context_3_4.png",
+      "context": "Base your answers to questions 3 and 4 on the proclamation below and on your knowledge of social studies.\nWhereas it appears that a state of war exists between Austria, Prussia, \nSardinia, Great Britain, and the United Netherlands, of the one part, and \nFrance on the other; and the duty and interest of the United States require, \nthat they should with sincerity and good faith adopt and pursue a conduct \nfriendly and impartial toward the belligerent Powers; . . .\nSource: President George Washington, Proclamation of Neutrality, April 22, 1793",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "What was an important impact of the McCulloch v. Maryland (1819) decision?",
+      "choices": [
+        "It established the idea that states should have the power to overturn federal laws.",
+        "It determined that the creation of the National Bank was constitutional.",
+        "It stated that the bicameral legislature established by the Constitution was illegal.",
+        "It limited the power of Congress to add new states to the Union."
+      ],
+      "image": "/images/exams/us-history/january-2025/context_5_6.png",
+      "context": "Base your answers to questions 5 and 6 on the excerpt below and on your knowledge of social studies.\n. . . The result is a conviction that the States have no power, by taxation or \notherwise, to retard [slow down], impede, burden, or in any manner control, \nthe operations of the constitutional laws enacted by Congress to carry into \nexecution the powers vested in the general government. This is, we think, \nthe unavoidable consequence of that supremacy which the constitution \nhas declared. We are unanimously of opinion, that the law passed by the \nlegislature of Maryland, imposing a tax on the Bank of the United States, is \nunconstitutional and void. . . .\nSource: McCulloch v. Maryland, 1819\n\nU.S. Hist. & Gov\u2019t. \u2013 Jan. \u201925\t\n[4]\n\u2002 7\t Which claim about the Constitution is best \nsupported by this letter?\n(1)\tIt does not specifically state how to incorporate \nforeign territory.\n(2)\tThe Senate must provide the money for this \npurchase. \n(3)\tAdding articles to the Constitution requires \npresidential approval. \n(4)\tThe Supreme Court must review treaties.\n\u2002 8\t One major goal for President Thomas Jefferson \nin purchasing the Louisiana Territory was that it \nwould \n(1)\tpromote the growth of manufacturing in the \nSouth\n(2)\testablish a base to exert control over Caribbean \ntrade\n(3)\thelp the United States expand the slave trade\n(4)\tgive the United States full control of the \nMississippi River",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The Supreme Court decision described in this excerpt is an example of which principle?",
+      "choices": [
+        "announcing the Monroe Doctrine",
+        "ratifying the Treaty of Guadalupe Hidalgo",
+        "annexing the Philippines",
+        "negotiating the Camp David Accords"
+      ],
+      "image": "/images/exams/us-history/january-2025/context_5_6.png",
+      "context": "Base your answers to questions 5 and 6 on the excerpt below and on your knowledge of social studies.\n. . . The result is a conviction that the States have no power, by taxation or \notherwise, to retard [slow down], impede, burden, or in any manner control, \nthe operations of the constitutional laws enacted by Congress to carry into \nexecution the powers vested in the general government. This is, we think, \nthe unavoidable consequence of that supremacy which the constitution \nhas declared. We are unanimously of opinion, that the law passed by the \nlegislature of Maryland, imposing a tax on the Bank of the United States, is \nunconstitutional and void. . . .\nSource: McCulloch v. Maryland, 1819\n\nU.S. Hist. & Gov\u2019t. \u2013 Jan. \u201925\t\n[4]\n\u2002 7\t Which claim about the Constitution is best \nsupported by this letter?\n(1)\tIt does not specifically state how to incorporate \nforeign territory.\n(2)\tThe Senate must provide the money for this \npurchase. \n(3)\tAdding articles to the Constitution requires \npresidential approval. \n(4)\tThe Supreme Court must review treaties.\n\u2002 8\t One major goal for President Thomas Jefferson \nin purchasing the Louisiana Territory was that it \nwould \n(1)\tpromote the growth of manufacturing in the \nSouth\n(2)\testablish a base to exert control over Caribbean \ntrade\n(3)\thelp the United States expand the slave trade\n(4)\tgive the United States full control of the \nMississippi River",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which claim about the Constitution is best supported by this letter?",
+      "choices": [
+        "It does not specifically state how to incorporate foreign territory.",
+        "The Senate must provide the money for this purchase.",
+        "Adding articles to the Constitution requires presidential approval.",
+        "The Supreme Court must review treaties."
+      ],
+      "image": "/images/exams/us-history/january-2025/context_7_8.png",
+      "context": "Base your answers to questions 7 and 8 on the letter below and on your knowledge of social studies.\n. . .This treaty [Louisiana Purchase] must of course be laid before both \nhouses, because both have important functions to exercise respecting it. They \nI presume will see their duty to their country in ratifying & paying for it, so \nas to secure a good which would otherwise probably be never again in their \npower. But I suppose they must then appeal to the nation for an additional \narticle to the constitution, approving & confirming an act which the nation \nhad not previously authorised. The constitution has made no provision for \nour holding foreign territory, still less for incorporating foreign nations into \nour union. . . .\nSource: Thomas Jefferson, letter to John Breckinridge, August 12, 1803 (adapted)\n\nU.S. Hist. & Gov\u2019t. \u2013 Jan. \u201925\t\n[5]\t\n[OVER]",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "One major goal for President Thomas Jefferson in purchasing the Louisiana Territory was that it would",
+      "choices": [
+        "promote the growth of manufacturing in the South",
+        "establish a base to exert control over Caribbean trade",
+        "help the United States expand the slave trade",
+        "give the United States full control of the Mississippi River"
+      ],
+      "image": "/images/exams/us-history/january-2025/context_7_8.png",
+      "context": "Base your answers to questions 7 and 8 on the letter below and on your knowledge of social studies.\n. . .This treaty [Louisiana Purchase] must of course be laid before both \nhouses, because both have important functions to exercise respecting it. They \nI presume will see their duty to their country in ratifying & paying for it, so \nas to secure a good which would otherwise probably be never again in their \npower. But I suppose they must then appeal to the nation for an additional \narticle to the constitution, approving & confirming an act which the nation \nhad not previously authorised. The constitution has made no provision for \nour holding foreign territory, still less for incorporating foreign nations into \nour union. . . .\nSource: Thomas Jefferson, letter to John Breckinridge, August 12, 1803 (adapted)\n\nU.S. Hist. & Gov\u2019t. \u2013 Jan. \u201925\t\n[5]\t\n[OVER]",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "According to this letter, President Abraham Lincoln\u2019s primary goal in fighting the Civil War was to",
+      "choices": [
+        "advance the cause of Northern abolitionists",
+        "save the Union",
+        "extend the vote to African Americans",
+        "free African Americans enslaved in Confederate territory"
+      ],
+      "image": "/images/exams/us-history/january-2025/context_9_10.png",
+      "context": "Base your answers to questions 9 and 10 on the letter below and on your knowledge of social studies.\n. . . As to the policy I \u201cseem to be pursuing\u201d as you say, I have not meant to \nleave any one in doubt.\n\t\nI would save the Union. I would save it the shortest way under the \nConstitution. The sooner the national authority can be restored; the nearer \nthe Union will be \u201cthe Union as it was.\u201d If there be those who would not save \nthe Union, unless they could at the same time save slavery, I do not agree \nwith them. If there be those who would not save the Union unless they could \nat the same time destroy slavery, I do not agree with them. My paramount \nobject in this struggle is to save the Union, and is not either to save or to \ndestroy slavery. If I could save the Union without freeing any slave I would \ndo it, and if I could save it by freeing all the slaves I would do it; and if I could \nsave it by freeing some and leaving others alone I would also do that. What \nI do about slavery, and the colored [African American] race, I do because I \nbelieve it helps to save the Union, and what I forbear, I forbear because I do \nnot believe it would help to save the Union. . . .\nSource: Letter from President Abraham Lincoln to Horace Greeley, August 22, 1862",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "What was one action President Lincoln took to achieve his primary goal?",
+      "choices": [
+        "He signed the Homestead Act.",
+        "He vetoed a federal draft law.",
+        "He issued the Emancipation Proclamation.",
+        ""
+      ],
+      "image": "/images/exams/us-history/january-2025/context_9_10.png",
+      "context": "Base your answers to questions 9 and 10 on the letter below and on your knowledge of social studies.\n. . . As to the policy I \u201cseem to be pursuing\u201d as you say, I have not meant to \nleave any one in doubt.\n\t\nI would save the Union. I would save it the shortest way under the \nConstitution. The sooner the national authority can be restored; the nearer \nthe Union will be \u201cthe Union as it was.\u201d If there be those who would not save \nthe Union, unless they could at the same time save slavery, I do not agree \nwith them. If there be those who would not save the Union unless they could \nat the same time destroy slavery, I do not agree with them. My paramount \nobject in this struggle is to save the Union, and is not either to save or to \ndestroy slavery. If I could save the Union without freeing any slave I would \ndo it, and if I could save it by freeing all the slaves I would do it; and if I could \nsave it by freeing some and leaving others alone I would also do that. What \nI do about slavery, and the colored [African American] race, I do because I \nbelieve it helps to save the Union, and what I forbear, I forbear because I do \nnot believe it would help to save the Union. . . .\nSource: Letter from President Abraham Lincoln to Horace Greeley, August 22, 1862",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which statement most accurately represents the point of view of this cartoonist?",
+      "choices": [
+        "President Roosevelt supported logging in national parks.",
+        "President Roosevelt opposed regulation of big business.",
+        "President Roosevelt refused to involve the attorney general in regulating monopolies.",
+        "President Roosevelt must use the full force of the law to end the power of trusts."
+      ],
+      "image": "/images/exams/us-history/january-2025/context_11_12.png",
+      "context": "Base your answers to questions 11 and 12 on the cartoon below and on your knowledge of social studies.\nSource: Charles Green Bush, August 7, 1902, Library of Congress (adapted)\n\u201cHIT HARDER, THEODORE!\u201d\nCoal\nTrust\nSugar\nTrust\nSteel\nTrust\nBeef\nTrust\nOil\nTrust\nIron\nTrust\nU.S. \nAttorney \nGeneral",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "What law is this cartoonist referring to?",
+      "choices": [
+        "Pacific Railway Act",
+        "Chinese Exclusion Act",
+        "Sherman Antitrust Act",
+        ""
+      ],
+      "image": "/images/exams/us-history/january-2025/context_11_12.png",
+      "context": "Base your answers to questions 11 and 12 on the cartoon below and on your knowledge of social studies.\nSource: Charles Green Bush, August 7, 1902, Library of Congress (adapted)\n\u201cHIT HARDER, THEODORE!\u201d\nCoal\nTrust\nSugar\nTrust\nSteel\nTrust\nBeef\nTrust\nOil\nTrust\nIron\nTrust\nU.S. \nAttorney \nGeneral",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which conclusion is best supported by these documents?",
+      "choices": [
+        "Immigration to Texas and the Southwest outpaced other regions.",
+        "Northeastern cities became a refuge for immigrant families in the early 20th century.",
+        "Agriculture was the dominant occupation for most immigrants in the Midwest.",
+        "The steel and petroleum industries grew near the Great Lakes because of rail transportation."
+      ],
+      "image": "/images/exams/us-history/january-2025/context_13_14.png",
+      "context": "Base your answers to questions 13 and 14 on the photograph and map below and on your knowledge of \nsocial studies.\nMulberry Street in New York City, c. 1900\nSource: Library of Congress (adapted)\nDistribution of Foreign-Born Whites in the United States, 1910\nSource: Edward Alsworth Ross, The Old World in the New:The Significance of Past and \nPresent Immigration to the American People, 1914 (adapted)\nGulf of Mexico\nAtlantic Ocean\nPacific Ocean\n\nU.S. Hist. & Gov\u2019t. \u2013 Jan. \u201925\t\n[9]\t\n[OVER]\n15\t In his 1902 message to Congress, President \nTheodore Roosevelt expressed support for the\n(1)\tcreation of a permanent United States military\n(2)\tEuropean colonization of Latin America\n(3)\ttraditional United States foreign policy of \nisolationism\n(4)\texpansion of the United States as a world \npower\n16\t Which action was most consistent with the ideas \nexpressed in this message?\n(1)\tUnited States construction of the Panama \nCanal\n(2)\topposition to the Open Door policy\n(3)\tsigning consumer protection legislation\n(4)\tcreation of the National Park Service",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/us-history/january-2025/context_13_14.png",
+      "context": "Base your answers to questions 13 and 14 on the photograph and map below and on your knowledge of \nsocial studies.\nMulberry Street in New York City, c. 1900\nSource: Library of Congress (adapted)\nDistribution of Foreign-Born Whites in the United States, 1910\nSource: Edward Alsworth Ross, The Old World in the New:The Significance of Past and \nPresent Immigration to the American People, 1914 (adapted)\nGulf of Mexico\nAtlantic Ocean\nPacific Ocean\n\nU.S. Hist. & Gov\u2019t. \u2013 Jan. \u201925\t\n[9]\t\n[OVER]\n15\t In his 1902 message to Congress, President \nTheodore Roosevelt expressed support for the\n(1)\tcreation of a permanent United States military\n(2)\tEuropean colonization of Latin America\n(3)\ttraditional United States foreign policy of \nisolationism\n(4)\texpansion of the United States as a world \npower\n16\t Which action was most consistent with the ideas \nexpressed in this message?\n(1)\tUnited States construction of the Panama \nCanal\n(2)\topposition to the Open Door policy\n(3)\tsigning consumer protection legislation\n(4)\tcreation of the National Park Service",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "In his 1902 message to Congress, President Theodore Roosevelt expressed support for the",
+      "choices": [
+        "creation of a permanent United States military",
+        "European colonization of Latin America",
+        "traditional United States foreign policy of isolationism",
+        "expansion of the United States as a world power"
+      ],
+      "image": "/images/exams/us-history/january-2025/context_15_16.png",
+      "context": "Base your answers to questions 15 and 16 on the message below and on your knowledge of social studies.\n. . . As a people we have played a large part in the world, and we are bent \nupon making our future even larger than the past. In particular, the events \nof the last four years have definitely decided that, for woe or weal [poverty \nor prosperity], our place must be great among the nations. We may either \nfall greatly or succeed greatly; but we can not avoid the endeavor from which \neither great failure or great success must come. Even if we would, we can \nnot play a small part. If we should try, all that would follow would be that we \nshould play a large part ignobly [dishonorably] and shamefully. . . .\nSource: President Theodore Roosevelt, Second Annual Message to Congress, December 2, 1902\n\nU.S. Hist. & Gov\u2019t. \u2013 Jan. \u201925\t\n[10]",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which action was most consistent with the ideas expressed in this message?",
+      "choices": [
+        "legislation was passed limiting the number of immigrants",
+        "overcrowded cities received federal housing assistance",
+        "immigrants were relocated to less populated areas",
+        "deportation programs were eliminated"
+      ],
+      "image": "/images/exams/us-history/january-2025/context_15_16.png",
+      "context": "Base your answers to questions 15 and 16 on the message below and on your knowledge of social studies.\n. . . As a people we have played a large part in the world, and we are bent \nupon making our future even larger than the past. In particular, the events \nof the last four years have definitely decided that, for woe or weal [poverty \nor prosperity], our place must be great among the nations. We may either \nfall greatly or succeed greatly; but we can not avoid the endeavor from which \neither great failure or great success must come. Even if we would, we can \nnot play a small part. If we should try, all that would follow would be that we \nshould play a large part ignobly [dishonorably] and shamefully. . . .\nSource: President Theodore Roosevelt, Second Annual Message to Congress, December 2, 1902\n\nU.S. Hist. & Gov\u2019t. \u2013 Jan. \u201925\t\n[10]",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "According to President Franklin D. Roosevelt, a major purpose of the Social Security system was to",
+      "choices": [
+        "end years of industrial practices that had hurt workers",
+        "eliminate deficits and balance the federal budget",
+        "improve medical care through grants to hospitals",
+        "provide benefits to jobless and aged citizens"
+      ],
+      "image": "/images/exams/us-history/january-2025/context_17_18.png",
+      "context": "Base your answers to questions 17 and 18 on the statement below and on your knowledge of social studies.\n. . . This social security measure gives at least some protection to thirty \nmillions of our citizens who will reap direct benefits through unemployment \ncompensation, through old-age pensions and through increased services for \nthe protection of children and the prevention of ill health. . . .\n\t\nThis law, too, represents a cornerstone in a structure which is being \nbuilt but is by no means complete. It is a structure intended to lessen the \nforce of possible future depressions. It will act as a protection to future \nAdministrations against the necessity of going deeply into debt to furnish \nrelief to the needy. The law will flatten out the peaks and valleys of deflation \nand of inflation. It is, in short, a law that will take care of human needs and \nat the same time provide the United States an economic structure of vastly \ngreater soundness. . . .\nSource: President Franklin D. Roosevelt, statement on signing the Social Security Act,\nAugust 14, 1935",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "By signing the Social Security Act into law, President Roosevelt was keeping his promise that the federal government would",
+      "choices": [
+        "take a more active role in the economy to improve the well-being of citizens",
+        "give tax breaks to corporations to expand production and increase employment",
+        "protect the life savings of people who had trusted their banks",
+        ""
+      ],
+      "image": "/images/exams/us-history/january-2025/context_17_18.png",
+      "context": "Base your answers to questions 17 and 18 on the statement below and on your knowledge of social studies.\n. . . This social security measure gives at least some protection to thirty \nmillions of our citizens who will reap direct benefits through unemployment \ncompensation, through old-age pensions and through increased services for \nthe protection of children and the prevention of ill health. . . .\n\t\nThis law, too, represents a cornerstone in a structure which is being \nbuilt but is by no means complete. It is a structure intended to lessen the \nforce of possible future depressions. It will act as a protection to future \nAdministrations against the necessity of going deeply into debt to furnish \nrelief to the needy. The law will flatten out the peaks and valleys of deflation \nand of inflation. It is, in short, a law that will take care of human needs and \nat the same time provide the United States an economic structure of vastly \ngreater soundness. . . .\nSource: President Franklin D. Roosevelt, statement on signing the Social Security Act,\nAugust 14, 1935",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Why did the government establish a wartime rationing system?",
+      "choices": [
+        "to limit consumption of critical, scarce resources",
+        "to avoid price controls on goods and services",
+        "to protect the property of the United States",
+        "to help law enforcement prosecute criminal offenses"
+      ],
+      "image": "/images/exams/us-history/january-2025/context_19_20.png",
+      "context": "Base your answers to questions 19 and 20 on the document below and on your knowledge of social studies.\nSource: Office of Price Administration\n\nU.S. Hist. & Gov\u2019t. \u2013 Jan. \u201925\t\n[12]",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Public acceptance of government rationing was based on the belief that it",
+      "choices": [
+        "would increase profits for small farmers",
+        "would eliminate the influence of big businesses on political candidates",
+        "was basically a fair and equitable system",
+        "guaranteed women equal pay for equal work"
+      ],
+      "image": "/images/exams/us-history/january-2025/context_19_20.png",
+      "context": "Base your answers to questions 19 and 20 on the document below and on your knowledge of social studies.\nSource: Office of Price Administration\n\nU.S. Hist. & Gov\u2019t. \u2013 Jan. \u201925\t\n[12]",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "What was a major reason for President Harry Truman\u2019s June 27, 1950, statement?",
+      "choices": [
+        "the United States commitment to the Cold War policy of containment",
+        "an attempt to gain the support of China to halt aggression against South Korea",
+        "the continuing presence of Japanese forces in Korea after World War II",
+        "the announcement of a plan to reunite North and South Korea"
+      ],
+      "image": "/images/exams/us-history/january-2025/context_21_22.png",
+      "context": "Base your answers to questions 21 and 22 on the statement below and on your knowledge of social studies.\nIn [South] Korea the Government forces, which were armed to prevent \nborder raids and to preserve internal security, were attacked by invading \nforces from North Korea. The Security Council of the United Nations \ncalled upon the invading troops to cease hostilities and to withdraw to the \n38th parallel. This they have not done, but on the contrary have pressed the \nattack. The Security Council called upon all members of the United Nations \nto render every assistance to the United Nations in the execution of this \nresolution. In these circumstances I have ordered United States air and sea \nforces to give the Korean Government troops cover and support.\n\t\nThe attack upon Korea makes it plain beyond all doubt that Communism \nhas passed beyond the use of subversion to conquer independent nations and \nwill now use armed invasion and war. It has defied the orders of the Security \nCouncil of the United Nations issued to preserve international peace and \nsecurity. In these circumstances, the occupation of Formosa [Taiwan] by \nCommunist forces would be a direct threat to the security of the Pacific area \nand to United States forces performing their lawful and necessary functions \nin that area. . . .\n\t\nI know that all members of the United Nations will consider carefully the \nconsequences of this latest aggression in Korea in defiance of the Charter of \nthe United Nations. A return to the rule of force in international affairs would \nhave far-reaching effects. The United States will continue to uphold the rule \nof law. . . .\nSource: President Harry Truman, statement on the situation in Korea, June 27, 1950",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "What made the response to North Korea\u2019s invasion of South Korea different from past conflicts?",
+      "choices": [
+        "The Soviet Union and the United States became allies.",
+        "The aggression of North Korea ended when the Soviet Union intervened.",
+        "Members of the United Nations supplied troops to defend South Korea.",
+        ""
+      ],
+      "image": "/images/exams/us-history/january-2025/context_21_22.png",
+      "context": "Base your answers to questions 21 and 22 on the statement below and on your knowledge of social studies.\nIn [South] Korea the Government forces, which were armed to prevent \nborder raids and to preserve internal security, were attacked by invading \nforces from North Korea. The Security Council of the United Nations \ncalled upon the invading troops to cease hostilities and to withdraw to the \n38th parallel. This they have not done, but on the contrary have pressed the \nattack. The Security Council called upon all members of the United Nations \nto render every assistance to the United Nations in the execution of this \nresolution. In these circumstances I have ordered United States air and sea \nforces to give the Korean Government troops cover and support.\n\t\nThe attack upon Korea makes it plain beyond all doubt that Communism \nhas passed beyond the use of subversion to conquer independent nations and \nwill now use armed invasion and war. It has defied the orders of the Security \nCouncil of the United Nations issued to preserve international peace and \nsecurity. In these circumstances, the occupation of Formosa [Taiwan] by \nCommunist forces would be a direct threat to the security of the Pacific area \nand to United States forces performing their lawful and necessary functions \nin that area. . . .\n\t\nI know that all members of the United Nations will consider carefully the \nconsequences of this latest aggression in Korea in defiance of the Charter of \nthe United Nations. A return to the rule of force in international affairs would \nhave far-reaching effects. The United States will continue to uphold the rule \nof law. . . .\nSource: President Harry Truman, statement on the situation in Korea, June 27, 1950",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "What was one method that was used to deny African Americans the voting rights mentioned in this speech?",
+      "choices": [
+        "literacy tests and poll taxes",
+        "deployment of federal troops",
+        "bus boycotts and sit-ins",
+        ""
+      ],
+      "image": "/images/exams/us-history/january-2025/context_23_23.png",
+      "context": "Base your answer to question 23 on the excerpt from the speech below and on your knowledge of social \nstudies.\nThree years ago the Supreme Court of this nation rendered in simple, \neloquent and unequivocal language a decision which will long be stenciled\non the mental sheets of succeeding generations. For all men of good will, this\nMay 17 decision came as a joyous daybreak to end the long night of segregation.\nIt came as a great beacon light of hope to millions of distinguished \npeople throughout the world who had dared only to dream of freedom. \nIt came as a legal and sociological deathblow to the old Plessy doctrine of\n\u201cseparate-but-equal.\u201d It came as a reaffirmation of the good old American \ndoctrine of freedom and equality for all people.\n\t\nUnfortunately, this noble and sublime decision has not gone without \nopposition. This opposition has often risen to ominous proportions. Many \nstates have risen up in open defiance. The legislative halls of the South \nring loud with such words as \u201cinterposition\u201d and \u201cnullification.\u201d Methods \nof defiance range from crippling economic reprisals to the tragic reign of \nviolence and terror. All of these forces have conjoined to make for massive \nresistance.\n\t\nBut, even more, all types of conniving methods are still being used to \nprevent Negroes [African Americans] from becoming registered voters. The \ndenial of this sacred right is a tragic betrayal of the highest mandates of our \ndemocratic traditions and it is democracy turned upside down. . . .\nSource: Dr. Martin Luther King Jr., \u201cGive Us the Ballot,\u201d May 17, 1957",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Why were Americans worried by the event described in this headline?",
+      "choices": [
+        "They feared the United States was being overtaken in the Cold War arms race.",
+        "They believed the satellite might have a negative effect on weather patterns.",
+        "They thought launching the satellite violated international law.",
+        "They were concerned about the effects of satellite technology on future prosperity."
+      ],
+      "image": "/images/exams/us-history/january-2025/context_24_25.png",
+      "context": "Base your answers to questions 24 and 25 on the headline below and on your knowledge of social studies.\nSource: New York Times, October 5, 1957",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "What was one direct result of the event described in this headline?",
+      "choices": [
+        "President Eisenhower mobilized the military for an attack.",
+        "The United Nations condemned the Soviet Union\u2019s actions.",
+        "Congress mandated that families build fallout shelters.",
+        "Congress passed legislation to promote science education in schools."
+      ],
+      "image": "/images/exams/us-history/january-2025/context_24_25.png",
+      "context": "Base your answers to questions 24 and 25 on the headline below and on your knowledge of social studies.\nSource: New York Times, October 5, 1957",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Congress responded to President Lyndon B. Johnson\u2019s message by passing the",
+      "choices": [
+        "Equal Pay Act of 1963",
+        "Voting Rights Act of 1965",
+        "Immigration Act of 1965",
+        "Americans with Disabilities Act of 1990"
+      ],
+      "image": "/images/exams/us-history/january-2025/context_26_26.png",
+      "context": "Base your answer to question 26 on the message below and on your knowledge of social studies.\n. . . Every device of which human ingenuity is capable has been used to deny \nthis right. The Negro [African American] citizen may go to register only to \nbe told that the day is wrong, or the hour is late, or the official in charge \nis absent. And if he persists, and if he manages to present himself to the \nregistrar, he may be disqualified because he did not spell out his middle name \nor because he abbreviated a word on the application.\n\t\nAnd if he manages to fill out an application he is given a test. The registrar \nis the sole judge of whether he passes this test. He may be asked to recite the \nentire Constitution, or explain the most complex provisions of State law. And \neven a college degree cannot be used to prove that he can read and write. . . .\nSource: President Lyndon B. Johnson, Special Message to Congress,\u201cThe American Promise\u201d",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which constitutional principle is illustrated by these headlines?",
+      "choices": [
+        "federalism",
+        "checks and balances",
+        "judicial review",
+        "reserved powers"
+      ],
+      "image": "/images/exams/us-history/january-2025/context_27_28.png",
+      "context": "Base your answers to questions 27 and 28 on the newspaper headlines below and on your knowledge of \nsocial studies.\nSource: New York Times, December 20, 1998",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which president faced the same constitutional challenge as President Bill Clinton?",
+      "choices": [
+        "Jimmy Carter",
+        "William McKinley",
+        "Andrew Johnson",
+        "Answers to the Short-Essay Questions (29 and 30) and the Civic Literacy Essay Question (37) are to be written in the separate essay booklet. Part II SHORT-ESSAY QUESTIONS (SEQs) These Short-Essay Questions are based on the accompanying documents and are designed to test your ability to work with historical documents. Each Short-Essay Question set consists of two documents. Some of these documents have been edited for the purposes of these questions. Keep in mind that the language and images used in a document may reflect the historical context of the time in which it was created. SEQ Set 1 (Question 29) Task: Read and analyze the following documents, applying your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: \u2022 Describe the historical context surrounding these documents \u2022 Identify and explain the relationship between the events and/or ideas found in these documents (Cause and Effect, or Similarity/Difference, or Turning Point) In developing your short-essay answer of two or three paragraphs, be sure to keep these explanations in mind: Describe means \u201cto illustrate something in words or tell about it.\u201d Historical Context refers to \u201cthe relevant historical circumstances surrounding or connecting the events, ideas, or developments in these documents.\u201d Identify means \u201cto put a name to or to name.\u201d Explain means \u201cto make plain or understandable; to give reasons for or causes of; to show the logical development or relationship of.\u201d Types of Relationships: Cause refers to \u201csomething that contributes to the occurrence of an event, the rise of an idea, or the bringing about of a development.\u201d Effect refers to \u201cwhat happens as a consequence (result, impact, outcome) of an event, an idea, or a development.\u201d Similarity tells how \u201csomething is alike or the same as something else.\u201d Difference tells how \u201csomething is not alike or not the same as something else.\u201d Turning Point is \u201ca major event, idea, or historical development that brings about significant change. It can be local, regional, national, or global.\u201d SEQ Set 1 Directions (Question 29): Read and analyze the following documents before writing your short essay in the separate essay booklet. Document 1 AMENDMENT XIV (1868) Section 1. All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the State wherein they reside. No State shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States; nor shall any State deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal protection of the laws. AMENDMENT XV (1870) Section 1. The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of race, color, or previous condition of servitude. Source: 14th and 15th amendments, Document 2 . . . Miss Anthony\u2014When I was brought before your honor for trial, I hoped for a broad and liberal interpretation of the Constitution and its recent amendments, that should declare all United States citizens under its protecting aegis [shield] that should declare equality of rights the national guarantee to all persons born or naturalized in the United States. But failing to get this justice\u2014failing, even, to get a trial by a jury not of my peers\u2014I ask not leniency at your hands\u2014but rather the full rigors of the law. . . . Judge Hunt\u2014The sentence of the Court is that you pay a fine of one hundred dollars and the costs of the prosecution. Miss Anthony\u2014May it please your honor, I shall never pay a dollar of your unjust penalty. All the stock in trade I possess is a $10,000 debt, incurred by publishing my paper\u2014The Revolution\u2014four years ago, the sole object of which was to educate all women to do precisely as I have done, rebel against your man-made, unjust, unconstitutional forms of law, that tax, fine, imprison and hang women, while they deny them the right of representation in the government; and I shall work on with might and main to pay every dollar of that honest debt, but not a penny shall go to this unjust claim. And I shall earnestly and persistently continue to urge all women to the practical recognition of the old revolutionary maxim, that \u201cResistance to tyranny is obedience to God.\u201d Source: An Account of the Proceedings on the Trial of Susan B. Anthony on the Charge of Illegal Voting, Rochester, New York, 1874 SEQ Set 1 (Question 29) Task: Based on your reading and analysis of these documents, apply your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: \u2022 Describe the historical context surrounding these documents \u2022 Identify and explain the relationship between the events and/or ideas found in these documents (Cause and Effect, or Similarity/Difference, or Turning Point) Guidelines: In your short essay, be sure to \u2022 Develop all aspects of the task \u2022 Incorporate relevant outside information \u2022 SEQ Set 2 (Question 30) Task: Read and analyze the following documents, applying your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: \u2022 Describe the historical context surrounding documents 1 and 2 \u2022 Analyze Document 2 and explain how audience, or purpose, or bias, or point of view affects this document\u2019s use as a reliable source of evidence In developing your short-essay answer of two or three paragraphs, be sure to keep these explanations in mind: Describe means \u201cto illustrate something in words or tell about it.\u201d Historical Context refers to \u201cthe relevant historical circumstances surrounding or connecting the events, ideas, or developments in these documents.\u201d Analyze means \u201cto examine a document and determine its elements and its relationships.\u201d Explain means \u201cto make plain or understandable; to give reasons for or causes of; to show the logical development or relationship of.\u201d SEQ Set 2 Directions (Question 30): Read and analyze the following documents before writing your short essay in the separate essay booklet. Document 1 Thomas Whately served as Great Britain\u2019s Secretary to the Treasury from 1763\u20131765 under Prime Minister George Grenville and was the primary author of the Stamp Act. . . . The Revenue that may be raised by the Duties which have been already, or by these if they should be hereafter imposed, are all equally applied by Parliament, towards defraying [paying] the necessary Expenses of defending, protecting, and securing, the British Colonies and Plantations in America. . . . They have indeed their own civil Governments besides to support; but Great Britain has her civil Government too; she has also a large Peace Establishment to maintain; and the national Debt, tho\u2019 so great a Part, and that the heaviest Part of it has been incurred [assumed] by a War undertaken for the Protection of the Colonies, lies solely still upon her. . . . Source: Thomas Whately, The Regulations Lately Made Concerning the Colonies, and the Taxes Imposed Upon Them, Considered, January 1765 (adapted) Document 2 The Stamp Act Congress met to discuss colonists\u2019 concerns about British taxation. . . . I. That his Majesty\u2019s Subjects in these Colonies, owe the same Allegiance to the Crown of Great-Britain, that is owing from his Subjects born within the Realm, and all due Subordination to that August [noble] Body the Parliament of Great-Britain. II. That his Majesty\u2019s Liege [obligated] Subjects in these Colonies, are entitled to all the inherent Rights and Liberties of his Natural born Subjects, within the Kingdom of Great-Britain. III. That it is inseparably essential to the Freedom of a People, and the undoubted Right of Englishmen, that no Taxes be imposed on them, but with their own Consent, given personally, or by their Representatives. IV. That the People of these Colonies are not, and from their local Circumstances cannot be, Represented in the House of Commons in Great-Britain. V. That the only Representatives of the People of these Colonies, are Persons chosen therein by themselves, and that no Taxes ever have been, or can be Constitutionally imposed on them, but by their respective Legislature. . . . XIII. That it is the Right of the British Subjects in these Colonies, to Petition the King, or either House of Parliament. . . . Source: Declaration of Rights and Grievances, Stamp Act Congress, October 19, 1765 (adapted) SEQ Set 2 (Question 30) Task: Based on your reading and analysis of these documents, apply your social studies knowledge and skills to write a short essay of two or three paragraphs in which you: \u2022 Describe the historical context surrounding documents 1 and 2 \u2022 Analyze Document 2 and explain how audience, or purpose, or bias, or point of view affects this document\u2019s use as a reliable source of evidence Guidelines: In your short essay, be sure to \u2022 Develop all aspects of the task \u2022 Incorporate relevant outside information \u2022 Part III CIVIC LITERACY ESSAY (Questions 31\u201337) This Civic Literacy Essay Question is based on the accompanying documents. The question is designed to test your ability to work with historical documents. Some of these documents have been edited for the purpose of this question. As you analyze the documents, take into account the source of each document and any point of view that may be presented in the document. Keep in mind that the language and images used in a document may reflect the historical context of the time in which it was created. Historical Context: Debate Over Ratification of the Treaty of Versailles Throughout United States history, many constitutional and civic issues have been debated by Americans. These debates have resulted in efforts by individuals, groups, and governments to address these issues. These efforts have achieved varying degrees of success. One of these constitutional and civic issues is the debate over ratification of the Treaty of Versailles. Task: Read and analyze the documents in . Using information from the documents and your knowledge of United States history, answer the questions that follow each document in . Your answers to the questions will help you write the essay in which you will be asked to \u2022 Describe the historical circumstances surrounding this constitutional or civic issue \u2022 Explain efforts by individuals, groups, and/or governments to address this constitutional or civic issue \u2022 Discuss the impact of the efforts on the United States and/or on American society In developing your answers to Part III, be sure to keep these general definitions in mind: (a) describe means \u201cto illustrate something in words or tell about it\u201d (b) explain means \u201cto make plain or understandable; to give reasons for or causes of; to show the logical development or relationships of\u201d (c) discuss means \u201cto make observations about something using facts, reasoning, and argument; to present in some detail\u201d NAME __________________________________ SCHOOL ________________________________ Civic Literacy Essay Short-Answer Questions (31\u201336) Directions: Analyze the documents and answer the short-answer questions that follow each document in the space provided. Document 1 During World War I, President Woodrow Wilson announced his 14 Points, which he hoped would be included in the Treaty of Versailles. \u201cI [Woodrow Wilson] can predict with absolute certainty that within another generation there will be another world war if the nations of the world do not concert the method [agree to a plan] by which to prevent it.\u201d Once Wilson knew that the U.S. would be unable to avoid entering the war, he worked to find a way to stop such a war from happening again. In January 1918 he announced the 14 Points, a set of principles designed to remove the causes of another great war. The 14 Points included an international organization to keep the peace, by providing a place where disputes could be discussed and mediated. The 14 Points inspired the peoples of the Allied Nations and gave them hope that another great war could be prevented. When Wilson traveled to Europe in late 1918 to attend the Paris Peace Conference, he was met by crowds numbering in the millions in Britain, France and Italy. At the Peace Conference in 1919, Wilson moved the seat of the presidency to Paris for six months while he commanded the attention of the world. He was faced with the leaders of the Allied Nations determined to win as many concessions and as much territory as they could for their countries. Wilson argued and fought with them through June of 1919 to make as fair a treaty as possible under the circumstances. Wilson drew up terms of peace including his design for a League of Nations, a world body to settle future conflicts among nations. . . . Source: \u201cLeague of Nations,\u201d The President Woodrow Wilson House (adapted)"
+      ],
+      "image": "/images/exams/us-history/january-2025/context_27_28.png",
+      "context": "Base your answers to questions 27 and 28 on the newspaper headlines below and on your knowledge of \nsocial studies.\nSource: New York Times, December 20, 1998",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Based on this document, what is one historical circumstance surrounding the ratification of the Treaty of Versailles? Document 2 After discussing the proposed treaty provisions relating to the League of Nations with President Woodrow Wilson, Senator Henry Cabot Lodge gave an address to the United States Senate on February 28, 1919. . . . Animated by the conviction that he would \u201cfollow no man and vote for no measures which, however well intended, seem in my best judgement to lead to dissensions [disagreements] rather than to harmony among the nations or to injury, peril, or injustice to my country,\u201d and his insistence that the Senate, \u201cwhich is charged with responsibility. . . should investigate every proposal with the utmost thoroughness,\u201d Lodge\u2019s address was a painstaking critique of the League\u2019s constitution. He began with the impassioned argument that the document repudiated [contradicted] George Washington\u2019s September 17, 1796, Farewell Address and the Monroe Doctrine, two sacred canons [principles] of American foreign policy. \u201cI ask the press and the public and, of course, the Senate to consider well the gravity of this proposition,\u201d Lodge pleaded, \u201cbefore it takes the heavy responsibility of finally casting aside these policies which we have adhered to for a century and more and under which we have greatly served the cause of peace both at home and abroad.\u201d Turning to the specific provisions of the proposed draft, Lodge argued that the provision guaranteeing the independence and territorial integrity of all members was particularly troubling. He warned that, to insure that guarantee, the United States \u201cmust be in possession of fleets and armies capable of enforcing them at a moment\u2019s notice.\u201d . . . Source: \u201cHenry Cabot Lodge: Constitution of the League of Nations,\u201d Classic Senate Speeches, U.S. Senate",
+      "choices": [],
+      "image": "/images/exams/us-history/january-2025/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Based on this document, what is one historical circumstance surrounding the debate over ratification of the Treaty of Versailles? Document 3 Again and again, my fellow citizens, mothers who lost their sons in France have come to me and, taking my hand, have shed tears upon it not only, but they have added, \u201cGod bless you, Mr. President!\u201d Why, my fellow citizens, should they pray God to bless me? I advised the Congress of the United States to create the situation that led to the death of their sons. I ordered their sons oversea. . . . They believe, and they rightly believe, that their sons saved the liberty of the world. They believe that wrapped up with the liberty of the world is the continuous protection of that liberty by the concerted [united] powers of all civilized people. They believe that this sacrifice was made in order that other sons should not be called upon for a similar gift\u2014the gift of life, the gift of all that died. . . . You will say, \u201cIs the League an absolute guaranty against war?\u201d No; I do not know any absolute guaranty against the errors of human judgment or the violence of human passion, but . . . I ask you this: If it is not an absolute insurance against war, do you want no insurance at all? Do you want nothing? Do you want not only no probability that war will not recur, but the probability that it will recur? The arrangements of justice do not stand of themselves, my fellow citizens. The arrangements of this treaty are just, but they need the support of the combined power of the great nations of the world. . . . Source: President Woodrow Wilson, The Pueblo Speech, September 25, 1919",
+      "choices": [],
+      "image": "/images/exams/us-history/january-2025/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "According to President Woodrow Wilson, why should the Senate approve the Treaty of Versailles? Document 4 . . . Opposition in the Senate to the Covenant of the League of Nations, led by Republican Henry Cabot Lodge of Massachusetts, was directed in particular at Article X, which stated that members would \u201cundertake to respect and preserve as against external aggression the territorial integrity and existing political independence of all Members of the League\u201d and that \u201cthe Council shall advise upon the means.\u201d Many Americans believed with Lodge that through the treaty the United States would be committed to an \u201centangling alliance\u201d and that other nations could determine its foreign policy by obliging it to participate in action against aggressors. Deciding that an appeal to the country would force the Senate into line for the necessary two-thirds vote, President Wilson traveled over 8,000 miles by train and spoke forty times in twenty-two days. He became ill, and was forced to abandon his appeal. Wilson never succeeded in mustering enough votes to have the treaty passed as he had originally proposed it. Yet his belief in the original proposal was so intense that he used his influence to keep his supporters from agreeing to the changes which could have brought passage. . . . Source: Leonard F. James, American Foreign Policy, Scott, Foresman and Company, 1967",
+      "choices": [],
+      "image": "/images/exams/us-history/january-2025/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "According to Leonard F. James, what is one reason Senator Henry Cabot Lodge opposed the League of Nations? Document 5a Source: New York Tribune, March 20, 1920 Document 5b The Gap in the Bridge This League of Nations Bridge was Designed by the President of this U.S.A Source: Leonard Raven-Hill, Punch (adapted)",
+      "choices": [],
+      "image": "/images/exams/us-history/january-2025/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Based on these documents, what is one impact of the efforts to ratify the Treaty of Versailles? Document 6 . . . In the end Wilson failed largely because the country had never really abandoned its isolationist predilections [preferences], particularly the assumption that the United States unaided could maintain its national security. During the war, these convictions were driven underground. It is astonishing that despite the tradition of isolation, despite Wilson\u2019s collapse, despite partisan bitterness and the animosity of ethnic groups, 85 per cent of the senators voting on November 19 were willing to accept the League in some form. Yet even if the country had entered the League, it is doubtful that Americans would have been willing to assume their full obligations. The United States had not been prepared by a threat to its own security for the kind of enterprise [action] it was later to undertake in Korea. It had insufficient incentive for abandoning either isolation or absolute national sovereignty. It would take the chastening experience of World War II, Hiroshima, and the Cold War to provide that incentive. . . . Source: William E. Leuchtenburg, The Perils of Prosperity: 1914\u20131932, The University of Chicago Press, 1993",
+      "choices": [],
+      "image": "/images/exams/us-history/january-2025/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "According to William E. Leuchtenburg, what is one reason President Woodrow Wilson was not successful in gaining support for the Treaty of Versailles? Civic Literacy Essay Question (37) Directions: Write a well-organized essay that includes an introduction, several paragraphs, and a conclusion. Use evidence from at least four documents in the body of the essay. Support your response with relevant facts, examples, and details. Include additional outside information. Historical Context: Debate Over Ratification of the Treaty of Versailles Throughout United States history, many constitutional and civic issues have been debated by Americans. These debates have resulted in efforts by individuals, groups, and governments to address these issues. These efforts have achieved varying degrees of success. One of these constitutional and civic issues is the debate over ratification of the Treaty of Versailles. Task: Using information from the documents and your knowledge of United States history, write an essay in which you \u2022 Describe the historical circumstances surrounding this constitutional or civic issue \u2022 Explain efforts by individuals, groups, and/or governments to address this constitutional or civic issue \u2022 Discuss the impact of the efforts on the United States and/or on American society Guidelines: In your essay, be sure to \u2022 Develop all aspects of the task \u2022 Explain at least two efforts to address the issue \u2022 Incorporate information from at least four documents \u2022 Incorporate relevant outside information \u2022 Support the theme with relevant facts, examples, and details \u2022 Use a logical and clear plan of organization, including an introduction and a conclusion that are beyond a restatement of the theme REGENTS EXAM IN U.S. HISTORY AND GOVERNMENT REGENTS EXAM IN U.S. HISTORY AND GOVERNMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/us-history/january-2025/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

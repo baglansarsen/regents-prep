@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-1",
+  "session": "june-2021",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "A high school club is researching a tour package offered by the Island Kayak Company. The company charges $35 per person and $245 for the tour guide. Which function represents the total cost, C(x), of this kayak tour package for x club members?",
+      "choices": [
+        "C(x) \u0002 35x",
+        "C(x) \u0002 35x \u0003 245",
+        "C(x) \u0002 35(x \u0003 245)",
+        "C(x) \u0002 35 \u0003 (x \u0003 245)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The expression 3(x \u0003 4) \u0004 (2x \u0003 7) is equivalent to",
+      "choices": [
+        "x \u0003 5",
+        "x \u0004 10",
+        "x \u0004 3",
+        "x \u0003 11"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "A function is defined as K(x) \u0002 2x2 \u0004 5x \u0003 3. The value of K(\u00043) is",
+      "choices": [
+        "54",
+        "36",
+        "0",
+        "\u000418"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which relation is not a function?",
+      "choices": [
+        "1 2 3 A B C",
+        "A B C 4 3",
+        "2 4 6 8 10 12",
+        "6 8 10 12 Algebra I \u2013 v202"
+      ],
+      "image": "/images/exams/algebra-1/june-2021/q4.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The value of Tony\u2019s investment was $1140 on January 1st. On this date three years later, his investment was worth $1824. The average rate of change for this investment was $19 per",
+      "choices": [
+        "day",
+        "month",
+        "quarter",
+        "year"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The solution to 3(x \u0004 8) \u0003 4x \u0002 8x \u0003 4 is",
+      "choices": [
+        "12",
+        "28",
+        "\u000412",
+        "\u000428"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "An ice cream shop sells ice cream cones, c, and milkshakes, m. Each ice cream cone costs $1.50 and each milkshake costs $2.00. Donna has $19.00 to spend on ice cream cones and milkshakes. If she must buy 5 ice cream cones, which inequality could be used to determine the maximum number of milkshakes she can buy?",
+      "choices": [
+        "1.50(5) \u0003 2.00m \u0005 19.00",
+        "1.50(5) \u0003 2.00m \u0006 19.00",
+        "1.50c \u0003 2.00(5) \u0005 19.00",
+        "1.50c \u0003 2.00(5) \u0006 19.00"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "When written in standard form, the product of (3 \u0003 x) and (2x \u0004 5) is",
+      "choices": [
+        "3x \u0004 2",
+        "2x2 \u0003 x \u0004 15",
+        "2x2 \u0004 11x \u0004 15",
+        "6x \u0004 15 \u0003 2x2 \u0004 5x"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "If x \u0002 2, y \u0002 3 2, and w \u0002 2 8, which expression results in a rational number?",
+      "choices": [
+        "x \u0003 y",
+        "y \u0004 w",
+        "(w)(y)",
+        "y \u0007 x"
+      ],
+      "image": "/images/exams/algebra-1/june-2021/q9.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which product is equivalent to 4x2 \u0004 3x \u0004 27?",
+      "choices": [
+        "(2x \u0003 9)(2x \u0004 3)",
+        "(2x \u0004 9)(2x \u0003 3)",
+        "(4x \u0003 9)(x \u0004 3)",
+        "(4x \u0004 9)(x \u0003 3) Algebra I \u2013 v202"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Given: f(x) \u0002 2 3 x \u0004 4 and g(x) \u0002 1 4 x \u0003 1 Four statements about this system are written below. I. f",
+      "choices": [
+        "II, only",
+        "IV, only",
+        "I and IV",
+        "II and III"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which sketch represents the polynomial function f(x) \u0002 x(x \u0003 6)(x \u0003 3)? f(x) x",
+      "choices": [
+        "f(x) x",
+        "f(x) x",
+        "f(x) x",
+        "\u20132 \u20134 \u20136 \u20138 8 6 4 2 \u20132 \u20134 \u20136 \u20138 8 6 4 2 2 \u20132 4 6 8 \u20138 \u20136 \u20134 2 \u20132 4 6 8 \u20138 \u20136 \u20134 Algebra I \u2013 v202"
+      ],
+      "image": "/images/exams/algebra-1/june-2021/q12.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "If the parent function of f(x) is p(x) \u0002 x2, then the graph of the function f(x) \u0002 (x \u0004 k)2 \u0003 5, where k > 0, would be a shift of",
+      "choices": [
+        "k units to the left and a move of 5 units up",
+        "k units to the left and a move of 5 units down",
+        "k units to the right and a move of 5 units up",
+        "k units to the right and a move of 5 units down"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to (\u00044x2)3?",
+      "choices": [
+        "\u000412x6",
+        "\u000412x5",
+        "\u000464x6",
+        "\u000464x5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which function has the smallest y-intercept? g(x) \u0002 2x \u0004 6 f(x) \u0002 x \u0004 2",
+      "choices": [
+        "",
+        "k(x) x",
+        "",
+        "\u20132 \u20131 0 1 2 1 2 4 h(x) x 1 4 1 2"
+      ],
+      "image": "/images/exams/algebra-1/june-2021/q15.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which domain would be the most appropriate to use for a function that compares the number of emails sent (x) to the amount of data used for a cell phone plan (y)?",
+      "choices": [
+        "integers",
+        "whole numbers",
+        "rational numbers",
+        "irrational numbers Algebra I \u2013 v202"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Eric deposits $500 in a bank account that pays 3.5% interest, compounded yearly. Which type of function should he use to determine how much money he will have in the account at the end of 10 years?",
+      "choices": [
+        "linear",
+        "quadratic",
+        "absolute value",
+        "exponential"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Given: the sequence 4, 7, 10, 13,... When using the arithmetic sequence formula an \u0002 a1 \u0003 (n \u0004 1)d to determine the 10th term, which variable would be replaced with the number 3?",
+      "choices": [
+        "a1",
+        "n",
+        "an",
+        "d"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Below are two representations of data. 3 4 5 6 7 8 9 10 11 B: A: 2, 5, 5, 6, 6, 6, 7, 8, 9 Which statement about A and B is true?",
+      "choices": [
+        "median of A \b median of B",
+        "range of A range of B",
+        "upper quartile of A upper quartile of B",
+        "lower quartile of A \b lower quartile of B"
+      ],
+      "image": "/images/exams/algebra-1/june-2021/q19.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which system has the same solution as the system below? x \u0003 3y \u0002 10 \u00042x \u0004 2y \u0002 4",
+      "choices": [
+        "\u0004x \u0003 y \u0002 6",
+        "\u0004x \u0003 y \u0002 14",
+        "x \u0003 y \u0002 6 2x \u0003 6y \u0002 20 2x \u0003 6y \u0002 20",
+        "x \u0003 y \u0002 14 2x \u0003 6y \u0002 20 2x \u0003 6y \u0002 20 Algebra I \u2013 v202"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Given the pattern below, which recursive formula represents the number of triangles in this sequence?",
+      "choices": [
+        "y \u0002 2x \u0003 3",
+        "y \u0002 3x \u0003 2",
+        "a1 \u0002 2, an \u0002 an \u0004 1 \u0003 3",
+        "a1 \u0002 3, an \u0002 an \u0004 1 \u0003 2"
+      ],
+      "image": "/images/exams/algebra-1/june-2021/q21.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Students were asked to write an expression which had a leading coefficient of 3 and a constant term of \u00044. Which response is correct?",
+      "choices": [
+        "3 \u0004 2x3 \u0004 4x",
+        "7x3 \u0004 3x5 \u0004 4",
+        "4 \u0004 7x \u0003 3x3",
+        "\u00044x2 \u0003 3x4 \u0004 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Sarah travels on her bicycle at a speed of 22.7 miles per hour. What is Sarah\u2019s approximate speed, in kilometers per minute?",
+      "choices": [
+        "0.2",
+        "0.6",
+        "36.5",
+        "36.6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which ordered pair does not fall on the line formed by the other three?",
+      "choices": [
+        "(16,18)",
+        "(12,12)",
+        "(9,10)",
+        "(3,6) Algebra I \u2013 v202 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Solve algebraically for y: 4(y \u0004 3) \u2264 4(2y \u0003 1) Algebra I \u2013 v202",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Graph the function f(x) \u0002 |1 2 x \u0003 3| over the interval \u00048 \u2264 x \u2264 0. y x Algebra I \u2013 v202",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2021/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "The table below shows the height in feet, h(t), of a hot-air balloon and the number of minutes, t, the balloon is in the air. Time (min) 2 5 7 10 12 Height (ft) 64 168 222 318 369 The function h(t) \u0002 30.5t \u0003 8.7 can be used to model this data table. Explain the meaning of the slope in the context of the problem. Explain the meaning of the y-intercept in the context of the problem. Algebra I \u2013 v202",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2021/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Factor x4 \u0004 16 completely. Algebra I \u2013 v202",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Mike knows that (3,6.5) and (4,17.55) are points on the graph of an exponential function, g(x), and he wants to find another point on the graph of this function. First, he subtracts 6.5 from 17.55 to get 11.05. Next, he adds 11.05 and 17.55 to get 28.6. He states that (5,28.6) is a point on g(x). Is he correct? Explain your reasoning. Algebra I \u2013 v202",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Use the method of completing the square to determine the vertex of f(x) \u0002 x2 \u0004 14x \u0004 15. State the coordinates of the vertex. Algebra I \u2013 v202",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "The temperature inside a cooling unit is measured in degrees Celsius, C. Josh wants to find out how cold it is in degrees Fahrenheit, F. Solve the formula C \u0002 5 9(F \u0004 32) for F so that Josh can convert Celsius to Fahrenheit. Algebra I \u2013 v202",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Solve 4w2 \u0003 12w \u0004 44 \u0002 0 algebraically for w, to the nearest hundredth. Algebra I \u2013 v202 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Joey recorded his heart rate, in beats per minute (bpm), after doing different numbers of jumping jacks. His results are shown in the table below. Number of Jumping Jacks x Heart Rate (bpm) y 0 68 10 84 15 104 20 100 30 120 State the linear regression equation that estimates the heart rate per number of jumping jacks. State the correlation coefficient of the linear regression equation, rounded to the nearest hundredth. Explain what the correlation coefficient suggests in the context of this problem. Algebra I \u2013 v202",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2021/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Hannah went to the school store to buy supplies and spent $16. She bought four more pencils than pens and two fewer erasers than pens. Pens cost $1.25 each, pencils cost $0.55 each, and erasers cost $0.75 each. If x represents the number of pens Hannah bought, write an equation in terms of x that can be used to find how many of each item she bought. Use your equation to determine algebraically how many pens Hannah bought. Algebra I \u2013 v202",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Graph the system of inequalities on the set of axes below: y \u2264 \u00043 4 x \u0003 5 3x \u0004 2y \b 4 y x Is (6,3) a solution to the system of inequalities? Explain your answer. Algebra I \u2013 v202",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2021/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "A ball is projected up into the air from the surface of a platform to the ground below. The height of the ball above the ground, in feet, is modeled by the function f(t) \u0002 \u000416t2 \u0003 96t \u0003 112, where t is the time, in seconds, after the ball is projected. State the height of the platform, in feet. State the coordinates of the vertex. Explain what it means in the context of the problem. State the entire interval over which the ball\u2019s height is decreasing. Algebra I \u2013 v202 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "At a local garden shop, the price of plants includes sales tax. The cost of 4 large plants and 8 medium plants is $40. The cost of 5 large plants and 2 medium plants is $28. If l is the cost of a large plant and m is the cost of a medium plant, write a system of equations that models this situation. Could the cost of one large plant be $5.50 and the cost of one medium plant be $2.25? Justify your answer. Determine algebraically both the cost of a large plant and the cost of a medium plant. Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Algebra I \u2013 v202 Tear Here Tear Here ALGEBRA I ALGEBRA I Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

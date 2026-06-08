@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-1",
+  "session": "august-2022",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "If f(x) \u0002 x 3 4 2 , \u0003 then f(8) is",
+      "choices": [
+        "21",
+        "16",
+        "14",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "If x \u2260 0, then the common ratio of the sequence x, 2x2, 4x3, 8x4, 16x5, ... is",
+      "choices": [
+        "2x",
+        "2",
+        "x",
+        "x 1 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The expression 36x2 \u0004 9 is equivalent to",
+      "choices": [
+        "(6x \u0004 3)2",
+        "(18x \u0004 4.5)2",
+        "(6x \u0003 3)(6x \u0004 3)",
+        "(18x \u0003 4.5)(18x \u0004 4.5)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Given the relation R \u0002 {(\u00044,2), (3,6), (x,8), (\u00041,4)} Which value of x would make this relation a function?",
+      "choices": [
+        "\u00044",
+        "\u00041",
+        "3",
+        "0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "If the point (K,\u00045) lies on the line whose equation is 3x \u0003 y \u0002 7, then the value of K is",
+      "choices": [
+        "\u00048",
+        "\u00044",
+        "22",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The expression 1 3 x(6x2 \u0004 3x \u0003 9) is equivalent to",
+      "choices": [
+        "2x2 \u0004 x \u0003 3",
+        "2x2 \u0003 3x \u0003 3",
+        "2x3 \u0004 x2 \u0003 3x",
+        "2x3 \u0003 3x2 \u0003 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The graphs below represent four polynomial functions. Which of these functions has zeros of 2 and \u00043? y x",
+      "choices": [
+        "y x",
+        "y x",
+        "y x",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/august-2022/q7.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "What is the constant term of the polynomial 4d \u0003 6 \u0003 3d2?",
+      "choices": [
+        "6",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Emily was given $600 for her high school graduation. She invested it in an account that earns 2.4% interest per year. If she does not make any deposits or withdrawals, which expression can be used to determine the amount of money that will be in the account after 4 years?",
+      "choices": [
+        "600(1 \u0003 0.24)4",
+        "600(1 \u0004 0.24)4",
+        "600(1 \u0003 0.024)4",
+        "600(1 \u0004 0.024)4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Different ways to represent data are shown below. 0 1 2 3 4 5 6 III 0 1 2 3 4 5 6 0 1 2 3 4 5 6 II 0 1 2 3 4 5 6 I Frequency Which data representations have a median of 2?",
+      "choices": [
+        "I and II, only",
+        "I and III, only",
+        "II and III, only",
+        "I, II, and III"
+      ],
+      "image": "/images/exams/algebra-1/august-2022/q10.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "What would be the order of these quadratic functions when they are arranged from the narrowest graph to the widest graph? f(x) \u0002 \u00045x2 g(x) \u0002 0.5x2 h(x) \u0002 3x2",
+      "choices": [
+        "f(x), g(x), h(x)",
+        "g(x), h(x), f(x)",
+        "h(x), f(x), g(x)",
+        "f(x), h(x), g(x)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "At Berkeley Central High School, a survey was conducted to see if students preferred cheeseburgers, pizza, or hot dogs for lunch. The results of this survey are shown in the table below. Cheeseburgers Pizza Hot Dogs Females 32 44 24 Males 36 30 34 Based on this survey, what percent of the students preferred pizza?",
+      "choices": [
+        "30",
+        "37",
+        "44",
+        "74"
+      ],
+      "image": "/images/exams/algebra-1/august-2022/q12.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which situation could be modeled by a linear function?",
+      "choices": [
+        "The value of a car depreciates by 7% annually.",
+        "A gym charges a $50 initial fee and then $30 monthly.",
+        "The number of bacteria in a lab doubles weekly.",
+        "The amount of money in a bank account increases by 0.1% monthly."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which function has the smallest y-intercept value?",
+      "choices": [
+        "3 1 0 x g(x) 0 1 3",
+        "",
+        "y x 6 4 k(x) 2 2 4 \u20132 \u20132 \u20134 \u20132 \u20132 h(x) \u0002 x \u0003 3 f(x) \u0002 x2 \u0004 2x \u0003 1",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/august-2022/q14.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "When solving x2 \u0003 10x \u0003 13 \u0002 0 by completing the square, which equation is a step in the process?",
+      "choices": [
+        "(x \u0003 5)2 \u0002 38",
+        "(x \u0003 5)2 \u0002 12",
+        "(x \u0003 10)2 \u0002 38",
+        "(x \u0003 10)2 \u0002 12"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "When 3x2 \u0004 7x \u0003 6 \u0004 2x3 is written in standard form, the leading coefficient is",
+      "choices": [
+        "7",
+        "2",
+        "3",
+        "\u00036"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which of the equations below have the same solution? I. 10(x \u0004 5) \u0002 \u000415 II. 4 \u0003 2(x \u0004 2) \u0002 9 III. \u0002 x 1 3 3 2",
+      "choices": [
+        "I and II, only",
+        "I and III, only",
+        "II and III, only",
+        "I, II, and III"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "In an organism, the number of cells, C(d), after d days can be represented by the function C(d) \u0002 120 \u2022 23d. This function can also be expressed as",
+      "choices": [
+        "C(d) \u0002 2403d",
+        "C(d) \u0002 960 \u2022 2d",
+        "C(d) \u0002 120 \u2022 6d",
+        "C(d) \u0002 120 \u2022 8d"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "In the process of solving the equation 10x2 \u0004 12x \u0004 16x \u0002 6, George wrote 2(5x2 \u0004 14x) \u0002 2",
+      "choices": [
+        "A and C",
+        "A and B",
+        "D and C",
+        "D and B"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A sequence is defined recursively by a1 \u0002 \u00042 an \u0002 3an \u0004 1 \u0003 1 What is the value of a4?",
+      "choices": [
+        "\u000441",
+        "\u000414",
+        "22",
+        "67"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A swimmer set a world record in the women\u2019s 1500-meter freestyle, finishing the race in 15.42 minutes. If 1 meter is approximately 3.281 feet, which set of calculations could be used to convert her speed to miles per hour?",
+      "choices": [
+        "1500meters 15.42min 60min 1hour 1meter 3.281feet 1mile 5280feet \u2022 \u2022 \u2022",
+        "1500meters 15.42min 60min 1hour 3.281feet 1meter 1mile 5280feet \u2022 \u2022 \u2022",
+        "1500meters 15.42min 3.281feet 1meter 1mile 5280feet \u2022 \u2022",
+        "1500meters 15.42min 60min 1hour 1mile 5280feet \u2022 \u2022"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The diagram below shows the graph of h(t), which models the height, in feet, of a rocket t seconds after it was shot into the air. 16 32 48 64 1 2 3 4 5 0 h(t) t 80 The domain of h(t) is",
+      "choices": [
+        "(0,4)",
+        "[0,4]",
+        "(0,64)",
+        "[0,64]"
+      ],
+      "image": "/images/exams/algebra-1/august-2022/q22.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The table below shows the time, in hours, spent by students on electronic devices and their math test scores. The data collected model a linear regression. Time Spent on an Electronic Device (hours) Math Test Score 3 85 1 99 4 81 0 98 3 90 7 65 5 78 2 90 What is the correlation coefficient, to the nearest hundredth, for these data?",
+      "choices": [
+        "\u00040.98",
+        "\u00040.95",
+        "0.98",
+        "0.95"
+      ],
+      "image": "/images/exams/algebra-1/august-2022/q23.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The volume of a trapezoidal prism can be found using the formula V \u0002 1 2 a(b \u0003 c)h. Which equation is correctly solved for b?",
+      "choices": [
+        "b V ah c 2 \u0002 \u0003",
+        "b V ah c 2 \u0002 \u0004",
+        "b V ah c 2 \u0002 \u0003",
+        "b V ah c 2 \u0002 \u0004 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Graph f(x) \u0002 |x \u0003 1| on the set of axes below. x f(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2022/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "The table below shows the value of a particular car over time. Time (years) Value (dollars) 0 20,000 5 10,550 10 5570 15 2940 20 1550",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2022/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Is the product of 8 and 98 rational or irrational?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2022/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The ages of the last 16 United States presidents on their first inauguration day are shown in the table below. 51 54 51 60 62 43 55 56 61 52 69 64 46 54 47 70",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2022/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "The cost of one pound of grapes, g, is 15 cents more than one pound of apples, a. The cost of one pound of bananas, b, is twice as much as one pound of grapes. Write an equation that represents the cost of one pound of bananas in terms of the cost of one pound of apples.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "A student is given the functions f(x) \u0002 (x \u0003 1)2 and g(x) \u0002 (x \u0003 3)2. Describe the transformation that maps f(x) onto g(x)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Solve 3x2 \u0004 5x \u0004 7 \u0002 0 algebraically for all values of x,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Factor completely: 3y2 \u0004 12y \u0004 288 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Thomas took a 140-mile bus trip to visit his grandparents. His trip is outlined on the graph below. A 1 2 3 20 40 60 80 100 4 120 140 C D E F Hours Miles B Explain what might have happened in the interval between D and E. State the interval in which the bus traveled the fastest. State how many miles per hour the bus was traveling during this interval. What was the average rate of speed, in miles per hour, for Thomas\u2019s entire bus trip?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2022/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Graph f(x) and g(x) on the set of axes below. f(x) \u0002 x2 \u0004 4x \u0003 3 g(x) \u0002 1 2 x \u0003 1 y x Based on your graph, state one value of x that satisfies f(x) \u0002 g(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2022/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "A store sells grapes for $1.99 per pound, strawberries for $2.50 per pound, and pineapples for $2.99 each. Jonathan has $25 to buy fruit. He plans to buy 2 more pounds of strawberries than grapes. He also plans to buy 2 pineapples. If x represents the number of pounds of grapes,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Appropriate work is shown, but one computational error is made. or Appropriate work is shown, but the explanation is missing or incorrect. Both 60 and 35 are stated, but no further correct work is shown. C to D, but no further correct work is shown. or Either 60 or 35 is stated, but no further correct work is shown. A zero response is completely incorrect, irrelevant, or incoherent or is a correct response that was obtained by an obviously incorrect procedure. Part III For each question, use the speci\ufb01 c criteria to award a maximum of 4 credits. Unless otherwise speci\ufb01 ed, mathematically correct alternative solutions should be awarded appropriate credit. Algebra I Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Solve the system of inequalities graphically on the set of axes below. Label the solution set S. y \u0003 3x \u0005 5 1 \u2265 2x \u0004 y y x Is the point (\u00045,0) in the solution set? Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/august-2022/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "An ice cream shop sells small and large sundaes. One day, 30 small sundaes and 50 large sundaes were sold for $420. Another day, 15 small sundaes and 35 large sundaes were sold for $270. Sales tax is included in all prices. If x is the cost of a small sundae and y is the cost of a large sundae, write a system of equations to represent this situation. Peyton thinks that small sundaes cost $2.75 and large sundaes cost $6.75. Is Peyton correct? Justify your answer. Using your equations, determine algebraically the cost of one small sundae and the cost of one large sundae. Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0006 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0007 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here ALGEBRA I ALGEBRA I Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

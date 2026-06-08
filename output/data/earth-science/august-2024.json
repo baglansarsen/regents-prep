@@ -1,0 +1,1076 @@
+{
+  "subject": "earth-science",
+  "session": "august-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The graph below shows the change in water level height measured in meters (m) at the Brooklyn Bridge in New York City on July 9, 2018. 0 2 12 am 6 am 12 pm 6 pm 12 am July 9 Time Water Level Height (m) 1 According to the pattern shown on the graph, the next high tide will occur on July 10 at approximately",
+      "choices": [
+        "5:24 a.m.",
+        "6:53 a.m.",
+        "5:24 p.m.",
+        "6:53 p.m."
+      ],
+      "image": "/images/exams/earth-science/august-2024/q1.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which event is correlated with an asteroid impact on Earth that occurred approximately 65 million years ago?",
+      "choices": [
+        "extinction of the ammonoids",
+        "the breaking up of Pangaea",
+        "closing of the Iapetus Ocean",
+        "peak development of eurypterids"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Light observed from most galaxies in our universe shows a shift toward the",
+      "choices": [
+        "blue end of the spectrum and is evidence of a contracting universe",
+        "blue end of the spectrum and is evidence of an expanding universe",
+        "red end of the spectrum and is evidence of a contracting universe",
+        "red end of the spectrum and is evidence of an expanding universe"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The Milky Way is classified as a",
+      "choices": [
+        "large constellation",
+        "metallic asteroid",
+        "spiral galaxy",
+        "white dwarf star"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "What is the approximate altitude of Polaris at Riverhead, New York?",
+      "choices": [
+        "41\u00b0",
+        "49\u00b0",
+        "73\u00b0",
+        "90\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "written",
+      "text": "Which instrument provides direct evidence of Earth\u2019s rotation? ( 2 ) ( 3 ) ( 4 ) ( 1 ) 990 980 970 960 950 940 1050 1040 1030 1020 1010 1060 29.5 in 29 28.5 28 31.5 31 30.5 30 Change Rain Fair 1 0 0 0 m b Very dry Stormy",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Rural areas on Long Island, New York, receive approximately the same amount of yearly precipitation as the urban areas of New York City. Compared to rural areas on Long Island, the urban areas of New York City most likely have",
+      "choices": [
+        "less runoff and less infiltration",
+        "less runoff and more infiltration",
+        "more runoff and less infiltration",
+        "more runoff and more infiltration"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "written",
+      "text": "Which diagram best represents the positions of the equator, Earth\u2019s axis with the North Pole labeled (N), and Polaris (*) relative to each other? N Equator N Equator N ( 1 ) ( 3 ) ( 2 ) ( 4 ) N Equator Equator * * * *",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Earth\u2019s early atmosphere is inferred to have been formed during the Early Archean Era primarily by",
+      "choices": [
+        "asteroid impacts",
+        "coal-forming forests",
+        "radioactive decay",
+        "volcanic outgassing"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "In the water cycle, it can be inferred that precipitation has occurred if",
+      "choices": [
+        "grass is covered with frost",
+        "trees are covered with snow",
+        "coastal fog moves inland",
+        "ponds are covered with ice"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The photograph below shows the Great Square of Pegasus, consisting of a pattern of four stars, as viewed from New York State during the fall season. Scheat Alpheratz Markab Algenib Great Square of Pegasus East Which motion causes this square pattern of stars to be visible in the nighttime sky from New York State in the fall, but not in the spring?",
+      "choices": [
+        "rotation of Earth on its axis",
+        "rotation of stars in the Great Square of Pegasus",
+        "revolution of Earth around the Sun",
+        "revolution of the Great Square of Pegasus around Earth"
+      ],
+      "image": "/images/exams/earth-science/august-2024/q11.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "written",
+      "text": "The arrow on which map shows the most likely path of a hurricane in the Atlantic Ocean? ( 4 ) Atlantic Ocean ( 2 ) Atlantic Ocean ( 3 ) Atlantic Ocean ( 1 ) Atlantic Ocean",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a thunderstorm cloud. Arrows represent air motion within the cloud. Downdraft Updraft Warm air Earth\u2019s surface Cold air This air motion is caused by",
+      "choices": [
+        "density differences",
+        "electromagnetic energy",
+        "molecular collisions",
+        "increased transpiration"
+      ],
+      "image": "/images/exams/earth-science/august-2024/q13.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "What is the relative humidity when the dry-bulb temperature is 28\u00b0C and the wet-bulb temperature is 15\u00b0C?",
+      "choices": [
+        "12%",
+        "13%",
+        "21%",
+        "4%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "written",
+      "text": "Which diagram best represents the wavelength of incoming solar radiation received on Earth and the wavelength of outgoing radiation? ( 4 ) ( 2 ) Key Longwave radiation Shortwave radiation ( 1 ) ( 3 ) Earth ( 1 ) Earth Earth Earth Earth",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which statement best explains why most of the surface of Lake Erie usually remains as liquid water in late autumn, even though surrounding land surfaces and air temperatures may be below freezing?",
+      "choices": [
+        "Water has a higher specific heat than land.",
+        "Land surfaces change temperature more slowly than water surfaces.",
+        "Warm winds from the land blow onto the surface of the lake.",
+        "Energy absorption by the water is needed in order to freeze the surface of the lake."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The photograph below shows the large-scale eruption of volcanic ash from Mount Kelud in Indonesia in 2014. https://www.exploredesa.com/2014/02/mount-kelud-made-explosive- eruption-feb-132014/ This volcanic ash in the atmosphere causes",
+      "choices": [
+        "less transparency and a decrease in reflection of insolation",
+        "less transparency and an increase in reflection of insolation",
+        "more transparency and a decrease in reflection of insolation",
+        "more transparency and an increase in reflection of insolation"
+      ],
+      "image": "/images/exams/earth-science/august-2024/q17.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Ireland and England, islands along the northwest coast of Europe, have climates that are warmer than the climate of New York State, even though these islands are located farther north. This increased average temperature is mostly due to heat supplied by the prevailing winds and the",
+      "choices": [
+        "Canary Current",
+        "North Atlantic Current",
+        "North Equatorial Current",
+        "Labrador Current"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The diagram below shows the front fin bones of a Devonian fish and the front leg bones of a present-day amphibian. Devonian Period lobe-finned fish Present-day amphibian a b c c b a humerus radius ulna Similarities in bone structure and arrangement between these two animals support the inference that these animals",
+      "choices": [
+        "both lived during the Devonian Period",
+        "have a common ancestor",
+        "lived in an arid environment",
+        "became fossilized the same way"
+      ],
+      "image": "/images/exams/earth-science/august-2024/q19.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Surface bedrock found in the St. Lawrence Lowlands region of New York State was formed during which periods of geologic time?",
+      "choices": [
+        "Triassic and Jurassic",
+        "Mississippian and Pennsylvanian",
+        "Silurian and Devonian",
+        "Cambrian and Ordovician"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Volcanic ash is most useful for determining the relative age of rock layers because the ash is deposited during a",
+      "choices": [
+        "short period of time over a large area",
+        "short period of time over a small area",
+        "long period of time over a large area",
+        "long period of time over a small area"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Sediments that form a sedimentary rock usually are deposited in a layer that is parallel to Earth\u2019s surface. This statement best describes the",
+      "choices": [
+        "law of superposition",
+        "theory of evolution",
+        "principle of original horizontality",
+        "rule of crosscutting relationships"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The diagram below represents rock columns I and II, found at two different locations. Different rock layers are labeled. The rock layers have not been overturned. Location II X Location I D C B A Which labeled rock layer at location I would most likely have the same relative age as rock layer X at location II?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2024/q23.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which evidence supports the inference that South America and Africa were once joined together as part of the supercontinent Pangaea?",
+      "choices": [
+        "Desert climates are found in the interior of both South America and Africa.",
+        "Rock and fossil correlation can be made where the two continents appear to fit together.",
+        "Mountain glaciers are found in the interiors of both South America and Africa.",
+        "The age of oceanic bedrock is youngest along the coastlines of the two continents and oldest at the Mid-Atlantic Ridge."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The Tonga Trench is located at which type of plate boundary?",
+      "choices": [
+        "convergent",
+        "divergent",
+        "transform",
+        "complex"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "The map below shows a stream drainage pattern. This drainage pattern most likely formed on the surface bedrock of which block diagram? ( 4 ) ( 3 ) ( 2 ) ( 1 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The Hudson River begins its flow at Lake Tear of the Clouds, near Mt. Marcy, New York, where it has a surface elevation of 4293 feet. It travels 162 miles to Troy, New York, where the river\u2019s surface elevation is two feet. The gradient of the Hudson River between Lake Tear of the Clouds and Troy is approximately",
+      "choices": [
+        "4291.00 ft/mi",
+        "81.00 ft/mi",
+        "26.49 ft/mi",
+        "0.04 ft/mi"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The mountain landscape at Old Forge, New York, and the plateau landscape at Slide Mt., New York, are classified based on the differences in",
+      "choices": [
+        "climate",
+        "weathering",
+        "stream drainage",
+        "bedrock structure"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a landscape region located in the southwestern United States. The steep slopes and sharp angular features of this region indicate that, compared to New York State, the climate where this landscape is developing most likely has",
+      "choices": [
+        "lower temperatures and a lower amount of precipitation",
+        "lower temperatures and a higher amount of precipitation",
+        "higher temperatures and a lower amount of precipitation",
+        "higher temperatures and a higher amount of precipitation"
+      ],
+      "image": "/images/exams/earth-science/august-2024/q29.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a valley between two mountains in Acadia National Park in the state of Maine. Photograph by G Meyer The shape of this valley is best described as",
+      "choices": [
+        "U-shaped and eroded by moving ice",
+        "U-shaped and eroded by running water",
+        "V-shaped and eroded by moving ice",
+        "V-shaped and eroded by running water"
+      ],
+      "image": "/images/exams/earth-science/august-2024/q30.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The photograph below shows three different pebbles that have been transported for different amounts of time in a stream. The erosional process that has shaped these pebbles over time is",
+      "choices": [
+        "abrasion, which causes less rounding",
+        "abrasion, which causes more rounding",
+        "sandblasting, which causes less rounding",
+        "sandblasting, which causes more rounding"
+      ],
+      "image": "/images/exams/earth-science/august-2024/q31.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Which satellite photograph below best shows the result of the deposition of river sediments into a large body of water? ( 1 ) ( 3 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a stream in a valley. Letter X represents a surface feature associated with the stream. X Which surface feature is represented by letter X?",
+      "choices": [
+        "floodplain",
+        "kettle lake",
+        "water table",
+        "watershed"
+      ],
+      "image": "/images/exams/earth-science/august-2024/q33.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The famous green-sand beach on the Big Island of Hawaii gets its color from green colored grains of which mineral?",
+      "choices": [
+        "pyrite",
+        "gypsum",
+        "olivine",
+        "hematite"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which metamorphic rock forms only by contact metamorphism?",
+      "choices": [
+        "slate",
+        "gneiss",
+        "marble",
+        "hornfels"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Fossil evidence of which animal is most likely preserved in bedrock unit X?",
+      "choices": [
+        "Coelophysis",
+        "Phacops",
+        "Eurypterus",
+        "Tetragraptus"
+      ],
+      "image": "/images/exams/earth-science/august-2024/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the geologic cross section below, which shows the bedrock \nstructure beneath a portion of the Hudson Highlands and Newark Lowlands landscape regions along the border \nbetween New York State and northern New Jersey. Letters X and Y identify bedrock units shown in the cross \nsection. The Palisades Sill igneous intrusion is identified.\nCross Section\nHudson\nHighlands\nNewark Lowlands\nRamapo  Fault\nHudson\nRiver\nY\nX\nY\nY\nPalisades Sill",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Compared to the other bedrock units, the relative age of the Palisades Sill intrusion is",
+      "choices": [
+        "younger than X, but older than Y",
+        "younger than Y, but older than X",
+        "younger than both X and Y",
+        "older than both X and Y"
+      ],
+      "image": "/images/exams/earth-science/august-2024/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the geologic cross section below, which shows the bedrock \nstructure beneath a portion of the Hudson Highlands and Newark Lowlands landscape regions along the border \nbetween New York State and northern New Jersey. Letters X and Y identify bedrock units shown in the cross \nsection. The Palisades Sill igneous intrusion is identified.\nCross Section\nHudson\nHighlands\nNewark Lowlands\nRamapo  Fault\nHudson\nRiver\nY\nX\nY\nY\nPalisades Sill",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Approximately how many million years ago (mya) did the intrusion of the Palisades Sill occur?",
+      "choices": [
+        "100 mya",
+        "200 mya",
+        "300 mya",
+        "400 mya"
+      ],
+      "image": "/images/exams/earth-science/august-2024/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the geologic cross section below, which shows the bedrock \nstructure beneath a portion of the Hudson Highlands and Newark Lowlands landscape regions along the border \nbetween New York State and northern New Jersey. Letters X and Y identify bedrock units shown in the cross \nsection. The Palisades Sill igneous intrusion is identified.\nCross Section\nHudson\nHighlands\nNewark Lowlands\nRamapo  Fault\nHudson\nRiver\nY\nX\nY\nY\nPalisades Sill",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which climate factor causes location B to have a warmer climate than location E?",
+      "choices": [
+        "latitude",
+        "longitude",
+        "vegetative cover",
+        "nearness to a large body of water"
+      ],
+      "image": "/images/exams/earth-science/august-2024/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the map below and on your knowledge of Earth science. The \nmap represents an imaginary continent on a planet that has climate conditions similar to Earth. Points A through \nG represent locations on the continent. The arrows represent the general direction of the prevailing winds.\nA\nB\nC\nD\nEquator\nF\nE\nG\n30\u00b0 N\n60\u00b0 S\n90\u00b0 S\n30\u00b0 S\n0\u00b0\n30\u00b0 N\n60\u00b0 S\n90\u00b0 S\n30\u00b0 S\n0\u00b0\nMountains\nKey",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "At which location does high elevation cause temperatures to remain low all year with frequent snow events?",
+      "choices": [
+        "E",
+        "F",
+        "G",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2024/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the map below and on your knowledge of Earth science. The \nmap represents an imaginary continent on a planet that has climate conditions similar to Earth. Points A through \nG represent locations on the continent. The arrows represent the general direction of the prevailing winds.\nA\nB\nC\nD\nEquator\nF\nE\nG\n30\u00b0 N\n60\u00b0 S\n90\u00b0 S\n30\u00b0 S\n0\u00b0\n30\u00b0 N\n60\u00b0 S\n90\u00b0 S\n30\u00b0 S\n0\u00b0\nMountains\nKey",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "At which location and on which date would the observer not experience sunrise or sunset?",
+      "choices": [
+        "location A on June 21",
+        "location B on December 21",
+        "location C on March 21 or September 23",
+        "location D on December 21"
+      ],
+      "image": "/images/exams/earth-science/august-2024/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the diagrams below and on your knowledge of Earth\nscience. The diagrams represent the apparent paths and solar noon positions of the Sun on specific dates at four \ndifferent Earth locations, labeled A, B, C, and D.\nLocation A\nLocation B\nLocation C\nLocation D\nW\nW\nS\nN\nE\nObserver\nJune 21\nMar 21\nSep 23\nDec 21\nS\nN\nE\nObserver\nJune 21\nMar 21\nSep 23\nDec 21\nS\nN\nE\nW\nObserver\nJune 21\nMar 21\nSep 23\nDec 21\nN\nN\nN\nN\nObserver\nMar 21\nSep 23\nDec 21",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "For the observer at location B, the Sun appears to move across the sky on June 21 at the rate of",
+      "choices": [
+        "1\u00b0/hour",
+        "15\u00b0/hour",
+        "23.5\u00b0/hour",
+        "365\u00b0/hour"
+      ],
+      "image": "/images/exams/earth-science/august-2024/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the diagrams below and on your knowledge of Earth\nscience. The diagrams represent the apparent paths and solar noon positions of the Sun on specific dates at four \ndifferent Earth locations, labeled A, B, C, and D.\nLocation A\nLocation B\nLocation C\nLocation D\nW\nW\nS\nN\nE\nObserver\nJune 21\nMar 21\nSep 23\nDec 21\nS\nN\nE\nObserver\nJune 21\nMar 21\nSep 23\nDec 21\nS\nN\nE\nW\nObserver\nJune 21\nMar 21\nSep 23\nDec 21\nN\nN\nN\nN\nObserver\nMar 21\nSep 23\nDec 21",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Which phrase most accurately describes the length and direction of the observer\u2019s noontime shadow at location C on December 21 and June 21?",
+      "choices": [
+        "same length, but in opposite directions",
+        "same length in the same direction",
+        "different lengths, but in the opposite directions",
+        "different lengths in the same direction"
+      ],
+      "image": "/images/exams/earth-science/august-2024/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the diagrams below and on your knowledge of Earth\nscience. The diagrams represent the apparent paths and solar noon positions of the Sun on specific dates at four \ndifferent Earth locations, labeled A, B, C, and D.\nLocation A\nLocation B\nLocation C\nLocation D\nW\nW\nS\nN\nE\nObserver\nJune 21\nMar 21\nSep 23\nDec 21\nS\nN\nE\nObserver\nJune 21\nMar 21\nSep 23\nDec 21\nS\nN\nE\nW\nObserver\nJune 21\nMar 21\nSep 23\nDec 21\nN\nN\nN\nN\nObserver\nMar 21\nSep 23\nDec 21",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which statement best explains why the solar noon position of the Sun changes throughout the year at each of these locations?",
+      "choices": [
+        "The orbital velocity of Earth increases as it travels around the Sun.",
+        "The tilt of Earth\u2019s axis changes in a cyclic pattern.",
+        "Earth revolves around the Sun on a tilted axis.",
+        "Earth rotates faster in the summer and slower in the winter."
+      ],
+      "image": "/images/exams/earth-science/august-2024/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the diagrams below and on your knowledge of Earth\nscience. The diagrams represent the apparent paths and solar noon positions of the Sun on specific dates at four \ndifferent Earth locations, labeled A, B, C, and D.\nLocation A\nLocation B\nLocation C\nLocation D\nW\nW\nS\nN\nE\nObserver\nJune 21\nMar 21\nSep 23\nDec 21\nS\nN\nE\nObserver\nJune 21\nMar 21\nSep 23\nDec 21\nS\nN\nE\nW\nObserver\nJune 21\nMar 21\nSep 23\nDec 21\nN\nN\nN\nN\nObserver\nMar 21\nSep 23\nDec 21",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "What event is associated with the formation of the large crack in the eastern branch of the East African Rift in April 2018?",
+      "choices": [
+        "tsunami",
+        "flooding",
+        "downwarping",
+        "earthquake"
+      ],
+      "image": "/images/exams/earth-science/august-2024/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the passage and maps below and on your knowledge of \nEarth science. Map I shows a boxed area in Africa that includes the East African Rift System. Map II shows \ndetails of the boxed area including rifts and developing plates. The dashed lines represent the borders of the rift \nzone.\nThe East African Rift System\nThe entire East African Rift System, which includes both the Ethiopian Rift and East \nAfrican Rift, is located along the edges of three tectonic plates. The rifts that are the oldest \nand widest are in the Afar region to the north. The entire system extends southward, \ncovering thousands of kilometers in Africa. In April 2018, a large crack, extending and \nstretching several kilometers, formed in the eastern branch of the East African Rift. \nTectonic activity such as this causes larger plates to break up into smaller plates.\nEast\nAfrican\nRift\nZone \nN u b i a n  P l a t e\nS o m a l i a n  P l a t e\nArabian\nPlate\nMadagascar\nEthiopian\nRift\nZone\n(Afar Region)\nIndian Ocean\nRed\nSea\nMap I\nMap II\n\nP.S./E. Sci.\u2013Aug. \u201924\t\n[17]\t\n[OVER]",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which characteristic best describes the rock that forms at Earth\u2019s surface where these active rifts occur?",
+      "choices": [
+        "volcanic",
+        "plutonic",
+        "clastic",
+        "bioclastic"
+      ],
+      "image": "/images/exams/earth-science/august-2024/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the passage and maps below and on your knowledge of \nEarth science. Map I shows a boxed area in Africa that includes the East African Rift System. Map II shows \ndetails of the boxed area including rifts and developing plates. The dashed lines represent the borders of the rift \nzone.\nThe East African Rift System\nThe entire East African Rift System, which includes both the Ethiopian Rift and East \nAfrican Rift, is located along the edges of three tectonic plates. The rifts that are the oldest \nand widest are in the Afar region to the north. The entire system extends southward, \ncovering thousands of kilometers in Africa. In April 2018, a large crack, extending and \nstretching several kilometers, formed in the eastern branch of the East African Rift. \nTectonic activity such as this causes larger plates to break up into smaller plates.\nEast\nAfrican\nRift\nZone \nN u b i a n  P l a t e\nS o m a l i a n  P l a t e\nArabian\nPlate\nMadagascar\nEthiopian\nRift\nZone\n(Afar Region)\nIndian Ocean\nRed\nSea\nMap I\nMap II\n\nP.S./E. Sci.\u2013Aug. \u201924\t\n[17]\t\n[OVER]",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "On which major tectonic plate is the Afar Region located?",
+      "choices": [
+        "Eurasian Plate",
+        "African Plate",
+        "Arabian Plate",
+        "Indian-Australian Plate"
+      ],
+      "image": "/images/exams/earth-science/august-2024/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the passage and maps below and on your knowledge of \nEarth science. Map I shows a boxed area in Africa that includes the East African Rift System. Map II shows \ndetails of the boxed area including rifts and developing plates. The dashed lines represent the borders of the rift \nzone.\nThe East African Rift System\nThe entire East African Rift System, which includes both the Ethiopian Rift and East \nAfrican Rift, is located along the edges of three tectonic plates. The rifts that are the oldest \nand widest are in the Afar region to the north. The entire system extends southward, \ncovering thousands of kilometers in Africa. In April 2018, a large crack, extending and \nstretching several kilometers, formed in the eastern branch of the East African Rift. \nTectonic activity such as this causes larger plates to break up into smaller plates.\nEast\nAfrican\nRift\nZone \nN u b i a n  P l a t e\nS o m a l i a n  P l a t e\nArabian\nPlate\nMadagascar\nEthiopian\nRift\nZone\n(Afar Region)\nIndian Ocean\nRed\nSea\nMap I\nMap II\n\nP.S./E. Sci.\u2013Aug. \u201924\t\n[17]\t\n[OVER]",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "In which set of planets is the orbital period of revolution of the first planet listed approximately one-half the orbital period of revolution of the second planet listed?",
+      "choices": [
+        "Jupiter and Neptune",
+        "Jupiter and Uranus",
+        "Uranus and Saturn",
+        "Uranus and Neptune"
+      ],
+      "image": "/images/exams/earth-science/august-2024/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the diagram below and on your knowledge of Earth science. \nThe diagram represents our solar system planets in order of distance from the Sun.\nMercury\nSun\nVenus\nEarth\nJupiter\nOur Solar System\n(Not drawn to scale)\nSaturn\nUranus\nNeptune\nMars",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Compared to the planets closer to the Sun, the planets beyond Mars have",
+      "choices": [
+        "warmer surface temperatures",
+        "greater densities",
+        "shorter periods of rotation",
+        "layers of rocky composition"
+      ],
+      "image": "/images/exams/earth-science/august-2024/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the diagram below and on your knowledge of Earth science. \nThe diagram represents our solar system planets in order of distance from the Sun.\nMercury\nSun\nVenus\nEarth\nJupiter\nOur Solar System\n(Not drawn to scale)\nSaturn\nUranus\nNeptune\nMars",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The solar system formed from",
+      "choices": [
+        "precipitation over millions of years",
+        "the outgassing from volcanic eruptions",
+        "compaction and cementation of materials",
+        "contraction of a giant cloud of gas and debris"
+      ],
+      "image": "/images/exams/earth-science/august-2024/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the diagram below and on your knowledge of Earth science. \nThe diagram represents our solar system planets in order of distance from the Sun.\nMercury\nSun\nVenus\nEarth\nJupiter\nOur Solar System\n(Not drawn to scale)\nSaturn\nUranus\nNeptune\nMars",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify the type of weather front represented in the cross section.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the cross section below and on your knowledge of Earth \nscience. The cross section represents a section of Lake Erie and Buffalo, New York, during a lake-effect snow \nstorm. A frontal boundary is indicated. The arrow indicates the direction that the air mass is moving.\ncP\nAir temperature\n10\u00b0F\nLake Erie\n34\u00b0F\nBuffalo\nAir temperature\n30\u00b0F\nFrontal boundary",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for cold front."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Greatest amounts of lake-effect snow occur when wind blows across the greatest amount of the lake surface. Identify the compass direction toward which winds blow over Lake Erie to cause the most severe lake-effect snow in Buffalo.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the cross section below and on your knowledge of Earth \nscience. The cross section represents a section of Lake Erie and Buffalo, New York, during a lake-effect snow \nstorm. A frontal boundary is indicated. The arrow indicates the direction that the air mass is moving.\ncP\nAir temperature\n10\u00b0F\nLake Erie\n34\u00b0F\nBuffalo\nAir temperature\n30\u00b0F\nFrontal boundary",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 northeast/NE \u2014 SW to NE \u2014 east"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Explain how ice formation on Lake Erie\u2019s surface would reduce lake effect snowfall.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the cross section below and on your knowledge of Earth \nscience. The cross section represents a section of Lake Erie and Buffalo, New York, during a lake-effect snow \nstorm. A frontal boundary is indicated. The arrow indicates the direction that the air mass is moving.\ncP\nAir temperature\n10\u00b0F\nLake Erie\n34\u00b0F\nBuffalo\nAir temperature\n30\u00b0F\nFrontal boundary",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Ice covering the lake would prevent evaporation of lake water. \u2014 The ice on the lake limits the addition of moisture to the air. \u2014 The ice prevents moisture from entering the atmosphere. \u2014 More moist air will rise off an unfrozen lake."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "List two emergency actions, other than stocking up on food and water, a person would take to prepare for a severe lake-effect snowstorm.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the cross section below and on your knowledge of Earth \nscience. The cross section represents a section of Lake Erie and Buffalo, New York, during a lake-effect snow \nstorm. A frontal boundary is indicated. The arrow indicates the direction that the air mass is moving.\ncP\nAir temperature\n10\u00b0F\nLake Erie\n34\u00b0F\nBuffalo\nAir temperature\n30\u00b0F\nFrontal boundary",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for two correct responses. Acceptable responses include, but are not limited to: \u2014 Avoid unnecessary travel and stay indoors. \u2014 Make sure generators are working./Buy a generator. \u2014 Have emergency supplies/medicines available. \u2014 Have snow-removal equipment, shovels, and snowblowers handy. \u2014 Charge cell phones and batteries. Part B\u20132 Allow a maximum of 15 credits for this part. To ensure the accuracy of overlays, select a printer setting such as full, actual size, or 100% when printing this document. Do not select the fit to page setting. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify the force that caused the crust to sink due to the weight of glacial ice.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_55_60.png",
+      "context": "Base your answers to questions 55 through 60 on the information, cross sections, and map below and on your \nknowledge of Earth science. The cross sections represent the same region in Canada approximately 20,000 years \nago and approximately 12,000 years ago. The heavy dark line on the map separates the regions that are presently \nrising from the regions that are presently sinking.\nGlacial ice\n20,000 years ago:\nGlacial ice sheets covered vast regions of \nEarth, causing Earth\u2019s lithosphere to sink \nfrom the weight of the ice. This increased \nweight caused the plastic mantle to be \npushed away from this area.\nLithosphere\nPlastic\nmantle\nRising\nChicago\nSinking\nCanada\nPresent day:\nChicago, Illinois, is located near the frontal \nedge of the last glacial advance. The city is \nslowly sinking, approximately 0.15 centimeter \nper year, because more of the plastic mantle  \nunder this city is flowing back toward \nCanada.\nNo glacier\nLithosphere\nPlastic\nmantle\n12,000 years ago:\nAs glaciers melt, the lithosphere rebounds \n(rises up). The plastic mantle can now \nflow back to the area.\n\nP.S./E. Sci.\u2013Aug. \u201924\t\n[21]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for gravity or gravitation."
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify the geologic time period and epoch when this ice sheet advanced south to the Chicago region and then retreated (melted) back toward northern Canada.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_55_60.png",
+      "context": "Base your answers to questions 55 through 60 on the information, cross sections, and map below and on your \nknowledge of Earth science. The cross sections represent the same region in Canada approximately 20,000 years \nago and approximately 12,000 years ago. The heavy dark line on the map separates the regions that are presently \nrising from the regions that are presently sinking.\nGlacial ice\n20,000 years ago:\nGlacial ice sheets covered vast regions of \nEarth, causing Earth\u2019s lithosphere to sink \nfrom the weight of the ice. This increased \nweight caused the plastic mantle to be \npushed away from this area.\nLithosphere\nPlastic\nmantle\nRising\nChicago\nSinking\nCanada\nPresent day:\nChicago, Illinois, is located near the frontal \nedge of the last glacial advance. The city is \nslowly sinking, approximately 0.15 centimeter \nper year, because more of the plastic mantle  \nunder this city is flowing back toward \nCanada.\nNo glacier\nLithosphere\nPlastic\nmantle\n12,000 years ago:\nAs glaciers melt, the lithosphere rebounds \n(rises up). The plastic mantle can now \nflow back to the area.\n\nP.S./E. Sci.\u2013Aug. \u201924\t\n[21]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Quaternary Period and Pleistocene Epoch."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Describe what is occurring in the plastic mantle that is causing Chicago to sink.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_55_60.png",
+      "context": "Base your answers to questions 55 through 60 on the information, cross sections, and map below and on your \nknowledge of Earth science. The cross sections represent the same region in Canada approximately 20,000 years \nago and approximately 12,000 years ago. The heavy dark line on the map separates the regions that are presently \nrising from the regions that are presently sinking.\nGlacial ice\n20,000 years ago:\nGlacial ice sheets covered vast regions of \nEarth, causing Earth\u2019s lithosphere to sink \nfrom the weight of the ice. This increased \nweight caused the plastic mantle to be \npushed away from this area.\nLithosphere\nPlastic\nmantle\nRising\nChicago\nSinking\nCanada\nPresent day:\nChicago, Illinois, is located near the frontal \nedge of the last glacial advance. The city is \nslowly sinking, approximately 0.15 centimeter \nper year, because more of the plastic mantle  \nunder this city is flowing back toward \nCanada.\nNo glacier\nLithosphere\nPlastic\nmantle\n12,000 years ago:\nAs glaciers melt, the lithosphere rebounds \n(rises up). The plastic mantle can now \nflow back to the area.\n\nP.S./E. Sci.\u2013Aug. \u201924\t\n[21]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Chicago sinks as the plastic mantle under the city flows back toward Canada. \u2014 The mantle under Chicago is flowing northward."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Identify the two solid layers that make up Earth\u2019s lithosphere.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_55_60.png",
+      "context": "Base your answers to questions 55 through 60 on the information, cross sections, and map below and on your \nknowledge of Earth science. The cross sections represent the same region in Canada approximately 20,000 years \nago and approximately 12,000 years ago. The heavy dark line on the map separates the regions that are presently \nrising from the regions that are presently sinking.\nGlacial ice\n20,000 years ago:\nGlacial ice sheets covered vast regions of \nEarth, causing Earth\u2019s lithosphere to sink \nfrom the weight of the ice. This increased \nweight caused the plastic mantle to be \npushed away from this area.\nLithosphere\nPlastic\nmantle\nRising\nChicago\nSinking\nCanada\nPresent day:\nChicago, Illinois, is located near the frontal \nedge of the last glacial advance. The city is \nslowly sinking, approximately 0.15 centimeter \nper year, because more of the plastic mantle  \nunder this city is flowing back toward \nCanada.\nNo glacier\nLithosphere\nPlastic\nmantle\n12,000 years ago:\nAs glaciers melt, the lithosphere rebounds \n(rises up). The plastic mantle can now \nflow back to the area.\n\nP.S./E. Sci.\u2013Aug. \u201924\t\n[21]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for crust and rigid mantle."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Calculate the number of centimeters lower that Chicago will be after 20 years if the rate of sinking remains the same.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_55_60.png",
+      "context": "Base your answers to questions 55 through 60 on the information, cross sections, and map below and on your \nknowledge of Earth science. The cross sections represent the same region in Canada approximately 20,000 years \nago and approximately 12,000 years ago. The heavy dark line on the map separates the regions that are presently \nrising from the regions that are presently sinking.\nGlacial ice\n20,000 years ago:\nGlacial ice sheets covered vast regions of \nEarth, causing Earth\u2019s lithosphere to sink \nfrom the weight of the ice. This increased \nweight caused the plastic mantle to be \npushed away from this area.\nLithosphere\nPlastic\nmantle\nRising\nChicago\nSinking\nCanada\nPresent day:\nChicago, Illinois, is located near the frontal \nedge of the last glacial advance. The city is \nslowly sinking, approximately 0.15 centimeter \nper year, because more of the plastic mantle  \nunder this city is flowing back toward \nCanada.\nNo glacier\nLithosphere\nPlastic\nmantle\n12,000 years ago:\nAs glaciers melt, the lithosphere rebounds \n(rises up). The plastic mantle can now \nflow back to the area.\n\nP.S./E. Sci.\u2013Aug. \u201924\t\n[21]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 3 or 3.0 cm."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Glacial moraines have been found along the boundary at the farthest advance of the glacial ice sheet. Describe the arrangement of sediments found in these moraines.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_55_60.png",
+      "context": "Base your answers to questions 55 through 60 on the information, cross sections, and map below and on your \nknowledge of Earth science. The cross sections represent the same region in Canada approximately 20,000 years \nago and approximately 12,000 years ago. The heavy dark line on the map separates the regions that are presently \nrising from the regions that are presently sinking.\nGlacial ice\n20,000 years ago:\nGlacial ice sheets covered vast regions of \nEarth, causing Earth\u2019s lithosphere to sink \nfrom the weight of the ice. This increased \nweight caused the plastic mantle to be \npushed away from this area.\nLithosphere\nPlastic\nmantle\nRising\nChicago\nSinking\nCanada\nPresent day:\nChicago, Illinois, is located near the frontal \nedge of the last glacial advance. The city is \nslowly sinking, approximately 0.15 centimeter \nper year, because more of the plastic mantle  \nunder this city is flowing back toward \nCanada.\nNo glacier\nLithosphere\nPlastic\nmantle\n12,000 years ago:\nAs glaciers melt, the lithosphere rebounds \n(rises up). The plastic mantle can now \nflow back to the area.\n\nP.S./E. Sci.\u2013Aug. \u201924\t\n[21]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The moraines are composed of mixed sized sediments that are not in layers. \u2014 unsorted sediments \u2014 unlayered sediments P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a line graph by plotting the data for the angles of incidence of the Sun\u2019s rays at solar noon on March 21 for each latitude shown on the data table. Connect all six plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the table below and on your knowledge of Earth science. \nThe table shows the latitude and the Sun\u2019s angle of incidence at solar noon on March 21 for six locations on Earth.\nSun\u2019s Angle of Incidence at Solar Noon on March 21\nLocation\nLatitude (\u00b0N)\nAngle of Incidence\nat Solar Noon (\u00b0)\nKuala Lumpur, Malaysia\n3\n87\nHavana, Cuba\n23\n67\nCairo, Egypt\n30\n60\nBeijing, China\n40\n50\nLondon, England\n52\n38\nOslo, Norway\n60\n30",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all six student plots are within or touch the circles shown and are correctly connected with a line that passes within or touches each circle. Note: Allow credit if the student-drawn line does not pass through the student plots, but is still within or touching the circles. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating. This overlay can be used for question 87 also. 0 0 10 10 20 Latitude (\u00b0N) Angle of Incidence at Solar Noon on March 21 Angle of Incidence (\u00b0) 20 30 30 40 40 50 50 60 60 70 70 80 80 90 90"
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "On the same grid in your answer booklet, place an X to represent the latitude where the angle of incidence of the Sun\u2019s rays would be zero degrees on March 21.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the table below and on your knowledge of Earth science. \nThe table shows the latitude and the Sun\u2019s angle of incidence at solar noon on March 21 for six locations on Earth.\nSun\u2019s Angle of Incidence at Solar Noon on March 21\nLocation\nLatitude (\u00b0N)\nAngle of Incidence\nat Solar Noon (\u00b0)\nKuala Lumpur, Malaysia\n3\n87\nHavana, Cuba\n23\n67\nCairo, Egypt\n30\n60\nBeijing, China\n40\n50\nLondon, England\n52\n38\nOslo, Norway\n60\n30",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the center of the X is within or touches the sides of the clear box shown on the graph above."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "State the number of hours of daylight that occur at all six of these locations on March 21.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the table below and on your knowledge of Earth science. \nThe table shows the latitude and the Sun\u2019s angle of incidence at solar noon on March 21 for six locations on Earth.\nSun\u2019s Angle of Incidence at Solar Noon on March 21\nLocation\nLatitude (\u00b0N)\nAngle of Incidence\nat Solar Noon (\u00b0)\nKuala Lumpur, Malaysia\n3\n87\nHavana, Cuba\n23\n67\nCairo, Egypt\n30\n60\nBeijing, China\n40\n50\nLondon, England\n52\n38\nOslo, Norway\n60\n30",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 12 h."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Determine the half-life time period, in years (y), for argon-39.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the graph below and on your knowledge of Earth science. The \ngraph shows the decay of 140 grams of the radioactive isotope argon-39. The disintegration of argon-39 produces \nthe stable decay product potassium-39.\n0\n100\n200\n300\n400\n500\n600\n700\n800\n900\n1000\n1100\n1200\n1300\n1400\n1500\n1600\n1700\n1800\n1900\n2000\n2100\n2200\n2300\n2400\n2500\n2600\n2700\n0\n10\nTime (years)\nRadioactive Decay of Argon-39\nMass of Argon-39 (grams)\n20\n30\n40\n50\n60\n70\n80\n90\n100\n110\n120\n130\n140",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 255 to 285 y."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "An original sample contains 100% of argon-39. Calculate the percentage of argon-39 that is left in this sample after three half-lives.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the graph below and on your knowledge of Earth science. The \ngraph shows the decay of 140 grams of the radioactive isotope argon-39. The disintegration of argon-39 produces \nthe stable decay product potassium-39.\n0\n100\n200\n300\n400\n500\n600\n700\n800\n900\n1000\n1100\n1200\n1300\n1400\n1500\n1600\n1700\n1800\n1900\n2000\n2100\n2200\n2300\n2400\n2500\n2600\n2700\n0\n10\nTime (years)\nRadioactive Decay of Argon-39\nMass of Argon-39 (grams)\n20\n30\n40\n50\n60\n70\n80\n90\n100\n110\n120\n130\n140",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 12.5%. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "On the map in your answer booklet, starting from point W, complete the 30\u00b0F dewpoint isoline.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the map in your answer booklet, the data table below, and \non your knowledge of Earth science. The map shows several dewpoint isolines over the surface of the United \nStates at 3:00 p.m. on November 1, 2018. The 30\u00b0F dewpoint isoline has been partially drawn. Dewpoint values,\nin degrees Fahrenheit (\u00b0F), are indicated in the central portion of the United States. Three cities, Portland, \nPhoenix, and Albany, are labeled on the map. Points W and X represent surface locations. The data table shows \nthe air temperature and dewpoint in Phoenix and Albany taken at 3:00 p.m. November 1, 2018.\nWeather Data Taken at 3:00 p.m. November 1, 2018\nCity\nAir Temperature (\u00b0F)\nDewpoint (\u00b0F)\nPhoenix\n70\n24\nAlbany\n51\n47",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if 30\u00b0F dewpoint isoline is correctly drawn. The isoline must pass through or touch all five 30\u00b0F dots. If additional lines are drawn, all isolines must be correct to receive credit. Example of a 1-credit response: Portland 50 30 28 27 21 23 23 36 29 31 30 26 28 32 31 30 30 35 35 32 32 34 37 22 X W 25 25 39 30 38 39 30 30 28 24 Phoenix Albany 50 50 5040 40 20 40 30 20 Dewpoint Isoline Map - 3:00 p.m. November 1, 2018 20 30 60 60 70 70"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Identify the most likely dewpoint in Portland at 3:00 p.m. on November 1, 2018.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the map in your answer booklet, the data table below, and \non your knowledge of Earth science. The map shows several dewpoint isolines over the surface of the United \nStates at 3:00 p.m. on November 1, 2018. The 30\u00b0F dewpoint isoline has been partially drawn. Dewpoint values,\nin degrees Fahrenheit (\u00b0F), are indicated in the central portion of the United States. Three cities, Portland, \nPhoenix, and Albany, are labeled on the map. Points W and X represent surface locations. The data table shows \nthe air temperature and dewpoint in Phoenix and Albany taken at 3:00 p.m. November 1, 2018.\nWeather Data Taken at 3:00 p.m. November 1, 2018\nCity\nAir Temperature (\u00b0F)\nDewpoint (\u00b0F)\nPhoenix\n70\n24\nAlbany\n51\n47",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value greater than 50\u00b0F, but less than 60\u00b0F."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Location X was in a cT air mass. Describe the relative air temperature and the relative moisture conditions of this type of air mass. Do not use numbers in your response.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the map in your answer booklet, the data table below, and \non your knowledge of Earth science. The map shows several dewpoint isolines over the surface of the United \nStates at 3:00 p.m. on November 1, 2018. The 30\u00b0F dewpoint isoline has been partially drawn. Dewpoint values,\nin degrees Fahrenheit (\u00b0F), are indicated in the central portion of the United States. Three cities, Portland, \nPhoenix, and Albany, are labeled on the map. Points W and X represent surface locations. The data table shows \nthe air temperature and dewpoint in Phoenix and Albany taken at 3:00 p.m. November 1, 2018.\nWeather Data Taken at 3:00 p.m. November 1, 2018\nCity\nAir Temperature (\u00b0F)\nDewpoint (\u00b0F)\nPhoenix\n70\n24\nAlbany\n51\n47",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for a correct air temperature and moisture condition. Acceptable responses include, but are not limited to: Relative air temperature: \u2014 warm \u2014 hot \u2014 high Relative moisture: \u2014 arid/dry \u2014 low \u2014 not humid \u2014 low dewpoint Part C Allow a maximum of 20 credits for this part. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "State the name of the weather instrument that is used to measure dewpoint.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the map in your answer booklet, the data table below, and \non your knowledge of Earth science. The map shows several dewpoint isolines over the surface of the United \nStates at 3:00 p.m. on November 1, 2018. The 30\u00b0F dewpoint isoline has been partially drawn. Dewpoint values,\nin degrees Fahrenheit (\u00b0F), are indicated in the central portion of the United States. Three cities, Portland, \nPhoenix, and Albany, are labeled on the map. Points W and X represent surface locations. The data table shows \nthe air temperature and dewpoint in Phoenix and Albany taken at 3:00 p.m. November 1, 2018.\nWeather Data Taken at 3:00 p.m. November 1, 2018\nCity\nAir Temperature (\u00b0F)\nDewpoint (\u00b0F)\nPhoenix\n70\n24\nAlbany\n51\n47",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 psychrometer/sling psychrometer \u2014 hygrometer/dewpoint hygrometer \u2014 wet-bulb and dry-bulb thermometers Note: Do not allow credit for \u201cthermometer\u201d alone because this is too general, and two specific thermometers (dry-bulb and wet-bulb) are used to find dewpoint."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Describe how the arrangement of minerals in thin section A indicates that the sample is a metamorphic rock.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_70_74.png",
+      "context": "Base your answers to questions 70 through 74 on the photographs below and on your knowledge of Earth \nscience. The photographs show magnified portions of three thinly sliced pieces of rock (thin sections), labeled A, \nB, and C. Using a microscope, the observer is able to see the shapes and arrangements of the minerals within the \nrock in greater detail. Letter X indicates a mineral in rock A.\nRock A\nRock B\nRock C\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The thin section shows foliation. \u2014 The minerals in A are aligned. \u2014 The minerals are long and stretched/distorted. \u2014 Banding is present."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Mineral X in rock A is very hard, composed of four elements, and fractures when broken. It is dark red in color, and can be used in jewelry and abrasives. Identify the name of this mineral.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_70_74.png",
+      "context": "Base your answers to questions 70 through 74 on the photographs below and on your knowledge of Earth \nscience. The photographs show magnified portions of three thinly sliced pieces of rock (thin sections), labeled A, \nB, and C. Using a microscope, the observer is able to see the shapes and arrangements of the minerals within the \nrock in greater detail. Letter X indicates a mineral in rock A.\nRock A\nRock B\nRock C\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for garnet."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "The white, rounded quartz grains that are cemented together in rock B have an average diameter of 0.05 centimeter. Identify the name of the sedimentary rock shown in thin section B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_70_74.png",
+      "context": "Base your answers to questions 70 through 74 on the photographs below and on your knowledge of Earth \nscience. The photographs show magnified portions of three thinly sliced pieces of rock (thin sections), labeled A, \nB, and C. Using a microscope, the observer is able to see the shapes and arrangements of the minerals within the \nrock in greater detail. Letter X indicates a mineral in rock A.\nRock A\nRock B\nRock C\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for sandstone."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Thin section C shows a coarse-grained igneous rock containing crystals of potassium feldspar, plagioclase feldspar, quartz, and mica. Identify the rock shown by thin section C.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_70_74.png",
+      "context": "Base your answers to questions 70 through 74 on the photographs below and on your knowledge of Earth \nscience. The photographs show magnified portions of three thinly sliced pieces of rock (thin sections), labeled A, \nB, and C. Using a microscope, the observer is able to see the shapes and arrangements of the minerals within the \nrock in greater detail. Letter X indicates a mineral in rock A.\nRock A\nRock B\nRock C\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for granite or pegmatite."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "The photograph below shows another magnified thin section of an igneous rock consisting of coarse-grained crystals scattered among fine-grained crystals. During the formation of the rock, the cooling rate changed. Describe how the cooling rate that produced the coarse-grained crystals differed from the cooling rate that produced the fine-grained crystals.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_70_74.png",
+      "context": "Base your answers to questions 70 through 74 on the photographs below and on your knowledge of Earth \nscience. The photographs show magnified portions of three thinly sliced pieces of rock (thin sections), labeled A, \nB, and C. Using a microscope, the observer is able to see the shapes and arrangements of the minerals within the \nrock in greater detail. Letter X indicates a mineral in rock A.\nRock A\nRock B\nRock C\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Magma first cooled slowly, producing large crystals and then cooled rapidly, producing small crystals. \u2014 Slow cooling produces large crystal size and fast cooling produces small crystal size. \u2014 cooled slower for coarse-grained crystals \u2014 cooled faster for small crystals P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, place an X on the Moon\u2019s orbit at Earth position B to represent where the Moon will be in its New Moon phase.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 77 on the reading passage below, the diagram in your answer \nbooklet, and on your knowledge of Earth science. The diagram represents two different positions, A and B, \nof Earth in its orbit around the Sun. The position of the Moon in its orbit around Earth is indicated at each \nEarth position. The Moon\u2019s position at B represents where the Moon would be after one complete revolution\n(sidereal month) that occurred while Earth moved from A to B. The parallel dashed lines represent the direction \nof the background distant stars in space.\nSidereal Month Versus Synodic Month\nThere is a difference between the amount of time for the Moon to complete one \norbit around Earth (a sidereal month) and the amount of time to change phase from \none New Moon to the next New Moon (a synodic month). The Moon\u2019s sidereal month \nis approximately 27.3 days, which is the period of revolution around Earth relative to the \ndirection of distant background stars. However, because Earth is constantly moving along \nits orbit around the Sun, the Moon must travel slightly more than one revolution, or more \nthan 360\u00b0, to move into the New Moon position again as viewed from Earth. This synodic \nmonth takes approximately 29.5 days.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the center of the X is within or touches the band indicated on the diagram shown below. Note: It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating. Earth\u2019s orbit Moon\u2019s orbit New Moon Moon\u2019s orbit A B Sun Direction to distant background stars (Not drawn to scale)"
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Identify the type of eclipse that can occur when Earth is at position A. Explain why this type of eclipse may occur.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 77 on the reading passage below, the diagram in your answer \nbooklet, and on your knowledge of Earth science. The diagram represents two different positions, A and B, \nof Earth in its orbit around the Sun. The position of the Moon in its orbit around Earth is indicated at each \nEarth position. The Moon\u2019s position at B represents where the Moon would be after one complete revolution\n(sidereal month) that occurred while Earth moved from A to B. The parallel dashed lines represent the direction \nof the background distant stars in space.\nSidereal Month Versus Synodic Month\nThere is a difference between the amount of time for the Moon to complete one \norbit around Earth (a sidereal month) and the amount of time to change phase from \none New Moon to the next New Moon (a synodic month). The Moon\u2019s sidereal month \nis approximately 27.3 days, which is the period of revolution around Earth relative to the \ndirection of distant background stars. However, because Earth is constantly moving along \nits orbit around the Sun, the Moon must travel slightly more than one revolution, or more \nthan 360\u00b0, to move into the New Moon position again as viewed from Earth. This synodic \nmonth takes approximately 29.5 days.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for solar eclipse and a correct explanation. Acceptable responses include, but are not limited to: \u2014 The Moon\u2019s shadow reaches Earth. \u2014 Earth, the Moon, and the Sun are aligned in that order. \u2014 The Moon is between Earth and the Sun. \u2014 The Moon will block the Sun\u2019s rays from reaching Earth."
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify one solar system object that has a period of rotation most similar to that of the sidereal month of the Moon.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 77 on the reading passage below, the diagram in your answer \nbooklet, and on your knowledge of Earth science. The diagram represents two different positions, A and B, \nof Earth in its orbit around the Sun. The position of the Moon in its orbit around Earth is indicated at each \nEarth position. The Moon\u2019s position at B represents where the Moon would be after one complete revolution\n(sidereal month) that occurred while Earth moved from A to B. The parallel dashed lines represent the direction \nof the background distant stars in space.\nSidereal Month Versus Synodic Month\nThere is a difference between the amount of time for the Moon to complete one \norbit around Earth (a sidereal month) and the amount of time to change phase from \none New Moon to the next New Moon (a synodic month). The Moon\u2019s sidereal month \nis approximately 27.3 days, which is the period of revolution around Earth relative to the \ndirection of distant background stars. However, because Earth is constantly moving along \nits orbit around the Sun, the Moon must travel slightly more than one revolution, or more \nthan 360\u00b0, to move into the New Moon position again as viewed from Earth. This synodic \nmonth takes approximately 29.5 days.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the Sun or the Moon. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Describe how the surface temperature and luminosity of the blue main sequence star at A generally changes as it becomes the orange supergiant star at B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_78_80.png",
+      "context": "Base your answers to questions 78 through 80 on the graph and diagram below and on your knowledge of \nEarth science. The graph shows the change in temperature and luminosity of a massive blue main sequence \nstar, represented by letter A, as it evolves into an orange supergiant star represented by letter B. The Sun and \nthe star Betelgeuse are labeled on the graph. The diagram represents two stages in the evolution of the star.\nStage 1 indicates a nuclear process in the star\u2019s interior. Stage 2 represents the evolved layers in this same star \nwhen it becomes a supergiant.\n1,000,000\n100,000\n10,000\n1,000\n0.001\n0.0001\n30,000\n20,000\n10,000 8,000\n6,000\n4,000\n3,000\n2,000\nBlue\nBlue White\nWhite\nColor\nYellow\nOrange\nRed\nSurface Temperature (K)\nLuminosity\n(Rate at which a star emits energy relative to the Sun)\n100\n0.01\n10\n0.1\n1\nA\nB\nBetelgeuse\nSUPERGIANTS\nMAIN SEQUENCE\nGIANTS\nWHITE DWARFS\nSun\nCarbon, oxygen, and\nneon layer\nSilicon and\nsulfur layer\nIron\nCore\nHydrogen\nbecoming\nhelium\nStage 1:\nBlue Main \nSequence Star at\n A\nStage 2:\nOrange\nSupergiant Star at\n B\nHelium layer\nHydrogen layer\n(Not drawn to scale)\n\nP.S./E. Sci.\u2013Aug. \u201924\t\n[27]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses are acceptable. Acceptable responses include, but are not limited to: Surface temperature: \u2014 Temperatures become cooler. \u2014 lower \u2014 decreases \u2014 goes from hotter to cooler \u2014 goes from between 20,000 and 30,000 k down to between 3000 and 4000 k. Luminosity: \u2014 increases \u2014 gets higher \u2014 brighter \u2014 goes from 1000 to between 10,000 and 100,000. \u2014 emits a greater amount of energy"
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "State one similarity between the composition of the core of the supergiant at B and the composition of the core of Earth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_78_80.png",
+      "context": "Base your answers to questions 78 through 80 on the graph and diagram below and on your knowledge of \nEarth science. The graph shows the change in temperature and luminosity of a massive blue main sequence \nstar, represented by letter A, as it evolves into an orange supergiant star represented by letter B. The Sun and \nthe star Betelgeuse are labeled on the graph. The diagram represents two stages in the evolution of the star.\nStage 1 indicates a nuclear process in the star\u2019s interior. Stage 2 represents the evolved layers in this same star \nwhen it becomes a supergiant.\n1,000,000\n100,000\n10,000\n1,000\n0.001\n0.0001\n30,000\n20,000\n10,000 8,000\n6,000\n4,000\n3,000\n2,000\nBlue\nBlue White\nWhite\nColor\nYellow\nOrange\nRed\nSurface Temperature (K)\nLuminosity\n(Rate at which a star emits energy relative to the Sun)\n100\n0.01\n10\n0.1\n1\nA\nB\nBetelgeuse\nSUPERGIANTS\nMAIN SEQUENCE\nGIANTS\nWHITE DWARFS\nSun\nCarbon, oxygen, and\nneon layer\nSilicon and\nsulfur layer\nIron\nCore\nHydrogen\nbecoming\nhelium\nStage 1:\nBlue Main \nSequence Star at\n A\nStage 2:\nOrange\nSupergiant Star at\n B\nHelium layer\nHydrogen layer\n(Not drawn to scale)\n\nP.S./E. Sci.\u2013Aug. \u201924\t\n[27]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Both cores contain iron. \u2014 Heavier elements are found in each core."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Identify the nuclear process that occurs in this star, which converts lighter elements into heavier elements.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_78_80.png",
+      "context": "Base your answers to questions 78 through 80 on the graph and diagram below and on your knowledge of \nEarth science. The graph shows the change in temperature and luminosity of a massive blue main sequence \nstar, represented by letter A, as it evolves into an orange supergiant star represented by letter B. The Sun and \nthe star Betelgeuse are labeled on the graph. The diagram represents two stages in the evolution of the star.\nStage 1 indicates a nuclear process in the star\u2019s interior. Stage 2 represents the evolved layers in this same star \nwhen it becomes a supergiant.\n1,000,000\n100,000\n10,000\n1,000\n0.001\n0.0001\n30,000\n20,000\n10,000 8,000\n6,000\n4,000\n3,000\n2,000\nBlue\nBlue White\nWhite\nColor\nYellow\nOrange\nRed\nSurface Temperature (K)\nLuminosity\n(Rate at which a star emits energy relative to the Sun)\n100\n0.01\n10\n0.1\n1\nA\nB\nBetelgeuse\nSUPERGIANTS\nMAIN SEQUENCE\nGIANTS\nWHITE DWARFS\nSun\nCarbon, oxygen, and\nneon layer\nSilicon and\nsulfur layer\nIron\nCore\nHydrogen\nbecoming\nhelium\nStage 1:\nBlue Main \nSequence Star at\n A\nStage 2:\nOrange\nSupergiant Star at\n B\nHelium layer\nHydrogen layer\n(Not drawn to scale)\n\nP.S./E. Sci.\u2013Aug. \u201924\t\n[27]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for nuclear fusion or fusion. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Convert the area of deforestation in Indonesia during 2006 from kilohectares (kha) to square miles.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the information and data table below and on your\nknowledge of Earth science. The data table shows the total area of forest, in kilohectares (kha), that has been \ndestroyed in Indonesia in Southeast Asia due to deforestation from 2006 to 2012. One kilohectare is equal to an \narea of 3.86 square miles. The average global concentration of the greenhouse gas carbon dioxide (CO2) in the \natmosphere, measured in parts per million (ppm), is also shown for the same years.\nDeforestation\nDeforestation is the destruction of forests by cutting down trees for wood or burning \ntrees to make the land available for other uses, including urbanization and grazing cattle. \nA single hectare of forest can remove as much as 33.5 thousand kilograms of CO2 per year \nfrom the atmosphere. When a forest is destroyed, less carbon dioxide is removed from the \natmosphere.\nYear\nArea of Deforestion \nin Indonesia (kha)\nAverage Global CO2 \nConcentration (ppm)\n2006\n510\n381.9\n2007\n565\n383.8\n2008\n505\n385.6\n2009\n715\n367.4\n2010\n565\n389.9\n2011\n640\n391.7\n2012\n845\n393.9",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 1968.0 to 1969.0 square miles."
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "State one reason, other than deforestation, for an increase in average global CO2 concentration.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the information and data table below and on your\nknowledge of Earth science. The data table shows the total area of forest, in kilohectares (kha), that has been \ndestroyed in Indonesia in Southeast Asia due to deforestation from 2006 to 2012. One kilohectare is equal to an \narea of 3.86 square miles. The average global concentration of the greenhouse gas carbon dioxide (CO2) in the \natmosphere, measured in parts per million (ppm), is also shown for the same years.\nDeforestation\nDeforestation is the destruction of forests by cutting down trees for wood or burning \ntrees to make the land available for other uses, including urbanization and grazing cattle. \nA single hectare of forest can remove as much as 33.5 thousand kilograms of CO2 per year \nfrom the atmosphere. When a forest is destroyed, less carbon dioxide is removed from the \natmosphere.\nYear\nArea of Deforestion \nin Indonesia (kha)\nAverage Global CO2 \nConcentration (ppm)\n2006\n510\n381.9\n2007\n565\n383.8\n2008\n505\n385.6\n2009\n715\n367.4\n2010\n565\n389.9\n2011\n640\n391.7\n2012\n845\n393.9",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Fossil fuels were continually burned during this time. \u2014 more industrialization \u2014 an increase in human population \u2014 pollution from automobile or factory exhaust Note: Do not allow credit for \u201cpollution\u201d or \u201cair pollution\u201d alone because this is too general. Many types of pollution do not increase CO2 levels."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Other than carbon dioxide, identify one other greenhouse gas. P.S./",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the information and data table below and on your\nknowledge of Earth science. The data table shows the total area of forest, in kilohectares (kha), that has been \ndestroyed in Indonesia in Southeast Asia due to deforestation from 2006 to 2012. One kilohectare is equal to an \narea of 3.86 square miles. The average global concentration of the greenhouse gas carbon dioxide (CO2) in the \natmosphere, measured in parts per million (ppm), is also shown for the same years.\nDeforestation\nDeforestation is the destruction of forests by cutting down trees for wood or burning \ntrees to make the land available for other uses, including urbanization and grazing cattle. \nA single hectare of forest can remove as much as 33.5 thousand kilograms of CO2 per year \nfrom the atmosphere. When a forest is destroyed, less carbon dioxide is removed from the \natmosphere.\nYear\nArea of Deforestion \nin Indonesia (kha)\nAverage Global CO2 \nConcentration (ppm)\n2006\n510\n381.9\n2007\n565\n383.8\n2008\n505\n385.6\n2009\n715\n367.4\n2010\n565\n389.9\n2011\n640\n391.7\n2012\n845\n393.9",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 methane/CH4 \u2014 water vapor/H2O gas/H2O (g) \u2014 nitrous oxide/N2O \u2014 chlorofluorocarbons/CFCs \u2014 ozone/O3"
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify the name of the New York State landscape region where the Harbor Hill and Ronkonkoma Moraines are located.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the map below and on your knowledge of Earth science. \nThe map shows some barrier islands, an outwash plain, and two terminal moraines (the Harbor Hill and the\nRonkonkoma) of Long Island, New York. A terminal moraine is a glacial deposit marking the farthest advance of \na glacier.\nHudso\nn \nR\ni\nv\ner\nConnecticut\nNew    York\nLong Island Sound\nAtlantic Ocean\nOutwash plain\nHarbor Hill Moraine\nMap of Long Island\nN\nRonkonkoma Moraine\nBarrier Islands",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Atlantic Coastal Plain."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify the compass direction from which the continental glacier that deposited these terminal moraines on Long Island was advancing. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2024/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the map below and on your knowledge of Earth science. \nThe map shows some barrier islands, an outwash plain, and two terminal moraines (the Harbor Hill and the\nRonkonkoma) of Long Island, New York. A terminal moraine is a glacial deposit marking the farthest advance of \na glacier.\nHudso\nn \nR\ni\nv\ner\nConnecticut\nNew    York\nLong Island Sound\nAtlantic Ocean\nOutwash plain\nHarbor Hill Moraine\nMap of Long Island\nN\nRonkonkoma Moraine\nBarrier Islands",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 north \u2014 NW P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    }
+  ]
+}

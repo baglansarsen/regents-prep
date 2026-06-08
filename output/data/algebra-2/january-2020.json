@@ -1,0 +1,486 @@
+{
+  "subject": "algebra-2",
+  "session": "january-2020",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The expression x y 81 8 6 4 is equivalent to",
+      "choices": [
+        "3x2y 3\u2013\u20132",
+        "3x4y2",
+        "9x2y 3\u2013\u20132",
+        "9x4y2"
+      ],
+      "image": "/images/exams/algebra-2/january-2020/q1.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Chet has $1200 invested in a bank account modeled by the function P(n) \u0002 1200(1.002)n, where P(n) is the value of his account, in dollars, after n months. Chet\u2019s debt is modeled by the function Q(n) \u0002 100n, where Q(n) is the value of debt, in dollars, after n months. After n months, which function represents Chet\u2019s net worth, R(n)?",
+      "choices": [
+        "R(n) \u0002 1200(1.002)n \u0003 100n",
+        "R(n) \u0002 1200(1.002)12n \u0003 100n",
+        "R(n) \u0002 1200(1.002)n \u0004 100n",
+        "R(n) \u0002 1200(1.002)12n \u0004 100n"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Emmeline is working on one side of a polynomial identity proof used to form Pythagorean triples. Her work is shown below: (5x)2 \u0003 (5x2 \u0004 5)2 Step 1: 25x2 \u0003 (5x2 \u0004 5)2 Step 2: 25x2 \u0003 25x2 \u0003 25 Step 3: 50x2 \u0003 25 Step 4: 75x2 What statement is true regarding Emmeline\u2019s work?",
+      "choices": [
+        "Emmeline\u2019s work is entirely correct.",
+        "There is a mistake in step 2, only.",
+        "There are mistakes in step 2 and step 4.",
+        "There is a mistake in step 4,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Susan won $2,000 and invested it into an account with an annual interest rate of 3.2%. If her investment were compounded monthly, which expression best represents the value of her investment after t years?",
+      "choices": [
+        "2000(1.003)12t",
+        "2000(1.032) t\u2014 12",
+        "2064 t\u2014 12",
+        "2000(1.032) 12 t"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "written",
+      "text": "Consider the end behavior description below. \u2022 as x \u2192 \u0004\u0005, f(x) \u2192 \u0005 \u2022 as x \u2192 \u0005, f(x) \u2192 \u0004\u0005 Which function satis\ufb01 es the given conditions? y x y x f (x) \u0002 x 4 \u0003 2x 2 \u0003 1 f (x) \u0002 \u0004x 3 \u0003 2x \u0004 6 ( 1 ) ( 3 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2020/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The expression (x \u0003 a)2 \u0003 5(x \u0003 a) \u0003 4 is equivalent to",
+      "choices": [
+        "(a \u0003 1)(a \u0003 4)",
+        "(x \u0003 1)(x \u0003 4)",
+        "(x \u0003 a \u0003 1)(x \u0003 a \u0003 4)",
+        "x2 \u0003 a2 \u0003 5x \u0003 5a \u0003 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Given x \u2260 \u00042, the expression x x x 2 5 8 2 2\u0003 \u0003 \u0003 is equivalent to",
+      "choices": [
+        "2x2 \u0003 x 9 2 \u0003",
+        "2x \u0003 x 7 2 \u0003",
+        "2x \u0003 1 \u0003 x 6 2 \u0003",
+        "2x \u0003 9 \u0004 x 10 2 \u0003"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which situation best describes conditional probability?",
+      "choices": [
+        "finding the probability of an event occurring two or more times",
+        "finding the probability of an event occurring only once",
+        "finding the probability of two independent events occurring at the same time",
+        "finding the probability of an event occurring given another event had already occurred"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which expression is not a solution to the equation 2t \u0002 10?",
+      "choices": [
+        "1 2log210",
+        "log2 10",
+        "log410",
+        "log104"
+      ],
+      "image": "/images/exams/algebra-2/january-2020/q9.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "What is the solution set of x \u0002 \u0003 3 40 x ?",
+      "choices": [
+        "{\u00045,8}",
+        "{8}",
+        "{\u00044,10}",
+        "{ }"
+      ],
+      "image": "/images/exams/algebra-2/january-2020/q10.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2020/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "12",
+      "choices": [
+        "{\u00045,8}",
+        "{8}",
+        "{\u00044,10}",
+        "{ } 11 Consider the data in the table below. Right Handed Left Handed Male 87"
+      ],
+      "image": "/images/exams/algebra-2/january-2020/q12.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Female 89 11 What is the probability that a randomly selected person is male given the person is left handed?",
+      "choices": [
+        "gn \u0002 40( 3 4) n",
+        "g1 \u0002 40",
+        "gn \u0002 40( 3 4) n\u00041",
+        "g1 \u0002 40 gn \u0002 gn \u0004 1 \u0004 10 gn \u0002 3 4 gn \u0004 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The J & B candy company claims that 45% of the candies it produces are blue, 30% are brown, and 25% are yellow. Each bag holds 65 candies. A simulation was run 200 times, each of sample size 65, based on the premise that 45% of the candies are blue. The results of the simulation are shown below. Number of Blue Mean = 29.270 SD = 3.936 10 20 30 0 Frequency 18 15 21 24 27 30 33 36 39 42 Bonnie purchased a bag of J & B\u2019s candy and counted 24 blue candies. What inference can be made regarding a bag of J & B\u2019s with only 24 blue candies?",
+      "choices": [
+        "The company is not meeting their production standard.",
+        "Bonnie\u2019s bag was a rarity and the company should not be concerned.",
+        "The company should change their claim to 37% blue candies are produced.",
+        "Bonnie\u2019s bag is within the middle 95% of the simulated data supporting the company\u2019s claim."
+      ],
+      "image": "/images/exams/algebra-2/january-2020/q14.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which investigation technique is most often used to determine if a single variable has an impact on a given population?",
+      "choices": [
+        "observational study",
+        "random survey",
+        "controlled experiment",
+        "formal interview"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "As \u03b8 increases from \u0004/ 2 to 0 radians, the value of cos \u03b8 will",
+      "choices": [
+        "decrease from 1 to 0",
+        "decrease from 0 to \u00041",
+        "increase from \u00041 to 0",
+        "increase from 0 to 1"
+      ],
+      "image": "/images/exams/algebra-2/january-2020/q16.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Consider the following patterns: I. 16, \u000412, 9, \u00046.75, \u2026 II. 1, 4, 9, 16, \u2026 III. 6, 18, 30, 42, \u2026 IV. 1 2 , 2 3 , 3 4 , 4 5, \u2026 Which pattern is geometric?",
+      "choices": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Consider the system below. x \u0003 y \u0003 z \u0002 9 x \u0004 y \u0004 z \u0002 \u00041 x \u0004 y \u0003 z \u0002 21 Which value is not in the solution, (x,y,z), of the system?",
+      "choices": [
+        "\u00048",
+        "\u00046",
+        "11",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which statement regarding polynomials and their zeros is true?",
+      "choices": [
+        "f(x) \u0002 (x2 \u0004 1)(x \u0003 a) has zeros of 1 and \u0004a, only.",
+        "f(x) \u0002 x3 \u0004 ax2 \u0003 16x \u0004 16a has zeros of 4 and a, only.",
+        "f(x) \u0002 (x2 \u0003 25)(x \u0003 a) has zeros of \u00065 and \u0004a.",
+        "f(x) \u0002 x3 \u0004 ax2 \u0004 9x \u0003 9a has zeros of \u00063 and a."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "If a solution of 2(2x \u0004 1) \u0002 5x2 is expressed in simplest a \u0003 bi form, the value of b is",
+      "choices": [
+        "i 6 5",
+        "6 5",
+        "i 1 5",
+        "1 5"
+      ],
+      "image": "/images/exams/algebra-2/january-2020/q20.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which value, to the nearest tenth, is the smallest solution of f(x) \u0002 g(x) if f(x) \u0002 3sin( 1 2x) \u0004 1 and g(x) \u0002 x3 \u0004 2x \u0003 1?",
+      "choices": [
+        "\u00043.6",
+        "\u00042.1",
+        "\u00041.8",
+        "1.4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Expressed in simplest a \u0003 bi form, (7 \u0004 3i) \u0003 (x \u0004 2i)2 \u0004 (4i \u0003 2x2) is",
+      "choices": [
+        "(3 \u0004 x2) \u0004 (4x \u0003 7)i",
+        "(3 \u0003 3x2) \u0004 (4x \u0003 7)i",
+        "(3 \u0004 x2) \u0004 7i",
+        "(3 \u0003 3x2) \u0004 7i"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Written in simplest form, the fraction 9 9 3 2 x x x \u0004 \u0004 , where x \u2260 \u00063, is equivalent to",
+      "choices": [
+        "\u0004x",
+        "x",
+        "3 3 x x x \u0004 \u0003 \u0003 ( ) ( )",
+        "3 3 x x x \u0004 \u0004 ( ) ( )"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "According to a study, 45% of Americans have type O blood. If a random number generator produces three-digit values from 000 to 999, which values would represent those having type O blood?",
+      "choices": [
+        "between 000 and 045, inclusive",
+        "between 000 and 444, inclusive",
+        "between 000 and 449, inclusive",
+        "between 000 and 450, Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "For n and p \u0007 0, is the expression 2 1 2 5 4 p n p n 8 ( ) equivalent to p18n6 p?",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2020/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Show why x \u0004 3 is a factor of m(x) \u0002 x3 \u0004 x2 \u0004 5x \u0004 3. Justify your answer.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Describe the transformation applied to the graph of p(x) \u0002 2x that forms the new function q(x) \u0002 2x\u00043 \u0003 4",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The parabola y \u0002 \u0004 1 20(x \u0004 3)2 \u0003 6 has its focus at (3,1). Determine and state the equation of the directrix. (The use of the grid below is optional.)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2020/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Given the geometric series 300 \u0003 360 \u0003 432 \u0003 518.4 \u0003 ..., write a geometric series formula, Sn, for the sum of the first n terms. Use the formula to find the sum of the first 10 terms,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Visible light can be represented by sinusoidal waves. Three visible light waves are shown in the graph below. The midline of each wave is labeled . 0 40 80 120 160 200 240 280 320 360 400 440 480 520 560 600 A Nanometers B Key C Based on the graph, which light wave has the longest period?",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2020/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Biologists are studying a new bacterium. They create a culture with 100 of the bacteria and anticipate that the number of bacteria will double every 30 hours. Write an equation for the number of bacteria, B, in terms of the number of hours, t,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Graph y \u0002 x3 \u0004 4x2 \u0003 2x \u0003 7 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2020/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Sonja is cutting wire to construct a mobile. She cuts 100 inches for the first piece, 80 inches for the second piece, and 64 inches for the third piece. Assuming this pattern continues, write an explicit equation for an, the length in inches of the nth piece. Sonja only has 40 feet of wire to use for the project and wants to cut 20 pieces total for the mobile using her pattern. Will she have enough wire?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Graph the following function on the axes below. f(x) \u0002 log3(2 \u0004 x)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2020/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Algebraically solve the following system of equations. (x \u0004 2)2 \u0003 (y \u0004 3)2 \u0002 16 x \u0003 y \u0004 1 \u0002 0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "The table below gives air pressures in kPa at selected altitudes above sea level measured in kilometers. x Altitude (km) 0 1 2 3 4 5 y Air Pressure (kPa) 101 90 79 70 62 54 Write an exponential regression equation that models these data rounding all values to the nearest thousandth. Use this equation to algebraically determine the altitude, to the nearest hundredth of a kilometer, when the air pressure is 29 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2020/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Sarah is fighting a sinus infection. Her doctor prescribed a nasal spray and an antibiotic to fight the infection. The active ingredients, in milligrams, remaining in the bloodstream from the nasal spray, n(t), and the antibiotic, a(t), are modeled in the functions below, where t is the time in hours since the medications were taken. n(t) \u0002 t t t t 1 5 18 8 15 2 \u0003 \u0003 \u0003 \u0003 \u0003 a(t) \u0002 t 9 3 \u0003 Determine which drug is made with a greater initial amount of active ingredient. Justify your answer. Question 37 Sarah\u2019s doctor told her to take both drugs at the same time. Determine algebraically the number of hours after taking the medications when both medications will have the same amount of active ingredient remaining in her bloodstream. Question 37 is continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0006 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \b 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

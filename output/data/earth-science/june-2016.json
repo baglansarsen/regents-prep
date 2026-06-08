@@ -1,0 +1,1076 @@
+{
+  "subject": "earth-science",
+  "session": "june-2016",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Earth\u2019s approximate rate of revolution is",
+      "choices": [
+        "1\u00b0 per day",
+        "15\u00b0 per day",
+        "180\u00b0 per day",
+        "360\u00b0 per day"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Planetary winds in the Northern Hemisphere are deflected to the right due to the",
+      "choices": [
+        "Doppler effect",
+        "Coriolis effect",
+        "tilt of Earth\u2019s axis",
+        "polar front jet stream"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which star is hotter, but less luminous, than Polaris?",
+      "choices": [
+        "Deneb",
+        "Aldebaran",
+        "Sirius",
+        "Pollux"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which statement best explains why Earth and the other planets of our solar system became layered as they were being formed?",
+      "choices": [
+        "Gravity caused less-dense material to move toward the center of each planet.",
+        "Gravity caused more-dense material to move toward the center of each planet.",
+        "Materials that cooled quickly stayed at the surface of each planet.",
+        "Materials that cooled slowly stayed at the surface of each planet."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which conditions on Earth\u2019s surface will allow for the greatest amount of water to seep into the ground?",
+      "choices": [
+        "gentle slope and permeable",
+        "gentle slope and impermeable",
+        "steep slope and permeable",
+        "steep slope and impermeable"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a Foucault pendulum at a museum. The pendulum knocks over pins in a regular pattern as it swings back and forth. This pendulum movement, and the pattern of knocked-over pins, is evidence of Earth\u2019s",
+      "choices": [
+        "nearly spherical shape",
+        "gravitational attraction to the Sun",
+        "rotation on its axis",
+        "nearly circular orbit around the Sun"
+      ],
+      "image": "/images/exams/earth-science/june-2016/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Earth\u2019s early atmosphere contained carbon dioxide, sulfur dioxide, hydrogen, nitrogen, water vapor, methane, and ammonia. These gases were present in the atmosphere primarily because",
+      "choices": [
+        "radioactive decay products produced in Earth\u2019s core were released from Earth\u2019s surface",
+        "evolving Earth life-forms produced these gases through their activity",
+        "Earth\u2019s growing gravitational field attracted these gases from space",
+        "volcanic eruptions on Earth\u2019s surface released these gases from the interior"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the apparent positions of the Big Dipper, with respect to Polaris, as seen by an observer in New York State at midnight on the first day of summer and on the first day of winter. The change in the apparent position of the Big Dipper between the first day of summer and the first day of winter is best explained by Earth",
+      "choices": [
+        "rotating for 12 hours",
+        "rotating for 1 day",
+        "revolving for 6 months",
+        "revolving for 1 year"
+      ],
+      "image": "/images/exams/earth-science/june-2016/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The weather station model shown below indicates that winds are coming from the",
+      "choices": [
+        "southeast at 10 knots",
+        "northwest at 10 knots",
+        "southeast at 20 knots",
+        "northwest at 20 knots"
+      ],
+      "image": "/images/exams/earth-science/june-2016/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which type of air mass most likely has high humidity and high temperature?",
+      "choices": [
+        "cP",
+        "cT",
+        "mT",
+        "mP"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "What is the relative humidity if the dry-bulb temperature is 16\u00b0C and the wet-bulb temperature is 10\u00b0C?",
+      "choices": [
+        "45%",
+        "33%",
+        "14%",
+        "4%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The table below shows the air temperature and dewpoint at each of four locations, A, B, C, and D. Based on these measurements, which location has the greatest chance of precipitation?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2016/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which type of electromagnetic radiation has the shortest wavelength?",
+      "choices": [
+        "ultraviolet",
+        "gamma rays",
+        "radio waves",
+        "visible light"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which gas is considered a major greenhouse gas?",
+      "choices": [
+        "methane",
+        "hydrogen",
+        "oxygen",
+        "nitrogen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The diagram below represents Earth and the Sun\u2019s incoming rays. Letters A, B, C, and D represent locations on Earth\u2019s surface. Which two locations are receiving the same intensity of insolation?",
+      "choices": [
+        "A and B",
+        "B and C",
+        "C and D",
+        "D and B Sun\u2019s rays A B D C North Pole Location A B C D Air temperature (\u00b0F) 80 60 45 35 Dewpoint (\u00b0F) 60 43 35 33 Polaris Summer Winter"
+      ],
+      "image": "/images/exams/earth-science/june-2016/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Most of the sand that makes up the sandstone found in New York State was originally deposited in which type of layers?",
+      "choices": [
+        "tilted",
+        "horizontal",
+        "faulted",
+        "folded"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The map below shows the current location of New York State in North America. Approximately how many million years ago (mya) was this New York State region located at the equator?",
+      "choices": [
+        "59 mya",
+        "119 mya",
+        "359 mya",
+        "458 mya"
+      ],
+      "image": "/images/exams/earth-science/june-2016/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Many scientists infer that one cause of the mass extinction of dinosaurs and ammonoids that occurred approximately 65.5 million years ago was",
+      "choices": [
+        "tectonic plate subduction of most of the continents",
+        "an asteroid impact that resulted in climate change",
+        "a disease spreading among many groups of organisms",
+        "severe damage produced by worldwide earthquakes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "During which geologic epoch do scientists infer that the earliest grasses first appeared on Earth?",
+      "choices": [
+        "Holocene",
+        "Pleistocene",
+        "Oligocene",
+        "Eocene"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "What are the inferred pressure and temperature at the boundary of Earth\u2019s stiffer mantle and outer core?",
+      "choices": [
+        "1.5 million atmospheres pressure and an interior temperature of 4950\u00b0C",
+        "1.5 million atmospheres pressure and an interior temperature of 6200\u00b0C",
+        "3.1 million atmospheres pressure and an interior temperature of 4950\u00b0C",
+        "3.1 million atmospheres pressure and an interior temperature of 6200\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A seismic P-wave is recorded at 2:25 p.m. at a seismic station located 7600 kilometers from the epicenter of an earthquake. At what time did the earthquake occur?",
+      "choices": [
+        "2:05 p.m.",
+        "2:11 p.m.",
+        "2:14 p.m.",
+        "2:36 p.m."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A seismic station recorded the P-waves, but no S-waves, from an earthquake because S-waves were",
+      "choices": [
+        "absorbed by Earth\u2019s outer core",
+        "transmitted only through liquids",
+        "weak and detected only at nearby locations",
+        "not produced by this earthquake"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The Catskills of New York State are best described as a plateau, while the Adirondacks are best described as mountains. Which factor is most responsible for the difference in landscape classification of these two regions?",
+      "choices": [
+        "climate variations",
+        "bedrock structure",
+        "vegetation type",
+        "bedrock age"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "An elongated hill that is composed of unsorted sediments deposited by a glacier is called",
+      "choices": [
+        "a delta",
+        "a drumlin",
+        "a sand dune",
+        "an outwash plain"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which rock was subjected to intense heat and pressure but did not solidify from magma?",
+      "choices": [
+        "sandstone",
+        "schist",
+        "gabbro",
+        "rhyolite New York State"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The map below shows a stream drainage pattern where the streams radiate outward from the center. Which landscape feature would produce this stream drainage pattern?",
+      "choices": [
+        "steep cliff",
+        "glacial kettle lake",
+        "volcanic mountain",
+        "flat plain"
+      ],
+      "image": "/images/exams/earth-science/june-2016/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The map below shows the area that, at one time, was covered by ancient Lake Bonneville. Evidence of ancient shorelines indicates that, near the end of the last ice age, Lake Bonneville existed in western Utah and eastern Nevada. The Great Salt Lake in Utah is a remnant of the former Lake Bonneville. Which material that was formerly on the bottom of Lake Bonneville is most likely exposed on the land surface today?",
+      "choices": [
+        "folded metamorphic bedrock",
+        "flat-lying evaporite deposits",
+        "coarse-grained coal beds",
+        "fine-grained layers of volcanic lava"
+      ],
+      "image": "/images/exams/earth-science/june-2016/q27.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The cross section below represents a portion of a meandering stream. Points X and Y represent two positions on opposite sides of the stream. Based on the cross section, which map of a meandering stream best shows the positions of points X and Y?",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "When wind and running water gradually decrease in velocity, the transported sediments are deposited",
+      "choices": [
+        "all at once, and are unsorted",
+        "all at once, and are sorted by size and density",
+        "over a period of time, and are unsorted",
+        "over a period of time, and are sorted by size and density ( 1 ) ( 2 ) X Y ( 3 ) X Y X Y ( 4 ) X Y X Y Stream surface Depth Great Salt Lake Lake Bonneville Nevada Utah"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The graph below shows ocean water levels for a shoreline location on Long Island, New York. The graph also indicates the dates and times of high and low tides. Based on the data, the next high tide occurred at approximately",
+      "choices": [
+        "4 p.m. on July 13",
+        "10 p.m. on July 13",
+        "4 p.m. on July 14",
+        "10 p.m. on July 14"
+      ],
+      "image": "/images/exams/earth-science/june-2016/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Which diagram best represents heat transfer mainly by the process of conduction? Cold window Hot radiator Earth Sun ( 1 ) ( 2 ) ( 3 ) ( 4 ) Asthenosphere Atoms in metal rod vibrating Flame Stiffer mantle 3 \u20132 \u20131 0 1 2 Low Long Island Tides Water Level (ft) Midnight 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 Noon Midnight Noon July 12 July 13 Time (h) High Low High Low High a.m. a.m. p.m. p.m.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the position of Earth in its orbit and the position of a comet in its orbit around the Sun. Which inference can be made about the comet\u2019s orbit, when it is compared to Earth\u2019s orbit?",
+      "choices": [
+        "Earth\u2019s orbit and the comet\u2019s orbit have the same distance between foci.",
+        "Earth\u2019s orbit has a greater distance between foci than the comet\u2019s orbit.",
+        "The comet\u2019s orbit has one focus, while Earth\u2019s orbit has two foci.",
+        "The comet\u2019s orbit has a greater distance between foci than Earth\u2019s orbit."
+      ],
+      "image": "/images/exams/earth-science/june-2016/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which sequence of geologic events is in the correct order, from oldest to most recent?",
+      "choices": [
+        "oceanic oxygen begins to enter the atmosphere \u2192earliest stromatolites \u2192initial opening of the Iapetus Ocean \u2192dome-like uplift of the Adirondack region begins",
+        "dome-like uplift of the Adirondack region begins \u2192initial opening of the Iapetus Ocean \u2192oceanic oxygen begins to enter the atmosphere \u2192earliest stromatolites",
+        "initial opening of the Iapetus Ocean \u2192earliest stromatolites \u2192oceanic oxygen begins to enter the atmosphere \u2192dome-like uplift of the Adirondack region begins",
+        "earliest stromatolites \u2192oceanic oxygen begins to enter the atmosphere \u2192initial opening of the Iapetus Ocean \u2192dome-like uplift of the Adirondack region begins Sun Comet Orbit of Earth Orbit of a comet (Not drawn to scale) Earth"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The cross section of the atmosphere below represents the air motion near two frontal boundaries along reference line XY on Earth\u2019s surface. Which weather map correctly identifies these fronts and indicates the direction that these fronts are moving? ( 1 ) ( 2 ) ( 3 ) L L ( 4 ) L Utica Detroit Buffalo Chicago Utica Detroit Buffalo Chicago Utica Detroit Buffalo Chicago X Y X Y X Y L Utica Detroit Buffalo Chicago X Y X Chicago Detroit Buffalo Utica Y ( Not drawn to scale) Cold dry air Cool air Warm moist air",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Which block diagram represents the plate motion that causes the earthquakes that occur along the San Andreas Fault in California? Sea level ( 1 ) ( 2 ) Sea level Key Continental crust Oceanic crust Mantle Earthquake Direction of plate movement ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "At which map location would no shadow be cast by the vertical stick at solar noon on the first day of summer?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 36 through 39 on the map and the passage below and on your knowledge of\nEarth science. The map shows four different locations in India, labeled A, B, C, and D, where vertical sticks\nwere placed in the ground on the same clear day. The locations of two cities in India are also shown.\nMonsoons in India\nA monsoon season is caused by a seasonal shift in the wind direction, which produces\nexcessive rainfall in many parts of the world, most notably India. Cherrapunji, in \nnortheast India, received a record 30.5 feet of rain during July 1861. During the \nmonsoon season from early June into September, Mumbai, India averages 6.8 feet of\nrain. Mumbai\u2019s total average rainfall for the other eight months of the year is only \n3.9 inches.\nMonsoons are caused by unequal heating rates of land and water. As the land heats\nthroughout the summer, a large low-pressure system forms over India. The heat from\nthe Sun also warms the surrounding ocean waters, but the water warms much more\nslowly. The cooler air above the ocean is more dense, creating a higher air pressure \nrelative to the lower air pressure over India.\nD\nB\nC\nA\n70\u0002 E\n80\u0002 E\n90\u0002 E\n30\u0002 N\n20\u0002 N\nTropic of\nCancer\n10\u0002 N\nMumbai\nINDIA\nCherrapunji\nP.S./E. Sci.\u2013June \u201916\n[10]\nPart B\u20131\nAnswer all questions in this part.\nDirections (36\u201350): For each statement or question, choose the word or expression that, of those given, best\ncompletes the statement or answers the question. Some questions may require the use of the 2011 Edition\nReference Tables for Physical Setting/Earth Science. Record your answers on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Which map shows both the dominant air pressure system that forms over India in the summer and the direction of surface winds around this air pressure system? [High pressure = H, Low pressure = L]",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/q37.png",
+      "context": "Base your answers to questions 36 through 39 on the map and the passage below and on your knowledge of\nEarth science. The map shows four different locations in India, labeled A, B, C, and D, where vertical sticks\nwere placed in the ground on the same clear day. The locations of two cities in India are also shown.\nMonsoons in India\nA monsoon season is caused by a seasonal shift in the wind direction, which produces\nexcessive rainfall in many parts of the world, most notably India. Cherrapunji, in \nnortheast India, received a record 30.5 feet of rain during July 1861. During the \nmonsoon season from early June into September, Mumbai, India averages 6.8 feet of\nrain. Mumbai\u2019s total average rainfall for the other eight months of the year is only \n3.9 inches.\nMonsoons are caused by unequal heating rates of land and water. As the land heats\nthroughout the summer, a large low-pressure system forms over India. The heat from\nthe Sun also warms the surrounding ocean waters, but the water warms much more\nslowly. The cooler air above the ocean is more dense, creating a higher air pressure \nrelative to the lower air pressure over India.\nD\nB\nC\nA\n70\u0002 E\n80\u0002 E\n90\u0002 E\n30\u0002 N\n20\u0002 N\nTropic of\nCancer\n10\u0002 N\nMumbai\nINDIA\nCherrapunji\nP.S./E. Sci.\u2013June \u201916\n[10]\nPart B\u20131\nAnswer all questions in this part.\nDirections (36\u201350): For each statement or question, choose the word or expression that, of those given, best\ncompletes the statement or answers the question. Some questions may require the use of the 2011 Edition\nReference Tables for Physical Setting/Earth Science. Record your answers on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The unequal heating rates of India\u2019s land and water are caused by",
+      "choices": [
+        "land having a higher density than water",
+        "water having a higher density than land",
+        "land having a higher specific heat than water",
+        "water having a higher specific heat than land"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 36 through 39 on the map and the passage below and on your knowledge of\nEarth science. The map shows four different locations in India, labeled A, B, C, and D, where vertical sticks\nwere placed in the ground on the same clear day. The locations of two cities in India are also shown.\nMonsoons in India\nA monsoon season is caused by a seasonal shift in the wind direction, which produces\nexcessive rainfall in many parts of the world, most notably India. Cherrapunji, in \nnortheast India, received a record 30.5 feet of rain during July 1861. During the \nmonsoon season from early June into September, Mumbai, India averages 6.8 feet of\nrain. Mumbai\u2019s total average rainfall for the other eight months of the year is only \n3.9 inches.\nMonsoons are caused by unequal heating rates of land and water. As the land heats\nthroughout the summer, a large low-pressure system forms over India. The heat from\nthe Sun also warms the surrounding ocean waters, but the water warms much more\nslowly. The cooler air above the ocean is more dense, creating a higher air pressure \nrelative to the lower air pressure over India.\nD\nB\nC\nA\n70\u0002 E\n80\u0002 E\n90\u0002 E\n30\u0002 N\n20\u0002 N\nTropic of\nCancer\n10\u0002 N\nMumbai\nINDIA\nCherrapunji\nP.S./E. Sci.\u2013June \u201916\n[10]\nPart B\u20131\nAnswer all questions in this part.\nDirections (36\u201350): For each statement or question, choose the word or expression that, of those given, best\ncompletes the statement or answers the question. Some questions may require the use of the 2011 Edition\nReference Tables for Physical Setting/Earth Science. Record your answers on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which processes lead to cloud formation when humid air rises over India?",
+      "choices": [
+        "compression, warming to the dewpoint, and condensation",
+        "compression, warming to the dewpoint, and evaporation",
+        "expansion, cooling to the dewpoint, and condensation",
+        "expansion, cooling to the dewpoint, and evaporation 70\u0002 E 80\u0002 E 90\u0002 E 30\u0002 N 20\u0002 N Tropic of Cancer 10\u0002 N ( 1 ) 70\u0002 E 80\u0002 E 90\u0002 E 30\u0002 N 20\u0002 N Tropic of Cancer 10\u0002 N ( 3 ) 70\u0002 E 80\u0002 E 90\u0002 E 30\u0002 N 20\u0002 N Tropic of Cancer 10\u0002 N ( 4 ) 70\u0002 E 80\u0002 E 90\u0002 E 30\u0002 N 20\u0002 N Tropic of Cancer 10\u0002 N ( 2 ) INDIA INDIA L Mumbai Cherrapunji Cherrapunji Mumbai Cherrapunji Cherrapunji Mumbai H Mumbai Mumbai L H INDIA INDIA"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 36 through 39 on the map and the passage below and on your knowledge of\nEarth science. The map shows four different locations in India, labeled A, B, C, and D, where vertical sticks\nwere placed in the ground on the same clear day. The locations of two cities in India are also shown.\nMonsoons in India\nA monsoon season is caused by a seasonal shift in the wind direction, which produces\nexcessive rainfall in many parts of the world, most notably India. Cherrapunji, in \nnortheast India, received a record 30.5 feet of rain during July 1861. During the \nmonsoon season from early June into September, Mumbai, India averages 6.8 feet of\nrain. Mumbai\u2019s total average rainfall for the other eight months of the year is only \n3.9 inches.\nMonsoons are caused by unequal heating rates of land and water. As the land heats\nthroughout the summer, a large low-pressure system forms over India. The heat from\nthe Sun also warms the surrounding ocean waters, but the water warms much more\nslowly. The cooler air above the ocean is more dense, creating a higher air pressure \nrelative to the lower air pressure over India.\nD\nB\nC\nA\n70\u0002 E\n80\u0002 E\n90\u0002 E\n30\u0002 N\n20\u0002 N\nTropic of\nCancer\n10\u0002 N\nMumbai\nINDIA\nCherrapunji\nP.S./E. Sci.\u2013June \u201916\n[10]\nPart B\u20131\nAnswer all questions in this part.\nDirections (36\u201350): For each statement or question, choose the word or expression that, of those given, best\ncompletes the statement or answers the question. Some questions may require the use of the 2011 Edition\nReference Tables for Physical Setting/Earth Science. Record your answers on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "How many hours (h) will it take for the apparent position of the Sun to change from point A to point B?",
+      "choices": [
+        "1 h",
+        "2 h",
+        "3 h",
+        "4 h"
+      ],
+      "image": "/images/exams/earth-science/june-2016/context_40_42.png",
+      "context": "Base your answers to questions 40 through 42 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the apparent path of the Sun across the sky at a New York State location on\nJune 21. Point A represents the position of the noon Sun. Points A and B on the path are 45 degrees apart.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Compared to the Sun\u2019s apparent path on June 21, the Sun\u2019s apparent path on December 21 at this location will",
+      "choices": [
+        "be shorter, and the noon Sun will be lower in the sky",
+        "be longer, and the noon Sun will be higher in the sky",
+        "remain the same length, and the noon Sun will be lower in the sky",
+        "remain the same length, and the noon Sun will be higher in the sky"
+      ],
+      "image": "/images/exams/earth-science/june-2016/context_40_42.png",
+      "context": "Base your answers to questions 40 through 42 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the apparent path of the Sun across the sky at a New York State location on\nJune 21. Point A represents the position of the noon Sun. Points A and B on the path are 45 degrees apart.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "written",
+      "text": "Which diagram represents the correct position of Polaris as viewed from this New York State location on a clear night? North South ( 1 ) ( 3 ) ( 2 ) Polaris ( 4 ) Polaris Sun\u2019s apparent path Polaris North South A B Sun\u2019s apparent path A B North South Sun\u2019s apparent path A B Polaris Sun\u2019s apparent path North South A B North South Sun\u2019s apparent path A B P.S./",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_40_42.png",
+      "context": "Base your answers to questions 40 through 42 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the apparent path of the Sun across the sky at a New York State location on\nJune 21. Point A represents the position of the noon Sun. Points A and B on the path are 45 degrees apart.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "In order for process A to occur, liquid water must",
+      "choices": [
+        "gain 334 Joules per gram",
+        "gain 2260 Joules per gram",
+        "lose 334 Joules per gram",
+        "lose 2260 Joules per gram"
+      ],
+      "image": "/images/exams/earth-science/june-2016/context_43_44.png",
+      "context": "Base your answers to questions 43 and 44 on the diagram below and on your knowledge of Earth science.\nThe diagram represents the water cycle. Letters A through C represent different processes in the water cycle.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which process is represented by letter B?",
+      "choices": [
+        "capillarity",
+        "transpiration",
+        "infiltration",
+        "precipitation Ocean C C B C C C A (Not drawn to scale) A"
+      ],
+      "image": "/images/exams/earth-science/june-2016/context_43_44.png",
+      "context": "Base your answers to questions 43 and 44 on the diagram below and on your knowledge of Earth science.\nThe diagram represents the water cycle. Letters A through C represent different processes in the water cycle.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "During which geologic time period was the surface bedrock at this location formed?",
+      "choices": [
+        "Cretaceous",
+        "Triassic",
+        "Devonian",
+        "Ordovician"
+      ],
+      "image": "/images/exams/earth-science/june-2016/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the photograph below and on your knowledge of Earth\nscience. The photograph shows a small waterfall located on the Tug Hill Plateau.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Compared to the bedrock layers above and below the rock ledge shown at the waterfall, the characteristic that is primarily responsible for the existence of the rock ledge is its greater",
+      "choices": [
+        "resistance to weathering",
+        "abundance of fossils",
+        "thickness",
+        "age"
+      ],
+      "image": "/images/exams/earth-science/june-2016/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the photograph below and on your knowledge of Earth\nscience. The photograph shows a small waterfall located on the Tug Hill Plateau.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Rock fragments that are tumbled and carried over long distances by this stream are most likely becoming",
+      "choices": [
+        "less dense, harder, and smaller",
+        "less rounded, jagged, and larger",
+        "more dense, angular, and smaller",
+        "more rounded, smoother, and smaller Rock ledge"
+      ],
+      "image": "/images/exams/earth-science/june-2016/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the photograph below and on your knowledge of Earth\nscience. The photograph shows a small waterfall located on the Tug Hill Plateau.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Which numbered fossil best represents an index fossil?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/earth-science/june-2016/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the rock columns below and on your knowledge of Earth\nscience. The rock columns represent four widely separated locations, W, X, Y, and Z. Numbers 1, 2, 3, and 4\nrepresent fossils. The rock layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which rock layer is the oldest?",
+      "choices": [
+        "tan sandstone",
+        "gray limestone",
+        "green shale",
+        "black shale"
+      ],
+      "image": "/images/exams/earth-science/june-2016/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the rock columns below and on your knowledge of Earth\nscience. The rock columns represent four widely separated locations, W, X, Y, and Z. Numbers 1, 2, 3, and 4\nrepresent fossils. The rock layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which rock layer formed from the deposition of land-derived sediments that had a uniform particle size of about 0.01 cm in diameter?",
+      "choices": [
+        "brown siltstone",
+        "black shale",
+        "gray conglomerate",
+        "red sandstone Brown siltstone Red sandstone Black shale Tan limestone Location Z Gray conglomerate Gray siltstone Black shale Tan sandstone Location Y Gray limestone Green shale Brown siltstone Red sandstone Black shale Tan limestone Location X Gray limestone Brown siltstone Red sandstone Black shale Gray limestone Tan sandstone Location W . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1 2 4 2 1 4 4 1 4 4 1 3"
+      ],
+      "image": "/images/exams/earth-science/june-2016/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the rock columns below and on your knowledge of Earth\nscience. The rock columns represent four widely separated locations, W, X, Y, and Z. Numbers 1, 2, 3, and 4\nrepresent fossils. The rock layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Describe the evidence shown by the light from these star clusters that indicates that these clusters are moving away from Earth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the data table below and on your knowledge of Earth \nscience. The data table lists four constellations in which star clusters are seen from Earth. A star cluster is a\ngroup of stars near each other in space. Stars in the same cluster move at the same velocity. The length of the\narrows in the table represents the amount of redshift of two wavelengths of visible light emitted by these star\nclusters.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Write the chemical symbol for the element, shown in the table, that absorbs the two wavelengths of light.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the data table below and on your knowledge of Earth \nscience. The data table lists four constellations in which star clusters are seen from Earth. A star cluster is a\ngroup of stars near each other in space. Stars in the same cluster move at the same velocity. The length of the\narrows in the table represents the amount of redshift of two wavelengths of visible light emitted by these star\nclusters.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Identify the name of the nuclear process that is primarily responsible for producing energy in stars. Data Table Constellation in which star cluster is seen from Earth Redshift of two wavelengths of light absorbed by calcium Distance from Earth (billion light years) Velocity of star cluster moving away from Earth (km/s) Violet Red Corona Borealis Bootes Hydra 15,000 Violet Red Red Violet Red Violet Ursa Major 2.5 4.0 1.4 1.0 22,000 39,000 61,000 Note: One light year is the distance light travels in one year.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the data table below and on your knowledge of Earth \nscience. The data table lists four constellations in which star clusters are seen from Earth. A star cluster is a\ngroup of stars near each other in space. Stars in the same cluster move at the same velocity. The length of the\narrows in the table represents the amount of redshift of two wavelengths of visible light emitted by these star\nclusters.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "In your answer booklet, circle the type of eclipse that may occur when the Moon is at position A. Explain why this type of eclipse may occur when the Moon is at this position.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the Moon in eight positions in its orbit around Earth. One position is \nlabeled A.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "The diagram below represents one phase of the Moon as observed from New York State. On the diagram in your answer booklet, place an X on the Moon\u2019s orbit to represent the Moon\u2019s position when this phase was observed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the Moon in eight positions in its orbit around Earth. One position is \nlabeled A.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "State the number of days needed for the Moon to show a complete cycle of phases from one full Moon to the next full Moon when viewed from New York State.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the Moon in eight positions in its orbit around Earth. One position is \nlabeled A.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Explain why the Moon\u2019s revolution and rotation cause the same side of the Moon to always face Earth. Earth Sun\u2019s rays A (Not drawn to scale) North Pole",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the diagram below and on your knowledge of Earth \nscience. The diagram represents the Moon in eight positions in its orbit around Earth. One position is \nlabeled A.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "On the weather map in your answer booklet, draw the 1012 millibar and the 1008 millibar isobars. Extend the isobars to the east coast of the United States.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 58 through 61 on the weather map in your answer booklet and on \nyour knowledge of Earth science. The weather map shows atmospheric pressures, recorded in millibars (mb),\nat locations around a low-pressure center (L) in the eastern United States. Isobars indicate air pressures in the\nwestern portion of the mapped area. Point A represents a location on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Identify the weather instrument that was used to measure the air pressures recorded on the map.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 58 through 61 on the weather map in your answer booklet and on \nyour knowledge of Earth science. The weather map shows atmospheric pressures, recorded in millibars (mb),\nat locations around a low-pressure center (L) in the eastern United States. Isobars indicate air pressures in the\nwestern portion of the mapped area. Point A represents a location on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify the compass direction toward which the center of the low-pressure system will move if it follows a typical storm track.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 58 through 61 on the weather map in your answer booklet and on \nyour knowledge of Earth science. The weather map shows atmospheric pressures, recorded in millibars (mb),\nat locations around a low-pressure center (L) in the eastern United States. Isobars indicate air pressures in the\nwestern portion of the mapped area. Point A represents a location on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Convert the air pressure at location A from millibars to inches of mercury.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/q61.png",
+      "context": "Base your answers to questions 58 through 61 on the weather map in your answer booklet and on \nyour knowledge of Earth science. The weather map shows atmospheric pressures, recorded in millibars (mb),\nat locations around a low-pressure center (L) in the eastern United States. Isobars indicate air pressures in the\nwestern portion of the mapped area. Point A represents a location on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Complete the flow chart in your answer booklet by filling in the boxes to indicate the percentage of carbon-14 remaining and the time that has passed at the end of each half-life.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the graph below and on your knowledge of Earth science.\nThe graph shows the rate of decay of the radioactive isotope carbon-14 (14C).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify the decay product formed by the disintegration of carbon-14.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the graph below and on your knowledge of Earth science.\nThe graph shows the rate of decay of the radioactive isotope carbon-14 (14C).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Explain why carbon-14 cannot be used to accurately determine the age of organic remains that are 1,000,000 years old.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the graph below and on your knowledge of Earth science.\nThe graph shows the rate of decay of the radioactive isotope carbon-14 (14C).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "State the name of the radioactive isotope that has a half-life that is approximately the same as the estimated time of the origin of Earth. 0 0 28.5 22.8 17.1 11.4 5.7 Time (x 103 yr) 25 50 75 100 Radioactive Carbon-14 (%) Decay of Carbon-14",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the graph below and on your knowledge of Earth science.\nThe graph shows the rate of decay of the radioactive isotope carbon-14 (14C).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Estimate the number of daylight hours that occur on January 1 at 40\u00b0 N latitude.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the graph below and on your knowledge of Earth science.\nThe graph shows changes in hours of daylight during the year at the latitudes of 0\u00b0, 30\u00b0 N, 50\u00b0 N and 60\u00b0 N.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Identify the latitude shown on the graph that has the earliest sunrise on June 21. Include the units and compass direction in your answer.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the graph below and on your knowledge of Earth science.\nThe graph shows changes in hours of daylight during the year at the latitudes of 0\u00b0, 30\u00b0 N, 50\u00b0 N and 60\u00b0 N.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Explain why all four latitudes have the same number of hours of daylight on March 20 and September 22.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the graph below and on your knowledge of Earth science.\nThe graph shows changes in hours of daylight during the year at the latitudes of 0\u00b0, 30\u00b0 N, 50\u00b0 N and 60\u00b0 N.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "The graph in your answer booklet shows a curve for the changing length of daylight over the course of one year that occurs for an observer at 50\u00b0 N latitude. On this same graph in your answer booklet, draw a line to show the changing length of daylight over the course of one year that occurs for an observer at 50\u00b0 S latitude. Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Month 24 20 16 12 8 4 0 24 20 16 12 8 4 0 Length of Daylight (h) Length of Daylight (h) Length of Daylight During the Year 60\u00b0 N 50\u00b0 N 30\u00b0 N 0\u00b0 30\u00b0 N 30\u00b0 N 50\u00b0 N 50\u00b0 N 60\u00b0 N 60\u00b0 N 0\u00b0 0\u00b0 March 20 June 21 September 22 December 21",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the graph below and on your knowledge of Earth science.\nThe graph shows changes in hours of daylight during the year at the latitudes of 0\u00b0, 30\u00b0 N, 50\u00b0 N and 60\u00b0 N.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Loihi 0 0 70 The average distance between the volcanoes along the Kea trend is 51.2 kilometers. Place an X on the map in your answer booklet to identify the location on the seafloor where the next volcano will most likely form as a part of the Kea trend.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_70_74.png",
+      "context": "Base your answers to questions 70 through 74 on the passage and data tables below, on the map in your\nanswer booklet, and on your knowledge of Earth science. The data tables show trends (patterns) of two lines of\nHawaiian island volcanoes, the Loa trend and the Kea trend. For these trends, ages and distances of the\nHawaiian island volcanoes are shown. The map shows the locations of volcanoes, labeled with Xs, that make up\neach trend line.\nHawaiian Volcano Trends\nThe Hawaiian volcanic island chain, located on the Pacific Plate, stretches over \n600 kilometers. This chain of large volcanoes has grown from the seafloor to heights \nof over 4000 meters. Geologists have noted that there appear to be two lines, or\n\u201ctrends,\u201d of volcanoes\u2014one that includes Mauna Loa and one that includes Mauna\nKea. Loihi and Kilauea are the most recent active volcanoes on the two trends shown\non the map.\nP.S./E. Sci.\u2013June \u201916\n[20]\nLoa Trend\nKea Trend\nKea Trend\nVolcanoes\nVolcano Age\n(million years)\nDistance from\nKilauea (km)\nEast Molokai\n1.7\n256\nWest Maui\n1.5\n221\nHaleakala\n0.9\n182\nKohala\n0.5\n100\nMauna Kea\n0.4\n54\nKilauea\n0.1\n0\nLoa Trend\nVolcanoes\nVolcano Age\n(million years)\nDistance from\nLoihi (km)\nKauai\n4.6\n575\nWaianae\n3.7\n465\nKoolau\n2.2\n375\nWest Molokai\n1.7\n350\nLanai\n1.2\n300\nKahoolawe\n1.1\n250\nHualalai\n0.3\n130\nMauna Loa\n0.2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Identify the two volcanoes, one from each trend, that have the same age.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_70_74.png",
+      "context": "Base your answers to questions 70 through 74 on the passage and data tables below, on the map in your\nanswer booklet, and on your knowledge of Earth science. The data tables show trends (patterns) of two lines of\nHawaiian island volcanoes, the Loa trend and the Kea trend. For these trends, ages and distances of the\nHawaiian island volcanoes are shown. The map shows the locations of volcanoes, labeled with Xs, that make up\neach trend line.\nHawaiian Volcano Trends\nThe Hawaiian volcanic island chain, located on the Pacific Plate, stretches over \n600 kilometers. This chain of large volcanoes has grown from the seafloor to heights \nof over 4000 meters. Geologists have noted that there appear to be two lines, or\n\u201ctrends,\u201d of volcanoes\u2014one that includes Mauna Loa and one that includes Mauna\nKea. Loihi and Kilauea are the most recent active volcanoes on the two trends shown\non the map.\nP.S./E. Sci.\u2013June \u201916\n[20]\nLoa Trend\nKea Trend\nKea Trend\nVolcanoes\nVolcano Age\n(million years)\nDistance from\nKilauea (km)\nEast Molokai\n1.7\n256\nWest Maui\n1.5\n221\nHaleakala\n0.9\n182\nKohala\n0.5\n100\nMauna Kea\n0.4\n54\nKilauea\n0.1\n0\nLoa Trend\nVolcanoes\nVolcano Age\n(million years)\nDistance from\nLoihi (km)\nKauai\n4.6\n575\nWaianae\n3.7\n465\nKoolau\n2.2\n375\nWest Molokai\n1.7\n350\nLanai\n1.2\n300\nKahoolawe\n1.1\n250\nHualalai\n0.3\n130\nMauna Loa\n0.2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "State the general relationship between the age of the volcanoes and the distance from Loihi.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_70_74.png",
+      "context": "Base your answers to questions 70 through 74 on the passage and data tables below, on the map in your\nanswer booklet, and on your knowledge of Earth science. The data tables show trends (patterns) of two lines of\nHawaiian island volcanoes, the Loa trend and the Kea trend. For these trends, ages and distances of the\nHawaiian island volcanoes are shown. The map shows the locations of volcanoes, labeled with Xs, that make up\neach trend line.\nHawaiian Volcano Trends\nThe Hawaiian volcanic island chain, located on the Pacific Plate, stretches over \n600 kilometers. This chain of large volcanoes has grown from the seafloor to heights \nof over 4000 meters. Geologists have noted that there appear to be two lines, or\n\u201ctrends,\u201d of volcanoes\u2014one that includes Mauna Loa and one that includes Mauna\nKea. Loihi and Kilauea are the most recent active volcanoes on the two trends shown\non the map.\nP.S./E. Sci.\u2013June \u201916\n[20]\nLoa Trend\nKea Trend\nKea Trend\nVolcanoes\nVolcano Age\n(million years)\nDistance from\nKilauea (km)\nEast Molokai\n1.7\n256\nWest Maui\n1.5\n221\nHaleakala\n0.9\n182\nKohala\n0.5\n100\nMauna Kea\n0.4\n54\nKilauea\n0.1\n0\nLoa Trend\nVolcanoes\nVolcano Age\n(million years)\nDistance from\nLoihi (km)\nKauai\n4.6\n575\nWaianae\n3.7\n465\nKoolau\n2.2\n375\nWest Molokai\n1.7\n350\nLanai\n1.2\n300\nKahoolawe\n1.1\n250\nHualalai\n0.3\n130\nMauna Loa\n0.2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Identify the tectonic feature beneath the moving Pacific Plate that caused volcanoes to form in both the Loa and Kea trends.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_70_74.png",
+      "context": "Base your answers to questions 70 through 74 on the passage and data tables below, on the map in your\nanswer booklet, and on your knowledge of Earth science. The data tables show trends (patterns) of two lines of\nHawaiian island volcanoes, the Loa trend and the Kea trend. For these trends, ages and distances of the\nHawaiian island volcanoes are shown. The map shows the locations of volcanoes, labeled with Xs, that make up\neach trend line.\nHawaiian Volcano Trends\nThe Hawaiian volcanic island chain, located on the Pacific Plate, stretches over \n600 kilometers. This chain of large volcanoes has grown from the seafloor to heights \nof over 4000 meters. Geologists have noted that there appear to be two lines, or\n\u201ctrends,\u201d of volcanoes\u2014one that includes Mauna Loa and one that includes Mauna\nKea. Loihi and Kilauea are the most recent active volcanoes on the two trends shown\non the map.\nP.S./E. Sci.\u2013June \u201916\n[20]\nLoa Trend\nKea Trend\nKea Trend\nVolcanoes\nVolcano Age\n(million years)\nDistance from\nKilauea (km)\nEast Molokai\n1.7\n256\nWest Maui\n1.5\n221\nHaleakala\n0.9\n182\nKohala\n0.5\n100\nMauna Kea\n0.4\n54\nKilauea\n0.1\n0\nLoa Trend\nVolcanoes\nVolcano Age\n(million years)\nDistance from\nLoihi (km)\nKauai\n4.6\n575\nWaianae\n3.7\n465\nKoolau\n2.2\n375\nWest Molokai\n1.7\n350\nLanai\n1.2\n300\nKahoolawe\n1.1\n250\nHualalai\n0.3\n130\nMauna Loa\n0.2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Identify the compass direction in which the Pacific Plate has moved during the last 4.6 million years.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_70_74.png",
+      "context": "Base your answers to questions 70 through 74 on the passage and data tables below, on the map in your\nanswer booklet, and on your knowledge of Earth science. The data tables show trends (patterns) of two lines of\nHawaiian island volcanoes, the Loa trend and the Kea trend. For these trends, ages and distances of the\nHawaiian island volcanoes are shown. The map shows the locations of volcanoes, labeled with Xs, that make up\neach trend line.\nHawaiian Volcano Trends\nThe Hawaiian volcanic island chain, located on the Pacific Plate, stretches over \n600 kilometers. This chain of large volcanoes has grown from the seafloor to heights \nof over 4000 meters. Geologists have noted that there appear to be two lines, or\n\u201ctrends,\u201d of volcanoes\u2014one that includes Mauna Loa and one that includes Mauna\nKea. Loihi and Kilauea are the most recent active volcanoes on the two trends shown\non the map.\nP.S./E. Sci.\u2013June \u201916\n[20]\nLoa Trend\nKea Trend\nKea Trend\nVolcanoes\nVolcano Age\n(million years)\nDistance from\nKilauea (km)\nEast Molokai\n1.7\n256\nWest Maui\n1.5\n221\nHaleakala\n0.9\n182\nKohala\n0.5\n100\nMauna Kea\n0.4\n54\nKilauea\n0.1\n0\nLoa Trend\nVolcanoes\nVolcano Age\n(million years)\nDistance from\nLoihi (km)\nKauai\n4.6\n575\nWaianae\n3.7\n465\nKoolau\n2.2\n375\nWest Molokai\n1.7\n350\nLanai\n1.2\n300\nKahoolawe\n1.1\n250\nHualalai\n0.3\n130\nMauna Loa\n0.2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw an X on the location with the highest elevation.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 79 on the topographic map in your answer booklet and on your\nknowledge of Earth science. Lines AB and CD are reference lines on the map. Letter E indicates a location in\na stream.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Using the grid in your answer booklet, construct a topographic profile along line AB by plotting the elevation of each contour line that crosses line AB. Points A and B have already been plotted on the grid. Connect all plots with a line from A to B to complete the profile.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 79 on the topographic map in your answer booklet and on your\nknowledge of Earth science. Lines AB and CD are reference lines on the map. Letter E indicates a location in\na stream.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Calculate the gradient along line CD.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 79 on the topographic map in your answer booklet and on your\nknowledge of Earth science. Lines AB and CD are reference lines on the map. Letter E indicates a location in\na stream.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Describe how the contour lines indicate the direction in which Buck River flows.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 79 on the topographic map in your answer booklet and on your\nknowledge of Earth science. Lines AB and CD are reference lines on the map. Letter E indicates a location in\na stream.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Determine the velocity of the stream at location E where the largest particle being carried at location E has a diameter of 10.0 centimeters.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 79 on the topographic map in your answer booklet and on your\nknowledge of Earth science. Lines AB and CD are reference lines on the map. Letter E indicates a location in\na stream.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Explain why syenite is classified as a plutonic igneous rock.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 83 on the passage below and on your knowledge of Earth \nscience.\nDimension Stone: Granite\nDimension stone is any rock mined and cut for specific purposes, such as kitchen\ncountertops, monuments, and the curbing along city streets. Examples of rock mined\nfor use as dimension stone include limestone, marble, sandstone, and slate. The most\nimportant dimension stone is granite; however, not all dimension stone sold as granite\nis actually granite. Two examples of such rock sold as \u201cgranite\u201d are syenite and\nanorthosite. Syenite is a crystalline, light-colored rock composed primarily of potassium\nfeldspar, plagioclase feldspar, biotite, and amphibole, while anorthosite is composed\nalmost entirely of plagioclase feldspar. Like actual granite, both syenite and anorthosite\nhave large, interlocking crystals.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "State one reason why anorthosite is likely to be white to gray in color.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 83 on the passage below and on your knowledge of Earth \nscience.\nDimension Stone: Granite\nDimension stone is any rock mined and cut for specific purposes, such as kitchen\ncountertops, monuments, and the curbing along city streets. Examples of rock mined\nfor use as dimension stone include limestone, marble, sandstone, and slate. The most\nimportant dimension stone is granite; however, not all dimension stone sold as granite\nis actually granite. Two examples of such rock sold as \u201cgranite\u201d are syenite and\nanorthosite. Syenite is a crystalline, light-colored rock composed primarily of potassium\nfeldspar, plagioclase feldspar, biotite, and amphibole, while anorthosite is composed\nalmost entirely of plagioclase feldspar. Like actual granite, both syenite and anorthosite\nhave large, interlocking crystals.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "The igneous rock gabbro is sometimes sold as \u201cblack granite.\u201d Compared to the density and composition of granite, describe how the density and composition of gabbro are different.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 83 on the passage below and on your knowledge of Earth \nscience.\nDimension Stone: Granite\nDimension stone is any rock mined and cut for specific purposes, such as kitchen\ncountertops, monuments, and the curbing along city streets. Examples of rock mined\nfor use as dimension stone include limestone, marble, sandstone, and slate. The most\nimportant dimension stone is granite; however, not all dimension stone sold as granite\nis actually granite. Two examples of such rock sold as \u201cgranite\u201d are syenite and\nanorthosite. Syenite is a crystalline, light-colored rock composed primarily of potassium\nfeldspar, plagioclase feldspar, biotite, and amphibole, while anorthosite is composed\nalmost entirely of plagioclase feldspar. Like actual granite, both syenite and anorthosite\nhave large, interlocking crystals.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Identify one dimension stone mentioned in the passage that is composed primarily of calcite.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 83 on the passage below and on your knowledge of Earth \nscience.\nDimension Stone: Granite\nDimension stone is any rock mined and cut for specific purposes, such as kitchen\ncountertops, monuments, and the curbing along city streets. Examples of rock mined\nfor use as dimension stone include limestone, marble, sandstone, and slate. The most\nimportant dimension stone is granite; however, not all dimension stone sold as granite\nis actually granite. Two examples of such rock sold as \u201cgranite\u201d are syenite and\nanorthosite. Syenite is a crystalline, light-colored rock composed primarily of potassium\nfeldspar, plagioclase feldspar, biotite, and amphibole, while anorthosite is composed\nalmost entirely of plagioclase feldspar. Like actual granite, both syenite and anorthosite\nhave large, interlocking crystals.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Explain why location A has a cooler average yearly air temperature than location B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the map of Australia below and on your knowledge of Earth\nscience. Points A through D on the map represent locations on the continent.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "The cross section below represents a mountain between locations C and D and the direction of prevailing winds. Explain why location D has a wetter climate than location C. C D Ocean Prevailing winds N 12\u00b0 S 24\u00b0 S 36\u00b0 S 12\u00b0 S 24\u00b0 S 36\u00b0 S Australia Indian Ocean South Pacific Ocean D A B Tasmania Indonesia Papua New Guinea Mountains Key Map of Australia C P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2016/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the map of Australia below and on your knowledge of Earth\nscience. Points A through D on the map represent locations on the continent.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

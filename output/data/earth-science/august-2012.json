@@ -1,0 +1,1071 @@
+{
+  "subject": "earth-science",
+  "session": "august-2012",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The direction of swing of a Foucault pendulum appears to change due to Earth\u2019s",
+      "choices": [
+        "revolution",
+        "rotation",
+        "spherical shape",
+        "elliptical orbit"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Great amounts of energy are released in the core of a star as lighter elements combine and form heavier elements during the process of",
+      "choices": [
+        "compaction",
+        "condensation",
+        "radioactive decay",
+        "nuclear fusion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which sequence of stars is listed in order of increasing luminosity?",
+      "choices": [
+        "Spica, Rigel, Deneb, Betelgeuse",
+        "Polaris, Deneb, 40 Eridani B, Proxima Centauri",
+        "Barnard\u2019s Star, Alpha Centauri, Rigel, Spica",
+        "Procyon B, Sun, Sirius, Betelgeuse"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "As Earth travels in its orbit, Earth\u2019s axis",
+      "choices": [
+        "remains parallel to itself at all Earth positions",
+        "remains aligned with the Sun\u2019s axis",
+        "is perpendicular to the Moon\u2019s axis",
+        "is pointing toward the center of the Milky Way"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "To a nighttime observer on Earth, how many degrees do the stars appear to move around Polaris in 3 hours?",
+      "choices": [
+        "60\u00b0",
+        "45\u00b0",
+        "3\u00b0",
+        "15\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "To an observer in New York State, the duration of daylight increases continuously from",
+      "choices": [
+        "March 1 to May 1",
+        "June 1 to August 1",
+        "September 1 to November 1",
+        "December 1 to February 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The arrows in the diagram below show changes in the direction of surface winds at four lettered locations, A, B, C, and D, on Earth. The arrow at which location correctly shows a deflection of the wind that could be due to the Coriolis effect?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2012/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Approximately 2.2 billion years ago, which gas was first added in large amounts to Earth\u2019s atmosphere from life-forms that evolved in the oceans?",
+      "choices": [
+        "carbon dioxide",
+        "water vapor",
+        "oxygen",
+        "nitrogen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which weather variable generally decreases when wind speed is increasing, clouds are thickening, and visibility drops?",
+      "choices": [
+        "relative humidity",
+        "dewpoint",
+        "precipitation",
+        "air pressure"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The diagram below shows a weather instrument found at most weather stations. The main function of this instrument is to measure which weather variable?",
+      "choices": [
+        "wind speed",
+        "wind direction",
+        "air pressure",
+        "relative humidity"
+      ],
+      "image": "/images/exams/earth-science/august-2012/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "What is the approximate percent of oxygen by volume present in Earth\u2019s lower atmosphere?",
+      "choices": [
+        "21%",
+        "33%",
+        "46%",
+        "94%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Global warming is most likely occurring due to an increase in",
+      "choices": [
+        "carbon dioxide and methane gases in the atmosphere",
+        "oxygen and nitrogen gases in the atmosphere",
+        "ultraviolet radiation and x rays reflected from Earth",
+        "visible light and radio waves reflected from Earth"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which geologic event occurred in New York State at the end of the Triassic Period?",
+      "choices": [
+        "domelike uplift of the Adirondack region",
+        "formation of the Catskill delta",
+        "retreat of the last continental ice",
+        "intrusion of the Palisades sill"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "What is the approximate time difference between the first P-wave and the first S-wave recorded at a seismic station located 8000 kilometers from an earthquake\u2019s epicenter?",
+      "choices": [
+        "8 minutes 40 seconds",
+        "9 minutes 20 seconds",
+        "11 minutes 20 seconds",
+        "20 minutes 40 seconds"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "In which Earth layer does the pressure reach 3.5 million atmospheres?",
+      "choices": [
+        "crust",
+        "stiffer mantle",
+        "outer core",
+        "inner core"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which surface feature was produced by crustal movements at a transform plate boundary?",
+      "choices": [
+        "East African Rift",
+        "Aleutian Trench",
+        "Tasman Hot Spot",
+        "San Andreas Fault"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "written",
+      "text": "The block diagram below shows part of a meandering stream. Line XY shows the location of a stream cross section. Which cross section best represents the shape of the stream channel at line XY? X Y ( 1 ) X Y ( 3 ) X Y ( 2 ) Y ( 4 ) X Y X P.S./",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which type of surface bedrock is most commonly found in New York State\u2019s Tug Hill Plateau region?",
+      "choices": [
+        "intrusive igneous rock layers",
+        "extrusive igneous rock layers",
+        "horizontal sedimentary rock layers",
+        "faulted metamorphic rock layers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The cross section below shows layers of sedi- ments deposited in a region of Wisconsin that has experienced several periods of glaciation. Descriptions of the sediments in layers A through F are included. Which two layers of sediments were probably deposited directly by glaciers?",
+      "choices": [
+        "A and D",
+        "B and F",
+        "C and E",
+        "D and E"
+      ],
+      "image": "/images/exams/earth-science/august-2012/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A river\u2019s current carries sediments into the ocean. Which sediment size will most likely be deposited in deeper water farthest from the shore?",
+      "choices": [
+        "pebble",
+        "sand",
+        "silt",
+        "clay"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which mineral would most likely become rounded at the fastest rate when tumbled along a stream bottom?",
+      "choices": [
+        "garnet",
+        "pyroxene",
+        "plagioclase feldspar",
+        "selenite gypsum"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Mineral crystals of quartz, biotite mica, and amphibole are produced primarily by the",
+      "choices": [
+        "chemical reaction of elements in seawater",
+        "cooling and solidification of magma",
+        "deposition of sediments by a glacier",
+        "metamorphism of bituminous coal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which texture best describes an igneous rock that formed deep underground?",
+      "choices": [
+        "glassy",
+        "vesicular",
+        "fine grained",
+        "coarse grained"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A nonvesicular rock is made entirely of green 2-millimeter-diameter crystals that have a hardness of 6.5 and show fracture, but not cleavage. The rock is most likely",
+      "choices": [
+        "shale",
+        "phyllite",
+        "dunite",
+        "schist Clay Clay, silt, and sand Forest bed clay Red and gray clays with lenses of silt and sand Gray mixed sediments Red mixed sediments A B C D E F Sediment Description Layer Source: A. N. Strahler, The Earth Sciences, 2nd Edition, 1971 (adapted)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "The diagram below shows the Moon at one position in its orbit around Earth. Letter X indicates the location of an observer in New York State. Which phase of the Moon will the observer see when the Moon is at the position shown in its orbit?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The photographs below show the same coastal location at two different times during the same day. Which statement best explains the cause for the higher water level at 6:52 p.m.?",
+      "choices": [
+        "The Moon rotates on its axis at the same rate that it revolves around Earth.",
+        "The Moon exerts a gravitational pull on a rotating Earth.",
+        "Earth\u2019s rotation causes a deflection of surface ocean currents.",
+        "Earth\u2019s tilted axis causes different amounts of insolation throughout the day. People on Beach 12:40 p.m. People Boating 6:52 p.m. Source: thehopewellrocks.ca (adapted) ( 2 ) ( 1 ) ( 3 ) ( 4 ) (Not drawn to scale) Pole Sun\u2019s rays Earth North Moon X P.S./"
+      ],
+      "image": "/images/exams/earth-science/august-2012/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Which bar graph best represents the equatorial diameters of the eight planets of our solar system? 150 140 130 120 110 100 90 80 70 60 50 40 30 20 10 0 Earth Mercury Jupiter Uranus Venus Mars Saturn Neptune Planet ( 1 ) Equatorial Diameter of Planet (thousands of kilometers) Earth Mercury Jupiter Uranus Venus Mars Saturn Neptune Planet ( 3 ) 150 140 130 120 110 100 90 80 70 60 50 40 30 20 10 0 Equatorial Diameter of Planet (thousands of kilometers) Earth Mercury Jupiter Uranus Venus Mars Saturn Neptune Planet ( 2 ) 150 140 130 120 110 100 90 80 70 60 50 40 30 20 10 0 Equatorial Diameter of Planet (thousands of kilometers) Earth Mercury Jupiter Uranus Venus Mars Saturn Neptune Planet ( 4 ) 150 140 130 120 110 100 90 80 70 60 50 40 30 20 10 0 Equatorial Diameter of Planet (thousands of kilometers)",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Which diagram represents the apparent path of the Sun on March 21 for an observer at the equator?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The arrows in the diagram below represent processes in the water cycle. Which processes in the water cycle are identified by the numbered arrows?",
+      "choices": [
+        "Process 1 is transpiration; process 2 is runoff.",
+        "Process 1 is precipitation; process 2 is runoff.",
+        "Process 1 is condensation; process 2 is infiltration.",
+        "Process 1 is evaporation; process 2 is infiltration. 1 Ocean Groundwater 2 0 0 0 0 0 0 0 0 West South North East Observer ( 1 ) 30 60 90 60 30 West South North East Observer ( 2 ) 30 60 90 60 30 West South North East Observer ( 3 ) 30 60 90 60 30 West South North East Observer ( 4 ) 30 60 90 60 30"
+      ],
+      "image": "/images/exams/earth-science/august-2012/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The diagram below represents the setup for an experiment for studying groundwater. Tubes A, B, C, and D contain equal volumes of sediments. Within each tube, the sediments are uniform in size, shape, and packing. A test for water retention was conducted by first filling each tube with water and then draining the water into beakers. Which graph represents the general relationship between the sediment size and the amount of water retained by the sediments after the tubes had drained?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The geologic cross section below shows several rock units of Earth\u2019s crust. Some rock units are labeled A through E. Which two rock units formed from sediments deposited in horizontal layers?",
+      "choices": [
+        "A and B",
+        "B and C",
+        "C and D",
+        "D and E Key Diabase Basalt Contact metamorphism A B D E C ( 4 ) ( 3 ) Water Retained Sediment Size ( 1 ) ( 2 ) Sediment Size Sediment Size Sediment Size Water Retained Water Retained Water Retained 0.7-cm particles 0.5-cm particles 0.9-cm particles 0.3-cm particles Beaker Beaker Beaker Beaker A B C D (Not drawn to scale) P.S./"
+      ],
+      "image": "/images/exams/earth-science/august-2012/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Weather station models for three New York State cities on the same day at the same time are shown below. Which map shows the front that was most likely passing through Rochester at that time?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Arrows on the maps below show differences in the direction of winds in the region of India and the Indian Ocean during January and July. Isobar values are recorded in millibars. Heavy monsoon rains usually occur in India during",
+      "choices": [
+        "January, when winds blow from the land",
+        "January, when winds blow toward high pressure",
+        "July, when winds blow from the ocean",
+        "July, when winds blow toward high pressure 996 Low July Indian Ocean High India 1016 1000 1004 1008 1012 January Indian Ocean High Low India 1016 1012 1008 1004 1000 1020 1024 ( 1 ) R S ( 2 ) S N N R R S N R S N ( 3 ) ( 4 ) Rochester (R) 004 78 72 Syracuse (S) Niagara Falls (N) 022 64 58 996 72 72"
+      ],
+      "image": "/images/exams/earth-science/august-2012/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Which cross section best represents the convection currents in the mantle beneath the Peru-Chile Trench?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The sequence of block diagrams below shows stages of development of a landscape. The stages are labeled A, B, and C. Which sequence of geologic processes best describes the events that created each stage shown?",
+      "choices": [
+        "erosion \u2192subsidence and deposition \u2192uplift and faulting",
+        "uplift and deposition \u2192flooding \u2192folding and erosion",
+        "metamorphism \u2192erosion and deposition \u2192volcanic eruptions",
+        "uplift and erosion \u2192subsidence and erosion \u2192folding A B C Trench Mantle ( 1 ) Trench Mantle ( 3 ) Trench Mantle ( 4 ) Trench Mantle ( 2 )"
+      ],
+      "image": "/images/exams/earth-science/august-2012/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "What is the approximate age of the human bone fossil?",
+      "choices": [
+        "5,700 y",
+        "17,100 y",
+        "22,800 y",
+        "39,900 y"
+      ],
+      "image": "/images/exams/earth-science/august-2012/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the data table below. The table shows the percentage of \noriginal carbon-14 remaining in three different fossils. The approximate ages of the gastropod shell and the tree\nwood are shown in years. The age of the human bone has been left blank.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "During which geologic period did all three fossils form?",
+      "choices": [
+        "Quaternary",
+        "Neogene",
+        "Paleogene",
+        "Permian Fossil Original 14C Remaining (%) Approximate Age (y) gastropod shell 50 5,700 tree wood 25 11,400 human bone 12.5"
+      ],
+      "image": "/images/exams/earth-science/august-2012/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the data table below. The table shows the percentage of \noriginal carbon-14 remaining in three different fossils. The approximate ages of the gastropod shell and the tree\nwood are shown in years. The age of the human bone has been left blank.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The Concepcion was carried off course to the northwest by an ocean current flowing from the",
+      "choices": [
+        "Florida Current",
+        "Gulf Stream Current",
+        "North Atlantic Current",
+        "North Equatorial Current"
+      ],
+      "image": "/images/exams/earth-science/august-2012/context_38_41.png",
+      "context": "Base your answers to questions 38 through 41 on the passage and map below. The map shows sections of\nthe Atlantic Ocean, the Caribbean Sea, and the Gulf of Mexico.\nShipwreck\nIn 1641, the crew of the ship Concepcion used the Sun and stars for navigation.\nThe crew thought that the ship was just north of Puerto Rico, but ocean currents had\ncarried them off course. The ship hit a coral reef and sank off the coast of the\nDominican Republic. The X on the map marks the location of the sunken ship.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "What is the approximate latitude and longitude of the sunken ship?",
+      "choices": [
+        "20.5\u00b0 N 70\u00b0 E",
+        "20.5\u00b0 N 70\u00b0 W",
+        "20.5\u00b0 S 70\u00b0 E",
+        "20.5\u00b0 S 70\u00b0 W"
+      ],
+      "image": "/images/exams/earth-science/august-2012/context_38_41.png",
+      "context": "Base your answers to questions 38 through 41 on the passage and map below. The map shows sections of\nthe Atlantic Ocean, the Caribbean Sea, and the Gulf of Mexico.\nShipwreck\nIn 1641, the crew of the ship Concepcion used the Sun and stars for navigation.\nThe crew thought that the ship was just north of Puerto Rico, but ocean currents had\ncarried them off course. The ship hit a coral reef and sank off the coast of the\nDominican Republic. The X on the map marks the location of the sunken ship.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "At which map location does Polaris appear the highest in the nighttime sky?",
+      "choices": [
+        "Miami, Florida",
+        "Kingston, Jamaica",
+        "Havana, Cuba",
+        "San Juan, Puerto Rico"
+      ],
+      "image": "/images/exams/earth-science/august-2012/context_38_41.png",
+      "context": "Base your answers to questions 38 through 41 on the passage and map below. The map shows sections of\nthe Atlantic Ocean, the Caribbean Sea, and the Gulf of Mexico.\nShipwreck\nIn 1641, the crew of the ship Concepcion used the Sun and stars for navigation.\nThe crew thought that the ship was just north of Puerto Rico, but ocean currents had\ncarried them off course. The ship hit a coral reef and sank off the coast of the\nDominican Republic. The X on the map marks the location of the sunken ship.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "On which tectonic plate is Puerto Rico located?",
+      "choices": [
+        "North American Plate",
+        "South American Plate",
+        "Caribbean Plate",
+        "Cocos Plate X N 80\u00b0 74\u00b0 68\u00b0 62\u00b0 80\u00b0 74\u00b0 68\u00b0 62\u00b0 24\u00b0 83\u00b0 21\u00b0 18\u00b0 15\u00b0 12\u00b0 24\u00b0 21\u00b0 18\u00b0 15\u00b0 12\u00b0 77\u00b0 71\u00b0 65\u00b0 83\u00b0 77\u00b0 71\u00b0 65\u00b0 Havana Miami Florida Cuba Jamaica Kingston Dominican Republic Puerto Rico San Juan Location of sunken ship Caribbean Sea Gulf of Mexico Atlantic Ocean Haiti South America"
+      ],
+      "image": "/images/exams/earth-science/august-2012/context_38_41.png",
+      "context": "Base your answers to questions 38 through 41 on the passage and map below. The map shows sections of\nthe Atlantic Ocean, the Caribbean Sea, and the Gulf of Mexico.\nShipwreck\nIn 1641, the crew of the ship Concepcion used the Sun and stars for navigation.\nThe crew thought that the ship was just north of Puerto Rico, but ocean currents had\ncarried them off course. The ship hit a coral reef and sank off the coast of the\nDominican Republic. The X on the map marks the location of the sunken ship.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "During the time from September 9 to October 14, the thickness of the sediment deposits at the bottom of the San Juan River\u2019s channel",
+      "choices": [
+        "decreased, only",
+        "increased, only",
+        "decreased and then increased",
+        "increased and then decreased"
+      ],
+      "image": "/images/exams/earth-science/august-2012/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the cross sections below, which represent a particular location\nof the channel of the San Juan River in Utah. Changes in river discharge (Q), in cubic meters per second, and \nsediment deposits before, during, and after a flood are shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "On October 14, during the flood, the discharge of the San Juan River changed dramatically. The change in the river\u2019s discharge at this location was related to an increase in the river\u2019s",
+      "choices": [
+        "velocity",
+        "gradient",
+        "channel length",
+        "sediment deposits"
+      ],
+      "image": "/images/exams/earth-science/august-2012/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the cross sections below, which represent a particular location\nof the channel of the San Juan River in Utah. Changes in river discharge (Q), in cubic meters per second, and \nsediment deposits before, during, and after a flood are shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "If the greatest velocity of the San Juan River on December 9 was 10 centimeters per second, what was the approximate diameter of the largest particles that the river could have carried?",
+      "choices": [
+        "1.0 cm",
+        "2.0 cm",
+        "10.0 cm",
+        "0.2 cm Height (m) Sept 9 Sept 15 Oct 14 Oct 26 Dec 9 Q = 18 m3/s Q = 186 m3/s Q = 1688 m3/s Q = 513 m3/s Q = 50 m3/s Key Water Sediment deposits 0 0 5 10"
+      ],
+      "image": "/images/exams/earth-science/august-2012/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the cross sections below, which represent a particular location\nof the channel of the San Juan River in Utah. Changes in river discharge (Q), in cubic meters per second, and \nsediment deposits before, during, and after a flood are shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "In which layer of the atmosphere is this jet stream located?",
+      "choices": [
+        "thermosphere",
+        "mesosphere",
+        "stratosphere",
+        "troposphere"
+      ],
+      "image": "/images/exams/earth-science/august-2012/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the map below, which shows the position of the jet stream\nrelative to two air masses and a low-pressure center (L) over the United States.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "What is the difference in the air temperature and humidity between the cP and mT air masses?",
+      "choices": [
+        "The cP air mass is warmer and less humid.",
+        "The cP air mass is colder and more humid.",
+        "The mT air mass is warmer and more humid.",
+        "The mT air mass is colder and less humid."
+      ],
+      "image": "/images/exams/earth-science/august-2012/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the map below, which shows the position of the jet stream\nrelative to two air masses and a low-pressure center (L) over the United States.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "What is the general movement of the surface winds around the center of this low-pressure area?",
+      "choices": [
+        "counterclockwise and outward",
+        "counterclockwise and inward",
+        "clockwise and outward",
+        "clockwise and inward"
+      ],
+      "image": "/images/exams/earth-science/august-2012/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the map below, which shows the position of the jet stream\nrelative to two air masses and a low-pressure center (L) over the United States.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Assuming the low-pressure center (L) follows a typical storm track, it will move",
+      "choices": [
+        "into the mT air mass to the west",
+        "into the cP air mass to the northwest",
+        "along the path of the jet stream to the northeast",
+        "along the path of the jet stream to the southwest Canada Mexico Atlantic Ocean Pacific Ocean Gulf of Mexico J et s tr ea m cP L mT N United States Jet s t r e a m"
+      ],
+      "image": "/images/exams/earth-science/august-2012/context_45_48.png",
+      "context": "Base your answers to questions 45 through 48 on the map below, which shows the position of the jet stream\nrelative to two air masses and a low-pressure center (L) over the United States.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The events listed below led to the formation and exposure of these dinosaur tracks. A. Rock layers above the dinosaur tracks are eroded. B. Tracks are made in loose sand by dinosaurs. C. Sediments are compressed and cemented. D. Sedimentation buries tracks. E. The water level of Lake Powell drops. What is the correct sequence of the events listed above that led to the formation and exposure of the dinosaur tracks in the surface bedrock along the shoreline of Lake Powell?",
+      "choices": [
+        "B \u2192C \u2192A \u2192E \u2192D",
+        "B \u2192D \u2192C \u2192A \u2192E",
+        "E \u2192D \u2192A \u2192B \u2192C",
+        "E \u2192C \u2192B \u2192D \u2192A"
+      ],
+      "image": "/images/exams/earth-science/august-2012/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the passage and photograph below.\nDinosaur Tracks Revealed After Years of Dry Weather\nBy April 2005, the surface of Lake Powell, a human-made lake in Utah and Arizona,\nhad fallen 145 feet below its highest level. This revealed many traces of ancient life that\nhad not been observed since this area had been covered with water. Among these traces,\ndiscovered in sandstone bedrock, were many dinosaur tracks, ranging in age between\n170 and 200 million years old.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which conditions before April 2005 in the Lake Powell region most likely produced the decrease in the water level of Lake Powell?",
+      "choices": [
+        "Runoff exceeded precipitation.",
+        "Precipitation exceeded runoff.",
+        "Evaporation exceeded precipitation.",
+        "Precipitation exceeded evaporation. Dinosaur Track on Shoreline of Lake Powell Source: Andre Delgalvis, Arizona Highways, February 2006"
+      ],
+      "image": "/images/exams/earth-science/august-2012/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the passage and photograph below.\nDinosaur Tracks Revealed After Years of Dry Weather\nBy April 2005, the surface of Lake Powell, a human-made lake in Utah and Arizona,\nhad fallen 145 feet below its highest level. This revealed many traces of ancient life that\nhad not been observed since this area had been covered with water. Among these traces,\ndiscovered in sandstone bedrock, were many dinosaur tracks, ranging in age between\n170 and 200 million years old.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Explain why Oswego, New York, usually gets more snow than Toronto, Canada, when the wind is blowing in the direction shown on the map.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the map below, which shows a portion of New York State\nand Canada. The arrows represent the direction of the wind blowing over Lake Ontario for several days early\none winter.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Compared to the average winter air temperature in Watertown, New York, explain why the average winter air temperature in Old Forge, New York, is colder.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the map below, which shows a portion of New York State\nand Canada. The arrows represent the direction of the wind blowing over Lake Ontario for several days early\none winter.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Explain why the surface of Lake Erie freezes much later in the winter than the surrounding land surfaces. LAKE ONTARIO Old Forge Syracuse Oswego Watertown Rochester Buffalo Niagara Falls Utica ERIE LAKE Toronto Canada New York",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the map below, which shows a portion of New York State\nand Canada. The arrows represent the direction of the wind blowing over Lake Ontario for several days early\none winter.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the type of meteorite that is inferred to have a composition similar to the composition of Earth\u2019s core.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 57 on the passage below.\nMeteorite Composition\nMeteors that strike Earth\u2019s surface are called meteorites. Analysis of meteorite\ncomposition has provided scientists with information regarding the formation of Earth\nand our solar system, and possibly the development and evolution of life on Earth.\nTwo types of meteorites are iron meteorites and chondrites. Iron meteorites \nconsist mostly of iron and nickel, and are inferred to be from core materials of early\nplanetary bodies in our solar system. More than 60% of meteorites studied have been\nidentified as chondrites. Chondrites are made of millimeter-sized spheres of olivine\nand pyroxene crystals embedded in a mass of mineral and metal grains. The chondrites\nare thought to represent fragments of the earliest solid materials in our solar system.\nOne type of chondrite, the carbonaceous chondrite, contains water, organic compounds,\nand minerals that represent the chemical composition necessary for life to form.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify two elements that can be found in both olivine and pyroxene.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 57 on the passage below.\nMeteorite Composition\nMeteors that strike Earth\u2019s surface are called meteorites. Analysis of meteorite\ncomposition has provided scientists with information regarding the formation of Earth\nand our solar system, and possibly the development and evolution of life on Earth.\nTwo types of meteorites are iron meteorites and chondrites. Iron meteorites \nconsist mostly of iron and nickel, and are inferred to be from core materials of early\nplanetary bodies in our solar system. More than 60% of meteorites studied have been\nidentified as chondrites. Chondrites are made of millimeter-sized spheres of olivine\nand pyroxene crystals embedded in a mass of mineral and metal grains. The chondrites\nare thought to represent fragments of the earliest solid materials in our solar system.\nOne type of chondrite, the carbonaceous chondrite, contains water, organic compounds,\nand minerals that represent the chemical composition necessary for life to form.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "What is the estimated age, in years, of Earth and our solar system?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 57 on the passage below.\nMeteorite Composition\nMeteors that strike Earth\u2019s surface are called meteorites. Analysis of meteorite\ncomposition has provided scientists with information regarding the formation of Earth\nand our solar system, and possibly the development and evolution of life on Earth.\nTwo types of meteorites are iron meteorites and chondrites. Iron meteorites \nconsist mostly of iron and nickel, and are inferred to be from core materials of early\nplanetary bodies in our solar system. More than 60% of meteorites studied have been\nidentified as chondrites. Chondrites are made of millimeter-sized spheres of olivine\nand pyroxene crystals embedded in a mass of mineral and metal grains. The chondrites\nare thought to represent fragments of the earliest solid materials in our solar system.\nOne type of chondrite, the carbonaceous chondrite, contains water, organic compounds,\nand minerals that represent the chemical composition necessary for life to form.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Explain why there is little evidence of meteorite impact craters on Earth.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 57 on the passage below.\nMeteorite Composition\nMeteors that strike Earth\u2019s surface are called meteorites. Analysis of meteorite\ncomposition has provided scientists with information regarding the formation of Earth\nand our solar system, and possibly the development and evolution of life on Earth.\nTwo types of meteorites are iron meteorites and chondrites. Iron meteorites \nconsist mostly of iron and nickel, and are inferred to be from core materials of early\nplanetary bodies in our solar system. More than 60% of meteorites studied have been\nidentified as chondrites. Chondrites are made of millimeter-sized spheres of olivine\nand pyroxene crystals embedded in a mass of mineral and metal grains. The chondrites\nare thought to represent fragments of the earliest solid materials in our solar system.\nOne type of chondrite, the carbonaceous chondrite, contains water, organic compounds,\nand minerals that represent the chemical composition necessary for life to form.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a line graph of bedrock age by plotting the age of the bedrock shown by each isoline that crosses line AB. Points A and B are plotted on the grid. Connect the plots from A to B with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the generalized map below, which shows a portion of the\nAtlantic Ocean floor located between South America and Africa. Isolines show the approximate age, in million\nyears, of the ocean-floor bedrock on each side of the Mid-Atlantic Ridge. Points A, B, and X represent \nlocations on the ocean floor.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Estimate the age of the ocean-floor bedrock at point X.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the generalized map below, which shows a portion of the\nAtlantic Ocean floor located between South America and Africa. Isolines show the approximate age, in million\nyears, of the ocean-floor bedrock on each side of the Mid-Atlantic Ridge. Points A, B, and X represent \nlocations on the ocean floor.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Explain why the age of the ocean-floor bedrock increases as the distance from the Mid-Atlantic Ridge increases.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the generalized map below, which shows a portion of the\nAtlantic Ocean floor located between South America and Africa. Isolines show the approximate age, in million\nyears, of the ocean-floor bedrock on each side of the Mid-Atlantic Ridge. Points A, B, and X represent \nlocations on the ocean floor.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "The Mid-Atlantic Ridge separates pairs of crustal plates, such as the South American Plate and the African Plate. Identify one other pair of crustal plates separated by the Mid-Atlantic Ridge. B 118 83 68 40 10 10 40 68 83 118 South America Africa 0 X A Mid - A tl a n t i c R i d g e",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the generalized map below, which shows a portion of the\nAtlantic Ocean floor located between South America and Africa. Isolines show the approximate age, in million\nyears, of the ocean-floor bedrock on each side of the Mid-Atlantic Ridge. Points A, B, and X represent \nlocations on the ocean floor.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "On the map in your answer booklet, place an X on the trail between A and B so the center of the X indicates where the slope is steepest.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the topographic map in your answer booklet. Letters A\nthrough D represent locations on the map. Elevations are measured in feet. Dashed lines represent trails.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "On the map in your answer booklet, first draw an arrow on the stream to show the direction in which the stream is flowing. Then state one piece of evidence shown on the map that supports the direction of the arrow you drew on the stream.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the topographic map in your answer booklet. Letters A\nthrough D represent locations on the map. Elevations are measured in feet. Dashed lines represent trails.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Identify the contour interval used on this map.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the topographic map in your answer booklet. Letters A\nthrough D represent locations on the map. Elevations are measured in feet. Dashed lines represent trails.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "How long will it take a person to hike along the trail from point C to point D at a rate of 3 miles per hour?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the topographic map in your answer booklet. Letters A\nthrough D represent locations on the map. Elevations are measured in feet. Dashed lines represent trails.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a bar graph of the number of total lunar eclipses for each 100-year interval listed on the data table in your answer booklet.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the bar graph below and on the data table in your answer\nbooklet. The bar graph shows the number of partial lunar eclipses that occurred during each of the last nine \ncenturies (100-year intervals) on Earth. A partial lunar eclipse occurs when only part of the Moon is within the\ndarkest part of Earth\u2019s shadow. The data table in your answer booklet shows the number of total lunar eclipses\nthat occurred during the same nine centuries. A total lunar eclipse occurs when the entire Moon is completely\nwithin the darkest part of Earth\u2019s shadow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "State the relationship between the number of partial lunar eclipses per century and the number of total lunar eclipses per century.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the bar graph below and on the data table in your answer\nbooklet. The bar graph shows the number of partial lunar eclipses that occurred during each of the last nine \ncenturies (100-year intervals) on Earth. A partial lunar eclipse occurs when only part of the Moon is within the\ndarkest part of Earth\u2019s shadow. The data table in your answer booklet shows the number of total lunar eclipses\nthat occurred during the same nine centuries. A total lunar eclipse occurs when the entire Moon is completely\nwithin the darkest part of Earth\u2019s shadow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw an X so the center of the X indicates the position of Earth during a lunar eclipse. 50 1101 to 1200 Partial Lunar Eclipses Each Century 100-Year Interval Number of Partial Lunar Eclipses 1201 to 1300 1301 to 1400 1401 to 1500 1501 to 1600 1601 to 1700 1701 to 1800 1801 to 1900 1901 to 2000 110 100 90 80 70 60 50 110 100 90 80 70 60",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the bar graph below and on the data table in your answer\nbooklet. The bar graph shows the number of partial lunar eclipses that occurred during each of the last nine \ncenturies (100-year intervals) on Earth. A partial lunar eclipse occurs when only part of the Moon is within the\ndarkest part of Earth\u2019s shadow. The data table in your answer booklet shows the number of total lunar eclipses\nthat occurred during the same nine centuries. A total lunar eclipse occurs when the entire Moon is completely\nwithin the darkest part of Earth\u2019s shadow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "State the grain size of the sediment that was deposited to form rock unit 2.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_69_74.png",
+      "context": "Base your answers to questions 69 through 74 on the geologic cross section below, which shows rock \nunits 1 through 7 that have not been overturned. Some of the rock units contain New York State index fossils.\nAn unconformity exists between rock units 5 and 6.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Identify two processes that produced the basalt.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_69_74.png",
+      "context": "Base your answers to questions 69 through 74 on the geologic cross section below, which shows rock \nunits 1 through 7 that have not been overturned. Some of the rock units contain New York State index fossils.\nAn unconformity exists between rock units 5 and 6.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "What evidence shown in the cross section indicates that the basalt rock unit is the youngest rock unit?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_69_74.png",
+      "context": "Base your answers to questions 69 through 74 on the geologic cross section below, which shows rock \nunits 1 through 7 that have not been overturned. Some of the rock units contain New York State index fossils.\nAn unconformity exists between rock units 5 and 6.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Bedrock from which entire geologic time period is missing between rock units 5 and 6?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_69_74.png",
+      "context": "Base your answers to questions 69 through 74 on the geologic cross section below, which shows rock \nunits 1 through 7 that have not been overturned. Some of the rock units contain New York State index fossils.\nAn unconformity exists between rock units 5 and 6.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Identify one metamorphic rock that could have been formed by the contact metamorphism within rock unit 1.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_69_74.png",
+      "context": "Base your answers to questions 69 through 74 on the geologic cross section below, which shows rock \nunits 1 through 7 that have not been overturned. Some of the rock units contain New York State index fossils.\nAn unconformity exists between rock units 5 and 6.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Describe one characteristic of volcanic ash layers and index fossils that makes both of them good geologic time markers. Key Basalt Volcanic ash Contact metamorphism 1 2 3 4 5 6 7",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_69_74.png",
+      "context": "Base your answers to questions 69 through 74 on the geologic cross section below, which shows rock \nunits 1 through 7 that have not been overturned. Some of the rock units contain New York State index fossils.\nAn unconformity exists between rock units 5 and 6.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw the 60\u00b0F isotherm from location A to the western edge of the map.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 78 on the map in your answer booklet, which shows surface air\ntemperatures, in degrees Fahrenheit, for a portion of the United States. These temperatures were recorded at\nnoontime on the same winter day. Two coastal cities are labeled: Atlantic City, New Jersey, and Miami, Florida.\nOther selected locations are labeled A, B, and C.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Calculate the temperature gradient between locations B and C in \u00b0F per mile.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 78 on the map in your answer booklet, which shows surface air\ntemperatures, in degrees Fahrenheit, for a portion of the United States. These temperatures were recorded at\nnoontime on the same winter day. Two coastal cities are labeled: Atlantic City, New Jersey, and Miami, Florida.\nOther selected locations are labeled A, B, and C.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Explain why the noontime winter air temperatures in Miami, Florida, are usually higher than the noontime winter air temperatures in Atlantic City, New Jersey.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 75 through 78 on the map in your answer booklet, which shows surface air\ntemperatures, in degrees Fahrenheit, for a portion of the United States. These temperatures were recorded at\nnoontime on the same winter day. Two coastal cities are labeled: Atlantic City, New Jersey, and Miami, Florida.\nOther selected locations are labeled A, B, and C.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "A frontal boundary exists between locations B and C. Identify one process that causes clouds to form in the moist air rising along this frontal boundary.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/q78.png",
+      "context": "Base your answers to questions 75 through 78 on the map in your answer booklet, which shows surface air\ntemperatures, in degrees Fahrenheit, for a portion of the United States. These temperatures were recorded at\nnoontime on the same winter day. Two coastal cities are labeled: Atlantic City, New Jersey, and Miami, Florida.\nOther selected locations are labeled A, B, and C.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "What evidence shown on the graph indicates that city X is located in the Southern Hemisphere?",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the climate graph below, which shows the average monthly \nprecipitation and average monthly air temperatures at city X. City X is located near a mountain range in the\nSouthern Hemisphere.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "In your answer booklet, state whether the climate of city X is dry or wet. Then, on the cross section in your answer booklet, place an X on Earth\u2019s surface to indicate the most likely location of city X. 75 70 65 60 55 50 45 40 35 30 25 20 15 10 5 0 J F M A M J J A S O N D 35 30 25 20 15 10 5 0 \u20135 \u201310 \u201315 \u201320 \u201325 \u201330 \u201335 \u201340 City X Month Average Monthly Precipitation (cm) Average Monthly Air Temperature (\u00b0C) Key Precipitation Air temperature",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2012/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the climate graph below, which shows the average monthly \nprecipitation and average monthly air temperatures at city X. City X is located near a mountain range in the\nSouthern Hemisphere.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw a line through Earth at location A to represent Earth\u2019s tilted axis on the first day of summer in the Northern Hemisphere. Label the North Pole end of the axis.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 through 85 on the diagram in your answer booklet. The diagram shows\nEarth revolving around the Sun. Letters A, B, C, and D represent Earth\u2019s location in its orbit on the first day of\nthe four seasons. Aphelion (farthest distance from the Sun) and perihelion (closest distance to the Sun) are\nlabeled to show the approximate times when they occur in Earth\u2019s orbit.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw an arrow on Earth at location D to show the direction of Earth\u2019s rotation. Extend the arrow from one side of Earth to the other side of Earth.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 through 85 on the diagram in your answer booklet. The diagram shows\nEarth revolving around the Sun. Letters A, B, C, and D represent Earth\u2019s location in its orbit on the first day of\nthe four seasons. Aphelion (farthest distance from the Sun) and perihelion (closest distance to the Sun) are\nlabeled to show the approximate times when they occur in Earth\u2019s orbit.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Approximately how many days does it take Earth to travel from location B to location C?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 through 85 on the diagram in your answer booklet. The diagram shows\nEarth revolving around the Sun. Letters A, B, C, and D represent Earth\u2019s location in its orbit on the first day of\nthe four seasons. Aphelion (farthest distance from the Sun) and perihelion (closest distance to the Sun) are\nlabeled to show the approximate times when they occur in Earth\u2019s orbit.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Explain why the gravitational attraction between the Sun and Earth decreases as Earth travels from location D to location A.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 through 85 on the diagram in your answer booklet. The diagram shows\nEarth revolving around the Sun. Letters A, B, C, and D represent Earth\u2019s location in its orbit on the first day of\nthe four seasons. Aphelion (farthest distance from the Sun) and perihelion (closest distance to the Sun) are\nlabeled to show the approximate times when they occur in Earth\u2019s orbit.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Explain why an observer in New York State sees some different constellations in the night sky when Earth is at location A compared to when Earth is at location C. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 through 85 on the diagram in your answer booklet. The diagram shows\nEarth revolving around the Sun. Letters A, B, C, and D represent Earth\u2019s location in its orbit on the first day of\nthe four seasons. Aphelion (farthest distance from the Sun) and perihelion (closest distance to the Sun) are\nlabeled to show the approximate times when they occur in Earth\u2019s orbit.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

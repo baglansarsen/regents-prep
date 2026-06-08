@@ -1,0 +1,1106 @@
+{
+  "subject": "chemistry",
+  "session": "august-2022",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "What is the number of protons in an atom with the electron con\ufb01 guration of 2\u00025?",
+      "choices": [
+        "5",
+        "2",
+        "3",
+        "7"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "In the wave-mechanical model of an atom, an orbital is de\ufb01 ned as",
+      "choices": [
+        "a region of the most probable neutron location",
+        "a region of the most probable electron location",
+        "the straight-line path of a neutron",
+        "the straight-line path of an electron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "In the ground state, which shell of a potassium atom has an electron with the greatest amount of energy?",
+      "choices": [
+        "\ufb01 rst",
+        "second",
+        "third",
+        "fourth"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which phrase describes two atoms that contain the same number of protons but a different number of neutrons?",
+      "choices": [
+        "ions of the same element",
+        "isotopes of the same element",
+        "a mixture of different elements",
+        "nuclides of different elements"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "All atoms of an element have the same",
+      "choices": [
+        "mass number",
+        "atomic mass",
+        "number of neutrons",
+        "number of protons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which Group 15 element is classi\ufb01 ed as a metal?",
+      "choices": [
+        "N",
+        "P",
+        "As",
+        "Bi"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Compared to the number of electron shells and radius of an aluminum atom in the ground state, a boron atom in the ground state has",
+      "choices": [
+        "fewer electron shells and a smaller radius",
+        "fewer electron shells and a larger radius",
+        "more electron shells and a smaller radius",
+        "more electron shells and a larger radius"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Hydrogen sul\ufb01 de, H2S, is classi\ufb01 ed as a",
+      "choices": [
+        "compound with atoms in a \ufb01 xed proportion",
+        "compound with atoms in a proportion that can vary",
+        "mixture with atoms in a \ufb01 xed proportion",
+        "mixture with atoms in a proportion that can vary"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A structural formula differs from a molecular formula in that a structural formula shows the",
+      "choices": [
+        "arrangement of atoms",
+        "number of atoms",
+        "ratio of atoms",
+        "types of atoms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which type of reaction occurs when a compound is separated into its elements?",
+      "choices": [
+        "synthesis",
+        "decomposition",
+        "single replacement",
+        "double replacement"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which terms represent two categories of compounds?",
+      "choices": [
+        "chemical and physical",
+        "chemical and molecular",
+        "ionic and physical",
+        "ionic and molecular"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "When an atom of hydrogen and an atom of chlorine combine to form a molecule of hydrogen chloride, a bond is",
+      "choices": [
+        "formed as energy is absorbed",
+        "formed as energy is released",
+        "broken as energy is absorbed",
+        "broken as energy is released"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "All atoms of the element vanadium must have the same",
+      "choices": [
+        "atomic number",
+        "mass number",
+        "number of neutrons plus electrons",
+        "number of protons plus neutrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which sample of matter can be separated into two different substances by physical means?",
+      "choices": [
+        "liquid bromine",
+        "gaseous propane",
+        "solid sodium acetate",
+        "aqueous magnesium sulfate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Two liquids can be separated by distillation due to a difference in",
+      "choices": [
+        "concentration",
+        "conductivity",
+        "boiling point",
+        "heat of fusion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which unit can be used to express the concentration of a PbCl2(aq) solution?",
+      "choices": [
+        "kelvins",
+        "kilojoules per gram",
+        "pascals",
+        "parts per million"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Compared to the freezing point and boiling point of water at 1.0 atm, a 0.5 M aqueous solution of NaCl at 1.0 atm has",
+      "choices": [
+        "a lower freezing point and a lower boiling point",
+        "a lower freezing point and a higher boiling point",
+        "a higher freezing point and a lower boiling point",
+        "a higher freezing point and a higher boiling point"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which form of energy is converted to thermal energy when propane burns in air?",
+      "choices": [
+        "chemical",
+        "electrical",
+        "mechanical",
+        "nuclear"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "According to the kinetic molecular theory, which statement explains why an ideal gas can be compressed to a smaller volume?",
+      "choices": [
+        "The motion of the gas particles is circular and orderly.",
+        "The force of attraction between the gas particles is strong.",
+        "As the gas particles collide, the total energy of the system decreases.",
+        "The gas particles are separated by great distances relative to their size."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Under which conditions of temperature and pressure does a sample of propane behave least like an ideal gas?",
+      "choices": [
+        "250. K and 1.0 atm",
+        "250. K and 5.0 atm",
+        "500. K and 1.0 atm",
+        "500. K and 5.0 atm"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Compared to a 1.0-L sample of CO2(g) in a sealed, rigid container at STP, a 1.0-L sample of CH4(g) in a sealed, rigid container at STP has the same",
+      "choices": [
+        "density",
+        "molar mass",
+        "chemical properties",
+        "number of molecules"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A chemical reaction occurs when",
+      "choices": [
+        "H2O(g) forms H2O(\u0002)",
+        "H2O(\u0002) forms H2O(s)",
+        "O2(\u0002) forms O2(s)",
+        "O2(g) forms O3(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "What is the purpose of adding a catalyst to a chemical reaction?",
+      "choices": [
+        "to decrease the potential energy of the products",
+        "to increase the potential energy of the reactants",
+        "to convert solid reactants to liquid reactants",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Systems in nature tend to undergo changes toward",
+      "choices": [
+        "lower energy and less disorder",
+        "lower energy and greater disorder",
+        "higher energy and less disorder",
+        "higher energy and greater disorder"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which reaction occurs at the anode in an electrochemical cell?",
+      "choices": [
+        "neutralization",
+        "oxidation",
+        "reduction",
+        "substitution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "As more NaCl(s) is dissolved in a dilute, unsaturated NaCl(aq) solution, the conductivity of the solution",
+      "choices": [
+        "decreases as the ion concentration decreases",
+        "decreases as the ion concentration increases",
+        "increases as the ion concentration decreases",
+        "increases as the ion concentration increases"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which substance always forms when an Arrhenius acid reacts with an Arrhenius base?",
+      "choices": [
+        "CO2",
+        "H2",
+        "CH3OH",
+        "H2O"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which symbol represents a nuclear emission with the greatest mass and the greatest ionizing power?",
+      "choices": [
+        "\u0003",
+        "\u0004\u0005",
+        "\u0004\u0002",
+        "\u0006"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "One potential bene\ufb01 t of nuclear fusion reactions is",
+      "choices": [
+        "reactor meltdown",
+        "uncontrolled chain reaction",
+        "production of large amounts of energy",
+        "production of radioactive waste materials"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Determining the age of a wooden beam from a sunken ship is an example of a bene\ufb01 cial use of",
+      "choices": [
+        "Lewis structures",
+        "polyatomic ions",
+        "radioactive nuclides",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Given the bright-line spectra of four elements and the spectrum of a mixture formed from two of these elements: Bright-Line Spectra Element A Element Q Element E Element G Mixture of Two Elements 400 450 500 550 600 650 700 Wavelength (nm) Which two elements are present in this mixture?",
+      "choices": [
+        "A and Q",
+        "A and E",
+        "G and Q",
+        "G and E"
+      ],
+      "image": "/images/exams/chemistry/august-2022/q31.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "What is the approximate mass of an atom that has 10 electrons, 10 protons, and 9 neutrons?",
+      "choices": [
+        "10. u",
+        "19 u",
+        "20. u",
+        "29 u"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which electron con\ufb01 guration represents the electrons of an atom in an excited state?",
+      "choices": [
+        "2-7-3",
+        "2-8-2",
+        "2-8-8-1",
+        "2-8-9-2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Given information about the naturally occurring isotopes of bromine: Naturally Occurring Isotopes of Bromine Isotope Notation Atomic Mass (u) Natural Abundance (%) Br-79 78.92 50.69 Br-81 80.92 49.31 Which numerical setup can be used to determine the atomic mass of bromine?",
+      "choices": [
+        "(78.92 u)(50.69) \u0005 (80.92 u)(49.31)",
+        "(80.92 u)(50.69) \u0005 (78.92 u)(49.31)",
+        "(78.92 u)(0.5069) \u0005 (80.92 u)(0.4931)",
+        "(80.92 u)(0.5069) \u0005 (78.92 u)(0.4931)"
+      ],
+      "image": "/images/exams/chemistry/august-2022/q34.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "What is a chemical name of the compound CuS?",
+      "choices": [
+        "copper(I) sul\ufb01 de",
+        "copper(I) sulfate",
+        "copper(II) sul\ufb01 de",
+        "copper(II) sulfate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: 2H2(g) \u0005 2NO(g) \u2192 N2(g) \u0005 2H2O(g) What is the mass of N2(g) produced when 1.0 gram of H2(g) completely reacts with 15.0 grams of NO(g) to produce 9.0 grams of H2O(g)?",
+      "choices": [
+        "7.0 g",
+        "14.0 g",
+        "25.0 g",
+        "28.0 g"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "An atom of which element bonds with an atom of hydrogen to form the most polar bond?",
+      "choices": [
+        "bromine",
+        "chlorine",
+        "\ufb02 uorine",
+        "iodine"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Given the diagram representing a classi\ufb01 cation of matter: X Matter CaCO3(s) Fe(s) Z air NaCl(aq) Which types of matter are represented by X and Z in the diagram?",
+      "choices": [
+        "X is mixture, and Z is substance.",
+        "X is substance, and Z is mixture.",
+        "X is element, and Z is compound.",
+        "X is compound, and Z is element."
+      ],
+      "image": "/images/exams/chemistry/august-2022/q38.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Based on Table G, which sample, when added to 100. grams of water and thoroughly stirred, produces a heterogeneous mixture at 20.\u00b0C?",
+      "choices": [
+        "20. g of KCl",
+        "20. g of KI",
+        "80. g of KCl",
+        "80. g of KI"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "How many milliliters of 1 M HCl(aq) must be diluted with water to make exactly 500 mL of 0.1 M HCl(aq)?",
+      "choices": [
+        "10 mL",
+        "50 mL",
+        "100 mL",
+        "5000"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Which two particle diagrams represent two different phases of the same compound, only? A Key = atom of one element = atom of a different element B C D",
+      "choices": [
+        "A and B",
+        "A and C",
+        "B and C",
+        "B and D"
+      ],
+      "image": "/images/exams/chemistry/august-2022/q41.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "A sample of KCl(s) is dissolved in water to form KCl(aq). When the water in the KCl(aq) is completely evaporated, KCl(s) remains. Which statement describes a property of the KCl(s) after the water evaporated?",
+      "choices": [
+        "The KCl(s) becomes a molecular compound.",
+        "The molar mass of the KCl(s) decreases.",
+        "The melting point of the KCl(s) is unchanged.",
+        "The KCl(s) conducts an electric current."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Which statement describes ice and liquid water in a stoppered \ufb02 ask at 0\u00b0C at equilibrium?",
+      "choices": [
+        "The rate of melting must equal the rate of freezing.",
+        "The rate of freezing must be greater than the rate of melting.",
+        "The mass of the ice must equal the mass of the liquid water.",
+        "The mass of the ice must be greater than the mass of the liquid water."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a system at equilibrium in a sealed, rigid container: N2(g) \u0005 O2(g) \u0005 182.6 kJ \u21cc 2NO(g) When heat is added to the system, the concentration of N2(g)",
+      "choices": [
+        "decreases and the concentration of NO(g) decreases",
+        "decreases and the concentration of NO(g) increases",
+        "increases and the concentration of NO(g) increases",
+        "increases and the concentration of NO(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Given the potential energy diagram for a reaction: Reaction Coordinate Potential Energy 1 3 4 2 Which numbered interval represents the activation energy of the reaction?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/chemistry/august-2022/q45.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Given the formula representing a compound: C C H H C H C C H H H H H H H CI H What is a chemical name for the compound?",
+      "choices": [
+        "2-chloropentene",
+        "2-chloropentane",
+        "4-chloropentene",
+        "4-chloropentane"
+      ],
+      "image": "/images/exams/chemistry/august-2022/q46.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which formula represents a saturated organic compound?",
+      "choices": [
+        "C2H2",
+        "C2H4",
+        "C3H4",
+        "C3H8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The compounds CH3CH2CH2OH and CH3OCH2CH3 have different",
+      "choices": [
+        "numbers of carbon atoms per mole",
+        "numbers of hydrogen atoms per mole",
+        "functional groups",
+        "molecular masses"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The diagram and ionic equation below represent an operating voltaic cell. Salt bridge Mg(s) + Ni2+(aq) Mg2+(aq) + Ni(s) Mg(s) Ni(s) Mg2+(aq) Ni2+(aq) Wire Wire V Voltmeter Which phrase describes the direction of electron \ufb02 ow in this cell?",
+      "choices": [
+        "from Ni(s) through the wire to Mg(s)",
+        "from Mg(s) through the wire to Ni(s)",
+        "from Ni2\u0005(aq) ions through the salt bridge to Mg2\u0005(aq) ions",
+        "from Mg2\u0005(aq) ions through the salt bridge to Ni2\u0005(aq) ions"
+      ],
+      "image": "/images/exams/chemistry/august-2022/q49.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction at equilibrium: NH3(aq) \u0005 H2O(\u0002) \u21cc NH4\u0005(aq) \u0005 OH\u0002(aq) According to one acid-base theory, which pair are the H\u0005 donors?",
+      "choices": [
+        "NH3(aq) and H2O(\u0002)",
+        "NH3(aq) and OH\u0002(aq)",
+        "NH4\u0005(aq) and H2O(\u0002)",
+        "NH4\u0005(aq) and OH\u0002(aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify a metal from Table J that is less active than silver.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Au or gold."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "State, in terms of electrons, why these halogens have similar chemical properties.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 54 on the information below and on your knowledge of chemistry.\nFluorine, chlorine, bromine, and iodine are located in Group 17 and are called halogens.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The halogen atoms all have seven valence electrons. Since atoms of these elements have the same number of outer shell electrons, they tend to have similar properties. same number of valence electrons All halogen atoms need one more electron to form a stable octet."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Compare the radius of a chlorine atom to the radius of a Cl\u0002 ion.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 54 on the information below and on your knowledge of chemistry.\nFluorine, chlorine, bromine, and iodine are located in Group 17 and are called halogens.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The chlorine atom is smaller than a chloride ion. The Cl\u0002 ion is larger. The atom is smaller."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "In the space in your answer booklet, draw a Lewis electron-dot diagram for an atom of \ufb02 uorine in the ground state.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 54 on the information below and on your knowledge of chemistry.\nFluorine, chlorine, bromine, and iodine are located in Group 17 and are called halogens.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. The positions of the electrons may vary. Examples of 1-credit responses: F F P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "State the number of signi\ufb01 cant \ufb01 gures to which the given pressure is expressed.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 57 on the information below and on your knowledge of chemistry.\nA sample of helium gas in a sealed, rigid container is at 240. K and 120. kPa. The \ntemperature is increased to 360. K.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 3 or three."
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Determine the pressure of the helium at 360. K.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 57 on the information below and on your knowledge of chemistry.\nA sample of helium gas in a sealed, rigid container is at 240. K and 120. kPa. The \ntemperature is increased to 360. K.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 180. kPa or 180 kPa."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Show a numerical setup for converting 120",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 57 on the information below and on your knowledge of chemistry.\nA sample of helium gas in a sealed, rigid container is at 240. K and 120. kPa. The \ntemperature is increased to 360. K.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to:"
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Based on the graph, determine the boiling point of butanal at standard pressure.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2022/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the information below and on your knowledge of chemistry.\nThe table and graph below show information about \ufb01 ve aldehydes.\nNames and Molar Masses\n of Selected Aldehydes\nName\nMolar Mass\n(g/mol)\nmethanal\n30.0\nethanal\n44.1\npropanal\n58.1\nbutanal\n72.1\npentanal\n86.1\n400.\n200.\nBoiling Points at Standard Pressure\nVersus Molar Mass of Some Aldehydes\nMolar Mass (g/mol)\n0\nBoiling Point (K)\n220.\n240.\n260.\n280.\n300.\n320.\n340.\n360.\n380.\n10. 20. 30. 40. 50. 60. 70. 80. 90. 100.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 340. K to 360. K, inclusive."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Determine the mass of 3.00",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2022/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the information below and on your knowledge of chemistry.\nThe table and graph below show information about \ufb01 ve aldehydes.\nNames and Molar Masses\n of Selected Aldehydes\nName\nMolar Mass\n(g/mol)\nmethanal\n30.0\nethanal\n44.1\npropanal\n58.1\nbutanal\n72.1\npentanal\n86.1\n400.\n200.\nBoiling Points at Standard Pressure\nVersus Molar Mass of Some Aldehydes\nMolar Mass (g/mol)\n0\nBoiling Point (K)\n220.\n240.\n260.\n280.\n300.\n320.\n340.\n360.\n380.\n10. 20. 30. 40. 50. 60. 70. 80. 90. 100.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 174 g or any value from 173.997 g to 174.3 g, inclusive."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Describe the change in potential energy of the water molecules that vaporize during boiling.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of chemistry.\nA 100.-mL sample of liquid water is heated in a \ufb02 ask to boiling at 1 atm. As the water \nboils, some liquid water changes phase to water vapor. The equation below represents this \nchange.\nH2O(\u0002) \u0005 heat \u2192 H2O(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The potential energy of the water molecules increases. The water vapor molecules have greater potential energy. The steam has more PE."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Compare the entropy of the H2O(\u0002) to the H2O(g) that is formed.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of chemistry.\nA 100.-mL sample of liquid water is heated in a \ufb02 ask to boiling at 1 atm. As the water \nboils, some liquid water changes phase to water vapor. The equation below represents this \nchange.\nH2O(\u0002) \u0005 heat \u2192 H2O(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The entropy of the liquid is less than the entropy of the gas. H2O(\u0002) has less entropy. The gas is more random. Steam is more disordered."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Determine the mass of liquid water that vaporizes if 7700 joules of energy is absorbed by the H2O(\u0002) at 100.\u00b0C.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of chemistry.\nA 100.-mL sample of liquid water is heated in a \ufb02 ask to boiling at 1 atm. As the water \nboils, some liquid water changes phase to water vapor. The equation below represents this \nchange.\nH2O(\u0002) \u0005 heat \u2192 H2O(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 3.4 g or any value from 3.4 g to 3.41 g, inclusive. x 120 kPa 100 kPa 1 atm \u0003 120. kPa 1 atm 101.3 kPa \u0004 120 kPa 101.3 kPa/atm 120 1 101 ( ) P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "State the number of neutrons in an atom of tritium.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of chemistry.\nTritium, hydrogen-3, is a radioisotope.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 2 or two."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Complete the nuclear equation in your answer booklet for the decay of tritium by writing a notation for the missing nuclide.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of chemistry.\nTritium, hydrogen-3, is a radioisotope.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: 3 2He He-3 helium-3 3He"
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Based on Table N, identify a nuclide that has the same decay mode as tritium,",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of chemistry.\nTritium, hydrogen-3, is a radioisotope.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any nuclide on Table N that decays by \u0005\u0002 emission and has a half-life longer than 12.31 y. Acceptable responses include, but are not limited to: 14C Cs-137 90 38Sr technetium\u201399 Part C Allow a total of 20 credits for this part. The student must answer all questions in this part."
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Balance the equation in your answer booklet for the production of phosphoric acid, using the smallest whole-number coef\ufb01 cients.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nPhosphorus combines with oxygen to form an oxide that reacts with water to \nproduce phosphoric acid, which is an important industrial compound used to produce \nfertilizers. An unbalanced equation for the production of phosphoric acid is shown below.\nP4O10(s) \u0005 H2O(\u0002) \u2192 H3PO4(aq) \u0005 energy",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for P4O10(s) \u0006 6 H2O(\u0002) \u2192 4 H3PO4(aq). Allow credit even if the coefficient \u201c1\u201d is written in front of P4O10(s)."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Write the empirical formula of the solid reactant in the equation.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nPhosphorus combines with oxygen to form an oxide that reacts with water to \nproduce phosphoric acid, which is an important industrial compound used to produce \nfertilizers. An unbalanced equation for the production of phosphoric acid is shown below.\nP4O10(s) \u0005 H2O(\u0002) \u2192 H3PO4(aq) \u0005 energy",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for P2O5. The order of the elements may vary."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the percent composition by mass of phosphorus in P4O10 (formula mass \u0007 283.89 u).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nPhosphorus combines with oxygen to form an oxide that reacts with water to \nproduce phosphoric acid, which is an important industrial compound used to produce \nfertilizers. An unbalanced equation for the production of phosphoric acid is shown below.\nP4O10(s) \u0005 H2O(\u0002) \u2192 H3PO4(aq) \u0005 energy",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Note: Do not allow credit if the fraction is not multiplied by 100."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Determine the oxidation state of phosphorus in the phosphoric acid.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nPhosphorus combines with oxygen to form an oxide that reacts with water to \nproduce phosphoric acid, which is an important industrial compound used to produce \nfertilizers. An unbalanced equation for the production of phosphoric acid is shown below.\nP4O10(s) \u0005 H2O(\u0002) \u2192 H3PO4(aq) \u0005 energy",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for \u00065 or 5\u0006. 4(30.97376u) 283.89u 100 \u0004 123.90 283.89 100 \u0004 12 400 283.9 4 31 100 284 ( )( ) P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State the solubility of limestone in water.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nCalcium oxide, CaO, also known as lime, is an important industrial chemical. Lime can \nbe obtained by the heating of limestone, which is mainly calcium carbonate, CaCO3. An \nequation representing the reaction for the production of lime is shown below.\nCaCO3(s) \u0005 heat \u2192 CaO(s) \u0005 CO2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: CaCO3 has very low solubility. Limestone is not soluble in water. insoluble"
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "State evidence from the equation that the reaction to form lime is endothermic.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nCalcium oxide, CaO, also known as lime, is an important industrial chemical. Lime can \nbe obtained by the heating of limestone, which is mainly calcium carbonate, CaCO3. An \nequation representing the reaction for the production of lime is shown below.\nCaCO3(s) \u0005 heat \u2192 CaO(s) \u0005 CO2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The energy term is on the reactant side of the equation. Heat is on the left side of the equation. Heat must be added to decompose limestone and form lime."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Identify the noble gas that has atoms in the ground state with the same electron con\ufb01 guration as the calcium ion, in the ground state, in the CaCO3.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nCalcium oxide, CaO, also known as lime, is an important industrial chemical. Lime can \nbe obtained by the heating of limestone, which is mainly calcium carbonate, CaCO3. An \nequation representing the reaction for the production of lime is shown below.\nCaCO3(s) \u0005 heat \u2192 CaO(s) \u0005 CO2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Ar or argon"
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "73",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the information below and on your knowledge of chemistry.\nCalcium oxide, CaO, also known as lime, is an important industrial chemical. Lime can \nbe obtained by the heating of limestone, which is mainly calcium carbonate, CaCO3. An \nequation representing the reaction for the production of lime is shown below.\nCaCO3(s) \u0005 heat \u2192 CaO(s) \u0005 CO2(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for ionic bonding or ionic."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Compare the number of moles of H\u0005(aq) ions to the number of moles of OH\u0002(aq) ions in the titration mixture when the HCl(aq) is exactly neutralized by the KOH(aq).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 74 and 75 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, a student places 20.0 mL of HCl(aq) of unknown \nconcentration into a \ufb02 ask. The solution is titrated with 0.10 M KOH(aq) until the HCl(aq) \nis exactly neutralized. At the end of the titration, the volume of KOH(aq) added is 42.0 mL. \nDuring the laboratory activity appropriate safety equipment was used and safety procedures \nwere followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The number of moles of H\u0006(aq) ions is equal to the number of moles of OH\u0002(aq) ions. The number of hydrogen ions is the same as the number of hydroxide ions. The ratio of H\u0006 to OH\u0002 is 1:1."
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Determine the concentration of the HCl(aq) solution using the titration data.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2022/q75.png",
+      "context": "Base your answers to questions 74 and 75 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, a student places 20.0 mL of HCl(aq) of unknown \nconcentration into a \ufb02 ask. The solution is titrated with 0.10 M KOH(aq) until the HCl(aq) \nis exactly neutralized. At the end of the titration, the volume of KOH(aq) added is 42.0 mL. \nDuring the laboratory activity appropriate safety equipment was used and safety procedures \nwere followed.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.21 M or any value from 0.2 M to 0.21 M, inclusive."
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Identify the element in these four compounds that makes them organic compounds.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2022/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the information below and on your knowledge of chemistry.\nA scienti\ufb01 c sampling instrument landed on a comet. Four of the organic compounds \ndetected on the comet are methyl isocyanate, propanone, propanal, and ethanamide. The \nstructural formula for methyl isocyanate is shown below:\nO\nH\nH\nC\nN\nC\nH",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for C or carbon."
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "77",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2022/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the information below and on your knowledge of chemistry.\nA scienti\ufb01 c sampling instrument landed on a comet. Four of the organic compounds \ndetected on the comet are methyl isocyanate, propanone, propanal, and ethanamide. The \nstructural formula for methyl isocyanate is shown below:\nO\nH\nH\nC\nN\nC\nH",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for propanone and propanal. P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Using the results of the student\u2019s investigation, state evidence that zinc metal is more active than copper metal.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2022/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity appropriate safety equipment is used and safety \nprocedures are followed. A student tests samples of four different metals using 0.20 M\naqueous metal ion solutions of the same four metals. The student uses a 24-well plate as the \nreaction container for the different metal and solution combinations. \nBefore placing a metal strip in each solution, the student cleans the surface of the \nmetal strip with sandpaper. The 24-well plate diagram below shows the setup and results of \nthe investigation. In each vertical column, the metal strips are all the same metal. For each \nhorizontal row, all of the solutions contain the same type of metal ion.\nMetal Strips\nMg(s)\nMg2+(aq)\nZn2+(aq)\nFe2+(aq)\nCu2+(aq)\nSolutions (0.20 M)\nMetal strip\nwith no change\nZn(s)\nFe(s)\nCu(s)\n=\nMetal strip\nappears dark\nin the solution\n=\nKey\n24-Well Plate with Metal Strips and Aqueous Metal Ion Solutions",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The Cu metal is less active than Zn metal since Cu metal does not react with any of the solutions and Zn metal reacts with two solutions. Zinc metal is more chemically active than copper metal, because zinc reacts with Fe2\u0006 ions and copper does not. The Zn(s) reacted with the Cu2\u0006(aq), but the Cu(s) does not react with the Zn2\u0006(aq). Zinc is dark in more solutions. Note: Do not allow credit for a response based on Table J."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Compare the number of electrons lost by the Mg(s) placed in the Zn2\u0005(aq) solution to the number of electrons gained by the Zn2\u0005(aq).",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2022/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity appropriate safety equipment is used and safety \nprocedures are followed. A student tests samples of four different metals using 0.20 M\naqueous metal ion solutions of the same four metals. The student uses a 24-well plate as the \nreaction container for the different metal and solution combinations. \nBefore placing a metal strip in each solution, the student cleans the surface of the \nmetal strip with sandpaper. The 24-well plate diagram below shows the setup and results of \nthe investigation. In each vertical column, the metal strips are all the same metal. For each \nhorizontal row, all of the solutions contain the same type of metal ion.\nMetal Strips\nMg(s)\nMg2+(aq)\nZn2+(aq)\nFe2+(aq)\nCu2+(aq)\nSolutions (0.20 M)\nMetal strip\nwith no change\nZn(s)\nFe(s)\nCu(s)\n=\nMetal strip\nappears dark\nin the solution\n=\nKey\n24-Well Plate with Metal Strips and Aqueous Metal Ion Solutions",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The Mg(s) strip loses the same number of electrons that the Zn2\u0006(aq) ions gain. The number of electrons lost and gained are equal. equal same"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Write a balanced, half-reaction equation for the reduction of the copper ions.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2022/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity appropriate safety equipment is used and safety \nprocedures are followed. A student tests samples of four different metals using 0.20 M\naqueous metal ion solutions of the same four metals. The student uses a 24-well plate as the \nreaction container for the different metal and solution combinations. \nBefore placing a metal strip in each solution, the student cleans the surface of the \nmetal strip with sandpaper. The 24-well plate diagram below shows the setup and results of \nthe investigation. In each vertical column, the metal strips are all the same metal. For each \nhorizontal row, all of the solutions contain the same type of metal ion.\nMetal Strips\nMg(s)\nMg2+(aq)\nZn2+(aq)\nFe2+(aq)\nCu2+(aq)\nSolutions (0.20 M)\nMetal strip\nwith no change\nZn(s)\nFe(s)\nCu(s)\n=\nMetal strip\nappears dark\nin the solution\n=\nKey\n24-Well Plate with Metal Strips and Aqueous Metal Ion Solutions",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Cu2\u0006(aq) \u0006 2e\u0002 \u2192 Cu(s) Cu\u00062 \u0006 2e\u0002 \u2192 Cu Note: Do not allow credit for the e without the minus sign (\u0002)."
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "State why the student was instructed to clean the surface of the metal strips with sandpaper before placing each strip into an aqueous metal ion solution.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2022/context_78_81.png",
+      "context": "Base your answers to questions 78 through 81 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity appropriate safety equipment is used and safety \nprocedures are followed. A student tests samples of four different metals using 0.20 M\naqueous metal ion solutions of the same four metals. The student uses a 24-well plate as the \nreaction container for the different metal and solution combinations. \nBefore placing a metal strip in each solution, the student cleans the surface of the \nmetal strip with sandpaper. The 24-well plate diagram below shows the setup and results of \nthe investigation. In each vertical column, the metal strips are all the same metal. For each \nhorizontal row, all of the solutions contain the same type of metal ion.\nMetal Strips\nMg(s)\nMg2+(aq)\nZn2+(aq)\nFe2+(aq)\nCu2+(aq)\nSolutions (0.20 M)\nMetal strip\nwith no change\nZn(s)\nFe(s)\nCu(s)\n=\nMetal strip\nappears dark\nin the solution\n=\nKey\n24-Well Plate with Metal Strips and Aqueous Metal Ion Solutions",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Sanding the surface of the metal strip exposes unoxidized metal for a possible reaction. Cleaning the metal provides a fresh metal surface for the reaction. If a reaction will occur, it is more likely with pure metal available. removes tarnish increase surface area of the pure metal P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Explain, in terms of intermolecular forces, why tetrachloroethene has a higher boiling point than tetrachloromethane.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2022/context_82_83.png",
+      "context": "Base your answers to questions 82 and 83 on the information below and on your knowledge of chemistry.\nTetrachloromethane, CCl4, was used as a dry cleaning solvent until it was banned for this \nuse in the U.S. in 1970 due to its toxicity. This solvent was replaced in many dry cleaning \nprocesses by tetrachloroethene, C2Cl4. Another currently available alternative dry cleaning \nsolvent is 1-bromopropane. The table below shows the boiling points of these solvents.\nBoiling Points of Three Compounds at 1 atm\nName\nBoiling Point (\u00b0C)\ntetrachloromethane\n76.8\ntetrachloroethene\n121.3\n1-bromopropane\n71.1",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The tetrachloroethene has stronger intermolecular forces than in CCl4. The attractions between the molecules of tetrachloromethane are weaker. C2Cl4 has stronger IMFs."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Draw a structural formula for 1-bromopropane.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2022/context_82_83.png",
+      "context": "Base your answers to questions 82 and 83 on the information below and on your knowledge of chemistry.\nTetrachloromethane, CCl4, was used as a dry cleaning solvent until it was banned for this \nuse in the U.S. in 1970 due to its toxicity. This solvent was replaced in many dry cleaning \nprocesses by tetrachloroethene, C2Cl4. Another currently available alternative dry cleaning \nsolvent is 1-bromopropane. The table below shows the boiling points of these solvents.\nBoiling Points of Three Compounds at 1 atm\nName\nBoiling Point (\u00b0C)\ntetrachloromethane\n76.8\ntetrachloroethene\n121.3\n1-bromopropane\n71.1",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Examples of 1-credit responses: Note: Do not allow credit if only some of the H atoms bonded to C atoms are shown."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Compare the energy released per gram of reactant during this reaction to the energy released per gram of reactant in a chemical reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 84 and 85 on the information below and on your knowledge of chemistry.\nWhen a neutron is absorbed by a uranium-235 nucleus, the nucleus can split. One\npossible nuclear reaction is represented by the balanced equation below.\nn\nU\nSr\nXe\n4 n\nenergy\n0\n1\n92\n235\n38\n90\n54\n142\n0\n1\n\u0005\n\u0005\n\u0005\n\u0005\n\u2192\nIn this reaction, the products have a mass that is 0.180 u less than the mass of the\nreactants.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: This nuclear reaction releases more energy per gram than a chemical reaction. The nuclear reaction releases more energy. A chemical reaction releases less energy."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Determine the time required for an 8.00-mg sample of Sr-90 to decay until only 2.00 P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 84 and 85 on the information below and on your knowledge of chemistry.\nWhen a neutron is absorbed by a uranium-235 nucleus, the nucleus can split. One\npossible nuclear reaction is represented by the balanced equation below.\nn\nU\nSr\nXe\n4 n\nenergy\n0\n1\n92\n235\n38\n90\n54\n142\n0\n1\n\u0005\n\u0005\n\u0005\n\u0005\n\u2192\nIn this reaction, the products have a mass that is 0.180 u less than the mass of the\nreactants.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 58.2 y. Significant figures do not need to be shown. H Br H C H C C H H H H C C C Br P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    }
+  ]
+}

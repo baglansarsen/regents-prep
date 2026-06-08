@@ -1,19 +1,26 @@
 import React, { useState, useEffect, useRef } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, Image,
-  StyleSheet, Alert, Animated,
+  StyleSheet, Alert, Animated, TextInput, KeyboardAvoidingView, Platform,
 } from 'react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
-import { useXP } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { appendMistakes } from '../hooks/useMistakes'
 import { usePetContext } from '../context/PetContext'
-
+import { hapticTick } from '../utils/haptics'
+import { logActivity } from '../utils/activityLogger'
 import { imageUri } from '../utils/cdn'
 
 const EXAM_MINUTES = 85
+
+function ExamImageWithFallback({ uri, style }) {
+  const [failed, setFailed] = React.useState(false)
+  if (failed) return null
+  return <Image source={{ uri }} style={style} resizeMode="contain" onError={() => setFailed(true)} />
+}
 
 export default function ExamScreen({ route, navigation }) {
   const { exam, questions, subject } = route.params
@@ -21,13 +28,14 @@ export default function ExamScreen({ route, navigation }) {
   const insets = useSafeAreaInsets()
   const { user } = useAuthContext()
   const uid = user?.uid
-  const { xp, earnXP } = useXP(uid)
+  const { rp, earnRP } = useRP(uid)
   const { markStudied } = useDailyStreak(uid)
   const { checkAndEvolve } = usePetContext()
 
-  const [currentIdx, setCurrentIdx] = useState(0)
-  const [answers,    setAnswers]    = useState({})
-  const [flagged,    setFlagged]    = useState(new Set())
+  const [currentIdx,     setCurrentIdx]     = useState(0)
+  const [answers,        setAnswers]        = useState({})
+  const [writtenAnswers, setWrittenAnswers] = useState({})
+  const [flagged,        setFlagged]        = useState(new Set())
   const [phase,      setPhase]      = useState('test') // 'test' | 'review'
   const [timeLeft,   setTimeLeft]   = useState(EXAM_MINUTES * 60)
   const timerRef = useRef(null)
@@ -57,23 +65,37 @@ export default function ExamScreen({ route, navigation }) {
 
   function submit() {
     clearInterval(timerRef.current)
-    const correct   = questions.filter((q, i) => answers[i] === (q.correct ?? q.correctIndex)).length
-    const xpEarned  = correct * 5
-    earnXP(xpEarned)
-    checkAndEvolve(xp + xpEarned)
+    const mcQuestions = questions.filter((q) => q.type !== 'written')
+    const correct   = mcQuestions.filter((q, i) => {
+      const idx = questions.indexOf(q)
+      return answers[idx] === (q.correct ?? q.correctIndex)
+    }).length
+    const rpEarned  = correct * 5
+    const pct = Math.round((correct / mcQuestions.length) * 100)
+    earnRP(rpEarned)
+    checkAndEvolve(rp + rpEarned)
     markStudied()
 
-    // Persist wrong answers for "Practice Mistakes" mode
-    const wrongQs = questions.filter((q, i) => answers[i] !== (q.correct ?? q.correctIndex))
+    // Log exam activity
+    logActivity(uid, 'exam_complete', `Completed ${exam.name} exam (${pct}%)`, {
+      exam: exam.name, correct, total: mcQuestions.length, pct, rpEarned,
+    })
+
+    // Persist wrong MC answers for "Practice Mistakes" mode
+    const wrongQs = mcQuestions.filter((q) => {
+      const idx = questions.indexOf(q)
+      return answers[idx] !== (q.correct ?? q.correctIndex)
+    })
     appendMistakes(wrongQs, exam.subject)
 
     navigation.replace('ExamResults', {
-      exam, questions, answers: { ...answers }, correct, total: questions.length, xpEarned,
+      exam, questions, answers: { ...answers }, writtenAnswers: { ...writtenAnswers },
+      correct, total: mcQuestions.length, rpEarned,
     })
   }
 
   function confirmSubmit() {
-    const answered = Object.keys(answers).length
+    const answered = Object.keys(answers).length + Object.keys(writtenAnswers).filter((k) => writtenAnswers[k]?.trim()).length
     const unanswered = questions.length - answered
     if (unanswered > 0) {
       Alert.alert('Submit Exam?', `You have ${unanswered} unanswered questions.`, [
@@ -95,8 +117,10 @@ export default function ExamScreen({ route, navigation }) {
   // q.image is a relative path like /images/exams/es-june-2025/q2.png
   const imageUrl = imageUri(q.image)
 
+  const answeredCount = Object.keys(answers).length + Object.keys(writtenAnswers).filter((k) => writtenAnswers[k]?.trim()).length
+
   return (
-    <View style={s.safe}>
+    <KeyboardAvoidingView style={s.safe} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
       {/* Top bar */}
       <View style={[s.topBar, { paddingTop: insets.top + 8 }]}>
         <TouchableOpacity onPress={() => Alert.alert('Exit?', 'Progress will be lost.', [
@@ -130,6 +154,7 @@ export default function ExamScreen({ route, navigation }) {
         <View style={s.qHeader}>
           <Text style={s.qNum}>Question {currentIdx + 1} of {questions.length}</Text>
           <TouchableOpacity onPress={() => {
+            hapticTick()
             setFlagged((prev) => {
               const next = new Set(prev)
               next.has(currentIdx) ? next.delete(currentIdx) : next.add(currentIdx)
@@ -145,24 +170,19 @@ export default function ExamScreen({ route, navigation }) {
         {/* Context */}
         {q.context && <Text style={s.context}>{q.context}</Text>}
 
-        {/* Image */}
-        {imageUrl && (
-          <Image
-            source={{ uri: imageUrl }}
-            style={s.image}
-            resizeMode="contain"
-          />
-        )}
+        {/* Image — hidden if URL fails to load */}
+        {imageUrl && <ExamImageWithFallback uri={imageUrl} style={s.image} />}
 
         {/* Question text */}
         <Text style={s.questionText}>{q.text}</Text>
 
-        {/* Choices */}
-        {q.choices?.map((choice, idx) => (
+        {/* Multiple-choice questions */}
+        {q.type !== 'written' && q.choices?.map((choice, idx) => (
           <Animated.View key={idx} style={{ transform: [{ scale: choiceScales[idx] }] }}>
             <TouchableOpacity
               style={[s.choice, answers[currentIdx] === idx && s.choiceSelected]}
               onPress={() => {
+                hapticTick()
                 animateChoice(idx)
                 setAnswers((a) => ({ ...a, [currentIdx]: idx }))
               }}
@@ -172,6 +192,35 @@ export default function ExamScreen({ route, navigation }) {
             </TouchableOpacity>
           </Animated.View>
         ))}
+
+        {/* Written / constructed-response questions */}
+        {q.type === 'written' && (
+          <View>
+            <View style={s.writtenHeader}>
+              <Text style={[s.writtenLabel, { color: C.brand }]}>
+                Part {q.part} · {q.maxPoints ?? 1} {(q.maxPoints ?? 1) === 1 ? 'point' : 'points'}
+              </Text>
+              <Text style={[s.writtenHint, { color: C.textMuted }]}>Write your answer below</Text>
+            </View>
+            <TextInput
+              style={[s.writtenInput, { color: C.text, borderColor: writtenAnswers[currentIdx] ? C.brand : C.border, backgroundColor: C.surface }]}
+              multiline
+              placeholder="Type your answer here..."
+              placeholderTextColor={C.textDim}
+              value={writtenAnswers[currentIdx] ?? ''}
+              onChangeText={(t) => setWrittenAnswers((w) => ({ ...w, [currentIdx]: t }))}
+              textAlignVertical="top"
+            />
+            {q.modelAnswer && (
+              <TouchableOpacity
+                style={[s.modelAnswerBtn, { borderColor: C.border }]}
+                onPress={() => Alert.alert('Model Answer', q.modelAnswer)}
+              >
+                <Text style={[s.modelAnswerBtnText, { color: C.textMuted }]}>💡 Show model answer (after you've tried)</Text>
+              </TouchableOpacity>
+            )}
+          </View>
+        )}
       </ScrollView>
 
       {/* Bottom nav */}
@@ -183,7 +232,7 @@ export default function ExamScreen({ route, navigation }) {
         >
           <Text style={s.navBtnText}>← Prev</Text>
         </TouchableOpacity>
-        <Text style={s.answeredCount}>{Object.keys(answers).length}/{questions.length}</Text>
+        <Text style={s.answeredCount}>{answeredCount}/{questions.length}</Text>
         <TouchableOpacity
           style={[s.navBtn, { opacity: currentIdx === questions.length - 1 ? 0.3 : 1 }]}
           onPress={() => setCurrentIdx((i) => Math.min(questions.length - 1, i + 1))}
@@ -192,7 +241,7 @@ export default function ExamScreen({ route, navigation }) {
           <Text style={s.navBtnText}>Next →</Text>
         </TouchableOpacity>
       </View>
-    </View>
+    </KeyboardAvoidingView>
   )
 }
 
@@ -223,7 +272,14 @@ function makeStyles(C) {
     choiceText:   { flex: 1, fontSize: 15, color: C.text, lineHeight: 21 },
     bottomNav:    { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingHorizontal: 16, paddingTop: 12, borderTopWidth: 1, borderTopColor: C.border },
     navBtn:       { backgroundColor: C.surface, borderRadius: 10, paddingHorizontal: 20, paddingVertical: 10, borderWidth: 1, borderColor: C.border },
-    navBtnText:   { color: C.text, fontWeight: '700', fontSize: 14 },
-    answeredCount:{ fontSize: 13, color: C.textMuted },
+    navBtnText:       { color: C.text, fontWeight: '700', fontSize: 14 },
+    answeredCount:    { fontSize: 13, color: C.textMuted },
+    writtenHeader:    { gap: 2, marginBottom: 8 },
+    writtenLabel:     { fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 0.5 },
+    writtenHint:      { fontSize: 12 },
+    writtenInput:     { borderWidth: 1.5, borderRadius: 14, padding: 14, minHeight: 120, fontSize: 15, lineHeight: 22 },
+
+    modelAnswerBtn:   { marginTop: 10, borderWidth: 1, borderRadius: 10, padding: 12, alignItems: 'center' },
+    modelAnswerBtnText: { fontSize: 13, fontWeight: '600' },
   })
 }

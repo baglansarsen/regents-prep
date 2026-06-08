@@ -19,6 +19,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 0,
+      explanation: 'Arcturus has a relatively cool surface temperature (4560 K, orange-red color) but very high luminosity (170 times the Sun), placing it in the giant region of the H-R diagram. Giants are large, evolved stars with expanded outer layers.',
+      diveDeep: 'On the Hertzsprung-Russell (H-R) diagram, stars are plotted by surface temperature (x-axis, decreasing left to right) and luminosity (y-axis). Giants occupy the upper-right region — cool but extremely bright. A star becomes a giant after leaving the main sequence when core hydrogen is exhausted; the outer layers expand and cool. Supergiants are even more luminous (>10,000 L☉). White dwarfs are hot but dim (lower-left). Main-sequence stars follow the diagonal band. The key is combining both temperature and luminosity to classify.',
     },
     {
       number: 2, part: 'A',
@@ -31,6 +33,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 1,
+      explanation: 'When an asteroid or meteorite collides with Earth\'s surface, the tremendous kinetic energy excavates a roughly circular depression called an impact crater. Volcanic craters are formed by eruption, not collision.',
+      diveDeep: 'Impact craters are identified by their circular shape, shatter cones in surrounding rock, shocked quartz, and sometimes a central rebound peak. Earth has over 190 confirmed impact structures, though most are eroded. The Chicxulub crater (Mexico) is linked to the mass extinction 66 million years ago. Rift valleys form at divergent plate boundaries; volcanic craters form at the top of volcanoes. Near-Earth asteroids (NEAs) like Itokawa are monitored by programs such as NASA\'s Planetary Defense Coordination Office.',
     },
     {
       number: 3, part: 'A',
@@ -41,8 +45,10 @@ export default {
         'Polaris',
         'Spica',
       ],
-      topic: 'Astronomy',
+      topic: 'General',
       correct: 2,
+      explanation: 'Earth\'s northern rotational axis points almost directly at Polaris (the North Star), which is why Polaris appears stationary while all other stars appear to revolve around it.',
+      diveDeep: 'Polaris is located in the constellation Ursa Minor about 433 light-years from Earth. Its alignment with Earth\'s rotational axis is not permanent — due to Earth\'s axial precession (a ~26,000-year wobble), the celestial pole traces a circle among the stars. Around 3000 BCE, Thuban was the pole star; around 14,000 CE, Vega will be. The altitude of Polaris above the horizon equals the observer\'s latitude, making it an invaluable navigation tool. Alpha Centauri is the nearest star system; Betelgeuse and Spica are unrelated bright stars.',
     },
     {
       number: 4, part: 'A',
@@ -53,8 +59,10 @@ export default {
         '70%',
         '90%',
       ],
-      topic: 'General Review',
+      topic: 'General',
       correct: 2,
+      explanation: 'The hydrosphere covers approximately 70% of Earth\'s surface, overwhelmingly in the form of ocean water. The remaining ~30% is land.',
+      diveDeep: 'Of Earth\'s total water, about 97% is salt water in the oceans. Only about 3% is fresh water, and of that, approximately 69% is locked in glaciers and ice caps, 30% is groundwater, and less than 1% is surface fresh water (rivers, lakes). The Southern Hemisphere is even more ocean-dominated (~81%). Understanding the hydrosphere\'s extent is foundational to grasping the water cycle, climate regulation, and the distribution of life. The ESRT provides this 70% figure directly.',
     },
     {
       number: 5, part: 'A',
@@ -65,8 +73,10 @@ export default {
         'almost 12.5 hours',
         'a little more than 24 hours',
       ],
-      topic: 'Astronomy',
+      topic: 'General',
       correct: 2,
+      explanation: 'From 4:44 a.m. to 5:10 p.m. is 12 hours and 26 minutes — almost 12.5 hours. This is consistent with Earth\'s semidiurnal tidal cycle driven by the Moon\'s gravity.',
+      diveDeep: 'Most coastal locations experience two high tides and two low tides each day (semidiurnal pattern), spaced roughly 12 hours 25 minutes apart. This slight offset from 12 hours occurs because the Moon advances ~12.2° in its orbit each day, so Earth must rotate a bit extra to bring any given location back under the tidal bulge. The gravitational pull of both the Moon and the Sun creates tidal forces; spring tides (largest range) occur at new and full Moon; neap tides (smallest range) occur at quarter Moon phases.',
       image: '/images/exams/es-june-2022/q5.png',
     },
     {
@@ -80,6 +90,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 3,
+      explanation: 'A range of 11 to 89 matches typical Fahrenheit temperatures across the United States in a single season, where cold northern regions can be near freezing while southern areas are warm. No other choice spans that range plausibly.',
+      diveDeep: 'Air pressure in millibars typically ranges from about 960 to 1040 mb — far outside 11–89. Wind speed in knots rarely exceeds 50 knots except in severe storms, but the low end of 11 is plausible; however, the high of 89 would be exceptional and the distribution across the country would not form smooth isotherms. Precipitation in 6 hours rarely exceeds a few inches. Temperature in °F ranging from near-freezing in the north to near 90°F in the south is very realistic. Weather maps use isotherms (lines of equal temperature) to visualize temperature gradients.',
       image: '/images/exams/es-june-2022/q6.png',
     },
     {
@@ -91,8 +103,10 @@ export default {
         'phase of the Moon during the month',
         'movement of meteors in their orbits',
       ],
-      topic: 'Astronomy',
+      topic: 'General',
       correct: 0,
+      explanation: 'Meteor showers peak on nearly the same calendar dates each year because they occur when Earth reaches the specific point in its orbit where it intersects a debris trail left by a comet.',
+      diveDeep: 'Each annual meteor shower is associated with a parent comet whose dusty debris trail Earth passes through at the same orbital position every year. For example, the Perseids come from Comet Swift-Tuttle and peak around August 11–13; the Orionids come from Comet Halley and peak in late October. Because Earth returns to the same orbital position at the same calendar date each year, shower dates are very consistent. The Foucault pendulum and Coriolis effect demonstrate Earth\'s rotation — not relevant here. Moon phase affects viewing visibility but not the shower date itself.',
       image: '/images/exams/es-june-2022/q7.png',
     },
     {
@@ -104,8 +118,10 @@ export default {
         'pebbles',
         'forest with clay soil',
       ],
-      topic: 'Geology',
+      topic: 'Water Cycle',
       correct: 2,
+      explanation: 'Pebbles have the largest pore spaces between particles, allowing water to flow through most rapidly, giving them the highest permeability. Permeability increases with particle size.',
+      diveDeep: 'Permeability refers to how quickly water moves through a material; porosity refers to the total percentage of pore space. Importantly, porosity does NOT depend on particle size (equally sorted particles of any size have similar porosity), but permeability strongly increases with particle size because larger particles create larger connected pores. Clay has very high porosity but extremely low permeability because its tiny flat particles create narrow, tortuous passages that resist flow. Sand and silt are intermediate. Vegetation affects infiltration rate and runoff but does not directly determine permeability of the underlying soil.',
       image: '/images/exams/es-june-2022/q8.png',
     },
     {
@@ -119,6 +135,8 @@ export default {
       ],
       topic: 'Water Cycle',
       correct: 3,
+      explanation: 'The water table is the upper boundary of the saturated zone (A); infiltration is the downward movement of water into soil (B); groundwater occupies the saturated zone below the water table (C); and transpiration is water vapor released by plants (D).',
+      diveDeep: 'In the water cycle diagram: the water table separates unsaturated soil (capillary fringe above) from the saturated zone (groundwater below). Infiltration is the process by which surface water soaks into the ground through pores. Transpiration returns water to the atmosphere through plant stomata and is combined with evaporation into the term "evapotranspiration." Precipitation adds water to the system from the atmosphere. Runoff is surface flow. The ESRT water cycle diagram labels these features; understanding each label is essential for Part A and B-1 questions.',
       image: '/images/exams/es-june-2022/q9.png',
     },
     {
@@ -132,6 +150,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 1,
+      explanation: 'Elmira and Binghamton are approximately 45 miles apart. Traveling at 45 mph, the storm covers that distance in about 1 hour, arriving at Binghamton around 2:00 p.m.',
+      diveDeep: 'Storm tracking uses the simple distance-rate-time relationship: distance = rate × time. The ESRT includes a New York State map that shows city locations and allows distance estimation. In the mid-latitudes, weather systems generally move from west to east (or southwest to northeast) due to the prevailing westerlies. Thunderstorms travel with the general atmospheric flow at their altitude. Meteorologists use Doppler radar to track storm movement and issue watches and warnings based on predicted arrival times — the same principle as this problem.',
     },
     {
       number: 11, part: 'A',
@@ -142,8 +162,10 @@ export default {
         '83°F',
         '86°F',
       ],
-      topic: 'Geologic Time',
+      topic: 'Meteorology',
       correct: 3,
+      explanation: 'Using the formula °F = (9/5 × °C) + 32: (9/5 × 30) + 32 = 54 + 32 = 86°F. The ESRT provides this conversion.',
+      diveDeep: 'The Celsius and Fahrenheit scales were defined differently: Celsius uses 0° for water\'s freezing point and 100° for boiling; Fahrenheit uses 32° and 212°. The conversion formulas are °F = (9/5)°C + 32 and °C = (5/9)(°F − 32). The ESRT temperature conversion graph can be used as a quick reference. Common benchmarks: 0°C = 32°F, 20°C = 68°F, 37°C = 98.6°F (body temperature), 100°C = 212°F. On the Regents, you should be comfortable converting in both directions using either the formula or the ESRT graph.',
     },
     {
       number: 12, part: 'A',
@@ -156,6 +178,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 2,
+      explanation: 'The troposphere extends from Earth\'s surface to about 12 km altitude. Since the jet streams are at about 10 km, they are located in the upper troposphere.',
+      diveDeep: 'The atmosphere is divided into layers based on temperature profile. The troposphere (0–12 km) contains ~75% of atmospheric mass and all weather; temperature decreases with altitude. The stratosphere (12–50 km) contains the ozone layer; temperature increases with altitude due to UV absorption. The mesosphere (50–85 km) has temperatures decreasing with altitude again. The thermosphere (85–600+ km) has temperatures increasing greatly due to absorption of solar X-rays. Jet streams form at the tropopause boundary near the polar front (~60°) and subtropical high (~30°) due to large temperature gradients and Earth\'s rotation (Coriolis effect).',
     },
     {
       number: 13, part: 'A',
@@ -166,8 +190,10 @@ export default {
         'water vapor',
         'methane',
       ],
-      topic: 'Plate Tectonics',
+      topic: 'Geology',
       correct: 1,
+      explanation: 'Volcanic ash ejected into the stratosphere reflects and scatters incoming solar radiation back to space, reducing insolation reaching Earth\'s surface and causing temporary global cooling.',
+      diveDeep: 'Large volcanic eruptions can inject sulfur dioxide (SO₂) and ash high into the stratosphere, where SO₂ converts to sulfate aerosols. These fine particles remain aloft for months to years and reflect sunlight, lowering global temperatures. The 1991 eruption of Mount Pinatubo cooled Earth by ~0.5°C for about two years. In contrast, CO₂ and methane are greenhouse gases that cause warming by trapping outgoing long-wave (infrared) radiation. Water vapor is the most abundant greenhouse gas but is quickly recycled and not a direct product of cooling. Ash eventually falls out, but stratospheric aerosols persist much longer.',
     },
     {
       number: 14, part: 'A',
@@ -180,6 +206,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 3,
+      explanation: 'Chemical weathering is greatest where temperatures are highest and moisture (precipitation) is most abundant. Location D has the warmest temperatures (10–28°C) and the most precipitation (165 cm), maximizing rates of chemical reactions.',
+      diveDeep: 'Chemical weathering involves reactions between minerals and water, acids, or oxygen. Higher temperatures increase reaction rates (roughly doubling for every 10°C rise, per the Arrhenius equation). More precipitation provides more water for hydrolysis, oxidation, and dissolution. Tropical regions therefore experience rapid chemical weathering, producing thick, deeply weathered soils (laterites). Physical (mechanical) weathering dominates in cold, dry climates via frost wedging. In general: hot + wet = most chemical weathering; cold + dry = least. This principle is tested across multiple Regents questions about weathering rates in different climates.',
       image: '/images/exams/es-june-2022/q14.png',
     },
     {
@@ -191,8 +219,10 @@ export default {
         'hot water to cold water by conduction',
         'hot water to cold water by radiation',
       ],
-      topic: 'General Review',
+      topic: 'General',
       correct: 2,
+      explanation: 'Heat always flows from a warmer object to a cooler one. The metal bar provides direct molecular contact between the hot and cold water, transferring heat by conduction.',
+      diveDeep: 'Conduction transfers heat through direct molecular collisions in solids (and to a lesser extent in fluids). Metals are excellent conductors because free electrons carry kinetic energy rapidly. Convection transfers heat through bulk movement of a fluid (liquid or gas); radiation transfers heat through electromagnetic waves without requiring a medium. In this experiment, the metal bar is the key — it is a solid connecting two fluids, so conduction is the operative process. Heat always moves from high to low temperature (second law of thermodynamics) until thermal equilibrium is reached. On the ESRT, specific heat capacity values are given for different materials.',
     },
     {
       number: 16, part: 'A',
@@ -203,8 +233,10 @@ export default {
         'Permian Period',
         'Devonian Period',
       ],
-      topic: 'Geologic Time',
+      topic: 'Geology',
       correct: 3,
+      explanation: 'The ESRT\'s continental drift map shows South America and Africa joined as part of Pangaea and located south of the equator at the end of the Devonian Period (~359 million years ago).',
+      diveDeep: 'The ESRT\'s "Inferred Positions of Earth\'s Landmasses" maps show the position of continents at different geologic times. Pangaea (the supercontinent) was fully assembled by the Permian but the specific configuration of Africa and South America south of the equator is shown for the Devonian. By the Jurassic, Pangaea was breaking up. The Paleogene is far too recent — continents were nearly in modern positions. Understanding the ESRT continental drift maps requires knowing which geologic periods correspond to which time frames.',
     },
     {
       number: 17, part: 'A',
@@ -215,8 +247,10 @@ export default {
         'diagram 3',
         'diagram 4',
       ],
-      topic: 'Geologic Time',
+      topic: 'General',
       correct: 0,
+      explanation: 'The polar cell shows cold, dense air sinking at the pole and flowing outward along the surface at low levels. The correct diagram shows descending air at the pole with surface divergence.',
+      diveDeep: 'Earth\'s atmospheric circulation is divided into three cells per hemisphere: the Hadley cell (0°–30°), the Ferrel cell (30°–60°), and the polar cell (60°–90°). At the poles, radiative cooling creates dense, sinking air that spreads outward as the polar easterlies. This is opposite to the equatorial Hadley cell, where heating causes rising air, cloudiness, and heavy rainfall. The ESRT\'s "Planetary Wind and Moisture Belts" diagram summarizes these circulation cells. The polar vortex — a large persistent area of low pressure over the poles — is associated with this sinking cold air pattern.',
     },
     {
       number: 18, part: 'A',
@@ -229,6 +263,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 3,
+      explanation: 'Using the ESRT relative humidity chart with the dry-bulb temperature and the difference between dry- and wet-bulb readings, a result near 60% is obtained.',
+      diveDeep: 'A sling psychrometer measures two temperatures: the dry-bulb (actual air temperature) and the wet-bulb (temperature of a water-soaked wick that cools by evaporation). A large difference between the two means dry air — water evaporates quickly, cooling the wet bulb significantly. A small difference means the air is nearly saturated and evaporation is slow. The ESRT provides two tables: one for relative humidity and one for dew point, both using dry-bulb temperature and the difference (depression of wet bulb). Practice reading these tables carefully, as errors in reading values are a common source of mistakes on the Regents.',
       image: '/images/exams/es-june-2022/q18.png',
     },
     {
@@ -242,6 +278,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 1,
+      explanation: 'Carbon-14 has a half-life of about 5,730 years, making it useful for dating organic material up to ~50,000 years old. Mastodont bones are thousands of years old — within this range.',
+      diveDeep: 'Radiometric dating relies on the constant decay rate of unstable isotopes. Carbon-14 forms in the upper atmosphere from cosmic ray bombardment of nitrogen-14, and is incorporated into living organisms. After death, C-14 decays back to N-14 with a half-life of ~5,730 years. This method is effective for materials up to about 8–10 half-lives old (~50,000 years). Earliest grasses evolved in the Cretaceous (~80 Ma), earliest birds in the Jurassic (~150 Ma), and the Naples tree trunk is far older than 50,000 years. Only mastodonts (extinct ~10,000 years ago) fall within C-14\'s effective dating range.',
       image: '/images/exams/es-june-2022/q19.png',
     },
     {
@@ -255,6 +293,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 0,
+      explanation: 'During El Niño, the trade winds (Easterlies) weaken. Without strong winds pushing warm surface water westward, it accumulates in the eastern Pacific. Reduced wind-driven upwelling means less cold water rises from depth.',
+      diveDeep: 'Normally, the trade winds blow westward across the equatorial Pacific, piling warm surface water near Australia and Indonesia while driving cold water upwelling along the South American coast (rich in nutrients, supporting fisheries). During El Niño, weakened trade winds allow warm water to flow back eastward. Sea surface temperatures in the eastern Pacific rise 1–3°C (or more in severe events), disrupting global weather patterns: droughts in Australia, flooding in South America, altered jet streams over North America. El Niño occurs every 2–7 years and lasts 9–12 months. La Niña is the opposite: strengthened trade winds and cooler eastern Pacific.',
     },
     {
       number: 21, part: 'A',
@@ -265,8 +305,10 @@ export default {
         'higher latitude and lower elevation',
         'higher latitude and higher elevation',
       ],
-      topic: 'Geology',
+      topic: 'Climate',
       correct: 0,
+      explanation: 'Tropical marine fossils indicate the region was once near the equator (lower latitude) and underwater (lower elevation, as a shallow sea covered the area). Today New York is at ~40–45°N and above sea level.',
+      diveDeep: 'Index fossils and paleogeography are powerful tools. Crinoids are filter-feeding marine invertebrates that thrive in warm, shallow tropical seas. Their presence in Ordovician New York bedrock (~470 Ma) tells us two things: the region was underwater (marine environment) and was in a tropical climate (low latitude). The ESRT\'s continental drift maps confirm that during the Ordovician, the landmass that would become North America was positioned near the equator. Plate tectonics has since moved New York to its current mid-latitude position and the land has been uplifted, explaining both the latitude change and the elevation change.',
     },
     {
       number: 22, part: 'A',
@@ -279,6 +321,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'Eurypterus remipes is a Silurian-age fossil, and Silurian bedrock outcrops at the surface in western New York near Niagara Falls. The ESRT\'s geologic map of New York shows Silurian surface exposures in that region.',
+      diveDeep: 'Eurypterids (sea scorpions) are New York\'s state fossil and lived during the Silurian Period (~444–419 Ma). Their fossils are found in Bertie Dolostone and related Silurian formations. Using the ESRT\'s "Generalized Bedrock Geology of New York State" map, students can find that Silurian rocks are exposed in western New York near Buffalo and Niagara Falls. Rocks become progressively older moving from the southeastern (Cretaceous, near NYC) to the northwestern portions of the state (Cambrian/Ordovician), with Silurian bands in between. This map is a critical reference for all NY-specific fossil location questions.',
       image: '/images/exams/es-june-2022/q22.png',
     },
     {
@@ -290,8 +334,10 @@ export default {
         'have existed for a very brief time in geologic history',
         'have existed during most of geologic time',
       ],
-      topic: 'Geologic Time',
+      topic: 'General',
       correct: 2,
+      explanation: 'Modern humans (Homo sapiens) have only existed for roughly 300,000 years out of Earth\'s 4.6-billion-year history — a vanishingly small fraction, less than 0.01% of geologic time.',
+      diveDeep: 'The ESRT\'s "Geologic History of New York" chart places humans in the very latest Quaternary Period (Cenozoic Era). Dinosaurs went extinct ~66 Ma; Pangaea broke apart ~175–200 Ma; all of these events predate humans by enormous spans. If Earth\'s entire 4.6-billion-year history were compressed into one calendar year, humans would appear in the last few minutes of December 31st. Dinosaurs and humans never coexisted (contrary to popular myths). The fossil record documents the succession of life forms across geologic time, with complex multicellular life only present for the last ~600 million years.',
     },
     {
       number: 24, part: 'A',
@@ -302,8 +348,10 @@ export default {
         'New continental crust is forming.',
         'Old continental crust is being destroyed.',
       ],
-      topic: 'Geology',
+      topic: 'General',
       correct: 0,
+      explanation: 'The Southeast Indian Ridge is a mid-ocean spreading center (divergent boundary) where mantle upwelling creates new oceanic crust through seafloor spreading.',
+      diveDeep: 'Mid-ocean ridges are the longest mountain chain on Earth, largely underwater. At divergent boundaries, tectonic plates move apart, and mantle material wells up, partially melts, and erupts as basalt to form new oceanic crust. This process — seafloor spreading — was proposed by Harry Hess in 1960 and confirmed by the symmetric magnetic striping pattern on either side of ridges. As new crust forms at ridges, old oceanic crust is destroyed at subduction zones (convergent boundaries). The cycle keeps the total amount of crust roughly constant. Continental crust is not formed at ridges; it is thicker, less dense, and older than oceanic crust.',
     },
     {
       number: 25, part: 'A',
@@ -316,6 +364,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'Rock correlation matches layers between outcrops based on rock type, fossil content, and relative position. Layer D in outcrop II occupies the same stratigraphic position and shares characteristics matching layer X in outcrop I.',
+      diveDeep: 'Stratigraphic correlation links rock layers across geographic distances to build a coherent picture of Earth\'s past environments. Methods include: matching rock type and composition, identifying the same index fossils, and using radiometric ages. The principle of original horizontality states that sedimentary layers were deposited horizontally, so layers at the same stratigraphic level are generally the same age. Index fossils — organisms that lived for a short time but were geographically widespread — are the most precise correlation tools. The Law of Superposition (older layers below, younger above) establishes the relative age sequence when beds have not been overturned.',
       image: '/images/exams/es-june-2022/q25.png',
     },
     {
@@ -329,6 +379,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'Granite is a coarse-grained intrusive igneous rock (cooled slowly underground) dominated by quartz and potassium feldspar — matching the given composition. Rhyolite has the same composition but is fine-grained (extrusive).',
+      diveDeep: 'The ESRT\'s "Scheme for Igneous Rock Identification" table classifies rocks by texture (grain size) and mineral composition. Coarse-grained (phaneritic) texture indicates slow cooling deep underground; fine-grained (aphanitic) texture indicates rapid cooling at or near the surface; glassy texture (obsidian) indicates extremely rapid cooling. Composition ranges from felsic (rich in silica, quartz, feldspar — granite/rhyolite) to mafic (iron/magnesium-rich — gabbro/basalt) to ultramafic (peridotite). Diorite has little or no quartz and more plagioclase than potassium feldspar. Scoria is a vesicular (gas-bubble-filled) volcanic rock.',
     },
     {
       number: 27, part: 'A',
@@ -341,6 +393,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'Water-saturated soil behaves like a viscous fluid, eliminating friction between particles. Without plant roots to anchor the soil, this combination maximizes instability and the likelihood of a mudslide.',
+      diveDeep: 'Mass movement (landslides, mudslides, slumps) is driven by gravity and is more likely when: (1) slopes are steep, (2) soil is saturated with water (water acts as a lubricant and adds weight), (3) vegetation is absent (roots bind soil and reduce water content through transpiration), and (4) there is little cohesion in the material. Wildfires often precede mudslides because they remove vegetation and create hydrophobic soil layers. Earthquake shaking can also trigger mass movement. In areas with weak clay-rich soils on hillslopes, even moderate rainfall after dry periods can trigger dangerous slides, as water suddenly saturates the profile.',
     },
     {
       number: 28, part: 'A',
@@ -351,8 +405,10 @@ export default {
         'C',
         'D',
       ],
-      topic: 'Plate Tectonics',
+      topic: 'General',
       correct: 2,
+      explanation: 'A rift zone is a divergent boundary where plates pull apart. Point C is located closest to the East African Rift or Red Sea rift system on the map, which is an active divergent zone.',
+      diveDeep: 'The East African Rift System is one of the most geologically active rift zones on Earth, where the African plate is splitting apart. The Red Sea and Gulf of Aden represent more advanced rifting — proto-oceans forming. Eventually, the East African Rift may open into a new ocean basin millions of years from now. Features of rift zones include: linear valleys, volcanic activity, shallow earthquakes, thin stretched crust, and horst-and-graben topography. The ESRT\'s tectonic plate map shows divergent boundaries (ridges and rifts) with specific symbols that distinguish them from convergent and transform boundaries.',
       image: '/images/exams/es-june-2022/q28.png',
     },
     {
@@ -366,6 +422,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'The two most abundant elements in Earth\'s crust by mass are oxygen (46%) and silicon (28%). Fayalite (Fe₂SiO₄) contains both silicon and oxygen, making it the correct choice.',
+      diveDeep: 'The ESRT lists the most abundant elements in Earth\'s crust: oxygen (~46%), silicon (~28%), aluminum (~8%), iron (~5%), calcium, sodium, potassium, and magnesium follow. Together, oxygen and silicon account for roughly 74% of crustal mass. Silicate minerals (those containing SiO₄ tetrahedra) are therefore the most abundant mineral group — including quartz, feldspars, micas, pyroxenes, and amphiboles. Fayalite is an iron-rich olivine, a nesosilicate with the SiO₄ unit bonded to Fe²⁺. Chalcopyrite is a sulfide (Cu, Fe, S); apatite is a phosphate (Ca, P, O, H); barite is a sulfate (Ba, S, O) — none contain Si.',
       image: '/images/exams/es-june-2022/q29.png',
     },
     {
@@ -379,6 +437,8 @@ export default {
       ],
       topic: 'Water Cycle',
       correct: 0,
+      explanation: 'On the outer bend of a meander, the stream is deepest and fastest (erosion dominates). Location A on the outer curve has the highest velocity, decreasing through B and C toward the inner bend.',
+      diveDeep: 'In a meandering stream, velocity is not uniform across the channel. The thread of maximum velocity (thalweg) hugs the outer bank of each curve, where centrifugal forces increase flow speed, causing erosion and undercutting. The inner bank (point bar) has slower flow, shallower depth, and deposition of sediment. Over time, meanders migrate laterally, and cutoff meanders form oxbow lakes. The ESRT\'s stream table shows the relationship between particle size and velocity needed to erode, transport, or deposit sediment. Understanding velocity distribution in meanders is fundamental to stream geomorphology.',
       image: '/images/exams/es-june-2022/q30.png',
     },
     {
@@ -392,6 +452,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'A kettle lake forms when a retreating glacier deposits sediment around a buried block of ice; when the ice melts, a depression (kettle) forms that fills with water. This is the process depicted.',
+      diveDeep: 'Glacial depositional features include: moraines (ridges of unsorted till), drumlins (streamlined hills shaped under the glacier), eskers (sinuous ridges from meltwater tunnels), kames (cone-shaped hills), and kettles (depressions from buried ice blocks). Kettle lakes are common in the Great Lakes region and across New York\'s glaciated landscape. Finger Lakes in New York formed differently — glaciers deepened pre-existing river valleys. Dunes are wind-formed. A drumlin is a landform created by glacial shaping of existing till, not by ice burial. Understanding the difference between erosional (finger lakes, drumlins) and depositional (kettles, moraines) glacial features is important.',
     },
     {
       number: 32, part: 'A',
@@ -404,6 +466,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'Potassium feldspar (orthoclase) has two directions of cleavage at nearly 90° and is a key ingredient in ceramics and porcelain due to its aluminum and silica content.',
+      diveDeep: 'Cleavage is the tendency of a mineral to break along flat planes parallel to zones of weak bonding in its crystal structure. Muscovite mica has one direction of perfect cleavage (into thin sheets). Fluorite has four directions of cleavage. Olivine has two poor cleavage directions but is not used in ceramics. Potassium feldspar (orthoclase) has two cleavage planes at ~90°, giving it a blocky shape. In ceramics manufacturing, feldspar acts as a flux, lowering the melting temperature of silica and enabling vitrification. The ESRT\'s mineral identification chart lists cleavage, hardness, luster, and other properties for all major rock-forming minerals.',
     },
     {
       number: 33, part: 'A',
@@ -414,8 +478,10 @@ export default {
         'breccia',
         'shale',
       ],
-      topic: 'Geology',
+      topic: 'Water Cycle',
       correct: 0,
+      explanation: 'Conglomerate is a clastic sedimentary rock made of rounded gravel/pebble-sized particles (2–256 mm) cemented together. The rounded shape indicates transport by water, which smooths particles by abrasion.',
+      diveDeep: 'The ESRT\'s "Scheme for Sedimentary Rock Identification" classifies clastic rocks by particle size: shale (silt and clay, <0.006 mm), sandstone (sand, 0.006–2 mm), conglomerate (rounded gravel, >2 mm), breccia (angular gravel, >2 mm). Roundness is the key distinction between conglomerate and breccia — rounded particles indicate long-distance water transport, while angular particles indicate short transport or glacial origin. Cementing agents (silica, calcite, iron oxide) fill pore spaces and bind particles. Compaction reduces pore space under the weight of overlying sediments. Both processes together are called lithification.',
     },
     {
       number: 34, part: 'A',
@@ -428,6 +494,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 2,
+      explanation: 'Barrier islands form through wave action and longshore drift, which deposit and rework coastal sediments parallel to the shoreline. Wave energy is the dominant process shaping this coastal landform.',
+      diveDeep: 'Barrier islands are long, narrow sandy landforms separated from the mainland by a lagoon. They form through several mechanisms: longshore drift (wave-driven sediment transport parallel to the coast), sediment deposition from river deltas, and reworking of continental shelf sediments. They are dynamic — migrating landward as sea level rises, eroding on the ocean side and accreting on the lagoon side. Wave action is the dominant energy input. Glaciers are absent from coastal Texas; streams deposit sediment into estuaries, not barrier islands; wind can reshape dunes atop barrier islands but is not the primary formation agent.',
       image: '/images/exams/es-june-2022/q34.png',
     },
     {
@@ -441,6 +509,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'Igneous and metamorphic (nonsedimentary) rocks form under conditions of intense heat and/or pressure — deep in the crust or at the surface during volcanic activity. Sedimentary rocks form at low temperatures and pressures at or near the surface.',
+      diveDeep: 'The rock cycle connects all three rock types. Sedimentary rocks form through weathering, erosion, deposition, and lithification at surface conditions. Igneous rocks form from cooling magma (intrusive, deep, slow — coarse-grained; or extrusive, surface, fast — fine-grained). Metamorphic rocks form when existing rocks are subjected to high heat and/or pressure without melting — typically deep in the crust during mountain-building events or at contact zones with intrusions. Fossils are found almost exclusively in sedimentary rocks because the low-temperature, low-pressure environment preserves biological material. Heat and pressure destroy fossils in metamorphic processes.',
     },
 
     // Part B-1
@@ -456,6 +526,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'Travertine forms from the chemical precipitation of calcium carbonate (CaCO₃) from mineral-rich water in springs and caves — an inorganic chemical process, not involving organisms. The other three limestones are bioclastic (formed from organic remains).',
+      diveDeep: 'The ESRT\'s sedimentary rock scheme distinguishes between clastic (fragments of other rocks), bioclastic (organic remains), and chemical/inorganic (precipitated from solution) origins. Chalk, coquina, and coral limestone are all bioclastic — they form from skeletal material of organisms (foraminifera, shell fragments, coral polyps). Travertine precipitates inorganically when CO₂-rich water dissolves limestone (CaCO₃) underground and then loses CO₂ when exposed to air or heat in springs and caves, re-precipitating calcite. Cave formations (stalactites, stalagmites) are also travertine. Rock salt (halite) and rock gypsum are other examples of chemically precipitated sedimentary rocks.',
       image: '/images/exams/es-june-2022/q36.png',
     },
     {
@@ -470,6 +542,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'Coquina is visually distinctive: it consists of visible, loosely cemented shells and shell fragments that can be seen with the naked eye, which matches the photograph\'s appearance.',
+      diveDeep: 'Identifying rock types from photographs requires knowing visual characteristics: Coquina shows clearly visible shell fragments, often of varying sizes, only loosely bound — it can crumble easily. Chalk appears uniformly fine-grained and white, formed from microscopic foram shells. Coral limestone shows the intricate skeletal patterns of colonial coral organisms. Travertine has a layered, banded appearance and sometimes porous texture from gas bubbles in spring water. These are all varieties of limestone (composed of calcite, CaCO₃), but their different origins produce very different textures. The ESRT lists coquina as a bioclastic limestone.',
       image: '/images/exams/es-june-2022/q37.png',
     },
     {
@@ -484,6 +558,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'The dark mineral bands contain amphibole, pyroxene, and garnet. Garnet is known for its red (to red-brown) color and has a hardness of about 6.5–7.5 on the Mohs scale.',
+      diveDeep: 'Garnet is a group of silicate minerals that typically appear as red to red-brown dodecahedral crystals in metamorphic rocks. Their hardness (~7) is notably high, which is why they are used as abrasives (sandpaper). In gneiss, the foliation (banding) segregates minerals by density and composition: dark bands contain iron- and magnesium-rich minerals (mafic), while light bands contain silicon- and aluminum-rich minerals (felsic) like plagioclase and quartz. The Grenville orogeny (~1.1 billion years ago) created the Adirondack Mountains through intense regional metamorphism. The ESRT\'s mineral table gives garnet: hardness 6.5–7.5, red/brown/black color, no cleavage.',
       image: '/images/exams/es-june-2022/q38.png',
     },
     {
@@ -498,6 +574,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'Gneiss has a foliated, banded texture caused by mineral alignment under directed pressure, which is the hallmark of regional metamorphism occurring over large areas during mountain-building events.',
+      diveDeep: 'Metamorphism is classified by setting and scale. Regional metamorphism affects large volumes of rock deep in the crust during continental collisions (orogenies), producing foliated rocks such as slate → phyllite → schist → gneiss with increasing grade (temperature and pressure). Contact metamorphism occurs where hot magma intrudes cooler rock, affecting only a narrow zone and producing non-foliated rocks (hornfels, marble, quartzite). The Grenville orogeny was a continent-continent collision that created the proto-Appalachian mountains about 1.1 billion years ago; the intense regional metamorphism transformed existing rocks into the Adirondack gneisses. Foliation in gneiss indicates long-range directed pressure, ruling out contact metamorphism.',
       image: '/images/exams/es-june-2022/q39.png',
     },
     {
@@ -512,6 +590,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 1,
+      explanation: 'The altitude of Polaris above the horizon equals the observer\'s latitude. The Mount Marcy/Whiteface region is at approximately 44°N, so Polaris appears 44° above the northern horizon.',
+      diveDeep: 'The relationship between Polaris altitude and latitude is one of the most testable astronomy concepts on the Regents. Because Polaris lies almost exactly above Earth\'s North Pole, its angle above the horizon equals the observer\'s latitude. At the equator (0°), Polaris is on the horizon (0°); at the North Pole (90°N), Polaris is directly overhead (90°). New York State spans roughly 40–45°N, so Polaris appears 40°–45° above the northern horizon. The ESRT\'s New York State map shows latitude lines. Whiteface Mountain is in the northern Adirondacks at ~44°N. This same principle was used by ancient sailors for navigation.',
       image: '/images/exams/es-june-2022/q40.png',
     },
     {
@@ -526,6 +606,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 2,
+      explanation: 'The cross section shows oceanic crust descending (subducting) beneath Japan\'s continental crust, which is the defining characteristic of a convergent plate boundary.',
+      diveDeep: 'At convergent boundaries, plates move toward each other. Three types exist: oceanic-continental (subduction with volcanoes and trench, as off Japan), oceanic-oceanic (one plate subducts, forming a trench and island arc), and continental-continental (neither subducts, causing folded mountain ranges like the Himalayas). Japan sits on the Eurasian/North American plate boundary where the Pacific Plate subducts westward, creating the Japan Trench, the volcanic Japanese archipelago, and frequent earthquakes. The 2011 Tōhoku earthquake (M9.0) ruptured ~450 km of this subduction zone. Transform boundaries (like the San Andreas Fault) show plates sliding laterally with no subduction.',
       image: '/images/exams/es-june-2022/q41.png',
     },
     {
@@ -540,6 +622,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 2,
+      explanation: 'At subduction zones, the downgoing oceanic plate creates a deep linear depression in the ocean floor — an ocean trench. The Japan Trench is the feature labeled A in the cross section.',
+      diveDeep: 'Ocean trenches are the deepest features on Earth\'s surface, reaching ~11 km at the Mariana Trench. They form where oceanic plates bend and descend into the mantle at subduction zones. Along the subduction zone, the sinking plate releases fluids that lower the melting point of the overlying mantle wedge, generating magma that rises to form volcanic arcs (island arcs over oceanic plates, volcanic mountain ranges over continental plates). Hot spots are isolated volcanic centers above mantle plumes, unrelated to plate boundaries. Igneous intrusions are features within existing rock bodies. The ESRT\'s tectonic features map shows the Japan Trench.',
       image: '/images/exams/es-june-2022/q42.png',
     },
     {
@@ -554,6 +638,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 3,
+      explanation: 'The 2011 Tōhoku earthquake triggered a massive tsunami — a series of ocean waves generated by the sudden vertical displacement of the seafloor along the subduction zone that inundated coastal areas.',
+      diveDeep: 'Tsunamis (Japanese for "harbor wave") are generated when an underwater earthquake, landslide, or volcanic eruption rapidly displaces a large column of water. In the open ocean, tsunami waves travel at ~800 km/h with wavelengths of hundreds of kilometers but heights of less than 1 meter — difficult to detect. As they enter shallow coastal water, they slow down but grow dramatically in height (up to 40+ meters in the 2011 event). The 2011 tsunami killed ~20,000 people, primarily through inundation of low-lying coastal areas. Early warning systems use seismographs and ocean buoys (DART network) to detect tsunamis and issue warnings before waves arrive.',
       image: '/images/exams/es-june-2022/q43.png',
     },
     {
@@ -568,6 +654,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 0,
+      explanation: 'Arrow A represents insolation reflected back to space by clouds/atmosphere before reaching Earth, and arrow E represents insolation reflected off Earth\'s surface. Both are forms of reflection (not absorption or transmission).',
+      diveDeep: 'Earth\'s energy budget divides incoming solar radiation (insolation) into three fates: ~30% is reflected back to space (albedo), ~20% is absorbed by the atmosphere, and ~50% is absorbed by Earth\'s surface. Reflection occurs at: cloud tops and atmospheric particles (arrow A), and Earth\'s surface (arrow E) — especially high-albedo surfaces like ice, snow, and light-colored deserts. Albedo (reflectivity) ranges from ~0.9 for fresh snow to ~0.05 for dark ocean water. The greenhouse effect involves the absorption and re-emission of long-wave (infrared) radiation by greenhouse gases — distinct from reflection. B (absorption by atmosphere) and D (direct surface absorption) are not reflection.',
       image: '/images/exams/es-june-2022/q44.png',
     },
     {
@@ -582,6 +670,8 @@ export default {
       ],
       topic: 'General Review',
       correct: 0,
+      explanation: 'Path B passes through clouds or a more opaque part of the atmosphere, which absorbs and scatters some energy. With less atmospheric transparency, less energy reaches the surface compared to path D (direct, clear-sky).',
+      diveDeep: 'Atmospheric transparency refers to how readily the atmosphere transmits radiation. Clouds, aerosols, water vapor, and dust all reduce transparency by absorbing or scattering light. Path D represents insolation traveling through relatively clear atmosphere, reaching the surface with maximum energy. Path B passes through clouds (lower transparency), so some energy is absorbed or reflected by cloud droplets before reaching the surface. On overcast days, total insolation at the surface is significantly reduced. The atmosphere\'s transparency varies with wavelength — it is very transparent to visible light but absorbs strongly in the infrared (greenhouse effect) and ultraviolet (ozone layer) regions.',
       image: '/images/exams/es-june-2022/q45.png',
     },
     {
@@ -596,6 +686,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 3,
+      explanation: 'Dark surfaces have low albedo (high absorption) and rough textures increase surface area, both maximizing energy absorption. A dark rough surface therefore absorbs and reradiates the most energy.',
+      diveDeep: 'The ability of a surface to absorb solar radiation depends on: (1) color — dark surfaces absorb most wavelengths while light surfaces reflect them (high albedo); (2) texture — rough surfaces have greater surface area and trap reflected light between ridges, further increasing absorption; (3) specific heat capacity — materials with low specific heat heat up quickly. The ESRT lists specific heat values: water (4.18 J/g·°C) heats up much more slowly than sand (0.664 J/g·°C) or basalt (0.84 J/g·°C). This explains why continental interiors have more extreme temperature ranges than coastal areas. Dark rough asphalt heats up dramatically in sunlight — the "urban heat island" effect.',
       image: '/images/exams/es-june-2022/q46.png',
     },
     {
@@ -610,6 +702,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 1,
+      explanation: 'Brachiopods (lamp shells) have survived all five major mass extinction events and still exist today, though greatly reduced in diversity. The other groups all went extinct.',
+      diveDeep: 'Mass extinctions are events where >75% of species disappear within a geologically short time. The five major events: end-Ordovician (~444 Ma), Late Devonian (~375 Ma), end-Permian (~252 Ma, the "Great Dying," ~96% of marine species extinct), end-Triassic (~201 Ma), and end-Cretaceous (~66 Ma). Trilobites went extinct at the end-Permian; graptolites at the end-Devonian; ammonoids at the end-Cretaceous. Brachiopods survived all five, though today they are represented by only a few hundred species compared to thousands in the Paleozoic. Their resilience is not fully understood but may relate to their simple lifestyle and ability to persist in refugia.',
       image: '/images/exams/es-june-2022/q47.png',
     },
     {
@@ -624,6 +718,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 2,
+      explanation: 'Ediacaran fauna are soft-bodied multicellular organisms that lived 635–541 Ma — well before 550 Ma. The Burgess Shale fauna (~508 Ma) and sharks (~450 Ma) appeared after 550 Ma.',
+      diveDeep: 'The Ediacaran Period (635–541 Ma) represents the first fossil record of complex multicellular organisms — bizarre, soft-bodied creatures unlike anything alive today, possibly related to modern cnidarians or a completely extinct lineage. The "Cambrian Explosion" (~541 Ma) saw a rapid diversification of body plans; the Burgess Shale (~508 Ma) preserves this diversity. Sharks first appeared in the Ordovician (~450 Ma); insects in the Devonian/Silurian (~419 Ma). The ESRT\'s geologic history chart shows when major groups first appeared. Questions about "before X Ma" require careful reading of the timeline scale.',
       image: '/images/exams/es-june-2022/q48.png',
     },
     {
@@ -638,6 +734,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 3,
+      explanation: 'Earth rotates counterclockwise when viewed from above the North Pole (west to east). This is the correct direction, consistent with the Foucault pendulum\'s apparent clockwise rotation in the Northern Hemisphere.',
+      diveDeep: 'Earth\'s rotation is prograde (counterclockwise viewed from north, or west-to-east). This causes the Coriolis effect — deflection of moving objects to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The Foucault pendulum\'s swing plane appears to rotate clockwise in the Northern Hemisphere because Earth rotates beneath it; at the North Pole it would complete one full rotation in 24 hours, and at the equator there would be no apparent rotation. The apparent rotation is actually Earth rotating under a pendulum that maintains a fixed plane in space due to inertia. The rate of apparent pendulum rotation = 15°/hr × sin(latitude).',
       image: '/images/exams/es-june-2022/q49.png',
     },
     {
@@ -652,6 +750,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 2,
+      explanation: 'Earth rotates 360° in 24 hours, which equals 15° per hour. Over 5 hours: 5 × 15° = 75°.',
+      diveDeep: 'Earth\'s rotation rate is approximately 15°/hour (or equivalently, 1° every 4 minutes, or 360° per 24 hours). This rate is the basis for the world\'s time zones: each hour zone spans 15° of longitude. The ESRT states Earth\'s rotation rate as 15°/hr. Over shorter periods: 1 hour = 15°, 2 hours = 30°, 3 hours = 45°, 4 hours = 60°, 5 hours = 75°, 6 hours = 90°. This rate also explains why the Sun appears to move across the sky at 15°/hour. The Foucault pendulum\'s apparent rotation rate depends on latitude — at 90°N it matches Earth\'s 15°/hr; at other latitudes it is 15°/hr × sin(latitude).',
       image: '/images/exams/es-june-2022/q50.png',
     },
   ],

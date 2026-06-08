@@ -1,0 +1,491 @@
+{
+  "subject": "algebra-2",
+  "session": "june-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The graphs of the equations y = x + 4x - 1 and y + 3 = x are drawn on the same set of axes. One solution of this system is",
+      "choices": [
+        "(-5,-2)",
+        "(-1,-4)",
+        "(1,4)",
+        "(-2,-1) x"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which statement is true about the graph of f(x) = (8 1) ?",
+      "choices": [
+        "The graph is always increasing.",
+        "The graph is always decreasing.",
+        "The graph passes through (1,0).",
+        "The graph has an asymptote, x = 0."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "For all values of x for which the expression is defined, 3 2 x + 2x -9x -18 3 2 , in simplest form, is equivalent to x - x -6x x + 3",
+      "choices": [
+        "3",
+        "-",
+        "x 17 x2 - 9",
+        "2 x x( -3)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "A scatterplot showing the weight, w, in grams, of each crystal after growing t hours is shown below. The relationship between weight, w, and time, t, is best modeled by",
+      "choices": [
+        "w \u0002 4t \u0003 5",
+        "w \u0002 (1.4)t\u0003 2",
+        "w \u0002 5(2.1)t",
+        "w \u0002 8(.75)t"
+      ],
+      "image": "/images/exams/algebra-2/june-2018/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Where i is the imaginary unit, the expression (x \u0003 3i)2 \u0004 (2x \u0004 3i)2 is equivalent to",
+      "choices": [
+        "\u00043x2",
+        "\u00043x2 \u0004 18",
+        "\u00043x2 \u0003 18xi",
+        "\u00043x2 \u0004 6xi \u0004 18"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which function is even?",
+      "choices": [
+        "f(x) \u0002 sin x",
+        "f(x) \u0002 x2 \u0004 4",
+        "f(x) \u0002 |x \u0004 2| \u0003 5",
+        "f(x) \u0002 x4 \u0003 3x3 \u0003 4 Time (h) Weight (g) 5 1 30"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The function N(t) \u0002 100e\u00040.023t models the number of grams in a sample of cesium-137 that remain after t years. On which interval is the sample\u2019s average rate of decay the fastest?",
+      "choices": [
+        "[1,10]",
+        "[10,20]",
+        "[15,25]",
+        "[1,30]"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which expression can be rewritten as (x \u0003 7)(x \u0004 1)?",
+      "choices": [
+        "(x \u0003 3)2 \u0004 16",
+        "(x \u0003 3)2 \u0004 10(x \u0003 3) \u0004 2(x \u0003 3) \u0003 20",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/june-2018/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "What is the solution set of the equation ?",
+      "choices": [
+        "{3}",
+        "{ 3__ 2}",
+        "{\u00042,3}",
+        "{\u00041, 3__ 2} x x x x \u0003 \u0003 \u0003 \u0003 7 4 3 3 2 ( )( ) ( ) x x x x \u0004 \u0004 \u0004 \u0003 1 6 7 1 2 ( )( ) ( ) 2 3 3 3 x x x x x \u0004 \u0002 \u0003 \u0003"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The depth of the water at a marker 20 feet from the shore in a bay is depicted in the graph below. If the depth, d, is measured in feet and time, t, is measured in hours since midnight, what is an equation for the depth of the water at the marker?",
+      "choices": [
+        "d \u0002 5cos( \u03c0 __ 6 t) \u0003 9",
+        "d \u0002 9cos( \u03c0 __ 6 t) \u0003 5",
+        "d \u0002 9sin( \u03c0 __ 6 t) \u0003 5",
+        "d \u0002 5sin( \u03c0 __ 6 t) \u0003 9"
+      ],
+      "image": "/images/exams/algebra-2/june-2018/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "On a given school day, the probability that Nick oversleeps is 48% and the probability he has a pop quiz is 25%. Assuming these two events are independent, what is the probability that Nick oversleeps and has a pop quiz on the same day?",
+      "choices": [
+        "73%",
+        "36%",
+        "23%",
+        "12%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "If x \u0004 1 is a factor of x3 \u0004 kx2 \u0003 2x, what is the value of k?",
+      "choices": [
+        "0",
+        "2",
+        "3",
+        "\u00043 d t 6 12 18 2 10 20"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The profit function, p(x), for a company is the cost function, c(x), subtracted from the revenue function, r(x). The profit function for the Acme Corporation is p(x) \u0002 \u00040.5x2 \u0003 250x \u0004 300 and the revenue function is r(x) \u0002 \u00040.3x2 \u0003 150x. The cost function for the Acme Corporation is",
+      "choices": [
+        "c(x) \u0002 0.2x2 \u0004 100x \u0003 300",
+        "c(x) \u0002 0.2x2 \u0003 100x \u0003 300",
+        "c(x) \u0002 \u00040.2x2 \u0003 100x \u0004 300",
+        "c(x) \u0002 \u00040.8x2 \u0003 400x \u0004 300"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The populations of two small towns at the beginning of 2018 and their annual population growth rate are shown in the table below. Assuming the trend continues, approximately how many years after the beginning of 2018 will it take for the populations to be equal?",
+      "choices": [
+        "7",
+        "20",
+        "68",
+        "125"
+      ],
+      "image": "/images/exams/algebra-2/june-2018/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "What is the inverse of f(x) \u0002 x3 \u0004 2?",
+      "choices": [
+        "f \u00041(x) \u0002 3\u0002\u0003x \u0003 2",
+        "f \u00041(x) \u0002 \u0005 3\u0002\u0003x \u0003 2",
+        "f \u00041(x) \u0002 3\u0002\u0003x \u0003 2 \u0003\u0003\u0003\u0003",
+        "f \u00041(x) \u0002 \u0005 3\u0002\u0003x \u0003 2 \u0003\u0003\u0003\u0003 Town Population Annual Population Growth Rate Jonesville 1240 6% increase Williamstown 890 11%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "written",
+      "text": "A 4th degree polynomial has zeros \u00045, 3, i, and \u0004i. Which graph could represent the function defined by this polynomial?",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2018/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The weights of bags of Graseck\u2019s Chocolate Candies are normally distributed with a mean of 4.3 ounces and a standard deviation of 0.05 ounces. What is the probability that a bag of these chocolate candies weighs less than 4.27 ounces?",
+      "choices": [
+        "y",
+        "x",
+        "y x y x",
+        "y x \u00045 3 3 \u00045 \u00043 5 \u00043 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The half-life of iodine-131 is 8 days. The percent of the isotope left in the body d days after being introduced is . When this equation is written in terms of the number e, the base of the natural logarithm, it is equivalent to I \u0002 100ekd. What is the approximate value of the constant, k?",
+      "choices": [
+        "\u00040.087",
+        "0.087",
+        "\u000411.542",
+        "11.542"
+      ],
+      "image": "/images/exams/algebra-2/june-2018/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The graph of y \u0002 log2 x is translated to the right 1 unit and down 1 unit. The coordinates of the x-intercept of the translated graph are",
+      "choices": [
+        "(0,0)",
+        "(1,0)",
+        "(2,0)",
+        "(3,0)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "For positive values of x, which expression is equivalent to \u0002\u0003\u0003\u0003\u0003 16x2 \u2022 x 2__ 3 \u0003 3\u0002\u0003\u0003\u0003 8x5 ?",
+      "choices": [
+        "6 5\u0002\u0003\u0003 x3",
+        "6 3\u0002\u0003\u0003 x5",
+        "4 3\u0002\u0003\u0003 x2 \u0003 2 3\u0002\u0003\u0003 x5",
+        "4\u0002\u0003\u0003 x3 \u0003 2 5\u0002\u0003\u0003 x3 I d \u0002 100 1 2 8 ( )"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which equation represents a parabola with a focus of (\u00042,5) and a directrix of y \u0002 9?",
+      "choices": [
+        "(y \u0004 7)2 \u0002 8(x \u0003 2)",
+        "(y \u0004 7)2 \u0002 \u00048(x \u0003 2)",
+        "(x \u0003 2)2 \u0002 8(y \u0004 7)",
+        "(x \u0003 2)2 \u0002 \u00048(y \u0004 7)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Given the following polynomials x \u0002 (a \u0003 b \u0003 c)2 y \u0002 a2 \u0003 b2 \u0003 c2 z \u0002 ab \u0003 bc \u0003 ac Which identity is true?",
+      "choices": [
+        "x \u0002 y \u0004 z",
+        "x \u0002 y \u0003 z",
+        "x \u0002 y \u0004 2z",
+        "x \u0002 y \u0003 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "On average, college seniors graduating in 2012 could compute their growing student loan debt using the function D(t) \u0002 29,400(1.068)t, where t is time in years. Which expression is equivalent to 29,400(1.068)t and could be used by students to identify an approximate daily interest rate on their loans?",
+      "choices": [
+        "29,400(1.068 1 ___ 365) t",
+        "29,400( 1.068 _____ 365 ) 365t",
+        "29,400(1 \u0003 0.068 _____ 365 ) t",
+        "29,400(1.068 1 ___ 365) 365t"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A manufacturing plant produces two different-sized containers of peanuts. One container weighs x ounces and the other weighs y pounds. If a gift set can hold one of each size container, which expression represents the number of gift sets needed to hold 124 ounces?",
+      "choices": [
+        "124 _______ 16x \u0003 y",
+        "__x \u0003 ___16y __ 124 __",
+        "124 _______ x \u0003 16y",
+        "__ 16x__\u0003__y 124 __"
+      ],
+      "image": "/images/exams/algebra-2/june-2018/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "A survey about television-viewing preferences was given to randomly selected freshmen and seniors at Fairport High School. The results are shown in the table below. Favorite Type of Program A student response is selected at random from the results. State the exact probability the student response is from a freshman, given the student prefers to watch reality shows on television. Sports Reality Show Comedy Series Senior 83 110 67 Freshman 119 103 54 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2018/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "On the grid below, graph the function f(x) \u0002 x3 \u0004 6x2 \u0003 9x \u0003 6 on the domain \u00041 \u2264x \u22644. f(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2018/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Solve the equation 2x2 \u0003 5x \u0003 8 \u0002 0. Express the answer in a \u0003 bi form.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Chuck\u2019s Trucking Company has decided to initiate an Employee of the Month program. To determine the recipient, they put the following sign on the back of each truck. The driver who receives the highest number of positive comments will win the recognition. Explain one statistical bias in this data collection method. How\u2019s My Driving? Call 1-555",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2018/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Determine the quotient and remainder when (6a3 \u0003 11a2 \u0004 4a \u0004 9) is divided by (3a \u0004 2). Express your answer in the form q(a) \u0003 r(a) ____ d(a).",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The recursive formula to describe a sequence is shown below. a1 \u0002 3 an \u0002 1 \u0003 2an \u0004 1 State the first four terms of this sequence. Can this sequence be represented using an explicit geometric formula?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "The Wells family is looking to purchase a home in a suburb of Rochester with a 30-year mortgage that has an annual interest rate of 3.6%. The house the family wants to purchase is $152,500 and they will make a $15,250 down payment and borrow the remainder. Use the formula below to determine their monthly payment, to the nearest dollar. M \u0002 monthly payment P \u0002 amount borrowed r \u0002 annual interest rate n \u0002 total number of monthly payments M P r r r n n \u0002 \u0003 \u0003 \u0004 12 12 12 1 1 1 ( )( ) ( )",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2018/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "An angle, \u03b8, is in standard position and its terminal side passes through the point (2,\u00041). Find the exact value of sin \u03b8",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Solve algebraically for all values of x: \u0002\u0003\u0003\u0003\u0003\u0003\u0003 6 \u0004 2x \u0003 x \u0002 2(x \u0003 15) \u0004 9 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Joseph was curious to determine if scent improves memory. A test was created where better memory is indicated by higher test scores. A controlled experiment was performed where one group was given the test on scented paper and the other group was given the test on unscented paper. The summary statistics from the experiment are given below. Calculate the difference in means in the experimental test grades (scented \u2013 unscented). A simulation was conducted in which the subjects\u2019 scores were rerandomized into two groups 1000 times. The differences of the group means were calculated each time. The results are shown below. Scented Paper Unscented Paper _x 23 18 sx 2.898 2.408 samples = 1000 mean = 0.030 st. dev. = 1.548 \u20134 Simulated Group Difference of the Means \u20133 \u20132 \u20131 0 1 2 3 4 5 10 0 20 30 40 50 Frequency Question 34 Question 34 continued Use the simulation results to determine the interval representing the middle 95% of the difference in means, to the nearest hundredth. Is the difference in means in Joseph\u2019s experiment statistically significant based on the simulation?",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2018/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Carla wants to start a college fund for her daughter Lila. She puts $63,000 into an account that grows at a rate of 2.55% per year, compounded monthly. Write a function, C(t), that represents the amount of money in the account t years after the account is opened, given that no more money is deposited into or withdrawn from the account. Calculate algebraically the number of years it will take for the account to reach $100,000,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "The height, h(t) in cm, of a piston, is given by the equation h(t) \u0002 12cos( \u03c0__ 3 t) \u0003 8, where t represents the number of seconds since the measurements began. Determine the average rate of change, in cm/sec, of the piston\u2019s height on the interval 1 \u2264t \u22642. At what value(s) of t, to the nearest tenth of a second, does h(t) \u0002 0 in the interval 1 \u2264t \u22645?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Website popularity ratings are often determined using models that incorporate the number of visits per week a website receives. One model for ranking websites is P(x) \u0002 log(x \u0004 4), where x is the number of visits per week in thousands and P(x) is the website\u2019s popularity rating. According to this model, if a website is visited 16,000 times in one week, what is its popularity rating, rounded to the nearest tenth? Graph y \u0002 P(x) on the axes below. An alternative rating model is represented by R(x) \u0002 1__ 2 x \u0004 6, where x is the number of visits per week in thousands. Graph R(x) on the same set of axes. For what number of weekly visits will the two models provide the same rating? Site Visits (in thousands) Popularity Rating 1 2 3 4 2 4 6 8 10 12 14 16 18 20 x y Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2018/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

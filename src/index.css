@@ -4228,6 +4228,10 @@ html, body {
 .regents-review-qtext     { font-size: .85rem; color: var(--text); margin-bottom: 6px; }
 .regents-review-correct   { font-size: .82rem; color: #16a34a; }
 .regents-review-explanation { font-size: .8rem; color: var(--text-muted); margin-top: 4px; font-style: italic; line-height: 1.4; }
+.regents-review-divedeep { margin-top: 8px; border-radius: 8px; background: var(--surface-2, #f5f5f5); border: 1px solid var(--border); overflow: hidden; }
+.regents-review-divedeep summary { cursor: pointer; padding: 6px 10px; font-size: .78rem; font-weight: 600; color: var(--primary, #4f8ef7); user-select: none; }
+.regents-review-divedeep summary:hover { background: var(--surface-3, #ebebeb); }
+.regents-review-divedeep p { margin: 0; padding: 8px 12px; font-size: .78rem; color: var(--text-muted); line-height: 1.55; }
 
 .regents-question-image { margin: 10px 0 14px; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); background: #fff; }
 .regents-diagram-img { display: block; width: 100%; height: auto; }

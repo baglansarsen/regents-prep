@@ -1,0 +1,1091 @@
+{
+  "subject": "physics",
+  "session": "june-2017",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "A unit used for a vector quantity is",
+      "choices": [
+        "watt",
+        "newton",
+        "kilogram",
+        "second"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A displacement vector with a magnitude of 20. meters could have perpendicular components with magnitudes of",
+      "choices": [
+        "10. m and 10. m",
+        "12 m and 8.0 m",
+        "12 m and 16 m",
+        "16 m and 8.0 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "A hiker travels 1.0 kilometer south, turns and travels 3.0 kilometers west, and then turns and travels 3.0 kilometers north. What is the total distance traveled by the hiker?",
+      "choices": [
+        "3.2 km",
+        "3.6 km",
+        "5.0 km",
+        "7.0 km"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "A car with an initial velocity of 16.0 meters per second east slows uniformly to 6.0 meters per second east in 4.0 seconds. What is the acceleration of the car during this 4.0-second interval?",
+      "choices": [
+        "2.5 m/s2 west",
+        "2.5 m/s2 east",
+        "4.0 m/s2 west",
+        "4.0 m/s2 east"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "On the surface of planet X, a body with a mass of 10. kilograms weighs 40. newtons. The magnitude of the acceleration due to gravity on the surface of planet X is",
+      "choices": [
+        "4.0 \u00d7 103 m/s2",
+        "4.0 \u00d7 102 m/s2",
+        "9.8 m/s2",
+        "4.0 m/s2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A car traveling in a straight line at an initial speed of 8.0 meters per second accelerates uniformly to a speed of 14 meters per second over a distance of 44 meters. What is the magnitude of the acceleration of the car?",
+      "choices": [
+        "0.41 m/s2",
+        "1.5 m/s2",
+        "3.0 m/s2",
+        "2.2 m/s2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "An object starts from rest and falls freely for 40. meters near the surface of planet P. If the time of fall is 4.0 seconds, what is the magnitude of the acceleration due to gravity on planet P?",
+      "choices": [
+        "0 m/s2",
+        "1.3 m/s2",
+        "5.0 m/s2",
+        "10. m/s2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "If a block is in equilibrium, the magnitude of the block\u2019s acceleration is",
+      "choices": [
+        "zero",
+        "decreasing",
+        "increasing",
+        "constant, but not zero"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The diagram below shows a light ray striking a plane mirror. What is the angle of reflection?",
+      "choices": [
+        "30.\u00b0",
+        "60.\u00b0",
+        "90.\u00b0",
+        "120.\u00b0"
+      ],
+      "image": "/images/exams/physics/june-2017/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "An electric field exerts an electrostatic force of magnitude 1.5 \u00d7 10\u221214 newton on an electron within the field. What is the magnitude of the electric field strength at the location of the electron?",
+      "choices": [
+        "2.4 \u00d7 10\u221233 N/C",
+        "1.1 \u00d7 10\u22125 N/C",
+        "9.4 \u00d7 104 N/C",
+        "1.6 \u00d7 1016 N/C \u0002\u0003\u0004\u0005\u0006\u0007\b \b \u000e \u000f\u0003\b\b \b"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "A 7.0-kilogram cart, A, and a 3.0-kilogram cart, B, are initially held together at rest on a horizontal, frictionless surface. When a compressed spring attached to one of the carts is released, the carts are pushed apart. After the spring is released, the speed of cart B is 6.0 meters per second, as represented in the diagram below. What is the speed of cart A after the spring is released?",
+      "choices": [
+        "14 m/s",
+        "6.0 m/s",
+        "3.0 m/s",
+        "2.6 m/s"
+      ],
+      "image": "/images/exams/physics/june-2017/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "written",
+      "text": "An electron in a magnetic field travels at constant speed in the circular path represented in the diagram below. Which arrow represents the direction of the net force acting on the electron when the electron is at position A?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The potential difference between two points, A and B, in an electric field is 2.00 volts. The energy required to move a charge of 8.00 \u00d7 10\u221219 coulomb from point A to point B is",
+      "choices": [
+        "4.00 \u00d7 10\u221219 J",
+        "1.60 \u00d7 10\u221218 J",
+        "6.25 \u00d7 1017 J",
+        "2.50 \u00d7 1018 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which statement describes the gravitational force and the electrostatic force between two charged particles?",
+      "choices": [
+        "The gravitational force may be either attractive or repulsive, whereas the electrostatic force must be attractive.",
+        "The gravitational force must be attractive, whereas the electrostatic force may be either attractive or repulsive.",
+        "Both forces may be either attractive or repulsive.",
+        "Both forces must be attractive."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "An electrostatic force exists between two +3.20 \u00d7 10\u221219-coulomb point charges separated by a distance of 0.030 meter. As the distance between the two point charges is decreased, the electrostatic force of",
+      "choices": [
+        "attraction between the two charges decreases",
+        "attraction between the two charges increases",
+        "repulsion between the two charges decreases",
+        "repulsion between the two charges increases"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "What is the energy of the photon emitted when an electron in a mercury atom drops from energy level f to energy level b?",
+      "choices": [
+        "8.42 eV",
+        "5.74 eV",
+        "3.06 eV",
+        "2.68 eV"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "An observer counts 4 complete water waves passing by the end of a dock every 10. seconds. What is the frequency of the waves?",
+      "choices": [
+        "0.40 Hz",
+        "2.5 Hz",
+        "40. Hz",
+        "4.0 Hz"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Copper is a metal commonly used for electrical wiring in houses. Which metal conducts electricity better than copper at 20\u00b0C?",
+      "choices": [
+        "aluminum",
+        "gold",
+        "nichrome",
+        "silver \u0010\u0007\u0011\u0007\u0012 \u0010\u0007\u0013\u0007\u0012 \u0010\u0007\u0014\u0007\u0012 \u0010\u0007\u0015\u0007\u0012 A Path of electron \u0016\u0017\u0018\u0007\u0019\u0004 \u0014\u0017\u0018\u0007\u0019\u0004 \u001a\u0017\u0018\u0007 \u001b \b\u0003 \u0006\u0003 !\u000e\" \u0007 #\b$ \""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "A motor does 20. joules of work on a block, accelerating the block vertically upward. Neglecting friction, if the gravitational potential energy of the block increases by 15 joules, its kinetic energy",
+      "choices": [
+        "decreases by 5 J",
+        "increases by 5 J",
+        "decreases by 35 J",
+        "increases by 35 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "When only one lightbulb blows out, an entire string of decorative lights goes out. The lights in this string must be connected in",
+      "choices": [
+        "parallel with one current pathway",
+        "parallel with multiple current pathways",
+        "series with one current pathway",
+        "series with multiple current pathways"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "An electric toaster is rated 1200 watts at 120 volts. What is the total electrical energy used to operate the toaster for 30. seconds?",
+      "choices": [
+        "1.8 \u00d7 103 J",
+        "3.6 \u00d7 103 J",
+        "1.8 \u00d7 104 J",
+        "3.6 \u00d7 104 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "What is the rate at which work is done in lifting a 35-kilogram object vertically at a constant speed of 5.0 meters per second?",
+      "choices": [
+        "1700 W",
+        "340 W",
+        "180 W",
+        "7.0 W"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "When a wave travels through a medium, the wave transfers",
+      "choices": [
+        "mass, only",
+        "energy, only",
+        "both mass and energy",
+        "neither mass nor energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Glass may shatter when exposed to sound of a particular frequency. This phenomenon is an example of",
+      "choices": [
+        "refraction",
+        "diffraction",
+        "resonance",
+        "the Doppler effect"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which waves require a material medium for transmission?",
+      "choices": [
+        "light waves",
+        "radio waves",
+        "sound waves",
+        "microwaves"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which type of oscillation would most likely produce an electromagnetic wave?",
+      "choices": [
+        "a vibrating tuning fork",
+        "a washing machine agitator at work",
+        "a swinging pendulum",
+        "an electron traveling back and forth in a wire"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "If monochromatic light passes from water into air with an angle of incidence of 35\u00b0, which characteristic of the light will remain the same?",
+      "choices": [
+        "frequency",
+        "wavelength",
+        "speed",
+        "direction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The absolute index of refraction of medium Y is twice as great as the absolute index of refraction of medium X. As a light ray travels from medium X into medium Y, the speed of the light ray is",
+      "choices": [
+        "halved",
+        "doubled",
+        "quartered",
+        "quadrupled"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The diagram below shows a transverse wave moving toward the right along a rope. At the instant shown, point P on the rope is moving toward the",
+      "choices": [
+        "bottom of the page",
+        "top of the page",
+        "left",
+        "right"
+      ],
+      "image": "/images/exams/physics/june-2017/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "When an isolated conductor is placed in the vicinity of a positive charge, the conductor is attracted to the charge. The charge of the conductor",
+      "choices": [
+        "must be positive",
+        "must be negative",
+        "could be neutral or positive",
+        "could be neutral or negative"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The quarks that compose a baryon may have charges of",
+      "choices": [
+        "",
+        "",
+        "\u22121e, \u22121e, and 0",
+        ""
+      ],
+      "image": "/images/exams/physics/june-2017/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "A rubber block weighing 60. newtons is resting on a horizontal surface of dry asphalt. What is the magnitude of the minimum force needed to start the rubber block moving across the dry asphalt?",
+      "choices": [
+        "32 N",
+        "40. N",
+        "51 N",
+        "60. N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The data table below lists the mass and speed of four different objects. Which object has the greatest inertia?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D + _ 2 3 2 3 1 3 e, e,and e + Object Mass (kg) Speed (m/s) A 2.0 6.0 B 4.0 5.0 C 6.0 4.0 D 8.0 2.0 + 2 3 2 3 e, e,and 0 + + _ + 1 3 1 3 2 3 e, e,and e P v"
+      ],
+      "image": "/images/exams/physics/june-2017/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The electroscope shown in the diagram below is made completely of metal and consists of a knob, a stem, and leaves. A positively charged rod is brought near the knob of the electroscope and then removed. The motion of the leaves results from electrons moving from the",
+      "choices": [
+        "leaves to the knob, only",
+        "knob to the leaves, only",
+        "leaves to the knob and then back to the leaves",
+        "knob to the leaves and then back to the knob"
+      ],
+      "image": "/images/exams/physics/june-2017/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Which circuit diagram represents the correct way to measure the current in a resistor? A V A V ( 1 ) ( 3 ) ( 2 ) ( 4 ) % & '! ( '! ( )\u0006\" \u0002\" *\" \u0007\u0007\u0007\u0007+\u0007\u0007\u0007\u0007+\u0007\u0007\u0007\u0007+",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The height of a typical kitchen table is approximately",
+      "choices": [
+        "10\u22122 m",
+        "100 m",
+        "101 m",
+        "102 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "A ball is thrown with a velocity of 35 meters per second at an angle of 30.\u00b0 above the horizontal. Which quantity has a magnitude of zero when the ball is at the highest point in its trajectory?",
+      "choices": [
+        "the acceleration of the ball",
+        "the momentum of the ball",
+        "the horizontal component of the ball\u2019s velocity",
+        "the vertical component of the ball\u2019s velocity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The graph below represents the relationship between velocity and time of travel for a toy car moving in a straight line. The shaded area under the line represents the toy car\u2019s",
+      "choices": [
+        "displacement",
+        "momentum",
+        "acceleration",
+        "speed"
+      ],
+      "image": "/images/exams/physics/june-2017/q38.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "A spring stores 10. joules of elastic potential energy when it is compressed 0.20 meter. What is the spring constant of the spring?",
+      "choices": [
+        "5.0 \u00d7 101 N/m",
+        "1.0 \u00d7 102 N/m",
+        "2.5 \u00d7 102 N/m",
+        "5.0 \u00d7 102 N/m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "What is the magnitude of the change in momentum of the cannonball during firing?",
+      "choices": [
+        "0 kg\u2022m/s",
+        "8.0 \u00d7 102 kg\u2022m/s",
+        "8.0 \u00d7 103 kg\u2022m/s",
+        "8.0 \u00d7 104 kg\u2022m/s"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 40 and 41 on the\ninformation below and on your knowledge of physics.\nA cannonball with a mass of 1.0 kilogram is\nfired horizontally from a 500.-kilogram cannon,\ninitially at rest, on a horizontal, frictionless\nsurface. The cannonball is acted on by an average\nforce of 8.0 \u00d7 103 newtons for 1.0 \u00d7 10\u22121 second.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "What is the magnitude of the average net force acting on the cannon?",
+      "choices": [
+        "1.6 N",
+        "16 N",
+        "8.0 \u00d7 103 N",
+        "4.0 \u00d7 106 N"
+      ],
+      "image": "/images/exams/physics/june-2017/q41.png",
+      "context": "Base your answers to questions 40 and 41 on the\ninformation below and on your knowledge of physics.\nA cannonball with a mass of 1.0 kilogram is\nfired horizontally from a 500.-kilogram cannon,\ninitially at rest, on a horizontal, frictionless\nsurface. The cannonball is acted on by an average\nforce of 8.0 \u00d7 103 newtons for 1.0 \u00d7 10\u22121 second.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "A metal sphere, X, has an initial net charge of \u22126 \u00d7 10\u22126 coulomb and an identical sphere, Y, has an initial net charge of +2 \u00d7 10\u22126 coulomb. The spheres touch each other and then separate. What is the net charge on sphere X after the spheres have separated?",
+      "choices": [
+        "0 C",
+        "\u22122 \u00d7 10\u22126 C",
+        "\u22124 \u00d7 10\u22126 C",
+        "\u22126 \u00d7 10\u22126 C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "A constant eastward horizontal force of 70. newtons is applied to a 20.-kilogram crate moving toward the east on a level floor. If the frictional force on the crate has a magnitude of 10. newtons, what is the magnitude of the crate\u2019s acceleration?",
+      "choices": [
+        "0.50 m/s2",
+        "3.5 m/s2",
+        "3.0 m/s2",
+        "4.0 m/s2 Velocity Time"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/q44.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "What is the phase difference between the incident wave and the reflected wave at point P?",
+      "choices": [
+        "0\u00b0",
+        "90\u00b0",
+        "180\u00b0",
+        "270\u00b0"
+      ],
+      "image": "/images/exams/physics/june-2017/context_45_46.png",
+      "context": "Base your answers to questions 45 and 46 on the\ninformation and diagram below and on your \nknowledge of physics.\nOne end of a long spring is attached to a wall.\nA student vibrates the other end of the spring\nvertically, creating a wave that moves to the wall\nand reflects back toward the student, resulting in\na standing wave in the spring, as represented\nbelow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "What is the total number of antinodes on the standing wave in the diagram?",
+      "choices": [
+        "6",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/physics/june-2017/context_45_46.png",
+      "context": "Base your answers to questions 45 and 46 on the\ninformation and diagram below and on your \nknowledge of physics.\nOne end of a long spring is attached to a wall.\nA student vibrates the other end of the spring\nvertically, creating a wave that moves to the wall\nand reflects back toward the student, resulting in\na standing wave in the spring, as represented\nbelow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The diagrams below represent four pieces of copper wire at 20.\u00b0C. For each piece of wire, \u2113 represents a unit of length and A represents a unit of cross-sectional area. The piece of wire that has the greatest resistance is",
+      "choices": [
+        "wire 1",
+        "wire 2",
+        "wire 3",
+        "wire 4 2 Wire 1 Wire 2 Wire 3 2 Wire 4 A A 2A 2A P 44 Which graph represents the relationship between the energy of photons and the wavelengths of photons in a vacuum? \u0010\u0007\u0015\u0007\u0012 \u0010\u0007\u0014\u0007\u0012 \u0010\u0007\u0013\u0007\u0012 \u0010\u0007\u0011\u0007\u0012 \u0002\u0003\u0004\u0005\u0006\u0007 \u0002\u0003\u0004\u0005\u0006\u0007 \u0002\u0003\u0004\u0005\u0006\u0007 \u0002\u0003\u0004\u0005\u0006\u0007 \b \u0004 \u0004\u0003\u0006 \b \u0004 \u0004\u0003\u0006 \b \u0004 \u0004\u0003\u0006 \b \u0004 \u0004\u0003\u0006"
+      ],
+      "image": "/images/exams/physics/june-2017/q47.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The number of excess elementary charges on sphere A is",
+      "choices": [
+        "6.4 \u00d7 10\u221225",
+        "6.4 \u00d7 10\u221219",
+        "2.5 \u00d7 1013",
+        "5.0 \u00d7 1013"
+      ],
+      "image": "/images/exams/physics/june-2017/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the diagram below, which represents two charged, identical\nmetal spheres, and on your knowledge of physics.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "What is the magnitude of the electric force between the two spheres?",
+      "choices": [
+        "3.0 \u00d7 10\u221212 N",
+        "1.0 \u00d7 10\u22126 N",
+        "2.7 \u00d7 10\u22122 N",
+        "5.4 \u00d7 10\u22122 N"
+      ],
+      "image": "/images/exams/physics/june-2017/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the diagram below, which represents two charged, identical\nmetal spheres, and on your knowledge of physics.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the wave fronts produced by a point source moving to the right in a uniform medium. Observers are located at points A and B. Compared to the wave frequency and wavelength observed at point A, the wave observed at point B has a",
+      "choices": [
+        "higher frequency and a shorter wavelength",
+        "higher frequency and a longer wavelength",
+        "lower frequency and a shorter wavelength",
+        "lower frequency and a longer wavelength B A vsource \u0002\u0007\u0015\u0017\u0018\u0007,\u0007\u0011\u0018-\u001a\u0007. \u0003\u0007\u0014\u0017\u0018\u0007,\u0007\u0011\u0018-\u001a\u0007. \u0013\u0017\u0018\u0007"
+      ],
+      "image": "/images/exams/physics/june-2017/q50.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, sketch at least four magnetic field lines of force around a bar magnet. [Include arrows to show the direction of each field line.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "What is the total number of quarks in a tritium nucleus?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 54 on the information below and on your knowledge of physics.\nTritium is a radioactive form of the element hydrogen. A tritium nucleus is composed of \none proton and two neutrons. When a tritium nucleus decays, it emits a beta particle (an electron)\nand an antineutrino to create a stable form of helium. During beta decay, a neutron is\nspontaneously transformed into a proton, an electron, and an antineutrino.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "What is the total charge, in elementary charges, of a proton, an electron, and an antineutrino?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 54 on the information below and on your knowledge of physics.\nTritium is a radioactive form of the element hydrogen. A tritium nucleus is composed of \none proton and two neutrons. When a tritium nucleus decays, it emits a beta particle (an electron)\nand an antineutrino to create a stable form of helium. During beta decay, a neutron is\nspontaneously transformed into a proton, an electron, and an antineutrino.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "What fundamental interaction is responsible for binding together the protons and neutrons in a helium nucleus?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 54 on the information below and on your knowledge of physics.\nTritium is a radioactive form of the element hydrogen. A tritium nucleus is composed of \none proton and two neutrons. When a tritium nucleus decays, it emits a beta particle (an electron)\nand an antineutrino to create a stable form of helium. During beta decay, a neutron is\nspontaneously transformed into a proton, an electron, and an antineutrino.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "The diagram below represents a ball projected horizontally from a cliff at a speed of 10. meters per second. The ball travels the path shown and lands at time t and distance d from the base of the cliff. [Neglect friction.] A second, identical ball is projected horizontally from the cliff at 20. meters per second. Determine the distance the second ball lands from the base of the cliff in terms of d. \u0002\u0007/\u0007\u0011\u0018\u0017\u0007 \u001b \u0003 \u0002\"*\"\u000e\u0007\u0004\b #!& 0\u0003 \"\u0007/\u0007\u0006\u0007 \" !&",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/q55.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "56\u201357 An operating television set draws 0.71 ampere of current when connected to a 120-volt outlet. Calculate the time it takes the television to consume 3.0 \u00d7 105 joules of electric energy. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "58\u201359 On the centimeter grid in your booklet, draw at least one cycle of a periodic transverse wave with an amplitude of 2.0 centimeters and a wavelength of 6.0 centimeters.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "The diagram below represents a 35-newton block hanging from a vertical spring, causing the spring to elongate from its original length. Determine the spring constant of the spring.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/q60.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Determine the amount of matter, in kilograms, that must be converted to energy to yield 1.0 gigajoule.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Thunder results from the expansion of air as lightning passes through it. The distance between an observer and a lightning strike may be determined if the time that elapses between the observer seeing the lightning and hearing the thunder is known. Explain why the lightning strike is seen before the thunder is heard.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "63\u201364 A bolt of lightning transfers 28 coulombs of charge through an electric potential difference of 3.2 \u00d7 107 volts between a cloud and the ground in 1.5 \u00d7 10\u22123 second. Calculate the average electric current between the cloud and the ground during this transfer of charge. [Show all work, including the equation and substitution with units.] 0.15 m 0.25 m 35 N Unstretched spring Stretched spring",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "The diagram below represents two pulses traveling toward each other in a uniform medium. On the grid in your answer booklet, draw the resultant displacement of the medium when both pulses are located between points A and B. A B Displacement (m) 0.0 0.40 0.80 1.20 1.60 \u20131.20 \u20130.80 \u20130.40 \u20131.60",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/q65.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Determine the total amount of work done by the rope on the skier.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information and diagram below and on your knowledge\nof physics.\nAs represented in the diagram, a ski area rope-tow pulls a 72.0-kilogram skier from the bottom\nto the top of a 40.0-meter-high hill. The rope-tow exerts a force of magnitude 158 newtons to move\nthe skier a total distance of 230. meters up the side of the hill at constant speed.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information and diagram below and on your knowledge\nof physics.\nAs represented in the diagram, a ski area rope-tow pulls a 72.0-kilogram skier from the bottom\nto the top of a 40.0-meter-high hill. The rope-tow exerts a force of magnitude 158 newtons to move\nthe skier a total distance of 230. meters up the side of the hill at constant speed.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "67\u201368 Calculate the total amount of gravitational potential energy gained by the skier while moving up the hill. [Show all work, including the equation and substitution with units]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information and diagram below and on your knowledge\nof physics.\nAs represented in the diagram, a ski area rope-tow pulls a 72.0-kilogram skier from the bottom\nto the top of a 40.0-meter-high hill. The rope-tow exerts a force of magnitude 158 newtons to move\nthe skier a total distance of 230. meters up the side of the hill at constant speed.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Describe what happens to the internal energy of the skier-hill system as the skier is pulled up the hill.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information and diagram below and on your knowledge\nof physics.\nAs represented in the diagram, a ski area rope-tow pulls a 72.0-kilogram skier from the bottom\nto the top of a 40.0-meter-high hill. The rope-tow exerts a force of magnitude 158 newtons to move\nthe skier a total distance of 230. meters up the side of the hill at constant speed.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Describe what happens to the total mechanical energy of the skier-hill system as the skier is pulled up the hill. \u0015\u0018\u0017\u0018\u0007 1 \b\u00032 !\u0006 \u000e \u0010 \u0006\u0007\u0006 \u0007 \u000e\"\u0012 \u0013\u0014\u0018\u0017\u0007 \u0016\u0013\u0017\u0018-\u0019\u0004\u0007 \u0019\u0003\"\b % 3\"",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information and diagram below and on your knowledge\nof physics.\nAs represented in the diagram, a ski area rope-tow pulls a 72.0-kilogram skier from the bottom\nto the top of a 40.0-meter-high hill. The rope-tow exerts a force of magnitude 158 newtons to move\nthe skier a total distance of 230. meters up the side of the hill at constant speed.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_71_76.png",
+      "context": "Base your answers to questions 71 through 76 on the diagram and information below and on your knowledge\nof physics.\nA 15-ohm resistor, 30.-ohm resistor, and an ammeter are connected as shown with a 60.-volt\nbattery.\n71\u201372 Calculate the equivalent resistance of R1 and R2. [Show all work, including the equation and\nsubstitution with units.]   [2]\n73 Determine the current measured by the ammeter.   [1]\n74\u201375 Calculate the rate at which the battery supplies energy to the circuit. [Show all work, including the\nequation and substitution with units.]   [2]\n76 If another resistor were added in parallel to the original circuit, what effect would this have on the\ncurrent through resistor R1?   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "71\u201372 Calculate the equivalent resistance of R1 and R2. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_71_76.png",
+      "context": "Base your answers to questions 71 through 76 on the diagram and information below and on your knowledge\nof physics.\nA 15-ohm resistor, 30.-ohm resistor, and an ammeter are connected as shown with a 60.-volt\nbattery.\n71\u201372 Calculate the equivalent resistance of R1 and R2. [Show all work, including the equation and\nsubstitution with units.]   [2]\n73 Determine the current measured by the ammeter.   [1]\n74\u201375 Calculate the rate at which the battery supplies energy to the circuit. [Show all work, including the\nequation and substitution with units.]   [2]\n76 If another resistor were added in parallel to the original circuit, what effect would this have on the\ncurrent through resistor R1?   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Determine the current measured by the ammeter.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_71_76.png",
+      "context": "Base your answers to questions 71 through 76 on the diagram and information below and on your knowledge\nof physics.\nA 15-ohm resistor, 30.-ohm resistor, and an ammeter are connected as shown with a 60.-volt\nbattery.\n71\u201372 Calculate the equivalent resistance of R1 and R2. [Show all work, including the equation and\nsubstitution with units.]   [2]\n73 Determine the current measured by the ammeter.   [1]\n74\u201375 Calculate the rate at which the battery supplies energy to the circuit. [Show all work, including the\nequation and substitution with units.]   [2]\n76 If another resistor were added in parallel to the original circuit, what effect would this have on the\ncurrent through resistor R1?   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_71_76.png",
+      "context": "Base your answers to questions 71 through 76 on the diagram and information below and on your knowledge\nof physics.\nA 15-ohm resistor, 30.-ohm resistor, and an ammeter are connected as shown with a 60.-volt\nbattery.\n71\u201372 Calculate the equivalent resistance of R1 and R2. [Show all work, including the equation and\nsubstitution with units.]   [2]\n73 Determine the current measured by the ammeter.   [1]\n74\u201375 Calculate the rate at which the battery supplies energy to the circuit. [Show all work, including the\nequation and substitution with units.]   [2]\n76 If another resistor were added in parallel to the original circuit, what effect would this have on the\ncurrent through resistor R1?   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "74\u201375 Calculate the rate at which the battery supplies energy to the circuit. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_71_76.png",
+      "context": "Base your answers to questions 71 through 76 on the diagram and information below and on your knowledge\nof physics.\nA 15-ohm resistor, 30.-ohm resistor, and an ammeter are connected as shown with a 60.-volt\nbattery.\n71\u201372 Calculate the equivalent resistance of R1 and R2. [Show all work, including the equation and\nsubstitution with units.]   [2]\n73 Determine the current measured by the ammeter.   [1]\n74\u201375 Calculate the rate at which the battery supplies energy to the circuit. [Show all work, including the\nequation and substitution with units.]   [2]\n76 If another resistor were added in parallel to the original circuit, what effect would this have on the\ncurrent through resistor R1?   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "If another resistor were added in parallel to the original circuit, what effect would this have on the current through resistor R1?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_71_76.png",
+      "context": "Base your answers to questions 71 through 76 on the diagram and information below and on your knowledge\nof physics.\nA 15-ohm resistor, 30.-ohm resistor, and an ammeter are connected as shown with a 60.-volt\nbattery.\n71\u201372 Calculate the equivalent resistance of R1 and R2. [Show all work, including the equation and\nsubstitution with units.]   [2]\n73 Determine the current measured by the ammeter.   [1]\n74\u201375 Calculate the rate at which the battery supplies energy to the circuit. [Show all work, including the\nequation and substitution with units.]   [2]\n76 If another resistor were added in parallel to the original circuit, what effect would this have on the\ncurrent through resistor R1?   [1]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the information below and on your knowledge of physics.\nA gas-powered model airplane has a mass of 2.50 kilograms. A student exerts a force on a cord\nto keep the airplane flying around her at a constant speed of 18.0 meters per second in a horizontal,\ncircular path with a radius of 25.0 meters.\n77\u201378 Calculate the kinetic energy of the moving airplane. [Show all work, including the equation and\nsubstitution with units.]   [2]\n79\u201380 Calculate the magnitude of the centripetal force exerted on the airplane to keep it moving in this\ncircular path. [Show all work, including the equation and substitution with units.]   [2]\n60. V\nR1 = 15 \u03a9\nR2 = 30. \u03a9\nA\n\nP.S./Physics\u2013June \u201917\n[15]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "77\u201378 Calculate the kinetic energy of the moving airplane. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the information below and on your knowledge of physics.\nA gas-powered model airplane has a mass of 2.50 kilograms. A student exerts a force on a cord\nto keep the airplane flying around her at a constant speed of 18.0 meters per second in a horizontal,\ncircular path with a radius of 25.0 meters.\n77\u201378 Calculate the kinetic energy of the moving airplane. [Show all work, including the equation and\nsubstitution with units.]   [2]\n79\u201380 Calculate the magnitude of the centripetal force exerted on the airplane to keep it moving in this\ncircular path. [Show all work, including the equation and substitution with units.]   [2]\n60. V\nR1 = 15 \u03a9\nR2 = 30. \u03a9\nA\n\nP.S./Physics\u2013June \u201917\n[15]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the information below and on your knowledge of physics.\nA gas-powered model airplane has a mass of 2.50 kilograms. A student exerts a force on a cord\nto keep the airplane flying around her at a constant speed of 18.0 meters per second in a horizontal,\ncircular path with a radius of 25.0 meters.\n77\u201378 Calculate the kinetic energy of the moving airplane. [Show all work, including the equation and\nsubstitution with units.]   [2]\n79\u201380 Calculate the magnitude of the centripetal force exerted on the airplane to keep it moving in this\ncircular path. [Show all work, including the equation and substitution with units.]   [2]\n60. V\nR1 = 15 \u03a9\nR2 = 30. \u03a9\nA\n\nP.S./Physics\u2013June \u201917\n[15]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "79\u201380 Calculate the magnitude of the centripetal force exerted on the airplane to keep it moving in this circular path. [Show all work, including the equation and substitution with units.] 60. V R1 = 15 \u03a9 R2 = 30. \u03a9 A",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the information below and on your knowledge of physics.\nA gas-powered model airplane has a mass of 2.50 kilograms. A student exerts a force on a cord\nto keep the airplane flying around her at a constant speed of 18.0 meters per second in a horizontal,\ncircular path with a radius of 25.0 meters.\n77\u201378 Calculate the kinetic energy of the moving airplane. [Show all work, including the equation and\nsubstitution with units.]   [2]\n79\u201380 Calculate the magnitude of the centripetal force exerted on the airplane to keep it moving in this\ncircular path. [Show all work, including the equation and substitution with units.]   [2]\n60. V\nR1 = 15 \u03a9\nR2 = 30. \u03a9\nA\n\nP.S./Physics\u2013June \u201917\n[15]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and diagram below and on your knowledge\nof physics.\nA ray of light with a frequency of 5.09 \u00d7 1014 hertz traveling in medium X is refracted at point P.\nThe angle of refraction is 90.\u00b0, as represented in the diagram.\n81\u201382 Calculate the wavelength of the light ray in air. [Show all work, including the equation and\nsubstitution with units.]   [2]\n83 Measure the angle of incidence for the light ray incident at point P and record the value in your\nanswer booklet.   [1]\n84\u201385 Calculate the absolute index of refraction for medium X. [Show all work, including the equation and\nsubstitution with units.]   [2]\n\u000f\"&\u0003#\r\u0007,\n\u001e\u0003\b\n%\"$\b\t \u0006\"&\u0007\b\t\n4! \u0003&\"!\u0006\u0007\b\t\n$\u0007/\u00075\u0017\u00186\u00077\u0007\u0011\u0018\u0011\u0015\u000712\n8\n\u000b\f\b\r\t\u000e\n\nPS/PHYSICS\nP.S./PHYSICS\nPrinted on Recycled Paper",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "81\u201382 Calculate the wavelength of the light ray in air. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and diagram below and on your knowledge\nof physics.\nA ray of light with a frequency of 5.09 \u00d7 1014 hertz traveling in medium X is refracted at point P.\nThe angle of refraction is 90.\u00b0, as represented in the diagram.\n81\u201382 Calculate the wavelength of the light ray in air. [Show all work, including the equation and\nsubstitution with units.]   [2]\n83 Measure the angle of incidence for the light ray incident at point P and record the value in your\nanswer booklet.   [1]\n84\u201385 Calculate the absolute index of refraction for medium X. [Show all work, including the equation and\nsubstitution with units.]   [2]\n\u000f\"&\u0003#\r\u0007,\n\u001e\u0003\b\n%\"$\b\t \u0006\"&\u0007\b\t\n4! \u0003&\"!\u0006\u0007\b\t\n$\u0007/\u00075\u0017\u00186\u00077\u0007\u0011\u0018\u0011\u0015\u000712\n8\n\u000b\f\b\r\t\u000e\n\nPS/PHYSICS\nP.S./PHYSICS\nPrinted on Recycled Paper",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Measure the angle of incidence for the light ray incident at point P and record the value in your answer booklet.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and diagram below and on your knowledge\nof physics.\nA ray of light with a frequency of 5.09 \u00d7 1014 hertz traveling in medium X is refracted at point P.\nThe angle of refraction is 90.\u00b0, as represented in the diagram.\n81\u201382 Calculate the wavelength of the light ray in air. [Show all work, including the equation and\nsubstitution with units.]   [2]\n83 Measure the angle of incidence for the light ray incident at point P and record the value in your\nanswer booklet.   [1]\n84\u201385 Calculate the absolute index of refraction for medium X. [Show all work, including the equation and\nsubstitution with units.]   [2]\n\u000f\"&\u0003#\r\u0007,\n\u001e\u0003\b\n%\"$\b\t \u0006\"&\u0007\b\t\n4! \u0003&\"!\u0006\u0007\b\t\n$\u0007/\u00075\u0017\u00186\u00077\u0007\u0011\u0018\u0011\u0015\u000712\n8\n\u000b\f\b\r\t\u000e\n\nPS/PHYSICS\nP.S./PHYSICS\nPrinted on Recycled Paper",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and diagram below and on your knowledge\nof physics.\nA ray of light with a frequency of 5.09 \u00d7 1014 hertz traveling in medium X is refracted at point P.\nThe angle of refraction is 90.\u00b0, as represented in the diagram.\n81\u201382 Calculate the wavelength of the light ray in air. [Show all work, including the equation and\nsubstitution with units.]   [2]\n83 Measure the angle of incidence for the light ray incident at point P and record the value in your\nanswer booklet.   [1]\n84\u201385 Calculate the absolute index of refraction for medium X. [Show all work, including the equation and\nsubstitution with units.]   [2]\n\u000f\"&\u0003#\r\u0007,\n\u001e\u0003\b\n%\"$\b\t \u0006\"&\u0007\b\t\n4! \u0003&\"!\u0006\u0007\b\t\n$\u0007/\u00075\u0017\u00186\u00077\u0007\u0011\u0018\u0011\u0015\u000712\n8\n\u000b\f\b\r\t\u000e\n\nPS/PHYSICS\nP.S./PHYSICS\nPrinted on Recycled Paper",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "84\u201385 Calculate the absolute index of refraction for medium X. [Show all work, including the equation and substitution with units.] \u000f\"&\u0003# \u0007, \u0003\b %\"$\b \u0006\"&\u0007\b 4! \u0003&\"!\u0006\u0007\b $\u0007/\u00075\u0017\u00186\u00077\u0007\u0011\u0018\u0011\u0015\u000712 8 \b \u000e PS/PHYSICS P.S./PHYSICS Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/physics/june-2017/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and diagram below and on your knowledge\nof physics.\nA ray of light with a frequency of 5.09 \u00d7 1014 hertz traveling in medium X is refracted at point P.\nThe angle of refraction is 90.\u00b0, as represented in the diagram.\n81\u201382 Calculate the wavelength of the light ray in air. [Show all work, including the equation and\nsubstitution with units.]   [2]\n83 Measure the angle of incidence for the light ray incident at point P and record the value in your\nanswer booklet.   [1]\n84\u201385 Calculate the absolute index of refraction for medium X. [Show all work, including the equation and\nsubstitution with units.]   [2]\n\u000f\"&\u0003#\r\u0007,\n\u001e\u0003\b\n%\"$\b\t \u0006\"&\u0007\b\t\n4! \u0003&\"!\u0006\u0007\b\t\n$\u0007/\u00075\u0017\u00186\u00077\u0007\u0011\u0018\u0011\u0015\u000712\n8\n\u000b\f\b\r\t\u000e\n\nPS/PHYSICS\nP.S./PHYSICS\nPrinted on Recycled Paper",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -1,0 +1,1111 @@
+{
+  "subject": "living-environment",
+  "session": "june-2021",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The respiratory system of an elephant functions in a similar way to which organelle in a single- celled organism?",
+      "choices": [
+        "cell membrane",
+        "nucleus",
+        "vacuole",
+        "chloroplast"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The carrying capacity of an environment may be decreased by",
+      "choices": [
+        "maintaining biodiversity",
+        "replacing lost minerals",
+        "removing dead organisms",
+        "preventing deforestation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The offspring of a species of bird known as the European roller possess an effective defense mechanism. When they sense a threat by predators, the young birds vomit and cover themselves with a foul-smelling liquid. European roller Source: http:/www.hbw.com/species/ Which two systems work together to alert the young birds of danger and help produce the vomit?",
+      "choices": [
+        "respiratory and excretory",
+        "circulatory and immune",
+        "nervous and digestive",
+        "reproductive and muscular"
+      ],
+      "image": "/images/exams/living-environment/june-2021/q3.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "A decrease in the biodiversity of an ecosystem usually leads to",
+      "choices": [
+        "an increase in predator and prey populations",
+        "the elimination of material cycling",
+        "a decrease in stability",
+        "an increase in dynamic equilibrium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Down syndrome occurs when an individual has an extra copy of chromosome 21. This additional genetic material alters development and results in Down syndrome. This genetic abnormality is an example of",
+      "choices": [
+        "a mutation",
+        "fertilization",
+        "a substitution",
+        "differentiation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Most of the reactions by which energy from carbohydrates is released for use by the cell take place within the",
+      "choices": [
+        "mitochondria",
+        "nuclei",
+        "ribosomes",
+        "vacuoles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which human activity best represents a method for recycling nutrients?",
+      "choices": [
+        "mixing lawn clippings with vegetable waste to produce compost used to fertilize gardens",
+        "raking and bagging lawn clippings in plastic bags for disposal in land\ufb01 lls",
+        "collecting lawn and garden wastes for burning",
+        "clearing a forested area to provide open land for cattle"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Rabbit populations vary in size over time. An increase in which factor would likely prevent the rabbit population from steadily increasing?",
+      "choices": [
+        "food",
+        "mates",
+        "predators",
+        "prey"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The diagrams below represent two reproductive processes used by different organisms. Process A Nucleus + Nucleus Bud Process B (Not drawn to scale) When compared to organisms that utilize process A, organisms that utilize process B would most likely produce offspring with",
+      "choices": [
+        "a greater variety of genetic combinations",
+        "fewer genetic differences",
+        "more genetic combinations",
+        "more DNA within each nucleus"
+      ],
+      "image": "/images/exams/living-environment/june-2021/q9.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A weightlifter has spent years building his muscular strength. His newborn daughter has normal strength for a baby. Which statement best explains this situation?",
+      "choices": [
+        "A daughter inherits most of her traits from her mother. The daughter\u2019s muscles are unlikely to resemble her father\u2019s.",
+        "The weightlifter\u2019s wife probably did not lift weights. Both parents must have this trait before the baby can inherit it.",
+        "Babies do not have strong muscles. The daughter\u2019s muscles will be unusually strong in a few more months.",
+        "The weightlifter\u2019s highly developed muscles resulted from exercise. A characteristic such as this will not be inherited."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "When it is disturbed, the bombardier beetle is able to produce and release a hot spray of irritating chemicals from the end of its body, as shown in the photo below. As a result, most animals that have experienced this defense avoid the beetles in the future. Source:http://www.bbc.com/news/uk-england-leeds-11959381 The beetle\u2019s defense mechanism has developed as a result of",
+      "choices": [
+        "the need for an effective protection against its enemies",
+        "competition with its predators",
+        "natural selection over many generations",
+        "ecological succession over hundreds of years"
+      ],
+      "image": "/images/exams/living-environment/june-2021/q11.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Rejection of a newly transplanted organ is caused by",
+      "choices": [
+        "the immune system reacting to the presence of the organ",
+        "antibiotics that stimulate the immune system to attack the organ",
+        "inheritance of genetic disorders from infected individuals",
+        "development of cancerous cells in the organ"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "One of the largest and oldest organisms on Earth is located in Fishlake National Forest in Utah. Pando is an 80,000-year-old grove of aspen trees that covers 100 acres. Although it looks like a forest, DNA analysis of several of the \u201ctrees\u201d has con\ufb01 rmed it is really just one huge organism. Therefore, the \u201ctrees\u201d must have been reproduced",
+      "choices": [
+        "sexually and have genetic variability",
+        "asexually and have genetic variability",
+        "sexually and are genetically identical",
+        "asexually and are genetically identical Living Environment\u2013v202"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "A female giraffe has 62 chromosomes in each of her skin cells. How many chromosomes will be in the skin cells of her offspring?",
+      "choices": [
+        "124",
+        "62",
+        "31",
+        "30"
+      ],
+      "image": "/images/exams/living-environment/june-2021/q14.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Many female mammals, such as dogs, give birth to litters consisting of multiple offspring. All of the characteristics described below are reproductive adaptations that female dogs have for giving birth and caring for several offspring at once, except",
+      "choices": [
+        "a specialized structure for internal development of several young",
+        "several pairs of mammary glands that provide milk for their pups",
+        "ovaries capable of releasing many gametes at one time for fertilization",
+        "a pancreas that produces excess insulin to trigger the release of eggs"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "As blood glucose levels increase, hormones are released to return glucose levels to normal. This is an example of",
+      "choices": [
+        "a nervous system disorder",
+        "the synthesis of antibodies",
+        "a stimulus and a response",
+        "an antigen and antibody reaction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "BRCA genes are human genes that normally work to help shut down cancer cells before they can harm the body. Scientists have learned that individuals inheriting a damaged form of a BRCA gene are at greater risk of developing breast or ovarian cancer. This discovery is an important \ufb01 rst step in",
+      "choices": [
+        "preventing the uncontrolled meiotic division of cells in humans",
+        "identifying individuals at risk and recommending preventive treatment",
+        "being able to detect all the genes that regulate meiosis",
+        "helping to eliminate all BRCA genes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "In humans, embryonic development during the \ufb01 rst two months is more sensitive to environmental factors than during the remaining months. The best explanation for this statement is that",
+      "choices": [
+        "during the \ufb01 rst two months, organs are being formed and any unusual change during cell division can interfere with normal development",
+        "the genes that control development function only during the \ufb01 rst two months of development",
+        "no changes occur in a developing fetus after the second month",
+        "organ development is not affected by environmental factors after the second month"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Gene editing can be used to swap out an unwanted gene for a desirable one from the same species. Which statement best explains why the desired gene will be found in all cells that come from the genetically edited cell?",
+      "choices": [
+        "The original cell will reproduce by meiosis and a mutation will occur.",
+        "The altered DNA in the edited cell will be replicated and passed on to each new cell during mitosis.",
+        "DNA replication in body cells will result in sperm and egg cells with the edited gene.",
+        "The desired gene will be inserted into each new cell by using restriction enzymes. Living Environment\u2013v202"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which sequence of events best represents ecological succession?",
+      "choices": [
+        "A squirrel eats acorns, and a hawk eats the squirrel.",
+        "Grass grows on a sand dune and is slowly replaced by shrubs.",
+        "After many years of planting corn in the same \ufb01 eld, minerals present in the soil are used up.",
+        "The decomposition of plant material releases nutrients, and other plants use these nutrients."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which human activity has the potential to greatly affect the equilibrium of an ecosystem?",
+      "choices": [
+        "cutting down a few small evergreen trees and using them to make holiday decorations",
+        "mowing the playing \ufb01 elds in a city park",
+        "washing a car with a detergent-based cleaner",
+        "emptying an aquarium containing many nonnative \ufb01 sh of several species into a local lake"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which statement describes a failure of homeostasis in humans?",
+      "choices": [
+        "When activity in an individual increases, the body temperature rises and the individual sweats.",
+        "As the concentration of carbon dioxide increases in the human body, the lungs begin to expel more carbon dioxide.",
+        "A viral infection leads to a decrease in the number of white blood cells being produced in the body.",
+        "After an individual gets a cut, certain chemical changes begin the healing process."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Some environmental engineering companies have recently designed \u201cmanufactured wetlands\u201d to serve as natural sewage treatment plants. Utilizing the ability of wetland organisms to reduce human wastes makes use of naturally occurring",
+      "choices": [
+        "nutrient cycles",
+        "energy cycles",
+        "limiting factors",
+        "\ufb01 nite resources"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A hummingbird may need to consume up to 50% of its body weight in sugar each day, just to meet its energy needs. Some of this energy is stored and some is used for metabolic activities, but much of the energy is",
+      "choices": [
+        "converted into amino acids needed for the production of starch",
+        "released as heat energy back into the hummingbird\u2019s environment",
+        "changed into radiant energy, which can be used by plants for photosynthesis",
+        "used to synthesize inorganic compounds necessary for cellular respiration"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Sustainable development occurs when people use their resources without depleting them. Which human activity is the best example of sustainable development?",
+      "choices": [
+        "draining a wetland to build houses",
+        "loggers planting a tree for each one cut down",
+        "using nets to quickly capture large numbers of \ufb01 sh",
+        "building coal-burning power plants to provide electricity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Ringworm is a skin infection common among school-aged children. Although the name suggests that a worm causes the disease, it is actually caused by a fungus that lives and feeds on the dead outer layer of the skin. The relationship between ringworm and humans can be described as",
+      "choices": [
+        "predator/prey",
+        "predator/host",
+        "parasite/prey",
+        "parasite/host"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Genetically identical yarrow plants were grown at different altitudes. Even though their genetic makeup was identical, the plants grew to different heights. One likely explanation for the different heights of the plants at each altitude is that",
+      "choices": [
+        "gene expression was in\ufb02 uenced by the environment",
+        "genes mutated when the plants were grown at higher elevations",
+        "chromosomes increased in number with elevation change",
+        "the sequence of DNA bases was altered at different altitudes Living Environment\u2013v202"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which biological process is represented in the diagram below? Green plant cell Food Oxygen ATP produced Carbon dioxide + Water",
+      "choices": [
+        "photosynthesis",
+        "respiration",
+        "digestion",
+        "replication"
+      ],
+      "image": "/images/exams/living-environment/june-2021/q28.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The diagram below shows specialized plant cells that control openings called stomates. Stomate (opening) Specialized cells The proper function of these cells is vital to the survival of the plant because they regulate the",
+      "choices": [
+        "rate of glucose use by root cells",
+        "absorption of sunlight by leaf cells",
+        "products of photosynthesis in the stem",
+        "exchange of gases in leaves"
+      ],
+      "image": "/images/exams/living-environment/june-2021/q29.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Substance X directly supplies energy for various life functions, as shown in the diagram below. Transmits chemical signals Muscle contraction Eliminates wastes Transforms materials for use X Which substance is represented by X in the diagram?",
+      "choices": [
+        "ATP",
+        "DNA",
+        "starch",
+        "glucose Living Environment\u2013v202"
+      ],
+      "image": "/images/exams/living-environment/june-2021/q30.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The most likely reason for the differences in plant growth in the different pots was",
+      "choices": [
+        "cyclic changes in the plants\u2019 ecosystems",
+        "ecological succession over time",
+        "the amount of light available for each setup",
+        "competition for resources in each setup"
+      ],
+      "image": "/images/exams/living-environment/june-2021/context_31_33.png",
+      "context": "Base your answers to questions 31 through 33 on the information below and on your knowledge of biology.\nA student set up an experiment to test the effect of the number of seedlings planted in \none pot on the rate of growth. All conditions in the experiment were the same, except for the \nnumber of plants in each pot. The results are shown in the graph below.\n0\n0\n10\n20\n30\n40\n50\n60\n10\n20\nTime (days)\nSource: Adapted from http://science.halleyhosting.com/sci/soph/scimethod/q/q1/q9.htmthod\nPlant Growth\nAverage Plant Growth (cm)\n30\n40\nPlant growth (cm) -   5 plants per pot\nPlant growth (cm) - 10 plants per pot\nPlant growth (cm) - 15 plants per pot\nPlant growth (cm) - 20 plants per pot\nKey",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "According to the graph, which statement is true concerning the growth of the plants?",
+      "choices": [
+        "The plants in the pot with only 5 plants grew to be an average of 40 cm tall in 30 days.",
+        "The plants in the pot with only 10 plants grew to be an average of 30 cm tall in 20 days.",
+        "The plants in the pot with 15 plants grew an average of 20 cm taller after a period of 10 days.",
+        "The plants in the pot with 20 plants grew an average of 20 cm taller after a period of 40 days."
+      ],
+      "image": "/images/exams/living-environment/june-2021/context_31_33.png",
+      "context": "Base your answers to questions 31 through 33 on the information below and on your knowledge of biology.\nA student set up an experiment to test the effect of the number of seedlings planted in \none pot on the rate of growth. All conditions in the experiment were the same, except for the \nnumber of plants in each pot. The results are shown in the graph below.\n0\n0\n10\n20\n30\n40\n50\n60\n10\n20\nTime (days)\nSource: Adapted from http://science.halleyhosting.com/sci/soph/scimethod/q/q1/q9.htmthod\nPlant Growth\nAverage Plant Growth (cm)\n30\n40\nPlant growth (cm) -   5 plants per pot\nPlant growth (cm) - 10 plants per pot\nPlant growth (cm) - 15 plants per pot\nPlant growth (cm) - 20 plants per pot\nKey",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The dependent variable for this experiment was",
+      "choices": [
+        "the number of plants per pot",
+        "time in days",
+        "average plant growth",
+        "the amount of water per pot"
+      ],
+      "image": "/images/exams/living-environment/june-2021/context_31_33.png",
+      "context": "Base your answers to questions 31 through 33 on the information below and on your knowledge of biology.\nA student set up an experiment to test the effect of the number of seedlings planted in \none pot on the rate of growth. All conditions in the experiment were the same, except for the \nnumber of plants in each pot. The results are shown in the graph below.\n0\n0\n10\n20\n30\n40\n50\n60\n10\n20\nTime (days)\nSource: Adapted from http://science.halleyhosting.com/sci/soph/scimethod/q/q1/q9.htmthod\nPlant Growth\nAverage Plant Growth (cm)\n30\n40\nPlant growth (cm) -   5 plants per pot\nPlant growth (cm) - 10 plants per pot\nPlant growth (cm) - 15 plants per pot\nPlant growth (cm) - 20 plants per pot\nKey",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which statement correctly identi\ufb01 es a possible role of one organism in this ecosystem?",
+      "choices": [
+        "Species A may carry out autotrophic nutrition.",
+        "Species B may be a producer that synthesizes nutrients.",
+        "Species C carries out heterotrophic nutrition.",
+        "Species D can recycle energy from the Sun."
+      ],
+      "image": "/images/exams/living-environment/june-2021/context_34_35.png",
+      "context": "Base your answers to questions 34 and 35 on the diagram below and on your knowledge of biology. The\ndiagram represents interactions between organisms in an ecosystem.\nSpecies\nE\nSpecies\nD\nSpecies\nC\nSpecies\nB\nSpecies\nA",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which statement correctly describes an interaction that contributes to the stability of this ecosystem?",
+      "choices": [
+        "Species E is not affected by the activity of species A.",
+        "Species B returns compounds to the environment that may later be used by species C.",
+        "Species C recycles nutrients from species B and D to obtain energy.",
+        "Species D is directly dependent on the autotrophic activity of species B. Living Environment\u2013v202"
+      ],
+      "image": "/images/exams/living-environment/june-2021/context_34_35.png",
+      "context": "Base your answers to questions 34 and 35 on the diagram below and on your knowledge of biology. The\ndiagram represents interactions between organisms in an ecosystem.\nSpecies\nE\nSpecies\nD\nSpecies\nC\nSpecies\nB\nSpecies\nA",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Although the Venus \ufb02 ytrap uses its prey to obtain certain molecules that it needs, it is still classi\ufb01 ed as a producer because it",
+      "choices": [
+        "uses its prey to produce food",
+        "consumes the prey to produce energy",
+        "synthesizes energy by using oxygen and releasing carbon dioxide",
+        "synthesizes glucose by using carbon dioxide and water"
+      ],
+      "image": "/images/exams/living-environment/june-2021/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the information below and on your knowledge of biology.\nThe Venus \ufb02 ytrap is a plant that uses specialized leaves in order to capture and digest \nsmall insects.\nSource: https://www.britannica.com/plant/Venus-flytrap",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Enzymes secreted by cells in the leaves of the Venus \ufb02 ytrap can digest",
+      "choices": [
+        "proteins into amino acids",
+        "sugars into starches",
+        "amino acids into fats",
+        "proteins into sugars Living Environment\u2013v202"
+      ],
+      "image": "/images/exams/living-environment/june-2021/context_36_37.png",
+      "context": "Base your answers to questions 36 and 37 on the information below and on your knowledge of biology.\nThe Venus \ufb02 ytrap is a plant that uses specialized leaves in order to capture and digest \nsmall insects.\nSource: https://www.britannica.com/plant/Venus-flytrap",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which choice represents a possible hypothesis for Marshall\u2019s experiment?",
+      "choices": [
+        "Does Helicobacter pylori cause stomach ulcers in people?",
+        "If a person takes an antibody, then they will not develop an ulcer.",
+        "Does exposure to infectious bacterial cells make people sick?",
+        "If a patient is infected by Helicobacter pylori, then they will get an ulcer."
+      ],
+      "image": null,
+      "context": "Base your answers to questions 38 and 39 on the information below and on your knowledge of biology.\nUlcers: Mystery Solved\nStomach ulcers are painful sores that develop in the stomach. Doctors once thought \nthat ulcers were caused by stress. In the 1980s, a pair of physicians, Barry J. Marshall and J. \nRobin Warren, questioned the cause of ulcers. They found the bacterium Helicobacter pylori \nin the ulcer tissue of their patients. Even though they repeatedly presented their \ufb01 ndings \nto colleagues, they were ignored until Marshall performed an astonishing experiment: He \ndrank broth containing the bacteria and made himself sick with an ulcer! He then cured \nhimself by taking an antibiotic.\nThe results were published in 1985, but it took another 10 years for doctors to regularly \nuse antibiotics to treat ulcers. Marshall and Warren received a Nobel Prize in 2005 for this \ndiscovery.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The work of Marshall and Warren shows that",
+      "choices": [
+        "hypotheses made by physicians are always correct",
+        "scienti\ufb01 c explanations are revised based on new evidence",
+        "peer review always leads to the immediate acceptance of results",
+        "conclusions must always be consistent with those made by other scientists Living Environment\u2013v202"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 38 and 39 on the information below and on your knowledge of biology.\nUlcers: Mystery Solved\nStomach ulcers are painful sores that develop in the stomach. Doctors once thought \nthat ulcers were caused by stress. In the 1980s, a pair of physicians, Barry J. Marshall and J. \nRobin Warren, questioned the cause of ulcers. They found the bacterium Helicobacter pylori \nin the ulcer tissue of their patients. Even though they repeatedly presented their \ufb01 ndings \nto colleagues, they were ignored until Marshall performed an astonishing experiment: He \ndrank broth containing the bacteria and made himself sick with an ulcer! He then cured \nhimself by taking an antibiotic.\nThe results were published in 1985, but it took another 10 years for doctors to regularly \nuse antibiotics to treat ulcers. Marshall and Warren received a Nobel Prize in 2005 for this \ndiscovery.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The structural formulas shown below represent parts of two different complex carbohydrate molecules composed of glucose subunits. Molecules 1 and 2 differ in their overall structure. CH2OH OH OH O O CH2OH OH OH O O CH2OH OH OH Molecule 1 Molecule 2 O O CH2OH OH OH O O CH2 OH OH O O CH2OH OH OH O O CH2OH OH OH O O CH2OH OH OH O O CH2OH OH OH O O CH2OH OH HO O O Source: Adapted from http://www.rsc.org/Education/Teachers/ Resources/cfb/carbohydrates.htm Due to the differences in structure, each of these molecules most likely",
+      "choices": [
+        "is composed of different molecular bases",
+        "forms a different protein",
+        "contains different elements",
+        "performs a different function"
+      ],
+      "image": "/images/exams/living-environment/june-2021/q40.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "To capture their prey, spiders have fangs, which pierce the body wall of insects and inject venom. Spider venoms usually contain speci\ufb01 c proteins that attack the cell membranes of the prey. The membranes and most of the contents of the insect\u2019s body turn into a liquid that the spider then ingests for food. Source: https://www.pest-control.com/ These speci\ufb01 c venom proteins are most likely",
+      "choices": [
+        "ATP molecules",
+        "DNA molecules",
+        "biological catalysts",
+        "regulatory hormones Living Environment\u2013v202"
+      ],
+      "image": "/images/exams/living-environment/june-2021/q41.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Lymphatic capillaries are found throughout the body. Both the lymphatic and circulatory systems transport substances between the bloodstream and body tissues. These two systems are also involved in \ufb01 ghting infections. Blood capillaries Source: Adapted from http://droualb.faculty.mjc.edu Lymphatic capillary Interstitial fluid Interstitial fluid Lymph The arrows shown in the diagram that go from the blood capillaries to the interstitial \ufb02 uid most likely represent the",
+      "choices": [
+        "release of red blood cells, so that they can diffuse into body cells and \ufb01 ght bacteria",
+        "movement of materials from the circulatory system that will eventually enter lymphatic capillaries",
+        "transport of digestive enzymes from the blood to help with the digestion of glucose in muscle cells",
+        "transport of glucose molecules from the blood to be used by cells to attack proteins and fats Living Environment\u2013v202"
+      ],
+      "image": "/images/exams/living-environment/june-2021/q42.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The graph below shows how the introduction of the opossum shrimp, as a food source for salmon, affected a lake ecosystem in Montana. Bald eagle Changes in Montana Lake Species Kokanee salmon (x1000) Bald eagles (x7) 150 50 0 1979 1981 1985 Year Number Introduction of opossum shrimp 1987 1989 100 Opossum shrimp (per m2) Source: Biology, 9th Ed. Sylvia Mader, McGraw-Hill, Boston, 2007, p.929 1983 Based on the data in this graph, one likely conclusion that can be made is that over approximately ten years",
+      "choices": [
+        "the lake ecosystem stabilized after the introduction of the new species",
+        "competition between organisms was reduced as more producers were introduced into the lake",
+        "more predators moved into the lake ecosystem once the opossum shrimp were added",
+        "the introduction of the opossum shrimp into the lake ecosystem disrupted the food webs that were present Living Environment\u2013v202"
+      ],
+      "image": "/images/exams/living-environment/june-2021/q43.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nPeregrine falcons are an endangered species in New York State. This crow-sized \npredator feeds primarily on birds. Starting in the 1940s, exposure to the pesticide DDT \nin their prey caused declines in the peregrine falcon population. These pesticides caused \neggshell thinning, which drastically lowered breeding success. By the early 1960s, peregrine \nfalcons no longer nested in New York State. After the United States banned DDT in 1972, \nefforts were made to reintroduce peregrine falcons into the Northeast. Since the 1980s, the \nperegrine falcons are once again breeding in many areas of New York State.\nSource: http://www.dailymail.co.uk/news/article-1018309/Peregrine\n-falcons-return-breed-time-200-years.html\nThe table below shows the number of peregrine falcon offspring produced in New York State over a \n20-year period.\nNumber of Peregrine Falcon Offspring \nProduced in New York State From 1992 to 2012\nYear\nNumber of Offspring Produced\n1992\n30\n1996\n48\n2000\n75\n2004\n79\n2008\n129\n2012\n148\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013v202 \n[15] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for marking an appropriate scale on the grid provided, without any breaks in the data, on each labeled axis. Note: Do not allow credit if the grid is altered to accommodate the scale."
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data on the grid. Connect the points and surround each point with a small circle. Example: Number of Young Produced Years Number of Peregrine Falcon Offspring Produced in New York State from 1992-2012",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nPeregrine falcons are an endangered species in New York State. This crow-sized \npredator feeds primarily on birds. Starting in the 1940s, exposure to the pesticide DDT \nin their prey caused declines in the peregrine falcon population. These pesticides caused \neggshell thinning, which drastically lowered breeding success. By the early 1960s, peregrine \nfalcons no longer nested in New York State. After the United States banned DDT in 1972, \nefforts were made to reintroduce peregrine falcons into the Northeast. Since the 1980s, the \nperegrine falcons are once again breeding in many areas of New York State.\nSource: http://www.dailymail.co.uk/news/article-1018309/Peregrine\n-falcons-return-breed-time-200-years.html\nThe table below shows the number of peregrine falcon offspring produced in New York State over a \n20-year period.\nNumber of Peregrine Falcon Offspring \nProduced in New York State From 1992 to 2012\nYear\nNumber of Offspring Produced\n1992\n30\n1996\n48\n2000\n75\n2004\n79\n2008\n129\n2012\n148\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013v202 \n[15] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly plotting the data and connecting the points and surrounding each point with a small circle. Example of a 2-credit graph for questions 44-45: Note: Allow credit if the points are plotted correctly, but not circled. Do not assume that the intersection of the x- and y-axes is the origin (0,0) unless it is labeled. An appropriate scale only needs to include the data range in the data table. Do not allow credit if points are plotted that are not in the data table, e.g., (0,0), or for extending lines beyond the data points. 150 Number of Young Produced Years 20 30 40 50 60 70 80 90 100 110 120 130 140 160 1996 2000 2004 2008 2012 1992 Number of Peregrine Falcon Offspring Produced in New York State from 1992-2012 Living Environment Rating Guide \u2013 v202"
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Identify a body system in the falcon that was directly affected by DDT and led to the loss of nesting peregrine falcons from New York State in the early 1960s. Support your answer. Body system: Support:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nPeregrine falcons are an endangered species in New York State. This crow-sized \npredator feeds primarily on birds. Starting in the 1940s, exposure to the pesticide DDT \nin their prey caused declines in the peregrine falcon population. These pesticides caused \neggshell thinning, which drastically lowered breeding success. By the early 1960s, peregrine \nfalcons no longer nested in New York State. After the United States banned DDT in 1972, \nefforts were made to reintroduce peregrine falcons into the Northeast. Since the 1980s, the \nperegrine falcons are once again breeding in many areas of New York State.\nSource: http://www.dailymail.co.uk/news/article-1018309/Peregrine\n-falcons-return-breed-time-200-years.html\nThe table below shows the number of peregrine falcon offspring produced in New York State over a \n20-year period.\nNumber of Peregrine Falcon Offspring \nProduced in New York State From 1992 to 2012\nYear\nNumber of Offspring Produced\n1992\n30\n1996\n48\n2000\n75\n2004\n79\n2008\n129\n2012\n148\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013v202 \n[15] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying a body system in the falcon that was directly affected and led to the loss of nesting peregrine falcons from New York State in the early 1960s and supporting the answer. Acceptable responses include, but are not limited to: System: Reproductive Support: \u2014 Egg laying/egg shells are part of the reproduction of falcons. \u2014 The eggs had thin shells, which drastically lowered breeding success. \u2014 because it drastically lowered breeding success 47 MC on scoring key"
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which conclusion is best supported by the information presented in the graph?",
+      "choices": [
+        "The greatest decrease was during the time period of 1992 and 1996.",
+        "The greatest increase was during the time period of 2004 and 2008.",
+        "There has been a steady decline since the banning of DDT in 1972.",
+        "The population reached carrying capacity in 2004. Living Environment\u2013v202"
+      ],
+      "image": "/images/exams/living-environment/june-2021/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nPeregrine falcons are an endangered species in New York State. This crow-sized \npredator feeds primarily on birds. Starting in the 1940s, exposure to the pesticide DDT \nin their prey caused declines in the peregrine falcon population. These pesticides caused \neggshell thinning, which drastically lowered breeding success. By the early 1960s, peregrine \nfalcons no longer nested in New York State. After the United States banned DDT in 1972, \nefforts were made to reintroduce peregrine falcons into the Northeast. Since the 1980s, the \nperegrine falcons are once again breeding in many areas of New York State.\nSource: http://www.dailymail.co.uk/news/article-1018309/Peregrine\n-falcons-return-breed-time-200-years.html\nThe table below shows the number of peregrine falcon offspring produced in New York State over a \n20-year period.\nNumber of Peregrine Falcon Offspring \nProduced in New York State From 1992 to 2012\nYear\nNumber of Offspring Produced\n1992\n30\n1996\n48\n2000\n75\n2004\n79\n2008\n129\n2012\n148\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013v202 \n[15] \n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Explain why the results of this study may indicate one disadvantage of using antibiotics to \ufb01 ght infections.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 48 and 49 on the information below and on your knowledge of biology.\nA scientist added an antibiotic to a Petri dish containing bacterial colonies. A day later, the \nscientist noticed that many colonies had died, but a few remained. The scientist continued \nto observe the dish and noted that, eventually, the remaining colonies of bacteria increased \nin size.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The antibiotics a person receives may not kill all of the bacteria causing the infection. \u2014 The overuse of antibiotics may cause antibiotics to become ineffective. \u2014 If bacteria develop a resistance to an antibiotic, the antibiotic will be less effective for humans infected by the bacteria. \u2014 The bacteria may develop an immunity to the antibiotic. 49 MC on scoring key 50 MC on scoring key"
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The survival of some bacterial colonies was most likely due to",
+      "choices": [
+        "the bacterial cells changing so that they could live",
+        "a resistance to the antibiotic",
+        "meiotic cell division in the bacteria",
+        "a DNA change caused by the antibiotic"
+      ],
+      "image": "/images/exams/living-environment/june-2021/q49.png",
+      "context": "Base your answers to questions 48 and 49 on the information below and on your knowledge of biology.\nA scientist added an antibiotic to a Petri dish containing bacterial colonies. A day later, the \nscientist noticed that many colonies had died, but a few remained. The scientist continued \nto observe the dish and noted that, eventually, the remaining colonies of bacteria increased \nin size.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "One likely reason that the gray tree frog occupies a larger environmental area than the green tree frog is that the gray tree frog species",
+      "choices": [
+        "eats only prey found in central areas in the United States",
+        "is adapted to live in any environment in the United States",
+        "has adaptations that enable survival in a wider variety of habitats",
+        "outcompetes the green tree frogs in Florida and any state where they both live"
+      ],
+      "image": "/images/exams/living-environment/june-2021/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the information below and on your knowledge of biology. \nThe diagrams below provide information about two separate species of tree frogs found \nin the United States. The shaded areas represent the habitats of each of the two species.\nGray Tree Frogs\nGreen Tree Frogs\nSource: Adapted from Roger Conant and Joseph T Collins. 1998. A Field Guide to Reptiles & Amphibians \nof Eastern & Central North America (Peterson Field Guide Series).\nTree Frogs of the United States\n\n Living Environment\u2013v202 \n[17] \n[OVER]\n \nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify a biological process that led to the presence of 90 different species of frogs throughout the United States. Support your answer. Biological process:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the information below and on your knowledge of biology. \nThe diagrams below provide information about two separate species of tree frogs found \nin the United States. The shaded areas represent the habitats of each of the two species.\nGray Tree Frogs\nGreen Tree Frogs\nSource: Adapted from Roger Conant and Joseph T Collins. 1998. A Field Guide to Reptiles & Amphibians \nof Eastern & Central North America (Peterson Field Guide Series).\nTree Frogs of the United States\n\n Living Environment\u2013v202 \n[17] \n[OVER]\n \nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying a biological process that led to the presence of 90 different species of frogs throughout the United States and supporting the answer. Acceptable responses include, but are not limited to: Biological Process: Sexual reproduction/genetic recombination Support: This results in the production of offspring with many variations that can lead to evolution of new species. Biological Process: Natural selection/evolution Support: Some frogs are better able to survive in certain environments, reproduce, and pass on their traits, eventually resulting in a new species. Biological Process: Mutations Support: Certain mutations make the frogs better fit to their environments. They survive and pass on the new traits to their offspring. Biological Process: Survival of the fittest/adaptation Support: Some frogs have characteristics that make them more fit/better adapted to certain environments. They pass these on to their offspring. Living Environment Rating Guide \u2013 v202"
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Select one of the lettered parts from the diagram. Circle the letter of the part that you selected, and identify the part. State how a malfunction in the structure that you identi\ufb01 ed could interfere with an individual\u2019s ability to reproduce. Part selected (circle one) A B C Identi\ufb01 cation: Explanation: Living Environment\u2013v202",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_52_52.png",
+      "context": "Base your answer to question 52 on the information below and on your knowledge of biology. The diagram \nbelow represents the human female reproductive system.\nB\nA\nC",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Part A: Oviducts/fallopian tube: \u2014 Fertilization might not occur. \u2014 Eggs will not be able to get to the uterus. Part B: Ovary: \u2014 Eggs might not be produced. \u2014 Hormones that regulate the menstrual cycle might not be synthesized. Part C: Uterus: \u2014 The embryo/placenta might not implant. \u2014 The fetus may not be able to develop."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "The diagram below represents a cell nucleus. Complete the diagram so that it shows the arrangement of the genetic material in the two new cells that are produced by mitosis. Mitotic cell division New cell nuclei Original cell nucleus",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/q53.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for completing the diagram as shown below."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Sometimes a hypothesis is not supported. Yet, scientists consider the \ufb01 ndings valuable. State one reason scientists would value an experiment that does not support the initial hypothesis.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 It helps scientists design new experiments or new hypotheses. \u2014 The new information can be used for future investigations. \u2014 An unsupported hypothesis provides scientists with information that is important to under- standing the scientific concepts being studied. \u2014 It tells scientists they are incorrect."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "The sequence below represents different organizational levels within the human body, from the simplest to more complex. Complete the sequence by correctly \ufb01 lling in the missing levels. organelles \u2192 ________________ \u2192 tissues \u2192 ________________ \u2192 organ systems \u2192 organism Living Environment\u2013v202",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for completing the diagram as shown below. organelles \u2192 cells \u2192 tissues \u2192 organs \u2192 organ systems \u2192 organism or Living Environment Rating Guide \u2013 v202 Part C"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Explain how a reduction in phytoplankton can lead to a reduction in \ufb01 sh populations in the Indian Ocean.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the passage below and on your knowledge of biology.\nIndian Ocean Ecosystem in Danger\nThe Indian Ocean is under increasing environmental pressures. Until recently, this \nocean was considered to have the least ecologically disrupted coastline. However, as the \nsurface water temperatures have increased, there has been a reduction in the phytoplankton \npopulation (microscopic producers). This reduction in phytoplankton has been linked to a \ndecline in some \ufb01 sh populations.\nAlso affecting the \ufb01 sh populations is the urbanization of coastal areas. As the human \npopulation grows in this area, more of the coastline region is being developed. In addition, \nthe mining of natural resources has led to oil spills, the destruction of mangrove forests, and \nan increase in the area\u2019s acidity level.\nCountries along the coast are trying to encourage development while, at the same time, \ntrying to maintain a healthy coastal ecosystem.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Phytoplankton is the beginning of the food chain/web in the ocean. \u2014 If the amount of phytoplankton decreases in the ocean, there will be less food/oxygen available for the fish. \u2014 Producers provide energy for all the other organisms in the ocean. A reduction in the number of producers will lead to a reduction in the number of fish. \u2014 It disrupts the stability of the ecosystem because there is less food for the fish. \u2014 It would lead to more competition for food."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Describe how one speci\ufb01 c human activity mentioned in the passage could negatively affect the Indian Ocean ecosystem. Human activity:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the passage below and on your knowledge of biology.\nIndian Ocean Ecosystem in Danger\nThe Indian Ocean is under increasing environmental pressures. Until recently, this \nocean was considered to have the least ecologically disrupted coastline. However, as the \nsurface water temperatures have increased, there has been a reduction in the phytoplankton \npopulation (microscopic producers). This reduction in phytoplankton has been linked to a \ndecline in some \ufb01 sh populations.\nAlso affecting the \ufb01 sh populations is the urbanization of coastal areas. As the human \npopulation grows in this area, more of the coastline region is being developed. In addition, \nthe mining of natural resources has led to oil spills, the destruction of mangrove forests, and \nan increase in the area\u2019s acidity level.\nCountries along the coast are trying to encourage development while, at the same time, \ntrying to maintain a healthy coastal ecosystem.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Human Activity: Urbanization/coastline development \u2014 As towns develop, land is taken away from the organisms that live along the coast. Human Activity: Mining of natural resources \u2014 This could deplete natural resources and/or increase the acidity of the ocean. Human Activity: Oil spills \u2014 Oil spills from mining or transportation can kill plants and animals in the area, upsetting food webs. Human Activity: Destruction of mangrove forest/deforestation \u2014 Deforestation decreases photosynthesis/increases CO2 levels. \u2014 Deforestation removes animal habitats. Note: Do not allow credit for just \u201can increase in the acidity level.\u201d It is the result of human activity, not a human activity."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "State one speci\ufb01 c reason why it is important to maintain a healthy ecosystem in the Indian Ocean.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the passage below and on your knowledge of biology.\nIndian Ocean Ecosystem in Danger\nThe Indian Ocean is under increasing environmental pressures. Until recently, this \nocean was considered to have the least ecologically disrupted coastline. However, as the \nsurface water temperatures have increased, there has been a reduction in the phytoplankton \npopulation (microscopic producers). This reduction in phytoplankton has been linked to a \ndecline in some \ufb01 sh populations.\nAlso affecting the \ufb01 sh populations is the urbanization of coastal areas. As the human \npopulation grows in this area, more of the coastline region is being developed. In addition, \nthe mining of natural resources has led to oil spills, the destruction of mangrove forests, and \nan increase in the area\u2019s acidity level.\nCountries along the coast are trying to encourage development while, at the same time, \ntrying to maintain a healthy coastal ecosystem.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The Indian Ocean provides food for a large number of people. \u2014 The more biodiversity in the ocean, the healthier/more stable it will be. \u2014 If all the resources in the ocean are used/greatly reduced, there won\u2019t be enough food or other ocean resources for future generations."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "State one way that the presence of water chestnut plants affects the other organisms in the freshwater ecosystem. Living Environment\u2013v202",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the photo and reading passage below, and on your \nknowledge of biology.\nInvasive Water Chestnuts Challenge Environmentalists\nEnvironmental scientists are troubled by the rapid spread of the water chestnut plant. \nThis invasive plant is a freshwater species with leaves that blanket the surface of water. The \nleaves grow so densely, they stop people from swimming and prevent boats from moving.\nInvasive water chestnut leaves prevent 95% of the sunlight from reaching the water \nbelow. Local animals and insects cannot eat this plant. New York ecosystems infested by the \nwater chestnut are quickly disrupted. Water chestnut seeds can survive more than ten years \nunder water in the sediments.\nThe most effective way to kill the water chestnut is to pull out each plant by hand. This \ncan be done in a small pond, but for rivers and lakes that are blocked by huge numbers of \nwater chestnut plants, other methods are needed. Chemical herbicides kill the leaves, but, \nafter several weeks, the water chestnut plants grow back. Large machines have been used to \nclear these plants and seeds from the water and sediments of ecosystems, but the machines \nremove many other organisms too.\nWater chestnut\nseed\n Source: estuarylive.pbworks.com",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The water chestnut blocks out the light, so other plants die out because they can\u2019t compete. \u2014 There is less food for animals and insects. \u2014 The local food web is disrupted. \u2014 The plant blocks 95% of the sunlight. Living Environment Rating Guide \u2013 v202"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Some scientists recommend bringing in biological controls, such as introducing a new species of insect to eat the water chestnut leaves and stop its growth. State one advantage and one disadvantage of using biological controls in this situation. Advantage: Disadvantage:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the photo and reading passage below, and on your \nknowledge of biology.\nInvasive Water Chestnuts Challenge Environmentalists\nEnvironmental scientists are troubled by the rapid spread of the water chestnut plant. \nThis invasive plant is a freshwater species with leaves that blanket the surface of water. The \nleaves grow so densely, they stop people from swimming and prevent boats from moving.\nInvasive water chestnut leaves prevent 95% of the sunlight from reaching the water \nbelow. Local animals and insects cannot eat this plant. New York ecosystems infested by the \nwater chestnut are quickly disrupted. Water chestnut seeds can survive more than ten years \nunder water in the sediments.\nThe most effective way to kill the water chestnut is to pull out each plant by hand. This \ncan be done in a small pond, but for rivers and lakes that are blocked by huge numbers of \nwater chestnut plants, other methods are needed. Chemical herbicides kill the leaves, but, \nafter several weeks, the water chestnut plants grow back. Large machines have been used to \nclear these plants and seeds from the water and sediments of ecosystems, but the machines \nremove many other organisms too.\nWater chestnut\nseed\n Source: estuarylive.pbworks.com",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Advantage: \u2014 No chemicals are added to disrupt the ecosystem. \u2014 Biological control will not poison the water. \u2014 It eliminates water chestnuts. Disadvantage: \u2014 Other plants in the ecosystem may be eaten by the new insects, not just the water chestnut plants. \u2014 The new insects may spread to other ecosystems, where they could cause damage by competing with local insects. \u2014 The insects will overpopulate due to the lack of natural predators."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Harvesting machines are used to scrape water chestnut plants and seeds from the bottom of lakes and rivers. State one disadvantage of this method of controlling water chestnuts.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the photo and reading passage below, and on your \nknowledge of biology.\nInvasive Water Chestnuts Challenge Environmentalists\nEnvironmental scientists are troubled by the rapid spread of the water chestnut plant. \nThis invasive plant is a freshwater species with leaves that blanket the surface of water. The \nleaves grow so densely, they stop people from swimming and prevent boats from moving.\nInvasive water chestnut leaves prevent 95% of the sunlight from reaching the water \nbelow. Local animals and insects cannot eat this plant. New York ecosystems infested by the \nwater chestnut are quickly disrupted. Water chestnut seeds can survive more than ten years \nunder water in the sediments.\nThe most effective way to kill the water chestnut is to pull out each plant by hand. This \ncan be done in a small pond, but for rivers and lakes that are blocked by huge numbers of \nwater chestnut plants, other methods are needed. Chemical herbicides kill the leaves, but, \nafter several weeks, the water chestnut plants grow back. Large machines have been used to \nclear these plants and seeds from the water and sediments of ecosystems, but the machines \nremove many other organisms too.\nWater chestnut\nseed\n Source: estuarylive.pbworks.com",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Many other plants and some animals are also removed from the sediment, not just the water chestnut plants. \u2014 Other kinds of plants/animals are killed too. \u2014 The harvester removes many local species/organisms together with the water chestnuts. \u2014 The plants will grow back. \u2014 The machine could pollute the water."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify one human activity and describe how it contributes to increasing levels of carbon dioxide in the environment. Human activity:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 and 63 on the information below and on your knowledge of biology.\nRising CO2 [Carbon Dioxide] Levels in Ocean Block Sharks\u2019 Ability to Smell Prey\n\u2026Changes in the chemistry of the world\u2019s oceans expected by century\u2019s end could impact \nthe hunting ability of sharks, which depend heavily on their sense of smell to locate prey, \nresearchers say.\nAs ocean waters turn increasingly acidic from absorbing atmospheric CO2 created by \nhuman activities, the odor-detecting ability of sharks to locate prey could diminish, they \nsay. \u2026\nSource: Jim Algar, Tech Times, 9/9/14",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The burning/combustion of fossil fuels releases carbon dioxide into the environment. \u2014 Increased deforestation removes organisms that would absorb carbon dioxide from the environment. \u2014 Industrialization brings an increased demand for the burning of fossil fuels."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Describe how the inability of sharks to detect their prey could affect an ocean ecosystem. Living Environment\u2013v202",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 and 63 on the information below and on your knowledge of biology.\nRising CO2 [Carbon Dioxide] Levels in Ocean Block Sharks\u2019 Ability to Smell Prey\n\u2026Changes in the chemistry of the world\u2019s oceans expected by century\u2019s end could impact \nthe hunting ability of sharks, which depend heavily on their sense of smell to locate prey, \nresearchers say.\nAs ocean waters turn increasingly acidic from absorbing atmospheric CO2 created by \nhuman activities, the odor-detecting ability of sharks to locate prey could diminish, they \nsay. \u2026\nSource: Jim Algar, Tech Times, 9/9/14",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The sharks might not detect enough prey to feed on and might not survive. \u2014 Since sharks lack the ability to detect their food source, the population of their prey would sharply increase. \u2014 There could be an increase in prey and a decrease in the populations which the prey consume. \u2014 Without the shark population holding its prey in check, the number of prey will increase. Living Environment Rating Guide \u2013 v202"
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "State how the body plan of the weasel is effective for successfully competing with other organisms.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_64_66.png",
+      "context": "Base your answers to questions 64 through 66 on the information and photo below and on your knowledge \nof biology. The photo shows an adult female weasel.\nSource: NY Times 6/13/16",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The body plan of the weasel allows it to get food/prey by entering small spaces that other carnivores cannot. \u2014 The long, slender body allows weasels to travel very close to the ground, avoiding their own predators and allowing them to sneak up on their prey. \u2014 It is slender and can fit into tight places."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "If the weasels are so successful, explain why they do not completely overpopulate the areas where they live.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_64_66.png",
+      "context": "Base your answers to questions 64 through 66 on the information and photo below and on your knowledge \nof biology. The photo shows an adult female weasel.\nSource: NY Times 6/13/16",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Limiting factors, such as available food/prey, space, and competition, can limit the size of weasel populations. \u2014 Larger predators can attack weasels and keep the population of weasels from getting too large. \u2014 They need to eat a third of their body weight per day. \u2014 External development makes the young more vulnerable to predators. \u2014 The weasels have reached their carrying capacity."
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Indicate whether the weasels\u2019 relationship with humans is positive or negative by circling the appropriate term below. Support your answer. Relationship (circle one): positive negative Support: Weasels Are Built for the Hunt Weasels are \ufb01 erce and quick-witted carnivores that must compete for food with larger predators. Their slender, elongated body plan allows them to pursue prey in tight spaces that other carnivores can\u2019t enter, a key factor in controlling rodent and rabbit populations. This body plan is important to the success of weasels. Female weasels have evolved to give birth to fetuses that have not fully completed development. The fetuses complete their development externally. In this way, there is no baby bump to limit the mother\u2019s access to tight feeding locations. A high energy level is key to the weasel\u2019s success in capturing prey, but it comes at a price. To survive, weasels need to eat a third of their body weight per day. This need can make them unpopular with poultry farmers, because they can enter through the smallest opening and consume large numbers of chickens. Living Environment\u2013v202",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_64_66.png",
+      "context": "Base your answers to questions 64 through 66 on the information and photo below and on your knowledge \nof biology. The photo shows an adult female weasel.\nSource: NY Times 6/13/16",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for circling the appropriate term and supporting the answer. Acceptable responses include, but are not limited to: Relationship: Positive Support: The weasels are able to control the number of rodents and rabbits that could otherwise consume farm or garden crops. Relationship: Positive Support: The weasels are able to control the number of rodents, and some rodents carry diseases that can affect human health. Relationship: Negative Support: The weasels can consume small animals, such as chickens, that are raised for human food."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Explain how an outer covering composed of a section of a cell membrane from the host would protect HIV from attack by the host\u2019s immune system.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_67_68.png",
+      "context": "Base your answers to questions 67 and 68 on the information and diagram below and on your knowledge of \nbiology.\nHIV Infection\nThe human immunode\ufb01 ciency virus (HIV), which can lead to AIDS, is a type of virus \nthat adds its genetic material to the DNA of the host cell. HIV reproduces within the host \ncell and exits through a process called budding.\nIn the process of budding, the newly forming virus merges with the host cell membrane \nand pinches off, taking with it a section of the host-cell membrane. It then enters into \ncirculation.\n Source: Adapted from http://news.\nbbc.co.uk/2/hi/health/5221744.stm\nHIV budded \nfrom host cell\nHost cell\nHIV budding \nfrom cell\nHost cell \nmembrane\nNewly \nforming virus\nHIV Budding",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The host will not recognize the virus as an invader. \u2014 The cell membrane has antigens that indicate that it is a normal part of the host, so it won\u2019t be attacked by the immune system. \u2014 The virus is enclosed by a cell membrane that the host\u2019s immune system won\u2019t recognize as a pathogen. \u2014 The immune system would recognize the virus as being part of the individual, since it will have receptors and other chemicals that identify it as not being a pathogen. Living Environment Rating Guide \u2013 v202"
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Describe one speci\ufb01 c way that HIV makes the body unable to deal with other pathogens and cancer. Living Environment\u2013v202",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_67_68.png",
+      "context": "Base your answers to questions 67 and 68 on the information and diagram below and on your knowledge of \nbiology.\nHIV Infection\nThe human immunode\ufb01 ciency virus (HIV), which can lead to AIDS, is a type of virus \nthat adds its genetic material to the DNA of the host cell. HIV reproduces within the host \ncell and exits through a process called budding.\nIn the process of budding, the newly forming virus merges with the host cell membrane \nand pinches off, taking with it a section of the host-cell membrane. It then enters into \ncirculation.\n Source: Adapted from http://news.\nbbc.co.uk/2/hi/health/5221744.stm\nHIV budded \nfrom host cell\nHost cell\nHIV budding \nfrom cell\nHost cell \nmembrane\nNewly \nforming virus\nHIV Budding",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 HIV destroys white blood cells/helper T cells/B cells. \u2014 HIV weakens the immune system."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "State one possible advantage for a snake to have no limbs instead of four limbs.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nSnakes Used to Have Legs and Arms Until These Mutations Happened\nThe ancestors of today\u2019s slithery snakes once sported full-\ufb02 edged arms and legs, but \ngenetic mutations caused the reptiles to lose all four of their limbs about 150 million \nyears ago, according to two new studies. \u2026\nBoth studies showed that mutations in a stretch of snake DNA called ZRS (the Zone of \nPolarizing Activity Regulatory Sequence) were responsible for the limb-altering change. \nBut the two research teams used different techniques to arrive at their \ufb01 ndings. \u2026\n\u2026According to one study, published online today (Oct. 20, 2016) in the journal Cell, \nthe snake\u2019s ZRS anomalies [differences] became apparent to researchers after they took \nseveral mouse embryos, removed the mice\u2019s ZRS DNA, and replaced it with the ZRS \nsection from snakes. \u2026\n\u2026The swap had severe consequences for the mice. Instead of developing regular \nlimbs, the mice barely grew any limbs at all, indicating that ZRS is crucial for the \ndevelopment of limbs, the researchers said. \u2026\nLooking deeper at the snakes\u2019 DNA, the researchers found that a deletion of 17 base \npairs within the snakes\u2019 DNA appeared to be the reason for the loss of limbs.\nSource: http://www.livescience.com/56573-mutation-caused-snakes-to-lose-legs.htm",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Snakes without limbs could escape predators/capture prey better than those with limbs. \u2014 The legless snakes could seek shelter more easily in smaller places than those with legs."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Identify the technique that the scientists used to remove the ZRS DNA from mice and replace it with the ZRS section from snakes.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nSnakes Used to Have Legs and Arms Until These Mutations Happened\nThe ancestors of today\u2019s slithery snakes once sported full-\ufb02 edged arms and legs, but \ngenetic mutations caused the reptiles to lose all four of their limbs about 150 million \nyears ago, according to two new studies. \u2026\nBoth studies showed that mutations in a stretch of snake DNA called ZRS (the Zone of \nPolarizing Activity Regulatory Sequence) were responsible for the limb-altering change. \nBut the two research teams used different techniques to arrive at their \ufb01 ndings. \u2026\n\u2026According to one study, published online today (Oct. 20, 2016) in the journal Cell, \nthe snake\u2019s ZRS anomalies [differences] became apparent to researchers after they took \nseveral mouse embryos, removed the mice\u2019s ZRS DNA, and replaced it with the ZRS \nsection from snakes. \u2026\n\u2026The swap had severe consequences for the mice. Instead of developing regular \nlimbs, the mice barely grew any limbs at all, indicating that ZRS is crucial for the \ndevelopment of limbs, the researchers said. \u2026\nLooking deeper at the snakes\u2019 DNA, the researchers found that a deletion of 17 base \npairs within the snakes\u2019 DNA appeared to be the reason for the loss of limbs.\nSource: http://www.livescience.com/56573-mutation-caused-snakes-to-lose-legs.htm",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 genetic engineering \u2014 gene editing \u2014 CRISPR/CAS9 \u2014 gene splicing \u2014 genetic manipulation Note: Do not allow credit for biotechnology. It is a branch of science, not a technique."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Identify the type of mutation responsible for the loss of limbs in snakes.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nSnakes Used to Have Legs and Arms Until These Mutations Happened\nThe ancestors of today\u2019s slithery snakes once sported full-\ufb02 edged arms and legs, but \ngenetic mutations caused the reptiles to lose all four of their limbs about 150 million \nyears ago, according to two new studies. \u2026\nBoth studies showed that mutations in a stretch of snake DNA called ZRS (the Zone of \nPolarizing Activity Regulatory Sequence) were responsible for the limb-altering change. \nBut the two research teams used different techniques to arrive at their \ufb01 ndings. \u2026\n\u2026According to one study, published online today (Oct. 20, 2016) in the journal Cell, \nthe snake\u2019s ZRS anomalies [differences] became apparent to researchers after they took \nseveral mouse embryos, removed the mice\u2019s ZRS DNA, and replaced it with the ZRS \nsection from snakes. \u2026\n\u2026The swap had severe consequences for the mice. Instead of developing regular \nlimbs, the mice barely grew any limbs at all, indicating that ZRS is crucial for the \ndevelopment of limbs, the researchers said. \u2026\nLooking deeper at the snakes\u2019 DNA, the researchers found that a deletion of 17 base \npairs within the snakes\u2019 DNA appeared to be the reason for the loss of limbs.\nSource: http://www.livescience.com/56573-mutation-caused-snakes-to-lose-legs.htm",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for deletion."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Without having DNA samples from snakes 150 million years ago, state how scientists could know that snakes once actually had legs. Living Environment\u2013v202",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nSnakes Used to Have Legs and Arms Until These Mutations Happened\nThe ancestors of today\u2019s slithery snakes once sported full-\ufb02 edged arms and legs, but \ngenetic mutations caused the reptiles to lose all four of their limbs about 150 million \nyears ago, according to two new studies. \u2026\nBoth studies showed that mutations in a stretch of snake DNA called ZRS (the Zone of \nPolarizing Activity Regulatory Sequence) were responsible for the limb-altering change. \nBut the two research teams used different techniques to arrive at their \ufb01 ndings. \u2026\n\u2026According to one study, published online today (Oct. 20, 2016) in the journal Cell, \nthe snake\u2019s ZRS anomalies [differences] became apparent to researchers after they took \nseveral mouse embryos, removed the mice\u2019s ZRS DNA, and replaced it with the ZRS \nsection from snakes. \u2026\n\u2026The swap had severe consequences for the mice. Instead of developing regular \nlimbs, the mice barely grew any limbs at all, indicating that ZRS is crucial for the \ndevelopment of limbs, the researchers said. \u2026\nLooking deeper at the snakes\u2019 DNA, the researchers found that a deletion of 17 base \npairs within the snakes\u2019 DNA appeared to be the reason for the loss of limbs.\nSource: http://www.livescience.com/56573-mutation-caused-snakes-to-lose-legs.htm",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 They had fossils of snake ancestors that showed the presence of leg bones. \u2014 Fossils have been discovered showing snake ancestors with four limbs. \u2014 They examined the fossil record and found fossils of snake ancestors with legs. \u2014 examining the characteristics of common ancestors \u2014 by examining vestigial structures of modern snakes Living Environment Rating Guide \u2013 v202 Part D 73 MC on scoring key 74 MC on scoring key 75 MC on scoring key 76 MC on scoring key"
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "Two features that would be the most useful in determining which of these organisms are most closely related are",
+      "choices": [
+        "presence of hair and similar proteins",
+        "presence of feathers and similar body structures",
+        "habitat and diet",
+        "body size and color"
+      ],
+      "image": "/images/exams/living-environment/june-2021/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the information and chart below and on your knowledge of \nbiology.\nFinding Relationships Between Organisms\nOrganisms living in the same environment may have similar body structures, but this \ndoes not always indicate a close biological relationship. The chart below provides information \nabout four organisms that live in an Antarctic Ocean ecosystem.\nBody Structures of Four Antarctic Marine Organisms\nOrganism\nKiller whale\nAd\u00e9lie\npenguin\nLeopard\nseal\nBaleen whale\nVery little hair\nVery little hair\nFeathers\nThick hair\nSkin \ncovering\nDiagram*\n*Pictures are \nnot drawn \nto scale.\n \nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "Which lab procedure can be done to \ufb01 nd molecular evidence for relationships between these Antarctic marine organisms?",
+      "choices": [
+        "Compare slides of cell organelles.",
+        "Examine fossils and ocean sediments.",
+        "Set up and perform gel electrophoresis.",
+        "Use a dichotomous key and test for pH."
+      ],
+      "image": "/images/exams/living-environment/june-2021/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the information and chart below and on your knowledge of \nbiology.\nFinding Relationships Between Organisms\nOrganisms living in the same environment may have similar body structures, but this \ndoes not always indicate a close biological relationship. The chart below provides information \nabout four organisms that live in an Antarctic Ocean ecosystem.\nBody Structures of Four Antarctic Marine Organisms\nOrganism\nKiller whale\nAd\u00e9lie\npenguin\nLeopard\nseal\nBaleen whale\nVery little hair\nVery little hair\nFeathers\nThick hair\nSkin \ncovering\nDiagram*\n*Pictures are \nnot drawn \nto scale.\n \nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "As an extension of the lab activity Making Connections, a biology teacher asked students to brainstorm variables other than exercise that would affect heart rate. The students hypothesized that eating a lunch high in protein would decrease heart rates. They recorded resting heart rates of 20 students, had them eat high- protein meals, and then recorded their heart rates again. The heart rates of 15 students were lower while the heart rates for 5 students were higher after lunch. The best explanation for the observation that the heart rates of 5 students were higher after lunch is",
+      "choices": [
+        "the heart rates of female students are not affected by a high-protein meal",
+        "the students all participated in physical education class immediately before lunch",
+        "the students all had varying physical \ufb01 tness levels and consumed different amounts of protein",
+        "the students were all the same gender and age"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "One possible reason that such diverse species could be affected by the HMGA2 gene is that",
+      "choices": [
+        "they all lived on the Galapagos Islands",
+        "they share a common ancestor",
+        "the drought caused the formation of the gene",
+        "the gene allowed all these species to grow larger"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 76 and 77 on the passage below and on your knowledge of biology.\nA recent study of Darwin\u2019s \ufb01 nches in the Galapagos Islands identi\ufb01 ed the gene, HMGA2, \nthat is involved in beak size. It played a role in which \ufb01 nches feeding on smaller seeds \nsurvived a severe drought in 2004-2005. Following the drought, the average size of the \nmedium ground \ufb01 nch beak decreased. This change was traced directly to changes in the \nfrequency of the HMGA2 gene. Previous studies have shown that HMGA2 affects body size \nin animals, including dogs and horses, and even humans.\n \nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "State one possible reason the medium ground \ufb01 nches with a smaller beak were able to survive during the 2004-2005 drought. Support your answer. Living Environment\u2013v202",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 and 77 on the passage below and on your knowledge of biology.\nA recent study of Darwin\u2019s \ufb01 nches in the Galapagos Islands identi\ufb01 ed the gene, HMGA2, \nthat is involved in beak size. It played a role in which \ufb01 nches feeding on smaller seeds \nsurvived a severe drought in 2004-2005. Following the drought, the average size of the \nmedium ground \ufb01 nch beak decreased. This change was traced directly to changes in the \nfrequency of the HMGA2 gene. Previous studies have shown that HMGA2 affects body size \nin animals, including dogs and horses, and even humans.\n \nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating one possible reason that the medium ground finches with a smaller beak were able to survive during the 2004-2005 drought and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Medium ground finches with a smaller beak had less competition for food than the medium ground finches with a larger beak. \u2014 A smaller beak was better for obtaining the food that was still available during the drought. \u2014 The smaller beak provided them with the ability to obtain more seeds. \u2014 They were better adapted to eat smaller seeds than the other finches that died."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Would the mutated DNA strand affect the functioning of protein X? Support your answer. Living Environment\u2013v202",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_78_78.png",
+      "context": "Base your answer to question 78 on the information and the Universal Genetic Code Chart below and on \nyour knowledge of biology.\nSECOND BASE\nT\nH\nI\nR\nD\nB\nA\nS\nE\nF\nI\nR\nS\nT\nB\nA\nS\nE\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nUUU\nUUC\nUUA\nUUG\nCUU\nCUC\nCUA\nCUG\nAUU\nAUC\nAUA\nAUG\nGUU\nGUC\nGUA\nGUG\nUCU\nUCC\nUCA\nUCG\nCCU\nCCC\nCCA\nCCG\nACU\nACC\nACA\nACG\nGCU\nGCC\nGCA\nGCG\nUAU\nUAC\nUAA\nUAG\nCAU\nCAC\nCAA\nCAG\nAAU\nAAC\nAAA\nAAG\nGAU\nGAC\nGAA\nGAG\nUGU\nUGC\nUGA\nUGG\nCGU\nCGC\nCGA\nCGG\nAGU\nAGC\nAGA\nAGG\nGGU\nGGC\nGGA\nGGG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nPHE\nLEU\nLEU\nILE\nMET or \nSTART\nVAL\nSER\nPRO\nTHR\nALA\nTYR\nSTOP\nHIS\nGLN\nASN\nLYS\nASP\nGLU\nARG\nSER\nARG\nGLY\nCYS\nSTOP\nTRP\nUniversal Genetic Code Chart\nMessenger RNA Codons and the Amino Acids for Which They Code\nU\nOriginal DNA for protein X: \nTAC-GGC-TTA-GCT-CCC-GCG-CTA-AAA\nMutated DNA for protein X: \nTAC-GGC-TTG-GCT-CCT-GCG-CTA-AAA",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for indicating that there is no change and supporting the answer. Acceptable responses include, but are not limited to: \u2014 The two changes in the code result in the same amino acids, so the protein produced is the same. \u2014 Both changes in the code still result in the same amino acid. \u2014 The original amino acids will still be in the same location in the protein, even with the changes."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "State where on the diagram the largest fragments of DNA would be located.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the diagram below and on your knowledge of biology. The \ndiagram represents a hypothetical result of a technique used in a lab.\nWells\n\u2013\n+",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 the bands closest to the wells \u2014 near the wells \u2014 at the top, near where the DNA is put in the gel \u2014 near the negative end"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Identify the factor that caused the fragments to move through the gel rather than remaining in the wells. Living Environment\u2013v202",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the diagram below and on your knowledge of biology. The \ndiagram represents a hypothetical result of a technique used in a lab.\nWells\n\u2013\n+",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 electricity \u2014 electric charge \u2014 electric current \u2014 positive and negative charges Living Environment Rating Guide \u2013 v202 81 MC on scoring key 82 MC on scoring key"
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Which diagram below represents the distribution of sugar molecules in the water a day later? ( 1 ) ( 2 ) ( 3 ) ( 4 ) Living Environment\u2013v202",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_81_81.png",
+      "context": "Base your answer to question 81 on the diagram below and on your knowledge of biology. \nThe diagram represents a sugar cube being dropped into an undisturbed beaker of water \nat room temperature. One sugar molecule is labeled.\nSugar molecule\n(Not drawn to scale)\n \nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "In an effort to determine how closely related several plant species are, a student performed the laboratory test shown below. Plant extract Solvent Yellow Green Brown Plant species 1 Yellow Green Plant species 2 Plant species 3 Green Brown Plant species 4 Yellow Green Brown Red The method used by the student to compare plant extracts from the different species is",
+      "choices": [
+        "gel electrophoresis",
+        "DNA banding",
+        "a staining technique",
+        "paper chromatography"
+      ],
+      "image": "/images/exams/living-environment/june-2021/q82.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "State one bene\ufb01 t of the increase in average heart rate during exercise. Living Environment\u2013v202",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/context_83_83.png",
+      "context": "Base your answer to question 83 on the graph below and on your knowledge of biology. The graph shows \nthe average heart rate data for a group of students before, during, and after exercise.\nHeart Rate Response to Exercise\n(class average)\nAverage Heart Rate\n(beats per minute)\nTime (minutes)\n0\n20\n40\n60\n80\n100\n120\n140\n0 1\n2 3\n8\nBefore\nAfter\n4 5\n6 7\n10\n9\nExercise period",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Wastes/carbon dioxide would be removed more quickly. \u2014 The increased heart rate results in more glucose/oxygen being delivered to the cells. \u2014 The increase in heart rate helps maintain homeostasis."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Calculate the clothespin-squeezing rates per minute and average for the dominant hand. Record the data in the data table below for all three trials, as well as the average squeezing rate per minute. You should have four numbers recorded. Clothespin Squeezing Activity Trial 20-Second Clothespin Squeezing (Dominant Hand) Clothespin- Squeezing Rate Per Minute (Dominant Hand) 20-Second Clothespin Squeezing (Nondominant Hand) Clothespin- Squeezing Rate Per Minute (Nondominant Hand) Trial 1 26 ___________ 18 54 Trial 2 33 ___________ 28 84 Trial 3 24 ___________ 29 87 Average ___________ 75",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2021/q84.png",
+      "context": "Base your answers to questions 84 and 85 on the information below and on your knowledge of biology.\nA Clothespin Experiment\nA student in a Living Environment class designed an experiment to investigate if the \nnumber of times a student squeezes a clothespin varies with the hand used. Her hypothesis \nwas that students could squeeze a clothespin more times in a minute when they used their \ndominant hand than when they used their nondominant hand.\nDuring her investigation, she \ufb01 rst squeezed and released a clothespin as often as possible \nfor 20 seconds with her dominant hand. She recorded the number of squeezes in a chart.\nShe performed three trials before resting. After that, she repeated the entire procedure \nwith her nondominant hand. Some of the data are shown in the table below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for completing the chart as shown below. Clothespin Squeezing Activity"
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "After performing the experiment, the student\u2019s laboratory write-up indicated that the hypothesis was supported. Do you agree with this student? Support your answer. Agree (circle one): Yes No Support: Living Environment\u2013v202 LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 84 and 85 on the information below and on your knowledge of biology.\nA Clothespin Experiment\nA student in a Living Environment class designed an experiment to investigate if the \nnumber of times a student squeezes a clothespin varies with the hand used. Her hypothesis \nwas that students could squeeze a clothespin more times in a minute when they used their \ndominant hand than when they used their nondominant hand.\nDuring her investigation, she \ufb01 rst squeezed and released a clothespin as often as possible \nfor 20 seconds with her dominant hand. She recorded the number of squeezes in a chart.\nShe performed three trials before resting. After that, she repeated the entire procedure \nwith her nondominant hand. Some of the data are shown in the table below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for yes or no and supporting the answer. Acceptable responses include, but are not limited to: Yes: \u2014 The average of the student\u2019s squeezing number with their dominant hand is higher than the student\u2019s squeezing number with their nondominant hand. No: \u2014 The conclusion is based on the work of only one student/not enough trials/needed more students to do the experiment Note: Allow credit only for an answer that is consistent with question 84 on the data provided in the table. Trial 20-Second Clothespin Squeezing (Dominant Hand) Clothespin- Squeezing Rate Per Minute (Dominant Hand) 20-Second Clothespin Squeezing (Nondominant Hand) Clothespin- Squeezing Rate Per Minute (Nondominant Hand) Trial 1 26 78 ___ 18 54 Trial 2 33 99 ___ 28 84 Trial 3 24 72 ___ 29 87 Average 83 ___ 75 Living Environment Rating Guide \u2013 v202 Living Environment Rating Guide \u2013 v202 0DS\u0003WR\u0003&RUH\u0003&XUULFXOXP\u0003 Y\u0015\u0013\u0015\u0003/LYLQJ\u0003(QYLURQPHQW\u0003 6WDQGDUGV\u0003 4XHVWLRQ\u00031XPEHUV\u0003 3DUW\u0003$\u0003 \u0014\u00b1\u0016\u0013\u0003 3DUW\u0003%\u00b1\u0014\u0003 \u0016\u0014\u00b1\u0017\u0016\u0003 3DUW\u0003%\u00b1\u0015\u0003 \u0017\u0017\u00b1\u0018\u0018\u0003 3DUW\u0003&\u0003 \u0018\u0019\u00b1\u001a\u0015\u0003 6WDQGDUG\u0003\u0014\u0003\u00b2\u0003 $QDO\\VLV\u000f\u0003,QTXLU\\\u0003DQG\u0003 'HVLJQ\u0003 .H\\\u0003,GHD\u0003\u0014\u0003 \u0016 \u0003 \u0018\u0017\u0003 .H\\\u0003,GHD\u0003\u0015\u0003 \u0016\u001b\u0003 .H\\\u0003,GHD\u0003\u0016\u0003 \u0017\u001a\u0003 $SSHQGL[\u0003$\u0003 /DERUDWRU\\\u0003&KHFNOLVW \u0003 \u0016\u0014\u000f\u0003\u0016\u0015\u000f\u0003\u0016\u0016\u0003 \u0017\u0017\u000f\u0003\u0017\u0018\u0003 6WDQGDUG\u0003\u0017\u0003 .H\\\u0003,GHD\u0003\u0014\u0003 \u0014\u000f\u0016\u000f\u0019\u000f\u001b\u0003 \u0016\u0017\u000f\u0003\u0016\u0018\u000f\u0003\u0016\u0019\u000f\u0003\u0016\u001a\u0003 \u0018\u0018\u0003 \u0018 \u000f\u0003\u0019\u0016\u0003 .H\\\u0003,GHD\u0003\u0015\u0003 \u001a\u000f\u0003 \u000f\u0003\u0014\u0013\u000f\u0003\u0014\u0017\u000f\u0003\u0014\u001a\u000f\u0003 \u0014 \u0003 \u001a\u0013\u000f\u0003\u001a\u0014\u0003 .H\\\u0003,GHD\u0003\u0016\u0003 \u0018\u000f\u0003\u0014\u0014\u0003 \u0017\u001b\u000f\u0003\u0017 \u000f\u0003\u0018\u0013\u000f\u0003\u0018\u0014\u0003 \u0019 \u000f\u0003\u001a\u0015\u0003 .H\\\u0003,GHD\u0003\u0017\u0003 \u0014\u0016\u000f\u0003\u0014\u0018\u000f\u0003\u0014\u001b\u0003 \u0017\u0019\u000f\u0003\u0018\u0015\u000f\u0003\u0018\u0016\u0003 .H\\\u0003,GHD\u0003\u0018\u0003 \u0014\u0015\u000f\u0003\u0014\u0019\u000f\u0003\u0015\u0015\u000f\u0003\u0015\u001b\u000f\u0003 \u0015 \u000f\u0003\u0016\u0013\u0003 \u0017\u0013\u000f\u0003\u0017\u0014\u000f\u0003\u0017\u0015\u0003 \u0019\u001a\u000f\u0003\u0019\u001b\u0003 .H\\\u0003,GHD\u0003\u0019\u0003 \u0015\u000f\u0003\u0017\u000f\u0003\u0015\u0013\u000f\u0003\u0015\u0017\u000f\u0003\u0015\u0019\u0003 \u0018\u0019\u000f\u0003\u0019\u0017\u000f\u0003\u0019\u0018\u000f\u0003\u0019\u0019\u0003 .H\\\u0003,GHD\u0003\u001a\u0003 \u0015\u0014\u000f\u0003\u0015\u0016\u000f\u0003\u0015\u0018\u000f\u0003\u0015\u001a\u0003 \u0017\u0016\u0003 \u0018\u001a\u000f\u0003\u0018\u001b\u000f\u0003\u0019\u0013\u000f\u0003\u0019\u0014\u000f\u0003\u0019\u0015\u0003 3DUW\u0003'\u0003 \u001a\u0016\u00b1\u001b\u0018\u0003 /DE\u0003\u0014\u0003 \u001a\u0016\u000f\u0003\u001a\u0017\u000f\u0003\u001a\u001b\u000f\u0003\u001a \u000f\u0003\u001b\u0013\u000f\u0003 \u001b\u0015\u0003 /DE\u0003\u0015\u0003 \u001a\u0018\u000f\u0003\u001b\u0016\u000f\u0003\u001b\u0017\u000f\u0003\u001b\u0018\u0003 /DE\u0003\u0016\u0003 \u001a\u0019\u000f\u0003\u001a\u001a\u0003 /DE\u0003\u0018\u0003 \u001b\u0014\u0003 Living Environment Rating Guide \u2013 v202 The Chart for Determining the Final Examination Score for the v202 Department\u2019s web site at: http://www.p12.nysed.gov/assessment/ on the day of the exam. Conversion charts provided for previous administrations of the be used to determine students\u2019 final scores for this administration. Online Submission of Teacher Evaluations of the Test to the Department Suggestions and feedback from teachers provide an important contribution to the test development process. The Department provides an online evaluation form for State assessments. It contains spaces for teachers to respond to several specific questions and to make suggestions. Instructions for completing the evaluation form are as follows: 1. Go to http://www.p12.nysed.gov/assessment/teacher/evaluation.html. 2. Select the test title. 3. Complete the required demographic fields. 4. Complete each evaluation question and provide comments in the space provided. 5. Click the SUBMIT button at the bottom of the page to submit the completed form."
+    }
+  ]
+}

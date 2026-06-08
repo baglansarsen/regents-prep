@@ -1,0 +1,1091 @@
+{
+  "subject": "chemistry",
+  "session": "june-2012",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The mass of a proton is approximately equal to the mass of",
+      "choices": [
+        "an alpha particle",
+        "a beta particle",
+        "a positron",
+        "a neutron"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "An orbital of an atom is defined as the most probable location of",
+      "choices": [
+        "an electron",
+        "a neutron",
+        "a positron",
+        "a proton"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "What must occur when an electron in an atom returns from a higher energy state to a lower energy state?",
+      "choices": [
+        "A specific amount of energy is released.",
+        "A random amount of energy is released.",
+        "The atom undergoes transmutation.",
+        "The atom spontaneously decays."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which element is a liquid at 305 K and 1.0 atmosphere?",
+      "choices": [
+        "magnesium",
+        "fluorine",
+        "gallium",
+        "iodine"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which list of elements consists of a metal, a metalloid, and a nonmetal?",
+      "choices": [
+        "Li, Na, Rb",
+        "Cr, Mo, W",
+        "Sn, Si, C",
+        "O, S, Te"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "At STP, which physical property of aluminum always remains the same from sample to sample?",
+      "choices": [
+        "mass",
+        "density",
+        "length",
+        "volume"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which statement describes a chemical property of silicon?",
+      "choices": [
+        "Silicon has a blue-gray color.",
+        "Silicon is a brittle solid at 20.\u00b0C.",
+        "Silicon melts at 1414\u00b0C.",
+        "Silicon reacts with fluorine."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "written",
+      "text": "Which diagram represents a mixture of two different molecular forms of the same element?",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A compound is broken down by chemical means during",
+      "choices": [
+        "chromatography",
+        "distillation",
+        "electrolysis",
+        "filtration Key = atom of element X = atom of element Z ( 1 ) ( 3 ) ( 2 ) ( 4 )"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which quantities must be conserved in all chemical reactions?",
+      "choices": [
+        "mass, charge, density",
+        "mass, charge, energy",
+        "charge, volume, density",
+        "charge, volume, energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which phrase describes the distribution of charge and the polarity of a CH4 molecule?",
+      "choices": [
+        "symmetrical and polar",
+        "symmetrical and nonpolar",
+        "asymmetrical and polar",
+        "asymmetrical and nonpolar"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "What is the charge of the nucleus of an oxygen atom?",
+      "choices": [
+        "0",
+        "\u00032",
+        "\u00028",
+        "\u000216"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which ion has no electrons?",
+      "choices": [
+        "H\u0002",
+        "Li\u0002",
+        "Na\u0002",
+        "Rb\u0002"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "To break a chemical bond, energy must be",
+      "choices": [
+        "absorbed",
+        "destroyed",
+        "produced",
+        "released"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "written",
+      "text": "Which Lewis electron-dot diagram represents a nitrogen atom in the ground state?",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "What is the most likely electronegativity value for a metallic element?",
+      "choices": [
+        "1.3",
+        "2.7",
+        "3.4",
+        "4.0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which polyatomic ion has a charge of 3\u0003?",
+      "choices": [
+        "chromate ion",
+        "oxalate ion",
+        "phosphate ion",
+        "thiocyanate ion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Every chlorine atom has",
+      "choices": [
+        "7 electrons",
+        "17 neutrons",
+        "a mass number of 35",
+        "an atomic number of 17"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which substance can not be broken down by a chemical change?",
+      "choices": [
+        "ammonia",
+        "methanol",
+        "propane",
+        "phosphorus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "At standard pressure, which substance becomes less soluble in water as temperature increases from 10.\u00b0C to 80.\u00b0C?",
+      "choices": [
+        "HCl",
+        "KCl",
+        "NaCl",
+        "NH4Cl"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which type of concentration is calculated when the grams of solute is divided by the grams of the solution, and the result is multiplied by 1 000 000?",
+      "choices": [
+        "molarity",
+        "parts per million",
+        "percent by mass",
+        "percent by volume"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which type of energy is associated with the random motion of atoms and molecules in a sample of air?",
+      "choices": [
+        "chemical energy",
+        "electrical energy",
+        "nuclear energy",
+        "thermal energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The temperature of a sample of matter is a measure of the",
+      "choices": [
+        "total kinetic energy of the particles in the sample",
+        "total potential energy of the particles in the sample",
+        "average potential energy of the particles in the sample",
+        "average kinetic energy of the particles in the sample"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which unit is used to express the pressure of a gas?",
+      "choices": [
+        "mole",
+        "joule",
+        "kelvin",
+        "pascal ( 4 ) N ( 3 ) N ( 2 ) N ( 1 ) N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which sample of matter sublimes at room temperature and standard pressure?",
+      "choices": [
+        "Br2(\u2113)",
+        "Cl2(g)",
+        "CO2(s)",
+        "SO2(aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Given the diagram representing a closed system at constant temperature: Which statement describes this system at equilibrium?",
+      "choices": [
+        "The mass of H2O(\u2113) equals the mass of H2O(g).",
+        "The volume of H2O(\u2113) equals the volume of H2O(g).",
+        "The number of moles of H2O(\u2113) equals the number of moles of H2O(g).",
+        "The rate of evaporation of H2O(\u2113) equals the rate of condensation of H2O(g)."
+      ],
+      "image": "/images/exams/chemistry/june-2012/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which reaction occurs at the cathode in an electrochemical cell?",
+      "choices": [
+        "combustion",
+        "neutralization",
+        "oxidation",
+        "reduction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which substance yields H\u0002(aq) as the only positive ion in an aqueous solution?",
+      "choices": [
+        "CH3CHO",
+        "CH3CH2OH",
+        "CH3COOH",
+        "CH3OCH3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Compared to the mass and the penetrating power of an alpha particle, a beta particle has",
+      "choices": [
+        "less mass and greater penetrating power",
+        "less mass and less penetrating power",
+        "more mass and greater penetrating power",
+        "more mass and less penetrating power"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "During a nuclear reaction, mass is converted into",
+      "choices": [
+        "charge",
+        "energy",
+        "isomers",
+        "volume Stoppered Flask H2O(g) H2O( )"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "An atom in the ground state has two electrons in its first shell and six electrons in its second shell. What is the total number of protons in the nucleus of this atom?",
+      "choices": [
+        "5",
+        "2",
+        "7",
+        "8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "A bromine atom in an excited state could have an electron configuration of",
+      "choices": [
+        "2-8-18-6",
+        "2-8-18-7",
+        "2-8-17-7",
+        "2-8-17-8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The atomic masses and the natural abundances of the two naturally occurring isotopes of lithium are shown in the table below. Lithium Isotopes Which numerical setup can be used to deter- mine the atomic mass of lithium?",
+      "choices": [
+        "(0.075)(6.02 u) \u0002 (0.925)(7.02 u)",
+        "(0.925)(6.02 u) \u0002 (0.075)(7.02 u)",
+        "(7.5)(6.02 u) \u0002 (92.5)(7.02 u)",
+        "(92.5)(6.02 u) \u0002 (7.5)(7.02 u)"
+      ],
+      "image": "/images/exams/chemistry/june-2012/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Element X reacts with chlorine to form an ionic compound that has the formula XCl2. To which group on the Periodic Table could element X belong?",
+      "choices": [
+        "Group 1",
+        "Group 2",
+        "Group 13",
+        "Group 15"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which general trend is found in Period 3 as the elements are considered in order of increasing atomic number?",
+      "choices": [
+        "increasing atomic radius",
+        "increasing electronegativity",
+        "decreasing atomic mass",
+        "decreasing first ionization energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Given the formula for a compound: Which molecular formula and empirical formula represent this compound?",
+      "choices": [
+        "C2HNO2 and CHNO",
+        "C2HNO2 and C2HNO2",
+        "C4H2N2O4 and CHNO",
+        "C4H2N2O4 and C2HNO2"
+      ],
+      "image": "/images/exams/chemistry/june-2012/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "What is the gram-formula mass of (NH4)3PO4?",
+      "choices": [
+        "112 g/mol",
+        "121 g/mol",
+        "149 g/mol",
+        "242 g/mol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "In the ground state, which atom has a completely filled valence electron shell?",
+      "choices": [
+        "C",
+        "V",
+        "Ne",
+        "Sb C N O H C O O C C N O H Isotope Atomic Mass (u) Natural Abundance (%) Li-6 6.02 7.5 Li-7 7.02 92.5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Given the formula: The bond between which two atoms has the greatest degree of polarity?",
+      "choices": [
+        "C and C",
+        "C and O",
+        "H and C",
+        "H and O"
+      ],
+      "image": "/images/exams/chemistry/june-2012/q39.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Given the diagram representing a heating curve for a substance: During which time interval is the average kinetic energy of the particles of the substance constant while the potential energy of the particles increases?",
+      "choices": [
+        "AC",
+        "BC",
+        "CD",
+        "DF"
+      ],
+      "image": "/images/exams/chemistry/june-2012/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "At 50.\u00b0C and standard pressure, intermolecular forces of attraction are strongest in a sample of",
+      "choices": [
+        "ethanoic acid",
+        "ethanol",
+        "propanone",
+        "water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "At 101.3 kPa and 298 K, what is the total amount of heat released when one mole of aluminum oxide, Al2O3(s), is formed from its elements?",
+      "choices": [
+        "393.5 kJ",
+        "837.8 kJ",
+        "1676 kJ",
+        "3351 kJ"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: 2H2O(\u2113) \u0002 571.6 kJ \u21922H2(g) \u0002 O2(g) What occurred as a result of this reaction?",
+      "choices": [
+        "Energy was absorbed, and entropy increased.",
+        "Energy was absorbed, and entropy decreased.",
+        "Energy was released, and entropy increased.",
+        "Energy was released, and entropy decreased."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Given the potential energy diagram representing a reversible reaction: The activation energy for the reverse reaction is represented by",
+      "choices": [
+        "A \u0002 B",
+        "B \u0002 C",
+        "B \u0002 D",
+        "C \u0002 D A B D Reaction Coordinate Potential Energy C Heating Curve Temperature Time A B C D E F H H C H C C H H H H O H"
+      ],
+      "image": "/images/exams/chemistry/june-2012/q44.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Which formula represents a molecule of 2-chlorobutane?",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/q45.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which formula represents an unsaturated hydrocarbon?",
+      "choices": [
+        "CH4",
+        "C2H4",
+        "C3H8",
+        "C4H10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which ion is most easily reduced?",
+      "choices": [
+        "Zn2\u0002",
+        "Mg2\u0002",
+        "Co2\u0002",
+        "Ca2\u0002"
+      ],
+      "image": "/images/exams/chemistry/june-2012/q47.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: HSO4 \u0003(aq) \u0002 H2O(\u2113) \u2192H3O\u0002(aq) \u0002 SO4 2\u0003(aq) According to one acid-base theory, the H2O(\u2113) molecules act as",
+      "choices": [
+        "a base because they accept H\u0002 ions",
+        "a base because they donate H\u0002 ions",
+        "an acid because they accept H\u0002 ions",
+        "an acid because they donate H\u0002 ions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which equation represents an oxidation- reduction reaction?",
+      "choices": [
+        "H\u0002 \u0002 OH\u0003 \u2192H2O",
+        "238 92U \u2192234 90Th \u0002 4 2He",
+        "Zn \u0002 Sn4\u0002 \u2192Zn2\u0002 \u0002 Sn2\u0002",
+        "3AgNO3 \u0002 Li3PO4 \u2192Ag3PO4 \u0002 3LiNO3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which equation represents natural transmutation?",
+      "choices": [
+        "10 5B \u0002 4 2He \u219213 7N \u0002 1 0n",
+        "14 6C \u219214 7N \u0002 0 \u00031e",
+        "S \u0002 2e\u0003 \u2192S2\u0003",
+        "Na \u2192Na\u0002 \u0002 e\u0003 ( 2 ) H H H C C H H H H H C C H Cl ( 3 ) H H H C C H H H C H Cl ( 4 ) H H H C C H H H C H Cl ( 1 ) H H H C C H H H H H C C H Cl"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "What is the mass of KNO3(s) that must dissolve in 100. grams of water to form a saturated solution at 50.\u00b0C?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify the type of chemical reaction represented by the equation.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 55 on the information below.\nThe reaction between aluminum and an aqueous solution of copper(II) sulfate is \nrepresented by the unbalanced equation below.\nAl(s) \u0002 CuSO4(aq) \u2192Al2(SO4)3(aq) \u0002 Cu(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Balance the equation in your answer booklet, using the smallest whole-number coefficients.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 55 on the information below.\nThe reaction between aluminum and an aqueous solution of copper(II) sulfate is \nrepresented by the unbalanced equation below.\nAl(s) \u0002 CuSO4(aq) \u2192Al2(SO4)3(aq) \u0002 Cu(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Explain why the equation represents a chemical change.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 55 on the information below.\nThe reaction between aluminum and an aqueous solution of copper(II) sulfate is \nrepresented by the unbalanced equation below.\nAl(s) \u0002 CuSO4(aq) \u2192Al2(SO4)3(aq) \u0002 Cu(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Determine the total mass of Cu produced when 1.08 grams of Al reacts completely with 9.58 grams of CuSO4 to produce 6.85 grams of Al2(SO4)3.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 52 through 55 on the information below.\nThe reaction between aluminum and an aqueous solution of copper(II) sulfate is \nrepresented by the unbalanced equation below.\nAl(s) \u0002 CuSO4(aq) \u2192Al2(SO4)3(aq) \u0002 Cu(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Write the chemical formula for the solute in the solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 59 on the information below.\nA total of 1.4 moles of sodium nitrate is dissolved in enough water to make 2.0 liters of\nan aqueous solution. The gram-formula mass of sodium nitrate is 85 grams per mole.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the mass of the solute used to make the solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 59 on the information below.\nA total of 1.4 moles of sodium nitrate is dissolved in enough water to make 2.0 liters of\nan aqueous solution. The gram-formula mass of sodium nitrate is 85 grams per mole.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Compare the boiling point of the solution at standard pressure to the boiling point of H2O at standard pressure.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 59 on the information below.\nA total of 1.4 moles of sodium nitrate is dissolved in enough water to make 2.0 liters of\nan aqueous solution. The gram-formula mass of sodium nitrate is 85 grams per mole.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Determine the molarity of the solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 59 on the information below.\nA total of 1.4 moles of sodium nitrate is dissolved in enough water to make 2.0 liters of\nan aqueous solution. The gram-formula mass of sodium nitrate is 85 grams per mole.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Compare the electrical conductivity of the aqueous product in the reaction to the electrical conductivity of the white solid that remains after the water is evaporated from the solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the information below.\nCalcium reacts with water. This reaction is represented by the balanced equation below.\nThe aqueous product of this reaction can be heated to evaporate the water, leaving a white\nsolid, Ca(OH)2(s).\nCa(s) \u0002 2H2O(\u2113) \u2192Ca(OH)2(aq) \u0002 H2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Write the chemical name of the base produced in the reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the information below.\nCalcium reacts with water. This reaction is represented by the balanced equation below.\nThe aqueous product of this reaction can be heated to evaporate the water, leaving a white\nsolid, Ca(OH)2(s).\nCa(s) \u0002 2H2O(\u2113) \u2192Ca(OH)2(aq) \u0002 H2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "State one change in reaction conditions that will increase the rate of the reaction.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the information below.\nCalcium reacts with water. This reaction is represented by the balanced equation below.\nThe aqueous product of this reaction can be heated to evaporate the water, leaving a white\nsolid, Ca(OH)2(s).\nCa(s) \u0002 2H2O(\u2113) \u2192Ca(OH)2(aq) \u0002 H2(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Complete the equation in your answer booklet for the neutralization reaction by writing the formula of each product.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below.\nIn a titration, 20.0 milliliters of 0.15 M HCl(aq) is exactly neutralized by 18.0 milliliters\nof KOH(aq).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Compare the number of moles of H\u0002(aq) ions to the number of moles of OH\u0003(aq) ions in the titration mixture when the HCl(aq) is exactly neutralized by the KOH(aq).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below.\nIn a titration, 20.0 milliliters of 0.15 M HCl(aq) is exactly neutralized by 18.0 milliliters\nof KOH(aq).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Determine the concentration of the KOH(aq).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 65 on the information below.\nIn a titration, 20.0 milliliters of 0.15 M HCl(aq) is exactly neutralized by 18.0 milliliters\nof KOH(aq).",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify one positive ion in the hydrated compound. Your response must include both the chemical symbol and charge of the ion.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below.\nJohn Dalton, an early scientist, sketched the structure of compounds using his own \nsymbols for the elements known at the time. Dalton\u2019s symbols for four elements and \nhis drawing of potassium aluminum sulfate are represented by the diagram below.\nToday, it is known that the chemical formula for potassium aluminum sulfate is\nKAl(SO4)2\u202212H2O. It is a hydrated compound because water molecules are included \nwithin its crystal structure. There are 12 moles of H2O for every 1 mole of KAl(SO4)2.  \nThe compound contains two different positive ions. The gram-formula mass of\nKAl(SO4)2\u202212H2O is 474 grams per mole.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Describe, in terms of composition, one way in which Dalton\u2019s perception of potassium aluminum sulfate differs from what is known today about the compound.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below.\nJohn Dalton, an early scientist, sketched the structure of compounds using his own \nsymbols for the elements known at the time. Dalton\u2019s symbols for four elements and \nhis drawing of potassium aluminum sulfate are represented by the diagram below.\nToday, it is known that the chemical formula for potassium aluminum sulfate is\nKAl(SO4)2\u202212H2O. It is a hydrated compound because water molecules are included \nwithin its crystal structure. There are 12 moles of H2O for every 1 mole of KAl(SO4)2.  \nThe compound contains two different positive ions. The gram-formula mass of\nKAl(SO4)2\u202212H2O is 474 grams per mole.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the percent composition by mass of water in KAl(SO4)2\u202212H2O. Dalton\u2019s Drawing for Potassium Aluminum Sulfate Key = oxygen = aluminum = sulfur = potassium",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below.\nJohn Dalton, an early scientist, sketched the structure of compounds using his own \nsymbols for the elements known at the time. Dalton\u2019s symbols for four elements and \nhis drawing of potassium aluminum sulfate are represented by the diagram below.\nToday, it is known that the chemical formula for potassium aluminum sulfate is\nKAl(SO4)2\u202212H2O. It is a hydrated compound because water molecules are included \nwithin its crystal structure. There are 12 moles of H2O for every 1 mole of KAl(SO4)2.  \nThe compound contains two different positive ions. The gram-formula mass of\nKAl(SO4)2\u202212H2O is 474 grams per mole.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "State, in terms of both melting point and boiling point, why H2O2 is a liquid at room temperature.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below.\nAt standard pressure, hydrogen peroxide, H2O2, melts at \u00030.4\u00b0C, boils at 151\u00b0C, and is\nvery soluble in water.  A bottle of aqueous hydrogen peroxide, H2O2(aq), purchased from a\npharmacy has a pressure-releasing cap. Aqueous hydrogen peroxide decomposes at room\ntemperature, as represented by the balanced equation below.\n2H2O2(aq) \u21922H2O(\u2113) \u0002 O2(g) \u0002 196.0 kJ",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State evidence that indicates the decomposition of H2O2(aq) is exothermic.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below.\nAt standard pressure, hydrogen peroxide, H2O2, melts at \u00030.4\u00b0C, boils at 151\u00b0C, and is\nvery soluble in water.  A bottle of aqueous hydrogen peroxide, H2O2(aq), purchased from a\npharmacy has a pressure-releasing cap. Aqueous hydrogen peroxide decomposes at room\ntemperature, as represented by the balanced equation below.\n2H2O2(aq) \u21922H2O(\u2113) \u0002 O2(g) \u0002 196.0 kJ",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Explain why a hydrogen peroxide bottle needs a pressure-releasing cap.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/q71.png",
+      "context": "Base your answers to questions 69 through 71 on the information below.\nAt standard pressure, hydrogen peroxide, H2O2, melts at \u00030.4\u00b0C, boils at 151\u00b0C, and is\nvery soluble in water.  A bottle of aqueous hydrogen peroxide, H2O2(aq), purchased from a\npharmacy has a pressure-releasing cap. Aqueous hydrogen peroxide decomposes at room\ntemperature, as represented by the balanced equation below.\n2H2O2(aq) \u21922H2O(\u2113) \u0002 O2(g) \u0002 196.0 kJ",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "State the direction of electron flow through the wire when the switch is closed.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_72_75.png",
+      "context": "Base your answers to questions 72 through 75 on the information below.\nA student constructs an electrochemical cell during a laboratory investigation. When\nthe switch is closed, electrons flow through the external circuit. The diagram and equation\nbelow represent this cell and the reaction that occurs.\n2Al(s) \u0002 3Ni2\u0002(aq) \u21922Al3\u0002(aq) \u0002 3Ni(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Write a balanced half-reaction equation for the oxidation that occurs when the switch is closed.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_72_75.png",
+      "context": "Base your answers to questions 72 through 75 on the information below.\nA student constructs an electrochemical cell during a laboratory investigation. When\nthe switch is closed, electrons flow through the external circuit. The diagram and equation\nbelow represent this cell and the reaction that occurs.\n2Al(s) \u0002 3Ni2\u0002(aq) \u21922Al3\u0002(aq) \u0002 3Ni(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Determine the number of moles of Al(s) needed to completely react with 9.0 moles of Ni2\u0002(aq) ions.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_72_75.png",
+      "context": "Base your answers to questions 72 through 75 on the information below.\nA student constructs an electrochemical cell during a laboratory investigation. When\nthe switch is closed, electrons flow through the external circuit. The diagram and equation\nbelow represent this cell and the reaction that occurs.\n2Al(s) \u0002 3Ni2\u0002(aq) \u21922Al3\u0002(aq) \u0002 3Ni(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "State, in terms of energy, why this cell is a voltaic cell. Al(s) electrode Ni(s) electrode Salt bridge Al(NO3)3(aq) Ni(NO3)2(aq) Switch Voltmeter V Wire",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_72_75.png",
+      "context": "Base your answers to questions 72 through 75 on the information below.\nA student constructs an electrochemical cell during a laboratory investigation. When\nthe switch is closed, electrons flow through the external circuit. The diagram and equation\nbelow represent this cell and the reaction that occurs.\n2Al(s) \u0002 3Ni2\u0002(aq) \u21922Al3\u0002(aq) \u0002 3Ni(s)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Which labeled part of the digestive system has the most acidic environment?",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the information below.\nThe diagram below shows typical pH values found in four parts of the human digestive\nsystem.  In the small intestine, the enzyme lipase acts as a catalyst, increasing the rate of fat\ndigestion.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "What is the color of thymol blue at the pH of the small intestine?",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the information below.\nThe diagram below shows typical pH values found in four parts of the human digestive\nsystem.  In the small intestine, the enzyme lipase acts as a catalyst, increasing the rate of fat\ndigestion.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "State how the catalyst lipase increases the rate of the fat digestion.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the information below.\nThe diagram below shows typical pH values found in four parts of the human digestive\nsystem.  In the small intestine, the enzyme lipase acts as a catalyst, increasing the rate of fat\ndigestion.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify the type of organic reaction used to make soap.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the information below.\nOne type of soap is produced when ethyl stearate and sodium hydroxide react. \nThe soap produced by this reaction is called sodium stearate. The other product of the \nreaction is ethanol. This reaction is represented by the balanced equation below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "To which class of organic compounds does ethyl stearate belong?",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the information below.\nOne type of soap is produced when ethyl stearate and sodium hydroxide react. \nThe soap produced by this reaction is called sodium stearate. The other product of the \nreaction is ethanol. This reaction is represented by the balanced equation below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Identify the two types of bonds in the compound sodium stearate. + O C O C2H5 C17H35 NaOH + C2H5OH Ethyl stearate Sodium hydroxide Sodium stearate Ethanol O C O\u0003 Na\u0002 C17H35 Stomach pH = 2.0 Pancreas pH = 8.0 Small intestine pH = 7.3 Mouth pH = 6.7 P.S./",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_79_81.png",
+      "context": "Base your answers to questions 79 through 81 on the information below.\nOne type of soap is produced when ethyl stearate and sodium hydroxide react. \nThe soap produced by this reaction is called sodium stearate. The other product of the \nreaction is ethanol. This reaction is represented by the balanced equation below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Compare the atomic masses of nuclides used in fusion to the atomic masses of nuclides used in fission.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below.\nNuclear fission has been used to produce electricity. However, nuclear fusion for \nelectricity production is still under development. The notations of some nuclides used in\nnuclear reactions are shown in the table below.\nSome Nuclides Used in Nuclear Reactions",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Complete the table in your answer booklet that compares the total number of protons and the total number of neutrons for the hydrogen nuclides used for fusion.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below.\nNuclear fission has been used to produce electricity. However, nuclear fusion for \nelectricity production is still under development. The notations of some nuclides used in\nnuclear reactions are shown in the table below.\nSome Nuclides Used in Nuclear Reactions",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Complete the nuclear equation in your answer booklet for the fission of 235 92U by writing the notation of the missing product.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below.\nNuclear fission has been used to produce electricity. However, nuclear fusion for \nelectricity production is still under development. The notations of some nuclides used in\nnuclear reactions are shown in the table below.\nSome Nuclides Used in Nuclear Reactions",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "State one potential benefit of using nuclear fusion instead of the current use of nuclear fission to produce electricity. Reaction Nuclides nuclear fission 233 92U, 235 92U nuclear fusion 1 1H, 3 1H P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2012/context_82_85.png",
+      "context": "Base your answers to questions 82 through 85 on the information below.\nNuclear fission has been used to produce electricity. However, nuclear fusion for \nelectricity production is still under development. The notations of some nuclides used in\nnuclear reactions are shown in the table below.\nSome Nuclides Used in Nuclear Reactions",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -21,7 +21,7 @@ import {
   doc, getDoc, setDoc, orderBy, limit,
 } from 'firebase/firestore'
 import { db } from '../firebase'
-import { getWeekKey } from './useXP'
+import { getWeekKey } from './useRP'
 
 // ── Tier definitions ──────────────────────────────────────────────────────────
 export const TIERS = ['bronze', 'silver', 'gold', 'diamond']
@@ -104,12 +104,24 @@ export function useLeague(uid) {
       }
 
       // ── Promotion / demotion check (once per week) ─────────────────────────
-      const hasLastWeek = lb.lastWeekKey && lb.lastWeekKey !== currentWeek
-      const notChecked  = lb.promotionChecked !== currentWeek
+      let lastWeekKey = null
+      let lastWeekXP = 0
+      let needsRolloverUpdate = false
 
-      if (hasLastWeek && notChecked) {
+      if (lb.weekKey && lb.weekKey !== currentWeek) {
+        lastWeekKey = lb.weekKey
+        lastWeekXP = lb.weeklyXP ?? 0
+        needsRolloverUpdate = true
+      } else {
+        lastWeekKey = lb.lastWeekKey
+        lastWeekXP = lb.lastWeekXP ?? 0
+      }
+
+      const notChecked = lb.promotionChecked !== currentWeek
+
+      if (lastWeekKey && notChecked) {
         const outcome = await computeOutcome(
-          uid, currentTier, lb.lastWeekKey, lb.lastWeekXP ?? 0,
+          uid, currentTier, lastWeekKey, lastWeekXP,
         )
         const idx = TIERS.indexOf(currentTier)
 
@@ -121,8 +133,24 @@ export function useLeague(uid) {
           setJustDemoted(true)
         }
 
-        // Write new tier + mark promotion as processed for this week
-        await setDoc(lbRef, { tier: currentTier, promotionChecked: currentWeek }, { merge: true })
+        const updateData = {
+          tier: currentTier,
+          promotionChecked: currentWeek
+        }
+        if (needsRolloverUpdate) {
+          updateData.weekKey = currentWeek
+          updateData.weeklyXP = 0
+          updateData.lastWeekKey = lastWeekKey
+          updateData.lastWeekXP = lastWeekXP
+        }
+        await setDoc(lbRef, updateData, { merge: true })
+      } else if (needsRolloverUpdate) {
+        await setDoc(lbRef, {
+          weekKey: currentWeek,
+          weeklyXP: 0,
+          lastWeekKey,
+          lastWeekXP
+        }, { merge: true })
       }
 
       setTier(currentTier)
@@ -146,7 +174,7 @@ export function useLeague(uid) {
         limit(LEAGUE_CAP),
       )
       const snap   = await getDocs(q)
-      const ranked = snap.docs.map((d) => ({ uid: d.id, xp: d.data().lastWeekXP ?? 0 }))
+      const ranked = snap.docs.map((d) => ({ uid: d.id, rp: d.data().lastWeekXP ?? 0 }))
       const myRank = ranked.findIndex((m) => m.uid === uid) + 1  // 1-based; 0 = not found
       if (myRank === 0) return 'none'
 
@@ -181,6 +209,7 @@ export function useLeague(uid) {
           uid:         d.id,
           displayName: data.displayName ?? 'Student',
           weeklyXP:    weekXP,
+          rp:          data.xp ?? 0,
           xp:          data.xp ?? 0,
         }
       })

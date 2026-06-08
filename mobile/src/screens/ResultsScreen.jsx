@@ -1,9 +1,15 @@
 import React, { useState, useRef, useEffect } from 'react'
-import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Animated } from 'react-native'
+import { formatTime } from '../hooks/useStudyTime'
+import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Animated, Modal } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
+import { useAuthContext } from '../context/AuthContext'
+import { useDailyStreak } from '../hooks/useDailyStreak'
+import { useRP } from '../hooks/useRP'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import MasteryCelebration from '../components/MasteryCelebration'
+import NudgeBanner from '../components/NudgeBanner'
+import { getEngagementNudge } from '../hooks/useEngagementNudge'
 import * as leData   from '../content/living-environment/index'
 import * as esData   from '../content/earth-science/index'
 import * as chemData from '../content/chemistry/index'
@@ -11,6 +17,10 @@ import * as physData from '../content/physics/index'
 import * as a1Data   from '../content/algebra-1/index'
 import * as a2Data   from '../content/algebra-2/index'
 import * as geoData  from '../content/geometry/index'
+import * as lsData   from '../content/life-science/index'
+import * as enData   from '../content/english/index'
+import * as ghData   from '../content/global-history/index'
+import * as usData   from '../content/us-history/index'
 
 const SUBJECT_DATA = {
   'living-environment': leData,
@@ -20,6 +30,10 @@ const SUBJECT_DATA = {
   'algebra-1':          a1Data,
   'algebra-2':          a2Data,
   'geometry':           geoData,
+  'life-science':       lsData,
+  'english':            enData,
+  'global-history':     ghData,
+  'us-history':         usData,
 }
 
 // Compute metadata for the lesson AFTER nextLessonMeta, so the chain continues past one hop
@@ -63,23 +77,34 @@ function computeNextNextMeta(sd, nextLessonMeta) {
 export default function ResultsScreen({ route, navigation }) {
   const {
     score, total, results, bestStreak, topic, subject,
-    xpEarned, doubleXP = false,
+    rpEarned, doubleRP = false,
     firstMastery = false, masteredTopic,
     lessonIndex,
     challengeUnlocked = false, unlockedTopic = null,
     nextLessonMeta = null,
+    sessionTime = 0,
   } = route.params
   const { C } = useTheme()
+  const { user } = useAuthContext()
+  const { streak, weekDays } = useDailyStreak(user?.uid)
+  const { rp, level } = useRP(user?.uid)
 
+  const [diveDeepQ,      setDiveDeepQ]      = useState(null)
   const [showCelebration, setShowCelebration] = useState(firstMastery)
-  const [displayXP, setDisplayXP] = useState(0)
-  const xpAnim = useRef(new Animated.Value(0)).current
+  const [displayRP,    setDisplayRP]    = useState(0)
+  const [showStreak,   setShowStreak]   = useState(false)
+  const rpAnim     = useRef(new Animated.Value(0)).current
+  const streakAnim = useRef(new Animated.Value(0)).current
 
   useEffect(() => {
-    if (xpEarned <= 0) return
-    const id = xpAnim.addListener(({ value }) => setDisplayXP(Math.round(value)))
-    Animated.timing(xpAnim, { toValue: xpEarned, duration: 900, useNativeDriver: false }).start()
-    return () => xpAnim.removeListener(id)
+    if (rpEarned <= 0) return
+    const id = rpAnim.addListener(({ value }) => setDisplayRP(Math.round(value)))
+    Animated.timing(rpAnim, { toValue: rpEarned, duration: 900, useNativeDriver: false }).start(() => {
+      // After RP counts up, reveal the streak banner
+      setShowStreak(true)
+      Animated.spring(streakAnim, { toValue: 1, useNativeDriver: true, tension: 120, friction: 8 }).start()
+    })
+    return () => rpAnim.removeListener(id)
   }, [])
 
   // Auto-advance to next unit Lesson 1 after a challenge pass
@@ -117,7 +142,7 @@ export default function ResultsScreen({ route, navigation }) {
   const s = makeStyles(C)
 
   return (
-    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       <ScrollView contentContainerStyle={s.scroll} showsVerticalScrollIndicator={false}>
 
         {/* Score circle */}
@@ -138,10 +163,10 @@ export default function ResultsScreen({ route, navigation }) {
             </Text>
           </View>
         )}
-        {xpEarned > 0 && (
+        {rpEarned > 0 && (
           <View style={[s.banner, { backgroundColor: C.warnBg, borderColor: C.warn + '60' }]}>
             <Text style={[T.h3, { color: C.warn }]}>
-              ⭐ +{displayXP} XP earned{doubleXP ? '  ⚡ 2× boost!' : ''}
+              ⭐ +{displayRP} RP earned{doubleRP ? '  ⚡ 2× boost!' : ''}
             </Text>
           </View>
         )}
@@ -152,6 +177,43 @@ export default function ResultsScreen({ route, navigation }) {
             </Text>
           </View>
         )}
+        {sessionTime >= 60 && (
+          <View style={[s.banner, { backgroundColor: C.surface2, borderColor: C.border }]}>
+            <Text style={[T.body, { color: C.textMuted }]}>
+              ⏱ Time: {formatTime(sessionTime)}
+            </Text>
+          </View>
+        )}
+
+        {/* Streak celebration banner */}
+        {showStreak && streak > 0 && (
+          <Animated.View style={[
+            s.streakBanner,
+            { backgroundColor: C.surface, borderColor: C.brand + '60' },
+            { transform: [{ scale: streakAnim }], opacity: streakAnim },
+          ]}>
+            <Text style={s.streakFire}>🔥</Text>
+            <View style={{ flex: 1 }}>
+              <Text style={[T.h3, { color: C.text }]}>
+                {streak}-day streak!{streak >= 7 ? ' 🏆' : ''}
+              </Text>
+              <View style={s.streakDots}>
+                {weekDays.map((d) => (
+                  <View
+                    key={d.date}
+                    style={[s.streakDot, d.studied && { backgroundColor: C.brand }, d.isToday && { borderColor: C.brand, borderWidth: 2 }]}
+                  />
+                ))}
+              </View>
+            </View>
+          </Animated.View>
+        )}
+
+        {/* Engagement nudge */}
+        {rp !== undefined && (() => {
+          const nudge = getEngagementNudge('results', { pct, rpEarned, rp, level })
+          return nudge && <NudgeBanner {...nudge} />
+        })()}
 
         {/* Summary card */}
         <View style={[s.summaryCard, cardShadow(C.shadow)]}>
@@ -180,17 +242,44 @@ export default function ResultsScreen({ route, navigation }) {
               <Text style={[T.small, { color: C.text, lineHeight: 19 }]} numberOfLines={2}>
                 {r.question?.text}
               </Text>
-              {!r.correct && r.question && (
-                <Text style={[T.label, { color: C.correct, marginTop: 3, textTransform: 'none', letterSpacing: 0 }]}>
-                  ✓ {r.question.choices?.[r.question.correct ?? r.question.correctIndex]}
-                </Text>
+              {!r.correct && r.question && (() => {
+                const q = r.question
+                const mcAnswer = q.choices?.[q.correct ?? q.correctIndex]
+                if (mcAnswer) {
+                  return (
+                    <Text style={[T.label, { color: C.correct, marginTop: 3, textTransform: 'none', letterSpacing: 0 }]}>
+                      ✓ {mcAnswer}
+                    </Text>
+                  )
+                }
+                if (q.explanation) {
+                  return (
+                    <Text style={[T.small, { color: C.correct, marginTop: 3, lineHeight: 18 }]} numberOfLines={3}>
+                      ✓ {q.explanation}
+                    </Text>
+                  )
+                }
+                return null
+              })()}
+              {r.question?.diveDeep && (
+                <TouchableOpacity
+                  onPress={() => setDiveDeepQ(r.question)}
+                  style={[s.diveDeepBtn, { borderColor: C.brand + '50', backgroundColor: C.brand + '18' }]}
+                  activeOpacity={0.7}
+                >
+                  <Text style={[T.label, { color: C.brand, textTransform: 'none', letterSpacing: 0, fontSize: 12 }]}>🔍 Dive Deep</Text>
+                </TouchableOpacity>
               )}
             </View>
             <Text style={{ fontSize: 16, marginLeft: 6 }}>{r.correct ? '✅' : '❌'}</Text>
           </View>
         ))}
 
-        {/* Actions */}
+        <View style={{ height: 8 }} />
+      </ScrollView>
+
+      {/* ── Sticky action footer — always visible without scrolling ── */}
+      <View style={[s.stickyFooter, { backgroundColor: C.bg, borderTopColor: C.border }]}>
         {passed ? (
           <View style={s.actions}>
             <TouchableOpacity
@@ -245,9 +334,7 @@ export default function ResultsScreen({ route, navigation }) {
             </TouchableOpacity>
           </View>
         )}
-
-        <View style={{ height: 24 }} />
-      </ScrollView>
+      </View>
       {/* ── Mastery celebration overlay ── */}
       {showCelebration && (
         <MasteryCelebration
@@ -255,6 +342,32 @@ export default function ResultsScreen({ route, navigation }) {
           onDismiss={() => setShowCelebration(false)}
         />
       )}
+
+      {/* ── Dive Deep modal ── */}
+      <Modal visible={!!diveDeepQ} transparent animationType="slide" onRequestClose={() => setDiveDeepQ(null)}>
+        <TouchableOpacity style={s.diveBackdrop} activeOpacity={1} onPress={() => setDiveDeepQ(null)} />
+        <View style={[s.diveSheet, { backgroundColor: C.surface }]}>
+          <View style={[s.diveHandle, { backgroundColor: C.border }]} />
+          <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ gap: 14, paddingBottom: 32 }}>
+            <Text style={[s.diveTitle, { color: C.brand }]}>🔍 Explanation</Text>
+            <Text style={[s.diveBody, { color: C.text }]}>{diveDeepQ?.explanation}</Text>
+            {diveDeepQ?.diveDeep && (
+              <>
+                <View style={[s.diveDivider, { backgroundColor: C.border }]} />
+                <Text style={[s.diveDeepLabel, { color: C.textMuted }]}>DEEP DIVE</Text>
+                <Text style={[s.diveBody, { color: C.text }]}>{diveDeepQ?.diveDeep}</Text>
+              </>
+            )}
+          </ScrollView>
+          <TouchableOpacity
+            style={[s.diveCloseBtn, { backgroundColor: C.brand }]}
+            onPress={() => setDiveDeepQ(null)}
+            activeOpacity={0.85}
+          >
+            <Text style={s.diveCloseBtnText}>Got it ✓</Text>
+          </TouchableOpacity>
+        </View>
+      </Modal>
 
     </SafeAreaView>
   )
@@ -267,10 +380,25 @@ function makeStyles(C) {
     circleOuter:  { width: 170, height: 170, borderRadius: 85, borderWidth: 6, alignItems: 'center', justifyContent: 'center', marginBottom: 8, shadowColor: '#000', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.15, shadowRadius: 12, elevation: 6 },
     circleInner:  { width: 150, height: 150, borderRadius: 75, alignItems: 'center', justifyContent: 'center', gap: 4 },
     banner:       { alignSelf: 'stretch', borderRadius: 16, paddingHorizontal: 18, paddingVertical: 13, borderWidth: 1 },
+    streakBanner: { flexDirection: 'row', alignItems: 'center', gap: 12, alignSelf: 'stretch', borderRadius: 16, padding: 14, borderWidth: 1.5 },
+    streakFire:   { fontSize: 36 },
+    streakDots:   { flexDirection: 'row', gap: 5, marginTop: 6 },
+    streakDot:    { width: 12, height: 12, borderRadius: 6, backgroundColor: C.surface2, borderWidth: 1, borderColor: C.border },
     summaryCard:  { alignSelf: 'stretch', backgroundColor: C.surface, borderRadius: 20, overflow: 'hidden', borderWidth: 1, borderColor: C.border, shadowColor: '#000', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.1, shadowRadius: 12, elevation: 5 },
     summaryRow:   { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', padding: 14 },
     summaryBorder:{ borderTopWidth: 1, borderTopColor: C.border },
     resultRow:    { alignSelf: 'stretch', flexDirection: 'row', alignItems: 'flex-start', gap: 8, backgroundColor: C.surface, borderRadius: 12, padding: 12, borderLeftWidth: 3 },
-    actions:      { alignSelf: 'stretch', flexDirection: 'row', gap: 12, marginTop: 8 },
+    stickyFooter: { paddingHorizontal: 20, paddingTop: 12, paddingBottom: 12, borderTopWidth: StyleSheet.hairlineWidth },
+    actions:      { alignSelf: 'stretch', flexDirection: 'row', gap: 12 },
+    diveDeepBtn:  { alignSelf: 'flex-start', borderWidth: 1, borderRadius: 8, paddingHorizontal: 10, paddingVertical: 4, marginTop: 6 },
+    diveBackdrop: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.45)' },
+    diveSheet:    { position: 'absolute', bottom: 0, left: 0, right: 0, borderTopLeftRadius: 24, borderTopRightRadius: 24, padding: 20, maxHeight: '75%' },
+    diveHandle:   { width: 40, height: 4, borderRadius: 2, alignSelf: 'center', marginBottom: 16 },
+    diveTitle:    { fontSize: 17, fontWeight: '800' },
+    diveBody:     { fontSize: 15, lineHeight: 24 },
+    diveDivider:  { height: 1 },
+    diveDeepLabel:{ fontSize: 11, fontWeight: '700', letterSpacing: 1 },
+    diveCloseBtn: { borderRadius: 14, paddingVertical: 14, alignItems: 'center', marginTop: 8 },
+    diveCloseBtnText: { color: '#fff', fontWeight: '700', fontSize: 15 },
   })
 }

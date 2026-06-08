@@ -5,6 +5,7 @@
  */
 import { useEffect, useRef, useState, useCallback } from 'react'
 import { Platform, TurboModuleRegistry } from 'react-native'
+import { isAdTrackingGranted } from '../utils/adTracking'
 
 // Check once at hook-module load time; avoids the TurboModuleRegistry.getEnforcing throw.
 // On web TurboModuleRegistry may be undefined, so guard the access with optional chaining.
@@ -40,13 +41,15 @@ export function useRewardedAd({ onReward } = {}) {
       ? (TestIds?.REWARDED_INTERSTITIAL ?? 'ca-app-pub-3940256099942544/5354046379')
       : AD_UNIT_ID
 
-    const ad = RewardedInterstitialAd.createForAdRequest(unitId, { requestNonPersonalizedAdsOnly: true })
+    // Personalized ads only when the user granted ATT; otherwise non-personalized.
+    const ad = RewardedInterstitialAd.createForAdRequest(unitId, { requestNonPersonalizedAdsOnly: !isAdTrackingGranted() })
     adRef.current = ad
 
     const unsubLoaded = ad.addAdEventListener(RewardedAdEventType.LOADED, () => { setReady(true); setLoading(false) })
     const unsubEarned = ad.addAdEventListener(RewardedAdEventType.EARNED_REWARD, () => { onRewardRef.current?.() })
     const unsubClosed = ad.addAdEventListener(AdEventType.CLOSED, () => { setReady(false); setLoading(true); ad.load() })
-    const unsubError  = ad.addAdEventListener(AdEventType.ERROR,  () => {
+    const unsubError  = ad.addAdEventListener(AdEventType.ERROR,  (err) => {
+      console.warn('[AdMob Error]', err)
       setReady(false); setLoading(false)
       setTimeout(() => { setLoading(true); ad.load() }, 30_000)
     })

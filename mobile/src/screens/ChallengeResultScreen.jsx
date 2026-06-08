@@ -13,7 +13,7 @@ export default function ChallengeResultScreen({ route, navigation }) {
   const tied = !pending && score === friendScore
 
   return (
-    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       <View style={s.center}>
         <Text style={s.emoji}>{pending ? '⏳' : won ? '🏆' : tied ? '🤝' : '😤'}</Text>
         <Text style={s.title}>

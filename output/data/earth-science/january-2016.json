@@ -1,0 +1,1066 @@
+{
+  "subject": "earth-science",
+  "session": "january-2016",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The Foucault pendulum and the Coriolis effect both provide evidence of Earth\u2019s",
+      "choices": [
+        "revolution",
+        "rotation",
+        "tilted axis",
+        "elliptical orbit"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "When it is solar noon at a location at 75\u00b0 W longitude, what is the solar time at a location at 120\u00b0 W longitude?",
+      "choices": [
+        "9 a.m.",
+        "12 noon",
+        "3 p.m.",
+        "12 midnight"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The diagram below represents an observer measuring the altitude of Polaris. At which latitude is this observer located?",
+      "choices": [
+        "16\u00b0 N",
+        "37\u00b0 N",
+        "53\u00b0 N",
+        "90\u00b0 N"
+      ],
+      "image": "/images/exams/earth-science/january-2016/q3.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which characteristic of the planets in our solar system increases as the distance from the Sun increases?",
+      "choices": [
+        "equatorial diameter",
+        "eccentricity of orbit",
+        "period of rotation",
+        "period of revolution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "New York State\u2019s highest peak, Mt. Marcy, is located at approximately",
+      "choices": [
+        "44\u00b010\u0002 N 74\u00b005\u0002 W",
+        "44\u00b005\u0002 N 73\u00b055\u0002 W",
+        "73\u00b055\u0002 N 44\u00b010\u0002 W",
+        "74\u00b005\u0002 N 44\u00b005\u0002 W"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the orbital position of Earth on October 21. Which Northern Hemisphere season is occurring when Earth reaches position X?",
+      "choices": [
+        "winter",
+        "spring",
+        "summer",
+        "fall (Not drawn to scale) Sun X October 21 Earth\u2019s orbit Polaris Horizon Zenith 37\u00b0 53\u00b0"
+      ],
+      "image": "/images/exams/earth-science/january-2016/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The diagram below represents eight positions of the Moon in its orbit. Why are high tides on Earth greatest when the Moon is in position A and in position E?",
+      "choices": [
+        "The Moon is closer to the Sun.",
+        "The Moon is closer to Earth.",
+        "The Moon, the Sun, and Earth are aligned.",
+        "The Moon is in the same phase at both locations."
+      ],
+      "image": "/images/exams/earth-science/january-2016/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The model below represents the apparent path of the Sun across the sky on March 21 as seen by an observer on Earth. At which latitude is the observer located?",
+      "choices": [
+        "90\u00b0 N",
+        "42\u00b0 N",
+        "23.5\u00b0 N",
+        "0\u00b0"
+      ],
+      "image": "/images/exams/earth-science/january-2016/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "According to astronomers, the age of the universe is estimated to be",
+      "choices": [
+        "1.3 billion years",
+        "4.6 billion years",
+        "7.9 billion years",
+        "13.8 billion years"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Light from distant galaxies most likely shows a",
+      "choices": [
+        "red shift, indicating that the universe is expanding",
+        "red shift, indicating that the universe is contracting",
+        "blue shift, indicating that the universe is expanding",
+        "blue shift, indicating that the universe is contracting"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which gas is inferred to have been absent from Earth\u2019s atmosphere during the Early Archean Era?",
+      "choices": [
+        "carbon dioxide",
+        "nitrogen",
+        "oxygen",
+        "water vapor"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "How old is a bone that has 12.5% of the original amount of radioactive carbon-14 remaining?",
+      "choices": [
+        "5,700 years",
+        "11,400 years",
+        "17,100 years",
+        "22,800 years"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which weather instrument is most useful in measuring relative humidity?",
+      "choices": [
+        "barometer",
+        "anemometer",
+        "psychrometer",
+        "wind vane"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "If the air temperature is 20\u00b0C and the relative humidity is 58%, what is the dewpoint?",
+      "choices": [
+        "5\u00b0C",
+        "12\u00b0C",
+        "15\u00b0C",
+        "38\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Equal areas of which type of Earth surface will absorb more insolation and radiate more energy back toward space in the same amount of time?",
+      "choices": [
+        "light colored and rough",
+        "dark colored and rough",
+        "light colored and smooth",
+        "dark colored and smooth S N E W Sun\u2019s apparent path Observer Horizon Noon Sun (Not drawn to scale) G H B C D F Sun\u2019s rays Earth North Pole E A"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The map below shows the location of India and the Indian Ocean. Which statement best describes the monsoon winds during the rainy season in India?",
+      "choices": [
+        "Warm, moist air flows from India to the Indian Ocean.",
+        "Warm, moist air flows from the Indian Ocean to India.",
+        "Cold, dry air flows from India to the Indian Ocean.",
+        "Cold, dry air flows from the Indian Ocean to India."
+      ],
+      "image": "/images/exams/earth-science/january-2016/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which ocean current directly warms Western Europe?",
+      "choices": [
+        "North Atlantic Current",
+        "South Equatorial Current",
+        "Canary Current",
+        "Labrador Current"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which group of organisms survived mass extinctions that marked the ends of both the Paleozoic Era and the Mesozoic Era?",
+      "choices": [
+        "ammonoids",
+        "graptolites",
+        "eurypterids",
+        "gastropods"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "In which region of the electromagnetic spectrum is most of Earth\u2019s outgoing terrestrial radiation?",
+      "choices": [
+        "infrared",
+        "visible",
+        "ultraviolet",
+        "x rays"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Most scientists infer that increasing levels of carbon dioxide in Earth\u2019s atmosphere are contributing to",
+      "choices": [
+        "decreased thickness of the troposphere",
+        "depletion of ozone",
+        "increased absorption of ultraviolet radiation",
+        "increased global temperatures"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The bedrock cross section below contains rock formations A, B, C, and D. The rock formations have not been overturned. Which sequence represents the relative ages of these rock formations, from oldest to youngest?",
+      "choices": [
+        "B \u2192A \u2192C \u2192D",
+        "B \u2192D \u2192C \u2192A",
+        "D \u2192C \u2192A \u2192B",
+        "D \u2192B \u2192A \u2192C"
+      ],
+      "image": "/images/exams/earth-science/january-2016/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A volcanic ash layer between sedimentary rock layers is used by geologists to",
+      "choices": [
+        "P-waves arrive earlier than S-waves.",
+        "P-waves and S-waves are both recorded at all stations.",
+        "Only S-waves are recorded at all stations.",
+        "Only P-waves are recorded on the opposite side of Earth."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Examination of the fossil record shows a general tendency of organisms to become increasingly more complex through geologic time. This finding supports the theory that living things have undergone",
+      "choices": [
+        "metamorphism",
+        "evolution",
+        "radioactive decay",
+        "mass extinctions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Crustal formation, which may cause the widening of an ocean, is most likely occurring at the boundary between the",
+      "choices": [
+        "African Plate and the Eurasian Plate",
+        "Pacific Plate and the Philippine Plate",
+        "Indian-Australian Plate and the Antarctic Plate",
+        "South American Plate and the North American Plate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "How long after receiving the first P-wave from an earthquake centered 4000 kilometers away does a seismic station receive its first S-wave from the same earthquake?",
+      "choices": [
+        "1 minute",
+        "5 minutes 35 seconds",
+        "7 minutes",
+        "12 minutes 40 seconds"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which evidence recorded at seismic stations following an earthquake supports the inference that Earth\u2019s interior changes from solid rock to molten iron and nickel at the mantle-core boundary?",
+      "choices": [
+        "a delta",
+        "a sandbar",
+        "a barrier island",
+        "an outwash plain Gulf of Mexico"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Which graph best indicates the densities of the planets in our solar system?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The diagram below represents cross sections of equal-size beakers A, B, and C filled with beads. Which statement best compares the porosity in the three beakers?",
+      "choices": [
+        "Beaker A and beaker B have the same porosity, and beaker C has the least porosity.",
+        "Beaker A and beaker B have the same porosity, and beaker C has the greatest porosity.",
+        "Beaker B has the greatest porosity, beaker A has less porosity, and beaker C has the least porosity.",
+        "Beaker C has the greatest porosity, beaker B has less porosity, and beaker A has the least porosity. A B C 6 5 4 3 2 1 0 Mercury Earth Venus Mars Jupiter Saturn Uranus Neptune 6 5 4 3 2 1 0 Mercury Earth Venus Mars Jupiter Saturn Uranus Neptune Density (g/cm3) 6 5 4 3 2 1 0 Mercury Earth Venus Mars Jupiter Saturn Uranus Neptune Density (g/cm3) 6 5 4 3 2 1 0 Mercury Earth Venus Mars Jupiter Saturn Uranus Neptune ( 1 ) ( 3 ) ( 2 ) ( 4 ) Density (g/cm3) Density (g/cm3)"
+      ],
+      "image": "/images/exams/earth-science/january-2016/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "On the map of the United States shown below, four lines have been drawn and labeled A, B, C, and D. The length of which line best represents the distance from Earth\u2019s surface to the top of the mesosphere?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/january-2016/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Four rock outcrops, labeled 1, 2, 3, and 4, found within the same plateau, are represented below. Index fossils found in some of the rock layers are shown. The rock layers have not been overturned. Which rock layer is the youngest?",
+      "choices": [
+        "sandstone in outcrop 1",
+        "breccia in outcrop 2",
+        "conglomerate in outcrop 3",
+        "sandstone in outcrop 4 Outcrop 4 Outcrop 3 Outcrop 2 Outcrop 1 D C B A 0 500 1000 1500 km"
+      ],
+      "image": "/images/exams/earth-science/january-2016/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "The map below shows a position of the polar jet stream over North America in January. Which map best shows the air-mass movements associated with this jet stream position? mP cT cP mT J e t s t r e a m J e t s t r e a m J e t s t r e a m ( 1 ) ( 3 ) ( 2 ) ( 4 ) J e t s t r e a m cT mP mT cP Je t s t r e a m",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "The topographic map below shows a depression contour line on Earth\u2019s surface. Points A, B, C, and D represent surface locations. Contour line elevations are in feet. Which profile best shows the topography along line AD? A B C D Distance Elevation (ft) ( 1 ) 750 740 730 A B C D Distance Elevation (ft) ( 2 ) 750 740 730 A B C D Distance Elevation (ft) ( 4 ) 750 740 730 A B C D Distance Elevation (ft) ( 3 ) 750 740 730 N 740 A B D 740 C 750 730 730 Contour interval = 10 ft ( )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The map below shows part of a stream drainage pattern. Which topographic map best shows the contour lines for this stream drainage pattern? ( 1 ) ( 2 ) ( 3 ) ( 4 ) 100 100 100 100 100 100 100 100 100 100 100 100",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "The map below shows a portion of the western United States and Canada. Two cities in Canada, Vancouver and Winnipeg, are labeled on the map. Which graph best represents the average monthly air temperatures for Vancouver and Winnipeg? J F M A M J J A S O N D Month ( 1 ) J F M A M J J A S O N D Month ( 3 ) J F M A M J J A S O N D Month ( 2 ) J F M A M J J A S O N D Month ( 4 ) 0 10 20 30 40 50 60 70 Vancouver Winnipeg 0 10 20 30 40 50 60 70 Winnipeg Vancouver Vancouver Winnipeg 0 10 20 30 40 50 60 70 Winnipeg Vancouver 0 10 20 30 40 50 60 70 CANADA Winnipeg Pacific Ocean Vancouver UNITED STATES",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "What was the barometric pressure for location X on December 8?",
+      "choices": [
+        "1016 mb",
+        "1012 mb",
+        "1008 mb",
+        "1004 mb N N December 8, 2009 at 7:00 a.m. 984 December 9, 2009 at 7:00 a.m. HIGH LOW 988 992 1004 1000 1024 1020 HIGH New York 1024 1020 LOW x 996 New York"
+      ],
+      "image": "/images/exams/earth-science/january-2016/context_36_40.png",
+      "context": "Base your answers to questions 36 through 40 on the weather maps below and on your knowledge of Earth\nscience. The weather maps show the eastern United States on two consecutive days. Some isobars are labeled\nin millibars (mb). Letter X represents a location on Earth\u2019s surface on December 8, 2009.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Which map best shows the general surface wind pattern around the high-pressure system on December 8?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_36_40.png",
+      "context": "Base your answers to questions 36 through 40 on the weather maps below and on your knowledge of Earth\nscience. The weather maps show the eastern United States on two consecutive days. Some isobars are labeled\nin millibars (mb). Letter X represents a location on Earth\u2019s surface on December 8, 2009.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "In which direction did the high-pressure center move from December 8, 2009, to December 9, 2009?",
+      "choices": [
+        "southwest",
+        "southeast",
+        "northwest",
+        "northeast"
+      ],
+      "image": "/images/exams/earth-science/january-2016/context_36_40.png",
+      "context": "Base your answers to questions 36 through 40 on the weather maps below and on your knowledge of Earth\nscience. The weather maps show the eastern United States on two consecutive days. Some isobars are labeled\nin millibars (mb). Letter X represents a location on Earth\u2019s surface on December 8, 2009.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which type of front was located just south of New York City on December 9?",
+      "choices": [
+        "cold",
+        "warm",
+        "stationary",
+        "occluded"
+      ],
+      "image": "/images/exams/earth-science/january-2016/context_36_40.png",
+      "context": "Base your answers to questions 36 through 40 on the weather maps below and on your knowledge of Earth\nscience. The weather maps show the eastern United States on two consecutive days. Some isobars are labeled\nin millibars (mb). Letter X represents a location on Earth\u2019s surface on December 8, 2009.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which information shown on the weather maps best indicates that wind speeds in New York State were greater on December 9 than on December 8?",
+      "choices": [
+        "The isobars were closer together on December 9.",
+        "The fronts were closer together on December 9.",
+        "The air pressure over New York State was lower on December 9.",
+        "The air pressure over New York State was higher on December 9. ( 4 ) ( 3 ) ( 2 ) ( 1 ) HIGH HIGH HIGH HIGH LOW x 1020 1024 LOW x LOW x LOW x 1020 1024 1020 1020 1020 1024 1024 1024 1020 1024 1020 1024 1020 1024"
+      ],
+      "image": "/images/exams/earth-science/january-2016/context_36_40.png",
+      "context": "Base your answers to questions 36 through 40 on the weather maps below and on your knowledge of Earth\nscience. The weather maps show the eastern United States on two consecutive days. Some isobars are labeled\nin millibars (mb). Letter X represents a location on Earth\u2019s surface on December 8, 2009.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Which process represented in the model is occurring in each layer of this star to produce the new chemical elements?",
+      "choices": [
+        "contact metamorphism",
+        "internal crystallization",
+        "nuclear fusion",
+        "radioactive decay"
+      ],
+      "image": "/images/exams/earth-science/january-2016/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the cross-sectional model below and the table on the \nfollowing page, and on your knowledge of Earth science. The model shows a reddish-orange supergiant star. \nThe layers in the model indicate where new chemical elements are forming from existing elements as \ntemperature and pressure conditions increase with depth within the star. In each layer, atomic nuclei of the\nexisting chemical element combine to form the new elements shown to the right of the arrow. The table shows\nthe chemical symbols and names of selected elements in the star.\nFe/Ni\nKey\nCombines\nto form\nCore\nReddish-orange\nsupergiant star\n(Not drawn to scale)\nH\nHe\nHe\nC, O\nC\nNe, Mg\nNe\nO, Mg\nO\nSi, S\nSi\nFe, Ni\n\nElements in the Star",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "What is the approximate surface temperature of this star during this stage of development?",
+      "choices": [
+        "3,200 K",
+        "6,000 K",
+        "10,500 K",
+        "18,000 K"
+      ],
+      "image": "/images/exams/earth-science/january-2016/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the cross-sectional model below and the table on the \nfollowing page, and on your knowledge of Earth science. The model shows a reddish-orange supergiant star. \nThe layers in the model indicate where new chemical elements are forming from existing elements as \ntemperature and pressure conditions increase with depth within the star. In each layer, atomic nuclei of the\nexisting chemical element combine to form the new elements shown to the right of the arrow. The table shows\nthe chemical symbols and names of selected elements in the star.\nFe/Ni\nKey\nCombines\nto form\nCore\nReddish-orange\nsupergiant star\n(Not drawn to scale)\nH\nHe\nHe\nC, O\nC\nNe, Mg\nNe\nO, Mg\nO\nSi, S\nSi\nFe, Ni\n\nElements in the Star",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The luminosity of this star can best be described as",
+      "choices": [
+        "less than the luminosity of the Sun",
+        "greater than the luminosity of most stars in the main sequence",
+        "approximately the same luminosity as a white dwarf",
+        "approximately the same luminosity as Aldebaran Chemical Symbol Name H hydrogen He helium C carbon O oxygen Ne neon Mg magnesium Si silicon S sulfur Fe iron Ni nickel"
+      ],
+      "image": "/images/exams/earth-science/january-2016/context_41_43.png",
+      "context": "Base your answers to questions 41 through 43 on the cross-sectional model below and the table on the \nfollowing page, and on your knowledge of Earth science. The model shows a reddish-orange supergiant star. \nThe layers in the model indicate where new chemical elements are forming from existing elements as \ntemperature and pressure conditions increase with depth within the star. In each layer, atomic nuclei of the\nexisting chemical element combine to form the new elements shown to the right of the arrow. The table shows\nthe chemical symbols and names of selected elements in the star.\nFe/Ni\nKey\nCombines\nto form\nCore\nReddish-orange\nsupergiant star\n(Not drawn to scale)\nH\nHe\nHe\nC, O\nC\nNe, Mg\nNe\nO, Mg\nO\nSi, S\nSi\nFe, Ni\n\nElements in the Star",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "The formation of a roche mouton\u00e9e by glaciers is best described as an example of",
+      "choices": [
+        "chemical weathering",
+        "physical weathering",
+        "sediment deposition",
+        "mass movement"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 44 through 47 on the reading passage below and on your knowledge of Earth\nscience.\nRoche Mouton\u00e9e\nA roche mouton\u00e9e is a glacial landscape feature produced as an advancing glacier\nslides over a hill of surface bedrock. As the glacier advances up the side of the hill, the\nsurface bedrock is abraded and smoothed by rock fragments carried within the base of\nthe glacial ice, creating a more gentle hillslope. As the glacier advances down the oppo-\nsite side of the hill, chunks of bedrock are broken off and removed by the ice, a process\ncalled glacial quarrying (plucking), making this side of the hill steeper. The resulting\nhill resembles a drumlin, except it is often smaller and is composed of solid bedrock.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Which side-view model best shows the direction of ice movement and the locations of glacial abrasion and glacial quarrying that form a roche mouton\u00e9e? \u0002\u0003\u0004\u0005\u0006 \u0007\u0003\b \u0003 \u0006 Glacier with embedded rock fragments slides over bedrock A Glacier with embedded rock fragments slides over bedrock ( 1 ) ( 2 ) Glacier with embedded rock fragments slides over bedrock ( 3 ) Glacier with embedded rock fragments slides over bedrock ( 4 ) Q Q A Q \u0002\u0003\u0004\u0005\u0006 \u0007\u0003\b \u0003 \u0006 \u0002\u0003\u0004\u0005\u0006 \u0007\u0003\b \u0003 \u0006 \u0002\u0003\u0004\u0005\u0006 \u0007\u0003\b \u0003 \u0006 Key A = Glacial abrasion Q= Glacial quarrying A Q A",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/q45.png",
+      "context": "Base your answers to questions 44 through 47 on the reading passage below and on your knowledge of Earth\nscience.\nRoche Mouton\u00e9e\nA roche mouton\u00e9e is a glacial landscape feature produced as an advancing glacier\nslides over a hill of surface bedrock. As the glacier advances up the side of the hill, the\nsurface bedrock is abraded and smoothed by rock fragments carried within the base of\nthe glacial ice, creating a more gentle hillslope. As the glacier advances down the oppo-\nsite side of the hill, chunks of bedrock are broken off and removed by the ice, a process\ncalled glacial quarrying (plucking), making this side of the hill steeper. The resulting\nhill resembles a drumlin, except it is often smaller and is composed of solid bedrock.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "A drumlin differs from a roche mouton\u00e9e because a drumlin is",
+      "choices": [
+        "formed by glaciers",
+        "dome shaped",
+        "deposited by glacial meltwater",
+        "composed of loose sediments"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 44 through 47 on the reading passage below and on your knowledge of Earth\nscience.\nRoche Mouton\u00e9e\nA roche mouton\u00e9e is a glacial landscape feature produced as an advancing glacier\nslides over a hill of surface bedrock. As the glacier advances up the side of the hill, the\nsurface bedrock is abraded and smoothed by rock fragments carried within the base of\nthe glacial ice, creating a more gentle hillslope. As the glacier advances down the oppo-\nsite side of the hill, chunks of bedrock are broken off and removed by the ice, a process\ncalled glacial quarrying (plucking), making this side of the hill steeper. The resulting\nhill resembles a drumlin, except it is often smaller and is composed of solid bedrock.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The chunks of bedrock removed by glacial quarrying and transported by the glaciers most likely produce",
+      "choices": [
+        "terminal outwash plains",
+        "kettle lake depressions",
+        "V-shaped valleys",
+        "parallel scratches in surface bedrock P.S./ GO ON TO THE NEXT PAGE \u00b6"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 44 through 47 on the reading passage below and on your knowledge of Earth\nscience.\nRoche Mouton\u00e9e\nA roche mouton\u00e9e is a glacial landscape feature produced as an advancing glacier\nslides over a hill of surface bedrock. As the glacier advances up the side of the hill, the\nsurface bedrock is abraded and smoothed by rock fragments carried within the base of\nthe glacial ice, creating a more gentle hillslope. As the glacier advances down the oppo-\nsite side of the hill, chunks of bedrock are broken off and removed by the ice, a process\ncalled glacial quarrying (plucking), making this side of the hill steeper. The resulting\nhill resembles a drumlin, except it is often smaller and is composed of solid bedrock.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "In New York State, the Marcellus shale is generally found in which type of landscape region?",
+      "choices": [
+        "plain",
+        "plateau",
+        "mountains",
+        "lowlands"
+      ],
+      "image": "/images/exams/earth-science/january-2016/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the passage and map below and on your knowledge of\nEarth science. The map shows the location of the Marcellus shale formation in New York State.\nThe Marcellus Shale\nThe Marcellus shale is a black shale formation that was formed during the Middle\nDevonian Period. The shale extends from New York State as far south as Alabama. \nThe Marcellus shale is exposed at the surface in the northern Finger Lakes region, and\nis buried 2.1 kilometers below the surface along the New York-Pennsylvania border.\nGeologists estimate that the Marcellus shale contains hundreds of trillions of cubic\nfeet of natural gas. Most of the Marcellus shale does not allow fluids (gases and liquids)\nto flow through the rock. In order to obtain the natural gas trapped in the rock, \nthe shale is fractured. This hydraulic fracturing consists of drilling a well, then pumping\nin large amounts of water containing chemicals and sand under high pressure to \ncreate cracks in the gas-bearing rock. Although this process can allow the trapped gas\nto be removed from the shale, opponents of hydraulic fracturing argue that the \nchemicals used in the process may lead to groundwater contamination.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The reading passage states, \u201cMost of the Marcellus shale does not allow fluids (gases and liquids) to flow through the rock.\u201d This statement suggests that the Marcellus shale is",
+      "choices": [
+        "clastic",
+        "coarse grained",
+        "porous",
+        "impermeable"
+      ],
+      "image": "/images/exams/earth-science/january-2016/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the passage and map below and on your knowledge of\nEarth science. The map shows the location of the Marcellus shale formation in New York State.\nThe Marcellus Shale\nThe Marcellus shale is a black shale formation that was formed during the Middle\nDevonian Period. The shale extends from New York State as far south as Alabama. \nThe Marcellus shale is exposed at the surface in the northern Finger Lakes region, and\nis buried 2.1 kilometers below the surface along the New York-Pennsylvania border.\nGeologists estimate that the Marcellus shale contains hundreds of trillions of cubic\nfeet of natural gas. Most of the Marcellus shale does not allow fluids (gases and liquids)\nto flow through the rock. In order to obtain the natural gas trapped in the rock, \nthe shale is fractured. This hydraulic fracturing consists of drilling a well, then pumping\nin large amounts of water containing chemicals and sand under high pressure to \ncreate cracks in the gas-bearing rock. Although this process can allow the trapped gas\nto be removed from the shale, opponents of hydraulic fracturing argue that the \nchemicals used in the process may lead to groundwater contamination.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Why might people living near Elmira, New York, be opposed to energy companies using the hydraulic fracturing process?",
+      "choices": [
+        "It could lower their energy costs.",
+        "The injected water could cause flooding in the area.",
+        "There is the potential for the pollution of groundwater.",
+        "There is an increased risk of volcanic activity. Key Marcellus shale area Marcellus Shale Formation in New York State"
+      ],
+      "image": "/images/exams/earth-science/january-2016/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the passage and map below and on your knowledge of\nEarth science. The map shows the location of the Marcellus shale formation in New York State.\nThe Marcellus Shale\nThe Marcellus shale is a black shale formation that was formed during the Middle\nDevonian Period. The shale extends from New York State as far south as Alabama. \nThe Marcellus shale is exposed at the surface in the northern Finger Lakes region, and\nis buried 2.1 kilometers below the surface along the New York-Pennsylvania border.\nGeologists estimate that the Marcellus shale contains hundreds of trillions of cubic\nfeet of natural gas. Most of the Marcellus shale does not allow fluids (gases and liquids)\nto flow through the rock. In order to obtain the natural gas trapped in the rock, \nthe shale is fractured. This hydraulic fracturing consists of drilling a well, then pumping\nin large amounts of water containing chemicals and sand under high pressure to \ncreate cracks in the gas-bearing rock. Although this process can allow the trapped gas\nto be removed from the shale, opponents of hydraulic fracturing argue that the \nchemicals used in the process may lead to groundwater contamination.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify one geologic process that occurred in this region that produced the unconformity in this outcrop.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_51_52.png",
+      "context": "Base your answers to questions 51 and 52 on the cross section below and on your knowledge of Earth \nscience. The unconformity is located at the boundary between Middle Proterozoic rock and Late Cambrian and\nEarly Ordovician rock.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify by name the oldest New York State index fossil that could be found in the Early Ordovician bedrock. Late Cambrian and Early Ordovician rock Middle Proterozoic rock Unconformity",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_51_52.png",
+      "context": "Base your answers to questions 51 and 52 on the cross section below and on your knowledge of Earth \nscience. The unconformity is located at the boundary between Middle Proterozoic rock and Late Cambrian and\nEarly Ordovician rock.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Identify by name the two tectonic plates labeled on the map above that are located directly on each side of the earthquake epicenter.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_53_56.png",
+      "context": "Base your answers to questions 53 through 56 on the passage and the map below and on your knowledge of\nEarth science. The map indicates the epicenter (*\n) of a major earthquake that occurred at 38\u00b0 N 142\u00b0 E. This\nmap also shows some smaller plates believed to be part of the major tectonic plates shown in the Earth Science\nReference Tables. Letter A represents a location on a plate boundary.\nDevastating Tsunami\nOn March 11, 2011, one of the largest earthquakes ever recorded (magnitude 9.0)\nproduced a 7-meter-high tsunami that devastated Japan\u2019s eastern coast. Thousands \nof people died and billions of dollars in damage occurred. Several hours after the \nearthquake, the tsunami reached the Hawaiian Islands and parts of North America\u2019s\nwest coast.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "On the cross section of the tectonic plate boundary in your answer booklet, draw one arrow in each circle to indicate the general direction of plate motion near the earthquake epicenter.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_53_56.png",
+      "context": "Base your answers to questions 53 through 56 on the passage and the map below and on your knowledge of\nEarth science. The map indicates the epicenter (*\n) of a major earthquake that occurred at 38\u00b0 N 142\u00b0 E. This\nmap also shows some smaller plates believed to be part of the major tectonic plates shown in the Earth Science\nReference Tables. Letter A represents a location on a plate boundary.\nDevastating Tsunami\nOn March 11, 2011, one of the largest earthquakes ever recorded (magnitude 9.0)\nproduced a 7-meter-high tsunami that devastated Japan\u2019s eastern coast. Thousands \nof people died and billions of dollars in damage occurred. Several hours after the \nearthquake, the tsunami reached the Hawaiian Islands and parts of North America\u2019s\nwest coast.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Describe one immediate action that was most likely taken in the Hawaiian Islands to prevent the loss of life as the tsunami approached.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_53_56.png",
+      "context": "Base your answers to questions 53 through 56 on the passage and the map below and on your knowledge of\nEarth science. The map indicates the epicenter (*\n) of a major earthquake that occurred at 38\u00b0 N 142\u00b0 E. This\nmap also shows some smaller plates believed to be part of the major tectonic plates shown in the Earth Science\nReference Tables. Letter A represents a location on a plate boundary.\nDevastating Tsunami\nOn March 11, 2011, one of the largest earthquakes ever recorded (magnitude 9.0)\nproduced a 7-meter-high tsunami that devastated Japan\u2019s eastern coast. Thousands \nof people died and billions of dollars in damage occurred. Several hours after the \nearthquake, the tsunami reached the Hawaiian Islands and parts of North America\u2019s\nwest coast.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify one geologic feature that was most likely produced by plate interaction at point A. \u0005 \u000e \u000f\u000f \u0006 \u0010\u0011\u000e\u0012 \u0013\u0011 \u0014\u0006\u0011 \u0006\u0015 \u0016\u000e\u0006\b \u0012 \u0010\u0011\u000e\u0012 \u0013\u0011 \u0012\u0004 \u0017 \u0004\u0018 \u000e\u0012 \u0006 \u0019\u0012\u0015 \u0005\u001a\b\u0012\u001b\u0006 \u0006\u000f \u0004\u0006 \u0006\u0015 \u001b \u0012 \u0012 \u000e\u0012 \u0006 \b \u0013\u0012 \u000e\u0012 \u0006 \u0005 \u000e \u000f\u000f \u0006 \u000e\u0012 \u0006 \u0012\u0015 \u0012 \u0012 \u000e\u0012 \u0006 \u0012 ! \"\u0006 \u000e\u0012 \u0006 \u0016\u0007\b\u0015 \u000e\u0012 \u0006 \u001b\u0005\u0003 \u0011\u001b \u000e\u0012 \u0006 # \u0002 Key Smaller plate boundaries Japanese Islands A P.S./",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_53_56.png",
+      "context": "Base your answers to questions 53 through 56 on the passage and the map below and on your knowledge of\nEarth science. The map indicates the epicenter (*\n) of a major earthquake that occurred at 38\u00b0 N 142\u00b0 E. This\nmap also shows some smaller plates believed to be part of the major tectonic plates shown in the Earth Science\nReference Tables. Letter A represents a location on a plate boundary.\nDevastating Tsunami\nOn March 11, 2011, one of the largest earthquakes ever recorded (magnitude 9.0)\nproduced a 7-meter-high tsunami that devastated Japan\u2019s eastern coast. Thousands \nof people died and billions of dollars in damage occurred. Several hours after the \nearthquake, the tsunami reached the Hawaiian Islands and parts of North America\u2019s\nwest coast.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "On the grid in your answer booklet, the Earth\u2013Moon distance data from December 2 to December 12 have already been plotted. Complete the line graph by plotting the Earth\u2013Moon distances from December 14 to December 30. Continue the line from December 12 through all nine of your plotted points.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_57_61.png",
+      "context": "Base your answers to questions 57 through 61 on the data table below and on your knowledge of Earth \nscience. The table shows the distances from Earth to the Moon for certain days during December 2010. \nThe percent of the Moon illuminated by the Sun as seen from Earth is also given.\nMoon Data December 2010",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Explain how the Earth\u2013Moon distance data support the inference that the Moon\u2019s orbit is an ellipse.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_57_61.png",
+      "context": "Base your answers to questions 57 through 61 on the data table below and on your knowledge of Earth \nscience. The table shows the distances from Earth to the Moon for certain days during December 2010. \nThe percent of the Moon illuminated by the Sun as seen from Earth is also given.\nMoon Data December 2010",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "On which date shown in the data table was the gravitational attraction between the Moon and Earth the greatest?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_57_61.png",
+      "context": "Base your answers to questions 57 through 61 on the data table below and on your knowledge of Earth \nscience. The table shows the distances from Earth to the Moon for certain days during December 2010. \nThe percent of the Moon illuminated by the Sun as seen from Earth is also given.\nMoon Data December 2010",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify one date during December 2010 when the Moon was at its mean distance from Earth as indicated on the Earth Science Reference Tables.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_57_61.png",
+      "context": "Base your answers to questions 57 through 61 on the data table below and on your knowledge of Earth \nscience. The table shows the distances from Earth to the Moon for certain days during December 2010. \nThe percent of the Moon illuminated by the Sun as seen from Earth is also given.\nMoon Data December 2010",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "A lunar eclipse occurred during December 2010. On which date did this eclipse most likely occur? Date December 2010 Approximate Earth\u2013Moon Distance (x 103 km) Illuminated Moon Seen from Earth (%) 2 371 12.3 4 375 1.5 6 383 1.2 8 393 10.2 10 401 25.5 12 404 44.0 14 403 63.3 16 396 81.0 18 386 94.3 20 377 100.0 22 373 99.0 24 368 80.4 26 369 70.1 28 371 47.0 30 375 24.8",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_57_61.png",
+      "context": "Base your answers to questions 57 through 61 on the data table below and on your knowledge of Earth \nscience. The table shows the distances from Earth to the Moon for certain days during December 2010. \nThe percent of the Moon illuminated by the Sun as seen from Earth is also given.\nMoon Data December 2010",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "State the name of the metamorphic rock at location A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_62_63.png",
+      "context": "Base your answers to questions 62 and 63 on the geologic cross section shown below and on your knowledge\nof Earth science.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify one characteristic that could be used to determine if the intrusive igneous rock has a mafic composition or a felsic composition.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_62_63.png",
+      "context": "Base your answers to questions 62 and 63 on the geologic cross section shown below and on your knowledge\nof Earth science.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw six arrowheads, one on each of the curved lines of the convection cells, to indicate the direction of water movement around letters A and B.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the diagram in your answer booklet and on your knowledge of\nEarth science. The diagram represents a beaker of water being heated. The curved lines around letters A and\nB represent convection cells that have developed in the water.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "State the amount of heat energy gained by each gram of water that evaporates from the surface of the boiling water in the beaker. A Key Igneous intrusion Contact metamorphism",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the diagram in your answer booklet and on your knowledge of\nEarth science. The diagram represents a beaker of water being heated. The curved lines around letters A and\nB represent convection cells that have developed in the water.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Predict the length of the object\u2019s shadow at 2:30 p.m.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the data table below, which shows the length of a shadow,\nin centimeters, made by an object at different times during the day in New York State.\nShadow Lengths",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Explain what causes the length of the shadow to change during the day.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the data table below, which shows the length of a shadow,\nin centimeters, made by an object at different times during the day in New York State.\nShadow Lengths",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Toward which compass direction from the object does the shadow point at solar noon?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the data table below, which shows the length of a shadow,\nin centimeters, made by an object at different times during the day in New York State.\nShadow Lengths",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw the 9-inch and 12-inch snow depth isolines.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the snowfall map of the Tug Hill Plateau region of \nNew York State in your answer booklet and on your knowledge of Earth science. A lake-effect snowstorm\noccurred on November 16\u201319, 2008. Snow depths are indicated in inches at several points and by two labeled\nisolines. Dashed line AB is a reference line on the map between two recorded snow depths.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Calculate the snow depth gradient between point A and point B, in inches per mile.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the snowfall map of the Tug Hill Plateau region of \nNew York State in your answer booklet and on your knowledge of Earth science. A lake-effect snowstorm\noccurred on November 16\u201319, 2008. Snow depths are indicated in inches at several points and by two labeled\nisolines. Dashed line AB is a reference line on the map between two recorded snow depths.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "This storm occurred while Lake Ontario was not frozen. Explain why snowfall amounts would have been less if the lake had had significant ice cover. Time Length of Shadow (cm) 9:00 a.m. 185 10:00 a.m. 129 11:00 a.m. 100 12:00 noon 89 1:00 p.m. 101 2:00 p.m. 124",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the snowfall map of the Tug Hill Plateau region of \nNew York State in your answer booklet and on your knowledge of Earth science. A lake-effect snowstorm\noccurred on November 16\u201319, 2008. Snow depths are indicated in inches at several points and by two labeled\nisolines. Dashed line AB is a reference line on the map between two recorded snow depths.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Explain why the climate at location A is more moist than the climate at location B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_72_74.png",
+      "context": "Base your answers to questions 72 through 74 on the generalized climatic moisture map of North America\nbelow and on your knowledge of Earth science. Areas are classified as generally dry or generally wet, and then\nranked by relative moisture conditions. Glacial and mountain climate areas are also shown on the map. Points\nA, B, C, D, and E indicate locations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "State the climate factor that causes a cold climate at location C.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_72_74.png",
+      "context": "Base your answers to questions 72 through 74 on the generalized climatic moisture map of North America\nbelow and on your knowledge of Earth science. Areas are classified as generally dry or generally wet, and then\nranked by relative moisture conditions. Glacial and mountain climate areas are also shown on the map. Points\nA, B, C, D, and E indicate locations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Explain why location D has a cooler climate than location E. 20& N 60& N 50& N 30& N 20& N 60& N 50& N 40& N 30& N A D Arctic Circle 70& N 70& N 40& N Mountains Glacier Key Generally dry climates Extremely dry Dry Generally wet climates Extremely wet Moist E B C Tropic of Cancer P.S./",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_72_74.png",
+      "context": "Base your answers to questions 72 through 74 on the generalized climatic moisture map of North America\nbelow and on your knowledge of Earth science. Areas are classified as generally dry or generally wet, and then\nranked by relative moisture conditions. Glacial and mountain climate areas are also shown on the map. Points\nA, B, C, D, and E indicate locations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Identify the diameter of the largest particle that would be carried at point A when the velocity of the Battenkill River is 50 cm/s.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_75_79.png",
+      "context": "Base your answers to questions 75 through 79 on the map and table below and on your knowledge of Earth\nscience. The map shows the area where the Battenkill River flows into the Hudson River north of Albany, \nNew York. Point A indicates a location within the Battenkill River. The table shows the densities of four \ncommon minerals found in Hudson River sediments.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Describe the most likely changes in the size and shape of individual particles of sediment as they are transported downstream by the Battenkill and Hudson Rivers.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_75_79.png",
+      "context": "Base your answers to questions 75 through 79 on the map and table below and on your knowledge of Earth\nscience. The map shows the area where the Battenkill River flows into the Hudson River north of Albany, \nNew York. Point A indicates a location within the Battenkill River. The table shows the densities of four \ncommon minerals found in Hudson River sediments.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Describe the arrangement of the sediments being deposited by these rivers.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_75_79.png",
+      "context": "Base your answers to questions 75 through 79 on the map and table below and on your knowledge of Earth\nscience. The map shows the area where the Battenkill River flows into the Hudson River north of Albany, \nNew York. Point A indicates a location within the Battenkill River. The table shows the densities of four \ncommon minerals found in Hudson River sediments.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Some of the sediments transported by the Hudson River came from metamorphic rock. Identify one foliated metamorphic rock that contains all four minerals listed in the mineral density table.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_75_79.png",
+      "context": "Base your answers to questions 75 through 79 on the map and table below and on your knowledge of Earth\nscience. The map shows the area where the Battenkill River flows into the Hudson River north of Albany, \nNew York. Point A indicates a location within the Battenkill River. The table shows the densities of four \ncommon minerals found in Hudson River sediments.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Samples of minerals listed in the mineral density table with the same shape and size were removed from the Hudson River and placed in a jar of water. After the jar was shaken, the sediments were allowed to settle. In your answer booklet, write the mineral name from the table next to the layer in the diagram where each mineral is most likely found. Battenkill River A N Hudson River amphibole feldspar garnet Mineral Name Density (g/cm3) 3.3 2.6 4.2 2.7 quartz Mineral Density",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_75_79.png",
+      "context": "Base your answers to questions 75 through 79 on the map and table below and on your knowledge of Earth\nscience. The map shows the area where the Battenkill River flows into the Hudson River north of Albany, \nNew York. Point A indicates a location within the Battenkill River. The table shows the densities of four \ncommon minerals found in Hudson River sediments.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "The Vishnu group is composed mostly of schist. Explain how this rock formed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the generalized cross section of the Grand Canyon \nrepresented below and on your knowledge of Earth science. Some rock layers have been labeled. The rock lay-\ners have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "State the approximate age of the Redwall limestone, in million years.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the generalized cross section of the Grand Canyon \nrepresented below and on your knowledge of Earth science. Some rock layers have been labeled. The rock lay-\ners have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Describe how the calcite that composes the Redwall limestone can be distinguished from the quartz that composes the Tapeats sandstone. Vishnu group Igneous diabase sill Tapeats sandstone Hakatai shale Bass dolomite Redwall limestone Kaibab limestone Hermit shale Permian Period Pennsylvanian Period Mississippian Period Devonian Period Cambrian Period Proterozoic Eon Paleozoic Era Archean Eon",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the generalized cross section of the Grand Canyon \nrepresented below and on your knowledge of Earth science. Some rock layers have been labeled. The rock lay-\ners have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Identify one use for the mineral garnet.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the table below and on your knowledge of Earth science.\nThe table shows the elements and their percent compositions by mass in the five minerals present in a rock \nsample.\nElements and Their Compositions by Mass in Five Minerals",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify one mineral in this rock sample that can scratch the mineral olivine.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the table below and on your knowledge of Earth science.\nThe table shows the elements and their percent compositions by mass in the five minerals present in a rock \nsample.\nElements and Their Compositions by Mass in Five Minerals",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "All five of the minerals listed in the table are silicate minerals because they contain the elements silicon and oxygen. State the name of one other mineral found on the \u201cProperties of Common Minerals\u201d chart that is a silicate mineral. Minerals Present in Rock Sample Element (percent by mass) Al Ca Fe H K Mg Na O Si Ti Amphibole 6.2 3.0 29.7 0.2 \u2013 3.7 1.8 31.7 12.8 10.9 Plagioclase feldspar 9.7 \u2013 \u2013 \u2013 14.2 \u2013 \u2013 46.3 29.8 \u2013 Garnet 10.9 \u2013 33.8 \u2013 \u2013 \u2013 \u2013 38.7 16.6 \u2013 Muscovite mica 20.3 \u2013 \u2013 0.5 9.8 \u2013 \u2013 48.2 21.2 \u2013 Quartz \u2013 \u2013 \u2013 \u2013 \u2013 \u2013 \u2013 53.2 46.8 \u2013 P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2016/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the table below and on your knowledge of Earth science.\nThe table shows the elements and their percent compositions by mass in the five minerals present in a rock \nsample.\nElements and Their Compositions by Mass in Five Minerals",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

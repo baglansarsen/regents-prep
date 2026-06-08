@@ -1,0 +1,1101 @@
+{
+  "subject": "living-environment",
+  "session": "august-2022",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Studying fossils provides evidence for evolution because fossils",
+      "choices": [
+        "take a long time to form",
+        "can show patterns of biological change over time",
+        "always contain complete DNA sequences",
+        "found in the same area are usually closely related to each other"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which statement best describes the interactions between the structures found within a single- celled organism?",
+      "choices": [
+        "They allow the organism to maintain homeostasis.",
+        "They prevent homeostasis from damaging the cell.",
+        "They must act independently of each other and prevent homeostasis.",
+        "They carry out the same life process in order to maintain homeostasis."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Sexually reproduced offspring have traits similar to their parents because they receive",
+      "choices": [
+        "all of the proteins from each parent",
+        "some of the proteins from both parents",
+        "all of the genes present in both parents",
+        "some of the genes present in each parent"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which row in the chart below correctly pairs a group of organisms with the type of nutrition they carry out? Row Autotrophic Nutrition Heterotrophic Nutrition",
+      "choices": [
+        "carnivores herbivores",
+        "decomposers carnivores",
+        "herbivores producers",
+        "producers decomposers"
+      ],
+      "image": "/images/exams/living-environment/august-2022/q4.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Rubber usually comes from petroleum or from the Asian rubber tree plant. Scientists have modi\ufb01 ed a single trait in the domestic plant, guayule, to increase its ability to produce rubber for commercial use. Young guayule plants are shown in the photograph below. Source: http://agresearchmag.ars.usda.gov The process that was most likely used to modify the plants\u2019 trait and increase their natural rubber production was",
+      "choices": [
+        "selective breeding of two similar plant varieties",
+        "genetic recombination during sexual reproduction",
+        "genetic engineering to alter a speci\ufb01 c gene",
+        "fertilizing the plants with key substances found in petroleum"
+      ],
+      "image": "/images/exams/living-environment/august-2022/q5.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A response of a normally functioning immune system that can be harmful is",
+      "choices": [
+        "being infected by the \ufb02 u virus",
+        "rejecting an organ transplant",
+        "recognizing chemical signals",
+        "\ufb01 ghting off a bacterial infection"
+      ],
+      "image": "/images/exams/living-environment/august-2022/q6.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which molecules are normally found in single-celled organisms?",
+      "choices": [
+        "organic molecules, only",
+        "inorganic molecules, only",
+        "both organic and inorganic molecules",
+        "neither organic nor inorganic molecules"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Hammerhead sharks are unlike most other shark species. Nearly all shark species either lay eggs or give birth to live young after their eggs hatch internally. Hammerhead sharks form a placenta, a structure more commonly found in mammals, such as humans. One role of the placenta in the development of offspring is normally to",
+      "choices": [
+        "produce blood cells",
+        "provide milk",
+        "produce gametes",
+        "transfer nutrients"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "PCR, Polymerase Chain Reaction, is a method for carrying out DNA replication. In order to perform this technique, a scientist would need",
+      "choices": [
+        "a DNA template, ATP, and 20 different amino acid subunits",
+        "enzymes, several types of simple sugars, and starch molecules",
+        "a DNA template, enzymes, and subunits with A, G, T, and C bases",
+        "enzymes, speci\ufb01 c receptor molecules, and several hormones"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A student used a microscope to examine some cells. He observed strands located in the nuclei of these cells. Source: https://www.icr.org/i/wide/mitosis_wide.jpg These strands are responsible for coding different proteins and are known as",
+      "choices": [
+        "chromosomes",
+        "mitochondria",
+        "ribosomes",
+        "chloroplasts"
+      ],
+      "image": "/images/exams/living-environment/august-2022/q10.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Farmers have been planting crops that express an insecticide gene, so that when pests consume these crops, the pests are poisoned. Unfortunately, since these plants were introduced in 1996, growing numbers of insect pests have developed resistance to the insecticide. The process that led to the insect resistance can best be explained by",
+      "choices": [
+        "ecological succession",
+        "selective breeding",
+        "asexual reproduction",
+        "natural selection"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Killer whales are an endangered species. The decline in the whales\u2019 numbers has been linked to poor nutrition, resulting in the inability to maintain a pregnancy. This risk to developing whale embryos is most likely a result of",
+      "choices": [
+        "an environmental factor not associated with the embryo\u2019s genes",
+        "an infection caused by the embryo\u2019s exposure to a pathogen",
+        "faults in the genes of the embryo itself",
+        "toxins that are introduced into the mother from the embryo\u2019s blood"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A biotechnology tool, known as CRISPR-Cas9, allows scientists to precisely edit genes. In order to edit genes, CRISPR-Cas9 must be able to",
+      "choices": [
+        "alter the base sequence of DNA",
+        "prevent cells from differentiating",
+        "block cell receptors from receiving signals",
+        "change the rate at which a cell uses ATP"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "By measuring the colors of light re\ufb02 ected by different tree species in a forest, scientists can determine the amount of biodiversity present in different areas. Maintaining biodiversity is important because it",
+      "choices": [
+        "reduces the carrying capacity of a forest ecosystem",
+        "guarantees that all species within a forest ecosystem will survive",
+        "increases the number of predators that control the population size of prey",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The cells in the diagram below were present in the same individual. Nerve Muscle Skin These cells are most similar in the",
+      "choices": [
+        "amount of energy they release",
+        "type of proteins they synthesize",
+        "rate of their metabolism",
+        "information stored in their DNA"
+      ],
+      "image": "/images/exams/living-environment/august-2022/q15.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Large numbers of white-tailed deer on Long Island are infested with ticks that transmit Lyme disease to other mammals. One attempt to control reproduction in these ticks has been the release of large numbers of sterilized male ticks. When compared to using pesticides, this method to control ticks would",
+      "choices": [
+        "cause more environmental pollution",
+        "lead to a decrease in the deer population",
+        "be less likely to harm the environment",
+        "result in an increase in the tick population"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The model below summarizes one pathway of energy transfer in an ocean ecosystem. Sun Organism X Organism Y The type of organism represented by box X could be",
+      "choices": [
+        "algae",
+        "fungi",
+        "small \ufb01 sh",
+        "sea birds"
+      ],
+      "image": "/images/exams/living-environment/august-2022/q17.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which sequence best represents the correct order of events in the formation of a sexually reproduced individual?",
+      "choices": [
+        "embryo \u2192 zygote \u2192 gamete \u2192 fetus",
+        "zygote \u2192 embryo \u2192 fetus \u2192 gamete",
+        "gametes \u2192 embryo \u2192 fetus \u2192 zygote",
+        "gametes \u2192 zygote \u2192 embryo \u2192 fetus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Direct harvesting occurs when",
+      "choices": [
+        "pine trees are cut from a forest for use as lumber",
+        "corn is planted in a newly plowed \ufb01 eld",
+        "zebra mussels are accidentally imported to the Great Lakes",
+        "roots of plants continually take in water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "In New York State, it is common for farmers to plant large \ufb01 elds of one crop, such as the corn\ufb01 eld shown below. Source: https://www.123rf. com/photo_40944515_corn-fields.html A negative outcome of this practice is that",
+      "choices": [
+        "the corn will interbreed with weeds in the area",
+        "new predators will be introduced into the ecosystem",
+        "the stability of the ecosystem will be reduced",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2022/q20.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The process of differentiation is best described as the",
+      "choices": [
+        "production of a genetically identical copy of an organism",
+        "change in shape of a protein due to high temperatures",
+        "process by which cells specialize and develop into a speci\ufb01 c type of cell",
+        "process in which genes are made and transferred into other organisms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Humans are able to positively or negatively affect their environment in many ways. Which statement accurately describes one of these possible effects?",
+      "choices": [
+        "A positive environmental effect is that burn- ing fossil fuels to generate electricity reduces carbon dioxide levels in the atmosphere.",
+        "A positive environmental effect is the cutting of trees in rain forests to provide large quantities of lumber to build homes for the increasing world population.",
+        "A negative environmental effect is that industrialization provides many jobs and helps the economy grow.",
+        "A negative environmental effect is that unregulated \ufb01 shing in the ocean can disrupt the interactions between organisms in existing food webs."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which statement best describes the process of competition?",
+      "choices": [
+        "It may be for abiotic or biotic resources.",
+        "It is not affected by changes in the environment.",
+        "It always occurs between members of different species.",
+        "It allows nutrients in an ecosystem to move from herbivores to autotrophs."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Changes in external temperatures often result in a person either sweating or shivering, as represented in the diagram below. Sweating Shivering Body Source: Adapted from http://askabiologist. asu.edu/sites/default/files/resources/ articles/singing_in_rain/temp_control.gif These responses are one way",
+      "choices": [
+        "to counteract feedback mechanisms that would otherwise be bene\ufb01 cial",
+        "to make the body release insulin to control blood circulation",
+        "the body is able to maintain dynamic equilibrium",
+        "skin and muscle cells are able to disrupt homeostasis"
+      ],
+      "image": "/images/exams/living-environment/august-2022/q24.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which statement about the response of the body to pathogens is correct?",
+      "choices": [
+        "Red blood cells engulf invaders and produce antibodies that attack invaders.",
+        "Vaccinations may contain weakened microbes that stimulate the formation of antibodies.",
+        "AIDS is a bacterial disease that strengthens the immune system.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Blood sugar levels increase after a meal and eventually return to normal. This is represented in the diagram below. Level of Blood Sugar After a Meal Time After a Meal This constant correcting of blood sugar levels within the body is accomplished by",
+      "choices": [
+        "a feedback mechanism",
+        "an immune response",
+        "an allergic reaction",
+        "manipulating a gene"
+      ],
+      "image": "/images/exams/living-environment/august-2022/q26.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Sheets of skin are grown in a culture in order to replace the skin of victims with severe burns or frostbite. Undamaged skin cells are obtained from the victim, put in a Petri dish with the proper growth materials, and incubated, as represented in the diagram below. Skin tissue Skin cells isolated and added to growth material Petri dish Petri dish Incubated These new skin cells form as a result of",
+      "choices": [
+        "meiotic cell division",
+        "sexual reproduction",
+        "mitotic cell division",
+        "gene recombination"
+      ],
+      "image": "/images/exams/living-environment/august-2022/q27.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Which graph below best represents the relationship between the relative number of nuclei, genes, and chromosomes in a typical human cell? ( 1 ) Relative Number in Cell Nuclei Chromosomes Genes ( 2 ) Nuclei Chromosomes Genes ( 3 ) Nuclei Chromosomes Genes ( 4 )",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a biological process. Annual plants Perennial plants and grasses Softwood trees Hardwood trees Shrubs Time Source: Adapted from http://www.physicalgeography.net/fundamentals/9i.html Which statement is true about the biological process shown?",
+      "choices": [
+        "This is a short-term process resulting from sudden changes.",
+        "This process cannot be altered by humans and other organisms.",
+        "If the hardwood trees are destroyed, the altered ecosystem cannot recover.",
+        "The shrubs modify the environment, making it more suitable for the softwood trees."
+      ],
+      "image": "/images/exams/living-environment/august-2022/q29.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Cells may divide abnormally and produce cells like some of those shown in the photograph below. Source: www.popsci.com/July 2018 When cells such as the skin cells shown reproduce abnormally, it could be a sign of",
+      "choices": [
+        "an immune response",
+        "dynamic equilibrium",
+        "cancerous cell growth",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2022/q30.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Only an electron microscope can be used to view",
+      "choices": [
+        "bacteria",
+        "mitochondria",
+        "animal cells",
+        "viruses"
+      ],
+      "image": "/images/exams/living-environment/august-2022/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the diagram below and on your knowledge of biology.\nAtom\nSmall\nMolecules\nLipids\nProteins\nVirus\nBacteria\nOrganelles\nEukaryotic Cells\n(animal and plant cells)\nEye\nLight Microscope\nSource: Adapted from https://microbiologyinfo.com/different-size-shape-and-arrangement-of-bacteria-cells/\nElectron Microscope\nSizes of Various Structures and Ways to View Them",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "A scientist is developing a system to remove harmful bacteria from a contaminated water supply. In order to trap the bacteria and prevent them from going through the \ufb01 lter, she must make sure the pores in the \ufb01 lter are no larger than",
+      "choices": [
+        "1 nm",
+        "1 \u00b5m",
+        "10 \u00b5m",
+        "100 \u00b5m"
+      ],
+      "image": "/images/exams/living-environment/august-2022/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the diagram below and on your knowledge of biology.\nAtom\nSmall\nMolecules\nLipids\nProteins\nVirus\nBacteria\nOrganelles\nEukaryotic Cells\n(animal and plant cells)\nEye\nLight Microscope\nSource: Adapted from https://microbiologyinfo.com/different-size-shape-and-arrangement-of-bacteria-cells/\nElectron Microscope\nSizes of Various Structures and Ways to View Them",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "For native human populations in tropical areas, the intensity of ultraviolet (UV) rays from the Sun is strong, and skin color is generally dark. Melanin pigments found in people with darker skin color help block the effects of the UV radiation on skin cells. In tropical areas, the best explanation for having increased melanin in human skin cells is that it",
+      "choices": [
+        "increases the occurrence of mutations",
+        "provides a survival advantage",
+        "acts as a feedback mechanism to increase UV exposure",
+        "produces antibodies that destroy pathogens"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Smoking increases the risk of certain cancers of the mouth, esophagus, pancreas, kidneys, and uterus. This \ufb01 nding would be most reliable if it were based on",
+      "choices": [
+        "data collected from patients in one cancer- research hospital",
+        "research done by scientists in many different countries",
+        "reading the information on cigarette cartons",
+        "cancer information published on social media sites"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Which diagram below best represents the direction that energy \ufb02 ows through an energy pyramid? ( 3 ) ( 1 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "An evolutionary tree is shown below. Present Past Time B Q S T J K L MN O P R Which conclusion is correct, based on the evolutionary tree?",
+      "choices": [
+        "All of these species have certain DNA sequences in common.",
+        "Species S is the best adapted of all the species shown.",
+        "A common ancestor of species L and M is species N.",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2022/q36.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which two rows best support the information provided? A winter increased melanin white fur B summer increased melanin brown fur C winter decreased melanin white fur D summer decreased melanin brown fur",
+      "choices": [
+        "A and B",
+        "B and C",
+        "C and D",
+        "D and A"
+      ],
+      "image": "/images/exams/living-environment/august-2022/context_37_38.png",
+      "context": "Base your answers to questions 37 and 38 on the information and photographs below and on your knowledge \nof biology.\nAn arctic fox has a gland in its brain that secretes a hormone that regulates the production \nof melanin, a pigment that accounts for brown fur. In the winter, the foxes secrete more of \nthis hormone and their cells stop making melanin, so they appear white. The pictures below \nillustrate two variations of fur color.\nSource: http://www.nationalgeographic.com/animals/mammals/a/arctic-fox/",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which statement is the most likely explanation for the color differences in the fur of the fox at different times of the year?",
+      "choices": [
+        "Mutations can be caused by changes in the number of biotic factors in the environment.",
+        "The expression of genes can be modi\ufb01 ed by the external environment.",
+        "Hereditary information is contained in genes located in the chromosomes of each cell.",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2022/context_37_38.png",
+      "context": "Base your answers to questions 37 and 38 on the information and photographs below and on your knowledge \nof biology.\nAn arctic fox has a gland in its brain that secretes a hormone that regulates the production \nof melanin, a pigment that accounts for brown fur. In the winter, the foxes secrete more of \nthis hormone and their cells stop making melanin, so they appear white. The pictures below \nillustrate two variations of fur color.\nSource: http://www.nationalgeographic.com/animals/mammals/a/arctic-fox/",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which statement describes an observation that would best support the continued study of using antibodies produced by this new technique against the \ufb02 u?",
+      "choices": [
+        "A group of 50 mice with \ufb02 u antibodies formed using the new technique were exposed to mutated forms of the \ufb02 u. None of the mice became ill.",
+        "The use of these antibodies in mice stopped mutations that occur in \ufb02 u viruses.",
+        "Chemical tests showed that the stem antibodies attached to the heads of some \ufb02 u viruses and destroyed them.",
+        "Blood tests showed that only \u201cstem\u201d antibodies attacking the stem of \ufb02 u antigens can cause the \ufb02 u in mice. Those attacking the \u201chead\u201d did not."
+      ],
+      "image": "/images/exams/living-environment/august-2022/context_39_39.png",
+      "context": "Base your answer to question 39 on the information below and on your knowledge of biology.\nFighting the Flu\nA new technique to attack \ufb02 u virus antigens is being tested on mice. Normally, antibodies \nattack the \u201chead\u201d portion of antigens on the surface of the \ufb02 u virus.\nSince the \u201chead\u201d portions mutate frequently, the antibodies do not provide protection \nfor very long. The new technique is to develop antibodies that attack the \u201cstem\u201d portion \nof the antigen. Since the \u201cstem\u201d regions do not mutate very often, the effectiveness of the \nvaccine should last longer. This technique is represented below.\nSource: Adapted from www.sciencenews.org/\u201cA Universal Flu Shot May Be Nearing Reality\u201d/October 28,2017.\nStem\nTraditional Approach\n\u201cHeadless\u201d Approach\nAttaches\nAntibody\nCannot\nattach\nMutates\nMutates\nAttaches\nCan attach\nHead\n\u0016\n\u0016\n\u0016\nHead",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Scientists have discovered that pathogenic organisms and the chemicals they produce can cause foodborne illnesses. These illnesses harm the body as a result of interactions between the digestive and immune systems. Which statement most correctly describes how these two systems interact when an individual comes down with a foodborne illness?",
+      "choices": [
+        "Chemicals produced by pathogens enter the immune system through a cut in the skin. The circulatory system carries the chemical to the digestive system, resulting in foodborne illness.",
+        "When speci\ufb01 c chemicals produced by pathogens enter the digestive system in contaminated foods, the ability of the immune system to \ufb01 ght off foodborne illness is reduced.",
+        "When foods contaminated with pathogens are eaten, the immune system prevents the pathogens from entering the digestive system.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "At which hour were the lights turned on in the lab?",
+      "choices": [
+        "8",
+        "2",
+        "0",
+        "4"
+      ],
+      "image": "/images/exams/living-environment/august-2022/context_41_42.png",
+      "context": "Base your answers to questions 41 and 42 on the information and diagram below and on your knowledge of \nbiology.\nA live plant was placed in a closed container in a lab. Sensors were set up to monitor the \nlevels of oxygen in the container over several hours.\nTime (hours)\nRelative Concentration \nof Oxygen\nHigh\nLow\n1\n0\n3\n4\n5\n6\n7\n8\n2",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "During the 8 hours studied, the plant performed",
+      "choices": [
+        "photosynthesis, only",
+        "respiration, only",
+        "both photosynthesis and respiration",
+        "neither photosynthesis nor respiration"
+      ],
+      "image": "/images/exams/living-environment/august-2022/context_41_42.png",
+      "context": "Base your answers to questions 41 and 42 on the information and diagram below and on your knowledge of \nbiology.\nA live plant was placed in a closed container in a lab. Sensors were set up to monitor the \nlevels of oxygen in the container over several hours.\nTime (hours)\nRelative Concentration \nof Oxygen\nHigh\nLow\n1\n0\n3\n4\n5\n6\n7\n8\n2",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "written",
+      "text": "Human cells have many molecules attached to their surfaces. Some of these molecules are involved in producing the symptoms associated with allergies. Histamine is a chemical produced by some human cells. When histamine binds to molecules on the surface of cells that line the nose and throat, the cells will swell and leak \ufb02 uid, causing the characteristic itching, sneezing, and congestion associated with allergies. A model of this mechanism is represented below. Throat cell Histamine Fluid release Antihistamines are medications taken to block this reaction. Which of the antihistamine molecules represented below would be the most effective? ( 3 ) ( 4 ) ( 1 ) ( 2 )",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nWest Nile Virus\nWest Nile virus (WNV) has been detected in a variety of bird species. Crows and jays are \nknown to get sick and die when infected. WNV also infects other animals, including horses, \ncats, dogs, chipmunks, alligators, and humans.\nWNV affects the nervous system. It was \ufb01 rst detected in the U.S. in New York City \nduring the summer of 1999, when nearly 5500 crows died within a four-month period. Since \nthen, WNV has spread rapidly throughout the country. Although the virus is widespread, \nsymptoms in humans are usually mild. However, about 1 in 150 people who are infected \ndevelop severe, sometimes fatal, symptoms that include the in\ufb02 ammation of the brain and \nmembranes surrounding the brain and spinal cord. There is no human vaccine for WNV. \nThe virus is transmitted to certain bird species when they are bitten by infected mosquitoes. \nWhen these bird species are not available, mosquitoes are more likely to bite humans. \nHumans are a dead-end host, which means that even when infected with the virus, it is not \npassed on.\nThe Centers for Disease Control and Prevention (CDC) recorded the number of cases \nof WNV per 100,000 people in the U.S. from 2002-2014. These data are recorded in the \ntable below.\nIncidence of West Nile Virus in the \nU.S. per 100,000 People\nYear\nCases per 100,000 People\n2002\n1.02\n2004\n0.39\n2006\n0.50\n2008\n0.23\n2010\n0.20\n2012\n0.91\n2014\n0.42\nSource: https://www.epa.gov/climate-indicators/\nclimate-change-indicators-west-nile-virus\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Aug. \u201922 \n[14]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for marking an appropriate scale, without any breaks in the data, on each labeled axis. Note: Do not allow credit if the grid is altered to accommodate the scale."
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data for the incidence of West Nile virus in the U.S. per 100,000 people. Connect the points and surround each point with a small circle. Example: Cases per 100,000 People Year Incidence of West Nile Virus in the U.S. per 100,000 People",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nWest Nile Virus\nWest Nile virus (WNV) has been detected in a variety of bird species. Crows and jays are \nknown to get sick and die when infected. WNV also infects other animals, including horses, \ncats, dogs, chipmunks, alligators, and humans.\nWNV affects the nervous system. It was \ufb01 rst detected in the U.S. in New York City \nduring the summer of 1999, when nearly 5500 crows died within a four-month period. Since \nthen, WNV has spread rapidly throughout the country. Although the virus is widespread, \nsymptoms in humans are usually mild. However, about 1 in 150 people who are infected \ndevelop severe, sometimes fatal, symptoms that include the in\ufb02 ammation of the brain and \nmembranes surrounding the brain and spinal cord. There is no human vaccine for WNV. \nThe virus is transmitted to certain bird species when they are bitten by infected mosquitoes. \nWhen these bird species are not available, mosquitoes are more likely to bite humans. \nHumans are a dead-end host, which means that even when infected with the virus, it is not \npassed on.\nThe Centers for Disease Control and Prevention (CDC) recorded the number of cases \nof WNV per 100,000 people in the U.S. from 2002-2014. These data are recorded in the \ntable below.\nIncidence of West Nile Virus in the \nU.S. per 100,000 People\nYear\nCases per 100,000 People\n2002\n1.02\n2004\n0.39\n2006\n0.50\n2008\n0.23\n2010\n0.20\n2012\n0.91\n2014\n0.42\nSource: https://www.epa.gov/climate-indicators/\nclimate-change-indicators-west-nile-virus\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Aug. \u201922 \n[14]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly plotting the data and connecting the points. Example of a 2-credit graph for questions 44-45: Note: Allow credit if the points are plotted correctly, but not circled. Do not assume that the intersection of the x- and y-axes is the origin (0,0) unless it is labeled. An appropriate scale only needs to include the data range in the data table. Do not allow credit if points are plotted that are not in the data table, e.g., (0,0), or for extending lines beyond the data points. 0 Cases per 100,000 People Year 0.2 0.4 0.6 0.8 1.0 1.2 2000 2002 2004 2006 2008 2010 2012 2014 2016 Incidence of West Nile Virus in the U.S. per 100,000 People Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Based on the data, is it possible to predict what the number of cases per 100,000 people will be for the year 2020?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nWest Nile Virus\nWest Nile virus (WNV) has been detected in a variety of bird species. Crows and jays are \nknown to get sick and die when infected. WNV also infects other animals, including horses, \ncats, dogs, chipmunks, alligators, and humans.\nWNV affects the nervous system. It was \ufb01 rst detected in the U.S. in New York City \nduring the summer of 1999, when nearly 5500 crows died within a four-month period. Since \nthen, WNV has spread rapidly throughout the country. Although the virus is widespread, \nsymptoms in humans are usually mild. However, about 1 in 150 people who are infected \ndevelop severe, sometimes fatal, symptoms that include the in\ufb02 ammation of the brain and \nmembranes surrounding the brain and spinal cord. There is no human vaccine for WNV. \nThe virus is transmitted to certain bird species when they are bitten by infected mosquitoes. \nWhen these bird species are not available, mosquitoes are more likely to bite humans. \nHumans are a dead-end host, which means that even when infected with the virus, it is not \npassed on.\nThe Centers for Disease Control and Prevention (CDC) recorded the number of cases \nof WNV per 100,000 people in the U.S. from 2002-2014. These data are recorded in the \ntable below.\nIncidence of West Nile Virus in the \nU.S. per 100,000 People\nYear\nCases per 100,000 People\n2002\n1.02\n2004\n0.39\n2006\n0.50\n2008\n0.23\n2010\n0.20\n2012\n0.91\n2014\n0.42\nSource: https://www.epa.gov/climate-indicators/\nclimate-change-indicators-west-nile-virus\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Aug. \u201922 \n[14]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating whether or not it is possible to predict what the number of cases per 100,000 people will be for the year 2020 and supporting the answer with information from the graph. Acceptable responses include, but are not limited to: \u2014 It is not possible to make an accurate prediction. In 2002 more than 1 person per 100,000 are infected. In 2004 it is down to .39 people, and then back up in 2012 and down again in 2014. \u2014 The number of cases per 100,000 people varies widely from one year to the next. There is no consistent trend, making it impossible to predict the number of cases for 2020. \u2014 The number of cases will likely be less than 1.02 per 100,000. It has not been that high since 2002. \u2014 No, there is no trend/pattern. \u2014 The data vary too much to make a prediction. 47 MC on scoring key"
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The two maps below show the number of human cases of West Nile virus per 100,000 people for the years 2007 and 2016. West Nile Virus Neuroinvasive Disease Incidence Reported to ArboNET, by State, United States 0.00 0.01 - 0.24 0.25 - 0.49 Incidence per 100,000 0.50 - 0.99 > = 1.00 2016 2007 Source: http://www.cdc.gov/westnile/resources/pdfs/data/2007StateincidenceMap.pdf Source: http://www.cdc.gov/westnile/resources/pdfs/data/WNV-Neuro-Incidence-by- State-Map_2016 _09292017.pdf The data represented on the maps best indicate that",
+      "choices": [
+        "birds have spread WNV to every state in the United States",
+        "New York State has the highest rate of WNV infection for both of the years shown",
+        "once WNV reaches a state, the number of people infected increases every year",
+        "for any given year, it is dif\ufb01 cult to know which states will have the greatest number of cases"
+      ],
+      "image": "/images/exams/living-environment/august-2022/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nWest Nile Virus\nWest Nile virus (WNV) has been detected in a variety of bird species. Crows and jays are \nknown to get sick and die when infected. WNV also infects other animals, including horses, \ncats, dogs, chipmunks, alligators, and humans.\nWNV affects the nervous system. It was \ufb01 rst detected in the U.S. in New York City \nduring the summer of 1999, when nearly 5500 crows died within a four-month period. Since \nthen, WNV has spread rapidly throughout the country. Although the virus is widespread, \nsymptoms in humans are usually mild. However, about 1 in 150 people who are infected \ndevelop severe, sometimes fatal, symptoms that include the in\ufb02 ammation of the brain and \nmembranes surrounding the brain and spinal cord. There is no human vaccine for WNV. \nThe virus is transmitted to certain bird species when they are bitten by infected mosquitoes. \nWhen these bird species are not available, mosquitoes are more likely to bite humans. \nHumans are a dead-end host, which means that even when infected with the virus, it is not \npassed on.\nThe Centers for Disease Control and Prevention (CDC) recorded the number of cases \nof WNV per 100,000 people in the U.S. from 2002-2014. These data are recorded in the \ntable below.\nIncidence of West Nile Virus in the \nU.S. per 100,000 People\nYear\nCases per 100,000 People\n2002\n1.02\n2004\n0.39\n2006\n0.50\n2008\n0.23\n2010\n0.20\n2012\n0.91\n2014\n0.42\nSource: https://www.epa.gov/climate-indicators/\nclimate-change-indicators-west-nile-virus\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Aug. \u201922 \n[14]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "48",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information and data table below and on your \nknowledge of biology.\nWest Nile Virus\nWest Nile virus (WNV) has been detected in a variety of bird species. Crows and jays are \nknown to get sick and die when infected. WNV also infects other animals, including horses, \ncats, dogs, chipmunks, alligators, and humans.\nWNV affects the nervous system. It was \ufb01 rst detected in the U.S. in New York City \nduring the summer of 1999, when nearly 5500 crows died within a four-month period. Since \nthen, WNV has spread rapidly throughout the country. Although the virus is widespread, \nsymptoms in humans are usually mild. However, about 1 in 150 people who are infected \ndevelop severe, sometimes fatal, symptoms that include the in\ufb02 ammation of the brain and \nmembranes surrounding the brain and spinal cord. There is no human vaccine for WNV. \nThe virus is transmitted to certain bird species when they are bitten by infected mosquitoes. \nWhen these bird species are not available, mosquitoes are more likely to bite humans. \nHumans are a dead-end host, which means that even when infected with the virus, it is not \npassed on.\nThe Centers for Disease Control and Prevention (CDC) recorded the number of cases \nof WNV per 100,000 people in the U.S. from 2002-2014. These data are recorded in the \ntable below.\nIncidence of West Nile Virus in the \nU.S. per 100,000 People\nYear\nCases per 100,000 People\n2002\n1.02\n2004\n0.39\n2006\n0.50\n2008\n0.23\n2010\n0.20\n2012\n0.91\n2014\n0.42\nSource: https://www.epa.gov/climate-indicators/\nclimate-change-indicators-west-nile-virus\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013Aug. \u201922 \n[14]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 They are suffering from a disease that affects their immune system. \u2014 Their immune system is not able to combat the virus. \u2014 They may be very young or old and not able to combat the virus. \u2014 They might have been bitten more times by infected mosquitoes. \u2014 They have a weaker immune system. \u2014 They live in a region where more birds carry the WNV. 49 MC on scoring key 50 MC on scoring key"
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Based on the food web, the population that contains the greatest amount of available energy would be",
+      "choices": [
+        "seals",
+        "\ufb01 shes",
+        "phytoplankton",
+        "humans"
+      ],
+      "image": "/images/exams/living-environment/august-2022/context_49_51.png",
+      "context": "Base your answers to questions 49 through 51 on the food web below and on your knowledge of biology.\nHumans\nSperm\nwhales\nSquids\nElephant\nseals\nSmaller\ntoothed\nwhales\nLeopard\nseals\nCrab-eater\nseals\nBaleen\nwhales\nFishes\nBirds\nCopepods\nEuphausiids\n(krill)\nPhytoplankton\n(algae)\nCarnivorous\nplankton\n \nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which statement best describes what would happen in this ecosystem if the phytoplankton were removed from the food web?",
+      "choices": [
+        "Copepods and krill would \ufb01 ll the vacant niche.",
+        "The number of heterotrophs would increase.",
+        "The food web would be disrupted, and organisms would die.",
+        "The food web would remain stable."
+      ],
+      "image": "/images/exams/living-environment/august-2022/context_49_51.png",
+      "context": "Base your answers to questions 49 through 51 on the food web below and on your knowledge of biology.\nHumans\nSperm\nwhales\nSquids\nElephant\nseals\nSmaller\ntoothed\nwhales\nLeopard\nseals\nCrab-eater\nseals\nBaleen\nwhales\nFishes\nBirds\nCopepods\nEuphausiids\n(krill)\nPhytoplankton\n(algae)\nCarnivorous\nplankton\n \nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Describe the relationship represented by the arrows between squids and \ufb01",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_49_51.png",
+      "context": "Base your answers to questions 49 through 51 on the food web below and on your knowledge of biology.\nHumans\nSperm\nwhales\nSquids\nElephant\nseals\nSmaller\ntoothed\nwhales\nLeopard\nseals\nCrab-eater\nseals\nBaleen\nwhales\nFishes\nBirds\nCopepods\nEuphausiids\n(krill)\nPhytoplankton\n(algae)\nCarnivorous\nplankton\n \nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Fish can be predators of squid, and squid can be predators of fish. \u2014 Each species can be both predator and prey. \u2014 They can feed on each other."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "52",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_52_52.png",
+      "context": "Base your answer to question 52 on the information below and on your knowledge of biology.\nScientists are interested in studying the effects of a mother\u2019s alcohol consumption on the \nbrain development of the fetus during pregnancy. In order to collect data, scientists typically \nuse newborn rats because the rats\u2019 brain development after birth is roughly equivalent to that \nof a human fetus during the third trimester (late in pregnancy). Scientists divided newborn \nrats into four groups and exposed them to alcohol using the following methods:\nAlcohol Exposure in Newborn Rats\nRat Group\nAlcohol Exposure\n1\nNo alcohol exposure\n2\n4.5g/kg/day given over a 4-hour period\n3\n4.5g/kg/day given over an 8-hour period\n4\n6.6g/kg/day given over a 24-hour period\nAt the end of the experiment, scientists measured the total brain weight of the newborn \nrats, as represented in the graphs below.\nNewborn Rats Exposed to Alcohol\nSource: Adapted from https://pubs.niaaa.nih.gov/publications/\narh25-3/168-174.htm\nPeak Blood Alcohol\nConcentration (mg dL)\n0\n50\n100\n150\n200\n250\n300\n350\n400\nGroup 1 Group 2 Group 3 Group 4\n365\n0\n195\n45\nA. Peak Blood Alcohol Concentrations\n    for Alcohol-exposed Newborn Rats\nNewborn Rats Exposed to Alcohol\nTotal Brain Weight (mg)\n0\n1,000\nGroup 1 Group 2 Group 3 Group 4\n623\n842\n711\n827\nB. Total Brain Weight for Alcohol-exposed\n     Newborn Rats\n800\n600\n400\n200",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The higher the blood alcohol concentration, the lower the total brain weight in newborn rats. \u2014 A lower peak blood alcohol results in higher total brain weight. \u2014 As blood alcohol concentration increases, total brain weight decreases. \u2014 It is an indirect relationship. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "A student claims that this food web represents a stable ecosystem. State whether or not her claim is correct. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_53_54.png",
+      "context": "Base your answers to questions 53 and 54 on the diagram below and on your knowledge of biology. \nThe diagram represents a food web in a forest ecosystem.\nSnakes\nHawks\nFrogs\nRabbits\nFoxes\nCatbirds\nButterflies\nEarthworms\nSquirrels\nTrees\nSource: Adapted from The American Biology Teacher\nvol.78, No.7, September 2016, p.577",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating whether or not the claim is correct and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Since there are a number of different species in this ecosystem, the system is probably stable. \u2014 There are producers and consumers in this food web, and their interactions would keep this ecosystem stable. \u2014 Yes, it supports the conclusion because the more diversity there is in an ecosystem, the more stable it is. \u2014 There are no decomposers represented in the food web, so the ecosystem would not be stable. \u2014 No, there is only one type of producer."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Select two organisms from this food web that compete with each other for food, and state one reason why they are able to survive in the same ecosystem. Organisms:",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_53_54.png",
+      "context": "Base your answers to questions 53 and 54 on the diagram below and on your knowledge of biology. \nThe diagram represents a food web in a forest ecosystem.\nSnakes\nHawks\nFrogs\nRabbits\nFoxes\nCatbirds\nButterflies\nEarthworms\nSquirrels\nTrees\nSource: Adapted from The American Biology Teacher\nvol.78, No.7, September 2016, p.577",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Two organisms: snakes and foxes \u2014 They both have other sources of food so they are not totally dependent on the one organism. Two organisms: rabbits and squirrels \u2014 They obtain nutrients from different parts of plants. \u2014 There is enough food for both populations. Two organisms: hawks and foxes \u2014 They eat at different times of the day."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "In the cell below, identify both the number and name of the structure in the cell that produces proteins. 2 1 3 4 Number of structure: Name of structure:",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/q55.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for: Number of structure: 1 Name of structure: ribosome Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_56_57.png",
+      "context": "Base your answer to question 56\u201357 on the information below and on your knowledge of biology.\nFragile X Syndrome\nFragile X syndrome is a genetic disorder associated with a mutation in a gene located \non a particular human chromosome called the X chromosome. The disorder results in a \ncritical protein, FMR1, not being produced. The normal FMR1 protein helps regulate the \nproduction of other proteins that play a role in the development of nerve cells. The situation \nis summarized below:\nNormal X chromosome \u2192 normal FMR1 protein produced \u2192 nerve cell development is regulated\nAbnormal fragile X chromosome \u2192 no FMR1 protein produced \u2192 nerve cell development is unregulated\n 56\u201357 Explain how the mutation in the fragile X chromosome affects the body. In your answer, be sure to:\n \n\u2022 state one speci\ufb01 c reason why the mutated gene on the fragile X chromosome is unable to produce the \nFMR1 protein.   [1]\n \n\u2022 explain why children with fragile X syndrome would often have learning disabilities, including speech \nand language problems and intellectual disabilities.   [1]\nPart C\nAnswer all questions in this part.     [17]\nDirections (56\u201372):  Record your answers in the spaces provided in this examination booklet.\n\n Living Environment\u2013Aug. \u201922 \n[21] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating one specific reason why the gene on the mutated fragile X chromosome is unable to produce the FMR1 protein. Acceptable responses include, but are not limited to: \u2014 A mutation could have deleted the gene that codes for the synthesis of the protein. \u2014 The mutated DNA may have a changed sequence of bases. \u2014 The gene may have been turned off as a result of the mutation. \u2014 The abnormal gene cannot regulate the proteins involved in the production of nerve cells."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "56\u201357 Explain how the mutation in the fragile X chromosome affects the body. In your answer, be sure to: \u2022 state one speci\ufb01 c reason why the mutated gene on the fragile X chromosome is unable to produce the FMR1 protein. \u2022 explain why children with fragile X syndrome would often have learning disabilities, including speech and language problems and intellectual disabilities.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_56_57.png",
+      "context": "Base your answer to question 56\u201357 on the information below and on your knowledge of biology.\nFragile X Syndrome\nFragile X syndrome is a genetic disorder associated with a mutation in a gene located \non a particular human chromosome called the X chromosome. The disorder results in a \ncritical protein, FMR1, not being produced. The normal FMR1 protein helps regulate the \nproduction of other proteins that play a role in the development of nerve cells. The situation \nis summarized below:\nNormal X chromosome \u2192 normal FMR1 protein produced \u2192 nerve cell development is regulated\nAbnormal fragile X chromosome \u2192 no FMR1 protein produced \u2192 nerve cell development is unregulated\n 56\u201357 Explain how the mutation in the fragile X chromosome affects the body. In your answer, be sure to:\n \n\u2022 state one speci\ufb01 c reason why the mutated gene on the fragile X chromosome is unable to produce the \nFMR1 protein.   [1]\n \n\u2022 explain why children with fragile X syndrome would often have learning disabilities, including speech \nand language problems and intellectual disabilities.   [1]\nPart C\nAnswer all questions in this part.     [17]\nDirections (56\u201372):  Record your answers in the spaces provided in this examination booklet.\n\n Living Environment\u2013Aug. \u201922 \n[21] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for explaining why children with fragile X syndrome would often have learning disabilities, including speech and language problems and intellectual disabilities. Acceptable responses include, but are not limited to: \u2014 FMR1 proteins are associated with nerve cell development. Speech is a function of the nervous system. \u2014 Nerve cell development is associated with FMR1 protein, and the problems mentioned are nervous system problems. \u2014 The normal FMR1 protein helps regulate the production of other proteins that play a role in the development of nerve cells. \u2014 Nerve cell development is not regulated. \u2014 The nerve cells/brain haven\u2019t developed normally."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Explain why species C might have a greater chance of avoiding extinction in the changed environment than species B. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the information below and on your knowledge of biology.\nThe chart shows the reproductive characteristics of three species living in an area that has recently \nundergone a major environmental change.\nSpecies\nMethod of \nReproduction\nFrequency of \nReproduction\nAverage Number of \nOffspring Produced \nEach Time\nA\nAsexual\nEvery two days\n2\nB\nSexual\nEvery two years\n4\nC\nSexual\nEvery year\n20",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for explaining why species C might have a greater chance of avoiding extinction in the changed environment than species B and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Species C is more likely to have a greater amount of variation because it has a higher reproductive rate than species B. Some of these variations could be adaptations to the changed environment. \u2014 Species C produces more offspring in a shorter time than species B. This could result in a greater amount of variation being present in the population, which could result in a greater chance of survival. \u2014 Species C has more offspring, so there would be more variations. \u2014 Some members of species C already pass on favorable adaptations. Because they have a higher reproductive rate, they would be more successful. Note: Acceptable responses must include a reference to the species having favorable adaptations/variations to avoid extinction. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "59",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the information below and on your knowledge of biology.\nThe chart shows the reproductive characteristics of three species living in an area that has recently \nundergone a major environmental change.\nSpecies\nMethod of \nReproduction\nFrequency of \nReproduction\nAverage Number of \nOffspring Produced \nEach Time\nA\nAsexual\nEvery two days\n2\nB\nSexual\nEvery two years\n4\nC\nSexual\nEvery year\n20",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating one possible reason why species A could be the most successful in surviving environmental change and supporting the answer. Acceptable responses include, but are not limited to: \u2014 If species A is already adapted to the new environment, it would continue to be successful, since the offspring would be identical to the parent. \u2014 Its short reproductive time would be an advantage, since all the offspring would inherit any favorable traits they have. \u2014 If a favorable mutation were to occur, the new traits would be passed on to many offspring at a rapid rate."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "State one negative effect the overuse of plastic bags is having on the environment.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 63 on the passage below and on your knowledge of biology.\nPlastic Bags Everywhere!\nAs of 2016, Americans used approximately 100 billion plastic bags annually. An average \nfamily brought home about 1500 plastic bags a year. Less than 1% of those bags were \nreturned for recycling. Therefore, most of the bags ended up in land\ufb01 lls, where it takes \nanywhere from months to hundreds of years for them to be broken down. These growing \nland\ufb01 lls are destroying natural habitats. Many of the bags also make their way into oceans \nwhere, if mistaken for food, they can cause animals to choke or starve to death.\nA group of researchers in Europe discovered that wax moth caterpillars could break the \nchemical bonds in polyethylene, a polymer used to produce plastic bags and other products. \nThough the scientists don\u2019t know the exact chemical that the caterpillar is using to break \ndown the plastic, they predict it is an enzyme. Once they isolate the chemical, scientists may \nbe able to mass-produce the chemical in order to break down the plastic bags accumulating \nin the environment.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Plastic bags could kill some animals, decreasing biodiversity. \u2014 The overuse of plastic bags increases the use of fossil fuels to produce them. \u2014 Animals mistake it as food and choke or starve to death. \u2014 Plastic pollution could disrupt natural habitats. \u2014 The disposal of plastic bags can increase the size and number of landfills, resulting in the destruction of habitats."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Explain why the researchers suspect it is an enzyme that is enabling wax moth caterpillars to break down the plastic bags.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 63 on the passage below and on your knowledge of biology.\nPlastic Bags Everywhere!\nAs of 2016, Americans used approximately 100 billion plastic bags annually. An average \nfamily brought home about 1500 plastic bags a year. Less than 1% of those bags were \nreturned for recycling. Therefore, most of the bags ended up in land\ufb01 lls, where it takes \nanywhere from months to hundreds of years for them to be broken down. These growing \nland\ufb01 lls are destroying natural habitats. Many of the bags also make their way into oceans \nwhere, if mistaken for food, they can cause animals to choke or starve to death.\nA group of researchers in Europe discovered that wax moth caterpillars could break the \nchemical bonds in polyethylene, a polymer used to produce plastic bags and other products. \nThough the scientists don\u2019t know the exact chemical that the caterpillar is using to break \ndown the plastic, they predict it is an enzyme. Once they isolate the chemical, scientists may \nbe able to mass-produce the chemical in order to break down the plastic bags accumulating \nin the environment.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Enzymes are used to digest/hydrolyze substances. \u2014 One common use of enzymes is to break down substances. \u2014 It breaks the chemical bonds in polyethylene. \u2014 Enzymes catalyze/speed up chemical reactions."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Explain why using the chemical produced by the caterpillars to break down plastic bags could be considered an ecologically friendly solution to the problem.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 63 on the passage below and on your knowledge of biology.\nPlastic Bags Everywhere!\nAs of 2016, Americans used approximately 100 billion plastic bags annually. An average \nfamily brought home about 1500 plastic bags a year. Less than 1% of those bags were \nreturned for recycling. Therefore, most of the bags ended up in land\ufb01 lls, where it takes \nanywhere from months to hundreds of years for them to be broken down. These growing \nland\ufb01 lls are destroying natural habitats. Many of the bags also make their way into oceans \nwhere, if mistaken for food, they can cause animals to choke or starve to death.\nA group of researchers in Europe discovered that wax moth caterpillars could break the \nchemical bonds in polyethylene, a polymer used to produce plastic bags and other products. \nThough the scientists don\u2019t know the exact chemical that the caterpillar is using to break \ndown the plastic, they predict it is an enzyme. Once they isolate the chemical, scientists may \nbe able to mass-produce the chemical in order to break down the plastic bags accumulating \nin the environment.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 It is not likely to be toxic/harmful to the environment. \u2014 Enzymes are proteins and will most likely degrade/break down in the environment. \u2014 Caterpillars don\u2019t have to be killed to produce the chemical. \u2014 It is a substance produced naturally by the caterpillar, as opposed to using a man-made chemical."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Suggest a plan of action, that could be carried out in your local community,",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 63 on the passage below and on your knowledge of biology.\nPlastic Bags Everywhere!\nAs of 2016, Americans used approximately 100 billion plastic bags annually. An average \nfamily brought home about 1500 plastic bags a year. Less than 1% of those bags were \nreturned for recycling. Therefore, most of the bags ended up in land\ufb01 lls, where it takes \nanywhere from months to hundreds of years for them to be broken down. These growing \nland\ufb01 lls are destroying natural habitats. Many of the bags also make their way into oceans \nwhere, if mistaken for food, they can cause animals to choke or starve to death.\nA group of researchers in Europe discovered that wax moth caterpillars could break the \nchemical bonds in polyethylene, a polymer used to produce plastic bags and other products. \nThough the scientists don\u2019t know the exact chemical that the caterpillar is using to break \ndown the plastic, they predict it is an enzyme. Once they isolate the chemical, scientists may \nbe able to mass-produce the chemical in order to break down the plastic bags accumulating \nin the environment.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Encourage the use of reusable, cloth bags. \u2014 Set up plastic bag recycling containers at various locations. \u2014 Write letters to local politicians suggesting a ban on the use of plastic bags. \u2014 Make customers pay for plastic bags. They will be less likely to use them. \u2014 Educate community members about the issue. \u2014 Ban the use of plastic bags. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Describe one positive and one negative outcome of mining metal ores.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of biology.\nPlants Clean Up Mining Wastes\nThe mining of certain metal ores, such as copper and lead, can result in the contamination \nof soils. Wastes from the mining process can be toxic to plants and animals in the area. It \nhas been discovered that some species of grass are able to grow in these contaminated areas. \nThese grass plants can actually remove some of the toxic wastes from the soil and accumulate \nthem in their tissues.\nGrowing these resistant grass plants in contaminated soil, then harvesting them to \nremove the toxic wastes from the environment, has been suggested as a possible way to \nclean up these areas.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 We benefit by obtaining a valuable resource for our use, but contaminated soil can be harmful to people and other organisms. \u2014 Positive result: We obtain valuable metal ore to use in manufacturing. Negative result: Soil contamination is bad for the environment. \u2014 The benefit is we get the ore; the risk is that we pollute the environment. \u2014 You could obtain valuable resources, but destroy animal/plant habitats."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Explain why importing grasses to clean up mining wastes in areas where those grasses do not normally grow could lead to unexpected environmental problems.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of biology.\nPlants Clean Up Mining Wastes\nThe mining of certain metal ores, such as copper and lead, can result in the contamination \nof soils. Wastes from the mining process can be toxic to plants and animals in the area. It \nhas been discovered that some species of grass are able to grow in these contaminated areas. \nThese grass plants can actually remove some of the toxic wastes from the soil and accumulate \nthem in their tissues.\nGrowing these resistant grass plants in contaminated soil, then harvesting them to \nremove the toxic wastes from the environment, has been suggested as a possible way to \nclean up these areas.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The grasses could become invasive in the new area. \u2014 The grasses could compete with native plants in the new area. \u2014 Animals in the new area could eat these grasses and get sick or die. \u2014 Toxic metals could enter the food chain. \u2014 These grasses could disrupt the stability of the ecosystem. \u2014 There would be a problem with where/how to dispose of the grasses with the toxic waste."
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Today,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Mitochondria are the site of cellular respiration, a process that releases energy in the cell. \u2014 With faulty-functioning mitochondria, less energy is released, and the patient is tired. \u2014 The patients would produce less ATP. Note: Do not accept \u201cit is the powerhouse\u201d of the cell without an explanation referring to energy or ATP."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Explain how snow cover affects the population of the snowshoe hare.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_67_70.png",
+      "context": "Base your answers to questions 67 through 70 on the information below and on your knowledge of biology.\nLessening Snow Cover Affects Survival of Snowshoe Hare\nSnowshoe hares are found in the northern evergreen forests of the United States. \nThe physical characteristics of the hares enable them to hunt for food and hide from their \npredators during the cold, snow-covered winters. They have large, snowshoe-shaped feet \nand thick fur. A change in fur color during an annual molt (shedding) occurs before the \nwinter season, causing white fur to replace the brown fur of summer.\nThe amount of snow cover in these northern forests has decreased in recent years. \nResearch has shown that this decrease has had a signi\ufb01 cant effect on the snowshoe hare \npopulation, even though the carrying capacity of the forests has not changed. Researchers \nhave estimated that for every seven days that snow covers the ground, the snowshoe hare \npopulations are four times more likely to survive.\nSince the molt from brown fur to white fur is a response to the decreasing hours of \ndaylight in the fall and not the arrival of snow, the later the snow arrives, the greater the \nchance that the white hares will be caught by their predators.\nThe snowshoe hare plays a major role in the stability of these forest ecosystems. Their loss \nwould affect other species such as lynx and great horned owls. If the amount of snow cover \ncontinues to decrease, researchers are concerned that it will be harder for the snowshoe hare \nto survive in their current habitats.\nSnowshoe Hare\nSource: Science News, April 30, 2016",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Researchers have estimated that for every seven days that snow covers the ground, the snowshoe hare populations are four times more likely to survive. \u2014 The more snow cover there is, the higher the population of the snowshoe hares will be because there is a better chance that the hares can escape/hide from their predators. \u2014 Without snow cover, the hares are more visible to their predators, and a smaller number will survive."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "68",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_67_70.png",
+      "context": "Base your answers to questions 67 through 70 on the information below and on your knowledge of biology.\nLessening Snow Cover Affects Survival of Snowshoe Hare\nSnowshoe hares are found in the northern evergreen forests of the United States. \nThe physical characteristics of the hares enable them to hunt for food and hide from their \npredators during the cold, snow-covered winters. They have large, snowshoe-shaped feet \nand thick fur. A change in fur color during an annual molt (shedding) occurs before the \nwinter season, causing white fur to replace the brown fur of summer.\nThe amount of snow cover in these northern forests has decreased in recent years. \nResearch has shown that this decrease has had a signi\ufb01 cant effect on the snowshoe hare \npopulation, even though the carrying capacity of the forests has not changed. Researchers \nhave estimated that for every seven days that snow covers the ground, the snowshoe hare \npopulations are four times more likely to survive.\nSince the molt from brown fur to white fur is a response to the decreasing hours of \ndaylight in the fall and not the arrival of snow, the later the snow arrives, the greater the \nchance that the white hares will be caught by their predators.\nThe snowshoe hare plays a major role in the stability of these forest ecosystems. Their loss \nwould affect other species such as lynx and great horned owls. If the amount of snow cover \ncontinues to decrease, researchers are concerned that it will be harder for the snowshoe hare \nto survive in their current habitats.\nSnowshoe Hare\nSource: Science News, April 30, 2016",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The environmental factor that stimulates the change of fur color in the snowshoe hare is the shortening length of daylight in the fall. \u2014 The decrease in daylight hours is the environmental factor that causes the change in the color of the snowshoe hare. \u2014 the decreasing length of daylight \u2014 length of day/hours of daylight Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Identify a speci\ufb01 c environmental issue that is most likely to affect snowshoe hare populations in northern ecosystems. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_67_70.png",
+      "context": "Base your answers to questions 67 through 70 on the information below and on your knowledge of biology.\nLessening Snow Cover Affects Survival of Snowshoe Hare\nSnowshoe hares are found in the northern evergreen forests of the United States. \nThe physical characteristics of the hares enable them to hunt for food and hide from their \npredators during the cold, snow-covered winters. They have large, snowshoe-shaped feet \nand thick fur. A change in fur color during an annual molt (shedding) occurs before the \nwinter season, causing white fur to replace the brown fur of summer.\nThe amount of snow cover in these northern forests has decreased in recent years. \nResearch has shown that this decrease has had a signi\ufb01 cant effect on the snowshoe hare \npopulation, even though the carrying capacity of the forests has not changed. Researchers \nhave estimated that for every seven days that snow covers the ground, the snowshoe hare \npopulations are four times more likely to survive.\nSince the molt from brown fur to white fur is a response to the decreasing hours of \ndaylight in the fall and not the arrival of snow, the later the snow arrives, the greater the \nchance that the white hares will be caught by their predators.\nThe snowshoe hare plays a major role in the stability of these forest ecosystems. Their loss \nwould affect other species such as lynx and great horned owls. If the amount of snow cover \ncontinues to decrease, researchers are concerned that it will be harder for the snowshoe hare \nto survive in their current habitats.\nSnowshoe Hare\nSource: Science News, April 30, 2016",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying a specific environmental issue that is most likely to affect snowshoe hare populations in northern ecosystems and supporting the answer. Acceptable responses include, but are not limited to: Environmental issue: Global Warming/Climate Change \u2014 Global warming is causing average temperatures to increase and this would cause snow to melt, resulting in a shorter snow-cover time, which can cause the hare to move further north. Environmental issue: Increasing Average Temperatures \u2014 Since the average temperatures are higher in these regions, the snow cover melts sooner and the snowshoe hare is not protected in its habitat. Environmental issue: Air pollution/Acid Rain \u2014 They can kill many trees/plants, negatively affecting the ecosystem the hares live in."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Graph A below, based on 1985 data, represents the time of the year when the fur color of the snowshoe hares in the northern Rockies does not match the color of their surroundings. The bold line on each graph indicates the period of time that snow covers the ground. The shaded area in the graphs represents this mismatch of color. Graphs B and C show future projections. 1985 A 2045 B 2075 C Date 9/17 10/7 10/2711/16 12/6 3/16 4/5 5/15 6/4 6/24 4/25 Color Mismatch of Snowshoe Hare to Its Environment Source: Adapted from L.Scot Mills,et al.PNAS(2013).DOI: 10.1073/pnas.1222724110 Percent of White Snowshoe Hares 100 60 40 20 0 80 100 60 40 20 0 80 100 60 40 20 0 80",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_67_70.png",
+      "context": "Base your answers to questions 67 through 70 on the information below and on your knowledge of biology.\nLessening Snow Cover Affects Survival of Snowshoe Hare\nSnowshoe hares are found in the northern evergreen forests of the United States. \nThe physical characteristics of the hares enable them to hunt for food and hide from their \npredators during the cold, snow-covered winters. They have large, snowshoe-shaped feet \nand thick fur. A change in fur color during an annual molt (shedding) occurs before the \nwinter season, causing white fur to replace the brown fur of summer.\nThe amount of snow cover in these northern forests has decreased in recent years. \nResearch has shown that this decrease has had a signi\ufb01 cant effect on the snowshoe hare \npopulation, even though the carrying capacity of the forests has not changed. Researchers \nhave estimated that for every seven days that snow covers the ground, the snowshoe hare \npopulations are four times more likely to survive.\nSince the molt from brown fur to white fur is a response to the decreasing hours of \ndaylight in the fall and not the arrival of snow, the later the snow arrives, the greater the \nchance that the white hares will be caught by their predators.\nThe snowshoe hare plays a major role in the stability of these forest ecosystems. Their loss \nwould affect other species such as lynx and great horned owls. If the amount of snow cover \ncontinues to decrease, researchers are concerned that it will be harder for the snowshoe hare \nto survive in their current habitats.\nSnowshoe Hare\nSource: Science News, April 30, 2016",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The fur color of the hare might be darker for more of the year. \u2014 Over several generations, their feet may eventually become smaller. \u2014 Their molting time may change."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "State one reason this roundworm is considered a parasite to this species of tropical ant.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the information below and on your knowledge of biology.\nTropical worker ant (Cephalotes atratus)\nSource: The American Naturalist, 2008,\n171:4, 536-544\nSwollen red\nabdomen\nRoundworm Parasite Causes Tropical Ant to Look Like a Berry\nScientists have discovered a parasitic roundworm that makes its ant host look like a juicy, \nred, ripe berry. Worker ants collect materials from the soil to feed the larval ants. Often, the \nsoil also contains roundworm eggs that are consumed by the ant larvae.\nThe roundworms develop from the eggs within the ant larvae, mate, and produce \nhundreds of roundworms. As the roundworms develop, they cause increased reddening of \nthe developing ant\u2019s abdomen and take nutrients from the ant. Just as a fruit reaches peak \ncolor when its seeds are ready for dispersal, the infected ant\u2019s abdomen reaches peak redness \nas the roundworm eggs mature.\nBirds don\u2019t normally eat the foul-tasting ants, but are thought to eat the ants infected \nwith roundworms since they look like red berries. The roundworm eggs move through the \nbird\u2019s digestive system unaffected and pass to the soil in the bird\u2019s feces.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The roundworm lives in the ants and gets nutrients from the host/ants, harming them in the process. \u2014 The roundworm benefits by living in the ant, and the ant is harmed. \u2014 As the roundworms develop, they take nutrients from the ant. \u2014 It increases the likelihood that the ant will be eaten."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "72",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the information below and on your knowledge of biology.\nTropical worker ant (Cephalotes atratus)\nSource: The American Naturalist, 2008,\n171:4, 536-544\nSwollen red\nabdomen\nRoundworm Parasite Causes Tropical Ant to Look Like a Berry\nScientists have discovered a parasitic roundworm that makes its ant host look like a juicy, \nred, ripe berry. Worker ants collect materials from the soil to feed the larval ants. Often, the \nsoil also contains roundworm eggs that are consumed by the ant larvae.\nThe roundworms develop from the eggs within the ant larvae, mate, and produce \nhundreds of roundworms. As the roundworms develop, they cause increased reddening of \nthe developing ant\u2019s abdomen and take nutrients from the ant. Just as a fruit reaches peak \ncolor when its seeds are ready for dispersal, the infected ant\u2019s abdomen reaches peak redness \nas the roundworm eggs mature.\nBirds don\u2019t normally eat the foul-tasting ants, but are thought to eat the ants infected \nwith roundworms since they look like red berries. The roundworm eggs move through the \nbird\u2019s digestive system unaffected and pass to the soil in the bird\u2019s feces.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The birds transport the roundworm eggs to new areas. \u2014 Birds disperse the roundworms. \u2014 After the birds eat the ants, they deposit the roundworm eggs in their feces in the soil. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "One possible reason for the increase in beak length is that birds with longer beaks",
+      "choices": [
+        "were less likely to have offspring with long beaks",
+        "had a more successful adaptation for survival in the area",
+        "needed to reach the seed within the bird feeder, so their beaks grew longer",
+        "had more competition than other birds at the bird feeders"
+      ],
+      "image": "/images/exams/living-environment/august-2022/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the information below and on your knowledge of biology. \nThe photograph shows two birds on a bird feeder.\nSource: http://birdfeederhub.com/best-large-capacity-bird-feeders/\nStudies have shown that the length of beaks within a songbird population may be \nin\ufb02 uenced by the presence of bird feeders. When bird feeders were widely used in one area, \nbirds were observed to have longer beaks. In an area where bird feeders were not used, the \nbeaks of these species were of average length.\n \nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "The presence of bird feeders in an area would represent a",
+      "choices": [
+        "selecting agent",
+        "feedback mechanism",
+        "source of mutation",
+        "biological catalyst"
+      ],
+      "image": "/images/exams/living-environment/august-2022/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the information below and on your knowledge of biology. \nThe photograph shows two birds on a bird feeder.\nSource: http://birdfeederhub.com/best-large-capacity-bird-feeders/\nStudies have shown that the length of beaks within a songbird population may be \nin\ufb02 uenced by the presence of bird feeders. When bird feeders were widely used in one area, \nbirds were observed to have longer beaks. In an area where bird feeders were not used, the \nbeaks of these species were of average length.\n \nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "The new, more accepted classi\ufb01 cation of the elephant shrew is most probably based on an analysis of",
+      "choices": [
+        "the coloration of the elephant shrew\u2019s fur",
+        "the feeding habits of the elephant shrew compared to other shrews",
+        "a number of newly found shrew fossils",
+        "the DNA present in the cells of the elephant shrews"
+      ],
+      "image": "/images/exams/living-environment/august-2022/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of biology.\nThe Elephant Shrew\nThe elephant shrew spends its days searching the leaf litter on the forest \ufb02 oor for insect \nprey. When \ufb01 rst discovered, due to structural similarities, the elephant shrew was classi\ufb01 ed \nwith other shrews and their relatives. However, scientists recently reclassi\ufb01 ed the elephant \nshrew, as shown in the evolutionary tree below:\nAll other\nmammals\nShrews\n&\nrelatives\nPrimates,\nrodents,\nrabbits &\nrelatives\nTenrecs\nGolden\nmoles\nAardvarks\nElephant\nshrews Manatees Hyraxes Elephants Marsupials\nSource: Adapted from http://evolution.berkeley.edu/evolibrary/news/080301_elephantshrew\nNew\nOriginal\n \nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "According to the new evolutionary tree, elephant shrews are most closely related to",
+      "choices": [
+        "manatees and hyraxes",
+        "shrews and their relatives",
+        "tenrecs, golden moles, and aardvarks",
+        "primates, rodents, rabbits, and relatives"
+      ],
+      "image": "/images/exams/living-environment/august-2022/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of biology.\nThe Elephant Shrew\nThe elephant shrew spends its days searching the leaf litter on the forest \ufb02 oor for insect \nprey. When \ufb01 rst discovered, due to structural similarities, the elephant shrew was classi\ufb01 ed \nwith other shrews and their relatives. However, scientists recently reclassi\ufb01 ed the elephant \nshrew, as shown in the evolutionary tree below:\nAll other\nmammals\nShrews\n&\nrelatives\nPrimates,\nrodents,\nrabbits &\nrelatives\nTenrecs\nGolden\nmoles\nAardvarks\nElephant\nshrews Manatees Hyraxes Elephants Marsupials\nSource: Adapted from http://evolution.berkeley.edu/evolibrary/news/080301_elephantshrew\nNew\nOriginal\n \nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "The elephant shrew is at risk for extinction because its habitat is very limited. The elephant shrew can only be found in two forest locations within the country of Tanzania. Even though these locations are protected, they could be harmed by \ufb01",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of biology.\nThe Elephant Shrew\nThe elephant shrew spends its days searching the leaf litter on the forest \ufb02 oor for insect \nprey. When \ufb01 rst discovered, due to structural similarities, the elephant shrew was classi\ufb01 ed \nwith other shrews and their relatives. However, scientists recently reclassi\ufb01 ed the elephant \nshrew, as shown in the evolutionary tree below:\nAll other\nmammals\nShrews\n&\nrelatives\nPrimates,\nrodents,\nrabbits &\nrelatives\nTenrecs\nGolden\nmoles\nAardvarks\nElephant\nshrews Manatees Hyraxes Elephants Marsupials\nSource: Adapted from http://evolution.berkeley.edu/evolibrary/news/080301_elephantshrew\nNew\nOriginal\n \nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 These shrews are important to maintaining biodiversity in their environment. \u2014 The destruction of the habitat could have unintended consequences that could disrupt the entire food web. \u2014 The destruction of the habitat might cause the shrews to become extinct."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Identify the dependent variable in this investigation.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 and 79 on the information below and on your knowledge of biology.\nA student hypothesized that the pulse rates of his classmates would increase after walking. \nThe student then obtained pulse rates from \ufb01 ve classmates after they walked for 15 minutes. \nThe data, in beats per minute, were recorded as: 78, 68, 84, 88, and 90.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 pulse rate \u2014 beats/minute"
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify one error in the experimental procedure.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 78 and 79 on the information below and on your knowledge of biology.\nA student hypothesized that the pulse rates of his classmates would increase after walking. \nThe student then obtained pulse rates from \ufb01 ve classmates after they walked for 15 minutes. \nThe data, in beats per minute, were recorded as: 78, 68, 84, 88, and 90.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 There is no control. \u2014 The pulse rates were not measured at the start of the investigation. \u2014 He couldn\u2019t tell if the pulse rate increased because he didn\u2019t know the pulse rate at the start. \u2014 His sample size was too small. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Draw a line on the graph provided that shows the relationship between exercise and oxygen consumption. Support your answer. Exercise Oxygen Consumption Support:",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/q80.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for drawing a line that shows a relationship between exercise and oxygen consumption and supporting the answer. Acceptable responses include, but are not limited to: \u2014 As you exercise, you use more oxygen. \u2014 Exercise causes you to use more oxygen. \u2014 It is a direct relationship. \u2014 During exercise more energy is required, so the body takes in more oxygen. Note: Accept answers that show an increase in oxygen consumption as exercise continues. 81 MC on scoring key 82 MC on scoring key"
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Which statement correctly describes the effect on the mass of one of the cubes after the 20-minute period?",
+      "choices": [
+        "In distilled water, the mass of the potato cube increased due to salt leaving the cells of the potato.",
+        "In distilled water, the mass of the potato cube increased due to water moving into the cells from high concentration to low concentration.",
+        "In the concentrated salt solution, the mass of the potato cube increased due to salt moving into the cells from low concentration to high concentration.",
+        "In the concentrated salt solution, the mass of the potato cube remained the same due to the cell wall preventing the movement of molecules into or out of the cells."
+      ],
+      "image": null,
+      "context": "Base your answers to questions 81 and 82 on the information below and on your knowledge of biology.\nA student prepared two potato cubes by cutting 2 cm x 2 cm sections from the same \npotato. Next, she determined the mass of each of the cubes and recorded the information in \nher lab notebook.\nShe then placed one cube in a beaker of distilled water and the other in a beaker with \nan equal volume of concentrated salt solution. After 20 minutes, she removed both of them \nfrom the beakers and again determined the mass of each cube.\n \nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "The student placed a thin slice of potato in a drop of water on a glass slide. She added a coverslip and a drop of indicator. Using a compound light microscope, she examined the slide of potato and made the drawing below. Source: https://commons.wikimedia.org/ Blue-black-stained structures The blue-black-stained structures labeled in her drawing are most likely",
+      "choices": [
+        "chloroplasts",
+        "starch grains",
+        "ribosomes",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2022/q82.png",
+      "context": "Base your answers to questions 81 and 82 on the information below and on your knowledge of biology.\nA student prepared two potato cubes by cutting 2 cm x 2 cm sections from the same \npotato. Next, she determined the mass of each of the cubes and recorded the information in \nher lab notebook.\nShe then placed one cube in a beaker of distilled water and the other in a beaker with \nan equal volume of concentrated salt solution. After 20 minutes, she removed both of them \nfrom the beakers and again determined the mass of each cube.\n \nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Identify the technique used to obtain the results seen in the diagram.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the diagram below and on your knowledge of biology.\nTests were performed to help identify the person who committed a crime. Lane D \ncontained DNA from evidence found at the crime scene. Lanes A, B, and C contained DNA \nfrom each of the three suspects.\nA\nB\nC\nD",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for gel electrophoresis/electrophoresis/DNA fingerprinting."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Based on the data, which lane most likely contained DNA from the suspect who committed the crime? Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the diagram below and on your knowledge of biology.\nTests were performed to help identify the person who committed a crime. Lane D \ncontained DNA from evidence found at the crime scene. Lanes A, B, and C contained DNA \nfrom each of the three suspects.\nA\nB\nC\nD",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying Lane B as containing DNA from the suspect who committed the crime and supporting the answer. Acceptable responses include, but are not limited to: \u2014 B, because it has the same bands as Lane D. \u2014 It is most similar to Lane D. \u2014 It is closest to the DNA found at the crime scene."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2022/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the diagram below and on your knowledge of biology.\nTests were performed to help identify the person who committed a crime. Lane D \ncontained DNA from evidence found at the crime scene. Lanes A, B, and C contained DNA \nfrom each of the three suspects.\nA\nB\nC\nD",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Lane A and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Lane A, because the shortest fragments move the farthest through the gel. \u2014 Lane A, because it has one band that is farther down the gel than the others. \u2014 Lane A has a band close to the bottom. Exercise Oxygen Consumption Living Environment Rating Guide \u2013 Aug. \u2019"
+    }
+  ]
+}

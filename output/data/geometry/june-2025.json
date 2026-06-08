@@ -1,0 +1,481 @@
+{
+  "subject": "geometry",
+  "session": "june-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The perimeter of a triangle is 18. What is the perimeter of a similar triangle after a dilation with a scale factor of 3?",
+      "choices": [
+        "6",
+        "18",
+        "54",
+        "162"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The Washington Monument, shown below, is in Washington, D.C. At a point on the ground 200 feet from the center of the base of the monument, the angle of elevation to the top of the monument is 70.19\u00b0. 70.19\u00b0 200 ft What is the height of the monument, to the nearest foot?",
+      "choices": [
+        "188",
+        "213",
+        "555",
+        "590"
+      ],
+      "image": "/images/exams/geometry/june-2025/q2.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "On the set of axes below, nEQA and nSUL are graphed. y x A Q S E U L Which sequence of transformations shows that nEQA > nSUL?",
+      "choices": [
+        "Rotate nEQA 90\u00b0 counterclockwise about the origin and then translate 9 units right and 1 unit down.",
+        "Rotate nEQA 90\u00b0 counterclockwise about the origin and then reflect over the line x 5 4.",
+        "Reflect nEQA over the x-axis and then rotate 90\u00b0 clockwise about the origin.",
+        "Translate nEQA 10 units right and then reflect over the line x 5 21."
+      ],
+      "image": "/images/exams/geometry/june-2025/q3.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "If two sides of a triangle have lengths of 2 and 8, the length of the third side could be",
+      "choices": [
+        "10",
+        "7",
+        "6",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "A regular octagon is rotated about its center. Which angle measure will carry the octagon onto itself?",
+      "choices": [
+        "36\u00b0",
+        "90\u00b0",
+        "144\u00b0",
+        "160\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "An equation of a circle is x2 1 y2 2 6x 1 2y 5 14. What are the coordinates of the center and the length of the radius of this circle?",
+      "choices": [
+        "(23,1) and r 5 5",
+        "(3,21) and r 5 5",
+        "(23,1) and r 5 24",
+        "(3,21) and r 5 24"
+      ],
+      "image": "/images/exams/geometry/june-2025/q6.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In nHSF below, m/S 5 90\u00b0, HF 5 30, and FS 5 23. S 30 H F 23 What is m/F, to the nearest degree?",
+      "choices": [
+        "53\u00b0",
+        "50\u00b0",
+        "40\u00b0",
+        "37\u00b0"
+      ],
+      "image": "/images/exams/geometry/june-2025/q7.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "In nCAB below, midsegments ___ DE, ___ EF, and ___ FD are drawn. C D E A B F If CA 5 14, CB 5 20, and FB 5 9, what is the perimeter of quadrilateral DEFA?",
+      "choices": [
+        "26",
+        "32",
+        "44",
+        "52"
+      ],
+      "image": "/images/exams/geometry/june-2025/q8.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A candle can be modeled by a pyramid with a square base, as shown below. The height of the candle is 10 cm, and each side of the base measures 6 cm. 10 cm 6 cm If the candle wax burns at a rate of 3.5 cubic centimeters per hour, what is the approximate number of hours this candle could burn?",
+      "choices": [
+        "103",
+        "51",
+        "34",
+        "11"
+      ],
+      "image": "/images/exams/geometry/june-2025/q9.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "In the diagram below, tangent ___ SR and secant ____ STU are drawn to circle O from external point S. U O R T S If TU > RU and mTR 5 68\u00b0, what is m/S?",
+      "choices": [
+        "22\u00b0",
+        "34\u00b0",
+        "39\u00b0",
+        "78\u00b0"
+      ],
+      "image": "/images/exams/geometry/june-2025/q10.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Triangle RST has m/S 5 33\u00b0, RS 5 7, and ST 5 12. What is the area of nRST, to the nearest tenth?",
+      "choices": [
+        "22.9",
+        "27.3",
+        "35.2",
+        "45.7"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Triangle ABC, with vertices whose coordinates are A(\u20133,\u20132), B(\u20131,2), and C(4,1), is graphed on the set of axes below. y x B C A Triangle A9B9C9, whose vertices have coordinates A9(\u20136,\u20132), B9(\u20132,2), and C9(8,1), is the image of nABC. The transformation that maps nABC onto nA9B9C9 is a",
+      "choices": [
+        "dilation",
+        "translation",
+        "vertical stretch",
+        "horizontal stretch"
+      ],
+      "image": "/images/exams/geometry/june-2025/q12.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which equation represents a line parallel to the line represented by y 5 4x 1 6 and passing through the point (\u20133,2)?",
+      "choices": [
+        "y 2 2 5 4(x 1 3)",
+        "y 1 3 5 4(x 2 2)",
+        "y 2 2 5 2 1 __ 4 (x 1 3)",
+        "y 1 3 5 2 1 __ 4 (x 2 2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which two-dimensional figure is always formed when a plane intersects a right cylinder perpendicular to its base?",
+      "choices": [
+        "circle",
+        "triangle",
+        "rhombus",
+        "rectangle"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "In nKMP below, ___ CE is drawn parallel to ___ MP. K E C M P If KC 5 8, CM 5 3, and CE 5 12, what is the length of ___ MP?",
+      "choices": [
+        "24",
+        "16.5",
+        "15",
+        "4.5"
+      ],
+      "image": "/images/exams/geometry/june-2025/q15.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A parallelogram must be a rectangle if its diagonals",
+      "choices": [
+        "are perpendicular",
+        "bisect each other",
+        "bisect its angles",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Point O divides ____ COA such that CO:OA 5 1:4. If C has coordinates (\u20132, \u20139) and A has coordinates (3,6), the coordinates of O are",
+      "choices": [
+        "(2,3)",
+        "(1,0)",
+        "(0,\u20133)",
+        "(\u20131,\u20136)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A spherical balloon is fully inflated with helium to a diameter of 1.7 feet. If helium costs $0.80 per cubic foot, what is the cost to completely fill the balloon with helium?",
+      "choices": [
+        "$2.06",
+        "$2.42",
+        "$3.22",
+        "$16.46"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "In right triangle ABD below, altitude ___ BC is drawn to hypotenuse ___ AD, AC 5 2.5, and CD 5 4.3. B C 4.3 2.5 A D What is the length of ___ BA, to the nearest tenth?",
+      "choices": [
+        "3.3",
+        "3.4",
+        "4.1",
+        "5.4"
+      ],
+      "image": "/images/exams/geometry/june-2025/q19.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Trapezoid ZOYD has parallel sides ___ ZO and ___ DY. If m/Z 5 141\u00b0 and m/Y 5 73\u00b0, what is m/D?",
+      "choices": [
+        "39\u00b0",
+        "73\u00b0",
+        "107\u00b0",
+        "141\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Triangle ABC is translated 5 units to the left and 2 units up to map onto nPQR. Which statement is not always true?",
+      "choices": [
+        "nPQR > nABC",
+        "/A > /Q",
+        "BQ 5 29",
+        "RQ 5"
+      ],
+      "image": "/images/exams/geometry/june-2025/q21.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "In the diagram below, congruent triangles PEN and PAL are drawn. P E N A L Which rigid motion maps nPEN onto nPAL?",
+      "choices": [
+        "a point reflection of nPEN through P",
+        "a reflection of nPEN over the angle bisector of /EPA",
+        "a rotation of nPEN about point P, mapping ___ PE onto ___ PA",
+        "a translation of nPEN along EA , mapping point E onto A"
+      ],
+      "image": "/images/exams/geometry/june-2025/q22.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A cone has a height of 8 inches and volume of 75.4 cubic inches. What is the diameter of the cone, to the nearest inch?",
+      "choices": [
+        "9",
+        "2",
+        "3",
+        "6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The line represented by the equation 5x 2 2y 5 10 is transformed by a dilation centered at (2,0) with a scale factor of 2. The image of the line",
+      "choices": [
+        "is the original line",
+        "passes through the point (4,0)",
+        "passes through the point (0,\u201310)",
+        "Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "In the year 2020, the village of Depew, New York had an area of 5.1 square miles and a population of 15,069. In the same year, the village of Lancaster, New York had an area of 2.7 square miles and a population of 10,087. Which village had the larger population density in 2020?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "The Chart for Determining the Final Examination Score for the June 2025 at: https://www.nysed.gov/state-assessment/high-school-regents-examinations no later than June 26, 2025. Conversion charts provided for previous administrations of the to determine students\u2019 fi nal scores for this administration. Online Submission of Teacher Evaluations of the Test to the Department Suggestions and feedback from teachers provide an important contribution to the test development process. The Department provides an online evaluation form for State assessments. It contains spaces for teachers to respond to several specifi c questions and to make suggestions. Instructions for completing the evaluation form are as follows: 1. Go to https://www.nysed.gov/state-assessment/teacher-feedback-state-assessments. 2. Click Regents Examinations. 3. Complete the required demographic fi elds. 4. Select the test title from the Regents Examination dropdown list. 5. Complete each evaluation question and provide comments in the space provided. 6. Click the SUBMIT button at the bottom of the page to submit the completed form."
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "In nABC below, ___ AC is extended through C to D, m/A 5 (3x 2 22)\u00b0, m/B 5 (4x 2 18)\u00b0, and m/BCD 5 (6x 2 23)\u00b0. A B C D (6x 2 23)\u00b0 (4x 2 18)\u00b0 (3x 2 22)\u00b0 Determine and state m/",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2025/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Parallelogram ABCD is shown below. Using a compass and straightedge, construct the altitude from point A to side ___ DC. [Leave all construction marks.]",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2025/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "28",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2025/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "H F 23 What is m/F, to the nearest degree?",
+      "choices": [
+        "is the original line",
+        "passes through the point (4,0)",
+        "passes through the point (0,\u201310)",
+        "Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. 25 In the year 2020, the village of Depew, New York had an area of 5.1 square miles and a population of 15,069. In the same year, the village of Lancaster, New York had an area of 2.7 square miles and a population of 10,087. Which village had the larger population density in 2020? 26 In nABC below, ___ AC is extended through C to D, m/A 5 (3x 2 22)\u00b0, m/B 5 (4x 2 18)\u00b0, and m/BCD 5 (6x 2 23)\u00b0. A B C D (6x 2 23)\u00b0 (4x 2 18)\u00b0 (3x 2 22)\u00b0 Determine and state m/ 27 Parallelogram ABCD is shown below. Using a compass and straightedge, construct the altitude from point A to side ___ DC. [Leave all construction marks.] 28 29 In a right triangle, the acute angles have the relationship sin(3x 2 7)\u00b0 5 cos(x 1 1)\u00b0 30 In circle A below, m/BAM 5 36\u00b0. A M 36\u00b0 B If AB 5 20, determine and state the length of MB. [Leave your answer in terms of \u03c0.]"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "In triangles ANT and ELM below, AN 5 6, NT 5 5.6, TA 5 4, EL 5 9, LM 5 8.4, and ME 5 6. L 9 6 8.4 E M N 6 4 5.6 A T Explain why nANT , Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2025/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "A store sells colored craft sand in the three different containers below. Container 1: A square prism with a base length of 4 inches and a height of 7.5 inches. Container 2: A cylinder with a diameter of 5 inches and a height of 6 inches. Container 3: A cone with a diameter of 7.5 inches and a height of 8.5 inches. If the containers are fi lled to the top, which container will hold the most sand?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Quadrilateral MIKE has vertices with coordinates M(\u20131,\u20133), I(\u20133,3), K(5,4), and E(7,\u20132). Prove MIKE is a parallelogram, and prove MIKE is not a rhombus. [The use of the set of axes below is optional.]",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2025/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "A park ranger needs to secure two different trees with wire. A wire is to be attached from a stake in the ground to each tree. The wire is attached at two different heights and two different angles of elevation, as indicated in the model below. 24\u00b0 11.6\u00b0 3 ft 4 ft Stake Wire Wire The park ranger has 20 feet of wire. Does the park ranger have enough wire to secure both trees? Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2025/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Given: Quadrilateral CARI with ___ CA > ___ RI and ___ CI > ___ RA, and ____ AEI and ____ LEH are drawn C I L R H E A Prove: HA \u2022 EL 5 LI \u2022 EH Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 Reference Sheet for Geometry Cylinder V 5 Bh where B is the area of the base General Prism V 5 Bh where B is the area of the base Volume Sphere V 5 4_ 3 Sr3 Cone V 5 1_ 3 Bh where B is the area of the base Pyramid V 5 1_ 3 Bh where B is the area of the base Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2025/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

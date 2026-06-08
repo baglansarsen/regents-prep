@@ -1,0 +1,501 @@
+{
+  "subject": "geometry",
+  "session": "june-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "In the diagram below, nBRI is the image of nJOE after a translation. Triangle CAT is the image of nBRI after a line reflection. R I B O E J A T C Which statement is always true?",
+      "choices": [
+        "/R > /T",
+        "/J > /A",
+        "___ JE > ___ RI",
+        "___ OE > ___ AT"
+      ],
+      "image": "/images/exams/geometry/june-2024/q1.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A right cylinder is cut parallel to its base. The shape of this cross section is a",
+      "choices": [
+        "cone",
+        "circle",
+        "triangle",
+        "rectangle"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "What is the minimum number of degrees that a regular hexagon must rotate about its center to carry it onto itself?",
+      "choices": [
+        "45\u00b0",
+        "72\u00b0",
+        "60\u00b0",
+        "120\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In the diagram below, a sphere is inscribed inside a cube. The cube has edge lengths of 18. 18 What is the volume of the sphere, in terms of \u03c0?",
+      "choices": [
+        "108\u03c0",
+        "432\u03c0",
+        "972\u03c0",
+        "7776\u03c0"
+      ],
+      "image": "/images/exams/geometry/june-2024/q4.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "In the diagram below, ___ EM intersects ___ HA at J, ___ EA ^ ___ HA, and ___ EM ^ ____ HM. E A M J H If EA 5 7.2, EJ 5 9, AJ 5 5.4, and HM 5 3.29, what is the length of ___ MJ, to the nearest hundredth?",
+      "choices": [
+        "2.47",
+        "2.63",
+        "4.11",
+        "4.39"
+      ],
+      "image": "/images/exams/geometry/june-2024/q5.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which equation represents the line that passes through the point (2,27) and is perpendicular to the line whose equation is y 5 3__ 4 x 1 4?",
+      "choices": [
+        "y 1 7 5 3__ 4 (x 2 2)",
+        "y 2 7 5 3__ 4 (x 1 2)",
+        "y 1 7 5 2 4__ 3 (x 2 2)",
+        "y 2 7 5 2 4__ 3 (x 1 2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In nRHM below, m/R 5 110\u00b0 and m/M 5 40\u00b0. M R H 110\u00b0 40\u00b0 If nRHM is reflected over side ___ HM to form quadrilateral RHR9M, which statement is always true?",
+      "choices": [
+        "Quadrilateral RHR9M is a parallelogram.",
+        "m/MHR9 5 40\u00b0",
+        "m/HMR9 5 40\u00b0",
+        "___ MR > ____ HR9"
+      ],
+      "image": "/images/exams/geometry/june-2024/q7.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The funnel shown below can be used to decorate cookies with melted chocolate. The funnel can be modeled by a cone whose radius is 6 cm and height is 13 cm. 13 cm 6 cm The baker uses 2 cubic centimeters of chocolate to decorate each cookie. When the funnel is completely filled, what is the maximum number of cookies that can be decorated with the melted chocolate?",
+      "choices": [
+        "78",
+        "245",
+        "490",
+        "735"
+      ],
+      "image": "/images/exams/geometry/june-2024/q8.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "In circle O below, chords ___ CT and ___ BN intersect at point A. Chords ___ CB and ___ NT are drawn. O A T C B N Which statement is always true?",
+      "choices": [
+        "NT ___ TA 5 CB ___ BA",
+        "/BAC > /ATN",
+        "NA ___ AB 5 TA ___ AC",
+        "/BCA > /"
+      ],
+      "image": "/images/exams/geometry/june-2024/q9.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "In the diagram below of nABC, CBF is drawn, ___ AB bisects /FBD, and ___ BD ^ ___ AC. A F C B D If m/C 5 42\u00b0, what is m/A?",
+      "choices": [
+        "24\u00b0",
+        "33\u00b0",
+        "48\u00b0",
+        "66\u00b0"
+      ],
+      "image": "/images/exams/geometry/june-2024/q10.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "In circle O below, OA 5 6, and m/COA 5 100\u00b0. C 100\u00b0 A O 6 What is the area of the shaded sector?",
+      "choices": [
+        "10\u03c0",
+        "26\u03c0",
+        "10\u03c0 ___ 3",
+        "26\u03c0 ___ 3"
+      ],
+      "image": "/images/exams/geometry/june-2024/q11.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "In rectangle ABCD, diagonal ___ AC is drawn. The measure of /ACD is 37\u00b0 and the length of ___ BC is 7.6 cm. What is the length of ___ AC, to the nearest tenth of a centimeter?",
+      "choices": [
+        "4.6",
+        "9.5",
+        "10.1",
+        "12.6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A peanut butter manufacturer would like to use a cylindrical jar with a volume of 1180 cm3. The jar has a height of 10 cm. What is the diameter of the jar, to the nearest tenth of a centimeter?",
+      "choices": [
+        "3.8",
+        "6.1",
+        "10.9",
+        "12.3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Triangle KLM is dilated by a scale factor of 3 to map onto triangle DRS. Which statement is not always true?",
+      "choices": [
+        "/K > /D",
+        "KM 5 1__ 3 DS",
+        "The area of nDRS is 3 times the area of nKLM.",
+        "The perimeter of nDRS is 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "A rectangle with dimensions of 4 feet by 7 feet is continuously rotated about one of its 4-foot sides. The resulting three-dimensional object is a",
+      "choices": [
+        "cylinder with a height of 7 feet and a base radius of 4 feet.",
+        "cylinder with a height of 4 feet and a base radius of 7 feet.",
+        "cone with a height of 7 feet and a base radius of 7 feet.",
+        "cone with a height of 4 feet and a base radius of 7 feet."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In right triangle ABC, altitude ___ CD is drawn to hypotenuse ___ AB. If AD 5 4 and CD 5 8, the length of ___ BD is",
+      "choices": [
+        "48",
+        "80",
+        "12",
+        "16"
+      ],
+      "image": "/images/exams/geometry/june-2024/q16.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "If ABCD is a parallelogram, which additional information is sufficient to prove that ABCD is a rectangle?",
+      "choices": [
+        "___ AB > ___ BC",
+        "___ AB || ___ CD",
+        "___ ___ AC > ___ ___ BD",
+        "___ ___ AC ^ ___ ___"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Line segment APB has endpoints A(25,4) and B(7,24). What are the coordinates of P if AP:PB is in the ratio 1:3?",
+      "choices": [
+        "(\u20132,2)",
+        "(\u20131,1.3)",
+        "(1,0)",
+        "(4,\u20132)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "In the diagram below, ___ AB and ___ CD intersect at E, and ___ CA and ___ DB are drawn. A C B E D If ___ CA || ___ BD, which statement is always true?",
+      "choices": [
+        "___ AE > ___ BE",
+        "___ CA > ___ DB",
+        "nAEC | nBED",
+        "nAEC >"
+      ],
+      "image": "/images/exams/geometry/june-2024/q19.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "If sin(3x 1 9)\u00b0 5 cos(5x 2 7)\u00b0, what is the value of x?",
+      "choices": [
+        "8",
+        "11",
+        "33",
+        "42"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which set of integers could represent the lengths of the sides of an isosceles triangle?",
+      "choices": [
+        "{1, 1, 3}",
+        "{2, 2, 5}",
+        "{3, 3, 6}",
+        "{4, 4, 7}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "In the diagram shown below, altitude ___ CD is drawn to the hypotenuse of right triangle ABC. C A D B Which equation can always be used to find the length of ___ AC?",
+      "choices": [
+        "AC ___ CD 5 CD ___ AD",
+        "CD ___ AC 5 AC ___ AB",
+        "AC ___ CD 5 CD ___ BC",
+        "AB ___ AC 5 AC ___"
+      ],
+      "image": "/images/exams/geometry/june-2024/q22.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which congruence statement is sufficient to prove parallelogram MARK is a rhombus?",
+      "choices": [
+        "___ MA > ___ MK",
+        "___ MA > ___ KR",
+        "/K > /A",
+        "/R > /A"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A line whose equation is y 5 22x 1 3 is dilated by a scale factor of 4 centered at (0,3). Which equation represents the image of the line after the dilation?",
+      "choices": [
+        "y 5 22x 1 3",
+        "y 5 22x 1 12",
+        "y 5 28x 1 3",
+        "y 5 28x 1 12 Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "In nABC below, m/C 5 90\u00b0, AC 5 11, and AB 5 18. C A 11 18 B Determine and state the measure of angle A,",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2024/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Use a compass and straightedge to construct an equilateral triangle inscribed in circle A below. [Leave all construction marks.]",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2024/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Quadrilateral DEAR and its image, quadrilateral D9E9A9R9, are graphed on the set of axes below. y x A9 E9 D9 R9 R A E D Describe a sequence of transformations that maps quadrilateral DEAR onto quadrilateral D9E9A9R9",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2024/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "In circle P below, tangent ___ AL and secant ____ AKE are drawn. A L K P E If AK 5 12 and KE 5 36, determine and state the length of ___",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2024/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "The equation of a circle is x2 1 y2 1 8x 2 6y 1 7 5 0",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "On the set of axes below, nABC is drawn with vertices that have coordinates A(2,23), B(4,5), and C(25,1)",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2024/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "In the diagram below, AE 5 15, EB 5 27, AF 5 20, and FC 5 36. A C E F B 27 15 20 36 Explain why ___ EF || ___ Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2024/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "A building is composed of a rectangular pyramid on top of a rectangular prism, as shown in the diagram below. The rectangular prism has a length of 38 feet, a width of 15 feet, and a height of 22 feet. The rectangular pyramid sits directly on top of the rectangular prism, and its height is 12 feet. 22 ft 15 ft 38 ft 12 ft An air purification filter was installed that will clean all the air in the building at a rate of 2400 cubic feet per minute. Determine and state how long it will take, to the nearest tenth of a minute,",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2024/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Given: nABC, nDEF, ___ AB ^ ___ BC, ___ DE ^ ___ EF, ___ AE > ___ DB, and ___ AC || ___ FD A B C D E F Prove: nABC >",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2024/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "In the diagram below, a boat at point A is traveling toward the most powerful waterfall in North America, the Horseshoe Falls. The Horseshoe Falls has a vertical drop of 188 feet. The angle of elevation from point A to the top of the waterfall is 15\u00b0. 188 ft B 15\u00b0 15\u00b0 A B After the boat travels toward the falls, the angle of elevation at point B to the top of the waterfall is 23\u00b0. Determine and state, to the nearest foot, Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2024/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "(3) 12 (2)",
+      "choices": [],
+      "image": "/images/exams/geometry/june-2024/q48.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "multiple-choice",
+      "text": "80",
+      "choices": [
+        "y 5 22x 1 3",
+        "y 5 22x 1 12",
+        "y 5 28x 1 3",
+        "y 5 28x 1 12 Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. 25 In nABC below, m/C 5 90\u00b0, AC 5 11, and AB 5 18. C A 11 18 B Determine and state the measure of angle A, 26 Use a compass and straightedge to construct an equilateral triangle inscribed in circle A below. [Leave all construction marks.] 27 Quadrilateral DEAR and its image, quadrilateral D9E9A9R9, are graphed on the set of axes below. y x A9 E9 D9 R9 R A E D Describe a sequence of transformations that maps quadrilateral DEAR onto quadrilateral D9E9A9R9 28 In circle P below, tangent ___ AL and secant ____ AKE are drawn. A L K P E If AK 5 12 and KE 5 36, determine and state the length of ___ 29 The equation of a circle is x2 1 y2 1 8x 2 6y 1 7 5 0 30 On the set of axes below, nABC is drawn with vertices that have coordinates A(2,23), B(4,5), and C(25,1) 31 In the diagram below, AE 5 15, EB 5 27, AF 5 20, and FC 5 36. A C E F B 27 15 20 36 Explain why ___ EF || ___ Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. 32 A building is composed of a rectangular pyramid on top of a rectangular prism, as shown in the diagram below. The rectangular prism has a length of 38 feet, a width of 15 feet, and a height of 22 feet. The rectangular pyramid sits directly on top of the rectangular prism, and its height is 12 feet. 22 ft 15 ft 38 ft 12 ft An air purification filter was installed that will clean all the air in the building at a rate of 2400 cubic feet per minute. Determine and state how long it will take, to the nearest tenth of a minute, 33 Given: nABC, nDEF, ___ AB ^ ___ BC, ___ DE ^ ___ EF, ___ AE > ___ DB, and ___ AC || ___ FD A B C D E F Prove: nABC > 34 In the diagram below, a boat at point A is traveling toward the most powerful waterfall in North America, the Horseshoe Falls. The Horseshoe Falls has a vertical drop of 188 feet. The angle of elevation from point A to the top of the waterfall is 15\u00b0. 188 ft B 15\u00b0 15\u00b0 A B After the boat travels toward the falls, the angle of elevation at point B to the top of the waterfall is 23\u00b0. Determine and state, to the nearest foot, Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. 35 Triangle JOE has vertices whose coordinates are J(4,6), O(22,4), and E(6,0). Prove that nJOE is isosceles. [The use of the set of axes on the next page is optional.] Question 35 is continued on the next page. Point Y(2,2) is on ___ OE. Prove that __ JY is the perpendicular bisector of ___ Question 35 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper"
+      ],
+      "image": "/images/exams/geometry/june-2024/q80.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

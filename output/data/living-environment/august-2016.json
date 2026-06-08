@@ -1,0 +1,1111 @@
+{
+  "subject": "living-environment",
+  "session": "august-2016",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which sequence represents structures organized from most complex to least complex?",
+      "choices": [
+        "chloroplast \u2192guard cell \u2192leaf \u2192oak tree",
+        "guard cell \u2192chloroplast \u2192leaf \u2192oak tree",
+        "oak tree \u2192guard cell \u2192leaf \u2192chloroplast",
+        "oak tree \u2192leaf \u2192guard cell \u2192chloroplast"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Autotrophs differ from heterotrophs in that only autotrophs",
+      "choices": [
+        "require carbon dioxide for cellular respiration",
+        "release oxygen as a product of cellular respiration",
+        "synthesize nutrients using carbon dioxide and water",
+        "break down sugars to assemble other molecules"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Burmese pythons are large snakes that have been introduced into the Florida Everglades ecosystem. Burmese pythons and alligators hunt the same prey. One likely effect of the introduction of the pythons is that",
+      "choices": [
+        "alligators will have more prey available",
+        "pythons will become native to the Everglades",
+        "alligator populations will decline",
+        "pythons will become an endangered species"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which activity enables humans to produce new genetic combinations in other organisms?",
+      "choices": [
+        "selecting and breeding the organisms for specific traits",
+        "increasing the number of enzymes available to the organisms",
+        "growing organisms that reproduce asexually",
+        "decreasing the amount of DNA in the diet of the organisms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Before a cell divides, an exact copy of each chromosome is made by the process of",
+      "choices": [
+        "genetic engineering",
+        "replication",
+        "mutation",
+        "recombination"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Some time ago, there were thousands of California condors in North America. Large numbers were poisoned from lead in bullets that were used to kill the animals the condors fed on. An effort was made to help save this large scavenger. There are now more than 350 California condors in North America. The condors most likely increased in number because humans decided to",
+      "choices": [
+        "produce lead-resistant condors through asexual reproduction",
+        "pass laws against using lead bullets to kill animals used by condors for food",
+        "introduce plants that didn\u2019t absorb the lead from discharged bullets",
+        "produce lead-resistant prey for the condors through genetic engineering"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In humans, the maintenance of a stable internal temperature is a direct result of",
+      "choices": [
+        "detection of and reaction to stimuli in the environment",
+        "digestion of starches and absorption of protein from the internal environment",
+        "diffusion of water and excretion of glucose to the external environment",
+        "transport of ATP and locomotion through the environment"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which molecules are needed to cut and copy segments of DNA?",
+      "choices": [
+        "reproductive hormones",
+        "carbohydrates",
+        "antibodies",
+        "biological catalysts"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Evolution can occur at different rates; however, for evolution to occur, there must be",
+      "choices": [
+        "variations within a species",
+        "extinction of the species",
+        "asexual reproduction",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The two reactions illustrated in the diagrams below often occur when a foreign substance enters the body. The cells labeled A and B are examples of cells known as",
+      "choices": [
+        "guard cells",
+        "reproductive cells",
+        "white blood cells",
+        "specialized skin cells"
+      ],
+      "image": "/images/exams/living-environment/august-2016/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a protein molecule present in some living things. This type of molecule is composed of a sequence of",
+      "choices": [
+        "amino acids arranged in a specific order",
+        "simple sugars alternating with starches arranged in a folded pattern",
+        "large inorganic subunits that form chains that interlock with each other",
+        "four bases that make up the folded structure"
+      ],
+      "image": "/images/exams/living-environment/august-2016/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Three human actions that have been made possible in recent times are: \u2022 Doctors are able to diagnose and treat some fetal problems prior to the birth of a child. \u2022 Cloning can produce large numbers of plants that are resistant to drought. \u2022 Male insects can be sterilized with radiation to prevent them from mating successfully. Which statement summarizes these three actions?",
+      "choices": [
+        "Reproductive technology has medical, agricultural, and ecological applications.",
+        "Development is a highly regulated process involving mitosis and differentiation.",
+        "Reproduction and development are subject to environmental effects.",
+        "Human development, birth,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Natural selection is best described as",
+      "choices": [
+        "a change in an organism in response to a need of that organism",
+        "a process of nearly constant improvement that leads to an organism that is nearly perfect",
+        "differences in survival rates as a result of different inherited characteristics",
+        "inheritance of characteristics acquired during the life of an organism"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which statement best describes a situation where competition occurs in an ecosystem?",
+      "choices": [
+        "A deer outruns an attacking wolf.",
+        "A deer, during the winter, consumes tree bark.",
+        "A deer and a rabbit consume grass in a field.",
+        "A deer and a rabbit are both startled by a hawk flying overhead."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "A woman changes her hair color to red; however, her children will not inherit this red hair color because the woman does not have",
+      "choices": [
+        "genes for red hair in her skin",
+        "genes for red hair in her sex cells",
+        "proteins for red hair in the placenta",
+        "proteins for red hair in her egg cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Fossils provide evidence that",
+      "choices": [
+        "life on Earth millions of years ago was more complex than life is today",
+        "the changes that will occur in species in the future are easy to predict",
+        "many species of organisms that lived long ago are now extinct",
+        "most species of organisms that lived long ago are exactly the same today"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A male frigatebird displays to the female by inflating its large red throat sac, throwing its head back, vibrating its wings, and producing a \u201cdrumming\u201d sound with its throat sac. For the frigatebird, this behavior has most likely resulted in",
+      "choices": [
+        "hiding from predators",
+        "greater reproductive success",
+        "locating new sources of food",
+        "reduced population growth"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Plant species X lives in a hot, dry environment. Slowly, over hundreds of years, the climate becomes wetter. Fungi attack species X and cause the population of species X to decrease. However, plant species X could survive if the plants",
+      "choices": [
+        "try to mutate quickly and synthesize new proteins",
+        "are watered often and fertilized with extra nutrients",
+        "can adapt to the new conditions by mating with the fungus",
+        "have a few members of the population that are fungus-resistant"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The diagram below represents reproduction in a yeast cell. The genes in the bud are identical to the genes in the parent. This type of production of offspring is a form of",
+      "choices": [
+        "sexual reproduction",
+        "asexual reproduction",
+        "gene manipulation",
+        "genetic engineering"
+      ],
+      "image": "/images/exams/living-environment/august-2016/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A human cell that contains all of the information necessary for the growth and development of a complete organism is",
+      "choices": [
+        "a sperm cell",
+        "a gamete",
+        "a zygote",
+        "an egg cell"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "When would exposure to a potentially harmful substance be most likely to damage many organs in a developing embryo?",
+      "choices": [
+        "during the last three months of pregnancy",
+        "during the early stages of pregnancy",
+        "during the formation of the zygote",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The human female reproductive system is represented below. Within which structure does the placenta normally develop?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/august-2016/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "An energy-rich organic compound needed by organisms is",
+      "choices": [
+        "water",
+        "salt",
+        "oxygen",
+        "glucose"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "SCIDS (Severe Combined Immunodeficiency Syndrome) is a disorder where a genetic mutation inhibits the production and functioning of T-cells. T-cells are special types of white blood cells that play a role in the body\u2019s immune response. A possible symptom of SCIDS would be an increase in the",
+      "choices": [
+        "number of antigens produced",
+        "red blood cell count",
+        "number of infections by pathogens",
+        "ability to maintain homeostasis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "An organ, such as a kidney, used for transplant needs to be tested for compatibility with the person who is to receive the organ. If this is not done, the",
+      "choices": [
+        "donated organ might attack the body",
+        "donated organ might attack the immune system",
+        "immune system might attack its own body cells",
+        "immune system might attack the donated organ"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "A researcher concludes from a 10-year study that the biodiversity of an ecosystem had increased. Which set of observations represents evidence for this claim?",
+      "choices": [
+        "There were more niches and greater stability in the ecosystem.",
+        "There were more niches and less energy lost as heat in the ecosystem.",
+        "There were fewer niches for decomposers and less stability.",
+        "There were fewer niches for consumers and greater cycling of materials."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The final consumers in many food webs are",
+      "choices": [
+        "autotrophs",
+        "hosts",
+        "herbivores",
+        "carnivores"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Abandoned farmland that once grew corn is now covered with bushes and small trees. These observed changes resulted directly from",
+      "choices": [
+        "evolutionary change",
+        "ecological succession",
+        "loss of biodiversity",
+        "selective breeding"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The overuse of chemical fertilizers has resulted in the growth of some lawns in which decomposers cannot live. This would interfere most directly with the ability of the lawn ecosystem to",
+      "choices": [
+        "recycle energy",
+        "recycle nutrients",
+        "maintain atmospheric pH",
+        "reduce biodiversity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "On Long Island, several businesses use geothermal technology. This involves taking heat from within Earth and using it to heat buildings. One benefit of this technology is that it",
+      "choices": [
+        "contributes to global warming",
+        "reduces the ozone shield",
+        "reduces dependence on fossil fuels",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Recently, researchers from Stanford University have changed mouse skin cells into mouse nerve cells. This was accomplished by inserting genes that control the synthesis of certain proteins into the skin cells. This type of research is often successful in advancing knowledge regarding the functioning of human cells because",
+      "choices": [
+        "cells present in humans often function in similar ways to cells present in other organisms",
+        "cells from different types of organisms function differently when transplanted into humans",
+        "the cells in all complex organisms contain the same genes and function in similar ways",
+        "cellular research using mice can always be applied to human cells since all complex organisms produce the same proteins"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "In the experimental setup below, which substance would be used to prove that the gas produced by the yeast in the vacuum bottle could change the pH of the liquid in the flask?",
+      "choices": [
+        "an indicator",
+        "a chemical messenger",
+        "an enzyme",
+        "a salt solution"
+      ],
+      "image": "/images/exams/living-environment/august-2016/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which statement best expresses a basic scientific assumption?",
+      "choices": [
+        "Interpretation of experimental results has provided explanations for all natural phenomena.",
+        "If a conclusion is valid, similar investigations by other scientists should result in the same conclusion.",
+        "For any conclusion to be valid, the design of the experiment requires that only two groups be compared.",
+        "After a scientist formulates a conclusion based on an experiment, no further investigation is necessary."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a cycle that occurs in nature. Which phrase describes a human activity that could have a negative effect on this cycle?",
+      "choices": [
+        "a decrease in the amount of sulfates given off by motor vehicles",
+        "an increase in recycling programs for plastics and metals",
+        "the continued deforestation and removal of forest resources",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2016/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The resistance gene was present in the aphid population as a result of",
+      "choices": [
+        "the need of the potatoes to become resistant to the insecticide",
+        "changes in the aphids\u2019 local habitat by the insecticide",
+        "a recombination of the proteins in the potato cells",
+        "a random change in the aphids\u2019 DNA sequence"
+      ],
+      "image": "/images/exams/living-environment/august-2016/context_35_37.png",
+      "context": "Base your answers to questions 35 through 37 on the information and graph below and on your knowledge\nof biology.\nA farmer growing potatoes notices aphids, a type of insect, feeding on the plants. \nAn insecticide was sprayed on the plants several times over a two-year period. The graph\nrepresents samples of three different generations of insecticide-resistant and nonresistant\naphids over this time period.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "In year three, the farmer discontinued the use of the insecticide. Which statement would best predict the population in generation 4?",
+      "choices": [
+        "The nonresistant aphid would become extinct.",
+        "The nonresistant aphid population would likely increase.",
+        "The resistant aphid would mutate to a nonresistant aphid.",
+        "The plants would be free of insect populations."
+      ],
+      "image": "/images/exams/living-environment/august-2016/context_35_37.png",
+      "context": "Base your answers to questions 35 through 37 on the information and graph below and on your knowledge\nof biology.\nA farmer growing potatoes notices aphids, a type of insect, feeding on the plants. \nAn insecticide was sprayed on the plants several times over a two-year period. The graph\nrepresents samples of three different generations of insecticide-resistant and nonresistant\naphids over this time period.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "One negative consequence of using an insecticide is that it",
+      "choices": [
+        "selects for insecticide-resistant organisms",
+        "keeps a balance of organic compounds",
+        "encourages biodiversity in plants",
+        "gives the nonresistant aphids a survival advantage Generations of Aphids Generation 1 Generation 2 Generation 3 Non Resistant Resistant Non Resistant Resistant Population of Aphids Non Resistant Resistant"
+      ],
+      "image": "/images/exams/living-environment/august-2016/context_35_37.png",
+      "context": "Base your answers to questions 35 through 37 on the information and graph below and on your knowledge\nof biology.\nA farmer growing potatoes notices aphids, a type of insect, feeding on the plants. \nAn insecticide was sprayed on the plants several times over a two-year period. The graph\nrepresents samples of three different generations of insecticide-resistant and nonresistant\naphids over this time period.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The activity of a single-celled organism is represented in the diagram below. Which concept is best illustrated by this diagram?",
+      "choices": [
+        "The life functions performed by single-celled organisms are different from the life functions performed by complex organisms.",
+        "Single-celled organisms carry out life functions that are essential for survival.",
+        "Since single-celled organisms lack organs, they can survive only in moist environments.",
+        "Single-celled organisms contain one organelle that performs all the life functions."
+      ],
+      "image": "/images/exams/living-environment/august-2016/q38.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The chart below provides information about two scientific discoveries in the field of biology. Which statement is the best interpretation of the material presented in the chart?",
+      "choices": [
+        "Scientific explanations are built by combining evidence that can be observed with what people already know.",
+        "Inquiry involves making judgments about the reliability of the source and relevance of the information.",
+        "Science provides information, but values are also essential to making ethical decisions.",
+        "Hypotheses are valuable even if they turn out not to be true, because they may lead to further investigation. Early Discovery Later Discovery People living near swamps are more likely to get malaria than people who do not live near swamps. Burning swamps early in the summer reduces the amount of malaria. Mosquitoes breed and lay their eggs in swamps and other pools of still water. Mosquitoes are the carriers of the organisms that cause malaria. Dark-staining bodies called chromosomes can be seen only in dividing cells. The number of chromosomes doubles during cell division. Chromosomes contain DNA, which is able to copy itself. DNA carries the genetic code,"
+      ],
+      "image": "/images/exams/living-environment/august-2016/q39.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "written",
+      "text": "The diagram shows human body structures that are coordinated to maintain homeostasis. Which row correctly identifies the functions of these structures?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_40_43.png",
+      "context": "Base your answers to questions 40 through 43 on the diagram below and on your knowledge of biology. \nThis diagram represents the roles of different parts of the human body in keeping blood sugar at a balanced,\nnormal level over time.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "When body system X releases too much sugar into the blood, the body can maintain homeostasis by making",
+      "choices": [
+        "more hormone A, only",
+        "more hormone B, only",
+        "more hormone A and more hormone B",
+        "no hormone A and no hormone B"
+      ],
+      "image": "/images/exams/living-environment/august-2016/context_40_43.png",
+      "context": "Base your answers to questions 40 through 43 on the diagram below and on your knowledge of biology. \nThis diagram represents the roles of different parts of the human body in keeping blood sugar at a balanced,\nnormal level over time.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "If organ Y becomes unable to produce enough hormone B, then homeostasis would be disrupted. To restore homeostasis and compensate for the lack of hormone B, one useful action would be to",
+      "choices": [
+        "increase the production of hormone A",
+        "remove organ Y from the body surgically",
+        "reduce the carbohydrates in body system X",
+        "reduce the synthesis of enzymes in organ Y"
+      ],
+      "image": "/images/exams/living-environment/august-2016/context_40_43.png",
+      "context": "Base your answers to questions 40 through 43 on the diagram below and on your knowledge of biology. \nThis diagram represents the roles of different parts of the human body in keeping blood sugar at a balanced,\nnormal level over time.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "If body system X temporarily stops releasing sugar into the blood, a likely response of the body would be to",
+      "choices": [
+        "Digestion Regulation",
+        "Circulation Synthesis",
+        "Excretion Transport",
+        "Locomotion Nutrition Homeostasis of Blood Sugar Level Decreases sugar level in the blood Increases sugar level in the blood Body System X Organ Y Breaks down carbohydrates and releases sugar into the blood Makes hormone A, which releases sugar stored in the liver so it enters the blood Makes hormone B,"
+      ],
+      "image": "/images/exams/living-environment/august-2016/context_40_43.png",
+      "context": "Base your answers to questions 40 through 43 on the diagram below and on your knowledge of biology. \nThis diagram represents the roles of different parts of the human body in keeping blood sugar at a balanced,\nnormal level over time.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information, diagram, and table below and on your\nknowledge of biology.\nA concentrated starch solution was placed in a thistle tube with a semi-permeable \nmembrane covering the wide opening. It was then placed in a beaker of water. The height\nof the solution in the tube was measured every 5 minutes for 25 minutes. The setup and \nthe data collected are shown below.\nHeight of Liquid in Thistle Tube\nTime\n(min)\nHeight\n(cm)\n0\n2\n5\n3\n10\n6\n15\n8\n20\n10\n25\n11\nBefore\nMembrane\nAfter\n25 minutes\nThistle\ntube\nWater\nStarch\nsolution\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data for height on the grid. Connect the points and surround each point with a small circle.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information, diagram, and table below and on your\nknowledge of biology.\nA concentrated starch solution was placed in a thistle tube with a semi-permeable \nmembrane covering the wide opening. It was then placed in a beaker of water. The height\nof the solution in the tube was measured every 5 minutes for 25 minutes. The setup and \nthe data collected are shown below.\nHeight of Liquid in Thistle Tube\nTime\n(min)\nHeight\n(cm)\n0\n2\n5\n3\n10\n6\n15\n8\n20\n10\n25\n11\nBefore\nMembrane\nAfter\n25 minutes\nThistle\ntube\nWater\nStarch\nsolution\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Explain why the height of the solution in the thistle tube increased during the 25-minute period.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information, diagram, and table below and on your\nknowledge of biology.\nA concentrated starch solution was placed in a thistle tube with a semi-permeable \nmembrane covering the wide opening. It was then placed in a beaker of water. The height\nof the solution in the tube was measured every 5 minutes for 25 minutes. The setup and \nthe data collected are shown below.\nHeight of Liquid in Thistle Tube\nTime\n(min)\nHeight\n(cm)\n0\n2\n5\n3\n10\n6\n15\n8\n20\n10\n25\n11\nBefore\nMembrane\nAfter\n25 minutes\nThistle\ntube\nWater\nStarch\nsolution\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The experiment was repeated, and an amber-colored solution was added to the water in the beaker. After 10 minutes, the water in the beaker remained amber-colored and the starch solution had turned blue-black. The most likely reason for this observation is that",
+      "choices": [
+        "starch molecules moved out of the thistle tube",
+        "water molecules moved into the thistle tube",
+        "amber-colored solution moved into the thistle tube",
+        "water molecules moved out of the thistle tube Time (min) Height (cm) Height of Liquid in Thistle Tube Example:"
+      ],
+      "image": "/images/exams/living-environment/august-2016/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information, diagram, and table below and on your\nknowledge of biology.\nA concentrated starch solution was placed in a thistle tube with a semi-permeable \nmembrane covering the wide opening. It was then placed in a beaker of water. The height\nof the solution in the tube was measured every 5 minutes for 25 minutes. The setup and \nthe data collected are shown below.\nHeight of Liquid in Thistle Tube\nTime\n(min)\nHeight\n(cm)\n0\n2\n5\n3\n10\n6\n15\n8\n20\n10\n25\n11\nBefore\nMembrane\nAfter\n25 minutes\nThistle\ntube\nWater\nStarch\nsolution\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid below, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "48",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_48_48.png",
+      "context": "Base your answer to question 48 on the information and diagrams below and on your knowledge of biology.\nWhen fish of certain species are injured, a chemical substance stored in skin cells of the\nfish is released into the water. This chemical causes an alarm response among other fish of\nthe same species in the area. Nearby fish of this species become more alert and group\ntogether near the bottom.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The process represented in the diagram is",
+      "choices": [
+        "DNA replication",
+        "natural selection",
+        "gel electrophoresis",
+        "genetic engineering"
+      ],
+      "image": "/images/exams/living-environment/august-2016/context_49_51.png",
+      "context": "Base your answers to questions 49 through 51 on the diagram below and on your knowledge of biology.\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The original gene for the production of a human hormone was most likely removed from a",
+      "choices": [
+        "chromosome",
+        "ribosome",
+        "mitochondrion",
+        "cell membrane"
+      ],
+      "image": "/images/exams/living-environment/august-2016/context_49_51.png",
+      "context": "Base your answers to questions 49 through 51 on the diagram below and on your knowledge of biology.\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State one possible reason why a gene for the production of a human hormone would be placed in bacterial DNA. Cut bacterial DNA Gene for a human hormone Inserted into bacterial cell Cell division",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_49_51.png",
+      "context": "Base your answers to questions 49 through 51 on the diagram below and on your knowledge of biology.\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify one population that will decrease in size after the lake sturgeon are added to the new ecosystems. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/q52.png",
+      "context": "Base your answers to questions 52 through 55 on the passage below and on your knowledge of biology.\nThe lake sturgeon is a fish that often grows over six feet long and can weigh close to two\nhundred pounds. It is currently an endangered species in the Great Lakes area, although\nthe species has lived in those lakes and rivers for millions of years. Now, there is a program\nto increase the sturgeon population by reintroducing lake sturgeon to areas where they have\ndisappeared.\nLike the lake sturgeon, bloater fish are also found in the Great Lakes. Both find their\nfood on or near the bottoms of lakes. They eat a variety of small organisms, including insect\nlarvae, worms, and clams. These small organisms feed on algae.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Part of the food web of a lake ecosystem is represented in the diagram below. Indicate the position in the food web where each organism listed below would be placed, by writing the name of each in the appropriate box. algae bloater fish clams",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/q53.png",
+      "context": "Base your answers to questions 52 through 55 on the passage below and on your knowledge of biology.\nThe lake sturgeon is a fish that often grows over six feet long and can weigh close to two\nhundred pounds. It is currently an endangered species in the Great Lakes area, although\nthe species has lived in those lakes and rivers for millions of years. Now, there is a program\nto increase the sturgeon population by reintroducing lake sturgeon to areas where they have\ndisappeared.\nLike the lake sturgeon, bloater fish are also found in the Great Lakes. Both find their\nfood on or near the bottoms of lakes. They eat a variety of small organisms, including insect\nlarvae, worms, and clams. These small organisms feed on algae.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify which population, other than lake sturgeon, will increase in size after the lake sturgeon are added to the new ecosystems. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/q54.png",
+      "context": "Base your answers to questions 52 through 55 on the passage below and on your knowledge of biology.\nThe lake sturgeon is a fish that often grows over six feet long and can weigh close to two\nhundred pounds. It is currently an endangered species in the Great Lakes area, although\nthe species has lived in those lakes and rivers for millions of years. Now, there is a program\nto increase the sturgeon population by reintroducing lake sturgeon to areas where they have\ndisappeared.\nLike the lake sturgeon, bloater fish are also found in the Great Lakes. Both find their\nfood on or near the bottoms of lakes. They eat a variety of small organisms, including insect\nlarvae, worms, and clams. These small organisms feed on algae.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "55",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/q55.png",
+      "context": "Base your answers to questions 52 through 55 on the passage below and on your knowledge of biology.\nThe lake sturgeon is a fish that often grows over six feet long and can weigh close to two\nhundred pounds. It is currently an endangered species in the Great Lakes area, although\nthe species has lived in those lakes and rivers for millions of years. Now, there is a program\nto increase the sturgeon population by reintroducing lake sturgeon to areas where they have\ndisappeared.\nLike the lake sturgeon, bloater fish are also found in the Great Lakes. Both find their\nfood on or near the bottoms of lakes. They eat a variety of small organisms, including insect\nlarvae, worms, and clams. These small organisms feed on algae.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Explain why researchers would put the salamanders in an artificial environment, as opposed to conducting the experiment in their natural habitat.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_56_57.png",
+      "context": "Base your answers to questions 56 and 57 on the information and drawing below and on your knowledge \nof biology. The drawing represents a salamander. Salamanders are small amphibians that live in a variety of \nenvironments.\nTwo species of salamander inhabit an island. The habitat on each side of the island is\ndifferent. One side tends to be wet; the other side tends to be dry. Researchers want to\nknow if the salamanders will survive equally well on either side of the island. Species A lives\non the wet side of the island, while Species B lives on the dry side of the island. Researchers\ndevelop two artificial habitats, one that simulates conditions on the wet side and one that\nsimulates conditions on the dry side.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Researchers put three salamanders of each species in each of the two different artificial environments. Why would other scientists question the validity of the conclusions based on this setup?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_56_57.png",
+      "context": "Base your answers to questions 56 and 57 on the information and drawing below and on your knowledge \nof biology. The drawing represents a salamander. Salamanders are small amphibians that live in a variety of \nenvironments.\nTwo species of salamander inhabit an island. The habitat on each side of the island is\ndifferent. One side tends to be wet; the other side tends to be dry. Researchers want to\nknow if the salamanders will survive equally well on either side of the island. Species A lives\non the wet side of the island, while Species B lives on the dry side of the island. Researchers\ndevelop two artificial habitats, one that simulates conditions on the wet side and one that\nsimulates conditions on the dry side.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Most varieties of Sedum are not native plants in Albany or New York City. State one reason why it may be dangerous to introduce a new species to an established ecosystem.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the information and diagram below and on your knowledge\nof biology.\nGreen Roofs\nPeople in Albany and New York City are using \u201cgreen roofs\u201d to improve the \nenvironment. A green roof can be added to many buildings that have large, flat roofs. \nGreen roofs have three parts: a protective layer to separate plant roots from the roof of the\nbuilding, an absorptive layer to catch and hold rainwater, and a layer of plants. Often, \ngreen roofs use Sedum, a short, desert plant, because it is efficient at storing water in its\nleaves and can withstand the colder climate.\nA green roof saves energy, reduces carbon dioxide in the atmosphere, and prevents \nrainwater and melting snow from overloading sewer systems. It can also protect the roof of\na building from damage. However, green roofs can be expensive to install, and require care\nand maintenance.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "State one reason why a green roof reduces the amount of carbon dioxide in the atmosphere.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the information and diagram below and on your knowledge\nof biology.\nGreen Roofs\nPeople in Albany and New York City are using \u201cgreen roofs\u201d to improve the \nenvironment. A green roof can be added to many buildings that have large, flat roofs. \nGreen roofs have three parts: a protective layer to separate plant roots from the roof of the\nbuilding, an absorptive layer to catch and hold rainwater, and a layer of plants. Often, \ngreen roofs use Sedum, a short, desert plant, because it is efficient at storing water in its\nleaves and can withstand the colder climate.\nA green roof saves energy, reduces carbon dioxide in the atmosphere, and prevents \nrainwater and melting snow from overloading sewer systems. It can also protect the roof of\na building from damage. However, green roofs can be expensive to install, and require care\nand maintenance.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "State one reason why it is important to reduce the amount of carbon dioxide in the atmosphere.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the information and diagram below and on your knowledge\nof biology.\nGreen Roofs\nPeople in Albany and New York City are using \u201cgreen roofs\u201d to improve the \nenvironment. A green roof can be added to many buildings that have large, flat roofs. \nGreen roofs have three parts: a protective layer to separate plant roots from the roof of the\nbuilding, an absorptive layer to catch and hold rainwater, and a layer of plants. Often, \ngreen roofs use Sedum, a short, desert plant, because it is efficient at storing water in its\nleaves and can withstand the colder climate.\nA green roof saves energy, reduces carbon dioxide in the atmosphere, and prevents \nrainwater and melting snow from overloading sewer systems. It can also protect the roof of\na building from damage. However, green roofs can be expensive to install, and require care\nand maintenance.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State one disadvantage of a green roof. Roof of building The \u201cGreen Roof\u201d",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the information and diagram below and on your knowledge\nof biology.\nGreen Roofs\nPeople in Albany and New York City are using \u201cgreen roofs\u201d to improve the \nenvironment. A green roof can be added to many buildings that have large, flat roofs. \nGreen roofs have three parts: a protective layer to separate plant roots from the roof of the\nbuilding, an absorptive layer to catch and hold rainwater, and a layer of plants. Often, \ngreen roofs use Sedum, a short, desert plant, because it is efficient at storing water in its\nleaves and can withstand the colder climate.\nA green roof saves energy, reduces carbon dioxide in the atmosphere, and prevents \nrainwater and melting snow from overloading sewer systems. It can also protect the roof of\na building from damage. However, green roofs can be expensive to install, and require care\nand maintenance.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "A scientist took samples from a culture of E. coli bacteria and placed them in each of 100 petri dishes. Once the bacteria began to grow in the dishes, she exposed 50 of the dishes to x-ray radiation and 50 to natural light. After five days, she examined samples of DNA from the bacteria and recorded any differences she found between the DNA of the two groups. State one hypothesis the experiment would test.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/q62.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify one specific difference, other than it is a two-step vaccination, between Nabel\u2019s vaccination and a traditional flu vaccine.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/q63.png",
+      "context": "Base your answers to questions 63 and 64 on the passage below and on your knowledge of biology.\nSuper Vaccine Could Eliminate Flu\nEvery flu season, vaccine makers must bet on which strain of influenza A will pose the\ngreatest threat to the public, and millions of Americans must decide whether to get a shot.\nIn August, virologist Gary Nabel at the National Institutes of Health (NIH) announced\nprogress toward a universal flu vaccine: two shots of it could provide years of protection\nfrom every known influenza A virus.\n\u201cWe use a prime-boost strategy, meaning that we immunize with two vehicles that deliv-\ner the vaccine in different ways,\u201d Nabel says. In their experimental treatment, he and his\ncolleagues injected mice, ferrets, and monkeys with viral DNA, causing their muscle cells\nto produce hemagglutinin, a protein found on the surface of all flu viruses. The animals\u2019\nimmune systems then began making antibodies that latch onto the protein and disable the\nvirus. The researchers followed the DNA injection with a traditional seasonal flu shot,\nwhich contains dead viruses. This one-two punch protected the test subjects against\ninfluenza A viruses that had emerged in 1934 and 2007, and other experiments showed that\nthe antibodies it generated successfully neutralized a wide variety of flu strains. Nabel\u2019s col-\nleagues at the NIH are already testing similar approaches in humans.\nSource: Rowe, A. \u201cSuper Vaccine Could Eliminate Flu.\u201d\nDiscover, Jan./Feb. 2011, p. 37.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "64",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/q64.png",
+      "context": "Base your answers to questions 63 and 64 on the passage below and on your knowledge of biology.\nSuper Vaccine Could Eliminate Flu\nEvery flu season, vaccine makers must bet on which strain of influenza A will pose the\ngreatest threat to the public, and millions of Americans must decide whether to get a shot.\nIn August, virologist Gary Nabel at the National Institutes of Health (NIH) announced\nprogress toward a universal flu vaccine: two shots of it could provide years of protection\nfrom every known influenza A virus.\n\u201cWe use a prime-boost strategy, meaning that we immunize with two vehicles that deliv-\ner the vaccine in different ways,\u201d Nabel says. In their experimental treatment, he and his\ncolleagues injected mice, ferrets, and monkeys with viral DNA, causing their muscle cells\nto produce hemagglutinin, a protein found on the surface of all flu viruses. The animals\u2019\nimmune systems then began making antibodies that latch onto the protein and disable the\nvirus. The researchers followed the DNA injection with a traditional seasonal flu shot,\nwhich contains dead viruses. This one-two punch protected the test subjects against\ninfluenza A viruses that had emerged in 1934 and 2007, and other experiments showed that\nthe antibodies it generated successfully neutralized a wide variety of flu strains. Nabel\u2019s col-\nleagues at the NIH are already testing similar approaches in humans.\nSource: Rowe, A. \u201cSuper Vaccine Could Eliminate Flu.\u201d\nDiscover, Jan./Feb. 2011, p. 37.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "State one reason why the percent ice cover is important to the ability of eagles to obtain food.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_65_68.png",
+      "context": "Base your answers to questions 65 through 68 on the information below and on your knowledge of biology.\nBald Eagle Facts\n\u2022 Bald eagles eat primarily fish, carrion (dead animals), smaller birds, and rodents. Their most important\nnon-carrion food is fish, which they catch by swooping down and grabbing fish that are near the surface\nof the water.\n\u2022 The number of nesting pairs in the lower 48 United States increased from fewer than 450 in the early\n1960s to more than 4,500 adult bald eagle nesting pairs in the 1990s. Today, there are an estimated 9,789\nnesting pairs of bald eagles.\n\u2022 Bald eagles are found in large numbers in certain areas during the winter (known as roosts). These winter\nroosts are located in areas where prey are plentiful. Winter roosts are protected under federal law, and\nmanaged with a buffer zone to reduce human disturbance. As winter ends, the eagles return to their \nsummer nesting/hunting areas.\nBald Eagle Research\nIn the winter of 2009, volunteers from an Audubon group conducted a survey of roosting\nbald eagles at four locations in an area in the lower Hudson River Valley. The data below\nshow the average number of eagles sighted and the number of visits made by the volunteers\neach month. Among the other data collected were percent ice cover and percent cloud\ncover on the surface of the water. The eagles fly freely between these four sites, depending\non a variety of conditions.\nSome of the data are shown in the table below.\nBald Eagles Sighted at Four Hudson Valley Locations in 2009\nLocation\nJanuary\nFebruary\nMarch\nAverage\nNumber of\nEagles\nNumber\nof Visits\nAverage\nNumber of\nEagles\nNumber\nof Visits\nAverage\nNumber of\nEagles\nNumber\nof Visits\nCroton Reservoir\n22.86\n7\n47.88\n8\n9.17\n6\nGeorge\u2019s Island Park\n27.00\n7\n18.38\n8\n5.00\n4\nGeorge\u2019s Island North\n12.29\n7\n4.43\n7\n2.20\n5\nStony Point\n3.57\n7\n3.63\n8\n0.00\n5\n\nLiving Environment\u2013Aug. \u201916\n[19]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "What inference can be made about the percent ice cover at Croton Reservoir between January and February 2009? Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_65_68.png",
+      "context": "Base your answers to questions 65 through 68 on the information below and on your knowledge of biology.\nBald Eagle Facts\n\u2022 Bald eagles eat primarily fish, carrion (dead animals), smaller birds, and rodents. Their most important\nnon-carrion food is fish, which they catch by swooping down and grabbing fish that are near the surface\nof the water.\n\u2022 The number of nesting pairs in the lower 48 United States increased from fewer than 450 in the early\n1960s to more than 4,500 adult bald eagle nesting pairs in the 1990s. Today, there are an estimated 9,789\nnesting pairs of bald eagles.\n\u2022 Bald eagles are found in large numbers in certain areas during the winter (known as roosts). These winter\nroosts are located in areas where prey are plentiful. Winter roosts are protected under federal law, and\nmanaged with a buffer zone to reduce human disturbance. As winter ends, the eagles return to their \nsummer nesting/hunting areas.\nBald Eagle Research\nIn the winter of 2009, volunteers from an Audubon group conducted a survey of roosting\nbald eagles at four locations in an area in the lower Hudson River Valley. The data below\nshow the average number of eagles sighted and the number of visits made by the volunteers\neach month. Among the other data collected were percent ice cover and percent cloud\ncover on the surface of the water. The eagles fly freely between these four sites, depending\non a variety of conditions.\nSome of the data are shown in the table below.\nBald Eagles Sighted at Four Hudson Valley Locations in 2009\nLocation\nJanuary\nFebruary\nMarch\nAverage\nNumber of\nEagles\nNumber\nof Visits\nAverage\nNumber of\nEagles\nNumber\nof Visits\nAverage\nNumber of\nEagles\nNumber\nof Visits\nCroton Reservoir\n22.86\n7\n47.88\n8\n9.17\n6\nGeorge\u2019s Island Park\n27.00\n7\n18.38\n8\n5.00\n4\nGeorge\u2019s Island North\n12.29\n7\n4.43\n7\n2.20\n5\nStony Point\n3.57\n7\n3.63\n8\n0.00\n5\n\nLiving Environment\u2013Aug. \u201916\n[19]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "State one reason why the number of eagles sighted showed a change at all four sites between February and March.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_65_68.png",
+      "context": "Base your answers to questions 65 through 68 on the information below and on your knowledge of biology.\nBald Eagle Facts\n\u2022 Bald eagles eat primarily fish, carrion (dead animals), smaller birds, and rodents. Their most important\nnon-carrion food is fish, which they catch by swooping down and grabbing fish that are near the surface\nof the water.\n\u2022 The number of nesting pairs in the lower 48 United States increased from fewer than 450 in the early\n1960s to more than 4,500 adult bald eagle nesting pairs in the 1990s. Today, there are an estimated 9,789\nnesting pairs of bald eagles.\n\u2022 Bald eagles are found in large numbers in certain areas during the winter (known as roosts). These winter\nroosts are located in areas where prey are plentiful. Winter roosts are protected under federal law, and\nmanaged with a buffer zone to reduce human disturbance. As winter ends, the eagles return to their \nsummer nesting/hunting areas.\nBald Eagle Research\nIn the winter of 2009, volunteers from an Audubon group conducted a survey of roosting\nbald eagles at four locations in an area in the lower Hudson River Valley. The data below\nshow the average number of eagles sighted and the number of visits made by the volunteers\neach month. Among the other data collected were percent ice cover and percent cloud\ncover on the surface of the water. The eagles fly freely between these four sites, depending\non a variety of conditions.\nSome of the data are shown in the table below.\nBald Eagles Sighted at Four Hudson Valley Locations in 2009\nLocation\nJanuary\nFebruary\nMarch\nAverage\nNumber of\nEagles\nNumber\nof Visits\nAverage\nNumber of\nEagles\nNumber\nof Visits\nAverage\nNumber of\nEagles\nNumber\nof Visits\nCroton Reservoir\n22.86\n7\n47.88\n8\n9.17\n6\nGeorge\u2019s Island Park\n27.00\n7\n18.38\n8\n5.00\n4\nGeorge\u2019s Island North\n12.29\n7\n4.43\n7\n2.20\n5\nStony Point\n3.57\n7\n3.63\n8\n0.00\n5\n\nLiving Environment\u2013Aug. \u201916\n[19]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "State one possible reason why a popular hiking trail in this area is closed during eagle roosting seasons.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_65_68.png",
+      "context": "Base your answers to questions 65 through 68 on the information below and on your knowledge of biology.\nBald Eagle Facts\n\u2022 Bald eagles eat primarily fish, carrion (dead animals), smaller birds, and rodents. Their most important\nnon-carrion food is fish, which they catch by swooping down and grabbing fish that are near the surface\nof the water.\n\u2022 The number of nesting pairs in the lower 48 United States increased from fewer than 450 in the early\n1960s to more than 4,500 adult bald eagle nesting pairs in the 1990s. Today, there are an estimated 9,789\nnesting pairs of bald eagles.\n\u2022 Bald eagles are found in large numbers in certain areas during the winter (known as roosts). These winter\nroosts are located in areas where prey are plentiful. Winter roosts are protected under federal law, and\nmanaged with a buffer zone to reduce human disturbance. As winter ends, the eagles return to their \nsummer nesting/hunting areas.\nBald Eagle Research\nIn the winter of 2009, volunteers from an Audubon group conducted a survey of roosting\nbald eagles at four locations in an area in the lower Hudson River Valley. The data below\nshow the average number of eagles sighted and the number of visits made by the volunteers\neach month. Among the other data collected were percent ice cover and percent cloud\ncover on the surface of the water. The eagles fly freely between these four sites, depending\non a variety of conditions.\nSome of the data are shown in the table below.\nBald Eagles Sighted at Four Hudson Valley Locations in 2009\nLocation\nJanuary\nFebruary\nMarch\nAverage\nNumber of\nEagles\nNumber\nof Visits\nAverage\nNumber of\nEagles\nNumber\nof Visits\nAverage\nNumber of\nEagles\nNumber\nof Visits\nCroton Reservoir\n22.86\n7\n47.88\n8\n9.17\n6\nGeorge\u2019s Island Park\n27.00\n7\n18.38\n8\n5.00\n4\nGeorge\u2019s Island North\n12.29\n7\n4.43\n7\n2.20\n5\nStony Point\n3.57\n7\n3.63\n8\n0.00\n5\n\nLiving Environment\u2013Aug. \u201916\n[19]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "State the role of the sea grasses in the reef ecosystem.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/q69.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nCoral Reef Ecosystems\nThere are many ecological interactions that maintain the biodiversity present in coral\nreefs. In addition to coral, microscopic algae, seaweed, sea grasses, sponges and worms, \nand a variety of fish are among the organisms that live in reef ecosystems. Ocean currents\noften link different reef systems and move organisms from one reef area to another. \nThis movement is a factor in repopulating a reef that has been damaged by environmental\nchanges.\nOne environmental change involves an increased growth of seaweed. When the \npopulation of seaweed increases, the reef shifts from a coral-dominated ecosystem to a \nseaweed-dominated ecosystem. This change disrupts the relationships between the \norganisms that live there.\nStudies have shown that, as the density of seaweed in a reef area increases, the number\nof fish that eat the seaweed in that area decreases. This may be due to the presence of more\npredators, or the taste of the more mature plants. The fish move to areas where there is less\nseaweed growth. As this trend continues, the reef areas are taken over by the seaweed.\nOnce this happens, it is very hard to remove the seaweed and restore the reef to a healthy\necosystem.\nIn addition to this problem, temperature changes are threatening the ocean currents\nthat connect the reef systems. A change in the currents would reduce the movement of fish\nlarvae from one area to another. This contributes to the seaweed problem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Identify one abiotic factor that is affecting the stability of the coral reef ecosystems and state how the factor identified is important to the coral reef ecosystems. Abiotic factor: Effect:",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nCoral Reef Ecosystems\nThere are many ecological interactions that maintain the biodiversity present in coral\nreefs. In addition to coral, microscopic algae, seaweed, sea grasses, sponges and worms, \nand a variety of fish are among the organisms that live in reef ecosystems. Ocean currents\noften link different reef systems and move organisms from one reef area to another. \nThis movement is a factor in repopulating a reef that has been damaged by environmental\nchanges.\nOne environmental change involves an increased growth of seaweed. When the \npopulation of seaweed increases, the reef shifts from a coral-dominated ecosystem to a \nseaweed-dominated ecosystem. This change disrupts the relationships between the \norganisms that live there.\nStudies have shown that, as the density of seaweed in a reef area increases, the number\nof fish that eat the seaweed in that area decreases. This may be due to the presence of more\npredators, or the taste of the more mature plants. The fish move to areas where there is less\nseaweed growth. As this trend continues, the reef areas are taken over by the seaweed.\nOnce this happens, it is very hard to remove the seaweed and restore the reef to a healthy\necosystem.\nIn addition to this problem, temperature changes are threatening the ocean currents\nthat connect the reef systems. A change in the currents would reduce the movement of fish\nlarvae from one area to another. This contributes to the seaweed problem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "State one reason why it is important to maintain the stability of the coral reefs.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/q71.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nCoral Reef Ecosystems\nThere are many ecological interactions that maintain the biodiversity present in coral\nreefs. In addition to coral, microscopic algae, seaweed, sea grasses, sponges and worms, \nand a variety of fish are among the organisms that live in reef ecosystems. Ocean currents\noften link different reef systems and move organisms from one reef area to another. \nThis movement is a factor in repopulating a reef that has been damaged by environmental\nchanges.\nOne environmental change involves an increased growth of seaweed. When the \npopulation of seaweed increases, the reef shifts from a coral-dominated ecosystem to a \nseaweed-dominated ecosystem. This change disrupts the relationships between the \norganisms that live there.\nStudies have shown that, as the density of seaweed in a reef area increases, the number\nof fish that eat the seaweed in that area decreases. This may be due to the presence of more\npredators, or the taste of the more mature plants. The fish move to areas where there is less\nseaweed growth. As this trend continues, the reef areas are taken over by the seaweed.\nOnce this happens, it is very hard to remove the seaweed and restore the reef to a healthy\necosystem.\nIn addition to this problem, temperature changes are threatening the ocean currents\nthat connect the reef systems. A change in the currents would reduce the movement of fish\nlarvae from one area to another. This contributes to the seaweed problem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "72",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/q72.png",
+      "context": "Base your answers to questions 69 through 72 on the information below and on your knowledge of biology.\nCoral Reef Ecosystems\nThere are many ecological interactions that maintain the biodiversity present in coral\nreefs. In addition to coral, microscopic algae, seaweed, sea grasses, sponges and worms, \nand a variety of fish are among the organisms that live in reef ecosystems. Ocean currents\noften link different reef systems and move organisms from one reef area to another. \nThis movement is a factor in repopulating a reef that has been damaged by environmental\nchanges.\nOne environmental change involves an increased growth of seaweed. When the \npopulation of seaweed increases, the reef shifts from a coral-dominated ecosystem to a \nseaweed-dominated ecosystem. This change disrupts the relationships between the \norganisms that live there.\nStudies have shown that, as the density of seaweed in a reef area increases, the number\nof fish that eat the seaweed in that area decreases. This may be due to the presence of more\npredators, or the taste of the more mature plants. The fish move to areas where there is less\nseaweed growth. As this trend continues, the reef areas are taken over by the seaweed.\nOnce this happens, it is very hard to remove the seaweed and restore the reef to a healthy\necosystem.\nIn addition to this problem, temperature changes are threatening the ocean currents\nthat connect the reef systems. A change in the currents would reduce the movement of fish\nlarvae from one area to another. This contributes to the seaweed problem.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "The process shown in the diagram is",
+      "choices": [
+        "cellular respiration",
+        "cellular reorganization",
+        "gene recombination",
+        "protein synthesis"
+      ],
+      "image": "/images/exams/living-environment/august-2016/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the diagram below, which represents a process that occurs in\nliving cells, and on your knowledge of biology.\nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "Structure X is a",
+      "choices": [
+        "mitochondrion",
+        "vacuole",
+        "nucleus",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2016/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the diagram below, which represents a process that occurs in\nliving cells, and on your knowledge of biology.\nNote: The answer to question 73 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "A finch that picks small insects out from cracks in the bark of trees would most likely have a beak that is",
+      "choices": [
+        "sharp and thin",
+        "sharp and thick",
+        "rounded and thin",
+        "rounded and thick"
+      ],
+      "image": "/images/exams/living-environment/august-2016/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the diagram below and on your knowledge of biology.\nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "Which statement is a basic assumption from The Beaks of Finches lab?",
+      "choices": [
+        "The type of beak indicates the type of food the finch eats.",
+        "Different birds have different songs.",
+        "Birds with larger beaks can find mates more easily.",
+        "Nesting behavior of finches is an inherited trait."
+      ],
+      "image": "/images/exams/living-environment/august-2016/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the diagram below and on your knowledge of biology.\nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "State two reasons why the large ground finch and sharp-billed ground finch could live on the same island but not compete for food, even though they both eat mainly plant food. Reason 1: Reason 2: Large ground finch Vegetarian finch Large tree finch Small tree finch Woodpecker finch Warbler finch Cactus finch Sharp-billed ground finch Small ground finch Medium ground finch E d g e c r u s h i n g B i t i n g t i p s C r u s h i n g b i l l s Mainly plant food Mainly animal food G r a s p i n g b i l l s All animal food P r o b i n g P r o b i n g b i l l s from: Galapagos:",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the diagram below and on your knowledge of biology.\nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "In the space below, write the number of the tree diagram that shows the most probable evolutionary relationship between the three species. Support your answer. Tree diagram: __________ Plant Species Enzyme W Enzyme X Enzyme Y Enzyme Z Species A present present absent present Species B absent absent present absent Species C present present absent present Tree 1 Tree 2",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_78_78.png",
+      "context": "Base your answer to question 78 on the table below and on your knowledge of biology. The table shows\nwhich of four enzymes are present in three related plant species.\nComparison of Four Enzymes\nThe tree diagrams below show two possible evolutionary relationships between the three species.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify substance A.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the diagram below, which represents the shrinking of a cell in\nresponse to an increase in the concentration of a substance outside of the cell.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Identify one likely substance in the environment of the cell that caused this response.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the diagram below, which represents the shrinking of a cell in\nresponse to an increase in the concentration of a substance outside of the cell.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "A student lifted weights after school and found that his muscles started to burn. He couldn\u2019t continue to lift the weights after prolonged exercising. This muscle fatigue is most likely due to",
+      "choices": [
+        "the heart beating too fast and tiring out",
+        "the lungs accumulating oxygen",
+        "lack of oxygen and build up of waste in the muscles",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "Methods A and B are classified as methods of passive transport because they do not require",
+      "choices": [
+        "ATP",
+        "carbon dioxide",
+        "light",
+        "DNA"
+      ],
+      "image": "/images/exams/living-environment/august-2016/context_82_83.png",
+      "context": "Base your answers to questions 82 and 83 on the diagram below and on your knowledge of biology. The diagram\nrepresents three sections of a cell membrane showing three different methods involved in the transport of \nvarious molecules across the membrane.\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Using information from the diagram,",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/context_82_83.png",
+      "context": "Base your answers to questions 82 and 83 on the diagram below and on your knowledge of biology. The diagram\nrepresents three sections of a cell membrane showing three different methods involved in the transport of \nvarious molecules across the membrane.\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "State one reason why some species might have similar body structures even if they are not closely related.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/q84.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "A student went out to the school track and walked two laps, ran two laps, and then walked two more laps. On the grid below, LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2016/q85.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

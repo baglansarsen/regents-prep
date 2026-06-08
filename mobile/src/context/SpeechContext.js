@@ -12,6 +12,7 @@ const SUBJECT_LABEL = {
   'algebra-1':          'Algebra 1',
   'algebra-2':          'Algebra 2',
   'geometry':           'Geometry',
+  'life-science':       'Life Science: Biology',
 }
 
 // ─── Subject-specific practice hints ─────────────────────────────────────────
@@ -23,110 +24,111 @@ const SUBJECT_HINT = {
   'algebra-1':          'a quadratic equation',
   'algebra-2':          'a logarithm problem',
   'geometry':           'a proof',
+  'life-science':       'a genetics question',
 }
 
 // ─── Daily message templates (subject-aware) ─────────────────────────────────
 const TEMPLATES = {
-  axolotl: {
+  dog: {
     morning:   [
-      '{daysUntilExam} days until your {subject} Regents. Let\'s make this morning count 🌊',
-      'Good morning! {streak} days in a row. Your {subject} score will thank you 💗',
-      'Rise and study {subject}! Your Regents score won\'t improve itself 🦎',
+      'Morning buddy! {daysUntilExam} days until {subject} Regents. Let\'s go! 🐶',
+      'Rise and shine! {streak} days in a row — that\'s my loyal friend! 🐾',
+      'Good morning! {subject} awaits. You and me, let\'s crush it together 🐶',
     ],
     afternoon: [
-      'Hey! Quick {subject} quiz before your energy dips? 🦎',
-      '{streak} days strong. {subject} afternoon grind time 💗',
-      '{daysUntilExam} days left for {subject}. You\'ve totally got this 🌊',
+      'Afternoon study session? You know I\'m in 🐾',
+      '{streak} days strong. Let\'s do one more {subject} quiz together!',
+      '{daysUntilExam} days left. Your energy matters. Let\'s go 🐶',
     ],
     evening:   [
-      'Evening {subject} study session? I love these 🌊',
-      'Almost at {streak} days — one more {subject} quiz tonight?',
-      'It\'s late but one more {hint} before bed? For me? 💗',
+      'Evening {subject} review! I\'ll be right here cheering you on 🐶',
+      '{streak} days! Almost there. One more {hint} before bed?',
+      'Let\'s end the day strong with {subject}. I believe in you 🐾',
     ],
   },
-  fox: {
+  parrot: {
     morning:   [
-      '{daysUntilExam} days until {subject} Regents. Efficiency starts now.',
-      'Morning. The difference between good and great {subject} scores? Showing up.',
-      '{streak}-day streak. Sharp. Let\'s keep it that way.',
+      'Good morning! {daysUntilExam} days til {subject} Regents — let\'s go! 🦜',
+      'SQUAWK! {streak} days of {subject}! That\'s amazing energy! 🦜',
+      'Rise and shine! Ready to learn {subject}? I definitely am!',
     ],
     afternoon: [
-      'Afternoon slump? Not us. Quick {subject} quiz. Go.',
-      '{daysUntilExam} days until {subject} Regents. Every session counts.',
-      'Your streak is {streak}. Don\'t break it now.',
+      'Afternoon quiz time? Let\'s GO! Quick {subject} round! 🦜',
+      '{daysUntilExam} days til {subject} Regents. Bring the energy!',
+      '{streak} days! Keep that momentum flying! One more {subject} quiz?',
     ],
     evening:   [
-      'One {hint} before you sleep. That\'s the deal.',
-      '{streak} days. Don\'t let fatigue end what discipline started.',
-      '{subject} evening review is where the real gains happen.',
+      'Evening {subject} study — this is where we shine! 🦜',
+      '{streak} days of consistency! One more {hint} before rest?',
+      'Let\'s wrap the day with {subject}! Squawk! 🦜',
     ],
   },
-  capybara: {
+  cat: {
     morning:   [
-      'Morning 🦫 No rush. Just one {subject} unit when you\'re ready.',
-      'Hey. {daysUntilExam} days til {subject} Regents. One concept at a time.',
-      'Your {streak}-day streak? Very chill energy. Keep it up.',
+      '{daysUntilExam} days until {subject} Regents. Study. Alone. Focused. 🐱',
+      'Morning. {streak} days. Your {subject} progress is noted.',
+      'Another day, another chance to master {subject}. Let\'s begin.',
     ],
     afternoon: [
-      '{subject} afternoon study? Peak capybara energy. Let\'s go 🌿',
-      'One {subject} flashcard deck. That\'s it. That\'s enough.',
-      '{daysUntilExam} days left. Manageable. Breathe.',
+      'The afternoon is yours. One {subject} quiz in solitude.',
+      '{daysUntilExam} days remain. The void watches your {subject} progress.',
+      '{streak} days. Independent excellence. Keep it that way.',
     ],
     evening:   [
-      'Evening. Maybe one {subject} quiz? Or rest. Both are valid.',
-      '{streak} days. Legitimately impressive.',
-      'Even capybaras review {subject} notes before bed 🦫',
+      'Alone with {subject}. That\'s where your power is. Study.',
+      '{streak} days of introspection and growth. One more {hint}?',
+      'The void does not sleep. Neither should your {subject} review. 🐱',
     ],
   },
-  voidCat: {
+  rabbit: {
     morning:   [
-      'The void greets you. {daysUntilExam} days remain. Study {subject}.',
-      'Morning. {streak} days. The void is watching your {subject} progress.',
-      'Another day. Another chance to master {subject}.',
+      'Good morning! {daysUntilExam} days until {subject} Regents. Let\'s work together 🐰',
+      'Rise and shine! {streak} days — your dedication means everything 💗',
+      'Morning! Time to show {subject} some care and attention 🌸',
     ],
     afternoon: [
-      'The void requires a {subject} quiz. Now.',
-      '{daysUntilExam} days until {subject} Regents. The void has kept count.',
-      'Your {streak}-day streak is adequate. Do not ruin it.',
+      '{subject} afternoon study? Count me in. Let\'s build together 🐰',
+      '{streak} days strong. Your consistency and kindness inspire me.',
+      '{daysUntilExam} days left. Steady hops win the race. Let\'s go 🌸',
     ],
     evening:   [
-      'The void does not sleep. Neither should your {subject} review.',
-      '{streak} days. Impressive. For a mortal.',
-      'One more {subject} topic. Then the void will let you rest.',
+      'Evening {subject} review. I\'m here every step of the way 🐰',
+      '{streak} days of showing up for yourself. That\'s beautiful.',
+      'One gentle {hint} before rest? Let\'s finish strong together 💗',
     ],
   },
-  bear: {
+  fish: {
     morning:   [
-      'Morning! {daysUntilExam} days until {subject} Regents. Slow and steady 🐻',
-      'Good morning! {streak} days of showing up for {subject}. Keep building 🍯',
-      'One {subject} quiz, one step forward. That\'s all it takes 🐾',
+      'Morning calm. {daysUntilExam} days til {subject} Regents. One concept at a time. 🐠',
+      'Good morning. {streak} days. Your steady {subject} progress flows beautifully.',
+      'Rise and center yourself. {subject} study awaits with peace 🌊',
     ],
     afternoon: [
-      '{daysUntilExam} days left. {subject} afternoon grind with me? 🐾',
-      'You\'ve been consistent with {subject}. {streak} days. That matters.',
-      'One more {subject} unit today. Bears don\'t quit midway 🐻',
+      '{subject} afternoon? Methodical. Calm. Mastery unfolds. 🐠',
+      '{daysUntilExam} days. Manageable. Breathe. One quiz at a time.',
+      '{streak} days of serene consistency. Keep that zen 🌊',
     ],
     evening:   [
-      '{subject} evening review. I\'ll be right here with you 🐻',
-      '{streak} days of showing up. That\'s everything.',
-      'One {hint} before rest. Future you says thanks 🍯',
+      'Evening {subject} review. Calm waters, clear thinking. 🐠',
+      '{streak} days. Peaceful progress compounds. One more {hint}?',
+      'Organize, breathe, study. {subject} evening — your strength 🌊',
     ],
   },
-  bunny: {
+  hamster: {
     morning:   [
-      'Morning! {daysUntilExam} days until {subject} Regents — let\'s zoom! 🌸',
-      'Hi! {streak} days straight of {subject} has me so excited! 🐰',
-      'Ready for {subject}? Because I am! Let\'s hop into a quiz 🌸',
+      'Morning. {daysUntilExam} days til {subject} Regents. Your pace. Your way. 🐹',
+      '{streak} days. Grounded progress. Keep running your race 🐹',
+      'Another day at your pace. {subject} awaits. No rush.',
     ],
     afternoon: [
-      'Afternoon energy! Quick {subject} quiz? I\'ll cheer you on 🐰',
-      '{daysUntilExam} days left for {subject}. We can totally do this!',
-      '{streak} days! You\'re hopping through {subject}! 🌸',
+      '{subject} afternoon. Solo learner energy. That\'s your strength. 🐹',
+      '{daysUntilExam} days left. You know your pace. Trust it.',
+      '{streak} days of quiet, solid progress. Keep going 🐹',
     ],
     evening:   [
-      'Evening {subject} study! One more hop before we rest 🐰',
-      '{streak} days. That\'s so impressive! One last {subject} quiz?',
-      '{daysUntilExam} days. {subject} evening review = tomorrow\'s confidence 🌸',
+      '{subject} evening study on your terms. That\'s where you shine.',
+      '{streak} days. Observant, grounded, dependable. You.',
+      'One more {hint} at your own pace. Quiet wins are still wins. 🐹',
     ],
   },
 }

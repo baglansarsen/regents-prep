@@ -6,18 +6,15 @@
 // Row 8: (extra row supplied by artist — reserved)
 
 const PET_SPRITES = {
-  axolotl:  require('../../assets/pets/axolotl.png'),
-  fox:      require('../../assets/pets/fox.png'),
-  capybara: require('../../assets/pets/capybara.png'),
-  voidCat:  require('../../assets/pets/voidcat.png'),
-  bear:     require('../../assets/pets/bear.png'),
-  bunny:    require('../../assets/pets/bunny.png'),
-  newbunny: require('../../assets/pets/newbunny.png'),
+  dog:     null,
+  cat:     null,
+  parrot:  null,
+  rabbit:  null,
+  fish:    null,
+  hamster: null,
 }
 
-// Frame size in pixels for each pet's sprite sheet (default 128 for standard sheets).
-export const PET_FRAME_SIZES = {
-  newbunny: 256,
-}
+// Frame size in pixels for each pet's sprite sheet (not used with emoji fallback).
+export const PET_FRAME_SIZES = {}
 
 export default PET_SPRITES

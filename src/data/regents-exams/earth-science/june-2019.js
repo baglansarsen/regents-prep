@@ -20,6 +20,8 @@ export default {
       topic: 'Maps',
       correct: 1,
       image: '/images/exams/es-june-2019/q1.png',
+      explanation: 'The correct choice is 1 because Boston is in the Eastern time zone and San Diego is in the Pacific time zone. Since Pacific time is 3 hours behind Eastern time, 11 a.m. in San Diego corresponds to 2 p.m. in Boston.',
+      diveDeep: 'Earth rotates 15° per hour, establishing the boundaries of our standard time zones (each spanning 15° of longitude). Moving eastward across the United States, time becomes progressively later by one hour per time zone. Students should count the time zones from west to east: Pacific, Mountain, Central, and Eastern, adding one hour for each boundary crossed.',
     },
     {
       number: 2,
@@ -34,6 +36,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-june-2019/q2.png',
+      explanation: 'The correct choice is 0 because the Doppler effect causes light from an object moving away from the observer to shift toward longer wavelengths, which corresponds to the red end of the spectrum (redshift).',
+      diveDeep: 'When a celestial object moves away from Earth, its emitted spectral lines are shifted toward the longer, red wavelengths (redshift). If the object were moving toward Earth, the spectral lines would shift toward the shorter, blue wavelengths (blueshift). This shift is a key piece of evidence for the expansion of the universe, and students must remember that \'away is red, toward is blue.\'',
     },
     {
       number: 3,
@@ -46,8 +50,10 @@ export default {
         'Solar at M2 caused by Moon\'s shadow falling on Earth; Lunar at M1 caused by Earth\'s shadow falling on Moon',
       ],
       topic: 'Astronomy',
-      correct: 1,
+      correct: 3,
       image: '/images/exams/es-june-2019/q3.png',
+      explanation: 'A solar eclipse occurs during the new moon phase (M2) when the Moon\'s shadow falls on Earth, and a lunar eclipse occurs during the full moon phase (M1) when Earth\'s shadow falls on the Moon.',
+      diveDeep: 'Eclipses require specific alignments of the Sun, Earth, and Moon. A solar eclipse can only happen when the Moon passes directly between the Sun and Earth (new moon, position M2), casting its shadow on Earth. A lunar eclipse occurs when the Moon enters Earth\'s shadow (full moon, position M1).'
     },
     {
       number: 4,
@@ -62,6 +68,8 @@ export default {
       topic: 'Geologic Time',
       correct: 0,
       image: '/images/exams/es-june-2019/q4.png',
+      explanation: 'The correct choice is 0 because humans appeared in the very recent geologic past (Quaternary Period), which is represented by dot A at the very end of the 4.6-billion-year timeline.',
+      diveDeep: 'The vast majority of Earth\'s history (about 88%) is Precambrian, during which only simple, single-celled and early multicellular life existed. Complex life-forms like dinosaurs, mammals, and humans evolved only in the last fraction of geologic time. On any timeline representing Earth\'s 4.6-billion-year history, human existence is so brief that it can only be represented by a mark at the extreme present-day end (dot A).',
     },
     {
       number: 5,
@@ -75,6 +83,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 3,
+      explanation: 'The correct choice is 3 because the universe is estimated to be 13.8 billion years old and contains billions of galaxies, making it far older, larger, and more star-populated than our 4.6-billion-year-old solar system.',
+      diveDeep: 'The solar system is a tiny component within the Milky Way galaxy, which itself is one of billions of galaxies in the universe. Our solar system formed approximately 4.6 billion years ago, whereas the universe began with the Big Bang approximately 13.8 billion years ago. Students must understand the hierarchical relationships in space (solar system < galaxy < universe) and their relative ages.',
     },
     {
       number: 6,
@@ -88,6 +98,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 0,
+      explanation: 'The correct choice is 0 because Earth\'s annual revolution (orbit) around the Sun shifts the direction that Earth\'s night side faces in space, revealing different constellations throughout the year.',
+      diveDeep: 'As Earth orbits the Sun, our view of the night sky changes because the night side of Earth faces different directions of the celestial sphere in different seasons. This seasonal visibility of constellations is a primary proof of Earth\'s revolution. By contrast, Earth\'s rotation on its axis causes the daily apparent rising and setting of stars.',
     },
     {
       number: 7,
@@ -101,6 +113,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 1,
+      explanation: 'The correct choice is 1 because the Tasman Hot Spot is located in the Southwest Pacific Ocean at approximately 36° S latitude and 160° E longitude, near the eastern coast of Australia.',
+      diveDeep: 'Using the Tectonic Plates map in the ESRT, locate the Tasman Hot Spot. Read its coordinates carefully by tracing its position to the latitude and longitude scales. A common error is mixing up the hemisphere directions (North/South and East/West) or reversing the order of latitude and longitude.',
     },
     {
       number: 8,
@@ -114,6 +128,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 2,
+      explanation: 'The correct choice is 2 because the stratosphere is the layer of Earth\'s atmosphere that contains the highest concentration of ozone (the ozone layer), which absorbs harmful solar ultraviolet radiation.',
+      diveDeep: 'The Selected Properties of Earth\'s Atmosphere chart in the ESRT shows that the stratosphere extends from about 7 to 30 miles (or 12 to 50 km) above Earth\'s surface. Within this zone, ozone gas absorbs incoming ultraviolet energy, which causes the temperature of the stratosphere to increase with altitude. Students should use this ESRT chart to verify the names and altitudes of atmospheric layers.',
     },
     {
       number: 9,
@@ -127,6 +143,8 @@ export default {
       ],
       topic: 'Astronomy',
       correct: 3,
+      explanation: 'The correct choice is 3 because the Coriolis effect is the apparent deflection of moving objects, such as winds and ocean currents, caused by Earth\'s rotation on its axis.',
+      diveDeep: 'As Earth rotates, points at the equator move faster than points near the poles. This velocity difference deflects winds to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. Earth\'s rotation is the sole cause of the Coriolis effect, while Earth\'s revolution is responsible for seasonal changes.',
     },
     {
       number: 10,
@@ -140,6 +158,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 1,
+      explanation: 'The correct choice is 1 because a dry-bulb temperature of 18°C and a relative humidity of 64% correspond to a wet-bulb depression of 4°C, which yields a dewpoint of 11°C.',
+      diveDeep: 'To solve this, first locate the dry-bulb temperature of 18°C on the Relative Humidity table in the ESRT. Find the value 64% in that row, which lies under the column for a dry-bulb/wet-bulb difference (depression) of 4°C. Next, go to the Dewpoint Temperature table, locate 18°C dry-bulb, and find the value in the 4°C difference column, which is 11°C.',
     },
     {
       number: 11,
@@ -153,6 +173,8 @@ export default {
       ],
       topic: 'Water Cycle',
       correct: 2,
+      explanation: 'The correct choice is 2 because vaporizing (boiling) liquid water into water vapor requires the absorption of 2260 Joules of heat energy per gram from the surrounding environment.',
+      diveDeep: 'According to the Properties of Water table on page 1 of the ESRT, the latent heat of vaporization (or condensation) is 2260 J/g. Vaporization is an endothermic phase change, meaning the water must gain this energy from its surroundings. Condensation, conversely, releases 2260 J/g, and melting/freezing involve 334 J/g.',
     },
     {
       number: 12,
@@ -167,6 +189,8 @@ export default {
       topic: 'Water Cycle',
       correct: 1,
       image: '/images/exams/es-june-2019/q12.png',
+      explanation: 'The correct choice is 1 because the water table represents the upper limit of the zone of saturation, below which all pore spaces in the soil and bedrock are filled with groundwater.',
+      diveDeep: 'Subsurface water is divided into the zone of aeration (where pores contain air and water) and the zone of saturation (where pores are completely filled with water). The boundary between these two zones is the water table. The water table fluctuates depending on precipitation, infiltration, and groundwater withdrawal rates.',
     },
     {
       number: 13,
@@ -180,6 +204,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 2,
+      explanation: 'The correct choice is 2 because Eospirifer is a genus of brachiopods, which were marine invertebrates that lived during the Silurian Period.',
+      diveDeep: 'By checking the Geologic History of New York State chart in the ESRT, students can find Eospirifer in the index fossil section at the bottom. Tracing its fossil letter to the column showing the type of organism reveals it is a brachiopod, which inhabited shallow seas. The other options, like Mastodont and Coelophysis, represent terrestrial animals.',
     },
     {
       number: 14,
@@ -193,6 +219,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 0,
+      explanation: 'The correct choice is 0 because boundary A shows cold air advancing under warm air (cold front), boundary B shows warm air rising over cooler air (warm front), and boundary C shows warm air squeezed aloft between cold and cool air masses (occluded front).',
+      diveDeep: 'Fronts are named for the advancing air mass that is moving into a region. In a cold front, dense cold air wedges underneath warm air, forcing it to rise rapidly and causing stormy weather. In a warm front, warm air gently overrides a cooler air mass. In an occluded front, a fast-moving cold front overtakes a warm front, lifting the warm air completely off the ground.',
     },
     {
       number: 15,
@@ -207,6 +235,8 @@ export default {
       topic: 'Geologic Time',
       correct: 3,
       image: '/images/exams/es-june-2019/q15.png',
+      explanation: 'The correct choice is 3 because downwarping refers to the downward bending or sinking of Earth\'s crust, which created the low-lying basin structure of Michigan where sedimentary layers accumulated over geologic time.',
+      diveDeep: 'The Michigan Basin is a geologic basin that subsided (downwarped) slowly over hundreds of millions of years, allowing thick sequences of Paleozoic sedimentary rocks to accumulate. Uplift would have elevated the layers, leading to erosion rather than basin accumulation. Metamorphism and faulting are not the primary mechanisms for forming large, symmetrical sedimentary basins like this one.',
     },
     {
       number: 16,
@@ -221,6 +251,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-june-2019/q16.png',
+      explanation: 'The correct choice is 1 because as air is forced up the windward slope of a mountain range (location B), it expands and cools adiabatically, leading to condensation, cloud formation, and precipitation.',
+      diveDeep: 'This is the windward side of the mountain where moist air rising from the ocean cools to its dewpoint, causing condensation (cloud cover) and rain. On the leeward side (locations C and D), the air descends, compresses, and warms, creating a dry rain shadow climate. Location A is over the ocean before the air begins its significant upward rise.',
     },
     {
       number: 17,
@@ -234,6 +266,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 0,
+      explanation: 'The correct choice is 0 because a blacktop parking lot has a dark color and a rough texture, both of which maximize the absorption of incoming solar radiation (insolation).',
+      diveDeep: 'The color and texture of a surface determine its albedo (reflectivity). Light-colored and smooth surfaces, like a snow-covered slope or white sand beach, reflect most insolation. Dark-colored and rough surfaces reflect very little and instead absorb the light energy, converting it into heat.',
     },
     {
       number: 18,
@@ -247,6 +281,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 3,
+      explanation: 'The correct choice is 3 because methane is a potent greenhouse gas that, along with carbon dioxide and water vapor, absorbs outgoing infrared (heat) radiation emitted from Earth\'s surface.',
+      diveDeep: 'Greenhouse gases allow short-wave visible light from the Sun to pass through the atmosphere but absorb long-wave infrared radiation emitted by Earth\'s warmed surface. This absorption traps heat, warming the planet. Methane (CH₄) is highly efficient at absorbing infrared, making it a critical focus of climate change studies. Nitrogen and oxygen, which make up most of the atmosphere, are not greenhouse gases.',
     },
     {
       number: 19,
@@ -261,6 +297,8 @@ export default {
       topic: 'Geologic Time',
       correct: 3,
       image: '/images/exams/es-june-2019/q19.png',
+      explanation: 'The correct choice is 3 because according to paleogeographic reconstructions in the ESRT, the region of North American bedrock that includes Washington State was located closest to the equator during the Ordovician Period.',
+      diveDeep: 'The Geologic History of New York State chart in the ESRT contains maps showing the position of North America over geologic time. During the Cambrian and Ordovician, the continent was positioned horizontally across the equator. Over the next hundreds of millions of years, tectonic plate motions drifted the continent northward to its current latitude.',
     },
     {
       number: 20,
@@ -274,6 +312,8 @@ export default {
       ],
       topic: 'Climate',
       correct: 2,
+      explanation: 'The correct choice is 2 because El Niño is a periodic climate event characterized by the warming of surface ocean waters in the eastern equatorial Pacific, which alters global atmospheric circulation patterns.',
+      diveDeep: 'El Niño disrupts the normal trade winds, causing warm water to pool off the coast of South America rather than being pushed west. This shifts jet streams and weather systems globally, often leading to milder, drier winters in the northeastern United States. La Niña is the opposite phase, featuring cooler-than-normal equatorial waters.',
     },
     {
       number: 21,
@@ -287,6 +327,8 @@ export default {
       ],
       topic: 'Geologic Time',
       correct: 1,
+      explanation: 'The correct choice is 1 because the Geologic History of New York State chart in the ESRT indicates that there is a gap in the NYS rock record (no bedrock or sediment found) during the Paleogene and Neogene Periods.',
+      diveDeep: 'Bedrock is absent from the rock record when a region undergoes erosion or lacks deposition during that time interval. Looking at the \'Rock Record in NYS\' column of the ESRT chart, there are blank spaces with dashed lines for the Permian, Jurassic, Paleogene, and Neogene periods. These gaps represent major unconformities where rocks of those ages are completely missing in New York.',
     },
     {
       number: 22,
@@ -300,6 +342,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'The correct choice is 0 because according to the law of superposition, the youngest rock layers are deposited on top of older layers, and layer A is the uppermost layer in the undisturbed sequence.',
+      diveDeep: 'In any undisturbed sequence of sedimentary rocks, each bed is older than the one above it and younger than the one below it. Since layer A lies at the very top of outcrop 1, it represents the most recent deposition. A fault (line XY) cuts through the layers of outcrop 2, but the law of superposition still dictates the relative ages of the horizontal strata.',
     },
     {
       number: 23,
@@ -314,6 +358,8 @@ export default {
       topic: 'Geologic Time',
       correct: 2,
       image: '/images/exams/es-june-2019/q23.png',
+      explanation: 'The correct choice is 2 because a flat, horizontal bedrock landscape (typical of plains or plateaus) develops a dendritic drainage pattern, which resembles the branching limbs of a tree.',
+      diveDeep: 'Drainage patterns are determined by the underlying bedrock structure and topography. Dendritic patterns develop on flat, uniform rock layers where water flows along the path of least resistance. Radial patterns (choice 1) form on dome-shaped structures or volcanoes, trellis patterns form in folded ridge-and-valley topography, and annular patterns form on eroded domes.',
     },
     {
       number: 24,
@@ -327,6 +373,8 @@ export default {
       ],
       topic: 'Meteorology',
       correct: 3,
+      explanation: 'The correct choice is 3 because warm temperatures and high humidity accelerate chemical weathering reactions, resulting in rapid weathering and the formation of rounded, soil-covered landforms.',
+      diveDeep: 'Climate is the primary driver of weathering and landscape development. Rainy, warm climates promote chemical weathering (such as hydration and carbonation), which softens and rounds off sharp rock edges. Arid and cold climates, dominated by physical weathering like frost wedging, leave rocks sharp, angular, and steep with thin soil.',
     },
     {
       number: 25,
@@ -340,6 +388,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'The correct choice is 1 because the Mid-Atlantic Ridge is a divergent ocean boundary where new oceanic crust forms from basaltic magma, which has a density of 3.0 g/cm³.',
+      diveDeep: 'The Earth\'s crust is divided into low-density continental crust (granite, ~2.7 g/cm³) and high-density oceanic crust (basalt, ~3.0 g/cm³). Mid-ocean ridges are underwater mountain ranges where seafloor spreading occurs, producing basaltic oceanic bedrock. Students can verify these crustal compositions and densities in the ESRT under the Earth\'s Interior chart.',
     },
     {
       number: 26,
@@ -353,6 +403,8 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 1,
+      explanation: 'The correct choice is 1 because according to the ESRT Earthquake Travel Time chart, a P-wave takes 7 minutes to travel 4000 km, placing the origin time at 7:03:00 p.m., and the S-wave takes 12 minutes 40 seconds, arriving at 7:15:40 p.m.',
+      diveDeep: 'First, locate 4000 km on the horizontal axis of the travel time chart. Move up to the P-wave curve and read the travel time on the vertical axis (7 minutes). Subtracting 7 minutes from the arrival time of 7:10:00 p.m. gives the origin time of 7:03:00 p.m. Next, move up to the S-wave curve at 4000 km to find its travel time (12 minutes 40 seconds). Adding this to the origin time gives the S-wave arrival time of 7:15:40 p.m.',
     },
     {
       number: 27,
@@ -367,6 +419,8 @@ export default {
       topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-june-2019/q27.png',
+      explanation: 'The correct choice is 0 because oxygen and silicon are the two most abundant elements by mass in Earth\'s crust, accounting for approximately 46.10% and 28.20% of the crust, respectively.',
+      diveDeep: 'Students should refer to the \'Average Chemical Composition of Earth\'s Crust, Hydrosphere, and Troposphere\' table on page 1 of the ESRT. The table lists the abundance of elements by both mass and volume. Oxygen is the most abundant by mass (46.1%), followed by silicon (28.2%), and then aluminum (8.23%).',
     },
     {
       number: 28,
@@ -380,6 +434,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'The correct choice is 3 because a drumlin is an elongated, teardrop-shaped hill composed of unsorted glacial till that was deposited and shaped beneath a moving continental glacier.',
+      diveDeep: 'Drumlins are depositional features that point in the direction of glacial movement (the steeper side faces the direction from which the ice came, and the tapered side points in the direction the ice was moving). Kettles are depressions formed by melting ice blocks, moraines are ridges of unsorted till at the glacier\'s edge, and sand dunes are wind-deposited structures.',
     },
     {
       number: 29,
@@ -394,6 +450,8 @@ export default {
       topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-june-2019/q29.png',
+      explanation: 'The correct choice is 0 because glaciers carve wide, steep-sided U-shaped valleys and drag rocks along the valley floor, creating scratches (striations) and grooves in the bedrock.',
+      diveDeep: 'Valley glaciers scrape and gouge the landscape, widening V-shaped river valleys into distinctive U-shaped troughs. Glacial deposition is characterized by unsorted and unlayered sediments (till), but the erosional bedrock surface is left polished, scratched, and grooved due to the abrasive action of rocks embedded in the ice.',
     },
     {
       number: 30,
@@ -407,6 +465,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 2,
+      explanation: 'The correct choice is 2 because bioclastic sedimentary rocks, such as coal (formed from compacted plant remains) and limestone (formed from shell fragments), are organic-rich and always contain carbon.',
+      diveDeep: 'The Scheme for Sedimentary Rock Identification in the ESRT divides sedimentary rocks into inorganic land-derived, chemically formed, and bioclastic (organic) classes. Coal is composed of carbon from decomposed plants, and bioclastic limestone is made of calcium carbonate (CaCO₃) from marine skeletons, making carbon a defining element of these rocks.',
     },
     {
       number: 31,
@@ -420,6 +480,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'The correct choice is 3 because the composition of the parent bedrock determines the minerals present in the soil, and the climate controls the rate and type of weathering that breaks down that bedrock.',
+      diveDeep: 'Soil is a mixture of weathered rock (minerals) and organic material. Bedrock composition dictates the chemical makeup and texture of the initial soil particles. Climate (temperature and precipitation) is the most influential factor in soil formation, as it governs the rate of chemical weathering, leaching, and the accumulation of organic humus.',
     },
     {
       number: 32,
@@ -433,6 +495,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 0,
+      explanation: 'The correct choice is 0 because the formation of an unconformity (a gap in the geologic record) requires the uplift of rock layers above sea level, followed by weathering and erosion, and then subsidence below water for new deposition to occur.',
+      diveDeep: 'An unconformity represents a missing segment of geologic time. After Cambrian limestone was deposited in a marine basin, tectonic forces uplifted the region above sea level. This exposed the limestone to weathering and erosion, removing layers. Later, subsidence lowered the land back below sea level, allowing Silurian limestone to deposit on top of the eroded surface.',
     },
     {
       number: 33,
@@ -446,6 +510,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 2,
+      explanation: 'The correct choice is 2 because granite is a felsic igneous rock containing abundant quartz, and gneiss is a high-grade metamorphic rock that is commonly derived from granite and contains visible quartz bands.',
+      diveDeep: 'By referencing the Scheme for Igneous Rock Identification in the ESRT, granite is shown to contain quartz. The Scheme for Metamorphic Rock Identification indicates that gneiss contains quartz, feldspar, and mica. Gabbro and scoria are mafic rocks that lack quartz, dunite is composed entirely of olivine, and sandstone is sedimentary (though it contains quartz, dunite does not).',
     },
     {
       number: 34,
@@ -459,6 +525,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 3,
+      explanation: 'The correct choice is 3 because the formula (Fe,Mg)₂SiO₄ represents the mineral olivine, which exhibits fracture rather than cleavage when it breaks.',
+      diveDeep: 'The Properties of Common Minerals table in the ESRT lists the chemical composition and cleavage/fracture characteristics of minerals. Olivine, represented by the formula (Fe,Mg)₂SiO₄, is one of the few silicate minerals that lacks planes of weakness, causing it to break along uneven, curved surfaces (fracture). Talc, halite, and calcite all possess distinct cleavage.',
     },
     {
       number: 35,
@@ -472,6 +540,8 @@ export default {
       ],
       topic: 'Geology',
       correct: 1,
+      explanation: 'The correct choice is 1 because graphite is a soft, grey mineral composed of carbon that leaves a dark streak on paper, making it ideal for use in pencils.',
+      diveDeep: 'Graphite has a hardness of 1 to 2 on Mohs scale, meaning it is easily abraded when rubbed against a surface. Its metallic-to-earthy luster and dark grey streak allow it to write smoothly. Pyrite (fool\'s gold) is too hard and has a brassy color, galena is heavy and metallic, and fluorite is hard and has octahedral cleavage.',
     },
     // Part B-1: Questions 36–37 are based on a graph showing ocean water level changes over a 3-day period (December 23–25, 2015) at Kings Point, New York on Long Island, displaying a tidal pattern with two high and two low tides per day.
     {
@@ -488,6 +558,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-june-2019/q36.png',
+      explanation: 'The correct choice is 0 because tides are cyclic and occur approximately every 12 hours and 25 minutes; adding this interval to the high and low tides of December 25 indicates the first low tide of December 26 will be near 6 a.m.',
+      diveDeep: 'The tide graph shows that low tides occur roughly every 12 hours. On December 25, low tides occurred at approximately 5:00 a.m. and 5:30 p.m. Adding about 12.5 hours to the 5:30 p.m. low tide places the subsequent low tide at roughly 6:00 a.m. on December 26.',
     },
     {
       number: 37,
@@ -503,6 +575,8 @@ export default {
       topic: 'Astronomy',
       correct: 0,
       image: '/images/exams/es-june-2019/q37.png',
+      explanation: 'The correct choice is 0 because ocean tides are a cyclic (repeating) and highly predictable event driven by the regular gravitational interactions between Earth, the Moon, and the Sun.',
+      diveDeep: 'Cyclic events repeat in a regular, recognizable pattern over time, allowing scientists to calculate and predict future occurrences. Tides, eclipses, seasons, and moon phases are prime examples of cyclic planetary motions. Unpredictable events include earthquakes and weather patterns, which are noncyclic or lack a simple, regular frequency.',
     },
     // Part B-1: Questions 38–41 are based on a diagram representing Earth orbiting the Sun. Four positions of Earth in its orbit are labeled A, B, C, and D. Letter N represents the North Pole. Distances are indicated for aphelion (152 million km, around July 4) and perihelion (147 million km, around January 3). Arrows indicate directions of movement. The diagram shows day/night sides and the Arctic Circle.
     {
@@ -519,6 +593,8 @@ export default {
       topic: 'Astronomy',
       correct: 2,
       image: '/images/exams/es-june-2019/q38.png',
+      explanation: 'The correct choice is 2 because aphelion occurs when Earth is at its farthest point from the Sun (152 million km) in early July, which is during the summer season in the Northern Hemisphere.',
+      diveDeep: 'A common misconception is that Earth\'s seasons are caused by its changing distance from the Sun. However, Earth is actually closest to the Sun (perihelion) in January (Northern Hemisphere winter) and farthest (aphelion) in July (Northern Hemisphere summer). The seasons are caused by the tilt of Earth\'s axis, not its orbital distance.',
     },
     {
       number: 39,
@@ -534,6 +610,8 @@ export default {
       topic: 'Astronomy',
       correct: 3,
       image: '/images/exams/es-june-2019/q39.png',
+      explanation: 'The correct choice is 3 because the Sun\'s vertical rays migrate from the equator (0°) southward to the Tropic of Capricorn (23.5° S) between the autumnal equinox (position D) and the winter solstice (position A).',
+      diveDeep: 'As Earth orbits the Sun, the latitude receiving the vertical rays shifts between 23.5° N (Tropic of Cancer) on June 21 and 23.5° S (Tropic of Capricorn) on December 21. From September 23 (equator) to December 21, the rays move southward, which corresponds to the path from position D to A in the diagram.',
     },
     {
       number: 40,
@@ -549,6 +627,8 @@ export default {
       topic: 'Astronomy',
       correct: 3,
       image: '/images/exams/es-june-2019/q40.png',
+      explanation: 'The correct choice is 3 because Earth rotates on its axis approximately 365 times (once per day) during the time it takes to complete one full revolution (365 days) around the Sun from position A back to A.',
+      diveDeep: 'Rotation is the spinning of Earth on its axis, which defines a day. Revolution is the orbital motion around the Sun, which defines a year. One full orbit takes 365.26 days, meaning Earth completes just over 365 full rotations on its axis during one orbital cycle.',
     },
     {
       number: 41,
@@ -564,6 +644,8 @@ export default {
       topic: 'Astronomy',
       correct: 1,
       image: '/images/exams/es-june-2019/q41.png',
+      explanation: 'The correct choice is 1 because Earth\'s axis of rotation is tilted at a constant angle of 23.5° relative to a line perpendicular to the plane of its orbit.',
+      diveDeep: 'This 23.5° tilt is the fundamental cause of Earth\'s seasons because it changes which hemisphere is tilted toward the Sun as Earth revolves. The complementary angle, between the axis and the orbital plane itself, is 66.5° (90° - 23.5°). Students must distinguish between the angle perpendicular to the plane (23.5°) and the angle to the plane itself (66.5°).',
     },
     // Part B-1: Questions 42–44 are based on a map showing a composite of Doppler radar images. Darker shadings indicate the precipitation pattern of a large storm system over the eastern United States, with a north arrow shown.
     {
@@ -580,6 +662,8 @@ export default {
       topic: 'Meteorology',
       correct: 1,
       image: '/images/exams/es-june-2019/q42.png',
+      explanation: 'The correct choice is 1 because low-pressure systems (cyclones) in the Northern Hemisphere have a wind circulation pattern that flows inward and counterclockwise.',
+      diveDeep: 'Due to the Coriolis effect, winds in the Northern Hemisphere are deflected to the right. When air rushes toward the low-pressure center of a storm, this rightward deflection causes the wind to spiral in a counterclockwise direction. High-pressure systems (anticyclones), by contrast, have winds that blow outward and clockwise.',
     },
     {
       number: 43,
@@ -595,6 +679,8 @@ export default {
       topic: 'Meteorology',
       correct: 3,
       image: '/images/exams/es-june-2019/q43.png',
+      explanation: 'The correct choice is 3 because closely spaced isobars (lines of equal barometric pressure) indicate a steep pressure gradient, which results in high wind speeds.',
+      diveDeep: 'The pressure gradient force drives wind. A steep pressure gradient means pressure changes rapidly over a short distance, which is represented on a weather map by isobars drawn close together. Widely spaced isobars indicate a gentle pressure gradient and calm or low-speed winds.',
     },
     {
       number: 44,
@@ -610,6 +696,8 @@ export default {
       topic: 'Meteorology',
       correct: 2,
       image: '/images/exams/es-june-2019/q44.png',
+      explanation: 'The correct choice is 2 because weather systems in the United States are steered by the prevailing southwesterly wind belt, causing most storms to track toward the northeast.',
+      diveDeep: 'By referencing the Planetary Wind and Moisture Belts diagram in the ESRT, the United States (located between 30° N and 60° N latitude) lies in the prevailing westerlies belt. These winds blow from the southwest toward the northeast, pushing low-pressure systems and storms along a northeastward track toward the Atlantic Ocean.',
     },
     // Part B-1: Questions 45–48 are based on a passage and map about the Crete Earthquake. The map shows the location of the epicenter of a major earthquake that occurred about 1700 years ago (year 365). Point A represents a location on a tectonic plate boundary. Plates X and Y represent major tectonic plates. The island of Crete, the Anatolian Plate, and the Hellenic Trench are labeled. Arrows indicate relative directions of plate motion. The passage states the southwestern coastal region of Crete was uplifted by ~10 meters, corals were used to verify the age, and earthquakes along the Hellenic Trench fault may occur approximately every 800 years.
     {
@@ -626,6 +714,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 2,
       image: '/images/exams/es-june-2019/q45.png',
+      explanation: 'The correct choice is 2 because point A is located along the boundary between the Anatolian Plate and the Eurasian Plate, which is characterized by the transform motions of the North Anatolian Fault.',
+      diveDeep: 'While the Mediterranean features subduction zones (convergent boundaries like the Hellenic Trench), the boundary at point A represents the North Anatolian Fault, which is a major transform fault where the Anatolian Plate slides laterally past the Eurasian Plate. Students should recognize the parallel-sliding motion of plate boundaries that defines transform faults.',
     },
     {
       number: 46,
@@ -641,6 +731,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 0,
       image: '/images/exams/es-june-2019/q46.png',
+      explanation: 'The correct choice is 0 because plate X represents the Eurasian Plate (lying to the north) and plate Y represents the African Plate (lying to the south of the Mediterranean Sea).',
+      diveDeep: 'Using the Tectonic Plates map in the ESRT, students can identify the major plates surrounding the Mediterranean region. The massive plate north of the Mediterranean is the Eurasian Plate, and the plate to the south is the African Plate. The Hellenic Trench is the convergent boundary where these two plates meet.',
     },
     {
       number: 47,
@@ -656,6 +748,8 @@ export default {
       topic: 'Geologic Time',
       correct: 3,
       image: '/images/exams/es-june-2019/q47.png',
+      explanation: 'The correct choice is 3 because Lichenaria and Pleurodictyum are both index fossils of corals that lived during the Paleozoic Era, making them closely related to the corals dated in the study.',
+      diveDeep: 'The Geologic History of New York State chart in the ESRT shows index fossils and their groups. Lichenaria (letter F) is a fossil coral from the Ordovician, and Pleurodictyum (letter K) is a fossil coral from the Devonian. Students must search the fossil illustrations and group descriptions at the bottom of the ESRT chart to find the corals.',
     },
     {
       number: 48,
@@ -671,6 +765,8 @@ export default {
       topic: 'Plate Tectonics',
       correct: 2,
       image: '/images/exams/es-june-2019/q48.png',
+      explanation: 'The correct choice is 2 because planning evacuation routes to higher ground is the most effective way to protect coastal populations from the inundation of a tsunami.',
+      diveDeep: 'Tsunamis are massive ocean waves generated by submarine earthquakes or landslides. Because they can flood low-lying coastal areas with great force, building basements (which can flood) or boarding windows (which cannot withstand the water force) are ineffective. Moving inland and to high elevations is the standard safety procedure.',
     },
     // Part B-1: Questions 49–50 are based on a photograph showing a sandstone erosional feature that formed near the Grand Canyon, in southwestern United States (source: nationalgeographic.com).
     {
@@ -687,6 +783,8 @@ export default {
       topic: 'Geology',
       correct: 0,
       image: '/images/exams/es-june-2019/q49.png',
+      explanation: 'The correct choice is 0 because wind is the primary agent of erosion in arid climates, transporting sand grains that blast and sculpt exposed sandstone formations into smooth, curved shapes.',
+      diveDeep: 'Sandblasting (abrasion) occurs when wind-blown sand grains collide with rock surfaces. This process is highly effective in deserts and dry areas like the Grand Canyon region due to the lack of vegetation and moisture. Water erosion, by contrast, typically carves valleys or rounds pebbles in stream beds, rather than sculpting wind-worn rock arches.',
     },
     {
       number: 50,
@@ -702,6 +800,8 @@ export default {
       topic: 'Geology',
       correct: 1,
       image: '/images/exams/es-june-2019/q50.png',
+      explanation: 'The correct choice is 1 because sandstone is composed of sand-sized grains, which have a diameter range of 0.006 cm to 0.2 cm according to the ESRT sedimentary rock chart.',
+      diveDeep: 'By checking the Scheme for Sedimentary Rock Identification in the ESRT, locate sandstone in the inorganic land-derived category. Follow the row to the \'Grain Size\' column to read the range: 0.006 to 0.2 cm. Grains smaller than 0.006 cm form siltstone or shale, while grains larger than 0.2 cm form conglomerate or breccia.',
     },
   ],
 }

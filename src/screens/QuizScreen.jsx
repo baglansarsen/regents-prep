@@ -1,11 +1,10 @@
 import { useEffect } from 'react'
 import { useQuiz } from '../hooks/useQuiz'
 import QuestionCard from '../components/QuestionCard'
-import Timer from '../components/Timer'
 import ScoreDisplay from '../components/ScoreDisplay'
 import ProgressBar from '../components/ProgressBar'
 
-export default function QuizScreen({ questionSet, onDone, onHome, bookmarkedIds, onBookmark, noTimer }) {
+export default function QuizScreen({ questionSet, onDone, onHome, bookmarkedIds, onBookmark }) {
   const {
     currentQuestion,
     index,
@@ -13,15 +12,13 @@ export default function QuizScreen({ questionSet, onDone, onHome, bookmarkedIds,
     score,
     streak,
     bestStreak,
-    timeLeft,
-    timerMax,
     selected,
     phase,
     results,
     answer,
     next,
     streakMultiplier,
-  } = useQuiz(questionSet, noTimer)
+  } = useQuiz(questionSet)
 
   useEffect(() => {
     if (phase === 'done') {
@@ -46,7 +43,7 @@ export default function QuizScreen({ questionSet, onDone, onHome, bookmarkedIds,
         topic={currentQuestion.topic}
       />
 
-      {!noTimer && <Timer timeLeft={timeLeft} max={timerMax} />}
+
 
       <QuestionCard
         question={currentQuestion}

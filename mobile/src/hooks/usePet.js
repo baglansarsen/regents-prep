@@ -3,7 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { doc, getDoc, setDoc, getDocs, collection, increment } from 'firebase/firestore'
 import { db } from '../firebase'
 import {
-  stageForXP, PET_MESSAGES, STAGE_NAMES, QUEST_TYPES,
+  stageForRP, PET_MESSAGES, STAGE_NAMES, QUEST_TYPES,
   FOOD_ITEMS, HAPPINESS_ITEMS, HUNGER_ALERTS, HAPPINESS_ALERTS,
 } from '../data/petConfig'
 
@@ -37,14 +37,15 @@ async function schedulePetNotification(title, body) {
 function clamp(v, min, max) { return Math.max(min, Math.min(max, v)) }
 
 const DEFAULT_PET = {
-  petType:      null,
-  name:         null,
-  stage:        1,
-  hunger:       100,
-  happiness:    100,
+  petType:       null,
+  name:          null,
+  stage:         1,
+  hunger:        100,
+  happiness:     100,
   lastCheckedAt: new Date().toISOString(),
-  accessories:  [],
-  chosen:       false,
+  accessories:   [],
+  chosen:        false,
+  bigFiveScores: null,  // { O, C, E, A, N } from personality quiz
 }
 
 export function usePet(uid) {
@@ -257,10 +258,10 @@ export function usePet(uid) {
   }, [])
 
   // ─── checkAndEvolve ───────────────────────────────────────────────────────
-  const checkAndEvolve = useCallback(async (totalXP) => {
+  const checkAndEvolve = useCallback(async (totalRP) => {
     const current = petRef.current
     if (!current.chosen) return
-    const expectedStage = stageForXP(totalXP)
+    const expectedStage = stageForRP(totalRP)
     if (expectedStage <= current.stage) return
 
     const updated = { ...current, stage: expectedStage }
@@ -289,7 +290,17 @@ export function usePet(uid) {
     const pool = PET_MESSAGES[current.petType] ?? []
     if (!pool.length) return null
     const dayIndex = Math.floor(Date.now() / 86_400_000)  // changes daily
-    const msg = pool[dayIndex % pool.length]
+
+    // When daysSince === 0 (user studied today), skip "haven't studied" templates
+    // so the message stays contextually relevant.
+    let msg = pool[dayIndex % pool.length]
+    if (daysSince === 0 && msg.includes('{daysSince}')) {
+      const fallbackIdx = (dayIndex + 1) % pool.length
+      msg = pool[fallbackIdx].includes('{daysSince}')
+        ? pool[(dayIndex + 2) % pool.length]
+        : pool[fallbackIdx]
+    }
+
     return msg
       .replace(/\{name\}/g,      current.name ?? 'friend')
       .replace(/\{streak\}/g,    String(streak))
@@ -355,7 +366,7 @@ export function usePet(uid) {
     })).catch(() => {})
     if (completed && !(valid && stored.completed)) {
       triggerReaction('celebrate')
-      return { completed: true, xp: 125 }
+      return { completed: true, rp: 125 }
     }
     return { completed }
   }, [triggerReaction])
@@ -375,18 +386,34 @@ export function usePet(uid) {
     await savePet(newPet)
   }, [])
 
+  // ─── studyBoost (called during study/quiz sessions) ─────────────────────────
+  // Boosts pet happiness by 8 as a reward for studying. No daily limit —
+  // studying is always good for your buddy!
+  const studyBoost = useCallback(async () => {
+    if (!petRef.current.chosen) return
+    const updated = { ...petRef.current, happiness: clamp(petRef.current.happiness + 8, 0, 100) }
+    await savePet(updated)
+  }, [])
+
+  // ─── saveBigFiveScores (called after personality quiz) ───────────────────
+  const saveBigFiveScores = useCallback(async (scores) => {
+    const updated = { ...petRef.current, bigFiveScores: scores }
+    await savePet(updated)
+  }, [])
+
   // ─── switchBuddy (called from PetShopScreen) ──────────────────────────────
   const switchBuddy = useCallback(async (newPetType) => {
     const currentName = petRef.current.name
     const newPet = {
-      petType:      newPetType,
-      name:         currentName,
-      stage:        1,
-      hunger:       100,
-      happiness:    100,
+      petType:       newPetType,
+      name:          currentName,
+      stage:         1,
+      hunger:        100,
+      happiness:     100,
       lastCheckedAt: new Date().toISOString(),
-      accessories:  [],
-      chosen:       true,
+      accessories:   [],
+      chosen:        true,
+      bigFiveScores: petRef.current.bigFiveScores ?? null,  // preserve Big Five if already set
     }
     await savePet(newPet)
   }, [])
@@ -409,8 +436,10 @@ export function usePet(uid) {
     initializePet,
     switchBuddy,
     petPet,
+    studyBoost,
     dailyDig,
     getTodayQuest,
     updateQuestProgress,
+    saveBigFiveScores,
   }
 }

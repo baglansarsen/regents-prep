@@ -1,0 +1,1116 @@
+{
+  "subject": "living-environment",
+  "session": "august-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The human body maintains a balanced internal environment. In order to accomplish this,",
+      "choices": [
+        "organelles work independently",
+        "all cells have the same shape and function",
+        "insulin is produced when protein levels are low",
+        "stimuli are detected, and actions are taken"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Wolves are important predators in some ecosystems. If wolves are removed from their environment, the ecosystem is in danger of becoming unstable due to",
+      "choices": [
+        "a reduction of autotrophs when the number of herbivores is not being kept in check by the wolves",
+        "a decrease in the number of herbivores because they will not be able to reach carrying capacity",
+        "an increase in the biodiversity of the remaining animal and plant species",
+        "some species of herbivores taking over the niche the wolves occupied"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which statement best explains how deforestation that is the result of forest fires can contribute to global warming?",
+      "choices": [
+        "Burning the trees adds smoke to the atmosphere and blocks sunlight.",
+        "Burning the trees adds carbon dioxide to the atmosphere.",
+        "Deforestation removes trees that produce carbon dioxide through the process of photosynthesis.",
+        "Deforestation immediately increases ecosystem stability needed in the burned area."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "For centuries, humans have built dams along rivers to redirect water for power, irrigation, and transportation. Dams can prevent migrating fish from swimming upstream to reproduce and can also disrupt the flow of sediments and nutrients. Communities are starting to eliminate some dams, and the health of the river ecosystems is being restored. This best illustrates that",
+      "choices": [
+        "technological advances often involve environmental trade-offs",
+        "when humans modify their environment it always has effects that cannot be reversed",
+        "industrialization has had a positive effect on the health of river ecosystems",
+        "the construction of dams affected abiotic factors in the river but not biotic factors"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "In humans, lactose is broken down into glucose and galactose in the presence of a particular enzyme. It is most likely that the enzyme that breaks down lactose",
+      "choices": [
+        "breaks down several other types of food in the stomach",
+        "is involved in other reactions when the temperature and pH are ideal",
+        "helps in the synthesis of complex sugars during autotrophic nutrition",
+        "is not involved in other types of reactions because enzymes are specific"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The Tdap vaccine can protect adolescents and adults from the serious bacterial diseases tetanus, diphtheria, and pertussis. Another vaccine, called Td, protects against tetanus and diphtheria, but not pertussis. Td does not protect against pertussis because the",
+      "choices": [
+        "Tdap vaccine is given to treat pertussis",
+        "Td vaccine does not contain the antibodies from pertussis to fight the bacteria",
+        "Tdap vaccine contains a small amount of the bacteria that causes pertussis",
+        "Td vaccine does not stimulate the immune system of people to recognize pertussis antigens"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Pelagic red crabs living on the ocean floor have been found to eat small bits of plastic. When they are consumed, these small creatures are passing the plastics along the food chain to predators, including fish consumed by humans. This is of concern because it",
+      "choices": [
+        "decreases plastic recycling by primary consumers",
+        "increases the risk of harmful substances in our food supply",
+        "decreases the producers in the ecosystem",
+        "increases the biodiversity of the ocean"
+      ],
+      "image": "/images/exams/living-environment/august-2024/q7.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Duckweed is a small plant that grows on the surface of still bodies of water. Over a nine-week period, scientists monitored the growth of duckweed in three ditches located on the same farm. The number of duckweed plants increased rapidly during weeks one and two. After two weeks, each ditch was completely covered with a layer of duckweed and remained covered for the remaining seven weeks. A valid conclusion based on the data collected over this nine-week study is that",
+      "choices": [
+        "animals that eat duckweed have the greatest effect on duckweed population size",
+        "duckweed populations die off after completing a two-week life cycle in the ditch",
+        "only changes in temperature affect duckweed population size",
+        "the size of the duckweed population is kept stable by limited resources in the ditch"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which statement explains why the organisms in some ecosystems, such as rainforests, deserts, and oceans, are different from each other?",
+      "choices": [
+        "The living organisms in each ecosystem have different needs and produce the physical conditions that they require.",
+        "Each ecosystem contains different types of living organisms that change each of the physical conditions present there.",
+        "They all have the same physical conditions present, but the living organisms use them in different ways.",
+        "Each ecosystem contains different physical conditions that determine the type of living organisms present there."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Some green plants secrete acids that dissolve rock, which makes it possible for the plants to absorb phosphorus needed for healthy plant growth. In addition to phosphorus, plants require many other substances. Which substances are required for the production of carbohydrates in green plants?",
+      "choices": [
+        "oxygen and nitrogen",
+        "carbon and glucose",
+        "carbon dioxide and water",
+        "hydrogen and starch"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which statement about competition in ecosystems is correct?",
+      "choices": [
+        "Organisms compete most when they occupy different niches and resources are plentiful.",
+        "Individuals need not compete, because resources such as water and food are always plentiful in ecosystems.",
+        "Organisms that compete successfully will survive, reproduce, and pass their traits on to their offspring.",
+        "Competition usually results in the extinction of a species,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Human body systems interact with each other. The list below illustrates the results of one body system functioning normally. \u2022 Muscle cells receive oxygen. \u2022 Nerve cells receive glucose. \u2022 Lungs get rid of carbon dioxide. \u2022 Some gland cells send chemical signals to organs. Which body system most directly enables all these functions to occur?",
+      "choices": [
+        "circulatory system",
+        "excretory system",
+        "digestive system",
+        "immune system"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The Himalayan rabbit lives in the cold Tibetan mountains. It typically has white fur on its body and black fur on its outer extremities, such as the ears, nose, feet, and tail. A scientist shaved a patch of white fur off the back of a Himalayan rabbit and applied an ice pack to the area for 30 minutes. The fur in the shaved area grew in black. The best explanation for why black fur grew in the shaved area is that",
+      "choices": [
+        "the food the rabbit ate during the experiment influenced fur color",
+        "the fur in the newly shaved area was younger than the white fur on the rest of the body",
+        "the ice pack caused a mutation in the genes that regulate fur color",
+        "warm and cold temperatures activate different genes for fur color"
+      ],
+      "image": "/images/exams/living-environment/august-2024/q13.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Researchers have identified a mutually beneficial relationship between some plant species and specific fungi. The fungi increase the nutrient uptake for these plants, and the plants provide nutrition to the fungi. In order for this relationship to occur, the plant must produce a particular protein. Scientists hope to enable plants that normally do not interact with these fungi to obtain the benefits that the plant-fungi relationship offers. In order to make this possible, which process would scientists most likely use?",
+      "choices": [
+        "Treat the plants with chemical fertilizers to stimulate their growth.",
+        "Provide the fungi with the same molecular bases that are found in plant protein.",
+        "Identify the gene that codes for the protein and introduce it into plant cells by genetic engineering.",
+        "Selectively breed a new type of fungus that does not require the nutrients that the plants provide."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Milkweeds are plants that produce toxic, bitter- tasting chemicals. Some insects have developed the ability to safely feed on milkweed. They accumulate some of the toxin in their bodies, causing them to taste bitter to other animals that may try to eat them. As a result, most animals avoid eating these insects. A possible explanation for this relationship is that",
+      "choices": [
+        "eating a toxic plant increases the ability of these insects to survive and reproduce",
+        "milkweed populations are controlled by many insects",
+        "the milkweed benefits from the insects that can tolerate the toxin they produce",
+        "eventually the insects will become immune to the toxin"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which type of cell engulfs pathogens and marks them for killing?",
+      "choices": [
+        "red blood cell",
+        "white blood cell",
+        "nerve cell",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which choice below best completes the diagram with a correct label and definition for the box labeled X? X",
+      "choices": [
+        "cell: the basic structural, functional, and biological unit",
+        "organ: a group of tissues with a common function",
+        "tissue: a group of cells with a similar structure and function",
+        "organ system: a collection of organs with a common function"
+      ],
+      "image": "/images/exams/living-environment/august-2024/q17.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Concern is rising that mass extinctions of many species may increase. In the graph below, the risk of extinctions is shown to have risen rapidly from 1850 to 2014. 2 % 1.5 % 1 % Cumulative Vertebrate Species Extinction Reptiles, Fish and Amphibians All Vertebrates Mammals Birds 0.5 % 1500- 1600 Percent of Species Years 1600- 1700 1900- 2014 1800- 1900 1700- 1800 This loss of different species is a concern because it may",
+      "choices": [
+        "lead to an increase in diversity in the ecosystem",
+        "impact the energy flow and food supply within an ecosystem",
+        "produce increased nonrenewable resources",
+        "provide additional sources of potential medicines"
+      ],
+      "image": "/images/exams/living-environment/august-2024/q18.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The American Museum of Natural History has an exhibit called the Ecosystem Sphere. It is a huge glass globe that was assembled in 1999. Populations of algae, bacteria, and little shrimp were sealed with water and air inside. The Ecosystem Sphere is kept in a well-lit area. Although the sphere has never been opened, groups of each kind of organism are still alive inside it. The most likely reason for this is because the populations have",
+      "choices": [
+        "remained in separate areas of the sphere and do not interact",
+        "adapted so that they do not require food",
+        "a constant source of energy because they cannot recycle gases and materials",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Ebola is a deadly viral disease. Victims of Ebola suffer from massive blood loss and organ failure. Researchers are testing a vaccine on people who have not yet been infected by Ebola, but live in high-risk areas. The vaccine must be given to the subjects before exposure to Ebola because",
+      "choices": [
+        "the vaccine will mutate the virus when a person gets infected",
+        "if a subject is infected with Ebola, it will destroy the vaccine",
+        "vaccines stimulate the subject\u2019s immune system to react to future exposure to the virus",
+        "vaccines are only effective for a few days, so the patient must get the vaccine before exposure"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A relatively large number of antibodies in a blood sample would most likely indicate that there is",
+      "choices": [
+        "an infection in the body",
+        "a mutation in the lung",
+        "a deficiency of carbon dioxide in the circulatory system",
+        "an insufficient amount of a specific vitamin in the diet"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Ultraviolet light can alter the DNA segments of genes in the skin cells of an individual. Which statement best describes a direct result of these alterations?",
+      "choices": [
+        "Any cells produced from the altered skin cells will have the same alterations.",
+        "All the offspring of the individual will have the same skin cell alterations.",
+        "These alterations will spread to all the other cells in the body.",
+        "The sex cells of the individual will have the same alterations."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The energy required to assemble proteins and fats is directly supplied to body cells from",
+      "choices": [
+        "all the colors of visible light",
+        "molecules of ATP contained within the cells",
+        "all the DNA found in sex cells",
+        "molecules of carbon dioxide produced by chloroplasts"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "There are over 200 different cell types in the human body. Each type of cell is specialized to carry out a particular function, but they all developed from the same single cell. This is because each type of cell",
+      "choices": [
+        "contains different genes than the other types of cells",
+        "destroys the genes found in the other types of cells",
+        "expresses some genes not expressed in the other cell types",
+        "lacks the genes found in the other cell types"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Coral reefs are vital components of marine ecosystems. They provide shelter and nutrition to many organisms that live on or in them. Some coral reefs in the Pacific Ocean are heavily polluted with plastic objects that provide surfaces where disease-causing microbes are able to grow. Plastics, like this fork, can boost disease risk at coral reefs. If the amount of plastic present on coral reefs continues to increase, it is likely that the",
+      "choices": [
+        "coral will adapt to the presence of the plastic and thrive",
+        "microbes will adapt to living directly on the coral",
+        "algae that live on the reef will begin to decompose the dying coral",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2024/q25.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Enzymes, antibodies, and receptor molecules all have different functions. However, they are alike in that they",
+      "choices": [
+        "all are involved in cellular respiration",
+        "have a shape that is specific to their function",
+        "are classified as carbohydrates",
+        "are important in animals but not plants"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Australian quolls are endangered mammals. One factor causing the death of many quolls is that they occasionally consume cane toads, which are poisonous. Scientists have identified a gene that some quolls possess that makes them avoid eating cane toads. By selectively breeding quolls with the \u201ctoad-avoiding gene\u201d with other quolls who lack the gene, scientists found that all of the hybrid offspring inherited the survival gene. Before the survival gene could be passed on to any offspring, the genetic material present in the parent with the \u201ctoad-avoiding gene\u201d would have to be",
+      "choices": [
+        "mutated to become a different gene",
+        "accurately replicated",
+        "genetically engineered",
+        "changed through recombination"
+      ],
+      "image": "/images/exams/living-environment/august-2024/q27.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Scientists have cloned many animals, such as cows, sheep, and chickens, from a single cell. Which natural process is most similar to these cloning techniques?",
+      "choices": [
+        "asexual reproduction",
+        "genetic recombination",
+        "chromosome mutations",
+        "gamete production"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Within a sexually reproducing species, the correct chromosome number is maintained by",
+      "choices": [
+        "halving the chromosome number in gamete production, followed by fertilization",
+        "doubling the chromosome number in gamete production, followed by fertilization",
+        "halving the chromosome number during mitosis, followed by differentiation",
+        "doubling the chromosome number during mitosis, followed by differentiation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The ability of sea otters to find food can be reduced because the environment where they search for food is often dark and murky. It has been recently discovered that the surface of otters\u2019 paws are able to quickly detect a difference of one-quarter of a millimeter when comparing the size of objects, including food sources. The special characteristics of the otters\u2019 paws can be described as",
+      "choices": [
+        "a variation that eliminates the need for other senses otters normally possess",
+        "a variation that is unlikely to be passed on to offspring because it is not a genetic trait",
+        "an adaptation that could provide an advantage over the other organisms that they compete with for food",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2024/q30.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Catalase is an enzyme produced by organisms that breaks down hydrogen peroxide, releasing oxygen and water. The relative enzyme activity, when tested at different temperatures, is shown in the graph below. Temperature (\u00b0C) Relative Catalase Activity 0 10 20 30 40 50 45 40 35 30 25 20 15 10 5 0 The Effect of Temperature on Catalase Activity Which statement below best explains the decrease in activity of catalase after 35\u00baC shown in the graph?",
+      "choices": [
+        "The structure of the enzyme changes, which slows down the reaction.",
+        "There is no hydrogen peroxide left for the activity to continue, so it stops.",
+        "The raw materials permanently bind to the catalase, preventing the reaction.",
+        "The reaction is no longer needed for survival of the individual."
+      ],
+      "image": "/images/exams/living-environment/august-2024/q31.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Using a microscope, a student observed four different types of cells. For each structure he observed, he placed an X in the chart below to indicate the cells where the structure was observed. Structure Cell A Cell B Cell C Cell D cell membrane X X X X cell wall X X X chloroplasts X X DNA X X X X nucleus X X X Which of the cells he viewed were most likely from heterotrophs?",
+      "choices": [
+        "A and C",
+        "B and D",
+        "C and B",
+        "D and C"
+      ],
+      "image": "/images/exams/living-environment/august-2024/q32.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Coleus is a type of plant that has many variations in its leaves. Many coleus plants have chloroplast-rich areas on the edge of the leaf. Other areas in the middle lack chloroplasts. A student exposed the coleus leaf to sunlight. Later, starch indicator was added to the entire leaf. The diagram below shows the result of the experiment. Starch indicator added Chloroplast-rich (green) Blue-black Which statement is a valid claim, supported by evidence from this experiment?",
+      "choices": [
+        "Chloroplasts are necessary for the production of starch indicator.",
+        "Starch indicator causes leaves to produce oxygen.",
+        "Chloroplasts are necessary for the production of starch.",
+        "Water is necessary for the production of starch."
+      ],
+      "image": "/images/exams/living-environment/august-2024/q33.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Breathing vapors produced by e-cigarettes has caused respiratory problems, including coughing, shortness of breath, difficulty breathing, and even some deaths. Medical experts are warning the public and discouraging the use of these devices. The medical issues associated with vaping are an example of",
+      "choices": [
+        "organ malfunctions caused by personal behaviors",
+        "feedback response maintaining homeostasis",
+        "inherited disorders resulting from inhaling vapors",
+        "the effects of infectious parasites carried by the vapors"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The chart below lists some organisms found in a New York ecosystem and their sources of energy. Organism Source of Energy grasses sunlight leopard frog insects, algae carp plants, insect larvae heron carp, frogs, salamanders turtle fish, plants, tadpoles, insects When constructing an energy pyramid of this ecosystem, which of these organisms would be placed at the top of the pyramid?",
+      "choices": [
+        "grasses",
+        "carp",
+        "heron",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2024/q35.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Based on the information given, what is the most likely impact of the delayed planting on the production of corn?",
+      "choices": [
+        "Corn yield will remain at 100% because higher temperatures in June will make plants grow faster.",
+        "The corn yield may be reduced by about 20% because of the delay in planting.",
+        "Corn yield may be reduced by about 80% because of the delayed planting.",
+        "Crops planted on June 1 will have the same yield as those planted on April 1."
+      ],
+      "image": "/images/exams/living-environment/august-2024/context_36_36.png",
+      "context": "Base your answer to question 36 on the information and graph below and on your knowledge of biology.\nAn unusually cool and wet spring prevented certain farmers from planting corn at the \nusual time. They normally planted their crop on May 1, but the altered weather patterns \ndelayed planting until June 1.\nCorn Yield as Affected by Planting Date\nPlanting Date\n5-Apr\n50\n60\n70\n80\n90\n100\n110\n15-Apr\n25-Apr\n5-May\n15-May 25-May\n4-Jun\n14-Jun\n% of Max Yield",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "An ecologist is studying the biodiversity of beetle species in four different habitats. She counted the number of individuals of each species she observed in each habitat. The results are shown in the data table below. Beetle Biodiversity Number of Individuals Beetle Species Habitat W Habitat X Habitat Y Habitat Z A 0 2 0 40 B 0 6 0 0 C 32 10 120 40 D 54 22 0 0 E 0 8 0 40 Which of these habitats displays the most biodiversity of beetle species?",
+      "choices": [
+        "Habitat W",
+        "Habitat X",
+        "Habitat Y",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2024/q37.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Hummingbirds, with their long beaks and tongues, are attracted to long, tubular flowers with a lot of nectar. When a hummingbird consumes the nectar from a flower, pollen sticks to the hummingbird and is transferred when the hummingbird feeds from other flowers. This relationship between the flowers and hummingbirds is a result of",
+      "choices": [
+        "changes in hummingbirds and flowers in response to their needs",
+        "inheritance of characteristics acquired during their lifetime",
+        "natural selection of beneficial variations",
+        "the environment modifying gene expression"
+      ],
+      "image": "/images/exams/living-environment/august-2024/q38.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The kittens in the photograph below were all born in the same litter. One possible reason that they all have different fur colors and patterns is that",
+      "choices": [
+        "different kittens inherited more chromosomes from one parent than the other",
+        "there was a random resorting of genes during gamete formation in each parent",
+        "because there were so many, they did not receive the same amount of nutrients from the mother",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2024/q39.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Based on this experiment, one result of the future warming of the Antarctic Ocean could be",
+      "choices": [
+        "an increase in the stability of the Antarctic ecosystem",
+        "the disruption of existing Antarctic marine food webs",
+        "marine organisms evolving more rapidly in order to compete for resources",
+        "the need to import predators to eat the tiny invertebrates"
+      ],
+      "image": "/images/exams/living-environment/august-2024/context_40_42.png",
+      "context": "Base your answers to questions 40 through 42 on the information below and on your knowledge of biology.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "A possible explanation for the differences observed on the panels is that",
+      "choices": [
+        "the growth of organisms is dependent on the abiotic factors present in the environment",
+        "on the warmer panels, organisms reached carrying capacity more rapidly and completely died out",
+        "on the control panels, wastes built up, poisoning some of the organisms growing there",
+        "on the warmer panels, there were fewer decomposers present to recycle available energy"
+      ],
+      "image": "/images/exams/living-environment/august-2024/context_40_42.png",
+      "context": "Base your answers to questions 40 through 42 on the information below and on your knowledge of biology.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "These test panels provided scientists with information about",
+      "choices": [
+        "how ecological niches influence the rate of mutation",
+        "the effect of environmental change on the biodiversity of the Antarctic Ocean",
+        "the variety of producer/consumer relationships in the Antarctic Ocean",
+        "how the stability of an ecosystem is affected by competition and disease A study was done to determine the effect of a temperature increase on an ocean ecosystem. Panels equipped with heating elements were placed on the ocean floor 50 feet below the surface in the Antarctic Ocean. Some of the panels were heated so that they were 1\u00baC warmer than the water surrounding them. Others were heated to be 2\u00baC warmer, and some were not heated. Over a period of nine months, the researchers returned to the site and documented the changes in marine life they observed. They noted that 1\u00baC of warming resulted in a substantial change in marine life. One species of invertebrate grew rapidly and became the dominant species. It replaced multiple other species typically present in the area. The results were less consistent on the panels that were 2\u00baC warmer than the water surrounding them. The photographs on the right show the results observed on the three sets of panels. +2\u00b0C +1\u00b0"
+      ],
+      "image": "/images/exams/living-environment/august-2024/context_40_42.png",
+      "context": "Base your answers to questions 40 through 42 on the information below and on your knowledge of biology.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The kakapo is a small, flightless parrot. Currently there is a small population of kakapos living on four islands off the coast of New Zealand. Scientists are concerned that the kakapo may become extinct due to the introduction of predators and recent infections that have drastically reduced the already small population. During their conservation attempts, scientists made an interesting observation: When food is plentiful, more male offspring survive. Scientists provided the illustration below to explain this observation. Results When Food is Scarce If a mother kakapo has a daughter... If a mother kakapo has a son... ...that daughter will likely grow up to produce some offspring of her own. ...that son may be healthy, strong, and able to mate with many females to produce many offspring. If a mother kakapo has a daughter... If a mother kakapo has a son... ...that daughter will likely grow up to produce some offspring of her own. ...due to the scarcity of resources, that son will likely be weak, small and unable to compete for a mate. Results When Food is Plentiful If scientists were going to test this hypothesis, the best way would be to select a test group and develop a research plan that includes collecting data when",
+      "choices": [
+        "all of the kakapos are fed a reduced amount of food",
+        "all of the kakapos are fed an unlimited amount of food",
+        "the kakapo test group is divided in half, and one-half is fed unlimited food and the other a reduced amount of food",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2024/q43.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on the axis labeled \u201cMosquitoes Feeding.\u201d",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nWest Nile virus can cause a disease that attacks the nervous system. The virus is \ntransmitted to humans when they are bitten by an infected mosquito. Researchers studying \nWest Nile virus collected data on how a mosquito\u2019s level of dehydration during a drought \naffects the mosquito\u2019s biting behavior.\nMosquito Feeding Depending\non Dehydration Level\nMosquito\nDehydration Level\n(% Water Loss)\nMosquitoes\nFeeding\n(Average %)\n0\n6\n5\n8\n10\n12\n15\n18\n20\n31\n25\n27\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment\u2013 Aug. \u201924\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for marking an appropriate scale on the axis labeled \u201cMosquitoes Feeding, (Average %).\u201d Note: Do not allow credit if the grid is altered to accommodate the scale."
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data for the mosquitoes feeding on the grid. Connect the points and surround each point with a small circle. Example: 0 5 10 15 Mosquito Dehydration Level (% Water Loss) Mosquitoes Feeding (Average %) 20 25 Mosquito Feeding Depending on Dehydration Level",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nWest Nile virus can cause a disease that attacks the nervous system. The virus is \ntransmitted to humans when they are bitten by an infected mosquito. Researchers studying \nWest Nile virus collected data on how a mosquito\u2019s level of dehydration during a drought \naffects the mosquito\u2019s biting behavior.\nMosquito Feeding Depending\non Dehydration Level\nMosquito\nDehydration Level\n(% Water Loss)\nMosquitoes\nFeeding\n(Average %)\n0\n6\n5\n8\n10\n12\n15\n18\n20\n31\n25\n27\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment\u2013 Aug. \u201924\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly plotting the data, connecting the points, and surrounding each point with a small circle. Example of a 2-credit graph for questions 44-45: 0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 5 10 15 Mosquito Dehydration Level (% Water Loss) Mosquito Feeding Depending on Dehydration Level Mosquitoes Feeding (Average %) 20 25 Note: Allow credit if the points are plotted correctly, but not circled. Do not assume that the intersection of the x- and y-axes is the origin (0,0) unless it is labeled. An appropriate scale only needs to include the data range in the data table. Do not allow credit if points are plotted that are not in the data table, e.g., (0,0), or for extending lines beyond the data points. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Prior to this investigation, researchers studying West Nile virus transmission claimed that wetter conditions lead to more mosquito-borne illness. Does the data provided support this claim?",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nWest Nile virus can cause a disease that attacks the nervous system. The virus is \ntransmitted to humans when they are bitten by an infected mosquito. Researchers studying \nWest Nile virus collected data on how a mosquito\u2019s level of dehydration during a drought \naffects the mosquito\u2019s biting behavior.\nMosquito Feeding Depending\non Dehydration Level\nMosquito\nDehydration Level\n(% Water Loss)\nMosquitoes\nFeeding\n(Average %)\n0\n6\n5\n8\n10\n12\n15\n18\n20\n31\n25\n27\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment\u2013 Aug. \u201924\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating that the claim is not supported and supporting the answer with specific data. Acceptable responses include, but are not limited to: \u2014 The claim is not supported because as mosquitoes went from 0 to 20 percent water loss, there was an increase in feeding. This could result in passing on the virus. \u2014 The claim is not supported because as dehydration increased, feeding increased, increasing disease transmission. \u2014 The claim is not supported because as the weather got drier, the mosquitos bit more. 47 3"
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The effect of this feeding relationship between the mosquito and the human can best be described as Row Mosquito Human",
+      "choices": [
+        "negative positive",
+        "positive positive",
+        "positive negative",
+        "negative negative"
+      ],
+      "image": "/images/exams/living-environment/august-2024/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nWest Nile virus can cause a disease that attacks the nervous system. The virus is \ntransmitted to humans when they are bitten by an infected mosquito. Researchers studying \nWest Nile virus collected data on how a mosquito\u2019s level of dehydration during a drought \naffects the mosquito\u2019s biting behavior.\nMosquito Feeding Depending\non Dehydration Level\nMosquito\nDehydration Level\n(% Water Loss)\nMosquitoes\nFeeding\n(Average %)\n0\n6\n5\n8\n10\n12\n15\n18\n20\n31\n25\n27\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment\u2013 Aug. \u201924\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information given in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Does the production of many \u201cbigger and sweeter\u201d apples require the selective breeding of two different apple varieties each time? Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the information below and on your knowledge of biology.\nThe models below illustrate two methods that can be used to modify the characteristics \nof plants.\nRegular fruit\nGenetic Modification\nSelective Breeding\nGenetic \nmodification\nSweeter fruit\nBigger, \nsweeter\nfruit\nBigger fruit\nRemove \nDNA \nfragment\nInsect-\nresistant \nfruit\nBacteria \nwith insect- \nresistant\ngene\nSelective \nbreeding",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating no and supporting the answer. Acceptable responses include, but are not limited to: \u2014 No. Once trees that produce the bigger and sweeter apples are produced, they can be crossed with each other and most offspring would produce these newer apples. \u2014 No. Genetic engineering could be used to produce many trees with the desired trait. \u2014 No. The trees could be grown asexually. 49 2 50 3"
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "In both methods of reproduction, scientists are trying to produce desired traits by manipulating the",
+      "choices": [
+        "growth proteins",
+        "variation in genes inherited",
+        "number of genes inherited",
+        ""
+      ],
+      "image": "/images/exams/living-environment/august-2024/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the information below and on your knowledge of biology.\nThe models below illustrate two methods that can be used to modify the characteristics \nof plants.\nRegular fruit\nGenetic Modification\nSelective Breeding\nGenetic \nmodification\nSweeter fruit\nBigger, \nsweeter\nfruit\nBigger fruit\nRemove \nDNA \nfragment\nInsect-\nresistant \nfruit\nBacteria \nwith insect- \nresistant\ngene\nSelective \nbreeding",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The primary reason the occurence of periodic fires helps to maintain the Pine Bush ecosystem is because the fires",
+      "choices": [
+        "allow other types of plants and animals to move into the Pine Bush ecosystem",
+        "discourage developers from building houses or bringing industry to the Pine Bush",
+        "maintain the diversity of plants that are well adapted to the Pine Bush ecosystem",
+        "kill most of the plants and animals adapted to live in the Pine Bush"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 50 and 51 on the information below and on your knowledge of biology.\nThe Albany Pine Bush\nThe Pine Bush is an inland pine barrens ecosystem in the Albany-Schenectady area of \nNew York State. This ecosystem normally consists of pitch pine trees, a tall shrub layer with \nscrub oak trees, and a low shrub layer with blueberries, blackberries, grasses, and other \nlow-growing plants.\nToday it is protected as a preserve because it is one of the largest examples of the\n20 inland pine barrens ecosystems remaining in the world. A number of rare or endangered \nspecies of animals live there.\nOnly about 42% of the Pine Bush is still a true pine bush ecosystem, while the rest are \nareas which have had other species, such as cherry and maple trees, and various shrubs, \nslowly move in over the years. The area has been maintained as a pine bush ecosystem as a \nresult of periodic fires that kill off outside species.\n\t\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Explain what the ecosystem present in this area would most likely look like in 100 or more years if it was decided to prevent all fires in the Albany Pine Bush.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/q51.png",
+      "context": "Base your answers to questions 50 and 51 on the information below and on your knowledge of biology.\nThe Albany Pine Bush\nThe Pine Bush is an inland pine barrens ecosystem in the Albany-Schenectady area of \nNew York State. This ecosystem normally consists of pitch pine trees, a tall shrub layer with \nscrub oak trees, and a low shrub layer with blueberries, blackberries, grasses, and other \nlow-growing plants.\nToday it is protected as a preserve because it is one of the largest examples of the\n20 inland pine barrens ecosystems remaining in the world. A number of rare or endangered \nspecies of animals live there.\nOnly about 42% of the Pine Bush is still a true pine bush ecosystem, while the rest are \nareas which have had other species, such as cherry and maple trees, and various shrubs, \nslowly move in over the years. The area has been maintained as a pine bush ecosystem as a \nresult of periodic fires that kill off outside species.\n\t\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 It would probably be a forest of maple or other trees and no longer a pine bush ecosystem. \u2014 It would have undergone succession, and without fires would probably be all forest. \u2014 It would have changed into a different type of ecosystem through ecological succession."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Based on the data in the table, identify the species that would most likely have the greatest chance of surviving if their environment changed slowly over the course of 10,000 years.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_52_52.png",
+      "context": "Base your answer to question 52 on the information and data table below and on your knowledge of biology.\nGeneration\nTime (years)\n1.7\n2.2\n3.3\n3.7\n5.1\n6.5\n9.0\n11.8\n12.3\nGenerations in \n6,000 years\n3,587\n2,765\n1,829\n1,614\n1,170\n923\n670\n507\n488\n*Generation time - Average span of years between birth of parents and the birth of offspring\nWolf\nBison\nLion\nPolar \nBear\nBaboon\nFin\nWhale Elephant\nRaccoon\nWalrus",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for raccoon."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "53",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Mitotic cell division produces new cells that will form the embryo. \u2014 An embryo cannot grow unless it adds new cells. These new cells are formed by the process of mitosis. \u2014 Mitosis copies the genetic information from the zygote, providing all the resulting cells with the information they need to develop. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Explain why early scientists might classify Eusthenopteron as a species of fish that is not closely related to Tiktaalik. Use information from the chart to support your answer. Using CT imaging, scientists discovered that Tiktaalik had fin bones similar to those in tetrapod limbs. It also had lungs.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nHow Fish Fins Evolved Just Before the Transition to Land\nScientists from the University of Chicago used CT scanners to examine the fins of \nfossilized fish still inside of rock. CT imaging allowed them to construct digital 3D models of \nthe 375 million-year-old fishapod, Tiktaalik. A fishapod is a member of one of several extinct \nspecies having features of both tetrapods, which are four-legged animals, and fish.\nScientists could then use these models to infer how the fins worked and changed over \ntime. One researcher involved in the study wrote, \u201cAnimals went from swimming freely and \nusing their fins to control the flow of water around them, to becoming adapted to pushing off \nagainst the surface at the bottom of the water.\u201d\nBy comparing living fish to fishapods such as Tiktaalik, they could detect patterns in the \nchanges that had occurred. Examine the chart below that lists some characteristics used to \ndistinguish fish from tetrapods.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for explaining why scientists might classify Eusthenopteron as a species of fish that is not closely related to Tiktaalik and supporting the answer. Acceptable responses include, but are not limited to: \u2014 It appears to have fins and no appendages. \u2014 It appears to have scales. \u2014 Eusthenopteron does not have a flat head with eyes on top."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify what additional evidence, other than fin bones and lungs, scientists could use to determine if Eusthenopteron is related to Tiktaalik. Comparison of Fish and Early Tetrapod Traits Fish Early Tetrapods gills lungs fins four limbs (such as arms and legs) scales no scales no neck neck eyes on side of head flat head with eyes on top Tiktaalik Eusthenopteron The illustrations below represent what scientists think Tiktaalik and a related genus, Eusthenopteron,",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nHow Fish Fins Evolved Just Before the Transition to Land\nScientists from the University of Chicago used CT scanners to examine the fins of \nfossilized fish still inside of rock. CT imaging allowed them to construct digital 3D models of \nthe 375 million-year-old fishapod, Tiktaalik. A fishapod is a member of one of several extinct \nspecies having features of both tetrapods, which are four-legged animals, and fish.\nScientists could then use these models to infer how the fins worked and changed over \ntime. One researcher involved in the study wrote, \u201cAnimals went from swimming freely and \nusing their fins to control the flow of water around them, to becoming adapted to pushing off \nagainst the surface at the bottom of the water.\u201d\nBy comparing living fish to fishapods such as Tiktaalik, they could detect patterns in the \nchanges that had occurred. Examine the chart below that lists some characteristics used to \ndistinguish fish from tetrapods.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying additional evidence. Acceptable responses include, but are not limited to: \u2014 Scientists could use DNA/protein evidence if available. \u2014 They could use other structural similarities revealed by the CT images. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Use data from one or both graphs to describe the effect of the stocking rate of sheep on seedlings of these wilding pines.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_56_57.png",
+      "context": "Base your answers to questions 56 and 57 on the information below, on the next page, and on your knowledge \nof biology.\nWilding Pines\nBefore humans arrived in New Zealand, forests covered over 80% of the land. When \nthe M\u00e3ori people arrived around 1250 A.D., they burned off large numbers of trees to clear \nareas of land for other uses. European traders later logged large areas for exporting the \ntimber, and by the time European settlements began to appear, forests covered only 50% of \nthe country. The cutting of native forests continued for many years, and by 2005 only about \n25% was covered by native forests.\nToday, the cutting of native forest has nearly stopped, and the timber industry now uses \nseveral imported species of pine and other conifers from North America. These non-native \n\u201cwilding pines\u201d have provided the lumber industry with trees to grow for export to sustain \nthis important industry. \nSome of the wilding pines were also planted in other areas to help solve erosion problems \non hilly slopes. However, because each tree can produce as many as 15,000 small light seeds, \nthese introduced-trees soon spread into many new areas. They competed successfully with \nmany native plants for light and water, often crowding native plants out completely. Their \nuncontrolled spread continues, and it is predicted they will cover about 20% of the entire \ncountry in about 20 years. The photo below shows the pines invading both lowland and \nhigher elevation areas.\nPart C\nAnswer all questions in this part.     [17]\nDirections (56\u201372): Record your answers in the spaces provided in this examination booklet.\n\nLiving Environment\u2013 Aug. \u201924\t\n[20]\nMany efforts to control the spreading wilding pines have been tried with varying degrees \nof success. These include the use of poisonous herbicides, cutting individual scattered trees \nor large areas of the trees.\nRecently, a study was conducted to determine if grazing animals could be used to destroy \nwilding pine seedlings. Sheep, a common farm animal in New Zealand, were placed in several \nenclosures containing newly planted wilding pine seedlings. The numbers of sheep in each \nenclosure varied from normal herd size (1x), up to eight times (8x) that number of sheep. \nThis was the \u201cstocking rate\u201d for each enclosure. Conditions such as number of seedlings \nand enclosure size were proportionally adjusted to prevent overcrowding. The results of the \nstudy are summarized in the graphs below.\n1x\n0\n0\n20\n20\n40\n60\n80\n100\nCentral tendency\nKey\nCredibility interval\n40\n60\n80\n100\n2x\n4x\nStocking Rate\nEffects of Sheep-Stocking Rate on Wilding Pine Seedling Height and Survival\nRelative Reduction in \nHeight (%)\nProbability of Survival (%)\nStocking Rate\n8x\n1x\n2x\n3x\n4x\n5x\n6x\n7x\n8x",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 As the stocking rate is increased, the height of the seedlings decreases. \u2014 As the sheep stocking rate goes up, the reduction in seedling height increases. \u2014 As the stocking rate is increased, the probability of survival/seedling survival rate decreases. \u2014 With 7x or 8x stocking rate of the sheep, the probability of seedling survival is nearly 0%."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "57",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_56_57.png",
+      "context": "Base your answers to questions 56 and 57 on the information below, on the next page, and on your knowledge \nof biology.\nWilding Pines\nBefore humans arrived in New Zealand, forests covered over 80% of the land. When \nthe M\u00e3ori people arrived around 1250 A.D., they burned off large numbers of trees to clear \nareas of land for other uses. European traders later logged large areas for exporting the \ntimber, and by the time European settlements began to appear, forests covered only 50% of \nthe country. The cutting of native forests continued for many years, and by 2005 only about \n25% was covered by native forests.\nToday, the cutting of native forest has nearly stopped, and the timber industry now uses \nseveral imported species of pine and other conifers from North America. These non-native \n\u201cwilding pines\u201d have provided the lumber industry with trees to grow for export to sustain \nthis important industry. \nSome of the wilding pines were also planted in other areas to help solve erosion problems \non hilly slopes. However, because each tree can produce as many as 15,000 small light seeds, \nthese introduced-trees soon spread into many new areas. They competed successfully with \nmany native plants for light and water, often crowding native plants out completely. Their \nuncontrolled spread continues, and it is predicted they will cover about 20% of the entire \ncountry in about 20 years. The photo below shows the pines invading both lowland and \nhigher elevation areas.\nPart C\nAnswer all questions in this part.     [17]\nDirections (56\u201372): Record your answers in the spaces provided in this examination booklet.\n\nLiving Environment\u2013 Aug. \u201924\t\n[20]\nMany efforts to control the spreading wilding pines have been tried with varying degrees \nof success. These include the use of poisonous herbicides, cutting individual scattered trees \nor large areas of the trees.\nRecently, a study was conducted to determine if grazing animals could be used to destroy \nwilding pine seedlings. Sheep, a common farm animal in New Zealand, were placed in several \nenclosures containing newly planted wilding pine seedlings. The numbers of sheep in each \nenclosure varied from normal herd size (1x), up to eight times (8x) that number of sheep. \nThis was the \u201cstocking rate\u201d for each enclosure. Conditions such as number of seedlings \nand enclosure size were proportionally adjusted to prevent overcrowding. The results of the \nstudy are summarized in the graphs below.\n1x\n0\n0\n20\n20\n40\n60\n80\n100\nCentral tendency\nKey\nCredibility interval\n40\n60\n80\n100\n2x\n4x\nStocking Rate\nEffects of Sheep-Stocking Rate on Wilding Pine Seedling Height and Survival\nRelative Reduction in \nHeight (%)\nProbability of Survival (%)\nStocking Rate\n8x\n1x\n2x\n3x\n4x\n5x\n6x\n7x\n8x",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The trees helped sustain the lumber industry but became invasive in some areas, crowding out native species. \u2014 The trees helped control erosion in hilly areas, but became a problem for native species as they spread out of control in other areas. \u2014 The trees helped replace the native tree species, which helped the lumber industry, but they became invasive in other areas and had negative effects on other native plants and animals."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Using information from the graphs, state a likely reason why the population of trout and whitefish disappeared around 1960.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_58_58.png",
+      "context": "Base your answer to question 58 on the information below and on your knowledge of biology. The graphs \nbelow show changes in some biotic and abiotic factors in a lake in New York State.\nChanges in a New York State Lake\nDissolved\noxygen\nSewage\nwaste\nAmount\nPopulation\nWhitefish\nTrout Walleye\nCarp\nYear\n1950\n1960 1965 1970\n1955\nYear\n1950\n1960 1965 1970\n1955",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Trout and whitefish are not adapted to living in water with a low dissolved oxygen content. \u2014 Whitefish and trout cannot survive in water that has a high level of sewage waste. \u2014 The trout and whitefish disappeared because they were outcompeted by the carp population."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Other than avoiding drugs or toxic substances, identify one action a pregnant woman can take, and explain how that action would have a positive effect on the development of her fetus.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 59 on the information below and on your knowledge of biology.\nAfter fertilization, the development of a human embryo involves many interacting factors. \nAs a result, an embryo gradually develops a variety of multicellular structures.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying one action a pregnant woman can take and explaining how that action would have a positive effect on the fetus. Acceptable responses include, but are not limited to: \u2014 A proper diet for the mother will provide the necessary nutrients for the developing embryo/fetus. \u2014 Regular visits to a doctor can identify any problems early and prevent them from getting worse. \u2014 Taking certain vitamins can help to keep the embryo/fetus healthy."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "60",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 60 on the information below and on your knowledge of biology.\nSome research indicates that there is a 75% increase in the risk for developing skin \ncancer if an individual starts using tanning devices such as tanning beds before the age of 30. \nSince these devices use UV radiation, a federal government agency has issued a proposal to \nreclassify UV radiation emitting tanning devices into a category that has stricter regulations.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 UV radiation can cause mutations in cells, which can lead to uncontrolled cell division. \u2014 Radiation can damage the genetic information in a cell, causing it to become a cancer cell. \u2014 UV radiation can alter DNA in skin cells. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Based on information from the reading, describe one advantage the mole rats have by living in underground tunnels.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the information and photograph below and on your \nknowledge of biology. The photograph shows a naked mole rat.\nNaked Mole Rats\nThe unique traits of naked mole rats have made it a focus of research. Found in the hot, \ndry grasslands of East Africa, they live in underground tunnel systems in social colonies of \n20 to 300. They are well-adapted for life underground with protruding teeth for digging, small \neyes, and the ability to survive without oxygen for up to 18 minutes. They feed primarily on \nvery large tubers (underground plant stems) and rely on bacteria in their intestine to break \ndown the indigestible plant fibers.\nAlthough most small rodents live only a few years, naked mole rats can live up to 30 \nyears. Unlike most mammals that maintain a constant body temperature despite external \nconditions, mole rats cannot regulate their body temperature. \nResearchers have found that they are resistant to the pain caused by venom injected by \naggressive ants that share their burrow systems. Analysis has shown that naked mole rats \nhave variations in the membranes of nerve cells that block the pain signals from the venom.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The temperature is more consistent than the outside environment. \u2014 They eat underground stems (tubers) that grow in or near their tunnels."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Describe how the relationship between the mole rat and intestinal bacteria is positive for both.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the information and photograph below and on your \nknowledge of biology. The photograph shows a naked mole rat.\nNaked Mole Rats\nThe unique traits of naked mole rats have made it a focus of research. Found in the hot, \ndry grasslands of East Africa, they live in underground tunnel systems in social colonies of \n20 to 300. They are well-adapted for life underground with protruding teeth for digging, small \neyes, and the ability to survive without oxygen for up to 18 minutes. They feed primarily on \nvery large tubers (underground plant stems) and rely on bacteria in their intestine to break \ndown the indigestible plant fibers.\nAlthough most small rodents live only a few years, naked mole rats can live up to 30 \nyears. Unlike most mammals that maintain a constant body temperature despite external \nconditions, mole rats cannot regulate their body temperature. \nResearchers have found that they are resistant to the pain caused by venom injected by \naggressive ants that share their burrow systems. Analysis has shown that naked mole rats \nhave variations in the membranes of nerve cells that block the pain signals from the venom.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The bacteria digest the plant fibers so the nutrients can be used by both. \u2014 Both mole rats and bacteria absorb the nutrients after the bacteria digest the fibers. \u2014 Mole rats eat tubers, the bacteria digest the tubers, and both the mole rat and the bacteria get nutrients."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "63",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the information and photograph below and on your \nknowledge of biology. The photograph shows a naked mole rat.\nNaked Mole Rats\nThe unique traits of naked mole rats have made it a focus of research. Found in the hot, \ndry grasslands of East Africa, they live in underground tunnel systems in social colonies of \n20 to 300. They are well-adapted for life underground with protruding teeth for digging, small \neyes, and the ability to survive without oxygen for up to 18 minutes. They feed primarily on \nvery large tubers (underground plant stems) and rely on bacteria in their intestine to break \ndown the indigestible plant fibers.\nAlthough most small rodents live only a few years, naked mole rats can live up to 30 \nyears. Unlike most mammals that maintain a constant body temperature despite external \nconditions, mole rats cannot regulate their body temperature. \nResearchers have found that they are resistant to the pain caused by venom injected by \naggressive ants that share their burrow systems. Analysis has shown that naked mole rats \nhave variations in the membranes of nerve cells that block the pain signals from the venom.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Without repairing damaged DNA, there could be a greater risk of earlier death. \u2014 DNA repair genes produce enzymes that repair mutations in naked mole rats that might cause cancer and death in mice. \u2014 Repairing the DNA will result in cells producing proteins that are needed to keep the mole rats healthy. \u2014 Damaged DNA can lead to a disruption of homeostasis."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Explain how drinking a starch solution several times a day can help maintain homeostasis for a person with glycogen storage disease.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the information and diagram below and on your knowledge of \nbiology. \nGlycogen Storage Disease\nAn increase in the glucose level in the blood causes a release of insulin. Insulin signals \nthe liver to absorb excess glucose. In order to store it, the liver then synthesizes glycogen \nfrom glucose. When blood sugar is low, the liver breaks the large glycogen molecules back \ndown into glucose and releases it back into the bloodstream for use by the cells. The diagram \nbelow illustrates how a person normally metabolizes glucose.\nGlucose in \nsmall intestine\nBloodstream\nGlucose\nGlycogen\nLiver\nPeople with glycogen storage disease (GSD) cannot break the glycogen down, so they \ncan\u2019t access their stored glucose. It is essentially \u201clocked\u201d in the liver. Symptoms of this \ndisease include low blood sugar, poor growth, and weakness. Currently, one of the treatments \nfor children with GSD is to drink a starch solution several times a day.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The starch can be broken down into glucose for use by the body since someone with GSD can\u2019t access their stored glucose. \u2014 When someone with GSD has low blood sugar, the starch can be digested into glucose to maintain homeostasis."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "65",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the information and diagram below and on your knowledge of \nbiology. \nGlycogen Storage Disease\nAn increase in the glucose level in the blood causes a release of insulin. Insulin signals \nthe liver to absorb excess glucose. In order to store it, the liver then synthesizes glycogen \nfrom glucose. When blood sugar is low, the liver breaks the large glycogen molecules back \ndown into glucose and releases it back into the bloodstream for use by the cells. The diagram \nbelow illustrates how a person normally metabolizes glucose.\nGlucose in \nsmall intestine\nBloodstream\nGlucose\nGlycogen\nLiver\nPeople with glycogen storage disease (GSD) cannot break the glycogen down, so they \ncan\u2019t access their stored glucose. It is essentially \u201clocked\u201d in the liver. Symptoms of this \ndisease include low blood sugar, poor growth, and weakness. Currently, one of the treatments \nfor children with GSD is to drink a starch solution several times a day.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Glucose is a simple sugar that is small enough to be absorbed, but glycogen is a large molecule made of many glucose molecules and can\u2019t be absorbed until broken down. \u2014 Glycogen is too large to be absorbed. \u2014 Glucose is smaller than glycogen."
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Describe two different factors that limited the size of the wildebeest population, one before and one after the rinderpest vaccination program.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of biology.\nWildebeest\nLocated in southern Africa, wildebeest are the largest members of the antelope family, \nweighing from 260-595 pounds. In some parts of southern Africa, their population is \ndecreasing. Their natural predators include lions, hyenas, cheetahs, and African wild dogs. \nHumans are disrupting the wildebeest habitat by putting up fences. However, in Serengeti \nNational Park, where the population has been studied and monitored since the 1960s, the \nherd has experienced a rapid increase. A successful vaccination program had been developed \nto protect cattle that had passed the deadly disease called rinderpest to wildebeest. This \nvaccine is one of the contributing factors for this population increase.\nThe trend in the graph below indicates that the carrying capacity for wildebeest was \nreached around 1975.\n1963\n100,000\n300,000\n500,000\n700,000\n900,000\n1,100,000\n1,300,000\n1,500,000\n1967\n1971\n1975\nYears\nCarrying Capacity\nWildebeest Population vs. Time\nPopulation\n1979\n1983\n1987\n1991",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Before the rinderpest vaccination program, disease primarily limited the wildebeest population. After the rinderpest vaccination program, the habitat/food supply limited the size of the population. \u2014 Initially, disease limited the wildebeest population. After, its population size was limited by resources such as predation and the availability of food and water as carrying capacity was reached. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Seeing the rate of population increase between 1971 and 1975, some scientists became concerned and started to think they might have to do something to slow down this trend. Explain why these scientists might have thought that the rapid population increase could have negative environmental effects.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of biology.\nWildebeest\nLocated in southern Africa, wildebeest are the largest members of the antelope family, \nweighing from 260-595 pounds. In some parts of southern Africa, their population is \ndecreasing. Their natural predators include lions, hyenas, cheetahs, and African wild dogs. \nHumans are disrupting the wildebeest habitat by putting up fences. However, in Serengeti \nNational Park, where the population has been studied and monitored since the 1960s, the \nherd has experienced a rapid increase. A successful vaccination program had been developed \nto protect cattle that had passed the deadly disease called rinderpest to wildebeest. This \nvaccine is one of the contributing factors for this population increase.\nThe trend in the graph below indicates that the carrying capacity for wildebeest was \nreached around 1975.\n1963\n100,000\n300,000\n500,000\n700,000\n900,000\n1,100,000\n1,300,000\n1,500,000\n1967\n1971\n1975\nYears\nCarrying Capacity\nWildebeest Population vs. Time\nPopulation\n1979\n1983\n1987\n1991",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The animals might use up all of the available food. This would cause a massive decrease in the wildebeest population and would likely damage the environment for other populations. \u2014 Many wildebeests in one area could result in the rapid spread of a new disease that would kill many wildebeests and other animals."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "68",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of biology.\nWildebeest\nLocated in southern Africa, wildebeest are the largest members of the antelope family, \nweighing from 260-595 pounds. In some parts of southern Africa, their population is \ndecreasing. Their natural predators include lions, hyenas, cheetahs, and African wild dogs. \nHumans are disrupting the wildebeest habitat by putting up fences. However, in Serengeti \nNational Park, where the population has been studied and monitored since the 1960s, the \nherd has experienced a rapid increase. A successful vaccination program had been developed \nto protect cattle that had passed the deadly disease called rinderpest to wildebeest. This \nvaccine is one of the contributing factors for this population increase.\nThe trend in the graph below indicates that the carrying capacity for wildebeest was \nreached around 1975.\n1963\n100,000\n300,000\n500,000\n700,000\n900,000\n1,100,000\n1,300,000\n1,500,000\n1967\n1971\n1975\nYears\nCarrying Capacity\nWildebeest Population vs. Time\nPopulation\n1979\n1983\n1987\n1991",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for supporting the claim with data from the graph. Acceptable responses include, but are not limited to: \u2014 The size of the population remained stable from about 1978 to 1991. \u2014 Before 1963, the herd numbered 300,000 individuals. After 1978, the herd numbered 1,300,000 individuals. The population has remained stable for many years."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Other than cannibalism, identify one way the development of sand tiger shark embryos is different from development in the human species.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_69_70.png",
+      "context": "Base your answers to questions 69 and 70 on the passage below and on your knowledge of biology.\nSand Tiger Shark Adult\nSand Tiger Shark Embryo\nEmbryonic Cannibalism\nThe sand tiger shark gives birth to two offspring at a time every two years. The female \nreproductive tract consists of a uterus with two separate chambers that may each contain \n16 to 23 eggs. After the eggs are fertilized, each developing embryo receives nourishment \nfrom its own yolk sac. There is never a placental connection between the mother and the \nembryos. Approximately five months into the year-long gestation, the food from the yolk \nsacs is used up. The embryos then have to find a new source of nutrition. By this point, the \nembryos have developed teeth. The strongest embryo will then begin to cannibalize (eat) the \nother embryos in the same uterine chamber until all but one of the embryos remains in each \nuterine section. At the completion of prenatal development, the female shark will give birth \nto only two offspring, one from each part of the uterus.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The sharks use a yolk sac for food, not a placenta. \u2014 The sharks develop in two uterine chambers, not just one. \u2014 The sharks normally have two offspring, humans usually have only one. \u2014 The sharks\u2019 development takes one year, not nine months."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "70",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_69_70.png",
+      "context": "Base your answers to questions 69 and 70 on the passage below and on your knowledge of biology.\nSand Tiger Shark Adult\nSand Tiger Shark Embryo\nEmbryonic Cannibalism\nThe sand tiger shark gives birth to two offspring at a time every two years. The female \nreproductive tract consists of a uterus with two separate chambers that may each contain \n16 to 23 eggs. After the eggs are fertilized, each developing embryo receives nourishment \nfrom its own yolk sac. There is never a placental connection between the mother and the \nembryos. Approximately five months into the year-long gestation, the food from the yolk \nsacs is used up. The embryos then have to find a new source of nutrition. By this point, the \nembryos have developed teeth. The strongest embryo will then begin to cannibalize (eat) the \nother embryos in the same uterine chamber until all but one of the embryos remains in each \nuterine section. At the completion of prenatal development, the female shark will give birth \nto only two offspring, one from each part of the uterus.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 They have two uterine chambers, which allows for the development of more offspring. \u2014 Internal development provides a safe habitat for the embryos."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "State the trend indicated by the data regarding the Greenland ice sheet and identify one likely human activity that has directly contributed to that trend.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the graphs below and on your knowledge of biology. The graphs \nshow some of the atmospheric and ice sheet changes that have been observed on Earth.\n2002\n\u20133,000\n\u20132,000\n\u20131,000\nNo\n change\n2005\n2010\nYear\nChange in Greenland Ice Sheet Mass\nChange in Ice Sheet Mass\n(Billions of Metric Tons)\n2015\n2017\nAtmospheric Carbon Dioxide Concentration at Mauna Loa Observatory\n400\nFull Record Ending January 2, 2016\n390\n380\n370\n360\n350\n340\n330\n320\n310\n1960 1965 1970 1975 1980 1985\nYear\n1990 1995 2000 2005 2010 2015\nCO2 Concentration (ppm)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The trend indicates that the Greenland ice sheet mass is decreasing, and a human activity contributing to this trend is burning fossil fuels. \u2014 The Greenland ice is decreasing as a result of burning fossil fuels, which contributes to global warming."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "72",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the graphs below and on your knowledge of biology. The graphs \nshow some of the atmospheric and ice sheet changes that have been observed on Earth.\n2002\n\u20133,000\n\u20132,000\n\u20131,000\nNo\n change\n2005\n2010\nYear\nChange in Greenland Ice Sheet Mass\nChange in Ice Sheet Mass\n(Billions of Metric Tons)\n2015\n2017\nAtmospheric Carbon Dioxide Concentration at Mauna Loa Observatory\n400\nFull Record Ending January 2, 2016\n390\n380\n370\n360\n350\n340\n330\n320\n310\n1960 1965 1970 1975 1980 1985\nYear\n1990 1995 2000 2005 2010 2015\nCO2 Concentration (ppm)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Solar can produce useful energy without continually producing carbon dioxide. With less carbon dioxide in the atmosphere, global temperatures could be lowered. \u2014 Replacing some use of fossil fuels with solar power produces less CO2, so global temperatures may decrease. \u2014 Using solar power reduces the amount of CO2 going into the air. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "In the Relationships and Biodiversity lab, the enzyme used for the gel electrophoresis cut the DNA into fragments by recognizing the sequence CCGG and cutting in between C and G. Using the same enzyme on the DNA sequence below, how many fragments would be generated? ATGCCGGAATATAAGGCCGGCGGTGTGGGC",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/living-environment/august-2024/q73.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "How many bird species represented in the diagram are strictly carnivores?",
+      "choices": [
+        "1",
+        "6",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/living-environment/august-2024/context_74_75.png",
+      "context": "Base your answers to questions 74 and 75 on the information in the diagram below and on your knowledge \nof biology.\nLarge ground \nfinch\nVegetarian\nfinch\nLarge \ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler\nfinch\nCactus\nfinch\nSharp-billed\nground finch\nSmall ground\nfinch\nMedium ground\nfinch\nE\nd\ng\ne\n \nc\nr\nu\ns\nh\ni\nn\ng\n \n \n \n \n \n \n \n \nB\ni\nt\ni\nn\ng\n \nt\ni\np\ns\nMainly\nanimal \nfood\nG\nr\na\ns\np\ni\nn\ng\n \nb\ni\nl\nl\ns\n100%\nanimal\nfood\nP\nr\no\nb\ni\nn\ng\nVariation in Beaks of Galapagos Islands Finches\nC\nr\nu\ns\nh\ni\nn\ng\n \nb\ni\nl\nl\ns\n \n \n \nP\nr\no\nb\ni\nn\ng\n \nb\ni\nl\nl\ns\nMainly\nplant \nfood\n\t\nNote: The answer to question 74 should be recorded on your separate answer sheet.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Different species of the Galapagos finches have beaks of unique shapes and sizes. These differences are most likely due to finches",
+      "choices": [
+        "adapting to different environments over many generations",
+        "flying to the Galapagos Islands from South America",
+        "mating with other bird species living on the Galapagos Islands",
+        "feeding on small and large seeds"
+      ],
+      "image": "/images/exams/living-environment/august-2024/context_74_75.png",
+      "context": "Base your answers to questions 74 and 75 on the information in the diagram below and on your knowledge \nof biology.\nLarge ground \nfinch\nVegetarian\nfinch\nLarge \ntree finch\nSmall\ntree finch\nWoodpecker\nfinch\nWarbler\nfinch\nCactus\nfinch\nSharp-billed\nground finch\nSmall ground\nfinch\nMedium ground\nfinch\nE\nd\ng\ne\n \nc\nr\nu\ns\nh\ni\nn\ng\n \n \n \n \n \n \n \n \nB\ni\nt\ni\nn\ng\n \nt\ni\np\ns\nMainly\nanimal \nfood\nG\nr\na\ns\np\ni\nn\ng\n \nb\ni\nl\nl\ns\n100%\nanimal\nfood\nP\nr\no\nb\ni\nn\ng\nVariation in Beaks of Galapagos Islands Finches\nC\nr\nu\ns\nh\ni\nn\ng\n \nb\ni\nl\nl\ns\n \n \n \nP\nr\no\nb\ni\nn\ng\n \nb\ni\nl\nl\ns\nMainly\nplant \nfood\n\t\nNote: The answer to question 74 should be recorded on your separate answer sheet.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "Based on these sequences, which species, X, Y, or Z, is most closely related to Botana curus?",
+      "choices": [
+        "species Z, because there are no DNA sequence differences",
+        "species X, because there are no amino acid differences",
+        "species Y, because there are only two DNA sequence differences",
+        "species Z,"
+      ],
+      "image": "/images/exams/living-environment/august-2024/context_76_76.png",
+      "context": "Base your answer to question 76 on the information below, on the next page, and on your knowledge of \nbiology.\nSECOND BASE\nT\nH\nI\nR\nD\nB\nA\nS\nE\nF\nI\nR\nS\nT\nB\nA\nS\nE\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nUUU\nUUC\nUUA\nUUG\nCUU\nCUC\nCUA\nCUG\nAUU\nAUC\nAUA\nAUG\nGUU\nGUC\nGUA\nGUG\nUCU\nUCC\nUCA\nUCG\nCCU\nCCC\nCCA\nCCG\nACU\nACC\nACA\nACG\nGCU\nGCC\nGCA\nGCG\nUAU\nUAC\nUAA\nUAG\nCAU\nCAC\nCAA\nCAG\nAAU\nAAC\nAAA\nAAG\nGAU\nGAC\nGAA\nGAG\nUGU\nUGC\nUGA\nUGG\nCGU\nCGC\nCGA\nCGG\nAGU\nAGC\nAGA\nAGG\nGGU\nGGC\nGGA\nGGG\nU\nC\nA\nG\nU\nC\nA\nG\nU\nC\nA\nG\nPHE\nLEU\nLEU\nILE\nMET or \nSTART\nVAL\nSER\nPRO\nTHR\nALA\nTYR\nSTOP\nHIS\nGLN\nASN\nLYS\nASP\nGLU\nARG\nSER\nARG\nGLY\nCYS\nSTOP\nTRP\nUniversal Genetic Code Chart\nMessenger RNA Codons and the Amino Acids for Which They Code\nU\nThe DNA sequences below are from species X, Y, and Z, and Botana curus.\nSpecies\nDNA Sequence\nBotana curus\nCAC\t GTA\t GAC\t TGA\t GGA\t CTC\t CTC\nX\nCAC\t GTG\t GAC\t AGA\t GGA\t CAC\t CTC\nY\nCAC\t GTG\t GAC\t AGA\t GGA\t CAC\t CTC\nZ\nCAC\t GTA\t GAC\t TGA\t GGA\t CTT\t CTC\n\t\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "State one reason for the color change in the model cell represented in the final state diagram.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_77_77.png",
+      "context": "Base your answer to question 77 on the information below and on your knowledge of biology. The diagram \nrepresents a model cell with a semi-permeable membrane. The contents of the model cell and beaker are labeled.\nInitial state\nGlucose\nStarch\nWater\nStarch indicator\nsolution\nFinal state\nGlucose\nWater\nStarch indicator\nsolution\nGlucose\nStarch indicator\nsolution\nStarch\nAfter\n20\nminutes",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 When the starch indicator molecules moved into the cell, they reacted with the starch to turn it black/blue black. \u2014 The starch indicator diffused in and reacted with the starch to produce a black color. \u2014 The starch indicator diffused in and combined/mixed with the starch."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Predict how the appearance of human blood cells would change if they were placed in a concentrated salt solution.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/q78.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Water will leave the blood cells, which would cause the cells to shrink/get smaller. \u2014 The blood cells will shrivel up/shrink."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "79",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/context_79_79.png",
+      "context": "Base your answer to question 79 on the information and photographs below and on your knowledge of \nbiology.\nGenetic evidence indicates that land and marine iguana species on the Galapagos Islands \nhave a common ancestor that came from South America millions of years ago. There are three \nspecies of land iguanas and one species of marine iguana. The marine iguana is an excellent \nswimmer and is the world\u2019s only sea-going lizard. It feeds on algae (seaweed) attached to \nunderwater rocks and is widely distributed on all Galapagos rocky shorelines. \nThe photos and information below compare the pink land iguana and the Galapagos land \niguanas.\nColor: Pink with black bands \nFound only on Wolf Volcano in northern \nIsabela Island (endangered)\nFeeds on cacti, shrubs, and grasses.\nColor: Yellow to brownish body\nFound on 6 islands (widely distributed)\nFeeds on cacti, seeds, grasses, and \nsome animal sources.\nPink Land Iguana\nGalapagos Land Iguana",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The two iguana species occupy different niches. \u2014 They have different resource requirements. \u2014 They have some variation in their food sources. \u2014 The pink land iguana can feed on shrubs that the other land iguana doesn\u2019t eat."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "After conducting the experiment, the students reported their data in the data table below. Student Number of Jumping Jacks Done in One Minute (1) 35 (2) 52 (3) 48 Average 45 Can the data in the table be used to support the hypothesis the students proposed? Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/q80.png",
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of biology.\nStudents hypothesized that eating a candy bar a few minutes prior to exercising would \nincrease the number of jumping jacks they could do in a given amount of time. Each \nparticipant ate one candy bar, waited 10 minutes, then did jumping jacks for one minute.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating that the data in the table does not support the hypothesis the students pro\u00ad posed and supporting the answer. Acceptable responses include, but are not limited to: \u2014 No, because we cannot tell how their ability to do the exercises changed after eating the candy bar. \u2014 No, because there was no control in the experiment. \u2014 We cannot tell if it does or not, because we don\u2019t know how many they could have done before they ate the candy bar. Living Environment Rating Guide \u2013 Aug. \u2019"
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Four students were asked to explain the reason that the hypothesis was most likely correct. Their responses are shown in the table below. Which row contains a correct explanation of how the body would use the candy bar? Row Student Explanation",
+      "choices": [
+        "A The candy bar would provide protein for increasing the muscle mass to do the jumping jacks.",
+        "B The candy bar would provide the raw materials required for cellular respiration in the muscles to do the jumping jacks.",
+        "C The candy bar would increase the red blood cells\u2019 ability to carry more oxygen during the exercise.",
+        "D The candy bar would help the digestive system to digest sugar faster during the exercise."
+      ],
+      "image": "/images/exams/living-environment/august-2024/q81.png",
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of biology.\nStudents hypothesized that eating a candy bar a few minutes prior to exercising would \nincrease the number of jumping jacks they could do in a given amount of time. Each \nparticipant ate one candy bar, waited 10 minutes, then did jumping jacks for one minute.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "Which three human body systems are most directly involved in converting the energy in food to energy needed to do an activity such as jumping jacks?",
+      "choices": [
+        "circulatory, respiratory, and immune",
+        "respiratory, reproductive, and digestive",
+        "circulatory, digestive, and immune",
+        "digestive, respiratory, and circulatory"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of biology.\nStudents hypothesized that eating a candy bar a few minutes prior to exercising would \nincrease the number of jumping jacks they could do in a given amount of time. Each \nparticipant ate one candy bar, waited 10 minutes, then did jumping jacks for one minute.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Students compared four varieties of plants using different tests. They looked at the plant\u2019s leaves and flowers, used the microscope to observe additional plant structures, paper chromatography to analyze plant pigments, and gel electrophoresis to compare DNA fragments. Explain what the students were most likely trying to figure out by performing all these tests on the plants.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 They were trying to figure out which plants are most similar. \u2014 They were trying to figure out which plants are most closely related. \u2014 By doing the tests, they could determine evolutionary relationships. \u2014 They were trying to determine which varieties most likely contained the same medicinal chemical."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Predict which student will show the lowest average pulse rate throughout the afternoon. Support your answer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answer to question 84 on the reading passage below and on your knowledge of biology.\nPredicting Changes in Pulse Rate due to Physical Activity\nThree students had different plans for after school. Student A took several young children \nto the playground. Student B read science fiction at the library. Student C worked at the cash \nregister of a fast-food restaurant.\nEach of the students was healthy. Their heights and weights were similar. However, their \npulse rates were quite different during their afternoon activities.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for student B and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Student B was seated, so he/she is most likely to have a slower pulse than his/her friends who were more active. \u2014 Student B was least active. His/her muscles were not very active and used less oxygen."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "The diagram below represents a DNA gel. Wells W X Y Z Individuals Which individuals are most likely the result of asexual reproduction from the same parent? \b LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/august-2024/q85.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for W and Z and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Individuals W and Z have identical lines (genes). \u2014 The pattern of lines for W and Z is the same. Living Environment Rating Guide \u2013 Aug. \u2019"
+    }
+  ]
+}

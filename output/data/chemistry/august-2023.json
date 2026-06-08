@@ -1,0 +1,1096 @@
+{
+  "subject": "chemistry",
+  "session": "august-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which proposal in the development of the modern model of the atom was made before the others?",
+      "choices": [
+        "Atoms are hard, indivisible spheres of different sizes.",
+        "Atoms are mostly empty space with a small dense nucleus.",
+        "Atoms have electrons that have wavelike properties.",
+        "Atoms have an internal structure that contains negative particles."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "According to the wave-mechanical model, in the ground state, the 10 electrons of a neon atom would be located",
+      "choices": [
+        "in the nucleus",
+        "in orbitals",
+        "in the first shell",
+        "in the valence shell"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which statement describes two different isotopes of carbon?",
+      "choices": [
+        "The isotopes contain the same number of neutrons and have the same atomic number.",
+        "The isotopes contain the same number of neutrons but have a different atomic number.",
+        "The isotopes contain a different number of neutrons but have the same atomic number.",
+        "The isotopes contain a different number of neutrons and have a different atomic number."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "An element that is a very reactive metal could have an atomic number of",
+      "choices": [
+        "9",
+        "2",
+        "19",
+        "79"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which element is listed with the number of protons in each of its atoms?",
+      "choices": [
+        "nitrogen, 14",
+        "silicon, 14",
+        "oxygen, 16",
+        "phosphorus, 16"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "What is the overall charge on the nucleus of a fluorine atom?",
+      "choices": [
+        "21",
+        "29",
+        "19",
+        "119"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "As the elements with atomic numbers 11 through 17 are considered in order of increasing atomic number, the classification of the elements changes from",
+      "choices": [
+        "metal to metalloid to nonmetal",
+        "metal to nonmetal to metalloid",
+        "nonmetal to metalloid to metal",
+        "nonmetal to metal to metalloid"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "At STP, which property can be used to differentiate one-mole samples of Cl2(g) and Kr(g)?",
+      "choices": [
+        "phase",
+        "pressure",
+        "chemical reactivity",
+        "temperature"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Two gaseous forms of oxygen are diatomic oxygen, O2, and ozone, O3. These two forms of oxygen have",
+      "choices": [
+        "the same molecular structure and the same properties",
+        "the same molecular structure and different properties",
+        "different molecular structures and the same properties",
+        "different molecular structures and different properties"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A compound consists of two or more different elements that are",
+      "choices": [
+        "physically mixed in a fixed proportion",
+        "physically mixed in a proportion that can vary",
+        "chemically combined in a fixed proportion",
+        "chemically combined in a proportion that can vary"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Compared to the chemical and physical properties of the compound CO, the compound CO2 has",
+      "choices": [
+        "the same chemical properties and the same physical properties",
+        "the same chemical properties and different physical properties",
+        "different chemical properties and the same physical properties",
+        "different chemical properties and different physical properties"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which phrase describes the molecular polarity of and the charge distribution in an HCl molecule?",
+      "choices": [
+        "nonpolar with an asymmetrical charge distribution",
+        "nonpolar with a symmetrical charge distribution",
+        "polar with an asymmetrical charge distribution",
+        "polar with a symmetrical charge distribution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which atom forms an ion with a radius larger than the atomic radius?",
+      "choices": [
+        "calcium atom",
+        "oxygen atom",
+        "lead atom",
+        "tin atom"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which sample can be classified as a substance?",
+      "choices": [
+        "air",
+        "argon",
+        "soil",
+        "seawater"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "A 1.0-gram sample of NaCl(s) is dissolved in 100. grams of water at 25\u00b0C, and another 1.0-gram sample of NaCl(s) is dissolved in 50. grams of water at 25\u00b0C. Which property of the two resulting mixtures will be different?",
+      "choices": [
+        "color of the components in the mixture",
+        "particle size of the components in the mixture",
+        "polarity of the components in the mixture",
+        "proportion by mass of the components in the mixture"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Based on Table G, which compound has the greatest solubility in 100. grams of water at 10.\u00b0C?",
+      "choices": [
+        "HCl",
+        "NaCl",
+        "KCl",
+        "NH4Cl"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "According to the kinetic molecular theory, ideal gas particles",
+      "choices": [
+        "are separated by small distances relative to their size",
+        "do not transfer energy when they collide with each other",
+        "have attractive forces between them",
+        "move in random, constant, straight-line motion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A reaction is most likely to occur when the reacting particles collide with proper orientation and proper",
+      "choices": [
+        "charge",
+        "energy",
+        "mass",
+        "volume"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "A sample of SO2(g) and a sample of NO2(g) contain the same number of molecules when they have the same",
+      "choices": [
+        "mass, temperature, and volume",
+        "mass, temperature, and pressure",
+        "pressure, volume, and temperature",
+        "pressure, volume, and mass"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which term identifies the strong intermolecular forces found in a sample of liquid water?",
+      "choices": [
+        "ionic bonding",
+        "covalent bonding",
+        "hydrogen bonding",
+        "metallic bonding"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which mathematical expression represents the heat of reaction for a chemical change?",
+      "choices": [
+        "(PE of the products) 2 (PE of the reactants)",
+        "(PE of the products) 1 (PE of the reactants)",
+        "(PE of the products) 4 (PE of the reactants)",
+        "(PE of the products) 3 (PE of the reactants)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Catalysts can increase the rate of a chemical reaction by providing",
+      "choices": [
+        "an alternate reaction pathway with a higher activation energy",
+        "the same reaction pathway with a higher activation energy",
+        "an alternate reaction pathway with a lower activation energy",
+        "the same reaction pathway with a lower activation energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which term represents the disorder of a system?",
+      "choices": [
+        "entropy",
+        "mole",
+        "quanta",
+        "pressure"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which element must be present in all organic compounds?",
+      "choices": [
+        "nitrogen",
+        "hydrogen",
+        "carbon",
+        "sulfur"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Based on Table R, which functional group allows a compound to be classified as an organic acid? OH ( 1 ) ( 3 ) ( 2 ) ( 4 ) O C OH O C H O C O",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "In a voltaic cell, oxidation occurs",
+      "choices": [
+        "at the cathode",
+        "at the anode",
+        "in the salt bridge",
+        "in the external circuit"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which positive ion must be present in an aqueous solution of an Arrhenius acid?",
+      "choices": [
+        "H3O1",
+        "Na1",
+        "NH4 1",
+        "Rb1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "A change that converts an atom of one element to another element is called",
+      "choices": [
+        "neutralization",
+        "oxidation",
+        "sublimation",
+        "transmutation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which radiation has the least ionizing power and greatest penetrating power?",
+      "choices": [
+        "alpha particles",
+        "beta particles",
+        "gamma emissions",
+        "positron emissions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which nuclear emission is listed with its notation?",
+      "choices": [
+        "alpha particle, 1 1p",
+        "beta particle, 0 21e",
+        "neutron, 0 0g",
+        "proton, 0 11b"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Diagram 1 represents an atom of hydrogen, showing the nucleus and the electron in the first shell. Diagram 1 Nucleus e\u2013 Diagram 2 Nucleus e\u2013 What is represented by diagram 2?",
+      "choices": [
+        "a positive ion of hydrogen",
+        "a negative ion of hydrogen",
+        "an atom of hydrogen in an excited state",
+        "an atom of hydrogen in the ground state"
+      ],
+      "image": "/images/exams/chemistry/august-2023/q31.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The table below gives the atomic mass and the abundance of the two naturally occurring isotopes of copper. Naturally Occurring Isotopes of Copper Isotope Notation Atomic Mass of the Isotope (u) Natural Abundance (%) Cu-63 62.93 69.15 Cu-65 64.93 30.85 Which numerical setup can be used to calculate the atomic mass of the element copper?",
+      "choices": [
+        "(62.93 u)(30.85) + (64.93 u)(69.15)",
+        "(62.93 u)(69.15) + (64.93 u)(30.85)",
+        "(62.93 u)(0.3085) + (64.93 u)(0.6915)",
+        "(62.93 u)(0.6915) + (64.93 u)(0.3085)"
+      ],
+      "image": "/images/exams/chemistry/august-2023/q32.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Which subatomic particles were discovered as the result of experiments with cathode ray tubes?",
+      "choices": [
+        "electrons",
+        "neutrons",
+        "positrons",
+        "protons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which change in electron location in an atom of calcium is accompanied by the greatest amount of energy emitted?",
+      "choices": [
+        "from shell 1 to shell 2",
+        "from shell 2 to shell 1",
+        "from shell 1 to shell 4",
+        "from shell 4 to shell 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "As the atomic number increases in Group 2 from Be to Ba, the first ionization energy",
+      "choices": [
+        "decreases, and the atomic radius decreases",
+        "decreases, and the atomic radius increases",
+        "increases, and the atomic radius decreases",
+        "increases, and the atomic radius increases"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: 3Mg(s) 1 N2(g) \u2192 Mg3N2(s) What is the mass of Mg3N2 that is produced when 14.58 grams of magnesium completely reacts with 5.60 grams of nitrogen?",
+      "choices": [
+        "8.98 g",
+        "10.46 g",
+        "20.18 g",
+        "49.34 g"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Which Lewis electron-dot diagram represents a molecule of H2S? H ( 1 ) ( 3 ) ( 2 ) ( 4 ) S H S H H H S S H H H",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "What is the vapor pressure of water at 90.\u00b0C?",
+      "choices": [
+        "40. kPa",
+        "68 kPa",
+        "94 kPa",
+        "150. kPa"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "A sample is composed of two different substances that can be separated by using filter paper. This sample is classified as",
+      "choices": [
+        "a heterogeneous mixture",
+        "a homogeneous mixture",
+        "a single compound",
+        "an unsaturated solution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which solutions react to produce an insoluble compound?",
+      "choices": [
+        "KCl(aq) 1 LiCl(aq) \u2192",
+        "LiCl(aq) 1 NaNO3 (aq) \u2192",
+        "NaCl (aq) 1 AgClO3 (aq) \u2192",
+        "KNO3 (aq) 1 AgClO3(aq) \u2192"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "What is the amount of heat energy absorbed when 40.0 grams of water is heated from 10.0\u00b0C to 30.0\u00b0C?",
+      "choices": [
+        "1.67 \u00d7 103 J",
+        "3.34 \u00d7 103 J",
+        "5.02 \u00d7 103 J",
+        "2.67 \u00d7 105 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Given the formula representing a compound: H H C C H H C H C C H H C H H H H H C H H H C H What is a chemical name of this compound?",
+      "choices": [
+        "2,3,3-trimethylbutane",
+        "2-methyl-2-ethylbutane",
+        "2,3-dimethylpentane",
+        "2,3-ethylpentane"
+      ],
+      "image": "/images/exams/chemistry/august-2023/q42.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Given the cooling curve for a substance: Time (min) Temperature (\u00b0C) A B C D E F During which intervals is the potential energy decreasing while the average kinetic energy remains constant?",
+      "choices": [
+        "BC and AB",
+        "BC and DE",
+        "EF and AB",
+        "EF and DE"
+      ],
+      "image": "/images/exams/chemistry/august-2023/q43.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which formula represents a hydrocarbon?",
+      "choices": [
+        "CO2",
+        "C3H8",
+        "C2H4O2",
+        "C3H8O"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which type of organic reaction produces carbon dioxide and water?",
+      "choices": [
+        "combustion",
+        "esterification",
+        "fermentation",
+        "saponification"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which half-reaction equation represents the oxidation of lithium?",
+      "choices": [
+        "Li1 1 e2 \u2192 Li",
+        "Li 1 e2 \u2192 Li1",
+        "Li \u2192 Li 1 e2",
+        "Li \u2192 Li1 1 e2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Based on Table J, which ionic equation represents a spontaneous reaction that can occur in a voltaic cell?",
+      "choices": [
+        "Fe(s) 1 Mg21(aq) \u2192 Fe21(aq) 1 Mg(s)",
+        "Fe(s) 1 Mg(s) \u2192 Fe21(aq) 1 Mg21(aq)",
+        "Fe21(aq) 1 Mg21(aq) \u2192 Fe(s) 1 Mg(s)",
+        "Fe21(aq) 1 Mg(s) \u2192 Fe(s) 1 Mg21(aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a system at equilibrium: NH3(g) 1 H2O( ) NH4 1(aq) 1 OH2(aq) In this system, the H2O( ) acts as",
+      "choices": [
+        "an acid, because it accepts an H1",
+        "an acid, because it donates an H1",
+        "a base, because it accepts an H1",
+        "a base, because it donates an H1"
+      ],
+      "image": "/images/exams/chemistry/august-2023/q48.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which indicator is blue in a solution that has a pH value of 7.0?",
+      "choices": [
+        "bromcresol green",
+        "methyl orange",
+        "phenolphthalein",
+        "thymol blue"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which radioisotope requires long-term storage to prevent the risk of biological exposure?",
+      "choices": [
+        "N-16",
+        "K-42",
+        "Pu-239",
+        "Au-198"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State the number of valence electrons in an atom of sulfur-32 in the ground state.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 and 52 on the information below and on your knowledge of chemistry.\nThe four naturally occurring isotopes of sulfur are sulfur-32, sulfur-33, sulfur-34, and \nsulfur-36.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 6 or six."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "State the number of neutrons in an atom of sulfur-33.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 and 52 on the information below and on your knowledge of chemistry.\nThe four naturally occurring isotopes of sulfur are sulfur-32, sulfur-33, sulfur-34, and \nsulfur-36.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 17 or seventeen."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Compare the electrical conductivity of an alkali metal at STP with the electrical conductivity of a halogen at STP.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 53 through 55 on the information below and on your knowledge of chemistry.\nThe Group 1 elements below hydrogen are called alkali metals, and the first five Group 17 \nelements are called halogens.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Metals conduct electricity better than halogens. A halogen is a poor conductor compared to an alkali metal. The metal is better."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "State the type of chemical bonds formed when an alkali metal and a halogen react to form a compound.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 53 through 55 on the information below and on your knowledge of chemistry.\nThe Group 1 elements below hydrogen are called alkali metals, and the first five Group 17 \nelements are called halogens.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: ionic bonds ionic"
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Explain, in terms of electrons, why the halogens are all placed in the same group on the Periodic Table.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 53 through 55 on the information below and on your knowledge of chemistry.\nThe Group 1 elements below hydrogen are called alkali metals, and the first five Group 17 \nelements are called halogens.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: All halogen atoms have 7 valence electrons in the ground state. They have atoms with the same number of outermost shell electrons. They each need one more electron to achieve a stable octet. Part B\u20132 Allow a total of 15 credits for this part. The student must answer all questions in this part. P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Balance the equation in your answer booklet for the reaction, using the smallest whole number coefficients.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of chemistry.\nThe unbalanced equation below represents the reaction between silver sulfide and \naluminum.\nAg2S 1 Al \u2192 Ag 1 Al2S3",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 3 Ag2S 1 2 Al \u2192 6 Ag 1 Al2S3. Allow 1 credit even if the coefficient \u201c1\u201d is written in front of Al2S3."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Determine the gram-formula mass of the aluminum sulfide product.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of chemistry.\nThe unbalanced equation below represents the reaction between silver sulfide and \naluminum.\nAg2S 1 Al \u2192 Ag 1 Al2S3",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 150. g/mol or for any value from 149.96 g/mol to 150.3 g/mol, inclusive."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the number of moles of silver sulfide in a 546-gram sample of Ag2S (gram-formula mass = 248 g/mol).",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/q58.png",
+      "context": "Base your answers to questions 56 through 58 on the information below and on your knowledge of chemistry.\nThe unbalanced equation below represents the reaction between silver sulfide and \naluminum.\nAg2S 1 Al \u2192 Ag 1 Al2S3",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: moles 5 546 g _________ 248 g/mol 546 g 3 1 mol _____ 248 g 1 ____ 248 5 x ____ 546 546 ____ 248"
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "State evidence from the equation that the forward reaction is endothermic.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of chemistry.\nHydrogen gas and iodine gas can combine in a reversible reaction to form hydrogen \niodide gas. The equation below represents this system at equilibrium in a sealed, rigid \ncontainer.\nH2(g) 1 I2(g) 1 53.0 kJ \n 2HI(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The equation shows energy on the reactant side. Energy is on the left side of the equation. The 53 kJ is on the left side. heat term on reactant side"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "State, in terms of reaction rates, why the concentration of HI(g) remains constant when the system is at equilibrium.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of chemistry.\nHydrogen gas and iodine gas can combine in a reversible reaction to form hydrogen \niodide gas. The equation below represents this system at equilibrium in a sealed, rigid \ncontainer.\nH2(g) 1 I2(g) 1 53.0 kJ \n 2HI(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: At equilibrium, the forward reaction rate equals the reverse reaction rate, so equal numbers of HI molecules are produced and broken down. The rate of formation of HI equals the rate at which HI is decomposed. The rates are equal."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State how an increase in temperature affects the concentration of HI(g).",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_59_61.png",
+      "context": "Base your answers to questions 59 through 61 on the information below and on your knowledge of chemistry.\nHydrogen gas and iodine gas can combine in a reversible reaction to form hydrogen \niodide gas. The equation below represents this system at equilibrium in a sealed, rigid \ncontainer.\nH2(g) 1 I2(g) 1 53.0 kJ \n 2HI(g)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: An increase in temperature will increase the concentration of HI(g). The concentration of HI(g) increases. HI increases. P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "State, in terms of carbon-carbon bonds, why butane is saturated.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nThe equation below represents the reaction of straight-chain butane with chlorine. \nC4H10 1 Cl2 \u2192 C4H9Cl 1 HCl\nThe reaction produces two different isomers of C4H9Cl: 1-chlorobutane and \n2-chlorobutane. The table below shows the boiling point of each C4H9Cl isomer at standard \npressure.\nName of Compound\nBoiling Point \n(\u00b0C)\n1-chlorobutane\n78.4\n2-chlorobutane\n68.2",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Butane has only single carbon-carbon bonds. There are no multiple bonds between the carbon atoms. no C5C or C;C bonds; just C2C bonds"
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify the class of organic compounds to which the organic product in the equation belongs.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nThe equation below represents the reaction of straight-chain butane with chlorine. \nC4H10 1 Cl2 \u2192 C4H9Cl 1 HCl\nThe reaction produces two different isomers of C4H9Cl: 1-chlorobutane and \n2-chlorobutane. The table below shows the boiling point of each C4H9Cl isomer at standard \npressure.\nName of Compound\nBoiling Point \n(\u00b0C)\n1-chlorobutane\n78.4\n2-chlorobutane\n68.2",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: halide halocarbon alkyl halide halogenoalkanes"
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Based on the boiling point data, compare the strength of the intermolecular forces in 1-chlorobutane to the strength of the intermolecular forces in 2-chlorobutane.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nThe equation below represents the reaction of straight-chain butane with chlorine. \nC4H10 1 Cl2 \u2192 C4H9Cl 1 HCl\nThe reaction produces two different isomers of C4H9Cl: 1-chlorobutane and \n2-chlorobutane. The table below shows the boiling point of each C4H9Cl isomer at standard \npressure.\nName of Compound\nBoiling Point \n(\u00b0C)\n1-chlorobutane\n78.4\n2-chlorobutane\n68.2",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The intermolecular forces in 1-chlorobutane are stronger than the intermolecular forces in 2-chlorobutane. weaker in 2-chlorobutane"
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Draw a structural formula for the 2-chlorobutane.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the information below and on your knowledge of chemistry.\nThe equation below represents the reaction of straight-chain butane with chlorine. \nC4H10 1 Cl2 \u2192 C4H9Cl 1 HCl\nThe reaction produces two different isomers of C4H9Cl: 1-chlorobutane and \n2-chlorobutane. The table below shows the boiling point of each C4H9Cl isomer at standard \npressure.\nName of Compound\nBoiling Point \n(\u00b0C)\n1-chlorobutane\n78.4\n2-chlorobutane\n68.2",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Examples of 1-credit responses: H H C C H H H C Cl H C C H H H C Cl C C C Note: Do not allow credit if only some of the H atoms bonded to C atoms are shown. P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "State the number of significant figures in the mass of the hydrated CuSO4 sample used by student 1.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, appropriate safety equipment was used and safety procedures \nwere followed, as two students worked with hydrated CuSO4. A hydrate is a compound that \nhas water within its crystal structure.\nStudent 1 and student 2 each heated their own 3.00-gram sample of hydrated CuSO4. \nStudent 2 determined the percent composition by mass of water in the hydrated CuSO4 to \nbe 37.0%. The accepted value for the percent of water in the hydrated CuSO4 is 36.1%. The \nfinal mass values for each student sample are shown in the table below.\nMass Values for Lab Activity\nStudent\nMass of Hydrated \nCuSO4 \n(g)\nMass of CuSO4 \nAfter Final Heating \n(g)\nMass of H2O in \nHydrated CuSO4 \n(g)\n1\n3.00\n1.98\n1.02\n2\n3.00\n1.89\n1.11",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 3 or three."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Determine the percent composition by mass of water in the hydrated CuSO4 sample, based on the data for student 1.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, appropriate safety equipment was used and safety procedures \nwere followed, as two students worked with hydrated CuSO4. A hydrate is a compound that \nhas water within its crystal structure.\nStudent 1 and student 2 each heated their own 3.00-gram sample of hydrated CuSO4. \nStudent 2 determined the percent composition by mass of water in the hydrated CuSO4 to \nbe 37.0%. The accepted value for the percent of water in the hydrated CuSO4 is 36.1%. The \nfinal mass values for each student sample are shown in the table below.\nMass Values for Lab Activity\nStudent\nMass of Hydrated \nCuSO4 \n(g)\nMass of CuSO4 \nAfter Final Heating \n(g)\nMass of H2O in \nHydrated CuSO4 \n(g)\n1\n3.00\n1.98\n1.02\n2\n3.00\n1.89\n1.11",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 34.0% or 34%."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the percent error for the percent composition by mass of water in the hydrated CuSO4 sample as determined by student 2.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nDuring a laboratory activity, appropriate safety equipment was used and safety procedures \nwere followed, as two students worked with hydrated CuSO4. A hydrate is a compound that \nhas water within its crystal structure.\nStudent 1 and student 2 each heated their own 3.00-gram sample of hydrated CuSO4. \nStudent 2 determined the percent composition by mass of water in the hydrated CuSO4 to \nbe 37.0%. The accepted value for the percent of water in the hydrated CuSO4 is 36.1%. The \nfinal mass values for each student sample are shown in the table below.\nMass Values for Lab Activity\nStudent\nMass of Hydrated \nCuSO4 \n(g)\nMass of CuSO4 \nAfter Final Heating \n(g)\nMass of H2O in \nHydrated CuSO4 \n(g)\n1\n3.00\n1.98\n1.02\n2\n3.00\n1.89\n1.11",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: 37.0% 2 36.1% ______________ 36.1% 3 100 5 37.0 2 36.1 __________ 36.1 3 100 5 0.9% ______ 36.1% 3 100 5 90 ____ 36.1 Note: Do not allow credit if the fraction is not multiplied by 100."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "State the number of electrons shared between the nitrogen atom and one of the hydrogen atoms in an ammonia molecule.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of chemistry.\nAmmonia, NH3(g), is a compound that is used to manufacture fertilizer for agriculture. \nThis gas is produced by a reaction between nitrogen gas, N2(g), and hydrogen gas, H2(g). \nDuring this reaction, bonds are both broken and formed. Bond energy is the amount of \nenergy required to break one mole of bonds between atoms in the gas phase. The bond \nenergy of an H\u2013H bond is 436 kilojoules per mole.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 2 or two or 1 pair."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Identify the noble gas that has atoms in the ground state with the same electron configuration as the nitrogen atom in a molecule of ammonia.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of chemistry.\nAmmonia, NH3(g), is a compound that is used to manufacture fertilizer for agriculture. \nThis gas is produced by a reaction between nitrogen gas, N2(g), and hydrogen gas, H2(g). \nDuring this reaction, bonds are both broken and formed. Bond energy is the amount of \nenergy required to break one mole of bonds between atoms in the gas phase. The bond \nenergy of an H\u2013H bond is 436 kilojoules per mole.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Ne or neon."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Determine the energy required to break all of the bonds in 0.250 mol of H\u2013H bonds in the H2(g).",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/q71.png",
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of chemistry.\nAmmonia, NH3(g), is a compound that is used to manufacture fertilizer for agriculture. \nThis gas is produced by a reaction between nitrogen gas, N2(g), and hydrogen gas, H2(g). \nDuring this reaction, bonds are both broken and formed. Bond energy is the amount of \nenergy required to break one mole of bonds between atoms in the gas phase. The bond \nenergy of an H\u2013H bond is 436 kilojoules per mole.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 109 kJ. Part C Allow a total of 20 credits for this part. The student must answer all questions in this part. P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Compare the density of the helium in the cylinder when the volume is 50.0 mL to the density of the helium in the cylinder when the volume is decreased to 25.0 mL.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_72_73.png",
+      "context": "Base your answers to questions 72 and 73 on the information below and on your knowledge of chemistry.\nThe diagram below represents a sealed, rigid cylinder with a movable piston containing \nhelium gas at 296 K and 1.3 atm.\nHe(g)\nP = 1.3 atm\nV = 50.0 mL\nT = 296 K",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The density of the helium is less at 50.0 mL. The He is more dense at 25.0 mL. less dense at 50 mL"
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "State one change in temperature and one change in pressure that will cause the gas in the cylinder to behave more like an ideal gas.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_72_73.png",
+      "context": "Base your answers to questions 72 and 73 on the information below and on your knowledge of chemistry.\nThe diagram below represents a sealed, rigid cylinder with a movable piston containing \nhelium gas at 296 K and 1.3 atm.\nHe(g)\nP = 1.3 atm\nV = 50.0 mL\nT = 296 K",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Temperature: higher Pressure: lower Temperature: any temperature above 296 K Pressure: any pressure lower than 1.3 atm"
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Determine the number of moles of NaNO3 in 0.15 L of the solution.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_74_76.png",
+      "context": "Base your answers to questions 74 through 76 on the information below and on your knowledge of chemistry.\nFour different samples of NaNO3(aq) are each evaporated to dryness. The solution \nvolume and mass of the dry NaNO3(s) of each sample are recorded in the table below. \nSample\nVolume of \nNaNO3(aq) \n(L)\nMass of dry \nNaNO3(s) \n(g)\n1\n0.0524\n3.56\n2\n0.0988\n6.72\n3\n0.2017\n13.71\n4\n0.2431\n16.53\nThe number of moles of NaNO3(s) of each sample was then calculated and used to \nproduce the graph below.\nVolume of the Sample (L)\nMoles of NaNO3 (mol)\nMoles of NaNO3 Versus\nVolume of Solution Sample\n0\n0.25\n0.20\n0.15\n0.10\n0.05\n0\n0.05\n0.10\n0.15\n0.20\n0.25\n0.30",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 0.11 mol to 0.13 mol, inclusive."
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Write a chemical name for NaNO3.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_74_76.png",
+      "context": "Base your answers to questions 74 through 76 on the information below and on your knowledge of chemistry.\nFour different samples of NaNO3(aq) are each evaporated to dryness. The solution \nvolume and mass of the dry NaNO3(s) of each sample are recorded in the table below. \nSample\nVolume of \nNaNO3(aq) \n(L)\nMass of dry \nNaNO3(s) \n(g)\n1\n0.0524\n3.56\n2\n0.0988\n6.72\n3\n0.2017\n13.71\n4\n0.2431\n16.53\nThe number of moles of NaNO3(s) of each sample was then calculated and used to \nproduce the graph below.\nVolume of the Sample (L)\nMoles of NaNO3 (mol)\nMoles of NaNO3 Versus\nVolume of Solution Sample\n0\n0.25\n0.20\n0.15\n0.10\n0.05\n0\n0.05\n0.10\n0.15\n0.20\n0.25\n0.30",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for sodium nitrate."
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Compare the boiling point of the solution in sample 1 at standard pressure to the boiling point of water at standard pressure.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_74_76.png",
+      "context": "Base your answers to questions 74 through 76 on the information below and on your knowledge of chemistry.\nFour different samples of NaNO3(aq) are each evaporated to dryness. The solution \nvolume and mass of the dry NaNO3(s) of each sample are recorded in the table below. \nSample\nVolume of \nNaNO3(aq) \n(L)\nMass of dry \nNaNO3(s) \n(g)\n1\n0.0524\n3.56\n2\n0.0988\n6.72\n3\n0.2017\n13.71\n4\n0.2431\n16.53\nThe number of moles of NaNO3(s) of each sample was then calculated and used to \nproduce the graph below.\nVolume of the Sample (L)\nMoles of NaNO3 (mol)\nMoles of NaNO3 Versus\nVolume of Solution Sample\n0\n0.25\n0.20\n0.15\n0.10\n0.05\n0\n0.05\n0.10\n0.15\n0.20\n0.25\n0.30",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The sample 1 solution has a higher boiling point than water, when both are at standard pressure. Water has a lower boiling point than the solution. The BP of NaNO3(aq) is higher. lower for water P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify the electrode that attracts the Cu21 ions as the cell operates.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_77_79.png",
+      "context": "Base your answers to questions 77 through 79 on the information below and on your knowledge of chemistry.\nElectroplating is an electrolytic process that can be used to coat metal objects with a less \nreactive metal. The diagram below shows an electroplating cell that includes a power source \nconnected to a copper rod and a bracelet made from a different metal. The rod and bracelet \nare in an aqueous copper(II) sulfate solution.\nCuSO4(aq)\n+\n\u2013\nWire\nCu rod\nWire\nBracelet\nPower source",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The Cu21 ions are attracted to the bracelet. bracelet negative electrode cathode"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Determine the oxidation state of sulfur in CuSO4.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_77_79.png",
+      "context": "Base your answers to questions 77 through 79 on the information below and on your knowledge of chemistry.\nElectroplating is an electrolytic process that can be used to coat metal objects with a less \nreactive metal. The diagram below shows an electroplating cell that includes a power source \nconnected to a copper rod and a bracelet made from a different metal. The rod and bracelet \nare in an aqueous copper(II) sulfate solution.\nCuSO4(aq)\n+\n\u2013\nWire\nCu rod\nWire\nBracelet\nPower source",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 16 or 61."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Write a balanced half-reaction equation for the reduction of Cu21 ions that occurs in this cell.",
+      "choices": [],
+      "image": "/images/exams/chemistry/august-2023/context_77_79.png",
+      "context": "Base your answers to questions 77 through 79 on the information below and on your knowledge of chemistry.\nElectroplating is an electrolytic process that can be used to coat metal objects with a less \nreactive metal. The diagram below shows an electroplating cell that includes a power source \nconnected to a copper rod and a bracelet made from a different metal. The rod and bracelet \nare in an aqueous copper(II) sulfate solution.\nCuSO4(aq)\n+\n\u2013\nWire\nCu rod\nWire\nBracelet\nPower source",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Cu21(aq) 1 2e2 \u2192 Cu(s) Cu12 1 2e2 \u2192 Cu Note: Do not allow credit for the e without the minus sign (2)."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Complete the equation in your answer booklet for the reaction that occurs in this titration by writing the formula for each product.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of chemistry.\nIn a titration, 15.0 mL of hydrochloric acid, HCl(aq), of unknown concentration is exactly \nneutralized by the addition of 8.0 mL of 0.15 M KOH(aq). The pH value of the HCl(aq) \nsolution is 1.1 before the titration begins.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: KCl(aq) 1 H2O( ) HOH 1 KCl"
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "State the pH value of the solution when the H1(aq) ion concentration in the acid has decreased by a factor of 10 compared to its original value.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of chemistry.\nIn a titration, 15.0 mL of hydrochloric acid, HCl(aq), of unknown concentration is exactly \nneutralized by the addition of 8.0 mL of 0.15 M KOH(aq). The pH value of the HCl(aq) \nsolution is 1.1 before the titration begins.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 2.1."
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Determine the molarity of the HCl(aq), by using the titration data.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of chemistry.\nIn a titration, 15.0 mL of hydrochloric acid, HCl(aq), of unknown concentration is exactly \nneutralized by the addition of 8.0 mL of 0.15 M KOH(aq). The pH value of the HCl(aq) \nsolution is 1.1 before the titration begins.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.080 M or 0.08 M. P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Based on Table N, state the decay mode for U-235.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nNuclear fission is currently used to produce electricity in a nuclear power plant. One \npossible fission reaction is represented by the equation below.\n235\n92U 1 1\n0n \u2192 92\n36Kr 1 141\n56Ba 1 31\n0n 1 energy\nThe barium-141 decays by beta emission and has a half-life of 18.3 minutes.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: alpha decay alpha a 4 2He 4 2a alpha particle"
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Complete the nuclear equation in your answer booklet for the decay of Ba-141, by writing a notation for the missing product.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nNuclear fission is currently used to produce electricity in a nuclear power plant. One \npossible fission reaction is represented by the equation below.\n235\n92U 1 1\n0n \u2192 92\n36Kr 1 141\n56Ba 1 31\n0n 1 energy\nThe barium-141 decays by beta emission and has a half-life of 18.3 minutes.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: 141 57La 141La La-141 lanthanum-141"
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Compare the amount of energy released by the fission of one mole of uranium-235 to the amount of energy released by the combustion of one mole of octane fuel, C8H18. P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nNuclear fission is currently used to produce electricity in a nuclear power plant. One \npossible fission reaction is represented by the equation below.\n235\n92U 1 1\n0n \u2192 92\n36Kr 1 141\n56Ba 1 31\n0n 1 energy\nThe barium-141 decays by beta emission and has a half-life of 18.3 minutes.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The fission of one mole of U-235 releases much more energy than the combustion of one mole of C8H18. For equal quantities, fission gives out more energy than combustion. Burning 1 mol of C8H18 releases much less energy. less energy from chemical reaction P.S./Chem. Rating Guide\u2013Aug. \u2019"
+    }
+  ]
+}

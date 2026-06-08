@@ -1,0 +1,1066 @@
+{
+  "subject": "earth-science",
+  "session": "january-2015",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The theory that the universe is expanding is supported by data from the",
+      "choices": [
+        "nuclear decay of radioactive materials",
+        "nuclear fusion of radioactive materials",
+        "blue shift of light from distant galaxies",
+        "red shift of light from distant galaxies"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a feature of the universe as seen through a telescope. This feature is best identified as",
+      "choices": [
+        "a galaxy",
+        "a comet",
+        "an asteroid",
+        "a star"
+      ],
+      "image": "/images/exams/earth-science/january-2015/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Fourteen billion years represents the approximate age of",
+      "choices": [
+        "Earth",
+        "Earth\u2019s Moon",
+        "our solar system",
+        "the universe"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which terms describe the motion of most objects in our solar system?",
+      "choices": [
+        "noncyclic and unpredictable",
+        "noncyclic and predictable",
+        "cyclic and unpredictable",
+        "cyclic and predictable"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which planet has completed less than one orbit of the Sun in the last 100 years?",
+      "choices": [
+        "Mars",
+        "Mercury",
+        "Neptune",
+        "Uranus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Compared to the size and density of Earth, the Moon has a",
+      "choices": [
+        "smaller diameter and lower density",
+        "smaller diameter and higher density",
+        "larger diameter and lower density",
+        "larger diameter and higher density"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In the Northern Hemisphere, planetary winds are deflected to the right due to the",
+      "choices": [
+        "Doppler effect",
+        "Coriolis effect",
+        "tilt of Earth\u2019s axis",
+        "uneven heating of Earth\u2019s surface"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which event is inferred to have contributed to the significant global climate change that may have caused the mass extinctions of organisms at the end of the Late Cretaceous Epoch?",
+      "choices": [
+        "the Big Bang",
+        "an asteroid impact",
+        "formation of Pangaea",
+        "shifting of Earth\u2019s magnetic poles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the placoderm fish Bothriolepis, an index fossil found in New York State. The surface bedrock at which location is most likely to contain this fossil?",
+      "choices": [
+        "Ithaca",
+        "Old Forge",
+        "Albany",
+        "New York City"
+      ],
+      "image": "/images/exams/earth-science/january-2015/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The geologic cross section below includes an unconformity and an igneous intrusion. Which two events produced the geologic unconformity in the rock record?",
+      "choices": [
+        "intrusion of magma, followed by contact metamorphism",
+        "intrusion of magma, followed by erosion of rock layers",
+        "erosion of rock layers, followed by deposition of more sediments",
+        "erosion of rock layers, followed by intrusion of magma"
+      ],
+      "image": "/images/exams/earth-science/january-2015/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "written",
+      "text": "Which map best represents the surface wind pattern around Northern Hemisphere high-pressure and low-pressure centers?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "What is the dewpoint when the dry-bulb temperature is 12\u00b0C and the wet-bulb temperature is 7\u00b0C?",
+      "choices": [
+        "1\u00b0C",
+        "\u00025\u00b0C",
+        "28\u00b0C",
+        "48\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "written",
+      "text": "The station model below shows some weather conditions at a location on Earth\u2019s surface. Which present weather symbol represents the most likely type of precipitation occurring at this location?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "In which atmospheric temperature zone does most precipitation occur?",
+      "choices": [
+        "thermosphere",
+        "mesosphere",
+        "stratosphere",
+        "troposphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which tectonic feature is associated with a complex or uncertain plate boundary?",
+      "choices": [
+        "Southwest Indian Ridge",
+        "East African Rift",
+        "Mariana Trench",
+        "Galapagos Hot Spot"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which types of surface bedrock are most likely found near Jamestown, New York?",
+      "choices": [
+        "slate and marble",
+        "quartzite and granite",
+        "shale and sandstone",
+        "schist and gneiss 4 65 61 ( 1 ) ( 4 ) ( 3 ) ( 2 ) ( 1 ) ( 3 ) ( 2 ) ( 4 ) H L H L H L H L Unconformity Igneous rock Contact metamorphism Key"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The map of North America below shows the source region of an air mass forming mostly over Mexico. This air mass originating over Mexico is classified as",
+      "choices": [
+        "continental polar",
+        "continental tropical",
+        "maritime polar",
+        "maritime tropical"
+      ],
+      "image": "/images/exams/earth-science/january-2015/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "written",
+      "text": "Which cross section best represents the valley shape where a rapidly flowing stream is cutting into the bedrock in a mountainous area?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The photograph below shows scratched and grooved bedrock with boulders on its surface. The scratches and grooves were most likely created when",
+      "choices": [
+        "alternating thawing and freezing of water cracked the bedrock",
+        "flooding from a nearby lake covered the bedrock",
+        "a glacier dragged rocks over the bedrock",
+        "rocks from a landslide slid along the bedrock"
+      ],
+      "image": "/images/exams/earth-science/january-2015/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The natural sandblasting (abrasion) of surface bedrock in a desert region is the result of",
+      "choices": [
+        "wind erosion",
+        "wave erosion",
+        "mass movement",
+        "chemical precipitation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which group of substances is arranged in order of decreasing specific heat values?",
+      "choices": [
+        "iron, granite, basalt",
+        "copper, lead, iron",
+        "dry air, water vapor, ice",
+        "liquid water, ice, water vapor"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The minerals talc, muscovite mica, quartz, and olivine are similar because they",
+      "choices": [
+        "have the same hardness",
+        "are the same color",
+        "contain silicon and oxygen",
+        "break along cleavage planes Source: www.nr.gov.nl.ca Source region ( 1 ) ( 2 ) ( 3 ) ( 4 )"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The photograph below shows Mt. Kilimanjaro, a volcano in Africa, located near the equator. Which climate factor is responsible for the snow seen on Mt. Kilimanjaro?",
+      "choices": [
+        "high latitude",
+        "high elevation",
+        "nearness to a cold ocean current",
+        "nearness to a high-pressure weather center"
+      ],
+      "image": "/images/exams/earth-science/january-2015/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a large outcrop of rock composed primarily of visible crystals of mica, quartz, and feldspar. Based on the composition and foliated texture, this rock can best be identified as",
+      "choices": [
+        "marble",
+        "schist",
+        "slate",
+        "anthracite coal GO ON TO THE NEXT PAGE\u00b6"
+      ],
+      "image": "/images/exams/earth-science/january-2015/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Which diagram best represents the regions of Earth in sunlight on June 21 and December 21? [NP indicates the North Pole and the shading represents Earth\u2019s night side. Diagrams are not drawn to scale.]",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The diagram below represents three identical beakers, A, B, and C, each containing an equal volume of uniform-sized spherical beads. Water is poured into each beaker until all of the pore spaces are filled. Which table best indicates the percentage of pore space compared to the total volume of each beaker? Beaker Percentage of Pore Space A 40 B 40 C 40",
+      "choices": [
+        "Beaker Percentage of Pore Space A 60 B 40 C 20",
+        "Beaker Percentage of Pore Space A 20 B 40 C 60",
+        "Beaker Percentage of Pore Space A 20 B 40 C 20",
+        "A 0.1-cm diameter B 0.4-cm diameter C 0.7-cm diameter (Not drawn to scale) ( 1 ) ( 3 ) ( 2 ) ( 4 ) NP June 21 Sun NP June 21 Sun Dec 21 NP Dec 21 NP June 21 Dec 21 NP NP Sun June 21 Dec 21 NP NP Sun"
+      ],
+      "image": "/images/exams/earth-science/january-2015/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The timeline below represents time on Earth from the beginning of the Paleozoic Era (A) to the present (B). Which numbered position best represents the time when humans first appeared in the fossil record?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/earth-science/january-2015/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The cross sections below represent three outcrops, labeled I, II, and III, containing some New York State index fossils. The rock layers have not been overturned. When the rock layers in the three outcrops are correlated, the oldest layer is the",
+      "choices": [
+        "shale layer in outcrop I",
+        "siltstone layer in outcrop II",
+        "limestone layer in outcrop III",
+        "conglomerate layer in outcrop III Outcrop I Outcrop II Outcrop III 1 2 3 4 A B"
+      ],
+      "image": "/images/exams/earth-science/january-2015/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "A bar graph of the radioactive decay of carbon-14 is shown below. The solid black sections of the bars on the graph represent the percentages of",
+      "choices": [
+        "carbon-14 from the original sample that has not decayed",
+        "uranium-238 from the original sample that has not decayed",
+        "nitrogen-14 decay product resulting from the radioactive decay",
+        "lead-206 decay product resulting from the radioactive decay"
+      ],
+      "image": "/images/exams/earth-science/january-2015/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Which weather instrument is used to determine wind direction? ( 1 ) ( 2 ) ( 3 ) ( 4 ) Time (half-lives) Percentage of C-14 0 1 2 3 4 6.25 12.5 25 0 50 100 C-14 Key",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Which bar graph best shows the percent by volume of the elements that make up Earth\u2019s hydrosphere?",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Four locations, A, B, C, and D, are represented on the topographic map below. Which lettered location has the highest elevation?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D D C B A River 100 Oxygen Silicon Nitrogen Hydrogen Others ( 1 ) 0 50 Percent by Volume 100 Oxygen Silicon Nitrogen Hydrogen Others ( 2 ) 0 50 Percent by Volume Oxygen Silicon Nitrogen Hydrogen Others Percent by Volume 0 50 100 Percent by Volume Oxygen Silicon Nitrogen Hydrogen Others 100 ( 3 ) 0 50 ( 4 )"
+      ],
+      "image": "/images/exams/earth-science/january-2015/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Which cross section best represents how surface winds form by midafternoon near a shoreline on a hot summer day? [Diagrams are not drawn to scale.]",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The cross section below represents a prevailing wind flow that causes different climates on the windward and leeward sides of a mountain range. Compared to the temperature and moisture of the air rising on the windward side, the temperature and moisture of the air descending at the same altitude on the leeward side will be",
+      "choices": [
+        "warmer and drier",
+        "warmer and more moist",
+        "cooler and drier",
+        "cooler and more moist Windward side Leeward side Prevailing winds Mountain range Ocean ( 1 ) ( 2 ) ( 3 ) ( 4 ) Sun Sun Sun Sun Surface wind Surface wind Surface wind Surface wind Cool air sinks Warm air sinks Cool air rises Warm air rises Warm air rises Cool air rises Warm air sinks Cool air sinks Land Land Land Land Lake water Lake water Lake water Lake water"
+      ],
+      "image": "/images/exams/earth-science/january-2015/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The diagram of Bowen\u2019s Reaction Series below indicates the relative temperatures at which specific minerals crystallize as magma cools. Which statement is best supported by Bowen\u2019s Reaction Series?",
+      "choices": [
+        "Most minerals crystallize at the same temperature.",
+        "Most felsic minerals usually crystallize before most mafic minerals.",
+        "Muscovite mica and quartz are the last minerals to crystallize as magma cools.",
+        "Biotite mica is the first mineral to crystallize as magma cools. Bowen\u2019s Reaction Series (Temperatures at which minerals crystallize) 1400\u00b0C 800\u00b0C Temperature of Cooling Magma Olivine Pyroxene Amphibole Biotite mica Calcium-rich plagioclase feldspar Sodium-rich plagioclase feldspar Orthoclase Muscovite mica Quartz"
+      ],
+      "image": "/images/exams/earth-science/january-2015/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Approximately how many days (d) does it take Earth to travel from position A to position C?",
+      "choices": [
+        "91 d",
+        "182 d",
+        "274 d",
+        "365 d"
+      ],
+      "image": "/images/exams/earth-science/january-2015/context_36_40.png",
+      "context": "Base your answers to questions 36 through 40 on the diagram below and on your knowledge of Earth \nscience. The diagram represents Earth\u2019s revolution around the Sun. Points A, B, C, and D represent Earth\u2019s\npositions in its orbit on the first day of each of the four seasons. The major axis and the foci (the center of the\nSun and the other focus) of Earth\u2019s orbit are shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Since Earth has an elliptical orbit, the",
+      "choices": [
+        "distance between the Sun and Earth varies",
+        "distance between the Sun and the other focus varies",
+        "length of Earth\u2019s major axis varies",
+        "length of Earth\u2019s period of revolution varies axis Major A C B Sun D Focus (Not drawn to scale) September 23 March 21 December 21 June 21"
+      ],
+      "image": "/images/exams/earth-science/january-2015/context_36_40.png",
+      "context": "Base your answers to questions 36 through 40 on the diagram below and on your knowledge of Earth \nscience. The diagram represents Earth\u2019s revolution around the Sun. Points A, B, C, and D represent Earth\u2019s\npositions in its orbit on the first day of each of the four seasons. The major axis and the foci (the center of the\nSun and the other focus) of Earth\u2019s orbit are shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "At positions A, B, C, and D, the north end of Earth\u2019s axis of rotation is pointing toward",
+      "choices": [
+        "Betelgeuse",
+        "Polaris",
+        "the center of the Milky Way",
+        "the center of our solar system"
+      ],
+      "image": "/images/exams/earth-science/january-2015/context_36_40.png",
+      "context": "Base your answers to questions 36 through 40 on the diagram below and on your knowledge of Earth \nscience. The diagram represents Earth\u2019s revolution around the Sun. Points A, B, C, and D represent Earth\u2019s\npositions in its orbit on the first day of each of the four seasons. The major axis and the foci (the center of the\nSun and the other focus) of Earth\u2019s orbit are shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The constellation Orion is visible at night in New York State when Earth is at position A, but not at position C because Earth\u2019s",
+      "choices": [
+        "nighttime is shorter when Earth is at position A",
+        "period of rotation is shorter than its period of revolution",
+        "distance to Orion is too great for the constellation to be seen",
+        "nighttime side is facing toward a different portion of space"
+      ],
+      "image": "/images/exams/earth-science/january-2015/context_36_40.png",
+      "context": "Base your answers to questions 36 through 40 on the diagram below and on your knowledge of Earth \nscience. The diagram represents Earth\u2019s revolution around the Sun. Points A, B, C, and D represent Earth\u2019s\npositions in its orbit on the first day of each of the four seasons. The major axis and the foci (the center of the\nSun and the other focus) of Earth\u2019s orbit are shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "At which two positions will an observer in New York State experience approximately 12 hours of daylight during one rotation of Earth?",
+      "choices": [
+        "A and B",
+        "A and C",
+        "B and C",
+        "B and D"
+      ],
+      "image": "/images/exams/earth-science/january-2015/context_36_40.png",
+      "context": "Base your answers to questions 36 through 40 on the diagram below and on your knowledge of Earth \nscience. The diagram represents Earth\u2019s revolution around the Sun. Points A, B, C, and D represent Earth\u2019s\npositions in its orbit on the first day of each of the four seasons. The major axis and the foci (the center of the\nSun and the other focus) of Earth\u2019s orbit are shown.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Which statement best describes the planetary wind belts that produce the winds represented in the cross section above?",
+      "choices": [
+        "Southwest and northwest winds diverge at the equator and blow toward the west.",
+        "Southwest and northwest winds diverge at the equator and blow toward the east.",
+        "Northeast and southeast winds converge at the equator and blow toward the west.",
+        "Northeast and southeast winds converge at the equator and blow toward the east."
+      ],
+      "image": "/images/exams/earth-science/january-2015/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the passage and cross section below and on your \nknowledge of Earth science. The cross section represents a generalized region of the Pacific Ocean along the\nequator during normal (non-El Ni\u00f1o) conditions. The relative temperatures of the ocean water and the \nprevailing wind direction are indicated.\nEl Ni\u00f1o\nUnder normal Pacific Ocean conditions, strong winds blow from east to west along\nthe equator. Surface ocean water piles up on the western part of the Pacific due to\nthese winds. This allows deeper, colder ocean water on the eastern rim of the Pacific\nto be pulled up (upwelling) to replace the warmer surface water that was pushed \nwestward.\nDuring an El Ni\u00f1o event, these westward-blowing winds get weaker. As a result,\nwarmer water does not get pushed westward as much, and colder water in the east is\nnot pulled toward the surface. This creates warmer surface ocean water temperatures\nin the east, allowing the thunderstorms that normally occur at the equator in the \nwestern Pacific to move eastward. A strong El Ni\u00f1o is often associated with wet \nwinters along the northwestern coast of South America and in the southeastern \nUnited States, and drier weather patterns in Southeast Asia (Indonesia) and Australia.\nThe northeastern United States usually has warmer and drier winters in an El Ni\u00f1o\nyear.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Compared to non-El Ni\u00f1o years, which climatic conditions exist near the equator on the western and eastern sides of the Pacific Ocean during an El Ni\u00f1o event?",
+      "choices": [
+        "The western Pacific is drier and the eastern Pacific is wetter.",
+        "The western Pacific is wetter and the eastern Pacific is drier.",
+        "The western and the eastern Pacific are both wetter.",
+        "The western and the eastern Pacific are both drier. Winds Pacific Ocean surface Upwelling cold water West \u0002\u0003\u0004\u0005\u0006\u0007\b \u0006 \b \u000e\u0006\u000f\b\u0010\u0003\u000f\u0011 \u0012 \u0003\u000f\u0013\b\u0014\u000f\u0003\u000f\u0015\u0016\u0007\b\u0002 \u000f\u0017\u0003\b\u0018\u000e\u0006\u0004\u0013\u0019 Indonesia South America Cold water Warm water (Not drawn to scale) East"
+      ],
+      "image": "/images/exams/earth-science/january-2015/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the passage and cross section below and on your \nknowledge of Earth science. The cross section represents a generalized region of the Pacific Ocean along the\nequator during normal (non-El Ni\u00f1o) conditions. The relative temperatures of the ocean water and the \nprevailing wind direction are indicated.\nEl Ni\u00f1o\nUnder normal Pacific Ocean conditions, strong winds blow from east to west along\nthe equator. Surface ocean water piles up on the western part of the Pacific due to\nthese winds. This allows deeper, colder ocean water on the eastern rim of the Pacific\nto be pulled up (upwelling) to replace the warmer surface water that was pushed \nwestward.\nDuring an El Ni\u00f1o event, these westward-blowing winds get weaker. As a result,\nwarmer water does not get pushed westward as much, and colder water in the east is\nnot pulled toward the surface. This creates warmer surface ocean water temperatures\nin the east, allowing the thunderstorms that normally occur at the equator in the \nwestern Pacific to move eastward. A strong El Ni\u00f1o is often associated with wet \nwinters along the northwestern coast of South America and in the southeastern \nUnited States, and drier weather patterns in Southeast Asia (Indonesia) and Australia.\nThe northeastern United States usually has warmer and drier winters in an El Ni\u00f1o\nyear.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "written",
+      "text": "Which cross section best represents the changed wind conditions and Pacific Ocean temperatures during an El Ni\u00f1o event? [Diagrams are not drawn to scale.]",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the passage and cross section below and on your \nknowledge of Earth science. The cross section represents a generalized region of the Pacific Ocean along the\nequator during normal (non-El Ni\u00f1o) conditions. The relative temperatures of the ocean water and the \nprevailing wind direction are indicated.\nEl Ni\u00f1o\nUnder normal Pacific Ocean conditions, strong winds blow from east to west along\nthe equator. Surface ocean water piles up on the western part of the Pacific due to\nthese winds. This allows deeper, colder ocean water on the eastern rim of the Pacific\nto be pulled up (upwelling) to replace the warmer surface water that was pushed \nwestward.\nDuring an El Ni\u00f1o event, these westward-blowing winds get weaker. As a result,\nwarmer water does not get pushed westward as much, and colder water in the east is\nnot pulled toward the surface. This creates warmer surface ocean water temperatures\nin the east, allowing the thunderstorms that normally occur at the equator in the \nwestern Pacific to move eastward. A strong El Ni\u00f1o is often associated with wet \nwinters along the northwestern coast of South America and in the southeastern \nUnited States, and drier weather patterns in Southeast Asia (Indonesia) and Australia.\nThe northeastern United States usually has warmer and drier winters in an El Ni\u00f1o\nyear.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "During an El Ni\u00f1o year, winter climatic conditions in New York State will most likely be",
+      "choices": [
+        "colder and wetter",
+        "colder and drier",
+        "warmer and wetter",
+        "warmer and drier Key Warm water Cold water Stronger winds Indonesia West Indonesia South America West East Stronger winds South America East ( 4 ) ( 2 ) ( 3 ) ( 1 ) Weaker winds Indonesia West Indonesia South America West East South America East Weaker winds"
+      ],
+      "image": "/images/exams/earth-science/january-2015/context_41_44.png",
+      "context": "Base your answers to questions 41 through 44 on the passage and cross section below and on your \nknowledge of Earth science. The cross section represents a generalized region of the Pacific Ocean along the\nequator during normal (non-El Ni\u00f1o) conditions. The relative temperatures of the ocean water and the \nprevailing wind direction are indicated.\nEl Ni\u00f1o\nUnder normal Pacific Ocean conditions, strong winds blow from east to west along\nthe equator. Surface ocean water piles up on the western part of the Pacific due to\nthese winds. This allows deeper, colder ocean water on the eastern rim of the Pacific\nto be pulled up (upwelling) to replace the warmer surface water that was pushed \nwestward.\nDuring an El Ni\u00f1o event, these westward-blowing winds get weaker. As a result,\nwarmer water does not get pushed westward as much, and colder water in the east is\nnot pulled toward the surface. This creates warmer surface ocean water temperatures\nin the east, allowing the thunderstorms that normally occur at the equator in the \nwestern Pacific to move eastward. A strong El Ni\u00f1o is often associated with wet \nwinters along the northwestern coast of South America and in the southeastern \nUnited States, and drier weather patterns in Southeast Asia (Indonesia) and Australia.\nThe northeastern United States usually has warmer and drier winters in an El Ni\u00f1o\nyear.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which data best describe the depth below Earth\u2019s surface and the density of Earth\u2019s interior at location W?",
+      "choices": [
+        "Depth: 600 km Density: changes from 3.4 g/cm3 to 5.6 g/cm3",
+        "Depth: 1000 km Density: averages 4.5 g/cm3",
+        "Depth: 2900 km Density: changes from 5.6 g/cm3 to 9.9 g/cm3",
+        "Depth: 5100 km Density: averages 11.1 g/cm3"
+      ],
+      "image": "/images/exams/earth-science/january-2015/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the cross section of Earth below and on your knowledge\nof Earth science. The cross section represents the pattern of seismic wave movement away from an earthquake.\nPoint W represents a location at the boundary between two layers of Earth\u2019s interior. Points X, Y, and Z \nrepresent seismic stations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which statement best explains why no S-waves were received directly from this earthquake at some seismic stations?",
+      "choices": [
+        "An interior Earth layer absorbs S-waves.",
+        "Earth\u2019s mantle reflects S-waves.",
+        "S-waves travel slower than P-waves.",
+        "S-waves travel only on Earth\u2019s surface. Key P-waves S-waves Z Epicenter X Y W"
+      ],
+      "image": "/images/exams/earth-science/january-2015/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the cross section of Earth below and on your knowledge\nof Earth science. The cross section represents the pattern of seismic wave movement away from an earthquake.\nPoint W represents a location at the boundary between two layers of Earth\u2019s interior. Points X, Y, and Z \nrepresent seismic stations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the seismograms of this earthquake recorded at seismic stations X, Y, and Z. Which table best matches each seismic station with its likely seismogram? Seismic Station Seismogram X 1 Y 2 Z 3",
+      "choices": [
+        "Seismic Station Seismogram X 2 Y 3 Z 1",
+        "Seismic Station Seismogram X 1 Y 3 Z 2",
+        "Seismic Station Seismogram X 3 Y 2 Z 1",
+        "Seismogram 1 P-wave arrival S-wave arrival Seismogram 3 No waves recorded Seismograms Seismogram 2 P-wave arrival, only"
+      ],
+      "image": "/images/exams/earth-science/january-2015/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the cross section of Earth below and on your knowledge\nof Earth science. The cross section represents the pattern of seismic wave movement away from an earthquake.\nPoint W represents a location at the boundary between two layers of Earth\u2019s interior. Points X, Y, and Z \nrepresent seismic stations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Organism A is a labyrinthodont and is most likely classified as",
+      "choices": [
+        "a mastodont",
+        "an amphibian",
+        "a dinosaur",
+        "a mammal"
+      ],
+      "image": "/images/exams/earth-science/january-2015/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the drawing below and on your knowledge of Earth \nscience. The drawing represents a swamp-forest environment that existed in North America at the base of the\nAcadian Mountains during the Carboniferous Period. Organism A lived in this swamp-forest.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The Acadian Mountains were formed as a result of the collision between North America and",
+      "choices": [
+        "Avalon",
+        "South America",
+        "Pangaea",
+        "Queenston Delta"
+      ],
+      "image": "/images/exams/earth-science/january-2015/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the drawing below and on your knowledge of Earth \nscience. The drawing represents a swamp-forest environment that existed in North America at the base of the\nAcadian Mountains during the Carboniferous Period. Organism A lived in this swamp-forest.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "At the time represented by this drawing, the region now known as New York State was inferred to be located",
+      "choices": [
+        "at 45\u00b0 S latitude",
+        "at 45\u00b0 N latitude",
+        "near the equator",
+        "near the North Pole Carboniferous Swamp-Forest A Adapted: Raymo, C. and M.,Written in Stone: A Geological History of the Northeastern United States, 2001, Black Dome Press Corp."
+      ],
+      "image": "/images/exams/earth-science/january-2015/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the drawing below and on your knowledge of Earth \nscience. The drawing represents a swamp-forest environment that existed in North America at the base of the\nAcadian Mountains during the Carboniferous Period. Organism A lived in this swamp-forest.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, place an X on the Moon\u2019s orbit to indicate the Moon\u2019s position on April 15.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the graph below and on your knowledge of Earth science.\nThe graph shows the average daily heights above or below sea level of high and low tides from April 15 to \nMay 15, for a New York State location. Five Moon phases are indicated at the dates on which they occurred.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, circle the two numbers on Earth\u2019s surface that best represent the locations of high tide when the Moon is in the position shown on the diagram.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the graph below and on your knowledge of Earth science.\nThe graph shows the average daily heights above or below sea level of high and low tides from April 15 to \nMay 15, for a New York State location. Five Moon phases are indicated at the dates on which they occurred.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Infer the date when the next first-quarter Moon phase occurred. \u20131 0 1 2 3 4 5 6 7 Average Daily Heights of High and Low Tides Tide Height Above or Below Sea Level (ft) New Moon \u20131 0 1 2 3 4 5 6 7 First quarter Full Moon Last quarter 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 13 14 April Date May Sea level New Moon 15 A v e ra ge daily hei g h t s o f l o w tides Average da ily h ei g h ts of hi g h tides",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the graph below and on your knowledge of Earth science.\nThe graph shows the average daily heights above or below sea level of high and low tides from April 15 to \nMay 15, for a New York State location. Five Moon phases are indicated at the dates on which they occurred.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Geologic events V through Z are listed below. V. Metamorphism of some sedimentary rock W. Formation of sedimentary rock layers X. Tilting and erosion of sedimentary rock layers Y. Intrusion/extrusion of igneous rock Z. Erosion of some igneous rock List the letters V through Z to indicate the correct order of the geologic events, from oldest to youngest, that formed this portion of Earth\u2019s crust.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_54_58.png",
+      "context": "Base your answers to questions 54 through 58 on the cross section below and on your knowledge of Earth\nscience. The cross section represents a portion of Earth\u2019s crust. Letters A, B, C, and D indicate sedimentary rock\nlayers that were originally formed from deposits in a sea. The rock layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify the name of the contact metamorphic rock formed at the boundary of the igneous rock and rock layer B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_54_58.png",
+      "context": "Base your answers to questions 54 through 58 on the cross section below and on your knowledge of Earth\nscience. The cross section represents a portion of Earth\u2019s crust. Letters A, B, C, and D indicate sedimentary rock\nlayers that were originally formed from deposits in a sea. The rock layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Describe one piece of evidence that suggests that rock layer C formed in a deeper sea environment than did rock layer A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_54_58.png",
+      "context": "Base your answers to questions 54 through 58 on the cross section below and on your knowledge of Earth\nscience. The cross section represents a portion of Earth\u2019s crust. Letters A, B, C, and D indicate sedimentary rock\nlayers that were originally formed from deposits in a sea. The rock layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Describe one piece of evidence represented in the cross section that indicates Earth\u2019s crust has moved at this location.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_54_58.png",
+      "context": "Base your answers to questions 54 through 58 on the cross section below and on your knowledge of Earth\nscience. The cross section represents a portion of Earth\u2019s crust. Letters A, B, C, and D indicate sedimentary rock\nlayers that were originally formed from deposits in a sea. The rock layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Identify the mineral composition of rock layer D. Extrusive igneous rock Key Contact metamorphism D C B A (Not drawn to scale)",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_54_58.png",
+      "context": "Base your answers to questions 54 through 58 on the cross section below and on your knowledge of Earth\nscience. The cross section represents a portion of Earth\u2019s crust. Letters A, B, C, and D indicate sedimentary rock\nlayers that were originally formed from deposits in a sea. The rock layers have not been overturned.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Place an X on the block diagram in your answer booklet to indicate the location of the water table.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the block diagram in your answer booklet, which \nrepresents a house in New York State with a well that supplies water for people. A truck is spreading salt near\na gasoline station to melt the snow on the road. Two soil zones are labeled on the diagram.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify one process that occurred in rising, moist air that caused the clouds to form at this location.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the block diagram in your answer booklet, which \nrepresents a house in New York State with a well that supplies water for people. A truck is spreading salt near\na gasoline station to melt the snow on the road. Two soil zones are labeled on the diagram.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Explain why, in winter, most of the meltwater produced by salting the road will not infiltrate the soil.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 61 on the block diagram in your answer booklet, which \nrepresents a house in New York State with a well that supplies water for people. A truck is spreading salt near\na gasoline station to melt the snow on the road. Two soil zones are labeled on the diagram.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "On the map in your answer booklet, identify the two tectonic plates, one on each side of the Mid-Atlantic Ridge rift at Iceland, by writing their names on the lines provided on the map.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the map in your answer booklet and on your knowledge of\nEarth science. The map shows the generalized ages of surface bedrock of Iceland, an island located on the \nMid-Atlantic Ridge rift. The location of the Mid-Atlantic Ridge rift is indicated. Points A and B represent \nlocations on the surface bedrock, which is igneous in origin. The ages of the surface bedrock, in million years\n(my), are indicated in the key.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw one arrow through point A and one arrow through point B to indicate the relative direction that each plate is moving to produce the Mid-Atlantic Ridge rift.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the map in your answer booklet and on your knowledge of\nEarth science. The map shows the generalized ages of surface bedrock of Iceland, an island located on the \nMid-Atlantic Ridge rift. The location of the Mid-Atlantic Ridge rift is indicated. Points A and B represent \nlocations on the surface bedrock, which is igneous in origin. The ages of the surface bedrock, in million years\n(my), are indicated in the key.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Identify one dark-colored, mafic igneous rock with a vesicular texture that is likely to be found on the surface of Iceland.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the map in your answer booklet and on your knowledge of\nEarth science. The map shows the generalized ages of surface bedrock of Iceland, an island located on the \nMid-Atlantic Ridge rift. The location of the Mid-Atlantic Ridge rift is indicated. Points A and B represent \nlocations on the surface bedrock, which is igneous in origin. The ages of the surface bedrock, in million years\n(my), are indicated in the key.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Identify one feature in the mantle beneath Iceland that causes larger amounts of magma formation in Iceland than at most other locations along the rest of the Mid-Atlantic Ridge rift.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the map in your answer booklet and on your knowledge of\nEarth science. The map shows the generalized ages of surface bedrock of Iceland, an island located on the \nMid-Atlantic Ridge rift. The location of the Mid-Atlantic Ridge rift is indicated. Points A and B represent \nlocations on the surface bedrock, which is igneous in origin. The ages of the surface bedrock, in million years\n(my), are indicated in the key.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "State the average annual snowfall at location A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the maps below and on your knowledge of Earth science.\nThe snowfall map shows isolines of average annual snowfall, measured in inches, across part of Michigan\nbetween two of the Great Lakes. Letters A through C represent locations on Earth\u2019s surface. The snowfall map\nis an enlargement of the map area outlined on the following Great Lakes regional map.\nWisconsin\nMap\nArea\nL\na\nke\nS\nu\npe\nrio\nr\nLake\nMichiga\nn\nMichigan\nLake\nHuron\nLake Erie\nLake Ontario\nGreat Lakes Regional Map\nA\nB\nC\nMichigan\nLake Huron\nLake Michigan\n0\n20\n40\n60\n80\n100 miles\nN\n100\n120\n140\n80\n100\n160\n80\n80\n60\n40\n140\nAverage Annual Snowfall\n120\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\nP.S./E. Sci.\u2013Jan. \u201915\n[22]\n\nP.S./E. Sci.\u2013Jan. \u201915\n[23]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a profile of the average annual snowfall along line BC by plotting the value of each isoline that crosses line BC. Connect all eight plots with a line to complete the profile.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the maps below and on your knowledge of Earth science.\nThe snowfall map shows isolines of average annual snowfall, measured in inches, across part of Michigan\nbetween two of the Great Lakes. Letters A through C represent locations on Earth\u2019s surface. The snowfall map\nis an enlargement of the map area outlined on the following Great Lakes regional map.\nWisconsin\nMap\nArea\nL\na\nke\nS\nu\npe\nrio\nr\nLake\nMichiga\nn\nMichigan\nLake\nHuron\nLake Erie\nLake Ontario\nGreat Lakes Regional Map\nA\nB\nC\nMichigan\nLake Huron\nLake Michigan\n0\n20\n40\n60\n80\n100 miles\nN\n100\n120\n140\n80\n100\n160\n80\n80\n60\n40\n140\nAverage Annual Snowfall\n120\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\nP.S./E. Sci.\u2013Jan. \u201915\n[22]\n\nP.S./E. Sci.\u2013Jan. \u201915\n[23]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "The surface elevation of Lake Huron is 176 meters above sea level. Identify one New York State river that receives water that flows from Lake Huron.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the maps below and on your knowledge of Earth science.\nThe snowfall map shows isolines of average annual snowfall, measured in inches, across part of Michigan\nbetween two of the Great Lakes. Letters A through C represent locations on Earth\u2019s surface. The snowfall map\nis an enlargement of the map area outlined on the following Great Lakes regional map.\nWisconsin\nMap\nArea\nL\na\nke\nS\nu\npe\nrio\nr\nLake\nMichiga\nn\nMichigan\nLake\nHuron\nLake Erie\nLake Ontario\nGreat Lakes Regional Map\nA\nB\nC\nMichigan\nLake Huron\nLake Michigan\n0\n20\n40\n60\n80\n100 miles\nN\n100\n120\n140\n80\n100\n160\n80\n80\n60\n40\n140\nAverage Annual Snowfall\n120\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet. Some questions\nmay require the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\nP.S./E. Sci.\u2013Jan. \u201915\n[22]\n\nP.S./E. Sci.\u2013Jan. \u201915\n[23]\n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Describe one characteristic of the coastal plain that caused the river to develop meanders.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the landscape diagram below and on your knowledge of\nEarth science. The diagram represents a long river system from its origin (source) in the mountains to its end\n(mouth) at the ocean.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Identify one change that would cause an increase in the rate of stream erosion in the river valley in the mountains.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the landscape diagram below and on your knowledge of\nEarth science. The diagram represents a long river system from its origin (source) in the mountains to its end\n(mouth) at the ocean.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Explain why the sediments deposited in the delta are arranged in layers.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the landscape diagram below and on your knowledge of\nEarth science. The diagram represents a long river system from its origin (source) in the mountains to its end\n(mouth) at the ocean.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "List two processes that would change the accumulated sediments in the delta into sedimentary rock.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the landscape diagram below and on your knowledge of\nEarth science. The diagram represents a long river system from its origin (source) in the mountains to its end\n(mouth) at the ocean.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "State one reason for the restriction of the construction of buildings near a meandering river on a coastal plain. Mountains Plateau Coastal plain Ocean Delta Lakes Meanders",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_69_73.png",
+      "context": "Base your answers to questions 69 through 73 on the landscape diagram below and on your knowledge of\nEarth science. The diagram represents a long river system from its origin (source) in the mountains to its end\n(mouth) at the ocean.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "On the grid in your answer booklet, plot the apparent rate of change in a Foucault pendulum\u2019s direction of swing for each of the latitudes given in the data table. Connect the plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_74_78.png",
+      "context": "Base your answers to questions 74 through 78 on the passage and data table below and on your knowledge\nof Earth science. The data table shows the apparent hourly change in the direction of a pendulum\u2019s swing, in\ndegrees per hour (\u00b0/h), for six different Northern Hemisphere latitudes.\nFoucault\u2019s Pendulum\nIn 1851, Jean-Bernard-L\u00e9on Foucault attached a heavy iron ball to a steel wire\nhanging from the high ceiling of a church in Paris to demonstrate an apparent motion\ncaused by Earth\u2019s rotation. This pendulum could swing freely back and forth. A spike\non the bottom of Foucault\u2019s pendulum produced straight lines in sand spread on the\nfloor. The position of each new line appeared to gradually shift in a clockwise direction.\nEventually, the pendulum returned to its original path, completing a 360\u00b0 pattern in\napproximately 32 hours. At other northern latitudes, a Foucault pendulum will \ncomplete a 360\u00b0 pattern of swing in different amounts of time. In the Northern\nHemisphere, the number of degrees that a pendulum appears to change its clockwise\ndirection of swing each hour varies with latitude.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Based on the data table, state the relationship between latitude and the apparent rate of change in a Foucault pendulum\u2019s direction of swing.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_74_78.png",
+      "context": "Base your answers to questions 74 through 78 on the passage and data table below and on your knowledge\nof Earth science. The data table shows the apparent hourly change in the direction of a pendulum\u2019s swing, in\ndegrees per hour (\u00b0/h), for six different Northern Hemisphere latitudes.\nFoucault\u2019s Pendulum\nIn 1851, Jean-Bernard-L\u00e9on Foucault attached a heavy iron ball to a steel wire\nhanging from the high ceiling of a church in Paris to demonstrate an apparent motion\ncaused by Earth\u2019s rotation. This pendulum could swing freely back and forth. A spike\non the bottom of Foucault\u2019s pendulum produced straight lines in sand spread on the\nfloor. The position of each new line appeared to gradually shift in a clockwise direction.\nEventually, the pendulum returned to its original path, completing a 360\u00b0 pattern in\napproximately 32 hours. At other northern latitudes, a Foucault pendulum will \ncomplete a 360\u00b0 pattern of swing in different amounts of time. In the Northern\nHemisphere, the number of degrees that a pendulum appears to change its clockwise\ndirection of swing each hour varies with latitude.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Based on the data table, state the approximate apparent rate of change in the direction of a pendulum\u2019s swing, in degrees per hour, at Riverhead, New York.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_74_78.png",
+      "context": "Base your answers to questions 74 through 78 on the passage and data table below and on your knowledge\nof Earth science. The data table shows the apparent hourly change in the direction of a pendulum\u2019s swing, in\ndegrees per hour (\u00b0/h), for six different Northern Hemisphere latitudes.\nFoucault\u2019s Pendulum\nIn 1851, Jean-Bernard-L\u00e9on Foucault attached a heavy iron ball to a steel wire\nhanging from the high ceiling of a church in Paris to demonstrate an apparent motion\ncaused by Earth\u2019s rotation. This pendulum could swing freely back and forth. A spike\non the bottom of Foucault\u2019s pendulum produced straight lines in sand spread on the\nfloor. The position of each new line appeared to gradually shift in a clockwise direction.\nEventually, the pendulum returned to its original path, completing a 360\u00b0 pattern in\napproximately 32 hours. At other northern latitudes, a Foucault pendulum will \ncomplete a 360\u00b0 pattern of swing in different amounts of time. In the Northern\nHemisphere, the number of degrees that a pendulum appears to change its clockwise\ndirection of swing each hour varies with latitude.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify one location on Earth where the apparent direction of a pendulum\u2019s swing would complete a 360\u00b0 circular pattern in 24 hours. Latitude (\u00b0 N) Apparent Rate of Change in the Direction of Swing (\u00b0/h) 15 3.9 30 7.5 45 10.6 60 13.0 75 14.5 90 15.0",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_74_78.png",
+      "context": "Base your answers to questions 74 through 78 on the passage and data table below and on your knowledge\nof Earth science. The data table shows the apparent hourly change in the direction of a pendulum\u2019s swing, in\ndegrees per hour (\u00b0/h), for six different Northern Hemisphere latitudes.\nFoucault\u2019s Pendulum\nIn 1851, Jean-Bernard-L\u00e9on Foucault attached a heavy iron ball to a steel wire\nhanging from the high ceiling of a church in Paris to demonstrate an apparent motion\ncaused by Earth\u2019s rotation. This pendulum could swing freely back and forth. A spike\non the bottom of Foucault\u2019s pendulum produced straight lines in sand spread on the\nfloor. The position of each new line appeared to gradually shift in a clockwise direction.\nEventually, the pendulum returned to its original path, completing a 360\u00b0 pattern in\napproximately 32 hours. At other northern latitudes, a Foucault pendulum will \ncomplete a 360\u00b0 pattern of swing in different amounts of time. In the Northern\nHemisphere, the number of degrees that a pendulum appears to change its clockwise\ndirection of swing each hour varies with latitude.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "The diagram below represents a swinging pendulum located in Earth\u2019s Northern Hemisphere. The pendulum knocked over two pegs during its first swing. The diagram in your answer booklet represents a top view of the same pegs. Circle the next two pegs that would fall as the pendulum appears to change its direction of swing in the Northern Hemisphere.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_74_78.png",
+      "context": "Base your answers to questions 74 through 78 on the passage and data table below and on your knowledge\nof Earth science. The data table shows the apparent hourly change in the direction of a pendulum\u2019s swing, in\ndegrees per hour (\u00b0/h), for six different Northern Hemisphere latitudes.\nFoucault\u2019s Pendulum\nIn 1851, Jean-Bernard-L\u00e9on Foucault attached a heavy iron ball to a steel wire\nhanging from the high ceiling of a church in Paris to demonstrate an apparent motion\ncaused by Earth\u2019s rotation. This pendulum could swing freely back and forth. A spike\non the bottom of Foucault\u2019s pendulum produced straight lines in sand spread on the\nfloor. The position of each new line appeared to gradually shift in a clockwise direction.\nEventually, the pendulum returned to its original path, completing a 360\u00b0 pattern in\napproximately 32 hours. At other northern latitudes, a Foucault pendulum will \ncomplete a 360\u00b0 pattern of swing in different amounts of time. In the Northern\nHemisphere, the number of degrees that a pendulum appears to change its clockwise\ndirection of swing each hour varies with latitude.\nData Table",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "The star Canopus has a surface temperature of 7400 K and a luminosity (relative to the Sun) of 1413. In your answer booklet, use an X to plot the position of Canopus on the graph, based on its surface temperature and luminosity.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 82 on the Characteristics of Stars graph in your answer booklet\nand on your knowledge of Earth science.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Identify two stars from the Characteristics of Stars graph that are at the same life-cycle stage as the Sun.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 82 on the Characteristics of Stars graph in your answer booklet\nand on your knowledge of Earth science.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Describe one characteristic of the star Spica that causes it to have a greater luminosity than Barnard\u2019s Star.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 82 on the Characteristics of Stars graph in your answer booklet\nand on your knowledge of Earth science.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Describe how the relative surface temperature and the relative luminosity of Aldebaran would change if it collapses and becomes a white dwarf like Procyon B. Point of attachment Swinging pendulum Ceiling of room Floor Ring of pegs",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 79 through 82 on the Characteristics of Stars graph in your answer booklet\nand on your knowledge of Earth science.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "On the map in your answer booklet, use the latitudes and longitudes listed in the data table to plot the March 16 and March 17 locations of the center of the low-pressure system (L) by placing an X at each location.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the table below, on the map in your answer booklet, and\non your knowledge of Earth science. The table lists the latitude, longitude, and barometric pressure, in millibars\n(mb), of the center of a low-pressure system (L) as it moved across North America from March 14 to March 17.\nThe map in your answer booklet shows the center of this low-pressure system (L) and associated fronts on\nMarch 14. The location of the low-pressure system 24 hours later on March 15 is also indicated.\nThe Center of the Low\u2013Pressure System (L)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Calculate the average speed, in kilometers per hour, at which this low-pressure center (L) traveled during the 24 hours between March 14 and March 15.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the table below, on the map in your answer booklet, and\non your knowledge of Earth science. The table lists the latitude, longitude, and barometric pressure, in millibars\n(mb), of the center of a low-pressure system (L) as it moved across North America from March 14 to March 17.\nThe map in your answer booklet shows the center of this low-pressure system (L) and associated fronts on\nMarch 14. The location of the low-pressure system 24 hours later on March 15 is also indicated.\nThe Center of the Low\u2013Pressure System (L)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "On the station model in your answer booklet, using the proper format, record the barometric pressure of the low-pressure center (L) on March 16. March Date Latitude Longitude Barometric Pressure (mb) 14 50\u00b0 N 112\u00b0 W 999.7 15 52\u00b0 N 95\u00b0 W 999.5 16 54\u00b0 N 79\u00b0 W 998.5 17 56\u00b0 N 64\u00b0 W 998.0 P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2015/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the table below, on the map in your answer booklet, and\non your knowledge of Earth science. The table lists the latitude, longitude, and barometric pressure, in millibars\n(mb), of the center of a low-pressure system (L) as it moved across North America from March 14 to March 17.\nThe map in your answer booklet shows the center of this low-pressure system (L) and associated fronts on\nMarch 14. The location of the low-pressure system 24 hours later on March 15 is also indicated.\nThe Center of the Low\u2013Pressure System (L)",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

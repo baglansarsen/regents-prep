@@ -1,0 +1,486 @@
+{
+  "subject": "algebra-2",
+  "session": "june-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to (x 1 3)2 1 4(x 1 3) 2 5?",
+      "choices": [
+        "(x 1 5)(x 2 1)",
+        "(x 1 8)(x 1 2)",
+        "(x 2 2)(x 1 4)",
+        "x2 1 4x 1 16"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which value, to the nearest tenth, is an approximate solution for the equation f(x) 5 g(x), if f(x) 5 x 2 3 5 and g(x) 5 2(1.3)x?",
+      "choices": [
+        "3.2",
+        "3.9",
+        "4.0",
+        "5.6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which equation is graphed in the diagram below? y 0 10 5 x 5 10",
+      "choices": [
+        "y 5 23sin( 3 \u03c0 x) 1 5",
+        "y 5 23cos( 3 \u03c0 x) 1 5",
+        "y 5 25sin( 3 \u03c0 x) 1 3",
+        "y 5 25cos( 3 \u03c0 x) 1 3"
+      ],
+      "image": "/images/exams/algebra-2/june-2024/q3.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which point is in Quadrant III and is a solution to the system below? y 5 x2 2 24 y 5 x 2 12",
+      "choices": [
+        "(4,28)",
+        "(23,215)",
+        "(24,216)",
+        "(23,233)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "For which equations will the value s 5 4 make the statement an identity? I. (2x 2 3)2 5 4x2 2 3sx 1 9 II. (x 2 2)3 5 (x 2 2)(x2 1 sx 1 s)",
+      "choices": [
+        "I, only",
+        "II, only",
+        "I and II",
+        "neither I nor II"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The number of bacteria in a sample, which can be modeled by an exponential regression, is shown in the table below. Time Since Observation Began (hours) 0 1 2 3.5 4 Number of Bacteria 40 48 57 75 82 Assuming this trend continues, approximately how many bacteria would be present 8 hours after the observation began?",
+      "choices": [
+        "123",
+        "127",
+        "168",
+        "180"
+      ],
+      "image": "/images/exams/algebra-2/june-2024/q6.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Factored completely, x4 1 4x3 2 9x2 2 36x is equivalent to",
+      "choices": [
+        "x(x 1 9)(x 2 9)(x 1 4)",
+        "x(x 1 3)(x 2 3)(x 1 4)",
+        "(x3 2 9x)(x 1 4)",
+        "x(x2 2 9)(x 1 4)(x 1 4)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The solution set for the equation x 1 1 5 4x 1 25 is",
+      "choices": [
+        "{ }",
+        "{6}",
+        "{6,24}",
+        "{24}"
+      ],
+      "image": "/images/exams/algebra-2/june-2024/q8.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "If f(x) is represented by the graph below, which translation of f(x) would have imaginary roots? f(x) x",
+      "choices": [
+        "f(x 1 5)",
+        "f(x 2 5)",
+        "f(x) 1 5",
+        "f(x) 2 5"
+      ],
+      "image": "/images/exams/algebra-2/june-2024/q9.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The solutions to the equation 3x2 2 4x 1 2 5 2x 2 3 are",
+      "choices": [
+        "3 2 6 3 2 i",
+        "1 6 3 6 i",
+        "1 6 3 12",
+        "1 6 2 6 i"
+      ],
+      "image": "/images/exams/algebra-2/june-2024/q10.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "12",
+      "choices": [
+        "A 5 5000(0.035)n",
+        "a0 5 5000",
+        "A 5 5000(1.035)n",
+        "a0 5 5000 an 5 an 2 1(0.035) an 5 an 2 1(1.035)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to 2xy2 3 x2y?",
+      "choices": [
+        "2x 5 3y 7 3",
+        "2xy",
+        "2x 2 3y 2 3",
+        "2x7y4"
+      ],
+      "image": "/images/exams/algebra-2/june-2024/q13.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which statements must be true about the polynomial function k(x) 5 22x3 2 11x2 2 12x 1 9? I. (x 2 3) is a factor of k(x) II. k(0) 5 9 III. x 1 2 k(x) has a remainder of 5",
+      "choices": [
+        "II, only",
+        "I and II",
+        "II and III",
+        "I, II, and III"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "To prepare for lacrosse tryouts, Kole is increasing the amount of time he spends at the gym. This week he is spending 150 minutes there and he plans to increase this amount by 2% each week. The amount of time, in minutes, that he plans to spend at the gym t weeks from now is given by the function A(t) 5 150(1.02)t. In terms of a daily growth rate, the amount of time Kole is planning to spend at the gym can best be modeled by the function",
+      "choices": [
+        "A(t) 5 150(1.14869) t 7",
+        "A(t) 5 150(1.14869)7t",
+        "A(t) 5 150(1.00283) t 7",
+        "A(t) 5 150(1.00283)7"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Mr. Zachary posts review assignments on the Betamath website for his students. On his last test, 49% of his students used Betamath and passed. Overall, 68% of his students used Betamath. Approximately what percentage of Mr. Zachary\u2019s students passed, given that they used Betamath?",
+      "choices": [
+        "19%",
+        "32%",
+        "33%",
+        "72%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Given sin q 5 25 7 and q terminates in Quadrant II, what is the value of tan q?",
+      "choices": [
+        "224 7",
+        "2 7 24",
+        "24 7",
+        "7 24"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A family owned grocery store in New Hartford, NY employs 49 people whose ages are approximately normally distributed with a mean of 36 years and a standard deviation of 6.2 years. Ryan has been hired to work at this store. He is 30 years old. How many people who work at this store would you expect to be younger than Ryan?",
+      "choices": [
+        "17",
+        "7",
+        "41",
+        "8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "For the function d(x) 5 3 x 1 2, the inverse function, d21(x), equals",
+      "choices": [
+        "3 x 1 2",
+        "x3 1 2",
+        "23 x 1 2",
+        "x3 2 2"
+      ],
+      "image": "/images/exams/algebra-2/june-2024/q19.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Given f(x) 5 x4 1 x3 2 3x2 1 9x 2 108 and f",
+      "choices": [
+        "24, 3 only",
+        "23, 4 only",
+        "63i,24, 3",
+        "63i,23, 4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The profit function, p(x), is found by subtracting the cost function, c(x), from the revenue function, r(x). Which function below represents the cost function given p(x) 5 215x2 1 600x 1 60 and r(x) 5 20.4x2 1 130x 1 1200?",
+      "choices": [
+        "c(x) 5 214.6x2 1 470x 2 1140",
+        "c(x) 5 214.6x2 1 730x 2 1260",
+        "c(x) 5 14.6x2 2 470x 1 1140",
+        "c(x) 5 14.6x2 1 730x 2 1260"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "What is the remainder when 4x3 2 3x 1 3 is divided by x 2 2?",
+      "choices": [
+        "223",
+        "27",
+        "13",
+        "29"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "24",
+      "choices": [
+        "10.989",
+        "33.417",
+        "163.5",
+        "293.609 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/algebra-2/june-2024/q24.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Given x is a real number, write the expression in simplest a 1 bi form: (x 1 2i)(3 2 2xi) 1 2x2",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Solve 3.8e1.5t 5 16 algebraically for t to the nearest hundredth.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "In an attempt to get the student body\u2019s opinion of a new dress code,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Sketch a graph of polynomial P(x), given the criteria below: \u2022 P(x) has zeros only at 25, 1, and 4 \u2022 As x \u221e, P(x) 2\u221e \u2022 As x 2\u221e, P(x) 2\u221e",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2024/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "The height, above ground, of a Ferris wheel car can be modeled by the function h(t) 5 2103.5cos( 2\u03c0t 5 ) 1 108.5 where h is measured in feet and t is measured in minutes. State the period of the function and describe what the period represents in this context.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Solve algebraically for all values of x: x 1 5 8 2 x 3 5 5",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "The transportation methods used by the upperclassmen at Calhoun High School are summarized in the table below. Upperclassmen Transportation Methods Drive Take the Bus Walk Junior 58 75 12 Senior 81 39 12 Are the events \u201cbeing a junior\u201d and \u201cdriving to school\u201d independent? Using statistical evidence,",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2024/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Can f(x) 5 x3 1 7 be classified as an odd function? Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Solve the following system of equations algebraically for all values of x, y, and z: 3x 2 8y 1 2z 5 260 2x 2 7y 2 5z 5 231 26x 1 2y 2 4z 5 36",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "In the town of Skaneateles, New York, house prices since 2008 have changed based on the function H(t) 5 200,000(1.045)t, where t is the number of years since 2008 and H(t) is the median house price. Determine the average rate of change for the median house price in Skaneateles from 2010 to 2018",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "A sporting goods manufacturer is trying to determine if they should continue to produce multiple types of hockey pucks. The company surveyed 50 randomly chosen customers and asked them if they purchased both game regulation pucks and lighter training pucks. Of those surveyed, 40 of them said that they purchase both types of pucks. A simulation that was run 100 times based on the survey results produced the approximately normal results below. 0 10 20 30 0.56 0.64 0.72 0.80 0.88 0.96 Mean = 0.795 SD = 0.085 Proportion that Purchase Both Types of Hockey Pucks a) Determine an interval containing the middle 95% of plausible values that estimates the proportion of all customers who would purchase both types of pucks from the company. b) The company will continue to manufacture both types of hockey pucks if it is reasonable to assume that the true proportion of customers who buy both types of hockey pucks is above 0.60. Using the interval from part a,",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2024/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Graph y 5 f(x), where f(x) 5 log2(x 2 1) 1 3 on the set of axes below. y x State the equation of the asymptote of f(x). When f(x) is reflected over the line y 5 x, a new function is formed: g(x) 5 2x 2 3 1 1. State the equation of the asymptote of g(x) Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-2/june-2024/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Megan is performing an experiment in a lab where the air temperature is a constant 73\u00b0F and the liquid is 237\u00b0F. One and a half hours later, the temperature of the liquid is 112\u00b0F. Newton\u2019s law of cooling states T(t) 5 Ta 1 (T0 2 Ta)e2kt where: T(t): temperature, \u00b0F, of the liquid at t hours Ta: air temperature T0: initial temperature of the liquid k: constant Determine the value of k, to the nearest thousandth, for this liquid. Question 37 Determine the temperature of the liquid using your value for k, to the nearest degree, after two and a half hours. Megan needs the temperature of the liquid to be 80\u00b0F to perform the next step in her experiment. Use your value for k to determine, to the nearest tenth of an hour, how much time she must wait since she first began the experiment. Question 37 continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 pr2 Circle C 5 pd or C 5 2pr General Prisms V 5 Bh Cylinder V 5 pr2h Sphere V 5 4_ 3 pr3 Cone V 5 1_ 3 pr2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u2260 1 Radians 1 radian 5 180 ___ p degrees Degrees 1 degree 5 p ___ 180 radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

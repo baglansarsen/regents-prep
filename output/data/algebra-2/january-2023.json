@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-2",
+  "session": "january-2023",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to (x 1 2)2 2 5(x 1 2) 1 6?",
+      "choices": [
+        "x(x 2 1)",
+        "(x 2 3) (x 2 2)",
+        "(x 2 4) (x 1 3)",
+        "(x 2 6) (x 1 1)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "To the nearest tenth, the solution to the equation 4300e0.07x 2 123 5 5000 is",
+      "choices": [
+        "1.1",
+        "2.5",
+        "6.3",
+        "68.5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The value of an automobile t years after it was purchased is given by the function V 5 38,000(0.84)t. Which statement is true?",
+      "choices": [
+        "The value of the car increases 84% each year.",
+        "The value of the car decreases 84% each year.",
+        "The value of the car increases 16% each year.",
+        "The value of the car decreases 16% each year."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which function represents exponential decay?",
+      "choices": [
+        "p(x) 5 ( 1 __ 4 ) 2x",
+        "q(x) 5 1.82x",
+        "r(x) 5 2.32x",
+        "s(x) 5 4 x__ 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The expression x x x x 5 4 14 2 4 2 is equivalent to",
+      "choices": [
+        "x3 2 2x2 2 x 1 6 1 2 _____ x 1 2",
+        "x3 2 5x 1 4 2 14 _____ x 1 2",
+        "x3 1 2x2 2 x 1 2 1 18 _____ x 1 2",
+        "x3 1 2x2 2 9x 1 22 2 30 _____ x 1 2"
+      ],
+      "image": "/images/exams/algebra-2/january-2023/q5.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The sum of the first 20 terms of the series 22 1 6 2 18 1 54 2 \u2026 is",
+      "choices": [
+        "2610",
+        "259",
+        "1,743,392,200",
+        "2,324,522,934"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "If f(x) 5 2x4 2 x3 2 16x 1 8, then f( 1__ 2 )",
+      "choices": [
+        "equals 0 and 2x 1 1 is a factor of f(x)",
+        "equals 0 and 2x 2 1 is a factor of f(x)",
+        "does not equal 0 and 2x 1 1 is not a factor of f(x)",
+        "does not equal 0 and 2x 2 1 is a factor of f(x)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "If (6 2 ki)2 5 27 2 36i, the value of k is",
+      "choices": [
+        "236",
+        "23",
+        "3",
+        "6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "What is the solution set of the equation 2 6 1 1 1 = x x x x x 2 3 3 2 ?",
+      "choices": [
+        "{23}",
+        "{23,0}",
+        "{3}",
+        "{0,3}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "How many real solutions exist for the system of equations below? y 5 1__ 4 x 2 8 y 5 1__ 2 x2 1 2x",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which equation represents a polynomial identity?",
+      "choices": [
+        "x3 1 y3 5 (x 1 y)3",
+        "x3 1 y3 5 (x 1 y)(x2 2 xy 1 y2)",
+        "x3 1 y3 5 (x 1 y)(x2 2 xy 2 y2)",
+        "x3 1 y3 5 (x 2 y)(x2 1 xy 1 y2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Given x . 0, the expression x x 1 5 1 2 can be rewritten as",
+      "choices": [
+        "x 3",
+        "2 x3 10",
+        "x 1 3 10",
+        "x10 3"
+      ],
+      "image": "/images/exams/algebra-2/january-2023/q12.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A cyclist pedals a bike at a rate of 60 revolutions per minute. The height, h, of a pedal at time t, in seconds, is plotted below. \u20135 \u20134 \u20133 \u20132 \u20131 1 2 3 4 5 1 5 h t The graph can be modeled by the function h(t) 5 5sin(kt), where k is equal to",
+      "choices": [
+        "1",
+        "2\u03c0",
+        "60",
+        "\u03c0 ___ 30"
+      ],
+      "image": "/images/exams/algebra-2/january-2023/q13.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which statement about data collection is most accurate?",
+      "choices": [
+        "A survey about parenting styles given to every tenth student entering the library will provide unbiased results.",
+        "An observational study allows a researcher to determine the cause of an outcome.",
+        "Margin of error increases as sample size increases.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "If f(x) 5 1__ 2 x 1 2, then the inverse function is",
+      "choices": [
+        "f21(x) 5 2 1__ 2 x 2 2",
+        "f21(x) 5 1__ 2 x 2 1",
+        "f21(x) 5 2x 2 4",
+        "f21(x) 5 2x 1 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Given f(x) 5 x4 2 x3 2 6x2, for what values of x will f(x) . 0?",
+      "choices": [
+        "x , 22, only",
+        "x , 22 or x . 3",
+        "x , 22 or 0 \u2264 x \u2264 3",
+        "x . 3, only"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "For which approximate value(s) of x will log(x 1 5) 5 |x 2 1| 2 3?",
+      "choices": [
+        "5, 1",
+        "22.41, 0.41",
+        "22.41, 5",
+        "5, only"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Consider a cubic polynomial with the characteristics below. \u2022 exactly one real root \u2022 as x \u2192 `, f(x) \u2192 2` Given a . 0 and b . 0, which equation represents a cubic polynomial with these characteristics?",
+      "choices": [
+        "f(x) 5 (x 2 a)(x2 1 b)",
+        "f(x) 5 (a 2 x)(x2 1 b)",
+        "f(x) 5 (a 2 x2)(x2 1 b)",
+        "f(x) 5 (x 2 a)(b 2 x2)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Betty conducted a survey of her class to see if they like pizza. She gathered 200 responses and 65% of the voters said they did like pizza. Betty then ran a simulation of 400 more surveys, each with 200 responses, assuming that 65% of the voters would like pizza. The output of the simulation is shown below. Samples = 400 Mean = 0.654 SD = 0.035 0.55 0 10 20 30 40 50 0.60 0.65 Proportion Frequency 0.70 0.75 Considering the middle 95% of the data, what is the margin of error for the simulation?",
+      "choices": [
+        "0.01",
+        "0.02",
+        "0.05",
+        "0.07"
+      ],
+      "image": "/images/exams/algebra-2/january-2023/q19.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "If cos A 5 5 3 and tan A , 0, what is the value of sin A?",
+      "choices": [
+        "2 3",
+        "5 3 2",
+        "2 3 2",
+        "3 5"
+      ],
+      "image": "/images/exams/algebra-2/january-2023/q20.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A tree farm initially has 150 trees. Each year, 20% of the trees are cut down and 80 seedlings are planted. Which recursive formula models the number of trees, an, after n years?",
+      "choices": [
+        "a1 5 150",
+        "a1 5 150",
+        "an 5 150(0.2)n 1 80 an 5 an21(0.2) 1 80",
+        "an 5 150(0.8)n 1 80 an 5 an21(0.8) 1 80"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which equation represents a parabola with a focus of (4,23) and directrix of y 5 1?",
+      "choices": [
+        "(x 2 1)2 5 4(y 1 3)",
+        "(x 2 1)2 5 28(y 2 3)",
+        "(x 1 4)2 5 4(y 2 3)",
+        "(x 2 4)2 5 28(y 1 1)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Mia has a student loan that is in deferment, meaning that she does not need to make payments right now. The balance of her loan account during her deferment can be represented by the function f(x) 5 35,000(1.0325)x, where x is the number of years since the deferment began. If the bank decides to calculate her balance showing a monthly growth rate, an approximately equivalent function would be",
+      "choices": [
+        "f(x) 5 35,000(1.0027)12x",
+        "f(x) 5 35,000(1.0027) x__ 12",
+        "f(x) 5 35,000(1.0325)12x",
+        "f(x) 5 35,000(1.0325) x__ 12"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which graph shows a quadratic function with two imaginary zeros? y x x 0",
+      "choices": [
+        "y x 0",
+        "Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+        "y 0",
+        "y x 0"
+      ],
+      "image": "/images/exams/algebra-2/january-2023/q24.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Algebraically determine the zeros of the function below. r(x) 5 3x3 1 12x2 2 3x 2 12",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "Given a . 0, solve the equation a a x 1 2 3 for x algebraically.",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2023/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Given P(A) 5 1__ 3 and P(B) 5 5 __ 12, where A and B are independent events, determine P(A B)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2023/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The scores on a collegiate mathematics readiness assessment are approximately normally distributed with a mean of 680 and a standard deviation of 120. Determine the percentage of scores between 690 and 900, to the nearest percent.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Consider the data in the table below. x 1 2 3 4 5 6 y 3.9 6 11 18.1 28 40.3 State an exponential regression equation to model these data,",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2023/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Write the expression A(x) \u2022 B(x) 2 3C(x) as a polynomial in standard form. A(x) 5 x3 1 2x 2 1 B(x) 5 x2 1 7 C(x) 5 x4 2 5",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Over the set of integers, completely factor x4 2 5x2 1 4.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Natalia\u2019s teacher has given her the following information about angle \u03b8. \u2022 \u03c0 , \u03b8 , 2\u03c0 \u2022 cos \u03b8 5 3 4 Explain how Natalia can determine if the value of tan \u03b8",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2023/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Solve the equation x x 49 10 5 2 algebraically. Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2023/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Joette is playing a carnival game. To win a prize, one has to correctly guess which of five equally sized regions a spinner will land on, as shown in the diagram below. 1 5 4 3 2 She complains that the game is unfair because her favorite number, 2, has only been spun once in ten times she played the game. State the proportion of 2\u2019s that were spun. State the theoretical probability of spinning a 2. Question 34 The simulation output below shows the results of simulating ten spins of a fair spinner, repeated 100 times. Proportion of 2\u2019s 0 0.10 0.20 0.30 0.40 0.50 0.60 0 10 20 30 40 Does the output indicate that the carnival game was unfair? Explain your answer. Question 34",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2023/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Graph c(x) 5 29(3)x24 1 2 on the axes below. c(x) x Describe the end behavior of c(x) as x approaches positive infinity. Describe the end behavior of c(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2023/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "The monthly high temperature (\u00b0F) in Buffalo, New York can be modeled by B(m) 5 24.9sin(0.5m 2 2.05) 1 55.25, where m is the number of the month and January 5 1. Find the average rate of change in the monthly high temperature between June and October,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Objects cool at different rates based on the formula below. T 5 (T0 2 TR)e2rt 1 TR T0: initial temperature TR: room temperature r: rate of cooling of the object t: time in minutes that the object cools to a temperature, T Mark makes T-shirts using a hot press to transfer designs to the shirts. He removes a shirt from a press that heats the shirt to 400\u00b0F. The rate of cooling for the shirt is 0.0735 and the room temperature is 75\u00b0F. Using this information, write an equation for the temperature of the shirt, T, after t minutes. Use the equation to find the temperature of the shirt, to the nearest degree, after five minutes. Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Question 37 At the same time, Mark\u2019s friend Jeanine removes a hoodie from a press that heats the hoodie to 450\u00b0F. After eight minutes, the hoodie measured 270\u00b0F. The room temperature is still 75\u00b0F. Determine the rate of cooling of the hoodie, to the nearest ten thousandth. The T-shirt and hoodie were removed at the same time. Determine when the temperature will be the same, to the nearest minute. Question 37 is continued Scrap Graph Paper \u2014 this sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 High School Math Reference Sheet 1 inch 5 2.54 centimeters 1 meter 5 39.37 inches 1 mile 5 5280 feet 1 mile 5 1760 yards 1 mile 5 1.609 kilometers 1 kilometer 5 0.62 mile 1 pound 5 16 ounces 1 pound 5 0.454 kilogram 1 kilogram 5 2.2 pounds 1 ton 5 2000 pounds 1 cup 5 8 fluid ounces 1 pint 5 2 cups 1 quart 5 2 pints 1 gallon 5 4 quarts 1 gallon 5 3.785 liters 1 liter 5 0.264 gallon 1 liter 5 1000 cubic centimeters Triangle A 5 1_ 2 bh Parallelogram A 5 bh Circle A 5 /r2 Circle C 5 /d or C 5 2/r General Prisms V 5 Bh Cylinder V 5 /r2h Sphere V 5 4_ 3 /r3 Cone V 5 1_ 3 /r2h Pyramid V 5 1_ 3 Bh Pythagorean Theorem a2 1 b2 5 c2 Quadratic Formula x 5 b 2 2 4ac 2a 2b 6 Arithmetic Sequence an 5 a1 1 (n 2 1)d Geometric Sequence an 5 a1rn 2 1 Geometric Series Sn 5 a1 2 a1rn _________ 1 2 r where r \u008f 1 Radians 1 radian 5 180 ___ / degrees Degrees 1 degree 5 / ___ \u000f\u0016\u000e radians Exponential Growth/Decay A 5 A0ek(t 2 t0) 1 B0 Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

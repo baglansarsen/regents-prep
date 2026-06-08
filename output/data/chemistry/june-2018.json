@@ -1,0 +1,1096 @@
+{
+  "subject": "chemistry",
+  "session": "june-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which statement describes the charge and location of an electron in an atom?",
+      "choices": [
+        "An electron has a positive charge and is located outside the nucleus.",
+        "An electron has a positive charge and is located in the nucleus.",
+        "An electron has a negative charge and is located outside the nucleus.",
+        "An electron has a negative charge and is located in the nucleus."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which statement explains why a xenon atom is electrically neutral?",
+      "choices": [
+        "The atom has fewer neutrons than electrons.",
+        "The atom has more protons than electrons.",
+        "The atom has the same number of neutrons and electrons.",
+        "The atom has the same number of protons and electrons."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "If two atoms are isotopes of the same element, the atoms must have",
+      "choices": [
+        "the same number of protons and the same number of neutrons",
+        "the same number of protons and a different number of neutrons",
+        "a different number of protons and the same number of neutrons",
+        "a different number of protons and a different number of neutrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which electrons in a calcium atom in the ground state have the greatest effect on the chemical properties of calcium?",
+      "choices": [
+        "the two electrons in the first shell",
+        "the two electrons in the fourth shell",
+        "the eight electrons in the second shell",
+        "the eight electrons in the third shell"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The weighted average of the atomic masses of the naturally occuring isotopes of an element is the",
+      "choices": [
+        "atomic mass of the element",
+        "atomic number of the element",
+        "mass number of each isotope",
+        "formula mass of each isotope"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which element is classified as a metalloid?",
+      "choices": [
+        "Cr",
+        "Cs",
+        "Sc",
+        "Si"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which statement describes a chemical property of iron?",
+      "choices": [
+        "Iron oxidizes.",
+        "Iron is a solid at STP.",
+        "Iron melts.",
+        "Iron is attracted to a magnet."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Graphite and diamond are two forms of the same element in the solid phase that differ in their",
+      "choices": [
+        "atomic numbers",
+        "crystal structures",
+        "electronegativities",
+        "empirical formulas"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which ion has the largest radius?",
+      "choices": [
+        "Br\u0002",
+        "Cl\u0002",
+        "F\u0002",
+        "I\u0002"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Carbon monoxide and carbon dioxide have",
+      "choices": [
+        "the same chemical properties and the same physical properties",
+        "the same chemical properties and different physical properties",
+        "different chemical properties and the same physical properties",
+        "different chemical properties and different physical properties"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Based on Table S, which group on the Periodic Table has the element with the highest electronegativity?",
+      "choices": [
+        "Group 1",
+        "Group 2",
+        "Group 17",
+        "Group 18"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "What is represented by the chemical formula PbCl2(s)?",
+      "choices": [
+        "a substance",
+        "a solution",
+        "a homogeneous mixture",
+        "a heterogeneous mixture"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "What is the vapor pressure of propanone at 50.\u00b0C?",
+      "choices": [
+        "37 kPa",
+        "50. kPa",
+        "83 kPa",
+        "101 kPa"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which statement describes the charge distribution and the polarity of a CH4 molecule?",
+      "choices": [
+        "The charge distribution is symmetrical and the molecule is nonpolar.",
+        "The charge distribution is asymmetrical and the molecule is nonpolar.",
+        "The charge distribution is symmetrical and the molecule is polar.",
+        "The charge distribution is asymmetrical and the molecule is polar."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "In a laboratory investigation, a student separates colored compounds obtained from a mixture of crushed spinach leaves and water by using paper chromatography. The colored compounds separate because of differences in",
+      "choices": [
+        "molecular polarity",
+        "malleability",
+        "boiling point",
+        "electrical conductivity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which phrase describes the motion and attractive forces of ideal gas particles?",
+      "choices": [
+        "random straight-line motion and no attractive forces",
+        "random straight-line motion and strong attractive forces",
+        "random curved-line motion and no attractive forces",
+        "random curved-line motion and strong attractive forces"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "At which temperature will Hg(\u2113) and Hg(s) reach equilibrium in a closed system at 1.0 atmosphere?",
+      "choices": [
+        "234 K",
+        "273 K",
+        "373 K",
+        "630. K"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A molecule of any organic compound has at least one",
+      "choices": [
+        "ionic bond",
+        "double bond",
+        "oxygen atom",
+        "carbon atom"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "A chemical reaction occurs when reactant particles",
+      "choices": [
+        "are separated by great distances",
+        "have no attractive forces between them",
+        "collide with proper energy and proper orientation",
+        "convert chemical energy into nuclear energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Systems in nature tend to undergo changes toward",
+      "choices": [
+        "lower energy and lower entropy",
+        "lower energy and higher entropy",
+        "higher energy and lower entropy",
+        "higher energy and higher entropy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which formula can represent an alkyne?",
+      "choices": [
+        "C2H4",
+        "C2H6",
+        "C3H4",
+        "C3H6"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "written",
+      "text": "Given the formula representing a compound: Which formula represents an isomer of this compound?",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Which energy conversion occurs in an operating voltaic cell?",
+      "choices": [
+        "chemical energy to electrical energy",
+        "chemical energy to nuclear energy",
+        "electrical energy to chemical energy",
+        "electrical energy to nuclear energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which process requires energy to decompose a substance?",
+      "choices": [
+        "electrolysis",
+        "neutralization",
+        "sublimation",
+        "synthesis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The concentration of which ion is increased when LiOH is dissolved in water?",
+      "choices": [
+        "hydroxide ion",
+        "hydrogen ion",
+        "hydronium ion",
+        "halide ion"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which equation represents neutralization?",
+      "choices": [
+        "6Li(s) \u0003 N2(g) \u21922Li3N(s)",
+        "2Mg(s) \u0003 O2(g) \u21922MgO(s)",
+        "2KOH(aq) \u0003 H2SO4(aq) \u2192 K2SO4(aq) \u0003 2H2O(\u2113)",
+        "Pb(NO3)2(aq) \u0003 K2CrO4(aq) \u2192 2KNO3(aq) \u0003 PbCrO4(s)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The stability of an isotope is related to its ratio of",
+      "choices": [
+        "neutrons to positrons",
+        "neutrons to protons",
+        "electrons to positrons",
+        "electrons to protons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which particle has the least mass?",
+      "choices": [
+        "alpha particle",
+        "beta particle",
+        "neutron",
+        "proton"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The energy released during a nuclear reaction is a result of",
+      "choices": [
+        "breaking chemical bonds",
+        "forming chemical bonds",
+        "mass being converted to energy",
+        "energy being converted to mass"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The use of uranium-238 to determine the age of a geological formation is a beneficial use of",
+      "choices": [
+        "nuclear fusion",
+        "nuclear fission",
+        "radioactive isomers",
+        "radioactive isotopes C H C H C H H H H H C H H H C H H H H C C C H H H H H C H H H H C C H C H H H C H H C C H H H C H H H C ( 1 ) ( 3 ) ( 4 ) ( 2 ) C H C H C H H H H H H H"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which elements are present in this mixture?",
+      "choices": [
+        "D and A",
+        "D and Z",
+        "X and A",
+        "X and Z"
+      ],
+      "image": "/images/exams/chemistry/june-2018/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on your knowledge of chemistry and the bright-line spectra \nproduced by four elements and the spectrum of a mixture of elements represented in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Each line in the spectra represents the energy",
+      "choices": [
+        "absorbed as an atom loses an electron",
+        "absorbed as an atom gains an electron",
+        "released as an electron moves from a lower energy state to a higher energy state",
+        "released as an electron moves from a higher energy state to a lower energy state Bright-Line Spectra Element A Element D Element X Element Z Mixture Wavelength (nm) 750 700 650 600 550 500 450 400 750 700 650 600 550 500 450 400 Wavelength (nm)"
+      ],
+      "image": "/images/exams/chemistry/june-2018/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on your knowledge of chemistry and the bright-line spectra \nproduced by four elements and the spectrum of a mixture of elements represented in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The table below shows the number of protons, neutrons, and electrons in four ions. Four Ions Which ion has a charge of 2\u0002?",
+      "choices": [
+        "A",
+        "E",
+        "G",
+        "J"
+      ],
+      "image": "/images/exams/chemistry/june-2018/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "What is the approximate mass of an atom that contains 26 protons, 26 electrons and 19 neutrons?",
+      "choices": [
+        "26 u",
+        "45 u",
+        "52 u",
+        "71 u"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which electron configuration represents a potassium atom in an excited state?",
+      "choices": [
+        "2-7-6",
+        "2-8-5",
+        "2-8-8-1",
+        "2-8-7-2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "What is the total number of neutrons in an atom of K-42?",
+      "choices": [
+        "19",
+        "20",
+        "23",
+        "42"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: 2C \u0003 3H2 \u2192 C2H6 What is the number of moles of C that must completely react to produce 2.0 moles of C2H6?",
+      "choices": [
+        "1.0 mol",
+        "2.0 mol",
+        "3.0 mol",
+        "4.0 mol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reaction: Mg(s) \u0003 2HCl(aq) \u2192 MgCl2(aq) \u0003 H2(g) Which type of chemical reaction is represented by the equation?",
+      "choices": [
+        "synthesis",
+        "decomposition",
+        "single replacement",
+        "double replacement Ion Number of Protons Number of Neutrons Number of Electrons A 8 10 10 E 9 10 10 G 11 12 10 J 12 12 10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The table below lists properties of selected elements at room temperature. Properties of Selected Elements at Room Temperature Based on this table, which statement describes how two of these elements can be differentiated from each other?",
+      "choices": [
+        "Gold can be differentiated from tungsten based on density.",
+        "Gold can be differentiated from sodium based on malleability.",
+        "Sodium can be differentiated from tungsten based on conductivity.",
+        "Sodium can be differentiated from iodine based on malleability."
+      ],
+      "image": "/images/exams/chemistry/june-2018/q39.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "written",
+      "text": "Which particle diagram represents a mixture? ( 4 ) ( 3 ) ( 2 ) ( 1 ) Key = an atom of an element = an atom of a different element Element Density (g/cm3) Malleability Conductivity sodium 0.97 yes good gold 19.3 yes good iodine 4.933 no poor tungsten 19.3 yes good",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "An atom of which element reacts with an atom of hydrogen to form a bond with the greatest degree of polarity?",
+      "choices": [
+        "carbon",
+        "fluorine",
+        "nitrogen",
+        "oxygen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "What is the concentration of an aqueous solution that contains 1.5 moles of NaCl in 500. milliliters of this solution?",
+      "choices": [
+        "0.30 M",
+        "0.75 M",
+        "3.0 M",
+        "7.5 M"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The table below shows data for the temperature, pressure, and volume of four gas samples. Data for Four Gases Which two gas samples contain the same number of molecules?",
+      "choices": [
+        "I and II",
+        "I and III",
+        "II and III",
+        "II and IV"
+      ],
+      "image": "/images/exams/chemistry/june-2018/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Based on Table I, what is the \u0004H value for the production of 1.00 mole of NO2(g) from its elements at 101.3 kPa and 298 K?",
+      "choices": [
+        "\u000333.2 kJ",
+        "\u000233.2 kJ",
+        "\u0003132.8 kJ",
+        "\u0002132.8 kJ"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which equation represents an addition reaction?",
+      "choices": [
+        "C3H8 \u0003 Cl2 \u2192C3H7Cl \u0003HCl",
+        "C3H6 \u0003 Cl2 \u2192 C3H6Cl2",
+        "CaCl2 \u0003 Na2CO3 \u2192 CaCO3 \u0003 2NaCl",
+        "CaCO3 \u2192 CaO \u0003 CO2"
+      ],
+      "image": "/images/exams/chemistry/june-2018/q45.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: Ni(s) \u0003 2HCl(aq) \u2192NiCl2(aq) \u0003 H2(g) In this reaction, each Ni atom",
+      "choices": [
+        "loses 1 electron",
+        "loses 2 electrons",
+        "gains 1 electron",
+        "gains 2 electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which equation represents a reduction half- reaction?",
+      "choices": [
+        "Fe \u2192 Fe3\u0003 \u0003 3e\u2013",
+        "Fe \u0003 3e\u0002 \u2192Fe3\u0003",
+        "Fe3\u0003 \u2192 Fe \u0003 3e\u2013",
+        "Fe3\u0003 \u0003 3e\u0002 \u2192 Fe"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Given the balanced ionic equation representing a reaction: Cu(s) \u0003 2Ag\u0003(aq) \u2192 Cu2\u0003(aq) \u0003 2Ag(s) During this reaction, electrons are transferred from",
+      "choices": [
+        "Cu(s) to Ag\u0003(aq)",
+        "Cu2\u0003(aq) to Ag(s)",
+        "Ag(s) to Cu2\u0003(aq)",
+        "Ag\u0003(aq) to Cu(s)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which metal reacts spontaneously with Sr2\u0003 ions?",
+      "choices": [
+        "Ca(s)",
+        "Co(s)",
+        "Cs(s)",
+        "Cu(s)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: HCl \u0003 H2O \u2192H3O\u0003 \u0003 Cl\u0002 The water molecule acts as a base because it",
+      "choices": [
+        "donates an H\u0003",
+        "accepts an H\u0003",
+        "donates an OH\u0002",
+        "accepts an OH\u0002 Gas Sample Temperature (K) Pressure (atm) Volume (L) I 600. 2.0 5.0 II 300. 1.0 10.0 III 600. 3.0 5.0 IV 300. 1.0 10.0 P.S./"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State the general trend in first ionization energy as the elements in Period 3 are considered from left to right.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The first ionization energies of the elements in Period 3 generally increase from left to right. Ionization energy increases."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify a type of strong intermolecular force that exists between water molecules, but does not exist between carbon dioxide molecules.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: hydrogen bonding dipole attractions dipole-dipole forces"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Draw a structural formula for 2-butanol.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/q53.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Examples of 1-credit responses"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Explain, in terms of element classification, why silver chloride is an ionic compound.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of chemistry.\nSome compounds of silver are listed with their chemical formulas in the table below.\nSilver Compounds",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The reaction between a metal and a nonmetal can produce an ionic compound. Silver is a metal and chlorine is a nonmetal."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the percent composition by mass of silver in silver carbonate (gram-formula mass = 276 g/mol).",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of chemistry.\nSome compounds of silver are listed with their chemical formulas in the table below.\nSilver Compounds",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to:"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify the silver compound in the table that is most soluble in water.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_54_56.png",
+      "context": "Base your answers to questions 54 through 56 on the information below and on your knowledge of chemistry.\nSome compounds of silver are listed with their chemical formulas in the table below.\nSilver Compounds",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for AgClO3 or silver chlorate. 2 108 276 0 216 100 276 2 10 ( ( )( ) ( g/mol) g/mol 10 \u0002 7 868 275 7452 0 . ) . \u000210 C H H H H H C H OH H C C H H OH C C C C P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Complete the nuclear equation by writing a notation for the missing particle.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of chemistry.\nWhen a cobalt-59 atom is bombarded by a subatomic particle, a radioactive cobalt-60 atom\nis produced. After 21.084 years, 1.20 grams of an original sample of cobalt-60 produced\nremains unchanged.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: 1 0 n 0n1"
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Based on Table N, identify the decay mode of cobalt-60.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of chemistry.\nWhen a cobalt-59 atom is bombarded by a subatomic particle, a radioactive cobalt-60 atom\nis produced. After 21.084 years, 1.20 grams of an original sample of cobalt-60 produced\nremains unchanged.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u0003\u0004 e beta beta decay beta particle \u0003"
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Determine the mass of the original sample of cobalt-60 produced. Name Chemical Formula silver carbonate Ag2CO3 silver chlorate AgClO3 silver chloride AgCl silver sulfate Ag2SO4",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 57 through 59 on the information below and on your knowledge of chemistry.\nWhen a cobalt-59 atom is bombarded by a subatomic particle, a radioactive cobalt-60 atom\nis produced. After 21.084 years, 1.20 grams of an original sample of cobalt-60 produced\nremains unchanged.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 19.20 g. Significant figures do not need to be shown."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Determine the number of minutes that the substance was in the liquid phase, only.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of chemistry.\nA sample of a molecular substance starting as a gas at 206\u00b0C and 1 atm is allowed to cool\nfor 16 minutes. This process is represented by the cooling curve below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 5 min or five min."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Compare the strength of the intermolecular forces within this substance at 180.\u00b0C to the strength of the intermolecular forces within this substance at 120.\u00b0C.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of chemistry.\nA sample of a molecular substance starting as a gas at 206\u00b0C and 1 atm is allowed to cool\nfor 16 minutes. This process is represented by the cooling curve below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The intermolecular forces are weaker at 180.\u00b0C than at 120.\u00b0C. The forces are stronger at 120\u00b0C. The IMF is stronger at the lower temperature. The liquid has stronger IMF than the gas."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Describe what happens to the potential energy and the average kinetic energy of the molecules in the sample during interval DE.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_60_62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of chemistry.\nA sample of a molecular substance starting as a gas at 206\u00b0C and 1 atm is allowed to cool\nfor 16 minutes. This process is represented by the cooling curve below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Potential energy: decreases Average kinetic energy: no change Potential energy: There is a decrease. Average kinetic energy: It remains the same. 0 1 \u0004 0 1 \u0004 P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Determine the number of moles of O2(g) in the cylinder. The gram-formula mass of O2(g) is 32.0 g/mol.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of chemistry.\nThe diagram below represents a cylinder with a moveable piston containing 16.0 g of O2(g).\nAt 298 K and 0.500 atm, the O2(g) has a volume of 24.5 liters.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.500 mol or any value from 0.500 mol to 0.501 mol, inclusive."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "State the changes in both pressure and temperature of the gas in the cylinder that would increase the frequency of collisions between the O2(g) molecules.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of chemistry.\nThe diagram below represents a cylinder with a moveable piston containing 16.0 g of O2(g).\nAt 298 K and 0.500 atm, the O2(g) has a volume of 24.5 liters.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Change in pressure: increases Change in temperature: higher Change in pressure: any pressure greater than 0.5 atm Change in temperature: any temperature above 298 K"
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the volume of O2(g) in the cylinder at 265 K and 1.00 atm. O2(g) P = 0.500 atm V = 24.5 L T = 298 K 240. 220. 200. 180. 160. 140. 120. 100. 80. 60. 40. 20. Time (min) Cooling Curve for a Substance 0 2 4 6 8 10. 12 14 16 A B C D E Temperature (\u00b0C) F",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information below and on your knowledge of chemistry.\nThe diagram below represents a cylinder with a moveable piston containing 16.0 g of O2(g).\nAt 298 K and 0.500 atm, the O2(g) has a volume of 24.5 liters.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: V \u0005 ( . )( )( . ) ( )( . 24 5 265 0 500 298 1 00 L K atm K atm atm L K atm ) ( . )( . ) ( . \u0005 0 500 24 5 298 1 00 ) ( . )( )( . ) V 265 24 5 265 0 5 298 K P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify the phase of Ea at 310. K.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nIn the late 1800s, Dmitri Mendeleev developed a periodic table of the elements known\nat that time. Based on the pattern in his periodic table, he was able to predict properties of\nsome elements that had not yet been discovered. Information about two of these elements\nis shown in the table below.\nSome Element Properties Predicted by Mendeleev",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for liquid or (\u2113)."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Write a chemical formula for the compound formed between Ea and Cl.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nIn the late 1800s, Dmitri Mendeleev developed a periodic table of the elements known\nat that time. Based on the pattern in his periodic table, he was able to predict properties of\nsome elements that had not yet been discovered. Information about two of these elements\nis shown in the table below.\nSome Element Properties Predicted by Mendeleev",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: EaCl3 GaCl3"
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Identify the element that Mendeleev called eka-silicon, Es.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nIn the late 1800s, Dmitri Mendeleev developed a periodic table of the elements known\nat that time. Based on the pattern in his periodic table, he was able to predict properties of\nsome elements that had not yet been discovered. Information about two of these elements\nis shown in the table below.\nSome Element Properties Predicted by Mendeleev",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Ge germanium"
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the percent error of Mendeleev\u2019s predicted density of Es. Predicted Elements Property Predicted Value Actual Value eka-aluminum (Ea) density at STP 5.9 g/cm3 5.91 g/cm3 melting point low 30.\u00b0C oxide formula Ea2O3 approximate molar mass 68 g/mol eka-silicon (Es) density at STP 5.5 g/cm3 5.3234 g/cm3 melting point high 938\u00b0C oxide formula EsO2 approximate molar mass 72 g/mol",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information below and on your knowledge of chemistry.\nIn the late 1800s, Dmitri Mendeleev developed a periodic table of the elements known\nat that time. Based on the pattern in his periodic table, he was able to predict properties of\nsome elements that had not yet been discovered. Information about two of these elements\nis shown in the table below.\nSome Element Properties Predicted by Mendeleev",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: 5 5 5 3 ( . . \u2212 )( ) . 100 5 3 5 5 5 100 . . . 5 g cm 3234 g cm 3234 g cm 3 3 3 \u0004 \u0002 . . 0 2 5 3 100 \u0002 P.S./Chem. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State the class of organic compounds to which the product of the forward reaction belongs.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the information below and your knowledge of chemistry.\nMethanol can be manufactured by a reaction that is reversible. In the reaction, carbon\nmonoxide gas and hydrogen gas react using a catalyst. The equation below represents this\nsystem at equilibrium.\nCO(g) \u0003 2H2(g) \u21ccCH3OH(g) \u0003 energy",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for alcohol or alcohols."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Compare the rate of the forward reaction to the rate of the reverse reaction in this equilibrium system.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the information below and your knowledge of chemistry.\nMethanol can be manufactured by a reaction that is reversible. In the reaction, carbon\nmonoxide gas and hydrogen gas react using a catalyst. The equation below represents this\nsystem at equilibrium.\nCO(g) \u0003 2H2(g) \u21ccCH3OH(g) \u0003 energy",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: The rate of the forward reaction equals the rate of the reverse reaction. Both reactions occur at the same rate."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Explain, in terms of collision theory, why increasing the concentration of H2(g) in this system will increase the concentration of CH3OH(g).",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 70 through 73 on the information below and your knowledge of chemistry.\nMethanol can be manufactured by a reaction that is reversible. In the reaction, carbon\nmonoxide gas and hydrogen gas react using a catalyst. The equation below represents this\nsystem at equilibrium.\nCO(g) \u0003 2H2(g) \u21ccCH3OH(g) \u0003 energy",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: More H2(g) molecules collide with CO(g) molecules, producing more CH3OH(g). Adding H2 increases the number of effective collisions to produce more methanol. A greater number of effective collisions occur."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "State the effect on the rates of both the forward and reverse reactions if no catalyst is used in the system.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/q73.png",
+      "context": "Base your answers to questions 70 through 73 on the information below and your knowledge of chemistry.\nMethanol can be manufactured by a reaction that is reversible. In the reaction, carbon\nmonoxide gas and hydrogen gas react using a catalyst. The equation below represents this\nsystem at equilibrium.\nCO(g) \u0003 2H2(g) \u21ccCH3OH(g) \u0003 energy",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Rate of forward reaction: decreases/slower Rate of reverse reaction: decreases/slower"
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Write the molecular formula of linoleic acid.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_74_76.png",
+      "context": "Base your answers to questions 74 through 76 on the information below and on your knowledge of chemistry.\nFatty acids, a class of compounds found in living things, are organic acids with long\nhydrocarbon chains. Linoleic acid, an unsaturated fatty acid, is essential for human skin \nflexibility and smoothness. The formula below represents a molecule of linoleic acid.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for C18H32O2. The order of the elements may vary."
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Identify the type of chemical bond between the oxygen atom and the hydrogen atom in the linoleic acid molecule.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_74_76.png",
+      "context": "Base your answers to questions 74 through 76 on the information below and on your knowledge of chemistry.\nFatty acids, a class of compounds found in living things, are organic acids with long\nhydrocarbon chains. Linoleic acid, an unsaturated fatty acid, is essential for human skin \nflexibility and smoothness. The formula below represents a molecule of linoleic acid.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: covalent polar covalent polar covalent bond sigma bond"
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, circle the organic acid functional group. H H C H C C H H H H C C H H C H H C H C H C H H C H H H C C H H H C C H H C H H H H C C H H C H H O O H P.S./",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_74_76.png",
+      "context": "Base your answers to questions 74 through 76 on the information below and on your knowledge of chemistry.\nFatty acids, a class of compounds found in living things, are organic acids with long\nhydrocarbon chains. Linoleic acid, an unsaturated fatty acid, is essential for human skin \nflexibility and smoothness. The formula below represents a molecule of linoleic acid.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Examples of 1-credit reponses: H H C H C C H H H H C C H H C H H C H C H C H H C H H H C C H H H C C H H C H H H H C C H H C H H O O H H H C H C C H H H H C C H H C H H C H C H C H H C H H H C C H H H C C H H C H H H H C C H H C H H O O H"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Balance the equation in your answer booklet for the reaction in this fuel cell, using the smallest whole-number coefficients.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_77_79.png",
+      "context": "Base your answers to questions 77 through 79 on the information below and on your knowledge of chemistry.\nFuel cells are voltaic cells. In one type of fuel cell, oxygen gas, O2(g), reacts with \nhydrogen gas, H2(g), producing water vapor, H2O(g), and electrical energy. The unbalanced\nequation for this redox reaction is shown below.\nH2(g) \u0003 O2(g) \u2192 H2O(g) \u0003 energy\nA diagram of the fuel cell is shown below. During operation of the fuel cell, hydrogen\ngas is pumped into one compartment and oxygen gas is pumped into the other compartment.\nEach compartment has an inner wall that is a porous carbon electrode through which ions\nflow. Aqueous potassium hydroxide, KOH(aq), and the porous electrodes serve as the salt\nbridge.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for ______ H2(g) \u0006 ______ O2(g) \u2192______ H2O(g) \u0006 energy. Allow credit even if the coefficient \u201c1\u201d is written in front of O2(g)."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Determine the change in oxidation number for oxygen in this operating fuel cell.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_77_79.png",
+      "context": "Base your answers to questions 77 through 79 on the information below and on your knowledge of chemistry.\nFuel cells are voltaic cells. In one type of fuel cell, oxygen gas, O2(g), reacts with \nhydrogen gas, H2(g), producing water vapor, H2O(g), and electrical energy. The unbalanced\nequation for this redox reaction is shown below.\nH2(g) \u0003 O2(g) \u2192 H2O(g) \u0003 energy\nA diagram of the fuel cell is shown below. During operation of the fuel cell, hydrogen\ngas is pumped into one compartment and oxygen gas is pumped into the other compartment.\nEach compartment has an inner wall that is a porous carbon electrode through which ions\nflow. Aqueous potassium hydroxide, KOH(aq), and the porous electrodes serve as the salt\nbridge.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: From 0 to \u00042 From 0 to 2\u0004 From zero to negative 2"
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "State the number of moles of electrons that are gained when 5.0 moles of electrons are lost in this reaction. Voltmeter V Wire O2(g) H2(g) Porous carbon electrode Porous carbon electrode KOH(aq) H2O(g) Wire",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_77_79.png",
+      "context": "Base your answers to questions 77 through 79 on the information below and on your knowledge of chemistry.\nFuel cells are voltaic cells. In one type of fuel cell, oxygen gas, O2(g), reacts with \nhydrogen gas, H2(g), producing water vapor, H2O(g), and electrical energy. The unbalanced\nequation for this redox reaction is shown below.\nH2(g) \u0003 O2(g) \u2192 H2O(g) \u0003 energy\nA diagram of the fuel cell is shown below. During operation of the fuel cell, hydrogen\ngas is pumped into one compartment and oxygen gas is pumped into the other compartment.\nEach compartment has an inner wall that is a porous carbon electrode through which ions\nflow. Aqueous potassium hydroxide, KOH(aq), and the porous electrodes serve as the salt\nbridge.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 5.0 mol or 5 mol."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "State the number of significant figures used to express the concentration of solution Z.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of chemistry.\nIn a laboratory investigation, a student compares the concentration and pH value of\neach of four different solutions of hydrochloric acid, HCl(aq), as shown in the table below.\nData for HCl(aq) Solutions",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 2 or two."
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Determine the concentration of an HCl(aq) solution that has a pH value of 4.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of chemistry.\nIn a laboratory investigation, a student compares the concentration and pH value of\neach of four different solutions of hydrochloric acid, HCl(aq), as shown in the table below.\nData for HCl(aq) Solutions",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: 1.0 \u0002 10\u00044 M 0.0001 M"
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Determine the volume of 0.25 M NaOH(aq) that would exactly neutralize 75.0 milliliters of solution X. Solution Concentration of HCl(aq) (M) pH Value W 1.0 0 X 0.10 1 Y 0.010 2 Z 0.0010 3",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of chemistry.\nIn a laboratory investigation, a student compares the concentration and pH value of\neach of four different solutions of hydrochloric acid, HCl(aq), as shown in the table below.\nData for HCl(aq) Solutions",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 30. mL or 30 mL."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "State the trend in the solubility of CaCO3 as seawater becomes more acidic.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nCarbon dioxide is slightly soluble in seawater. As carbon dioxide levels in the atmosphere\nincrease, more CO2 dissolves in seawater, making the seawater more acidic because \ncarbonic acid, H2CO3(aq), is formed.\nSeawater also contains aqueous calcium carbonate, CaCO3(aq), which is used by some\nmarine organisms to make their hard exoskeletons. As the acidity of the sea water changes,\nthe solubility of CaCO3 also changes, as shown in the graph below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: As the seawater becomes more acidic, the solubility of CaCO3 increases. As the pH of the seawater decreases, the solubility of calcium carbonate increases. solubility increases more soluble"
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "State the color of bromcresol green in a sample of seawater in which the CaCO3 solubility is 10\u00022 M.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nCarbon dioxide is slightly soluble in seawater. As carbon dioxide levels in the atmosphere\nincrease, more CO2 dissolves in seawater, making the seawater more acidic because \ncarbonic acid, H2CO3(aq), is formed.\nSeawater also contains aqueous calcium carbonate, CaCO3(aq), which is used by some\nmarine organisms to make their hard exoskeletons. As the acidity of the sea water changes,\nthe solubility of CaCO3 also changes, as shown in the graph below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for blue."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "A sample of seawater has a pH of 8. Determine the new pH of the sample if the hydrogen ion concentration is increased by a factor of 100. Solubility of CaCO3 (M) pH of Seawater 4 6 8 10. 12 Solubility of CaCO3 vs. pH of Seawater 14 100 P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2018/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nCarbon dioxide is slightly soluble in seawater. As carbon dioxide levels in the atmosphere\nincrease, more CO2 dissolves in seawater, making the seawater more acidic because \ncarbonic acid, H2CO3(aq), is formed.\nSeawater also contains aqueous calcium carbonate, CaCO3(aq), which is used by some\nmarine organisms to make their hard exoskeletons. As the acidity of the sea water changes,\nthe solubility of CaCO3 also changes, as shown in the graph below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 6 or six. P.S./Chem. Rating Guide\u2013June \u2019"
+    }
+  ]
+}

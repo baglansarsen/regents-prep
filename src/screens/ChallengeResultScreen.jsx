@@ -1,5 +1,6 @@
 export default function ChallengeResultScreen({ myScore, opponentScore, opponentName, onHome }) {
-  if (opponentScore === null) {
+  const pending = opponentScore === null || opponentScore === undefined
+  if (pending) {
     return (
       <div className="results-screen">
         <div className="results-hero">

@@ -1,0 +1,1081 @@
+{
+  "subject": "physics",
+  "session": "june-2015",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which quantities are scalar?",
+      "choices": [
+        "speed and work",
+        "velocity and force",
+        "distance and acceleration",
+        "momentum and power"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A 3.00-kilogram mass is thrown vertically upward with an initial speed of 9.80 meters per second. What is the maximum height this object will reach? [Neglect friction.]",
+      "choices": [
+        "1.00 m",
+        "4.90 m",
+        "9.80 m",
+        "19.6 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "An airplane traveling north at 220. meters per second encounters a 50.0-meters-per-second crosswind from west to east, as represented in the diagram below. What is the resultant speed of the plane?",
+      "choices": [
+        "170. m/s",
+        "214 m/s",
+        "226 m/s",
+        "270. m/s"
+      ],
+      "image": "/images/exams/physics/june-2015/q3.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "A 160.-kilogram space vehicle is traveling along a straight line at a constant speed of 800. meters per second. The magnitude of the net force on the space vehicle is",
+      "choices": [
+        "0 N",
+        "1.60 \u00d7 102 N",
+        "8.00 \u00d7 102 N",
+        "1.28 \u00d7 105 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "A student throws a 5.0-newton ball straight up. What is the net force on the ball at its maximum height?",
+      "choices": [
+        "0.0 N",
+        "5.0 N, up",
+        "5.0 N, down",
+        "9.8 N, down"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A vertical spring has a spring constant of 100. newtons per meter. When an object is attached to the bottom of the spring, the spring changes from its unstretched length of 0.50 meter to a length of 0.65 meter. The magnitude of the weight of the attached object is",
+      "choices": [
+        "1.1 N",
+        "15 N",
+        "50. N",
+        "65 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "A 1.5-kilogram cart initially moves at 2.0 meters per second. It is brought to rest by a constant net force in 0.30 second. What is the magnitude of the net force?",
+      "choices": [
+        "0.40 N",
+        "0.90 N",
+        "10. N",
+        "15 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which characteristic of a light wave must increase as the light wave passes from glass into air?",
+      "choices": [
+        "amplitude",
+        "frequency",
+        "period",
+        "wavelength 50.0 m/s 220. m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "As a 5.0 \u00d7 102-newton basketball player jumps from the floor up toward the basket, the magnitude of the force of her feet on the floor is 1.0 \u00d7 103 newtons. As she jumps, the magnitude of the force of the floor on her feet is",
+      "choices": [
+        "5.0 \u00d7 102 N",
+        "1.0 \u00d7 103 N",
+        "1.5 \u00d7 103 N",
+        "5.0 \u00d7 105 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A 0.0600-kilogram ball traveling at 60.0 meters per second hits a concrete wall. What speed must a 0.0100-kilogram bullet have in order to hit the wall with the same magnitude of momentum as the ball?",
+      "choices": [
+        "3.60 m/s",
+        "6.00 m/s",
+        "360. m/s",
+        "600. m/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The Hubble telescope\u2019s orbit is 5.6 \u00d7 105 meters above Earth\u2019s surface. The telescope has a mass of 1.1 \u00d7 104 kilograms. Earth exerts a gravitational force of 9.1 \u00d7 104 newtons on the telescope. The magnitude of Earth\u2019s gravitational field strength at this location is",
+      "choices": [
+        "1.5 \u00d7 10\u221220 N/kg",
+        "0.12 N/kg",
+        "8.3 N/kg",
+        "9.8 N/kg"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "When two point charges are a distance d apart, the magnitude of the electrostatic force between them is F. If the distance between the point charges is increased to 3d, the magnitude of the electrostatic force between the two charges will be",
+      "choices": [
+        "",
+        "",
+        "2F",
+        "4F"
+      ],
+      "image": "/images/exams/physics/june-2015/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A radio operating at 3.0 volts and a constant temperature draws a current of 1.8 \u00d7 10\u22124 ampere. What is the resistance of the radio circuit?",
+      "choices": [
+        "1.7 \u00d7 104 \u03a9",
+        "3.0 \u00d7 101 \u03a9",
+        "5.4 \u00d7 10\u22124 \u03a9",
+        "6.0 \u00d7 10\u22125 \u03a9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which energy transformation occurs in an operating electric motor?",
+      "choices": [
+        "electrical \u2192mechanical",
+        "mechanical \u2192electrical",
+        "chemical \u2192electrical",
+        "electrical \u2192chemical"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "A block slides across a rough, horizontal tabletop. As the block comes to rest, there is an increase in the block-tabletop system\u2019s",
+      "choices": [
+        "gravitational potential energy",
+        "elastic potential energy",
+        "kinetic energy",
+        "internal (thermal) energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "How much work is required to move an electron through a potential difference of 3.00 volts?",
+      "choices": [
+        "5.33 \u00d7 10\u201320 J",
+        "4.80 \u00d7 10\u201319 J",
+        "3.00 J",
+        "1.88 \u00d7 1019 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "During a laboratory experiment, a student finds that at 20\u00b0 Celsius, a 6.0-meter length of copper wire has a resistance of 1.3 ohms. The cross- sectional area of this wire is",
+      "choices": [
+        "7.9 \u00d7 10\u22128 m2",
+        "1.1 \u00d7 10\u22127 m2",
+        "4.6 \u00d7 100 m2",
+        "1.3 \u00d7 107 m2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A net charge of 5.0 coulombs passes a point on a conductor in 0.050 second. The average current is",
+      "choices": [
+        "8.0 \u00d7 10\u22128 A",
+        "1.0 \u00d7 10\u22122 A",
+        "2.5 \u00d7 10\u22121 A",
+        "1.0 \u00d7 102 A"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "If several resistors are connected in series in an electric circuit, the potential difference across each resistor",
+      "choices": [
+        "varies directly with its resistance",
+        "varies inversely with its resistance",
+        "varies inversely with the square of its resistance",
+        "is independent of its resistance"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The amplitude of a sound wave is most closely related to the sound\u2019s",
+      "choices": [
+        "speed",
+        "wavelength",
+        "loudness",
+        "pitch"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A duck floating on a lake oscillates up and down 5.0 times during a 10.-second interval as a periodic wave passes by. What is the frequency of the duck\u2019s oscillations?",
+      "choices": [
+        "0.10 Hz",
+        "0.50 Hz",
+        "2.0 Hz",
+        "50. Hz 1 3 F 1 9 F"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "written",
+      "text": "Which diagram best represents the position of a ball, at equal time intervals, as it falls freely from rest near Earth\u2019s surface?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A gamma ray and a microwave traveling in a vacuum have the same",
+      "choices": [
+        "frequency",
+        "period",
+        "speed",
+        "wavelength"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A student produces a wave in a long spring by vibrating its end. As the frequency of the vibration is doubled, the wavelength in the spring is",
+      "choices": [
+        "quartered",
+        "halved",
+        "unchanged",
+        "doubled"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which two points on the wave shown in the diagram below are in phase with each other?",
+      "choices": [
+        "A and B",
+        "A and E",
+        "B and C",
+        "B and D"
+      ],
+      "image": "/images/exams/physics/june-2015/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "As a longitudinal wave moves through a medium, the particles of the medium",
+      "choices": [
+        "vibrate parallel to the direction of the wave\u2019s propagation",
+        "vibrate perpendicular to the direction of the wave\u2019s propagation",
+        "are transferred in the direction of the wave\u2019s motion, only",
+        "are stationary"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Wind blowing across suspended power lines may cause the power lines to vibrate at their natural frequency. This often produces audible sound waves. This phenomenon, often called an Aeolian harp, is an example of",
+      "choices": [
+        "diffraction",
+        "the Doppler effect",
+        "refraction",
+        "resonance"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "A student listens to music from a speaker in an adjoining room, as represented in the diagram below. She notices that she does not have to be directly in front of the doorway to hear the music. This spreading of sound waves beyond the doorway is an example of",
+      "choices": [
+        "the Doppler effect",
+        "resonance",
+        "refraction",
+        "diffraction"
+      ],
+      "image": "/images/exams/physics/june-2015/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "What is the minimum energy required to ionize a hydrogen atom in the n = 3 state?",
+      "choices": [
+        "0.00 eV",
+        "0.66 eV",
+        "1.51 eV",
+        "12.09 eV Speaker Doorway Student A B C D E ( 1 ) ( 3 ) ( 4 ) ( 2 )"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "What is the magnitude of the electrostatic force exerted by sphere A on sphere B?",
+      "choices": [
+        "7.2 \u00d7 10\u22123 N",
+        "3.6 \u00d7 10\u22123 N",
+        "8.0 \u00d7 10\u221213 N",
+        "4.0 \u00d7 10\u221213 N"
+      ],
+      "image": "/images/exams/physics/june-2015/context_30_31.png",
+      "context": "Base your answers to questions 30 and 31 on the diagram below and on your knowledge of physics. The diagram\nrepresents two small, charged, identical metal spheres, A and B that are separated by a distance of 2.0 meters.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "If the two spheres were touched together and then separated, the charge on sphere A would be",
+      "choices": [
+        "\u22123.0 \u00d7 10\u22127 C",
+        "\u22126.0 \u00d7 10\u22127 C",
+        "\u22121.3 \u00d7 10\u22126 C",
+        "\u22122.6 \u00d7 10\u22126 C"
+      ],
+      "image": "/images/exams/physics/june-2015/context_30_31.png",
+      "context": "Base your answers to questions 30 and 31 on the diagram below and on your knowledge of physics. The diagram\nrepresents two small, charged, identical metal spheres, A and B that are separated by a distance of 2.0 meters.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The horn of a moving vehicle produces a sound of constant frequency. Two stationary observers, A and C, and the vehicle\u2019s driver, B, positioned as represented in the diagram below, hear the sound of the horn. Compared to the frequency of the sound of the horn heard by driver B, the frequency heard by observer A is",
+      "choices": [
+        "lower and the frequency heard by observer C is lower",
+        "lower and the frequency heard by observer C is higher",
+        "higher and the frequency heard by observer C is lower",
+        "higher and the frequency heard by observer C is higher"
+      ],
+      "image": "/images/exams/physics/june-2015/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "A different force is applied to each of four different blocks on a frictionless, horizontal surface. In which diagram does the block have the greatest inertia 2.0 seconds after starting from rest? ( 1 ) 10. N 5.0 kg ( 3 ) 15 kg 3.0 N v B C A A B 2.0 m \u20131.6 \u00d7 10\u2013 6 C +1.0 \u00d7 10\u2013 6 C ( 2 ) 5.0 N 10. kg ( 4 ) 2.0 N 20. kg",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The diagram below shows a ray of monochromatic light incident on a boundary between air and glass. Which ray best represents the path of the reflected light ray?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/physics/june-2015/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Two pulses approach each other in the same medium. The diagram below represents the displacements caused by each pulse. Which diagram best represents the resultant displacement of the medium as the pulses pass through each other? ( 1 ) ( 3 ) Normal Incident ray Air Glass A B C D ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The diameter of an automobile tire is closest to",
+      "choices": [
+        "10\u22122 m",
+        "100 m",
+        "101 m",
+        "102 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The vector diagram below represents the velocity of a car traveling 24 meters per second 35\u00b0 east of north. What is the magnitude of the component of the car\u2019s velocity that is directed eastward?",
+      "choices": [
+        "14 m/s",
+        "20. m/s",
+        "29 m/s",
+        "42 m/s"
+      ],
+      "image": "/images/exams/physics/june-2015/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Without air resistance, a kicked ball would reach a maximum height of 6.7 meters and land 38 meters away. With air resistance, the ball would travel",
+      "choices": [
+        "6.7 m vertically and more than 38 m horizontally",
+        "38 m horizontally and less than 6.7 m vertically",
+        "more than 6.7 m vertically and less than 38 m horizontally",
+        "less than 38 m horizontally and less than 6.7 m vertically"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "A car is moving with a constant speed of 20. meters per second. What total distance does the car travel in 2.0 minutes?",
+      "choices": [
+        "10. m",
+        "40. m",
+        "1200 m",
+        "2400 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "A car, initially traveling at 15 meters per second north, accelerates to 25 meters per second north in 4.0 seconds. The magnitude of the average acceleration is",
+      "choices": [
+        "2.5 m/s2",
+        "6.3 m/s2",
+        "10. m/s2",
+        "20. m/s2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "written",
+      "text": "An object is in equilibrium. Which force vector diagram could represent the force(s) acting on the object?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which combination of fundamental units can be used to express the amount of work done on an object?",
+      "choices": [
+        "kg\u2022m/s",
+        "kg\u2022m/s2",
+        "kg\u2022m2/s2",
+        "kg\u2022m2/s3 ( 1 ) ( 2 ) ( 3 ) ( 4 ) 35\u00b0 W E N S"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "written",
+      "text": "Which graph best represents the relationship between the potential energy stored in a spring and the change in the spring\u2019s length from its equilibrium position?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "An electric motor has a rating of 4.0 \u00d7 102 watts. How much time will it take for this motor to lift a 50.-kilogram mass a vertical distance of 8.0 meters? [Assume 100% efficiency.]",
+      "choices": [
+        "0.98 s",
+        "9.8 s",
+        "98 s",
+        "980 s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "A compressed spring in a toy is used to launch a 5.00-gram ball. If the ball leaves the toy with an initial horizontal speed of 5.00 meters per second, the minimum amount of potential energy stored in the compressed spring was",
+      "choices": [
+        "0.0125 J",
+        "0.0250 J",
+        "0.0625 J",
+        "0.125 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "A ray of yellow light ( f = 5.09 \u00d7 1014 Hz) travels at a speed of 2.04 \u00d7 108 meters per second in",
+      "choices": [
+        "ethyl alcohol",
+        "water",
+        "Lucite",
+        "glycerol"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "A blue-light photon has a wavelength of 4.80 \u00d7 10\u22127 meter. What is the energy of the photon?",
+      "choices": [
+        "1.86 \u00d7 1022 J",
+        "1.44 \u00d7 102 J",
+        "4.14 \u00d7 10\u221219 J",
+        "3.18 \u00d7 10\u221226 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The graph below represents the relationship between the force exerted on an elevator and the distance the elevator is lifted. How much total work is done by the force in lifting the elevator from 0.0 m to 9.0 m?",
+      "choices": [
+        "9.0 \u00d7 104 J",
+        "1.2 \u00d7 105 J",
+        "1.5 \u00d7 105 J",
+        "1.8 \u00d7 105 J"
+      ],
+      "image": "/images/exams/physics/june-2015/q48.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The diagram below shows waves A and B in the same medium. Compared to wave A, wave B has",
+      "choices": [
+        "twice the amplitude and twice the wavelength",
+        "twice the amplitude and half the wavelength",
+        "the same amplitude and half the wavelength",
+        "half the amplitude and the same wavelength"
+      ],
+      "image": "/images/exams/physics/june-2015/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "What is the quark composition of a proton?",
+      "choices": [
+        "uud",
+        "udd",
+        "csb",
+        "uds ( 1 ) Potential Energy Change in Length B A 2.0 \u00d7 104 1.0 \u00d7 104 3.0 6.0 9.0 Force Exerted (N) 0.0 Distance Lifted (m) Potential Energy ( 2 ) Change in Length Potential Energy ( 3 ) Change in Length Potential Energy ( 4 ) Change in Length"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "51\u201352 Calculate the minimum power output of an electric motor that lifts a 1.30 \u00d7 104-newton elevator car vertically upward at a constant speed of 1.50 meters per second. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "53\u201354 A microwave oven emits a microwave with a wavelength of 2.00 \u00d7 10\u22122 meter in air. Calculate the frequency of the microwave. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/q55.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "55\u201356 Calculate the energy equivalent in joules of the mass of a proton. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/q56.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw an arrow to indicate the direction of the velocity of the car when it is at the position shown. Start the arrow on the car.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the information and diagram below and on your knowledge\nof physics.\nA 1.5 \u00d7 103-kilogram car is driven at a constant speed of 12 meters per second counterclockwise\naround a horizontal circular track having a radius of 50. meters, as represented below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the information and diagram below and on your knowledge\nof physics.\nA 1.5 \u00d7 103-kilogram car is driven at a constant speed of 12 meters per second counterclockwise\naround a horizontal circular track having a radius of 50. meters, as represented below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "58\u201359 Calculate the magnitude of the centripetal acceleration of the car. [Show all work, including the equation and substitution with units.] Track, as Viewed from Above 50. m Direction of car\u2019s motion",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the information and diagram below and on your knowledge\nof physics.\nA 1.5 \u00d7 103-kilogram car is driven at a constant speed of 12 meters per second counterclockwise\naround a horizontal circular track having a radius of 50. meters, as represented below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "On the axes in your answer booklet, draw a graph representing the relationship between the horizontal displacement of the football and the time the football is in the air.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of physics.\nA football is thrown at an angle of 30.\u00b0 above the horizontal. The magnitude of the horizontal\ncomponent of the ball\u2019s initial velocity is 13.0 meters per second. The magnitude of the vertical\ncomponent of the ball\u2019s initial velocity is 7.5 meters per second. [Neglect friction.]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/q61.png",
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of physics.\nA football is thrown at an angle of 30.\u00b0 above the horizontal. The magnitude of the horizontal\ncomponent of the ball\u2019s initial velocity is 13.0 meters per second. The magnitude of the vertical\ncomponent of the ball\u2019s initial velocity is 7.5 meters per second. [Neglect friction.]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "61\u201362 The football is caught at the same height from which it is thrown. Calculate the total time the football was in the air. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/q62.png",
+      "context": "Base your answers to questions 60 through 62 on the information below and on your knowledge of physics.\nA football is thrown at an angle of 30.\u00b0 above the horizontal. The magnitude of the horizontal\ncomponent of the ball\u2019s initial velocity is 13.0 meters per second. The magnitude of the vertical\ncomponent of the ball\u2019s initial velocity is 7.5 meters per second. [Neglect friction.]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Use a protractor to determine the angle of refraction of the light ray as it passes from the unknown material into air.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information and diagram below and on your knowledge\nof physics.\nA ray of light ( f = 5.09 \u00d7 1014 Hz) traveling through a block of an unknown material, passes at\nan angle of incidence of 30.\u00b0 into air, as shown in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information and diagram below and on your knowledge\nof physics.\nA ray of light ( f = 5.09 \u00d7 1014 Hz) traveling through a block of an unknown material, passes at\nan angle of incidence of 30.\u00b0 into air, as shown in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "64\u201365 Calculate the index of refraction of the unknown material. [Show all work, including the equation and substitution with units.] Normal 30.\u00b0 Unknown material Air",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the information and diagram below and on your knowledge\nof physics.\nA ray of light ( f = 5.09 \u00d7 1014 Hz) traveling through a block of an unknown material, passes at\nan angle of incidence of 30.\u00b0 into air, as shown in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Determine the weight of the block.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of physics.\nThe diagram below represents a 4.0-newton force applied to a 0.200-kilogram copper block\nsliding to the right on a horizontal steel table.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of physics.\nThe diagram below represents a 4.0-newton force applied to a 0.200-kilogram copper block\nsliding to the right on a horizontal steel table.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "67\u201368 Calculate the magnitude of the force of friction acting on the moving block. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of physics.\nThe diagram below represents a 4.0-newton force applied to a 0.200-kilogram copper block\nsliding to the right on a horizontal steel table.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Determine the magnitude of the net force acting on the moving block.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of physics.\nThe diagram below represents a 4.0-newton force applied to a 0.200-kilogram copper block\nsliding to the right on a horizontal steel table.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Describe what happens to the magnitude of the velocity of the block as the block slides across the table. Copper block 0.200 kg Horizontal steel table 4.0 N v",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_66_70.png",
+      "context": "Base your answers to questions 66 through 70 on the information below and on your knowledge of physics.\nThe diagram below represents a 4.0-newton force applied to a 0.200-kilogram copper block\nsliding to the right on a horizontal steel table.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw at least three field lines to represent the direction of the electric field in the space between the charged plates.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information and diagram below and on your knowledge\nof physics.\nTwo conducting parallel plates 5.0 \u00d7 10\u22123 meter apart are charged with a 12-volt potential\ndifference. An electron is located midway between the plates. The magnitude of the electrostatic\nforce on the electron is 3.8 \u00d7 10\u221216 newton.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Identify the direction of the electrostatic force that the electric field exerts on the electron.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information and diagram below and on your knowledge\nof physics.\nTwo conducting parallel plates 5.0 \u00d7 10\u22123 meter apart are charged with a 12-volt potential\ndifference. An electron is located midway between the plates. The magnitude of the electrostatic\nforce on the electron is 3.8 \u00d7 10\u221216 newton.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information and diagram below and on your knowledge\nof physics.\nTwo conducting parallel plates 5.0 \u00d7 10\u22123 meter apart are charged with a 12-volt potential\ndifference. An electron is located midway between the plates. The magnitude of the electrostatic\nforce on the electron is 3.8 \u00d7 10\u221216 newton.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "73\u201374 Calculate the magnitude of the electric field strength between the plates, in newtons per coulomb. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information and diagram below and on your knowledge\nof physics.\nTwo conducting parallel plates 5.0 \u00d7 10\u22123 meter apart are charged with a 12-volt potential\ndifference. An electron is located midway between the plates. The magnitude of the electrostatic\nforce on the electron is 3.8 \u00d7 10\u221216 newton.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Describe what happens to the magnitude of the net electrostatic force on the electron as the electron is moved toward the positive plate.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_71_75.png",
+      "context": "Base your answers to questions 71 through 75 on the information and diagram below and on your knowledge\nof physics.\nTwo conducting parallel plates 5.0 \u00d7 10\u22123 meter apart are charged with a 12-volt potential\ndifference. An electron is located midway between the plates. The magnitude of the electrostatic\nforce on the electron is 3.8 \u00d7 10\u221216 newton.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Determine the letter that identifies the energy level to which the electron jumped when the mercury atom absorbed the photon.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below and on your knowledge of physics.\nAn electron in a mercury atom changes from energy level b to a higher energy level when the\natom absorbs a single photon with an energy of 3.06 electronvolts.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Determine the energy of the photon, in joules.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below and on your knowledge of physics.\nAn electron in a mercury atom changes from energy level b to a higher energy level when the\natom absorbs a single photon with an energy of 3.06 electronvolts.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below and on your knowledge of physics.\nAn electron in a mercury atom changes from energy level b to a higher energy level when the\natom absorbs a single photon with an energy of 3.06 electronvolts.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "78\u201379 Calculate the frequency of the photon. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below and on your knowledge of physics.\nAn electron in a mercury atom changes from energy level b to a higher energy level when the\natom absorbs a single photon with an energy of 3.06 electronvolts.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Classify the photon as one of the types of electromagnetic radiation listed in the electromagnetic spectrum. + \u2013 e- + + + + + + + + + \u2013 \u2013 \u2013 \u2013 \u2013 \u2013 \u2013 \u2013 \u2013",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 76 through 80 on the information below and on your knowledge of physics.\nAn electron in a mercury atom changes from energy level b to a higher energy level when the\natom absorbs a single photon with an energy of 3.06 electronvolts.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and circuit diagram below and on your\nknowledge of physics.\nThree lamps are connected in parallel to a 120.-volt source of potential difference, as represented\nbelow.\n81\u201382 Calculate the resistance of the 40.-watt lamp. [Show all work, including the equation and substitution\nwith units.]   [2]\n83 Describe what change, if any, would occur in the power dissipated by the 100.-watt lamp if the 60.-watt\nlamp were to burn out.   [1]\n84 Describe what change, if any, would occur in the equivalent resistance of the circuit if the 60.-watt\nlamp were to burn out.   [1]\n85 The circuit is disassembled. The same three lamps are then connected in series with each other and\nthe source. Compare the equivalent resistance of this series circuit to the equivalent resistance of \nthe parallel circuit.   [1]\n120.-V\nsource\n40. W\n60. W\n100. W\nP.S./Physics\u2013June \u201915\n[13]\n\n\n\nP.S./PHYSICS\nP.S./PHYSICS\nPrinted on Recycled Paper",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "81\u201382 Calculate the resistance of the 40.-watt lamp. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and circuit diagram below and on your\nknowledge of physics.\nThree lamps are connected in parallel to a 120.-volt source of potential difference, as represented\nbelow.\n81\u201382 Calculate the resistance of the 40.-watt lamp. [Show all work, including the equation and substitution\nwith units.]   [2]\n83 Describe what change, if any, would occur in the power dissipated by the 100.-watt lamp if the 60.-watt\nlamp were to burn out.   [1]\n84 Describe what change, if any, would occur in the equivalent resistance of the circuit if the 60.-watt\nlamp were to burn out.   [1]\n85 The circuit is disassembled. The same three lamps are then connected in series with each other and\nthe source. Compare the equivalent resistance of this series circuit to the equivalent resistance of \nthe parallel circuit.   [1]\n120.-V\nsource\n40. W\n60. W\n100. W\nP.S./Physics\u2013June \u201915\n[13]\n\n\n\nP.S./PHYSICS\nP.S./PHYSICS\nPrinted on Recycled Paper",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Describe what change, if any, would occur in the power dissipated by the 100.-watt lamp if the 60.-watt lamp were to burn out.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and circuit diagram below and on your\nknowledge of physics.\nThree lamps are connected in parallel to a 120.-volt source of potential difference, as represented\nbelow.\n81\u201382 Calculate the resistance of the 40.-watt lamp. [Show all work, including the equation and substitution\nwith units.]   [2]\n83 Describe what change, if any, would occur in the power dissipated by the 100.-watt lamp if the 60.-watt\nlamp were to burn out.   [1]\n84 Describe what change, if any, would occur in the equivalent resistance of the circuit if the 60.-watt\nlamp were to burn out.   [1]\n85 The circuit is disassembled. The same three lamps are then connected in series with each other and\nthe source. Compare the equivalent resistance of this series circuit to the equivalent resistance of \nthe parallel circuit.   [1]\n120.-V\nsource\n40. W\n60. W\n100. W\nP.S./Physics\u2013June \u201915\n[13]\n\n\n\nP.S./PHYSICS\nP.S./PHYSICS\nPrinted on Recycled Paper",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Describe what change, if any, would occur in the equivalent resistance of the circuit if the 60.-watt lamp were to burn out.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and circuit diagram below and on your\nknowledge of physics.\nThree lamps are connected in parallel to a 120.-volt source of potential difference, as represented\nbelow.\n81\u201382 Calculate the resistance of the 40.-watt lamp. [Show all work, including the equation and substitution\nwith units.]   [2]\n83 Describe what change, if any, would occur in the power dissipated by the 100.-watt lamp if the 60.-watt\nlamp were to burn out.   [1]\n84 Describe what change, if any, would occur in the equivalent resistance of the circuit if the 60.-watt\nlamp were to burn out.   [1]\n85 The circuit is disassembled. The same three lamps are then connected in series with each other and\nthe source. Compare the equivalent resistance of this series circuit to the equivalent resistance of \nthe parallel circuit.   [1]\n120.-V\nsource\n40. W\n60. W\n100. W\nP.S./Physics\u2013June \u201915\n[13]\n\n\n\nP.S./PHYSICS\nP.S./PHYSICS\nPrinted on Recycled Paper",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "The circuit is disassembled. The same three lamps are then connected in series with each other and the source. Compare the equivalent resistance of this series circuit to the equivalent resistance of the parallel circuit. 120.-V source 40. W 60. W 100. W P.S./PHYSICS P.S./PHYSICS Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/physics/june-2015/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information and circuit diagram below and on your\nknowledge of physics.\nThree lamps are connected in parallel to a 120.-volt source of potential difference, as represented\nbelow.\n81\u201382 Calculate the resistance of the 40.-watt lamp. [Show all work, including the equation and substitution\nwith units.]   [2]\n83 Describe what change, if any, would occur in the power dissipated by the 100.-watt lamp if the 60.-watt\nlamp were to burn out.   [1]\n84 Describe what change, if any, would occur in the equivalent resistance of the circuit if the 60.-watt\nlamp were to burn out.   [1]\n85 The circuit is disassembled. The same three lamps are then connected in series with each other and\nthe source. Compare the equivalent resistance of this series circuit to the equivalent resistance of \nthe parallel circuit.   [1]\n120.-V\nsource\n40. W\n60. W\n100. W\nP.S./Physics\u2013June \u201915\n[13]\n\n\n\nP.S./PHYSICS\nP.S./PHYSICS\nPrinted on Recycled Paper",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

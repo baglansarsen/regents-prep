@@ -1,0 +1,1086 @@
+{
+  "subject": "earth-science",
+  "session": "january-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Ceres, a dwarf planet, is located approximately 413 million kilometers from the Sun and is located between the orbits of",
+      "choices": [
+        "Mercury and Venus",
+        "Earth and Mars",
+        "Mars and Jupiter",
+        "Saturn and Uranus"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Observations made by astronomers indicate that the light from most galaxies shows a",
+      "choices": [
+        "red shift because the galaxies are moving toward Earth",
+        "red shift because the galaxies are moving away from Earth",
+        "blue shift because the galaxies are moving toward Earth",
+        "blue shift because the galaxies are moving away from Earth"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Compared to the Jovian planets, the terrestrial planets are",
+      "choices": [
+        "large, gaseous, and of low density",
+        "large, gaseous, and of high density",
+        "small, rocky, and of low density",
+        "small, rocky, and of high density"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The apparent shift in the direction of the swing of a Foucault pendulum is a direct result of the",
+      "choices": [
+        "inclination of Earth\u2019s axis",
+        "spinning of Earth on its axis",
+        "orbiting of Earth around the Sun",
+        "distance between Earth and the Sun"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which motion causes some constellations to be visible in New York State only during winter nights and other constellations to be visible only during summer nights?",
+      "choices": [
+        "rotation of Earth on its axis",
+        "revolution of Earth around the Sun",
+        "rotation of the constellations around Earth",
+        "revolution of the constellations around the Sun"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which set of New York State locations would have the greatest difference in the altitude of Polaris observed in the night sky?",
+      "choices": [
+        "Niagara Falls and Albany",
+        "Rochester and Ithaca",
+        "Riverhead and Massena",
+        "Plattsburgh and Jamestown"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which processes of the water cycle allow water vapor to enter the atmosphere?",
+      "choices": [
+        "condensation and evaporation",
+        "condensation and infiltration",
+        "transpiration and evaporation",
+        "transpiration and infiltration"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "What is the dewpoint when the dry-bulb temperature is 19\u00b0C and the relative humidity is 73%?",
+      "choices": [
+        "12\u00b0C",
+        "14\u00b0C",
+        "3\u00b0C",
+        "16\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The diagram below shows a weather station model. 150 91 80 What is the air pressure, in millibars (mb), indicated by this station model?",
+      "choices": [
+        "1015.0 mb",
+        "915.0 mb",
+        "150 mb",
+        "15.0 mb"
+      ],
+      "image": "/images/exams/earth-science/january-2025/q9.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The photograph below was taken by aiming a camera at a portion of the night sky above Albany, New York, for a period of time to record the apparent star motion, resulting in star trails. Source: https://eyewashere.net/portfolios/stars-shine-brightest/ Which celestial object is located at the center of the star trails?",
+      "choices": [
+        "Polaris",
+        "Alpha Centauri",
+        "the Sun",
+        "the Moon"
+      ],
+      "image": "/images/exams/earth-science/january-2025/q10.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The map below shows the locations of four time zones in the United States. Seattle, Washington, and Albany, New York, are labeled on the map. Albany Seattle PACIFIC MOUNTAIN CENTRAL EASTERN If the time in Albany, New York, is 10 a.m., what time would it be in Seattle, Washington?",
+      "choices": [
+        "1 p.m.",
+        "12 p.m.",
+        "8 a.m.",
+        "7 a.m."
+      ],
+      "image": "/images/exams/earth-science/january-2025/q11.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "written",
+      "text": "Which diagram correctly matches the location of the Sun with the direction of the shadow cast by the stick? North South East West ( 1 ) Sun Stick Shadow North South East West ( 3 ) Sun Stick Shadow North South East West ( 2 ) Sun Stick Shadow North South East West ( 4 ) Stick Shadow Sun",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The diagrams below, labeled A, B, C, and D, represent fronts associated with a low pressure system (L). L L L L A B C D Which sequence best represents the order in the development of an occluded front from a cold front and warm front?",
+      "choices": [
+        "A, B, C, D",
+        "B, A, D, C",
+        "C, D, A, B",
+        "D, C, B, A"
+      ],
+      "image": "/images/exams/earth-science/january-2025/q13.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "written",
+      "text": "Which map shows the most likely direction of flow of the jet stream and the types of air masses found on either side? Canada Warm Cold United States Mexico Atlantic Ocean Gulf of Mexico Pacific Ocean J et S tr e a m J et S tr ea m N Canada Warm Cold United States Mexico Atlantic Ocean Gulf of Mexico Pacific Ocean J et S tr e a m J et S tr ea m N ( 1 ) ( 3 ) Canada Cold Warm United States Mexico Atlantic Ocean Gulf of Mexico Pacific Ocean J et S tr e a m J et S tr ea m N Canada Cold Warm United States Mexico Atlantic Ocean Gulf of Mexico Pacific Ocean J et S tr e a m J et S tr ea m N ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which statement best explains why predictions for extreme weather events are more accurate today than in the past?",
+      "choices": [
+        "There are fewer extreme weather events occurring now.",
+        "Scientists control weather by using technology.",
+        "Weather conditions change more slowly now than in the past.",
+        "Advanced computer models use weather data to make predictions."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In order to maximize the amount of insolation absorbed by a roof in a colder climate, roofing materials should be",
+      "choices": [
+        "dark-colored and rough-textured",
+        "dark-colored and smooth-textured",
+        "light-colored and rough-textured",
+        "light-colored and smooth-textured"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Uneven heating of Earth\u2019s surface and atmosphere, along with the Coriolis Effect, produces ocean currents with a general",
+      "choices": [
+        "clockwise flow in both northern and southern hemispheres",
+        "counterclockwise flow in both northern and southern hemispheres",
+        "clockwise flow in the northern hemisphere and counterclockwise flow in the southern hemisphere",
+        "counterclockwise flow in the northern hemisphere and clockwise flow in the southern hemisphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which human activity contributes to the high levels of greenhouse gases in Earth\u2019s atmosphere?",
+      "choices": [
+        "burning fossil fuels",
+        "watering farm crops",
+        "using solar energy",
+        "replanting forests"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "What is the main reason that locations near oceans have smaller annual temperature ranges than locations inland at the same latitude?",
+      "choices": [
+        "Oceans have a lower elevation than land.",
+        "Oceans cover a greater percentage of Earth\u2019s surface.",
+        "Water has a lower density than land.",
+        "Water has a higher specific heat than land."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The division of geologic time into eras, periods, and epochs is based primarily on",
+      "choices": [
+        "celestial events",
+        "tectonic events",
+        "the absolute age of rocks",
+        "the fossil record"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "During which geologic time period were thick layers of evaporites deposited in New York State?",
+      "choices": [
+        "Triassic",
+        "Permian",
+        "Silurian",
+        "Pennsylvanian"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Earth\u2019s outer core is inferred to be a liquid because",
+      "choices": [
+        "P-waves cannot travel through it",
+        "S-waves cannot travel through it",
+        "P-waves travel faster than S-waves through it",
+        "S-waves travel faster than P-waves through it"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A seismograph detects an earthquake that occurred 5600 km away. The P-waves arrived at 10:36:00 a.m. What time did the earthquake occur?",
+      "choices": [
+        "09:00:00 a.m.",
+        "10:19:50 a.m.",
+        "10:27:00 a.m.",
+        "10:45:00 a.m."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The Mariana Trench has formed because the Pacific Plate is",
+      "choices": [
+        "overriding the Philippine Plate",
+        "overriding the Indian-Australian Plate",
+        "subducting beneath the Philippine Plate",
+        "subducting beneath the Indian-Australian Plate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Rock primarily composed of which mineral would be most resistant to physical weathering?",
+      "choices": [
+        "calcite",
+        "gypsum",
+        "halite",
+        "olivine"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which agent of erosion produces parallel scratches and grooves in surface bedrock?",
+      "choices": [
+        "glacier",
+        "wind",
+        "running water",
+        "ocean waves"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The map below shows the prevailing wind direction over the Sierra Nevada, a mountain range in California. Letters A and B represent locations on Earth\u2019s surface. N S W E Pacific Ocean Nevada California Mexico S i e r ra N e v a d a Wind A B Compared to the climate at location A, the climate at location B generally is",
+      "choices": [
+        "cooler with more precipitation",
+        "cooler with less precipitation",
+        "warmer with more precipitation",
+        "warmer with less precipitation"
+      ],
+      "image": "/images/exams/earth-science/january-2025/q27.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Which pie graph correctly shows the percentage of original radioactive 40K remaining in an igneous rock sample after 2.6 3 109 years? ( 1 ) ( 3 ) ( 2 ) 40Ar and 40Ca 40K Key ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The diagram below represents three rock outcrops at locations A, B, and C. No overturning of rock layers has occurred. Location A Location B Location C Key Unconformity Volcanic Ash Which rock unit shown in the three outcrops is the oldest?",
+      "choices": [
+        "siltstone layer at the top of location A",
+        "shale layer at the bottom of location B",
+        "conglomerate layer at the top of location B",
+        "limestone layer at the bottom of location C"
+      ],
+      "image": "/images/exams/earth-science/january-2025/q29.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the magnetic polarity preserved by minerals within the bedrock of the oceanic crust near the Mid-Atlantic Ridge. Letters A, B, C, and D represent locations on the ocean-floor bedrock. A B C D Key Magnetic Polarity of the Bedrock Mid-Atlantic Ridge Normal Mantle Ocean Crust Ocean Crust Reversed The oldest bedrock is found at location",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/january-2025/q30.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Oswego and Old Forge, located at similar latitudes in New York State, have very different landscapes. Which two factors are primarily responsible for these landscape differences?",
+      "choices": [
+        "soil characteristics and bedrock composition",
+        "soil characteristics and bedrock age",
+        "bedrock structure and bedrock composition",
+        "bedrock structure and bedrock age"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The topographic map below shows the location of Henry Creek. Points A, B, C, and D represent locations on Earth\u2019s surface. A N Contour Interval = 10 feet B C D Higgins Lake 300 H enry C r e e k At which location would the water in Henry Creek be flowing at the greatest rate?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/january-2025/q32.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "A metamorphic rock with banding is described as having a",
+      "choices": [
+        "clastic texture",
+        "non-clastic texture",
+        "foliated texture",
+        "non-foliated texture"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The hardness of a mineral is primarily a result of the mineral\u2019s",
+      "choices": [
+        "mass",
+        "nonmetallic shape",
+        "pattern of breakage",
+        "internal arrangement of atoms"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Two sedimentary rocks formed from organic sediments are",
+      "choices": [
+        "bituminous coal and limestone",
+        "bituminous coal and anthracite coal",
+        "rock gypsum and limestone",
+        "rock gypsum and anthracite coal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The distance between Bouvet Island and Antarctica is approximately equal to the distance from Earth\u2019s surface to the",
+      "choices": [
+        "top of the asthenosphere",
+        "middle of the stiffer mantle",
+        "bottom of the outer core",
+        "center of Earth"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 36 through 38 on the passage below and on your knowledge of Earth science.\nBouvet Island\nBouvet Island is the most remote uninhabited island in the world. It is located above \na geologic hot spot on the Southwest Indian Ridge. The closest landmass to the island is \nAntarctica, which is 1700 km away. Most of this volcanic island is currently covered by \nglaciers. Scientists inferred from drill core samples that the last massive lava flow that \noccurred on Bouvet Island was approximately 2000 years ago.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Which cross section best represents the mantle convection currents formed beneath the Bouvet hot spot? Mantle Bouvet hot spot ( 1 ) Mantle Bouvet hot spot ( 2 ) Mantle Bouvet hot spot ( 3 ) Mantle Bouvet hot spot ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/q37.png",
+      "context": "Base your answers to questions 36 through 38 on the passage below and on your knowledge of Earth science.\nBouvet Island\nBouvet Island is the most remote uninhabited island in the world. It is located above \na geologic hot spot on the Southwest Indian Ridge. The closest landmass to the island is \nAntarctica, which is 1700 km away. Most of this volcanic island is currently covered by \nglaciers. Scientists inferred from drill core samples that the last massive lava flow that \noccurred on Bouvet Island was approximately 2000 years ago.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which ocean current would most likely influence the climate of Bouvet Island?",
+      "choices": [
+        "Antarctic Circumpolar Current",
+        "Brazil Current",
+        "Falkland Current",
+        "South Equatorial Current"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 36 through 38 on the passage below and on your knowledge of Earth science.\nBouvet Island\nBouvet Island is the most remote uninhabited island in the world. It is located above \na geologic hot spot on the Southwest Indian Ridge. The closest landmass to the island is \nAntarctica, which is 1700 km away. Most of this volcanic island is currently covered by \nglaciers. Scientists inferred from drill core samples that the last massive lava flow that \noccurred on Bouvet Island was approximately 2000 years ago.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which type of frontal boundary is represented?",
+      "choices": [
+        "cold front",
+        "warm front",
+        "occluded front",
+        "stationary front"
+      ],
+      "image": "/images/exams/earth-science/january-2025/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the cross section below and on your knowledge of Earth \nscience. The cross section represents a weather front over New York State. A continental polar (cP) air mass is \nmoving into the region now occupied by a maritime tropical (mT) air mass. The arrow shows the direction the cP \nair mass is moving. Point A is located within the cloud.\nA\nmT\ncP\nLand\nsurface",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The relative humidity within the cloud at point A is most likely",
+      "choices": [
+        "0%",
+        "33%",
+        "50%",
+        "100%"
+      ],
+      "image": "/images/exams/earth-science/january-2025/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the cross section below and on your knowledge of Earth \nscience. The cross section represents a weather front over New York State. A continental polar (cP) air mass is \nmoving into the region now occupied by a maritime tropical (mT) air mass. The arrow shows the direction the cP \nair mass is moving. Point A is located within the cloud.\nA\nmT\ncP\nLand\nsurface",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Which statement best describes why clouds are forming along the frontal boundary?",
+      "choices": [
+        "The mT air pushes the cP air up, causing it to compress and warm.",
+        "The mT air pushes the cP air up, causing it to expand and cool.",
+        "The cP air pushes the mT air up, causing it to compress and warm.",
+        "The cP air pushes the mT air up, causing it to expand and cool."
+      ],
+      "image": "/images/exams/earth-science/january-2025/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the cross section below and on your knowledge of Earth \nscience. The cross section represents a weather front over New York State. A continental polar (cP) air mass is \nmoving into the region now occupied by a maritime tropical (mT) air mass. The arrow shows the direction the cP \nair mass is moving. Point A is located within the cloud.\nA\nmT\ncP\nLand\nsurface",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Between 251 million years ago and 1.8 million years ago, India generally moved",
+      "choices": [
+        "north and east",
+        "north and west",
+        "south and east",
+        "south and west"
+      ],
+      "image": "/images/exams/earth-science/january-2025/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the diagram below and on your knowledge of Earth\nscience. The diagram represents five maps, labeled A, B, C, D, and E, and the inferred position and shape of the \ncontinents on Earth during five periods of geologic time.\nEurasia\nAfrica\nEquator (0\u00b0)\nPrime Meridian (0\u00b0)\nIndia\nAustralia\nAntarctica\nSouth \nAmerica\nNorth\nAmerica\nEurasia\nAfrica\nEquator (0\u00b0)\nPrime Meridian (0\u00b0)\nIndia\nAustralia\nAntarctica\nSouth \nAmerica\nNorth\nAmerica\n1.8 Million Years Ago\nE\nEurasia\nAfrica\nEquator (0\u00b0)\nPrime Meridian (0\u00b0)\nIndia\nAustralia\nAntarctica\nSouth \nAmerica\nNorth\nAmerica\n146 Million Years Ago\nC\nEurasia\nAfrica\nEquator (0\u00b0)\nPrime Meridian (0\u00b0)\nIndia\nAustralia\nAntarctica\nSouth \nAmerica\nNorth\nAmerica\n251 Million Years Ago\nA\n65.5 Million Years Ago\nD\nEurasia\nAfrica\nEquator (0\u00b0)\nPrime Meridian (0\u00b0)\nIndia\nAustralia\nAntarctica\nSouth \nAmerica\nNorth\nAmerica\n200 Million Years Ago\nB",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Pangaea is represented on map",
+      "choices": [
+        "A",
+        "E",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/january-2025/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the diagram below and on your knowledge of Earth\nscience. The diagram represents five maps, labeled A, B, C, D, and E, and the inferred position and shape of the \ncontinents on Earth during five periods of geologic time.\nEurasia\nAfrica\nEquator (0\u00b0)\nPrime Meridian (0\u00b0)\nIndia\nAustralia\nAntarctica\nSouth \nAmerica\nNorth\nAmerica\nEurasia\nAfrica\nEquator (0\u00b0)\nPrime Meridian (0\u00b0)\nIndia\nAustralia\nAntarctica\nSouth \nAmerica\nNorth\nAmerica\n1.8 Million Years Ago\nE\nEurasia\nAfrica\nEquator (0\u00b0)\nPrime Meridian (0\u00b0)\nIndia\nAustralia\nAntarctica\nSouth \nAmerica\nNorth\nAmerica\n146 Million Years Ago\nC\nEurasia\nAfrica\nEquator (0\u00b0)\nPrime Meridian (0\u00b0)\nIndia\nAustralia\nAntarctica\nSouth \nAmerica\nNorth\nAmerica\n251 Million Years Ago\nA\n65.5 Million Years Ago\nD\nEurasia\nAfrica\nEquator (0\u00b0)\nPrime Meridian (0\u00b0)\nIndia\nAustralia\nAntarctica\nSouth \nAmerica\nNorth\nAmerica\n200 Million Years Ago\nB",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which group of organisms became extinct during the time represented on map A?",
+      "choices": [
+        "placoderm fish",
+        "dinosaurs",
+        "trilobites",
+        "graptolites"
+      ],
+      "image": "/images/exams/earth-science/january-2025/context_42_44.png",
+      "context": "Base your answers to questions 42 through 44 on the diagram below and on your knowledge of Earth\nscience. The diagram represents five maps, labeled A, B, C, D, and E, and the inferred position and shape of the \ncontinents on Earth during five periods of geologic time.\nEurasia\nAfrica\nEquator (0\u00b0)\nPrime Meridian (0\u00b0)\nIndia\nAustralia\nAntarctica\nSouth \nAmerica\nNorth\nAmerica\nEurasia\nAfrica\nEquator (0\u00b0)\nPrime Meridian (0\u00b0)\nIndia\nAustralia\nAntarctica\nSouth \nAmerica\nNorth\nAmerica\n1.8 Million Years Ago\nE\nEurasia\nAfrica\nEquator (0\u00b0)\nPrime Meridian (0\u00b0)\nIndia\nAustralia\nAntarctica\nSouth \nAmerica\nNorth\nAmerica\n146 Million Years Ago\nC\nEurasia\nAfrica\nEquator (0\u00b0)\nPrime Meridian (0\u00b0)\nIndia\nAustralia\nAntarctica\nSouth \nAmerica\nNorth\nAmerica\n251 Million Years Ago\nA\n65.5 Million Years Ago\nD\nEurasia\nAfrica\nEquator (0\u00b0)\nPrime Meridian (0\u00b0)\nIndia\nAustralia\nAntarctica\nSouth \nAmerica\nNorth\nAmerica\n200 Million Years Ago\nB",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "The rock that formed in the zones of contact metamorphism in the limestone is",
+      "choices": [
+        "quartzite",
+        "marble",
+        "schist",
+        "gneiss"
+      ],
+      "image": "/images/exams/earth-science/january-2025/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the photograph below and on your knowledge of Earth \nscience. The photograph shows the Purcell Sill, located in Glacier National Park in Montana. The Purcell Sill is \ncomposed of the igneous rock diorite and cuts through Precambrian-age limestone bedrock. Zones of contact \nmetamorphism are indicated.\nZones of Contact Metamorphism\nPurcell Sill\nSource: https://gotbooks.miracosta.edu/earth_science/chapter11.html\nLimestone",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Which minerals are most likely found together in a sample of diorite taken from Purcell Sill?",
+      "choices": [
+        "quartz, plagioclase feldspar, and pyroxene",
+        "plagioclase feldspar, pyroxene, and olivine",
+        "plagioclase feldspar, biotite, and amphibole",
+        "potassium feldspar, quartz, and biotite"
+      ],
+      "image": "/images/exams/earth-science/january-2025/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the photograph below and on your knowledge of Earth \nscience. The photograph shows the Purcell Sill, located in Glacier National Park in Montana. The Purcell Sill is \ncomposed of the igneous rock diorite and cuts through Precambrian-age limestone bedrock. Zones of contact \nmetamorphism are indicated.\nZones of Contact Metamorphism\nPurcell Sill\nSource: https://gotbooks.miracosta.edu/earth_science/chapter11.html\nLimestone",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The texture of the diorite found in the sill is best described as",
+      "choices": [
+        "fine-grained and non-vesicular",
+        "coarse-grained and non-vesicular",
+        "fine-grained and vesicular",
+        "glassy and vesicular"
+      ],
+      "image": "/images/exams/earth-science/january-2025/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the photograph below and on your knowledge of Earth \nscience. The photograph shows the Purcell Sill, located in Glacier National Park in Montana. The Purcell Sill is \ncomposed of the igneous rock diorite and cuts through Precambrian-age limestone bedrock. Zones of contact \nmetamorphism are indicated.\nZones of Contact Metamorphism\nPurcell Sill\nSource: https://gotbooks.miracosta.edu/earth_science/chapter11.html\nLimestone",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The cross section below represents the shape of the stream channel between x and y at one location along the stream. x Stream Surface Stream Bottom y Which location is best represented by this cross section?",
+      "choices": [
+        "Location A",
+        "Location B",
+        "Location C",
+        "Location D"
+      ],
+      "image": "/images/exams/earth-science/january-2025/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the map below and on your knowledge of Earth science. \nThe map shows a meandering stream entering the ocean. Four locations, labeled A, B, C, and D, are indicated \non the map. Each location has a cross-section line labeled x-y.\nA\nB\nD\nC\nx\ny\nx\ny\nx\ny\nOcean\nx\ny",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The velocity at a certain location in this stream was measured to be 100 centimeters per second. What size sediment particles will be transported at this location?",
+      "choices": [
+        "clay, only",
+        "pebbles, only",
+        "clay, silt, and some sand, only",
+        "clay, silt, sand, and some pebbles, only"
+      ],
+      "image": "/images/exams/earth-science/january-2025/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the map below and on your knowledge of Earth science. \nThe map shows a meandering stream entering the ocean. Four locations, labeled A, B, C, and D, are indicated \non the map. Each location has a cross-section line labeled x-y.\nA\nB\nD\nC\nx\ny\nx\ny\nx\ny\nOcean\nx\ny",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "What is the name of the depositional feature located at the end of the stream where it enters the ocean?",
+      "choices": [
+        "floodplain",
+        "watershed",
+        "tributary",
+        "delta"
+      ],
+      "image": "/images/exams/earth-science/january-2025/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the map below and on your knowledge of Earth science. \nThe map shows a meandering stream entering the ocean. Four locations, labeled A, B, C, and D, are indicated \non the map. Each location has a cross-section line labeled x-y.\nA\nB\nD\nC\nx\ny\nx\ny\nx\ny\nOcean\nx\ny",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify the nuclear process that produces energy in stars.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the passage below and on your knowledge of Earth science.\nEvolution of Stars\nA star forms from a huge dust and gas cloud called a nebula. Gravitational forces \ncause the cloud to contract. As matter in the cloud draws closer together, temperature \nand pressure increase, causing hydrogen to combine, forming helium in a nuclear process. \nThe energy released by this process is eventually radiated into space in the form of \nelectromagnetic energy, some of which can be seen by humans. A star about the size of our \nSun takes about 10 billion years to go through its life cycle. It begins with the formation \nof a main sequence star, and then goes through a giant star stage. Finally, in its late stage \nof existence, it becomes a white dwarf. Stars much more massive than our Sun undergo \nexplosions called supernovas.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for fusion or nuclear fusion."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify one star that was formerly a Sun-sized star, but is now in its late stage of existence.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the passage below and on your knowledge of Earth science.\nEvolution of Stars\nA star forms from a huge dust and gas cloud called a nebula. Gravitational forces \ncause the cloud to contract. As matter in the cloud draws closer together, temperature \nand pressure increase, causing hydrogen to combine, forming helium in a nuclear process. \nThe energy released by this process is eventually radiated into space in the form of \nelectromagnetic energy, some of which can be seen by humans. A star about the size of our \nSun takes about 10 billion years to go through its life cycle. It begins with the formation \nof a main sequence star, and then goes through a giant star stage. Finally, in its late stage \nof existence, it becomes a white dwarf. Stars much more massive than our Sun undergo \nexplosions called supernovas.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 40 Eridani B \u2014 Procyon B"
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Barnard\u2019s Star and Betelgeuse are stars having similar color and surface temperature. Explain why Betelgeuse will most likely undergo a supernova but Barnard\u2019s Star will not.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the passage below and on your knowledge of Earth science.\nEvolution of Stars\nA star forms from a huge dust and gas cloud called a nebula. Gravitational forces \ncause the cloud to contract. As matter in the cloud draws closer together, temperature \nand pressure increase, causing hydrogen to combine, forming helium in a nuclear process. \nThe energy released by this process is eventually radiated into space in the form of \nelectromagnetic energy, some of which can be seen by humans. A star about the size of our \nSun takes about 10 billion years to go through its life cycle. It begins with the formation \nof a main sequence star, and then goes through a giant star stage. Finally, in its late stage \nof existence, it becomes a white dwarf. Stars much more massive than our Sun undergo \nexplosions called supernovas.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Betelgeuse is a much more massive star. \u2014 Barnard\u2019s Star has too small of a mass to undergo a supernova."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the geologic period when Glacial Lake Albany was first formed.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 56 on the passage below and on your knowledge of Earth science. \nThe passage describes the formation of the Albany Pine Bush. \nThe Albany Pine Bush\nApproximately 6,000 acres near Albany, New York, is known as the Albany Pine Bush. \nIts history began about 15,000 years ago, when a one-mile-thick glacier melted at the end \nof the last ice age, forming a giant lake that was over 190 miles long. Scientists call this lake \nGlacial Lake Albany. The lake eventually drained and the sandy deposits on the lake floor \nwere blown into sand dunes. The sandy dunes were gradually covered by plants.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Quaternary Period."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify the entire range of sand sizes covering the lake floor when Glacial Lake Albany drained.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 56 on the passage below and on your knowledge of Earth science. \nThe passage describes the formation of the Albany Pine Bush. \nThe Albany Pine Bush\nApproximately 6,000 acres near Albany, New York, is known as the Albany Pine Bush. \nIts history began about 15,000 years ago, when a one-mile-thick glacier melted at the end \nof the last ice age, forming a giant lake that was over 190 miles long. Scientists call this lake \nGlacial Lake Albany. The lake eventually drained and the sandy deposits on the lake floor \nwere blown into sand dunes. The sandy dunes were gradually covered by plants.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.006 cm to 0.2 cm or 0.2 cm to 0.006 cm."
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify the agent of erosion that formed the sand dunes from the sediments left on the lake floor after Glacial Lake Albany drained.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 56 on the passage below and on your knowledge of Earth science. \nThe passage describes the formation of the Albany Pine Bush. \nThe Albany Pine Bush\nApproximately 6,000 acres near Albany, New York, is known as the Albany Pine Bush. \nIts history began about 15,000 years ago, when a one-mile-thick glacier melted at the end \nof the last ice age, forming a giant lake that was over 190 miles long. Scientists call this lake \nGlacial Lake Albany. The lake eventually drained and the sandy deposits on the lake floor \nwere blown into sand dunes. The sandy dunes were gradually covered by plants.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for wind."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Determine the height of the tide at 5 p.m. on Saturday.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the graph below and on your knowledge of Earth science. \nThe graph shows the change in the heights of tides at a coastal location for two days.\n3.0\n2.0\n1.0\n0\nSaturday\nSunday\nHeight of Tide (m)\n6 a.m.\n2 a.m.\n4 a.m.\n8 a.m.\n10 a.m.\n12 a.m.\n12 p.m.\n6 p.m.\n2 p.m.\n4 p.m.\n8 p.m.\n10 p.m.\n12 a.m.\n6 a.m.\n2 a.m.\n4 a.m.\n8 a.m.\n10 a.m.\n12 p.m.\n6 p.m.\n2 p.m.\n4 p.m.\n8 p.m.\n10 p.m.\n12 a.m.\nChange in Heights of Tides",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 1.7 m to 2.0 m."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Predict the time of the next high tide on Monday. Include a.m. or p.m. in your answer.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the graph below and on your knowledge of Earth science. \nThe graph shows the change in the heights of tides at a coastal location for two days.\n3.0\n2.0\n1.0\n0\nSaturday\nSunday\nHeight of Tide (m)\n6 a.m.\n2 a.m.\n4 a.m.\n8 a.m.\n10 a.m.\n12 a.m.\n12 p.m.\n6 p.m.\n2 p.m.\n4 p.m.\n8 p.m.\n10 p.m.\n12 a.m.\n6 a.m.\n2 a.m.\n4 a.m.\n8 a.m.\n10 a.m.\n12 p.m.\n6 p.m.\n2 p.m.\n4 p.m.\n8 p.m.\n10 p.m.\n12 a.m.\nChange in Heights of Tides",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any time from 9:00 a.m. to 10:00 a.m."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Identify the force that causes tides.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the graph below and on your knowledge of Earth science. \nThe graph shows the change in the heights of tides at a coastal location for two days.\n3.0\n2.0\n1.0\n0\nSaturday\nSunday\nHeight of Tide (m)\n6 a.m.\n2 a.m.\n4 a.m.\n8 a.m.\n10 a.m.\n12 a.m.\n12 p.m.\n6 p.m.\n2 p.m.\n4 p.m.\n8 p.m.\n10 p.m.\n12 a.m.\n6 a.m.\n2 a.m.\n4 a.m.\n8 a.m.\n10 a.m.\n12 p.m.\n6 p.m.\n2 p.m.\n4 p.m.\n8 p.m.\n10 p.m.\n12 a.m.\nChange in Heights of Tides",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for gravity or gravitational force."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Describe how the thickness of cloud cover at a particular location affects the relative amount of solar radiation reaching Earth\u2019s surface.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_60_61.png",
+      "context": "Base your answers to questions 60 and 61 on the diagram below and on your knowledge of Earth science. The \ndiagram represents the effect that cloud thickness has on incoming solar radiation reaching Earth and outgoing \nradiation. Thickness of arrows represents relative amount of radiation.\nReflected\nSolar Radiation\nThicker clouds\nReflected\nSolar Radiation\nReflected\nSolar \nRadiation\nIncoming Solar\nRadiation\nSome insolation is absorbed and heats Earth\u2019s surface\nThin clouds\n       \n O\nut\ng\no\ni\nn\ng \n      \n R\na\nd\ni\na\nti\no\nn\nOutg\no\ni\nn\ng\n   \n    \nRa\ndi\nat\ni\no\nn\nIncoming Solar\nRadiation",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The thicker the cloud cover, the less solar radiation reaches Earth\u2019s surface. \u2014 Thicker clouds prevent more insolation from reaching Earth\u2019s surface. \u2014 Less incoming radiation is blocked by thin clouds. \u2014 Thick clouds absorb much more solar radiation than thin clouds. Part B\u20132 Allow a maximum of 15 credits for this part. To ensure the accuracy of overlays, select a printer setting such as full, actual size, or 100% when printing this document. Do not select the fit to page setting. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "State the name of the temperature zone of Earth\u2019s atmosphere where most clouds form.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_60_61.png",
+      "context": "Base your answers to questions 60 and 61 on the diagram below and on your knowledge of Earth science. The \ndiagram represents the effect that cloud thickness has on incoming solar radiation reaching Earth and outgoing \nradiation. Thickness of arrows represents relative amount of radiation.\nReflected\nSolar Radiation\nThicker clouds\nReflected\nSolar Radiation\nReflected\nSolar \nRadiation\nIncoming Solar\nRadiation\nSome insolation is absorbed and heats Earth\u2019s surface\nThin clouds\n       \n O\nut\ng\no\ni\nn\ng \n      \n R\na\nd\ni\na\nti\no\nn\nOutg\no\ni\nn\ng\n   \n    \nRa\ndi\nat\ni\no\nn\nIncoming Solar\nRadiation",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for troposphere."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, shade the portion of Earth that represents nighttime.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents a view of Earth as seen from space on the first day of a certain season. \nSome latitudes have been labeled.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for shading the left half of Earth. The shading should end within, or touching the sides of, the boxed region but not extending beyond the boxed region below. Sun\u2019s rays North Pole South Pole Tropic Cancer Tropic of Ca icorn Eq ator Antarctic Cir rctic Circle"
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify the season that is beginning in the northern hemisphere when Earth is in this position.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents a view of Earth as seen from space on the first day of a certain season. \nSome latitudes have been labeled.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for summer."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "State the number of daylight hours that an observer at the equator would experience on this day.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents a view of Earth as seen from space on the first day of a certain season. \nSome latitudes have been labeled.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 12 hr."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Compared to current summer and winter temperatures in New York State, describe how New York State\u2019s summer and winter temperatures would change if Earth\u2019s rotational axis were tilted at 33.5\u00b0 instead of 23.5\u00b0.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 62 through 65 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents a view of Earth as seen from space on the first day of a certain season. \nSome latitudes have been labeled.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses are correct. Acceptable responses include, but are not limited to: Summer temperatures: \u2014 would get warmer \u2014 increase \u2014 hotter Winter temperatures: \u2014 would get cooler \u2014 decrease \u2014 colder P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify the process that recrystallizes silica-rich rock and limestone into wollastonite using heat and pressure.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the passage and map below and on your knowledge of Earth \nscience. The map shows a portion of northeastern New York State and northwestern Vermont.\nWollastonite \u2014 A Versatile Industrial Mineral\nWollastonite is a mineral composed of calcium, silicon, and oxygen (CaSiO3). The \nformation of wollastonite can occur when a large area of silica-rich rock and limestone is \ndeeply buried and recrystallized at temperatures from 400\u00b0C to 450\u00b0C.\nThe Lewis Deposit, located in Willsboro, New York, contains approximately 60% \nwollastonite. Since the early 1980s wollastonite has been used as a replacement for asbestos \nin products such as insulating boards and panels, roofing tiles, and brakes. Wollastonite is \nalso used in ceramic glaze mixes.\n45\u00b0 N\n44.8\u00b0 N\n44.6\u00b0 N\n44.4\u00b0 N\n44.2\u00b0 N\n44\u00b0 N\n74\u00b0 W\nNew York\nVermont\n73.8\u00b0 W\n73.6\u00b0 W\n73.2\u00b0 W\n73.4\u00b0 W\n73\u00b0 W\nNortheastern New York State\nand Northwestern Vermont\n0\n10\n20\n30 km\nPlattsburgh\nWillsboro\nLake Placid\nLake Champlain",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 metamorphism \u2014 contact metamorphism \u2014 regional metamorphism"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Identify one mineral, other than wollastonite, that is used in ceramics.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the passage and map below and on your knowledge of Earth \nscience. The map shows a portion of northeastern New York State and northwestern Vermont.\nWollastonite \u2014 A Versatile Industrial Mineral\nWollastonite is a mineral composed of calcium, silicon, and oxygen (CaSiO3). The \nformation of wollastonite can occur when a large area of silica-rich rock and limestone is \ndeeply buried and recrystallized at temperatures from 400\u00b0C to 450\u00b0C.\nThe Lewis Deposit, located in Willsboro, New York, contains approximately 60% \nwollastonite. Since the early 1980s wollastonite has been used as a replacement for asbestos \nin products such as insulating boards and panels, roofing tiles, and brakes. Wollastonite is \nalso used in ceramic glaze mixes.\n45\u00b0 N\n44.8\u00b0 N\n44.6\u00b0 N\n44.4\u00b0 N\n44.2\u00b0 N\n44\u00b0 N\n74\u00b0 W\nNew York\nVermont\n73.8\u00b0 W\n73.6\u00b0 W\n73.2\u00b0 W\n73.4\u00b0 W\n73\u00b0 W\nNortheastern New York State\nand Northwestern Vermont\n0\n10\n20\n30 km\nPlattsburgh\nWillsboro\nLake Placid\nLake Champlain",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 plagioclase feldspar \u2014 orthoclase/potassium feldspar \u2014 feldspar \u2014 talc"
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Identify the New York State landscape region in which Plattsburgh, New York, is located.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the passage and map below and on your knowledge of Earth \nscience. The map shows a portion of northeastern New York State and northwestern Vermont.\nWollastonite \u2014 A Versatile Industrial Mineral\nWollastonite is a mineral composed of calcium, silicon, and oxygen (CaSiO3). The \nformation of wollastonite can occur when a large area of silica-rich rock and limestone is \ndeeply buried and recrystallized at temperatures from 400\u00b0C to 450\u00b0C.\nThe Lewis Deposit, located in Willsboro, New York, contains approximately 60% \nwollastonite. Since the early 1980s wollastonite has been used as a replacement for asbestos \nin products such as insulating boards and panels, roofing tiles, and brakes. Wollastonite is \nalso used in ceramic glaze mixes.\n45\u00b0 N\n44.8\u00b0 N\n44.6\u00b0 N\n44.4\u00b0 N\n44.2\u00b0 N\n44\u00b0 N\n74\u00b0 W\nNew York\nVermont\n73.8\u00b0 W\n73.6\u00b0 W\n73.2\u00b0 W\n73.4\u00b0 W\n73\u00b0 W\nNortheastern New York State\nand Northwestern Vermont\n0\n10\n20\n30 km\nPlattsburgh\nWillsboro\nLake Placid\nLake Champlain",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Champlain Lowlands or Interior Lowlands. Part C Allow a maximum of 20 credits for this part. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a line graph by plotting the infiltration rates for the five bead diameters listed in the table. Connect the five plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_69_70.png",
+      "context": "Base your answers to questions 69 and 70 on the diagram and table below and on your knowledge of Earth \nscience. The diagram represents the laboratory materials used for investigations of how bead diameter affects\ninfiltration, porosity, and water retention. Each column was filled to the same level with uniform-sized, dry,\nspherical beads. Water was added to fill each column to the top of the beads. The clamps were then opened to\nallow the water to drain into the beakers beneath each column. The time it took the water to drain and the \namount of water left in each column was calculated. The table shows the results of the investigation.\nBeaker\nBeads\nwith a\ndiameter of\n3.5 mm\nBeaker\nClamp\nBeads\nwith a\ndiameter of\n1.0 mm\nBeaker\nClamp\nBeads\nwith a\ndiameter of\n2.1 mm\nBeaker\nClamp\nBeads\nwith a\ndiameter of\n5.0 mm\nBeaker\nClamp\nClamp\nBeads\nwith a\ndiameter of\n0.4 mm\n(Not drawn to scale)\nEffects of Bead Diameter\nBead Diameter\n(mm)\nInfiltration Rate\n(mm/s)\nPorosity\n(%)\nRetention\n(ml)\n0.4\n18\n40\n22\n1.0\n25\n40\n16\n2.1\n31\n40\n11\n3.5\n34\n40\n9\n5.0\n36\n40\n5",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the center of all five plots are within or touch the circles shown and are correctly connected with a line that passes within or touches each circle. Example of a 1-credit response: Infiltration Rate (mm/s) Bead Diameter (mm) 0 1 2 3 4 5 Infiltration Rate and Bead Diameter 10 30 40 20 Note: Allow credit if the line does not pass through the students plots, but is still within or touches the circles. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating. Do not allow credit if the student extends the line beyond the 5 plots."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "State the relationship between increasing bead size and the amount of water retention in the column.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_69_70.png",
+      "context": "Base your answers to questions 69 and 70 on the diagram and table below and on your knowledge of Earth \nscience. The diagram represents the laboratory materials used for investigations of how bead diameter affects\ninfiltration, porosity, and water retention. Each column was filled to the same level with uniform-sized, dry,\nspherical beads. Water was added to fill each column to the top of the beads. The clamps were then opened to\nallow the water to drain into the beakers beneath each column. The time it took the water to drain and the \namount of water left in each column was calculated. The table shows the results of the investigation.\nBeaker\nBeads\nwith a\ndiameter of\n3.5 mm\nBeaker\nClamp\nBeads\nwith a\ndiameter of\n1.0 mm\nBeaker\nClamp\nBeads\nwith a\ndiameter of\n2.1 mm\nBeaker\nClamp\nBeads\nwith a\ndiameter of\n5.0 mm\nBeaker\nClamp\nClamp\nBeads\nwith a\ndiameter of\n0.4 mm\n(Not drawn to scale)\nEffects of Bead Diameter\nBead Diameter\n(mm)\nInfiltration Rate\n(mm/s)\nPorosity\n(%)\nRetention\n(ml)\n0.4\n18\n40\n22\n1.0\n25\n40\n16\n2.1\n31\n40\n11\n3.5\n34\n40\n9\n5.0\n36\n40\n5",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 As bead size increases, water retention decreases. \u2014 As bead size increases, retention goes down. \u2014 inverse relationship/negative correlation \u2014 larger particles retain less water P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a profile of the depth of White Lake from point A to point B. Plot each point where an isoline showing depth is crossed by line AB. Points A and B have been plotted on the graph. Connect the plots with a line, starting at A and ending at B, to complete the profile.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the bathymetric map below and on your knowledge of Earth \nscience. The map shows the depth of White Lake located in Sullivan County, New York. Isoline values indicate \nwater depth in feet. The surface of White Lake is 1323 feet above sea level. Points A and B represent locations \non the shoreline of White Lake. Point C represents a location on the bottom of the lake.\nMap of White Lake, New York\n0\n500\n1000 ft\n20\n40\n60\nB\nA\n40\n60\n80\nC\n60\nN",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if all six plots are within or touch the rectangles shown below and are correctly connected with a line from A to B that passes within or touches each rectangle. The line should extend below 60 ft, but remain above 80 ft. Example of a 1-credit response: 0 20 40 60 80 Depth (ft) Surface of lake Distance (ft) A B 0 20 40 60 80 Depth (ft) Profile Note: It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "State one possible water depth at point C.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_71_72.png",
+      "context": "Base your answers to questions 71 and 72 on the bathymetric map below and on your knowledge of Earth \nscience. The map shows the depth of White Lake located in Sullivan County, New York. Isoline values indicate \nwater depth in feet. The surface of White Lake is 1323 feet above sea level. Points A and B represent locations \non the shoreline of White Lake. Point C represents a location on the bottom of the lake.\nMap of White Lake, New York\n0\n500\n1000 ft\n20\n40\n60\nB\nA\n40\n60\n80\nC\n60\nN",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value greater than 80 ft, but less than 100 ft."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, place an X on the Moon\u2019s orbit to show the approximate position of the Moon on day 5.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_73_75.png",
+      "context": "Base your answers to questions 73 through 75 on the data table below and on your knowledge of Earth\nscience. The data table lists the distance from Earth to the Moon and the percentage of the lighted portion of the \nMoon visible from Earth each day for a 9-day period.\nDay\nApproximate Earth-Moon\nDistance (km)\nLighted portion of\nMoon Visible (%)\n1\n393,300\n84\n2\n397,600\n76\n3\n400,900\n67\n4\n403,200\n58\n5\n404,300\n49\n6\n404,000\n39\n7\n402,500\n30\n8\n399,800\n22\n9\n396,300\n14",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the center of the X is within or touches the rectangle shown below. Example of a 1-credit response: (Not drawn to scale) Earth Sun\u2019s rays Moon\u2019s orbit Pole North Note: Allow credit if a symbol other than X is used."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "State the number of days (d) it takes the Moon to complete one cycle of phases from one full moon to the next full moon.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_73_75.png",
+      "context": "Base your answers to questions 73 through 75 on the data table below and on your knowledge of Earth\nscience. The data table lists the distance from Earth to the Moon and the percentage of the lighted portion of the \nMoon visible from Earth each day for a 9-day period.\nDay\nApproximate Earth-Moon\nDistance (km)\nLighted portion of\nMoon Visible (%)\n1\n393,300\n84\n2\n397,600\n76\n3\n400,900\n67\n4\n403,200\n58\n5\n404,300\n49\n6\n404,000\n39\n7\n402,500\n30\n8\n399,800\n22\n9\n396,300\n14",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 29 days to 30 days. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Explain how the data provide evidence that the Moon has an elliptical orbit around Earth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_73_75.png",
+      "context": "Base your answers to questions 73 through 75 on the data table below and on your knowledge of Earth\nscience. The data table lists the distance from Earth to the Moon and the percentage of the lighted portion of the \nMoon visible from Earth each day for a 9-day period.\nDay\nApproximate Earth-Moon\nDistance (km)\nLighted portion of\nMoon Visible (%)\n1\n393,300\n84\n2\n397,600\n76\n3\n400,900\n67\n4\n403,200\n58\n5\n404,300\n49\n6\n404,000\n39\n7\n402,500\n30\n8\n399,800\n22\n9\n396,300\n14",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The distance between Earth and the Moon varies over the 9 days. \u2014 The approximate Earth-Moon distance is not the same."
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "On the map in your answer booklet\u00b8 draw the 70\u00b0F isotherm. Extend the line to the edges of the United States.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the Surface Air Temperature map in your answer\nbooklet, the two Extreme Storms and Winds maps below, and on your knowledge of Earth science. The Surface\nAir Temperature map shows the surface air temperatures, recorded in degrees Fahrenheit (\u00b0F), across the\nUnited States at 6 p.m. on October 25, 2010. The 40\u00b0F isotherm is drawn. The shaded portions on the two \nExtreme Storms and Winds maps show the areas where extreme storms and winds (including tornadoes) were \nforecasted on October 25, 2010 and October 26, 2010. Letters W, X, Y, and Z represent the same surface\nlocations on all maps.\nX\nY\nW\nX\nY\nExtreme Storms and Winds \n October 25, 2010\nExtreme Storms and Winds \n October 26, 2010\nZ\nZ\nW",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the 70\u00b0F isotherm is correctly drawn to the edges of the United States. The isotherm must pass through all five 70\u00b0F points. If additional lines are drawn, all isolines must be correct to receive credit. Example of a 1-credit response: Gulf of Mexico 50 51 52 49 46 Y 36 49 56 50 40 44 51 60 60 68 67 66 73 74 66 65 64 61 68 64 54 70 69 78 70 74 77 50 47 47 40 40 70 72 73 44 56 61 63 55 59 68 68 74 45 50 50 47 49 35 62 62 61 76 56 65 75 70 75 74 77 83 83 82 85 86 81 85 82 74 80 80 71 70 67 Z X 87 84 86 72 W 67 Surface Air Temperature (\u00b0F) October 25, 2010"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "The lowest temperatures on the Surface Air Temperature map are inside the 40\u00b0F isotherm. This region is part of the Rocky Mountains. Identify the climate factor that accounts for the low surface air temperatures in this mountain region.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the Surface Air Temperature map in your answer\nbooklet, the two Extreme Storms and Winds maps below, and on your knowledge of Earth science. The Surface\nAir Temperature map shows the surface air temperatures, recorded in degrees Fahrenheit (\u00b0F), across the\nUnited States at 6 p.m. on October 25, 2010. The 40\u00b0F isotherm is drawn. The shaded portions on the two \nExtreme Storms and Winds maps show the areas where extreme storms and winds (including tornadoes) were \nforecasted on October 25, 2010 and October 26, 2010. Letters W, X, Y, and Z represent the same surface\nlocations on all maps.\nX\nY\nW\nX\nY\nExtreme Storms and Winds \n October 25, 2010\nExtreme Storms and Winds \n October 26, 2010\nZ\nZ\nW",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 high elevation \u2014 altitude \u2014 height above sea level"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Identify the evidence on the October 25 Extreme Storms and Winds map that indicates location Z has a dewpoint that is close to the air temperature.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the Surface Air Temperature map in your answer\nbooklet, the two Extreme Storms and Winds maps below, and on your knowledge of Earth science. The Surface\nAir Temperature map shows the surface air temperatures, recorded in degrees Fahrenheit (\u00b0F), across the\nUnited States at 6 p.m. on October 25, 2010. The 40\u00b0F isotherm is drawn. The shaded portions on the two \nExtreme Storms and Winds maps show the areas where extreme storms and winds (including tornadoes) were \nforecasted on October 25, 2010 and October 26, 2010. Letters W, X, Y, and Z represent the same surface\nlocations on all maps.\nX\nY\nW\nX\nY\nExtreme Storms and Winds \n October 25, 2010\nExtreme Storms and Winds \n October 26, 2010\nZ\nZ\nW",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 When the air temperature and dew points are close, the chance of precipitation is greater, and location Z is located in the extreme storm and wind zone. \u2014 storms were forecasted at location Z P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the Surface Air Temperature map in your answer\nbooklet, the two Extreme Storms and Winds maps below, and on your knowledge of Earth science. The Surface\nAir Temperature map shows the surface air temperatures, recorded in degrees Fahrenheit (\u00b0F), across the\nUnited States at 6 p.m. on October 25, 2010. The 40\u00b0F isotherm is drawn. The shaded portions on the two \nExtreme Storms and Winds maps show the areas where extreme storms and winds (including tornadoes) were \nforecasted on October 25, 2010 and October 26, 2010. Letters W, X, Y, and Z represent the same surface\nlocations on all maps.\nX\nY\nW\nX\nY\nExtreme Storms and Winds \n October 25, 2010\nExtreme Storms and Winds \n October 26, 2010\nZ\nZ\nW",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for two correct emergency preparations. Acceptable responses include, but are not limited to: \u2014 find a secure shelter/ go to a storm shelter in house/ go to the basement \u2014 have emergency warning systems (such as phones and televisions) in place \u2014 make sure all medicines and necessary medical kits are prepared \u2014 secure outside objects that can blow away \u2014 make sure generators are operational"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "C 60 N 71 On the grid in your answer booklet, construct a profile of the depth of White Lake from point A to point B. Plot each point where an isoline showing depth is crossed by line AB. Points A and B have been plotted on the graph. Connect the plots with a line, starting at A and ending at B, to complete the profile. 72 State one possible water depth at point C.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the cross section below and on your knowledge of Earth\nscience. Letters A through J represent different rock units. Letter X represents a fault line, and letter Y\nrepresents an unconformity. The rock units have not been overturned.\nD\nE\nKey\nGabbro\nBasalt\nContact\nmetamorphism\nA\nA\nB\nC\nJ\nG\nH\nE\nF\nD\nY\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Rock layers C, F, G, H, and J are tilted. \u2014 Some rock units, like rock unit F, no longer show original horizontality. \u2014 There is displacement/offset along the fault. \u2014 An unconformity is present."
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Place the letters of the following rock units and the fault in order from oldest to youngest. C D E Fault X",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the cross section below and on your knowledge of Earth\nscience. Letters A through J represent different rock units. Letter X represents a fault line, and letter Y\nrepresents an unconformity. The rock units have not been overturned.\nD\nE\nKey\nGabbro\nBasalt\nContact\nmetamorphism\nA\nA\nB\nC\nJ\nG\nH\nE\nF\nD\nY\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the letters are in the correct order as shown below. C X/Fault X E D Youngest Oldest"
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Rock unit G formed during the late Cambrian period, and Rock unit J formed during the early Ordovician period. Identify the name of one New York State index fossil that could possibly be found in Rock unit H.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the cross section below and on your knowledge of Earth\nscience. Letters A through J represent different rock units. Letter X represents a fault line, and letter Y\nrepresents an unconformity. The rock units have not been overturned.\nD\nE\nKey\nGabbro\nBasalt\nContact\nmetamorphism\nA\nA\nB\nC\nJ\nG\nH\nE\nF\nD\nY\nX",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Tetragraptus, or Maclurites, or Lichenaria."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Determine the latitude and longitude, to the nearest whole degree, of the Sierra Madera crater. Include units and compass directions in your answer.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the data table and map below and on your knowledge of \nEarth science. The data table shows the location, diameter, and age of some impact craters on Earth. The latitude \nand longitude of the Sierra Madera, Texas, crater has been left blank. The location of the Sierra Madera crater is \nindicated on the map of Texas.\nCrater\nLatitude\nLongitude\nDiameter (km)\nAge (yrs.)\nMeteor Crater\n35\u00b0 N\n111\u00b0 W\n1.2\n50,000\nChicxulub\n23\u00b0 N\n90\u00b0 W\n180\n65.5 million\nSierra Madera\n13\n100 million\nRed Wing Creek\n48\u00b0 N\n104\u00b0 W\n9\n200 million\nWells Creek\n36\u00b0 N\n88\u00b0 W\n14\n200 million\nClearwater Lakes\n56\u00b0 N\n74\u00b0 W\n22\n290 million\nPilot Lake\n60\u00b0 N\n111\u00b0 W\n6\n440 million\nLocation of Sierra Madera, Texas, Crater\n26\u00b0N\n26\u00b0N\n28\u00b0N\n28\u00b0N\n30\u00b0N\n30\u00b0N\n32\u00b0N\n32\u00b0N\n34\u00b0N\n34\u00b0N\n36\u00b0N\n36\u00b0N\n106\u00b0W\n104\u00b0W\n102\u00b0W\n100\u00b0W\n98\u00b0W\n96\u00b0W\n94\u00b0W\n106\u00b0W\n104\u00b0W\n102\u00b0W\n100\u00b0W\n98\u00b0W\n96\u00b0W\n94\u00b0W\nTexas\nSierra Madera",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 31\u00b0 North (N) for latitude and 103\u00b0 West (W) for longitude. Note: Units and compass directions must be included in student\u2019s answer to receive credit."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "State the name of the crater that has a diameter approximately equal to the straight line distance, in kilometers, between Ithaca, New York and Slide Mountain, New York.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the data table and map below and on your knowledge of \nEarth science. The data table shows the location, diameter, and age of some impact craters on Earth. The latitude \nand longitude of the Sierra Madera, Texas, crater has been left blank. The location of the Sierra Madera crater is \nindicated on the map of Texas.\nCrater\nLatitude\nLongitude\nDiameter (km)\nAge (yrs.)\nMeteor Crater\n35\u00b0 N\n111\u00b0 W\n1.2\n50,000\nChicxulub\n23\u00b0 N\n90\u00b0 W\n180\n65.5 million\nSierra Madera\n13\n100 million\nRed Wing Creek\n48\u00b0 N\n104\u00b0 W\n9\n200 million\nWells Creek\n36\u00b0 N\n88\u00b0 W\n14\n200 million\nClearwater Lakes\n56\u00b0 N\n74\u00b0 W\n22\n290 million\nPilot Lake\n60\u00b0 N\n111\u00b0 W\n6\n440 million\nLocation of Sierra Madera, Texas, Crater\n26\u00b0N\n26\u00b0N\n28\u00b0N\n28\u00b0N\n30\u00b0N\n30\u00b0N\n32\u00b0N\n32\u00b0N\n34\u00b0N\n34\u00b0N\n36\u00b0N\n36\u00b0N\n106\u00b0W\n104\u00b0W\n102\u00b0W\n100\u00b0W\n98\u00b0W\n96\u00b0W\n94\u00b0W\n106\u00b0W\n104\u00b0W\n102\u00b0W\n100\u00b0W\n98\u00b0W\n96\u00b0W\n94\u00b0W\nTexas\nSierra Madera",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Chicxulub."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify one type of solar system object that could have impacted Earth\u2019s surface to create any of these craters. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2025/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the data table and map below and on your knowledge of \nEarth science. The data table shows the location, diameter, and age of some impact craters on Earth. The latitude \nand longitude of the Sierra Madera, Texas, crater has been left blank. The location of the Sierra Madera crater is \nindicated on the map of Texas.\nCrater\nLatitude\nLongitude\nDiameter (km)\nAge (yrs.)\nMeteor Crater\n35\u00b0 N\n111\u00b0 W\n1.2\n50,000\nChicxulub\n23\u00b0 N\n90\u00b0 W\n180\n65.5 million\nSierra Madera\n13\n100 million\nRed Wing Creek\n48\u00b0 N\n104\u00b0 W\n9\n200 million\nWells Creek\n36\u00b0 N\n88\u00b0 W\n14\n200 million\nClearwater Lakes\n56\u00b0 N\n74\u00b0 W\n22\n290 million\nPilot Lake\n60\u00b0 N\n111\u00b0 W\n6\n440 million\nLocation of Sierra Madera, Texas, Crater\n26\u00b0N\n26\u00b0N\n28\u00b0N\n28\u00b0N\n30\u00b0N\n30\u00b0N\n32\u00b0N\n32\u00b0N\n34\u00b0N\n34\u00b0N\n36\u00b0N\n36\u00b0N\n106\u00b0W\n104\u00b0W\n102\u00b0W\n100\u00b0W\n98\u00b0W\n96\u00b0W\n94\u00b0W\n106\u00b0W\n104\u00b0W\n102\u00b0W\n100\u00b0W\n98\u00b0W\n96\u00b0W\n94\u00b0W\nTexas\nSierra Madera",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 asteroid \u2014 meteor/meteorite/meteoroid \u2014 comet P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    }
+  ]
+}

@@ -1,0 +1,1076 @@
+{
+  "subject": "physics",
+  "session": "june-2011",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Scalar is to vector as",
+      "choices": [
+        "speed is to velocity",
+        "displacement is to distance",
+        "displacement is to velocity",
+        "speed is to distance"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "If a car accelerates uniformly from rest to 15 meters per second over a distance of 100. meters, the magnitude of the car\u2019s acceleration is",
+      "choices": [
+        "0.15 m/s2",
+        "1.1 m/s2",
+        "2.3 m/s2",
+        "6.7 m/s2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "An object accelerates uniformly from 3.0 meters per second east to 8.0 meters per second east in 2.0 seconds. What is the magnitude of the acceleration of the object?",
+      "choices": [
+        "2.5 m/s2",
+        "5.0 m/s2",
+        "5.5 m/s2",
+        "11 m/s2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "A rock is dropped from a bridge. What happens to the magnitude of the acceleration and the speed of the rock as it falls? [Neglect friction.]",
+      "choices": [
+        "Both acceleration and speed increase.",
+        "Both acceleration and speed remain the same.",
+        "Acceleration increases and speed decreases.",
+        "Acceleration remains the same and speed increases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "A soccer ball kicked on a level field has an initial vertical velocity component of 15.0 meters per second. Assuming the ball lands at the same height from which it was kicked, what is the total time the ball is in the air? [Neglect friction.]",
+      "choices": [
+        "0.654 s",
+        "1.53 s",
+        "3.06 s",
+        "6.12 s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "A student is standing in an elevator that is accelerating downward. The force that the student exerts on the floor of the elevator must be",
+      "choices": [
+        "less than the weight of the student when at rest",
+        "greater than the weight of the student when at rest",
+        "less than the force of the floor on the student",
+        "greater than the force of the floor on the student"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The magnitude of the centripetal force acting on an object traveling in a horizontal, circular path will decrease if the",
+      "choices": [
+        "radius of the path is increased",
+        "mass of the object is increased",
+        "direction of motion of the object is reversed",
+        "speed of the object is increased"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The centripetal force acting on the space shuttle as it orbits Earth is equal to the shuttle\u2019s",
+      "choices": [
+        "inertia",
+        "momentum",
+        "velocity",
+        "weight"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "As a box is pushed 30. meters across a horizontal floor by a constant horizontal force of 25 newtons, the kinetic energy of the box increases by 300. joules. How much total internal energy is produced during this process?",
+      "choices": [
+        "150 J",
+        "250 J",
+        "450 J",
+        "750 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "What is the power output of an electric motor that lifts a 2.0-kilogram block 15 meters vertically in 6.0 seconds?",
+      "choices": [
+        "5.0 J",
+        "5.0 W",
+        "49 J",
+        "49 W"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "written",
+      "text": "Four identical projectiles are launched with the same initial speed, v, but at various angles above the level ground. Which diagram represents the initial velocity of the projectile that will have the largest total horizontal displacement? [Neglect air resistance.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Two forces act concurrently on an object on a horizontal, frictionless surface, as shown in the diagram below. What additional force, when applied to the object, will establish equilibrium?",
+      "choices": [
+        "16 N toward the right",
+        "16 N toward the left",
+        "4 N toward the right",
+        "4 N toward the left"
+      ],
+      "image": "/images/exams/physics/june-2011/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "As shown in the diagram below, an open box and its contents have a combined mass of 5.0 kilograms. A horizontal force of 15 newtons is required to push the box at a constant speed of 1.5 meters per second across a level surface. The inertia of the box and its contents increases if there is an increase in the",
+      "choices": [
+        "speed of the box",
+        "mass of the contents of the box",
+        "magnitude of the horizontal force applied to the box",
+        "coefficient of kinetic friction between the box and the level surface Level surface F = 15 N v = 1.5 m/s 5.0 kg Box Object 10. N 6 N Horizontal, frictionless surface"
+      ],
+      "image": "/images/exams/physics/june-2011/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which statement describes the kinetic energy and total mechanical energy of a block as it is pulled at constant speed up an incline?",
+      "choices": [
+        "Kinetic energy decreases and total mechanical energy increases.",
+        "Kinetic energy decreases and total mechanical energy remains the same.",
+        "Kinetic energy remains the same and total mechanical energy increases.",
+        "Kinetic energy remains the same and total mechanical energy remains the same."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "written",
+      "text": "Which diagram represents the electric field lines between two small electrically charged spheres?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a view from above of a tank of water in which parallel wave fronts are traveling toward a barrier. Which arrow represents the direction of travel for the wave fronts after being reflected from the barrier?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D Barrier v A B C D Water Tank Wave fronts ( 3 ) + \u2013 ( 1 ) + + ( 2 ) + + ( 4 ) + \u2013"
+      ],
+      "image": "/images/exams/physics/june-2011/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "written",
+      "text": "Two metal spheres, A and B, possess charges of 1.0 microcoulomb and 2.0 microcoulombs, respectively. In the diagram below, arrow F represents the electrostatic force exerted on sphere B by sphere A. Which arrow represents the magnitude and direction of the electrostatic force exerted on sphere A by sphere B?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a positively charged particle about to enter the electric field between two oppositely charged parallel plates. The electric field will deflect the particle",
+      "choices": [
+        "into the page",
+        "out of the page",
+        "toward the top of the page",
+        "toward the bottom of the page"
+      ],
+      "image": "/images/exams/physics/june-2011/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "What is the total amount of work required to move a proton through a potential difference of 100. volts?",
+      "choices": [
+        "1.60 \u00d7 10\u201321 J",
+        "1.60 \u00d7 10\u201317 J",
+        "1.00 \u00d7 102 J",
+        "6.25 \u00d7 1020 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "What is the current through a wire if 240 coulombs of charge pass through the wire in 2.0 minutes?",
+      "choices": [
+        "120 A",
+        "2.0 A",
+        "0.50 A",
+        "0.0083 A"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "An electric circuit consists of a variable resistor connected to a source of constant potential difference. If the resistance of the resistor is doubled, the current through the resistor is",
+      "choices": [
+        "halved",
+        "doubled",
+        "quartered",
+        "quadrupled"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Circuit A has four 3.0-ohm resistors connected in series with a 24-volt battery, and circuit B has two 3.0-ohm resistors connected in series with a 24-volt battery. Compared to the total potential drop across circuit A, the total potential drop across circuit B is",
+      "choices": [
+        "one-half as great",
+        "twice as great",
+        "the same",
+        "four times as great"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "How much total energy is dissipated in 10. seconds in a 4.0-ohm resistor with a current of 0.50 ampere?",
+      "choices": [
+        "2.5 J",
+        "5.0 J",
+        "10. J",
+        "20. J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Moving a length of copper wire through a magnetic field may cause the wire to have a",
+      "choices": [
+        "potential difference across it",
+        "lower temperature",
+        "lower resistivity",
+        "higher resistance"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "A pulse traveled the length of a stretched spring. The pulse transferred",
+      "choices": [
+        "energy, only",
+        "mass, only",
+        "both energy and mass",
+        "neither energy nor mass + v F ( 1 ) 2F ( 2 ) F ( 3 ) 2F ( 4 ) A 1.0 \u03bcC 2.0 \u03bcC B F"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The graph below represents the displacement of a particle in a medium over a period of time. The amplitude of the wave is",
+      "choices": [
+        "4.0 s",
+        "6.0 s",
+        "8 cm",
+        "4 cm"
+      ],
+      "image": "/images/exams/physics/june-2011/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "What is the period of a water wave if 4.0 complete waves pass a fixed point in 10. seconds?",
+      "choices": [
+        "0.25 s",
+        "0.40 s",
+        "2.5 s",
+        "4.0 s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a periodic wave. Which point on the wave is 90\u00b0 out of phase with point P?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/physics/june-2011/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "What is the wavelength of a 256-hertz sound wave in air at STP?",
+      "choices": [
+        "1.17 \u00d7 106 m",
+        "1.29 m",
+        "0.773 m",
+        "8.53 \u00d7 10\u20137 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "What is the minimum total energy released when an electron and its antiparticle (positron) annihilate each other?",
+      "choices": [
+        "1.64 \u00d7 10\u201313 J",
+        "8.20 \u00d7 10\u201314 J",
+        "5.47 \u00d7 10\u201322 J",
+        "2.73 \u00d7 10\u201322 J"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which statement correctly describes one characteristic of a sound wave?",
+      "choices": [
+        "A sound wave can travel through a vacuum.",
+        "A sound wave is a transverse wave.",
+        "The amount of energy a sound wave transmits is directly related to the wave\u2019s amplitude.",
+        "The amount of energy a sound wave transmits is inversely related to the wave\u2019s frequency."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "A 256-hertz vibrating tuning fork is brought near a nonvibrating 256-hertz tuning fork. The second tuning fork begins to vibrate. Which phenomenon causes the nonvibrating tuning fork to begin to vibrate?",
+      "choices": [
+        "resistance",
+        "resonance",
+        "refraction",
+        "reflection"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Astronauts traveling toward Earth in a fast- moving spacecraft receive a radio signal from an antenna on Earth. Compared to the frequency and wavelength of the radio signal emitted from the antenna, the radio signal received by the astronauts has a",
+      "choices": [
+        "lower frequency and a shorter wavelength",
+        "lower frequency and a longer wavelength",
+        "higher frequency and a shorter wavelength",
+        "higher frequency and a longer wavelength"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "On the atomic level, energy and matter exhibit the characteristics of",
+      "choices": [
+        "particles, only",
+        "waves, only",
+        "neither particles nor waves",
+        "both particles and waves"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which particles are not affected by the strong force?",
+      "choices": [
+        "hadrons",
+        "protons",
+        "neutrons",
+        "electrons A P B C D 0 1 2 3 4 5 \u20131 \u20132 \u20133 \u20134 \u20135 1.0 2.0 3.0 4.0 5.0 6.0 Time (s) Particle Displacement (cm)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "What is the approximate diameter of an inflated basketball?",
+      "choices": [
+        "2 \u00d7 10\u20132 m",
+        "2 \u00d7 10\u20131 m",
+        "2 \u00d7 100 m",
+        "2 \u00d7 101 m"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The graph below shows the relationship between the speed and elapsed time for an object falling freely from rest near the surface of a planet. What is the total distance the object falls during the first 3.0 seconds?",
+      "choices": [
+        "12 m",
+        "24 m",
+        "44 m",
+        "72 m"
+      ],
+      "image": "/images/exams/physics/june-2011/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "A 75-kilogram hockey player is skating across the ice at a speed of 6.0 meters per second. What is the magnitude of the average force required to stop the player in 0.65 second?",
+      "choices": [
+        "120 N",
+        "290 N",
+        "690 N",
+        "920 N"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "A child pulls a wagon at a constant velocity along a level sidewalk. The child does this by applying a 22-newton force to the wagon handle, which is inclined at 35\u00b0 to the sidewalk as shown below. What is the magnitude of the force of friction on the wagon?",
+      "choices": [
+        "11 N",
+        "13 N",
+        "18 N",
+        "22 N"
+      ],
+      "image": "/images/exams/physics/june-2011/q39.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The diagram below shows the arrangement of three small spheres, A, B, and C, having charges of 3q, q, and q, respectively. Spheres A and C are located distance r from sphere B. Compared to the magnitude of the electrostatic force exerted by sphere B on sphere C, the magnitude of the electrostatic force exerted by sphere A on sphere C is",
+      "choices": [
+        "the same",
+        "twice as great",
+        "as great",
+        "as great 3 2 3 4 r A B C 3q q q r Level sidewalk 22 N Speed vs. Time Time (s) Speed (m/s) 10.0 8.0 6.0 4.0 2.0 0 1.0 2.0 3.0 4.0"
+      ],
+      "image": "/images/exams/physics/june-2011/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "written",
+      "text": "A space probe is launched into space from Earth\u2019s surface. Which graph represents the relationship between the magnitude of the gravitational force exerted on Earth by the space probe and the distance between the space probe and the center of Earth?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "written",
+      "text": "Which graph represents the relationship between the gravitational potential energy (GPE) of an object near the surface of Earth and its height above the surface of Earth?",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/q42.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "written",
+      "text": "Two parallel metal plates are connected to a variable source of potential difference. When the potential difference of the source is increased, the magnitude of the electric field strength between the plates increases. The diagram below shows an electron located between the plates. Which graph represents the relationship between the magnitude of the electrostatic force on the electron and the magnitude of the electric field strength between the plates? ( 2 ) Force Electric Field Strength ( 3 ) Force Electric Field Strength ( 4 ) Force Electric Field Strength ( 1 ) Force Electric Field Strength + + + + + + \u2013 \u2013 \u2013 \u2013 \u2013 \u2013 \u2013 Variable source ( 1 ) GPE Height ( 2 ) GPE Height ( 4 ) GPE Height ( 3 ) GPE Height Force Force Force Force Distance ( 1 ) Distance ( 2 ) Distance ( 3 ) Distance ( 4 )",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a circuit consisting of two resistors connected to a source of potential difference. What is the current through the 20.-ohm resistor?",
+      "choices": [
+        "0.25 A",
+        "6.0 A",
+        "12 A",
+        "4.0 A"
+      ],
+      "image": "/images/exams/physics/june-2011/q44.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "The diagram below shows the magnetic field lines between two magnetic poles, A and B. Which statement describes the polarity of magnetic poles A and B?",
+      "choices": [
+        "A is a north pole and B is a south pole.",
+        "A is a south pole and B is a north pole.",
+        "Both A and B are north poles.",
+        "Both A and B are south poles."
+      ],
+      "image": "/images/exams/physics/june-2011/q45.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a transverse water wave propagating toward the left. A cork is floating on the water\u2019s surface at point P. In which direction will the cork move as the wave passes point P?",
+      "choices": [
+        "up, then down, then up",
+        "down, then up, then down",
+        "left, then right, then left",
+        "right, then left, then right"
+      ],
+      "image": "/images/exams/physics/june-2011/q46.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The diagram below shows a series of wave fronts approaching an opening in a barrier. Point P is located on the opposite side of the barrier. The wave fronts reach point P as a result of",
+      "choices": [
+        "resonance",
+        "refraction",
+        "reflection",
+        "diffraction"
+      ],
+      "image": "/images/exams/physics/june-2011/q47.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a standing wave. The number of nodes and antinodes shown in the diagram is",
+      "choices": [
+        "4 nodes and 5 antinodes",
+        "5 nodes and 6 antinodes",
+        "6 nodes and 5 antinodes",
+        "6 nodes and 10 antinodes"
+      ],
+      "image": "/images/exams/physics/june-2011/q48.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "A deuterium nucleus consists of one proton and one neutron. The quark composition of a deuterium nucleus is",
+      "choices": [
+        "2 up quarks and 2 down quarks",
+        "2 up quarks and 4 down quarks",
+        "3 up quarks and 3 down quarks",
+        "4 up quarks and 2 down quarks P P Magnet Magnet A B 120-V source 10. \u03a9 20. \u03a9"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The diagram below shows two waves traveling in the same medium. Points A, B, C, and D are located along the rest position of the medium. The waves interfere to produce a resultant wave. The superposition of the waves produces the greatest positive displacement of the medium from its rest position at point",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D Displacement (m) Rest Position of Medium + 0.30 + 0.20 + 0.10 0 \u2013 0.10 \u2013 0.20 \u2013 0.30 A B C D 59 The graph below represents the relationship between the work done by a person and time. Identify the physical quantity represented by the slope of the graph. 60\u201361 The heating element in an automobile window has a resistance of 1.2 ohms when operated at 12 volts. Calculate the power dissipated in the heating element. [Show all work, including the equation and substitution with units.] 62\u201363 An electromagnetic wave of wavelength 5.89 \u00d7 10\u20137 meter traveling through air is incident on an interface with corn oil. Calculate the wavelength of the electromagnetic wave in corn oil. [Show all work, including the equation and substitution with units.] 64 The energy required to separate the 3 protons and 4 neutrons in the nucleus of a lithium atom is 39.3 megaelectronvolts. Determine the mass equivalent of this energy, in universal mass units. Work Time 0"
+      ],
+      "image": "/images/exams/physics/june-2011/q50.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/q51.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "51\u201352 A 0.50-kilogram frog is at rest on the bank surrounding a pond of water. As the frog leaps from the bank, the magnitude of the acceleration of the frog is 3.0 meters per second2. Calculate the magnitude of the net force exerted on the frog as it leaps. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/q52.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Determine the magnitude of the normal force exerted by the snow on the skis as the skier glides across the horizontal surface.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on\nthe information below.\nA student and the waxed skis he is wearing\nhave a combined weight of 850 newtons. The skier\ntravels down a snow-covered hill and then glides\nto the east across a snow-covered, horizontal\nsurface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on\nthe information below.\nA student and the waxed skis he is wearing\nhave a combined weight of 850 newtons. The skier\ntravels down a snow-covered hill and then glides\nto the east across a snow-covered, horizontal\nsurface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "54\u201355 Calculate the magnitude of the force of friction acting on the skis as the skier glides across the snow-covered, horizontal surface. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_53_55.png",
+      "context": "Base your answers to questions 53 through 55 on\nthe information below.\nA student and the waxed skis he is wearing\nhave a combined weight of 850 newtons. The skier\ntravels down a snow-covered hill and then glides\nto the east across a snow-covered, horizontal\nsurface.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "56\u201357 Calculate the kinetic energy of a particle with a mass of 3.34 \u00d7 10\u201327 kilogram and a speed of 2.89 \u00d7 105 meters per second. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "The graph below represents the relationship between the work done by a person and time. Identify the physical quantity represented by the slope of the graph.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/q59.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "60\u201361 The heating element in an automobile window has a resistance of 1.2 ohms when operated at 12 volts. Calculate the power dissipated in the heating element. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "62\u201363 An electromagnetic wave of wavelength 5.89 \u00d7 10\u20137 meter traveling through air is incident on an interface with corn oil. Calculate the wavelength of the electromagnetic wave in corn oil. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "The energy required to separate the 3 protons and 4 neutrons in the nucleus of a lithium atom is 39.3 megaelectronvolts. Determine the mass equivalent of this energy, in universal mass units. Work Time 0 51\u201352 A 0.50-kilogram frog is at rest on the bank surrounding a pond of water. As the frog leaps from the bank, the magnitude of the acceleration of the frog is 3.0 meters per second2. Calculate the magnitude of the net force exerted on the frog as it leaps. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "A wave generator having a constant frequency produces parallel wave fronts in a tank of water of two different depths. The diagram below represents the wave fronts in the deep water. As the wave travels from the deep water into the shallow water, the speed of the waves decreases. On the diagram in your answer booklet, use a straightedge to draw at least three lines to represent the wave fronts, with appropriate spacing, in the shallow water. Deep water Shallow water Wave fronts",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/q65.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Using a ruler, determine the scale used in the vector diagram.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information and diagram below.\nA model airplane heads due east at 1.50 meters per second, while the wind blows due north at \n0.70 meter per second. The scaled diagram below represents these vector quantities.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, use a protractor and a ruler to construct a vector to represent the resultant velocity of the airplane. Label the vector R.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information and diagram below.\nA model airplane heads due east at 1.50 meters per second, while the wind blows due north at \n0.70 meter per second. The scaled diagram below represents these vector quantities.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Determine the magnitude of the resultant velocity.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information and diagram below.\nA model airplane heads due east at 1.50 meters per second, while the wind blows due north at \n0.70 meter per second. The scaled diagram below represents these vector quantities.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Determine the angle between north and the resultant velocity.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_66_69.png",
+      "context": "Base your answers to questions 66 through 69 on the information and diagram below.\nA model airplane heads due east at 1.50 meters per second, while the wind blows due north at \n0.70 meter per second. The scaled diagram below represents these vector quantities.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the information below.\nA vertically hung spring has a spring constant of 150. newtons per meter. A \n2.00-kilogram mass is suspended from the spring and allowed to come to rest.\n70\u201371 Calculate the elongation of the spring produced by the suspended 2.00-kilogram mass.  [Show all\nwork, including the equation and substitution with units.]   [2]\n72\u201373 Calculate the total elastic potential energy stored in the spring due to the suspended \n2.00-kilogram mass. [Show all work, including the equation and substitution with units.]   [2]\n0.70 m/s\n1.50 m/s\nP\nN\nS\nE\nW\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "70\u201371 Calculate the elongation of the spring produced by the suspended 2.00-kilogram mass. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the information below.\nA vertically hung spring has a spring constant of 150. newtons per meter. A \n2.00-kilogram mass is suspended from the spring and allowed to come to rest.\n70\u201371 Calculate the elongation of the spring produced by the suspended 2.00-kilogram mass.  [Show all\nwork, including the equation and substitution with units.]   [2]\n72\u201373 Calculate the total elastic potential energy stored in the spring due to the suspended \n2.00-kilogram mass. [Show all work, including the equation and substitution with units.]   [2]\n0.70 m/s\n1.50 m/s\nP\nN\nS\nE\nW\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the information below.\nA vertically hung spring has a spring constant of 150. newtons per meter. A \n2.00-kilogram mass is suspended from the spring and allowed to come to rest.\n70\u201371 Calculate the elongation of the spring produced by the suspended 2.00-kilogram mass.  [Show all\nwork, including the equation and substitution with units.]   [2]\n72\u201373 Calculate the total elastic potential energy stored in the spring due to the suspended \n2.00-kilogram mass. [Show all work, including the equation and substitution with units.]   [2]\n0.70 m/s\n1.50 m/s\nP\nN\nS\nE\nW\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "72\u201373 Calculate the total elastic potential energy stored in the spring due to the suspended 2.00-kilogram mass. [Show all work, including the equation and substitution with units.] 0.70 m/s 1.50 m/s P N S E W",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the information below.\nA vertically hung spring has a spring constant of 150. newtons per meter. A \n2.00-kilogram mass is suspended from the spring and allowed to come to rest.\n70\u201371 Calculate the elongation of the spring produced by the suspended 2.00-kilogram mass.  [Show all\nwork, including the equation and substitution with units.]   [2]\n72\u201373 Calculate the total elastic potential energy stored in the spring due to the suspended \n2.00-kilogram mass. [Show all work, including the equation and substitution with units.]   [2]\n0.70 m/s\n1.50 m/s\nP\nN\nS\nE\nW\nPart C\nAnswer all questions in this part.\nDirections (66\u201385): Record your answers in the spaces provided in your answer booklet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Determine the resistance of the 10.0-centimeter length of nichrome wire.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_74_76.png",
+      "context": "Base your answers to questions 74 through 76 on the information and diagram below.\nA circuit contains a 12.0-volt battery, an ammeter, a variable resistor, and connecting wires of\nnegligible resistance, as shown below.\nThe variable resistor is a nichrome wire, maintained at 20.\u00b0C.  The length of the nichrome wire\nmay be varied from 10.0 centimeters to 90.0 centimeters. The ammeter reads 2.00 amperes when\nthe length of the wire is 10.0 centimeters.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_74_76.png",
+      "context": "Base your answers to questions 74 through 76 on the information and diagram below.\nA circuit contains a 12.0-volt battery, an ammeter, a variable resistor, and connecting wires of\nnegligible resistance, as shown below.\nThe variable resistor is a nichrome wire, maintained at 20.\u00b0C.  The length of the nichrome wire\nmay be varied from 10.0 centimeters to 90.0 centimeters. The ammeter reads 2.00 amperes when\nthe length of the wire is 10.0 centimeters.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "75\u201376 Calculate the cross-sectional area of the nichrome wire. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_74_76.png",
+      "context": "Base your answers to questions 74 through 76 on the information and diagram below.\nA circuit contains a 12.0-volt battery, an ammeter, a variable resistor, and connecting wires of\nnegligible resistance, as shown below.\nThe variable resistor is a nichrome wire, maintained at 20.\u00b0C.  The length of the nichrome wire\nmay be varied from 10.0 centimeters to 90.0 centimeters. The ammeter reads 2.00 amperes when\nthe length of the wire is 10.0 centimeters.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the information below.\nA photon with a wavelength of 2.29 \u00d7 10\u20137 meter strikes a mercury atom in the ground state.\n77\u201378 Calculate the energy, in joules, of this photon. [Show all work, including the equation and \nsubstitution with units.]   [2]\n79 Determine the energy, in electronvolts, of this photon.   [1]\n80 Based on your answer to question 79, state if this photon can be absorbed by the mercury atom.\nExplain your answer.   [1]\nA\n12.0 V\nR\nP.S./Physics\u2013June \u201911\n[14]\n\nP.S./Physics\u2013June \u201911\n[15]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "77\u201378 Calculate the energy, in joules, of this photon. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the information below.\nA photon with a wavelength of 2.29 \u00d7 10\u20137 meter strikes a mercury atom in the ground state.\n77\u201378 Calculate the energy, in joules, of this photon. [Show all work, including the equation and \nsubstitution with units.]   [2]\n79 Determine the energy, in electronvolts, of this photon.   [1]\n80 Based on your answer to question 79, state if this photon can be absorbed by the mercury atom.\nExplain your answer.   [1]\nA\n12.0 V\nR\nP.S./Physics\u2013June \u201911\n[14]\n\nP.S./Physics\u2013June \u201911\n[15]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Determine the energy, in electronvolts, of this photon.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the information below.\nA photon with a wavelength of 2.29 \u00d7 10\u20137 meter strikes a mercury atom in the ground state.\n77\u201378 Calculate the energy, in joules, of this photon. [Show all work, including the equation and \nsubstitution with units.]   [2]\n79 Determine the energy, in electronvolts, of this photon.   [1]\n80 Based on your answer to question 79, state if this photon can be absorbed by the mercury atom.\nExplain your answer.   [1]\nA\n12.0 V\nR\nP.S./Physics\u2013June \u201911\n[14]\n\nP.S./Physics\u2013June \u201911\n[15]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Based on your answer to question 79, state if this photon can be absorbed by the mercury atom. Explain your answer. A 12.0 V R",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the information below.\nA photon with a wavelength of 2.29 \u00d7 10\u20137 meter strikes a mercury atom in the ground state.\n77\u201378 Calculate the energy, in joules, of this photon. [Show all work, including the equation and \nsubstitution with units.]   [2]\n79 Determine the energy, in electronvolts, of this photon.   [1]\n80 Based on your answer to question 79, state if this photon can be absorbed by the mercury atom.\nExplain your answer.   [1]\nA\n12.0 V\nR\nP.S./Physics\u2013June \u201911\n[14]\n\nP.S./Physics\u2013June \u201911\n[15]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Using a protractor, determine the angle of incidence of the light ray as it enters the transparent block from air.",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information below.\nA ray of monochromatic light ( f = 5.09 \u00d7 1014 Hz) passes through air and a rectangular\ntransparent block, as shown in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information below.\nA ray of monochromatic light ( f = 5.09 \u00d7 1014 Hz) passes through air and a rectangular\ntransparent block, as shown in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "82\u201383 Calculate the absolute index of refraction for the medium of the transparent block. [Show all work, including the equation and substitution with units.]",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information below.\nA ray of monochromatic light ( f = 5.09 \u00d7 1014 Hz) passes through air and a rectangular\ntransparent block, as shown in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information below.\nA ray of monochromatic light ( f = 5.09 \u00d7 1014 Hz) passes through air and a rectangular\ntransparent block, as shown in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "84\u201385 Calculate the speed of the light ray in the transparent block. [Show all work, including the equation and substitution with units.] PS/PHYSICS PS/PHYSICS Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/physics/june-2011/context_81_85.png",
+      "context": "Base your answers to questions 81 through 85 on the information below.\nA ray of monochromatic light ( f = 5.09 \u00d7 1014 Hz) passes through air and a rectangular\ntransparent block, as shown in the diagram below.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

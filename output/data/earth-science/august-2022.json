@@ -1,0 +1,1081 @@
+{
+  "subject": "earth-science",
+  "session": "august-2022",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Compared to the masses and densities of terrestrial planets, Jovian planets have",
+      "choices": [
+        "less mass and are less dense",
+        "less mass and are more dense",
+        "greater mass and are less dense",
+        "greater mass and are more dense"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The star Vega has an average surface temperature of 10,000 K and has a luminosity 70 times greater than that of the Sun. Which type of star is Vega?",
+      "choices": [
+        "supergiant",
+        "giant",
+        "white dwarf",
+        "main sequence"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "written",
+      "text": "The diagram below represents the Moon at one position in its orbit around Earth. (Not drawn to scale) Sun\u2019s rays North Pole Which diagram represents the phase of the Moon as viewed by an observer in New York State when the Moon is located at the position shown? ( 2 ) ( 4 ) ( 1 ) ( 3 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/q3.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The diagram below represents latitudes and longitudes on Earth. Locations A and B are surface locations. A B 15$ 30$ 45$ 60$ 75\u00b0 45$ 60$ 75$ 90$ 15$ 15$ 0$ 30$ 0$ 15$ 30$ The solar time difference between location A and location B is",
+      "choices": [
+        "5 hours",
+        "2 hours",
+        "3 hours",
+        "6 hours"
+      ],
+      "image": "/images/exams/earth-science/august-2022/q4.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The constellation Orion can be observed from New York State in the night sky during winter, but it can not be observed in the night sky during summer due to",
+      "choices": [
+        "Earth\u2019s rotation on its axis",
+        "Earth\u2019s revolution around the Sun",
+        "Orion\u2019s rotation on its axis",
+        "Orion\u2019s revolution around Earth"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "What is Earth\u2019s approximate rate of movement along its orbit?",
+      "choices": [
+        "1\u00b0 per day",
+        "1\u00b0 per hour",
+        "15\u00b0 per day",
+        "15\u00b0 per hour"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The graph below shows the possible distances, in millions of kilometers, that a planet could be from a star in order to possibly support life as we know it (the Habitable Zone), based on the star\u2019s surface temperature in Kelvin (K). The location of Earth has been plotted based on our Sun\u2019s surface temperature of 5778 K. 3,000 4,000 5,000 6,000 7,000 0 75 150 225 300 375 450 525 600 Distance (million km) Surface Temperature of Star (K) Habitable Zone of Main Sequence Stars Habitable Zone Earth Which planet in our solar system would be in the Habitable Zone, if the Sun\u2019s surface temperature was 4000 K?",
+      "choices": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Jupiter"
+      ],
+      "image": "/images/exams/earth-science/august-2022/q7.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The map below shows the location of Chicxulub Crater, formed approximately 65 million years ago by an asteroid impact. United States Mexico Gulf of Mexico Chicxulub Crater This impact crater has been most closely linked to",
+      "choices": [
+        "meteor showers",
+        "worldwide mass extinctions",
+        "the eccentricity of Earth\u2019s orbit",
+        "the formation of the Gulf of Mexico"
+      ],
+      "image": "/images/exams/earth-science/august-2022/q8.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The weather map below shows isobars that are labeled in millibars (mb). Three isobars are labeled X, Y, and Z. H L L L X Y Z 1008 1012 1008 1004 1012 1008 1004 1020 1024 1000 1012 What are the values for the isobars labeled X, Y, and Z?",
+      "choices": [
+        "X = 1012 mb; Y = 1016 mb; Z = 1000 mb",
+        "X = 1010 mb; Y = 1016 mb; Z = 1008 mb",
+        "X = 1010 mb; Y = 1024 mb; Z = 1000 mb",
+        "X = 1012 mb; Y = 1024 mb; Z = 1008 mb"
+      ],
+      "image": "/images/exams/earth-science/august-2022/q9.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "written",
+      "text": "Which cross section best represents the general atmospheric circulation over the North Pole? North Pole ( 1 ) North Pole ( 2 ) North Pole ( 3 ) North Pole ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The map below shows the most likely positions and speeds of the polar front jet stream in summer and in winter. The Atmosphere, 7th ed., Lutgens and Tarbuck, p. 174 (Fig. 7-11) In winter, the polar front jet stream has a more southerly path with winds traveling at speeds that are generally",
+      "choices": [
+        "less than in summer, and Earth\u2019s Northern Hemisphere tilts away from the Sun",
+        "less than in summer, and Earth\u2019s Northern Hemisphere tilts toward the Sun",
+        "greater than in summer, and Earth\u2019s Northern Hemisphere tilts away from the Sun",
+        "greater than in summer, and Earth\u2019s Northern Hemisphere tilts toward the Sun"
+      ],
+      "image": "/images/exams/earth-science/august-2022/q11.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "written",
+      "text": "Equal areas of which surface will typically absorb the greatest amount of insolation? Smooth White Marble Tile ( 1 ) Rough White Marble Gravel ( 2 ) Smooth Black Marble Tile ( 3 ) Rough Black Marble Gravel ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "At a location in the Northern Hemisphere, a camera was placed outside at night with the lens pointing at a group of stars. The shutter was left open for a few hours, resulting in the photograph of star trails shown below. Source: https://www.leyetscapes.com/edu/ how-to-shoot-star-trails.html What is the name of the star in the center of the photograph that did not leave a star trail?",
+      "choices": [
+        "Betelgeuse",
+        "Polaris",
+        "the Sun",
+        "Sirius"
+      ],
+      "image": "/images/exams/earth-science/august-2022/q13.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Outgassing of water vapor, carbon dioxide, and nitrogen initially formed Earth\u2019s early",
+      "choices": [
+        "lithosphere",
+        "hydrosphere",
+        "asthenosphere",
+        "atmosphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which type of electromagnetic radiation listed below has the longest wavelength?",
+      "choices": [
+        "infrared",
+        "ultraviolet",
+        "red visible light",
+        "violet visible light"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "When major volcanic eruptions send large amounts of ash and dust into the atmosphere, worldwide air temperatures usually become",
+      "choices": [
+        "warmer, because the atmosphere is less transparent",
+        "warmer, because the atmosphere is more transparent",
+        "cooler, because the atmosphere is less transparent",
+        "cooler, because the atmosphere is more transparent"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "From September 1 to June 1, the number of daylight hours observed each day in New York State will",
+      "choices": [
+        "decrease, only",
+        "increase, only",
+        "decrease, then increase",
+        "increase, then decrease"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "written",
+      "text": "Which map best shows the inferred positions of Earth\u2019s landmasses between the Alleghenian orogeny and the initial opening of the Atlantic Ocean? ( 1 ) ( 3 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "In the past, cyanobacteria produced oceanic oxygen that combined with iron in seawater to form iron oxide layers on ocean fl oors. These iron oxide layers were formed during the",
+      "choices": [
+        "Early Archean",
+        "Early Carboniferous",
+        "Late Archean",
+        "Late Carboniferious"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Which group of organisms are found only as fossils today?",
+      "choices": [
+        "vascular plants",
+        "nautiloids",
+        "brachiopods",
+        "placoderm fi sh"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Compared to the granitic continental crust, the basaltic oceanic crust is",
+      "choices": [
+        "thinner and less dense",
+        "thinner and more dense",
+        "thicker and less dense",
+        "thicker and more dense"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which table correctly matches the layers of Earth\u2019s interior with the appropriate description? Earth\u2019s Layer Description Lithosphere Lowest density and rigid Mantle Partial melting and convection currents in upper region Outer Core Completely liquid Inner Core Highest pressure, composed of iron and nickel",
+      "choices": [
+        "Earth\u2019s Layer Description Lithosphere Partial melting and convection currents in upper region Mantle Lowest density and rigid Outer Core Completely liquid Inner Core Highest pressure, composed of iron and nickel",
+        "Earth\u2019s Layer Description Lithosphere Lowest density and rigid Mantle Partial melting and convection currents in upper region Outer Core Highest pressure, composed of iron and nickel Inner Core Completely liquid",
+        "Earth\u2019s Layer Description Lithosphere Lowest density and rigid Mantle Completely liquid Outer Core Partial melting and convection currents in upper region Inner Core Highest pressure, composed of iron and nickel",
+        ""
+      ],
+      "image": "/images/exams/earth-science/august-2022/q22.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The map below shows a tectonic plate boundary in the Atlantic Ocean between South America and Africa. Letters A, B, C, and D represent locations on Earth\u2019s surface. C P e r u - C hil e Trench South American Plate African Plate Mid-Atlantic Ridge A B D Caribbean Plate The most recently formed oceanic crust would be located closest to location",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/august-2022/q23.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Most of the tectonic plate boundaries of the Scotia Plate are classifi ed as",
+      "choices": [
+        "transform boundaries with the plates moving in a relative east\u2013west direction",
+        "transform boundaries with the plates moving in a relative north\u2013south direction",
+        "divergent boundaries with the plates moving in a relative east\u2013west direction",
+        "divergent boundaries with the plates moving in a relative north\u2013south direction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a stream drainage pattern. This stream drainage pattern is most likely a direct result of the",
+      "choices": [
+        "elevation of the bedrock above sea level",
+        "type of fossils in the bedrock",
+        "age of the bedrock",
+        "underlying bedrock structure"
+      ],
+      "image": "/images/exams/earth-science/august-2022/q25.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which New York State river generally fl ows southward?",
+      "choices": [
+        "Genesee",
+        "Hudson",
+        "Niagara",
+        "St. Lawrence"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The sediment deposited by a landslide is usually",
+      "choices": [
+        "sorted and layered",
+        "sorted and non-layered",
+        "unsorted and layered",
+        "unsorted and non-layered"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which rock exhibits a bubbling reaction when hydrochloric acid is placed on it?",
+      "choices": [
+        "rock gypsum",
+        "limestone",
+        "obsidian",
+        "slate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The block diagram below represents a portion of a meandering stream and the valley it has produced. One landscape feature is labeled A. A The landscape feature labeled A is best described as",
+      "choices": [
+        "a delta",
+        "a fl ood plain",
+        "a water table",
+        "an escarpment"
+      ],
+      "image": "/images/exams/earth-science/august-2022/q29.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The photograph below shows an elongated hill that was originally deposited by a glacier. https://www.geocaching.com/ This landscape feature is identifi ed as a",
+      "choices": [
+        "dune",
+        "terminal moraine",
+        "drumlin",
+        "outwash plain"
+      ],
+      "image": "/images/exams/earth-science/august-2022/q30.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which particles most likely will be deposited fi rst as the velocity of a stream carrying a mixture of particles decreases?",
+      "choices": [
+        "small, fl at, low-density particles",
+        "small, round, low-density particles",
+        "large, fl at, high-density particles",
+        "large, round, high-density particles"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "The topographic map below shows elevations in feet. Line AB is a reference line. Key depression contour line 30 20 50 60 A B 40 40 Which profi le best represents the change in elevation along the line from A to B? 60 50 40 30 20 A B ( 1 ) Elevation (ft) 60 50 40 30 20 A B ( 2 ) Elevation (ft) 60 50 40 30 20 A B ( 3 ) Elevation (ft) 60 50 40 30 20 A B Elevation (ft) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The map below shows Fire Island, located on the southern coast of Long Island. Long Island Fire Island N S W E Which agent of erosion deposited the sediments that formed Fire Island, and continues to shape it?",
+      "choices": [
+        "wind action",
+        "running water",
+        "wave action",
+        "mass movement"
+      ],
+      "image": "/images/exams/earth-science/august-2022/q33.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which chart correctly matches rock salt and rock gypsum with how the minerals from these rocks are used? Rock Type Mineral Use Rock salt ore of lead Rock gypsum building stones",
+      "choices": [
+        "Rock Type Mineral Use Rock salt roo\ufb01 ng Rock gypsum jewelry",
+        "Rock Type Mineral Use Rock salt food additive Rock gypsum ore of iron",
+        "Rock Type Mineral Use Rock salt melts ice Rock gypsum plaster of paris",
+        ""
+      ],
+      "image": "/images/exams/earth-science/august-2022/q34.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The photographs below show samples of two different rocks, labeled A and B. The arrow represents the process by which a rock like rock A can change into a rock like rock B. Rock A Rock B Which process does the arrow represent?",
+      "choices": [
+        "metamorphism",
+        "erosion",
+        "melting",
+        "cementation"
+      ],
+      "image": "/images/exams/earth-science/august-2022/q35.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "After 8.1 days, how much of a 100-gram sample of gold\u2013198 will remain?",
+      "choices": [
+        "6.25 g",
+        "12.5 g",
+        "25 g",
+        "50 g"
+      ],
+      "image": "/images/exams/earth-science/august-2022/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the table below and on your knowledge of Earth science. \nThe table below lists the half-lives for fi ve radioactive isotopes.\nRadioactive Isotope\nHalf-life\nholmium-166\n26.80 hours\ngold-198\n2.70 days\niodine-131\n8.02 days\nberyllium-10\n1.39 million years\nlutetium-176\n37.8 billion years",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which radioactive isotope has a half-life closest to the half-life of the radioactive isotope rubidium-87?",
+      "choices": [
+        "iodine-131",
+        "gold-198",
+        "beryllium-10",
+        "lutetium-176"
+      ],
+      "image": "/images/exams/earth-science/august-2022/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the table below and on your knowledge of Earth science. \nThe table below lists the half-lives for fi ve radioactive isotopes.\nRadioactive Isotope\nHalf-life\nholmium-166\n26.80 hours\ngold-198\n2.70 days\niodine-131\n8.02 days\nberyllium-10\n1.39 million years\nlutetium-176\n37.8 billion years",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "A sample of holmium-166, located deep underground, is subjected to high temperature and pressure. The half-life of this sample of holmium-166 will be",
+      "choices": [
+        "13.40 hours",
+        "24.30 hours",
+        "26.80 hours",
+        "28.70 hours"
+      ],
+      "image": "/images/exams/earth-science/august-2022/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the table below and on your knowledge of Earth science. \nThe table below lists the half-lives for fi ve radioactive isotopes.\nRadioactive Isotope\nHalf-life\nholmium-166\n26.80 hours\ngold-198\n2.70 days\niodine-131\n8.02 days\nberyllium-10\n1.39 million years\nlutetium-176\n37.8 billion years",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which factor causes Crescent City, California, to be highly vulnerable to tsunamis?",
+      "choices": [
+        "coastal (marine) climate",
+        "monsoon events",
+        "direction of prevailing winds",
+        "topography of the shoreline"
+      ],
+      "image": "/images/exams/earth-science/august-2022/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows the coastal area of Crescent City, California.\nTsunami Capital\nThe tsunami capital of the continental United States is Crescent City, located on the \ncoast in northern California. Since 1933, thirty-one tsunamis have been observed there. \nCrescent City is vulnerable to tsunamis because of the low elevation of the land and \nthe shape of its shoreline. The wave energy from a tsunami is funneled into a narrow \nstretch of shoreline. This causes the wave height to grow very tall, fl ooding more land. \nThe largest and most destructive tsunami to hit Crescent City occurred in March 1964, \nkilling eleven people. The epicenter of a very large earthquake, located at 60\u00b0 N and 147\u00b0 W, \ncaused this destructive tsunami.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The distance from the epicenter of the March 1964 earthquake to Crescent City is 2600 kilometers. How long did it take the fi rst P-wave to reach Crescent City?",
+      "choices": [
+        "3 minutes 20 seconds",
+        "4 minutes 10 seconds",
+        "5 minutes 0 seconds",
+        "9 minutes 10 seconds"
+      ],
+      "image": "/images/exams/earth-science/august-2022/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows the coastal area of Crescent City, California.\nTsunami Capital\nThe tsunami capital of the continental United States is Crescent City, located on the \ncoast in northern California. Since 1933, thirty-one tsunamis have been observed there. \nCrescent City is vulnerable to tsunamis because of the low elevation of the land and \nthe shape of its shoreline. The wave energy from a tsunami is funneled into a narrow \nstretch of shoreline. This causes the wave height to grow very tall, fl ooding more land. \nThe largest and most destructive tsunami to hit Crescent City occurred in March 1964, \nkilling eleven people. The epicenter of a very large earthquake, located at 60\u00b0 N and 147\u00b0 W, \ncaused this destructive tsunami.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Once a tsunami warning is issued, which action should residents of Crescent City take to prevent loss of life?",
+      "choices": [
+        "evacuate to higher ground",
+        "board up windows",
+        "go into their basements",
+        "get under a sturdy desk or table"
+      ],
+      "image": "/images/exams/earth-science/august-2022/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the passage and photograph below and on your knowledge \nof Earth science. The photograph shows the coastal area of Crescent City, California.\nTsunami Capital\nThe tsunami capital of the continental United States is Crescent City, located on the \ncoast in northern California. Since 1933, thirty-one tsunamis have been observed there. \nCrescent City is vulnerable to tsunamis because of the low elevation of the land and \nthe shape of its shoreline. The wave energy from a tsunami is funneled into a narrow \nstretch of shoreline. This causes the wave height to grow very tall, fl ooding more land. \nThe largest and most destructive tsunami to hit Crescent City occurred in March 1964, \nkilling eleven people. The epicenter of a very large earthquake, located at 60\u00b0 N and 147\u00b0 W, \ncaused this destructive tsunami.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which two locations most likely have the warmest air temperatures?",
+      "choices": [
+        "Y and Z",
+        "U and V",
+        "V and W",
+        "W and X"
+      ],
+      "image": "/images/exams/earth-science/august-2022/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the map below and on your knowledge of Earth science. \nThe map shows a low-pressure system over the eastern United States. Points U through Z represent locations on \nEarth\u2019s surface.\nN\nMexico\nCanada\nU\nV\nW\nX\nY\nZ\nAtlantic\nOcean\nGulf of\nMexico\nL",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The winds at location U are most likely coming from the",
+      "choices": [
+        "northeast",
+        "northwest",
+        "southeast",
+        "southwest"
+      ],
+      "image": "/images/exams/earth-science/august-2022/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the map below and on your knowledge of Earth science. \nThe map shows a low-pressure system over the eastern United States. Points U through Z represent locations on \nEarth\u2019s surface.\nN\nMexico\nCanada\nU\nV\nW\nX\nY\nZ\nAtlantic\nOcean\nGulf of\nMexico\nL",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Approximately how many billion years ago (bya) did the Big Bang occur?",
+      "choices": [
+        "4.6 bya",
+        "10.0 bya",
+        "13.8 bya",
+        "15.0 bya"
+      ],
+      "image": "/images/exams/earth-science/august-2022/context_44_46.png",
+      "context": "Base your answers to questions 44 through 46 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the expansion of a portion of the universe from its origin until the present. The timeline \nrepresents billions of years. Letter X indicates two celestial objects.\nX\nPresent\nOrigin of\nUniverse\n5\n10\n15\nTimeline (billion years ago)",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "The two spiral-shaped celestial objects labeled X are",
+      "choices": [
+        "galaxies",
+        "planets",
+        "asteroids",
+        "comets"
+      ],
+      "image": "/images/exams/earth-science/august-2022/context_44_46.png",
+      "context": "Base your answers to questions 44 through 46 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the expansion of a portion of the universe from its origin until the present. The timeline \nrepresents billions of years. Letter X indicates two celestial objects.\nX\nPresent\nOrigin of\nUniverse\n5\n10\n15\nTimeline (billion years ago)",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Two pieces of evidence that support the theory that the universe is expanding are the",
+      "choices": [
+        "red shift of light from distant stars and the existence of nuclear fusion",
+        "red shift of light from distant stars and the existence of cosmic background radiation",
+        "blue shift of light from distant stars and the existence of nuclear fusion",
+        "blue shift of light from distant stars and the existence of cosmic background radiation"
+      ],
+      "image": "/images/exams/earth-science/august-2022/context_44_46.png",
+      "context": "Base your answers to questions 44 through 46 on the diagram below and on your knowledge of Earth science. \nThe diagram represents the expansion of a portion of the universe from its origin until the present. The timeline \nrepresents billions of years. Letter X indicates two celestial objects.\nX\nPresent\nOrigin of\nUniverse\n5\n10\n15\nTimeline (billion years ago)",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "In diagram A, which location normally receives less precipitation due to higher atmospheric pressure?",
+      "choices": [
+        "Indonesian coast",
+        "South American coast",
+        "middle of Pacifi c Ocean",
+        "Australian coast"
+      ],
+      "image": "/images/exams/earth-science/august-2022/context_47_48.png",
+      "context": "Base your answers to questions 47 and 48 on the diagrams below and on your knowledge of Earth science. \nThe diagrams, labeled A and B, represent two different types of oceanic and atmospheric conditions that occur \nacross the Pacifi c Ocean in a region close to the equator. Bold arrows represent movement of surface water in the \nocean. Thinner arrows represent circulation of air above the equator.\nPacific\nOcean\nWinds\nWinds\nDiagram A\nDiagram B\nEquator\nIndonesia\nSouth\nAmerica\nMovement\nof water\nEquator\nAustralia\nWinds\nSouth\nAmerica\nMovement\nof water\nWinds\nIndonesia\nAustralia\nEquator",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "The pattern of the thinner arrows in the atmosphere in both diagrams indicates the presence of",
+      "choices": [
+        "conduction",
+        "convection",
+        "evaporation",
+        "radiation"
+      ],
+      "image": "/images/exams/earth-science/august-2022/context_47_48.png",
+      "context": "Base your answers to questions 47 and 48 on the diagrams below and on your knowledge of Earth science. \nThe diagrams, labeled A and B, represent two different types of oceanic and atmospheric conditions that occur \nacross the Pacifi c Ocean in a region close to the equator. Bold arrows represent movement of surface water in the \nocean. Thinner arrows represent circulation of air above the equator.\nPacific\nOcean\nWinds\nWinds\nDiagram A\nDiagram B\nEquator\nIndonesia\nSouth\nAmerica\nMovement\nof water\nEquator\nAustralia\nWinds\nSouth\nAmerica\nMovement\nof water\nWinds\nIndonesia\nAustralia\nEquator",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "According to the information provided in the New York Harbor Tides table, at approximately what time did the second low tide occur on December 6, 2017?",
+      "choices": [
+        "4:01 a.m.",
+        "4:01 p.m.",
+        "4:39 a.m.",
+        "4:39 p.m."
+      ],
+      "image": "/images/exams/earth-science/august-2022/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the table below and on your knowledge of Earth science. The \ntable lists the times of high and low tides in New York Harbor from December 4, 2017 through December 7, 2017. \nThe time of the second low tide on December 6 has been left blank.\nNew York Harbor Tides \nDecember 4 through 7, 2017\nLow Tide\nHigh Tide\nDate\nTime\nTime\nDec 4\n2:07 a.m.\n8:02 a.m.\n2:56 p.m.\n8:39 p.m.\nDec 5\n2:58 a.m.\n8:54 a.m.\n3:47 p.m.\n9:38 p.m.\nDec 6\n3:50 a.m.\n9:52 a.m.\n10:40 p.m.\nDec 7\n4:44 a.m.\n10:54 a.m.\n5:33 p.m.\n11:43 p.m.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "The highest high tides and lowest low tides in New York Harbor usually occur when the Moon is",
+      "choices": [
+        "closest to Earth, and the Sun, Moon, and Earth are aligned",
+        "closest to Earth, and the Sun, Moon, and Earth are at right angles",
+        "farthest from Earth, and the Sun, Moon, and Earth are aligned",
+        "farthest from Earth, and the Sun, Moon, and Earth are at right angles"
+      ],
+      "image": "/images/exams/earth-science/august-2022/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the table below and on your knowledge of Earth science. The \ntable lists the times of high and low tides in New York Harbor from December 4, 2017 through December 7, 2017. \nThe time of the second low tide on December 6 has been left blank.\nNew York Harbor Tides \nDecember 4 through 7, 2017\nLow Tide\nHigh Tide\nDate\nTime\nTime\nDec 4\n2:07 a.m.\n8:02 a.m.\n2:56 p.m.\n8:39 p.m.\nDec 5\n2:58 a.m.\n8:54 a.m.\n3:47 p.m.\n9:38 p.m.\nDec 6\n3:50 a.m.\n9:52 a.m.\n10:40 p.m.\nDec 7\n4:44 a.m.\n10:54 a.m.\n5:33 p.m.\n11:43 p.m.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify the geologic epoch when the Columbia River Basalts formed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the passage and map below, and on your knowledge of \nEarth science. The map of the northwestern United States shows the location of the Columbia River Basalts.\nColumbia River Basalts\nThe Columbia River Basalts are a formation of several horizontal lava fl ows from \neruptions that took place between 6 million and 17 million years ago. These fl ows covered \na portion of the northwestern United States. The lava erupted from cracks in Earth\u2019s \nsurface and fl owed westward toward the Pacifi c Ocean. These horizontal basalt layers \nare currently about 1200 meters above sea level. The lava was created when the North \nAmerican Plate moved over a mantle hot spot.\nWashington\nOregon\nPacific Ocean\nColumbia River\nN\nKey\nBasalt\nlava flows\nSurrounding\nland area",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Miocene Epoch."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify the present mantle hot spot that most likely produced the lava that created the Columbia River Basalts.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the passage and map below, and on your knowledge of \nEarth science. The map of the northwestern United States shows the location of the Columbia River Basalts.\nColumbia River Basalts\nThe Columbia River Basalts are a formation of several horizontal lava fl ows from \neruptions that took place between 6 million and 17 million years ago. These fl ows covered \na portion of the northwestern United States. The lava erupted from cracks in Earth\u2019s \nsurface and fl owed westward toward the Pacifi c Ocean. These horizontal basalt layers \nare currently about 1200 meters above sea level. The lava was created when the North \nAmerican Plate moved over a mantle hot spot.\nWashington\nOregon\nPacific Ocean\nColumbia River\nN\nKey\nBasalt\nlava flows\nSurrounding\nland area",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Yellowstone Hot Spot."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "The mantle plumes that created the lava fl ows of the Columbia River Basalts are inferred to have risen from the boundary between the stiffer mantle and the outer core. Identify the interior temperature and depth at this boundary.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_51_53.png",
+      "context": "Base your answers to questions 51 through 53 on the passage and map below, and on your knowledge of \nEarth science. The map of the northwestern United States shows the location of the Columbia River Basalts.\nColumbia River Basalts\nThe Columbia River Basalts are a formation of several horizontal lava fl ows from \neruptions that took place between 6 million and 17 million years ago. These fl ows covered \na portion of the northwestern United States. The lava erupted from cracks in Earth\u2019s \nsurface and fl owed westward toward the Pacifi c Ocean. These horizontal basalt layers \nare currently about 1200 meters above sea level. The lava was created when the North \nAmerican Plate moved over a mantle hot spot.\nWashington\nOregon\nPacific Ocean\nColumbia River\nN\nKey\nBasalt\nlava flows\nSurrounding\nland area",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses are correct. Interior temperature: any value from 4850\u00b0C to 5000\u00b0C Depth: any value from 2850 to 2950 km"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, place an X on the Moon\u2019s orbit to show the Moon\u2019s position during a solar eclipse.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 57 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents the Moon\u2019s orbit around Earth.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the center of the X is within or touches the clear banded region shown below. Note: Allow credit if a symbol other than an X is used. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "State the average distance between Earth and the Moon. Include units with your answer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 57 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents the Moon\u2019s orbit around Earth.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.386 million km or 386,000 km. Note: Correct units must be included in the student answer to receive credit. Moon\u2019s orbit Earth (Not drawn to scale) North Pole P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Describe the actual shape of the Moon\u2019s orbit.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 54 through 57 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents the Moon\u2019s orbit around Earth.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Elliptical/ellipse \u2014 The Moon\u2019s orbit is slightly eccentric. \u2014 almost a circle/nearly circular \u2014 oval Note: Do not allow credit for \u201ccircle\u201d or \u201ccircular\u201d alone because the orbit is not a circle."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Explain why the Moon\u2019s period of revolution and period of rotation cause the same side of the Moon to always face Earth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/q57.png",
+      "context": "Base your answers to questions 54 through 57 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents the Moon\u2019s orbit around Earth.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The Moon\u2019s revolution period equals the Moon\u2019s rotation period. \u2014 Revolution and rotation are both 27.3 days. \u2014 The Moon makes one spin in exactly the same time that it makes one orbit around Earth."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "State the approximate time of day represented at location A, based on the Sun\u2019s present position. Include a.m. or p.m. in your answer.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the two Sun\u2019s path diagrams below and on your knowledge \nof Earth science. The diagrams represent the apparent path of the Sun observed at locations A and B on Earth\u2019s \nsurface on September 21. The positions of the Sun and the zenith (position directly overhead) are shown for an \nobserver at each location.\nEast\nWest\nSouth\nNorth\nSun\u2019s\napparent path\nLocation B\nZenith\nSun\u2019s\nposition\nEast\nWest\nSouth\nNorth\nLocation A\nZenith\nSun\u2019s\napparent path\nSun\u2019s\nposition",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any time from 9 a.m. to 11 a.m. Note: a.m. must be included in student answer."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Describe the change in the length of a shadow cast by the observer at location B from sunrise to sunset.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the two Sun\u2019s path diagrams below and on your knowledge \nof Earth science. The diagrams represent the apparent path of the Sun observed at locations A and B on Earth\u2019s \nsurface on September 21. The positions of the Sun and the zenith (position directly overhead) are shown for an \nobserver at each location.\nEast\nWest\nSouth\nNorth\nSun\u2019s\napparent path\nLocation B\nZenith\nSun\u2019s\nposition\nEast\nWest\nSouth\nNorth\nLocation A\nZenith\nSun\u2019s\napparent path\nSun\u2019s\nposition",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The shadow gets shorter until noon, then gets longer until sunset. \u2014 decreases, then increases \u2014 long, short, long"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify Earth\u2019s motion that causes the Sun to appear to move along each path shown.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_58_60.png",
+      "context": "Base your answers to questions 58 through 60 on the two Sun\u2019s path diagrams below and on your knowledge \nof Earth science. The diagrams represent the apparent path of the Sun observed at locations A and B on Earth\u2019s \nsurface on September 21. The positions of the Sun and the zenith (position directly overhead) are shown for an \nobserver at each location.\nEast\nWest\nSouth\nNorth\nSun\u2019s\napparent path\nLocation B\nZenith\nSun\u2019s\nposition\nEast\nWest\nSouth\nNorth\nLocation A\nZenith\nSun\u2019s\napparent path\nSun\u2019s\nposition",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 rotation \u2014 turning on its axis \u2014 spinning P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Complete the line graph in your answer booklet by plotting the remaining air temperatures for each hour from 6 p.m. to 11 p.m. The data from noon to 5 p.m. have already been plotted. Connect all six plots with a line that starts at the 5 p.m. data plot.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the data table below, on the graph in your answer booklet, \nand on your knowledge of Earth science. The data table shows the air temperatures and dewpoints in degrees \nCelsius (\u00b0C) for a period of time at a location in New York State. The graph in your answer booklet shows the air \ntemperatures from noon to 5 p.m. and the dewpoints from noon to 11 p.m.\nTime\nAir Temperature \n(\u00b0C)\nDewpoint\n(\u00b0C)\nNoon\n26.0\n17.0\n1 p.m.\n27.0\n16.0\n2 p.m.\n29.0\n14.0\n3 p.m.\n29.5\n14.0\n4 p.m.\n30.5\n15.5\n5 p.m.\n29.0\n16.5\n6 p.m.\n30.0\n18.5\n7 p.m.\n29.5\n16.5\n8 p.m.\n27.0\n17.0\n9 p.m.\n26.5\n17.0\n10 p.m.\n25.0\n18.5\n11 p.m.\n19.0\n18.5",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all six student plots are within or touch the circles shown below, and all six plots are correctly connected with a line that passes within or touches each circle and is connected to the 5 p.m. plot. Note: Allow credit if the line does not pass through the student plots but is still within or touch- ing the circles. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify the time shown in the data table when dew or fog would most likely form. Explain why that time has the greatest chance for the formation of dew or fog.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the data table below, on the graph in your answer booklet, \nand on your knowledge of Earth science. The data table shows the air temperatures and dewpoints in degrees \nCelsius (\u00b0C) for a period of time at a location in New York State. The graph in your answer booklet shows the air \ntemperatures from noon to 5 p.m. and the dewpoints from noon to 11 p.m.\nTime\nAir Temperature \n(\u00b0C)\nDewpoint\n(\u00b0C)\nNoon\n26.0\n17.0\n1 p.m.\n27.0\n16.0\n2 p.m.\n29.0\n14.0\n3 p.m.\n29.5\n14.0\n4 p.m.\n30.5\n15.5\n5 p.m.\n29.0\n16.5\n6 p.m.\n30.0\n18.5\n7 p.m.\n29.5\n16.5\n8 p.m.\n27.0\n17.0\n9 p.m.\n26.5\n17.0\n10 p.m.\n25.0\n18.5\n11 p.m.\n19.0\n18.5",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 11 p.m. with an acceptable explanation. Acceptable explanations include, but are not limited to: \u2014 The air temperature and dewpoint temperatures are the closest at that time. \u2014 The air temperature cooled to near the dewpoint. \u2014 The relative humidity is close to 100%"
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify one weather instrument that consists of a dry-bulb thermometer and a wet-bulb thermometer that is used to determine dewpoint.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the data table below, on the graph in your answer booklet, \nand on your knowledge of Earth science. The data table shows the air temperatures and dewpoints in degrees \nCelsius (\u00b0C) for a period of time at a location in New York State. The graph in your answer booklet shows the air \ntemperatures from noon to 5 p.m. and the dewpoints from noon to 11 p.m.\nTime\nAir Temperature \n(\u00b0C)\nDewpoint\n(\u00b0C)\nNoon\n26.0\n17.0\n1 p.m.\n27.0\n16.0\n2 p.m.\n29.0\n14.0\n3 p.m.\n29.5\n14.0\n4 p.m.\n30.5\n15.5\n5 p.m.\n29.0\n16.5\n6 p.m.\n30.0\n18.5\n7 p.m.\n29.5\n16.5\n8 p.m.\n27.0\n17.0\n9 p.m.\n26.5\n17.0\n10 p.m.\n25.0\n18.5\n11 p.m.\n19.0\n18.5",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 psychrometer/sling psychrometer \u2014 hygrometer 12 (Noon) 1 2 3 4 5 6 7 8 9 10 14 p.m. Time Temperature (\u00b0C) 16 18 20 22 24 26 28 30 32 Air Temperature and Dewpoint Key Air temperature Dewpoint 11 P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Determine the minimum stream velocity, in centimeters per second (cm/s), required for the Nova River to transport a pebble with a diameter of 6.4 cm.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the map below and on your knowledge of Earth science. \nThe map shows a portion of the Nova River and three of its tributaries. Points W and X represent locations on the \nbanks of the Suki River. The arrows on the map indicate the direction of fl ow of the Nova River.\nFuji River\nSuki River\nBailey\nRiver\nNova River\nW\nX\nN",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 150 to 200 cm/s."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Explain why the stream velocity and rate of erosion of the streambank are greater at location W than at location X.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the map below and on your knowledge of Earth science. \nThe map shows a portion of the Nova River and three of its tributaries. Points W and X represent locations on the \nbanks of the Suki River. The arrows on the map indicate the direction of fl ow of the Nova River.\nFuji River\nSuki River\nBailey\nRiver\nNova River\nW\nX\nN",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 W is located on the outside bend of a meander curve. \u2014 Due to inertia, the stream tends to flow in a straight line into the outside bank with a greater force. Note: Do not allow credit for \u201cW is on the curve\u201d because X is also on the curve. Do not allow credit for \u201cWater is moving slower at X\u201d because the student is simply stating the opposite of what is provided in the question. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw the 20-, 30-, and 40-inch snowfall isolines.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows the total amount of snowfall, measured in inches, from a lake-effect snowstorm \nthat affected a portion of New York State from February 2 through February 4, 2017. The 10-inch and 50-inch \nsnowfall isolines have been drawn. Oswego, Watertown, and Old Forge are labeled on the map. Points A and B \nrepresent locations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the 20-, 30-, and 40-inch isolines are correctly drawn. If additional lines are drawn, all isolines must be correct to receive credit. All isolines should form closed loops. The 20-inch iso- line must pass through or touch the two 20 dots. The 30-inch isoline must pass through or touch the 30 dot. Examples of 1-credit responses:"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Calculate the snowfall gradient between locations A and B in inches per mile.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows the total amount of snowfall, measured in inches, from a lake-effect snowstorm \nthat affected a portion of New York State from February 2 through February 4, 2017. The 10-inch and 50-inch \nsnowfall isolines have been drawn. Oswego, Watertown, and Old Forge are labeled on the map. Points A and B \nrepresent locations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 3.6 in/mi to 4.5 in/mi."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Identify the name of the New York State landscape region where the greatest amount of snowfall occurred.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 66 through 69 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows the total amount of snowfall, measured in inches, from a lake-effect snowstorm \nthat affected a portion of New York State from February 2 through February 4, 2017. The 10-inch and 50-inch \nsnowfall isolines have been drawn. Oswego, Watertown, and Old Forge are labeled on the map. Points A and B \nrepresent locations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Tug Hill Plateau. Total Snowfall from February 2-4, 2017 N S W E Lake Ontario Watertown Old Forge 7 9 14 22 36 30 15 33 17 18 24 8 Oswego 48 54 17 A B 53 10 5 7 9 10 27 19 43 32 51 25 20 20 30 20 20 10 10 50 40 0 10 20 Scale in miles Part C Allow a maximum of 20 credits for this part. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "The table below lists some weather conditions for Watertown near the end of this storm. Dewpoint (\u00b0F) Present Weather Wind Direction Wind Speed (knots) 23 snow showers from the northwest 25 On the weather station model in your answer booklet, using the proper format, record the weather conditions listed in the table.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/q69.png",
+      "context": "Base your answers to questions 66 through 69 on the map in your answer booklet and on your knowledge of \nEarth science. The map shows the total amount of snowfall, measured in inches, from a lake-effect snowstorm \nthat affected a portion of New York State from February 2 through February 4, 2017. The 10-inch and 50-inch \nsnowfall isolines have been drawn. Oswego, Watertown, and Old Forge are labeled on the map. Points A and B \nrepresent locations on Earth\u2019s surface.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if all four weather conditions are in the correct location and in the correct format. Example of a 1-credit response: Note: The feathers representing wind speed may be drawn on either side on the line indicating wind direction."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Complete the graph in your answer booklet by drawing a bar to represent the range of temperatures at which each mineral crystallizes. Shade in each bar drawn. The bars for the range of temperatures at which olivine and pyroxene crystallize have already been drawn.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the data table below and on your knowledge of Earth science. \nThe data table shows the range of temperatures at which different minerals crystallize as molten magma cools \nand solidifi es.\nMineral\nRange of Temperatures \nat Which Each Mineral \nCrystallizes \n(\u00b0C)\nOlivine\n1400 to 1150\nPyroxene\n1300 to 1000\nAmphibole\n1100 to 800\nBiotite Mica\n950 to 750\nPotassium Feldspar\n800 to 600\nQuartz\n550 to 500\nPlagioclase Feldspar\n1300 to 600",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if all five student-drawn bars are drawn in the correct columns and the ends of the bars are within or touch the rectangular areas shown at the end of each bar. Note: It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating. Do not allow credit if any bar is not directly in the column above the mineral name. 23 Crystallization Temperature (\u00b0C) 500 600 700 800 900 1000 1100 1200 1300 1400 Crystallization Temperature (\u00b0C) Minerals Crystallization Temperatures of Minerals Commonly Found in Igneous Rocks Olivine Pyroxene Amphibole 500 600 700 800 900 1000 1100 1200 1300 1400 Biotite Mica Quartz Plagioclase Feldspar Potassium Feldspar P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Identify the mineral listed on the data table that would most likely be the last to crystallize as the magma cools and solidifi es.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the data table below and on your knowledge of Earth science. \nThe data table shows the range of temperatures at which different minerals crystallize as molten magma cools \nand solidifi es.\nMineral\nRange of Temperatures \nat Which Each Mineral \nCrystallizes \n(\u00b0C)\nOlivine\n1400 to 1150\nPyroxene\n1300 to 1000\nAmphibole\n1100 to 800\nBiotite Mica\n950 to 750\nPotassium Feldspar\n800 to 600\nQuartz\n550 to 500\nPlagioclase Feldspar\n1300 to 600",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for quartz."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "List the two elements that are commonly found in olivine, pyroxene, and potassium feldspar.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the data table below and on your knowledge of Earth science. \nThe data table shows the range of temperatures at which different minerals crystallize as molten magma cools \nand solidifi es.\nMineral\nRange of Temperatures \nat Which Each Mineral \nCrystallizes \n(\u00b0C)\nOlivine\n1400 to 1150\nPyroxene\n1300 to 1000\nAmphibole\n1100 to 800\nBiotite Mica\n950 to 750\nPotassium Feldspar\n800 to 600\nQuartz\n550 to 500\nPlagioclase Feldspar\n1300 to 600",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for silicon/Si and oxygen/O."
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Identify the general characteristics of color and density of an igneous rock composed of only the minerals olivine and pyroxene.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_70_73.png",
+      "context": "Base your answers to questions 70 through 73 on the data table below and on your knowledge of Earth science. \nThe data table shows the range of temperatures at which different minerals crystallize as molten magma cools \nand solidifi es.\nMineral\nRange of Temperatures \nat Which Each Mineral \nCrystallizes \n(\u00b0C)\nOlivine\n1400 to 1150\nPyroxene\n1300 to 1000\nAmphibole\n1100 to 800\nBiotite Mica\n950 to 750\nPotassium Feldspar\n800 to 600\nQuartz\n550 to 500\nPlagioclase Feldspar\n1300 to 600",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses are correct. Acceptable responses include, but are not limited to: Color: \u2014 green \u2014 dark/darker \u2014 black \u2014 brown \u2014 gray Density: \u2014 high/higher \u2014 very dense \u2014 greater Note: Do not allow credit for any numbers for density."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Identify the ocean current that most affects the climate of location A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the map of Australia below and on your knowledge of Earth \nscience. Points A through E on the map represent locations on Earth\u2019s surface that have different climates.\nC\nAustralia\nKey\nMountains\nA\nD\nE\nB",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for West Australia Current."
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Identify the month and day when the noon sun would be directly overhead at location B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the map of Australia below and on your knowledge of Earth \nscience. Points A through E on the map represent locations on Earth\u2019s surface that have different climates.\nC\nAustralia\nKey\nMountains\nA\nD\nE\nB",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 December 21 or 20 or 22 \u2014 12/21 or 12/20 or 12/22"
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Write the two-letter air-mass symbol used to identify an air mass that originates over location C.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the map of Australia below and on your knowledge of Earth \nscience. Points A through E on the map represent locations on Earth\u2019s surface that have different climates.\nC\nAustralia\nKey\nMountains\nA\nD\nE\nB",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for cT. Allow credit for either upper-case or lower-case letters. Note: Do not allow credit if air-mass letters are reversed, such as Tc. For students who used the Spanish edition, either exclusively or in conjunction with the English edition of the exam, allow credit for the correct two-letter air-mass symbol as it appears in either the English or Spanish 2011 Edition Reference Tables for Physical Setting/ Earth Science."
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Locations D and E are located the same distance from the Pacifi c Ocean. Explain why location D has a drier climate than location E.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_74_77.png",
+      "context": "Base your answers to questions 74 through 77 on the map of Australia below and on your knowledge of Earth \nscience. Points A through E on the map represent locations on Earth\u2019s surface that have different climates.\nC\nAustralia\nKey\nMountains\nA\nD\nE\nB",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Location D is behind the mountain range and shielded from the prevailing winds. \u2014 Air currents at location D are coming down the mountain, warming and causing a drier climate. \u2014 Winds at location E are rising up the mountain and cooling, causing precipitation. \u2014 There is a mountain range between D and E. \u2014 Location D is on the leeward side of a mountain. \u2014 Location E is on the windward side of a mountain. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Describe one piece of evidence shown in the cross section that indicates that rock units B and C have been disturbed by crustal movement.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_78_80.png",
+      "context": "Base your answers to questions 78 through 80 on the cross section below and on your knowledge of Earth \nscience. Letters A through G identify rock units. Letter S identifi es a fault. Lines W, X, Y, and Z are unconformities. \nIndex fossils are represented in two of the rock units, and a volcanic ash layer has been labeled. The rock units \nhave not been overturned.\nC\nD\nF\nS\nG\nB\nE\nW\nY\nZ\nVolcanic\nash layer\nKey\nContact metamorphism\nIgneous rock\nX\nA",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 B and C do not show their original horizontality. \u2014 Rock layers B and C have been tilted/slanted. \u2014 The left sides of both layers are higher than the right sides. \u2014 An unconformity is located above rock units B and C."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "In the blanks in your answer booklet, place the letters E, F, G, S, and Z in the correct order to represent the relative ages of these rock units and features, from oldest to youngest.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_78_80.png",
+      "context": "Base your answers to questions 78 through 80 on the cross section below and on your knowledge of Earth \nscience. Letters A through G identify rock units. Letter S identifi es a fault. Lines W, X, Y, and Z are unconformities. \nIndex fossils are represented in two of the rock units, and a volcanic ash layer has been labeled. The rock units \nhave not been overturned.\nC\nD\nF\nS\nG\nB\nE\nW\nY\nZ\nVolcanic\nash layer\nKey\nContact metamorphism\nIgneous rock\nX\nA",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the correct order shown below:"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Based on the index fossils found in rock units A and D, determine approximately how many million years ago (mya) unconformity W formed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_78_80.png",
+      "context": "Base your answers to questions 78 through 80 on the cross section below and on your knowledge of Earth \nscience. Letters A through G identify rock units. Letter S identifi es a fault. Lines W, X, Y, and Z are unconformities. \nIndex fossils are represented in two of the rock units, and a volcanic ash layer has been labeled. The rock units \nhave not been overturned.\nC\nD\nF\nS\nG\nB\nE\nW\nY\nZ\nVolcanic\nash layer\nKey\nContact metamorphism\nIgneous rock\nX\nA",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 387 mya to 435 mya."
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Identify the water cycle process causing cloud formation to occur at location A, and state whether energy is gained or released by the water vapor during this process.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_81_82.png",
+      "context": "Base your answers to questions 81 and 82 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a landscape containing a stream. The arrows represent the movement of water in the \nwater cycle. Letter A is a location where a certain water cycle process is occurring.\nCave\nStream\nA\nSaturated\nzone\nUnsaturated\nzone\nBedrock",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses are correct. Process: \u2014 condensation or deposition Energy is: \u2014 released"
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Describe how the rate of runoff and the rate of infi ltration would be affected if the trees were removed from this landscape.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_81_82.png",
+      "context": "Base your answers to questions 81 and 82 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a landscape containing a stream. The arrows represent the movement of water in the \nwater cycle. Letter A is a location where a certain water cycle process is occurring.\nCave\nStream\nA\nSaturated\nzone\nUnsaturated\nzone\nBedrock",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses are correct. Acceptable responses include, but are not limited to: Rate of runoff: \u2014 increases \u2014 is greater \u2014 faster Rate of infiltration: \u2014 decreases \u2014 is less \u2014 slower G Oldest Z E S F Youngest"
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "For an observer on Earth, identify the direction a rocket\u2019s path appears to curve, due to the Coriolis effect, as it travels from near the equator toward the North Pole.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the passage and diagrams below and on your knowledge of \nEarth science. Diagram A represents the path of a rocket launched from near the equator toward the North Pole \non a nonrotating Earth. Diagram B represents the path of a rocket that appears to curve because Earth is rotating \nbeneath the rocket. Earth\u2019s winds are affected in a similar way.\nThe Coriolis Effect\nEarth\u2019s rotation causes moving air to curve (defl ect) in one direction in the Northern \nHemisphere and curve in the opposite direction in the Southern Hemisphere. This is \ncalled the Coriolis effect. One factor that controls the amount of defl ection of the winds is \nlatitude. The defl ection is greatest at the poles, and decreases to zero at the equator. The \nCoriolis effect is signifi cant for winds that travel long distances over Earth. Other planets \nmay have an even stronger Coriolis effect. There is a direct relationship between a planet\u2019s \nrate of rotation and the amount of defl ection due to the Coriolis effect.\nNorth\nPole\nEquator\nNonrotating Earth\nDiagram A\nNorth\nPole\nEquator\nRotating Earth\nDiagram B\nAdapted from: Bell,Trudy. 2001. Science 101: Weather.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The rocket appears to curve/bend to the right. \u2014 It\u2019s deflected to a different longitude to the east/Northeast/NE. \u2014 clockwise"
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Describe the relationship between latitude and the amount that the winds defl ect due to the Coriolis effect.",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the passage and diagrams below and on your knowledge of \nEarth science. Diagram A represents the path of a rocket launched from near the equator toward the North Pole \non a nonrotating Earth. Diagram B represents the path of a rocket that appears to curve because Earth is rotating \nbeneath the rocket. Earth\u2019s winds are affected in a similar way.\nThe Coriolis Effect\nEarth\u2019s rotation causes moving air to curve (defl ect) in one direction in the Northern \nHemisphere and curve in the opposite direction in the Southern Hemisphere. This is \ncalled the Coriolis effect. One factor that controls the amount of defl ection of the winds is \nlatitude. The defl ection is greatest at the poles, and decreases to zero at the equator. The \nCoriolis effect is signifi cant for winds that travel long distances over Earth. Other planets \nmay have an even stronger Coriolis effect. There is a direct relationship between a planet\u2019s \nrate of rotation and the amount of defl ection due to the Coriolis effect.\nNorth\nPole\nEquator\nNonrotating Earth\nDiagram A\nNorth\nPole\nEquator\nRotating Earth\nDiagram B\nAdapted from: Bell,Trudy. 2001. Science 101: Weather.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 As latitude increases, the deflection is greater. \u2014 As latitude increases, the Coriolis effect increases. \u2014 From the equator to the North Pole, the Coriolis effect increases. \u2014 Winds curve more at higher latitudes. \u2014 As latitude decreases, the deflection of winds is less. \u2014 direct relationship Note: Do not allow credit for \u201cas latitude increases, there will be more/stronger winds\u201d or \u201cas latitude increases, there is a greater wind speed\u201d because these responses do not directly relate latitude to the deflection of winds."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Identify the scientifi c device that is used on Earth to prove that Earth rotates on its axis. P.S./ P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/august-2022/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the passage and diagrams below and on your knowledge of \nEarth science. Diagram A represents the path of a rocket launched from near the equator toward the North Pole \non a nonrotating Earth. Diagram B represents the path of a rocket that appears to curve because Earth is rotating \nbeneath the rocket. Earth\u2019s winds are affected in a similar way.\nThe Coriolis Effect\nEarth\u2019s rotation causes moving air to curve (defl ect) in one direction in the Northern \nHemisphere and curve in the opposite direction in the Southern Hemisphere. This is \ncalled the Coriolis effect. One factor that controls the amount of defl ection of the winds is \nlatitude. The defl ection is greatest at the poles, and decreases to zero at the equator. The \nCoriolis effect is signifi cant for winds that travel long distances over Earth. Other planets \nmay have an even stronger Coriolis effect. There is a direct relationship between a planet\u2019s \nrate of rotation and the amount of defl ection due to the Coriolis effect.\nNorth\nPole\nEquator\nNonrotating Earth\nDiagram A\nNorth\nPole\nEquator\nRotating Earth\nDiagram B\nAdapted from: Bell,Trudy. 2001. Science 101: Weather.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Foucault pendulum or pendulum or gyroscope. P.S./E. Sci. Rating Guide\u2013Aug. \u2019"
+    }
+  ]
+}

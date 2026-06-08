@@ -1,0 +1,1106 @@
+{
+  "subject": "earth-science",
+  "session": "june-2025",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The heliocentric model of the solar system shows the",
+      "choices": [
+        "temperature of the Sun compared to the temperature of the planets",
+        "age of the Sun compared to the age of the planets",
+        "location of the planets in relation to the Sun",
+        "size of the planets in relation to the Sun"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The graph below shows the ocean tides at Battery Park in New York City from February 9 to February 15, 2020. The phases of the Moon for select dates are shown at the top of the graph. Height in meters Tide Heights at Battery Park 12:00 a.m. 2/9 12:00 a.m. 2/10 12:00 a.m. 2/11 12:00 a.m. 2/12 12:00 a.m. 2/13 12:00 a.m. 2/14 12:00 a.m. 2/15 12:00 a.m. 2/16 0.0 0.5 1.0 1.5 2.0 Full moon Waning gibbous Last quarter 0.0 0.5 1.0 1.5 2.0 Compared to tides that occur during other Moon phases, which conclusion about tides that occur during a full moon can be made from the graph?",
+      "choices": [
+        "High tide is lower when there is a full moon.",
+        "Low tide is higher when there is a full moon.",
+        "The tidal range is greater when there is a full moon.",
+        "The tidal range is less when there is a full moon."
+      ],
+      "image": "/images/exams/earth-science/june-2025/q2.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Evidence of Earth\u2019s rotation on its axis is provided by both the",
+      "choices": [
+        "Doppler effect and El Ni\u00f1o",
+        "Doppler effect and the Coriolis effect",
+        "Foucault pendulum and El Ni\u00f1o",
+        "Foucault pendulum and the Coriolis effect"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "At which New York State location is the observed altitude of Polaris approximately 42\u00b0?",
+      "choices": [
+        "Rochester",
+        "New York City",
+        "Plattsburgh",
+        "Binghamton"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a portion of Earth\u2019s latitude and longitude system. Letters A and B represent locations on Earth\u2019s surface. 45\u00b0 W 30\u00b0 W 15\u00b0 W 15\u00b0 E 30\u00b0 E 45\u00b0 E 0\u00b0 30\u00b0 N 20\u00b0 N 10\u00b0 N 0\u00b0 10\u00b0 S 20\u00b0 S 30\u00b0 S A B When the time at location A is 12 noon, what time is it at location B?",
+      "choices": [
+        "8 a.m.",
+        "9 a.m.",
+        "3 p.m.",
+        "4 p.m."
+      ],
+      "image": "/images/exams/earth-science/june-2025/q5.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Orion is a constellation of stars that is visible in the evening sky in New York State from November through February. Orion is not visible the rest of the year because",
+      "choices": [
+        "Earth rotates on its axis",
+        "Earth revolves around the Sun",
+        "Orion rotates on its axis",
+        "Orion revolves around Earth"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The hydrosphere is a relatively thin layer of",
+      "choices": [
+        "solid rock making up approximately 70% of Earth\u2019s surface",
+        "solid rock making up approximately 30% of Earth\u2019s surface",
+        "water covering approximately 70% of Earth\u2019s surface",
+        "water covering approximately 30% of Earth\u2019s surface"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Earth revolves around the Sun at a rate of approximately",
+      "choices": [
+        "1\u00b0 per day",
+        "360\u00b0 per day",
+        "15\u00b0 per hour",
+        "23.5\u00b0 per hour"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The diagram below represents Earth\u2019s position relative to the Sun\u2019s rays on September 23. The arrow shows the Sun\u2019s direct rays striking the equator at solar noon. S N During the next six months, the angle of the Sun\u2019s rays striking the equator at solar noon will",
+      "choices": [
+        "decrease only",
+        "decrease then increase",
+        "increase only",
+        "increase then decrease"
+      ],
+      "image": "/images/exams/earth-science/june-2025/q9.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which type of unsaturated sediment will have the greatest permeability during a rainstorm?",
+      "choices": [
+        "rounded and tightly packed",
+        "rounded and loosely packed",
+        "fl attened and tightly packed",
+        "fl attened and loosely packed"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The diagram below represents four different apparent paths of the Sun across the sky at four different locations. The paths are labeled A, B, C, and D. C A B D South 24.5\u00b0 West East 48\u00b0 Which line best represents the apparent path of the Sun across the sky on December 21 in New York State?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2025/q11.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which table correctly indicates the locations of the polar front jet stream and subtropical jet stream near the time of the equinox? Polar Front Jet Stream 60\u00b0 North and 60\u00b0 South Subtropical Jet Stream 30\u00b0 North and 30\u00b0 South Polar Front Jet Stream 90\u00b0 North and 90\u00b0 South Subtropical Jet Stream 30\u00b0 North and 30\u00b0 South",
+      "choices": [
+        "",
+        "",
+        "Polar Front Jet Stream 30\u00b0 North and 30\u00b0 South Subtropical Jet Stream 60\u00b0 North and 60\u00b0 South Polar Front Jet Stream 90\u00b0 North and 90\u00b0 South Subtropical Jet Stream 60\u00b0 North and 60\u00b0 South",
+        ""
+      ],
+      "image": "/images/exams/earth-science/june-2025/q12.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The station model below represents some weather conditions at Syracuse, New York. 86 80 What is the best description of the weather at Syracuse?",
+      "choices": [
+        "hot and dry with winds from the east",
+        "hot and humid with winds from the east",
+        "hot and humid with winds from the west",
+        "hot and dry with winds from the west"
+      ],
+      "image": "/images/exams/earth-science/june-2025/q13.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which air mass is characterized by high relative humidity and low air temperature?",
+      "choices": [
+        "maritime polar",
+        "maritime tropical",
+        "continental polar",
+        "continental tropical"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The incomplete fl ow chart below represents heat sources that provide energy for Earth\u2019s systems. The types of heat sources, labeled A, B, and C, have been left blank. Earth\u2019s Systems Driven by Types Type Internal heat sources External heat source B A C Which fl ow chart correctly identifi es the types of heat sources for A, B, and C? Earth\u2019s Systems Driven by Internal heat sources External heat source solar energy volcanic activity radioactive decay radioactive decay residual heat from Earth\u2019s formation solar energy Earth\u2019s Systems Driven by Internal heat sources External heat source Earth\u2019s Systems Driven by Internal heat sources External heat source solar energy radioactive decay residual heat from Earth\u2019s formation radioactive decay volcanic activity solar energy Earth\u2019s Systems Driven by Types Types Types Types Type Type Type Type Internal heat sources External heat source",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/earth-science/june-2025/q15.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "A visible satellite image of the eastern United States is shown below. Visible satellite images resemble black and white photographs because clouds refl ect sunlight and appear white, while land and water appear in shades of gray or black. Which weather variable can be most accurately forecast using this satellite image?",
+      "choices": [
+        "air temperature",
+        "wind speed",
+        "areas of precipitation",
+        "type of precipitation"
+      ],
+      "image": "/images/exams/earth-science/june-2025/q16.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The cross sections below show widely separated outcrops labeled 1, 2, and 3. The rock layers have not been overturned. Letters W, X, Y, and Z represent fossils in some of the layers. Outcrop 1 Outcrop 2 Outcrop 3 X W Z Z W Y Which column represents the correct sequence of fossils based on the correlation of the three outcrops?",
+      "choices": [
+        "",
+        "X W Z Y X W Z Y X W Z Y X W Z Y",
+        "",
+        ""
+      ],
+      "image": "/images/exams/earth-science/june-2025/q17.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Which land surface absorbs the greatest amount of insolation?",
+      "choices": [
+        "dark color and rough texture",
+        "dark color and smooth texture",
+        "light color and rough texture",
+        "light color and smooth texture"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "During which era of Earth\u2019s geologic history did oceanic oxygen begin to enter Earth\u2019s atmosphere?",
+      "choices": [
+        "Cenozoic Era",
+        "Paleozoic Era",
+        "Early Archean Era",
+        "Early Proterozoic Era"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "When did humans appear on Earth?",
+      "choices": [
+        "before abundant grazing mammals and after the earliest fl owering plants",
+        "before the earliest grasses and after large carnivorous mammals",
+        "during the same time as mastodonts and mammoths",
+        "during the same time as the fi rst forests and ammonoids"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "If a rock contained 200 grams of the radioactive isotope potassium-40 (40K) when it was formed, but now contains only 25 grams of potassium-40 (40K), how many years ago did the rock form?",
+      "choices": [
+        "1.3 3 109 years",
+        "2.6 3 109 years",
+        "3.9 3 109 years",
+        "5.2 3 109 years"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The Alleghenian and Acadian orogenies were caused by which geologic process?",
+      "choices": [
+        "deposition of minerals in evaporate basins",
+        "original opening of oceans",
+        "widespread coastal deposition",
+        "collision of landmasses"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The continents of Africa and South America were inferred to be two separate continents",
+      "choices": [
+        "59 million years ago",
+        "119 million years ago",
+        "232 million years ago",
+        "359 million years ago"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which surface feature was produced by crustal movements at a divergent plate boundary?",
+      "choices": [
+        "San Andreas Fault",
+        "Peru-Chile Trench",
+        "Southeast Indian Ridge",
+        "Tasman Hot Spot"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which Earth layer has a density similar to the density of Mercury?",
+      "choices": [
+        "oceanic crust",
+        "stiffer mantle",
+        "outer core",
+        "inner core"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which factor is primarily responsible for the development of the stream drainage patterns in New York State?",
+      "choices": [
+        "bedrock age",
+        "bedrock structure",
+        "types of fossils in the bedrock",
+        "amount of fossils in the bedrock"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which processes result in the formation of soil?",
+      "choices": [
+        "the compaction and cementation of sediments",
+        "the melting and solidifi cation of minerals",
+        "biological activity and the weathering of rocks",
+        "the addition of heat and pressure to bedrock"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The table below shows the densities of four mineral samples of equal size and shape transported in a stream. Mineral Density (g/cm3) Olivine 3.5 Garnet 4.0 Quartz 2.7 Pyrite 5.0 As this stream fl ows into a lake, which mineral sample would most likely be deposited fi rst?",
+      "choices": [
+        "olivine",
+        "garnet",
+        "quartz",
+        "pyrite"
+      ],
+      "image": "/images/exams/earth-science/june-2025/q28.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Hematite and magnetite are mined as ores because they contain the element",
+      "choices": [
+        "iron",
+        "sulfur",
+        "aluminum",
+        "oxygen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The cross section below represents a portion of Earth\u2019s crust. The basalt intrusion contains several inclusions. Key Basalt Contact metamorphism The relative age of the limestone inclusion is",
+      "choices": [
+        "younger than the basalt and older than the sandstone layer",
+        "younger than the basalt and older than the limestone layer",
+        "older than the basalt and older than the shale layer",
+        "older than the basalt and older than the siltstone layer"
+      ],
+      "image": "/images/exams/earth-science/june-2025/q30.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The block diagram below represents the magnetic orientation of igneous bedrock on the seafl oor on the western and eastern sides of a mid-ocean ridge. The letters A, B, C, D, and X identify locations of specifi c bands of magnetic orientation. Key Normal Reversed A Mid-ocean ridge center West East X B C D Which location is the same age as location X ?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2025/q31.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The photograph below shows an escarpment feature formed by uplift and erosion. An escarpment is best described as a",
+      "choices": [
+        "steep, rocky cliff",
+        "coastal shoreline",
+        "mountain ridge",
+        "depositional basin"
+      ],
+      "image": "/images/exams/earth-science/june-2025/q32.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The photograph below shows parallel scratches on the surface of a rock. www.flickr.com Which erosional agent most likely produced these parallel scratches?",
+      "choices": [
+        "wind",
+        "glacier",
+        "wave action",
+        "running water"
+      ],
+      "image": "/images/exams/earth-science/june-2025/q33.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The picture below shows a sample of the metamorphic rock hornfels. geologylearn.blogspot.com Hornfels is commonly formed when existing rock is changed due to",
+      "choices": [
+        "regional metamorphism of bituminous coal",
+        "contact with rising magma from tectonic activity",
+        "foliation from the pressure of overlying rock layers",
+        "seismic activity along a fault in Earth\u2019s crust"
+      ],
+      "image": "/images/exams/earth-science/june-2025/q34.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a stream entering a lake. Letters A, B, C, and D represent locations in the stream. Mixed sediments A B C D Meandering stream Lake At which two locations in the stream will the greatest amount of deposition be occurring?",
+      "choices": [
+        "A and B",
+        "B and C",
+        "C and D",
+        "D and A"
+      ],
+      "image": "/images/exams/earth-science/june-2025/q35.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Approximately how many days does Earth take to move from position A to position D?",
+      "choices": [
+        "91 days",
+        "183 days",
+        "274 days",
+        "365 days"
+      ],
+      "image": "/images/exams/earth-science/june-2025/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth orbiting the Sun. Four positions of Earth in its orbit are labeled A, B, C, and D. \nLetter N represents the North Pole. Distances are indicated for aphelion (Earth\u2019s farthest position from the Sun) \nand perihelion (Earth\u2019s closest position to the Sun). Arrows indicate directions of movement. Letter X represents \na latitude on Earth.\nSun\n(Not drawn to scale)\nN\nDay\nN\nN\nNight\nDay\n147 million km\n152 million km\nN\nE\nq\nu\na\nt\no\nr\nD\nB\nC\nA\nX\nNight",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which latitude on Earth is represented by location X?",
+      "choices": [
+        "Tropic of Cancer",
+        "Tropic of Capricorn",
+        "Arctic Circle",
+        "Antarctic Circle"
+      ],
+      "image": "/images/exams/earth-science/june-2025/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth orbiting the Sun. Four positions of Earth in its orbit are labeled A, B, C, and D. \nLetter N represents the North Pole. Distances are indicated for aphelion (Earth\u2019s farthest position from the Sun) \nand perihelion (Earth\u2019s closest position to the Sun). Arrows indicate directions of movement. Letter X represents \na latitude on Earth.\nSun\n(Not drawn to scale)\nN\nDay\nN\nN\nNight\nDay\n147 million km\n152 million km\nN\nE\nq\nu\na\nt\no\nr\nD\nB\nC\nA\nX\nNight",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "If the tilt of Earth\u2019s axis were increased from 23.5\u00b0 to 31\u00b0, the Northern Hemisphere summer would become",
+      "choices": [
+        "warmer and winter would become warmer",
+        "warmer and winter would become cooler",
+        "cooler and winter would become cooler",
+        "cooler and winter would become warmer"
+      ],
+      "image": "/images/exams/earth-science/june-2025/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the diagram below and on your knowledge of Earth science. \nThe diagram represents Earth orbiting the Sun. Four positions of Earth in its orbit are labeled A, B, C, and D. \nLetter N represents the North Pole. Distances are indicated for aphelion (Earth\u2019s farthest position from the Sun) \nand perihelion (Earth\u2019s closest position to the Sun). Arrows indicate directions of movement. Letter X represents \na latitude on Earth.\nSun\n(Not drawn to scale)\nN\nDay\nN\nN\nNight\nDay\n147 million km\n152 million km\nN\nE\nq\nu\na\nt\no\nr\nD\nB\nC\nA\nX\nNight",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Which mineral is most commonly found on the shores of the Dead Sea?",
+      "choices": [
+        "halite",
+        "hematite",
+        "quartz",
+        "talc"
+      ],
+      "image": "/images/exams/earth-science/june-2025/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the passage and map below and on your knowledge of Earth \nscience. The map shows the Dead Sea. The lightly shaded area, Region Z, represents all the rivers, streams, and \ntributaries that fl ow into the Dead Sea.\nThe Dead Sea is the lowest point on the surface of Earth. The Dead Sea is actually a \nlake which lies at the mouth of the Jordan River. The water is famous because it is 10 times \nsaltier than the ocean. Small amounts of dissolved minerals are transported into the Dead \nSea. Over thousands of years these minerals are left behind when the water evaporates. \nRecent demand for water in the region has increased signifi cantly and has led to a decrease \nin the water level of the Dead Sea. In 1896, the lake surface was 1296 feet below sea level, \nand in 2016 the lake surface was 1412 feet below sea level. The fresh water of the Jordan \nRiver must now fl ow farther to reach the Dead Sea. As it fl ows, the fresh water of the river \ndissolves the layers of minerals previously deposited around the Dead Sea.\nMediterranean\nSea\n34\u00b0 E\n33\u00b0 N\n32\u00b0 N\n31\u00b0 N\n30\u00b0 N\nGulf of\nAqaba\nKey\nDead \nSea\nJordan River\n35\u00b0 E\n36\u00b0 E\n37\u00b0 E\nDry streams\nStreams\nRegion Z\n0\n50 km\nN",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The map below shows the tectonic plate boundary located at the Dead Sea. 36\u00b0 E 34\u00b0 E 36\u00b0 N 34\u00b0 N 32\u00b0 N 30\u00b0 N 28\u00b0 N Red Sea 100 km Arabian Plate Dead Sea Mediterranean Sea Sinai Sub-plate N Which type of tectonic plate boundary is found where the Dead Sea is located?",
+      "choices": [
+        "complex or uncertain",
+        "convergent",
+        "divergent",
+        "transform"
+      ],
+      "image": "/images/exams/earth-science/june-2025/context_39_40.png",
+      "context": "Base your answers to questions 39 and 40 on the passage and map below and on your knowledge of Earth \nscience. The map shows the Dead Sea. The lightly shaded area, Region Z, represents all the rivers, streams, and \ntributaries that fl ow into the Dead Sea.\nThe Dead Sea is the lowest point on the surface of Earth. The Dead Sea is actually a \nlake which lies at the mouth of the Jordan River. The water is famous because it is 10 times \nsaltier than the ocean. Small amounts of dissolved minerals are transported into the Dead \nSea. Over thousands of years these minerals are left behind when the water evaporates. \nRecent demand for water in the region has increased signifi cantly and has led to a decrease \nin the water level of the Dead Sea. In 1896, the lake surface was 1296 feet below sea level, \nand in 2016 the lake surface was 1412 feet below sea level. The fresh water of the Jordan \nRiver must now fl ow farther to reach the Dead Sea. As it fl ows, the fresh water of the river \ndissolves the layers of minerals previously deposited around the Dead Sea.\nMediterranean\nSea\n34\u00b0 E\n33\u00b0 N\n32\u00b0 N\n31\u00b0 N\n30\u00b0 N\nGulf of\nAqaba\nKey\nDead \nSea\nJordan River\n35\u00b0 E\n36\u00b0 E\n37\u00b0 E\nDry streams\nStreams\nRegion Z\n0\n50 km\nN",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "At what time did this earthquake occur?",
+      "choices": [
+        "02:21:00 p.m.",
+        "02:25:00 p.m.",
+        "02:26:00 p.m.",
+        "02:35:00 p.m."
+      ],
+      "image": "/images/exams/earth-science/june-2025/context_41_42.png",
+      "context": "Base your answers to questions 41 and 42 on the seismogram and data table below and on your knowledge \nof Earth science. The seismogram and data table have information about an earthquake recorded at a seismic \nmonitoring station.\nSeismogram\n2:28:00\n2:30:00\n2:32:00\n2:34:00\n2:36:00\nP\nS\nEarthquake Data Collected\nTime of P-wave arrival\n02:30:00 p.m.\nTime of S-wave arrival\n02:34:00 p.m.\nDistance to epicenter\n2600 km",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which seismogram was recorded closest to the epicenter of this earthquake? 2:28:00 2:30:00 2:32:00 2:34:00 2:36:00 2:28:00 2:30:00 2:32:00 2:34:00 2:36:00",
+      "choices": [
+        "",
+        "P S P S 2:28:00 2:30:00 2:32:00 2:34:00 2:36:00 2:28:00 2:30:00 2:32:00 2:34:00 2:36:00",
+        "",
+        "P S P S"
+      ],
+      "image": "/images/exams/earth-science/june-2025/context_41_42.png",
+      "context": "Base your answers to questions 41 and 42 on the seismogram and data table below and on your knowledge \nof Earth science. The seismogram and data table have information about an earthquake recorded at a seismic \nmonitoring station.\nSeismogram\n2:28:00\n2:30:00\n2:32:00\n2:34:00\n2:36:00\nP\nS\nEarthquake Data Collected\nTime of P-wave arrival\n02:30:00 p.m.\nTime of S-wave arrival\n02:34:00 p.m.\nDistance to epicenter\n2600 km",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "What does this graph indicate about the history of the Orthida group?",
+      "choices": [
+        "They existed for the longest period of geologic time.",
+        "Some types in the Orthida group still exist today.",
+        "More types lived during the Silurian period than the Ordovician period.",
+        "Many types have lived in the past and are now extinct."
+      ],
+      "image": "/images/exams/earth-science/june-2025/context_43_45.png",
+      "context": "Base your answers to questions 43 through 45 on the graph below and on your knowledge of Earth science. \nThe graph indicates changes in the number of four different brachiopod groups from the early Cambrian to the \npresent. A picture of a representative member of each group is shown in the left column. The width of each bar \nindicates the relative number of different types of brachiopods within each group.\nGeologic time period\nEvolution of Brachiopods\nOrthida\nRhynchonellida\nSpiriferida\nTerebratulida\nBrachiopod groups\nCambrian\nOrdovician\nSilurian\nDevonian\nCarboniferous\nPermian\nTriassic\nCretaceous\nJurassic\nPaleogene and\nNeogene\nQuaternary",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which two other fossil groups found in New York State fi rst appeared on Earth during the same geologic time period that the Orthida Brachiopod group fi rst appeared?",
+      "choices": [
+        "trilobites and ammonoids",
+        "trilobites and gastropods",
+        "eurypterids and ammonoids",
+        "eurypterids and gastropods"
+      ],
+      "image": "/images/exams/earth-science/june-2025/context_43_45.png",
+      "context": "Base your answers to questions 43 through 45 on the graph below and on your knowledge of Earth science. \nThe graph indicates changes in the number of four different brachiopod groups from the early Cambrian to the \npresent. A picture of a representative member of each group is shown in the left column. The width of each bar \nindicates the relative number of different types of brachiopods within each group.\nGeologic time period\nEvolution of Brachiopods\nOrthida\nRhynchonellida\nSpiriferida\nTerebratulida\nBrachiopod groups\nCambrian\nOrdovician\nSilurian\nDevonian\nCarboniferous\nPermian\nTriassic\nCretaceous\nJurassic\nPaleogene and\nNeogene\nQuaternary",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Which brachiopod group had the greatest number of types of organisms existing at the time of existence of the New York State index fossil Platyceras?",
+      "choices": [
+        "Orthida",
+        "Rhynchonellida",
+        "Spiriferida",
+        "Terebratulida"
+      ],
+      "image": "/images/exams/earth-science/june-2025/context_43_45.png",
+      "context": "Base your answers to questions 43 through 45 on the graph below and on your knowledge of Earth science. \nThe graph indicates changes in the number of four different brachiopod groups from the early Cambrian to the \npresent. A picture of a representative member of each group is shown in the left column. The width of each bar \nindicates the relative number of different types of brachiopods within each group.\nGeologic time period\nEvolution of Brachiopods\nOrthida\nRhynchonellida\nSpiriferida\nTerebratulida\nBrachiopod groups\nCambrian\nOrdovician\nSilurian\nDevonian\nCarboniferous\nPermian\nTriassic\nCretaceous\nJurassic\nPaleogene and\nNeogene\nQuaternary",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "Compared to Kailua-Kona, the amount of rainfall received at Hilo is",
+      "choices": [
+        "less due to Hilo being at a lower longitude",
+        "less due to Hilo receiving winds containing less moisture",
+        "greater due to Hilo being at a lower longitude",
+        "greater due to Hilo receiving winds containing more moisture"
+      ],
+      "image": "/images/exams/earth-science/june-2025/context_46_48.png",
+      "context": "Base your answers to questions 46 through 48 on the contour map below and on your knowledge of Earth \nscience. The contour map shows elevations in meters on the Big Island of Hawaii. The elevation of Mauna Loa, \na volcanic mountain, is indicated. The large arrow represents the direction of prevailing winds.\nBig Island of Hawaii\nHilo\nPuna\nMauna Loa\nPacific Ocean\n20\u00b0 N\n19\u00b030\u2019 N\n19\u00b0 N\n156\u00b0 W\n155\u00b0 W\n155\u00b030' W\nN\n4169\nContour interval 500 meters\n2500\n2500\nKailua-Kona",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "After visible light is absorbed by the land surfaces of the Big Island of Hawaii, which form of long-wave electromagnetic energy is radiated?",
+      "choices": [
+        "x rays",
+        "ultraviolet",
+        "infrared",
+        "gamma rays"
+      ],
+      "image": "/images/exams/earth-science/june-2025/context_46_48.png",
+      "context": "Base your answers to questions 46 through 48 on the contour map below and on your knowledge of Earth \nscience. The contour map shows elevations in meters on the Big Island of Hawaii. The elevation of Mauna Loa, \na volcanic mountain, is indicated. The large arrow represents the direction of prevailing winds.\nBig Island of Hawaii\nHilo\nPuna\nMauna Loa\nPacific Ocean\n20\u00b0 N\n19\u00b030\u2019 N\n19\u00b0 N\n156\u00b0 W\n155\u00b0 W\n155\u00b030' W\nN\n4169\nContour interval 500 meters\n2500\n2500\nKailua-Kona",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Compared to Puna, Mauna Loa has a cooler climate because Mauna Loa",
+      "choices": [
+        "is farther from the ocean",
+        "has a higher elevation",
+        "is located in a different wind belt",
+        "receives less insolation"
+      ],
+      "image": "/images/exams/earth-science/june-2025/context_46_48.png",
+      "context": "Base your answers to questions 46 through 48 on the contour map below and on your knowledge of Earth \nscience. The contour map shows elevations in meters on the Big Island of Hawaii. The elevation of Mauna Loa, \na volcanic mountain, is indicated. The large arrow represents the direction of prevailing winds.\nBig Island of Hawaii\nHilo\nPuna\nMauna Loa\nPacific Ocean\n20\u00b0 N\n19\u00b030\u2019 N\n19\u00b0 N\n156\u00b0 W\n155\u00b0 W\n155\u00b030' W\nN\n4169\nContour interval 500 meters\n2500\n2500\nKailua-Kona",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "An increase in yearly precipitation would most likely cause",
+      "choices": [
+        "decreased erosion of soil at area A",
+        "decreased infi ltration of rainwater at area B",
+        "increased groundwater in zone C, lowering the water table",
+        "increased groundwater in zone D, raising the water table"
+      ],
+      "image": "/images/exams/earth-science/june-2025/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the block diagram below and on your knowledge of Earth\nscience. The block diagram shows a portion of Earth\u2019s crust and some processes within the water cycle. Letters \nA, B, C, and D represent different areas and zones on the diagram. Letter X represents a water cycle process. \nA\nB \nC\nD\nX\nKey\nA   Area of runoff\nB   Area of infiltration\nC   Zone of capillary action\nD   Zone of saturation\nWater table",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Process X, labeled in the diagram, represents",
+      "choices": [
+        "transpiration",
+        "precipitation",
+        "condensation",
+        "radiation"
+      ],
+      "image": "/images/exams/earth-science/june-2025/context_49_50.png",
+      "context": "Base your answers to questions 49 and 50 on the block diagram below and on your knowledge of Earth\nscience. The block diagram shows a portion of Earth\u2019s crust and some processes within the water cycle. Letters \nA, B, C, and D represent different areas and zones on the diagram. Letter X represents a water cycle process. \nA\nB \nC\nD\nX\nKey\nA   Area of runoff\nB   Area of infiltration\nC   Zone of capillary action\nD   Zone of saturation\nWater table",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "On the graph in your answer booklet, draw a line to represent the general relationship between the distance from a protostar and the temperature in the nebula.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the passage and diagram below and on your knowledge of \nEarth science. The diagram represents a developing system indicating the frost line around a protostar (early \nstar).\nPlanet Formation and the Frost Line\nOur solar system formed in an immense region of gases with metallic and rocky debris \nknown as a nebula. The frost line marks a temperature boundary between the higher \ntemperature region near the protostar (which later became the Sun) and the lower \ntemperature outer region. Temperature determined the types of materials that began to \nform the early planets.\nInside the frost line, closer to the protostar, metallic and rocky materials condensed \nand solidifi ed into rocky planets. Outside of the frost line, lighter elements and gases \ncondensed, with some solidifying, making the size of these planets larger. The four planets \nthat formed inside of the frost line are referred to as the terrestrial planets. The four \nplanets that formed outside of the frost line are referred to as the Jovian planets.\nRocks and metals condense, \nhydrogen compounds stay \nvaporized. \nHydrogen compounds, \nrocks, and metals \ncondense.\nFrost line\nProtostar\n(Not drawn to scale)\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\n\nP.S./E. Sci.\u2013June \u201925 \n[19] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any line that indicates as distance from the protostar increases, temperature decreases. Examples of a 1-credit response: Distance from the protostar Temperature in nebula Distance from the protostar Temperature in nebula Distance from the protostar Temperature in nebula"
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify the names of the two planets that formed directly on either side of the frost line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the passage and diagram below and on your knowledge of \nEarth science. The diagram represents a developing system indicating the frost line around a protostar (early \nstar).\nPlanet Formation and the Frost Line\nOur solar system formed in an immense region of gases with metallic and rocky debris \nknown as a nebula. The frost line marks a temperature boundary between the higher \ntemperature region near the protostar (which later became the Sun) and the lower \ntemperature outer region. Temperature determined the types of materials that began to \nform the early planets.\nInside the frost line, closer to the protostar, metallic and rocky materials condensed \nand solidifi ed into rocky planets. Outside of the frost line, lighter elements and gases \ncondensed, with some solidifying, making the size of these planets larger. The four planets \nthat formed inside of the frost line are referred to as the terrestrial planets. The four \nplanets that formed outside of the frost line are referred to as the Jovian planets.\nRocks and metals condense, \nhydrogen compounds stay \nvaporized. \nHydrogen compounds, \nrocks, and metals \ncondense.\nFrost line\nProtostar\n(Not drawn to scale)\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\n\nP.S./E. Sci.\u2013June \u201925 \n[19] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Mars and Jupiter."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Since the origin of our Solar System, the Sun has evolved from a protostar to its current early stage position in the main sequence. Identify the star classifi cation of our Sun when it will be in the late stage of its development.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the passage and diagram below and on your knowledge of \nEarth science. The diagram represents a developing system indicating the frost line around a protostar (early \nstar).\nPlanet Formation and the Frost Line\nOur solar system formed in an immense region of gases with metallic and rocky debris \nknown as a nebula. The frost line marks a temperature boundary between the higher \ntemperature region near the protostar (which later became the Sun) and the lower \ntemperature outer region. Temperature determined the types of materials that began to \nform the early planets.\nInside the frost line, closer to the protostar, metallic and rocky materials condensed \nand solidifi ed into rocky planets. Outside of the frost line, lighter elements and gases \ncondensed, with some solidifying, making the size of these planets larger. The four planets \nthat formed inside of the frost line are referred to as the terrestrial planets. The four \nplanets that formed outside of the frost line are referred to as the Jovian planets.\nRocks and metals condense, \nhydrogen compounds stay \nvaporized. \nHydrogen compounds, \nrocks, and metals \ncondense.\nFrost line\nProtostar\n(Not drawn to scale)\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\n\nP.S./E. Sci.\u2013June \u201925 \n[19] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for white dwarf."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the nuclear process that produces energy when a protostar becomes a star like our Sun.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the passage and diagram below and on your knowledge of \nEarth science. The diagram represents a developing system indicating the frost line around a protostar (early \nstar).\nPlanet Formation and the Frost Line\nOur solar system formed in an immense region of gases with metallic and rocky debris \nknown as a nebula. The frost line marks a temperature boundary between the higher \ntemperature region near the protostar (which later became the Sun) and the lower \ntemperature outer region. Temperature determined the types of materials that began to \nform the early planets.\nInside the frost line, closer to the protostar, metallic and rocky materials condensed \nand solidifi ed into rocky planets. Outside of the frost line, lighter elements and gases \ncondensed, with some solidifying, making the size of these planets larger. The four planets \nthat formed inside of the frost line are referred to as the terrestrial planets. The four \nplanets that formed outside of the frost line are referred to as the Jovian planets.\nRocks and metals condense, \nhydrogen compounds stay \nvaporized. \nHydrogen compounds, \nrocks, and metals \ncondense.\nFrost line\nProtostar\n(Not drawn to scale)\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\n\nP.S./E. Sci.\u2013June \u201925 \n[19] \n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for fusion or nuclear fusion."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify one metamorphic rock that was most likely formed in the zone of contact metamorphism between rock unit 4 and the intrusion.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_55_56.png",
+      "context": "Base your answers to questions 55 and 56 on the geologic cross section below and on your knowledge of \nEarth science. Numbers 1 through 5 represent rock units. Line AB represents a fault. Lines X and Y represent \nunconformities. The rock layers have not been overturned.\n1\nB\nKey\nIgneous rock \nintrusion\nContact\nmetamorphism\nY\nX\nA\n2\n3\n4\n5",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit quartzite or hornfels."
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Describe one piece of evidence shown in the cross section that indicates layer 3 has undergone crustal movement.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_55_56.png",
+      "context": "Base your answers to questions 55 and 56 on the geologic cross section below and on your knowledge of \nEarth science. Numbers 1 through 5 represent rock units. Line AB represents a fault. Lines X and Y represent \nunconformities. The rock layers have not been overturned.\n1\nB\nKey\nIgneous rock \nintrusion\nContact\nmetamorphism\nY\nX\nA\n2\n3\n4\n5",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 layer 3 has been folded \u2014 layer 3 no longer shows original horizontality \u2014 layer 3 has been faulted \u2014 layer 3 is tilted Part B\u20132 Allow a maximum of 15 credits for this part. To ensure the accuracy of overlays, select a printer setting such as full, actual size, or 100% when printing this document. Do not select the fi t to page setting. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify the lettered location on the map, A, B, C, or D, that has the greatest wind speed. Describe one piece of evidence on the map that indicates that this location has the greatest wind speed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the weather map below and on your knowledge of Earth \nscience. The weather map shows a high-pressure system (H) and low-pressure system (L). Two different \nfronts associated with this low-pressure system are indicated. Isobars are in millibars (mb). Points A through D\nrepresent locations on Earth\u2019s surface.\nH\nL\nB\nC\nD\nA\ncP\nmT\n1016\n1012\n1008\n1008\n1012\n1016\n1016\n1012\n1024\n1020\n1016\n1008\n1004\n1000\n996\n992\nN",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both location A and the evidence are correct. Acceptable responses include, but are not limited to: \u2014 Isobars are close/closest together at location A. \u2014 The pressure changes faster over a small distance near A. \u2014 close isolines \u2014 The air pressure gradient is greatest at A."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "In your answer booklet, circle one characteristic in each row that describes the general surface wind circulation pattern associated with the high-pressure system.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the weather map below and on your knowledge of Earth \nscience. The weather map shows a high-pressure system (H) and low-pressure system (L). Two different \nfronts associated with this low-pressure system are indicated. Isobars are in millibars (mb). Points A through D\nrepresent locations on Earth\u2019s surface.\nH\nL\nB\nC\nD\nA\ncP\nmT\n1016\n1012\n1008\n1008\n1012\n1016\n1016\n1012\n1024\n1020\n1016\n1008\n1004\n1000\n996\n992\nN",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for circling \u201caway from the center of the high\u201d for Characteristic 1 and \u201cclockwise\u201dfor Characteristic 2."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Convert the air pressure of the lowest isobar shown on the map from millibars (mb) to inches of mercury (in of Hg).",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_57_59.png",
+      "context": "Base your answers to questions 57 through 59 on the weather map below and on your knowledge of Earth \nscience. The weather map shows a high-pressure system (H) and low-pressure system (L). Two different \nfronts associated with this low-pressure system are indicated. Isobars are in millibars (mb). Points A through D\nrepresent locations on Earth\u2019s surface.\nH\nL\nB\nC\nD\nA\ncP\nmT\n1016\n1012\n1008\n1008\n1012\n1016\n1016\n1012\n1024\n1020\n1016\n1008\n1004\n1000\n996\n992\nN",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 29.29 to 29.295 in of Hg."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Identify the two warm ocean currents that transport water from South America to Australia under normal conditions.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_60_61.png",
+      "context": "Base your answers to questions 60 and 61 on the maps below and on your knowledge of Earth science.\nMap A shows warm and cold areas of the Pacifi c Ocean under normal conditions. Map B shows areas of warmer \nwater under El Ni\u00f1o conditions.\nMap A: Normal Conditions\nPacific Ocean\nEquator\nMap B: El Ni\u00f1o Conditions\nPacific Ocean\nEquator\nWarm water\nCold water\nKey",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for the South Equatorial Current and East Australia Current."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Describe how the relative air temperature and relative amount of precipitation along the west coast of South America are affected by an El Ni\u00f1o event.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_60_61.png",
+      "context": "Base your answers to questions 60 and 61 on the maps below and on your knowledge of Earth science.\nMap A shows warm and cold areas of the Pacifi c Ocean under normal conditions. Map B shows areas of warmer \nwater under El Ni\u00f1o conditions.\nMap A: Normal Conditions\nPacific Ocean\nEquator\nMap B: El Ni\u00f1o Conditions\nPacific Ocean\nEquator\nWarm water\nCold water\nKey",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for both correct responses. Acceptable responses include, but are not limited to: Relative air temperature: \u2014 increases/rises \u2014 gets warmer Relative amount of precipitation: \u2014 increases \u2014 more rainfall"
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify two processes necessary to produce the class of rock represented by letter A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the fl owchart below and on your knowledge of Earth\nscience. The fl ow chart shows a scheme for classifying rocks.  The circled letters A, B, C, and D indicate parts of \nthe chart that have not been completed.\nRocks\nSedimentary\nMetamorphic\nA\nTypes\nTypes\nTypes\nIntrusive\nB\nCrystalline\nBioclastic\nC\nBasalt\nSandstone\nRock \ngypsum\nBituminous \ncoal\nD\nMarble\nExtrusive\nFoliated\nNonfoliated\nExample\nExample\nExample\nExample\nExample\nExample\nClasses\nExample",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for two correct responses. Acceptable responses include, but are not limited to: \u2014 melting \u2014 solidifi cation/crystallization \u2014 cooling"
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "State the type of sedimentary rock represented by letter B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the fl owchart below and on your knowledge of Earth\nscience. The fl ow chart shows a scheme for classifying rocks.  The circled letters A, B, C, and D indicate parts of \nthe chart that have not been completed.\nRocks\nSedimentary\nMetamorphic\nA\nTypes\nTypes\nTypes\nIntrusive\nB\nCrystalline\nBioclastic\nC\nBasalt\nSandstone\nRock \ngypsum\nBituminous \ncoal\nD\nMarble\nExtrusive\nFoliated\nNonfoliated\nExample\nExample\nExample\nExample\nExample\nExample\nClasses\nExample",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 clastic \u2014 fragmental \u2014 inorganic \u2014 land derived P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Compared to the crystal size and cooling rate of the basalt, describe how the crystal size and cooling rate of rock C is different.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the fl owchart below and on your knowledge of Earth\nscience. The fl ow chart shows a scheme for classifying rocks.  The circled letters A, B, C, and D indicate parts of \nthe chart that have not been completed.\nRocks\nSedimentary\nMetamorphic\nA\nTypes\nTypes\nTypes\nIntrusive\nB\nCrystalline\nBioclastic\nC\nBasalt\nSandstone\nRock \ngypsum\nBituminous \ncoal\nD\nMarble\nExtrusive\nFoliated\nNonfoliated\nExample\nExample\nExample\nExample\nExample\nExample\nClasses\nExample",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both responses are correct. Acceptable responses include, but are not limited to: Crystal size of rock C: \u2014 larger \u2014 1 mm or greater Cooling rate of rock C: \u2014 slower \u2014 cooled over a longer period of time"
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Rock D is composed of coarse-grained mineral crystals that are arranged in light- and dark-colored distorted bands. State the name of rock D.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_62_65.png",
+      "context": "Base your answers to questions 62 through 65 on the fl owchart below and on your knowledge of Earth\nscience. The fl ow chart shows a scheme for classifying rocks.  The circled letters A, B, C, and D indicate parts of \nthe chart that have not been completed.\nRocks\nSedimentary\nMetamorphic\nA\nTypes\nTypes\nTypes\nIntrusive\nB\nCrystalline\nBioclastic\nC\nBasalt\nSandstone\nRock \ngypsum\nBituminous \ncoal\nD\nMarble\nExtrusive\nFoliated\nNonfoliated\nExample\nExample\nExample\nExample\nExample\nExample\nClasses\nExample",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for gneiss. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Explain why this crater was most likely caused by an impact event instead of a past volcanic eruption.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the map and passage below and on your knowledge of \nEarth science. The map shows the location of Hiawatha crater and a second newly discovered crater in\nGreenland. These two craters are found under the glacial ice.\nSecond Crater Found in Greenland\nIn 2019, NASA scientists discovered a second crater under Greenland\u2019s ice sheet. \nUsing satellite images of the topography beneath the one-mile thick ice sheet, a visible, \ncircular depression was identifi ed. By studying magnetic and gravitational fi elds, scientists \ndetermined a possible cause. If the crater were formed from a volcano, irregular magnetic \npatterns would be found in the rocks, but none were found. So scientists infer that this \ncrater formed from an impact event. It was determined that the undisturbed ice covering \nthe crater was 79,000 years old, so the impact event must have occurred prior to this time.\nGreenland\nGreenland Map\nClose Up of Craters\nNorth\nAtlantic\nOcean\nBaffin\nBay\nHiawatha crater\nNewly discovered\ncrater\n65\u00b0W\n60\u00b0W\n78\u00b0N\n60\u00b0W\n55\u00b0W",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 There was no irregular magnetic pattern found in the rocks around the crater. \u2014 Volcanic eruptions will leave irregular magnetic patterns in rocks but no irregular pattern was found."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Identify one possible effect on Earth of a major impact event.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the map and passage below and on your knowledge of \nEarth science. The map shows the location of Hiawatha crater and a second newly discovered crater in\nGreenland. These two craters are found under the glacial ice.\nSecond Crater Found in Greenland\nIn 2019, NASA scientists discovered a second crater under Greenland\u2019s ice sheet. \nUsing satellite images of the topography beneath the one-mile thick ice sheet, a visible, \ncircular depression was identifi ed. By studying magnetic and gravitational fi elds, scientists \ndetermined a possible cause. If the crater were formed from a volcano, irregular magnetic \npatterns would be found in the rocks, but none were found. So scientists infer that this \ncrater formed from an impact event. It was determined that the undisturbed ice covering \nthe crater was 79,000 years old, so the impact event must have occurred prior to this time.\nGreenland\nGreenland Map\nClose Up of Craters\nNorth\nAtlantic\nOcean\nBaffin\nBay\nHiawatha crater\nNewly discovered\ncrater\n65\u00b0W\n60\u00b0W\n78\u00b0N\n60\u00b0W\n55\u00b0W",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 global climate change \u2014 major extinction events \u2014 global cooling \u2014 massive earthquakes \u2014 increased volcanic activity"
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Identify one climate factor that most likely contributes to the cold climate of Greenland.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the map and passage below and on your knowledge of \nEarth science. The map shows the location of Hiawatha crater and a second newly discovered crater in\nGreenland. These two craters are found under the glacial ice.\nSecond Crater Found in Greenland\nIn 2019, NASA scientists discovered a second crater under Greenland\u2019s ice sheet. \nUsing satellite images of the topography beneath the one-mile thick ice sheet, a visible, \ncircular depression was identifi ed. By studying magnetic and gravitational fi elds, scientists \ndetermined a possible cause. If the crater were formed from a volcano, irregular magnetic \npatterns would be found in the rocks, but none were found. So scientists infer that this \ncrater formed from an impact event. It was determined that the undisturbed ice covering \nthe crater was 79,000 years old, so the impact event must have occurred prior to this time.\nGreenland\nGreenland Map\nClose Up of Craters\nNorth\nAtlantic\nOcean\nBaffin\nBay\nHiawatha crater\nNewly discovered\ncrater\n65\u00b0W\n60\u00b0W\n78\u00b0N\n60\u00b0W\n55\u00b0W",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 latitude/high latitude/near North Pole location \u2014 surrounded by cold ocean currents \u2014 insolation/low yearly angle of insolation Part C Allow a maximum of 20 credits for this part. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "On the map in your answer booklet, complete the 700-meter and 800-meter contour lines in the western portion of this map. Extend the lines to the edge of the map.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the topographic map in your answer booklet,\nwhich shows elevations in meters, and on your knowledge of Earth science. The 700-meter and 800-meter\ncontour lines in the western portion of this map are incomplete. Line AB is a reference line on the map.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both the 700-meter and 800-meter contour lines are correctly drawn. The 700-meter contour lines must pass through or touch the 700-meter dots, and the 800-meter contour lines must pass through or touch the 800-meter dots. If additional contour lines are drawn, all contour lines must be correct to receive credit. Example of a 1-credit response: Contour interval 100 meters 0 10 20 30 40 50 km Dunn Pond Ebert Creek Dolin Creek N 1000 500 1000 1000 650 700 800 825 850 A B 750 650 500 1500 Grove Creek 625 725 800 700 700 Note: If additional contour lines are drawn, all contour lines must be correct to receive credit. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a topographic profi le along line AB by plotting the elevation of all seven contour lines that cross line AB. Elevations for points A and B have been plotted. Connect all nine plots from A to B.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the topographic map in your answer booklet,\nwhich shows elevations in meters, and on your knowledge of Earth science. The 700-meter and 800-meter\ncontour lines in the western portion of this map are incomplete. Line AB is a reference line on the map.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all seven student plots are located within or touch the rectangles shown below and all nine plots are correctly connected with line that passes within or touches the rectangles from point A to point B. The high point of the line must extend above 1500 m, but below 1600 m. Example of a 1-credit response: Elevation (m) Distance (km) A B 900 1000 1100 1200 1300 1400 1500 1600 Note: Allow credit if the student-drawn line does not pass through the student plots, but is still within or touches the rectangles. It is recommended that an overlay of the same scale as the student answer booklet be used to ensure reliability in rating."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Identify one possible elevation for the surface of Dunn Pond.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the topographic map in your answer booklet,\nwhich shows elevations in meters, and on your knowledge of Earth science. The 700-meter and 800-meter\ncontour lines in the western portion of this map are incomplete. Line AB is a reference line on the map.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value greater than 800 m but less than 900 m."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "On the table in your answer booklet, place an X in one box in each row to indicate whether each creek is fl owing into or out of Dunn Pond.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 72 on the topographic map in your answer booklet,\nwhich shows elevations in meters, and on your knowledge of Earth science. The 700-meter and 800-meter\ncontour lines in the western portion of this map are incomplete. Line AB is a reference line on the map.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if only three X\u2019s are placed in the correct boxes, as shown below. Example of a 1-credit responses: Flows into Dunn Pond Flows out of Dunn Pond Ebert Creek X Dolin Creek X Grove Creek X Note: Allow credit if a symbol other than an X is used. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, place an X on the scale to represent the height in kilometers (km) pyrocumulonimbus clouds can reach. Identify the name of the temperature zone of the atmosphere that corresponds to this height.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_73_76.png",
+      "context": "Base your answers to questions 73 through 76 on the passage and diagram below and on your knowledge of \nEarth science. The diagram represents the formation of a pyrocumulonimbus cloud. Some parts of the diagram \nare labeled.\nPyrocumulonimbus Clouds\nNormally, cool air keeps smoke from rising high in the atmosphere. However, very \nintense fi res can create giant storm clouds, called pyrocumulonimbus clouds, that can \nreach heights up to 23 kilometers. Smoke and soot (black carbon particles) can remain at \nthese heights for months and sometimes damage the ozone layer. \nForest fire\nPyrocumulonimbus Cloud Formation\nM\no\ni\ns\nt \na\nir\n \np\nul\nle\nd \nin",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for both the center of an X within or touching the sides of the rectangular box shown in the diagram below, and stratosphere for the temperature zone of the atmosphere. Example of a 1-credit responses: Altitude 160 100 km mi 40 25 80 50 120 75 Sea Level 0 0 Temperature zone of the atmosphere: ___Stratosphere__________________________ Note: Allow credit if a symbol other than an X is used. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "A damaged ozone layer can have harmful effects on organisms on Earth. Explain how the ozone layer reduces these harmful effects.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_73_76.png",
+      "context": "Base your answers to questions 73 through 76 on the passage and diagram below and on your knowledge of \nEarth science. The diagram represents the formation of a pyrocumulonimbus cloud. Some parts of the diagram \nare labeled.\nPyrocumulonimbus Clouds\nNormally, cool air keeps smoke from rising high in the atmosphere. However, very \nintense fi res can create giant storm clouds, called pyrocumulonimbus clouds, that can \nreach heights up to 23 kilometers. Smoke and soot (black carbon particles) can remain at \nthese heights for months and sometimes damage the ozone layer. \nForest fire\nPyrocumulonimbus Cloud Formation\nM\no\ni\ns\nt \na\nir\n \np\nul\nle\nd \nin",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The ozone layer absorbs harmful incoming radiation. \u2014 The ozone layer reduces the amount of harmful short wave radiation that can reach Earth\u2019s surface. \u2014 Ozone layer blocks ultraviolet radiation from the Sun from reaching Earth\u2019s surface."
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Explain how an increase in smoke and soot in the atmosphere normally decreases temperatures on Earth\u2019s surface.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_73_76.png",
+      "context": "Base your answers to questions 73 through 76 on the passage and diagram below and on your knowledge of \nEarth science. The diagram represents the formation of a pyrocumulonimbus cloud. Some parts of the diagram \nare labeled.\nPyrocumulonimbus Clouds\nNormally, cool air keeps smoke from rising high in the atmosphere. However, very \nintense fi res can create giant storm clouds, called pyrocumulonimbus clouds, that can \nreach heights up to 23 kilometers. Smoke and soot (black carbon particles) can remain at \nthese heights for months and sometimes damage the ozone layer. \nForest fire\nPyrocumulonimbus Cloud Formation\nM\no\ni\ns\nt \na\nir\n \np\nul\nle\nd \nin",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Smoke/soot will block sunlight from reaching Earth\u2019s surface, causing a drop in temperatures. \u2014 Smoke/soot will refl ect insolation back into space, causing a drop in surface temperatures. \u2014 Smoke/soot refl ects sunlight back into space. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "As the wildfi res burn, large amounts of carbon dioxide are released into the atmosphere. Explain why scientists are concerned with the release of carbon dioxide into Earth\u2019s atmosphere.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_73_76.png",
+      "context": "Base your answers to questions 73 through 76 on the passage and diagram below and on your knowledge of \nEarth science. The diagram represents the formation of a pyrocumulonimbus cloud. Some parts of the diagram \nare labeled.\nPyrocumulonimbus Clouds\nNormally, cool air keeps smoke from rising high in the atmosphere. However, very \nintense fi res can create giant storm clouds, called pyrocumulonimbus clouds, that can \nreach heights up to 23 kilometers. Smoke and soot (black carbon particles) can remain at \nthese heights for months and sometimes damage the ozone layer. \nForest fire\nPyrocumulonimbus Cloud Formation\nM\no\ni\ns\nt \na\nir\n \np\nul\nle\nd \nin",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Carbon dioxide is a greenhouse gas and leads to global climate change. \u2014 Carbon dioxide causes global warming. \u2014 An increase in carbon dioxide will cause global temperatures to increase. \u2014 Carbon dioxide absorbs terrestrial radiation, which increases global temperature."
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "State the color of the star Trappist-1.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the passage and diagram below and on your knowledge of \nEarth science. The diagram compares the sizes of seven exoplanets located outside of our solar system in the \nTrappist-1 system to the sizes of the fi rst four planets in our solar system. Line XY is drawn to indicate the size of \nthe Trappist-1 system if it were located within our own solar system and centered around our Sun.\nTrappist-1 Exoplanets\nNASA\u2019s Spitzer Space Telescope has revealed seven Earth-sized exoplanets (identifi ed \nby letters b through h) revolving around a star named Trappist-1. Located about 235 \ntrillion miles from Earth, this system of exoplanets is within our galaxy and can be \nobserved in the constellation Aquarius. Trappist-1 is classifi ed as a dwarf star, with a size \nthat is approximately one-tenth the size of the Sun, and with a surface temperature of \napproximately 2500 K. All seven of the Trappist-1 planetary orbits are much closer to their \nhost star than Mercury is to our Sun.\nEarth\nTRAPPIST - 1 System\nInner Solar System\nX\nY\nMercury\nVenus\nMars\nStar\nSun\n(Size of Sun and star not drawn to scale) \nb\nc\nd\ne\nf\ng\nh\nwww.spitzer.caltech.edu",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for red."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Identify the planet in our solar system that has a diameter closest to the estimated diameter of the star Trappist-1.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the passage and diagram below and on your knowledge of \nEarth science. The diagram compares the sizes of seven exoplanets located outside of our solar system in the \nTrappist-1 system to the sizes of the fi rst four planets in our solar system. Line XY is drawn to indicate the size of \nthe Trappist-1 system if it were located within our own solar system and centered around our Sun.\nTrappist-1 Exoplanets\nNASA\u2019s Spitzer Space Telescope has revealed seven Earth-sized exoplanets (identifi ed \nby letters b through h) revolving around a star named Trappist-1. Located about 235 \ntrillion miles from Earth, this system of exoplanets is within our galaxy and can be \nobserved in the constellation Aquarius. Trappist-1 is classifi ed as a dwarf star, with a size \nthat is approximately one-tenth the size of the Sun, and with a surface temperature of \napproximately 2500 K. All seven of the Trappist-1 planetary orbits are much closer to their \nhost star than Mercury is to our Sun.\nEarth\nTRAPPIST - 1 System\nInner Solar System\nX\nY\nMercury\nVenus\nMars\nStar\nSun\n(Size of Sun and star not drawn to scale) \nb\nc\nd\ne\nf\ng\nh\nwww.spitzer.caltech.edu",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Jupiter."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Exoplanet Trappist-1g orbits its star in 12.35 days. Explain why this exoplanet orbits its star in less time than it takes Mercury to orbit our Sun.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the passage and diagram below and on your knowledge of \nEarth science. The diagram compares the sizes of seven exoplanets located outside of our solar system in the \nTrappist-1 system to the sizes of the fi rst four planets in our solar system. Line XY is drawn to indicate the size of \nthe Trappist-1 system if it were located within our own solar system and centered around our Sun.\nTrappist-1 Exoplanets\nNASA\u2019s Spitzer Space Telescope has revealed seven Earth-sized exoplanets (identifi ed \nby letters b through h) revolving around a star named Trappist-1. Located about 235 \ntrillion miles from Earth, this system of exoplanets is within our galaxy and can be \nobserved in the constellation Aquarius. Trappist-1 is classifi ed as a dwarf star, with a size \nthat is approximately one-tenth the size of the Sun, and with a surface temperature of \napproximately 2500 K. All seven of the Trappist-1 planetary orbits are much closer to their \nhost star than Mercury is to our Sun.\nEarth\nTRAPPIST - 1 System\nInner Solar System\nX\nY\nMercury\nVenus\nMars\nStar\nSun\n(Size of Sun and star not drawn to scale) \nb\nc\nd\ne\nf\ng\nh\nwww.spitzer.caltech.edu",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Trappist-lg is closer to its host star than Mercury is to the Sun. \u2014 The closer a planet is to the star, the shorter its period of revolution. \u2014 The orbit of Trappist-1g is very close to Trappist-1. \u2014 One revolution is a relatively short distance for Trappist-1g to orbit its star. \u2014 Mercury\u2019s period of revolution is much longer because the length of Mercury\u2019s orbit is a much greater distance."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "These exoplanets were discovered because the light from Trappist-1 was observed to dim slightly every time an orbiting planet transited (passed in front of) the star. Identify one natural celestial object in our solar system that transits our Sun and temporarily reduces the light that reaches Earth.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the passage and diagram below and on your knowledge of \nEarth science. The diagram compares the sizes of seven exoplanets located outside of our solar system in the \nTrappist-1 system to the sizes of the fi rst four planets in our solar system. Line XY is drawn to indicate the size of \nthe Trappist-1 system if it were located within our own solar system and centered around our Sun.\nTrappist-1 Exoplanets\nNASA\u2019s Spitzer Space Telescope has revealed seven Earth-sized exoplanets (identifi ed \nby letters b through h) revolving around a star named Trappist-1. Located about 235 \ntrillion miles from Earth, this system of exoplanets is within our galaxy and can be \nobserved in the constellation Aquarius. Trappist-1 is classifi ed as a dwarf star, with a size \nthat is approximately one-tenth the size of the Sun, and with a surface temperature of \napproximately 2500 K. All seven of the Trappist-1 planetary orbits are much closer to their \nhost star than Mercury is to our Sun.\nEarth\nTRAPPIST - 1 System\nInner Solar System\nX\nY\nMercury\nVenus\nMars\nStar\nSun\n(Size of Sun and star not drawn to scale) \nb\nc\nd\ne\nf\ng\nh\nwww.spitzer.caltech.edu",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 the Moon \u2014 Mercury \u2014 Venus \u2014 an asteroid or a comet"
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Identify the letter of the sandstone sample that most likely underwent the greatest amount of erosion by a stream and identify evidence shown in the photographs that supports this choice.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the photographs below and on your knowledge of Earth \nscience. The photographs show samples of sandstone, labeled A through D.\n(A)\n(B)\n(C)\n(D)\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for letter D and a correct explanation. Acceptable responses include, but are not limited to: \u2014 the shape of the sample is rounded \u2014 It is the least angular rock sample."
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Sandstone sample C is 2.0 centimeters in diameter. Determine the minimum stream velocity needed to transport this rock sample.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the photographs below and on your knowledge of Earth \nscience. The photographs show samples of sandstone, labeled A through D.\n(A)\n(B)\n(C)\n(D)\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 70 to 100 cm/sec."
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Identify the complete range of grain sizes that could be found in each of these rock samples.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_81_83.png",
+      "context": "Base your answers to questions 81 through 83 on the photographs below and on your knowledge of Earth \nscience. The photographs show samples of sandstone, labeled A through D.\n(A)\n(B)\n(C)\n(D)\n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.006 to 0.2 cm or .2 to .006 cm. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "On the map in your answer booklet, complete the path of Hurricane Dorian by plotting the location of the storm center for September 1 through September 7. Draw a line to connect all seven of these plots to the August 31 plot to complete the path.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the data table and Saffi r-Simpson Hurricane Scale below, on \nthe map in your answer booklet, and on your knowledge of Earth science. The data table shows latitude and \nlongitude locations of the center of Hurricane Dorian, and the maximum sustained wind speed in miles per hour \n(mph), each day from August 24 to September 7, 2019. The Saffi r-Simpson Hurricane Scale shows the wind \nspeeds associated with each storm category. The map in your answer booklet shows the location of the hurricane \nfrom August 24, 2019 through August 31, 2019.\nDate\nLocation\nLatitude\nLongitude\nMaximum\nsustained wind\nspeed (mph)\n40\n49.1\u00b0W\n54.2\u00b0W\n58.8\u00b0W\n62.5\u00b0W\n65.5\u00b0W\n67.7\u00b0W\n70.7\u00b0W\n74.4\u00b0W\n77.3\u00b0W\n78.4\u00b0W\n78.7\u00b0W\n79.8\u00b0W\n78.5\u00b0W\n72.7\u00b0W\n63.9\u00b0W\n10.7\u00b0N\n11.5\u00b0N\n12.7\u00b0N\n15.3\u00b0N\n18.8\u00b0N\n22.5\u00b0N\n25.0\u00b0N\n26.2\u00b0N\n26.6\u00b0N\n26.8\u00b0N\n27.7\u00b0N\n30.6\u00b0N\n33.1\u00b0N\n36.9\u00b0N\n43.9\u00b0N\nAug. 24, 2019\nAug. 25, 2019\nAug. 26, 2019\nAug. 27, 2019\nAug. 28, 2019\nAug. 29, 2019\nAug. 30, 2019\nAug. 31, 2019\nSept. 1, 2019\nSept. 2, 2019\nSept. 3, 2019\nSept. 4, 2019\nSept. 5, 2019\nSept. 6, 2019\nSept. 7, 2019\n50\n50\n80\n85\n115\n150\n185\n145\n110\n110\n105\n90\n100\n60\nSaffir\u2013Simpson Hurricane Scale\nClassification\nWind Speed (mph)\n0-38\n39-73\n74-95\n96-110\n111-130\n131-155\n>156\nTropical Depression\nTropical Storm\nCategory 1\nCategory 2\nCategory 3\nCategory 4\nCategory 5\nHurricane\n\nP.S./E. Sci.\u2013June \u201925 \n[29]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all seven plots are within or touch the circles shown and are correctly connected with a line (beginning at the August 31 plot) that passes within or touches each circle. Example of a 1-credit responses: 50qN 45qN 40qN 35qN 30qN 25qN 20qN 15qN 10qN 50qN 45qN 40qN 35qN 30qN 25qN 20qN 15qN 10qN 85qW 80qW 75qW 70qW 65qW 60qW 55qW 50qW 45qW Scale 0 500 kilometers August 31 August 24 Note: Allow credit if the line does not pass through the student\u2019s plots, but is still within or touches the circles. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Use the Saffi r-Simpson scale to identify the two dates when Hurricane Dorian changed from a category 4 hurricane to a category 5 hurricane. P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2025/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the data table and Saffi r-Simpson Hurricane Scale below, on \nthe map in your answer booklet, and on your knowledge of Earth science. The data table shows latitude and \nlongitude locations of the center of Hurricane Dorian, and the maximum sustained wind speed in miles per hour \n(mph), each day from August 24 to September 7, 2019. The Saffi r-Simpson Hurricane Scale shows the wind \nspeeds associated with each storm category. The map in your answer booklet shows the location of the hurricane \nfrom August 24, 2019 through August 31, 2019.\nDate\nLocation\nLatitude\nLongitude\nMaximum\nsustained wind\nspeed (mph)\n40\n49.1\u00b0W\n54.2\u00b0W\n58.8\u00b0W\n62.5\u00b0W\n65.5\u00b0W\n67.7\u00b0W\n70.7\u00b0W\n74.4\u00b0W\n77.3\u00b0W\n78.4\u00b0W\n78.7\u00b0W\n79.8\u00b0W\n78.5\u00b0W\n72.7\u00b0W\n63.9\u00b0W\n10.7\u00b0N\n11.5\u00b0N\n12.7\u00b0N\n15.3\u00b0N\n18.8\u00b0N\n22.5\u00b0N\n25.0\u00b0N\n26.2\u00b0N\n26.6\u00b0N\n26.8\u00b0N\n27.7\u00b0N\n30.6\u00b0N\n33.1\u00b0N\n36.9\u00b0N\n43.9\u00b0N\nAug. 24, 2019\nAug. 25, 2019\nAug. 26, 2019\nAug. 27, 2019\nAug. 28, 2019\nAug. 29, 2019\nAug. 30, 2019\nAug. 31, 2019\nSept. 1, 2019\nSept. 2, 2019\nSept. 3, 2019\nSept. 4, 2019\nSept. 5, 2019\nSept. 6, 2019\nSept. 7, 2019\n50\n50\n80\n85\n115\n150\n185\n145\n110\n110\n105\n90\n100\n60\nSaffir\u2013Simpson Hurricane Scale\nClassification\nWind Speed (mph)\n0-38\n39-73\n74-95\n96-110\n111-130\n131-155\n>156\nTropical Depression\nTropical Storm\nCategory 1\nCategory 2\nCategory 3\nCategory 4\nCategory 5\nHurricane\n\nP.S./E. Sci.\u2013June \u201925 \n[29]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for August 31 to September 1 or 8/31 to 9/1. Note: Do not allow credit for September 1 to August 31 because the question asks when the hurricane went from a category 4 to a category 5, not a category 5 to a category 4. P.S./E. Sci. Rating Guide\u2013June \u2019"
+    }
+  ]
+}

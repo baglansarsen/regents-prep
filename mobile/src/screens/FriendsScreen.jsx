@@ -12,7 +12,11 @@ import { useFriendsLeaderboard } from '../hooks/useFriendsLeaderboard'
 import { T, cardShadow } from '../styles/duo'
 import { useLeague, TIER_META, msUntilReset, formatCountdown } from '../hooks/useLeague'
 
-const TABS = ['Leaderboard', 'Friends', 'Activity']
+const TABS = [
+  { key: 'Leaderboard', icon: '🏆' },
+  { key: 'Friends',     icon: '👥' },
+  { key: 'Activity',    icon: '📡' },
+]
 
 // Medal config — index 0 = 1st, 1 = 2nd, 2 = 3rd
 const MEDALS = [
@@ -48,7 +52,7 @@ function Podium({ top3, uid, C, s, onPressEntry }) {
   const avatarY     = useRef([0, 1, 2].map(() => new Animated.Value(-60))).current
   const avatarOp    = useRef([0, 1, 2].map(() => new Animated.Value(0))).current
   const medalScale  = useRef([0, 1, 2].map(() => new Animated.Value(0))).current
-  const xpOp        = useRef([0, 1, 2].map(() => new Animated.Value(0))).current
+  const rpOp        = useRef([0, 1, 2].map(() => new Animated.Value(0))).current
 
   useEffect(() => {
     if (top3.length === 0) return
@@ -94,11 +98,11 @@ function Podium({ top3, uid, C, s, onPressEntry }) {
       ).start()
     }, 480)
 
-    // ── Phase 4: XP numbers fade in (after medals pop) ──────────────────
-    const xpTimer = setTimeout(() => {
+    // ── Phase 4: RP numbers fade in (after medals pop) ──────────────────
+    const rpTimer = setTimeout(() => {
       Animated.stagger(110,
         REVEAL_ORDER.map((col) =>
-          Animated.timing(xpOp[col], {
+          Animated.timing(rpOp[col], {
             toValue: 1, duration: 280, useNativeDriver: true,
           })
         )
@@ -108,7 +112,7 @@ function Podium({ top3, uid, C, s, onPressEntry }) {
     return () => {
       clearTimeout(avatarTimer)
       clearTimeout(medalTimer)
-      clearTimeout(xpTimer)
+      clearTimeout(rpTimer)
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
@@ -116,7 +120,7 @@ function Podium({ top3, uid, C, s, onPressEntry }) {
   if (top3.length === 0) {
     return (
       <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginVertical: 24 }]}>
-        No XP earned this week yet — go study! 📚
+        No RP earned this week yet — go study! 📚
       </Text>
     )
   }
@@ -171,8 +175,8 @@ function Podium({ top3, uid, C, s, onPressEntry }) {
               {isSelf ? 'You' : entry.displayName}
             </Animated.Text>
 
-            {/* XP — fades in last */}
-            <Animated.Text style={[s.podiumXP, { color: medal.text, opacity: xpOp[col] }]}>
+            {/* RP — fades in last */}
+            <Animated.Text style={[s.podiumRP, { color: medal.text, opacity: rpOp[col] }]}>
               ⭐ {entry.weeklyXP}
             </Animated.Text>
 
@@ -231,7 +235,7 @@ function RankRow({ entry, rank, uid, C, s, index = 0, onPress }) {
             {isSelf ? 'You' : entry.displayName}
           </Text>
         </View>
-        <Text style={s.lbXP}>⭐ {entry.weeklyXP}</Text>
+        <Text style={s.lbRP}>⭐ {entry.weeklyXP}</Text>
         <Text style={[s.lbChevron, { color: C.textDim }]}>›</Text>
       </TouchableOpacity>
     </Animated.View>
@@ -265,19 +269,19 @@ function LeagueBanner({ tier, C, s, onPress }) {
 }
 
 // ── Main screen ───────────────────────────────────────────────────────────────
-export default function FriendsScreen({ navigation }) {
+export default function FriendsScreen({ navigation, route }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
   const uid = user?.uid
   const s = makeStyles(C)
 
-  const [tab,        setTab]        = useState('Leaderboard')
+  const [tab,        setTab]        = useState(route?.params?.initialTab ?? 'Leaderboard')
   const [lbMode,     setLbMode]     = useState('week')   // 'week' | 'school'
   const [refreshing, setRefreshing] = useState(false)
   // key increments on refresh so Podium unmounts/remounts → animation replays
   const [podiumKey, setPodiumKey]   = useState(0)
 
-  const { friends, incomingRequests, friendCode, feed, acceptRequest, declineRequest } = useFriends(uid, user)
+  const { friends, incomingRequests, friendCode, feed, acceptRequest, declineRequest, refreshFeed } = useFriends(uid, user)
   const { leaderboard, school, loading: schoolLoading, refresh: refreshSchool } = useLeaderboard(uid)
   const { weeklyRanking, loading: weekLoading, refresh: refreshWeekly } = useFriendsLeaderboard(uid, user)
   const { tier } = useLeague(uid)
@@ -294,39 +298,23 @@ export default function FriendsScreen({ navigation }) {
 
   async function handleRefresh() {
     setRefreshing(true)
-    await Promise.all([refreshWeekly(), refreshSchool()])
+    await Promise.all([refreshWeekly(), refreshSchool(), refreshFeed()])
     setPodiumKey((k) => k + 1)   // remount Podium → replay animation
     setRefreshing(false)
   }
 
   return (
     <SafeAreaView style={s.safe} edges={['bottom']}>
-      <Text style={[T.h1, s.pageTitle]}>Social</Text>
+      <View style={s.modalHeader}>
+        <Text style={[T.h1, { color: C.text }]}>Social</Text>
+      </View>
 
-      {/* Friend code banner */}
-      {friendCode && (
-        <View style={[s.codeBanner, cardShadow(C.shadow)]}>
-          <View>
-            <Text style={[T.label, { color: C.textMuted }]}>Your Friend Code</Text>
-            <Text style={s.codeValue}>{friendCode}</Text>
-          </View>
-          <Text style={{ fontSize: 28 }}>🤝</Text>
-        </View>
-      )}
-
-      {/* Add friend button */}
-      <TouchableOpacity style={s.addFriendBtn} onPress={() => navigation.navigate('AddFriend')}>
-        <Text style={[T.btn, { color: '#fff' }]}>+ Add Friend by Code</Text>
-      </TouchableOpacity>
-
-      {/* League entry banner */}
-      <LeagueBanner tier={tier} C={C} s={s} onPress={() => navigation.navigate('League')} />
-
-      {/* Pending requests */}
+      {/* Pending requests — always visible (notification-level priority) */}
       {incomingRequests.length > 0 && (
         <View style={s.requests}>
           {incomingRequests.map((req) => (
             <View key={req.id} style={[s.requestRow, cardShadow(C.shadow)]}>
+              <Text style={{ fontSize: 20 }}>🤝</Text>
               <Text style={[T.small, { color: C.text, flex: 1 }]}>{req.fromName} wants to be friends</Text>
               <View style={s.requestBtns}>
                 <TouchableOpacity style={[s.requestBtn, { backgroundColor: C.brand }]} onPress={() => acceptRequest(req)}>
@@ -343,9 +331,10 @@ export default function FriendsScreen({ navigation }) {
 
       {/* Tabs */}
       <View style={s.tabRow}>
-        {TABS.map((t) => (
-          <TouchableOpacity key={t} style={[s.tabBtn, tab === t && s.tabActive]} onPress={() => setTab(t)}>
-            <Text style={[s.tabText, tab === t && s.tabTextActive]}>{t}</Text>
+        {TABS.map(({ key, icon }) => (
+          <TouchableOpacity key={key} style={[s.tabBtn, tab === key && s.tabActive]} onPress={() => setTab(key)}>
+            <Text style={[s.tabIcon, tab === key && s.tabIconActive]}>{icon}</Text>
+            <Text style={[s.tabText, tab === key && s.tabTextActive]}>{key}</Text>
           </TouchableOpacity>
         ))}
       </View>
@@ -359,6 +348,9 @@ export default function FriendsScreen({ navigation }) {
         {/* ── LEADERBOARD TAB ── */}
         {tab === 'Leaderboard' && (
           <View style={s.list}>
+
+            {/* League banner lives here — relevant to leaderboard */}
+            <LeagueBanner tier={tier} C={C} s={s} onPress={() => navigation.navigate('League')} />
 
             {/* This Week / All Time toggle */}
             <View style={s.modeToggle}>
@@ -455,7 +447,7 @@ export default function FriendsScreen({ navigation }) {
                           {entry.displayName ?? 'Student'}
                         </Text>
                       </View>
-                      <Text style={s.lbXP}>⭐ {entry.xp ?? 0}</Text>
+                      <Text style={s.lbRP}>⭐ {entry.xp ?? 0}</Text>
                       <Text style={[s.lbChevron, { color: C.textDim }]}>›</Text>
                     </TouchableOpacity>
                   )
@@ -473,32 +465,85 @@ export default function FriendsScreen({ navigation }) {
         {/* ── FRIENDS TAB ── */}
         {tab === 'Friends' && (
           <View style={s.list}>
-            {friends.length === 0 && (
-              <Text style={[T.body, { color: C.textMuted, textAlign: 'center', padding: 20 }]}>
-                No friends yet. Add a friend by their code!
-              </Text>
-            )}
-            {friends.map((f) => (
-              <TouchableOpacity
-                key={f.id}
-                style={[s.friendRow, cardShadow(C.shadow)]}
-                onPress={() => navigateToProfile({ uid: f.id ?? f.uid, displayName: f.displayName })}
-                activeOpacity={0.75}
-              >
-                <Avatar name={f.displayName} size={42} C={C} />
+
+            {/* Friend code + add friend — only relevant here */}
+            {friendCode && (
+              <View style={[s.codeBanner, cardShadow(C.shadow)]}>
                 <View style={{ flex: 1 }}>
-                  <Text style={[s.friendName, { color: C.text }]}>{f.displayName}</Text>
+                  <Text style={[T.label, { color: C.textMuted, marginBottom: 6 }]}>Your Friend Code</Text>
+                  <View style={[s.codeBox, { backgroundColor: C.surface2, borderColor: C.brand + '60' }]}>
+                    <Text style={s.codeValue}>{friendCode}</Text>
+                    <TouchableOpacity
+                      style={s.codeCopyBtn}
+                      onPress={() => { try { require('react-native').Clipboard.setString(friendCode) } catch {} }}
+                      hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+                    >
+                      <Text style={{ fontSize: 18 }}>📋</Text>
+                    </TouchableOpacity>
+                  </View>
                 </View>
                 <TouchableOpacity
-                  style={[s.challengeBtn, { backgroundColor: C.brand }]}
-                  onPress={(e) => {
-                    e.stopPropagation?.()
-                    navigation.navigate('Challenge', { friendUid: f.id, friendName: f.displayName })
-                  }}
+                  style={[s.addCodeBtn, { backgroundColor: C.brand }]}
+                  onPress={() => navigation.navigate('AddFriend')}
                 >
-                  <Text style={[T.label, { color: '#fff', textTransform: 'none', letterSpacing: 0 }]}>⚔️</Text>
+                  <Text style={{ fontSize: 18 }}>➕</Text>
+                  <Text style={[T.label, { color: '#fff', textTransform: 'none', fontSize: 11 }]}>Add</Text>
                 </TouchableOpacity>
-              </TouchableOpacity>
+              </View>
+            )}
+
+            {friends.length === 0 && (
+              <View style={{ paddingVertical: 40, alignItems: 'center' }}>
+                <Text style={{ fontSize: 48, marginBottom: 12 }}>🤝</Text>
+                <Text style={[T.h3, { color: C.text, textAlign: 'center', marginBottom: 4 }]}>No Friends Yet</Text>
+                <Text style={[T.small, { color: C.textMuted, textAlign: 'center' }]}>
+                  Add friends by their code to compete and see their progress
+                </Text>
+              </View>
+            )}
+            {friends.map((f) => (
+              <View key={f.id} style={[s.friendCard, cardShadow(C.shadow)]}>
+                <TouchableOpacity
+                  style={s.friendCardMain}
+                  onPress={() => navigateToProfile({ uid: f.id ?? f.uid, displayName: f.displayName })}
+                  activeOpacity={0.8}
+                >
+                  <View style={s.friendLeft}>
+                    <Text style={s.petEmoji}>{f.petEmoji ?? '🐾'}</Text>
+                  </View>
+                  <View style={s.friendInfo}>
+                    <Text style={[s.friendName, { color: C.text }]}>{f.displayName}</Text>
+                    <View style={s.friendStats}>
+                      <Text style={[T.small, { color: C.textMuted }]}>Level {f.level ?? 1}</Text>
+                      <Text style={[T.small, { color: C.textMuted }]}>•</Text>
+                      <Text style={[T.small, { color: C.textMuted }]}>{f.weeklyRP ?? 0} ⭐ this week</Text>
+                    </View>
+                    {f.streak > 0 && (
+                      <View style={[s.streakBadge, { backgroundColor: C.warn + '20', borderColor: C.warn }]}>
+                        <Text style={[T.label, { color: C.warn, fontSize: 11, textTransform: 'none' }]}>🔥 {f.streak} day streak</Text>
+                      </View>
+                    )}
+                  </View>
+                </TouchableOpacity>
+                <View style={s.friendActions}>
+                  <TouchableOpacity
+                    style={[s.friendActionBtn, { backgroundColor: C.brand }]}
+                    onPress={() => navigation.navigate('Challenge', { friendUid: f.id, friendName: f.displayName })}
+                    activeOpacity={0.8}
+                  >
+                    <Text style={{ fontSize: 16 }}>⚔️</Text>
+                    <Text style={[T.label, { color: '#fff', fontSize: 10, textTransform: 'none' }]}>Battle</Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity
+                    style={[s.friendActionBtn, { backgroundColor: C.surface2, borderWidth: 1, borderColor: C.border }]}
+                    onPress={() => navigateToProfile({ uid: f.id ?? f.uid, displayName: f.displayName })}
+                    activeOpacity={0.8}
+                  >
+                    <Text style={{ fontSize: 16 }}>👤</Text>
+                    <Text style={[T.label, { color: C.text, fontSize: 10, textTransform: 'none' }]}>Profile</Text>
+                  </TouchableOpacity>
+                </View>
+              </View>
             ))}
           </View>
         )}
@@ -507,18 +552,58 @@ export default function FriendsScreen({ navigation }) {
         {tab === 'Activity' && (
           <View style={s.list}>
             {feed.length === 0 && (
-              <Text style={[T.body, { color: C.textMuted, textAlign: 'center', padding: 20 }]}>
-                No recent activity.
-              </Text>
-            )}
-            {feed.map((item) => (
-              <View key={item.id} style={[s.feedRow, cardShadow(C.shadow)]}>
-                <Text style={[T.body, { color: C.text }]}>{item.text ?? 'Activity'}</Text>
-                <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>
-                  {item.timestamp ? timeAgo(item.timestamp.toMillis?.() ?? 0) : ''}
+              <View style={{ paddingVertical: 40, alignItems: 'center' }}>
+                <Text style={{ fontSize: 48, marginBottom: 12 }}>📜</Text>
+                <Text style={[T.h3, { color: C.text, textAlign: 'center', marginBottom: 4 }]}>No Activity Yet</Text>
+                <Text style={[T.small, { color: C.textMuted, textAlign: 'center' }]}>
+                  Complete quizzes, exams, or streaks to see activity here
                 </Text>
               </View>
-            ))}
+            )}
+            {feed.map((item) => {
+              const activityType = item.type ?? 'general'
+              const activityConfig = {
+                rp_earned:              { icon: '⭐', color: '#F59E0B' },
+                level_up:               { icon: '🏆', color: '#8B5CF6' },
+                quiz_complete:          { icon: '📚', color: '#3B82F6' },
+                exam_complete:          { icon: '📝', color: '#06B6D4' },
+                speedround_complete:    { icon: '⚡', color: '#F97316' },
+                streak_extended:        { icon: '🔥', color: '#EF4444' },
+                streak_milestone:       { icon: '🔥', color: '#EF4444' },
+                focus_session_complete: { icon: '🎯', color: '#10B981' },
+              }
+              const { icon, color } = activityConfig[activityType] ?? { icon: '📌', color: C.textMuted }
+
+              // Attribution: "You" vs friend display name
+              const isSelf = item.fromUid === uid
+              const friend = friends.find((f) => f.uid === item.fromUid || f.id === item.fromUid)
+              const actor = isSelf ? 'You' : (friend?.displayName ?? 'A friend')
+
+              let timestamp = 'just now'
+              if (item.timestamp) {
+                let ms = 0
+                if (typeof item.timestamp.toMillis === 'function') {
+                  ms = item.timestamp.toMillis()
+                } else if (typeof item.timestamp === 'number') {
+                  ms = item.timestamp
+                }
+                if (ms > 0) timestamp = timeAgo(ms)
+              }
+              return (
+                <View key={item.id} style={[s.feedRow, cardShadow(C.shadow)]}>
+                  <View style={[s.feedIconWrap, { backgroundColor: color + '20', borderColor: color + '40' }]}>
+                    <Text style={{ fontSize: 18 }}>{icon}</Text>
+                  </View>
+                  <View style={{ flex: 1 }}>
+                    <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: 2 }}>
+                      <Text style={[s.feedActor, { color: isSelf ? C.brand : C.text }]}>{actor}</Text>
+                      <Text style={[T.label, { color: C.textDim, textTransform: 'none', letterSpacing: 0, fontSize: 11 }]}>{timestamp}</Text>
+                    </View>
+                    <Text style={[T.small, { color: C.textMuted, lineHeight: 18 }]}>{item.text ?? 'Activity'}</Text>
+                  </View>
+                </View>
+              )
+            })}
           </View>
         )}
 
@@ -531,12 +616,45 @@ export default function FriendsScreen({ navigation }) {
 function makeStyles(C) {
   return StyleSheet.create({
     safe:          { flex: 1, backgroundColor: C.bg },
-    pageTitle:     { color: C.text, paddingHorizontal: 20, paddingTop: 8, paddingBottom: 12 },
+    modalHeader:   { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 20, paddingTop: 8, paddingBottom: 12 },
+    closeBtn:      { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
 
-    codeBanner:    { marginHorizontal: 16, marginBottom: 10, backgroundColor: C.surface, borderRadius: 14, padding: 14, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderWidth: 1, borderColor: C.border },
-    codeValue:     { fontSize: 22, fontFamily: 'Nunito_900Black', color: C.brand, letterSpacing: 3, marginTop: 2 },
-
-    addFriendBtn:  { marginHorizontal: 16, marginBottom: 12, backgroundColor: C.brand, borderRadius: 14, paddingVertical: 13, alignItems: 'center' },
+    codeBanner: {
+      backgroundColor: C.surface,
+      borderRadius: 16,
+      padding: 14,
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 12,
+      borderWidth: 1,
+      borderColor: C.border,
+    },
+    codeBox: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      borderRadius: 10,
+      borderWidth: 1.5,
+      paddingHorizontal: 12,
+      paddingVertical: 10,
+      gap: 8,
+    },
+    codeValue: {
+      fontSize: 20,
+      fontFamily: 'Nunito_900Black',
+      color: C.brand,
+      letterSpacing: 3,
+      flex: 1,
+    },
+    codeCopyBtn: {
+      padding: 6,
+    },
+    addCodeBtn: {
+      borderRadius: 12,
+      paddingVertical: 10,
+      paddingHorizontal: 12,
+      alignItems: 'center',
+      gap: 2,
+    },
     leagueBanner:  { marginHorizontal: 16, marginBottom: 12, borderRadius: 14, paddingVertical: 12, paddingHorizontal: 14, borderWidth: 1.5, flexDirection: 'row', alignItems: 'center', gap: 10 },
 
     requests:      { marginHorizontal: 16, marginBottom: 8, gap: 8 },
@@ -546,9 +664,11 @@ function makeStyles(C) {
     requestBtnText:{ fontFamily: 'Nunito_800ExtraBold', fontSize: 16 },
 
     tabRow:        { flexDirection: 'row', marginHorizontal: 16, marginBottom: 10, backgroundColor: C.surface2, borderRadius: 14, padding: 4, gap: 2 },
-    tabBtn:        { flex: 1, paddingVertical: 9, borderRadius: 11, alignItems: 'center' },
+    tabBtn:        { flex: 1, paddingVertical: 8, borderRadius: 11, alignItems: 'center', gap: 1 },
     tabActive:     { backgroundColor: C.brand },
-    tabText:       { fontFamily: 'Nunito_700Bold', fontSize: 13, color: C.textMuted },
+    tabIcon:       { fontSize: 16 },
+    tabIconActive: { },
+    tabText:       { fontFamily: 'Nunito_700Bold', fontSize: 11, color: C.textMuted },
     tabTextActive: { color: '#fff' },
 
     list:          { paddingHorizontal: 16, paddingTop: 4, gap: 10 },
@@ -565,7 +685,7 @@ function makeStyles(C) {
     podiumMedalEmoji: { fontSize: 26, marginBottom: 2 },
     podiumAvatar:     { borderRadius: 50, overflow: 'hidden' },
     podiumName:       { fontFamily: 'Nunito_800ExtraBold', fontSize: 12, textAlign: 'center', maxWidth: 84 },
-    podiumXP:         { fontFamily: 'Nunito_700Bold', fontSize: 11, marginBottom: 4 },
+    podiumRP:         { fontFamily: 'Nunito_700Bold', fontSize: 11, marginBottom: 4 },
     podiumBar:        { width: '100%', borderTopWidth: 2, borderRadius: 6 },
 
     // Leaderboard list rows
@@ -574,15 +694,111 @@ function makeStyles(C) {
     lbRank:        { fontFamily: 'Nunito_800ExtraBold', fontSize: 15, width: 32, textAlign: 'center' },
     lbMedalEmoji:  { fontSize: 20, width: 32, textAlign: 'center' },
     lbName:        { fontFamily: 'Nunito_700Bold', fontSize: 14 },
-    lbXP:          { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#F59E0B' },
+    lbRP:          { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#F59E0B' },
     lbChevron:     { fontFamily: 'Nunito_700Bold', fontSize: 20, marginLeft: 2 },
 
     // Friends tab
-    friendRow:     { flexDirection: 'row', alignItems: 'center', gap: 12, backgroundColor: C.surface, borderRadius: 14, padding: 12, borderWidth: 1, borderColor: C.border },
-    friendName:    { fontFamily: 'Nunito_700Bold', fontSize: 15 },
-    challengeBtn:  { paddingHorizontal: 12, paddingVertical: 8, borderRadius: 10 },
+    friendCard: {
+      backgroundColor: C.surface,
+      borderRadius: 16,
+      borderWidth: 1,
+      borderColor: C.border,
+      overflow: 'hidden',
+    },
+    friendCardMain: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      padding: 14,
+      gap: 12,
+    },
+    friendLeft: {
+      width: 52,
+      height: 52,
+      borderRadius: 26,
+      backgroundColor: C.surface2,
+      alignItems: 'center',
+      justifyContent: 'center',
+      borderWidth: 2,
+      borderColor: C.border,
+    },
+    petEmoji: {
+      fontSize: 28,
+    },
+    friendInfo: {
+      flex: 1,
+      gap: 4,
+    },
+    friendName: {
+      fontFamily: 'Nunito_800ExtraBold',
+      fontSize: 15,
+    },
+    friendStats: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 6,
+    },
+    streakBadge: {
+      alignSelf: 'flex-start',
+      borderRadius: 8,
+      borderWidth: 1,
+      paddingVertical: 3,
+      paddingHorizontal: 8,
+      marginTop: 4,
+    },
+    friendActions: {
+      flexDirection: 'row',
+      gap: 8,
+      paddingHorizontal: 14,
+      paddingBottom: 12,
+    },
+    friendActionBtn: {
+      flex: 1,
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingVertical: 10,
+      borderRadius: 12,
+      gap: 2,
+    },
+    friendRow: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 12,
+      backgroundColor: C.surface,
+      borderRadius: 14,
+      padding: 12,
+      borderWidth: 1,
+      borderColor: C.border,
+    },
+    challengeBtn: {
+      paddingHorizontal: 12,
+      paddingVertical: 8,
+      borderRadius: 10,
+    },
 
     // Activity tab
-    feedRow:       { backgroundColor: C.surface, borderRadius: 14, padding: 14, gap: 4, borderWidth: 1, borderColor: C.border },
+    feedRow: {
+      backgroundColor: C.surface,
+      borderRadius: 14,
+      padding: 12,
+      borderWidth: 1,
+      borderColor: C.border,
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 12,
+    },
+    feedIconWrap: {
+      width: 44,
+      height: 44,
+      borderRadius: 22,
+      borderWidth: 1,
+      alignItems: 'center',
+      justifyContent: 'center',
+      flexShrink: 0,
+    },
+    feedActor: {
+      fontFamily: 'Nunito_800ExtraBold',
+      fontSize: 13,
+    },
   })
 }

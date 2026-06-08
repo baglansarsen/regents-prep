@@ -10,6 +10,7 @@ import ProgressStack from './ProgressStack'
 import FriendsStack  from './FriendsStack'
 import ProfileStack  from './ProfileStack'
 import GlobalTopBar  from '../components/GlobalTopBar'
+import StreakCelebrationHost from '../components/StreakCelebrationHost'
 
 const Tab = createBottomTabNavigator()
 
@@ -34,7 +35,6 @@ export default function TabNavigator() {
             backgroundColor: C.tabBar,
             borderTopColor:  C.border,
             borderTopWidth:  1,
-            height:          68,
             paddingBottom:   10,
             paddingTop:      6,
           },
@@ -68,11 +68,11 @@ export default function TabNavigator() {
           }}
         />
         <Tab.Screen
-          name="FeedTab"
+          name="FriendsTab"
           component={FriendsStack}
           options={{
-            tabBarLabel: 'Feed',
-            tabBarIcon: ({ focused }) => <TabIcon emoji="🌐" focused={focused} />,
+            tabBarLabel: 'Social',
+            tabBarIcon: ({ focused }) => <TabIcon emoji="👥" focused={focused} />,
           }}
         />
         <Tab.Screen
@@ -84,6 +84,7 @@ export default function TabNavigator() {
           }}
         />
       </Tab.Navigator>
+      <StreakCelebrationHost />
     </View>
   )
 }

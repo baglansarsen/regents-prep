@@ -1,0 +1,1061 @@
+{
+  "subject": "earth-science",
+  "session": "june-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The photographs below show two types of solar eclipses. Letters A and B represent two celestial objects. A Total Solar Eclipse B A B Partial Solar Eclipse Which two celestial objects are represented by letters A and B?",
+      "choices": [
+        "A-Moon; B-Sun",
+        "A-Moon; B-Earth",
+        "A-Sun; B-Moon",
+        "A-Sun; B-Earth"
+      ],
+      "image": "/images/exams/earth-science/june-2018/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Compared to the terrestrial planets, the Jovian planets",
+      "choices": [
+        "are less massive",
+        "are more dense",
+        "have greater orbital velocities",
+        "have shorter periods of rotation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which event occurred more than 10 billion years ago?",
+      "choices": [
+        "Big Bang",
+        "origin of life on Earth",
+        "Pangaea begins to break up",
+        "origin of Earth and its Moon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In 1851, French physicist L\u00e9on Foucault used a swinging pendulum to demonstrate that Earth",
+      "choices": [
+        "is rotating",
+        "is revolving",
+        "has a curved surface",
+        "has a gravitational pull"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Approximately how many degrees does Earth travel in its orbit in one month?",
+      "choices": [
+        "1\u00b0",
+        "15\u00b0",
+        "30\u00b0",
+        "360\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "What is the relative humidity when the dry- bulb temperature is 16\u00b0C and the wet-bulb temperature is 10\u00b0C?",
+      "choices": [
+        "6%",
+        "14%",
+        "33%",
+        "45%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Boarding up windows would be one emergency action most likely taken to prepare for which natural disaster?",
+      "choices": [
+        "earthquake",
+        "hurricane",
+        "\ufb02 ood",
+        "tsunami"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "written",
+      "text": "Which diagram best represents the general position and direction of \ufb02ow of the polar front jet stream in the Northern Hemisphere during the winter months? ( 1 ) ( 3 ) ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "written",
+      "text": "The diagram below represents four positions of the Moon, labeled A through D, as it orbits Earth. B North Pole Moon\u2019s orbit D C A Sun\u2019s rays (Not drawn to scale) Which diagram best represents the sequence of Moon phases, as seen by an observer in New York State, when the Moon travels from position A to position D in its orbit around Earth? A B C D A B C D ( 1 ) ( 3 ) A B C D A B C D ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The diagrams below represent spectral lines of hydrogen gas observed in a laboratory and the spectral lines of hydrogen gas observed in the light from a distant star. Spectral Lines of Hydrogen in a Laboratory Shorter Wavelength Longer Wavelength Spectral Lines of Hydrogen from a Distant Star Shorter Wavelength Longer Wavelength Compared to the spectral lines observed in the laboratory, the spectral lines observed in the light from the distant star have shifted toward the",
+      "choices": [
+        "red end of the spectrum, indicating the star\u2019s movement toward Earth",
+        "red end of the spectrum, indicating the star\u2019s movement away from Earth",
+        "blue end of the spectrum, indicating the star\u2019s movement toward Earth",
+        "blue end of the spectrum, indicating the star\u2019s movement away from Earth"
+      ],
+      "image": "/images/exams/earth-science/june-2018/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a cross-sectional view of the plane of Earth\u2019s orbit around the Sun. A line drawn perpendicular to the plane of Earth\u2019s orbit is shown on the diagram. Perpendicular line Plane of Earth\u2019s orbit Earth Sun (Not drawn to scale) How many degrees is Earth\u2019s rotational axis tilted with respect to the perpendicular line shown in the diagram?",
+      "choices": [
+        "15\u00b0",
+        "23.5\u00b0",
+        "90\u00b0",
+        "180\u00b0"
+      ],
+      "image": "/images/exams/earth-science/june-2018/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The larger white dots in the diagrams below represent stars in the constellations Scorpius and Orion. Information indicating when these constellations are visible from New York State is provided below the diagrams. Scorpius Visible in the New York State nighttime sky during July; not visible at all in January Orion Visible in the New York State nighttime sky during January; not visible at all in July Which statement best explains why these two constellations are visible in the night sky in the months identi\ufb01 ed?",
+      "choices": [
+        "Earth spins on its axis at a constant rate during a 24-hour period.",
+        "Earth spins on its axis at a variable rate during the year.",
+        "The nighttime side of Earth is facing different parts of our galaxy as Earth orbits the Sun.",
+        "The nighttime side of Earth is facing different parts of our galaxy as the stars orbit Earth."
+      ],
+      "image": "/images/exams/earth-science/june-2018/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "written",
+      "text": "Which table correctly shows the interior temperature, melting point, and state (phase) of matter of the materials located 4000 kilometers below Earth\u2019s surface? Interior Melting State of Temperature (\u00b0C) Point (\u00b0C) Matter 5700 5400 solid Interior Melting State of Temperature (\u00b0C) Point (\u00b0C) Matter 5400 5700 solid ( 1 ) ( 3 ) Interior Melting State of Temperature (\u00b0C) Point (\u00b0C) Matter 5700 5400 liquid Interior Melting State of Temperature (\u00b0C) Point (\u00b0C) Matter 5400 5700 liquid ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which gas is a greenhouse gas that has increased in Earth\u2019s atmosphere partly as a result of deforestation over the last 100 years?",
+      "choices": [
+        "ozone",
+        "oxygen",
+        "nitrogen",
+        "carbon dioxide"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which ocean current brings warm water to the southeastern tip of Africa?",
+      "choices": [
+        "Brazil Current",
+        "Agulhas Current",
+        "Guinea Current",
+        "Benguela Current"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "written",
+      "text": "Which pie graph is shaded to best represent the approximate percentage of time that humans have existed during Earth\u2019s entire history? Humans Humans ( 1 ) ( 3 ) Humans Humans ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Volcanic ash can be used as a time marker to correlate rock layers because the ash",
+      "choices": [
+        "is deposited rapidly over a large area",
+        "represents a buried erosional surface",
+        "forms intrusive igneous rock",
+        "cuts across rock layers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The cross section below represents a mountain range. Points A and B represent locations on Earth\u2019s surface. Prevailing wind Mountain range A B Compared to the climate of location A, the climate of location B is most likely",
+      "choices": [
+        "cooler and wetter",
+        "cooler and drier",
+        "warmer and wetter",
+        "warmer and drier"
+      ],
+      "image": "/images/exams/earth-science/june-2018/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The photograph below shows conglomerate composed of pebbles cemented together with calcite. Compared to the ages of the calcite cement and the conglomerate, the relative age of the pebbles is",
+      "choices": [
+        "younger than both the calcite cement and the conglomerate",
+        "younger than the calcite cement, but the same age as the conglomerate",
+        "older than both the calcite cement and the conglomerate",
+        "older than the calcite cement, but the same age as the conglomerate P.S./ E a r t h \u2019 s sur f a c e"
+      ],
+      "image": "/images/exams/earth-science/june-2018/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "written",
+      "text": "The cross section below represents some parts of Earth\u2019s water cycle. Letters A, B, C, and D represent processes that occur during the cycle. D Cloud C B A Soil D Water table Zone of Lake saturation Ocean Impermeable bedrock Which table correctly matches each letter with the process it represents? Letter Process Letter Process A Condensation A Condensation B Transpiration B Evaporation C Precipitation C Precipitation D Evaporation D Transpiration ( 1 ) ( 3 ) Letter Process Letter Process A Evaporation A Evaporation B Precipitation B Transpiration C Transpiration C Precipitation D Condensation D Condensation ( 2 ) ( 4 ) Fog A A",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "written",
+      "text": "Which table best shows the relationship between latitude and general climate conditions on Earth? Climate Latitude Climate Conditions 90\u00b0N Arid 60\u00b0N Humid 30\u00b0N Arid 0\u00b0 Humid 30\u00b0S Arid 60\u00b0S Humid 90\u00b0S Arid Climate Latitude Latitude Conditions Conditions 90\u00b0N Arid 90\u00b0N Humid 60\u00b0N 60\u00b0N Arid Arid 30\u00b0N 30\u00b0N Humid Humid 0\u00b0 0\u00b0 Humid Humid 30\u00b0S 30\u00b0S Humid Humid 60\u00b0S 60\u00b0S Arid 90\u00b0S Arid 90\u00b0S Arid Humid ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "written",
+      "text": "The photograph below shows different-sized rounded sediment. Latitude Climate Conditions 90\u00b0N Humid 60\u00b0N Arid 30\u00b0N Humid 0\u00b0 Arid 30\u00b0S Humid 60\u00b0S Arid 90\u00b0S Humid Which table shows the most likely process and agent of erosion responsible for this rounded sediment? Process Agent of Erosion Process Agent of Erosion sandblasting running water land slide mass movement ( 1 ) ( 3 ) Process Agent of Erosion Process Agent of Erosion abrasion wave action deposition wind ( 2 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The photograph below shows an outcrop with two basaltic intrusions, labeled A and B, in a rock unit, labeled C. A B C What is the relative age of these three rock units from oldest to youngest?",
+      "choices": [
+        "B \u2014\u203a A \u2014\u203a C",
+        "B \u2014\u203a C \u2014\u203a A",
+        "C \u2014\u203a A \u2014\u203a B",
+        "C \u2014\u203a B \u2014\u203a A"
+      ],
+      "image": "/images/exams/earth-science/june-2018/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The world map below shows Earth\u2019s major tectonic plate boundaries. Letters A through D represent four surface locations. Asia Europe Africa India Australia Antarctica South America North America A B C D Which location is on a major rift valley?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2018/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The \ufb01 rst P-wave of an earthquake took 11 minutes to travel to a seismic station from the epicenter of the earthquake. What is the seismic station\u2019s distance to the epicenter of the earthquake and how long did it take for the \ufb01 rst S-wave to travel that distance?",
+      "choices": [
+        "Distance to epicenter: 3350 km S-wave travel time: 4 min 50 sec",
+        "Distance to epicenter: 3350 km S-wave travel time: 6 min 10 sec",
+        "Distance to epicenter: 7600 km S-wave travel time: 9 min",
+        "Distance to epicenter: 7600 km S-wave travel time: 20 min"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The Catskills are commonly called mountains, but are actually part of the Allegheny Plateau. The Catskills are classi\ufb01 ed as a plateau because of their",
+      "choices": [
+        "low elevation",
+        "bedrock structure",
+        "bedrock age",
+        "high degree of metamorphism"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The minimum stream velocity necessary to transport a sediment particle that is 0.1 centimeter in diameter is closest to",
+      "choices": [
+        "0.1 cm/s",
+        "0.002 cm/s",
+        "5.5 cm/s",
+        "10.0 cm/s"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Which rock is classi\ufb01 ed as an evaporite?",
+      "choices": [
+        "clastic shale",
+        "foliated phyllite",
+        "nonfoliated marble",
+        "crystalline rock salt"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which pair of elements makes up most of Earth\u2019s crust by volume?",
+      "choices": [
+        "nitrogen and potassium",
+        "oxygen and silicon",
+        "hydrogen and oxygen",
+        "potassium and oxygen"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The cross section below represents zones of soil labeled A, B, and C. Letter D represents underlying bedrock. A B C D Which letter identi\ufb01 es the zone having the most organic and weathered material?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/june-2018/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which type of surface bedrock is most commonly found in the Utica, New York area?",
+      "choices": [
+        "sedimentary, with limestone, shale, sandstone, and dolostone",
+        "sedimentary, with limestone, shale, sandstone, and conglomerate",
+        "metamorphic, with quartzite, dolostone, marble, and schist",
+        "metamorphic, with gneiss, quartzite, marble, and slate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "The diagram below represents a geologic landscape. Which type of stream drainage pattern formed on this landscape? ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The north polar view maps below show the average area covered by Arctic Sea ice in September of 1980, 2000, and 2011. Arctic Sea Ice 1980 2000 2011 Key Land Ice Ocean The maps best support the inference that Earth\u2019s climate is",
+      "choices": [
+        "cooling, because the average area covered by Arctic Sea ice is decreasing",
+        "cooling, because the average area covered by Arctic Sea ice is increasing",
+        "warming, because the average area covered by Arctic Sea ice is decreasing",
+        "warming, because the average area covered by Arctic Sea ice is increasing"
+      ],
+      "image": "/images/exams/earth-science/june-2018/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The photographs below shows two depositional features labeled A and B. B A Which terms correctly identify depositional features A and B?",
+      "choices": [
+        "A-delta; B-barrier island",
+        "A-sand bar; B-island arc",
+        "A-barrier island; B-delta",
+        "A-island arc; B-sand bar"
+      ],
+      "image": "/images/exams/earth-science/june-2018/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Diagrams A and B represent magni\ufb01 ed views of the arrangement of mineral crystals in a rock before and after being subjected to geologic processes. Geologic Processes A B Which geologic processes are most likely responsible for the banding and alignment of mineral crystals represented in diagram B?",
+      "choices": [
+        "melting and solidi\ufb01 cation",
+        "heating and increasing pressure",
+        "compaction and cementation",
+        "weathering and erosion"
+      ],
+      "image": "/images/exams/earth-science/june-2018/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "What was the height of the water above average low tide level at noon on January 24?",
+      "choices": [
+        "1.2 ft",
+        "1.6 ft",
+        "2.2 ft",
+        "2.6 ft"
+      ],
+      "image": "/images/exams/earth-science/june-2018/context_36_39.png",
+      "context": "Base your answers to questions 36 through 39 on the graph below and on your knowledge of Earth science. \nThe graph shows the observed water levels, in feet (ft), for a tide gauge located at Montauk, New York, on the \neasternmost end of Long Island, from January 24, 2008 to noon on January 25, 2008. \nWater Levels at Montauk, New York \n4 \n2 \n0 \n\u20132 \nHeight Above Average\nLow Tide Level (ft) \n12:00 a.m. \n12:00 p.m. \n12:00 a.m. \n12:00 p.m. \n(midnight) \n(noon) \n(midnight) \n(noon) \nJan. 24 \nJan. 25 \nTime",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "These changing water levels at Montauk can best be described as",
+      "choices": [
+        "cyclic and predictable",
+        "cyclic and not predictable",
+        "noncyclic and predictable",
+        "noncyclic and not predictable"
+      ],
+      "image": "/images/exams/earth-science/june-2018/context_36_39.png",
+      "context": "Base your answers to questions 36 through 39 on the graph below and on your knowledge of Earth science. \nThe graph shows the observed water levels, in feet (ft), for a tide gauge located at Montauk, New York, on the \neasternmost end of Long Island, from January 24, 2008 to noon on January 25, 2008. \nWater Levels at Montauk, New York \n4 \n2 \n0 \n\u20132 \nHeight Above Average\nLow Tide Level (ft) \n12:00 a.m. \n12:00 p.m. \n12:00 a.m. \n12:00 p.m. \n(midnight) \n(noon) \n(midnight) \n(noon) \nJan. 24 \nJan. 25 \nTime",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "What causes the water-level variation pattern shown by the graph?",
+      "choices": [
+        "changes in wind velocity produced by coastal storms",
+        "changes in magnetic orientation of the North American Plate",
+        "Earth\u2019s revolution and the distance from the equator",
+        "Earth\u2019s rotation and the gravitational pull of the Moon"
+      ],
+      "image": "/images/exams/earth-science/june-2018/context_36_39.png",
+      "context": "Base your answers to questions 36 through 39 on the graph below and on your knowledge of Earth science. \nThe graph shows the observed water levels, in feet (ft), for a tide gauge located at Montauk, New York, on the \neasternmost end of Long Island, from January 24, 2008 to noon on January 25, 2008. \nWater Levels at Montauk, New York \n4 \n2 \n0 \n\u20132 \nHeight Above Average\nLow Tide Level (ft) \n12:00 a.m. \n12:00 p.m. \n12:00 a.m. \n12:00 p.m. \n(midnight) \n(noon) \n(midnight) \n(noon) \nJan. 24 \nJan. 25 \nTime",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "What is the approximate latitude and longitude of the tide gauge?",
+      "choices": [
+        "40\u00b030' N 72\u00b000' W",
+        "40\u00b030' N 74\u00b000' W",
+        "41\u00b000' N 72\u00b000' W",
+        "41\u00b000' N 74\u00b000' W P.S./ Ma s si ve Less massive Lo w m as s Star formation Main sequence Sun Red dwarf White dwarf Supergiant Giant Supernova explosion Hig h m as s Ve ry hi g h ma ss"
+      ],
+      "image": "/images/exams/earth-science/june-2018/context_36_39.png",
+      "context": "Base your answers to questions 36 through 39 on the graph below and on your knowledge of Earth science. \nThe graph shows the observed water levels, in feet (ft), for a tide gauge located at Montauk, New York, on the \neasternmost end of Long Island, from January 24, 2008 to noon on January 25, 2008. \nWater Levels at Montauk, New York \n4 \n2 \n0 \n\u20132 \nHeight Above Average\nLow Tide Level (ft) \n12:00 a.m. \n12:00 p.m. \n12:00 a.m. \n12:00 p.m. \n(midnight) \n(noon) \n(midnight) \n(noon) \nJan. 24 \nJan. 25 \nTime",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The \ufb01nal stage in the life cycle of the most massive stars is a",
+      "choices": [
+        "black hole",
+        "black dwarf",
+        "supergiant",
+        "white dwarf"
+      ],
+      "image": "/images/exams/earth-science/june-2018/context_40_42.png",
+      "context": "Base your answers to questions 40 through 42 on the diagram below and on your knowledge of Earth science. \nThe diagram represents some of the inferred stages in the life cycle of stars according to their original mass. \n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Which star may once have been similar to our Sun in mass and luminosity?",
+      "choices": [
+        "Deneb",
+        "Spica",
+        "Procyon B",
+        "Proxima Centauri"
+      ],
+      "image": "/images/exams/earth-science/june-2018/context_40_42.png",
+      "context": "Base your answers to questions 40 through 42 on the diagram below and on your knowledge of Earth science. \nThe diagram represents some of the inferred stages in the life cycle of stars according to their original mass. \n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Energy is produced in the cores of main sequence stars when",
+      "choices": [
+        "lighter elements undergo fusion into heavier elements",
+        "heavier elements undergo fusion into lighter elements",
+        "cosmic background radiation is absorbed",
+        "cosmic background radiation is released P.S./ Black hole Neutron star Black dwarf (dead star)"
+      ],
+      "image": "/images/exams/earth-science/june-2018/context_40_42.png",
+      "context": "Base your answers to questions 40 through 42 on the diagram below and on your knowledge of Earth science. \nThe diagram represents some of the inferred stages in the life cycle of stars according to their original mass. \n(Not drawn to scale)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Based on the graph, the half-life of this radioactive isotope is",
+      "choices": [
+        "6 h",
+        "9 h",
+        "3 h",
+        "12 h"
+      ],
+      "image": "/images/exams/earth-science/june-2018/context_43_44.png",
+      "context": "Base your answers to questions 43 and 44 on the graph below and on your knowledge of Earth science. \nThe graph shows the number of radioactive Isotope X atoms present as a sample of the isotope undergoes \nradioactive decay. \nRadioactive Decay of Isotope X \n1000  \n900  \n800  \n700  \n600  \n500  \n400  \n300  \n200  \n100  \n0 0 \n3\n 6\n 9\n 12\n \n15\n \n18\n \nTime (h)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Based on the graph, what is the approximate number of radioactive atoms of Isotope X that are present when 8 hours of decay has occured?",
+      "choices": [
+        "90",
+        "115",
+        "155",
+        "200 Number of Radioactive Atoms Present"
+      ],
+      "image": "/images/exams/earth-science/june-2018/context_43_44.png",
+      "context": "Base your answers to questions 43 and 44 on the graph below and on your knowledge of Earth science. \nThe graph shows the number of radioactive Isotope X atoms present as a sample of the isotope undergoes \nradioactive decay. \nRadioactive Decay of Isotope X \n1000  \n900  \n800  \n700  \n600  \n500  \n400  \n300  \n200  \n100  \n0 0 \n3\n 6\n 9\n 12\n \n15\n \n18\n \nTime (h)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "In which temperature zone of the atmosphere is point A located?",
+      "choices": [
+        "thermosphere",
+        "mesosphere",
+        "stratosphere",
+        "troposphere"
+      ],
+      "image": "/images/exams/earth-science/june-2018/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the diagram below and on your knowledge of Earth science. \nThe arrows in the diagram show air movement in a thunderstorm cloud. Point A represents a location in the \natmosphere. \n0 \n5 \n10 \n15 \nAnvil top \nA \nDowndraft \nUpdraft \nWarm air \nEarth\u2019s surface \nAltitude (km) \nCold air",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "The updrafts and downdrafts represented within this cloud are primarily caused by differences in",
+      "choices": [
+        "altitude above sea level",
+        "air density",
+        "relative humidity",
+        "speci\ufb01 c heat"
+      ],
+      "image": "/images/exams/earth-science/june-2018/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the diagram below and on your knowledge of Earth science. \nThe arrows in the diagram show air movement in a thunderstorm cloud. Point A represents a location in the \natmosphere. \n0 \n5 \n10 \n15 \nAnvil top \nA \nDowndraft \nUpdraft \nWarm air \nEarth\u2019s surface \nAltitude (km) \nCold air",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "written",
+      "text": "Which weather symbol would be placed on a station model to represent this weather event? ( 1 ) ( 2 ) ( 3 ) ( 4 )",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_45_47.png",
+      "context": "Base your answers to questions 45 through 47 on the diagram below and on your knowledge of Earth science. \nThe arrows in the diagram show air movement in a thunderstorm cloud. Point A represents a location in the \natmosphere. \n0 \n5 \n10 \n15 \nAnvil top \nA \nDowndraft \nUpdraft \nWarm air \nEarth\u2019s surface \nAltitude (km) \nCold air",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "What is the contour interval on this map?",
+      "choices": [
+        "25 ft",
+        "50 ft",
+        "150 ft",
+        "250 ft"
+      ],
+      "image": "/images/exams/earth-science/june-2018/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the topographic map below and on your knowledge of Earth \nscience. On the map, points A, B, C, and D represent surface locations. The dashed line between points C and D \nrepresents a hiking trail. Elevations are in feet (ft). \nA \nB \nC \n250 \nN \nD \n500 \n500 \nGe\nd\nd\nS\nt\nr\ne\na\nm\nNick Brook \nOcean \n0 \n5 \n10 mi",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The gradient between location A and location B is approximately",
+      "choices": [
+        "0.04 ft/mi",
+        "25 ft/mi",
+        "40 ft/mi",
+        "50 ft/mi"
+      ],
+      "image": "/images/exams/earth-science/june-2018/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the topographic map below and on your knowledge of Earth \nscience. On the map, points A, B, C, and D represent surface locations. The dashed line between points C and D \nrepresents a hiking trail. Elevations are in feet (ft). \nA \nB \nC \n250 \nN \nD \n500 \n500 \nGe\nd\nd\nS\nt\nr\ne\na\nm\nNick Brook \nOcean \n0 \n5 \n10 mi",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "A person walks along the trail from location C to location D. The person will be walking",
+      "choices": [
+        "downhill then uphill, only",
+        "downhill, then uphill, then downhill again",
+        "uphill then downhill, only",
+        "uphill, then downhill, then uphill again"
+      ],
+      "image": "/images/exams/earth-science/june-2018/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the topographic map below and on your knowledge of Earth \nscience. On the map, points A, B, C, and D represent surface locations. The dashed line between points C and D \nrepresents a hiking trail. Elevations are in feet (ft). \nA \nB \nC \n250 \nN \nD \n500 \n500 \nGe\nd\nd\nS\nt\nr\ne\na\nm\nNick Brook \nOcean \n0 \n5 \n10 mi",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify the two chemical elements present in biotite mica that are not present in muscovite mica.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the passage below and on your knowledge of Earth \nscience. \nThe Mica Family \nThe familiar term \u201cmica\u201d is not the name of a speci\ufb01c mineral, but rather the name \nfor a family of more than 30 minerals that share the same properties. All members of \nthe mica family have high melting points and are similar in density, luster, hardness, \nstreak, type of breakage, and crystal shape. As a result, telling the micas apart can be \ndif\ufb01cult. However, some common members of the family can be identi\ufb01ed by color. For \nexample, biotite is black to dark brown while muscovite can be light shades of several \ncolors, or even colorless. When less common members of the mica family have any of \nthese colors, or have similar colors, chemical tests are needed to tell them apart.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify the luster, hardness, and dominant form of breakage for members of the mica family.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the passage below and on your knowledge of Earth \nscience. \nThe Mica Family \nThe familiar term \u201cmica\u201d is not the name of a speci\ufb01c mineral, but rather the name \nfor a family of more than 30 minerals that share the same properties. All members of \nthe mica family have high melting points and are similar in density, luster, hardness, \nstreak, type of breakage, and crystal shape. As a result, telling the micas apart can be \ndif\ufb01cult. However, some common members of the family can be identi\ufb01ed by color. For \nexample, biotite is black to dark brown while muscovite can be light shades of several \ncolors, or even colorless. When less common members of the mica family have any of \nthese colors, or have similar colors, chemical tests are needed to tell them apart.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "State the name of the igneous rock in which crystals of biotite mica are larger than 10 millimeters in diameter.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the passage below and on your knowledge of Earth \nscience. \nThe Mica Family \nThe familiar term \u201cmica\u201d is not the name of a speci\ufb01c mineral, but rather the name \nfor a family of more than 30 minerals that share the same properties. All members of \nthe mica family have high melting points and are similar in density, luster, hardness, \nstreak, type of breakage, and crystal shape. As a result, telling the micas apart can be \ndif\ufb01cult. However, some common members of the family can be identi\ufb01ed by color. For \nexample, biotite is black to dark brown while muscovite can be light shades of several \ncolors, or even colorless. When less common members of the mica family have any of \nthese colors, or have similar colors, chemical tests are needed to tell them apart.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Large crystals of mica, sometimes weighing several hundred tons, have been found in igneous rock in Canada. Identify the environment of formation and the relative rate of cooling of the magma that formed the igneous rock containing these large crystals.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 54 on the passage below and on your knowledge of Earth \nscience. \nThe Mica Family \nThe familiar term \u201cmica\u201d is not the name of a speci\ufb01c mineral, but rather the name \nfor a family of more than 30 minerals that share the same properties. All members of \nthe mica family have high melting points and are similar in density, luster, hardness, \nstreak, type of breakage, and crystal shape. As a result, telling the micas apart can be \ndif\ufb01cult. However, some common members of the family can be identi\ufb01ed by color. For \nexample, biotite is black to dark brown while muscovite can be light shades of several \ncolors, or even colorless. When less common members of the mica family have any of \nthese colors, or have similar colors, chemical tests are needed to tell them apart.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "On the diagram in your answer booklet, draw an X to represent the solar noon position of the Sun as seen by the observer on April 21.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 58 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents the Sun\u2019s apparent daily path for the \ufb01rst day of three seasons at \n43\u00b0 North latitude. The solid lines represent daytime paths as seen by an observer at this latitude. The dashed \nlines represent the nighttime paths that can not be seen by the observer.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify the rate of the Sun\u2019s apparent movement, in degrees per hour, along its path on December 21.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 58 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents the Sun\u2019s apparent daily path for the \ufb01rst day of three seasons at \n43\u00b0 North latitude. The solid lines represent daytime paths as seen by an observer at this latitude. The dashed \nlines represent the nighttime paths that can not be seen by the observer.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify the compass direction toward which the observer\u2019s shadow would point at solar noon on March 21.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 58 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents the Sun\u2019s apparent daily path for the \ufb01rst day of three seasons at \n43\u00b0 North latitude. The solid lines represent daytime paths as seen by an observer at this latitude. The dashed \nlines represent the nighttime paths that can not be seen by the observer.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "List the three dates shown on the diagram from the least number of nighttime hours to the greatest number of nighttime hours.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 55 through 58 on the diagram in your answer booklet and on your knowledge \nof Earth science. The diagram represents the Sun\u2019s apparent daily path for the \ufb01rst day of three seasons at \n43\u00b0 North latitude. The solid lines represent daytime paths as seen by an observer at this latitude. The dashed \nlines represent the nighttime paths that can not be seen by the observer.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw one arrow in each of the two boxes to show the relative motion of the Caribbean Plate and the North American Plate.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 62 on the information below, on the map in your answer \nbooklet, and on your knowledge of Earth science. The map shows a portion of the tectonic plates map from the \n2011 Edition Reference Tables for Physical Setting/Earth Science. Letters A and B represent locations on the \nocean \ufb02 oor. \nThe area between North America and South America is a tectonically active region \nof Earth. This region contains all of the types of tectonic plate boundaries, and it has \nfrequent earthquake and volcanic activity. The tectonic plates on either side of the East \nPaci\ufb01c Ridge move at an average rate of 7.5 cm/year.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "On the set of axes in your answer booklet, draw a line to represent the relative age of the ocean \ufb02 oor bedrock from location A to location B.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 62 on the information below, on the map in your answer \nbooklet, and on your knowledge of Earth science. The map shows a portion of the tectonic plates map from the \n2011 Edition Reference Tables for Physical Setting/Earth Science. Letters A and B represent locations on the \nocean \ufb02 oor. \nThe area between North America and South America is a tectonically active region \nof Earth. This region contains all of the types of tectonic plate boundaries, and it has \nfrequent earthquake and volcanic activity. The tectonic plates on either side of the East \nPaci\ufb01c Ridge move at an average rate of 7.5 cm/year.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Identify the name of the hot spot shown on the map, and identify the name of the tectonic plate under which the center of this hot spot is located.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 62 on the information below, on the map in your answer \nbooklet, and on your knowledge of Earth science. The map shows a portion of the tectonic plates map from the \n2011 Edition Reference Tables for Physical Setting/Earth Science. Letters A and B represent locations on the \nocean \ufb02 oor. \nThe area between North America and South America is a tectonically active region \nof Earth. This region contains all of the types of tectonic plate boundaries, and it has \nfrequent earthquake and volcanic activity. The tectonic plates on either side of the East \nPaci\ufb01c Ridge move at an average rate of 7.5 cm/year.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Identify the type of ma\ufb01c igneous bedrock that is most likely to make up the oceanic crust at location A, and state the average density of this oceanic crust.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 59 through 62 on the information below, on the map in your answer \nbooklet, and on your knowledge of Earth science. The map shows a portion of the tectonic plates map from the \n2011 Edition Reference Tables for Physical Setting/Earth Science. Letters A and B represent locations on the \nocean \ufb02 oor. \nThe area between North America and South America is a tectonically active region \nof Earth. This region contains all of the types of tectonic plate boundaries, and it has \nfrequent earthquake and volcanic activity. The tectonic plates on either side of the East \nPaci\ufb01c Ridge move at an average rate of 7.5 cm/year.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Explain why the particle sizes \ufb01 t together more closely in the mixture, resulting in the lowest porosity of all these particle types.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the diagram and data table below and on your knowledge \nof Earth science. The diagram represents laboratory materials used for an investigation of the effects of particle \ndiameter on permeability and porosity (percentage of pore space). Four separate plastic tubes were \ufb01 lled to the \nsame level with different particles. \nMixture \nPlastic\nSand \nClay \n(pebbles, sand, \nbeads\nsilt and clay) \nScreen \nScreen \nScreen\nScreen \nEmpty beaker \nEmpty beaker \nEmpty beaker\nEmpty beaker \n(Not drawn to scale) \nTime for \nParticle Diameter \nPorosity\nParticle Type \nWater to In\ufb01ltrate\n(cm) \n(%)\n(s) \nSand \n0.1 \n7 \n42.0 \nClay \n0.0003 \n322 \n40.0 \nMixture \nfrom 0.0003 to 0.8 \n15 \n34.0 \nPlastic beads \n0.4 \n4 \n44.0",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "The height of the column of sand is 28 centimeters. Calculate the rate of in\ufb01 ltration, in centimeters per second, for the water that \ufb02 owed through the column of sand.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the diagram and data table below and on your knowledge \nof Earth science. The diagram represents laboratory materials used for an investigation of the effects of particle \ndiameter on permeability and porosity (percentage of pore space). Four separate plastic tubes were \ufb01 lled to the \nsame level with different particles. \nMixture \nPlastic\nSand \nClay \n(pebbles, sand, \nbeads\nsilt and clay) \nScreen \nScreen \nScreen\nScreen \nEmpty beaker \nEmpty beaker \nEmpty beaker\nEmpty beaker \n(Not drawn to scale) \nTime for \nParticle Diameter \nPorosity\nParticle Type \nWater to In\ufb01ltrate\n(cm) \n(%)\n(s) \nSand \n0.1 \n7 \n42.0 \nClay \n0.0003 \n322 \n40.0 \nMixture \nfrom 0.0003 to 0.8 \n15 \n34.0 \nPlastic beads \n0.4 \n4 \n44.0",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Based on the particle diameter of the plastic beads, identify the type of sediment represented by these beads.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_63_65.png",
+      "context": "Base your answers to questions 63 through 65 on the diagram and data table below and on your knowledge \nof Earth science. The diagram represents laboratory materials used for an investigation of the effects of particle \ndiameter on permeability and porosity (percentage of pore space). Four separate plastic tubes were \ufb01 lled to the \nsame level with different particles. \nMixture \nPlastic\nSand \nClay \n(pebbles, sand, \nbeads\nsilt and clay) \nScreen \nScreen \nScreen\nScreen \nEmpty beaker \nEmpty beaker \nEmpty beaker\nEmpty beaker \n(Not drawn to scale) \nTime for \nParticle Diameter \nPorosity\nParticle Type \nWater to In\ufb01ltrate\n(cm) \n(%)\n(s) \nSand \n0.1 \n7 \n42.0 \nClay \n0.0003 \n322 \n40.0 \nMixture \nfrom 0.0003 to 0.8 \n15 \n34.0 \nPlastic beads \n0.4 \n4 \n44.0",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Describe the evidence shown on the map that indicates that the highest wind speeds occurred near Watertown, New York.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the weather map below and on your knowledge of Earth \nscience. The map shows the location of a wintertime low-pressure system over Lake Ontario with two fronts \nextending into New York State. Isobar values are recorded in millibars. Partial weather station data are shown for \nseveral locations. \n38 \nLake \nErie \nLake Ontario \nUtica \nAlbany \nBuffalo \nIthaca \n29 \n18 \n960 \n31 \n20 \nRochester \nL \n35 \n34 \n920 \n34 \n30 \n090 \n44 \n36 \n051 \n1008\n1004 \n42 \n39 \n983 \n1000\n40 \n960 \n992\n988 \n996 \nPlattsburgh \nWatertown \n911",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Complete the table in your answer booklet by recording the weather data shown on the station model for Albany, New York.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the weather map below and on your knowledge of Earth \nscience. The map shows the location of a wintertime low-pressure system over Lake Ontario with two fronts \nextending into New York State. Isobar values are recorded in millibars. Partial weather station data are shown for \nseveral locations. \n38 \nLake \nErie \nLake Ontario \nUtica \nAlbany \nBuffalo \nIthaca \n29 \n18 \n960 \n31 \n20 \nRochester \nL \n35 \n34 \n920 \n34 \n30 \n090 \n44 \n36 \n051 \n1008\n1004 \n42 \n39 \n983 \n1000\n40 \n960 \n992\n988 \n996 \nPlattsburgh \nWatertown \n911",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "State the compass direction toward which the center of this low-pressure system moved over the next two days if the low followed a normal storm track.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the weather map below and on your knowledge of Earth \nscience. The map shows the location of a wintertime low-pressure system over Lake Ontario with two fronts \nextending into New York State. Isobar values are recorded in millibars. Partial weather station data are shown for \nseveral locations. \n38 \nLake \nErie \nLake Ontario \nUtica \nAlbany \nBuffalo \nIthaca \n29 \n18 \n960 \n31 \n20 \nRochester \nL \n35 \n34 \n920 \n34 \n30 \n090 \n44 \n36 \n051 \n1008\n1004 \n42 \n39 \n983 \n1000\n40 \n960 \n992\n988 \n996 \nPlattsburgh \nWatertown \n911",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "On the grid in your answer booklet, plot the average brachiopod body volume for each of the geologic ages listed in the data table. Connect all \ufb01 ve plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information and data table below and on your knowledge \nof Earth science. The data table shows the average body volume, including the shell, of a brachiopod at certain \ntimes in geologic history. The geologic ages are shown in million years ago (mya). The average body volumes \nincluding the shell are shown in milliliters (mL). \nCope\u2019s Rule \nCope\u2019s Rule states that the average size of animals preserved in the fossil record tends \nto increase as each group evolves from a previous group. This rule was \ufb01 rst proposed \nin the 1800s by Edward Drinker Cope, a famous fossil hunter of that time. Recent \nresearch, involving well over 10,000 fossil groups spanning the time since the start of \nthe Cambrian Period until today, has shown that Cope\u2019s Rule is accurate for most animal \ngroups. Brachiopod data support Cope\u2019s Rule. \nBrachiopod Data Table \nGeologic Age \n(mya) \n480 \nAverage Body Volume \nIncluding the Shell \n(mL) \n0.1 \n460 \n0.2 \n430 \n0.6 \n410 \n1.0 \n380 \n1.1",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Identify, by name, two geologic periods when the brachiopods represented in the data table were living.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information and data table below and on your knowledge \nof Earth science. The data table shows the average body volume, including the shell, of a brachiopod at certain \ntimes in geologic history. The geologic ages are shown in million years ago (mya). The average body volumes \nincluding the shell are shown in milliliters (mL). \nCope\u2019s Rule \nCope\u2019s Rule states that the average size of animals preserved in the fossil record tends \nto increase as each group evolves from a previous group. This rule was \ufb01 rst proposed \nin the 1800s by Edward Drinker Cope, a famous fossil hunter of that time. Recent \nresearch, involving well over 10,000 fossil groups spanning the time since the start of \nthe Cambrian Period until today, has shown that Cope\u2019s Rule is accurate for most animal \ngroups. Brachiopod data support Cope\u2019s Rule. \nBrachiopod Data Table \nGeologic Age \n(mya) \n480 \nAverage Body Volume \nIncluding the Shell \n(mL) \n0.1 \n460 \n0.2 \n430 \n0.6 \n410 \n1.0 \n380 \n1.1",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "State the names of the two brachiopod index fossils found in New York State bedrock.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information and data table below and on your knowledge \nof Earth science. The data table shows the average body volume, including the shell, of a brachiopod at certain \ntimes in geologic history. The geologic ages are shown in million years ago (mya). The average body volumes \nincluding the shell are shown in milliliters (mL). \nCope\u2019s Rule \nCope\u2019s Rule states that the average size of animals preserved in the fossil record tends \nto increase as each group evolves from a previous group. This rule was \ufb01 rst proposed \nin the 1800s by Edward Drinker Cope, a famous fossil hunter of that time. Recent \nresearch, involving well over 10,000 fossil groups spanning the time since the start of \nthe Cambrian Period until today, has shown that Cope\u2019s Rule is accurate for most animal \ngroups. Brachiopod data support Cope\u2019s Rule. \nBrachiopod Data Table \nGeologic Age \n(mya) \n480 \nAverage Body Volume \nIncluding the Shell \n(mL) \n0.1 \n460 \n0.2 \n430 \n0.6 \n410 \n1.0 \n380 \n1.1",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "The earliest horses appeared in the Eocene epoch and were about the size of a large dog of today. Explain how the evolution of horses supports Cope\u2019s Rule.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_69_72.png",
+      "context": "Base your answers to questions 69 through 72 on the information and data table below and on your knowledge \nof Earth science. The data table shows the average body volume, including the shell, of a brachiopod at certain \ntimes in geologic history. The geologic ages are shown in million years ago (mya). The average body volumes \nincluding the shell are shown in milliliters (mL). \nCope\u2019s Rule \nCope\u2019s Rule states that the average size of animals preserved in the fossil record tends \nto increase as each group evolves from a previous group. This rule was \ufb01 rst proposed \nin the 1800s by Edward Drinker Cope, a famous fossil hunter of that time. Recent \nresearch, involving well over 10,000 fossil groups spanning the time since the start of \nthe Cambrian Period until today, has shown that Cope\u2019s Rule is accurate for most animal \ngroups. Brachiopod data support Cope\u2019s Rule. \nBrachiopod Data Table \nGeologic Age \n(mya) \n480 \nAverage Body Volume \nIncluding the Shell \n(mL) \n0.1 \n460 \n0.2 \n430 \n0.6 \n410 \n1.0 \n380 \n1.1",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw the 240-inch average yearly snowfall isoline.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 75 on the snowfall map in your answer booklet and on your \nknowledge of Earth science. The snowfall map shows some average yearly snowfall values, measured in inches, \nrecorded for a portion of New York State. Some average yearly snowfall isolines have been drawn. Line XY is a \nreference line on the map. The cities of Watertown and Oswego are shown on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a pro\ufb01le of the average annual snowfall along line XY by plotting the value of each isoline that crosses line XY. Connect all six plots with a line to complete the pro\ufb01le.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 73 through 75 on the snowfall map in your answer booklet and on your \nknowledge of Earth science. The snowfall map shows some average yearly snowfall values, measured in inches, \nrecorded for a portion of New York State. Some average yearly snowfall isolines have been drawn. Line XY is a \nreference line on the map. The cities of Watertown and Oswego are shown on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "The diagram in your answer booklet represents an observer standing next to the side of a building. Using the scale shown, draw an X on the side of the building to represent the height of the greatest amount of average yearly snowfall that is indicated on the map.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/q75.png",
+      "context": "Base your answers to questions 73 through 75 on the snowfall map in your answer booklet and on your \nknowledge of Earth science. The snowfall map shows some average yearly snowfall values, measured in inches, \nrecorded for a portion of New York State. Some average yearly snowfall isolines have been drawn. Line XY is a \nreference line on the map. The cities of Watertown and Oswego are shown on the map.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Identify the energy transfer process by which light travels through space from the Sun to the solar collector.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a cutaway view of a \ufb02at-plate solar collector used to heat water at a New York State \nlocation. \nSolar Collector \nInsulated metal box \nCool water in \nFlow tube \nCollector plate \nClear glass cover \nHot water out",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Explain why the \ufb02ow tubes and collector plate inside the solar collector are black in color.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a cutaway view of a \ufb02at-plate solar collector used to heat water at a New York State \nlocation. \nSolar Collector \nInsulated metal box \nCool water in \nFlow tube \nCollector plate \nClear glass cover \nHot water out",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "The glass cover on this solar collector allows visible light to enter the collector. Identify the type of electromagnetic energy emitted by the \ufb02ow tubes and collector plate that is trapped inside the collector by the glass cover. Also, circle the relative wavelength of this trapped electromagnetic energy compared to wavelengths of visible light.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_76_78.png",
+      "context": "Base your answers to questions 76 through 78 on the diagram below and on your knowledge of Earth science. \nThe diagram represents a cutaway view of a \ufb02at-plate solar collector used to heat water at a New York State \nlocation. \nSolar Collector \nInsulated metal box \nCool water in \nFlow tube \nCollector plate \nClear glass cover \nHot water out",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Identify the name of the galaxy where the Kepler-62 planetary system is located.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the passage and diagram below, on the data table on the \nnext page, and on your knowledge of Earth science. The diagram compares the inner planets of our solar system \nto the planetary system surrounding the star Kepler-62, which is located in our galaxy. The data table shows some \ndata for the planets in the Kepler-62 system. \nKepler-62 Planetary System \nFive planets orbit a seven-billion-year-old star, Kepler-62, which has a surface \ntemperature of approximately 4900 Kelvin. Two of these planets are located within the \nhabitable zone, which is the region around a star where life may exist due to the possible \npresence of water in the liquid phase. The shaded areas in the orbital diagrams below \nindicate the habitable zone of each system. \nKepler-62 Planetary System \n62f \n62e \n62d \n62c \n62b \nInner Solar System \nNon habitable zone \nHabitable zone \nKey \nMercury Venus \nEarth \nMars \n(Planets and orbits are drawn to scale) \nP.S./E. Sci.\u2013June \u201918 \n[24] \n\n \n \n \n \n \n \n \n \n \n \nData Table \nEquatorial Diameter\nName of \nDistance from Kepler-62 \n(compared to Earth's\nPlanet \n(million kilometers) \ndiameter) \n62b \n8.23 \n1.31 \n62c \n13.76 \n0.54 \n62d \n17.95 \n1.95 \n62e \n63.88 \n1.6 \n62f \n107.41 \n1.4",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Identify the name of the planet in our solar system that has an equatorial diameter most similar in size to the equatorial diameter of planet Kepler-62c.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the passage and diagram below, on the data table on the \nnext page, and on your knowledge of Earth science. The diagram compares the inner planets of our solar system \nto the planetary system surrounding the star Kepler-62, which is located in our galaxy. The data table shows some \ndata for the planets in the Kepler-62 system. \nKepler-62 Planetary System \nFive planets orbit a seven-billion-year-old star, Kepler-62, which has a surface \ntemperature of approximately 4900 Kelvin. Two of these planets are located within the \nhabitable zone, which is the region around a star where life may exist due to the possible \npresence of water in the liquid phase. The shaded areas in the orbital diagrams below \nindicate the habitable zone of each system. \nKepler-62 Planetary System \n62f \n62e \n62d \n62c \n62b \nInner Solar System \nNon habitable zone \nHabitable zone \nKey \nMercury Venus \nEarth \nMars \n(Planets and orbits are drawn to scale) \nP.S./E. Sci.\u2013June \u201918 \n[24] \n\n \n \n \n \n \n \n \n \n \n \nData Table \nEquatorial Diameter\nName of \nDistance from Kepler-62 \n(compared to Earth's\nPlanet \n(million kilometers) \ndiameter) \n62b \n8.23 \n1.31 \n62c \n13.76 \n0.54 \n62d \n17.95 \n1.95 \n62e \n63.88 \n1.6 \n62f \n107.41 \n1.4",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Identify the name of the planet in the Kepler-62 planetary system that has the shortest period of revolution, and explain why this planet has the shortest period of revolution.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the passage and diagram below, on the data table on the \nnext page, and on your knowledge of Earth science. The diagram compares the inner planets of our solar system \nto the planetary system surrounding the star Kepler-62, which is located in our galaxy. The data table shows some \ndata for the planets in the Kepler-62 system. \nKepler-62 Planetary System \nFive planets orbit a seven-billion-year-old star, Kepler-62, which has a surface \ntemperature of approximately 4900 Kelvin. Two of these planets are located within the \nhabitable zone, which is the region around a star where life may exist due to the possible \npresence of water in the liquid phase. The shaded areas in the orbital diagrams below \nindicate the habitable zone of each system. \nKepler-62 Planetary System \n62f \n62e \n62d \n62c \n62b \nInner Solar System \nNon habitable zone \nHabitable zone \nKey \nMercury Venus \nEarth \nMars \n(Planets and orbits are drawn to scale) \nP.S./E. Sci.\u2013June \u201918 \n[24] \n\n \n \n \n \n \n \n \n \n \n \nData Table \nEquatorial Diameter\nName of \nDistance from Kepler-62 \n(compared to Earth's\nPlanet \n(million kilometers) \ndiameter) \n62b \n8.23 \n1.31 \n62c \n13.76 \n0.54 \n62d \n17.95 \n1.95 \n62e \n63.88 \n1.6 \n62f \n107.41 \n1.4",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Identify the names of the two planets in the Kepler-62 planetary system that may have liquid water on their surfaces, and explain why these planets may have liquid water on their surfaces.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_79_82.png",
+      "context": "Base your answers to questions 79 through 82 on the passage and diagram below, on the data table on the \nnext page, and on your knowledge of Earth science. The diagram compares the inner planets of our solar system \nto the planetary system surrounding the star Kepler-62, which is located in our galaxy. The data table shows some \ndata for the planets in the Kepler-62 system. \nKepler-62 Planetary System \nFive planets orbit a seven-billion-year-old star, Kepler-62, which has a surface \ntemperature of approximately 4900 Kelvin. Two of these planets are located within the \nhabitable zone, which is the region around a star where life may exist due to the possible \npresence of water in the liquid phase. The shaded areas in the orbital diagrams below \nindicate the habitable zone of each system. \nKepler-62 Planetary System \n62f \n62e \n62d \n62c \n62b \nInner Solar System \nNon habitable zone \nHabitable zone \nKey \nMercury Venus \nEarth \nMars \n(Planets and orbits are drawn to scale) \nP.S./E. Sci.\u2013June \u201918 \n[24] \n\n \n \n \n \n \n \n \n \n \n \nData Table \nEquatorial Diameter\nName of \nDistance from Kepler-62 \n(compared to Earth's\nPlanet \n(million kilometers) \ndiameter) \n62b \n8.23 \n1.31 \n62c \n13.76 \n0.54 \n62d \n17.95 \n1.95 \n62e \n63.88 \n1.6 \n62f \n107.41 \n1.4",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Describe the arrangement of the sediments found within the terminal moraine, which marks the farthest advance of the glacier.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the block diagram below and on your knowledge of Earth \nscience. The diagram represents glacial features formed by a continental glacier and its melt water. \nGlacier \nTerminal \nKettle Lakes \nMoraine\nGlacial \nStream",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "The cross sections below, labeled A, B, C, and D, represent four stages in the development of a kettle lake. The stages are not shown in the correct order. Stages in Kettle Lake Formation A B C D Water Block of Block of glacial ice glacial ice Melting ice block In your answer booklet, place the letters in the correct order to indicate the sequence of development of a kettle lake from earliest stage to latest stage.",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the block diagram below and on your knowledge of Earth \nscience. The diagram represents glacial features formed by a continental glacier and its melt water. \nGlacier \nTerminal \nKettle Lakes \nMoraine\nGlacial \nStream",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Terminal moraines found on Long Island were deposited during the advance and retreat of glacial ice during the last ice age. Identify, by name, the geologic epoch during which these moraines were deposited. P.S./ P.S./EARTH SCIENCE Printed on Recycled Paper P.S./EARTH SCIENCE",
+      "choices": [],
+      "image": "/images/exams/earth-science/june-2018/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the block diagram below and on your knowledge of Earth \nscience. The diagram represents glacial features formed by a continental glacier and its melt water. \nGlacier \nTerminal \nKettle Lakes \nMoraine\nGlacial \nStream",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

@@ -1,0 +1,1096 @@
+{
+  "subject": "living-environment",
+  "session": "january-2013",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which two cell structures work together in the process of protein synthesis?",
+      "choices": [
+        "nucleus and chloroplast",
+        "ribosome and vacuole",
+        "nucleus and ribosome",
+        "mitochondrion and cell membrane"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Prions are proteins that act as an infectious agent. They cause a variety of diseases, including \u201cMad Cow\u201d disease. Prions cannot produce more prions on their own, but cause the host organism to replicate more prions. Most scientists do not consider prions to be alive. A valid reason for accepting that prions are nonliving things is that",
+      "choices": [
+        "no living thing can cause a disease",
+        "proteins are inorganic molecules",
+        "prions contain all of the material needed to reproduce",
+        "prions cannot carry out reproduction independently"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which molecule can diffuse from the digestive tract into the human bloodstream without first being digested?",
+      "choices": [
+        "protein",
+        "starch",
+        "fat",
+        "glucose"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The nucleus of a cell coordinates processes and activities that take place in the cell. Which two systems perform a similar function in the human body?",
+      "choices": [
+        "nervous and endocrine",
+        "digestive and reproductive",
+        "circulatory and respiratory",
+        "skeletal and muscular"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The letters in the diagram below indicate some parts of a cell. The function of which cell part is most similar to that of the human excretory system?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/january-2013/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "In the summer, the arctic fox appears brown because its cells produce a dark pigment. However, in the winter, the arctic fox appears white because the dark pigment is not produced. The color change is most likely due to the effect of",
+      "choices": [
+        "different genes produced in the different seasons",
+        "increased pollution on genetic mutations",
+        "environmental conditions on gene expression",
+        "poor nutrition on cell growth and development"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Many years ago, a scientist grew pea plants that produced wrinkled peas. The peas from these plants produced new plants that also produced wrinkled peas. The scientist concluded that something in the parent plants was being transmitted to the next generation. This discovery is now known as",
+      "choices": [
+        "genetic engineering",
+        "biological evolution",
+        "heredity",
+        "natural selection A B C D"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The process represented in the diagram below occurs in many cells. The main function of this process is to",
+      "choices": [
+        "provide an exact copy of the genetic code",
+        "ensure genetic variation in a species",
+        "synthesize cellular proteins",
+        "produce antibodies to combat disease"
+      ],
+      "image": "/images/exams/living-environment/january-2013/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The Old English Bulldog is extinct. To produce a new English Bulldog, dogs having the desired physical features, but not the aggressive nature of the old bulldogs, were mated. The result was a bulldog that was similar in appearance to the extinct bulldog, but without its fierce nature. Which technique was most likely used to develop this new variety of dog?",
+      "choices": [
+        "cloning",
+        "inducing mutations",
+        "genetic engineering",
+        "selective breeding"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Structure A usually produces",
+      "choices": [
+        "sperm and eggs",
+        "testosterone and eggs",
+        "estrogen, progesterone, and eggs",
+        "estrogen, progesterone, and testosterone"
+      ],
+      "image": "/images/exams/living-environment/january-2013/context_10_11.png",
+      "context": "Base your answers to questions 10 and 11 on the\ndiagram below and on your knowledge of biology.\nThe diagram represents the human female \nreproductive system.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The placenta forms from the combination of fetal tissue and tissue from structure",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/january-2013/context_10_11.png",
+      "context": "Base your answers to questions 10 and 11 on the\ndiagram below and on your knowledge of biology.\nThe diagram represents the human female \nreproductive system.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which factor has the greatest influence on the development of new, inheritable characteristics?",
+      "choices": [
+        "combinations of genes resulting from mitosis",
+        "mutations of genes in reproductive cells",
+        "sorting of genes during asexual reproduction",
+        "recombining of genes during differentiation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "In 2007, scientists broke open a fossil of a dinosaur bone and found some preserved tissues. Analysis showed that some proteins in these tissues are very similar to proteins found in modern chickens. The conclusion that these dinosaurs are related to modern chickens is based on",
+      "choices": [
+        "molecular similarities",
+        "natural selection",
+        "similarities in behavior",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the bone arrangements in the front limbs of three different species of mammals. The similarities and differences in these limbs suggest that all three species developed from the same ancestor, but",
+      "choices": [
+        "produced different numbers of offspring",
+        "lived in different time periods",
+        "adapted to different habitats",
+        "migrated to similar habitats"
+      ],
+      "image": "/images/exams/living-environment/january-2013/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "For those individuals who have an allergic reaction to cats, a company in Los Angeles promises relief. They offer a new line of cats genetically modified to eliminate or reduce their allergy-causing properties. The development of this new line of cats most likely involved",
+      "choices": [
+        "using natural selection to produce a new variety of cat",
+        "altering the reproductive rate of cats",
+        "changing the behavior of cats",
+        "manipulating the DNA of cats"
+      ],
+      "image": "/images/exams/living-environment/january-2013/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Which process allows a mammal to continue to grow in size?",
+      "choices": [
+        "mitosis of sex cells",
+        "mitosis of body cells",
+        "meiosis of sex cells",
+        "meiosis of body cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "In 1970, a deadly disease spread through corn crops in the United States. Scientists discovered that 80 percent of the corn contained the gene that made the plants more likely to be infected with the disease. This problem might have been avoided if the cornfields across the country had had more",
+      "choices": [
+        "large predators to control parasite populations",
+        "selective mutations",
+        "genetic diversity",
+        "breeding of infected plants"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "According to the fossil record, which statement is accurate?",
+      "choices": [
+        "Most of the species that have lived on Earth no longer exist.",
+        "Most of the species that have lived on Earth still exist today.",
+        "Fossils of species that never existed can be found.",
+        "Fossils of species that never existed, but will exist in the future, can be found."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "An organism that reproduces asexually will have offspring that have",
+      "choices": [
+        "the same genetic information as both of its parents",
+        "different genetic information from either of its parents",
+        "the same genes as its parent",
+        "different genes from its parent"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Some sea slugs store chloroplasts obtained from algae they have ingested. The chloroplasts continue to carry out photosynthesis within the slugs. What advantage would this activity be to these sea slugs?",
+      "choices": [
+        "The slugs with chloroplasts can synthesize some of their own food.",
+        "The slugs with chloroplasts no longer need to carry out respiration.",
+        "The chloroplasts provide the slugs with camouflage that protects them from UV radiation.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The energy released when sugar molecules are broken down is stored in",
+      "choices": [
+        "minerals",
+        "ATP",
+        "DNA",
+        "wastes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Responses of the immune system to usually harmless environmental substances are known as",
+      "choices": [
+        "antigen production",
+        "chromosomal mutations",
+        "pathogens",
+        "allergies"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "People have been warned about the dangers of excessive exposure to radiation during certain medical procedures. The most likely reason for this warning is that radiation exposure might",
+      "choices": [
+        "result in gene mutations and uncontrolled cell growth",
+        "cause the rejection of transplanted organs",
+        "increase body temperature by two to five degrees",
+        "prevent the transport of materials into cells"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "A scientist was studying a population of fish in a pond over a period of 10 years. He observed that the population increased each year for 3 years, and then remained nearly constant for the rest of the study. The best explanation for this observation is that the population had",
+      "choices": [
+        "stopped reproducing",
+        "reached carrying capacity",
+        "mutated into a different species",
+        "run out of food and migrated to a different pond"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Increased human population growth usually results in",
+      "choices": [
+        "a decrease in the need for farming",
+        "a need for stronger environmental protection laws",
+        "lower levels of air and water pollution",
+        "an increase in natural wildlife habitats"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Four levels of an energy pyramid are represented below. Which statement about this energy pyramid is correct?",
+      "choices": [
+        "Organisms in level 4 receive their energy directly from the Sun.",
+        "Organisms in level 2 are carnivores.",
+        "Organisms in level 2 receive their energy from level 3.",
+        "Organisms in level 1 are autotrophic."
+      ],
+      "image": "/images/exams/living-environment/january-2013/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Growing exotic (nonnative) plant species in parks and gardens could lead directly to an increase in the",
+      "choices": [
+        "biodiversity of the autotrophs that feed on them",
+        "populations of native carnivores",
+        "competition between them and native producers",
+        "breeding between them and native herbivores"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Scientists have been concerned about the reduction of shark populations due to overfishing off the east coast of the United States. Sharks feed on rays, which feed on scallops. Scallops feed on microscopic algae, which they filter from seawater. Without sharks, the rays consume and eliminate scallop beds, harming the scallop fishing industry. This situation demonstrates that",
+      "choices": [
+        "sharks are not important for the stability of this ecosystem",
+        "reducing the shark population increases the quantity of scallops that can be harvested",
+        "humans can upset ecosystem stability by removing species",
+        "humans improve ecosystem diversity by removing predators 4 3 2 1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The diagram below represents changes in the sizes of openings present in leaves as a result of the actions of cells X and Y. The actions of cells X and Y help the plant to",
+      "choices": [
+        "maintain homeostasis by controlling water loss",
+        "store excess heat during the day and remove the heat at night",
+        "absorb light energy necessary for cellular respiration",
+        "detect changes in the biotic factors present in the environment"
+      ],
+      "image": "/images/exams/living-environment/january-2013/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The diagram represents the changes in an area over time. This series of changes in the area over hundreds of years is known as",
+      "choices": [
+        "evolution",
+        "feedback",
+        "ecological succession",
+        "direct harvesting Rock Soil Night Day Leaf pore (nearly closed) Cell X Cell Y Leaf pore (open)"
+      ],
+      "image": "/images/exams/living-environment/january-2013/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "How much water should be added to the graduated cylinder shown below to increase the volume to 15 milliliters?",
+      "choices": [
+        "11 mL",
+        "10 mL",
+        "3 mL",
+        "4 mL"
+      ],
+      "image": "/images/exams/living-environment/january-2013/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The process of inserting this gene into the DNA of a tomato plant is known as",
+      "choices": [
+        "selective breeding",
+        "genetic engineering",
+        "cloning",
+        "replication"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 32 and 33 on the\nstatement below and on your knowledge of biology.\nScientists have found a gene in the DNA of\na certain plant that could be the key to\nincreasing the amount of lycopene, a cancer-\nfighting substance, in tomatoes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The ability to produce increased amounts of lycopene will be passed on to new tomato cells as a direct result of",
+      "choices": [
+        "recycling",
+        "mitosis",
+        "enzyme action",
+        "gene expression"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 32 and 33 on the\nstatement below and on your knowledge of biology.\nScientists have found a gene in the DNA of\na certain plant that could be the key to\nincreasing the amount of lycopene, a cancer-\nfighting substance, in tomatoes.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The graph below shows the changes in the num- ber of individuals in a population who have a specific trait. Which statement concerning this trait is a valid inference?",
+      "choices": [
+        "As time passed, an increasing number of individuals with this trait survived and reproduced.",
+        "Individuals can acquire new survival characteristics over time and pass them on to their offspring.",
+        "The longer a species is in an environment, the less likely it is that mutations will occur within the species.",
+        "The number of traits a species possesses has a direct relationship to the amount of time the species will exist. Time Number of Individuals with a Specific Trait Change in Population 5 mL"
+      ],
+      "image": "/images/exams/living-environment/january-2013/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "This process represents a step in",
+      "choices": [
+        "asexual reproduction",
+        "heterotrophic nutrition",
+        "photosynthesis",
+        "diffusion"
+      ],
+      "image": "/images/exams/living-environment/january-2013/context_35_37.png",
+      "context": "Base your answers to questions 35 through 37 on the diagram below and your knowledge of biology. The\ndiagram represents an ameba, a single-celled organism, carrying out an essential life process.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "This process is essential to the survival of the ameba because it",
+      "choices": [
+        "provides materials used in cellular respiration",
+        "removes pathogens from the environment",
+        "supplies the raw materials for photosynthesis",
+        "protects the organism during development"
+      ],
+      "image": "/images/exams/living-environment/january-2013/context_35_37.png",
+      "context": "Base your answers to questions 35 through 37 on the diagram below and your knowledge of biology. The\ndiagram represents an ameba, a single-celled organism, carrying out an essential life process.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which two body systems allow humans to carry out the same life process as the ameba in the diagram?",
+      "choices": [
+        "endocrine and immune",
+        "respiratory and reproductive",
+        "digestive and circulatory",
+        "nervous and excretory"
+      ],
+      "image": "/images/exams/living-environment/january-2013/context_35_37.png",
+      "context": "Base your answers to questions 35 through 37 on the diagram below and your knowledge of biology. The\ndiagram represents an ameba, a single-celled organism, carrying out an essential life process.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The diagram below represents how HIV, the virus that causes AIDS, interacts with a certain type of white blood cell called a helper T-cell. What is one possible result of the cellular activity represented in the diagram?",
+      "choices": [
+        "Immune responses of an infected individual will be weakened.",
+        "The red blood cells of a person infected with AIDS will no longer be able to make antibodies.",
+        "This virus will strengthen future immune responses against blood-related diseases.",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2013/q38.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The diagram below represents the relationship between natural selection and variation. The arrow between them is labeled X. Which phrase best indicates the meaning of the arrow labeled X?",
+      "choices": [
+        "is dependent on",
+        "increases the rate of",
+        "decreases the rate of",
+        "is independent of"
+      ],
+      "image": "/images/exams/living-environment/january-2013/q39.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The chart below summarizes the effect of commercial fishing on a local Atlantic cod population over an 9-year period. Local Cod Population Study According to the chart, it can be concluded that",
+      "choices": [
+        "the number of fishing boats has less effect on the local cod population than pollution",
+        "more fishing boats make the cod population estimates more accurate",
+        "an increase in fishing boats has had a positive impact on cod population growth",
+        "commercial fishing is having a negative effect on the local cod population Year Number of Commercial Fishing Boats Estimated Population of Atlantic Cod (in thousands) 1995 4 14.0 1997 6 12.5 1999 12 11.5 2001 14 9.0 2003 17 4.5"
+      ],
+      "image": "/images/exams/living-environment/january-2013/q40.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The diagram below represents some stages that occur in the formation of an embryo. Which statement best describes stage X?",
+      "choices": [
+        "Stage X is a zygote and contains half the number of chromosomes as the body cells of the parents.",
+        "Stage X is formed by the process of meiosis and is known as a gamete.",
+        "Stage X is a zygote and is formed as a result of the process of fertilization.",
+        "Stage X is formed by mitosis and is known as an egg cell."
+      ],
+      "image": "/images/exams/living-environment/january-2013/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a sequence of events that occurs in the human body throughout the day. These events can best be described as an example of",
+      "choices": [
+        "an energy cycle",
+        "recycling of inorganic materials",
+        "a feedback mechanism",
+        "a learned behavior Insulin secretion Glucagon secretion Raises blood glucose level Lowers blood glucose level If glucose level rises above set point If glucose level falls below set point X"
+      ],
+      "image": "/images/exams/living-environment/january-2013/q42.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The graph below shows the changes in the size of a population over a period of time. Which environmental condition could have caused the change in the population size at A?",
+      "choices": [
+        "an increase in competition",
+        "a constant availability of shelter",
+        "a decrease in the size of its predators",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2013/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nIn order to determine the effect of a certain antibiotic on a species of microorganism,\nan investigation was carried out. A sample of a specific species of microorganism was added\nto 100 mL of a liquid culture medium. One mL of a solution of the antibiotic was then\nadded to that culture medium. Each day at 10 a.m., 1 mL of the experimental culture \nmedium was removed and the number of microorganisms in the 1-mL sample was\ndetermined. The 1 mL of experimental culture medium was replaced by 1 mL of new \nsterile culture medium to maintain a constant volume. The results are shown in the table\nbelow.\nChanges in Microorganism Population Size\nDay\n0\n1\n2\n3\n4\n5\n6\n7\nNumber of\nMicroorganisms\nin Sample\n1000\n500\n100\n50\n40\n200\n500\n1000\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on your separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data from the table. Surround each point with a small circle and connect the points.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nIn order to determine the effect of a certain antibiotic on a species of microorganism,\nan investigation was carried out. A sample of a specific species of microorganism was added\nto 100 mL of a liquid culture medium. One mL of a solution of the antibiotic was then\nadded to that culture medium. Each day at 10 a.m., 1 mL of the experimental culture \nmedium was removed and the number of microorganisms in the 1-mL sample was\ndetermined. The 1 mL of experimental culture medium was replaced by 1 mL of new \nsterile culture medium to maintain a constant volume. The results are shown in the table\nbelow.\nChanges in Microorganism Population Size\nDay\n0\n1\n2\n3\n4\n5\n6\n7\nNumber of\nMicroorganisms\nin Sample\n1000\n500\n100\n50\n40\n200\n500\n1000\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on your separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Why was the 1 mL of experimental culture medium that was removed each day replaced by 1 mL of sterile culture medium?",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nIn order to determine the effect of a certain antibiotic on a species of microorganism,\nan investigation was carried out. A sample of a specific species of microorganism was added\nto 100 mL of a liquid culture medium. One mL of a solution of the antibiotic was then\nadded to that culture medium. Each day at 10 a.m., 1 mL of the experimental culture \nmedium was removed and the number of microorganisms in the 1-mL sample was\ndetermined. The 1 mL of experimental culture medium was replaced by 1 mL of new \nsterile culture medium to maintain a constant volume. The results are shown in the table\nbelow.\nChanges in Microorganism Population Size\nDay\n0\n1\n2\n3\n4\n5\n6\n7\nNumber of\nMicroorganisms\nin Sample\n1000\n500\n100\n50\n40\n200\n500\n1000\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on your separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The microorganisms present on day 5 were",
+      "choices": [
+        "newly added from the sterile culture medium",
+        "offspring of antibiotic-resistant individuals",
+        "organisms that were all present on day 1",
+        "offspring with no resistance to the antibiotic Day Number of Microorganisms in Sample Changes in Microorganism Population Size Example:"
+      ],
+      "image": "/images/exams/living-environment/january-2013/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information below and on your knowledge of biology.\nIn order to determine the effect of a certain antibiotic on a species of microorganism,\nan investigation was carried out. A sample of a specific species of microorganism was added\nto 100 mL of a liquid culture medium. One mL of a solution of the antibiotic was then\nadded to that culture medium. Each day at 10 a.m., 1 mL of the experimental culture \nmedium was removed and the number of microorganisms in the 1-mL sample was\ndetermined. The 1 mL of experimental culture medium was replaced by 1 mL of new \nsterile culture medium to maintain a constant volume. The results are shown in the table\nbelow.\nChanges in Microorganism Population Size\nDay\n0\n1\n2\n3\n4\n5\n6\n7\nNumber of\nMicroorganisms\nin Sample\n1000\n500\n100\n50\n40\n200\n500\n1000\nPart B\u20132\nAnswer all questions in this part.  [12]\nDirections (44\u201355): For those questions that are multiple choice, record on your separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all\nother questions in this part, follow the directions given and record your answers in the spaces provided in this\nexamination booklet.\n\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid, following the\ndirections below.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "The image of the specimen viewed using high power with this microscope will appear larger than when viewed using low power. State one other way the image of the specimen as seen using high power would differ from the image as seen using low power.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the diagram of a compound light microscope below and on\nyour knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "What is the total magnification of this microscope using the high-power objective lens?",
+      "choices": [
+        "43\u00d7",
+        "53\u00d7",
+        "100\u00d7",
+        "430\u00d7 I I I I I I I I I I I I 10x 10x 43"
+      ],
+      "image": "/images/exams/living-environment/january-2013/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the diagram of a compound light microscope below and on\nyour knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "What is the relationship between a wolf and a moose?",
+      "choices": [
+        "wolf\u2013prey; moose\u2013predator",
+        "wolf\u2013parasite; moose\u2013host",
+        "wolf\u2013predator; moose\u2013decomposer",
+        "wolf\u2013predator; moose\u2013prey"
+      ],
+      "image": "/images/exams/living-environment/january-2013/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the graph below and on your knowledge of biology. The graph\nshows interactions of moose and wolf populations on Isle Royale.\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State one possible reason for the change in the moose population between 1995 and 1997. Wolf and Moose Populations on Isle Royale, 1960 to 1999 Year 60 50 40 30 20 10 0 1960 1965 1970 1975 1980 1985 1990 1995 2000 Number of Wolves 2,500 2,000 1,500 1,000 500 Number of Moose Moose Wolves",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the graph below and on your knowledge of biology. The graph\nshows interactions of moose and wolf populations on Isle Royale.\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Which species is most likely an herbivore? Support your answer with data from the table. Species: ________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_52_53.png",
+      "context": "Base your answers to questions 52 and 53 on the table below and on your knowledge of biology.\nSpecies A, B, C, and D are all different heterotrophs involved in the same food chain in\nan ecosystem. The table below shows the population of each of these species on one \nsummer day.\nHeterotroph Population",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "There are groups of organisms that must be present in this ecosystem that are not shown in the table. Identify one of these groups of organisms and state the role of this group in this ecosystem. Group: ________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_52_53.png",
+      "context": "Base your answers to questions 52 and 53 on the table below and on your knowledge of biology.\nSpecies A, B, C, and D are all different heterotrophs involved in the same food chain in\nan ecosystem. The table below shows the population of each of these species on one \nsummer day.\nHeterotroph Population",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the type of building block represented by the letters A, B, and C. ___________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the diagram below and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "If the sequence of building blocks were changed, what effect could it most likely have on the protein? Building block A + Building block B + Building block C Protein . . . + Species Population A 85 B 847 C 6 D 116",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the diagram below and on your knowledge of biology.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "State the specific expected result of administering these vaccines to child B.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_56_57.png",
+      "context": "Base your answers to questions 56 and 57 on the data table below and on your knowledge of biology.\nVaccines Received by Children",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify the system that will directly respond to these vaccines, and state the specific expected response. System: ________________________________ Response:",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_56_57.png",
+      "context": "Base your answers to questions 56 and 57 on the data table below and on your knowledge of biology.\nVaccines Received by Children",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "58\u201359 Nutrients in a diet, such as proteins, carbohydrates, and minerals, play an important role in homeostasis within the human body. Lack of these nutrients can lead to malfunctions that disrupt this internal balance. Explain how diet can influence homeostasis. In your answer, be sure to: \u2022 select a nutrient from the passage and write it on the line below and state one role this nutrient plays in the body \u2022 describe, using one specific example, how a decrease in this nutrient can alter homeostasis Nutrient: ________________________________ Patient Measles Vaccine Polio Vaccine child A \u0013 child B \u0013 \u0013 child C \u0013",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "State one hypothesis this experiment would test.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_60_63.png",
+      "context": "Base your answers to questions 60 through 63 on the information below and on your knowledge of \nbiology.\nA student wants to bake the biggest loaf of bread in the local baking contest. Each \ncontestant must use the same amounts of flour, sugar, and yeast, but is allowed to vary the\ntype of sugar. Yeast is a microorganism that carries out cellular respiration, which produces \ncarbon dioxide, making the bread rise. The student designs an experiment using the setup\nbelow to determine which sugar source (glucose, sucrose, or fructose) will cause the yeast\nto produce the most carbon dioxide and therefore, the biggest loaf of bread.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "61",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_60_63.png",
+      "context": "Base your answers to questions 60 through 63 on the information below and on your knowledge of \nbiology.\nA student wants to bake the biggest loaf of bread in the local baking contest. Each \ncontestant must use the same amounts of flour, sugar, and yeast, but is allowed to vary the\ntype of sugar. Yeast is a microorganism that carries out cellular respiration, which produces \ncarbon dioxide, making the bread rise. The student designs an experiment using the setup\nbelow to determine which sugar source (glucose, sucrose, or fructose) will cause the yeast\nto produce the most carbon dioxide and therefore, the biggest loaf of bread.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "In addition to bottles A, B, and C, the student sets up a control bottle, D. Write the contents of bottle D on the blank line on the diagram below.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_60_63.png",
+      "context": "Base your answers to questions 60 through 63 on the information below and on your knowledge of \nbiology.\nA student wants to bake the biggest loaf of bread in the local baking contest. Each \ncontestant must use the same amounts of flour, sugar, and yeast, but is allowed to vary the\ntype of sugar. Yeast is a microorganism that carries out cellular respiration, which produces \ncarbon dioxide, making the bread rise. The student designs an experiment using the setup\nbelow to determine which sugar source (glucose, sucrose, or fructose) will cause the yeast\nto produce the most carbon dioxide and therefore, the biggest loaf of bread.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "State one assumption the student makes in deciding which type of sugar should be used to produce the biggest loaf of bread.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_60_63.png",
+      "context": "Base your answers to questions 60 through 63 on the information below and on your knowledge of \nbiology.\nA student wants to bake the biggest loaf of bread in the local baking contest. Each \ncontestant must use the same amounts of flour, sugar, and yeast, but is allowed to vary the\ntype of sugar. Yeast is a microorganism that carries out cellular respiration, which produces \ncarbon dioxide, making the bread rise. The student designs an experiment using the setup\nbelow to determine which sugar source (glucose, sucrose, or fructose) will cause the yeast\nto produce the most carbon dioxide and therefore, the biggest loaf of bread.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Some owners of beautifully landscaped homes along the shores of the Finger Lakes use fertilizer on their lawns. When it rains,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Which diagram, A or B, most accurately represents interactions between biotic and abiotic factors in a forest environment? Support your answer. Diagram: ________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_65_68.png",
+      "context": "Base your answers to questions 65 through 68 on the diagrams below and on your knowledge of biology. The\ndiagrams represent how various populations interact in a forest environment.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "State what would most likely happen to one other population in this food web if all the squirrels and rabbits were suddenly killed by a viral disease. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_65_68.png",
+      "context": "Base your answers to questions 65 through 68 on the diagrams below and on your knowledge of biology. The\ndiagrams represent how various populations interact in a forest environment.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "If this forest community experienced a severe lack of rain throughout the spring and summer seasons, state what effect this drought could have on the grouse population. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_65_68.png",
+      "context": "Base your answers to questions 65 through 68 on the diagrams below and on your knowledge of biology. The\ndiagrams represent how various populations interact in a forest environment.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "State one possible reason why the deer population could remain relatively constant, even though the number of berry bushes and berries varies from year to year. Rabbits Cougars Deer Molds, bacteria, yeasts A Sun Grouse Weasels Beetles Squirrels Oak trees and acorns Berry bushes and berries Hickory trees and nuts Raw materials from the soil Foxes Rabbits Cougars Deer Molds, bacteria,",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_65_68.png",
+      "context": "Base your answers to questions 65 through 68 on the diagrams below and on your knowledge of biology. The\ndiagrams represent how various populations interact in a forest environment.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_69_72.png",
+      "context": "Base your answer to question 69\u201372 on the information and graph below and on your knowledge of \nbiology.\nAt an observatory in Mauna Loa, Hawaii, scientists have been measuring and collecting\ndata related to changes in the atmosphere since the 1950s. The remote location of the\nobservatory makes it ideal for studying atmospheric conditions that can cause climate\nchange. One specific measurement taken is the amount of atmospheric carbon dioxide.\nInformation for a 7-year period is shown in the graph below.\n69\u201372 Analyze the data shown in the graph. In your answer, be sure to:\n\u2022 state the overall relationship between time and carbon dioxide levels   [1]\n\u2022 state one possible cause for the overall change in the carbon dioxide levels shown in the graph   [1]\n\u2022 identify the biological process that might account for the decreases in carbon dioxide levels   [1]\n\u2022 identify two actions carried out by humans that could lower carbon dioxide levels   [1] \nAtmospheric Carbon Dioxide \u2013 Mauna Loa\nCarbon Dioxide (ppm)\n380\n375\n370\n365\n360\n355\n350\n345\nTime\nJan-95\nJan-96\nJan-97\nJan-98\nJan-99    Jan-00     Jan-01    Jan-02\nSource: www.mlo.noaa.gov\n\nLiving Environment\u2013Jan. \u201913\n[22]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "69\u201372 Analyze the data shown in the graph. In your answer, be sure to: \u2022 state the overall relationship between time and carbon dioxide levels \u2022 state one possible cause for the overall change in the carbon dioxide levels shown in the graph \u2022 identify the biological process that might account for the decreases in carbon dioxide levels \u2022 identify two actions carried out by humans that could lower carbon dioxide levels Atmospheric Carbon Dioxide \u2013 Mauna Loa Carbon Dioxide (ppm) 380 375 370 365 360 355 350 345 Time Jan-95 Jan-96 Jan-97 Jan-98 Jan-99 Jan-00 Jan-01 Jan-02 Source:",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_69_72.png",
+      "context": "Base your answer to question 69\u201372 on the information and graph below and on your knowledge of \nbiology.\nAt an observatory in Mauna Loa, Hawaii, scientists have been measuring and collecting\ndata related to changes in the atmosphere since the 1950s. The remote location of the\nobservatory makes it ideal for studying atmospheric conditions that can cause climate\nchange. One specific measurement taken is the amount of atmospheric carbon dioxide.\nInformation for a 7-year period is shown in the graph below.\n69\u201372 Analyze the data shown in the graph. In your answer, be sure to:\n\u2022 state the overall relationship between time and carbon dioxide levels   [1]\n\u2022 state one possible cause for the overall change in the carbon dioxide levels shown in the graph   [1]\n\u2022 identify the biological process that might account for the decreases in carbon dioxide levels   [1]\n\u2022 identify two actions carried out by humans that could lower carbon dioxide levels   [1] \nAtmospheric Carbon Dioxide \u2013 Mauna Loa\nCarbon Dioxide (ppm)\n380\n375\n370\n365\n360\n355\n350\n345\nTime\nJan-95\nJan-96\nJan-97\nJan-98\nJan-99    Jan-00     Jan-01    Jan-02\nSource: www.mlo.noaa.gov\n\nLiving Environment\u2013Jan. \u201913\n[22]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "The success of the finches on the Galapagos was most likely due to the",
+      "choices": [
+        "large numbers of other birds competing for food",
+        "mutations occurring in every offspring",
+        "birds occupying the same island",
+        "birds adapting to different niches"
+      ],
+      "image": "/images/exams/living-environment/january-2013/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the\ninformation and diagram below and on your \nknowledge of biology.\nFinches on the Galapagos Islands are\nthought to have originated from South America\nand to have evolved into new species over the\nlast 10,000 years. Some of this evolution is\nrepresented in the diagram below.\nNote: The answers to questions 73 and 74\nshould be recorded on your separate answer\nsheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "The seed-eating finch was most likely the",
+      "choices": [
+        "largest finch",
+        "common ancestor",
+        "parent of the other finches",
+        "most successful"
+      ],
+      "image": "/images/exams/living-environment/january-2013/context_73_74.png",
+      "context": "Base your answers to questions 73 and 74 on the\ninformation and diagram below and on your \nknowledge of biology.\nFinches on the Galapagos Islands are\nthought to have originated from South America\nand to have evolved into new species over the\nlast 10,000 years. Some of this evolution is\nrepresented in the diagram below.\nNote: The answers to questions 73 and 74\nshould be recorded on your separate answer\nsheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "The fatigue is due to",
+      "choices": [
+        "an increase of metabolic waste products in the muscles",
+        "an increase in the pulse rate of the student",
+        "a decrease of metabolic waste products in the muscles",
+        "a decrease in the pulse rate of the student"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 75 and 76 on the\ninformation below and on your knowledge of biology.\nA student is opening and closing clothes-\npins as part of a lab activity. The student begins\nto experience muscle fatigue, and the rate at\nwhich the student is opening and closing the \nclothespins slows.\nNote: The answers to questions 75 and 76\nshould be recorded on your separate answer\nsheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "In order for the muscle fatigue to end, the muscle cells must be provided with",
+      "choices": [
+        "oxygen",
+        "nitrogen",
+        "carbon dioxide",
+        "amino acids Darwin\u2019s Finches Adaptive Radiation Buds/Fruit Leaves Seeds Grubs Tool-using finch Insects"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 75 and 76 on the\ninformation below and on your knowledge of biology.\nA student is opening and closing clothes-\npins as part of a lab activity. The student begins\nto experience muscle fatigue, and the rate at\nwhich the student is opening and closing the \nclothespins slows.\nNote: The answers to questions 75 and 76\nshould be recorded on your separate answer\nsheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify the beak type that would be characteristic of predators of small mammals. ___________________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_77_78.png",
+      "context": "Base your answers to questions 77 and 78 on the information below and on your knowledge of biology.\nThe chart describes the beaks of various types of birds that live in a small island \necosystem containing flowering land plants, aquatic plants, many small mammals, \namphibians, and several species of trees.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Identify one kind of bird that would show an immediate decrease in number if the flowering land plants were destroyed by an environmental change. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/context_77_78.png",
+      "context": "Base your answers to questions 77 and 78 on the information below and on your knowledge of biology.\nThe chart describes the beaks of various types of birds that live in a small island \necosystem containing flowering land plants, aquatic plants, many small mammals, \namphibians, and several species of trees.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "To determine the effect of fatigue on the action of muscles, each of five boys was given a 12-cm clothespin and each of five girls was given a 10-cm clothespin. The students squeezed the clothespins for 30 seconds and recorded the results. After the first trial, the girls rested and the boys jogged in place for 1 minute. A second trial was then done to determine how many times each student could squeeze the clothespin in 45 seconds. Identify one error in the design of this experiment. Beak Shape Beak Type Adaptation and Use Cracker Shredder Chisel Probe Strainer Seed eaters like sparrows and cardinals have short, thick beaks for cracking seeds. Birds of prey like hawks and owls have sharp, curved beaks for tearing meat. Woodpeckers have beaks that are long and chisel-like for boring into wood to eat insects. Hummingbirds have beaks that are long and thin for probing flowers for nectar. Some ducks have long,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "The diagram below represents the results of chromatography of leaf pigments from four plant species, A, B, C, and D. Which plant species has pigments most similar to those in A? Support your answer using data from the chromatogram. Plant species: ________________________________",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/q80.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Which statement best describes what will most likely happen after several minutes?",
+      "choices": [
+        "The contents of the model cell will change color.",
+        "The liquid outside the model cell will change color.",
+        "The model cell will shrink.",
+        "The model cell will rupture."
+      ],
+      "image": "/images/exams/living-environment/january-2013/context_81_82.png",
+      "context": "Base your answers to questions 81 and 82 on the diagram below and on your knowledge of biology. The\ndiagram represents a model cell setup. The locations of three different substances are indicated in the diagram.\nNote: The answers to questions 81 and 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "Which row in the chart below best explains the movement of some molecules between the model cell and the solution in the beaker? Row Direction of Flow of Molecules Energy Use",
+      "choices": [
+        "from high to low concentration without using cellular energy",
+        "from high to low concentration using cellular energy",
+        "from low to high concentration without using cellular energy",
+        "from low to high concentration using cellular energy S = Starch G = Glucose I ="
+      ],
+      "image": "/images/exams/living-environment/january-2013/context_81_82.png",
+      "context": "Base your answers to questions 81 and 82 on the diagram below and on your knowledge of biology. The\ndiagram represents a model cell setup. The locations of three different substances are indicated in the diagram.\nNote: The answers to questions 81 and 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "In the DNA Sequences chart, circle the number over each three-letter portion of the DNA that is different in humans and cows. DNA Sequences 1 2 3 4 5 6 7 8",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/q83.png",
+      "context": "Base your answers to questions 83 through 85 on the chart below and on your knowledge of biology. The\nDNA Sequences chart shows a portion of the code for insulin in humans and cows. These DNA sequences are\nrepeated in the Human Insulin and Cow Insulin charts.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "For each number circled for the DNA sequences above, write the complementary mRNA base sequence in the Human Insulin and Cow Insulin charts that each of these circled portions would produce. Be sure to complete only the circled portions. Human Insulin 1 2 3 4 5 6 7 8 Cow Insulin 1 2 3 4 5 6 7 8",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/q84.png",
+      "context": "Base your answers to questions 83 through 85 on the chart below and on your knowledge of biology. The\nDNA Sequences chart shows a portion of the code for insulin in humans and cows. These DNA sequences are\nrepeated in the Human Insulin and Cow Insulin charts.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Use the Universal Genetic Code Chart below to determine the amino acid coded for by each mRNA base sequence written in the Human Insulin and Cow Insulin charts. SECOND BASE T H I R D B A S E F I R S T B A S E C A G U C A G U C A G UUU UUC UUA UUG CUU CUC CUA CUG AUU AUC AUA AUG GUU GUC GUA GUG UCU UCC UCA UCG CCU CCC CCA CCG ACU ACC ACA ACG GCU GCC GCA GCG UAU UAC UAA UAG CAU CAC CAA CAG AAU AAC AAA AAG GAU GAC GAA GAG UGU UGC UGA UGG CGU CGC CGA CGG AGU AGC AGA AGG GGU GGC GGA GGG U C A G U C A G U C A G PHE LEU LEU ILE MET or START VAL SER PRO THR ALA TYR STOP HIS GLN ASN LYS ASP GLU ARG SER ARG GLY CYS STOP TRP Universal Genetic Code Chart Messenger RNA Codons and the Amino Acids for Which They Code U LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2013/q85.png",
+      "context": "Base your answers to questions 83 through 85 on the chart below and on your knowledge of biology. The\nDNA Sequences chart shows a portion of the code for insulin in humans and cows. These DNA sequences are\nrepeated in the Human Insulin and Cow Insulin charts.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

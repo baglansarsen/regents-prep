@@ -1,4 +1,4 @@
-import { TOPICS, TOPIC_ICONS, QUESTIONS_PER_DIAGNOSTIC_TOPIC } from '../data/questions'
+import { TOPICS, TOPIC_ICONS, QUESTIONS_PER_DIAGNOSTIC_TOPIC } from '@content/questions'
 
 const TOPIC_ORDER = Object.values(TOPICS)
 

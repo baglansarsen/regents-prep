@@ -1,0 +1,496 @@
+{
+  "subject": "geometry",
+  "session": "august-2017",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "A two-dimensional cross section is taken of a three-dimensional object. If this cross section is a triangle, what can not be the three- dimensional object?",
+      "choices": [
+        "cone",
+        "cylinder",
+        "pyramid",
+        "rectangular prism"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The image of \u0002DEF is \u0002D\u0002E\u0002F\u0002. Under which transformation will the triangles not be congruent?",
+      "choices": [
+        "a reflection through the origin",
+        "a reflection over the line y \u0003 x",
+        "a dilation with a scale factor of 1 centered at (2,3)",
+        "a dilation with a scale factor of centered at the origin"
+      ],
+      "image": "/images/exams/geometry/august-2017/q2.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "The vertices of square RSTV have coordinates R(\u00041,5), S(\u00043,1), T(\u00047,3), and V(\u00045,7). What is the perimeter of RSTV?",
+      "choices": [
+        "",
+        "",
+        "",
+        "40 4 40 20 4 20 3 2 Part I Answer all 24 questions in this part. Each correct answer will receive 2 credits. No partial credit will be allowed. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For each statement or question, choose the word or expression that, of those given,"
+      ],
+      "image": "/images/exams/geometry/august-2017/q3.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "In the diagram below of circle O, chord is parallel to diameter and What is",
+      "choices": [
+        "25",
+        "50",
+        "65",
+        "115"
+      ],
+      "image": "/images/exams/geometry/august-2017/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "In the diagram below, intersects at C, and If CD \u0003 6.6 cm, DE \u0003 3.4 cm, CE \u0003 4.2 cm, and BC \u0003 5.25 cm, what is the length of , to the nearest hundredth of a centimeter?",
+      "choices": [
+        "2.70",
+        "3.34",
+        "5.28",
+        "8.25 AC C E D B A AD BE AB DE || . mAC \u0002? A D O B C AOB mCD \u0002 \u0003130"
+      ],
+      "image": "/images/exams/geometry/august-2017/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "As shown in the graph below, the quadrilateral is a rectangle. Which transformation would not map the rectangle onto itself?",
+      "choices": [
+        "a reflection over the x-axis",
+        "a reflection over the line x \u0003 4",
+        "a rotation of 180\u00b0 about the origin",
+        "a rotation of 180\u00b0 about the point (4,0)"
+      ],
+      "image": "/images/exams/geometry/august-2017/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "In the diagram below, triangle ACD has points B and E on sides and , respectively, such that , AB \u0003 1, BC \u0003 3.5, and AD \u0003 18. What is the length of , to the nearest tenth?",
+      "choices": [
+        "14.0",
+        "5.1",
+        "3.3",
+        "4.0 AE 18 A D C B E 1 3.5 BE CD ||"
+      ],
+      "image": "/images/exams/geometry/august-2017/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "In the diagram below of parallelogram ROCK, m\u2220C is 70\u00b0 and m\u2220ROS is 65\u00b0. What is m\u2220KSO?",
+      "choices": [
+        "45\u00b0",
+        "110\u00b0",
+        "115\u00b0",
+        "135\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2017/q8.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "In the diagram below, \u2220GRS \u0002 \u2220ART, GR \u0003 36, SR \u0003 45, AR \u0003 15, and RT \u0003 18. Which triangle similarity statement is correct?",
+      "choices": [
+        "\u0002GRS \u0003 \u0002ART by AA.",
+        "\u0002GRS \u0003 \u0002ART by SAS.",
+        "\u0002GRS \u0003 \u0002ART by SSS.",
+        "\u0002GRS is not similar to \u0002ART."
+      ],
+      "image": "/images/exams/geometry/august-2017/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The line represented by the equation 4y \u0003 3x \u0005 7 is transformed by a dilation centered at the origin. Which linear equation could represent its image?",
+      "choices": [
+        "3x \u0004 4y \u0003 9",
+        "3x \u0005 4y \u0003 9",
+        "4x \u0004 3y \u0003 9",
+        "4x \u0005 3y \u0003 9 A G T 36 45 S R 15 18 C S O R K 65\u0002 70\u0002"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Given \u0002ABC with m\u2220B \u0003 62\u00b0 and side extended to D, as shown below. Which value of x makes ?",
+      "choices": [
+        "59\u00b0",
+        "62\u00b0",
+        "118\u00b0",
+        "121\u00b0"
+      ],
+      "image": "/images/exams/geometry/august-2017/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "In the diagram shown below, is tangent to circle T at A, and secant is drawn where point B is on circle T. If PB \u0003 3 and BC \u0003 15, what is the length of ?",
+      "choices": [
+        "",
+        "",
+        "3",
+        "9 AB CB \u0002 AC \u0003 \u0004 \u0005 \u0006 \u0007 \b \u0002 3 6 3 5"
+      ],
+      "image": "/images/exams/geometry/august-2017/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "A rectangle whose length and width are 10 and 6, respectively, is shown below. The rectangle is continuously rotated around a straight line to form an object whose volume is 150\u03c0. Which line could the rectangle be rotated around?",
+      "choices": [
+        "a long side",
+        "a short side",
+        "the vertical line of symmetry",
+        "the horizontal line of symmetry"
+      ],
+      "image": "/images/exams/geometry/august-2017/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "If ABCD is a parallelogram, which statement would prove that ABCD is a rhombus?",
+      "choices": [
+        "\u2220ABC \u0002 \u2220CDA",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/geometry/august-2017/q14.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "To build a handicapped-access ramp, the building code states that for every 1 inch of vertical rise in height, the ramp must extend out 12 inches horizontally, as shown in the diagram below. What is the angle of inclination, x, of this ramp, to the nearest hundredth of a degree?",
+      "choices": [
+        "4.76",
+        "4.78",
+        "85.22",
+        "85.24 x\u0002 12 1 AC BD \u0002 AB CD \u22a5 AC BD \u22a5 6 10"
+      ],
+      "image": "/images/exams/geometry/august-2017/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "In the diagram below of \u0002ABC, D, E, and F are the midpoints of , , and , respectively. What is the ratio of the area of \u0002CFE to the area of \u0002CAB?",
+      "choices": [
+        "1:1",
+        "1:2",
+        "1:3",
+        "1:4"
+      ],
+      "image": "/images/exams/geometry/august-2017/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2017/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A D C B E 1 3.5 BE CD || 8 In the diagram below of parallelogram ROCK, m\u2220C is 70\u00b0 and m\u2220ROS is 65\u00b0. What is m\u2220KSO?",
+      "choices": [
+        "LM \u0003 13 and KN \u0003 6",
+        "LM \u0003 12 and NM \u0003 9",
+        "KL \u0003 11 and KN \u0003 7",
+        "LN \u0003 8 and NM \u0003 10 CA AB K L M 16"
+      ],
+      "image": "/images/exams/geometry/august-2017/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "In right triangle ABC, m\u2220A \u0003 32\u00b0, m\u2220B \u0003 90\u00b0, and AC \u0003 6.2 cm. What is the length of , to the nearest tenth of a centimeter?",
+      "choices": [
+        "3.3",
+        "3.9",
+        "5.3",
+        "11.7"
+      ],
+      "image": "/images/exams/geometry/august-2017/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The 2010 U.S. Census populations and population densities are shown in the table below. Based on the table above, which list has the states\u2019 areas, in square miles, in order from largest to smallest?",
+      "choices": [
+        "Illinois, Florida, New York, Pennsylvania",
+        "New York, Florida, Illinois, Pennsylvania",
+        "New York, Florida, Pennsylvania, Illinois",
+        "Pennsylvania, New York, Florida, Illinois"
+      ],
+      "image": "/images/exams/geometry/august-2017/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "In a right triangle, sin (40 \u0004 x)\u00b0 \u0003 cos (3x)\u00b0. What is the value of x?",
+      "choices": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A regular decagon is rotated n degrees about its center, carrying the decagon onto itself. The value of n could be",
+      "choices": [
+        "10\u00b0",
+        "150\u00b0",
+        "225\u00b0",
+        "252\u00b0 BC State Population Density people mi2 \u239b \u239d\u239c \u239e \u23a0\u239f Population in 2010 Florida 350.6 18,801,310 Illinois 231.1 12,830,632 New York 411.2 19,378,102 Pennsylvania 283.9 12,702,379"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "In a circle with a diameter of 32, the area of a sector is . The measure of the angle of the sector, in radians, is",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/geometry/august-2017/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "What is an equation of the perpendicular bisector of the line segment shown in the diagram below?",
+      "choices": [
+        "y \u0005 2x \u0003 0",
+        "y \u0004 2x \u0003 0",
+        "2y \u0005 x \u0003 0",
+        "2y \u0004 x \u0003 0 y x 64 \u03c0 3 16\u03c0 3 4\u03c0 3 \u03c0 3 512\u03c0 3 Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/geometry/august-2017/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Sue believes that the two cylinders shown in the diagram below have equal volumes. Is Sue correct? Explain why. 5 m 11.5 m 10 m 11.5 m 12",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2017/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "In the diagram of rhombus PQRS below, the diagonals and intersect at point T, PR \u0003 16, and QS \u0003 30",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2017/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Quadrilateral MATH and its image M\u0006A\u0006T\u0006H\u0006 are graphed on the set of axes below. Describe a sequence of transformations that maps quadrilateral MATH onto quadrilateral M\u0006A\u0006T\u0006H\u0006. y x T\u0006 A\u0006 M\u0006 H T A M H\u0006",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2017/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Using a compass and straightedge, construct a regular hexagon inscribed in circle O. [Leave all construction marks.]",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2017/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "The coordinates of the endpoints of are A(2,3) and B(5,\u20131). Determine the length of , the image of , after a dilation of centered at the origin. [The use of the set of axes below is optional.] 1 2 A B \u0002 \u0002",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2017/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "In the diagram below of \u0002ABC and \u0002XYZ, a sequence of rigid motions maps \u2220A onto \u2220X, \u2220C onto \u2220Z, and onto . Determine and state whether . Explain why. BC YZ \u0002 X Z Y A C B XZ AC",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2017/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Determine and state the coordinates of the center and the length of the radius of a circle whose equation is x2 \u0005 y2 \u0004 6x \u0003 56 \u0004 8",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Triangle PQR has vertices P(\u00043,\u00041), Q(\u00041,7), and R(3,3), and points A and B are midpoints of and , respectively. Use coordinate geometry to prove that is parallel to and is half the length of . [The use of the set of axes below is optional.] PQ PR PR AB RQ y x Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2017/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "In the diagram below of circle O, tangent is drawn to diameter . Chord is parallel to secant , and chord is drawn. Prove: BC CA AB EC \u0003 A B O D C E AB ADE \u0003 \u0004 \u0003\u0003\u0003\u0003 BC AC EC \u0005 \u0004 \u0003\u0003",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2017/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Keira has a square poster that she is framing and placing on her wall. The poster has a diagonal 58 cm long and fits exactly inside the frame. The width of the frame around the picture is 4 cm. Determine and state the total area of the poster and frame to the nearest tenth of a square centimeter. 4 cm 58",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2017/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Isosceles trapezoid ABCD has bases and with nonparallel legs and . Segments AE, BE, CE, and DE are drawn in trapezoid ABCD such that \u2220CDE \u0002 \u2220DCE, and Prove \u0002ADE \u0002 \u0002BCE and prove \u0002AEB is an isosceles triangle. BC AD D C E A B BE CE \u22a5 . AE DE \u22a5 , AB DC Part IV Answer the 2 questions in this part. Each correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2017/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/geometry/august-2017/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "S R 15 18 C S O R K 65\u0002 70\u0002 11 Given \u0002ABC with m\u2220B \u0003 62\u00b0 and side extended to D, as shown below. Which value of x makes ?",
+      "choices": [
+        "y \u0005 2x \u0003 0",
+        "y \u0004 2x \u0003 0",
+        "2y \u0005 x \u0003 0",
+        "2y \u0004 x \u0003 0 y x 64 \u03c0 3 16\u03c0 3 4\u03c0 3 \u03c0 3 512\u03c0 3 Part II Answer all 7 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. 25 Sue believes that the two cylinders shown in the diagram below have equal volumes. Is Sue correct? Explain why. 5 m 11.5 m 10 m 11.5 m 12 26 In the diagram of rhombus PQRS below, the diagonals and intersect at point T, PR \u0003 16, and QS \u0003 30 27 Quadrilateral MATH and its image M\u0006A\u0006T\u0006H\u0006 are graphed on the set of axes below. Describe a sequence of transformations that maps quadrilateral MATH onto quadrilateral M\u0006A\u0006T\u0006H\u0006. y x T\u0006 A\u0006 M\u0006 H T A M H\u0006 28 Using a compass and straightedge, construct a regular hexagon inscribed in circle O. [Leave all construction marks.] 29 The coordinates of the endpoints of are A(2,3) and B(5,\u20131). Determine the length of , the image of , after a dilation of centered at the origin. [The use of the set of axes below is optional.] 1 2 A B \u0002 \u0002 30 In the diagram below of \u0002ABC and \u0002XYZ, a sequence of rigid motions maps \u2220A onto \u2220X, \u2220C onto \u2220Z, and onto . Determine and state whether . Explain why. BC YZ \u0002 X Z Y A C B XZ AC 31 Determine and state the coordinates of the center and the length of the radius of a circle whose equation is x2 \u0005 y2 \u0004 6x \u0003 56 \u0004 8 32 Triangle PQR has vertices P(\u00043,\u00041), Q(\u00041,7), and R(3,3), and points A and B are midpoints of and , respectively. Use coordinate geometry to prove that is parallel to and is half the length of . [The use of the set of axes below is optional.] PQ PR PR AB RQ y x Part III Answer all 3 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, 33 In the diagram below of circle O, tangent is drawn to diameter . Chord is parallel to secant , and chord is drawn. Prove: BC CA AB EC \u0003 A B O D C E AB ADE \u0003 \u0004 \u0003\u0003\u0003\u0003 BC AC EC \u0005 \u0004 \u0003\u0003 34 Keira has a square poster that she is framing and placing on her wall. The poster has a diagonal 58 cm long and fits exactly inside the frame. The width of the frame around the picture is 4 cm. Determine and state the total area of the poster and frame to the nearest tenth of a square centimeter. 4 cm 58 35 Isosceles trapezoid ABCD has bases and with nonparallel legs and . Segments AE, BE, CE, and DE are drawn in trapezoid ABCD such that \u2220CDE \u0002 \u2220DCE, and Prove \u0002ADE \u0002 \u0002BCE and prove \u0002AEB is an isosceles triangle. BC AD D C E A B BE CE \u22a5 . AE DE \u22a5 , AB DC Part IV Answer the 2 questions in this part. Each correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, 36 A rectangular in-ground pool is modeled by the prism below. The inside of the pool is 16 feet wide and 35 feet long. The pool has a shallow end and a deep end, with a sloped floor connecting the two ends. Without water, the shallow end is 9 feet long and 4.5 feet deep, and the deep end of the pool is 12.5 feet long. \ufffcIf the sloped floor has an angle of depression of 16.5 degrees, what is the depth of the pool at the deep end, to the nearest tenth of a foot? Find the volume of the inside of the pool to the nearest cubic foot. 35 ft 12.5 ft 9 ft 16 ft 4.5 ft 16.5\u0002 Question 36 Question 36 continued A garden hose is used to fill the pool. Water comes out of the hose at a rate of 10.5 gallons per minute. How much time, to the nearest hour, will it take to fill the pool 6 inches from the top? [1 ft3 \u0003 7.48 gallons] Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here GEOMETRY GEOMETRY Printed on Recycled Paper"
+      ],
+      "image": "/images/exams/geometry/august-2017/q45.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

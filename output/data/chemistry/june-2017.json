@@ -1,0 +1,1091 @@
+{
+  "subject": "chemistry",
+  "session": "june-2017",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Which statement describes the structure of an atom?",
+      "choices": [
+        "The nucleus contains positively charged electrons.",
+        "The nucleus contains negatively charged protons.",
+        "The nucleus has a positive charge and is surrounded by negatively charged electrons.",
+        "The nucleus has a negative charge and is surrounded by positively charged electrons."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Which term is defined as the region in an atom where an electron is most likely to be located?",
+      "choices": [
+        "nucleus",
+        "orbital",
+        "quanta",
+        "spectra"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "What is the number of electrons in an atom of scandium?",
+      "choices": [
+        "21",
+        "24",
+        "45",
+        "66"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Which particle has the least mass?",
+      "choices": [
+        "a proton",
+        "an electron",
+        "a helium atom",
+        "a hydrogen atom"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which electron transition in an excited atom results in a release of energy?",
+      "choices": [
+        "first shell to the third shell",
+        "second shell to the fourth shell",
+        "third shell to the fourth shell",
+        "fourth shell to the second shell"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "On the Periodic Table, the number of protons in an atom of an element is indicated by its",
+      "choices": [
+        "atomic mass",
+        "atomic number",
+        "selected oxidation states",
+        "number of valence electrons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which type of formula shows an element symbol for each atom and a line for each bond between atoms?",
+      "choices": [
+        "ionic",
+        "structural",
+        "empirical",
+        "molecular"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "What is conserved during all chemical reactions?",
+      "choices": [
+        "charge",
+        "density",
+        "vapor pressure",
+        "melting point"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "In which type of reaction can two compounds exchange ions to form two different compounds?",
+      "choices": [
+        "synthesis",
+        "decomposition",
+        "single replacement",
+        "double replacement"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "At STP, two 5.0-gram solid samples of different ionic compounds have the same density. These solid samples could be differentiated by their",
+      "choices": [
+        "mass",
+        "volume",
+        "temperature",
+        "solubility in water"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "What is the number of electrons shared between the atoms in an I2 molecule?",
+      "choices": [
+        "7",
+        "2",
+        "8",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which substance has nonpolar covalent bonds?",
+      "choices": [
+        "Cl2",
+        "SO3",
+        "SiO2",
+        "CCl4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Compared to a potassium atom, a potassium ion has",
+      "choices": [
+        "a smaller radius",
+        "a larger radius",
+        "fewer protons",
+        "more protons"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which form of energy is associated with the random motion of particles in a gas?",
+      "choices": [
+        "chemical",
+        "electrical",
+        "nuclear",
+        "thermal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The average kinetic energy of water molecules decreases when",
+      "choices": [
+        "H2O(\u2113) at 337 K changes to H2O(\u2113) at 300. K",
+        "H2O(\u2113) at 373 K changes to H2O(g) at 373 K",
+        "H2O(s) at 200. K changes to H2O(s) at 237 K",
+        "H2O(s) at 273 K changes to H2O(\u2113) at 273 K"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The joule is a unit of",
+      "choices": [
+        "concentration",
+        "energy",
+        "pressure",
+        "volume"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Compared to a sample of helium at STP, the same sample of helium at a higher temperature and a lower pressure",
+      "choices": [
+        "condenses to a liquid",
+        "is more soluble in water",
+        "forms diatomic molecules",
+        "behaves more like an ideal gas"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "A sample of a gas is in a sealed, rigid container that maintains a constant volume. Which changes occur between the gas particles when the sample is heated?",
+      "choices": [
+        "The frequency of collisions increases, and the force of collisions decreases.",
+        "The frequency of collisions increases, and the force of collisions increases.",
+        "The frequency of collisions decreases, and the force of collisions decreases.",
+        "The frequency of collisions decreases, and the force of collisions increases."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "At STP, which gaseous sample has the same number of molecules as 3.0 liters of N2(g)?",
+      "choices": [
+        "6.0 L of F2(g)",
+        "4.5 L of N2(g)",
+        "3.0 L of H2(g)",
+        "1.5 L of Cl2(g)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Distillation of crude oil from various parts of the world yields different percentages of hydrocarbons. Which statement explains these different percentages?",
+      "choices": [
+        "Each component in a mixture has a different solubility in water.",
+        "Hydrocarbons are organic compounds.",
+        "The carbons in hydrocarbons may be bonded in chains or rings.",
+        "The proportions of components in a mixture can vary."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "In which 1.0-gram sample are the particles arranged in a crystal structure?",
+      "choices": [
+        "CaCl2(s)",
+        "C2H6(g)",
+        "CH3OH(\u2113)",
+        "CaI2(aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "When a reversible reaction is at equilibrium, the concentration of products and the concentration of reactants must be",
+      "choices": [
+        "decreasing",
+        "increasing",
+        "constant",
+        "equal"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "In chemical reactions, the difference between the potential energy of the products and the potential energy of the reactants is equal to the",
+      "choices": [
+        "activation energy",
+        "ionization energy",
+        "heat of reaction",
+        "heat of vaporization"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "What occurs when a catalyst is added to a chemical reaction?",
+      "choices": [
+        "an alternate reaction pathway with a lower activation energy",
+        "an alternate reaction pathway with a higher activation energy",
+        "the same reaction pathway with a lower activation energy",
+        "the same reaction pathway with a higher activation energy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "What is the name of the compound with the formula CH3CH2CH2NH2?",
+      "choices": [
+        "1-propanol",
+        "1-propanamine",
+        "propanal",
+        "propanamide"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which compound is an isomer of C2H5OC2H5?",
+      "choices": [
+        "CH3COOH",
+        "C2H5COOCH3",
+        "C3H7COCH3",
+        "C4H9OH"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Ethanoic acid and 1-butanol can react to produce water and a compound classified as an",
+      "choices": [
+        "aldehyde",
+        "amide",
+        "ester",
+        "ether"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "During an oxidation-reduction reaction, the number of electrons gained is",
+      "choices": [
+        "equal to the number of electrons lost",
+        "equal to the number of protons gained",
+        "less than the number of electrons lost",
+        "less than the number of protons gained"
+      ],
+      "image": "/images/exams/chemistry/june-2017/q28.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Which process requires energy for a nonspontaneous redox reaction to occur?",
+      "choices": [
+        "deposition",
+        "electrolysis",
+        "alpha decay",
+        "chromatography"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which pair of compounds represents one Arrhenius acid and one Arrhenius base?",
+      "choices": [
+        "CH3OH and NaOH",
+        "CH3OH and HCl",
+        "HNO3 and NaOH",
+        "HNO3 and HCl"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Which electron configuration represents the electrons of an atom of neon in an excited state?",
+      "choices": [
+        "2-7",
+        "2-8",
+        "2-7-1",
+        "2-8-1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Some information about the two naturally occurring isotopes of gallium is given in the table below. Natural Abundance of Two Gallium Isotopes Which numerical setup can be used to calculate the atomic mass of gallium?",
+      "choices": [
+        "(0.6011)(68.926 u) \u0002 (0.3989)(70.925 u)",
+        "(60.11)(68.926 u) \u0002 (39.89)(70.925 u)",
+        "(0.6011)(70.925 u) \u0002 (0.3989)(68.926 u)",
+        "(60.11)(70.925 u) \u0002 (39.89)(68.926 u)"
+      ],
+      "image": "/images/exams/chemistry/june-2017/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "A student measures the mass and volume of a sample of copper at room temperature and 101.3 kPa. The mass is 48.9 grams and the volume is 5.00 cubic centimeters. The student calculates the density of the sample. What is the percent error of the student\u2019s calculated density?",
+      "choices": [
+        "7.4%",
+        "8.4%",
+        "9.2%",
+        "10.2%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "What is the chemical formula for sodium sulfate?",
+      "choices": [
+        "Na2SO4",
+        "Na2SO3",
+        "NaSO4",
+        "NaSO3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: 2Na(s) \u0002 Cl2(g) \u21922NaCl(s) \u0002 energy If 46 grams of Na and 71 grams of Cl2 react completely, what is the total mass of NaCl produced?",
+      "choices": [
+        "58.5 g",
+        "117 g",
+        "163 g",
+        "234 g"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Given the balanced equation representing a reaction: 2NO \u0002 O2 \u21922NO2 \u0002 energy The mole ratio of NO to NO2 is",
+      "choices": [
+        "1 to 1",
+        "2 to 1",
+        "3 to 2",
+        "5 to 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The particle diagram below represents a solid sample of silver. Which type of bonding is present when valence electrons move within the sample?",
+      "choices": [
+        "metallic bonding",
+        "hydrogen bonding",
+        "covalent bonding",
+        "ionic bonding Ag+ e_ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ Ag+ e_ e_ e_ e_ e_ e_ e_ e_ e_ e_ e_ e_ e_ e_ e_ e_ e_ e_ e_ e_ e_ e_ e_ Isotope Natural Abundance (%) Atomic Mass (u) Ga-69 60.11 68.926 Ga-71 39.89 70.925"
+      ],
+      "image": "/images/exams/chemistry/june-2017/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Given the formula representing a molecule: Which statement explains why the molecule is nonpolar?",
+      "choices": [
+        "Electrons are shared between the carbon atoms and the hydrogen atoms.",
+        "Electrons are transferred from the carbon atoms to the hydrogen atoms.",
+        "The distribution of charge in the molecule is symmetrical.",
+        "The distribution of charge in the molecule is asymmetrical."
+      ],
+      "image": "/images/exams/chemistry/june-2017/q38.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "A solid sample of a compound and a liquid sample of the same compound are each tested for electrical conductivity. Which test conclusion indicates that the compound is ionic?",
+      "choices": [
+        "Both the solid and the liquid are good conductors.",
+        "Both the solid and the liquid are poor conductors.",
+        "The solid is a good conductor, and the liquid is a poor conductor.",
+        "The solid is a poor conductor, and the liquid is a good conductor."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which statement explains why 10.0 mL of a 0.50 M H2SO4(aq) solution exactly neutralizes 5.0 mL of a 2.0 M NaOH(aq) solution?",
+      "choices": [
+        "The moles of H\u0002(aq) equal the moles of OH\u0003(aq).",
+        "The moles of H2SO4(aq) equal the moles of NaOH(aq).",
+        "The moles of H2SO4(aq) are greater than the moles of NaOH(aq).",
+        "The moles of H\u0002(aq) are greater than the moles of OH\u0003(aq)."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "written",
+      "text": "Which particle diagram represents one substance in the gas phase?",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2017/q41.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a chemical reaction at equilibrium in a sealed, rigid container: H2(g) \u0002 I2(g) \u0002 energy \u21cc2HI(g) When the concentration of H2(g) is increased by adding more hydrogen gas to the container at constant temperature, the equilibrium shifts",
+      "choices": [
+        "to the right, and the concentration of HI(g) decreases",
+        "to the right, and the concentration of HI(g) increases",
+        "to the left, and the concentration of HI(g) decreases",
+        "to the left, and the concentration of HI(g) increases Key = atom of one element = atom of another element ( 1 ) ( 2 ) ( 3 ) ( 4 ) H H C H C C H H H H H"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "written",
+      "text": "Which diagram represents the potential energy changes during an exothermic reaction?",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2017/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which compound is classified as an ether?",
+      "choices": [
+        "CH3CHO",
+        "CH3OCH3",
+        "CH3COCH3",
+        "CH3COOCH3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a reversible reaction: HCO3 \u0003(aq) \u0002 H2O(\u2113) \u21ccH2CO3(aq) \u0002 OH\u0003(aq) Which formula represents the H\u0002 acceptor in the forward reaction?",
+      "choices": [
+        "HCO3 \u0003(aq)",
+        "H2O(\u2113)",
+        "H2CO3(aq)",
+        "OH\u0003(aq)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "What is the mass of an original 5.60-gram sample of iron-53 that remains unchanged after 25.53 minutes?",
+      "choices": [
+        "0.35 g",
+        "0.70 g",
+        "1.40 g",
+        "2.80 g"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Given the equation representing a nuclear reaction: 1 1H \u0002 X \u21926 3Li \u0002 4 2He The particle represented by X is",
+      "choices": [
+        "9 4Li",
+        "9 4Be",
+        "10 5Be",
+        "10 6C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Fission and fusion reactions both release energy. However, only fusion reactions",
+      "choices": [
+        "require elements with large atomic numbers",
+        "create radioactive products",
+        "use radioactive reactants",
+        "combine light nuclei ( 1 ) Potential Energy Reaction Coordinate ( 2 ) Potential Energy Reaction Coordinate ( 3 ) Potential Energy Reaction Coordinate ( 4 ) Potential Energy Reaction Coordinate"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "The chart below shows the crystal shapes and melting points of two forms of solid phosphorus. Which phrase describes the two forms of phosphorus?",
+      "choices": [
+        "same crystal structure and same properties",
+        "same crystal structure and different properties",
+        "different crystal structures and different properties",
+        "different crystal structures and same properties"
+      ],
+      "image": "/images/exams/chemistry/june-2017/q49.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "written",
+      "text": "Which graph shows the relationship between pressure and Kelvin temperature for an ideal gas at constant volume? Form of Phosphorus Crystal Shape white cubic 44 black orthorhombic 610 Two Forms of Phosphorus Pressure Temperature Pressure Temperature Pressure Temperature Pressure Temperature ( 1 ) ( 3 ) ( 2 ) ( 4 ) P.S./",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2017/q50.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "State the trend in electronegativity for the halogens as these elements are considered in order of increasing atomic number.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nThe elements in Group 17 are called halogens. The word \u201chalogen\u201d is derived from\nGreek and means \u201csalt former.\u201d",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Identify the type of chemical bond that forms when potassium reacts with bromine to form a salt.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nThe elements in Group 17 are called halogens. The word \u201chalogen\u201d is derived from\nGreek and means \u201csalt former.\u201d",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Based on Table F, identify one ion that reacts with iodide ions in an aqueous solution to form an insoluble compound.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2017/q53.png",
+      "context": "Base your answers to questions 51 through 53 on the information below and on your knowledge of chemistry.\nThe elements in Group 17 are called halogens. The word \u201chalogen\u201d is derived from\nGreek and means \u201csalt former.\u201d",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the element that has atomic nuclei represented by nucleus 1.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2017/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the information below and on your knowledge of chemistry.\nThe diagrams below represent four different atomic nuclei.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Determine the mass number of the nuclide represented by nucleus 2.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2017/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the information below and on your knowledge of chemistry.\nThe diagrams below represent four different atomic nuclei.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Explain why nucleus 2 and nucleus 4 represent the nuclei of two different isotopes of the same element.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2017/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the information below and on your knowledge of chemistry.\nThe diagrams below represent four different atomic nuclei.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify the nucleus above that is found in an atom that has a stable valence electron configuration. Nucleus 1 Nucleus 2 Nucleus 3 Nucleus 4 Key = proton = neutron Four Atomic Nuclei",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2017/context_54_57.png",
+      "context": "Base your answers to questions 54 through 57 on the information below and on your knowledge of chemistry.\nThe diagrams below represent four different atomic nuclei.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "State the change in energy that occurs in order to break the bonds in the hydrogen molecules.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 58 through 60 on the information below and on your knowledge of chemistry.\nThe equation below represents a chemical reaction at 1 atm and 298 K.\n2H2(g) \u0002 O2(g) \u21922H2O(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "In the space in your answer booklet, draw a Lewis electron-dot diagram for a water molecule.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 58 through 60 on the information below and on your knowledge of chemistry.\nThe equation below represents a chemical reaction at 1 atm and 298 K.\n2H2(g) \u0002 O2(g) \u21922H2O(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Compare the strength of attraction for electrons by a hydrogen atom to the strength of attraction for electrons by an oxygen atom within a water molecule.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 58 through 60 on the information below and on your knowledge of chemistry.\nThe equation below represents a chemical reaction at 1 atm and 298 K.\n2H2(g) \u0002 O2(g) \u21922H2O(g)",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Identify the element in stearic acid that makes it an organic compound.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of chemistry.\n\u2022 A test tube contains a sample of solid stearic acid, an organic acid.\n\u2022 Both the sample and the test tube have a temperature of 22.0\u00b0C.\n\u2022 The stearic acid melts after the test tube is placed in a beaker with \n320. grams of water at 98.0\u00b0C.\n\u2022 The temperature of the liquid stearic acid and water in the beaker reaches 74.0\u00b0C.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "State the direction of heat transfer between the test tube and the water when the test tube was placed in the water.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of chemistry.\n\u2022 A test tube contains a sample of solid stearic acid, an organic acid.\n\u2022 Both the sample and the test tube have a temperature of 22.0\u00b0C.\n\u2022 The stearic acid melts after the test tube is placed in a beaker with \n320. grams of water at 98.0\u00b0C.\n\u2022 The temperature of the liquid stearic acid and water in the beaker reaches 74.0\u00b0C.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the amount of thermal energy change for the water in the beaker.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of chemistry.\n\u2022 A test tube contains a sample of solid stearic acid, an organic acid.\n\u2022 Both the sample and the test tube have a temperature of 22.0\u00b0C.\n\u2022 The stearic acid melts after the test tube is placed in a beaker with \n320. grams of water at 98.0\u00b0C.\n\u2022 The temperature of the liquid stearic acid and water in the beaker reaches 74.0\u00b0C.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Identify the decay mode of hydrogen-3.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of chemistry.\nA nuclear reaction is represented by the equation below.\n3\n1H \u21923\n2He \u0002\n0\n\u00031e",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Explain why the equation represents a transmutation.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the information below and on your knowledge of chemistry.\nA nuclear reaction is represented by the equation below.\n3\n1H \u21923\n2He \u0002\n0\n\u00031e",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify the element in this table that is classified as a metalloid.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2017/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nA technician recorded data for two properties of Period 3 elements. The data are shown\nin the table below.\nTwo Properties of Period 3 Elements",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "State the phase of chlorine at 281 K and 101.3 kPa.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2017/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nA technician recorded data for two properties of Period 3 elements. The data are shown\nin the table below.\nTwo Properties of Period 3 Elements",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "State evidence from the technician\u2019s data which indicates that sodium is more active than aluminum.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2017/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of chemistry.\nA technician recorded data for two properties of Period 3 elements. The data are shown\nin the table below.\nTwo Properties of Period 3 Elements",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "Balance the equation in your answer booklet for the reaction of ammonia and oxygen, using the smallest whole-number coefficients.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of chemistry.\nAmmonia,  NH3(g), can be used as a substitute for fossil fuels in some internal combustion\nengines. The reaction between ammonia and oxygen in an engine is represented by \nthe unbalanced equation below.\nNH3(g) \u0002 O2(g) \u2192N2(g) \u0002 H2O(g) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the mass, in grams, of a 4.2-mole sample of O2. Use 32 g/mol as the gram-formula mass of O2.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of chemistry.\nAmmonia,  NH3(g), can be used as a substitute for fossil fuels in some internal combustion\nengines. The reaction between ammonia and oxygen in an engine is represented by \nthe unbalanced equation below.\nNH3(g) \u0002 O2(g) \u2192N2(g) \u0002 H2O(g) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Determine the new pressure of a 6.40-L sample of oxygen gas at 300. K and 100. kPa after the gas is compressed to 2.40 L at 900. K. Element Na Mg Al Si P S Cl Ar Ionic Radius (pm) 95 66 51 41 212 184 181 \u2014 Reaction with Cold Water reacts vigorously reacts very slowly no observable reaction no observable reaction no observable reaction no observable reaction reacts slowly no observable reaction",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of chemistry.\nAmmonia,  NH3(g), can be used as a substitute for fossil fuels in some internal combustion\nengines. The reaction between ammonia and oxygen in an engine is represented by \nthe unbalanced equation below.\nNH3(g) \u0002 O2(g) \u2192N2(g) \u0002 H2O(g) \u0002 energy",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Write the empirical formula for ethene.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 76 on the information below and on your knowledge of chemistry.\nFruit growers in Florida protect oranges when the temperature is near freezing by \nspraying water on them. It is the freezing of the water that protects the oranges from frost\ndamage. When H2O(\u2113) at 0\u00b0C changes to H2O(s) at 0\u00b0C, heat energy is released. This energy\nhelps to prevent the temperature inside the orange from dropping below freezing, which\ncould damage the fruit. After harvesting, oranges can be exposed to ethene gas, C2H4, to\nimprove their color.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "Explain, in terms of bonding, why the hydrocarbon ethene is classified as unsaturated.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 76 on the information below and on your knowledge of chemistry.\nFruit growers in Florida protect oranges when the temperature is near freezing by \nspraying water on them. It is the freezing of the water that protects the oranges from frost\ndamage. When H2O(\u2113) at 0\u00b0C changes to H2O(s) at 0\u00b0C, heat energy is released. This energy\nhelps to prevent the temperature inside the orange from dropping below freezing, which\ncould damage the fruit. After harvesting, oranges can be exposed to ethene gas, C2H4, to\nimprove their color.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Determine the gram-formula mass of ethene.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 76 on the information below and on your knowledge of chemistry.\nFruit growers in Florida protect oranges when the temperature is near freezing by \nspraying water on them. It is the freezing of the water that protects the oranges from frost\ndamage. When H2O(\u2113) at 0\u00b0C changes to H2O(s) at 0\u00b0C, heat energy is released. This energy\nhelps to prevent the temperature inside the orange from dropping below freezing, which\ncould damage the fruit. After harvesting, oranges can be exposed to ethene gas, C2H4, to\nimprove their color.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Explain, in terms of particle arrangement, why the entropy of the water decreases when the water freezes.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 76 on the information below and on your knowledge of chemistry.\nFruit growers in Florida protect oranges when the temperature is near freezing by \nspraying water on them. It is the freezing of the water that protects the oranges from frost\ndamage. When H2O(\u2113) at 0\u00b0C changes to H2O(s) at 0\u00b0C, heat energy is released. This energy\nhelps to prevent the temperature inside the orange from dropping below freezing, which\ncould damage the fruit. After harvesting, oranges can be exposed to ethene gas, C2H4, to\nimprove their color.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "Determine the quantity of heat released when 2.00 grams of H2O(\u2113) freezes at 0\u00b0C. P.S./",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 through 76 on the information below and on your knowledge of chemistry.\nFruit growers in Florida protect oranges when the temperature is near freezing by \nspraying water on them. It is the freezing of the water that protects the oranges from frost\ndamage. When H2O(\u2113) at 0\u00b0C changes to H2O(s) at 0\u00b0C, heat energy is released. This energy\nhelps to prevent the temperature inside the orange from dropping below freezing, which\ncould damage the fruit. After harvesting, oranges can be exposed to ethene gas, C2H4, to\nimprove their color.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "State the form of energy that is converted to electrical energy in the operating cell.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2017/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the information below and on your knowledge of chemistry.\nA student constructs an electrochemical cell during a laboratory investigation. When\nthe switch is closed, electrons flow through the external circuit. The diagram and ionic\nequation below represent this cell and the reaction that occurs.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "State, in terms of the Cu(s) electrode and the Zn(s) electrode, the direction of electron flow in the external circuit when the cell operates.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2017/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the information below and on your knowledge of chemistry.\nA student constructs an electrochemical cell during a laboratory investigation. When\nthe switch is closed, electrons flow through the external circuit. The diagram and ionic\nequation below represent this cell and the reaction that occurs.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Write a balanced equation for the half-reaction that occurs in the Cu half-cell when the cell operates.",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2017/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the information below and on your knowledge of chemistry.\nA student constructs an electrochemical cell during a laboratory investigation. When\nthe switch is closed, electrons flow through the external circuit. The diagram and ionic\nequation below represent this cell and the reaction that occurs.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "State what happens to the mass of the Cu electrode and the mass of the Zn electrode in the operating cell. Cu(s) + Zn2+(aq) Cu(s) electrode Zn(s) electrode Salt bridge Cu(NO3)2(aq) Zn(NO3)2(aq) Switch Voltmeter V Wire Cu2+(aq) + Zn(s)",
+      "choices": [],
+      "image": "/images/exams/chemistry/june-2017/context_77_80.png",
+      "context": "Base your answers to questions 77 through 80 on the information below and on your knowledge of chemistry.\nA student constructs an electrochemical cell during a laboratory investigation. When\nthe switch is closed, electrons flow through the external circuit. The diagram and ionic\nequation below represent this cell and the reaction that occurs.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Show a numerical setup for calculating the percent by mass of KNO3 in the solution.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 and 82 on the information below and on your knowledge of chemistry.\nA solution is made by dissolving 70.0 grams of KNO3(s) in 100. grams of water at 50.\u00b0C\nand standard pressure.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "Determine the number of additional grams of KNO3 that must dissolve to make this solution saturated.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 81 and 82 on the information below and on your knowledge of chemistry.\nA solution is made by dissolving 70.0 grams of KNO3(s) in 100. grams of water at 50.\u00b0C\nand standard pressure.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Explain, in terms of particles, why HC2H3O2(aq) can conduct an electric current.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nVinegar is a commercial form of acetic acid, HC2H3O2(aq). One sample of vinegar has\na pH value of 2.4.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "State the color of bromthymol blue indicator in a sample of the commercial vinegar.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nVinegar is a commercial form of acetic acid, HC2H3O2(aq). One sample of vinegar has\na pH value of 2.4.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "State the pH value of a sample that has ten times fewer hydronium ions than an equal volume of a vinegar sample with a pH value of 2.4. P.S./ P.S./CHEMISTRY P.S./CHEMISTRY Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 83 through 85 on the information below and on your knowledge of chemistry.\nVinegar is a commercial form of acetic acid, HC2H3O2(aq). One sample of vinegar has\na pH value of 2.4.",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

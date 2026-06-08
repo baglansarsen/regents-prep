@@ -1,0 +1,1111 @@
+{
+  "subject": "living-environment",
+  "session": "june-2017",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "An example of recycling is",
+      "choices": [
+        "using a paper cup instead of a mug",
+        "turning off the lights when leaving a room",
+        "using plastic from a soda bottle to make a certain type of clothing",
+        "using two paper towels rather than \ufb01 ve to clean up a spill"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "One characteristic of a stable ecosystem is",
+      "choices": [
+        "a high number of predators",
+        "an interdependence of organisms",
+        "a lack of biodiversity",
+        "an increase in human interference"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "According to scientists, ocean waves could be a source of energy. Devices are being designed to capture the energy from waves and supply electricity to coastal areas. A direct bene\ufb01 t of utilizing this technology to produce energy would be the",
+      "choices": [
+        "destruction of habitats near the devices",
+        "decreased use of nonrenewable resources",
+        "release of gases needed for photosynthesis",
+        "increased use of \ufb01 nite resources"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The emerald ash borer is an insect that is thought to have been accidentally brought to the United States from China in shipping containers. It attacks ash trees, eventually killing the trees, destroying an important part of the ecosystem. The presence of the emerald ash borer in the United States can be used as an example of how humans have",
+      "choices": [
+        "purposely introduced an insect to correct a problem in an ecosystem",
+        "used an insect to remove one insect species and replace it with another",
+        "worked to increase the biodiversity in a particular area",
+        "altered the equilibrium in an ecosystem by introducing a new species"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "written",
+      "text": "Which graph best shows the changes in global human population and natural resource use over the past 500 years? ( 1 ) Population Time Resource Use ( 2 ) Population Time Resource Use ( 3 ) Population Time Resource Use ( 4 ) Population Time Resource Use Human population Resource Use Key",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The burning of fossil fuels has harmed the environment by",
+      "choices": [
+        "decreasing acid rain in the northeast United States",
+        "adding carbon dioxide to the atmosphere",
+        "increasing biodiversity in the lakes and ponds of the Adirondacks",
+        "depleting the ozone shield directly over western New York State"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which method of collecting data would provide the most accurate information about how an ecosystem is being affected by human development?",
+      "choices": [
+        "The people in the neighborhood record the number of birds they see in the area both before and after the construction of a new building.",
+        "Deer in the area are identi\ufb01 ed before construction so that scientists can see where they go after the building is \ufb01 nished.",
+        "More trees are planted in the area around the construction site to allow the animals a new place to live.",
+        "The population size is recorded for each species present in the construction area before and after the building is completed."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Natural selection produces changes most quickly in",
+      "choices": [
+        "species with short reproductive cycles",
+        "individual pathogens killed by antibiotics",
+        "complex multicellular organisms",
+        "individuals that produce a small number of offspring"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "As a result of habitat destruction, the size of the Florida panther population has been drastically reduced. It is estimated that there are only 100 to 160 Florida panthers in the wild. Which statement best explains why the Florida panther population may not continue to evolve?",
+      "choices": [
+        "There is no longer a chance of mutations occurring in the population.",
+        "There is a lack of competition for limited environmental resources.",
+        "There is no longer a chance of a trait providing a reproductive advantage to the population.",
+        "There is a lack of genetic variation for selec- tion to act upon."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which level of the pyramid below is correctly paired with the type of organism that would most likely be found at that level in an ecosystem? Level A Level B Level C Level D",
+      "choices": [
+        "Level A \u2013 producers",
+        "Level B \u2013 carnivores",
+        "Level C \u2013 herbivores",
+        "Level D \u2013 decomposers"
+      ],
+      "image": "/images/exams/living-environment/june-2017/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which statement best describes what is most likely to occur if an animal population grows larger than the carrying capacity of its environment?",
+      "choices": [
+        "The birth rate will increase.",
+        "Both the birth rate and death rate will decrease.",
+        "The death rate will increase.",
+        "Neither the birth rate nor the death rate will decrease."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Many biotic factors affect individuals in a population. An example of an organism being directly affected by a biotic factor is",
+      "choices": [
+        "a squirrel cannot \ufb01 nd a mate",
+        "a \ufb02 ood washes away a maple tree",
+        "a plant is in a dark room",
+        "a chipmunk \ufb01 nds a rock pile to use for a home"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "When people receive organ transplants, they often need to take medications that decrease immune responses because",
+      "choices": [
+        "transplanted organs contain antigens that can trigger white blood cell activity",
+        "hormones present in replacement organs prevent the synthesis of antibiotics",
+        "transplanted organs produce their own antibiotics",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which structures regulate water loss and gas exchange in the leaves of plants?",
+      "choices": [
+        "vacuoles",
+        "chloroplasts",
+        "guard cells",
+        "mitochondria"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which life process carried out by a green plant is represented in the diagram below? Energy released Carbon Dioxide + Water Life Process Oxygen Food",
+      "choices": [
+        "respiration",
+        "photosynthesis",
+        "digestion",
+        "replication"
+      ],
+      "image": "/images/exams/living-environment/june-2017/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Scientists are developing a malaria vaccine that would most likely contain",
+      "choices": [
+        "weakened drugs used to treat the symptoms of malaria",
+        "white blood cells from the malaria-infected individuals",
+        "a weakened form of the malaria-causing organism",
+        "antibodies made from the malaria-causing organism"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Proteins, starch, and DNA are similar in that they are all",
+      "choices": [
+        "organic compounds",
+        "parts of genes",
+        "made of amino acids",
+        "made of simple sugars"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "In response to an increasing blood glucose level, the human body will normally",
+      "choices": [
+        "store the glucose in cell nuclei",
+        "release a hormone that lowers the blood glucose",
+        "produce a hormone that destroys the glucose",
+        "use the excess glucose to make proteins"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "A kitten was born with black fur and green eyes. The fur and eye color of its parents are shown in the chart below. Cat Fur Eye Color Father striped green Mother black yellow Kitten black green Which statement helps explain why the kitten has black fur?",
+      "choices": [
+        "Chromosomes present on the genes code for the characteristics of its fur.",
+        "Genetic mutations always cause the fur color and eye color to change.",
+        "Offspring receive genetic information from both parents.",
+        "Gene expression is changed in every genera- tion, resulting in evolution."
+      ],
+      "image": "/images/exams/living-environment/june-2017/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Scientists have been investigating a way to recreate extinct species such as the saber-toothed cat illustrated below. Source: https://IGS.Indiana.edu Which technique would use DNA from an extinct species to recreate an organism of the species?",
+      "choices": [
+        "natural selection",
+        "differentiation",
+        "cloning",
+        "selective breeding"
+      ],
+      "image": "/images/exams/living-environment/june-2017/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The sequence that best illustrates the \ufb02 ow of energy through an ecosystem is",
+      "choices": [
+        "sunlight \u2192 plant \u2192 wolf \u2192 rabbit",
+        "plant \u2192 sunlight \u2192 rabbit \u2192 wolf",
+        "sunlight \u2192 plant \u2192 rabbit \u2192 wolf",
+        "wolf \u2192 rabbit \u2192 plant \u2192"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Which cellular change in an organism could be inherited by the next generation?",
+      "choices": [
+        "a change in the ribosomes in the pancreas of a squirrel",
+        "the deletion of a single DNA base in a sperm cell of a trout",
+        "a decrease in the size of a vacuole in a rose leaf cell",
+        "the transfer of a piece of a chromosome in the skin cell of a raccoon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A chemical was added to hand sanitizers and dish detergents to kill bacteria. Certain species of bacteria are no longer killed by this chemical. One likely reason for the decreased effectiveness of this chemical is that these bacteria have",
+      "choices": [
+        "slower metabolic rates",
+        "a mutation for resistance",
+        "been selectively bred for survival",
+        "an adaptation to a different niche"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The hemlock wooly adelgid is an invasive insect species that is destroying native hemlock trees in New York State. These insects can upset natural ecosystems because they",
+      "choices": [
+        "provide food for native bird species",
+        "can carry diseases that can be spread to pets",
+        "increase biodiversity in New York State forests",
+        "disrupt habitats that native species depend upon"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "A shark and a dolphin have similarly shaped bodies and \ufb01 ns. However, these two organisms are not closely related: The shark is a \ufb01 sh, and the dolphin is a mammal. Some species may have similar body structures even if they are not related because they evolved in",
+      "choices": [
+        "similar environments and speci\ufb01 c traits in- creased their chances of survival",
+        "similar environments and were exposed to factors that caused exactly the same muta- tions",
+        "different environments, but tried to adapt in the same ways so they could survive",
+        "different environments, but ate similar foods that affected their growth and development"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "A dog gave birth to the three puppies shown in the photograph below. One of the puppies has darker fur on its face than the other two. Source: http://germanshepherdsatsdikennels.blogspot.com Which two biological processes account for this difference between the puppies?",
+      "choices": [
+        "meiosis and recombination",
+        "meiosis and cloning",
+        "mitosis and differentiation",
+        "mitosis and cloning"
+      ],
+      "image": "/images/exams/living-environment/june-2017/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a cell that produces digestive enzymes. 2 1 3 4 Which cellular structure would be the most likely location for the synthesis of these enzymes?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "image": "/images/exams/living-environment/june-2017/q27.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Energy drinks have become increasingly popular. Some of these drinks contain large amounts of caffeine, which is known to increase heart rates in most individuals. This effect on the heart rate can be dangerous because it can lead to",
+      "choices": [
+        "a disruption in the absorption of starch",
+        "an increase in blood volume",
+        "a decrease in oxygen levels",
+        "an imbalance in homeostasis"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "The kidney is an organ that collects wastes and excess water from the blood and sends them to the bladder where they are stored before being removed from the body. Which two systems work together to perform this function?",
+      "choices": [
+        "immune and respiratory",
+        "circulatory and excretory",
+        "skeletal and nervous",
+        "digestive and circulatory"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Scientists have recently discovered a community of bacteria and clams living under an ice shelf in Antarctica. These organisms live under 600 feet of ice, in the absence of sunlight, and in temperatures considered too cold for most living organisms. The location where these organisms live is unusual because",
+      "choices": [
+        "only biotic factors control the size of the populations",
+        "bacteria and clams are found in the same area",
+        "of the abiotic factors found in their environ- ment",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The diagram below represents an important biological concept. Generations later ... Generations later ... Yum! Dark beetles, our favorite! Adapted from: http://evolution.berkeley.edu/evolibrary/ The concept being represented is",
+      "choices": [
+        "overproduction",
+        "natural selection",
+        "homeostasis",
+        "ecological succession"
+      ],
+      "image": "/images/exams/living-environment/june-2017/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The graph below shows levels of a form of ultraviolet radiation (UV-B) and ozone thickness in Australia during December 1987 and January 1988. 250 260 270 290 300 310 280 320 330 340 2130 2190 2250 2370 2430 2490 2310 2550 2610 2670 UV\u2013B Irradiance (mWm\u20132) Ozone Thickness (Dobson units) Dec. 1987 Jan. 1988 UV\u2013B Ozone UV\u2013B Radiation and Ozone Concentration Adapted from: C. R. Roy, et. al., Nature 347:235, 1990 Date Which statement best describes the apparent relationship between ozone and UV-B?",
+      "choices": [
+        "When ozone levels are at 2550 Dobson units, the UV-B levels are at 250 Dobson units.",
+        "The increase in UV-B reduces the destruc- tion of the ozone layer.",
+        "When the ozone layer is thinner, more UV-B gets through it.",
+        "If the ozone layer is thicker, UV-B levels on the ground increase."
+      ],
+      "image": "/images/exams/living-environment/june-2017/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "In the diagram below, X represents a process that causes a protein to unfold and stop functioning. Functional protein Protein does not function X Process X is most likely caused by",
+      "choices": [
+        "the digestion of the amino acids that make up the proteins",
+        "the synthesis of a protein with different simple sugars",
+        "removal of the gene that codes for the production of the protein",
+        "an internal factor in the body, such as a temperature increase"
+      ],
+      "image": "/images/exams/living-environment/june-2017/q33.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Which statement is an example of how the external environment can in\ufb02 uence gene expression?",
+      "choices": [
+        "Some \ufb02 owering plants that inherit a gene for white \ufb02 owers and a gene for red \ufb02 owers will produce pink \ufb02 owers.",
+        "Some animals that inherit genes for brown fur will grow white fur if the outside temperature falls below a certain level.",
+        "In some breeds of cat, certain fur-color genes are found only in females.",
+        "A pea plant is short-stemmed only if it inherits the genes for the trait from both parents."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Which statement best illustrates a concept represented in the diagram below? Humans Modify ecosystems through Technology Consumption Population growth Equilibrium in ecosystems Which disrupts",
+      "choices": [
+        "Tsunamis triggered by oceanic earthquakes cause widespread \ufb02 ooding that can lead to large scale environmental destruction.",
+        "Annual hunting laws determine the number of deer that can be hunted to ensure popula- tion stability.",
+        "More individuals are purchasing hybrid cars that use less gasoline and produce less carbon dioxide.",
+        "The increased use of electronics has led to increased mining for precious metals and minerals in developing countries."
+      ],
+      "image": "/images/exams/living-environment/june-2017/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The process shown below is used to + Bacterial DNA Human insulin gene",
+      "choices": [
+        "determine if a person has a genetic disease",
+        "produce human growth hormone",
+        "identify the father of a newborn",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2017/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Which statement correctly identi\ufb01 es the levels of organization for the structures indicated?",
+      "choices": [
+        "A and B are tissues; E and G are organs.",
+        "A and B are organs; E and G are systems.",
+        "A and B are tissues; E and G are organelles.",
+        "A and B are organelles; E and G are organs."
+      ],
+      "image": "/images/exams/living-environment/june-2017/context_37_39.png",
+      "context": "Base your answers to questions 37 through 39 on the diagrams below and on your knowledge of biology. \nThe diagrams represent a single-celled organism and a multicellular organism.\nG\nE\nF\nH\nA\nB\nC\nD",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Cells from structure E and cells from structure G are similar in that they",
+      "choices": [
+        "have the same structure and function",
+        "contain the same genetic material",
+        "are identical in structure, but different in function",
+        "contain only the genetic information needed for their speci\ufb01 c job"
+      ],
+      "image": "/images/exams/living-environment/june-2017/context_37_39.png",
+      "context": "Base your answers to questions 37 through 39 on the diagrams below and on your knowledge of biology. \nThe diagrams represent a single-celled organism and a multicellular organism.\nG\nE\nF\nH\nA\nB\nC\nD",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Rotenone is an insecticide that is toxic to humans as well as to insects. Rotenone interferes with the process of ATP production in the cell. Which row in the chart below correctly identi\ufb01 es the structure where ATP is produced and the reason it is affected by rotenone? Row Structure Reason Affected",
+      "choices": [
+        "A It would be unable to store enzymes for ATP production.",
+        "B Production of ATP would occur less ef\ufb01 ciently.",
+        "C The raw materials used for ATP production would be altered.",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2017/context_37_39.png",
+      "context": "Base your answers to questions 37 through 39 on the diagrams below and on your knowledge of biology. \nThe diagrams represent a single-celled organism and a multicellular organism.\nG\nE\nF\nH\nA\nB\nC\nD",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "The part of the microscope that should be adjusted in order to better view the onion cells while using high power is",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/june-2017/context_40_41.png",
+      "context": "Base your answers to questions 40 and 41 on the information and diagram below and on your knowledge of \nbiology.\nA student used a microscope like the one represented below to observe cell division \nin onion cells.\nA\nB\nD\nC\nI I I I I I     I I I I I I\n40\u0002\n10\u0002",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The student noticed that as the new cells formed, they contained rod-shaped chromosomes. It is necessary for onion cells to contain chromosomes because chromosomes",
+      "choices": [
+        "are composed of genes that contain the instructions for an organism\u2019s traits",
+        "are made of carbohydrates and are needed as an energy source",
+        "direct the production of inorganic molecules within the cell",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2017/context_40_41.png",
+      "context": "Base your answers to questions 40 and 41 on the information and diagram below and on your knowledge of \nbiology.\nA student used a microscope like the one represented below to observe cell division \nin onion cells.\nA\nB\nD\nC\nI I I I I I     I I I I I I\n40\u0002\n10\u0002",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "The diagram below indicates a few of the many varieties of domestic dogs thought to have originated from wolves that were domesticated thousands of years ago. (Not drawn to scale) Wolf Bulldog Collie Dachshund Adapted from: http://evolution.berkeley.edu/evolibrary/article The many varieties of domesticated dogs were most likely produced as a result of",
+      "choices": [
+        "mutating the body cells of the dogs",
+        "selective breeding over many generations",
+        "genetic engineering with speci\ufb01 c enzymes",
+        "cloning dogs with desirable traits"
+      ],
+      "image": "/images/exams/living-environment/june-2017/q42.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The graph below represents some changes in the number of individuals in a particular population in a stable ecosystem over a period of time. Number of Individuals Population Changes Time Which statement best describes the trend shown in this graph?",
+      "choices": [
+        "Ecosystem conditions will eventually cause a population to become extinct.",
+        "In a stable ecosystem, the number of indi- viduals in a population is usually maintained within a certain range.",
+        "The interactions between a population and various factors in an environment are always predictable.",
+        "In order for any ecosystem to maintain a bal- ance,"
+      ],
+      "image": "/images/exams/living-environment/june-2017/q43.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Label the y-axis on the line provided.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nIllinois Greater Prairie Chicken on the Rise\nAs pioneers moved west in the mid-1800s, the greater prairie chicken population in \nIllinois was estimated to number in the millions. Since then, their population has drastically \ndeclined.\nEvidence of the rapidly declining population was obtained from studying the number \nof eggs that hatched over several years. In Jasper County, Illinois, the number of prairie \nchickens fell from 2,000 to less than 50 in under 35 years. Researchers compared the \nDNA from feather samples from the living Illinois chickens to the DNA from feather \nsamples dating from the year 1930 found in a museum. It was found that the living Illinois \nchicken population had a very low level of genetic diversity.\nIn 1992, researchers attempted to increase genetic variation by transporting more \nthan 500 healthy prairie chickens into Illinois from the states of Minnesota, Kansas, and \nNebraska. The data table below shows the changes in the percent of eggs that hatched \nfrom samples taken in different years. Researchers documented that this increase in the \npercent of eggs that hatched was not in\ufb02 uenced by environmental events.\nPrairie Chicken Egg Hatching\nYears\nPercent of \nEggs Hatched\n1970\u20131974\n89\n1975\u20131979\n88\n1980\u20131984\n83\n1985\u20131989\n78\n1990\n38\n1993\u20131996\n94\nAdapted from: http://www.sciencedaily.com/\nreleases/1998/11/981130045644.htm\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013June \u201917 \n[13] \n[OVER]\nDirections (44\u201346): Using the information given, construct a bar graph on the grid following the directions \nbelow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on the y-axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nIllinois Greater Prairie Chicken on the Rise\nAs pioneers moved west in the mid-1800s, the greater prairie chicken population in \nIllinois was estimated to number in the millions. Since then, their population has drastically \ndeclined.\nEvidence of the rapidly declining population was obtained from studying the number \nof eggs that hatched over several years. In Jasper County, Illinois, the number of prairie \nchickens fell from 2,000 to less than 50 in under 35 years. Researchers compared the \nDNA from feather samples from the living Illinois chickens to the DNA from feather \nsamples dating from the year 1930 found in a museum. It was found that the living Illinois \nchicken population had a very low level of genetic diversity.\nIn 1992, researchers attempted to increase genetic variation by transporting more \nthan 500 healthy prairie chickens into Illinois from the states of Minnesota, Kansas, and \nNebraska. The data table below shows the changes in the percent of eggs that hatched \nfrom samples taken in different years. Researchers documented that this increase in the \npercent of eggs that hatched was not in\ufb02 uenced by environmental events.\nPrairie Chicken Egg Hatching\nYears\nPercent of \nEggs Hatched\n1970\u20131974\n89\n1975\u20131979\n88\n1980\u20131984\n83\n1985\u20131989\n78\n1990\n38\n1993\u20131996\n94\nAdapted from: http://www.sciencedaily.com/\nreleases/1998/11/981130045644.htm\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013June \u201917 \n[13] \n[OVER]\nDirections (44\u201346): Using the information given, construct a bar graph on the grid following the directions \nbelow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "Construct vertical bars to represent the data. Shade in each bar. Hatching Rate Years 1970- 1974 1975- 1979 1980- 1984 1985- 1989 1990 1993- 1996",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nIllinois Greater Prairie Chicken on the Rise\nAs pioneers moved west in the mid-1800s, the greater prairie chicken population in \nIllinois was estimated to number in the millions. Since then, their population has drastically \ndeclined.\nEvidence of the rapidly declining population was obtained from studying the number \nof eggs that hatched over several years. In Jasper County, Illinois, the number of prairie \nchickens fell from 2,000 to less than 50 in under 35 years. Researchers compared the \nDNA from feather samples from the living Illinois chickens to the DNA from feather \nsamples dating from the year 1930 found in a museum. It was found that the living Illinois \nchicken population had a very low level of genetic diversity.\nIn 1992, researchers attempted to increase genetic variation by transporting more \nthan 500 healthy prairie chickens into Illinois from the states of Minnesota, Kansas, and \nNebraska. The data table below shows the changes in the percent of eggs that hatched \nfrom samples taken in different years. Researchers documented that this increase in the \npercent of eggs that hatched was not in\ufb02 uenced by environmental events.\nPrairie Chicken Egg Hatching\nYears\nPercent of \nEggs Hatched\n1970\u20131974\n89\n1975\u20131979\n88\n1980\u20131984\n83\n1985\u20131989\n78\n1990\n38\n1993\u20131996\n94\nAdapted from: http://www.sciencedaily.com/\nreleases/1998/11/981130045644.htm\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013June \u201917 \n[13] \n[OVER]\nDirections (44\u201346): Using the information given, construct a bar graph on the grid following the directions \nbelow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "The scientists transported prairie chickens from three different states into the state of Illinois in order to",
+      "choices": [
+        "decrease egg hatching rate",
+        "increase genetic diversity",
+        "increase egg fertilization",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2017/context_44_47.png",
+      "context": "Base your answers to questions 44 through 47 on the information and data table below and on your \nknowledge of biology.\nIllinois Greater Prairie Chicken on the Rise\nAs pioneers moved west in the mid-1800s, the greater prairie chicken population in \nIllinois was estimated to number in the millions. Since then, their population has drastically \ndeclined.\nEvidence of the rapidly declining population was obtained from studying the number \nof eggs that hatched over several years. In Jasper County, Illinois, the number of prairie \nchickens fell from 2,000 to less than 50 in under 35 years. Researchers compared the \nDNA from feather samples from the living Illinois chickens to the DNA from feather \nsamples dating from the year 1930 found in a museum. It was found that the living Illinois \nchicken population had a very low level of genetic diversity.\nIn 1992, researchers attempted to increase genetic variation by transporting more \nthan 500 healthy prairie chickens into Illinois from the states of Minnesota, Kansas, and \nNebraska. The data table below shows the changes in the percent of eggs that hatched \nfrom samples taken in different years. Researchers documented that this increase in the \npercent of eggs that hatched was not in\ufb02 uenced by environmental events.\nPrairie Chicken Egg Hatching\nYears\nPercent of \nEggs Hatched\n1970\u20131974\n89\n1975\u20131979\n88\n1980\u20131984\n83\n1985\u20131989\n78\n1990\n38\n1993\u20131996\n94\nAdapted from: http://www.sciencedaily.com/\nreleases/1998/11/981130045644.htm\nPart B \u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\n Living Environment\u2013June \u201917 \n[13] \n[OVER]\nDirections (44\u201346): Using the information given, construct a bar graph on the grid following the directions \nbelow.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Identify one type of molecular evidence that could have been used to determine the evolutionary relationships illustrated in the diagram.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the diagram below and on your knowledge of biology. \nThe diagram shows the evolutionary history of several plant species.\nTime\nD\nB\nC\nA\nD\nE\nA\nA\nA\nPresent\nPast\nG\nF",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Which biological technique could be used to obtain some structural evidence that species A and B are closely related?",
+      "choices": [
+        "glucose testing",
+        "cloning",
+        "genetic engineering",
+        "dissection"
+      ],
+      "image": "/images/exams/living-environment/june-2017/context_48_49.png",
+      "context": "Base your answers to questions 48 and 49 on the diagram below and on your knowledge of biology. \nThe diagram shows the evolutionary history of several plant species.\nTime\nD\nB\nC\nA\nD\nE\nA\nA\nA\nPresent\nPast\nG\nF",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Based on the diagram, the process of glycolysis most likely",
+      "choices": [
+        "begins the breakdown of glucose",
+        "produces oxygen for organisms to use",
+        "stores energy in molecules of water and carbon dioxide",
+        "recycles glucose within the cells of simple organisms"
+      ],
+      "image": "/images/exams/living-environment/june-2017/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the diagram below and on your knowledge of biology. The diagram \nillustrates the steps in a process that occurs in the cells of many organisms.\nGlucose\nGlycolysis\nChemical\nreactions\nWater\nEnergy\nOxygen\nEnergy\nSeries of \nchemical\nreactions\nCarbon dioxide\nEnergy\nAdapted from: Biology: A Community Context, \nW. H. Leonard and J. Penick, 1998\n\n Living Environment\u2013June \u201917 \n[15] \n[OVER]\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify one speci\ufb01 c molecule used to store the energy being released during this process. Molecule:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/context_50_51.png",
+      "context": "Base your answers to questions 50 and 51 on the diagram below and on your knowledge of biology. The diagram \nillustrates the steps in a process that occurs in the cells of many organisms.\nGlucose\nGlycolysis\nChemical\nreactions\nWater\nEnergy\nOxygen\nEnergy\nSeries of \nchemical\nreactions\nCarbon dioxide\nEnergy\nAdapted from: Biology: A Community Context, \nW. H. Leonard and J. Penick, 1998\n\n Living Environment\u2013June \u201917 \n[15] \n[OVER]\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "The diagram below represents male gametes from different animals. Fish Human Rat Chicken Snake Frog (Not drawn to scale) State one way, other than the fact that they all contain DNA,",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/q52.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Part of a food web is represented below. It includes organisms located in a stream near farm \ufb01 elds. Algae Crustaceans Reptiles Insect larvae Fish Select one type of organism, other than the crustaceans, from the food web. State how the population of organisms you selected might be affected if the population of crustaceans in this food web were reduced due to the use of chemicals harmful to crustaceans in the \ufb01 elds near the stream. Support your answer. Organism:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/q53.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/context_54_55.png",
+      "context": "Base your answer to question 54\u201355 on the information below and on your knowledge of biology.\nIndian blue peacocks live in dense forests and scrubland. Males use their colorful \neye-spotted tail feathers and strutting display along with a loud mating call to attract \nfemales. This behavior, known as a hoot-dash, is made by the male before dashing toward \na female to mate. Few species of other animals use loud courtship calls as the call attracts \npredators and uses energy.\n 54\u201355 Discuss the use of the hoot-dash by male peacocks. In your answer, be sure to:\n\u2022 state one advantage of the hoot-dash   [1]\n\u2022 state one disadvantage of the hoot-dash   [1]\n\n Living Environment\u2013June \u201917 \n[17] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "54\u201355 Discuss the use of the hoot-dash by male peacocks. In your answer, be sure to: \u2022 state one advantage of the hoot-dash \u2022",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/context_54_55.png",
+      "context": "Base your answer to question 54\u201355 on the information below and on your knowledge of biology.\nIndian blue peacocks live in dense forests and scrubland. Males use their colorful \neye-spotted tail feathers and strutting display along with a loud mating call to attract \nfemales. This behavior, known as a hoot-dash, is made by the male before dashing toward \na female to mate. Few species of other animals use loud courtship calls as the call attracts \npredators and uses energy.\n 54\u201355 Discuss the use of the hoot-dash by male peacocks. In your answer, be sure to:\n\u2022 state one advantage of the hoot-dash   [1]\n\u2022 state one disadvantage of the hoot-dash   [1]\n\n Living Environment\u2013June \u201917 \n[17] \n[OVER]",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Describe one likely result if the placenta became damaged and could not maintain progesterone levels. Support your answer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nThe placenta secretes progesterone and estrogen during pregnancy.\nProgesterone is responsible for the following functions:\n\u2022 maintains the lining of the uterus\n\u2022 inhibits (interferes with) contractions of the uterus\n\u2022 inhibits the production and release of eggs",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Explain how the release of additional eggs is prevented during pregnancy.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nThe placenta secretes progesterone and estrogen during pregnancy.\nProgesterone is responsible for the following functions:\n\u2022 maintains the lining of the uterus\n\u2022 inhibits (interferes with) contractions of the uterus\n\u2022 inhibits the production and release of eggs",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Explain why the body of a person infected with HIV, the virus that causes AIDS, would have a different immune response to the presence of cancer cells than a person not infected with HIV.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 58 and 59 on the information below and on your knowledge of biology.\n\u201cCancer is a disease of genes gone wrong. When certain genes mutate, they make cells \nbehave in odd ways. The cells divide swiftly, they hide from the immune system that could \nkill them and they gain the nourishment they need to develop into tumors.\u2026\u201d\nSource: Carl Zimmer, NY Times, February 6, 2014",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "Explain why certain chemicals and radiation sources are risk factors for cancer.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 58 and 59 on the information below and on your knowledge of biology.\n\u201cCancer is a disease of genes gone wrong. When certain genes mutate, they make cells \nbehave in odd ways. The cells divide swiftly, they hide from the immune system that could \nkill them and they gain the nourishment they need to develop into tumors.\u2026\u201d\nSource: Carl Zimmer, NY Times, February 6, 2014",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Scientists have learned that when a pregnant woman smokes, one of the chemicals absorbed, nicotine, can narrow the diameter of her blood vessels that lead to the placenta. Explain why narrowing the diameter of these blood vessels can result in low birth weight babies.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/q60.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Was the vaccine effective in preventing the disease? Use the information in the data table to support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of biology.\nIn an experiment to test the effectiveness of a new vaccine, 50 rats received an injection \nof equal doses of the vaccine and 50 other rats received an injection of equal doses of a \nweak salt solution. Two months later, all of the rats received injections that contained \nequal doses of live, disease-causing organisms.\nThe experimental results are shown in the chart below.\nEffectiveness of a New Vaccine\nInjection: 50 Rats \nReceived\nNumber of Rats \nThat Developed the \nDisease\nNumber of Rats That \nDid Not Develop the \nDisease\nvaccine\n7\n43\nweak salt solution\n48\n2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "State one possible reason why two of the rats did not get sick even though they did not receive the vaccine.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of biology.\nIn an experiment to test the effectiveness of a new vaccine, 50 rats received an injection \nof equal doses of the vaccine and 50 other rats received an injection of equal doses of a \nweak salt solution. Two months later, all of the rats received injections that contained \nequal doses of live, disease-causing organisms.\nThe experimental results are shown in the chart below.\nEffectiveness of a New Vaccine\nInjection: 50 Rats \nReceived\nNumber of Rats \nThat Developed the \nDisease\nNumber of Rats That \nDid Not Develop the \nDisease\nvaccine\n7\n43\nweak salt solution\n48\n2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Do the results of this experiment indicate that the vaccine is ready for human testing?",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/context_61_63.png",
+      "context": "Base your answers to questions 61 through 63 on the information below and on your knowledge of biology.\nIn an experiment to test the effectiveness of a new vaccine, 50 rats received an injection \nof equal doses of the vaccine and 50 other rats received an injection of equal doses of a \nweak salt solution. Two months later, all of the rats received injections that contained \nequal doses of live, disease-causing organisms.\nThe experimental results are shown in the chart below.\nEffectiveness of a New Vaccine\nInjection: 50 Rats \nReceived\nNumber of Rats \nThat Developed the \nDisease\nNumber of Rats That \nDid Not Develop the \nDisease\nvaccine\n7\n43\nweak salt solution\n48\n2",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "State the name of the speci\ufb01 c technique that is used to alter the DNA of orange trees.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 through 66 on the information below and on your knowledge of biology.\nSaving Florida Oranges\nA disease that affects orange trees has led to the destruction of numerous orange trees \nin Florida. Orange growers have unsuccessfully tried to stop the spread of the disease by \ncutting down infected trees and using a variety of pesticides on the insects that spread the \ndisease. The growers fear that if nothing further is done, entire crops could be wiped out \nin the near future. In hopes of saving Florida\u2019s orange industry, scientists are attempting \nto alter the DNA of orange trees by inserting DNA, that codes for disease resistance, from \na different plant species.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "Explain why growing oranges with disease resistance is better for the environment than using pesticides to control the spread of the disease.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 through 66 on the information below and on your knowledge of biology.\nSaving Florida Oranges\nA disease that affects orange trees has led to the destruction of numerous orange trees \nin Florida. Orange growers have unsuccessfully tried to stop the spread of the disease by \ncutting down infected trees and using a variety of pesticides on the insects that spread the \ndisease. The growers fear that if nothing further is done, entire crops could be wiped out \nin the near future. In hopes of saving Florida\u2019s orange industry, scientists are attempting \nto alter the DNA of orange trees by inserting DNA, that codes for disease resistance, from \na different plant species.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Identify a trait, other than disease resistance, that the orange trees could have that would be bene\ufb01 cial to the growers.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 through 66 on the information below and on your knowledge of biology.\nSaving Florida Oranges\nA disease that affects orange trees has led to the destruction of numerous orange trees \nin Florida. Orange growers have unsuccessfully tried to stop the spread of the disease by \ncutting down infected trees and using a variety of pesticides on the insects that spread the \ndisease. The growers fear that if nothing further is done, entire crops could be wiped out \nin the near future. In hopes of saving Florida\u2019s orange industry, scientists are attempting \nto alter the DNA of orange trees by inserting DNA, that codes for disease resistance, from \na different plant species.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "The diagram below represents two energy pyramids. Each pyramid represents the productivity of one acre of land. Humans Beef Cattle (165 lbs) Vegetables (20,000 lbs) Pyramid A Humans Vegetables (20,000 lbs) Pyramid B Based on the concept of energy transfer, explain why one acre of land can produce more vegetables for human consumption than beef for human consumption.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/q67.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Explain how the molasses spill caused many of the animals to die off.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 68 through 72 on the information below and on your knowledge of biology.\nNature Will Have to Clean Up Hawaii Molasses Leak That Killed Thousands of Fish\nA massive spill of thick molasses has turned Honolulu Harbor into a watery wasteland \nwhere thousands of \ufb01 sh have been suffocated \u2013 a disaster that of\ufb01 cials say Mother Nature \nwill have to clean up.\n\u201cThere\u2019s nothing alive there at all,\u201d diver Roger White told NBC af\ufb01 liate KHNL after \nmaking a seven-minute video of dead sea life blanketing the bottom of the harbor.\u2026\n\u2026\u201cUnlike with an oil spill, it\u2019s a sugar product so it will dissipate on its own,\u201d Matson \nspokesman Jeff Hull told NBC News on Thursday. \u201cThere\u2019s not an active cleanup.\u201d\n\u201cThe molasses is not toxic but it\u2019s heavier than water so it\u2019s spreading around on the \nsea \ufb02 oor, displacing the oxygen-rich water down there, and the \ufb01 sh are suffocating,\u201d said \nKeith Korsmeyer, a professor of biology at Hawaii Paci\ufb01 c University.\nThe die-off also could lure predators like sharks, barracuda and eels to the harbor and \nneighboring Keehi Lagoon, experts warned.\u2026\n\u2026Korsmeyer said marine life would probably repopulate the harbor, after the low-\noxygen water moves out, but that could take months or even years.\u2026\nSource: http://www.nbcnews.com/news/other/nature-will-have-clean-\nhawaii-molasses-leak-killed-thousands-\ufb01 sh-f8C11137030",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "State one reason why the die-off could attract sharks, barracuda, and eels to the harbor and lagoon.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 68 through 72 on the information below and on your knowledge of biology.\nNature Will Have to Clean Up Hawaii Molasses Leak That Killed Thousands of Fish\nA massive spill of thick molasses has turned Honolulu Harbor into a watery wasteland \nwhere thousands of \ufb01 sh have been suffocated \u2013 a disaster that of\ufb01 cials say Mother Nature \nwill have to clean up.\n\u201cThere\u2019s nothing alive there at all,\u201d diver Roger White told NBC af\ufb01 liate KHNL after \nmaking a seven-minute video of dead sea life blanketing the bottom of the harbor.\u2026\n\u2026\u201cUnlike with an oil spill, it\u2019s a sugar product so it will dissipate on its own,\u201d Matson \nspokesman Jeff Hull told NBC News on Thursday. \u201cThere\u2019s not an active cleanup.\u201d\n\u201cThe molasses is not toxic but it\u2019s heavier than water so it\u2019s spreading around on the \nsea \ufb02 oor, displacing the oxygen-rich water down there, and the \ufb01 sh are suffocating,\u201d said \nKeith Korsmeyer, a professor of biology at Hawaii Paci\ufb01 c University.\nThe die-off also could lure predators like sharks, barracuda and eels to the harbor and \nneighboring Keehi Lagoon, experts warned.\u2026\n\u2026Korsmeyer said marine life would probably repopulate the harbor, after the low-\noxygen water moves out, but that could take months or even years.\u2026\nSource: http://www.nbcnews.com/news/other/nature-will-have-clean-\nhawaii-molasses-leak-killed-thousands-\ufb01 sh-f8C11137030",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Identify one group of organisms responsible for the recycling of dead sea life that is not mentioned in the article.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 68 through 72 on the information below and on your knowledge of biology.\nNature Will Have to Clean Up Hawaii Molasses Leak That Killed Thousands of Fish\nA massive spill of thick molasses has turned Honolulu Harbor into a watery wasteland \nwhere thousands of \ufb01 sh have been suffocated \u2013 a disaster that of\ufb01 cials say Mother Nature \nwill have to clean up.\n\u201cThere\u2019s nothing alive there at all,\u201d diver Roger White told NBC af\ufb01 liate KHNL after \nmaking a seven-minute video of dead sea life blanketing the bottom of the harbor.\u2026\n\u2026\u201cUnlike with an oil spill, it\u2019s a sugar product so it will dissipate on its own,\u201d Matson \nspokesman Jeff Hull told NBC News on Thursday. \u201cThere\u2019s not an active cleanup.\u201d\n\u201cThe molasses is not toxic but it\u2019s heavier than water so it\u2019s spreading around on the \nsea \ufb02 oor, displacing the oxygen-rich water down there, and the \ufb01 sh are suffocating,\u201d said \nKeith Korsmeyer, a professor of biology at Hawaii Paci\ufb01 c University.\nThe die-off also could lure predators like sharks, barracuda and eels to the harbor and \nneighboring Keehi Lagoon, experts warned.\u2026\n\u2026Korsmeyer said marine life would probably repopulate the harbor, after the low-\noxygen water moves out, but that could take months or even years.\u2026\nSource: http://www.nbcnews.com/news/other/nature-will-have-clean-\nhawaii-molasses-leak-killed-thousands-\ufb01 sh-f8C11137030",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Explain why it is important to preserve the biodiversity of the Honolulu Harbor ecosystem.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 68 through 72 on the information below and on your knowledge of biology.\nNature Will Have to Clean Up Hawaii Molasses Leak That Killed Thousands of Fish\nA massive spill of thick molasses has turned Honolulu Harbor into a watery wasteland \nwhere thousands of \ufb01 sh have been suffocated \u2013 a disaster that of\ufb01 cials say Mother Nature \nwill have to clean up.\n\u201cThere\u2019s nothing alive there at all,\u201d diver Roger White told NBC af\ufb01 liate KHNL after \nmaking a seven-minute video of dead sea life blanketing the bottom of the harbor.\u2026\n\u2026\u201cUnlike with an oil spill, it\u2019s a sugar product so it will dissipate on its own,\u201d Matson \nspokesman Jeff Hull told NBC News on Thursday. \u201cThere\u2019s not an active cleanup.\u201d\n\u201cThe molasses is not toxic but it\u2019s heavier than water so it\u2019s spreading around on the \nsea \ufb02 oor, displacing the oxygen-rich water down there, and the \ufb01 sh are suffocating,\u201d said \nKeith Korsmeyer, a professor of biology at Hawaii Paci\ufb01 c University.\nThe die-off also could lure predators like sharks, barracuda and eels to the harbor and \nneighboring Keehi Lagoon, experts warned.\u2026\n\u2026Korsmeyer said marine life would probably repopulate the harbor, after the low-\noxygen water moves out, but that could take months or even years.\u2026\nSource: http://www.nbcnews.com/news/other/nature-will-have-clean-\nhawaii-molasses-leak-killed-thousands-\ufb01 sh-f8C11137030",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Predict what will most likely happen to this ecosystem in 20",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 68 through 72 on the information below and on your knowledge of biology.\nNature Will Have to Clean Up Hawaii Molasses Leak That Killed Thousands of Fish\nA massive spill of thick molasses has turned Honolulu Harbor into a watery wasteland \nwhere thousands of \ufb01 sh have been suffocated \u2013 a disaster that of\ufb01 cials say Mother Nature \nwill have to clean up.\n\u201cThere\u2019s nothing alive there at all,\u201d diver Roger White told NBC af\ufb01 liate KHNL after \nmaking a seven-minute video of dead sea life blanketing the bottom of the harbor.\u2026\n\u2026\u201cUnlike with an oil spill, it\u2019s a sugar product so it will dissipate on its own,\u201d Matson \nspokesman Jeff Hull told NBC News on Thursday. \u201cThere\u2019s not an active cleanup.\u201d\n\u201cThe molasses is not toxic but it\u2019s heavier than water so it\u2019s spreading around on the \nsea \ufb02 oor, displacing the oxygen-rich water down there, and the \ufb01 sh are suffocating,\u201d said \nKeith Korsmeyer, a professor of biology at Hawaii Paci\ufb01 c University.\nThe die-off also could lure predators like sharks, barracuda and eels to the harbor and \nneighboring Keehi Lagoon, experts warned.\u2026\n\u2026Korsmeyer said marine life would probably repopulate the harbor, after the low-\noxygen water moves out, but that could take months or even years.\u2026\nSource: http://www.nbcnews.com/news/other/nature-will-have-clean-\nhawaii-molasses-leak-killed-thousands-\ufb01 sh-f8C11137030",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "On various Galapagos islands, \ufb01 nch species have different diets: seeds, insects, \ufb02 owers, the blood of seabirds, and leaves. This is evidence that each species has a different",
+      "choices": [
+        "mating behavior",
+        "nesting material",
+        "niche",
+        "predator"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "A person\u2019s pulse rate generally goes down while sleeping. One reason for this decrease is",
+      "choices": [
+        "the body is producing more carbon dioxide when a person is sleeping",
+        "a person is not using energy while sleeping",
+        "a person requires less oxygen when sleeping",
+        "the body is using more nutrients while asleep"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Which statement best explains the differences observed in the tortoises on each island?",
+      "choices": [
+        "Each tortoise adapted to its environment during its lifetime.",
+        "Sudden mutations changed the appearance of all of the tortoises.",
+        "The tortoises grew different structures based on the available food.",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2017/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of biology.\nUnique populations of giant tortoises live in the Galapagos Islands. This is the same \ngroup of islands where Darwin studied his famous \ufb01 nches. It is thought that the original \nancestors of today\u2019s giant tortoises came from the mainland of South America. These \nanimals left and drifted in the ocean to the islands where they began to live, reproduce, \nand evolve. Each of the islands has a different habitat. Each species varies in shell shape \nand body structure. Information about two of these species of giant tortoises and their \nhabitats is found in the table below.\nGiant Tortoises of the Galapagos Islands\nTortoise Shell Type\nHabitat and Body Description\nSaddle-backed\nDome-shaped\n\u2022 The island receives a lot of rain, \nand there is an abundant amount \nof available food (plant material).\n\u2022 The tortoises have shorter necks. \nThey do not have to reach for food.\n\u2022 The land on the island is dry, so \nthere is limited available plant food.\n\u2022 The tortoises have long necks and \nlegs, which allow them to reach for \nscarce food.\nAdapted from: BenchPrep.com/blog/AP Biology-evolution-part-1/\nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "When the saddle-backed tortoises extend their long necks out of the shell, they are unprotected from attack. Scientists hypothesize that during the evolution of this tortoise, they had few predators. Which statement best supports this hypothesis?",
+      "choices": [
+        "Competition between the predators and the tortoises would have resulted in a greater number of long- necked tortoises.",
+        "The number of predators was greater than the number of tortoises.",
+        "Saddle-backed tortoises were not a part of the food chain.",
+        "Predators would have killed the tortoises with long necks, leaving more tortoises with shorter necks."
+      ],
+      "image": "/images/exams/living-environment/june-2017/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of biology.\nUnique populations of giant tortoises live in the Galapagos Islands. This is the same \ngroup of islands where Darwin studied his famous \ufb01 nches. It is thought that the original \nancestors of today\u2019s giant tortoises came from the mainland of South America. These \nanimals left and drifted in the ocean to the islands where they began to live, reproduce, \nand evolve. Each of the islands has a different habitat. Each species varies in shell shape \nand body structure. Information about two of these species of giant tortoises and their \nhabitats is found in the table below.\nGiant Tortoises of the Galapagos Islands\nTortoise Shell Type\nHabitat and Body Description\nSaddle-backed\nDome-shaped\n\u2022 The island receives a lot of rain, \nand there is an abundant amount \nof available food (plant material).\n\u2022 The tortoises have shorter necks. \nThey do not have to reach for food.\n\u2022 The land on the island is dry, so \nthere is limited available plant food.\n\u2022 The tortoises have long necks and \nlegs, which allow them to reach for \nscarce food.\nAdapted from: BenchPrep.com/blog/AP Biology-evolution-part-1/\nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "If a group of saddle-backed tortoises were brought to an island inhabited by dome-shaped tortoises, could both species survive? Circle yes or no and support your answer. Circle one: Yes or No",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of biology.\nUnique populations of giant tortoises live in the Galapagos Islands. This is the same \ngroup of islands where Darwin studied his famous \ufb01 nches. It is thought that the original \nancestors of today\u2019s giant tortoises came from the mainland of South America. These \nanimals left and drifted in the ocean to the islands where they began to live, reproduce, \nand evolve. Each of the islands has a different habitat. Each species varies in shell shape \nand body structure. Information about two of these species of giant tortoises and their \nhabitats is found in the table below.\nGiant Tortoises of the Galapagos Islands\nTortoise Shell Type\nHabitat and Body Description\nSaddle-backed\nDome-shaped\n\u2022 The island receives a lot of rain, \nand there is an abundant amount \nof available food (plant material).\n\u2022 The tortoises have shorter necks. \nThey do not have to reach for food.\n\u2022 The land on the island is dry, so \nthere is limited available plant food.\n\u2022 The tortoises have long necks and \nlegs, which allow them to reach for \nscarce food.\nAdapted from: BenchPrep.com/blog/AP Biology-evolution-part-1/\nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "During the laboratory activity The Beaks of Finches, you obtained food under two conditions: with competition and with no competition. State one way the results obtained from these two conditions differed when you did this activity.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "An investigation was carried out to determine the effects of exercise on the human body. Identify one body system, other than the circulatory system, that becomes more active as a result of exercise. State one change the system you identi\ufb01 ed will undergo as a result of becoming more active. Body system: Change:",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "State one appropriate hypothesis for this experiment.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of biology.\nA student designed an experiment to investigate a claim that athletes would have lower \nheart rates than nonathletes during exercise. After the students classi\ufb01 ed themselves as \nan athlete or a nonathlete, their resting pulses were determined. Then all the students \nperformed the same exercise for four minutes and their heart rates were determined by \nrecording the pulse rate in beats per minute. The students continued to measure their \npulse rates for an additional four minutes. The average heart rate per minute for each \ngroup was determined. The data were recorded, as shown on the table below.\nAverage Heart Rate Response to Exercise (beats per minute)\nTime (minutes)\nAthlete Students\nNonathlete Students\nResting Pulse\n0\n  68\n  72\nExercising Period\n1\n  76\n  78\n2\n  82\n  90\n3\n  95\n115\n4\n110\n130\nAfter\nExercise\n5\n100\n125\n6\n  95\n120\n7\n  85\n100\n8\n  68\n  95",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Which statement is best supported by the data in the chart?",
+      "choices": [
+        "After exercise, the nonathletic students had a lower heart rate than the athletic students.",
+        "After exercise, the heart rates of the athletic students returned to resting pulse in four minutes.",
+        "During exercise, both groups of students had the same increase above their resting pulse.",
+        "During exercise, the athletic students had a higher heart rate than the nonathletic students."
+      ],
+      "image": "/images/exams/living-environment/june-2017/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of biology.\nA student designed an experiment to investigate a claim that athletes would have lower \nheart rates than nonathletes during exercise. After the students classi\ufb01 ed themselves as \nan athlete or a nonathlete, their resting pulses were determined. Then all the students \nperformed the same exercise for four minutes and their heart rates were determined by \nrecording the pulse rate in beats per minute. The students continued to measure their \npulse rates for an additional four minutes. The average heart rate per minute for each \ngroup was determined. The data were recorded, as shown on the table below.\nAverage Heart Rate Response to Exercise (beats per minute)\nTime (minutes)\nAthlete Students\nNonathlete Students\nResting Pulse\n0\n  68\n  72\nExercising Period\n1\n  76\n  78\n2\n  82\n  90\n3\n  95\n115\n4\n110\n130\nAfter\nExercise\n5\n100\n125\n6\n  95\n120\n7\n  85\n100\n8\n  68\n  95",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "To improve the validity of the conclusion reached in this experiment, the students should repeat the experiment",
+      "choices": [
+        "disregarding any data that don\u2019t \ufb01 t the hypothesis",
+        "with a larger number of athletes and nonathletes",
+        "comparing the heart rates and breathing rates of males and females",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2017/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the information below and on your knowledge of biology.\nA student designed an experiment to investigate a claim that athletes would have lower \nheart rates than nonathletes during exercise. After the students classi\ufb01 ed themselves as \nan athlete or a nonathlete, their resting pulses were determined. Then all the students \nperformed the same exercise for four minutes and their heart rates were determined by \nrecording the pulse rate in beats per minute. The students continued to measure their \npulse rates for an additional four minutes. The average heart rate per minute for each \ngroup was determined. The data were recorded, as shown on the table below.\nAverage Heart Rate Response to Exercise (beats per minute)\nTime (minutes)\nAthlete Students\nNonathlete Students\nResting Pulse\n0\n  68\n  72\nExercising Period\n1\n  76\n  78\n2\n  82\n  90\n3\n  95\n115\n4\n110\n130\nAfter\nExercise\n5\n100\n125\n6\n  95\n120\n7\n  85\n100\n8\n  68\n  95",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "State one conclusion the student would make about the unknown liquid based on the results. Support your answer with information from the data table.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/context_83_83.png",
+      "context": "Base your answer to question 83 on the information below and on your knowledge of biology.\nA student added glucose indicator to a beaker of an unknown liquid. Starch indicator \nwas added to a different beaker containing an equal amount of the same unknown liquid. \nThe color of the indicator solutions before they were added to the beakers and the color of \nthe contents of the beakers after adding the indicator solutions are recorded in the chart \nbelow.\nBeaker\nSolution\nColor of Indicator \nSolution Before \nAdding to Beaker\nColor of Contents of \nBeaker After Adding \nIndicator Solution\n1\nunknown liquid\n+\nglucose indicator\nblue\nblue (after heating)\n2\nunknown liquid\n+\nstarch indicator\namber\nblue-black",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "While getting ready to perform the Making Connections lab,",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/q84.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "What factor causes the DNA fragments to move in this technique? LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2017/context_85_85.png",
+      "context": "Base your answer to question 85 on the information and diagram below and on your knowledge of biology.\nAn unknown sample of DNA found at a crime scene was compared to DNA samples \ntaken from three individuals. The results of the technique used to compare the samples \nare represented below.\nWells\nCrime\nscene\nDNA\nIndividual\nA\nIndividual\nB\nIndividual\nC\n_\n+",
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

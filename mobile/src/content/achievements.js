@@ -113,20 +113,20 @@ export const ACHIEVEMENTS = [
     condition: (s) => s.streak >= 14,
   },
 
-  // ── XP ────────────────────────────────────────────────────────────────────
+  // ── RP ────────────────────────────────────────────────────────────────────
   {
     id: 'xp500',
-    name: 'XP Hunter',
+    name: 'RP Hunter',
     emoji: '💫',
-    description: 'Earn 500 XP',
+    description: 'Earn 500 RP',
     tier: 'silver',
     condition: (s) => s.xp >= 500,
   },
   {
     id: 'xp2000',
-    name: 'XP Master',
+    name: 'RP Master',
     emoji: '💎',
-    description: 'Earn 2,000 XP',
+    description: 'Earn 2,000 RP',
     tier: 'gold',
     condition: (s) => s.xp >= 2000,
   },

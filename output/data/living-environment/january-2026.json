@@ -1,0 +1,1116 @@
+{
+  "subject": "living-environment",
+  "session": "january-2026",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Genetic information stored in DNA is most directly used to",
+      "choices": [
+        "synthesize new fats",
+        "digest complex carbohydrates",
+        "produce specific proteins",
+        "metabolize starch molecules"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "An example of a pattern of behavior that evolved through natural selection is",
+      "choices": [
+        "a male peacock displaying its tail and dancing to attract a female peacock",
+        "mushrooms growing on a decaying log on the forest floor",
+        "zebra mussels competing with native species for food in the Great Lakes",
+        "raccoons returning to a garbage can in which they had previously found scraps of food"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "In order for large food molecules to pass across a cell membrane, they must be broken down into their building blocks. Which row in the chart below correctly pairs a large organic food molecule with its building blocks? Row Large Molecule Building Blocks",
+      "choices": [
+        "starches proteins",
+        "amino acids fats",
+        "proteins amino acids",
+        "sugars starches"
+      ],
+      "image": "/images/exams/living-environment/january-2026/q3.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Carbon dioxide absorbed from the atmosphere into the oceans increases acid levels and threatens the survival of many marine organisms. Which human activity could slow the increasing acidity of the ocean?",
+      "choices": [
+        "Reduce the burning of fossil fuels.",
+        "Decrease protection of the ozone shield.",
+        "Create preserves in ocean regions to stop overfishing.",
+        "Regulate the disposal of plastics in the ocean."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Enzymes are similar to hormones in that they both",
+      "choices": [
+        "affect every cell in the same way",
+        "function only in acidic environments",
+        "have specific shapes that influence how they function",
+        "can be used to cut, copy, and move molecules"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The U.S. imports many products from other countries. As more goods are transported into the United States, the risk of invasive organisms arriving with them greatly increases. Any invasive organisms that enter a new area would most likely",
+      "choices": [
+        "alter inheritable traits of organisms",
+        "decrease infinite resources",
+        "increase ecological succession",
+        "disrupt an ecosystem\u2019s stability"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Several human genetic disorders are caused when a zygote has one extra chromosome. This can occur as a result of",
+      "choices": [
+        "meiosis forming a zygote that has one extra chromosome",
+        "meiosis forming a gamete with one extra chromosome",
+        "mitosis forming a zygote that has one extra chromosome",
+        "mitosis forming a gamete with one extra chromosome"
+      ],
+      "image": "/images/exams/living-environment/january-2026/q7.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "The variety of environments found around the world is the result of the",
+      "choices": [
+        "action of many kinds of predators",
+        "evolution of plant species",
+        "extinction of animal species",
+        "diversity of physical conditions"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a process used by plants to produce high-energy organic compounds. Inorganic compounds High-energy organic compounds Leaf containing green plant cells The inorganic compounds used by the green plant cells in this process are",
+      "choices": [
+        "oxygen and water",
+        "glucose and carbon dioxide",
+        "carbon dioxide and water",
+        "glucose and oxygen"
+      ],
+      "image": "/images/exams/living-environment/january-2026/q9.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The model below represents an aquatic food web. Humans Seagulls Fish Algae Limpets Mussels Octopuses Sharks Starfish Phytoplankton Zooplankton Examples of producers in this aquatic food web include",
+      "choices": [
+        "humans and octopuses",
+        "algae and phytoplankton",
+        "limpets and mussels",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2026/q10.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The diagram below illustrates a form of asexual reproduction in hydras. Offspring Parent Which statement best describes how the genetic information in the cells of the hydra parent compares to the genetic information in the cells of the offspring?",
+      "choices": [
+        "The genes in the offspring cells are identical to the genes of the parent cells.",
+        "The offspring cells contain half the genetic information of the parent cells.",
+        "The offspring cells have twice the genetic information of the parent cells.",
+        "The genes in the offspring cells are different from the genes of the parent cells."
+      ],
+      "image": "/images/exams/living-environment/january-2026/q11.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "A professor from Montana State University described some of the changes observed in the Greater Yellowstone ecosystem. He said, \u201c\u2026 changes in land use and climate have reduced snow pack and stream flows, increased stream temperatures, favored pest outbreaks and forest die-off, fragmented habitat types, expanded invasive species, and reduced native fish populations.\u201d The most likely cause of the changes described is",
+      "choices": [
+        "excessive predation of fish by large animals such as the bears native to the area",
+        "human activities that deliberately or inadvertently altered the equilibrium of the ecosystem",
+        "direct harvesting of certain animals as part of a well-controlled population management program",
+        "a naturally occurring cooling trend that kept mountain snow from melting and affecting stream flow"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Red meat is not harmful to most people. However, some people develop a reaction that affects their ability to breathe when they eat red meat. This response to red meat is known as",
+      "choices": [
+        "an allergy",
+        "a stimulus",
+        "an infection",
+        "an adaptation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Antibiotic resistance has become a serious problem, especially in the control of bacterial diseases that infect people and farm animals. A certain bacterium is resistant to an antibiotic. This resistance could be due to",
+      "choices": [
+        "changes that occur in the antibiotic before it makes contact with the bacterium",
+        "changes that occurred in the genetic material of the bacterium",
+        "the use of a new antibiotic to destroy the bacterium",
+        "the use of a new vaccine to prevent the genetic material from being mutated by the bacterium"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Which statement describes a characteristic of the human reproductive system?",
+      "choices": [
+        "The testes produce sperm cells that contain twice as much DNA as body cells.",
+        "The placenta provides oxygen and nutrients to a developing fetus.",
+        "The ovary produces cells that form an embryo that divides by meiosis.",
+        "Egg cells contain a full set of chromosomes that will develop into an embryo through differentiation."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "An individual with a high blood glucose level may have headaches, blurred vision, and fatigue. Which substance would most likely help to reduce these symptoms?",
+      "choices": [
+        "estrogen",
+        "a specific antigen",
+        "a digestive enzyme",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The diagram below illustrates how two DNA segments can be joined to form a DNA segment with a new genetic sequence. Fragments of the DNA molecules are cut out DNA fragments join at sticky ends Sticky end Sticky end Sticky ends result New DNA fragment This procedure is an example of a process known as",
+      "choices": [
+        "DNA cloning",
+        "genetic expression",
+        "genetic engineering",
+        "DNA replication"
+      ],
+      "image": "/images/exams/living-environment/january-2026/q17.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The diagram below represents an evolutionary tree. The arrows indicate some of the newly evolved traits in that particular branch. Mice Rats Cattle Chimpanzee Human Opossum Platypus Chicken Frog Zebrafish Silkworm Japanese pufferfish Sea anemone Bilateral symmetry; muscles Vertebrae; hinged jaws 4 walking limbs Amniotic egg Hair; mammary glands Placenta Green-spotted pufferfish Which claim is supported by the evolutionary tree?",
+      "choices": [
+        "Rats have a placenta, but do not have mammary glands.",
+        "Chickens have amniotic eggs, but frogs do not.",
+        "Fish do not have vertebrae, but mice and opossums do.",
+        "Sea anemones have bilateral symmetry and muscles,"
+      ],
+      "image": "/images/exams/living-environment/january-2026/q18.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The diagram below represents two methods of transport through a cell membrane. Method A Method B Which method illustrates molecules moving by diffusion?",
+      "choices": [
+        "Method A, only",
+        "Method B, only",
+        "either Method A or Method B",
+        "neither Method A nor Method B"
+      ],
+      "image": "/images/exams/living-environment/january-2026/q19.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Serratia marcescens is a species of bacteria that is red at 25\u02daC and white when the temperature is 37\u02daC. The most probable explanation for this is that",
+      "choices": [
+        "lower temperatures alter the base sequences of proteins that code for color in the bacteria",
+        "factors in the environment influence gene expression in these bacteria",
+        "pigment molecules influence environmental factors in which bacteria grow",
+        "hormone activity in the bacteria is directly proportional to available nutrients"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Scientists have found many similarities in specific organic compounds of raccoons and bears. These similarities suggest that raccoons and bears have",
+      "choices": [
+        "stopped evolving",
+        "a common ancestor",
+        "identical DNA",
+        "the same number of chromosomes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Two chemical substances that play a direct role in the regulation of the female reproductive system are",
+      "choices": [
+        "progesterone and estrogen",
+        "progesterone and glucose",
+        "estrogen and starch",
+        "glucose and testosterone"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "Although widespread forest fires occur in the Amazon during the summer dry season, the number of fires in 2019 was almost three times the number in 2018. Many of the fires were started to clear land for farming. These fires attracted global concern because",
+      "choices": [
+        "setting fires replaced direct harvesting as an important method for obtaining wood in the Amazon",
+        "areas where forests are destroyed by fire can no longer support any plant life",
+        "they increased deforestation, accelerating atmospheric changes that threatened world\u00ad wide environments",
+        "the increased farming decreased the amount of carbon dioxide available for plants"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The pH of a lake occupied by a population of fish suddenly decreases. Most of the fish die, but a few survive. Which statement regarding the survivors is true?",
+      "choices": [
+        "Only large fish survived when the pH level in the water dropped.",
+        "The surviving fish were able to change their DNA in response to the change in pH.",
+        "The fish that survived were able to produce chemicals that returned the pH of the lake to normal levels.",
+        "The survivors already had genetic differences that made them better suited to the lower pH of the water."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The most likely explanation for a lack of competition among three different bird species inhabiting the same species of trees in an ecosystem is that",
+      "choices": [
+        "there is a limited food supply",
+        "they occupy separate niches",
+        "they eat similar insects that live in the trees",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "The diagram below represents an animal cell that has been greatly magnified. A The structure labeled A is surrounded by a membrane and may be seen using a compound light microscope. Structure A is most likely a",
+      "choices": [
+        "chloroplast that releases glucose",
+        "mitochondrion that releases oxygen",
+        "ribosome that stores sugars and fats",
+        "vacuole that stores cellular products"
+      ],
+      "image": "/images/exams/living-environment/january-2026/q26.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "A forest food web is shown below. Forest Food Web Snakes Hawks Frogs Rabbits Trees Deer Mountain lions Grasses Mice Crickets Which organism occupies a feeding level that receives a larger percentage of the energy captured by the producers than the feeding level occupied by the snakes?",
+      "choices": [
+        "frogs",
+        "hawks",
+        "rabbits",
+        "mountain lions"
+      ],
+      "image": "/images/exams/living-environment/january-2026/q27.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The diagram below illustrates a series of processes that occur during sexual reproduction. Mother Father Egg Sperm Which sequence of events occurs after the formation of the zygote?",
+      "choices": [
+        "development \u2192 birth \u2192 aging",
+        "meiosis \u2192 birth \u2192 aging",
+        "aging \u2192 birth \u2192 meiosis",
+        "mitosis \u2192 fertilization \u2192 development"
+      ],
+      "image": "/images/exams/living-environment/january-2026/q28.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "In a food web, the herbivores are most directly dependent on the types of",
+      "choices": [
+        "heterotrophs",
+        "autotrophs",
+        "decomposers",
+        "predators"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "Which statement best describes how a group of specialized cells could interact?",
+      "choices": [
+        "Organelles could work together to form an organ.",
+        "Tissues could work together to form an organ.",
+        "Organs could work together to form a tissue.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a sequence of DNA in a human body cell, before and after a point mutation occurs. T A A A C T G G G C T A A A C C G G G C Before: Original Sequence After: Point Mutation of Original Sequence A single point mutation in one base of a DNA sequence may have a direct effect on the",
+      "choices": [
+        "sequence of amino acids it produces",
+        "sequence of simple sugars it produces",
+        "type of carbohydrates needed",
+        "type of ribosomes in a cell"
+      ],
+      "image": "/images/exams/living-environment/january-2026/q31.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a process that takes place in the mitochondrion. Useable energy Carbon dioxide Glucose ADP ADP ATP P Water The main purpose of this process is to supply the cell with",
+      "choices": [
+        "useable energy",
+        "glucose",
+        "carbon dioxide",
+        "water"
+      ],
+      "image": "/images/exams/living-environment/january-2026/q32.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "What evidence would support the claim that female bees result from fertilization?",
+      "choices": [
+        "All female bees in the hive have the same DNA.",
+        "Only female bees contain a full set of chromosomes.",
+        "Male bees are produced in larger numbers.",
+        "Female bees only have genes from the queen bee."
+      ],
+      "image": "/images/exams/living-environment/january-2026/context_33_34.png",
+      "context": "Base your answers to questions 33 and 34 on the information and diagram below and on your knowledge of \nbiology.\nBees have complex genetics. Male drone bees result from the development of unfertilized \neggs from the queen bee. Female worker bees result from fertilization. A model of bee \ngenetics is shown below:\nMale drone bee\n(Chromosomes 5 16)\nFemale queen bee\n(Chromosomes 5 32)\n(Chromosomes 5 16)\n(Chromosomes 5 16)\nFemale worker bee  \n(Chromosomes 5 32)",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "At one time, people thought that all male drone bees produced by the queen were genetically identical. However, after analyzing the DNA from the male drone bees, scientists determined that drones are not identical. Which explanation provides the best reasoning for why male bees are not genetically identical?",
+      "choices": [
+        "Male bees are produced through the union of egg and sperm.",
+        "Male bees are produced asexually, which leads to greater genetic diversity.",
+        "All male bees have 16 chromosomes that contain 32 different genes.",
+        "The eggs used to produce male bees contain different combinations of chromosomes."
+      ],
+      "image": "/images/exams/living-environment/january-2026/context_33_34.png",
+      "context": "Base your answers to questions 33 and 34 on the information and diagram below and on your knowledge of \nbiology.\nBees have complex genetics. Male drone bees result from the development of unfertilized \neggs from the queen bee. Female worker bees result from fertilization. A model of bee \ngenetics is shown below:\nMale drone bee\n(Chromosomes 5 16)\nFemale queen bee\n(Chromosomes 5 32)\n(Chromosomes 5 16)\n(Chromosomes 5 16)\nFemale worker bee  \n(Chromosomes 5 32)",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Why should an explanation about a scientific phenomenon developed by one scientist be rejected by another scientist?",
+      "choices": [
+        "The original scientist had less funding to support his research than the other scientist.",
+        "The original scientist conducted multiple trials and had his work peer-reviewed.",
+        "The explanation of the phenomenon is not consistent with additional experimental and observational evidence.",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "The two graphs below show trends in the relative amounts of oxygen and carbon dioxide present in Earth\u2019s atmosphere over millions of years. Carbon Dioxide Modeled using the geochemical data from the carbon cycle 8k 6k 4k 2k 0k 500 400 300 200 100 0 ppm Million Years Ago Oxygen Percent of oxygen in the atmosphere, based on data from carbon and sulfur cycles 40 30 20 10 0 500 400 300 200 100 0 % Million Years Ago Events that most likely resulted in the relative amounts of oxygen and carbon dioxide present in Earth\u2019s atmosphere around 300 million years ago were",
+      "choices": [
+        "the evolution of reptiles and herbivorous mammals",
+        "the evolution of decomposers and consumers",
+        "a sudden increase in the diversity of organisms in Earth\u2019s oceans",
+        "an increase in the diversity and size of populations of autotrophs"
+      ],
+      "image": "/images/exams/living-environment/january-2026/q36.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Before period X, the coyote population most likely increased due to",
+      "choices": [
+        "more competition for more resources",
+        "a high birth rate with limited resources",
+        "a low birth rate with unlimited resources",
+        "limited competition for unlimited resources"
+      ],
+      "image": "/images/exams/living-environment/january-2026/context_37_38.png",
+      "context": "Base your answers to questions 37 and 38 on the \ngraph and information below and on your knowledge \nof biology \n\t\nThe graph shows the population of coyotes in \nan environment over a period of several years. \nRabbits and mice are the main food sources of \ncoyotes.\nNumber of Coyotes\nX\nTime\nCoyote Population",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which statement best explains what may have occurred at X?",
+      "choices": [
+        "A mild winter allowed more mice and rabbits to survive.",
+        "A disease caused a decrease in the rabbit population.",
+        "The coyotes found a new food source.",
+        ""
+      ],
+      "image": "/images/exams/living-environment/january-2026/context_37_38.png",
+      "context": "Base your answers to questions 37 and 38 on the \ngraph and information below and on your knowledge \nof biology \n\t\nThe graph shows the population of coyotes in \nan environment over a period of several years. \nRabbits and mice are the main food sources of \ncoyotes.\nNumber of Coyotes\nX\nTime\nCoyote Population",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "Based on the reading passage, which row in the chart below best completes the energy pyramid that includes the following organisms: tuna, algae, shark, and small fish? Row Level A Level B Level C Level D",
+      "choices": [
+        "shark algae small fish tuna",
+        "shark tuna small fish algae",
+        "small fish algae shark tuna",
+        "algae small fish tuna shark Most commercial fishermen use nets. Many types of nets do not distinguish between the species of fish they are meant to catch and other fish they are not seeking. New technologies have enabled fishing boats to move from coastal areas to deeper ocean water. This allows them to continue to catch fish."
+      ],
+      "image": "/images/exams/living-environment/january-2026/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the diagram, chart, and information below and on your \nknowledge of biology \nOverfishing\nAn old saying, \u201cThere are always more fish in the sea,\u201d may not be true in the future. \nMany fish species, including sharks, are nearing extinction due to overfishing. Overfishing is \ndefined as the practice of catching fish faster than their populations can be sustained. When \nsharks are overfished, their prey, which includes tuna, increase in number. This might seem \ngood, since many people like to eat tuna. When tuna are overfished, populations of their \nprey, smaller fish that feed on plants and algae, grow uncontrolled. \n\t\n\t The diagram below represents an energy pyramid.\nD\nC\nB\nA",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "A description of an important trade-off associated with the use of nets and fishing technology by fishermen includes the fact that",
+      "choices": [
+        "many fish can be caught at one time but fish that are not meant to be caught are often killed",
+        "using nets is efficient, and many fish can be caught at one time",
+        "some fish that are not intended to be caught are killed, and some are in danger of extinction",
+        "when fish become abundant, fishermen can go out farther in the ocean to catch them"
+      ],
+      "image": "/images/exams/living-environment/january-2026/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the diagram, chart, and information below and on your \nknowledge of biology \nOverfishing\nAn old saying, \u201cThere are always more fish in the sea,\u201d may not be true in the future. \nMany fish species, including sharks, are nearing extinction due to overfishing. Overfishing is \ndefined as the practice of catching fish faster than their populations can be sustained. When \nsharks are overfished, their prey, which includes tuna, increase in number. This might seem \ngood, since many people like to eat tuna. When tuna are overfished, populations of their \nprey, smaller fish that feed on plants and algae, grow uncontrolled. \n\t\n\t The diagram below represents an energy pyramid.\nD\nC\nB\nA",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Some scientists claim that overfishing is disrupting ocean food webs. Evidence that best supports this claim is that",
+      "choices": [
+        "there are fewer top predators that maintain small fish populations at appropriate levels",
+        "there are fewer small fish that consume the plants necessary for other ocean species",
+        "fish that rely on plants change their diet to one that includes only other animals",
+        "because of less competition,"
+      ],
+      "image": "/images/exams/living-environment/january-2026/context_39_41.png",
+      "context": "Base your answers to questions 39 through 41 on the diagram, chart, and information below and on your \nknowledge of biology \nOverfishing\nAn old saying, \u201cThere are always more fish in the sea,\u201d may not be true in the future. \nMany fish species, including sharks, are nearing extinction due to overfishing. Overfishing is \ndefined as the practice of catching fish faster than their populations can be sustained. When \nsharks are overfished, their prey, which includes tuna, increase in number. This might seem \ngood, since many people like to eat tuna. When tuna are overfished, populations of their \nprey, smaller fish that feed on plants and algae, grow uncontrolled. \n\t\n\t The diagram below represents an energy pyramid.\nD\nC\nB\nA",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Which snakes would most likely have a gene sequence for a venom protein that is most similar to an elapid snake?",
+      "choices": [
+        "vipers",
+        "blind snakes",
+        "pythons",
+        "Protein Value in Pollen Native bee species and honeybees rely on flowering plants for energy and nutrition. The pollen they collect and eat is essential for their development and helps them to maintain immunity to pathogens and parasites. While collecting pollen, bees provide humans with a valuable service. They pollinate more than 15 billion dollars in crops each year. In addition to the bees being threatened by pesticides, studies have shown that the overall protein concentration of pollen is decreasing. This is thought to be due to increased levels of carbon dioxide (CO2) in the atmosphere and a corresponding increase in the rate of photosynthesis. Data that support this claim show a great drop in pollen protein occurred between 1960-2014, a time when atmospheric carbon dioxide levels rose dramatically."
+      ],
+      "image": "/images/exams/living-environment/january-2026/context_42_42.png",
+      "context": "Base your answer to question 42 on the information and diagram below and on your knowledge of biology.\nResearch has shown that snake venoms have evolved from proteins present in their saliva. \nThe diagram below shows a phylogenetic tree of lizard and snake relationships over time. \nToxicofera is a classification group containing all snakes and some lizards, and Caenophidia \nis a group that includes all venomous snakes.\nSpecies of Reptiles\nOther \nlizards\nIguanids\nAnguimorpha\nBlind snakes\nPythons\n& Boas\nVipers\nElapids\nAtractaspis\nColubrids\nCaenophidia\nToxicofera\n200\nMillions of Years Ago\n150\n100\n50\n0\nJurassic\nCretaceous\nCenozoic\nTime Periods",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "The increase in atmospheric carbon dioxide potentially causing a decrease in pollen protein concentration is an example of how",
+      "choices": [
+        "the nutritional value of food is increased as a result of an increase in atmospheric carbon dioxide",
+        "changes caused by humans can negatively affect ecosystem stability",
+        "as carbon dioxide levels increase, the use of pesticides can increase the number of bees pollinating crops",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale, without any breaks in the data, on each labeled axis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information and data table below and on your \nknowledge of biology.\nThe Dangers of Vaping\nAccording to the CDC, the use of e-cigarettes among adolescents is on the rise. When \nadolescents in grades 9-12 were asked if they had used e-cigarettes in the past 30 days, \n1.5% of adolescents in 2011 said they had. In 2018, 20.8% said they had.\nMany e-liquids used in vaping devices contain nicotine as well as exotic flavorings, which \noften appeal to younger individuals. While these flavorings have been approved for use in \nfoods that are ingested, their safety when inhaled hasn\u2019t been evaluated.\nResearch indicates that certain flavorings may increase the risks associated with vaping \nby impacting the ability of individuals to fight respiratory infections. The cells that line the \nrespiratory tract have cilia that sweep mucus with inhaled particles and pathogens up toward \nthe throat that keeps them out of the lungs. This provides a barrier against respiratory \ninfection. A study was done to determine the effect of cinnamon flavoring, found in many \nbest-selling e-liquids, on the functions of cilia. As part of the study, respiratory tract cells \nwere exposed to different concentrations of cinnamon flavoring, and the frequency of cilia \nbeating was measured. The results are shown in the table below. \nConcentration of \nCinnamon Flavoring (mM)\nCilia-Beating Frequency \n(Hertz)\n0\n700\n1\n650\n5\n500\n10\n75\n15\n25\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 Jan. \u201926\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for marking an appropriate scale on the grid provided, without any breaks in the data, on each labeled axis. Note: Do not allow credit if the grid is altered to accommodate the scale."
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Plot the data on the grid provided. Connect the points and surround each point with a small circle. Example: Cilia Function at Different Cinnamon Flavoring Concentrations Concentration of Cinnamon Flavoring (mM) Cilia-Beating Frequency (Hertz)",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information and data table below and on your \nknowledge of biology.\nThe Dangers of Vaping\nAccording to the CDC, the use of e-cigarettes among adolescents is on the rise. When \nadolescents in grades 9-12 were asked if they had used e-cigarettes in the past 30 days, \n1.5% of adolescents in 2011 said they had. In 2018, 20.8% said they had.\nMany e-liquids used in vaping devices contain nicotine as well as exotic flavorings, which \noften appeal to younger individuals. While these flavorings have been approved for use in \nfoods that are ingested, their safety when inhaled hasn\u2019t been evaluated.\nResearch indicates that certain flavorings may increase the risks associated with vaping \nby impacting the ability of individuals to fight respiratory infections. The cells that line the \nrespiratory tract have cilia that sweep mucus with inhaled particles and pathogens up toward \nthe throat that keeps them out of the lungs. This provides a barrier against respiratory \ninfection. A study was done to determine the effect of cinnamon flavoring, found in many \nbest-selling e-liquids, on the functions of cilia. As part of the study, respiratory tract cells \nwere exposed to different concentrations of cinnamon flavoring, and the frequency of cilia \nbeating was measured. The results are shown in the table below. \nConcentration of \nCinnamon Flavoring (mM)\nCilia-Beating Frequency \n(Hertz)\n0\n700\n1\n650\n5\n500\n10\n75\n15\n25\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 Jan. \u201926\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for correctly plotting the data and connecting the points and surrounding each point with a small circle. Example of a 2-credit graph for questions 44\u201345: Cilia-Beating Frequency (Hertz) Cilia Function at Different Cinnamon Flavoring Concentrations Concentration of Cinnamon Flavoring (mM) 0 2 4 6 8 10 12 14 16 100 200 300 400 500 600 700 Note: Allow credit if the points are plotted correctly, but not circled. Do not assume that the intersection of the x- and y-axes is the origin (0,0) unless it is labeled. An appropriate scale only needs to include the data range in the data table."
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "State the relationship between cilia function and concentration of cinnamon flavoring.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information and data table below and on your \nknowledge of biology.\nThe Dangers of Vaping\nAccording to the CDC, the use of e-cigarettes among adolescents is on the rise. When \nadolescents in grades 9-12 were asked if they had used e-cigarettes in the past 30 days, \n1.5% of adolescents in 2011 said they had. In 2018, 20.8% said they had.\nMany e-liquids used in vaping devices contain nicotine as well as exotic flavorings, which \noften appeal to younger individuals. While these flavorings have been approved for use in \nfoods that are ingested, their safety when inhaled hasn\u2019t been evaluated.\nResearch indicates that certain flavorings may increase the risks associated with vaping \nby impacting the ability of individuals to fight respiratory infections. The cells that line the \nrespiratory tract have cilia that sweep mucus with inhaled particles and pathogens up toward \nthe throat that keeps them out of the lungs. This provides a barrier against respiratory \ninfection. A study was done to determine the effect of cinnamon flavoring, found in many \nbest-selling e-liquids, on the functions of cilia. As part of the study, respiratory tract cells \nwere exposed to different concentrations of cinnamon flavoring, and the frequency of cilia \nbeating was measured. The results are shown in the table below. \nConcentration of \nCinnamon Flavoring (mM)\nCilia-Beating Frequency \n(Hertz)\n0\n700\n1\n650\n5\n500\n10\n75\n15\n25\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 Jan. \u201926\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 As the concentration of cinnamon flavoring increased, the cilia beating frequency decreased. \u2014 The cilia work better at lower concentrations of cinnamon flavoring. \u2014 It is an indirect relationship. \u2014 Cilia function decreases as cinnamon concentration increases. 47 1 Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "When conducting this experiment, the researchers used nicotine-free cinnamon flavored e-liquids. This was most likely done in order to",
+      "choices": [
+        "test just one variable in the experiment",
+        "decrease the validity of the experiment",
+        "increase the effects of the dependent variable",
+        "be able to repeat the experiment a few times"
+      ],
+      "image": "/images/exams/living-environment/january-2026/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information and data table below and on your \nknowledge of biology.\nThe Dangers of Vaping\nAccording to the CDC, the use of e-cigarettes among adolescents is on the rise. When \nadolescents in grades 9-12 were asked if they had used e-cigarettes in the past 30 days, \n1.5% of adolescents in 2011 said they had. In 2018, 20.8% said they had.\nMany e-liquids used in vaping devices contain nicotine as well as exotic flavorings, which \noften appeal to younger individuals. While these flavorings have been approved for use in \nfoods that are ingested, their safety when inhaled hasn\u2019t been evaluated.\nResearch indicates that certain flavorings may increase the risks associated with vaping \nby impacting the ability of individuals to fight respiratory infections. The cells that line the \nrespiratory tract have cilia that sweep mucus with inhaled particles and pathogens up toward \nthe throat that keeps them out of the lungs. This provides a barrier against respiratory \ninfection. A study was done to determine the effect of cinnamon flavoring, found in many \nbest-selling e-liquids, on the functions of cilia. As part of the study, respiratory tract cells \nwere exposed to different concentrations of cinnamon flavoring, and the frequency of cilia \nbeating was measured. The results are shown in the table below. \nConcentration of \nCinnamon Flavoring (mM)\nCilia-Beating Frequency \n(Hertz)\n0\n700\n1\n650\n5\n500\n10\n75\n15\n25\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 Jan. \u201926\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "48",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information and data table below and on your \nknowledge of biology.\nThe Dangers of Vaping\nAccording to the CDC, the use of e-cigarettes among adolescents is on the rise. When \nadolescents in grades 9-12 were asked if they had used e-cigarettes in the past 30 days, \n1.5% of adolescents in 2011 said they had. In 2018, 20.8% said they had.\nMany e-liquids used in vaping devices contain nicotine as well as exotic flavorings, which \noften appeal to younger individuals. While these flavorings have been approved for use in \nfoods that are ingested, their safety when inhaled hasn\u2019t been evaluated.\nResearch indicates that certain flavorings may increase the risks associated with vaping \nby impacting the ability of individuals to fight respiratory infections. The cells that line the \nrespiratory tract have cilia that sweep mucus with inhaled particles and pathogens up toward \nthe throat that keeps them out of the lungs. This provides a barrier against respiratory \ninfection. A study was done to determine the effect of cinnamon flavoring, found in many \nbest-selling e-liquids, on the functions of cilia. As part of the study, respiratory tract cells \nwere exposed to different concentrations of cinnamon flavoring, and the frequency of cilia \nbeating was measured. The results are shown in the table below. \nConcentration of \nCinnamon Flavoring (mM)\nCilia-Beating Frequency \n(Hertz)\n0\n700\n1\n650\n5\n500\n10\n75\n15\n25\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 Jan. \u201926\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 When the concentration of cinnamon flavoring is 10 mM, the cilia are only beating 75 Hertz (Hz) compared with 700 Hz with no flavoring. They won\u2019t be able to clear the airways of harmful pathogens, so they are more likely to get sick. \u2014 When the concentration of flavoring increases, the cilia don\u2019t beat as much and bacteria and viruses aren\u2019t removed from the respiratory tract, which would probably increase the risk of lung infection. \u2014 Cinnamon reduces the ability of the cilia to remove inhaled particles/pathogens from the air tract. 49 3 50 3"
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "Another experiment within this study looked at ATP production by the respiratory tract cells at different cinnamon flavoring (cinnamaldehyde) concentrations. The results are shown in the graph below. Cinnamaldehyde Concentration (mM) 0 0.05 0.25 0.5 5 ATP Production ATP Production (pmol/min) 150 100 50 0 These results suggest that at higher concentrations of the flavoring, the respiratory tract cells may be using",
+      "choices": [
+        "more carbon dioxide",
+        "less carbon dioxide",
+        "less oxygen",
+        "more oxygen"
+      ],
+      "image": "/images/exams/living-environment/january-2026/context_44_49.png",
+      "context": "Base your answers to questions 44 through 49 on the information and data table below and on your \nknowledge of biology.\nThe Dangers of Vaping\nAccording to the CDC, the use of e-cigarettes among adolescents is on the rise. When \nadolescents in grades 9-12 were asked if they had used e-cigarettes in the past 30 days, \n1.5% of adolescents in 2011 said they had. In 2018, 20.8% said they had.\nMany e-liquids used in vaping devices contain nicotine as well as exotic flavorings, which \noften appeal to younger individuals. While these flavorings have been approved for use in \nfoods that are ingested, their safety when inhaled hasn\u2019t been evaluated.\nResearch indicates that certain flavorings may increase the risks associated with vaping \nby impacting the ability of individuals to fight respiratory infections. The cells that line the \nrespiratory tract have cilia that sweep mucus with inhaled particles and pathogens up toward \nthe throat that keeps them out of the lungs. This provides a barrier against respiratory \ninfection. A study was done to determine the effect of cinnamon flavoring, found in many \nbest-selling e-liquids, on the functions of cilia. As part of the study, respiratory tract cells \nwere exposed to different concentrations of cinnamon flavoring, and the frequency of cilia \nbeating was measured. The results are shown in the table below. \nConcentration of \nCinnamon Flavoring (mM)\nCilia-Beating Frequency \n(Hertz)\n0\n700\n1\n650\n5\n500\n10\n75\n15\n25\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment \u2013 Jan. \u201926\t\n[15]\t\n[OVER]\nDirections (44\u201345): Using the information in the data table, construct a line graph on the grid provided, \nfollowing the directions below.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which statement best describes how the immune system responds when the protein in the genetically modified banana enters the intestine?",
+      "choices": [
+        "Immune cells detect the protein as foreign and launch antigens against it.",
+        "Red blood cells detect the protein and destroy it.",
+        "The protein is detected, and antibodies are formed against it.",
+        "Immune cells in the liver take in the protein and use it to destroy the virus."
+      ],
+      "image": null,
+      "context": "Base your answers to questions 50 and 51 on the information below and on your knowledge of biology.\nVaccine in Genetically Modified (GM) Bananas Could Wipe Out Hepatitis B\nBananas have been genetically modified to contain a hepatitis B vaccine. The virus \nattacks the liver and can lead to liver cancer. It has been demonstrated that it is possible to \nproduce a cheap, stable vaccine by genetically modifying certain plants.\nA gene that codes for a specific protein on the surface of the hepatitis B virus is transferred \ninto a banana plant. In the plant, thousands of copies of the protein are produced. When the \nbanana is eaten, the protein passes into the intestine, where the immune system produces \nantibodies against hepatitis B. These antibodies work the same way as antibodies produced \nin response to an injected vaccine.\n\t\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "51",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 50 and 51 on the information below and on your knowledge of biology.\nVaccine in Genetically Modified (GM) Bananas Could Wipe Out Hepatitis B\nBananas have been genetically modified to contain a hepatitis B vaccine. The virus \nattacks the liver and can lead to liver cancer. It has been demonstrated that it is possible to \nproduce a cheap, stable vaccine by genetically modifying certain plants.\nA gene that codes for a specific protein on the surface of the hepatitis B virus is transferred \ninto a banana plant. In the plant, thousands of copies of the protein are produced. When the \nbanana is eaten, the protein passes into the intestine, where the immune system produces \nantibodies against hepatitis B. These antibodies work the same way as antibodies produced \nin response to an injected vaccine.\n\t\nNote: The answer to question 50 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 For people to be protected from hepatitis B, all they would need to do is eat a banana. \u2014 The genetically modified banana may be inexpensive to produce and does not need to be refrigerated. \u2014 People who are afraid of needles would just need to eat a banana to be vaccinated. \u2014 People may have fewer reactions to the vaccine."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "Organ A and organ C both have similar functions, even though one is present in females and the other is present in males. Describe one function carried out by both A and C.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_52_53.png",
+      "context": "Base your answers to questions 52 and 53 on the diagram below and on your knowledge of biology. \nThe diagram shows some organs of the male and female reproductive systems.\nC\nA\nB",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Organ A and organ C both produce gametes. \u2014 The ovaries and testes both produce sex hormones. \u2014 They both produce reproductive cells. \u2014 Cells produced in A and C carry out meiosis."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "53",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_52_53.png",
+      "context": "Base your answers to questions 52 and 53 on the diagram below and on your knowledge of biology. \nThe diagram shows some organs of the male and female reproductive systems.\nC\nA\nB",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The uterus supports the development of the embryo/fetus. \u2014 It is where the fetus develops. \u2014 protects the fetus during its development Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Explain how the body\u2019s response to low oxygen levels is an example of a feedback mechanism.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nErythropoietin (EPO) is a hormone produced by special cells in the kidney that affects \nthe production of red blood cells in the bone marrow. The table below shows the normal \nresponse of the kidneys to oxygen levels in regard to EPO.\nStep 1\nLow oxygen \nlevels in blood \nrecognized by \nspecialized \nkidney cells\nKidney cells \nproduce and \nrelease EPO \nhormone into\nthe blood\nIncrease in EPO \nresults in an \nincrease in \nproduction of \nred blood cells in \nbone marrow\nIncrease in \nred blood cells \nresults in an \nincrease in blood \noxygen levels\nEPO levels \ndecrease to \nnormal level\nStep 2\nStep 3\nResponse of Kidneys to Oxygen Levels\nStep 4\nStep 5",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 As the level of oxygen decreases, the level of EPO increases to counteract this. \u2014 Low oxygen stimulates the kidney cells to produce and release EPO. Increased EPO results in an increase in the production of red blood cells, which raises the oxygen levels."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "55",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nErythropoietin (EPO) is a hormone produced by special cells in the kidney that affects \nthe production of red blood cells in the bone marrow. The table below shows the normal \nresponse of the kidneys to oxygen levels in regard to EPO.\nStep 1\nLow oxygen \nlevels in blood \nrecognized by \nspecialized \nkidney cells\nKidney cells \nproduce and \nrelease EPO \nhormone into\nthe blood\nIncrease in EPO \nresults in an \nincrease in \nproduction of \nred blood cells in \nbone marrow\nIncrease in \nred blood cells \nresults in an \nincrease in blood \noxygen levels\nEPO levels \ndecrease to \nnormal level\nStep 2\nStep 3\nResponse of Kidneys to Oxygen Levels\nStep 4\nStep 5",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 If the person\u2019s kidney cells do not produce sufficient EPO, the result would be a low red blood cell count and reduced oxygen levels. \u2014 The person might suffer from reduced energy levels, since a low amount of oxygen would circulate to the cells due to a reduced EPO level and low red blood cell count. \u2014 Homeostasis will be upset because they won\u2019t have enough oxygen/energy. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Explain why it is necessary to genetically modify the pigs before using their organs for human transplant.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nCan Pigs Become a Source of Organs for Human Transplants?\nThere is a chronic shortage of organs for people in need of transplants. Pigs might serve \nas possible donors, since many pig organs are similar in size, structure, and function to \nhuman organs. Evidence shows that transplanted donor organs could lead to organ rejection \nand death without anti-rejection medication. \nIn order to avoid this organ rejection, scientists have recently modified the genetic \ncode of selected pigs. A newer technology called CRISPR was used to disable retroviruses \nembedded in the genetic makeup of pigs. These retroviruses could be harmful to humans. \nMany additional pig genes were also altered to shut down factors that could cause a rejection \nresponse in human transplant recipients.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Without genetic modification, the pig organs would be rejected. \u2014 Genetic modification can remove retroviruses in the pig genome that could be harmful to human cells. \u2014 Modifying the genes stops the expression of factors that cause transplants to be rejected. \u2014 It is necessary to minimize the foreign substances/antigens on the pig organs that stimulate the immune system of the recipient."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "After a history of unsuccessful efforts, the first long-term successful kidney transplants were performed between human twins that developed from the same zygote. Explain the reason why organ rejection concerns were much less between twins than using organs from pigs.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nCan Pigs Become a Source of Organs for Human Transplants?\nThere is a chronic shortage of organs for people in need of transplants. Pigs might serve \nas possible donors, since many pig organs are similar in size, structure, and function to \nhuman organs. Evidence shows that transplanted donor organs could lead to organ rejection \nand death without anti-rejection medication. \nIn order to avoid this organ rejection, scientists have recently modified the genetic \ncode of selected pigs. A newer technology called CRISPR was used to disable retroviruses \nembedded in the genetic makeup of pigs. These retroviruses could be harmful to humans. \nMany additional pig genes were also altered to shut down factors that could cause a rejection \nresponse in human transplant recipients.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Unlike using pig organs, the twins from the same zygote have the same DNA code, so their organs don\u2019t cause an immune reaction. \u2014 Identical twins have the same genetic information, so the transplanted kidney would not be treated as foreign by the patient. \u2014 Unlike the genetically modified pigs, the identical twins had the same DNA."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Identify which population location has the greatest diversity in fur color. Support your answer with numerical data from the table.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the information and photo below and on your knowledge of \nbiology.\nWestern Rock Pocket Mice\nScientists studied the distribution of a species of pocket mouse that lives in desert regions \nof the southwestern United States. At night, the mice feed on seeds and grasses. A single \nfemale mouse can reproduce several times each year, producing a litter of 3 to 13 offspring \neach time. Dark mice may be found in a population of tan mice with a frequency of about \n1 for every 100,000 births. Most of the fur color genes are identical, but dark and tan rock \npocket mice differ in one gene. They have different forms (alleles) of the MC1R gene for \nfur color.\nMice with different fur colors do not show a preference for the background color of the \narea in which they live. Examine the chart below. It provides data on the frequency of fur \ncolor and the soil color where different populations of rock pocket mice live.\nWestern U.S. Rock Pocket Mouse Populations\nPopulation Location\nChristmas \nPass\nTule Well\nLava (Mid)\nLava (East)\nO\u2019Neill \nPass\nSoil Color\nlight\nlight\ndark\ndark\nlight\nNumber of Tan Mice\n6\n80\n0\n3\n34\nNumber of Dark Mice\n0\n5\n5\n42\n43\nTotal Number of Mice\n6\n85\n5\n45\n77\nPercentage of Tan Mice\n100%\n94%\n0%\n7%\n44%",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying the O\u2019Neill Pass population as having the most variation and supporting the answer with data from the table. Acceptable responses include, but are not limited to: \u2014 The O\u2019Neill Pass population is 34 tan and 43 dark mice. The percentage of tan mice is 44%. The other populations are either 100%, 94%, 7%, or 0% tan. \u2014 The population at O\u2019Neill Pass is composed of 34 mice with light fur and 43 mice with dark fur. None of the other populations have that great a mixture of fur colors."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "59",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_58_59.png",
+      "context": "Base your answers to questions 58 and 59 on the information and photo below and on your knowledge of \nbiology.\nWestern Rock Pocket Mice\nScientists studied the distribution of a species of pocket mouse that lives in desert regions \nof the southwestern United States. At night, the mice feed on seeds and grasses. A single \nfemale mouse can reproduce several times each year, producing a litter of 3 to 13 offspring \neach time. Dark mice may be found in a population of tan mice with a frequency of about \n1 for every 100,000 births. Most of the fur color genes are identical, but dark and tan rock \npocket mice differ in one gene. They have different forms (alleles) of the MC1R gene for \nfur color.\nMice with different fur colors do not show a preference for the background color of the \narea in which they live. Examine the chart below. It provides data on the frequency of fur \ncolor and the soil color where different populations of rock pocket mice live.\nWestern U.S. Rock Pocket Mouse Populations\nPopulation Location\nChristmas \nPass\nTule Well\nLava (Mid)\nLava (East)\nO\u2019Neill \nPass\nSoil Color\nlight\nlight\ndark\ndark\nlight\nNumber of Tan Mice\n6\n80\n0\n3\n34\nNumber of Dark Mice\n0\n5\n5\n42\n43\nTotal Number of Mice\n6\n85\n5\n45\n77\nPercentage of Tan Mice\n100%\n94%\n0%\n7%\n44%",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 More dark-colored rock pocket mice live on the dark lava flows than light-colored mice. Having dark fur on a dark surface appears to provide a survival advantage. \u2014 Except for O\u2019Neill Pass, the other locations show the mice that survived are camouflaged to the soil color."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "State one reason why the results of this research study may be questioned.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_60_61.png",
+      "context": "Base your answers to questions 60 and 61 on the information below and on your knowledge of biology.\nBased on an initial small study, some scientists think that red light may help reverse \nthe effects of aging on eyesight. In a recent study, scientists exposed people\u2019s eyes to red \nlight for three minutes each morning. After exposure to this red light, a few people showed \nmeasurable improvement in their color vision. Scientists developed the following model to \nexplain how red light can improve color vision:\nRed light\nLight-receptor \ncells receive \nred light\nIncreased activity \nin mitochondria \nin light-receptor \ncells.\nImproved \nfunction of \nlight-receptor \ncells\nImproved \ncolor vision",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 It was only a small study. \u2014 Using red light over a long time might be harmful to the eyes. \u2014 There was no control group in this experiment."
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "If the results of the study are supported, explain how increased mitochondrial activity might help light-receptor cells improve their function. Sunscreen: A Necessary Product With a Catch Sunscreen is an extremely important product that protects people from the rays of the Sun that can cause skin cancer. Unfortunately, certain chemicals found in some sunscreen products make their way into the ocean. Scientists discovered that when green algae and phytoplankton are exposed to these chemicals, the rate of photosynthesis is significantly reduced.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_60_61.png",
+      "context": "Base your answers to questions 60 and 61 on the information below and on your knowledge of biology.\nBased on an initial small study, some scientists think that red light may help reverse \nthe effects of aging on eyesight. In a recent study, scientists exposed people\u2019s eyes to red \nlight for three minutes each morning. After exposure to this red light, a few people showed \nmeasurable improvement in their color vision. Scientists developed the following model to \nexplain how red light can improve color vision:\nRed light\nLight-receptor \ncells receive \nred light\nIncreased activity \nin mitochondria \nin light-receptor \ncells.\nImproved \nfunction of \nlight-receptor \ncells\nImproved \ncolor vision",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Increased mitochondria activity creates more ATP to power cell functions. \u2014 More mitochondria will release more energy for the receptor cells. \u2014 Cells can function better with more energy. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "62",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Green algae are producers, so if there are fewer producers, then there will be a decrease in the amount of food available to herbivores and carnivores. \u2014 If green algae carry out less photosynthesis, there will be less energy available at each feeding level. \u2014 The stability of the ecosystem would be at risk, since producers convert solar energy into chemical bond energy. \u2014 When one or more organisms in a habitat are harmed or removed, the entire habitat can be disrupted."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Identify the relationship between the avian vampire fly and Darwin\u2019s finches.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 66 on the information below and on your knowledge of biology.\nThe Avian Vampire Fly\nThe avian vampire fly was accidently brought to the Galapagos Islands in the 1960s and is \nnow considered among the greatest threats to Darwin\u2019s finches. The vampire fly lays its eggs \nin bird nests, and the fly larvae slowly feed on the blood of the chicks, sometimes causing all \nthe chicks in a nest to die.\nResearchers investigated the impact of the vampire fly. They found the fly\u2019s larvae are \nmost abundant in the nests of the endangered medium tree finch, resulting in a high death \nrate for their chicks. The researchers also discovered the medium tree finches have been \ninterbreeding with small tree finches, producing a hybrid population. They found that the \nvampire fly larvae in the nests of the hybrid finches had less success feeding on the hybrid \nchicks.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 parasite/host \u2014 positive (fly)/negative (host) \u2014 They have a parasitic relationship."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Without a means of controlling the avian vampire fly, explain why conservationists are concerned that the vampire fly will negatively affect the stability of the Galapagos ecosystem.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 66 on the information below and on your knowledge of biology.\nThe Avian Vampire Fly\nThe avian vampire fly was accidently brought to the Galapagos Islands in the 1960s and is \nnow considered among the greatest threats to Darwin\u2019s finches. The vampire fly lays its eggs \nin bird nests, and the fly larvae slowly feed on the blood of the chicks, sometimes causing all \nthe chicks in a nest to die.\nResearchers investigated the impact of the vampire fly. They found the fly\u2019s larvae are \nmost abundant in the nests of the endangered medium tree finch, resulting in a high death \nrate for their chicks. The researchers also discovered the medium tree finches have been \ninterbreeding with small tree finches, producing a hybrid population. They found that the \nvampire fly larvae in the nests of the hybrid finches had less success feeding on the hybrid \nchicks.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The loss/extinction of the medium tree finch reduces biodiversity, which would reduce stability of the ecosystem. \u2014 Reduced diversity of species decreases the chance that some will survive in the face of large environmental change. \u2014 The loss of these finches will disrupt food webs."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "What evidence presented in the article supports the claim that the population of hybrid finches will be more successful than the medium tree finches?",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 66 on the information below and on your knowledge of biology.\nThe Avian Vampire Fly\nThe avian vampire fly was accidently brought to the Galapagos Islands in the 1960s and is \nnow considered among the greatest threats to Darwin\u2019s finches. The vampire fly lays its eggs \nin bird nests, and the fly larvae slowly feed on the blood of the chicks, sometimes causing all \nthe chicks in a nest to die.\nResearchers investigated the impact of the vampire fly. They found the fly\u2019s larvae are \nmost abundant in the nests of the endangered medium tree finch, resulting in a high death \nrate for their chicks. The researchers also discovered the medium tree finches have been \ninterbreeding with small tree finches, producing a hybrid population. They found that the \nvampire fly larvae in the nests of the hybrid finches had less success feeding on the hybrid \nchicks.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The hybrid finch chicks are more likely to survive, reproduce, and have offspring because they are less affected by the flies. \u2014 The hybrid finch chicks have more success surviving attacks from vampire flies than chicks of the medium tree finch. \u2014 Vampire fly larvae had less success feeding on the hybrid chicks than the medium tree finch chicks."
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Researchers discovered a wasp species on mainland South America that lays eggs in flies that are closely related to the Galapagos vampire flies. Before deciding to release the wasps on the Galapagos Islands, A legislative council is planning to require that newly constructed commercial buildings use less fossil fuels than previously constructed buildings. The expectation is that all new buildings use at least one type of renewable energy to power the building.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 63 through 66 on the information below and on your knowledge of biology.\nThe Avian Vampire Fly\nThe avian vampire fly was accidently brought to the Galapagos Islands in the 1960s and is \nnow considered among the greatest threats to Darwin\u2019s finches. The vampire fly lays its eggs \nin bird nests, and the fly larvae slowly feed on the blood of the chicks, sometimes causing all \nthe chicks in a nest to die.\nResearchers investigated the impact of the vampire fly. They found the fly\u2019s larvae are \nmost abundant in the nests of the endangered medium tree finch, resulting in a high death \nrate for their chicks. The researchers also discovered the medium tree finches have been \ninterbreeding with small tree finches, producing a hybrid population. They found that the \nvampire fly larvae in the nests of the hybrid finches had less success feeding on the hybrid \nchicks.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Are the wasps likely to prey upon any native organisms that already live there? \u2014 Will other activities of these introduced wasps somehow reduce the biodiversity of the Galapagos Islands? \u2014 Will these wasps survive the climate of the Galapagos long enough to be effective in reducing the vampire fly population? \u2014 Will the wasps lay eggs in the vampire flies? \u2014 Should the researchers investigate if the wasp will attack only the vampire flies and not native species? Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Describe how the policy the legislative council is considering will affect future generations.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The policy will benefit future generations because there will be less pollution. \u2014 The policy will extend the life of current supplies of non-renewable energy sources. \u2014 New job opportunities will be created."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "Explain why these populations of European birds were able to increase out of control in their new environment.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 68 and 69 on the information below and on your knowledge of biology.\nStarlings, sparrows, and other European birds were intentionally released in New York \nCity during the 1890s. Today their numbers have increased to the point of overpopulation.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The European birds have no natural predators in New York City. \u2014 European birds found an abundance of food, so their populations increased rapidly. \u2014 They could outcompete the native birds."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "69",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 68 and 69 on the information below and on your knowledge of biology.\nStarlings, sparrows, and other European birds were intentionally released in New York \nCity during the 1890s. Today their numbers have increased to the point of overpopulation.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 There is now less food available, so fewer native birds are supported in the environment. \u2014 With more competition, fewer native birds can live there."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Based on the information provided, state a conclusion that can be made regarding the effect of forests on the atmospheric CO2 levels between 1960 and 2010. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the information below, on the next page, and on your \nknowledge of biology.\nIncreasing Forests: Not An Easy Answer to Climate Change\nForests can be a big help in absorbing carbon dioxide (CO2) from the atmosphere. \nCurrently, Earth\u2019s forests contain approximately three trillion trees. Countries have been \nlooking at increasing this number as a means of reducing the level of atmospheric CO2.\nSome scientists caution that planting new forests can have drawbacks. It\u2019s more than a \nmatter of just adding more trees. Planting trees in snow-covered areas could increase the \nabsorption of solar radiation. This would result in warming of the soil and melting of the \nsnow. Also, research and planning need to be used to determine which type of trees will grow \nbest in a region and the long-term ecological effect due to the growth of these trees.\nEarth\u2019s forests absorb approximately 16 billion metric tons of CO2 a year. Land clearing, \nwildfires, and the burning of wood products have increased the release of CO2 back into \nthe atmosphere to about 8.1 billion tons a year. Deforestation and forest degradation are \ndecreasing the overall ability of forests to maintain or decrease atmospheric CO2 levels. The \ndata in the graph below show the CO2 levels from approximately 1960 to 2010.\n1960\n310\n320\n330\n340\n350\n360\n370\n380\n390\n400\n1970\nMonthly Carbon Dioxide Concentration \nMeasured at Mauna Loa Observatory, Hawaii\nForests are partially responsible \nfor the seasonal sawtooth pattern \nin increasing atmospheric CO2\n1980\n1990\n2000\n2010\nParts per Million\nYear\n\nLiving Environment \u2013 Jan. \u201926\t\n[25]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating a conclusion, based on the information provided, on the effect of forests on the atmospheric CO2 levels between 1960 and 2010 and supporting the answer. Acceptable responses include, but are not limited to: \u2014 The existing forests are not able to prevent an increase in the atmospheric CO2 levels. \u2014 As deforestation takes place, carbon dioxide levels continue to build up in the atmosphere. \u2014 Between 1960 and 2010, forests were responsible for seasonal differences in CO2 levels."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "In addition to removing CO2 from the air, describe one other role of a stable, diverse forest in an ecosystem. To help with the problem of deforestation and increasing atmospheric CO2, scientists recommended planting trees that are known to store carbon in their structures. Red oak trees and hemlock trees have been suggested to reforest land in deforested areas. Both types of trees will grow successfully in the region being studied. 6.00 Tree diameter = 20 cm (7.9\u201d) Tree diameter = 40 cm (15.8\u201d) Tree diameter = 60 cm (23.6\u201d) 5.00 4.00 3.00 2.00 1.00 0.00 Tree Species Carbon Storage by Tree Species Carbon Expressed as CO2e (Mt)* *Metric Tons Sugar maple Red maple Birch White ash Black cherry Basswood Elm Balsam fir Hemlock Poplar Willow Red spruce White pine Red oak Beech",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the information below, on the next page, and on your \nknowledge of biology.\nIncreasing Forests: Not An Easy Answer to Climate Change\nForests can be a big help in absorbing carbon dioxide (CO2) from the atmosphere. \nCurrently, Earth\u2019s forests contain approximately three trillion trees. Countries have been \nlooking at increasing this number as a means of reducing the level of atmospheric CO2.\nSome scientists caution that planting new forests can have drawbacks. It\u2019s more than a \nmatter of just adding more trees. Planting trees in snow-covered areas could increase the \nabsorption of solar radiation. This would result in warming of the soil and melting of the \nsnow. Also, research and planning need to be used to determine which type of trees will grow \nbest in a region and the long-term ecological effect due to the growth of these trees.\nEarth\u2019s forests absorb approximately 16 billion metric tons of CO2 a year. Land clearing, \nwildfires, and the burning of wood products have increased the release of CO2 back into \nthe atmosphere to about 8.1 billion tons a year. Deforestation and forest degradation are \ndecreasing the overall ability of forests to maintain or decrease atmospheric CO2 levels. The \ndata in the graph below show the CO2 levels from approximately 1960 to 2010.\n1960\n310\n320\n330\n340\n350\n360\n370\n380\n390\n400\n1970\nMonthly Carbon Dioxide Concentration \nMeasured at Mauna Loa Observatory, Hawaii\nForests are partially responsible \nfor the seasonal sawtooth pattern \nin increasing atmospheric CO2\n1980\n1990\n2000\n2010\nParts per Million\nYear\n\nLiving Environment \u2013 Jan. \u201926\t\n[25]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 A healthy forest provides habitats/food/niches for various animals in the ecosystem. \u2014 Trees make energy available to many other organisms in the ecosystem."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "Identify which tree species, red oak or hemlock, should be planted, The diagram below represents a plant cell. X Y Z",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_70_72.png",
+      "context": "Base your answers to questions 70 through 72 on the information below, on the next page, and on your \nknowledge of biology.\nIncreasing Forests: Not An Easy Answer to Climate Change\nForests can be a big help in absorbing carbon dioxide (CO2) from the atmosphere. \nCurrently, Earth\u2019s forests contain approximately three trillion trees. Countries have been \nlooking at increasing this number as a means of reducing the level of atmospheric CO2.\nSome scientists caution that planting new forests can have drawbacks. It\u2019s more than a \nmatter of just adding more trees. Planting trees in snow-covered areas could increase the \nabsorption of solar radiation. This would result in warming of the soil and melting of the \nsnow. Also, research and planning need to be used to determine which type of trees will grow \nbest in a region and the long-term ecological effect due to the growth of these trees.\nEarth\u2019s forests absorb approximately 16 billion metric tons of CO2 a year. Land clearing, \nwildfires, and the burning of wood products have increased the release of CO2 back into \nthe atmosphere to about 8.1 billion tons a year. Deforestation and forest degradation are \ndecreasing the overall ability of forests to maintain or decrease atmospheric CO2 levels. The \ndata in the graph below show the CO2 levels from approximately 1960 to 2010.\n1960\n310\n320\n330\n340\n350\n360\n370\n380\n390\n400\n1970\nMonthly Carbon Dioxide Concentration \nMeasured at Mauna Loa Observatory, Hawaii\nForests are partially responsible \nfor the seasonal sawtooth pattern \nin increasing atmospheric CO2\n1980\n1990\n2000\n2010\nParts per Million\nYear\n\nLiving Environment \u2013 Jan. \u201926\t\n[25]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for red oak trees and supporting the answer. Acceptable responses include, but are not limited to: \u2014 The red oak trees would be best. These trees store a little more than 1 Mt of carbon more then hemlock when they reach 60cm diameter. \u2014 The mature red oaks will store about 5 Mt of carbon and the hemlock stores only about 4 Mt of carbon. \u2014 According to the graph, the red oak trees will keep more carbon out of the atmosphere than the hemlock trees. \u2014 The graph shows that the red oaks at any diameter store more carbon than hemlock. Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "Which statement describes how the appearance of this cell will change if the cell is placed in a concentrated salt solution?",
+      "choices": [
+        "Structures X and Y will shrink, but Z will remain the same.",
+        "Structures Y and Z will shrink, but X will remain the same.",
+        "Structures X and Z will remain the same, but Y will become larger.",
+        "Structures X and Y will remain the same, but Z will become larger."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "Factors that contributed to the evolution of the Galapagos finches include",
+      "choices": [
+        "cloning and mutation",
+        "migration and asexual reproduction",
+        "recombination and selective breeding",
+        "variation and competition"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Which two species would be expected to show the greatest similarity in DNA?",
+      "choices": [
+        "C and D",
+        "A and F",
+        "C and G",
+        "F and H"
+      ],
+      "image": "/images/exams/living-environment/january-2026/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of biology.\nThe diagram shows the evolutionary relationships among several different species, A through H.\nE\nF\nD\nD\nB\nA\nC\nC\nC\nPresent\nEvolutionary Relationships\nPast\nH\nG\nG\n\t\nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "Which species has been the most successful in surviving changes in its environment?",
+      "choices": [
+        "H",
+        "G",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/living-environment/january-2026/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of biology.\nThe diagram shows the evolutionary relationships among several different species, A through H.\nE\nF\nD\nD\nB\nA\nC\nC\nC\nPresent\nEvolutionary Relationships\nPast\nH\nG\nG\n\t\nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Soon after species B evolved,",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_75_77.png",
+      "context": "Base your answers to questions 75 through 77 on the information below and on your knowledge of biology.\nThe diagram shows the evolutionary relationships among several different species, A through H.\nE\nF\nD\nD\nB\nA\nC\nC\nC\nPresent\nEvolutionary Relationships\nPast\nH\nG\nG\n\t\nNote: The answer to question 75 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 D \u2013 it evolved from B \u2014 either D or E or F because B is their ancestor"
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Identify two birds that you would expect to eat similar foods. Support your answer with information from the illustration.",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the Australian shorebirds illustrated below and on your \nknowledge of biology.\nRed-necked stint\nSooty oystercatcher\nRed-capped plover\nCurlew sandpiper\nGrey-tailed tattler\nRuddy turnstone",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying any two birds that would be expected to eat similar foods. Acceptable responses include, but are not limited to: \u2014 the red-necked stint and the red-capped plover, because they both have short beaks \u2014 the tattler and the sandpiper, because their beaks are both long and thin, unlike the others shown \u2014 The red-necked stint and the ruddy turnstone both have similar beaks, which are long and pointed."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "State one way the pattern of coloration of the feathers on the head of the birds, such as the ruddy turnstone, Variations in Beaks of Galapagos Islands Finches Large ground finch Vegetarian finch Large tree finch Small tree finch Woodpecker finch Warbler finch Cactus finch Sharp-billed ground finch Small ground finch Medium ground finch E d g e c r u s h i n g B i ti n g t i p s Mainly plant food Mainly animal food G r a s p i n g b il l s 100% animal food P r o b i n g P r o b i n g b i l l s C r u s h i n g b i l l s",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_78_79.png",
+      "context": "Base your answers to questions 78 and 79 on the Australian shorebirds illustrated below and on your \nknowledge of biology.\nRed-necked stint\nSooty oystercatcher\nRed-capped plover\nCurlew sandpiper\nGrey-tailed tattler\nRuddy turnstone",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The camouflage/blending could make them less noticeable to predators. \u2014 The coloration/pattern could help them attract mates. \u2014 The pattern may make it hard for their prey to see them clearly."
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "80",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for explaining the effect of this would have on the population of these birds and supporting the answer. Acceptable responses include, but are not limited to: \u2014 The warblers\u2019 resources might be decreased and many will not survive, while the sharp-billed ground finches eat mostly plants and won\u2019t be affected very much. \u2014 The pesticide might be present on the foods of both types of birds and cause them to be sickened by the chemicals in it, and their population could decrease. 81 4 82 2 Living Environment Rating Guide \u2013 Jan. \u2019"
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Of the organisms listed below, which one has a DNA code for the enzyme that is most similar to that of a human?",
+      "choices": [
+        "horse",
+        "chicken",
+        "moth",
+        "dog"
+      ],
+      "image": "/images/exams/living-environment/january-2026/context_81_82.png",
+      "context": "Base your answers to questions 81 and 82 on the information below and on your knowledge of biology. \nData in the table below compare differences in the amino acid sequences for a specific \nmitochondrial enzyme found in seven species to the enzyme in humans.\nDifferences in Amino Acid Sequences\nOrganism\nNumber of Amino Acid Differences in \nEnzyme Compared to Humans\nwheat\n43\nmold\n48\nmoth\n31\ndog\n11\nhorse\n12\nchicken\n13\nmonkey\n1\n\t\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "The fact that the mitochondria of all these species contain this enzyme could lead to the inference that",
+      "choices": [
+        "this enzyme is necessary for the species to digest proteins",
+        "these species have all evolved from a common ancestor that produced this enzyme",
+        "mutations in the genes that code for this enzyme always occur during DNA replication",
+        "only heterotrophs synthesize this enzyme A group of students squeezed a clothespin for two minutes. At the conclusion of the two minutes, all of the students experienced fatigue in their finger muscles."
+      ],
+      "image": "/images/exams/living-environment/january-2026/context_81_82.png",
+      "context": "Base your answers to questions 81 and 82 on the information below and on your knowledge of biology. \nData in the table below compare differences in the amino acid sequences for a specific \nmitochondrial enzyme found in seven species to the enzyme in humans.\nDifferences in Amino Acid Sequences\nOrganism\nNumber of Amino Acid Differences in \nEnzyme Compared to Humans\nwheat\n43\nmold\n48\nmoth\n31\ndog\n11\nhorse\n12\nchicken\n13\nmonkey\n1\n\t\nNote: The answer to question 81 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "83",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Certain waste products produced by muscle cell activity had built up in their cells. \u2014 Lactic acid/wastes accumulated in their cells. \u2014 Exercise caused their muscle cells to produce waste products. \u2014 The muscle cells used available oxygen/glucose needed to produce ATP."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Based on the data, what can researchers conclude about the relationship between stress and heart rate?",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the information below and on your knowledge of biology.\nResearchers designed a controlled experiment to test the idea that average heart rate \n(HR) increases during periods of stress. They fitted 31 people with heart rate monitors. \nDuring the first part of the experiment, participants were asked to relax in a seated position \nwhile listening to soothing music for ten minutes.\nDuring the second part of the experiment, participants played a smartphone game \ndesigned to induce mental stress for an additional ten minutes. The results from the \ninvestigation are shown in the graph below.\nMean HR-relaxation\nMean HR-stress\n0\n20\n40\n60\n80\n100\n120\n3\n1\n5\n7\n9\n11\n13\n15\nIndividuals by Number\nAverage Heart Rate (HR)\n17\n19\n21\n23\n25\n27\n29\n31\nHeart Rate (Beats per Minute)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Stress increased heart rate in most of the participants. \u2014 Since not all participants\u2019 heart rates increased during stressful situations, stress does not necessarily increase heart rate. \u2014 Stress increases the heart rate slightly in a majority of people, but not all. \u2014 Heart rate increased in about 26 out of 31 participants during stressful situations, therefore stress increases heart rate."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "Some students claimed that the validity of the experiment should be questioned because everyone has a different average relaxed heart rate. Explain why the results of this experiment could still be considered valid, and support your answer. LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/living-environment/january-2026/context_84_85.png",
+      "context": "Base your answers to questions 84 and 85 on the information below and on your knowledge of biology.\nResearchers designed a controlled experiment to test the idea that average heart rate \n(HR) increases during periods of stress. They fitted 31 people with heart rate monitors. \nDuring the first part of the experiment, participants were asked to relax in a seated position \nwhile listening to soothing music for ten minutes.\nDuring the second part of the experiment, participants played a smartphone game \ndesigned to induce mental stress for an additional ten minutes. The results from the \ninvestigation are shown in the graph below.\nMean HR-relaxation\nMean HR-stress\n0\n20\n40\n60\n80\n100\n120\n3\n1\n5\n7\n9\n11\n13\n15\nIndividuals by Number\nAverage Heart Rate (HR)\n17\n19\n21\n23\n25\n27\n29\n31\nHeart Rate (Beats per Minute)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for explaining why these results are valid even though average individual heart rates may vary and supporting the answer. Acceptable responses include, but are not limited to: \u2014 People are different and have different average relaxed heart rates, and about 80% of them reacted to stress anyway. \u2014 Even though heart rates vary, many of the people tested showed a higher rate under stress than they did relaxing. \u2014 Approximately 80% of the people tested showed a higher rate under stress than when relaxing, regardless of their resting average. \u2014 There are people with both high and low relaxed heart rates that still showed an increase in the rate with stress. Living Environment Rating Guide \u2013 Jan. \u2019"
+    }
+  ]
+}

@@ -1,0 +1,1086 @@
+{
+  "subject": "earth-science",
+  "session": "january-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "written",
+      "text": "The diagram below represents the Moon at one position in its orbit around Earth. The numbers represent locations on Earth\u2019s surface. Sun\u2019s rays (Not drawn to scale) North Pole 4 3 1",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Moon At which numbered location would high tide be occurring when the Moon is in the location shown in the diagram?",
+      "choices": [
+        "Big Bang",
+        "origin of the Sun",
+        "radioactive decay in Earth\u2019s core",
+        "formation of the Milky Way Galaxy"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Approximately how many degrees does Earth travel in its orbit in six months?",
+      "choices": [
+        "30\u00b0",
+        "90\u00b0",
+        "180\u00b0",
+        "360\u00b0"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The constellation Orion is visible in New York State in the night sky during winter, but is not visible in New York State in the night sky during summer because",
+      "choices": [
+        "Earth rotates on its axis",
+        "Earth revolves around the Sun",
+        "Orion rotates on its axis",
+        "Orion revolves around the Sun"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a scientific instrument. Ceiling of room Pivotal point of attachment Swinging pendulum Floor Ring of pegs This instrument provides evidence that Earth",
+      "choices": [
+        "spins on its axis",
+        "is tilted on its axis",
+        "has a spherical shape",
+        "moves along an orbital path"
+      ],
+      "image": "/images/exams/earth-science/january-2024/q5.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The diagram below represents a flagpole and its shadow in New York State at solar noon. Flagpole Shadow The shadow is pointing from the base of the flagpole toward the",
+      "choices": [
+        "south",
+        "north",
+        "east",
+        "west"
+      ],
+      "image": "/images/exams/earth-science/january-2024/q6.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Which term best describes the curving of Earth\u2019s planetary winds and major surface ocean currents?",
+      "choices": [
+        "El Ni\u00f1o",
+        "orbital eccentricity",
+        "Doppler effect",
+        "Coriolis effect"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which landmass has at least one location where the Sun will be directly overhead at solar noon at some time during a year?",
+      "choices": [
+        "Antarctica",
+        "Australia",
+        "Europe",
+        "Greenland"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "What is the primary source of energy that causes all weather phenomena on Earth?",
+      "choices": [
+        "volcanic eruptions",
+        "residual heat from Earth\u2019s formation",
+        "convection currents in the hydrosphere",
+        "incoming solar radiation"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "The dry-bulb temperature is 18\u00b0C and the wet- bulb temperature is 8\u00b0C on a psychrometer. What is the dewpoint?",
+      "choices": [
+        "\u20135\u00b0C",
+        "2\u00b0C",
+        "10\u00b0C",
+        "19\u00b0C"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The polar front jet stream in Earth\u2019s atmosphere is located in the upper",
+      "choices": [
+        "troposphere",
+        "stratosphere",
+        "mesosphere",
+        "thermosphere"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "written",
+      "text": "Which two weather symbols represent severe weather? ( 1 ) and ( 2 ) and ( 3 ) and ( 4 ) and",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/q12.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Compared to the average air temperature at the stratopause, the average air temperature at the mesopause is",
+      "choices": [
+        "55\u00b0C lower",
+        "55\u00b0C higher",
+        "90\u00b0C lower",
+        "90\u00b0C higher"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which atmospheric gas is important because it protects living things on Earth from harmful ultraviolet radiation?",
+      "choices": [
+        "nitrogen",
+        "ozone",
+        "methane",
+        "water vapor"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Equal areas of which surface absorb the most insolation and heat up most rapidly on a sunny day?",
+      "choices": [
+        "white sandy beach",
+        "calm lake surface",
+        "snow covered field",
+        "crushed basalt rock"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Many periods of global warming have occurred during the last 100,000 years. The inferred primary cause of the current rise in global temperatures is the",
+      "choices": [
+        "change in the eccentricity of Earth\u2019s orbit",
+        "change in position of tectonic plates",
+        "increase in atmospheric greenhouse gases",
+        "increase in sunspot activity"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The diagram below represents four landscapes in New York State. All the landscapes have the same soil characteristics but different combinations of vegetation and slope. Landscape 1 Landscape 3 Landscape 4 Landscape 2 If these landscape areas receive equal amounts of precipitation, which area will likely produce the greatest amount of runoff?",
+      "choices": [
+        "landscape 1",
+        "landscape 2",
+        "landscape 3",
+        "landscape 4"
+      ],
+      "image": "/images/exams/earth-science/january-2024/q17.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The cross section below represents a frontal boundary between two air masses. Arrows represent the direction of moving air masses. Cloud development due to lifting of warm moist air mass Cold air mass Cool air mass Earth\u2019s surface The type of front represented at the boundary between the cold air mass and the cool air mass is",
+      "choices": [
+        "an occluded front caused by a cold front overtaking a warm front",
+        "an occluded front caused by a warm front overtaking a cold front",
+        "a stationary front caused by a cold front overtaking a warm front",
+        "a stationary front caused by a warm front overtaking a cold front"
+      ],
+      "image": "/images/exams/earth-science/january-2024/q18.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "The photograph below shows a New York State index fossil. This index fossil would be classified as a",
+      "choices": [
+        "gastropod",
+        "nautiloid",
+        "coral",
+        "brachiopod"
+      ],
+      "image": "/images/exams/earth-science/january-2024/q19.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "written",
+      "text": "The photograph below shows a cross sectional view of an iridium-rich meteor debris layer between two rock layers. This debris was deposited at the same time as the extinction of ammonoids. The layers have not been overturned. Iridium-rich meteor debris layer Top layer Bottom layer Which photograph shows the most likely geologic time periods when the rock layers above and below this debris layer formed? ( 1 ) ( 3 ) ( 2 ) ( 4 ) Cretaceous Triassic Permian Paleogene Paleogene Cretaceous Permian Triassic",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Why is volcanic ash a good geologic time marker?",
+      "choices": [
+        "Ash deposits usually contain identifiable fossils.",
+        "Ash is rapidly deposited over a large geographic area.",
+        "Volcanoes are distributed worldwide.",
+        "Volcanoes often continuously erupt over long periods of time."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "The cross section below represents a portion of Earth\u2019s crust. Key Igneous rock Contact metamorphism Compared to the sedimentary rock layers, the igneous rock is",
+      "choices": [
+        "older than all the sedimentary rock layers",
+        "younger than all the sedimentary rock layers",
+        "older than the shale, but younger than the sandstone and limestone",
+        "younger than the shale, but older than the sandstone and limestone"
+      ],
+      "image": "/images/exams/earth-science/january-2024/q22.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The table below was prepared to compare the surface bedrock of four New York State locations. The table contains some errors. New York State Location Geologic Age of Surface Bedrock Dominant Bedrock Type Finger Lakes Devonian Period gneisses, marbles Mount Marcy Middle Proterozoic Era sandstones, shales Syracuse Cambrian Period sandstones, dolostones Watertown Ordovician Period limestones, shales For which New York State location in the table are both the geologic age of the surface bedrock and the dominant type of surface bedrock correct?",
+      "choices": [
+        "Finger Lakes",
+        "Mount Marcy",
+        "Syracuse",
+        "Watertown"
+      ],
+      "image": "/images/exams/earth-science/january-2024/q23.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which table below correctly shows the characteristics of seismic waves when they reach liquid material?",
+      "choices": [
+        "Seismic Wave Type Ability to Travel Through Liquid Material P-wave can pass through S-wave cannot pass through",
+        "Seismic Wave Type Ability to Travel Through Liquid Material P-wave cannot pass through S-wave can pass through",
+        "Seismic Wave Type Ability to Travel Through Liquid Material P-wave can pass through S-wave can pass through",
+        "Seismic Wave Type Ability to Travel Through Liquid Material P-wave cannot pass through S-wave cannot pass through"
+      ],
+      "image": "/images/exams/earth-science/january-2024/q24.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "The first S-wave of an earthquake took 10 minutes 40 seconds to travel to a seismic station from the epicenter of an earthquake. What is the distance from this seismic station to the epicenter of this earthquake, and how much time did it take for the first P-wave to travel that distance?",
+      "choices": [
+        "3200 kilometers; 4 minutes 40 seconds",
+        "3200 kilometers; 6 minutes",
+        "7200 kilometers; 4 minutes 40 seconds",
+        "7200 kilometers; 6 minutes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Which two hot spots are located on the same tectonic plate?",
+      "choices": [
+        "Tasman and Easter Island Hot Spots",
+        "Hawaii and Yellowstone Hot Spots",
+        "Iceland and Bouvet Hot Spots",
+        "Canary Islands and St. Helena Hot Spots"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Long Island is part of which New York State landscape region?",
+      "choices": [
+        "Newark Lowlands",
+        "Manhattan Prong",
+        "Tug Hill Plateau",
+        "Atlantic Coastal Plain"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "The data table below classifies three types of sand based on their particle diameters in centimeters. Data Table Sand Particle Diameter (cm) coarse sand 0.1 medium sand 0.04 fine sand 0.01 Which stream velocity would cause medium and coarse sand to settle to the bottom of the stream, while fine sand continues to move downstream?",
+      "choices": [
+        "1.0 cm/s",
+        "0.2 cm/s",
+        "5.0 cm/s",
+        "10.0 cm/s"
+      ],
+      "image": "/images/exams/earth-science/january-2024/q28.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "What is the primary reason that water-filled cracks in rock widen in winter?",
+      "choices": [
+        "Ice is less dense than water.",
+        "Ice is more dense than water.",
+        "Water expands when it freezes.",
+        "Water contracts when it freezes."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "The photograph below shows \u201cMitten Butte,\u201d a sand-blasted landscape feature in Monument Valley, Utah. Source: https://www.tripadvisor.com/ Location\u0003PhotoDirectLink-g57072-d3645830-i302356888\u0003- Wildcat_Trail-Monument_Valley_Utah.html Which type of climate and agent of erosion are continuing to shape this landscape feature?",
+      "choices": [
+        "humid climate and running-water erosion",
+        "humid climate and wind erosion",
+        "arid climate and running-water erosion",
+        "arid climate and wind erosion"
+      ],
+      "image": "/images/exams/earth-science/january-2024/q30.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Kettle lakes are formed when blocks of glacial ice are partially buried by sediments and melt on",
+      "choices": [
+        "flood plains",
+        "outwash plains",
+        "sand dunes",
+        "barrier islands"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Which mineral resource is used in making both furnace bricks and jewelry?",
+      "choices": [
+        "dolomite",
+        "pyroxene",
+        "garnet",
+        "olivine"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "The photograph below shows the bedrock structure of an outcrop. Source: https://2.bp.blogspot.com/ Which process is responsible for the folding of this bedrock?",
+      "choices": [
+        "volcanic activity",
+        "earthquake activity",
+        "crustal movement",
+        "mass movement"
+      ],
+      "image": "/images/exams/earth-science/january-2024/q33.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "The map below shows the major watershed regions of New York State. Letters A, B, C, and D identify four of these watersheds. N Lake Erie Lake Ontario St. Lawrence River Lake Champlain C D A B The Genesee River is located in which watershed?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/earth-science/january-2024/q34.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "The map below shows a meandering stream flowing around a curve. The arrows indicate the direction of streamflow. Points A, B, and C are locations on the streambed. A B C Soil Soil Stream Which graph best represents the relative amounts of erosion within this stream at locations A, B, and C? ( 1 ) C Position on Streambed B A Amount of Erosion Amount of Erosion Amount of Erosion Amount of Erosion ( 2 ) C Position on Streambed B A ( 3 ) C Position on Streambed B A ( 4 ) C Position on Streambed B A",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "multiple-choice",
+      "text": "Which mineral has a chemical composition most similar to chert?",
+      "choices": [
+        "pyrite",
+        "quartz",
+        "garnet",
+        "calcite"
+      ],
+      "image": "/images/exams/earth-science/january-2024/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the passage and photograph below, and on your knowledge \nof Earth science. The photograph shows a banded iron rock formation located in northwestern Australia where \niron ores are mined. The colors of two layers are labeled.\nBanded Iron Formations\nIron (Fe) is responsible for the red color in many rocks. However, iron is not usually \nfound in pure form within rocks; instead, it is combined with oxygen in ore minerals such \nas hematite and magnetite. Most deposits of iron ore in the world are found in rocks \nknown as banded iron formations.\nIn Earth\u2019s early history, there was little to no oxygen in the atmosphere or dissolved in \noceans. However, oceans contained a lot of dissolved silica (SiO2), which came from the \nweathering of land rocks. Deposition of this silica often produced the sedimentary rock \nchert, which is almost entirely composed of SiO2. About 3000 million years ago, the oceans \nbecame inhabited by organisms that developed the ability to undergo photosynthesis, \nwhich produced oxygen as a waste product. This oxygen reacted with iron dissolved in the \noceans to produce iron oxides that settled to the ocean floor in layers, alternating with the \nfine-grained silica layers. Over millions of years, these processes of precipitating iron oxide \nminerals and silica were repeated over and over again, producing banded iron formations. \nOnce the iron levels in the oceans began to decrease, the extra oxygen produced by these \nphotosynthetic organisms began entering Earth\u2019s atmosphere.\nBanded Iron Formation\nRed layer\nTan layer\nPart B\u20131\nAnswer all questions in this part.\nDirections (36\u201350): For each statement or question, choose the word or expression that, of those given, \nbest completes the statement or answers the question. Some questions may require the use of the 2011 Edition \nReference Tables for Physical Setting/Earth Science. Record your answers on your separate answer sheet.\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[11]\t\n[OVER]",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "The first organisms that developed the ability to undergo photosynthesis and produce atmospheric oxygen were",
+      "choices": [
+        "great coal-forming forests",
+        "the earliest plants",
+        "coral reefs",
+        "cyanobacteria"
+      ],
+      "image": "/images/exams/earth-science/january-2024/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the passage and photograph below, and on your knowledge \nof Earth science. The photograph shows a banded iron rock formation located in northwestern Australia where \niron ores are mined. The colors of two layers are labeled.\nBanded Iron Formations\nIron (Fe) is responsible for the red color in many rocks. However, iron is not usually \nfound in pure form within rocks; instead, it is combined with oxygen in ore minerals such \nas hematite and magnetite. Most deposits of iron ore in the world are found in rocks \nknown as banded iron formations.\nIn Earth\u2019s early history, there was little to no oxygen in the atmosphere or dissolved in \noceans. However, oceans contained a lot of dissolved silica (SiO2), which came from the \nweathering of land rocks. Deposition of this silica often produced the sedimentary rock \nchert, which is almost entirely composed of SiO2. About 3000 million years ago, the oceans \nbecame inhabited by organisms that developed the ability to undergo photosynthesis, \nwhich produced oxygen as a waste product. This oxygen reacted with iron dissolved in the \noceans to produce iron oxides that settled to the ocean floor in layers, alternating with the \nfine-grained silica layers. Over millions of years, these processes of precipitating iron oxide \nminerals and silica were repeated over and over again, producing banded iron formations. \nOnce the iron levels in the oceans began to decrease, the extra oxygen produced by these \nphotosynthetic organisms began entering Earth\u2019s atmosphere.\nBanded Iron Formation\nRed layer\nTan layer\nPart B\u20131\nAnswer all questions in this part.\nDirections (36\u201350): For each statement or question, choose the word or expression that, of those given, \nbest completes the statement or answers the question. Some questions may require the use of the 2011 Edition \nReference Tables for Physical Setting/Earth Science. Record your answers on your separate answer sheet.\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[11]\t\n[OVER]",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "Which photograph correctly identifies the composition of the red and tan layers? Iron Ores Iron Ores",
+      "choices": [
+        "Chert Iron Ores",
+        "",
+        "Chert Chert",
+        "Iron Ores Chert"
+      ],
+      "image": "/images/exams/earth-science/january-2024/context_36_38.png",
+      "context": "Base your answers to questions 36 through 38 on the passage and photograph below, and on your knowledge \nof Earth science. The photograph shows a banded iron rock formation located in northwestern Australia where \niron ores are mined. The colors of two layers are labeled.\nBanded Iron Formations\nIron (Fe) is responsible for the red color in many rocks. However, iron is not usually \nfound in pure form within rocks; instead, it is combined with oxygen in ore minerals such \nas hematite and magnetite. Most deposits of iron ore in the world are found in rocks \nknown as banded iron formations.\nIn Earth\u2019s early history, there was little to no oxygen in the atmosphere or dissolved in \noceans. However, oceans contained a lot of dissolved silica (SiO2), which came from the \nweathering of land rocks. Deposition of this silica often produced the sedimentary rock \nchert, which is almost entirely composed of SiO2. About 3000 million years ago, the oceans \nbecame inhabited by organisms that developed the ability to undergo photosynthesis, \nwhich produced oxygen as a waste product. This oxygen reacted with iron dissolved in the \noceans to produce iron oxides that settled to the ocean floor in layers, alternating with the \nfine-grained silica layers. Over millions of years, these processes of precipitating iron oxide \nminerals and silica were repeated over and over again, producing banded iron formations. \nOnce the iron levels in the oceans began to decrease, the extra oxygen produced by these \nphotosynthetic organisms began entering Earth\u2019s atmosphere.\nBanded Iron Formation\nRed layer\nTan layer\nPart B\u20131\nAnswer all questions in this part.\nDirections (36\u201350): For each statement or question, choose the word or expression that, of those given, \nbest completes the statement or answers the question. Some questions may require the use of the 2011 Edition \nReference Tables for Physical Setting/Earth Science. Record your answers on your separate answer sheet.\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[11]\t\n[OVER]",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "During the month of April 2024, there will be a total solar eclipse visible for large portions of New York State. On which day in April will this solar eclipse occur?",
+      "choices": [
+        "April 1",
+        "April 8",
+        "April 15",
+        "April 23"
+      ],
+      "image": "/images/exams/earth-science/january-2024/context_39_42.png",
+      "context": "Base your answers to questions 39 through 42 on the diagram below and on your knowledge of Earth science. \nThe diagram represents how Moon phases will appear to an observer in New York State during the month of \nApril 2024.\nApril 2024\nSunday\nMonday\nLast Quarter\nNew Moon\nFirst Quarter\nFull Moon\nTuesday\nWednesday\nThursday\nFriday\nSaturday\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n30\n24\n25\n26\n27\n28\n29",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which diagram below best represents the positions of the Sun (S) and Earth (E), and the orbital position of the Moon (M) on April 12? [Diagrams are not drawn to scale.] S",
+      "choices": [
+        "E M S",
+        "E S",
+        "E M S",
+        "E M M P.S./"
+      ],
+      "image": "/images/exams/earth-science/january-2024/context_39_42.png",
+      "context": "Base your answers to questions 39 through 42 on the diagram below and on your knowledge of Earth science. \nThe diagram represents how Moon phases will appear to an observer in New York State during the month of \nApril 2024.\nApril 2024\nSunday\nMonday\nLast Quarter\nNew Moon\nFirst Quarter\nFull Moon\nTuesday\nWednesday\nThursday\nFriday\nSaturday\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n30\n24\n25\n26\n27\n28\n29",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "The same side of the Moon is always visible to an observer on Earth because the Moon has a period of",
+      "choices": [
+        "rotation greater than its period of revolution",
+        "rotation equal to Earth\u2019s period of rotation",
+        "revolution greater than Earth\u2019s period of revolution",
+        "revolution equal to its period of rotation"
+      ],
+      "image": "/images/exams/earth-science/january-2024/context_39_42.png",
+      "context": "Base your answers to questions 39 through 42 on the diagram below and on your knowledge of Earth science. \nThe diagram represents how Moon phases will appear to an observer in New York State during the month of \nApril 2024.\nApril 2024\nSunday\nMonday\nLast Quarter\nNew Moon\nFirst Quarter\nFull Moon\nTuesday\nWednesday\nThursday\nFriday\nSaturday\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n30\n24\n25\n26\n27\n28\n29",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Compared to the density of the terrestrial and Jovian planets, the density of the Moon is",
+      "choices": [
+        "less than the densities of both the terrestrial and Jovian planets",
+        "greater than the densities of both the terrestrial and Jovian planets",
+        "less than the densities of terrestrial planets, but greater than the densities of Jovian planets",
+        "greater than the densities of terrestrial planets, but less than the densities of Jovian planets"
+      ],
+      "image": "/images/exams/earth-science/january-2024/context_39_42.png",
+      "context": "Base your answers to questions 39 through 42 on the diagram below and on your knowledge of Earth science. \nThe diagram represents how Moon phases will appear to an observer in New York State during the month of \nApril 2024.\nApril 2024\nSunday\nMonday\nLast Quarter\nNew Moon\nFirst Quarter\nFull Moon\nTuesday\nWednesday\nThursday\nFriday\nSaturday\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n30\n24\n25\n26\n27\n28\n29",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Locations W and X are within which types of air masses?",
+      "choices": [
+        "W is within mP and X is within cT.",
+        "W is within cP and X is within mT.",
+        "W is within mT and X is within cP.",
+        "W is within cT and X is within mP."
+      ],
+      "image": "/images/exams/earth-science/january-2024/context_43_45.png",
+      "context": "Base your answers to questions 43 through 45 on the weather map below and on your knowledge of Earth \nscience. The map shows a low-pressure system located over the eastern United States. Partial weather station \nmodels are indicated at locations W, X, Y, and Z. Isobars are recorded in millibars.\nL\n1012\n1004\n1008\n1000\n1016\n996\nW\n70\n50\nX\nZ\n88\n82\nY\n83\n83\n71\n55",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "multiple-choice",
+      "text": "Which weather station has an approximate air pressure of 29.65 inches of mercury?",
+      "choices": [
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "image": "/images/exams/earth-science/january-2024/context_43_45.png",
+      "context": "Base your answers to questions 43 through 45 on the weather map below and on your knowledge of Earth \nscience. The map shows a low-pressure system located over the eastern United States. Partial weather station \nmodels are indicated at locations W, X, Y, and Z. Isobars are recorded in millibars.\nL\n1012\n1004\n1008\n1000\n1016\n996\nW\n70\n50\nX\nZ\n88\n82\nY\n83\n83\n71\n55",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 45,
+      "type": "multiple-choice",
+      "text": "The prevailing winds will cause this low-pressure system to most likely move toward the",
+      "choices": [
+        "northeast",
+        "northwest",
+        "southeast",
+        "southwest"
+      ],
+      "image": "/images/exams/earth-science/january-2024/context_43_45.png",
+      "context": "Base your answers to questions 43 through 45 on the weather map below and on your knowledge of Earth \nscience. The map shows a low-pressure system located over the eastern United States. Partial weather station \nmodels are indicated at locations W, X, Y, and Z. Isobars are recorded in millibars.\nL\n1012\n1004\n1008\n1000\n1016\n996\nW\n70\n50\nX\nZ\n88\n82\nY\n83\n83\n71\n55",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 46,
+      "type": "multiple-choice",
+      "text": "At which location will the longest noontime shadow be observed on the date indicated in the diagrams?",
+      "choices": [
+        "Equator",
+        "Tropic of Cancer",
+        "New York State",
+        "Arctic Circle"
+      ],
+      "image": "/images/exams/earth-science/january-2024/context_46_47.png",
+      "context": "Base your answers to questions 46 and 47 on the diagrams below, which show the apparent paths of the Sun \nacross the sky on June 21 for observers at four different Earth locations. The zenith (Z) is the point in the sky \ndirectly above the observer.\nEquator (0\u00b0)\nNew York State (42.5\u00b0 N)\nTropic of Cancer (23.5\u00b0 N)\nObserver\nS\nN\nArctic Circle (66.5\u00b0 N)\nZ\nSun\u2019s apparent \npath\nSun\u2019s apparent \npath\nSun\u2019s apparent \npath\nSun\u2019s apparent \npath\nS\nE\nW\nE\nW\nN\nZ\nS\nN\nZ\nE\nW\nW\nS\nN\nE\nZ",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Three months after the date indicated in the diagrams, sunrise in New York State will occur",
+      "choices": [
+        "due east",
+        "south of east",
+        "north of west",
+        "due west"
+      ],
+      "image": "/images/exams/earth-science/january-2024/context_46_47.png",
+      "context": "Base your answers to questions 46 and 47 on the diagrams below, which show the apparent paths of the Sun \nacross the sky on June 21 for observers at four different Earth locations. The zenith (Z) is the point in the sky \ndirectly above the observer.\nEquator (0\u00b0)\nNew York State (42.5\u00b0 N)\nTropic of Cancer (23.5\u00b0 N)\nObserver\nS\nN\nArctic Circle (66.5\u00b0 N)\nZ\nSun\u2019s apparent \npath\nSun\u2019s apparent \npath\nSun\u2019s apparent \npath\nSun\u2019s apparent \npath\nS\nE\nW\nE\nW\nN\nZ\nS\nN\nZ\nE\nW\nW\nS\nN\nE\nZ",
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "multiple-choice",
+      "text": "Which percentage of this radioactive isotope remains at the end of 3 half-lives?",
+      "choices": [
+        "6.25%",
+        "12.5%",
+        "25.0%",
+        "87.5%"
+      ],
+      "image": "/images/exams/earth-science/january-2024/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the graph below and on your knowledge of Earth science. \nThe graph shows the decreasing percentage of a radioactive isotope, carbon-14 (14C), as it decays and the \nincreasing percentage of the disintegration product that forms.\nRadioactive Decay\nNumber of Half-Lives\n0\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n1\n2\n3\n4\n5\n6\n7\nRadioactive isotope 14C\nKey\nDisintegration product\nPercentage (%)",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "What is the disintegration product of this radioactive isotope?",
+      "choices": [
+        "40Ar",
+        "206Pb",
+        "14N",
+        "87Sr"
+      ],
+      "image": "/images/exams/earth-science/january-2024/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the graph below and on your knowledge of Earth science. \nThe graph shows the decreasing percentage of a radioactive isotope, carbon-14 (14C), as it decays and the \nincreasing percentage of the disintegration product that forms.\nRadioactive Decay\nNumber of Half-Lives\n0\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n1\n2\n3\n4\n5\n6\n7\nRadioactive isotope 14C\nKey\nDisintegration product\nPercentage (%)",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Carbon-14 can be used to determine the ages of both a",
+      "choices": [
+        "quartz crystal and a calcite crystal",
+        "lava flow and a granite intrusion",
+        "mastodon bone and a human bone",
+        "trilobite fossil and a dinosaur fossil"
+      ],
+      "image": "/images/exams/earth-science/january-2024/context_48_50.png",
+      "context": "Base your answers to questions 48 through 50 on the graph below and on your knowledge of Earth science. \nThe graph shows the decreasing percentage of a radioactive isotope, carbon-14 (14C), as it decays and the \nincreasing percentage of the disintegration product that forms.\nRadioactive Decay\nNumber of Half-Lives\n0\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n1\n2\n3\n4\n5\n6\n7\nRadioactive isotope 14C\nKey\nDisintegration product\nPercentage (%)",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "Identify the planet in our solar system that has an equatorial diameter approximately five times the equatorial diameter of Ceres.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the photograph, passage, and table below, and on your \nknowledge of Earth science. The photograph shows the surface of Ceres, a dwarf planet. The passage describes \nwhat is currently known about Ceres. The table includes data about Ceres.\nCeres\nCeres\nCeres is the largest object in the asteroid belt, which is located between Mars and \nJupiter. NASA\u2019s Dawn spacecraft has been studying Ceres because it is considered to be \n\u201ca time capsule from the very beginning of the solar system,\u201d according to a principal \nscientist of the mission. Ceres is smaller than Pluto, and like Pluto, is classified as a dwarf \nplanet because of its round shape and very small size. Ceres has a very thin atmospheric \nlayer containing water vapor.\nCeres Data\nPeriod of revolution\n1680 d\nPeriod of rotation at equator\n9 h\nEccentricity of orbit\n0.079\nEquatorial diameter\n952 km\nDensity\n2.1 g/cm3\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[17]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Mercury."
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "State one possible distance of Ceres from the Sun, in million kilometers (km).",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the photograph, passage, and table below, and on your \nknowledge of Earth science. The photograph shows the surface of Ceres, a dwarf planet. The passage describes \nwhat is currently known about Ceres. The table includes data about Ceres.\nCeres\nCeres\nCeres is the largest object in the asteroid belt, which is located between Mars and \nJupiter. NASA\u2019s Dawn spacecraft has been studying Ceres because it is considered to be \n\u201ca time capsule from the very beginning of the solar system,\u201d according to a principal \nscientist of the mission. Ceres is smaller than Pluto, and like Pluto, is classified as a dwarf \nplanet because of its round shape and very small size. Ceres has a very thin atmospheric \nlayer containing water vapor.\nCeres Data\nPeriod of revolution\n1680 d\nPeriod of rotation at equator\n9 h\nEccentricity of orbit\n0.079\nEquatorial diameter\n952 km\nDensity\n2.1 g/cm3\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[17]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value greater than 227.9, but less than 778.4 million km."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "Identify the planet in our solar system with an orbital eccentricity closest to the eccentricity of Ceres.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the photograph, passage, and table below, and on your \nknowledge of Earth science. The photograph shows the surface of Ceres, a dwarf planet. The passage describes \nwhat is currently known about Ceres. The table includes data about Ceres.\nCeres\nCeres\nCeres is the largest object in the asteroid belt, which is located between Mars and \nJupiter. NASA\u2019s Dawn spacecraft has been studying Ceres because it is considered to be \n\u201ca time capsule from the very beginning of the solar system,\u201d according to a principal \nscientist of the mission. Ceres is smaller than Pluto, and like Pluto, is classified as a dwarf \nplanet because of its round shape and very small size. Ceres has a very thin atmospheric \nlayer containing water vapor.\nCeres Data\nPeriod of revolution\n1680 d\nPeriod of rotation at equator\n9 h\nEccentricity of orbit\n0.079\nEquatorial diameter\n952 km\nDensity\n2.1 g/cm3\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[17]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Mars."
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Identify the many circular surface features, shown in the photograph, that cover much of Ceres, and describe how these features most likely formed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_51_54.png",
+      "context": "Base your answers to questions 51 through 54 on the photograph, passage, and table below, and on your \nknowledge of Earth science. The photograph shows the surface of Ceres, a dwarf planet. The passage describes \nwhat is currently known about Ceres. The table includes data about Ceres.\nCeres\nCeres\nCeres is the largest object in the asteroid belt, which is located between Mars and \nJupiter. NASA\u2019s Dawn spacecraft has been studying Ceres because it is considered to be \n\u201ca time capsule from the very beginning of the solar system,\u201d according to a principal \nscientist of the mission. Ceres is smaller than Pluto, and like Pluto, is classified as a dwarf \nplanet because of its round shape and very small size. Ceres has a very thin atmospheric \nlayer containing water vapor.\nCeres Data\nPeriod of revolution\n1680 d\nPeriod of rotation at equator\n9 h\nEccentricity of orbit\n0.079\nEquatorial diameter\n952 km\nDensity\n2.1 g/cm3\nPart B\u20132\nAnswer all questions in this part.\nDirections (51\u201365): Record your answers in the spaces provided in your answer booklet. Some questions may \nrequire the use of the 2011 Edition Reference Tables for Physical Setting/Earth Science.\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[17]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for craters or impact craters for the surface feature and a correct description of formation. Acceptable responses include, but are not limited to: \u2014 The craters were formed by asteroid impacts. \u2014 Meteors smashed into the surface. \u2014 comet impacts \u2014 They were formed by celestial objects impacting on the surface of Ceres."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Determine the time of day at Atlanta and time of day at Los Angeles when it is 1:00 p.m. at Rochester, New York. Indicate a.m. or p.m. in both answers.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_55_56.png",
+      "context": "Base your answers to questions 55 and 56 on the map below and on your knowledge of Earth science. \nThe map shows the four time zones of the continental United States. Some cities are labeled on the map.\n120\u00b0 W\n105\u00b0 W\n90\u00b0 W\n75\u00b0 W\nMountain\ntime zone\nCentral\ntime zone\nEastern\ntime zone\nRochester\nMassena\nNew York\nCity\nSan Francisco\nDuluth\nAtlanta\nDenver\nLos Angeles\nPacific\ntime zone\n50\u00b0 N\n40\u00b0 N\n30\u00b0 N\nAustin\nMitchell",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both times are correct. Acceptable responses include, but are not limited to: Atlanta: \u2014 1:00 p.m. \u2014 1 pm \u2014 one in the afternoon \u2014 1300 (military time) Los Angeles: \u2014 10:00 a.m. \u2014 10 am \u2014 ten in the morning \u2014 1000 (military time)"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify the city shown on the map where an observer would view Polaris closest to the horizon.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_55_56.png",
+      "context": "Base your answers to questions 55 and 56 on the map below and on your knowledge of Earth science. \nThe map shows the four time zones of the continental United States. Some cities are labeled on the map.\n120\u00b0 W\n105\u00b0 W\n90\u00b0 W\n75\u00b0 W\nMountain\ntime zone\nCentral\ntime zone\nEastern\ntime zone\nRochester\nMassena\nNew York\nCity\nSan Francisco\nDuluth\nAtlanta\nDenver\nLos Angeles\nPacific\ntime zone\n50\u00b0 N\n40\u00b0 N\n30\u00b0 N\nAustin\nMitchell",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Austin or Austin, TX. Part B\u20132 Allow a maximum of 15 credits for this part. To ensure the accuracy of overlays, select a printer setting such as full, actual size, or 100% when printing this document. Do not select the fit to page setting. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "Identify the name of the geologic epoch when the Aral Sea formed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_57_61.png",
+      "context": "Base your answers to questions 57 through 61 on the passage, data table, and maps below, and on your \nknowledge of Earth science. The data table shows the approximate surface area and volume of the Aral Sea in \n1960 and 2000, and the present-day data for the five North American Great Lakes. The 1960 map shows the Aral \nSea and the city of Aralsk, which was located on the shoreline. The 2000 map shows the change in size of the \nAral Sea.\nThe Aral Sea\nThe Aral Sea is actually an inland saltwater lake located in southwest Russia. It is \nestimated to have formed approximately 5.5 million years ago due to the uplift of \nmountainous regions to the south. The region\u2019s two major rivers, fed by snowmelt and \nprecipitation, flowed down from these mountains and pooled together to form the Aral \nSea. The Aral Sea was one of the largest lakes in the world. In the 1960s, government \nofficials began diverting most of the river water for farming. Since 1960 the size of the \nlake has dramatically decreased. As the lake dried up, fisheries and the communities that \ndepended on them collapsed. The increasingly salty water became polluted with fertilizer \nand pesticides. The blowing dust from the exposed lakebed, contaminated with agricultural \nchemicals, became a public health hazard. The salt left behind made the ground unusable \nfor farming.\nData Table\nSurface Area \n(km2)\nVolume \n(km3)\nAral Sea 1960\n66,458\n1064\nAral Sea 2000\n23,400\n400\nLake Superior\n82,100\n12,100\nLake Michigan\n57,800\n4920\nLake Huron\n59,600\n3540\nLake Erie\n25,700\n484\nLake Ontario\n18,960\n1640\nSource: Great Lakes information, http://www.epa.gov/\nglnpo/atlas/gl-fact1.html\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[19]\t\n[OVER]\nAralsk\nAral Sea Shoreline\n1960\n2000\nKey\nAralsk\nAral Sea\nExposed lakebed",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Miocene Epoch."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "Calculate, to the nearest tenth, the rate of change in the volume of the Aral Sea in cubic kilometers per year (km3/y) in the 40 years from 1960 to 2000.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_57_61.png",
+      "context": "Base your answers to questions 57 through 61 on the passage, data table, and maps below, and on your \nknowledge of Earth science. The data table shows the approximate surface area and volume of the Aral Sea in \n1960 and 2000, and the present-day data for the five North American Great Lakes. The 1960 map shows the Aral \nSea and the city of Aralsk, which was located on the shoreline. The 2000 map shows the change in size of the \nAral Sea.\nThe Aral Sea\nThe Aral Sea is actually an inland saltwater lake located in southwest Russia. It is \nestimated to have formed approximately 5.5 million years ago due to the uplift of \nmountainous regions to the south. The region\u2019s two major rivers, fed by snowmelt and \nprecipitation, flowed down from these mountains and pooled together to form the Aral \nSea. The Aral Sea was one of the largest lakes in the world. In the 1960s, government \nofficials began diverting most of the river water for farming. Since 1960 the size of the \nlake has dramatically decreased. As the lake dried up, fisheries and the communities that \ndepended on them collapsed. The increasingly salty water became polluted with fertilizer \nand pesticides. The blowing dust from the exposed lakebed, contaminated with agricultural \nchemicals, became a public health hazard. The salt left behind made the ground unusable \nfor farming.\nData Table\nSurface Area \n(km2)\nVolume \n(km3)\nAral Sea 1960\n66,458\n1064\nAral Sea 2000\n23,400\n400\nLake Superior\n82,100\n12,100\nLake Michigan\n57,800\n4920\nLake Huron\n59,600\n3540\nLake Erie\n25,700\n484\nLake Ontario\n18,960\n1640\nSource: Great Lakes information, http://www.epa.gov/\nglnpo/atlas/gl-fact1.html\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[19]\t\n[OVER]\nAralsk\nAral Sea Shoreline\n1960\n2000\nKey\nAralsk\nAral Sea\nExposed lakebed",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 16.6 km3/y."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "State one human activity that led to the decrease in size of the Aral Sea and describe one effect of this decrease on the environment.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_57_61.png",
+      "context": "Base your answers to questions 57 through 61 on the passage, data table, and maps below, and on your \nknowledge of Earth science. The data table shows the approximate surface area and volume of the Aral Sea in \n1960 and 2000, and the present-day data for the five North American Great Lakes. The 1960 map shows the Aral \nSea and the city of Aralsk, which was located on the shoreline. The 2000 map shows the change in size of the \nAral Sea.\nThe Aral Sea\nThe Aral Sea is actually an inland saltwater lake located in southwest Russia. It is \nestimated to have formed approximately 5.5 million years ago due to the uplift of \nmountainous regions to the south. The region\u2019s two major rivers, fed by snowmelt and \nprecipitation, flowed down from these mountains and pooled together to form the Aral \nSea. The Aral Sea was one of the largest lakes in the world. In the 1960s, government \nofficials began diverting most of the river water for farming. Since 1960 the size of the \nlake has dramatically decreased. As the lake dried up, fisheries and the communities that \ndepended on them collapsed. The increasingly salty water became polluted with fertilizer \nand pesticides. The blowing dust from the exposed lakebed, contaminated with agricultural \nchemicals, became a public health hazard. The salt left behind made the ground unusable \nfor farming.\nData Table\nSurface Area \n(km2)\nVolume \n(km3)\nAral Sea 1960\n66,458\n1064\nAral Sea 2000\n23,400\n400\nLake Superior\n82,100\n12,100\nLake Michigan\n57,800\n4920\nLake Huron\n59,600\n3540\nLake Erie\n25,700\n484\nLake Ontario\n18,960\n1640\nSource: Great Lakes information, http://www.epa.gov/\nglnpo/atlas/gl-fact1.html\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[19]\t\n[OVER]\nAralsk\nAral Sea Shoreline\n1960\n2000\nKey\nAralsk\nAral Sea\nExposed lakebed",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: Human activity: \u2014 The rivers were diverted. \u2014 Water was used for irrigation. \u2014 farming Effect: \u2014 The lake dried up. \u2014 Airborne pollution/dust is a health hazard. \u2014 Water became too salty for certain life. \u2014 Fishing and communities collapsed. \u2014 Salty ground remaining is unsustainable for farming. \u2014 Pollution from fertilizers and pesticides"
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "State one effect that the reduced size of the Aral Sea had on the summertime air temperature and the amount of precipitation in Aralsk.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_57_61.png",
+      "context": "Base your answers to questions 57 through 61 on the passage, data table, and maps below, and on your \nknowledge of Earth science. The data table shows the approximate surface area and volume of the Aral Sea in \n1960 and 2000, and the present-day data for the five North American Great Lakes. The 1960 map shows the Aral \nSea and the city of Aralsk, which was located on the shoreline. The 2000 map shows the change in size of the \nAral Sea.\nThe Aral Sea\nThe Aral Sea is actually an inland saltwater lake located in southwest Russia. It is \nestimated to have formed approximately 5.5 million years ago due to the uplift of \nmountainous regions to the south. The region\u2019s two major rivers, fed by snowmelt and \nprecipitation, flowed down from these mountains and pooled together to form the Aral \nSea. The Aral Sea was one of the largest lakes in the world. In the 1960s, government \nofficials began diverting most of the river water for farming. Since 1960 the size of the \nlake has dramatically decreased. As the lake dried up, fisheries and the communities that \ndepended on them collapsed. The increasingly salty water became polluted with fertilizer \nand pesticides. The blowing dust from the exposed lakebed, contaminated with agricultural \nchemicals, became a public health hazard. The salt left behind made the ground unusable \nfor farming.\nData Table\nSurface Area \n(km2)\nVolume \n(km3)\nAral Sea 1960\n66,458\n1064\nAral Sea 2000\n23,400\n400\nLake Superior\n82,100\n12,100\nLake Michigan\n57,800\n4920\nLake Huron\n59,600\n3540\nLake Erie\n25,700\n484\nLake Ontario\n18,960\n1640\nSource: Great Lakes information, http://www.epa.gov/\nglnpo/atlas/gl-fact1.html\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[19]\t\n[OVER]\nAralsk\nAral Sea Shoreline\n1960\n2000\nKey\nAralsk\nAral Sea\nExposed lakebed",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both air temperature and precipitation are correct. Acceptable responses include, but are not limited to: Air temperature: \u2014 warmer \u2014 hot \u2014 higher Precipitation: \u2014 less \u2014 drier"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "Identify the Great Lake that has a surface area and volume of water most similar to the surface area and volume of water of the Aral Sea in 2000.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_57_61.png",
+      "context": "Base your answers to questions 57 through 61 on the passage, data table, and maps below, and on your \nknowledge of Earth science. The data table shows the approximate surface area and volume of the Aral Sea in \n1960 and 2000, and the present-day data for the five North American Great Lakes. The 1960 map shows the Aral \nSea and the city of Aralsk, which was located on the shoreline. The 2000 map shows the change in size of the \nAral Sea.\nThe Aral Sea\nThe Aral Sea is actually an inland saltwater lake located in southwest Russia. It is \nestimated to have formed approximately 5.5 million years ago due to the uplift of \nmountainous regions to the south. The region\u2019s two major rivers, fed by snowmelt and \nprecipitation, flowed down from these mountains and pooled together to form the Aral \nSea. The Aral Sea was one of the largest lakes in the world. In the 1960s, government \nofficials began diverting most of the river water for farming. Since 1960 the size of the \nlake has dramatically decreased. As the lake dried up, fisheries and the communities that \ndepended on them collapsed. The increasingly salty water became polluted with fertilizer \nand pesticides. The blowing dust from the exposed lakebed, contaminated with agricultural \nchemicals, became a public health hazard. The salt left behind made the ground unusable \nfor farming.\nData Table\nSurface Area \n(km2)\nVolume \n(km3)\nAral Sea 1960\n66,458\n1064\nAral Sea 2000\n23,400\n400\nLake Superior\n82,100\n12,100\nLake Michigan\n57,800\n4920\nLake Huron\n59,600\n3540\nLake Erie\n25,700\n484\nLake Ontario\n18,960\n1640\nSource: Great Lakes information, http://www.epa.gov/\nglnpo/atlas/gl-fact1.html\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[19]\t\n[OVER]\nAralsk\nAral Sea Shoreline\n1960\n2000\nKey\nAralsk\nAral Sea\nExposed lakebed",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Lake Erie. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "The garden pond owner has to add water to the pond on a regular basis. Explain why the water surface level would naturally decrease if the owner did not perform this task.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_62_63.png",
+      "context": "Base your answers to questions 62 and 63 on the cross section below and on your knowledge of Earth science. \nThe cross section represents a small garden pond in New York State. An impermeable plastic liner covers the \nbottom and sides of the pond. A pump delivers water to an artificial waterfall.\nOverflow\npipe\nGarden Pond\nRocks\nPlant\nWater\nsurface\nPump\nHose\nWaterfall\nPlastic liner\nWater\ntable\nSoil",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The pond water would evaporate, lowering the surface level of the water. \u2014 Warm temperatures in the summer cause more evaporation to occur."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "Explain what would happen to the water in the pond if the liner were removed.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_62_63.png",
+      "context": "Base your answers to questions 62 and 63 on the cross section below and on your knowledge of Earth science. \nThe cross section represents a small garden pond in New York State. An impermeable plastic liner covers the \nbottom and sides of the pond. A pump delivers water to an artificial waterfall.\nOverflow\npipe\nGarden Pond\nRocks\nPlant\nWater\nsurface\nPump\nHose\nWaterfall\nPlastic liner\nWater\ntable\nSoil",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The pond water would infiltrate into the soil. \u2014 The water would move down to the water table."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "In your answer booklet, circle the relative surface temperature and luminosity of Pherkad compared to the surface temperature and luminosity of the Sun.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the data table below and on your knowledge of Earth science. \nThe data table shows the surface temperatures (K), luminosities, and inferred ages in million years (my) of three \nstars located in the pattern of stars referred to as the Little Dipper.\nData Table\nStar Name\nSurface Temperature \n(K)\nLuminosity \n(relative to the Sun)\nInferred Age \n(my)\nKochab\n4000\n500\n2950\nPherkad\n8900\n1200\n100\nPolaris\n5800\n2600\n70",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for circling hotter and greater, only. 65 Allow 1 credit if all three objects are listed in the correct order as shown below. universe Kochab Polaris ________________ \u2192 ________________ \u2192 ________________ Oldest Youngest P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "List Kochab, Polaris, and the universe in order by their inferred age from oldest to youngest.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_64_65.png",
+      "context": "Base your answers to questions 64 and 65 on the data table below and on your knowledge of Earth science. \nThe data table shows the surface temperatures (K), luminosities, and inferred ages in million years (my) of three \nstars located in the pattern of stars referred to as the Little Dipper.\nData Table\nStar Name\nSurface Temperature \n(K)\nLuminosity \n(relative to the Sun)\nInferred Age \n(my)\nKochab\n4000\n500\n2950\nPherkad\n8900\n1200\n100\nPolaris\n5800\n2600\n70",
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "State the name of the sedimentary rock layer that was the last to form before unconformity XY.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the cross section below and on your knowledge of Earth \nscience. The geologic cross section represents a portion of Earth\u2019s crust. Letters A, B, C, and D identify rock \nunits. Two unconformities and a fault are labeled. Line XY represents a third unconformity.\nFault\nKey\ny\nx\nUnconformity\nIntrusive \nIgneous Rock\nContact\nMetamorphism\nA\nB\nC\nD",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for breccia."
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "Describe the rate of cooling of the magma that formed rock unit D.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the cross section below and on your knowledge of Earth \nscience. The geologic cross section represents a portion of Earth\u2019s crust. Letters A, B, C, and D identify rock \nunits. Two unconformities and a fault are labeled. Line XY represents a third unconformity.\nFault\nKey\ny\nx\nUnconformity\nIntrusive \nIgneous Rock\nContact\nMetamorphism\nA\nB\nC\nD",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 slow cooling rate \u2014 The magma cooled very slowly, forming coarse crystals. \u2014 It took a long time for the magma to cool."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "State the diameter, in centimeters, of the largest particle size that is possibly found in the sedimentary rock represented by rock layer B.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the cross section below and on your knowledge of Earth \nscience. The geologic cross section represents a portion of Earth\u2019s crust. Letters A, B, C, and D identify rock \nunits. Two unconformities and a fault are labeled. Line XY represents a third unconformity.\nFault\nKey\ny\nx\nUnconformity\nIntrusive \nIgneous Rock\nContact\nMetamorphism\nA\nB\nC\nD",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 0.2 cm."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "On the map in your answer booklet, plot the five locations of the center of Hurricane Michael indicated by the latitudes and longitudes shown in table 1. Connect all five plots with a line.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the passage and data tables below, the map in your answer \nbooklet, and on your knowledge of Earth science. Table 1 shows latitude and longitude locations of the center \nof Hurricane Michael, recorded at 1:00 p.m. each day from October 7, 2018 to October 11, 2018. The data \ntable also shows the wind speed in miles per hour (mph) and the barometric pressure in millibars (mb). Table 2 \nshows the Saffir-Simpson Scale, which organizes hurricanes into categories based on maximum sustained wind \nspeeds. \n \n \n \n \n \n \nHurricane Michael\nOn October 10, 2018 at approximately 1:00 p.m., Hurricane Michael made landfall \nnear Mexico Beach, Florida, with wind speeds of 160 mph. This was the third-strongest \nAtlantic hurricane to make landfall in the United States, as well as the strongest hurricane \nto make landfall along the Florida panhandle, the part of northwest Florida along the Gulf \nof Mexico coast. Thousands of homes were ripped apart by the winds, and an estimated \n650,000 people in two states were left without electrical power.\nTable 1: Hurricane Michael Data Taken at 1:00 p.m.\nDate\nLatitude \n(\u00b0N)\nLongitude \n(\u00b0W)\nMaximum Sustained \nWind Speed \n(mph)\nAir Pressure at \nthe Center \n(mb)\nOctober 7, 2018\n19.0\n86.0\n40\n1004\nOctober 8, 2018\n21.5\n85.0\n75\n978\nOctober 9, 2018\n25.5\n86.5\n110\n965\nOctober 10, 2018\n30.0\n85.5\n160\n919\nOctober 11, 2018\n35.5\n80.0\n50\n991\nTable 2: Saffir-Simpson Scale\nCategory\nMaximum Sustained \nWind Speed \n(mph)\n1\n74-95\n2\n96-110\n3\n111-129\n4\n130-156\n5\n>157",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all five plots are within or touch the circles shown on the map on page 7 and are correctly connected with a line that passes within or touches each circle. Note: Allow credit if the line does not pass through the student\u2019s plots, but is still within or touches the circles. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Based on the maximum sustained wind speeds, identify the Saffir-Simpson Scale category that Hurricane Michael was when it made landfall.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the passage and data tables below, the map in your answer \nbooklet, and on your knowledge of Earth science. Table 1 shows latitude and longitude locations of the center \nof Hurricane Michael, recorded at 1:00 p.m. each day from October 7, 2018 to October 11, 2018. The data \ntable also shows the wind speed in miles per hour (mph) and the barometric pressure in millibars (mb). Table 2 \nshows the Saffir-Simpson Scale, which organizes hurricanes into categories based on maximum sustained wind \nspeeds. \n \n \n \n \n \n \nHurricane Michael\nOn October 10, 2018 at approximately 1:00 p.m., Hurricane Michael made landfall \nnear Mexico Beach, Florida, with wind speeds of 160 mph. This was the third-strongest \nAtlantic hurricane to make landfall in the United States, as well as the strongest hurricane \nto make landfall along the Florida panhandle, the part of northwest Florida along the Gulf \nof Mexico coast. Thousands of homes were ripped apart by the winds, and an estimated \n650,000 people in two states were left without electrical power.\nTable 1: Hurricane Michael Data Taken at 1:00 p.m.\nDate\nLatitude \n(\u00b0N)\nLongitude \n(\u00b0W)\nMaximum Sustained \nWind Speed \n(mph)\nAir Pressure at \nthe Center \n(mb)\nOctober 7, 2018\n19.0\n86.0\n40\n1004\nOctober 8, 2018\n21.5\n85.0\n75\n978\nOctober 9, 2018\n25.5\n86.5\n110\n965\nOctober 10, 2018\n30.0\n85.5\n160\n919\nOctober 11, 2018\n35.5\n80.0\n50\n991\nTable 2: Saffir-Simpson Scale\nCategory\nMaximum Sustained \nWind Speed \n(mph)\n1\n74-95\n2\n96-110\n3\n111-129\n4\n130-156\n5\n>157",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for category 5."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "Describe the relationship between air pressure and the maximum sustained wind speed at the center of this hurricane.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_69_71.png",
+      "context": "Base your answers to questions 69 through 71 on the passage and data tables below, the map in your answer \nbooklet, and on your knowledge of Earth science. Table 1 shows latitude and longitude locations of the center \nof Hurricane Michael, recorded at 1:00 p.m. each day from October 7, 2018 to October 11, 2018. The data \ntable also shows the wind speed in miles per hour (mph) and the barometric pressure in millibars (mb). Table 2 \nshows the Saffir-Simpson Scale, which organizes hurricanes into categories based on maximum sustained wind \nspeeds. \n \n \n \n \n \n \nHurricane Michael\nOn October 10, 2018 at approximately 1:00 p.m., Hurricane Michael made landfall \nnear Mexico Beach, Florida, with wind speeds of 160 mph. This was the third-strongest \nAtlantic hurricane to make landfall in the United States, as well as the strongest hurricane \nto make landfall along the Florida panhandle, the part of northwest Florida along the Gulf \nof Mexico coast. Thousands of homes were ripped apart by the winds, and an estimated \n650,000 people in two states were left without electrical power.\nTable 1: Hurricane Michael Data Taken at 1:00 p.m.\nDate\nLatitude \n(\u00b0N)\nLongitude \n(\u00b0W)\nMaximum Sustained \nWind Speed \n(mph)\nAir Pressure at \nthe Center \n(mb)\nOctober 7, 2018\n19.0\n86.0\n40\n1004\nOctober 8, 2018\n21.5\n85.0\n75\n978\nOctober 9, 2018\n25.5\n86.5\n110\n965\nOctober 10, 2018\n30.0\n85.5\n160\n919\nOctober 11, 2018\n35.5\n80.0\n50\n991\nTable 2: Saffir-Simpson Scale\nCategory\nMaximum Sustained \nWind Speed \n(mph)\n1\n74-95\n2\n96-110\n3\n111-129\n4\n130-156\n5\n>157",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 As the air pressure decreases, the wind speed increases. \u2014 Higher winds occur with lower air pressure. \u2014 inverse relationship/negative correlation P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "On the map in your answer booklet, draw the 30-meter and 40-meter contour lines. Extend both contour lines to the edge of the map.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 72 and 73 on the topographic map on your answer sheet and on your knowledge \nof Earth science. The map shows elevations, recorded in meters (m). Some contour lines are shown. Point A is a \nlocation on the land surface.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both the 30 m and the 40 m contour lines are correctly drawn to the edge of the map. The contour lines must pass through or touch the five 30 m dots and the four 40 m dots. Note: If additional isolines are drawn, all must be correct to receive credit. Allow credit if the 40 m contour line forms a closed loop. Example of a 1-credit response: 21 24 30 30 35 27 29 23 32 38 41 41 37 40 40 37 29 24 30 22 Cedar Stream 24 30 27 40 24 35 0 N Ocean A 41 48 40 42 26 39 33 28 32 31 30 29 0 1 2 3 4 km 50 50 Contour Interval 10 meters"
+    },
+    {
+      "number": 73,
+      "type": "written",
+      "text": "State a possible elevation, in meters, of point A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/q73.png",
+      "context": "Base your answers to questions 72 and 73 on the topographic map on your answer sheet and on your knowledge \nof Earth science. The map shows elevations, recorded in meters (m). Some contour lines are shown. Point A is a \nlocation on the land surface.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value greater than 60 m, but less than 70 m."
+    },
+    {
+      "number": 74,
+      "type": "written",
+      "text": "Compare the amount of precipitation that occurs at location X in July to the amount of precipitation that occurs at the same location in January. Use both January and July in your answer.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_74_75.png",
+      "context": "Base your answers to questions 74 and 75 on the maps of Africa below and on your knowledge of Earth \nscience. The Intertropical Convergence Zone (ITCZ) is a belt of low pressure that circles Earth where the \nplanetary winds on either side of the ITCZ converge. The maps show the locations of the ITCZ in January \n(map I) and July (map II), and the nearby average amounts and patterns of precipitation during those months. \nPoint X indicates a surface location.\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n10\u00b0\n20\u00b0\n30\u00b0\n40\u00b0\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n10\u00b0\n20\u00b0\n30\u00b0\n40\u00b0\n60\u00b0\n50\u00b0\n40\u00b0\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n20\u00b0\n10\u00b0\n60\u00b0\n50\u00b0\n40\u00b0\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n20\u00b0\n10\u00b0\n60\u00b0\n50\u00b0\n40\u00b0\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n20\u00b0\n10\u00b0\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n10\u00b0\n20\u00b0\n30\u00b0\n40\u00b0\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n10\u00b0\n20\u00b0\n30\u00b0\n40\u00b0\n60\u00b0\n50\u00b0\n40\u00b0\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n20\u00b0\n10\u00b0\n0\n800 1600 km\n0\n800 1600 km\nMap I (January)\nAT L A N T I C  \nO C E A N\nA T\nL\nA\nN\nT\nI\nC\nO\nC\nE\nA\nN\nI N D I A N\nO C E A N\nAFRICA\nMap II (July)\nAT L A N T I C  \nO C E A N\nA T\nL\nA\nN\nT\nI\nC\nO\nC\nE\nA\nN\nI N D I A N\nO C E A N\nAFRICA\nX\n10-20\n20-40\n40-60\n>60\nRainfall (cm)\nIn\nte\nrtropi\nca\nl \nC\no\nn\nv\ne\nr\ng\ne\nnce\n \nZ\no\nn\ne\nEquator\n10-20\n20-40\n40-60\n>60\nRainfall (cm)\nInte\nrtro\npi\nc\na\nl \nC\no\nn\nv\ne\nrgen\nc\ne \nZ\no\nn\ne\nEquator",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 There is less precipitation at location X in July than in January. \u2014 There is 40 to 60 cm of rain at location X in January, but less rain in July. \u2014 Compared to July, in January X receives about five times more rainfall."
+    },
+    {
+      "number": 75,
+      "type": "written",
+      "text": "Determine, in kilometers, an approximate distance north of the equator where the greatest amount of precipitation occurs in Africa during July.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_74_75.png",
+      "context": "Base your answers to questions 74 and 75 on the maps of Africa below and on your knowledge of Earth \nscience. The Intertropical Convergence Zone (ITCZ) is a belt of low pressure that circles Earth where the \nplanetary winds on either side of the ITCZ converge. The maps show the locations of the ITCZ in January \n(map I) and July (map II), and the nearby average amounts and patterns of precipitation during those months. \nPoint X indicates a surface location.\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n10\u00b0\n20\u00b0\n30\u00b0\n40\u00b0\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n10\u00b0\n20\u00b0\n30\u00b0\n40\u00b0\n60\u00b0\n50\u00b0\n40\u00b0\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n20\u00b0\n10\u00b0\n60\u00b0\n50\u00b0\n40\u00b0\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n20\u00b0\n10\u00b0\n60\u00b0\n50\u00b0\n40\u00b0\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n20\u00b0\n10\u00b0\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n10\u00b0\n20\u00b0\n30\u00b0\n40\u00b0\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n10\u00b0\n20\u00b0\n30\u00b0\n40\u00b0\n60\u00b0\n50\u00b0\n40\u00b0\n30\u00b0\n20\u00b0\n10\u00b0\n0\u00b0\n20\u00b0\n10\u00b0\n0\n800 1600 km\n0\n800 1600 km\nMap I (January)\nAT L A N T I C  \nO C E A N\nA T\nL\nA\nN\nT\nI\nC\nO\nC\nE\nA\nN\nI N D I A N\nO C E A N\nAFRICA\nMap II (July)\nAT L A N T I C  \nO C E A N\nA T\nL\nA\nN\nT\nI\nC\nO\nC\nE\nA\nN\nI N D I A N\nO C E A N\nAFRICA\nX\n10-20\n20-40\n40-60\n>60\nRainfall (cm)\nIn\nte\nrtropi\nca\nl \nC\no\nn\nv\ne\nr\ng\ne\nnce\n \nZ\no\nn\ne\nEquator\n10-20\n20-40\n40-60\n>60\nRainfall (cm)\nInte\nrtro\npi\nc\na\nl \nC\no\nn\nv\ne\nrgen\nc\ne \nZ\no\nn\ne\nEquator",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for any value from 400 km to 900 km. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 76,
+      "type": "written",
+      "text": "On the grid in your answer booklet, construct a line graph by plotting the data for the earthquake depths shown in the data table, and connect all five plots with a line. Do not extend your line beyond the given data.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the map and data table below and on your knowledge of \nEarth science. The map shows the island of Sumatra in the eastern Indian Ocean. Line AB represents a reference \nline on the map. The inset map shows the location of plate boundaries in this region. The data table shows the \ndepths of five earthquakes and their distances from the plate boundary, at location A, along line AB.\nA\nA\nB\nSumatra\nB\nIndian\nOcean\nN\nData Table\nDistance From \nLocation A \n(km)\nDepth of \nEarthquake \n(km)\n0\n10\n100\n35\n225\n80\n310\n170\n335\n235\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[25]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if the centers of all five plots are within or touch the circles shown and are correctly connected with a line that passes within or touches each circle. Note: Allow credit if the student-drawn line does not pass through the student plots, but is still within or touching the circles. It is recommended that an overlay of the same scale as the student answer sheet be used to ensure reliability in rating. Do not allow credit if student extends line beyond given data. 0 0 50 100 150 Earthquake Depth from Plate Boundary Along Line AB Distance from Location A (km) Depth of Earthquakes (km) 200 250 300 350 50 100 150 200 250"
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "State the names of the tectonic plates on each side of the boundary at location A.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the map and data table below and on your knowledge of \nEarth science. The map shows the island of Sumatra in the eastern Indian Ocean. Line AB represents a reference \nline on the map. The inset map shows the location of plate boundaries in this region. The data table shows the \ndepths of five earthquakes and their distances from the plate boundary, at location A, along line AB.\nA\nA\nB\nSumatra\nB\nIndian\nOcean\nN\nData Table\nDistance From \nLocation A \n(km)\nDepth of \nEarthquake \n(km)\n0\n10\n100\n35\n225\n80\n310\n170\n335\n235\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[25]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for Indian-Australian Plate (Indo-Australian Plate) and Eurasian Plate."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "Identify the layer of the mantle in which the deepest earthquake shown in the data table occurred.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the map and data table below and on your knowledge of \nEarth science. The map shows the island of Sumatra in the eastern Indian Ocean. Line AB represents a reference \nline on the map. The inset map shows the location of plate boundaries in this region. The data table shows the \ndepths of five earthquakes and their distances from the plate boundary, at location A, along line AB.\nA\nA\nB\nSumatra\nB\nIndian\nOcean\nN\nData Table\nDistance From \nLocation A \n(km)\nDepth of \nEarthquake \n(km)\n0\n10\n100\n35\n225\n80\n310\n170\n335\n235\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[25]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for asthenosphere or plastic mantle."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "On September 28, 2018, a tsunami warning was issued to the people of Sumatra only a few minutes before a seven-meter-high wave came on to the shore. Explain one action that individuals should have taken as soon as the warning was issued.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_76_79.png",
+      "context": "Base your answers to questions 76 through 79 on the map and data table below and on your knowledge of \nEarth science. The map shows the island of Sumatra in the eastern Indian Ocean. Line AB represents a reference \nline on the map. The inset map shows the location of plate boundaries in this region. The data table shows the \ndepths of five earthquakes and their distances from the plate boundary, at location A, along line AB.\nA\nA\nB\nSumatra\nB\nIndian\nOcean\nN\nData Table\nDistance From \nLocation A \n(km)\nDepth of \nEarthquake \n(km)\n0\n10\n100\n35\n225\n80\n310\n170\n335\n235\n\nP.S./E. Sci.\u2013Jan. \u201924\t\n[25]\t\n[OVER]",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 evacuated to higher elevation \u2014 Get to a higher floor in buildings. \u2014 Go to higher ground. \u2014 Leave the beach and get inland. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "The glacial moraines that form much of Long Island, New York, mark the farthest advance of this ice sheet. Describe the arrangement of rock particles making up these moraines.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the map below and on your knowledge of Earth science. \nThe map shows a portion of North America. The dark line shows the southernmost advance of the last continental \nice sheet to cover North America. The coastal land areas exposed by a lower sea level at that time are shown with \ndarker shading. The location of New York State, including Long Island, is labeled.\nIce-covered\nareas\nKey\nCoastal land area exposed \nby lower sea level\nLong \nIsland\nAtlantic\nOcean\nPacific\nOcean\nNew \nYork",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Rock particles are unsorted. \u2014 Moraines contain random, mixed-size particles. \u2014 not in layers/unlayered"
+    },
+    {
+      "number": 81,
+      "type": "written",
+      "text": "Old river valleys in central New York State were eroded by glacial ice, forming the Finger Lakes. Describe the cross-sectional shape of the original stream-cut valleys. Describe the cross-sectional shape of the valleys after they were carved by glacial ice.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the map below and on your knowledge of Earth science. \nThe map shows a portion of North America. The dark line shows the southernmost advance of the last continental \nice sheet to cover North America. The coastal land areas exposed by a lower sea level at that time are shown with \ndarker shading. The location of New York State, including Long Island, is labeled.\nIce-covered\nareas\nKey\nCoastal land area exposed \nby lower sea level\nLong \nIsland\nAtlantic\nOcean\nPacific\nOcean\nNew \nYork",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit if both valley shapes are correct. Acceptable responses include, but are not limited to: Original valley shape: \u2014 V-shaped Glaciated valley shape: \u2014 U-shaped \u2014 rounded bottoms with steep sides"
+    },
+    {
+      "number": 82,
+      "type": "written",
+      "text": "In some places, grooves and parallel scratches on surface bedrock provide evidence that the ice sheet moved over this bedrock. Explain how the grooves and scratches were produced by glacial movement.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_80_82.png",
+      "context": "Base your answers to questions 80 through 82 on the map below and on your knowledge of Earth science. \nThe map shows a portion of North America. The dark line shows the southernmost advance of the last continental \nice sheet to cover North America. The coastal land areas exposed by a lower sea level at that time are shown with \ndarker shading. The location of New York State, including Long Island, is labeled.\nIce-covered\nareas\nKey\nCoastal land area exposed \nby lower sea level\nLong \nIsland\nAtlantic\nOcean\nPacific\nOcean\nNew \nYork",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Rock fragments gouged out grooves as they were dragged southward by moving ice. \u2014 Rocks and boulders between the glacier and bedrock were pushed along, scratching the surface. \u2014 Pieces of rock in the glacier abraded the bedrock. Note: Do not allow credit for \u201cthe glacier moved over the bedrock\u201d or \u201cthe glacier scratched the bedrock\u201d because ice alone does not cause the grooves and scratches. It is the sediments trapped in the ice that make the marks. P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "Compared to the texture of basalt, describe how the texture of granite is different.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the flow chart below and on your knowledge of Earth \nscience. The flow chart represents the three different rock types, the processes by which these rock types form, \nthe environment in which these rock types form, and the names of some specific examples of these rocks. Letters \nA, B, C, D and E represent missing information on the chart.\nCompaction and\ncementation of\nsediment\nCrystals from\nprecipitation\nand evaporation\nC\nRearrangement\nof atoms\nIgneous\nA\nMetamorphic\nB\nRock Types\ndeep\nunderground\nEnvironment\nGranite\nat/ near Earth\u2019s\nsurface\nEnvironment\nBasalt\nEnvironment\nConglomerate\nEnvironment\nD\nEnvironment\nBituminous\ncoal\nat/ near Earth\u2019s\nsurface\nat/ near Earth\u2019s\nsurface\nat/ near Earth\u2019s\nsurface\nProcess of Formation\nProcess of Formation\nProcess of Formation\ndeep\nunderground\nEnvironment\nE\nat/ near Earth\u2019s\nsurface\nEnvironment\nHornfels",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Granite has a coarse texture, while basalt has a fine texture. \u2014 Granite has larger crystals than basalt. \u2014 Granite crystals\u2019 size is from 1 to 10 mm, and basalt crystals are less than 1 mm. \u2014 The texture is coarse. \u2014 Granite cannot be vesicular."
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Identify one possible Earth material that was most likely buried or compacted during the process of rock formation represented by letter C that resulted in the formation of bituminous coal.",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the flow chart below and on your knowledge of Earth \nscience. The flow chart represents the three different rock types, the processes by which these rock types form, \nthe environment in which these rock types form, and the names of some specific examples of these rocks. Letters \nA, B, C, D and E represent missing information on the chart.\nCompaction and\ncementation of\nsediment\nCrystals from\nprecipitation\nand evaporation\nC\nRearrangement\nof atoms\nIgneous\nA\nMetamorphic\nB\nRock Types\ndeep\nunderground\nEnvironment\nGranite\nat/ near Earth\u2019s\nsurface\nEnvironment\nBasalt\nEnvironment\nConglomerate\nEnvironment\nD\nEnvironment\nBituminous\ncoal\nat/ near Earth\u2019s\nsurface\nat/ near Earth\u2019s\nsurface\nat/ near Earth\u2019s\nsurface\nProcess of Formation\nProcess of Formation\nProcess of Formation\ndeep\nunderground\nEnvironment\nE\nat/ near Earth\u2019s\nsurface\nEnvironment\nHornfels",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 plants/plant remains \u2014 carbon/organic carbon \u2014 peat or lignite"
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "State the name of one rock that could be represented by letter D. P.S./ P.S./EARTH SCIENCE P.S./EARTH SCIENCE Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/earth-science/january-2024/context_83_85.png",
+      "context": "Base your answers to questions 83 through 85 on the flow chart below and on your knowledge of Earth \nscience. The flow chart represents the three different rock types, the processes by which these rock types form, \nthe environment in which these rock types form, and the names of some specific examples of these rocks. Letters \nA, B, C, D and E represent missing information on the chart.\nCompaction and\ncementation of\nsediment\nCrystals from\nprecipitation\nand evaporation\nC\nRearrangement\nof atoms\nIgneous\nA\nMetamorphic\nB\nRock Types\ndeep\nunderground\nEnvironment\nGranite\nat/ near Earth\u2019s\nsurface\nEnvironment\nBasalt\nEnvironment\nConglomerate\nEnvironment\nD\nEnvironment\nBituminous\ncoal\nat/ near Earth\u2019s\nsurface\nat/ near Earth\u2019s\nsurface\nat/ near Earth\u2019s\nsurface\nProcess of Formation\nProcess of Formation\nProcess of Formation\ndeep\nunderground\nEnvironment\nE\nat/ near Earth\u2019s\nsurface\nEnvironment\nHornfels",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for one correct response. Acceptable responses include, but are not limited to: \u2014 rock salt \u2014 rock gypsum \u2014 dolostone \u2014 limestone P.S./E. Sci. Rating Guide\u2013Jan. \u2019"
+    }
+  ]
+}

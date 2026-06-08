@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { doc, getDoc, getDocs, setDoc, collection } from 'firebase/firestore'
 import { db } from '../firebase'
-import { getWeekKey } from './useXP'
+import { getWeekKey } from './useRP'
 
 /**
  * Fetches weekly XP for the current user + all their friends from

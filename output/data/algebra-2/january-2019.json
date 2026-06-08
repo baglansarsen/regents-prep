@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-2",
+  "session": "january-2019",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "Suppose two sets of test scores have the same mean, but different standard deviations, \u03c31 and \u03c32, with \u03c32 \u0002 \u03c31. Which statement best describes the variability of these data sets?",
+      "choices": [
+        "Data set one has the greater variability.",
+        "Data set two has the greater variability.",
+        "The variability will be the same for each data set.",
+        "No conclusion can be made regarding the variability of either set."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "If f(x) \u0003 log3 x and g(x) is the image of f(x) after a translation five units to the left, which equation represents g(x)?",
+      "choices": [
+        "g(x) \u0003 log3 (x \u0004 5)",
+        "g(x) \u0003 log3 x \u0004 5",
+        "g(x) \u0003 log3 (x \u0005 5)",
+        "g(x) \u0003 log3 x \u0005 5"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "When factoring to reveal the roots of the equation x3 \u0004 2x2 \u0005 9x \u0005 18 \u0003 0, which equations can be used? I. x2(x \u0004 2) \u0005 9(x \u0004 2) \u0003 0 II. x(x2 \u0005 9) \u0004 2(x2 \u0005 9) \u0003 0 III. (x \u0005 2)(x2 \u0005 9) \u0003 0",
+      "choices": [
+        "I and II, only",
+        "I and III, only",
+        "II and III, only",
+        "I, II,"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "When a ball bounces, the heights of consecutive bounces form a geometric sequence. The height of the first bounce is 121 centimeters and the height of the third bounce is 64 centimeters. To the nearest centimeter, what is the height of the fifth bounce?",
+      "choices": [
+        "25",
+        "34",
+        "36",
+        "42"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The solutions to the equation 5x2 \u0005 2x \u0004 13 \u0003 9 are",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/january-2019/q5.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Julia deposits $2000 into a savings account that earns 4% interest per year. The exponential function that models this savings account is y \u0003 2000(1.04)t, where t is the time in years. Which equation correctly represents the amount of money in her savings account in terms of the monthly growth rate?",
+      "choices": [
+        "y \u0003 166.67(1.04)0.12t",
+        "y \u0003 2000(1.01)t",
+        "y \u0003 2000(1.0032737)12t",
+        "y \u0003 166.67(1.0032737)t"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Tides are a periodic rise and fall of ocean water. On a typical day at a seaport, to predict the time of the next high tide, the most important value to have would be the",
+      "choices": [
+        "time between consecutive low tides",
+        "time when the tide height is 20 feet",
+        "average depth of water over a 24-hour period",
+        "difference between the water heights at low and high tide 1 5 66 5 \u00b1 i 1 5 21 5 \u00b1 1 5 66 5 \u00b1 1 5 19 5 \u00b1"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "An estimate of the number of milligrams of a medication in the bloodstream t hours after 400 mg has been taken can be modeled by the function below. I(t) \u0003 0.5t4 \u0004 3.45t3 \u0005 96.65t2 \u0004 347.7t, where 0 \u2264 t \u2264 6 Over what time interval does the amount of medication in the bloodstream strictly increase?",
+      "choices": [
+        "0 to 2 hours",
+        "0 to 3 hours",
+        "2 to 6 hours",
+        "3 to 6 hours"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "Which representation of a quadratic has imaginary roots? 2(x 3)2 64 y 2 0 \u20131 \u20131 0 2",
+      "choices": [
+        "",
+        "x y 1 2 3 4 5 6 7 8 8 4 3 2 1 7 6 5",
+        "2x2 32 0",
+        "x \u20132.5 \u20132.0 \u20131.5 \u20131.0 \u20130.5 0.0"
+      ],
+      "image": "/images/exams/algebra-2/january-2019/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A random sample of 100 people that would best estimate the proportion of all registered voters in a district who support improvements to the high school football field should be drawn from registered voters in the district at a",
+      "choices": [
+        "football game",
+        "supermarket",
+        "school fund-raiser",
+        "high school band concert"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to (2x \u0005 i)2 \u0005 (2x \u0005 i)(2x \u0004 3i) where i is the imaginary unit and x is a real number?",
+      "choices": [
+        "\u00054 \u0005 8xi",
+        "\u00054 \u0005 4xi",
+        "2",
+        "8x \u0005 4i"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Suppose events A and B are independent and P(A and B) is 0.2. Which statement could be true?",
+      "choices": [
+        "P(A) \u0003 0.4, P(B) \u0003 0.3, P(A or B) \u0003 0.5",
+        "P(A) \u0003 0.8, P(B) \u0003 0.25",
+        "P(A|B) \u0003 0.2, P(B) \u0003 0.2",
+        "P(A) \u0003 0.15, P(B) \u0003 0.05"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "The function f(x) \u0002 acos bx \u0003 c is plotted on the graph shown below. What are the values of a, b, and c?",
+      "choices": [
+        "a \u0002 2, b \u0002 6, c \u0002 3",
+        "a \u0002 2, b \u0002 3, c \u0002 1",
+        "a \u0002 4, b \u0002 6, c \u0002 5",
+        "a \u0002 4, b \u0002 \u03c0__ 3 , c \u0002 3"
+      ],
+      "image": "/images/exams/algebra-2/january-2019/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which equation represents the equation of the parabola with focus (\u00043,3) and directrix y \u0002 7?",
+      "choices": [
+        "y \u0002 1__ 8 (x \u0003 3)2 \u0004 5",
+        "y \u0002 1__ 8 (x \u0004 3)2 \u0003 5",
+        "y \u0002 \u0004 1__ 8 (x \u0003 3)2 \u0003 5",
+        "y \u0002 \u0004 1__ 8 (x \u0004 3)2 \u0003 5 f(x) 1 x 5 3 6 2 3 3 2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "What is the solution set of the equation ?",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-2/january-2019/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "Savannah just got contact lenses. Her doctor said she can wear them 2 hours the first day, and can then increase the length of time by 30 minutes each day. If this pattern continues, which formula would not be appropriate to determine the length of time, in either minutes or hours, she could wear her contact lenses on the nth day?",
+      "choices": [
+        "a1 \u0003 120",
+        "an \u0003 90 \u0004 30n",
+        "a1 \u0003 2 an \u0003 an \u0005 1 \u0004 30 an \u0003 an \u0005 1 \u0004 0.5",
+        "an \u0003 2.5 \u0004 0.5n"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "If f(x) \u0003 ax where a \u0002 1, then the inverse of the function is",
+      "choices": [
+        "f \u00051(x) \u0003 logx a",
+        "f \u00051(x) \u0003 alog x",
+        "f \u00051(x) \u0003 loga x",
+        "f \u00051(x) \u0003 xlog a 1 2 3 ,\u0005 { } 1 2{ } \u00051 3 { } \u00051 1 3 2 , { } 2 3 1 1 6 3 1 x x x x \u0004 \u0004 \u0003 \u0005"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Kelly-Ann has $20,000 to invest. She puts half of the money into an account that grows at an annual rate of 0.9% compounded monthly. At the same time, she puts the other half of the money into an account that grows continuously at an annual rate of 0.8%. Which function represents the value of Kelly-Ann\u2019s investments after t years?",
+      "choices": [
+        "f(t) \u0003 10,000(1.9)t \u0004 10,000e0.8t",
+        "f(t) \u0003 10,000(1.009)t \u0004 10,000e0.008t",
+        "f(t) \u0003 10,000(1.075)12t \u0004 10,000e0.8t",
+        "f(t) \u0003 10,000(1.00075)12t \u0004 10,000e0.008t"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Which graph represents a polynomial function that contains x2 \u0004 2x \u0004 1 as a factor? x y",
+      "choices": [
+        "x y",
+        "x y",
+        "x y",
+        "\u20132 \u20134 4 2 \u20132 \u20134 4 2 \u20132 \u20134 4 2 \u20132 \u20134 4 2"
+      ],
+      "image": "/images/exams/algebra-2/january-2019/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "Sodium iodide-131, used to treat certain medical conditions, has a half-life of 1.8 hours. The data table below shows the amount of sodium iodide-131, rounded to the nearest thousandth, as the dose fades over time. What approximate amount of sodium iodide-131 will remain in the body after 18 hours?",
+      "choices": [
+        "0.001",
+        "0.136",
+        "0.271",
+        "0.543"
+      ],
+      "image": "/images/exams/algebra-2/january-2019/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "Which expression(s) are equivalent to , where x \u0002 0? I. II. III.",
+      "choices": [
+        "II, only",
+        "I and II",
+        "II and III",
+        "I, II, and III Number of Half Lives 1 2 3 4 5 Amount of Sodium Iodide-131 139.000 69.500 34.750 17.375 8.688 x x x 2 4 2 \u2212 x \u0005 \u0005 1 2 3 2 x \u0005 4 2 x 2 2 \u0005"
+      ],
+      "image": "/images/exams/algebra-2/january-2019/q21.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Consider f(x) \u0003 4x2 \u0004 6x \u0005 3, and p(x) defined by the graph below. The difference between the values of the maximum of p and minimum of f is",
+      "choices": [
+        "0.25",
+        "1.25",
+        "3.25",
+        "10.25"
+      ],
+      "image": "/images/exams/algebra-2/january-2019/q22.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The scores on a mathematics college-entry exam are normally distributed with a mean of 68 and standard deviation 7.2. Students scoring higher than one standard deviation above the mean will not be enrolled in the mathematics tutoring program. How many of the 750 incoming students can be expected to be enrolled in the tutoring program?",
+      "choices": [
+        "631",
+        "512",
+        "238",
+        "119"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "How many solutions exist for ?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4 y x p(x) 7 6 \u20136 \u20133 3 2 5 1 1 2 x x \u0003 \u0005 \u0005 \u0004 \u0005 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil."
+      ],
+      "image": "/images/exams/algebra-2/january-2019/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Justify why is equivalent to using properties of rational exponents, where x \u0002 0 and y \u0002 0. x y \u22121 12 2 3 x y x y 2 5 3 3 4 4",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2019/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "The zeros of a quartic polynomial function are 2, \u00052, 4, and \u00054. Use the zeros to construct a possible sketch of the function, on the set of axes below. y x",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2019/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Erin and Christa were working on cubing binomials for math homework. Erin believed they could save time with a shortcut. She wrote down the rule below for Christa to follow. (a \u0004 b)3 \u0003 a3 \u0004 b3 Does Erin\u2019s shortcut always work?",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The probability that a resident of a housing community opposes spending money for community improvement on plumbing issues is 0.8. The probability that a resident favors spending money on improving walkways given that the resident opposes spending money on plumbing issues is 0.85. Determine the probability that a randomly selected resident opposes spending money on plumbing issues and favors spending money on walkways.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Rowan is training to run in a race. He runs 15 miles in the first week, and each week following, he runs 3% more than the week before. Using a geometric series formula, find the total number of miles Rowan runs over the first ten weeks of training,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The average monthly high temperature in Buffalo, in degrees Fahrenheit, can be modeled by the function B(t) \u0003 25.29sin(0.4895t \u0005 1.9752) \u0004 55.2877, where t is the month number (January \u0003 1). State, to the nearest tenth, the average monthly rate of temperature change between August and November. Explain its meaning in the given context.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Point M (t, 4__ 7 )",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "On the grid below, graph the function y \u0003 log2(x \u0005 3) \u0004 1 y x 5 5 Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2019/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Solve the following system of equations algebraically for all values of a, b, and c. a \u0004 4b \u0004 6c \u0003 23 a \u0004 2b \u0004 c \u0003 2 6b \u0004 2c \u0003 a \u0004 14",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "Given a(x) \u0003 x4 \u0004 2x3 \u0004 4x \u0005 10 and b(x) \u0003 x \u0004 2, determine in the form . Is b(x) a factor of a(x)? Explain. q x r x b x ( ) ( ) ( ) \u0004 a x b x ( ) ( )",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2019/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "A radio station claims to its advertisers that the mean number of minutes commuters listen to the station is 30. The station conducted a survey of 500 of their listeners who commute. The sample statistics are shown below. A simulation was run 1000 times based upon the results of the survey. The results of the simulation appear below. Based on the simulation results, is the claim that commuters listen to the station on average 30 minutes plausible? Explain your response including an interval containing the middle 95% of the data, rounded to the nearest hundredth. samples = 1000 mean = 29.101 SD = 0.934 27.0 28.0 29.0 30.0 31.0 32.0 0 10 20 30 40 Time Frequency x _ 29.11 sx 20.718",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2019/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Solve the given equation algebraically for all values of x. \u0005 2x \u0003 \u00055 3",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2019/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Tony is evaluating his retirement savings. He currently has $318,000 in his account, which earns an interest rate of 7% compounded annually. He wants to determine how much he will have in the account in the future, even if he makes no additional contributions to the account. Write a function, A(t), to represent the amount of money that will be in his account in t years. Graph A(t) where 0 \u2264 t \u2264 20 on the set of axes below. A(t) t Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Question 37 Question 37 continued Tony\u2019s goal is to save $1,000,000. Determine algebraically, to the nearest year, how many years it will take for him to achieve his goal. Explain how your graph of A(t) Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0003 2.54 centimeters 1 kilometer \u0003 0.62 mile 1 cup \u0003 8 fluid ounces 1 meter \u0003 39.37 inches 1 pound \u0003 16 ounces 1 pint \u0003 2 cups 1 mile \u0003 5280 feet 1 pound \u0003 0.454 kilogram 1 quart \u0003 2 pints 1 mile \u0003 1760 yards 1 kilogram \u0003 2.2 pounds 1 gallon \u0003 4 quarts 1 mile \u0003 1.609 kilometers 1 ton \u0003 2000 pounds 1 gallon \u0003 3.785 liters 1 liter \u0003 0.264 gallon 1 liter \u0003 1000 cubic centimeters Triangle A \u0003 bh 1 2 Parallelogram A \u0003 bh Circle A \u0003 \u03c0r2 Circle C \u0003 \u03c0d or C \u0003 2\u03c0r General Prisms V \u0003 Bh Cylinder V \u0003 \u03c0r2h Sphere V \u0003 \u03c0r3 4 3 Cone V \u0003 \u03c0r2h 1 3 Pyramid V \u0003 Bh 1 3 Pythagorean Theorem a2 \u0004 b2 \u0003 c2 Quadratic Formula x \u0003 \u0005 \u0006 \u0005 b a b2 2 4ac Arithmetic Sequence an \u0003 a1 \u0004 (n \u0005 1)d Geometric Sequence an \u0003 a1r n \u0005 1 Geometric Series Sn \u0003 where r \u0007 1 a a r r n 1 1 1 \u0005 \u0005 Radians 1 radian \u0003 degrees 180 \u03c0 Degrees 1 degree \u0003 radians \u03c0 180 Exponential Growth/Decay A \u0003 A0ek(t \u0005 t0) \u0004 B0 Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2019/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

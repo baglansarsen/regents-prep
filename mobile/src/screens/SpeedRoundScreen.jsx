@@ -3,10 +3,11 @@ import { View, Text, TouchableOpacity, StyleSheet, Animated } from 'react-native
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
-import { useXP } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
-import { useDoubleXP } from '../context/DoubleXPContext'
+import { useDoubleRP } from '../context/DoubleRPContext'
 import { usePetContext } from '../context/PetContext'
+import { logActivity } from '../utils/activityLogger'
 
 const ROUND_SECONDS = 60
 const BASE_POINTS   = 50
@@ -23,9 +24,9 @@ export default function SpeedRoundScreen({ route, navigation }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
   const uid = user?.uid
-  const { xp, earnXP } = useXP(uid)
+  const { rp, earnRP } = useRP(uid)
   const { markStudied } = useDailyStreak(uid)
-  const { xpMultiplier } = useDoubleXP()
+  const { rpMultiplier } = useDoubleRP()
   const { checkAndEvolve, updateQuestProgress } = usePetContext()
 
   const [index,     setIndex]     = useState(0)
@@ -80,16 +81,22 @@ export default function SpeedRoundScreen({ route, navigation }) {
   function endRound() {
     clearInterval(timerRef.current)
     setPhase('done')
-    const xpEarned = Math.round(correct * 10 * xpMultiplier)
-    earnXP(correct * 10, xpMultiplier)
-    checkAndEvolve(xp + xpEarned)
+    const rpEarned = Math.round(correct * 10 * rpMultiplier)
+    earnRP(correct * 10, rpMultiplier)
+    checkAndEvolve(rp + rpEarned)
     markStudied()
     updateQuestProgress('complete_speedround')
+
+    // Log speed round activity
+    const pct = index > 0 ? Math.round((correct / index) * 100) : 0
+    logActivity(uid, 'speedround_complete', `Scored ${score} pts in Speed Round (${correct}/${index})`, {
+      score, correct, total: index, pct, rpEarned,
+    })
   }
 
   if (phase === 'done') {
     return (
-      <SafeAreaView style={s.safe}>
+      <SafeAreaView style={s.safe} edges={['bottom']}>
         <View style={s.doneScreen}>
           <Text style={s.doneEmoji}>⚡</Text>
           <Text style={s.doneTitle}>Speed Round Complete!</Text>
@@ -110,7 +117,7 @@ export default function SpeedRoundScreen({ route, navigation }) {
   const timerColor = timeLeft > 20 ? C.brand : timeLeft > 10 ? C.warn : C.wrong
 
   return (
-    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
+    <SafeAreaView style={s.safe} edges={['bottom']}>
       {/* Timer bar */}
       <View style={s.timerBg}>
         <Animated.View style={[s.timerFill, { width: `${timerPct * 100}%`, backgroundColor: timerColor }]} />

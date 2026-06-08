@@ -1,0 +1,22 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "leaderboard",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "tier",      "order": "ASCENDING" },
+        { "fieldPath": "weeklyXP",  "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "leaderboard",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "tier",        "order": "ASCENDING" },
+        { "fieldPath": "lastWeekKey", "order": "ASCENDING" },
+        { "fieldPath": "lastWeekXP",  "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

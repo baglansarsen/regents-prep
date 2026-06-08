@@ -5,6 +5,7 @@ import { PETS, STAGE_OVERLAYS } from '../data/petConfig'
 import { usePetAnimation } from '../hooks/usePetAnimation'
 import PET_SPRITES from '../assets/petSprites'
 import SpriteAnimation from './SpriteAnimation'
+import { hapticHeavy } from '../utils/haptics'
 
 const PARTICLE_POSITIONS = [
   { top: -10, left: 10  },
@@ -208,8 +209,13 @@ export default function PetWidget({ size = 120, onPress, onLongPress, mini = fal
     )
   }
 
+  function handleLongPress() {
+    hapticHeavy()
+    onLongPress?.()
+  }
+
   return (
-    <TouchableOpacity onPress={handleTap} onLongPress={onLongPress} activeOpacity={0.85} style={[s.container, { width: size * 1.6, height: size * 1.5 }]}>
+    <TouchableOpacity onPress={handleTap} onLongPress={handleLongPress} delayLongPress={300} activeOpacity={0.85} style={[s.container, { width: size * 1.6, height: size * 1.5 }]}>
 
       {/* Stage 4 particle effects */}
       {pet.stage >= 4 && PARTICLE_POSITIONS.map((pos, i) => (
@@ -261,9 +267,6 @@ export default function PetWidget({ size = 120, onPress, onLongPress, mini = fal
 
       {/* Pet name */}
       <Text style={s.petName}>{pet.name}</Text>
-
-      {/* Long-press hint */}
-      <Text style={s.shopHint}>hold for shop</Text>
 
       {/* Floating "+8 😊" feedback */}
       {floatText ? (

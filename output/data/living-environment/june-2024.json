@@ -1,0 +1,1106 @@
+{
+  "subject": "living-environment",
+  "session": "june-2024",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "In an animal cell, all of the organelles work together to carry out",
+      "choices": [
+        "photosynthesis",
+        "diffusion",
+        "metabolic processes",
+        "information storage"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "A colony of 47,000 quaking aspen trees, all connected by one root system, is considered to be Earth\u2019s most massive organism. When the trees are stressed, shoots are sent out from the roots and develop into new trees. Every new tree in this colony would contain",
+      "choices": [
+        "the same genetic information, because it is produced asexually",
+        "the same genetic information, because it is produced sexually",
+        "less genetic material, since it is produced from root cells",
+        "a different combination of genes, since it is produced from various roots"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Scientists have found that different tissues in the prostate gland, a male reproductive organ, respond to different hormones. The tissues in the center area of the gland respond to testosterone and the tissues in the outer area of the gland respond to estrogen. The cells that make up these two regions of the prostate are different in that",
+      "choices": [
+        "cells in the center area produce more estrogen than cells in the outer area",
+        "cells in the outer area have many testosterone receptors",
+        "they contain different receptors on their cell membranes",
+        "they contain different DNA sequences for the production of hormones"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "Energy transfers in a natural ecosystem are represented in the diagram below. Hawks Foxes Badgers Slugs Mice Beetles Rabbits Grasses Hedgehogs Small birds Which statement about this ecosystem is correct?",
+      "choices": [
+        "A reduction in the number of species present would most likely upset the stability of this ecosystem.",
+        "This ecosystem would not be affected if decomposers did not perform their function.",
+        "This ecosystem lacks producer organisms.",
+        "There are most likely more foxes than rabbits in this ecosystem."
+      ],
+      "image": "/images/exams/living-environment/june-2024/q4.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "The process of differentiation occurs when",
+      "choices": [
+        "two different cells, a sperm cell and an egg cell, combine to produce a zygote",
+        "different zygotes are formed each time that an egg and sperm unite",
+        "different kinds of cells and tissues form during embryonic development",
+        "two different sexes are present among the offspring, after sexual reproduction"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which two human systems work together to provide glucose for the cells of the body?",
+      "choices": [
+        "nervous and reproductive systems",
+        "nervous and respiratory systems",
+        "circulatory and digestive systems",
+        "circulatory and respiratory systems"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "The chart below includes structures found in a multicellular organism. Which row contains the structures that would be most numerous? Row Structures",
+      "choices": [
+        "organs",
+        "tissues",
+        "organelles",
+        "cells"
+      ],
+      "image": "/images/exams/living-environment/june-2024/q7.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Dioxin, a toxin associated with waste incineration and some plastics, has been found to directly disrupt normal gamete production in human females. Dioxin most likely affects the",
+      "choices": [
+        "testes and progesterone production",
+        "ovaries and estrogen production",
+        "DNA in the nuclei of sperm cells",
+        "pancreas and insulin production"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A gene present only in a single plant species was found to regulate protein content. This gene could increase the protein content of other food crops in the developing world. The most likely method that scientists would use to incorporate this gene into a variety of food crops is",
+      "choices": [
+        "genetic engineering",
+        "selective breeding",
+        "sexual reproduction between the plants with this gene and those without it",
+        "deletion of the genes that limit protein production from each individual food crop plant"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "A decrease in predators within an ecosystem would lead to an increase in herbivores. The increase in herbivores would cause a decrease in",
+      "choices": [
+        "decomposers",
+        "prey",
+        "consumers",
+        "producers"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "The lioness (female lion) and cub shown below have similar characteristics. Source: Kids Discover In order for some of the genetic information in the lioness to be present in the cub, the genetic information from the mother must have been",
+      "choices": [
+        "copied and present in the egg cell of the lioness",
+        "combined with genetic information from another lioness",
+        "contained in half of the DNA found in the sperm cells of the father",
+        "able to make enzymes to produce all of the carbohydrates found in the mother"
+      ],
+      "image": "/images/exams/living-environment/june-2024/q11.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Which statement best describes a critical function of the placenta?",
+      "choices": [
+        "Meiosis occurs in the placenta, allowing for the development and release of eggs.",
+        "Blood from the mother and fetus mixes at the placenta, providing nutrients and oxygen.",
+        "The placenta filters out all harmful toxins and chemicals from the mother\u2019s blood, so that they cannot reach the fetus.",
+        "The exchange of oxygen and carbon dioxide occurs between the mother and developing fetus across the placenta."
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Organisms maintain internal stability in a changing environment. To do this, they make a series of adjustments. The process of making these continual adjustments is referred to as",
+      "choices": [
+        "cellular respiration",
+        "active transport",
+        "natural selection",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "A species of octopus lives in the depths of the ocean where oxygen levels are low. These octopuses have specific proteins in their blood that allow for more efficient oxygen transport than in those that live in surface waters. Source: http://www.fisheat.it/octopus-octopus-vulgaris/ Which statement best explains the presence of these proteins in the octopuses living deep in the ocean?",
+      "choices": [
+        "Migration to warmer and shallower ocean water favored the formation of the specific proteins.",
+        "Octopuses that had the specific proteins were able to survive and reproduce in the deep water environment and passed the trait on to future generations.",
+        "When some octopuses migrated to a deeper environment, they needed to produce new proteins so that their blood could carry more oxygen.",
+        "Mutations occurred in the body cells of the octopuses, which resulted in the specific proteins being produced and passed on to their offspring."
+      ],
+      "image": "/images/exams/living-environment/june-2024/q14.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "Tissue engineering is being developed as a technology that would use laboratory-grown tissues to replace diseased or damaged human body parts, such as hearts and kidneys. In order to build these new body parts, scientists would start by",
+      "choices": [
+        "assembling molecules directly into tissues that can make body systems",
+        "making organelles and using the organelles to develop organs",
+        "engineering body systems in order to develop organelles for transplant",
+        "growing cells to develop tissues and then growing these tissues to form an organ"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "People with cystic fibrosis have decreased levels of some digestive enzymes in their small intestines. It is essential that they take enzyme supplements in order to prevent malnutrition. These enzymes are an important part of the digestive process because they",
+      "choices": [
+        "break down foods so that nutrients can be absorbed and used",
+        "contain vitamins and other nutrients necessary for a healthy diet",
+        "allow the person to synthesize large, inorganic nutrient molecules",
+        "are the building blocks of carbohydrates and other nutrient molecules"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "A reproductive cycle is illustrated below. Adults Zygotes Sperm Growth stages 2 1 3 Eggs Which statement about this reproductive cycle is correct?",
+      "choices": [
+        "Mutations that occur during processes 1 and 2 will not be passed on to offspring.",
+        "Exact copies of the parents are produced, which leads to a stable population.",
+        "Sorting and recombining of genes occurs, which leads to new genetic combinations.",
+        "The three processes result in offspring with half as much genetic information as the adults."
+      ],
+      "image": "/images/exams/living-environment/june-2024/q17.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Kidney-transplant surgery places a healthy kidney from one person into the body of another. The body will often produce substances that work against this transplanted organ. The system most directly involved in attacking the transplanted kidney is the",
+      "choices": [
+        "excretory system",
+        "nervous system",
+        "circulatory system",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "written",
+      "text": "An energy pyramid for a forest ecosystem is represented below. The four levels (A-D) represent different types of organisms in the ecosystem. D C B A Which numbered column in the chart below contains four terms that correctly identify the most likely types of organisms that could be found at each of the four levels in the pyramid? D C B A ( 1 ) carnivores heterotrophs producers herbivores ( 2 ) carnivores carnivores herbivores producers ( 3 ) heterotrophs autotrophs herbivores producers ( 4 ) producers carnivores herbivores heterotrophs Types of Organisms Pyramid Levels",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/q19.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The diagram below shows information about human body temperature regulation. Normal body temperature 36\u201338\u00b0C Body temperature gets too low Blood vessels in skin constrict, reducing heat loss Muscles begin shivering, generating heat Body temperature increases These events can be best described as an example of",
+      "choices": [
+        "a feedback mechanism that maintains homeostasis",
+        "a cycle that regulates cellular communication",
+        "an immune system response to increasing heart rate",
+        "a body system regulating hormone production"
+      ],
+      "image": "/images/exams/living-environment/june-2024/q20.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "The World Wildlife Federation\u2019s recent report indicated that there has been a 60% decline in the size of monitored wildlife populations in just over 40 years. The most likely factor contributing to this decline was",
+      "choices": [
+        "animals reproducing successfully",
+        "the destruction of many natural habitats",
+        "passing environmental protection laws",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "An Adirondack Mountain ecosystem is represented below. Source: https://www.exploringnature.org/db/view/1709 An abiotic factor in this ecosystem is the",
+      "choices": [
+        "pH of the soil where the trees grow",
+        "number of deer of reproductive age",
+        "different species of grass present",
+        "balance between predators and prey"
+      ],
+      "image": "/images/exams/living-environment/june-2024/q22.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "A partial food chain is represented below. Field mice Owls Grasses A student observed owls hunting mice in a field. Some chemicals from the waste products of the owls were made available to be absorbed by the roots of the grasses due to the action of",
+      "choices": [
+        "autotrophs",
+        "carnivores",
+        "herbivores",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2024/q23.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Which two terms are opposite processes?",
+      "choices": [
+        "autotrophic nutrition and photosynthesis",
+        "asexual reproduction and cloning",
+        "digestion and synthesis",
+        "natural selection and evolution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "multiple-choice",
+      "text": "Which human activity would most likely deplete finite resources?",
+      "choices": [
+        "recycling of aluminum and paper",
+        "protection of wildlife habitats",
+        "uncontrolled population growth",
+        "regulations that reduce industrial pollution"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "Macaques are a species of monkey. They normally reproduce sexually, but, in January 2018, scientists cloned two baby macaques from a single body cell. Source: https://www.sciencenews.org/article/baby- macaques-primates-clones-dolly-sheep These monkeys are genetically",
+      "choices": [
+        "identical to each other, but different from the donor of the body cell",
+        "different from each other, but identical to the donor of the body cell",
+        "identical to each other and to the donor of the body cell",
+        "different from each other and from the donor of the body cell"
+      ],
+      "image": "/images/exams/living-environment/june-2024/q26.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "multiple-choice",
+      "text": "Which event would most likely be the immediate result of significantly lowering the oxygen concentration in a freshwater lake?",
+      "choices": [
+        "a decrease in the number of fish",
+        "an increase in the number of plants",
+        "an increase in biodiversity",
+        "a decrease in water temperature"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "multiple-choice",
+      "text": "Scientists have modified papayas to be resistant to the papaya ringspot virus and to decrease the time that it takes for them to ripen. These modifications",
+      "choices": [
+        "may cause papayas to ripen too slowly, causing loss of revenue",
+        "are passed to any organism that eats them, making the organism resistant to the virus",
+        "are an example of using agricultural technologies to increase farm yields",
+        "could spread ringspot virus throughout the entire ecosystem"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "multiple-choice",
+      "text": "Vaccinated individuals are protected from disease because their bodies have been stimulated to",
+      "choices": [
+        "produce antibodies against specific pathogens",
+        "synthesize antigens against harmful microbes",
+        "make fewer white blood cells during infection",
+        "manufacture more enzymes to react to microbes"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "multiple-choice",
+      "text": "A species of predatory wasp is introduced to control an insect pest. A possible negative consequence of this action is that the new predatory wasp may",
+      "choices": [
+        "limit the population of the insect pest",
+        "prey on beneficial insects",
+        "disrupt mineral availability in the ecosystem",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "multiple-choice",
+      "text": "Based on the information given, which statement concerning the eating of fish and seafood is most accurate?",
+      "choices": [
+        "People should avoid eating seafood because the negative effects of the mercury in seafood are far worse than any benefits that eating seafood may provide. Even shrimp and tilapia contain high levels of mercury.",
+        "The normal development of a baby\u2019s nervous system requires that the mother be more concerned with eating enough seafood and less concerned with the side effects of higher levels of mercury on the child.",
+        "Eating certain selected species of seafood can provide health benefits without the negative effects of high mercury intake.",
+        "It is important that pregnant women eat a regular diet of seafood, including swordfish, halibut, and cod."
+      ],
+      "image": "/images/exams/living-environment/june-2024/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the information below and on your knowledge of biology.\nMercury Levels in Various Fish or Seafood Types\nIndustrialization has contributed to unsafe levels of mercury compounds building up in \naquatic ecosystems, including in the tissues of many predatory fish species. As a result, many \npeople have concerns about eating any seafood. The mercury, at relatively high levels, can \nbe especially harmful during development of a fetus and of young children. It can also affect \nadult health in various ways.\nHowever, seafood is also an important part of a healthy diet. The omega-3 fats in seafood \nare essential to the proper functioning of the circulatory system. They are also important for \noptimal development of a baby\u2019s brain and nervous system.\nThe table below contains data about mercury levels in several kinds of seafood.\nFish or Seafood Type\nMercury Content (ppm/oz.)\nSwordfish\n0.995\nKing mackerel\n0.73\nCod\n0.11\nTrout\n0.07\nHalibut\n0.024\nTilapia\n0.013\nShrimp\n0.009\nSource: Adapted from www.zmescience.com",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "multiple-choice",
+      "text": "Which statement is best supported by the information provided about the levels of mercury present in seafood?",
+      "choices": [
+        "Human activities do not affect mercury levels in fish species.",
+        "Future generations can be affected by choices made by past and present generations.",
+        "Fish that consume plants have the highest levels of mercury compounds.",
+        "If people stop eating fish, then the mercury levels in fish will decrease."
+      ],
+      "image": "/images/exams/living-environment/june-2024/context_31_32.png",
+      "context": "Base your answers to questions 31 and 32 on the information below and on your knowledge of biology.\nMercury Levels in Various Fish or Seafood Types\nIndustrialization has contributed to unsafe levels of mercury compounds building up in \naquatic ecosystems, including in the tissues of many predatory fish species. As a result, many \npeople have concerns about eating any seafood. The mercury, at relatively high levels, can \nbe especially harmful during development of a fetus and of young children. It can also affect \nadult health in various ways.\nHowever, seafood is also an important part of a healthy diet. The omega-3 fats in seafood \nare essential to the proper functioning of the circulatory system. They are also important for \noptimal development of a baby\u2019s brain and nervous system.\nThe table below contains data about mercury levels in several kinds of seafood.\nFish or Seafood Type\nMercury Content (ppm/oz.)\nSwordfish\n0.995\nKing mackerel\n0.73\nCod\n0.11\nTrout\n0.07\nHalibut\n0.024\nTilapia\n0.013\nShrimp\n0.009\nSource: Adapted from www.zmescience.com",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "multiple-choice",
+      "text": "Grasshopper mice feed on bark scorpions, but, unlike other mice, grasshopper mice are unaffected by the painful venom of the scorpion. Scientists have determined that these mice have one amino acid difference in their pain receptors, which causes the receptor to function differently and prevents feeling the pain associated with the scorpion venom. This change in protein function was originally caused by a change in",
+      "choices": [
+        "molecular bases located in the nucleus",
+        "fat molecules in the cell membrane",
+        "the amino acids in the DNA",
+        "the genes located in the protein"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "multiple-choice",
+      "text": "Certain organisms living deep in the ocean can obtain energy from inorganic compounds that flow out of volcanic vents. They can use this energy to synthesize energy-rich organic compounds. Which row in the chart below correctly pairs an organism that performs a similar function in land environ\u00ad ments with the process involved? Row Organism Process",
+      "choices": [
+        "small mammal respiration",
+        "grasses photosynthesis",
+        "small mammal photosynthesis",
+        "grasses respiration"
+      ],
+      "image": "/images/exams/living-environment/june-2024/q34.png",
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "multiple-choice",
+      "text": "Scientists are concerned about the decreasing numbers in the populations of Atlantic salmon along the east coast of North America due to overfishing and changes in their breeding environments. Some businesses have developed farm-raised populations of certain varieties of salmon. Large, farm-raised populations have a limited genetic diversity as compared to wild-caught salmon. Which row in the chart below correctly pairs possible effects of fish farming? Row Negative Effect of Fish Farming Positive Effect of Fish Farming",
+      "choices": [
+        "Loss of biodiversity among farmed fish Increased sales of fish, a food source",
+        "Increased sales of fish, a food source Limited genetic diversity in salmon population",
+        "Loss of biodiversity in wild fish Decreased population size",
+        "Increased biodiversity Increased population size"
+      ],
+      "image": "/images/exams/living-environment/june-2024/q35.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "DNA studies have shown that bears and raccoons evolved from a common ancestor about 50 million years ago. Giant pandas evolved from a more recent ancestor that was related to bears. The red panda evolved from a more recent ancestor that was related to raccoons. Which evolutionary tree best represents these sequences of events? raccoon red panda giant panda bear ( 1 ) giant panda raccoon red panda bear ( 4 ) bear red panda giant panda ( 3 ) raccoon red panda giant panda raccoon ( 2 )",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "multiple-choice",
+      "text": "Researchers studying water fleas (tiny organisms that live in fresh water) have noticed that the appearance of the water flea follows a pattern, as seen in the table below. Type of predator found in water flea environment No predator Stickleback fish Backswimmer bug Water flea appearance (Not drawn to scale) The Effect of Predator Type on Water Flea Appearance Source: https://www.livescience.com/55297-how-water-fleas-grow-body-armor.html If all three water fleas are genetically identical, which statement best explains why the three water fleas have different appearances?",
+      "choices": [
+        "Random alterations of genes occur in water fleas when they eat different foods.",
+        "Predators in the water flea\u2019s environment cause mutations in the water flea.",
+        "Genes are not involved in the appearance of these water fleas.",
+        "Water flea gene expression can be influenced by the type of predator present in their environment."
+      ],
+      "image": "/images/exams/living-environment/june-2024/q37.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 38,
+      "type": "multiple-choice",
+      "text": "The discovery that humans can inherit mitochondria from their fathers illustrates the concept that",
+      "choices": [
+        "inquiry does not judge the reliability of sources",
+        "experiments without controls are not valid",
+        "scientific explanations are tentative and subject to change",
+        "advancements in technology usually make scientific theories invalid"
+      ],
+      "image": null,
+      "context": "Base your answers to questions 38 and 39 on the information below and on your knowledge of biology.\nMitochondria Inherited from Father\nIt was widely accepted that humans inherit their mitochondria only from their mothers. \nIn 2002, an individual suffering from fatigue and muscle pain was found to have a mutation \nin his mitochondrial DNA. DNA sequencing of family members revealed that he had \ninherited the mutated mitochondria from his father. Since 2002, evidence of additional cases \nof children inheriting mitochondrial mutations from their fathers has been found.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 39,
+      "type": "multiple-choice",
+      "text": "The most likely explanation for why children who inherited mutated mitochondria suffer fatigue and muscle pain is that their mitochondria fail to",
+      "choices": [
+        "provide the antigens needed to fight the mutated DNA",
+        "regulate the transport of nutrients to the muscle cells",
+        "synthesize the starch needed by the muscles",
+        ""
+      ],
+      "image": null,
+      "context": "Base your answers to questions 38 and 39 on the information below and on your knowledge of biology.\nMitochondria Inherited from Father\nIt was widely accepted that humans inherit their mitochondria only from their mothers. \nIn 2002, an individual suffering from fatigue and muscle pain was found to have a mutation \nin his mitochondrial DNA. DNA sequencing of family members revealed that he had \ninherited the mutated mitochondria from his father. Since 2002, evidence of additional cases \nof children inheriting mitochondrial mutations from their fathers has been found.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 40,
+      "type": "multiple-choice",
+      "text": "Which statement best describes a likely cause for the changes that might exist in the present python population?",
+      "choices": [
+        "The python species needed cold-tolerant genes, and they appeared in 2010 by rapid mutation.",
+        "The freeze event served as a selecting agent, and a higher percentage of the pythons existing today are cold-tolerant.",
+        "Many individual pythons were unable to reproduce during the freeze event and did not pass on their cold-tolerant genes.",
+        "There was no actual change in the population, and if a similar freeze event occurred again, 40-90% of the snakes would die."
+      ],
+      "image": "/images/exams/living-environment/june-2024/context_40_41.png",
+      "context": "Base your answers to questions 40 and 41 on the information and photo below and on your knowledge of \nbiology.\nBurmese pythons are an invasive species in the Everglades National Park. In 2010, \nthere was a rare \u201chard freeze,\u201d which residents hoped would eliminate these pests that were \noriginally from very warm areas in Asia. Roughly 40% to 90% of the pythons were killed \nby the freeze event. Since not all of the pythons were killed during the freeze event, the \nmembers of the current large python population in the Everglades might differ from the \nmembers of the python population from before 2010.\nSource: Associated Press, August 18, 2017",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 41,
+      "type": "multiple-choice",
+      "text": "Pythons in their native habitat often eat a large animal and then do not feed again for weeks. In the Florida Everglades, food sources are often small mammals and birds. The current large python population in Florida can be described as a species that",
+      "choices": [
+        "will quickly die out because there are no appropriate food sources in their environment",
+        "will develop new digestive organs as needed to succeed in the Florida Everglades",
+        "has expanded only because small animals reproduce so quickly that they provide an unlimited food source",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2024/context_40_41.png",
+      "context": "Base your answers to questions 40 and 41 on the information and photo below and on your knowledge of \nbiology.\nBurmese pythons are an invasive species in the Everglades National Park. In 2010, \nthere was a rare \u201chard freeze,\u201d which residents hoped would eliminate these pests that were \noriginally from very warm areas in Asia. Roughly 40% to 90% of the pythons were killed \nby the freeze event. Since not all of the pythons were killed during the freeze event, the \nmembers of the current large python population in the Everglades might differ from the \nmembers of the python population from before 2010.\nSource: Associated Press, August 18, 2017",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 42,
+      "type": "multiple-choice",
+      "text": "Recently, new regulations have been adopted that affect the trapping of fishers. Which action would probably result in an increase in the fisher population?",
+      "choices": [
+        "removing all regulations regarding fisher trapping",
+        "increasing the area where fisher trapping is allowed",
+        "changing the fisher trapping season from 46 to 30 days",
+        "decreasing the cost of the permit needed for fisher trapping"
+      ],
+      "image": "/images/exams/living-environment/june-2024/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the information and photo below and on your knowledge of \nbiology.\nFishers\nFishers are mammals that prefer to live in forested areas. The fisher feeds on acorns, \nberries, and apples, as well as on smaller mammals and birds. They are one of the few \norganisms that are successful in killing and eating porcupines. Porcupines are large rodents \nthat have sharp spines, or quills, that cover most of their body. The fisher has no natural \nenemies. Most fisher deaths are due to automobiles and trapping. The population has also \nbeen negatively affected by logging and road-building.\nSource: www.massaudubon.org",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 43,
+      "type": "multiple-choice",
+      "text": "Humans have negatively affected the ecosystem that fishers occupy. An altered or changed ecosystem can",
+      "choices": [
+        "never recover or become stable again",
+        "usually recover gradually to a point of long-term stability",
+        "never recover unless there is a decrease in biodiversity",
+        ""
+      ],
+      "image": "/images/exams/living-environment/june-2024/context_42_43.png",
+      "context": "Base your answers to questions 42 and 43 on the information and photo below and on your knowledge of \nbiology.\nFishers\nFishers are mammals that prefer to live in forested areas. The fisher feeds on acorns, \nberries, and apples, as well as on smaller mammals and birds. They are one of the few \norganisms that are successful in killing and eating porcupines. Porcupines are large rodents \nthat have sharp spines, or quills, that cover most of their body. The fisher has no natural \nenemies. Most fisher deaths are due to automobiles and trapping. The population has also \nbeen negatively affected by logging and road-building.\nSource: www.massaudubon.org",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 44,
+      "type": "written",
+      "text": "Mark an appropriate scale on the axis labeled \u201cPercent of Monarch Larvae Infected.\u201d",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information below and on your knowledge of biology.\nMonarch Butterfly Parasites\nMonarch butterflies are in trouble! Their populations have been declining quickly in \nrecent years due to several factors, including habitat loss, climate change, and infection by \nparasites.\nTo investigate ways to reduce this decline, some scientists studied a parasite that often \ninfects and weakens monarch larvae (caterpillars). The larvae ingest parasite spores as they \nfeed on milkweed plants. Once in the intestinal tract of the caterpillar, some of the spores \ncan infect the cells of the intestine and reproduce.\nThe scientists collected samples of the parasite from four areas of North America where \nmonarchs live. They found four different variations in the parasites. Scientists cloned each \nof the four variations of parasites in order to have enough to test with the monarch larvae.\nMonarch larvae feed exclusively on milkweed plants. Two types of milkweed monarchs \nfeed on are swamp milkweed (SM) and tropical milkweed (TM). Both kinds of plants contain \nchemicals known as cardenolides, but tropical milkweed has higher levels of these chemicals. \nThese chemicals are absorbed into the tissues of the larvae as they feed on milkweed. The \ncardenolides give the larvae some resistance to infection by the parasites.\nThe scientists conducted experiments to determine how the harm caused by these \nparasites may be affected by the amounts of cardenolides in the two kinds of milkweed.\nThe monarch larvae were divided into groups. Each of the groups was fed one of the \ntwo types of milkweed and then exposed to one of the four parasite clones: E-1, E-11, F-3, \nor F-13.\nThe overall purpose of the testing was to determine whether it was the type of parasite \nclone or the type of plant that the larvae were fed that would have the greatest effect on the \npercent of caterpillars that became infected.\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment\u2013June \u201924\t\n[14]\nThe data table below shows the results obtained by the scientists.\nInfections Based on Type of Food Plant and Parasite Clone\nParasite Clone to Which \nLarvae were Exposed\nPercent of Larvae Feeding \non Tropical Milkweed (TM) \nthat Became Infected\nPercent of Larvae Feeding\non Swamp Milkweed (SM)\nthat Became Infected\nE-1\n83\n100\nE-11\n88\n92\nF-3\n75\n100\nF-13\n86\n100\nDirections (44\u201345): Using the information in the data table, construct a bar graph on the grid provided,\nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for marking an appropriate scale on the axis labeled \u201cPercent of Monarchs Infected.\u201d"
+    },
+    {
+      "number": 45,
+      "type": "written",
+      "text": "Construct a bar graph following the directions below. \u2022 Construct vertical bars in the area provided on the grid to represent the results for each parasite clone for the larvae that were fed tropical milkweed (TM) in the areas marked TM. Shade the TM bars in black, as shown: \u2022 Construct vertical bars in the area provided on the grid to represent the results for each parasite clone for the larvae that were fed swamp milkweed (SM) in the areas marked SM. Shade the SM bars with diagonal lines, as shown: 44\u201345 TM SM Clone E-11 TM SM Clone F-3 TM SM Clone F-13 TM SM Clone E-1 Percent of Monarch Larvae Infected Infections Based on Type of Food Plant and Parasite Clone Fed Tropical Milkweed (TM): Key Fed Swamp Milkweed (SM):",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information below and on your knowledge of biology.\nMonarch Butterfly Parasites\nMonarch butterflies are in trouble! Their populations have been declining quickly in \nrecent years due to several factors, including habitat loss, climate change, and infection by \nparasites.\nTo investigate ways to reduce this decline, some scientists studied a parasite that often \ninfects and weakens monarch larvae (caterpillars). The larvae ingest parasite spores as they \nfeed on milkweed plants. Once in the intestinal tract of the caterpillar, some of the spores \ncan infect the cells of the intestine and reproduce.\nThe scientists collected samples of the parasite from four areas of North America where \nmonarchs live. They found four different variations in the parasites. Scientists cloned each \nof the four variations of parasites in order to have enough to test with the monarch larvae.\nMonarch larvae feed exclusively on milkweed plants. Two types of milkweed monarchs \nfeed on are swamp milkweed (SM) and tropical milkweed (TM). Both kinds of plants contain \nchemicals known as cardenolides, but tropical milkweed has higher levels of these chemicals. \nThese chemicals are absorbed into the tissues of the larvae as they feed on milkweed. The \ncardenolides give the larvae some resistance to infection by the parasites.\nThe scientists conducted experiments to determine how the harm caused by these \nparasites may be affected by the amounts of cardenolides in the two kinds of milkweed.\nThe monarch larvae were divided into groups. Each of the groups was fed one of the \ntwo types of milkweed and then exposed to one of the four parasite clones: E-1, E-11, F-3, \nor F-13.\nThe overall purpose of the testing was to determine whether it was the type of parasite \nclone or the type of plant that the larvae were fed that would have the greatest effect on the \npercent of caterpillars that became infected.\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment\u2013June \u201924\t\n[14]\nThe data table below shows the results obtained by the scientists.\nInfections Based on Type of Food Plant and Parasite Clone\nParasite Clone to Which \nLarvae were Exposed\nPercent of Larvae Feeding \non Tropical Milkweed (TM) \nthat Became Infected\nPercent of Larvae Feeding\non Swamp Milkweed (SM)\nthat Became Infected\nE-1\n83\n100\nE-11\n88\n92\nF-3\n75\n100\nF-13\n86\n100\nDirections (44\u201345): Using the information in the data table, construct a bar graph on the grid provided,\nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for constructing vertical bars to represent the results for each parasite clone for the larvae grown on the two types of milkweed plants. Example of a 2-credit graph for questions 44-45: TM SM Clone E-11 TM SM Clone F-3 TM SM Clone F-13 TM SM Clone E-1 Percent of Monarch Larvae Infected Infections Based on Type of Food Plant and Parasite Clone Fed Tropical Milkweed (TM): Key Fed Swamp Milkweed (SM): Parasite Clones 0 100 90 80 70 60 50 40 30 20 10 Note: Allow credit if the correct data are clearly represented, even if the bars are not shaded in. An appropriate scale only needs to include the data range in the data table."
+    },
+    {
+      "number": 46,
+      "type": "written",
+      "text": "State whether the types of milkweed that the larvae were fed made a difference in whether or not the larvae became infected. Support your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information below and on your knowledge of biology.\nMonarch Butterfly Parasites\nMonarch butterflies are in trouble! Their populations have been declining quickly in \nrecent years due to several factors, including habitat loss, climate change, and infection by \nparasites.\nTo investigate ways to reduce this decline, some scientists studied a parasite that often \ninfects and weakens monarch larvae (caterpillars). The larvae ingest parasite spores as they \nfeed on milkweed plants. Once in the intestinal tract of the caterpillar, some of the spores \ncan infect the cells of the intestine and reproduce.\nThe scientists collected samples of the parasite from four areas of North America where \nmonarchs live. They found four different variations in the parasites. Scientists cloned each \nof the four variations of parasites in order to have enough to test with the monarch larvae.\nMonarch larvae feed exclusively on milkweed plants. Two types of milkweed monarchs \nfeed on are swamp milkweed (SM) and tropical milkweed (TM). Both kinds of plants contain \nchemicals known as cardenolides, but tropical milkweed has higher levels of these chemicals. \nThese chemicals are absorbed into the tissues of the larvae as they feed on milkweed. The \ncardenolides give the larvae some resistance to infection by the parasites.\nThe scientists conducted experiments to determine how the harm caused by these \nparasites may be affected by the amounts of cardenolides in the two kinds of milkweed.\nThe monarch larvae were divided into groups. Each of the groups was fed one of the \ntwo types of milkweed and then exposed to one of the four parasite clones: E-1, E-11, F-3, \nor F-13.\nThe overall purpose of the testing was to determine whether it was the type of parasite \nclone or the type of plant that the larvae were fed that would have the greatest effect on the \npercent of caterpillars that became infected.\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment\u2013June \u201924\t\n[14]\nThe data table below shows the results obtained by the scientists.\nInfections Based on Type of Food Plant and Parasite Clone\nParasite Clone to Which \nLarvae were Exposed\nPercent of Larvae Feeding \non Tropical Milkweed (TM) \nthat Became Infected\nPercent of Larvae Feeding\non Swamp Milkweed (SM)\nthat Became Infected\nE-1\n83\n100\nE-11\n88\n92\nF-3\n75\n100\nF-13\n86\n100\nDirections (44\u201345): Using the information in the data table, construct a bar graph on the grid provided,\nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for stating whether the types of milkweed that the larvae were fed made a difference in whether or not the larvae became infected and supporting the answer. Acceptable responses include, but are not limited to: \u2014 The larvae that ate swamp milkweed (SM) almost all became infected while those that ate the tropical milkweed (TM) had lower infection rates overall. \u2014 Nearly all of the larvae that fed on swamp milkweed became infected, only 75% to 88% of those that ate the tropical milkweed were infected. \u2014 The different types of milkweed did not make a large difference because the range was not significant/large. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 47,
+      "type": "multiple-choice",
+      "text": "Which row in the chart below correctly identifies the average percent of infection of the larvae that ate tropical milkweed and the average percent of infection of the larvae that ate swamp milkweed? Row Average Percent Infected that Ate Tropical Milkweed (TM) Average Percent Infected that Ate Swamp Milkweed (SM)",
+      "choices": [
+        "75 92",
+        "88 100",
+        "83 98",
+        "98 83"
+      ],
+      "image": "/images/exams/living-environment/june-2024/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information below and on your knowledge of biology.\nMonarch Butterfly Parasites\nMonarch butterflies are in trouble! Their populations have been declining quickly in \nrecent years due to several factors, including habitat loss, climate change, and infection by \nparasites.\nTo investigate ways to reduce this decline, some scientists studied a parasite that often \ninfects and weakens monarch larvae (caterpillars). The larvae ingest parasite spores as they \nfeed on milkweed plants. Once in the intestinal tract of the caterpillar, some of the spores \ncan infect the cells of the intestine and reproduce.\nThe scientists collected samples of the parasite from four areas of North America where \nmonarchs live. They found four different variations in the parasites. Scientists cloned each \nof the four variations of parasites in order to have enough to test with the monarch larvae.\nMonarch larvae feed exclusively on milkweed plants. Two types of milkweed monarchs \nfeed on are swamp milkweed (SM) and tropical milkweed (TM). Both kinds of plants contain \nchemicals known as cardenolides, but tropical milkweed has higher levels of these chemicals. \nThese chemicals are absorbed into the tissues of the larvae as they feed on milkweed. The \ncardenolides give the larvae some resistance to infection by the parasites.\nThe scientists conducted experiments to determine how the harm caused by these \nparasites may be affected by the amounts of cardenolides in the two kinds of milkweed.\nThe monarch larvae were divided into groups. Each of the groups was fed one of the \ntwo types of milkweed and then exposed to one of the four parasite clones: E-1, E-11, F-3, \nor F-13.\nThe overall purpose of the testing was to determine whether it was the type of parasite \nclone or the type of plant that the larvae were fed that would have the greatest effect on the \npercent of caterpillars that became infected.\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment\u2013June \u201924\t\n[14]\nThe data table below shows the results obtained by the scientists.\nInfections Based on Type of Food Plant and Parasite Clone\nParasite Clone to Which \nLarvae were Exposed\nPercent of Larvae Feeding \non Tropical Milkweed (TM) \nthat Became Infected\nPercent of Larvae Feeding\non Swamp Milkweed (SM)\nthat Became Infected\nE-1\n83\n100\nE-11\n88\n92\nF-3\n75\n100\nF-13\n86\n100\nDirections (44\u201345): Using the information in the data table, construct a bar graph on the grid provided,\nfollowing the directions below.",
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 48,
+      "type": "written",
+      "text": "Describe how the results of the experiment might have been different if very few spores of parasite clone F-13 were placed on the milkweed leaves,",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_44_48.png",
+      "context": "Base your answers to questions 44 through 48 on the information below and on your knowledge of biology.\nMonarch Butterfly Parasites\nMonarch butterflies are in trouble! Their populations have been declining quickly in \nrecent years due to several factors, including habitat loss, climate change, and infection by \nparasites.\nTo investigate ways to reduce this decline, some scientists studied a parasite that often \ninfects and weakens monarch larvae (caterpillars). The larvae ingest parasite spores as they \nfeed on milkweed plants. Once in the intestinal tract of the caterpillar, some of the spores \ncan infect the cells of the intestine and reproduce.\nThe scientists collected samples of the parasite from four areas of North America where \nmonarchs live. They found four different variations in the parasites. Scientists cloned each \nof the four variations of parasites in order to have enough to test with the monarch larvae.\nMonarch larvae feed exclusively on milkweed plants. Two types of milkweed monarchs \nfeed on are swamp milkweed (SM) and tropical milkweed (TM). Both kinds of plants contain \nchemicals known as cardenolides, but tropical milkweed has higher levels of these chemicals. \nThese chemicals are absorbed into the tissues of the larvae as they feed on milkweed. The \ncardenolides give the larvae some resistance to infection by the parasites.\nThe scientists conducted experiments to determine how the harm caused by these \nparasites may be affected by the amounts of cardenolides in the two kinds of milkweed.\nThe monarch larvae were divided into groups. Each of the groups was fed one of the \ntwo types of milkweed and then exposed to one of the four parasite clones: E-1, E-11, F-3, \nor F-13.\nThe overall purpose of the testing was to determine whether it was the type of parasite \nclone or the type of plant that the larvae were fed that would have the greatest effect on the \npercent of caterpillars that became infected.\nPart B\u200a\u20132\nAnswer all questions in this part.     [12]\nDirections (44\u201355): For those questions that are multiple choice, record on the separate answer sheet \nthe number of the choice that, of those given, best completes each statement or answers each question. For all \nother questions in this part, follow the directions given and record your answers in the spaces provided in this \nexamination booklet.\n\nLiving Environment\u2013June \u201924\t\n[14]\nThe data table below shows the results obtained by the scientists.\nInfections Based on Type of Food Plant and Parasite Clone\nParasite Clone to Which \nLarvae were Exposed\nPercent of Larvae Feeding \non Tropical Milkweed (TM) \nthat Became Infected\nPercent of Larvae Feeding\non Swamp Milkweed (SM)\nthat Became Infected\nE-1\n83\n100\nE-11\n88\n92\nF-3\n75\n100\nF-13\n86\n100\nDirections (44\u201345): Using the information in the data table, construct a bar graph on the grid provided,\nfollowing the directions below.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Fewer larvae in that group would have been infected, since they may not have ingested any spores. \u2014 It would look like the F-13 clones were less able to infect the larvae because some larvae may not have eaten the spores. \u2014 There would be fewer larvae infected by the F-13 clones than by the other three clones, since there was less chance that they would eat any of the spores as they fed on the milkweed leaves. \u2014 The larvae may not have eaten enough of the spores of clone F-13 to get infected. \u2014 If only a few spores are needed for infection, there may be no change. 49 2 50 2"
+    },
+    {
+      "number": 49,
+      "type": "multiple-choice",
+      "text": "A wood frog\u2019s body systems\u2019 responses to ice crystals touching it in winter and to the conditions in the spring can best be explained by",
+      "choices": [
+        "the differentiation of mature body cells during development",
+        "a response of their cells to changing environmental conditions",
+        "the enzymatic breakdown of water as the frog freezes",
+        "a response of the immune system to excess sugar levels"
+      ],
+      "image": "/images/exams/living-environment/june-2024/context_49_51.png",
+      "context": "Base your answers to questions 49 through 51 on the information below and on your knowledge of biology.\nFrogsicles: Frozen but Still Alive\nThe wood frog has the amazing ability to survive winter in a frozen state. Ice crystals \ntouching the frog can trigger the freezing of its body fluids. Most of the water moves out \nof their cells and into body cavities, where it turns into solid ice. Their cells are protected \nfrom dehydration and frostbite by the antifreezing effect of their cells absorbing extremely \nhigh concentrations of sugar. When these frogs freeze, they stop breathing, their heart stops \nbeating, and they enter a state of dormancy that can last several months. In spring, the frogs \nthaw, and the excess sugar moves out of their cells. The frogs resume normal activities in less \nthan 24 hours.\nSource: https://www.anchoragepress.com/\n\t\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 50,
+      "type": "multiple-choice",
+      "text": "Which scientific question could lead to an investigation to help determine the stimulus that causes wood frogs to thaw in the spring?",
+      "choices": [
+        "Do the frogs thaw if the air temperature remains below freezing all winter?",
+        "Does the changing length of daylight or warming cause the frogs to thaw?",
+        "Do the frogs get hungry when they are frozen?",
+        "Does the weight of the frog change after they freeze?"
+      ],
+      "image": "/images/exams/living-environment/june-2024/context_49_51.png",
+      "context": "Base your answers to questions 49 through 51 on the information below and on your knowledge of biology.\nFrogsicles: Frozen but Still Alive\nThe wood frog has the amazing ability to survive winter in a frozen state. Ice crystals \ntouching the frog can trigger the freezing of its body fluids. Most of the water moves out \nof their cells and into body cavities, where it turns into solid ice. Their cells are protected \nfrom dehydration and frostbite by the antifreezing effect of their cells absorbing extremely \nhigh concentrations of sugar. When these frogs freeze, they stop breathing, their heart stops \nbeating, and they enter a state of dormancy that can last several months. In spring, the frogs \nthaw, and the excess sugar moves out of their cells. The frogs resume normal activities in less \nthan 24 hours.\nSource: https://www.anchoragepress.com/\n\t\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 51,
+      "type": "written",
+      "text": "51",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_49_51.png",
+      "context": "Base your answers to questions 49 through 51 on the information below and on your knowledge of biology.\nFrogsicles: Frozen but Still Alive\nThe wood frog has the amazing ability to survive winter in a frozen state. Ice crystals \ntouching the frog can trigger the freezing of its body fluids. Most of the water moves out \nof their cells and into body cavities, where it turns into solid ice. Their cells are protected \nfrom dehydration and frostbite by the antifreezing effect of their cells absorbing extremely \nhigh concentrations of sugar. When these frogs freeze, they stop breathing, their heart stops \nbeating, and they enter a state of dormancy that can last several months. In spring, the frogs \nthaw, and the excess sugar moves out of their cells. The frogs resume normal activities in less \nthan 24 hours.\nSource: https://www.anchoragepress.com/\n\t\nNote: The answer to question 49 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying one structure in the cells of these frogs that plays a role in the rapid removal of water and absorption of high concentrations of sugar and justifying the answer. Acceptable responses include, but are not limited to: \u2014 cell membrane, because it is responsible for the transport of substances into and out of the cell \u2014 cell membrane, because diffusion and active transport take place there \u2014 cell membrane, because it controls which molecules enter and leave the cell \u2014 mitochondria, because they provide the ATP/energy for active transport"
+    },
+    {
+      "number": 52,
+      "type": "written",
+      "text": "A cellular process that produces sex cells in fruit flies is represented in the diagram below. Cell with 8 chromosomes Sex cells Based on the information in the diagram, how many chromosomes will be present in each of the sex cells of the fruit fly? ______________ chromosomes",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/q52.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for 4."
+    },
+    {
+      "number": 53,
+      "type": "written",
+      "text": "The model below represents the reproductive system of human females. B A A Describe the roles of structures A and B in the production of offspring. A: B:",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/q53.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Structure A produces the egg/gamete and structure B provides a place for the embryo/fetus to develop. \u2014 A: produce eggs B: where fetus develops \u2014 A: produces hormones B: where the placenta forms Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 54,
+      "type": "written",
+      "text": "Describe the results that the student would most likely obtain if he ran the same experiment again but placed the test tubes in a hot water bath at 65\u00b0C for 15 minutes. Justify your answer.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nA student placed four different test tubes in a water bath at 37\u00b0C, human body \ntemperature. The contents of the test tubes are listed below. Two of them contain a human \nenzyme.\nTest Tube\nContents\n1\nground meat, water, protein-digesting enzyme\n2\nbread, water, starch-digesting enzyme\n3\nground meat, water\n4\nbread, water\nAfter 15 minutes, the student tested the contents of each tube for the presence of both \namino acids and glucose. He obtained the results shown in the table below.\nTest Tube Number\nIndicator for Amino Acids\nIndicator for Glucose\n1\npositive\nnegative\n2\nnegative\npositive\n3\nnegative\nnegative\n4\nnegative\nnegative",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for describing the results that the student would most likely obtain if he ran the same experiment again but placed the test tubes in a hot water bath kept at 65\u00b0C for 15 minutes and supporting the answer. Acceptable responses include, but are not limited to: \u2014 All of the results would be negative. The increased temperature would most likely destroy/denature the enzymes. \u2014 There would be no positive results. Since the enzymes worked at human body temperature, 65\u00b0C would most likely change the shape of the enzymes so that they would not break down the proteins in the meat or the starch in the bread."
+    },
+    {
+      "number": 55,
+      "type": "written",
+      "text": "Identify the purpose of Test Tubes 3 and 4",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_54_55.png",
+      "context": "Base your answers to questions 54 and 55 on the information below and on your knowledge of biology.\nA student placed four different test tubes in a water bath at 37\u00b0C, human body \ntemperature. The contents of the test tubes are listed below. Two of them contain a human \nenzyme.\nTest Tube\nContents\n1\nground meat, water, protein-digesting enzyme\n2\nbread, water, starch-digesting enzyme\n3\nground meat, water\n4\nbread, water\nAfter 15 minutes, the student tested the contents of each tube for the presence of both \namino acids and glucose. He obtained the results shown in the table below.\nTest Tube Number\nIndicator for Amino Acids\nIndicator for Glucose\n1\npositive\nnegative\n2\nnegative\npositive\n3\nnegative\nnegative\n4\nnegative\nnegative",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for control/comparison and supporting the answer. Acceptable responses include, but are not limited to: \u2014 Test Tubes 3 and 4 are controls. There were no enzymes in these two test tubes. \u2014 Test Tubes 3 and 4 were used as a comparison. They were used to prove that enzymes were needed to digest the food. \u2014 Test Tubes 3 and 4 would show that enzymes were necessary to break down the proteins in the meat and the starch in the bread. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 56,
+      "type": "written",
+      "text": "Identify the source of energy for an ecosystem and describe how it is transferred from one level in the system to the next. The chart below is a summary of the net number of atoms in the molecules used and produced during the process of photosynthesis. Type of Atom Number of Atoms in the Molecules Used for Photosynthesis Number of Atoms in the Molecules Produced by Photosynthesis Carbon (C) 6 6 Hydrogen (H) 12 12 Oxygen (O) 18 18",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_56_57.png",
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nThe process of photosynthesis is responsible for providing the energy necessary to sustain \nmost ecosystems on Earth. The flow of energy in an ecosystem is represented in the diagram \nbelow.\nLevel A\nLevel D\nLevel C\nLevel B\nEnergy Flow",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The Sun provides energy for producers to carry out photosynthesis to make sugar. When organisms are eaten, some of the chemical energy in the sugar molecules is transferred to the next level. \u2014 The Sun\u2019s energy is converted into chemical energy by photosynthesis. When consumers eat other organisms, the energy is transferred through the food web. \u2014 The Sun provides the energy, and some of it is passed from organism to organism as they feed on each other."
+    },
+    {
+      "number": 57,
+      "type": "written",
+      "text": "A student claimed that there is no gain or loss of matter during photosynthesis. Provide evidence from the data to support this claim.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_56_57.png",
+      "context": "Base your answers to questions 56 and 57 on the information below and on your knowledge of biology.\nThe process of photosynthesis is responsible for providing the energy necessary to sustain \nmost ecosystems on Earth. The flow of energy in an ecosystem is represented in the diagram \nbelow.\nLevel A\nLevel D\nLevel C\nLevel B\nEnergy Flow",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for claiming that there is no gain or loss of matter during photosynthesis and providing evidence from the data to support the claim. Acceptable responses include, but are not limited to: \u2014 According to the chart, the number of atoms in the molecules used during photosynthesis is the same as the number of atoms in the molecules produced by the process. \u2014 The amount of carbon, hydrogen, and oxygen is the same going into the reaction and coming out of the reaction."
+    },
+    {
+      "number": 58,
+      "type": "written",
+      "text": "State one reason that the zebra mussels could successfully spread throughout the rivers and lakes in the U.S.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the information and charts below and on your knowledge \nof biology.\nHudson River Zebra Mussels\nResearchers have been monitoring the effects of zebra mussels in the Hudson River. \nZebra mussels are small, aquatic, clam-like animals that arrived in the United States in cargo \nships traveling from Europe to the Great Lakes in the 1980s. Since waterways connect the \nHudson River to the Great Lakes, zebra mussels had spread to the Hudson River by 1991. \nZebra mussels can produce a million eggs per year, and the larvae drift before attaching to \nhard surfaces.\nMussels feed by filtering water through their gills and straining out algae, called \nphytoplankton, and microscopic animals. By the end of 1992, without a predator, the zebra \nmussels outweighed all other consumers in the river. They filtered a volume of water equal \nto all of the water in the river every one to four days during the summer, removing food and \ndissolved oxygen. Zebra mussels caused problems by clogging water pipes and damaging \nboats, docks, buoys, and other structures.\nGraph 1 below represents data collected by the researchers. The phytoplankton levels \nwere based on the data regarding the chlorophyll that they contained.\nSource: Adapted from www.caryinstitute.org\nPhytoplankton and Zebra Mussels (ZM) in the Hudson River\nGraph 1\n1992\n1993\n1991\n1994\n1995\n1997\n1998\n1996\n1999\n2000\n2002\n2003\n2001\n2004\n2005\n2007\n2008\n2006\n2009\n0\n500\n1000\n1500\n2500\n2000\n3000\n3500\n4000\n0\n5\n20\n15\n10\n35\n30\n25\nYear\nZM Density (per m2)\nChlorophyll (\u00b5g/liter)\n1988\n1989\n1990\n1987\nZebra Mussel \nDensity\nPhytoplankton \nChlorophyll\nKey",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 There were no predators to keep the zebra mussels in check. \u2014 The mussels could outcompete the native mussels. \u2014 They reproduce quickly and drift to other waterways. \u2014 The Great Lakes connect to other waterways. \u2014 They were well adapted to live in the waterways. \u2014 Boats can easily carry and transport the eggs and larvae. \u2014 The mussels produce a million eggs per year."
+    },
+    {
+      "number": 59,
+      "type": "written",
+      "text": "A student made a claim that once zebra mussels were established in the Hudson River, the zebra mussel population would affect the food webs by reducing the food available for native consumer populations. Explain how the data in graph 1",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the information and charts below and on your knowledge \nof biology.\nHudson River Zebra Mussels\nResearchers have been monitoring the effects of zebra mussels in the Hudson River. \nZebra mussels are small, aquatic, clam-like animals that arrived in the United States in cargo \nships traveling from Europe to the Great Lakes in the 1980s. Since waterways connect the \nHudson River to the Great Lakes, zebra mussels had spread to the Hudson River by 1991. \nZebra mussels can produce a million eggs per year, and the larvae drift before attaching to \nhard surfaces.\nMussels feed by filtering water through their gills and straining out algae, called \nphytoplankton, and microscopic animals. By the end of 1992, without a predator, the zebra \nmussels outweighed all other consumers in the river. They filtered a volume of water equal \nto all of the water in the river every one to four days during the summer, removing food and \ndissolved oxygen. Zebra mussels caused problems by clogging water pipes and damaging \nboats, docks, buoys, and other structures.\nGraph 1 below represents data collected by the researchers. The phytoplankton levels \nwere based on the data regarding the chlorophyll that they contained.\nSource: Adapted from www.caryinstitute.org\nPhytoplankton and Zebra Mussels (ZM) in the Hudson River\nGraph 1\n1992\n1993\n1991\n1994\n1995\n1997\n1998\n1996\n1999\n2000\n2002\n2003\n2001\n2004\n2005\n2007\n2008\n2006\n2009\n0\n500\n1000\n1500\n2500\n2000\n3000\n3500\n4000\n0\n5\n20\n15\n10\n35\n30\n25\nYear\nZM Density (per m2)\nChlorophyll (\u00b5g/liter)\n1988\n1989\n1990\n1987\nZebra Mussel \nDensity\nPhytoplankton \nChlorophyll\nKey",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 After 1992, the zebra mussels had consumed most of the phytoplankton, so there was little for the other consumers to eat. \u2014 Between 1988 and 2009, the amount of phytoplankton chlorophyll decreased from about 30 \u00b5g/liter to 6 \u00b5g/liter."
+    },
+    {
+      "number": 60,
+      "type": "written",
+      "text": "Other than reducing the food available for native populations, state one negative consequence of failing to keep zebra mussels out of the Great Lakes. The graph below shows changes in two mussel populations in the Hudson River. Source: Adapted from www.caryinstitute.org Zebra Mussels (ZM) and Native Mussels (NM) in the Hudson River Graph 2 1992 1993 1991 1994 1995 1997 1998 1996 1999 2000 2002 2003 2001 2004 2005 2007 2008 2006 2009 0 500 1000 1500 2500 2000 3000 3500 4000 0 1 5 4 3 2 9 8 7 6 10 Year ZM Density (per m2) NM Density (per m2) Zebra Mussel Density Native Mussel Density Key",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the information and charts below and on your knowledge \nof biology.\nHudson River Zebra Mussels\nResearchers have been monitoring the effects of zebra mussels in the Hudson River. \nZebra mussels are small, aquatic, clam-like animals that arrived in the United States in cargo \nships traveling from Europe to the Great Lakes in the 1980s. Since waterways connect the \nHudson River to the Great Lakes, zebra mussels had spread to the Hudson River by 1991. \nZebra mussels can produce a million eggs per year, and the larvae drift before attaching to \nhard surfaces.\nMussels feed by filtering water through their gills and straining out algae, called \nphytoplankton, and microscopic animals. By the end of 1992, without a predator, the zebra \nmussels outweighed all other consumers in the river. They filtered a volume of water equal \nto all of the water in the river every one to four days during the summer, removing food and \ndissolved oxygen. Zebra mussels caused problems by clogging water pipes and damaging \nboats, docks, buoys, and other structures.\nGraph 1 below represents data collected by the researchers. The phytoplankton levels \nwere based on the data regarding the chlorophyll that they contained.\nSource: Adapted from www.caryinstitute.org\nPhytoplankton and Zebra Mussels (ZM) in the Hudson River\nGraph 1\n1992\n1993\n1991\n1994\n1995\n1997\n1998\n1996\n1999\n2000\n2002\n2003\n2001\n2004\n2005\n2007\n2008\n2006\n2009\n0\n500\n1000\n1500\n2500\n2000\n3000\n3500\n4000\n0\n5\n20\n15\n10\n35\n30\n25\nYear\nZM Density (per m2)\nChlorophyll (\u00b5g/liter)\n1988\n1989\n1990\n1987\nZebra Mussel \nDensity\nPhytoplankton \nChlorophyll\nKey",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The zebra mussels spread and clogged water pipes and damaged boats, docks, buoys, and other structures. \u2014 The damage that they caused costs money to repair. \u2014 Zebra mussels reduced biodiversity. \u2014 They reduce dissolved oxygen in the water. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 61,
+      "type": "written",
+      "text": "The native mussels and zebra mussels have similar ecological roles. State one reason for the pattern represented by the data in Graph 2",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_58_61.png",
+      "context": "Base your answers to questions 58 through 61 on the information and charts below and on your knowledge \nof biology.\nHudson River Zebra Mussels\nResearchers have been monitoring the effects of zebra mussels in the Hudson River. \nZebra mussels are small, aquatic, clam-like animals that arrived in the United States in cargo \nships traveling from Europe to the Great Lakes in the 1980s. Since waterways connect the \nHudson River to the Great Lakes, zebra mussels had spread to the Hudson River by 1991. \nZebra mussels can produce a million eggs per year, and the larvae drift before attaching to \nhard surfaces.\nMussels feed by filtering water through their gills and straining out algae, called \nphytoplankton, and microscopic animals. By the end of 1992, without a predator, the zebra \nmussels outweighed all other consumers in the river. They filtered a volume of water equal \nto all of the water in the river every one to four days during the summer, removing food and \ndissolved oxygen. Zebra mussels caused problems by clogging water pipes and damaging \nboats, docks, buoys, and other structures.\nGraph 1 below represents data collected by the researchers. The phytoplankton levels \nwere based on the data regarding the chlorophyll that they contained.\nSource: Adapted from www.caryinstitute.org\nPhytoplankton and Zebra Mussels (ZM) in the Hudson River\nGraph 1\n1992\n1993\n1991\n1994\n1995\n1997\n1998\n1996\n1999\n2000\n2002\n2003\n2001\n2004\n2005\n2007\n2008\n2006\n2009\n0\n500\n1000\n1500\n2500\n2000\n3000\n3500\n4000\n0\n5\n20\n15\n10\n35\n30\n25\nYear\nZM Density (per m2)\nChlorophyll (\u00b5g/liter)\n1988\n1989\n1990\n1987\nZebra Mussel \nDensity\nPhytoplankton \nChlorophyll\nKey",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The zebra mussels outcompeted the native mussels, so there were more zebra mussels. \u2014 Once the zebra mussels were established in the river, they outcompeted the native mussels, and then the native mussels didn\u2019t have enough food and declined. \u2014 The native and zebra mussels competed for the same food, so when the zebra mussels increased, the native mussels decreased."
+    },
+    {
+      "number": 62,
+      "type": "written",
+      "text": "Explain how mimicry is a benefit to the king snake species.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_62_63.png",
+      "context": "Base your answers to questions 62 and 63 on the information and illustration below and on your knowledge \nof biology.\nMimicry in Snakes\nMimicry is an evolved resemblance between two species. The harmless scarlet king snake \nmimics the Eastern coral snake. The king snake has evolved red, yellow, and black bands that \nmake it look very similar to the venomous coral snake. In some areas, both snakes are found \ntogether and consume some of the same organisms for food. \nSource: https://www.petmd.com/sites/default/files/coral_snake.gif \nEastern Coral Snake\n(venomous)\nScarlet King Snake\n(non-venomous)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Mimicry is advantageous because the king snake looks like a venomous coral snake. Predators will see the king snake and avoid it. \u2014 The mimicry reduces the chance that the king snake will be eaten, so it can live longer and reproduce."
+    },
+    {
+      "number": 63,
+      "type": "written",
+      "text": "63",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_62_63.png",
+      "context": "Base your answers to questions 62 and 63 on the information and illustration below and on your knowledge \nof biology.\nMimicry in Snakes\nMimicry is an evolved resemblance between two species. The harmless scarlet king snake \nmimics the Eastern coral snake. The king snake has evolved red, yellow, and black bands that \nmake it look very similar to the venomous coral snake. In some areas, both snakes are found \ntogether and consume some of the same organisms for food. \nSource: https://www.petmd.com/sites/default/files/coral_snake.gif \nEastern Coral Snake\n(venomous)\nScarlet King Snake\n(non-venomous)",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for predicting how the population size of king snakes might change over time without coral snakes in the area where they live and justifiying your answers. Acceptable responses include, but are not limited to: \u2014 The population of king snakes would decrease. The mimicry would not be an advantage, and they might be attacked more by predators. \u2014 The population of king snakes might increase, as they would not compete with the coral snakes for some food."
+    },
+    {
+      "number": 64,
+      "type": "written",
+      "text": "Describe one possible result of reintroducing mountain lions into the Adirondacks.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the passage below and on your knowledge of biology.\nPredators in the Adirondacks\nTo help keep the number of deer in check, an environmental group proposes the \nreintroduction of large predators, such as mountain lions, into the Adirondacks. Coyotes \nare a main predator of deer, especially the sick and young ones. Opponents of the proposal \nbelieve that the Adirondack deer population has been regulated by coyotes, hunting, bad \nwinters, and land development projects. They also question the ability of the mountain lions \nto survive in the current Adirondack environment.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The deer population could decline/be better controlled. \u2014 They would compete with the coyotes, and the coyote population would decrease or leave the area. \u2014 There might not be enough food to support two predators, and each population would decrease. \u2014 The mountain lions might move into populated areas and pose a threat to people and pets."
+    },
+    {
+      "number": 65,
+      "type": "written",
+      "text": "65",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 64 and 65 on the passage below and on your knowledge of biology.\nPredators in the Adirondacks\nTo help keep the number of deer in check, an environmental group proposes the \nreintroduction of large predators, such as mountain lions, into the Adirondacks. Coyotes \nare a main predator of deer, especially the sick and young ones. Opponents of the proposal \nbelieve that the Adirondack deer population has been regulated by coyotes, hunting, bad \nwinters, and land development projects. They also question the ability of the mountain lions \nto survive in the current Adirondack environment.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Building projects take up space and reduce the resources available to the deer, so the number of deer would go down. \u2014 Since there will be less land for food, the deer population will decrease through competition. \u2014 The development projects remove plants and trees, resulting in less food for the deer."
+    },
+    {
+      "number": 66,
+      "type": "written",
+      "text": "Based on the information in the model, explain why the biologic drugs are ineffective for some people.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of biology.\nBiologics\nThe newest drugs to treat deadly illnesses like cancer, autoimmune diseases, and heart \ndisease are called biologics. Biologics are drugs that mimic naturally occurring proteins. \nThese biologics are injected into patients. Doctors recently noticed that these drugs do \nnot work for some patients. They developed the model below to explain why the drugs are \nineffective in as many as 50% of patients.\nDendritic cells digest biologics \nand present small pieces to \nother immune cells, starting a \nsearch-and-destroy reaction. \nAntidrug antibodies \nhome in on the drugs, \nmarking them for \ndestruction.\nAntidrug\nantibody\nBiologic \ndrug\nDendritic \nimmune \ncell\nQuiescent T cell\nHelper T cell\nActivated\nB cell\n1\n2\nSource: Adapted from Scientific American, January 2018",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 If antibodies recognize the drug protein, the drug protein is marked for destruction. \u2014 White blood cells/dendritic cells may engulf and destroy the drug particles. \u2014 The immune system destroys the drug particles before they can work. \u2014 Activated T cells produce antibodies that mark the drug for destruction. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 67,
+      "type": "written",
+      "text": "67",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of biology.\nBiologics\nThe newest drugs to treat deadly illnesses like cancer, autoimmune diseases, and heart \ndisease are called biologics. Biologics are drugs that mimic naturally occurring proteins. \nThese biologics are injected into patients. Doctors recently noticed that these drugs do \nnot work for some patients. They developed the model below to explain why the drugs are \nineffective in as many as 50% of patients.\nDendritic cells digest biologics \nand present small pieces to \nother immune cells, starting a \nsearch-and-destroy reaction. \nAntidrug antibodies \nhome in on the drugs, \nmarking them for \ndestruction.\nAntidrug\nantibody\nBiologic \ndrug\nDendritic \nimmune \ncell\nQuiescent T cell\nHelper T cell\nActivated\nB cell\n1\n2\nSource: Adapted from Scientific American, January 2018",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 AIDS patients have weakened immune systems; therefore, they would be less likely to attack the biologic drug particles, making the drugs more effective. \u2014 AIDS patients have weaker immune systems and may not attack the drug particles."
+    },
+    {
+      "number": 68,
+      "type": "written",
+      "text": "In order to make the biologic drugs more effective, doctors experimented with coating the biologic drugs with a synthetic vaccine particle (SVP). This SVP changes the way that the immune system responds to the drug particle by blocking the production of antidrug antibodies. Explain why a person would still have immunity to other pathogens after being exposed to these SVPs.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_66_68.png",
+      "context": "Base your answers to questions 66 through 68 on the information below and on your knowledge of biology.\nBiologics\nThe newest drugs to treat deadly illnesses like cancer, autoimmune diseases, and heart \ndisease are called biologics. Biologics are drugs that mimic naturally occurring proteins. \nThese biologics are injected into patients. Doctors recently noticed that these drugs do \nnot work for some patients. They developed the model below to explain why the drugs are \nineffective in as many as 50% of patients.\nDendritic cells digest biologics \nand present small pieces to \nother immune cells, starting a \nsearch-and-destroy reaction. \nAntidrug antibodies \nhome in on the drugs, \nmarking them for \ndestruction.\nAntidrug\nantibody\nBiologic \ndrug\nDendritic \nimmune \ncell\nQuiescent T cell\nHelper T cell\nActivated\nB cell\n1\n2\nSource: Adapted from Scientific American, January 2018",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 People will still have immunity to other pathogens because antibodies are specific to the pathogen. The SVPs block only the antibodies to this drug. \u2014 Antibodies are specific; the SVPs block the production only of antibodies that match the drug. \u2014 Antibodies are specific."
+    },
+    {
+      "number": 69,
+      "type": "written",
+      "text": "State one possible reason why the rapid growth of algae in the Bay resulted in a decline in the number of complex underwater plants.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of biology.\nPlants Rebound in the Chesapeake Bay\nChesapeake Bay vegetation, including sea grass and freshwater plants, is an important \npart of the area\u2019s coastal ecosystem. These areas act as nurseries that shelter young fish and \ninvertebrates, clean the water, and stabilize shorelines by preventing erosion.\nIn the 1950s, the human population greatly increased in the Bay area. As the growth \ncontinued, cities and farms were releasing large amounts of nitrogen compounds and other \nnutrients into the water. These nutrients had a very positive effect on the growth of small \nmicroscopic organisms, such as algae and plankton, in the Bay. As the algae continued to \ngrow near the surface, the growth of more complex plants living deeper in the Bay decreased.\nIn the 1980s, state and federal regulations were passed that limited the amount of \nnutrients that could be present in the runoff from farms and wastewater treatment plants. \nAs a result, underwater plants are now growing again in the Bay, and there has been a large \ndecrease in the amount of nitrogen compounds present in the water.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The algae growth blocked light, which the plants needed for photosynthesis. \u2014 The plants did not get enough light to carry out photosynthesis. \u2014 The plants died out because they didn\u2019t have light for the process of photosynthesis. \u2014 Algae may have used nutrients also needed by the complex plants."
+    },
+    {
+      "number": 70,
+      "type": "written",
+      "text": "Explain one specific way in which the change from more complex plants to more algae could disrupt food webs in the Bay region.",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of biology.\nPlants Rebound in the Chesapeake Bay\nChesapeake Bay vegetation, including sea grass and freshwater plants, is an important \npart of the area\u2019s coastal ecosystem. These areas act as nurseries that shelter young fish and \ninvertebrates, clean the water, and stabilize shorelines by preventing erosion.\nIn the 1950s, the human population greatly increased in the Bay area. As the growth \ncontinued, cities and farms were releasing large amounts of nitrogen compounds and other \nnutrients into the water. These nutrients had a very positive effect on the growth of small \nmicroscopic organisms, such as algae and plankton, in the Bay. As the algae continued to \ngrow near the surface, the growth of more complex plants living deeper in the Bay decreased.\nIn the 1980s, state and federal regulations were passed that limited the amount of \nnutrients that could be present in the runoff from farms and wastewater treatment plants. \nAs a result, underwater plants are now growing again in the Bay, and there has been a large \ndecrease in the amount of nitrogen compounds present in the water.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The organisms that were eating the complex plants would either die out or move away from the region due to a lack of food. \u2014 The food webs would become unstable, since the organisms supported by the complex plants would lose their source of energy. \u2014 New food webs would develop in the area. These webs would depend on algae as their source of energy. \u2014 Shelter for young fish will decline."
+    },
+    {
+      "number": 71,
+      "type": "written",
+      "text": "In order to determine which nutrient had the greatest effect on the overgrowth of the algae, Mosquitoes are insects whose bite can cause discomfort and disease in humans. In an attempt to control mosquito populations, scientists have used radiation to prevent the males from producing functional sperm. Source: https://www.orkin.com/other/mosquitoes",
+      "choices": [],
+      "image": null,
+      "context": "Base your answers to questions 69 through 71 on the information below and on your knowledge of biology.\nPlants Rebound in the Chesapeake Bay\nChesapeake Bay vegetation, including sea grass and freshwater plants, is an important \npart of the area\u2019s coastal ecosystem. These areas act as nurseries that shelter young fish and \ninvertebrates, clean the water, and stabilize shorelines by preventing erosion.\nIn the 1950s, the human population greatly increased in the Bay area. As the growth \ncontinued, cities and farms were releasing large amounts of nitrogen compounds and other \nnutrients into the water. These nutrients had a very positive effect on the growth of small \nmicroscopic organisms, such as algae and plankton, in the Bay. As the algae continued to \ngrow near the surface, the growth of more complex plants living deeper in the Bay decreased.\nIn the 1980s, state and federal regulations were passed that limited the amount of \nnutrients that could be present in the runoff from farms and wastewater treatment plants. \nAs a result, underwater plants are now growing again in the Bay, and there has been a large \ndecrease in the amount of nitrogen compounds present in the water.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 If the analysis of the data showed that algae growth increased more rapidly when more nitrogen compounds were in the Bay, this would support the conclusion. \u2014 One piece of evidence would be if the data show that, as nitrogen compounds increased or decreased in the Bay, the growth rate of the algae did the same. \u2014 If the research data show that, of all the nutrients, nitrogen had the greatest effect on algae growth, then nitrogen would be the main cause of the algae growth."
+    },
+    {
+      "number": 72,
+      "type": "written",
+      "text": "72",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Eggs need to be fertilized by functional sperm in order for offspring to be produced. \u2014 If males cannot produce functional sperm, eggs will not be fertilized and there will be no off\u00ad spring. \u2014 If the mosquitoes can\u2019t produce sperm, they cannot reproduce/produce offspring. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 73,
+      "type": "multiple-choice",
+      "text": "After exercising outside on a cold day, a student noticed that his fingers were not as cold as when he started. One possible explanation for this phenomenon would be that exercising",
+      "choices": [
+        "causes more sweat to be produced, which cools the body",
+        "increases the blood circulation, causing body parts to feel warmer",
+        "increases the breathing rate to remove waste products",
+        "decreases the amount of energy needed, so the fingers feel warmer"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 74,
+      "type": "multiple-choice",
+      "text": "The diagram below represents changes in some red onion cells being observed with a compound microscope after a particular solution was added. Solution added Which statement best explains the changes observed?",
+      "choices": [
+        "Distilled water was added to the slide and diffusion caused water to move out of the onion cells.",
+        "Salt solution was added to the slide and active transport caused water to move out of the onion cells.",
+        "Distilled water was added to the slide and active transport caused water to move out of the onion cells.",
+        "Salt solution was added to the slide and diffusion caused water to move out of the onion cells."
+      ],
+      "image": "/images/exams/living-environment/june-2024/q74.png",
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 75,
+      "type": "multiple-choice",
+      "text": "Competition arises most often when two birds have similar",
+      "choices": [
+        "enzymes",
+        "niches",
+        "habitats",
+        "ecosystems"
+      ],
+      "image": null,
+      "context": "Base your answer to question 75 on the information below and on your knowledge of biology.\nA homeowner observed different types of birds feeding at bird feeders filled with an \nassortment of food.",
+      "correct": 1,
+      "modelAnswer": null
+    },
+    {
+      "number": 76,
+      "type": "multiple-choice",
+      "text": "The results of this type of DNA analysis are often used to help determine",
+      "choices": [
+        "if two organisms contain the same carbohydrate molecule",
+        "the number of DNA molecules in an organism",
+        "if the DNA codes for the synthesis of fat molecules in all cells of an organism",
+        "the evolutionary relationship between two organisms from different species"
+      ],
+      "image": "/images/exams/living-environment/june-2024/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the information below and on your knowledge of biology.\nTo demonstrate some of the steps involved in the analysis of DNA, a student was given \ntwo paper strips with single-stranded DNA sequences recorded on them. The two strips are \nillustrated below.\nStrip 1:     TTACCGGATTACCCGATTACCGGATAATCTCCGGATATCCGTT\nStrip 2:     TTAGGCTTAAGCTAATGGCCTAATAGTTAATACGGTAATACAT\nThe student cut between the C and G in each of the shaded CCGG sequences in strip 1 \nand between the As in the shaded TAAT sequences in strip 2. Both sets of DNA fragments \nwere arranged on a paper model of a gel.\n\t\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 77,
+      "type": "written",
+      "text": "Identify the specific type of molecules performing the action of cutting the DNA samples.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_76_77.png",
+      "context": "Base your answers to questions 76 and 77 on the information below and on your knowledge of biology.\nTo demonstrate some of the steps involved in the analysis of DNA, a student was given \ntwo paper strips with single-stranded DNA sequences recorded on them. The two strips are \nillustrated below.\nStrip 1:     TTACCGGATTACCCGATTACCGGATAATCTCCGGATATCCGTT\nStrip 2:     TTAGGCTTAAGCTAATGGCCTAATAGTTAATACGGTAATACAT\nThe student cut between the C and G in each of the shaded CCGG sequences in strip 1 \nand between the As in the shaded TAAT sequences in strip 2. Both sets of DNA fragments \nwere arranged on a paper model of a gel.\n\t\nNote: The answer to question 76 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for enzyme, restriction enzyme, or biological catalyst."
+    },
+    {
+      "number": 78,
+      "type": "written",
+      "text": "In the Making Connections lab, for trial 1, students squeezed a clothespin as many times as they could in a minute. State one specific biological reason why their muscle cells \u201cgot tired\u201d",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Their muscle cells got tired because waste products were building up in them from the activity. \u2014 Muscle fatigue caused them to slow down/become weaker. \u2014 They might not be getting enough oxygen/nutrients."
+    },
+    {
+      "number": 79,
+      "type": "written",
+      "text": "Explain why the resting pulse rates for these students were not all the same.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the information below and on your knowledge of biology.\nAn experiment was conducted to measure the effect of exercise on pulse rate for a group \nof high school students. The table below shows the results.\nStudent Tested\nPulse Rate at Rest\nPulse Rate After Exercising\n1\n70\n92\n2\n52\n87\n3\n80\n118\n4\n72\n104\n5\n60\n96\n6\n66\n124",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 Resting pulse rates for different people can differ depending on their size, weight, degree of physical fitness, or genetic makeup. \u2014 They may have been doing different things before the resting pulse rate was taken. \u2014 naturally occuring variation between individuals"
+    },
+    {
+      "number": 80,
+      "type": "written",
+      "text": "Explain how the increased pulse rate as a result of exercising helps the body maintain homeostasis.",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_79_80.png",
+      "context": "Base your answers to questions 79 and 80 on the information below and on your knowledge of biology.\nAn experiment was conducted to measure the effect of exercise on pulse rate for a group \nof high school students. The table below shows the results.\nStudent Tested\nPulse Rate at Rest\nPulse Rate After Exercising\n1\n70\n92\n2\n52\n87\n3\n80\n118\n4\n72\n104\n5\n60\n96\n6\n66\n124",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The increased heart rate helps the cells get rid of the extra wastes produced from the activity. \u2014 The pulse rate increase helps get oxygen to/take carbon dioxide away from the muscle cells that were involved in the exercise activity, causing the level of these gases to quickly return to normal. 81 4 82 4"
+    },
+    {
+      "number": 81,
+      "type": "multiple-choice",
+      "text": "Which important concept of natural selection do these model beaks represent?",
+      "choices": [
+        "dynamic equilibrium",
+        "limiting factor",
+        "environment",
+        ""
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 82,
+      "type": "multiple-choice",
+      "text": "The change in the distribution of oxygen molecules was most likely due to",
+      "choices": [
+        "membrane receptors",
+        "active transport",
+        "synthesis",
+        "diffusion"
+      ],
+      "image": "/images/exams/living-environment/june-2024/context_82_83.png",
+      "context": "Base your answers to questions 82 and 83 on the diagram below and on your knowledge of biology. The\ndiagram shows the changes in distribution of certain molecules inside and outside of an artificial cell over a \nperiod of time.\nTime\nCell\nBefore\nAfter\nWater\nOxygen\nProtein\nKey\n\t\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 83,
+      "type": "written",
+      "text": "83",
+      "choices": [],
+      "image": "/images/exams/living-environment/june-2024/context_82_83.png",
+      "context": "Base your answers to questions 82 and 83 on the diagram below and on your knowledge of biology. The\ndiagram shows the changes in distribution of certain molecules inside and outside of an artificial cell over a \nperiod of time.\nTime\nCell\nBefore\nAfter\nWater\nOxygen\nProtein\nKey\n\t\nNote: The answer to question 82 should be recorded on your separate answer sheet.",
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The proteins are too large to diffuse through the artificial cell membrane. \u2014 The artificial cell membrane is not permeable to the proteins. Living Environment Rating Guide \u2013 June \u2019"
+    },
+    {
+      "number": 84,
+      "type": "written",
+      "text": "Other than beak adaptations, identify one characteristic that would help finches on an island compete successfully, and explain specifically why that characteristic would make them successful.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit for identifying one characteristic and explaining specifically why that characteristic would make them successful. Acceptable responses include, but are not limited to: \u2014 Better eyesight would help them find smaller seeds more easily than other finches. \u2014 Better eyesight/hearing would help them detect predators in their environment, giving them a better chance to get away from them. \u2014 Being stronger or more aggressive could help them be more successful at obtaining food. \u2014 Flying faster or being able to fly farther may help them escape predators or get to other food sources that other finches cannot."
+    },
+    {
+      "number": 85,
+      "type": "written",
+      "text": "During a hurricane, a large raft made up of tree trunks, branches, and other vegetation was washed off the coast of an island. A few days later, this raft washed up on the shore of a new island a few miles away. Along with the vegetation present in the raft, there were about a dozen lizards that were native to the original island, but their species was not living on the new island. A similar species of lizard did live there and had for many years. Once the lizards arrived at the new island, they found food and other resources that they needed to survive. Describe one specific way that the newly arriving lizards might affect the population of lizards already present on the new island. LIVING ENVIRONMENT LIVING ENVIRONMENT Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": "Allow 1 credit. Acceptable responses include, but are not limited to: \u2014 The new lizards might outcompete the lizards already there and drive them to extinction. \u2014 They could eat some of the species of plants or animals that the original lizards eat, which would disrupt the food webs/diversity. \u2014 They might fill an ecological niche on the new island that was not already filled and survive with no negative effects on the native species. Living Environment Rating Guide \u2013 June \u2019"
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "subject": "algebra-2",
+  "session": "january-2018",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "The operator of the local mall wants to find out how many of the mall\u2019s employees make purchases in the food court when they are working. She hopes to use these data to increase the rent and attract new food vendors. In total, there are 1023 employees who work at the mall. The best method to obtain a random sample of the employees would be to survey",
+      "choices": [
+        "all 170 employees at each of the larger stores",
+        "50% of the 90 employees of the food court",
+        "every employee",
+        "every 30th employee entering each mall entrance for one week"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "What is the solution set for x in the equation below? \u0002\u0003\u0003\u0003\u0003\u0003 x \u0002 1 \u0003 1 \u0004 x",
+      "choices": [
+        "{1}",
+        "{0}",
+        "{\u00031,0}",
+        "{0,1}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "For the system shown below, what is the value of z? y \u0004 \u00032x \u0002 14 3x \u0003 4z \u0004 2 3x \u0003 y \u0004 16",
+      "choices": [
+        "5",
+        "2",
+        "6",
+        "4"
+      ],
+      "image": null,
+      "context": null,
+      "correct": 3,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "The hours of daylight, y, in Utica in days, x, from January 1, 2013 can be modeled by the equation y \u0004 3.06sin(0.017x \u0003 1.40) \u0002 12.23. How many hours of daylight, to the nearest tenth, does this model predict for February 14, 2013?",
+      "choices": [
+        "9.4",
+        "10.4",
+        "12.1",
+        "12.2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "A certain pain reliever is taken in 220 mg dosages and has a half-life of 12 hours. The function A \u0004 220( 1__ 2) t___ 12 can be used to model this situation, where A is the amount of pain reliever in milligrams remaining in the body after t hours. According to this function, which statement is true?",
+      "choices": [
+        "Every hour, the amount of pain reliever remaining is cut in half.",
+        "In 12 hours, there is no pain reliever remaining in the body.",
+        "In 24 hours, there is no pain reliever remaining in the body.",
+        "In 12 hours, 110 mg of pain reliever is remaining."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The expression (x \u0002 a)(x \u0002 b) can not be written as",
+      "choices": [
+        "a(x \u0002 b) \u0002 x(x \u0002 b)",
+        "x2 \u0002 abx \u0002 ab",
+        "x2 \u0002 (a \u0002 b)x \u0002 ab",
+        "x(x \u0002 a) \u0002 b(x \u0002 a)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "There are 440 students at Thomas Paine High School enrolled in U.S. History. On the April report card, the students\u2019 grades are approximately normally distributed with a mean of 79 and a standard deviation of 7. Students who earn a grade less than or equal to 64.9 must attend summer school. The number of students who must attend summer school for U.S. History is closest to",
+      "choices": [
+        "3",
+        "5",
+        "10",
+        "22"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "For a given time, x, in seconds, an electric current, y, can be represented by y \u0004 2.5(1 \u0003 2.7\u0003.10x). Which equation is not equivalent?",
+      "choices": [
+        "y \u0004 2.5 \u0003 2.5(2.7\u0003.10x)",
+        "y \u0004 2.5 \u0003 2.5((2.72)\u0003.05x)",
+        "y \u0004 2.5 \u0003 2.5( 1 _____ 2.7.10x)",
+        "y \u0004 2.5 \u0003 2.5(2.7\u00032)(2.7.05x)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "What is the quotient when 10x3 \u0003 3x2 \u0003 7x \u0002 3 is divided by 2x \u0003 1?",
+      "choices": [
+        "5x2 \u0002 x \u0002 3",
+        "5x2 \u0003 x \u0002 3",
+        "5x2 \u0003 x \u0003 3",
+        "5x2 \u0002 x \u0003 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Judith puts $5000 into an investment account with interest compounded continuously. Which approximate annual rate is needed for the account to grow to $9110 after 30 years?",
+      "choices": [
+        "2%",
+        "2.2%",
+        "0.02%",
+        "0.022%"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "If n \u0004 \u0002\u0003\u0003 a5 and m \u0004 a, where a \u0005 0, an expression for n__ m could be",
+      "choices": [
+        "a 5__ 2",
+        "a4",
+        "3\u0002\u0003\u0003 a2",
+        "\u0002\u0003\u0003 a3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "The solutions to x \u0002 3 \u0003 4 _____ x \u0003 1 \u0004 5 are",
+      "choices": [
+        "3__ 2 \u0006 \u0002\u0003\u0003 17 ____ 2",
+        "3__ 2 \u0006 \u0002\u0003\u0003 17 ____ 2 i",
+        "3__ 2 \u0006 \u0002\u0003\u0003 33 ____ 2",
+        "3__ 2 \u0006 \u0002\u0003\u0003 33 ____ 2 i"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "If aebt \u0004 c, where a, b, and c are positive, then t equals",
+      "choices": [
+        "ln( c ___ ab)",
+        "ln( cb ___ a )",
+        "ln( c__ a) ______ b",
+        "ln( c__ a) ______ ln b"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "For which values of x, rounded to the nearest hundredth, will |x2 \u0003 9| \u0003 3 \u0004 log3 x?",
+      "choices": [
+        "2.29 and 3.63",
+        "2.37 and 3.54",
+        "2.84 and 3.17",
+        "2.92 and 3.06"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The terminal side of \u03b8, an angle in standard position, intersects the unit circle at P(\u0003 1__ 3 , \u0003\u0002\u0003\u00038 ___ 3 ). What is the value of sec \u03b8?",
+      "choices": [
+        "\u00033",
+        "\u00033\u0002\u0003\u00038 ____ 8",
+        "\u0003 1__ 3",
+        "\u0003\u0002\u0003\u00038 ___ 3"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "What is the equation of the directrix for the parabola \u00038(y \u0003 3) \u0004 (x \u0002 4)2?",
+      "choices": [
+        "y \u0004 5",
+        "y \u0004 1",
+        "y \u0004 \u00032",
+        "y \u0004 \u00036"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "The function below models the average price of gas in a small town since January 1st. G(t) \u0002 \u00030.0049t4 \u0004 0.0923t3 \u0003 0.56t2 \u0004 1.166t \u0004 3.23, where 0 \u2264t \u226410. If G(t) is the average price of gas in dollars and t represents the number of months since January 1st, the absolute maximum G(t) reaches over the given domain is about",
+      "choices": [
+        "$1.60",
+        "$3.92",
+        "$4.01",
+        "$7.73"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Written in simplest form, c2 \u0003 d2 ______ d2 \u0004 cd ____ \u0003 2c2 ___ where c \u0002 d, is equivalent to",
+      "choices": [
+        "c \u0004 d ______ d \u0004 2c",
+        "c \u0003 d ______ d \u0004 2c",
+        "\u0003c \u0003 d _______ d \u0004 2c",
+        "\u0003c \u0004 d _______ d \u0004 2c"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "If p(x) \u0002 2x3 \u0003 3x \u0004 5, what is the remainder of p(x) \u0005 (x \u0003 5)?",
+      "choices": [
+        "\u0003230",
+        "0",
+        "40",
+        "240"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The results of simulating tossing a coin 10 times, recording the number of heads, and repeating this 50 times are shown in the graph below. Based on the results of the simulation, which statement is false?",
+      "choices": [
+        "Five heads occurred most often, which is consistent with the theoretical probability of obtaining a heads.",
+        "Eight heads is unusual, as it falls outside the middle 95% of the data.",
+        "Obtaining three heads or fewer occurred 28% of the time.",
+        "Seven heads is not unusual, as it falls within the middle 95% of the data."
+      ],
+      "image": "/images/exams/algebra-2/january-2018/q20.png",
+      "context": null,
+      "correct": 2,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "What is the inverse of f(x) \u0004 \u00036(x \u0003 2)?",
+      "choices": [
+        "f \u00031(x) \u0004 \u00032 \u0003 x__ 6",
+        "f \u00031(x) \u0004 2 \u0003 x__ 6",
+        "f \u00031(x) \u0004 1 _________ \u00036(x \u0003 2)",
+        "f \u00031(x) \u0004 6(x \u0002 2) 0 1 2 3 4 5 6 7 8 9 2 4 6 8 10 12 14 0 10"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "Brian deposited 1 cent into an empty non-interest bearing bank account on the first day of the month. He then additionally deposited 3 cents on the second day, 9 cents on the third day, and 27 cents on the fourth day. What would be the total amount of money in the account at the end of the 20th day if the pattern continued?",
+      "choices": [
+        "$11,622,614.67",
+        "$17,433,922.00",
+        "$116,226,146.80",
+        "$1,743,392,200.00"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "If the function g(x) \u0004 abx represents exponential growth, which statement about g(x) is false?",
+      "choices": [
+        "a \u0005 0 and b \u0005 1",
+        "The y-intercept is (0,a).",
+        "The asymptote is y \u0004 0.",
+        "The x-intercept is (b,0)."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "At her job, Pat earns $25,000 the first year and receives a raise of $1000 each year. The explicit formula for the nth term of this sequence is an \u0004 25,000 \u0002 (n \u0003 1)1000. Which rule best represents the equivalent recursive formula?",
+      "choices": [
+        "an \u0004 24,000 \u0002 1000n",
+        "an \u0004 25,000 \u0002 1000n",
+        "a1\u0004 25,000, an \u0004 an \u0003 1 \u0002 1000",
+        "a1\u0004 25,000, an \u0004 an \u0002 1 \u0002 1000"
+      ],
+      "image": "/images/exams/algebra-2/january-2018/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Elizabeth tried to find the product of (2 \u0002 4i) and (3 \u0003 i), and her work is shown below. (2 \u0002 4i)(3 \u0003 i) \u0004 6 \u0003 2i \u0002 12i \u0003 4i2 \u0004 6 \u0002 10i \u0003 4i2 \u0004 6 \u0002 10i \u0003 4(1) \u0004 6 \u0002 10i \u0003 4 \u0004 2 \u0002 10i Identify the error in the process shown and determine the correct product of (2 \u0002 4i) and (3 \u0003 i). Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "A runner is using a nine-week training app to prepare for a \u201cfun run.\u201d The table below represents the amount of the program completed, A, and the distance covered in a session, D, in miles. Based on these data, write an exponential regression equation, rounded to the nearest thousandth, to model the distance the runner is able to complete in a session as she continues through the nine-week program. A 4__ 9 5__ 9 6__ 9 8__ 9 1 D 2 2 2.25 3 3.25",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2018/q26.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "A formula for work problems involving two people is shown below. 1__ t1 \u0002 1__ t2 \u0004 1__ tb t1 \u0004 the time taken by the first person to complete the job t2 \u0004 the time taken by the second person to complete the job tb \u0004 the time it takes for them working together to complete the job Fred and Barney are carpenters who build the same model desk. It takes Fred eight hours to build the desk while it only takes Barney six hours. Write an equation that can be used to find the time it would take both carpenters working together to build a desk. Determine, to the nearest tenth of an hour, how long it would take Fred and Barney working together to build a desk.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "Completely factor the following expression: x2 \u0002 3xy \u0002 3x3 \u0002",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "Researchers in a local area found that the population of rabbits with an initial population of 20 grew continuously at the rate of 5% per month. The fox population had an initial value of 30 and grew continuously at the rate of 3% per month. Find, to the nearest tenth of a month,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Consider the function h(x) \u0004 2sin (3x) \u0002 1 and the function q represented in the table below. Determine which function has the smaller minimum value for the domain [\u00032,2]. Justify your answer. x q(x) \u20132 \u20138 \u20131 0 0 0 1 \u20132 2 0",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2018/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "The zeros of a quartic polynomial function h are \u00031, \u00062, and 3. Sketch a graph of y \u0004 h(x)",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2018/q31.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Explain why 81 3__ 4 equals 27.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Given: f(x) \u0004 2x2 \u0002 x \u0003 3 and g(x) \u0004 x \u0003 1 Express f(x) \u2022 g(x) \u0003 [ f(x) \u0002 g(x)] Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings,",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "A student is chosen at random from the student body at a given high school. The probability that the student selects Math as the favorite subject is 1__ 4 . The probability that the student chosen is a junior is 116 ___ 459. If the probability that the student selected is a junior or that the student chooses Math as the favorite subject is 47 ___ 108, what is the exact probability that the student selected is a junior whose favorite subject is Math? Are the events \u201cthe student is a junior\u201d and \u201cthe student\u2019s favorite subject is Math\u201d independent of each other? Explain your answer.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "In a random sample of 250 men in the United States, age 21 or older, 139 are married. The graph below simulated samples of 250 men, 200 times, assuming that 139 of the men are married. a) Based on the simulation, create an interval in which the middle 95% of the number of married men may fall. Round your answer to the nearest integer. b) A study claims \u201c50 percent of men 21 and older in the United States are married.\u201d Do your results from part a contradict this claim? Explain. 114 120 126 132 138 144 150 156 162 0 6 12 18 Mean = 138.905 SD = 7.950",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2018/q35.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "The graph of y \u0004 f(x) is shown below. The function has a leading coefficient of 1. Write an equation for f(x). The function g is formed by translating function f left 2 units. Write an equation for g(x). 50 \u20132 2 y x",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2018/q36.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "The resting blood pressure of an adult patient can be modeled by the function P below, where P(t) is the pressure in millimeters of mercury after time t in seconds. P(t) \u0004 24cos(3\u03c0t) \u0002 120 On the set of axes below, graph y \u0004 P(t) over the domain 0 \u2264t \u22642. Question 37 is continued on the next page. 90 t P(t) 1 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, Question 37 continued. Determine the period of P. Explain what this value represents in the given context. Normal resting blood pressure for an adult is 120 over 80. This means that the blood pressure oscillates between a maximum of 120 and a minimum of 80. Adults with high blood pressure (above 140 over 90) and adults with low blood pressure (below 90 over 60) may be at risk for health disorders. Classify the given patient\u2019s blood pressure as low, normal, or high and explain your reasoning. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here ALGEBRA II ALGEBRA II Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-2/january-2018/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

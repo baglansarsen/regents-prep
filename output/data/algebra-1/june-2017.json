@@ -1,0 +1,501 @@
+{
+  "subject": "algebra-1",
+  "session": "june-2017",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "To keep track of his pro\ufb01 ts, the owner of a carnival booth decided to model his ticket sales on a graph. He found that his pro\ufb01 ts only declined when he sold between 10 and 40 tickets. Which graph could represent his pro\ufb01 ts? 10 20 30 40 50 60 70 80 90 100 1 2 3 4 5 6 7 8 9 10 Number of Tickets Sold",
+      "choices": [
+        "10 20 30 40 50 60 70 80 90 100 1 2 3 4 5 6 7 8 9 10 Number of Tickets Sold",
+        "10 20 30 40 50 60 70 80 90 100 1 2 3 4 5 6 7 8 9 10 Number of Tickets Sold",
+        "10 20 30 40 50 60 70 80 90 100 1 2 3 4 5 6 7 8 9 10 Number of Tickets Sold",
+        "Profit ($10\u2019s of dollars) Profit ($10\u2019s of dollars) Profit ($10\u2019s of dollars) Profit ($10\u2019s of dollars) Part I Answer all 24 questions in this part. Each correct answer will receive 2 credits. No partial credit will be allowed. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For each statement or question, choose the word or expression that, of those given, best completes the statement or answers the question."
+      ],
+      "image": "/images/exams/algebra-1/june-2017/q1.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "The formula for the surface area of a right rectangular prism is A \u0002 2lw \u0003 2hw \u0003 2lh, where l, w, and h represent the length, width, and height, respectively. Which term of this formula is not dependent on the height?",
+      "choices": [
+        "A",
+        "2lw",
+        "2hw",
+        "2lh"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "Which graph represents y \u0002 \u221a\u2013\u2013\u2013\u2013\u2013 x \u0004 2 ? y x",
+      "choices": [
+        "y x",
+        "y x",
+        "y x",
+        "Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/june-2017/q3.png",
+      "context": null,
+      "correct": 0,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "multiple-choice",
+      "text": "A student plotted the data from a sleep study as shown in the graph below. Age (in years) 10 15 20 30 40 25 35 6.5 7.0 7.5 8.0 8.5 Average Number of Hours of Sleep per Day x y The student used the equation of the line y \u0002 \u00040.09x \u0003 9.24 to model the data. What does the rate of change represent in terms of these data?",
+      "choices": [
+        "The average number of hours of sleep per day increases 0.09 hour per year of age.",
+        "The average number of hours of sleep per day decreases 0.09 hour per year of age.",
+        "The average number of hours of sleep per day increases 9.24 hours per year of age.",
+        "The average number of hours of sleep per day decreases 9.24 hours per year of age. Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/june-2017/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Lynn, Jude, and Anne were given the function f(x) \u0002 \u00042x2 \u0003 32, and they were asked to \ufb01 nd f",
+      "choices": [
+        "Lynn, only",
+        "Jude, only",
+        "Anne, only",
+        "Both Lynn and Jude"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "Which expression is equivalent to 16x4 \u0004 64?",
+      "choices": [
+        "(4x2 \u0004 8)2",
+        "(8x2 \u0004 32)2",
+        "(4x2 \u0003 8) (4x2 \u0004 8)",
+        "(8x2 \u0003 32) (8x2 \u0004 32)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "Vinny collects population data, P(h), about a speci\ufb01 c strain of bacteria over time in hours, h, as shown in the graph below. P(h) h (0,4) (1,8) (2,16) (3,32) Which equation represents the graph of P(h)?",
+      "choices": [
+        "P(h) \u0002 4",
+        "P(h) \u0002 46 __ 5 h \u0003 6__ 5",
+        "P(h) \u0002 3h2 \u0003 0.2h \u0003 4.2",
+        "P(h) \u0002 2__ 3 h3 \u0004 h2 \u0003 3h \u0003 4 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/june-2017/q7.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "What is the solution to the system of equations below? y \u0002 2x \u0003 8 3(\u00042x \u0003 y) \u0002 12",
+      "choices": [
+        "no solution",
+        "in\ufb01 nite solutions",
+        "(\u00041,6)",
+        "( 1__ 2 ,9)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A mapping is shown in the diagram below. Jan Feb Mar Apr 28 29 30 31 This mapping is",
+      "choices": [
+        "a function, because Feb has two outputs, 28 and 29",
+        "a function, because two inputs, Jan and Mar, result in the output 31",
+        "not a function, because Feb has two outputs, 28 and 29",
+        "not a function, because two inputs, Jan and Mar, result in the output 31"
+      ],
+      "image": "/images/exams/algebra-1/june-2017/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "Which polynomial function has zeros at \u00043, 0, and 4?",
+      "choices": [
+        "f(x) \u0002 (x \u0003 3)(x2 \u0003 4)",
+        "f(x) \u0002 (x2 \u0004 3)(x \u0004 4)",
+        "f(x) \u0002 x(x \u0003 3)(x \u0004 4)",
+        "f(x) \u0002 x(x \u0004 3)(x \u0003 4) Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "Jordan works for a landscape company during his summer vacation. He is paid $12 per hour for mowing lawns and $14 per hour for planting gardens. He can work a maximum of 40 hours per week, and would like to earn at least $250 this week. If m represents the number of hours mowing lawns and g represents the number of hours planting gardens, which system of inequalities could be used to represent the given conditions?",
+      "choices": [
+        "m \u0003 g \u2264 40",
+        "m \u0003 g \u2265 40",
+        "m \u0003 g \u2264 40 12m \u0003 14g \u2265 250 12m \u0003 14g \u2264 250",
+        "m \u0003 g \u2265 40 12m \u0003 14g \u2264 250 12m \u0003 14g \u2265 250"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Anne invested $1000 in an account with a 1.3% annual interest rate. She made no deposits or withdrawals on the account for 2 years. If interest was compounded annually, which equation represents the balance in the account after the 2 years?",
+      "choices": [
+        "A \u0002 1000(1 \u0004 0.013)2",
+        "A \u0002 1000(1 \u0003 0.013)2",
+        "A \u0002 1000(1 \u0004 1.3)2",
+        "A \u0002 1000(1 \u0003 1.3)2"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Which value would be a solution for x in the inequality 47 \u0004 4x \u0006 7?",
+      "choices": [
+        "\u000413",
+        "\u000410",
+        "10",
+        "11"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Bella recorded data and used her graphing calculator to \ufb01 nd the equation for the line of best \ufb01 t. She then used the correlation coef\ufb01 cient to determine the strength of the linear \ufb01 t. Which correlation coef\ufb01 cient represents the strongest linear relationship?",
+      "choices": [
+        "0.9",
+        "0.5",
+        "\u00040.3",
+        "\u00040.8 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The heights, in inches, of 12 students are listed below. 61, 67, 72, 62, 65, 59, 60, 79, 60, 61, 64, 63 Which statement best describes the spread of these data?",
+      "choices": [
+        "The set of data is evenly spread.",
+        "The median of the data is 59.5.",
+        "The set of data is skewed because 59 is the only value below 60.",
+        "79 is an outlier, which would affect the standard deviation of these data."
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "The graph of a quadratic function is shown below. y x 0 5 10 15 20 25 0 5 10 15 20 25 An equation that represents the function could be",
+      "choices": [
+        "q(x) \u0002 1__ 2 (x \u0003 15)2 \u0004 25",
+        "q(x) \u0002 \u0004 1__ 2 (x \u0003 15)2 \u0004 25",
+        "q(x) \u0002 1__ 2 (x \u0004 15)2 \u0003 25",
+        "q(x) \u0002 \u0004 1__ 2 (x \u0004 15)2 \u0003 25 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/june-2017/q16.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "Which statement is true about the quadratic functions g(x), shown in the table below, and f(x) \u0002 (x \u0004 3)2 \u0003 2? x g(x) 0 4 1 \u20131 2 \u20134 3 \u20135 4 \u20134 5 \u20131 6 4",
+      "choices": [
+        "They have the same vertex.",
+        "They have the same zeros.",
+        "They have the same axis of symmetry.",
+        "They intersect at two points."
+      ],
+      "image": "/images/exams/algebra-1/june-2017/q17.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "Given the function f(n) de\ufb01 ned by the following: f",
+      "choices": [
+        "{2, 4, 6, 8,\u2026}",
+        "{2, \u00048, 42, \u0004208,\u2026}",
+        "{\u00048, \u000442, \u0004208, 1042,\u2026}",
+        "{\u000410, 50, \u0004250, 1250,\u2026}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "An equation is given below. 4(x \u0004 7) \u0002 0.3(x \u0003 2) \u0003 2.11 The solution to the equation is",
+      "choices": [
+        "8.3",
+        "8.7",
+        "3",
+        "\u00043 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "A construction worker needs to move 120 ft3 of dirt by using a wheelbarrow. One wheelbarrow load holds 8 ft3 of dirt and each load takes him 10 minutes to complete. One correct way to \ufb01 gure out the number of hours he would need to complete this job is",
+      "choices": [
+        "120 ft3 \u2022 10 min \u2022 60 min \u2022 1 load 1 1 load 1 hr 8 ft3",
+        "120 ft3 \u2022 60 min \u2022 8 ft3 \u2022 1 1 1 hr 10 min 1 load",
+        "120 ft3 \u2022 1 load \u2022 8 ft3 \u2022 1 hr 1 10 min 1 load 60 min",
+        "120 ft3 \u2022 1 load \u2022 10 min \u2022 1 hr 1 8 ft3 1 load 60 min"
+      ],
+      "image": "/images/exams/algebra-1/june-2017/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "One characteristic of all linear functions is that they change by",
+      "choices": [
+        "equal factors over equal intervals",
+        "unequal factors over equal intervals",
+        "equal differences over equal intervals",
+        "unequal differences over equal intervals"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "What are the solutions to the equation x2 \u0004 8x \u0002 10?",
+      "choices": [
+        "4 \u0005 \u221a\u2013\u2013\u2013 10",
+        "4 \u0005 \u221a\u2013\u2013\u2013 26",
+        "\u00044 \u0005 \u221a\u2013\u2013\u2013 10",
+        "\u00044 \u0005 \u221a\u2013\u2013\u2013 26 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The formula for blood \ufb02 ow rate is given by F \u0002 p1 \u0004 p2 _______ r , where F is the \ufb02 ow rate, p1 the initial pressure, p2 the \ufb01 nal pressure, and r the resistance created by blood vessel size. Which formula can not be derived from the given formula?",
+      "choices": [
+        "p1 \u0002 Fr \u0003 p2",
+        "p2 \u0002 p1 \u0004 Fr",
+        "r \u0002 F(p2 \u0004 p1)",
+        "r \u0002 p1 \u0004 p2 _______ F"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "Morgan throws a ball up into the air. The height of the ball above the ground, in feet, is modeled by the function h(t) \u0002 \u000416t2 \u0003 24t, where t represents the time, in seconds, since the ball was thrown. What is the appropriate domain for this situation?",
+      "choices": [
+        "0 \u2264 t \u2264 1.5",
+        "0 \u2264 t \u2264 9",
+        "0 \u2264 h(t) \u2264 1.5",
+        "0 \u2264 h(t) \u2264 9 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "multiple-choice",
+      "text": "26",
+      "choices": [
+        "0 \u2264 t \u2264 1.5",
+        "0 \u2264 t \u2264 9",
+        "0 \u2264 h(t) \u2264 1.5",
+        "0 \u2264 h(t) \u2264 9 Algebra I (Common Core) 25 Express in simplest form: (3x2 \u0003 4x \u0004 8) \u0004 (\u00042x2 \u0003 4x \u0003 2) Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Algebra I (Common Core) 26 Graph the function f(x) \u0002 \u0004x2 \u0004 6x on the set of axes below. f(x) x State the coordinates of the vertex of the graph. Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "State whether 7 \u0004 \u221a\u2013\u2013 2 is rational or irrational. Explain your answer.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The value, v(t), of a car depreciates according to the function v(t) \u0002 P(.85) t, where P is the purchase price of the car and t is the time, in years, since the car was purchased. State the percent that the value of the car decreases by each year. Justify your answer. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "A survey of 100 students was taken. It was found that 60 students watched sports, and 34 of these students did not like pop music. Of the students who did not watch sports, 70% liked pop music. Complete the two-way frequency table. Watch Sports Don\u2019t Watch Sports Total Like Pop Don\u2019t Like Pop Total Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2017/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "Graph the inequality y \u0003 4 \u0006 \u00042(x \u0004 4) on the set of axes below. y x Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2017/q30.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "If f(x) \u0002 x2 and g(x) \u0002 x, determine the value(s) of x that satisfy the equation f(x) \u0002 g(x). Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Describe the effect that each transformation below has on the function f(x) \u0002 |x|, where a \u0007 0. g(x) \u0002 |x \u0004 a| h(x) \u0002 |x| \u0004 a Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "The function r(x) is de\ufb01 ned by the expression x2 \u0003 3x \u0004 18. Use factoring to determine the zeros of r(x). Explain what the zeros represent on the graph of r(x). Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided for each question to determine your answer. Note that diagrams are not necessarily drawn to scale. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "The graph below models Craig\u2019s trip to visit his friend in another state. In the course of his travels, he encountered both highway and city driving. 20 0 1 2 3 4 5 6 7 40 60 80 100 120 140 160 180 200 220 240 260 B C D E A Hours Miles Traveled Based on the graph, during which interval did Craig most likely drive in the city? Explain your reasoning. Question 34 is continued on the next page. Algebra I (Common Core) Explain what might have happened in the interval between B and C. Determine Craig\u2019s average speed, to the nearest tenth of a mile per hour, for his entire trip. Question 34 continued. Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2017/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Given: g(x) \u0002 2x2 \u0003 3x \u0003 10 k(x) \u0002 2x \u0003 16 Solve the equation g(x) \u0002 2k(x) algebraically for x, to the nearest tenth. Explain why you chose the method you used to solve this quadratic equation. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "Michael has $10 in his savings account. Option 1 will add $100 to his account each week. Option 2 will double the amount in his account at the end of each week. Write a function in terms of x to model each option of saving. Michael wants to have at least $700 in his account at the end of 7 weeks to buy a mountain bike. Determine which option(s) will enable him to reach his goal. Justify your answer. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "Central High School had \ufb01 ve members on their swim team in 2010. Over the next several years, the team increased by an average of 10 members per year. The same school had 35 members in their chorus in 2010. The chorus saw an increase of 5 members per year. Write a system of equations to model this situation, where x represents the number of years since 2010. Question 37 is continued on the next page. Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. Utilize the information provided to determine your answer. Note that diagrams are not necessarily drawn to scale. A correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil. Algebra I (Common Core) Question 37 continued. Graph this system of equations on the set of axes below. x y Explain in detail what each coordinate of the point of intersection of these equations means in the context of this problem. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \b 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here Algebra I (Common Core) Tear Here Tear Here ALGEBRA I (COMMON CORE) ALGEBRA I (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}

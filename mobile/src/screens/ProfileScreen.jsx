@@ -1,23 +1,26 @@
 import React, { useRef, useState, useEffect } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, StyleSheet,
-  Switch, Alert, Animated, Modal, FlatList,
+  Switch, Alert, Animated, Modal, FlatList, Platform,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
+import { useAuth } from '../hooks/useAuth'
 import { useSubject } from '../context/SubjectContext'
 import { SUBJECT_META } from '../content/subjects'
 import { useProgress } from '../hooks/useProgress'
-import { useXP, getLevel } from '../hooks/useXP'
+import { useRP } from '../hooks/useRP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useNotifications, formatTime } from '../hooks/useNotifications'
 import { auth, db } from '../firebase'
 import { signOut } from 'firebase/auth'
 import { doc, getDoc } from 'firebase/firestore'
 import { T, duoBtn, cardShadow } from '../styles/duo'
-import { useDoubleXP } from '../context/DoubleXPContext'
+import { useDoubleRP } from '../context/DoubleRPContext'
 import { useSubscription } from '../context/SubscriptionContext'
+import NudgeBanner from '../components/NudgeBanner'
+import { getEngagementNudge } from '../hooks/useEngagementNudge'
 
 const AVATAR_COLORS = ['#58CC02', '#1CB0F6', '#CE82FF', '#FFC800', '#FF4B4B']
 
@@ -33,13 +36,13 @@ const TIME_OPTIONS = Array.from({ length: 36 }, (_, i) => {
 export default function ProfileScreen({ navigation }) {
   const { C, isDark, toggleTheme } = useTheme()
   const { user } = useAuthContext()
+  const { deleteAccount } = useAuth()
   const uid = user?.uid
 
   const { history }                   = useProgress(uid)
-  const { xp }                        = useXP(uid)
-  const { streak }                    = useDailyStreak(uid)
-  const level                         = getLevel(xp)
-  const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleXP()
+  const { rp, weeklyRP, level }       = useRP(uid)
+  const { streak, longestStreak }     = useDailyStreak(uid)
+  const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
   const { isSubscribed } = useSubscription()
 
   const { subject, setSubject } = useSubject()
@@ -61,10 +64,17 @@ export default function ProfileScreen({ navigation }) {
     hour: notifHour, minute: notifMinute,
   } = useNotifications(streak)
 
-  const [showTimePicker, setShowTimePicker] = useState(false)
+  const [showTimePicker,    setShowTimePicker]    = useState(false)
+  const [showSubjectPicker, setShowSubjectPicker] = useState(false)
+  const [nudgeDismissed,    setNudgeDismissed]    = useState(false)
+
+  // Reset nudge on screen focus
+  useEffect(() => navigation.addListener('focus', () => setNudgeDismissed(false)), [navigation])
 
   // Slide-up animation for time picker modal
-  const slideAnim = useRef(new Animated.Value(400)).current
+  const slideAnim        = useRef(new Animated.Value(400)).current
+  const subjectSlideAnim = useRef(new Animated.Value(400)).current
+
   function openTimePicker() {
     setShowTimePicker(true)
     slideAnim.setValue(400)
@@ -73,6 +83,17 @@ export default function ProfileScreen({ navigation }) {
   function closeTimePicker() {
     Animated.timing(slideAnim, { toValue: 400, duration: 200, useNativeDriver: true }).start(
       () => setShowTimePicker(false)
+    )
+  }
+
+  function openSubjectPicker() {
+    setShowSubjectPicker(true)
+    subjectSlideAnim.setValue(400)
+    Animated.spring(subjectSlideAnim, { toValue: 0, tension: 120, friction: 10, useNativeDriver: true }).start()
+  }
+  function closeSubjectPicker() {
+    Animated.timing(subjectSlideAnim, { toValue: 400, duration: 200, useNativeDriver: true }).start(
+      () => setShowSubjectPicker(false)
     )
   }
 
@@ -92,6 +113,53 @@ export default function ProfileScreen({ navigation }) {
         try { await signOut(auth) } catch (e) { Alert.alert('Error', e.message) }
       }},
     ])
+  }
+
+  async function performDelete(password) {
+    try {
+      // On success, onAuthStateChanged clears the user and the app routes to login.
+      await deleteAccount({ password })
+    } catch (e) {
+      const msg =
+        e?.code === 'auth/wrong-password' || e?.code === 'auth/invalid-credential'
+          ? 'Incorrect password. Please try again.'
+          : e?.code === 'auth/requires-recent-login'
+          ? 'For your security, please sign out, sign back in, and try again.'
+          : (e?.message || 'Could not delete your account. Please try again.')
+      Alert.alert('Delete Failed', msg)
+    }
+  }
+
+  function handleDeleteAccount() {
+    const providerId = user?.providerData?.[0]?.providerId
+    Alert.alert(
+      'Delete Account',
+      'This permanently deletes your account and all your data — progress, streaks, friends, and pets. This cannot be undone.',
+      [
+        { text: 'Cancel', style: 'cancel' },
+        {
+          text: 'Delete',
+          style: 'destructive',
+          onPress: () => {
+            // Email/password users must re-enter their password to confirm.
+            if (providerId === 'password' && Platform.OS === 'ios') {
+              Alert.prompt(
+                'Confirm Password',
+                'Enter your password to permanently delete your account.',
+                [
+                  { text: 'Cancel', style: 'cancel' },
+                  { text: 'Delete', style: 'destructive', onPress: (pw) => performDelete(pw) },
+                ],
+                'secure-text',
+              )
+            } else {
+              // Google users re-authenticate via the Google sheet; guests delete directly.
+              performDelete()
+            }
+          },
+        },
+      ],
+    )
   }
 
   async function handleToggleNotif() {
@@ -125,7 +193,7 @@ export default function ProfileScreen({ navigation }) {
           <Text style={[T.body, { color: C.textMuted }]}>{user?.email ?? 'Guest Account'}</Text>
           <View style={[s.levelBadge, { backgroundColor: C.brandBg, borderColor: C.brand }]}>
             <Text style={[T.body, { color: C.brand }]}>⭐ {level.name}</Text>
-            <Text style={[T.small, { color: C.textMuted, marginLeft: 6 }]}>Lv. {level.level} · {xp} XP</Text>
+            <Text style={[T.small, { color: C.textMuted, marginLeft: 6 }]}>Lv. {level.level} · {rp} RP</Text>
           </View>
         </View>
 
@@ -134,7 +202,7 @@ export default function ProfileScreen({ navigation }) {
           {[
             { num: totalQuizzes, label: 'Quizzes' },
             { num: `${avgScore}%`, label: 'Avg Score' },
-            { num: xp, label: 'Total XP' },
+            { num: rp, label: 'Total RP' },
           ].map(({ num, label }) => (
             <View key={label} style={[s.statCard, cardShadow(C.shadow)]}>
               <Text style={[T.num, { color: C.brand, fontSize: 24 }]}>{num}</Text>
@@ -143,27 +211,29 @@ export default function ProfileScreen({ navigation }) {
           ))}
         </View>
 
+        {/* Engagement nudge */}
+        {!nudgeDismissed && (() => {
+          const nudge = getEngagementNudge('profile', { streak, longestStreak, weeklyRP })
+          return nudge && <NudgeBanner {...nudge} onDismiss={() => setNudgeDismissed(true)} />
+        })()}
+
         {/* ── Regents Exam Selection ── */}
-        <View style={[s.section, cardShadow(C.shadow), { backgroundColor: C.surface }]}>
-          <Text style={[T.label, { color: C.textMuted, marginBottom: 10 }]}>MY REGENTS EXAM</Text>
-          <View style={s.subjectGrid}>
-            {Object.values(SUBJECT_META).map(({ id, name, icon, color }) => {
-              const active = subject === id
-              return (
-                <TouchableOpacity
-                  key={id}
-                  style={[s.subjectChip, { borderColor: active ? color : C.border, backgroundColor: active ? color + '20' : C.surface2 }]}
-                  onPress={() => setSubject(id)}
-                  activeOpacity={0.75}
-                >
-                  <Text style={s.subjectIcon}>{icon}</Text>
-                  <Text style={[s.subjectName, { color: active ? color : C.textMuted }]}>{name}</Text>
-                  {active && <Text style={[s.subjectCheck, { color }]}>✓</Text>}
-                </TouchableOpacity>
-              )
-            })}
+        <TouchableOpacity
+          style={[s.rowCard, cardShadow(C.shadow)]}
+          onPress={openSubjectPicker}
+          activeOpacity={0.85}
+        >
+          <View style={s.rowLeft}>
+            <Text style={{ fontSize: 28 }}>{SUBJECT_META[subject]?.icon ?? '📚'}</Text>
+            <View style={{ marginLeft: 12 }}>
+              <Text style={[T.h3, { color: C.text }]}>My Regents Exam</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                {SUBJECT_META[subject]?.name ?? 'Select subject'}
+              </Text>
+            </View>
           </View>
-        </View>
+          <Text style={[T.body, { color: C.textMuted }]}>›</Text>
+        </TouchableOpacity>
 
         {/* ── School ── */}
         {!user?.isAnonymous && (
@@ -185,7 +255,7 @@ export default function ProfileScreen({ navigation }) {
           </TouchableOpacity>
         )}
 
-        {/* ── XP Shop ── */}
+        {/* ── RP Shop ── */}
         <TouchableOpacity
           style={[s.rowCard, cardShadow(C.shadow)]}
           onPress={() => navigation.navigate('Shop')}
@@ -194,7 +264,7 @@ export default function ProfileScreen({ navigation }) {
           <View style={s.rowLeft}>
             <Text style={{ fontSize: 28 }}>🛒</Text>
             <View style={{ marginLeft: 12 }}>
-              <Text style={[T.h3, { color: C.text }]}>XP Shop</Text>
+              <Text style={[T.h3, { color: C.text }]}>RP Shop</Text>
               <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Freeze, hearts, boosts</Text>
             </View>
           </View>
@@ -208,6 +278,25 @@ export default function ProfileScreen({ navigation }) {
             )}
             <Text style={[T.body, { color: C.textMuted }]}>›</Text>
           </View>
+        </TouchableOpacity>
+
+
+        {/* ── Pet Personality Quiz ── */}
+        <TouchableOpacity
+          style={[s.rowCard, cardShadow(C.shadow)]}
+          onPress={() => navigation.navigate('PetPersonalityQuiz')}
+          activeOpacity={0.85}
+        >
+          <View style={s.rowLeft}>
+            <Text style={{ fontSize: 28 }}>🐾</Text>
+            <View style={{ marginLeft: 12 }}>
+              <Text style={[T.h3, { color: C.text }]}>Find Your Pet</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                Discover which pet matches your personality
+              </Text>
+            </View>
+          </View>
+          <Text style={[T.body, { color: C.textMuted }]}>›</Text>
         </TouchableOpacity>
 
         {/* ── Support / Subscribe ── */}
@@ -319,11 +408,50 @@ export default function ProfileScreen({ navigation }) {
           </TouchableOpacity>
         </View>
 
+        {/* ── Delete account (App Store Guideline 5.1.1(v)) ── */}
+        <TouchableOpacity onPress={handleDeleteAccount} style={{ marginTop: 12, alignItems: 'center', paddingVertical: 8 }}>
+          <Text style={[T.label, { color: C.textDim, textTransform: 'none', letterSpacing: 0, textDecorationLine: 'underline' }]}>
+            Delete Account
+          </Text>
+        </TouchableOpacity>
+
         <Text style={[T.label, { color: C.textDim, textAlign: 'center', marginTop: 12, textTransform: 'none', letterSpacing: 0 }]}>
           Regents Prep · v1.0.0
         </Text>
         <View style={{ height: 40 }} />
       </ScrollView>
+
+      {/* ── Subject Picker Modal ── */}
+      <Modal
+        visible={showSubjectPicker}
+        transparent
+        animationType="none"
+        onRequestClose={closeSubjectPicker}
+      >
+        <TouchableOpacity style={s.backdrop} activeOpacity={1} onPress={closeSubjectPicker} />
+        <Animated.View style={[s.sheet, { transform: [{ translateY: subjectSlideAnim }] }]}>
+          <View style={[s.handle, { backgroundColor: C.border }]} />
+          <Text style={[T.h3, { color: C.text, textAlign: 'center', marginBottom: 16 }]}>
+            My Regents Exam
+          </Text>
+          {Object.values(SUBJECT_META).map(({ id, name, icon, color }) => {
+            const active = subject === id
+            return (
+              <TouchableOpacity
+                key={id}
+                style={[s.subjectRow, { borderColor: active ? color : C.border, backgroundColor: active ? color + '15' : C.surface }]}
+                onPress={() => { setSubject(id); closeSubjectPicker() }}
+                activeOpacity={0.75}
+              >
+                <Text style={{ fontSize: 24 }}>{icon}</Text>
+                <Text style={[T.body, { color: active ? color : C.text, flex: 1, marginLeft: 12, fontWeight: active ? '700' : '400' }]}>{name}</Text>
+                {active && <Text style={{ color, fontSize: 16, fontWeight: '800' }}>✓</Text>}
+              </TouchableOpacity>
+            )
+          })}
+          <View style={{ height: 24 }} />
+        </Animated.View>
+      </Modal>
 
       {/* ── Time Picker Modal ── */}
       <Modal
@@ -405,12 +533,7 @@ function makeStyles(C) {
     statsRow:    { flexDirection: 'row', marginHorizontal: 16, gap: 10, marginBottom: 16 },
     statCard:    { flex: 1, backgroundColor: C.surface, borderRadius: 16, padding: 14, alignItems: 'center', borderWidth: 1, borderColor: C.border },
 
-    section:     { marginHorizontal: 16, marginBottom: 16, borderRadius: 18, padding: 16, borderWidth: 1, borderColor: C.border },
-    subjectGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
-    subjectChip: { flexDirection: 'row', alignItems: 'center', gap: 6, borderWidth: 1.5, borderRadius: 99, paddingHorizontal: 12, paddingVertical: 7 },
-    subjectIcon: { fontSize: 16 },
-    subjectName: { fontSize: 12, fontWeight: '700' },
-    subjectCheck:{ fontSize: 12, fontWeight: '800', marginLeft: 2 },
+    subjectRow:  { flexDirection: 'row', alignItems: 'center', borderWidth: 1.5, borderRadius: 14, paddingHorizontal: 14, paddingVertical: 13, marginBottom: 8 },
 
     rowCard: {
       flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',

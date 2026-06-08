@@ -1,0 +1,491 @@
+{
+  "subject": "algebra-1",
+  "session": "june-2014",
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple-choice",
+      "text": "When solving the equation 4(3x2 \u0002 2) \u0003 9 \u0004 8x2 \u0002 7, Emily wrote 4(3x2 \u0002 2) \u0004 8x2 \u0002 16 as her first step. Which property justifies Emily\u2019s first step?",
+      "choices": [
+        "addition property of equality",
+        "commutative property of addition",
+        "multiplication property of equality",
+        "distributive property of multiplication over addition"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 2,
+      "type": "multiple-choice",
+      "text": "Officials in a town use a function, C, to analyze traffic patterns. C(n) represents the rate of traffic through an intersection where n is the number of observed vehicles in a specified time interval. What would be the most appropriate domain for the function?",
+      "choices": [
+        "{\u2026\u00032, \u00031, 0, 1, 2, 3, \u2026}",
+        "{\u00032, \u00031, 0, 1, 2, 3}",
+        "{0, 1__ 2 , 1, 1 1__ 2 , 2, 2 1__ 2 }",
+        "{0, 1, 2, 3, \u2026}"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 3,
+      "type": "multiple-choice",
+      "text": "If A \u0004 3x2 \u0002 5x \u0003 6 and B \u0004 \u00032x2 \u0003 6x \u0002 7, then A \u0003 B equals",
+      "choices": [
+        "\u00035x2 \u0003 11x \u0002 13",
+        "5x2 \u0002 11x \u0003 13",
+        "\u00035x2 \u0003 x \u0002 1",
+        "5x2 \u0003 x \u0002 1 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 4,
+      "type": "written",
+      "text": "Given: y \u0002 x \u0003 2 y \u0004 3x \u0005 2 Which graph shows the solution of the given set of inequalities?",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2014/q4.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 5,
+      "type": "multiple-choice",
+      "text": "Which value of x satisfies the equation 7__ 3 (x \u0002 9 ___ 28) \u0006 20?",
+      "choices": [
+        "",
+        "",
+        "",
+        "y x y x y x y x Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 6,
+      "type": "multiple-choice",
+      "text": "The table below shows the average yearly balance in a savings account where interest is compounded annually. No money is deposited or withdrawn after the initial amount is deposited. Which type of function best models the given data?",
+      "choices": [
+        "linear function with a negative rate of change",
+        "linear function with a positive rate of change",
+        "exponential decay function",
+        "exponential growth function"
+      ],
+      "image": "/images/exams/algebra-1/june-2014/q6.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 7,
+      "type": "multiple-choice",
+      "text": "A company that manufactures radios first pays a start-up cost, and then spends a certain amount of money to manufacture each radio. If the cost of manufacturing r radios is given by the function c(r) \u0004 5.25r \u0002 125, then the value 5.25 best represents",
+      "choices": [
+        "the start-up cost",
+        "the profit earned from the sale of one radio",
+        "the amount spent to manufacture each radio",
+        "the average number of radios manufactured"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 8,
+      "type": "multiple-choice",
+      "text": "Which equation has the same solution as x2 \u0003 6x \u0003 12 \u0004 0?",
+      "choices": [
+        "(x \u0002 3)2 \u0004 21",
+        "(x \u0003 3)2 \u0004 21",
+        "(x \u0002 3)2 \u0004 3",
+        "(x \u0003 3)2 \u0004 3 Year Balance, in Dollars 0 380.00 10 562.49 20 832.63 30 1232.49 40 1824.39 50 2700.54 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 9,
+      "type": "multiple-choice",
+      "text": "A ball is thrown into the air from the edge of a 48-foot-high cliff so that it eventually lands on the ground. The graph below shows the height, y, of the ball from the ground after x seconds. For which interval is the ball\u2019s height always decreasing?",
+      "choices": [
+        "0 \u0006 x \u0006 2.5",
+        "0 \u0007 x \u0007 5.5",
+        "2.5 \u0007 x \u0007 5.5",
+        "x \b 2"
+      ],
+      "image": "/images/exams/algebra-1/june-2014/q9.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 10,
+      "type": "multiple-choice",
+      "text": "What are the roots of the equation x2 \u0002 4x \u0003 16 \u0004 0?",
+      "choices": [
+        "",
+        "",
+        "",
+        "\u0003 2 2 5 \u0003 2 5 4 2 2 5 2 5 4 1 48 32 192 6 16 y x 5 4 3 2 64 80 176 96 112 128 144 160 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/june-2014/q10.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 11,
+      "type": "multiple-choice",
+      "text": "What is the correlation coefficient of the linear fit of the data shown below, to the nearest hundredth?",
+      "choices": [
+        "1.00",
+        "0.93",
+        "\u00030.93",
+        "\u00031.00"
+      ],
+      "image": "/images/exams/algebra-1/june-2014/q11.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 12,
+      "type": "multiple-choice",
+      "text": "Keith determines the zeros of the function f(x) to be \u00036 and 5. What could be Keith\u2019s function?",
+      "choices": [
+        "f(x) \u0004 (x \u0002 5)(x \u0002 6)",
+        "f(x) \u0004 (x \u0002 5)(x \u0003 6)",
+        "f(x) \u0004 (x \u0003 5)(x \u0002 6)",
+        "f(x) \u0004 (x \u0003 5)(x \u0003 6)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 13,
+      "type": "multiple-choice",
+      "text": "Given: L \u0004 M \u0004 N \u0004 P \u0004 Which expression results in a rational number?",
+      "choices": [
+        "L \u0002 M",
+        "M \u0002 N",
+        "N \u0002 P",
+        "P \u0002 L 9 16 3 3 2 2 4 6 8 2 4 6 8 y x Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/june-2014/q13.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 14,
+      "type": "multiple-choice",
+      "text": "Which system of equations has the same solution as the system below? 2x \u0002 2y \u0004 16 3x \u0003 y \u0004 4",
+      "choices": [
+        "2x \u0002 2y \u0004 16",
+        "2x \u0002 2y \u0004 16",
+        "x \u0002 y \u0004 16 6x \u0003 2y \u0004 4 3x \u0003 y \u0004 4",
+        "6x \u0002 6y \u0004 48 6x \u0003 2y \u0004 8 6x \u0002 2y \u0004 8"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 15,
+      "type": "multiple-choice",
+      "text": "The table below represents the function F. The equation that represents this function is",
+      "choices": [
+        "F(x) \u0004 3x",
+        "F(x) \u0004 3x",
+        "F(x) \u0004 2x \u0002 1",
+        "F(x) \u0004 2x \u0002 3"
+      ],
+      "image": "/images/exams/algebra-1/june-2014/q15.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 16,
+      "type": "multiple-choice",
+      "text": "John has four more nickels than dimes in his pocket, for a total of $1.25. Which equation could be used to determine the number of dimes, x, in his pocket?",
+      "choices": [
+        "0.10(x \u0002 4) \u0002 0.05(x) \u0004 $1.25",
+        "0.05(x \u0002 4) \u0002 0.10(x) \u0004 $1.25",
+        "0.10(4x) \u0002 0.05(x) \u0004 $1.25",
+        "0.05(4x) \u0002 0.10(x) \u0004 $1.25"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 17,
+      "type": "multiple-choice",
+      "text": "If f(x) \u0004 1__ 3 x \u0002 9, which statement is always true?",
+      "choices": [
+        "f(x) \u0007 0",
+        "f(x) \u0005 0",
+        "If x \u0007 0, then f(x) \u0007 0.",
+        "If x \u0005 0, then f(x) \u0005 0. x 3 4 6 7 8 F(x) 9 17 65 129 257 Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 18,
+      "type": "multiple-choice",
+      "text": "The Jamison family kept a log of the distance they traveled during a trip, as represented by the graph below. During which interval was their average speed the greatest?",
+      "choices": [
+        "the first hour to the second hour",
+        "the second hour to the fourth hour",
+        "the sixth hour to the eighth hour",
+        "the eighth hour to the tenth hour"
+      ],
+      "image": "/images/exams/algebra-1/june-2014/q18.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 19,
+      "type": "multiple-choice",
+      "text": "Christopher looked at his quiz scores shown below for the first and second semester of his Algebra class. Semester 1: 78, 91, 88, 83, 94 Semester 2: 91, 96, 80, 77, 88, 85, 92 Which statement about Christopher\u2019s performance is correct?",
+      "choices": [
+        "The interquartile range for semester 1 is greater than the interquartile range for semester 2.",
+        "The median score for semester 1 is greater than the median score for semester 2.",
+        "The mean score for semester 2 is greater than the mean score for semester 1.",
+        "The third quartile for semester 2 is greater than the third quartile for semester 1. (1,40) (2,110) (4,180) (6,230) (8,350) (10,390) Elapsed Time (hours) Distance Traveled (miles) Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 20,
+      "type": "multiple-choice",
+      "text": "The graph of y \u0004 f(x) is shown below. Which point could be used to find f",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "image": "/images/exams/algebra-1/june-2014/q20.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 21,
+      "type": "multiple-choice",
+      "text": "A sunflower is 3 inches tall at week 0 and grows 2 inches each week. Which function(s) shown below can be used to determine the height, f(n), of the sunflower in n weeks? I. f(n) \u0004 2n \u0002 3 II. f(n) \u0004 2n \u0002 3(n \u0003 1) III. f(n) \u0004 f(n \u0003 1) \u0002 2 where f(0) \u0004 3",
+      "choices": [
+        "I and II",
+        "II, only",
+        "III, only",
+        "I and III y x C D B A Algebra I (Common Core)"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 22,
+      "type": "multiple-choice",
+      "text": "A cell phone company charges $60.00 a month for up to 1 gigabyte of data. The cost of additional data is $0.05 per megabyte. If d represents the number of additional megabytes used and c represents the total charges at the end of the month, which linear equation can be used to determine a user\u2019s monthly bill?",
+      "choices": [
+        "c \u0004 60 \u0003 0.05d",
+        "c \u0004 60.05d",
+        "c \u0004 60d \u0003 0.05",
+        "c \u0004 60 \u0002 0.05d"
+      ],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 23,
+      "type": "multiple-choice",
+      "text": "The formula for the volume of a cone is V \u0004 1__ 3 \u03c0r2h. The radius, r, of the cone may be expressed as",
+      "choices": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "image": "/images/exams/algebra-1/june-2014/q23.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 24,
+      "type": "multiple-choice",
+      "text": "The diagrams below represent the first three terms of a sequence. Assuming the pattern continues, which formula determines an, the number of shaded squares in the nth term?",
+      "choices": [
+        "an \u0004 4n \u0002 12",
+        "an \u0004 4n \u0002 8",
+        "an \u0004 4n \u0002 4",
+        "an \u0004 4n \u0002 2 Term 3 Term 2 Term 1 V h 3\u03c0 1 3 V h \u03c0 3V h \u03c0 3 V h \u03c0 Algebra I (Common Core)"
+      ],
+      "image": "/images/exams/algebra-1/june-2014/q24.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 25,
+      "type": "written",
+      "text": "Draw the graph of on the set of axes below. y x y x \u0004 \u0003 1 Part II Answer all 8 questions in this part. Each correct answer will receive 2 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2014/q25.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 26,
+      "type": "written",
+      "text": "The breakdown of a sample of a chemical compound is represented by the function p(t) \u0004 300(0.5)t, where p(t) represents the number of milligrams of the substance and t represents the time, in years. In the function p(t), explain what 0.5 and 300 represent.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 27,
+      "type": "written",
+      "text": "Given 2x \u0002 ax \u0003 7 \u0005 \u000312, determine the largest integer value of a when x \u0004 \u00031. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 28,
+      "type": "written",
+      "text": "The vertex of the parabola represented by f(x) \u0004 x2 \u0003 4x \u0002 3 has coordinates (2,\u00031). Find the coordinates of the vertex of the parabola defined by g(x) \u0004 f(x \u0003 2). Explain how you arrived at your answer. [The use of the set of axes below is optional.] y x Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2014/q28.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 29,
+      "type": "written",
+      "text": "On the set of axes below, draw the graph of the equation y \u0004 \u0003 3__ 4 x \u0002 3. Is the point (3,2) a solution to the equation? Explain your answer based on the graph drawn. y x Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2014/q29.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 30,
+      "type": "written",
+      "text": "The function f has a domain of {1, 3, 5, 7} and a range of {2, 4, 6}. Could f be represented by {(1,2), (3,4), (5,6), (7,2)}? Justify your answer.",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 31,
+      "type": "written",
+      "text": "Factor the expression x4 \u0002 6x2 \u0003 7 completely. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 32,
+      "type": "written",
+      "text": "Robin collected data on the number of hours she watched television on Sunday through Thursday nights for a period of 3 weeks. The data are shown in the table below. Using an appropriate scale on the number line below, construct a box plot for the 15 values. Sun Mon Tues Wed Thurs Week 1 4 3 3.5 2 2 Week 2 4.5 5 2.5 3 1.5 Week 3 4 3 1 1.5 2.5 Algebra I (Common Core) Algebra I (Common Core) Part III Answer all 4 questions in this part. Each correct answer will receive 4 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. For all questions in this part, a correct numerical answer with no work shown will receive only 1 credit. All answers should be written in pen, except for graphs and drawings, which should be done in pencil.",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2014/q32.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 33,
+      "type": "written",
+      "text": "Write an equation that defines m(x) as a trinomial where m(x) \u0004 (3x \u0003 1)(3 \u0003 x) \u0002 4x2 \u0002 19. Solve for x when m(x) \u0004 0. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 34,
+      "type": "written",
+      "text": "A rectangular garden measuring 12 meters by 16 meters is to have a walkway installed around it with a width of x meters, as shown in the diagram below. Together, the walkway and the garden have an area of 396 square meters. Write an equation that can be used to find x, the width of the walkway. Describe how your equation models the situation. Determine and state the width of the walkway, in meters. 16 m x x x x 12 m Garden Walkway Algebra I (Common Core)",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2014/q34.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 35,
+      "type": "written",
+      "text": "Caitlin has a movie rental card worth $175. After she rents the first movie, the card\u2019s value is $172.25. After she rents the second movie, its value is $169.50. After she rents the third movie, the card is worth $166.75. Assuming the pattern continues, write an equation to define A(n), the amount of money on the rental card after n rentals. Caitlin rents a movie every Friday night. How many weeks in a row can she afford to rent a movie, using her rental card only? Explain how you arrived at your answer. Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 36,
+      "type": "written",
+      "text": "An animal shelter spends $2.35 per day to care for each cat and $5.50 per day to care for each dog. Pat noticed that the shelter spent $89.50 caring for cats and dogs on Wednesday. Write an equation to represent the possible numbers of cats and dogs that could have been at the shelter on Wednesday. Pat said that there might have been 8 cats and 14 dogs at the shelter on Wednesday. Are Pat\u2019s numbers possible? Use your equation to justify your answer. Later, Pat found a record showing that there were a total of 22 cats and dogs at the shelter on Wednesday. How many cats were at the shelter on Wednesday? Algebra I (Common Core)",
+      "choices": [],
+      "image": null,
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    },
+    {
+      "number": 37,
+      "type": "written",
+      "text": "A company is considering building a manufacturing plant. They determine the weekly production cost at site A to be A(x) \u0004 3x2 while the production cost at site B is B(x) \u0004 8x \u0002 3, where x represents the number of products, in hundreds, and A(x) and B(x) are the production costs, in hundreds of dollars. Graph the production cost functions on the set of axes below and label them site A and site B. y x Number of Products (hundreds) Cost (hundreds of dollars) 1 2 3 4 10 20 30 40 50 Part IV Answer the question in this part. A correct answer will receive 6 credits. Clearly indicate the necessary steps, including appropriate formula substitutions, diagrams, graphs, charts, etc. A correct numerical answer with no work shown will receive only 1 credit. The answer should be written in pen. Question 37 is continued on the next page. Algebra I (Common Core) State the positive value(s) of x for which the production costs at the two sites are equal. Explain how you determined your answer. If the company plans on manufacturing 200 products per week, which site should they use? Justify your answer. Question 37 continued Tear Here Tear Here Scrap Graph Paper \u2014 This sheet will not be scored. Scrap Graph Paper \u2014 This sheet will not be scored. Tear Here Tear Here Algebra I (Common Core) Tear Here Tear Here High School Math Reference Sheet 1 inch \u0002 2.54 centimeters 1 kilometer \u0002 0.62 mile 1 cup \u0002 8 fluid ounces 1 meter \u0002 39.37 inches 1 pound \u0002 16 ounces 1 pint \u0002 2 cups 1 mile \u0002 5280 feet 1 pound \u0002 0.454 kilogram 1 quart \u0002 2 pints 1 mile \u0002 1760 yards 1 kilogram \u0002 2.2 pounds 1 gallon \u0002 4 quarts 1 mile \u0002 1.609 kilometers 1 ton \u0002 2000 pounds 1 gallon \u0002 3.785 liters 1 liter \u0002 0.264 gallon 1 liter \u0002 1000 cubic centimeters Triangle A \u0002 bh 1 2 Parallelogram A \u0002 bh Circle A \u0002 \u03c0r2 Circle C \u0002 \u03c0d or C \u0002 2\u03c0r General Prisms V \u0002 Bh Cylinder V \u0002 \u03c0r2h Sphere V \u0002 \u03c0r3 4 3 Cone V \u0002 \u03c0r2h 1 3 Pyramid V \u0002 Bh 1 3 Pythagorean Theorem a2 \u0003 b2 \u0002 c2 Quadratic Formula x \u0002 \u0004 \u0005 \u0004 b a b2 2 4ac Arithmetic Sequence an \u0002 a1 \u0003 (n \u0004 1)d Geometric Sequence an \u0002 a1r n \u0004 1 Geometric Series Sn \u0002 where r \u0006 1 a a r r n 1 1 1 \u0004 \u0004 Radians 1 radian \u0002 degrees 180 \u03c0 Degrees 1 degree \u0002 radians \u03c0 180 Exponential Growth/Decay A \u0002 A0ek(t \u0004 t0) \u0003 B0 Tear Here Tear Here ALGEBRA I (COMMON CORE) ALGEBRA I (COMMON CORE) Printed on Recycled Paper",
+      "choices": [],
+      "image": "/images/exams/algebra-1/june-2014/q37.png",
+      "context": null,
+      "correct": null,
+      "modelAnswer": null
+    }
+  ]
+}
