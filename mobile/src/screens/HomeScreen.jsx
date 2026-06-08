@@ -48,6 +48,7 @@ const W_RAW = Dimensions.get('window').width
 const width = Platform.OS === 'web' ? Math.min(Math.max(W_RAW || 360, 320), 480) : W_RAW
 const NODE_SIZE = 84
 const ZIGZAG   = 72
+const COLORS = { axolotl: '#ec4899', fox: '#f97316', capybara: '#84cc16', voidCat: '#8b5cf6', bear: '#a16207', bunny: '#f472b6' }
 
 export default function HomeScreen({ navigation }) {
   const { C, isDark } = useTheme()
@@ -112,21 +113,22 @@ export default function HomeScreen({ navigation }) {
       })()
     }
 
-    // Daily greeting (once per day, cached)
+    // Daily greeting (once per day, cached) — stored in state, shown in right-side bubble
     loadDailyMessage({
       uid,
       petType:       pet.petType,
       streak,
       daysUntilExam: 14,  // TODO: wire to real exam date
       subject,
-    }).then((msg) => { if (msg) say(msg) }).catch(() => {})
+    }).then((msg) => { if (msg) setDailyMsg(msg) }).catch(() => {})
   }, [reloadSkipUnlocks, pendingEvolution, uid, streak]))
 
   const { goal, setGoal, todayXP, progress: goalProgress, goalMet, GOALS } = useDailyGoal(xp)
   const { mistakes, mistakeCount } = useMistakes()
   const { pet, pendingEvolution, getPetMessage, dailyDig, getTodayQuest, updateQuestProgress, triggerReaction, addInventory } = usePetContext()
-  const { say } = useSpeechContext()
+  const { say, current: speechCurrent, onDone: onSpeechDone } = useSpeechContext()
 
+  const [dailyMsg,        setDailyMsg]         = useState(null)
   const [selectedLesson,  setSelectedLesson]  = useState(null)
   const [showGoalPicker,  setShowGoalPicker]   = useState(false)
   const [digReward,       setDigReward]        = useState(null)
@@ -192,6 +194,13 @@ export default function HomeScreen({ navigation }) {
     }, delay)
     return () => clearTimeout(id)
   }, [pet.petType])
+
+  // ── Auto-advance speech queue: dismiss current after 4 s ─────────────────
+  useEffect(() => {
+    if (!speechCurrent) return
+    const id = setTimeout(() => onSpeechDone?.(), 4000)
+    return () => clearTimeout(id)
+  }, [speechCurrent])
 
   // ── Tips sheet open / close ──────────────────────────────────────────────
   function openTips(unit) {
@@ -500,19 +509,22 @@ export default function HomeScreen({ navigation }) {
         {pet.chosen && (
           <View style={s.petSection}>
             <View style={s.petRow}>
-              <PetWidget size={90} onLongPress={() => navigation.navigate('PetShop')} />
-              
-              {/* Personality message */}
+              <PetWidget size={90} onLongPress={() => navigation.navigate('PetShop')} isSpeaking={!!speechCurrent} />
+
+              {/* Speech bubble — right side, shows active speech or daily message */}
               {(() => {
                 const daysSince = studiedToday ? 0 : 1
-                const msg = getPetMessage({ streak, daysSince })
+                const msg = speechCurrent || dailyMsg || getPetMessage({ streak, daysSince })
                 if (!msg) return null
+                const accentColor = COLORS[pet.petType] ?? C.brand
                 return (
-                  <View style={[s.petMsgBubble, { backgroundColor: C.surface, borderColor: C.border }, glassStyle]}>
-                    <Text style={[T.small, { color: C.text, lineHeight: 18 }]}>
+                  <View style={[s.petMsgBubble, { backgroundColor: C.surface, borderColor: C.border, borderLeftColor: accentColor, borderLeftWidth: 3 }, glassStyle]}>
+                    {pet.name ? (
+                      <Text style={[T.label, { color: accentColor, marginBottom: 4 }]}>{pet.name}</Text>
+                    ) : null}
+                    <Text style={[T.body, { color: C.text, lineHeight: 20, fontSize: 14 }]}>
                       {msg}
                     </Text>
-                    {/* Speech bubble pointer arrow */}
                     <View style={[s.bubblePointer, { borderRightColor: C.surface, borderLeftColor: 'transparent' }]} />
                   </View>
                 )
@@ -958,9 +970,10 @@ function makeStyles(C) {
     },
     petMsgBubble: {
       flex: 1,
-      borderRadius: 16,
+      borderRadius: 12,
       borderWidth: 1,
-      paddingHorizontal: 16,
+      borderLeftWidth: 3,
+      paddingHorizontal: 14,
       paddingVertical: 12,
       position: 'relative',
       justifyContent: 'center',
