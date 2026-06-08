@@ -53,7 +53,7 @@ pod --version
 # Install JS dependencies (patch-package runs via postinstall).
 echo "==> npm ci in mobile/"
 cd "$mobile_dir"
-npm ci
+npm ci --legacy-peer-deps
 
 # Install CocoaPods.
 echo "==> pod install in mobile/ios/"
