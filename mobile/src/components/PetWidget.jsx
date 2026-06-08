@@ -1,9 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { View, Text, Image, TouchableOpacity, Animated, StyleSheet } from 'react-native'
 import { usePetContext } from '../context/PetContext'
-import { useSpeechContext } from '../context/SpeechContext'
 import { PETS, STAGE_OVERLAYS } from '../data/petConfig'
-import SpeechBubble from './SpeechBubble'
 import { usePetAnimation } from '../hooks/usePetAnimation'
 import PET_SPRITES from '../assets/petSprites'
 import SpriteAnimation from './SpriteAnimation'
@@ -17,7 +15,7 @@ const PARTICLE_POSITIONS = [
   { bottom: 10, right: 5  },
 ]
 
-export default function PetWidget({ size = 120, onPress, onLongPress, mini = false }) {
+export default function PetWidget({ size = 120, onPress, onLongPress, mini = false, isSpeaking = false }) {
   const { pet, activeReaction, activeFloatMessage, petPet } = usePetContext()
   const config = PETS.find((p) => p.id === pet.petType)
 
@@ -31,9 +29,6 @@ export default function PetWidget({ size = 120, onPress, onLongPress, mini = fal
   const floatOpacity = useRef(new Animated.Value(0)).current
   const idleRef      = useRef(null)
   const [floatText, setFloatText] = useState('')
-
-  const { current: speechMessage, onDone: onSpeechDone } = useSpeechContext()
-  const isSpeaking = !!speechMessage
 
   const spriteAnim = usePetAnimation({
     hunger:    pet.hunger,
@@ -215,9 +210,6 @@ export default function PetWidget({ size = 120, onPress, onLongPress, mini = fal
 
   return (
     <TouchableOpacity onPress={handleTap} onLongPress={onLongPress} activeOpacity={0.85} style={[s.container, { width: size * 1.6, height: size * 1.5 }]}>
-
-      {/* Speech bubble — appears above pet head */}
-      <SpeechBubble message={speechMessage} onDone={onSpeechDone} />
 
       {/* Stage 4 particle effects */}
       {pet.stage >= 4 && PARTICLE_POSITIONS.map((pos, i) => (

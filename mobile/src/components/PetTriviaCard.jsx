@@ -84,7 +84,7 @@ export default function PetTriviaCard() {
     )
   }
 
-  if (!q) return null
+  if (!q || !Array.isArray(q.choices)) return null
 
   const correctIdx = q.correct ?? q.correctIndex
 
