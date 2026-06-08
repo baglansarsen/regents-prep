@@ -90,7 +90,7 @@ export default function QuizScreen({
 
     setSelected(choiceIndex)
     setPhase('feedback')
-  }, [phase, currentQuestion, streak, updateQuestProgress, soundEnabled, setEarnedXP])
+  }, [phase, currentQuestion, questionChoices, streak, updateQuestProgress, soundEnabled, setEarnedXP])
 
   // Proceed to next question or end
   const handleNext = useCallback(() => {

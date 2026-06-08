@@ -36,6 +36,8 @@ export default function HomeScreen({
   onStartPlacementTest,
   mistakeCount,
   setScreen,
+  classroomHook = {},
+  setActiveAssignmentId = () => {}
 }) {
   const units = subjectData.UNITS || []
   const { TOPIC_ORDER = [] } = subjectData
@@ -151,7 +153,18 @@ export default function HomeScreen({
 
   // Dismiss announcement local state
   const [announcementDismissed, setAnnouncementDismissed] = useState(false)
-  const teacherAnn = localStorage.getItem('@teacher_announcement')
+  
+  const { joinedClassroom, assignments = [], joinClassroom = () => {}, leaveClassroom = () => {} } = classroomHook
+  const teacherAnn = joinedClassroom ? joinedClassroom.announcement : localStorage.getItem('@teacher_announcement')
+
+  const handleLaunchAssignment = (assign) => {
+    setActiveAssignmentId(assign.id)
+    if (assign.type === 'lesson') {
+      onStartChallenge(assign.targetId)
+    } else {
+      setScreen('exams')
+    }
+  }
 
   return (
     <div className="screen-container">
@@ -166,7 +179,7 @@ export default function HomeScreen({
               <div style={{ flexGrow: 1 }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                   <h4 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '16px', color: 'var(--purple-dark)' }}>
-                    Mr. SeN's Bulletin Board
+                    {joinedClassroom ? `${joinedClassroom.className} Announcement` : "Mr. SeN's Bulletin Board"}
                   </h4>
                   <button 
                     onClick={() => setAnnouncementDismissed(true)}
@@ -186,6 +199,148 @@ export default function HomeScreen({
               </div>
             </div>
           )}
+
+          {/* B2B Classroom Connection & Goals Panel */}
+          <div className="card-glass" style={{
+            background: 'linear-gradient(135deg, var(--surface), var(--surface-2))',
+            padding: '24px',
+            border: '2px solid var(--border)',
+            borderRadius: '20px'
+          }}>
+            {!joinedClassroom ? (
+              <div>
+                <h3 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '18px', display: 'flex', alignItems: 'center', gap: '8px', margin: 0 }}>
+                  <span>🏫</span> Link to School Classroom
+                </h3>
+                <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '6px', marginBottom: '14px', lineHeight: '18px' }}>
+                  Enter the unique B2B classroom code shared by your teacher to link your study logs, track standards, and receive active assignments.
+                </p>
+                <form onSubmit={async (e) => {
+                  e.preventDefault()
+                  const code = e.target.classCode.value.trim()
+                  if (!code) return
+                  const res = await joinClassroom(code)
+                  if (res === 'success') {
+                    alert('Successfully linked to classroom! 🎉')
+                    e.target.reset()
+                  } else if (res === 'not_found') {
+                    alert('Invalid classroom code. Please check with your teacher.')
+                  } else {
+                    alert('Failed to join classroom.')
+                  }
+                }} style={{ display: 'flex', gap: '10px' }}>
+                  <input
+                    name="classCode"
+                    type="text"
+                    placeholder="e.g. LIF-ABCDE"
+                    style={{
+                      flexGrow: 1,
+                      padding: '8px 12px',
+                      borderRadius: '10px',
+                      border: '2px solid var(--border)',
+                      background: 'var(--bg)',
+                      fontWeight: 700,
+                      fontSize: '13px'
+                    }}
+                  />
+                  <button type="submit" className="btn-duo btn-duo-purple" style={{ padding: '8px 16px', fontSize: '13px' }}>
+                    Join Class
+                  </button>
+                </form>
+              </div>
+            ) : (
+              <div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+                  <div>
+                    <h3 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '18px', display: 'flex', alignItems: 'center', gap: '8px', margin: 0 }}>
+                      <span>🏫</span> Linked Class: {joinedClassroom.className}
+                    </h3>
+                    <span style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: 800, display: 'block', marginTop: '4px' }}>
+                      Teacher: {joinedClassroom.teacherName} • Code: {joinedClassroom.classCode}
+                    </span>
+                  </div>
+                  <button
+                    onClick={() => {
+                      if (confirm('Leave this classroom? You will no longer receive assignments.')) {
+                        leaveClassroom(joinedClassroom.classCode)
+                      }
+                    }}
+                    style={{
+                      background: 'none',
+                      border: 'none',
+                      color: 'var(--wrong-dark)',
+                      fontSize: '11px',
+                      fontWeight: 800,
+                      cursor: 'pointer',
+                      textDecoration: 'underline'
+                    }}
+                  >
+                    Leave Class
+                  </button>
+                </div>
+
+                {/* Assignments Subpanel */}
+                <div style={{ marginTop: '16px', borderTop: '1.5px solid var(--border)', paddingTop: '14px' }}>
+                  <h4 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '14px', margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <span>📋</span> Classroom Assignments
+                  </h4>
+                  {assignments.length === 0 ? (
+                    <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: 0, fontStyle: 'italic' }}>
+                      No assignments active currently. Keep practicing freely!
+                    </p>
+                  ) : (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                      {assignments.map(assign => {
+                        const isDone = assign.completedStudents?.includes(user?.uid)
+                        return (
+                          <div key={assign.id} style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            alignItems: 'center',
+                            background: 'var(--surface-2)',
+                            padding: '10px 14px',
+                            borderRadius: '10px',
+                            border: '1px solid var(--border)'
+                          }}>
+                            <div>
+                              <span style={{ fontWeight: 800, fontSize: '13px', display: 'block' }}>{assign.title}</span>
+                              <span style={{ fontSize: '10px', color: 'var(--text-dim)', fontWeight: 800 }}>
+                                Due: {assign.dueDate}
+                              </span>
+                            </div>
+
+                            <div>
+                              {isDone ? (
+                                <span style={{
+                                  fontSize: '11px',
+                                  fontWeight: 900,
+                                  color: 'var(--correct-dark)',
+                                  background: 'var(--correct-bg)',
+                                  padding: '4px 10px',
+                                  borderRadius: '6px',
+                                  border: '1px solid currentColor'
+                                }}>
+                                  ✅ Completed
+                                </span>
+                              ) : (
+                                <button
+                                  className="btn-duo btn-duo-purple"
+                                  onClick={() => handleLaunchAssignment(assign)}
+                                  style={{ padding: '6px 12px', fontSize: '12px', borderBottomWidth: '2.5px' }}
+                                >
+                                  Launch 🚀
+                                </button>
+                              )}
+                            </div>
+                          </div>
+                        )
+                      })}
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
 
           {/* Daily Streak Shield Warning Banner */}
           {!studiedToday && streak > 0 && (
