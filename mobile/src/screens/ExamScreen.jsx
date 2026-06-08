@@ -11,8 +11,9 @@ import { useDailyStreak } from '../hooks/useDailyStreak'
 import { appendMistakes } from '../hooks/useMistakes'
 import { usePetContext } from '../context/PetContext'
 
+import { imageUri } from '../utils/cdn'
+
 const EXAM_MINUTES = 85
-const CDN_BASE = 'https://regents-csas.web.app'
 
 export default function ExamScreen({ route, navigation }) {
   const { exam, questions, subject } = route.params
@@ -92,7 +93,7 @@ export default function ExamScreen({ route, navigation }) {
   const timerColor = timeLeft < 300 ? C.wrong : timeLeft < 600 ? C.warn : C.text
 
   // q.image is a relative path like /images/exams/es-june-2025/q2.png
-  const imageUrl = q.image ? `${CDN_BASE}${q.image}` : null
+  const imageUrl = imageUri(q.image)
 
   return (
     <View style={s.safe}>

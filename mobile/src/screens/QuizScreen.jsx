@@ -19,8 +19,9 @@ import { useSpeechContext } from '../context/SpeechContext'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import PetWidget from '../components/PetWidget'
 
+import { imageUri } from '../utils/cdn'
+
 const LETTERS = ['A', 'B', 'C', 'D']
-const CDN_BASE = 'https://regents-csas.web.app'
 const LETTER_COLORS = ['#1CB0F6', '#CE82FF', '#FF9600', '#FF4B4B']
 
 // Combo threshold labels
@@ -233,7 +234,7 @@ export default function QuizScreen({ route, navigation }) {
             ) : null}
             {currentQuestion.image ? (
               <Image
-                source={{ uri: `${CDN_BASE}${currentQuestion.image}` }}
+                source={{ uri: imageUri(currentQuestion.image) }}
                 style={s.questionImage}
                 resizeMode="contain"
               />
