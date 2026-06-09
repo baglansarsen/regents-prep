@@ -9,6 +9,7 @@ import { useSchool } from './hooks/useSchool'
 import { useProgress } from './hooks/useProgress'
 import { useLeaderboard } from './hooks/useLeaderboard'
 import { useFriends } from './hooks/useFriends'
+import { useClassroom } from './hooks/useClassroom'
 
 import { SUBJECT_META } from '@content/subjects'
 import * as livingEnvData from '@content/living-environment/index'
@@ -51,6 +52,8 @@ function MainLayout() {
   const { mistakes, mistakeCount, saveMistakes, removeMistakes, clearMistakes } = useMistakes()
   const { school, saveSchool, loading: schoolLoading } = useSchool(user)
   const { history, saveResult } = useProgress(user?.uid)
+  const classroomHook = useClassroom(user?.uid, user)
+  const [activeAssignmentId, setActiveAssignmentId] = useState(null)
   const { leaderboard, loading: lbLoading, refresh: refreshLb } = useLeaderboard(user?.uid)
   
   const {
@@ -110,6 +113,17 @@ function MainLayout() {
   const [doubleXPEndTime, setDoubleXPEndTime] = useState(() => {
     return Number(localStorage.getItem('@double_xp_end') || '0')
   })
+  const activateXPBoost = useCallback(async (durationSeconds, cost) => {
+    if (xp < cost) return 'insufficient_xp'
+    const success = await spendXP(cost)
+    if (!success) return 'insufficient_xp'
+    const currentEnd = Number(localStorage.getItem('@double_xp_end') || '0')
+    const newEnd = Math.max(Date.now(), currentEnd) + durationSeconds * 1000
+    localStorage.setItem('@double_xp_end', String(newEnd))
+    setDoubleXPEndTime(newEnd)
+    window.dispatchEvent(new Event('storage'))
+    return 'success'
+  }, [xp, spendXP])
   const [isMistakeQuiz, setIsMistakeQuiz] = useState(false)
 
   // Global settings states
@@ -414,6 +428,11 @@ function MainLayout() {
       setIsMistakeQuiz(false)
     }
 
+    if (activeAssignmentId) {
+      await classroomHook.submitAssignment(activeAssignmentId)
+      setActiveAssignmentId(null)
+    }
+
     // 6. Present Results Screen
     setQuizResults(resultsData)
     setScreen('results')
@@ -443,6 +462,11 @@ function MainLayout() {
       xpEarned = resultsData.score
       const freshTotal = await earnXP(resultsData.score)
       if (pet.chosen) checkAndEvolve(freshTotal)
+    }
+
+    if (activeAssignmentId) {
+      await classroomHook.submitAssignment(activeAssignmentId)
+      setActiveAssignmentId(null)
     }
 
     if (resultsData.correct > 0) {
@@ -814,6 +838,8 @@ function MainLayout() {
               onStartPlacementTest={handleStartPlacementTest}
               mistakeCount={mistakeCount}
               setScreen={setScreen}
+              classroomHook={classroomHook}
+              setActiveAssignmentId={setActiveAssignmentId}
             />
           )}
 
@@ -875,6 +901,10 @@ function MainLayout() {
               pet={pet}
               toggleCosmetic={toggleCosmetic}
               switchBuddy={switchBuddy}
+              buyFreeze={buyFreeze}
+              hasFreeze={hasFreeze}
+              activateXPBoost={activateXPBoost}
+              doubleXPEndTime={doubleXPEndTime}
             />
           )}
 
@@ -913,6 +943,9 @@ function MainLayout() {
             <TeacherDashboardScreen
               subject={subject}
               school={school}
+              user={user}
+              classroomHook={classroomHook}
+              subjectData={subjectData}
             />
           )}
         </div>

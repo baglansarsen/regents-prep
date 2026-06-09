@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { FOOD_ITEMS, HAPPINESS_ITEMS, COSMETICS } from '@content/petConfig'
 
 export default function PetShopScreen({
@@ -9,8 +9,34 @@ export default function PetShopScreen({
   pet = {},
   toggleCosmetic,
   switchBuddy,
+  buyFreeze = () => {},
+  hasFreeze = false,
+  activateXPBoost = () => {},
+  doubleXPEndTime = 0
 }) {
   
+  // local ticker for boost time
+  const initialSecondsLeft = Math.max(0, Math.floor((doubleXPEndTime - Date.now()) / 1000));
+  const [timeLeft, setTimeLeft] = useState(initialSecondsLeft);
+
+  useEffect(() => {
+    setTimeLeft(initialSecondsLeft);
+  }, [doubleXPEndTime]);
+
+  useEffect(() => {
+    if (timeLeft <= 0) return;
+    const interval = setInterval(() => {
+      setTimeLeft(prev => Math.max(0, prev - 1));
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [timeLeft]);
+
+  function formatBoostTime(secs) {
+    const m = Math.floor(secs / 60);
+    const s = secs % 60;
+    return `${m}:${String(s).padStart(2, '0')}`;
+  }
+
   async function buyItem(item) {
     if (xp < item.cost) {
       alert('Insufficient XP! Keep studying lessons to earn more XP! ⭐')
@@ -30,6 +56,35 @@ export default function PetShopScreen({
 
   async function equipItem(item) {
     await toggleCosmetic(item.id)
+  }
+
+
+
+  async function handleBuyFreeze() {
+    if (hasFreeze) return
+    const confirmed = confirm(`Spend 200 XP to purchase a Streak Freeze? 🧊`)
+    if (!confirmed) return
+
+    const result = await buyFreeze(spendXP)
+    if (result === 'success') {
+      alert('Streak Freeze successfully purchased and activated! 🧊')
+    } else if (result === 'insufficient_xp') {
+      alert('Insufficient XP! You need 200 XP to buy a Streak Freeze. ⭐')
+    }
+  }
+
+  async function handleBuyBoost() {
+    const active = timeLeft > 0;
+    if (active) return
+    const confirmed = confirm(`Spend 500 XP to purchase a 10-minute Double XP Boost? ⚡`)
+    if (!confirmed) return
+
+    const result = await activateXPBoost(600, 500)
+    if (result === 'success') {
+      alert('Double XP Boost successfully activated! All correct quiz answers will earn 2x XP for the next 10 minutes. ⚡')
+    } else if (result === 'insufficient_xp') {
+      alert('Insufficient XP! You need 500 XP to buy a Double XP Boost. ⭐')
+    }
   }
 
   const activeAccessories = pet.accessories || []
@@ -100,6 +155,76 @@ export default function PetShopScreen({
             </p>
           </div>
         )}
+
+        {/* Section: Study Boosts & Power-Ups */}
+        <div>
+          <h2 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 800, fontSize: '20px', marginBottom: '12px' }}>⚡ Study Boosts & Power-Ups</h2>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '16px' }}>
+            
+            {/* 1. Double XP Boost */}
+            <div className="card-glass" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', gap: '16px' }}>
+              <div style={{ display: 'flex', gap: '16px' }}>
+                <span style={{ fontSize: '40px', background: 'var(--purple-bg)', color: 'var(--purple-dark)', width: '60px', height: '60px', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  ⚡
+                </span>
+                <div>
+                  <h3 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 800, fontSize: '16px' }}>
+                    2× XP Boost
+                  </h3>
+                  <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '2px', lineHeight: '16px' }}>
+                    Double all study XP earned on correct answers for 10 minutes.
+                  </p>
+                </div>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: '1.5px solid var(--border)', paddingTop: '12px' }}>
+                <span style={{ fontSize: '12px', fontWeight: 800, color: timeLeft > 0 ? 'var(--purple-dark)' : 'var(--text-dim)' }}>
+                  {timeLeft > 0 ? `⏱️ ${formatBoostTime(timeLeft)} active` : 'Inactive'}
+                </span>
+                <button
+                  className={`btn-duo ${timeLeft > 0 ? 'btn-duo-outline' : 'btn-duo-purple'}`}
+                  style={{ padding: '8px 16px', fontSize: '13px', borderBottomWidth: '2.5px' }}
+                  onClick={handleBuyBoost}
+                  disabled={timeLeft > 0}
+                >
+                  {timeLeft > 0 ? 'Active' : '🏷️ 500 XP'}
+                </button>
+              </div>
+            </div>
+
+            {/* 2. Streak Freeze */}
+            <div className="card-glass" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', gap: '16px' }}>
+              <div style={{ display: 'flex', gap: '16px' }}>
+                <span style={{ fontSize: '40px', background: 'var(--blue-bg)', color: 'var(--blue-dark)', width: '60px', height: '60px', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  🧊
+                </span>
+                <div>
+                  <h3 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 800, fontSize: '16px' }}>
+                    Streak Freeze
+                  </h3>
+                  <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '2px', lineHeight: '16px' }}>
+                    Protect your daily streak for one missed day. Used automatically.
+                  </p>
+                </div>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: '1.5px solid var(--border)', paddingTop: '12px' }}>
+                <span style={{ fontSize: '12px', fontWeight: 800, color: hasFreeze ? 'var(--blue-dark)' : 'var(--text-dim)' }}>
+                  {hasFreeze ? '🧊 Protected' : 'Not owned'}
+                </span>
+                <button
+                  className={`btn-duo ${hasFreeze ? 'btn-duo-outline' : 'btn-duo-purple'}`}
+                  style={{ padding: '8px 16px', fontSize: '13px', borderBottomWidth: '2.5px' }}
+                  onClick={handleBuyFreeze}
+                  disabled={hasFreeze}
+                >
+                  {hasFreeze ? 'Protected' : '🏷️ 200 XP'}
+                </button>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
 
         {/* Section: Snacks */}
         <div>
