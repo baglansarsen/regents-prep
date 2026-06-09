@@ -16,7 +16,11 @@ export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
   // Flatten all exam questions and normalize topics once at construction time.
   const pool = exams.flatMap((exam) =>
     (exam.questions ?? [])
-      .filter((q) => topicMap[q.topic] != null)
+      // Exclude written/constructed-response questions (no choices array): the
+      // lesson UI only renders selectable choices, so a choice-less question
+      // leaves the user with no way to answer or advance. Must match the
+      // predicate in shared/content/*/units.js (parity across content copies).
+      .filter((q) => topicMap[q.topic] != null && Array.isArray(q.choices) && q.choices.length > 0)
       .map((q) => ({ ...q, topic: topicMap[q.topic] }))
   )
 
