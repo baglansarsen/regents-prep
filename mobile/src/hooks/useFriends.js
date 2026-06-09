@@ -89,7 +89,7 @@ export function useFriends(uid, user) {
 
             // Get streak
             const streakDoc = await getDoc(doc(db, 'users', userUid, 'meta', 'streak'))
-            const streak = streakDoc.exists() ? (streakDoc.data().count ?? 0) : 0
+            const streak = streakDoc.exists() ? (streakDoc.data().streak ?? streakDoc.data().count ?? 0) : 0
 
             // Get pet emoji
             const petDoc = await getDoc(doc(db, 'users', userUid, 'meta', 'pet'))
@@ -217,20 +217,31 @@ export function useFriends(uid, user) {
   const acceptRequest = useCallback(async (request) => {
     try {
       await updateDoc(doc(db, 'friendRequests', request.id), { status: 'accepted' })
-      // Add to both friends lists
+
+      // Add the requester to MY friends list (my own subtree — always allowed).
       await setDoc(doc(db, 'users', uid, 'friends', request.fromUid), {
         uid: request.fromUid,
         displayName: request.fromName ?? 'Friend',
         addedAt: serverTimestamp(),
       })
+
+      // Reciprocal: add ME to the requester's friends list. This writes into
+      // the requester's subtree, allowed only because firestore.rules grants
+      // create when the docId equals our own uid. If it fails the friendship
+      // is one-sided, so surface the error rather than swallowing it.
       await setDoc(doc(db, 'users', request.fromUid, 'friends', uid), {
         uid,
         displayName: user?.displayName ?? 'Friend',
         addedAt: serverTimestamp(),
       })
+
       loadRequests()
       loadFriends()
-    } catch {}
+      return 'accepted'
+    } catch (e) {
+      console.error('[useFriends] acceptRequest error:', e.message)
+      return 'error'
+    }
   }, [uid, user])
 
   const declineRequest = useCallback(async (request) => {
@@ -243,6 +254,6 @@ export function useFriends(uid, user) {
   return {
     friends, incomingRequests, sentRequests, friendCode, feed,
     addByCode, addError, sendRequestByUid, acceptRequest, declineRequest,
-    refreshFeed: loadFeed,
+    refreshFeed: loadFeed, refreshRequests: loadRequests, refreshFriends: loadFriends,
   }
 }

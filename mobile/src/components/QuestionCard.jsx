@@ -1,6 +1,7 @@
 import { useRef, useEffect } from 'react'
 import { View, Text, Image, TouchableOpacity, Animated, StyleSheet } from 'react-native'
 import { C } from '../theme'
+import ExamImage from './ExamImage'
 import PunnettSquare from './diagrams/PunnettSquare'
 import FoodWeb from './diagrams/FoodWeb'
 // Algebra 1
@@ -88,8 +89,7 @@ export default function QuestionCard({ question, selected, phase, onAnswer }) {
 
         {/* PNG/image-based questions */}
         {question.image && (
-          <Image source={{ uri: question.image }} style={s.questionImage}
-            resizeMode="contain" accessibilityLabel="Question diagram" />
+          <ExamImage path={question.image} style={s.questionImage} />
         )}
 
         <View style={s.choices}>

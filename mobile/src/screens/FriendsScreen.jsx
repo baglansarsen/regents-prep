@@ -7,6 +7,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useFriends, timeAgo } from '../hooks/useFriends'
+import { useChallenges } from '../hooks/useChallenges'
 import { useLeaderboard } from '../hooks/useLeaderboard'
 import { useFriendsLeaderboard } from '../hooks/useFriendsLeaderboard'
 import { T, cardShadow } from '../styles/duo'
@@ -281,7 +282,8 @@ export default function FriendsScreen({ navigation, route }) {
   // key increments on refresh so Podium unmounts/remounts → animation replays
   const [podiumKey, setPodiumKey]   = useState(0)
 
-  const { friends, incomingRequests, friendCode, feed, acceptRequest, declineRequest, refreshFeed } = useFriends(uid, user)
+  const { friends, incomingRequests, friendCode, feed, acceptRequest, declineRequest, refreshFeed, refreshRequests, refreshFriends } = useFriends(uid, user)
+  const { incoming: incomingBattles, refresh: refreshBattles } = useChallenges(uid, user)
   const { leaderboard, school, loading: schoolLoading, refresh: refreshSchool } = useLeaderboard(uid)
   const { weeklyRanking, loading: weekLoading, refresh: refreshWeekly } = useFriendsLeaderboard(uid, user)
   const { tier } = useLeague(uid)
@@ -298,7 +300,7 @@ export default function FriendsScreen({ navigation, route }) {
 
   async function handleRefresh() {
     setRefreshing(true)
-    await Promise.all([refreshWeekly(), refreshSchool(), refreshFeed()])
+    await Promise.all([refreshWeekly(), refreshSchool(), refreshFeed(), refreshRequests(), refreshFriends(), refreshBattles()])
     setPodiumKey((k) => k + 1)   // remount Podium → replay animation
     setRefreshing(false)
   }
@@ -325,6 +327,28 @@ export default function FriendsScreen({ navigation, route }) {
                 </TouchableOpacity>
               </View>
             </View>
+          ))}
+        </View>
+      )}
+
+      {/* Incoming battle challenges — tap to play the same question set */}
+      {incomingBattles.length > 0 && (
+        <View style={s.requests}>
+          {incomingBattles.map((b) => (
+            <TouchableOpacity
+              key={b.id}
+              style={[s.requestRow, cardShadow(C.shadow)]}
+              activeOpacity={0.8}
+              onPress={() => navigation.navigate('Challenge', { challengeId: b.id, friendName: b.fromName })}
+            >
+              <Text style={{ fontSize: 20 }}>⚔️</Text>
+              <Text style={[T.small, { color: C.text, flex: 1 }]}>
+                {b.fromName} challenged you to a battle!
+              </Text>
+              <View style={[s.requestBtn, { backgroundColor: C.brand, paddingHorizontal: 14 }]}>
+                <Text style={[s.requestBtnText, { color: '#fff', fontSize: 12 }]}>Play</Text>
+              </View>
+            </TouchableOpacity>
           ))}
         </View>
       )}
