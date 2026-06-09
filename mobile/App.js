@@ -20,6 +20,7 @@ import { PetProvider }    from './src/context/PetContext'
 import { SpeechProvider } from './src/context/SpeechContext'
 import { StreakProvider } from './src/context/StreakContext'
 import AppNavigator from './src/navigation/AppNavigator'
+import { requestAdTracking } from './src/utils/adTracking'
 
 if (Platform.OS !== 'web') SplashScreen.preventAutoHideAsync()
 
@@ -77,21 +78,30 @@ function getAds() {
 export default function App() {
   useEffect(() => {
     if (!ADS_AVAILABLE) return
-    try {
-      const { default: mobileAds } = getAds()
-      if (typeof mobileAds === 'function') {
-        mobileAds()
-          .initialize()
-          .then(adapterStatuses => {
-            console.log('[AdMob] SDK Initialized', adapterStatuses)
-          })
-          .catch(err => {
-            console.warn('[AdMob] SDK Initialization Error', err)
-          })
+    let cancelled = false
+    ;(async () => {
+      // Apple (ATT, guideline 2.1): the App Tracking Transparency prompt must be
+      // shown BEFORE the IDFA is accessed — i.e. before AdMob initializes. Await
+      // it (a decline still resolves) so ads run non-personalized if not granted.
+      try { await requestAdTracking() } catch (_) {}
+      if (cancelled) return
+      try {
+        const { default: mobileAds } = getAds()
+        if (typeof mobileAds === 'function') {
+          mobileAds()
+            .initialize()
+            .then(adapterStatuses => {
+              console.log('[AdMob] SDK Initialized', adapterStatuses)
+            })
+            .catch(err => {
+              console.warn('[AdMob] SDK Initialization Error', err)
+            })
+        }
+      } catch (err) {
+        console.warn('[AdMob] Failed to load/initialize AdMob', err)
       }
-    } catch (err) {
-      console.warn('[AdMob] Failed to load/initialize AdMob', err)
-    }
+    })()
+    return () => { cancelled = true }
   }, [])
 
   return (
