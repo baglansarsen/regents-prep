@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { doc, getDoc, setDoc, updateDoc, arrayUnion, arrayRemove, collection, query, where, getDocs, addDoc } from 'firebase/firestore'
+import { doc, getDoc, setDoc, updateDoc, deleteDoc, arrayUnion, arrayRemove, collection, query, where, getDocs, addDoc } from 'firebase/firestore'
 import { db } from '../firebase'
 
 export function useClassroom(uid, user) {
@@ -170,6 +170,18 @@ export function useClassroom(uid, user) {
     }
   }, [fetchAssignments])
 
+  // 7b. Delete Assignment (B2B Teacher)
+  const deleteAssignment = useCallback(async (assignmentId, classCode) => {
+    try {
+      await deleteDoc(doc(db, 'assignments', assignmentId))
+      if (classCode) await fetchAssignments(classCode)
+      return true
+    } catch (err) {
+      console.error('[useClassroom] deleteAssignment error:', err)
+      return false
+    }
+  }, [fetchAssignments])
+
   // 8. Submit Assignment (B2B Student)
   const submitAssignment = useCallback(async (assignmentId) => {
     if (!uid) return false
@@ -245,6 +257,7 @@ export function useClassroom(uid, user) {
     leaveClassroom,
     publishAnnouncement,
     createAssignment,
+    deleteAssignment,
     submitAssignment,
     fetchClassroomRoster,
     fetchClassrooms,
