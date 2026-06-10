@@ -57,7 +57,7 @@ function Sheet({ title, children, C, insets, onClose }) {
 }
 
 // ── Power-up row (used in RP sheet) ──────────────────────────────────────────
-function PowerUpRow({ item, C }) {
+function PowerUpRow({ item, C, onClose }) {
   return (
     <View style={[ss.powerRow, { borderColor: C.border }]}>
       <View style={[ss.powerIcon, { backgroundColor: item.accent + '22', borderColor: item.accent + '55' }]}>
@@ -82,7 +82,7 @@ function PowerUpRow({ item, C }) {
             item.canBuy ? item.dark   : C.border,
             { paddingVertical: 8, paddingHorizontal: 14, opacity: item.canBuy ? 1 : 0.5 },
           )}
-          onPress={item.onBuy}
+          onPress={async () => { const r = await item.onBuy(); if (r === 'success') onClose?.() }}
           disabled={!item.canBuy}
           activeOpacity={0.8}
         >
@@ -94,7 +94,7 @@ function PowerUpRow({ item, C }) {
 }
 
 // ── Streak section ────────────────────────────────────────────────────────────
-function StreakSection({ C }) {
+function StreakSection({ C, onClose }) {
   const { user } = useAuthContext()
   const { streak, freezeCount, buyFreeze, weekDays } = useDailyStreak(user?.uid)
   const { rp, spendRP } = useRP(user?.uid)
@@ -104,10 +104,12 @@ function StreakSection({ C }) {
 
   async function handleBuyFreeze() {
     const result = await buyFreeze(spendRP)
-    if (result === 'success')
+    if (result === 'success') {
       Alert.alert('🧊 Freeze Added!', freezeCount + 1 >= 2
         ? 'You have 2 freezes stored — your streak is protected for 2 missed days!'
         : 'Your streak is protected for one missed day.')
+      onClose?.()
+    }
     else if (result === 'insufficient_xp')
       Alert.alert('Not enough RP', `You need 200 RP. You have ${rp} RP.`)
   }
@@ -174,7 +176,7 @@ function StreakSection({ C }) {
 }
 
 // ── RP section ────────────────────────────────────────────────────────────────
-function RPSection({ C }) {
+function RPSection({ C, onClose }) {
   const { user } = useAuthContext()
   const { rp } = useRP(user?.uid)
   const { items: powerItems } = usePowerUps()
@@ -218,14 +220,14 @@ function RPSection({ C }) {
       <View style={[ss.divider, { backgroundColor: C.border }]} />
 
       {powerItems.map((item) => (
-        <PowerUpRow key={item.key} item={item} C={C} />
+        <PowerUpRow key={item.key} item={item} C={C} onClose={onClose} />
       ))}
     </>
   )
 }
 
 // ── Lives section ─────────────────────────────────────────────────────────────
-function LivesSection({ C, adReady, adLoading, showAd }) {
+function LivesSection({ C, adReady, adLoading, showAd, onClose }) {
   const { user } = useAuthContext()
   const { lives, maxLives, nextRefillAt, refillLives, isSubscribed } = useLivesContext()
   const { rp, spendRP } = useRP(user?.uid)
@@ -233,7 +235,7 @@ function LivesSection({ C, adReady, adLoading, showAd }) {
 
   async function handleRefill() {
     const ok = await refillLives(spendRP)
-    if (ok) Alert.alert('❤️ Lives Refilled!', 'All 5 lives restored.')
+    if (ok) { Alert.alert('❤️ Lives Refilled!', 'All 5 lives restored.'); onClose?.() }
     else    Alert.alert('Not enough RP', `You need 300 RP. You have ${rp} RP.`)
   }
 
@@ -315,9 +317,9 @@ export default function RewardsSheet({ visible, focus, onClose, adReady, adLoadi
       <TouchableOpacity style={ss.backdrop} activeOpacity={1} onPress={onClose} />
 
       <Sheet title={TITLES[focus] ?? ''} C={C} insets={insets} onClose={onClose}>
-        {focus === 'streak' && <StreakSection C={C} />}
-        {focus === 'rp'     && <RPSection C={C} />}
-        {focus === 'lives'  && <LivesSection C={C} adReady={adReady} adLoading={adLoading} showAd={showAd} />}
+        {focus === 'streak' && <StreakSection C={C} onClose={onClose} />}
+        {focus === 'rp'     && <RPSection C={C} onClose={onClose} />}
+        {focus === 'lives'  && <LivesSection C={C} adReady={adReady} adLoading={adLoading} showAd={showAd} onClose={onClose} />}
       </Sheet>
     </Modal>
   )

@@ -30,8 +30,10 @@ export function usePowerUps() {
   const { isActive, timeLeft, activateBoost, COST_RP }   = useDoubleRP()
   const { isSubscribed }                                 = useSubscription()
 
+  // Each handler returns 'success' when the purchase went through, so callers
+  // (e.g. the RewardsSheet) can auto-close after a successful buy.
   async function handleBuyBoost() {
-    if (isActive) return
+    if (isActive) return 'already_active'
     const result = await activateBoost(spendRP)
     if (result === 'success')
       Alert.alert('⚡ Boost Active!', 'All RP earned in the next 10 minutes is doubled!')
@@ -39,10 +41,11 @@ export function usePowerUps() {
       Alert.alert('Not enough RP', `You need ${COST_RP} RP. You have ${rp} RP.`)
     else if (result === 'already_active')
       Alert.alert('Boost already running!', `${formatTime(timeLeft)} remaining.`)
+    return result
   }
 
   async function handleBuyFreeze() {
-    if (freezeCount >= 2) return
+    if (freezeCount >= 2) return 'already_have'
     const result = await buyFreeze(spendRP)
     if (result === 'success')
       Alert.alert('🧊 Freeze Added!', freezeCount + 1 >= 2
@@ -50,13 +53,15 @@ export function usePowerUps() {
         : 'Your streak is protected for one missed day.')
     else if (result === 'insufficient_xp')
       Alert.alert('Not enough RP', `You need 200 RP. You have ${rp} RP.`)
+    return result
   }
 
   async function handleRefillLives() {
-    if (lives >= maxLives) return
+    if (lives >= maxLives) return 'already_full'
     const ok = await refillLives(spendRP)
     if (ok) Alert.alert('❤️ Lives Refilled!', 'All 5 lives restored.')
     else    Alert.alert('Not enough RP', `You need 300 RP. You have ${rp} RP.`)
+    return ok ? 'success' : 'insufficient_rp'
   }
 
   const items = [
