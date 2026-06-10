@@ -53,7 +53,7 @@ export default {
       modelAnswer: 'Compare g(x) = (x − 3)² − 4 with f(x) = x² = (x − 0)² + 0 using vertex form a(x − h)² + k:\n• h = 3: translate the graph 3 units to the right.\n• k = −4: translate the graph 4 units down.\n• a = 1: no vertical stretch, compression, or reflection.\nThe vertex of f is (0, 0); the vertex of g is (3, −4). The parabola has the same shape and opens upward, but is shifted right 3 and down 4.',
     },
     {
-      number: 27,
+      number: 27, image: '/images/exams/alg1-june-2022/q27.png',
       part: 'B',
       type: 'written',
       text: 'The total profit earned at a garage sale during the first five hours is modeled by a graph. Determine the average rate of change, in dollars per hour, over the interval 1 ≤ x ≤ 4.',
@@ -115,7 +115,7 @@ export default {
 
     // Part III (Part C) — 4 credits each
     {
-      number: 33,
+      number: 33, image: '/images/exams/alg1-june-2022/q33.png',
       part: 'C',
       type: 'written',
       text: 'The graph below models the height of Sam\'s kite over a period of time. Explain what the zeros of the graph represent in the context of the situation. State the time intervals over which the height of the kite is increasing. State the maximum height, in feet, that the kite reaches.',

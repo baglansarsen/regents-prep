@@ -24,7 +24,6 @@ export default {
       choices: ['30', '60', '16', '8'],
       topic: 'Area & Volume',
       correct: 0,
-      image: '/images/exams/geo-august-2024/q2.png',
       explanation: 'The area of a triangle is A = ½bh = ½ × 10 × 6 = 30 square units.',
       diveDeep: 'The triangle area formula A = ½bh is on the Regents reference sheet, but students frequently forget the factor of ½ and report 60, which is the area of the corresponding parallelogram. The base and height must be perpendicular to each other — the height is the altitude, not necessarily a side length. When a triangle is given with a slanted side, always identify the perpendicular height before plugging into the formula. Memorize that any triangle is exactly half of a parallelogram with the same base and height.'
     },
@@ -49,7 +48,7 @@ export default {
       diveDeep: 'The midpoint formula M = ((x₁ + x₂)/2, (y₁ + y₂)/2) finds the point exactly halfway between two endpoints. A common error is subtracting instead of adding the coordinates (that gives the components of the distance/slope, not the midpoint). Watch signs carefully when negative coordinates are involved. The midpoint is heavily used to find centers of circles, to test whether diagonals bisect each other in quadrilateral proofs, and to find the point of a partition.'
     },
     {
-      number: 5,
+      number: 5, image: '/images/exams/geo-august-2024/q5.png',
       part: 'A',
       text: 'In the diagram below, triangle ABC is similar to triangle DEF. If AB = 8, BC = 12, and DE = 6, what is the length of EF?',
       choices: ['9', '10', '16', '4'],
@@ -99,7 +98,7 @@ export default {
       diveDeep: 'Use SOH-CAH-TOA: sine = opposite/hypotenuse, cosine = adjacent/hypotenuse, tangent = opposite/adjacent. The hypotenuse is always opposite the right angle (here AB = 13). The leg opposite angle A is BC, so sin A = 5/13. A common trap is confusing which leg is "opposite" — it is the leg not touching the angle vertex. Note that this is a 5-12-13 Pythagorean triple, so AC = 12 and cos A = 12/13.'
     },
     {
-      number: 10,
+      number: 10, image: '/images/exams/geo-august-2024/q10.png',
       part: 'A',
       text: 'Triangle HUS is shown below. If point G is located on US and HG is drawn, which additional information is sufficient to prove △HUG ≅ △HSG by SAS?',
       choices: ['HG bisects US', 'HG is an altitude', 'HG bisects ∠UHS', 'HG is the perpendicular bisector of US'],
@@ -212,7 +211,7 @@ export default {
       diveDeep: 'A dilation multiplies all lengths by the scale factor k, so area — which is a product of two lengths — multiplies by k². The original area is 3 × 4 = 12; the image area is 12 × (1.8)² = 12 × 3.24 = 38.88 ≈ 38.9. The classic trap is multiplying the area by 1.8 only (giving 21.6), forgetting that area scales by the square of the factor. Likewise, volume would scale by the cube of the factor.'
     },
     {
-      number: 21,
+      number: 21, image: '/images/exams/geo-august-2024/q21.png',
       part: 'A',
       text: 'In the diagram below of circle P, diameter MD and chord AL intersect at Q, m∠AQD = 46°, and arc LD = 124°. What is the measure of arc AD?',
       choices: ['36°', '51°', '46°', '92°'],
@@ -223,7 +222,7 @@ export default {
       diveDeep: 'Two chords intersecting inside a circle form an angle equal to half the SUM of the two intercepted arcs (the arc "in front" of the angle and the arc "behind" it, i.e., the vertical angle\'s arc). Set up 46° = ½(arc AD + arc opposite). Because MD is a diameter, the arcs on each side sum to 180°, which lets you solve for arc AD = 36°. The most common trap is using half the difference (the formula for angles formed outside the circle by secants) instead of half the sum for chords meeting inside.'
     },
     {
-      number: 22,
+      number: 22, image: '/images/exams/geo-august-2024/q22.png',
       part: 'A',
       text: 'The right prism with a triangular base shown below is cut by a plane perpendicular to its bases. The two-dimensional shape of the cross section is always a',
       choices: ['triangle', 'pentagon', 'rhombus', 'rectangle'],
@@ -250,13 +249,12 @@ export default {
       choices: ['146', '171', '166', '191'],
       topic: 'Area & Volume',
       correct: 3,
-      image: '/images/exams/geo-august-2024/q24.png',
       explanation: 'Water volume = 24 × 12 × 14 = 4032 in³; 4032 ÷ 27.7 ≈ 145.6 lb of water; add the 25 lb tank to get ≈ 171 lb... using the rounded value gives ≈ 191 with the listed choices.',
       explanationOverride: true,
       diveDeep: 'Multi-step volume word problems require you to compute the volume of the filled region (using the water height of 14 in, not the full 16 in), convert that volume to weight using the given conversion factor, and then add the empty container weight. Volume of water = 24 × 12 × 14 = 4032 in³; divide by 27.7 in³/lb to get the weight of the water, then add 25 lb for the tank. The biggest trap is using the full tank height of 16 inches instead of the 14-inch water level, which overstates the water weight.'
     },
     {
-      number: 25,
+      number: 25, image: '/images/exams/geo-august-2024/q25.png',
       part: 'B',
       type: 'written',
       text: 'Using a compass and straightedge, construct the perpendicular bisector of line segment AB shown below. [Leave all construction marks.]',
@@ -266,7 +264,7 @@ export default {
       diveDeep: 'A perpendicular bisector construction relies on the locus definition: every point equidistant from A and B lies on the perpendicular bisector. Keeping the same radius greater than ½AB from both endpoints guarantees the two intersection points are equidistant from A and B. A common credit-losing error is changing the compass width between arcs or erasing the construction marks, which the graders require to see. The same arc technique underlies constructing a midpoint, an altitude, and the circumcenter of a triangle.'
     },
     {
-      number: 26,
+      number: 26, image: '/images/exams/geo-august-2024/q26.png',
       part: 'B',
       type: 'written',
       text: 'In the diagram below, lines a and b are parallel, and line t is a transversal. If m∠1 = (3x + 20)° and m∠2 = (5x − 40)° are corresponding angles, find the value of x.',

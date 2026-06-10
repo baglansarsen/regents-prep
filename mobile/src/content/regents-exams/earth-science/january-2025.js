@@ -127,7 +127,7 @@ export default {
       diveDeep: 'Decoding station model pressure is a standard Regents skill. The rule: if the three digits are 500 or higher, prefix with 9; if below 500, prefix with 10. Then insert a decimal before the last digit. So 150 → 10 + 150 = 1015.0 mb; 956 → 9 + 956 = 995.6 mb. Normal sea-level pressure is 1013.25 mb (29.92 in Hg). Pressures above 1013 mb indicate high pressure (fair weather); below 1013 mb indicate low pressure (stormy weather). Practicing this decoding with multiple examples is the best preparation.',
     },
     {
-      number: 10,
+      number: 10, image: '/images/exams/es-january-2025/q10.png',
       part: 'A',
       text: 'A photograph was taken by aiming a camera at a portion of the night sky above Albany, New York, for a period of time to record the apparent star motion, resulting in star trails. Which celestial object is located at the center of the star trails?',
       choices: ['Polaris', 'the Sun', 'Alpha Centauri', 'the Moon'],
@@ -477,7 +477,7 @@ export default {
       diveDeep: 'Determining river flow direction from a topographic map relies on the "V-rule": contour lines bend into a V-shape when they cross a stream valley, with the V pointing upstream (toward higher elevation). Since water flows downhill, it moves in the direction opposite to where the V points. If the V-tips point north, the river flows south. Additionally, you can check contour line elevation values — they decrease in the direction of flow. Tributaries always join the main stream flowing in the same general direction. These skills are directly tested in the Regents map interpretation sections.',
     },
     {
-      number: 37,
+      number: 37, image: '/images/exams/es-january-2025/q37.png',
       part: 'B-1',
       context: 'A graph shows the relationship between time and radioactive decay. The y-axis shows the percentage of parent material remaining, and the x-axis shows the number of half-lives elapsed.',
       text: 'After 3 half-lives, approximately what percentage of the original radioactive material remains?',
@@ -499,7 +499,7 @@ export default {
       diveDeep: 'Relative dating uses several key principles: (1) Superposition — in undisturbed layers, the oldest is on the bottom and youngest on top; (2) Original Horizontality — sediment layers are initially deposited horizontally; (3) Cross-cutting Relationships — a feature (intrusion, fault) that cuts through other rocks is younger than what it cuts; (4) Inclusions — rock fragments within another rock are older. To determine sequence, always ask: "What does each feature cut through?" and "What is undisturbed?" Layer A being uncut by both the intrusion and fault, and lying above them, makes it younger than both. The intrusion must predate the fault if the fault cuts through the intrusion.',
     },
     {
-      number: 39,
+      number: 39, image: '/images/exams/es-january-2025/context_39_41.png',
       part: 'B-1',
       context: 'A weather map shows isobars over the northeastern United States. The isobars are labeled in millibars. A station model in Albany shows temperature 45°F, dewpoint 40°F, winds from the southwest at 15 knots, and sky coverage of 75%.',
       text: 'What weather condition is Albany most likely experiencing?',
@@ -515,7 +515,7 @@ export default {
       diveDeep: 'Reading weather station models is a critical Regents skill. The standard model includes: (1) temperature (upper left); (2) dewpoint (lower left); (3) present weather symbol (center left); (4) cloud cover circle (center — fraction filled indicates % coverage); (5) wind barbs (pointing into the circle, each barb = 10 knots, half-barb = 5 knots); (6) pressure (upper right, decoded by adding 9 or 10 prefix); (7) pressure change (lower right). Southwest wind barbs point from the SW toward the center of the circle. The proximity of temperature and dewpoint (small difference) suggests high relative humidity but not necessarily precipitation.',
     },
     {
-      number: 40,
+      number: 40, image: '/images/exams/es-january-2025/context_39_41.png',
       part: 'B-1',
       context: 'A diagram shows the electromagnetic spectrum, from gamma rays on the left to radio waves on the right. The visible light portion is highlighted. Wavelength increases from left to right.',
       text: 'Compared to visible light, infrared radiation has',
@@ -531,7 +531,7 @@ export default {
       diveDeep: 'The electromagnetic spectrum from shortest to longest wavelength: gamma rays, X-rays, ultraviolet, visible light (violet-blue-green-yellow-orange-red), infrared, microwaves, radio waves. Wavelength and frequency are inversely proportional (c = λf, where c = speed of light). Infrared radiation (heat radiation) is emitted by warm objects including Earth\'s surface, making it central to the greenhouse effect. Ultraviolet radiation from the Sun is absorbed by the ozone layer. The Sun\'s peak emission is in visible wavelengths; Earth re-emits solar energy as longer-wavelength infrared. Understanding this wavelength difference explains why greenhouse gases trap Earth\'s outgoing energy.',
     },
     {
-      number: 41,
+      number: 41, image: '/images/exams/es-january-2025/context_39_41.png',
       part: 'B-1',
       context: 'A map of New York State shows the locations of four cities: Buffalo (west), Albany (east-central), Syracuse (center), and New York City (southeast). Average annual snowfall data is provided for each city.',
       text: 'Which city in New York State typically receives the greatest snowfall due to lake-effect snow from Lake Erie?',
@@ -553,7 +553,7 @@ export default {
       diveDeep: 'Longshore drift (littoral drift) occurs when waves approach a beach at an angle: the swash (incoming wave) pushes sediment up the beach diagonally in the wave\'s direction, and the backwash (retreating water) pulls sediment straight back down the beach due to gravity. This zigzag motion moves sediment along the coast. Over time, longshore drift can build up sandbars and spits at headlands. Human structures like jetties and groins interrupt longshore drift, which can cause beach erosion on the downdrift side. Longshore drift is responsible for the dynamic nature of barrier island coastlines like Long Island.',
     },
     {
-      number: 43,
+      number: 43, image: '/images/exams/es-january-2025/context_42_44.png',
       part: 'B-1',
       context: 'A diagram shows four positions (A, B, C, D) of the Moon in its orbit around Earth, and Earth\'s orbit around the Sun. Position A is between Earth and Sun, position B is to the right of Earth, position C is opposite the Sun, and position D is to the left of Earth.',
       text: 'At which position would a full Moon be observed?',
@@ -564,7 +564,7 @@ export default {
       diveDeep: 'The Moon\'s phases are caused by the changing angle between the Sun, Moon, and Earth as the Moon orbits Earth every 29.5 days. At new Moon (position A, between Earth and Sun), the illuminated side faces away from Earth — Moon is invisible. At first quarter (position B, 90° from Sun), half the Moon is lit. At full Moon (position C, opposite Sun), the entire visible face is illuminated. At third quarter (position D), the other half is lit. Lunar eclipses occur at full Moon when Earth\'s shadow falls on the Moon. Solar eclipses occur at new Moon when the Moon\'s shadow falls on Earth. This moon phase diagram appears regularly on the Regents.',
     },
     {
-      number: 44,
+      number: 44, image: '/images/exams/es-january-2025/context_42_44.png',
       part: 'B-1',
       context: 'A diagram shows a cross section through Earth\'s crust, mantle, and core. Arrows indicate convection currents in the mantle. Lithospheric plates move in directions shown by surface arrows.',
       text: 'What drives the movement of Earth\'s lithospheric plates?',
@@ -580,7 +580,7 @@ export default {
       diveDeep: 'Plate tectonic movement is driven primarily by mantle convection. Heat from radioactive decay in the mantle and core-mantle heat transfer warms rock near the base of the mantle, making it less dense, causing it to rise. At the surface it spreads laterally, cools, becomes denser, and sinks (subducts). This convection cycle creates the "conveyor belt" that moves plates. Additional mechanisms include ridge push (at mid-ocean ridges, elevated ridges push plates apart) and slab pull (dense subducting ocean crust pulls the plate down). The Reference Tables diagram shows convection in the mantle beneath diverging and converging plate boundaries.',
     },
     {
-      number: 45,
+      number: 45, image: '/images/exams/es-january-2025/context_45_47.png',
       part: 'B-1',
       context: 'A graph shows the percentage of oxygen (O₂) in Earth\'s atmosphere over the last 3.5 billion years, beginning near 0% and rising to the present level of about 21%.',
       text: 'What was the primary cause of the increase in oxygen in Earth\'s early atmosphere?',
@@ -596,7 +596,7 @@ export default {
       diveDeep: 'Earth\'s early atmosphere (outgassed from volcanoes) was primarily water vapor, CO₂, N₂, and SO₂ — essentially no free oxygen. The rise of photosynthetic organisms (cyanobacteria) about 2.7 billion years ago began producing O₂, which initially reacted with dissolved iron in the oceans (forming banded iron formations). Once the oceans were saturated, O₂ began accumulating in the atmosphere ~2.4 billion years ago. This oxygen revolution allowed aerobic respiration and eventually the ozone layer, which blocks UV radiation and enabled life to colonize land. The modern 21% O₂ level is maintained by the balance between photosynthesis and respiration.',
     },
     {
-      number: 46,
+      number: 46, image: '/images/exams/es-january-2025/context_45_47.png',
       part: 'B-1',
       context: 'A map of New York State shows the major bedrock geology regions. The Hudson-Mohawk Lowlands, Adirondack Mountains, Catskill Mountains, and Erie-Ontario Lowlands are labeled.',
       text: 'The Adirondack Mountains are composed primarily of which type of rock?',
@@ -612,7 +612,7 @@ export default {
       diveDeep: 'The Adirondack Mountains represent one of the most geologically interesting regions in New York State — they are a dome of Precambrian basement rocks (1.0–1.3 billion years old) that were uplifted and exposed by erosion. Unlike the folded sedimentary rocks of the Appalachians, the Adirondacks are an erosional remnant of an ancient mountain belt (the Grenville Orogeny). They continue to rise today at a rate of about 3 mm/year. The surrounding lowlands are underlain by younger Paleozoic sedimentary rocks. The Reference Tables\' "Generalized Bedrock Geology of New York State" map shows this clearly — the Adirondacks appear as Precambrian igneous/metamorphic rocks surrounded by Paleozoic sedimentary units.',
     },
     {
-      number: 47,
+      number: 47, image: '/images/exams/es-january-2025/context_45_47.png',
       part: 'B-1',
       context: 'A diagram shows the cross-section of an ocean basin with labeled features: a mid-ocean ridge in the center, ocean trenches on the sides, and arrows showing seafloor spreading away from the ridge.',
       text: 'At a mid-ocean ridge, new seafloor forms when',
@@ -628,7 +628,7 @@ export default {
       diveDeep: 'Seafloor spreading was proposed by Harry Hess in 1960 and provided key evidence for plate tectonics. As plates diverge at ridges, upwelling mantle material (basaltic magma) fills the rift, creating new oceanic crust. Evidence includes: (1) age of seafloor — youngest at ridges, oldest near continents; (2) magnetic striping — alternating normal/reversed polarity bands symmetric about the ridge, recording ancient magnetic reversals; (3) heat flow — highest at ridges. The Atlantic Ocean is widening at about 2–3 cm/year. Eventually, old oceanic crust reaches a subduction zone and returns to the mantle, completing the rock cycle. The Mid-Atlantic Ridge is a prominent example, separating the North/South American plates from the Eurasian/African plates.',
     },
     {
-      number: 48,
+      number: 48, image: '/images/exams/es-january-2025/context_48_50.png',
       part: 'B-1',
       context: 'A table shows the properties of four soil samples (A, B, C, D): grain size, permeability, and capillarity values are given.',
       text: 'Which soil property would result in the fastest infiltration of rainwater into the soil?',
@@ -644,7 +644,7 @@ export default {
       diveDeep: 'Permeability is the ability of a material to allow fluids to pass through it and is controlled by pore size and connectivity. Large particles (gravel, coarse sand) have large pore spaces and high permeability; small particles (clay) have small pores and low permeability (clay can even be relatively impermeable). Capillarity (capillary action) is the ability of water to be drawn upward through small pores against gravity — it is highest in fine-grained materials like clay. High capillarity actually slows infiltration because water is held tightly. The Reference Tables include a permeability chart showing the relationship between sediment grain size and permeability/capillarity. These concepts are essential for understanding groundwater systems and the water table.',
     },
     {
-      number: 49,
+      number: 49, image: '/images/exams/es-january-2025/context_48_50.png',
       part: 'B-1',
       context: 'A diagram shows a cross-section of a mountain range with elevations labeled. The windward side faces prevailing westerly winds. Orographic lifting is occurring.',
       text: 'As air rises over a mountain on the windward side, what happens to its temperature and moisture?',
@@ -660,7 +660,7 @@ export default {
       diveDeep: 'Orographic lifting drives one of the most important climate contrasts in geography — the rain shadow effect. Windward slopes (facing the wind) receive heavy precipitation as moist air rises and cools past the dew point, condensing and precipitating. The leeward side ("rain shadow") is dry because the air has lost its moisture and warms as it descends (adiabatic warming). Classic examples: the wet Pacific Northwest coast vs. the dry Great Basin; the lush windward side of Hawaiian islands vs. dry leeward sides. The adiabatic lapse rate (cooling with altitude) is about 10°C per 1000 m for dry air and about 6°C per 1000 m for saturated air (because condensation releases latent heat, slowing cooling).',
     },
     {
-      number: 50,
+      number: 50, image: '/images/exams/es-january-2025/context_48_50.png',
       part: 'B-1',
       context: 'A diagram shows the position of Earth relative to the Sun on June 21, with Earth\'s axis tilted at 23.5° and the Northern Hemisphere tilted toward the Sun.',
       text: 'On June 21, what is the duration of daylight in New York State?',

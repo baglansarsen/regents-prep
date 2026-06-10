@@ -528,7 +528,7 @@ export default {
       correct: 3,
       explanation: 'Travertine forms from the chemical precipitation of calcium carbonate (CaCO₃) from mineral-rich water in springs and caves — an inorganic chemical process, not involving organisms. The other three limestones are bioclastic (formed from organic remains).',
       diveDeep: 'The ESRT\'s sedimentary rock scheme distinguishes between clastic (fragments of other rocks), bioclastic (organic remains), and chemical/inorganic (precipitated from solution) origins. Chalk, coquina, and coral limestone are all bioclastic — they form from skeletal material of organisms (foraminifera, shell fragments, coral polyps). Travertine precipitates inorganically when CO₂-rich water dissolves limestone (CaCO₃) underground and then loses CO₂ when exposed to air or heat in springs and caves, re-precipitating calcite. Cave formations (stalactites, stalagmites) are also travertine. Rock salt (halite) and rock gypsum are other examples of chemically precipitated sedimentary rocks.',
-      image: '/images/exams/es-june-2022/q36.png',
+      image: '/images/exams/es-june-2022/context_36_37.png',
     },
     {
       number: 37, part: 'B-1',
@@ -544,7 +544,7 @@ export default {
       correct: 1,
       explanation: 'Coquina is visually distinctive: it consists of visible, loosely cemented shells and shell fragments that can be seen with the naked eye, which matches the photograph\'s appearance.',
       diveDeep: 'Identifying rock types from photographs requires knowing visual characteristics: Coquina shows clearly visible shell fragments, often of varying sizes, only loosely bound — it can crumble easily. Chalk appears uniformly fine-grained and white, formed from microscopic foram shells. Coral limestone shows the intricate skeletal patterns of colonial coral organisms. Travertine has a layered, banded appearance and sometimes porous texture from gas bubbles in spring water. These are all varieties of limestone (composed of calcite, CaCO₃), but their different origins produce very different textures. The ESRT lists coquina as a bioclastic limestone.',
-      image: '/images/exams/es-june-2022/q37.png',
+      image: '/images/exams/es-june-2022/context_36_37.png',
     },
     {
       number: 38, part: 'B-1',
@@ -560,7 +560,7 @@ export default {
       correct: 0,
       explanation: 'The dark mineral bands contain amphibole, pyroxene, and garnet. Garnet is known for its red (to red-brown) color and has a hardness of about 6.5–7.5 on the Mohs scale.',
       diveDeep: 'Garnet is a group of silicate minerals that typically appear as red to red-brown dodecahedral crystals in metamorphic rocks. Their hardness (~7) is notably high, which is why they are used as abrasives (sandpaper). In gneiss, the foliation (banding) segregates minerals by density and composition: dark bands contain iron- and magnesium-rich minerals (mafic), while light bands contain silicon- and aluminum-rich minerals (felsic) like plagioclase and quartz. The Grenville orogeny (~1.1 billion years ago) created the Adirondack Mountains through intense regional metamorphism. The ESRT\'s mineral table gives garnet: hardness 6.5–7.5, red/brown/black color, no cleavage.',
-      image: '/images/exams/es-june-2022/q38.png',
+      image: '/images/exams/es-june-2022/context_38_40.png',
     },
     {
       number: 39, part: 'B-1',
@@ -576,7 +576,7 @@ export default {
       correct: 1,
       explanation: 'Gneiss has a foliated, banded texture caused by mineral alignment under directed pressure, which is the hallmark of regional metamorphism occurring over large areas during mountain-building events.',
       diveDeep: 'Metamorphism is classified by setting and scale. Regional metamorphism affects large volumes of rock deep in the crust during continental collisions (orogenies), producing foliated rocks such as slate → phyllite → schist → gneiss with increasing grade (temperature and pressure). Contact metamorphism occurs where hot magma intrudes cooler rock, affecting only a narrow zone and producing non-foliated rocks (hornfels, marble, quartzite). The Grenville orogeny was a continent-continent collision that created the proto-Appalachian mountains about 1.1 billion years ago; the intense regional metamorphism transformed existing rocks into the Adirondack gneisses. Foliation in gneiss indicates long-range directed pressure, ruling out contact metamorphism.',
-      image: '/images/exams/es-june-2022/q39.png',
+      image: '/images/exams/es-june-2022/context_38_40.png',
     },
     {
       number: 40, part: 'B-1',
@@ -592,7 +592,7 @@ export default {
       correct: 1,
       explanation: 'The altitude of Polaris above the horizon equals the observer\'s latitude. The Mount Marcy/Whiteface region is at approximately 44°N, so Polaris appears 44° above the northern horizon.',
       diveDeep: 'The relationship between Polaris altitude and latitude is one of the most testable astronomy concepts on the Regents. Because Polaris lies almost exactly above Earth\'s North Pole, its angle above the horizon equals the observer\'s latitude. At the equator (0°), Polaris is on the horizon (0°); at the North Pole (90°N), Polaris is directly overhead (90°). New York State spans roughly 40–45°N, so Polaris appears 40°–45° above the northern horizon. The ESRT\'s New York State map shows latitude lines. Whiteface Mountain is in the northern Adirondacks at ~44°N. This same principle was used by ancient sailors for navigation.',
-      image: '/images/exams/es-june-2022/q40.png',
+      image: '/images/exams/es-june-2022/context_38_40.png',
     },
     {
       number: 41, part: 'B-1',
@@ -608,7 +608,7 @@ export default {
       correct: 2,
       explanation: 'The cross section shows oceanic crust descending (subducting) beneath Japan\'s continental crust, which is the defining characteristic of a convergent plate boundary.',
       diveDeep: 'At convergent boundaries, plates move toward each other. Three types exist: oceanic-continental (subduction with volcanoes and trench, as off Japan), oceanic-oceanic (one plate subducts, forming a trench and island arc), and continental-continental (neither subducts, causing folded mountain ranges like the Himalayas). Japan sits on the Eurasian/North American plate boundary where the Pacific Plate subducts westward, creating the Japan Trench, the volcanic Japanese archipelago, and frequent earthquakes. The 2011 Tōhoku earthquake (M9.0) ruptured ~450 km of this subduction zone. Transform boundaries (like the San Andreas Fault) show plates sliding laterally with no subduction.',
-      image: '/images/exams/es-june-2022/q41.png',
+      image: '/images/exams/es-june-2022/context_41_43.png',
     },
     {
       number: 42, part: 'B-1',
@@ -624,7 +624,7 @@ export default {
       correct: 2,
       explanation: 'At subduction zones, the downgoing oceanic plate creates a deep linear depression in the ocean floor — an ocean trench. The Japan Trench is the feature labeled A in the cross section.',
       diveDeep: 'Ocean trenches are the deepest features on Earth\'s surface, reaching ~11 km at the Mariana Trench. They form where oceanic plates bend and descend into the mantle at subduction zones. Along the subduction zone, the sinking plate releases fluids that lower the melting point of the overlying mantle wedge, generating magma that rises to form volcanic arcs (island arcs over oceanic plates, volcanic mountain ranges over continental plates). Hot spots are isolated volcanic centers above mantle plumes, unrelated to plate boundaries. Igneous intrusions are features within existing rock bodies. The ESRT\'s tectonic features map shows the Japan Trench.',
-      image: '/images/exams/es-june-2022/q42.png',
+      image: '/images/exams/es-june-2022/context_41_43.png',
     },
     {
       number: 43, part: 'B-1',
@@ -640,7 +640,7 @@ export default {
       correct: 3,
       explanation: 'The 2011 Tōhoku earthquake triggered a massive tsunami — a series of ocean waves generated by the sudden vertical displacement of the seafloor along the subduction zone that inundated coastal areas.',
       diveDeep: 'Tsunamis (Japanese for "harbor wave") are generated when an underwater earthquake, landslide, or volcanic eruption rapidly displaces a large column of water. In the open ocean, tsunami waves travel at ~800 km/h with wavelengths of hundreds of kilometers but heights of less than 1 meter — difficult to detect. As they enter shallow coastal water, they slow down but grow dramatically in height (up to 40+ meters in the 2011 event). The 2011 tsunami killed ~20,000 people, primarily through inundation of low-lying coastal areas. Early warning systems use seismographs and ocean buoys (DART network) to detect tsunamis and issue warnings before waves arrive.',
-      image: '/images/exams/es-june-2022/q43.png',
+      image: '/images/exams/es-june-2022/context_41_43.png',
     },
     {
       number: 44, part: 'B-1',
@@ -656,7 +656,7 @@ export default {
       correct: 0,
       explanation: 'Arrow A represents insolation reflected back to space by clouds/atmosphere before reaching Earth, and arrow E represents insolation reflected off Earth\'s surface. Both are forms of reflection (not absorption or transmission).',
       diveDeep: 'Earth\'s energy budget divides incoming solar radiation (insolation) into three fates: ~30% is reflected back to space (albedo), ~20% is absorbed by the atmosphere, and ~50% is absorbed by Earth\'s surface. Reflection occurs at: cloud tops and atmospheric particles (arrow A), and Earth\'s surface (arrow E) — especially high-albedo surfaces like ice, snow, and light-colored deserts. Albedo (reflectivity) ranges from ~0.9 for fresh snow to ~0.05 for dark ocean water. The greenhouse effect involves the absorption and re-emission of long-wave (infrared) radiation by greenhouse gases — distinct from reflection. B (absorption by atmosphere) and D (direct surface absorption) are not reflection.',
-      image: '/images/exams/es-june-2022/q44.png',
+      image: '/images/exams/es-june-2022/context_44_46.png',
     },
     {
       number: 45, part: 'B-1',
@@ -672,7 +672,7 @@ export default {
       correct: 0,
       explanation: 'Path B passes through clouds or a more opaque part of the atmosphere, which absorbs and scatters some energy. With less atmospheric transparency, less energy reaches the surface compared to path D (direct, clear-sky).',
       diveDeep: 'Atmospheric transparency refers to how readily the atmosphere transmits radiation. Clouds, aerosols, water vapor, and dust all reduce transparency by absorbing or scattering light. Path D represents insolation traveling through relatively clear atmosphere, reaching the surface with maximum energy. Path B passes through clouds (lower transparency), so some energy is absorbed or reflected by cloud droplets before reaching the surface. On overcast days, total insolation at the surface is significantly reduced. The atmosphere\'s transparency varies with wavelength — it is very transparent to visible light but absorbs strongly in the infrared (greenhouse effect) and ultraviolet (ozone layer) regions.',
-      image: '/images/exams/es-june-2022/q45.png',
+      image: '/images/exams/es-june-2022/context_44_46.png',
     },
     {
       number: 46, part: 'B-1',
@@ -688,7 +688,7 @@ export default {
       correct: 3,
       explanation: 'Dark surfaces have low albedo (high absorption) and rough textures increase surface area, both maximizing energy absorption. A dark rough surface therefore absorbs and reradiates the most energy.',
       diveDeep: 'The ability of a surface to absorb solar radiation depends on: (1) color — dark surfaces absorb most wavelengths while light surfaces reflect them (high albedo); (2) texture — rough surfaces have greater surface area and trap reflected light between ridges, further increasing absorption; (3) specific heat capacity — materials with low specific heat heat up quickly. The ESRT lists specific heat values: water (4.18 J/g·°C) heats up much more slowly than sand (0.664 J/g·°C) or basalt (0.84 J/g·°C). This explains why continental interiors have more extreme temperature ranges than coastal areas. Dark rough asphalt heats up dramatically in sunlight — the "urban heat island" effect.',
-      image: '/images/exams/es-june-2022/q46.png',
+      image: '/images/exams/es-june-2022/context_44_46.png',
     },
     {
       number: 47, part: 'B-1',
@@ -704,7 +704,7 @@ export default {
       correct: 1,
       explanation: 'Brachiopods (lamp shells) have survived all five major mass extinction events and still exist today, though greatly reduced in diversity. The other groups all went extinct.',
       diveDeep: 'Mass extinctions are events where >75% of species disappear within a geologically short time. The five major events: end-Ordovician (~444 Ma), Late Devonian (~375 Ma), end-Permian (~252 Ma, the "Great Dying," ~96% of marine species extinct), end-Triassic (~201 Ma), and end-Cretaceous (~66 Ma). Trilobites went extinct at the end-Permian; graptolites at the end-Devonian; ammonoids at the end-Cretaceous. Brachiopods survived all five, though today they are represented by only a few hundred species compared to thousands in the Paleozoic. Their resilience is not fully understood but may relate to their simple lifestyle and ability to persist in refugia.',
-      image: '/images/exams/es-june-2022/q47.png',
+      image: '/images/exams/es-june-2022/context_47_48.png',
     },
     {
       number: 48, part: 'B-1',
@@ -720,7 +720,7 @@ export default {
       correct: 2,
       explanation: 'Ediacaran fauna are soft-bodied multicellular organisms that lived 635–541 Ma — well before 550 Ma. The Burgess Shale fauna (~508 Ma) and sharks (~450 Ma) appeared after 550 Ma.',
       diveDeep: 'The Ediacaran Period (635–541 Ma) represents the first fossil record of complex multicellular organisms — bizarre, soft-bodied creatures unlike anything alive today, possibly related to modern cnidarians or a completely extinct lineage. The "Cambrian Explosion" (~541 Ma) saw a rapid diversification of body plans; the Burgess Shale (~508 Ma) preserves this diversity. Sharks first appeared in the Ordovician (~450 Ma); insects in the Devonian/Silurian (~419 Ma). The ESRT\'s geologic history chart shows when major groups first appeared. Questions about "before X Ma" require careful reading of the timeline scale.',
-      image: '/images/exams/es-june-2022/q48.png',
+      image: '/images/exams/es-june-2022/context_47_48.png',
     },
     {
       number: 49, part: 'B-1',
@@ -736,7 +736,7 @@ export default {
       correct: 3,
       explanation: 'Earth rotates counterclockwise when viewed from above the North Pole (west to east). This is the correct direction, consistent with the Foucault pendulum\'s apparent clockwise rotation in the Northern Hemisphere.',
       diveDeep: 'Earth\'s rotation is prograde (counterclockwise viewed from north, or west-to-east). This causes the Coriolis effect — deflection of moving objects to the right in the Northern Hemisphere and to the left in the Southern Hemisphere. The Foucault pendulum\'s swing plane appears to rotate clockwise in the Northern Hemisphere because Earth rotates beneath it; at the North Pole it would complete one full rotation in 24 hours, and at the equator there would be no apparent rotation. The apparent rotation is actually Earth rotating under a pendulum that maintains a fixed plane in space due to inertia. The rate of apparent pendulum rotation = 15°/hr × sin(latitude).',
-      image: '/images/exams/es-june-2022/q49.png',
+      image: '/images/exams/es-june-2022/context_49_50.png',
     },
     {
       number: 50, part: 'B-1',
@@ -752,7 +752,7 @@ export default {
       correct: 2,
       explanation: 'Earth rotates 360° in 24 hours, which equals 15° per hour. Over 5 hours: 5 × 15° = 75°.',
       diveDeep: 'Earth\'s rotation rate is approximately 15°/hour (or equivalently, 1° every 4 minutes, or 360° per 24 hours). This rate is the basis for the world\'s time zones: each hour zone spans 15° of longitude. The ESRT states Earth\'s rotation rate as 15°/hr. Over shorter periods: 1 hour = 15°, 2 hours = 30°, 3 hours = 45°, 4 hours = 60°, 5 hours = 75°, 6 hours = 90°. This rate also explains why the Sun appears to move across the sky at 15°/hour. The Foucault pendulum\'s apparent rotation rate depends on latitude — at 90°N it matches Earth\'s 15°/hr; at other latitudes it is 15°/hr × sin(latitude).',
-      image: '/images/exams/es-june-2022/q50.png',
+      image: '/images/exams/es-june-2022/context_49_50.png',
     },
   ],
 }

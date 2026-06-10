@@ -153,7 +153,7 @@ export default {
       diveDeep: 'The Triangle Midsegment Theorem states a midsegment is parallel to the third side and exactly half its length. Here DE connects midpoints, so DE = ½BC, and BD as half of side AB equals ½AB. Setting the two halves equal forces two sides of the triangle to be congruent. The trap answers (scalene, or pairing the wrong segments) ignore that a midsegment relates to the side it is parallel to, not an arbitrary side. Always identify which full side a midsegment parallels before comparing lengths.'
     },
     {
-      number: 13,
+      number: 13, image: '/images/exams/geo-january-2025/q13.png',
       part: 'A',
       text: 'As shown in the diagram below, JKL ∥ MNOP, with transversal KRN, and OR ≅ ON. If m∠POR = 116°, what is m∠LKN?',
       choices: ['58°', '122°', '116°', '128°'],
@@ -275,7 +275,7 @@ export default {
       diveDeep: 'This extends the volume computation by attaching a density (weight per cubic inch) instead of a gallon conversion. Compute the quarter-cylinder volume first, then multiply by the given weight-per-volume rate to convert cubic inches to pounds. Keep π in the calculator to the end and round only the final answer. Watch the units on the conversion factor — multiplying when the rate is "pounds per cubic inch" but dividing when it is "cubic inches per pound" trips up many students.'
     },
     {
-      number: 23,
+      number: 23, image: '/images/exams/geo-january-2025/q23.png',
       part: 'A',
       text: 'The car tire shown in the photograph below has a diameter of 2¼ feet. Approximately how many rotations will the tire make in one mile? [1 mile = 5280 feet]',
       choices: ['373', '1328', '747', '2347'],

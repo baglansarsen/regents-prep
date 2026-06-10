@@ -44,7 +44,6 @@ export default {
       choices: ['Earth rotates on its axis', 'Earth revolves around the Sun', 'Orion rotates on its axis', 'Orion revolves around the Sun'],
       topic: 'Astronomy',
       correct: 1,
-      image: '/images/exams/es-january-2024/q4.png',
       explanation: 'Because Earth revolves around the Sun over the course of a year, the nighttime side of Earth faces different regions of space in different seasons, making some constellations visible only in certain seasons.',
       diveDeep: 'Seasonal visibility of constellations is caused by Earth\'s revolution (orbital motion), not its rotation. In summer, Orion is in the same direction as the Sun, so it is above the horizon only during the day when it cannot be seen. Students often confuse rotation (daily motion, causing sunrise/sunset) with revolution (yearly motion, causing seasonal changes). A helpful strategy: "rotation = daily, revolution = seasonal." Daily apparent motion of stars across the sky is caused by Earth\'s rotation.',
     },

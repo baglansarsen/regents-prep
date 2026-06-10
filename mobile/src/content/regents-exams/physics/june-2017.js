@@ -23,7 +23,6 @@ export default {
       choices: ['10. m and 10. m', '12 m and 16 m', '12 m and 8.0 m', '16 m and 8.0 m'],
       topic: 'Kinematics',
       correct: 1,
-      image: '/images/exams/phys-june-2017/q2.png',
       explanation: 'Using the Pythagorean theorem, √(12² + 16²) = √(144 + 256) = √400 = 20 m, confirming that 12 m and 16 m are valid perpendicular components.',
       diveDeep: 'Perpendicular vector components combine by the Pythagorean theorem: R² = x² + y². For the choices: 10² + 10² = 200 ≠ 400; 12² + 16² = 400 ✓; 12² + 8² = 208 ≠ 400; 16² + 8² = 320 ≠ 400. The 12–16–20 combination is a Pythagorean triple (3-4-5 scaled by 4). Recognizing common Pythagorean triples (3-4-5, 5-12-13) speeds up vector problems on the Regents. A common mistake is checking only whether values are less than 20 rather than checking the Pythagorean relationship.'
     },
@@ -34,7 +33,6 @@ export default {
       choices: ['3.2 km', '5.0 km', '3.6 km', '7.0 km'],
       topic: 'Kinematics',
       correct: 3,
-      image: '/images/exams/phys-june-2017/q3.png',
       explanation: 'Total distance = sum of all path lengths = 1.0 + 3.0 + 3.0 = 7.0 km. Distance is a scalar that counts all ground covered, regardless of direction.',
       diveDeep: 'Distance and displacement are often confused. Distance is the total path length (scalar); displacement is the straight-line change in position (vector). Here the hiker ends up 2.0 km north and 3.0 km west of the start, giving a displacement magnitude of √(2² + 3²) ≈ 3.6 km — but that is not what was asked. The question asks for total distance, which is simply 1.0 + 3.0 + 3.0 = 7.0 km. A common mistake on the Regents is computing displacement when distance is asked, or vice versa.'
     },
@@ -85,7 +83,6 @@ export default {
       choices: ['zero', 'decreasing', 'increasing', 'constant, but not zero'],
       topic: 'Forces & Newton',
       correct: 0,
-      image: '/images/exams/phys-june-2017/q8.png',
       explanation: "Equilibrium means the net force on the block is zero. By Newton's second law (F_net = ma), if F_net = 0, then a = 0.",
       diveDeep: "Newton's first law: an object in equilibrium (net force = 0) moves at constant velocity or remains at rest — both imply zero acceleration. Equilibrium does not mean the object is stationary; it can move at constant speed in a straight line. A common misconception is that a moving object must have a net force — it does not if it moves at constant velocity. Static equilibrium means at rest; dynamic equilibrium means constant-velocity motion. Both require zero net force and zero acceleration."
     },
@@ -153,7 +150,6 @@ export default {
       ],
       topic: 'Forces & Newton',
       correct: 1,
-      image: '/images/exams/phys-june-2017/q14.png',
       explanation: 'Gravity is always attractive (all masses attract). The electrostatic force can be attractive (opposite charges) or repulsive (like charges).',
       diveDeep: 'This conceptual question tests the fundamental nature of the two forces. Gravity depends on mass (always positive), so it is always attractive — there is no negative mass in classical physics. The electrostatic force depends on charge, which can be positive or negative: like charges repel, opposite charges attract. Both forces follow an inverse-square law with distance. A key difference is magnitude: electrostatic forces are typically many orders of magnitude stronger than gravitational forces at the atomic scale (e.g., in a hydrogen atom, F_E/F_G ≈ 10³⁹).'
     },
@@ -179,7 +175,6 @@ export default {
       choices: ['8.42 eV', '3.06 eV', '5.74 eV', '2.68 eV'],
       topic: 'Light & Optics',
       correct: 2,
-      image: '/images/exams/phys-june-2017/q16.png',
       explanation: 'The photon energy equals the difference in energy levels: E_photon = E_f − E_b. From the mercury energy level diagram on the Regents reference table, E_f − E_b = 5.74 eV.',
       diveDeep: 'When an electron drops to a lower energy level, the energy difference is released as a photon with E = hf. For mercury, the energy levels are given on the Regents reference table. Students must subtract the lower level energy from the higher level energy — a common mistake is taking the difference in the wrong order or using the wrong levels. The photon\'s frequency can then be found from f = E/h. Each spectral line corresponds to a specific energy transition, which is the basis of atomic emission spectra and spectroscopy.'
     },
@@ -245,7 +240,6 @@ export default {
       choices: ['1700 W', '180 W', '340 W', '7.0 W'],
       topic: 'Energy & Power',
       correct: 0,
-      image: '/images/exams/phys-june-2017/q22.png',
       explanation: 'Power = Force × velocity = mg × v = (35 kg)(9.81 m/s²)(5.0 m/s) ≈ 1700 W.',
       diveDeep: 'When lifting at constant speed, the applied force equals weight: F = mg = 35 × 9.81 ≈ 343 N. Power = F × v = 343 × 5.0 ≈ 1715 W ≈ 1700 W. An alternative approach: P = W/t = Fd/t = F(d/t) = Fv. A common mistake is using P = mgh (which gives energy, not power) without dividing by time. The shortcut P = Fv is especially useful when velocity is given directly. This is approximately 2.3 horsepower — a useful real-world comparison.'
     },
@@ -293,7 +287,7 @@ export default {
       diveDeep: 'Projectile motion is analyzed by separating horizontal and vertical components. Vertically, the ball decelerates at g = 9.81 m/s² until v_y = 0 at the peak. Horizontally, there is no acceleration (neglecting air resistance), so v_x = v cos30° remains constant. Acceleration due to gravity is never zero during flight (eliminates choice 1). Momentum is zero only if velocity is zero — but v_x is nonzero, so momentum is not zero (eliminates choice 2). This two-component thinking is essential for all projectile problems.'
     },
     {
-      number: 38,
+      number: 38, image: '/images/exams/phys-june-2017/q38.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'The graph below represents the relationship between velocity and time of travel for a toy car moving in a straight line. The shaded area under the line represents the toy car\'s',
@@ -359,7 +353,7 @@ export default {
       diveDeep: 'Newton\'s second law: F_net = ma. Friction opposes motion (eastward motion → friction is westward). Net eastward force = 70 − 10 = 60 N. a = 60/20 = 3.0 m/s². A common mistake is ignoring friction and using 70/20 = 3.5 m/s² (choice 2) or using only friction (10/20 = 0.5 m/s², choice 1). Always identify all forces and their directions before applying F_net = ma. The friction here is kinetic friction since the crate is already moving.'
     },
     {
-      number: 44,
+      number: 44, image: '/images/exams/phys-june-2017/q44.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'Which graph represents the relationship between the energy of photons and the wavelengths of photons in a vacuum?',
@@ -386,7 +380,7 @@ export default {
       diveDeep: 'Standing waves form when two waves of equal amplitude and frequency travel in opposite directions and superpose. At nodes, destructive interference gives zero displacement — this requires the waves to be 180° out of phase at that point. At antinodes, constructive interference gives maximum displacement — the waves are in phase (0°). When a wave reflects from a fixed wall (fixed end), it inverts (gains a 180° phase shift), which is why nodes form at fixed ends. This 180° phase shift is distinct from a free-end reflection, where no phase inversion occurs.'
     },
     {
-      number: 46,
+      number: 46, image: '/images/exams/phys-june-2017/context_45_46.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'One end of a long spring is attached to a wall. A student vibrates the other end of the spring vertically, creating a standing wave. What is the total number of antinodes on the standing wave shown in the diagram?',
@@ -430,7 +424,7 @@ export default {
       diveDeep: 'Coulomb\'s law F = kq₁q₂/r² is used to find the electric force. Both charges are positive so the force is repulsive. The calculation requires careful handling of exponents: k = 8.99 × 10⁹ N·m²/C². Plug in the given charges and separation distance, square the distance (a common error is forgetting to square r), and compute. The force between two microcoulomb charges at centimeter distances falls in the millinewton to newton range — much stronger than gravitational forces at the same scale, illustrating the dominance of electrostatic forces at small distances.'
     },
     {
-      number: 50,
+      number: 50, image: '/images/exams/phys-june-2017/q50.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'The diagram below represents the wave fronts produced by a point source moving to the right in a uniform medium. Observers are located at points A (ahead of the source) and B (behind the source). Compared to the wave frequency and wavelength observed at point A, the wave observed at point B has a',
@@ -587,7 +581,7 @@ export default {
       diveDeep: 'On Regents show-all-work questions, one point is typically awarded for a correct equation with proper substitution (including units), and a second point for the correct numerical answer with units. Writing "I = q/t" and "I = 28 C / 1.5×10⁻³ s" earns the first point; arriving at "1.9×10⁴ A" earns the second. Even if a student makes an arithmetic error but sets up correctly, they can earn partial credit. This format rewards procedural physics knowledge over mere computation.'
     },
     {
-      number: 65,
+      number: 65, image: '/images/exams/phys-june-2017/q65.png',
       part: 'B-2',
       type: 'written',
       text: 'The diagram below represents two pulses traveling toward each other in a uniform medium. Pulse A has a displacement of +1.20 m and pulse B has a displacement of −0.40 m. On the grid in your answer booklet, draw the resultant displacement of the medium when both pulses are located between points A and B.',
@@ -748,7 +742,7 @@ export default {
       diveDeep: 'Units check: kg × (m/s)² / m = kg × m²/s² / m = kg·m/s² = N ✓. The result 32.4 N inward is the centripetal force. By Newton\'s third law, the airplane pulls outward on the cord with 32.4 N (centrifugal reaction force in the student\'s frame). On the Regents, centripetal force direction (toward center) is conceptually important but the magnitude calculation is the focus of this two-point question.'
     },
     {
-      number: 81,
+      number: 81, image: '/images/exams/phys-june-2017/context_81_85.png',
       part: 'C',
       type: 'written',
       text: 'A ray of light with a frequency of 5.09 × 10¹⁴ hertz traveling in medium X is refracted at point P. The angle of refraction is 90.°, as represented in the diagram. Calculate the wavelength of the light ray in air. [Show all work, including the equation and substitution with units.]',

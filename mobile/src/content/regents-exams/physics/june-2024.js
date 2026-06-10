@@ -33,7 +33,6 @@ export default {
       choices: ['0.31 m/s²', '7.8 m/s²', '0.63 m/s²', '16 m/s²'],
       topic: 'Kinematics',
       correct: 1,
-      image: '/images/exams/phys-june-2024/q3.png',
       explanation: 'Using v² = v₀² + 2ad: 0 = (25)² + 2a(40) → a = −625/80 ≈ −7.8 m/s². Magnitude = 7.8 m/s².',
       diveDeep: 'The car decelerates from 25 m/s to rest over 40 m. Using v² = v₀² + 2aΔx: 0 = 625 + 80a → a = −7.81 m/s² (negative = deceleration). Magnitude = 7.8 m/s². Choice A (0.31) comes from a = v/d = 25/80. Choice D (16) might come from a = v²/d = 625/40 (forgetting the factor of 2). A common mistake is not squaring v₀ or forgetting the 2 in the kinematic equation. This is the v² = v₀² + 2aΔx equation applied with v_f = 0.'
     },
@@ -44,7 +43,6 @@ export default {
       choices: ['increases and its speed increases', 'increases and its speed is constant', 'is constant and its speed increases', 'is constant and its speed is constant'],
       topic: 'Kinematics',
       correct: 2,
-      image: '/images/exams/phys-june-2024/q4.png',
       explanation: 'In free fall, the only force is gravity, which produces a constant acceleration of 9.81 m/s² downward. With constant acceleration, speed increases continuously from rest.',
       diveDeep: "Free fall near Earth's surface: a = g = 9.81 m/s² = constant (gravity doesn't change over building heights). Since the brick starts from rest and has constant downward acceleration, speed increases linearly: v = gt. Many students incorrectly think acceleration increases as the brick speeds up — this confuses acceleration with speed. Acceleration is the rate of change of speed, not speed itself. With constant g and starting from rest, speed grows uniformly: v = 0 + gt. This contrasts with situations involving air resistance (terminal velocity), which is NOT assumed here."
     },
@@ -85,7 +83,6 @@ export default {
       choices: ['higher and the same distance horizontally', 'to the same maximum height and farther horizontally', 'both higher and farther horizontally', 'to the same maximum height and the same distance horizontally'],
       topic: 'Kinematics',
       correct: 2,
-      image: '/images/exams/phys-june-2024/q8.png',
       explanation: 'Increasing initial speed increases both the vertical component (greater height) and the horizontal component (greater range). Both maximum height and horizontal distance increase.',
       diveDeep: 'For a projectile at angle θ with speed v₀: max height H = (v₀sinθ)²/(2g) ∝ v₀², and range R = v₀²sin(2θ)/g ∝ v₀². Both H and R scale with v₀², so increasing v₀ increases both. The angle (55°) is unchanged. A common mistake is thinking only one dimension changes when speed increases. Since increasing v₀ increases both horizontal and vertical components simultaneously, both height and range increase. This is a conceptual question about how initial speed affects the full trajectory — both H and R scale as v₀².'
     },
@@ -287,7 +284,7 @@ export default {
       diveDeep: 'The frequency of light is constant as it passes from one medium to another; only speed and wavelength change. For any medium: λ = v/f = c/(n·f). For sodium chloride the index of refraction n = 1.54 (from the Regents reference table). λ_NaCl = (3.00 × 10⁸)/(1.54 × 5.09 × 10¹⁴) ≈ 3.83 × 10⁻⁷ m. The diamond wavelength (2.44 × 10⁻⁷ m) corresponds to n_diamond = 2.42, which gives a shorter wavelength than NaCl because diamond slows light more. A common mistake is using the diamond wavelength or confusing which medium has the larger index.'
     },
     {
-      number: 37,
+      number: 37, image: '/images/exams/phys-june-2024/q37.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'The diagram shows resistors R1 (15 Ω), R2 (21 Ω), and R3 (24 Ω) connected to a 12-volt source, with R1 in series and R2 and R3 in parallel. The current flowing through resistor R3 is',
@@ -367,7 +364,7 @@ export default {
       diveDeep: "Mesons consist of one quark and one antiquark. Quark charges are +2/3 e (up, charm, top) and −1/3 e (down, strange, bottom). Antiquarks have opposite charges: −2/3 e and +1/3 e. Possible meson charges: (+2/3) + (−2/3) = 0, (+2/3) + (+1/3) = +1e, (−1/3) + (−1/3) is not possible for quark-antiquark. The neutral pion (π⁰) is an example of a 0 charge meson. A charge of +2e would require three quarks of +2/3 each (a baryon, not a meson). The charge −1/3 e and +1/3 e are individual quark charges, not meson charges. Only 0 e and ±1 e are valid meson charges."
     },
     {
-      number: 42,
+      number: 42, image: '/images/exams/phys-june-2024/q42.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'The diagram shows waves A and B traveling through the same medium. Wave A has a positive displacement and wave B has a negative displacement of the same amplitude. Which wave best represents the superposition of waves A and B?',
@@ -383,7 +380,7 @@ export default {
       diveDeep: 'The principle of superposition states that the net displacement at any point is the algebraic sum of the individual wave displacements. When waves A and B have equal amplitudes but opposite displacements (one crest aligns with the other\'s trough), they completely cancel: y_net = y_A + y_B = +A + (−A) = 0 everywhere. This is complete destructive interference. Partial destructive interference occurs when amplitudes are unequal. Constructive interference occurs when both waves have the same sign of displacement at each point. The Regents often tests superposition with diagrams showing peaks and troughs of equal amplitude overlapping.'
     },
     {
-      number: 43,
+      number: 43, image: '/images/exams/phys-june-2024/q43.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'The diagrams show the direction of wave travel and the direction of medium particle vibration for different waves. Which diagram best represents the characteristics of a sound wave?',
@@ -447,7 +444,7 @@ export default {
       diveDeep: 'Discrepancies between experimental and theoretical values in physics experiments arise from measurement errors, instrumental limitations, and uncontrolled variables. Here: (A) initial horizontal velocity does not affect vertical free-fall acceleration — the vertical and horizontal motions are independent. (B) Gravity is essentially constant within a building (g varies by only 0.03% from ground to top of a tall building). (C) Kinematic equations are valid experimental tools. (D) Errors in timing (e.g., reaction time) or measuring distance (e.g., estimating 2.4 m) directly affect the calculated a = 2d/t². This is the only physically realistic and correct explanation.'
     },
     {
-      number: 47,
+      number: 47, image: '/images/exams/phys-june-2024/q47.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'Which graph represents the motion of an object falling freely from rest near the surface of the Moon?',
@@ -495,7 +492,7 @@ export default {
       diveDeep: 'Apply Newton\'s second law in each direction. Vertical: F_N − F_g = 150 − 150 = 0 N → no vertical acceleration. Horizontal: F_net = F_rope − F_f = 100 − 50 = 50 N to the right. Since F_net ≠ 0, the crate accelerates in the direction of the net force: to the right. A common mistake is assuming the crate moves at constant velocity because some forces are balanced — but only the vertical forces are balanced, not the horizontal. The net horizontal force of 50 N produces a_x = F_net/m (unknown mass, but acceleration exists). Choice C (constant velocity) would require F_rope = F_f.'
     },
     {
-      number: 50,
+      number: 50, image: '/images/exams/phys-june-2024/q50.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'A graph shows the relationship between the potential energy stored in a spring (PE_s) and the elongation of the spring (x). At x = 0.0400 m, PE_s = 0.200 J. The value of the spring constant is',
@@ -573,7 +570,7 @@ export default {
       diveDeep: 'The absolute index of refraction n = c/v, where c = 3.00 × 10⁸ m/s (speed of light in vacuum) and v is the speed in the medium. n = 3.00 × 10⁸ / 1.75 × 10⁸ = 300/175 ≈ 1.71. The index of refraction is always ≥ 1 because light slows down in any medium (n = 1 only in vacuum). n ≈ 1.71 corresponds to a dense glass or crystal. This is a 1-point question — just write the equation, substitute, and state the answer (no units; n is dimensionless).'
     },
     {
-      number: 61,
+      number: 61, image: '/images/exams/phys-june-2024/q61.png',
       part: 'B-2',
       type: 'written',
       text: 'A ray of light traveling through medium X is incident upon the surface of medium Y. The absolute index of refraction of medium Y is greater than the absolute index of refraction of medium X.\n\nOn the diagram in your answer booklet, use a straightedge to draw a ray that could represent the path of the light in medium Y. [1]',
@@ -605,7 +602,7 @@ export default {
 
     // ── Part C (Q66–85) ────────────────────────────────────────────────────
     {
-      number: 66,
+      number: 66, image: '/images/exams/phys-june-2024/context_66_70.png',
       part: 'C',
       type: 'written',
       text: 'Questions 66–70: In an experiment, a resistor is connected to a source of varying potential difference. A voltmeter and an ammeter measure the current at different potential difference settings. The data table shows:\n\nPotential Difference (V) | Current (A)\n0.0 | 0.00\n2.0 | 0.26\n3.0 | 0.35\n5.0 | 0.63\n8.0 | 0.98\n\n66. Plot the data points for current versus potential difference on the grid in your answer booklet. [1]\n\n67. Draw the line of best fit. [1]',
@@ -625,7 +622,7 @@ export default {
       diveDeep: 'The slope of an I vs. V graph has units of A/V = 1/Ω (siemens, or conductance). For an ohmic resistor: I = V/R, so the slope = 1/R. Calculating from data endpoints: slope ≈ (0.98 − 0)/( 8.0 − 0) = 0.1225 A/V. R = 1/slope ≈ 8.2 Ω. Regents scoring: for the slope calculation (2 pts) — show the formula slope = Δy/Δx, pick two points on the line (not necessarily data points), substitute values with units, give the numerical slope with units. For resistance (1 pt): use R = 1/slope or R = V/I from any data point. Common mistake: using only data points for slope instead of points on the best-fit line.'
     },
     {
-      number: 71,
+      number: 71, image: '/images/exams/phys-june-2024/context_71_75.png',
       part: 'C',
       type: 'written',
       text: 'Questions 71–75: An alpha particle with a charge of +2 elementary charges is moving toward two oppositely charged parallel plates. The magnitude of the electric field strength between the plates is 5.0 × 10⁴ newtons per coulomb.\n\n71. Determine the magnitude of the charge of an alpha particle in coulombs. [1]\n\n72. On the diagram in your answer booklet, draw at least three field lines to show the direction of the electric field in the space between the charged plates. [1]\n\n73. What is the direction of the electrostatic force exerted on the alpha particle as it passes between the plates? [1]',

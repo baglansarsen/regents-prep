@@ -349,7 +349,7 @@ export default {
       diveDeep: 'For continuous decay A = A₀e^(kt), half-life is found by setting the amount to half and solving with the natural log: t = ln(0.5)/k. The half-life is independent of the starting amount A₀, since A₀ cancels. For part (b), substitute the time directly and use e^x on a calculator. Common errors: using log base 10 instead of ln with base e, and sign errors with the negative exponent.'
     },
     {
-      number: 34,
+      number: 34, image: '/images/exams/alg2-january-2025/q34.png',
       part: 'C',
       type: 'written',
       text: 'The monthly average temperature in a city can be modeled by T(m) = 22 sin[(π/6)(m − 4)] + 55, where T is in degrees Fahrenheit and m is the month number (1 = January). (a) State the amplitude, period, and the maximum temperature predicted by the model. (b) Determine in which month the maximum temperature occurs.',
@@ -360,7 +360,7 @@ export default {
       diveDeep: 'For T = a sin[b(m − c)] + d, the amplitude is |a|, period is 2π/b, midline is d, and maximum is d + |a|. The phase shift c moves the curve horizontally. Sine attains its maximum when its argument is π/2; set the inside equal to π/2 and solve for the input. A frequent mistake is treating the phase shift incorrectly or forgetting to add the midline when finding the maximum value.'
     },
     {
-      number: 35,
+      number: 35, image: '/images/exams/alg2-january-2025/q35.png',
       part: 'C',
       type: 'written',
       text: 'A drug is administered and its concentration C (in mg/L) in the bloodstream t hours later is given in the table: t = 1, C = 6.2; t = 2, C = 9.5; t = 3, C = 10.4; t = 4, C = 9.1; t = 5, C = 6.8; t = 6, C = 3.9. (a) State an appropriate type of regression function for this data and write the regression equation, rounding coefficients to the nearest hundredth. (b) Using your model, predict the concentration at t = 3.5 hours, to the nearest tenth.',

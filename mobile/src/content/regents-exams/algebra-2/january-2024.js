@@ -258,7 +258,7 @@ export default {
       modelAnswer: 'Evaluate p(−4) = 2(−4)³ + 10(−4)² + 4(−4) − 16 = −128 + 160 − 16 − 16 = 0. Since p(−4) = 0, by the Remainder Theorem, (x + 4) is a factor of 2x³ + 10x² + 4x − 16.'
     },
     {
-      number: 26,
+      number: 26, image: '/images/exams/alg2-january-2024/q26.png',
       part: 'B',
       type: 'written',
       text: 'An initial investment of $1000 reaches a value V(t) according to the model V(t) = 1000(1.01)^(4t), where t is the time in years. Determine the average rate of change, to the nearest dollar per year, of this investment from year 2 to year 7.',

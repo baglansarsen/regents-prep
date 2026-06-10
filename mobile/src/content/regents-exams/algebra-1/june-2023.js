@@ -302,9 +302,7 @@ export default {
       topic: 'Functions & Relations',
       correct: 0,
       explanation: 'In an exponential model a(b)^t, the base 1.03 means the population is multiplied by 1.03 each year, equivalent to a 3% annual increase.',
-      diveDeep: 'In exponential growth/decay of the form a(b)^t, the coefficient a is the initial amount (here 5000) and the base b is the growth factor. A base greater than 1 indicates growth; b = 1.03 means 100% of the previous value plus 3% more, so a 3% increase per year. A base between 0 and 1, like 0.97, would mean a 3% decrease. Do not confuse the multiplicative factor (1.03) with an additive constant (103 people) — exponential change is percentage-based, not a fixed number per period.',
-      image: '/images/exams/alg1-june-2023/q24.png'
-    },
+      diveDeep: 'In exponential growth/decay of the form a(b)^t, the coefficient a is the initial amount (here 5000) and the base b is the growth factor. A base greater than 1 indicates growth; b = 1.03 means 100% of the previous value plus 3% more, so a 3% increase per year. A base between 0 and 1, like 0.97, would mean a 3% decrease. Do not confuse the multiplicative factor (1.03) with an additive constant (103 people) — exponential change is percentage-based, not a fixed number per period.',},
 
     // ── Part B (Part II) – 2 credits each ────────────────────────────────────
     {
@@ -318,7 +316,7 @@ export default {
       modelAnswer: 'Step 1: Distribute — 2x − 6 + 5 = 3x − 4.\nStep 2: Combine like terms on left — 2x − 1 = 3x − 4.\nStep 3: Subtract 2x from both sides — −1 = x − 4.\nStep 4: Add 4 to both sides — x = 3.\nCheck: 2(3 − 3) + 5 = 5 and 3(3) − 4 = 5 ✓'
     },
     {
-      number: 26,
+      number: 26, image: '/images/exams/alg1-june-2023/q26.png',
       part: 'B',
       type: 'written',
       text: 'The function f(x) is graphed on the set of axes below. The graph shows a curve passing through the x-axis at x = −3, x = 1, and x = 4.\n\nState the zeros of f(x). Explain your reasoning.',
@@ -358,7 +356,7 @@ export default {
       modelAnswer: 'Step 1: Square A.\n  A² = (x + 5)² = x² + 2(x)(5) + 5² = x² + 10x + 25\n\nStep 2: Add B.\n  A² + B = (x² + 10x + 25) + (x² − 18)\n\nStep 3: Combine like terms.\n  = 2x² + 10x + 7\n\nA² + B = 2x² + 10x + 7'
     },
     {
-      number: 30,
+      number: 30, image: '/images/exams/alg1-june-2023/q30.png',
       part: 'B',
       type: 'written',
       text: 'The two relations shown below are not functions.\n\nRelation I: A graph of a curve that fails the vertical line test.\nRelation II: {(−5, −2), (−4, 0), (−2, 1), (−1, 3), (−4, 4)}\n\nExplain how you could change each relation so that they each become a function.',
@@ -400,7 +398,7 @@ export default {
       modelAnswer: 'Step 1: Graph f(x) = |x| + 1.\n  Vertex at (0, 1); slopes of +1 (right) and −1 (left).\n  Points: (−3, 4), (−2, 3), (−1, 2), (0, 1), (1, 2), (2, 3), (3, 4).\n\nStep 2: Graph g(x) = −x² + 6x + 1.\n  Vertex: x = −6/(2·(−1)) = 3; y = −9 + 18 + 1 = 10 → vertex (3, 10).\n  Points: (0, 1), (1, 6), (2, 9), (3, 10), (4, 9), (5, 6), (6, 1).\n\nStep 3: Identify intersection points from the graph.\n  The graphs intersect at (0, 1) and (5, 6).\n\nThe values of x for which f(x) = g(x) are x = 0 and x = 5.'
     },
     {
-      number: 34,
+      number: 34, image: '/images/exams/alg1-june-2023/q34.png',
       part: 'C',
       type: 'written',
       text: 'Jean recorded temperatures over a 24-hour period one day in August in Syracuse, NY. Her results are shown in the table below.\n\nTime (hour): 0, 3, 6, 9, 12, 15, 18, 21, 24\nTemperature (°F): 80, 75, 70, 78, 92, 89, 85, 80, 74\n\nHer data are modeled on the graph.\n\n(a) State the entire interval over which the temperature is increasing.\n(b) State the three-hour interval that has the greatest rate of change in temperature.\n(c) State the average rate of change from hour 12 to hour 24. Explain what this means in the context of the problem.',
@@ -420,7 +418,7 @@ export default {
       modelAnswer: 'Step 1: Graph 2x + 3y ≥ −6.\n  Boundary line: 2x + 3y = −6 (solid, since ≥)\n  Rewrite: y = (−2x − 6)/3\n  x-intercept: (−3, 0); y-intercept: (0, −2)\n  Shade above the line (where y values are larger).\n\nStep 2: Graph x < 3y + 6.\n  Boundary line: x = 3y + 6 (dashed, since <)\n  Rewrite: y = (x − 6)/3\n  x-intercept: (6, 0); y-intercept: (0, −2)\n  Shade to the left (where x < 3y + 6).\n\nStep 3: Label the overlapping shaded region S.\n\nStep 4: Check (4, −2).\n  Inequality 1: 2(4) + 3(−2) = 8 − 6 = 2 ≥ −6 ✓\n  Inequality 2: 4 < 3(−2) + 6 = −6 + 6 = 0 → 4 < 0 ✗\n\nThe point (4, −2) is NOT in the solution set because it does not satisfy the second inequality.'
     },
     {
-      number: 36,
+      number: 36, image: '/images/exams/alg1-june-2023/q36.png',
       part: 'C',
       type: 'written',
       text: 'Suzanna collected information about a group of ponies and horses. She made a table showing the height, measured in hands (hh), and the weight, measured in pounds (lbs), of each pony and horse.\n\nHeight (hh) x: 11, 12, 13, 14, 15, 16, 17\nWeight (lbs) y: 264, 638, 700, 850, 1000, 1230, 1495\n\n(a) Write the linear regression equation for this set of data. Round all values to the nearest hundredth.\n(b) State the correlation coefficient for the linear regression. Round your answer to the nearest hundredth.\n(c) Explain what the correlation coefficient indicates about the linear fit of the data in the context of the problem.',

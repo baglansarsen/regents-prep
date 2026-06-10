@@ -67,7 +67,7 @@ export default {
       diveDeep: 'Multi-angle trapezoid problems are solved by chaining angle facts: the sum of interior angles of a quadrilateral is 360°, angles on a straight line sum to 180°, and the triangle angle sum is 180°. Carefully distinguish the named sub-angles (∠OSA vs ∠HSA) that share a vertex — misreading which angle is being asked for is the most common mistake. Mark every angle you can compute on the diagram before answering, and verify your result is consistent with all given measures.'
     },
     {
-      number: 7,
+      number: 7, image: '/images/exams/geo-august-2025/q7.png',
       part: 'A',
       text: 'In the diagram below, line m is parallel to line n and is cut by transversal t. Which pair of angles must be congruent?',
       choices: ['a pair of same-side interior angles', 'a pair of alternate interior angles', 'a linear pair', 'an angle and its same-side exterior angle'],
@@ -107,7 +107,7 @@ export default {
       diveDeep: 'The two-secant rule states (whole external secant)×(its external part) is equal for both secants: PA·PC = PB·PD, where the products use the FULL secant length times the EXTERNAL near-segment. The most common error is mixing up whole-secant versus external-segment lengths, or forgetting to add DB to PD to get the whole second secant PB. Carefully label which lengths are "whole" (from P to the far intersection) and which are "external" (from P to the near intersection) before substituting.'
     },
     {
-      number: 11,
+      number: 11, image: '/images/exams/geo-august-2025/q11.png',
       part: 'A',
       text: 'In the diagram below, CD ∥ AB, and CB bisects ∠ABD. Which statement must be true?',
       choices: ['CD ≅ AB', '△CDB is a right triangle', 'AB ≅ BD', '△CDB is an isosceles triangle'],
@@ -188,7 +188,7 @@ export default {
       diveDeep: 'On a coordinate grid, vertical and horizontal segments can be counted directly from coordinate differences, while diagonal segments need the distance formula √((x₂−x₁)² + (y₂−y₁)²). Simplify the radical: √80 = √(16·5) = 4√5. The trap "5√16" simplifies to 5·4 = 20, an incorrect, unsimplified-looking distractor. Always reduce radicals fully and add the leg lengths separately from the hypotenuse term.'
     },
     {
-      number: 19,
+      number: 19, image: '/images/exams/geo-august-2025/q19.png',
       part: 'A',
       text: 'In the diagram below, GT and PF intersect at E, and ∠P ≅ ∠F. Which equation is always true?',
       choices: ['PE/FE = FT/PG', 'PE/GE = TE/FE', 'GE/TE = FT/PG', 'PE/FE = PG/FT'],
@@ -261,7 +261,7 @@ export default {
       modelAnswer: 'A translation is a rigid motion (an isometry). Rigid motions preserve distance and angle measure, so each side and angle of △D′A′N′ is equal in measure to its corresponding side and angle in △DAN. Because all corresponding sides and angles are congruent, △D′A′N′ ≅ △DAN.'
     },
     {
-      number: 26,
+      number: 26, image: '/images/exams/geo-august-2025/q26.png',
       part: 'B',
       text: 'The table below lists five metals and their densities: Zinc 7.14, Tin 7.31, Iron 7.86, Copper 8.96, Silver 10.5 (all in g/cm³). A solid metal cube has an edge length of 5 cm and a mass of 982.5 grams. Using the table above, determine and state the type of metal from which this cube is made.',
       choices: [],
@@ -285,7 +285,7 @@ export default {
       modelAnswer: 'A divides CS so that CA:AS = 3:2, meaning A is 3/(3+2) = 3/5 of the way from C to S. Δx = 7 − (−3) = 10 and Δy = 6 − 1 = 5. x_A = −3 + (3/5)(10) = −3 + 6 = 3. y_A = 1 + (3/5)(5) = 1 + 3 = 4. Therefore A = (3, 4).'
     },
     {
-      number: 28,
+      number: 28, image: '/images/exams/geo-august-2025/q28.png',
       part: 'B',
       text: 'The ramp shown in the diagram below has an angle of elevation of 4.8°. The ramp is built to a landing 0.6 m above the ground. Determine and state the length of the ramp, to the nearest tenth of a meter.',
       choices: [],
@@ -309,7 +309,7 @@ export default {
       modelAnswer: 'Because ∠KML is the vertex angle, the base angles are congruent: m∠K = m∠MLK = 15°. ∠KMN is an exterior angle of △KLM at vertex M, so by the Exterior Angle Theorem m∠KMN = m∠K + m∠MLK = 15° + 15° = 30°. Therefore m∠KMN = 30°.'
     },
     {
-      number: 30,
+      number: 30, image: '/images/exams/geo-august-2025/q30.png',
       part: 'B',
       text: 'In the diagram below of circle L, the area of the shaded sector KLM is 7.5π and LK = 5. Determine and state the degree measure of angle KLM, the central angle of the shaded sector.',
       choices: [],
@@ -345,7 +345,7 @@ export default {
       modelAnswer: 'The bucket radius is r = 20/2 = 10 cm. Volume of one bucket of water = πr²h = π(10²)(26) = 2600π ≈ 8168.1 cm³. Converting: 8168.1 cm³ × (1 L / 1000 cm³) ≈ 8.168 L per bucket. Number of buckets = 75 L ÷ 8.168 L ≈ 9.18. Since the tank cannot overflow, Joan can pour in at most 9 full buckets.'
     },
     {
-      number: 33,
+      number: 33, image: '/images/exams/geo-august-2025/q33.png',
       part: 'C',
       text: 'As modeled in the diagram below, two cables are attached from a point on a tree 12 feet above the ground. The longer cable is anchored on the ground 3 feet farther from the tree than the shorter cable is anchored. The angle of elevation between the shorter cable and the ground is 50°. Determine and state, to the nearest foot, the distance from the base of the tree to the point where the longer cable is attached to the ground. Determine and state, to the nearest degree, the angle of elevation between the longer cable and the ground.',
       choices: [],

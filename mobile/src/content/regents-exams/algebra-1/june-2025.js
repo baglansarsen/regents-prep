@@ -113,7 +113,6 @@ export default {
       choices: ['(x − 3)² = 27 − 9', '(x − 3)² = 27 + 9', '(x − 3)² = 27 + 36', '(x − 3)² = 27 − 36'],
       topic: 'Quadratic Functions',
       correct: 1,
-      image: '/images/exams/alg1-june-2025/q11.png',
       explanation: 'Completing the square adds (−6/2)² = 9 to both sides: x² − 6x + 9 = 27 + 9, and the left side factors as (x − 3)².',
       diveDeep: 'Completing the square turns x² + bx into a perfect-square trinomial by adding (b/2)². Here b = −6, so (b/2)² = (−3)² = 9. Crucially, whatever you add to one side you must add to the OTHER side to keep the equation balanced — that is why the right side becomes 27 + 9, not 27 − 9. This technique underlies the quadratic formula and is essential for finding the vertex form of a parabola.'
     },
@@ -227,7 +226,6 @@ export default {
       choices: ['aₙ = 12·(½)ⁿ⁻¹', 'aₙ = 12·(½)ⁿ', 'aₙ = 12 − 6(n − 1)', 'aₙ = 12·2ⁿ⁻¹'],
       topic: 'Sequences',
       correct: 0,
-      image: '/images/exams/alg1-june-2025/q22.png',
       explanation: 'Each term is half the previous one, so the common ratio is ½ and the explicit geometric formula is aₙ = a₁·rⁿ⁻¹ = 12·(½)ⁿ⁻¹.',
       diveDeep: 'A geometric sequence multiplies by a constant ratio each step; find r by dividing any term by the one before it (6 ÷ 12 = ½). The explicit formula is aₙ = a₁ · rⁿ⁻¹, where the exponent is n − 1 so that the first term (n = 1) gives a₁ · r⁰ = a₁. Using exponent n instead of n − 1 shifts the whole sequence and is a frequent mistake. Check: a₂ = 12·(½)¹ = 6, which matches the second term.'
     },
@@ -254,7 +252,6 @@ export default {
       ],
       topic: 'Linear Equations & Inequalities',
       correct: 1,
-      image: '/images/exams/alg1-june-2025/q24.png',
       explanation: 'Dimensional analysis: 49 mi/hr × 5280 ft/mi cancels miles to ft/hr, × 1 car/56 ft cancels feet to cars/hr, × 1 hr/60 min cancels hours to give cars/min.',
       diveDeep: 'Unit conversion (dimensional analysis) works by multiplying conversion factors arranged so unwanted units cancel diagonally — one unit in a numerator cancels the same unit in a denominator. To convert miles to feet you multiply by 5280 ft/mi (feet on top). To convert per-hour to per-minute, you must DIVIDE by 60, which means multiplying by (1 hr/60 min) so hours cancel and minutes land in the denominator. Track each unit carefully and confirm the final answer has the units "cars per minute."'
     },
@@ -359,7 +356,7 @@ export default {
       modelAnswer: 'Identify a = 6, b = 2, c = −1.\nApply the quadratic formula:\nx = (−b ± √(b² − 4ac)) / (2a)\nx = (−2 ± √(2² − 4(6)(−1))) / (2·6)\nx = (−2 ± √(4 + 24)) / 12\nx = (−2 ± √28) / 12\n\nSimplify √28:\n√28 = √(4·7) = 2√7\n\nSubstitute back:\nx = (−2 ± 2√7) / 12\n\nDivide numerator and denominator by 2:\nx = (−1 ± √7) / 6\n\nThe solutions in simplest radical form are x = (−1 + √7) / 6 and x = (−1 − √7) / 6.'
     },
     {
-      number: 35,
+      number: 35, image: '/images/exams/alg1-june-2025/q35.png',
       part: 'C',
       type: 'written',
       text: 'The table below shows the price of a new cell phone and the length of time, in months, since its release.\n\nTime Since Release, in Months (x): 0, 3, 6, 9, 12\nPrice, in Dollars (y): 1200, 1150, 1100, 1000, 920\n\nState the linear regression equation for this set of data. Round all values to the nearest hundredth.\n\nState the correlation coefficient for this data set, to the nearest hundredth.\n\nState what the correlation coefficient indicates about the linear fit of the data.',

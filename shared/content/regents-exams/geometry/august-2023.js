@@ -13,7 +13,6 @@ export default {
       choices: ['∠1 ≅ ∠8', '∠2 ≅ ∠8', '∠3 ≅ ∠5 are supplementary', '∠4 and ∠5 are supplementary'],
       topic: 'Parallel Lines & Angles',
       correct: 3,
-      image: '/images/exams/geo-august-2023/q1.png',
       explanation: 'When a transversal crosses two parallel lines, same-side interior angles (co-interior angles) are supplementary, so ∠4 and ∠5 sum to 180°.',
       diveDeep: 'Parallel-line angle relationships fall into a few families: corresponding angles are equal, alternate interior/exterior angles are equal, and same-side (consecutive) interior angles are supplementary. The classic trap is assuming any two angles are equal — only specific positional pairs are congruent. Sketch the "F," "Z," and "C" shapes formed by the transversal to identify corresponding, alternate, and co-interior pairs respectively. Always confirm the lines are actually parallel before applying these theorems.'
     },
@@ -35,7 +34,6 @@ export default {
       choices: ['35°', '45°', '55°', '70°'],
       topic: 'Circles',
       correct: 2,
-      image: '/images/exams/geo-august-2023/q3.png',
       explanation: 'An angle inscribed in a semicircle is a right angle, so ∠ACB = 90°; the remaining angle ∠ABC = 180° − 90° − 35° = 55°.',
       diveDeep: 'Thales\' theorem states that any inscribed angle subtending a diameter measures 90°, which is one of the most frequently used circle facts on the Regents. Once you spot a diameter and an inscribed angle, you instantly have a right triangle and can use the fact that the acute angles sum to 90°. A common trap is forgetting the angle is 90° and instead trying to use the inscribed-angle-equals-half-arc rule directly. Look for the word "diameter" — it almost always signals a right angle.'
     },

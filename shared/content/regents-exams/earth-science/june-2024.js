@@ -232,7 +232,6 @@ export default {
       ],
       topic: 'General',
       correct: 1,
-      image: '/images/exams/es-june-2024/q15.png',
       explanation: 'Convection is the transfer of heat through the movement of a fluid (liquid or gas) driven by density differences — warm, less-dense water rises while cool, denser water sinks.',
       diveDeep: 'Heat transfer occurs by three mechanisms: conduction (direct contact between molecules, important in solids), convection (fluid movement, important in oceans and atmosphere), and radiation (electromagnetic waves, important for energy transfer through space). Ocean circulation (thermohaline circulation) is driven by temperature and salinity differences that create density differences — this is convection. Insolation refers specifically to incoming solar radiation and is a source of energy, not a transfer mechanism. Students frequently confuse radiation (energy transfer by waves) with insolation (solar radiation input). Convection drives both ocean currents and atmospheric circulation.',
     },

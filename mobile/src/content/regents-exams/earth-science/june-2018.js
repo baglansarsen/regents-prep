@@ -70,7 +70,7 @@ export default {
       diveDeep: 'Hurricanes (also called typhoons or cyclones) produce very high sustained winds, heavy rainfall, and storm surge. Boarding up windows prevents shattering from debris and pressure changes. For earthquakes, the recommended action is "drop, cover, hold on." For floods, moving to higher ground is advised. For tsunamis, evacuation to higher ground is critical. Each natural disaster requires specific preparation strategies, which are commonly tested on the Regents exam.',
     },
     {
-      number: 8, part: 'A',
+      number: 8, image: '/images/exams/es-june-2018/q8.png', part: 'A',
       text: 'Which diagram best represents the general position and direction of flow of the polar front jet stream in the Northern Hemisphere during the winter months?',
       choices: ['Jet stream positioned far north, flowing west to east', 'Jet stream positioned around 40-50°N, flowing west to east with large undulations', 'Jet stream positioned near the equator', 'Jet stream flowing east to west at mid-latitudes'],
       topic: 'Meteorology',
@@ -213,7 +213,7 @@ export default {
       diveDeep: 'Abrasion is the mechanical wearing down of sediment particles as they collide during transport. Running water is the most effective agent for producing rounded, smooth particles. The more a particle is transported, the rounder and smaller it becomes. Size sorting also occurs — slower water deposits larger particles first. Glaciers produce angular, poorly sorted sediment because ice does not allow particles to roll and round. Wind produces very well-rounded, frosted sand grains. Wave action on beaches also rounds cobbles and pebbles. The degree of rounding indicates transport distance.',
     },
     {
-      number: 23, part: 'A',
+      number: 23, image: '/images/exams/es-june-2018/q23.png', part: 'A',
       text: 'The photograph below shows an outcrop with two basaltic intrusions labeled A and B, in a rock unit labeled C. What is the relative age of these three rock units from oldest to youngest?',
       choices: ['B → A → C', 'C → A → B', 'B → C → A', 'C → B → A'],
       topic: 'Geology',
@@ -332,7 +332,7 @@ export default {
     },
     // Part B-1
     {
-      number: 36, part: 'B-1',
+      number: 36, image: '/images/exams/es-june-2018/context_36_39.png', part: 'B-1',
       context: 'A cross section shows a hypothetical portion of Earth\'s crust with rock layers labeled A through G from bottom to top, an igneous intrusion, a fault, and an unconformity. The layers have been deformed by tectonic activity.',
       text: 'According to the principle of superposition, which rock layer in the cross section was most likely deposited first?',
       choices: ['Layer A (deepest layer)', 'Layer D (middle layer)', 'Layer G (top layer)', 'The igneous intrusion'],
@@ -342,7 +342,7 @@ export default {
       diveDeep: 'The principle of superposition (Nicolas Steno, 1669) states that in any sequence of undisturbed sedimentary rocks, the oldest layer is at the bottom and the youngest at the top. This applies only when layers have NOT been overturned by tectonic forces. Combined with other principles — original horizontality (layers form horizontal), lateral continuity (layers extend until thinning), cross-cutting relationships (intrusions are younger than host rock), and inclusions (fragments are older than the rock containing them) — geologists can determine relative ages of rock sequences without using radiometric dating.',
     },
     {
-      number: 37, part: 'B-1',
+      number: 37, image: '/images/exams/es-june-2018/context_36_39.png', part: 'B-1',
       context: 'A cross section shows a hypothetical portion of Earth\'s crust with rock layers labeled A through G from bottom to top, an igneous intrusion cutting through several layers, a fault, and an unconformity between layers C and D.',
       text: 'The unconformity between layers C and D represents',
       choices: ['a period of rapid deposition', 'a missing time gap in the rock record due to erosion', 'a zone of contact metamorphism', 'a volcanic ash layer'],
@@ -352,7 +352,7 @@ export default {
       diveDeep: 'Three types of unconformities exist: (1) disconformity — parallel layers with a missing time interval between them (erosional surface); (2) angular unconformity — tilted layers below a horizontal erosional surface (Hutton\'s Unconformity at Siccar Point); (3) nonconformity — sedimentary layers resting on igneous or metamorphic basement rock. All unconformities represent time gaps in the record. The sequence of events creating an angular unconformity: deposition → tilting/folding → erosion → subsidence → new deposition. Recognizing unconformities is key to reading geologic cross sections.',
     },
     {
-      number: 38, part: 'B-1',
+      number: 38, image: '/images/exams/es-june-2018/context_36_39.png', part: 'B-1',
       context: 'A cross section shows a hypothetical portion of Earth\'s crust with rock layers labeled A through G, an igneous intrusion, and a fault. The igneous intrusion cuts through layers A through D but not E through G.',
       text: 'Which rock unit is younger than the igneous intrusion?',
       choices: ['Layer A', 'Layer B', 'Layer E', 'Layer C'],
@@ -382,7 +382,7 @@ export default {
       diveDeep: 'Cold fronts are steep (nearly vertical) boundaries where advancing cold air wedges under warm air, forcing rapid uplift. This produces cumulonimbus clouds, intense (but brief) precipitation, and thunderstorms. The passage of a cold front brings a rapid temperature drop, wind shift (usually to northwest in the Northeast US), and clearing skies. Warm fronts are more gradual — warm air rises over retreating cold air, producing stratiform clouds and steady widespread precipitation. Cold fronts move faster (25–30 mph) than warm fronts (15–20 mph). Occluded fronts form when a cold front catches up to a warm front.',
     },
     {
-      number: 41, part: 'B-1',
+      number: 41, image: '/images/exams/es-june-2018/context_40_42.png', part: 'B-1',
       context: 'A data table shows the dry-bulb temperature (24°C), wet-bulb temperature (18°C), and station pressure (1012 mb) for a weather station. Using the ESRT psychrometric tables.',
       text: 'What is the dewpoint temperature at this weather station?',
       choices: ['6°C', '13°C', '18°C', '24°C'],
@@ -412,7 +412,7 @@ export default {
       diveDeep: 'The gradient formula from the ESRT: gradient = change in field value ÷ distance. For topography: gradient = (elevation at top − elevation at bottom) ÷ horizontal distance. Always divide elevation change by horizontal distance, not the slope distance along the hillside. Units are typically m/km or ft/mi. Steep gradients indicate rapid erosion potential. Rivers with steep gradients have high velocities and carry larger sediment. In New York State, the Adirondack streams have steeper gradients than the Hudson River near its mouth. Gradient calculations are a common math skill tested on the Regents exam.',
     },
     {
-      number: 44, part: 'B-1',
+      number: 44, image: '/images/exams/es-june-2018/context_43_44.png', part: 'B-1',
       context: 'A cross section represents Earth\'s interior layers. From center outward: inner core, outer core, mantle (asthenosphere + lithosphere), and crust. Approximate depths and temperatures are labeled.',
       text: 'In which layer of Earth\'s interior do convection currents help drive the movement of tectonic plates?',
       choices: ['inner core', 'outer core', 'asthenosphere (upper mantle)', 'continental crust'],
@@ -422,7 +422,7 @@ export default {
       diveDeep: 'The asthenosphere is a partially molten, ductile layer in the upper mantle (~100–700 km depth). Its rock can flow very slowly over millions of years. Heat from radioactive decay and residual formation heat creates convection — hot material rises, spreads, cools, and sinks. This convection is thought to be the primary mechanism driving plate motion (ridge push + slab pull also contribute). The rigid lithosphere (crust + uppermost mantle) rides on top of the asthenosphere. The boundary between crust and mantle is the Mohorovicic discontinuity (Moho), identified by a change in seismic wave velocity.',
     },
     {
-      number: 45, part: 'B-1',
+      number: 45, image: '/images/exams/es-june-2018/context_45_47.png', part: 'B-1',
       context: 'A data table compares properties of the four inner (terrestrial) planets: Mercury, Venus, Earth, and Mars. Properties include diameter, density, distance from the Sun, and period of revolution.',
       text: 'Which terrestrial planet has the longest period of revolution around the Sun?',
       choices: ['Mercury', 'Venus', 'Earth', 'Mars'],
@@ -432,7 +432,7 @@ export default {
       diveDeep: 'Kepler\'s third law: the square of a planet\'s orbital period is proportional to the cube of its average orbital radius (T² ∝ r³). Planets farther from the Sun move slower AND have longer orbital paths, resulting in much longer years. Mercury orbits in 88 days, Venus in 225 days, Earth in 365 days, Mars in 687 days. The ESRT provides planetary data. A common mistake is confusing rotation period (length of a day) with revolution period (length of a year). Mars has a day similar to Earth\'s (~24.6 hours) but a much longer year.',
     },
     {
-      number: 46, part: 'B-1',
+      number: 46, image: '/images/exams/es-june-2018/context_45_47.png', part: 'B-1',
       context: 'A map of New York State shows the location of surface bedrock outcrops. The map identifies different geologic time periods for the bedrock in different regions, ranging from Precambrian in the Adirondacks to Cretaceous on Long Island.',
       text: 'Which region of New York State has the oldest surface bedrock?',
       choices: ['Long Island', 'Catskills', 'Adirondacks', 'Hudson Valley'],
@@ -442,7 +442,7 @@ export default {
       diveDeep: 'The ESRT\'s Generalized Bedrock Geology of New York State map is essential. The Adirondacks expose Precambrian basement rocks (~1 billion years) — the oldest. Moving south and west, progressively younger Paleozoic sedimentary rocks are exposed. The Catskills are Devonian sedimentary rocks (~400 million years). Long Island is covered by Pleistocene glacial deposits overlying Cretaceous sediments — the youngest surface materials. New York\'s rock record has several gaps (no Permian, Triassic, or Jurassic bedrock exposed) due to erosion following mountain building. This map is one of the most frequently referenced on the Regents exam.',
     },
     {
-      number: 47, part: 'B-1',
+      number: 47, image: '/images/exams/es-june-2018/context_45_47.png', part: 'B-1',
       context: 'A table shows the half-lives of four radioactive isotopes: Carbon-14 (5,700 years), Potassium-40 (1.3 billion years), Rubidium-87 (47 billion years), and Uranium-238 (4.5 billion years).',
       text: 'Which radioactive isotope would be most appropriate for dating a wooden artifact that is approximately 10,000 years old?',
       choices: ['carbon-14', 'potassium-40', 'rubidium-87', 'uranium-238'],
@@ -452,7 +452,7 @@ export default {
       diveDeep: 'Radiometric dating works best when the sample age is between 1/10 and 10 times the half-life of the isotope used. For C-14 (5,700 year half-life), reliable dating range is roughly 100–50,000 years. For older materials, potassium-40 (1.3 billion year half-life) is used for rocks ~100,000+ years old. Uranium-238 (4.5 billion year half-life) is used for the oldest rocks. Carbon-14 is produced in the upper atmosphere when cosmic rays hit nitrogen, then incorporated into living organisms. After death, C-14 decays — measuring the remaining fraction gives the age.',
     },
     {
-      number: 48, part: 'B-1',
+      number: 48, image: '/images/exams/es-june-2018/context_48_50.png', part: 'B-1',
       context: 'A photograph shows a rock outcrop with alternating dark and light bands. The rock has a foliated texture with mineral alignment. The rock unit is found in a region that experienced intense heat and pressure during a continental collision.',
       text: 'This rock is most likely classified as',
       choices: ['basalt', 'gneiss', 'limestone', 'sandstone'],
@@ -462,7 +462,7 @@ export default {
       diveDeep: 'Metamorphic rock identification uses texture and mineral content. Foliation (parallel alignment of minerals) forms perpendicular to the direction of maximum pressure. Types of foliation from low to high grade: slaty cleavage (slate) → phyllitic texture (phyllite) → schistosity (schist) → gneissic banding (gneiss). Gneiss has coarse, interlocking crystals and compositional banding (light quartz/feldspar alternating with dark amphibole/biotite layers). Contact metamorphism produces non-foliated rocks (hornfels, marble, quartzite) because it involves heat without directed pressure. The ESRT Scheme for Metamorphic Rock Identification organizes rocks by grade.',
     },
     {
-      number: 49, part: 'B-1',
+      number: 49, image: '/images/exams/es-june-2018/context_48_50.png', part: 'B-1',
       context: 'A diagram represents a portion of the geologic time scale showing eons, eras, periods, and some key events. The Precambrian Eon encompasses about 88% of Earth\'s history.',
       text: 'Approximately what percentage of Earth\'s geologic history is represented by the Precambrian?',
       choices: ['12%', '50%', '75%', '88%'],
@@ -472,7 +472,7 @@ export default {
       diveDeep: 'Calculating Precambrian proportion: (4600 − 541) million years ÷ 4600 million years ≈ 88%. Despite comprising most of Earth\'s history, the Precambrian has relatively few fossils because most organisms lacked hard parts. The Cambrian Explosion (~541 Ma) marked the sudden appearance of organisms with shells and skeletons, dramatically improving preservation. The ESRT geologic time scale lists eons (Hadean, Archean, Proterozoic, Phanerozoic), eras, and periods with their ages. The Phanerozoic (last 541 million years) contains most of the known fossil record and represents only about 12% of Earth\'s history.',
     },
     {
-      number: 50, part: 'B-1',
+      number: 50, image: '/images/exams/es-june-2018/context_48_50.png', part: 'B-1',
       context: 'A graph shows temperature changes over the past 800,000 years derived from Antarctic ice core data, showing cycles of glacial (cold) and interglacial (warm) periods. The current interglacial (Holocene) began about 12,000 years ago.',
       text: 'Based on the ice core data, approximately how many major glacial/interglacial cycles occurred over the past 800,000 years?',
       choices: ['2 cycles', '4 cycles', '8 cycles', '16 cycles'],

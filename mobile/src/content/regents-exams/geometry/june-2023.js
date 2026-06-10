@@ -7,7 +7,7 @@ export default {
   totalMinutes: 180,
   questions: [
     {
-      number: 1,
+      number: 1, image: '/images/exams/geo-june-2023/q1.png',
       part: 'A',
       text: 'A right rectangular prism is shown in the diagram below. Which line segment is skew to AB?',
       choices: ['CD', 'EF', 'GH', 'CG'],
@@ -37,7 +37,7 @@ export default {
       diveDeep: 'Every parallelogram has diagonals that bisect each other, but the diagonals are equal in length only in a rectangle, so AC ≅ BD is not always true. ∠BAC ≅ ∠DCA would require AD ∥ BC giving alternate interior angles equal — actually those are alternate interior angles for AB and CD, a trap worth checking carefully. Know the hierarchy of quadrilateral properties: bisecting diagonals = parallelogram, equal diagonals = rectangle, perpendicular diagonals = rhombus.'
     },
     {
-      number: 4,
+      number: 4, image: '/images/exams/geo-june-2023/q4.png',
       part: 'A',
       text: 'In the diagram below, line m is parallel to line n, and line t is a transversal. If m∠1 = (3x + 20)° and m∠2 = (5x − 40)°, where ∠1 and ∠2 are corresponding angles, what is the value of x?',
       choices: ['10', '20', '30', '40'],
@@ -57,7 +57,7 @@ export default {
       diveDeep: 'The standard equation of a circle encodes the center and radius directly, but two sign/value traps catch students: the center coordinates are the OPPOSITE of the signs in the parentheses (x − 3 gives h = +3; y + 2 means y − (−2), so k = −2), and the right side equals r², not r, so you must take the square root. If the equation is given in general form (expanded), complete the square first to recover this standard form.'
     },
     {
-      number: 6,
+      number: 6, image: '/images/exams/geo-june-2023/q6.png',
       part: 'A',
       text: 'In the diagram below, AB is tangent to circle O at point B, and OB is a radius. If m∠OAB = 35°, what is m∠AOB?',
       choices: ['35°', '45°', '55°', '90°'],
@@ -117,7 +117,7 @@ export default {
       diveDeep: 'This is a volume-and-unit-conversion problem with a real-world "round up" twist. First convert the depth from inches to feet (3 in = 0.25 ft) so all dimensions share units, then compute volume V = lwh. When dividing to find the number of bags, you must round UP to the next whole bag because you cannot buy a fraction of a bag — rounding down or to the nearest whole leaves the garden under-covered. The trap answer $10.98 comes from using only 3 bags.'
     },
     {
-      number: 12,
+      number: 12, image: '/images/exams/geo-june-2023/q12.png',
       part: 'A',
       text: 'In the diagram below, △DOG ~ △CAT, where ∠G and ∠T are right angles. Which expression is always equivalent to sin D?',
       choices: ['cos A', 'tan A', 'sin A', 'cos C'],
@@ -138,7 +138,7 @@ export default {
       image: '/images/exams/geo-june-2023/q13.png'
     },
     {
-      number: 14,
+      number: 14, image: '/images/exams/geo-june-2023/q14.png',
       part: 'A',
       text: 'In the diagram below of isosceles triangle AHE with the vertex angle at H, CB ⊥ AE and FD ⊥ AE. Which statement is always true?',
       choices: ['AH/AC = EH/EF', 'AB/ED = CB/FE', 'AC/EF = AB/ED', 'AD/AB = BE/DE'],
@@ -178,7 +178,7 @@ export default {
       diveDeep: 'The exterior angle theorem states that an exterior angle of a triangle equals the sum of the two non-adjacent (remote) interior angles. In an isosceles triangle the two base angles are equal, so the exterior angle at the vertex is twice a base angle: 2(42°) = 96°. A trap is finding the interior vertex angle (180 − 2·42 = 96, coincidentally also 96 here) versus the exterior angle, or computing 180 − 42 = 138 by treating the exterior angle as supplementary to a base angle rather than the vertex angle.'
     },
     {
-      number: 18,
+      number: 18, image: '/images/exams/geo-june-2023/q18.png',
       part: 'A',
       text: 'In the diagram below, AF, KB ∥ CH, LM, with FH ≅ LH, FL ≅ KL, and LF bisects ∠HFK. Which statement is always true?',
       choices: ['2(m∠HLF) = m∠CHE', 'm∠AFD = m∠BKL', '2(m∠FLK) = m∠LKB', 'm∠DFK = m∠KLF'],
@@ -228,7 +228,7 @@ export default {
       diveDeep: 'The triangle midsegment connecting the midpoints of two sides is parallel to the third side and exactly half its length: MN = ½·BC. Set up the equation x + 13 = ½(5x − 1), clear the fraction (2x + 26 = 5x − 1), solve for x, then substitute back into the MN expression. A frequent error is solving for x and stopping, or substituting into the wrong expression (BC instead of MN). Always re-read which length the question asks for.'
     },
     {
-      number: 23,
+      number: 23, image: '/images/exams/geo-june-2023/q23.png',
       part: 'A',
       text: 'In the diagram below of isosceles trapezoid STAR, diagonals AS and RT intersect at O, and ST ∥ RA, with nonparallel sides SR and TA. Which pair of triangles are not always similar?',
       choices: ['△STO and △ARO', '△SRA and △ATS', '△SOR and △TOA', '△SRT and △TAS'],
@@ -309,7 +309,7 @@ export default {
       modelAnswer: 'Slope of RT: m = (−4 − (−2)) / (4 − (−3)) = (−2) / 7 = −2/7\n\nLine through S(3, 2) parallel to RT:\ny − 2 = −(2/7)(x − 3)\ny = −(2/7)x + 6/7 + 14/7\ny = −(2/7)x + 20/7\n\nOr equivalently: 2x + 7y = 20'
     },
     {
-      number: 31,
+      number: 31, image: '/images/exams/geo-june-2023/q31.png',
       part: 'B',
       type: 'written',
       text: 'Cape Canaveral, Florida is where NASA launches rockets into space. As modeled in the diagram below, a person views the launch of a rocket from observation area A, 3280 feet away from launch pad B. After launch, the rocket was sighted at C with an angle of elevation of 15°. The rocket was later sighted at D with an angle of elevation of 31°. Determine and state, to the nearest foot, the distance the rocket traveled between the two sightings, C and D.',

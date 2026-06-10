@@ -12,7 +12,6 @@ export default {
       choices: ['red shift of light and cosmic background radiation', 'red shift of light and the different shapes of galaxies', 'planetary motion and cosmic background radiation', 'planetary motion and the different shapes of galaxies'],
       topic: 'Astronomy',
       correct: 0,
-      image: '/images/exams/es-january-2020/q1.png',
       explanation: 'The red shift of light from distant galaxies shows they are moving away (expanding universe), and cosmic microwave background radiation is the "afterglow" of the Big Bang itself.',
       diveDeep: 'Two key pieces of Big Bang evidence: (1) Red shift — nearly all galaxies show red-shifted light (Hubble, 1929), indicating they move away from us; the more distant, the greater the shift (Hubble\'s Law). (2) Cosmic Microwave Background (CMB) radiation — a faint, uniform glow of microwave radiation filling all of space, discovered in 1965 by Penzias and Wilson; it is the cooled remnant heat from the Big Bang (~13.8 billion years ago). Galaxy shapes and planetary motions do not support the Big Bang theory specifically.',
     },

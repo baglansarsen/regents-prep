@@ -461,7 +461,6 @@ export default {
       ],
       topic: 'Ecology',
       correct: 1,
-      image: '/images/exams/le-august-2019/q33.png',
       explanation: 'The graph shows that fox population changes follow rabbit population changes with a delay — when rabbits increase, foxes increase later (after breeding); when rabbits decrease, foxes decrease later (after starvation). This confirms the predator-prey relationship with a time lag.',
       diveDeep: 'Classic predator-prey cycles (Lotka-Volterra model) show this oscillating relationship: more rabbits → more food for foxes → foxes increase (after a time lag for breeding) → more foxes eat more rabbits → rabbit population falls → less food for foxes → fox population falls → rabbit population recovers. The time delay occurs because it takes time for the predator population to respond reproductively to changes in prey abundance. Rabbits are prey, not predators (choice A reverses the relationship). They clearly do not change independently (choice C contradicts the graph pattern). Fox changes follow rabbit changes, not the other way around (choice D is backwards). On the Regents, predator-prey graphs always show out-of-phase oscillations with the predator following the prey with a time delay.',
     },

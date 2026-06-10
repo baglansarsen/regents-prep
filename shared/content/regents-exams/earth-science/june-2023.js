@@ -35,7 +35,6 @@ export default {
       correct: 2,
       explanation: 'Distant galaxies are moving away from us as the universe expands, causing their light to be stretched to longer (redder) wavelengths — the cosmological redshift. This is key evidence for the Big Bang theory.',
       diveDeep: 'The Doppler effect describes how wave frequency changes when the source and observer move relative to each other. For light: objects moving away produce longer wavelengths (redshift); objects approaching produce shorter wavelengths (blueshift). Edwin Hubble discovered in 1929 that almost all galaxies show redshift, and that more distant galaxies recede faster — Hubble\'s Law (v = H₀d). This is the primary evidence that the universe is expanding. Extrapolating backward implies the universe began from a single point ~13.8 billion years ago (Big Bang). The only galaxy group showing blueshift is the Andromeda Galaxy, which is approaching the Milky Way due to local gravitational attraction.',
-      image: '/images/exams/es-june-2023/q2.png',
     },
     {
       number: 3, part: 'A',
@@ -540,7 +539,6 @@ export default {
       correct: 0,
       explanation: 'The orbits of Earth and the Moon follow regular, repeating (cyclic) paths governed by gravity, making tidal events highly predictable years in advance — unlike weather, which is chaotic.',
       diveDeep: 'Celestial mechanics allows precise predictions of orbital positions centuries into the future or past. The Moon\'s orbit completes in 27.3 days (sidereal) or 29.5 days (synodic, relative to the Sun). The Moon\'s perigee precesses with a period of ~8.85 years. The 18.6-year Saros cycle predicts eclipse recurrence. Tidal predictions are published in tide tables for ports worldwide, calculated from astronomical data. The NOAA tidal prediction system uses harmonic analysis of multiple tidal constituents (each associated with a specific astronomical cycle). This extreme predictability contrasts with weather forecasting, which is limited to about 10 days due to atmospheric chaos.',
-      image: '/images/exams/es-june-2023/q37.png',
     },
     {
       number: 38, part: 'B-1',
@@ -556,7 +554,6 @@ export default {
       correct: 3,
       explanation: 'The primary driver of sea level rise is the addition of meltwater from melting glaciers and ice sheets (particularly Greenland and Antarctica) to the oceans, with thermal expansion of warming seawater as a secondary contributor.',
       diveDeep: 'Global mean sea level has risen about 20 cm (8 inches) since 1900, and the rate is accelerating. Two main causes: (1) thermal expansion — warmer water occupies more volume (~40% of current rise); (2) melting ice — glaciers, Greenland ice sheet, and Antarctic ice sheet (~60% of current rise, and growing). Melting Arctic sea ice does NOT raise sea level (the ice is already floating — Archimedes\' principle). The IPCC projects 0.3–1 m of sea rise by 2100 under various emission scenarios. Increased snowfall in Arctic would add mass to ice sheets, slightly reducing rise. Decreased insolation would cause cooling and thus would reduce, not increase, sea level.',
-      image: '/images/exams/es-june-2023/q38.png',
     },
     {
       number: 39, part: 'B-1',

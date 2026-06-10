@@ -33,7 +33,6 @@ export default {
       choices: ['0.31 m/s²', '7.8 m/s²', '0.63 m/s²', '16 m/s²'],
       topic: 'Kinematics',
       correct: 1,
-      image: '/images/exams/phys-june-2024/q3.png',
       explanation: 'Using v² = v₀² + 2ad: 0 = (25)² + 2a(40) → a = −625/80 ≈ −7.8 m/s². Magnitude = 7.8 m/s².',
       diveDeep: 'The car decelerates from 25 m/s to rest over 40 m. Using v² = v₀² + 2aΔx: 0 = 625 + 80a → a = −7.81 m/s² (negative = deceleration). Magnitude = 7.8 m/s². Choice A (0.31) comes from a = v/d = 25/80. Choice D (16) might come from a = v²/d = 625/40 (forgetting the factor of 2). A common mistake is not squaring v₀ or forgetting the 2 in the kinematic equation. This is the v² = v₀² + 2aΔx equation applied with v_f = 0.'
     },
@@ -44,7 +43,6 @@ export default {
       choices: ['increases and its speed increases', 'increases and its speed is constant', 'is constant and its speed increases', 'is constant and its speed is constant'],
       topic: 'Kinematics',
       correct: 2,
-      image: '/images/exams/phys-june-2024/q4.png',
       explanation: 'In free fall, the only force is gravity, which produces a constant acceleration of 9.81 m/s² downward. With constant acceleration, speed increases continuously from rest.',
       diveDeep: "Free fall near Earth's surface: a = g = 9.81 m/s² = constant (gravity doesn't change over building heights). Since the brick starts from rest and has constant downward acceleration, speed increases linearly: v = gt. Many students incorrectly think acceleration increases as the brick speeds up — this confuses acceleration with speed. Acceleration is the rate of change of speed, not speed itself. With constant g and starting from rest, speed grows uniformly: v = 0 + gt. This contrasts with situations involving air resistance (terminal velocity), which is NOT assumed here."
     },
@@ -85,7 +83,6 @@ export default {
       choices: ['higher and the same distance horizontally', 'to the same maximum height and farther horizontally', 'both higher and farther horizontally', 'to the same maximum height and the same distance horizontally'],
       topic: 'Kinematics',
       correct: 2,
-      image: '/images/exams/phys-june-2024/q8.png',
       explanation: 'Increasing initial speed increases both the vertical component (greater height) and the horizontal component (greater range). Both maximum height and horizontal distance increase.',
       diveDeep: 'For a projectile at angle θ with speed v₀: max height H = (v₀sinθ)²/(2g) ∝ v₀², and range R = v₀²sin(2θ)/g ∝ v₀². Both H and R scale with v₀², so increasing v₀ increases both. The angle (55°) is unchanged. A common mistake is thinking only one dimension changes when speed increases. Since increasing v₀ increases both horizontal and vertical components simultaneously, both height and range increase. This is a conceptual question about how initial speed affects the full trajectory — both H and R scale as v₀².'
     },

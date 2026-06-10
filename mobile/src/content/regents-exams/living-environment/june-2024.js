@@ -102,7 +102,7 @@ export default {
       diveDeep: 'Glucose delivery pathway: food intake → mouth (amylase begins starch digestion) → stomach → small intestine (final digestion, glucose absorbed into blood capillaries via villi) → portal vein → liver → heart → arteries → capillaries at tissues → cells. The circulatory system is the transport network; the digestive system is the processing plant. The respiratory system (choice D) delivers oxygen to cells and removes CO₂ — not glucose. The nervous system coordinates body functions. The reproductive system produces gametes. Students should distinguish the roles of each body system: digestive = processes/absorbs nutrients; circulatory = transports materials; respiratory = gas exchange.',
     },
     {
-      number: 7,
+      number: 7, image: '/images/exams/le-june-2024/q7.png',
       part: 'A',
       text: 'A chart includes structures found in a multicellular organism — Row 1: organs, Row 2: tissues, Row 3: organelles, Row 4: cells. Which row contains the structures that would be most numerous?',
       choices: [

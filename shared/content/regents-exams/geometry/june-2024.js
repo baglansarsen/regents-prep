@@ -82,7 +82,6 @@ export default {
       choices: ['78', '157', '471', '490'],
       topic: 'Area & Volume',
       correct: 1,
-      image: '/images/exams/geo-june-2024/q6.png',
       explanation: 'The cone volume is V = (1/3)πr²h = (1/3)π(5²)(18) ≈ 471 cm³; dividing by 3 cm³ per cookie gives about 157 cookies (you must round down).',
       diveDeep: 'Use the cone volume formula V = (1/3)πr²h from the reference sheet, then divide total volume by the per-item amount. The critical exam strategy is to round DOWN for "maximum number" problems — you cannot decorate a partial cookie even if math gives a decimal. A common trap is using the cylinder formula (πr²h) instead of the cone formula, which triples the answer. Always identify the solid shape first and pull the matching formula.'
     },

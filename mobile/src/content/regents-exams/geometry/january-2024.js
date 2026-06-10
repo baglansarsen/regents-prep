@@ -213,7 +213,6 @@ export default {
       choices: ['̅EA ⊥ ̅AT', '̅ET ≅ ̅AK', '̅EA ≅ ̅AT', '̅ET ≅ ̅AT'],
       topic: 'Quadrilaterals',
       correct: 2,
-      image: '/images/exams/geo-january-2024/q20.png',
       explanation: 'A parallelogram is a rhombus if a pair of consecutive sides are congruent; ̅EA ≅ ̅AT forces all four sides equal, proving it is a rhombus.',
       diveDeep: 'Properties that prove a parallelogram is a rhombus: consecutive (adjacent) sides congruent, diagonals perpendicular, or a diagonal bisecting the vertex angles. By contrast, congruent diagonals (̅ET ≅ ̅AK) prove a rectangle, not a rhombus — a frequent trap here. ̅EA ⊥ ̅AT would prove a rectangle (a right angle). Match each given to the specific special-parallelogram theorem it triggers; consecutive congruent sides is the rhombus condition.'
     },
@@ -287,7 +286,6 @@ export default {
       type: 'written',
       text: 'The coordinates of the vertices of △RST are R(−2, 3), S(4, 3), and T(4, −1). Prove that △RST is a right triangle. [The use of the set of axes below is optional.]',
       topic: 'Coordinate Geometry',
-      image: '/images/exams/geo-january-2024/q27.png',
       explanation: 'Side ̅RS is horizontal (slope 0) and side ̅ST is vertical (undefined slope); a horizontal and a vertical segment are perpendicular, so ∠S is a right angle and △RST is a right triangle.',
       diveDeep: 'On coordinate proofs you can show a right angle by computing slopes of two sides and verifying their product is −1 (or that one is horizontal and the other vertical). Alternatively, compute all three side lengths with the distance formula and confirm the Pythagorean relationship. Either method earns full credit, but you must state the perpendicular-slopes (negative-reciprocal) or Pythagorean reasoning explicitly. The common pitfall is computing slopes correctly but failing to conclude WHY that proves a right angle.',
       modelAnswer: 'Slope of ̅RS = (3 − 3)/(4 − (−2)) = 0/6 = 0, so ̅RS is horizontal. Slope of ̅ST = (−1 − 3)/(4 − 4) = −4/0, which is undefined, so ̅ST is vertical. A horizontal segment and a vertical segment are perpendicular, so ̅RS ⊥ ̅ST and ∠S = 90°. Since △RST contains a right angle at S, △RST is a right triangle.'
@@ -318,7 +316,6 @@ export default {
       type: 'written',
       text: 'In the diagram below, quadrilateral ABCD is inscribed in circle O. If m∠A = (2x + 10)° and m∠C = (3x − 30)°, find the value of x and the measure of ∠A.',
       topic: 'Circles',
-      image: '/images/exams/geo-january-2024/q30.png',
       explanation: 'Opposite angles of a cyclic quadrilateral are supplementary, so (2x + 10) + (3x − 30) = 180; solving gives 5x − 20 = 180, x = 40, and m∠A = 2(40) + 10 = 90°.',
       diveDeep: 'A quadrilateral inscribed in a circle (cyclic quadrilateral) has opposite angles that sum to 180° — a direct consequence of the inscribed-angle theorem, since opposite angles intercept arcs that together make the whole circle. The trap is setting the opposite angles equal instead of supplementary. After solving for x, substitute back to find the requested angle measure; do not stop at x. Verify by checking that both opposite angles indeed add to 180°.',
       modelAnswer: 'Because ABCD is inscribed in circle O, it is a cyclic quadrilateral, so its opposite angles are supplementary: m∠A + m∠C = 180°. Therefore (2x + 10) + (3x − 30) = 180. Combining like terms: 5x − 20 = 180, so 5x = 200 and x = 40. Then m∠A = 2(40) + 10 = 90°. (Check: m∠C = 3(40) − 30 = 90°, and 90° + 90° = 180°.)'
@@ -372,7 +369,6 @@ export default {
       type: 'written',
       text: 'The coordinates of the vertices of quadrilateral ABCD are A(−2, 1), B(2, 4), C(5, 0), and D(1, −3). Prove that ABCD is a square. [The use of the set of axes below is optional.]',
       topic: 'Coordinate Geometry',
-      image: '/images/exams/geo-january-2024/q35.png',
       explanation: 'All four sides measure √25 = 5 (so it is a rhombus), and adjacent sides ̅AB (slope ¾) and ̅BC (slope −⁴⁄₃) have slopes that are negative reciprocals (perpendicular), proving a right angle; equal sides plus a right angle make ABCD a square.',
       diveDeep: 'A complete coordinate proof that a quadrilateral is a square shows two things: all four sides congruent (using the distance formula) AND at least one right angle (using perpendicular slopes that are negative reciprocals). Equal sides alone prove only a rhombus; a single right angle with equal sides upgrades it to a square. An alternative path proves it is a rectangle (right angles via slopes) plus one pair of adjacent congruent sides. State conclusions explicitly — "therefore a rhombus, and with a right angle, a square." Skipping the perpendicularity step is the usual point loss.',
       modelAnswer: 'Find all four side lengths with the distance formula:\nAB = √((2−(−2))² + (4−1)²) = √(16 + 9) = √25 = 5.\nBC = √((5−2)² + (0−4)²) = √(9 + 16) = √25 = 5.\nCD = √((1−5)² + (−3−0)²) = √(16 + 9) = √25 = 5.\nDA = √((−2−1)² + (1−(−3))²) = √(9 + 16) = √25 = 5.\nSince AB = BC = CD = DA = 5, all four sides are congruent, so ABCD is a rhombus.\nNow check for a right angle using slopes:\nSlope of ̅AB = (4−1)/(2−(−2)) = 3/4.\nSlope of ̅BC = (0−4)/(5−2) = −4/3.\nBecause (3/4)(−4/3) = −1, ̅AB ⊥ ̅BC, so ∠B is a right angle.\nA rhombus with a right angle is a square. Therefore ABCD is a square.'

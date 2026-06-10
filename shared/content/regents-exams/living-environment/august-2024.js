@@ -116,7 +116,6 @@ export default {
       ],
       topic: 'General',
       correct: 3,
-      image: '/images/exams/le-august-2024/q8.png',
       explanation: 'After the ditches became fully covered, the duckweed population stopped growing and remained stable — this plateau indicates that limiting resources (space, nutrients, light) prevented further population growth, consistent with carrying capacity.',
       diveDeep: 'Carrying capacity (K) is the maximum population size an environment can sustain given available resources. Once a population reaches K, growth slows and stabilizes. The S-shaped (logistic) growth curve shows rapid growth when resources are abundant, then leveling off at carrying capacity. Students often confuse the conclusion that can be drawn with speculation: the data shows stabilization due to limited resources, but does NOT mention predators, temperature, or life cycles, so those choices are not supported. Always base conclusions only on the given evidence.',
     },

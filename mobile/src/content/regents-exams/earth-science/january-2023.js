@@ -106,7 +106,7 @@ export default {
       diveDeep: 'El Niño-Southern Oscillation (ENSO): Normal conditions: strong trade winds push warm water west, cold upwelling on South American coast. El Niño: trade winds weaken → warm water spreads east → suppressed upwelling → warm, dry conditions in western Pacific; wet conditions in normally dry areas of South America. Effects on North America: milder/drier winters in NE US, wetter conditions in SE US and California. La Niña is the opposite (stronger trade winds, cooler eastern Pacific). El Niño occurs every 2–7 years and is named "the child" (Christ child) because it arrives around Christmas. Tsunamis are seismic sea waves; Grenville orogeny was a Precambrian mountain-building event.',
     },
     {
-      number: 12, part: 'A',
+      number: 12, image: '/images/exams/es-january-2023/q12.png', part: 'A',
       text: 'The map shows the time zones of the continental United States. Portland, Oregon is in the Pacific time zone; Cleveland, Ohio is in the Eastern time zone. What time is it in Portland, Oregon, when it is 9 p.m. in Cleveland, Ohio?',
       choices: ['5 p.m.', '11 p.m.', '6 p.m.', '12 midnight'],
       topic: 'Maps',
@@ -259,7 +259,7 @@ export default {
       diveDeep: 'Reading topographic maps: contour line spacing directly indicates slope steepness. Closely spaced contours = steep slope = high gradient; widely spaced contours = gentle slope = low gradient. On a hillside with asymmetric slopes (like many glacially sculpted hills), the steeper face is apparent from the closer contour spacing. Gradient = elevation change ÷ horizontal distance. For a hill: if western side has contour lines 100 m apart and eastern side has them 20 m apart (same elevation change, shorter distance), the eastern slope is 5× steeper. This principle applies to any field measured on a map (temperature, pressure, etc.).',
     },
     {
-      number: 28, part: 'A',
+      number: 28, image: '/images/exams/es-january-2023/q28.png', part: 'A',
       text: 'The diagram shows a coastal area with wave action. Which feature forms where sand accumulates in a long, narrow strip extending from a headland or point of land across the mouth of a bay?',
       choices: ['barrier island', 'sand spit', 'delta', 'sea stack'],
       topic: 'Geology',
@@ -268,7 +268,7 @@ export default {
       diveDeep: 'Coastal depositional landforms: Barrier island = offshore island parallel to coast; Sand spit = attached to land, extending into water across a bay; Tombolo = sand bar connecting an island to mainland; Bay-mouth bar = sand bar closing a bay completely. Formation: longshore drift (littoral drift) carries sand parallel to shore. When the coastline curves (at a headland), the longshore current loses energy and deposits sand, building a spit. Over time, spits can curve (hooks) and eventually close off a bay. Deltas form at river mouths (freshwater into sea). Sea stacks are erosional features (pillars of resistant rock isolated by wave erosion).',
     },
     {
-      number: 29, part: 'A',
+      number: 29, image: '/images/exams/es-january-2023/q29.png', part: 'A',
       text: 'A cross section shows a sequence of rock layers. From bottom to top: granite intrusion, sandstone, shale (with trilobite fossils), limestone (with coral fossils), and unconformity (erosion surface), then conglomerate at top. The rock layers have not been overturned. Which sequence of events is correct?',
       choices: [
         'granite intruded → sandstone deposited → shale deposited → limestone deposited → uplift and erosion → conglomerate deposited',
@@ -296,7 +296,7 @@ export default {
       diveDeep: 'Obsidian provides direct evidence of past volcanic activity (high temperatures). Granite has large crystals indicating SLOW cooling deep underground (not necessarily surface high temperatures). Shale with graded bedding indicates underwater deposition from turbidity currents. Limestone with coral fossils indicates warm, shallow marine environment (not extreme temperatures). Obsidian\'s glassy texture (no crystals) is diagnostic: extremely rapid cooling = no time for crystal growth = volcanic glass. This is the only choice directly indicating extremely high-temperature volcanic conditions at the surface.',
     },
     {
-      number: 31, part: 'A',
+      number: 31, image: '/images/exams/es-january-2023/q31.png', part: 'A',
       text: 'A diagram shows a segment of mid-ocean ridge with seafloor spreading occurring. On both sides of the ridge, alternating bands of normal and reversed magnetic polarity are recorded in the basaltic rock. Which statement best explains why the magnetic polarity bands are symmetrical on both sides of the ridge?',
       choices: [
         'Subduction removes equal amounts of crust from both sides.',
@@ -347,7 +347,7 @@ export default {
       diveDeep: 'Soil texture and plant growth: Clay soils = high water retention (pores too small for rapid drainage), low aeration → waterlogged roots. Sandy soils = fast drainage (pores too large to retain water), low nutrient retention → drought stress. Loam (balanced mix of sand, silt, clay) = optimal water retention, good drainage, good aeration = best agricultural soil. Gravel = no water retention. Soil formation requires: parent material + climate + organisms + topography + time. Soil horizons (O, A, B, C) represent zones of different weathering and organic content. Loam is the ideal growing medium — this is standard soil science.',
     },
     {
-      number: 35, part: 'A',
+      number: 35, image: '/images/exams/es-january-2023/q35.png', part: 'A',
       text: 'A photograph shows a canyon with many horizontal sedimentary rock layers visible in the cliff face. Each layer shows different colors and rock types. What geologic principle allows a geologist to determine that the bottom layers are the oldest?',
       choices: ['original horizontality', 'superposition', 'crosscutting relationships', 'correlation by fossil evidence'],
       topic: 'Geology',
@@ -381,7 +381,7 @@ export default {
       diveDeep: 'Cold front weather sequence: AHEAD of front = warm, humid (mT air), falling pressure, SW winds, tall cumulonimbus clouds, heavy brief precipitation, possible severe storms. AT the front = rapid temperature drop, wind shift from SW to NW, gusty winds, intense precipitation. BEHIND front = cool/cold temperatures, rising pressure, NW winds, clearing skies (possibly cumulus clouds). Warm front sequence (ahead = cirrostratus/altostratus/nimbostratus = steady widespread rain; at front = clearing; behind = warm moist). Cold fronts produce more severe weather due to steeper slope forcing more rapid uplift.',
     },
     {
-      number: 38, part: 'B-1',
+      number: 38, image: '/images/exams/es-january-2023/context_36_40.png', part: 'B-1',
       context: 'A cross section shows rock layers at two locations 50 km apart. Location 1 (left): granite below with three sedimentary layers labeled I (Devonian), II (Silurian), III (Ordovician) from top to bottom. Location 2 (right): two sedimentary layers labeled A (Devonian) and B (unknown age), and a volcanic ash layer between them.',
       text: 'Which rock layer at location 2 is most likely the same age as layer II (Silurian) at location 1?',
       choices: ['Layer A at location 2', 'Layer B at location 2', 'The volcanic ash layer at location 2', 'The granite at location 1'],
@@ -391,7 +391,7 @@ export default {
       diveDeep: 'Rock correlation procedure: (1) Match by similar age indicators — index fossils, volcanic ash layers, distinctive rock types; (2) Use superposition — if layer A at location 2 correlates with layer I (Devonian) at location 1, then layer B (below A) must be older than Devonian → Silurian age, matching layer II. This is the same logic used in biostratigraphy. Volcanic ash layers (as in this question) are particularly useful because they represent a geologically instantaneous event that can be correlated across great distances. This type of correlation question requires careful attention to the stratigraphic position.',
     },
     {
-      number: 39, part: 'B-1',
+      number: 39, image: '/images/exams/es-january-2023/context_36_40.png', part: 'B-1',
       context: 'A graph shows Earth\'s average global temperature (as a deviation from a 20th-century average) over the past 150 years (1870–2020). The graph shows fluctuations but with a clear upward trend, especially after 1980. Average temperatures have risen about 1.2°C above the 20th-century average by 2020.',
       text: 'Which human activity is most directly responsible for the temperature increase shown in the graph?',
       choices: [
@@ -406,7 +406,7 @@ export default {
       diveDeep: 'The global temperature rise since ~1850 (Industrial Revolution) correlates strongly with rising atmospheric CO₂ from fossil fuel combustion. CO₂ concentration has increased from ~280 ppm (pre-industrial) to over 420 ppm (2023). The greenhouse effect: CO₂ and other gases absorb and re-emit Earth\'s outgoing infrared radiation, trapping additional heat. Volcanic activity has not increased systematically — large eruptions actually cause short-term cooling. Ozone depletion allows more UV in but doesn\'t cause global warming (it\'s a different wavelength issue). Urban heat islands are local, not global. The scientific consensus attributes recent warming primarily to human greenhouse gas emissions.',
     },
     {
-      number: 40, part: 'B-1',
+      number: 40, image: '/images/exams/es-january-2023/context_36_40.png', part: 'B-1',
       context: 'A map of New York State shows the distribution of different landscape regions. Points A through D are located in: A = Erie-Ontario Lowlands; B = Adirondack Mountains; C = Catskill Mountains (plateau); D = Atlantic Coastal Lowlands.',
       text: 'At which location would you expect to find the oldest exposed bedrock in New York State?',
       choices: ['A — Erie-Ontario Lowlands', 'B — Adirondack Mountains', 'C — Catskill Mountains', 'D — Atlantic Coastal Lowlands'],
@@ -416,7 +416,7 @@ export default {
       diveDeep: 'NY State bedrock age pattern: Adirondacks (Precambrian, ~1 Ga, oldest) → St. Lawrence Lowlands and Hudson Lowlands (Cambrian-Ordovician) → Mohawk Valley (Ordovician-Silurian) → Catskills and Allegheny Plateau (Devonian) → Newark Lowlands near NYC (Triassic-Jurassic, some of youngest). Atlantic Coastal Lowlands consist of recent sediments. Erie-Ontario Lowlands have Silurian-Devonian bedrock. The Grenville Orogeny produced the Adirondack basement approximately 1.1–1.0 billion years ago — significantly older than anything in the surrounding areas. This NY State geologic map pattern is heavily tested.',
     },
     {
-      number: 41, part: 'B-1',
+      number: 41, image: '/images/exams/es-january-2023/context_41_44.png', part: 'B-1',
       context: 'A diagram shows the apparent path of the Sun across the sky on June 21 as seen from New York State (approximately 43°N latitude). The Sun rises in the northeast, reaches maximum altitude at solar noon, and sets in the northwest.',
       text: 'What is the altitude of the Sun at solar noon on June 21 at 43°N latitude?',
       choices: ['23.5°', '43°', '70.5°', '90°'],
@@ -426,7 +426,7 @@ export default {
       diveDeep: 'Solar noon altitude formula: On June 21, direct rays are at 23.5°N. For an observer at latitude L in the NH: solar noon altitude = 90° − (L − 23.5°) = 90° − L + 23.5°. At 43°N: 90° − 43° + 23.5° = 70.5°. On December 21 (direct rays at 23.5°S): altitude = 90° − (L + 23.5°) = 90° − 43° − 23.5° = 23.5°. At equinoxes: altitude = 90° − L = 47°. The Sun\'s noon altitude is HIGHEST in summer (longest days, most intense insolation) and LOWEST in winter. These calculations require knowing the formula and the date of direct solar rays (Tropics).',
     },
     {
-      number: 42, part: 'B-1',
+      number: 42, image: '/images/exams/es-january-2023/context_41_44.png', part: 'B-1',
       context: 'A table shows data on four radioactive isotopes used for geologic dating: Carbon-14 (half-life 5,730 years), Potassium-40 (half-life 1.3 × 10⁹ years), Uranium-235 (half-life 7.1 × 10⁸ years), Uranium-238 (half-life 4.5 × 10⁹ years).',
       text: 'Which isotope would be most appropriate for dating wood found at an archaeological site estimated to be about 8,000 years old?',
       choices: ['Carbon-14', 'Potassium-40', 'Uranium-235', 'Uranium-238'],
@@ -436,7 +436,7 @@ export default {
       diveDeep: 'Choosing the right radiometric isotope: C-14 (5,730 yr half-life) → useful range ~0–50,000 years (for organic material containing carbon). K-40 (1.3 × 10⁹ yr) → useful range ~100,000 to billions of years. U-238 (4.5 × 10⁹ yr) → useful for very ancient rocks (billions of years). U-235 (7.1 × 10⁸ yr) → ~tens of millions to billions of years. Rule: choose the isotope with a half-life comparable to the age being measured — at least a few half-lives should have elapsed for accuracy, but not so many that almost none remains. For 8,000 years: C-14 is perfect (about 1.4 half-lives elapsed, ~37% remains).',
     },
     {
-      number: 43, part: 'B-1',
+      number: 43, image: '/images/exams/es-january-2023/context_41_44.png', part: 'B-1',
       context: 'A cross section of Earth\'s crust shows a trench on the left, an oceanic plate subducting under a continental plate, a zone of partial melting in the mantle wedge, and a chain of volcanoes on the continental side.',
       text: 'What type of volcanic rock forms when magma erupts at these continental volcanoes?',
       choices: ['basalt (mafic, fine-grained)', 'granite (felsic, coarse-grained)', 'andesite or rhyolite (intermediate to felsic)', 'gabbro (mafic, coarse-grained)'],
@@ -446,7 +446,7 @@ export default {
       diveDeep: 'Volcanic rock composition varies by tectonic setting: Mid-ocean ridges = basalt (mafic, low silica, low viscosity, effusive eruptions). Subduction zones on oceanic crust = basalt-andesite. Subduction zones on continental crust = andesite to rhyolite (intermediate-felsic, high silica, high viscosity, explosive eruptions — like Cascade volcanoes, Andes). Hot spots = basalt (Hawaii) to rhyolite (Yellowstone). Granite forms from slow cooling of felsic magma underground (intrusive). The more continental crust involved, the more silica-rich the magma, and the more explosive the eruption. Andesite is named after the Andes Mountains.',
     },
     {
-      number: 44, part: 'B-1',
+      number: 44, image: '/images/exams/es-january-2023/context_41_44.png', part: 'B-1',
       context: 'A diagram shows the water cycle over a forested watershed in New York State, with annual precipitation of 100 cm. Of this, approximately 40% evapotranspires, 35% infiltrates to groundwater, and 25% becomes surface runoff.',
       text: 'If the forest is clear-cut for development, which change would most likely occur to the proportions?',
       choices: [
@@ -461,7 +461,7 @@ export default {
       diveDeep: 'Forest vs. cleared land water budgets: Forests intercept rainfall (reducing impact erosion), promote infiltration (root channels, organic matter), maintain high evapotranspiration (40–50% of precipitation), produce low runoff. Cleared/paved land: no interception, compacted/impermeable soil, low infiltration, high runoff. Real-world consequence: deforestation in tropical areas (Amazon) causes increased flooding, decreased cloud formation (less transpiration), and reduced groundwater recharge. Urban areas have the most extreme version: up to 80–90% of precipitation becomes runoff compared to 5–15% in forests. This is why green infrastructure (rain gardens, permeable pavement) is being promoted in urban planning.',
     },
     {
-      number: 45, part: 'B-1',
+      number: 45, image: '/images/exams/es-january-2023/context_45_47.png', part: 'B-1',
       context: 'A topographic map shows an area with a river, its tributary, and a reservoir. Contour interval is 50 feet. The dam creating the reservoir is at an elevation of 800 feet. A town is located at 600 feet elevation downstream. The highest point on the map is 2100 feet.',
       text: 'If the dam fails, which areas are most at immediate risk from flooding?',
       choices: [
@@ -476,7 +476,7 @@ export default {
       diveDeep: 'Topographic map reasoning: water always flows downhill (toward lower elevations). A dam failure releases water that flows downstream (in the direction of decreasing elevation). Areas at elevations below the dam\'s 800-foot water level are at risk, while areas above 800 feet are not (water flows away from them, not toward them). The town at 600 feet downstream is directly at risk. This type of applied topographic reasoning appears frequently on the Regents exam. Understanding elevation, slope direction, and water flow on topographic maps is a core skill tested in Part B and C questions.',
     },
     {
-      number: 46, part: 'B-1',
+      number: 46, image: '/images/exams/es-january-2023/context_45_47.png', part: 'B-1',
       context: 'A diagram shows the solar system with planets labeled. A table shows planet data including: diameter (km), distance from Sun (AU), and period of revolution (Earth years).',
       text: 'Which planet has a period of revolution most nearly equal to 12 Earth years?',
       choices: ['Mars', 'Jupiter', 'Saturn', 'Uranus'],
@@ -486,7 +486,7 @@ export default {
       diveDeep: 'Planetary orbital periods (Reference Table): Mars = 1.88 years; Jupiter = 11.9 years ≈ 12 years; Saturn = 29.5 years; Uranus = 84 years. Jupiter (11.9 years) is the closest to 12 years. This is a straight Reference Table lookup question. Kepler\'s Third Law (P² ∝ a³) predicts longer periods for more distant planets. Jupiter, being approximately 5.2 AU from the Sun, has a period of ~12 years. Knowing the order-of-magnitude periods for the outer planets (Jupiter ~12, Saturn ~30, Uranus ~84, Neptune ~165 years) is useful for Regents questions.',
     },
     {
-      number: 47, part: 'B-1',
+      number: 47, image: '/images/exams/es-january-2023/context_45_47.png', part: 'B-1',
       context: 'A graph shows a generalized relationship between stream velocity and particle size for erosion, transportation, and deposition. The y-axis shows velocity (cm/s) and the x-axis shows particle diameter (mm): clay, silt, sand, pebbles, cobbles, boulders.',
       text: 'Based on the graph, which type of particles would be deposited when stream velocity decreases from 100 cm/s to 10 cm/s?',
       choices: [
@@ -516,7 +516,7 @@ export default {
       diveDeep: 'Crystal size in igneous rocks reflects cooling rate: Rapid cooling (extrusive/volcanic) = fine-grained texture (crystals too small to see with naked eye) — basalt, andesite, rhyolite. Slow cooling (intrusive/plutonic, deep underground) = coarse-grained texture (visible crystals) — gabbro, diorite, granite. Instantaneous cooling = glassy texture (obsidian). Basalt = dark (mafic: iron, magnesium-rich), fine-grained. Granite = light (felsic: silica, aluminum-rich), coarse-grained. Gabbro = dark, coarse-grained (intrusive equivalent of basalt). Rhyolite = light, fine-grained (extrusive equivalent of granite). The Reference Table rock identification chart uses these criteria.',
     },
     {
-      number: 49, part: 'B-1',
+      number: 49, image: '/images/exams/es-january-2023/context_48_50.png', part: 'B-1',
       context: 'A cross section shows the continental margin of eastern North America, with the Appalachian Mountains inland and the Atlantic Ocean to the right. Rock ages shown: Adirondack Precambrian (~1 Ga), Appalachian metamorphics (~300 Ma), Atlantic coastal plain sediments (~65 Ma), ocean floor basalt (youngest = 0 Ma at Mid-Atlantic Ridge).',
       text: 'Which statement about the relative ages of these rock units is correct?',
       choices: [
@@ -531,7 +531,7 @@ export default {
       diveDeep: 'This question integrates several concepts: (1) absolute ages from the geologic record; (2) seafloor spreading (youngest oceanic crust at ridge); (3) NY State geologic history (Grenville Orogeny → Adirondack Precambrian, ~1 Ga oldest; Alleghenian Orogeny → Appalachians ~300 Ma; Pangaea breakup → Atlantic opening ~200 Ma; modern coastal sediments ~65 Ma–present). At the Mid-Atlantic Ridge: new basalt erupts TODAY, so age = 0. Moving away from ridge, age increases. This age progression is one of the key proofs of seafloor spreading and plate tectonics.',
     },
     {
-      number: 50, part: 'B-1',
+      number: 50, image: '/images/exams/es-january-2023/context_48_50.png', part: 'B-1',
       context: 'A station model diagram shows weather data at Albany, NY: temperature 62°F, dew point 55°F, cloud cover 3/4, wind speed 15 knots from the southwest, pressure 1008.3 mb, weather symbol indicating rain.',
       text: 'Which type of air mass is most likely responsible for the weather conditions at Albany shown in the station model?',
       choices: [

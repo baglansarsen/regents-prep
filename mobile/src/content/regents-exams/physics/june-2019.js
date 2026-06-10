@@ -23,7 +23,6 @@ export default {
       choices: ['40. m due east', '57 m northeast', '40. m due north', '80. m northeast'],
       topic: 'Kinematics',
       correct: 1,
-      image: '/images/exams/phys-june-2019/q2.png',
       explanation: 'The two displacements are perpendicular, so the resultant displacement = √(40² + 40²) = √3200 ≈ 57 m at 45° northeast.',
       diveDeep: 'When two perpendicular displacements are equal in magnitude, the resultant makes a 45° angle with each component: R = √(40² + 40²) = 40√2 ≈ 56.6 m ≈ 57 m northeast. This is the 45-45-90 triangle pattern. A common mistake is adding the magnitudes (40 + 40 = 80 m) instead of using the Pythagorean theorem. The direction northeast is confirmed because the eastward and northward components are equal. Displacement is a vector — both magnitude and direction must be stated.'
     },
@@ -39,7 +38,6 @@ export default {
       ],
       topic: 'Kinematics',
       correct: 1,
-      image: '/images/exams/phys-june-2019/q3.png',
       explanation: 'At the highest point, the ball momentarily stops (v = 0), but gravity still acts downward (a = g = 9.81 m/s² ≠ 0).',
       diveDeep: 'At the apex of vertical throw, instantaneous velocity = 0 but acceleration due to gravity = 9.81 m/s² downward — always. Gravity never "turns off." This is the most commonly missed conceptual question in Regents kinematics. Students confuse "stopping momentarily" with "no acceleration." If acceleration were zero at the top, the ball would remain stationary (Newton\'s first law). The ball\'s velocity changes sign (up → down) because of this constant downward acceleration. This also explains why the ball decelerates going up and accelerates coming down.'
     },
@@ -261,7 +259,6 @@ export default {
       choices: ['3.71 × 10² m', '4.10 × 10⁸ m', '4.07 × 10³ m', '3.69 × 10⁹ m'],
       topic: 'Waves & Sound',
       correct: 3,
-      image: '/images/exams/phys-june-2019/q23.png',
       explanation: 'Radio waves travel at the speed of light: c = 3.00 × 10⁸ m/s. d = ct = (3.00 × 10⁸)(12.3) = 3.69 × 10⁹ m.',
       diveDeep: 'Radio waves are electromagnetic waves that travel at c = 3.00 × 10⁸ m/s in vacuum (space). Distance = speed × time = 3.00 × 10⁸ × 12.3 = 3.69 × 10⁹ m ≈ 3.7 million km. This is about 10 times the distance from Earth to the Moon. Choices A and C are far too small (not using the speed of light). Choice B uses c but misplaces the decimal: 3.00 × 10⁸ × 1.23 instead of × 12.3. A common mistake is not knowing that radio waves travel at c. All electromagnetic waves (radio, microwave, infrared, visible, UV, X-ray, gamma) travel at c in vacuum.'
     },
@@ -638,7 +635,7 @@ export default {
       diveDeep: 'Parallel combination: 1/R_eq = 1/R₁ + 1/R₂ = 1/10 + 1/10 = 2/10 → R_eq = 5.0 Ω ✓. In series: R_eq = 10 + 10 = 20 Ω (not 5 Ω). The circuit symbol for a resistor is a zigzag line; for a battery, a long line (positive) and short line (negative). Draw wires connecting both resistors in parallel between the same two junction points, with the battery in the main loop. Label resistor values. Credit requires correct parallel topology with proper circuit symbols.'
     },
     {
-      number: 55,
+      number: 55, image: '/images/exams/phys-june-2019/q55.png',
       part: 'B-2',
       type: 'written',
       text: 'The graph shows the relationship between distance d and time t for a moving object. [The d-t graph shows a curve where distance increases at an increasing rate (concave up).]\n\nOn the axes in your answer booklet, sketch the general shape of the graph that shows the relationship between the magnitude of the velocity v and time t for the moving object. [1 point]',
@@ -648,7 +645,7 @@ export default {
       diveDeep: 'The slope of a distance-time graph gives speed. If the d-t curve is concave up (increasing slope), the speed is increasing over time. The rate of increase of slope on a d-t curve corresponds to acceleration. If the d-t curve is parabolic (d ∝ t²), then v = dd/dt = 2at (linear in t), giving a straight line on the v-t graph through the origin with positive slope. Students must recognize that a curved d-t graph → non-constant velocity, and a straight v-t graph → constant acceleration.'
     },
     {
-      number: 56,
+      number: 56, image: '/images/exams/phys-june-2019/context_56_58.png',
       part: 'B-2',
       type: 'written',
       text: 'A ray of monochromatic light (f = 5.09 × 10¹⁴ Hz) passes from medium X into air. The angle of incidence of the ray in medium X is 25°, as shown in the diagram.\n\nUsing a protractor, measure and record the angle of refraction in the air, to the nearest degree. [1 point]',

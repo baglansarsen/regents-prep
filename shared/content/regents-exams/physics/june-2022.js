@@ -13,7 +13,6 @@ export default {
       choices: ['force and acceleration', 'impulse and distance', 'mass and velocity', 'energy and time'],
       topic: 'Forces & Newton',
       correct: 3,
-      image: '/images/exams/phys-june-2022/q1.png',
       explanation: 'Energy and time are both scalar quantities — they have magnitude only, with no direction. Force, acceleration, impulse, and velocity are all vector quantities.',
       diveDeep: 'Scalars: mass (kg), energy (J), time (s), speed (m/s), temperature (°C), distance (m), power (W). Vectors: force (N), acceleration (m/s²), velocity (m/s), displacement (m), momentum (kg·m/s), impulse (N·s). Note that distance is scalar but displacement is vector; speed is scalar but velocity is vector. A common mistake is listing impulse as scalar — it has direction (same as the force that created it). Mass is always scalar. The Regents tests this classification nearly every year.'
     },
@@ -106,7 +105,6 @@ export default {
       choices: ['0.116 s', '8.64 s', '2.31 s', '46.3 s'],
       topic: 'Energy & Work',
       correct: 1,
-      image: '/images/exams/phys-june-2022/q9.png',
       explanation: 'W = F × d = 2.80 × 10⁴ × 20.0 = 5.60 × 10⁵ J. t = W/P = (5.60 × 10⁵)/(6.48 × 10⁴) ≈ 8.64 s.',
       diveDeep: 'P = W/t → t = W/P. Work done lifting = Fd = (2.80 × 10⁴ N)(20.0 m) = 5.60 × 10⁵ J. Time = W/P = 5.60 × 10⁵ / 6.48 × 10⁴ ≈ 8.64 s. The elevator is lifted at constant speed, so no net force and no extra kinetic energy change — all work goes to gravitational PE. A common mistake is using P = mv or including some factor of g twice. Always use W = Fd for work done against gravity (F here is already the weight in newtons). Checking units: J / (J/s) = s ✓.'
     },
@@ -127,7 +125,6 @@ export default {
       choices: ['photons, only', 'electrons, only', 'both photons and electrons', 'neither photons nor electrons'],
       topic: 'Modern Physics',
       correct: 2,
-      image: '/images/exams/phys-june-2022/q11.png',
       explanation: 'Both photons (light) and electrons exhibit wave-particle duality — they behave as waves in diffraction/interference experiments and as particles in photoelectric effect or collision experiments.',
       diveDeep: 'Wave-particle duality is a cornerstone of quantum mechanics. Photons show wave behavior (Young\'s double-slit experiment) and particle behavior (photoelectric effect). Electrons also show wave behavior (electron diffraction by crystals) and particle behavior (definite mass, charge, and localized collisions). de Broglie proposed that all matter has a wavelength λ = h/mv. The Regents specifically tests that both photons and electrons exhibit this duality. A common mistake is limiting wave properties to light only. All particles with momentum have an associated de Broglie wavelength, though for macroscopic objects it is immeasurably small.'
     },
@@ -158,7 +155,6 @@ export default {
       choices: ['quartered', 'doubled', 'halved', 'quadrupled'],
       topic: 'Forces & Newton',
       correct: 3,
-      image: '/images/exams/phys-june-2022/q14.png',
       explanation: "Hooke's law: F = kx, so x = F/k. Quadrupling F quadruples x (direct linear relationship).",
       diveDeep: "Hooke's law F = kx is a linear relationship between force and extension. If x is to be 4x, then F must be 4F (direct proportion). This is simpler than questions involving the square relationship of PE = ½kx². A common mistake is thinking the relationship is non-linear and choosing 'doubled.' The spring constant k remains unchanged — it is a property of the spring, not the applied force. Hooke's law is valid only within the elastic limit; beyond that, the spring deforms permanently and the linear relationship breaks down."
     },
@@ -241,7 +237,6 @@ export default {
       choices: ['diffraction', 'reflection', 'refraction', 'interference'],
       topic: 'Waves & Sound',
       correct: 0,
-      image: '/images/exams/phys-june-2022/q21.png',
       explanation: 'Diffraction is the bending and spreading of waves around obstacles or through openings, causing waves to spread into the region behind a barrier.',
       diveDeep: 'Diffraction occurs when a wave encounters an obstacle or aperture with size comparable to the wavelength. The wave bends around the edge and spreads into the geometric shadow. Diffraction is most pronounced when the wavelength ≈ the opening/obstacle size. Refraction is bending due to speed change in a new medium. Reflection is bouncing off a surface. Interference is the superposition of two or more waves. A common mistake is confusing diffraction with refraction — diffraction requires a barrier or edge, refraction requires a medium change. Radio waves diffract around buildings; light shows less visible diffraction because its wavelength is much smaller.'
     },

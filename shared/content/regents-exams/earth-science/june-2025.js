@@ -447,7 +447,6 @@ export default {
       ],
       topic: 'General',
       correct: 0,
-      image: '/images/exams/es-june-2025/q29.png',
       explanation: 'Both hematite (Fe₂O₃) and magnetite (Fe₃O₄) are iron oxide minerals, and they are mined as iron ore because of their high iron content.',
       diveDeep: 'Hematite and magnetite are the two most economically important iron ore minerals. Hematite (Fe₂O₃) contains ~70% iron by weight; magnetite (Fe₃O₄) contains ~72% iron. Both are iron oxides. The iron in these minerals is extracted by smelting in a blast furnace to produce steel. Students should know the common ore minerals from the Reference Tables: hematite and magnetite (iron), bauxite (aluminum), galena (lead), chalcopyrite (copper), gold (gold), and others. The "-ite" suffix indicates a mineral name, while ore refers to economically valuable minerals. Students sometimes confuse the mineral with the element it contains.',
     },

@@ -144,7 +144,6 @@ export default {
       choices: ['1.50 × 10³ kg', '2.00 × 10³ kg', '3.00 × 10³ kg', '4.50 × 10³ kg'],
       topic: 'Kinematics',
       correct: 1,
-      image: '/images/exams/phys-june-2025/q14.png',
       explanation: 'Deceleration a = Δv/t = (0 − 15.0)/10.0 = −1.50 m/s². Mass m = F/a = 3.00 × 10³ / 1.50 = 2.00 × 10³ kg.',
       diveDeep: 'Step 1: find deceleration a = Δv/Δt = 15.0/10.0 = 1.50 m/s². Step 2: F = ma → m = F/a = 3000/1.50 = 2000 kg = 2.00 × 10³ kg. Choice A (1.50 × 10³) comes from m = F/v = 3000/15 (confusing velocity with acceleration). Choice C (3.00 × 10³) comes from m = F/g or m = F/1. Always find acceleration first using kinematics, then apply F = ma. Two-step Newton problems are common on the Regents: kinematics gives acceleration, then dynamics gives mass or force.'
     },
@@ -159,7 +158,7 @@ export default {
       diveDeep: 'Conservation of momentum: total p before = total p after (no external net force). Taking east as positive: p_before = 5.00 × 15.0 − 10.0 × 15.0 = 75.0 − 150. = −75.0 kg·m/s. The negative sign means 75.0 kg·m/s westward. This is conserved through the collision. A common mistake is adding magnitudes: 75 + 150 = 225 (not accounting for direction). Momentum is a vector — direction signs must be used. The Regents always awards full credit only when direction is included in the final answer.'
     },
     {
-      number: 16,
+      number: 16, image: '/images/exams/phys-june-2025/q16.png',
       part: 'A',
       text: 'In a diagram, a force acts to the right on a proton P in an electric field. The electric field at the position of the proton is directed toward point',
       choices: ['A (upward)', 'C (downward)', 'B (to the right)', 'D (to the left)'],
@@ -205,7 +204,7 @@ export default {
       diveDeep: 'Tracing the energy: (1) sunlight = electromagnetic radiation; (2) solar panel converts light to electricity (photovoltaic effect); (3) microwave oven uses electricity to power a magnetron that produces microwave radiation (electromagnetic); (4) microwaves heat water molecules in the coffee (thermal). Each step must be correctly identified. Common mistakes include calling sunlight "thermal" (it is radiant/electromagnetic energy) or skipping the microwave emission step. The Regents regularly tests energy conversion chains — always trace energy step by step from source to final form.'
     },
     {
-      number: 20,
+      number: 20, image: '/images/exams/phys-june-2025/q20.png',
       part: 'A',
       text: 'Which graph best represents the relationship between the potential difference across a resistor and the resulting current through the resistor, for a resistor that obeys Ohm\'s law?',
       choices: [
@@ -298,7 +297,7 @@ export default {
       diveDeep: 'Before contact: q₁ = +3.0 μC and q₂ = −1.0 μC. Opposite charges attract. When identical metal spheres touch, charge redistributes equally: total = +3.0 + (−1.0) = +2.0 μC, so each sphere ends with +1.0 μC. Same-sign charges repel. A common mistake is assuming both charges are always attracted (forgetting the redistribution step) or thinking the negative sphere becomes neutral. Metal spheres share charge equally because they are identical conductors. If the spheres were different sizes, charge would split unequally. The key physics: contact → charge redistribution by conduction; separation → each sphere carries the new charge.'
     },
     {
-      number: 38,
+      number: 38, image: '/images/exams/phys-june-2025/q38.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'Which graph best represents the relationship between velocity, v, and time, t, for an object moving with constant positive acceleration?',
@@ -330,7 +329,7 @@ export default {
       diveDeep: 'Projectile motion separates into independent vertical and horizontal components. Horizontally: no force (neglecting friction/air resistance) → no acceleration → constant horizontal velocity. Vertically: gravity acts downward at 9.81 m/s², causing the vertical velocity to change. The horizontal speed remains constant from launch to landing. A common mistake is thinking the ball slows down horizontally as it rises — this would only happen with air resistance. On the Regents, "neglect friction" is the cue that horizontal velocity is constant. This independence of components is the key principle of projectile motion analysis.'
     },
     {
-      number: 40,
+      number: 40, image: '/images/exams/phys-june-2025/q40.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'Which graph best represents the relationship between the force of kinetic friction and the normal force exerted on wooden boxes of various weights as they are moved at constant velocity across a level, wooden floor?',
@@ -458,7 +457,7 @@ export default {
       diveDeep: 'In a transverse wave, particle motion is perpendicular to wave propagation. The direction a specific particle moves depends on its position in the wave cycle and the direction of wave travel. For a wave moving to the right: a particle on the leading (right) slope of a crest moves downward as the crest passes through it. Analogy: think of an ocean wave approaching — as the wave moves right, a buoy on the front slope of the wave bobs downward. A common mistake is saying the particle moves in the wave\'s propagation direction (right). Particles in a transverse wave never move in the direction of wave propagation — they oscillate perpendicular to it.'
     },
     {
-      number: 48,
+      number: 48, image: '/images/exams/phys-june-2025/q48.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'A ray traveling through air strikes a boundary with crown glass at an angle. The diagram shows the incident ray, normal, and possible paths A, B, C, D for the reflected ray. Which path would the reflected ray take?',
@@ -474,7 +473,7 @@ export default {
       diveDeep: 'Law of reflection: θ_incidence = θ_reflection, both measured from the normal at the point of incidence, and both on the same side of the boundary (the air side). The reflected ray stays in the incident medium (air) and makes the same angle with the normal as the incoming ray. The refracted ray crosses into the glass at a different angle (Snell\'s law). Path C is the reflection path: symmetric to the incident ray about the normal, on the air side. A common mistake is confusing reflected and refracted rays, or measuring angles from the surface instead of from the normal. Always draw the normal first when analyzing reflection/refraction.'
     },
     {
-      number: 49,
+      number: 49, image: '/images/exams/phys-june-2025/q49.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'The diagram below shows wave fronts going through an opening and spreading into the area behind the barrier. Which wave phenomenon is represented in the diagram?',
@@ -626,7 +625,7 @@ export default {
       diveDeep: 'F = Gm_B m_A / r² (and similarly for C). Since r (the distances from B and C to position A) remains unchanged and m_B, m_C are unchanged, the force on the object at position A scales directly with the mass placed there. New mass = 7.0 kg; original mass = 4.0 kg. Ratio = 7.0/4.0 = 1.75. New resultant = 1.75 × 5.74 × 10⁻¹⁰ ≈ 1.00 × 10⁻⁹ N. A common mistake is thinking the force stays the same (because positions are unchanged) — but gravitational force depends on both masses. The placement mass (at position A) directly scales the force. This illustrates the equivalence principle: heavier mass → stronger gravitational pull from the same sources.'
     },
     {
-      number: 69,
+      number: 69, image: '/images/exams/phys-june-2025/context_69_73.png',
       part: 'C',
       type: 'written',
       text: 'An electric train with a mass of 2.8 kilograms moves from rest down a long, straight track. The data table shows the train\'s momentum during the first 4.0 seconds:\n\nTime (s): 0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0\nMomentum (kg·m/s): 0.0, 2.1, 4.2, 6.3, 8.4, 11.0, 13.0, 15.0, 18.0\n\n(69) Plot the momentum versus time for the first 4.0 seconds of the train\'s trip. [1]\n\n(70) Draw a best-fit line, using a straight edge, to represent the relationship between momentum and time. [1]\n\n(71) Using your best-fit line, determine the average force that acted upon the train. [1]\n\n(72–73) Calculate the magnitude of the average acceleration of the train. [Show all work, including the equation and substitution with units.] [2]',
@@ -636,7 +635,7 @@ export default {
       diveDeep: 'Impulse-momentum theorem: F = Δp/Δt — the slope of a momentum vs. time graph is force. From the best-fit line: slope = (18.0 − 0)/(4.0 − 0) = 4.5 kg·m/s² = 4.5 N. Then a = F/m = 4.5/2.8 ≈ 1.6 m/s². Note the data is nearly linear (indicating nearly constant net force/acceleration) but has slight variations. The best-fit line averages these. Q72-73 requires showing the formula and substitution for Regents credit. A common mistake is computing acceleration from two arbitrary data points rather than using the best-fit line slope. Also: make sure the graph has labeled axes, appropriate scale, and data points clearly marked to earn full graphing credit.'
     },
     {
-      number: 74,
+      number: 74, image: '/images/exams/phys-june-2025/context_74_77.png',
       part: 'C',
       type: 'written',
       text: 'A periodic wave passes through a medium traveling to the right. The wave requires 2.0 seconds to travel from point A to point B. The scale used in the diagram is 1.0 centimeter = 0.10 meter.\n\n(74) Determine the wavelength of the wave in meters. [1]\n\n(75–76) Calculate the speed of the wave in meters per second. [Show all work, including the equation and substitution with units.] [2]\n\n(77) On the diagram in your answer booklet, place an X on the wave at a position that is 180° out of phase with point C. [1]',

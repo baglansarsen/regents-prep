@@ -143,7 +143,6 @@ export default {
       choices: ['1.50 × 10³ kg', '2.00 × 10³ kg', '3.00 × 10³ kg', '4.50 × 10³ kg'],
       topic: 'Kinematics',
       correct: 1,
-      image: '/images/exams/phys-june-2025/q14.png',
       explanation: 'Deceleration a = Δv/t = (0 − 15.0)/10.0 = −1.50 m/s². Mass m = F/a = 3.00 × 10³ / 1.50 = 2.00 × 10³ kg.',
       diveDeep: 'Step 1: find deceleration a = Δv/Δt = 15.0/10.0 = 1.50 m/s². Step 2: F = ma → m = F/a = 3000/1.50 = 2000 kg = 2.00 × 10³ kg. Choice A (1.50 × 10³) comes from m = F/v = 3000/15 (confusing velocity with acceleration). Choice C (3.00 × 10³) comes from m = F/g or m = F/1. Always find acceleration first using kinematics, then apply F = ma. Two-step Newton problems are common on the Regents: kinematics gives acceleration, then dynamics gives mass or force.'
     },

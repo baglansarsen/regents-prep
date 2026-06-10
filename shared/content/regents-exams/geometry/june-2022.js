@@ -42,7 +42,6 @@ export default {
       choices: ['72°', '144°', '108°', '360°'],
       topic: 'Congruence & Transformations',
       correct: 0,
-      image: '/images/exams/geo-june-2022/q4.png',
       explanation: 'A regular pentagon has 5-fold rotational symmetry. The minimum rotation angle is 360°/5 = 72°.',
       diveDeep: 'A regular n-gon maps onto itself under rotations of 360°/n, 2(360°/n), 3(360°/n), … For a regular pentagon (n = 5), the minimum is 360°/5 = 72°. A regular hexagon needs 60°, a square needs 90°, an equilateral triangle needs 120°. This concept connects to symmetry: the number of rotational symmetries equals the number of sides. A common mistake is dividing 360° by the interior angle (108°) instead of the number of sides.'
     },
@@ -167,7 +166,6 @@ export default {
       choices: ['right', 'obtuse', 'acute', 'equiangular'],
       topic: 'Angles & Lines',
       correct: 2,
-      image: '/images/exams/geo-june-2022/q15.png',
       explanation: 'An exterior angle of a triangle is supplementary to its adjacent interior angle. If the exterior angle is acute (< 90°), the adjacent interior angle is obtuse (> 90°), making the triangle obtuse.',
       diveDeep: 'Exterior angle + adjacent interior angle = 180°. If exterior angle < 90°, then interior angle > 90°, which makes the triangle obtuse (contains an angle greater than 90°). This reasoning should be quick on a multiple-choice exam. A right triangle has one 90° interior angle, meaning its exterior angle would be exactly 90°. An acute triangle has all interior angles less than 90°, meaning all exterior angles exceed 90°. So an acute exterior angle uniquely identifies an obtuse triangle.'
     },

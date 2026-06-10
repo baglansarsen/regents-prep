@@ -133,7 +133,7 @@ export default {
       diveDeep: 'Cystic fibrosis is caused by mutations in the CFTR gene, which encodes a chloride ion channel in the cell membrane. When this channel is non-functional, chloride ions accumulate inside cells, drawing in water and causing thick, sticky mucus to build up in the lungs and other organs. This is a classic example of how a single gene mutation can alter a membrane protein and disrupt homeostasis throughout the body. The cell membrane\'s role in selective permeability is therefore central to understanding this disease.',
     },
     {
-      number: 10, part: 'A',
+      number: 10, image: '/images/exams/le-august-2017/q10.png', part: 'A',
       text: 'Which row in the chart below shows a direct relationship that can exist between two living organisms?',
       choices: [
         'producer – carnivore',
@@ -203,7 +203,7 @@ export default {
       diveDeep: 'Invasive species are non-native organisms that spread aggressively and cause ecological or economic harm. They often lack natural predators in the new environment, giving them a competitive advantage. By monopolizing light, water, and nutrients, invasive plants can eliminate entire native plant communities, collapsing food webs that evolved around those native species. Efforts to remove invasives (mechanical, chemical, or biological control) aim to restore the native community structure and the biodiversity that comes with it.',
     },
     {
-      number: 15, part: 'A',
+      number: 15, image: '/images/exams/le-august-2017/q15.png', part: 'A',
       text: 'Which row in the chart below correctly pairs a human activity with its impact on the environment?',
       choices: [
         'decrease in the use of pesticides — erosion of rock in the soil',
@@ -231,7 +231,7 @@ export default {
       diveDeep: 'This procedure describes recombinant DNA technology. Restriction enzymes cut the DNA at specific sequences, creating "sticky ends" that allow the human insulin gene to be ligated into a bacterial plasmid (vector). The recombinant plasmid is then introduced into bacteria, which replicate and express the human gene. This is how the insulin used to treat diabetes has been manufactured since the early 1980s, replacing insulin extracted from pigs and cattle. The genetic code is universal, so a human gene can be read by bacterial ribosomes to produce the same protein.',
     },
     {
-      number: 17, part: 'A',
+      number: 17, image: '/images/exams/le-august-2017/q17.png', part: 'A',
       text: 'A graph represents the number of brown and green beetles collected in a particular ecosystem over time. The number of green beetles declines while brown beetles increase. The change observed in the numbers of green and brown beetles in the population is most likely due to',
       choices: [
         'natural selection',
@@ -270,7 +270,6 @@ export default {
       ],
       topic: 'Ecology',
       correct: 2,
-      image: '/images/exams/le-august-2017/q19.png',
       explanation: 'Creating protected zones preserves native vegetation that stabilizes shorelines, provides wildlife habitat, and filters runoff. The other options all represent activities that degrade coastal ecosystems.',
       diveDeep: 'Coastal ecosystems — beaches, dunes, salt marshes, and estuaries — are among the most productive and ecologically important biomes on Earth. They serve as nursery grounds for many fish species, protect inland areas from storm surges, and filter nutrient runoff from land. Human activities such as vehicle traffic, construction, and overharvesting disrupt these functions. Protected buffer zones (such as those established under the Coastal Zone Management Act in the U.S.) represent a conservation strategy that balances human use with ecosystem preservation.',
     },
@@ -299,12 +298,11 @@ export default {
       ],
       topic: 'Ecology',
       correct: 2,
-      image: '/images/exams/le-august-2017/q21.png',
       explanation: 'Bottle deposit programs incentivize consumers to return containers for recycling or reuse, directly reducing the volume of plastic and glass waste entering landfills and the environment.',
       diveDeep: 'Container deposit legislation (bottle bills) is a market-based environmental policy tool. By creating a financial incentive for return, these programs achieve very high recycling rates — often 80–95% for covered containers, compared to 30–50% for curbside recycling programs without deposits. This reduces landfill volume, decreases litter, conserves raw materials (sand for glass, petroleum for plastic), and cuts greenhouse gas emissions from manufacturing new containers. It illustrates how economic incentives can align individual behavior with environmental goals.',
     },
     {
-      number: 22, part: 'A',
+      number: 22, image: '/images/exams/le-august-2017/q22.png', part: 'A',
       text: 'A diagram represents a food web with levels 1 through 4. Which level contains organisms that carry out autotrophic nutrition?',
       choices: [
         '1',
@@ -332,7 +330,7 @@ export default {
       diveDeep: 'The structure-function relationship of proteins is fundamental to biology. The primary structure (amino acid sequence) dictates how the chain folds into secondary structures (α-helices and β-sheets), then into tertiary (overall 3D shape) and quaternary structures. This final shape determines the protein\'s active site and therefore its function. Prions are misfolded versions of a normal brain protein (PrP); the misfolded form is infectious because it can induce the normal form to adopt the wrong shape, leading to aggregation and cell death — a dramatic example of how shape determines function.',
     },
     {
-      number: 24, part: 'A',
+      number: 24, image: '/images/exams/le-august-2017/q24.png', part: 'A',
       text: 'A diagram represents the net movement of a specific kind of molecule across a living cell membrane from side A (high concentration) to side B (low concentration). The movement of molecules from side A to side B is an example of the process of',
       choices: [
         'active transport',
@@ -374,7 +372,7 @@ export default {
       diveDeep: 'Antibiotic resistance is one of the most important public health challenges of the 21st century. Resistance evolves by natural selection, not by directed mutation. Key concepts: bacteria populations contain random genetic variation; antibiotics act as selective agents killing susceptible individuals; resistant variants survive and reproduce; resistance genes spread through vertical transmission (cell division) and horizontal gene transfer (plasmid exchange between bacteria). Incomplete antibiotic courses accelerate this process by exposing bacteria to sub-lethal doses that select for partial resistance.',
     },
     {
-      number: 27, part: 'A',
+      number: 27, image: '/images/exams/le-august-2017/q27.png', part: 'A',
       text: 'The diagram below represents what happens when a substance produced by one gland travels to another area of the body and affects the functioning of an organ there. This is most likely showing the role of',
       choices: [
         'an enzyme in digestion',
@@ -443,7 +441,6 @@ export default {
       ],
       topic: 'Ecology',
       correct: 1,
-      image: '/images/exams/le-august-2017/q31.png',
       explanation: 'When prey (rabbits) decline, predators (foxes) have less food available, causing increased starvation and reduced reproductive success, which decreases the predator population.',
       diveDeep: 'Predator–prey cycles are a classic example of population regulation. The Lotka–Volterra equations mathematically model these oscillations: prey population growth is limited by predation, and predator growth is limited by prey availability. Key points: (1) the predator population peak lags behind the prey peak; (2) the cycle is self-sustaining as long as neither population goes extinct; (3) in real ecosystems, multiple factors (disease, other prey species, vegetation cycles) complicate the pure two-species model. The Canadian lynx–snowshoe hare cycle is the textbook example of this phenomenon.',
     },
@@ -459,7 +456,6 @@ export default {
       ],
       topic: 'Ecology',
       correct: 1,
-      image: '/images/exams/le-august-2017/q32.png',
       explanation: 'Only about 10% of energy is transferred to the next trophic level; the rest is lost as heat. By the time energy reaches the hawk (4th level), only about 0.1% of the original grass energy remains, requiring a vast producer base.',
       diveDeep: 'The 10% rule of energy transfer means that at each trophic level, roughly 90% of energy is lost through metabolic heat, movement, and incomplete digestion. Starting with 10,000 kcal of grass energy: grasshoppers receive ~1,000 kcal, frogs ~100 kcal, hawks ~10 kcal. This is why energy pyramids are wide at the base and narrow at the apex, and why top predators need large territories. It also explains why food chains rarely exceed 4–5 levels — there is simply too little energy left to support additional levels.',
     },
@@ -475,7 +471,6 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 1,
-      image: '/images/exams/le-august-2017/q33.png',
       explanation: 'During metaphase, spindle fibers attach to chromosomes at the centromere and pull them to align precisely at the metaphase plate (center of the cell), ensuring each daughter cell receives one copy of each chromosome.',
       diveDeep: 'Mitosis has four main phases: prophase (chromosomes condense, spindle forms), metaphase (chromosomes align at metaphase plate, kinetochore fibers attached), anaphase (sister chromatids pulled to opposite poles), and telophase (nuclear envelopes reform, chromosomes decondense). Metaphase is the stage used in karyotyping because chromosomes are maximally condensed and individually identifiable. Errors in chromosome alignment during metaphase can lead to non-disjunction, producing daughter cells with the wrong chromosome number (aneuploidy), which can cause conditions such as Down syndrome.',
     },
@@ -507,7 +502,6 @@ export default {
       ],
       topic: 'Ecology',
       correct: 1,
-      image: '/images/exams/le-august-2017/q35.png',
       explanation: 'When two species occupy the same niche and use the same resources, the competitive exclusion principle predicts that one will outcompete the other to extinction in that habitat — exactly what the graph shows.',
       diveDeep: 'Gause\'s competitive exclusion principle states that two species that occupy exactly the same ecological niche cannot coexist indefinitely — one will always outcompete the other and drive it to local extinction. This is demonstrated by classic Paramecium experiments: P. aurelia and P. caudatum both eat bacteria but at different efficiencies; when cultured together, P. aurelia consistently outcompetes P. caudatum. Coexistence is possible when species occupy different niches (resource partitioning), allowing both to avoid direct competition.',
     },
@@ -523,7 +517,7 @@ export default {
       ],
       topic: 'Ecology',
       correct: 1,
-      image: '/images/exams/le-august-2017/q36.png',
+      image: '/images/exams/le-august-2017/context_36_37.png',
       explanation: 'Nitrogen-fixing bacteria (such as Rhizobium in legume root nodules and free-living Azotobacter) carry out the only biologically significant conversion of N₂ gas into ammonia, making nitrogen available for plant uptake.',
       diveDeep: 'The nitrogen cycle is essential for life because nitrogen is a component of amino acids (proteins) and nucleic acids (DNA, RNA). Although N₂ makes up 78% of the atmosphere, most organisms cannot use it directly because the N≡N triple bond is extremely strong. Nitrogen-fixing bacteria use the enzyme nitrogenase to break this bond and combine nitrogen with hydrogen to form NH₃ (ammonia). Nitrification bacteria then convert ammonia to nitrite and nitrate, which plants can absorb through roots. Denitrifying bacteria complete the cycle by returning N₂ to the atmosphere.',
     },
@@ -539,7 +533,7 @@ export default {
       ],
       topic: 'Evolution',
       correct: 2,
-      image: '/images/exams/le-august-2017/q37.png',
+      image: '/images/exams/le-august-2017/context_36_37.png',
       explanation: 'Island biogeography theory predicts that larger islands support more species (more habitats, resources) and islands closer to the mainland have higher immigration rates — both factors increase species diversity.',
       diveDeep: 'MacArthur and Wilson\'s theory of island biogeography (1967) explains species diversity on islands as an equilibrium between immigration (arrival of new species) and extinction (local loss of species). Immigration rate decreases with distance from the mainland (harder for organisms to cross larger water gaps) and increases with island size. Extinction rate decreases with island size (more habitat means more resources and viable population sizes). The intersection of these two rates determines the equilibrium species number. This theory has important applications in conservation biology: habitat fragments behave like islands, and larger, better-connected reserves support higher biodiversity.',
     },
@@ -555,7 +549,7 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 2,
-      image: '/images/exams/le-august-2017/q38.png',
+      image: '/images/exams/le-august-2017/context_38_39.png',
       explanation: 'Animal cells lack both chloroplasts (used for photosynthesis) and cell walls (cellulose structural support). Both structures are unique to plant cells among the major eukaryotic cell types.',
       diveDeep: 'Key differences between plant and animal cells: Plant cells have chloroplasts (photosynthesis), a rigid cell wall (cellulose), a large central vacuole (storage, turgor pressure), and plasmodesmata (channels between cells). Animal cells lack these but have centrioles (cell division in animals), lysosomes, and other structures. Both cell types have mitochondria, ribosomes, endoplasmic reticulum, Golgi apparatus, and a nucleus. Understanding these differences is important for questions involving cell identification, osmosis (turgor vs. cell lysis), and metabolic capabilities.',
     },
@@ -571,7 +565,7 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 1,
-      image: '/images/exams/le-august-2017/q39.png',
+      image: '/images/exams/le-august-2017/context_38_39.png',
       explanation: 'DNA replication (synthesis phase, or S phase) is when the cell copies its entire genome, doubling the amount of DNA before cell division. This ensures each daughter cell receives a complete set of chromosomes.',
       diveDeep: 'The cell cycle consists of interphase (G1 → S → G2) and the mitotic phase (M). During S phase, each chromosome is replicated to form two sister chromatids joined at the centromere. After replication, the cell has twice the normal DNA content (4N in a diploid organism after S phase). The checkpoints at G1/S and G2/M ensure that DNA replication is complete and error-free before the cell proceeds to division. Mutations in checkpoint genes (such as p53) can allow damaged DNA to be replicated and passed to daughter cells, contributing to cancer.',
     },

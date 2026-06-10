@@ -24,7 +24,6 @@ export default {
       choices: ['30', '60', '16', '8'],
       topic: 'Area & Volume',
       correct: 0,
-      image: '/images/exams/geo-august-2024/q2.png',
       explanation: 'The area of a triangle is A = ½bh = ½ × 10 × 6 = 30 square units.',
       diveDeep: 'The triangle area formula A = ½bh is on the Regents reference sheet, but students frequently forget the factor of ½ and report 60, which is the area of the corresponding parallelogram. The base and height must be perpendicular to each other — the height is the altitude, not necessarily a side length. When a triangle is given with a slanted side, always identify the perpendicular height before plugging into the formula. Memorize that any triangle is exactly half of a parallelogram with the same base and height.'
     },
@@ -239,7 +238,6 @@ export default {
       choices: ['146', '171', '166', '191'],
       topic: 'Area & Volume',
       correct: 3,
-      image: '/images/exams/geo-august-2024/q24.png',
       explanation: 'Water volume = 24 × 12 × 14 = 4032 in³; 4032 ÷ 27.7 ≈ 145.6 lb of water; add the 25 lb tank to get ≈ 171 lb... using the rounded value gives ≈ 191 with the listed choices.',
       explanationOverride: true,
       diveDeep: 'Multi-step volume word problems require you to compute the volume of the filled region (using the water height of 14 in, not the full 16 in), convert that volume to weight using the given conversion factor, and then add the empty container weight. Volume of water = 24 × 12 × 14 = 4032 in³; divide by 27.7 in³/lb to get the weight of the water, then add 25 lb for the tank. The biggest trap is using the full tank height of 16 inches instead of the 14-inch water level, which overstates the water weight.'

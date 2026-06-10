@@ -84,12 +84,11 @@ export default {
       choices: ['78', '157', '471', '490'],
       topic: 'Area & Volume',
       correct: 1,
-      image: '/images/exams/geo-june-2024/q6.png',
       explanation: 'The cone volume is V = (1/3)πr²h = (1/3)π(5²)(18) ≈ 471 cm³; dividing by 3 cm³ per cookie gives about 157 cookies (you must round down).',
       diveDeep: 'Use the cone volume formula V = (1/3)πr²h from the reference sheet, then divide total volume by the per-item amount. The critical exam strategy is to round DOWN for "maximum number" problems — you cannot decorate a partial cookie even if math gives a decimal. A common trap is using the cylinder formula (πr²h) instead of the cone formula, which triples the answer. Always identify the solid shape first and pull the matching formula.'
     },
     {
-      number: 7,
+      number: 7, image: '/images/exams/geo-june-2024/q7.png',
       part: 'A',
       text: 'In the diagram below, △ABC ≅ △DEF. If m∠A = 50° and m∠B = 60°, what is the measure of ∠F?',
       choices: ['50°', '60°', '70°', '110°'],
@@ -119,7 +118,7 @@ export default {
       diveDeep: 'Use the distance formula to find the diameter, then halve it for the radius. The two given points form a 6-8-10 right triangle, a scaled 3-4-5 Pythagorean triple — recognizing these speeds up the arithmetic. The classic trap is reporting the diameter (10) as the answer instead of the radius (5). Always reread whether the question asks for radius or diameter before selecting.'
     },
     {
-      number: 10,
+      number: 10, image: '/images/exams/geo-june-2024/q10.png',
       part: 'A',
       text: 'In the diagram below of △ABC, CBF is drawn, AB bisects ∠FBD, and BD ⊥ AC. If m∠C = 42°, what is m∠A?',
       choices: ['24°', '48°', '33°', '66°'],
@@ -225,7 +224,7 @@ export default {
       diveDeep: 'For a ratio AP:PB = 1:3, point P divides AB so that AP is 1 part out of 4 total parts, i.e., P is 1/4 of the way from A toward B. Use P = A + (1/4)(B − A) for each coordinate. The most common trap is using the wrong fraction — 1:3 means 1/4 of the way (not 1/3), because the parts total 1 + 3 = 4. Always convert the ratio to "k parts out of (k + the rest)" before computing.'
     },
     {
-      number: 19,
+      number: 19, image: '/images/exams/geo-june-2024/q19.png',
       part: 'A',
       text: 'In the diagram below, AB and CD intersect at E, and CA and DB are drawn. If CA ∥ BD, which statement is always true?',
       choices: [
@@ -260,7 +259,7 @@ export default {
       diveDeep: 'The Triangle Inequality Theorem requires the sum of any two sides to exceed the third side. For isosceles sets, check whether the two equal sides sum to more than the base: {1,1,3} fails (1+1=2 < 3), {3,3,6} fails (3+3=6, not > 6 — degenerate), {2,2,5} fails (2+2=4 < 5), but {4,4,7} works (4+4=8 > 7). The trap is the "equal" case like {3,3,6}, where the sides exactly equal the third and form a flat line, not a real triangle — the inequality must be strict.'
     },
     {
-      number: 22,
+      number: 22, image: '/images/exams/geo-june-2024/q22.png',
       part: 'A',
       text: 'In the diagram shown below, altitude CD is drawn to the hypotenuse of right triangle ABC. Which equation can always be used to find the length of AC?',
       choices: [
@@ -355,7 +354,7 @@ export default {
       modelAnswer: 'Using the shoelace formula:\nArea = ½|x_A(y_B − y_C) + x_B(y_C − y_A) + x_C(y_A − y_B)|\n= ½|2(5 − 1) + 4(1 − (−3)) + (−5)(−3 − 5)|\n= ½|2(4) + 4(4) + (−5)(−8)|\n= ½|8 + 16 + 40|\n= ½(64) = 32 square units'
     },
     {
-      number: 30,
+      number: 30, image: '/images/exams/geo-june-2024/q30.png',
       part: 'B',
       type: 'written',
       text: 'In the diagram, AE = 15, EB = 27, AF = 20, and FC = 36. Explain why EF ∥ BC.',

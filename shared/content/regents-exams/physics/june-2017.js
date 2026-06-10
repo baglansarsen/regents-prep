@@ -23,7 +23,6 @@ export default {
       choices: ['10. m and 10. m', '12 m and 16 m', '12 m and 8.0 m', '16 m and 8.0 m'],
       topic: 'Kinematics',
       correct: 1,
-      image: '/images/exams/phys-june-2017/q2.png',
       explanation: 'Using the Pythagorean theorem, √(12² + 16²) = √(144 + 256) = √400 = 20 m, confirming that 12 m and 16 m are valid perpendicular components.',
       diveDeep: 'Perpendicular vector components combine by the Pythagorean theorem: R² = x² + y². For the choices: 10² + 10² = 200 ≠ 400; 12² + 16² = 400 ✓; 12² + 8² = 208 ≠ 400; 16² + 8² = 320 ≠ 400. The 12–16–20 combination is a Pythagorean triple (3-4-5 scaled by 4). Recognizing common Pythagorean triples (3-4-5, 5-12-13) speeds up vector problems on the Regents. A common mistake is checking only whether values are less than 20 rather than checking the Pythagorean relationship.'
     },
@@ -34,7 +33,6 @@ export default {
       choices: ['3.2 km', '5.0 km', '3.6 km', '7.0 km'],
       topic: 'Kinematics',
       correct: 3,
-      image: '/images/exams/phys-june-2017/q3.png',
       explanation: 'Total distance = sum of all path lengths = 1.0 + 3.0 + 3.0 = 7.0 km. Distance is a scalar that counts all ground covered, regardless of direction.',
       diveDeep: 'Distance and displacement are often confused. Distance is the total path length (scalar); displacement is the straight-line change in position (vector). Here the hiker ends up 2.0 km north and 3.0 km west of the start, giving a displacement magnitude of √(2² + 3²) ≈ 3.6 km — but that is not what was asked. The question asks for total distance, which is simply 1.0 + 3.0 + 3.0 = 7.0 km. A common mistake on the Regents is computing displacement when distance is asked, or vice versa.'
     },
@@ -85,7 +83,6 @@ export default {
       choices: ['zero', 'decreasing', 'increasing', 'constant, but not zero'],
       topic: 'Forces & Newton',
       correct: 0,
-      image: '/images/exams/phys-june-2017/q8.png',
       explanation: "Equilibrium means the net force on the block is zero. By Newton's second law (F_net = ma), if F_net = 0, then a = 0.",
       diveDeep: "Newton's first law: an object in equilibrium (net force = 0) moves at constant velocity or remains at rest — both imply zero acceleration. Equilibrium does not mean the object is stationary; it can move at constant speed in a straight line. A common misconception is that a moving object must have a net force — it does not if it moves at constant velocity. Static equilibrium means at rest; dynamic equilibrium means constant-velocity motion. Both require zero net force and zero acceleration."
     },
@@ -152,7 +149,6 @@ export default {
       ],
       topic: 'Forces & Newton',
       correct: 1,
-      image: '/images/exams/phys-june-2017/q14.png',
       explanation: 'Gravity is always attractive (all masses attract). The electrostatic force can be attractive (opposite charges) or repulsive (like charges).',
       diveDeep: 'This conceptual question tests the fundamental nature of the two forces. Gravity depends on mass (always positive), so it is always attractive — there is no negative mass in classical physics. The electrostatic force depends on charge, which can be positive or negative: like charges repel, opposite charges attract. Both forces follow an inverse-square law with distance. A key difference is magnitude: electrostatic forces are typically many orders of magnitude stronger than gravitational forces at the atomic scale (e.g., in a hydrogen atom, F_E/F_G ≈ 10³⁹).'
     },
@@ -178,7 +174,6 @@ export default {
       choices: ['8.42 eV', '3.06 eV', '5.74 eV', '2.68 eV'],
       topic: 'Light & Optics',
       correct: 2,
-      image: '/images/exams/phys-june-2017/q16.png',
       explanation: 'The photon energy equals the difference in energy levels: E_photon = E_f − E_b. From the mercury energy level diagram on the Regents reference table, E_f − E_b = 5.74 eV.',
       diveDeep: 'When an electron drops to a lower energy level, the energy difference is released as a photon with E = hf. For mercury, the energy levels are given on the Regents reference table. Students must subtract the lower level energy from the higher level energy — a common mistake is taking the difference in the wrong order or using the wrong levels. The photon\'s frequency can then be found from f = E/h. Each spectral line corresponds to a specific energy transition, which is the basis of atomic emission spectra and spectroscopy.'
     },
@@ -244,7 +239,6 @@ export default {
       choices: ['1700 W', '180 W', '340 W', '7.0 W'],
       topic: 'Energy & Power',
       correct: 0,
-      image: '/images/exams/phys-june-2017/q22.png',
       explanation: 'Power = Force × velocity = mg × v = (35 kg)(9.81 m/s²)(5.0 m/s) ≈ 1700 W.',
       diveDeep: 'When lifting at constant speed, the applied force equals weight: F = mg = 35 × 9.81 ≈ 343 N. Power = F × v = 343 × 5.0 ≈ 1715 W ≈ 1700 W. An alternative approach: P = W/t = Fd/t = F(d/t) = Fv. A common mistake is using P = mgh (which gives energy, not power) without dividing by time. The shortcut P = Fv is especially useful when velocity is given directly. This is approximately 2.3 horsepower — a useful real-world comparison.'
     },

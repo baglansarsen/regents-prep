@@ -13,7 +13,6 @@ export default {
       choices: ['Big Bang theory', 'Plate Tectonic theory', 'geocentric model', 'heliocentric model'],
       topic: 'Astronomy',
       correct: 3,
-      image: '/images/exams/es-january-2026/q1.png',
       explanation: 'The heliocentric model places the Sun at the center of the solar system with planets orbiting it in elliptical (eccentric) paths, as formalized by Kepler\'s laws. The geocentric model incorrectly placed Earth at the center.',
       diveDeep: 'The heliocentric model was proposed by Copernicus (1543) and refined by Kepler, who described three laws of planetary motion: (1) planets orbit the Sun in ellipses with the Sun at one focus; (2) a planet moves faster when closer to the Sun (perihelion) and slower when farther (aphelion); (3) the square of a planet\'s orbital period is proportional to the cube of its average distance from the Sun (T² ∝ a³). The eccentricity of an orbit measures how elliptical it is — Earth\'s orbit has low eccentricity (nearly circular), while Pluto\'s is highly eccentric. The Big Bang theory explains the origin of the universe, not orbital mechanics.',
     },
@@ -294,7 +293,6 @@ export default {
       ],
       topic: 'Plate Tectonics',
       correct: 0,
-      image: '/images/exams/es-january-2026/q24.png',
       explanation: 'Magnetic reversal stripes are preserved in basaltic rock that forms at mid-ocean ridges — as lava cools, iron minerals align with Earth\'s current magnetic field, recording its direction at that time.',
       diveDeep: 'When basaltic magma cools at mid-ocean ridges, iron-bearing minerals (magnetite) align with Earth\'s existing magnetic field and become frozen in place as the rock solidifies. Over millions of years, Earth\'s magnetic field has reversed many times (approximately every 200,000–300,000 years on average, though irregular). These reversals are recorded symmetrically on both sides of mid-ocean ridges as alternating bands of normal and reversed polarity — magnetic striping. This was one of the key pieces of evidence confirming seafloor spreading and plate tectonics. The pattern is like a magnetic tape recording of Earth\'s field history. Metamorphic, evaporite, and sedimentary rocks do not preserve reliable paleomagnetic records in the same way as fresh basalt.',
     },
@@ -369,7 +367,7 @@ export default {
       diveDeep: 'The chemical reaction: CaCO₃ + H₂CO₃ → Ca²⁺ + 2HCO₃⁻ describes calcite dissolution by carbonic acid. This process, called carbonation, creates karst landscapes with sinkholes, caves, disappearing streams, and spring-fed rivers. Famous cave systems (Mammoth Cave, Carlsbad Caverns) formed this way. Inside caves, dissolved calcium carbonate recrystallizes when water drips and CO₂ escapes, forming stalactites (hang from ceiling — "tites cling tight") and stalagmites (grow from floor — "mites might reach the ceiling"). The rate of dissolution increases in warmer, more CO₂-rich environments, which is why tropical regions often have extensive karst. New York State has some karst areas, particularly in Schoharie County where limestone underlies the surface.',
     },
     {
-      number: 31,
+      number: 31, image: '/images/exams/es-january-2026/q31.png',
       part: 'A',
       text: 'The diagram below shows two rock samples, A and B. Sample A is coarse-grained with visible crystals; sample B is fine-grained with microscopic crystals. What conclusion about the formation of these rocks is most supported by this information?',
       choices: [
@@ -435,7 +433,7 @@ export default {
     },
     // Part B-1
     {
-      number: 36,
+      number: 36, image: '/images/exams/es-january-2026/context_36_38.png',
       part: 'B-1',
       context: 'A diagram shows a cross section of Earth\'s interior, with labeled layers and their approximate depths and compositions. The following layers are shown: crust (0–35 km), mantle (35–2900 km), outer core (2900–5100 km), and inner core (5100–6371 km).',
       text: 'In which layer does the temperature increase but the state remains solid due to extreme pressure?',
@@ -478,7 +476,7 @@ export default {
       diveDeep: 'This is the subduction zone volcanic arc mechanism, which creates mountain ranges like the Cascades (western United States), the Andes (South America), and the Japanese island arc. The key concept is flux melting: water (and CO₂) released from the subducting slab at depths of 80–150 km lowers the melting point of the overlying mantle wedge peridotite, causing partial melting. The resulting magma (intermediate in composition — andesite) rises through the crust to erupt at the surface. The Reference Tables show subduction zone cross-sections. Notable example: Mount St. Helens and the Cascade volcanoes are products of the Juan de Fuca Plate subducting beneath North America. The volcanoes are typically located about 100–200 km inland from the trench.',
     },
     {
-      number: 39,
+      number: 39, image: '/images/exams/es-january-2026/context_39_42.png',
       part: 'B-1',
       context: 'A table shows the properties of four sediment samples (A, B, C, D). Sample A is clay with particle size 0.0001–0.004 cm; Sample B is silt with particle size 0.004–0.06 cm; Sample C is sand with particle size 0.06–0.2 cm; Sample D is gravel with particle size 0.2–6.4 cm.',
       text: 'Which sediment sample would settle to the bottom of still water first?',
@@ -489,7 +487,7 @@ export default {
       diveDeep: 'Settling velocity depends on particle size, density, and shape. Stokes\' Law: settling velocity ∝ r² (radius squared) for small spherical particles in slow flow. This means doubling particle size quadruples settling rate. In natural water bodies, this creates graded bedding — a sedimentary structure where particle size decreases upward within a single layer, from gravel at the bottom to clay at the top. This forms when a sudden influx of sediment (like a turbidity current) rapidly deposits particles that settle at different rates. Turbidites are ancient graded beds found on ocean floors. The Reference Tables include a particle size chart showing the size ranges for clay, silt, sand, granule, pebble, cobble, and boulder.',
     },
     {
-      number: 40,
+      number: 40, image: '/images/exams/es-january-2026/context_39_42.png',
       part: 'B-1',
       context: 'A map of New York State shows the locations of cities including New York City, Albany, Syracuse, Buffalo, and Plattsburgh. The map also shows major rivers including the Hudson River, Mohawk River, and St. Lawrence River.',
       text: 'What does the presence of the Mohawk River valley cutting through the Adirondack Mountains region indicate about the river\'s history?',
@@ -505,7 +503,7 @@ export default {
       diveDeep: 'Antecedent streams cut through mountain ranges because the river was there first and continued eroding downward as the land slowly uplifted. This creates dramatic water gaps — deep valleys cutting through ridges. The Delaware Water Gap in New Jersey/Pennsylvania is a classic example. The Mohawk Valley is a major corridor through what would otherwise be a mountain barrier, which is why it became an important historical transportation route (Erie Canal). From a geologic perspective, the valley\'s existence indicates the river was established before the Adirondacks reached their current elevation. Understanding landscape development requires considering the relative timing of fluvial erosion and tectonic uplift — both ongoing processes operating at different rates.',
     },
     {
-      number: 41,
+      number: 41, image: '/images/exams/es-january-2026/context_39_42.png',
       part: 'B-1',
       context: 'A diagram shows the electromagnetic spectrum from gamma rays to radio waves. The visible light spectrum is shown in detail, with violet at one end and red at the other. The Sun\'s energy output at different wavelengths is shown as a curve peaking in visible light.',
       text: 'Earth re-radiates energy received from the Sun primarily as which type of electromagnetic radiation?',
@@ -516,7 +514,7 @@ export default {
       diveDeep: 'Wien\'s Displacement Law states that hotter objects emit radiation at shorter wavelengths. The Sun (surface ~5500°C) peaks in visible light. Earth\'s surface (~15°C average) emits much longer wavelengths — infrared radiation. This difference in wavelength is crucial for the greenhouse effect: the atmosphere is largely transparent to incoming short-wave solar radiation but absorbs and re-emits outgoing long-wave infrared radiation. Greenhouse gases (H₂O, CO₂, CH₄) are much better at absorbing infrared than visible light — this is why they trap heat. The energy balance: incoming solar (short-wave) must equal outgoing infrared (long-wave) for Earth\'s temperature to remain stable. Increasing greenhouse gases disrupts this balance, causing warming.',
     },
     {
-      number: 42,
+      number: 42, image: '/images/exams/es-january-2026/context_39_42.png',
       part: 'B-1',
       context: 'A data table shows the following information about five moons of Jupiter: Io (orbital radius 422,000 km; period 1.77 days), Europa (671,000 km; 3.55 days), Ganymede (1,070,000 km; 7.15 days), Callisto (1,883,000 km; 16.69 days), and Amalthea (181,000 km; 0.50 days).',
       text: 'Which pattern in the data is consistent with Kepler\'s Third Law (the greater a moon\'s orbital radius, the longer its orbital period)?',
@@ -532,7 +530,7 @@ export default {
       diveDeep: 'Kepler\'s Third Law (Harmonic Law) states T² ∝ a³, where T is the orbital period and a is the semi-major axis of the orbit. This means a moon at 4 times the orbital radius of another will have a period 8 times longer (since 4³ = 64 = 8²). This law applies universally to orbital mechanics — planets around the Sun, moons around planets, and artificial satellites. The pattern is clearly visible in Jupiter\'s Galilean moons: Io (closest, shortest period) through Callisto (farthest, longest period). Newton later explained WHY Kepler\'s laws work: gravity decreases with distance, so distant moons orbit more slowly. The Reference Tables list planetary data including orbital radii and periods, making such calculations possible.',
     },
     {
-      number: 43,
+      number: 43, image: '/images/exams/es-january-2026/context_43_44.png',
       part: 'B-1',
       context: 'A graph shows the cooling curve of a sample of basaltic magma as it cools from 1300°C to room temperature over a period of time. Plateau regions on the curve indicate phase changes. The y-axis shows temperature in °C and the x-axis shows time.',
       text: 'What does a plateau (flat region) on a cooling curve represent?',
@@ -559,7 +557,7 @@ export default {
       diveDeep: 'The gradient formula from the Reference Tables: Gradient = change in field value / distance. For topographic maps, this is elevation change in meters divided by horizontal distance in kilometers, giving units of m/km. To avoid errors: (1) subtract the lower elevation from the higher to get a positive change; (2) measure or use the given horizontal distance along the surface (map distance × map scale); (3) keep units consistent. Steeper gradients mean faster stream flow, more erosion, and steeper slopes visible on the map (closer contour lines). This calculation is one of the most frequently tested quantitative skills on the Earth Science Regents. Always check units in your answer.',
     },
     {
-      number: 45,
+      number: 45, image: '/images/exams/es-january-2026/context_45_47.png',
       part: 'B-1',
       context: 'A diagram shows a cross section through a river delta where a river enters the ocean. The sediment deposits are labeled with particle sizes from closest to farthest from shore: gravel, sand, silt, and clay.',
       text: 'Why are the finest sediment particles (clay) deposited farthest from shore?',
@@ -575,7 +573,7 @@ export default {
       diveDeep: 'The sorting of sediment by particle size in a delta (or wherever stream velocity decreases) follows a predictable pattern: as a river slows where it meets the sea, it loses energy and deposits sediment from largest (heaviest) to smallest (lightest). Gravel and sand drop near the river mouth; silt is carried a bit farther; clay stays suspended and is carried far offshore before settling. This creates lateral sorting by grain size from shore outward. Vertical sorting also occurs in a single depositional event (turbidity current → graded bedding). Fine clay particles can also be carried by ocean currents globally and accumulate in deep-sea sediments (pelagic clay). The Reference Tables show sediment grain sizes and their names.',
     },
     {
-      number: 46,
+      number: 46, image: '/images/exams/es-january-2026/context_45_47.png',
       part: 'B-1',
       context: 'A data table shows oxygen isotope data (delta O-18 values) from ice cores in Greenland over the past 100,000 years. Lower delta O-18 values indicate colder temperatures (glacial periods); higher values indicate warmer temperatures (interglacial periods).',
       text: 'How does ice core oxygen isotope data provide evidence about past climates?',
@@ -591,7 +589,7 @@ export default {
       diveDeep: 'Ice cores are one of paleoclimatology\'s most powerful tools. The oxygen isotope ratio (18O/16O, expressed as delta 18O) in ice reflects the temperature at which precipitation formed: cold periods → lighter molecules (16O) dominate ice → lower delta 18O; warm periods → more 18O reaches poles → higher delta 18O. Air bubbles trapped in ice also preserve ancient atmospheric samples, allowing direct measurement of past CO₂ and CH₄ concentrations. Greenland ice cores extend back ~120,000 years; Antarctic cores go back ~800,000 years. These records show clear glacial-interglacial cycles corresponding to Milankovitch orbital cycles (eccentricity, obliquity, precession) that drive ice ages. Ice cores also record volcanic eruptions (sulfate spikes) and human industrial pollution.',
     },
     {
-      number: 47,
+      number: 47, image: '/images/exams/es-january-2026/context_45_47.png',
       part: 'B-1',
       context: 'A diagram shows the rock cycle. Arrows labeled A through F connect different rock types and processes. Arrow A goes from igneous rock to sediment; arrow B goes from sediment to sedimentary rock; arrow C goes from sedimentary rock to metamorphic rock; arrow D goes from metamorphic rock to magma; arrow E goes from magma to igneous rock; arrow F goes from any rock back to magma.',
       text: 'Which arrow in the rock cycle represents the process of lithification?',
@@ -618,7 +616,7 @@ export default {
       diveDeep: 'Interpreting geologic history from a cross-section uses several principles: (1) Superposition: lower layers are older; (2) Original Horizontality: layers were horizontal when deposited; if tilted, deformation occurred after deposition; (3) Cross-cutting Relationships: the intrusion cuts through all other features, making it the youngest; (4) Unconformities: an unconformity represents a gap in the rock record — erosion removed rock, then deposition resumed. The unconformity shown here is an angular unconformity (tilted layers below, horizontal above), indicating a sequence of: deposition → tilting/folding → erosion → more deposition. Then the intrusion came last. This step-by-step reading of geologic history from cross-sections is one of the most important and frequently tested skills on the Regents exam.',
     },
     {
-      number: 49,
+      number: 49, image: '/images/exams/es-january-2026/context_48_50.png',
       part: 'B-1',
       context: 'A diagram shows the Sun\'s position in the sky at various times during the day on June 21, September 23, and December 21 at a location in New York State (approximately 42°N latitude). The Sun traces an arc across the sky from east to west, with different arc heights for each date.',
       text: 'On which date would the Sun reach its highest altitude above the horizon at solar noon?',
@@ -629,7 +627,7 @@ export default {
       diveDeep: 'At 42°N latitude, the noon Sun altitude on different dates: June 21 (summer solstice) = 90° - (42° - 23.5°) = 71.5°; September 23 (fall equinox) = 90° - 42° = 48°; December 21 (winter solstice) = 90° - (42° + 23.5°) = 24.5°. The formula is: noon altitude = 90° - |latitude - Sun\'s declination|. The Sun\'s declination ranges from +23.5° (summer solstice) to -23.5° (winter solstice). Higher noon altitude means more direct solar radiation per unit area (more concentrated), which is why summers are warmer even though Earth is actually slightly farther from the Sun in July. Both longer days AND more direct radiation combine to maximize summer insolation in the Northern Hemisphere.',
     },
     {
-      number: 50,
+      number: 50, image: '/images/exams/es-january-2026/context_48_50.png',
       part: 'B-1',
       context: 'A map shows the locations of several cities in New York State with their mean January and July temperatures. The map also shows elevation contours and proximity to the Great Lakes.',
       text: 'Which factor most directly explains why Buffalo typically receives more snowfall than Albany during winter months?',

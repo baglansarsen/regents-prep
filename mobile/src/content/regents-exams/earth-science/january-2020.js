@@ -12,7 +12,6 @@ export default {
       choices: ['red shift of light and cosmic background radiation', 'red shift of light and the different shapes of galaxies', 'planetary motion and cosmic background radiation', 'planetary motion and the different shapes of galaxies'],
       topic: 'Astronomy',
       correct: 0,
-      image: '/images/exams/es-january-2020/q1.png',
       explanation: 'The red shift of light from distant galaxies shows they are moving away (expanding universe), and cosmic microwave background radiation is the "afterglow" of the Big Bang itself.',
       diveDeep: 'Two key pieces of Big Bang evidence: (1) Red shift — nearly all galaxies show red-shifted light (Hubble, 1929), indicating they move away from us; the more distant, the greater the shift (Hubble\'s Law). (2) Cosmic Microwave Background (CMB) radiation — a faint, uniform glow of microwave radiation filling all of space, discovered in 1965 by Penzias and Wilson; it is the cooled remnant heat from the Big Bang (~13.8 billion years ago). Galaxy shapes and planetary motions do not support the Big Bang theory specifically.',
     },
@@ -83,7 +82,7 @@ export default {
       diveDeep: 'Key solar system body definitions: Comet = ice + rock + dust, highly elliptical orbit, develops a tail near the Sun (coma + ion tail). Asteroid = rocky/metallic body, orbits the Sun mainly in the asteroid belt between Mars and Jupiter. Meteor = streak of light produced when a meteoroid burns up in Earth\'s atmosphere (also called "shooting star"). Meteorite = rock that survives to reach Earth\'s surface. Moon = natural satellite orbiting a planet. Planet = body orbiting the Sun with enough mass to clear its orbital neighborhood. These definitions are directly tested on the Regents.',
     },
     {
-      number: 9, part: 'A',
+      number: 9, image: '/images/exams/es-january-2020/q9.png', part: 'A',
       text: 'The time-exposure photograph shown below was taken by an observer in the Northern Hemisphere to record the apparent paths of stars. The name of the bright star near the center that the other stars appear to be circling is',
       choices: ['Polaris', 'Betelgeuse', 'Alpha Centauri', 'Deneb'],
       topic: 'Astronomy',
@@ -331,7 +330,7 @@ export default {
       diveDeep: 'Gradient calculation steps: (1) Find elevation difference: 120 − 50 = 70 m; (2) Divide by horizontal distance: 70 ÷ 3.5 = 20 m/km. Always check units and make sure to use the Reference Table gradient formula. A 20 m/km gradient represents a moderately steep slope. On Regents exam, gradient values in the range of 5–50 m/km are typical for hills and stream valleys. Steeper gradients (>100 m/km) indicate mountains or cliffs. Always show calculation steps in constructed-response questions.',
     },
     {
-      number: 32, part: 'B-1',
+      number: 32, image: '/images/exams/es-january-2020/q32.png', part: 'B-1',
       context: 'A cross section shows a river with a V-shaped valley at one location (upstream) and a wide floodplain and meanders at another location (downstream). The cross sections are labeled X (upstream) and Y (downstream).',
       text: 'Which statement correctly compares the erosional and depositional characteristics at locations X and Y?',
       choices: [
@@ -356,7 +355,7 @@ export default {
       diveDeep: 'Duration of daylight at solstices and equinoxes: June 21 (summer solstice NH): NH = longest day, SH = shortest day. December 21 (winter solstice NH): NH = shortest day, SH = longest day. March 21 and September 23 (equinoxes): all locations have approximately equal day and night (~12 hours each). The farther from the equator, the more extreme the variation. At the equator, day length is always ~12 hours. At the poles, day length varies from 0 to 24 hours. This is directly caused by Earth\'s axial tilt and revolution.',
     },
     {
-      number: 34, part: 'B-1',
+      number: 34, image: '/images/exams/es-january-2020/q34.png', part: 'B-1',
       context: 'A data table shows four rock samples with their radioactive isotopes, current percentages remaining, and ages. Sample 1: 50% K-40 remaining, 1.3 billion years. Sample 2: 75% C-14 remaining, unknown age. Sample 3: 12.5% U-238 remaining, unknown age. Sample 4: 25% K-40 remaining, unknown age.',
       text: 'How many half-lives have elapsed for Sample 4?',
       choices: ['1 half-life', '2 half-lives', '3 half-lives', '4 half-lives'],
@@ -381,7 +380,7 @@ export default {
       diveDeep: 'Cold front passage sequence: (1) Ahead of cold front: warm, humid air; falling pressure; strong south/southwest winds; tall thunderstorm clouds (cumulonimbus); possible severe weather. (2) At the front: rapid temperature drop; gusty winds shift from SW to NW; heavy brief precipitation. (3) Behind the cold front: temperature drops sharply; pressure rises; northwest winds; clearing skies; lower humidity. This three-stage sequence is a staple Regents topic. The steep slope of a cold front forces warm air upward rapidly, producing tall thunderstorm clouds and brief intense precipitation.',
     },
     {
-      number: 36, part: 'B-1',
+      number: 36, image: '/images/exams/es-january-2020/context_36_38.png', part: 'B-1',
       context: 'A diagram represents a cross section of Earth\'s interior. Layers are labeled from the surface inward: crust, plastic (asthenosphere), stiffer mantle, outer core, and inner core. P-wave and S-wave travel patterns are shown.',
       text: 'Which statement correctly describes why the inner core is inferred to be solid?',
       choices: [
@@ -396,7 +395,7 @@ export default {
       diveDeep: 'Earth\'s interior structure inferred from seismic waves: Outer core = liquid iron-nickel (S-waves cannot pass, P-waves slow down and refract). Inner core = solid iron-nickel (under immense pressure that exceeds the melting point, preventing melting despite ~5000°C temperature). The solid inner core was inferred when seismologists detected P-wave velocity increases at the inner-outer core boundary. The inner core is actually slightly denser than the outer core. Earth\'s magnetic field is generated by convection in the liquid outer core (geodynamo theory).',
     },
     {
-      number: 37, part: 'B-1',
+      number: 37, image: '/images/exams/es-january-2020/context_36_38.png', part: 'B-1',
       context: 'A photograph shows a rock sample with visible crystals approximately 5–15 mm in size, alternating light (quartz, feldspar) and dark (biotite, hornblende) bands throughout the rock.',
       text: 'This rock is best classified as',
       choices: ['granite', 'gneiss', 'schist', 'basalt'],
@@ -406,7 +405,7 @@ export default {
       diveDeep: 'Metamorphic rock identification: Gneiss = coarse-grained, banded (foliated) with alternating light and dark mineral bands, high-grade metamorphism. Schist = medium-grained, shiny foliation (mica flakes visible), intermediate grade. Phyllite = fine-grained, silky sheen, lower grade. Slate = very fine-grained, flat cleavage, lowest grade metamorphic. Granite = coarse-grained but NOT banded/foliated (igneous). Basalt = fine-grained, dark, igneous. The key identifier here is the alternating light/dark BANDS — that is the signature of gneiss. The large crystal size indicates high-grade metamorphism (high temperature, slow cooling allowing crystal growth).',
     },
     {
-      number: 38, part: 'B-1',
+      number: 38, image: '/images/exams/es-january-2020/context_36_38.png', part: 'B-1',
       context: 'A map of New York State shows the major landscape regions: Adirondack Mountains, St. Lawrence Lowlands, Tug Hill Plateau, Erie-Ontario Lowlands, Mohawk Valley, Hudson-Mohawk Lowlands, Hudson Highlands, Newark Lowlands, Manhattan Prong, Catskill Mountains (plateau), Allegheny Plateau, and Atlantic Coastal Lowlands.',
       text: 'The Catskill Mountains are classified as a plateau rather than a mountain region because the bedrock',
       choices: [
@@ -421,7 +420,7 @@ export default {
       diveDeep: 'Landscape regions in NY State are classified by bedrock structure: Mountains (Adirondacks) = intensely deformed/metamorphosed rock; Plateau (Catskills, Allegheny) = nearly horizontal sedimentary layers, deeply eroded; Lowlands = flat-lying rock with glacial/alluvial sediment cover. The Catskills "look like mountains" because streams have deeply carved into the plateau, leaving high ridges between valleys — but the bedrock itself is not folded. This is why they are a "dissected plateau," not a mountain range. The Adirondacks, by contrast, have Precambrian metamorphic bedrock produced by intense tectonic deformation.',
     },
     {
-      number: 39, part: 'B-1',
+      number: 39, image: '/images/exams/es-january-2020/context_39_40.png', part: 'B-1',
       context: 'A diagram shows the layers of Earth\'s atmosphere (troposphere, stratosphere, mesosphere, thermosphere) with altitude and temperature shown.',
       text: 'In which layer is the ozone layer located, and why is it important?',
       choices: [
@@ -451,7 +450,7 @@ export default {
       diveDeep: 'The theory of plate tectonics is supported by multiple lines of evidence: (1) earthquake and volcano distribution along plate boundaries; (2) seafloor spreading and magnetic striping; (3) paleomagnetic data; (4) fossil and rock correlation across continents; (5) GPS measurements of plate motion; (6) age of oceanic crust (youngest at ridges); (7) deep-sea drilling data. The "Ring of Fire" — a band of earthquakes and volcanoes around the Pacific Ocean — directly reflects the convergent boundaries where Pacific Plate subducts under surrounding plates. About 80% of the world\'s earthquakes occur here.',
     },
     {
-      number: 41, part: 'B-1',
+      number: 41, image: '/images/exams/es-january-2020/context_41_43.png', part: 'B-1',
       context: 'A table shows climate data for four cities (A, B, C, D): City A — latitude 15°N, annual range 3°C, precipitation 2200 mm; City B — latitude 45°N, annual range 28°C, precipitation 620 mm; City C — latitude 45°N, annual range 12°C, precipitation 850 mm; City D — latitude 65°N, annual range 35°C, precipitation 310 mm.',
       text: 'Which city most likely has a maritime (oceanic) climate?',
       choices: ['City A', 'City B', 'City C', 'City D'],
@@ -461,7 +460,7 @@ export default {
       diveDeep: 'Maritime vs. continental climate: Maritime = near ocean, small annual temperature range, moderate precipitation (ocean moderates extremes). Continental = far inland, large annual temperature range (hot summers, cold winters), lower precipitation. City B (45°N, range 28°C) = continental. City C (45°N, range 12°C, 850 mm precipitation) = maritime (similar to western Europe). City A (15°N, tiny range) = tropical. City D (65°N, range 35°C) = subarctic/continental. The small annual temperature range is the signature of maritime climates because water\'s high specific heat buffers seasonal temperature swings.',
     },
     {
-      number: 42, part: 'B-1',
+      number: 42, image: '/images/exams/es-january-2020/context_41_43.png', part: 'B-1',
       context: 'A cross section shows a glacier with various features labeled: A = horn (pyramidal peak), B = cirque (bowl-shaped depression), C = arête (sharp ridge between cirques), D = U-shaped valley below. A lake fills the bottom of the U-shaped valley.',
       text: 'Which feature in the cross section was carved by a glacier flowing downhill in a valley?',
       choices: ['A — horn', 'B — cirque', 'C — arête', 'D — U-shaped valley'],
@@ -471,7 +470,7 @@ export default {
       diveDeep: 'Glacial landforms: U-shaped valley = glacier flowing downhill carves it; cirque (B) = bowl-shaped depression at the head of a glacier (where snow and ice accumulate); arête (C) = sharp knife-edge ridge between two cirques (glaciers eroding from both sides); horn (A) = pyramidal peak left when three or more cirques erode a mountain from multiple sides (e.g., the Matterhorn). All four are erosional features of alpine glaciation. The flat U-shape is the most diagnostic evidence of glacial valley erosion vs. the V-shape of river-carved valleys.',
     },
     {
-      number: 43, part: 'B-1',
+      number: 43, image: '/images/exams/es-january-2020/context_41_43.png', part: 'B-1',
       context: 'A diagram shows a cross section of ocean floor on either side of the Mid-Atlantic Ridge. Magnetic polarity bands (normal and reversed) are shown symmetrically. Ages increase from 0 Ma at the ridge to 35 Ma at the margins.',
       text: 'Based on the magnetic polarity pattern, what is the approximate spreading rate of the Mid-Atlantic Ridge if the ocean crust 35 Ma old is located 1750 km from the ridge?',
       choices: ['25 km/Ma', '50 km/Ma', '100 km/Ma', '35 km/Ma'],
@@ -481,7 +480,7 @@ export default {
       diveDeep: 'Seafloor spreading rate = distance from ridge ÷ age of crust at that distance. The Mid-Atlantic Ridge spreads at approximately 2–3 cm/year (20–30 km/Ma) — a "slow" spreading center compared to the East Pacific Rise (~5–15 cm/year). When calculating: 1750 km ÷ 35 Ma = 50 km/Ma per side. This means each plate moves 50 km away from the ridge per million years (~5 cm/year). Knowing typical spreading rates (slow: 1–5 cm/yr; fast: 5–15 cm/yr) helps contextualize answers. GPS now directly measures plate velocities with millimeter precision.',
     },
     {
-      number: 44, part: 'B-1',
+      number: 44, image: '/images/exams/es-january-2020/context_44_45.png', part: 'B-1',
       context: 'A graph shows CO₂ concentrations in the atmosphere (in parts per million, ppm) from 1960 to 2020. The line shows a steady increase from about 315 ppm in 1960 to about 415 ppm in 2020, with an annual sawtooth pattern superimposed.',
       text: 'The sawtooth pattern (annual up-and-down oscillations) superimposed on the overall upward trend in the CO₂ graph is caused by',
       choices: [
@@ -506,7 +505,7 @@ export default {
       diveDeep: 'Reading streams on topographic maps: streams always flow toward lower elevation (downhill). Contour lines form V-shapes (chevrons) pointing upstream — the V points toward the headwaters (uphill). The stream flows in the direction the V is pointing away from (toward open end of V = downhill). This is called the "rule of V\'s." On a topographic map showing a hill, streams will radiate outward from the summit. Water never flows uphill. Also remember: closely spaced contour lines near a stream = steep gradient = fast flow.',
     },
     {
-      number: 46, part: 'B-1',
+      number: 46, image: '/images/exams/es-january-2020/context_46_48.png', part: 'B-1',
       context: 'A diagram shows the rock cycle with arrows connecting igneous rock, sedimentary rock, metamorphic rock, and magma. Arrows are labeled with processes: A (cooling/solidification), B (heat and pressure), C (melting), D (weathering, erosion, deposition, compaction, cementation), E (metamorphism).',
       text: 'Which process is represented by arrow D in the rock cycle?',
       choices: [
@@ -531,7 +530,7 @@ export default {
       diveDeep: 'H-R diagram quadrants: Upper-left = hot blue supergiants/giants (high luminosity, high temperature); Upper-right = cool red giants/supergiants (high luminosity, low temperature) — like Betelgeuse; Lower-left = white dwarfs (low luminosity, high temperature); Main sequence (diagonal band) = most stars including the Sun. The apparent contradiction of high luminosity + low temperature is explained by size — red giants are enormous (some > 1000× Sun\'s diameter), so their large surface area compensates for lower temperature to produce high total luminosity. The H-R diagram is on the Regents Reference Table.',
     },
     {
-      number: 48, part: 'B-1',
+      number: 48, image: '/images/exams/es-january-2020/context_46_48.png', part: 'B-1',
       context: 'A cross section shows a continent with prevailing westerly winds blowing from the Pacific Ocean eastward. A mountain range runs north-south. Letters A, B, C, D mark locations west to east across the mountain range.',
       text: 'Which location receives the most annual precipitation?',
       choices: ['A — far west, near ocean', 'B — windward slopes of mountains', 'C — leeward slopes of mountains', 'D — far east, continental interior'],
@@ -541,7 +540,7 @@ export default {
       diveDeep: 'Orographic lifting: (1) Moist air from the ocean approaches a mountain range; (2) Air is forced upward on the windward side; (3) As it rises and cools at the dry adiabatic lapse rate (10°C/km), then moist adiabatic rate (~6°C/km after saturation), condensation and precipitation occur; (4) Maximum precipitation falls on upper windward slopes (location B); (5) Leeward side: air descends, compresses, warms (Foehn effect), creating a dry rain shadow. The wet windward / dry leeward pattern explains major deserts: Atacama (leeward of Andes), Mojave/Sonoran (leeward of Sierra Nevada/Cascades).',
     },
     {
-      number: 49, part: 'B-1',
+      number: 49, image: '/images/exams/es-january-2020/context_49_50.png', part: 'B-1',
       context: 'A data table shows properties of four minerals: Mineral 1 (hardness 7, SiO₂, no cleavage, glassy luster); Mineral 2 (hardness 2.5, NaCl, cubic cleavage, vitreous); Mineral 3 (hardness 10, C, octahedral cleavage, adamantine luster); Mineral 4 (hardness 3, CaCO₃, rhombohedral cleavage, vitreous).',
       text: 'Which mineral could NOT be scratched by a steel file (hardness 6.5)?',
       choices: ['Mineral 1', 'Mineral 2', 'Mineral 3', 'Mineral 4'],
@@ -551,7 +550,7 @@ export default {
       diveDeep: 'Mohs hardness scale: a mineral can only be scratched by something harder than itself. Steel file hardness ≈ 6.5. Mineral 1 (quartz, 7) and Mineral 3 (diamond, 10) are both harder than 6.5, so neither can be scratched by a steel file. Wait — re-examine: quartz (7) > file (6.5) means quartz also cannot be scratched by the file. The question asks which CANNOT be scratched — if both 1 and 3 qualify, check if the question expects one answer. Diamond (10) absolutely cannot be scratched; quartz (7) also cannot. Typically the answer asked for is the hardest mineral — diamond. Always rank hardnesses to solve these questions.',
     },
     {
-      number: 50, part: 'B-1',
+      number: 50, image: '/images/exams/es-january-2020/context_49_50.png', part: 'B-1',
       context: 'A diagram represents changes in insolation intensity received on Earth\'s Northern Hemisphere over the course of a year (January through December). The graph shows a peak in June-July and a trough in December-January.',
       text: 'What causes the seasonal variation in insolation intensity shown on the graph?',
       choices: [

@@ -7,7 +7,7 @@ export default {
   totalMinutes: 85,
   questions: [
     {
-      number: 1,
+      number: 1, image: '/images/exams/es-june-2021/q1.png',
       part: 'A',
       text: 'Which diagram best represents the geocentric model of the solar system?',
       choices: [
@@ -157,7 +157,7 @@ export default {
       diveDeep: 'When the parent and daughter isotopes are in equal amounts (50% parent, 50% daughter), exactly one half-life has passed. For U-238 (half-life = 4.5 × 10⁹ years), this gives an age of 4.5 billion years. This is approximately the age of Earth! The oldest Earth rocks (~4.4 Ga) and lunar samples (~4.5 Ga) are dated using U-Pb methods. Students should be able to quickly recognize: equal parent/daughter = 1 half-life; 1/4 parent remaining = 2 half-lives; 1/8 parent remaining = 3 half-lives. Always identify the parent isotope and look up its half-life in the Reference Tables.',
     },
     {
-      number: 11,
+      number: 11, image: '/images/exams/es-june-2021/q11.png',
       part: 'A',
       text: 'The diagram shows horizontal rock layers A, B, C, and D, from top to bottom. Layer A is at the surface. Which rock layer is the oldest?',
       choices: [
@@ -202,7 +202,7 @@ export default {
       diveDeep: 'Igneous rocks are classified by cooling rate and crystal size: intrusive (plutonic) — cools slowly underground, produces coarse-grained rocks with large crystals (e.g., granite, gabbro); extrusive (volcanic) — cools rapidly at the surface, produces fine-grained or glassy rocks with small or no crystals (e.g., rhyolite, basalt, obsidian). Slow cooling = more time for crystal growth = larger crystals. Granite is the most common intrusive igneous rock; basalt is the most common extrusive. The texture of igneous rocks is the primary indicator of cooling environment. Students should use the Reference Table\'s igneous rock chart to identify rocks by texture and composition.',
     },
     {
-      number: 14,
+      number: 14, image: '/images/exams/es-june-2021/q14.png',
       part: 'A',
       text: 'The diagram shows a geological cross-section with a diabase sill cutting through horizontal sedimentary rock layers. Which statement about the relative age of the diabase sill is correct?',
       choices: [
@@ -367,7 +367,7 @@ export default {
       diveDeep: 'Alfred Wegener proposed continental drift in 1912 based on multiple lines of evidence: (1) Matching coastlines — especially Africa and South America; (2) Matching rock types and mountain ranges across oceans (Appalachians match Scottish Highlands when continents are joined); (3) Identical fossils (Mesosaurus, Glossopteris) on continents now separated by wide oceans; (4) Glacial evidence — glacial deposits found in tropical Africa suggest former polar position; (5) Paleoclimatic evidence — coal deposits in Antarctica from ancient tropical forests. Students should know all major lines of evidence for continental drift/plate tectonics and what each demonstrates.',
     },
     {
-      number: 25,
+      number: 25, image: '/images/exams/es-june-2021/q25.png',
       part: 'A',
       text: 'The diagram shows stream gradient decreasing from the mountains to the mouth of a river. At which location along the river would the largest boulders most likely be deposited?',
       choices: [
@@ -532,7 +532,7 @@ export default {
       diveDeep: 'This is one of the most important topographic map reading rules on the Regents: contour lines always form a V-shape when crossing a valley, with the V pointing in the upstream direction (toward higher elevation). This allows you to determine stream flow direction: water flows in the opposite direction from which the V points (water flows away from the point of the V). On ridges, contour lines also form V-shapes but pointing downhill. Practice by identifying which way V-shapes point — if they point toward higher elevations, it\'s a valley; if they point toward lower elevations, it\'s a ridge. This skill appears in nearly every Earth Science Regents exam.',
     },
     {
-      number: 36,
+      number: 36, image: '/images/exams/es-june-2021/context_36_37.png',
       part: 'B-1',
       text: 'A cross section shows rock layers with an unconformity. Below the unconformity are tilted metamorphic rocks; above are horizontal sedimentary layers. Which sequence of events created this unconformity, from oldest to most recent?',
       choices: [
@@ -562,7 +562,7 @@ export default {
       diveDeep: 'Reading summit elevation from a topographic map: the innermost closed contour tells you the minimum possible summit elevation. The actual summit could be anywhere between that last contour and just below the next contour. If the contour interval is 20 m and the last contour is at 200 m, the summit is somewhere between 200 and 220 m (exclusive). This is a rule students frequently forget — the inner contour gives a minimum, not the exact summit elevation. Students should also know that depression contours (with hachure marks pointing inward) indicate enclosed low points, and their inner contour represents the maximum depth of the depression.',
     },
     {
-      number: 38,
+      number: 38, image: '/images/exams/es-june-2021/context_38_39.png',
       part: 'B-1',
       text: 'The data table shows P-wave and S-wave arrival times at three seismic stations. Using the travel-time graph, which station is closest to the earthquake epicenter?',
       choices: [
@@ -577,7 +577,7 @@ export default {
       diveDeep: 'The P-S wave time difference is directly proportional to distance from the earthquake epicenter — the smaller the difference, the closer the station. This is the basis for determining epicenter location: measure P-S time at three stations, convert to distances using the travel-time graph, draw circles around each station with those radii, and the epicenter is where the three circles intersect (triangulation). Students must practice: (1) calculating P-S difference from arrival times; (2) reading the travel-time graph to convert time difference to distance; (3) recognizing that minimum P-S time = minimum distance. Knowing the origin time allows calculation of absolute travel times.',
     },
     {
-      number: 39,
+      number: 39, image: '/images/exams/es-june-2021/context_38_39.png',
       part: 'B-1',
       text: 'A diagram shows the movement of the Hawaiian hotspot chain over the past 70 million years, with volcanic islands becoming progressively older to the northwest. The Big Island is currently over the hotspot. At approximately what rate has the Pacific Plate been moving over the hotspot (in cm/year), if the oldest island in the chain is 70 million years old and is located 7,000 km northwest of the Big Island?',
       choices: [
@@ -592,7 +592,7 @@ export default {
       diveDeep: 'Hotspot chains are "time-stamped" records of plate motion. As the Pacific Plate moves over the stationary Hawaiian hotspot, successive volcanic islands form, creating a chain where older islands are farther from the current hotspot position. Rate = distance/time = 7,000 km / 70 million years = 100 km/million years = 10 cm/year. The Pacific Plate moves northwest at approximately 5–10 cm/year — similar to the rate your fingernails grow! This calculation appears on the Regents and requires unit conversion. Students should know: typical plate movement rates are ~1–15 cm/year. Converting km to cm: 1 km = 100,000 cm.',
     },
     {
-      number: 40,
+      number: 40, image: '/images/exams/es-june-2021/context_40_41.png',
       part: 'B-1',
       text: 'The graph shows the temperature profile of Earth\'s atmosphere from 0 to 80 km altitude. Which atmospheric layer has temperature increasing with altitude?',
       choices: [
@@ -607,7 +607,7 @@ export default {
       diveDeep: 'The atmosphere\'s temperature profile is determined by the dominant energy sources in each layer: Troposphere — temperature decreases with altitude (~6.5°C/km); heated from Earth\'s surface below. Stratosphere — temperature increases with altitude; ozone (O₃) absorbs UV radiation and warms the layer. Mesosphere — temperature decreases with altitude again; sparse gas, little heating source. Thermosphere — temperature increases dramatically; individual gas molecules absorb X-rays and UV but there are so few molecules that the "temperature" is extremely high but little heat is transferred. Students should memorize the temperature trend (decrease/increase/decrease/increase going up) and the reason for each change.',
     },
     {
-      number: 41,
+      number: 41, image: '/images/exams/es-june-2021/context_40_41.png',
       part: 'B-1',
       text: 'The diagram represents Earth\'s position in its orbit and the tilt of its axis on June 21. Which statement correctly describes conditions in the Northern Hemisphere on June 21?',
       choices: [
@@ -622,7 +622,7 @@ export default {
       diveDeep: 'June 21 (summer solstice) conditions in the Northern Hemisphere: (1) Longest day of the year (in NH); (2) Sun is directly overhead at the Tropic of Cancer (23.5°N) at solar noon; (3) Arctic Circle and north experience 24-hour daylight; (4) NH tilted toward Sun = most direct sunlight; (5) Highest solar angle at noon for the year. At the same time in the Southern Hemisphere: shortest day, winter conditions. Equal day/night occurs only at equinoxes (March 21, September 23). Students must know what happens on all four key dates: June 21, December 21, and both equinoxes for both hemispheres.',
     },
     {
-      number: 42,
+      number: 42, image: '/images/exams/es-june-2021/context_42_43.png',
       part: 'B-1',
       text: 'A map of New York State shows the location of a student at Cooperstown, which has an elevation of approximately 400 meters and is located at approximately 42.7°N latitude. At approximately what altitude above the horizon would the student observe Polaris?',
       choices: [
@@ -667,7 +667,7 @@ export default {
       diveDeep: 'The principle of original horizontality (Steno, 1669) states that sedimentary rocks are deposited in layers that are nearly horizontal at the time of formation. Therefore, tilted rock layers indicate post-depositional deformation by tectonic forces (compression, tension, or shear). In New York State, tilted and folded rocks are abundant in the Taconic region and Hudson Valley, evidence of the Taconian orogeny (mountain-building event ~440 Ma). Roadcuts often expose these features dramatically. Students should apply original horizontality: if you see tilted sedimentary layers, conclude that tectonic deformation occurred after deposition.',
     },
     {
-      number: 45,
+      number: 45, image: '/images/exams/es-june-2021/context_44_47.png',
       part: 'B-1',
       text: 'A data table shows average monthly temperatures at a coastal city (City A) and an inland city (City B) at the same latitude. City A has a small annual temperature range (18°C); City B has a large annual temperature range (32°C). Which factor best explains this difference?',
       choices: [
@@ -682,7 +682,7 @@ export default {
       diveDeep: 'Water has a high specific heat (~4.18 J/g°C) compared to land (~0.8 J/g°C). This means water heats up and cools down much more slowly than land. Coastal cities are buffered by this thermal mass: summers are cooler and winters are warmer than at inland locations at the same latitude. The difference between marine (oceanic) climate (small temperature range) and continental climate (large temperature range) is a fundamental climate geography concept. New York City (coast) has a smaller annual range than Albany (inland). This question tests whether students can identify the moderating effect of proximity to water. Both cities are at the same latitude, so latitude is not the explanation.',
     },
     {
-      number: 46,
+      number: 46, image: '/images/exams/es-june-2021/context_44_47.png',
       part: 'B-1',
       text: 'The diagram shows ocean floor age data showing the Atlantic Ocean is spreading apart. If the Atlantic Ocean is currently 6000 km wide at one location, and seafloor spreading has been occurring at a rate of 2.5 cm/year on each side of the ridge, how many years ago was the Atlantic Ocean beginning to form at this location?',
       choices: [
@@ -697,7 +697,7 @@ export default {
       diveDeep: 'Seafloor spreading calculations: the total widening rate is twice the individual plate rate (both sides spread). Convert distance to cm: 6000 km × 100,000 cm/km = 6 × 10⁸ cm. Total rate = 5 cm/year. Age = distance/rate = 6 × 10⁸ / 5 = 1.2 × 10⁸ years = 120 million years (Cretaceous Period). This matches geologic evidence — the Atlantic began opening about 130–180 Ma when Pangaea broke apart. The key step students miss is doubling the rate because spreading occurs on BOTH sides of the ridge. Practice: always check if the given rate is one-side or total spreading rate.',
     },
     {
-      number: 47,
+      number: 47, image: '/images/exams/es-june-2021/context_44_47.png',
       part: 'B-1',
       text: 'The diagram shows a cross-section of a volcanic island arc system. An oceanic plate is subducting beneath another oceanic plate. Which statement describes what happens to the subducting plate as it descends into the mantle?',
       choices: [
@@ -727,7 +727,7 @@ export default {
       diveDeep: 'The Reference Table igneous rock classification chart organizes rocks by mineral composition (felsic to mafic) and texture (intrusive/coarse-grained vs. extrusive/fine-grained). Granite: felsic, coarse-grained (intrusive), high quartz and orthoclase; Rhyolite: same composition but fine-grained (extrusive); Basalt: mafic, fine-grained, low/no quartz, rich in pyroxene and olivine; Gabbro: same composition as basalt but coarse-grained; Peridotite: ultramafic, very high olivine and pyroxene. The high quartz content (70%) and presence of orthoclase feldspar clearly indicate a felsic/granitic composition. Students should practice reading across both axes of the igneous classification chart.',
     },
     {
-      number: 49,
+      number: 49, image: '/images/exams/es-june-2021/context_48_50.png',
       part: 'B-1',
       text: 'A graph shows the mean global temperature anomaly (departure from average) from 1880 to 2020. The data shows a clear upward trend, especially after 1950. Which human activity is most responsible for this trend?',
       choices: [
@@ -742,7 +742,7 @@ export default {
       diveDeep: 'Global temperature records show approximately 1.1–1.2°C of warming since the pre-industrial period (before ~1850). The primary driver is the increase in atmospheric CO₂ from ~280 ppm (pre-industrial) to over 420 ppm today, almost entirely due to fossil fuel combustion and deforestation. CO₂ is a greenhouse gas that absorbs outgoing infrared radiation, trapping heat. While deforestation reduces CO₂ absorption and urban heat islands cause local warming, these are not the primary global drivers. Students should distinguish between local/regional effects and global drivers, and know that the scientific consensus attributes modern warming primarily to fossil fuel emissions.',
     },
     {
-      number: 50,
+      number: 50, image: '/images/exams/es-june-2021/context_48_50.png',
       part: 'B-1',
       text: 'The diagram shows the water cycle. Identify the process by which water moves from the ocean to the atmosphere as water vapor, driven primarily by solar energy.',
       choices: [

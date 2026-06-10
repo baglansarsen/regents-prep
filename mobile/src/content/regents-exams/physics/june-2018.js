@@ -140,7 +140,6 @@ export default {
       choices: ['1.6 × 10⁻¹⁹ C', '6.0 C', '1.5 × 10⁻⁶ C', '6.7 × 10⁵ C'],
       topic: 'Electricity',
       correct: 2,
-      image: '/images/exams/phys-june-2018/q13.png',
       explanation: 'E = F/q, so q = F/E = (3.0 × 10⁻³ N) / (2.0 × 10³ N/C) = 1.5 × 10⁻⁶ C.',
       diveDeep: 'The electric field is defined as E = F/q, where F is the force on a test charge q. Rearranging: q = F/E. Here q = 3.0 × 10⁻³ / 2.0 × 10³ = 1.5 × 10⁻⁶ C = 1.5 μC. A common mistake is inverting the formula to get q = E/F, giving 6.7 × 10⁵ C — an unrealistically large charge. Choice A (1.6 × 10⁻¹⁹ C) is the elementary charge — a distractor for students who recognize that unit of charge without doing the calculation. Always verify the answer has reasonable magnitude for macroscopic charges (μC range is typical).'
     },
@@ -162,7 +161,6 @@ export default {
       choices: ['2.0 × 10¹ W', '2.0 × 10³ W', '2.0 × 10² W', '2.0 × 10⁴ W'],
       topic: 'Energy & Work',
       correct: 2,
-      image: '/images/exams/phys-june-2018/q15.png',
       explanation: 'P = W/t = (2.0 × 10³ J) / (10. s) = 2.0 × 10² W = 200 W.',
       diveDeep: 'Power P = W/t = E/t measures the rate of energy transfer. Here P = 2000/10 = 200 W = 2.0 × 10² W. A common mistake is performing the division incorrectly with scientific notation: 10³/10¹ = 10², so the coefficient stays 2.0. Choice A (2.0 × 10¹) comes from dividing by 100 instead of 10. Choice D (2.0 × 10⁴) comes from multiplying instead of dividing. Checking units: J/s = W ✓. 200 W is approximately the power of a human running — reasonable for a small engine acceleration.'
     },
@@ -173,7 +171,6 @@ export default {
       choices: ['gravitational and magnetic', 'electrostatic and gravitational', 'magnetic and electrostatic', 'gravitational, magnetic, and electrostatic'],
       topic: 'Forces & Newton',
       correct: 2,
-      image: '/images/exams/phys-june-2018/q16.png',
       explanation: 'Both magnetic and electrostatic forces can be attractive or repulsive depending on the poles or charges involved. Gravitational force is always attractive.',
       diveDeep: 'Gravity is always attractive because there is no negative mass. Electrostatic force: like charges repel, unlike charges attract. Magnetic force: like poles repel, unlike poles attract. So magnetic and electrostatic forces can be either attractive or repulsive. Choice D includes gravity, which is always attractive — making D incorrect. This concept pairs with Regents questions about the fundamental forces. Note that the strong nuclear force is always attractive at nuclear distances, while the weak force mediates certain particle decays.'
     },
@@ -373,7 +370,7 @@ export default {
       diveDeep: 'From the Regents reference table, a charm quark has a charge of +2/3 the elementary charge. e = 1.60 × 10⁻¹⁹ C, so q_charm = (2/3)(1.60 × 10⁻¹⁹) = 1.07 × 10⁻¹⁹ C. Choice (1) 5.33 × 10⁻²⁰ C corresponds to ⅓e (down, strange, bottom quarks); choice (3) is the full elementary charge; choice (4) is 3/2 e. The Regents reference table lists quark charges and students should memorize: up/charm/top = +2/3e, down/strange/bottom = −1/3e.'
     },
     {
-      number: 43,
+      number: 43, image: '/images/exams/phys-june-2018/q43.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'The diagram below represents a 3.0-ohm resistor connected to a 12-volt battery. Meters X and Y are correctly connected in the circuit. What are the readings on the meters?',
@@ -421,7 +418,7 @@ export default {
       diveDeep: 'Under constant gravitational acceleration: d = ½gt² gives a parabolic position-time graph (starts at origin, curves upward). v = gt gives a linear velocity-time graph with constant positive slope equal to g. A common mistake is choosing a linear d-t graph (which would imply constant velocity, not acceleration). Another mistake is choosing a curved v-t graph (which would imply changing acceleration). These graph shapes are among the most tested Regents concepts in kinematics.'
     },
     {
-      number: 46,
+      number: 46, image: '/images/exams/phys-june-2018/q46.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'An object is thrown straight upward. Which graph best represents the relationship between the object\'s kinetic energy and the height of the object above its release point? [Neglect friction.]',
@@ -437,7 +434,7 @@ export default {
       diveDeep: 'By conservation of energy (no friction): KE + PE = constant. PE = mgh increases linearly with height, so KE = E_total − mgh decreases linearly with height. The KE vs. h graph is a straight line with negative slope, starting at maximum KE (at h = 0) and reaching zero KE at maximum height. Students often incorrectly choose a curved graph. The linear relationship comes from PE being linear in h, not quadratic. This is one of the most important energy-conservation graph relationships on the Regents.'
     },
     {
-      number: 47,
+      number: 47, image: '/images/exams/phys-june-2018/q47.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'In the diagram, X represents a particle in a spring. Which diagram represents the motion of particle X as a longitudinal wave passes through the spring toward the right?',
@@ -453,7 +450,7 @@ export default {
       diveDeep: 'Longitudinal waves (like sound and compression waves in a spring/Slinky) cause particle displacement parallel to the wave\'s direction of travel. The particle oscillates back and forth (compression and rarefaction) along the same axis as the wave moves. Transverse waves (like light, or waves on a string) cause perpendicular displacement. A spring (Slinky) demonstration clearly shows longitudinal motion. The Regents reference table classifies waves by type; knowing longitudinal vs. transverse is essential.'
     },
     {
-      number: 48,
+      number: 48, image: '/images/exams/phys-june-2018/q48.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'Two wave pulses, X and Y, are traveling toward each other in a rope. Both wave pulses have an amplitude of 0.30 m. Which diagram shows the pulse produced due to the superposition of pulse X and pulse Y?',
@@ -469,7 +466,7 @@ export default {
       diveDeep: 'The principle of superposition states that when waves overlap, the resultant displacement equals the algebraic sum of individual displacements. If both pulses are on the same side (both upward), amplitudes add: 0.30 + 0.30 = 0.60 m (constructive interference). If they are on opposite sides, they would cancel: 0.30 − 0.30 = 0 (destructive interference). The diagram in the question shows both pulses on the same side, giving constructive interference and a resultant of 0.60 m. After passing through each other, the pulses return to their original shapes.'
     },
     {
-      number: 49,
+      number: 49, image: '/images/exams/phys-june-2018/q49.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'The horn of a car produces a sound wave of constant frequency. The car, traveling at constant speed, approaches, passes, and then moves away from a stationary observer. Which graph best represents the frequency of this sound wave detected by the observer during the time interval in which the car approaches, passes, and moves away?',
@@ -504,7 +501,7 @@ export default {
     // ── Part B-2 (Q51–65, written/short-answer) ──────────────────────────────
 
     {
-      number: 51,
+      number: 51, image: '/images/exams/phys-june-2018/context_51_53.png',
       part: 'B-2',
       type: 'written',
       text: 'Base your answers to questions 51 through 53 on the scaled diagram below, which represents two forces acting concurrently at point P. The magnitude of force A is 32 newtons and the magnitude of force B is 20. newtons. The angle between the directions of force A and force B is 120º.\n\nQuestion 51: Determine the linear scale used in the diagram. [1]',
@@ -514,7 +511,7 @@ export default {
       diveDeep: 'To determine the scale: measure the drawn length of one of the given vectors (using a ruler), then divide the known magnitude by that length. For example, if force A (32 N) is drawn as 8 cm, the scale is 4 N/cm. This scale must then be used consistently to interpret the resultant vector\'s length. Vector diagrams on the Regents always include a stated or implied scale, and students must apply it correctly to convert lengths to force magnitudes.'
     },
     {
-      number: 52,
+      number: 52, image: '/images/exams/phys-june-2018/context_51_53.png',
       part: 'B-2',
       type: 'written',
       text: 'Base your answers to questions 51 through 53 on the scaled diagram representing two forces A (32 N) and B (20. N) acting concurrently at point P with 120º between them.\n\nQuestion 52: On the diagram in your answer booklet, use a protractor and a ruler to construct a scaled vector to represent the resultant of forces A and B. Label the vector R. [1]',
@@ -534,7 +531,7 @@ export default {
       diveDeep: 'Analytically: the angle between vectors in the parallelogram is the supplement of the given angle when using the law of cosines for the resultant. The angle between A and B is 120°, so the angle used in the parallelogram diagonal formula is 180° − 120° = 60°. R = √(32² + 20² − 2·32·20·cos60°) = √(1024 + 400 − 640) = √784 = 28 N. Graphically, measure R on the diagram and apply the scale. The Regents accepts either method; show all work for full credit.'
     },
     {
-      number: 54,
+      number: 54, image: '/images/exams/phys-june-2018/context_54_56.png',
       part: 'B-2',
       type: 'written',
       text: 'Base your answers to questions 54 through 56 on the information and diagram below.\n\nA student pushes a box, weighing 50. newtons, 6.0 meters up an incline at a constant speed by applying a force of 25 newtons parallel to the incline. The top of the incline is 2.0 meters higher than the bottom.\n\nQuestions 54–55: Calculate the total work done on the box by the student while pushing the box from the bottom to the top of the incline. [Show all work, including the equation and substitution with units.] [2]',
@@ -564,7 +561,7 @@ export default {
       diveDeep: 'At constant speed, net force = 0, so the applied force must equal the sum of friction and the component of gravity along the incline. If μ_k increases, friction force f_k = μ_k·F_N increases, requiring a larger applied force F. Since W = Fd and d is fixed (6.0 m), more force means more work. The extra work goes entirely into overcoming the increased friction (converted to heat), while the gravitational PE gained (mgh = 100 J) stays the same. This illustrates the energy cost of friction on inclined surfaces.'
     },
     {
-      number: 57,
+      number: 57, image: '/images/exams/phys-june-2018/q57.png',
       part: 'B-2',
       type: 'written',
       text: 'In the diagram below, a light ray is incident on an interface between glass and air. When the light strikes the glass-air interface, some of the light is reflected. On the diagram in your answer booklet, use a protractor and straightedge to construct the reflected light ray. [1]',
@@ -707,7 +704,7 @@ export default {
       diveDeep: 'See question 69. Power equations P = IV = I²R = V²/R are all on the Regents reference table. For this problem, P = V²/R is most direct since V and R (operating) are given. The 60 W result matches a standard incandescent household bulb, reinforcing that the operating resistance (240 Ω) must be used, not the cold resistance (19 Ω).'
     },
     {
-      number: 71,
+      number: 71, image: '/images/exams/phys-june-2018/context_71_75.png',
       part: 'C',
       type: 'written',
       text: 'Base your answers to questions 71 through 75 on the information and diagram below.\n\nA 150-newton force, applied to a wooden crate at an angle of 30.º above the horizontal, causes the crate to travel at constant velocity across a horizontal wooden floor.\n\nQuestions 71–72: Calculate the magnitude of the horizontal component of the 150-newton force. [Show all work, including the equation and substitution with units.] [2]',
@@ -807,7 +804,7 @@ export default {
       diveDeep: 'F_c = mv²/r shows that centripetal force is proportional to the square of speed. If speed decreases, say by half, the centripetal force decreases to one-quarter. This is why a car going slower around a curve needs less friction — it is less likely to skid at lower speeds. Conversely, doubling speed quadruples the required centripetal force. This v² relationship is key to understanding why high-speed turns are dangerous and why banked curves are necessary for highways.'
     },
     {
-      number: 81,
+      number: 81, image: '/images/exams/phys-june-2018/context_81_85.png',
       part: 'C',
       type: 'written',
       text: 'Base your answers to questions 81 through 85 on the information and diagram below.\n\nA musician plucks a 0.620-meter-long string on an acoustic guitar. The plucked string vibrates, producing a musical note called "G." The waves traveling along the vibrating string produce a standing wave with a frequency of 196 hertz.\n\nQuestion 81: On the diagram of the standing wave in your answer booklet, label one node with the letter N and one antinode with the letter A. [1]',

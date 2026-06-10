@@ -203,7 +203,7 @@ export default {
       diveDeep: 'When a line is parallel to one side of a triangle and intersects the other two sides, it creates similar triangles. Use the full-side ratio: RL/RS = LM/ST → 2/8 = 4/(x+2). Cross-multiplying: 2(x+2) = 32 → x+2 = 16. A very common mistake is using RL/LS (partial ratio) = LM/something — while that proportion works, you must pair it with RM/MS, not RL/LS = LM/ST. The cleanest setup is RL/RS = LM/ST using full side lengths of each triangle.'
     },
     {
-      number: 25, part: 'B', type: 'written',
+      number: 25, image: '/images/exams/geo-january-2020/q25.png', part: 'B', type: 'written',
       text: 'In the diagram, right triangle PQR is transformed by a sequence of rigid motions that maps it onto right triangle NML. Write a set of three congruency statements that would show ASA congruency for these triangles.',
       topic: 'Triangles & Congruence',
       explanation: 'ASA requires two angles and the included side. For example: ∠P ≅ ∠N, PR ≅ NL, ∠R ≅ ∠L (if the right angles are at R and L, and the correspondence is P↔N, Q↔M, R↔L).',
@@ -227,7 +227,7 @@ export default {
       modelAnswer: 'Convert thickness: 1 inch = 1/12 foot.\nVolume = length × width × thickness = 8 × 3 × (1/12) = 2 ft³.\nWeight = volume × density = 2 ft³ × 43 lb/ft³ = 86 pounds.\nThe tabletop weighs 86 pounds.'
     },
     {
-      number: 28, part: 'B', type: 'written',
+      number: 28, image: '/images/exams/geo-january-2020/q28.png', part: 'B', type: 'written',
       text: 'In the diagram of circle O, secant ABC and tangent AD are drawn. If CA = 12.5 and CB = 4.5, determine and state the length of DA.',
       topic: 'Circles',
       explanation: 'By the secant-tangent theorem from external point A: AD² = AB × AC. AB = AC − BC = 12.5 − 4.5 = 8. So AD² = 8 × 12.5 = 100, and AD = 10.',

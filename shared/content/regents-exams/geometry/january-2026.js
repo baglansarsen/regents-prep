@@ -230,9 +230,7 @@ export default {
       topic: 'Circles',
       correct: 2,
       explanation: 'Completing the square gives (x − 8)² + (y + 10)² = −155 + 64 + 100 = 9, so the center is (8, −10) and the radius is √9 = 3.',
-      diveDeep: 'To convert general form to center-radius form, complete the square on x and y separately. Half of −16 is −8, squared is 64; half of 20 is 10, squared is 100; add both to each side: −155 + 64 + 100 = 9. So (x − 8)² + (y + 10)² = 9, giving center (8, −10) and radius √9 = 3. Two classic traps: forgetting to take the square root of the right side (using 9 as the radius) and mishandling the sign of the center coordinates.',
-      image: '/images/exams/geo-january-2026/q19.png'
-    },
+      diveDeep: 'To convert general form to center-radius form, complete the square on x and y separately. Half of −16 is −8, squared is 64; half of 20 is 10, squared is 100; add both to each side: −155 + 64 + 100 = 9. So (x − 8)² + (y + 10)² = 9, giving center (8, −10) and radius √9 = 3. Two classic traps: forgetting to take the square root of the right side (using 9 as the radius) and mishandling the sign of the center coordinates.',},
     {
       number: 20,
       part: 'A',

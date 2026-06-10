@@ -7,7 +7,7 @@ export default {
   totalMinutes: 180,
   questions: [
     {
-      number: 1, part: 'A',
+      number: 1, image: '/images/exams/es-august-2025/q1.png', part: 'A',
       text: 'A graph of tidal height changes in sea level shows two complete tidal cycles over 24 hours. The number of hours from one low tide to the next low tide is approximately',
       choices: ['6 h', '18 h', '12 h', '24 h'],
       topic: 'Astronomy',
@@ -112,7 +112,6 @@ export default {
       choices: ['cross-cutting relationships', 'original horizontality', 'superposition', 'uniformitarianism'],
       topic: 'Geology',
       correct: 2,
-      image: '/images/exams/es-august-2025/q12.png',
       explanation: 'The principle of superposition states that in undisturbed rock sequences, older layers are deposited first and lie beneath younger layers.',
       diveDeep: 'Superposition was formalized by Nicolas Steno in the 17th century. It is the foundational principle of stratigraphy. The principle applies to undisturbed sequences — if layers have been overturned by tectonic activity, index fossils or cross-cutting relationships must be used to determine true age. Original horizontality states layers are deposited flat and parallel; cross-cutting relationships state that intrusions or faults are younger than the rocks they cut. Students should know all four of Steno\'s principles.'
     },
@@ -149,7 +148,6 @@ export default {
       choices: ['Massena', 'Niagara Falls', 'New York City', 'Elmira'],
       topic: 'Geology',
       correct: 3,
-      image: '/images/exams/es-august-2025/q16.png',
       explanation: 'Elmira is located in the Southern Tier of New York on Devonian-age bedrock (359–416 million years old), as shown on the Geologic Map of New York State in the Reference Tables.',
       diveDeep: 'The New York State Bedrock Geology map in the Reference Tables color-codes surface bedrock by age. Devonian rocks (359–416 Ma) underlie much of the Southern Tier including Elmira. Massena is underlain by much older Precambrian or Ordovician rocks. New York City is underlain by Precambrian metamorphic rocks. Niagara Falls sits on Silurian and Ordovician rocks. Students should practice reading the geologic map to match cities with bedrock ages — this is a common exam skill.'
     },
@@ -187,7 +185,6 @@ export default {
       choices: ['Hawaii Hot Spot', 'Tasman Hot Spot', 'Bouvet Hot Spot', 'Canary Islands Hot Spot'],
       topic: 'Plate Tectonics',
       correct: 2,
-      image: '/images/exams/es-august-2025/q20.png',
       explanation: 'The Bouvet Hot Spot is located on the Mid-Atlantic Ridge, which is a divergent plate boundary where plates are moving apart.',
       diveDeep: 'Hot spots are areas of volcanic activity caused by plumes of hot mantle material rising to the surface. They can occur at any location on a plate, not just at plate boundaries. Hawaii is on the Pacific Plate far from any boundary. The Bouvet Hot Spot lies on the mid-ocean ridge system — a divergent boundary. Iceland is another example of a hot spot sitting on a divergent boundary. Students should practice reading the Reference Tables tectonic plate map to identify boundary types (convergent, divergent, transform) and hot spot locations.'
     },
@@ -197,7 +194,6 @@ export default {
       choices: ['shape and density', 'shape and luster', 'hardness and density', 'hardness and luster'],
       topic: 'Geology',
       correct: 0,
-      image: '/images/exams/es-august-2025/q21.png',
       explanation: 'The shape and density of sediment particles determine how quickly they settle in water — rounder, denser particles settle faster.',
       diveDeep: 'Stokes\' Law describes how particles settle in a fluid: settling velocity depends on particle density, fluid density, viscosity, and particle size. Additionally, particle shape affects settling — angular particles experience more drag and settle more slowly than spherical particles of the same mass and density. Hardness and luster are mineral properties that describe scratch resistance and light reflection, not settling behavior. Students should know that larger, denser, and rounder particles settle first in fluvial or marine environments.'
     },
@@ -239,7 +235,7 @@ export default {
       diveDeep: 'The Earthquake Travel Time graph in the Reference Tables shows arrival times for P and S waves at various epicentral distances. To find distance: look up where the P-wave curve reaches 7 minutes — this gives approximately 4000 km. Then read the S-wave arrival time at 4000 km and subtract the P-wave time to get the S-P interval. This interval is used at three or more seismic stations to triangulate the epicenter. Students should practice reading this graph accurately under timed conditions.'
     },
     {
-      number: 26, part: 'A',
+      number: 26, image: '/images/exams/es-august-2025/q26.png', part: 'A',
       text: 'The diagram below shows the relative positions of Earth, Moon, and Sun. Which phase of the Moon would be observed from Earth when the Moon is in the position shown?',
       choices: ['new moon', 'first quarter', 'full moon', 'third quarter'],
       topic: 'Astronomy',
@@ -284,7 +280,7 @@ export default {
       diveDeep: 'Physical weathering breaks rock into smaller pieces without changing mineral composition — examples include frost wedging, exfoliation, abrasion, and root wedging. Chemical weathering changes the mineral composition through oxidation, hydrolysis, carbonation, and dissolution. Granite weathers slowly while limestone weathers rapidly by carbonation. Climate matters: chemical weathering is faster in warm, wet climates; physical weathering dominates in cold, dry climates. Cementation and compaction are lithification processes that turn sediments into sedimentary rock — the opposite of weathering.'
     },
     {
-      number: 31, part: 'B',
+      number: 31, image: '/images/exams/es-august-2025/q31.png', part: 'B',
       text: 'The table below shows data about four planets in our solar system. Based on the data, describe the relationship between a planet\'s distance from the Sun and its period of revolution.',
       choices: [],
       type: 'written',
@@ -295,7 +291,7 @@ export default {
       diveDeep: 'Kepler\'s Third Law quantifies the relationship: T² = a³ (in convenient units where T is in Earth years and a is in astronomical units). Mercury orbits in 88 days while Neptune takes 165 years. The Reference Tables list orbital periods and distances for all planets. Students should be able to state the qualitative relationship (farther = longer period) and recognize the mathematical form P² ∝ r³. This is also related to orbital speed decreasing with distance from the Sun.'
     },
     {
-      number: 32, part: 'B',
+      number: 32, image: '/images/exams/es-august-2025/q32.png', part: 'B',
       text: 'The diagram below shows a cross section of rock layers. Explain one piece of evidence from the diagram that indicates the granite intrusion formed after the surrounding sedimentary rock layers.',
       choices: [],
       type: 'written',
@@ -339,7 +335,7 @@ export default {
       diveDeep: 'The water cycle is driven by solar energy (causes evaporation) and gravity (causes precipitation and runoff). Key processes: evaporation, transpiration, condensation, precipitation, runoff, infiltration, and groundwater flow. Evapotranspiration combines both plant and surface evaporation. The oceans are the primary source of atmospheric moisture (about 85% of water vapor). Students should be able to trace a single water molecule through all possible pathways in the water cycle for constructed-response questions.'
     },
     {
-      number: 36, part: 'B',
+      number: 36, image: '/images/exams/es-august-2025/context_36_38.png', part: 'B',
       text: 'The diagram below shows a geologic cross section. Describe how scientists could use index fossils to determine the relative age of rock layer X.',
       choices: [],
       type: 'written',
@@ -383,7 +379,7 @@ export default {
       diveDeep: 'The greenhouse effect is a natural process where atmospheric gases (CO₂, water vapor, methane, nitrous oxide) absorb outgoing infrared radiation and re-emit it, warming Earth\'s surface. Without it, Earth\'s average temperature would be about -18°C instead of +15°C. The enhanced greenhouse effect, caused by increasing greenhouse gas concentrations from human activities, is causing observed global warming. Key data: CO₂ levels have risen from ~280 ppm (pre-industrial) to over 420 ppm today. Feedback loops (melting ice → less albedo → more absorption → more warming) amplify the effect.'
     },
     {
-      number: 40, part: 'C',
+      number: 40, image: '/images/exams/es-august-2025/context_39_41.png', part: 'C',
       text: 'The diagram below shows a stream cross section at two locations. Explain why the stream is eroding on the outside of the curve and depositing sediment on the inside of the curve.',
       choices: [],
       type: 'written',
@@ -394,7 +390,7 @@ export default {
       diveDeep: 'Stream meanders develop and migrate over time through this erosion-deposition process. Cut banks (outside of curves) are steep and actively eroding; point bars (inside of curves) are gently sloping and accumulating sediment. As meanders migrate laterally, they can eventually cut off loops to form oxbow lakes. Stream velocity determines whether erosion, transportation, or deposition occurs — the Hjulström diagram (not in NYS Reference Tables but conceptually important) shows the critical velocities for each process. Larger, denser particles require higher velocities to transport but settle at higher velocities too.'
     },
     {
-      number: 41, part: 'C',
+      number: 41, image: '/images/exams/es-august-2025/context_39_41.png', part: 'C',
       text: 'The table below gives data for four locations on a seismic network. Using the data, describe the procedure scientists use to determine the location of an earthquake epicenter.',
       choices: [],
       type: 'written',
@@ -438,7 +434,7 @@ export default {
       diveDeep: 'The S-wave shadow zone (between ~103° and 180° from the epicenter) was one of the key pieces of evidence that Earth has a liquid outer core. P-waves are also refracted (bent) by the liquid outer core, creating a P-wave shadow zone (103°–142°) where P-waves arrive weakly or not at all. The inner core was later inferred to be solid because P-waves travel faster through it than through the liquid outer core. These wave behaviors are powerful remote sensing tools for studying Earth\'s inaccessible interior structure.'
     },
     {
-      number: 45, part: 'C',
+      number: 45, image: '/images/exams/es-august-2025/context_45_47.png', part: 'C',
       text: 'The diagram below represents an air mass moving over a mountain range. Describe the changes in temperature and moisture content of the air mass as it rises on the windward side and descends on the leeward side. Explain why this creates different climates on each side of the mountain.',
       choices: [],
       type: 'written',
@@ -493,7 +489,7 @@ export default {
       diveDeep: 'Cold fronts move faster than warm fronts and produce more dramatic, short-lived weather. The cold, dense air mass undercuts the warm air mass, forcing it steeply upward (steep frontal slope), causing rapid condensation and intense but brief storms. Warm fronts have a gentler slope, producing gradual weather changes over wider areas and more sustained precipitation. Occluded fronts form when a fast-moving cold front overtakes a warm front. Weather maps show front symbols: triangles point in the direction of cold front movement; semicircles point in the direction of warm front movement.'
     },
     {
-      number: 50, part: 'D',
+      number: 50, image: '/images/exams/es-august-2025/context_48_50.png', part: 'D',
       text: 'The graph below shows changes in the number of sunspots over several decades. Describe the pattern of sunspot activity and explain how sunspot activity can affect Earth\'s climate.',
       choices: [],
       type: 'written',

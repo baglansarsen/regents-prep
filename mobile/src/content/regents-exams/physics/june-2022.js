@@ -13,7 +13,6 @@ export default {
       choices: ['force and acceleration', 'impulse and distance', 'mass and velocity', 'energy and time'],
       topic: 'Forces & Newton',
       correct: 3,
-      image: '/images/exams/phys-june-2022/q1.png',
       explanation: 'Energy and time are both scalar quantities — they have magnitude only, with no direction. Force, acceleration, impulse, and velocity are all vector quantities.',
       diveDeep: 'Scalars: mass (kg), energy (J), time (s), speed (m/s), temperature (°C), distance (m), power (W). Vectors: force (N), acceleration (m/s²), velocity (m/s), displacement (m), momentum (kg·m/s), impulse (N·s). Note that distance is scalar but displacement is vector; speed is scalar but velocity is vector. A common mistake is listing impulse as scalar — it has direction (same as the force that created it). Mass is always scalar. The Regents tests this classification nearly every year.'
     },
@@ -106,7 +105,6 @@ export default {
       choices: ['0.116 s', '8.64 s', '2.31 s', '46.3 s'],
       topic: 'Energy & Work',
       correct: 1,
-      image: '/images/exams/phys-june-2022/q9.png',
       explanation: 'W = F × d = 2.80 × 10⁴ × 20.0 = 5.60 × 10⁵ J. t = W/P = (5.60 × 10⁵)/(6.48 × 10⁴) ≈ 8.64 s.',
       diveDeep: 'P = W/t → t = W/P. Work done lifting = Fd = (2.80 × 10⁴ N)(20.0 m) = 5.60 × 10⁵ J. Time = W/P = 5.60 × 10⁵ / 6.48 × 10⁴ ≈ 8.64 s. The elevator is lifted at constant speed, so no net force and no extra kinetic energy change — all work goes to gravitational PE. A common mistake is using P = mv or including some factor of g twice. Always use W = Fd for work done against gravity (F here is already the weight in newtons). Checking units: J / (J/s) = s ✓.'
     },
@@ -127,7 +125,6 @@ export default {
       choices: ['photons, only', 'electrons, only', 'both photons and electrons', 'neither photons nor electrons'],
       topic: 'Modern Physics',
       correct: 2,
-      image: '/images/exams/phys-june-2022/q11.png',
       explanation: 'Both photons (light) and electrons exhibit wave-particle duality — they behave as waves in diffraction/interference experiments and as particles in photoelectric effect or collision experiments.',
       diveDeep: 'Wave-particle duality is a cornerstone of quantum mechanics. Photons show wave behavior (Young\'s double-slit experiment) and particle behavior (photoelectric effect). Electrons also show wave behavior (electron diffraction by crystals) and particle behavior (definite mass, charge, and localized collisions). de Broglie proposed that all matter has a wavelength λ = h/mv. The Regents specifically tests that both photons and electrons exhibit this duality. A common mistake is limiting wave properties to light only. All particles with momentum have an associated de Broglie wavelength, though for macroscopic objects it is immeasurably small.'
     },
@@ -158,7 +155,6 @@ export default {
       choices: ['quartered', 'doubled', 'halved', 'quadrupled'],
       topic: 'Forces & Newton',
       correct: 3,
-      image: '/images/exams/phys-june-2022/q14.png',
       explanation: "Hooke's law: F = kx, so x = F/k. Quadrupling F quadruples x (direct linear relationship).",
       diveDeep: "Hooke's law F = kx is a linear relationship between force and extension. If x is to be 4x, then F must be 4F (direct proportion). This is simpler than questions involving the square relationship of PE = ½kx². A common mistake is thinking the relationship is non-linear and choosing 'doubled.' The spring constant k remains unchanged — it is a property of the spring, not the applied force. Hooke's law is valid only within the elastic limit; beyond that, the spring deforms permanently and the linear relationship breaks down."
     },
@@ -241,7 +237,6 @@ export default {
       choices: ['diffraction', 'reflection', 'refraction', 'interference'],
       topic: 'Waves & Sound',
       correct: 0,
-      image: '/images/exams/phys-june-2022/q21.png',
       explanation: 'Diffraction is the bending and spreading of waves around obstacles or through openings, causing waves to spread into the region behind a barrier.',
       diveDeep: 'Diffraction occurs when a wave encounters an obstacle or aperture with size comparable to the wavelength. The wave bends around the edge and spreads into the geometric shadow. Diffraction is most pronounced when the wavelength ≈ the opening/obstacle size. Refraction is bending due to speed change in a new medium. Reflection is bouncing off a surface. Interference is the superposition of two or more waves. A common mistake is confusing diffraction with refraction — diffraction requires a barrier or edge, refraction requires a medium change. Radio waves diffract around buildings; light shows less visible diffraction because its wavelength is much smaller.'
     },
@@ -505,7 +500,7 @@ export default {
       diveDeep: 'Newton\'s law of gravitation: F = Gm₁m₂/r². On Earth\'s surface, r = R (Earth\'s radius). In orbit at 3R above surface, the distance from Earth\'s center = R + 3R = 4R. Force ratio: F_orbit/F_surface = (R)²/(4R)² = 1/16. So F_orbit = F/16. A common mistake is using only the altitude (3R) as the new distance, giving (1/3)² = F/9. The distance must be measured from Earth\'s center: surface is at r = R, orbit is at r = 4R. The inverse-square law: doubling distance → ¼ force; quadrupling distance → 1/16 force.'
     },
     {
-      number: 43,
+      number: 43, image: '/images/exams/phys-june-2022/q43.png',
       part: 'B-1',
       type: 'multiple-choice',
       text: 'As part of an investigation on quantization, a student measured and recorded the mass of five identical containers, each holding a different number of pennies. The masses were: 35.2 g, 64.0 g, 48.0 g, 38.4 g, and 41.6 g. Based on the data, what is the most likely mass of one penny?',
@@ -644,7 +639,7 @@ export default {
       diveDeep: 'Kinetic friction: Ff = μk × FN. On a horizontal surface: FN = W = mg = (55)(9.81) = 539 N. Solving: μk = Ff/FN = 11/539 ≈ 0.0204 ≈ 0.020. The coefficient of kinetic friction is dimensionless (N/N). μk for ice is typically 0.01–0.03, confirming this is a realistic value for ice skating. This also explains why ice skates glide so well — very low μk. A common mistake is using FN = 11 N (the friction force) instead of the weight. For horizontal surfaces, FN always equals mg. The Regents tests both the equation setup and the numerical answer.'
     },
     {
-      number: 56,
+      number: 56, image: '/images/exams/phys-june-2022/context_56_57.png',
       part: 'B-2',
       type: 'written',
       text: 'A student produces a wave in a flexible spring stretched along a tabletop by shaking one end of the spring at a frequency of 2.0 hertz. The diagram shows the wave; the spring has a total length of 4.5 meters and the wave displacement is 1.0 meter from crest to trough. Determine the amplitude of the wave produced in the spring. (Question 56)',
@@ -654,7 +649,7 @@ export default {
       diveDeep: 'Amplitude is the maximum displacement from the equilibrium (rest) position, measured to either the crest or the trough — not crest to trough. Since crest-to-trough = 2 × amplitude: A = (crest-to-trough)/2 = 1.0/2 = 0.50 m. A common mistake is stating the amplitude as 1.0 m (the full crest-to-trough distance). Wave energy ∝ A², so doubling amplitude quadruples energy. The 4.5 m spring length will be used in Question 57 for wavelength. Always distinguish between amplitude (maximum displacement from equilibrium) and the peak-to-peak height (twice the amplitude).'
     },
     {
-      number: 57,
+      number: 57, image: '/images/exams/phys-june-2022/context_56_57.png',
       part: 'B-2',
       type: 'written',
       text: 'A student produces a wave in a flexible spring stretched along a tabletop by shaking one end at a frequency of 2.0 hertz. The spring is 4.5 meters long and shows 3 complete wavelengths in the diagram. Determine the wavelength of the wave produced in the spring. (Question 57)',
@@ -745,7 +740,7 @@ export default {
       diveDeep: 'At maximum height, the vertical component of velocity = 0. Since the target is at the same height as the launch point, the trajectory is symmetric: time to max height = total time/2 = 0.80/2 = 0.40 s. Using v_y = v₀y − gt: 0 = v₀y − (9.81)(0.40) → v₀y = 3.924 ≈ 3.9 m/s. Verification: Δy = v₀y·t − ½gt² = (3.9)(0.40) − ½(9.81)(0.40)² = 1.56 − 0.7848 ≈ 0.78 m ✓. The total initial speed: v₀ = √(vx² + vy²) = √(2.5² + 3.9²) = √(6.25 + 15.21) = √21.46 ≈ 4.6 m/s.'
     },
     {
-      number: 70,
+      number: 70, image: '/images/exams/phys-june-2022/context_66_70.png',
       part: 'C',
       type: 'written',
       text: 'On the diagram in your answer booklet, draw an arrow originating at point P that represents the direction of the ball\'s acceleration at point P. Point P is the maximum height of the ball\'s trajectory. (Question 70)',
@@ -825,7 +820,7 @@ export default {
       diveDeep: 'The electromagnetic spectrum frequency ranges (approximate): Radio: < 3 × 10⁹ Hz; Microwave: 3 × 10⁹ – 3 × 10¹¹ Hz; Infrared: 3 × 10¹¹ – 4 × 10¹⁴ Hz; Visible: 4 × 10¹⁴ – 7.5 × 10¹⁴ Hz; Ultraviolet: 7.5 × 10¹⁴ – 3 × 10¹⁶ Hz; X-ray: 3 × 10¹⁶ – 3 × 10¹⁹ Hz; Gamma: > 3 × 10¹⁹ Hz. Since 5.16 × 10¹⁴ Hz falls between 4 × 10¹⁴ and 7.5 × 10¹⁴ Hz, it is visible light. Mercury lamps emit several visible wavelengths (violet, blue, green, yellow) plus UV — this particular line is in the visible range. The Regents reference table includes the electromagnetic spectrum with wavelength/frequency ranges.'
     },
     {
-      number: 81,
+      number: 81, image: '/images/exams/phys-june-2022/context_81_85.png',
       part: 'C',
       type: 'written',
       text: 'The diagram represents the path followed by a ray of light (f = 5.09 × 10¹⁴ Hz) as it strikes a semicircular block of fused quartz perpendicular to its curved surface, then hits the flat surface at point O. Use a protractor to determine the angle of incidence of the light ray at point O. (Question 81)',
@@ -845,7 +840,7 @@ export default {
       diveDeep: 'Snell\'s law: n₁ sin θ₁ = n₂ sin θ₂. From the Regents reference table: n_fused_quartz = 1.46 for f = 5.09 × 10¹⁴ Hz. n_air = 1.00 (air ≈ vacuum). sin θ₂ = (n₁/n₂) sin θ₁ = (1.46/1.00)(sin 40°) = 1.46 × 0.6428 ≈ 0.938. θ₂ = arcsin(0.938) ≈ 69.6° ≈ 70°. Note: sin θ₂ = 0.938 < 1, so refraction occurs (not total internal reflection). If θ_i were 43°+, sin θ₂ > 1 and light would undergo total internal reflection. The refracted ray bends away from the normal (from denser quartz to less dense air), confirming the ray speeds up as it exits.'
     },
     {
-      number: 84,
+      number: 84, image: '/images/exams/phys-june-2022/context_81_85.png',
       part: 'C',
       type: 'written',
       text: 'Starting at point O and using a protractor and ruler, draw the refracted ray at the appropriate angle of refraction on the diagram in your answer booklet. (Question 84)',

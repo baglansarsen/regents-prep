@@ -301,9 +301,7 @@ export default {
       topic: 'Functions & Relations',
       correct: 0,
       explanation: 'In an exponential model a(b)^t, the base 1.03 means the population is multiplied by 1.03 each year, equivalent to a 3% annual increase.',
-      diveDeep: 'In exponential growth/decay of the form a(b)^t, the coefficient a is the initial amount (here 5000) and the base b is the growth factor. A base greater than 1 indicates growth; b = 1.03 means 100% of the previous value plus 3% more, so a 3% increase per year. A base between 0 and 1, like 0.97, would mean a 3% decrease. Do not confuse the multiplicative factor (1.03) with an additive constant (103 people) — exponential change is percentage-based, not a fixed number per period.',
-      image: '/images/exams/alg1-june-2023/q24.png'
-    },
+      diveDeep: 'In exponential growth/decay of the form a(b)^t, the coefficient a is the initial amount (here 5000) and the base b is the growth factor. A base greater than 1 indicates growth; b = 1.03 means 100% of the previous value plus 3% more, so a 3% increase per year. A base between 0 and 1, like 0.97, would mean a 3% decrease. Do not confuse the multiplicative factor (1.03) with an additive constant (103 people) — exponential change is percentage-based, not a fixed number per period.',},
 
     // ── Part B (Part II) – 2 credits each ────────────────────────────────────
     {
@@ -355,7 +353,7 @@ export default {
       modelAnswer: 'Step 1: Square A.\n  A² = (x + 5)² = x² + 2(x)(5) + 5² = x² + 10x + 25\n\nStep 2: Add B.\n  A² + B = (x² + 10x + 25) + (x² − 18)\n\nStep 3: Combine like terms.\n  = 2x² + 10x + 7\n\nA² + B = 2x² + 10x + 7'
     },
     {
-      number: 30,
+      number: 30, image: '/images/exams/alg1-june-2023/q30.png',
       part: 'B',
       type: 'written',
       text: 'The two relations shown below are not functions.\n\nRelation I: A graph of a curve that fails the vertical line test.\nRelation II: {(−5, −2), (−4, 0), (−2, 1), (−1, 3), (−4, 4)}\n\nExplain how you could change each relation so that they each become a function.',

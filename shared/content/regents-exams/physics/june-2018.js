@@ -140,7 +140,6 @@ export default {
       choices: ['1.6 × 10⁻¹⁹ C', '6.0 C', '1.5 × 10⁻⁶ C', '6.7 × 10⁵ C'],
       topic: 'Electricity',
       correct: 2,
-      image: '/images/exams/phys-june-2018/q13.png',
       explanation: 'E = F/q, so q = F/E = (3.0 × 10⁻³ N) / (2.0 × 10³ N/C) = 1.5 × 10⁻⁶ C.',
       diveDeep: 'The electric field is defined as E = F/q, where F is the force on a test charge q. Rearranging: q = F/E. Here q = 3.0 × 10⁻³ / 2.0 × 10³ = 1.5 × 10⁻⁶ C = 1.5 μC. A common mistake is inverting the formula to get q = E/F, giving 6.7 × 10⁵ C — an unrealistically large charge. Choice A (1.6 × 10⁻¹⁹ C) is the elementary charge — a distractor for students who recognize that unit of charge without doing the calculation. Always verify the answer has reasonable magnitude for macroscopic charges (μC range is typical).'
     },
@@ -162,7 +161,6 @@ export default {
       choices: ['2.0 × 10¹ W', '2.0 × 10³ W', '2.0 × 10² W', '2.0 × 10⁴ W'],
       topic: 'Energy & Work',
       correct: 2,
-      image: '/images/exams/phys-june-2018/q15.png',
       explanation: 'P = W/t = (2.0 × 10³ J) / (10. s) = 2.0 × 10² W = 200 W.',
       diveDeep: 'Power P = W/t = E/t measures the rate of energy transfer. Here P = 2000/10 = 200 W = 2.0 × 10² W. A common mistake is performing the division incorrectly with scientific notation: 10³/10¹ = 10², so the coefficient stays 2.0. Choice A (2.0 × 10¹) comes from dividing by 100 instead of 10. Choice D (2.0 × 10⁴) comes from multiplying instead of dividing. Checking units: J/s = W ✓. 200 W is approximately the power of a human running — reasonable for a small engine acceleration.'
     },
@@ -173,7 +171,6 @@ export default {
       choices: ['gravitational and magnetic', 'electrostatic and gravitational', 'magnetic and electrostatic', 'gravitational, magnetic, and electrostatic'],
       topic: 'Forces & Newton',
       correct: 2,
-      image: '/images/exams/phys-june-2018/q16.png',
       explanation: 'Both magnetic and electrostatic forces can be attractive or repulsive depending on the poles or charges involved. Gravitational force is always attractive.',
       diveDeep: 'Gravity is always attractive because there is no negative mass. Electrostatic force: like charges repel, unlike charges attract. Magnetic force: like poles repel, unlike poles attract. So magnetic and electrostatic forces can be either attractive or repulsive. Choice D includes gravity, which is always attractive — making D incorrect. This concept pairs with Regents questions about the fundamental forces. Note that the strong nuclear force is always attractive at nuclear distances, while the weak force mediates certain particle decays.'
     },

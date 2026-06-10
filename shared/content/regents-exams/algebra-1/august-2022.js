@@ -177,7 +177,6 @@ export default {
       choices: ['I and II, only', 'II and III, only', 'I and III, only', 'I, II, and III'],
       topic: 'Linear Equations & Inequalities',
       correct: 0,
-      image: '/images/exams/alg1-august-2022/q17.png',
       explanation: 'Equations I and II both solve to x = 6.5 (= 13/2), while equation III solves to x = −3, so only I and II share a solution.',
       diveDeep: 'To compare equations, solve each one separately and check which produce identical solutions. Equation I: 10(x − 5) = 15 → x − 5 = 1.5 → x = 6.5. Equation II: 4 + 2(x − 2) = 9 → 2x = 9 → x = 4.5… (verify by distributing carefully). The key skill is clean, step-by-step solving—distribute, combine like terms, then isolate x—and never assume two equations match just because they look similar.'
     },
@@ -223,7 +222,6 @@ export default {
       ],
       topic: 'Linear Equations & Inequalities',
       correct: 1,
-      image: '/images/exams/alg1-august-2022/q21.png',
       explanation: 'Dimensional analysis must cancel units correctly: minutes→hours, meters→feet (×3.281 ft per 1 m), feet→miles, leaving miles per hour.',
       diveDeep: 'Unit conversion (dimensional analysis) works by multiplying by fractions equal to 1, arranged so unwanted units cancel diagonally. To turn meters into feet, the meters must be in the denominator of the conversion factor (3.281 ft / 1 m), so meters cancel. Likewise minutes cancel with (60 min / 1 hr) and feet cancel with (1 mi / 5280 ft). Setting the factor upside down (1 m / 3.281 ft) would fail to cancel, which eliminates the other choices.'
     },

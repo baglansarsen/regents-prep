@@ -13,7 +13,6 @@ export default {
       choices: ['∠1 ≅ ∠8', '∠2 ≅ ∠8', '∠3 ≅ ∠5 are supplementary', '∠4 and ∠5 are supplementary'],
       topic: 'Parallel Lines & Angles',
       correct: 3,
-      image: '/images/exams/geo-august-2023/q1.png',
       explanation: 'When a transversal crosses two parallel lines, same-side interior angles (co-interior angles) are supplementary, so ∠4 and ∠5 sum to 180°.',
       diveDeep: 'Parallel-line angle relationships fall into a few families: corresponding angles are equal, alternate interior/exterior angles are equal, and same-side (consecutive) interior angles are supplementary. The classic trap is assuming any two angles are equal — only specific positional pairs are congruent. Sketch the "F," "Z," and "C" shapes formed by the transversal to identify corresponding, alternate, and co-interior pairs respectively. Always confirm the lines are actually parallel before applying these theorems.'
     },
@@ -35,7 +34,6 @@ export default {
       choices: ['35°', '45°', '55°', '70°'],
       topic: 'Circles',
       correct: 2,
-      image: '/images/exams/geo-august-2023/q3.png',
       explanation: 'An angle inscribed in a semicircle is a right angle, so ∠ACB = 90°; the remaining angle ∠ABC = 180° − 90° − 35° = 55°.',
       diveDeep: 'Thales\' theorem states that any inscribed angle subtending a diameter measures 90°, which is one of the most frequently used circle facts on the Regents. Once you spot a diameter and an inscribed angle, you instantly have a right triangle and can use the fact that the acute angles sum to 90°. A common trap is forgetting the angle is 90° and instead trying to use the inscribed-angle-equals-half-arc rule directly. Look for the word "diameter" — it almost always signals a right angle.'
     },
@@ -248,7 +246,7 @@ export default {
       diveDeep: 'Dilations preserve angle measure (the image is similar, not necessarily congruent) but scale every length by the factor k. With k = 0.5 the image is half the size, so each pre-image length is twice the corresponding image length. The trap answers alter the angle measures, which never change under dilation, or invert the length relationship. Be precise about direction: "image is half" means the original is double — rearrange T′A′ = 0.5·TA carefully to avoid flipping the ratio.'
     },
     {
-      number: 24,
+      number: 24, image: '/images/exams/geo-august-2023/q24.png',
       part: 'A',
       text: 'In the diagram of △ABC, X and Y are points on AB and AC, respectively, such that m∠AYX = m∠B. Which statement is not always true?',
       choices: ['AC/AX = CB/XY', '(AY)(CB) = (XY)(AB)', 'AB/AY = AC/AX', '(AY)(AB) = (AC)(AX)'],

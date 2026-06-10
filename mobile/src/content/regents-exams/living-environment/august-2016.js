@@ -304,7 +304,7 @@ export default {
       diveDeep: 'The first trimester is the period of organogenesis — when major organs are laid down from embryonic layers. Harm during this period can affect the heart, brain, limbs, and other systems. By the third trimester, organs are mostly formed and growth/maturation is occurring, so damage tends to affect organ size/function rather than structure. Meiosis (choice 3) produces gametes before fertilization — no embryo exists yet. This concept explains why pregnant women are advised to avoid alcohol, certain drugs, and infections especially in the first trimester.',
     },
     {
-      number: 22, part: 'A',
+      number: 22, image: '/images/exams/le-august-2016/q22.png', part: 'A',
       text: 'The human female reproductive system is represented below. Within which structure does the placenta normally develop?',
       choices: [
         'A',
@@ -506,7 +506,7 @@ export default {
       modelAnswer: 'The plants grown without fertilizer serve as the control group. They establish a baseline for normal plant growth under identical conditions except for the fertilizer. By comparing the growth of the control group (no fertilizer) to the experimental group (with fertilizer), the student can determine whether the fertilizer had any effect on plant growth. Without a control group, the student could not determine whether observed differences were caused by the fertilizer or by some other factor.',
     },
     {
-      number: 36, part: 'B-1',
+      number: 36, image: '/images/exams/le-august-2016/context_35_37.png', part: 'B-1',
       text: 'The diagram shows a food web with grass, rabbits, foxes, hawks, and decomposers. If the rabbit population were to be eliminated, what would most likely happen to the fox population?',
       choices: [
         'The fox population would increase because there would be less competition.',
@@ -521,7 +521,7 @@ export default {
       modelAnswer: 'If the rabbit population were eliminated, the fox population would most likely decrease. Rabbits are an important food source for foxes. Without rabbits, foxes would have less food available, reducing their ability to survive and reproduce. As fox death rates increase and birth rates decrease, the fox population would decline. This demonstrates how populations in a food web are interdependent — changes in one population affect others throughout the food web.',
     },
     {
-      number: 37, part: 'B-1',
+      number: 37, image: '/images/exams/le-august-2016/context_35_37.png', part: 'B-1',
       text: 'A diagram shows two ecosystems: a polluted lake with few species and a clean lake with many species. Explain why the clean lake with greater biodiversity would be more resistant to a new disease that kills one fish species.',
       choices: [
         'The clean lake has more species to replace the lost fish species immediately.',
@@ -566,7 +566,7 @@ export default {
       modelAnswer: 'The plant\'s growth toward light is called phototropism, a directional growth response to a light stimulus. This behavior helps the plant maintain homeostasis because light is essential for photosynthesis — the process by which plants produce glucose from carbon dioxide and water. Without adequate light, photosynthesis would be insufficient to meet the plant\'s energy needs, disrupting homeostasis. By growing toward the light source, the plant maximizes its light absorption and therefore its capacity for photosynthesis, ensuring it can produce the food energy necessary for all its cellular processes.',
     },
     {
-      number: 40, part: 'B-1',
+      number: 40, image: '/images/exams/le-august-2016/context_40_43.png', part: 'B-1',
       text: 'Based on the information below, explain how human activities are contributing to the decline of coral reef ecosystems. (Note: Coral reefs house 25% of all marine species. Increasing ocean temperatures cause coral bleaching. Ocean acidification from CO₂ dissolving in seawater weakens coral skeletons.)',
       choices: [
         'Human activities are helping coral reefs by adding nutrients to the ocean.',

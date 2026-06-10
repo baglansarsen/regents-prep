@@ -18,7 +18,7 @@ export default {
       diveDeep: 'A dilation centered at the origin multiplies every coordinate by the scale factor k. Here k = 4/2 = 2 (using the x-coordinates of A and A′). Applying k = 2 to B(2,4) gives B′(4,8). Always verify the scale factor using both x and y coordinates to avoid errors. A common mistake is using a scale factor of 3 (confusing with C(4,3)). Dilations from the origin are the simplest case; for dilations from other centers, translate, dilate, then translate back.'
     },
     {
-      number: 2,
+      number: 2, image: '/images/exams/geo-june-2022/q2.png',
       part: 'A',
       text: 'In the diagram below, a plane intersects a square pyramid parallel to its base. Which two-dimensional shape describes this cross section?',
       choices: ['circle', 'triangle', 'square', 'pentagon'],
@@ -28,7 +28,7 @@ export default {
       diveDeep: 'Cross sections of pyramids parallel to the base are always similar to the base. A square pyramid has a square base, so a parallel cross section is a square. If you cut a cone parallel to its circular base you get a circle; if you cut a triangular pyramid (tetrahedron) parallel to its base you get a triangle. Cutting perpendicular to the base of a square pyramid produces a triangle or rectangle depending on the orientation. Cross-section visualization is a key 3D Geometry skill on the Regents.'
     },
     {
-      number: 3,
+      number: 3, image: '/images/exams/geo-june-2022/q3.png',
       part: 'A',
       text: 'In the diagram, △CDE is the image of △CAB after a dilation centered at C with ratio DE/AB. Which statement is always true?',
       choices: ['sin A = DE/CD', 'sin A = DE/CE', 'cos A = DE/CD', 'cos A = DE/CE'],
@@ -44,7 +44,6 @@ export default {
       choices: ['72°', '144°', '108°', '360°'],
       topic: 'Congruence & Transformations',
       correct: 0,
-      image: '/images/exams/geo-june-2022/q4.png',
       explanation: 'A regular pentagon has 5-fold rotational symmetry. The minimum rotation angle is 360°/5 = 72°.',
       diveDeep: 'A regular n-gon maps onto itself under rotations of 360°/n, 2(360°/n), 3(360°/n), … For a regular pentagon (n = 5), the minimum is 360°/5 = 72°. A regular hexagon needs 60°, a square needs 90°, an equilateral triangle needs 120°. This concept connects to symmetry: the number of rotational symmetries equals the number of sides. A common mistake is dividing 360° by the interior angle (108°) instead of the number of sides.'
     },
@@ -75,7 +74,7 @@ export default {
       diveDeep: 'The co-function identity states: sin θ = cos(90° − θ). In a right triangle with right angle at M, angles T and R are complementary (T + R = 90°). Therefore sin T = cos(90° − T) = cos R. Similarly cos T = sin R. Note that sin M = sin 90° = 1, so choice A gives sin M = cos T → 1 = cos T, which is only true if T = 0°, not always true. The co-function relationship is one of the most tested trig identities in Regents Geometry.'
     },
     {
-      number: 7,
+      number: 7, image: '/images/exams/geo-june-2022/q7.png',
       part: 'A',
       text: 'In the diagram of quadrilateral ABCD, AE = DE and BE = CE. Which statement is always true?',
       choices: ['EB = EC', '∠EBA = ∠ECD', 'AC = DB', '∠EAC = ∠EDB'],
@@ -100,7 +99,7 @@ export default {
       diveDeep: 'When a right triangle is rotated about one of its legs, the other leg sweeps out the circular base of a cone, and the hypotenuse sweeps out the lateral surface. The axis of rotation becomes the height of the cone. Here AC is the axis; if AC = 8, then BC = 15 is the radius. If the rotation were about BC, the radius would be 8 and height 15. The slant height of the cone equals the hypotenuse: √(8² + 15²) = √(64 + 225) = √289 = 17. This is a classic 8-15-17 Pythagorean triple.'
     },
     {
-      number: 9,
+      number: 9, image: '/images/exams/geo-june-2022/q9.png',
       part: 'A',
       text: 'In the diagram, lines k and ℓ intersect lines m and n at points A, B, C, and D. Which statement is sufficient to prove ABCD is a parallelogram?',
       choices: ['∠1 ≅ ∠3', '∠2 ≅ ∠5 and ∠5 ≅ ∠7', '∠4 ≅ ∠7', '∠1 ≅ ∠3 and ∠3 ≅ ∠4'],
@@ -125,7 +124,7 @@ export default {
       diveDeep: 'Rigid motions (translations, rotations, reflections) preserve all distances. Choice A is a translation (right 2). Choice C is a reflection over the line y = x (swaps coordinates). Choice D is a point reflection about (3/2, 1). Choice B multiplies x by 2 while translating y — this stretches the figure horizontally and is NOT a rigid motion. To test if a transformation preserves distance, check whether the distance formula gives the same result for image points as for pre-image points.'
     },
     {
-      number: 11,
+      number: 11, image: '/images/exams/geo-june-2022/q11.png',
       part: 'A',
       text: 'In the diagram, EF ∥ HG, EF = 5, HG = 12, FI = 1.4x + 3, and HI = 6.1x − 6.5. What is the length of HI?',
       choices: ['1', '10', '5', '55'],
@@ -176,7 +175,6 @@ export default {
       choices: ['right', 'obtuse', 'acute', 'equiangular'],
       topic: 'Angles & Lines',
       correct: 2,
-      image: '/images/exams/geo-june-2022/q15.png',
       explanation: 'An exterior angle of a triangle is supplementary to its adjacent interior angle. If the exterior angle is acute (< 90°), the adjacent interior angle is obtuse (> 90°), making the triangle obtuse.',
       diveDeep: 'Exterior angle + adjacent interior angle = 180°. If exterior angle < 90°, then interior angle > 90°, which makes the triangle obtuse (contains an angle greater than 90°). This reasoning should be quick on a multiple-choice exam. A right triangle has one 90° interior angle, meaning its exterior angle would be exactly 90°. An acute triangle has all interior angles less than 90°, meaning all exterior angles exceed 90°. So an acute exterior angle uniquely identifies an obtuse triangle.'
     },
@@ -284,7 +282,7 @@ export default {
       diveDeep: 'A dilation of a line centered at a point ON the line maps the line to itself. Every point on the line either moves along the line (closer to or farther from the center) but the image is still the same line. This is different from a dilation centered at a point NOT on the line, which maps a line to a parallel line. The slope of a line is preserved under any dilation (dilations preserve angle measures and direction). This is an important conceptual distinction frequently tested on the Regents.'
     },
     {
-      number: 24,
+      number: 24, image: '/images/exams/geo-june-2022/q24.png',
       part: 'A',
       text: 'In the diagram of circle O, tangent AB is drawn from external point B, and secant BCD is drawn through the diameter. If m∠OBA = 36° and OC = 10, what is the area of shaded sector DOE?',
       choices: ['3π/10', '10π', '3π', '15π'],
@@ -305,7 +303,7 @@ export default {
       modelAnswer: 'sin(86.03°) = 183.27 / x\nx = 183.27 / sin(86.03°)\nx = 183.27 / 0.99786...\nx ≈ 183.65 feet'
     },
     {
-      number: 26,
+      number: 26, image: '/images/exams/geo-june-2022/q26.png',
       part: 'B',
       type: 'written',
       text: 'In the diagram below, quadrilateral ABCD is inscribed in circle O, and m arc AB : m arc BC : m arc CD : m arc DA = 2 : 3 : 5 : 5. Determine and state m∠B.',
@@ -315,7 +313,7 @@ export default {
       modelAnswer: 'Total parts = 2 + 3 + 5 + 5 = 15\nEach part = 360° / 15 = 24°\nArc AB = 2(24°) = 48°\nArc BC = 3(24°) = 72°\nArc CD = 5(24°) = 120°\nArc DA = 5(24°) = 120°\nInscribed ∠B intercepts arc CDA (not containing B):\nArc CDA = 120° + 120° = 240°\nm∠B = (1/2)(240°) = 120°'
     },
     {
-      number: 27,
+      number: 27, image: '/images/exams/geo-june-2022/q27.png',
       part: 'B',
       type: 'written',
       text: 'In the diagram below, a right circular cone has a diameter of 10 and a slant height of 13. Determine and state the volume of the cone, in terms of π.',
@@ -325,7 +323,7 @@ export default {
       modelAnswer: 'Radius r = 10/2 = 5\nSlant height l = 13\nh² = l² − r² = 13² − 5² = 169 − 25 = 144\nh = 12\nVolume = (1/3)πr²h = (1/3)π(5²)(12) = (1/3)(25)(12)π = 100π'
     },
     {
-      number: 28,
+      number: 28, image: '/images/exams/geo-june-2022/q28.png',
       part: 'B',
       type: 'written',
       text: 'In the diagram below, parallelogram EFGH is mapped onto parallelogram IJKH after a reflection over line ℓ. Use the properties of rigid motions to explain why parallelogram EFGH is congruent to parallelogram IJKH.',
@@ -355,7 +353,7 @@ export default {
       modelAnswer: 'x² + y² + 6x − 6y − 63 = 0\n(x² + 6x) + (y² − 6y) = 63\nComplete the square:\n(x² + 6x + 9) + (y² − 6y + 9) = 63 + 9 + 9\n(x + 3)² + (y − 3)² = 81\n\nCenter: (−3, 3)\nRadius: r = √81 = 9'
     },
     {
-      number: 31,
+      number: 31, image: '/images/exams/geo-june-2022/q31.png',
       part: 'B',
       type: 'written',
       text: 'Use a compass and straightedge to construct a line parallel to AB through point C, shown below. [Leave all construction marks.]',

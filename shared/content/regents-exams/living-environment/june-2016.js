@@ -19,7 +19,6 @@ export default {
       text: 'Residents of a town are concerned that a recently built factory could pose health risks. Scientists were asked to investigate the effects of the factory on the health of local residents. The most relevant information they reported was that',
       choices: ['in a survey, residents felt that the air in town looks dirtier now', 'there have been reports that other types of factories have been linked with health issues', 'residents have occasionally seen smoke coming from the factory', 'local medical facilities have recently reported a 15% increase in the number of patients treated for asthma'],
       topic: 'General', correct: 3,
-      image: '/images/exams/le-june-2016/q2.png',
       explanation: 'A measurable 15% increase in asthma patients at local medical facilities is quantitative, objective evidence directly linking the factory\'s operation to a health impact on residents.',
       diveDeep: 'Scientific investigations require objective, measurable data rather than subjective observations or anecdotal reports. Residents\'s opinions ("the air looks dirtier") and occasional sightings of smoke are not quantitative data. Reports about other factories are not directly relevant to this specific factory. A documented increase in medical diagnoses is a concrete, measurable outcome that can be statistically analyzed. Evaluating the quality of evidence — distinguishing anecdote from data — is an important scientific literacy skill tested on the LE Regents.'
     },
@@ -44,7 +43,6 @@ export default {
       text: 'An individual eats a hamburger. Which two systems must interact to transfer the nutrients in the hamburger to human muscle tissue?',
       choices: ['respiratory and excretory', 'digestive and immune', 'digestive and circulatory', 'circulatory and respiratory'],
       topic: 'Cell Biology', correct: 2,
-      image: '/images/exams/le-june-2016/q5.png',
       explanation: 'The digestive system breaks down food into absorbable nutrients, and the circulatory system transports those nutrients through the bloodstream to muscle cells throughout the body.',
       diveDeep: 'Digestion begins in the mouth, continues in the stomach, and is completed in the small intestine, where nutrients are absorbed into the bloodstream. The circulatory system then carries these nutrients — glucose, amino acids, fatty acids — to all body cells, including muscle tissue. The respiratory system delivers oxygen needed for cellular respiration in those muscle cells. The immune system defends against pathogens but is not involved in nutrient transport. Understanding how body systems work together (organ system interaction) is a major LE theme.'
     },
@@ -168,7 +166,6 @@ export default {
       text: 'A dead or weakened pathogen used to establish immunity would most likely be found in',
       choices: ['a pesticide', 'a vaccine', 'an antibiotic', 'a toxin'],
       topic: 'Human Body', correct: 1,
-      image: '/images/exams/le-june-2016/q20.png',
       explanation: 'Vaccines contain dead, weakened, or inactivated forms of pathogens (or their antigens) to stimulate the immune system to produce antibodies and memory cells without causing disease.',
       diveDeep: 'When a vaccine is administered, the immune system recognizes the pathogen\'s antigens and produces specific antibodies and memory B cells. If the person is later exposed to the live pathogen, the memory cells enable a faster, stronger immune response that prevents illness. Antibiotics are chemicals that kill or inhibit bacteria; they do not involve introducing pathogens. Pesticides kill insects or other pests. Toxins are harmful substances produced by organisms. Vaccines are one of the most effective public health interventions in history, having eliminated or greatly reduced diseases like smallpox, polio, and measles.'
     },
@@ -192,7 +189,6 @@ export default {
       text: 'An individual walks out of his air-conditioned (75°F) home into the hot outside environment (85°F). His ability to adjust to this changing environment involves a mechanism similar to',
       choices: ['the regulation of water loss by guard cells in plant leaves', 'the digestion of carbohydrates by enzymes', 'using ATP for the diffusion of water', 'glucose production in the pancreas'],
       topic: 'Ecology', correct: 0,
-      image: '/images/exams/le-june-2016/q23.png',
       explanation: 'Both scenarios involve a homeostatic regulatory response to an environmental change: the human sweats to cool down, while guard cells open or close to regulate water loss — both are feedback mechanisms responding to external conditions.',
       diveDeep: 'Guard cells in plant leaves surround stomata; when water is scarce or temperature is high, they close to prevent excessive water loss (transpiration). Similarly, when a human moves to a hotter environment, sweat glands activate and blood vessels dilate to cool the body. Both responses are homeostatic feedback mechanisms — detecting an environmental change and responding to maintain internal stability. Enzyme digestion of carbohydrates is a metabolic process, not a homeostatic feedback response. ATP is used in active transport, not in the passive diffusion of water. The pancreas regulates blood glucose, not temperature.'
     },
@@ -201,7 +197,6 @@ export default {
       text: 'Nonrenewable resources are',
       choices: ['not finite and are not depleted over time', 'not finite and are depleted over time', 'finite and are not depleted over time', 'finite and are depleted over time'],
       topic: 'General', correct: 3,
-      image: '/images/exams/le-june-2016/q24.png',
       explanation: 'Nonrenewable resources like fossil fuels are finite (exist in limited amounts on Earth) and are depleted as they are used because they form over millions of years and cannot be replenished on human timescales.',
       diveDeep: 'Nonrenewable resources include coal, oil, natural gas, and most mineral ores. They formed from geological processes over millions of years and exist in fixed quantities. Once consumed, they cannot be replaced within a human lifetime. Renewable resources, like solar energy, wind, and water, are continuously replenished by natural processes. The unsustainable rate of consumption of nonrenewable resources is a driving concern behind energy policy and environmental science. Understanding the distinction between renewable and nonrenewable resources is a fundamental LE ecology concept.'
     },

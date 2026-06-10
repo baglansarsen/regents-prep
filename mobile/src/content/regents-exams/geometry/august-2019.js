@@ -40,7 +40,7 @@ export default {
       diveDeep: "The orthocenter location depends on triangle type: inside for acute, outside for obtuse, and exactly on the right-angle vertex for right triangles. In a right triangle, the altitude from the right angle to the hypotenuse is the third altitude, and all three altitudes converge at the right-angle vertex. Knowing orthocenter location for all three triangle types is a standard Regents topic."
     },
     {
-      number: 5, part: 'A',
+      number: 5, image: '/images/exams/geo-august-2019/q5.png', part: 'A',
       text: 'In the diagram below of △ACD, DB is a median to AC, and AB ≅ DB. If m∠DAB = 32°, what is m∠BDC?',
       choices: ['32°', '58°', '52°', '64°'],
       topic: 'Triangles & Congruence', correct: 3,
@@ -56,7 +56,7 @@ export default {
       diveDeep: "Completing the square converts general form to standard form. Half the x-coefficient is 4 (square: 16); half the y-coefficient is 3 (square: 9). Add both to both sides. The radius is √(right side), NOT the right side itself — confusing r² with r is the most common error. Signs in the center: (x−4)² → center x = +4; (y+3)² → center y = −3. The center coordinates always have the opposite sign from what appears in the parentheses."
     },
     {
-      number: 7, part: 'A',
+      number: 7, image: '/images/exams/geo-august-2019/q7.png', part: 'A',
       text: 'In the diagram below of parallelogram ABCD, AFGB is a straight line, CF bisects ∠DCB, DG bisects ∠ADC, and CF and DG intersect at E. If m∠B = 75°, then the measure of ∠EFA is',
       choices: ['142.5°', '52.5°', '127.5°', '37.5°'],
       topic: 'Triangles & Congruence', correct: 1,
@@ -129,7 +129,7 @@ export default {
       diveDeep: "Angle of elevation problems use tan(angle) = opposite/adjacent = (height above the observer's eye)/(horizontal distance). Always add the observer's eye height to find the full object height from the ground — omitting this step is the most common mistake. Sketch a right triangle labeling the 8-ft adjacent side, the unknown opposite side (rise from eye to treetop), and the angle of elevation. Then add 1.5 ft to the computed height."
     },
     {
-      number: 16, part: 'A',
+      number: 16, image: '/images/exams/geo-august-2019/q16.png', part: 'A',
       text: 'In the diagram below of right triangle ABC, altitude CD is drawn to hypotenuse AB at D. Which equation is always true?',
       choices: ['AD/AC = CD/BC', 'AC/CD = BC/CD', 'AD/CD = BD/CD', 'AD/AC = AC/BD'],
       topic: 'Triangles & Congruence', correct: 0,
@@ -137,7 +137,7 @@ export default {
       diveDeep: "When an altitude is drawn from the right angle to the hypotenuse, three similar triangles are formed: △ABC ∼ △ACD ∼ △CBD. Match the right angles and then the shared acute angles to set up correct correspondences. The geometric mean relationships are: altitude² = (product of hypotenuse segments), each leg² = (hypotenuse)(adjacent segment). Writing all three similarity statements first prevents proportion errors."
     },
     {
-      number: 17, part: 'A',
+      number: 17, image: '/images/exams/geo-august-2019/q17.png', part: 'A',
       text: 'A countertop for a kitchen is modeled with the dimensions shown below. An 18-inch by 21-inch rectangle will be removed for the installation of the sink. What is the area of the top of the installed countertop, to the nearest square foot?',
       choices: ['14 ft²', '16 ft²', '15 ft²', '19 ft²'],
       topic: 'Area & Volume', correct: 3,
@@ -145,7 +145,7 @@ export default {
       diveDeep: "Composite area problems: calculate total area and subtract removed regions. Unit conversion is critical: 1 ft² = 144 in², so divide square inches by 144 to convert. Always confirm that all dimensions are in the same unit before multiplying. On the Regents, the diagram dimensions are essential; without the full diagram, assume the countertop dimensions are given in feet and the sink cutout in inches, requiring conversion."
     },
     {
-      number: 18, part: 'A',
+      number: 18, image: '/images/exams/geo-august-2019/q18.png', part: 'A',
       text: 'In the diagram below, BC connects points B and C on the congruent sides of isosceles triangle ADE, such that △ABC is isosceles with vertex angle A. If AB = 10, BD = 5, and DE = 12, what is the length of BC?',
       choices: ['6', '8', '7', '9'],
       topic: 'Triangles & Congruence', correct: 1,
@@ -169,7 +169,7 @@ export default {
       diveDeep: "The geometric mean (leg) theorem: each leg is the geometric mean of the hypotenuse and the hypotenuse segment adjacent to that leg. Equation: leg² = hypotenuse × adjacent segment. Use RT² = RV × RS to find the full hypotenuse RS, then subtract the known segment RV. Students often confuse this with the altitude theorem (TV² = RV × SV). The altitude theorem uses the two segments; the leg theorem uses the full hypotenuse and one segment."
     },
     {
-      number: 21, part: 'A',
+      number: 21, image: '/images/exams/geo-august-2019/q21.png', part: 'A',
       text: 'In the diagram below, chords PQ and RS of circle O intersect at T. Which relationship must always be true?',
       choices: ['RT = TQ', 'RT + TS = PT + TQ', 'RT = TS', 'RT · TS = PT · TQ'],
       topic: 'Circles', correct: 3,
@@ -181,12 +181,12 @@ export default {
       text: 'A rhombus is graphed on the set of axes below. Which transformation would carry the rhombus onto itself?',
       choices: ['180° rotation counterclockwise about the origin', 'reflection over the line y = (1/2)x + 1', 'reflection over the line y = 0', 'reflection over the line x = 0'],
       topic: 'Transformations', correct: 3,
-      image: '/images/exams/geo-august-2019/q23.png',
+      image: '/images/exams/geo-august-2019/q22.png',
       explanation: "A rhombus has two lines of symmetry along its diagonals. If one diagonal lies along the y-axis (x = 0), reflection over x = 0 maps the rhombus onto itself.",
       diveDeep: "The symmetries of a rhombus are: 180° rotation about the center (intersection of diagonals) and reflections over each diagonal. The center of the rhombus is not necessarily the origin, so a rotation about the origin may not be a symmetry. The diagonals of a rhombus are perpendicular to each other. Always read the graph carefully to identify where the diagonals lie — their equations determine the lines of symmetry."
     },
     {
-      number: 23, part: 'A',
+      number: 23, image: '/images/exams/geo-august-2019/q23.png', part: 'A',
       text: 'In the diagram below, chords PQ and RS of circle O intersect at T. Which equation is always true?',
       choices: ['PT · TQ = RT · TS', 'PT + TQ = RT + TS', 'PT = TQ', 'RT = TS'],
       topic: 'Circles', correct: 0,
@@ -242,7 +242,7 @@ export default {
       modelAnswer: 'The construction depicted is an angle bisector construction of ∠CAB.\nBy the properties of the angle bisector construction (equal arc radii guarantee SSS congruence of the two resulting triangles), ray AD bisects ∠CAB.\nTherefore ∠CAD = ½ × ∠CAB.\nIf ∠CAB = 60°, then ∠CAD = 30°. The angle bisector creates two congruent angles by construction.'
     },
     {
-      number: 30, part: 'B', type: 'written',
+      number: 30, image: '/images/exams/geo-august-2019/q30.png', part: 'B', type: 'written',
       text: 'In the diagram of circle K, secant PLKE and tangent PZ are drawn from external point P. If arc LZ = 56°, determine and state the degree measure of angle P.',
       topic: 'Circles',
       explanation: 'For a secant and tangent from an external point: ∠P = ½(far arc − near arc). The far arc is arc EZ and the near arc is arc LZ = 56°. Since P, L, K, E are collinear and K is center, EL is a diameter so arc EL = 180°, arc EZ = 180° − 56° = 124°. Wait — arc LZ = 56°, the secant cuts at L and E; the tangent touches at Z. ∠P = ½(arc EZ − arc LZ).',
@@ -258,7 +258,7 @@ export default {
       modelAnswer: 'Diameter = 8¼ = 8.25 ft → radius r = 4.125 ft.\nWater height h = 3 − ½ = 2.5 ft.\nV = πr²h = π(4.125)²(2.5) = π(17.015625)(2.5) ≈ 133.69 ft³.\nTo the nearest cubic foot, approximately 134 cubic feet of water are needed.'
     },
     {
-      number: 32, part: 'C', type: 'written',
+      number: 32, image: '/images/exams/geo-august-2019/q32.png', part: 'C', type: 'written',
       text: 'Triangle ABC is shown below. Using a compass and straightedge, construct the dilation of △ABC centered at B with a scale factor of 2. Is the image of △ABC similar to the original triangle? Explain why.',
       topic: 'Similarity & Proof',
       explanation: 'Yes, the image △A\'BC\' is similar to △ABC. A dilation produces a similar figure — all corresponding angles are congruent and all corresponding sides are proportional (ratio 2:1).',
@@ -266,7 +266,7 @@ export default {
       modelAnswer: 'Construction: Draw ray BA and mark A\' so that BA\' = 2·BA. Draw ray BC and mark C\' so that BC\' = 2·BC. Connect A\'C\'.\nThis gives △A\'BC\' with scale factor 2 centered at B.\nYes, △A\'BC\' ~ △ABC because a dilation is a similarity transformation. It preserves all angle measures and multiplies all side lengths by the scale factor (2). Therefore all three pairs of corresponding angles are congruent and all three pairs of corresponding sides are in the ratio 2:1, satisfying the definition of similar triangles.'
     },
     {
-      number: 33, part: 'C', type: 'written',
+      number: 33, image: '/images/exams/geo-august-2019/q33.png', part: 'C', type: 'written',
       text: 'In the diagram, △ABE ≅ △CBD. Prove: △AFD ≅ △CFE.',
       topic: 'Proofs',
       explanation: 'From △ABE ≅ △CBD, corresponding parts give us AE ≅ CD, AB ≅ CB, and ∠A ≅ ∠C. Using these congruent parts, we can prove △AFD ≅ △CFE by AAS or SAS.',

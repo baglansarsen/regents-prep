@@ -531,7 +531,7 @@ export default {
       ],
       topic: 'Cell Biology',
       correct: 1,
-      image: '/images/exams/le-august-2023/q37.png',
+      image: '/images/exams/le-august-2023/context_36_37.png',
       explanation: 'The cell membrane is a phospholipid bilayer — its core is hydrophobic (fat-soluble). Small nonpolar molecules can dissolve directly into and diffuse through the lipid bilayer without needing protein channels. Examples include O₂, CO₂, and fat-soluble vitamins.',
       diveDeep: 'Membrane permeability depends on molecule size and polarity. Rules for crossing the phospholipid bilayer: (1) Small molecules cross more easily than large ones. (2) Nonpolar (hydrophobic/lipophilic) molecules dissolve in the lipid bilayer and diffuse freely through. (3) Polar molecules and ions need protein channels (facilitated diffusion) or pumps (active transport). Glucose is large and polar — needs protein carriers (choice A). Large proteins cannot cross the bilayer without specialized transport (choice C). Charged ions are hydrophilic — they are repelled by the hydrophobic lipid core and require specific channel proteins (choice D). On the Regents, membrane transport questions often test: what can cross freely (small, nonpolar) vs. what needs channels (large, polar, charged).',
     },

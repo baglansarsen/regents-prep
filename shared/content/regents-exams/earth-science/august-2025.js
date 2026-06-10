@@ -111,7 +111,6 @@ export default {
       choices: ['cross-cutting relationships', 'original horizontality', 'superposition', 'uniformitarianism'],
       topic: 'Geology',
       correct: 2,
-      image: '/images/exams/es-august-2025/q12.png',
       explanation: 'The principle of superposition states that in undisturbed rock sequences, older layers are deposited first and lie beneath younger layers.',
       diveDeep: 'Superposition was formalized by Nicolas Steno in the 17th century. It is the foundational principle of stratigraphy. The principle applies to undisturbed sequences — if layers have been overturned by tectonic activity, index fossils or cross-cutting relationships must be used to determine true age. Original horizontality states layers are deposited flat and parallel; cross-cutting relationships state that intrusions or faults are younger than the rocks they cut. Students should know all four of Steno\'s principles.'
     },
@@ -148,7 +147,6 @@ export default {
       choices: ['Massena', 'Niagara Falls', 'New York City', 'Elmira'],
       topic: 'Geology',
       correct: 3,
-      image: '/images/exams/es-august-2025/q16.png',
       explanation: 'Elmira is located in the Southern Tier of New York on Devonian-age bedrock (359–416 million years old), as shown on the Geologic Map of New York State in the Reference Tables.',
       diveDeep: 'The New York State Bedrock Geology map in the Reference Tables color-codes surface bedrock by age. Devonian rocks (359–416 Ma) underlie much of the Southern Tier including Elmira. Massena is underlain by much older Precambrian or Ordovician rocks. New York City is underlain by Precambrian metamorphic rocks. Niagara Falls sits on Silurian and Ordovician rocks. Students should practice reading the geologic map to match cities with bedrock ages — this is a common exam skill.'
     },
@@ -186,7 +184,6 @@ export default {
       choices: ['Hawaii Hot Spot', 'Tasman Hot Spot', 'Bouvet Hot Spot', 'Canary Islands Hot Spot'],
       topic: 'Plate Tectonics',
       correct: 2,
-      image: '/images/exams/es-august-2025/q20.png',
       explanation: 'The Bouvet Hot Spot is located on the Mid-Atlantic Ridge, which is a divergent plate boundary where plates are moving apart.',
       diveDeep: 'Hot spots are areas of volcanic activity caused by plumes of hot mantle material rising to the surface. They can occur at any location on a plate, not just at plate boundaries. Hawaii is on the Pacific Plate far from any boundary. The Bouvet Hot Spot lies on the mid-ocean ridge system — a divergent boundary. Iceland is another example of a hot spot sitting on a divergent boundary. Students should practice reading the Reference Tables tectonic plate map to identify boundary types (convergent, divergent, transform) and hot spot locations.'
     },
@@ -196,7 +193,6 @@ export default {
       choices: ['shape and density', 'shape and luster', 'hardness and density', 'hardness and luster'],
       topic: 'Geology',
       correct: 0,
-      image: '/images/exams/es-august-2025/q21.png',
       explanation: 'The shape and density of sediment particles determine how quickly they settle in water — rounder, denser particles settle faster.',
       diveDeep: 'Stokes\' Law describes how particles settle in a fluid: settling velocity depends on particle density, fluid density, viscosity, and particle size. Additionally, particle shape affects settling — angular particles experience more drag and settle more slowly than spherical particles of the same mass and density. Hardness and luster are mineral properties that describe scratch resistance and light reflection, not settling behavior. Students should know that larger, denser, and rounder particles settle first in fluvial or marine environments.'
     },
