@@ -21,6 +21,7 @@ import { useDoubleRP } from '../context/DoubleRPContext'
 import { useSubscription } from '../context/SubscriptionContext'
 import NudgeBanner from '../components/NudgeBanner'
 import { getEngagementNudge } from '../hooks/useEngagementNudge'
+import StreakCalendar from '../components/StreakCalendar'
 
 const AVATAR_COLORS = ['#58CC02', '#1CB0F6', '#CE82FF', '#FFC800', '#FF4B4B']
 
@@ -41,7 +42,8 @@ export default function ProfileScreen({ navigation }) {
 
   const { history }                   = useProgress(uid)
   const { rp, weeklyRP, level }       = useRP(uid)
-  const { streak, longestStreak }     = useDailyStreak(uid)
+  const { streak, longestStreak, studiedDates, frozenDates } = useDailyStreak(uid)
+  const [showStreakCal, setShowStreakCal] = useState(false)
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
   const { isSubscribed } = useSubscription()
 
@@ -210,6 +212,24 @@ export default function ProfileScreen({ navigation }) {
             </View>
           ))}
         </View>
+
+        {/* ── Streak (tap to view calendar) ── */}
+        <TouchableOpacity
+          style={[s.rowCard, cardShadow(C.shadow)]}
+          onPress={() => setShowStreakCal(true)}
+          activeOpacity={0.85}
+        >
+          <View style={s.rowLeft}>
+            <Text style={{ fontSize: 28 }}>🔥</Text>
+            <View style={{ marginLeft: 12 }}>
+              <Text style={[T.h3, { color: C.text }]}>Streak</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                {streak} day{streak === 1 ? '' : 's'} · best {longestStreak}
+              </Text>
+            </View>
+          </View>
+          <Text style={[T.body, { color: C.textMuted }]}>›</Text>
+        </TouchableOpacity>
 
         {/* Engagement nudge */}
         {!nudgeDismissed && (() => {
@@ -499,6 +519,33 @@ export default function ProfileScreen({ navigation }) {
           <View style={{ height: 24 }} />
         </Animated.View>
       </Modal>
+
+      {/* ── Streak Calendar Modal ── */}
+      <Modal
+        visible={showStreakCal}
+        transparent
+        animationType="fade"
+        onRequestClose={() => setShowStreakCal(false)}
+      >
+        <TouchableOpacity style={s.backdrop} activeOpacity={1} onPress={() => setShowStreakCal(false)} />
+        <View style={s.streakCalWrap} pointerEvents="box-none">
+          <View style={[s.streakCalCard, { backgroundColor: C.bg, borderColor: C.border }]}>
+            <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 12 }}>
+              <Text style={[T.h2, { color: C.text }]}>🔥 {streak} day{streak === 1 ? '' : 's'}</Text>
+              <TouchableOpacity onPress={() => setShowStreakCal(false)} hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}>
+                <Text style={[T.h3, { color: C.textMuted }]}>✕</Text>
+              </TouchableOpacity>
+            </View>
+            <StreakCalendar
+              studiedDates={studiedDates}
+              frozenDates={frozenDates}
+              streak={streak}
+              longestStreak={longestStreak}
+              C={C}
+            />
+          </View>
+        </View>
+      </Modal>
     </SafeAreaView>
   )
 }
@@ -559,6 +606,8 @@ function makeStyles(C) {
 
     // Time picker modal
     backdrop:  { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.45)' },
+    streakCalWrap: { ...StyleSheet.absoluteFillObject, alignItems: 'center', justifyContent: 'center', padding: 20 },
+    streakCalCard: { width: '100%', maxWidth: 420, borderRadius: 24, borderWidth: 1, padding: 20 },
     sheet: {
       position: 'absolute', bottom: 0, left: 0, right: 0,
       backgroundColor: C.bg,

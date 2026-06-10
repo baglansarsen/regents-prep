@@ -34,6 +34,7 @@ const SUBJECT_DATA = {
   'us-history':         usData,
 }
 import { T, cardShadow, duoBtn } from '../styles/duo'
+import StreakCalendar from '../components/StreakCalendar'
 
 export default function ProgressScreen({ navigation }) {
   const { C } = useTheme()
@@ -44,7 +45,7 @@ export default function ProgressScreen({ navigation }) {
   const sd = SUBJECT_DATA[subject] ?? leData
 
   const { history, masteryPct, isMastered } = useProgress(uid)
-  const { streak, weekDays, studiedToday } = useDailyStreak(uid)
+  const { streak, studiedToday, studiedDates, frozenDates, longestStreak } = useDailyStreak(uid)
   const { rp, level, spendRP } = useRP(uid)
 
   const subjectHistory = history.filter((h) => (h.subject ?? 'living-environment') === subject)
@@ -91,22 +92,13 @@ export default function ProgressScreen({ navigation }) {
             <Text style={[T.h3, { color: C.text }]}>🔥 Streak</Text>
             <Text style={[T.h2, { color: C.warn }]}>{streak} days</Text>
           </View>
-          <View style={s.weekRow}>
-            {weekDays.map((d) => (
-              <View
-                key={d.date}
-                style={[
-                  s.dayDot,
-                  d.studied && { backgroundColor: C.brand, borderColor: C.brandDark },
-                  d.isToday && { borderColor: C.brandLight, borderWidth: 2.5 },
-                ]}
-              >
-                <Text style={[T.label, { color: d.studied ? '#fff' : C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>
-                  {d.dayLabel[0]}
-                </Text>
-              </View>
-            ))}
-          </View>
+          <StreakCalendar
+            studiedDates={studiedDates}
+            frozenDates={frozenDates}
+            streak={streak}
+            longestStreak={longestStreak}
+            C={C}
+          />
           {!studiedToday && (
             <TouchableOpacity
               style={[duoBtn(C.surface2, C.border, { marginTop: 12 })]}

@@ -23,6 +23,7 @@ import { useLivesContext } from '../context/LivesContext'
 import { usePowerUps }     from '../hooks/usePowerUps'
 import { useDoubleRP }     from '../context/DoubleRPContext'
 import { T, duoBtn }       from '../styles/duo'
+import StreakCalendar      from './StreakCalendar'
 
 // ── Countdown ────────────────────────────────────────────────────────────────
 function useCountdown(isoStr) {
@@ -96,7 +97,7 @@ function PowerUpRow({ item, C, onClose }) {
 // ── Streak section ────────────────────────────────────────────────────────────
 function StreakSection({ C, onClose }) {
   const { user } = useAuthContext()
-  const { streak, freezeCount, buyFreeze, weekDays } = useDailyStreak(user?.uid)
+  const { streak, freezeCount, buyFreeze, studiedDates, frozenDates, longestStreak } = useDailyStreak(user?.uid)
   const { rp, spendRP } = useRP(user?.uid)
 
   const atMax    = freezeCount >= 2
@@ -122,22 +123,14 @@ function StreakSection({ C, onClose }) {
         <Text style={[T.body, { color: C.textMuted }]}>day streak</Text>
       </View>
 
-      <View style={ss.weekRow}>
-        {(weekDays ?? []).map((d) => (
-          <View key={d.date} style={ss.weekDay}>
-            <View style={[
-              ss.weekDot,
-              d.studied
-                ? { backgroundColor: '#58CC02', borderColor: '#46A302', borderWidth: 2 }
-                : d.isToday
-                  ? { backgroundColor: 'transparent', borderColor: '#58CC02', borderWidth: 2 }
-                  : { backgroundColor: C.surface3 },
-            ]} />
-            <Text style={[ss.weekLabel, { color: d.isToday ? C.brand : C.textMuted }]}>
-              {d.dayLabel[0]}
-            </Text>
-          </View>
-        ))}
+      <View style={{ marginBottom: 16 }}>
+        <StreakCalendar
+          studiedDates={studiedDates}
+          frozenDates={frozenDates}
+          streak={streak}
+          longestStreak={longestStreak}
+          C={C}
+        />
       </View>
 
       {/* Freeze status */}
