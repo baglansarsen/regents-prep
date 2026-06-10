@@ -1,9 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
-
-function storageKey(subject) {
-  return `@skipUnlocks_${subject ?? 'living-environment'}`
-}
+import { skipUnlocksKey as storageKey } from '../utils/storageKeys'
 
 export function useUnlocks(history, topicOrder, subject) {
   const TOPIC_ORDER = topicOrder ?? []

@@ -23,6 +23,7 @@ import { useStudyTime } from '../hooks/useStudyTime'
 import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
 import { useQuizSound } from '../hooks/useQuizSound'
 import { logActivity } from '../utils/activityLogger'
+import { skipUnlocksKey } from '../utils/storageKeys'
 import ExamImage from '../components/ExamImage'
 
 const LETTERS = ['A', 'B', 'C', 'D']
@@ -197,7 +198,7 @@ export default function QuizScreen({ route, navigation }) {
       const challengeUnlocked = isChallenge && !!nextUnitTopic && mistakes <= 3
       if (challengeUnlocked) {
         const AsyncStorage = require('@react-native-async-storage/async-storage').default
-        const key = `@skipUnlocks_${subject}`
+        const key = skipUnlocksKey(subject)
         AsyncStorage.getItem(key).then((val) => {
           const arr = val ? JSON.parse(val) : []
           if (!arr.includes(nextUnitTopic)) {

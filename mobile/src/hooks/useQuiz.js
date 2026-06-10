@@ -1,4 +1,5 @@
 import { useState, useCallback } from 'react'
+import { correctIndexOf } from '../utils/question'
 
 // Points are denominated directly in RP so the score the student watches climb
 // IS what they earn. Streak multipliers reward accuracy streaks.
@@ -35,7 +36,7 @@ export function useQuiz(questionSet) {
     (choiceIndex) => {
       if (phase !== 'answering') return
 
-      const isCorrect = choiceIndex === currentQuestion.correct
+      const isCorrect = choiceIndex === correctIndexOf(currentQuestion)
       let earned = 0
 
       if (isCorrect) {

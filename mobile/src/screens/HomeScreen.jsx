@@ -18,6 +18,7 @@ import { useLessonProgress } from '../hooks/useLessonProgress'
 import { useUnitUnlocks } from '../hooks/useUnitUnlocks'
 import { useFocusEffect } from '@react-navigation/native'
 import { localDateStr } from '../utils/localDate'
+import { shuffle } from '../utils/question'
 import { SUBJECTS } from '../content/subjects'
 import * as leData from '../content/living-environment/index'
 import * as esData from '../content/earth-science/index'
@@ -440,7 +441,7 @@ export default function HomeScreen({ navigation }) {
   function startQuiz(topic) {
     const pool = topic ? sd.getByTopic(topic) : sd.questions
     if (!pool.length) return
-    const shuffled = [...pool].sort(() => Math.random() - 0.5)
+    const shuffled = shuffle(pool)
     livesGate(() => navigation.navigate('Quiz', { questionSet: shuffled, topic, subject }))
   }
 
@@ -456,7 +457,7 @@ export default function HomeScreen({ navigation }) {
 
   function startSkipChallenge(unit, unitIdx) {
     const prev = units[unitIdx - 1]
-    const pool = sd.getByTopic(prev?.topic ?? unit.topic).sort(() => Math.random() - 0.5).slice(0, 15)
+    const pool = shuffle(sd.getByTopic(prev?.topic ?? unit.topic)).slice(0, 15)
     if (!pool.length) return
     navigation.navigate('SkipChallenge', {
       topic: unit.topic,
@@ -473,16 +474,14 @@ export default function HomeScreen({ navigation }) {
     }
     // Filter to current subject, then shuffle; fall back to all subjects if none
     const forSubject = mistakes.filter((q) => (q.subject ?? 'living-environment') === subject)
-    const pool = (forSubject.length ? forSubject : mistakes)
-      .slice(0, 50)                                  // cap at 50 questions
-      .sort(() => Math.random() - 0.5)
+    const pool = shuffle((forSubject.length ? forSubject : mistakes).slice(0, 50))  // cap at 50
     livesGate(() =>
       navigation.navigate('Quiz', { questionSet: pool, topic: null, subject, isMistakesPractice: true }),
     )
   }
 
   function startSpeedRound() {
-    const pool = [...sd.questions].sort(() => Math.random() - 0.5).slice(0, 30)
+    const pool = shuffle(sd.questions).slice(0, 30)
     if (!pool.length) return
     navigation.navigate('SpeedRound', { questionSet: pool, subject })
   }

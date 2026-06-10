@@ -3,6 +3,7 @@ import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Animated, Modal }
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { analyzeExamResults } from '../utils/topicAnalysis'
+import { shuffle } from '../utils/question'
 import { saveExamScore } from '../hooks/useExamScores'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import * as leData   from '../content/living-environment/index'
@@ -109,7 +110,7 @@ export default function ExamResultsScreen({ route, navigation }) {
       navigation.navigate('Main', { screen: 'StudyTab' })
       return
     }
-    const questionSet = [...pool].sort(() => Math.random() - 0.5).slice(0, 20)
+    const questionSet = shuffle(pool).slice(0, 20)
     navigation.navigate('Main', {
       screen: 'StudyTab',
       params: {

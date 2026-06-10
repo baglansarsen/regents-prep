@@ -21,6 +21,7 @@ import { useAuthContext } from '../context/AuthContext'
 import { useSubject } from '../context/SubjectContext'
 import { useProgress } from '../hooks/useProgress'
 import { useUnlocks } from '../hooks/useUnlocks'
+import { shuffle } from '../utils/question'
 import * as leData    from '../content/living-environment/index'
 import * as esData    from '../content/earth-science/index'
 import * as chemData  from '../content/chemistry/index'
@@ -59,8 +60,7 @@ const UNLOCK_PCT   = 80        // auto-unlock threshold
 function buildPlacementSet(topicOrder, questions, target = TARGET) {
   function pick(topic, n) {
     const pool = questions.filter((q) => q.topic === topic)
-    const arr  = [...pool].sort(() => Math.random() - 0.5)
-    return arr.slice(0, n)
+    return shuffle(pool).slice(0, n)
   }
 
   // 1. Guarantee exactly 1 question per topic (covers all topics)
@@ -69,8 +69,7 @@ function buildPlacementSet(topicOrder, questions, target = TARGET) {
     .filter(Boolean)
 
   // 2. Fill remaining slots with a 2nd question from each topic (in random order)
-  const extras = [...topicOrder]
-    .sort(() => Math.random() - 0.5)
+  const extras = shuffle(topicOrder)
     .flatMap((t) => pick(t, 2).slice(1))   // 2nd question per topic
 
   const combined = [...guaranteed, ...extras]
@@ -82,7 +81,7 @@ function buildPlacementSet(topicOrder, questions, target = TARGET) {
   })
 
   // Shuffle and cap at target
-  return [...deduped].sort(() => Math.random() - 0.5).slice(0, target)
+  return shuffle(deduped).slice(0, target)
 }
 
 // ── Score helper ─────────────────────────────────────────────────────────────

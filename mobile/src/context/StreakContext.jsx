@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { db } from '../firebase'
 import { useAuthContext } from './AuthContext'
 import { logActivity } from '../utils/activityLogger'
-import { localDateStr, daysAgoStr, yesterdayStr, twoDaysAgoStr, last7Days } from '../utils/localDate'
+import { localDateStr, daysAgoStr, yesterdayStr, last7Days } from '../utils/localDate'
 
 /**
  * StreakContext — single source of truth for the daily study streak.
@@ -25,6 +25,7 @@ import { localDateStr, daysAgoStr, yesterdayStr, twoDaysAgoStr, last7Days } from
 const AS_KEY     = '@regents_streak_v1'
 const FREEZE_KEY = '@streakFreeze_v2'   // v2: stores a count string ('0'|'1'|'2') instead of boolean
 const MAX_FREEZE = 2
+export const FREEZE_COST = 200          // RP to buy one streak freeze
 // How many days of studied/frozen history to retain — drives how far back the
 // streak calendar can render (was 60; ~180 short date strings is a few KB).
 const HISTORY_DAYS = 180
@@ -38,14 +39,34 @@ const MILESTONES = [7, 14, 30, 50, 100, 150, 200, 365, 500, 1000]
 const todayStr = localDateStr
 
 // ── Streak computation (freeze-aware) ─────────────────────────────────────────
-function computeStreak(data, freezeActive) {
-  const today = todayStr(), yesterday = yesterdayStr(), twoDaysAgo = twoDaysAgoStr()
+// Whole days between two `YYYY-MM-DD` strings (b - a), computed on local calendar
+// dates so DST shifts can't introduce a ±1 error.
+function daysBetweenStr(aStr, bStr) {
+  const [ay, am, ad] = aStr.split('-').map(Number)
+  const [by, bm, bd] = bStr.split('-').map(Number)
+  return Math.round((new Date(by, bm - 1, bd) - new Date(ay, am - 1, ad)) / 86_400_000)
+}
+
+// `freezeCount` is the number of freezes currently stored (0–2). A freeze can
+// bridge a gap of up to that many missed days, not just a single day.
+function computeStreak(data, freezeCount) {
+  const today = todayStr(), yesterday = yesterdayStr()
 
   if (data.lastDate === today)     return { streak: data.streak, studiedToday: true,  usedFreeze: false }
   if (data.lastDate === yesterday) return { streak: data.streak, studiedToday: false, usedFreeze: false }
-  // Missed exactly one day — a freeze can save the streak.
-  if (data.lastDate === twoDaysAgo && freezeActive && (data.streak ?? 0) > 0) {
-    return { streak: data.streak, studiedToday: false, usedFreeze: true, virtualDate: yesterday }
+
+  // Missed one or more days — freezes can bridge the gap if we have enough.
+  if (data.lastDate && (data.streak ?? 0) > 0) {
+    const missed = daysBetweenStr(data.lastDate, today) - 1   // days needing a freeze
+    if (missed >= 1 && missed <= freezeCount) {
+      // Fill each missed day (oldest → yesterday) with a virtual studied date.
+      const virtualDates = []
+      for (let i = missed; i >= 1; i--) virtualDates.push(daysAgoStr(i))
+      return {
+        streak: data.streak, studiedToday: false, usedFreeze: true,
+        freezesToConsume: missed, virtualDates,
+      }
+    }
   }
   // Streak broken — remember what was lost so it can be offered for repair.
   return { streak: 0, studiedToday: false, usedFreeze: false, lost: data.streak ?? 0 }
@@ -86,7 +107,7 @@ export function StreakProvider({ children }) {
       if (cancelled || !raw) return
       try {
         const cached = JSON.parse(raw)
-        const r = computeStreak(cached, false) // freeze unknown yet — conservative
+        const r = computeStreak(cached, 0) // freeze unknown yet — conservative (no bridging)
         if (!dataRef.current) {
           setStreak(r.streak)
           setStudiedToday(r.studiedToday)
@@ -122,22 +143,25 @@ export function StreakProvider({ children }) {
 
       if (studiedTodayAlready) return  // keep the just-extended state intact
 
-      const r = computeStreak(data, count > 0)
+      const r = computeStreak(data, count)
 
       if (r.usedFreeze) {
-        // Consume one freeze — record the missed day as a virtual "studied" date,
-        // and also track it in frozenDates so the calendar can mark it 🧊.
-        const next = count - 1
+        // Consume one freeze per missed day — record each as a virtual "studied"
+        // date and track it in frozenDates so the calendar can mark it 🧊.
+        const consume = r.freezesToConsume ?? 1
+        const next    = Math.max(0, count - consume)
         setFreezeCount(next)
         AsyncStorage.setItem(FREEZE_KEY, String(next)).catch(() => {})
         saveFirestoreFreeze(uid, next)
-        const updated = [...new Set([...(data.studiedDates ?? []), r.virtualDate])].slice(-HISTORY_DAYS)
-        const frozen  = [...new Set([...priorFrozen, r.virtualDate])].slice(-HISTORY_DAYS)
+        const updated = [...new Set([...(data.studiedDates ?? []), ...r.virtualDates])].slice(-HISTORY_DAYS)
+        const frozen  = [...new Set([...priorFrozen, ...r.virtualDates])].slice(-HISTORY_DAYS)
         setStudiedDates(updated)
         setFrozenDates(frozen)
-        const nd = { streak: r.streak, lastDate: r.virtualDate, studiedDates: updated, frozenDates: frozen, longestStreak: longest }
+        // lastDate becomes the most recent bridged day (yesterday).
+        const lastVirtual = r.virtualDates[r.virtualDates.length - 1]
+        const nd = { streak: r.streak, lastDate: lastVirtual, studiedDates: updated, frozenDates: frozen, longestStreak: longest }
         saveStreak(uid, nd); dataRef.current = nd
-        setPendingEvent({ type: 'freeze_used', streak: r.streak })
+        setPendingEvent({ type: 'freeze_used', streak: r.streak, daysFrozen: consume })
       } else {
         setStudiedDates(data.studiedDates ?? [])
         setFrozenDates(priorFrozen)
@@ -192,7 +216,7 @@ export function StreakProvider({ children }) {
   // ── Buy a streak freeze (costs 200 RP, max 2 stored) ────────────────────────
   const buyFreeze = useCallback(async (spendRP) => {
     if (freezeCount >= MAX_FREEZE) return 'already_have'
-    const ok = await spendRP(200)
+    const ok = await spendRP(FREEZE_COST)
     if (!ok) return 'insufficient_xp'
     const next = freezeCount + 1
     setFreezeCount(next)

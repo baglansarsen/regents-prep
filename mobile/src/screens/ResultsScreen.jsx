@@ -10,6 +10,7 @@ import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import MasteryCelebration from '../components/MasteryCelebration'
 import NudgeBanner from '../components/NudgeBanner'
 import { getEngagementNudge } from '../hooks/useEngagementNudge'
+import { shuffle } from '../utils/question'
 import * as leData   from '../content/living-environment/index'
 import * as esData   from '../content/earth-science/index'
 import * as chemData from '../content/chemistry/index'
@@ -328,7 +329,7 @@ export default function ResultsScreen({ route, navigation }) {
             <TouchableOpacity
               style={duoBtn(C.brand, C.brandDark, { flex: 1 })}
               onPress={() => navigation.replace('Quiz', {
-                questionSet: results.map((r) => r.question).sort(() => Math.random() - 0.5),
+                questionSet: shuffle(results.map((r) => r.question)),
                 topic, subject, lessonIndex,
               })}
             >

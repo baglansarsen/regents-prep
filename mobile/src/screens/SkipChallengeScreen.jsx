@@ -6,6 +6,7 @@ import {
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { T, duoBtn, cardShadow } from '../styles/duo'
+import { skipUnlocksKey } from '../utils/storageKeys'
 
 const MAX_MISTAKES = 3
 const LETTERS = ['A', 'B', 'C', 'D']
@@ -146,7 +147,7 @@ export default function SkipChallengeScreen({ route, navigation }) {
   useEffect(() => {
     if (phase !== 'done') return
     const AsyncStorage = require('@react-native-async-storage/async-storage').default
-    const key = `@skipUnlocks_${subject}`
+    const key = skipUnlocksKey(subject)
     AsyncStorage.getItem(key).then((val) => {
       const arr = val ? JSON.parse(val) : []
       if (!arr.includes(topic)) {

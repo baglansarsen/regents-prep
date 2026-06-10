@@ -14,6 +14,7 @@ import { useDailyStreak }   from './useDailyStreak'
 import { useLivesContext }  from '../context/LivesContext'
 import { useDoubleRP }      from '../context/DoubleRPContext'
 import { useSubscription }  from '../context/SubscriptionContext'
+import { FREEZE_COST }      from '../context/StreakContext'
 
 function formatTime(secs) {
   const m = Math.floor(secs / 60)
@@ -52,7 +53,7 @@ export function usePowerUps() {
         ? 'You have 2 freezes stored. Each one saves your streak if you miss a day and open the app.'
         : 'Your streak is protected for one missed day.')
     else if (result === 'insufficient_xp')
-      Alert.alert('Not enough RP', `You need 200 RP. You have ${rp} RP.`)
+      Alert.alert('Not enough RP', `You need ${FREEZE_COST} RP. You have ${rp} RP.`)
     return result
   }
 
@@ -83,12 +84,12 @@ export function usePowerUps() {
       icon:       '🧊',
       name:       'Streak Freeze',
       desc:       'Protect your streak for one missed day. Used automatically.',
-      cost:       200,
+      cost:       FREEZE_COST,
       accent:     '#38BDF8',
       dark:       '#0369A1',
       owned:      freezeCount >= 2,
       ownedLabel: freezeCount === 2 ? '🧊🧊 Full (2/2)' : `🧊 ${freezeCount}/2`,
-      canBuy:     freezeCount < 2 && rp >= 200,
+      canBuy:     freezeCount < 2 && rp >= FREEZE_COST,
       onBuy:      handleBuyFreeze,
     },
     {
