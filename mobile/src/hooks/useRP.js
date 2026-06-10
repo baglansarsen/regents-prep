@@ -25,9 +25,10 @@ export function getLevel(rp) {
   return { ...current, next, progress }
 }
 
-// ISO 8601 week key: "2026-W21" — resets every Monday
-export function getWeekKey() {
-  const d = new Date()
+// ISO 8601 week key: "2026-W21" — resets every Monday. Pass a date to get the
+// key for that date's week (defaults to now).
+export function getWeekKey(date = new Date()) {
+  const d = date
   const utc = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()))
   const day = utc.getUTCDay() || 7          // make Sunday = 7
   utc.setUTCDate(utc.getUTCDate() + 4 - day) // shift to Thursday of this ISO week
@@ -184,10 +185,15 @@ export function useRP(uid) {
     } catch {}
 
     // ── Sync to public leaderboard ────────────────────────────────────────────
+    // Mirror the SAME increment semantics as meta/xp so the leaderboard total
+    // can never drift from the authoritative total — writing the locally-derived
+    // `nextTotal` would corrupt the public number whenever rpRef still held the
+    // optimistic cache value (e.g. an earn that lands before Firestore loads).
     try {
       const lbUpdate = {
-        xp:       nextTotal,
-        weeklyXP: isNewWeek ? earned : (prevWeeklyRP + earned),
+        xp:       increment(earned),
+        // New week resets the weekly bucket to an absolute value; otherwise add.
+        weeklyXP: isNewWeek ? earned : increment(earned),
         weekKey:  week,
       }
       // On new-week: snapshot last week so useLeague can compute promotions
@@ -214,7 +220,7 @@ export function useRP(uid) {
     const next = rpRef.current - amount
     _setRP(next)
     try { await setDoc(doc(db, 'users', uid, 'meta', 'xp'), { total: increment(-amount) }, { merge: true }) } catch {}
-    try { await setDoc(doc(db, 'leaderboard', uid), { xp: next }, { merge: true }) } catch {}
+    try { await setDoc(doc(db, 'leaderboard', uid), { xp: increment(-amount) }, { merge: true }) } catch {}
     try { await AsyncStorage.setItem(AS_KEY, String(next)) } catch {}
     return true
   }, [uid])

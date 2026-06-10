@@ -12,11 +12,17 @@ const MONTHS = [
   'July', 'August', 'September', 'October', 'November', 'December',
 ]
 
+import { localDateStr } from './localDate'
+
 const pad = (n) => String(n).padStart(2, '0')
 
-/** Today as a `YYYY-MM-DD` string (same convention as StreakContext keys). */
+/**
+ * Today as a `YYYY-MM-DD` string (same convention as StreakContext keys).
+ * Local-time so the "today" ring lands on the calendar cell the user sees —
+ * monthMatrix() builds cells from local Y/M/D, so this must match.
+ */
 export function todayISO() {
-  return new Date().toISOString().slice(0, 10)
+  return localDateStr()
 }
 
 /** Shift a (year, 0-based month) by delta months. */

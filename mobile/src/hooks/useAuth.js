@@ -16,6 +16,7 @@ import { Platform } from 'react-native'
 import { auth } from '../firebase'
 import { useAuthContext } from '../context/AuthContext'
 import { deleteUserData } from '../utils/deleteUserData'
+import { clearLocalUserData } from '../utils/clearLocalUserData'
 
 // Lazy-load to avoid TurboModuleRegistry crash when native module is absent
 let _GoogleSignin = null
@@ -148,6 +149,9 @@ export function useAuth() {
   }
 
   async function logOut() {
+    // Wipe non-uid-scoped local caches first so the next account on this device
+    // doesn't paint this user's streak/RP/pet from stale storage.
+    await clearLocalUserData()
     await signOut(auth)
   }
 
@@ -184,6 +188,7 @@ export function useAuth() {
 
     // Remove Firestore data while still authenticated, then delete the auth account.
     await deleteUserData(u.uid)
+    await clearLocalUserData()
     await deleteUser(u)
   }
 

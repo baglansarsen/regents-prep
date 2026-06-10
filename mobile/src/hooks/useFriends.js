@@ -5,8 +5,16 @@ import {
 } from 'firebase/firestore'
 import { db } from '../firebase'
 
+// 6-char code from an unambiguous alphabet. The old
+// `Math.random().toString(36).substring(2, 8)` could return FEWER than 6 chars
+// (trailing zeros are dropped), producing short, collision-prone codes.
+const CODE_ALPHABET = 'ABCDEFGHIJKLMNPQRSTUVWXYZ23456789'  // no O/0/1/I
 function generateCode() {
-  return Math.random().toString(36).substring(2, 8).toUpperCase()
+  let s = ''
+  for (let i = 0; i < 6; i++) {
+    s += CODE_ALPHABET[Math.floor(Math.random() * CODE_ALPHABET.length)]
+  }
+  return s
 }
 
 export function timeAgo(ms) {
@@ -39,10 +47,24 @@ export function useFriends(uid, user) {
     const profileRef  = doc(db, 'users', uid, 'meta', 'profile')
     const profileSnap = await getDoc(profileRef)
     let code = profileSnap.exists() ? (profileSnap.data().friendCode ?? null) : null
+
     if (!code) {
-      code = generateCode()
+      // Claim a fresh, unused code. Check existence before writing so we never
+      // overwrite (and effectively steal) a code another user already owns.
+      for (let attempt = 0; attempt < 6 && !code; attempt++) {
+        const candidate = generateCode()
+        try {
+          const existing = await getDoc(doc(db, 'friendCodes', candidate))
+          if (existing.exists() && existing.data().uid !== uid) continue  // taken — retry
+          code = candidate
+        } catch {
+          code = candidate  // can't verify (offline) — accept and move on
+        }
+      }
+      if (!code) return  // give up this session rather than risk a collision
       await setDoc(profileRef, { friendCode: code }, { merge: true })
     }
+
     try {
       await setDoc(doc(db, 'friendCodes', code), {
         uid,

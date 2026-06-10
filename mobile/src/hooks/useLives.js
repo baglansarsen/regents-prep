@@ -57,6 +57,11 @@ export function useLives(uid, isSubscribed = false) {
   const refillRef = useRef(null)
   const uid_ref   = useRef(uid)
   uid_ref.current = uid
+  // loseLife has an empty dep array (stable identity), so it would otherwise
+  // capture the first `isSubscribed` value forever. A ref keeps it current so
+  // premium users stop losing hearts the moment their entitlement resolves.
+  const subRef    = useRef(isSubscribed)
+  subRef.current  = isSubscribed
 
   // ─── Load on mount ────────────────────────────────────────────────────────
   useEffect(() => {
@@ -120,7 +125,7 @@ export function useLives(uid, isSubscribed = false) {
 
   // ─── loseLife ─────────────────────────────────────────────────────────────
   const loseLife = useCallback(async () => {
-    if (isSubscribed) return  // premium users have unlimited hearts
+    if (subRef.current) return  // premium users have unlimited hearts
     if (livesRef.current <= 0) return
     const newLives = livesRef.current - 1
     const newRefill = refillRef.current ?? new Date(Date.now() + REFILL_MS).toISOString()

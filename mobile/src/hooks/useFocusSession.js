@@ -6,6 +6,7 @@ import { useState, useRef, useEffect, useCallback } from 'react'
 import { AppState } from 'react-native'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { logActivity } from '../utils/activityLogger'
+import { localDateStr } from '../utils/localDate'
 
 // ── Presets ───────────────────────────────────────────────────────────────────
 export const FOCUS_PRESETS = [
@@ -38,7 +39,7 @@ const LONG_BREAK_AFTER    = 4
 const LONG_BREAK_MIN      = 15
 
 function historyKey(uid) { return `@focusHistory_v1_${uid ?? 'anon'}` }
-function todayISO() { return new Date().toISOString().slice(0, 10) }
+function todayISO() { return localDateStr() }
 
 // ── Sound helper (graceful if expo-av not installed) ──────────────────────────
 let Audio = null
@@ -224,8 +225,10 @@ export function useFocusSession(uid, earnRP, onPomodoroComplete) {
     if (newPhase === 'focus') {
       secs = presetRef.current.study * 60
     } else {
-      // Check if this break is a long break (after 4th pomodoro)
-      const isLongBreak = pomodoroRef.current % LONG_BREAK_AFTER === 0
+      // Long break only after completing a multiple of 4 pomodoros — guard the
+      // count > 0 case so skipping the very first focus phase (count 0) gives a
+      // normal short break, not a 15-minute long one.
+      const isLongBreak = pomodoroRef.current > 0 && pomodoroRef.current % LONG_BREAK_AFTER === 0
       secs = isLongBreak ? LONG_BREAK_MIN * 60 : presetRef.current.break * 60
     }
 
@@ -360,7 +363,7 @@ export function useFocusSession(uid, earnRP, onPomodoroComplete) {
   const cyclePosition = pomodoroCount % LONG_BREAK_AFTER  // 0–3
   const totalSecs = phase === 'focus' || phase === 'paused'
     ? preset.study * 60
-    : (pomodoroCount % LONG_BREAK_AFTER === 0 ? LONG_BREAK_MIN * 60 : preset.break * 60)
+    : (pomodoroCount > 0 && pomodoroCount % LONG_BREAK_AFTER === 0 ? LONG_BREAK_MIN * 60 : preset.break * 60)
   const progress = totalSecs > 0 ? 1 - (secondsLeft / totalSecs) : 0
 
   return {

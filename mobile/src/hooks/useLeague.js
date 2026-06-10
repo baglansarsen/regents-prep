@@ -97,6 +97,9 @@ export function useLeague(uid) {
 
       let currentTier = lb.tier ?? 'bronze'
       const currentWeek = getWeekKey()
+      // The key for the week that just ended — promotions are only valid against
+      // this cohort, never an arbitrarily old one.
+      const prevWeek = getWeekKey(new Date(Date.now() - 7 * 86_400_000))
 
       // ── Bootstrap tier for brand-new users ────────────────────────────────
       if (!lb.tier) {
@@ -118,8 +121,13 @@ export function useLeague(uid) {
       }
 
       const notChecked = lb.promotionChecked !== currentWeek
+      // Only promote/demote when the snapshot is from the immediately-preceding
+      // week. A user returning after a multi-week absence has a stale lastWeekKey
+      // and would otherwise be ranked against a tiny ghost cohort (and the ≥1
+      // promotion floor would hand them a free promotion for doing nothing).
+      const snapshotIsLastWeek = lastWeekKey === prevWeek
 
-      if (lastWeekKey && notChecked) {
+      if (lastWeekKey && notChecked && snapshotIsLastWeek) {
         const outcome = await computeOutcome(
           uid, currentTier, lastWeekKey, lastWeekXP,
         )

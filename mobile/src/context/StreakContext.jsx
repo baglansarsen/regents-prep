@@ -4,6 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { db } from '../firebase'
 import { useAuthContext } from './AuthContext'
 import { logActivity } from '../utils/activityLogger'
+import { localDateStr, daysAgoStr, yesterdayStr, twoDaysAgoStr, last7Days } from '../utils/localDate'
 
 /**
  * StreakContext — single source of truth for the daily study streak.
@@ -32,11 +33,9 @@ const HISTORY_DAYS = 180
 const MILESTONES = [7, 14, 30, 50, 100, 150, 200, 365, 500, 1000]
 
 // ── Date helpers ────────────────────────────────────────────────────────────
-function todayStr() { return new Date().toISOString().slice(0, 10) }
-function daysAgoStr(n) { const d = new Date(); d.setDate(d.getDate() - n); return d.toISOString().slice(0, 10) }
-function yesterdayStr()  { return daysAgoStr(1) }
-function twoDaysAgoStr() { return daysAgoStr(2) }
-function last7Days() { return Array.from({ length: 7 }, (_, i) => daysAgoStr(6 - i)) }
+// All day boundaries are LOCAL (see utils/localDate). `todayStr` is kept as a
+// thin local alias so the rest of this file reads unchanged.
+const todayStr = localDateStr
 
 // ── Streak computation (freeze-aware) ─────────────────────────────────────────
 function computeStreak(data, freezeActive) {
@@ -104,14 +103,24 @@ export function StreakProvider({ children }) {
       const count = Math.min(MAX_FREEZE, Math.max(0, parseInt(freezeRaw ?? '0', 10) || 0))
       setFreezeCount(count)
 
+      // Race guard: if a lesson was completed while this load was in flight,
+      // markStudied() already extended the streak to today and persisted it.
+      // That in-memory state is now the freshest truth, so don't let the
+      // resolving (pre-lesson) read overwrite it and silently drop the extension.
+      const studiedTodayAlready = dataRef.current?.lastDate === todayStr()
+
       if (!data) {
-        dataRef.current = { streak: 0, lastDate: null, studiedDates: [], frozenDates: [], longestStreak: 0 }
+        if (!studiedTodayAlready) {
+          dataRef.current = { streak: 0, lastDate: null, studiedDates: [], frozenDates: [], longestStreak: 0 }
+        }
         return
       }
 
-      const longest = data.longestStreak ?? data.streak ?? 0
+      const longest = Math.max(data.longestStreak ?? data.streak ?? 0, dataRef.current?.longestStreak ?? 0)
       setLongestStreak(longest)
       const priorFrozen = data.frozenDates ?? []
+
+      if (studiedTodayAlready) return  // keep the just-extended state intact
 
       const r = computeStreak(data, count > 0)
 

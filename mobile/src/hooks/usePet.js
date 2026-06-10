@@ -7,8 +7,10 @@ import {
   FOOD_ITEMS, HAPPINESS_ITEMS, HUNGER_ALERTS, HAPPINESS_ALERTS,
 } from '../data/petConfig'
 
+import { localDateStr, localDayIndex } from '../utils/localDate'
+
 function today() {
-  return new Date().toISOString().slice(0, 10)
+  return localDateStr()
 }
 
 const AS_KEY_PET = '@petData_v1'
@@ -289,7 +291,7 @@ export function usePet(uid) {
     if (!current.petType) return null
     const pool = PET_MESSAGES[current.petType] ?? []
     if (!pool.length) return null
-    const dayIndex = Math.floor(Date.now() / 86_400_000)  // changes daily
+    const dayIndex = localDayIndex()  // changes at local midnight
 
     // When daysSince === 0 (user studied today), skip "haven't studied" templates
     // so the message stays contextually relevant.
@@ -343,7 +345,7 @@ export function usePet(uid) {
   function questKey() { return `@dailyQuest_v1_${uid_ref.current ?? 'anon'}` }
 
   const getTodayQuest = useCallback(async () => {
-    const dayIndex = Math.floor(Date.now() / 86_400_000)
+    const dayIndex = localDayIndex()
     const def      = QUEST_TYPES[dayIndex % QUEST_TYPES.length]
     let stored = null
     try { const raw = await AsyncStorage.getItem(questKey()); if (raw) stored = JSON.parse(raw) } catch {}
@@ -352,7 +354,7 @@ export function usePet(uid) {
   }, [])
 
   const updateQuestProgress = useCallback(async (action, count = 1) => {
-    const dayIndex = Math.floor(Date.now() / 86_400_000)
+    const dayIndex = localDayIndex()
     const def      = QUEST_TYPES[dayIndex % QUEST_TYPES.length]
     if (def.action !== action) return { completed: false }
     let stored = null
@@ -402,12 +404,15 @@ export function usePet(uid) {
   }, [])
 
   // ─── switchBuddy (called from PetShopScreen) ──────────────────────────────
-  const switchBuddy = useCallback(async (newPetType) => {
+  // A new buddy keeps the player's earned progression. Deriving the stage from
+  // current RP (rather than hardcoding 1) avoids a spurious "evolved!" event the
+  // next time checkAndEvolve runs and jumps the stage back up.
+  const switchBuddy = useCallback(async (newPetType, totalRP = 0) => {
     const currentName = petRef.current.name
     const newPet = {
       petType:       newPetType,
       name:          currentName,
-      stage:         1,
+      stage:         stageForRP(totalRP),
       hunger:        100,
       happiness:     100,
       lastCheckedAt: new Date().toISOString(),

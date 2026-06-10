@@ -17,6 +17,7 @@ import { useMistakes } from '../hooks/useMistakes'
 import { useLessonProgress } from '../hooks/useLessonProgress'
 import { useUnitUnlocks } from '../hooks/useUnitUnlocks'
 import { useFocusEffect } from '@react-navigation/native'
+import { localDateStr } from '../utils/localDate'
 import { SUBJECTS } from '../content/subjects'
 import * as leData from '../content/living-environment/index'
 import * as esData from '../content/earth-science/index'
@@ -99,7 +100,7 @@ export default function HomeScreen({ navigation }) {
   const { weekDays, streak, studiedToday, hasFreeze, buyFreeze } = useDailyStreak(uid)
   const { rp, earnRP, spendRP, loaded: rpLoaded } = useRP(uid)
   const { lives, maxLives, nextRefillAt, refillLives } = useLivesContext()
-  const { todaySeconds } = useStudyTime(uid, null, null)  // read-only: no session, just load persisted totals
+  const { todaySeconds, reloadTotals: reloadStudyTime } = useStudyTime(uid, null, null)  // read-only: no session, just load persisted totals
 
   const subjectHistory = useMemo(
     () => history.filter((h) => (h.subject ?? 'living-environment') === subject),
@@ -112,6 +113,7 @@ export default function HomeScreen({ navigation }) {
   useFocusEffect(useCallback(() => {
     reloadHistory()
     reloadSkipUnlocks()
+    reloadStudyTime()   // reflect study/quiz time logged on other screens
     if (pendingEvolution) navigation.navigate('PetEvolution')
 
     // Refresh quest data
@@ -187,7 +189,7 @@ export default function HomeScreen({ navigation }) {
 
     // Streak-at-risk freeze banner (show once per day if streak > 2 and no freeze)
     if (streak >= 3 && !studiedToday && !hasFreeze) {
-      const today = new Date().toISOString().slice(0, 10)
+      const today = localDateStr()
       AsyncStorage.getItem(`@streakWarnDismissed_${today}`).then((val) => {
         if (!val) setShowFreezeBanner(true)
         setBannerResolved(true)
@@ -616,7 +618,7 @@ export default function HomeScreen({ navigation }) {
               </TouchableOpacity>
               <TouchableOpacity
                 onPress={() => {
-                  const today = new Date().toISOString().slice(0, 10)
+                  const today = localDateStr()
                   AsyncStorage.setItem(`@streakWarnDismissed_${today}`, '1').catch(() => {})
                   setShowFreezeBanner(false)
                 }}

@@ -11,6 +11,7 @@ import { AppState } from 'react-native'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { doc, setDoc } from 'firebase/firestore'
 import { db } from '../firebase'
+import { localDateStr, daysAgoStr } from '../utils/localDate'
 
 // ── Constants ─────────────────────────────────────────────────────────────────
 export const MILESTONES = [
@@ -22,7 +23,7 @@ const RP_DRIP_INTERVAL = 60      // award 1 RP every 60 seconds
 const SAVE_INTERVAL    = 30      // persist to storage every 30 seconds
 
 function todayKey() {
-  return new Date().toISOString().slice(0, 10)          // 'YYYY-MM-DD'
+  return localDateStr()          // local 'YYYY-MM-DD'
 }
 
 function asKey(uid) {
@@ -59,26 +60,32 @@ export function useStudyTime(uid, earnRP, onMilestone) {
   const uidRef        = useRef(uid)
   uidRef.current = uid
 
-  // ── Load persisted data on mount / uid change ──────────────────────────────
-  useEffect(() => {
-    if (!uid) return
-    ;(async () => {
-      try {
-        const raw = await AsyncStorage.getItem(asKey(uid))
-        if (!raw) return
-        const data = JSON.parse(raw)
-        allTimeRef.current = data.allTime ?? 0
-        setAllTimeSeconds(allTimeRef.current)
+  // ── Load persisted totals from storage ─────────────────────────────────────
+  // Exposed as reloadTotals so a read-only consumer (e.g. the Home pill) can
+  // refresh on focus and reflect a session another screen just finished, instead
+  // of showing the mount-time snapshot until the app restarts.
+  const reloadTotals = useCallback(async () => {
+    const id = uidRef.current
+    if (!id) return
+    // Don't stomp a session in progress — its live counters are the truth.
+    if (intervalRef.current) return
+    try {
+      const raw = await AsyncStorage.getItem(asKey(id))
+      if (!raw) return
+      const data = JSON.parse(raw)
+      allTimeRef.current = data.allTime ?? 0
+      setAllTimeSeconds(allTimeRef.current)
 
-        // Sum today's seconds from dailyLog
-        const today = todayKey()
-        const todayEntry = (data.dailyLog ?? []).find((e) => e.date === today)
-        const todaySecs  = todayEntry ? (todayEntry.study ?? 0) + (todayEntry.quiz ?? 0) : 0
-        todayRef.current = todaySecs
-        setTodaySeconds(todaySecs)
-      } catch {}
-    })()
-  }, [uid])
+      // Sum today's seconds from dailyLog
+      const today = todayKey()
+      const todayEntry = (data.dailyLog ?? []).find((e) => e.date === today)
+      const todaySecs  = todayEntry ? (todayEntry.study ?? 0) + (todayEntry.quiz ?? 0) : 0
+      todayRef.current = todaySecs
+      setTodaySeconds(todaySecs)
+    } catch {}
+  }, [])
+
+  useEffect(() => { reloadTotals() }, [uid, reloadTotals])
 
   // ── AppState listener: pause on background ─────────────────────────────────
   useEffect(() => {
@@ -103,8 +110,8 @@ export function useStudyTime(uid, earnRP, onMilestone) {
       const today = todayKey()
       let log = data.dailyLog ?? []
 
-      // Prune to last 7 days
-      const cutoff = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10)
+      // Prune to last 7 days (local boundary)
+      const cutoff = daysAgoStr(7)
       log = log.filter((e) => e.date >= cutoff)
 
       const idx = log.findIndex((e) => e.date === today)
@@ -199,6 +206,7 @@ export function useStudyTime(uid, earnRP, onMilestone) {
   return {
     startSession,
     endSession,
+    reloadTotals,
     sessionSeconds,
     todaySeconds,
     allTimeSeconds,

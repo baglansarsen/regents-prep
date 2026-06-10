@@ -5,12 +5,14 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useFocusSession } from '../hooks/useFocusSession'
+import { localDateStr, daysAgoStr } from '../utils/localDate'
 import { T, cardShadow, elevatedCard } from '../styles/duo'
 
 function formatDate(isoDate) {
   const d = new Date(isoDate)
-  const today    = new Date().toISOString().slice(0, 10)
-  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10)
+  // Local boundaries to match how focus entries are stamped (useFocusSession).
+  const today     = localDateStr()
+  const yesterday = daysAgoStr(1)
   if (isoDate === today)     return 'Today'
   if (isoDate === yesterday) return 'Yesterday'
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })

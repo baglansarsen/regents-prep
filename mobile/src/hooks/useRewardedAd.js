@@ -45,18 +45,25 @@ export function useRewardedAd({ onReward } = {}) {
     const ad = RewardedInterstitialAd.createForAdRequest(unitId, { requestNonPersonalizedAdsOnly: !isAdTrackingGranted() })
     adRef.current = ad
 
+    let retryTimer = null
+
     const unsubLoaded = ad.addAdEventListener(RewardedAdEventType.LOADED, () => { setReady(true); setLoading(false) })
     const unsubEarned = ad.addAdEventListener(RewardedAdEventType.EARNED_REWARD, () => { onRewardRef.current?.() })
     const unsubClosed = ad.addAdEventListener(AdEventType.CLOSED, () => { setReady(false); setLoading(true); ad.load() })
     const unsubError  = ad.addAdEventListener(AdEventType.ERROR,  (err) => {
       console.warn('[AdMob Error]', err)
       setReady(false); setLoading(false)
-      setTimeout(() => { setLoading(true); ad.load() }, 30_000)
+      // Retry after a backoff. Tracked so unmount cancels it — otherwise the
+      // timer fires setState/ad.load() on a torn-down hook and chains forever.
+      retryTimer = setTimeout(() => { setLoading(true); ad.load() }, 30_000)
     })
 
     setLoading(true)
     ad.load()
-    return () => { unsubLoaded(); unsubEarned(); unsubClosed(); unsubError() }
+    return () => {
+      if (retryTimer) clearTimeout(retryTimer)
+      unsubLoaded(); unsubEarned(); unsubClosed(); unsubError()
+    }
   }, [])
 
   const showAd = useCallback(() => { if (adRef.current && ready) adRef.current.show() }, [ready])

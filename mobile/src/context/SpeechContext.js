@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+import { localDateStr, localDayIndex } from '../utils/localDate'
 
 const SpeechContext = createContext(null)
 
@@ -140,7 +141,7 @@ export function pickDailyMessage(petType, streak, daysUntilExam, subject = 'livi
   const period  = hour < 12 ? 'morning' : hour < 18 ? 'afternoon' : 'evening'
   const pool    = TEMPLATES[petType]?.[period] ?? []
   if (!pool.length) return null
-  const idx     = Math.floor(Date.now() / 86_400_000) % pool.length
+  const idx     = localDayIndex() % pool.length
   const label   = SUBJECT_LABEL[subject] ?? subject
   const hint    = SUBJECT_HINT[subject] ?? 'a practice question'
   return pool[idx]
@@ -184,7 +185,7 @@ export function useSpeechContext() {
 // Fetches (or returns cached) daily message. Call once on HomeScreen focus.
 export async function loadDailyMessage({ uid, petType, streak, daysUntilExam, subject }) {
   if (!uid) return null
-  const today = new Date().toISOString().slice(0, 10)
+  const today = localDateStr()
   const cacheKey = `${DAILY_KEY(uid)}_${subject ?? 'default'}`
   try {
     const raw = await AsyncStorage.getItem(cacheKey)

@@ -1,5 +1,6 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+import { localDateStr } from '../utils/localDate'
 
 const KEY = '@dailyGoal_v4'
 const OLD_KEY = '@dailyGoal_v3'
@@ -19,7 +20,16 @@ export function useDailyGoal(currentRP, rpLoaded = false) {
   const [loaded,     setLoaded]    = useState(false)
   const [celebrated, setCelebrated] = useState(false)
 
-  const today = new Date().toISOString().slice(0, 10)
+  const today = localDateStr()
+
+  // Track the previous RP total and which local day the baseline belongs to, so
+  // we can (a) ignore RP *spends* (buying hearts/freezes must not erase today's
+  // progress) and (b) roll the baseline over at local midnight even while the
+  // app stays mounted past midnight.
+  const lastRPRef   = useRef(null)
+  const baseDayRef  = useRef(today)
+  const goalRef     = useRef(goal)
+  goalRef.current   = goal
 
   // ── Load / migrate when rpLoaded becomes true ─────────────────────────────
   useEffect(() => {
@@ -60,9 +70,48 @@ export function useDailyGoal(currentRP, rpLoaded = false) {
       AsyncStorage.setItem(KEY, JSON.stringify({ goal: DEFAULT_GOAL, date: today, rpAtStart: currentRP, celebrated: false }))
     }
 
+    // The baseline now belongs to `today`; seed the spend/rollover tracker.
+    baseDayRef.current = today
+    lastRPRef.current  = currentRP
+
     return () => { isMounted = false }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [rpLoaded])
+
+  // ── Track RP deltas: ignore spends, roll over at local midnight ────────────
+  // Runs whenever the lifetime RP total changes (earn or spend). `currentRP`
+  // is a net total, so a spend lowers it; without compensation that would shrink
+  // today's progress. We shift the baseline down by any decrease so only genuine
+  // earnings move the goal. Also resets the baseline when the local day flips.
+  useEffect(() => {
+    if (!loaded || baseRP === null) return
+
+    // Midnight rollover while mounted: start a fresh day from the current total.
+    if (baseDayRef.current !== today) {
+      baseDayRef.current = today
+      lastRPRef.current  = currentRP
+      setBaseRP(currentRP)
+      setCelebrated(false)
+      AsyncStorage.setItem(KEY, JSON.stringify({
+        goal: goalRef.current, date: today, rpAtStart: currentRP, celebrated: false,
+      })).catch(() => {})
+      return
+    }
+
+    const prev = lastRPRef.current ?? currentRP
+    if (currentRP < prev) {
+      // A spend happened — slide the baseline down by the same amount so
+      // todayRP (= currentRP - baseRP) is unaffected by spending.
+      const spent = prev - currentRP
+      setBaseRP((b) => {
+        const nb = (b ?? currentRP) - spent
+        AsyncStorage.mergeItem(KEY, JSON.stringify({ rpAtStart: nb })).catch(() => {})
+        return nb
+      })
+    }
+    lastRPRef.current = currentRP
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentRP, today, loaded])
 
   // ── Goal setter ───────────────────────────────────────────────────────────
   const setGoal = useCallback(async (newGoal) => {

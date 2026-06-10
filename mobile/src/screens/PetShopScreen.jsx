@@ -77,7 +77,7 @@ export default function PetShopScreen({ navigation }) {
           style: 'destructive',
           onPress: async () => {
             setSwitching(true)
-            await switchBuddy(switchTarget)
+            await switchBuddy(switchTarget, rp)
             setSwitching(false)
             setSwitchTarget(null)
             Alert.alert('Buddy switched! 🎉', `${pet.name} is now a ${target?.name}. Full energy restored!`)

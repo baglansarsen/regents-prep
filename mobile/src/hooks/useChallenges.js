@@ -78,10 +78,21 @@ export function useChallenges(uid, user) {
   // Friend submits their score; winner is computed and the battle closes.
   const submitResult = useCallback(async (challenge, toScore) => {
     try {
-      const fromScore = challenge.fromScore ?? 0
+      // Re-fetch fresh and guard: only the addressee may close a still-pending
+      // battle. Prevents a double-tap / stale screen from overwriting a result.
+      const fresh = await getDoc(doc(db, 'challenges', challenge.id))
+      if (!fresh.exists()) return null
+      const data = fresh.data()
+      if (data.status !== 'pending') {
+        // Already settled — surface the recorded outcome instead of rewriting it.
+        return { winnerUid: data.winnerUid, fromScore: data.fromScore ?? 0, toScore: data.toScore ?? 0, alreadyComplete: true }
+      }
+      if (uid && data.toUid !== uid) return null
+
+      const fromScore = data.fromScore ?? 0
       let winnerUid = 'tie'
-      if (toScore > fromScore)      winnerUid = challenge.toUid
-      else if (fromScore > toScore) winnerUid = challenge.fromUid
+      if (toScore > fromScore)      winnerUid = data.toUid
+      else if (fromScore > toScore) winnerUid = data.fromUid
 
       await updateDoc(doc(db, 'challenges', challenge.id), {
         toScore,
@@ -95,7 +106,7 @@ export function useChallenges(uid, user) {
       console.error('[useChallenges] submitResult error:', e.message)
       return null
     }
-  }, [load])
+  }, [load, uid])
 
   // Fetch a single challenge fresh (responder opening one to play).
   const getChallenge = useCallback(async (challengeId) => {
