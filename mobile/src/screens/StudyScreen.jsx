@@ -182,8 +182,13 @@ export default function StudyScreen({ route, navigation, questionSet: questionSe
         showsVerticalScrollIndicator={false}
         keyboardShouldPersistTaps="handled"
       >
+        {/* Key must change on EVERY card transition so StudyCard remounts and
+            its internal `revealed` state resets. Questions have no `id`, and
+            "Still Learning" reorders the deck without changing `index` — so we
+            key on index + the review counter (`again`, bumped by Still Learning)
+            to cover both Got It (index++) and Still Learning (again++). */}
         <StudyCard
-          key={`${current?.id}-${index}`}
+          key={`${index}-${again}`}
           question={current}
           onGotIt={handleGotIt}
           onStudyMore={handleStudyMore}

@@ -16,7 +16,21 @@ export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
   // Flatten all exam questions and normalize topics once at construction time.
   const pool = exams.flatMap((exam) =>
     (exam.questions ?? [])
-      .filter((q) => topicMap[q.topic] != null)
+      // Exclude written/constructed-response questions (no choices array): the
+      // lesson UI only renders selectable choices, so a choice-less question
+      // leaves the user with no way to answer or advance. Must match the
+      // predicate in shared/content/*/units.js (parity across content copies).
+      .filter((q) => topicMap[q.topic] != null && Array.isArray(q.choices) && q.choices.length > 0)
+      .map((q) => ({ ...q, topic: topicMap[q.topic] }))
+  )
+
+  // Parallel pool of open-ended (written) questions — the inverse of the MC
+  // filter above. One of these is appended as a capstone reflection to each
+  // normal lesson (see getLessonQuestions). Require modelAnswer so the reveal
+  // always has something to show.
+  const writtenPool = exams.flatMap((exam) =>
+    (exam.questions ?? [])
+      .filter((q) => topicMap[q.topic] != null && q.type === 'written' && q.modelAnswer)
       .map((q) => ({ ...q, topic: topicMap[q.topic] }))
   )
 
@@ -49,7 +63,16 @@ export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
     const start = lessonIndex * chunkSize
     const slice = topicPool.slice(start, start + chunkSize)
 
-    return [...slice].sort(() => Math.random() - 0.5).slice(0, lessonSize)
+    const mc = [...slice].sort(() => Math.random() - 0.5).slice(0, lessonSize)
+
+    // Capstone: append exactly one open-ended question for this topic. Picked
+    // deterministically by lessonIndex so re-attempting a lesson shows the same
+    // prompt while different lessons of the unit differ. Skipped silently when
+    // the topic has no written question (keeps the lesson pure MC as before).
+    const wPool = writtenPool.filter((q) => q.topic === unitTopic)
+    const written = wPool.length ? wPool[lessonIndex % wPool.length] : null
+
+    return written ? [...mc, written] : mc
   }
 
   /**

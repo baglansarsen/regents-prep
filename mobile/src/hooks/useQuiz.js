@@ -4,6 +4,10 @@ import { useState, useCallback } from 'react'
 // IS what they earn. Streak multipliers reward accuracy streaks.
 const BASE_POINTS = 10
 
+// Flat bonus for the open-ended capstone question when the student self-assesses
+// "I got it". Not subject to streak multipliers and never affects the graded %.
+const WRITTEN_BONUS_RP = 10
+
 function streakMultiplier(streak) {
   if (streak >= 5) return 2.0
   if (streak >= 3) return 1.5
@@ -24,6 +28,8 @@ export function useQuiz(questionSet) {
   const questions = questionSet
   const currentQuestion = questions[index]
   const isLast = index === questions.length - 1
+  // Open-ended capstone question: no choices to select, so it's never auto-graded.
+  const isWritten = !!currentQuestion && currentQuestion.type === 'written'
 
   const answer = useCallback(
     (choiceIndex) => {
@@ -53,6 +59,25 @@ export function useQuiz(questionSet) {
     [phase, currentQuestion, streak],
   )
 
+  // Self-assessed result for the open-ended capstone. Records a non-graded
+  // result entry (correct: null, written: true) so the scoring path can exclude
+  // it. Deliberately does NOT touch streak, selected, or phase — the written
+  // card advances itself via next(), so it never enters 'feedback' and never
+  // trips the life-loss effect in QuizScreen.
+  const submitWritten = useCallback(
+    ({ gotIt }) => {
+      if (phase !== 'answering' || !isWritten) return
+      const earned = gotIt ? WRITTEN_BONUS_RP : 0
+      if (earned) setScore((s) => s + earned)
+      setLastEarned(earned)
+      setResults((r) => [
+        ...r,
+        { question: currentQuestion, written: true, gotIt: !!gotIt, correct: null, points: earned },
+      ])
+    },
+    [phase, isWritten, currentQuestion],
+  )
+
   const next = useCallback(() => {
     setLastEarned(0)
     if (isLast) {
@@ -76,6 +101,7 @@ export function useQuiz(questionSet) {
 
   return {
     currentQuestion,
+    isWritten,
     index,
     total: questions.length,
     score,
@@ -86,6 +112,7 @@ export function useQuiz(questionSet) {
     phase,
     results,
     answer,
+    submitWritten,
     next,
     reset,
     streakMultiplier: streakMultiplier(streak + 1),

@@ -24,6 +24,9 @@ import { logActivity } from '../utils/activityLogger'
 const AS_KEY     = '@regents_streak_v1'
 const FREEZE_KEY = '@streakFreeze_v2'   // v2: stores a count string ('0'|'1'|'2') instead of boolean
 const MAX_FREEZE = 2
+// How many days of studied/frozen history to retain — drives how far back the
+// streak calendar can render (was 60; ~180 short date strings is a few KB).
+const HISTORY_DAYS = 180
 
 // Streak lengths that earn the heightened "milestone" celebration variant.
 const MILESTONES = [7, 14, 30, 50, 100, 150, 200, 365, 500, 1000]
@@ -58,6 +61,7 @@ export function StreakProvider({ children }) {
   const [streak,        setStreak]        = useState(0)
   const [studiedToday,  setStudiedToday]  = useState(false)
   const [studiedDates,  setStudiedDates]  = useState([])
+  const [frozenDates,   setFrozenDates]   = useState([])  // days a freeze saved (calendar 🧊)
   const [freezeCount,   setFreezeCount]   = useState(0)   // 0–2 stored freezes
   const [longestStreak, setLongestStreak] = useState(0)
   const [pendingEvent,  setPendingEvent]  = useState(null)
@@ -69,7 +73,7 @@ export function StreakProvider({ children }) {
   // ── Load streak + freeze together (avoids a race) ──────────────────────────
   useEffect(() => {
     if (!uid) {
-      setStreak(0); setStudiedToday(false); setStudiedDates([])
+      setStreak(0); setStudiedToday(false); setStudiedDates([]); setFrozenDates([])
       setFreezeCount(0); setLongestStreak(0); setPendingEvent(null)
       dataRef.current = null
       return
@@ -88,6 +92,7 @@ export function StreakProvider({ children }) {
           setStreak(r.streak)
           setStudiedToday(r.studiedToday)
           setStudiedDates(cached.studiedDates ?? [])
+          setFrozenDates(cached.frozenDates ?? [])
           setLongestStreak(cached.longestStreak ?? r.streak)
           dataRef.current = cached
         }
@@ -100,29 +105,34 @@ export function StreakProvider({ children }) {
       setFreezeCount(count)
 
       if (!data) {
-        dataRef.current = { streak: 0, lastDate: null, studiedDates: [], longestStreak: 0 }
+        dataRef.current = { streak: 0, lastDate: null, studiedDates: [], frozenDates: [], longestStreak: 0 }
         return
       }
 
       const longest = data.longestStreak ?? data.streak ?? 0
       setLongestStreak(longest)
+      const priorFrozen = data.frozenDates ?? []
 
       const r = computeStreak(data, count > 0)
 
       if (r.usedFreeze) {
-        // Consume one freeze — record the missed day as a virtual "studied" date.
+        // Consume one freeze — record the missed day as a virtual "studied" date,
+        // and also track it in frozenDates so the calendar can mark it 🧊.
         const next = count - 1
         setFreezeCount(next)
         AsyncStorage.setItem(FREEZE_KEY, String(next)).catch(() => {})
         saveFirestoreFreeze(uid, next)
-        const updated = [...new Set([...(data.studiedDates ?? []), r.virtualDate])].slice(-60)
+        const updated = [...new Set([...(data.studiedDates ?? []), r.virtualDate])].slice(-HISTORY_DAYS)
+        const frozen  = [...new Set([...priorFrozen, r.virtualDate])].slice(-HISTORY_DAYS)
         setStudiedDates(updated)
-        const nd = { streak: r.streak, lastDate: r.virtualDate, studiedDates: updated, longestStreak: longest }
+        setFrozenDates(frozen)
+        const nd = { streak: r.streak, lastDate: r.virtualDate, studiedDates: updated, frozenDates: frozen, longestStreak: longest }
         saveStreak(uid, nd); dataRef.current = nd
         setPendingEvent({ type: 'freeze_used', streak: r.streak })
       } else {
         setStudiedDates(data.studiedDates ?? [])
-        dataRef.current = { streak: r.streak, lastDate: data.lastDate, studiedDates: data.studiedDates ?? [], longestStreak: longest }
+        setFrozenDates(priorFrozen)
+        dataRef.current = { streak: r.streak, lastDate: data.lastDate, studiedDates: data.studiedDates ?? [], frozenDates: priorFrozen, longestStreak: longest }
         if (r.streak === 0 && (data.streak ?? 0) > 0) {
           setPendingEvent({ type: 'broken', streak: 0, lost: r.lost })
         }
@@ -138,16 +148,18 @@ export function StreakProvider({ children }) {
   const markStudied = useCallback(() => {
     if (!uid) return
     const today = todayStr()
-    const cur = dataRef.current ?? { streak: 0, lastDate: null, studiedDates: [], longestStreak: 0 }
+    const cur = dataRef.current ?? { streak: 0, lastDate: null, studiedDates: [], frozenDates: [], longestStreak: 0 }
     if (cur.lastDate === today) return  // already extended today
 
     const next     = (cur.streak ?? 0) + 1
     const prevLong = cur.longestStreak ?? 0
-    const updated  = [...new Set([...(cur.studiedDates ?? []), today])].slice(-60)
+    const updated  = [...new Set([...(cur.studiedDates ?? []), today])].slice(-HISTORY_DAYS)
     const longest  = Math.max(prevLong, next)
     const isRecord = next > prevLong && next > 1
     const isMilestone = MILESTONES.includes(next)
-    const nd = { streak: next, lastDate: today, studiedDates: updated, longestStreak: longest }
+    // Carry frozenDates through — saveStreak is a non-merge setDoc, so omitting
+    // it would wipe the persisted freeze history.
+    const nd = { streak: next, lastDate: today, studiedDates: updated, frozenDates: cur.frozenDates ?? [], longestStreak: longest }
 
     dataRef.current = nd
     setStreak(next)
@@ -187,9 +199,9 @@ export function StreakProvider({ children }) {
     const ok = await spendRP(cost)
     if (!ok) return 'insufficient_xp'
     const yesterday = yesterdayStr()
-    const updated = [...new Set([...(dataRef.current?.studiedDates ?? []), yesterday])].slice(-60)
+    const updated = [...new Set([...(dataRef.current?.studiedDates ?? []), yesterday])].slice(-HISTORY_DAYS)
     const longest = Math.max(longestStreak, lost)
-    const nd = { streak: lost, lastDate: yesterday, studiedDates: updated, longestStreak: longest }
+    const nd = { streak: lost, lastDate: yesterday, studiedDates: updated, frozenDates: dataRef.current?.frozenDates ?? [], longestStreak: longest }
     dataRef.current = nd
     setStreak(lost); setStudiedDates(updated); setLongestStreak(longest); setStudiedToday(false)
     if (uid) saveStreak(uid, nd)
@@ -209,7 +221,7 @@ export function StreakProvider({ children }) {
   })
 
   const value = {
-    streak, studiedToday, studiedDates, weekDays, freezeCount, longestStreak,
+    streak, studiedToday, studiedDates, frozenDates, weekDays, freezeCount, longestStreak,
     hasFreeze: freezeCount > 0,   // backward compat for any consumer using hasFreeze
     pendingEvent, markStudied, clearEvent, buyFreeze, repairStreak,
     // Retained for backward compatibility; opening no longer extends the streak.

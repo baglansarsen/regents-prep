@@ -27,7 +27,10 @@ export const UNITS = [
 const LESSON_SIZE = 25
 
 function getExamsByTopic(topicIndex) {
+  // Only choice-based questions: the lesson UI can't render written/essay
+  // prompts (no choices array), which would trap the user with no way to advance.
   const totalQuestions = EXAMS.flatMap(exam => exam.questions || [])
+    .filter(q => Array.isArray(q.choices) && q.choices.length > 0)
   const questionsPerTopic = Math.ceil(totalQuestions.length / 5)
   const startIdx = topicIndex * questionsPerTopic
   const endIdx = startIdx + questionsPerTopic
