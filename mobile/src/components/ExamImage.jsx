@@ -41,7 +41,7 @@ export default function ExamImage({ path, uri, style }) {
   return (
     <View style={[style, styles.wrap]}>
       <Image
-        key={attempt}
+        key={`${resolved}#${attempt}`}
         source={{ uri: src }}
         style={styles.img}
         resizeMode="contain"
