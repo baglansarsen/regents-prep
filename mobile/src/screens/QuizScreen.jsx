@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView,
-  Animated, StyleSheet, Image,
+  Animated, StyleSheet, Image, TextInput, Keyboard,
 } from 'react-native'
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
@@ -78,9 +78,9 @@ export default function QuizScreen({ route, navigation }) {
   }, [])
 
   const {
-    currentQuestion, index, total, score, streak, bestStreak,
+    currentQuestion, isWritten, index, total, score, streak, bestStreak,
     selected, lastEarned, phase, results,
-    answer, next: nextQuestion,
+    answer, submitWritten, next: nextQuestion,
   } = useQuiz(questionSet)
 
   const slideAnim  = useRef(new Animated.Value(300)).current
@@ -177,9 +177,14 @@ export default function QuizScreen({ route, navigation }) {
   // ── Quiz done: award RP with combo bonus ──────────────────────────────────
   useEffect(() => {
     if (phase === 'done') {
-      const correct    = results.filter((r) => r.correct).length
-      const mistakes   = total - correct
-      const pct        = Math.round((correct / total) * 100)
+      // The open-ended capstone is a non-graded reflection — exclude it from
+      // every scoring computation (%, mastery, mistakes, results total) so it
+      // never drags the lesson score down or re-enters Mistakes Practice.
+      const graded     = results.filter((r) => !r.written)
+      const gradedTotal = graded.length || 1
+      const correct    = graded.filter((r) => r.correct).length
+      const mistakes   = gradedTotal - correct
+      const pct        = Math.round((correct / gradedTotal) * 100)
       // `score` already bakes in speed + streak multipliers, so it IS the RP.
       const rpEarned   = Math.round(score * rpMultiplier)
       const doubleRP   = rpMultiplier > 1
@@ -202,18 +207,19 @@ export default function QuizScreen({ route, navigation }) {
         }).catch(() => {})
       }
 
-      // Persist wrong answers for "Practice Mistakes" mode
-      const wrongQs = results.filter((r) => !r.correct).map((r) => r.question)
+      // Persist wrong answers for "Practice Mistakes" mode — graded only, so the
+      // choice-less written question is never re-queued into a MC-only mode.
+      const wrongQs = graded.filter((r) => !r.correct).map((r) => r.question)
       appendMistakes(wrongQs, subject)
 
-      saveResult({ topic, score, total, correct, pct, subject, lessonIndex })
+      saveResult({ topic, score, total: gradedTotal, correct, pct, subject, lessonIndex })
       markStudied()
       // Evolve against the authoritative post-award total, not the stale `xp` state
       earnRP(rpEarned).then((newTotal) => checkAndEvolve(newTotal ?? rp + rpEarned))
 
       // Log quiz completion activity
       logActivity(uid, 'quiz_complete', `Completed quiz: ${topic ?? subject} (${pct}%)`, {
-        topic, subject, pct, correct, total, rpEarned, mastered: firstMastery, challenge: isChallenge,
+        topic, subject, pct, correct, total: gradedTotal, rpEarned, mastered: firstMastery, challenge: isChallenge,
       })
 
       if (challengeUnlocked)   { triggerReaction('cheer');        say(`⚡ Challenge passed! Next unit unlocked 🔓`) }
@@ -227,7 +233,7 @@ export default function QuizScreen({ route, navigation }) {
       if (route.params?.isMistakesPractice) updateQuestProgress('complete_mistakes')
       const { seconds: sessionSecs } = endSession()
       navigation.replace('Results', {
-        score, total, results, bestStreak, topic, subject,
+        score, total: gradedTotal, results, bestStreak, topic, subject,
         rpEarned, doubleRP, firstMastery, masteredTopic: topic ?? null,
         lessonIndex, challengeUnlocked, unlockedTopic: nextUnitTopic ?? null,
         nextLessonMeta: nextLessonMeta ?? null,
@@ -308,7 +314,12 @@ export default function QuizScreen({ route, navigation }) {
           </View>
         </View>
 
-        <ScrollView contentContainerStyle={s.scroll} showsVerticalScrollIndicator={false}>
+        <ScrollView
+          contentContainerStyle={s.scroll}
+          showsVerticalScrollIndicator={false}
+          keyboardShouldPersistTaps="handled"
+          keyboardDismissMode="interactive"
+        >
           <Animated.View style={[s.questionCard, cardShadow(C.shadow), { transform: [{ scale: pulseAnim }] }]}>
             {currentQuestion.context ? (
               <Text style={[T.small, { color: C.textMuted, marginBottom: 8, fontStyle: 'italic', lineHeight: 18 }]}>
@@ -321,22 +332,33 @@ export default function QuizScreen({ route, navigation }) {
             <Text style={[T.h3, { color: C.text, lineHeight: 26 }]}>{currentQuestion.text}</Text>
           </Animated.View>
 
-          <View style={s.choices}>
-            {currentQuestion.choices.map((choice, idx) => (
-              <TouchableOpacity
-                key={idx}
-                style={choiceStyle(idx)}
-                onPress={() => { if (phase !== 'answering') return; hapticTick(); answer(idx) }}
-                activeOpacity={0.75}
-                disabled={phase !== 'answering'}
-              >
-                <View style={[s.letterBadge, { backgroundColor: letterBgColor(idx) }]}>
-                  <Text style={s.letterText}>{LETTERS[idx]}</Text>
-                </View>
-                <Text style={[T.body, { flex: 1, color: C.text }]}>{choice}</Text>
-              </TouchableOpacity>
-            ))}
-          </View>
+          {isWritten ? (
+            <WrittenAnswerBlock
+              key={index}
+              question={currentQuestion}
+              C={C}
+              s={s}
+              onSubmit={(gotIt) => { submitWritten({ gotIt }); nextQuestion() }}
+              isLast={index + 1 === total}
+            />
+          ) : (
+            <View style={s.choices}>
+              {currentQuestion.choices.map((choice, idx) => (
+                <TouchableOpacity
+                  key={idx}
+                  style={choiceStyle(idx)}
+                  onPress={() => { if (phase !== 'answering') return; hapticTick(); answer(idx) }}
+                  activeOpacity={0.75}
+                  disabled={phase !== 'answering'}
+                >
+                  <View style={[s.letterBadge, { backgroundColor: letterBgColor(idx) }]}>
+                    <Text style={s.letterText}>{LETTERS[idx]}</Text>
+                  </View>
+                  <Text style={[T.body, { flex: 1, color: C.text }]}>{choice}</Text>
+                </TouchableOpacity>
+              ))}
+            </View>
+          )}
 
           <View style={{ height: 200 }} />
         </ScrollView>
@@ -502,6 +524,93 @@ function ExplanationBlock({ question, C }) {
   )
 }
 
+// ── Open-ended capstone: write → reveal model answer → self-assess ────────────
+function WrittenAnswerBlock({ question, C, s, onSubmit, isLast }) {
+  const [text, setText]         = useState('')
+  const [revealed, setRevealed] = useState(false)
+
+  function reveal() {
+    Keyboard.dismiss()
+    setRevealed(true)
+  }
+
+  return (
+    <View style={s.written}>
+      {!revealed ? (
+        <>
+          <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0, marginBottom: 8 }]}>
+            ✍️ Write your answer, then reveal the model answer to check yourself.
+          </Text>
+          <TextInput
+            style={[s.writtenInput, { color: C.text, borderColor: C.border, backgroundColor: C.surface }]}
+            multiline
+            placeholder="Type your answer here…"
+            placeholderTextColor={C.textMuted}
+            value={text}
+            onChangeText={setText}
+            textAlignVertical="top"
+          />
+          <TouchableOpacity
+            style={duoBtn(C.brand, C.brandDark, { marginTop: 14 })}
+            onPress={reveal}
+            activeOpacity={0.85}
+          >
+            <Text style={[T.btn, { color: '#fff' }]}>🔍 Reveal Model Answer</Text>
+          </TouchableOpacity>
+        </>
+      ) : (
+        <>
+          {/* Student's own answer, for side-by-side comparison */}
+          {text.trim() ? (
+            <View style={[s.writtenYourAnswer, { backgroundColor: C.surface2, borderColor: C.border }]}>
+              <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0, marginBottom: 4 }]}>
+                Your answer
+              </Text>
+              <Text style={[T.body, { color: C.text, lineHeight: 22 }]}>{text.trim()}</Text>
+            </View>
+          ) : null}
+
+          {/* Model answer */}
+          <View style={[s.writtenModel, { backgroundColor: C.correctBg, borderColor: C.brand + '55', borderLeftColor: C.brand }]}>
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginBottom: 8 }}>
+              <Text style={{ fontSize: 16 }}>✅</Text>
+              <Text style={[T.label, { color: C.brand, fontSize: 13, letterSpacing: 1 }]}>MODEL ANSWER</Text>
+            </View>
+            <Text style={[T.body, { color: C.text, lineHeight: 23 }]}>{question.modelAnswer}</Text>
+          </View>
+
+          {/* Reuse explanation + Dive Deeper */}
+          {(question.explanation || question.diveDeep) ? (
+            <ExplanationBlock question={question} C={C} />
+          ) : null}
+
+          {/* Self-assessment */}
+          <Text style={[T.h3, { color: C.text, marginTop: 4, marginBottom: 10 }]}>Did you get it right?</Text>
+          <View style={{ flexDirection: 'row', gap: 12 }}>
+            <TouchableOpacity
+              style={[duoBtn(C.correct, C.brandDark, { flex: 1 })]}
+              onPress={() => onSubmit(true)}
+              activeOpacity={0.85}
+            >
+              <Text style={[T.btn, { color: '#fff' }]}>✅ I got it  +10</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={[duoBtn(C.surface2, C.border, { flex: 1 })]}
+              onPress={() => onSubmit(false)}
+              activeOpacity={0.85}
+            >
+              <Text style={[T.btn, { color: C.textMuted }]}>❌ Not quite</Text>
+            </TouchableOpacity>
+          </View>
+          <Text style={[T.small, { color: C.textMuted, textAlign: 'center', marginTop: 12 }]}>
+            {isLast ? 'This finishes the lesson — choose one to see your results.' : 'Choose one to continue.'}
+          </Text>
+        </>
+      )}
+    </View>
+  )
+}
+
 // ── No-lives overlay ──────────────────────────────────────────────────────────
 function NoLivesGate({ C, s, insets, nextRefillAt, adReady, onWatchAd, onRefill, onGoBack }) {
   const ms  = nextRefillAt ? Math.max(0, new Date(nextRefillAt).getTime() - Date.now()) : 0
@@ -598,6 +707,31 @@ function makeStyles(C, insets) {
       shadowRadius:   6,
       elevation:      3,
     },
+    // Written capstone
+    written:          { marginTop: 4 },
+    writtenInput: {
+      minHeight:       120,
+      borderRadius:    16,
+      borderWidth:     2,
+      padding:         14,
+      fontFamily:      'Nunito_600SemiBold',
+      fontSize:        15,
+      lineHeight:      22,
+    },
+    writtenYourAnswer: {
+      borderRadius:    14,
+      borderWidth:     1,
+      padding:         14,
+      marginBottom:    12,
+    },
+    writtenModel: {
+      borderRadius:    14,
+      borderWidth:     1.5,
+      borderLeftWidth: 4,
+      padding:         16,
+      marginBottom:    4,
+    },
+
     choiceSelected: { borderColor: C.brand, backgroundColor: C.brandBg },
     choiceCorrect:  { borderColor: C.correct, backgroundColor: C.correctBg },
     choiceWrong:    { borderColor: C.wrong,   backgroundColor: C.wrongBg },

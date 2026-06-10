@@ -130,7 +130,10 @@ export default function ResultsScreen({ route, navigation }) {
     return () => clearTimeout(t)
   }, [])
 
-  const correct  = results.filter((r) => r.correct).length
+  // The open-ended capstone is a non-graded reflection — exclude it from the
+  // score/%/mastery. `total` already arrives as the graded count from QuizScreen.
+  const graded   = results.filter((r) => !r.written)
+  const correct  = graded.filter((r) => r.correct).length
   const pct      = Math.round((correct / total) * 100)
   const passed   = pct >= 65
   const mastered = pct >= 85
@@ -236,13 +239,18 @@ export default function ResultsScreen({ route, navigation }) {
           Question Review
         </Text>
         {results.map((r, i) => (
-          <View key={i} style={[s.resultRow, { borderLeftColor: r.correct ? C.correct : C.wrong }]}>
+          <View key={i} style={[s.resultRow, { borderLeftColor: r.written ? C.brand : r.correct ? C.correct : C.wrong }]}>
             <Text style={[T.label, { color: C.textMuted, width: 22, textTransform: 'none', letterSpacing: 0 }]}>{i + 1}.</Text>
             <View style={{ flex: 1 }}>
               <Text style={[T.small, { color: C.text, lineHeight: 19 }]} numberOfLines={2}>
                 {r.question?.text}
               </Text>
-              {!r.correct && r.question && (() => {
+              {r.written && (
+                <Text style={[T.label, { color: C.brand, marginTop: 3, textTransform: 'none', letterSpacing: 0 }]}>
+                  ✍️ Self-reviewed{r.gotIt ? ' · +10 RP' : ''}
+                </Text>
+              )}
+              {!r.written && !r.correct && r.question && (() => {
                 const q = r.question
                 const mcAnswer = q.choices?.[q.correct ?? q.correctIndex]
                 if (mcAnswer) {
@@ -271,7 +279,7 @@ export default function ResultsScreen({ route, navigation }) {
                 </TouchableOpacity>
               )}
             </View>
-            <Text style={{ fontSize: 16, marginLeft: 6 }}>{r.correct ? '✅' : '❌'}</Text>
+            <Text style={{ fontSize: 16, marginLeft: 6 }}>{r.written ? '✍️' : r.correct ? '✅' : '❌'}</Text>
           </View>
         ))}
 
