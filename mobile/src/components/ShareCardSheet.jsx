@@ -1,0 +1,75 @@
+import React from 'react'
+import { View, Text, TouchableOpacity, Modal, StyleSheet } from 'react-native'
+import { useTheme } from '../context/ThemeContext'
+import { T, duoBtn, duoBtnOutline } from '../styles/duo'
+import ShareCard from './ShareCard'
+import { useShareCard } from '../hooks/useShareCard'
+import { SUBJECT_META } from '../content/subjects'
+
+/**
+ * Preview-then-share bottom sheet. Shows the branded ShareCard so the user
+ * sees exactly what they're posting, with one-tap share to the native sheet.
+ *
+ * <ShareCardSheet visible={show} onClose={...} pct={92} correct={11} total={12}
+ *                 subject="algebra-2" streak={5} topic="Polynomials" />
+ */
+export default function ShareCardSheet({ visible, onClose, ...cardProps }) {
+  const { C } = useTheme()
+  const { cardRef, sharing, shareCard } = useShareCard()
+  const meta = SUBJECT_META[cardProps.subject] ?? { name: 'Regents' }
+
+  const fallbackMessage =
+    `I just scored ${cardProps.pct}% on ${meta.name} in Regentify 🎯` +
+    (cardProps.streak > 0 ? ` (${cardProps.streak}-day streak 🔥)` : '') +
+    ' — think you can beat me?'
+
+  return (
+    <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
+      <TouchableOpacity style={s.backdrop} activeOpacity={1} onPress={onClose} />
+      <View style={[s.sheet, { backgroundColor: C.surface }]}>
+        <View style={[s.handle, { backgroundColor: C.border }]} />
+        <Text style={[T.h3, { color: C.text, marginBottom: 14 }]}>Flex your score 💪</Text>
+
+        {/* collapsable={false} is required for captureRef on Android */}
+        <View ref={cardRef} collapsable={false}>
+          <ShareCard {...cardProps} />
+        </View>
+
+        <View style={s.actions}>
+          <TouchableOpacity
+            style={duoBtnOutline(C.border, { flex: 1 })}
+            onPress={onClose}
+            activeOpacity={0.8}
+          >
+            <Text style={[T.btn, { color: C.text }]}>CLOSE</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={duoBtn(C.brand, C.brandDark, { flex: 1.4, opacity: sharing ? 0.6 : 1 })}
+            onPress={() => shareCard({ message: fallbackMessage })}
+            disabled={sharing}
+            activeOpacity={0.8}
+          >
+            <Text style={[T.btn, { color: '#fff' }]}>{sharing ? 'SHARING…' : '📤 SHARE'}</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </Modal>
+  )
+}
+
+const s = StyleSheet.create({
+  backdrop: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.5)' },
+  sheet: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    borderTopLeftRadius: 24,
+    borderTopRightRadius: 24,
+    padding: 20,
+    paddingBottom: 28,
+    alignItems: 'center',
+  },
+  handle: { width: 40, height: 4, borderRadius: 2, marginBottom: 14 },
+  actions: { flexDirection: 'row', gap: 12, alignSelf: 'stretch', marginTop: 18 },
+})

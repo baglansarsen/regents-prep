@@ -8,6 +8,7 @@ import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useRP } from '../hooks/useRP'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import MasteryCelebration from '../components/MasteryCelebration'
+import ShareCardSheet from '../components/ShareCardSheet'
 import NudgeBanner from '../components/NudgeBanner'
 import { getEngagementNudge } from '../hooks/useEngagementNudge'
 import { shuffle } from '../utils/question'
@@ -91,6 +92,7 @@ export default function ResultsScreen({ route, navigation }) {
   const { rp, level } = useRP(user?.uid)
 
   const [diveDeepQ,      setDiveDeepQ]      = useState(null)
+  const [showShare,      setShowShare]      = useState(false)
   const [showCelebration, setShowCelebration] = useState(firstMastery)
   const [displayRP,    setDisplayRP]    = useState(0)
   const [showStreak,   setShowStreak]   = useState(false)
@@ -235,6 +237,17 @@ export default function ResultsScreen({ route, navigation }) {
           </View>
         </View>
 
+        {/* Share — only surface wins (65%+); people share flexes, not fails */}
+        {passed && (
+          <TouchableOpacity
+            style={duoBtn(C.warn, '#B38500', { alignSelf: 'stretch' })}
+            onPress={() => setShowShare(true)}
+            activeOpacity={0.85}
+          >
+            <Text style={[T.btn, { color: '#fff' }]}>📤 FLEX MY SCORE</Text>
+          </TouchableOpacity>
+        )}
+
         {/* Review */}
         <Text style={[T.label, { color: C.textMuted, alignSelf: 'flex-start', marginTop: 8, marginBottom: 10 }]}>
           Question Review
@@ -351,6 +364,18 @@ export default function ResultsScreen({ route, navigation }) {
           onDismiss={() => setShowCelebration(false)}
         />
       )}
+
+      {/* ── Share card sheet ── */}
+      <ShareCardSheet
+        visible={showShare}
+        onClose={() => setShowShare(false)}
+        pct={pct}
+        correct={correct}
+        total={total}
+        subject={subject}
+        streak={streak}
+        topic={topic}
+      />
 
       {/* ── Dive Deep modal ── */}
       <Modal visible={!!diveDeepQ} transparent animationType="slide" onRequestClose={() => setDiveDeepQ(null)}>
