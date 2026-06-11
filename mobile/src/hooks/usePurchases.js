@@ -3,19 +3,27 @@ import { Alert, Platform } from 'react-native'
 
 // Lazy-load RevenueCat — absent on web/Expo Go, present in native builds
 let Purchases = null
+let LOG_LEVEL = null
 if (Platform.OS !== 'web') {
   try {
-    Purchases = require('react-native-purchases').default
+    const RC = require('react-native-purchases')
+    Purchases = RC.default
+    LOG_LEVEL = RC.LOG_LEVEL
   } catch (_) {}
 }
 
-const RC_API_KEY_IOS     = 'appl_REPLACE_WITH_YOUR_REVENUECAT_IOS_KEY'
-const RC_API_KEY_ANDROID = 'goog_REPLACE_WITH_YOUR_REVENUECAT_ANDROID_KEY'
+// RevenueCat Test Store keys — let us exercise the full purchase flow without
+// App Store Connect / Google Play products. NOTE: these do NOT charge real money
+// and do NOT use real App Store products; swap in production `appl_` / `goog_`
+// keys (and configure real IAP products + Paid Apps Agreement) before App Store
+// release, or purchases will fail against the live store.
+const RC_API_KEY_IOS     = 'test_AfUgVDbhzDNlbAlRSxHlDCvaMoW'
+const RC_API_KEY_ANDROID = 'test_AfUgVDbhzDNlbAlRSxHlDCvaMoW'
 
 // Guard: skip configure() if key is still a placeholder.
 // With New Architecture (TurboModules), RevenueCat throws a native NSException
 // for an invalid key — this crashes the C++ JSI bridge (SIGABRT on turbomodulemanager
-// queue) before JS try/catch can fire. Remove this check once real keys are set.
+// queue) before JS try/catch can fire.
 const RC_CONFIGURED = !RC_API_KEY_IOS.includes('REPLACE_WITH')
 
 // Pricing (set in App Store Connect): monthly $4.99 · season (3-month) $9.99 ·
@@ -44,6 +52,7 @@ export function usePurchases(uid) {
     if (isWeb || !Purchases || !RC_CONFIGURED) return
     async function init() {
       try {
+        if (LOG_LEVEL && __DEV__) Purchases.setLogLevel(LOG_LEVEL.VERBOSE)
         const key = Platform.OS === 'ios' ? RC_API_KEY_IOS : RC_API_KEY_ANDROID
         await Purchases.configure({ apiKey: key, appUserID: uid ?? null })
         const info   = await Purchases.getCustomerInfo()
