@@ -111,6 +111,11 @@ export default function HomeScreen({ navigation }) {
   const { lessonComplete, unitLessonsCompleted, unitComplete } = useLessonProgress(subjectHistory)
   const units = sd.UNITS ?? []
   const { isUnitUnlocked, unitUnlockHint, reloadSkipUnlocks } = useUnitUnlocks(units, lessonComplete, unitComplete, subject)
+  // Declared before the focus effect below — it reads pendingEvolution in its
+  // dependency array, so this destructuring must run first or the const is in
+  // its temporal dead zone at render time (crashes HomeScreen).
+  const { pet, pendingEvolution, getPetMessage, dailyDig, getTodayQuest, updateQuestProgress, triggerReaction, addInventory, studyBoost } = usePetContext()
+  const { say } = useSpeechContext()
   useFocusEffect(useCallback(() => {
     reloadHistory()
     reloadSkipUnlocks()
@@ -158,8 +163,6 @@ export default function HomeScreen({ navigation }) {
   // ── Exam countdown (real dates — computed once per render) ─────────────────
   const daysToExam = getDaysUntilExam(subject)
   const examLabel  = getExamLabel(subject)
-  const { pet, pendingEvolution, getPetMessage, dailyDig, getTodayQuest, updateQuestProgress, triggerReaction, addInventory, studyBoost } = usePetContext()
-  const { say } = useSpeechContext()
 
   const [selectedLesson,    setSelectedLesson]    = useState(null)
   const [showGoalPicker,    setShowGoalPicker]     = useState(false)
