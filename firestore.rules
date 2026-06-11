@@ -129,6 +129,13 @@ service cloud.firestore {
       allow read, write: if request.auth != null;
     }
 
+    // ── Product analytics events — client create-only, never readable ────────
+    // Read via Firebase console / Admin SDK only.
+    match /events/{eventId} {
+      allow create: if request.auth != null;
+      allow read, update, delete: if false;
+    }
+
     // Question reports — anyone authenticated can read and write
     match /reportedQuestions/{docId} {
       allow read, write: if request.auth != null;

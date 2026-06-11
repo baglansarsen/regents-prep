@@ -18,6 +18,7 @@ import { signOut } from 'firebase/auth'
 import { doc, getDoc } from 'firebase/firestore'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import { useDoubleRP } from '../context/DoubleRPContext'
+import { useSubscription } from '../context/SubscriptionContext'
 import NudgeBanner from '../components/NudgeBanner'
 import { getEngagementNudge } from '../hooks/useEngagementNudge'
 import StreakCalendar from '../components/StreakCalendar'
@@ -44,6 +45,7 @@ export default function ProfileScreen({ navigation }) {
   const { streak, longestStreak, studiedDates, frozenDates } = useDailyStreak(uid)
   const [showStreakCal, setShowStreakCal] = useState(false)
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
+  const { isSubscribed, isConfigured } = useSubscription()
 
   const { subject, setSubject } = useSubject()
 
@@ -298,6 +300,34 @@ export default function ProfileScreen({ navigation }) {
           </View>
         </TouchableOpacity>
 
+        {/* ── Support / Subscribe — hidden until RevenueCat is configured ── */}
+        {(isConfigured || isSubscribed) && (
+          <TouchableOpacity
+            style={[s.rowCard, cardShadow(C.shadow), { borderColor: isSubscribed ? '#9333EA55' : C.border }]}
+            onPress={() => navigation.navigate('Support')}
+            activeOpacity={0.85}
+          >
+            <View style={s.rowLeft}>
+              <Text style={{ fontSize: 28 }}>{isSubscribed ? '💜' : '⭐'}</Text>
+              <View style={{ marginLeft: 12 }}>
+                <Text style={[T.h3, { color: C.text }]}>{isSubscribed ? 'Premium Active' : 'Go Premium'}</Text>
+                <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                  {isSubscribed ? 'Unlimited hearts · Thank you!' : 'No ads + unlimited hearts · from $4.99/mo'}
+                </Text>
+              </View>
+            </View>
+            <View style={s.rowRight}>
+              {isSubscribed && (
+                <View style={[s.boostPill, { backgroundColor: '#F3E8FF', borderColor: '#9333EA55' }]}>
+                  <Text style={[T.label, { color: '#9333EA', textTransform: 'none', letterSpacing: 0 }]}>
+                    ♾️ Active
+                  </Text>
+                </View>
+              )}
+              <Text style={[T.body, { color: C.textMuted }]}>›</Text>
+            </View>
+          </TouchableOpacity>
+        )}
 
         {/* ── Pet Personality Quiz ── */}
         <TouchableOpacity

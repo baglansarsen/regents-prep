@@ -9,6 +9,7 @@ import { useRP } from '../hooks/useRP'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import MasteryCelebration from '../components/MasteryCelebration'
 import ShareCardSheet from '../components/ShareCardSheet'
+import { logEvent } from '../utils/analytics'
 import NudgeBanner from '../components/NudgeBanner'
 import { getEngagementNudge } from '../hooks/useEngagementNudge'
 import { shuffle } from '../utils/question'
@@ -140,6 +141,11 @@ export default function ResultsScreen({ route, navigation }) {
   const pct      = Math.round((correct / total) * 100)
   const passed   = pct >= 65
   const mastered = pct >= 85
+
+  // Denominator for share-rate: every results view, with score context
+  useEffect(() => {
+    logEvent('results_viewed', { pct, subject, topic, passed })
+  }, [])
 
   const ringColor  = mastered ? C.correct : passed ? C.warn : C.wrong
   const ringDark   = mastered ? C.brandDark : passed ? '#B38500' : C.wrongDark

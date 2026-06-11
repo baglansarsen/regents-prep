@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { View, Text, TouchableOpacity, Modal, StyleSheet } from 'react-native'
 import { useTheme } from '../context/ThemeContext'
 import { T, duoBtn, duoBtnOutline } from '../styles/duo'
 import ShareCard from './ShareCard'
 import { useShareCard } from '../hooks/useShareCard'
 import { SUBJECT_META } from '../content/subjects'
+import { logEvent } from '../utils/analytics'
 
 /**
  * Preview-then-share bottom sheet. Shows the branded ShareCard so the user
@@ -17,6 +18,10 @@ export default function ShareCardSheet({ visible, onClose, ...cardProps }) {
   const { C } = useTheme()
   const { cardRef, sharing, shareCard } = useShareCard()
   const meta = SUBJECT_META[cardProps.subject] ?? { name: 'Regents' }
+
+  useEffect(() => {
+    if (visible) logEvent('share_sheet_opened', { pct: cardProps.pct, subject: cardProps.subject })
+  }, [visible])
 
   const fallbackMessage =
     `I just scored ${cardProps.pct}% on ${meta.name} in Regentify 🎯` +
@@ -45,7 +50,11 @@ export default function ShareCardSheet({ visible, onClose, ...cardProps }) {
           </TouchableOpacity>
           <TouchableOpacity
             style={duoBtn(C.brand, C.brandDark, { flex: 1.4, opacity: sharing ? 0.6 : 1 })}
-            onPress={() => shareCard({ message: fallbackMessage })}
+            onPress={async () => {
+              const ok = await shareCard({ message: fallbackMessage })
+              // iOS can't distinguish share vs dismiss — treat as upper bound
+              if (ok) logEvent('share_completed', { pct: cardProps.pct, subject: cardProps.subject })
+            }}
             disabled={sharing}
             activeOpacity={0.8}
           >
