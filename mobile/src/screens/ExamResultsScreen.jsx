@@ -5,6 +5,8 @@ import { useTheme } from '../context/ThemeContext'
 import { analyzeExamResults } from '../utils/topicAnalysis'
 import { shuffle } from '../utils/question'
 import { saveExamScore } from '../hooks/useExamScores'
+import { getScaledScore, topicIndicator } from '../utils/examScoring'
+import { usePetContext } from '../context/PetContext'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import * as leData   from '../content/living-environment/index'
 import * as esData   from '../content/earth-science/index'
@@ -33,31 +35,8 @@ const EXAM_SUBJECT_DATA = {
 }
 import { SUBJECTS } from '../content/subjects'
 
-// ⚠️ ESTIMATE ONLY — not an official NY Regents conversion.
-// Real Regents charts are non-linear, published per administration, and the
-// actual exam includes constructed-response/lab credits this MC-only practice
-// run can't capture. We surface this as a study estimate and label it as such
-// in the UI (see disclaimer below) so a student isn't misled near the 65 line.
-function getScaledScore(rawScore, total = 50) {
-  const pct = rawScore / total
-  if (pct >= 0.92) return 100
-  if (pct >= 0.88) return 95
-  if (pct >= 0.84) return 90
-  if (pct >= 0.78) return 85
-  if (pct >= 0.72) return 80
-  if (pct >= 0.66) return 75
-  if (pct >= 0.60) return 70
-  if (pct >= 0.55) return 65
-  if (pct >= 0.50) return 60
-  if (pct >= 0.44) return 55
-  return 50
-}
-
-function topicIndicator(pct) {
-  if (pct < 65) return { emoji: '🔴', label: 'Needs Work',  color: '#FF4B4B' }
-  if (pct < 85) return { emoji: '🟡', label: 'Review',      color: '#FF9600' }
-  return              { emoji: '🟢', label: 'Strong',       color: '#58CC02' }
-}
+// getScaledScore / topicIndicator now live in utils/examScoring.js so the
+// predicted-score model shares the same (estimate-only) conversion table.
 
 export default function ExamResultsScreen({ route, navigation }) {
   const { exam, questions, answers, writtenAnswers = {}, correct, total, rpEarned } = route.params
@@ -82,7 +61,12 @@ export default function ExamResultsScreen({ route, navigation }) {
   const scoreAnim = useRef(new Animated.Value(0)).current
   const rpAnim    = useRef(new Animated.Value(0)).current
 
-  useEffect(() => { saveExamScore(exam.id, scaled) }, [])
+  const { updateQuestProgress } = usePetContext()
+
+  useEffect(() => {
+    saveExamScore(exam.id, scaled)
+    updateQuestProgress('complete_exam')   // smart practice-exam quests
+  }, [])
 
   useEffect(() => {
     const scoreId = scoreAnim.addListener(({ value }) => setDisplayScore(Math.round(value)))

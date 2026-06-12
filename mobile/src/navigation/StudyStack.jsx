@@ -7,6 +7,8 @@ import FlashcardScreen     from '../screens/FlashcardScreen'
 import SpeedRoundScreen    from '../screens/SpeedRoundScreen'
 import SkipChallengeScreen from '../screens/SkipChallengeScreen'
 import StudyScreen         from '../screens/StudyScreen'
+import GoalSetupScreen     from '../screens/GoalSetupScreen'
+import GoalDetailScreen    from '../screens/GoalDetailScreen'
 
 const Stack = createNativeStackNavigator()
 
@@ -20,6 +22,8 @@ export default function StudyStack() {
       <Stack.Screen name="SpeedRound"    component={SpeedRoundScreen} />
       <Stack.Screen name="SkipChallenge" component={SkipChallengeScreen} />
       <Stack.Screen name="Study"         component={StudyScreen} />
+      <Stack.Screen name="GoalSetup"     component={GoalSetupScreen} />
+      <Stack.Screen name="GoalDetail"    component={GoalDetailScreen} />
     </Stack.Navigator>
   )
 }

@@ -17,7 +17,7 @@ import { useMistakes } from '../hooks/useMistakes'
 import { useLessonProgress } from '../hooks/useLessonProgress'
 import { useUnitUnlocks } from '../hooks/useUnitUnlocks'
 import { useFocusEffect } from '@react-navigation/native'
-import { localDateStr } from '../utils/localDate'
+import { localDateStr, yesterdayStr } from '../utils/localDate'
 import { shuffle } from '../utils/question'
 import { SUBJECTS } from '../content/subjects'
 import * as leData from '../content/living-environment/index'
@@ -46,7 +46,11 @@ import PlacementTestScreen from './PlacementTestScreen'
 import { useLeague, formatCountdown, msUntilReset } from '../hooks/useLeague'
 import { getLevel } from '../hooks/useRP'
 import { useStudyTime, formatTime as fmtStudyTime } from '../hooks/useStudyTime'
-import { getExamLabel, getDaysUntilExam } from '../utils/examDates'
+import { getExamLabel, getDaysUntilExam, daysUntil } from '../utils/examDates'
+import { useGoal } from '../context/GoalContext'
+import { usePredictedScore } from '../hooks/usePredictedScore'
+import { pickSmartQuest } from '../utils/smartQuest'
+import { tierFor } from '../data/goalConfig'
 import NudgeBanner from '../components/NudgeBanner'
 import { getEngagementNudge } from '../hooks/useEngagementNudge'
 
@@ -98,7 +102,7 @@ export default function HomeScreen({ navigation }) {
   const sd = mobileSubjectMap[subject] ?? leData
 
   const { history, reloadHistory } = useProgress(uid)
-  const { weekDays, streak, studiedToday, hasFreeze, buyFreeze } = useDailyStreak(uid)
+  const { weekDays, streak, studiedToday, studiedDates, hasFreeze, buyFreeze } = useDailyStreak(uid)
   const { rp, earnRP, spendRP, loaded: rpLoaded } = useRP(uid)
   const { lives, maxLives, nextRefillAt, refillLives } = useLivesContext()
   const { todaySeconds, reloadTotals: reloadStudyTime } = useStudyTime(uid, null, null)  // read-only: no session, just load persisted totals
@@ -116,14 +120,30 @@ export default function HomeScreen({ navigation }) {
   // its temporal dead zone at render time (crashes HomeScreen).
   const { pet, pendingEvolution, getPetMessage, dailyDig, getTodayQuest, updateQuestProgress, triggerReaction, addInventory, studyBoost } = usePetContext()
   const { say } = useSpeechContext()
+
+  // ── Regents goal + predicted score + smart daily quest ─────────────────────
+  // (Also before the focus effect: smartQuestDef appears in its deps array.)
+  const { getGoal, loaded: goalLoaded } = useGoal()
+  const regentsGoal = getGoal(subject)
+  const { predicted, coldStart, weakestUnit, hasTakenPracticeExam } =
+    usePredictedScore(subject, units, subjectHistory)
+  const goalDaysToExam = regentsGoal?.examDateStr ? daysUntil(regentsGoal.examDateStr) : null
+  const smartQuestDef = useMemo(() => pickSmartQuest({
+    hasGoal: !!regentsGoal,
+    daysToExam: goalDaysToExam ?? getDaysUntilExam(subject),
+    dayOfWeek: new Date().getDay(),
+    studiedYesterday: studiedDates.includes(yesterdayStr()),
+    hasTakenPracticeExam,
+    weakestUnit,
+  }), [regentsGoal, goalDaysToExam, subject, studiedDates, hasTakenPracticeExam, weakestUnit])
   useFocusEffect(useCallback(() => {
     reloadHistory()
     reloadSkipUnlocks()
     reloadStudyTime()   // reflect study/quiz time logged on other screens
     if (pendingEvolution) navigation.navigate('PetEvolution')
 
-    // Refresh quest data
-    getTodayQuest().then(setQuestData).catch(() => {})
+    // Refresh quest data (goal-aware when a smart quest applies)
+    getTodayQuest(smartQuestDef).then(setQuestData).catch(() => {})
 
     // Streak milestone gifts
     if (uid && streak > 0) {
@@ -155,7 +175,7 @@ export default function HomeScreen({ navigation }) {
       daysUntilExam: daysToExam,
       subject,
     }).then((msg) => { if (msg) say(msg) }).catch(() => {})
-  }, [reloadHistory, reloadSkipUnlocks, pendingEvolution, uid, streak]))
+  }, [reloadHistory, reloadSkipUnlocks, pendingEvolution, uid, streak, smartQuestDef]))
 
   const { goal, setGoal, todayRP, progress: goalProgress, goalMet, GOALS, celebrated, markCelebrated } = useDailyGoal(rp, rpLoaded)
   const { mistakes, mistakeCount } = useMistakes()
@@ -218,8 +238,8 @@ export default function HomeScreen({ navigation }) {
     if (!uid) return
     reloadHistory()
     reloadSkipUnlocks()
-    getTodayQuest().then(setQuestData).catch(() => {})
-  }, [uid])
+    getTodayQuest(smartQuestDef).then(setQuestData).catch(() => {})
+  }, [uid, smartQuestDef])
 
   // ── Placement test — triggered before the user's first lesson ────────────
   const [placementDone,   setPlacementDone]   = useState(null)   // null = loading
@@ -632,6 +652,61 @@ export default function HomeScreen({ navigation }) {
           </View>
         )}
 
+        {/* Regents Goal — predicted score vs committed target */}
+        {regentsGoal ? (
+          <TouchableOpacity
+            style={[s.goalCard, elevatedCard(C), glassStyle, { borderLeftWidth: 4, borderLeftColor: C.warn ?? '#FFC800' }]}
+            onPress={() => navigation.navigate('GoalDetail')}
+            activeOpacity={0.85}
+          >
+            <GoalRing
+              size={72}
+              strokeWidth={7}
+              progress={predicted != null
+                ? Math.min(1, Math.max(0, (predicted - 50) / Math.max(1, regentsGoal.target - 50)))
+                : 0}
+              color={predicted != null && predicted >= regentsGoal.target ? C.correct : (C.warn ?? '#FFC800')}
+              trackColor={C.surface2}
+            >
+              <Text style={[T.label, { color: C.text, textTransform: 'none', letterSpacing: 0, fontSize: 15 }]}>
+                {coldStart ? '—' : predicted}
+              </Text>
+            </GoalRing>
+            <View style={{ flex: 1, marginLeft: 14 }}>
+              <Text style={[T.h3, { color: C.text }]}>🎯 Regents Goal</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                {coldStart
+                  ? `Goal: ${regentsGoal.target} ${tierFor(regentsGoal.target).icon} · take a quiz to unlock your prediction`
+                  : `${predicted} → ${regentsGoal.target} ${tierFor(regentsGoal.target).icon}`}
+              </Text>
+              {!coldStart && (
+                <Text style={[T.small, { color: predicted >= regentsGoal.target ? C.correct : C.textMuted, marginTop: 3 }]}>
+                  {predicted >= regentsGoal.target
+                    ? '🎉 Predicted at your goal!'
+                    : `${regentsGoal.target - predicted} points to go`}
+                  {goalDaysToExam != null ? ` · ${goalDaysToExam} days left` : ''}
+                </Text>
+              )}
+            </View>
+            <Text style={[T.label, { color: C.textDim }]}>{'DETAILS\n›'}</Text>
+          </TouchableOpacity>
+        ) : goalLoaded ? (
+          <TouchableOpacity
+            style={[s.goalCard, elevatedCard(C), glassStyle, { borderLeftWidth: 4, borderLeftColor: C.brand }]}
+            onPress={() => navigation.navigate('GoalSetup')}
+            activeOpacity={0.85}
+          >
+            <Text style={{ fontSize: 34 }}>🎯</Text>
+            <View style={{ flex: 1, marginLeft: 14 }}>
+              <Text style={[T.h3, { color: C.text }]}>Set your Regents goal</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                Commit to a score and watch your prediction climb
+              </Text>
+            </View>
+            <Text style={[T.label, { color: C.textDim }]}>{'START\n›'}</Text>
+          </TouchableOpacity>
+        ) : null}
+
         {/* Daily Goal Ring */}
         <TouchableOpacity
           style={[s.goalCard, elevatedCard(C), glassStyle, { borderLeftWidth: 4, borderLeftColor: goalMet ? C.correct : C.brand }]}
@@ -720,15 +795,20 @@ export default function HomeScreen({ navigation }) {
           </View>
         )}
 
-        {/* Daily quest card */}
+        {/* Daily quest card — tapping a topic-focus quest starts that quiz */}
         {questData && pet.chosen && (
-          <View style={[s.questCard, { backgroundColor: C.surface, borderColor: C.border }, glassStyle]}>
+          <TouchableOpacity
+            style={[s.questCard, { backgroundColor: C.surface, borderColor: C.border }, glassStyle]}
+            disabled={questData.action !== 'complete_quiz_topic' || questData.completed}
+            onPress={() => startQuiz(questData.topic)}
+            activeOpacity={0.85}
+          >
             <View style={s.questHeader}>
               <Text style={{ fontSize: 18 }}>{questData.icon}</Text>
               <Text style={[T.h3, { color: C.text, flex: 1 }]}>{questData.label}</Text>
               {questData.completed
                 ? <Text style={[T.label, { color: C.correct }]}>✓ DONE</Text>
-                : <Text style={[T.small, { color: C.textMuted }]}>+25 ⭐</Text>}
+                : <Text style={[T.small, { color: C.textMuted }]}>+{questData.rp ?? 30} ⭐</Text>}
             </View>
             <View style={s.questBg}>
               <View style={[s.questFill, {
@@ -739,7 +819,7 @@ export default function HomeScreen({ navigation }) {
             <Text style={[T.small, { color: C.textMuted, marginTop: 4 }]}>
               {questData.progress}/{questData.goal} completed
             </Text>
-          </View>
+          </TouchableOpacity>
         )}
 
         {/* Pet trivia card */}

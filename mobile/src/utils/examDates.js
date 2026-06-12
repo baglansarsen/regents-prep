@@ -25,7 +25,8 @@ function nextTuesdayOfWeek(year, month, targetWeek) {
   return d
 }
 
-export function getDaysUntilExam(subject = 'living-environment') {
+/** The next upcoming Regents session date for a subject, as a local Date. */
+export function getNextExamDate(subject = 'living-environment') {
   const today = new Date()
   today.setHours(0, 0, 0, 0)
   const year  = today.getFullYear()
@@ -44,9 +45,26 @@ export function getDaysUntilExam(subject = 'living-environment') {
   }
   candidates.sort((a, b) => a - b)
 
-  const upcoming = candidates.find((d) => d >= today) ?? candidates[candidates.length - 1]
-  const diffMs   = upcoming - today
-  return Math.ceil(diffMs / (1000 * 60 * 60 * 24))
+  return candidates.find((d) => d >= today) ?? candidates[candidates.length - 1]
+}
+
+/** Whole days from today (local midnight) until the given Date or YYYY-MM-DD string. */
+export function daysUntil(dateOrStr) {
+  const today = new Date()
+  today.setHours(0, 0, 0, 0)
+  let target
+  if (typeof dateOrStr === 'string') {
+    const [y, m, d] = dateOrStr.split('-').map(Number)
+    target = new Date(y, m - 1, d)
+  } else {
+    target = new Date(dateOrStr)
+    target.setHours(0, 0, 0, 0)
+  }
+  return Math.ceil((target - today) / (1000 * 60 * 60 * 24))
+}
+
+export function getDaysUntilExam(subject = 'living-environment') {
+  return daysUntil(getNextExamDate(subject))
 }
 
 export function getExamLabel(subject = 'living-environment') {

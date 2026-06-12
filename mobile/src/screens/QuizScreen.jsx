@@ -230,7 +230,7 @@ export default function QuizScreen({ route, navigation }) {
       else                     { triggerReaction('root_for_you'); say(`+${rpEarned} ⭐ You're on a roll!`) }
       // Quest progress
       updateQuestProgress('answer_correct', correct)
-      updateQuestProgress('complete_quiz')
+      updateQuestProgress('complete_quiz', 1, { topic })   // topic lets smart topic-quests match
       if (route.params?.isMistakesPractice) updateQuestProgress('complete_mistakes')
       const { seconds: sessionSecs } = endSession()
       navigation.replace('Results', {

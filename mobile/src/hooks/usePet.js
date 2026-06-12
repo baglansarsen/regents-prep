@@ -344,31 +344,61 @@ export function usePet(uid) {
   // ─── Quest helpers ────────────────────────────────────────────────────────────
   function questKey() { return `@dailyQuest_v1_${uid_ref.current ?? 'anon'}` }
 
-  const getTodayQuest = useCallback(async () => {
-    const dayIndex = localDayIndex()
-    const def      = QUEST_TYPES[dayIndex % QUEST_TYPES.length]
-    let stored = null
-    try { const raw = await AsyncStorage.getItem(questKey()); if (raw) stored = JSON.parse(raw) } catch {}
-    const valid    = stored?.date === today() && stored?.questId === def.id
-    return { ...def, progress: valid ? (stored.progress ?? 0) : 0, completed: valid ? !!stored.completed : false }
+  // The rotation quest for today — the default when no smart (goal-aware)
+  // quest applies. Self-describing records: we persist the full `def` so the
+  // quest a student started stays the quest they finish, even if the smart
+  // picker would choose differently later in the day.
+  function rotationDef() {
+    return QUEST_TYPES[localDayIndex() % QUEST_TYPES.length]
+  }
+
+  async function readQuestRecord() {
+    try { const raw = await AsyncStorage.getItem(questKey()); return raw ? JSON.parse(raw) : null } catch { return null }
+  }
+
+  // Resolve the def a stored record refers to. New records carry `def` inline;
+  // old-format records (pre smart quests) only have questId → match rotation.
+  function defOfRecord(stored) {
+    if (stored?.def) return stored.def
+    return QUEST_TYPES.find((q) => q.id === stored?.questId) ?? rotationDef()
+  }
+
+  const getTodayQuest = useCallback(async (smartDef = null) => {
+    const stored = await readQuestRecord()
+    if (stored?.date === today()) {
+      // A quest already started/assigned today always wins (in-flight safety).
+      const def = defOfRecord(stored)
+      return { ...def, progress: stored.progress ?? 0, completed: !!stored.completed }
+    }
+    // Fresh day: assign the smart quest if one applies, else the rotation.
+    const def = smartDef ?? rotationDef()
+    await AsyncStorage.setItem(questKey(), JSON.stringify({
+      date: today(), questId: def.id, def, progress: 0, completed: false,
+    })).catch(() => {})
+    return { ...def, progress: 0, completed: false }
   }, [])
 
-  const updateQuestProgress = useCallback(async (action, count = 1) => {
-    const dayIndex = localDayIndex()
-    const def      = QUEST_TYPES[dayIndex % QUEST_TYPES.length]
-    if (def.action !== action) return { completed: false }
-    let stored = null
-    try { const raw = await AsyncStorage.getItem(questKey()); if (raw) stored = JSON.parse(raw) } catch {}
-    const valid = stored?.date === today() && stored?.questId === def.id
+  const updateQuestProgress = useCallback(async (action, count = 1, meta = {}) => {
+    const stored = await readQuestRecord()
+    const valid  = stored?.date === today()
+    const def    = valid ? defOfRecord(stored) : rotationDef()
+
+    // Action match — topic-scoped quiz quests accept a complete_quiz event
+    // for their specific topic.
+    const matches =
+      def.action === action ||
+      (def.action === 'complete_quiz_topic' && action === 'complete_quiz' && meta.topic != null && meta.topic === def.topic)
+    if (!matches) return { completed: false }
+
     if (valid && stored.completed) return { completed: true, alreadyDone: true }
     const progress  = (valid ? (stored.progress ?? 0) : 0) + count
     const completed = progress >= def.goal
     await AsyncStorage.setItem(questKey(), JSON.stringify({
-      date: today(), questId: def.id, progress, completed,
+      date: today(), questId: def.id, def, progress, completed,
     })).catch(() => {})
     if (completed && !(valid && stored.completed)) {
       triggerReaction('celebrate')
-      return { completed: true, rp: 30 }   // mini-assignment ≈ a few questions
+      return { completed: true, rp: def.rp ?? 30 }   // mini-assignment ≈ a few questions
     }
     return { completed }
   }, [triggerReaction])

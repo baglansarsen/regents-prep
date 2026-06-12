@@ -13,6 +13,7 @@ import {
 import { ThemeProvider, useTheme } from './src/context/ThemeContext'
 import { AuthProvider } from './src/context/AuthContext'
 import { SubjectProvider } from './src/context/SubjectContext'
+import { GoalProvider } from './src/context/GoalContext'
 import { DoubleRPProvider } from './src/context/DoubleRPContext'
 import { LivesProvider } from './src/context/LivesContext'
 import { SubscriptionProvider } from './src/context/SubscriptionContext'
@@ -20,6 +21,7 @@ import { PetProvider }    from './src/context/PetContext'
 import { SpeechProvider } from './src/context/SpeechContext'
 import { StreakProvider } from './src/context/StreakContext'
 import AppNavigator from './src/navigation/AppNavigator'
+import { GoalNotificationBridge } from './src/hooks/useGoalNotificationScheduler'
 import { requestAdTracking } from './src/utils/adTracking'
 
 if (Platform.OS !== 'web') SplashScreen.preventAutoHideAsync()
@@ -59,6 +61,7 @@ function Inner() {
     <View style={wrapperStyle}>
       <View style={rootStyle}>
         <StatusBar style={isDark ? 'light' : 'dark'} />
+        <GoalNotificationBridge />
         <AppNavigator />
       </View>
     </View>
@@ -109,6 +112,7 @@ export default function App() {
     <ThemeProvider>
       <AuthProvider>
         <SubjectProvider>
+          <GoalProvider>
           <DoubleRPProvider>
             <SubscriptionProvider>
               <LivesProvider>
@@ -122,6 +126,7 @@ export default function App() {
               </LivesProvider>
             </SubscriptionProvider>
           </DoubleRPProvider>
+          </GoalProvider>
         </SubjectProvider>
       </AuthProvider>
     </ThemeProvider>
