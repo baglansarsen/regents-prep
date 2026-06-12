@@ -329,6 +329,26 @@ export default function ProfileScreen({ navigation }) {
           </TouchableOpacity>
         )}
 
+        {/* ── Tip jar — opens SupportScreen (plans + one-time donations) ── */}
+        {isConfigured && (
+          <TouchableOpacity
+            style={[s.rowCard, cardShadow(C.shadow)]}
+            onPress={() => navigation.navigate('Support')}
+            activeOpacity={0.85}
+          >
+            <View style={s.rowLeft}>
+              <Text style={{ fontSize: 28 }}>☕</Text>
+              <View style={{ marginLeft: 12 }}>
+                <Text style={[T.h3, { color: C.text }]}>Support the Developer</Text>
+                <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                  Buy me a coffee · keeps Regentify free for students
+                </Text>
+              </View>
+            </View>
+            <Text style={[T.body, { color: C.textMuted }]}>›</Text>
+          </TouchableOpacity>
+        )}
+
         {/* ── Pet Personality Quiz ── */}
         <TouchableOpacity
           style={[s.rowCard, cardShadow(C.shadow)]}
