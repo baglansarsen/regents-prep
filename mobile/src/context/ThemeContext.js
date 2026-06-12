@@ -4,7 +4,6 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { dark, light } from '../theme'
 
 const THEME_KEY  = '@regents_theme'
-const CHOSEN_KEY = '@regents_theme_chosen'
 
 const ThemeContext = createContext(null)
 
@@ -24,24 +23,11 @@ export function ThemeProvider({ children }) {
       .catch(() => setState({ mode: 'dark', themeChosen: true }))  // fail open
   }, [])
 
-  // Persist mode; does NOT mark as "chosen" (use pickTheme for that)
+  // Toggle light/dark (used by the in-app theme switch in Profile)
   const toggleTheme = async () => {
     const next = state.mode === 'dark' ? 'light' : 'dark'
     setState(s => ({ ...s, mode: next }))
     await AsyncStorage.setItem(THEME_KEY, next)
-  }
-
-  // Called from ThemePickerScreen — saves + marks chosen so it never shows again
-  const pickTheme = async (next) => {
-    // Update state once to avoid double render
-    setState({
-      mode: next,
-      themeChosen: true,
-    })
-    await Promise.all([
-      AsyncStorage.setItem(THEME_KEY,  next),
-      AsyncStorage.setItem(CHOSEN_KEY, '1'),
-    ])
   }
 
   const { mode, themeChosen } = state
@@ -50,7 +36,7 @@ export function ThemeProvider({ children }) {
   const C = isDark ? dark : light
 
   return (
-    <ThemeContext.Provider value={{ C, isDark, mode, themeChosen, toggleTheme, pickTheme }}>
+    <ThemeContext.Provider value={{ C, isDark, mode, themeChosen, toggleTheme }}>
       {children}
     </ThemeContext.Provider>
   )
