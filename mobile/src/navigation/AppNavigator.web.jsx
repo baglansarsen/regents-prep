@@ -8,7 +8,6 @@ import { db } from '../firebase'
 import { useAuthContext } from '../context/AuthContext'
 import { useTheme } from '../context/ThemeContext'
 
-import ThemePickerScreen        from '../screens/ThemePickerScreen'
 import LoginScreen              from '../screens/LoginScreen'
 import IntroductionScreen       from '../screens/IntroductionScreen'
 import SchoolOnboardingScreen   from '../screens/SchoolOnboardingScreen'
@@ -113,10 +112,8 @@ export default function AppNavigator() {
     >
       <Stack.Navigator screenOptions={{ headerShown: false }}>
 
-        {!themeChosen ? (
-          <Stack.Screen name="ThemePicker" component={ThemePickerScreen} />
-
-        ) : !user ? (
+        {/* Theme picker onboarding removed — dark by default */}
+        {!user ? (
           <Stack.Screen name="Login" component={LoginScreen} />
 
         ) : !introDone ? (

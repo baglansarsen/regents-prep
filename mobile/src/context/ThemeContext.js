@@ -11,20 +11,17 @@ const ThemeContext = createContext(null)
 export function ThemeProvider({ children }) {
   const systemScheme = useColorScheme()
   const [state, setState] = useState({
-    mode: 'system',
-    themeChosen: null, // null = loading, true/false = resolved
+    mode: 'dark',        // dark by default — the theme picker onboarding was removed
+    themeChosen: null,   // null = loading, true = resolved (picker no longer shown)
   })
 
   useEffect(() => {
-    Promise.all([
-      AsyncStorage.getItem(THEME_KEY),
-      AsyncStorage.getItem(CHOSEN_KEY),
-    ]).then(([saved, chosen]) => {
-      setState({
-        mode: saved || 'system',
-        themeChosen: !!chosen,
-      })
-    }).catch(() => setState(s => ({ ...s, themeChosen: true })))  // fail open
+    // Respect a previously saved preference (e.g. the in-app theme toggle);
+    // otherwise default to dark. themeChosen is always true now since the
+    // first-launch picker was removed.
+    AsyncStorage.getItem(THEME_KEY)
+      .then((saved) => setState({ mode: saved || 'dark', themeChosen: true }))
+      .catch(() => setState({ mode: 'dark', themeChosen: true }))  // fail open
   }, [])
 
   // Persist mode; does NOT mark as "chosen" (use pickTheme for that)
