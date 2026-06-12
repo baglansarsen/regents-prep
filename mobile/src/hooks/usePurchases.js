@@ -12,12 +12,25 @@ if (Platform.OS !== 'web') {
   } catch (_) {}
 }
 
-// RevenueCat Test Store keys — let us exercise the full purchase flow without
-// App Store Connect / Google Play products. NOTE: these do NOT charge real money
-// and do NOT use real App Store products; swap in production `appl_` / `goog_`
-// keys (and configure real IAP products + Paid Apps Agreement) before App Store
-// release, or purchases will fail against the live store.
-const RC_API_KEY_IOS     = 'test_AfUgVDbhzDNlbAlRSxHlDCvaMoW'
+// Lazy-load the hosted Paywall UI (separate native module: react-native-purchases-ui).
+// This renders the paywall configured in the RevenueCat dashboard, so plan/pricing
+// changes never require an app update.
+let RevenueCatUI = null
+let PAYWALL_RESULT = null
+if (Platform.OS !== 'web') {
+  try {
+    const UI = require('react-native-purchases-ui')
+    RevenueCatUI = UI.default
+    PAYWALL_RESULT = UI.PAYWALL_RESULT
+  } catch (_) {}
+}
+
+// iOS: production App Store public SDK key. Real purchases require the App Store
+// Connect side to be complete — Paid Apps Agreement signed, IAP products created,
+// and an In-App Purchase Key / shared secret configured in RevenueCat.
+const RC_API_KEY_IOS     = 'appl_FQIPzvELTjrEQzZcRZgrlTIXdET'
+// Android: still the RevenueCat Test Store key (no real charges, no Play products).
+// Replace with the production `goog_` key before any Android release.
 const RC_API_KEY_ANDROID = 'test_AfUgVDbhzDNlbAlRSxHlDCvaMoW'
 
 // Guard: skip configure() if key is still a placeholder.
@@ -38,7 +51,10 @@ export const PRODUCT_IDS = {
   TIP_25  : 'tip_25',
 }
 
-export const ENTITLEMENT_KEY = 'premium'
+// Must EXACTLY match the entitlement identifier in the RevenueCat dashboard
+// (Project → Entitlements) — including the space and capitalization. A mismatch
+// silently leaves isSubscribed false even after a successful purchase.
+export const ENTITLEMENT_KEY = 'regentify Unlimited'
 
 const noop = async () => false
 const isWeb = Platform.OS === 'web'
@@ -185,10 +201,33 @@ export function usePurchases(uid) {
     }
   }, [])
 
+  // Present the dashboard-configured hosted paywall. Returns true on a
+  // purchase/restore. Re-reads customer info afterward so isSubscribed reflects
+  // the new entitlement regardless of which package the user bought.
+  const presentPaywall = useCallback(async () => {
+    if (isWeb || !RevenueCatUI || !RC_CONFIGURED) {
+      if (!isWeb) Alert.alert('Requires Native Build', 'Run with expo run:ios or expo run:android to use purchases.')
+      return false
+    }
+    try {
+      const result = await RevenueCatUI.presentPaywall()
+      const success = result === PAYWALL_RESULT.PURCHASED || result === PAYWALL_RESULT.RESTORED
+      // Refresh entitlement state whatever the outcome (purchase, restore, cancel).
+      try {
+        const info = await Purchases.getCustomerInfo()
+        setIsSubscribed(!!info.entitlements.active[ENTITLEMENT_KEY])
+      } catch {}
+      return success
+    } catch (e) {
+      console.warn('[Purchases] presentPaywall error:', e)
+      return false
+    }
+  }, [])
+
   // isConfigured — UI gate. While the RevenueCat key is a placeholder (or the
   // native module is absent: web / Expo Go), all purchase UI stays hidden so
   // App Review never sees a broken paywall (guideline 2.1(b)).
   const isConfigured = !isWeb && !!Purchases && RC_CONFIGURED
 
-  return { isSubscribed, loading, isConfigured, purchaseMonthly, purchaseSeason, purchaseYearly, donate, restorePurchases }
+  return { isSubscribed, loading, isConfigured, presentPaywall, purchaseMonthly, purchaseSeason, purchaseYearly, donate, restorePurchases }
 }
