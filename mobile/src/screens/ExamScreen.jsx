@@ -64,7 +64,7 @@ export default function ExamScreen({ route, navigation }) {
       const idx = questions.indexOf(q)
       return answers[idx] === (q.correct ?? q.correctIndex)
     }).length
-    const rpEarned  = correct * 5
+    const rpEarned  = correct * 10   // match per-question anchor (1 correct = 10 RP)
     const pct = Math.round((correct / mcQuestions.length) * 100)
     earnRP(rpEarned)
     checkAndEvolve(rp + rpEarned)

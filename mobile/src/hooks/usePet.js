@@ -331,7 +331,7 @@ export function usePet(uid) {
     await AsyncStorage.setItem(key, today()).catch(() => {})
     triggerReaction('happy_dance')
     if (Math.random() > 0.5) {
-      const amt = 25 + Math.floor(Math.random() * 51)  // 25–75 XP
+      const amt = 10 + Math.floor(Math.random() * 16)  // 10–25 RP (luck tap — minor)
       return { ok: true, type: 'xp', amount: amt }
     } else {
       const foods = ['apple', 'ramen']
@@ -368,7 +368,7 @@ export function usePet(uid) {
     })).catch(() => {})
     if (completed && !(valid && stored.completed)) {
       triggerReaction('celebrate')
-      return { completed: true, rp: 125 }
+      return { completed: true, rp: 30 }   // mini-assignment ≈ a few questions
     }
     return { completed }
   }, [triggerReaction])

@@ -51,9 +51,9 @@ import NudgeBanner from '../components/NudgeBanner'
 import { getEngagementNudge } from '../hooks/useEngagementNudge'
 
 const MILESTONE_GIFTS = {
-  3:  { rp: 100,  items: {},                       label: '100 ⭐ RP!' },
-  7:  { rp: 250,  items: { apple: 1 },             label: '250 ⭐ RP + 🍎 Apple!' },
-  14: { rp: 500,  items: { ramen: 1 },             label: '500 ⭐ RP + 🍜 Ramen!' },
+  3:  { rp: 50,   items: {},                       label: '50 ⭐ RP!' },
+  7:  { rp: 150,  items: { apple: 1 },             label: '150 ⭐ RP + 🍎 Apple!' },
+  14: { rp: 400,  items: { ramen: 1 },             label: '400 ⭐ RP + 🍜 Ramen!' },
   30: { rp: 1000, items: { sushi: 1, glowAura: 1 }, label: '1000 ⭐ RP + 🍣 Sushi + ✨ Glow Aura!' },
 }
 
@@ -186,8 +186,9 @@ export default function HomeScreen({ navigation }) {
       if (!raw) return
       AsyncStorage.removeItem('@levelUp').catch(() => {})
       const data = JSON.parse(raw)
-      // Award bonus RP for levelling up
-      earnRP(200)
+      // Small bonus for levelling up. Kept low (and flat) so it can't cross the
+      // next level threshold and cascade, and doesn't dwarf actual question RP.
+      earnRP(25)
       setLevelUpModal(data)
     }).catch(() => {})
 

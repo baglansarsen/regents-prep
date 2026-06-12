@@ -15,9 +15,9 @@ import { localDateStr, daysAgoStr } from '../utils/localDate'
 
 // ── Constants ─────────────────────────────────────────────────────────────────
 export const MILESTONES = [
-  { seconds: 600,  rp: 15,  label: '10 min',  reaction: 'celebrate',   message: "10 minutes of studying! Keep it up! 🎉" },
-  { seconds: 1800, rp: 50,  label: '30 min',  reaction: 'happy_dance', message: "30 minutes! You're on fire! 🔥" },
-  { seconds: 3600, rp: 100, label: '1 hour',  reaction: 'cheer',       message: "ONE HOUR! Legendary! 🏆" },
+  { seconds: 600,  rp: 10, label: '10 min',  reaction: 'celebrate',   message: "10 minutes of studying! Keep it up! 🎉" },
+  { seconds: 1800, rp: 25, label: '30 min',  reaction: 'happy_dance', message: "30 minutes! You're on fire! 🔥" },
+  { seconds: 3600, rp: 50, label: '1 hour',  reaction: 'cheer',       message: "ONE HOUR! Legendary! 🏆" },
 ]
 const RP_DRIP_INTERVAL = 60      // award 1 RP every 60 seconds
 const SAVE_INTERVAL    = 30      // persist to storage every 30 seconds

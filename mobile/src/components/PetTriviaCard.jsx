@@ -64,7 +64,7 @@ export default function PetTriviaCard() {
     setAnswered(true)
     await AsyncStorage.setItem(`@triviaDate_v1_${uid}_${subject}`, today()).catch(() => {})
     if (ok) {
-      await earnRP(50)
+      await earnRP(15)   // one question's worth (10) + small daily bonus
       triggerReaction('cheer')
     } else {
       triggerReaction('sad')
