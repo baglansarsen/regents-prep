@@ -42,9 +42,15 @@ const RC_CONFIGURED = !RC_API_KEY_IOS.includes('REPLACE_WITH')
 // Pricing (set in App Store Connect): monthly $4.99 · season (3-month) $9.99 ·
 // yearly $24.99. The Season Pass is the featured plan — it matches the
 // Feb–June Regents study window.
+//
+// IMPORTANT: these must be the exact STORE product identifiers (the immutable
+// Product ID in App Store Connect / RevenueCat), NOT the reference names. The
+// monthly and season IDs are intentionally "off" (com.regentify.app, hearts_season)
+// because that's how they were created in App Store Connect and Product IDs can't
+// be renamed. purchaseX() matches on these directly, so they must stay in sync.
 export const PRODUCT_IDS = {
-  MONTHLY : 'unlimited_hearts_monthly',
-  SEASON  : 'unlimited_hearts_season',   // 3-month auto-renewable
+  MONTHLY : 'com.regentify.app',         // 1-month auto-renewable (legacy store ID)
+  SEASON  : 'hearts_season',             // 3-month auto-renewable
   YEARLY  : 'unlimited_hearts_yearly',
   TIP_5   : 'tip_5',
   TIP_10  : 'tip_10',

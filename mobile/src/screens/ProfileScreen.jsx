@@ -45,7 +45,7 @@ export default function ProfileScreen({ navigation }) {
   const { streak, longestStreak, studiedDates, frozenDates } = useDailyStreak(uid)
   const [showStreakCal, setShowStreakCal] = useState(false)
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
-  const { isSubscribed, isConfigured, presentPaywall } = useSubscription()
+  const { isSubscribed, isConfigured } = useSubscription()
 
   const { subject, setSubject } = useSubject()
 
@@ -304,7 +304,7 @@ export default function ProfileScreen({ navigation }) {
         {(isConfigured || isSubscribed) && (
           <TouchableOpacity
             style={[s.rowCard, cardShadow(C.shadow), { borderColor: isSubscribed ? '#9333EA55' : C.border }]}
-            onPress={presentPaywall}
+            onPress={() => navigation.navigate('Support')}
             activeOpacity={0.85}
           >
             <View style={s.rowLeft}>
