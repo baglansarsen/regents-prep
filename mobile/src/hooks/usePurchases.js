@@ -1,5 +1,6 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { Alert, Platform } from 'react-native'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 
 // Lazy-load RevenueCat — absent on web/Expo Go, present in native builds
 let Purchases = null
@@ -62,29 +63,64 @@ export const PRODUCT_IDS = {
 // silently leaves isSubscribed false even after a successful purchase.
 export const ENTITLEMENT_KEY = 'regentify Unlimited'
 
-const noop = async () => false
+// Last known entitlement, cached so a returning subscriber is treated as premium
+// immediately on launch instead of for the ~moment before getCustomerInfo resolves.
+const SUB_CACHE_KEY = '@isSubscribed_v1'
+
 const isWeb = Platform.OS === 'web'
 
 export function usePurchases(uid) {
   const [isSubscribed, setIsSubscribed] = useState(false)
   const [loading,      setLoading]      = useState(false)
+  // Set true once an authoritative CustomerInfo has been applied, so the async
+  // cache-seed below can't clobber a fresh (e.g. expired) result with a stale one.
+  const settledRef = useRef(false)
+
+  // ── Seed from the cached entitlement on launch ──────────────────────────────
+  // Avoids briefly treating a paying user as free (which would cost them a heart)
+  // during the moment before getCustomerInfo resolves.
+  useEffect(() => {
+    if (isWeb) return
+    AsyncStorage.getItem(SUB_CACHE_KEY).then((v) => {
+      if (v === '1' && !settledRef.current) setIsSubscribed(true)
+    }).catch(() => {})
+  }, [])
 
   // All hooks must be called unconditionally — gate behavior inside them
   useEffect(() => {
     if (isWeb || !Purchases || !RC_CONFIGURED) return
+    let listener = null
+
+    // Authoritative entitlement state → React state + cache.
+    const applyInfo = (info) => {
+      const active = !!info?.entitlements?.active?.[ENTITLEMENT_KEY]
+      settledRef.current = true
+      setIsSubscribed(active)
+      AsyncStorage.setItem(SUB_CACHE_KEY, active ? '1' : '0').catch(() => {})
+    }
+
     async function init() {
       try {
         if (LOG_LEVEL && __DEV__) Purchases.setLogLevel(LOG_LEVEL.VERBOSE)
         const key = Platform.OS === 'ios' ? RC_API_KEY_IOS : RC_API_KEY_ANDROID
         await Purchases.configure({ apiKey: key, appUserID: uid ?? null })
-        const info   = await Purchases.getCustomerInfo()
-        const active = !!info.entitlements.active[ENTITLEMENT_KEY]
-        setIsSubscribed(active)
+        // Keep entitlement state live: renewals, expirations, restores, and
+        // cross-device changes push a fresh CustomerInfo with no app restart.
+        listener = applyInfo
+        Purchases.addCustomerInfoUpdateListener(listener)
+        const info = await Purchases.getCustomerInfo()
+        applyInfo(info)
       } catch (e) {
         console.warn('[Purchases] init error:', e)
       }
     }
     init()
+
+    return () => {
+      if (listener) {
+        try { Purchases.removeCustomerInfoUpdateListener(listener) } catch (_) {}
+      }
+    }
   }, [uid])
 
   const purchaseMonthly = useCallback(async () => {

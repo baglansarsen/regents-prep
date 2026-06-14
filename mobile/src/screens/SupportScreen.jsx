@@ -21,6 +21,12 @@ const FEATURES = [
   '💜  Support a student-built app',
 ]
 
+// Tips are disabled for this release: the store product IDs (tip_jar / TIP_10 /
+// TIP25) don't yet match the code (tip_5 / tip_10 / tip_25), so a tap would fail.
+// Re-enable once the IDs are reconciled. Hiding only the tip card keeps the
+// required subscription disclosures, Restore, and legal links visible.
+const TIPS_ENABLED = false
+
 // App Review 3.1.2(c): paywall must link to a privacy policy AND terms of use.
 const PRIVACY_URL = 'https://regents-prep-mobile.web.app/privacy/'
 const TERMS_URL   = 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/' // Apple standard EULA
@@ -186,6 +192,7 @@ export default function SupportScreen({ navigation }) {
 
         {/* ── Donate section ── */}
         {isConfigured && (<>
+        {TIPS_ENABLED && (<>
         <Text style={[T.label, { color: C.textMuted, marginHorizontal: 16, marginTop: 24, marginBottom: 10 }]}>
           Support the Developer
         </Text>
@@ -211,6 +218,7 @@ export default function SupportScreen({ navigation }) {
             ))}
           </View>
         </View>
+        </>)}
 
         {/* Restore */}
         <TouchableOpacity style={s.restoreBtn} onPress={restorePurchases} disabled={loading}>
