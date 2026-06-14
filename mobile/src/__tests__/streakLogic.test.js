@@ -1,118 +1,122 @@
 /**
  * Streak logic tests
  *
- * computeStreak() is the pure date-math heart of StreakContext.
- * We extract and test it in isolation — no Firebase, no AsyncStorage,
- * no React context needed.
+ * These exercise the REAL production functions from utils/streakMath — the same
+ * code StreakContext runs. (They used to re-implement an out-of-date copy that
+ * tested single-day boolean freezes and UTC dates, so they could pass while the
+ * app behaved differently. Importing the real module keeps them honest.)
  *
- * Scenarios covered:
- *   - studied today → streak maintained, studiedToday: true
- *   - studied yesterday → streak alive, studiedToday: false
- *   - missed one day, freeze active → freeze consumed, streak kept
- *   - missed one day, no freeze → streak broken
- *   - missed two+ days → streak broken regardless of freeze
- *   - brand new user (no lastDate) → streak reset to 0
- *   - milestone detection
- *   - markStudied increments and caps longestStreak
+ * Dates come from utils/localDate so the local-midnight day boundary matches the
+ * app exactly. Tests are relative to "now", so they hold on any day.
  */
 
-// ── Pull the pure function out without importing the full context ──────────────
+import {
+  computeStreak,
+  computeMarkStudied,
+  daysBetweenStr,
+  MILESTONES,
+  HISTORY_DAYS,
+  MAX_FREEZE,
+} from '../utils/streakMath'
+import { localDateStr, daysAgoStr, yesterdayStr } from '../utils/localDate'
 
-function todayStr() { return new Date().toISOString().slice(0, 10) }
-function daysAgoStr(n) {
-  const d = new Date()
-  d.setDate(d.getDate() - n)
-  return d.toISOString().slice(0, 10)
-}
-function yesterdayStr()  { return daysAgoStr(1) }
-function twoDaysAgoStr() { return daysAgoStr(2) }
-function threeDaysAgoStr() { return daysAgoStr(3) }
-
-// Exact copy of the function from StreakContext (kept in sync manually):
-const MILESTONES = [7, 14, 30, 50, 100, 150, 200, 365, 500, 1000]
-
-function computeStreak(data, freezeActive) {
-  const today = todayStr()
-  const yesterday = yesterdayStr()
-  const twoDaysAgo = twoDaysAgoStr()
-
-  if (data.lastDate === today)
-    return { streak: data.streak, studiedToday: true, usedFreeze: false }
-  if (data.lastDate === yesterday)
-    return { streak: data.streak, studiedToday: false, usedFreeze: false }
-  if (data.lastDate === twoDaysAgo && freezeActive && (data.streak ?? 0) > 0)
-    return { streak: data.streak, studiedToday: false, usedFreeze: true, virtualDate: yesterday }
-  return { streak: 0, studiedToday: false, usedFreeze: false, lost: data.streak ?? 0 }
-}
+const todayStr = localDateStr
+const twoDaysAgoStr   = () => daysAgoStr(2)
+const threeDaysAgoStr = () => daysAgoStr(3)
 
 // ── Streak continuation ───────────────────────────────────────────────────────
 
 test('studied today: streak maintained and studiedToday is true', () => {
-  const result = computeStreak({ streak: 5, lastDate: todayStr() }, false)
+  const result = computeStreak({ streak: 5, lastDate: todayStr() }, 0)
   expect(result.streak).toBe(5)
   expect(result.studiedToday).toBe(true)
   expect(result.usedFreeze).toBe(false)
 })
 
 test('studied yesterday: streak alive but studiedToday is false', () => {
-  const result = computeStreak({ streak: 3, lastDate: yesterdayStr() }, false)
+  const result = computeStreak({ streak: 3, lastDate: yesterdayStr() }, 0)
   expect(result.streak).toBe(3)
   expect(result.studiedToday).toBe(false)
   expect(result.usedFreeze).toBe(false)
 })
 
-// ── Freeze logic ──────────────────────────────────────────────────────────────
+// ── Freeze bridging (multi-day, the current model) ────────────────────────────
 
-test('missed exactly one day with freeze active: freeze consumed, streak kept', () => {
-  const result = computeStreak({ streak: 7, lastDate: twoDaysAgoStr() }, true)
+test('missed one day with 1 freeze: freeze consumed, streak kept, yesterday bridged', () => {
+  const result = computeStreak({ streak: 7, lastDate: twoDaysAgoStr() }, 1)
   expect(result.streak).toBe(7)
   expect(result.usedFreeze).toBe(true)
-  expect(result.virtualDate).toBe(yesterdayStr())
+  expect(result.freezesToConsume).toBe(1)
+  expect(result.virtualDates).toEqual([yesterdayStr()])
   expect(result.studiedToday).toBe(false)
 })
 
-test('missed exactly one day WITHOUT freeze: streak broken', () => {
-  const result = computeStreak({ streak: 7, lastDate: twoDaysAgoStr() }, false)
+test('missed two days with 2 freezes: both consumed, gap fully bridged oldest→yesterday', () => {
+  const result = computeStreak({ streak: 10, lastDate: threeDaysAgoStr() }, 2)
+  expect(result.streak).toBe(10)
+  expect(result.usedFreeze).toBe(true)
+  expect(result.freezesToConsume).toBe(2)
+  expect(result.virtualDates).toEqual([twoDaysAgoStr(), yesterdayStr()])
+})
+
+test('missed two days with only 1 freeze: cannot bridge, streak broken', () => {
+  const result = computeStreak({ streak: 10, lastDate: threeDaysAgoStr() }, 1)
+  expect(result.streak).toBe(0)
+  expect(result.usedFreeze).toBe(false)
+  expect(result.lost).toBe(10)
+})
+
+test('missed one day with no freeze: streak broken', () => {
+  const result = computeStreak({ streak: 7, lastDate: twoDaysAgoStr() }, 0)
   expect(result.streak).toBe(0)
   expect(result.usedFreeze).toBe(false)
   expect(result.lost).toBe(7)
 })
 
 test('freeze does NOT save a streak of 0 (nothing to protect)', () => {
-  const result = computeStreak({ streak: 0, lastDate: twoDaysAgoStr() }, true)
+  const result = computeStreak({ streak: 0, lastDate: twoDaysAgoStr() }, 2)
   expect(result.streak).toBe(0)
   expect(result.usedFreeze).toBe(false)
 })
 
-test('after freeze fires, virtualDate becomes new lastDate so streak survives next open', () => {
-  // Simulate: freeze fired yesterday (lastDate was advanced to virtualDate = yesterdayStr())
-  // Today, app opens again without studying — streak must still be alive.
-  const result = computeStreak({ streak: 7, lastDate: yesterdayStr() }, false)
+test('after a freeze bridged to yesterday, next open keeps the streak alive without re-spending', () => {
+  // freeze previously advanced lastDate to yesterday; opening today (no study) must stay alive.
+  const result = computeStreak({ streak: 7, lastDate: yesterdayStr() }, 0)
   expect(result.streak).toBe(7)
   expect(result.studiedToday).toBe(false)
   expect(result.usedFreeze).toBe(false)
 })
 
-test('missed two+ days: freeze cannot save the streak', () => {
-  const result = computeStreak({ streak: 10, lastDate: threeDaysAgoStr() }, true)
-  expect(result.streak).toBe(0)
+// ── Clock skew / timezone travel ──────────────────────────────────────────────
+
+test('lastDate in the future (clock moved back) does NOT break the streak', () => {
+  const tomorrow = daysAgoStr(-1)  // one day ahead of today
+  const result = computeStreak({ streak: 9, lastDate: tomorrow }, 0)
+  expect(result.streak).toBe(9)
+  expect(result.studiedToday).toBe(true)
   expect(result.usedFreeze).toBe(false)
-  expect(result.lost).toBe(10)
 })
 
 // ── New user ──────────────────────────────────────────────────────────────────
 
 test('new user with no lastDate: streak is 0', () => {
-  const result = computeStreak({ streak: 0, lastDate: null }, false)
+  const result = computeStreak({ streak: 0, lastDate: null }, 0)
   expect(result.streak).toBe(0)
   expect(result.studiedToday).toBe(false)
 })
 
-// ── lost value in broken result ───────────────────────────────────────────────
-
 test('broken streak reports correct lost count', () => {
-  const result = computeStreak({ streak: 42, lastDate: threeDaysAgoStr() }, false)
+  const result = computeStreak({ streak: 42, lastDate: threeDaysAgoStr() }, 0)
   expect(result.lost).toBe(42)
+})
+
+// ── daysBetweenStr ────────────────────────────────────────────────────────────
+
+test('daysBetweenStr counts whole calendar days (b - a)', () => {
+  expect(daysBetweenStr('2026-06-10', '2026-06-14')).toBe(4)
+  expect(daysBetweenStr('2026-06-14', '2026-06-14')).toBe(0)
+  // Across a DST spring-forward boundary in US Eastern (2026-03-08) — still 1 day.
+  expect(daysBetweenStr('2026-03-08', '2026-03-09')).toBe(1)
 })
 
 // ── Milestone detection ───────────────────────────────────────────────────────
@@ -125,55 +129,69 @@ test('streak 6 is NOT a milestone', () => {
   expect(MILESTONES.includes(6)).toBe(false)
 })
 
-// ── markStudied logic (pure computation, no side effects) ─────────────────────
-
-function simulateMarkStudied(currentData) {
-  const today = todayStr()
-  if (currentData.lastDate === today) return null // already marked today
-
-  const next = (currentData.streak ?? 0) + 1
-  const prevLong = currentData.longestStreak ?? 0
-  const updated = [...new Set([...(currentData.studiedDates ?? []), today])].slice(-60)
-  const longest = Math.max(prevLong, next)
-  const isRecord = next > prevLong && next > 1
-  const isMilestone = MILESTONES.includes(next)
-
-  return { streak: next, lastDate: today, studiedDates: updated, longestStreak: longest, isRecord, isMilestone }
-}
-
-test('markStudied increments streak by 1', () => {
-  const result = simulateMarkStudied({ streak: 4, lastDate: yesterdayStr(), studiedDates: [], longestStreak: 4 })
-  expect(result.streak).toBe(5)
+test('MAX_FREEZE caps how large a gap can be bridged', () => {
+  // A gap larger than MAX_FREEZE can never be bridged, even with that many freezes.
+  const lastDate = daysAgoStr(MAX_FREEZE + 2)  // missed = MAX_FREEZE + 1
+  const result = computeStreak({ streak: 5, lastDate }, MAX_FREEZE)
+  expect(result.usedFreeze).toBe(false)
+  expect(result.streak).toBe(0)
 })
 
-test('markStudied updates longestStreak when new streak exceeds it', () => {
-  const result = simulateMarkStudied({ streak: 9, lastDate: yesterdayStr(), studiedDates: [], longestStreak: 9 })
-  expect(result.longestStreak).toBe(10)
+// ── computeMarkStudied (the real markStudied computation) ──────────────────────
+
+test('computeMarkStudied increments streak by 1', () => {
+  const { data } = computeMarkStudied({ streak: 4, lastDate: yesterdayStr(), studiedDates: [], longestStreak: 4 })
+  expect(data.streak).toBe(5)
+  expect(data.lastDate).toBe(todayStr())
 })
 
-test('markStudied does NOT lower longestStreak', () => {
-  const result = simulateMarkStudied({ streak: 3, lastDate: yesterdayStr(), studiedDates: [], longestStreak: 20 })
-  expect(result.longestStreak).toBe(20)
+test('computeMarkStudied updates longestStreak when new streak exceeds it', () => {
+  const { data } = computeMarkStudied({ streak: 9, lastDate: yesterdayStr(), studiedDates: [], longestStreak: 9 })
+  expect(data.longestStreak).toBe(10)
 })
 
-test('markStudied returns null if already marked today', () => {
-  const result = simulateMarkStudied({ streak: 5, lastDate: todayStr(), studiedDates: [], longestStreak: 5 })
+test('computeMarkStudied does NOT lower longestStreak', () => {
+  const { data } = computeMarkStudied({ streak: 3, lastDate: yesterdayStr(), studiedDates: [], longestStreak: 20 })
+  expect(data.longestStreak).toBe(20)
+})
+
+test('computeMarkStudied returns null if already marked today', () => {
+  const result = computeMarkStudied({ streak: 5, lastDate: todayStr(), studiedDates: [], longestStreak: 5 })
   expect(result).toBeNull()
 })
 
-test('markStudied flags isMilestone correctly at day 7', () => {
-  const result = simulateMarkStudied({ streak: 6, lastDate: yesterdayStr(), studiedDates: [], longestStreak: 6 })
-  expect(result.isMilestone).toBe(true)
+test('computeMarkStudied handles a null/undefined current record (brand-new user)', () => {
+  const { data } = computeMarkStudied(undefined)
+  expect(data.streak).toBe(1)
+  expect(data.lastDate).toBe(todayStr())
 })
 
-test('markStudied does not flag isMilestone at non-milestone day', () => {
-  const result = simulateMarkStudied({ streak: 8, lastDate: yesterdayStr(), studiedDates: [], longestStreak: 8 })
-  expect(result.isMilestone).toBe(false)
+test('computeMarkStudied flags isMilestone correctly at day 7', () => {
+  const { isMilestone } = computeMarkStudied({ streak: 6, lastDate: yesterdayStr(), studiedDates: [], longestStreak: 6 })
+  expect(isMilestone).toBe(true)
 })
 
-test('markStudied caps studiedDates at 60 entries', () => {
-  const oldDates = Array.from({ length: 60 }, (_, i) => daysAgoStr(61 - i))
-  const result = simulateMarkStudied({ streak: 60, lastDate: yesterdayStr(), studiedDates: oldDates, longestStreak: 60 })
-  expect(result.studiedDates.length).toBe(60)
-  expect(result.studiedDates[result.studiedDates.length - 1]).toBe(todayStr())
+test('computeMarkStudied does not flag isMilestone at a non-milestone day', () => {
+  const { isMilestone } = computeMarkStudied({ streak: 8, lastDate: yesterdayStr(), studiedDates: [], longestStreak: 8 })
+  expect(isMilestone).toBe(false)
+})
+
+test('computeMarkStudied flags isRecord only past day 1', () => {
+  const first = computeMarkStudied({ streak: 0, lastDate: null, studiedDates: [], longestStreak: 0 })
+  expect(first.isRecord).toBe(false)        // day 1 is not a "record"
+  const later = computeMarkStudied({ streak: 5, lastDate: yesterdayStr(), studiedDates: [], longestStreak: 5 })
+  expect(later.isRecord).toBe(true)
+})
+
+test('computeMarkStudied carries frozenDates through (non-merge save would otherwise wipe them)', () => {
+  const frozen = [daysAgoStr(3)]
+  const { data } = computeMarkStudied({ streak: 2, lastDate: yesterdayStr(), studiedDates: [], frozenDates: frozen, longestStreak: 2 })
+  expect(data.frozenDates).toEqual(frozen)
+})
+
+test(`computeMarkStudied caps studiedDates at HISTORY_DAYS (${HISTORY_DAYS}) entries`, () => {
+  const oldDates = Array.from({ length: HISTORY_DAYS }, (_, i) => daysAgoStr(HISTORY_DAYS + 1 - i))
+  const { data } = computeMarkStudied({ streak: HISTORY_DAYS, lastDate: yesterdayStr(), studiedDates: oldDates, longestStreak: HISTORY_DAYS })
+  expect(data.studiedDates.length).toBe(HISTORY_DAYS)
+  expect(data.studiedDates[data.studiedDates.length - 1]).toBe(todayStr())
 })

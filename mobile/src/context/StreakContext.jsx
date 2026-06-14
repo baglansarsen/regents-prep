@@ -4,7 +4,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { db } from '../firebase'
 import { useAuthContext } from './AuthContext'
 import { logActivity } from '../utils/activityLogger'
-import { localDateStr, daysAgoStr, yesterdayStr, last7Days } from '../utils/localDate'
+import { localDateStr, yesterdayStr, daysAgoStr, last7Days } from '../utils/localDate'
+import { computeStreak, computeMarkStudied, HISTORY_DAYS, MAX_FREEZE } from '../utils/streakMath'
 
 /**
  * StreakContext — single source of truth for the daily study streak.
@@ -24,53 +25,14 @@ import { localDateStr, daysAgoStr, yesterdayStr, last7Days } from '../utils/loca
 
 const AS_KEY     = '@regents_streak_v1'
 const FREEZE_KEY = '@streakFreeze_v2'   // v2: stores a count string ('0'|'1'|'2') instead of boolean
-const MAX_FREEZE = 2
 export const FREEZE_COST = 200          // RP to buy one streak freeze
-// How many days of studied/frozen history to retain — drives how far back the
-// streak calendar can render (was 60; ~180 short date strings is a few KB).
-const HISTORY_DAYS = 180
-
-// Streak lengths that earn the heightened "milestone" celebration variant.
-const MILESTONES = [7, 14, 30, 50, 100, 150, 200, 365, 500, 1000]
 
 // ── Date helpers ────────────────────────────────────────────────────────────
 // All day boundaries are LOCAL (see utils/localDate). `todayStr` is kept as a
-// thin local alias so the rest of this file reads unchanged.
+// thin local alias so the rest of this file reads unchanged. The freeze-aware
+// streak math (computeStreak/computeMarkStudied) and the MILESTONES/HISTORY_DAYS/
+// MAX_FREEZE constants now live in utils/streakMath so tests share the real code.
 const todayStr = localDateStr
-
-// ── Streak computation (freeze-aware) ─────────────────────────────────────────
-// Whole days between two `YYYY-MM-DD` strings (b - a), computed on local calendar
-// dates so DST shifts can't introduce a ±1 error.
-function daysBetweenStr(aStr, bStr) {
-  const [ay, am, ad] = aStr.split('-').map(Number)
-  const [by, bm, bd] = bStr.split('-').map(Number)
-  return Math.round((new Date(by, bm - 1, bd) - new Date(ay, am - 1, ad)) / 86_400_000)
-}
-
-// `freezeCount` is the number of freezes currently stored (0–2). A freeze can
-// bridge a gap of up to that many missed days, not just a single day.
-function computeStreak(data, freezeCount) {
-  const today = todayStr(), yesterday = yesterdayStr()
-
-  if (data.lastDate === today)     return { streak: data.streak, studiedToday: true,  usedFreeze: false }
-  if (data.lastDate === yesterday) return { streak: data.streak, studiedToday: false, usedFreeze: false }
-
-  // Missed one or more days — freezes can bridge the gap if we have enough.
-  if (data.lastDate && (data.streak ?? 0) > 0) {
-    const missed = daysBetweenStr(data.lastDate, today) - 1   // days needing a freeze
-    if (missed >= 1 && missed <= freezeCount) {
-      // Fill each missed day (oldest → yesterday) with a virtual studied date.
-      const virtualDates = []
-      for (let i = missed; i >= 1; i--) virtualDates.push(daysAgoStr(i))
-      return {
-        streak: data.streak, studiedToday: false, usedFreeze: true,
-        freezesToConsume: missed, virtualDates,
-      }
-    }
-  }
-  // Streak broken — remember what was lost so it can be offered for repair.
-  return { streak: 0, studiedToday: false, usedFreeze: false, lost: data.streak ?? 0 }
-}
 
 const StreakContext = createContext(null)
 
@@ -109,8 +71,16 @@ export function StreakProvider({ children }) {
         const cached = JSON.parse(raw)
         const r = computeStreak(cached, 0) // freeze unknown yet — conservative (no bridging)
         if (!dataRef.current) {
-          setStreak(r.streak)
-          setStudiedToday(r.studiedToday)
+          // Don't optimistically flash a streak down to 0: with the freeze count
+          // still unknown a freeze may yet bridge the gap, and the authoritative
+          // load below settles the true value. Paint the number only when the
+          // cache alone proves the streak is alive (studied today/yesterday) or
+          // there's genuinely nothing to lose (cached streak already 0).
+          const wouldDowngrade = r.streak === 0 && (cached.streak ?? 0) > 0
+          if (!wouldDowngrade) {
+            setStreak(r.streak)
+            setStudiedToday(r.studiedToday)
+          }
           setStudiedDates(cached.studiedDates ?? [])
           setFrozenDates(cached.frozenDates ?? [])
           setLongestStreak(cached.longestStreak ?? r.streak)
@@ -119,10 +89,16 @@ export function StreakProvider({ children }) {
       } catch {}
     }).catch(() => {})
 
-    Promise.all([loadStreak(uid), AsyncStorage.getItem(FREEZE_KEY)]).then(([data, freezeRaw]) => {
+    Promise.all([loadStreak(uid), AsyncStorage.getItem(FREEZE_KEY), loadFirestoreFreeze(uid)]).then(([data, freezeRaw, remoteFreeze]) => {
       if (cancelled) return
-      const count = Math.min(MAX_FREEZE, Math.max(0, parseInt(freezeRaw ?? '0', 10) || 0))
+      // Freezes are a paid (RP) item, so the cloud value must win on reinstall /
+      // new device where AsyncStorage is empty. Reconcile local + remote by taking
+      // the larger (never silently destroy a purchased freeze), clamp to the cap,
+      // then write the reconciled value back to local cache so both agree.
+      const localCount = Math.max(0, parseInt(freezeRaw ?? '0', 10) || 0)
+      const count = Math.min(MAX_FREEZE, Math.max(localCount, remoteFreeze ?? 0))
       setFreezeCount(count)
+      if (count !== localCount) AsyncStorage.setItem(FREEZE_KEY, String(count)).catch(() => {})
 
       // Race guard: if a lesson was completed while this load was in flight,
       // markStudied() already extended the streak to today and persisted it.
@@ -141,7 +117,29 @@ export function StreakProvider({ children }) {
       setLongestStreak(longest)
       const priorFrozen = data.frozenDates ?? []
 
-      if (studiedTodayAlready) return  // keep the just-extended state intact
+      if (studiedTodayAlready) {
+        // Both local and remote already count today. Adopt the remote record only
+        // if it's genuinely ahead — i.e. today was studied on another device and
+        // carries a longer streak. Otherwise the local value is the fresher truth
+        // (e.g. a lesson finished mid-load whose write hasn't propagated), so the
+        // pre-lesson remote read must not overwrite it.
+        if (data.lastDate === todayStr() && (data.streak ?? 0) > (dataRef.current?.streak ?? 0)) {
+          const merged = {
+            streak:        data.streak,
+            lastDate:      data.lastDate,
+            studiedDates:  data.studiedDates ?? dataRef.current?.studiedDates ?? [],
+            frozenDates:   data.frozenDates  ?? dataRef.current?.frozenDates  ?? [],
+            longestStreak: longest,
+          }
+          dataRef.current = merged
+          setStreak(merged.streak)
+          setStudiedToday(true)
+          setStudiedDates(merged.studiedDates)
+          setFrozenDates(merged.frozenDates)
+          saveStreak(uid, merged)  // keep local cache in sync with the adopted value
+        }
+        return
+      }
 
       const r = computeStreak(data, count)
 
@@ -180,35 +178,25 @@ export function StreakProvider({ children }) {
   // ── Extend the streak on the first completed lesson of the day (hybrid) ─────
   const markStudied = useCallback(() => {
     if (!uid) return
-    const today = todayStr()
-    const cur = dataRef.current ?? { streak: 0, lastDate: null, studiedDates: [], frozenDates: [], longestStreak: 0 }
-    if (cur.lastDate === today) return  // already extended today
-
-    const next     = (cur.streak ?? 0) + 1
-    const prevLong = cur.longestStreak ?? 0
-    const updated  = [...new Set([...(cur.studiedDates ?? []), today])].slice(-HISTORY_DAYS)
-    const longest  = Math.max(prevLong, next)
-    const isRecord = next > prevLong && next > 1
-    const isMilestone = MILESTONES.includes(next)
-    // Carry frozenDates through — saveStreak is a non-merge setDoc, so omitting
-    // it would wipe the persisted freeze history.
-    const nd = { streak: next, lastDate: today, studiedDates: updated, frozenDates: cur.frozenDates ?? [], longestStreak: longest }
+    const res = computeMarkStudied(dataRef.current)
+    if (!res) return  // already extended today
+    const { data: nd, isRecord, isMilestone } = res
 
     dataRef.current = nd
-    setStreak(next)
+    setStreak(nd.streak)
     setStudiedToday(true)
-    setStudiedDates(updated)
-    setLongestStreak(longest)
+    setStudiedDates(nd.studiedDates)
+    setLongestStreak(nd.longestStreak)
     saveStreak(uid, nd)
 
     // Log streak activity
     if (isMilestone) {
-      logActivity(uid, 'streak_milestone', `Reached ${next}-day streak! 🔥`, { streak: next, isRecord })
+      logActivity(uid, 'streak_milestone', `Reached ${nd.streak}-day streak! 🔥`, { streak: nd.streak, isRecord })
     } else {
-      logActivity(uid, 'streak_extended', `Continued ${next}-day streak`, { streak: next })
+      logActivity(uid, 'streak_extended', `Continued ${nd.streak}-day streak`, { streak: nd.streak })
     }
 
-    setPendingEvent({ type: 'continued', streak: next, isRecord, isMilestone })
+    setPendingEvent({ type: 'continued', streak: nd.streak, isRecord, isMilestone })
   }, [uid])
 
   const clearEvent = useCallback(() => setPendingEvent(null), [])
@@ -232,7 +220,14 @@ export function StreakProvider({ children }) {
     const ok = await spendRP(cost)
     if (!ok) return 'insufficient_xp'
     const yesterday = yesterdayStr()
-    const updated = [...new Set([...(dataRef.current?.studiedDates ?? []), yesterday])].slice(-HISTORY_DAYS)
+    // Backfill the whole restored run (the `lost` consecutive days ending
+    // yesterday) so the calendar visually matches the restored streak number —
+    // not just yesterday. Sort then keep the most recent HISTORY_DAYS, since we
+    // may be inserting dates older than the existing tail.
+    const restoredDates = Array.from({ length: lost }, (_, i) => daysAgoStr(lost - i)) // daysAgoStr(lost) … daysAgoStr(1)
+    const updated = [...new Set([...(dataRef.current?.studiedDates ?? []), ...restoredDates])]
+      .sort()
+      .slice(-HISTORY_DAYS)
     const longest = Math.max(longestStreak, lost)
     const nd = { streak: lost, lastDate: yesterday, studiedDates: updated, frozenDates: dataRef.current?.frozenDates ?? [], longestStreak: longest }
     dataRef.current = nd
@@ -290,4 +285,17 @@ async function saveStreak(uid, data) {
 
 async function saveFirestoreFreeze(uid, count) {
   try { await setDoc(doc(db, 'users', uid), { streakFreezeCount: count }, { merge: true }) } catch {}
+}
+
+// Read the cloud-persisted freeze count (written by saveFirestoreFreeze). Returns
+// null when unavailable/unset so the caller can fall back to the local value.
+async function loadFirestoreFreeze(uid) {
+  try {
+    const snap = await getDoc(doc(db, 'users', uid))
+    if (snap.exists()) {
+      const n = snap.data()?.streakFreezeCount
+      if (typeof n === 'number' && Number.isFinite(n)) return Math.max(0, Math.floor(n))
+    }
+  } catch {}
+  return null
 }
