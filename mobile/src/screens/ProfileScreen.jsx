@@ -131,6 +131,8 @@ export default function ProfileScreen({ navigation }) {
           ? 'Incorrect password. Please try again.'
           : e?.code === 'auth/requires-recent-login'
           ? 'For your security, please sign out, sign back in, and try again.'
+          : e?.code === 'DELETE_INCOMPLETE'
+          ? 'We couldn’t remove all of your data (you may be offline). Your account is still intact — please check your connection and try again.'
           : (e?.message || 'Could not delete your account. Please try again.')
       Alert.alert('Delete Failed', msg)
     }

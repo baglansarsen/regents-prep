@@ -1,8 +1,14 @@
 /**
- * deleteUserData — best-effort removal of a user's personal data from Firestore
- * before their auth account is deleted. Must run while the user is still
- * authenticated (security rules require it). Each subcollection's documents are
- * removed in batches; top-level docs are deleted individually.
+ * deleteUserData — removal of a user's personal data from Firestore before their
+ * auth account is deleted. Must run while the user is still authenticated
+ * (security rules require it). Each subcollection's documents are removed in
+ * batches; top-level docs are deleted individually.
+ *
+ * Every target is attempted (one failure doesn't skip the rest), but if ANY
+ * delete fails the function throws `DELETE_INCOMPLETE`. The caller MUST NOT
+ * delete the auth account when this throws — doing so would orphan the
+ * still-present personal data forever (rules block cleanup once auth.uid is
+ * gone). Failing loudly lets the user retry; the operation is idempotent.
  */
 import { db } from '../firebase'
 import { doc, deleteDoc, collection, getDocs, writeBatch } from 'firebase/firestore'
@@ -29,9 +35,18 @@ async function deleteCollectionDocs(colRef) {
 
 export async function deleteUserData(uid) {
   if (!uid) return
+  const failures = []
   for (const sub of USER_SUBCOLLECTIONS) {
-    await deleteCollectionDocs(collection(db, 'users', uid, sub)).catch(() => {})
+    try { await deleteCollectionDocs(collection(db, 'users', uid, sub)) }
+    catch (e) { failures.push([`users/${uid}/${sub}`, e]) }
   }
-  await deleteDoc(doc(db, 'users', uid)).catch(() => {})
-  await deleteDoc(doc(db, 'leaderboard', uid)).catch(() => {})
+  try { await deleteDoc(doc(db, 'users', uid)) }       catch (e) { failures.push([`users/${uid}`, e]) }
+  try { await deleteDoc(doc(db, 'leaderboard', uid)) } catch (e) { failures.push([`leaderboard/${uid}`, e]) }
+
+  if (failures.length) {
+    const err = new Error(`Could not delete: ${failures.map(([path]) => path).join(', ')}`)
+    err.code = 'DELETE_INCOMPLETE'
+    err.causes = failures
+    throw err
+  }
 }

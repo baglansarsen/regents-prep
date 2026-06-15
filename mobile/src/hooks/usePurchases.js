@@ -71,6 +71,23 @@ const SUB_CACHE_KEY = '@isSubscribed_v1'
 
 const isWeb = Platform.OS === 'web'
 
+// RevenueCat is a process-wide singleton: `configure()` may only run once per
+// launch, so account switches after the first configure must go through
+// logIn()/logOut(), not another configure(). This flag tracks whether the SDK
+// has been started so the effect below knows which path to take.
+let _rcStarted = false
+
+/**
+ * Reset RevenueCat to an anonymous identity on sign-out. Without this the SDK
+ * keeps the previous user's appUserID, so on a shared device the next account
+ * is reported as owning the prior user's entitlement (and recorded Premium in
+ * their leaderboard doc). Call from the auth sign-out / delete paths.
+ */
+export async function logOutPurchases() {
+  if (isWeb || !Purchases || !RC_CONFIGURED || !_rcStarted) return
+  try { await Purchases.logOut() } catch (_) {} // throws if already anonymous — harmless
+}
+
 export function usePurchases(uid) {
   const [isSubscribed, setIsSubscribed] = useState(false)
   const [loading,      setLoading]      = useState(false)
@@ -108,7 +125,17 @@ export function usePurchases(uid) {
       try {
         if (LOG_LEVEL && __DEV__) Purchases.setLogLevel(LOG_LEVEL.VERBOSE)
         const key = Platform.OS === 'ios' ? RC_API_KEY_IOS : RC_API_KEY_ANDROID
-        await Purchases.configure({ apiKey: key, appUserID: uid ?? null })
+        if (!_rcStarted) {
+          // First launch this process: configure (once) with the current user.
+          await Purchases.configure({ apiKey: key, appUserID: uid ?? null })
+          _rcStarted = true
+        } else if (uid) {
+          // Already configured (e.g. a previous account signed out): switch
+          // identity so this user sees THEIR entitlements, not the prior user's.
+          await Purchases.logIn(uid)
+        } else {
+          await Purchases.logOut() // signed out → drop to anonymous
+        }
         // Keep entitlement state live: renewals, expirations, restores, and
         // cross-device changes push a fresh CustomerInfo with no app restart.
         listener = applyInfo

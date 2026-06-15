@@ -17,6 +17,7 @@ import { auth } from '../firebase'
 import { useAuthContext } from '../context/AuthContext'
 import { deleteUserData } from '../utils/deleteUserData'
 import { clearLocalUserData } from '../utils/clearLocalUserData'
+import { logOutPurchases } from './usePurchases'
 
 // Lazy-load to avoid TurboModuleRegistry crash when native module is absent
 let _GoogleSignin = null
@@ -152,6 +153,9 @@ export function useAuth() {
     // Wipe non-uid-scoped local caches first so the next account on this device
     // doesn't paint this user's streak/RP/pet from stale storage.
     await clearLocalUserData()
+    // Reset RevenueCat to anonymous — otherwise the SDK keeps this user's
+    // appUserID and the next account is reported (and recorded) as Premium.
+    await logOutPurchases()
     await signOut(auth)
   }
 
@@ -186,10 +190,18 @@ export function useAuth() {
     }
     // Anonymous users have no credential to re-authenticate; deleteUser() works directly.
 
-    // Remove Firestore data while still authenticated, then delete the auth account.
+    // Remove Firestore data while still authenticated. This throws
+    // DELETE_INCOMPLETE if anything failed — in that case we must NOT delete the
+    // auth account (it would orphan the surviving data forever), so let the error
+    // propagate and leave the account intact for a retry.
     await deleteUserData(u.uid)
-    await clearLocalUserData()
+
+    // Only now is it safe to delete the auth account and wipe local state. Doing
+    // the local wipe *after* deleteUser means a failed deletion leaves the
+    // still-signed-in user's local data intact rather than silently destroying it.
     await deleteUser(u)
+    await logOutPurchases()
+    await clearLocalUserData()
   }
 
   return {

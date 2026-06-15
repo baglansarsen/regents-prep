@@ -23,6 +23,10 @@ const EXACT_KEYS = [
   '@doubleRPBoost_v1',
   '@levelUp',
   '@isSubscribed_v1',   // cached entitlement — clear so the next account isn't briefly shown as Premium
+  '@selected_subject',  // SubjectContext reads this BEFORE Firestore, so a leftover value makes the
+                        // next user study the wrong subject — and setSubject would sync it into THEIR account
+  '@regents_notifications_v2', // per-user reminder opt-in/schedule; leaving it lets the next user inherit
+                               // (or lose) notifications they never configured
 ]
 
 const PREFIXES = [
