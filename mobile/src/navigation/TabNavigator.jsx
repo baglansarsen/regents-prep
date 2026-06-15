@@ -11,6 +11,7 @@ import FriendsStack  from './FriendsStack'
 import ProfileStack  from './ProfileStack'
 import GlobalTopBar  from '../components/GlobalTopBar'
 import StreakCelebrationHost from '../components/StreakCelebrationHost'
+import TourHost from '../components/TourHost'
 
 const Tab = createBottomTabNavigator()
 
@@ -85,6 +86,7 @@ export default function TabNavigator() {
         />
       </Tab.Navigator>
       <StreakCelebrationHost />
+      <TourHost />
     </View>
   )
 }

@@ -373,6 +373,24 @@ export default function ProfileScreen({ navigation }) {
           <Text style={[T.body, { color: C.textMuted }]}>›</Text>
         </TouchableOpacity>
 
+        {/* ── How it works — replay the intro carousel ── */}
+        <TouchableOpacity
+          style={[s.rowCard, cardShadow(C.shadow)]}
+          onPress={() => navigation.navigate('Introduction')}
+          activeOpacity={0.85}
+        >
+          <View style={s.rowLeft}>
+            <Text style={{ fontSize: 28 }}>💡</Text>
+            <View style={{ marginLeft: 12 }}>
+              <Text style={[T.h3, { color: C.text }]}>How It Works</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                Replay the welcome walkthrough
+              </Text>
+            </View>
+          </View>
+          <Text style={[T.body, { color: C.textMuted }]}>›</Text>
+        </TouchableOpacity>
+
         {/* ── Notifications ── */}
         <Text style={[T.label, { color: C.textMuted, marginHorizontal: 16, marginBottom: 8 }]}>Notifications</Text>
         <View style={[s.settingsCard, cardShadow(C.shadow)]}>

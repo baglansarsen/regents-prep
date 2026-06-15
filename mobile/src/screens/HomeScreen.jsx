@@ -40,6 +40,7 @@ import PetStatusBars from '../components/PetStatusBars'
 import PetTriviaCard from '../components/PetTriviaCard'
 import { usePetContext } from '../context/PetContext'
 import { useSpeechContext, loadDailyMessage } from '../context/SpeechContext'
+import { useTour, useTourTarget } from '../context/TourContext'
 import { FOOD_ITEMS } from '../data/petConfig'
 import { PET_RESULTS } from '../data/petPersonality'
 import PlacementTestScreen from './PlacementTestScreen'
@@ -120,6 +121,21 @@ export default function HomeScreen({ navigation }) {
   // its temporal dead zone at render time (crashes HomeScreen).
   const { pet, pendingEvolution, getPetMessage, dailyDig, getTodayQuest, updateQuestProgress, triggerReaction, addInventory, studyBoost } = usePetContext()
   const { say } = useSpeechContext()
+
+  // ── Guided tour anchors + scroll wiring ─────────────────────────────────────
+  const tour       = useTour()
+  const petTarget  = useTourTarget('pet')
+  const gridTarget = useTourTarget('quickGrid')
+  const scrollRef  = useRef(null)
+  const tourTargetY = useRef({})   // { pet, quickGrid } content-relative Y for scroll-into-view
+  useEffect(() => {
+    tour.registerScroller({
+      scrollTo: (id) => {
+        const y = tourTargetY.current[id]
+        if (y != null) scrollRef.current?.scrollTo({ y: Math.max(0, y - 120), animated: true })
+      },
+    })
+  }, [tour])
 
   // ── Regents goal + predicted score + smart daily quest ─────────────────────
   // (Also before the focus effect: smartQuestDef appears in its deps array.)
@@ -253,6 +269,16 @@ export default function HomeScreen({ navigation }) {
       .then((val) => setPlacementDone(!!val))
       .catch(() => setPlacementDone(true))  // fail open — don't block lessons
   }, [uid])
+
+  // ── First-run guided tour — start once Home is focused & targets exist ──────
+  useFocusEffect(useCallback(() => {
+    if (user?.isAnonymous) return
+    if (!tour.doneLoaded || tour.tourDone || tour.isActive) return
+    if (!pet.chosen) return
+    if (placementDone === false || showPlacement) return   // don't clash with the placement modal
+    const id = setTimeout(() => { tour.maybeStartFirstRun() }, 900)  // let top bar + widgets mount/measure
+    return () => clearTimeout(id)
+  }, [user, pet.chosen, placementDone, showPlacement, tour.doneLoaded, tour.tourDone, tour.isActive]))
 
   // ── Daily goal celebration ────────────────────────────────────────────────
   useEffect(() => {
@@ -570,7 +596,7 @@ export default function HomeScreen({ navigation }) {
   return (
     <SafeAreaView style={s.safe} edges={['bottom']}>
 
-      <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={s.scroll}>
+      <ScrollView ref={scrollRef} showsVerticalScrollIndicator={false} contentContainerStyle={s.scroll}>
 
         {/* Greeting + status bar */}
         <View style={s.header}>
@@ -744,7 +770,11 @@ export default function HomeScreen({ navigation }) {
 
         {/* StudyBuddy pet */}
         {pet.chosen && (
-          <View style={s.petSection}>
+          <View
+            style={s.petSection}
+            {...petTarget}
+            onLayout={(e) => { tourTargetY.current.pet = e.nativeEvent.layout.y }}
+          >
             <View style={s.petRow}>
               <PetWidget size={90} onLongPress={() => navigation.navigate('PetShop')} />
               
@@ -827,7 +857,11 @@ export default function HomeScreen({ navigation }) {
 
         {/* Quick actions — 2×2 grid */}
         <Text style={[sectionLabel(C), { paddingHorizontal: 20, marginBottom: 12 }]}>Quick Practice</Text>
-        <View style={s.quickGrid}>
+        <View
+          style={s.quickGrid}
+          {...gridTarget}
+          onLayout={(e) => { tourTargetY.current.quickGrid = e.nativeEvent.layout.y }}
+        >
           <TouchableOpacity style={[s.quickBtn, duoBtn(C.brand, C.brandDark)]} onPress={() => startQuiz(null)}>
             <Text style={s.quickIcon}>⚡</Text>
             <Text style={[T.btn, { color: '#fff', fontSize: 11 }]}>Quick{'\n'}Quiz</Text>

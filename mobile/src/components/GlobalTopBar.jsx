@@ -10,6 +10,7 @@ import { useLivesContext } from '../context/LivesContext'
 import { SUBJECTS, SUBJECT_META } from '../content/subjects'
 import { useDoubleRP } from '../context/DoubleRPContext'
 import { useRewardedAd } from '../hooks/useRewardedAd'
+import { useTourTarget } from '../context/TourContext'
 import { T } from '../styles/duo'
 import RewardsSheet from './RewardsSheet'
 
@@ -41,6 +42,11 @@ export default function GlobalTopBar() {
   const [dropdownOpen, setDropdownOpen] = useState(false)
   // null = closed; 'streak' | 'rp' | 'lives' = focused section
   const [sheet, setSheet] = useState(null)
+
+  // Tour anchors — spread onto the stat pills so the guided tour can spotlight them.
+  const streakTarget = useTourTarget('streak')
+  const rpTarget     = useTourTarget('rp')
+  const livesTarget  = useTourTarget('lives')
 
   const { subject, setSubject }                          = useSubject()
   const { streak }                                       = useDailyStreak(uid)
@@ -79,6 +85,7 @@ export default function GlobalTopBar() {
 
         {/* 🔥 Streak — taps open sheet focused on streak */}
         <TouchableOpacity
+          {...streakTarget}
           style={s.stat}
           onPress={() => setSheet('streak')}
           activeOpacity={0.75}
@@ -91,6 +98,7 @@ export default function GlobalTopBar() {
 
         {/* ⭐ RP — taps open sheet focused on RP & power-ups */}
         <TouchableOpacity
+          {...rpTarget}
           style={s.stat}
           onPress={() => setSheet('rp')}
           activeOpacity={0.75}
@@ -106,6 +114,7 @@ export default function GlobalTopBar() {
         {/* ❤️ Lives — taps open sheet focused on lives (unless subscribed/full) */}
         {isSubscribed ? (
           <TouchableOpacity
+            {...livesTarget}
             style={s.stat}
             onPress={() => setSheet('lives')}
             activeOpacity={0.75}
@@ -116,6 +125,7 @@ export default function GlobalTopBar() {
           </TouchableOpacity>
         ) : (
           <TouchableOpacity
+            {...livesTarget}
             style={s.stat}
             onPress={() => setSheet('lives')}
             activeOpacity={0.8}

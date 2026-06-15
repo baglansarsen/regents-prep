@@ -20,6 +20,7 @@ import { SubscriptionProvider } from './src/context/SubscriptionContext'
 import { PetProvider }    from './src/context/PetContext'
 import { SpeechProvider } from './src/context/SpeechContext'
 import { StreakProvider } from './src/context/StreakContext'
+import { TourProvider } from './src/context/TourContext'
 import AppNavigator from './src/navigation/AppNavigator'
 import { GoalNotificationBridge } from './src/hooks/useGoalNotificationScheduler'
 import { requestAdTracking } from './src/utils/adTracking'
@@ -118,9 +119,11 @@ export default function App() {
               <LivesProvider>
                 <PetProvider>
                   <SpeechProvider>
-                    <StreakProvider>
-                      <Inner />
-                    </StreakProvider>
+                    <TourProvider>
+                      <StreakProvider>
+                        <Inner />
+                      </StreakProvider>
+                    </TourProvider>
                   </SpeechProvider>
                 </PetProvider>
               </LivesProvider>
