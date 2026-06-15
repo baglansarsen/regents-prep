@@ -22,6 +22,7 @@ const EXACT_KEYS = [
   '@petData_v1', '@petPendingEvo_v1',
   '@doubleRPBoost_v1',
   '@levelUp',
+  '@isSubscribed_v1',   // cached entitlement — clear so the next account isn't briefly shown as Premium
 ]
 
 const PREFIXES = [
