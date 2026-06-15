@@ -4,6 +4,14 @@ service cloud.firestore {
 
     // ── Helpers ──────────────────────────────────────────────────────────────
 
+    // True if the requester is the app owner/admin. Email comes from the verified
+    // Firebase Auth token (present for Google + email-password sign-in). Powers the
+    // admin dashboard's read-only access to analytics + any user's study data.
+    function isAdmin() {
+      return request.auth != null &&
+             request.auth.token.email == 'baglan.sarsen@gmail.com';
+    }
+
     // True if the requesting user is the teacher of the classroom that
     // student `studentUid` belongs to. Uses two cached get() calls.
     function isTeacherOfStudent(teacherUid, studentUid) {
@@ -25,10 +33,12 @@ service cloud.firestore {
     match /users/{userId} {
       allow read, write: if request.auth != null && request.auth.uid == userId;
       allow read:        if request.auth != null && isTeacherOfStudent(request.auth.uid, userId);
+      allow read:        if isAdmin();
 
       match /{subcollection}/{docId} {
         allow read, write: if request.auth != null && request.auth.uid == userId;
         allow read:        if request.auth != null && isTeacherOfStudent(request.auth.uid, userId);
+        allow read:        if isAdmin();   // admin dashboard: read any user's quizHistory, etc.
       }
 
       // Friends subcollection — owner has full access (covered above); in
@@ -133,7 +143,8 @@ service cloud.firestore {
     // Read via Firebase console / Admin SDK only.
     match /events/{eventId} {
       allow create: if request.auth != null;
-      allow read, update, delete: if false;
+      allow read:   if isAdmin();   // admin dashboard analytics
+      allow update, delete: if false;
     }
 
     // Question reports — anyone authenticated can read and write

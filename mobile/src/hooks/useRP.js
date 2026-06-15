@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
+import { Platform } from 'react-native'
 import { doc, getDoc, setDoc, increment } from 'firebase/firestore'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { auth, db } from '../firebase'
@@ -202,6 +203,8 @@ export function useRP(uid) {
         lbUpdate.lastWeekKey = lastWeekKey
       }
       lbUpdate.displayName = auth.currentUser?.displayName ?? 'Student'
+      lbUpdate.updatedAt   = Date.now()
+      lbUpdate.platform    = Platform.OS   // 'ios' | 'android' — lets admin filter mobile vs web
       await setDoc(doc(db, 'leaderboard', uid), lbUpdate, { merge: true })
     } catch {}
 

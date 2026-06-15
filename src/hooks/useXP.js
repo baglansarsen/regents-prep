@@ -84,9 +84,11 @@ export function useXP(uid) {
     // Sync to public leaderboard (same path mobile writes)
     try {
       const lbUpdate = {
-        xp:       nextTotal,
-        weeklyXP: isNewWeek ? earned : prevWeekly + earned,
-        weekKey:  week,
+        xp:        nextTotal,
+        weeklyXP:  isNewWeek ? earned : prevWeekly + earned,
+        weekKey:   week,
+        updatedAt: Date.now(),   // real last-active signal (admin "active today/week")
+        platform:  'web',        // lets the admin dashboard split web vs ios/android
       }
       if (lastWeekXP !== null) {
         lbUpdate.lastWeekXP  = lastWeekXP

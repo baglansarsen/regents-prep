@@ -3,6 +3,7 @@ import {
   collection, getDocs, getDoc, doc,
   query, orderBy, where, limit, Timestamp,
 } from 'firebase/firestore'
+// orderBy/query/where/limit/Timestamp are used by the events + per-user detail queries.
 import { db } from '../firebase'
 
 export const ADMIN_EMAIL = 'baglan.sarsen@gmail.com'
@@ -38,6 +39,20 @@ const SUBJECT_LABELS = {
   'english':            'English',
   'chemistry':          'Chemistry',
   'physics':            'Physics',
+}
+
+// ── Platform filter ───────────────────────────────────────────────────────────
+
+const PLATFORMS = [
+  { id: 'all',     label: 'All' },
+  { id: 'ios',     label: '📱 iOS' },
+  { id: 'android', label: '🤖 Android' },
+  { id: 'web',     label: '🌐 Web' },
+]
+
+function filterByPlatform(users, platform) {
+  if (platform === 'all') return users
+  return users.filter(u => u.platform === platform)
 }
 
 // ── Sub-components ────────────────────────────────────────────────────────────
@@ -124,10 +139,10 @@ function OverviewTab({ users }) {
 
 // ── Engagement Tab ────────────────────────────────────────────────────────────
 
-function EngagementTab() {
-  const [days,    setDays]    = useState(30)
-  const [events,  setEvents]  = useState([])
-  const [loading, setLoading] = useState(true)
+function EngagementTab({ platform }) {
+  const [days,      setDays]      = useState(30)
+  const [rawEvents, setRawEvents] = useState([])
+  const [loading,   setLoading]   = useState(true)
 
   const loadEvents = useCallback(async (d) => {
     setLoading(true)
@@ -136,16 +151,20 @@ function EngagementTab() {
       const snap = await getDocs(
         query(collection(db, 'events'), where('ts', '>=', cutoff), orderBy('ts', 'desc'), limit(500))
       )
-      setEvents(snap.docs.map(doc => doc.data()))
+      setRawEvents(snap.docs.map(doc => doc.data()))
     } catch (e) {
       console.warn('[Admin] events load error:', e)
-      setEvents([])
+      setRawEvents([])
     } finally {
       setLoading(false)
     }
   }, [])
 
   useEffect(() => { loadEvents(days) }, [days, loadEvents])
+
+  const events = platform === 'all'
+    ? rawEvents
+    : rawEvents.filter(e => e.platform === platform)
 
   // Goals
   const goalEvents    = events.filter(e => e.name === 'goal_committed')
@@ -381,13 +400,18 @@ function UsersTab({ users }) {
 // ── Root AdminScreen ───────────────────────────────────────────────────────────
 
 export default function AdminScreen({ user, onHome }) {
-  const [users,   setUsers]   = useState([])
-  const [loading, setLoading] = useState(true)
-  const [tab,     setTab]     = useState('overview')
+  const [users,    setUsers]    = useState([])
+  const [loading,  setLoading]  = useState(true)
+  const [tab,      setTab]      = useState('overview')
+  const [platform, setPlatform] = useState('all')
 
   useEffect(() => {
     if (user?.email !== ADMIN_EMAIL) return
-    getDocs(query(collection(db, 'leaderboard'), orderBy('updatedAt', 'desc')))
+    // NOTE: fetch the whole collection with NO orderBy. A Firestore orderBy('updatedAt')
+    // excludes every doc that lacks updatedAt — which is all mobile users (and any web
+    // user who never set a school), silently undercounting and hiding exactly the people
+    // we want to see. Sorting happens client-side in each tab instead.
+    getDocs(collection(db, 'leaderboard'))
       .then(snap => setUsers(snap.docs.map(d => ({ id: d.id, ...d.data() }))))
       .catch(() => {})
       .finally(() => setLoading(false))
@@ -414,27 +438,42 @@ export default function AdminScreen({ user, onHome }) {
         <h1 className="admin-title">Admin Dashboard</h1>
       </div>
 
-      {/* Tab bar */}
-      <div style={{ display: 'flex', gap: 8, padding: '0 0 20px', borderBottom: '1px solid var(--border)', marginBottom: 20 }}>
-        {TABS.map(t => (
-          <button
-            key={t.id}
-            className={`admin-sort-btn ${tab === t.id ? 'admin-sort-btn--active' : ''}`}
-            style={{ fontSize: 14, padding: '8px 16px' }}
-            onClick={() => setTab(t.id)}
-          >
-            {t.label}
-          </button>
-        ))}
+      {/* Tab bar + platform filter */}
+      <div style={{ borderBottom: '1px solid var(--border)', marginBottom: 20, paddingBottom: 14 }}>
+        <div style={{ display: 'flex', gap: 8, marginBottom: 10 }}>
+          {TABS.map(t => (
+            <button
+              key={t.id}
+              className={`admin-sort-btn ${tab === t.id ? 'admin-sort-btn--active' : ''}`}
+              style={{ fontSize: 14, padding: '8px 16px' }}
+              onClick={() => setTab(t.id)}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
+        <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
+          <span style={{ fontSize: 12, color: 'var(--text-muted)', marginRight: 4 }}>Platform:</span>
+          {PLATFORMS.map(p => (
+            <button
+              key={p.id}
+              className={`admin-sort-btn ${platform === p.id ? 'admin-sort-btn--active' : ''}`}
+              style={{ fontSize: 12, padding: '4px 10px' }}
+              onClick={() => setPlatform(p.id)}
+            >
+              {p.label}
+            </button>
+          ))}
+        </div>
       </div>
 
       {loading ? (
         <div className="admin-loading">Loading users…</div>
       ) : (
         <div className="admin-body">
-          {tab === 'overview'   && <OverviewTab   users={users} />}
-          {tab === 'engagement' && <EngagementTab />}
-          {tab === 'users'      && <UsersTab      users={users} />}
+          {tab === 'overview'   && <OverviewTab   users={filterByPlatform(users, platform)} />}
+          {tab === 'engagement' && <EngagementTab platform={platform} />}
+          {tab === 'users'      && <UsersTab      users={filterByPlatform(users, platform)} />}
         </div>
       )}
     </div>
