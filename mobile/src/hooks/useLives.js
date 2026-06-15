@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { doc, getDoc, setDoc } from 'firebase/firestore'
 import { db } from '../firebase'
@@ -163,5 +163,12 @@ export function useLives(uid, isSubscribed = false) {
     await save(uid_ref.current, newLives, newRefill)
   }, [])
 
-  return { lives, maxLives: MAX_LIVES, loseLife, refillLives, addLife, nextRefillAt, refillCost: REFILL_COST_RP, isSubscribed }
+  // Memoize the returned object so LivesProvider doesn't hand every consumer a
+  // new context value on each render (the refill ticker re-renders this hook
+  // every 30s). Callbacks are already stable; only lives/nextRefillAt/
+  // isSubscribed change. maxLives/refillCost are constants.
+  return useMemo(
+    () => ({ lives, maxLives: MAX_LIVES, loseLife, refillLives, addLife, nextRefillAt, refillCost: REFILL_COST_RP, isSubscribed }),
+    [lives, nextRefillAt, isSubscribed, loseLife, refillLives, addLife],
+  )
 }
