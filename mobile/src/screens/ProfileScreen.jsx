@@ -15,6 +15,7 @@ import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useNotifications, formatTime } from '../hooks/useNotifications'
 import { auth, db } from '../firebase'
 import { signOut } from 'firebase/auth'
+import { clearLocalUserData } from '../utils/clearLocalUserData'
 import { doc, getDoc } from 'firebase/firestore'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import { useDoubleRP } from '../context/DoubleRPContext'
@@ -112,6 +113,9 @@ export default function ProfileScreen({ navigation }) {
     Alert.alert('Sign Out', 'Are you sure?', [
       { text: 'Cancel', style: 'cancel' },
       { text: 'Sign Out', style: 'destructive', onPress: async () => {
+        // Wipe non-uid-scoped local caches first so the next account on this
+        // device doesn't inherit this user's streak/RP/pet/lives/goal.
+        try { await clearLocalUserData() } catch {}
         try { await signOut(auth) } catch (e) { Alert.alert('Error', e.message) }
       }},
     ])
