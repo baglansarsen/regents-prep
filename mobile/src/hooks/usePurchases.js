@@ -1,6 +1,8 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { Alert, Platform } from 'react-native'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+import { doc, setDoc } from 'firebase/firestore'
+import { db } from '../firebase'
 
 // Lazy-load RevenueCat — absent on web/Expo Go, present in native builds
 let Purchases = null
@@ -91,12 +93,15 @@ export function usePurchases(uid) {
     if (isWeb || !Purchases || !RC_CONFIGURED) return
     let listener = null
 
-    // Authoritative entitlement state → React state + cache.
+    // Authoritative entitlement state → React state + cache + leaderboard flag.
     const applyInfo = (info) => {
       const active = !!info?.entitlements?.active?.[ENTITLEMENT_KEY]
       settledRef.current = true
       setIsSubscribed(active)
       AsyncStorage.setItem(SUB_CACHE_KEY, active ? '1' : '0').catch(() => {})
+      if (uid) {
+        setDoc(doc(db, 'leaderboard', uid), { isSubscribed: active }, { merge: true }).catch(() => {})
+      }
     }
 
     async function init() {
