@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from 'react'
+import React, { createContext, useContext, useState, useEffect, useMemo } from 'react'
 import { onAuthStateChanged } from 'firebase/auth'
 import { auth } from '../firebase'
 
@@ -16,13 +16,19 @@ export function AuthProvider({ children }) {
     return unsub
   }, [])
 
+  // Memoize so the 80+ useAuthContext consumers only re-render when user/loading
+  // actually change, not on every AuthProvider render.
+  const value = useMemo(() => ({ user, loading }), [user, loading])
+
   return (
-    <AuthContext.Provider value={{ user, loading }}>
+    <AuthContext.Provider value={value}>
       {children}
     </AuthContext.Provider>
   )
 }
 
 export function useAuthContext() {
-  return useContext(AuthContext)
+  const ctx = useContext(AuthContext)
+  if (!ctx) throw new Error('useAuthContext must be used inside <AuthProvider>')
+  return ctx
 }

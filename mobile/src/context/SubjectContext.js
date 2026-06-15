@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from 'react'
+import React, { createContext, useContext, useState, useEffect, useCallback, useMemo } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { doc, getDoc, setDoc } from 'firebase/firestore'
 import { db } from '../firebase'
@@ -34,7 +34,7 @@ export function SubjectProvider({ children }) {
     load()
   }, [user?.uid])
 
-  async function setSubject(sub) {
+  const setSubject = useCallback(async (sub) => {
     if (!VALID.has(sub)) return
     setSubjectState(sub)
     await AsyncStorage.setItem(STORAGE_KEY, sub)
@@ -46,13 +46,20 @@ export function SubjectProvider({ children }) {
         updatedAt: new Date().toISOString()
       }, { merge: true }).catch(e => console.error('[SubjectContext] Sync failed:', e))
     }
-  }
+  }, [user])
+
+  // Memoize so consumers only re-render when subject (or the setter) changes.
+  const value = useMemo(() => ({ subject, setSubject }), [subject, setSubject])
 
   return (
-    <SubjectContext.Provider value={{ subject, setSubject }}>
+    <SubjectContext.Provider value={value}>
       {children}
     </SubjectContext.Provider>
   )
 }
 
-export const useSubject = () => useContext(SubjectContext)
+export const useSubject = () => {
+  const ctx = useContext(SubjectContext)
+  if (!ctx) throw new Error('useSubject must be used inside <SubjectProvider>')
+  return ctx
+}

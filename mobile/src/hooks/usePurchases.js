@@ -77,6 +77,13 @@ const isWeb = Platform.OS === 'web'
 // has been started so the effect below knows which path to take.
 let _rcStarted = false
 
+// Blocks the leaderboard writeback in applyInfo while no user is authoritatively
+// signed in. Set on sign-out/delete; cleared when a real uid logs in. Without
+// it, a CustomerInfoUpdate queued on the native side can fire applyInfo with the
+// old uid still captured in the effect closure AFTER deleteUserData removed
+// leaderboard/{uid} — re-creating the doc for a deleted account.
+let _rcWritebackBlocked = false
+
 /**
  * Reset RevenueCat to an anonymous identity on sign-out. Without this the SDK
  * keeps the previous user's appUserID, so on a shared device the next account
@@ -84,6 +91,7 @@ let _rcStarted = false
  * their leaderboard doc). Call from the auth sign-out / delete paths.
  */
 export async function logOutPurchases() {
+  _rcWritebackBlocked = true  // block before logOut so any in-flight update is suppressed
   if (isWeb || !Purchases || !RC_CONFIGURED || !_rcStarted) return
   try { await Purchases.logOut() } catch (_) {} // throws if already anonymous — harmless
 }
@@ -116,7 +124,9 @@ export function usePurchases(uid) {
       settledRef.current = true
       setIsSubscribed(active)
       AsyncStorage.setItem(SUB_CACHE_KEY, active ? '1' : '0').catch(() => {})
-      if (uid) {
+      // Skip the leaderboard write once the user has signed out/deleted —
+      // otherwise a late update resurrects the removed doc for the old account.
+      if (uid && !_rcWritebackBlocked) {
         setDoc(doc(db, 'leaderboard', uid), { isSubscribed: active }, { merge: true }).catch(() => {})
       }
     }
@@ -129,10 +139,12 @@ export function usePurchases(uid) {
           // First launch this process: configure (once) with the current user.
           await Purchases.configure({ apiKey: key, appUserID: uid ?? null })
           _rcStarted = true
+          if (uid) _rcWritebackBlocked = false
         } else if (uid) {
           // Already configured (e.g. a previous account signed out): switch
           // identity so this user sees THEIR entitlements, not the prior user's.
           await Purchases.logIn(uid)
+          _rcWritebackBlocked = false  // authoritative user present → writeback allowed
         } else {
           await Purchases.logOut() // signed out → drop to anonymous
         }
