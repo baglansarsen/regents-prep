@@ -166,14 +166,23 @@ export default function SchoolOnboardingScreen({ navigation, onComplete }) {
       />
 
       {/* Type filter chips */}
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} style={s.typeRow} contentContainerStyle={{ gap: 8, paddingHorizontal: 16 }}>
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        style={s.typeRow}
+        contentContainerStyle={{ gap: 8, paddingHorizontal: 16, alignItems: 'center' }}
+      >
         {TYPE_FILTERS.map(({ key, label, emoji }) => (
           <TouchableOpacity
             key={key ?? 'all'}
             style={[s.typeChip, typeFilter === key && s.typeChipActive]}
             onPress={() => setTypeFilter(typeFilter === key ? null : key)}
           >
-            <Text style={[s.typeChipText, typeFilter === key && s.typeChipTextActive]}>
+            <Text
+              style={[s.typeChipText, typeFilter === key && s.typeChipTextActive]}
+              numberOfLines={1}
+              allowFontScaling={false}
+            >
               {emoji} {label}
             </Text>
           </TouchableOpacity>
@@ -254,13 +263,14 @@ function makeStyles(C) {
       borderWidth: 1, borderColor: C.border,
     },
 
-    typeRow:   { flexGrow: 0, marginBottom: 8, height: 44 },
+    typeRow:   { flexGrow: 0, marginBottom: 8, paddingVertical: 4 },
     typeChip:  {
-      paddingHorizontal: 14, paddingVertical: 7, borderRadius: 99,
+      flexDirection: 'row', alignItems: 'center', justifyContent: 'center',
+      paddingHorizontal: 16, paddingVertical: 10, borderRadius: 99, minHeight: 40,
       backgroundColor: C.surface2, borderWidth: 1.5, borderColor: C.surface3,
     },
     typeChipActive:     { backgroundColor: C.brand, borderColor: C.brand },
-    typeChipText:       { fontSize: 13, fontWeight: '700', color: C.text },
+    typeChipText:       { fontSize: 14, fontWeight: '700', color: C.text, lineHeight: 18 },
     typeChipTextActive: { color: '#fff' },
 
     schoolCard:   {
