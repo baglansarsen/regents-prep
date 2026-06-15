@@ -228,10 +228,13 @@ export default function QuizScreen({ route, navigation }) {
       else if (pct >= 85)      { triggerReaction('happy_dance');  say(`+${rpEarned} ⭐ RP! Really solid work 🌟`) }
       else if (pct <= 30)      { triggerReaction('sympathetic');  say('Tough one. Review those and try again 💪') }
       else                     { triggerReaction('root_for_you'); say(`+${rpEarned} ⭐ You're on a roll!`) }
-      // Quest progress
-      updateQuestProgress('answer_correct', correct)
-      updateQuestProgress('complete_quiz', 1, { topic })   // topic lets smart topic-quests match
-      if (route.params?.isMistakesPractice) updateQuestProgress('complete_mistakes')
+      // Quest progress — award the daily-quest RP when one completes. Only the
+      // call matching the active quest returns { rp }, and the hook's alreadyDone
+      // guard pays it out once, so awarding from each result is safe (no double-grant).
+      const awardQuest = (r) => { if (r?.rp) earnRP(r.rp) }
+      updateQuestProgress('answer_correct', correct).then(awardQuest)
+      updateQuestProgress('complete_quiz', 1, { topic }).then(awardQuest)   // topic lets smart topic-quests match
+      if (route.params?.isMistakesPractice) updateQuestProgress('complete_mistakes').then(awardQuest)
       const { seconds: sessionSecs } = endSession()
       navigation.replace('Results', {
         score, total: gradedTotal, results, bestStreak, topic, subject,

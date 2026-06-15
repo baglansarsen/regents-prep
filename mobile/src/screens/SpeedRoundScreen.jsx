@@ -85,7 +85,7 @@ export default function SpeedRoundScreen({ route, navigation }) {
     earnRP(correct * 10, rpMultiplier)
     checkAndEvolve(rp + rpEarned)
     markStudied()
-    updateQuestProgress('complete_speedround')
+    updateQuestProgress('complete_speedround').then((r) => { if (r?.rp) earnRP(r.rp) })
 
     // Log speed round activity
     const pct = index > 0 ? Math.round((correct / index) * 100) : 0

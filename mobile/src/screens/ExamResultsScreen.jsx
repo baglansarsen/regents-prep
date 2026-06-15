@@ -7,6 +7,8 @@ import { shuffle } from '../utils/question'
 import { saveExamScore } from '../hooks/useExamScores'
 import { getScaledScore, topicIndicator } from '../utils/examScoring'
 import { usePetContext } from '../context/PetContext'
+import { useAuthContext } from '../context/AuthContext'
+import { useRP } from '../hooks/useRP'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import * as leData   from '../content/living-environment/index'
 import * as esData   from '../content/earth-science/index'
@@ -62,10 +64,13 @@ export default function ExamResultsScreen({ route, navigation }) {
   const rpAnim    = useRef(new Animated.Value(0)).current
 
   const { updateQuestProgress } = usePetContext()
+  const { user } = useAuthContext()
+  const { earnRP } = useRP(user?.uid)
 
   useEffect(() => {
     saveExamScore(exam.id, scaled)
-    updateQuestProgress('complete_exam')   // smart practice-exam quests
+    // smart practice-exam quests — award the daily-quest RP on completion
+    updateQuestProgress('complete_exam').then((r) => { if (r?.rp) earnRP(r.rp) })
   }, [])
 
   useEffect(() => {
