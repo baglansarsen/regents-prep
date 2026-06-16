@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, StyleSheet, ActivityIndicator, Linking,
 } from 'react-native'
@@ -21,11 +21,11 @@ const FEATURES = [
   '💜  Support a student-built app',
 ]
 
-// Tips are disabled for this release: the store product IDs (tip_jar / TIP_10 /
-// TIP25) don't yet match the code (tip_5 / tip_10 / tip_25), so a tap would fail.
-// Re-enable once the IDs are reconciled. Hiding only the tip card keeps the
-// required subscription disclosures, Restore, and legal links visible.
-const TIPS_ENABLED = false
+// Tip Jar: consumable products tip_5 / tip_10 / tip_25 are live in App Store
+// Connect and match these IDs, so the buttons are enabled. Prices shown are the
+// store's localized priceString (fetched at mount); the hardcoded `label` is only
+// a fallback while that resolves or on web / Expo Go.
+const TIPS_ENABLED = true
 
 // App Review 3.1.2(c): paywall must link to a privacy policy AND terms of use.
 const PRIVACY_URL = 'https://regents-prep-mobile.web.app/privacy/'
@@ -37,13 +37,31 @@ const TIP_AMOUNTS = [
   { id: PRODUCT_IDS.TIP_25, label: '$24.99', sublabel: 'You\'re amazing 🙏' },
 ]
 
+const TIP_IDS = TIP_AMOUNTS.map((t) => t.id)
+
 export default function SupportScreen({ navigation }) {
   const { C }          = useTheme()
   const {
     isSubscribed, loading, isConfigured,
     purchaseMonthly, purchaseSeason, purchaseYearly,
-    donate, restorePurchases,
+    donate, fetchProducts, restorePurchases,
   } = useSubscription()
+
+  // Live localized prices for the tip buttons, keyed by product id.
+  const [tipPrices, setTipPrices] = useState({})
+  useEffect(() => {
+    if (!TIPS_ENABLED || !isConfigured) return
+    let cancelled = false
+    fetchProducts(TIP_IDS).then((products) => {
+      if (cancelled) return
+      const map = {}
+      for (const p of products) {
+        if (p && p.identifier) map[p.identifier] = p.priceString
+      }
+      setTipPrices(map)
+    })
+    return () => { cancelled = true }
+  }, [isConfigured, fetchProducts])
 
   const s = makeStyles(C)
 
@@ -210,7 +228,7 @@ export default function SupportScreen({ navigation }) {
                 disabled={loading}
                 activeOpacity={0.85}
               >
-                <Text style={[T.h3, { color: '#fff' }]}>{tip.label}</Text>
+                <Text style={[T.h3, { color: '#fff' }]}>{tipPrices[tip.id] ?? tip.label}</Text>
                 <Text style={{ fontSize: 10, color: 'rgba(255,255,255,0.8)', fontFamily: 'Nunito_600SemiBold', marginTop: 2 }}>
                   {tip.sublabel}
                 </Text>

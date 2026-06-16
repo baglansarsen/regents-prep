@@ -262,6 +262,21 @@ export function usePurchases(uid) {
     }
   }, [])
 
+  // Fetch StoreProduct details (e.g. localized priceString) for the given store
+  // product IDs. Used by the Tip Jar so the buttons show Apple's real charged
+  // price instead of a hardcoded label that can drift from the store. Returns []
+  // on web / Expo Go / unconfigured, or if the IDs aren't found.
+  const fetchProducts = useCallback(async (ids) => {
+    if (isWeb || !Purchases || !RC_CONFIGURED) return []
+    try {
+      const products = await Purchases.getProducts(ids)
+      return products ?? []
+    } catch (e) {
+      console.warn('[Purchases] fetchProducts error:', e)
+      return []
+    }
+  }, [])
+
   const restorePurchases = useCallback(async () => {
     if (isWeb || !Purchases || !RC_CONFIGURED) {
       if (!isWeb) Alert.alert('Requires Native Build', 'Run with expo run:ios or expo run:android to use purchases.')
@@ -315,5 +330,5 @@ export function usePurchases(uid) {
   // App Review never sees a broken paywall (guideline 2.1(b)).
   const isConfigured = !isWeb && !!Purchases && RC_CONFIGURED
 
-  return { isSubscribed, loading, isConfigured, presentPaywall, purchaseMonthly, purchaseSeason, purchaseYearly, donate, restorePurchases }
+  return { isSubscribed, loading, isConfigured, presentPaywall, purchaseMonthly, purchaseSeason, purchaseYearly, donate, fetchProducts, restorePurchases }
 }
