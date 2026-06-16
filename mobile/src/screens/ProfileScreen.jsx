@@ -306,7 +306,8 @@ export default function ProfileScreen({ navigation }) {
           </View>
         </TouchableOpacity>
 
-        {/* ── Support / Subscribe — hidden until RevenueCat is configured ── */}
+        {/* ── Go Premium & Support — plans + tip jar live on one screen.
+             Hidden until RevenueCat is configured (web/Expo Go/placeholder). ── */}
         {(isConfigured || isSubscribed) && (
           <TouchableOpacity
             style={[s.rowCard, cardShadow(C.shadow), { borderColor: isSubscribed ? '#9333EA55' : C.border }]}
@@ -318,7 +319,9 @@ export default function ProfileScreen({ navigation }) {
               <View style={{ marginLeft: 12 }}>
                 <Text style={[T.h3, { color: C.text }]}>{isSubscribed ? 'Premium Active' : 'Go Premium'}</Text>
                 <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-                  {isSubscribed ? 'Unlimited hearts · Thank you!' : 'No ads + unlimited hearts · from $4.99/mo'}
+                  {isSubscribed
+                    ? 'Unlimited hearts · tip the dev anytime'
+                    : 'No ads + unlimited hearts · support the app'}
                 </Text>
               </View>
             </View>
@@ -332,26 +335,6 @@ export default function ProfileScreen({ navigation }) {
               )}
               <Text style={[T.body, { color: C.textMuted }]}>›</Text>
             </View>
-          </TouchableOpacity>
-        )}
-
-        {/* ── Tip jar — opens SupportScreen (plans + one-time donations) ── */}
-        {isConfigured && (
-          <TouchableOpacity
-            style={[s.rowCard, cardShadow(C.shadow)]}
-            onPress={() => navigation.navigate('Support')}
-            activeOpacity={0.85}
-          >
-            <View style={s.rowLeft}>
-              <Text style={{ fontSize: 28 }}>☕</Text>
-              <View style={{ marginLeft: 12 }}>
-                <Text style={[T.h3, { color: C.text }]}>Support the Developer</Text>
-                <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-                  Buy me a coffee · keeps Regentify free for students
-                </Text>
-              </View>
-            </View>
-            <Text style={[T.body, { color: C.textMuted }]}>›</Text>
           </TouchableOpacity>
         )}
 
