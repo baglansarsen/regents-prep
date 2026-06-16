@@ -1,18 +1,20 @@
 import React, { useState, useEffect } from 'react'
-import { View, Text, TouchableOpacity, StyleSheet, Modal, Platform } from 'react-native'
+import { View, Text, TouchableOpacity, StyleSheet, Platform } from 'react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useSubject } from '../context/SubjectContext'
+import { useGoal } from '../context/GoalContext'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useRP } from '../hooks/useRP'
 import { useLivesContext } from '../context/LivesContext'
-import { SUBJECTS, SUBJECT_META } from '../content/subjects'
+import { SUBJECT_META } from '../content/subjects'
 import { useDoubleRP } from '../context/DoubleRPContext'
 import { useRewardedAd } from '../hooks/useRewardedAd'
 import { useTourTarget } from '../context/TourContext'
 import { T } from '../styles/duo'
 import RewardsSheet from './RewardsSheet'
+import SubjectSheet from './SubjectSheet'
 
 function useCountdown(isoStr) {
   const [secs, setSecs] = useState(() =>
@@ -39,7 +41,7 @@ export default function GlobalTopBar() {
   const { user } = useAuthContext()
   const uid = user?.uid
 
-  const [dropdownOpen, setDropdownOpen] = useState(false)
+  const [subjectSheetOpen, setSubjectSheetOpen] = useState(false)
   // null = closed; 'streak' | 'rp' | 'lives' = focused section
   const [sheet, setSheet] = useState(null)
 
@@ -49,6 +51,7 @@ export default function GlobalTopBar() {
   const livesTarget  = useTourTarget('lives')
 
   const { subject, setSubject }                          = useSubject()
+  const { getGoal }                                      = useGoal()
   const { streak }                                       = useDailyStreak(uid)
   const { rp }                                           = useRP(uid)
   const { lives, maxLives, nextRefillAt, isSubscribed, addLife } = useLivesContext()
@@ -60,25 +63,45 @@ export default function GlobalTopBar() {
   const s = makeStyles(insets.top, subjectColor)
 
   const activeMeta = SUBJECT_META[subject] ?? SUBJECT_META['living-environment']
-  const barTop = insets.top + 48
+
+  // Current predicted score for the badge — read the persisted anchor from the
+  // goal (Home computes it via usePredictedScore and writes it here). Null when
+  // no goal/prediction yet → show a dash.
+  const subjectGoal = getGoal(subject)
+  const predicted   = subjectGoal?.predicted?.value ?? null
+  const atGoal      = predicted != null && subjectGoal?.target != null && predicted >= subjectGoal.target
 
   return (
     <View style={s.bar}>
 
-      {/* Subject dropdown button */}
-      <TouchableOpacity
-        style={s.subjectBtn}
-        onPress={() => setDropdownOpen(true)}
-        activeOpacity={0.75}
-        accessibilityLabel={`Select Subject. Current subject is ${activeMeta.name}`}
-        accessibilityRole="button"
-        accessibilityHint="Opens a menu to switch between subjects."
-      >
-        <Text style={s.subjectBtnText}>
-          {activeMeta.icon} {activeMeta.shortName ?? activeMeta.name.slice(0, 2).toUpperCase()}
-        </Text>
-        <Text style={s.chevron}>{dropdownOpen ? '▲' : '▼'}</Text>
-      </TouchableOpacity>
+      {/* Subject + current-score → opens the subject/goal sheet */}
+      <View style={s.subjectGroup}>
+        <TouchableOpacity
+          style={s.subjectBtn}
+          onPress={() => setSubjectSheetOpen(true)}
+          activeOpacity={0.75}
+          accessibilityLabel={`Select Subject. Current subject is ${activeMeta.name}`}
+          accessibilityRole="button"
+          accessibilityHint="Opens a sheet to view your goal and switch subjects."
+        >
+          <Text style={s.subjectBtnText}>
+            {activeMeta.icon} {activeMeta.shortName ?? activeMeta.name.slice(0, 2).toUpperCase()}
+          </Text>
+          <Text style={s.chevron}>{subjectSheetOpen ? '▲' : '▼'}</Text>
+        </TouchableOpacity>
+
+        {/* Current predicted score badge */}
+        <TouchableOpacity
+          style={[s.scoreBadge, atGoal && s.scoreBadgeAtGoal]}
+          onPress={() => setSubjectSheetOpen(true)}
+          activeOpacity={0.75}
+          accessibilityLabel={predicted != null ? `Predicted score ${predicted}` : 'No predicted score yet'}
+          accessibilityRole="button"
+          accessibilityHint="Opens your goal and subject switcher."
+        >
+          <Text style={s.scoreBadgeText}>🎯 {predicted ?? '—'}</Text>
+        </TouchableOpacity>
+      </View>
 
       {/* Stats */}
       <View style={s.stats}>
@@ -142,36 +165,15 @@ export default function GlobalTopBar() {
 
       </View>
 
-      {/* Subject dropdown modal */}
-      <Modal
-        visible={dropdownOpen}
-        transparent
-        animationType="fade"
-        onRequestClose={() => setDropdownOpen(false)}
-      >
-        <TouchableOpacity style={s.backdrop} activeOpacity={1} onPress={() => setDropdownOpen(false)}>
-          <View style={[s.dropdown, { top: barTop }]}>
-            {Object.values(SUBJECTS).map((sub) => {
-              const meta   = SUBJECT_META[sub]
-              const active = subject === sub
-              return (
-                <TouchableOpacity
-                  key={sub}
-                  style={[s.dropdownItem, active && s.dropdownItemActive]}
-                  onPress={() => { setSubject(sub); setDropdownOpen(false) }}
-                  activeOpacity={0.7}
-                >
-                  <Text style={s.dropdownIcon}>{meta.icon}</Text>
-                  <Text style={[s.dropdownText, active && { color: subjectColor, fontFamily: 'Nunito_800ExtraBold' }]}>
-                    {meta.name}
-                  </Text>
-                  {active && <Text style={[s.dropdownCheck, { color: subjectColor }]}>✓</Text>}
-                </TouchableOpacity>
-              )
-            })}
-          </View>
-        </TouchableOpacity>
-      </Modal>
+      {/* Subject + goal sheet */}
+      <SubjectSheet
+        visible={subjectSheetOpen}
+        onClose={() => setSubjectSheetOpen(false)}
+        subject={subject}
+        setSubject={setSubject}
+        goal={subjectGoal}
+        predicted={predicted}
+      />
 
       {/* Rewards sheet — single instance, focus prop steers which section appears first */}
       <RewardsSheet
@@ -200,6 +202,7 @@ function makeStyles(topInset, subjectColor) {
       height:            topInset + 48,
     },
 
+    subjectGroup: { flexDirection: 'row', alignItems: 'center', gap: 6 },
     subjectBtn: {
       flexDirection: 'row',
       alignItems: 'center',
@@ -212,6 +215,18 @@ function makeStyles(topInset, subjectColor) {
     },
     subjectBtnText: { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#fff' },
     chevron:        { fontSize: 10, color: 'rgba(255,255,255,0.85)' },
+
+    scoreBadge: {
+      backgroundColor: 'rgba(255,255,255,0.92)',
+      paddingHorizontal: 10,
+      paddingVertical: 6,
+      borderRadius: 14,
+      borderWidth: 1,
+      borderColor: 'rgba(255,255,255,0.5)',
+      ...(Platform.OS === 'web' ? { backdropFilter: 'blur(16px)' } : {}),
+    },
+    scoreBadgeAtGoal: { backgroundColor: '#DCFCE7', borderColor: '#86EFAC' },
+    scoreBadgeText:   { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: subjectColor },
 
     stats: { flexDirection: 'row', alignItems: 'center', gap: 8 },
     stat: {
@@ -227,25 +242,5 @@ function makeStyles(topInset, subjectColor) {
       ...(Platform.OS === 'web' ? { backdropFilter: 'blur(16px)' } : {}),
     },
     statText: { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#fff' },
-
-    backdrop: { flex: 1 },
-    dropdown: {
-      position:        'absolute',
-      left:            14,
-      backgroundColor: '#fff',
-      borderRadius:    14,
-      paddingVertical: 6,
-      minWidth:        220,
-      shadowColor:     '#000',
-      shadowOpacity:   0.15,
-      shadowOffset:    { width: 0, height: 4 },
-      shadowRadius:    12,
-      elevation:       8,
-    },
-    dropdownItem:       { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingVertical: 13, gap: 10 },
-    dropdownItemActive: { backgroundColor: 'rgba(0,0,0,0.04)' },
-    dropdownIcon:       { fontSize: 18 },
-    dropdownText:       { fontFamily: 'Nunito_700Bold', fontSize: 15, color: '#1f2937', flex: 1 },
-    dropdownCheck:      { fontSize: 16, fontFamily: 'Nunito_800ExtraBold' },
   })
 }
