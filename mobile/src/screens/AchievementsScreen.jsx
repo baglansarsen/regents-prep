@@ -4,12 +4,11 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useProgress } from '../hooks/useProgress'
-import * as leData from '../content/living-environment/index'
-import * as esData from '../content/earth-science/index'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useRP } from '../hooks/useRP'
 import { useExamScores } from '../hooks/useExamScores'
+import { computeAchievements } from '../utils/achievements'
 
 const TIER_ORDER = ['gold', 'silver', 'bronze']
 const TIER_COLORS = {
@@ -46,48 +45,10 @@ export default function AchievementsScreen({ navigation }) {
     checkDiag()
   }, [])
 
-  function checkCondition(achievement, hist) {
-    const totalQuizzes  = hist.length
-    const totalCorrect  = hist.reduce((a, h) => a + (h.correct ?? 0), 0)
-    const totalAnswered = hist.reduce((a, h) => a + (h.total ?? 0), 0)
-    const avgPct        = totalQuizzes > 0 ? hist.reduce((a, h) => a + (h.pct ?? 0), 0) / totalQuizzes : 0
-    const bestPct       = totalQuizzes > 0 ? Math.max(...hist.map((h) => h.pct ?? 0)) : 0
-    const perfectQuizzes = hist.filter((h) => h.pct === 100).length
-
-    const examScoreList = Object.values(examScores ?? {})
-    const practiceTestCount = examScoreList.length
-    const practiceTestBest = examScoreList.length > 0 ? Math.max(...examScoreList.map(s => s.best ?? 0)) : 0
-
-    const topicsPassed = new Set()
-    hist.forEach((h) => {
-      if ((h.pct ?? 0) >= 65) {
-        topicsPassed.add(h.topic)
-      }
-    })
-
-    const stats = {
-      totalQuizzes,
-      totalCorrect,
-      totalAnswered,
-      avgPct,
-      bestPct,
-      perfectQuizzes,
-      diagCount,
-      practiceTestCount,
-      practiceTestBest,
-      streak,
-      xp: rp,
-      rp,
-      topicsPassed,
-      perfectScore: perfectQuizzes >= 1,
-      noTimeouts: totalQuizzes >= 1,
-    }
-    try { return achievement.condition(stats) } catch { return false }
-  }
-
-  const allAchievements = [...(leData.achievements ?? []), ...(esData.achievements ?? [])]
-  const earned = allAchievements.filter((a) => checkCondition(a, [...leHistory, ...esHistory]))
-  const locked = allAchievements.filter((a) => !checkCondition(a, [...leHistory, ...esHistory]))
+  const { earned, locked, total: totalAchievements } = computeAchievements({
+    history: [...leHistory, ...esHistory],
+    streak, rp, examScores, diagCount,
+  })
 
   function AchievementCard({ item, unlocked }) {
     const tierColor = TIER_COLORS[item.tier] ?? C.textMuted
@@ -116,7 +77,7 @@ export default function AchievementsScreen({ navigation }) {
           <Text style={s.back}>← Back</Text>
         </TouchableOpacity>
         <Text style={s.title}>Achievements</Text>
-        <Text style={s.count}>{earned.length}/{allAchievements.length}</Text>
+        <Text style={s.count}>{earned.length}/{totalAchievements}</Text>
       </View>
 
       <ScrollView contentContainerStyle={s.scroll}>
