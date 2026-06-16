@@ -118,18 +118,10 @@ export default function HomeScreen({ navigation }) {
   const { pet, pendingEvolution, getPetMessage, dailyDig, getTodayQuest, updateQuestProgress, triggerReaction, addInventory, studyBoost } = usePetContext()
   const { say } = useSpeechContext()
 
-  // ── Guided tour anchors + scroll wiring ─────────────────────────────────────
-  const tour       = useTour()
-  const scrollRef  = useRef(null)
-  const tourTargetY = useRef({})   // { pet, quickGrid } content-relative Y for scroll-into-view
-  useEffect(() => {
-    tour.registerScroller({
-      scrollTo: (id) => {
-        const y = tourTargetY.current[id]
-        if (y != null) scrollRef.current?.scrollTo({ y: Math.max(0, y - 120), animated: true })
-      },
-    })
-  }, [tour])
+  // ── Guided tour — first-run trigger only. All tour anchors now live in the
+  // fixed top bar (GlobalTopBar), so no scroll-into-view wiring is needed here. ─
+  const tour      = useTour()
+  const scrollRef = useRef(null)
 
   // ── Regents goal + predicted score + smart daily quest ─────────────────────
   // (Also before the focus effect: smartQuestDef appears in its deps array.)
@@ -263,14 +255,19 @@ export default function HomeScreen({ navigation }) {
   }, [uid])
 
   // ── First-run guided tour — start once Home is focused & targets exist ──────
+  // Only block while the placement MODAL is actually up (showPlacement). Do not
+  // gate on placementDone: a brand-new user lands with placementDone === false
+  // (placement is only offered when they start their first lesson, not at
+  // landing), so gating on it suppressed the tour for every new user. The tour
+  // overlay swallows taps, so it can't collide with starting a lesson anyway.
   useFocusEffect(useCallback(() => {
     if (user?.isAnonymous) return
     if (!tour.doneLoaded || tour.tourDone || tour.isActive) return
     if (!pet.chosen) return
-    if (placementDone === false || showPlacement) return   // don't clash with the placement modal
+    if (showPlacement) return   // don't overlap the placement modal while it's open
     const id = setTimeout(() => { tour.maybeStartFirstRun() }, 900)  // let top bar + widgets mount/measure
     return () => clearTimeout(id)
-  }, [user, pet.chosen, placementDone, showPlacement, tour.doneLoaded, tour.tourDone, tour.isActive]))
+  }, [user, pet.chosen, showPlacement, tour.doneLoaded, tour.tourDone, tour.isActive]))
 
   // ── Daily goal celebration ────────────────────────────────────────────────
   useEffect(() => {

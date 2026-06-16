@@ -21,12 +21,11 @@ export const tourDoneKey = (uid) => `@tour_done_v1_${uid}`
 
 // id === null → centered card with no spotlight hole (the closing step).
 export const TOUR_STEPS = [
-  { id: 'streak',    placement: 'bottom', title: 'Your streak',      body: 'Study every day to keep your 🔥 streak alive. Miss a day and a freeze can save it.' },
-  { id: 'lives',     placement: 'bottom', title: 'Hearts',           body: 'A wrong answer costs a ❤️. They refill over time — or go unlimited with Premium.' },
-  { id: 'rp',        placement: 'bottom', title: 'Regents Points',   body: 'Earn ⭐ RP for everything you do. Spend it on your pet, streak freezes, and power-ups.' },
-  { id: 'pet',       placement: 'auto',   title: 'Your study buddy', body: 'Feed and play with your pet — it grows and cheers you on as you learn.' },
-  { id: 'quickGrid', placement: 'top',    title: 'Quick practice',   body: 'Jump straight into a quiz, speed round, flashcards, or review your past mistakes.' },
-  { id: null,        placement: 'center', title: "You're all set!",  body: 'Explore Exams, Progress, Social and Profile from the tabs below. Happy studying! 🚀' },
+  { id: 'subject', placement: 'bottom', title: 'Subject & goal',   body: 'Tap here to switch subjects, set a target score, and watch your 🎯 predicted score climb as you study.' },
+  { id: 'streak',  placement: 'bottom', title: 'Your streak',      body: 'Study every day to keep your 🔥 streak alive. Miss a day and a freeze can save it.' },
+  { id: 'lives',   placement: 'bottom', title: 'Hearts',           body: 'A wrong answer costs a ❤️. They refill over time — or go unlimited with Premium.' },
+  { id: 'rp',      placement: 'bottom', title: 'Regents Points',   body: 'Earn ⭐ RP for everything you do. Spend it on your pet, streak freezes, and power-ups.' },
+  { id: null,      placement: 'center', title: "You're all set!",  body: 'Find quick practice and past exams in the Exams tab, your study buddy on the Home screen, and Progress, Social & Profile from the tabs below. Happy studying! 🚀' },
 ]
 
 const TourContext = createContext(null)

@@ -5,7 +5,6 @@ import ShopScreen           from '../screens/ShopScreen'
 import SupportScreen        from '../screens/SupportScreen'
 import SchoolOnboardingScreen from '../screens/SchoolOnboardingScreen'
 import PetPersonalityQuizScreen from '../screens/PetPersonalityQuizScreen'
-import IntroductionScreen    from '../screens/IntroductionScreen'
 
 const Stack = createNativeStackNavigator()
 
@@ -24,14 +23,6 @@ export default function ProfileStack() {
         )}
       </Stack.Screen>
       <Stack.Screen name="PetPersonalityQuiz" component={PetPersonalityQuizScreen} />
-      <Stack.Screen name="Introduction">
-        {(props) => (
-          <IntroductionScreen
-            {...props}
-            onComplete={() => props.navigation.goBack()}
-          />
-        )}
-      </Stack.Screen>
     </Stack.Navigator>
   )
 }

@@ -20,6 +20,7 @@ import { doc, getDoc } from 'firebase/firestore'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import { useDoubleRP } from '../context/DoubleRPContext'
 import { useSubscription } from '../context/SubscriptionContext'
+import { useTour } from '../context/TourContext'
 import NudgeBanner from '../components/NudgeBanner'
 import { getEngagementNudge } from '../hooks/useEngagementNudge'
 import StreakCalendar from '../components/StreakCalendar'
@@ -47,6 +48,7 @@ export default function ProfileScreen({ navigation }) {
   const [showStreakCal, setShowStreakCal] = useState(false)
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
   const { isSubscribed, isConfigured } = useSubscription()
+  const { start: startTour } = useTour()
 
   const { subject, setSubject } = useSubject()
 
@@ -356,10 +358,10 @@ export default function ProfileScreen({ navigation }) {
           <Text style={[T.body, { color: C.textMuted }]}>›</Text>
         </TouchableOpacity>
 
-        {/* ── How it works — replay the intro carousel ── */}
+        {/* ── How it works — replay the guided spotlight tour ── */}
         <TouchableOpacity
           style={[s.rowCard, cardShadow(C.shadow)]}
-          onPress={() => navigation.navigate('Introduction')}
+          onPress={() => startTour({ replay: true })}
           activeOpacity={0.85}
         >
           <View style={s.rowLeft}>
@@ -367,7 +369,7 @@ export default function ProfileScreen({ navigation }) {
             <View style={{ marginLeft: 12 }}>
               <Text style={[T.h3, { color: C.text }]}>How It Works</Text>
               <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-                Replay the welcome walkthrough
+                Replay the guided tour
               </Text>
             </View>
           </View>

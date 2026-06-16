@@ -45,10 +45,11 @@ export default function GlobalTopBar() {
   // null = closed; 'streak' | 'rp' | 'lives' = focused section
   const [sheet, setSheet] = useState(null)
 
-  // Tour anchors — spread onto the stat pills so the guided tour can spotlight them.
-  const streakTarget = useTourTarget('streak')
-  const rpTarget     = useTourTarget('rp')
-  const livesTarget  = useTourTarget('lives')
+  // Tour anchors — spread onto the top-bar controls so the guided tour can spotlight them.
+  const subjectTarget = useTourTarget('subject')
+  const streakTarget  = useTourTarget('streak')
+  const rpTarget      = useTourTarget('rp')
+  const livesTarget   = useTourTarget('lives')
 
   const { subject, setSubject }                          = useSubject()
   const { getGoal }                                      = useGoal()
@@ -75,7 +76,7 @@ export default function GlobalTopBar() {
     <View style={s.bar}>
 
       {/* Subject + current-score → opens the subject/goal sheet */}
-      <View style={s.subjectGroup}>
+      <View style={s.subjectGroup} {...subjectTarget}>
         <TouchableOpacity
           style={s.subjectBtn}
           onPress={() => setSubjectSheetOpen(true)}
