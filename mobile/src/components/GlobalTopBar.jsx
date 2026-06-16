@@ -75,34 +75,25 @@ export default function GlobalTopBar() {
   return (
     <View style={s.bar}>
 
-      {/* Subject + current-score → opens the subject/goal sheet */}
-      <View style={s.subjectGroup} {...subjectTarget}>
-        <TouchableOpacity
-          style={s.subjectBtn}
-          onPress={() => setSubjectSheetOpen(true)}
-          activeOpacity={0.75}
-          accessibilityLabel={`Select Subject. Current subject is ${activeMeta.name}`}
-          accessibilityRole="button"
-          accessibilityHint="Opens a sheet to view your goal and switch subjects."
-        >
-          <Text style={s.subjectBtnText}>
-            {activeMeta.icon} {activeMeta.shortName ?? activeMeta.name.slice(0, 2).toUpperCase()}
-          </Text>
-          <Text style={s.chevron}>{subjectSheetOpen ? '▲' : '▼'}</Text>
-        </TouchableOpacity>
-
-        {/* Current predicted score badge */}
-        <TouchableOpacity
-          style={[s.scoreBadge, atGoal && s.scoreBadgeAtGoal]}
-          onPress={() => setSubjectSheetOpen(true)}
-          activeOpacity={0.75}
-          accessibilityLabel={predicted != null ? `Predicted score ${predicted}` : 'No predicted score yet'}
-          accessibilityRole="button"
-          accessibilityHint="Opens your goal and subject switcher."
-        >
-          <Text style={s.scoreBadgeText}>🎯 {predicted ?? '—'}</Text>
-        </TouchableOpacity>
-      </View>
+      {/* Subject + current-score combined into one course pill (Duolingo-style)
+          → opens the subject/goal sheet */}
+      <TouchableOpacity
+        {...subjectTarget}
+        style={s.coursePill}
+        onPress={() => setSubjectSheetOpen(true)}
+        activeOpacity={0.75}
+        accessibilityLabel={`${activeMeta.name}${predicted != null ? `, predicted score ${predicted}` : ''}`}
+        accessibilityRole="button"
+        accessibilityHint="Opens a sheet to view your goal and switch subjects."
+      >
+        <Text style={s.subjectBtnText}>
+          {activeMeta.icon} {activeMeta.shortName ?? activeMeta.name.slice(0, 2).toUpperCase()}
+        </Text>
+        <View style={[s.scoreChip, atGoal && s.scoreChipAtGoal]}>
+          <Text style={[s.scoreChipText, atGoal && s.scoreChipTextAtGoal]}>{predicted ?? '—'}</Text>
+        </View>
+        <Text style={s.chevron}>{subjectSheetOpen ? '▲' : '▼'}</Text>
+      </TouchableOpacity>
 
       {/* Stats */}
       <View style={s.stats}>
@@ -203,31 +194,34 @@ function makeStyles(topInset, subjectColor) {
       height:            topInset + 48,
     },
 
-    subjectGroup: { flexDirection: 'row', alignItems: 'center', gap: 6 },
-    subjectBtn: {
+    coursePill: {
       flexDirection: 'row',
       alignItems: 'center',
-      gap: 5,
+      gap: 7,
       backgroundColor: 'rgba(255,255,255,0.18)',
-      paddingHorizontal: 12,
-      paddingVertical: 6,
-      borderRadius: 14,
+      paddingLeft: 12,
+      paddingRight: 9,
+      paddingVertical: 5,
+      borderRadius: 16,
       ...(Platform.OS === 'web' ? { backdropFilter: 'blur(16px)' } : {}),
     },
     subjectBtnText: { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#fff' },
     chevron:        { fontSize: 10, color: 'rgba(255,255,255,0.85)' },
 
-    scoreBadge: {
+    // Inline score chip inside the course pill — light fill so the number reads
+    // as a distinct value against the subject name; greens out when at goal.
+    scoreChip: {
       backgroundColor: 'rgba(255,255,255,0.92)',
-      paddingHorizontal: 10,
-      paddingVertical: 6,
-      borderRadius: 14,
-      borderWidth: 1,
-      borderColor: 'rgba(255,255,255,0.5)',
-      ...(Platform.OS === 'web' ? { backdropFilter: 'blur(16px)' } : {}),
+      minWidth: 26,
+      paddingHorizontal: 8,
+      paddingVertical: 2,
+      borderRadius: 10,
+      alignItems: 'center',
+      justifyContent: 'center',
     },
-    scoreBadgeAtGoal: { backgroundColor: '#DCFCE7', borderColor: '#86EFAC' },
-    scoreBadgeText:   { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: subjectColor },
+    scoreChipAtGoal:     { backgroundColor: '#DCFCE7' },
+    scoreChipText:       { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: subjectColor },
+    scoreChipTextAtGoal: { color: '#15803D' },
 
     stats: { flexDirection: 'row', alignItems: 'center', gap: 8 },
     stat: {
