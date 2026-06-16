@@ -13,7 +13,6 @@ import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useRP } from '../hooks/useRP'
 import { useLivesContext } from '../context/LivesContext'
 import { useDailyGoal } from '../hooks/useDailyGoal'
-import { useMistakes } from '../hooks/useMistakes'
 import { useLessonProgress } from '../hooks/useLessonProgress'
 import { useUnitUnlocks } from '../hooks/useUnitUnlocks'
 import { useFocusEffect } from '@react-navigation/native'
@@ -36,12 +35,9 @@ import { T, duoBtn, duoBtnOutline, cardShadow, elevatedCard, sectionLabel } from
 import GoalRing from '../components/GoalRing'
 import UnitBanner from '../components/UnitBanner'
 import PetWidget from '../components/PetWidget'
-import PetStatusBars from '../components/PetStatusBars'
-import PetTriviaCard from '../components/PetTriviaCard'
 import { usePetContext } from '../context/PetContext'
 import { useSpeechContext, loadDailyMessage } from '../context/SpeechContext'
 import { useTour, useTourTarget } from '../context/TourContext'
-import { FOOD_ITEMS } from '../data/petConfig'
 import { PET_RESULTS } from '../data/petPersonality'
 import PlacementTestScreen from './PlacementTestScreen'
 import { useLeague, formatCountdown, msUntilReset } from '../hooks/useLeague'
@@ -124,8 +120,6 @@ export default function HomeScreen({ navigation }) {
 
   // ── Guided tour anchors + scroll wiring ─────────────────────────────────────
   const tour       = useTour()
-  const petTarget  = useTourTarget('pet')
-  const gridTarget = useTourTarget('quickGrid')
   const scrollRef  = useRef(null)
   const tourTargetY = useRef({})   // { pet, quickGrid } content-relative Y for scroll-into-view
   useEffect(() => {
@@ -194,7 +188,6 @@ export default function HomeScreen({ navigation }) {
   }, [reloadHistory, reloadSkipUnlocks, pendingEvolution, uid, streak, smartQuestDef]))
 
   const { goal, setGoal, todayRP, progress: goalProgress, goalMet, GOALS, celebrated, markCelebrated } = useDailyGoal(rp, rpLoaded)
-  const { mistakes, mistakeCount } = useMistakes()
 
   // ── Exam countdown (real dates — computed once per render) ─────────────────
   const daysToExam = getDaysUntilExam(subject)
@@ -202,7 +195,6 @@ export default function HomeScreen({ navigation }) {
 
   const [selectedLesson,    setSelectedLesson]    = useState(null)
   const [showGoalPicker,    setShowGoalPicker]     = useState(false)
-  const [digReward,         setDigReward]          = useState(null)
   const [questData,         setQuestData]          = useState(null)
   const [goalCelebModal,    setGoalCelebModal]    = useState(false)
   const [milestoneModal,  setMilestoneModal]   = useState(null)
@@ -517,36 +509,8 @@ export default function HomeScreen({ navigation }) {
     })
   }
 
-  function startPracticeMistakes() {
-    if (!mistakeCount) {
-      Alert.alert('No mistakes yet! 🎉', 'Complete some quizzes or exams first — wrong answers will appear here.')
-      return
-    }
-    // Filter to current subject, then shuffle; fall back to all subjects if none
-    const forSubject = mistakes.filter((q) => (q.subject ?? 'living-environment') === subject)
-    const pool = shuffle((forSubject.length ? forSubject : mistakes).slice(0, 50))  // cap at 50
-    livesGate(() =>
-      navigation.navigate('Quiz', { questionSet: pool, topic: null, subject, isMistakesPractice: true }),
-    )
-  }
-
-  function startSpeedRound() {
-    const pool = shuffle(sd.questions).slice(0, 30)
-    if (!pool.length) return
-    navigation.navigate('SpeedRound', { questionSet: pool, subject })
-  }
-
-  async function handleDig() {
-    const result = await dailyDig()
-    if (!result.ok) return
-    if (result.type === 'xp') await earnRP(result.amount)
-    const label = result.type === 'xp'
-      ? `${pet.name} found ⭐ ${result.amount} RP!`
-      : `${pet.name} dug up a ${FOOD_ITEMS.find((f) => f.id === result.itemId)?.icon ?? '🎁'}!`
-    setDigReward(label)
-    setTimeout(() => setDigReward(null), 3000)
-    say(result.type === 'xp' ? `I found something! +${result.amount} ⭐` : 'Look what I dug up! 🎁')
-  }
+  // Quick Practice (startSpeedRound / startPracticeMistakes) moved to the Exams
+  // tab; the pet's dig (handleDig) moved to PetScreen.
 
   const s = makeStyles(C)
 
@@ -619,27 +583,7 @@ export default function HomeScreen({ navigation }) {
           )}
         </View>
 
-        {/* Week streak dots */}
-        <View style={s.weekRow}>
-          {weekDays.map((d) => (
-            <View key={d.date} style={{ alignItems: 'center', gap: 4 }}>
-              <View
-                style={[
-                  s.dayDot,
-                  d.studied   && { backgroundColor: C.brand, borderColor: C.brandDark },
-                  d.isToday   && { borderColor: C.brandLight, borderWidth: 2.5 },
-                ]}
-              >
-                <Text style={[T.label, { color: d.studied ? '#fff' : C.textMuted, textTransform: 'none', letterSpacing: 0, fontSize: 14 }]}>
-                  {d.studied ? '✓' : d.dayLabel[0]}
-                </Text>
-              </View>
-              <Text style={[T.label, { color: d.isToday ? C.brand : C.textDim, fontSize: 9, textTransform: 'none', letterSpacing: 0 }]}>
-                {d.dayLabel.slice(0, 3)}
-              </Text>
-            </View>
-          ))}
-        </View>
+        {/* Week streak moved to the top bar — tap the 🔥 there for the full calendar */}
 
         {/* Engagement nudge */}
         {bannerResolved && !nudgeDismissed && !showFreezeBanner && getEngagementNudge('home', { streak, studiedToday, hasFreeze, weekDays, todayRP, goal, goalMet }) && (
@@ -678,260 +622,7 @@ export default function HomeScreen({ navigation }) {
           </View>
         )}
 
-        {/* Regents Goal — predicted score vs committed target */}
-        {regentsGoal ? (
-          <TouchableOpacity
-            style={[s.goalCard, elevatedCard(C), glassStyle, { borderLeftWidth: 4, borderLeftColor: C.warn ?? '#FFC800' }]}
-            onPress={() => navigation.navigate('GoalDetail')}
-            activeOpacity={0.85}
-          >
-            <GoalRing
-              size={72}
-              strokeWidth={7}
-              progress={predicted != null
-                ? Math.min(1, Math.max(0, (predicted - 50) / Math.max(1, regentsGoal.target - 50)))
-                : 0}
-              color={predicted != null && predicted >= regentsGoal.target ? C.correct : (C.warn ?? '#FFC800')}
-              trackColor={C.surface2}
-            >
-              <Text style={[T.label, { color: C.text, textTransform: 'none', letterSpacing: 0, fontSize: 15 }]}>
-                {coldStart ? '—' : predicted}
-              </Text>
-            </GoalRing>
-            <View style={{ flex: 1, marginLeft: 14 }}>
-              <Text style={[T.h3, { color: C.text }]}>🎯 Regents Goal</Text>
-              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-                {coldStart
-                  ? `Goal: ${regentsGoal.target} ${tierFor(regentsGoal.target).icon} · take a quiz to unlock your prediction`
-                  : `${predicted} → ${regentsGoal.target} ${tierFor(regentsGoal.target).icon}`}
-              </Text>
-              {!coldStart && (
-                <Text style={[T.small, { color: predicted >= regentsGoal.target ? C.correct : C.textMuted, marginTop: 3 }]}>
-                  {predicted >= regentsGoal.target
-                    ? '🎉 Predicted at your goal!'
-                    : `${regentsGoal.target - predicted} points to go`}
-                  {goalDaysToExam != null ? ` · ${goalDaysToExam} days left` : ''}
-                </Text>
-              )}
-            </View>
-            <Text style={[T.label, { color: C.textDim }]}>{'DETAILS\n›'}</Text>
-          </TouchableOpacity>
-        ) : goalLoaded ? (
-          <TouchableOpacity
-            style={[s.goalCard, elevatedCard(C), glassStyle, { borderLeftWidth: 4, borderLeftColor: C.brand }]}
-            onPress={() => navigation.navigate('GoalSetup')}
-            activeOpacity={0.85}
-          >
-            <Text style={{ fontSize: 34 }}>🎯</Text>
-            <View style={{ flex: 1, marginLeft: 14 }}>
-              <Text style={[T.h3, { color: C.text }]}>Set your Regents goal</Text>
-              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-                Commit to a score and watch your prediction climb
-              </Text>
-            </View>
-            <Text style={[T.label, { color: C.textDim }]}>{'START\n›'}</Text>
-          </TouchableOpacity>
-        ) : null}
-
-        {/* Daily Goal Ring */}
-        <TouchableOpacity
-          style={[s.goalCard, elevatedCard(C), glassStyle, { borderLeftWidth: 4, borderLeftColor: goalMet ? C.correct : C.brand }]}
-          onPress={openGoalPicker}
-          activeOpacity={0.85}
-        >
-          {/* Ring */}
-          <GoalRing
-            size={72}
-            strokeWidth={7}
-            progress={goalProgress}
-            color={goalMet ? C.correct : C.brand}
-            trackColor={C.surface2}
-          >
-            <Text style={[T.label, { color: C.text, textTransform: 'none', letterSpacing: 0, fontSize: 13 }]}>
-              {todayRP}
-            </Text>
-          </GoalRing>
-
-          {/* Text */}
-          <View style={{ flex: 1, marginLeft: 14 }}>
-            <Text style={[T.h3, { color: C.text }]}>Daily Goal</Text>
-            <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-              {todayRP} / {goal} RP today
-            </Text>
-            {goalMet
-              ? <Text style={[T.small, { color: C.correct, marginTop: 3 }]}>🎯 Goal reached!</Text>
-              : <Text style={[T.small, { color: C.textMuted, marginTop: 3 }]}>{goal - todayRP} RP to go</Text>
-            }
-          </View>
-
-          {/* Tap hint */}
-          <Text style={[T.label, { color: C.textDim }]}>TAP TO{'\n'}CHANGE</Text>
-        </TouchableOpacity>
-
-        {/* StudyBuddy pet */}
-        {pet.chosen && (
-          <View
-            style={s.petSection}
-            {...petTarget}
-            onLayout={(e) => { tourTargetY.current.pet = e.nativeEvent.layout.y }}
-          >
-            <View style={s.petRow}>
-              <PetWidget size={90} onLongPress={() => navigation.navigate('PetShop')} />
-              
-              {/* Personality message */}
-              {(() => {
-                const daysSince = studiedToday ? 0 : 1
-                const msg = getPetMessage({ streak, daysSince })
-                if (!msg) return null
-                return (
-                  <View style={[s.petMsgBubble, { backgroundColor: C.surface, borderColor: C.border }, glassStyle]}>
-                    <Text style={[T.body, { color: C.text }]}>
-                      {msg}
-                    </Text>
-                    {/* Speech bubble pointer arrow */}
-                    <View style={[s.bubblePointer, { borderRightColor: C.surface, borderLeftColor: 'transparent' }]} />
-                  </View>
-                )
-              })()}
-            </View>
-            <PetStatusBars />
-
-            {/* Daily dig button + shop button */}
-            <View style={{ flexDirection: 'row', marginHorizontal: 24, marginTop: 10, gap: 10 }}>
-              <TouchableOpacity
-                style={[s.digBtn, { flex: 1, marginHorizontal: 0, marginTop: 0, backgroundColor: C.surface, borderColor: C.border }]}
-                onPress={handleDig}
-                activeOpacity={0.8}
-              >
-                <Text style={{ fontSize: 18 }}>🐾</Text>
-                <Text style={[T.btn, { color: C.text, fontSize: 13 }]}>Let {pet.name} dig!</Text>
-                <Text style={[T.small, { color: C.textMuted }]}>once/day</Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={[s.digBtn, { marginHorizontal: 0, marginTop: 0, paddingHorizontal: 16, backgroundColor: C.surface, borderColor: C.border }]}
-                onPress={() => navigation.navigate('PetShop')}
-                activeOpacity={0.8}
-              >
-                <Text style={{ fontSize: 18 }}>🛍</Text>
-                <Text style={[T.btn, { color: C.text, fontSize: 13 }]}>Shop</Text>
-              </TouchableOpacity>
-            </View>
-            {digReward && (
-              <View style={[s.digRewardBanner, { backgroundColor: C.brandBg, borderColor: C.brand }]}>
-                <Text style={[T.body, { color: C.brand, textAlign: 'center' }]}>{digReward}</Text>
-              </View>
-            )}
-
-          </View>
-        )}
-
-        {/* Daily quest card — tapping a topic-focus quest starts that quiz */}
-        {questData && pet.chosen && (
-          <TouchableOpacity
-            style={[s.questCard, { backgroundColor: C.surface, borderColor: C.border }, glassStyle]}
-            disabled={questData.action !== 'complete_quiz_topic' || questData.completed}
-            onPress={() => startQuiz(questData.topic)}
-            activeOpacity={0.85}
-          >
-            <View style={s.questHeader}>
-              <Text style={{ fontSize: 18 }}>{questData.icon}</Text>
-              <Text style={[T.h3, { color: C.text, flex: 1 }]}>{questData.label}</Text>
-              {questData.completed
-                ? <Text style={[T.label, { color: C.correct }]}>✓ DONE</Text>
-                : <Text style={[T.small, { color: C.textMuted }]}>+{questData.rp ?? 30} ⭐</Text>}
-            </View>
-            <View style={s.questBg}>
-              <View style={[s.questFill, {
-                width: `${Math.min(100, (questData.progress / questData.goal) * 100)}%`,
-                backgroundColor: questData.completed ? C.correct : C.brand,
-              }]} />
-            </View>
-            <Text style={[T.small, { color: C.textMuted, marginTop: 4 }]}>
-              {questData.progress}/{questData.goal} completed
-            </Text>
-          </TouchableOpacity>
-        )}
-
-        {/* Pet trivia card */}
-        <PetTriviaCard />
-
-        {/* Quick actions — 2×2 grid */}
-        <Text style={[sectionLabel(C), { paddingHorizontal: 20, marginBottom: 12 }]}>Quick Practice</Text>
-        <View
-          style={s.quickGrid}
-          {...gridTarget}
-          onLayout={(e) => { tourTargetY.current.quickGrid = e.nativeEvent.layout.y }}
-        >
-          <TouchableOpacity style={[s.quickBtn, duoBtn(C.brand, C.brandDark)]} onPress={() => startQuiz(null)}>
-            <Text style={s.quickIcon}>⚡</Text>
-            <Text style={[T.btn, { color: '#fff', fontSize: 11 }]}>Quick{'\n'}Quiz</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={[s.quickBtn, duoBtn(C.blue, C.blueDark)]} onPress={startSpeedRound}>
-            <Text style={s.quickIcon}>🏃</Text>
-            <Text style={[T.btn, { color: '#fff', fontSize: 11 }]}>Speed{'\n'}Round</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={[s.quickBtn, duoBtn(C.purple, C.purpleDark)]} onPress={() => startFlashcards(null)}>
-            <Text style={s.quickIcon}>🃏</Text>
-            <Text style={[T.btn, { color: '#fff', fontSize: 11 }]}>Flash{'\n'}Cards</Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={[s.quickBtn, duoBtn('#B45309', '#92400E')]}
-            onPress={startPracticeMistakes}
-          >
-            {/* Badge showing mistake count */}
-            {mistakeCount > 0 && (
-              <View style={s.mistakeBadge}>
-                <Text style={s.mistakeBadgeText}>{mistakeCount > 99 ? '99+' : mistakeCount}</Text>
-              </View>
-            )}
-            <Text style={s.quickIcon}>📕</Text>
-            <Text style={[T.btn, { color: '#fff', fontSize: 11 }]}>Practice{'\n'}Mistakes</Text>
-          </TouchableOpacity>
-        </View>
-
-        {/* ── FOCUS TIMER ── */}
-        <TouchableOpacity
-          style={[s.focusRow, elevatedCard(C), glassStyle]}
-          onPress={() => navigation.navigate('FocusMain')}
-          activeOpacity={0.85}
-        >
-          <Text style={{ fontSize: 22 }}>⏱</Text>
-          <View style={{ flex: 1, marginLeft: 12 }}>
-            <Text style={[T.h3, { color: C.text }]}>Focus Timer</Text>
-            <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Pomodoro study sessions</Text>
-          </View>
-          <Text style={{ fontSize: 18, color: C.textMuted }}>›</Text>
-        </TouchableOpacity>
-
-        {/* ── LEAGUE WIDGET ── */}
-        {tier !== 'none' && (
-          <TouchableOpacity
-            style={[s.leagueCard, elevatedCard(C), glassStyle]}
-            onPress={() => navigation.navigate('FriendsMain')}
-            activeOpacity={0.85}
-          >
-            <View style={{ flex: 1 }}>
-              <View style={s.leagueHeader}>
-                <Text style={[T.h3, { color: C.text }]}>
-                  {tier === 'bronze' ? '🥉' : tier === 'silver' ? '🥈' : tier === 'gold' ? '🥇' : '💎'}{' '}
-                  {tier.charAt(0).toUpperCase() + tier.slice(1)} League
-                </Text>
-                <Text style={[T.small, { color: C.textMuted }]}>
-                  {formatCountdown(msUntilReset())} left
-                </Text>
-              </View>
-              {members.length > 0 && (
-                <Text style={[T.small, { color: C.textMuted, marginTop: 3 }]}>
-                  You're #{members.findIndex((m) => m.uid === uid) + 1 || '–'} of {members.length} · Top {promoteN} promote 🆙
-                </Text>
-              )}
-            </View>
-            <Text style={{ fontSize: 18, color: C.textMuted }}>›</Text>
-          </TouchableOpacity>
-        )}
-
-        {/* ── DUOLINGO UNIT PATH ── */}
-        <Text style={[sectionLabel(C), { paddingHorizontal: 20, marginBottom: 16 }]}>Learning Path</Text>
+        {/* ── LEARNING PATH — the home screen's primary content, lessons first ── */}
         <View style={s.pathContainer}>
           {pathItems.map((item) => {
             if (item.type === 'banner') {
@@ -1064,6 +755,159 @@ export default function HomeScreen({ navigation }) {
             )
           })}
         </View>
+
+        {/* ── Secondary content (goals, pet, quests, practice) lives below the path ── */}
+
+        {/* Regents Goal — predicted score vs committed target */}
+        {regentsGoal ? (
+          <TouchableOpacity
+            style={[s.goalCard, elevatedCard(C), glassStyle, { borderLeftWidth: 4, borderLeftColor: C.warn ?? '#FFC800' }]}
+            onPress={() => navigation.navigate('GoalDetail')}
+            activeOpacity={0.85}
+          >
+            <GoalRing
+              size={72}
+              strokeWidth={7}
+              progress={predicted != null
+                ? Math.min(1, Math.max(0, (predicted - 50) / Math.max(1, regentsGoal.target - 50)))
+                : 0}
+              color={predicted != null && predicted >= regentsGoal.target ? C.correct : (C.warn ?? '#FFC800')}
+              trackColor={C.surface2}
+            >
+              <Text style={[T.label, { color: C.text, textTransform: 'none', letterSpacing: 0, fontSize: 15 }]}>
+                {coldStart ? '—' : predicted}
+              </Text>
+            </GoalRing>
+            <View style={{ flex: 1, marginLeft: 14 }}>
+              <Text style={[T.h3, { color: C.text }]}>🎯 Regents Goal</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                {coldStart
+                  ? `Goal: ${regentsGoal.target} ${tierFor(regentsGoal.target).icon} · take a quiz to unlock your prediction`
+                  : `${predicted} → ${regentsGoal.target} ${tierFor(regentsGoal.target).icon}`}
+              </Text>
+              {!coldStart && (
+                <Text style={[T.small, { color: predicted >= regentsGoal.target ? C.correct : C.textMuted, marginTop: 3 }]}>
+                  {predicted >= regentsGoal.target
+                    ? '🎉 Predicted at your goal!'
+                    : `${regentsGoal.target - predicted} points to go`}
+                  {goalDaysToExam != null ? ` · ${goalDaysToExam} days left` : ''}
+                </Text>
+              )}
+            </View>
+            <Text style={[T.label, { color: C.textDim }]}>{'DETAILS\n›'}</Text>
+          </TouchableOpacity>
+        ) : goalLoaded ? (
+          <TouchableOpacity
+            style={[s.goalCard, elevatedCard(C), glassStyle, { borderLeftWidth: 4, borderLeftColor: C.brand }]}
+            onPress={() => navigation.navigate('GoalSetup')}
+            activeOpacity={0.85}
+          >
+            <Text style={{ fontSize: 34 }}>🎯</Text>
+            <View style={{ flex: 1, marginLeft: 14 }}>
+              <Text style={[T.h3, { color: C.text }]}>Set your Regents goal</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                Commit to a score and watch your prediction climb
+              </Text>
+            </View>
+            <Text style={[T.label, { color: C.textDim }]}>{'START\n›'}</Text>
+          </TouchableOpacity>
+        ) : null}
+
+        {/* Daily Goal ring consolidated away — the Regents Goal card above covers
+            goals, and today's RP progress already shows in the top bar. */}
+
+        {/* Pet companion — compact; the full buddy hub (feed, play, dig, shop,
+            trivia) now lives on its own Pet screen so home stays lesson-focused. */}
+        {pet.chosen && (
+          <TouchableOpacity
+            style={[s.goalCard, elevatedCard(C), glassStyle]}
+            onPress={() => navigation.navigate('Pet')}
+            activeOpacity={0.85}
+          >
+            <PetWidget size={56} onPress={() => navigation.navigate('Pet')} />
+            <View style={{ flex: 1, marginLeft: 14 }}>
+              <Text style={[T.h3, { color: C.text }]}>{pet.name ?? 'Your buddy'}</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Tap to feed, play & dig</Text>
+            </View>
+            <Text style={[T.label, { color: C.textDim }]}>{'VISIT\n›'}</Text>
+          </TouchableOpacity>
+        )}
+
+
+        {/* Daily quest card — tapping a topic-focus quest starts that quiz */}
+        {questData && pet.chosen && (
+          <TouchableOpacity
+            style={[s.questCard, { backgroundColor: C.surface, borderColor: C.border }, glassStyle]}
+            disabled={questData.action !== 'complete_quiz_topic' || questData.completed}
+            onPress={() => startQuiz(questData.topic)}
+            activeOpacity={0.85}
+          >
+            <View style={s.questHeader}>
+              <Text style={{ fontSize: 18 }}>{questData.icon}</Text>
+              <Text style={[T.h3, { color: C.text, flex: 1 }]}>{questData.label}</Text>
+              {questData.completed
+                ? <Text style={[T.label, { color: C.correct }]}>✓ DONE</Text>
+                : <Text style={[T.small, { color: C.textMuted }]}>+{questData.rp ?? 30} ⭐</Text>}
+            </View>
+            <View style={s.questBg}>
+              <View style={[s.questFill, {
+                width: `${Math.min(100, (questData.progress / questData.goal) * 100)}%`,
+                backgroundColor: questData.completed ? C.correct : C.brand,
+              }]} />
+            </View>
+            <Text style={[T.small, { color: C.textMuted, marginTop: 4 }]}>
+              {questData.progress}/{questData.goal} completed
+            </Text>
+          </TouchableOpacity>
+        )}
+
+        {/* Pet trivia moved to the Pet screen */}
+
+        {/* Quick Practice (Quick Quiz, Speed Round, Flashcards, Mistakes) moved
+            to the Exams tab — one tap away in the bottom bar — to keep home
+            focused on the lesson path. */}
+
+        {/* ── FOCUS TIMER ── */}
+        <TouchableOpacity
+          style={[s.focusRow, elevatedCard(C), glassStyle]}
+          onPress={() => navigation.navigate('FocusMain')}
+          activeOpacity={0.85}
+        >
+          <Text style={{ fontSize: 22 }}>⏱</Text>
+          <View style={{ flex: 1, marginLeft: 12 }}>
+            <Text style={[T.h3, { color: C.text }]}>Focus Timer</Text>
+            <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Pomodoro study sessions</Text>
+          </View>
+          <Text style={{ fontSize: 18, color: C.textMuted }}>›</Text>
+        </TouchableOpacity>
+
+        {/* ── LEAGUE WIDGET ── */}
+        {tier !== 'none' && (
+          <TouchableOpacity
+            style={[s.leagueCard, elevatedCard(C), glassStyle]}
+            onPress={() => navigation.navigate('FriendsMain')}
+            activeOpacity={0.85}
+          >
+            <View style={{ flex: 1 }}>
+              <View style={s.leagueHeader}>
+                <Text style={[T.h3, { color: C.text }]}>
+                  {tier === 'bronze' ? '🥉' : tier === 'silver' ? '🥈' : tier === 'gold' ? '🥇' : '💎'}{' '}
+                  {tier.charAt(0).toUpperCase() + tier.slice(1)} League
+                </Text>
+                <Text style={[T.small, { color: C.textMuted }]}>
+                  {formatCountdown(msUntilReset())} left
+                </Text>
+              </View>
+              {members.length > 0 && (
+                <Text style={[T.small, { color: C.textMuted, marginTop: 3 }]}>
+                  You're #{members.findIndex((m) => m.uid === uid) + 1 || '–'} of {members.length} · Top {promoteN} promote 🆙
+                </Text>
+              )}
+            </View>
+            <Text style={{ fontSize: 18, color: C.textMuted }}>›</Text>
+          </TouchableOpacity>
+        )}
+
 
         <View style={{ height: 40 }} />
       </ScrollView>

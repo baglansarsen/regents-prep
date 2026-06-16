@@ -1,12 +1,15 @@
 import React from 'react'
-import { View, Text, TouchableOpacity, FlatList, StyleSheet, Platform } from 'react-native'
+import { View, Text, TouchableOpacity, FlatList, StyleSheet, Platform, Alert } from 'react-native'
 import { useFocusEffect } from '@react-navigation/native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useSubject } from '../context/SubjectContext'
 import { SUBJECTS, SUBJECT_META } from '../content/subjects'
-import { T, cardShadow } from '../styles/duo'
+import { T, duoBtn, cardShadow } from '../styles/duo'
 import { useExamScores } from '../hooks/useExamScores'
+import { useMistakes } from '../hooks/useMistakes'
+import { getSubjectData } from '../utils/subjectData'
+import { shuffle } from '../utils/question'
 
 // Import exam registry dynamically
 const LE_EXAMS = [
@@ -470,6 +473,62 @@ export default function ExamPickerScreen({ navigation }) {
     }
   }
 
+  // ── Quick Practice (relocated from Home) — build a session from the current
+  // subject's question bank and run it in the Study tab's screens. ──
+  const sd = getSubjectData(subject)
+  const { mistakes, mistakeCount } = useMistakes()
+
+  function runPractice(screen, params) {
+    navigation.navigate('StudyTab', { screen, params })
+  }
+  function practiceQuiz() {
+    const pool = sd.questions ?? []
+    if (!pool.length) return
+    runPractice('Quiz', { questionSet: shuffle(pool), topic: null, subject })
+  }
+  function practiceSpeed() {
+    const pool = shuffle(sd.questions ?? []).slice(0, 30)
+    if (!pool.length) return
+    runPractice('SpeedRound', { questionSet: pool, subject })
+  }
+  function practiceFlashcards() {
+    runPractice('Flashcards', { topic: null, subject })
+  }
+  function practiceMistakes() {
+    if (!mistakeCount) {
+      Alert.alert('No mistakes yet! 🎉', 'Complete some quizzes or exams first — wrong answers will appear here.')
+      return
+    }
+    const forSubject = mistakes.filter((q) => (q.subject ?? 'living-environment') === subject)
+    const pool = shuffle((forSubject.length ? forSubject : mistakes).slice(0, 50))
+    runPractice('Quiz', { questionSet: pool, topic: null, subject, isMistakesPractice: true })
+  }
+
+  const PracticeHeader = (
+    <View style={{ marginBottom: 8 }}>
+      <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0, fontSize: 13, marginBottom: 10 }]}>Quick Practice</Text>
+      <View style={s.practiceGrid}>
+        <TouchableOpacity style={[s.practiceBtn, duoBtn(C.brand, C.brandDark)]} onPress={practiceQuiz} activeOpacity={0.85}>
+          <Text style={s.practiceIcon}>⚡</Text>
+          <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>Quick{'\n'}Quiz</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={[s.practiceBtn, duoBtn(C.blue, C.blueDark)]} onPress={practiceSpeed} activeOpacity={0.85}>
+          <Text style={s.practiceIcon}>🏃</Text>
+          <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>Speed{'\n'}Round</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={[s.practiceBtn, duoBtn(C.purple, C.purpleDark)]} onPress={practiceFlashcards} activeOpacity={0.85}>
+          <Text style={s.practiceIcon}>🃏</Text>
+          <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>Flash{'\n'}Cards</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={[s.practiceBtn, duoBtn('#B45309', '#92400E')]} onPress={practiceMistakes} activeOpacity={0.85}>
+          <Text style={s.practiceIcon}>📕</Text>
+          <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>Practice{'\n'}Mistakes</Text>
+        </TouchableOpacity>
+      </View>
+      <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0, fontSize: 13, marginTop: 22 }]}>Past Exams</Text>
+    </View>
+  )
+
   return (
     <SafeAreaView style={s.safe} edges={['bottom']}>
       <Text style={[T.h1, { color: C.text, padding: 20, paddingBottom: 16 }]}>Regents Exams</Text>
@@ -478,6 +537,7 @@ export default function ExamPickerScreen({ navigation }) {
         data={exams}
         keyExtractor={(item) => item.id}
         contentContainerStyle={s.list}
+        ListHeaderComponent={PracticeHeader}
         showsVerticalScrollIndicator={false}
         initialNumToRender={10}
         maxToRenderPerBatch={10}
@@ -527,6 +587,10 @@ function makeStyles(C) {
   return StyleSheet.create({
     safe:      { flex: 1, backgroundColor: C.bg },
     list:      { padding: 16, gap: 12 },
+
+    practiceGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10 },
+    practiceBtn:  { flexBasis: '47%', flexGrow: 1, alignItems: 'center', paddingVertical: 14, gap: 4 },
+    practiceIcon: { fontSize: 24, marginBottom: 2 },
     examCard:  { backgroundColor: C.surface, borderRadius: 16, padding: 16, flexDirection: 'row', alignItems: 'center', borderWidth: 1, borderColor: C.border, borderLeftWidth: 4 },
     scoreRow:  { flexDirection: 'row', gap: 6, marginTop: 6 },
     scoreChip: { fontSize: 11, fontWeight: '700', borderWidth: 1, borderRadius: 8, paddingHorizontal: 8, paddingVertical: 3 },

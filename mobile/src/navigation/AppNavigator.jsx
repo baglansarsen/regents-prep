@@ -18,6 +18,7 @@ import FocusStack               from './FocusStack'
 import ExamScreen               from '../screens/ExamScreen'
 import ExamResultsScreen        from '../screens/ExamResultsScreen'
 import PetShopScreen            from '../screens/PetShopScreen'
+import PetScreen                from '../screens/PetScreen'
 import PetEvolutionScreen       from '../screens/PetEvolutionScreen'
 
 const Stack = createNativeStackNavigator()
@@ -176,6 +177,8 @@ export default function AppNavigator() {
               options={{ presentation: 'fullScreenModal', animation: 'none' }} />
             <Stack.Screen name="PetShop" component={PetShopScreen}
               options={{ presentation: 'fullScreenModal', animation: 'slide_from_bottom' }} />
+            <Stack.Screen name="Pet" component={PetScreen}
+              options={{ presentation: 'card', animation: 'slide_from_right' }} />
             <Stack.Screen name="PetEvolution" component={PetEvolutionScreen}
               options={{ presentation: 'fullScreenModal', animation: 'fade' }} />
             <Stack.Screen name="FriendsMain" component={FriendsStack}

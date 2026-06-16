@@ -16,6 +16,7 @@ import TabNavigator             from './TabNavigator'
 import ExamScreen               from '../screens/ExamScreen'
 import ExamResultsScreen        from '../screens/ExamResultsScreen'
 import PetShopScreen            from '../screens/PetShopScreen'
+import PetScreen                from '../screens/PetScreen'
 import PetEvolutionScreen       from '../screens/PetEvolutionScreen'
 
 const Stack = createStackNavigator()
@@ -146,6 +147,7 @@ export default function AppNavigator() {
             <Stack.Screen name="Exam"        component={ExamScreen} />
             <Stack.Screen name="ExamResults" component={ExamResultsScreen} />
             <Stack.Screen name="PetShop"     component={PetShopScreen} />
+            <Stack.Screen name="Pet"         component={PetScreen} />
             <Stack.Screen name="PetEvolution" component={PetEvolutionScreen} />
           </>
         )}
