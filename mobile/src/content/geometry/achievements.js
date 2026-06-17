@@ -6,7 +6,7 @@ export const ACHIEVEMENTS = [
     title: 'Proof Builder',
     description: 'Pass Congruence & Transformations with 80%+',
     icon: '🔄',
-    condition: s => s.topicsPassed?.has(TOPICS.CONGRUENCE),
+    condition: s => s.topicsPassed?.has(TOPICS.LINES_ANGLES),
   },
   {
     id: 'geo_similarity_master',

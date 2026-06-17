@@ -1,5 +1,5 @@
 export const STRATEGIES = {
-  'geometry-u1': {
+  'geometry-lat': { // Lines, Angles & Transformations (covers the Congruence split)
     mentalPrep: [
       'Know all four isometries by name: translation (slide), reflection (flip), rotation (turn), glide reflection.',
       'For congruence proofs, identify the shortcut first (SSS, SAS, ASA, AAS, HL) before writing the proof.',
@@ -142,5 +142,29 @@ export const STRATEGIES = {
       'SOH-CAH-TOA questions are one-formula calculations — set up the ratio immediately.',
       'Law of Sines and Law of Cosines questions require substitution and algebra; budget about 2 minutes each.'
     ]
+  },
+
+  'geometry-pr': { // Proofs & Reasoning (two-column / coordinate proofs + justify)
+    mentalPrep: [
+      'A proof is a chain: every statement needs a reason. Start from the Given, end exactly at the Prove — no gaps.',
+      'Before writing, mark the diagram: tick congruent sides, arc congruent angles, note shared (reflexive) parts.',
+      'Know your triangle shortcuts cold: SSS, SAS, ASA, AAS, HL prove congruence; SSA and AAA do NOT.',
+    ],
+    answeringTechniques: [
+      'Decide the goal first: to prove segments/angles congruent, usually prove the triangles congruent, then CPCTC.',
+      'Coordinate proofs: use distance (lengths), slope (parallel = equal, perpendicular = opposite reciprocal), midpoint — state the formula and what it shows.',
+      'Constructed-response proofs earn partial credit for correct statements/reasons — write what you CAN justify even if you can\'t finish.',
+    ],
+    guessingStrategy: [
+      'A shared side/angle between two triangles is almost always used with the Reflexive Property.',
+      '"Justify/explain" multiple-choice: pick the reason that names the exact theorem or definition shown in the diagram.',
+    ],
+    processOfElimination: [
+      'Eliminate reasons that cite a shortcut the givens do not support (e.g. claiming SAS when the angle is not included).',
+      'Drop CPCTC if the triangles have not yet been proven congruent in the proof.',
+    ],
+    timeManagement: [
+      'Proofs are the highest-value constructed-response items — leave time to set them up, and show the diagram markings.',
+    ],
   }
 }

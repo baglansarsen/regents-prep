@@ -2,11 +2,11 @@ import { TOPICS } from './questions'
 
 export const flashcards = [
   // Congruence & Transformations
-  { topic: TOPICS.CONGRUENCE, term: 'Isometry', definition: 'A transformation that preserves shape and size (distance and angle measures); includes translations, reflections, and rotations.' },
-  { topic: TOPICS.CONGRUENCE, term: 'SAS (Side-Angle-Side)', definition: 'A triangle congruence shortcut: two sides and the included (between them) angle are congruent.' },
-  { topic: TOPICS.CONGRUENCE, term: 'Reflexive Property', definition: 'A geometric figure is congruent to itself; used in proofs to identify a shared side or angle.' },
-  { topic: TOPICS.CONGRUENCE, term: 'CPCTC', definition: 'Corresponding Parts of Congruent Triangles are Congruent; used after proving triangles congruent.' },
-  { topic: TOPICS.CONGRUENCE, term: 'Rotation of 180°', definition: 'Maps every point (x, y) to (−x, −y) about the origin.' },
+  { topic: TOPICS.LINES_ANGLES, term: 'Isometry', definition: 'A transformation that preserves shape and size (distance and angle measures); includes translations, reflections, and rotations.' },
+  { topic: TOPICS.TRIANGLE_CONG, term: 'SAS (Side-Angle-Side)', definition: 'A triangle congruence shortcut: two sides and the included (between them) angle are congruent.' },
+  { topic: TOPICS.TRIANGLE_CONG, term: 'Reflexive Property', definition: 'A geometric figure is congruent to itself; used in proofs to identify a shared side or angle.' },
+  { topic: TOPICS.TRIANGLE_CONG, term: 'CPCTC', definition: 'Corresponding Parts of Congruent Triangles are Congruent; used after proving triangles congruent.' },
+  { topic: TOPICS.LINES_ANGLES, term: 'Rotation of 180°', definition: 'Maps every point (x, y) to (−x, −y) about the origin.' },
 
   // Similarity & Proof
   { topic: TOPICS.SIMILARITY, term: 'AA Similarity', definition: 'If two angles of one triangle are congruent to two angles of another, the triangles are similar.' },
@@ -42,6 +42,13 @@ export const flashcards = [
   { topic: TOPICS.TRIGONOMETRY, term: 'Law of Sines', definition: 'a/sin A = b/sin B = c/sin C; used with AAS, ASA, or SSA triangles.' },
   { topic: TOPICS.TRIGONOMETRY, term: 'Law of Cosines', definition: 'a² = b² + c² − 2bc·cos A; used with SAS or SSS triangles.' },
   { topic: TOPICS.TRIGONOMETRY, term: '45-45-90 Triangle', definition: 'Legs are equal (x); hypotenuse = x√2. Values: sin 45° = cos 45° = √2/2.' },
+
+  // ── Proofs & Reasoning ──
+  { topic: TOPICS.PROOFS_REASONING, term: 'Two-column proof', definition: 'Statements on the left, reasons on the right. Every statement needs a reason (given, definition, postulate, or theorem) — start from the Given, end at the Prove.' },
+  { topic: TOPICS.PROOFS_REASONING, term: 'CPCTC', definition: 'Corresponding Parts of Congruent Triangles are Congruent — use it ONLY after you have proven the triangles congruent.' },
+  { topic: TOPICS.PROOFS_REASONING, term: 'Reflexive Property', definition: 'A segment or angle is congruent to itself — the go-to reason for a shared side/angle between two triangles in a proof.' },
+  { topic: TOPICS.PROOFS_REASONING, term: 'Triangle congruence shortcuts', definition: 'SSS, SAS, ASA, AAS, HL prove triangles congruent. SSA / AAA do NOT. Match which parts the givens provide.' },
+  { topic: TOPICS.PROOFS_REASONING, term: 'Coordinate proof', definition: 'Prove a property with coordinates: distance (lengths), slope (parallel = equal, perpendicular = opposite reciprocal), midpoint. State the formula and what it shows.' },
 ]
 
 export const FLASHCARD_TOPIC_LIST = Object.values(TOPICS)

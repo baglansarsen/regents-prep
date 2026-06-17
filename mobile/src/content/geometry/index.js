@@ -1,7 +1,7 @@
 export { TOPICS, TOPIC_ICONS, shuffled } from './questions'
 export { flashcards, FLASHCARD_TOPIC_LIST } from './flashcards'
 export { ACHIEVEMENTS as achievements } from './achievements'
-export { UNITS, getLessonQuestions, getByTopic, buildDiagnosticSet } from './units'
+export { UNITS, getLessonQuestions, getByTopic, buildDiagnosticSet, getWritten, getBySkill, writtenLabel } from './units'
 export { STRATEGIES as strategies } from './strategies'
 
 import { TOPICS } from './questions'
@@ -10,8 +10,10 @@ import { allQuestions, getByTopic } from './units'
 export const questions = allQuestions()
 
 export const TOPIC_ORDER = [
-  TOPICS.CONGRUENCE,
+  TOPICS.LINES_ANGLES,
+  TOPICS.TRIANGLE_CONG,
   TOPICS.SIMILARITY,
+  TOPICS.PROOFS_REASONING,
   TOPICS.CIRCLES,
   TOPICS.COORDINATE_GEO,
   TOPICS.SOLID_GEOMETRY,
