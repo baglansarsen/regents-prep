@@ -12,7 +12,7 @@ import { useRP } from '../hooks/useRP'
 import { useLivesContext } from '../context/LivesContext'
 import { useRewardedAd } from '../hooks/useRewardedAd'
 import { useQuiz } from '../hooks/useQuiz'
-import { appendMistakes } from '../hooks/useMistakes'
+import { appendMistakes, resolveCorrect } from '../hooks/useMistakes'
 import { useDoubleRP } from '../context/DoubleRPContext'
 import { usePetContext } from '../context/PetContext'
 import { useSpeechContext } from '../context/SpeechContext'
@@ -212,6 +212,9 @@ export default function QuizScreen({ route, navigation }) {
       // choice-less written question is never re-queued into a MC-only mode.
       const wrongQs = graded.filter((r) => !r.correct).map((r) => r.question)
       appendMistakes(wrongQs, subject)
+      // Self-clearing review queue: a correct answer advances/retires the item.
+      const correctQs = graded.filter((r) => r.correct).map((r) => r.question)
+      resolveCorrect(correctQs, subject)
 
       saveResult({ topic, score, total: gradedTotal, correct, pct, subject, lessonIndex })
       markStudied()

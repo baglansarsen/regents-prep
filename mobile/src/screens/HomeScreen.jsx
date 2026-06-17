@@ -14,6 +14,7 @@ import { useRP } from '../hooks/useRP'
 import { useLivesContext } from '../context/LivesContext'
 import { useDailyGoal } from '../hooks/useDailyGoal'
 import { useLessonProgress } from '../hooks/useLessonProgress'
+import { useMistakes } from '../hooks/useMistakes'
 import { useUnitUnlocks } from '../hooks/useUnitUnlocks'
 import { useFocusEffect } from '@react-navigation/native'
 import { localDateStr, yesterdayStr } from '../utils/localDate'
@@ -110,6 +111,7 @@ export default function HomeScreen({ navigation }) {
   )
 
   const { lessonComplete, unitLessonsCompleted, unitComplete } = useLessonProgress(subjectHistory)
+  const { mistakesByTopic, dueCount, getReviewSet } = useMistakes()
   const units = sd.UNITS ?? []
   const { isUnitUnlocked, unitUnlockHint, reloadSkipUnlocks } = useUnitUnlocks(units, lessonComplete, unitComplete, subject)
   // Declared before the focus effect below — it reads pendingEvolution in its
@@ -477,6 +479,20 @@ export default function HomeScreen({ navigation }) {
     livesGate(() => navigation.navigate('Quiz', { questionSet, topic: unit.topic, subject, lessonIndex: null }))
   }
 
+  // Smart Review — prioritized queued mistakes; topic-scoped for in-unit Fix-ups,
+  // or cross-topic for the Review card. Pads a thin single-topic set with fresh
+  // same-topic questions to confirm mastery.
+  function startReview(topic = null) {
+    let pool = getReviewSet({ subject, topic, daysToExam: goalDaysToExam, limit: 15 })
+    if (topic && pool.length < 6) {
+      const seen = new Set(pool.map((q) => q.id ?? q.text))
+      const extra = shuffle(sd.getByTopic(topic) ?? []).filter((q) => !seen.has(q.id ?? q.text)).slice(0, 6 - pool.length)
+      pool = [...pool, ...extra]
+    }
+    if (!pool.length) return
+    livesGate(() => navigation.navigate('Quiz', { questionSet: pool, topic, subject, isMistakesPractice: true }))
+  }
+
   function startQuiz(topic) {
     const pool = topic ? sd.getByTopic(topic) : sd.questions
     if (!pool.length) return
@@ -527,6 +543,10 @@ export default function HomeScreen({ navigation }) {
     }
     if ((sd.getExamContextQuestions(unit.topic) ?? []).length > 0) {
       pathItems.push({ type: 'stimulus', unit, unitIdx })
+    }
+    // Targeted "Fix-ups" node — only when this unit's topic has queued mistakes.
+    if ((mistakesByTopic[unit.topic] ?? 0) > 0) {
+      pathItems.push({ type: 'review', unit, unitIdx, count: mistakesByTopic[unit.topic] })
     }
   })
 
@@ -619,6 +639,25 @@ export default function HomeScreen({ navigation }) {
           </View>
         )}
 
+        {/* ── Smart Review — one tap to clear due gaps across topics ── */}
+        {dueCount > 0 && (
+          <TouchableOpacity
+            style={[s.reviewCard, cardShadow(C.shadow)]}
+            onPress={() => startReview(null)}
+            activeOpacity={0.85}
+          >
+            <Text style={{ fontSize: 26 }}>🩹</Text>
+            <View style={{ flex: 1, marginLeft: 12 }}>
+              <Text style={[T.h3, { color: C.text }]}>Review your gaps</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                {dueCount} {dueCount === 1 ? 'item' : 'items'} due
+                {goalDaysToExam != null && goalDaysToExam <= 14 ? ` · exam in ${goalDaysToExam}d` : ''}
+              </Text>
+            </View>
+            <Text style={[T.btn, { color: C.brand }]}>REVIEW ›</Text>
+          </TouchableOpacity>
+        )}
+
         {/* ── LEARNING PATH — the home screen's primary content, lessons first ── */}
         <View style={s.pathContainer}>
           {pathItems.map((item) => {
@@ -675,6 +714,26 @@ export default function HomeScreen({ navigation }) {
                     numberOfLines={1}
                   >
                     Regents Context
+                  </Text>
+                </View>
+              )
+            }
+
+            if (item.type === 'review') {
+              const { unit, count } = item
+              const nodeIdx = lessonNodeCount++
+              const offsetX = nodeIdx % 2 === 0 ? -ZIGZAG : ZIGZAG
+              return (
+                <View key={`${unit.id}-review`} style={[s.nodeWrapper, { marginLeft: offsetX }]}>
+                  <TouchableOpacity
+                    activeOpacity={0.8}
+                    onPress={() => startReview(unit.topic)}
+                    style={[s.node, { backgroundColor: '#FEE2E2', borderColor: '#EF4444', borderWidth: 2 }, cardShadow(C.shadow)]}
+                  >
+                    <Text style={s.nodeIcon}>🩹</Text>
+                  </TouchableOpacity>
+                  <Text style={[T.small, { color: C.text, textAlign: 'center', marginTop: 8 }]} numberOfLines={1}>
+                    Fix-ups ({count})
                   </Text>
                 </View>
               )
@@ -1338,6 +1397,7 @@ function makeStyles(C) {
     },
 
     pathContainer: { alignItems: 'center', paddingBottom: 20 },
+    reviewCard:    { flexDirection: 'row', alignItems: 'center', marginHorizontal: 16, marginBottom: 14, backgroundColor: C.surface, borderRadius: 16, padding: 16, borderWidth: 1, borderColor: '#EF4444' + '55' },
     nodeWrapper:   { alignItems: 'center', marginBottom: 4 },
     connector:     { width: 5, height: 36, backgroundColor: C.border, marginBottom: 4, borderRadius: 2.5 },
     node: {

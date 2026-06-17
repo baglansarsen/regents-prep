@@ -1,97 +1,128 @@
 /**
- * useMistakes — saves wrong answers from quizzes/exams to AsyncStorage and
- * exposes a deduplicated, capped list of recent mistakes ready to quiz from.
+ * useMistakes — the Smart Review store. Wrong answers become a self-clearing,
+ * prioritized review queue in AsyncStorage; correct answers advance items along
+ * a Leitner schedule and eventually retire them.
  *
- * Storage format  (@mistakes_v1):
- *   Array of up to MAX_SAVED question objects, newest first.
- *   Each entry is the raw question object augmented with { subject }.
- *
- * Deduplication: questions are keyed by their `id` field if present,
- * otherwise by a hash of `text` — so the same question doesn't pile up.
+ * Storage (@mistakes_v2): array of review entries (newest-first), each a raw
+ * question object augmented with { subject, box, wrongCount, lastSeen, due }.
+ * Legacy @mistakes_v1 plain-question entries are migrated on first load.
  */
 
 import { useState, useEffect, useCallback } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+import {
+  questionKey, normalizeEntry, reset, advance, buildReviewSet,
+} from '../utils/reviewQueue'
 
-const KEY       = '@mistakes_v1'
-const MAX_SAVED = 150   // cap so storage stays small
+const KEY     = '@mistakes_v2'
+const OLD_KEY = '@mistakes_v1'
+const MAX_SAVED = 150
 
-function questionKey(q) {
-  return q.id ?? q.text?.slice(0, 60) ?? String(Math.random())
+// ── Storage helpers ────────────────────────────────────────────────────────
+async function loadRaw() {
+  try {
+    const raw = await AsyncStorage.getItem(KEY)
+    if (raw) return JSON.parse(raw)
+    // One-time migration from the legacy flat list.
+    const old = await AsyncStorage.getItem(OLD_KEY)
+    if (old) {
+      const migrated = JSON.parse(old).map((q) => normalizeEntry(q, q.subject))
+      await AsyncStorage.setItem(KEY, JSON.stringify(migrated))
+      return migrated
+    }
+  } catch (_) {}
+  return []
 }
 
-/**
- * Merge a new batch of wrong questions into the existing list, preserving a
- * single invariant: the result is ALWAYS newest-first and capped at MAX_SAVED.
- *
- *   - `existing` is assumed newest-first (the format we always store).
- *   - The new batch is the most recent activity, so it goes to the front;
- *     within the batch, the last question answered is treated as newest.
- *   - Duplicates are keyed by question identity — the new copy wins (and
- *     refreshes its position to the front), the old copy is dropped.
- *   - slice(0, MAX_SAVED) keeps the newest and discards the oldest tail.
- */
-function mergeMistakes(existing, tagged) {
-  const map = new Map()
-  for (const q of [...tagged].reverse()) map.set(questionKey(q), q)
-  for (const q of existing) if (!map.has(questionKey(q))) map.set(questionKey(q), q)
-  return [...map.values()].slice(0, MAX_SAVED)
+async function persist(list) {
+  try { await AsyncStorage.setItem(KEY, JSON.stringify(list.slice(0, MAX_SAVED))) } catch (_) {}
+}
+
+// Apply a batch of newly-missed questions: reset/insert at front, dedup, cap.
+function applyWrong(existing, wrongQuestions, subject) {
+  const now = Date.now()
+  const map = new Map(existing.map((e) => [questionKey(e), e]))
+  for (const q of wrongQuestions) {
+    const k = questionKey(q)
+    map.set(k, reset({ ...q, ...map.get(k) }, subject, now))
+  }
+  // Newest (most-recently-touched, lowest due) first.
+  return [...map.values()].sort((a, b) => (b.lastSeen ?? 0) - (a.lastSeen ?? 0)).slice(0, MAX_SAVED)
+}
+
+// Apply correct answers: advance matched entries; drop those that graduate.
+function applyCorrect(existing, correctQuestions) {
+  const correctKeys = new Set(correctQuestions.map(questionKey))
+  const out = []
+  for (const e of existing) {
+    if (!correctKeys.has(questionKey(e))) { out.push(e); continue }
+    const adv = advance(e)
+    if (adv) out.push(adv)   // null = retired, drop it
+  }
+  return out
+}
+
+// ── Standalone writers (for screens that don't read the list) ───────────────
+export async function appendMistakes(wrongQuestions, subject) {
+  if (!wrongQuestions?.length) return
+  const existing = await loadRaw()
+  await persist(applyWrong(existing, wrongQuestions, subject))
+}
+
+export async function resolveCorrect(correctQuestions, subject) {
+  if (!correctQuestions?.length) return
+  const existing = await loadRaw()
+  await persist(applyCorrect(existing, correctQuestions))
 }
 
 // ── Public hook ──────────────────────────────────────────────────────────────
 export function useMistakes() {
-  const [mistakes, setMistakes] = useState([])   // full list, newest first
+  const [mistakes, setMistakes] = useState([])   // full queue, newest first
 
-  // Load on mount
-  useEffect(() => {
-    AsyncStorage.getItem(KEY).then((raw) => {
-      if (raw) {
-        try { setMistakes(JSON.parse(raw)) } catch (_) {}
-      }
-    })
-  }, [])
+  useEffect(() => { loadRaw().then(setMistakes) }, [])
 
-  /**
-   * saveMistakes(wrongQuestions, subject)
-   * wrongQuestions – array of question objects that the user got wrong
-   * subject        – 'living-environment' | 'earth-science'
-   */
   const saveMistakes = useCallback(async (wrongQuestions, subject) => {
     if (!wrongQuestions?.length) return
-
-    const tagged = wrongQuestions.map((q) => ({ ...q, subject: subject ?? 'living-environment' }))
-
-    const raw = await AsyncStorage.getItem(KEY)
-    const existing = raw ? JSON.parse(raw) : []
-
-    const updated = mergeMistakes(existing, tagged)
-
+    const updated = applyWrong(await loadRaw(), wrongQuestions, subject)
     setMistakes(updated)
-    await AsyncStorage.setItem(KEY, JSON.stringify(updated))
+    await persist(updated)
   }, [])
 
-  /** clearMistakes() — wipe the full list (e.g., after a clean session) */
+  // Advance/retire correctly-answered items (called after any quiz).
+  const resolveCorrectLocal = useCallback(async (correctQuestions) => {
+    if (!correctQuestions?.length) return
+    const updated = applyCorrect(await loadRaw(), correctQuestions)
+    setMistakes(updated)
+    await persist(updated)
+  }, [])
+
   const clearMistakes = useCallback(async () => {
     setMistakes([])
     await AsyncStorage.removeItem(KEY)
   }, [])
 
+  // Build a prioritized review session (question objects).
+  const getReviewSet = useCallback(
+    (opts = {}) => buildReviewSet({ items: mistakes, ...opts }),
+    [mistakes],
+  )
+
+  const now = Date.now()
+  const dueMistakes = mistakes.filter((e) => (e.due ?? 0) <= now)
+  const mistakesByTopic = mistakes.reduce((acc, e) => {
+    if (e.topic) acc[e.topic] = (acc[e.topic] ?? 0) + 1
+    return acc
+  }, {})
+
   return {
-    mistakes,                             // full list
-    mistakeCount: mistakes.length,        // for badge display
+    mistakes,
+    mistakeCount: mistakes.length,
+    dueMistakes,
+    dueCount: dueMistakes.length,
+    mistakesByTopic,
+    getReviewSet,
     saveMistakes,
+    resolveCorrect: resolveCorrectLocal,
     clearMistakes,
   }
-}
-
-// ── Standalone save (for screens that don't need to read the list) ───────────
-export async function appendMistakes(wrongQuestions, subject) {
-  if (!wrongQuestions?.length) return
-  try {
-    const tagged = wrongQuestions.map((q) => ({ ...q, subject: subject ?? 'living-environment' }))
-    const raw = await AsyncStorage.getItem(KEY)
-    const existing = raw ? JSON.parse(raw) : []
-    const updated = mergeMistakes(existing, tagged)
-    await AsyncStorage.setItem(KEY, JSON.stringify(updated))
-  } catch (_) {}
 }

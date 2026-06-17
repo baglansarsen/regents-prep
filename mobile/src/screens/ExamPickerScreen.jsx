@@ -476,7 +476,7 @@ export default function ExamPickerScreen({ navigation }) {
   // ── Quick Practice (relocated from Home) — build a session from the current
   // subject's question bank and run it in the Study tab's screens. ──
   const sd = getSubjectData(subject)
-  const { mistakes, mistakeCount } = useMistakes()
+  const { mistakeCount, getReviewSet } = useMistakes()
 
   function runPractice(screen, params) {
     navigation.navigate('StudyTab', { screen, params })
@@ -499,8 +499,12 @@ export default function ExamPickerScreen({ navigation }) {
       Alert.alert('No mistakes yet! 🎉', 'Complete some quizzes or exams first — wrong answers will appear here.')
       return
     }
-    const forSubject = mistakes.filter((q) => (q.subject ?? 'living-environment') === subject)
-    const pool = shuffle((forSubject.length ? forSubject : mistakes).slice(0, 50))
+    // Prioritized review set (most-missed / overdue / weak-topic first).
+    const pool = getReviewSet({ subject, limit: 20 })
+    if (!pool.length) {
+      Alert.alert('No mistakes yet! 🎉', 'Complete some quizzes or exams first — wrong answers will appear here.')
+      return
+    }
     runPractice('Quiz', { questionSet: pool, topic: null, subject, isMistakesPractice: true })
   }
 

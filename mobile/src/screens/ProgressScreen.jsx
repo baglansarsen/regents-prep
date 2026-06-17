@@ -11,6 +11,7 @@ import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useRP, LEVELS } from '../hooks/useRP'
 import { useExamScores } from '../hooks/useExamScores'
 import { useStudyTime } from '../hooks/useStudyTime'
+import { useMistakes } from '../hooks/useMistakes'
 import { usePredictedScore } from '../hooks/usePredictedScore'
 import { getSubjectData } from '../utils/subjectData'
 import { computeAchievements } from '../utils/achievements'
@@ -62,6 +63,15 @@ export default function ProgressScreen({ navigation }) {
   // Some subjects (e.g. English) have no per-topic question sets — hide the
   // Practice CTA there so it's never a dead button.
   const canPracticeWeakest = !!weakestUnit && (sd.getExamContextQuestions?.(weakestUnit.topic) ?? []).length > 0
+
+  // ── Smart Review — due gaps across topics ───────────────────────────────────
+  const { dueCount, getReviewSet } = useMistakes()
+  const weakMastery = Object.fromEntries(topicBreakdown.map((t) => [t.topic, t.pct]).filter(([, p]) => p != null))
+  function startReview() {
+    const pool = getReviewSet({ subject, weakMastery, daysToExam: daysLeft, limit: 15 })
+    if (!pool.length) return
+    navigation.navigate('StudyTab', { screen: 'Quiz', params: { questionSet: pool, topic: null, subject, isMistakesPractice: true } })
+  }
 
   // ── Achievements preview (LE+ES catalog, matches AchievementsScreen) ─────────
   const [diagCount, setDiagCount] = useState(0)
@@ -161,6 +171,25 @@ export default function ProgressScreen({ navigation }) {
             </View>
           ))}
         </View>
+
+        {/* ── Smart Review — clear your gaps ── */}
+        {dueCount > 0 && (
+          <View style={[s.insightCard, { backgroundColor: C.brand + '14', borderColor: C.brand + '55' }]}>
+            <Text style={s.insightIcon}>🩹</Text>
+            <View style={{ flex: 1 }}>
+              <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>Smart Review</Text>
+              <Text style={[T.small, { color: C.text, marginTop: 2 }]} numberOfLines={1}>
+                {dueCount} {dueCount === 1 ? 'gap' : 'gaps'} due{daysLeft != null && daysLeft <= 14 ? ` · exam in ${daysLeft}d` : ''}
+              </Text>
+            </View>
+            <TouchableOpacity
+              style={[duoBtn(C.brand, C.brandDark, { paddingVertical: 8, paddingHorizontal: 16 })]}
+              onPress={startReview}
+            >
+              <Text style={[T.btn, { color: '#fff', fontSize: 12 }]}>REVIEW</Text>
+            </TouchableOpacity>
+          </View>
+        )}
 
         {/* ── Insights ── */}
         {weakestUnit && (
