@@ -1,6 +1,8 @@
 # Handoff — Regentify mobile session
 
-_Last updated: 2026-06-16 · branch `master` · all work below is **committed and pushed** to `origin/master` (HEAD `47707d3`)._
+_Last updated: 2026-06-17 · branch `master` · all work below is **committed and pushed** to `origin/master` (HEAD `15c4a14`)._
+
+> **2026-06-17 update:** a full **curriculum revision of all 11 subjects** landed on top of the 2026-06-16 UI/bugfix work. See the "Curriculum revision" section near the bottom. The original 2026-06-16 notes below are unchanged.
 
 ## TL;DR
 This session reworked several `mobile/` surfaces (top bar, Tour, Profile, Progress tab, Social tab) and fixed two real bugs (tip purchases, exam countdown). **None of it has been run on a device/simulator yet** — the changes are visual/multi-screen and the highest-value items need on-device (and in two cases, two-account / StoreKit) verification. See **Needs verification** below.
@@ -47,3 +49,27 @@ This session reworked several `mobile/` surfaces (top bar, Tour, Profile, Progre
 - Validate JSX via local `@babel/core` (`transformFileSync`, preset `babel-preset-expo`) — `npx babel` resolves to a broken babel@5 in this env.
 - Committed `mobile/ios/` means `app.json` plugins/infoPlist are ignored; edit `mobile/ios/Info.plist` directly.
 - No tests anywhere in the repo; verification is manual.
+
+---
+
+## Curriculum revision — all 11 subjects (2026-06-17)
+
+Every subject's content was restructured for "top Regents score" outcomes. **Commits:** `401fde0` Life Science · `7f0dbf0` Living Environment · `62457d9` Earth Science · `8a981d3` Chemistry · `f5b7f11` Physics · `101a740` Algebra 1 · `8d90bab` Algebra 2 · `9228106` Geometry · `e2bbc93` Global History · `f60ec96` US History · `15c4a14` English. All pushed.
+
+**The pattern (applied per subject):**
+1. **Script-assisted tagging** of the Regents exam-question bank with `skill` + `subTopic` (deterministic rule scripts, reviewed via dry-run distributions; the scripts live in `/tmp` and are deleted after use).
+2. **Split mega-units** into focused sub-topic units; **merge/fix starved or fake units**; tune `lessonCount` to pool depth.
+3. **Add a cross-cutting skill unit** + a per-subject practice surface.
+4. **Engine**: `src/content/_shared/lessonEngine.js` gained `getBySkill` / `getBySubTopic` / `getWritten` / `getSkillLessonQuestions` / `getSubTopicLessonQuestions`. Each subject's `units.js` routes units to topic-pool / sub-topic-pool / skill-pool.
+5. **Smart Review** (`utils/reviewQueue.js`, `hooks/useMistakes.js`) matches a unit key by `topic` OR `subTopic` so split sub-units resolve.
+
+**Per-group specifics:**
+- **Sciences** (LS, LE, ES, Chem, Physics): science-practice skills (`data`/`model`/`experiment`/`reference`/`map`/`lab`) → a **"Science Practices / Data & Investigations / Reference Tables"** unit. **Chemistry & Physics pools were expanded** (Chem 4→9 exams, Physics 3→8). LE adds a **Lab Skills** unit; ES a **"Data, Maps & Reference Tables"** unit.
+- **Math** (Alg 1, Alg 2, Geometry): skills `modeling`/`graphing`/`procedure`/`reasoning` (+`proof` for Geometry) → a **"Problem-Solving & Modeling"** unit (Geometry: **"Proofs & Reasoning"**). NEW **"Worked Examples"** mode surfaces the step-by-step `modelAnswer` solutions (Exams tab; per-subject `writtenLabel`).
+- **Humanities** (Global, US, English): were a **custom positional-slice engine with untagged questions and fake units** — fully re-architected onto `makeLessonApi` with **source-/reading-analysis skill units** (era-tagging proved only ~37% reliable; skill-tagging ~77% and matches the post-2019 framework). Created the **missing local `flashcards.js`/`strategies.js`/`achievements.js`** for all three (they had none). English pool expanded 18→31 exams.
+
+**Key carry-forwards / known gaps:**
+- ⚠️ **English MC questions reference reading passages that are NOT in the data** (`context` absent), so they're hard to answer as shown. Structure/tagging/assets are now real; **adding the passages is a separate content-data task**.
+- **None of the curriculum work is device-verified.** Per subject, confirm: the new unit list renders in order, every unit's lessons populate (no repetition), the skill unit + Worked Examples/Essay/Written Practice surfaces work, and flashcards/strategies show.
+- **Achievements display**: `AchievementsScreen`/Progress preview compute from the LE+ES catalog via `utils/achievements.js`; the new per-subject `achievements.js` arrays exist but aren't yet wired into that screen (they're consumed where a subject's `sd.achievements` is read). Worth confirming each subject's achievements actually surface.
+- **Tagging is heuristic** (keyword rules), reviewed at the distribution level, not question-by-question — expect occasional mis-tags; the `subTopic`/`skill` values come from a controlled vocab per subject.
