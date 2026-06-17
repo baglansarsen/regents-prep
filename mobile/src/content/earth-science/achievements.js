@@ -4,9 +4,9 @@ export const ACHIEVEMENTS = [
   {
     id: 'es_rock_hound',
     title: 'Rock Hound',
-    description: 'Pass Geology & Rocks with 80%+',
+    description: 'Pass Rocks & the Rock Cycle with 80%+',
     icon: '🪨',
-    condition: s => s.topicsPassed?.has(TOPICS.GEOLOGY),
+    condition: s => s.topicsPassed?.has(TOPICS.ROCKS),
   },
   {
     id: 'es_tectonic_titan',
@@ -39,9 +39,9 @@ export const ACHIEVEMENTS = [
   {
     id: 'es_stargazer',
     title: 'Stargazer',
-    description: 'Pass Astronomy with 80%+',
+    description: 'Pass Solar System & Earth Motions with 80%+',
     icon: '🔭',
-    condition: s => s.topicsPassed?.has(TOPICS.ASTRONOMY),
+    condition: s => s.topicsPassed?.has(TOPICS.SOLAR_SYSTEM),
   },
   {
     id: 'es_ocean_explorer',
@@ -51,11 +51,11 @@ export const ACHIEVEMENTS = [
     condition: s => s.topicsPassed?.has(TOPICS.WATER_CYCLE),
   },
   {
-    id: 'es_cartographer',
-    title: 'Cartographer',
-    description: 'Pass Maps & Topography with 80%+',
-    icon: '🗺️',
-    condition: s => s.topicsPassed?.has(TOPICS.MAPS),
+    id: 'es_data_navigator',
+    title: 'Data Navigator',
+    description: 'Pass Data, Maps & Reference Tables with 80%+',
+    icon: '📊',
+    condition: s => s.topicsPassed?.has(TOPICS.SCIENCE_PRACTICES),
   },
   {
     id: 'es_earth_scientist',

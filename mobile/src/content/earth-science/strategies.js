@@ -1,5 +1,5 @@
 export const STRATEGIES = {
-  'es-u1': { // Geology
+  'es-rocks': { // Rocks & the Rock Cycle (covers the Geology split)
     mentalPrep: [
       'Ground yourself with ESRT pages 6–7 (rock cycle diagram, mineral properties table) before this unit\'s questions.',
       'Remember the three rock families: igneous (cooled magma), sedimentary (deposited layers), metamorphic (heat/pressure).',
@@ -139,7 +139,7 @@ export const STRATEGIES = {
     ],
   },
 
-  'es-u6': { // Astronomy
+  'es-solar': { // Solar System & Earth Motions (covers the Astronomy split)
     mentalPrep: [
       'Anchor yourself to the ESRT: the Luminosity vs. Surface Temperature (H-R diagram) and the Characteristics of Stars table are essential for this unit.',
       'Recall the stellar life cycle: nebula → main sequence star → (depending on mass) red giant → white dwarf OR supergiant → supernova → neutron star/black hole.',
@@ -195,8 +195,10 @@ export const STRATEGIES = {
     ],
   },
 
-  'es-u8': { // Maps
+  'es-sp': { // Data, Maps & Reference Tables (science practices)
     mentalPrep: [
+      'The Earth Science Reference Tables (ESRT) can answer most questions — know what each chart holds so you can find data fast.',
+      'For any graph/data table: name the x and y variables + units, then state the trend ("as X increases, Y ___") before reading the choices.',
       'Anchor yourself to the ESRT topographic map symbols and the contour line rules before this unit\'s questions.',
       'Recall the four contour rules: lines never cross; lines close around high points (hills); V-shapes point upstream in valleys; closer lines = steeper slope.',
       'Remind yourself: latitude lines run east-west; longitude lines run north-south.',
