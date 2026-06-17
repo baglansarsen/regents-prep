@@ -43,7 +43,7 @@ import PlacementTestScreen from './PlacementTestScreen'
 import { useLeague, formatCountdown, msUntilReset } from '../hooks/useLeague'
 import { getLevel } from '../hooks/useRP'
 import { useStudyTime, formatTime as fmtStudyTime } from '../hooks/useStudyTime'
-import { getExamLabel, getDaysUntilExam, daysUntil } from '../utils/examDates'
+import { getExamLabel, getDaysUntilExam, daysUntilExam } from '../utils/examDates'
 import { useGoal } from '../context/GoalContext'
 import { usePredictedScore } from '../hooks/usePredictedScore'
 import { pickSmartQuest } from '../utils/smartQuest'
@@ -129,7 +129,7 @@ export default function HomeScreen({ navigation }) {
   const regentsGoal = getGoal(subject)
   const { predicted, coldStart, weakestUnit, hasTakenPracticeExam } =
     usePredictedScore(subject, units, subjectHistory)
-  const goalDaysToExam = regentsGoal?.examDateStr ? daysUntil(regentsGoal.examDateStr) : null
+  const goalDaysToExam = regentsGoal ? daysUntilExam(subject, regentsGoal.examDateStr) : null
   const smartQuestDef = useMemo(() => pickSmartQuest({
     hasGoal: !!regentsGoal,
     daysToExam: goalDaysToExam ?? getDaysUntilExam(subject),

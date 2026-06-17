@@ -16,7 +16,7 @@ import { getSubjectData } from '../utils/subjectData'
 import { computeAchievements } from '../utils/achievements'
 import { REGENTS_EXAMS } from '../content/regents-exams/index'
 import { tierFor } from '../data/goalConfig'
-import { daysUntil } from '../utils/examDates'
+import { daysUntilExam } from '../utils/examDates'
 import { T, cardShadow, duoBtn } from '../styles/duo'
 import GoalRing from '../components/GoalRing'
 import StreakCalendar from '../components/StreakCalendar'
@@ -43,7 +43,7 @@ export default function ProgressScreen({ navigation }) {
 
   const goal     = getGoal(subject)
   const target   = goal?.target ?? null
-  const daysLeft = goal?.examDateStr ? daysUntil(goal.examDateStr) : null
+  const daysLeft = goal ? daysUntilExam(subject, goal.examDateStr) : null
   const atGoal   = predicted != null && target != null && predicted >= target
 
   // ── Stat strip values ───────────────────────────────────────────────────────

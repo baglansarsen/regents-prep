@@ -67,6 +67,29 @@ export function getDaysUntilExam(subject = 'living-environment') {
   return daysUntil(getNextExamDate(subject))
 }
 
+/**
+ * Whole days to the student's *upcoming* exam. A Regents goal freezes its
+ * `examDateStr` at commit time; once that session has passed the raw countdown
+ * goes negative. Prefer the committed date while it's still in the future, and
+ * once it's passed roll to the next scheduled session for the subject so the
+ * countdown never shows a negative number.
+ */
+export function daysUntilExam(subject = 'living-environment', goalExamDateStr = null) {
+  if (goalExamDateStr) {
+    const d = daysUntil(goalExamDateStr)
+    if (d >= 0) return d
+  }
+  return getDaysUntilExam(subject)
+}
+
+/** The exam date (YYYY-MM-DD) to display: committed date if still upcoming, else next session. */
+export function effectiveExamDateStr(subject = 'living-environment', goalExamDateStr = null) {
+  if (goalExamDateStr && daysUntil(goalExamDateStr) >= 0) return goalExamDateStr
+  const d = getNextExamDate(subject)
+  const pad = (n) => String(n).padStart(2, '0')
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`
+}
+
 export function getExamLabel(subject = 'living-environment') {
   const days = getDaysUntilExam(subject)
   if (days === 0) return '📅 Exam is today!'

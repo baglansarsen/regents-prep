@@ -11,7 +11,7 @@ import { useDailyStreak } from '../hooks/useDailyStreak'
 import { tierFor } from '../data/goalConfig'
 import { SUBJECT_META } from '../content/subjects'
 import { subjectData } from '../content/subjectData'
-import { daysUntil } from '../utils/examDates'
+import { daysUntilExam, effectiveExamDateStr } from '../utils/examDates'
 import { topicIndicator } from '../utils/examScoring'
 import { shuffle } from '../utils/question'
 import GoalRing from '../components/GoalRing'
@@ -51,7 +51,9 @@ export default function GoalDetailScreen({ navigation }) {
   if (!goal) return null
 
   const tier       = tierFor(goal.target)
-  const days       = goal.examDateStr ? daysUntil(goal.examDateStr) : null
+  // Roll to the next session once the committed exam date has passed.
+  const examDateStr = effectiveExamDateStr(subject, goal.examDateStr)
+  const days        = daysUntilExam(subject, goal.examDateStr)
   const pointsToGo = predicted != null ? Math.max(0, goal.target - predicted) : null
   const onTrack    = pointsToGo === 0
   // Ring: how far through the 50→target climb the prediction is.
@@ -185,7 +187,7 @@ export default function GoalDetailScreen({ navigation }) {
         onClose={() => setShowShare(false)}
         subject={subject}
         target={goal.target}
-        examDateStr={goal.examDateStr}
+        examDateStr={examDateStr}
         daysToExam={days}
         baselineScore={goal.baselineScore}
         streak={streak}

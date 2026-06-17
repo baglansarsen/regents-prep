@@ -24,7 +24,7 @@ import { useNavigation } from '@react-navigation/native'
 import { useTheme } from '../context/ThemeContext'
 import { SUBJECTS, SUBJECT_META } from '../content/subjects'
 import { tierFor } from '../data/goalConfig'
-import { daysUntil } from '../utils/examDates'
+import { daysUntilExam } from '../utils/examDates'
 import GoalRing from './GoalRing'
 import { T, duoBtn } from '../styles/duo'
 
@@ -37,7 +37,7 @@ export default function SubjectSheet({ visible, onClose, subject, setSubject, go
   const goalSet  = !!goal
   const target   = goal?.target ?? null
   const coldStart = predicted == null
-  const daysLeft = goal?.examDateStr ? daysUntil(goal.examDateStr) : null
+  const daysLeft = goalSet ? daysUntilExam(subject, goal.examDateStr) : null
   const atGoal   = predicted != null && target != null && predicted >= target
 
   function go(routeName) {
