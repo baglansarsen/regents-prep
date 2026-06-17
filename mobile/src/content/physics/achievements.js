@@ -6,7 +6,7 @@ export const ACHIEVEMENTS = [
     title: 'Galilean Pioneer',
     description: 'Master forces and motion in Physics mechanics',
     icon: '🏹',
-    condition: s => s.topicsPassed?.has(TOPICS.MECHANICS)
+    condition: s => s.topicsPassed?.has(TOPICS.KINEMATICS)
   },
   {
     id: 'physics_energy_master',
@@ -20,14 +20,14 @@ export const ACHIEVEMENTS = [
     title: 'Coulomb Commander',
     description: 'Master electrostatic fields and circuit loops',
     icon: '🔌',
-    condition: s => s.topicsPassed?.has(TOPICS.ELECTRICITY_AND_MAGNETISM)
+    condition: s => s.topicsPassed?.has(TOPICS.CIRCUITS)
   },
   {
     id: 'physics_waves_master',
     title: 'Wavefront Explorer',
     description: 'Master light refraction and acoustic waves',
     icon: '🌊',
-    condition: s => s.topicsPassed?.has(TOPICS.WAVES)
+    condition: s => s.topicsPassed?.has(TOPICS.WAVES_SOUND)
   },
   {
     id: 'physics_modern_master',

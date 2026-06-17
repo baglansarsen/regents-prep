@@ -1,5 +1,5 @@
 export const STRATEGIES = {
-  'physics-u1': {
+  'physics-kin': { // Kinematics & Projectile Motion (covers the Mechanics split)
     mentalPrep: [
       'Locate page 6 of the Physics Reference Table (PRT) for standard motion equations.',
       'Remember that gravitational acceleration (g) is 9.81 m/s² on Earth (PRT page 1).',
@@ -53,7 +53,7 @@ export const STRATEGIES = {
       'Keep conceptual energy conservation questions under 30 seconds.'
     ]
   },
-  'physics-u3': {
+  'physics-cir': { // Circuits (covers the Electricity & Magnetism split)
     mentalPrep: [
       'Find the electricity equations on page 4 of the PRT.',
       'Note the charge of an electron on page 1 of the PRT (1.60 × 10^-19 Coulombs).',
@@ -80,7 +80,7 @@ export const STRATEGIES = {
       'Spend under 40 seconds on field line conceptual diagrams.'
     ]
   },
-  'physics-u4': {
+  'physics-wav': { // Waves & Sound (covers the Waves & Optics split)
     mentalPrep: [
       'Open PRT page 5 for wave and optics equations.',
       'Review electromagnetic spectrum frequency ranges on page 5.',
@@ -133,5 +133,29 @@ export const STRATEGIES = {
       'Spend 90 seconds checking the particle tables to be 100% sure of classification.',
       'Complete quark charge additions quickly on paper.'
     ]
+  },
+
+  'physics-sp': { // Formulas, Graphs & Diagrams (science practices)
+    mentalPrep: [
+      'The Physics Reference Table has every formula and constant — find the right equation, not the right memory.',
+      'Slopes and areas carry meaning: distance–time slope = velocity; velocity–time slope = acceleration, area = displacement.',
+      'For force problems, draw a free-body diagram first; the net (unbalanced) force sets the direction of acceleration.',
+    ],
+    answeringTechniques: [
+      'List the givens with units, pick the reference-table formula that uses exactly those, then solve.',
+      'Check units cancel to the answer\'s unit — a fast way to eliminate wrong choices.',
+      'Vectors: add tip-to-tail or by components; never add a vector to a scalar.',
+    ],
+    guessingStrategy: [
+      'Linear formula → doubling an input doubles the result; squared (KE ∝ v²) → it quadruples.',
+      'Eliminate choices whose units do not match what the question asks for.',
+    ],
+    processOfElimination: [
+      'Drop answers that confuse a vector with a scalar or reverse a proportionality.',
+    ],
+    timeManagement: [
+      'Graph/diagram questions are fast once you know what slope/area means — bank time there.',
+      'Multi-step calculations: write the formula, sub in units, compute — flag and return if it stalls.',
+    ],
   }
 }
