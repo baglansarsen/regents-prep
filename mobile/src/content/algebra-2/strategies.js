@@ -1,5 +1,5 @@
 export const STRATEGIES = {
-  'algebra-2-u1': {
+  'algebra-2-pops': { // Polynomial Operations & Factoring (covers the Polynomial split)
     mentalPrep: [
       'Know the three factoring patterns: difference of squares, sum/difference of cubes, and trinomial factoring.',
       'End behavior is determined solely by the leading term — coefficient sign and exponent parity.',
@@ -165,5 +165,29 @@ export const STRATEGIES = {
       'Use 2nd TABLE to scan many function values at once instead of evaluating them one at a time.',
       'Store messy intermediate results with STO▶ rather than retyping long decimals — faster and less error-prone.'
     ]
+  },
+
+  'algebra-2-psm': { // Problem-Solving & Modeling (word problems + justify/explain)
+    mentalPrep: [
+      'Identify the model type first: linear (constant rate), exponential (growth/decay, %, compound interest), quadratic (area, projectile), or trig (periodic).',
+      'Constructed-response is graded on WORK — show every step so a slip in arithmetic still earns method credit.',
+      'For "explain/justify" parts, write a sentence naming the math reason, citing the value or feature that supports it.',
+    ],
+    answeringTechniques: [
+      'Translate the situation to an equation, define variables in words, solve, then state the answer in context with units.',
+      'Exponential models: A = P(1 + r)^t (growth) or P(1 − r)^t (decay); match r and t to the situation\'s rate and time unit.',
+      'Use the calculator to confirm: graph both sides and find the intersection, or build a table to check your solution.',
+    ],
+    guessingStrategy: [
+      'A "doubling time" or "% per year" phrase signals an exponential model; a fixed amount per unit signals linear.',
+      'Regression questions: pick the model whose r (or R²) is closest to ±1 for the best fit.',
+    ],
+    processOfElimination: [
+      'For modeling MC, substitute the scenario\'s numbers into each equation and discard ones that fail the given values.',
+    ],
+    timeManagement: [
+      'Constructed-response carries the most points — budget time to show full work over rushing the MC.',
+      'If the algebra stalls, still set up the model and label any graph; partial credit is real.',
+    ],
   }
 }

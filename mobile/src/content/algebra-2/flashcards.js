@@ -2,11 +2,11 @@ import { TOPICS } from './questions'
 
 export const flashcards = [
   // Polynomial Functions
-  { topic: TOPICS.POLYNOMIAL_FUNCTIONS, term: 'Remainder Theorem', definition: 'When p(x) is divided by (x − a), the remainder equals p(a).' },
-  { topic: TOPICS.POLYNOMIAL_FUNCTIONS, term: 'Factor Theorem', definition: '(x − a) is a factor of p(x) if and only if p(a) = 0.' },
-  { topic: TOPICS.POLYNOMIAL_FUNCTIONS, term: 'End Behavior', definition: 'The behavior of a polynomial as x approaches +∞ or −∞; determined by the leading term.' },
-  { topic: TOPICS.POLYNOMIAL_FUNCTIONS, term: 'Difference of Cubes', definition: 'a³ − b³ = (a − b)(a² + ab + b²).' },
-  { topic: TOPICS.POLYNOMIAL_FUNCTIONS, term: 'Turning Point', definition: 'A local maximum or minimum on a polynomial graph; a degree-n polynomial has at most n − 1 turning points.' },
+  { topic: TOPICS.POLY_OPS, term: 'Remainder Theorem', definition: 'When p(x) is divided by (x − a), the remainder equals p(a).' },
+  { topic: TOPICS.POLY_OPS, term: 'Factor Theorem', definition: '(x − a) is a factor of p(x) if and only if p(a) = 0.' },
+  { topic: TOPICS.POLY_GRAPHS, term: 'End Behavior', definition: 'The behavior of a polynomial as x approaches +∞ or −∞; determined by the leading term.' },
+  { topic: TOPICS.POLY_OPS, term: 'Difference of Cubes', definition: 'a³ − b³ = (a − b)(a² + ab + b²).' },
+  { topic: TOPICS.POLY_GRAPHS, term: 'Turning Point', definition: 'A local maximum or minimum on a polynomial graph; a degree-n polynomial has at most n − 1 turning points.' },
 
   // Rational & Radical Expressions
   { topic: TOPICS.RATIONAL_RADICAL, term: 'Rational Expression', definition: 'A fraction where the numerator and/or denominator is a polynomial; undefined when denominator = 0.' },
@@ -44,14 +44,14 @@ export const flashcards = [
   { topic: TOPICS.COMPLEX_NUMBERS, term: 'Discriminant and Complex Roots', definition: 'When b² − 4ac < 0, the quadratic has two complex conjugate roots of the form p ± qi.' },
 
   // Using the Graphing Calculator
-  { topic: TOPICS.CALCULATOR, term: 'Radian/Degree MODE', definition: 'MODE sets the angle units. Match it to the problem — sin(30) is 0.5 only in Degree mode.' },
-  { topic: TOPICS.CALCULATOR, term: 'i (imaginary unit)', definition: '2nd [.] enters i. Set MODE to a+bi so complex results display correctly.' },
-  { topic: TOPICS.CALCULATOR, term: 'e^(', definition: '2nd [LN] gives e^( for base-e exponentials; e ≈ 2.718.' },
-  { topic: TOPICS.CALCULATOR, term: 'logBASE(', definition: 'MATH ▶ A: logBASE( evaluates a log of any base, e.g. logBASE(8,2) = 3. Otherwise use log(x)/log(b).' },
-  { topic: TOPICS.CALCULATOR, term: 'ZTrig', definition: 'ZOOM ▶ 7: ZTrig sets the x-window in multiples of π/2 — ideal for sine and cosine graphs.' },
-  { topic: TOPICS.CALCULATOR, term: 'intersect', definition: '2nd CALC ▶ 5: intersect solves an equation graphically by finding where Y1 and Y2 meet.' },
-  { topic: TOPICS.CALCULATOR, term: 'ExpReg / SinReg', definition: 'STAT ▶ CALC fits a model to data: 0: ExpReg for growth/decay, C: SinReg for periodic data.' },
-  { topic: TOPICS.CALCULATOR, term: 'sin⁻¹', definition: '2nd [SIN] gives the inverse sine — the angle whose sine is a given value.' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: 'Radian/Degree MODE', definition: 'MODE sets the angle units. Match it to the problem — sin(30) is 0.5 only in Degree mode.' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: 'i (imaginary unit)', definition: '2nd [.] enters i. Set MODE to a+bi so complex results display correctly.' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: 'e^(', definition: '2nd [LN] gives e^( for base-e exponentials; e ≈ 2.718.' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: 'logBASE(', definition: 'MATH ▶ A: logBASE( evaluates a log of any base, e.g. logBASE(8,2) = 3. Otherwise use log(x)/log(b).' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: 'ZTrig', definition: 'ZOOM ▶ 7: ZTrig sets the x-window in multiples of π/2 — ideal for sine and cosine graphs.' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: 'intersect', definition: '2nd CALC ▶ 5: intersect solves an equation graphically by finding where Y1 and Y2 meet.' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: 'ExpReg / SinReg', definition: 'STAT ▶ CALC fits a model to data: 0: ExpReg for growth/decay, C: SinReg for periodic data.' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: 'sin⁻¹', definition: '2nd [SIN] gives the inverse sine — the angle whose sine is a given value.' },
 ]
 
 export const FLASHCARD_TOPIC_LIST = Object.values(TOPICS)

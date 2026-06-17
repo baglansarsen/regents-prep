@@ -6,7 +6,7 @@ export const ACHIEVEMENTS = [
     title: 'Polynomial Wizard',
     description: 'Pass Polynomial Functions with 80%+',
     icon: '📈',
-    condition: s => s.topicsPassed?.has(TOPICS.POLYNOMIAL_FUNCTIONS),
+    condition: s => s.topicsPassed?.has(TOPICS.POLY_OPS),
   },
   {
     id: 'a2_rational_master',
@@ -62,6 +62,6 @@ export const ACHIEVEMENTS = [
     title: 'Calculator Pro',
     description: 'Pass Using the Graphing Calculator with 80%+',
     icon: '🧮',
-    condition: s => s.topicsPassed?.has(TOPICS.CALCULATOR),
+    condition: s => s.topicsPassed?.has(TOPICS.PROBLEM_SOLVING),
   },
 ]

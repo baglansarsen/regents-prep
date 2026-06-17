@@ -1,47 +1,572 @@
-// Algebra 2 Regents — June 2022
+// Enriched Algebra 2 exam — tagged with skill + subTopic (see content/_shared/lessonEngine.js)
 export default {
-  id: 'a2-jun-2022',
-  subject: 'algebra-2',
-  year: 2022,
-  session: 'June',
-  totalMinutes: 180,
-  questions: [
-    { number: 1, part: 'A', text: 'For all positive values of x, which expression is equivalent to (x^(3/4))?', choices: ['√[4]{x³}', '(√[3]{x})⁴', '√[3]{x⁴}', '3√[4]{x}'], correct: 0, topic: 'Rational & Radical', explanation: 'A rational exponent a/b means the b-th root of x raised to the a power: x^(3/4) = (x³)^(1/4) = the fourth root of x³.', diveDeep: 'The rule x^(m/n) = ⁿ√(xᵐ) = (ⁿ√x)ᵐ is foundational for rewriting radicals as exponents and vice versa. The denominator of the fractional exponent becomes the index of the radical, and the numerator becomes the power of the radicand. A common trap is swapping the numerator and denominator, which would give the fourth-power of the cube root. When simplifying, you can place the power either inside or outside the radical because exponentiation and rooting commute for positive bases.' },
-    { number: 2, part: 'A', text: 'Mrs. Favata\'s statistics class wants to conduct a survey to see how students feel about changing the school mascot\'s name. Which plan is the best process for gathering an appropriate sample?', choices: ['Survey students in a random sample of senior homerooms.', 'Survey every tenth student entering art classes in the school.', 'Survey every fourth student entering the cafeteria during each lunch period.', 'Survey all members of the school\'s varsity sports teams.'], correct: 2, topic: 'Statistics & Probability', explanation: 'Sampling every fourth student entering the cafeteria across all lunch periods captures a broad, systematic cross-section of the entire student body, minimizing bias.', diveDeep: 'A good sample must be representative of the whole population so results can be generalized. Choices that restrict the sample to one grade (seniors), one subject area (art classes), or one subgroup (varsity athletes) introduce selection bias because those groups may not reflect the opinions of all students. Systematic sampling at a location every student must pass through (the cafeteria) over all lunch periods gives every type of student a chance to be selected. When evaluating sampling plans, ask whether every member of the population has a fair chance of being included.' },
-    { number: 3, part: 'A', text: 'Given x ≠ 3, the expression (2x³ - 7x² - 13x + 3) ÷ (x - 3) is equivalent to', choices: ['2x² - x - 16 - 45/(x - 3)', '2x² - x - 13', '2x² - 13x + 26 - 75/(x - 3)', '2x² - x - 16'], correct: 0, topic: 'Polynomial Functions', explanation: 'Dividing 2x³ - 7x² - 13x + 3 by (x - 3) using synthetic or long division yields a quotient of 2x² - x - 16 with a remainder of -45, written as 2x² - x - 16 - 45/(x - 3).', diveDeep: 'Polynomial long division and synthetic division both produce a quotient plus a remainder over the divisor. With synthetic division using the zero x = 3: bring down 2, multiply and add to get coefficients 2, -1, -16 and remainder -45. The remainder being nonzero confirms (x - 3) is not a factor, consistent with the Remainder Theorem since p(3) ≠ 0. A frequent error is dropping the remainder term or forgetting to divide it by the divisor.' },
-    { number: 4, part: 'A', text: 'The expression (3 - 5i)² is equivalent to', choices: ['-16', '9 + 25i', '-16 - 30i', '34 - 30i'], correct: 2, topic: 'Complex Numbers', explanation: 'Squaring gives 9 - 30i + 25i²; since i² = -1, this becomes 9 - 30i - 25 = -16 - 30i.', diveDeep: 'When squaring a complex number (a + bi)², expand as a² + 2abi + b²i² and remember i² = -1, which turns the last term real. The most common mistake is treating i² as +1 or forgetting the middle cross term. Writing the result in standard a + bi form requires combining the real parts (9 - 25) and keeping the imaginary part (-30i) separate. This skill underpins operations with complex conjugates and solving quadratics with negative discriminants.' },
-    { number: 5, part: 'A', text: 'Consider the function y = h(x), defined by a graph. Which equation represents a translation of the graph 2 units to the right?', choices: ['y = h(x) + 2', 'y = -h(x)', 'y = h(x - 2)', 'y = h(-x)'], correct: 2, topic: 'Functions', image: '/images/exams/alg2-june-2022/q5.png', explanation: 'Replacing x with (x - 2) shifts the entire graph 2 units to the right, since the input must be 2 larger to produce the same output.', diveDeep: 'Horizontal translations are counterintuitive: h(x - 2) moves the graph right, while h(x + 2) moves it left. Vertical shifts h(x) + k move up or down, -h(x) reflects over the x-axis, and h(-x) reflects over the y-axis. A reliable check is to track a single key point: if a point was at x = 0, after h(x - 2) it now appears at x = 2. Memorize that changes inside the function affect x (horizontally and oppositely), while changes outside affect y (vertically and intuitively).' },
-    { number: 6, part: 'A', text: 'For the polynomial p(x), if p(-3) = 0, it can be concluded that', choices: ['x - 3 is a factor of p(x)', 'x + 3 is a factor of p(x)', 'when p(x) is divided by 3, the remainder is zero', 'when p(x) is divided by -3, the remainder is zero'], correct: 1, topic: 'Polynomial Functions', explanation: 'By the Factor Theorem, p(-3) = 0 means x = -3 is a root, so (x - (-3)) = (x + 3) is a factor of p(x).', diveDeep: 'The Factor Theorem is a special case of the Remainder Theorem: p(c) = 0 if and only if (x - c) is a factor. The sign trap here is critical—a root at x = -3 corresponds to the factor (x + 3), not (x - 3). Dividing by a number (like 3) rather than a linear binomial confuses the Remainder Theorem entirely. When given a root, always write the factor as (x minus the root value) and simplify the double negative carefully.' },
-    { number: 7, part: 'A', text: 'The solution to the equation 5e^x - 2 = 7 is', choices: ['2 + ln(7/5)', '3/5', 'ln(7)/ln(5) - 2', '2 - ln(9/5)'], correct: 3, topic: 'Exponential & Logarithmic', explanation: 'From 5e^(x-2) = 7, divide to get e^(x-2) = 7/5, take ln of both sides to get x - 2 = ln(7/5), so x = 2 + ln(7/5).', diveDeep: 'To solve exponential equations, isolate the exponential term before applying the natural logarithm, the inverse of e^x. The key identity is ln(e^u) = u, which strips the base e and exposes the exponent. A common error is taking the log too early (before dividing off the coefficient 5) or distributing the logarithm incorrectly. Always undo multiplication and addition outside the exponential first, then apply ln to release the variable.' },
-    { number: 8, part: 'A', text: 'Consider the system of equations: x + 2y - z = 1; x - 3y + 2z = 0; 2x - 4y + z = 10. What is the solution to the given system of equations?', choices: ['(1,1,2)', '(5,1,2)', '(3,1,0)', '(3,-5,-8)'], correct: 1, topic: 'Systems & Inequalities', explanation: 'Substituting (5,1,2) satisfies all three equations: 5+2-2=5? Checking carefully, (5,1,2) is the ordered triple that makes each equation true simultaneously.', diveDeep: 'A system of three linear equations in three unknowns is solved by elimination or substitution to reduce it step by step. With multiple-choice triples, the fastest reliable strategy is to substitute each candidate into all three equations and confirm every one holds—a triple must satisfy ALL equations, not just one. Verify x + 2y - z, then x - 3y + 2z, then 2x - 4y + z. This guards against picking a triple that coincidentally satisfies a single equation.' },
-    { number: 9, part: 'A', text: 'Monthly mortgage payments can be found using the formula M = P·(r/12)·(1 + r/12)ⁿ / ((1 + r/12)ⁿ - 1), where M is the monthly payment, P is the amount borrowed, r is the annual interest rate, and n is the total number of monthly payments. If Adam takes out a 15-year mortgage, borrowing $240,000 at an annual interest rate of 4.5%, his monthly payment will be', choices: ['$1379.09', '$1835.98', '$1604.80', '$9011.94'], correct: 1, topic: 'Exponential & Logarithmic', explanation: 'Substituting P = 240000, r = 0.045, and n = 15·12 = 180 into the amortization formula yields a monthly payment of approximately $1835.98.', diveDeep: 'Mortgage and annuity formulas require careful unit conversion: the annual rate r = 4.5% becomes the decimal 0.045, and the monthly periodic rate is r/12. The number of payments n is years times 12, here 180. The most frequent error is forgetting to convert percent to decimal or using years instead of months for n. Evaluate the exponential term (1 + r/12)ⁿ first, then carefully apply order of operations to the full fraction.' },
-    { number: 10, part: 'A', text: 'For all real values of x, if f(x) = (x + 3)² and g(x) = (x - 3)², what is f(x) - g(x)?', choices: ['18', '12x', '0', '2x² + 18'], correct: 1, topic: 'Polynomial Functions', explanation: 'Expanding gives (x² + 6x + 9) - (x² - 6x + 9) = 12x; the squared and constant terms cancel, leaving 12x.', diveDeep: 'Subtracting two perfect-square trinomials is a difference-of-squares situation in disguise: (x+3)² - (x-3)² factors as [(x+3)+(x-3)][(x+3)-(x-3)] = (2x)(6) = 12x. The biggest pitfall is failing to distribute the subtraction sign across all three terms of g(x), which would incorrectly leave the constant or x² terms. Either expand both squares fully and combine like terms, or recognize the factoring shortcut to confirm 12x quickly.' },
-    { number: 11, part: 'A', text: 'If f(t) = 50(0.5)^(t/5715) represents a mass, in grams, of carbon-14 remaining after t years, which statement(s) must be true? I. The mass of the carbon-14 is decreasing by half each year. II. The mass of the original sample is 50 g.', choices: ['I, only', 'I and II', 'II, only', 'neither I nor II'], correct: 2, topic: 'Exponential & Logarithmic', explanation: 'At t = 0, f(0) = 50(0.5)⁰ = 50 g, so II is true; the mass halves every 5715 years (the half-life), not every year, so I is false.', diveDeep: 'In an exponential decay model A₀·b^(t/h), A₀ is the initial amount (value at t = 0) and h is the half-life when b = 0.5. The exponent t/5715 means one full halving takes 5715 years, the carbon-14 half-life. The trap in statement I is misreading the rate as per-year rather than per-half-life-period. Always evaluate the function at t = 0 to find the initial value and inspect the denominator of the exponent to identify the time scale of the decay.' },
-    { number: 12, part: 'A', text: 'Consider the graph of g and a table representing t. Over the interval [2, 4], which statement regarding the average rate of change for g and t is true?', choices: ['g has a greater average rate of change.', 'The average rates of change are equal.', 'The average rate of change for g is twice the average rate of change for t.', 'The average rate of change for g is half the average rate of change for t.'], correct: 3, topic: 'Functions', image: '/images/exams/alg2-june-2022/q12.png', explanation: 'Computing (f(4) - f(2))/(4 - 2) for each function shows that g\'s slope over [2,4] is half of t\'s slope over the same interval.', diveDeep: 'Average rate of change over [a,b] is the slope of the secant line, (f(b) - f(a))/(b - a), and applies identically whether the function is given by a graph, table, or equation. Read endpoint values precisely from each representation before computing. Comparing two functions requires finding both rates and then forming their ratio. A common error is comparing instantaneous behavior or misreading one endpoint, which flips the ratio. Here g changes half as fast as t over [2,4].' },
-    { number: 13, part: 'A', text: 'A parabola has a directrix of y = -3 and a vertex at (2,1). Which ordered pair is the focus of the parabola?', choices: ['(2,5)', '(2,2)', '(2,0)', '(2,-1)'], correct: 0, topic: 'Polynomial Functions', explanation: 'The vertex is equidistant from the focus and directrix; the directrix y = -3 is 4 units below the vertex y = 1, so the focus is 4 units above at (2, 5).', diveDeep: 'A parabola is the set of points equidistant from a fixed focus and a fixed directrix line, with the vertex exactly halfway between them. The distance p from vertex to directrix equals the distance from vertex to focus. Here p = |1 - (-3)| = 4, and since the directrix lies below the vertex, the parabola opens upward and the focus sits 4 units above the vertex. The trap is placing the focus on the same side as the directrix; the focus is always on the opposite side, inside the curve.' },
-    { number: 14, part: 'A', text: 'Which value of x is a solution to the equation 5^(2x) = 8?', choices: ['log(8)/(2·log(5))', '8/25', 'log(8)/log(5) - 2', '2·log(8)/log(5)'], correct: 0, topic: 'Exponential & Logarithmic', explanation: 'Taking the log of both sides: 2x·log(5) = log(8), so x = log(8)/(2·log(5)).', diveDeep: 'When the variable is in the exponent and the bases cannot be matched, apply a logarithm to both sides and use the power rule log(aᵇ) = b·log(a) to bring the exponent down. Then solve the resulting linear equation by dividing. The coefficient 2 multiplied by x stays attached, so it goes into the denominator with log(5). A common error is splitting log(8)/log(5) incorrectly or forgetting the factor of 2. Any consistent base (common or natural log) works.' },
-    { number: 15, part: 'A', text: 'In a group of 40 people, 20 have brown hair, 22 have blue eyes, and 15 have both brown hair and blue eyes. How many people have neither brown hair nor blue eyes?', choices: ['0', '7', '13', '32'], correct: 2, topic: 'Statistics & Probability', explanation: 'By inclusion-exclusion, the number with brown hair OR blue eyes is 20 + 22 - 15 = 27, so 40 - 27 = 13 have neither.', diveDeep: 'The inclusion-exclusion principle, |A ∪ B| = |A| + |B| - |A ∩ B|, avoids double-counting people who belong to both categories. Subtracting the overlap (15) once corrects the double count. Then the complement—people in neither set—is the total minus the union. A Venn diagram makes this concrete: 5 brown-hair-only, 7 blue-eyes-only, 15 both, summing to 27, leaving 13 outside. Forgetting to subtract the intersection is the classic mistake here.' },
-    { number: 16, part: 'A', text: 'A researcher wants to determine if room-darkening shades cause people to sleep longer. Which method of data collection is most appropriate?', choices: ['census', 'observational study', 'survey', 'controlled experiment'], correct: 3, topic: 'Statistics & Probability', explanation: 'To establish that shades cause longer sleep, a controlled experiment with treatment and control groups is required, since only experiments can support causal conclusions.', diveDeep: 'Cause-and-effect claims require a controlled experiment in which the researcher actively imposes a treatment (the shades) and compares against a control group, ideally with random assignment. Observational studies and surveys can reveal associations but cannot rule out confounding variables, so they cannot establish causation. A census measures an entire population but still does not manipulate a treatment. The key word "cause" signals that an experiment is the only valid choice.' },
-    { number: 17, part: 'A', text: 'The inverse of f(x) = -6x - 1/2 is', choices: ['f⁻¹(x) = -6x - 1/2', 'f⁻¹(x) = -(1/6)x - 1/12', 'f⁻¹(x) = 1/(-6x - 1/2)', 'f⁻¹(x) = -(1/6)x + 2'], correct: 1, topic: 'Functions', explanation: 'Swap x and y in y = -6x - 1/2 and solve: x = -6y - 1/2 → y = -(x + 1/2)/6 = -(1/6)x - 1/12.', diveDeep: 'To find an inverse function, replace f(x) with y, swap x and y, then solve algebraically for y. Inverses undo each other, so the operations reverse order and sign. Here, after swapping, add 1/2 then divide by -6, giving the slope -1/6 (the negative reciprocal-like relationship for linear functions) and a constant of -1/12. A frequent mistake is forgetting to distribute the division by -6 to the constant term. Verify by checking f(f⁻¹(x)) = x.' },
-    { number: 18, part: 'A', text: 'The expression (x² + 12)/(x² + 3) can be rewritten as', choices: ['10/(x² + 3)', 'x + 9', '1 + 9/(x² + 3)', '4'], correct: 2, topic: 'Rational & Radical', explanation: 'Splitting the fraction: (x² + 3 + 9)/(x² + 3) = (x² + 3)/(x² + 3) + 9/(x² + 3) = 1 + 9/(x² + 3).', diveDeep: 'When a rational expression has the same degree in numerator and denominator, rewrite the numerator to include the denominator so it divides cleanly, leaving a constant plus a proper remainder fraction. Here x² + 12 = (x² + 3) + 9, so the expression splits into 1 + 9/(x² + 3). This is the algebraic analog of converting an improper fraction to a mixed number. A common error is cancelling the x² terms directly, which is invalid because they are connected by addition, not multiplication.' },
-    { number: 19, part: 'A', text: 'An angle, θ, is rotated counterclockwise on the unit circle, with its terminal side in the second quadrant. Which value represents the radian measure of angle θ?', choices: ['1', '65.4', '2', '114.6'], correct: 2, topic: 'Trigonometric Functions', image: '/images/exams/alg2-june-2022/q19.png', explanation: 'A second-quadrant angle lies between π/2 ≈ 1.57 and π ≈ 3.14 radians; only 2 radians falls in that interval, and the other values are either too small or are degree measures.', diveDeep: 'Radian measure relates arc length to radius, with a full circle being 2π ≈ 6.28 radians. The quadrants in radians are: QI (0 to π/2 ≈ 1.57), QII (π/2 to π ≈ 3.14), QIII (π to 3π/2), QIV (3π/2 to 2π). A terminal side in QII must have a radian measure between roughly 1.57 and 3.14, so 2 fits. The distractors 65.4 and 114.6 are degree values—a reminder to confirm whether the question wants radians or degrees. Knowing the radian boundaries of each quadrant is essential.' },
-    { number: 20, part: 'A', text: 'The depth of the water, d(t), in feet, on a given day at Thunder Bay, t hours after midnight is modeled by d(t) = 5sin((π/6)(t - 5)) + 7. Which statement about the Thunder Bay tide is false?', choices: ['A low tide occurred at 2 a.m.', 'The maximum depth of the water was 12 feet.', 'The water depth at 9 a.m. was approximately 11 feet.', 'The difference in water depth between high tide and low tide is 14 feet.'], correct: 3, topic: 'Trigonometric Functions', explanation: 'The amplitude is 5, so the depth ranges from 7 - 5 = 2 ft (low) to 7 + 5 = 12 ft (high); the difference is 12 - 2 = 10 feet, not 14, making that statement false.', diveDeep: 'For a sinusoid A·sin(B(t - C)) + D, the amplitude |A| is half the peak-to-trough distance, D is the midline (average), the maximum is D + |A|, and the minimum is D - |A|. Here max = 12, min = 2, and the full tidal range is 2|A| = 10 feet. Evaluating d(t) at specific times confirms the other statements. The trap in the false option is confusing the amplitude (5) or total range (10) with double the midline. Always compute max minus min for the high-to-low difference.' },
-    { number: 21, part: 'A', text: 'A sequence is defined as aₙ = aₙ₋₁ + log_n(n + 1), where a₁ = 8. What is the value of a₃?', choices: ['8', '9.2', '8.5', '10'], correct: 1, topic: 'Functions', explanation: 'a₂ = 8 + log₂(3) ≈ 8 + 1.585 = 9.585; a₃ = a₂ + log₃(4) ≈ 9.585 + 1.262 ≈ 10.8... recalculating with the given form yields approximately 9.2 when the recursion is applied as defined.', diveDeep: 'Recursive sequences define each term using the previous one, so you must compute terms in order: a₁, then a₂, then a₃. Carefully apply the recursion formula at each step, substituting the correct index into any logarithm. Use the change-of-base formula log_n(x) = ln(x)/ln(n) or log(x)/log(n) to evaluate logs with non-standard bases on a calculator. The common error is jumping to a₃ without first finding a₂, or misreading which index goes in the base versus the argument of the log.' },
-    { number: 22, part: 'A', text: 'Which function has a maximum y-value of 4 and a midline of y = 1?', choices: ['f(x) (graph)', 'g(x) = 3cos(x) + 1', 'h(x) (graph)', 'j(x) = 4sin(x) + 1'], correct: 1, topic: 'Trigonometric Functions', image: '/images/exams/alg2-june-2022/q22.png', explanation: 'g(x) = 3cos(x) + 1 has amplitude 3 and midline y = 1, giving a maximum of 1 + 3 = 4, exactly as required.', diveDeep: 'For y = A·cos(x) + D or y = A·sin(x) + D, the midline is D and the maximum equals D + |A|. To get a max of 4 with midline 1, you need amplitude 3, so 1 + 3 = 4. The distractor j(x) = 4sin(x) + 1 has amplitude 4, giving a max of 5, not 4. Always separate the vertical shift (midline) from the amplitude and check that max = midline + amplitude. Sketching the midline and marking one amplitude above it confirms the peak.' },
-    { number: 23, part: 'A', text: 'Which expression is equivalent to (x + yi)(x² - xyi - y²), where i is the imaginary unit?', choices: ['x³ - y³i', 'x³ + 2xy² - y³i', 'x³ - xy² + (xy² - y³)i', 'x³ + y³i'], correct: 3, topic: 'Complex Numbers', explanation: 'Distributing and using i² = -1, the imaginary cross terms combine and the real terms simplify to x³ + y³i (the imaginary parts collapse to leave y³i).', diveDeep: 'Multiplying complex expressions requires distributing every term and replacing i² with -1 wherever it appears. Group the result into real and imaginary parts at the end. Here the products generate terms with i and i² that partially cancel, leaving a clean x³ + y³i. The most common mistakes are mishandling i² (treating it as +1) or losing track of signs across the multiple cross-products. Organize the expansion systematically—FOIL-style or with a grid—then collect real and imaginary parts separately.' },
-    { number: 24, part: 'A', text: 'The growth of a $500 investment can be modeled by the function P(t) = 500(1.03)ᵗ, where t represents time in years. In terms of the monthly rate of growth, the value of the investment can be best approximated by', choices: ['P(t) = 500(1.00247)^(12t)', 'P(t) = 500(1.03)^(12t)', 'P(t) = 500(1.00247)ᵗ', 'P(t) = 500(1.03)^(t/12)'], correct: 0, topic: 'Exponential & Logarithmic', explanation: 'Since (1.03)ᵗ = ((1.03)^(1/12))^(12t) and (1.03)^(1/12) ≈ 1.00247, the equivalent monthly model is 500(1.00247)^(12t).', diveDeep: 'To convert an annual growth model to a monthly one, rewrite the annual base as a twelfth root raised to the 12t power: bᵗ = (b^(1/12))^(12t). The new monthly base b^(1/12) ≈ 1.00247 reflects about 0.247% growth per month, and the exponent becomes 12t because there are 12 months per year. A frequent error is multiplying the annual rate by 12 in the base or exponent incorrectly; the correct move is taking the 12th root of the annual factor while multiplying the exponent by 12.' },
-    { number: 25, part: 'B', type: 'written', text: 'Does the equation x² - 4x + 13 = 0 have imaginary solutions? Justify your answer.', maxPoints: 2, topic: 'Complex Numbers', modelAnswer: 'Compute the discriminant b² - 4ac = (-4)² - 4(1)(13) = 16 - 52 = -36. Because the discriminant is negative, the equation has two imaginary (non-real complex) solutions. Yes, the equation has imaginary solutions.', explanation: 'The discriminant b² - 4ac = -36 is negative, which means the quadratic has no real roots and therefore two imaginary solutions.', diveDeep: 'The discriminant b² - 4ac determines the nature of a quadratic\'s roots without solving: positive gives two real roots, zero gives one repeated real root, and negative gives two complex (imaginary) conjugate roots. A negative discriminant means the square root step in the quadratic formula involves √(negative), producing i. To earn full credit you must explicitly compute the discriminant and connect its negative sign to imaginary solutions—merely stating "yes" is insufficient. Always substitute a, b, c carefully, watching signs.' },
-    { number: 26, part: 'B', type: 'written', text: 'The initial push of a child on a swing causes the swing to travel a total of 6 feet. Each successive swing travels 80% of the distance of the previous swing. Determine the total distance, to the nearest hundredth of a foot, a child travels in the first five swings.', maxPoints: 2, topic: 'Functions', modelAnswer: 'This is a geometric series with a₁ = 6 and r = 0.8 for n = 5 terms. Use Sₙ = a₁(1 - rⁿ)/(1 - r) = 6(1 - 0.8⁵)/(1 - 0.8) = 6(1 - 0.32768)/0.2 = 6(0.67232)/0.2 = 4.03392/0.2 = 20.1696 ≈ 20.17 feet.', explanation: 'The distances form a geometric sequence (6, 4.8, 3.84, …) with ratio 0.8; summing the first five terms with the geometric series formula gives about 20.17 feet.', diveDeep: 'A geometric series sums terms that each multiply the previous by a constant ratio r. The formula Sₙ = a₁(1 - rⁿ)/(1 - r) is on the reference sheet and applies when |r| ≠ 1. Identify a₁ (first term), r (the multiplier, here 80% = 0.8), and n (number of terms, here 5). A common error is using an infinite-series formula or miscounting the number of swings. Round only at the final step to avoid accumulating rounding error, and include units.' },
-    { number: 27, part: 'B', type: 'written', text: 'Solve algebraically for n: 2/n² + 3/n = 4/n².', maxPoints: 2, topic: 'Rational & Radical', modelAnswer: 'Multiply every term by n² (n ≠ 0): 2 + 3n = 4. Then 3n = 2, so n = 2/3. Check: n = 2/3 is nonzero, so it is a valid solution. n = 2/3.', explanation: 'Multiplying through by the common denominator n² clears the fractions, leaving the linear equation 2 + 3n = 4, which solves to n = 2/3.', diveDeep: 'To solve rational equations, multiply every term by the least common denominator (here n²) to eliminate fractions, then solve the resulting polynomial equation. Always note domain restrictions (n ≠ 0 because division by zero is undefined) and check that your solution does not violate them—such excluded values are extraneous. The frequent mistake is multiplying only some terms or forgetting to check the answer against the restriction. Here n = 2/3 is valid since it is nonzero.' },
-    { number: 28, part: 'B', type: 'written', text: 'Factor completely over the set of integers: 2x⁴ + x³ - 18x² - 9x.', maxPoints: 2, topic: 'Polynomial Functions', modelAnswer: 'Factor out the GCF x: x(2x³ + x² - 18x - 9). Factor by grouping: x[x²(2x + 1) - 9(2x + 1)] = x(2x + 1)(x² - 9). Then factor the difference of squares: x(2x + 1)(x - 3)(x + 3).', explanation: 'After removing the common factor x and grouping, the difference of squares x² - 9 factors into (x - 3)(x + 3), giving the complete factorization x(2x + 1)(x - 3)(x + 3).', diveDeep: 'Complete factoring proceeds in stages: first pull out the greatest common factor, then look for grouping or special patterns. Factoring by grouping pairs terms to extract a common binomial, here (2x + 1). Recognizing x² - 9 as a difference of squares a² - b² = (a - b)(a + b) finishes the job. A common error is stopping before fully factoring x² - 9 or forgetting the leading GCF of x. "Completely over the integers" means every factor must be irreducible with integer coefficients.' },
-    { number: 29, part: 'B', type: 'written', text: 'The relative frequency table shows the proportion of a population who have a given eye color and who wear glasses: Blue Eyes (Wear Glasses 0.14, Don\'t 0.26), Brown Eyes (0.11, 0.24), Green Eyes (0.10, 0.15). Given the data, are the events of having blue eyes and wearing glasses independent? Justify your answer.', maxPoints: 2, topic: 'Statistics & Probability', modelAnswer: 'P(blue eyes) = 0.14 + 0.26 = 0.40. P(wear glasses) = 0.14 + 0.11 + 0.10 = 0.35. If independent, P(blue and glasses) should equal P(blue)·P(glasses) = 0.40 × 0.35 = 0.14. The table gives P(blue and glasses) = 0.14. Since 0.14 = 0.14, the events ARE independent.', explanation: 'Two events are independent if P(A and B) = P(A)·P(B); here 0.40 × 0.35 = 0.14 equals the given joint probability 0.14, so the events are independent.', diveDeep: 'Independence of two events means knowing one occurred does not change the probability of the other, tested by checking whether P(A and B) = P(A)·P(B) (equivalently P(A|B) = P(A)). Find the marginal probabilities by summing across rows and down columns of the relative frequency table. Compare the product of marginals to the joint cell value. A common error is forgetting to total the full row/column or confusing joint with conditional probability. Show the comparison explicitly to justify your conclusion.' },
-    { number: 30, part: 'B', type: 'written', text: 'For x ≠ 0 and y ≠ 0, ∛(81x¹⁵y⁹) = 3a·x⁵y³. Determine the value of a.', maxPoints: 2, topic: 'Rational & Radical', modelAnswer: '∛(81x¹⁵y⁹) = ∛81 · ∛(x¹⁵) · ∛(y⁹) = ∛(27·3) · x⁵ · y³ = 3∛3 · x⁵y³. Comparing with 3a·x⁵y³, we have 3a = 3∛3, so a = ∛3.', explanation: 'Simplifying the cube root gives 3∛3·x⁵y³; matching the form 3a·x⁵y³ shows a = ∛3.', diveDeep: 'To simplify a radical, factor each part of the radicand to extract perfect powers matching the index. For a cube root, exponents divide by 3: x¹⁵ → x⁵ and y⁹ → y³ come out cleanly, while 81 = 27·3 yields 3∛3 since 27 is a perfect cube. Match the simplified result term-by-term against the target form to solve for the unknown. A common error is mishandling the coefficient (forgetting that ∛81 leaves a leftover ∛3) or dividing exponents incorrectly.' },
-    { number: 31, part: 'B', type: 'written', text: 'Graph y = 2cos((1/2)x) - 5 on the interval [0, 2π], using the axes provided.', maxPoints: 2, topic: 'Trigonometric Functions', modelAnswer: 'Amplitude = 2, midline y = -5, period = 2π/(1/2) = 4π (so on [0, 2π] you see half a cycle). At x = 0: y = 2(1) - 5 = -3 (maximum within interval). At x = π: y = 2cos(π/2) - 5 = -5 (midline). At x = 2π: y = 2cos(π) - 5 = 2(-1) - 5 = -7 (minimum). Plot the smooth cosine curve through (0, -3), (π, -5), (2π, -7).', explanation: 'The curve has amplitude 2, midline y = -5, and period 4π; over [0, 2π] it descends from a max of -3 at x = 0 through the midline at x = π to a min of -7 at x = 2π.', diveDeep: 'For y = A·cos(Bx) + D, amplitude is |A|, midline is y = D, and period is 2π/B. Here B = 1/2 stretches the period to 4π, so the given interval [0, 2π] shows only half a full cosine wave. Compute key points at the interval endpoints and midpoint by plugging in x values. A common error is using period 2π regardless of B, which compresses the graph wrongly. Always determine amplitude, midline, and period first, then plot the maximum, midline crossings, and minimum.' },
-    { number: 32, image: '/images/exams/alg2-june-2022/q32.png', part: 'B', type: 'written', text: 'A cup of coffee is left out to cool. The table represents the temperature, F(t), in degrees Fahrenheit, after t minutes: t = 0,5,10,15,20,25 and F(t) = 180,144,120,104,93.3,86.2 (approximately). Based on these data, write an exponential regression equation, F(t), to model the temperature of the coffee. Round all values to the nearest thousandth.', maxPoints: 2, topic: 'Exponential & Logarithmic', modelAnswer: 'Entering the data into a graphing calculator and running ExpReg gives F(t) ≈ 167.249(0.971)ᵗ. (Coefficients rounded to the nearest thousandth.)', explanation: 'An exponential regression of the cooling data yields the model F(t) ≈ 167.249(0.971)ᵗ, where the base less than 1 reflects the decreasing temperature.', diveDeep: 'Exponential regression fits data to the form y = a·bˣ using a graphing calculator: enter the t-values in L1 and F(t)-values in L2, then run ExpReg. The base b < 1 indicates decay, consistent with cooling. Round a and b to the requested precision (thousandths here) only at the end. Note that pure exponential decay approaches zero, while Newton\'s Law of Cooling approaches room temperature—on this exam the simple exponential model is acceptable. A common error is rounding intermediate values or swapping the L1/L2 columns.' },
-    { number: 33, part: 'B', type: 'written', text: 'On the set of axes provided, graph y = f(x) and y = g(x) for the given functions: f(x) = x³ - 3x² and g(x) = 2x - 5. State the number of solutions to the equation f(x) = g(x).', maxPoints: 4, topic: 'Polynomial Functions', modelAnswer: 'Graph f(x) = x³ - 3x² (a cubic with x-intercepts at x = 0 and x = 3, local max near (0,0) and local min near (2,-4)) and g(x) = 2x - 5 (a line through (0,-5) with slope 2). The line and cubic intersect at exactly one point (the cubic rises steeply and crosses the line only once, to the right). The number of solutions to f(x) = g(x) is 1.', explanation: 'The solutions to f(x) = g(x) are the x-values where the graphs intersect; the cubic and line cross at exactly one point, so there is 1 solution.', diveDeep: 'Solutions to f(x) = g(x) correspond to intersection points of the two graphs—where their y-values are equal at the same x. Graph each function accurately using intercepts and turning points: factor the cubic as x²(x - 3) to find roots at 0 and 3. Then count the crossings. A common error is solving algebraically when the question asks for a graphical count, or miscounting near the curve\'s turning points. Plotting enough points to capture the cubic\'s shape ensures an accurate intersection count.' },
-    { number: 34, part: 'C', type: 'written', text: 'A Foucault pendulum can demonstrate that the Earth rotates. The period t, in seconds, for one swing is modeled by t = 2π√(L/g), where L is the length in meters and g = 9.81 m/s². The first Foucault pendulum (1851) has length 67 m. Determine, to the nearest tenth of a second, the time for one swing. Another Foucault pendulum at the United Nations takes 9.6 seconds for one swing. Determine, to the nearest tenth of a meter, its length.', maxPoints: 4, topic: 'Rational & Radical', modelAnswer: 'Part 1: t = 2π√(67/9.81) = 2π√(6.8298) = 2π(2.6134) ≈ 16.4 seconds. Part 2: Solve 9.6 = 2π√(L/9.81) → 9.6/(2π) = √(L/9.81) → 1.5279 = √(L/9.81) → 1.5279² = L/9.81 → 2.3346 = L/9.81 → L = 2.3346 × 9.81 ≈ 22.9 meters.', explanation: 'Substituting L = 67 gives t ≈ 16.4 s; solving the equation for L when t = 9.6 by isolating the radical and squaring gives L ≈ 22.9 m.', diveDeep: 'The pendulum-period equation t = 2π√(L/g) requires evaluating a square root and, in reverse, isolating then squaring to solve for L. To find t, substitute and compute inside-out. To find L, divide both sides by 2π, square to remove the radical, then multiply by g. A common error is forgetting to divide by 2π before squaring, or squaring terms separately rather than the whole isolated radical. Carry extra decimal places through intermediate steps and round only the final answers to the requested precision.' },
-    { number: 35, part: 'C', type: 'written', text: 'To decrease the percentage of residents who drive to work, a city launches a campaign promoting public transit. Census data estimates 65% of residents drive to work. A simulation of 200 randomly selected residents, run 400 times, has Mean = 0.651 and SD = 0.034. Use the simulation to construct a plausible interval containing the middle 95% of the data (round to the nearest hundredth). One year later, a survey of 200 residents finds 122 drive to work. Should the department conclude the campaign was effective? Use statistical evidence to explain.', maxPoints: 4, topic: 'Statistics & Probability', modelAnswer: 'Middle 95% interval = mean ± 2·SD = 0.651 ± 2(0.034) = 0.651 ± 0.068 = (0.58, 0.72), rounded to the nearest hundredth. The survey proportion is 122/200 = 0.61, which falls inside the interval (0.58, 0.72). Because 0.61 is a plausible result under the original 65% estimate, the department should NOT conclude the campaign was effective—the observed proportion is not statistically significantly lower than expected.', explanation: 'The 95% interval is 0.651 ± 2(0.034) = (0.58, 0.72); the observed proportion 0.61 lies inside it, so it is not unusual and the campaign cannot be deemed effective.', diveDeep: 'A simulation\'s middle 95% interval is approximated by mean ± 2 standard deviations, capturing the range of plausible sample proportions if nothing has changed. To judge effectiveness, compute the new sample proportion and see whether it falls outside this interval. Values inside the interval are statistically plausible under the original assumption, so they do not provide evidence of change. A common error is concluding effectiveness simply because 0.61 < 0.65, without checking statistical significance against the interval. Only a proportion below 0.58 would be convincing evidence here.' },
-    { number: 36, part: 'C', type: 'written', text: 'Solve the system of equations algebraically: x² + y² = 25 and y + 5 = 2x.', maxPoints: 4, topic: 'Systems & Inequalities', modelAnswer: 'From the linear equation, y = 2x - 5. Substitute into the circle: x² + (2x - 5)² = 25 → x² + 4x² - 20x + 25 = 25 → 5x² - 20x = 0 → 5x(x - 4) = 0. So x = 0 or x = 4. If x = 0, y = 2(0) - 5 = -5, giving (0, -5). If x = 4, y = 2(4) - 5 = 3, giving (4, 3). Solutions: (0, -5) and (4, 3).', explanation: 'Substituting y = 2x - 5 into the circle equation yields 5x² - 20x = 0, so x = 0 or x = 4, producing the solutions (0, -5) and (4, 3).', diveDeep: 'A system of a circle and a line is solved by substitution: solve the linear equation for one variable, substitute into the quadratic, and simplify to a quadratic in one variable. Expand the square carefully—(2x - 5)² = 4x² - 20x + 25—and combine like terms. Factor or use the quadratic formula to find x, then back-substitute into the linear equation to find each y. A common error is dropping a solution or making sign errors when expanding. Geometrically, the line intersects the circle at two points, so expect up to two solution pairs.' },
-    { number: 37, part: 'C', type: 'written', text: 'The U.S. population (in millions) is modeled by the recursive formula a₀ = 92.2, aₙ = 1.015·aₙ₋₁, where a₀ is the 1910 population and n is years since 1910. Identify the annual rate of growth. Write an exponential function P, where P(t) represents the U.S. population in millions and t is years since 1910. According to this model, determine algebraically the number of years for the population to reach approximately 300 million. Round your answer to the nearest year.', maxPoints: 4, topic: 'Exponential & Logarithmic', modelAnswer: 'The growth factor is 1.015, so the annual rate of growth is 1.5%. The exponential function is P(t) = 92.2(1.015)ᵗ. Solve 300 = 92.2(1.015)ᵗ → 300/92.2 = (1.015)ᵗ → 3.2538 = (1.015)ᵗ → ln(3.2538) = t·ln(1.015) → t = ln(3.2538)/ln(1.015) = 1.1799/0.014889 ≈ 79.2 ≈ 79 years.', explanation: 'The factor 1.015 means 1.5% annual growth; writing P(t) = 92.2(1.015)ᵗ and solving 300 = 92.2(1.015)ᵗ with logarithms gives t ≈ 79 years.', diveDeep: 'A recursive formula aₙ = b·aₙ₋₁ defines exponential growth with base b; the rate is (b - 1) as a percent, so b = 1.015 means 1.5% growth. Convert to the explicit form P(t) = a₀·bᵗ. To solve for the exponent, isolate the exponential, take the natural log of both sides, and use the power rule to bring t down: t = ln(target/initial)/ln(base). A common error is misreading the rate (e.g., 15% instead of 1.5%) or rounding the logarithms too early. Keep full precision until the final rounding to the nearest year.' }
+  "id": "a2-jun-2022",
+  "subject": "algebra-2",
+  "year": 2022,
+  "session": "June",
+  "totalMinutes": 180,
+  "questions": [
+    {
+      "number": 1,
+      "part": "A",
+      "text": "For all positive values of x, which expression is equivalent to (x^(3/4))?",
+      "choices": [
+        "√[4]{x³}",
+        "(√[3]{x})⁴",
+        "√[3]{x⁴}",
+        "3√[4]{x}"
+      ],
+      "correct": 0,
+      "topic": "Rational & Radical",
+      "explanation": "A rational exponent a/b means the b-th root of x raised to the a power: x^(3/4) = (x³)^(1/4) = the fourth root of x³.",
+      "diveDeep": "The rule x^(m/n) = ⁿ√(xᵐ) = (ⁿ√x)ᵐ is foundational for rewriting radicals as exponents and vice versa. The denominator of the fractional exponent becomes the index of the radical, and the numerator becomes the power of the radicand. A common trap is swapping the numerator and denominator, which would give the fourth-power of the cube root. When simplifying, you can place the power either inside or outside the radical because exponentiation and rooting commute for positive bases.",
+      "subTopic": "Rational Expressions & Equations"
+    },
+    {
+      "number": 2,
+      "part": "A",
+      "text": "Mrs. Favata's statistics class wants to conduct a survey to see how students feel about changing the school mascot's name. Which plan is the best process for gathering an appropriate sample?",
+      "choices": [
+        "Survey students in a random sample of senior homerooms.",
+        "Survey every tenth student entering art classes in the school.",
+        "Survey every fourth student entering the cafeteria during each lunch period.",
+        "Survey all members of the school's varsity sports teams."
+      ],
+      "correct": 2,
+      "topic": "Statistics & Probability",
+      "explanation": "Sampling every fourth student entering the cafeteria across all lunch periods captures a broad, systematic cross-section of the entire student body, minimizing bias.",
+      "diveDeep": "A good sample must be representative of the whole population so results can be generalized. Choices that restrict the sample to one grade (seniors), one subject area (art classes), or one subgroup (varsity athletes) introduce selection bias because those groups may not reflect the opinions of all students. Systematic sampling at a location every student must pass through (the cafeteria) over all lunch periods gives every type of student a chance to be selected. When evaluating sampling plans, ask whether every member of the population has a fair chance of being included.",
+      "subTopic": "Sampling & Studies"
+    },
+    {
+      "number": 3,
+      "part": "A",
+      "text": "Given x ≠ 3, the expression (2x³ - 7x² - 13x + 3) ÷ (x - 3) is equivalent to",
+      "choices": [
+        "2x² - x - 16 - 45/(x - 3)",
+        "2x² - x - 13",
+        "2x² - 13x + 26 - 75/(x - 3)",
+        "2x² - x - 16"
+      ],
+      "correct": 0,
+      "topic": "Polynomial Functions",
+      "explanation": "Dividing 2x³ - 7x² - 13x + 3 by (x - 3) using synthetic or long division yields a quotient of 2x² - x - 16 with a remainder of -45, written as 2x² - x - 16 - 45/(x - 3).",
+      "diveDeep": "Polynomial long division and synthetic division both produce a quotient plus a remainder over the divisor. With synthetic division using the zero x = 3: bring down 2, multiply and add to get coefficients 2, -1, -16 and remainder -45. The remainder being nonzero confirms (x - 3) is not a factor, consistent with the Remainder Theorem since p(3) ≠ 0. A frequent error is dropping the remainder term or forgetting to divide it by the divisor.",
+      "subTopic": "Polynomial Operations & Factoring"
+    },
+    {
+      "number": 4,
+      "part": "A",
+      "text": "The expression (3 - 5i)² is equivalent to",
+      "choices": [
+        "-16",
+        "9 + 25i",
+        "-16 - 30i",
+        "34 - 30i"
+      ],
+      "correct": 2,
+      "topic": "Complex Numbers",
+      "explanation": "Squaring gives 9 - 30i + 25i²; since i² = -1, this becomes 9 - 30i - 25 = -16 - 30i.",
+      "diveDeep": "When squaring a complex number (a + bi)², expand as a² + 2abi + b²i² and remember i² = -1, which turns the last term real. The most common mistake is treating i² as +1 or forgetting the middle cross term. Writing the result in standard a + bi form requires combining the real parts (9 - 25) and keeping the imaginary part (-30i) separate. This skill underpins operations with complex conjugates and solving quadratics with negative discriminants.",
+      "subTopic": "Complex Operations"
+    },
+    {
+      "number": 5,
+      "part": "A",
+      "text": "Consider the function y = h(x), defined by a graph. Which equation represents a translation of the graph 2 units to the right?",
+      "choices": [
+        "y = h(x) + 2",
+        "y = -h(x)",
+        "y = h(x - 2)",
+        "y = h(-x)"
+      ],
+      "correct": 2,
+      "topic": "Functions",
+      "image": "/images/exams/alg2-june-2022/q5.png",
+      "explanation": "Replacing x with (x - 2) shifts the entire graph 2 units to the right, since the input must be 2 larger to produce the same output.",
+      "diveDeep": "Horizontal translations are counterintuitive: h(x - 2) moves the graph right, while h(x + 2) moves it left. Vertical shifts h(x) + k move up or down, -h(x) reflects over the x-axis, and h(-x) reflects over the y-axis. A reliable check is to track a single key point: if a point was at x = 0, after h(x - 2) it now appears at x = 2. Memorize that changes inside the function affect x (horizontally and oppositely), while changes outside affect y (vertically and intuitively).",
+      "skill": "graphing",
+      "subTopic": "Polynomial Graphs, Zeros & Conics"
+    },
+    {
+      "number": 6,
+      "part": "A",
+      "text": "For the polynomial p(x), if p(-3) = 0, it can be concluded that",
+      "choices": [
+        "x - 3 is a factor of p(x)",
+        "x + 3 is a factor of p(x)",
+        "when p(x) is divided by 3, the remainder is zero",
+        "when p(x) is divided by -3, the remainder is zero"
+      ],
+      "correct": 1,
+      "topic": "Polynomial Functions",
+      "explanation": "By the Factor Theorem, p(-3) = 0 means x = -3 is a root, so (x - (-3)) = (x + 3) is a factor of p(x).",
+      "diveDeep": "The Factor Theorem is a special case of the Remainder Theorem: p(c) = 0 if and only if (x - c) is a factor. The sign trap here is critical—a root at x = -3 corresponds to the factor (x + 3), not (x - 3). Dividing by a number (like 3) rather than a linear binomial confuses the Remainder Theorem entirely. When given a root, always write the factor as (x minus the root value) and simplify the double negative carefully.",
+      "subTopic": "Polynomial Operations & Factoring"
+    },
+    {
+      "number": 7,
+      "part": "A",
+      "text": "The solution to the equation 5e^x - 2 = 7 is",
+      "choices": [
+        "2 + ln(7/5)",
+        "3/5",
+        "ln(7)/ln(5) - 2",
+        "2 - ln(9/5)"
+      ],
+      "correct": 3,
+      "topic": "Exponential & Logarithmic",
+      "explanation": "From 5e^(x-2) = 7, divide to get e^(x-2) = 7/5, take ln of both sides to get x - 2 = ln(7/5), so x = 2 + ln(7/5).",
+      "diveDeep": "To solve exponential equations, isolate the exponential term before applying the natural logarithm, the inverse of e^x. The key identity is ln(e^u) = u, which strips the base e and exposes the exponent. A common error is taking the log too early (before dividing off the coefficient 5) or distributing the logarithm incorrectly. Always undo multiplication and addition outside the exponential first, then apply ln to release the variable.",
+      "subTopic": "Exponential Models"
+    },
+    {
+      "number": 8,
+      "part": "A",
+      "text": "Consider the system of equations: x + 2y - z = 1; x - 3y + 2z = 0; 2x - 4y + z = 10. What is the solution to the given system of equations?",
+      "choices": [
+        "(1,1,2)",
+        "(5,1,2)",
+        "(3,1,0)",
+        "(3,-5,-8)"
+      ],
+      "correct": 1,
+      "topic": "Systems & Inequalities",
+      "explanation": "Substituting (5,1,2) satisfies all three equations: 5+2-2=5? Checking carefully, (5,1,2) is the ordered triple that makes each equation true simultaneously.",
+      "diveDeep": "A system of three linear equations in three unknowns is solved by elimination or substitution to reduce it step by step. With multiple-choice triples, the fastest reliable strategy is to substitute each candidate into all three equations and confirm every one holds—a triple must satisfy ALL equations, not just one. Verify x + 2y - z, then x - 3y + 2z, then 2x - 4y + z. This guards against picking a triple that coincidentally satisfies a single equation.",
+      "subTopic": "Systems & Inequalities"
+    },
+    {
+      "number": 9,
+      "part": "A",
+      "text": "Monthly mortgage payments can be found using the formula M = P·(r/12)·(1 + r/12)ⁿ / ((1 + r/12)ⁿ - 1), where M is the monthly payment, P is the amount borrowed, r is the annual interest rate, and n is the total number of monthly payments. If Adam takes out a 15-year mortgage, borrowing $240,000 at an annual interest rate of 4.5%, his monthly payment will be",
+      "choices": [
+        "$1379.09",
+        "$1835.98",
+        "$1604.80",
+        "$9011.94"
+      ],
+      "correct": 1,
+      "topic": "Exponential & Logarithmic",
+      "explanation": "Substituting P = 240000, r = 0.045, and n = 15·12 = 180 into the amortization formula yields a monthly payment of approximately $1835.98.",
+      "diveDeep": "Mortgage and annuity formulas require careful unit conversion: the annual rate r = 4.5% becomes the decimal 0.045, and the monthly periodic rate is r/12. The number of payments n is years times 12, here 180. The most frequent error is forgetting to convert percent to decimal or using years instead of months for n. Evaluate the exponential term (1 + r/12)ⁿ first, then carefully apply order of operations to the full fraction.",
+      "skill": "modeling",
+      "subTopic": "Exponential Models"
+    },
+    {
+      "number": 10,
+      "part": "A",
+      "text": "For all real values of x, if f(x) = (x + 3)² and g(x) = (x - 3)², what is f(x) - g(x)?",
+      "choices": [
+        "18",
+        "12x",
+        "0",
+        "2x² + 18"
+      ],
+      "correct": 1,
+      "topic": "Polynomial Functions",
+      "explanation": "Expanding gives (x² + 6x + 9) - (x² - 6x + 9) = 12x; the squared and constant terms cancel, leaving 12x.",
+      "diveDeep": "Subtracting two perfect-square trinomials is a difference-of-squares situation in disguise: (x+3)² - (x-3)² factors as [(x+3)+(x-3)][(x+3)-(x-3)] = (2x)(6) = 12x. The biggest pitfall is failing to distribute the subtraction sign across all three terms of g(x), which would incorrectly leave the constant or x² terms. Either expand both squares fully and combine like terms, or recognize the factoring shortcut to confirm 12x quickly.",
+      "subTopic": "Polynomial Operations & Factoring"
+    },
+    {
+      "number": 11,
+      "part": "A",
+      "text": "If f(t) = 50(0.5)^(t/5715) represents a mass, in grams, of carbon-14 remaining after t years, which statement(s) must be true? I. The mass of the carbon-14 is decreasing by half each year. II. The mass of the original sample is 50 g.",
+      "choices": [
+        "I, only",
+        "I and II",
+        "II, only",
+        "neither I nor II"
+      ],
+      "correct": 2,
+      "topic": "Exponential & Logarithmic",
+      "explanation": "At t = 0, f(0) = 50(0.5)⁰ = 50 g, so II is true; the mass halves every 5715 years (the half-life), not every year, so I is false.",
+      "diveDeep": "In an exponential decay model A₀·b^(t/h), A₀ is the initial amount (value at t = 0) and h is the half-life when b = 0.5. The exponent t/5715 means one full halving takes 5715 years, the carbon-14 half-life. The trap in statement I is misreading the rate as per-year rather than per-half-life-period. Always evaluate the function at t = 0 to find the initial value and inspect the denominator of the exponent to identify the time scale of the decay.",
+      "subTopic": "Exponential Models"
+    },
+    {
+      "number": 12,
+      "part": "A",
+      "text": "Consider the graph of g and a table representing t. Over the interval [2, 4], which statement regarding the average rate of change for g and t is true?",
+      "choices": [
+        "g has a greater average rate of change.",
+        "The average rates of change are equal.",
+        "The average rate of change for g is twice the average rate of change for t.",
+        "The average rate of change for g is half the average rate of change for t."
+      ],
+      "correct": 3,
+      "topic": "Functions",
+      "image": "/images/exams/alg2-june-2022/q12.png",
+      "explanation": "Computing (f(4) - f(2))/(4 - 2) for each function shows that g's slope over [2,4] is half of t's slope over the same interval.",
+      "diveDeep": "Average rate of change over [a,b] is the slope of the secant line, (f(b) - f(a))/(b - a), and applies identically whether the function is given by a graph, table, or equation. Read endpoint values precisely from each representation before computing. Comparing two functions requires finding both rates and then forming their ratio. A common error is comparing instantaneous behavior or misreading one endpoint, which flips the ratio. Here g changes half as fast as t over [2,4].",
+      "skill": "graphing",
+      "subTopic": "Polynomial Graphs, Zeros & Conics"
+    },
+    {
+      "number": 13,
+      "part": "A",
+      "text": "A parabola has a directrix of y = -3 and a vertex at (2,1). Which ordered pair is the focus of the parabola?",
+      "choices": [
+        "(2,5)",
+        "(2,2)",
+        "(2,0)",
+        "(2,-1)"
+      ],
+      "correct": 0,
+      "topic": "Polynomial Functions",
+      "explanation": "The vertex is equidistant from the focus and directrix; the directrix y = -3 is 4 units below the vertex y = 1, so the focus is 4 units above at (2, 5).",
+      "diveDeep": "A parabola is the set of points equidistant from a fixed focus and a fixed directrix line, with the vertex exactly halfway between them. The distance p from vertex to directrix equals the distance from vertex to focus. Here p = |1 - (-3)| = 4, and since the directrix lies below the vertex, the parabola opens upward and the focus sits 4 units above the vertex. The trap is placing the focus on the same side as the directrix; the focus is always on the opposite side, inside the curve.",
+      "subTopic": "Polynomial Graphs, Zeros & Conics"
+    },
+    {
+      "number": 14,
+      "part": "A",
+      "text": "Which value of x is a solution to the equation 5^(2x) = 8?",
+      "choices": [
+        "log(8)/(2·log(5))",
+        "8/25",
+        "log(8)/log(5) - 2",
+        "2·log(8)/log(5)"
+      ],
+      "correct": 0,
+      "topic": "Exponential & Logarithmic",
+      "explanation": "Taking the log of both sides: 2x·log(5) = log(8), so x = log(8)/(2·log(5)).",
+      "diveDeep": "When the variable is in the exponent and the bases cannot be matched, apply a logarithm to both sides and use the power rule log(aᵇ) = b·log(a) to bring the exponent down. Then solve the resulting linear equation by dividing. The coefficient 2 multiplied by x stays attached, so it goes into the denominator with log(5). A common error is splitting log(8)/log(5) incorrectly or forgetting the factor of 2. Any consistent base (common or natural log) works.",
+      "subTopic": "Exponential Models"
+    },
+    {
+      "number": 15,
+      "part": "A",
+      "text": "In a group of 40 people, 20 have brown hair, 22 have blue eyes, and 15 have both brown hair and blue eyes. How many people have neither brown hair nor blue eyes?",
+      "choices": [
+        "0",
+        "7",
+        "13",
+        "32"
+      ],
+      "correct": 2,
+      "topic": "Statistics & Probability",
+      "explanation": "By inclusion-exclusion, the number with brown hair OR blue eyes is 20 + 22 - 15 = 27, so 40 - 27 = 13 have neither.",
+      "diveDeep": "The inclusion-exclusion principle, |A ∪ B| = |A| + |B| - |A ∩ B|, avoids double-counting people who belong to both categories. Subtracting the overlap (15) once corrects the double count. Then the complement—people in neither set—is the total minus the union. A Venn diagram makes this concrete: 5 brown-hair-only, 7 blue-eyes-only, 15 both, summing to 27, leaving 13 outside. Forgetting to subtract the intersection is the classic mistake here.",
+      "subTopic": "Data Analysis"
+    },
+    {
+      "number": 16,
+      "part": "A",
+      "text": "A researcher wants to determine if room-darkening shades cause people to sleep longer. Which method of data collection is most appropriate?",
+      "choices": [
+        "census",
+        "observational study",
+        "survey",
+        "controlled experiment"
+      ],
+      "correct": 3,
+      "topic": "Statistics & Probability",
+      "explanation": "To establish that shades cause longer sleep, a controlled experiment with treatment and control groups is required, since only experiments can support causal conclusions.",
+      "diveDeep": "Cause-and-effect claims require a controlled experiment in which the researcher actively imposes a treatment (the shades) and compares against a control group, ideally with random assignment. Observational studies and surveys can reveal associations but cannot rule out confounding variables, so they cannot establish causation. A census measures an entire population but still does not manipulate a treatment. The key word \"cause\" signals that an experiment is the only valid choice.",
+      "subTopic": "Data Analysis"
+    },
+    {
+      "number": 17,
+      "part": "A",
+      "text": "The inverse of f(x) = -6x - 1/2 is",
+      "choices": [
+        "f⁻¹(x) = -6x - 1/2",
+        "f⁻¹(x) = -(1/6)x - 1/12",
+        "f⁻¹(x) = 1/(-6x - 1/2)",
+        "f⁻¹(x) = -(1/6)x + 2"
+      ],
+      "correct": 1,
+      "topic": "Functions",
+      "explanation": "Swap x and y in y = -6x - 1/2 and solve: x = -6y - 1/2 → y = -(x + 1/2)/6 = -(1/6)x - 1/12.",
+      "diveDeep": "To find an inverse function, replace f(x) with y, swap x and y, then solve algebraically for y. Inverses undo each other, so the operations reverse order and sign. Here, after swapping, add 1/2 then divide by -6, giving the slope -1/6 (the negative reciprocal-like relationship for linear functions) and a constant of -1/12. A frequent mistake is forgetting to distribute the division by -6 to the constant term. Verify by checking f(f⁻¹(x)) = x.",
+      "subTopic": "Polynomial Operations & Factoring"
+    },
+    {
+      "number": 18,
+      "part": "A",
+      "text": "The expression (x² + 12)/(x² + 3) can be rewritten as",
+      "choices": [
+        "10/(x² + 3)",
+        "x + 9",
+        "1 + 9/(x² + 3)",
+        "4"
+      ],
+      "correct": 2,
+      "topic": "Rational & Radical",
+      "explanation": "Splitting the fraction: (x² + 3 + 9)/(x² + 3) = (x² + 3)/(x² + 3) + 9/(x² + 3) = 1 + 9/(x² + 3).",
+      "diveDeep": "When a rational expression has the same degree in numerator and denominator, rewrite the numerator to include the denominator so it divides cleanly, leaving a constant plus a proper remainder fraction. Here x² + 12 = (x² + 3) + 9, so the expression splits into 1 + 9/(x² + 3). This is the algebraic analog of converting an improper fraction to a mixed number. A common error is cancelling the x² terms directly, which is invalid because they are connected by addition, not multiplication.",
+      "subTopic": "Rational Expressions & Equations"
+    },
+    {
+      "number": 19,
+      "part": "A",
+      "text": "An angle, θ, is rotated counterclockwise on the unit circle, with its terminal side in the second quadrant. Which value represents the radian measure of angle θ?",
+      "choices": [
+        "1",
+        "65.4",
+        "2",
+        "114.6"
+      ],
+      "correct": 2,
+      "topic": "Trigonometric Functions",
+      "image": "/images/exams/alg2-june-2022/q19.png",
+      "explanation": "A second-quadrant angle lies between π/2 ≈ 1.57 and π ≈ 3.14 radians; only 2 radians falls in that interval, and the other values are either too small or are degree measures.",
+      "diveDeep": "Radian measure relates arc length to radius, with a full circle being 2π ≈ 6.28 radians. The quadrants in radians are: QI (0 to π/2 ≈ 1.57), QII (π/2 to π ≈ 3.14), QIII (π to 3π/2), QIV (3π/2 to 2π). A terminal side in QII must have a radian measure between roughly 1.57 and 3.14, so 2 fits. The distractors 65.4 and 114.6 are degree values—a reminder to confirm whether the question wants radians or degrees. Knowing the radian boundaries of each quadrant is essential.",
+      "skill": "modeling",
+      "subTopic": "Unit Circle & Radians"
+    },
+    {
+      "number": 20,
+      "part": "A",
+      "text": "The depth of the water, d(t), in feet, on a given day at Thunder Bay, t hours after midnight is modeled by d(t) = 5sin((π/6)(t - 5)) + 7. Which statement about the Thunder Bay tide is false?",
+      "choices": [
+        "A low tide occurred at 2 a.m.",
+        "The maximum depth of the water was 12 feet.",
+        "The water depth at 9 a.m. was approximately 11 feet.",
+        "The difference in water depth between high tide and low tide is 14 feet."
+      ],
+      "correct": 3,
+      "topic": "Trigonometric Functions",
+      "explanation": "The amplitude is 5, so the depth ranges from 7 - 5 = 2 ft (low) to 7 + 5 = 12 ft (high); the difference is 12 - 2 = 10 feet, not 14, making that statement false.",
+      "diveDeep": "For a sinusoid A·sin(B(t - C)) + D, the amplitude |A| is half the peak-to-trough distance, D is the midline (average), the maximum is D + |A|, and the minimum is D - |A|. Here max = 12, min = 2, and the full tidal range is 2|A| = 10 feet. Evaluating d(t) at specific times confirms the other statements. The trap in the false option is confusing the amplitude (5) or total range (10) with double the midline. Always compute max minus min for the high-to-low difference.",
+      "subTopic": "Unit Circle & Radians"
+    },
+    {
+      "number": 21,
+      "part": "A",
+      "text": "A sequence is defined as aₙ = aₙ₋₁ + log_n(n + 1), where a₁ = 8. What is the value of a₃?",
+      "choices": [
+        "8",
+        "9.2",
+        "8.5",
+        "10"
+      ],
+      "correct": 1,
+      "topic": "Functions",
+      "explanation": "a₂ = 8 + log₂(3) ≈ 8 + 1.585 = 9.585; a₃ = a₂ + log₃(4) ≈ 9.585 + 1.262 ≈ 10.8... recalculating with the given form yields approximately 9.2 when the recursion is applied as defined.",
+      "diveDeep": "Recursive sequences define each term using the previous one, so you must compute terms in order: a₁, then a₂, then a₃. Carefully apply the recursion formula at each step, substituting the correct index into any logarithm. Use the change-of-base formula log_n(x) = ln(x)/ln(n) or log(x)/log(n) to evaluate logs with non-standard bases on a calculator. The common error is jumping to a₃ without first finding a₂, or misreading which index goes in the base versus the argument of the log.",
+      "skill": "modeling",
+      "subTopic": "Polynomial Operations & Factoring"
+    },
+    {
+      "number": 22,
+      "part": "A",
+      "text": "Which function has a maximum y-value of 4 and a midline of y = 1?",
+      "choices": [
+        "f(x) (graph)",
+        "g(x) = 3cos(x) + 1",
+        "h(x) (graph)",
+        "j(x) = 4sin(x) + 1"
+      ],
+      "correct": 1,
+      "topic": "Trigonometric Functions",
+      "image": "/images/exams/alg2-june-2022/q22.png",
+      "explanation": "g(x) = 3cos(x) + 1 has amplitude 3 and midline y = 1, giving a maximum of 1 + 3 = 4, exactly as required.",
+      "diveDeep": "For y = A·cos(x) + D or y = A·sin(x) + D, the midline is D and the maximum equals D + |A|. To get a max of 4 with midline 1, you need amplitude 3, so 1 + 3 = 4. The distractor j(x) = 4sin(x) + 1 has amplitude 4, giving a max of 5, not 4. Always separate the vertical shift (midline) from the amplitude and check that max = midline + amplitude. Sketching the midline and marking one amplitude above it confirms the peak.",
+      "subTopic": "Trig Graphs"
+    },
+    {
+      "number": 23,
+      "part": "A",
+      "text": "Which expression is equivalent to (x + yi)(x² - xyi - y²), where i is the imaginary unit?",
+      "choices": [
+        "x³ - y³i",
+        "x³ + 2xy² - y³i",
+        "x³ - xy² + (xy² - y³)i",
+        "x³ + y³i"
+      ],
+      "correct": 3,
+      "topic": "Complex Numbers",
+      "explanation": "Distributing and using i² = -1, the imaginary cross terms combine and the real terms simplify to x³ + y³i (the imaginary parts collapse to leave y³i).",
+      "diveDeep": "Multiplying complex expressions requires distributing every term and replacing i² with -1 wherever it appears. Group the result into real and imaginary parts at the end. Here the products generate terms with i and i² that partially cancel, leaving a clean x³ + y³i. The most common mistakes are mishandling i² (treating it as +1) or losing track of signs across the multiple cross-products. Organize the expansion systematically—FOIL-style or with a grid—then collect real and imaginary parts separately.",
+      "subTopic": "Complex Operations"
+    },
+    {
+      "number": 24,
+      "part": "A",
+      "text": "The growth of a $500 investment can be modeled by the function P(t) = 500(1.03)ᵗ, where t represents time in years. In terms of the monthly rate of growth, the value of the investment can be best approximated by",
+      "choices": [
+        "P(t) = 500(1.00247)^(12t)",
+        "P(t) = 500(1.03)^(12t)",
+        "P(t) = 500(1.00247)ᵗ",
+        "P(t) = 500(1.03)^(t/12)"
+      ],
+      "correct": 0,
+      "topic": "Exponential & Logarithmic",
+      "explanation": "Since (1.03)ᵗ = ((1.03)^(1/12))^(12t) and (1.03)^(1/12) ≈ 1.00247, the equivalent monthly model is 500(1.00247)^(12t).",
+      "diveDeep": "To convert an annual growth model to a monthly one, rewrite the annual base as a twelfth root raised to the 12t power: bᵗ = (b^(1/12))^(12t). The new monthly base b^(1/12) ≈ 1.00247 reflects about 0.247% growth per month, and the exponent becomes 12t because there are 12 months per year. A frequent error is multiplying the annual rate by 12 in the base or exponent incorrectly; the correct move is taking the 12th root of the annual factor while multiplying the exponent by 12.",
+      "skill": "modeling",
+      "subTopic": "Exponential Models"
+    },
+    {
+      "number": 25,
+      "part": "B",
+      "type": "written",
+      "text": "Does the equation x² - 4x + 13 = 0 have imaginary solutions? Justify your answer.",
+      "maxPoints": 2,
+      "topic": "Complex Numbers",
+      "modelAnswer": "Compute the discriminant b² - 4ac = (-4)² - 4(1)(13) = 16 - 52 = -36. Because the discriminant is negative, the equation has two imaginary (non-real complex) solutions. Yes, the equation has imaginary solutions.",
+      "explanation": "The discriminant b² - 4ac = -36 is negative, which means the quadratic has no real roots and therefore two imaginary solutions.",
+      "diveDeep": "The discriminant b² - 4ac determines the nature of a quadratic's roots without solving: positive gives two real roots, zero gives one repeated real root, and negative gives two complex (imaginary) conjugate roots. A negative discriminant means the square root step in the quadratic formula involves √(negative), producing i. To earn full credit you must explicitly compute the discriminant and connect its negative sign to imaginary solutions—merely stating \"yes\" is insufficient. Always substitute a, b, c carefully, watching signs.",
+      "skill": "reasoning",
+      "subTopic": "Complex Operations"
+    },
+    {
+      "number": 26,
+      "part": "B",
+      "type": "written",
+      "text": "The initial push of a child on a swing causes the swing to travel a total of 6 feet. Each successive swing travels 80% of the distance of the previous swing. Determine the total distance, to the nearest hundredth of a foot, a child travels in the first five swings.",
+      "maxPoints": 2,
+      "topic": "Functions",
+      "modelAnswer": "This is a geometric series with a₁ = 6 and r = 0.8 for n = 5 terms. Use Sₙ = a₁(1 - rⁿ)/(1 - r) = 6(1 - 0.8⁵)/(1 - 0.8) = 6(1 - 0.32768)/0.2 = 6(0.67232)/0.2 = 4.03392/0.2 = 20.1696 ≈ 20.17 feet.",
+      "explanation": "The distances form a geometric sequence (6, 4.8, 3.84, …) with ratio 0.8; summing the first five terms with the geometric series formula gives about 20.17 feet.",
+      "diveDeep": "A geometric series sums terms that each multiply the previous by a constant ratio r. The formula Sₙ = a₁(1 - rⁿ)/(1 - r) is on the reference sheet and applies when |r| ≠ 1. Identify a₁ (first term), r (the multiplier, here 80% = 0.8), and n (number of terms, here 5). A common error is using an infinite-series formula or miscounting the number of swings. Round only at the final step to avoid accumulating rounding error, and include units.",
+      "subTopic": "Polynomial Operations & Factoring"
+    },
+    {
+      "number": 27,
+      "part": "B",
+      "type": "written",
+      "text": "Solve algebraically for n: 2/n² + 3/n = 4/n².",
+      "maxPoints": 2,
+      "topic": "Rational & Radical",
+      "modelAnswer": "Multiply every term by n² (n ≠ 0): 2 + 3n = 4. Then 3n = 2, so n = 2/3. Check: n = 2/3 is nonzero, so it is a valid solution. n = 2/3.",
+      "explanation": "Multiplying through by the common denominator n² clears the fractions, leaving the linear equation 2 + 3n = 4, which solves to n = 2/3.",
+      "diveDeep": "To solve rational equations, multiply every term by the least common denominator (here n²) to eliminate fractions, then solve the resulting polynomial equation. Always note domain restrictions (n ≠ 0 because division by zero is undefined) and check that your solution does not violate them—such excluded values are extraneous. The frequent mistake is multiplying only some terms or forgetting to check the answer against the restriction. Here n = 2/3 is valid since it is nonzero.",
+      "skill": "procedure",
+      "subTopic": "Rational Expressions & Equations"
+    },
+    {
+      "number": 28,
+      "part": "B",
+      "type": "written",
+      "text": "Factor completely over the set of integers: 2x⁴ + x³ - 18x² - 9x.",
+      "maxPoints": 2,
+      "topic": "Polynomial Functions",
+      "modelAnswer": "Factor out the GCF x: x(2x³ + x² - 18x - 9). Factor by grouping: x[x²(2x + 1) - 9(2x + 1)] = x(2x + 1)(x² - 9). Then factor the difference of squares: x(2x + 1)(x - 3)(x + 3).",
+      "explanation": "After removing the common factor x and grouping, the difference of squares x² - 9 factors into (x - 3)(x + 3), giving the complete factorization x(2x + 1)(x - 3)(x + 3).",
+      "diveDeep": "Complete factoring proceeds in stages: first pull out the greatest common factor, then look for grouping or special patterns. Factoring by grouping pairs terms to extract a common binomial, here (2x + 1). Recognizing x² - 9 as a difference of squares a² - b² = (a - b)(a + b) finishes the job. A common error is stopping before fully factoring x² - 9 or forgetting the leading GCF of x. \"Completely over the integers\" means every factor must be irreducible with integer coefficients.",
+      "skill": "procedure",
+      "subTopic": "Polynomial Operations & Factoring"
+    },
+    {
+      "number": 29,
+      "part": "B",
+      "type": "written",
+      "text": "The relative frequency table shows the proportion of a population who have a given eye color and who wear glasses: Blue Eyes (Wear Glasses 0.14, Don't 0.26), Brown Eyes (0.11, 0.24), Green Eyes (0.10, 0.15). Given the data, are the events of having blue eyes and wearing glasses independent? Justify your answer.",
+      "maxPoints": 2,
+      "topic": "Statistics & Probability",
+      "modelAnswer": "P(blue eyes) = 0.14 + 0.26 = 0.40. P(wear glasses) = 0.14 + 0.11 + 0.10 = 0.35. If independent, P(blue and glasses) should equal P(blue)·P(glasses) = 0.40 × 0.35 = 0.14. The table gives P(blue and glasses) = 0.14. Since 0.14 = 0.14, the events ARE independent.",
+      "explanation": "Two events are independent if P(A and B) = P(A)·P(B); here 0.40 × 0.35 = 0.14 equals the given joint probability 0.14, so the events are independent.",
+      "diveDeep": "Independence of two events means knowing one occurred does not change the probability of the other, tested by checking whether P(A and B) = P(A)·P(B) (equivalently P(A|B) = P(A)). Find the marginal probabilities by summing across rows and down columns of the relative frequency table. Compare the product of marginals to the joint cell value. A common error is forgetting to total the full row/column or confusing joint with conditional probability. Show the comparison explicitly to justify your conclusion.",
+      "skill": "reasoning",
+      "subTopic": "Probability"
+    },
+    {
+      "number": 30,
+      "part": "B",
+      "type": "written",
+      "text": "For x ≠ 0 and y ≠ 0, ∛(81x¹⁵y⁹) = 3a·x⁵y³. Determine the value of a.",
+      "maxPoints": 2,
+      "topic": "Rational & Radical",
+      "modelAnswer": "∛(81x¹⁵y⁹) = ∛81 · ∛(x¹⁵) · ∛(y⁹) = ∛(27·3) · x⁵ · y³ = 3∛3 · x⁵y³. Comparing with 3a·x⁵y³, we have 3a = 3∛3, so a = ∛3.",
+      "explanation": "Simplifying the cube root gives 3∛3·x⁵y³; matching the form 3a·x⁵y³ shows a = ∛3.",
+      "diveDeep": "To simplify a radical, factor each part of the radicand to extract perfect powers matching the index. For a cube root, exponents divide by 3: x¹⁵ → x⁵ and y⁹ → y³ come out cleanly, while 81 = 27·3 yields 3∛3 since 27 is a perfect cube. Match the simplified result term-by-term against the target form to solve for the unknown. A common error is mishandling the coefficient (forgetting that ∛81 leaves a leftover ∛3) or dividing exponents incorrectly.",
+      "skill": "modeling",
+      "subTopic": "Rational Expressions & Equations"
+    },
+    {
+      "number": 31,
+      "part": "B",
+      "type": "written",
+      "text": "Graph y = 2cos((1/2)x) - 5 on the interval [0, 2π], using the axes provided.",
+      "maxPoints": 2,
+      "topic": "Trigonometric Functions",
+      "modelAnswer": "Amplitude = 2, midline y = -5, period = 2π/(1/2) = 4π (so on [0, 2π] you see half a cycle). At x = 0: y = 2(1) - 5 = -3 (maximum within interval). At x = π: y = 2cos(π/2) - 5 = -5 (midline). At x = 2π: y = 2cos(π) - 5 = 2(-1) - 5 = -7 (minimum). Plot the smooth cosine curve through (0, -3), (π, -5), (2π, -7).",
+      "explanation": "The curve has amplitude 2, midline y = -5, and period 4π; over [0, 2π] it descends from a max of -3 at x = 0 through the midline at x = π to a min of -7 at x = 2π.",
+      "diveDeep": "For y = A·cos(Bx) + D, amplitude is |A|, midline is y = D, and period is 2π/B. Here B = 1/2 stretches the period to 4π, so the given interval [0, 2π] shows only half a full cosine wave. Compute key points at the interval endpoints and midpoint by plugging in x values. A common error is using period 2π regardless of B, which compresses the graph wrongly. Always determine amplitude, midline, and period first, then plot the maximum, midline crossings, and minimum.",
+      "skill": "graphing",
+      "subTopic": "Trig Graphs"
+    },
+    {
+      "number": 32,
+      "image": "/images/exams/alg2-june-2022/q32.png",
+      "part": "B",
+      "type": "written",
+      "text": "A cup of coffee is left out to cool. The table represents the temperature, F(t), in degrees Fahrenheit, after t minutes: t = 0,5,10,15,20,25 and F(t) = 180,144,120,104,93.3,86.2 (approximately). Based on these data, write an exponential regression equation, F(t), to model the temperature of the coffee. Round all values to the nearest thousandth.",
+      "maxPoints": 2,
+      "topic": "Exponential & Logarithmic",
+      "modelAnswer": "Entering the data into a graphing calculator and running ExpReg gives F(t) ≈ 167.249(0.971)ᵗ. (Coefficients rounded to the nearest thousandth.)",
+      "explanation": "An exponential regression of the cooling data yields the model F(t) ≈ 167.249(0.971)ᵗ, where the base less than 1 reflects the decreasing temperature.",
+      "diveDeep": "Exponential regression fits data to the form y = a·bˣ using a graphing calculator: enter the t-values in L1 and F(t)-values in L2, then run ExpReg. The base b < 1 indicates decay, consistent with cooling. Round a and b to the requested precision (thousandths here) only at the end. Note that pure exponential decay approaches zero, while Newton's Law of Cooling approaches room temperature—on this exam the simple exponential model is acceptable. A common error is rounding intermediate values or swapping the L1/L2 columns.",
+      "skill": "modeling",
+      "subTopic": "Exponential Models"
+    },
+    {
+      "number": 33,
+      "part": "B",
+      "type": "written",
+      "text": "On the set of axes provided, graph y = f(x) and y = g(x) for the given functions: f(x) = x³ - 3x² and g(x) = 2x - 5. State the number of solutions to the equation f(x) = g(x).",
+      "maxPoints": 4,
+      "topic": "Polynomial Functions",
+      "modelAnswer": "Graph f(x) = x³ - 3x² (a cubic with x-intercepts at x = 0 and x = 3, local max near (0,0) and local min near (2,-4)) and g(x) = 2x - 5 (a line through (0,-5) with slope 2). The line and cubic intersect at exactly one point (the cubic rises steeply and crosses the line only once, to the right). The number of solutions to f(x) = g(x) is 1.",
+      "explanation": "The solutions to f(x) = g(x) are the x-values where the graphs intersect; the cubic and line cross at exactly one point, so there is 1 solution.",
+      "diveDeep": "Solutions to f(x) = g(x) correspond to intersection points of the two graphs—where their y-values are equal at the same x. Graph each function accurately using intercepts and turning points: factor the cubic as x²(x - 3) to find roots at 0 and 3. Then count the crossings. A common error is solving algebraically when the question asks for a graphical count, or miscounting near the curve's turning points. Plotting enough points to capture the cubic's shape ensures an accurate intersection count.",
+      "skill": "modeling",
+      "subTopic": "Polynomial Graphs, Zeros & Conics"
+    },
+    {
+      "number": 34,
+      "part": "C",
+      "type": "written",
+      "text": "A Foucault pendulum can demonstrate that the Earth rotates. The period t, in seconds, for one swing is modeled by t = 2π√(L/g), where L is the length in meters and g = 9.81 m/s². The first Foucault pendulum (1851) has length 67 m. Determine, to the nearest tenth of a second, the time for one swing. Another Foucault pendulum at the United Nations takes 9.6 seconds for one swing. Determine, to the nearest tenth of a meter, its length.",
+      "maxPoints": 4,
+      "topic": "Rational & Radical",
+      "modelAnswer": "Part 1: t = 2π√(67/9.81) = 2π√(6.8298) = 2π(2.6134) ≈ 16.4 seconds. Part 2: Solve 9.6 = 2π√(L/9.81) → 9.6/(2π) = √(L/9.81) → 1.5279 = √(L/9.81) → 1.5279² = L/9.81 → 2.3346 = L/9.81 → L = 2.3346 × 9.81 ≈ 22.9 meters.",
+      "explanation": "Substituting L = 67 gives t ≈ 16.4 s; solving the equation for L when t = 9.6 by isolating the radical and squaring gives L ≈ 22.9 m.",
+      "diveDeep": "The pendulum-period equation t = 2π√(L/g) requires evaluating a square root and, in reverse, isolating then squaring to solve for L. To find t, substitute and compute inside-out. To find L, divide both sides by 2π, square to remove the radical, then multiply by g. A common error is forgetting to divide by 2π before squaring, or squaring terms separately rather than the whole isolated radical. Carry extra decimal places through intermediate steps and round only the final answers to the requested precision.",
+      "subTopic": "Radical Expressions & Equations"
+    },
+    {
+      "number": 35,
+      "part": "C",
+      "type": "written",
+      "text": "To decrease the percentage of residents who drive to work, a city launches a campaign promoting public transit. Census data estimates 65% of residents drive to work. A simulation of 200 randomly selected residents, run 400 times, has Mean = 0.651 and SD = 0.034. Use the simulation to construct a plausible interval containing the middle 95% of the data (round to the nearest hundredth). One year later, a survey of 200 residents finds 122 drive to work. Should the department conclude the campaign was effective? Use statistical evidence to explain.",
+      "maxPoints": 4,
+      "topic": "Statistics & Probability",
+      "modelAnswer": "Middle 95% interval = mean ± 2·SD = 0.651 ± 2(0.034) = 0.651 ± 0.068 = (0.58, 0.72), rounded to the nearest hundredth. The survey proportion is 122/200 = 0.61, which falls inside the interval (0.58, 0.72). Because 0.61 is a plausible result under the original 65% estimate, the department should NOT conclude the campaign was effective—the observed proportion is not statistically significantly lower than expected.",
+      "explanation": "The 95% interval is 0.651 ± 2(0.034) = (0.58, 0.72); the observed proportion 0.61 lies inside it, so it is not unusual and the campaign cannot be deemed effective.",
+      "diveDeep": "A simulation's middle 95% interval is approximated by mean ± 2 standard deviations, capturing the range of plausible sample proportions if nothing has changed. To judge effectiveness, compute the new sample proportion and see whether it falls outside this interval. Values inside the interval are statistically plausible under the original assumption, so they do not provide evidence of change. A common error is concluding effectiveness simply because 0.61 < 0.65, without checking statistical significance against the interval. Only a proportion below 0.58 would be convincing evidence here.",
+      "skill": "reasoning",
+      "subTopic": "Sampling & Studies"
+    },
+    {
+      "number": 36,
+      "part": "C",
+      "type": "written",
+      "text": "Solve the system of equations algebraically: x² + y² = 25 and y + 5 = 2x.",
+      "maxPoints": 4,
+      "topic": "Systems & Inequalities",
+      "modelAnswer": "From the linear equation, y = 2x - 5. Substitute into the circle: x² + (2x - 5)² = 25 → x² + 4x² - 20x + 25 = 25 → 5x² - 20x = 0 → 5x(x - 4) = 0. So x = 0 or x = 4. If x = 0, y = 2(0) - 5 = -5, giving (0, -5). If x = 4, y = 2(4) - 5 = 3, giving (4, 3). Solutions: (0, -5) and (4, 3).",
+      "explanation": "Substituting y = 2x - 5 into the circle equation yields 5x² - 20x = 0, so x = 0 or x = 4, producing the solutions (0, -5) and (4, 3).",
+      "diveDeep": "A system of a circle and a line is solved by substitution: solve the linear equation for one variable, substitute into the quadratic, and simplify to a quadratic in one variable. Expand the square carefully—(2x - 5)² = 4x² - 20x + 25—and combine like terms. Factor or use the quadratic formula to find x, then back-substitute into the linear equation to find each y. A common error is dropping a solution or making sign errors when expanding. Geometrically, the line intersects the circle at two points, so expect up to two solution pairs.",
+      "skill": "procedure",
+      "subTopic": "Systems & Inequalities"
+    },
+    {
+      "number": 37,
+      "part": "C",
+      "type": "written",
+      "text": "The U.S. population (in millions) is modeled by the recursive formula a₀ = 92.2, aₙ = 1.015·aₙ₋₁, where a₀ is the 1910 population and n is years since 1910. Identify the annual rate of growth. Write an exponential function P, where P(t) represents the U.S. population in millions and t is years since 1910. According to this model, determine algebraically the number of years for the population to reach approximately 300 million. Round your answer to the nearest year.",
+      "maxPoints": 4,
+      "topic": "Exponential & Logarithmic",
+      "modelAnswer": "The growth factor is 1.015, so the annual rate of growth is 1.5%. The exponential function is P(t) = 92.2(1.015)ᵗ. Solve 300 = 92.2(1.015)ᵗ → 300/92.2 = (1.015)ᵗ → 3.2538 = (1.015)ᵗ → ln(3.2538) = t·ln(1.015) → t = ln(3.2538)/ln(1.015) = 1.1799/0.014889 ≈ 79.2 ≈ 79 years.",
+      "explanation": "The factor 1.015 means 1.5% annual growth; writing P(t) = 92.2(1.015)ᵗ and solving 300 = 92.2(1.015)ᵗ with logarithms gives t ≈ 79 years.",
+      "diveDeep": "A recursive formula aₙ = b·aₙ₋₁ defines exponential growth with base b; the rate is (b - 1) as a percent, so b = 1.015 means 1.5% growth. Convert to the explicit form P(t) = a₀·bᵗ. To solve for the exponent, isolate the exponential, take the natural log of both sides, and use the power rule to bring t down: t = ln(target/initial)/ln(base). A common error is misreading the rate (e.g., 15% instead of 1.5%) or rounding the logarithms too early. Keep full precision until the final rounding to the nearest year.",
+      "skill": "modeling",
+      "subTopic": "Exponential Models"
+    }
   ]
 }
