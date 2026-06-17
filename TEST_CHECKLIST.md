@@ -69,6 +69,19 @@ Per subject: **switch to the subject in the top bar**, then confirm the unit lis
 - [ ] **21. US History** (`f60ec96`) — same 5 skill units (Themes promoted), pool = all 9 exams, new local assets.
 - [ ] **22. English** (`15c4a14`) — 6 reading-skill units: Close Reading → Author's Craft & Tone → Central Idea & Theme → Inference → Word Meaning in Context → Argument & Structure. **⚠️ Known: MC questions reference passages NOT in the data**, so they're hard to answer — verify the structure/units/flashcards, not answerability.
 
+---
+
+# AI tutor — "Why was I wrong?" (Premium)
+
+- [ ] **23. Grounded mistake explainer** (`776f63d`) **(native + Premium + network)** — answer an MC question **wrong** in a quiz → the feedback panel shows a **🤔 Why was I wrong?** button. Tap it → pet voices a one-line nudge, the full why-wrong/why-right explanation reveals inline. Second tap on the same wrong answer is instant + free (cached). Watch `firebase functions:log --only explainMistake` — first hit = one call, repeat = cache, no call.
+  - **Premium gate:** as a **non-subscriber**, the button instead reads **🔒 Why was I wrong? · Premium** and tapping it just voices an upsell (no AI call). Subscribe → it becomes the live AI button.
+  - **Grounding check:** the explanation must never contradict the marked correct answer; it should reference the question's stimulus/explanation, not invent facts.
+
+### AI tutor caveats
+- **Cloud Function required** — only works on a build with network + a signed-in user (`explainMistake`, `us-central1`). Won't work offline or in a bare JS test.
+- **Gate is client-side** (like lives/power-ups); the function's per-user daily cap is the cost backstop. True server-side entitlement enforcement is a follow-up.
+- **First-call latency** — the very first tap on a new (question, wrong-choice) pair makes a live Haiku call (~1–2s); every subsequent student on that pair reads the Firestore cache.
+
 ### Curriculum caveats
 - **Heuristic tagging**: questions were tagged by keyword rules (reviewed at the distribution level, not per-question) — expect some mis-tags.
 - **History era is a supplementary `subTopic` only** (~37% coverage); units are organized by analysis skill, which tags reliably (~77%).
