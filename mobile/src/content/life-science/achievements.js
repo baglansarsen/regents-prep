@@ -37,11 +37,11 @@ export const ACHIEVEMENTS = [
     condition: s => s.topicsPassed?.has(TOPICS.HUMAN_BODY),
   },
   {
-    id: 'ls_taxonomist',
-    title: 'Master Taxonomist',
-    description: 'Pass Classification of Life with 80%+',
-    icon: '🌳',
-    condition: s => s.topicsPassed?.has(TOPICS.CLASSIFICATION),
+    id: 'ls_data_detective',
+    title: 'Data Detective',
+    description: 'Pass Data & Investigations with 80%+',
+    icon: '📊',
+    condition: s => s.topicsPassed?.has(TOPICS.SCIENCE_PRACTICES),
   },
   {
     id: 'ls_perfect_quiz',

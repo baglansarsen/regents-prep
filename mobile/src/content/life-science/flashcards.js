@@ -41,12 +41,22 @@ export const flashcards = [
   { topic: TOPICS.HUMAN_BODY, term: 'Antibody', definition: 'A Y-shaped protein produced by B cells that binds specifically to an antigen, neutralizing or marking it for destruction.' },
   { topic: TOPICS.HUMAN_BODY, term: 'Enzyme', definition: 'A biological catalyst (usually a protein) that speeds up chemical reactions without being consumed.' },
 
-  // Classification of Life
-  { topic: TOPICS.CLASSIFICATION, term: 'Taxonomy', definition: 'The science of naming, describing, and classifying organisms based on shared characteristics and evolutionary relationships.' },
-  { topic: TOPICS.CLASSIFICATION, term: 'Prokaryote', definition: 'An organism (Bacteria or Archaea) that lacks a membrane-bound nucleus and membrane-bound organelles.' },
-  { topic: TOPICS.CLASSIFICATION, term: 'Eukaryote', definition: 'An organism whose cells contain a membrane-bound nucleus and organelles; includes Protists, Fungi, Plants, and Animals.' },
-  { topic: TOPICS.CLASSIFICATION, term: 'Binomial nomenclature', definition: 'The two-part scientific naming system developed by Linnaeus; genus name + species epithet (e.g., Homo sapiens).' },
-  { topic: TOPICS.CLASSIFICATION, term: 'Domain', definition: 'The broadest taxonomic category, above kingdom; the three domains are Bacteria, Archaea, and Eukarya.' },
+  // Classification terms — folded into Cells (cell types) and Evolution (shared ancestry)
+  { topic: TOPICS.CELLS, term: 'Prokaryote', definition: 'An organism (Bacteria or Archaea) that lacks a membrane-bound nucleus and membrane-bound organelles.' },
+  { topic: TOPICS.CELLS, term: 'Eukaryote', definition: 'An organism whose cells contain a membrane-bound nucleus and organelles; includes Protists, Fungi, Plants, and Animals.' },
+  { topic: TOPICS.EVOLUTION, term: 'Taxonomy', definition: 'The science of naming, describing, and classifying organisms based on shared characteristics and evolutionary relationships.' },
+  { topic: TOPICS.EVOLUTION, term: 'Binomial nomenclature', definition: 'The two-part scientific naming system developed by Linnaeus; genus name + species epithet (e.g., Homo sapiens).' },
+  { topic: TOPICS.EVOLUTION, term: 'Domain', definition: 'The broadest taxonomic category, above kingdom; the three domains are Bacteria, Archaea, and Eukarya.' },
+
+  // Science Practices — Data & Investigations (the skills this exam tests most)
+  { topic: TOPICS.SCIENCE_PRACTICES, term: 'Independent variable', definition: 'The factor a scientist deliberately changes in an experiment to test its effect.' },
+  { topic: TOPICS.SCIENCE_PRACTICES, term: 'Dependent variable', definition: 'The factor that is measured/observed; it responds to changes in the independent variable.' },
+  { topic: TOPICS.SCIENCE_PRACTICES, term: 'Control group', definition: 'The group held at baseline (no experimental treatment) used for comparison to isolate the variable being tested.' },
+  { topic: TOPICS.SCIENCE_PRACTICES, term: 'Hypothesis', definition: 'A testable, falsifiable prediction about the relationship between variables.' },
+  { topic: TOPICS.SCIENCE_PRACTICES, term: 'Claim–Evidence–Reasoning (CER)', definition: 'Answer structure: state a claim, cite specific evidence from the data/stimulus, then explain the reasoning that links them.' },
+  { topic: TOPICS.SCIENCE_PRACTICES, term: 'Correlation vs. causation', definition: 'A correlation is an association between variables; it does not by itself prove one causes the other.' },
+  { topic: TOPICS.SCIENCE_PRACTICES, term: 'Model', definition: 'A representation (diagram, equation, graph) used to explain or predict a process; answer using evidence from the model shown.' },
+  { topic: TOPICS.SCIENCE_PRACTICES, term: 'Valid / reliable', definition: 'Valid = the experiment tests what it intends (controlled variables); reliable = consistent results across repeated trials / large sample.' },
 ]
 
 export const FLASHCARD_TOPIC_LIST = Object.values(TOPICS)

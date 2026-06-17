@@ -21,6 +21,8 @@ export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
       // leaves the user with no way to answer or advance. Must match the
       // predicate in shared/content/*/units.js (parity across content copies).
       .filter((q) => topicMap[q.topic] != null && Array.isArray(q.choices) && q.choices.length > 0)
+      // Carry `skill` and `subTopic` through normalization so the Science
+      // Practices unit (skill pool) and finer Smart Review buckets can use them.
       .map((q) => ({ ...q, topic: topicMap[q.topic] }))
   )
 
@@ -46,6 +48,37 @@ export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
 
   /** Alias so index.js can re-export as getByTopic (used by HomeScreen quiz/study modes) */
   const getByTopic = getExamPool
+
+  /** Cross-topic pool of questions exercising a given science-practice skill. */
+  function getBySkill(skill) {
+    return pool.filter((q) => q.skill === skill)
+  }
+
+  /** Pool filtered to a finer content sub-topic tag. */
+  function getBySubTopic(subTopic) {
+    return pool.filter((q) => q.subTopic === subTopic)
+  }
+
+  /** Written/constructed-response pool, optionally filtered to a unit topic. */
+  function getWritten(unitTopic = null) {
+    return unitTopic ? writtenPool.filter((q) => q.topic === unitTopic) : writtenPool
+  }
+
+  /**
+   * Lessons for a skill-based unit (e.g. Science Practices). Mirrors
+   * getLessonQuestions but slices a skill pool instead of a topic pool.
+   * Accepts a single skill or an array of skills.
+   */
+  function getSkillLessonQuestions(skill, lessonIndex, lessonCount) {
+    const skills = Array.isArray(skill) ? skill : [skill]
+    const skillPool = pool.filter((q) => skills.includes(q.skill))
+    if (lessonIndex >= lessonCount) {
+      return [...skillPool].sort(() => Math.random() - 0.5)
+    }
+    const chunkSize = Math.ceil(skillPool.length / lessonCount) || 1
+    const slice = skillPool.slice(lessonIndex * chunkSize, lessonIndex * chunkSize + chunkSize)
+    return [...slice].sort(() => Math.random() - 0.5).slice(0, lessonSize)
+  }
 
   /**
    * Distribute the unit's exam pool across lessonCount lesson slots.
@@ -90,5 +123,8 @@ export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
     )
   }
 
-  return { getExamPool, getLessonQuestions, getByTopic, buildDiagnosticSet, allQuestions }
+  return {
+    getExamPool, getLessonQuestions, getByTopic, buildDiagnosticSet, allQuestions,
+    getBySkill, getBySubTopic, getWritten, getSkillLessonQuestions,
+  }
 }

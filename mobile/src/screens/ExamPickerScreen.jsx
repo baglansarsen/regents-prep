@@ -494,6 +494,11 @@ export default function ExamPickerScreen({ navigation }) {
   function practiceFlashcards() {
     runPractice('Flashcards', { topic: null, subject })
   }
+  function practiceWritten() {
+    const pool = sd.getWritten ? sd.getWritten() : []
+    if (!pool.length) { Alert.alert('No written questions', 'This subject has no constructed-response questions yet.'); return }
+    runPractice('Quiz', { questionSet: shuffle(pool).slice(0, 8), topic: null, subject })
+  }
   function practiceMistakes() {
     if (!mistakeCount) {
       Alert.alert('No mistakes yet! 🎉', 'Complete some quizzes or exams first — wrong answers will appear here.')
@@ -528,6 +533,12 @@ export default function ExamPickerScreen({ navigation }) {
           <Text style={s.practiceIcon}>📕</Text>
           <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>Practice{'\n'}Mistakes</Text>
         </TouchableOpacity>
+        {sd.getWritten && (
+          <TouchableOpacity style={[s.practiceBtn, duoBtn('#0891b2', '#0e7490')]} onPress={practiceWritten} activeOpacity={0.85}>
+            <Text style={s.practiceIcon}>✍️</Text>
+            <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>Written{'\n'}Practice</Text>
+          </TouchableOpacity>
+        )}
       </View>
       <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0, fontSize: 13, marginTop: 22 }]}>Past Exams</Text>
     </View>

@@ -107,24 +107,27 @@ export const STRATEGIES = {
     ],
   },
 
-  'life-science-u6': { // Classification of Life
+  'life-science-sp': { // Data & Investigations (science practices)
     mentalPrep: [
-      'Memorize the hierarchy: Domain → Kingdom → Phylum → Class → Order → Family → Genus → Species.',
-      'Three domains: Bacteria, Archaea (both prokaryotes), and Eukarya (all eukaryotes).',
-      'Binomial nomenclature: Genus is capitalized; species is lowercase; both italicized.',
+      'This exam is mostly stimulus-based: nearly every question hangs on a passage, data table, graph, or model. Read the stimulus FIRST, then the question.',
+      'Most answers are "best supported by the evidence shown" — your job is to find which choice the data actually backs, not what you remember.',
+      'For written items, answer in Claim → Evidence → Reasoning: state it, quote a number/trend from the stimulus, then explain why it follows.',
     ],
     answeringTechniques: [
-      'Closer shared taxonomic level = more closely related. Two organisms in the same genus are more related than two in the same family.',
+      'Graphs/tables: name the variables and the trend (as X ___, Y ___) before looking at choices.',
+      'Models/equations: check reactants → products and the energy source (e.g., photosynthesis uses light; respiration releases ATP).',
+      'Experiments: identify the independent variable (changed), dependent variable (measured), and the control group before judging validity.',
     ],
     guessingStrategy: [
-      'Prokaryote (no true nucleus) → must be Bacteria or Archaea domain.',
-      'Multicellular, absorbs nutrients externally → Fungi.',
+      'Eliminate any choice that states something the data/model does NOT show — even if it is a true fact in general.',
+      'Watch correlation-vs-causation traps: two things rising together is not proof one causes the other.',
     ],
     processOfElimination: [
-      'Eliminate kingdoms based on cell type (prokaryote vs. eukaryote) and nutrition mode (autotroph vs. heterotroph).',
+      'Cross out choices that reverse cause and effect, or that cite the wrong variable/sphere/trophic level.',
     ],
     timeManagement: [
-      'Classification hierarchy questions are recall-based — answer them immediately without overthinking.',
+      'Stimulus sets cluster several questions on one passage — answer them together so you only read the stimulus once.',
+      'Constructed-response: budget a couple minutes, write a claim sentence, then one evidence sentence with a value from the data.',
     ],
   },
 }
