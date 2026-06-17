@@ -71,12 +71,19 @@ export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
    */
   function getSkillLessonQuestions(skill, lessonIndex, lessonCount) {
     const skills = Array.isArray(skill) ? skill : [skill]
-    const skillPool = pool.filter((q) => skills.includes(q.skill))
-    if (lessonIndex >= lessonCount) {
-      return [...skillPool].sort(() => Math.random() - 0.5)
-    }
-    const chunkSize = Math.ceil(skillPool.length / lessonCount) || 1
-    const slice = skillPool.slice(lessonIndex * chunkSize, lessonIndex * chunkSize + chunkSize)
+    return sliceLessons(pool.filter((q) => skills.includes(q.skill)), lessonIndex, lessonCount)
+  }
+
+  /** Lessons for a sub-topic-defined unit (e.g. the Cell Biology split). */
+  function getSubTopicLessonQuestions(subTopic, lessonIndex, lessonCount) {
+    return sliceLessons(pool.filter((q) => q.subTopic === subTopic), lessonIndex, lessonCount)
+  }
+
+  // Shared slicer for skill/sub-topic units (no written capstone — pure MC).
+  function sliceLessons(p, lessonIndex, lessonCount) {
+    if (lessonIndex >= lessonCount) return [...p].sort(() => Math.random() - 0.5)
+    const chunkSize = Math.ceil(p.length / lessonCount) || 1
+    const slice = p.slice(lessonIndex * chunkSize, lessonIndex * chunkSize + chunkSize)
     return [...slice].sort(() => Math.random() - 0.5).slice(0, lessonSize)
   }
 
@@ -125,6 +132,6 @@ export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
 
   return {
     getExamPool, getLessonQuestions, getByTopic, buildDiagnosticSet, allQuestions,
-    getBySkill, getBySubTopic, getWritten, getSkillLessonQuestions,
+    getBySkill, getBySubTopic, getWritten, getSkillLessonQuestions, getSubTopicLessonQuestions,
   }
 }

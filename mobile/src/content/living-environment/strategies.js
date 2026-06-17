@@ -1,5 +1,5 @@
 export const STRATEGIES = {
-  'le-u1': { // Cell Biology
+  'le-cell-1': { // Cell Structure & Transport (also covers the cell sub-units)
     mentalPrep: [
       'Visualize the cell as a city: nucleus = city hall, mitochondria = power plant, ribosomes = factories.',
       'Remind yourself: prokaryotes (bacteria) have no nucleus; all other living things are eukaryotes.',
@@ -139,31 +139,52 @@ export const STRATEGIES = {
     ],
   },
 
-  'le-u6': { // Reproduction
+  'le-sp': { // Data & Investigations (science practices)
     mentalPrep: [
-      'Separate mitosis (growth/repair, produces 2 identical cells) from meiosis (sex cells, produces 4 genetically unique cells) before every question.',
-      'Remind yourself: asexual reproduction produces clones; sexual reproduction creates genetic variation.',
-      'Recall ploidy: diploid (2n) body cells; haploid (n) gametes (sperm and egg).',
+      'Most LE questions hang on a graph, data table, or diagram — read the stimulus FIRST, name the variables, then read the question.',
+      'For free-response, answer Claim → Evidence → Reasoning: state it, cite a value/trend from the data, then explain why it follows.',
+      'In any experiment, find the independent variable (changed), the dependent variable (measured), and the control before judging it.',
     ],
     answeringTechniques: [
-      'For mitosis vs. meiosis questions, check the outcome: same chromosome number = mitosis; half the number = meiosis.',
-      'Embryonic development questions: fertilization → zygote → differentiation → specialized tissues.',
-      'Genetic variation questions: identify the source — crossing over (meiosis), random assortment, or mutation.',
+      'Graphs/tables: state the trend out loud ("as X increases, Y ___") before scanning the choices.',
+      'A valid experiment changes ONE variable and holds the rest constant; more trials / larger samples = more reliable.',
+      'Underline the data the question points to and match it to the choice it actually supports.',
     ],
     guessingStrategy: [
-      'If a question asks about producing offspring identical to the parent, the answer involves asexual reproduction or mitosis.',
-      'Questions about genetic diversity in offspring almost always point to sexual reproduction or meiosis.',
-      'When unsure about a reproductive process, the answer involving "gametes" or "egg and sperm" points to meiosis.',
+      'Eliminate any choice stating something the data does NOT show — even if it is a true biology fact.',
+      'Beware correlation-vs-causation traps: two things changing together is not proof one causes the other.',
     ],
     processOfElimination: [
-      'Eliminate choices that say mitosis produces four cells — it produces two.',
-      'Drop answers claiming asexual reproduction produces genetic variation — it does not (barring mutation).',
-      'Remove choices that confuse fertilization (gametes joining) with cleavage (early cell division of the zygote).',
+      'Cross out choices that reverse cause and effect or cite the wrong variable.',
+      'Drop "conclusions" that go beyond what the experiment was designed to test.',
     ],
     timeManagement: [
-      'Phase-of-mitosis diagram questions are fast once you recognize the visual pattern — do these quickly.',
-      'Longer scenario questions about development or variation require more careful reading; flag and return if short on time.',
-      'Simple true/false-style questions about mitosis vs. meiosis outcomes are the quickest in this unit.',
+      'Stimulus sets cluster several questions on one passage — read it once and answer them together.',
+      'On constructed response, budget ~2 minutes: one claim sentence + one evidence sentence with a number from the data.',
+    ],
+  },
+
+  'le-lab': { // Lab Skills (NY State labs)
+    mentalPrep: [
+      'Know the 4 state labs cold: Diffusion Through a Membrane, Beaks of Finches, Relationships & Biodiversity, Making Connections.',
+      'Diffusion lab: small molecules (glucose, iodine) cross the membrane; large ones (starch) do not — iodine turns starch blue-black.',
+      'Beaks of Finches models natural selection: variation in "beaks" + competition for seeds → differential survival.',
+    ],
+    answeringTechniques: [
+      'Relationships & Biodiversity: more shared characteristics (structural, molecular/DNA, biochemical) = more closely related.',
+      'Making Connections: identify the variable measured before vs. after activity, and the control group.',
+      'For any lab question, ask what was being tested and what result the data show.',
+    ],
+    guessingStrategy: [
+      'Indicator color change signals a substance is present (iodine → starch; Benedict\'s → simple sugar).',
+      'If a membrane question shows starch staying put while glucose moves, the membrane is selectively permeable.',
+    ],
+    processOfElimination: [
+      'Eliminate choices that claim large molecules diffused through a membrane that blocked them.',
+      'Drop relationship choices based on one trait when molecular (DNA/protein) evidence is the strongest.',
+    ],
+    timeManagement: [
+      'Lab questions reuse a few setups — recognizing the lab tells you the concept instantly.',
     ],
   },
 }

@@ -1,7 +1,7 @@
 export { TOPICS, TOPIC_ICONS, LAB_TYPES, shuffled } from '../questions'
 export { flashcards, FLASHCARD_TOPIC_LIST } from '../flashcards'
 export { ACHIEVEMENTS as achievements } from '../achievements'
-export { UNITS, getLessonQuestions, getByTopic, buildDiagnosticSet } from './units'
+export { UNITS, getLessonQuestions, getByTopic, buildDiagnosticSet, getWritten, getBySkill } from './units'
 export { STRATEGIES as strategies } from './strategies'
 
 import { TOPICS } from '../questions'
@@ -10,12 +10,15 @@ import { allQuestions, getByTopic } from './units'
 export const questions = allQuestions()
 
 export const TOPIC_ORDER = [
-  TOPICS.CELL_BIOLOGY,
+  TOPICS.CELL_STRUCTURE,
+  TOPICS.CELL_ENERGY,
+  TOPICS.BIOCHEM,
+  TOPICS.SCIENCE_PRACTICES,
   TOPICS.GENETICS,
   TOPICS.EVOLUTION,
   TOPICS.ECOLOGY,
   TOPICS.HUMAN_BODY,
-  TOPICS.REPRODUCTION,
+  TOPICS.LAB_SKILLS,
   TOPICS.MIXED_REVIEW,
 ]
 
@@ -31,7 +34,7 @@ const LE_TOPIC_MAP = {
   'Evolution':    TOPICS.EVOLUTION,
   'Ecology':      TOPICS.ECOLOGY,
   'Human Body':   TOPICS.HUMAN_BODY,
-  'Reproduction': TOPICS.REPRODUCTION,
+  'Reproduction': TOPICS.HUMAN_BODY,
   'General':      TOPICS.MIXED_REVIEW,
   'General Review': TOPICS.MIXED_REVIEW,
 }
@@ -40,7 +43,10 @@ const LE_EXAM_POOLS = [leAug2024, leJun2023, leJun2024, leJun2025]
 
 export function getExamContextQuestions(topic) {
   const all = LE_EXAM_POOLS.flatMap((exam) => exam.questions ?? [])
-  const filtered = all.filter((q) => q.context && LE_TOPIC_MAP[q.topic] === topic)
+  // Match the sub-topic units (Cell split) by subTopic; everything else by the
+  // normalized topic map. Skill units (Science Practices / Lab) have no single
+  // topic, so they get no stimulus node — fine, they're skill drills.
+  const filtered = all.filter((q) => q.context && (q.subTopic === topic || LE_TOPIC_MAP[q.topic] === topic))
 
   const groups = {}
   filtered.forEach((q) => {

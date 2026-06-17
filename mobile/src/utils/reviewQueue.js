@@ -83,8 +83,10 @@ export function priority(entry, { now = Date.now(), weakMastery = {}, daysToExam
  */
 export function buildReviewSet({ items = [], subject, topic = null, weakMastery = {}, daysToExam = null, limit = 15 } = {}) {
   const now = Date.now()
+  // Match `topic` against either the normalized topic OR the finer subTopic, so
+  // sub-topic-defined units (e.g. the LE Cell Biology split) resolve correctly.
   const pool = items.filter((e) =>
-    (!subject || e.subject === subject) && (!topic || e.topic === topic)
+    (!subject || e.subject === subject) && (!topic || e.topic === topic || e.subTopic === topic)
   )
   return pool
     .map((e) => ({ e, p: priority(e, { now, weakMastery, daysToExam }) }))

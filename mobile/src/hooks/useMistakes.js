@@ -109,8 +109,11 @@ export function useMistakes() {
 
   const now = Date.now()
   const dueMistakes = mistakes.filter((e) => (e.due ?? 0) <= now)
+  // Count under both the normalized topic and the finer subTopic so an in-unit
+  // "Fix-ups" node resolves whether the unit is topic- or subTopic-defined.
   const mistakesByTopic = mistakes.reduce((acc, e) => {
-    if (e.topic) acc[e.topic] = (acc[e.topic] ?? 0) + 1
+    if (e.topic)    acc[e.topic]    = (acc[e.topic] ?? 0) + 1
+    if (e.subTopic) acc[e.subTopic] = (acc[e.subTopic] ?? 0) + 1
     return acc
   }, {})
 
