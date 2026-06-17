@@ -5,6 +5,7 @@ import { initializeAuth, GoogleAuthProvider } from 'firebase/auth'
 // bundle. Import the RN variant directly to guarantee it's available.
 import { getReactNativePersistence } from '@firebase/auth/dist/rn'
 import { initializeFirestore, persistentLocalCache } from 'firebase/firestore'
+import { getFunctions } from 'firebase/functions'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 
 const firebaseConfig = {
@@ -26,3 +27,4 @@ export const googleProvider = new GoogleAuthProvider()
 export const db = initializeFirestore(app, {
   localCache: persistentLocalCache({}),
 })
+export const functions = getFunctions(app)

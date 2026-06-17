@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView,
-  Animated, StyleSheet, Image, TextInput, Keyboard,
+  Animated, StyleSheet, Image, TextInput, Keyboard, ActivityIndicator,
 } from 'react-native'
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
@@ -12,6 +12,8 @@ import { useRP } from '../hooks/useRP'
 import { useLivesContext } from '../context/LivesContext'
 import { useRewardedAd } from '../hooks/useRewardedAd'
 import { useQuiz } from '../hooks/useQuiz'
+import { useTutor } from '../hooks/useTutor'
+import { useSubscription } from '../context/SubscriptionContext'
 import { appendMistakes, resolveCorrect } from '../hooks/useMistakes'
 import { useDoubleRP } from '../context/DoubleRPContext'
 import { usePetContext } from '../context/PetContext'
@@ -53,6 +55,7 @@ export default function QuizScreen({ route, navigation }) {
   const { ready: adReady, showAd } = useRewardedAd({ onReward: addLife })
   const { checkAndEvolve, triggerReaction, updateQuestProgress, getPetMessage, studyBoost, pet } = usePetContext()
   const { say } = useSpeechContext()
+  const { isSubscribed } = useSubscription()
   const { playCorrect, playWrong } = useQuizSound()
 
   const [showBubble,    setShowBubble]    = useState(false)
@@ -423,6 +426,16 @@ export default function QuizScreen({ route, navigation }) {
             <ExplanationBlock question={currentQuestion} C={C} />
           ) : <View style={{ height: 16 }} />}
 
+          {!isCorrect && selected !== null && (
+            <TutorButton
+              question={currentQuestion}
+              wrongIdx={selected}
+              say={say}
+              C={C}
+              isSubscribed={isSubscribed}
+            />
+          )}
+
           <TouchableOpacity
             style={duoBtn(isCorrect ? C.brand : C.wrong, isCorrect ? C.brandDark : C.wrongDark)}
             onPress={nextQuestion}
@@ -456,6 +469,66 @@ export default function QuizScreen({ route, navigation }) {
         />
       )}
     </View>
+  )
+}
+
+// ── AI tutor: "Why was I wrong?" ──────────────────────────────────────────────
+// Calls the grounded explainMistake Cloud Function. The pet voices the nudge;
+// the full why-wrong/why-right explanation reveals inline.
+function TutorButton({ question, wrongIdx, say, C, isSubscribed }) {
+  const { loading, data, error, explain } = useTutor()
+
+  // Premium gate: non-subscribers see a locked upsell, not the AI call. The
+  // Cloud Function also enforces a per-user daily cap as a cost backstop.
+  if (!isSubscribed) {
+    return (
+      <TouchableOpacity
+        onPress={() => say('💜 AI explanations are a Premium feature — unlock them in the Profile tab.')}
+        style={{
+          marginBottom: 12, paddingVertical: 12, borderRadius: 12,
+          borderWidth: 1.5, borderColor: C.purple, alignItems: 'center',
+          flexDirection: 'row', justifyContent: 'center', gap: 8,
+        }}
+      >
+        <Text style={[T.btn, { color: C.purple }]}>🔒 Why was I wrong? · Premium</Text>
+      </TouchableOpacity>
+    )
+  }
+
+  const onPress = async () => {
+    const res = await explain(question, wrongIdx)
+    if (res?.nudge) say(`🤔 ${res.nudge}`)
+  }
+
+  if (data) {
+    return (
+      <View style={{ marginBottom: 12, padding: 12, borderRadius: 12, backgroundColor: C.surface }}>
+        <Text style={[T.label, { color: C.brand, marginBottom: 6 }]}>🤔 Coach</Text>
+        <Text style={[T.body, { color: C.text, marginBottom: data.method ? 8 : 0 }]}>
+          {data.explanation}
+        </Text>
+        {data.method ? (
+          <Text style={[T.body, { color: C.textDim, fontStyle: 'italic' }]}>{data.method}</Text>
+        ) : null}
+      </View>
+    )
+  }
+
+  return (
+    <TouchableOpacity
+      onPress={onPress}
+      disabled={loading}
+      style={{
+        marginBottom: 12, paddingVertical: 12, borderRadius: 12,
+        borderWidth: 1.5, borderColor: C.brand, alignItems: 'center',
+        flexDirection: 'row', justifyContent: 'center', gap: 8, opacity: loading ? 0.7 : 1,
+      }}
+    >
+      {loading && <ActivityIndicator size="small" color={C.brand} />}
+      <Text style={[T.btn, { color: C.brand }]}>
+        {loading ? 'Thinking…' : error ? 'Try again' : '🤔 Why was I wrong?'}
+      </Text>
+    </TouchableOpacity>
   )
 }
 
