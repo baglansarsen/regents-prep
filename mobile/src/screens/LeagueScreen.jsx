@@ -9,7 +9,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import {
   View, Text, TouchableOpacity, FlatList,
-  StyleSheet, Animated, ActivityIndicator,
+  StyleSheet, Animated, ActivityIndicator, RefreshControl,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
@@ -250,6 +250,7 @@ export default function LeagueScreen({ navigation }) {
           keyExtractor={(item) => item.key}
           contentContainerStyle={s.list}
           showsVerticalScrollIndicator={false}
+          refreshControl={<RefreshControl refreshing={false} onRefresh={refresh} tintColor={C.brand} />}
           renderItem={({ item }) => {
             if (item.type === 'zone') {
               return <ZoneLabel label={item.label} color={item.color} />

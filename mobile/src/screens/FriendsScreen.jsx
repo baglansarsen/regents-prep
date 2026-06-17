@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, StyleSheet,
-  RefreshControl, Animated,
+  RefreshControl, Animated, Alert,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
@@ -11,11 +11,12 @@ import { useChallenges } from '../hooks/useChallenges'
 import { useLeaderboard } from '../hooks/useLeaderboard'
 import { useFriendsLeaderboard } from '../hooks/useFriendsLeaderboard'
 import { T, cardShadow } from '../styles/duo'
-import { useLeague, TIER_META, msUntilReset, formatCountdown } from '../hooks/useLeague'
+import { useLeague, TIER_META } from '../hooks/useLeague'
 
 const TABS = [
   { key: 'Leaderboard', icon: '🏆' },
   { key: 'Friends',     icon: '👥' },
+  { key: 'Battles',     icon: '⚔️' },
   { key: 'Activity',    icon: '📡' },
 ]
 
@@ -244,30 +245,6 @@ function RankRow({ entry, rank, uid, C, s, index = 0, onPress }) {
 }
 
 // ── League entry banner ───────────────────────────────────────────────────────
-function LeagueBanner({ tier, C, s, onPress }) {
-  const meta = TIER_META[tier] ?? TIER_META.bronze
-  const [countdown, setCountdown] = React.useState(() => formatCountdown(msUntilReset()))
-  React.useEffect(() => {
-    const id = setInterval(() => setCountdown(formatCountdown(msUntilReset())), 60_000)
-    return () => clearInterval(id)
-  }, [])
-  return (
-    <TouchableOpacity
-      style={[s.leagueBanner, { borderColor: meta.color + '60', backgroundColor: meta.color + '15' }]}
-      onPress={onPress}
-      activeOpacity={0.8}
-    >
-      <Text style={{ fontSize: 28 }}>{meta.emoji}</Text>
-      <View style={{ flex: 1 }}>
-        <Text style={[T.body, { color: meta.color, fontFamily: 'Nunito_800ExtraBold' }]}>
-          {meta.label} League
-        </Text>
-        <Text style={[T.small, { color: C.textMuted }]}>Resets in {countdown}</Text>
-      </View>
-      <Text style={[T.h3, { color: C.textMuted }]}>›</Text>
-    </TouchableOpacity>
-  )
-}
 
 // ── Main screen ───────────────────────────────────────────────────────────────
 export default function FriendsScreen({ navigation, route }) {
@@ -277,16 +254,24 @@ export default function FriendsScreen({ navigation, route }) {
   const s = makeStyles(C)
 
   const [tab,        setTab]        = useState(route?.params?.initialTab ?? 'Leaderboard')
-  const [lbMode,     setLbMode]     = useState('week')   // 'week' | 'school'
+  const [lbMode,     setLbMode]     = useState('friends')   // 'friends' | 'school' | 'league'
   const [refreshing, setRefreshing] = useState(false)
   // key increments on refresh so Podium unmounts/remounts → animation replays
   const [podiumKey, setPodiumKey]   = useState(0)
 
-  const { friends, incomingRequests, friendCode, feed, acceptRequest, declineRequest, refreshFeed, refreshRequests, refreshFriends } = useFriends(uid, user)
-  const { incoming: incomingBattles, refresh: refreshBattles } = useChallenges(uid, user)
+  const { friends, incomingRequests, sentRequests, friendCode, feed, acceptRequest, declineRequest, removeFriend, refreshFeed, refreshRequests, refreshFriends } = useFriends(uid, user)
+  const { incoming: incomingBattles, completed: completedBattles, refresh: refreshBattles } = useChallenges(uid, user)
   const { leaderboard, school, loading: schoolLoading, refresh: refreshSchool } = useLeaderboard(uid)
   const { weeklyRanking, loading: weekLoading, refresh: refreshWeekly } = useFriendsLeaderboard(uid, user)
-  const { tier } = useLeague(uid)
+  const { tier, members: leagueMembers, refresh: refreshLeague } = useLeague(uid)
+  const leagueMeta = TIER_META[tier] ?? TIER_META.bronze
+
+  function confirmRemoveFriend(f) {
+    Alert.alert('Remove Friend', `Remove ${f.displayName ?? 'this friend'}?`, [
+      { text: 'Cancel', style: 'cancel' },
+      { text: 'Remove', style: 'destructive', onPress: () => removeFriend(f.id ?? f.uid) },
+    ])
+  }
 
   const top3     = weeklyRanking.slice(0, 3)
   const restList = weeklyRanking.slice(3)
@@ -300,7 +285,7 @@ export default function FriendsScreen({ navigation, route }) {
 
   async function handleRefresh() {
     setRefreshing(true)
-    await Promise.all([refreshWeekly(), refreshSchool(), refreshFeed(), refreshRequests(), refreshFriends(), refreshBattles()])
+    await Promise.all([refreshWeekly(), refreshSchool(), refreshFeed(), refreshRequests(), refreshFriends(), refreshBattles(), refreshLeague()])
     setPodiumKey((k) => k + 1)   // remount Podium → replay animation
     setRefreshing(false)
   }
@@ -373,27 +358,30 @@ export default function FriendsScreen({ navigation, route }) {
         {tab === 'Leaderboard' && (
           <View style={s.list}>
 
-            {/* League banner lives here — relevant to leaderboard */}
-            <LeagueBanner tier={tier} C={C} s={s} onPress={() => navigation.navigate('League')} />
-
-            {/* This Week / All Time toggle */}
+            {/* Friends · School · League segment */}
             <View style={s.modeToggle}>
               <TouchableOpacity
-                style={[s.modeBtn, lbMode === 'week' && s.modeBtnActive]}
-                onPress={() => setLbMode('week')}
+                style={[s.modeBtn, lbMode === 'friends' && s.modeBtnActive]}
+                onPress={() => setLbMode('friends')}
               >
-                <Text style={[s.modeBtnText, lbMode === 'week' && s.modeBtnTextActive]}>🔥 This Week</Text>
+                <Text style={[s.modeBtnText, lbMode === 'friends' && s.modeBtnTextActive]}>🔥 Friends</Text>
               </TouchableOpacity>
               <TouchableOpacity
                 style={[s.modeBtn, lbMode === 'school' && s.modeBtnActive]}
                 onPress={() => setLbMode('school')}
               >
-                <Text style={[s.modeBtnText, lbMode === 'school' && s.modeBtnTextActive]}>🏫 All Time</Text>
+                <Text style={[s.modeBtnText, lbMode === 'school' && s.modeBtnTextActive]}>🏫 School</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={[s.modeBtn, lbMode === 'league' && s.modeBtnActive]}
+                onPress={() => setLbMode('league')}
+              >
+                <Text style={[s.modeBtnText, lbMode === 'league' && s.modeBtnTextActive]}>{leagueMeta.emoji} League</Text>
               </TouchableOpacity>
             </View>
 
-            {/* ── THIS WEEK ── */}
-            {lbMode === 'week' && (
+            {/* ── FRIENDS (this week) ── */}
+            {lbMode === 'friends' && (
               <>
                 <Text style={[T.label, { color: C.textMuted, textAlign: 'center', marginBottom: 4 }]}>
                   Friends + You · {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric' })} week
@@ -483,6 +471,61 @@ export default function FriendsScreen({ navigation, route }) {
                 )}
               </>
             )}
+
+            {/* ── LEAGUE (weekly tier) ── */}
+            {lbMode === 'league' && (
+              <>
+                <TouchableOpacity
+                  style={[s.leagueBanner, { borderColor: leagueMeta.color + '60', backgroundColor: leagueMeta.color + '15' }]}
+                  onPress={() => navigation.navigate('League')}
+                  activeOpacity={0.85}
+                >
+                  <Text style={{ fontSize: 28 }}>{leagueMeta.emoji}</Text>
+                  <View style={{ flex: 1 }}>
+                    <Text style={[T.body, { color: leagueMeta.color, fontFamily: 'Nunito_800ExtraBold' }]}>
+                      {leagueMeta.label} League
+                    </Text>
+                    <Text style={[T.small, { color: C.textMuted }]}>Top finishers promote · bottom drop · resets Monday</Text>
+                  </View>
+                  <Text style={[T.label, { color: C.textDim, textAlign: 'right', textTransform: 'none', letterSpacing: 0 }]}>{'Zones\n›'}</Text>
+                </TouchableOpacity>
+
+                {leagueMembers.length === 0 && (
+                  <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginVertical: 24 }]}>
+                    Earn RP this week to enter the {leagueMeta.label} League standings.
+                  </Text>
+                )}
+                {leagueMembers.map((entry, i) => {
+                  const isSelf = entry.uid === uid
+                  const medal  = i < 3 ? MEDALS[i] : null
+                  return (
+                    <TouchableOpacity
+                      key={entry.uid}
+                      style={[s.lbRow, isSelf && s.lbRowSelf, cardShadow(C.shadow)]}
+                      onPress={() => navigateToProfile(entry)}
+                      activeOpacity={0.75}
+                    >
+                      {medal
+                        ? <Text style={s.lbMedalEmoji}>{medal.emoji}</Text>
+                        : <Text style={[s.lbRank, { color: C.textMuted }]}>#{i + 1}</Text>}
+                      <Avatar name={entry.displayName} size={36} C={C} />
+                      <View style={{ flex: 1 }}>
+                        <Text style={[s.lbName, { color: isSelf ? C.brand : C.text }]} numberOfLines={1}>
+                          {entry.displayName ?? 'Student'}
+                        </Text>
+                      </View>
+                      <Text style={s.lbRP}>⭐ {entry.weeklyXP ?? 0}</Text>
+                      <Text style={[s.lbChevron, { color: C.textDim }]}>›</Text>
+                    </TouchableOpacity>
+                  )
+                })}
+                <TouchableOpacity onPress={() => navigation.navigate('League')} activeOpacity={0.7}>
+                  <Text style={[T.label, { color: C.brand, textAlign: 'center', marginTop: 8, textTransform: 'none', letterSpacing: 0 }]}>
+                    View promotion zones ›
+                  </Text>
+                </TouchableOpacity>
+              </>
+            )}
           </View>
         )}
 
@@ -516,6 +559,13 @@ export default function FriendsScreen({ navigation, route }) {
               </View>
             )}
 
+            {/* Outgoing requests you've sent (awaiting acceptance) */}
+            {sentRequests.length > 0 && (
+              <Text style={[T.label, { color: C.textMuted, marginBottom: 6, textTransform: 'none', letterSpacing: 0 }]}>
+                ⏳ Pending: {sentRequests.map((r) => r.toName ?? 'Friend').join(', ')}
+              </Text>
+            )}
+
             {friends.length === 0 && (
               <View style={{ paddingVertical: 40, alignItems: 'center' }}>
                 <Text style={{ fontSize: 48, marginBottom: 12 }}>🤝</Text>
@@ -530,6 +580,7 @@ export default function FriendsScreen({ navigation, route }) {
                 <TouchableOpacity
                   style={s.friendCardMain}
                   onPress={() => navigateToProfile({ uid: f.id ?? f.uid, displayName: f.displayName })}
+                  onLongPress={() => confirmRemoveFriend(f)}
                   activeOpacity={0.8}
                 >
                   <View style={s.friendLeft}>
@@ -569,6 +620,73 @@ export default function FriendsScreen({ navigation, route }) {
                 </View>
               </View>
             ))}
+          </View>
+        )}
+
+        {/* ── BATTLES TAB ── */}
+        {tab === 'Battles' && (
+          <View style={s.list}>
+            {incomingBattles.length === 0 && completedBattles.length === 0 && (
+              <View style={{ paddingVertical: 40, alignItems: 'center' }}>
+                <Text style={{ fontSize: 48, marginBottom: 12 }}>⚔️</Text>
+                <Text style={[T.h3, { color: C.text, textAlign: 'center', marginBottom: 4 }]}>No Battles Yet</Text>
+                <Text style={[T.small, { color: C.textMuted, textAlign: 'center' }]}>
+                  Challenge a friend from the Friends tab to start a battle
+                </Text>
+              </View>
+            )}
+
+            {/* Pending — battles waiting for you to play */}
+            {incomingBattles.length > 0 && (
+              <Text style={[T.label, { color: C.textMuted, marginBottom: 2 }]}>Your turn</Text>
+            )}
+            {incomingBattles.map((b) => (
+              <TouchableOpacity
+                key={b.id}
+                style={[s.lbRow, { borderColor: C.brand + '60' }, cardShadow(C.shadow)]}
+                activeOpacity={0.8}
+                onPress={() => navigation.navigate('Challenge', { challengeId: b.id, friendName: b.fromName })}
+              >
+                <Text style={{ fontSize: 20, width: 32, textAlign: 'center' }}>⚔️</Text>
+                <Text style={[s.lbName, { color: C.text, flex: 1 }]} numberOfLines={1}>{b.fromName} challenged you</Text>
+                <View style={[s.battlePill, { backgroundColor: C.brand }]}>
+                  <Text style={[s.battlePillText, { color: '#fff' }]}>Play</Text>
+                </View>
+              </TouchableOpacity>
+            ))}
+
+            {/* Completed — outcomes */}
+            {completedBattles.length > 0 && (
+              <Text style={[T.label, { color: C.textMuted, marginBottom: 2, marginTop: 8 }]}>Results</Text>
+            )}
+            {completedBattles.map((b) => {
+              const iAmFrom    = b.fromUid === uid
+              const myScore    = iAmFrom ? b.fromScore : b.toScore
+              const theirScore = iAmFrom ? b.toScore : b.fromScore
+              const oppName    = iAmFrom ? b.toName : b.fromName
+              const oppUid     = iAmFrom ? b.toUid : b.fromUid
+              const outcome    = b.winnerUid === 'tie' ? 'tie' : b.winnerUid === uid ? 'won' : 'lost'
+              const icon = outcome === 'won' ? '🏆' : outcome === 'tie' ? '🤝' : '😤'
+              const color = outcome === 'won' ? C.correct : outcome === 'tie' ? C.textMuted : C.wrong
+              return (
+                <View key={b.id} style={[s.lbRow, cardShadow(C.shadow)]}>
+                  <Text style={{ fontSize: 20, width: 32, textAlign: 'center' }}>{icon}</Text>
+                  <View style={{ flex: 1 }}>
+                    <Text style={[s.lbName, { color: C.text }]} numberOfLines={1}>vs {oppName ?? 'Friend'}</Text>
+                    <Text style={[T.small, { color }]}>
+                      {outcome === 'won' ? 'You won' : outcome === 'tie' ? 'Tie' : 'You lost'} · {myScore ?? 0}–{theirScore ?? 0}
+                    </Text>
+                  </View>
+                  <TouchableOpacity
+                    style={[s.battlePill, { backgroundColor: C.surface2, borderWidth: 1, borderColor: C.border }]}
+                    onPress={() => navigation.navigate('Challenge', { friendUid: oppUid, friendName: oppName })}
+                    activeOpacity={0.8}
+                  >
+                    <Text style={[s.battlePillText, { color: C.text }]}>Rematch</Text>
+                  </TouchableOpacity>
+                </View>
+              )
+            })}
           </View>
         )}
 
@@ -686,6 +804,8 @@ function makeStyles(C) {
     requestBtns:   { flexDirection: 'row', gap: 6 },
     requestBtn:    { width: 36, height: 36, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
     requestBtnText:{ fontFamily: 'Nunito_800ExtraBold', fontSize: 16 },
+    battlePill:    { paddingVertical: 8, paddingHorizontal: 16, borderRadius: 12, alignItems: 'center', justifyContent: 'center' },
+    battlePillText:{ fontFamily: 'Nunito_800ExtraBold', fontSize: 12 },
 
     tabRow:        { flexDirection: 'row', marginHorizontal: 16, marginBottom: 10, backgroundColor: C.surface2, borderRadius: 14, padding: 4, gap: 2 },
     tabBtn:        { flex: 1, paddingVertical: 8, borderRadius: 11, alignItems: 'center', gap: 1 },

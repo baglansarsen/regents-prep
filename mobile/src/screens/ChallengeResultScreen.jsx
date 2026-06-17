@@ -1,15 +1,31 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import { doc, onSnapshot } from 'firebase/firestore'
+import { db } from '../firebase'
 import { useTheme } from '../context/ThemeContext'
 
 export default function ChallengeResultScreen({ route, navigation }) {
-  const { friendName, score, friendScore } = route.params ?? {}
+  const { challengeId, friendName, score } = route.params ?? {}
   const { C } = useTheme()
   const s = makeStyles(C)
 
+  // Start with whatever the navigator passed; for the challenger this is null
+  // (pending). If we have a challengeId, subscribe so the screen resolves live
+  // the moment the friend finishes their round — no need to back out and return.
+  const [friendScore, setFriendScore] = useState(route.params?.friendScore ?? null)
+
+  useEffect(() => {
+    if (!challengeId || friendScore != null) return
+    const unsub = onSnapshot(doc(db, 'challenges', challengeId), (snap) => {
+      const data = snap.data()
+      if (data && data.status === 'complete') setFriendScore(data.toScore ?? 0)
+    }, () => {})
+    return () => unsub()
+  }, [challengeId, friendScore])
+
   const pending = friendScore === null || friendScore === undefined
-  const won = !pending && score > friendScore
+  const won  = !pending && score > friendScore
   const tied = !pending && score === friendScore
 
   return (

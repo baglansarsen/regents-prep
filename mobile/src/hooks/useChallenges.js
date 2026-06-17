@@ -35,15 +35,16 @@ export function useChallenges(uid, user) {
       )
       setIncoming(incSnap.docs.map((d) => ({ id: d.id, ...d.data() })))
 
-      // Completed battles I started (so the challenger sees the outcome).
-      const doneSnap = await getDocs(
-        query(
-          collection(db, 'challenges'),
-          where('fromUid', '==', uid),
-          where('status', '==', 'complete'),
-        )
-      )
-      setCompleted(doneSnap.docs.map((d) => ({ id: d.id, ...d.data() })))
+      // All completed battles I'm in — both ones I started and ones sent to me —
+      // so the Battles tab shows my full history, not just challenges I created.
+      const [fromSnap, toSnap] = await Promise.all([
+        getDocs(query(collection(db, 'challenges'), where('fromUid', '==', uid), where('status', '==', 'complete'))),
+        getDocs(query(collection(db, 'challenges'), where('toUid', '==', uid),   where('status', '==', 'complete'))),
+      ])
+      const byId = new Map()
+      for (const d of [...fromSnap.docs, ...toSnap.docs]) byId.set(d.id, { id: d.id, ...d.data() })
+      const ms = (t) => (t && typeof t.toMillis === 'function' ? t.toMillis() : 0)
+      setCompleted([...byId.values()].sort((a, b) => ms(b.completedAt) - ms(a.completedAt)))
     } catch (e) {
       console.error('[useChallenges] load error:', e.message)
     }

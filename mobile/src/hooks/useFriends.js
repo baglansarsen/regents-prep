@@ -273,9 +273,24 @@ export function useFriends(uid, user) {
     } catch {}
   }, [])
 
+  // Remove a friend from both sides (mirrors the bidirectional accept write).
+  const removeFriend = useCallback(async (friendUid) => {
+    if (!uid || !friendUid) return 'error'
+    try {
+      await deleteDoc(doc(db, 'users', uid, 'friends', friendUid))
+      // Reciprocal removal from the friend's subtree (allowed: docId === own uid).
+      await deleteDoc(doc(db, 'users', friendUid, 'friends', uid))
+      loadFriends()
+      return 'removed'
+    } catch (e) {
+      console.error('[useFriends] removeFriend error:', e.message)
+      return 'error'
+    }
+  }, [uid])
+
   return {
     friends, incomingRequests, sentRequests, friendCode, feed,
-    addByCode, addError, sendRequestByUid, acceptRequest, declineRequest,
+    addByCode, addError, sendRequestByUid, acceptRequest, declineRequest, removeFriend,
     refreshFeed: loadFeed, refreshRequests: loadRequests, refreshFriends: loadFriends,
   }
 }

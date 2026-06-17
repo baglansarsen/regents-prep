@@ -66,14 +66,15 @@ export default function ChallengeScreen({ route, navigation }) {
   const finish = useCallback(async (finalScore) => {
     setPhase('submitting')
     if (isResponder) {
-      const result = await submitResult(challenge, finalScore)
+      await submitResult(challenge, finalScore)
       navigation.replace('ChallengeResult', {
+        challengeId: challenge?.id ?? challengeId,
         friendName: challenge?.fromName ?? friendName ?? 'Friend',
         score: finalScore,
         friendScore: challenge?.fromScore ?? 0,
       })
     } else {
-      await createChallenge({
+      const newId = await createChallenge({
         toUid: friendUid,
         toName: friendName,
         subject: battleSubject,
@@ -81,12 +82,13 @@ export default function ChallengeScreen({ route, navigation }) {
         fromScore: finalScore,
       })
       navigation.replace('ChallengeResult', {
+        challengeId: newId,   // lets the result screen live-update when the friend finishes
         friendName: friendName ?? 'Friend',
         score: finalScore,
         friendScore: null,   // pending until the friend plays
       })
     }
-  }, [isResponder, challenge, friendUid, friendName, battleSubject, questions, createChallenge, submitResult, navigation])
+  }, [isResponder, challenge, challengeId, friendUid, friendName, battleSubject, questions, createChallenge, submitResult, navigation])
 
   function onAnswer(choiceIdx) {
     if (selected !== null) return
