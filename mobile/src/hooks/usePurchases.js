@@ -255,14 +255,32 @@ export function usePurchases(uid) {
     }
     setLoading(true)
     try {
-      // Tips are consumables — must query NON_SUBSCRIPTION (getProducts defaults to SUBSCRIPTION).
-      const products = await Purchases.getProducts([productId], NON_SUBSCRIPTION)
-      if (!products?.length) throw new Error('Donation product not found')
+      // Tips are consumables — query NON_SUBSCRIPTION (getProducts defaults to
+      // SUBSCRIPTION). On iOS the category is effectively ignored by StoreKit, so
+      // fall back to a category-less query if the first comes back empty.
+      let products = await Purchases.getProducts([productId], NON_SUBSCRIPTION)
+      if (!products?.length) {
+        console.warn(`[Purchases] donate: 0 products for "${productId}" with NON_SUBSCRIPTION; retrying without category`)
+        products = await Purchases.getProducts([productId])
+      }
+      console.log(`[Purchases] donate: "${productId}" resolved ${products?.length ?? 0} product(s)`)
+      if (!products?.length) {
+        // Genuinely not returned by the store. This is a store-config / run-mode
+        // issue, not a purchase failure — surface it as such so it's diagnosable.
+        throw new Error(
+          `The store didn't return "${productId}". On a TestFlight/release build this means the ` +
+          `consumable isn't approved in App Store Connect (or the Paid Apps Agreement isn't active). ` +
+          `From Xcode, run the scheme that loads Products.storekit.`,
+        )
+      }
       await Purchases.purchaseStoreProduct(products[0])
       Alert.alert('Thank you! ☕', 'Your support means the world and helps keep this app free for students.')
       return true
     } catch (e) {
-      if (!e.userCancelled) Alert.alert('Purchase Failed', e.message)
+      if (!e.userCancelled) {
+        console.warn('[Purchases] donate error:', e?.code ?? '', e?.message)
+        Alert.alert('Purchase Failed', e.message)
+      }
       return false
     } finally {
       setLoading(false)
@@ -277,10 +295,13 @@ export function usePurchases(uid) {
     if (isWeb || !Purchases || !RC_CONFIGURED) return []
     try {
       // Tip products are consumables — query NON_SUBSCRIPTION so prices resolve.
-      const products = await Purchases.getProducts(ids, NON_SUBSCRIPTION)
+      // Fall back to a category-less query if empty (iOS ignores the category).
+      let products = await Purchases.getProducts(ids, NON_SUBSCRIPTION)
+      if (!products?.length) products = await Purchases.getProducts(ids)
+      console.log(`[Purchases] fetchProducts: requested ${ids.length}, resolved ${products?.length ?? 0} → [${(products ?? []).map((p) => p.identifier).join(', ')}]`)
       return products ?? []
     } catch (e) {
-      console.warn('[Purchases] fetchProducts error:', e)
+      console.warn('[Purchases] fetchProducts error:', e?.code ?? '', e?.message)
       return []
     }
   }, [])
