@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-jun-2019",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The details in the opening paragraph describing Marvin's preparation and excitement for going Outside build suspense and create a feeling of anticipation, making Choice C correct.",
-      "diveDeep": "This question tests the Regents skill of analyzing how descriptive details establish atmosphere or tone. Choice A is incorrect because the presence of his father and the busy Colony surroundings negate a sense of isolation or solitude. Choice B is incorrect because nature's randomness is not mentioned in these highly controlled conditions. Choice D is incorrect because the family's importance is not the focus of the opening description. A common student mistake is choosing A due to the mention of the dark, quiet space, but the text emphasizes Marvin's eagerness to travel. The strategy is to identify active anticipation words (like 'never been outside', 'impatiently waiting') to select the correct choice."
+      "diveDeep": "This question tests the Regents skill of analyzing how descriptive details establish atmosphere or tone. Choice A is incorrect because the presence of his father and the busy Colony surroundings negate a sense of isolation or solitude. Choice B is incorrect because nature's randomness is not mentioned in these highly controlled conditions. Choice D is incorrect because the family's importance is not the focus of the opening description. A common student mistake is choosing A due to the mention of the dark, quiet space, but the text emphasizes Marvin's eagerness to travel. The strategy is to identify active anticipation words (like 'never been outside', 'impatiently waiting') to select the correct choice.",
+      "topic": "Close Reading"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Lines 12 through 19 detail the double doors, the vacuum seal, and the protective suits needed to venture out, establishing the inhospitable conditions of the Outside (Choice B).",
-      "diveDeep": "This question tests the Regents skill of drawing inferences about settings. Choice A is incorrect because Marvin is eager rather than having misgivings. Choice C is incorrect because the father starts the motor calmly, showing no fear. Choice D is incorrect because Marvin is in a pressurized cabin, so he feels no unpleasant physical sensations yet. Students often select D because they confuse the description of the vacuum outside with the child's actual sensations. The strategy is to recognize that the details (no air, pressurized airlocks) describe the hostile environment itself."
+      "diveDeep": "This question tests the Regents skill of drawing inferences about settings. Choice A is incorrect because Marvin is eager rather than having misgivings. Choice C is incorrect because the father starts the motor calmly, showing no fear. Choice D is incorrect because Marvin is in a pressurized cabin, so he feels no unpleasant physical sensations yet. Students often select D because they confuse the description of the vacuum outside with the child's actual sensations. The strategy is to recognize that the details (no air, pressurized airlocks) describe the hostile environment itself.",
+      "topic": "Close Reading"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The statement signals a shift in Marvin's perspective as he realizes that the cold, artificial Colony is his normal reality, marking a change in his understanding (Choice A).",
-      "diveDeep": "This question tests the Regents skill of tracking character development. Choice B is incorrect because Marvin is expressing surprise at his own thoughts, not embracing the unknown. Choice C is incorrect because he does not object to his father's actions. Choice D is incorrect because they are not in danger of needing a rescue. A common error is choosing B because it sounds like a positive character growth choice, but the quote specifically highlights a bizarre realization about what constitutes 'normal' to him. The strategy is to trace how the realization changes Marvin's worldview."
+      "diveDeep": "This question tests the Regents skill of tracking character development. Choice B is incorrect because Marvin is expressing surprise at his own thoughts, not embracing the unknown. Choice C is incorrect because he does not object to his father's actions. Choice D is incorrect because they are not in danger of needing a rescue. A common error is choosing B because it sounds like a positive character growth choice, but the quote specifically highlights a bizarre realization about what constitutes 'normal' to him. The strategy is to trace how the realization changes Marvin's worldview.",
+      "topic": "Close Reading"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Describing the moon's surface as a 'jumbled wasteland of craters, mountain ranges, and ravines' emphasizes the desolation of the Outside (Choice B).",
-      "diveDeep": "This question tests the Regents skill of analyzing the connotation of descriptive language. Choice A is incorrect because 'futility' implies pointlessness, which is not supported. Choice C is incorrect because the landscape describes the physical setting, not Marvin's future. Choice D is incorrect because it is a description of the landscape, not Marvin's childhood memories. Students often get confused by the word 'wasteland' and pick A, but the visual description of craters and ravines directly supports physical desolation. The strategy is to match physical adjectives (craters, ravines) to physical synonyms (desolation)."
+      "diveDeep": "This question tests the Regents skill of analyzing the connotation of descriptive language. Choice A is incorrect because 'futility' implies pointlessness, which is not supported. Choice C is incorrect because the landscape describes the physical setting, not Marvin's future. Choice D is incorrect because it is a description of the landscape, not Marvin's childhood memories. Students often get confused by the word 'wasteland' and pick A, but the visual description of craters and ravines directly supports physical desolation. The strategy is to match physical adjectives (craters, ravines) to physical synonyms (desolation).",
+      "topic": "Close Reading"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The 'glare' refers to the bright, shining image of the Earth in the lunar sky, representing Marvin's romantic vision of the Earth as a beautiful, lost homeland (Choice A).",
-      "diveDeep": "This question tests symbolic interpretation. Choice B is incorrect because Marvin is too young to have an obsession with its history. Choice C is incorrect because he has never been to Earth, so he cannot have a memory of it. Choice D is incorrect because the text describes the Earth as a lost world, not expressing active faith in its immediate restoration. Common student errors include selecting C by assuming he once lived there. The strategy is to recognize that he only knows Earth through stories, making it a romanticized vision."
+      "diveDeep": "This question tests symbolic interpretation. Choice B is incorrect because Marvin is too young to have an obsession with its history. Choice C is incorrect because he has never been to Earth, so he cannot have a memory of it. Choice D is incorrect because the text describes the Earth as a lost world, not expressing active faith in its immediate restoration. Common student errors include selecting C by assuming he once lived there. The strategy is to recognize that he only knows Earth through stories, making it a romanticized vision.",
+      "topic": "Close Reading"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Lines 68 through 70 detail the things Marvin has never experienced, such as wind, rain, and open skies, emphasizing his sense of deprivation (Choice A).",
-      "diveDeep": "This question tests the Regents skill of identifying character circumstances through detail. Choice B is incorrect because he is realizing what he lacks, which is the opposite of appreciation. Choice C is incorrect because he is reflecting on things he has missed, not actively fearing destruction in this moment. Choice D is incorrect because he cannot recall things he has never experienced. Students often choose B because the description sounds beautiful, but they fail to notice he has been deprived of these experiences. The strategy is to look for negative verbs like 'never' and 'could not.'"
+      "diveDeep": "This question tests the Regents skill of identifying character circumstances through detail. Choice B is incorrect because he is realizing what he lacks, which is the opposite of appreciation. Choice C is incorrect because he is reflecting on things he has missed, not actively fearing destruction in this moment. Choice D is incorrect because he cannot recall things he has never experienced. Students often choose B because the description sounds beautiful, but they fail to notice he has been deprived of these experiences. The strategy is to look for negative verbs like 'never' and 'could not.'",
+      "topic": "Close Reading"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The text explains that the Earth was ruined by radioactive fallout from a war, confirming that the planet was damaged by human actions (Choice C).",
-      "diveDeep": "This question tests the Regents skill of identifying cause-and-effect relationships. Choice A is incorrect because climate change is not mentioned as the cause of the radioactive ruin. Choice B is incorrect because cosmic instability implies space anomalies, which is inaccurate. Choice D is incorrect because war is not a natural occurrence. Students often choose A because environmental damage is a common theme, but they must align the answer with the text's reference to nuclear war. The strategy is to associate 'fallout' and 'war' with human agency."
+      "diveDeep": "This question tests the Regents skill of identifying cause-and-effect relationships. Choice A is incorrect because climate change is not mentioned as the cause of the radioactive ruin. Choice B is incorrect because cosmic instability implies space anomalies, which is inaccurate. Choice D is incorrect because war is not a natural occurrence. Students often choose A because environmental damage is a common theme, but they must align the answer with the text's reference to nuclear war. The strategy is to associate 'fallout' and 'war' with human agency.",
+      "topic": "Close Reading"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The description of the radioactive fires dying down and the winds blowing away the ash conveys feelings of cleansing and renewal, making Choice B correct.",
-      "diveDeep": "This question tests the Regents skill of identifying tone and emotional response in imagery. Choice A is incorrect because the dying fires and clearing skies represent hope, not fear or disappointment. Choice C is incorrect because the passage describes natural processes clearing the waste, not human efforts at preservation. Choice D is incorrect because the process is peaceful and slow, not confusing. A common mistake is selecting A because of the mention of radioactive waste, but the focus of these lines is the clearing of that waste. The strategy is to analyze the optimistic connotations of 'winds blowing away the ash.'"
+      "diveDeep": "This question tests the Regents skill of identifying tone and emotional response in imagery. Choice A is incorrect because the dying fires and clearing skies represent hope, not fear or disappointment. Choice C is incorrect because the passage describes natural processes clearing the waste, not human efforts at preservation. Choice D is incorrect because the process is peaceful and slow, not confusing. A common mistake is selecting A because of the mention of radioactive waste, but the focus of these lines is the clearing of that waste. The strategy is to analyze the optimistic connotations of 'winds blowing away the ash.'",
+      "topic": "Close Reading"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The quote in Choice D expresses Marvin's realization that his father's generation will never return to the Earth they lost, capturing his understanding of his father's perspective.",
-      "diveDeep": "This question tests the Regents skill of identifying lines that reveal a character's empathy or understanding of another character. Choice A describes Marvin settling into the cabin, which is a physical action. Choice B describes Marvin remembering a nursery rhyme. Choice C is a description of the Colony's location. Students often pick A because it shows Marvin interacting with his father, but only D reveals Marvin's internal understanding of his father's deep grief and perspective. The strategy is to look for the quote that discusses the father's thoughts or feelings."
+      "diveDeep": "This question tests the Regents skill of identifying lines that reveal a character's empathy or understanding of another character. Choice A describes Marvin settling into the cabin, which is a physical action. Choice B describes Marvin remembering a nursery rhyme. Choice C is a description of the Colony's location. Students often pick A because it shows Marvin interacting with his father, but only D reveals Marvin's internal understanding of his father's deep grief and perspective. The strategy is to look for the quote that discusses the father's thoughts or feelings.",
+      "topic": "Close Reading"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "In lines 1 through 4, the grandmother tells the narrator that good days will always come to counter the dark ones, establishing her optimistic outlook (Choice D).",
-      "diveDeep": "This question tests the Regents reading skill of characterizing a figure in a poem. Choice A is incorrect because she is giving advice rather than asking questions. Choice B is incorrect because her message is about simple life attitudes rather than wild fantasies. Choice C is incorrect because telling someone to live fully is the opposite of caution. A common student mistake is selecting B because they see the metaphor of 'blue skies in the heart,' but this metaphor serves to express her optimism. The strategy is to summarize her advice: good days follow bad ones."
+      "diveDeep": "This question tests the Regents reading skill of characterizing a figure in a poem. Choice A is incorrect because she is giving advice rather than asking questions. Choice B is incorrect because her message is about simple life attitudes rather than wild fantasies. Choice C is incorrect because telling someone to live fully is the opposite of caution. A common student mistake is selecting B because they see the metaphor of 'blue skies in the heart,' but this metaphor serves to express her optimism. The strategy is to summarize her advice: good days follow bad ones.",
+      "topic": "Close Reading"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The grandmother uses indirect comparisons, like baking a pound cake, as a strategy to impart wisdom in a memorable, indirect way (Choice C).",
-      "diveDeep": "This question tests the Regents skill of identifying the purpose of figurative language. Choice A is incorrect because she is speaking to teach, not to avoid conflicts. Choice B is incorrect because she does not keep secrets; she shares her wisdom. Choice D is incorrect because her analogy is wise and serious, not humorous. A common mistake is selecting D because the analogy is colorful, but the narrator notes that she 'meant' a deeper lesson about life, showing it was a strategy to teach. The strategy is to connect 'talking around corners' with teaching."
+      "diveDeep": "This question tests the Regents skill of identifying the purpose of figurative language. Choice A is incorrect because she is speaking to teach, not to avoid conflicts. Choice B is incorrect because she does not keep secrets; she shares her wisdom. Choice D is incorrect because her analogy is wise and serious, not humorous. A common mistake is selecting D because the analogy is colorful, but the narrator notes that she 'meant' a deeper lesson about life, showing it was a strategy to teach. The strategy is to connect 'talking around corners' with teaching.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Line 30 states that a man is larger than the vessel that carries him, which is clarified by line 28's statement that a man can 'measure his life in deeds' rather than physical size (Choice C).",
-      "diveDeep": "This question tests the Regents skill of identifying cross-references that clarify meaning within a poem. Choice A is incorrect because the good days are about emotional outlook, not actions. Choice B is incorrect because listening is about the audience, not the deeds of the individual. Choice D is incorrect because the breathing institution is a metaphor for the library, not the individual. Students often struggle with this question because the metaphors are dense. The strategy is to connect the concept of a person's inner value ('deeds') with being 'larger' than their physical body."
+      "diveDeep": "This question tests the Regents skill of identifying cross-references that clarify meaning within a poem. Choice A is incorrect because the good days are about emotional outlook, not actions. Choice B is incorrect because listening is about the audience, not the deeds of the individual. Choice D is incorrect because the breathing institution is a metaphor for the library, not the individual. Students often struggle with this question because the metaphors are dense. The strategy is to connect the concept of a person's inner value ('deeds') with being 'larger' than their physical body.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Personifying the books as 'coming to attention' when the grandmother enters the room emphasizes her commanding presence despite her small stature, making Choice B correct.",
-      "diveDeep": "This question tests the Regents skill of analyzing how personification emphasizes a character's traits. Choice A is incorrect because the books coming to attention shows power, which contrasts with her small size rather than emphasizing it. Choice C is incorrect because there is no reference to her ancestors. Choice D is incorrect because her career is not discussed in these lines. A common student error is selecting A because her height is mentioned, but the personification specifically highlights her authority and effect on the room. The strategy is to ask what it means when objects 'stand at attention'—it shows authority."
+      "diveDeep": "This question tests the Regents skill of analyzing how personification emphasizes a character's traits. Choice A is incorrect because the books coming to attention shows power, which contrasts with her small size rather than emphasizing it. Choice C is incorrect because there is no reference to her ancestors. Choice D is incorrect because her career is not discussed in these lines. A common student error is selecting A because her height is mentioned, but the personification specifically highlights her authority and effect on the room. The strategy is to ask what it means when objects 'stand at attention'—it shows authority.",
+      "topic": "Close Reading"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The speaker's description of the grandmother as a giant and books coming to attention demonstrates a highly respectful tone, matching Choice C.",
-      "diveDeep": "This question tests the Regents skill of identifying the overall tone of a poem. Choice A is incorrect because the speaker is emotionally invested and admiring, not objective. Choice B is incorrect because there is no doubt or skepticism expressed. Choice D is incorrect because she is praised, not criticized. Students often choose A because they think poetry analysis requires a neutral stance, but they must identify the author's actual attitude, which is respectful and reverent. The strategy is to look at the positive descriptions ('giants come in all sizes') to determine tone."
+      "diveDeep": "This question tests the Regents skill of identifying the overall tone of a poem. Choice A is incorrect because the speaker is emotionally invested and admiring, not objective. Choice B is incorrect because there is no doubt or skepticism expressed. Choice D is incorrect because she is praised, not criticized. Students often choose A because they think poetry analysis requires a neutral stance, but they must identify the author's actual attitude, which is respectful and reverent. The strategy is to look at the positive descriptions ('giants come in all sizes') to determine tone.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The first paragraph highlights the massive volume of texts sent daily (six billion in the US) to highlight the prevalence of texting in modern society (Choice A).",
-      "diveDeep": "This question tests the Regents skill of identifying the purpose of an introductory paragraph. Choice B is incorrect because the paragraph raises concerns about texting, rather than stressing its benefits. Choice C is incorrect because the history of texting is not discussed. Choice D is incorrect because the text does not advocate for banning texting entirely. A common error is choosing B because the paragraph describes how much we text, but it frames this as a potential problem rather than a benefit. The strategy is to identify the main statistic (six billion a day) as an indicator of prevalence."
+      "diveDeep": "This question tests the Regents skill of identifying the purpose of an introductory paragraph. Choice B is incorrect because the paragraph raises concerns about texting, rather than stressing its benefits. Choice C is incorrect because the history of texting is not discussed. Choice D is incorrect because the text does not advocate for banning texting entirely. A common error is choosing B because the paragraph describes how much we text, but it frames this as a potential problem rather than a benefit. The strategy is to identify the main statistic (six billion a day) as an indicator of prevalence.",
+      "topic": "Close Reading"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "In line 7, the word 'surreptitiously' describes students texting under the table while trying to maintain fake eye contact, meaning they text secretively (Choice C).",
-      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because pretending to pay attention while distracted is rude, not polite. Choice B is incorrect because they are hiding their phones, which is the opposite of bold. Choice D is incorrect because they are acting deceptively rather than earnestly. Students often confuse 'surreptitiously' with 'politely' because the students are trying to avoid being rude, but the physical act itself is done in secret. The strategy is to look at the clue 'pretending to maintain eye contact' to see they are hiding the action."
+      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because pretending to pay attention while distracted is rude, not polite. Choice B is incorrect because they are hiding their phones, which is the opposite of bold. Choice D is incorrect because they are acting deceptively rather than earnestly. Students often confuse 'surreptitiously' with 'politely' because the students are trying to avoid being rude, but the physical act itself is done in secret. The strategy is to look at the clue 'pretending to maintain eye contact' to see they are hiding the action.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The text states that early telephones were marketed strictly to businesses and doctors for orders, meaning they were initially not used for social purposes (Choice D).",
-      "diveDeep": "This question tests the Regents skill of identifying details. Choice A is incorrect because 'sixth sense' is an advertising metaphor for business awareness, not actual supernatural beliefs. Choice B is incorrect because they were considered highly useful for business. Choice C is incorrect because there is no mention of telephones causing illness. A common mistake is selecting A because of the 'sixth sense' reference, but this was a marketing claim for efficiency, not a belief in magic. The strategy is to look at the target demographic of early sales—businesses, not social visits."
+      "diveDeep": "This question tests the Regents skill of identifying details. Choice A is incorrect because 'sixth sense' is an advertising metaphor for business awareness, not actual supernatural beliefs. Choice B is incorrect because they were considered highly useful for business. Choice C is incorrect because there is no mention of telephones causing illness. A common mistake is selecting A because of the 'sixth sense' reference, but this was a marketing claim for efficiency, not a belief in magic. The strategy is to look at the target demographic of early sales—businesses, not social visits.",
+      "topic": "Close Reading"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Using the word 'cooed' to describe a Bell advertisement suggests that the companies were strategic and persuasive, using soft and comforting language to entice customers (Choice B).",
-      "diveDeep": "This question tests the Regents skill of interpreting word choice connotations. Choice A is incorrect because advertisers are trying to sell a product, not act as patient helpers. Choice C is incorrect because the ad is clever and professional, not childish. Choice D is incorrect because 'cooing' is gentle, which is the opposite of harsh or sarcastic. Students often pick A because the ad sounds friendly, but it is a commercial strategy. The strategy is to ask what tone 'cooed' conveys and how it serves the goal of sales."
+      "diveDeep": "This question tests the Regents skill of interpreting word choice connotations. Choice A is incorrect because advertisers are trying to sell a product, not act as patient helpers. Choice C is incorrect because the ad is clever and professional, not childish. Choice D is incorrect because 'cooing' is gentle, which is the opposite of harsh or sarcastic. Students often pick A because the ad sounds friendly, but it is a commercial strategy. The strategy is to ask what tone 'cooed' conveys and how it serves the goal of sales.",
+      "topic": "Inference"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Lines 29 through 38 detail the criticisms of social critics who worried the phone would break up home life, representing society's concern about the impact of new technology (Choice D).",
-      "diveDeep": "This question tests the Regents skill of identifying the central focus of a set of historical quotes. Choice A is incorrect because the quotes are pessimistic, not enthusiastic. Choice B is incorrect because there is no mention of technicians or dependency. Choice C is incorrect because the critics feared the device rather than understanding its long-term significance. A common student mistake is choosing A because they assume technology is always met with excitement, but the text details the public anxiety. The strategy is to read the quoted concerns ('break up home life', 'interruptions') to identify the attitude."
+      "diveDeep": "This question tests the Regents skill of identifying the central focus of a set of historical quotes. Choice A is incorrect because the quotes are pessimistic, not enthusiastic. Choice B is incorrect because there is no mention of technicians or dependency. Choice C is incorrect because the critics feared the device rather than understanding its long-term significance. A common student mistake is choosing A because they assume technology is always met with excitement, but the text details the public anxiety. The strategy is to read the quoted concerns ('break up home life', 'interruptions') to identify the attitude.",
+      "topic": "Close Reading"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The phrase 'transparent heaps of jelly' implies that constant telephone communication would leave people overexposed, lacking substance and individuality (Choice B).",
-      "diveDeep": "This question tests the interpretation of figurative language. Choice A is incorrect because the quote focuses on social exposure, not personal motivation. Choice C is incorrect because 'heaps of jelly' implies vulnerability and lack of structure, not physical danger. Choice D is incorrect because the writer feared people would become too open to each other, not narrow-minded. Students often struggle with this odd 19th-century quote; the strategy is to see that 'transparent' and 'jelly' suggest a loss of privacy and personal boundary."
+      "diveDeep": "This question tests the interpretation of figurative language. Choice A is incorrect because the quote focuses on social exposure, not personal motivation. Choice C is incorrect because 'heaps of jelly' implies vulnerability and lack of structure, not physical danger. Choice D is incorrect because the writer feared people would become too open to each other, not narrow-minded. Students often struggle with this odd 19th-century quote; the strategy is to see that 'transparent' and 'jelly' suggest a loss of privacy and personal boundary.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The Bell ad's claim that the phone keeps up intimacy and John Carty's belief that it would join the earth into one brotherhood are contrasted with the pessimists' fears, offering different perspectives on the potential effects of the telephone (Choice A).",
-      "diveDeep": "This question tests the Regents skill of comparing text segments. Choice B is incorrect because they discuss future projections, not current popularity. Choice C is incorrect because they are not offering alternative communication options. Choice D is incorrect because these are optimistic marketing claims, not objective evaluations. A common mistake is selecting B because the quotes are positive, but the question asks about their function in the text, which is to show the optimistic side of the debate. The strategy is to look at how these quotes contrast with the negative views in the preceding paragraphs."
+      "diveDeep": "This question tests the Regents skill of comparing text segments. Choice B is incorrect because they discuss future projections, not current popularity. Choice C is incorrect because they are not offering alternative communication options. Choice D is incorrect because these are optimistic marketing claims, not objective evaluations. A common mistake is selecting B because the quotes are positive, but the question asks about their function in the text, which is to show the optimistic side of the debate. The strategy is to look at how these quotes contrast with the negative views in the preceding paragraphs.",
+      "topic": "Close Reading"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The 'utopian views' suggested that a global telephone system would lead to a common understanding and join all peoples into one brotherhood, promoting global unity (Choice C).",
-      "diveDeep": "This question tests the retrieval of literal details. Choice A is incorrect because local commerce is a business detail, not a utopian global vision. Choice B is incorrect because a common language is a means to unity, not the primary goal of the studies. Choice D is incorrect because 'one brotherhood' is much broader than local community values. Students often choose B because language is mentioned in the quote, but the ultimate result of that common language is global unity. The strategy is to identify the final goal in the cited quote ('join all the people... into one brotherhood')."
+      "diveDeep": "This question tests the retrieval of literal details. Choice A is incorrect because local commerce is a business detail, not a utopian global vision. Choice B is incorrect because a common language is a means to unity, not the primary goal of the studies. Choice D is incorrect because 'one brotherhood' is much broader than local community values. Students often choose B because language is mentioned in the quote, but the ultimate result of that common language is global unity. The strategy is to identify the final goal in the cited quote ('join all the people... into one brotherhood').",
+      "topic": "Inference"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The fact that Emily Post initially opposed the telephone but eventually accepted it as proper etiquette shows that concepts of politeness can evolve over time, which is Choice C.",
-      "diveDeep": "This question tests the connection between a detail and a central theme. Choice A is incorrect because the focus is on evolution, not confusion. Choice B is incorrect because Post's shift shows that norms are relative and change, rather than being universal. Choice D is incorrect because status is not the reason for the change. A common student mistake is choosing B because etiquette sounds like universal rules, but the passage shows rules changing. The strategy is to look at the word 'altered' in Post's quote, which indicates change/evolution."
+      "diveDeep": "This question tests the connection between a detail and a central theme. Choice A is incorrect because the focus is on evolution, not confusion. Choice B is incorrect because Post's shift shows that norms are relative and change, rather than being universal. Choice D is incorrect because status is not the reason for the change. A common student mistake is choosing B because etiquette sounds like universal rules, but the passage shows rules changing. The strategy is to look at the word 'altered' in Post's quote, which indicates change/evolution.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The quotes describe the telephone wire carrying both deep and frivolous conversations, reflecting the irony that the same technology can facilitate both love and war, death and laughter (Choice B).",
-      "diveDeep": "This question tests the identification of literary devices in context. Choice A is incorrect because the poem is artistic and reflective, not biased. Choice C is incorrect because the poem is a reflection, not creating plot suspense. Choice D is incorrect because the poem presents a paradox rather than a resolution. Students often choose D because it is at the end of the text, but the poem itself highlights the unresolved, dual nature of technology. The strategy is to recognize the juxtaposition of opposites (death and laughter, love and war) as a classic sign of irony."
+      "diveDeep": "This question tests the identification of literary devices in context. Choice A is incorrect because the poem is artistic and reflective, not biased. Choice C is incorrect because the poem is a reflection, not creating plot suspense. Choice D is incorrect because the poem presents a paradox rather than a resolution. Students often choose D because it is at the end of the text, but the poem itself highlights the unresolved, dual nature of technology. The strategy is to recognize the juxtaposition of opposites (death and laughter, love and war) as a classic sign of irony.",
+      "topic": "Close Reading"
     }
   ]
 }

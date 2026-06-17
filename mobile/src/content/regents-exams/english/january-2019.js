@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-jan-2019",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The description of the traveler's breath turning to 'iron in his throat' and his nostrils webbing with 'instant ice' emphasizes the harsh and painful cold, creating a strong sense of physical discomfort.",
-      "diveDeep": "While the freezing cold is harsh, the imagery describes physiological reactions to cold, rather than threats causing fear (choice 2). The focus remains on physical sensation rather than an inquiry into the unknown (choice 3) or peaceful quietness (choice 4). A common mistake is choosing 'fearfulness' because of the intense setting, but the sensory details are specifically tied to physical discomfort. Recognizing sensory imagery is key to identifying tone and mood in literary passages."
+      "diveDeep": "While the freezing cold is harsh, the imagery describes physiological reactions to cold, rather than threats causing fear (choice 2). The focus remains on physical sensation rather than an inquiry into the unknown (choice 3) or peaceful quietness (choice 4). A common mistake is choosing 'fearfulness' because of the intense setting, but the sensory details are specifically tied to physical discomfort. Recognizing sensory imagery is key to identifying tone and mood in literary passages.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The traveler's deliberate actions, such as checking his gear and calculating his options in the cold, demonstrate his confidence in his own survival skills despite the breakdown.",
-      "diveDeep": "The traveler's preparation shows he is not comfortable with the danger of freezing (choice 2), and his car has just failed him, so he is not relying on modern technology (choice 3), nor is he relaxed by the bleak winter scenery (choice 4). Students might incorrectly select 'faith in modern technology' because a car is involved, but the vehicle is broken down. The question tests characterization, specifically identifying a character's competence and self-reliance through their deliberate actions in a crisis."
+      "diveDeep": "The traveler's preparation shows he is not comfortable with the danger of freezing (choice 2), and his car has just failed him, so he is not relying on modern technology (choice 3), nor is he relaxed by the bleak winter scenery (choice 4). Students might incorrectly select 'faith in modern technology' because a car is involved, but the vehicle is broken down. The question tests characterization, specifically identifying a character's competence and self-reliance through their deliberate actions in a crisis.",
+      "topic": "Close Reading"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The traveler decides to leave the safety of his stalled car and walk down the dark road, showing he is determined to move forward despite his anxiety about the freezing wilderness.",
-      "diveDeep": "The text does not support the idea that he expects a rescue crew (choice 2) or is worried about car theft in a desolate, freezing wasteland (choice 3), and he actively leaves the car rather than staying with his samples (choice 4). Students often confuse a character's caution with paralysis, failing to see that he overcomes his hesitation to take action. This question assesses theme and character motivation, emphasizing how characters confront external conflicts."
+      "diveDeep": "The text does not support the idea that he expects a rescue crew (choice 2) or is worried about car theft in a desolate, freezing wasteland (choice 3), and he actively leaves the car rather than staying with his samples (choice 4). Students often confuse a character's caution with paralysis, failing to see that he overcomes his hesitation to take action. This question assesses theme and character motivation, emphasizing how characters confront external conflicts.",
+      "topic": "Inference"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The 'weak bloom of light' in the distance represents a farmhouse or settlement, indicating the possibility of finding help or shelter in the freezing night.",
-      "diveDeep": "Light in a desolate setting is a classic symbol of hope and help (choice 2), rather than a sign of danger (choice 1) or an invitation to an adventure (choice 4). While companionship (choice 3) is a positive outcome, the traveler's primary, urgent goal is obtaining help for survival. Students sometimes select 'companionship' because of the human element, but 'assistance' is the immediate, life-saving need. Interpreting symbolism in context is a key ELA Regents skill."
+      "diveDeep": "Light in a desolate setting is a classic symbol of hope and help (choice 2), rather than a sign of danger (choice 1) or an invitation to an adventure (choice 4). While companionship (choice 3) is a positive outcome, the traveler's primary, urgent goal is obtaining help for survival. Students sometimes select 'companionship' because of the human element, but 'assistance' is the immediate, life-saving need. Interpreting symbolism in context is a key ELA Regents skill.",
+      "topic": "Inference"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "In these lines, the traveler ceases to worry about his own stranded car and schedule, accepting that he must focus on the immediate emergency at the farmhouse.",
-      "diveDeep": "The lines do not indicate the boy misunderstands his grandfather's condition (choice 2), nor is the traveler showing resentment (choice 3) or the boy discussing a doctor's skills (choice 4). A common mistake is choosing 'resentment' because the traveler was previously in a hurry, but he actually shifts to a cooperative mindset. This question tests character development and plot transitions, highlighting when a protagonist's focus shifts from self-interest to empathy."
+      "diveDeep": "The lines do not indicate the boy misunderstands his grandfather's condition (choice 2), nor is the traveler showing resentment (choice 3) or the boy discussing a doctor's skills (choice 4). A common mistake is choosing 'resentment' because the traveler was previously in a hurry, but he actually shifts to a cooperative mindset. This question tests character development and plot transitions, highlighting when a protagonist's focus shifts from self-interest to empathy.",
+      "topic": "Close Reading"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The traveler decides to stay and help because he feels deep sympathy for the young boy who is trying to care for his sick grandfather alone in an isolated house.",
-      "diveDeep": "His choice to stay directly contradicts a reluctance to bond (choice 1) or a purely self-centered desire (choice 4), and he is fully aware of the crisis, making choice 3 incorrect. Students might pick 'desire to solve his own problems' if they misinterpret his initial motivations, but his actions here are altruistic. The question evaluates character motivation and the thematic shift toward human connection."
+      "diveDeep": "His choice to stay directly contradicts a reluctance to bond (choice 1) or a purely self-centered desire (choice 4), and he is fully aware of the crisis, making choice 3 incorrect. Students might pick 'desire to solve his own problems' if they misinterpret his initial motivations, but his actions here are altruistic. The question evaluates character motivation and the thematic shift toward human connection.",
+      "topic": "Close Reading"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The traveler realizes that his presence provides vital emotional and physical support to the boy, cementing a mutual bond of dependency in a time of crisis.",
-      "diveDeep": "The traveler does not show anger at the situation (choice 1) or regret staying (choice 2), and he is the one offering aid rather than questioning seeking it (choice 4). A common error is selecting 'regrets his decision' due to the stressful nature of the scene, but the text emphasizes connection. This question targets central idea and interpersonal dynamics in a narrative."
+      "diveDeep": "The traveler does not show anger at the situation (choice 1) or regret staying (choice 2), and he is the one offering aid rather than questioning seeking it (choice 4). A common error is selecting 'regrets his decision' due to the stressful nature of the scene, but the text emphasizes connection. This question targets central idea and interpersonal dynamics in a narrative.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 8,
@@ -117,7 +124,8 @@ export default {
       "correct": 3,
       "image": "/images/exams/english/january-2019/q8.png",
       "explanation": "The active, purposeful description of the traveler's movement highlights his determination to help the boy and grandfather despite the freezing storm.",
-      "diveDeep": "The language describes steady, focused effort, which represents resolve rather than complete satisfaction (choice 1), failure (choice 2), or disorientation (choice 3). Students often mistake the difficulty of moving in snow for failure or confusion, overlooking the character's grit. This question focuses on how word choice and imagery establish mood and character traits."
+      "diveDeep": "The language describes steady, focused effort, which represents resolve rather than complete satisfaction (choice 1), failure (choice 2), or disorientation (choice 3). Students often mistake the difficulty of moving in snow for failure or confusion, overlooking the character's grit. This question focuses on how word choice and imagery establish mood and character traits.",
+      "topic": "Close Reading"
     },
     {
       "number": 9,
@@ -132,7 +140,8 @@ export default {
       "correct": 2,
       "image": "/images/exams/english/january-2019/q9.png",
       "explanation": "By looking outside of his own 'chronic and incurable' self-absorption to aid the boy, the traveler gains a moment of profound self-realization and personal healing.",
-      "diveDeep": "The passage does not show him regretting past behavior with strangers (choice 2) or focusing on general success (choice 4), and his self-recognition is about empathy, not merely forgetting the past (choice 1). Students often choose 'forget the past' or 'struggle for success' because these are common literary platitudes, but they miss the specific ironic theme of self-discovery through altruism. This question tests the interpretation of a story's resolution and its ultimate thematic message."
+      "diveDeep": "The passage does not show him regretting past behavior with strangers (choice 2) or focusing on general success (choice 4), and his self-recognition is about empathy, not merely forgetting the past (choice 1). Students often choose 'forget the past' or 'struggle for success' because these are common literary platitudes, but they miss the specific ironic theme of self-discovery through altruism. This question tests the interpretation of a story's resolution and its ultimate thematic message.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 10,
@@ -146,7 +155,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The opening lines declare that 'sheer amazement awaits' and describe children arriving at the stadium, establishing a tone of excited expectation.",
-      "diveDeep": "While the poem is reflective, the dominant feeling is one of looking forward to the event (anticipation) rather than quiet contemplation (thoughtfulness), peacefulness (serenity), or thankfulness (gratitude). Students often confuse anticipation with serenity because of the poetic structure, but the repeated promise of 'amazement' emphasizes looking forward. This question tests tone identification using introductory stanza cues."
+      "diveDeep": "While the poem is reflective, the dominant feeling is one of looking forward to the event (anticipation) rather than quiet contemplation (thoughtfulness), peacefulness (serenity), or thankfulness (gratitude). Students often confuse anticipation with serenity because of the poetic structure, but the repeated promise of 'amazement' emphasizes looking forward. This question tests tone identification using introductory stanza cues.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 11,
@@ -160,7 +170,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "By referencing rivers from different continents (Amazon, Nile, Danube, Rhine, Yangtze, Mississippi) whose silt the children carry, the poet highlights the global diversity of the Olympic participants.",
-      "diveDeep": "The narrator is not describing their own life (choice 1), and the rivers are used metaphorically, making the importance of actual rivers (choice 3) or ecological renewal (choice 4) incorrect. A common pitfall is choosing 'importance of rivers' by interpreting the literal geography rather than the metaphorical representation of global unity. This question tests the analysis of geographical metaphors."
+      "diveDeep": "The narrator is not describing their own life (choice 1), and the rivers are used metaphorically, making the importance of actual rivers (choice 3) or ecological renewal (choice 4) incorrect. A common pitfall is choosing 'importance of rivers' by interpreting the literal geography rather than the metaphorical representation of global unity. This question tests the analysis of geographical metaphors.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 12,
@@ -174,7 +185,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The text describes the athletes as providing 'encouragement to those other youth caught in the maws of poverty,' urging them to lunge forward and try harder.",
-      "diveDeep": "The poem focuses on unity and effort rather than winning (choice 2) or judicial systems (choice 4), and the inspiration is directed broadly to youth, not highlighting the bravery of everyone on Earth (choice 3). Students may incorrectly choose 'courage of all people' because of the positive connotation, but the passage specifically discusses inspiring disadvantaged youth. This question measures understanding of the social impact and theme of a text."
+      "diveDeep": "The poem focuses on unity and effort rather than winning (choice 2) or judicial systems (choice 4), and the inspiration is directed broadly to youth, not highlighting the bravery of everyone on Earth (choice 3). Students may incorrectly choose 'courage of all people' because of the positive connotation, but the passage specifically discusses inspiring disadvantaged youth. This question measures understanding of the social impact and theme of a text.",
+      "topic": "Inference"
     },
     {
       "number": 13,
@@ -188,7 +200,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Repeating the phrase 'With respect for the world and its people' reinforces the central theme of mutual respect and global unity in competition.",
-      "diveDeep": "Repetition is a standard rhetorical device used to reinforce key concepts, not to change perspectives (choice 1), introduce sarcasm (choice 3), or show mental struggle (choice 4). Students often select 'shift the point of view' because of the structural change, but point of view remains consistent. This question tests understanding of poetic structure and rhetorical devices."
+      "diveDeep": "Repetition is a standard rhetorical device used to reinforce key concepts, not to change perspectives (choice 1), introduce sarcasm (choice 3), or show mental struggle (choice 4). Students often select 'shift the point of view' because of the structural change, but point of view remains consistent. This question tests understanding of poetic structure and rhetorical devices.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 14,
@@ -202,7 +215,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The last stanza reveals that 'we ourselves / Are the Amazement which awaits,' which is best exemplified by the ability of human grace and spirit to conquer adversity.",
-      "diveDeep": "Line 4 is introductory (choice 1), line 12 refers to wild passion (choice 2), and line 27 urges action (choice 3), none of which capture the ultimate definition of 'Amazement' as the triumph of human spirit. Students often guess choice 1 or 3 because they sound inspirational, but they do not connect to the specific definition of 'Amazement' established at the end. This question focuses on analyzing symbols and tracing their development across a poem."
+      "diveDeep": "Line 4 is introductory (choice 1), line 12 refers to wild passion (choice 2), and line 27 urges action (choice 3), none of which capture the ultimate definition of 'Amazement' as the triumph of human spirit. Students often guess choice 1 or 3 because they sound inspirational, but they do not connect to the specific definition of 'Amazement' established at the end. This question focuses on analyzing symbols and tracing their development across a poem.",
+      "topic": "Close Reading"
     },
     {
       "number": 15,
@@ -216,7 +230,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The satellite imagery in the first paragraph shows artificial light blanketing the continents, illustrating how modern technology and electricity have reshaped the global night.",
-      "diveDeep": "The paragraph uses geographic and political examples (like North/South Korea) as evidence of lighting, not to discuss geography (choice 1), population density (choice 2), or political relations themselves (choice 4). Students often fall for 'consequences of political differences' due to the mention of the DMZ, but this is a supporting detail, not the main focus of the paragraph. This question tests identifying the central idea introduced in the exposition."
+      "diveDeep": "The paragraph uses geographic and political examples (like North/South Korea) as evidence of lighting, not to discuss geography (choice 1), population density (choice 2), or political relations themselves (choice 4). Students often fall for 'consequences of political differences' due to the mention of the DMZ, but this is a supporting detail, not the main focus of the paragraph. This question tests identifying the central idea introduced in the exposition.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 16,
@@ -230,7 +245,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The text notes that Plato spoke of evil spirits fearing lamps, and that 'lambent lamplight led us safely home' by revealing obstacles, emphasizing how light historically provided safety.",
-      "diveDeep": "The lines celebrate how light wards off threats and 'evil spirits,' indicating security (choice 3), rather than the tranquility of the dark (choice 1), the visual aesthetic of light (choice 2), or why darkness itself is valuable (choice 4). A common mistake is choosing 'beauty of light' due to the words 'lambent lamplight,' but the context is purely about finding one's way safely. This question tests the interpretation of historical context and figurative descriptions."
+      "diveDeep": "The lines celebrate how light wards off threats and 'evil spirits,' indicating security (choice 3), rather than the tranquility of the dark (choice 1), the visual aesthetic of light (choice 2), or why darkness itself is valuable (choice 4). A common mistake is choosing 'beauty of light' due to the words 'lambent lamplight,' but the context is purely about finding one's way safely. This question tests the interpretation of historical context and figurative descriptions.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 17,
@@ -244,7 +260,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "This rhetorical question serves to pivot the passage from the historical benefits of night lighting for safety to the newly discovered biological dangers of artificial light.",
-      "diveDeep": "The phrase does not outline a specific case (choice 1), challenge an authority figure (choice 2), or attack a process (choice 4). Students might select 'disprove an expert' because it introduces a counter-narrative, but it is structurally a transition. This question tests knowledge of text organization and transitional devices."
+      "diveDeep": "The phrase does not outline a specific case (choice 1), challenge an authority figure (choice 2), or attack a process (choice 4). Students might select 'disprove an expert' because it introduces a counter-narrative, but it is structurally a transition. This question tests knowledge of text organization and transitional devices.",
+      "topic": "Close Reading"
     },
     {
       "number": 18,
@@ -258,7 +275,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The author warns that our well-being and that of other creatures 'might depend on us doing so — or at the very least trying,' urging a careful and deliberate approach to artificial light.",
-      "diveDeep": "The warning is serious but not hopeless (choice 2), nor is it uncaring (choice 3) or blaming the reader (choice 4). Students often select 'despair' when reading about environmental threats, but the author's call to action represents caution rather than hopelessness. This question evaluates the author's tone and mood in specific lines."
+      "diveDeep": "The warning is serious but not hopeless (choice 2), nor is it uncaring (choice 3) or blaming the reader (choice 4). Students often select 'despair' when reading about environmental threats, but the author's call to action represents caution rather than hopelessness. This question evaluates the author's tone and mood in specific lines.",
+      "topic": "Close Reading"
     },
     {
       "number": 19,
@@ -272,7 +290,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The passage explicitly connects light pollution to serious health conditions, stating that it 'exacerbates, and might directly cause, cancer, obesity, and depression.'",
-      "diveDeep": "The text lists chronic illnesses (human disease) but does not mention vitamins (choice 1), air pollution (choice 3), or bacteria (choice 4). A common mistake is selecting 'vitamin deficiency' because sleep and health are mentioned, but this is factually incorrect based on the text. This question tests the retrieval and synthesis of literal details to support a central idea."
+      "diveDeep": "The text lists chronic illnesses (human disease) but does not mention vitamins (choice 1), air pollution (choice 3), or bacteria (choice 4). A common mistake is selecting 'vitamin deficiency' because sleep and health are mentioned, but this is factually incorrect based on the text. This question tests the retrieval and synthesis of literal details to support a central idea.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 20,
@@ -286,7 +305,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The text states that while melatonin normally rises with the night, 'artificial light tamps it down,' meaning it reduces or suppresses the hormone's production.",
-      "diveDeep": "Artificial light does not curve the hormone (choice 1), completely eliminate it forever (choice 3), or make it solid (choice 4). Students may choose 'removes' thinking the light stops melatonin entirely, but 'tamps down' implies a dampening or reduction. This question tests vocabulary in context."
+      "diveDeep": "Artificial light does not curve the hormone (choice 1), completely eliminate it forever (choice 3), or make it solid (choice 4). Students may choose 'removes' thinking the light stops melatonin entirely, but 'tamps down' implies a dampening or reduction. This question tests vocabulary in context.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 21,
@@ -300,7 +320,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The paragraph describes how astronauts experience sunset every 90 minutes and suffer from insomnia, showing how disrupted light-dark cycles affect human physiology in space.",
-      "diveDeep": "The passage suggests altering light to improve sleep, rather than promoting dim light itself (choice 1) or exercise (choice 2), and mentions sleeping pills as a symptom of the problem rather than a recommended solution (choice 3). A common error is choosing 'importance of medication' because pills are mentioned, but the author suggests lighting adjustments as the true cure. This question assesses drawing inferences from specific details."
+      "diveDeep": "The passage suggests altering light to improve sleep, rather than promoting dim light itself (choice 1) or exercise (choice 2), and mentions sleeping pills as a symptom of the problem rather than a recommended solution (choice 3). A common error is choosing 'importance of medication' because pills are mentioned, but the author suggests lighting adjustments as the true cure. This question assesses drawing inferences from specific details.",
+      "topic": "Close Reading"
     },
     {
       "number": 22,
@@ -314,7 +335,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The camping study showed that when restricted to natural light and campfire, the students' melatonin production 'tightly synchronises to environmental time,' aligning biological processes with sunset and sunrise.",
-      "diveDeep": "The study proved the opposite of independence from stimuli (choice 1), and did not investigate elevation (choice 2) or stress (choice 3). Students often choose 'operates independently' if they misunderstand 'internal biological time,' but the text stresses synchronization with nature. This question tests the interpretation of scientific study results in a text."
+      "diveDeep": "The study proved the opposite of independence from stimuli (choice 1), and did not investigate elevation (choice 2) or stress (choice 3). Students often choose 'operates independently' if they misunderstand 'internal biological time,' but the text stresses synchronization with nature. This question tests the interpretation of scientific study results in a text.",
+      "topic": "Close Reading"
     },
     {
       "number": 23,
@@ -328,7 +350,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The final sentence urges readers to make 'one small gesture' to unplug and turn off lights, offering a practical individual action to combat the large problem of light pollution.",
-      "diveDeep": "The author is not disputing a claim (choice 1), ending a formal academic argument (choice 2), or refuting a belief (choice 4) in the final line. Students might choose 'settle a debate' since it is the conclusion, but the sentence is an actionable recommendation. This question checks the understanding of authorial purpose in text endings."
+      "diveDeep": "The author is not disputing a claim (choice 1), ending a formal academic argument (choice 2), or refuting a belief (choice 4) in the final line. Students might choose 'settle a debate' since it is the conclusion, but the sentence is an actionable recommendation. This question checks the understanding of authorial purpose in text endings.",
+      "topic": "Close Reading"
     },
     {
       "number": 24,
@@ -342,7 +365,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "This sentence encapsulates the central argument of the essay: while humanity has historically embraced artificial light, recent scientific research reveals its serious hazards.",
-      "diveDeep": "The historical longevity of light (choice 1) and safety rationales (choice 2) are introductory context, and the description of shadows rising (choice 4) is sensory imagery rather than a thesis. Students often fall for choice 2 because it sounds logical, but the author's primary focus is warning about the danger of light pollution. This question tests identifying the central thesis of an informational text."
+      "diveDeep": "The historical longevity of light (choice 1) and safety rationales (choice 2) are introductory context, and the description of shadows rising (choice 4) is sensory imagery rather than a thesis. Students often fall for choice 2 because it sounds logical, but the author's primary focus is warning about the danger of light pollution. This question tests identifying the central thesis of an informational text.",
+      "topic": "Central Idea & Theme"
     }
   ]
 }

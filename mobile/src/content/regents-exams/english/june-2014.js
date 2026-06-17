@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-jun-2014",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The narrator's remark about 'unreasonable petulance' reflects his self-aware annoyance that his breakfast is not ready and Holmes has not yet risen.",
-      "diveDeep": "The text shows the narrator is waiting for breakfast and is annoyed, not that he is mad at himself for sleeping late (choice 1), worried about the newspaper marks (choice 3), or bothered by Holmes's quietness (choice 4). Students might select choice 4 because they associate Holmes with silence, but the context specifically details his focus on the delayed meal. This question tests the interpretation of character mood and humor through tone in prose."
+      "diveDeep": "The text shows the narrator is waiting for breakfast and is annoyed, not that he is mad at himself for sleeping late (choice 1), worried about the newspaper marks (choice 3), or bothered by Holmes's quietness (choice 4). Students might select choice 4 because they associate Holmes with silence, but the context specifically details his focus on the delayed meal. This question tests the interpretation of character mood and humor through tone in prose.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "These terms underscore the scientific, methodical, and logical processes Holmes applies to make sense of observations and solve mysteries.",
-      "diveDeep": "The vocabulary does not focus on linking art to science (choice 1), explaining agency logistics (choice 2), or describing crime complexity (choice 3). Instead, it frames Holmes's detective work as a logical discipline. Students sometimes choose choice 3 because they associate detectives with complex crimes, but the words themselves specifically describe Holmes's thinking style. This question targets authorial purpose and tone through word choice (diction)."
+      "diveDeep": "The vocabulary does not focus on linking art to science (choice 1), explaining agency logistics (choice 2), or describing crime complexity (choice 3). Instead, it frames Holmes's detective work as a logical discipline. Students sometimes choose choice 3 because they associate detectives with complex crimes, but the words themselves specifically describe Holmes's thinking style. This question targets authorial purpose and tone through word choice (diction).",
+      "topic": "Close Reading"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "By not revealing that Holmes wrote the article, the narrator openly mocks its claims as 'rubbish' and 'twaddle,' providing an honest, unvarnished look at his skepticism.",
-      "diveDeep": "Withholding the identity does not make the mood gloomy (choice 1) or hint at bad events (choice 2), nor does it confuse the reader (choice 4) since the reader easily infers or finds out soon. Students might choose choice 4 if they focus solely on the lack of name, but the primary narrative function is to highlight the dramatic irony of the narrator criticizing his friend's work. This question assesses narrative structure and the use of dramatic irony."
+      "diveDeep": "Withholding the identity does not make the mood gloomy (choice 1) or hint at bad events (choice 2), nor does it confuse the reader (choice 4) since the reader easily infers or finds out soon. Students might choose choice 4 if they focus solely on the lack of name, but the primary narrative function is to highlight the dramatic irony of the narrator criticizing his friend's work. This question assesses narrative structure and the use of dramatic irony.",
+      "topic": "Close Reading"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The dialogue explains Holmes's role as a 'consulting detective' who assists both government and private investigators to solve difficult cases for a fee.",
-      "diveDeep": "The narrator is critical rather than appreciative of deduction at this stage (choice 1), the two are already housemates, so the friendship is not being newly established here (choice 2), and Holmes is not accused of misdeeds (choice 4). A common student error is selecting choice 2, but the text is explicitly expository regarding Holmes's profession. This question evaluates characterization and the delivery of background information (exposition)."
+      "diveDeep": "The narrator is critical rather than appreciative of deduction at this stage (choice 1), the two are already housemates, so the friendship is not being newly established here (choice 2), and Holmes is not accused of misdeeds (choice 4). A common student error is selecting choice 2, but the text is explicitly expository regarding Holmes's profession. This question evaluates characterization and the delivery of background information (exposition).",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "In calling the claims of the article 'chimerical,' the narrator is dismissing them as fantastic, imaginary, and impossible to apply in the real world.",
-      "diveDeep": "The narrator is not calling the article biased or unjust (choice 1), annoying (choice 3), or self-contradictory (choice 4); he simply believes the deductive powers described are impossible. Students often select choice 3 because the narrator is annoyed, but 'chimerical' refers to a chimera, a mythical creature, denoting something imaginary or unrealistic. This question measures vocabulary acquisition and contextual analysis."
+      "diveDeep": "The narrator is not calling the article biased or unjust (choice 1), annoying (choice 3), or self-contradictory (choice 4); he simply believes the deductive powers described are impossible. Students often select choice 3 because the narrator is annoyed, but 'chimerical' refers to a chimera, a mythical creature, denoting something imaginary or unrealistic. This question measures vocabulary acquisition and contextual analysis.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Holmes explains that when a new case comes up, he compares it to thousands of past cases, recognizing similar patterns to solve it quickly.",
-      "diveDeep": "The text does not focus on general human nature (choice 1), cooperation improving his skill (choice 2), or the complete incompetence of government police (choice 3). Students often confuse his systematic pattern-matching with general 'intuition' or knowledge of human nature, but the text specifically highlights his database of past crimes. This question tests the extraction of specific textual evidence to support an analytical claim."
+      "diveDeep": "The text does not focus on general human nature (choice 1), cooperation improving his skill (choice 2), or the complete incompetence of government police (choice 3). Students often confuse his systematic pattern-matching with general 'intuition' or knowledge of human nature, but the text specifically highlights his database of past crimes. This question tests the extraction of specific textual evidence to support an analytical claim.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "This quotation encapsulates the underlying theme of deduction: that the universe is interconnected and logical, allowing a keen observer to infer larger truths from small clues.",
-      "diveDeep": "The other choices are reactions to the article (choice 2), descriptions of clients (choice 3), or details about complex cases (choice 4), which do not represent the philosophical theme of the text. Students often choose choice 2 or 3 because they are memorable dialogue lines, but they fail to capture the broader thematic message about logic and observation. This question checks the ability to identify thematic statements in literature."
+      "diveDeep": "The other choices are reactions to the article (choice 2), descriptions of clients (choice 3), or details about complex cases (choice 4), which do not represent the philosophical theme of the text. Students often choose choice 2 or 3 because they are memorable dialogue lines, but they fail to capture the broader thematic message about logic and observation. This question checks the ability to identify thematic statements in literature.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The narrator hopes that by asking about the messenger's profession, he can prove Holmes's instant deduction (that the man was a retired Royal Marine sergeant) wrong, thereby humbling him.",
-      "diveDeep": "The narrator wants to deflate, not build up, confidence (choice 2), has no suspicion of Holmes's intentions (choice 3), and is not trying to test himself (choice 4). Students might select choice 4 if they mistake the narrator's motivation for curiosity, but he is clearly acting out of a desire to disprove Holmes. This question tests character conflict and motivation."
+      "diveDeep": "The narrator wants to deflate, not build up, confidence (choice 2), has no suspicion of Holmes's intentions (choice 3), and is not trying to test himself (choice 4). Students might select choice 4 if they mistake the narrator's motivation for curiosity, but he is clearly acting out of a desire to disprove Holmes. This question tests character conflict and motivation.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The conversation with the sergeant confirms that Holmes's deduction was completely accurate, which resolves the narrator's skepticism and ends their disagreement about the validity of deduction.",
-      "diveDeep": "While the scene describes the sergeant briefly, its main narrative function is not character development (choice 1), nor is it a flashback (choice 2) or a comparison (choice 3). Students often choose choice 1 because a new character speaks, but the scene's function in the plot is to resolve the tension and debate between the two main characters. This question assesses plot structure and the function of specific scenes."
+      "diveDeep": "While the scene describes the sergeant briefly, its main narrative function is not character development (choice 1), nor is it a flashback (choice 2) or a comparison (choice 3). Students often choose choice 1 because a new character speaks, but the scene's function in the plot is to resolve the tension and debate between the two main characters. This question assesses plot structure and the function of specific scenes.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "When the sergeant confirms he was indeed a sergeant in the Royal Marine Light Infantry, the narrator is left amazed and speechless by Holmes's accuracy.",
-      "diveDeep": "The narrator is stunned, not confused (choice 2), pleased (choice 3, as he wanted Holmes to fail), or suspicious of fraud (choice 4). A common mistake is selecting 'confusion' because the narrator is silent, but this silence is the result of shock and awe. This question evaluates character reaction and resolution."
+      "diveDeep": "The narrator is stunned, not confused (choice 2), pleased (choice 3, as he wanted Holmes to fail), or suspicious of fraud (choice 4). A common mistake is selecting 'confusion' because the narrator is silent, but this silence is the result of shock and awe. This question evaluates character reaction and resolution.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The repeated use of the imperative phrase 'Give us a peace' shows that the poet is insistently calling for societal changes after the war.",
-      "diveDeep": "The tone is firm and urgent (demanding) rather than hostile (angry), joyous (celebratory), or boastful (proud). Students often mistake the urgency for anger, but the focus is on a constructive demand for justice and schools. This question tests tone identification based on syntax and repetitive structures."
+      "diveDeep": "The tone is firm and urgent (demanding) rather than hostile (angry), joyous (celebratory), or boastful (proud). Students often mistake the urgency for anger, but the focus is on a constructive demand for justice and schools. This question tests tone identification based on syntax and repetitive structures.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The poem is an appeal directed at leaders or society for justice, not a political speech aimed at winning or demanding the loyalty of citizens.",
-      "diveDeep": "The repetition does structure the poem (choice 1), highlight the theme of true peace (choice 2), and introduce each specific plea (choice 4). Since this is a 'not' question, students must identify the option that is not supported by the text. A common error is overlooking the word 'not' and choosing a valid function of repetition. This question tests structural analysis and rhetorical purpose."
+      "diveDeep": "The repetition does structure the poem (choice 1), highlight the theme of true peace (choice 2), and introduce each specific plea (choice 4). Since this is a 'not' question, students must identify the option that is not supported by the text. A common error is overlooking the word 'not' and choosing a valid function of repetition. This question tests structural analysis and rhetorical purpose.",
+      "topic": "Inference"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Hughes uses terms like 'mighty army serving human kind' to advocate for a mobilized, active effort to combat poverty and ignorance, reframing military concepts for peaceful progress.",
-      "diveDeep": "The poem is written at the end of WWII and does not glorify past heroics (choice 1), dwell on war's destruction (choice 2), or warn of future conflicts (choice 4). Students might select choice 2 because they associate war with destruction, but Hughes is using military metaphors constructively for social action. This question evaluates the author's use of metaphor and imagery."
+      "diveDeep": "The poem is written at the end of WWII and does not glorify past heroics (choice 1), dwell on war's destruction (choice 2), or warn of future conflicts (choice 4). Students might select choice 2 because they associate war with destruction, but Hughes is using military metaphors constructively for social action. This question evaluates the author's use of metaphor and imagery.",
+      "topic": "Close Reading"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The poet demands a peace that addresses the challenges of 'the poor, the black, of all denied,' arguing that true peace requires social equality and reform.",
-      "diveDeep": "While the poet contrasts war with peace, the core purpose is not merely anti-war (choice 1), and he opposes colonial injustice (choice 3) and supports education (choice 4). Students often select choice 1 because of the peace theme, but the specific demands are for civil rights and societal improvement. This question checks the ability to determine authorial purpose and thematic intent."
+      "diveDeep": "While the poet contrasts war with peace, the core purpose is not merely anti-war (choice 1), and he opposes colonial injustice (choice 3) and supports education (choice 4). Students often select choice 1 because of the peace theme, but the specific demands are for civil rights and societal improvement. This question checks the ability to determine authorial purpose and thematic intent.",
+      "topic": "Close Reading"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The first paragraph defines science as 'a way of thinking much more than it is a body of knowledge' and discusses its goals of challenging dogma and seeking regularities.",
-      "diveDeep": "While the essay later touches on the vastness of the universe (choice 2) and history (choice 3), the opening paragraph focuses on defining what science is. It does not argue for formal schooling (choice 4). Students often choose choice 2 because of the mention of the cosmos, but that is a secondary detail. This question tests the identification of a paragraph's main idea."
+      "diveDeep": "While the essay later touches on the vastness of the universe (choice 2) and history (choice 3), the opening paragraph focuses on defining what science is. It does not argue for formal schooling (choice 4). Students often choose choice 2 because of the mention of the cosmos, but that is a secondary detail. This question tests the identification of a paragraph's main idea.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Sagan pairs the willingness to challenge 'old dogma' with the 'courage to question the conventional wisdom,' using the latter to define the former as established, unexamined beliefs.",
-      "diveDeep": "Dogma represents rigid beliefs, not physical components of matter (choice 1), a perfect indicator (choice 2), or natural events (choice 3). Students often choose 'infallible guide' because they link dogma with authority, but 'conventional wisdom' is the direct textual synonym. This question measures vocabulary context and reading comprehension."
+      "diveDeep": "Dogma represents rigid beliefs, not physical components of matter (choice 1), a perfect indicator (choice 2), or natural events (choice 3). Students often choose 'infallible guide' because they link dogma with authority, but 'conventional wisdom' is the direct textual synonym. This question measures vocabulary context and reading comprehension.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "This sentence encapsulates the main objective of scientific inquiry, which is to look beyond superficial appearances to find the underlying connections and rules governing nature.",
-      "diveDeep": "The other choices focus on the critical mindset of science (choice 2), the pleasure of thinking (choice 3), or human capability (choice 4), which do not summarize the primary goal of scientific exploration. Students may be confused because the quote comes from lines 1-3 (paragraph 1), but the question asks for a summary of a central idea that is developed. This question tests the identification of thematic summaries in expository texts."
+      "diveDeep": "The other choices focus on the critical mindset of science (choice 2), the pleasure of thinking (choice 3), or human capability (choice 4), which do not summarize the primary goal of scientific exploration. Students may be confused because the quote comes from lines 1-3 (paragraph 1), but the question asks for a summary of a central idea that is developed. This question tests the identification of thematic summaries in expository texts.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The passage states that the 'main trick of science is to really think of something' and lists numerous natural observations that lead to questions, such as the shape of clouds or the formation of dewdrops.",
-      "diveDeep": "Sagan rejects simple intuition as an infallible guide (choice 1), and this step precedes formal experimentation (choice 3) or acknowledging limits (choice 4). A common mistake is selecting 'experiment and create laws' because it sounds scientific, but the text defines the 'trick' as the initial act of curious observation. This question checks details and inferences in expository texts."
+      "diveDeep": "Sagan rejects simple intuition as an infallible guide (choice 1), and this step precedes formal experimentation (choice 3) or acknowledging limits (choice 4). A common mistake is selecting 'experiment and create laws' because it sounds scientific, but the text defines the 'trick' as the initial act of curious observation. This question checks details and inferences in expository texts.",
+      "topic": "Close Reading"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "By asking 'Why are the Sun and the Moon and the planets spheres? Why not pyramids...?', the text illustrates how a scientific mind looks at alternative possibilities rather than accepting things as they are.",
-      "diveDeep": "The examples are not proving multiple universes (choice 2), analyzing cultural folklore (choice 3), or explaining why people avoid experiments (choice 4). Students might select choice 3 or 4 if they focus on 'Just So Stories' mentioned nearby, but the questions themselves show the difference between basic acceptance and critical scientific questioning. This question targets the function of examples in an argument."
+      "diveDeep": "The examples are not proving multiple universes (choice 2), analyzing cultural folklore (choice 3), or explaining why people avoid experiments (choice 4). Students might select choice 3 or 4 if they focus on 'Just So Stories' mentioned nearby, but the questions themselves show the difference between basic acceptance and critical scientific questioning. This question targets the function of examples in an argument.",
+      "topic": "Close Reading"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Sagan argues that using our intelligence to understand things gives us a unique, evolutionary pleasure, comparing the brain to a muscle that feels good when used well.",
-      "diveDeep": "Although science involves criticism, this is not the central claim of this section (choice 1), and Sagan notes human perception is often inaccurate (choice 2), while superiority is not the focus (choice 4). Students often choose choice 1 because of the word 'critical,' but the paragraph concludes with a focus on 'exhilaration' and 'ecstasy' of understanding. This question checks the ability to identify the ultimate claim of a text segment."
+      "diveDeep": "Although science involves criticism, this is not the central claim of this section (choice 1), and Sagan notes human perception is often inaccurate (choice 2), while superiority is not the focus (choice 4). Students often choose choice 1 because of the word 'critical,' but the paragraph concludes with a focus on 'exhilaration' and 'ecstasy' of understanding. This question checks the ability to identify the ultimate claim of a text segment.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The simile comparing the brain to a muscle that 'feels good' when exercised illustrates how thinking well leads to physical and emotional pleasure.",
-      "diveDeep": "The comparison does not challenge how the brain works (choice 1), compare human brains to animal brains (choice 2), or describe its physical anatomy (choice 3). Students often choose choice 1 or 2 due to the scientific context, but the metaphor is focused on the positive outcome of cognitive activity. This question evaluates the comprehension of metaphors and similes."
+      "diveDeep": "The comparison does not challenge how the brain works (choice 1), compare human brains to animal brains (choice 2), or describe its physical anatomy (choice 3). Students often choose choice 1 or 2 due to the scientific context, but the metaphor is focused on the positive outcome of cognitive activity. This question evaluates the comprehension of metaphors and similes.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Sagan calculates that a single microgram of salt contains 10 million billion atoms, illustrating the overwhelming, complex structure of even the smallest physical object.",
-      "diveDeep": "While salt is later described as predictable in its crystal structure, the initial details in these lines emphasize the enormous number of individual atoms (complexity), rather than connection (choice 1), order (choice 3), or uniqueness (choice 4). Students often jump to 'predictability' because they know salt is a crystal, but lines 41-47 focus on the sheer count of atoms. This question tests analyzing specific textual evidence for key themes."
+      "diveDeep": "While salt is later described as predictable in its crystal structure, the initial details in these lines emphasize the enormous number of individual atoms (complexity), rather than connection (choice 1), order (choice 3), or uniqueness (choice 4). Students often jump to 'predictability' because they know salt is a crystal, but lines 41-47 focus on the sheer count of atoms. This question tests analyzing specific textual evidence for key themes.",
+      "topic": "Close Reading"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The irony that a tiny, simple grain of salt contains more information than the human brain can possibly hold creates a profound sense of awe at the scale of the universe.",
-      "diveDeep": "The irony is not meant to be funny (choice 1), express skepticism about science (choice 2), or show contempt (choice 3). Students often mistake the limitations of the brain for a message of doubt, failing to see the author's reverent tone. This question measures understanding of the emotional and rhetorical effects of irony."
+      "diveDeep": "The irony is not meant to be funny (choice 1), express skepticism about science (choice 2), or show contempt (choice 3). Students often mistake the limitations of the brain for a message of doubt, failing to see the author's reverent tone. This question measures understanding of the emotional and rhetorical effects of irony.",
+      "topic": "Close Reading"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Sagan believes that human beings find joy and fulfillment in understanding the universe, making scientific thinking vital to our happiness and survival.",
-      "diveDeep": "Sagan states the brain's capacity is limited (choice 2), does not restrict science only to objective facts (choice 3), and denies that full knowledge of the universe is possible (choice 4). Students might select choice 2 or 4 due to a misunderstanding of the discussion of computers and laws, but Sagan explicitly states the universe is 'astonishingly immune to any human attempt at full knowledge.' This question evaluates the synthesis of an author's perspective and beliefs."
+      "diveDeep": "Sagan states the brain's capacity is limited (choice 2), does not restrict science only to objective facts (choice 3), and denies that full knowledge of the universe is possible (choice 4). Students might select choice 2 or 4 due to a misunderstanding of the discussion of computers and laws, but Sagan explicitly states the universe is 'astonishingly immune to any human attempt at full knowledge.' This question evaluates the synthesis of an author's perspective and beliefs.",
+      "topic": "Inference"
     }
   ]
 }

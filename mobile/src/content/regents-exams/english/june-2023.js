@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-jun-2023",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The daughter asking 'Why?' in response to her mother's instruction introduces immediate friction, creating a mood of tension (Choice D).",
-      "diveDeep": "This question tests the Regents reading skill of identifying mood created by dialogue. Choice A is incorrect because the characters are stubborn and confrontational, not anxious. Choice B is incorrect because 'Why?' challenge demonstrates defiance rather than respect. Choice C is incorrect because the confrontation is uncomfortable, not content. Students often confuse anxiety with tension, but tension specifically denotes interpersonal strain and opposition. The strategy is to analyze the power dynamic of a child challenging a mother's order."
+      "diveDeep": "This question tests the Regents reading skill of identifying mood created by dialogue. Choice A is incorrect because the characters are stubborn and confrontational, not anxious. Choice B is incorrect because 'Why?' challenge demonstrates defiance rather than respect. Choice C is incorrect because the confrontation is uncomfortable, not content. Students often confuse anxiety with tension, but tension specifically denotes interpersonal strain and opposition. The strategy is to analyze the power dynamic of a child challenging a mother's order.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The narrator's detailed observations of her mother's physical gestures and weary posture reflect a sudden recognition of her mother's basic humanity, making Choice B correct.",
-      "diveDeep": "This question tests the Regents skill of analyzing characterization through detailed descriptions. Choice A is incorrect because her mother's domestic skills are not the focus of these specific lines. Choice C is incorrect because the mother is described in earthy, physical terms rather than spiritual ones. Choice D is incorrect because she is seeing her mother as a complex person, not just a tired worker. A common mistake is selecting D because of the physical description of weariness, but the passage builds to a broader realization of her mother as an individual human being. The strategy is to choose the option that reflects this deeper emotional realization."
+      "diveDeep": "This question tests the Regents skill of analyzing characterization through detailed descriptions. Choice A is incorrect because her mother's domestic skills are not the focus of these specific lines. Choice C is incorrect because the mother is described in earthy, physical terms rather than spiritual ones. Choice D is incorrect because she is seeing her mother as a complex person, not just a tired worker. A common mistake is selecting D because of the physical description of weariness, but the passage builds to a broader realization of her mother as an individual human being. The strategy is to choose the option that reflects this deeper emotional realization.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Lines 37 through 40 depict the mother carrying out her chores in a systematic, methodical way, characterizing her as highly disciplined (Choice D).",
-      "diveDeep": "This question tests characterization through action. Choice A is incorrect because her patience is wearing thin. Choice B is incorrect because she is baking a standard recipe, not doing something creative. Choice C is incorrect because she is strict and holds her ground, not showing forgiveness. Students often choose A because mothers are stereotypically patient, but the text emphasizes her orderly and rigid compliance with chores. The strategy is to match the description of strict routine to 'disciplined.'"
+      "diveDeep": "This question tests characterization through action. Choice A is incorrect because her patience is wearing thin. Choice B is incorrect because she is baking a standard recipe, not doing something creative. Choice C is incorrect because she is strict and holds her ground, not showing forgiveness. Students often choose A because mothers are stereotypically patient, but the text emphasizes her orderly and rigid compliance with chores. The strategy is to match the description of strict routine to 'disciplined.'",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The dialogue in lines 45 through 54 depicts a battle of wills between the mother and daughter over a simple kitchen task, representing their struggle for control (Choice B).",
-      "diveDeep": "This question tests the Regents skill of linking dialogue to a central conflict. Choice A is incorrect because neither character is sacrificing anything in this argument. Choice C is incorrect because they are actively fighting rather than accepting the situation. Choice D is incorrect because they do not reach a compromise, but rather keep arguing. A common error is choosing C because it is a family story, but this specific dialogue highlights a stubborn power struggle. The strategy is to analyze who is ordering whom and how the other resists."
+      "diveDeep": "This question tests the Regents skill of linking dialogue to a central conflict. Choice A is incorrect because neither character is sacrificing anything in this argument. Choice C is incorrect because they are actively fighting rather than accepting the situation. Choice D is incorrect because they do not reach a compromise, but rather keep arguing. A common error is choosing C because it is a family story, but this specific dialogue highlights a stubborn power struggle. The strategy is to analyze who is ordering whom and how the other resists.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The figurative language describing the mother's expression emphasizes her feelings of bewilderment and confusion in dealing with her daughter's defiance, matching Choice A.",
-      "diveDeep": "This question tests the interpretation of figurative language. Choice B is incorrect because Marie is acting defiant, not seeking guidance. Choice C is incorrect because the mother is standing with hands on hips, not showing a need for support. Choice D is incorrect because Marie's interest is in resisting, not learning. Students often pick B or D because they are student-teacher or parent-child archetypes, but the mother is the one described as being at a loss. The strategy is to look at the description of the mother's face and match it to her internal confusion."
+      "diveDeep": "This question tests the interpretation of figurative language. Choice B is incorrect because Marie is acting defiant, not seeking guidance. Choice C is incorrect because the mother is standing with hands on hips, not showing a need for support. Choice D is incorrect because Marie's interest is in resisting, not learning. Students often pick B or D because they are student-teacher or parent-child archetypes, but the mother is the one described as being at a loss. The strategy is to look at the description of the mother's face and match it to her internal confusion.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Lines 79 through 81 describe the mother realizing that Marie is making her own choices and standing her ground, representing her independence (Choice A).",
-      "diveDeep": "This question tests drawing inferences about character development. Choice B is incorrect because Marie's behavior is stubborn and literal, not imaginative. Choice C is incorrect because Marie is acting rebellious and rude, which is the opposite of innocence. Choice D is incorrect because Marie is acting out of deliberate stubborness rather than intuition. A common student mistake is choosing C due to Marie's age, but the mother's realization is that her daughter is growing up and becoming independent. The strategy is to look at the mother's comment 'You're growing up' as a marker of independence."
+      "diveDeep": "This question tests drawing inferences about character development. Choice B is incorrect because Marie's behavior is stubborn and literal, not imaginative. Choice C is incorrect because Marie is acting rebellious and rude, which is the opposite of innocence. Choice D is incorrect because Marie is acting out of deliberate stubborness rather than intuition. A common student mistake is choosing C due to Marie's age, but the mother's realization is that her daughter is growing up and becoming independent. The strategy is to look at the mother's comment 'You're growing up' as a marker of independence.",
+      "topic": "Close Reading"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The narrator saying yes while looking out the window toward the sun (Choice C) best illustrates her reluctance and desire to be elsewhere rather than helping in the kitchen.",
-      "diveDeep": "This question tests the Regents skill of matching a character trait (reluctance) to the best supporting quote. Choice A describes a physical action of fetching soda. Choice B describes her recognition of her mother's anger. Choice D describes her anticipating an accusation. Students often pick B because it shows tension, but only C visually represents her internal reluctance by showing her body agreeing while her attention wanders to the door. The strategy is to look for the quote that shows a conflict between duty and desire."
+      "diveDeep": "This question tests the Regents skill of matching a character trait (reluctance) to the best supporting quote. Choice A describes a physical action of fetching soda. Choice B describes her recognition of her mother's anger. Choice D describes her anticipating an accusation. Students often pick B because it shows tension, but only C visually represents her internal reluctance by showing her body agreeing while her attention wanders to the door. The strategy is to look for the quote that shows a conflict between duty and desire.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Marie's exaggerated and literal responses to her mother convey a defiant and mocking attitude of sarcasm, which is Choice B.",
-      "diveDeep": "This question tests the tone of character dialogue. Choice A is incorrect because Marie is standing her ground and lacks fear. Choice C is incorrect because she is disobeying, the opposite of submission. Choice D is incorrect because her attitude is youthful rebellion rather than mature cynicism. A common error is choosing A because of the threat of punishment, but Marie's actual language is cheeky and sarcastic. The strategy is to look at the definition of 'impertinence' provided in the footnotes to confirm her sarcasm."
+      "diveDeep": "This question tests the tone of character dialogue. Choice A is incorrect because Marie is standing her ground and lacks fear. Choice C is incorrect because she is disobeying, the opposite of submission. Choice D is incorrect because her attitude is youthful rebellion rather than mature cynicism. A common error is choosing A because of the threat of punishment, but Marie's actual language is cheeky and sarcastic. The strategy is to look at the definition of 'impertinence' provided in the footnotes to confirm her sarcasm.",
+      "topic": "Close Reading"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The mother's realization that her daughter is growing up and their changing interaction show that their relationship is undergoing change (Choice A).",
-      "diveDeep": "This question tests drawing a broad inference about a relationship. Choice B is incorrect because their current interaction is marked by conflict rather than mutual respect. Choice C is incorrect because both show intense emotions of anger, stubborness, and love. Choice D is incorrect because experience is not what hinders them. Students often choose B because it is a positive trait, but the text describes a transition period of growing up. The strategy is to focus on the mother's final quiet observation that 'this is how it's going to be.'"
+      "diveDeep": "This question tests drawing a broad inference about a relationship. Choice B is incorrect because their current interaction is marked by conflict rather than mutual respect. Choice C is incorrect because both show intense emotions of anger, stubborness, and love. Choice D is incorrect because experience is not what hinders them. Students often choose B because it is a positive trait, but the text describes a transition period of growing up. The strategy is to focus on the mother's final quiet observation that 'this is how it's going to be.'",
+      "topic": "Inference"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The mother's line, 'I suppose this is how it’s going to be,' best supports the central idea of the passage, reflecting her acceptance of her daughter's inevitable growth and change. This matches Choice D.",
-      "diveDeep": "This question tests the identification of the quote that best supports the central theme. Choice A is a simple query about chores. Choice B is a strict instruction about baking ingredients. Choice C is a logistical detail about meeting her father. A common mistake is selecting B because it sounds dramatic, but only D summarizes the central thematic shift of the mother recognizing her daughter's transition into adulthood. The strategy is to find the quote that addresses the change in their relationship."
+      "diveDeep": "This question tests the identification of the quote that best supports the central theme. Choice A is a simple query about chores. Choice B is a strict instruction about baking ingredients. Choice C is a logistical detail about meeting her father. A common mistake is selecting B because it sounds dramatic, but only D summarizes the central thematic shift of the mother recognizing her daughter's transition into adulthood. The strategy is to find the quote that addresses the change in their relationship.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The narrator's statement that their ways must sever and they must go to the left and right acknowledges the inevitability of separation, making Choice C correct.",
-      "diveDeep": "This question tests the Regents skill of identifying the central theme of a poem's opening lines. Choice A is incorrect because they are not yet defeated, only parting. Choice B is incorrect because sickness is not discussed. Choice D is incorrect because they are parting as friends ('pledge from the heart'), not in disagreement. A common student mistake is choosing D due to the physical separation, but they are separating paths, not having an argument. The strategy is to look at the path metaphor ('You to the left and I to the right') as a symbol for parting ways."
+      "diveDeep": "This question tests the Regents skill of identifying the central theme of a poem's opening lines. Choice A is incorrect because they are not yet defeated, only parting. Choice B is incorrect because sickness is not discussed. Choice D is incorrect because they are parting as friends ('pledge from the heart'), not in disagreement. A common student mistake is choosing D due to the physical separation, but they are separating paths, not having an argument. The strategy is to look at the path metaphor ('You to the left and I to the right') as a symbol for parting ways.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Lines 11 through 14 state that the wheel was weighted and they won what was fated, suggesting that fortune is a result of destiny rather than persistence (Choice D).",
-      "diveDeep": "This question tests the interpretation of figurative language regarding fate. Choice A is incorrect because privilege is not mentioned. Choice B is incorrect because confidence is not contrasted with fear here. Choice C is incorrect because the poem focuses on luck and destiny, not compassion. Students often choose B because the tone is brave, but the text explicitly credits outcome to the 'weighted wheel' and what was 'fated.' The strategy is to associate 'weighted wheel' and 'fated' with destiny."
+      "diveDeep": "This question tests the interpretation of figurative language regarding fate. Choice A is incorrect because privilege is not mentioned. Choice B is incorrect because confidence is not contrasted with fear here. Choice C is incorrect because the poem focuses on luck and destiny, not compassion. Students often choose B because the tone is brave, but the text explicitly credits outcome to the 'weighted wheel' and what was 'fated.' The strategy is to associate 'weighted wheel' and 'fated' with destiny.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The act of clasping hands at the crossroads signifies a pledge of loyalty and a sense of alliance between the travelers before they part (Choice D).",
-      "diveDeep": "This question tests the symbolic meaning of a physical gesture. Choice A is incorrect because there is no mystery or fascination. Choice B is incorrect because they are friendly and cooperative, not discontented. Choice C is incorrect because they have no sins to repent. A common error is choosing B because of the bad weather, but the hand clasp itself is a sign of solidarity and alliance. The strategy is to ask what 'clasping hands' traditionally represents—unity and partnership."
+      "diveDeep": "This question tests the symbolic meaning of a physical gesture. Choice A is incorrect because there is no mystery or fascination. Choice B is incorrect because they are friendly and cooperative, not discontented. Choice C is incorrect because they have no sins to repent. A common error is choosing B because of the bad weather, but the hand clasp itself is a sign of solidarity and alliance. The strategy is to ask what 'clasping hands' traditionally represents—unity and partnership.",
+      "topic": "Close Reading"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The reference to the 'Fiend’s own night for weather' creates an ominous atmosphere that reflects impending trouble on their journeys, which is Choice B.",
-      "diveDeep": "This question tests the analysis of mood in figurative language. Choice A is incorrect because the weather imagery is dark and threatening, not confused. Choice C is incorrect because the storm represents future challenges, not past mistakes. Choice D is incorrect because their march is described as steady and deliberate, not reckless. Students often select A because they confuse the 'crossroads' choice with confusion, but the weather itself represents external hardship and trouble. The strategy is to look at the negative connotations of 'Fiend's own night' to choose 'impending trouble.'"
+      "diveDeep": "This question tests the analysis of mood in figurative language. Choice A is incorrect because the weather imagery is dark and threatening, not confused. Choice C is incorrect because the storm represents future challenges, not past mistakes. Choice D is incorrect because their march is described as steady and deliberate, not reckless. Students often select A because they confuse the 'crossroads' choice with confusion, but the weather itself represents external hardship and trouble. The strategy is to look at the negative connotations of 'Fiend's own night' to choose 'impending trouble.'",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The description of Marcin spidering down waterfalls and crawling through tight tunnels indicates that caving requires extreme physical agility (Choice B).",
-      "diveDeep": "This question tests drawing inferences about physical activities from text details. Choice A is incorrect because they must move slowly and carefully, not with speed. Choice C is incorrect because caving relies on technology and logic rather than simple intuition. Choice D is incorrect because while memory is useful, the physical actions described require body coordination and agility. A common mistake is selecting A because of 'spidered down,' but the text emphasizes the tight, difficult spaces that demand flexible body movement rather than speed. The strategy is to analyze the verbs (inch, belly, crawl) as indicators of agility."
+      "diveDeep": "This question tests drawing inferences about physical activities from text details. Choice A is incorrect because they must move slowly and carefully, not with speed. Choice C is incorrect because caving relies on technology and logic rather than simple intuition. Choice D is incorrect because while memory is useful, the physical actions described require body coordination and agility. A common mistake is selecting A because of 'spidered down,' but the text emphasizes the tight, difficult spaces that demand flexible body movement rather than speed. The strategy is to analyze the verbs (inch, belly, crawl) as indicators of agility.",
+      "topic": "Inference"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "In context, the two men are rebuilding their gear by taking components from an extra kit and using them to fix broken parts, meaning they are repurposing existing resources (Choice D).",
-      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because they are trying to save and fix their tools, not destroy them. Choice B is incorrect because they are actively working on gear, not sorting inventory. Choice C is incorrect because they are not dealing with waste disposal. Students often confuse 'cannibalizing' with destruction because of the word's origins, but in engineering, it refers to reusing parts. The strategy is to look at the phrase 'cannibalizing components from an extra kit' to see it means using old parts to fix others."
+      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because they are trying to save and fix their tools, not destroy them. Choice B is incorrect because they are actively working on gear, not sorting inventory. Choice C is incorrect because they are not dealing with waste disposal. Students often confuse 'cannibalizing' with destruction because of the word's origins, but in engineering, it refers to reusing parts. The strategy is to look at the phrase 'cannibalizing components from an extra kit' to see it means using old parts to fix others.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Lines 19 through 23 state that to find something truly new that no human has ever seen, you must go deep underground, depicting the cavers as pioneers of exploration (Choice A).",
-      "diveDeep": "This question tests the identification of character roles and themes. Choice B is incorrect because they are explorers, not news reporters. Choice C is incorrect because they are using existing gear, not inventing new products here. Choice D is incorrect because while they use science, their primary role in these lines is that of physical explorers/discoverers. A common error is choosing D because scientists are mentioned, but the text focuses on the thrill of mapping the unknown, which is the role of a pioneer. The strategy is to connect the search for 'something no human had ever seen' to the definition of a pioneer."
+      "diveDeep": "This question tests the identification of character roles and themes. Choice B is incorrect because they are explorers, not news reporters. Choice C is incorrect because they are using existing gear, not inventing new products here. Choice D is incorrect because while they use science, their primary role in these lines is that of physical explorers/discoverers. A common error is choosing D because scientists are mentioned, but the text focuses on the thrill of mapping the unknown, which is the role of a pioneer. The strategy is to connect the search for 'something no human had ever seen' to the definition of a pioneer.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Lines 24 through 30 explain how limestone is deposited by ancient seas and dissolved by carbon dioxide in water, serving to provide geological information to the reader (Choice B).",
-      "diveDeep": "This question tests the structural purpose of an expository paragraph. Choice A is incorrect because these are scientific facts, not general public beliefs. Choice C is incorrect because the lines explain a process rather than calling for more research. Choice D is incorrect because the dissolving of limestone is a proven geological process, not a new theory. Students often choose D because science articles contain theories, but this is basic geology. The strategy is to look at the textbook-like explanation of limestone and water to select 'geological information.'"
+      "diveDeep": "This question tests the structural purpose of an expository paragraph. Choice A is incorrect because these are scientific facts, not general public beliefs. Choice C is incorrect because the lines explain a process rather than calling for more research. Choice D is incorrect because the dissolving of limestone is a proven geological process, not a new theory. Students often choose D because science articles contain theories, but this is basic geology. The strategy is to look at the textbook-like explanation of limestone and water to select 'geological information.'",
+      "topic": "Close Reading"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The details describing the transportation of six truckloads of material over twelve hundred miles and up a mountain stress the massive immensity of the caving task, which is Choice C.",
-      "diveDeep": "This question tests the rhetorical function of supporting details. Choice A is incorrect because the logistics are about equipment, not the physical exhaustion of the team. Choice B is incorrect because the monetary expense is not detailed. Choice D is incorrect because the logistics show an incredibly organized, rather than disorderly, effort. A common mistake is selecting A because caving is hard work, but the paragraph focuses on the sheer volume of supplies and camps required. The strategy is to look at the quantitative details (six truckloads, twelve hundred miles, four camps) to choose 'immensity.'"
+      "diveDeep": "This question tests the rhetorical function of supporting details. Choice A is incorrect because the logistics are about equipment, not the physical exhaustion of the team. Choice B is incorrect because the monetary expense is not detailed. Choice D is incorrect because the logistics show an incredibly organized, rather than disorderly, effort. A common mistake is selecting A because caving is hard work, but the paragraph focuses on the sheer volume of supplies and camps required. The strategy is to look at the quantitative details (six truckloads, twelve hundred miles, four camps) to choose 'immensity.'",
+      "topic": "Close Reading"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The phrase describes how toothbrushes lose handles and forks lose tines, showing that the caving equipment has evolved to be as light and efficient as possible (Choice D).",
-      "diveDeep": "This question tests the interpretation of figurative analogy in context. Choice A is incorrect because map revision is not discussed in relation to gear. Choice B is incorrect because cutting weight is a preventive measure, not a sign of increased injuries. Choice C is incorrect because the gear is for the divers' use, not site conservation. A common student error is selecting B because of the word 'limbs,' but this is a metaphorical description of gear modifications. The strategy is to look at the subsequent list of modified tools (toothbrushes, forks, packs) to confirm it refers to equipment evolution."
+      "diveDeep": "This question tests the interpretation of figurative analogy in context. Choice A is incorrect because map revision is not discussed in relation to gear. Choice B is incorrect because cutting weight is a preventive measure, not a sign of increased injuries. Choice C is incorrect because the gear is for the divers' use, not site conservation. A common student error is selecting B because of the word 'limbs,' but this is a metaphorical description of gear modifications. The strategy is to look at the subsequent list of modified tools (toothbrushes, forks, packs) to confirm it refers to equipment evolution.",
+      "topic": "Inference"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The details about David Stone's Ph.D. in structural engineering and his work on robotics for NASA emphasize that developing caving technology requires experience with complex engineering (Choice A).",
-      "diveDeep": "This question tests drawing conclusions from character backgrounds. Choice B is incorrect because the text does not focus on testing the gear in multiple locations. Choice C is incorrect because Stone designed the rebreathers himself. Choice D is incorrect because his space background is a detail showing his expertise, not a mandatory requirement for caving. Students often choose D because NASA is mentioned, but the core point of his background is his high-level engineering skill. The strategy is to connect a Ph.D. in structural engineering to 'complex engineering.'"
+      "diveDeep": "This question tests drawing conclusions from character backgrounds. Choice B is incorrect because the text does not focus on testing the gear in multiple locations. Choice C is incorrect because Stone designed the rebreathers himself. Choice D is incorrect because his space background is a detail showing his expertise, not a mandatory requirement for caving. Students often choose D because NASA is mentioned, but the core point of his background is his high-level engineering skill. The strategy is to connect a Ph.D. in structural engineering to 'complex engineering.'",
+      "topic": "Argument & Structure"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The rule in cave diving to stop, breathe, think, and abort during an adrenaline rush suggests that cavers should interpret adrenaline as a signal to slow down and reassess the situation (Choice C).",
-      "diveDeep": "This question tests the retrieval and interpretation of safety guidelines. Choice A is incorrect because adrenaline is an instinct they must actively override. Choice B is incorrect because they must first control themselves before communicating. Choice D is incorrect because they are advised to abort, not maintain the course. A common error is choosing A because adrenaline is associated with survival instincts, but the text warns that adrenaline is dangerous and must be ignored. The strategy is to match the verbs 'stop, breathe, think' to 'reassess.'"
+      "diveDeep": "This question tests the retrieval and interpretation of safety guidelines. Choice A is incorrect because adrenaline is an instinct they must actively override. Choice B is incorrect because they must first control themselves before communicating. Choice D is incorrect because they are advised to abort, not maintain the course. A common error is choosing A because adrenaline is associated with survival instincts, but the text warns that adrenaline is dangerous and must be ignored. The strategy is to match the verbs 'stop, breathe, think' to 'reassess.'",
+      "topic": "Inference"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The comparison showing that cavers find no windy overlooks or salmon-tinted clouds, only blank walls and sumps, highlights that they enjoy the challenges of caving regardless of the outcome. This matches Choice A.",
-      "diveDeep": "This question tests the thematic analysis of figurative comparisons. Choice B is incorrect because they do not envy climbers; they choose the underground because they want to go where no one has been. Choice C is incorrect because they often reach dead ends without finishing a survey. Choice D is incorrect because they follow strict collective guidelines. Students often choose C because mapping is their job, but the author emphasizes that they continue caving even when there is 'nothing down there' but more cave, showing they love the challenge itself. The strategy is to look at the lack of a rewarding 'climax' or view at the end of a cave."
+      "diveDeep": "This question tests the thematic analysis of figurative comparisons. Choice B is incorrect because they do not envy climbers; they choose the underground because they want to go where no one has been. Choice C is incorrect because they often reach dead ends without finishing a survey. Choice D is incorrect because they follow strict collective guidelines. Students often choose C because mapping is their job, but the author emphasizes that they continue caving even when there is 'nothing down there' but more cave, showing they love the challenge itself. The strategy is to look at the lack of a rewarding 'climax' or view at the end of a cave.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The quote 'It’s not so much a matter of conquering a cave as outlasting it' best illustrates the central idea of the text, emphasizing the role of endurance and preparation over simple conquest. This is Choice C.",
-      "diveDeep": "This question tests the identification of the statement that best captures the central theme of an informational text. Choice A is a descriptive detail of a specific pool. Choice B is a technical rule of cave measurement. Choice D is a detail about technology. A common mistake is selecting D because technology is discussed, but the overarching theme of the caving expeditions is endurance and outlasting the cave's difficulties. The strategy is to select the quote that summarizes the philosophy of deep caving."
+      "diveDeep": "This question tests the identification of the statement that best captures the central theme of an informational text. Choice A is a descriptive detail of a specific pool. Choice B is a technical rule of cave measurement. Choice D is a detail about technology. A common mistake is selecting D because technology is discussed, but the overarching theme of the caving expeditions is endurance and outlasting the cave's difficulties. The strategy is to select the quote that summarizes the philosophy of deep caving.",
+      "topic": "Central Idea & Theme"
     }
   ]
 }

@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-jan-2025",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The Fermi Paradox outlines the contradiction between the high probability of extraterrestrial civilizations and our lack of contact with them, which explains why the Arecibo experiment has not yet succeeded in finding alien life (Choice B).",
-      "diveDeep": "This question tests the Regents reading skill of identifying details and definitions in context. Choice A is incorrect because the age of the universe is not the subject of the paradox. Choice C is incorrect because galaxy expansion is a cosmological fact unrelated to the paradox. Choice D is incorrect because while planets supporting life are part of the premise, the paradox specifically addresses why we haven't found them. A common student mistake is choosing D because it sounds scientific and relevant, but it misses the 'paradox' aspect of why contact has failed. The best strategy is to look at the surrounding text to find the definition of the Fermi Paradox as a question of why we haven't heard from anyone."
+      "diveDeep": "This question tests the Regents reading skill of identifying details and definitions in context. Choice A is incorrect because the age of the universe is not the subject of the paradox. Choice C is incorrect because galaxy expansion is a cosmological fact unrelated to the paradox. Choice D is incorrect because while planets supporting life are part of the premise, the paradox specifically addresses why we haven't found them. A common student mistake is choosing D because it sounds scientific and relevant, but it misses the 'paradox' aspect of why contact has failed. The best strategy is to look at the surrounding text to find the definition of the Fermi Paradox as a question of why we haven't heard from anyone.",
+      "topic": "Close Reading"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The figurative language in line 19 suggests that extraterrestrials may not feel any urge or reason to converse with other species, viewing communication differently than humans do (Choice C).",
-      "diveDeep": "This question tests the Regents skill of interpreting figurative language to understand an author's subtle point. Choice A is incorrect because the text suggests they do not try to make contact, rather than preferring interaction. Choice B is incorrect because they are not actively trying to avoid humans specifically, but rather lack the desire to communicate generally. Choice D is incorrect because the passage does not suggest they relate to humans nonverbally. Students often choose A or D by misinterpreting the comparison. The best strategy is to read the exact line containing the figurative comparison and determine what attitude it conveys about alien communication."
+      "diveDeep": "This question tests the Regents skill of interpreting figurative language to understand an author's subtle point. Choice A is incorrect because the text suggests they do not try to make contact, rather than preferring interaction. Choice B is incorrect because they are not actively trying to avoid humans specifically, but rather lack the desire to communicate generally. Choice D is incorrect because the passage does not suggest they relate to humans nonverbally. Students often choose A or D by misinterpreting the comparison. The best strategy is to read the exact line containing the figurative comparison and determine what attitude it conveys about alien communication.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Alex's death and his final words to his owner are presented as a brief narrative account of an interesting incident, which is the definition of an anecdote (Choice A).",
-      "diveDeep": "This question tests the Regents skill of identifying literary devices. Choice B is incorrect because a metaphor is a direct comparison, whereas the passage tells a story. Choice C is incorrect because an allegory is a story with a hidden symbolic meaning, not a literal description of an event. Choice D is incorrect because a simile uses 'like' or 'as' to compare things. Students often confuse anecdote with allegory because both are narrative forms, but an anecdote is a short, factual story. The strategy is to identify that the text is recounting a specific real-world event to make a point."
+      "diveDeep": "This question tests the Regents skill of identifying literary devices. Choice B is incorrect because a metaphor is a direct comparison, whereas the passage tells a story. Choice C is incorrect because an allegory is a story with a hidden symbolic meaning, not a literal description of an event. Choice D is incorrect because a simile uses 'like' or 'as' to compare things. Students often confuse anecdote with allegory because both are narrative forms, but an anecdote is a short, factual story. The strategy is to identify that the text is recounting a specific real-world event to make a point.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Lines 39 through 44 suggest that extraterrestrials might hear human transmissions but choose to ignore or mimic them rather than engage in meaningful dialogue, making Choice D correct.",
-      "diveDeep": "This question tests the Regents skill of drawing inferences from text. Choice A is incorrect because the text does not say aliens only communicate with nonhuman species. Choice B is incorrect because there is no comparison of intelligence levels. Choice C is incorrect because they may use verbal signals that we just don't understand, rather than preferring nonverbal communication. A common mistake is selecting B because aliens are often stereotyped as superior in sci-fi, but the text does not support this. The strategy is to focus strictly on what the author suggests aliens might do with our signals."
+      "diveDeep": "This question tests the Regents skill of drawing inferences from text. Choice A is incorrect because the text does not say aliens only communicate with nonhuman species. Choice B is incorrect because there is no comparison of intelligence levels. Choice C is incorrect because they may use verbal signals that we just don't understand, rather than preferring nonverbal communication. A common mistake is selecting B because aliens are often stereotyped as superior in sci-fi, but the text does not support this. The strategy is to focus strictly on what the author suggests aliens might do with our signals.",
+      "topic": "Inference"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "In line 64, the word 'primal' is used to describe a deep, natural instinct or urge to vocalize, making 'natural' (Choice B) the most appropriate synonym.",
-      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because 'unique' means one of a kind, which doesn't fit the shared nature of vocalization. Choice C is incorrect because 'deceptive' means misleading, which contradicts the honest nature of creation voices. Choice D is incorrect because 'unknowable' is contradicted by the fact that the parrots understand it. Students often choose A because 'primal' can carry a connotation of being special or first, but in this context, it refers to an organic, natural force. The strategy is to substitute each word into the sentence and check which maintains the original meaning."
+      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because 'unique' means one of a kind, which doesn't fit the shared nature of vocalization. Choice C is incorrect because 'deceptive' means misleading, which contradicts the honest nature of creation voices. Choice D is incorrect because 'unknowable' is contradicted by the fact that the parrots understand it. Students often choose A because 'primal' can carry a connotation of being special or first, but in this context, it refers to an organic, natural force. The strategy is to substitute each word into the sentence and check which maintains the original meaning.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Lines 67 through 76 outline various historical and cultural traditions, demonstrating a persistent connection between vocalization (sound/singing) and spiritual expression, which is Choice B.",
-      "diveDeep": "This question tests the Regents skill of identifying the purpose of a specific textual section. Choice A is incorrect because the text does not compare ancient and modern creation beliefs directly. Choice C is incorrect because the focus is on spiritual and cosmological sounds, not social celebrations. Choice D is incorrect because it focuses on spiritual connection rather than the oral preservation of history. A common student mistake is choosing D due to the word 'traditions,' but the text focuses on spiritual mantras and angels. The strategy is to look at the religious/spiritual nature of the examples given (mantras, angels, spheres)."
+      "diveDeep": "This question tests the Regents skill of identifying the purpose of a specific textual section. Choice A is incorrect because the text does not compare ancient and modern creation beliefs directly. Choice C is incorrect because the focus is on spiritual and cosmological sounds, not social celebrations. Choice D is incorrect because it focuses on spiritual connection rather than the oral preservation of history. A common student mistake is choosing D due to the word 'traditions,' but the text focuses on spiritual mantras and angels. The strategy is to look at the religious/spiritual nature of the examples given (mantras, angels, spheres).",
+      "topic": "Close Reading"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "As used in line 81, the word 'resonant' describes a deep, full, and rich sound that echoes, making 'rich' (Choice A) the correct answer.",
-      "diveDeep": "This question tests the Regents vocabulary-in-context skill. Choice B is incorrect because 'muffled' is the opposite of resonant. Choice C is incorrect because 'startling' implies a sudden shock, which does not fit the description of a continuous sound. Choice D is incorrect because 'harsh' implies an unpleasant tone. Students often choose C because the Big Bang is loud, but 'resonant' specifically refers to the quality of sound. The strategy is to look at the tone of the description and eliminate words with negative connotations."
+      "diveDeep": "This question tests the Regents vocabulary-in-context skill. Choice B is incorrect because 'muffled' is the opposite of resonant. Choice C is incorrect because 'startling' implies a sudden shock, which does not fit the description of a continuous sound. Choice D is incorrect because 'harsh' implies an unpleasant tone. Students often choose C because the Big Bang is loud, but 'resonant' specifically refers to the quality of sound. The strategy is to look at the tone of the description and eliminate words with negative connotations.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The text directly states in line 79 and 83 that the voice of creation is the resonant echo of the Big Bang itself, making Choice D correct.",
-      "diveDeep": "This question tests the Regents skill of locating and retrieving literal information from the text. Choice A is incorrect because 'music of the spheres' is a historical belief, not the scientific cause identified by the narrator. Choice B is incorrect because 'language used by angels' is another historical belief. Choice C is incorrect because reciting mantras is a human practice, not the source of the cosmic voice. Students often get confused by the poetic list of beliefs and pick A or B, but the narrator identifies the Big Bang as the true scientific source. The strategy is to follow the cause-and-effect relationship specified in lines 79-83."
+      "diveDeep": "This question tests the Regents skill of locating and retrieving literal information from the text. Choice A is incorrect because 'music of the spheres' is a historical belief, not the scientific cause identified by the narrator. Choice B is incorrect because 'language used by angels' is another historical belief. Choice C is incorrect because reciting mantras is a human practice, not the source of the cosmic voice. Students often get confused by the poetic list of beliefs and pick A or B, but the narrator identifies the Big Bang as the true scientific source. The strategy is to follow the cause-and-effect relationship specified in lines 79-83.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The narrator's main argument throughout the text is that humans are ignoring intelligent species on Earth, like parrots, while searching fruitlessly for aliens who are less similar to us than parrots are (Choice C).",
-      "diveDeep": "This question tests the Regents skill of identifying the central idea of a passage. Choice A is incorrect because the size and age of the universe is a detail that sets up the paradox, not the main message. Choice B is incorrect because the historical population of parrots is a supporting detail about extinction. Choice D is incorrect because the greatness of Arecibo is a minor detail about human engineering. A common mistake is selecting A because it sounds like the main theme of a science article, but the text is a parrot's monologue about human neglect of earthly species. The strategy is to look at the speaker's perspective and emotional message."
+      "diveDeep": "This question tests the Regents skill of identifying the central idea of a passage. Choice A is incorrect because the size and age of the universe is a detail that sets up the paradox, not the main message. Choice B is incorrect because the historical population of parrots is a supporting detail about extinction. Choice D is incorrect because the greatness of Arecibo is a minor detail about human engineering. A common mistake is selecting A because it sounds like the main theme of a science article, but the text is a parrot's monologue about human neglect of earthly species. The strategy is to look at the speaker's perspective and emotional message.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The idiom 'petered out' describes a road that slowly narrows, becomes smaller, and eventually dwindles away into nothing, making Choice C correct.",
-      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because 'carried on' implies continuation, the opposite of the definition. Choice B is incorrect because 'branched off' means split, but the road terminates. Choice D is incorrect because 'dipped slightly' refers to elevation, not disappearance. Students often confuse 'petered out' with branching off because roads often split, but the context shows it disappearing in the sand. The strategy is to look at the subsequent verb 'disappeared' to find a synonym."
+      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because 'carried on' implies continuation, the opposite of the definition. Choice B is incorrect because 'branched off' means split, but the road terminates. Choice D is incorrect because 'dipped slightly' refers to elevation, not disappearance. Students often confuse 'petered out' with branching off because roads often split, but the context shows it disappearing in the sand. The strategy is to look at the subsequent verb 'disappeared' to find a synonym.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Comparing the men to seaweed washed up on shore at high tide suggests they are stranded and have a lack of purpose or direction in their retirement, which is Choice A.",
-      "diveDeep": "This question tests the Regents skill of analyzing figurative language (simile). Choice B is incorrect because they are free from obligations in their retirement. Choice C is incorrect because being compared to drifting seaweed implies a complete loss of control. Choice D is incorrect because they are sitting together as companions, not lonely. A common student mistake is choosing D because they look old and stranded, but the simile specifically highlights being cast aside by the tide (loss of utility/purpose). The strategy is to visualize the image of seaweed on a beach—passive, inert, and directionless."
+      "diveDeep": "This question tests the Regents skill of analyzing figurative language (simile). Choice B is incorrect because they are free from obligations in their retirement. Choice C is incorrect because being compared to drifting seaweed implies a complete loss of control. Choice D is incorrect because they are sitting together as companions, not lonely. A common student mistake is choosing D because they look old and stranded, but the simile specifically highlights being cast aside by the tide (loss of utility/purpose). The strategy is to visualize the image of seaweed on a beach—passive, inert, and directionless.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The men are described as 'survivors' of a hard world once theirs, having worked long, difficult days on boats and endured past adversity, making Choice B correct.",
-      "diveDeep": "This question tests characterization and inference. Choice A is incorrect because they are retired and no longer competing. Choice C is incorrect because they are in their native area, not new locations. Choice D is incorrect because they are no longer working. Students often get confused by the word 'survivor' and think it implies a recent accident, but here it refers to enduring a lifetime of harsh maritime labor. The strategy is to look at the descriptions of their scarred faces and dark clothes as evidence of their past struggles."
+      "diveDeep": "This question tests characterization and inference. Choice A is incorrect because they are retired and no longer competing. Choice C is incorrect because they are in their native area, not new locations. Choice D is incorrect because they are no longer working. Students often get confused by the word 'survivor' and think it implies a recent accident, but here it refers to enduring a lifetime of harsh maritime labor. The strategy is to look at the descriptions of their scarred faces and dark clothes as evidence of their past struggles.",
+      "topic": "Inference"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The repetition of 'once' highlights the contrast between their active, working past on the boats and their current, passive state, supporting the central idea of aging (Choice C).",
-      "diveDeep": "This question tests the Regents skill of identifying how repetition reinforces a central theme. Choice A is incorrect because there is no conflict needing forgiveness. Choice B is incorrect because they find peace in nature rather than regret. Choice D is incorrect because they have a clear, peaceful routine, not confusion. Students often pick B because aging is sometimes associated with regret, but the text emphasizes the peace they find in their memories and routine. The strategy is to connect the word 'once' to the passage of time and the process of growing old."
+      "diveDeep": "This question tests the Regents skill of identifying how repetition reinforces a central theme. Choice A is incorrect because there is no conflict needing forgiveness. Choice B is incorrect because they find peace in nature rather than regret. Choice D is incorrect because they have a clear, peaceful routine, not confusion. Students often pick B because aging is sometimes associated with regret, but the text emphasizes the peace they find in their memories and routine. The strategy is to connect the word 'once' to the passage of time and the process of growing old.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The phrase describing their faces as 'scarred by wind and sun' highlights the passage's central theme of a lifetime of hard labor and aging, supporting Choice B.",
-      "diveDeep": "This question tests the Regents skill of selecting supporting details for a central theme. Choice A is incorrect because it is a neutral description of a seat. Choice C is incorrect because it describes the cottages where their families live. Choice D is incorrect because it describes the gulls, which is a setting detail. Students often pick D because it is poetic, but B directly supports the characterization of the men as weathered survivors of the sea. The strategy is to select the phrase that directly describes the characters' enduring nature."
+      "diveDeep": "This question tests the Regents skill of selecting supporting details for a central theme. Choice A is incorrect because it is a neutral description of a seat. Choice C is incorrect because it describes the cottages where their families live. Choice D is incorrect because it describes the gulls, which is a setting detail. Students often pick D because it is poetic, but B directly supports the characterization of the men as weathered survivors of the sea. The strategy is to select the phrase that directly describes the characters' enduring nature.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The metaphor comparing the adolescent brain's remodeling to a 'network and wiring upgrade' links a complex biological process to a simple, familiar technology concept, making Choice D correct.",
-      "diveDeep": "This question tests the Regents skill of identifying the purpose of a metaphor. Choice A is incorrect because it is an explanatory analogy, not a testable scientific hypothesis. Choice B is incorrect because it does not contrast old and new knowledge. Choice C is incorrect because the tone is informative, not ironic. Students often choose B because 'upgrade' implies a change from the past, but the primary function of the metaphor is to make the brain's complex rewiring understandable. The strategy is to identify the two elements compared (brain and computer network) and see how it aids comprehension."
+      "diveDeep": "This question tests the Regents skill of identifying the purpose of a metaphor. Choice A is incorrect because it is an explanatory analogy, not a testable scientific hypothesis. Choice B is incorrect because it does not contrast old and new knowledge. Choice C is incorrect because the tone is informative, not ironic. Students often choose B because 'upgrade' implies a change from the past, but the primary function of the metaphor is to make the brain's complex rewiring understandable. The strategy is to identify the two elements compared (brain and computer network) and see how it aids comprehension.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Synaptic pruning is described as making the brain's cortex thinner but more efficient, thereby altering and improving its overall productivity (Choice C).",
-      "diveDeep": "This question tests the Regents skill of identifying the goal or effect of a biological process. Choice A is incorrect because 'pigment' refers to color, which is unchanged. Choice B is incorrect because 'protection' is not the function of pruning. Choice D is incorrect because 'position' refers to physical location, which stays the same. Students often confuse efficiency with protection, but efficiency is directly related to productivity. The strategy is to look for the synonym of 'efficient' in the choices."
+      "diveDeep": "This question tests the Regents skill of identifying the goal or effect of a biological process. Choice A is incorrect because 'pigment' refers to color, which is unchanged. Choice B is incorrect because 'protection' is not the function of pruning. Choice D is incorrect because 'position' refers to physical location, which stays the same. Students often confuse efficiency with protection, but efficiency is directly related to productivity. The strategy is to look for the synonym of 'efficient' in the choices.",
+      "topic": "Close Reading"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Lines 19 and 20 state that brain maturation was 'once thought' to be finished by elementary school, which notes a common historical misconception about brain development (Choice A).",
-      "diveDeep": "This question tests the Regents skill of identifying rhetorical structure. Choice B is incorrect because the lines describe past beliefs, not future predictions. Choice C is incorrect because it states a historical scientific consensus, not the author's personal opinion. Choice D is incorrect because it presents a debunked idea rather than introducing a new argument. A common student mistake is choosing D because it begins a paragraph, but it acts to set up a contrast with modern findings. The strategy is to recognize the phrase 'once thought' as a signal of a corrected misconception."
+      "diveDeep": "This question tests the Regents skill of identifying rhetorical structure. Choice B is incorrect because the lines describe past beliefs, not future predictions. Choice C is incorrect because it states a historical scientific consensus, not the author's personal opinion. Choice D is incorrect because it presents a debunked idea rather than introducing a new argument. A common student mistake is choosing D because it begins a paragraph, but it acts to set up a contrast with modern findings. The strategy is to recognize the phrase 'once thought' as a signal of a corrected misconception.",
+      "topic": "Close Reading"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The text describes how richer connections develop between memory and the frontal areas, implying that decision-making is greatly enhanced as the brain matures (Choice C).",
-      "diveDeep": "This question tests the Regents skill of drawing inferences about biological development. Choice A is incorrect because memory integration is improved, not adversely affected. Choice B is incorrect because myelination boosts transmission speed, so speed is not compromised. Choice D is incorrect because physical coordination is not the focus of this paragraph. A common mistake is selecting B because the text mentions 'clumsily' at first, but the long-term result of maturation is improvement. The strategy is to focus on the final, positive results of brain development described in lines 25-30."
+      "diveDeep": "This question tests the Regents skill of drawing inferences about biological development. Choice A is incorrect because memory integration is improved, not adversely affected. Choice B is incorrect because myelination boosts transmission speed, so speed is not compromised. Choice D is incorrect because physical coordination is not the focus of this paragraph. A common mistake is selecting B because the text mentions 'clumsily' at first, but the long-term result of maturation is improvement. The strategy is to focus on the final, positive results of brain development described in lines 25-30.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The phrase 'does this work clumsily' and 'hard to get all those new cogs to mesh' implies that normal maturation is an intricate and inconsistent process, matching Choice D.",
-      "diveDeep": "This question tests characterization of a process through figurative language. Choice A is incorrect because the process is slow and changing, not instant. Choice B is incorrect because it is measured by scans, not immeasurable. Choice C is incorrect because the text emphasizes the 'clumsy' and inconsistent behavior of teens, showing it is not uniform. Students often choose C because it is a biological process, but the author emphasizes its unevenness. The strategy is to match the word 'clumsily' to the word 'inconsistent.'"
+      "diveDeep": "This question tests characterization of a process through figurative language. Choice A is incorrect because the process is slow and changing, not instant. Choice B is incorrect because it is measured by scans, not immeasurable. Choice C is incorrect because the text emphasizes the 'clumsy' and inconsistent behavior of teens, showing it is not uniform. Students often choose C because it is a biological process, but the author emphasizes its unevenness. The strategy is to match the word 'clumsily' to the word 'inconsistent.'",
+      "topic": "Argument & Structure"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Comparing the teen brain's impulse control issues to looking away from the road to read a text message presents a familiar, real-world example to the reader, making Choice B correct.",
-      "diveDeep": "This question tests the Regents skill of analyzing the effectiveness of an author's rhetorical choices. Choice A is incorrect because reading a text message is consistent with poor impulse control, not a contradiction. Choice C is incorrect because texting while driving is a real danger, not an inaccurate belief. Choice D is incorrect because the example is directly relevant to explaining teen behavior. Students often choose A because they mistake a comparison for a contradiction. The strategy is to ask how the texting example helps a modern reader relate to the scientific scans."
+      "diveDeep": "This question tests the Regents skill of analyzing the effectiveness of an author's rhetorical choices. Choice A is incorrect because reading a text message is consistent with poor impulse control, not a contradiction. Choice C is incorrect because texting while driving is a real danger, not an inaccurate belief. Choice D is incorrect because the example is directly relevant to explaining teen behavior. Students often choose A because they mistake a comparison for a contradiction. The strategy is to ask how the texting example helps a modern reader relate to the scientific scans.",
+      "topic": "Close Reading"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The text describes these regions as monitoring performance, spotting errors, planning, and resisting temptation, indicating they are areas of the brain that control responses (Choice B).",
-      "diveDeep": "This question tests the ability to define a scientific term using contextual clues. Choice A is incorrect because memory storage is attributed to the hippocampus. Choice C is incorrect because instincts are behaviorally basic functions from the rear of the brain. Choice D is incorrect because retrieving memories is a separate cognitive function. A common mistake is selecting A because of the word 'executive,' but the passage emphasizes that these regions allow us to resist temptation and plan. The strategy is to look at the verbs associated with 'executive regions' in the text."
+      "diveDeep": "This question tests the ability to define a scientific term using contextual clues. Choice A is incorrect because memory storage is attributed to the hippocampus. Choice C is incorrect because instincts are behaviorally basic functions from the rear of the brain. Choice D is incorrect because retrieving memories is a separate cognitive function. A common mistake is selecting A because of the word 'executive,' but the passage emphasizes that these regions allow us to resist temptation and plan. The strategy is to look at the verbs associated with 'executive regions' in the text.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "In neuroscience, 'plasticity' refers to the brain's ability to be rewired by experience, which is its capacity to undergo modification (Choice D).",
-      "diveDeep": "This question tests vocabulary-in-context for a scientific term. Choice A is incorrect because plasticity allows the brain to change and learn, rather than being reluctant. Choice B is incorrect because making distinctions is a cognitive function, not a structural property. Choice C is incorrect because misdirecting information would be a malfunction, not a positive feature of adaptability. Students often choose B because the text mentions 'distinction,' but the paragraph defines plasticity as the window in which experience can rewire connections. The strategy is to associate 'plasticity' with being moldable or modifiable."
+      "diveDeep": "This question tests vocabulary-in-context for a scientific term. Choice A is incorrect because plasticity allows the brain to change and learn, rather than being reluctant. Choice B is incorrect because making distinctions is a cognitive function, not a structural property. Choice C is incorrect because misdirecting information would be a malfunction, not a positive feature of adaptability. Students often choose B because the text mentions 'distinction,' but the paragraph defines plasticity as the window in which experience can rewire connections. The strategy is to associate 'plasticity' with being moldable or modifiable.",
+      "topic": "Close Reading"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The text states that it seems like 'bad news' that key areas aren't running at full speed when challenges are most daunting, but explains this is actually a benefit, providing information contrary to expectations (Choice A).",
-      "diveDeep": "This question tests the Regents skill of identifying the relationship between ideas. Choice B is incorrect because this is a consensus view of myelination, not a debate. Choice C is incorrect because the mechanism is well-understood by neurologists. Choice D is incorrect because it is supported by the research of Douglas Fields. A common student mistake is choosing B because science articles often mention debates, but the text frames this as a surprising but logical fact. The strategy is to recognize that the author sets up a paradox ('seems like bad news') and resolves it."
+      "diveDeep": "This question tests the Regents skill of identifying the relationship between ideas. Choice B is incorrect because this is a consensus view of myelination, not a debate. Choice C is incorrect because the mechanism is well-understood by neurologists. Choice D is incorrect because it is supported by the research of Douglas Fields. A common student mistake is choosing B because science articles often mention debates, but the text frames this as a surprising but logical fact. The strategy is to recognize that the author sets up a paradox ('seems like bad news') and resolves it.",
+      "topic": "Close Reading"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The quote 'speed comes at the price of flexibility' summarizes the main effect of myelination: it accelerates signal speed but locks the wiring in place, reducing plasticity, which matches Choice D.",
-      "diveDeep": "This question tests the Regents skill of identifying the quotation that best summarizes a complex scientific trade-off. Choice A is incorrect because skull growth is a physical, skeletal detail. Choice B is incorrect because synaptic pruning is a separate process from myelination. Choice C is incorrect because the eye sensor is a detail from Beatriz Luna's experiment. Students often choose B because it mentions synapses, but myelination specifically deals with signal speed and flexibility. The strategy is to find the quote that mentions the trade-off of myelination explained by Douglas Fields."
+      "diveDeep": "This question tests the Regents skill of identifying the quotation that best summarizes a complex scientific trade-off. Choice A is incorrect because skull growth is a physical, skeletal detail. Choice B is incorrect because synaptic pruning is a separate process from myelination. Choice C is incorrect because the eye sensor is a detail from Beatriz Luna's experiment. Students often choose B because it mentions synapses, but myelination specifically deals with signal speed and flexibility. The strategy is to find the quote that mentions the trade-off of myelination explained by Douglas Fields.",
+      "topic": "Close Reading"
     }
   ]
 }

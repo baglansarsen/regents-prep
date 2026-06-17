@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-aug-2015",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Swift uses the hypothetical cow dispute to expose the illogical nature of the legal system, showing how it ignores basic facts in favor of convoluted processes.",
-      "diveDeep": "This question tests the ability to analyze satirical intent. Choice B (index 1) is incorrect as the text does not advocate for having many lawyers. Choice C (index 2) is incorrect because the focus is on the systemic absurdity rather than individual ignorance. Choice D (index 3) is incorrect because the traditions are depicted as highly unreasonable. Common student mistakes include choosing options that focus on the lawyers' skills rather than the author's satirical critique of the entire system."
+      "diveDeep": "This question tests the ability to analyze satirical intent. Choice B (index 1) is incorrect as the text does not advocate for having many lawyers. Choice C (index 2) is incorrect because the focus is on the systemic absurdity rather than individual ignorance. Choice D (index 3) is incorrect because the traditions are depicted as highly unreasonable. Common student mistakes include choosing options that focus on the lawyers' skills rather than the author's satirical critique of the entire system.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The narrator's tone in these lines is sarcastic, highlighting the absurdity of how lawyers argue that a cow belongs to someone else.",
-      "diveDeep": "This question tests identifying tone through style. Choice A (index 0) is incorrect because the situation is treated with mockery rather than seriousness. Choice C (index 2) is incorrect because there is no empathy for the lawyers or the system. Choice D (index 3) is incorrect because the narrator is eager to criticize, not reluctant. Students often mistake sarcasm for seriousness because the text uses formal, legalistic language."
+      "diveDeep": "This question tests identifying tone through style. Choice A (index 0) is incorrect because the situation is treated with mockery rather than seriousness. Choice C (index 2) is incorrect because there is no empathy for the lawyers or the system. Choice D (index 3) is incorrect because the narrator is eager to criticize, not reluctant. Students often mistake sarcasm for seriousness because the text uses formal, legalistic language.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The narrator notes that judges are insincere, as they are biased, reject truth, and follow corrupt precedents rather than actual justice.",
-      "diveDeep": "This question tests character motivation and perspective. Choice A (index 0) is incorrect because their practices are mocked, not respected. Choice B (index 1) is incorrect because their actions destroy justice rather than construct it. Choice C (index 2) is incorrect because the judges are actively hostile to truth, not merely indifferent. Students often choose 'indifferent' because judges are supposed to be impartial, but the text shows they are actively corrupt and insincere."
+      "diveDeep": "This question tests character motivation and perspective. Choice A (index 0) is incorrect because their practices are mocked, not respected. Choice B (index 1) is incorrect because their actions destroy justice rather than construct it. Choice C (index 2) is incorrect because the judges are actively hostile to truth, not merely indifferent. Students often choose 'indifferent' because judges are supposed to be impartial, but the text shows they are actively corrupt and insincere.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "In this context, a 'maxim' refers to an established rule or principle that judges follow to make decisions.",
-      "diveDeep": "This question tests vocabulary context clues. Choice B (index 1) is incorrect because a maxim is a statement of principle, not a question. Choice C (index 2) is incorrect because these guidelines are open and institutionalized, not secret. Choice D (index 3) is incorrect because maxims are used to resolve or justify decisions, not to create conflict. Students often guess 'secret' because of the corrupt nature of the court, but 'maxim' specifically denotes a rule."
+      "diveDeep": "This question tests vocabulary context clues. Choice B (index 1) is incorrect because a maxim is a statement of principle, not a question. Choice C (index 2) is incorrect because these guidelines are open and institutionalized, not secret. Choice D (index 3) is incorrect because maxims are used to resolve or justify decisions, not to create conflict. Students often guess 'secret' because of the corrupt nature of the court, but 'maxim' specifically denotes a rule.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The detailed description of the cow's qualities being ignored stresses the legal system's irrelevance to finding the actual truth.",
-      "diveDeep": "This question tests analyzing central ideas through detail. Choice A (index 0) is incorrect because the court does not care about the cow's actual value. Choice C (index 2) is incorrect because the narrator's memory is not a central focus of the satire. Choice D (index 3) is incorrect because the system's history is not being validated. Students often select Choice A because the text details the cow, missing that these details are irrelevant to the court's proceedings."
+      "diveDeep": "This question tests analyzing central ideas through detail. Choice A (index 0) is incorrect because the court does not care about the cow's actual value. Choice C (index 2) is incorrect because the narrator's memory is not a central focus of the satire. Choice D (index 3) is incorrect because the system's history is not being validated. Students often select Choice A because the text details the cow, missing that these details are irrelevant to the court's proceedings.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The narrator characterizes the jargon as deceptively complex ('peculiar cant'), designed to confuse others and obscure simple truths.",
-      "diveDeep": "This question tests style and tone analysis. Choice A (index 0) is incorrect because the jargon serves a practical purpose of deception, not just ceremony. Choice C (index 2) is incorrect because it is meant to confuse, not necessarily insult directly. Choice D (index 3) is incorrect because the language is highly biased and subjective. Students often confuse the mock-complexity of jargon with a purely formal or ceremonial function."
+      "diveDeep": "This question tests style and tone analysis. Choice A (index 0) is incorrect because the jargon serves a practical purpose of deception, not just ceremony. Choice C (index 2) is incorrect because it is meant to confuse, not necessarily insult directly. Choice D (index 3) is incorrect because the language is highly biased and subjective. Students often confuse the mock-complexity of jargon with a purely formal or ceremonial function.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The narrator suggests that in trials for crimes against the state, judges are inclined to submit to higher authority, favoring the government's interest over justice.",
-      "diveDeep": "This question tests logical inference in political satire. Choice A (index 0) is incorrect because common sense is absent in their rulings. Choice B (index 1) is incorrect because state influence, not precedent, dictates these specific outcomes. Choice C (index 2) is incorrect because the length of the sentence is secondary to the act of political submission. Students may choose 'precedent' because it was discussed earlier, but lines 44-46 specifically focus on the influence of political power."
+      "diveDeep": "This question tests logical inference in political satire. Choice A (index 0) is incorrect because common sense is absent in their rulings. Choice B (index 1) is incorrect because state influence, not precedent, dictates these specific outcomes. Choice C (index 2) is incorrect because the length of the sentence is secondary to the act of political submission. Students may choose 'precedent' because it was discussed earlier, but lines 44-46 specifically focus on the influence of political power.",
+      "topic": "Inference"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Swift supports his satirical point of view by employing highly exaggerated descriptions of the legal profession's corruption and absurdity.",
-      "diveDeep": "This question tests rhetorical strategies in satire. Choice A (index 0) is incorrect because the text is a fictional satire, not a historical account. Choice B (index 1) is incorrect because the narrator uses hyperbole rather than concrete, objective evidence. Choice D (index 3) is incorrect because the experiences, though satirical, are presented as typical of the society rather than fantastic. Students often mistake satire for factual critique, missing the rhetorical role of exaggeration."
+      "diveDeep": "This question tests rhetorical strategies in satire. Choice A (index 0) is incorrect because the text is a fictional satire, not a historical account. Choice B (index 1) is incorrect because the narrator uses hyperbole rather than concrete, objective evidence. Choice D (index 3) is incorrect because the experiences, though satirical, are presented as typical of the society rather than fantastic. Students often mistake satire for factual critique, missing the rhetorical role of exaggeration.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The passage as a whole portrays lawyers and judges as fundamentally corrupt, self-serving, and destructive to the concept of truth.",
-      "diveDeep": "This question tests identifying a central theme of a text. Choice A (index 0) is incorrect because their issue is active malice and corruption, not just stubbornness. Choice C (index 2) is incorrect because the narrator believes he understands them perfectly as corrupt agents. Choice D (index 3) is incorrect because they are highly experienced in their corrupt methods. Students may choose 'stubborn' because judges stick to precedents, but the overarching theme is moral and systemic corruption."
+      "diveDeep": "This question tests identifying a central theme of a text. Choice A (index 0) is incorrect because their issue is active malice and corruption, not just stubbornness. Choice C (index 2) is incorrect because the narrator believes he understands them perfectly as corrupt agents. Choice D (index 3) is incorrect because they are highly experienced in their corrupt methods. Students may choose 'stubborn' because judges stick to precedents, but the overarching theme is moral and systemic corruption.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The onion addresses the human with 'poor deluded human,' conveying a mocking yet pitying sense of compassion for their futile search.",
-      "diveDeep": "This question tests character voice and tone. Choice B (index 1) is incorrect because the onion holds power and does not fear the human. Choice C (index 2) is incorrect because the onion represents self-contained unity, not loneliness. Choice D (index 3) is incorrect because the onion's address is bold and direct, not shy. Students often miss the tone of superiority mixed with pity that defines this compassion."
+      "diveDeep": "This question tests character voice and tone. Choice B (index 1) is incorrect because the onion holds power and does not fear the human. Choice C (index 2) is incorrect because the onion represents self-contained unity, not loneliness. Choice D (index 3) is incorrect because the onion's address is bold and direct, not shy. Students often miss the tone of superiority mixed with pity that defines this compassion.",
+      "topic": "Close Reading"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The search for the onion's heart is futile because the onion consists of layers upon layers with no single, solid core (lines 6-7).",
-      "diveDeep": "This question tests metaphor and central theme in poetry. Choice A (index 0) is incorrect because the search is intense and tearful, not boring. Choice B (index 1) is incorrect because peeling an onion in search of a core is complex and frustrating. Choice D (index 3) is incorrect because the search is a prolonged, repetitive process. Students often mistake the physical act of peeling for a simple or brief task, failing to see the metaphorical futility."
+      "diveDeep": "This question tests metaphor and central theme in poetry. Choice A (index 0) is incorrect because the search is intense and tearful, not boring. Choice B (index 1) is incorrect because peeling an onion in search of a core is complex and frustrating. Choice D (index 3) is incorrect because the search is a prolonged, repetitive process. Students often mistake the physical act of peeling for a simple or brief task, failing to see the metaphorical futility.",
+      "topic": "Inference"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The tone shifts from a somewhat pitying, sympathetic address to a critical one, calling the human an 'idiot' and criticizing their way of life (line 10).",
-      "diveDeep": "This question tests structural tone shifts. Choice B (index 1) is incorrect because the tone is not humorous in the beginning. Choice C (index 2) is incorrect because the onion was never hopeful about the human. Choice D (index 3) is incorrect because the onion does not admire the human. Students must pay attention to the transition from the softer 'poor deluded human' to the harsh label of 'idiot.'"
+      "diveDeep": "This question tests structural tone shifts. Choice B (index 1) is incorrect because the tone is not humorous in the beginning. Choice C (index 2) is incorrect because the onion was never hopeful about the human. Choice D (index 3) is incorrect because the onion does not admire the human. Students must pay attention to the transition from the softer 'poor deluded human' to the harsh label of 'idiot.'",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The references to veils remind the reader of the need for clarity, suggesting that reality is naturally layered and cannot be understood by simply ripping things apart.",
-      "diveDeep": "This question tests theme and symbol interpretation. Choice A (index 0) is incorrect because caution does not address the epistemological question of seeing the world. Choice B (index 1) is incorrect because the onion is explaining how things are seen, not advocating for secrets. Choice D (index 3) is incorrect because investigation is what the onion warns against as a destructive force. Students often struggle with this question because they see 'veils' and think of 'secrecy,' but the text asks what the reader needs when facing a veiled world."
+      "diveDeep": "This question tests theme and symbol interpretation. Choice A (index 0) is incorrect because caution does not address the epistemological question of seeing the world. Choice B (index 1) is incorrect because the onion is explaining how things are seen, not advocating for secrets. Choice D (index 3) is incorrect because investigation is what the onion warns against as a destructive force. Students often struggle with this question because they see 'veils' and think of 'secrecy,' but the text asks what the reader needs when facing a veiled world.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The mention of 'onion-juice' and 'stinging shreds' (line 21) suggests that the quest for absolute truth is harsh, leaving the seeker in tears and pieces.",
-      "diveDeep": "This question tests sensory language and intent. Choice A (index 0) is incorrect because the self-reflection is painful, not satisfying. Choice B (index 1) is incorrect because the search is described as destructive rather than noble. Choice C (index 2) is incorrect because the focus is on emotional and philosophical truth, not physical danger. Students often miss the connection between the physical sting of the onion and the emotional pain of seeking truth."
+      "diveDeep": "This question tests sensory language and intent. Choice A (index 0) is incorrect because the self-reflection is painful, not satisfying. Choice B (index 1) is incorrect because the search is described as destructive rather than noble. Choice C (index 2) is incorrect because the focus is on emotional and philosophical truth, not physical danger. Students often miss the connection between the physical sting of the onion and the emotional pain of seeking truth.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The second paragraph draws attention to the marine migration, describing it as a 'greater migration' that is 'nearly unknown' to most people (lines 8-9).",
-      "diveDeep": "This question tests structural analysis of paragraphs. Choice A (index 0) is incorrect because the paragraph describes a natural wildlife migration, not a vacation spot. Choice B (index 1) is incorrect because fishermen are only mentioned in passing. Choice C (index 2) is incorrect because the focus is on the marine life itself, not the scenic beauty of the islands. Students often choose options related to tourism or scenery because of the coastal setting."
+      "diveDeep": "This question tests structural analysis of paragraphs. Choice A (index 0) is incorrect because the paragraph describes a natural wildlife migration, not a vacation spot. Choice B (index 1) is incorrect because fishermen are only mentioned in passing. Choice C (index 2) is incorrect because the focus is on the marine life itself, not the scenic beauty of the islands. Students often choose options related to tourism or scenery because of the coastal setting.",
+      "topic": "Close Reading"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The extensive list of migrating marine species, from anchovies to sharks and tunas, reinforces the theme of biodiversity in the ocean (lines 11-18).",
-      "diveDeep": "This question tests detail analysis. Choice B (index 1) is incorrect because these species are already known, not newly discovered in the passage. Choice C (index 2) is incorrect because the lines describe migration patterns rather than evolutionary adaptations. Choice D (index 3) is incorrect because rehabilitation is not mentioned until the end of the text. Students may choose 'discovery' because the author is observing them, but the list highlights the variety of life."
+      "diveDeep": "This question tests detail analysis. Choice B (index 1) is incorrect because these species are already known, not newly discovered in the passage. Choice C (index 2) is incorrect because the lines describe migration patterns rather than evolutionary adaptations. Choice D (index 3) is incorrect because rehabilitation is not mentioned until the end of the text. Students may choose 'discovery' because the author is observing them, but the list highlights the variety of life.",
+      "topic": "Close Reading"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The narrator walks to the beach to see 'who’d recently arrived,' referring to the incoming migrating wildlife like gulls, ducks, and gannets (line 22).",
-      "diveDeep": "This question tests pronoun/phrase reference. Choice A (index 0) is incorrect because the phrase refers to all arriving migratory birds, not just predators. Choice B (index 1) is incorrect as other observers are not present. Choice D (index 3) is incorrect because the narrator is looking at wildlife, not boats. Students often miss the personification of the world's natural movements as 'arrivals.'"
+      "diveDeep": "This question tests pronoun/phrase reference. Choice A (index 0) is incorrect because the phrase refers to all arriving migratory birds, not just predators. Choice B (index 1) is incorrect as other observers are not present. Choice D (index 3) is incorrect because the narrator is looking at wildlife, not boats. Students often miss the personification of the world's natural movements as 'arrivals.'",
+      "topic": "Close Reading"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Describing the gannets as 'feathered missiles' (line 23) emphasizes their high speed as they dive into the water.",
-      "diveDeep": "This question tests metaphor interpretation. Choice A (index 0) is incorrect because missiles imply direct, purposeful movement rather than confusion. Choice C (index 2) is incorrect because the birds are hunting, not acting out of fear. Choice D (index 3) is incorrect because the metaphor focuses on their visual flight path rather than any sound they make. Students often fail to connect the word 'missile' to its primary physical characteristic of rapid, direct trajectory."
+      "diveDeep": "This question tests metaphor interpretation. Choice A (index 0) is incorrect because missiles imply direct, purposeful movement rather than confusion. Choice C (index 2) is incorrect because the birds are hunting, not acting out of fear. Choice D (index 3) is incorrect because the metaphor focuses on their visual flight path rather than any sound they make. Students often fail to connect the word 'missile' to its primary physical characteristic of rapid, direct trajectory.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Identifying the turtle as a Kemp's ridley, the 'most endangered of all Atlantic turtles,' makes the discovery more serious and significant (lines 29-30).",
-      "diveDeep": "This question tests detail inference. Choice B (index 1) is incorrect because the species identification clarifies what the turtle is, reducing mystery. Choice C (index 2) is incorrect because finding an endangered baby turtle stranded in freezing air is unnatural and alarming. Choice D (index 3) is incorrect because there is no political controversy surrounding the turtle itself. Students often choose 'mysterious' because it is an unexpected find, but the endangered status specifically elevates the gravity (seriousness) of the situation."
+      "diveDeep": "This question tests detail inference. Choice B (index 1) is incorrect because the species identification clarifies what the turtle is, reducing mystery. Choice C (index 2) is incorrect because finding an endangered baby turtle stranded in freezing air is unnatural and alarming. Choice D (index 3) is incorrect because there is no political controversy surrounding the turtle itself. Students often choose 'mysterious' because it is an unexpected find, but the endangered status specifically elevates the gravity (seriousness) of the situation.",
+      "topic": "Close Reading"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "'Boreal' refers to northern or cold conditions, which is supported by the context of 'near-frost' and '49-degree water' (lines 30-31).",
-      "diveDeep": "This question tests vocabulary in context. Choice A (index 0) is incorrect because the air is freezing, not clean in a way that defines 'boreal.' Choice C (index 2) is incorrect because salinity refers to the water, not the air. Choice D (index 3) is incorrect because the day is described as crisp and clear, not hazy. Students often guess 'clean' because of the earlier mention of 'clean-sheet crispness,' but 'boreal' specifically relates to freezing northern temperatures."
+      "diveDeep": "This question tests vocabulary in context. Choice A (index 0) is incorrect because the air is freezing, not clean in a way that defines 'boreal.' Choice C (index 2) is incorrect because salinity refers to the water, not the air. Choice D (index 3) is incorrect because the day is described as crisp and clear, not hazy. Students often guess 'clean' because of the earlier mention of 'clean-sheet crispness,' but 'boreal' specifically relates to freezing northern temperatures.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The shared saltiness highlights the irony of our disinterest in the ocean, showing that we ignore the very environment that is biologically connected to us (line 36).",
-      "diveDeep": "This question tests irony analysis. Choice B (index 1) is incorrect because our connection does not conflict with conservation efforts. Choice C (index 2) is incorrect because the focus is on our neglect and lack of interest rather than active destruction. Choice D (index 3) is incorrect because the line addresses our biological origin rather than our current situation. Students often fail to recognize that the irony lies in ignoring a system that is part of our own biology."
+      "diveDeep": "This question tests irony analysis. Choice B (index 1) is incorrect because our connection does not conflict with conservation efforts. Choice C (index 2) is incorrect because the focus is on our neglect and lack of interest rather than active destruction. Choice D (index 3) is incorrect because the line addresses our biological origin rather than our current situation. Students often fail to recognize that the irony lies in ignoring a system that is part of our own biology.",
+      "topic": "Close Reading"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Lines 49 and 50 establish a cause and effect relationship by explaining that climate change affects ocean habitats by melting ice and warming waters.",
-      "diveDeep": "This question tests cause and effect relationship. Choice A (index 0) describes autumn migrations but does not link them in a direct cause-and-effect argument. Choice B (index 1) describes boat fishing without a broader causal claim. Choice D (index 3) asks a rhetorical question about sharks rather than demonstrating a cause. Students must identify the specific sentence where an action (climate change) causes a reaction (habitat destruction)."
+      "diveDeep": "This question tests cause and effect relationship. Choice A (index 0) describes autumn migrations but does not link them in a direct cause-and-effect argument. Choice B (index 1) describes boat fishing without a broader causal claim. Choice D (index 3) asks a rhetorical question about sharks rather than demonstrating a cause. Students must identify the specific sentence where an action (climate change) causes a reaction (habitat destruction).",
+      "topic": "Close Reading"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The warning that what we regretted happening on land (extinction of species) may happen in the sea reflects the central claim that we must protect the oceans (lines 63-65).",
-      "diveDeep": "This question tests identifying a central claim. Choice A (index 0) is a minor detail about the winter weather. Choice B (index 1) describes a recurring natural event rather than a central claim. Choice C (index 2) describes a commercial relationship but not the main call to action. Students should look for the thesis statement or call to action that summarizes the author's primary warning."
+      "diveDeep": "This question tests identifying a central claim. Choice A (index 0) is a minor detail about the winter weather. Choice B (index 1) describes a recurring natural event rather than a central claim. Choice C (index 2) describes a commercial relationship but not the main call to action. Students should look for the thesis statement or call to action that summarizes the author's primary warning.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The author delays the turtle's recovery details to maintain reader interest and keep the audience engaged in the narrative (lines 66-70).",
-      "diveDeep": "This question tests narrative structure. Choice A (index 0) is incorrect because the turtle's survival is not a counterclaim to any argument. Choice B (index 1) is incorrect because the tone remains serious and hopeful rather than humorous. Choice C (index 2) is incorrect because there is no irony in the turtle's recovery. Students often struggle to analyze structural choices, but keeping a narrative thread open is a classic method to maintain suspense."
+      "diveDeep": "This question tests narrative structure. Choice A (index 0) is incorrect because the turtle's survival is not a counterclaim to any argument. Choice B (index 1) is incorrect because the tone remains serious and hopeful rather than humorous. Choice C (index 2) is incorrect because there is no irony in the turtle's recovery. Students often struggle to analyze structural choices, but keeping a narrative thread open is a classic method to maintain suspense.",
+      "topic": "Argument & Structure"
     }
   ]
 }

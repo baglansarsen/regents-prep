@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-jun-2021",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The opening lines suggest that Clare experiences emotional pain when recalling her sister, as she notes that thinking about Reverdy's fate brings back difficult, painful memories. This corresponds to Choice B.",
-      "diveDeep": "This question tests the Regents reading skill of analyzing character relationships and drawing inferences about emotional states. Choice A is incorrect because there is no indication that Clare feels humiliated by Reverdy's actions, but rather saddened by her memory. Choice C is incorrect because she does not express resentment in these opening lines. Choice D is incorrect because she is sharing her story with the reader, showing she is not being secretive. A common student mistake is choosing C because of the complex family dynamic, but the focus is on her immediate pain of remembrance. The strategy is to look at the emotional tone of the opening lines to identify her grief."
+      "diveDeep": "This question tests the Regents reading skill of analyzing character relationships and drawing inferences about emotional states. Choice A is incorrect because there is no indication that Clare feels humiliated by Reverdy's actions, but rather saddened by her memory. Choice C is incorrect because she does not express resentment in these opening lines. Choice D is incorrect because she is sharing her story with the reader, showing she is not being secretive. A common student mistake is choosing C because of the complex family dynamic, but the focus is on her immediate pain of remembrance. The strategy is to look at the emotional tone of the opening lines to identify her grief.",
+      "topic": "Inference"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The figurative language in lines 14 and 15, comparing Reverdy to a bright or beautiful force, highlights Clare's deep admiration for Reverdy (Choice C).",
-      "diveDeep": "This question tests the Regents skill of identifying the function of figurative language in characterization. Choice A is incorrect because mischievousness is not suggested by the beautiful comparison. Choice B is incorrect because the text describes Clare's internal thoughts, not Reverdy's reaction to attention. Choice D is incorrect because Clare's thoughts are loving and admiring, the opposite of aggressive. Students often choose A because Reverdy gets punished later, but in these specific lines, Clare is expressing pure admiration. The strategy is to focus on the positive connotation of the figurative language."
+      "diveDeep": "This question tests the Regents skill of identifying the function of figurative language in characterization. Choice A is incorrect because mischievousness is not suggested by the beautiful comparison. Choice B is incorrect because the text describes Clare's internal thoughts, not Reverdy's reaction to attention. Choice D is incorrect because Clare's thoughts are loving and admiring, the opposite of aggressive. Students often choose A because Reverdy gets punished later, but in these specific lines, Clare is expressing pure admiration. The strategy is to focus on the positive connotation of the figurative language.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Describing how one sister embraces the wild wind while the other cowers from it demonstrates a sharp contrast between the sisters' personalities and attitudes, making Choice A correct.",
-      "diveDeep": "This question tests the Regents skill of analyzing character foil and contrast. Choice B is incorrect because their different reactions to the wind describe their personality differences rather than foreshadowing a plot conflict. Choice C is incorrect because only one sister appreciates the wind, while Clare is miserable. Choice D is incorrect because their relationship is not described as competitive here. A common student error is choosing C because nature is the subject, but they must notice that the sisters react in opposite ways. The strategy is to identify the juxtaposition of their reactions (one dancing, one hiding)."
+      "diveDeep": "This question tests the Regents skill of analyzing character foil and contrast. Choice B is incorrect because their different reactions to the wind describe their personality differences rather than foreshadowing a plot conflict. Choice C is incorrect because only one sister appreciates the wind, while Clare is miserable. Choice D is incorrect because their relationship is not described as competitive here. A common student error is choosing C because nature is the subject, but they must notice that the sisters react in opposite ways. The strategy is to identify the juxtaposition of their reactions (one dancing, one hiding).",
+      "topic": "Close Reading"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Clare's reaction to Reverdy being punished reveals that she is deeply distressed by Reverdy's situation, feeling anxious and upset on her behalf (Choice D).",
-      "diveDeep": "This question tests the Regents skill of inferring character emotion from narrative details. Choice A is incorrect because Clare is concerned for her sister rather than feeling shame. Choice B is incorrect because reputation is not the focus of her immediate distress. Choice C is incorrect because she is not envious of her sister being punished. Students often choose A because punishment involves wrongdoing, but Clare's internal reaction is one of empathy and worry for Reverdy. The strategy is to match Clare's physical signs of distress (anxiety, grittiness) to her empathy."
+      "diveDeep": "This question tests the Regents skill of inferring character emotion from narrative details. Choice A is incorrect because Clare is concerned for her sister rather than feeling shame. Choice B is incorrect because reputation is not the focus of her immediate distress. Choice C is incorrect because she is not envious of her sister being punished. Students often choose A because punishment involves wrongdoing, but Clare's internal reaction is one of empathy and worry for Reverdy. The strategy is to match Clare's physical signs of distress (anxiety, grittiness) to her empathy.",
+      "topic": "Inference"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "In lines 49 through 54, Clare rationalizes her actions and attitude, conveying her justification for her own behavior in comparison to Reverdy's, which is Choice C.",
-      "diveDeep": "This question tests the Regents skill of analyzing character motivation and internal monologue. Choice A is incorrect because she is seeking tenderness/understanding, not rejecting it. Choice B is incorrect because she is defending herself rather than admitting a mistake. Choice D is incorrect because she is explaining her past actions rather than showing reluctance to change. A common error is choosing B because she reflects on the past, but the tone is self-defensive rather than apologetic. The strategy is to identify how she compares her own 'good' behavior to Reverdy's actions to defend herself."
+      "diveDeep": "This question tests the Regents skill of analyzing character motivation and internal monologue. Choice A is incorrect because she is seeking tenderness/understanding, not rejecting it. Choice B is incorrect because she is defending herself rather than admitting a mistake. Choice D is incorrect because she is explaining her past actions rather than showing reluctance to change. A common error is choosing B because she reflects on the past, but the tone is self-defensive rather than apologetic. The strategy is to identify how she compares her own 'good' behavior to Reverdy's actions to defend herself.",
+      "topic": "Close Reading"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "In context, the phrase 'battened on' describes how one sister drew strength or thrived at the expense of the other, meaning she benefited from the situation (Choice B).",
-      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because questioning does not fit the context of growing or thriving. Choice C is incorrect because the sister is taking advantage of, not learning from, the other's status. Choice D is incorrect because the benefits were real, not imagined. Students often guess A or C because 'batten' is an unfamiliar word. The strategy is to substitute 'benefited from' into the sentence and check if it aligns with the idea of one sister gaining an advantage."
+      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because questioning does not fit the context of growing or thriving. Choice C is incorrect because the sister is taking advantage of, not learning from, the other's status. Choice D is incorrect because the benefits were real, not imagined. Students often guess A or C because 'batten' is an unfamiliar word. The strategy is to substitute 'benefited from' into the sentence and check if it aligns with the idea of one sister gaining an advantage.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Clare volunteers to play the piano because she hopes it will show her mother how thoughtful and reliable she is, indicating she wants to be her mother's favorite (Choice D).",
-      "diveDeep": "This question tests the Regents skill of identifying character motivation. Choice A is incorrect because she is trying to secure her own position, not mediate a dispute. Choice B is incorrect because her brother is not the target of her actions. Choice C is incorrect because she is acting out of self-interest rather than a desire to console Reverdy. Students often choose C because they want the narrator to be selfless, but the text explicitly states she wanted to show Mother how reliable *she* was. The strategy is to look at Clare's direct statement about showing Mother her reliability."
+      "diveDeep": "This question tests the Regents skill of identifying character motivation. Choice A is incorrect because she is trying to secure her own position, not mediate a dispute. Choice B is incorrect because her brother is not the target of her actions. Choice C is incorrect because she is acting out of self-interest rather than a desire to console Reverdy. Students often choose C because they want the narrator to be selfless, but the text explicitly states she wanted to show Mother how reliable *she* was. The strategy is to look at Clare's direct statement about showing Mother her reliability.",
+      "topic": "Close Reading"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The text shows that the mother's coldness and strict attitude toward Reverdy shape how the sisters behave and react to each other, indicating that family interactions are influenced by Mother's attitude toward Reverdy (Choice D).",
-      "diveDeep": "This question tests the Regents skill of identifying a primary thematic conflict in a passage. Choice A is incorrect because Reverdy's relationship with Mother is strained, not loving. Choice B is incorrect because Mother does not rely on Clare in a meaningful way. Choice C is incorrect because Reverdy is not the one driving the family's tension. A common mistake is selecting C because the sisters are the main characters, but the underlying tension is driven by the mother's harshness toward Reverdy. The strategy is to analyze what causes the characters' anxiety throughout the story."
+      "diveDeep": "This question tests the Regents skill of identifying a primary thematic conflict in a passage. Choice A is incorrect because Reverdy's relationship with Mother is strained, not loving. Choice B is incorrect because Mother does not rely on Clare in a meaningful way. Choice C is incorrect because Reverdy is not the one driving the family's tension. A common mistake is selecting C because the sisters are the main characters, but the underlying tension is driven by the mother's harshness toward Reverdy. The strategy is to analyze what causes the characters' anxiety throughout the story.",
+      "topic": "Inference"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "By addressing the reader directly as 'you,' the narrator breaks the distance and draws the reader into her feelings, contributing to the reader's sympathy for her situation (Choice B).",
-      "diveDeep": "This question tests the Regents skill of analyzing point of view and its rhetorical effect on the audience. Choice A is incorrect because the story is sad, not prompting optimism. Choice C is incorrect because the direct address builds emotional connection rather than intellectual curiosity. Choice D is incorrect because second person makes the reader feel included rather than suspicious. Students often choose C because 'you' sounds engaging, but its specific emotional function here is to make the reader empathize with the narrator. The strategy is to connect direct address ('you') to intimacy and sympathy."
+      "diveDeep": "This question tests the Regents skill of analyzing point of view and its rhetorical effect on the audience. Choice A is incorrect because the story is sad, not prompting optimism. Choice C is incorrect because the direct address builds emotional connection rather than intellectual curiosity. Choice D is incorrect because second person makes the reader feel included rather than suspicious. Students often choose C because 'you' sounds engaging, but its specific emotional function here is to make the reader empathize with the narrator. The strategy is to connect direct address ('you') to intimacy and sympathy.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The statement that 'it is worse to have a good thing that is not true believed about you, than a bad' reflects the central idea of the passage, where Clare struggles with the burden of her false reputation as the 'good' daughter. This is Choice A.",
-      "diveDeep": "This question tests the Regents skill of identifying the quotation that best expresses the text's central theme. Choice B is incorrect because it is a descriptive sentence about setting and mood. Choice C is incorrect because it is a specific detail about Clare's self-pity regarding boys. Choice D is incorrect because it is a detail about piano playing. A common mistake is selecting B because of its rich imagery, but only A states the paradoxical moral conflict that Clare grapples with. The strategy is to choose the quote that outlines the main internal conflict."
+      "diveDeep": "This question tests the Regents skill of identifying the quotation that best expresses the text's central theme. Choice B is incorrect because it is a descriptive sentence about setting and mood. Choice C is incorrect because it is a specific detail about Clare's self-pity regarding boys. Choice D is incorrect because it is a detail about piano playing. A common mistake is selecting B because of its rich imagery, but only A states the paradoxical moral conflict that Clare grapples with. The strategy is to choose the quote that outlines the main internal conflict.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Comparing the father's voice to a 'well of dark water' and a 'prayer' highlights his gentle, reassuring presence and his ability to calm his son during a painful moment (Choice D).",
-      "diveDeep": "This question tests the Regents skill of identifying how figurative language develops character. Choice A is incorrect because the father does not hesitate; he successfully removes the splinter. Choice B is incorrect because the focus is on the son's comfort, not the father's pride. Choice C is incorrect because the father already has his son's love and respect. Students often select A because removing a splinter is delicate, but the metaphors of a 'well' and 'prayer' emphasize peace and calming. The strategy is to match the serene connotations of 'dark water' and 'prayer' to 'calm.'"
+      "diveDeep": "This question tests the Regents skill of identifying how figurative language develops character. Choice A is incorrect because the father does not hesitate; he successfully removes the splinter. Choice B is incorrect because the focus is on the son's comfort, not the father's pride. Choice C is incorrect because the father already has his son's love and respect. Students often select A because removing a splinter is delicate, but the metaphors of a 'well' and 'prayer' emphasize peace and calming. The strategy is to match the serene connotations of 'dark water' and 'prayer' to 'calm.'",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The details describing the narrator shaving his wife's thumbnail 'so carefully she feels no pain' show that he has mastered his father's gentle technique of removing splinters, making Choice C correct.",
-      "diveDeep": "This question tests the Regents skill of analyzing character development and parallels. Choice A is incorrect because he is performing the task successfully, not showing worry that he will harm her. Choice B is incorrect because the wife's confidence is not described. Choice D is incorrect because the entire poem is a recollection of that childhood event, showing he hasn't forgotten it. A common student error is choosing A because of the blade, but the text emphasizes his care and success. The strategy is to connect the parallel between the father's past care and the son's current care."
+      "diveDeep": "This question tests the Regents skill of analyzing character development and parallels. Choice A is incorrect because he is performing the task successfully, not showing worry that he will harm her. Choice B is incorrect because the wife's confidence is not described. Choice D is incorrect because the entire poem is a recollection of that childhood event, showing he hasn't forgotten it. A common student error is choosing A because of the blade, but the text emphasizes his care and success. The strategy is to connect the parallel between the father's past care and the son's current care.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "In this context, a 'shard' refers to the sharp, jagged piece of metal that was embedded in his hand, making Choice C the best definition.",
-      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because the splinter is made of metal, not wood. Choice B is incorrect because 'shiny' does not capture the physical sharpness or shape. Choice D is incorrect because it is a foreign object, not a tool. Students often choose A because splinters are usually wood, but the poem explicitly states it was an 'iron sliver' and 'metal.' The strategy is to use the literal context of 'iron sliver' to define 'shard' as a jagged piece of metal."
+      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because the splinter is made of metal, not wood. Choice B is incorrect because 'shiny' does not capture the physical sharpness or shape. Choice D is incorrect because it is a foreign object, not a tool. Students often choose A because splinters are usually wood, but the poem explicitly states it was an 'iron sliver' and 'metal.' The strategy is to use the literal context of 'iron sliver' to define 'shard' as a jagged piece of metal.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The final lines, where the narrator explains that he did what a child does and kissed his father, convey a deep sense of gratitude for his father's tenderness and love. This is Choice B.",
-      "diveDeep": "This question tests the Regents skill of identifying tone in the conclusion of a poem. Choice A is incorrect because the narrator has kept the memory, showing no longing for something lost. Choice C is incorrect because the memory is clear and warm, not uncertain. Choice D is incorrect because the focus is on the relationship and love rather than personal achievement. A common mistake is selecting D because the splinter was removed, but the emotional climax of the poem is the kiss of gratitude. The strategy is to identify the emotional resolution of the final gesture."
+      "diveDeep": "This question tests the Regents skill of identifying tone in the conclusion of a poem. Choice A is incorrect because the narrator has kept the memory, showing no longing for something lost. Choice C is incorrect because the memory is clear and warm, not uncertain. Choice D is incorrect because the focus is on the relationship and love rather than personal achievement. A common mistake is selecting D because the splinter was removed, but the emotional climax of the poem is the kiss of gratitude. The strategy is to identify the emotional resolution of the final gesture.",
+      "topic": "Close Reading"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The first paragraph quotes Florence Nightingale's historical views on noise to introduce the central idea by providing relevant background on how noise has historically been perceived (Choice D).",
-      "diveDeep": "This question tests the Regents skill of analyzing text structure. Choice A is incorrect because Nightingale was a nurse offering observations, not formal medical research. Choice B is incorrect because her 1859 quote does not describe a modern scientific trend. Choice C is incorrect because there is no conflict of opinions in this introductory paragraph. Students often choose A because Nightingale is a famous medical figure, but her quotes serve as historical context and background. The strategy is to recognize that historical quotes at the start of an essay function as background."
+      "diveDeep": "This question tests the Regents skill of analyzing text structure. Choice A is incorrect because Nightingale was a nurse offering observations, not formal medical research. Choice B is incorrect because her 1859 quote does not describe a modern scientific trend. Choice C is incorrect because there is no conflict of opinions in this introductory paragraph. Students often choose A because Nightingale is a famous medical figure, but her quotes serve as historical context and background. The strategy is to recognize that historical quotes at the start of an essay function as background.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Lines 8 through 13 link chronic noise from highways and airports to high blood pressure, sleep loss, and heart disease, supporting the idea that noise impacts human health (Choice C).",
-      "diveDeep": "This question tests literal comprehension and detail retrieval. Choice A is incorrect because the text does not discuss solutions for controlling noise. Choice B is incorrect because noise is described as harmful, not promoting clear thinking. Choice D is incorrect because the text details the toxic effects of noise. A common student mistake is choosing A because noise control is a common topic, but the text strictly focuses on the physiological damage. The strategy is to match the medical conditions mentioned (heart disease, blood pressure) to 'human health.'"
+      "diveDeep": "This question tests literal comprehension and detail retrieval. Choice A is incorrect because the text does not discuss solutions for controlling noise. Choice B is incorrect because noise is described as harmful, not promoting clear thinking. Choice D is incorrect because the text details the toxic effects of noise. A common student mistake is choosing A because noise control is a common topic, but the text strictly focuses on the physiological damage. The strategy is to match the medical conditions mentioned (heart disease, blood pressure) to 'human health.'",
+      "topic": "Argument & Structure"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The text explains that the brain converts physical vibrations into electrical signals that activate the amygdalae even during deep sleep, indicating that noise can cause stress during sleep (Choice B).",
-      "diveDeep": "This question tests the Regents skill of drawing scientific conclusions from text. Choice A is incorrect because the body reacts to noise even in the middle of deep sleep, showing sleep does not prevent perception. Choice C is incorrect because cortisol is a stress hormone released *due* to noise, not something sleep relies on. Choice D is incorrect because memory formation is not discussed as accelerating during sleep here. A common mistake is selecting A because we are unconscious during sleep, but the auditory system remains active. The strategy is to connect 'release of stress hormones' during sleep to 'stress during sleep.'"
+      "diveDeep": "This question tests the Regents skill of drawing scientific conclusions from text. Choice A is incorrect because the body reacts to noise even in the middle of deep sleep, showing sleep does not prevent perception. Choice C is incorrect because cortisol is a stress hormone released *due* to noise, not something sleep relies on. Choice D is incorrect because memory formation is not discussed as accelerating during sleep here. A common mistake is selecting A because we are unconscious during sleep, but the auditory system remains active. The strategy is to connect 'release of stress hormones' during sleep to 'stress during sleep.'",
+      "topic": "Close Reading"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The WHO's conclusion that European residents lose a million years of healthy life annually due to noise highlights the extreme seriousness of the problem (Choice C).",
-      "diveDeep": "This question tests the Regents skill of identifying the rhetorical purpose of statistical data. Choice A is incorrect because the WHO's data is presented as a firm conclusion, not a call for more study. Choice B is incorrect because funding is not mentioned. Choice D is incorrect because the focus is on the health burden itself, not international cooperation. Students often choose A because scientific reports usually suggest more research, but the sheer scale of the numbers (one million years) serves to shock the reader and emphasize seriousness. The strategy is to look at the magnitude of the statistics."
+      "diveDeep": "This question tests the Regents skill of identifying the rhetorical purpose of statistical data. Choice A is incorrect because the WHO's data is presented as a firm conclusion, not a call for more study. Choice B is incorrect because funding is not mentioned. Choice D is incorrect because the focus is on the health burden itself, not international cooperation. Students often choose A because scientific reports usually suggest more research, but the sheer scale of the numbers (one million years) serves to shock the reader and emphasize seriousness. The strategy is to look at the magnitude of the statistics.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The text states that physician Luciano Bernardi did not intend to study silence and only included it as a control baseline, showing that the initial findings were unintended (Choice B).",
-      "diveDeep": "This question tests details from scientific anecdotes. Choice A is incorrect because the paper was the most downloaded, showing it was not ignored. Choice C is incorrect because the findings were confirmed rather than revised. Choice D is incorrect because they were novel, unexpected discoveries. A common error is choosing A because silence is often ignored, but the text emphasizes the researchers' surprise. The strategy is to look for the phrase 'not meant to be studied specifically' to select 'unintended.'"
+      "diveDeep": "This question tests details from scientific anecdotes. Choice A is incorrect because the paper was the most downloaded, showing it was not ignored. Choice C is incorrect because the findings were confirmed rather than revised. Choice D is incorrect because they were novel, unexpected discoveries. A common error is choosing A because silence is often ignored, but the text emphasizes the researchers' surprise. The strategy is to look for the phrase 'not meant to be studied specifically' to select 'unintended.'",
+      "topic": "Close Reading"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "In line 41, 'striking' is used to describe a surprising and impressive scientific finding about the relaxing effects of silence, making 'impressive' (Choice A) the correct synonym.",
-      "diveDeep": "This question tests vocabulary-in-context. Choice B is incorrect because the findings were a welcome, positive surprise, not disappointing. Choice C is incorrect because the findings made logical sense, not confusing. Choice D is incorrect because the scientists were surprised, meaning it was not predictable. Students often select C because scientific data can be complex, but 'striking' in this context highlights how remarkable the results were. The strategy is to match the positive, surprising nature of the discovery to 'impressive.'"
+      "diveDeep": "This question tests vocabulary-in-context. Choice B is incorrect because the findings were a welcome, positive surprise, not disappointing. Choice C is incorrect because the findings made logical sense, not confusing. Choice D is incorrect because the scientists were surprised, meaning it was not predictable. Students often select C because scientific data can be complex, but 'striking' in this context highlights how remarkable the results were. The strategy is to match the positive, surprising nature of the discovery to 'impressive.'",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Bernardi's discovery that silent pauses between music tracks were more relaxing than pre-experiment silence emphasizes the importance of silence between sounds, which is Choice D.",
-      "diveDeep": "This question tests the connection between research findings and the central theme. Choice A is incorrect because the study did not compare 'sound' and 'noise' definitions. Choice B is incorrect because the silent pauses were more relaxing than the music itself. Choice C is incorrect because attentiveness is not shown to decrease. A common mistake is selecting B because music is relaxing, but the core finding was about the power of the *pause* between tracks. The strategy is to look at the contrast between the music and the silence that followed it."
+      "diveDeep": "This question tests the connection between research findings and the central theme. Choice A is incorrect because the study did not compare 'sound' and 'noise' definitions. Choice B is incorrect because the silent pauses were more relaxing than the music itself. Choice C is incorrect because attentiveness is not shown to decrease. A common mistake is selecting B because music is relaxing, but the core finding was about the power of the *pause* between tracks. The strategy is to look at the contrast between the music and the silence that followed it.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The statement that blank pauses, considered irrelevant, became the most interesting object of study conveys a sense of irony, making Choice B correct.",
-      "diveDeep": "This question tests the identification of situational irony. Choice A is incorrect because the findings were clear, not uncertain. Choice C is incorrect because it describes a scientific outcome, not author bias. Choice D is incorrect because there is no conflict between characters or ideas. Students often fail to recognize that the reversal of expectations (the useless control becoming the main discovery) is the definition of irony. The strategy is to look for the contrast between initial expectations and final results."
+      "diveDeep": "This question tests the identification of situational irony. Choice A is incorrect because the findings were clear, not uncertain. Choice C is incorrect because it describes a scientific outcome, not author bias. Choice D is incorrect because there is no conflict between characters or ideas. Students often fail to recognize that the reversal of expectations (the useless control becoming the main discovery) is the definition of irony. The strategy is to look for the contrast between initial expectations and final results.",
+      "topic": "Close Reading"
     },
     {
       "number": 23,
@@ -327,7 +349,8 @@ export default {
       "correct": 1,
       "image": "/images/exams/english/june-2021/q23.png",
       "explanation": "The metaphor comparing silence to a 'blank sensory slate' on which the mind can 'conduct its own symphonies' reinforces the idea that silence provides an opportunity for creativity, matching Choice B.",
-      "diveDeep": "This question tests the interpretation of a specific metaphor. Choice A is incorrect because the metaphor focuses on the positive power of silence, not the negative interference of sound. Choice C is incorrect because volume is not discussed. Choice D is incorrect because the brain remains active and retrieves memories, rather than limiting them. A common error is choosing D due to the mention of memory in the surrounding text, but 'conducting symphonies' is a direct metaphor for creative thought. The strategy is to connect 'conducting symphonies' to 'creativity.'"
+      "diveDeep": "This question tests the interpretation of a specific metaphor. Choice A is incorrect because the metaphor focuses on the positive power of silence, not the negative interference of sound. Choice C is incorrect because volume is not discussed. Choice D is incorrect because the brain remains active and retrieves memories, rather than limiting them. A common error is choosing D due to the mention of memory in the surrounding text, but 'conducting symphonies' is a direct metaphor for creative thought. The strategy is to connect 'conducting symphonies' to 'creativity.'",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 24,
@@ -342,7 +365,8 @@ export default {
       "correct": 0,
       "image": "/images/exams/english/june-2021/q24.png",
       "explanation": "The author's primary goal in this article is to explain the biological and neurological benefits of silence, making Choice A correct.",
-      "diveDeep": "This question tests the author's primary purpose. Choice B is incorrect because the author does not criticize the scientific community. Choice C is incorrect because the tone is educational rather than promotional or commercial. Choice D is incorrect because the primary focus is scientific explanation rather than storytelling or entertainment. Students often choose C because the article makes silence sound appealing, but the method of development is expository and scientific. The strategy is to look at the dominance of scientific explanation and data throughout the text."
+      "diveDeep": "This question tests the author's primary purpose. Choice B is incorrect because the author does not criticize the scientific community. Choice C is incorrect because the tone is educational rather than promotional or commercial. Choice D is incorrect because the primary focus is scientific explanation rather than storytelling or entertainment. Students often choose C because the article makes silence sound appealing, but the method of development is expository and scientific. The strategy is to look at the dominance of scientific explanation and data throughout the text.",
+      "topic": "Close Reading"
     }
   ]
 }

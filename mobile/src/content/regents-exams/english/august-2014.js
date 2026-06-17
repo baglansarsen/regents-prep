@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-aug-2014",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The author describes the longtang's structure as an 'empty echo' that mirrors the inner, hollow emotional states of its residents (lines 13-15).",
-      "diveDeep": "This question tests the ability to analyze how settings connect to central themes. Choice B (index 1) is incorrect because the passage does not focus on physical structural reasons for the crumbling. Choice C (index 2) is incorrect because the activities are not presented as calming, but rather as monotonous and tense. Choice D (index 3) is incorrect because the passage depicts a lack of change rather than a shift in character. Common student mistakes include choosing options that focus on the physical environment rather than the symbolic connection to human emotion. Test-taking tip: Look for choices that bridge physical descriptions of the setting with characters' psychological states."
+      "diveDeep": "This question tests the ability to analyze how settings connect to central themes. Choice B (index 1) is incorrect because the passage does not focus on physical structural reasons for the crumbling. Choice C (index 2) is incorrect because the activities are not presented as calming, but rather as monotonous and tense. Choice D (index 3) is incorrect because the passage depicts a lack of change rather than a shift in character. Common student mistakes include choosing options that focus on the physical environment rather than the symbolic connection to human emotion. Test-taking tip: Look for choices that bridge physical descriptions of the setting with characters' psychological states.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The author uses the phrase 'immaterial things' that weigh heavily on the mind (lines 18-19) to emphasize the emotional burden and psychological weight carried by the residents.",
-      "diveDeep": "This question tests how figurative language highlights character perspective. Choice A (index 0) is incorrect because the figurative language highlights burden, not community spirit. Choice B (index 1) is incorrect because societal unrest is not discussed in these lines. Choice D (index 3) is incorrect because 'immaterial' refers to non-physical concerns, contrasting with material value. Students often confuse 'immaterial' with 'irrelevant,' leading to confusion. Test-taking strategy: Relate figurative descriptions of 'weight' or 'heaviness' directly to emotional or mental distress."
+      "diveDeep": "This question tests how figurative language highlights character perspective. Choice A (index 0) is incorrect because the figurative language highlights burden, not community spirit. Choice B (index 1) is incorrect because societal unrest is not discussed in these lines. Choice D (index 3) is incorrect because 'immaterial' refers to non-physical concerns, contrasting with material value. Students often confuse 'immaterial' with 'irrelevant,' leading to confusion. Test-taking strategy: Relate figurative descriptions of 'weight' or 'heaviness' directly to emotional or mental distress.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "In the context of line 19, 'immaterial things' refers to things that are unimportant or lack physical, material substance.",
-      "diveDeep": "This question tests vocabulary acquisition in literary context. Choice B (index 1) is incorrect because the text does not describe these things as unforeseen. Choice C (index 2) is incorrect because they are not described as frightening. Choice D (index 3) is incorrect because the passage focuses on their lack of importance rather than difficulty. Students often fail to analyze vocabulary in context, choosing synonyms of 'immaterial' like 'spiritual' rather than 'unimportant.' Strategy: Use context clues to identify contrasting ideas (like physical vs. non-physical)."
+      "diveDeep": "This question tests vocabulary acquisition in literary context. Choice B (index 1) is incorrect because the text does not describe these things as unforeseen. Choice C (index 2) is incorrect because they are not described as frightening. Choice D (index 3) is incorrect because the passage focuses on their lack of importance rather than difficulty. Students often fail to analyze vocabulary in context, choosing synonyms of 'immaterial' like 'spiritual' rather than 'unimportant.' Strategy: Use context clues to identify contrasting ideas (like physical vs. non-physical).",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Lines 31 through 39 show that a person living in the longtang would pray for a quiet, uneventful life, free from conflict and grand desires.",
-      "diveDeep": "This question tests detail analysis and inference. Choice A (index 0) is incorrect because neighborhood conflict is not the focus of their prayers. Choice C (index 2) is incorrect because they explicitly do not pray for wealth or grand fortunes. Choice D (index 3) is incorrect because there is no mention of a war in these lines. Common student mistake: Assuming characters in a difficult environment pray for wealth or dramatic rescue, rather than simple peace. Strategy: Rely strictly on the text's description of their modest prayers."
+      "diveDeep": "This question tests detail analysis and inference. Choice A (index 0) is incorrect because neighborhood conflict is not the focus of their prayers. Choice C (index 2) is incorrect because they explicitly do not pray for wealth or grand fortunes. Choice D (index 3) is incorrect because there is no mention of a war in these lines. Common student mistake: Assuming characters in a difficult environment pray for wealth or dramatic rescue, rather than simple peace. Strategy: Rely strictly on the text's description of their modest prayers.",
+      "topic": "Close Reading"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Lines 40 through 53 suggest that the longtang people ignore impending danger, as they focus entirely on the present and avoid worrying about the future.",
-      "diveDeep": "This question tests character analysis. Choice A (index 0) is incorrect because they do not reflect on their situation as positive, but rather block out the future. Choice B (index 1) is incorrect because the lines emphasize their refusal to think about challenges, not their survival of them. Choice C (index 2) is incorrect because community cooperation is not the topic here. Common student mistake: Choosing 'make the best of their situation' due to its positive connotation. Strategy: Look for specific behavioral descriptions, such as avoiding thought of future hazards."
+      "diveDeep": "This question tests character analysis. Choice A (index 0) is incorrect because they do not reflect on their situation as positive, but rather block out the future. Choice B (index 1) is incorrect because the lines emphasize their refusal to think about challenges, not their survival of them. Choice C (index 2) is incorrect because community cooperation is not the topic here. Common student mistake: Choosing 'make the best of their situation' due to its positive connotation. Strategy: Look for specific behavioral descriptions, such as avoiding thought of future hazards.",
+      "topic": "Inference"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The comparison of the longtang to a bustling theater or grand castle in lines 73 through 78 emphasizes the neighborhood's former vitality and lively past.",
-      "diveDeep": "This question tests comparison and setting analysis. Choice B (index 1) is incorrect because the focus is on the contrast with the past rather than enduring strength. Choice C (index 2) is incorrect because the comparison does not highlight political or social importance. Choice D (index 3) is incorrect because the passage emphasizes life and activity rather than physical beauty. A common mistake is selecting 'enduring strength' due to the long-lasting nature of the physical structures."
+      "diveDeep": "This question tests comparison and setting analysis. Choice B (index 1) is incorrect because the focus is on the contrast with the past rather than enduring strength. Choice C (index 2) is incorrect because the comparison does not highlight political or social importance. Choice D (index 3) is incorrect because the passage emphasizes life and activity rather than physical beauty. A common mistake is selecting 'enduring strength' due to the long-lasting nature of the physical structures.",
+      "topic": "Close Reading"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The reference to the passing seasons in the final paragraph conveys a deep sense of loss as time moves forward while the longtang decays.",
-      "diveDeep": "This question tests tone and symbolic meaning of time. Choice A (index 0) is incorrect because the passage has a nostalgic, elegiac tone rather than one of anticipation. Choice C (index 2) is incorrect because hope is not represented by the description of fading memories. Choice D (index 3) is incorrect because the author values the memories, so they are not seen as worthless. Students often mistake the tone as hopeless or worthless, failing to recognize the specific focus on the emotional pain of loss."
+      "diveDeep": "This question tests tone and symbolic meaning of time. Choice A (index 0) is incorrect because the passage has a nostalgic, elegiac tone rather than one of anticipation. Choice C (index 2) is incorrect because hope is not represented by the description of fading memories. Choice D (index 3) is incorrect because the author values the memories, so they are not seen as worthless. Students often mistake the tone as hopeless or worthless, failing to recognize the specific focus on the emotional pain of loss.",
+      "topic": "Close Reading"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The description of the people's humble prayers in the face of inevitable modernization and decay stresses the ultimate futility of their situation.",
-      "diveDeep": "This question tests identifying a central theme. Choice B (index 1) is incorrect because their future is uncertain and threatened, not secure. Choice C (index 2) is incorrect because the focus is on their vulnerability rather than the value of traditions. Choice D (index 3) is incorrect because their needs are simple and survival-based rather than complex. A common mistake is selecting Choice C because prayers are a traditional activity, but the author uses them to emphasize their helplessness against larger forces."
+      "diveDeep": "This question tests identifying a central theme. Choice B (index 1) is incorrect because their future is uncertain and threatened, not secure. Choice C (index 2) is incorrect because the focus is on their vulnerability rather than the value of traditions. Choice D (index 3) is incorrect because their needs are simple and survival-based rather than complex. A common mistake is selecting Choice C because prayers are a traditional activity, but the author uses them to emphasize their helplessness against larger forces.",
+      "topic": "Close Reading"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The author's overall view of the longtang people is sympathetic, expressing deep empathy and sorrow for the community's fading way of life.",
-      "diveDeep": "This question tests author's perspective/tone. Choice A (index 0) is incorrect because the author shows no intolerance toward the residents. Choice B (index 1) is incorrect because the tone is emotionally colored rather than purely objective. Choice D (index 3) is incorrect because the author's positive regard and sorrow for the community are clear rather than ambiguous. Students often choose objective because the author acts as an observer, missing the warm, empathetic undertones."
+      "diveDeep": "This question tests author's perspective/tone. Choice A (index 0) is incorrect because the author shows no intolerance toward the residents. Choice B (index 1) is incorrect because the tone is emotionally colored rather than purely objective. Choice D (index 3) is incorrect because the author's positive regard and sorrow for the community are clear rather than ambiguous. Students often choose objective because the author acts as an observer, missing the warm, empathetic undertones.",
+      "topic": "Close Reading"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Lines 4 through 13 highlight the transformation of the landscape, noting modern developments like trailers, satellite dishes, and strip malls replacing the old countryside.",
-      "diveDeep": "This question tests analyzing setting details. Choice A (index 0) is incorrect because the lines focus on modern additions rather than historical importance. Choice B (index 1) is incorrect because the modern additions are presented as stark and commercial rather than beautiful. Choice C (index 2) is incorrect because the poem does not discuss the economic potential of the area. Students often mistake these details for general scenery rather than signs of industrial and modern change over time."
+      "diveDeep": "This question tests analyzing setting details. Choice A (index 0) is incorrect because the lines focus on modern additions rather than historical importance. Choice B (index 1) is incorrect because the modern additions are presented as stark and commercial rather than beautiful. Choice C (index 2) is incorrect because the poem does not discuss the economic potential of the area. Students often mistake these details for general scenery rather than signs of industrial and modern change over time.",
+      "topic": "Close Reading"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The poem shifts focus from describing the external modern landscape to a childhood memory of finding and playing his grandmother's mandolin in the attic (lines 7-27).",
-      "diveDeep": "This question tests structural shifts in poetry. Choice A (index 0) is incorrect because there is no social or personal conflict depicted in these lines. Choice C (index 2) is incorrect because the narrator does not contrast his feelings with those of his family. Choice D (index 3) is incorrect because the poem focuses on memories and observations rather than a sequence of physical actions. A common mistake is failing to identify the transition to the attic scene as a flashback or memory."
+      "diveDeep": "This question tests structural shifts in poetry. Choice A (index 0) is incorrect because there is no social or personal conflict depicted in these lines. Choice C (index 2) is incorrect because the narrator does not contrast his feelings with those of his family. Choice D (index 3) is incorrect because the poem focuses on memories and observations rather than a sequence of physical actions. A common mistake is failing to identify the transition to the attic scene as a flashback or memory.",
+      "topic": "Close Reading"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The simile comparing the past to the worn-off silver plate of a mirror (lines 21-22) emphasizes how memories and history have diminished over time.",
-      "diveDeep": "This question tests simile analysis and metaphorical meaning. Choice A (index 0) is incorrect because the focus is on the landscape and objects, not a personal change in the narrator. Choice B (index 1) is incorrect because the narrator shows high awareness of his surroundings. Choice C (index 2) is incorrect because the physical lighting is not the primary point of the comparison. Students often choose Option 3 because words like 'tarnished' and 'dim' are used, but their function is metaphorical rather than literal description of light."
+      "diveDeep": "This question tests simile analysis and metaphorical meaning. Choice A (index 0) is incorrect because the focus is on the landscape and objects, not a personal change in the narrator. Choice B (index 1) is incorrect because the narrator shows high awareness of his surroundings. Choice C (index 2) is incorrect because the physical lighting is not the primary point of the comparison. Students often choose Option 3 because words like 'tarnished' and 'dim' are used, but their function is metaphorical rather than literal description of light.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The narrator's tone in lines 28-38 is frustrated, as he questions if his lifelong dedication to praising the quiet landscape was enough to overcome its stubborn silence.",
-      "diveDeep": "This question tests analyzing tone. Choice B (index 1) is incorrect because the narrator is questioning his offering rather than feeling embarrassed. Choice C (index 2) is incorrect because 'contentment' is a noun, not an adjective, and does not match the active questioning. Choice D (index 3) is incorrect because his tone is challenging and aggrieved rather than respectful. Students often confuse the narrator’s devotion with simple contentment or respect, overlooking the underlying bitterness of 'despite my voice, despite the stubborn silence.'"
+      "diveDeep": "This question tests analyzing tone. Choice B (index 1) is incorrect because the narrator is questioning his offering rather than feeling embarrassed. Choice C (index 2) is incorrect because 'contentment' is a noun, not an adjective, and does not match the active questioning. Choice D (index 3) is incorrect because his tone is challenging and aggrieved rather than respectful. Students often confuse the narrator’s devotion with simple contentment or respect, overlooking the underlying bitterness of 'despite my voice, despite the stubborn silence.'",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Lines 33 through 37 contribute to a central theme in the poem by describing the narrator’s commitment to the values of a past era, represented by the geometry of a 19th-century farmhouse.",
-      "diveDeep": "This question tests identifying a central theme in poetry. Choice A (index 0) is incorrect because the narrator rejects the modern suburban elements. Choice B (index 1) is incorrect because his choice to praise the farmhouse is voluntary, not an obligation. Choice D (index 3) is incorrect because the lines focus on a devotion to quiet values, not an intolerance of other viewpoints. Common student errors include missing the symbolic value of the 'farmhouse' as representing historical clarity and stability."
+      "diveDeep": "This question tests identifying a central theme in poetry. Choice A (index 0) is incorrect because the narrator rejects the modern suburban elements. Choice B (index 1) is incorrect because his choice to praise the farmhouse is voluntary, not an obligation. Choice D (index 3) is incorrect because the lines focus on a devotion to quiet values, not an intolerance of other viewpoints. Common student errors include missing the symbolic value of the 'farmhouse' as representing historical clarity and stability.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The speaker’s symbolic references to wiping tears, unstopping ears, and burying the tomahawk represent the achievement of peace between the nations.",
-      "diveDeep": "This question tests symbolism in historical speeches. Choice B (index 1) is incorrect because burying the tomahawk under a pine tree is a gesture of peace, not environmental destruction. Choice C (index 2) is incorrect because the symbols represent diplomatic reconciliation, not a loss of identity. Choice D (index 3) is incorrect because the symbols focus on harmony rather than leadership changes. Students often misinterpret the metaphorical language of 'tearing up the pine-tree' as literal destruction."
+      "diveDeep": "This question tests symbolism in historical speeches. Choice B (index 1) is incorrect because burying the tomahawk under a pine tree is a gesture of peace, not environmental destruction. Choice C (index 2) is incorrect because the symbols represent diplomatic reconciliation, not a loss of identity. Choice D (index 3) is incorrect because the symbols focus on harmony rather than leadership changes. Students often misinterpret the metaphorical language of 'tearing up the pine-tree' as literal destruction.",
+      "topic": "Close Reading"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The details in lines 16 and 17 state that the warriors were murdered in cold blood, indicating the specific grievance and reason for the meeting.",
-      "diveDeep": "This question tests identifying author's purpose. Choice A (index 0) is incorrect because these lines outline the conflict, not its resolution. Choice C (index 2) is incorrect because the speaker is expressing an urgent demand for justice, not caution. Choice D (index 3) is incorrect because the terms of the treaty are detailed later in the speech. Students often confuse the statement of a grievance with a formal summary of treaty terms."
+      "diveDeep": "This question tests identifying author's purpose. Choice A (index 0) is incorrect because these lines outline the conflict, not its resolution. Choice C (index 2) is incorrect because the speaker is expressing an urgent demand for justice, not caution. Choice D (index 3) is incorrect because the terms of the treaty are detailed later in the speech. Students often confuse the statement of a grievance with a formal summary of treaty terms.",
+      "topic": "Close Reading"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Lines 22 through 24 establish a connection between responsibility and accountability, arguing that the U.S. government is responsible for supporting the families of the murdered warriors.",
-      "diveDeep": "This question tests identifying logical relationships. Choice A (index 0) is incorrect because the lines do not contrast wealth and poverty. Choice B (index 1) is incorrect because the focus is on justice and reparations rather than family structures. Choice C (index 2) is incorrect because it does not discuss a cause/effect relationship of power causing crime. Students often miss the connection of legal accountability, focusing instead on the mention of 'destitute' as a sign of poverty."
+      "diveDeep": "This question tests identifying logical relationships. Choice A (index 0) is incorrect because the lines do not contrast wealth and poverty. Choice B (index 1) is incorrect because the focus is on justice and reparations rather than family structures. Choice C (index 2) is incorrect because it does not discuss a cause/effect relationship of power causing crime. Students often miss the connection of legal accountability, focusing instead on the mention of 'destitute' as a sign of poverty.",
+      "topic": "Close Reading"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The Six Nations' uncertainty about the treaty's validity in lines 30 and 31 is based on the recent changes in United States leadership, specifically the death of General Washington.",
-      "diveDeep": "This question tests historical inference. Choice A (index 0) is incorrect because the Cayuga reservation is not mentioned in these lines. Choice B (index 1) is incorrect because the text does not cite a recent war's end as the cause of uncertainty. Choice D (index 3) is incorrect because the uncertainty stems from leadership changes rather than frontier conflicts. Students often overlook the historical context of Washington's death, which led the native leaders to worry that agreements made with him might not be honored by his successors."
+      "diveDeep": "This question tests historical inference. Choice A (index 0) is incorrect because the Cayuga reservation is not mentioned in these lines. Choice B (index 1) is incorrect because the text does not cite a recent war's end as the cause of uncertainty. Choice D (index 3) is incorrect because the uncertainty stems from leadership changes rather than frontier conflicts. Students often overlook the historical context of Washington's death, which led the native leaders to worry that agreements made with him might not be honored by his successors.",
+      "topic": "Close Reading"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The sentence in lines 8-10 (restoring communication) is clarified by line 5, where the speaker notes that they already fully comprehend the speech and can dispense with reading it again.",
-      "diveDeep": "This question tests textual clarification. Choice B (index 1) is incorrect because living happily in Genesee does not relate to clearing communication. Choice C and Choice D are incorrect because they deal with the fiscal terms of the treaty rather than understanding the speech. Students often struggle to match the symbolic language of lines 8-10 with the practical demonstration of understanding in line 5."
+      "diveDeep": "This question tests textual clarification. Choice B (index 1) is incorrect because living happily in Genesee does not relate to clearing communication. Choice C and Choice D are incorrect because they deal with the fiscal terms of the treaty rather than understanding the speech. Students often struggle to match the symbolic language of lines 8-10 with the practical demonstration of understanding in line 5.",
+      "topic": "Close Reading"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The speaker’s attitude in lines 37 through 42 is cooperative, as he expresses willingness to accept the President's preference regarding the old treaty's validity.",
-      "diveDeep": "This question tests tone/attitude analysis. Choice A (index 0) is incorrect because the speaker is clear and decisive about his options. Choice B (index 1) is incorrect because he is acting as a diplomatic negotiator, not expressing compassion. Choice C (index 2) is incorrect because his tone is polite and respectful rather than sarcastic. A common mistake is interpreting the speaker's flexibility as uncertainty rather than a cooperative diplomatic strategy."
+      "diveDeep": "This question tests tone/attitude analysis. Choice A (index 0) is incorrect because the speaker is clear and decisive about his options. Choice B (index 1) is incorrect because he is acting as a diplomatic negotiator, not expressing compassion. Choice C (index 2) is incorrect because his tone is polite and respectful rather than sarcastic. A common mistake is interpreting the speaker's flexibility as uncertainty rather than a cooperative diplomatic strategy.",
+      "topic": "Close Reading"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The speaker’s request that the United States bear their travel expenses (lines 48-51) emphasizes the Six Nations’ desire for fair treatment, as the journey was necessitated by the actions of 'bad men' on the U.S. side.",
-      "diveDeep": "This question tests inference of motivation. Choice A (index 0) is incorrect because they are requesting compensation, not expressing feelings of confinement. Choice B (index 1) is incorrect because travel expenses do not relate to adopting a traditional lifestyle. Choice C (index 2) is incorrect because the request is an engagement with political influence, not a rejection of it. Students may miss the moral argument of the request: because the U.S. caused the breach, it should bear the financial burden."
+      "diveDeep": "This question tests inference of motivation. Choice A (index 0) is incorrect because they are requesting compensation, not expressing feelings of confinement. Choice B (index 1) is incorrect because travel expenses do not relate to adopting a traditional lifestyle. Choice C (index 2) is incorrect because the request is an engagement with political influence, not a rejection of it. Students may miss the moral argument of the request: because the U.S. caused the breach, it should bear the financial burden.",
+      "topic": "Close Reading"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The question 'why should you not pay also' (line 55) directly relates to the meaning of 'redress' in line 54, which refers to financial compensation or remedy for a wrong.",
-      "diveDeep": "This question tests vocabulary context clues. Choice A (index 0) is incorrect because judging something proper does not define redress. Choice B (index 1) is incorrect because making an application is just the action of requesting help, not the help itself. Choice D (index 3) is incorrect because it describes the prohibition of horses, not the remedy for their deaths. Students often struggle to identify context clues for vocabulary, but the direct mention of payment in line 55 provides the definition of financial redress."
+      "diveDeep": "This question tests vocabulary context clues. Choice A (index 0) is incorrect because judging something proper does not define redress. Choice B (index 1) is incorrect because making an application is just the action of requesting help, not the help itself. Choice D (index 3) is incorrect because it describes the prohibition of horses, not the remedy for their deaths. Students often struggle to identify context clues for vocabulary, but the direct mention of payment in line 55 provides the definition of financial redress.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The protection of Iroquois lands is not referenced in this 1801 speech, while preventing unlawful acts, preserving the written agreement, and the method of fiscal payments are all discussed.",
-      "diveDeep": "This question tests fact-checking and elimination. Choice A is referenced in lines 18-20 regarding preventing future murders. Choice B is referenced in lines 43-45 regarding copying the treaty on clean parchment. Choice C is referenced in lines 33-35 regarding annual fiscal payments. Students must use the process of elimination to find which detail is absent, as land protection is a common treaty topic but not discussed here."
+      "diveDeep": "This question tests fact-checking and elimination. Choice A is referenced in lines 18-20 regarding preventing future murders. Choice B is referenced in lines 43-45 regarding copying the treaty on clean parchment. Choice C is referenced in lines 33-35 regarding annual fiscal payments. Students must use the process of elimination to find which detail is absent, as land protection is a common treaty topic but not discussed here.",
+      "topic": "Close Reading"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The repetition of the word 'Brother' is a rhetorical device used to establish a feeling of alliance and equality between the Six Nations and the U.S. government.",
-      "diveDeep": "This question tests rhetorical devices. Choice A (index 0) is incorrect because the speaker seeks to close the distance and build rapport. Choice C (index 2) is incorrect because 'Brother' is more than a common greeting; it carries diplomatic weight. Choice D (index 3) is incorrect because the term asserts equal alliance, not political superiority. Students should understand that repetitive address in rhetoric is used to establish rapport and mutual respect."
+      "diveDeep": "This question tests rhetorical devices. Choice A (index 0) is incorrect because the speaker seeks to close the distance and build rapport. Choice C (index 2) is incorrect because 'Brother' is more than a common greeting; it carries diplomatic weight. Choice D (index 3) is incorrect because the term asserts equal alliance, not political superiority. Students should understand that repetitive address in rhetoric is used to establish rapport and mutual respect.",
+      "topic": "Argument & Structure"
     }
   ]
 }

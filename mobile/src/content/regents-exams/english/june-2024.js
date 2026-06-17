@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-jun-2024",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Mrs. Hall is not initially alarmed by the stranger's wrapped and bundled appearance because it is winter, and having a guest arrive wrapped from head to toe in thick coats and a muffler is standard behavior for such cold weather (Choice A).",
-      "diveDeep": "This question tests the Regents reading skill of drawing inferences about characters' reactions to their environment. Choice B is incorrect because she is a lodging house owner and is highly interested in a paying guest during winter. Choice C is incorrect because his face is bandaged, which is highly odd, but she rationalizes it. Choice D is incorrect because his bundled look does not reflect fashion style. A common student mistake is choosing C because his presence indeed seems odd to us, but the text specifically states Mrs. Hall was not alarmed because of the snow and winter setting making thick wrapping logical. The strategy is to align the character's lack of alarm with the literal weather conditions described."
+      "diveDeep": "This question tests the Regents reading skill of drawing inferences about characters' reactions to their environment. Choice B is incorrect because she is a lodging house owner and is highly interested in a paying guest during winter. Choice C is incorrect because his face is bandaged, which is highly odd, but she rationalizes it. Choice D is incorrect because his bundled look does not reflect fashion style. A common student mistake is choosing C because his presence indeed seems odd to us, but the text specifically states Mrs. Hall was not alarmed because of the snow and winter setting making thick wrapping logical. The strategy is to align the character's lack of alarm with the literal weather conditions described.",
+      "topic": "Close Reading"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The details in lines 6 through 11 introduce the stranger as fatigued from walking through the snow and impatient to make his bargain and secure a warm room immediately, matching Choice C.",
-      "diveDeep": "This question tests the Regents skill of identifying characterization through action and description. Choice A is incorrect because he behaves with command and coldness rather than showing fear or desperation. Choice B is incorrect because he is not showing active anger, but rather quiet impatience. Choice D is incorrect because he is not described as physically injured or distracted. Students often confuse impatience with anger (B) because of his abrupt movements, but the primary focus of his actions is getting into a room quickly due to fatigue. The strategy is to look at his immediate request for a room and his casting down of his bag."
+      "diveDeep": "This question tests the Regents skill of identifying characterization through action and description. Choice A is incorrect because he behaves with command and coldness rather than showing fear or desperation. Choice B is incorrect because he is not showing active anger, but rather quiet impatience. Choice D is incorrect because he is not described as physically injured or distracted. Students often confuse impatience with anger (B) because of his abrupt movements, but the primary focus of his actions is getting into a room quickly due to fatigue. The strategy is to look at his immediate request for a room and his casting down of his bag.",
+      "topic": "Close Reading"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The phrase 'to strike his bargain' directly explains the stranger's 'ready acquiescence' in agreeing to pay the requested rate quickly in order to secure the lodging, making Choice C correct.",
-      "diveDeep": "This question tests vocabulary-in-context and identifying textual clues that clarify meaning. Choice A describes a physical action of throwing down his suitcase. Choice B describes shaking off snow. Choice D is a transitional narrative phrase. A common student error is choosing A because it represents quick movement, but 'ready acquiescence' refers to his quick agreement to the price, which is directly linked to striking the bargain. The strategy is to define the target phrase as 'quick agreement' and match it to the commercial transaction (striking a bargain)."
+      "diveDeep": "This question tests vocabulary-in-context and identifying textual clues that clarify meaning. Choice A describes a physical action of throwing down his suitcase. Choice B describes shaking off snow. Choice D is a transitional narrative phrase. A common student error is choosing A because it represents quick movement, but 'ready acquiescence' refers to his quick agreement to the price, which is directly linked to striking the bargain. The strategy is to define the target phrase as 'quick agreement' and match it to the commercial transaction (striking a bargain).",
+      "topic": "Close Reading"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Lines 29 through 34 show Mrs. Hall being disappointed and feeling put off by the guest's brief, cold answers, reinforcing the idea that she is discouraged by his lack of courtesy (Choice B).",
-      "diveDeep": "This question tests character relationships and reactions. Choice A is incorrect because he offers no companionship, which frustrates her. Choice C is incorrect because he is indifferent rather than insulted. Choice D is incorrect because he does not complain about the service, but rather wants privacy. Students often choose C because the stranger wants to be left alone, but the text focuses on Mrs. Hall's reaction to his discourtesy. The strategy is to analyze Mrs. Hall's feelings of being discouraged by his cold demeanor."
+      "diveDeep": "This question tests character relationships and reactions. Choice A is incorrect because he offers no companionship, which frustrates her. Choice C is incorrect because he is indifferent rather than insulted. Choice D is incorrect because he does not complain about the service, but rather wants privacy. Students often choose C because the stranger wants to be left alone, but the text focuses on Mrs. Hall's reaction to his discourtesy. The strategy is to analyze Mrs. Hall's feelings of being discouraged by his cold demeanor.",
+      "topic": "Close Reading"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "When Mrs. Hall enters the room and sees the stranger with a bandaged head, a huge hat, and massive blue goggles, the bizarre image shocks her (Choice D).",
-      "diveDeep": "This question tests the emotional effect of a description on a character. Choice A is incorrect because his bandages hide his face, keeping his intentions secret. Choice B is incorrect because his face is completely obscured, hiding his identity. Choice C is incorrect because she is shocked and startled rather than simply confused. A common mistake is selecting C because the stranger is mysterious, but the text describes Mrs. Hall's reaction as one of sudden fright and shock at the visual of a seemingly faceless man. The strategy is to look at her physical reaction of surprise."
+      "diveDeep": "This question tests the emotional effect of a description on a character. Choice A is incorrect because his bandages hide his face, keeping his intentions secret. Choice B is incorrect because his face is completely obscured, hiding his identity. Choice C is incorrect because she is shocked and startled rather than simply confused. A common mistake is selecting C because the stranger is mysterious, but the text describes Mrs. Hall's reaction as one of sudden fright and shock at the visual of a seemingly faceless man. The strategy is to look at her physical reaction of surprise.",
+      "topic": "Inference"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Lines 61 through 65 state that Mrs. Hall assumed the stranger had undergone an operation or had a bad accident to explain his bandages, indicating she assumed his appearance was due to a mishap (Choice C).",
-      "diveDeep": "This question tests the Regents skill of identifying character assumptions. Choice A is incorrect because his silent, cold conduct is not considered reasonable by Mrs. Hall. Choice B is incorrect because she does not yet suspect he is dangerous. Choice D is incorrect because she does not think of himself as needing hospital care, but simply explains his bandages. Students often choose B because it is a thriller story, but at this point in the narrative, she rationalizes his bandages as a simple physical mishap. The strategy is to look for her thoughts about an operation or accident."
+      "diveDeep": "This question tests the Regents skill of identifying character assumptions. Choice A is incorrect because his silent, cold conduct is not considered reasonable by Mrs. Hall. Choice B is incorrect because she does not yet suspect he is dangerous. Choice D is incorrect because she does not think of himself as needing hospital care, but simply explains his bandages. Students often choose B because it is a thriller story, but at this point in the narrative, she rationalizes his bandages as a simple physical mishap. The strategy is to look for her thoughts about an operation or accident.",
+      "topic": "Inference"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The guest's sudden polite bow and brief, civil explanation in lines 66 through 69 change the dynamic between the characters, easing some of Mrs. Hall's suspicion and shock, making Choice A correct.",
-      "diveDeep": "This question tests the analysis of narrative transitions and character dynamics. Choice B is incorrect because they are host and guest, not friends. Choice C is incorrect because there is no competitive rivalry. Choice D is incorrect because the tension remains unresolved. A common error is choosing D because his politeness seems to ease the tension, but it is only a temporary shift in their dynamic. The strategy is to evaluate how his sudden change in tone alters their interaction."
+      "diveDeep": "This question tests the analysis of narrative transitions and character dynamics. Choice B is incorrect because they are host and guest, not friends. Choice C is incorrect because there is no competitive rivalry. Choice D is incorrect because the tension remains unresolved. A common error is choosing D because his politeness seems to ease the tension, but it is only a temporary shift in their dynamic. The strategy is to evaluate how his sudden change in tone alters their interaction.",
+      "topic": "Close Reading"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "By bringing up the carriage accident on the road, Mrs. Hall is trying to lead the stranger into sharing his own story and explaining why his head is bandaged (Choice B).",
-      "diveDeep": "This question tests identifying a character's conversational objectives. Choice A is incorrect because she is not looking for sympathy for herself. Choice C is incorrect because she is gossiping rather than giving a genuine safety warning. Choice D is incorrect because she wants him to stay and pay. A common student mistake is choosing C because she talks about an accident, but her true motive is curiosity to get him to talk about his own bandages. The strategy is to analyze how she uses small talk to probe for personal information."
+      "diveDeep": "This question tests identifying a character's conversational objectives. Choice A is incorrect because she is not looking for sympathy for herself. Choice C is incorrect because she is gossiping rather than giving a genuine safety warning. Choice D is incorrect because she wants him to stay and pay. A common student mistake is choosing C because she talks about an accident, but her true motive is curiosity to get him to talk about his own bandages. The strategy is to analyze how she uses small talk to probe for personal information.",
+      "topic": "Close Reading"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "In context, a carriage being 'upsettled' on the steep road describes it being turned over or toppled, making Choice D the best synonym.",
-      "diveDeep": "This question tests vocabulary-in-context for a regional or archaic term. Choice A is incorrect because vandalism is a crime, not an accident. Choice B is incorrect because theft is not suggested. Choice C is incorrect because the carriage was physically overturned, not simply lost. Students often guess C because it sounds like a misfortune, but the physical context of a carriage accident on a steep road indicates it tipped over or toppled. The strategy is to substitute the choices into the sentence."
+      "diveDeep": "This question tests vocabulary-in-context for a regional or archaic term. Choice A is incorrect because vandalism is a crime, not an accident. Choice B is incorrect because theft is not suggested. Choice C is incorrect because the carriage was physically overturned, not simply lost. Students often guess C because it sounds like a misfortune, but the physical context of a carriage accident on a steep road indicates it tipped over or toppled. The strategy is to substitute the choices into the sentence.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The stranger's rejection of Mrs. Hall's conversational attempts and his preference to remain isolated highlight the theme that some people prefer their privacy (Choice A).",
-      "diveDeep": "This question tests the identification of a theme. Choice B is incorrect because the stranger dislikes sharing his feelings. Choice C is incorrect because there is a persistent misunderstanding between them. Choice D is incorrect because Mrs. Hall is accommodating, not taking advantage. A common mistake is selecting D because of the landlord-tenant dynamic, but the focus of the story is the stranger's extreme demand for isolation. The strategy is to choose the theme that matches the main character's dominant behavior."
+      "diveDeep": "This question tests the identification of a theme. Choice B is incorrect because the stranger dislikes sharing his feelings. Choice C is incorrect because there is a persistent misunderstanding between them. Choice D is incorrect because Mrs. Hall is accommodating, not taking advantage. A common mistake is selecting D because of the landlord-tenant dynamic, but the focus of the story is the stranger's extreme demand for isolation. The strategy is to choose the theme that matches the main character's dominant behavior.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The word 'ricocheting' is used to describe the narrator bouncing off the walls of the room, which is clarified by the subsequent phrase 'bouncing from' in line 3 (Choice C).",
-      "diveDeep": "This question tests the Regents vocabulary-in-context skill. Choice A is a simple time marker. Choice B describes the speed of his motion, not the action itself. Choice D describes looking at the dictionary. A common student mistake is selecting B because it is close to the word, but only C acts as a direct synonym that explains the physical bouncing motion of ricocheting. The strategy is to look for immediate parallel verbs in the sentence."
+      "diveDeep": "This question tests the Regents vocabulary-in-context skill. Choice A is a simple time marker. Choice B describes the speed of his motion, not the action itself. Choice D describes looking at the dictionary. A common student mistake is selecting B because it is close to the word, but only C acts as a direct synonym that explains the physical bouncing motion of ricocheting. The strategy is to look for immediate parallel verbs in the sentence.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The comparison to the cookie (referencing Marcel Proust's madeleine) serves to show how the word 'lanyard' suddenly transports the narrator back to a different time in his childhood camp (Choice B).",
-      "diveDeep": "This question tests the analysis of a literary allusion. Choice A is incorrect because the novel itself is not the focus of the memory. Choice C is incorrect because the allusion is about memory, not maternal appreciation. Choice D is incorrect because the allusion describes the mechanism of recall, not his purpose. Students often miss the allusion to Proust and guess C. The strategy is to look at the phrase 'send one more suddenly into the past' to select 'transport... to a different time.'"
+      "diveDeep": "This question tests the analysis of a literary allusion. Choice A is incorrect because the novel itself is not the focus of the memory. Choice C is incorrect because the allusion is about memory, not maternal appreciation. Choice D is incorrect because the allusion describes the mechanism of recall, not his purpose. Students often miss the allusion to Proust and guess C. The strategy is to look at the phrase 'send one more suddenly into the past' to select 'transport... to a different time.'",
+      "topic": "Close Reading"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Lines 9 through 18 show the boy braiding the lanyard strip over strip, believing that his effort and the resulting gift would please his mother, matching Choice D.",
-      "diveDeep": "This question tests drawing inferences about character beliefs. Choice A is incorrect because he does not boast of his skill, noting he wove it out of boredom. Choice B is incorrect because he admits the lanyard itself was a 'useless, worthless thing.' Choice C is incorrect because she had no use for it. A common student error is choosing B because he spent time on it, but the adult narrator explicitly reflects that the item was worthless, yet the child believed his effort would please her. The strategy is to focus on the child's perspective of pleasing his mother with a handmade gift."
+      "diveDeep": "This question tests drawing inferences about character beliefs. Choice A is incorrect because he does not boast of his skill, noting he wove it out of boredom. Choice B is incorrect because he admits the lanyard itself was a 'useless, worthless thing.' Choice C is incorrect because she had no use for it. A common student error is choosing B because he spent time on it, but the adult narrator explicitly reflects that the item was worthless, yet the child believed his effort would please her. The strategy is to focus on the child's perspective of pleasing his mother with a handmade gift.",
+      "topic": "Close Reading"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The contrast between all the grand things the mother did for the boy and the simple, useless lanyard he gave her in return conveys a deep reflection on the value of a mother's love (Choice A).",
-      "diveDeep": "This question tests the thematic analysis of the poem. Choice B is incorrect because the boy's dreams are not discussed. Choice C is incorrect because the lanyard is presented as trivial, not a significant achievement. Choice D is incorrect because the mother's beliefs are not the focus. A common mistake is selecting C because of the physical description of making the gift, but the poem is a rueful reflection on how a mother's selfless love can never be repaid. The strategy is to analyze the comparison between mother's care (meals, life) and child's gift (lanyard)."
+      "diveDeep": "This question tests the thematic analysis of the poem. Choice B is incorrect because the boy's dreams are not discussed. Choice C is incorrect because the lanyard is presented as trivial, not a significant achievement. Choice D is incorrect because the mother's beliefs are not the focus. A common mistake is selecting C because of the physical description of making the gift, but the poem is a rueful reflection on how a mother's selfless love can never be repaid. The strategy is to analyze the comparison between mother's care (meals, life) and child's gift (lanyard).",
+      "topic": "Close Reading"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The phrase 'acting early is the key to success' directly restates the meaning of the common metaphor 'the early bird gets the worm,' making Choice A correct.",
-      "diveDeep": "This question tests the connection between a metaphor and its literal explanation in the text. Choice B describes the advantages of speed. Choice C is the author's counter-argument. Choice D is the specific theory about procrastination. A common student mistake is choosing B because it describes winning, but A is the general cultural lesson that the metaphor represents. The strategy is to find the statement that serves as the direct definition of the proverb."
+      "diveDeep": "This question tests the connection between a metaphor and its literal explanation in the text. Choice B describes the advantages of speed. Choice C is the author's counter-argument. Choice D is the specific theory about procrastination. A common student mistake is choosing B because it describes winning, but A is the general cultural lesson that the metaphor represents. The strategy is to find the statement that serves as the direct definition of the proverb.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "In this context, 'divergent thinking' refers to considering many different, non-conventional ideas rather than settling on one, making 'different' (Choice C) the best synonym.",
-      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because divergent thinking is positive and creative, not disturbing. Choice B is incorrect because the author argues it is highly useful, not wasteful. Choice D is incorrect because it refers to variation, not hierarchy or rank. Students often get confused by the scientific term 'divergent' and guess B. The strategy is to look at the subsequent description of considering 'a wider range of original concepts' to choose 'different.'"
+      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because divergent thinking is positive and creative, not disturbing. Choice B is incorrect because the author argues it is highly useful, not wasteful. Choice D is incorrect because it refers to variation, not hierarchy or rank. Students often get confused by the scientific term 'divergent' and guess B. The strategy is to look at the subsequent description of considering 'a wider range of original concepts' to choose 'different.'",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Shin's theory suggests that putting off a task buys time to engage in divergent thinking, meaning procrastination provides time for ideas to develop (Choice A).",
-      "diveDeep": "This question tests the main thesis of a scientific study described in the text. Choice B is incorrect because the author argues it is a resource, not a waste of energy. Choice C is incorrect because options are shown to increase creativity. Choice D is the conventional wisdom that the article opposes. A common mistake is selecting B because procrastination is normally viewed as negative, but the text argues the opposite. The strategy is to focus on the positive outcome of procrastination shown in the study."
+      "diveDeep": "This question tests the main thesis of a scientific study described in the text. Choice B is incorrect because the author argues it is a resource, not a waste of energy. Choice C is incorrect because options are shown to increase creativity. Choice D is the conventional wisdom that the article opposes. A common mistake is selecting B because procrastination is normally viewed as negative, but the text argues the opposite. The strategy is to focus on the positive outcome of procrastination shown in the study.",
+      "topic": "Inference"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The experiment showed that students who procrastinated by playing computer games were more likely to generate more original and creative business proposals, matching Choice B.",
-      "diveDeep": "This question tests the results of the convenience store vacant lot experiment. Choice A is incorrect because they generated broad, innovative concepts like tutoring centers. Choice C is incorrect because they were less efficient and took longer. Choice D is incorrect because they delayed their work. Students often select C or D because they assume a successful student works fast, but the study showed that delay led to more original results. The strategy is to connect the 28 percent creativity increase of the game-playing group to 'original solutions.'"
+      "diveDeep": "This question tests the results of the convenience store vacant lot experiment. Choice A is incorrect because they generated broad, innovative concepts like tutoring centers. Choice C is incorrect because they were less efficient and took longer. Choice D is incorrect because they delayed their work. Students often select C or D because they assume a successful student works fast, but the study showed that delay led to more original results. The strategy is to connect the 28 percent creativity increase of the game-playing group to 'original solutions.'",
+      "topic": "Inference"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The phrase 'seizing and freezing' describes locking onto the first conventional idea that comes to mind, emphasizing the problems associated with acting too fast and not considering alternatives (Choice D).",
-      "diveDeep": "This question tests the interpretation of a metaphorical phrase in an argument. Choice A is incorrect because targeting solutions is portrayed as limiting. Choice B is incorrect because limiting choices reduces creativity. Choice C is incorrect because following set plans prevents original ideas. A common student mistake is choosing C because set plans sound safe, but the author uses the phrase to criticize hasty decision-making. The strategy is to look at the contrast with deliberate delay, which prevents this freezing."
+      "diveDeep": "This question tests the interpretation of a metaphorical phrase in an argument. Choice A is incorrect because targeting solutions is portrayed as limiting. Choice B is incorrect because limiting choices reduces creativity. Choice C is incorrect because following set plans prevents original ideas. A common student mistake is choosing C because set plans sound safe, but the author uses the phrase to criticize hasty decision-making. The strategy is to look at the contrast with deliberate delay, which prevents this freezing.",
+      "topic": "Close Reading"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Lines 38 through 42 discuss how ancient Egypt had two different verbs for procrastination, presenting historical differences regarding attitudes toward procrastination (Choice A).",
-      "diveDeep": "This question tests the purpose of a historical reference. Choice B is incorrect because the Protestant work ethic valued efficiency over delay. Choice C is incorrect because it describes linguistic differences, not historical consequences. Choice D is incorrect because the Industrial Revolution is mentioned as the source of the modern efficiency obsession, not as being hindered by delay. Students often choose C or D because of the historical terms, but the paragraph specifically highlights how ancient views differed from modern ones. The strategy is to look at the contrast between ancient Egypt's dual terms and our modern single-focus view."
+      "diveDeep": "This question tests the purpose of a historical reference. Choice B is incorrect because the Protestant work ethic valued efficiency over delay. Choice C is incorrect because it describes linguistic differences, not historical consequences. Choice D is incorrect because the Industrial Revolution is mentioned as the source of the modern efficiency obsession, not as being hindered by delay. Students often choose C or D because of the historical terms, but the paragraph specifically highlights how ancient views differed from modern ones. The strategy is to look at the contrast between ancient Egypt's dual terms and our modern single-focus view.",
+      "topic": "Close Reading"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The findings show that settlers succeed by waiting until the market is established before launching, suggesting their success is the result of strategic timing (Choice D).",
-      "diveDeep": "This question tests the interpretation of business research data. Choice A is incorrect because settlers do not succeed due to lack of funds. Choice B is incorrect because their marketing was efficient. Choice C is incorrect because pricing is not discussed as the primary factor. A common mistake is choosing C because of the commercial context, but the text explicitly links their success to the fact that they 'bide their time,' which is an issue of timing. The strategy is to align the findings with the article's main theme of timing and delay."
+      "diveDeep": "This question tests the interpretation of business research data. Choice A is incorrect because settlers do not succeed due to lack of funds. Choice B is incorrect because their marketing was efficient. Choice C is incorrect because pricing is not discussed as the primary factor. A common mistake is choosing C because of the commercial context, but the text explicitly links their success to the fact that they 'bide their time,' which is an issue of timing. The strategy is to align the findings with the article's main theme of timing and delay.",
+      "topic": "Inference"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The 'staggering difference' refers to the contrast in failure rates between pioneers (47 percent) and settlers (8 percent), comparing the success rate of pioneer and settler companies (Choice D).",
-      "diveDeep": "This question tests the retrieval of specific comparisons. Choice A is incorrect because it describes the rate of failure, not development speed. Choice B is incorrect because it compares failure numbers, not product types. Choice C is incorrect because profits are not the specific data point cited. Students often choose C because business success is linked to profit, but the numbers (47% vs 8%) represent failure/success rates. The strategy is to look at the word 'failure rates' in the preceding line."
+      "diveDeep": "This question tests the retrieval of specific comparisons. Choice A is incorrect because it describes the rate of failure, not development speed. Choice B is incorrect because it compares failure numbers, not product types. Choice C is incorrect because profits are not the specific data point cited. Students often choose C because business success is linked to profit, but the numbers (47% vs 8%) represent failure/success rates. The strategy is to look at the word 'failure rates' in the preceding line.",
+      "topic": "Close Reading"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The phrase 'blew Magnavox out of the water' describes how Nintendo successfully dominated the market and revolutionized gaming, suggesting the author's admiration for Nintendo's strategy (Choice B).",
-      "diveDeep": "This question tests the tone of an idiomatic expression. Choice A is incorrect because the author is engaged and enthusiastic. Choice C is incorrect because the historical success is a documented fact, not a cause for disbelief. Choice D is incorrect because the author does not show hostility or antagonism toward Magnavox. A common error is choosing C because of the extreme idiom, but the tone is one of highlighting Nintendo's superior design and success. The strategy is to identify the positive verbs ('transformed', 'user-friendly') that follow the idiom."
+      "diveDeep": "This question tests the tone of an idiomatic expression. Choice A is incorrect because the author is engaged and enthusiastic. Choice C is incorrect because the historical success is a documented fact, not a cause for disbelief. Choice D is incorrect because the author does not show hostility or antagonism toward Magnavox. A common error is choosing C because of the extreme idiom, but the tone is one of highlighting Nintendo's superior design and success. The strategy is to identify the positive verbs ('transformed', 'user-friendly') that follow the idiom.",
+      "topic": "Inference"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The central idea of the text is that while prompt action is often pushed, delay can actually foster greater creativity and success, which is best captured by Choice C.",
-      "diveDeep": "This question tests the identification of the central idea of the entire text. Choice A is the conventional view that the article disputes. Choice B is a hypothesis that the experiment disproved. Choice D is a definition of pioneers, not the main thesis. A common student mistake is choosing A because it is at the beginning, but the author's purpose is to challenge this advice. The strategy is to choose the statement that summarizes the main argument about the benefits of procrastination for creativity."
+      "diveDeep": "This question tests the identification of the central idea of the entire text. Choice A is the conventional view that the article disputes. Choice B is a hypothesis that the experiment disproved. Choice D is a definition of pioneers, not the main thesis. A common student mistake is choosing A because it is at the beginning, but the author's purpose is to challenge this advice. The strategy is to choose the statement that summarizes the main argument about the benefits of procrastination for creativity.",
+      "topic": "Central Idea & Theme"
     }
   ]
 }

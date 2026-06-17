@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-aug-2016",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The detailed description of London's vastness and history is included to illustrate the busy, overwhelming nature of Richard's life in the city.",
-      "diveDeep": "This question tests setting analysis. Choice A (index 0) is incorrect because Richard does not actively dislike London, but rather finds himself swept up in it. Choice B (index 1) is incorrect because the passage does not discuss his career opportunities. Choice C (index 2) is incorrect because the description is general rather than focusing on Richard's personal frustration. Students often mistake setting descriptions as purely scenic, failing to connect them to the character's daily experience."
+      "diveDeep": "This question tests setting analysis. Choice A (index 0) is incorrect because Richard does not actively dislike London, but rather finds himself swept up in it. Choice B (index 1) is incorrect because the passage does not discuss his career opportunities. Choice C (index 2) is incorrect because the description is general rather than focusing on Richard's personal frustration. Students often mistake setting descriptions as purely scenic, failing to connect them to the character's daily experience.",
+      "topic": "Inference"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The description of the city expanding and swallowing surrounding towns reinforces the relentless growth of London.",
-      "diveDeep": "This question tests parsing spatial metaphors. Choice B (index 1) is incorrect because the text treats the growth as natural or inevitable rather than a developmental problem. Choice C (index 2) is incorrect because the city is crowded and connected, not isolated. Choice D (index 3) is incorrect because the focus is on expansion rather than the specific history of the towns. Students often struggle with parsing spatial metaphors, missing that 'swallowing' refers to physical expansion."
+      "diveDeep": "This question tests parsing spatial metaphors. Choice B (index 1) is incorrect because the text treats the growth as natural or inevitable rather than a developmental problem. Choice C (index 2) is incorrect because the city is crowded and connected, not isolated. Choice D (index 3) is incorrect because the focus is on expansion rather than the specific history of the towns. Students often struggle with parsing spatial metaphors, missing that 'swallowing' refers to physical expansion.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "These lines show Richard's willingness to tolerate terrible dates and boring activities just to please Jessica and keep her happy.",
-      "diveDeep": "This question tests relationship subtext. Choice A (index 0) is incorrect because the passage highlights that he spent quite a bit of money rather than saving it. Choice C (index 2) is incorrect because he did not enjoy these cultural experiences. Choice D (index 3) is incorrect because he had no genuine affection for these outings. Students often miss the subtext of Richard's relationship, where he acts out of obligation rather than genuine interest."
+      "diveDeep": "This question tests relationship subtext. Choice A (index 0) is incorrect because the passage highlights that he spent quite a bit of money rather than saving it. Choice C (index 2) is incorrect because he did not enjoy these cultural experiences. Choice D (index 3) is incorrect because he had no genuine affection for these outings. Students often miss the subtext of Richard's relationship, where he acts out of obligation rather than genuine interest.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "In these lines, Richard downplays his anxieties and tells Gary everything is fine, showing he is in a state of denial about his relationship's strain.",
-      "diveDeep": "This question tests character perspective and defense mechanisms. Choice A (index 0) is incorrect because Gary is depicted as a friend, not showing jealousy. Choice B (index 1) is incorrect because Gary is being reasonable rather than moody. Choice C (index 2) is incorrect because Richard has no secret plan, just general anxiety. Students often misread Richard's outward optimism as genuine happiness rather than a defense mechanism."
+      "diveDeep": "This question tests character perspective and defense mechanisms. Choice A (index 0) is incorrect because Gary is depicted as a friend, not showing jealousy. Choice B (index 1) is incorrect because Gary is being reasonable rather than moody. Choice C (index 2) is incorrect because Richard has no secret plan, just general anxiety. Students often misread Richard's outward optimism as genuine happiness rather than a defense mechanism.",
+      "topic": "Close Reading"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The mention of Richard running late and rushing to finish tasks portrays him as inefficient at organizing his time.",
-      "diveDeep": "This question tests characterization. Choice B (index 1) is incorrect because his stress shows he does not work well under pressure. Choice C (index 2) is incorrect because his disorganization suggests he is struggling. Choice D (index 3) is incorrect because he is highly stressed and trying to work, not unmotivated. Students may assume that because he is working, he must be efficient, overlooking the chaotic nature of his efforts."
+      "diveDeep": "This question tests characterization. Choice B (index 1) is incorrect because his stress shows he does not work well under pressure. Choice C (index 2) is incorrect because his disorganization suggests he is struggling. Choice D (index 3) is incorrect because he is highly stressed and trying to work, not unmotivated. Students may assume that because he is working, he must be efficient, overlooking the chaotic nature of his efforts.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Sylvia's 'crisp efficiency' presents a sharp contrast to Richard's chaotic, disorganized state as he struggles with his work.",
-      "diveDeep": "This question tests juxtaposition. Choice A (index 0) is incorrect because Sylvia's character does not change or shift in this scene. Choice B (index 1) is incorrect because her efficiency is an established trait, not a future possibility. Choice D (index 3) is incorrect because her arrival does not solve Richard's problems. Students often miss the juxtaposition of the two characters' working styles."
+      "diveDeep": "This question tests juxtaposition. Choice A (index 0) is incorrect because Sylvia's character does not change or shift in this scene. Choice B (index 1) is incorrect because her efficiency is an established trait, not a future possibility. Choice D (index 3) is incorrect because her arrival does not solve Richard's problems. Students often miss the juxtaposition of the two characters' working styles.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Jessica's demanding dialogue and expectations highlight her domineering nature, showing her control over Richard's schedule and choices.",
-      "diveDeep": "This question tests analyzing character traits through dialogue. Choice B (index 1) is incorrect because she shows no compassion for Richard's work stress. Choice C (index 2) is incorrect because she is highly organized, not lacking responsibility. Choice D (index 3) is incorrect because her tone is demanding rather than humorous. Students may mistake her high standards for simple organization, failing to see how they disempower Richard."
+      "diveDeep": "This question tests analyzing character traits through dialogue. Choice B (index 1) is incorrect because she shows no compassion for Richard's work stress. Choice C (index 2) is incorrect because she is highly organized, not lacking responsibility. Choice D (index 3) is incorrect because her tone is demanding rather than humorous. Students may mistake her high standards for simple organization, failing to see how they disempower Richard.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The overlapping dialogue and competing demands from Jessica and Sylvia create a strong mood of stress for Richard.",
-      "diveDeep": "This question tests mood. Choice A (index 0) is incorrect because Richard is clearly overwhelmed, not satisfied. Choice C (index 2) is incorrect because he lacks confidence in handling all the tasks. Choice D (index 3) is incorrect because he is anxious to please rather than remorseful. Students must read the dialogue in the context of Richard’s internal state of panic."
+      "diveDeep": "This question tests mood. Choice A (index 0) is incorrect because Richard is clearly overwhelmed, not satisfied. Choice C (index 2) is incorrect because he lacks confidence in handling all the tasks. Choice D (index 3) is incorrect because he is anxious to please rather than remorseful. Students must read the dialogue in the context of Richard’s internal state of panic.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Asking if he can get a table by offering extra money reveals Richard's quiet desperation to satisfy Jessica's strict demands.",
-      "diveDeep": "This question tests character motivation. Choice A (index 0) is incorrect because offering bribes is not a sign of subtle refinement. Choice B (index 1) is incorrect because he is acting out of fear, not hostility. Choice C (index 2) is incorrect because he is not expressing gratitude to the restaurant. Students often fail to recognize that a desperate bribe is a sign of panic rather than confidence."
+      "diveDeep": "This question tests character motivation. Choice A (index 0) is incorrect because offering bribes is not a sign of subtle refinement. Choice B (index 1) is incorrect because he is acting out of fear, not hostility. Choice C (index 2) is incorrect because he is not expressing gratitude to the restaurant. Students often fail to recognize that a desperate bribe is a sign of panic rather than confidence.",
+      "topic": "Close Reading"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The quote about London's contradictory nature reflects the central theme of coping with overwhelming, chaotic environments and relationships.",
-      "diveDeep": "This question tests identifying thematic quotes. Choice B (index 1) and Choice C (index 2) are minor details about Richard's office work. Choice D (index 3) is a narrative action about booking a table. Students should look for the quote that has broader, thematic resonance beyond the immediate plot details."
+      "diveDeep": "This question tests identifying thematic quotes. Choice B (index 1) and Choice C (index 2) are minor details about Richard's office work. Choice D (index 3) is a narrative action about booking a table. Students should look for the quote that has broader, thematic resonance beyond the immediate plot details.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The narrator's description of his courageous self being replaced by a coward unknown to him shows his lack of self-confidence.",
-      "diveDeep": "This question tests vulnerability and self-assessment in poetry. Choice A (index 0) is incorrect because he wants to be self-reliant but fails. Choice B (index 1) is incorrect because he is fearful, not seeking adventure. Choice D (index 3) is incorrect because he is not discussing writers. Students often miss the vulnerability of the narrator's self-assessment."
+      "diveDeep": "This question tests vulnerability and self-assessment in poetry. Choice A (index 0) is incorrect because he wants to be self-reliant but fails. Choice B (index 1) is incorrect because he is fearful, not seeking adventure. Choice D (index 3) is incorrect because he is not discussing writers. Students often miss the vulnerability of the narrator's self-assessment.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The questions 'What must I do to distinguish myself? How can I put myself together?' serve to clarify the narrator's internal dilemma about identity.",
-      "diveDeep": "This question tests rhetorical functions. Choice A (index 0) is incorrect because these are self-reflective questions, not biases. Choice B (index 1) is incorrect because he is seeking answers, not challenging an existing belief. Choice D (index 3) is incorrect because he has not made a decision yet. Students should realize that rhetorical questions in personal poetry often express unresolved internal conflict."
+      "diveDeep": "This question tests rhetorical functions. Choice A (index 0) is incorrect because these are self-reflective questions, not biases. Choice B (index 1) is incorrect because he is seeking answers, not challenging an existing belief. Choice D (index 3) is incorrect because he has not made a decision yet. Students should realize that rhetorical questions in personal poetry often express unresolved internal conflict.",
+      "topic": "Close Reading"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The contrast between the heroic figures the narrator envies and his own lazy, cowardly actions illustrates the gap between his idealism and reality.",
-      "diveDeep": "This question tests theme. Choice A (index 0) is incorrect because the conflicts are entirely internal, not societal. Choice B (index 1) is incorrect because he shows a lack of determination. Choice C (index 2) is incorrect because society's expectations are not the main driver of his self-doubt. Students often confuse internal conflict with external societal pressure."
+      "diveDeep": "This question tests theme. Choice A (index 0) is incorrect because the conflicts are entirely internal, not societal. Choice B (index 1) is incorrect because he shows a lack of determination. Choice C (index 2) is incorrect because society's expectations are not the main driver of his self-doubt. Students often confuse internal conflict with external societal pressure.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The narrator's desire to see if other people experience the same multiplicity of self describes a hope that his condition is universal.",
-      "diveDeep": "This question tests thematic resolution. Choice A (index 0) is incorrect because the solution is about finding shared experience, not balance. Choice C (index 2) is incorrect because the narrator views this exploration as positive, not inappropriate. Choice D (index 3) is incorrect because comparing experiences is a realistic way to find connection. Students may choose 'unrealistic' because of the poem's whimsical tone, but the act of seeking common ground is standard human behavior."
+      "diveDeep": "This question tests thematic resolution. Choice A (index 0) is incorrect because the solution is about finding shared experience, not balance. Choice C (index 2) is incorrect because the narrator views this exploration as positive, not inappropriate. Choice D (index 3) is incorrect because comparing experiences is a realistic way to find connection. Students may choose 'unrealistic' because of the poem's whimsical tone, but the act of seeking common ground is standard human behavior.",
+      "topic": "Close Reading"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The opening lines introduce the central idea by describing the range of high-frequency sounds that dogs can hear but humans cannot.",
-      "diveDeep": "This question tests reading comprehension of introductory paragraphs. Choice A (index 0) is incorrect because the passage does not discuss the physical structure of the ear in detail. Choice C (index 2) is incorrect because the focus is on dogs' hearing rather than humans'. Choice D (index 3) is incorrect because the dog whistle is only one example of high-frequency sound. Students often choose Option 1 because of the word 'design' or 'evolved,' but the paragraph focuses on the frequencies themselves."
+      "diveDeep": "This question tests reading comprehension of introductory paragraphs. Choice A (index 0) is incorrect because the passage does not discuss the physical structure of the ear in detail. Choice C (index 2) is incorrect because the focus is on dogs' hearing rather than humans'. Choice D (index 3) is incorrect because the dog whistle is only one example of high-frequency sound. Students often choose Option 1 because of the word 'design' or 'evolved,' but the paragraph focuses on the frequencies themselves.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The mention of dogs detecting changes in speech pitch to understand commands supports the idea that humans can verbally communicate with dogs.",
-      "diveDeep": "This question tests distinguishing verbal vs grammatical communication. Choice A (index 0) is incorrect because dogs clearly obey signals. Choice B (index 1) is incorrect because the text suggests dogs are quite good at interpreting these pitches. Choice D (index 3) is incorrect because understanding pitch does not mean dogs understand complex grammar or syntax. Students must distinguish between basic verbal communication (pitch and prosody) and full linguistic capability."
+      "diveDeep": "This question tests distinguishing verbal vs grammatical communication. Choice A (index 0) is incorrect because dogs clearly obey signals. Choice B (index 1) is incorrect because the text suggests dogs are quite good at interpreting these pitches. Choice D (index 3) is incorrect because understanding pitch does not mean dogs understand complex grammar or syntax. Students must distinguish between basic verbal communication (pitch and prosody) and full linguistic capability.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Altering the intonation of familiar words (such as using a question tone) can confuse dogs, as they rely heavily on the pitch and stress of speech.",
-      "diveDeep": "This question tests analyzing textual examples. Choice A (index 0) is incorrect because dogs may still respond to the tone of nonsense speech if the intonation matches. Choice B (index 1) is incorrect because direct commands are clear, not confusing. Choice C (index 2) is incorrect because gestures are not discussed in these lines. Students often miss that 'up-talking' (changing intonation) is the specific example of confusion cited."
+      "diveDeep": "This question tests analyzing textual examples. Choice A (index 0) is incorrect because dogs may still respond to the tone of nonsense speech if the intonation matches. Choice B (index 1) is incorrect because direct commands are clear, not confusing. Choice C (index 2) is incorrect because gestures are not discussed in these lines. Students often miss that 'up-talking' (changing intonation) is the specific example of confusion cited.",
+      "topic": "Close Reading"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The text notes that language use is considered the ultimate criterion for intelligence, showing it is an indicator of higher-level thinking.",
-      "diveDeep": "This question tests analyzing central terms. Choice B (index 1) is incorrect because language is contrasted with basic survival instincts. Choice C (index 2) is incorrect because emotional response does not require language. Choice D (index 3) is incorrect because problem-solving can occur without formal language. Students often confuse general intelligence with specific problem-solving skills."
+      "diveDeep": "This question tests analyzing central terms. Choice B (index 1) is incorrect because language is contrasted with basic survival instincts. Choice C (index 2) is incorrect because emotional response does not require language. Choice D (index 3) is incorrect because problem-solving can occur without formal language. Students often confuse general intelligence with specific problem-solving skills.",
+      "topic": "Close Reading"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "All parties agree that animals lack a humanlike language with rules for combining words into meaningful sentences (lines 33-36).",
-      "diveDeep": "This question tests definition of concepts. Choice A (index 0) is incorrect because working dogs can master complicated directions. Choice B (index 1) is incorrect because some animals can mimic human pitches. Choice D (index 3) is incorrect because some species can interpret warnings from other species. Students should look for the specific definition of humanlike language (combinable words and rules) described in the text."
+      "diveDeep": "This question tests definition of concepts. Choice A (index 0) is incorrect because working dogs can master complicated directions. Choice B (index 1) is incorrect because some animals can mimic human pitches. Choice D (index 3) is incorrect because some species can interpret warnings from other species. Students should look for the specific definition of humanlike language (combinable words and rules) described in the text.",
+      "topic": "Close Reading"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The examples of monkeys reacting to bird warnings and animals using mimicry show how some species can imitate behavior and sound to communicate.",
-      "diveDeep": "This question tests analyzing functions of examples. Choice B (index 1) is incorrect as the examples focus on individual survival behaviors, not fostering community. Choice C (index 2) is incorrect because the passage does not mention prey transforming into predators. Choice D (index 3) is incorrect because the animals are taking action for safety, not compromising their freedom. Students often miss that 'mimicry' directly corresponds to imitating sound and behavior."
+      "diveDeep": "This question tests analyzing functions of examples. Choice B (index 1) is incorrect as the examples focus on individual survival behaviors, not fostering community. Choice C (index 2) is incorrect because the passage does not mention prey transforming into predators. Choice D (index 3) is incorrect because the animals are taking action for safety, not compromising their freedom. Students often miss that 'mimicry' directly corresponds to imitating sound and behavior.",
+      "topic": "Close Reading"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The author uses 'gibberish' to emphasize the complexity of spoken sounds, showing that minor changes in vowels and consonants can make speech unrecognizable to a dog.",
-      "diveDeep": "This question tests word choice analysis. Choice A (index 0) is incorrect because the text focuses on phonetics (consonants/vowels) rather than word order. Choice C (index 2) is incorrect because gestures are not the focus of this paragraph. Choice D (index 3) is incorrect because the discussion is specifically about auditory speech sounds, not movement. A common mistake is selecting word order, but the passage specifies changing consonants and vowels, which relates to the complexity of the speech sounds themselves."
+      "diveDeep": "This question tests word choice analysis. Choice A (index 0) is incorrect because the text focuses on phonetics (consonants/vowels) rather than word order. Choice C (index 2) is incorrect because gestures are not the focus of this paragraph. Choice D (index 3) is incorrect because the discussion is specifically about auditory speech sounds, not movement. A common mistake is selecting word order, but the passage specifies changing consonants and vowels, which relates to the complexity of the speech sounds themselves.",
+      "topic": "Close Reading"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Lines 57 through 65 emphasize that how we speak (using pitch, intonation, and tone) is more critical to a dog's comprehension than the actual words used.",
-      "diveDeep": "This question tests identifying a central claim. Choice A (index 0) is incorrect because high-pitched sounds are exciting or interesting to dogs, not necessarily agitating. Choice C (index 2) is incorrect because the text does not mention an early-life age requirement for learning. Choice D (index 3) is incorrect because dogs respond with eagerness (alacrity) to baby talk, not distress. Students often focus on the vocabulary words instead of the communicative power of tone and pitch."
+      "diveDeep": "This question tests identifying a central claim. Choice A (index 0) is incorrect because high-pitched sounds are exciting or interesting to dogs, not necessarily agitating. Choice C (index 2) is incorrect because the text does not mention an early-life age requirement for learning. Choice D (index 3) is incorrect because dogs respond with eagerness (alacrity) to baby talk, not distress. Students often focus on the vocabulary words instead of the communicative power of tone and pitch.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The reference to 'motherese' connects styles of spoken communication (high-pitched, repeated call requests) to the likely responses (alacrity and attention) from the listener.",
-      "diveDeep": "This question tests analyzing styles of communication. Choice A (index 0) is incorrect because the text does not focus on combining different languages. Choice B (index 1) is incorrect because the volume of speech is not the primary factor being analyzed. Choice C (index 2) is incorrect because the focus is on vocal style and tone, not specific vocabulary choices. A common mistake is focusing on 'word choice' rather than the acoustic style of the speech."
+      "diveDeep": "This question tests analyzing styles of communication. Choice A (index 0) is incorrect because the text does not focus on combining different languages. Choice B (index 1) is incorrect because the volume of speech is not the primary factor being analyzed. Choice C (index 2) is incorrect because the focus is on vocal style and tone, not specific vocabulary choices. A common mistake is focusing on 'word choice' rather than the acoustic style of the speech.",
+      "topic": "Close Reading"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The primary purpose of the text is to educate readers about how dogs experience sound, highlighting their sensitivity to pitch, frequency, and intonation.",
-      "diveDeep": "This question tests primary purpose. Choice A (index 0) is incorrect because the text validates dogs' abilities rather than debunking a myth. Choice B (index 1) is incorrect because it does not propose a specific new training method. Choice D (index 3) is incorrect because it is informative rather than advocating for an alternative training regimen. Students often mistake informative scientific texts for instructional guides, choosing training-related options instead of educational ones."
+      "diveDeep": "This question tests primary purpose. Choice A (index 0) is incorrect because the text validates dogs' abilities rather than debunking a myth. Choice B (index 1) is incorrect because it does not propose a specific new training method. Choice D (index 3) is incorrect because it is informative rather than advocating for an alternative training regimen. Students often mistake informative scientific texts for instructional guides, choosing training-related options instead of educational ones.",
+      "topic": "Close Reading"
     }
   ]
 }

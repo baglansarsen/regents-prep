@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-jun-2022",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "In the opening paragraph, Miss Conway wears all black, which is traditional mourning attire meant to convey her sorrow over a recent loss. This corresponds to Choice B.",
-      "diveDeep": "This question tests the Regents reading skill of identifying characterization through physical details like clothing. Choice A is incorrect because black mourning clothes do not convey glamour. Choice C is incorrect because modesty is not the primary message of her dramatic black attire. Choice D is incorrect because she is seeking connection, not expressing aloofness. A common student mistake is choosing A because of the dramatic description, but O. Henry specifically highlights her mourning theme. The strategy is to associate 'mourning' and 'black' with the emotion of sorrow."
+      "diveDeep": "This question tests the Regents reading skill of identifying characterization through physical details like clothing. Choice A is incorrect because black mourning clothes do not convey glamour. Choice C is incorrect because modesty is not the primary message of her dramatic black attire. Choice D is incorrect because she is seeking connection, not expressing aloofness. A common student mistake is choosing A because of the dramatic description, but O. Henry specifically highlights her mourning theme. The strategy is to associate 'mourning' and 'black' with the emotion of sorrow.",
+      "topic": "Close Reading"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Mr. Donovan presents himself as a sympathetic listener who is genuinely concerned for Miss Conway's grief, hoping to console her (Choice A).",
-      "diveDeep": "This question tests the Regents skill of analyzing character motivation and dialogue. Choice B is incorrect because Mr. Donovan is actively trying to be helpful, not insincere. Choice C is incorrect because he does not know the Count and is not overwhelmed by his death. Choice D is incorrect because he has no reason to apologize for his behavior. A common mistake is selecting B because Donovan has romantic motives, but his immediate presentation of himself to her is one of concern. The strategy is to look at his supportive dialogue to determine his self-presentation."
+      "diveDeep": "This question tests the Regents skill of analyzing character motivation and dialogue. Choice B is incorrect because Mr. Donovan is actively trying to be helpful, not insincere. Choice C is incorrect because he does not know the Count and is not overwhelmed by his death. Choice D is incorrect because he has no reason to apologize for his behavior. A common mistake is selecting B because Donovan has romantic motives, but his immediate presentation of himself to her is one of concern. The strategy is to look at his supportive dialogue to determine his self-presentation.",
+      "topic": "Close Reading"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Miss Conway tells the story of her tragic fiancé, Count Fernando Mazzini, to elicit sympathy and seek compassion from Mr. Donovan. This matches Choice A.",
-      "diveDeep": "This question tests the Regents skill of analyzing character intentions within a narrative. Choice B is incorrect because there are no boarding house rumors mentioned. Choice C is incorrect because she is mourning a loss rather than showing off wealth. Choice D is incorrect because she does not ask for advice. Students often choose C because the Count was wealthy, but her emotional goal in sharing the story is to receive Donovan's comforting attention. The strategy is to ask what emotional response she wants to evoke in her listener."
+      "diveDeep": "This question tests the Regents skill of analyzing character intentions within a narrative. Choice B is incorrect because there are no boarding house rumors mentioned. Choice C is incorrect because she is mourning a loss rather than showing off wealth. Choice D is incorrect because she does not ask for advice. Students often choose C because the Count was wealthy, but her emotional goal in sharing the story is to receive Donovan's comforting attention. The strategy is to ask what emotional response she wants to evoke in her listener.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The description of Mr. Donovan trying to play the 'sympathetic but cheerful friend' suggests that he had a romantic motive for his kind behavior toward her, which is Choice D.",
-      "diveDeep": "This question tests the Regents skill of drawing inferences about character motives. Choice A is incorrect because he is highly interested in romance. Choice B is incorrect because he is not an actor by trade, but rather adopting a social role. Choice C is incorrect because he is actively hiding his romantic interest under a facade of friendship. A common error is choosing B due to the word 'role,' but this is a metaphor for his social strategy. The strategy is to connect his 'essay' of a role to his underlying motive of winning her affection."
+      "diveDeep": "This question tests the Regents skill of drawing inferences about character motives. Choice A is incorrect because he is highly interested in romance. Choice B is incorrect because he is not an actor by trade, but rather adopting a social role. Choice C is incorrect because he is actively hiding his romantic interest under a facade of friendship. A common error is choosing B due to the word 'role,' but this is a metaphor for his social strategy. The strategy is to connect his 'essay' of a role to his underlying motive of winning her affection.",
+      "topic": "Inference"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "In this context, a 'diminution' of her grief describes a gradual reduction or lessening of her sorrow over time, making Choice C correct.",
-      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because acceptance is a mental state, not a decrease in quantity. Choice B is incorrect because appearance is the opposite of lessening. Choice D is incorrect because explanation does not fit the description of a declining emotion. Students often confuse 'diminution' with 'dimension' or 'explanation.' The strategy is to connect the root word of 'diminution' to 'diminish' or 'reduction.'"
+      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because acceptance is a mental state, not a decrease in quantity. Choice B is incorrect because appearance is the opposite of lessening. Choice D is incorrect because explanation does not fit the description of a declining emotion. Students often confuse 'diminution' with 'dimension' or 'explanation.' The strategy is to connect the root word of 'diminution' to 'diminish' or 'reduction.'",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "When Mr. Donovan looks gloomy, Miss Conway responds with tender persistence, showing gentle care and checking on his feelings, which is Choice A.",
-      "diveDeep": "This question tests the Regents skill of identifying character interaction and tone. Choice B is incorrect because she is patient and caring, not impatient. Choice C is incorrect because she shows warmth, not hostility. Choice D is incorrect because her interest in him is growing and genuine. A common mistake is selecting D because they are new acquaintances, but her reaction shows a tender effort to comfort him. The strategy is to look at her gentle and caring words of inquiry."
+      "diveDeep": "This question tests the Regents skill of identifying character interaction and tone. Choice B is incorrect because she is patient and caring, not impatient. Choice C is incorrect because she shows warmth, not hostility. Choice D is incorrect because her interest in him is growing and genuine. A common mistake is selecting D because they are new acquaintances, but her reaction shows a tender effort to comfort him. The strategy is to look at her gentle and caring words of inquiry.",
+      "topic": "Close Reading"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Mr. Donovan's exaggerated praise for Big Mike's influence highlights his deep respect for Big Mike's power and status in the community, matching Choice D.",
-      "diveDeep": "This question tests the Regents skill of analyzing how hyperbole develops characterization. Choice A is incorrect because his intent is to impress, not selflessly help. Choice B is incorrect because he trusts Big Mike's authority. Choice C is incorrect because he is describing political influence, not physical violence. Students often get confused by the reference to 'Big Mike' and guess B or C, but the hyperbole is a sign of respect for his clout. The strategy is to analyze the positive, elevated nature of the exaggerated description."
+      "diveDeep": "This question tests the Regents skill of analyzing how hyperbole develops characterization. Choice A is incorrect because his intent is to impress, not selflessly help. Choice B is incorrect because he trusts Big Mike's authority. Choice C is incorrect because he is describing political influence, not physical violence. Students often get confused by the reference to 'Big Mike' and guess B or C, but the hyperbole is a sign of respect for his clout. The strategy is to analyze the positive, elevated nature of the exaggerated description.",
+      "topic": "Close Reading"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Choice C is correct because Mr. Donovan staring with great interest at the photograph in the locket foreshadows the twist ending, where he recognizes the face in the picture as Big Mike Sullivan, not a fictional Italian Count.",
-      "diveDeep": "This question tests the Regents skill of identifying foreshadowing in a plot. Choice A is a simple polite question. Choice B is part of her fabrication. Choice D describes his general plan, but doesn't hint at the specific photographic twist. A common error is selecting D because it states his romantic goal, but C is the specific detail that sets up his recognition of the photo. The strategy is to identify which detail connects directly to the final surprise revelation."
+      "diveDeep": "This question tests the Regents skill of identifying foreshadowing in a plot. Choice A is a simple polite question. Choice B is part of her fabrication. Choice D describes his general plan, but doesn't hint at the specific photographic twist. A common error is selecting D because it states his romantic goal, but C is the specific detail that sets up his recognition of the photo. The strategy is to identify which detail connects directly to the final surprise revelation.",
+      "topic": "Close Reading"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The story is developed primarily through the dialogue exchanged between Miss Conway and Mr. Donovan as they sit on the porch, making Choice D correct.",
-      "diveDeep": "This question tests the method of development. Choice A is incorrect because symbols are minor, not the primary driver. Choice B is incorrect because there is little repetition in the narrative. Choice C is incorrect because the characters remain sitting, so physical action is minimal. Students often choose C because it is a story, but the narrative progress is carried almost entirely by their conversation. The strategy is to look at the volume of quotation marks in the text to identify dialogue."
+      "diveDeep": "This question tests the method of development. Choice A is incorrect because symbols are minor, not the primary driver. Choice B is incorrect because there is little repetition in the narrative. Choice C is incorrect because the characters remain sitting, so physical action is minimal. Students often choose C because it is a story, but the narrative progress is carried almost entirely by their conversation. The strategy is to look at the volume of quotation marks in the text to identify dialogue.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The O. Henry twist reveals that Miss Conway lied about the Count to get attention, and both characters find happiness once she admits the truth and they connect honestly, matching Choice B.",
-      "diveDeep": "This question tests the Regents skill of identifying the central theme. Choice A is incorrect because they do not profit from others' actual pain. Choice C is incorrect because their connection is romantic, not professional encouragement. Choice D is incorrect because their lives are simplified, not complicated, by their meeting. A common mistake is selecting A due to the false mourning, but the story's moral resolution is that admitting the lie brings relief and happiness. The strategy is to look at the emotional resolution at the very end of the text."
+      "diveDeep": "This question tests the Regents skill of identifying the central theme. Choice A is incorrect because they do not profit from others' actual pain. Choice C is incorrect because their connection is romantic, not professional encouragement. Choice D is incorrect because their lives are simplified, not complicated, by their meeting. A common mistake is selecting A due to the false mourning, but the story's moral resolution is that admitting the lie brings relief and happiness. The strategy is to look at the emotional resolution at the very end of the text.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Lines 5 and 13 contrast the narrator's dreams, where he climbs mountains with strong steps, with the reality of the day, where his feet are palsied and tottering, emphasizing the contrast between illusion and reality (Choice A).",
-      "diveDeep": "This question tests the Regents skill of analyzing structural contrast in poetry. Choice B is incorrect because the dream is active, not calm, and the day is physically frustrating. Choice C is incorrect because the poem is about physical ability, not instinct. Choice D is incorrect because the focus is on the physical sensation of the dream versus reality, not intellectual doubt. A common student mistake is choosing D because of the questions in the middle stanza, but the primary contrast in the cited lines is between dream steps and waking steps. The strategy is to look at the opposing descriptions of his physical movement."
+      "diveDeep": "This question tests the Regents skill of analyzing structural contrast in poetry. Choice B is incorrect because the dream is active, not calm, and the day is physically frustrating. Choice C is incorrect because the poem is about physical ability, not instinct. Choice D is incorrect because the focus is on the physical sensation of the dream versus reality, not intellectual doubt. A common student mistake is choosing D because of the questions in the middle stanza, but the primary contrast in the cited lines is between dream steps and waking steps. The strategy is to look at the opposing descriptions of his physical movement.",
+      "topic": "Close Reading"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "In this context, the body is described as growing weak and failing while the soul remains strong, meaning 'languish' most nearly means to deteriorate (Choice B).",
-      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because the body does not communicate. Choice C is incorrect because languishing is contrasted with the soul's strength, meaning it does not survive well. Choice D is incorrect because forgetfulness is a mental state, not a physical deterioration. Students often choose C by guessing, but the contrast with the 'strong' soul reveals that languish means to grow weak or deteriorate. The strategy is to use the context of physical aging to define the verb."
+      "diveDeep": "This question tests vocabulary-in-context. Choice A is incorrect because the body does not communicate. Choice C is incorrect because languishing is contrasted with the soul's strength, meaning it does not survive well. Choice D is incorrect because forgetfulness is a mental state, not a physical deterioration. Students often choose C by guessing, but the contrast with the 'strong' soul reveals that languish means to grow weak or deteriorate. The strategy is to use the context of physical aging to define the verb.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "By stating that day and night are divided equally and that he gets as much as he loses, the poet suggests that day and night ensure balance in his life, matching Choice D.",
-      "diveDeep": "This question tests the Regents skill of interpreting thematic conclusions. Choice A is incorrect because the poet finds comfort in the night, not failure. Choice B is incorrect because creativity is not the focus of his dream walks. Choice C is incorrect because the division brings him peace, not conflict. A common error is choosing A because of his waking paralysis, but the final lines reconcile both states as a balanced trade-off. The strategy is to analyze the mathematical balance ('divided in equal parts', 'as much as I lose') described by the poet."
+      "diveDeep": "This question tests the Regents skill of interpreting thematic conclusions. Choice A is incorrect because the poet finds comfort in the night, not failure. Choice B is incorrect because creativity is not the focus of his dream walks. Choice C is incorrect because the division brings him peace, not conflict. A common error is choosing A because of his waking paralysis, but the final lines reconcile both states as a balanced trade-off. The strategy is to analyze the mathematical balance ('divided in equal parts', 'as much as I lose') described by the poet.",
+      "topic": "Inference"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The poet's exploration of his aging body, his vivid dreams, and the relationship between body and soul creates a deeply reflective tone, which is Choice C.",
-      "diveDeep": "This question tests the identification of poetic tone. Choice A is incorrect because the poet is peaceful and accepting, not desperate. Choice B is incorrect because there is no theme of personal offense requiring forgiveness. Choice D is incorrect because he is highly sensitive to his own condition. Students often select A because of the physical disability mentioned, but the overall tone is calm, philosophical, and reflective. The strategy is to look at the philosophical questions in the second stanza to determine tone."
+      "diveDeep": "This question tests the identification of poetic tone. Choice A is incorrect because the poet is peaceful and accepting, not desperate. Choice B is incorrect because there is no theme of personal offense requiring forgiveness. Choice D is incorrect because he is highly sensitive to his own condition. Students often select A because of the physical disability mentioned, but the overall tone is calm, philosophical, and reflective. The strategy is to look at the philosophical questions in the second stanza to determine tone.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The opening paragraph describes Marie Tharp hunched over a drafting table surrounded by charts and ink, serving to explain the nature of Tharp's detailed mapping work (Choice B).",
-      "diveDeep": "This question tests the structural function of an introduction. Choice A is incorrect because the paragraph describes her physical drafting work, not a fantasy or imagination. Choice C is incorrect because her controversial views are introduced later. Choice D is incorrect because her methodology is depicted as careful, not flawed. A common mistake is selecting A because of the phrase 'world no one had ever seen,' but the text emphasizes her literal geographical project. The strategy is to identify the concrete objects (drafting table, charts, ink) that describe her professional duties."
+      "diveDeep": "This question tests the structural function of an introduction. Choice A is incorrect because the paragraph describes her physical drafting work, not a fantasy or imagination. Choice C is incorrect because her controversial views are introduced later. Choice D is incorrect because her methodology is depicted as careful, not flawed. A common mistake is selecting A because of the phrase 'world no one had ever seen,' but the text emphasizes her literal geographical project. The strategy is to identify the concrete objects (drafting table, charts, ink) that describe her professional duties.",
+      "topic": "Close Reading"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "When Tharp first saw the rift valley in her profiles, she stared at it and believed it had to be a mistake, showing her reaction was one of amazement or disbelief (Choice C).",
-      "diveDeep": "This question tests the Regents skill of identifying character reaction. Choice A is incorrect because she was anxious and checked the data for weeks, not relieved. Choice B is incorrect because she immediately went to work to verify it, not helpless. Choice D is incorrect because she was scientifically excited, not physically afraid. Students often select D because of the word 'mistake,' but her subsequent checking shows scientific curiosity and amazement. The strategy is to connect the 'impossible' nature of the discovery to the emotion of amazement."
+      "diveDeep": "This question tests the Regents skill of identifying character reaction. Choice A is incorrect because she was anxious and checked the data for weeks, not relieved. Choice B is incorrect because she immediately went to work to verify it, not helpless. Choice D is incorrect because she was scientifically excited, not physically afraid. Students often select D because of the word 'mistake,' but her subsequent checking shows scientific curiosity and amazement. The strategy is to connect the 'impossible' nature of the discovery to the emotion of amazement.",
+      "topic": "Close Reading"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The French director comparing Wegener's theory of continental drift to 'a little vapor or smoke' that cannot be embraced suggests the theory was considered absurd and unsubstantial by critics (Choice A).",
-      "diveDeep": "This question tests the interpretation of figurative language in historical context. Choice B is incorrect because the critics rejected it, showing they did not value it. Choice C is incorrect because they dismissed it outright rather than calling it untested. Choice D is incorrect because they mocked it, meaning they did not find it intriguing. A common student mistake is choosing C because scientific theories start as untested, but the specific metaphor ('vapor or smoke') is used to mock its lack of substance. The strategy is to analyze the dismissive tone of the comparison."
+      "diveDeep": "This question tests the interpretation of figurative language in historical context. Choice B is incorrect because the critics rejected it, showing they did not value it. Choice C is incorrect because they dismissed it outright rather than calling it untested. Choice D is incorrect because they mocked it, meaning they did not find it intriguing. A common student mistake is choosing C because scientific theories start as untested, but the specific metaphor ('vapor or smoke') is used to mock its lack of substance. The strategy is to analyze the dismissive tone of the comparison.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Lines 36 through 42 describe Tharp trusting what she saw, double-checking the numbers, and standing by her data despite her colleagues' dismissiveness, revealing her determination to validate her conclusion (Choice B).",
-      "diveDeep": "This question tests characterization. Choice A is incorrect because she actively shared it with her supervisor. Choice C is incorrect because her supervisor dismissed her work as 'girl talk,' showing a lack of support. Choice D is incorrect because she did not let fear of firing stop her from replotting the data. Students often select D because of the mention of danger to career, but her action of redoing the map from scratch shows her grit and determination. The strategy is to focus on her persistent behavior."
+      "diveDeep": "This question tests characterization. Choice A is incorrect because she actively shared it with her supervisor. Choice C is incorrect because her supervisor dismissed her work as 'girl talk,' showing a lack of support. Choice D is incorrect because she did not let fear of firing stop her from replotting the data. Students often select D because of the mention of danger to career, but her action of redoing the map from scratch shows her grit and determination. The strategy is to focus on her persistent behavior.",
+      "topic": "Close Reading"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The text states that with men off fighting in World War II, universities opened up geology departments to women, showing Tharp's education was influenced by the increased demand for military service (Choice C).",
-      "diveDeep": "This question tests cause-and-effect details in historical context. Choice A is incorrect because technology availability is not mentioned as the cause of her admission. Choice B is incorrect because drafting courses were a recommendation, not the macro-event that opened the university doors. Choice D is incorrect because environmental concerns were not the focus of wartime university policies. A common error is choosing B, but the text specifically links the opportunity for women to 'men off fighting in the war.' The strategy is to align the historical context of WWII with the choices."
+      "diveDeep": "This question tests cause-and-effect details in historical context. Choice A is incorrect because technology availability is not mentioned as the cause of her admission. Choice B is incorrect because drafting courses were a recommendation, not the macro-event that opened the university doors. Choice D is incorrect because environmental concerns were not the focus of wartime university policies. A common error is choosing B, but the text specifically links the opportunity for women to 'men off fighting in the war.' The strategy is to align the historical context of WWII with the choices.",
+      "topic": "Close Reading"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The word 'sparring' refers to the ongoing scientific debates and disagreements between Tharp and Heezen regarding the theoretical implications of the mid-Atlantic ridge maps (Choice A).",
-      "diveDeep": "This question tests vocabulary-in-context for a relationship dynamic. Choice B is incorrect because they were defending their work, not rejecting criticism. Choice C is incorrect because she complied with his orders to redo the map, showing she accepted his formal authority. Choice D is incorrect because they were collaborators, not competitors. A common error is choosing D because 'sparring' is a boxing term, but in context, it refers to their intellectual debates. The strategy is to look at their cooperative but argumentative relationship."
+      "diveDeep": "This question tests vocabulary-in-context for a relationship dynamic. Choice B is incorrect because they were defending their work, not rejecting criticism. Choice C is incorrect because she complied with his orders to redo the map, showing she accepted his formal authority. Choice D is incorrect because they were collaborators, not competitors. A common error is choosing D because 'sparring' is a boxing term, but in context, it refers to their intellectual debates. The strategy is to look at their cooperative but argumentative relationship.",
+      "topic": "Inference"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Comparing the mid-ocean ridge to the 'seams on a baseball' helps the reader visualize the immense length and global extent of the ridge wrapping around the planet (Choice D).",
-      "diveDeep": "This question tests the rhetorical function of an analogy. Choice A is incorrect because seams do not suggest speed. Choice B is incorrect because baseball seams hold a ball together, which is not the biological purpose of plate tectonics. Choice C is incorrect because the analogy describes the physical ridge, not Wegener's theory. Students often choose B because seams are structural, but the text uses the visual to describe how the ridge 'wraps around the globe,' pointing to its extent. The strategy is to focus on the global scale described in the sentence."
+      "diveDeep": "This question tests the rhetorical function of an analogy. Choice A is incorrect because seams do not suggest speed. Choice B is incorrect because baseball seams hold a ball together, which is not the biological purpose of plate tectonics. Choice C is incorrect because the analogy describes the physical ridge, not Wegener's theory. Students often choose B because seams are structural, but the text uses the visual to describe how the ridge 'wraps around the globe,' pointing to its extent. The strategy is to focus on the global scale described in the sentence.",
+      "topic": "Close Reading"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The statement in Choice B captures the central theme of the text: the revolutionary impact of Tharp's mapping work on the field of geosciences, making Choice B correct.",
-      "diveDeep": "This question tests the identification of the central idea. Choice A is incorrect because the 1870s discovery is a historical background detail. Choice C is a general geological principle, not the specific thesis of Tharp's struggle and map. Choice D is a narrative detail about the timeline of their project. A common student mistake is choosing C because it sounds scientific, but the article focuses on the revolutionary impact of Tharp's specific map. The strategy is to select the quote that highlights the change in scientific history."
+      "diveDeep": "This question tests the identification of the central idea. Choice A is incorrect because the 1870s discovery is a historical background detail. Choice C is a general geological principle, not the specific thesis of Tharp's struggle and map. Choice D is a narrative detail about the timeline of their project. A common student mistake is choosing C because it sounds scientific, but the article focuses on the revolutionary impact of Tharp's specific map. The strategy is to select the quote that highlights the change in scientific history.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "It is ironic that the institutional gender bias that banned Tharp from going to sea actually kept her in the lab to perform the critical data analysis and drafting that led to the discovery (Choice A).",
-      "diveDeep": "This question tests the identification of situational irony. Choice B is incorrect because Tharp was not superstitious; her director was. Choice C is incorrect because her graphing was highly accurate. Choice D is incorrect because her collaboration with Heezen enabled the discovery rather than limiting it. A common error is choosing B because 'bad luck' is mentioned, but that was the director's bias, not Tharp's superstition. The strategy is to look for a reversal where a disadvantage (exclusion from ships) turned into a major advantage (doing the mapping work)."
+      "diveDeep": "This question tests the identification of situational irony. Choice B is incorrect because Tharp was not superstitious; her director was. Choice C is incorrect because her graphing was highly accurate. Choice D is incorrect because her collaboration with Heezen enabled the discovery rather than limiting it. A common error is choosing B because 'bad luck' is mentioned, but that was the director's bias, not Tharp's superstition. The strategy is to look for a reversal where a disadvantage (exclusion from ships) turned into a major advantage (doing the mapping work).",
+      "topic": "Close Reading"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The text details how the scientific community rejected Wegener's theory for decades and how Heezen initially dismissed Tharp's valley, showing the author would agree that it is difficult to change long-held beliefs (Choice C).",
-      "diveDeep": "This question tests the author's perspective and theme. Choice A is incorrect because the text shows intellectual conflict was necessary and unavoidable. Choice B is incorrect because Tharp was motivated rather than discouraged by criticism. Choice D is incorrect because insight required breaking with tradition, not rooting itself in it. A common mistake is selecting D because science builds on the past, but the passage emphasizes that new insights face heavy resistance from tradition. The strategy is to look at the persistent theme of scientific resistance to plate tectonics."
+      "diveDeep": "This question tests the author's perspective and theme. Choice A is incorrect because the text shows intellectual conflict was necessary and unavoidable. Choice B is incorrect because Tharp was motivated rather than discouraged by criticism. Choice D is incorrect because insight required breaking with tradition, not rooting itself in it. A common mistake is selecting D because science builds on the past, but the passage emphasizes that new insights face heavy resistance from tradition. The strategy is to look at the persistent theme of scientific resistance to plate tectonics.",
+      "topic": "Inference"
     }
   ]
 }

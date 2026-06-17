@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-jun-2025",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The first paragraph establishes that Miss Strangeworth believes she owns the town and that her family's long history there gives her a unique position of authority, reflecting her deep sense of entitlement (Choice A).",
-      "diveDeep": "This question tests the Regents reading skill of identifying central ideas. Choice B is incorrect because she is suspicious and critical of strangers, not accepting of them. Choice C is incorrect because she does not display genuine kindness, but rather an authoritarian pride. Choice D is incorrect because she does not seek or receive flattery from others. A common student mistake is choosing C because her outward appearance is polite, but her internal thoughts reveal a belief that the town belongs to her. The strategy is to look for clues in the opening paragraph that emphasize her familial pride and ownership."
+      "diveDeep": "This question tests the Regents reading skill of identifying central ideas. Choice B is incorrect because she is suspicious and critical of strangers, not accepting of them. Choice C is incorrect because she does not display genuine kindness, but rather an authoritarian pride. Choice D is incorrect because she does not seek or receive flattery from others. A common student mistake is choosing C because her outward appearance is polite, but her internal thoughts reveal a belief that the town belongs to her. The strategy is to look for clues in the opening paragraph that emphasize her familial pride and ownership.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Miss Strangeworth privately judges Mrs. Harper's physical appearance and housekeeping habits, describing her opinion as highly critical (Choice C).",
-      "diveDeep": "This question tests the Regents reading skill of analyzing character perspective and tone. Choice A is incorrect because her internal thoughts are judgmental rather than kindly. Choice B is incorrect because her assessment, though petty, is a deep critique of Mrs. Harper's personal life. Choice D is incorrect because graciousness implies warm generosity, which contradicts her critical judgment. A common student mistake is choosing A because her external dialogue is polite, confusing her public persona with her private thoughts. The strategy is to distinguish between a character's polite spoken words and their harsh internal reflections."
+      "diveDeep": "This question tests the Regents reading skill of analyzing character perspective and tone. Choice A is incorrect because her internal thoughts are judgmental rather than kindly. Choice B is incorrect because her assessment, though petty, is a deep critique of Mrs. Harper's personal life. Choice D is incorrect because graciousness implies warm generosity, which contradicts her critical judgment. A common student mistake is choosing A because her external dialogue is polite, confusing her public persona with her private thoughts. The strategy is to distinguish between a character's polite spoken words and their harsh internal reflections.",
+      "topic": "Close Reading"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The observation that many people in the town seem disturbed hints at an unpleasant reality beneath the town's outer facade, showing that her letters are causing distress, which aligns with Choice D.",
-      "diveDeep": "This question tests the Regents reading skill of making inferences about the narrative setting. Choice A is incorrect because the characters do not understand why they are feeling disturbed. Choice B is incorrect because the statement points to an existing condition rather than a motive for a future action. Choice C is incorrect because the disturbance is a very real and persistent issue in the town. A common student mistake is selecting B because they try to connect the line to Miss Strangeworth's motivation, rather than recognizing it as a description of the town's atmosphere. The strategy is to focus on the mood created by the description and relate it to the larger plot."
+      "diveDeep": "This question tests the Regents reading skill of making inferences about the narrative setting. Choice A is incorrect because the characters do not understand why they are feeling disturbed. Choice B is incorrect because the statement points to an existing condition rather than a motive for a future action. Choice C is incorrect because the disturbance is a very real and persistent issue in the town. A common student mistake is selecting B because they try to connect the line to Miss Strangeworth's motivation, rather than recognizing it as a description of the town's atmosphere. The strategy is to focus on the mood created by the description and relate it to the larger plot.",
+      "topic": "Close Reading"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The description of Miss Strangeworth's meticulously ordered home and her feeling of deep satisfaction suggest that she believes her lifestyle is superior to that of others (Choice A).",
-      "diveDeep": "This question tests the Regents reading skill of analyzing characterization through detail. Choice B is incorrect because she does not express active resentment of her neighbors' homes, only pride in her own. Choice C is incorrect because there is no evidence that she believes her neighbors are envious of her. Choice D is incorrect because she is isolated from her neighbors and does not value genuine community closeness. Students often choose D because she interacts with neighbors, but her actions are driven by a sense of isolation and superiority rather than warmth. The strategy is to identify details that show her self-satisfaction and compare them to the other choices."
+      "diveDeep": "This question tests the Regents reading skill of analyzing characterization through detail. Choice B is incorrect because she does not express active resentment of her neighbors' homes, only pride in her own. Choice C is incorrect because there is no evidence that she believes her neighbors are envious of her. Choice D is incorrect because she is isolated from her neighbors and does not value genuine community closeness. Students often choose D because she interacts with neighbors, but her actions are driven by a sense of isolation and superiority rather than warmth. The strategy is to identify details that show her self-satisfaction and compare them to the other choices.",
+      "topic": "Inference"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Miss Strangeworth uses common writing paper and block lettering to write her letters, indicating she wants to remain anonymous and prevent anyone from tracing them back to her (Choice B).",
-      "diveDeep": "This question tests the Regents reading skill of inferring character motivation from details. Choice A is incorrect because using cheap, common paper is the opposite of sophisticated. Choice C is incorrect because she purposefully avoids using expensive writing tools to hide her identity. Choice D is incorrect because her anonymous letters are designed to create discord rather than proper communication. A common student mistake is choosing D because she writes letters, but the text emphasizes her careful efforts to disguise her handwriting. The strategy is to connect the character's physical actions—such as using a common pencil and block print—with their logical consequence of hiding identity."
+      "diveDeep": "This question tests the Regents reading skill of inferring character motivation from details. Choice A is incorrect because using cheap, common paper is the opposite of sophisticated. Choice C is incorrect because she purposefully avoids using expensive writing tools to hide her identity. Choice D is incorrect because her anonymous letters are designed to create discord rather than proper communication. A common student mistake is choosing D because she writes letters, but the text emphasizes her careful efforts to disguise her handwriting. The strategy is to connect the character's physical actions—such as using a common pencil and block print—with their logical consequence of hiding identity.",
+      "topic": "Close Reading"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "In these lines, Miss Strangeworth rationalizes her letters by believing she is performing a duty to keep the town clean and sweet, showing a justification of the methods of her actions (Choice A).",
-      "diveDeep": "This question tests the Regents reading skill of analyzing character rationale. Choice B is incorrect because her letters are malicious, not charitable. Choice C is incorrect because her intentions are judgmental and destructive, not pure. Choice D is incorrect because she does not realize that her letters cause real pain and chaos. A common student mistake is choosing C or D because they take her thoughts at face value, rather than recognizing her self-delusion. The strategy is to look at how the character defends her actions to herself to maintain her self-image."
+      "diveDeep": "This question tests the Regents reading skill of analyzing character rationale. Choice B is incorrect because her letters are malicious, not charitable. Choice C is incorrect because her intentions are judgmental and destructive, not pure. Choice D is incorrect because she does not realize that her letters cause real pain and chaos. A common student mistake is choosing C or D because they take her thoughts at face value, rather than recognizing her self-delusion. The strategy is to look at how the character defends her actions to herself to maintain her self-image.",
+      "topic": "Close Reading"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The italicized word 'had' emphasizes that while Miss Strangeworth has no hard evidence of wrongdoing, she believes there might be something wicked, proving she knows her accusations are false or unproven (Choice C).",
-      "diveDeep": "This question tests the Regents reading skill of analyzing authorial style and emphasis. Choice A is incorrect because she actively enjoys judging others. Choice B is incorrect because the word does not relate to her nostalgia. Choice D is incorrect because the focus is on the lack of proof for her letters, not her personal reputation. A common student mistake is choosing D due to her general arrogance, but the italics specifically draw attention to the lack of factual basis for her claims. The strategy is to trace the context of the italicized word to determine what truth or doubt it highlights."
+      "diveDeep": "This question tests the Regents reading skill of analyzing authorial style and emphasis. Choice A is incorrect because she actively enjoys judging others. Choice B is incorrect because the word does not relate to her nostalgia. Choice D is incorrect because the focus is on the lack of proof for her letters, not her personal reputation. A common student mistake is choosing D due to her general arrogance, but the italics specifically draw attention to the lack of factual basis for her claims. The strategy is to trace the context of the italicized word to determine what truth or doubt it highlights.",
+      "topic": "Close Reading"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The statement is highly ironic because Miss Strangeworth considers herself the sole guardian against wickedness, while she is actually the one spreading malice throughout the town (Choice B).",
-      "diveDeep": "This question tests the Regents reading skill of identifying literary devices. Choice A is incorrect because there is no non-human object given human characteristics. Choice C is incorrect because there is no reference to another literary or historical work. Choice D is incorrect because she is not making a direct comparison between two unlike things. A common student mistake is choosing D because she describes herself in terms of the family name, but the contrast between her self-perception and reality is the definition of irony. The strategy is to look for a contradiction between expectations and the actual state of affairs."
+      "diveDeep": "This question tests the Regents reading skill of identifying literary devices. Choice A is incorrect because there is no non-human object given human characteristics. Choice C is incorrect because there is no reference to another literary or historical work. Choice D is incorrect because she is not making a direct comparison between two unlike things. A common student mistake is choosing D because she describes herself in terms of the family name, but the contrast between her self-perception and reality is the definition of irony. The strategy is to look for a contradiction between expectations and the actual state of affairs.",
+      "topic": "Close Reading"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The final paragraph highlights Miss Strangeworth's sense of peace and pride in her town, stressing that she is satisfied with her life there (Choice B).",
-      "diveDeep": "This question tests the Regents reading skill of identifying character feelings in a conclusion. Choice A is incorrect because the town is actually full of tension and pain caused by her letters. Choice C is incorrect because she believes the town is full of secret wickedness that she must monitor. Choice D is incorrect because the paragraph focuses on her personal satisfaction, not the town's general structure. Students often mistake her personal contentment for a belief that the town is literally perfect (Choice C), but she sees herself as a lone protector in an imperfect world. The strategy is to read the ending carefully to capture her mood and outlook."
+      "diveDeep": "This question tests the Regents reading skill of identifying character feelings in a conclusion. Choice A is incorrect because the town is actually full of tension and pain caused by her letters. Choice C is incorrect because she believes the town is full of secret wickedness that she must monitor. Choice D is incorrect because the paragraph focuses on her personal satisfaction, not the town's general structure. Students often mistake her personal contentment for a belief that the town is literally perfect (Choice C), but she sees herself as a lone protector in an imperfect world. The strategy is to read the ending carefully to capture her mood and outlook.",
+      "topic": "Close Reading"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The roses are a symbol of beauty and pride that Miss Strangeworth uses to hide her malicious actions and project a perfect image to the town (Choice A).",
-      "diveDeep": "This question tests the Regents reading skill of identifying symbolism. Choice B is incorrect because her temperament is actually cruel and judgmental. Choice C is incorrect because she views the world as corrupt and wicked. Choice D is incorrect because she does not protect or value the people in her town, but rather harasses them anonymously. A common student mistake is choosing B or C because of the traditional association of roses with sweetness, ignoring the dark irony of her character. The strategy is to connect the symbol to the character's outer appearance versus their inner reality."
+      "diveDeep": "This question tests the Regents reading skill of identifying symbolism. Choice B is incorrect because her temperament is actually cruel and judgmental. Choice C is incorrect because she views the world as corrupt and wicked. Choice D is incorrect because she does not protect or value the people in her town, but rather harasses them anonymously. A common student mistake is choosing B or C because of the traditional association of roses with sweetness, ignoring the dark irony of her character. The strategy is to connect the symbol to the character's outer appearance versus their inner reality.",
+      "topic": "Close Reading"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The herons' search for something lost parallels the speaker's own feelings of loss and searching in his life, linking their behavior directly to his internal state (Choice D).",
-      "diveDeep": "This question tests the Regents reading skill of identifying metaphor and thematic parallels in poetry. Choice A is incorrect because the speaker's tone is contemplative rather than admiring. Choice B is incorrect because there is no expression of fear or concern for the birds' survival. Choice C is incorrect because there is no conflict or competition between the speaker and the herons. Students often fail to see the symbolic connection and choose A or B based on a literal reading of the scene. The strategy is to connect the physical description of the birds to the speaker's reflective thoughts in the rest of the poem."
+      "diveDeep": "This question tests the Regents reading skill of identifying metaphor and thematic parallels in poetry. Choice A is incorrect because the speaker's tone is contemplative rather than admiring. Choice B is incorrect because there is no expression of fear or concern for the birds' survival. Choice C is incorrect because there is no conflict or competition between the speaker and the herons. Students often fail to see the symbolic connection and choose A or B based on a literal reading of the scene. The strategy is to connect the physical description of the birds to the speaker's reflective thoughts in the rest of the poem.",
+      "topic": "Inference"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Line 12 shifts the focus of the poem from the present observation of the birds to a memory of the speaker's father, indicating the speaker is thinking about a past event (Choice B).",
-      "diveDeep": "This question tests the Regents reading skill of analyzing poetic structure and shifts in time. Choice A is incorrect because it describes a physical setting that is not the focus of the line. Choice C is incorrect because the father is described as speaking and pointing in the past, not silent in the present. Choice D is incorrect because the distance of the birds does not relate to the shift in narrative memory. A common student mistake is choosing C because of the father's presence, missing that the scene is a recollection. The strategy is to identify transition words or shifts in tense that indicate a move from present action to memory."
+      "diveDeep": "This question tests the Regents reading skill of analyzing poetic structure and shifts in time. Choice A is incorrect because it describes a physical setting that is not the focus of the line. Choice C is incorrect because the father is described as speaking and pointing in the past, not silent in the present. Choice D is incorrect because the distance of the birds does not relate to the shift in narrative memory. A common student mistake is choosing C because of the father's presence, missing that the scene is a recollection. The strategy is to identify transition words or shifts in tense that indicate a move from present action to memory.",
+      "topic": "Close Reading"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The contrast between the herons from the speaker's memory and the seagulls present overhead highlights the division between what is remembered and what is present (Choice A).",
-      "diveDeep": "This question tests the Regents reading skill of analyzing structural contrast in a text. Choice B is incorrect because the poem does not analyze biological habits. Choice C is incorrect because the birds are described in lonely, plane-like sounds rather than purely beautiful terms. Choice D is incorrect because the speaker expresses uncertainty about the past, rather than clear lessons. Students often choose D because of the nostalgic tone, but the specific transition between the herons (past memory) and seagulls (present reality) emphasizes the contrast of time. The strategy is to pay attention to structural markers that contrast memory with the immediate physical environment."
+      "diveDeep": "This question tests the Regents reading skill of analyzing structural contrast in a text. Choice B is incorrect because the poem does not analyze biological habits. Choice C is incorrect because the birds are described in lonely, plane-like sounds rather than purely beautiful terms. Choice D is incorrect because the speaker expresses uncertainty about the past, rather than clear lessons. Students often choose D because of the nostalgic tone, but the specific transition between the herons (past memory) and seagulls (present reality) emphasizes the contrast of time. The strategy is to pay attention to structural markers that contrast memory with the immediate physical environment.",
+      "topic": "Inference"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The act of naming the birds links the speaker's father, the speaker, and the speaker's son, creating a connection across generations (Choice B).",
-      "diveDeep": "This question tests the Regents reading skill of identifying central theme and motif. Choice A is incorrect because the focus is on family relationships rather than environmental conservation. Choice C is incorrect because the power of words is secondary to the interpersonal act of sharing knowledge. Choice D is incorrect because the naming is symbolic rather than scientific. A common mistake is selecting A because birds are natural, but the emotional core of the poem is the transmission of this practice from father to son. The strategy is to look at who is performing the act of naming at the start and end of the poem to find the common theme."
+      "diveDeep": "This question tests the Regents reading skill of identifying central theme and motif. Choice A is incorrect because the focus is on family relationships rather than environmental conservation. Choice C is incorrect because the power of words is secondary to the interpersonal act of sharing knowledge. Choice D is incorrect because the naming is symbolic rather than scientific. A common mistake is selecting A because birds are natural, but the emotional core of the poem is the transmission of this practice from father to son. The strategy is to look at who is performing the act of naming at the start and end of the poem to find the common theme.",
+      "topic": "Close Reading"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "In context, \"unequivocally\" describes how James Otis asserted human equality with absolute clarity and without doubt, making \"clearly\" the correct meaning (Choice A).",
-      "diveDeep": "This question tests the Regents reading skill of vocabulary-in-context. Choice B is incorrect because asserting human equality is a positive claim, not a harsh one. Choice C is incorrect because Otis's statement is a statement of principle, not personal judgment. Choice D is incorrect because the word refers to the certainty of the statement, not its frequency. Students often select D because they associate political arguments with repetition, but \"unequivocal\" literally means leaving no doubt. The strategy is to replace the word in the sentence with each choice to see which maintains the author's confident assertion of equality."
+      "diveDeep": "This question tests the Regents reading skill of vocabulary-in-context. Choice B is incorrect because asserting human equality is a positive claim, not a harsh one. Choice C is incorrect because Otis's statement is a statement of principle, not personal judgment. Choice D is incorrect because the word refers to the certainty of the statement, not its frequency. Students often select D because they associate political arguments with repetition, but \"unequivocal\" literally means leaving no doubt. The strategy is to replace the word in the sentence with each choice to see which maintains the author's confident assertion of equality.",
+      "topic": "Inference"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The word \"forge\" implies the hard work and strong determination required to build an activist Black community and fight for equality, making Choice D correct.",
-      "diveDeep": "This question tests the Regents reading skill of analyzing word choice and connotation. Choice A is incorrect because Hall's principles remained firm rather than reassessed. Choice B is incorrect because \"forge\" connotes strong, industrious building rather than deceitful or shrewd tactics. Choice C is incorrect because the word refers to his immediate efforts to build a community, not his long-term historical reception. A common student mistake is choosing B due to the difficulty of Hall's task, but \"forge\" emphasizes the strength and effort of creation. The strategy is to think about the physical metaphor of forging metal and apply its attributes of strength and creation to the context of community building."
+      "diveDeep": "This question tests the Regents reading skill of analyzing word choice and connotation. Choice A is incorrect because Hall's principles remained firm rather than reassessed. Choice B is incorrect because \"forge\" connotes strong, industrious building rather than deceitful or shrewd tactics. Choice C is incorrect because the word refers to his immediate efforts to build a community, not his long-term historical reception. A common student mistake is choosing B due to the difficulty of Hall's task, but \"forge\" emphasizes the strength and effort of creation. The strategy is to think about the physical metaphor of forging metal and apply its attributes of strength and creation to the context of community building.",
+      "topic": "Inference"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "These lines highlight Prince Hall's role as a transformative and committed leader who elevated the abolitionist cause, showing that dedicated leadership was necessary to advance freedom (Choice C).",
-      "diveDeep": "This question tests the Regents reading skill of analyzing how details support a central idea. Choice A is incorrect because the lines focus on Hall himself rather than his followers. Choice B is incorrect because federal courts are not mentioned in this section. Choice D is incorrect because the legislature was not united or initially supportive of Hall's petitions. Students often choose A because community building is mentioned, but the primary subject of these lines is Hall's singular role as a leader. The strategy is to identify the main noun/subject in the referenced lines to see who or what is being credited with the progress."
+      "diveDeep": "This question tests the Regents reading skill of analyzing how details support a central idea. Choice A is incorrect because the lines focus on Hall himself rather than his followers. Choice B is incorrect because federal courts are not mentioned in this section. Choice D is incorrect because the legislature was not united or initially supportive of Hall's petitions. Students often choose A because community building is mentioned, but the primary subject of these lines is Hall's singular role as a leader. The strategy is to identify the main noun/subject in the referenced lines to see who or what is being credited with the progress.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "By using the words of the Declaration of Independence to argue for Black emancipation instead of war against Britain, Hall showed he was skilled at repurposing an argument for a new political cause (Choice C).",
-      "diveDeep": "This question tests the Regents reading skill of analyzing rhetorical strategy and authorial purpose. Choice A is incorrect because he was challenging the status quo, not merely showing respect. Choice B is incorrect because he was trying to persuade the legislators using their own founding text rather than just criticizing them. Choice D is incorrect because he was petitioning the legislature, not a court of law. A common student mistake is choosing A because they assume quoting a founding document is just a sign of deference, missing the clever rhetorical shift Hall made. The strategy is to compare the original purpose of the quoted text with the new purpose it serves in the character's petition."
+      "diveDeep": "This question tests the Regents reading skill of analyzing rhetorical strategy and authorial purpose. Choice A is incorrect because he was challenging the status quo, not merely showing respect. Choice B is incorrect because he was trying to persuade the legislators using their own founding text rather than just criticizing them. Choice D is incorrect because he was petitioning the legislature, not a court of law. A common student mistake is choosing A because they assume quoting a founding document is just a sign of deference, missing the clever rhetorical shift Hall made. The strategy is to compare the original purpose of the quoted text with the new purpose it serves in the character's petition.",
+      "topic": "Close Reading"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Hall sought entry into Freemasonry because he recognized that many influential leaders were Masons, which would give him the best opportunity to build powerful connections and networks of support (Choice B).",
-      "diveDeep": "This question tests the Regents reading skill of identifying character motivation. Choice A is incorrect because he did not expect to fully integrate into the white upper class, but rather sought political influence. Choice C is incorrect because Black men could not run for political office at that time. Choice D is incorrect because the text does not mention fundraising for court cases as the reason. A common student mistake is selecting A because of the upper-class nature of the Masons, but the text specifically states he wanted a \"pathway to securing influence and a network of supporters.\" The strategy is to locate the specific line explaining his motive and match it to the correct paraphrase."
+      "diveDeep": "This question tests the Regents reading skill of identifying character motivation. Choice A is incorrect because he did not expect to fully integrate into the white upper class, but rather sought political influence. Choice C is incorrect because Black men could not run for political office at that time. Choice D is incorrect because the text does not mention fundraising for court cases as the reason. A common student mistake is selecting A because of the upper-class nature of the Masons, but the text specifically states he wanted a \"pathway to securing influence and a network of supporters.\" The strategy is to locate the specific line explaining his motive and match it to the correct paraphrase.",
+      "topic": "Close Reading"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "In the context of Hall's lifetime of advocacy, his Masonic membership is described as \"instrumental,\" meaning it was essential and served as an important tool in achieving his goals (Choice D).",
-      "diveDeep": "This question tests the Regents reading skill of vocabulary-in-context. Choice A is incorrect because \"sensible\" means practical or reasonable, which does not fit the active utility of the lodge. Choice B is incorrect because \"academic\" refers to education or theory, whereas the lodge was used for practical advocacy. Choice C is incorrect because \"impressive\" refers to appearance, not function. Students often struggle with this word if they associate it with musical instruments, failing to see its meaning as \"serving as a crucial means or agent.\" The strategy is to replace \"instrumental\" with each choice to see which word best captures the idea of being highly useful or key to success."
+      "diveDeep": "This question tests the Regents reading skill of vocabulary-in-context. Choice A is incorrect because \"sensible\" means practical or reasonable, which does not fit the active utility of the lodge. Choice B is incorrect because \"academic\" refers to education or theory, whereas the lodge was used for practical advocacy. Choice C is incorrect because \"impressive\" refers to appearance, not function. Students often struggle with this word if they associate it with musical instruments, failing to see its meaning as \"serving as a crucial means or agent.\" The strategy is to replace \"instrumental\" with each choice to see which word best captures the idea of being highly useful or key to success.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The difficulty Hall faced in obtaining a formal charter due to strong prejudice shows that Masonic membership did not automatically guarantee equal treatment within the wider Masonic society (Choice B).",
-      "diveDeep": "This question tests the Regents reading skill of identifying a central idea developed through specific details. Choice A is incorrect because the issue was prejudice, not a violation of international Masonic law. Choice C is incorrect because the text discusses institutional exclusion rather than secret persecution. Choice D is incorrect because the issue was the denial of a charter, not the participation of new members. A common student mistake is choosing C because of the general hostility Black Masons faced, but the passage specifically details the refusal of local lodges to grant a charter. The strategy is to focus on the struggle to secure a charter and connect it to the theme of racial inequality."
+      "diveDeep": "This question tests the Regents reading skill of identifying a central idea developed through specific details. Choice A is incorrect because the issue was prejudice, not a violation of international Masonic law. Choice C is incorrect because the text discusses institutional exclusion rather than secret persecution. Choice D is incorrect because the issue was the denial of a charter, not the participation of new members. A common student mistake is choosing C because of the general hostility Black Masons faced, but the passage specifically details the refusal of local lodges to grant a charter. The strategy is to focus on the struggle to secure a charter and connect it to the theme of racial inequality.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The phrase \"transformative figure\" best sums up Prince Hall's significant historical impact in fighting for abolition and building Black community organizations, as described in Choice B.",
-      "diveDeep": "This question tests the Regents reading skill of identifying character roles and authorial descriptions. Choice A is incorrect because \"Boston lawyer\" refers to James Otis, not Prince Hall. Choice C is incorrect because \"historian and archivist\" refers to Alonza Tehuti Evans. Choice D is incorrect because the \"Massachusetts legislature\" is a government body, not an individual. Students often pick wrong answers by failing to check the subject of each quote in its original context. The strategy is to locate each quoted phrase in the text to verify who or what it describes before making a selection."
+      "diveDeep": "This question tests the Regents reading skill of identifying character roles and authorial descriptions. Choice A is incorrect because \"Boston lawyer\" refers to James Otis, not Prince Hall. Choice C is incorrect because \"historian and archivist\" refers to Alonza Tehuti Evans. Choice D is incorrect because the \"Massachusetts legislature\" is a government body, not an individual. Students often pick wrong answers by failing to check the subject of each quote in its original context. The strategy is to locate each quoted phrase in the text to verify who or what it describes before making a selection.",
+      "topic": "Close Reading"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "This quotation best captures the central idea of the passage, which focuses on Prince Hall's persistent, lifelong work as a pioneer for Black rights and community advocacy (Choice C).",
-      "diveDeep": "This question tests the Regents reading skill of identifying central ideas. Choice A is incorrect because it is a historical background detail about Massachusetts, not the main focus of the biography. Choice B is incorrect because it refers to the general public's knowledge, not the specific thesis of the essay. Choice D is incorrect because it describes a minor detail about how Hall was inducted into Freemasonry. A common mistake is selecting A or B because they sound like important historical facts, but they omit Prince Hall's central role. The strategy is to choose the quote that best reflects the overall subject of the entire passage, which is Prince Hall's lifelong advocacy."
+      "diveDeep": "This question tests the Regents reading skill of identifying central ideas. Choice A is incorrect because it is a historical background detail about Massachusetts, not the main focus of the biography. Choice B is incorrect because it refers to the general public's knowledge, not the specific thesis of the essay. Choice D is incorrect because it describes a minor detail about how Hall was inducted into Freemasonry. A common mistake is selecting A or B because they sound like important historical facts, but they omit Prince Hall's central role. The strategy is to choose the quote that best reflects the overall subject of the entire passage, which is Prince Hall's lifelong advocacy.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The author includes names like John Adams and George Washington to frame Prince Hall as their peer, emphasizing that he deserves to be remembered as a founding historical figure for his abolitionist contributions (Choice C).",
-      "diveDeep": "This question tests the Regents reading skill of analyzing authorial purpose and structural choices. Choice A is incorrect because Hall was not a personal associate of the signers, but a contemporary working parallel to them. Choice B is incorrect because his historical value is based on his abolitionist work, not just starting a lodge. Choice D is incorrect because Hall did not have direct personal associations with these figures to pass legislation. A common student mistake is choosing A because of the proximity of names, but the text places him alongside these figures to elevate his historical status, not to claim personal friendship. The strategy is to evaluate how comparing a subject to famous figures affects the reader's perception of the subject's importance."
+      "diveDeep": "This question tests the Regents reading skill of analyzing authorial purpose and structural choices. Choice A is incorrect because Hall was not a personal associate of the signers, but a contemporary working parallel to them. Choice B is incorrect because his historical value is based on his abolitionist work, not just starting a lodge. Choice D is incorrect because Hall did not have direct personal associations with these figures to pass legislation. A common student mistake is choosing A because of the proximity of names, but the text places him alongside these figures to elevate his historical status, not to claim personal friendship. The strategy is to evaluate how comparing a subject to famous figures affects the reader's perception of the subject's importance.",
+      "topic": "Inference"
     }
   ]
 }

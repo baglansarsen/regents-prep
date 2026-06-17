@@ -1,10 +1,23 @@
-import { UNITS as RAW_UNITS, getLessonQuestions } from './units'
+export { TOPICS, TOPIC_ICONS, shuffled } from './questions'
+export { flashcards, FLASHCARD_TOPIC_LIST } from './flashcards'
+export { ACHIEVEMENTS as achievements } from './achievements'
+export { UNITS, getLessonQuestions, getByTopic, buildDiagnosticSet, getWritten, getBySkill } from './units'
+export { STRATEGIES as strategies } from './strategies'
 
-// Add topic = id so HomeScreen's sd.getLessonQuestions(unit.topic, ...) resolves correctly
-export const UNITS = RAW_UNITS.map((u) => ({ ...u, topic: u.id }))
-export { getLessonQuestions }
+import { TOPICS } from './questions'
+import { allQuestions, getByTopic } from './units'
 
-// Stubs — English is exam-only; these features belong to science/math subjects
-export const questions = []
-export function getByTopic() { return [] }
-export function getExamContextQuestions() { return [] }
+export const questions = allQuestions()
+
+export const TOPIC_ORDER = [
+  TOPICS.CLOSE_READING,
+  TOPICS.CRAFT_TONE,
+  TOPICS.CENTRAL_IDEA,
+  TOPICS.INFERENCE,
+  TOPICS.VOCAB_CONTEXT,
+  TOPICS.ARGUMENT,
+]
+
+export function getExamContextQuestions(topic) {
+  return getByTopic(topic).filter((q) => q.context).sort(() => Math.random() - 0.5)
+}

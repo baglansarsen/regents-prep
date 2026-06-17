@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-aug-2017",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The narrator describes Dora-Rouge as knowing the plants, waters, and paths intimately, portraying her as deeply knowledgeable about her environment.",
-      "diveDeep": "Choice 2 is correct because the text highlights Dora-Rouge's wisdom and understanding of the natural world. Choices 0, 1, and 3 are incorrect because she is not depicted as caring but ineffective (compassionate), cold/uninvolved (detached), or incorrect in her actions (misguided). Students might confuse her quiet observation with detachment, but her deep connection to the land shows she is highly knowledgeable. Test tip: Pay close attention to character descriptions that illustrate their relationship to the setting."
+      "diveDeep": "Choice 2 is correct because the text highlights Dora-Rouge's wisdom and understanding of the natural world. Choices 0, 1, and 3 are incorrect because she is not depicted as caring but ineffective (compassionate), cold/uninvolved (detached), or incorrect in her actions (misguided). Students might confuse her quiet observation with detachment, but her deep connection to the land shows she is highly knowledgeable. Test tip: Pay close attention to character descriptions that illustrate their relationship to the setting.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The narrator compares people's lives to dreams to emphasize how fleeting and minor human existence is in the context of the vast, enduring natural world.",
-      "diveDeep": "Choice 3 is correct as the comparison highlights the small, temporary nature of human life relative to the wilderness. Choices 0, 1, and 2 are incorrect because the comparison does not focus on human ability (resourcefulness), unique qualities (individuality), or susceptibility to harm (vulnerability). Students often mistake vulnerability for insignificance because both suggest weakness, but the emphasis is on scale and permanence. Test tip: Analyze figurative comparisons by identifying the two things being compared and the quality shared between them."
+      "diveDeep": "Choice 3 is correct as the comparison highlights the small, temporary nature of human life relative to the wilderness. Choices 0, 1, and 2 are incorrect because the comparison does not focus on human ability (resourcefulness), unique qualities (individuality), or susceptibility to harm (vulnerability). Students often mistake vulnerability for insignificance because both suggest weakness, but the emphasis is on scale and permanence. Test tip: Analyze figurative comparisons by identifying the two things being compared and the quality shared between them.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The phrase 'vines creeping forward' helps define 'tendril' because tendrils are thin, threadlike parts of climbing plants that stretch out and cling to support.",
-      "diveDeep": "Choice 0 is correct because 'vines creeping' directly mirrors the climbing and reaching nature of a plant's tendrils. Choices 1, 2, and 3 are incorrect because they refer to pollen, general landscapes, or wind-blown woods, none of which describe a threadlike climbing plant shoot. Students might guess Choice 2 because a tendril is part of nature, but it lacks the specific physical description of a vine. Test tip: Use surrounding context clues to determine the meaning of unfamiliar words."
+      "diveDeep": "Choice 0 is correct because 'vines creeping' directly mirrors the climbing and reaching nature of a plant's tendrils. Choices 1, 2, and 3 are incorrect because they refer to pollen, general landscapes, or wind-blown woods, none of which describe a threadlike climbing plant shoot. Students might guess Choice 2 because a tendril is part of nature, but it lacks the specific physical description of a vine. Test tip: Use surrounding context clues to determine the meaning of unfamiliar words.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The imagery of creeping vines, pollen at the center of flowers, and the wind walking through the woods creates an eye-opening and revealing depiction of nature.",
-      "diveDeep": "Choice 3 is correct because the description of the forest and swamp coming alive provides a sense of discovery and understanding. Choices 0, 1, and 2 are incorrect because there is nothing humorous (amusing), scary (threatening), or perplexing (confusing) about the description. Students might mistake the active nature of the environment as threatening, but the narrator finds peace and connection in it. Test tip: Assess the emotional impact of imagery to determine its overall tone."
+      "diveDeep": "Choice 3 is correct because the description of the forest and swamp coming alive provides a sense of discovery and understanding. Choices 0, 1, and 2 are incorrect because there is nothing humorous (amusing), scary (threatening), or perplexing (confusing) about the description. Students might mistake the active nature of the environment as threatening, but the narrator finds peace and connection in it. Test tip: Assess the emotional impact of imagery to determine its overall tone.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The description depicts a profound change or transformation, showing the characters adjusting to their environment and being reshaped by it.",
-      "diveDeep": "Choice 0 is correct as the passage emphasizes how the characters and the landscape are physically and spiritually altered. Choices 1, 2, and 3 are incorrect because the text does not focus on being alone (isolation), separated (division), or cleared of blame (vindication). Students might confuse isolation with transformation since the characters are in a remote setting, but the core of the passage is about their inner and outer change. Test tip: Look for words indicating change or progression to identify themes of transformation."
+      "diveDeep": "Choice 0 is correct as the passage emphasizes how the characters and the landscape are physically and spiritually altered. Choices 1, 2, and 3 are incorrect because the text does not focus on being alone (isolation), separated (division), or cleared of blame (vindication). Students might confuse isolation with transformation since the characters are in a remote setting, but the core of the passage is about their inner and outer change. Test tip: Look for words indicating change or progression to identify themes of transformation.",
+      "topic": "Close Reading"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "This phrase suggests that the characters have become so connected to their surroundings that they feel at one with the earth, developing a deep kinship.",
-      "diveDeep": "Choice 1 is correct because 'wearing the face of the world' metaphorically represents union with nature. Choices 0, 2, and 3 are incorrect because they imply delusion, aggression, or indifference, none of which align with the reverent tone of the passage. Students often choose Choice 0 by misinterpreting 'full and powerful' as a sign of hubris. Test tip: Interpret metaphorical phrases within the context of the narrator's overall attitude."
+      "diveDeep": "Choice 1 is correct because 'wearing the face of the world' metaphorically represents union with nature. Choices 0, 2, and 3 are incorrect because they imply delusion, aggression, or indifference, none of which align with the reverent tone of the passage. Students often choose Choice 0 by misinterpreting 'full and powerful' as a sign of hubris. Test tip: Interpret metaphorical phrases within the context of the narrator's overall attitude.",
+      "topic": "Inference"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The language connects the history of their ancestors with the future of the land and their people.",
-      "diveDeep": "Choice 0 is correct because the references to heritage and ongoing legacy bridge past generations with those to come. Choices 1, 2, and 3 are incorrect because they focus on conflict, problems, or collaboration, which are not the primary focus of these lines. Students may select Choice 2 if they interpret the ancestral focus as a struggle to fit in. Test tip: Look for timeline shifts or references to ancestors and descendants to identify connections between past and future."
+      "diveDeep": "Choice 0 is correct because the references to heritage and ongoing legacy bridge past generations with those to come. Choices 1, 2, and 3 are incorrect because they focus on conflict, problems, or collaboration, which are not the primary focus of these lines. Students may select Choice 2 if they interpret the ancestral focus as a struggle to fit in. Test tip: Look for timeline shifts or references to ancestors and descendants to identify connections between past and future.",
+      "topic": "Close Reading"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The passage is written from the first-person perspective, reflecting on personal experiences and memories, making it a personal narrative.",
-      "diveDeep": "Choice 3 is correct because the text is a first-person story detailing the narrator's journey and observations. Choices 0, 1, and 2 are incorrect because, while those techniques may be used occasionally, they do not serve as the primary mode of development. Students might confuse structural elements with the narrative mode, choosing parallel structure. Test tip: Identify the point of view (first-person 'I') to determine if a text is a personal narrative."
+      "diveDeep": "Choice 3 is correct because the text is a first-person story detailing the narrator's journey and observations. Choices 0, 1, and 2 are incorrect because, while those techniques may be used occasionally, they do not serve as the primary mode of development. Students might confuse structural elements with the narrative mode, choosing parallel structure. Test tip: Identify the point of view (first-person 'I') to determine if a text is a personal narrative.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The narrator's journey shows that clearing away daily distractions leads to a deeper, more spiritual connection to the world and oneself.",
-      "diveDeep": "Choice 1 is correct because the text emphasizes how finding mental clarity allows the characters to experience a spiritual link with nature. Choices 0, 2, and 3 are incorrect because society's approval, active environmental change, and simple passage of time are not the central themes. Students might mistakenly choose Choice 3 because of the long journey, but the focus is on the state of mind. Test tip: A central theme must encompass the entire passage rather than just a single paragraph."
+      "diveDeep": "Choice 1 is correct because the text emphasizes how finding mental clarity allows the characters to experience a spiritual link with nature. Choices 0, 2, and 3 are incorrect because society's approval, active environmental change, and simple passage of time are not the central themes. Students might mistakenly choose Choice 3 because of the long journey, but the focus is on the state of mind. Test tip: A central theme must encompass the entire passage rather than just a single paragraph.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "This quote highlights the central idea of spiritual expansion and the realization that there is a deeper reality beyond what is immediately visible.",
-      "diveDeep": "Choice 3 is correct as it encapsulates the theme of transcending physical boundaries to connect with a larger spiritual horizon. Choices 0, 1, and 2 are incorrect because they focus on everyday routine, personal satisfaction, or physical environment rather than the overarching spiritual awakening. Students often select Choice 1 because it expresses positive feelings, but it lacks the philosophical depth of the central idea. Test tip: The best supporting quote should reflect the text's ultimate message."
+      "diveDeep": "Choice 3 is correct as it encapsulates the theme of transcending physical boundaries to connect with a larger spiritual horizon. Choices 0, 1, and 2 are incorrect because they focus on everyday routine, personal satisfaction, or physical environment rather than the overarching spiritual awakening. Students often select Choice 1 because it expresses positive feelings, but it lacks the philosophical depth of the central idea. Test tip: The best supporting quote should reflect the text's ultimate message.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "In Plath's poem 'I Am Vertical,' the word 'unpetal' refers to a flower losing its petals, which symbolizes aging, death, and impermanence.",
-      "diveDeep": "Choice 3 is correct because losing petals represents the fleeting nature of life and eventual decay. Choices 0, 1, and 2 are incorrect because 'unpetal' has no connection to creativity (inspiration), hiding (invisibility), or being alone (isolation). Students might confuse isolation with impermanence due to the poem's melancholic tone. Test tip: Consider the literal meaning of a word (a flower shedding petals) to deduce its figurative meaning."
+      "diveDeep": "Choice 3 is correct because losing petals represents the fleeting nature of life and eventual decay. Choices 0, 1, and 2 are incorrect because 'unpetal' has no connection to creativity (inspiration), hiding (invisibility), or being alone (isolation). Students might confuse isolation with impermanence due to the poem's melancholic tone. Test tip: Consider the literal meaning of a word (a flower shedding petals) to deduce its figurative meaning.",
+      "topic": "Inference"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The narrator notes that she walks among the trees and flowers but 'none of them are noticing,' showing her awareness of her own insignificance in the natural world.",
-      "diveDeep": "Choice 3 is correct because the narrator realizes that nature is indifferent to her presence. Choices 0, 1, and 2 are incorrect because the lines do not discuss lifespan, life changes, or seasonal anxiety. Students might pick Choice 0 due to the poem's focus on mortality, but the specific lines emphasize nature's lack of attention to her. Test tip: Keep your analysis focused strictly on the specified lines of the text."
+      "diveDeep": "Choice 3 is correct because the narrator realizes that nature is indifferent to her presence. Choices 0, 1, and 2 are incorrect because the lines do not discuss lifespan, life changes, or seasonal anxiety. Students might pick Choice 0 due to the poem's focus on mortality, but the specific lines emphasize nature's lack of attention to her. Test tip: Keep your analysis focused strictly on the specified lines of the text.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The narrator states that when she is sleeping, thoughts gone dim, she most perfectly resembles the trees and flowers, implying that human consciousness prevents a full connection with nature.",
-      "diveDeep": "Choice 0 is correct because the narrator believes that only by letting go of active thoughts (sleeping or dying) can she blend with nature. Choices 1, 2, and 3 are incorrect because the poem does not discuss nature's grand beauty, control over the future, or cruelty. Students might choose Choice 3 due to the melancholic tone, but there is no depiction of nature as cruel. Test tip: Look for contrasts between the human state (thought, consciousness) and the natural state (stillness, lack of thought)."
+      "diveDeep": "Choice 0 is correct because the narrator believes that only by letting go of active thoughts (sleeping or dying) can she blend with nature. Choices 1, 2, and 3 are incorrect because the poem does not discuss nature's grand beauty, control over the future, or cruelty. Students might choose Choice 3 due to the melancholic tone, but there is no depiction of nature as cruel. Test tip: Look for contrasts between the human state (thought, consciousness) and the natural state (stillness, lack of thought).",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The narrator expresses a desire to have the longevity of a tree and the daring of a flower, establishing an envious tone toward nature.",
-      "diveDeep": "Choice 0 is correct because the speaker explicitly states 'I want the one's longevity and the other's daring,' showing envy of nature's traits. Choices 1, 2, and 3 are incorrect because there is no doubt (skeptical), anger (hostile), or sense of unfairness (indignant) directed at nature. Students often misidentify the tone as hostile or skeptical because of the melancholic feel, overlooking the clear expressions of longing. Test tip: Tone is the author's attitude, which is often revealed through direct statements of desire or appreciation."
+      "diveDeep": "Choice 0 is correct because the speaker explicitly states 'I want the one's longevity and the other's daring,' showing envy of nature's traits. Choices 1, 2, and 3 are incorrect because there is no doubt (skeptical), anger (hostile), or sense of unfairness (indignant) directed at nature. Students often misidentify the tone as hostile or skeptical because of the melancholic feel, overlooking the clear expressions of longing. Test tip: Tone is the author's attitude, which is often revealed through direct statements of desire or appreciation.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "In the context of predicting earthquakes, 'anomalies' refers to unusual behaviors or occurrences like snakes emerging early from winter dens.",
-      "diveDeep": "Choice 1 is correct because anomalies are deviations from what is common or expected (odd occurrences). Choices 0, 2, and 3 are incorrect because seasonal transitions, active dangers, and pre-planned events do not describe abnormal natural signals. Students might pick Choice 2 since earthquakes are dangerous, but the signs themselves are unusual rather than inherently hazardous. Test tip: Substitute each choice into the sentence to see which preserves the logical meaning."
+      "diveDeep": "Choice 1 is correct because anomalies are deviations from what is common or expected (odd occurrences). Choices 0, 2, and 3 are incorrect because seasonal transitions, active dangers, and pre-planned events do not describe abnormal natural signals. Students might pick Choice 2 since earthquakes are dangerous, but the signs themselves are unusual rather than inherently hazardous. Test tip: Substitute each choice into the sentence to see which preserves the logical meaning.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The first paragraph establishes the history of 'the earthquake watchers' in 1973 China, adding essential historical facts that frame the story of seismic prediction.",
-      "diveDeep": "Choice 0 is correct because the paragraph introduces the real historical context of Mao Zedong's recruitments. Choices 1, 2, and 3 are incorrect because there is no comparison of scientific theories, philosophies, or cultural challenges in the opening lines. Students might select Choice 3 because of the mention of snakes and well levels, but these are presented as historical observational methods. Test tip: Determine the function of an introductory paragraph by looking at what background information it establishes."
+      "diveDeep": "Choice 0 is correct because the paragraph introduces the real historical context of Mao Zedong's recruitments. Choices 1, 2, and 3 are incorrect because there is no comparison of scientific theories, philosophies, or cultural challenges in the opening lines. Students might select Choice 3 because of the mention of snakes and well levels, but these are presented as historical observational methods. Test tip: Determine the function of an introductory paragraph by looking at what background information it establishes.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The comparison of small foreshocks to popcorn kernels popping rapidly and then suddenly stopping conveys an intense sense of urgency before a disaster.",
-      "diveDeep": "Choice 3 is correct because the sudden halt in activity signalized the immediate arrival of a major quake, requiring fast action. Choices 0, 1, and 2 are incorrect because the metaphor does not express doubt (disbelief), indifference (apathy), or letdown (disappointment). Students might choose Choice 0 due to the strange nature of the signs, but the primary focus is the tension and pressure building up. Test tip: Consider the pacing and pressure implied by the figurative language."
+      "diveDeep": "Choice 3 is correct because the sudden halt in activity signalized the immediate arrival of a major quake, requiring fast action. Choices 0, 1, and 2 are incorrect because the metaphor does not express doubt (disbelief), indifference (apathy), or letdown (disappointment). Students might choose Choice 0 due to the strange nature of the signs, but the primary focus is the tension and pressure building up. Test tip: Consider the pacing and pressure implied by the figurative language.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Haicheng was successfully predicted due to warnings, whereas Tangshan struck without warning, demonstrating that earthquakes are not always predictable.",
-      "diveDeep": "Choice 2 is correct because the text directly contrasts a successful forecast with a sudden, devastating tragedy. Choices 0, 1, and 3 are incorrect because the passage shows the signs are unreliable, uncontrollable, and highly studied. Students might select Choice 0 if they focus only on the Haicheng success, ignoring the failure at Tangshan. Test tip: When a question asks about a contrast, make sure your answer accounts for both sides of the comparison."
+      "diveDeep": "Choice 2 is correct because the text directly contrasts a successful forecast with a sudden, devastating tragedy. Choices 0, 1, and 3 are incorrect because the passage shows the signs are unreliable, uncontrollable, and highly studied. Students might select Choice 0 if they focus only on the Haicheng success, ignoring the failure at Tangshan. Test tip: When a question asks about a contrast, make sure your answer accounts for both sides of the comparison.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "These lines show Jian Lin's shift from looking at animal behaviors and electrical currents in trees to studying advanced modern data like GPS and seismometers.",
-      "diveDeep": "Choice 1 is correct because it details how Lin moved from folk observation to modern geophysics. Choices 0, 2, and 3 are incorrect because they imply he relied on old methods, altered his underlying theory of causes, or fought with Ross Stein. Students may choose Choice 2, but the text emphasizes the update in his scientific tools and methodology rather than a shift in his theory of earthquake mechanics at this point. Test tip: Focus on actions showing changes in methods to identify shifts in research procedures."
+      "diveDeep": "Choice 1 is correct because it details how Lin moved from folk observation to modern geophysics. Choices 0, 2, and 3 are incorrect because they imply he relied on old methods, altered his underlying theory of causes, or fought with Ross Stein. Students may choose Choice 2, but the text emphasizes the update in his scientific tools and methodology rather than a shift in his theory of earthquake mechanics at this point. Test tip: Focus on actions showing changes in methods to identify shifts in research procedures.",
+      "topic": "Close Reading"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "In this context, being 'champions of a theory' means that Lin and Stein are active promoters and supporters of it.",
-      "diveDeep": "Choice 1 is correct because to champion an idea is to advocate for or support it. Choices 0, 2, and 3 are incorrect because they mean consultants, modifiers, or people who outlast a disaster, which do not fit the context of backing a scientific theory. Students might pick Choice 0 because scientists advise others, but 'champions' denotes active advocacy. Test tip: Use the grammatical context (champions of a theory) to determine the role being played."
+      "diveDeep": "Choice 1 is correct because to champion an idea is to advocate for or support it. Choices 0, 2, and 3 are incorrect because they mean consultants, modifiers, or people who outlast a disaster, which do not fit the context of backing a scientific theory. Students might pick Choice 0 because scientists advise others, but 'champions' denotes active advocacy. Test tip: Use the grammatical context (champions of a theory) to determine the role being played.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The researchers disproved the old theory that an earthquake releases stress and reduces the chance of nearby quakes, showing instead that they can trigger others.",
-      "diveDeep": "Choice 1 is correct because their Coulomb stress research showed earthquakes can increase stress on neighboring faults, triggering new quakes. Choices 0, 2, and 3 are incorrect because these statements are either part of their new hypotheses or accepted facts, rather than the old belief they disproved. Students might choose Choice 0, but that was their hypothesis, not the long-held belief of others. Test tip: Make sure the chosen quote represents the status quo that the scientists challenged."
+      "diveDeep": "Choice 1 is correct because their Coulomb stress research showed earthquakes can increase stress on neighboring faults, triggering new quakes. Choices 0, 2, and 3 are incorrect because these statements are either part of their new hypotheses or accepted facts, rather than the old belief they disproved. Students might choose Choice 0, but that was their hypothesis, not the long-held belief of others. Test tip: Make sure the chosen quote represents the status quo that the scientists challenged.",
+      "topic": "Close Reading"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The text states that faults 'come unglued when shear stress exceeds the friction and pressure (the clamping stress) holding them together.'",
-      "diveDeep": "Choice 2 is correct because the California sequence occurred where the ground shifted due to shear stress overcoming clamping stress. Choices 0, 1, and 3 are incorrect because they contradict the mechanical explanation of rocks sliding past each other when clamping is overcome. Students might get confused by the physics terms, but the text clearly states that failure occurs when shear exceeds clamping. Test tip: Look for mathematical or comparative words (e.g., 'exceeds') in the text to answer relationship-based questions."
+      "diveDeep": "Choice 2 is correct because the California sequence occurred where the ground shifted due to shear stress overcoming clamping stress. Choices 0, 1, and 3 are incorrect because they contradict the mechanical explanation of rocks sliding past each other when clamping is overcome. Students might get confused by the physics terms, but the text clearly states that failure occurs when shear exceeds clamping. Test tip: Look for mathematical or comparative words (e.g., 'exceeds') in the text to answer relationship-based questions.",
+      "topic": "Close Reading"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The author portrays Lin as deeply dedicated to saving lives through earthquake forecasting, motivated by the tragedy of the Tangshan earthquake.",
-      "diveDeep": "Choice 3 is correct because the narrative highlights Lin's lifelong commitment ('worth the effort') to improving seismic forecasting. Choices 0, 1, and 2 are incorrect because he is not depicted as content with the current state of science (satisfied), believer in folk magic (superstitious), or overly fearful (cautious). Students might choose Choice 2 because of the nature of warning systems, but his defining trait is his active devotion to research. Test tip: Look for statements of personal mission to identify characterization."
+      "diveDeep": "Choice 3 is correct because the narrative highlights Lin's lifelong commitment ('worth the effort') to improving seismic forecasting. Choices 0, 1, and 2 are incorrect because he is not depicted as content with the current state of science (satisfied), believer in folk magic (superstitious), or overly fearful (cautious). Students might choose Choice 2 because of the nature of warning systems, but his defining trait is his active devotion to research. Test tip: Look for statements of personal mission to identify characterization.",
+      "topic": "Close Reading"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Lin's work on Coulomb stress changes is described as highly influential and critical for future research on seismic hazards near major cities.",
-      "diveDeep": "Choice 3 is correct because the text notes his papers are among the decade's most cited and are being actively used to forecast hazards. Choices 0, 1, and 2 are incorrect because the author portrays the work as highly rigorous, groundbreaking rather than concurrent, and supported by evidence rather than discredited. Students might choose Choice 2 due to the debates with other scientists, but the overall framing emphasizes its long-term scientific importance. Test tip: Evaluate the text's concluding paragraphs to find the ultimate impact of a subject's work."
+      "diveDeep": "Choice 3 is correct because the text notes his papers are among the decade's most cited and are being actively used to forecast hazards. Choices 0, 1, and 2 are incorrect because the author portrays the work as highly rigorous, groundbreaking rather than concurrent, and supported by evidence rather than discredited. Students might choose Choice 2 due to the debates with other scientists, but the overall framing emphasizes its long-term scientific importance. Test tip: Evaluate the text's concluding paragraphs to find the ultimate impact of a subject's work.",
+      "topic": "Close Reading"
     }
   ]
-};
+}

@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-aug-2018",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The opening lines describe how the family adjusted to living with mirror reflections of their deceased relatives, representing a process of adaptation.",
-      "diveDeep": "Choice 2 is correct because the family learns to accommodate and live alongside the spirits in the mirror. Choices 0, 1, and 3 are incorrect because the text does not focus on spreading rumors, the emotional pain of death (loss), or trying to make friends outside. Students might choose Choice 1 because deceased relatives are mentioned, but the focus is on the current routine they developed to adapt. Test tip: Focus on the verbs and behaviors of the characters to identify adaptation."
+      "diveDeep": "Choice 2 is correct because the family learns to accommodate and live alongside the spirits in the mirror. Choices 0, 1, and 3 are incorrect because the text does not focus on spreading rumors, the emotional pain of death (loss), or trying to make friends outside. Students might choose Choice 1 because deceased relatives are mentioned, but the focus is on the current routine they developed to adapt. Test tip: Focus on the verbs and behaviors of the characters to identify adaptation.",
+      "topic": "Close Reading"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The description of living in a house where mirror reflections behave as independent family members reinforces the strangeness of the situation.",
-      "diveDeep": "Choice 1 is correct because having deceased relatives occupy mirror spaces and interact with the living is highly bizarre and eccentric. Choices 0, 2, and 3 are incorrect because the family is not lonely (isolated), scared (fearful), or hostile (tense). Students might choose Choice 3 due to the unusual nature of the setup, but the interactions are described as routine rather than conflict-ridden. Test tip: Look for elements of magical realism to understand the weirdness/strangeness of a setting."
+      "diveDeep": "Choice 1 is correct because having deceased relatives occupy mirror spaces and interact with the living is highly bizarre and eccentric. Choices 0, 2, and 3 are incorrect because the family is not lonely (isolated), scared (fearful), or hostile (tense). Students might choose Choice 3 due to the unusual nature of the setup, but the interactions are described as routine rather than conflict-ridden. Test tip: Look for elements of magical realism to understand the weirdness/strangeness of a setting.",
+      "topic": "Close Reading"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The quote suggests that the line between the living and the deceased is paper-thin, emphasizing the continuity between life and death in the household.",
-      "diveDeep": "Choice 1 is correct because the narrator views the mirror occupants as a natural extension of the living family, showing that life and death flow into one another. Choices 0, 2, and 3 are incorrect because the quote does not touch upon generational fights, traditional values, or respectful behavior. Students might choose Choice 2 if they assume mirror people represent tradition, but the text treats them as current participants in daily life. Test tip: Analyze how surreal elements in a story can represent abstract thematic connections like life and death."
+      "diveDeep": "Choice 1 is correct because the narrator views the mirror occupants as a natural extension of the living family, showing that life and death flow into one another. Choices 0, 2, and 3 are incorrect because the quote does not touch upon generational fights, traditional values, or respectful behavior. Students might choose Choice 2 if they assume mirror people represent tradition, but the text treats them as current participants in daily life. Test tip: Analyze how surreal elements in a story can represent abstract thematic connections like life and death.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The word 'However' transitions the narrative to explain how Clara was different from the rest of the family, altering the narrator's view of her position.",
-      "diveDeep": "Choice 0 is correct because it marks the point where the narrator distinguishes Clara's role and presence from the other, more compliant members. Choices 1, 2, and 3 are incorrect because Clara does not analyze submission, the narrator is not resentful of her job, and Clara does not actively fight the family's habits. Students might choose Choice 3 if they think Clara is reacting against the family, but the passage focuses on the narrator's observational shift. Test tip: Transitional words like 'however' always signal a contrast or shift in perspective."
+      "diveDeep": "Choice 0 is correct because it marks the point where the narrator distinguishes Clara's role and presence from the other, more compliant members. Choices 1, 2, and 3 are incorrect because Clara does not analyze submission, the narrator is not resentful of her job, and Clara does not actively fight the family's habits. Students might choose Choice 3 if they think Clara is reacting against the family, but the passage focuses on the narrator's observational shift. Test tip: Transitional words like 'however' always signal a contrast or shift in perspective.",
+      "topic": "Close Reading"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Clara is called the 'family oracle' because of her commanding and assertive nature, which makes her opinions highly influential.",
-      "diveDeep": "Choice 0 is correct because an 'oracle' is someone whose pronouncements are taken as authoritative, matching Clara's assertive personality. Choices 1, 2, and 3 are incorrect because being disciplined, warm, or generous would not make her an 'oracle' who dictates family dynamics. Students might choose Choice 1 because of her profession, but her role as an oracle is due to her dominant behavior. Test tip: Connect figurative titles to the specific character traits that justify them."
+      "diveDeep": "Choice 0 is correct because an 'oracle' is someone whose pronouncements are taken as authoritative, matching Clara's assertive personality. Choices 1, 2, and 3 are incorrect because being disciplined, warm, or generous would not make her an 'oracle' who dictates family dynamics. Students might choose Choice 1 because of her profession, but her role as an oracle is due to her dominant behavior. Test tip: Connect figurative titles to the specific character traits that justify them.",
+      "topic": "Inference"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The description of how the family accommodates the mirror people during meals suggests that they are warmly welcomed and treated as normal guests.",
-      "diveDeep": "Choice 2 is correct because the family willingly adjusts their seating and habits to make room for their reflections. Choices 0, 1, and 3 are incorrect because the mirror people are not seen as a nuisance, showing active curiosity, or being upset. Students might select Choice 1 assuming the mirror people are staring out of curiosity, but the text emphasizes the living family's hospitable inclusion of them. Test tip: Focus on the actions of the characters to determine how they feel about a situation."
+      "diveDeep": "Choice 2 is correct because the family willingly adjusts their seating and habits to make room for their reflections. Choices 0, 1, and 3 are incorrect because the mirror people are not seen as a nuisance, showing active curiosity, or being upset. Students might select Choice 1 assuming the mirror people are staring out of curiosity, but the text emphasizes the living family's hospitable inclusion of them. Test tip: Focus on the actions of the characters to determine how they feel about a situation.",
+      "topic": "Inference"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Describing a relative's death as a 'regrettable oversight' and the arrangements as mere 'funeral business' shows a cold and indifferent attitude.",
-      "diveDeep": "Choice 0 is correct because the narrator handles the cousin's passing with professional detachment and lack of grief. Choices 1, 2, and 3 are incorrect because there is no anger (irritated), quick action (impulsive), or madness (irrational) in the narrator's calm, business-like tone. Students often choose Choice 1 by assuming the cousin's death was a nuisance, but the specific words reflect a complete lack of emotional concern. Test tip: Character reactions are often revealed through their word choices (connotation)."
+      "diveDeep": "Choice 0 is correct because the narrator handles the cousin's passing with professional detachment and lack of grief. Choices 1, 2, and 3 are incorrect because there is no anger (irritated), quick action (impulsive), or madness (irrational) in the narrator's calm, business-like tone. Students often choose Choice 1 by assuming the cousin's death was a nuisance, but the specific words reflect a complete lack of emotional concern. Test tip: Character reactions are often revealed through their word choices (connotation).",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The narrator's behavior in these lines suggests a deep suspicion and distrust of her cousin's motives and actions.",
-      "diveDeep": "Choice 2 is correct because the text highlights the narrator's suspicious attitude towards her cousin's presence in the house. Choices 0, 1, and 3 are incorrect because she does not feel she is losing herself (identity), show anger at visitors (intrusions), or complain about daily chores (routines). Students might select Choice 0 due to the eventual fate of characters in the story, but at this specific moment, the narrator is focused on her suspicion of the cousin. Test tip: Keep line-specific questions anchored strictly to the specified range rather than the entire plot resolution."
+      "diveDeep": "Choice 2 is correct because the text highlights the narrator's suspicious attitude towards her cousin's presence in the house. Choices 0, 1, and 3 are incorrect because she does not feel she is losing herself (identity), show anger at visitors (intrusions), or complain about daily chores (routines). Students might select Choice 0 due to the eventual fate of characters in the story, but at this specific moment, the narrator is focused on her suspicion of the cousin. Test tip: Keep line-specific questions anchored strictly to the specified range rather than the entire plot resolution.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The description of Clara eating food and smiling mischievously reveals her playful, defiant, and complex character.",
-      "diveDeep": "Choice 2 is correct because the vivid actions of eating and smiling mischievously convey Clara's active personality and attitude. Choices 0, 1, and 3 are incorrect because they describe external situations, passive waiting, or her ultimate physical state, none of which reveal her active character as well as her mischievous smile. Students might select Choice 0 if they focus on her introduction, but Choice 2 provides the most direct characterization. Test tip: Look for active verbs and expressions that reveal personality traits."
+      "diveDeep": "Choice 2 is correct because the vivid actions of eating and smiling mischievously convey Clara's active personality and attitude. Choices 0, 1, and 3 are incorrect because they describe external situations, passive waiting, or her ultimate physical state, none of which reveal her active character as well as her mischievous smile. Students might select Choice 0 if they focus on her introduction, but Choice 2 provides the most direct characterization. Test tip: Look for active verbs and expressions that reveal personality traits.",
+      "topic": "Close Reading"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "This quote highlights the central theme of the story, which is the blurring of the boundaries between the living and the deceased.",
-      "diveDeep": "Choice 3 is correct because it directly addresses the thematic core of the text—the merging of reality and reflection. Choices 0, 1, and 2 are incorrect because they focus on minor plot details like moving the mirror, table capacity, or Clara's fading smile, rather than the overall theme. Students might choose Choice 2 because it describes the large family, but that is a detail rather than a central idea. Test tip: A quote that reflects the central idea will often express the overarching conflict or thematic resolution of the work."
+      "diveDeep": "Choice 3 is correct because it directly addresses the thematic core of the text—the merging of reality and reflection. Choices 0, 1, and 2 are incorrect because they focus on minor plot details like moving the mirror, table capacity, or Clara's fading smile, rather than the overall theme. Students might choose Choice 2 because it describes the large family, but that is a detail rather than a central idea. Test tip: A quote that reflects the central idea will often express the overarching conflict or thematic resolution of the work.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The description of the pears in Betsy Sholl's poem 'Pears, Unstolen' highlights the difference between seeing the pears in one's mind as sweet versus the reality of them being hard and pitted.",
-      "diveDeep": "Choice 2 is correct because the narrator compares the ideal, dreamed pears with the reality of the hard, splotched fruit on the sidewalk. Choices 0, 1, and 3 are incorrect because the description does not focus on stability and change, recognizing faults, or overcoming physical barriers. Students might select Choice 1, but the narrator easily recognizes the physical imperfections (pitting, splotching) of the real pears. Test tip: Identify contrasting descriptions in a poem to locate the tension between idealization and reality."
+      "diveDeep": "Choice 2 is correct because the narrator compares the ideal, dreamed pears with the reality of the hard, splotched fruit on the sidewalk. Choices 0, 1, and 3 are incorrect because the description does not focus on stability and change, recognizing faults, or overcoming physical barriers. Students might select Choice 1, but the narrator easily recognizes the physical imperfections (pitting, splotching) of the real pears. Test tip: Identify contrasting descriptions in a poem to locate the tension between idealization and reality.",
+      "topic": "Close Reading"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "In the poem, 'sating' refers to the bees indulging themselves on the sweet light of the rotting pears.",
-      "diveDeep": "Choice 0 is correct because 'sating' means satisfying a desire or appetite fully, which is synonymous with indulging. Choices 1, 2, and 3 are incorrect because sating has nothing to do with blockaging vision (blinding), basking (sunning), or causing harm (endangering). Students might select Choice 2 because of the mention of 'light,' but the context is about consumption and satisfaction. Test tip: Replace the vocabulary word with the choices to see which makes the most contextual sense."
+      "diveDeep": "Choice 0 is correct because 'sating' means satisfying a desire or appetite fully, which is synonymous with indulging. Choices 1, 2, and 3 are incorrect because sating has nothing to do with blockaging vision (blinding), basking (sunning), or causing harm (endangering). Students might select Choice 2 because of the mention of 'light,' but the context is about consumption and satisfaction. Test tip: Replace the vocabulary word with the choices to see which makes the most contextual sense.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The narrator resolves the conflict of wanting to stop time by accepting that the pears must fall, shrivel, and release seeds as part of the natural cycle.",
-      "diveDeep": "Choice 2 is correct because the narrator moves from wanting to 'hoard time' to recognizing that the falling and decaying of the pears is 'the way it goes.' Choices 0, 1, and 3 are incorrect because the resolution is not achieved through understanding humans, philosophical arguments, or questioning religion. Students might choose Choice 1 due to the mention of the 'thief' and the 'saint,' but these characters are used to illustrate natural law and acceptance. Test tip: Look for lines that depict natural processes (falling leaves, seasons changing) to identify themes of acceptance."
+      "diveDeep": "Choice 2 is correct because the narrator moves from wanting to 'hoard time' to recognizing that the falling and decaying of the pears is 'the way it goes.' Choices 0, 1, and 3 are incorrect because the resolution is not achieved through understanding humans, philosophical arguments, or questioning religion. Students might choose Choice 1 due to the mention of the 'thief' and the 'saint,' but these characters are used to illustrate natural law and acceptance. Test tip: Look for lines that depict natural processes (falling leaves, seasons changing) to identify themes of acceptance.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The narrator's tone shifts from longing to preserve a single moment to a state of quiet reflection and resignation to the passage of time.",
-      "diveDeep": "Choice 3 is correct because the narrator contemplates the nature of time and ultimately accepts that all things must decay. Choices 0, 1, and 2 are incorrect because the narrator is not energetic and hopeful, deeply sad and isolated, or reckless and carefree. Students might choose Choice 1 due to the melancholic subject of decay, but the narrator's tone is peaceful and accepting rather than dejected. Test tip: Look at the ending of a poem to see how the narrator's emotional state has settled."
+      "diveDeep": "Choice 3 is correct because the narrator contemplates the nature of time and ultimately accepts that all things must decay. Choices 0, 1, and 2 are incorrect because the narrator is not energetic and hopeful, deeply sad and isolated, or reckless and carefree. Students might choose Choice 1 due to the melancholic subject of decay, but the narrator's tone is peaceful and accepting rather than dejected. Test tip: Look at the ending of a poem to see how the narrator's emotional state has settled.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The second paragraph of the excerpt from Out of Africa introduces the central idea of persevering through the difficult, long work of maintaining a coffee plantation despite financial hardship.",
-      "diveDeep": "Choice 1 is correct because the narrator describes how the plantation 'gets hold of you' and requires constant, hard work even though 'we were never rich.' Choices 0, 2, and 3 are incorrect because the text establishes that there is no abundance (security), no guarantee of profit (trust), and no easy success (experience). Students might choose Choice 2 because of the romanticized description of the farm, but the text emphasizes the struggle and persistence needed. Test tip: Look for words like 'hard work,' 'never rich,' and 'does not let you go' to identify the theme of perseverance."
+      "diveDeep": "Choice 1 is correct because the narrator describes how the plantation 'gets hold of you' and requires constant, hard work even though 'we were never rich.' Choices 0, 2, and 3 are incorrect because the text establishes that there is no abundance (security), no guarantee of profit (trust), and no easy success (experience). Students might choose Choice 2 because of the romanticized description of the farm, but the text emphasizes the struggle and persistence needed. Test tip: Look for words like 'hard work,' 'never rich,' and 'does not let you go' to identify the theme of perseverance.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The text states that young coffee plants must be 'thickly shaded against the sun,' suggesting they require protection to survive.",
-      "diveDeep": "Choice 3 is correct because the shading of young plants is described as a protective measure against the harsh sun. Choices 0, 1, and 2 are incorrect because the text does not mention keeping them separate (isolation), feeding the soil (fertilization), or watering systems (irrigation) in these specific lines. Students might pick Choice 0 because of the phrase 'obscurity is the privilege of young things,' but the physical action described is shading for protection. Test tip: Focus on the literal physical actions described in the passage to identify the correct choice."
+      "diveDeep": "Choice 3 is correct because the shading of young plants is described as a protective measure against the harsh sun. Choices 0, 1, and 2 are incorrect because the text does not mention keeping them separate (isolation), feeding the soil (fertilization), or watering systems (irrigation) in these specific lines. Students might pick Choice 0 because of the phrase 'obscurity is the privilege of young things,' but the physical action described is shading for protection. Test tip: Focus on the literal physical actions described in the passage to identify the correct choice.",
+      "topic": "Inference"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Using technical terms like 'black-jack' and 'tap-roots' demonstrates the narrator's intimate knowledge of botany and the details of farming.",
-      "diveDeep": "Choice 0 is correct because the precise terminology shows the narrator is highly experienced and knowledgeable about the plantation's flora. Choices 1, 2, and 3 are incorrect because these terms do not describe workers' duties, the farm's wealth, or the strength of the trees (since bent tap-roots actually cause them to die). Students might choose Choice 3 if they misread the context of 'tap-roots' causing death. Test tip: Specific technical jargon is often used by an author to build the narrator's credibility and expertise."
+      "diveDeep": "Choice 0 is correct because the precise terminology shows the narrator is highly experienced and knowledgeable about the plantation's flora. Choices 1, 2, and 3 are incorrect because these terms do not describe workers' duties, the farm's wealth, or the strength of the trees (since bent tap-roots actually cause them to die). Students might choose Choice 3 if they misread the context of 'tap-roots' causing death. Test tip: Specific technical jargon is often used by an author to build the narrator's credibility and expertise.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The imagery of the coffee plantation flowering 'like a cloud of chalk' in the mist highlights the visual and sensory appeal of the farm.",
-      "diveDeep": "Choice 2 is correct because the description of the plantation flowering and the women and children gathering ripe berries emphasizes the beauty and attraction of the environment. Choices 0, 1, and 3 are incorrect because the imagery is focused on aesthetic beauty rather than farm diversity, repetitive chores (routine), or historical background. Students might pick Choice 1 because they associate picking coffee with routine, but the imagery itself is positive and artistic. Test tip: Pay attention to adjectives (e.g., 'radiant sight,' 'delicate scent') to identify positive sensory appeal."
+      "diveDeep": "Choice 2 is correct because the description of the plantation flowering and the women and children gathering ripe berries emphasizes the beauty and attraction of the environment. Choices 0, 1, and 3 are incorrect because the imagery is focused on aesthetic beauty rather than farm diversity, repetitive chores (routine), or historical background. Students might pick Choice 1 because they associate picking coffee with routine, but the imagery itself is positive and artistic. Test tip: Pay attention to adjectives (e.g., 'radiant sight,' 'delicate scent') to identify positive sensory appeal.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The comparison of the coffee dryer's sound to 'pebbles that are washed about on the sea-shore' reinforces the continuous, rattling noise of the machinery.",
-      "diveDeep": "Choice 1 is correct because the simile highlights the rhythmic, mechanical sound of the dryer turning. Choices 0, 2, and 3 are incorrect because the comparison does not represent the literal ocean, the temperature of the machine, or the sounds of the African night. Students might select Choice 0 if they take the simile of the 'sea-shore' too literally. Test tip: Figurative comparisons are used to describe one subject (the machine) by referencing another (the sea-shore); do not confuse the illustration for the subject."
+      "diveDeep": "Choice 1 is correct because the simile highlights the rhythmic, mechanical sound of the dryer turning. Choices 0, 2, and 3 are incorrect because the comparison does not represent the literal ocean, the temperature of the machine, or the sounds of the African night. Students might select Choice 0 if they take the simile of the 'sea-shore' too literally. Test tip: Figurative comparisons are used to describe one subject (the machine) by referencing another (the sea-shore); do not confuse the illustration for the subject.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "These lines explain how the farm's high elevation caused frost, which withered the coffee shoots and reduced the harvest compared to lower districts.",
-      "diveDeep": "Choice 0 is correct because the narrator explicitly links the poor yield to the farm being 'too high up,' causing frost in the cold months. Choices 1, 2, and 3 are incorrect because the lines do not mention benefits of size, the delicacy of berries, or successful harvests. Students might choose Choice 2 because of the withered berries, but the core focus is on the altitude causing this damage. Test tip: Look for cause-and-effect relationships in expository passages."
+      "diveDeep": "Choice 0 is correct because the narrator explicitly links the poor yield to the farm being 'too high up,' causing frost in the cold months. Choices 1, 2, and 3 are incorrect because the lines do not mention benefits of size, the delicacy of berries, or successful harvests. Students might choose Choice 2 because of the withered berries, but the core focus is on the altitude causing this damage. Test tip: Look for cause-and-effect relationships in expository passages.",
+      "topic": "Close Reading"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The details of the rainfall fluctuating wildly between bad years of drought (20-25 inches) and good years (50-55 inches) demonstrate that natural events are unpredictable.",
-      "diveDeep": "Choice 1 is correct because the wide range of rainfall and the resulting crop failures highlight the unpredictable nature of weather. Choices 0, 2, and 3 are incorrect because the conditions are harmful (not beneficial), rain increases yield rather than lowering prices, and record-keeping does not change weather patterns. Students might pick Choice 3 because of the specific numbers mentioned, but the numbers serve to prove the weather's volatility. Test tip: Look for fluctuations in data to support the concept of unpredictability."
+      "diveDeep": "Choice 1 is correct because the wide range of rainfall and the resulting crop failures highlight the unpredictable nature of weather. Choices 0, 2, and 3 are incorrect because the conditions are harmful (not beneficial), rain increases yield rather than lowering prices, and record-keeping does not change weather patterns. Students might pick Choice 3 because of the specific numbers mentioned, but the numbers serve to prove the weather's volatility. Test tip: Look for fluctuations in data to support the concept of unpredictability.",
+      "topic": "Close Reading"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The phrase 'hand to mouth' describes a state of living where one only has enough resources to cover immediate, basic necessities without any savings or capital for improvements.",
-      "diveDeep": "Choice 2 is correct because 'hand to mouth' is an idiom representing survival on the bare minimum. Choices 0, 1, and 3 are incorrect because it does not mean finding unusual resources, enjoying luxuries, or simply ignoring problems. Students might choose Choice 3 if they think the narrator is careless, but the context is purely financial struggle. Test tip: Context clues like 'short of capital' and 'could not carry through improvements' help define the financial idiom."
+      "diveDeep": "Choice 2 is correct because 'hand to mouth' is an idiom representing survival on the bare minimum. Choices 0, 1, and 3 are incorrect because it does not mean finding unusual resources, enjoying luxuries, or simply ignoring problems. Students might choose Choice 3 if they think the narrator is careless, but the context is purely financial struggle. Test tip: Context clues like 'short of capital' and 'could not carry through improvements' help define the financial idiom.",
+      "topic": "Inference"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The narrator's belief that 'something would happen to change it all back' reflects her enduring optimism despite having to sell the farm.",
-      "diveDeep": "Choice 3 is correct because she hopes for an unexpected change, viewing the world as an incalculable place where anything is possible. Choices 0, 1, and 2 are incorrect because she is not showing pity (sympathy), indifference, or lack of knowledge (ignorance). Students might confuse her hope with ignorance, but she is fully aware of the sale and is simply holding onto hope. Test tip: End-of-text reflections often reveal the narrator's core attitude or coping mechanisms."
+      "diveDeep": "Choice 3 is correct because she hopes for an unexpected change, viewing the world as an incalculable place where anything is possible. Choices 0, 1, and 2 are incorrect because she is not showing pity (sympathy), indifference, or lack of knowledge (ignorance). Students might confuse her hope with ignorance, but she is fully aware of the sale and is simply holding onto hope. Test tip: End-of-text reflections often reveal the narrator's core attitude or coping mechanisms.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 24,
@@ -340,21 +363,24 @@ export default {
       ],
       "correct": 3,
       "explanation": "This quotation best represents the central idea of the narrator's deep, unbreakable emotional connection to the farm despite all its hardships.",
-      "diveDeep": "Choice 3 is correct because it highlights the narrator's reluctance to leave the land, which underpins the entire passage. Choices 0, 1, and 2 are incorrect because they focus on mechanical details, visual moments, or the company's future development plans. Students might select Choice 0 because of the self-reliance theme, but the narrator's personal bond with the farm is the primary focus of the text. Test tip: The best quote for a central idea will connect the setting to the narrator's emotional journey."
+      "diveDeep": "Choice 3 is correct because it highlights the narrator's reluctance to leave the land, which underpins the entire passage. Choices 0, 1, and 2 are incorrect because they focus on mechanical details, visual moments, or the company's future development plans. Students might select Choice 0 because of the self-reliance theme, but the narrator's personal bond with the farm is the primary focus of the text. Test tip: The best quote for a central idea will connect the setting to the narrator's emotional journey.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 25,
       "part": "II",
       "type": "written",
       "text": "These enclosures can’t be easily built on open ocean beaches because experience has shown that the energy of the waves will eventually tear them to pieces. And like all beach constructions, they can also cause major sand erosion. When, for example, a temporary volleyball stadium was built on Bondi Beach for the Sydney Olympics a new surfing wave was created, dubbed the ‘Olympic Lefts’ by local surfers. Regents Exam in ELA — Aug. ’18 shark enclosure",
-      "modelAnswer": null
+      "modelAnswer": null,
+      "topic": "Close Reading"
     },
     {
       "number": 30,
       "part": "II",
       "type": "written",
       "text": "",
-      "modelAnswer": null
+      "modelAnswer": null,
+      "topic": "Close Reading"
     }
   ]
-};
+}

@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-jan-2024",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Lines 8 through 11 explain that the Vicomte de B— decided to lower his tenants' rent because he wanted to perform a grand, noble act after inherited wealth made him feel generous. This reveals the vicomte's motivation for making his novel decision, which is Choice D.",
-      "diveDeep": "This question tests the Regents reading skill of identifying character motivation and drawing inferences from specific lines. Choice A is incorrect because the tenants are not proud of his heritage; they are confused. Choice B is incorrect because the tenants do not yet know of this decision to appreciate it. Choice C is incorrect because his uncle is not mentioned as having requested this action. A common student mistake is choosing B because they focus on the positive outcome of lower rent, rather than the character's internal motives. A good strategy is to read the surrounding context of the lines to determine why the character acts."
+      "diveDeep": "This question tests the Regents reading skill of identifying character motivation and drawing inferences from specific lines. Choice A is incorrect because the tenants are not proud of his heritage; they are confused. Choice B is incorrect because the tenants do not yet know of this decision to appreciate it. Choice C is incorrect because his uncle is not mentioned as having requested this action. A common student mistake is choosing B because they focus on the positive outcome of lower rent, rather than the character's internal motives. A good strategy is to read the surrounding context of the lines to determine why the character acts.",
+      "topic": "Close Reading"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The similes in lines 16 and 28 compare Bernard's reaction to a physical shock, emphasizing how utterly stunned and shocked he was by the vicomte's unusual ideas. This aligns with Choice A.",
-      "diveDeep": "This question tests the Regents skill of analyzing how figurative language (specifically similes) develops characterization and emphasizes emotions. Choice B is wrong because the description has nothing to do with physical fatigue or duties. Choice C is wrong because Bernard is not showing impatience with tenants here, but shock toward his employer. Choice D is wrong because Bernard is trying to comply rather than disregard the demand. Students often confuse a character's physical reaction with their workload, making B a common distractor. To succeed, identify the comparison being made (e.g., staggering like a drunken man) and associate it with the emotion of shock."
+      "diveDeep": "This question tests the Regents skill of analyzing how figurative language (specifically similes) develops characterization and emphasizes emotions. Choice B is wrong because the description has nothing to do with physical fatigue or duties. Choice C is wrong because Bernard is not showing impatience with tenants here, but shock toward his employer. Choice D is wrong because Bernard is trying to comply rather than disregard the demand. Students often confuse a character's physical reaction with their workload, making B a common distractor. To succeed, identify the comparison being made (e.g., staggering like a drunken man) and associate it with the emotion of shock.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "In line 24, Bernard persists by saying 'Monsieur has not reflected,' which directly indicates that he believes the vicomte acted impulsively without thinking through the consequences of his actions. This makes Choice C correct.",
-      "diveDeep": "This question tests the Regents skill of identifying evidence that supports a specific character perspective. Choice A is wrong because it describes Bernard's physical recovery from shock, not his judgment on the vicomte's impulsivity. Choice B is wrong because it is Bernard's hopeful misinterpretation that the rent is being raised. Choice D is wrong because it expresses Bernard's later rationalization of the situation rather than his immediate belief that the vicomte didn't think. Students often choose options that reflect Bernard's confusion instead of his direct assertion of lack of reflection. The best strategy is to look for key vocabulary like 'reflected' which directly matches the concept of not thinking/acting impulsively."
+      "diveDeep": "This question tests the Regents skill of identifying evidence that supports a specific character perspective. Choice A is wrong because it describes Bernard's physical recovery from shock, not his judgment on the vicomte's impulsivity. Choice B is wrong because it is Bernard's hopeful misinterpretation that the rent is being raised. Choice D is wrong because it expresses Bernard's later rationalization of the situation rather than his immediate belief that the vicomte didn't think. Students often choose options that reflect Bernard's confusion instead of his direct assertion of lack of reflection. The best strategy is to look for key vocabulary like 'reflected' which directly matches the concept of not thinking/acting impulsively.",
+      "topic": "Close Reading"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Lines 32 through 41 show that the tenants, when hearing about the rent reduction, immediately suspect a trick or trap, showing that people are naturally suspicious of change and unexpected good fortune. This makes Choice B correct.",
-      "diveDeep": "This question tests the Regents skill of identifying a central idea from a specific narrative section. Choice A is wrong because the tenants are highly anxious, not satisfied. Choice C is wrong because they do not accept the news graciously; they are deeply worried. Choice D is wrong because the passage at this point focuses on suspicion rather than secret-sharing. A common student error is selecting a choice that represents general human behavior rather than what the characters specifically demonstrate. The strategy is to identify the dominant emotion of the characters in the cited lines, which is suspicion."
+      "diveDeep": "This question tests the Regents skill of identifying a central idea from a specific narrative section. Choice A is wrong because the tenants are highly anxious, not satisfied. Choice C is wrong because they do not accept the news graciously; they are deeply worried. Choice D is wrong because the passage at this point focuses on suspicion rather than secret-sharing. A common student error is selecting a choice that represents general human behavior rather than what the characters specifically demonstrate. The strategy is to identify the dominant emotion of the characters in the cited lines, which is suspicion.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The repetition of the tenants' concerns reinforces their transition from initial uncertainty and doubt about the vicomte's true motives to absolute certainty that there must be something wrong with the house or the landlord. This matches Choice D.",
-      "diveDeep": "This question tests the Regents skill of analyzing structural repetition and its impact on character development. Choice A is wrong because the tenants do not reach a state of comfort; they remain terrified. Choice B is wrong because they do not praise the landlord; they complain more. Choice C is wrong because they never develop trust. A common student mistake is picking C because they see the word 'certainty' and assume it means trust, when it actually means they are certain of their negative suspicions. The strategy is to trace the progression of the tenants' attitude from doubt to absolute conviction of danger."
+      "diveDeep": "This question tests the Regents skill of analyzing structural repetition and its impact on character development. Choice A is wrong because the tenants do not reach a state of comfort; they remain terrified. Choice B is wrong because they do not praise the landlord; they complain more. Choice C is wrong because they never develop trust. A common student mistake is picking C because they see the word 'certainty' and assume it means trust, when it actually means they are certain of their negative suspicions. The strategy is to trace the progression of the tenants' attitude from doubt to absolute conviction of danger.",
+      "topic": "Close Reading"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "In line 60, the word 'hazard' is used in the context of someone offering a theory or suggestion, meaning they 'suggest that' something is the case. This makes Choice A correct.",
-      "diveDeep": "This question tests vocabulary-in-context, a key Regents skill where students must determine a word's meaning based on surrounding text. Choice B is wrong because the tenants are proposing theories, not ruling them out. Choice C is wrong because they are actively discussing, not ignoring. Choice D is wrong because they do not require proof at this stage of speculation. Students often assume 'hazard' means danger or risk, which are common definitions, but do not fit the context. The best strategy is to substitute the answer choices into the sentence to see which one maintains logical flow."
+      "diveDeep": "This question tests vocabulary-in-context, a key Regents skill where students must determine a word's meaning based on surrounding text. Choice B is wrong because the tenants are proposing theories, not ruling them out. Choice C is wrong because they are actively discussing, not ignoring. Choice D is wrong because they do not require proof at this stage of speculation. Students often assume 'hazard' means danger or risk, which are common definitions, but do not fit the context. The best strategy is to substitute the answer choices into the sentence to see which one maintains logical flow.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Lines 61 through 74 depict the tenants inventing wild, imaginary reasons—such as a crime or bankruptcy—to explain why the landlord would lower their rents, which aligns with Choice B.",
-      "diveDeep": "This question tests the Regents skill of analyzing character behavior and drawing inferences from their dialogue. Choice A is wrong because the tenants are accusing the landlord of hidden motives, not excusing him. Choice C is wrong because they are gossiping, not conducting actual historical research. Choice D is wrong because they are focusing their suspicion on the vicomte, not accusing each other of crimes. A common mistake is selecting D due to the mention of 'crimes' in the text, but the crimes are attributed to the vicomte. The strategy is to summarize what the tenants are doing in those lines—making up theories."
+      "diveDeep": "This question tests the Regents skill of analyzing character behavior and drawing inferences from their dialogue. Choice A is wrong because the tenants are accusing the landlord of hidden motives, not excusing him. Choice C is wrong because they are gossiping, not conducting actual historical research. Choice D is wrong because they are focusing their suspicion on the vicomte, not accusing each other of crimes. A common mistake is selecting D due to the mention of 'crimes' in the text, but the crimes are attributed to the vicomte. The strategy is to summarize what the tenants are doing in those lines—making up theories.",
+      "topic": "Close Reading"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The phrase 'general rout' in line 85 describes the tenants' panic-stricken, mass departure from the building, showing that they are acting irrationally out of fear. This makes Choice C correct.",
-      "diveDeep": "This question tests the Regents skill of interpreting figurative language and author's tone in context. Choice A is wrong because the tenants are running away, not seeking revenge. Choice B is wrong because their actions are driven by panic, not frugality. Choice D is wrong because leaving their homes based on unfounded rumors is the opposite of responsible behavior. Students often struggle with archaic idioms like 'general rout' and choose option A or D by guessing. The strategy is to look at the subsequent actions of characters fleeing the building to understand that they are panicking."
+      "diveDeep": "This question tests the Regents skill of interpreting figurative language and author's tone in context. Choice A is wrong because the tenants are running away, not seeking revenge. Choice B is wrong because their actions are driven by panic, not frugality. Choice D is wrong because leaving their homes based on unfounded rumors is the opposite of responsible behavior. Students often struggle with archaic idioms like 'general rout' and choose option A or D by guessing. The strategy is to look at the subsequent actions of characters fleeing the building to understand that they are panicking.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The story shows how a lack of clear communication from the landlord about his generous intent allowed the tenants to speculate wildly, concluding that poor communication can generate hysterical behavior. This is Choice A.",
-      "diveDeep": "This question tests the Regents skill of drawing a thematic conclusion from the text as a whole. Choice B is wrong because there was no clear communication, only silence and confusion. Choice C is wrong because the vicomte's good intentions led to a disastrous outcome. Choice D is wrong because the tenants did not have actual negative experiences with the landlord, only imaginary ones. Students often choose C because they focus on the vicomte's initial intent rather than the story's actual outcome. The strategy is to examine the cause-and-effect relationship that drives the entire plot."
+      "diveDeep": "This question tests the Regents skill of drawing a thematic conclusion from the text as a whole. Choice B is wrong because there was no clear communication, only silence and confusion. Choice C is wrong because the vicomte's good intentions led to a disastrous outcome. Choice D is wrong because the tenants did not have actual negative experiences with the landlord, only imaginary ones. Students often choose C because they focus on the vicomte's initial intent rather than the story's actual outcome. The strategy is to examine the cause-and-effect relationship that drives the entire plot.",
+      "topic": "Close Reading"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The quotation in Choice D highlights the central conflict and idea of the passage: the tenants' inability to accept a generous act without searching for sinister motives. This corresponds to Choice D.",
-      "diveDeep": "This question tests the Regents skill of identifying the quotation that best encapsulates the main theme or central idea. Choice A is wrong because it is merely a financial detail about the building. Choice B is wrong because it describes the concierge's submissive entry, which is character detail rather than theme. Choice C is wrong because it is a description of Bernard's shock, not the central idea of collective paranoia. Students often select A or B because they contain lots of detail, but the theme is about human nature and suspicion. The strategy is to find the quote that expresses the mystery and suspicion driving the plot."
+      "diveDeep": "This question tests the Regents skill of identifying the quotation that best encapsulates the main theme or central idea. Choice A is wrong because it is merely a financial detail about the building. Choice B is wrong because it describes the concierge's submissive entry, which is character detail rather than theme. Choice C is wrong because it is a description of Bernard's shock, not the central idea of collective paranoia. Students often select A or B because they contain lots of detail, but the theme is about human nature and suspicion. The strategy is to find the quote that expresses the mystery and suspicion driving the plot.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "In the first stanza of the poem, the physical sensations of the falling snow on the stranger's nose and tongue vividly remind him of the sensations he experienced during snowfall as a child, which matches Choice D.",
-      "diveDeep": "This question tests the Regents skill of analyzing sensory details to determine their emotional effect on a character. Choice A is wrong because the stranger feels nostalgia, not personal power. Choice B is wrong because the focus is on sensory memory, not specifically on playing. Choice C is wrong because 'relief' is not the primary emotion described in the opening lines. A common student mistake is choosing B because playing is associated with childhood, but the text specifically details sensory elements like purity and coolness. The strategy is to identify the sensory words (nose, tongue, coolness) and connect them to 'sensations.'"
+      "diveDeep": "This question tests the Regents skill of analyzing sensory details to determine their emotional effect on a character. Choice A is wrong because the stranger feels nostalgia, not personal power. Choice B is wrong because the focus is on sensory memory, not specifically on playing. Choice C is wrong because 'relief' is not the primary emotion described in the opening lines. A common student mistake is choosing B because playing is associated with childhood, but the text specifically details sensory elements like purity and coolness. The strategy is to identify the sensory words (nose, tongue, coolness) and connect them to 'sensations.'",
+      "topic": "Close Reading"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "By personifying the house as 'knowing' and 'singing' to him in the past, the poem establishes the stranger's deep, nostalgic connection with the house, making Choice A correct.",
-      "diveDeep": "This question tests the Regents skill of analyzing how personification contributes to the theme of memory and connection. Choice B is wrong because the personification reinforces his existing feelings rather than transforming them. Choice C is wrong because the memory described is vivid and intimate, not dim. Choice D is wrong because personification describes the house's behavior, not the stranger's physical view of it. Students often select C because the stranger is outside in the dark, but the personification itself emphasizes intimacy. The strategy is to ask what emotional state is created when an object is given human traits of knowing and singing."
+      "diveDeep": "This question tests the Regents skill of analyzing how personification contributes to the theme of memory and connection. Choice B is wrong because the personification reinforces his existing feelings rather than transforming them. Choice C is wrong because the memory described is vivid and intimate, not dim. Choice D is wrong because personification describes the house's behavior, not the stranger's physical view of it. Students often select C because the stranger is outside in the dark, but the personification itself emphasizes intimacy. The strategy is to ask what emotional state is created when an object is given human traits of knowing and singing.",
+      "topic": "Close Reading"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The 'sphere of the storm' representing his current physical surroundings and the 'glass sphere' representing the toy he played with as a child create a link between the stranger's present and past. This corresponds to Choice C.",
-      "diveDeep": "This question tests the Regents skill of identifying structural and symbolic links across a poem. Choice A is wrong because there is no theme of physical illness in the poem. Choice B is wrong because the poem focuses on memory rather than social acceptance or rejection. Choice D is wrong because the spheres represent a connection, not confusion. Students often select D because the snowstorm is chaotic, but the parallel structure connects his adult self in the storm to the boy he once was. The strategy is to recognize that the repetition of the 'sphere' symbol links different time periods in the narrative."
+      "diveDeep": "This question tests the Regents skill of identifying structural and symbolic links across a poem. Choice A is wrong because there is no theme of physical illness in the poem. Choice B is wrong because the poem focuses on memory rather than social acceptance or rejection. Choice D is wrong because the spheres represent a connection, not confusion. Students often select D because the snowstorm is chaotic, but the parallel structure connects his adult self in the storm to the boy he once was. The strategy is to recognize that the repetition of the 'sphere' symbol links different time periods in the narrative.",
+      "topic": "Close Reading"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Lines 15 through 21 show the stranger standing in the dark, peering around, and then stamping his feet 'as if in anger,' signaling his changing attitude towards the storm from peaceful nostalgia to frustration. This is Choice A.",
-      "diveDeep": "This question tests the Regents skill of tracking shifts in character attitude or tone. Choice B is wrong because the stranger is growing colder and more frustrated, not confident. Choice C is wrong because he has no control over the storm. Choice D is wrong because he is reacting to his surroundings, not expressing a desire to end a journey. Students often miss the shift in tone from the peaceful second stanza to the colder, harsher reality in the third stanza. The strategy is to look for contrast words like 'yet' or changes in verbs (from listening to stamping feet in anger)."
+      "diveDeep": "This question tests the Regents skill of tracking shifts in character attitude or tone. Choice B is wrong because the stranger is growing colder and more frustrated, not confident. Choice C is wrong because he has no control over the storm. Choice D is wrong because he is reacting to his surroundings, not expressing a desire to end a journey. Students often miss the shift in tone from the peaceful second stanza to the colder, harsher reality in the third stanza. The strategy is to look for contrast words like 'yet' or changes in verbs (from listening to stamping feet in anger).",
+      "topic": "Close Reading"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Lines 1 through 12 describe Steve Irwin's up-close interactions and TV phenomenon status, revealing that his ultimate goal was to educate the public about wild animals and their magnificent deadliness. This is Choice B.",
-      "diveDeep": "This question tests the Regents skill of identifying author purpose and character goals from introductory text. Choice A is wrong because Irwin was a television host and educator, not a wildlife habitat manager. Choice C is wrong because he sought to bring people closer to animals, not build barriers to protect them. Choice D is wrong because predatory behaviors cannot be controlled. Students often choose C because conservation is mentioned, but the focus of his show was public education. The strategy is to look at his style of communication, which was designed to share wonderment with viewers."
+      "diveDeep": "This question tests the Regents skill of identifying author purpose and character goals from introductory text. Choice A is wrong because Irwin was a television host and educator, not a wildlife habitat manager. Choice C is wrong because he sought to bring people closer to animals, not build barriers to protect them. Choice D is wrong because predatory behaviors cannot be controlled. Students often choose C because conservation is mentioned, but the focus of his show was public education. The strategy is to look at his style of communication, which was designed to share wonderment with viewers.",
+      "topic": "Close Reading"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The text states that Craig Franklin used the capture techniques and funding from Steve Irwin's television fame and zoo to initiate and bankroll crocodile research projects. This matches Choice A.",
-      "diveDeep": "This question tests the Regents skill of identifying cause-and-effect relationships in informational texts. Choice B is wrong because the project was about researching wild crocodiles, not buying them for zoos. Choice C is wrong because breeding techniques are not mentioned. Choice D is wrong because the goal was conservation and research, not hunting. A common student mistake is choosing B because zoos are mentioned, but the text specifies the money went to research in waterways. The strategy is to identify what action was directly enabled by the funding and fame described."
+      "diveDeep": "This question tests the Regents skill of identifying cause-and-effect relationships in informational texts. Choice B is wrong because the project was about researching wild crocodiles, not buying them for zoos. Choice C is wrong because breeding techniques are not mentioned. Choice D is wrong because the goal was conservation and research, not hunting. A common student mistake is choosing B because zoos are mentioned, but the text specifies the money went to research in waterways. The strategy is to identify what action was directly enabled by the funding and fame described.",
+      "topic": "Close Reading"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "In line 20, the word 'sedentary' is contrasted with 'far-ranging,' showing that it most nearly means remaining in one location. This matches Choice B.",
-      "diveDeep": "This question tests the Regents skill of vocabulary-in-context. Choice A is wrong because 'living in large groups' refers to social structure, not physical movement. Choice C is wrong because 'easy to aggravate' refers to temperament. Choice D is wrong because 'hard to capture' refers to difficulty of trapping. Students often get confused by scientific terminology, but looking at the antonym ('far-ranging') in the same sentence reveals the meaning. The strategy is to look for contrast clues in the sentence."
+      "diveDeep": "This question tests the Regents skill of vocabulary-in-context. Choice A is wrong because 'living in large groups' refers to social structure, not physical movement. Choice C is wrong because 'easy to aggravate' refers to temperament. Choice D is wrong because 'hard to capture' refers to difficulty of trapping. Students often get confused by scientific terminology, but looking at the antonym ('far-ranging') in the same sentence reveals the meaning. The strategy is to look for contrast clues in the sentence.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Choice C is correct because the description of the crocodile skulking below the surface, poised to ambush and clamp its jaws on prey, directly supports the idea that they are 'ruthlessly efficient killing machines.'",
-      "diveDeep": "This question tests the Regents skill of selecting the best textual evidence to support a claim. Choice A is wrong because it describes size and weight, not killing efficiency. Choice B is wrong because it describes an evolutionary adaptation for breathing, not hunting. Choice D is wrong because it describes buoyancy adjustment, not predatory behavior. A common mistake is selecting A because size seems related to being formidable, but C describes the actual act of killing/ambushing. The strategy is to align the quote's details (ambush, clamp jaws) with the prompt's key phrase ('killing machines')."
+      "diveDeep": "This question tests the Regents skill of selecting the best textual evidence to support a claim. Choice A is wrong because it describes size and weight, not killing efficiency. Choice B is wrong because it describes an evolutionary adaptation for breathing, not hunting. Choice D is wrong because it describes buoyancy adjustment, not predatory behavior. A common mistake is selecting A because size seems related to being formidable, but C describes the actual act of killing/ambushing. The strategy is to align the quote's details (ambush, clamp jaws) with the prompt's key phrase ('killing machines').",
+      "topic": "Argument & Structure"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Lines 43 through 47 describe how the crocodile stalks its prey with patience, hides below the water's edge, and ambushes animals, emphasizing their techniques for hunting prey. This is Choice C.",
-      "diveDeep": "This question tests the Regents skill of identifying the main focus of a specific section of text. Choice A is wrong because the text states they hunt with 'deadly patience,' which is the opposite of impulsive. Choice B is wrong because they eat a wide variety of prey, including cattle, boars, and kangaroos. Choice D is wrong because their goal is to ambush, not to frighten. Students often select A because predators are associated with quick action, but the passage emphasizes patience. The strategy is to analyze the action verbs (stalk, skulk, ambush) to see they describe hunting methods."
+      "diveDeep": "This question tests the Regents skill of identifying the main focus of a specific section of text. Choice A is wrong because the text states they hunt with 'deadly patience,' which is the opposite of impulsive. Choice B is wrong because they eat a wide variety of prey, including cattle, boars, and kangaroos. Choice D is wrong because their goal is to ambush, not to frighten. Students often select A because predators are associated with quick action, but the passage emphasizes patience. The strategy is to analyze the action verbs (stalk, skulk, ambush) to see they describe hunting methods.",
+      "topic": "Close Reading"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The 'Crocs in Space' project used satellite transmitters to track crocodiles, which is important because it is capable of tracking and recording crocodile movements for several years. This matches Choice D.",
-      "diveDeep": "This question tests the Regents skill of identifying the significance of a scientific program. Choice A is wrong because translocation was found to be ineffective and dangerous, and the project did not support it. Choice B is wrong because satellite transmitters do not provide video and sound feedback. Choice C is wrong because the program was for tracking animals, not protecting researchers. Students often choose A because relocation is discussed in the text, but the study actually disproved its utility. The strategy is to match the technology (satellite-tracking) to its direct capability (tracking movements)."
+      "diveDeep": "This question tests the Regents skill of identifying the significance of a scientific program. Choice A is wrong because translocation was found to be ineffective and dangerous, and the project did not support it. Choice B is wrong because satellite transmitters do not provide video and sound feedback. Choice C is wrong because the program was for tracking animals, not protecting researchers. Students often choose A because relocation is discussed in the text, but the study actually disproved its utility. The strategy is to match the technology (satellite-tracking) to its direct capability (tracking movements).",
+      "topic": "Close Reading"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "In line 64, the word 'Gingerly' describes how the mother crocodile carries her hatchlings to the water's edge, which means she does so cautiously to avoid hurting them. This is Choice C.",
-      "diveDeep": "This question tests vocabulary-in-context. Choice A is wrong because a mother croc would not rush quickly with fragile babies. Choice B is wrong because eagerness does not capture the physical care required. Choice D is wrong because carrying them together does not mean separately. Students often confuse 'gingerly' with speed or eagerness due to the excitement of welcoming new hatchlings. The strategy is to look at the context of a giant predator handling delicate babies, which requires extreme caution."
+      "diveDeep": "This question tests vocabulary-in-context. Choice A is wrong because a mother croc would not rush quickly with fragile babies. Choice B is wrong because eagerness does not capture the physical care required. Choice D is wrong because carrying them together does not mean separately. Students often confuse 'gingerly' with speed or eagerness due to the excitement of welcoming new hatchlings. The strategy is to look at the context of a giant predator handling delicate babies, which requires extreme caution.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Lines 56 through 68 describe the extensive parental care a female crocodile provides, such as rolling eggs in her mouth and staying with her young for months, emphasizing the care females show in nurturing their young. This matches Choice B.",
-      "diveDeep": "This question tests the Regents skill of connecting supporting details to a central idea. Choice A is wrong because the passage notes that dominant males roam and do not share in raising young. Choice C is wrong because the female's active role in nesting and rearing is emphasized, not a subordinate role. Choice D is wrong because the lines focus on parenting rather than mating. Common student errors include assuming both parents help (A) or selecting D because of the mention of males. The strategy is to focus on the subject of the paragraph, which is the mother's care."
+      "diveDeep": "This question tests the Regents skill of connecting supporting details to a central idea. Choice A is wrong because the passage notes that dominant males roam and do not share in raising young. Choice C is wrong because the female's active role in nesting and rearing is emphasized, not a subordinate role. Choice D is wrong because the lines focus on parenting rather than mating. Common student errors include assuming both parents help (A) or selecting D because of the mention of males. The strategy is to focus on the subject of the paragraph, which is the mother's care.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Lines 79 through 87 explain that translocation was ineffective and dangerous, which led to the government abandoning the program in 2011. This reveals that the practice was ultimately unsuccessful, matching Choice A.",
-      "diveDeep": "This question tests the Regents skill of evaluating the outcome of a process described in the text. Choice B is wrong because the text says it was ineffective and dangerous, the opposite of practical. Choice C is wrong because the failure led to its abandonment, showing it wasn't popular. Choice D is wrong because economic factors were not the reason for ending it. A common student mistake is choosing D because programs are often cut for money, but here it was due to safety and ineffectiveness. The strategy is to locate the author's judgment words ('ineffective', 'dangerous') and find their synonym ('unsuccessful')."
+      "diveDeep": "This question tests the Regents skill of evaluating the outcome of a process described in the text. Choice B is wrong because the text says it was ineffective and dangerous, the opposite of practical. Choice C is wrong because the failure led to its abandonment, showing it wasn't popular. Choice D is wrong because economic factors were not the reason for ending it. A common student mistake is choosing D because programs are often cut for money, but here it was due to safety and ineffectiveness. The strategy is to locate the author's judgment words ('ineffective', 'dangerous') and find their synonym ('unsuccessful').",
+      "topic": "Close Reading"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The passage details the research that helps us understand crocodiles, showing them as complex and worth protecting rather than just scary monsters. Bindi's quote about them being precious dinosaurs best expresses the central idea of conservation, which is Choice C.",
-      "diveDeep": "This question tests the Regents skill of identifying the central idea of an informational text. Choice A is wrong because it is a historical detail, not the main point of the modern research. Choice B is wrong because it is a simple geographical and biological fact about where species live. Choice D is wrong because it is a specific detail about the failure of translocation, not the overall message. A common error is choosing a factual detail (like B) instead of the larger theme of the text, which is changing perceptions to protect these creatures. The strategy is to choose the statement that reflects the broader purpose of the text—education and conservation."
+      "diveDeep": "This question tests the Regents skill of identifying the central idea of an informational text. Choice A is wrong because it is a historical detail, not the main point of the modern research. Choice B is wrong because it is a simple geographical and biological fact about where species live. Choice D is wrong because it is a specific detail about the failure of translocation, not the overall message. A common error is choosing a factual detail (like B) instead of the larger theme of the text, which is changing perceptions to protect these creatures. The strategy is to choose the statement that reflects the broader purpose of the text—education and conservation.",
+      "topic": "Central Idea & Theme"
     }
   ]
 }

@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-jan-2015",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The opening lines introduce the physical environment and weather, serving to establish the setting of the story.",
-      "diveDeep": "Choice 0 is correct because the text begins with a description of the location and atmosphere. Choices 1, 2, and 3 are incorrect because lines 1 and 2 do not state the central idea, analyze characters, or create a sense of mystery. Students might pick Choice 3 due to the storm description, but the primary function is setting the scene. Test tip: The beginning of a narrative passage almost always serves to establish the setting or introduce the characters."
+      "diveDeep": "Choice 0 is correct because the text begins with a description of the location and atmosphere. Choices 1, 2, and 3 are incorrect because lines 1 and 2 do not state the central idea, analyze characters, or create a sense of mystery. Students might pick Choice 3 due to the storm description, but the primary function is setting the scene. Test tip: The beginning of a narrative passage almost always serves to establish the setting or introduce the characters.",
+      "topic": "Close Reading"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Pyotr's reaction to the storm, smiling and humming, reflects his carefree attitude in the face of nature's power.",
-      "diveDeep": "Choice 3 is correct because Pyotr's lack of concern shows he is carefree and unaffected by the storm. Choices 0, 1, and 2 are incorrect because he is not quiet and serene (calm), wicked (unworthy), or boastful (prideful). Students might select Choice 0 since he is not panicked, but 'carefree' captures his lighthearted behavior (smiling and humming) much better. Test tip: Look for specific behavioral clues like smiling or singing to identify a character's attitude."
+      "diveDeep": "Choice 3 is correct because Pyotr's lack of concern shows he is carefree and unaffected by the storm. Choices 0, 1, and 2 are incorrect because he is not quiet and serene (calm), wicked (unworthy), or boastful (prideful). Students might select Choice 0 since he is not panicked, but 'carefree' captures his lighthearted behavior (smiling and humming) much better. Test tip: Look for specific behavioral clues like smiling or singing to identify a character's attitude.",
+      "topic": "Close Reading"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The lines indicate that the narrator is generally perceived as a serious person, which makes her father surprised when she acts otherwise.",
-      "diveDeep": "Choice 1 is correct because the text notes she rarely laughs or jokes, highlighting her serious demeanor. Choices 0, 2, and 3 are incorrect because she does not hide her intelligence, try not to alarm her father, or act childish. Students might choose Choice 2 because of the family context, but the text specifically remarks on her usual seriousness. Test tip: Look for direct comparisons between a character's current behavior and their typical personality."
+      "diveDeep": "Choice 1 is correct because the text notes she rarely laughs or jokes, highlighting her serious demeanor. Choices 0, 2, and 3 are incorrect because she does not hide her intelligence, try not to alarm her father, or act childish. Students might choose Choice 2 because of the family context, but the text specifically remarks on her usual seriousness. Test tip: Look for direct comparisons between a character's current behavior and their typical personality.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Pyotr's forced smile and sullen silence reveal his discomfort and contempt for social status and class distinctions.",
-      "diveDeep": "Choice 0 is correct because Pyotr's awkwardness stems from his dislike of high society rankings. Choices 1, 2, and 3 are incorrect because he does not show indifference to money, fear of commitment, or lack of confidence. Students might pick Choice 3 by assuming his silence is due to shyness, but the context is about his reaction to societal status. Test tip: Use historical and social context to interpret character motivations."
+      "diveDeep": "Choice 0 is correct because Pyotr's awkwardness stems from his dislike of high society rankings. Choices 1, 2, and 3 are incorrect because he does not show indifference to money, fear of commitment, or lack of confidence. Students might pick Choice 3 by assuming his silence is due to shyness, but the context is about his reaction to societal status. Test tip: Use historical and social context to interpret character motivations.",
+      "topic": "Close Reading"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The description of aging and the fading of youthful dreams contributes to the theme of the passing of youth.",
-      "diveDeep": "Choice 0 is correct because these lines reflect on the transition from the hopes of youth to the reality of adulthood. Choices 1, 2, and 3 are incorrect because the lines do not focus on romantic uncertainty, hopelessness, or societal bigotry. Students might choose Choice 2 due to the sad tone, but the focus is specifically on the timeline of life and growing older. Test tip: Look for temporal words (e.g., years, youth, old) to identify age-related themes."
+      "diveDeep": "Choice 0 is correct because these lines reflect on the transition from the hopes of youth to the reality of adulthood. Choices 1, 2, and 3 are incorrect because the lines do not focus on romantic uncertainty, hopelessness, or societal bigotry. Students might choose Choice 2 due to the sad tone, but the focus is specifically on the timeline of life and growing older. Test tip: Look for temporal words (e.g., years, youth, old) to identify age-related themes.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The narrator uses the phrase 'flat desert distance' metaphorically to describe her empty and predictable foreseeable future.",
-      "diveDeep": "Choice 2 is correct because the desert landscape represents the monotonous and unpromising path ahead of her. Choices 0, 1, and 3 are incorrect because it is a metaphorical description of her life outlook, not her physical spot, class rank, or personal cruelty. Students might choose Choice 0 due to the literal description of a desert, but in literature, landscapes often mirror the character's internal state. Test tip: Distinguish between literal setting descriptions and figurative expressions of a character's mindset."
+      "diveDeep": "Choice 2 is correct because the desert landscape represents the monotonous and unpromising path ahead of her. Choices 0, 1, and 3 are incorrect because it is a metaphorical description of her life outlook, not her physical spot, class rank, or personal cruelty. Students might choose Choice 0 due to the literal description of a desert, but in literature, landscapes often mirror the character's internal state. Test tip: Distinguish between literal setting descriptions and figurative expressions of a character's mindset.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Natalya disregards wealth and rank because she has realized her mistake in prioritizing social standing over true love and happiness.",
-      "diveDeep": "Choice 3 is correct because her change of heart shows she regrets her past values. Choices 0, 1, and 2 are incorrect because her actions are not caused by the loss of her father, losing her money, or simply following an old belief. Students might choose Choice 2 because it is a common trope, but the text indicates her realization of her own errors. Test tip: Character growth often involves a shift in values or the rejection of superficial goals."
+      "diveDeep": "Choice 3 is correct because her change of heart shows she regrets her past values. Choices 0, 1, and 2 are incorrect because her actions are not caused by the loss of her father, losing her money, or simply following an old belief. Students might choose Choice 2 because it is a common trope, but the text indicates her realization of her own errors. Test tip: Character growth often involves a shift in values or the rejection of superficial goals.",
+      "topic": "Close Reading"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The lines develop the central idea by depicting the narrator's deep sense of loss as she reflects on what has been left behind.",
-      "diveDeep": "Choice 0 is correct because the imagery and tone evoke a powerful feeling of grief and mourning. Choices 1, 2, and 3 are incorrect because they do not capture the profound grief, focusing instead on physical discomfort, memories, or attention. Students might choose Choice 2 because memories are mentioned, but the overall emotional weight is centered on loss. Test tip: Identify the dominant emotion in a passage to determine how it develops the central idea."
+      "diveDeep": "Choice 0 is correct because the imagery and tone evoke a powerful feeling of grief and mourning. Choices 1, 2, and 3 are incorrect because they do not capture the profound grief, focusing instead on physical discomfort, memories, or attention. Students might choose Choice 2 because memories are mentioned, but the overall emotional weight is centered on loss. Test tip: Identify the dominant emotion in a passage to determine how it develops the central idea.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The author structures the text by referencing the changing seasons, which mirror the shifts in the characters' lives and relationships.",
-      "diveDeep": "Choice 1 is correct because the progression from winter to spring aligns with the narrative's emotional arc. Choices 0, 2, and 3 are incorrect because the structure is not based on locations, general family fights, or societal issues. Students might pick Choice 2 due to the family focus, but the structural timeline is marked by the seasonal transition. Test tip: Look at the headers or time-markers in a text to identify its organizational structure."
+      "diveDeep": "Choice 1 is correct because the progression from winter to spring aligns with the narrative's emotional arc. Choices 0, 2, and 3 are incorrect because the structure is not based on locations, general family fights, or societal issues. Students might pick Choice 2 due to the family focus, but the structural timeline is marked by the seasonal transition. Test tip: Look at the headers or time-markers in a text to identify its organizational structure.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "In the first stanza of 'On Living,' the narrator's purpose is to advocate for a serious, deliberate attitude toward life, using the squirrel as an example of living fully.",
-      "diveDeep": "Choice 2 is correct because the speaker urges the reader to take living seriously and make it their whole life. Choices 0, 1, and 3 are incorrect because the stanza does not talk about scientific inquiry, the mechanics of death, or admiring nature's beauty. Students might choose Choice 3 because of the squirrel example, but the squirrel is used as a metaphor for serious living, not nature appreciation. Test tip: Identify the main verb or call to action in a poem's opening stanza to find the author's purpose."
+      "diveDeep": "Choice 2 is correct because the speaker urges the reader to take living seriously and make it their whole life. Choices 0, 1, and 3 are incorrect because the stanza does not talk about scientific inquiry, the mechanics of death, or admiring nature's beauty. Students might choose Choice 3 because of the squirrel example, but the squirrel is used as a metaphor for serious living, not nature appreciation. Test tip: Identify the main verb or call to action in a poem's opening stanza to find the author's purpose.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The phrase 'living... weighs heavier' implies that continuing to live and engage with the world is a greater and more demanding responsibility than dying.",
-      "diveDeep": "Choice 3 is correct because it emphasizes that life, with all its struggles and hopes, holds more weight and value than death. Choices 0, 1, and 2 are incorrect because the phrase does not refer to the difficulties of aging, family burdens, or the unpredictability of the future. Students might choose Choice 0 due to the mention of being seventy, but the context is about choosing to plant trees despite old age because life weighs more. Test tip: Read the lines immediately following a phrase to see how the author supports or explains it."
+      "diveDeep": "Choice 3 is correct because it emphasizes that life, with all its struggles and hopes, holds more weight and value than death. Choices 0, 1, and 2 are incorrect because the phrase does not refer to the difficulties of aging, family burdens, or the unpredictability of the future. Students might choose Choice 0 due to the mention of being seventy, but the context is about choosing to plant trees despite old age because life weighs more. Test tip: Read the lines immediately following a phrase to see how the author supports or explains it.",
+      "topic": "Close Reading"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The narrator suggests that even in prison, a person must 'still live with the outside,' showing that physical confinement should not limit one's spirit or connection to the world.",
-      "diveDeep": "Choice 1 is correct because the lines express that the mind and soul must remain connected to the outside world despite physical walls. Choices 0, 2, and 3 are incorrect because the text argues against the spirit being shut down, does not focus on sentence length, and does not suggest accepting death. Students might pick Choice 0 due to the mention of prison doors, but the emphasis is on resistance to confinement. Test tip: Look for themes of mental freedom and resilience in literature about imprisonment."
+      "diveDeep": "Choice 1 is correct because the lines express that the mind and soul must remain connected to the outside world despite physical walls. Choices 0, 2, and 3 are incorrect because the text argues against the spirit being shut down, does not focus on sentence length, and does not suggest accepting death. Students might pick Choice 0 due to the mention of prison doors, but the emphasis is on resistance to confinement. Test tip: Look for themes of mental freedom and resilience in literature about imprisonment.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The word 'mote' in 'a gilded mote on blue velvet' is used to describe the earth as a tiny speck floating in the vast space of the universe.",
-      "diveDeep": "Choice 2 is correct because a mote is a tiny particle or speck, which emphasizes the small size of the earth in the cosmos. Choices 0, 1, and 3 are incorrect because a mote does not mean a large sphere (globe), a dream (vision), or a large body (planet). Students might select Choice 3 because the earth is a planet, but the metaphor compares the earth to a tiny speck on velvet. Test tip: Look at the comparative words (e.g., 'one of the smallest') to determine scale."
+      "diveDeep": "Choice 2 is correct because a mote is a tiny particle or speck, which emphasizes the small size of the earth in the cosmos. Choices 0, 1, and 3 are incorrect because a mote does not mean a large sphere (globe), a dream (vision), or a large body (planet). Students might select Choice 3 because the earth is a planet, but the metaphor compares the earth to a tiny speck on velvet. Test tip: Look at the comparative words (e.g., 'one of the smallest') to determine scale.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "These lines encapsulate the poem's central theme: the absolute necessity of taking life seriously and living it to the fullest.",
-      "diveDeep": "Choice 0 is correct because these lines state the primary thesis of the work. Choices 1, 2, and 3 are incorrect because they refer to specific hypothetical scenarios (fighting at the front, earth growing cold) rather than the overarching theme of how to live. Students might choose Choice 1 because it is emotionally powerful, but it represents an example of the theme rather than the theme itself. Test tip: A central theme is general and applicable to the entire text, while examples are specific and localized."
+      "diveDeep": "Choice 0 is correct because these lines state the primary thesis of the work. Choices 1, 2, and 3 are incorrect because they refer to specific hypothetical scenarios (fighting at the front, earth growing cold) rather than the overarching theme of how to live. Students might choose Choice 1 because it is emotionally powerful, but it represents an example of the theme rather than the theme itself. Test tip: A central theme is general and applicable to the entire text, while examples are specific and localized.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The anecdote about banning curved fishbowls in Monza introduces the central question of whether the reality we perceive is true or just a distorted view.",
-      "diveDeep": "Choice 2 is correct because the goldfish's distorted view serves as an analogy for how humans might also view reality through a distorting lens. Choices 0, 1, and 3 are incorrect because the anecdote does not prove a universal view, show a scientific policy fight, or discuss ethical values. Students might select Choice 3 because of the mention of 'cruel,' but the text immediately pivots to the question of how we know our reality is true. Test tip: Identify the transition from the anecdote to the main thesis to find its purpose."
+      "diveDeep": "Choice 2 is correct because the goldfish's distorted view serves as an analogy for how humans might also view reality through a distorting lens. Choices 0, 1, and 3 are incorrect because the anecdote does not prove a universal view, show a scientific policy fight, or discuss ethical values. Students might select Choice 3 because of the mention of 'cruel,' but the text immediately pivots to the question of how we know our reality is true. Test tip: Identify the transition from the anecdote to the main thesis to find its purpose.",
+      "topic": "Close Reading"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "These lines clarify that the search for a single ultimate theory of everything is yielding a family of interconnected, alternative theories instead.",
-      "diveDeep": "Choice 3 is correct because it explains how physicists are moving toward accepting multiple models of reality, which are the origins of alternative theories. Choices 0, 1, and 2 are incorrect because the text shows the failure of finding a single theory, does not focus on physical senses, and does not discuss extraterrestrial life. Students might choose Choice 1 since the senses are mentioned later, but these lines specifically address physics models. Test tip: Align the main idea of the paragraph with the choices to find the purpose."
+      "diveDeep": "Choice 3 is correct because it explains how physicists are moving toward accepting multiple models of reality, which are the origins of alternative theories. Choices 0, 1, and 2 are incorrect because the text shows the failure of finding a single theory, does not focus on physical senses, and does not discuss extraterrestrial life. Students might choose Choice 1 since the senses are mentioned later, but these lines specifically address physics models. Test tip: Align the main idea of the paragraph with the choices to find the purpose.",
+      "topic": "Close Reading"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "These lines develop the claim by detailing the philosophical challenge that scientists face when forced to accept that reality might be model-dependent rather than objective.",
-      "diveDeep": "Choice 0 is correct because the text describes how difficult it is for scientists to accept that there may not be a single objective reality. Choices 1, 2, and 3 are incorrect because the authors do not discuss managing virtual realities, argue for traditional science, or evaluate viewpoints. Students might pick Choice 3 due to the mention of philosophy, but the lines focus on the specific challenge to scientific realism. Test tip: Look for expressions of conflict or difficulty to identify a challenge."
+      "diveDeep": "Choice 0 is correct because the text describes how difficult it is for scientists to accept that there may not be a single objective reality. Choices 1, 2, and 3 are incorrect because the authors do not discuss managing virtual realities, argue for traditional science, or evaluate viewpoints. Students might pick Choice 3 due to the mention of philosophy, but the lines focus on the specific challenge to scientific realism. Test tip: Look for expressions of conflict or difficulty to identify a challenge.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The reference to The Matrix is used to highlight the philosophical questioning of our perception of reality, showing that what we see might be a simulation.",
-      "diveDeep": "Choice 1 is correct because *The Matrix* is a classic example of how human senses and perception can be deceived. Choices 0, 2, and 3 are incorrect because the film is not referenced to discuss moral values (virtues), learning systems (education), or utopian goals (ideals). Students might select Choice 3 because the Matrix is a simulated world, but the specific focus is on whether we can trust what we perceive. Test tip: Relate cultural references to the main scientific/philosophical theme of the passage."
+      "diveDeep": "Choice 1 is correct because *The Matrix* is a classic example of how human senses and perception can be deceived. Choices 0, 2, and 3 are incorrect because the film is not referenced to discuss moral values (virtues), learning systems (education), or utopian goals (ideals). Students might select Choice 3 because the Matrix is a simulated world, but the specific focus is on whether we can trust what we perceive. Test tip: Relate cultural references to the main scientific/philosophical theme of the passage.",
+      "topic": "Close Reading"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The goldfish example demonstrates that the scientific laws a creature formulates are entirely dependent on its frame of reference and viewpoint.",
-      "diveDeep": "Choice 0 is correct because the goldfish in a curved bowl would formulate valid, albeit complex, laws of motion based on their distorted view. Choices 1, 2, and 3 are incorrect because the text does not argue against scientific discovery, claim only outsiders can see reality, or discuss light experiments. Students might select Choice 2 by assuming the human perspective is superior, but the text argues that both viewpoints are equally valid. Test tip: Look for themes of relativity and perspective in scientific texts."
+      "diveDeep": "Choice 0 is correct because the goldfish in a curved bowl would formulate valid, albeit complex, laws of motion based on their distorted view. Choices 1, 2, and 3 are incorrect because the text does not argue against scientific discovery, claim only outsiders can see reality, or discuss light experiments. Students might select Choice 2 by assuming the human perspective is superior, but the text argues that both viewpoints are equally valid. Test tip: Look for themes of relativity and perspective in scientific texts.",
+      "topic": "Inference"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "In the context of unifying the forces of nature, 'coherent' means creating a framework that is consistent and understandable.",
-      "diveDeep": "Choice 3 is correct because a coherent theory is one that is logical, clear, and makes sense (understandable). Choices 0, 1, and 2 are incorrect because coherent does not mean equalized (balanced), absolute (indisputable), or widely liked (popular). Students might pick Choice 1 because scientific theories strive to be indisputable, but 'coherent' refers specifically to the structural clarity and consistency of the ideas. Test tip: Check for synonyms that mean 'logical' or 'clear.'"
+      "diveDeep": "Choice 3 is correct because a coherent theory is one that is logical, clear, and makes sense (understandable). Choices 0, 1, and 2 are incorrect because coherent does not mean equalized (balanced), absolute (indisputable), or widely liked (popular). Students might pick Choice 1 because scientific theories strive to be indisputable, but 'coherent' refers specifically to the structural clarity and consistency of the ideas. Test tip: Check for synonyms that mean 'logical' or 'clear.'",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The authors compare M-theory to a collection of maps to clarify how a complex network of different theories can overlap and represent the universe.",
-      "diveDeep": "Choice 0 is correct because the map analogy makes the complex, multi-dimensional concept of M-theory easier for the reader to grasp. Choices 1, 2, and 3 are incorrect because the maps do not explain history, the literal structure of physical space, or the faults of old ideas. Students might choose Choice 2 because maps represent space, but the authors are using the maps as a metaphor for the overlapping nature of theories. Test tip: Metaphors in science writing are almost always used to simplify complex theoretical concepts for the reader."
+      "diveDeep": "Choice 0 is correct because the map analogy makes the complex, multi-dimensional concept of M-theory easier for the reader to grasp. Choices 1, 2, and 3 are incorrect because the maps do not explain history, the literal structure of physical space, or the faults of old ideas. Students might choose Choice 2 because maps represent space, but the authors are using the maps as a metaphor for the overlapping nature of theories. Test tip: Metaphors in science writing are almost always used to simplify complex theoretical concepts for the reader.",
+      "topic": "Close Reading"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "These lines describe how different theories in the M-theory family can coexist, each working well in different situations while predicting the same results where they overlap.",
-      "diveDeep": "Choice 2 is correct because the text explains that having multiple versions of reality is acceptable under model-dependent realism. Choices 0, 1, and 3 are incorrect because the lines do not advocate for a single model, link theories to expectations, or rank models by needs. Students might choose Choice 1 by assuming theories are based on scientist expectations, but the focus is on the coexistence of multiple valid frameworks. Test tip: Look for keywords like 'diversity is acceptable' to identify themes of coexistence."
+      "diveDeep": "Choice 2 is correct because the text explains that having multiple versions of reality is acceptable under model-dependent realism. Choices 0, 1, and 3 are incorrect because the lines do not advocate for a single model, link theories to expectations, or rank models by needs. Students might choose Choice 1 by assuming theories are based on scientist expectations, but the focus is on the coexistence of multiple valid frameworks. Test tip: Look for keywords like 'diversity is acceptable' to identify themes of coexistence.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The authors argue that physics has evolved from classical realism to quantum mechanics and M-theory, showing that our understanding of the universe is constantly changing.",
-      "diveDeep": "Choice 3 is correct because the entire history of science presented in the text shows a progression of changing models of reality. Choices 0, 1, and 2 are incorrect because perception is constantly questioned, there is no single agreed-upon theory, and proving multiple separate realities is not what the text describes. Students might choose Choice 2 by misinterpreting model-dependent realism as proving physical parallel universes, but it refers to mathematical descriptions. Test tip: Look for the most general, historically supported statement when asked what the authors would agree with."
+      "diveDeep": "Choice 3 is correct because the entire history of science presented in the text shows a progression of changing models of reality. Choices 0, 1, and 2 are incorrect because perception is constantly questioned, there is no single agreed-upon theory, and proving multiple separate realities is not what the text describes. Students might choose Choice 2 by misinterpreting model-dependent realism as proving physical parallel universes, but it refers to mathematical descriptions. Test tip: Look for the most general, historically supported statement when asked what the authors would agree with.",
+      "topic": "Inference"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The authors engage the audience by using familiar, real-world examples like curved fishbowls, maps, and popular movies like The Matrix.",
-      "diveDeep": "Choice 1 is correct because these relatable illustrations make abstract physics concepts accessible and engaging. Choices 0, 2, and 3 are incorrect because the authors do not use dogmatic claims (absolute statements), focus on long technical lists (detailed descriptions), or rely solely on simple questions. Students might select Choice 3 because the text does ask some rhetorical questions, but the primary engaging technique throughout is the use of real-world analogies. Test tip: Identify the main rhetorical strategy used to bridge the gap between specialist knowledge and the general public."
+      "diveDeep": "Choice 1 is correct because these relatable illustrations make abstract physics concepts accessible and engaging. Choices 0, 2, and 3 are incorrect because the authors do not use dogmatic claims (absolute statements), focus on long technical lists (detailed descriptions), or rely solely on simple questions. Students might select Choice 3 because the text does ask some rhetorical questions, but the primary engaging technique throughout is the use of real-world analogies. Test tip: Identify the main rhetorical strategy used to bridge the gap between specialist knowledge and the general public.",
+      "topic": "Close Reading"
     }
   ]
-};
+}

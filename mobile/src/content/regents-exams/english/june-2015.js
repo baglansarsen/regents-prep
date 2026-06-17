@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-jun-2015",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The opening line of the passage introduces the society's critical view of Countess Olenska's return, setting a judgmental tone regarding social conformity.",
-      "diveDeep": "The tone is not neutral or unconcerned (choice 1), nor does it show pity (choice 3) or approval (choice 4). The passage begins by exposing the harsh scrutiny and gossip of New York high society. Students often miss the subtle satire of Wharton's tone and choose 'indifferent' because they do not recognize the negative societal judgment embedded in the opening description. This question tests the analysis of authorial tone and social satire."
+      "diveDeep": "The tone is not neutral or unconcerned (choice 1), nor does it show pity (choice 3) or approval (choice 4). The passage begins by exposing the harsh scrutiny and gossip of New York high society. Students often miss the subtle satire of Wharton's tone and choose 'indifferent' because they do not recognize the negative societal judgment embedded in the opening description. This question tests the analysis of authorial tone and social satire.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The flashback provides context about Countess Olenska's childhood, her eccentric upbringing, and the scandalous circumstances surrounding her marriage and return to New York.",
-      "diveDeep": "The flashback does not recount Archer's family tree (choice 2), focus on Medora's personal skills (choice 3), or tell the story from Thorley Chivers's point of view (choice 4). Students might select choice 3 because Medora is mentioned, but she is only described in relation to her guardianship of Ellen. This question checks the function of structural elements like flashback in character exposition."
+      "diveDeep": "The flashback does not recount Archer's family tree (choice 2), focus on Medora's personal skills (choice 3), or tell the story from Thorley Chivers's point of view (choice 4). Students might select choice 3 because Medora is mentioned, but she is only described in relation to her guardianship of Ellen. This question checks the function of structural elements like flashback in character exposition.",
+      "topic": "Close Reading"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The term 'scandalised' indicates the shocked reaction of society when Ellen's family chose to flout, or defy, the conventional rules of behavior.",
-      "diveDeep": "The word 'flout' means to openly disregard a rule or law, which is not clarified by 'wanderer' (choice 1), 'dusky' (choice 2), or 'relations' (choice 4). Students might select 'relations' because the sentence refers to family, but the emotional reaction of being 'scandalised' directly highlights that a rule was broken or flouted. This question tests contextual vocabulary analysis."
+      "diveDeep": "The word 'flout' means to openly disregard a rule or law, which is not clarified by 'wanderer' (choice 1), 'dusky' (choice 2), or 'relations' (choice 4). Students might select 'relations' because the sentence refers to family, but the emotional reaction of being 'scandalised' directly highlights that a rule was broken or flouted. This question tests contextual vocabulary analysis.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The details of Ellen's upbringing, such as wearing black velvet instead of white muslin and playing in sand-piles, show that society viewed her as unusual and eccentric.",
-      "diveDeep": "She was seen as anything but ordinary or simple (choice 2), her style was considered strange rather than standard fashion (choice 3), and there is no indication of illness (choice 4). Students might choose 'fashionable' because of the velvet dress, but the context indicates that this dress made her a bizarre exception to normal childhood clothing. This question tests the interpretation of character details."
+      "diveDeep": "She was seen as anything but ordinary or simple (choice 2), her style was considered strange rather than standard fashion (choice 3), and there is no indication of illness (choice 4). Students might choose 'fashionable' because of the velvet dress, but the context indicates that this dress made her a bizarre exception to normal childhood clothing. This question tests the interpretation of character details.",
+      "topic": "Close Reading"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The terms suggest that Ellen was wild, advanced for her age, and difficult to control or fit into the rigid social expectations of New York.",
-      "diveDeep": "Her behavior was bold and unpredictable, which is the opposite of timid (choice 3) or hesitant (choice 4), and does not mean she was simply in a hurry (choice 1). A common student mistake is choosing 'impatient' due to the word precocious, but the combination with 'disconcerting' points to a lack of social discipline (untamed). This question evaluates characterization and word connotation."
+      "diveDeep": "Her behavior was bold and unpredictable, which is the opposite of timid (choice 3) or hesitant (choice 4), and does not mean she was simply in a hurry (choice 1). A common student mistake is choosing 'impatient' due to the word precocious, but the combination with 'disconcerting' points to a lack of social discipline (untamed). This question evaluates characterization and word connotation.",
+      "topic": "Close Reading"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Medora Manson is described as an eccentric woman who moved frequently and raised Ellen without regard for traditional rules, showing her nonconformist nature.",
-      "diveDeep": "Medora's behavior is reckless and erratic rather than careful (choice 1) or sheltering (choice 2), and her pursuits are artistic/aesthetic rather than scholarly (choice 3). Students often choose 'intellectual' because she traveled and read, but the passage emphasizes her eccentric, rule-breaking lifestyle. This question measures character analysis."
+      "diveDeep": "Medora's behavior is reckless and erratic rather than careful (choice 1) or sheltering (choice 2), and her pursuits are artistic/aesthetic rather than scholarly (choice 3). Students often choose 'intellectual' because she traveled and read, but the passage emphasizes her eccentric, rule-breaking lifestyle. This question measures character analysis.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Archer is fascinated by the Countess, watching her closely, noticing her actions in detail, and feeling drawn to her presence despite social expectations.",
-      "diveDeep": "Archer is highly aware of the guests (choice 1), feels superior rather than intimidated by the Duke (choice 2), and is a member of the wealthy class himself, not resenting them (choice 4). Students may choose choice 4 because the author mocks high society, but Archer himself is an insider who is currently only questioning the rules because of Ellen. This question tests character inference and relationship dynamics."
+      "diveDeep": "Archer is highly aware of the guests (choice 1), feels superior rather than intimidated by the Duke (choice 2), and is a member of the wealthy class himself, not resenting them (choice 4). Students may choose choice 4 because the author mocks high society, but Archer himself is an insider who is currently only questioning the rules because of Ellen. This question tests character inference and relationship dynamics.",
+      "topic": "Inference"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Both characters act with natural ease and ignore the rigid social codes that govern the behavior of the other New York guests.",
-      "diveDeep": "They are the center of attention rather than ignored (choice 1), are not looking for spouses (choice 2), and hold high social ranks (choice 4). A common mistake is selecting 'ignored' because they sit in a corner, but they do so by choice, not because they are excluded. This question checks the comparison of character traits."
+      "diveDeep": "They are the center of attention rather than ignored (choice 1), are not looking for spouses (choice 2), and hold high social ranks (choice 4). A common mistake is selecting 'ignored' because they sit in a corner, but they do so by choice, not because they are excluded. This question checks the comparison of character traits.",
+      "topic": "Close Reading"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Archer’s observations highlight how the Countess's natural, relaxed demeanor stands out in stark contrast to the stiff, rule-bound behavior of the other attendees.",
-      "diveDeep": "There is no conflict shown between Ellen and Medora (choice 2), and the perspective does not focus on a romance with the Duke (choice 3) or separate Archer from her (choice 4). Students might select choice 4 because Archer is part of the society, but Archer's view actually aligns him with her in appreciating her uniqueness. This question assesses point of view and its narrative effect."
+      "diveDeep": "There is no conflict shown between Ellen and Medora (choice 2), and the perspective does not focus on a romance with the Duke (choice 3) or separate Archer from her (choice 4). Students might select choice 4 because Archer is part of the society, but Archer's view actually aligns him with her in appreciating her uniqueness. This question assesses point of view and its narrative effect.",
+      "topic": "Close Reading"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "By initiating the move to speak to a man, the Countess violates the strict Victorian etiquette which dictated that a lady must wait to be approached by gentlemen.",
-      "diveDeep": "She is not seeking attention out of desperation (choice 1), does not care about New York gossip (choice 2), and actively seeks out Archer rather than avoiding him (choice 3). A common error is choosing choice 3 because she leaves one man, but she does so specifically to sit with Archer. This question evaluates historical social context and character behavior."
+      "diveDeep": "She is not seeking attention out of desperation (choice 1), does not care about New York gossip (choice 2), and actively seeks out Archer rather than avoiding him (choice 3). A common error is choosing choice 3 because she leaves one man, but she does so specifically to sit with Archer. This question evaluates historical social context and character behavior.",
+      "topic": "Close Reading"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "By describing the machines as having 'arteries of fire,' being 'muscled with iron,' and 'boweled with smoldering light,' the poet uses personification to give the machines human anatomical traits.",
-      "diveDeep": "Although the poem later contrasts machines with nature, these specific lines focus on humanizing the machines (choice 2) rather than lamenting nature (choice 1), declaring them necessary (choice 3), or detailing societal survival (choice 4). Students often choose choice 1 because the overall poem has a nature vs. industry theme, but they must focus on the specific figurative language in lines 2-3. This question tests the analysis of personification and metaphor."
+      "diveDeep": "Although the poem later contrasts machines with nature, these specific lines focus on humanizing the machines (choice 2) rather than lamenting nature (choice 1), declaring them necessary (choice 3), or detailing societal survival (choice 4). Students often choose choice 1 because the overall poem has a nature vs. industry theme, but they must focus on the specific figurative language in lines 2-3. This question tests the analysis of personification and metaphor.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The word 'raucous' denotes a rough, loud, and jarring sound, which emphasizes the disruptive noise produced by the industrial machines.",
-      "diveDeep": "Raucous means noisy and harsh, which is the opposite of inspirational (choice 3) or pleasant/engaging (choice 4), and does not refer to comprehension (choice 2). Students may select 'largely misunderstood' if they try to find a deeper symbolic meaning, but the term is a literal descriptor of harsh noise. This question tests vocabulary meaning in context."
+      "diveDeep": "Raucous means noisy and harsh, which is the opposite of inspirational (choice 3) or pleasant/engaging (choice 4), and does not refer to comprehension (choice 2). Students may select 'largely misunderstood' if they try to find a deeper symbolic meaning, but the term is a literal descriptor of harsh noise. This question tests vocabulary meaning in context.",
+      "topic": "Close Reading"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "These verbs personify the machines as straining, laboring, and emitting smoke, emphasizing the heavy and exhausting nature of industrial work.",
-      "diveDeep": "The terms 'groaning' and 'belching' carry unpleasant connotations, contradicting any sense of affection (choice 1) or desire for progress (choice 3), and do not praise the value of inventions (choice 2). A common error is choosing 'desire for progress' because machines are associated with the future, but the imagery is dark and straining. This question analyzes how word connotation shapes the description of a subject."
+      "diveDeep": "The terms 'groaning' and 'belching' carry unpleasant connotations, contradicting any sense of affection (choice 1) or desire for progress (choice 3), and do not praise the value of inventions (choice 2). A common error is choosing 'desire for progress' because machines are associated with the future, but the imagery is dark and straining. This question analyzes how word connotation shapes the description of a subject.",
+      "topic": "Close Reading"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The lines state that the clouds swing across 'cool blue meadows' with 'feathered silence,' contrasting nature's quiet, effortless operations with the loud, groaning labor of machines.",
-      "diveDeep": "The poem describes nature as peaceful, not self-destructive (choice 1) or supporting industrial progress (choice 3), and does not focus on solving existential secrets (choice 4). Students often select choice 4 because it sounds profound, but the specific contrast in the stanza is between mechanical strain and natural ease. This question evaluates the comparison of central ideas in a poem."
+      "diveDeep": "The poem describes nature as peaceful, not self-destructive (choice 1) or supporting industrial progress (choice 3), and does not focus on solving existential secrets (choice 4). Students often select choice 4 because it sounds profound, but the specific contrast in the stanza is between mechanical strain and natural ease. This question evaluates the comparison of central ideas in a poem.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Henry begins by noting that 'it is natural to man to indulge in the illusions of hope,' pointing out the human tendency to ignore painful truths.",
-      "diveDeep": "Henry is not talking about criticisms from enemies (choice 2), general factual errors (choice 3), or compromise deals (choice 4). Instead, he warns his audience against their own psychological weakness of false hope. Students often select choice 3, but the passage focuses on emotional/human weakness (frailty) rather than cognitive misconceptions. This question tests how an introduction frames a persuasive argument."
+      "diveDeep": "Henry is not talking about criticisms from enemies (choice 2), general factual errors (choice 3), or compromise deals (choice 4). Instead, he warns his audience against their own psychological weakness of false hope. Students often select choice 3, but the passage focuses on emotional/human weakness (frailty) rather than cognitive misconceptions. This question tests how an introduction frames a persuasive argument.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Henry states that he is 'willing to know the whole truth; to know the worst, and to provide for it,' showing his determination to face the threat of war honestly.",
-      "diveDeep": "The lines do not mention physical resources (choice 1), foreign aid (choice 2), or temporary fixes (choice 3). They focus entirely on the courage to face a grim truth. Students sometimes choose choice 1 because of the phrase 'provide for it,' but 'it' refers to the harsh reality of British aggression. This question measures characterization and argument development."
+      "diveDeep": "The lines do not mention physical resources (choice 1), foreign aid (choice 2), or temporary fixes (choice 3). They focus entirely on the courage to face a grim truth. Students sometimes choose choice 1 because of the phrase 'provide for it,' but 'it' refers to the harsh reality of British aggression. This question measures characterization and argument development.",
+      "topic": "Close Reading"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The metaphor of the British fleets and armies sent to 'bind and rivet upon us those chains' emphasizes how Britain's military presence will result in the loss of American liberty.",
-      "diveDeep": "The image of chains represents slavery and subjugation, not loyalty (choice 1), respect (choice 2), or legal punishment for treason (choice 3). A common error is choosing 'penalty for treason' because they are rebels, but Henry is describing the British actions as unjust enslavement. This question tests the interpretation of political metaphors."
+      "diveDeep": "The image of chains represents slavery and subjugation, not loyalty (choice 1), respect (choice 2), or legal punishment for treason (choice 3). A common error is choosing 'penalty for treason' because they are rebels, but Henry is describing the British actions as unjust enslavement. This question tests the interpretation of political metaphors.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "In this paragraph, Henry reviews the history of British actions over the past ten years, concluding that their military buildup is aimed directly at the colonies.",
-      "diveDeep": "The paragraph does not outline political science theories (choice 1), dismiss logic (choice 2), or critique legal systems (choice 4). It is a factual analysis of the current hostile situation. Students often select choice 1 because it is a political speech, but the text is a situational analysis. This question checks understanding of paragraph-level rhetorical purpose."
+      "diveDeep": "The paragraph does not outline political science theories (choice 1), dismiss logic (choice 2), or critique legal systems (choice 4). It is a factual analysis of the current hostile situation. Students often select choice 1 because it is a political speech, but the text is a situational analysis. This question checks understanding of paragraph-level rhetorical purpose.",
+      "topic": "Close Reading"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Henry cites the argument that the colonies are too weak to fight the British in order to immediately refute it and prove that they are indeed strong enough.",
-      "diveDeep": "The statement does not concern money (choice 2) or a confusing term (choice 3), and Henry actively rejects it, so it is not a known fact he is defending (choice 4). Students often struggle with identifying rhetorical structures like counterclaims, mistaking them for the author's own views. This question tests the identification of argumentative components."
+      "diveDeep": "The statement does not concern money (choice 2) or a confusing term (choice 3), and Henry actively rejects it, so it is not a known fact he is defending (choice 4). Students often struggle with identifying rhetorical structures like counterclaims, mistaking them for the author's own views. This question tests the identification of argumentative components.",
+      "topic": "Close Reading"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Henry describes the British military build-up as 'implements of war and subjugation,' showing that he believes Britain intends to conquer and oppress the colonies.",
-      "diveDeep": "The phrase 'gracious reception' is used ironically (choice 1), 'inestimable privileges' refers to American rights (choice 3), and 'irresolution' refers to American hesitation (choice 4). Students might choose choice 1 if they miss the sarcasm in Henry's delivery. This question tests the identification of author perspective through loaded language."
+      "diveDeep": "The phrase 'gracious reception' is used ironically (choice 1), 'inestimable privileges' refers to American rights (choice 3), and 'irresolution' refers to American hesitation (choice 4). Students might choose choice 1 if they miss the sarcasm in Henry's delivery. This question tests the identification of author perspective through loaded language.",
+      "topic": "Close Reading"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "By asking 'When shall we be stronger?' and 'Shall we gather strength by irresolution and inaction?', Henry highlights that delaying action will only make the colonies weaker.",
-      "diveDeep": "The questions do not address personal self-interest (choice 1), pride (choice 2), or material greed (choice 3). They target the danger of delaying a decision. Students often confuse indecision with cowardice or weakness, but Henry's specific terms are 'irresolution' and 'inaction.' This question assesses the function of rhetorical questions in an argument."
+      "diveDeep": "The questions do not address personal self-interest (choice 1), pride (choice 2), or material greed (choice 3). They target the danger of delaying a decision. Students often confuse indecision with cowardice or weakness, but Henry's specific terms are 'irresolution' and 'inaction.' This question assesses the function of rhetorical questions in an argument.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Henry argues that 'three millions of people, armed in the holy cause of liberty... are invincible,' stating that collective action will ensure victory.",
-      "diveDeep": "Henry does not discuss weapons supply logistics (choice 2), claim the British army is weak (choice 3), or advocate for the abolition of chattel slavery (choice 4). A common error is choosing choice 2 or 3 by misinterpreting the word 'armed' or 'invincible.' This question evaluates the main argument in a speech."
+      "diveDeep": "Henry does not discuss weapons supply logistics (choice 2), claim the British army is weak (choice 3), or advocate for the abolition of chattel slavery (choice 4). A common error is choosing choice 2 or 3 by misinterpreting the word 'armed' or 'invincible.' This question evaluates the main argument in a speech.",
+      "topic": "Close Reading"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Henry states 'we have now no election,' meaning the colonies no longer have a choice or alternative other than to fight or submit to slavery.",
-      "diveDeep": "In the 18th century, 'election' meant the act of choosing or selecting, not modern voting politics (choice 4), allies (choice 1), or adversaries (choice 3). Students almost always choose 'politics' because of the modern definition of election, making this a classic vocabulary trap. This question tests archaic word usage and context."
+      "diveDeep": "In the 18th century, 'election' meant the act of choosing or selecting, not modern voting politics (choice 4), allies (choice 1), or adversaries (choice 3). Students almost always choose 'politics' because of the modern definition of election, making this a classic vocabulary trap. This question tests archaic word usage and context.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Henry's intense language, rhetorical questions, and exclamation 'Give me liberty, or give me death!' create a highly passionate and urgent tone.",
-      "diveDeep": "The tone is completely opposite to satisfied (choice 1) or scared (choice 2), and it is serious and sincere, not mocking or satirical (choice 4). Students easily identify this tone, but must avoid selecting 'frightened' despite the danger of war described. This question evaluates the overall tone of a persuasive speech."
+      "diveDeep": "The tone is completely opposite to satisfied (choice 1) or scared (choice 2), and it is serious and sincere, not mocking or satirical (choice 4). Students easily identify this tone, but must avoid selecting 'frightened' despite the danger of war described. This question evaluates the overall tone of a persuasive speech.",
+      "topic": "Author's Craft & Tone"
     }
   ]
 }

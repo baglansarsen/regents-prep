@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-jan-2018",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The first paragraph describes Mrs. Bishop's rising annoyance as she realizes she lacks enough money for a taxi and is forced to take the subway, establishing a sense of frustration.",
-      "diveDeep": "Choice 1 is incorrect because she is angry and resistant to her situation, not submissive. Choice 2 is incorrect because there is no time constraint or threat creating urgency. Choice 4 is incorrect as she is not in despair or completely hopeless, but rather irritated and bitter. Students often confuse temporary irritation or anger with deeper hopelessness (Choice 4), failing to note her active sense of grievance. This question tests the analysis of mood and how setting and characters' initial thoughts establish tone in exposition."
+      "diveDeep": "Choice 1 is incorrect because she is angry and resistant to her situation, not submissive. Choice 2 is incorrect because there is no time constraint or threat creating urgency. Choice 4 is incorrect as she is not in despair or completely hopeless, but rather irritated and bitter. Students often confuse temporary irritation or anger with deeper hopelessness (Choice 4), failing to note her active sense of grievance. This question tests the analysis of mood and how setting and characters' initial thoughts establish tone in exposition.",
+      "topic": "Close Reading"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The word 'although' is used to show Mrs. Bishop's disapproval of the subway's crowded, unclean environment and the social class of the passengers.",
-      "diveDeep": "Choice 2 is incorrect because Mrs. Bishop is unhappy and critical, not enthusiastic. Choice 3 is incorrect as she is not afraid or nervous, but rather contemptuous of the situation. Choice 4 is incorrect because she is complaining rather than showing adaptability or strength. A common mistake is interpreting her discomfort as nervousness (Choice 3) instead of snobbish disapproval. This question tests the interpretation of word choice and tone in characterization."
+      "diveDeep": "Choice 2 is incorrect because Mrs. Bishop is unhappy and critical, not enthusiastic. Choice 3 is incorrect as she is not afraid or nervous, but rather contemptuous of the situation. Choice 4 is incorrect because she is complaining rather than showing adaptability or strength. A common mistake is interpreting her discomfort as nervousness (Choice 3) instead of snobbish disapproval. This question tests the interpretation of word choice and tone in characterization.",
+      "topic": "Close Reading"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Mrs. Bishop feels a 'pleasant' sadness because looking down on the struggling man allows her to feel superior and comforted by the fact that someone else is worse off than she is.",
-      "diveDeep": "Choice 1 is incorrect because her sadness is described as 'pleasant,' which contradicts a feeling of discouragement or worry. Choice 2 is incorrect as she has no genuine desire to offer aid, only to enjoy the feeling of pity. Choice 3 is incorrect because she is under no social pressure to act in this internal moment. Students often struggle to comprehend the dark irony of a 'pleasant sadness,' incorrectly assuming that pity implies a helpful or compassionate nature (Choice 2). This question tests the analysis of complex character psychology and the theme of self-absorption."
+      "diveDeep": "Choice 1 is incorrect because her sadness is described as 'pleasant,' which contradicts a feeling of discouragement or worry. Choice 2 is incorrect as she has no genuine desire to offer aid, only to enjoy the feeling of pity. Choice 3 is incorrect because she is under no social pressure to act in this internal moment. Students often struggle to comprehend the dark irony of a 'pleasant sadness,' incorrectly assuming that pity implies a helpful or compassionate nature (Choice 2). This question tests the analysis of complex character psychology and the theme of self-absorption.",
+      "topic": "Close Reading"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "These lines show Mrs. Bishop planning to smile at the man to show she understood his struggle, but her sympathy is performative and superficial, revealing her insincerity.",
-      "diveDeep": "Choice 1 is incorrect because she is acting out of a desire for validation, not true confidence. Choice 3 is incorrect because she is not optimistic about his life, but rather imagining a tragic fate for him. Choice 4 is incorrect as she does not feel malice or anger toward the man. A common error is mistaking Mrs. Bishop's performative empathy for genuine confidence or optimism, failing to see the underlying vanity. This question tests the analysis of character motivation and the difference between outward behavior and inner truth."
+      "diveDeep": "Choice 1 is incorrect because she is acting out of a desire for validation, not true confidence. Choice 3 is incorrect because she is not optimistic about his life, but rather imagining a tragic fate for him. Choice 4 is incorrect as she does not feel malice or anger toward the man. A common error is mistaking Mrs. Bishop's performative empathy for genuine confidence or optimism, failing to see the underlying vanity. This question tests the analysis of character motivation and the difference between outward behavior and inner truth.",
+      "topic": "Close Reading"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Mrs. Bishop's internal complaints about her financial state contrast with her dramatic complaints to her husband about 'screwing and pinching' to save money, showing that she exaggerates her suffering to manipulate him.",
-      "diveDeep": "Choice 2 is incorrect as there is no evidence that she is hoarding money or cheating friends. Choice 3 is incorrect because her goal is to get money, not merely to annoy her husband. Choice 4 is incorrect because she is complaining about poverty to her husband, not showing off wealth to friends. Students often misinterpret her marital complaints as simple neediness rather than a calculated manipulative tactic (Choice 1). This question tests the comparison of a character's internal thoughts and external actions."
+      "diveDeep": "Choice 2 is incorrect as there is no evidence that she is hoarding money or cheating friends. Choice 3 is incorrect because her goal is to get money, not merely to annoy her husband. Choice 4 is incorrect because she is complaining about poverty to her husband, not showing off wealth to friends. Students often misinterpret her marital complaints as simple neediness rather than a calculated manipulative tactic (Choice 1). This question tests the comparison of a character's internal thoughts and external actions.",
+      "topic": "Close Reading"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Mr. Bishop's reaction and body language when she mentions the overcoat suggest that he is uneasy about their financial status and his disheveled appearance.",
-      "diveDeep": "Choice 1 is incorrect because he knows exactly what she is talking about, so he is not puzzled. Choice 3 is incorrect because he is not showing suspicion of her actions, but rather defensiveness about his own. Choice 4 is incorrect because his reaction shows vulnerability rather than selfishness. A common student error is misinterpreting Mr. Bishop's quietness as confusion (Choice 1) rather than a defensive, uneasy reaction to her constant criticism. This question tests the interpretation of non-verbal cues and subtext in character relationships."
+      "diveDeep": "Choice 1 is incorrect because he knows exactly what she is talking about, so he is not puzzled. Choice 3 is incorrect because he is not showing suspicion of her actions, but rather defensiveness about his own. Choice 4 is incorrect because his reaction shows vulnerability rather than selfishness. A common student error is misinterpreting Mr. Bishop's quietness as confusion (Choice 1) rather than a defensive, uneasy reaction to her constant criticism. This question tests the interpretation of non-verbal cues and subtext in character relationships.",
+      "topic": "Inference"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The figurative language of the final lines describes her feeling of coldness and dread, showing she is forced to face the harsh reality of her husband's financial struggle and their true social status.",
-      "diveDeep": "Choice 1 is incorrect because she is not confused, but rather painfully aware of her circumstances. Choice 2 is incorrect as she is filled with dread rather than relief. Choice 4 is incorrect because the truth makes her miserable and horrified. Students often choose options that suggest she learns a positive lesson or is confused, failing to see that the ending is a painful, unvarnished encounter with truth. This question tests how figurative language reflects a character's psychological state during a resolution."
+      "diveDeep": "Choice 1 is incorrect because she is not confused, but rather painfully aware of her circumstances. Choice 2 is incorrect as she is filled with dread rather than relief. Choice 4 is incorrect because the truth makes her miserable and horrified. Students often choose options that suggest she learns a positive lesson or is confused, failing to see that the ending is a painful, unvarnished encounter with truth. This question tests how figurative language reflects a character's psychological state during a resolution.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "This line represents the climax and revelation of the story, where Mrs. Bishop realizes her husband's overcoat is just as frayed and shabby as the one she pitied in the subway.",
-      "diveDeep": "Choice 1 is incorrect because the callous on the stranger's finger is a supporting detail about his appearance, not the central theme. Choice 2 is incorrect because the disarray of the maid's uniform is a minor domestic detail. Choice 3 is incorrect as the roll of crumpled bills is a detail about her husband's pocket money rather than the core revelation. Students often struggle to recognize the symbolic weight of the overcoat, focusing instead on minor characters like Maude or details of physical labor (Choice 1). This question tests the identification of the climax and how a central symbol reveals the text's primary theme."
+      "diveDeep": "Choice 1 is incorrect because the callous on the stranger's finger is a supporting detail about his appearance, not the central theme. Choice 2 is incorrect because the disarray of the maid's uniform is a minor domestic detail. Choice 3 is incorrect as the roll of crumpled bills is a detail about her husband's pocket money rather than the core revelation. Students often struggle to recognize the symbolic weight of the overcoat, focusing instead on minor characters like Maude or details of physical labor (Choice 1). This question tests the identification of the climax and how a central symbol reveals the text's primary theme.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The core conflict in the story is Mrs. Bishop's internal struggle with her own identity and her perception of herself as superior, which is shattered at the end.",
-      "diveDeep": "Choice 2 is incorrect because her relationship with the maid Maude is a minor, surface-level detail. Choice 3 is incorrect because her reluctance to help others is a symptom of her character, not the primary focus of the story's conflict. Choice 4 is incorrect because Lila Hardy is only mentioned in passing and does not drive the plot. A common error is selecting Choice 3, viewing the story as a moral fable about charity rather than a psychological study of vanity and self-perception. This question tests the identification of internal versus external conflicts in literature."
+      "diveDeep": "Choice 2 is incorrect because her relationship with the maid Maude is a minor, surface-level detail. Choice 3 is incorrect because her reluctance to help others is a symptom of her character, not the primary focus of the story's conflict. Choice 4 is incorrect because Lila Hardy is only mentioned in passing and does not drive the plot. A common error is selecting Choice 3, viewing the story as a moral fable about charity rather than a psychological study of vanity and self-perception. This question tests the identification of internal versus external conflicts in literature.",
+      "topic": "Close Reading"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The description of time traveling through 'unguessed fatality' into a 'polar realm' suggests that life moves inevitably toward difficult, unpredictable times, representing the anticipation of life's challenges.",
-      "diveDeep": "Choice 2 is incorrect because the poem is about preparing for difficulties, not questioning the purpose of life itself. Choice 3 is incorrect because the poem emphasizes action and defense rather than passive patience. Choice 4 is incorrect as the narrator does not focus on the benefits of being alone. Students often mistake the bleak imagery of 'polar realm' for existential despair (Choice 2) rather than the anticipation of upcoming obstacles. This question tests the interpretation of metaphor and thematic development in poetry."
+      "diveDeep": "Choice 2 is incorrect because the poem is about preparing for difficulties, not questioning the purpose of life itself. Choice 3 is incorrect because the poem emphasizes action and defense rather than passive patience. Choice 4 is incorrect as the narrator does not focus on the benefits of being alone. Students often mistake the bleak imagery of 'polar realm' for existential despair (Choice 2) rather than the anticipation of upcoming obstacles. This question tests the interpretation of metaphor and thematic development in poetry.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The repetition of 'weather abroad and weather in the heart' draws a direct parallel between the physical storm outside and the emotional turmoil within, implying a deep personal connection.",
-      "diveDeep": "Choice 1 is incorrect because the poem presents storms—both literal and emotional—as common, inevitable experiences. Choice 3 is incorrect as the storm is a source of inquietude and distress, not a benefit. Choice 4 is incorrect because the relationship between internal and external storms is presented as clear and logical rather than unexplained. A common mistake is selecting Choice 4 due to the mysterious tone of the poem, missing the comparison between the heart and the sky. This question tests the analysis of repetitive structures and poetic conceits."
+      "diveDeep": "Choice 1 is incorrect because the poem presents storms—both literal and emotional—as common, inevitable experiences. Choice 3 is incorrect as the storm is a source of inquietude and distress, not a benefit. Choice 4 is incorrect because the relationship between internal and external storms is presented as clear and logical rather than unexplained. A common mistake is selecting Choice 4 due to the mysterious tone of the poem, missing the comparison between the heart and the sky. This question tests the analysis of repetitive structures and poetic conceits.",
+      "topic": "Close Reading"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The line suggests that we cannot stop the oncoming storm (or emotional distress), but we can take control of our immediate environment by closing the shutters, meaning we choose how to deal with it.",
-      "diveDeep": "Choice 1 is incorrect because closing the shutters is a practical defense, not a denial of the storm. Choice 2 is incorrect because the poem advises active defense rather than ignoring one's feelings. Choice 3 is incorrect as the poem explicitly states that instruments and clocks cannot control or alter the elements. Students often choose Choice 3, believing that understanding a problem gives us power to control it, when the poem actually emphasizes our lack of control over the elements themselves. This tests the comprehension of a key thematic statement in poetry."
+      "diveDeep": "Choice 1 is incorrect because closing the shutters is a practical defense, not a denial of the storm. Choice 2 is incorrect because the poem advises active defense rather than ignoring one's feelings. Choice 3 is incorrect as the poem explicitly states that instruments and clocks cannot control or alter the elements. Students often choose Choice 3, believing that understanding a problem gives us power to control it, when the poem actually emphasizes our lack of control over the elements themselves. This tests the comprehension of a key thematic statement in poetry.",
+      "topic": "Inference"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Lines 27 and 28 describe the narrator doing what has been learned to survive 'in zones of much inquietude,' conveying a sense of quiet acceptance of life's inevitable disturbances.",
-      "diveDeep": "Choice 1 is incorrect because the narrator is actively preparing and drawing curtains, showing a high level of care rather than disinterest. Choice 3 is incorrect as the actions are performed calmly and methodically, without frantic haste. Choice 4 is incorrect because the tone is controlled and resigned rather than terrified. A common error is choosing 'urgency' (Choice 3) or 'terror' (Choice 4) due to the description of a darkening sky and whining wind, but the narrator's actions reflect calm resignation. This question tests the analysis of character attitude and tone at the conclusion of a poem."
+      "diveDeep": "Choice 1 is incorrect because the narrator is actively preparing and drawing curtains, showing a high level of care rather than disinterest. Choice 3 is incorrect as the actions are performed calmly and methodically, without frantic haste. Choice 4 is incorrect because the tone is controlled and resigned rather than terrified. A common error is choosing 'urgency' (Choice 3) or 'terror' (Choice 4) due to the description of a darkening sky and whining wind, but the narrator's actions reflect calm resignation. This question tests the analysis of character attitude and tone at the conclusion of a poem.",
+      "topic": "Close Reading"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The narrator refers to these preparations as 'the things that we have learned to do / Who live in zones of much inquietude,' showing that storms are familiar, routine events.",
-      "diveDeep": "Choice 1 is incorrect because the narrator states they know the storm is coming 'better than the instrument,' showing they are predictable. Choice 2 is incorrect because the tone is calm and prepared rather than fearful. Choice 4 is incorrect because, while the storm has power, the narrator's focus is on their routine defenses rather than the destructive outcome. Students often assume that a storm must be viewed as frightening or destructive, failing to note the narrator's familiarity with the phenomenon. This tests the analysis of the narrator's perspective and relationship to the central motif."
+      "diveDeep": "Choice 1 is incorrect because the narrator states they know the storm is coming 'better than the instrument,' showing they are predictable. Choice 2 is incorrect because the tone is calm and prepared rather than fearful. Choice 4 is incorrect because, while the storm has power, the narrator's focus is on their routine defenses rather than the destructive outcome. Students often assume that a storm must be viewed as frightening or destructive, failing to note the narrator's familiarity with the phenomenon. This tests the analysis of the narrator's perspective and relationship to the central motif.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Citing Charles Darwin, one of history's most famous naturalists, lends strong scientific authority and credibility to the claim that language and fire are humanity's two greatest achievements.",
-      "diveDeep": "Choice 1 is incorrect because Darwin's name is used for authority, not just to repeat the equality of the two achievements. Choice 2 is incorrect because the passage does not discuss how Darwin's theories have changed over time. Choice 3 is incorrect as migration is a minor detail not tied to Darwin's citation. A common mistake is selecting Choice 1 because it restates the paragraph's premise, but the question asks why the author cites Darwin specifically. This tests the understanding of rhetorical strategies and the use of authority to build an argument."
+      "diveDeep": "Choice 1 is incorrect because Darwin's name is used for authority, not just to repeat the equality of the two achievements. Choice 2 is incorrect because the passage does not discuss how Darwin's theories have changed over time. Choice 3 is incorrect as migration is a minor detail not tied to Darwin's citation. A common mistake is selecting Choice 1 because it restates the paragraph's premise, but the question asks why the author cites Darwin specifically. This tests the understanding of rhetorical strategies and the use of authority to build an argument.",
+      "topic": "Inference"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Lines 9 through 11 ask whether a primitive tribe could survive without cooking, which serves to introduce and present Richard Wrangham's central argument that cooking was a biological necessity.",
-      "diveDeep": "Choice 2 is incorrect because the lines present a rhetorical question, not a description of a physical image. Choice 3 is incorrect because there is no controversy resolved in these lines, only a question posed. Choice 4 is incorrect because there is no counterclaim mentioned to be dismissed yet. Students often struggle to recognize how questions function as structural frames for arguments, selecting Choice 2 or 3 instead. This question tests the analysis of text structure and the introduction of a thesis."
+      "diveDeep": "Choice 2 is incorrect because the lines present a rhetorical question, not a description of a physical image. Choice 3 is incorrect because there is no controversy resolved in these lines, only a question posed. Choice 4 is incorrect because there is no counterclaim mentioned to be dismissed yet. Students often struggle to recognize how questions function as structural frames for arguments, selecting Choice 2 or 3 instead. This question tests the analysis of text structure and the introduction of a thesis.",
+      "topic": "Close Reading"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The term 'energy budget' is used to emphasize that the body has a limited amount of fuel (calories) that must be allocated among various organs, introducing metabolic constraints.",
-      "diveDeep": "Choice 1 is incorrect because 'conservation' here refers to internal metabolic efficiency, not environmental efforts. Choice 2 is incorrect because the budget is about internal bodily energy, not external combustible fuel. Choice 4 is incorrect as the focus is on physical calories, not intellectual knowledge of resources. A common student mistake is taking 'energy' and 'conservation' in an environmental sense rather than a metabolic one. This question tests the interpretation of scientific terminology and metaphors in context."
+      "diveDeep": "Choice 1 is incorrect because 'conservation' here refers to internal metabolic efficiency, not environmental efforts. Choice 2 is incorrect because the budget is about internal bodily energy, not external combustible fuel. Choice 4 is incorrect as the focus is on physical calories, not intellectual knowledge of resources. A common student mistake is taking 'energy' and 'conservation' in an environmental sense rather than a metabolic one. This question tests the interpretation of scientific terminology and metaphors in context.",
+      "topic": "Close Reading"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The text explains that the physical structure of hominids was altered by adding meat to the diet and, more importantly, by cooking food, which allowed the gut to shrink and the brain to grow.",
-      "diveDeep": "Choice 2 is incorrect because food preservation (like salting or canning) is not discussed as an evolutionary driver. Choice 3 is incorrect because the text attributes the change to metabolic savings from cooked food rather than increased physical labor. Choice 4 is incorrect because problem-solving was a result of a bigger brain, not the direct cause of the physical changes in the gut. Students often get confused by the 'expensive tissue' details, missing the dual role of meat and cooking (preparation) in shrinking the digestive tract. This tests the comprehension of cause-and-effect relationships in evolutionary biology."
+      "diveDeep": "Choice 2 is incorrect because food preservation (like salting or canning) is not discussed as an evolutionary driver. Choice 3 is incorrect because the text attributes the change to metabolic savings from cooked food rather than increased physical labor. Choice 4 is incorrect because problem-solving was a result of a bigger brain, not the direct cause of the physical changes in the gut. Students often get confused by the 'expensive tissue' details, missing the dual role of meat and cooking (preparation) in shrinking the digestive tract. This tests the comprehension of cause-and-effect relationships in evolutionary biology.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Wrangham's description of a raw-food diet as 'a terrific way to lose weight' is ironic because, in the evolutionary context, losing weight to the point of malnutrition is dangerous, not positive.",
-      "diveDeep": "Choice 1 is incorrect because the statement is a casual, dry remark, not poetic. Choice 2 is incorrect because he is not showing hostility or anger toward raw-foodists. Choice 4 is incorrect because it is a practical observation about diet results, not a theoretical claim. A common error is missing the ironical subtext, assuming Wrangham is literally endorsing the raw diet as 'terrific' without realizing that this weight loss is proof that humans cannot thrive on raw foods. This question tests the analysis of authorial tone and subtext."
+      "diveDeep": "Choice 1 is incorrect because the statement is a casual, dry remark, not poetic. Choice 2 is incorrect because he is not showing hostility or anger toward raw-foodists. Choice 4 is incorrect because it is a practical observation about diet results, not a theoretical claim. A common error is missing the ironical subtext, assuming Wrangham is literally endorsing the raw diet as 'terrific' without realizing that this weight loss is proof that humans cannot thrive on raw foods. This question tests the analysis of authorial tone and subtext.",
+      "topic": "Inference"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The text explains that standard USDA tables overstate calorie values because they do not account for the energy the body expends to digest raw foods, failing to reflect how the body converts food into calories.",
-      "diveDeep": "Choice 2 is incorrect because the issue applies to all raw starches and proteins, not just protein calories. Choice 3 is incorrect because the problem is not the physical measurement of calories in a lab, but the metabolic processing inside the body. Choice 4 is incorrect because the body's adaptation to excess calories is not the cause of the overstatement. Students often choose Choice 3, thinking it is a technical error in measurement, rather than a physiological difference in digestion. This question tests the comprehension of scientific experiments and data limitations."
+      "diveDeep": "Choice 2 is incorrect because the issue applies to all raw starches and proteins, not just protein calories. Choice 3 is incorrect because the problem is not the physical measurement of calories in a lab, but the metabolic processing inside the body. Choice 4 is incorrect because the body's adaptation to excess calories is not the cause of the overstatement. Students often choose Choice 3, thinking it is a technical error in measurement, rather than a physiological difference in digestion. This question tests the comprehension of scientific experiments and data limitations.",
+      "topic": "Close Reading"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The word 'ravenous' describes the microbes as consuming the 'lion's share' of raw food calories for themselves, suggesting they are aggressive in their feeding habits.",
-      "diveDeep": "Choice 1 is incorrect because these microbes are a normal part of the gut microbiome, not deadly pathogens. Choice 3 is incorrect because, while they may be healthy, the word 'ravenous' specifically describes their intense hunger and consumption style rather than their overall health. Choice 4 is incorrect because their consumption robs the body of energy, rather than energizing it. Students may confuse 'ravenous' with 'healthy' (Choice 3) because they are a necessary part of the digestive tract, failing to focus on the word's literal meaning of extreme hunger. This question tests vocabulary in context and connotation."
+      "diveDeep": "Choice 1 is incorrect because these microbes are a normal part of the gut microbiome, not deadly pathogens. Choice 3 is incorrect because, while they may be healthy, the word 'ravenous' specifically describes their intense hunger and consumption style rather than their overall health. Choice 4 is incorrect because their consumption robs the body of energy, rather than energizing it. Students may confuse 'ravenous' with 'healthy' (Choice 3) because they are a necessary part of the digestive tract, failing to focus on the word's literal meaning of extreme hunger. This question tests vocabulary in context and connotation.",
+      "topic": "Inference"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Lines 53 through 55 state that cooking 'outsources some of the body’s work of digestion so that more energy is extracted,' meaning it directly assists the body in digesting food.",
-      "diveDeep": "Choice 1 is incorrect because cooking breaks down collagen rather than completing the body's need for it. Choice 2 is incorrect because cooking helps the body absorb more starch, protein, and fat, rather than preventing fat absorption. Choice 3 is incorrect as the primary benefit discussed here is digestive efficiency, not general disease resistance. A common mistake is selecting Choice 3 because the passage later mentions fire killing parasites, but these lines focus purely on the physics of digestion. This tests the ability to align specific line references with their immediate details."
+      "diveDeep": "Choice 1 is incorrect because cooking breaks down collagen rather than completing the body's need for it. Choice 2 is incorrect because cooking helps the body absorb more starch, protein, and fat, rather than preventing fat absorption. Choice 3 is incorrect as the primary benefit discussed here is digestive efficiency, not general disease resistance. A common mistake is selecting Choice 3 because the passage later mentions fire killing parasites, but these lines focus purely on the physics of digestion. This tests the ability to align specific line references with their immediate details.",
+      "topic": "Close Reading"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "This statement highlights the central idea that humans have evolved to rely on cooked food to meet their energy demands, to the point that we cannot survive on raw food alone.",
-      "diveDeep": "Choice 1 is incorrect because the fairness of life is a casual aside by Wrangham, not a central evolutionary thesis. Choice 3 is incorrect as the dietary preference of mice is a supporting experimental detail. Choice 4 is incorrect because the defense mechanisms of animals against raw food parasites do not explain human evolutionary needs. Students often pick general or dramatic quotes like Choice 1 or 4, missing the statement that directly defines the human biological dependency on cooking. This question tests the connection between supporting quotations and the text's primary thesis."
+      "diveDeep": "Choice 1 is incorrect because the fairness of life is a casual aside by Wrangham, not a central evolutionary thesis. Choice 3 is incorrect as the dietary preference of mice is a supporting experimental detail. Choice 4 is incorrect because the defense mechanisms of animals against raw food parasites do not explain human evolutionary needs. Students often pick general or dramatic quotes like Choice 1 or 4, missing the statement that directly defines the human biological dependency on cooking. This question tests the connection between supporting quotations and the text's primary thesis.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 24,
@@ -340,14 +363,16 @@ export default {
       ],
       "correct": 1,
       "explanation": "The passage uses scientific studies, biological concepts, and expert quotes to explain how cooking influenced human evolution, establishing an informative tone.",
-      "diveDeep": "Choice 1 is incorrect because the author is not critical of Wrangham's theory, but presents it objectively and favorably. Choice 3 is incorrect because the text does not express skepticism or doubt about the findings. Choice 4 is incorrect as the passage is a neutral science report rather than an inspiring or hopeful essay. A common mistake is selecting 'hopeful' or 'critical' by focusing on single emotional phrases rather than the overall objective, explanatory nature of the text. This question tests the identification of overall text tone and authorial purpose."
+      "diveDeep": "Choice 1 is incorrect because the author is not critical of Wrangham's theory, but presents it objectively and favorably. Choice 3 is incorrect because the text does not express skepticism or doubt about the findings. Choice 4 is incorrect as the passage is a neutral science report rather than an inspiring or hopeful essay. A common mistake is selecting 'hopeful' or 'critical' by focusing on single emotional phrases rather than the overall objective, explanatory nature of the text. This question tests the identification of overall text tone and authorial purpose.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 30,
       "part": "II",
       "type": "written",
       "text": "Minutes” www.forbes.com, December 23, 2013 3caveat — a warning Regents Exam in ELA — Jan. ’18 5 10 15 20 25 30 35 40 Text 4 Green Crude: The Quest to Unlock Algae’s Energy Potential …Although scientists and entrepreneurs have been trying to unlock the energy potential of algae for more than three decades, they don’t yet agree on how to go about it. Some companies grow algae in ponds, others grow them in clear plastic containers, and others keep their algae away from sunlight, feeding them sugars instead. To improve the productivity of the algae, some scientists use conventional breeding and others turn to genetic engineering. “Algae is the most promising source of renewable transportation fuel that we have today,” says Steve Kay, a distinguished professor of biology at the University of California, San Diego, and co-founder of the San Diego Center for Algae Biotechnology, a partnership of research institutions, business, and government. And yet there’s plenty of reason for skepticism about algae. Scientists and entrepreneurs have been trying for decades to unlock algae’s energy potential, with mixed results. After the 1970s oil shocks, the U.S. government created an algae research program that analyzed more than 3,000 strains of the tiny organisms; the program was shut down in 1996, after the Department of Energy concluded that algal biofuels would cost too much money to compete with fossil fuels. A decade later, after President George W. Bush declared that the U.S. is “addicted to oil,” government research into algae was restarted, and venture capital flowed into dozens of algae startups. Oil companies ExxonMobil and Chevron placed bets, too. But algae companies haven’t made much oil yet: Sapphire’s annual production target of 1.5 million gallons for 2014 compares to U.S. daily oil consumption of 18.8 million barrels. Even algae’s most enthusiastic advocates say that commercialization of algal biofuels, on a scale that that would matter to the environment or the energy industry, is at least five to 10 years away. High costs remain the big obstacle to commercial production. The algae business has suffered from “fantastic promotions, bizarre cultivation systems, and absurd productivity projections,” says John Benemann, an industry consultant and Ph.D. biochemist who has spent more than 30 years working on algae. Even if the capital costs and operating costs of algae farms are low, and the productivity of the algae is improved, Benemann says that “algae biofuels cannot compete with fossil energy based on simple economics… The real issue is that an oil field will deplete eventually, while an algae pond would be sustainable indefinitely.” In a thorough 2010 technology assessment, researchers at the Lawrence Berkeley National Laboratory estimated that producing oil from algae grown in ponds at scale would cost between $240 and $332 a barrel, far higher than current petroleum prices. Perhaps more worrisome, government scientists say the environmental benefits of algae remain unproven. Writing in American Scientist, Philip T. Pienkos, Lieve Laurens and Andy Aden, all of the National Renewable Energy Laboratory, say that the few life-cycle assessments of algae done so far have shown “unpromising energy returns and weak greenhouse gas benefits.” By phone, Pienkos acknowledged that, in theory, algae should produce low-carbon fuels because the CO2 emitted when the fuels are burned is absorbed from the air when algae grow. But, he says, calculating the true sustainability benefits of algae requires doing a detailed study of inputs and outputs and “that will be difficult until big algae farms are built.” … —Marc Gunther excerpted from “Green Crude: The Quest to Unlock Algae’s Energy Potential” e360.yale.edu, October 15, 2012 Regents Exam in ELA — Jan. ’18 Part 3 Text-Analysis Response Your Task: Closely read the text provided on pages 19 and 20 and write a well-developed, text-based response of two to three paragraphs. In your response, identify a central idea in the text and analyze how the author’s use of one writing strategy (literary element or literary technique or rhetorical device) develops this central idea. Use strong and thorough evidence from the text to support your analysis. Do not simply summarize the text. You may use the margins to take notes as you read and scrap paper to plan your response. Write your response in the spaces provided on pages 7 through 9 of your essay booklet. Guidelines: Be sure to: • Identify a central idea in the text • Analyze how the author’s use of one writing strategy (literary element or literary technique or rhetorical device) develops this central idea. Examples include: characterization, conflict, denotation/connotation, metaphor, simile, irony, language use, point-of-view, setting, structure, symbolism, theme, tone, etc. • Use strong and thorough evidence from the text to support your analysis • Organize your ideas in a cohesive and coherent manner • Maintain a formal style of writing • Follow the conventions of standard written English Regents Exam in ELA — Jan. ’18 5 10 15 20 25 30 35 40 Text …George Willard, the Ohio village boy, was fast growing into manhood and new thoughts had been coming into his mind. All that day, amid the jam of people at the Fair, he had gone about feeling lonely. He was about to leave Winesburg to go away to some city where he hoped to get work on a city newspaper and he felt grown up. The mood that had taken possession of him was a thing known to men and unknown to boys. He felt old and a little tired. Memories awoke in him. To his mind his new sense of maturity set him apart, made of him a half-tragic figure. He wanted someone to understand the feeling that had taken possession of him after his mother’s death. There is a time in the life of every boy when he for the first time takes the backward view of life. Perhaps that is the moment when he crosses the line into manhood. The boy is walking through the street of his town. He is thinking of the future and of the figure he will cut in the world. Ambitions and regrets awake within him. Suddenly something happens; he stops under a tree and waits as for a voice calling his name. Ghosts of old things creep into his consciousness; the voices outside of himself whisper a message concerning the limitations of life. From being quite sure of himself and his future he becomes not at all sure. If he be an imaginative boy a door is torn open and for the first time he looks out upon the world, seeing, as though they marched in procession before him, the countless figures of men who before his time have come out of nothingness into the world, lived their lives and again disappeared into nothingness. The sadness of sophistication has come to the boy. With a little gasp he sees himself as merely a leaf blown by the wind through the streets of his village. He knows that in spite of all the stout talk of his fellows he must live and die in uncertainty, a thing blown by the winds, a thing destined like corn to wilt in the sun. He shivers and looks eagerly about. The eighteen years he has lived seem but a moment, a breathing space in the long march of humanity. Already he hears death calling. With all his heart he wants to come close to some other human, touch someone with his hands, be touched by the hand of another. If he prefers that the other be a woman, that is because he believes that a woman will be gentle, that she will understand. He wants, most of all, understanding. When the moment of sophistication came to George Willard his mind turned to Helen White, the Winesburg banker’s daughter. Always he had been conscious of the girl growing into womanhood as he grew into manhood. Once on a summer night when he was eighteen, he had walked with her on a country road and in her presence had given way to an impulse to boast, to make himself appear big and significant in her eyes. Now he wanted to see her for another purpose. He wanted to tell her of the new impulses that had come to him. He had tried to make her think of him as a man when he knew nothing of manhood and now he wanted to be with her and to try to make her feel the change he believed had taken place in his nature. As for Helen White, she also had come to a period of change. What George felt, she in her young woman’s way felt also. She was no longer a girl and hungered to reach into the grace and beauty of womanhood. She had come home from Cleveland, where she was attending college, to spend a day at the Fair. She also had begun to have memories. During the day she sat in the grandstand with a young man, one of the instructors from the college, who was a guest of her mother’s. The young man was of a pedantic1 turn of mind and 1pedantic — given to showing off knowledge Regents Exam in ELA — Jan. ’18 she felt at once he would not do for her purpose. At the Fair she was glad to be seen in 45 his company as he was well dressed and a stranger. She knew that the fact of his presence would create an impression. During the day she was happy, but when night came on she began to grow restless. She wanted to drive the instructor away, to get out of his presence. While they sat together in the grand-stand and while the eyes of former schoolmates were upon them, she paid so much attention to her escort that he grew interested. “A scholar 50 needs money. I should marry a woman with money,” he mused. Helen White was thinking of George Willard even as he wandered gloomily through the crowds thinking of her. She remembered the summer evening when they had walked together and wanted to walk with him again. She thought that the months she had spent in the city, the going to theatres and the seeing of great crowds wandering in lighted 55 thoroughfares, had changed her profoundly. She wanted him to feel and be conscious of the change in her nature. The summer evening together that had left its mark on the memory of both the young man and woman had, when looked at quite sensibly, been rather stupidly spent. They had walked out of town along a country road. Then they had stopped by a fence near a 60 field of young corn and George had taken off his coat and let it hang on his arm. “Well, I’ve stayed here in Winesburg—yes—I’ve not yet gone away but I’m growing up,” he had said. “I’ve been reading books and I’ve been thinking. I’m going to try to amount to something in life.” … —Sherwood Anderson excerpted from “Sophistication” Winesburg, Ohio, 1919 B.W. Huebsch Regents Exam in ELA — Jan. ’18 REGENTS IN ELA Printed on Recycled Paper REGENTS IN ELA",
-      "modelAnswer": null
+      "modelAnswer": null,
+      "topic": "Central Idea & Theme"
     }
   ]
 }

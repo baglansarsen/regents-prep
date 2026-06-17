@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-jan-2017",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The opening paragraph highlights Mrs. Munson's snobbery and disapproval of her neighbors and environment, establishing her character as intolerant of those she deems socially inferior.",
-      "diveDeep": "Choice 1 is incorrect because she shows no warmth or empathy in the opening lines. Choice 2 is incorrect as she is not acting deceptively at this stage, but rather expressing her authentic, judgmental views. Choice 4 is incorrect because her behavior reflects status-conscious passivity rather than resourcefulness. Students often confuse snobbishness or pretension with mere pride, missing the underlying intolerance of other social classes. This question tests the author's use of characterization in the exposition of a story."
+      "diveDeep": "Choice 1 is incorrect because she shows no warmth or empathy in the opening lines. Choice 2 is incorrect as she is not acting deceptively at this stage, but rather expressing her authentic, judgmental views. Choice 4 is incorrect because her behavior reflects status-conscious passivity rather than resourcefulness. Students often confuse snobbishness or pretension with mere pride, missing the underlying intolerance of other social classes. This question tests the author's use of characterization in the exposition of a story.",
+      "topic": "Close Reading"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Mrs. Munson adopts a dramatic, self-important tone when speaking about Vini's European background to make herself seem connected to high society and impress her listener. This reveals her obsession with social status.",
-      "diveDeep": "Choice 2 is incorrect because Mrs. Munson wants to elevate her status, not create conflict. Choice 3 is incorrect as she is not attempting to defend or justify any particular behavior. Choice 4 is incorrect because she is not facing criticism that she needs to avoid. A common error is choosing Choice 4, thinking that her pretentiousness is a defense mechanism against criticism, rather than an active attempt to project superiority. This question tests the characterization of Mrs. Munson's vanity and superficial motivations."
+      "diveDeep": "Choice 2 is incorrect because Mrs. Munson wants to elevate her status, not create conflict. Choice 3 is incorrect as she is not attempting to defend or justify any particular behavior. Choice 4 is incorrect because she is not facing criticism that she needs to avoid. A common error is choosing Choice 4, thinking that her pretentiousness is a defense mechanism against criticism, rather than an active attempt to project superiority. This question tests the characterization of Mrs. Munson's vanity and superficial motivations.",
+      "topic": "Close Reading"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Lines 21-24 show Mrs. Munson expecting a glamorous, fashionable friend but instead encountering a woman with limp hair and an uncombed look. This unexpected sight shifts her feeling from excited anticipation to utter confusion.",
-      "diveDeep": "Choice 1 is incorrect because Vini's appearance does not trigger a feeling of betrayal or test Mrs. Munson's loyalty. Choice 3 is incorrect as Mrs. Munson is not hostile toward Vini, only bewildered by her state. Choice 4 is incorrect because Mrs. Munson is highly invested in Vini's appearance and is not indifferent. Students often mistake Mrs. Munson's shock for hostility (Choice 3), failing to recognize that her primary emotion is disorientation due to shattered expectations. This question tests the tracking of emotional transitions and shifts in narrative perspective."
+      "diveDeep": "Choice 1 is incorrect because Vini's appearance does not trigger a feeling of betrayal or test Mrs. Munson's loyalty. Choice 3 is incorrect as Mrs. Munson is not hostile toward Vini, only bewildered by her state. Choice 4 is incorrect because Mrs. Munson is highly invested in Vini's appearance and is not indifferent. Students often mistake Mrs. Munson's shock for hostility (Choice 3), failing to recognize that her primary emotion is disorientation due to shattered expectations. This question tests the tracking of emotional transitions and shifts in narrative perspective.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Line 38 describes Vini's twitchy or evasive movements, suggesting that she has an underlying, hidden motive for her visit. This prepares the reader for the revelation that she is there to unload a ruined mink coat.",
-      "diveDeep": "Choice 1 is incorrect because Vini's behavior suggests tension rather than a carefree history. Choice 3 is incorrect because she is acting nervous and pleading rather than showing a fiery temper. Choice 4 is incorrect as she is not pretending to be another person, so she does not have a secret identity. A common mistake is selecting Choice 4 because Vini's appearance has changed, but she remains Vini Rondo; it is her intentions, not her identity, that are concealed. This question tests the author's use of subtle behavioral descriptions to foreshadow plot developments."
+      "diveDeep": "Choice 1 is incorrect because Vini's behavior suggests tension rather than a carefree history. Choice 3 is incorrect because she is acting nervous and pleading rather than showing a fiery temper. Choice 4 is incorrect as she is not pretending to be another person, so she does not have a secret identity. A common mistake is selecting Choice 4 because Vini's appearance has changed, but she remains Vini Rondo; it is her intentions, not her identity, that are concealed. This question tests the author's use of subtle behavioral descriptions to foreshadow plot developments.",
+      "topic": "Inference"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Vini uses flattering comments and emotional appeals in lines 44-46 to make Mrs. Munson feel obligated and proud, effectively entrapping her into buying the coat. She manipulates Mrs. Munson's vanity to secure a sale.",
-      "diveDeep": "Choice 1 is incorrect because Vini is trying to get money, not show stinginess. Choice 2 is incorrect because the comments are focused on Mrs. Munson's suitability for the coat, not just describing the coat itself. Choice 3 is incorrect because characterizing Mrs. Munson is a byproduct, whereas Vini's active goal is to trap her into a purchase. Students often pick Choice 3 because the dialogue does reveal Mrs. Munson's character, but they miss Vini's manipulative intention. This question tests the analysis of character dialogue and interpersonal manipulation."
+      "diveDeep": "Choice 1 is incorrect because Vini is trying to get money, not show stinginess. Choice 2 is incorrect because the comments are focused on Mrs. Munson's suitability for the coat, not just describing the coat itself. Choice 3 is incorrect because characterizing Mrs. Munson is a byproduct, whereas Vini's active goal is to trap her into a purchase. Students often pick Choice 3 because the dialogue does reveal Mrs. Munson's character, but they miss Vini's manipulative intention. This question tests the analysis of character dialogue and interpersonal manipulation.",
+      "topic": "Close Reading"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "In lines 47-49, Mrs. Munson notices details of Vini's worn clothing and physical decline, realizing that Vini has experienced severe hardships during the war. This contrasts with Mrs. Munson's pre-war memories of her.",
-      "diveDeep": "Choice 1 is incorrect because Vini's limp hair and shabby clothes show she is not meticulous about her looks. Choice 2 is incorrect as Vini is visibly uncomfortable and in financial distress. Choice 3 is incorrect because Vini is acting desperate rather than exhibiting an inflated self-image. Students often struggle to connect physical descriptions of wear and tear with financial or personal hardship (Choice 4), choosing instead options that focus on personality traits. This question tests the interpretation of physical description as evidence of a character's backstory."
+      "diveDeep": "Choice 1 is incorrect because Vini's limp hair and shabby clothes show she is not meticulous about her looks. Choice 2 is incorrect as Vini is visibly uncomfortable and in financial distress. Choice 3 is incorrect because Vini is acting desperate rather than exhibiting an inflated self-image. Students often struggle to connect physical descriptions of wear and tear with financial or personal hardship (Choice 4), choosing instead options that focus on personality traits. This question tests the interpretation of physical description as evidence of a character's backstory.",
+      "topic": "Close Reading"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Lines 71-72 show Mrs. Munson worrying about what her husband or others will think of her purchasing a secondhand coat, emphasizing her constant concern for social appearances and pride. Her primary anxiety is maintaining her status.",
-      "diveDeep": "Choice 1 is incorrect because she is still focused on buying the coat rather than feeling indignant toward Vini. Choice 2 is incorrect because there is no negotiation partner other than Vini, and she is not annoyed by negotiation itself. Choice 4 is incorrect because she has not yet realized she is being swindled, so she is not suspicious. A common student error is selecting Choice 4, projecting Mrs. Munson's future suspicion onto this earlier moment where she is still purely concerned with social status. This question tests the identification of a character's core values and central thematic elements."
+      "diveDeep": "Choice 1 is incorrect because she is still focused on buying the coat rather than feeling indignant toward Vini. Choice 2 is incorrect because there is no negotiation partner other than Vini, and she is not annoyed by negotiation itself. Choice 4 is incorrect because she has not yet realized she is being swindled, so she is not suspicious. A common student error is selecting Choice 4, projecting Mrs. Munson's future suspicion onto this earlier moment where she is still purely concerned with social status. This question tests the identification of a character's core values and central thematic elements.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Mrs. Munson imagines a conversation in which she claims she got the coat for a bargain to justify the $400 expense to her husband. This shows her need to rationalize her impulsive, vanity-driven purchase.",
-      "diveDeep": "Choice 1 is incorrect because she is trying to explain a purchase she has already decided to make, not convince him to buy a new one. Choice 3 is incorrect because her motivation is self-preservation, not protecting Vini from persecution. Choice 4 is incorrect because the imagined dialogue is a defensive excuse rather than a proud boast of negotiation. Students often confuse her internal rationalization with an actual desire to share success (Choice 4). This tests the understanding of a character's internal monologue and psychological defenses."
+      "diveDeep": "Choice 1 is incorrect because she is trying to explain a purchase she has already decided to make, not convince him to buy a new one. Choice 3 is incorrect because her motivation is self-preservation, not protecting Vini from persecution. Choice 4 is incorrect because the imagined dialogue is a defensive excuse rather than a proud boast of negotiation. Students often confuse her internal rationalization with an actual desire to share success (Choice 4). This tests the understanding of a character's internal monologue and psychological defenses.",
+      "topic": "Close Reading"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The final paragraph, where Mrs. Munson realizes Vini will never call again and feels trapped with the rotting, ruined mink, creates a mood of despair and desperation. She is left alone with the physical evidence of her own gullibility.",
-      "diveDeep": "Choice 2 is incorrect because Mrs. Munson feels defeated and hopeless rather than aggressive. Choice 3 is incorrect as the discovery of the ruined coat is the opposite of satisfying. Choice 4 is incorrect because there is no sense of joy or exhilaration. A common error is choosing Choice 2 (aggression) because the reader might feel angry at the scam, but the character herself is paralyzed by despair and the realization of her loss. This question tests the identification of mood in the resolution of a narrative."
+      "diveDeep": "Choice 2 is incorrect because Mrs. Munson feels defeated and hopeless rather than aggressive. Choice 3 is incorrect as the discovery of the ruined coat is the opposite of satisfying. Choice 4 is incorrect because there is no sense of joy or exhilaration. A common error is choosing Choice 2 (aggression) because the reader might feel angry at the scam, but the character herself is paralyzed by despair and the realization of her loss. This question tests the identification of mood in the resolution of a narrative.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The description of Vini's unkempt, un-chic appearance upon arrival immediately signals that she is not the wealthy, successful woman Mrs. Munson expected. This physical deterioration foreshadows her desperate need for money and her intention to swindle her friend.",
-      "diveDeep": "Choice 1 is incorrect because Mrs. Munson's observation about her apartment's cleanliness is a common pre-visitor thought and does not hint at Vini's specific plans. Choice 2 is incorrect because Mrs. Munson's excitement reflects her own expectations, not Vini's reality. Choice 4 is incorrect because the playground noise is an environmental detail unrelated to Vini's motives. Students often fail to connect physical character descriptions with thematic foreshadowing. This question tests the literary concept of foreshadowing and its alignment with plot development."
+      "diveDeep": "Choice 1 is incorrect because Mrs. Munson's observation about her apartment's cleanliness is a common pre-visitor thought and does not hint at Vini's specific plans. Choice 2 is incorrect because Mrs. Munson's excitement reflects her own expectations, not Vini's reality. Choice 4 is incorrect because the playground noise is an environmental detail unrelated to Vini's motives. Students often fail to connect physical character descriptions with thematic foreshadowing. This question tests the literary concept of foreshadowing and its alignment with plot development.",
+      "topic": "Close Reading"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The narrator's opening statements that he and his brother 'hardly talk' and that he talks to his lawnmower more—even though he doesn't own one—convey a strong sense of irony. This humorous, self-deprecating tone highlights the absurdity of their estrangement.",
-      "diveDeep": "Choice 1 is incorrect because the narrator is not expressing fear of his brother or the situation. Choice 2 is incorrect as the statement is not one of disbelief, but rather a deliberate, ironic exaggeration. Choice 3 is incorrect because the comparison to a non-existent lawnmower is highly subjective and whimsical rather than objective. Students often overlook the dry humor in the lawnmower comparison, failing to identify the literary device of irony. This question tests tone and style analysis in poetry."
+      "diveDeep": "Choice 1 is incorrect because the narrator is not expressing fear of his brother or the situation. Choice 2 is incorrect as the statement is not one of disbelief, but rather a deliberate, ironic exaggeration. Choice 3 is incorrect because the comparison to a non-existent lawnmower is highly subjective and whimsical rather than objective. Students often overlook the dry humor in the lawnmower comparison, failing to identify the literary device of irony. This question tests tone and style analysis in poetry.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The T-shirt reference suggests that life would be simple if there were only one 'x' to solve for and display, but in reality, there are infinite variables (x xs) to solve, illustrating that human relationships and life choices are highly complex.",
-      "diveDeep": "Choice 1 is incorrect because the focus is on the difficulty of finding answers, not the frequency of errors. Choice 3 is incorrect as the poem is about the fluid and unresolved nature of their relationship, not stability. Choice 4 is incorrect because the narrator still wishes to connect, showing his desires are not entirely futile. A common student error is selecting Choice 4 due to the narrator's melancholy tone, missing the focus on the complexity of solving interpersonal equations. This question tests how a metaphor develops a central idea."
+      "diveDeep": "Choice 1 is incorrect because the focus is on the difficulty of finding answers, not the frequency of errors. Choice 3 is incorrect as the poem is about the fluid and unresolved nature of their relationship, not stability. Choice 4 is incorrect because the narrator still wishes to connect, showing his desires are not entirely futile. A common student error is selecting Choice 4 due to the narrator's melancholy tone, missing the focus on the complexity of solving interpersonal equations. This question tests how a metaphor develops a central idea.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The figurative language in lines 19 and 20 ('This poem needs a better attitude: things could be worse') acts as a meta-poetic transition, moving the narrator from expressing regret about his relationship to attempting a more positive, reflective outlook.",
-      "diveDeep": "Choice 1 is incorrect because the line does not illustrate a specific example of their relationship. Choice 2 is incorrect because the statement does not foreshadow a future narrative event. Choice 4 is incorrect because it does not resolve the tension between the brothers. Students often fail to see structural shifts in poetry, misinterpreting the author's direct address as a literal comment on the writing process rather than a transition in tone. This question tests the understanding of poetic structure and shifts."
+      "diveDeep": "Choice 1 is incorrect because the line does not illustrate a specific example of their relationship. Choice 2 is incorrect because the statement does not foreshadow a future narrative event. Choice 4 is incorrect because it does not resolve the tension between the brothers. Students often fail to see structural shifts in poetry, misinterpreting the author's direct address as a literal comment on the writing process rather than a transition in tone. This question tests the understanding of poetic structure and shifts.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "In lines 29-35, the narrator suggests that in the wild, siblings would have 'gone our separate ways long ago' and 'snarled' or 'fought with tusks or fangs,' revealing his belief that sibling relationships are naturally oppositional and distant.",
-      "diveDeep": "Choice 1 is incorrect because the narrator explicitly describes them running away or fighting, not relying on each other. Choice 2 is incorrect as 'snarling' and 'fighting' are the opposite of friendly behaviors. Choice 4 is incorrect because the behavior described is typical of wild animals, hence not unconventional. A common student mistake is projecting a desire for familial harmony onto these lines, failing to read the literal descriptions of conflict and avoidance. This question tests the interpretation of central beliefs and themes regarding family dynamics."
+      "diveDeep": "Choice 1 is incorrect because the narrator explicitly describes them running away or fighting, not relying on each other. Choice 2 is incorrect as 'snarling' and 'fighting' are the opposite of friendly behaviors. Choice 4 is incorrect because the behavior described is typical of wild animals, hence not unconventional. A common student mistake is projecting a desire for familial harmony onto these lines, failing to read the literal descriptions of conflict and avoidance. This question tests the interpretation of central beliefs and themes regarding family dynamics.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The first paragraph describes the scientists releasing bass into Peter Lake and leaving sensors, but does not explain the ecological goal of this manipulation until later. This creates mystery and hooks the reader's interest.",
-      "diveDeep": "Choice 2 is incorrect because the paragraph does not challenge a theory or state results. Choice 3 is incorrect because it does not attempt to disprove any prior data. Choice 4 is incorrect as the issue and its broad ecological implications are introduced in later paragraphs. Students often choose Choice 4 because they know the passage is about ecosystems, but the opening paragraph itself is purely a narrative of the experimental setup. This tests the analysis of text organization and introductory strategies."
+      "diveDeep": "Choice 2 is incorrect because the paragraph does not challenge a theory or state results. Choice 3 is incorrect because it does not attempt to disprove any prior data. Choice 4 is incorrect as the issue and its broad ecological implications are introduced in later paragraphs. Students often choose Choice 4 because they know the passage is about ecosystems, but the opening paragraph itself is purely a narrative of the experimental setup. This tests the analysis of text organization and introductory strategies.",
+      "topic": "Close Reading"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "In line 13, 'diminutive' describes water fleas and other tiny animals, which in context means 'little' or very small. This is supported by the phrase 'tiny animals' in the same sentence.",
-      "diveDeep": "Choice 1 is incorrect because these animals are known to science and described in detail. Choice 3 is incorrect as they are healthy and flourishing in the cleared lake. Choice 4 is incorrect because water fleas live in large populations, not in isolation. This is a basic vocabulary-in-context question, and students must use surrounding context clues (like 'tiny animals') to determine the meaning."
+      "diveDeep": "Choice 1 is incorrect because these animals are known to science and described in detail. Choice 3 is incorrect as they are healthy and flourishing in the cleared lake. Choice 4 is incorrect because water fleas live in large populations, not in isolation. This is a basic vocabulary-in-context question, and students must use surrounding context clues (like 'tiny animals') to determine the meaning.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Lines 15 through 18 state that 'Carpenter triggered the switchover on purpose, as part of an experiment,' indicating that the dramatic ecological changes in the lake were fully intentional.",
-      "diveDeep": "Choice 2 is incorrect because the study is presented as a standard, approved ecological experiment, not unethical. Choice 3 is incorrect because the results are documented mathematically and not exaggerated. Choice 4 is incorrect because the results were clear and lasting, not inconclusive. A common mistake is selecting Choice 4 because ecological systems are complex, but the text confirms the success and clarity of the experiment. This question tests the comprehension of factual details in a science text."
+      "diveDeep": "Choice 2 is incorrect because the study is presented as a standard, approved ecological experiment, not unethical. Choice 3 is incorrect because the results are documented mathematically and not exaggerated. Choice 4 is incorrect because the results were clear and lasting, not inconclusive. A common mistake is selecting Choice 4 because ecological systems are complex, but the text confirms the success and clarity of the experiment. This question tests the comprehension of factual details in a science text.",
+      "topic": "Close Reading"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The text describes these flipped food webs as causing marshes to 'disintegrate' and valuable species like cod to 'crash,' indicating that these changes are problematic and damaging to ecosystems.",
-      "diveDeep": "Choice 1 is incorrect because these flips are happening naturally in response to human stress, not artificially constructed by scientists. Choice 2 is incorrect because these collapses are harmful, not necessary for ecosystem health. Choice 3 is incorrect as they are unplanned side effects of human activity. Students may struggle to connect the separate examples of ecological collapse with the single adjective 'problematic' (Choice 4). This question tests the ability to synthesize multiple examples to identify a common characteristic."
+      "diveDeep": "Choice 1 is incorrect because these flips are happening naturally in response to human stress, not artificially constructed by scientists. Choice 2 is incorrect because these collapses are harmful, not necessary for ecosystem health. Choice 3 is incorrect as they are unplanned side effects of human activity. Students may struggle to connect the separate examples of ecological collapse with the single adjective 'problematic' (Choice 4). This question tests the ability to synthesize multiple examples to identify a common characteristic.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Lines 23 and 24 list 'fishing, converting land into farms and cities, or warming the planet' as the primary human stresses driving ecosystems to flip, establishing human activity as the main cause.",
-      "diveDeep": "Choice 1 is incorrect because diseases are not mentioned as the main cause. Choice 3 is incorrect because natural disasters are not cited as the primary driver of these flips. Choice 4 is incorrect because accelerated evolution is not discussed. A common error is choosing natural disasters (Choice 3) because climate warming is mentioned, but the text attributes this warming directly to human influence. This tests the identification of cause-and-effect relationships in informational texts."
+      "diveDeep": "Choice 1 is incorrect because diseases are not mentioned as the main cause. Choice 3 is incorrect because natural disasters are not cited as the primary driver of these flips. Choice 4 is incorrect because accelerated evolution is not discussed. A common error is choosing natural disasters (Choice 3) because climate warming is mentioned, but the text attributes this warming directly to human influence. This tests the identification of cause-and-effect relationships in informational texts.",
+      "topic": "Close Reading"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Lines 32 through 39 emphasize that once ecosystems pass their tipping point, it is 'remarkably difficult for them to return,' making early prediction crucial to forestall irreversible damage or collapse.",
-      "diveDeep": "Choice 1 is incorrect because the goal is to manage or reduce harmful human impacts, not expand human involvement. Choice 2 is incorrect because the models are meant to guide action, not stop scientific research. Choice 4 is incorrect as the focus is on avoiding disaster rather than identifying new benefits. Students often fail to connect 'forestall irreversible damage' with the text's warning that systems cannot easily return after a flip. This tests the understanding of the practical applications of scientific modeling."
+      "diveDeep": "Choice 1 is incorrect because the goal is to manage or reduce harmful human impacts, not expand human involvement. Choice 2 is incorrect because the models are meant to guide action, not stop scientific research. Choice 4 is incorrect as the focus is on avoiding disaster rather than identifying new benefits. Students often fail to connect 'forestall irreversible damage' with the text's warning that systems cannot easily return after a flip. This tests the understanding of the practical applications of scientific modeling.",
+      "topic": "Close Reading"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The questions in lines 41 through 43 ask why species populations vary and why there are so many of some and few of others, which connects observed natural patterns with the scientific quest to explain them.",
-      "diveDeep": "Choice 2 is incorrect because the questions are about general population sizes and fluctuations, not just top-down predator-prey dynamics. Choice 3 is incorrect because there is no dispute mentioned between prior research and experimental outcomes. Choice 4 is incorrect as the text describes these questions as the starting point of ecological research, not a conflict between old and new theories. Students often choose Choice 2 because predators and prey are mentioned in the passage, but the questions themselves are much broader. This tests the analysis of rhetorical questions and their role in framing scientific inquiry."
+      "diveDeep": "Choice 2 is incorrect because the questions are about general population sizes and fluctuations, not just top-down predator-prey dynamics. Choice 3 is incorrect because there is no dispute mentioned between prior research and experimental outcomes. Choice 4 is incorrect as the text describes these questions as the starting point of ecological research, not a conflict between old and new theories. Students often choose Choice 2 because predators and prey are mentioned in the passage, but the questions themselves are much broader. This tests the analysis of rhetorical questions and their role in framing scientific inquiry.",
+      "topic": "Close Reading"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The phrase 'hopeless snarls' describes the visual state of early food web diagrams that contained too many overlapping lines and species, connoting a tangled mass that was impossible to decipher.",
-      "diveDeep": "Choice 1 is incorrect because 'snarls' here refers to messy diagrams, not a savage animal behavior. Choice 2 is incorrect because it describes the difficulty of drawing the chart, not a sad or depressing emotional situation. Choice 3 is incorrect because there is no auditory element or distressed sound. Students often choose Choice 1 or 2 by taking the word 'snarl' in its animalistic or emotional sense rather than its literal meaning of a knot. This question tests the interpretation of connotation and figurative language in scientific writing."
+      "diveDeep": "Choice 1 is incorrect because 'snarls' here refers to messy diagrams, not a savage animal behavior. Choice 2 is incorrect because it describes the difficulty of drawing the chart, not a sad or depressing emotional situation. Choice 3 is incorrect because there is no auditory element or distressed sound. Students often choose Choice 1 or 2 by taking the word 'snarl' in its animalistic or emotional sense rather than its literal meaning of a knot. This question tests the interpretation of connotation and figurative language in scientific writing.",
+      "topic": "Close Reading"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Lines 53 through 61 explain that weak links allow a predator to switch to another prey species when one becomes rare, which keeps species from driving each other to extinction, demonstrating the importance of having multiple prey sources.",
-      "diveDeep": "Choice 1 is incorrect because weak links are described as positive and stabilizing, not negative. Choice 2 is incorrect as the text explicitly states predators benefit from eating several species, not just one. Choice 4 is incorrect because this section explains stability rather than the dangers of flipping. A common error is choosing Choice 1 because 'weak' has negative connotations, but the text argues that 'weak links' are essential for stability. This tests the comprehension of complex scientific mechanisms and systems."
+      "diveDeep": "Choice 1 is incorrect because weak links are described as positive and stabilizing, not negative. Choice 2 is incorrect as the text explicitly states predators benefit from eating several species, not just one. Choice 4 is incorrect because this section explains stability rather than the dangers of flipping. A common error is choosing Choice 1 because 'weak' has negative connotations, but the text argues that 'weak links' are essential for stability. This tests the comprehension of complex scientific mechanisms and systems.",
+      "topic": "Close Reading"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "This sentence encapsulates the central idea of the text: the inherent difficulty in forecasting ecological collapses due to the immense complexity of food webs, which necessitates the development of early-warning models.",
-      "diveDeep": "Choice 2 is incorrect because it highlights a tool (computers) rather than the overall thematic focus on ecosystem tipping points. Choice 3 is incorrect as it is a specific detail about food web structure rather than the main idea. Choice 4 is incorrect because it focuses on a specific historical event (human-caused trophic cascades) rather than the general challenge of predicting flips. Students often pick options that describe modern technology or specific details rather than the overarching thesis of the text. This question tests the identification of a central idea in a scientific passage."
+      "diveDeep": "Choice 2 is incorrect because it highlights a tool (computers) rather than the overall thematic focus on ecosystem tipping points. Choice 3 is incorrect as it is a specific detail about food web structure rather than the main idea. Choice 4 is incorrect because it focuses on a specific historical event (human-caused trophic cascades) rather than the general challenge of predicting flips. Students often pick options that describe modern technology or specific details rather than the overarching thesis of the text. This question tests the identification of a central idea in a scientific passage.",
+      "topic": "Central Idea & Theme"
     }
   ]
 }

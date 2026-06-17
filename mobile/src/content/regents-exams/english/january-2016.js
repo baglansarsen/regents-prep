@@ -1,4 +1,4 @@
-// Enriched: 24 questions with explanation/diveDeep
+// Enriched English exam — tagged topic (reading-analysis skill)
 export default {
   "id": "eng-jan-2016",
   "subject": "english",
@@ -18,7 +18,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "In lines 1-5, the author describes a business opportunity presented by the helicopter company, which Merle is excited about but which introduces tension regarding whether his son Franklin will share this interest.",
-      "diveDeep": "Choice 1 is incorrect because there is no mention of a rival company in the opening lines. Choice 2 is incorrect as the text refers to potential growth and new contracts rather than any financial deficit. Choice 3 is incorrect because a production schedule change is not discussed here. A common student error is selecting a choice that sounds like a typical business conflict (like an industry competitor or loss) without verifying if it is present in the text. The key strategy is to locate the specific line reference (lines 1-5) and identify that the details relate to a new business deal or opportunity that serves as the catalyst for the conflict."
+      "diveDeep": "Choice 1 is incorrect because there is no mention of a rival company in the opening lines. Choice 2 is incorrect as the text refers to potential growth and new contracts rather than any financial deficit. Choice 3 is incorrect because a production schedule change is not discussed here. A common student error is selecting a choice that sounds like a typical business conflict (like an industry competitor or loss) without verifying if it is present in the text. The key strategy is to locate the specific line reference (lines 1-5) and identify that the details relate to a new business deal or opportunity that serves as the catalyst for the conflict.",
+      "topic": "Close Reading"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Merle's invitation to Franklin to witness Karl Linberg's finished apprentice work displays his respect for the Linberg family's skilled craft. This invitation is intended to inspire Franklin to follow in similar footsteps.",
-      "diveDeep": "Choice 1 is incorrect because Merle is not inviting Franklin out of pride in Franklin's own achievements, but to show him Karl's work. Choice 2 is incorrect as there is no anger directed toward Rudy in this moment. Choice 4 is incorrect because his concern is not about the factory itself, but rather about showcasing the craft to his son. A common mistake is selecting choice 1, thinking the invitation is a proud gesture toward Franklin, but Merle's focus is on using the Linbergs as a model for his son. This illustrates the literary technique of character foil, where the Linbergs' dedication highlights Franklin's lack of interest in the family business."
+      "diveDeep": "Choice 1 is incorrect because Merle is not inviting Franklin out of pride in Franklin's own achievements, but to show him Karl's work. Choice 2 is incorrect as there is no anger directed toward Rudy in this moment. Choice 4 is incorrect because his concern is not about the factory itself, but rather about showcasing the craft to his son. A common mistake is selecting choice 1, thinking the invitation is a proud gesture toward Franklin, but Merle's focus is on using the Linbergs as a model for his son. This illustrates the literary technique of character foil, where the Linbergs' dedication highlights Franklin's lack of interest in the family business.",
+      "topic": "Close Reading"
     },
     {
       "number": 3,
@@ -46,7 +48,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Rudy's 'deep and narrow dignity' is described as that of 'a man who had learned his limitations early,' indicating his contentment with his humble yet respected role in the factory.",
-      "diveDeep": "Choice 2 is incorrect because Rudy's dignity does not relate to Merle's bond with Franklin. Choice 3 is incorrect as Rudy is not focused on Franklin's decisions, and Choice 4 is incorrect because Rudy lacks any ambition to usurp Merle's position. Students might struggle with the phrase 'narrow dignity,' mistakenly equating it with a lack of ambition or resentment (Choice 4), rather than seeing it as a sign of inner peace and satisfaction. This question tests characterization, specifically how minor characters serve as foils to the main characters' conflicts."
+      "diveDeep": "Choice 2 is incorrect because Rudy's dignity does not relate to Merle's bond with Franklin. Choice 3 is incorrect as Rudy is not focused on Franklin's decisions, and Choice 4 is incorrect because Rudy lacks any ambition to usurp Merle's position. Students might struggle with the phrase 'narrow dignity,' mistakenly equating it with a lack of ambition or resentment (Choice 4), rather than seeing it as a sign of inner peace and satisfaction. This question tests characterization, specifically how minor characters serve as foils to the main characters' conflicts.",
+      "topic": "Close Reading"
     },
     {
       "number": 4,
@@ -60,7 +63,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Karl's serious and mature attitude at twenty years old, described in lines 17-21, is attributed to his strict, traditional upbringing as Rudy's son and apprentice.",
-      "diveDeep": "Choice 1 is incorrect because Karl's health is not described as the cause of his demeanor. Choice 3 is incorrect because his schooling is not mentioned as the primary influence on his attitude. Choice 4 is incorrect because his social status does not define his serious demeanor. A common student error is selecting Choice 4, thinking that a machinist's status dictates his behavior, rather than looking at the family influence. The question tests the concept of nurture and family influence on character development."
+      "diveDeep": "Choice 1 is incorrect because Karl's health is not described as the cause of his demeanor. Choice 3 is incorrect because his schooling is not mentioned as the primary influence on his attitude. Choice 4 is incorrect because his social status does not define his serious demeanor. A common student error is selecting Choice 4, thinking that a machinist's status dictates his behavior, rather than looking at the family influence. The question tests the concept of nurture and family influence on character development.",
+      "topic": "Inference"
     },
     {
       "number": 5,
@@ -74,7 +78,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Lines 35 through 42 show the underlying dynamic between Merle and Franklin, where Merle tries to guide his son while Franklin acts politely but remains emotionally detached from his father's passion.",
-      "diveDeep": "Choice 1 is incorrect because there is no direct tension between Merle and Rudy in these lines. Choice 2 is incorrect as Franklin and Karl are not in active conflict. Choice 4 is incorrect because there is no competition between Rudy and Karl. Students often confuse the polite exterior of Merle and Franklin's conversation with a lack of conflict, failing to see the emotional divide. This question tests the analysis of interpersonal dynamics and subtext in character relationships."
+      "diveDeep": "Choice 1 is incorrect because there is no direct tension between Merle and Rudy in these lines. Choice 2 is incorrect as Franklin and Karl are not in active conflict. Choice 4 is incorrect because there is no competition between Rudy and Karl. Students often confuse the polite exterior of Merle and Franklin's conversation with a lack of conflict, failing to see the emotional divide. This question tests the analysis of interpersonal dynamics and subtext in character relationships.",
+      "topic": "Close Reading"
     },
     {
       "number": 6,
@@ -88,7 +93,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The metal plate and cubes represent perfect precision and connection, mirroring Merle's desire for a seamless fit and connection in his relationship with Franklin.",
-      "diveDeep": "Choice 2 is incorrect because the cube is Rudy's apprentice piece, not a symbol of Karl's future ambition. Choice 3 is incorrect as Franklin's obedience is merely superficial, not represented by the perfect fit of the cube. Choice 4 is incorrect because the cube represents craftsmanship rather than Rudy's devotion to the business as a whole. Students often struggle to interpret the symbolic meaning of objects in literature, confusing the literal craftsmanship with the emotional subtext. This question assesses the use of symbolism to develop character motivations and themes."
+      "diveDeep": "Choice 2 is incorrect because the cube is Rudy's apprentice piece, not a symbol of Karl's future ambition. Choice 3 is incorrect as Franklin's obedience is merely superficial, not represented by the perfect fit of the cube. Choice 4 is incorrect because the cube represents craftsmanship rather than Rudy's devotion to the business as a whole. Students often struggle to interpret the symbolic meaning of objects in literature, confusing the literal craftsmanship with the emotional subtext. This question assesses the use of symbolism to develop character motivations and themes.",
+      "topic": "Close Reading"
     },
     {
       "number": 7,
@@ -102,7 +108,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Franklin’s behavior in lines 49 through 52 shows him going along with his father's enthusiasm simply to avoid conflict and keep the peace.",
-      "diveDeep": "Choice 2 is incorrect because Franklin has no interest in replicating the craft. Choice 3 is incorrect as he does not want to work with his father, and Choice 4 is incorrect because he actively dreads taking over the factory. Students often mistake Franklin's agreeable words for genuine interest in the factory or collaboration (Choices 2 and 3). This question requires distinguishing between a character's outward actions and their internal motivations, a key aspect of characterization."
+      "diveDeep": "Choice 2 is incorrect because Franklin has no interest in replicating the craft. Choice 3 is incorrect as he does not want to work with his father, and Choice 4 is incorrect because he actively dreads taking over the factory. Students often mistake Franklin's agreeable words for genuine interest in the factory or collaboration (Choices 2 and 3). This question requires distinguishing between a character's outward actions and their internal motivations, a key aspect of characterization.",
+      "topic": "Close Reading"
     },
     {
       "number": 8,
@@ -116,7 +123,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "Lines 74 and 75 reveal the moment Franklin realizes the burden of his father's plans and experiences a wave of dread about his future at the factory.",
-      "diveDeep": "Choice 1 is incorrect because it is a routine observation about hunting, not a perspective shift. Choice 2 is incorrect because it is a simple recitation of facts about the Swedish apprentice puzzle. Choice 4 is incorrect because it represents the climax of the conflict rather than the initial internal shift in perspective. A common error is choosing Choice 4 because it is a dramatic statement, but the shift actually occurs earlier when he is 'appalled' by the idea. This question tests the ability to track character development and structural shifts in a narrative."
+      "diveDeep": "Choice 1 is incorrect because it is a routine observation about hunting, not a perspective shift. Choice 2 is incorrect because it is a simple recitation of facts about the Swedish apprentice puzzle. Choice 4 is incorrect because it represents the climax of the conflict rather than the initial internal shift in perspective. A common error is choosing Choice 4 because it is a dramatic statement, but the shift actually occurs earlier when he is 'appalled' by the idea. This question tests the ability to track character development and structural shifts in a narrative.",
+      "topic": "Close Reading"
     },
     {
       "number": 9,
@@ -130,7 +138,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "This quotation directly highlights the central theme of the story: the pain and pressure of a son who cannot match his father's career expectations and lacks a similar passion.",
-      "diveDeep": "Choice 1 is incorrect because it describes Rudy's personal contentment, which is a secondary detail. Choice 2 is incorrect because it describes Karl's specific demeanor rather than the universal thematic conflict of the story. Choice 3 is incorrect because it describes the physical attributes of the apprentice piece. Students often choose options that describe characters vividly rather than the sentence that states the universal thematic conflict. This question tests the identification of a central theme and the supporting textual evidence."
+      "diveDeep": "Choice 1 is incorrect because it describes Rudy's personal contentment, which is a secondary detail. Choice 2 is incorrect because it describes Karl's specific demeanor rather than the universal thematic conflict of the story. Choice 3 is incorrect because it describes the physical attributes of the apprentice piece. Students often choose options that describe characters vividly rather than the sentence that states the universal thematic conflict. This question tests the identification of a central theme and the supporting textual evidence.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 10,
@@ -144,7 +153,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The line shows that a grain of sand does not care about or respond to human presence, representing nature's complete indifference to humanity.",
-      "diveDeep": "Choice 1 is incorrect because the poem does not express resentment toward nature. Choice 2 is incorrect because it is not about superiority, but rather a lack of mutual interaction. Choice 3 is incorrect because the text emphasizes the complete lack of human impact or control over the grain. Students may confuse indifference with hostility or superiority (Choice 2) because they assume the poem is portraying nature in an active role, rather than as passive and unaware. This question tests the comprehension of central ideas and tone in poetry."
+      "diveDeep": "Choice 1 is incorrect because the poem does not express resentment toward nature. Choice 2 is incorrect because it is not about superiority, but rather a lack of mutual interaction. Choice 3 is incorrect because the text emphasizes the complete lack of human impact or control over the grain. Students may confuse indifference with hostility or superiority (Choice 2) because they assume the poem is portraying nature in an active role, rather than as passive and unaware. This question tests the comprehension of central ideas and tone in poetry.",
+      "topic": "Close Reading"
     },
     {
       "number": 11,
@@ -158,7 +168,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "Lines 14 through 18 describe the view and the lake as existing 'colorless, shapeless, soundless,' which contrasts with the sensory descriptions humans rely on.",
-      "diveDeep": "Choice 2 is incorrect because the lines emphasize simplicity and a lack of sensation, not complexity. Choice 3 is incorrect as the poem suggests the natural scene is void of human-defined beauty. Choice 4 is incorrect because it focuses on nature's isolation from human life, not its integration into it. Students often get tripped up by the word 'colorless' and think the author is lamenting a lack of beauty, rather than making a philosophical point about human perception. This question tests how the author uses sensory details and contrast to build a theme."
+      "diveDeep": "Choice 2 is incorrect because the lines emphasize simplicity and a lack of sensation, not complexity. Choice 3 is incorrect as the poem suggests the natural scene is void of human-defined beauty. Choice 4 is incorrect because it focuses on nature's isolation from human life, not its integration into it. Students often get tripped up by the word 'colorless' and think the author is lamenting a lack of beauty, rather than making a philosophical point about human perception. This question tests how the author uses sensory details and contrast to build a theme.",
+      "topic": "Close Reading"
     },
     {
       "number": 12,
@@ -172,7 +183,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "Lines 30 through 33 state that seconds pass 'only for us' and that time passing like a courier is just 'our simile,' emphasizing that time and meaning are constructs of human perception.",
-      "diveDeep": "Choice 1 is incorrect as death is not discussed in these lines. Choice 3 is incorrect because anticipation is not the subject of the stanza. Choice 4 is incorrect because time passing is a normal occurrence, not an unusual phenomenon. A common mistake is interpreting the simile literally as a physical event rather than a figurative comment on how humans process time. This question tests how figurative language reflects the thematic dichotomy between human thoughts and objective reality."
+      "diveDeep": "Choice 1 is incorrect as death is not discussed in these lines. Choice 3 is incorrect because anticipation is not the subject of the stanza. Choice 4 is incorrect because time passing is a normal occurrence, not an unusual phenomenon. A common mistake is interpreting the simile literally as a physical event rather than a figurative comment on how humans process time. This question tests how figurative language reflects the thematic dichotomy between human thoughts and objective reality.",
+      "topic": "Close Reading"
     },
     {
       "number": 13,
@@ -186,7 +198,8 @@ export default {
       ],
       "correct": 2,
       "explanation": "The final stanza uses the simile of time as a courier with make-believe haste to reinforce the central idea that human concepts are projections onto an indifferent universe.",
-      "diveDeep": "Choice 1 is incorrect because the author does not alter the poem's main thesis. Choice 2 is incorrect because the final lines do not focus on promoting a human value. Choice 4 is incorrect because there is no narrative conflict to resolve in this philosophical poem. Students often pick Choice 1 or 2 when they fail to connect the final stanza's concluding tone with the overall theme of the poem. This question assesses the function of figurative language and structure in developing a central idea."
+      "diveDeep": "Choice 1 is incorrect because the author does not alter the poem's main thesis. Choice 2 is incorrect because the final lines do not focus on promoting a human value. Choice 4 is incorrect because there is no narrative conflict to resolve in this philosophical poem. Students often pick Choice 1 or 2 when they fail to connect the final stanza's concluding tone with the overall theme of the poem. This question assesses the function of figurative language and structure in developing a central idea.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 14,
@@ -200,7 +213,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The poem develops its thesis by listing various natural elements—such as the grain of sand, the lake, the wind, and time—as examples of things that are indifferent to human categorization.",
-      "diveDeep": "Choice 2 is incorrect as the poem is literal and philosophical rather than hyperbolic. Choice 3 is incorrect because the poem does not trace causal chains between events. Choice 4 is incorrect because there are no questions posed and answered in the text. Students may mistakenly look for complex rhetorical structures like cause-and-effect when the development is actually a simple catalog of examples. This tests the student's understanding of text structure and development."
+      "diveDeep": "Choice 2 is incorrect as the poem is literal and philosophical rather than hyperbolic. Choice 3 is incorrect because the poem does not trace causal chains between events. Choice 4 is incorrect because there are no questions posed and answered in the text. Students may mistakenly look for complex rhetorical structures like cause-and-effect when the development is actually a simple catalog of examples. This tests the student's understanding of text structure and development.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 15,
@@ -214,7 +228,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The opening lines of the Manifesto warn that humanity is in a 'tragic situation' and must 'appraise the perils' of weapons of mass destruction, establishing a tone of caution.",
-      "diveDeep": "Choice 2 is incorrect because the authors believe action can still save humanity, so it is not futile. Choice 3 is incorrect as the tone is cooperative and global rather than hostile. Choice 4 is incorrect because they are appealing to humanity rather than making accusations. A common error is choosing 'futility' due to the mention of a 'tragic situation,' but the purpose of a manifesto is to inspire change, making 'caution' the accurate description. This question tests tone identification based on word choice and authorial intent."
+      "diveDeep": "Choice 2 is incorrect because the authors believe action can still save humanity, so it is not futile. Choice 3 is incorrect as the tone is cooperative and global rather than hostile. Choice 4 is incorrect because they are appealing to humanity rather than making accusations. A common error is choosing 'futility' due to the mention of a 'tragic situation,' but the purpose of a manifesto is to inspire change, making 'caution' the accurate description. This question tests tone identification based on word choice and authorial intent.",
+      "topic": "Author's Craft & Tone"
     },
     {
       "number": 16,
@@ -228,7 +243,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Lines 9 through 12 state that military victory is no longer possible and that any military contest would be 'disastrous to all parties,' establishing that modern warfare leads only to mutual ruin.",
-      "diveDeep": "Choice 1 is incorrect because the passage opposes modern warfare. Choice 2 is incorrect because the authors argue against seeking military victory over Communism. Choice 3 is incorrect because the text does not claim that the ideologies of the two sides are similar, only that their destruction in war would be. Students often get confused by the reference to Communism and select Choice 2, missing the broader pacifist argument. This question tests the comprehension of logical arguments in a persuasive text."
+      "diveDeep": "Choice 1 is incorrect because the passage opposes modern warfare. Choice 2 is incorrect because the authors argue against seeking military victory over Communism. Choice 3 is incorrect because the text does not claim that the ideologies of the two sides are similar, only that their destruction in war would be. Students often get confused by the reference to Communism and select Choice 2, missing the broader pacifist argument. This question tests the comprehension of logical arguments in a persuasive text.",
+      "topic": "Inference"
     },
     {
       "number": 17,
@@ -242,7 +258,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "These lines describe the consensus among eminent scientists and experts who warn of the disastrous possibilities of nuclear war, regardless of their political backgrounds.",
-      "diveDeep": "Choice 1 is incorrect because the lines do not talk about the knowledge or gloominess of experts. Choice 3 is incorrect because these specific lines focus on expert warnings rather than direct public recruitment. Choice 4 is incorrect as the authors value and represent the involvement of scientists. A common mistake is selecting Choice 1, thinking that experts represents debate, when the text actually emphasizes their consensus. This question tests how supporting evidence and expert testimony refine a central argument."
+      "diveDeep": "Choice 1 is incorrect because the lines do not talk about the knowledge or gloominess of experts. Choice 3 is incorrect because these specific lines focus on expert warnings rather than direct public recruitment. Choice 4 is incorrect as the authors value and represent the involvement of scientists. A common mistake is selecting Choice 1, thinking that experts represents debate, when the text actually emphasizes their consensus. This question tests how supporting evidence and expert testimony refine a central argument.",
+      "topic": "Central Idea & Theme"
     },
     {
       "number": 18,
@@ -256,7 +273,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The question 'Shall we put an end to the human race; or shall mankind renounce war?' presents a stark and unavoidable choice between these two options.",
-      "diveDeep": "Choice 2 is incorrect because national sovereignty is mentioned later as a hurdle, not the primary emphasis of this question. Choice 3 is incorrect because the question highlights the danger of these weapons rather than their likely elimination. Choice 4 is incorrect because a new world power is not discussed. Students often fail to see the urgency of the rhetorical choice, selecting choices that discuss policy details like sovereignty (Choice 2). This question tests the use of rhetorical questions to stress the urgency and inevitability of a core dilemma."
+      "diveDeep": "Choice 2 is incorrect because national sovereignty is mentioned later as a hurdle, not the primary emphasis of this question. Choice 3 is incorrect because the question highlights the danger of these weapons rather than their likely elimination. Choice 4 is incorrect because a new world power is not discussed. Students often fail to see the urgency of the rhetorical choice, selecting choices that discuss policy details like sovereignty (Choice 2). This question tests the use of rhetorical questions to stress the urgency and inevitability of a core dilemma.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 19,
@@ -270,7 +288,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The authors state that 'mankind' feels vague and abstract, meaning that average people have a limited or hazy understanding of the shared danger to the human race.",
-      "diveDeep": "Choice 1 is incorrect because a 'dim' apprehension is the opposite of a realistic understanding. Choice 3 is incorrect as the term implies a lack of clarity, not a negative bias. Choice 4 is incorrect because it is not insightful. A common error is choosing 'pessimistic' because the topic of nuclear war is gloomy, but the phrase specifically describes the vagueness of the concept. This question tests vocabulary in context and the ability to interpret figurative descriptors."
+      "diveDeep": "Choice 1 is incorrect because a 'dim' apprehension is the opposite of a realistic understanding. Choice 3 is incorrect as the term implies a lack of clarity, not a negative bias. Choice 4 is incorrect because it is not insightful. A common error is choosing 'pessimistic' because the topic of nuclear war is gloomy, but the phrase specifically describes the vagueness of the concept. This question tests vocabulary in context and the ability to interpret figurative descriptors.",
+      "topic": "Inference"
     },
     {
       "number": 20,
@@ -284,7 +303,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The text calls the hope that war can continue without H-bombs 'illusory' because any peacetime agreement would be broken in war, meaning this hope is deceptive and false.",
-      "diveDeep": "Choice 2 is incorrect because an illusory hope cannot be sustained. Choice 3 is incorrect because, while the situation is regrettable, the word itself denotes falsehood rather than sadness. Choice 4 is incorrect as it is the exact opposite of illusory. Students may confuse 'illusory' with 'regrettable' due to the negative context of the passage, but the focus is on the unrealistic and false nature of the hope. This is a standard context-clue vocabulary question."
+      "diveDeep": "Choice 2 is incorrect because an illusory hope cannot be sustained. Choice 3 is incorrect because, while the situation is regrettable, the word itself denotes falsehood rather than sadness. Choice 4 is incorrect as it is the exact opposite of illusory. Students may confuse 'illusory' with 'regrettable' due to the negative context of the passage, but the focus is on the unrealistic and false nature of the hope. This is a standard context-clue vocabulary question.",
+      "topic": "Word Meaning in Context"
     },
     {
       "number": 21,
@@ -298,7 +318,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "The authors state that while an agreement to renounce nuclear weapons is not an ultimate solution, it would serve important purposes like diminishing tension and lessening the fear of sudden attack, making it helpful.",
-      "diveDeep": "Choice 1 is incorrect because the authors explicitly state it is not an 'ultimate solution,' so it is not fully successful on its own. Choices 2 and 3 are incorrect because public opposition or controversy is not discussed in this section. Students often confuse a 'first step' with complete success (Choice 1) or look for negative attributes due to the overall grim tone. This question tests the comprehension of nuanced policy proposals and recommendations within a text."
+      "diveDeep": "Choice 1 is incorrect because the authors explicitly state it is not an 'ultimate solution,' so it is not fully successful on its own. Choices 2 and 3 are incorrect because public opposition or controversy is not discussed in this section. Students often confuse a 'first step' with complete success (Choice 1) or look for negative attributes due to the overall grim tone. This question tests the comprehension of nuanced policy proposals and recommendations within a text.",
+      "topic": "Inference"
     },
     {
       "number": 22,
@@ -312,7 +333,8 @@ export default {
       ],
       "correct": 3,
       "explanation": "Lines 48 through 52 argue that issues must not be decided by war, regardless of whether a person is Communist or anti-Communist, Asian, European, or American, which supports the appeal to 'Remember your humanity.'",
-      "diveDeep": "Choice 1 is incorrect because the lines do not talk about the knowledge or gloominess of experts. Choice 2 is incorrect because national sovereignty is not the focus of this passage. Choice 3 is incorrect because the lines reject war rather than suggest ways for it to continue. A common student mistake is failing to match the universal, non-partisan appeal of lines 48-52 with the matching thematic summary in line 55. This question tests the logical connection between supporting details and main arguments."
+      "diveDeep": "Choice 1 is incorrect because the lines do not talk about the knowledge or gloominess of experts. Choice 2 is incorrect because national sovereignty is not the focus of this passage. Choice 3 is incorrect because the lines reject war rather than suggest ways for it to continue. A common student mistake is failing to match the universal, non-partisan appeal of lines 48-52 with the matching thematic summary in line 55. This question tests the logical connection between supporting details and main arguments.",
+      "topic": "Argument & Structure"
     },
     {
       "number": 23,
@@ -326,7 +348,8 @@ export default {
       ],
       "correct": 1,
       "explanation": "The resolution urges governments to acknowledge that their purposes cannot be furthered by world war and to find peaceful means to settle disputes, emphasizing the importance of non-military solutions.",
-      "diveDeep": "Choice 1 is incorrect because it invites them to subscribe to the resolution, not just debate it. Choice 3 is incorrect as the resolution focus is on peaceful dispute settlement rather than the sole physical disarmament of weapons. Choice 4 is incorrect because it is an appeal rather than a condemnation of specific violations. Students may choose Choice 3 because nuclear weapons are mentioned, but the resolution's core action is finding 'peaceful means for the settlement of all matters of dispute.' This question tests the identification of an author's final purpose or call to action."
+      "diveDeep": "Choice 1 is incorrect because it invites them to subscribe to the resolution, not just debate it. Choice 3 is incorrect as the resolution focus is on peaceful dispute settlement rather than the sole physical disarmament of weapons. Choice 4 is incorrect because it is an appeal rather than a condemnation of specific violations. Students may choose Choice 3 because nuclear weapons are mentioned, but the resolution's core action is finding 'peaceful means for the settlement of all matters of dispute.' This question tests the identification of an author's final purpose or call to action.",
+      "topic": "Close Reading"
     },
     {
       "number": 24,
@@ -340,7 +363,8 @@ export default {
       ],
       "correct": 0,
       "explanation": "The Manifesto concludes by calling on scientists and the general public to urge governments to settle disputes through peaceful, international conflict resolution.",
-      "diveDeep": "Choice 2 is incorrect because the text does not discuss democratic elections or voting. Choice 3 is incorrect because the goal is not general discussion, but specific advocacy for peace. Choice 4 is incorrect as the authors argue that preparation for a nuclear attack is impossible and futile. A common student mistake is choosing practical modern actions like voting (Choice 2) rather than the text's broad philosophical appeal to global advocacy. This question tests the understanding of the text's ultimate call to action and its implications for the reader."
+      "diveDeep": "Choice 2 is incorrect because the text does not discuss democratic elections or voting. Choice 3 is incorrect because the goal is not general discussion, but specific advocacy for peace. Choice 4 is incorrect as the authors argue that preparation for a nuclear attack is impossible and futile. A common student mistake is choosing practical modern actions like voting (Choice 2) rather than the text's broad philosophical appeal to global advocacy. This question tests the understanding of the text's ultimate call to action and its implications for the reader.",
+      "topic": "Close Reading"
     }
   ]
 }
