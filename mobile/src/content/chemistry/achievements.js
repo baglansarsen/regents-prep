@@ -23,11 +23,11 @@ export const ACHIEVEMENTS = [
     condition: s => s.topicsPassed?.has(TOPICS.CHEMICAL_BONDING),
   },
   {
-    id: 'chem_energy_alchemist',
-    title: 'Calorimetry Master',
-    description: 'Pass Matter & Energy with 80%+',
-    icon: '🔥',
-    condition: s => s.topicsPassed?.has(TOPICS.MATTER_AND_ENERGY),
+    id: 'chem_table_master',
+    title: 'Reference Table Master',
+    description: 'Pass Reference Tables & Data with 80%+',
+    icon: '📊',
+    condition: s => s.topicsPassed?.has(TOPICS.SCIENCE_PRACTICES),
   },
   {
     id: 'chem_organic_synthesizer',

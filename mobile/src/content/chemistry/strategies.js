@@ -67,8 +67,9 @@ export const STRATEGIES = {
     ]
   },
 
-  'chemistry-u4': { // Matter & Energy
+  'chemistry-sp': { // Reference Tables & Data (science practices)
     mentalPrep: [
+      'The Chemistry Reference Tables answer most questions — know what each holds (S, F, G, I, J, K/L/M, T) so you can find data fast.',
       'Locate Table T for thermal and gas formulas: q = mCΔT, q = mHf, q = mHv, and the Combined Gas Law.',
       'Know the difference between phase change heat: Hf is for melting/freezing; Hv is for boiling/condensation.'
     ],
