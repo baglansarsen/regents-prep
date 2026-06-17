@@ -1,8 +1,22 @@
-import { UNITS as RAW_UNITS, getLessonQuestions } from './units'
+export { TOPICS, TOPIC_ICONS, shuffled } from './questions'
+export { flashcards, FLASHCARD_TOPIC_LIST } from './flashcards'
+export { ACHIEVEMENTS as achievements } from './achievements'
+export { UNITS, getLessonQuestions, getByTopic, buildDiagnosticSet, getWritten, getBySkill, writtenLabel } from './units'
+export { STRATEGIES as strategies } from './strategies'
 
-export const UNITS = RAW_UNITS.map((u) => ({ ...u, topic: u.id }))
-export { getLessonQuestions }
+import { TOPICS } from './questions'
+import { allQuestions, getByTopic } from './units'
 
-export const questions = []
-export function getByTopic() { return [] }
-export function getExamContextQuestions() { return [] }
+export const questions = allQuestions()
+
+export const TOPIC_ORDER = [
+  TOPICS.DOCUMENTS,
+  TOPICS.CAUSATION,
+  TOPICS.IMAGES,
+  TOPICS.MAPS,
+  TOPICS.THEMES,
+]
+
+export function getExamContextQuestions(topic) {
+  return getByTopic(topic).filter((q) => q.context).sort(() => Math.random() - 0.5)
+}
