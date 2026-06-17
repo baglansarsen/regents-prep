@@ -535,8 +535,10 @@ export default function ExamPickerScreen({ navigation }) {
         </TouchableOpacity>
         {sd.getWritten && (
           <TouchableOpacity style={[s.practiceBtn, duoBtn('#0891b2', '#0e7490')]} onPress={practiceWritten} activeOpacity={0.85}>
-            <Text style={s.practiceIcon}>✍️</Text>
-            <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>Written{'\n'}Practice</Text>
+            <Text style={s.practiceIcon}>{sd.writtenLabel === 'Worked Examples' ? '🧠' : '✍️'}</Text>
+            <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>
+              {(sd.writtenLabel ?? 'Written Practice').replace(' ', '\n')}
+            </Text>
           </TouchableOpacity>
         )}
       </View>

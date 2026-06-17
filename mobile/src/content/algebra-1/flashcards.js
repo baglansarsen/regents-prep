@@ -2,11 +2,11 @@ import { TOPICS } from './questions'
 
 export const flashcards = [
   // Linear Equations & Inequalities
-  { topic: TOPICS.LINEAR_EQUATIONS, term: 'Slope', definition: 'The rate of change of a line, calculated as rise over run: m = (y₂ − y₁)/(x₂ − x₁).' },
-  { topic: TOPICS.LINEAR_EQUATIONS, term: 'Slope-Intercept Form', definition: 'y = mx + b, where m is the slope and b is the y-intercept.' },
-  { topic: TOPICS.LINEAR_EQUATIONS, term: 'y-intercept', definition: 'The point where a line crosses the y-axis; found by setting x = 0.' },
-  { topic: TOPICS.LINEAR_EQUATIONS, term: 'x-intercept', definition: 'The point where a line crosses the x-axis; found by setting y = 0.' },
-  { topic: TOPICS.LINEAR_EQUATIONS, term: 'Inequality', definition: 'A mathematical statement that compares two expressions using symbols like <, >, ≤, or ≥.' },
+  { topic: TOPICS.LINEAR_FUNCTIONS, term: 'Slope', definition: 'The rate of change of a line, calculated as rise over run: m = (y₂ − y₁)/(x₂ − x₁).' },
+  { topic: TOPICS.LINEAR_FUNCTIONS, term: 'Slope-Intercept Form', definition: 'y = mx + b, where m is the slope and b is the y-intercept.' },
+  { topic: TOPICS.LINEAR_FUNCTIONS, term: 'y-intercept', definition: 'The point where a line crosses the y-axis; found by setting x = 0.' },
+  { topic: TOPICS.LINEAR_FUNCTIONS, term: 'x-intercept', definition: 'The point where a line crosses the x-axis; found by setting y = 0.' },
+  { topic: TOPICS.LINEAR_SOLVING, term: 'Inequality', definition: 'A mathematical statement that compares two expressions using symbols like <, >, ≤, or ≥.' },
 
   // Functions & Relations
   { topic: TOPICS.FUNCTIONS, term: 'Function', definition: 'A relation in which every input (x-value) maps to exactly one output (y-value).' },
@@ -44,14 +44,14 @@ export const flashcards = [
   { topic: TOPICS.STATISTICS, term: 'Outlier', definition: 'A data value that is significantly higher or lower than the rest of the data set.' },
 
   // Using the Graphing Calculator
-  { topic: TOPICS.CALCULATOR, term: '▶Frac', definition: 'MATH ▶ 1: ▶Frac converts a decimal answer to an exact fraction — handy for matching fraction answer choices.' },
-  { topic: TOPICS.CALCULATOR, term: '(-) Negation Key', definition: 'The gray (-) key enters a negative number; the blue − key subtracts. Using the wrong one causes a SYNTAX ERROR.' },
-  { topic: TOPICS.CALCULATOR, term: 'Y= Editor', definition: 'Where you type functions to graph (Y1, Y2, …). Press GRAPH afterward to display them.' },
-  { topic: TOPICS.CALCULATOR, term: 'ZStandard', definition: 'ZOOM ▶ 6: ZStandard resets the window to −10 to 10 on both axes — a reliable default view.' },
-  { topic: TOPICS.CALCULATOR, term: '2nd CALC', definition: 'The CALCULATE menu (2nd TRACE): value, zero, minimum, maximum, and intersect — tools for reading key points off a graph.' },
-  { topic: TOPICS.CALCULATOR, term: 'zero', definition: '2nd CALC ▶ 2: zero finds an x-intercept (root) of a graph using a left bound, right bound, and guess.' },
-  { topic: TOPICS.CALCULATOR, term: 'intersect', definition: '2nd CALC ▶ 5: intersect finds where two graphs meet — the graphical solution to a system of equations.' },
-  { topic: TOPICS.CALCULATOR, term: 'LinReg(ax+b)', definition: 'STAT ▶ CALC ▶ 4: LinReg fits a line y = ax + b to data in lists L1/L2; r reports how strong the fit is.' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: '▶Frac', definition: 'MATH ▶ 1: ▶Frac converts a decimal answer to an exact fraction — handy for matching fraction answer choices.' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: '(-) Negation Key', definition: 'The gray (-) key enters a negative number; the blue − key subtracts. Using the wrong one causes a SYNTAX ERROR.' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: 'Y= Editor', definition: 'Where you type functions to graph (Y1, Y2, …). Press GRAPH afterward to display them.' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: 'ZStandard', definition: 'ZOOM ▶ 6: ZStandard resets the window to −10 to 10 on both axes — a reliable default view.' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: '2nd CALC', definition: 'The CALCULATE menu (2nd TRACE): value, zero, minimum, maximum, and intersect — tools for reading key points off a graph.' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: 'zero', definition: '2nd CALC ▶ 2: zero finds an x-intercept (root) of a graph using a left bound, right bound, and guess.' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: 'intersect', definition: '2nd CALC ▶ 5: intersect finds where two graphs meet — the graphical solution to a system of equations.' },
+  { topic: TOPICS.PROBLEM_SOLVING, term: 'LinReg(ax+b)', definition: 'STAT ▶ CALC ▶ 4: LinReg fits a line y = ax + b to data in lists L1/L2; r reports how strong the fit is.' },
 ]
 
 export const FLASHCARD_TOPIC_LIST = Object.values(TOPICS)

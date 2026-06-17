@@ -1,5 +1,5 @@
 export const STRATEGIES = {
-  'algebra-1-u1': {
+  'algebra-1-solve': { // Solving Equations & Inequalities (covers the Linear split)
     mentalPrep: [
       'Isolate the variable by performing inverse operations in reverse order of PEMDAS.',
       'Remember to flip the inequality sign when multiplying or dividing by a negative number.',
@@ -165,5 +165,29 @@ export const STRATEGIES = {
       'Store repeated values with STO▶ instead of retyping them — it is faster and avoids typos.',
       'Build a TABLE (2nd GRAPH) to scan many input/output pairs at once rather than evaluating one at a time.'
     ]
+  },
+
+  'algebra-1-psm': { // Problem-Solving & Modeling (word problems + justify/explain)
+    mentalPrep: [
+      'Word problems: define your variable in words first ("let x = …"), then translate each sentence into an equation/expression.',
+      'On the Regents, constructed-response is graded on WORK, not just the answer — show every step so you earn method credit even if the final number slips.',
+      'For "explain/justify" parts, answer in a sentence that names the math reason (e.g. "because the slopes are equal, the lines are parallel").',
+    ],
+    answeringTechniques: [
+      'Identify what is asked, list the givens, choose a model (equation, inequality, system, or function), solve, then answer in context with units.',
+      'Check reasonableness: a negative time, a fractional person, or a price of $0 means re-read the problem.',
+      'Graphing-required parts: label axes and scale, plot accurately, and state the requested feature (vertex, intercept, solution point).',
+    ],
+    guessingStrategy: [
+      'Rate problems are usually linear (y = mx + b); growth/decay or "doubling" problems are usually exponential.',
+      'If a problem gives two conditions about two unknowns, it is almost always a system of equations.',
+    ],
+    processOfElimination: [
+      'For multiple choice modeling, plug the scenario\'s numbers into each equation and discard ones that do not fit the given values.',
+    ],
+    timeManagement: [
+      'Constructed-response is worth the most points — budget time to show full work rather than rushing the MC.',
+      'If stuck on the algebra, still set up the model and label the graph; partial credit is real on the Regents.',
+    ],
   }
 }

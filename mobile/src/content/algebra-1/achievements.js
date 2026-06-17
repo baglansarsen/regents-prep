@@ -6,7 +6,7 @@ export const ACHIEVEMENTS = [
     title: 'Equation Solver',
     description: 'Pass Linear Equations & Inequalities with 80%+',
     icon: '📏',
-    condition: s => s.topicsPassed?.has(TOPICS.LINEAR_EQUATIONS),
+    condition: s => s.topicsPassed?.has(TOPICS.LINEAR_SOLVING),
   },
   {
     id: 'a1_functions_master',
@@ -62,6 +62,6 @@ export const ACHIEVEMENTS = [
     title: 'Calculator Pro',
     description: 'Pass Using the Graphing Calculator with 80%+',
     icon: '🧮',
-    condition: s => s.topicsPassed?.has(TOPICS.CALCULATOR),
+    condition: s => s.topicsPassed?.has(TOPICS.PROBLEM_SOLVING),
   },
 ]

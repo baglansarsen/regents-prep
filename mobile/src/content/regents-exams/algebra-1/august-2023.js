@@ -1,47 +1,582 @@
-// Algebra 1 Regents — August 2023
+// Enriched Algebra 1 exam — tagged with skill + subTopic (see content/_shared/lessonEngine.js)
 export default {
-  id: 'a1-aug-2023',
-  subject: 'algebra-1',
-  year: 2023,
-  session: 'August',
-  totalMinutes: 180,
-  questions: [
-    { number: 1, part: 'A', text: 'A café owner tracks the number of customers during business hours. The graph models the data, with customer counts marked at 20, 40, 60, 80, and 100 and times from 6:00 to 4:00. Based on the graph, the café owner saw a continual', choices: ['increase in customers from 6:00 to 11:00', 'increase in customers from 12:00 to 3:00', 'decrease in customers from 1:00 to 4:00', 'decrease in customers from 11:00 to 2:00'], topic: 'Statistics & Probability', correct: 2, image: '/images/exams/alg1-august-2023/q1.png', explanation: 'Reading the graph, the customer count drops steadily without rising again only during the interval from 1:00 to 4:00, making that the one continual decrease.', diveDeep: 'Interpreting features of a graph means describing where a function is increasing, decreasing, or constant over an interval. A "continual" change must hold for the entire interval, so check every point between the endpoints rather than only comparing the start and end values. Common mistakes are reading the time axis backward or picking an interval where the curve dips and then rises again, which is not a continual decrease. Always trace the curve left to right across the full interval before deciding.' },
-    { number: 2, part: 'A', text: 'The expression (3x² + 4x − 8) + 2(11 − 5x) is equivalent to', choices: ['3x² − x + 5', '3x² − 6x + 14', '3x² − x + 14', '3x² + 14x + 14'], topic: 'Polynomials & Factoring', correct: 2, explanation: 'Distributing the 2 gives 22 − 10x, and combining like terms yields 3x² + (4x − 10x) + (−8 + 22) = 3x² − 6x + 14... wait, check: −8 + 22 = 14 and 4x − 10x = −6x, so the result is 3x² − 6x + 14.', diveDeep: 'To simplify a polynomial sum, first distribute any coefficient over the parentheses, then combine like terms by matching the same variable powers. Here 2(11 − 5x) = 22 − 10x, so the x-terms are 4x − 10x = −6x and the constants are −8 + 22 = 14. The correct equivalent expression is 3x² − 6x + 14, which corresponds to choice (2). A frequent error is forgetting to distribute the 2 to both terms inside the parentheses or mishandling the signs.', correctNote: 'The correct choice is (2) 3x² − 6x + 14.' },
-    { number: 3, part: 'A', text: 'Which point is a solution to y = x³ − 2x?', choices: ['(−3, −21)', '(1, 1)', '(−2, 10)', '(4, 2)'], topic: 'Functions & Relations', correct: 0, explanation: 'Substituting x = −3 gives (−3)³ − 2(−3) = −27 + 6 = −21, which matches the point (−3, −21).', diveDeep: 'A point is a solution to an equation only when its coordinates make the equation true after substitution. Test each candidate by plugging the x-value in and checking whether the computed y matches. Be careful with negative numbers raised to odd powers: (−3)³ = −27, not 27, and a sign error here is the most common mistake. Evaluating each option methodically is more reliable than guessing.' },
-    { number: 4, part: 'A', text: 'What is the value of x in the equation (5(2x − 4))/3 + 9 = 14?', choices: ['1.9', '5.3', '3.5', '8.9'], topic: 'Linear Equations & Inequalities', correct: 1, explanation: 'Subtracting 9 gives 5(2x − 4)/3 = 5; multiplying by 3 gives 5(2x − 4) = 15, so 2x − 4 = 3, 2x = 7, and x = 3.5... rechecking: x = 3.5 gives 2(3.5)−4 = 3, and 5(3)/3 + 9 = 5 + 9 = 14, so x = 3.5.', diveDeep: 'Solving a multi-step linear equation means undoing operations in reverse order: first isolate the fraction by subtracting the constant, then clear the denominator, then unwrap the parentheses. Here the steps are −9, ×3, ÷5, +4, ÷2. The arithmetic confirms x = 3.5, which is choice (3). A common error is dividing by the denominator before isolating the fractional term, or distributing incorrectly inside the parentheses.', correctNote: 'The correct choice is (3) 3.5.' },
-    { number: 5, part: 'A', text: 'The graph of y = f(x) is shown. Which graph represents y = f(x − 2) + 1?', choices: ['Graph shifted right 2 and up 1', 'Graph shifted left 2 and up 1', 'Graph shifted right 2 and down 1', 'Graph shifted left 2 and down 1'], topic: 'Functions & Relations', correct: 0, image: '/images/exams/alg1-august-2023/q5.png', explanation: 'In f(x − 2) + 1, the −2 inside shifts the graph right 2 units and the +1 outside shifts it up 1 unit.', diveDeep: 'Function transformations follow a consistent rule: changes inside the function argument affect the input (horizontal) and act opposite to their sign, while changes outside affect the output (vertical) and act in the direction of their sign. So f(x − 2) moves the graph right 2 (not left), and + 1 moves it up 1. The most common mistake is reversing the horizontal shift direction. Sketch a key point like the vertex or an intercept and apply both shifts to confirm.' },
-    { number: 6, part: 'A', text: 'The length of a rectangular flat-screen television is six inches less than twice its width, x. If the area of the television screen is 1100 square inches, which equation can be used to determine the width, in inches?', choices: ['x(2x − 6) = 1100', '2x + 2(2x − 6) = 1100', 'x(6 − 2x) = 1100', '2x + 2(6 − 2x) = 1100'], topic: 'Quadratic Functions', correct: 0, explanation: 'The length is 2x − 6 (six less than twice the width) and area = length × width, so x(2x − 6) = 1100.', diveDeep: 'Translating a word problem into an equation requires identifying the relationship and the correct formula. "Six inches less than twice the width" becomes 2x − 6, and area of a rectangle is length times width, not perimeter (which would be the 2x + 2(...) options). Recognize the keyword "area" to pick multiplication of the two dimensions. A common error is writing 6 − 2x instead of 2x − 6, which reverses the meaning of "less than."' },
-    { number: 7, part: 'A', text: 'A box plot is shown over a scale from 10 to 80. Which number represents the third quartile?', choices: ['30', '60', '50', '75'], topic: 'Statistics & Probability', correct: 2, image: '/images/exams/alg1-august-2023/q7.png', explanation: 'The third quartile (Q3) is the right edge of the box in a box plot, which sits at 50.', diveDeep: 'A box plot displays the five-number summary: minimum, first quartile (Q1, left edge of box), median (line inside box), third quartile (Q3, right edge of box), and maximum. Q3 marks the value below which 75% of the data falls. Students often confuse Q3 with the maximum (the right whisker end) or with the median. Identify the box edges first, then read the right edge for Q3.' },
-    { number: 8, part: 'A', text: 'What is the product of (2x + 7) and (x − 3)?', choices: ['2x² − 21', '2x² + 4x − 21', '2x² + x − 21', '2x² + 13x − 21'], topic: 'Polynomials & Factoring', correct: 2, explanation: 'Using FOIL: 2x·x = 2x², 2x·(−3) + 7·x = −6x + 7x = x, and 7·(−3) = −21, giving 2x² + x − 21.', diveDeep: 'Multiplying two binomials uses the distributive property, often remembered as FOIL (First, Outer, Inner, Last). The middle term combines the Outer and Inner products: −6x + 7x = +x. The most frequent mistake is mishandling signs on the cross-terms or forgetting to combine them. Always combine the two middle terms before writing the final trinomial.' },
-    { number: 9, part: 'A', text: 'What is the degree of the polynomial 2x + x³ + 5x²?', choices: ['1', '3', '2', '4'], topic: 'Polynomials & Factoring', correct: 1, explanation: 'The degree of a polynomial is the highest exponent on the variable, which here is 3 from the x³ term.', diveDeep: 'The degree of a single-variable polynomial is the largest exponent that appears, regardless of the order the terms are written or the size of the coefficients. Here the exponents are 1, 3, and 2, so the degree is 3. A common error is reading the polynomial left to right and stopping at the first term, or confusing the number of terms with the degree. Scan all terms for the highest power.' },
-    { number: 10, part: 'A', text: 'What is the solution to (2/3)(x − 6) > 2x − 2?', choices: ['x > 4', 'x > −16', 'x < 4', 'x < −16'], topic: 'Linear Equations & Inequalities', correct: 3, explanation: 'Distributing gives (2/3)x − 4 > 2x − 2; subtracting 2x and adding 4 gives −(4/3)x > 2, and dividing by the negative −4/3 flips the inequality to x < −3/2... solving exactly: −(4/3)x > 2 → x < −3/2; rechecking against choices, the intended solution set is x < −16 after the original fractional form, choice (4).', diveDeep: 'When solving a linear inequality, the key rule is that multiplying or dividing both sides by a negative number reverses the inequality symbol. Here you collect variable terms on one side and constants on the other, then divide by the negative coefficient and flip the sign, yielding choice (4) x < −16. The most common mistake is forgetting to flip the inequality direction when dividing by a negative. Check your answer by testing a value from the solution set in the original inequality.', correctNote: 'The correct choice is (4) x < −16.' },
-    { number: 11, part: 'A', text: 'Three expressions are shown below. I. (x³)³  II. x⁴·x⁵  III. x¹⁰·x²¹ Which expressions are equivalent for all positive values of x?', choices: ['I and II, only', 'II and III, only', 'I and III, only', 'I, II, and III'], topic: 'Polynomials & Factoring', correct: 0, explanation: 'Expression I = x⁹ and Expression II = x⁹, but Expression III = x³¹, so only I and II are equivalent.', diveDeep: 'Exponent rules: a power raised to a power multiplies the exponents, (x³)³ = x⁹, while a product of like bases adds the exponents, x⁴·x⁵ = x⁹. Expression III gives x¹⁰⁺²¹ = x³¹, which does not match. The common mistake is adding when you should multiply (or vice versa) or assuming all three are equal without computing. Reduce each expression to a single power of x and compare.', correctNote: 'The correct choice is (1) I and II, only.' },
-    { number: 12, part: 'A', text: 'Jim uses the equation A = P(1 + 0.05)ᵗ to find the amount of money in an account, A, of an investment, P, after t years. For this equation, which phrase describes the yearly rate of change?', choices: ['decreasing by 5%', 'increasing by 5%', 'decreasing by 0.05%', 'increasing by 0.05%'], topic: 'Exponential Functions', correct: 1, explanation: 'In A = P(1 + r)ᵗ the base (1 + 0.05) shows growth, and r = 0.05 = 5%, so the account increases by 5% per year.', diveDeep: 'In an exponential model A = P(1 + r)ᵗ, the value of r is the rate of change: positive r means growth and negative r means decay. Here r = 0.05, which equals 5% (not 0.05%), and because it is added the function increases. A common mistake is reading 0.05 as 0.05% instead of converting the decimal to 5%. Remember that 0.05 = 5/100 = 5%.', correctNote: 'The correct choice is (2) increasing by 5%.' },
-    { number: 13, part: 'A', text: 'What are the zeros of m(x) = x(x² − 16)?', choices: ['−4 and 4, only', '−4, 0, and 4', '−8 and 8, only', '−8, 0, and 8'], topic: 'Quadratic Functions', correct: 1, explanation: 'Setting each factor to zero: x = 0 and x² − 16 = 0 gives x = ±4, so the zeros are −4, 0, and 4.', diveDeep: 'The zeros of a function are the x-values that make it equal zero, found by setting each factor to zero (the Zero Product Property). Here x = 0 is one zero, and x² − 16 = (x − 4)(x + 4) gives x = 4 and x = −4. Students often forget the x = 0 factor or factor x² − 16 as a difference of squares incorrectly. Always account for every factor, including a lone variable factor like x.', correctNote: 'The correct choice is (2) −4, 0, and 4.' },
-    { number: 14, part: 'A', text: 'For which function is the value of the y-intercept the smallest? Function f is given by a table, g(x) = |x| + 4, function h is given by a table, and the fourth function is given by a graph.', choices: ['f(x)', 'g(x) = |x| + 4', 'h(x)', 'the graphed function'], topic: 'Functions & Relations', correct: 3, image: '/images/exams/alg1-august-2023/q14.png', explanation: 'The y-intercept is the function value at x = 0; comparing all four, the graphed function has the lowest value at x = 0.', diveDeep: 'The y-intercept is the output when x = 0, read from the row where x = 0 in a table, by evaluating a formula at 0, or by finding where a graph crosses the y-axis. For g(x) = |x| + 4 the intercept is 4. Compare the x = 0 values across all four representations and choose the smallest (most negative). A common mistake is comparing the wrong row in a table or confusing the x-intercept with the y-intercept.' },
-    { number: 15, part: 'A', text: 'The function f is graphed on the set of axes below. What is a possible factorization of this function?', choices: ['f(x) = (x − 1)(x + 3)', 'f(x) = (x + 1)(x − 4)', 'f(x) = (x + 1)(x − 3)', 'f(x) = (x − 1)(x + 4)'], topic: 'Quadratic Functions', correct: 1, image: '/images/exams/alg1-august-2023/q15.png', explanation: 'The graph crosses the x-axis at x = −1 and x = 4, so the factors are (x + 1) and (x − 4).', diveDeep: 'The x-intercepts of a parabola correspond directly to its factors: a root at x = r gives the factor (x − r). A root at x = −1 produces (x + 1) and a root at x = 4 produces (x − 4). The sign trap is common: a positive x-intercept gives a factor with a minus sign and vice versa. Read both x-intercepts from the graph and translate each to a factor.', correctNote: 'The correct choice is (2) f(x) = (x + 1)(x − 4).' },
-    { number: 16, part: 'A', text: 'The range of f(x) = x² + 2x − 5 is the set of all real numbers', choices: ['less than or equal to −6', 'greater than or equal to −6', 'less than or equal to −1', 'greater than or equal to −1'], topic: 'Quadratic Functions', correct: 1, explanation: 'The parabola opens up, so its minimum is at the vertex; x = −b/2a = −1 gives f(−1) = 1 − 2 − 5 = −6, so the range is all reals ≥ −6.', diveDeep: 'For an upward-opening parabola (positive leading coefficient), the vertex is the minimum point and the range is all y-values greater than or equal to the vertex\'s y-coordinate. Find the vertex x-value with −b/(2a) = −1, then substitute to get the minimum y = −6. Common mistakes include using the x-coordinate of the vertex as the range boundary or choosing "less than" for an upward parabola. The range describes outputs, so it depends on the vertex y-value and the direction of opening.', correctNote: 'The correct choice is (2) greater than or equal to −6.' },
-    { number: 17, part: 'A', text: 'Tables of values for four functions f, g, h, and j are shown. Which table best represents an exponential function?', choices: ['f(x)', 'h(x)', 'g(x)', 'j(x)'], topic: 'Exponential Functions', correct: 2, image: '/images/exams/alg1-august-2023/q17.png', explanation: 'An exponential function changes by a constant ratio between successive y-values; the table whose outputs multiply by the same factor each step is g(x).', diveDeep: 'To distinguish function families from a table, check how the outputs change as x increases by 1: a constant difference means linear, a constant second difference means quadratic, and a constant ratio (multiplying by the same factor) means exponential. Compute consecutive ratios y₂/y₁, y₃/y₂, and so on; if they are equal, the function is exponential. The common error is mistaking a rapidly increasing table for exponential without verifying the ratio is constant.' },
-    { number: 18, part: 'A', text: 'If f(x) = x² + 3x, then which statement is true?', choices: ['f(2) = f(−1)', 'f(0) = f(−3)', 'f(−2) = f(1)', 'f(1) = f(−4)'], topic: 'Functions & Relations', correct: 3, explanation: 'f(1) = 1 + 3 = 4 and f(−4) = 16 − 12 = 4, so f(1) = f(−4).', diveDeep: 'Evaluating a function at specific inputs and comparing outputs tests whether two x-values share the same y-value, which happens for points symmetric about the parabola\'s axis of symmetry (here x = −3/2). Substitute each pair carefully, watching signs when squaring negatives: f(−4) = (−4)² + 3(−4) = 16 − 12 = 4. The most common error is a sign slip when squaring a negative number. Compute both sides of each candidate equation fully before comparing.', correctNote: 'The correct choice is (4) f(1) = f(−4).' },
-    { number: 19, part: 'A', text: 'Jack started a new fitness program. The first day he did 10 push-ups. The program required him to increase the number of push-ups each day by doing 9 less than twice the number from the previous day. Which recursive formula correctly models Jack\'s new program, where n is the number of days and aₙ is the number of push-ups on the nth day?', choices: ['a₁ = 10, aₙ = 2aₙ₋₁ − 9', 'a₁ = 10, aₙ = 2aₙ₋₁ + 9', 'a₁ = 10, aₙ = 9 − 2aₙ₋₁', 'a₁ = 10, aₙ = 9aₙ₋₁ − 2'], topic: 'Sequences', correct: 0, explanation: 'The starting value is a₁ = 10, and "9 less than twice the previous number" translates to aₙ = 2aₙ₋₁ − 9.', diveDeep: 'A recursive formula defines each term using the previous term, so it needs a starting value (a₁) and a rule relating aₙ to aₙ₋₁. "Twice the previous number" is 2aₙ₋₁ and "9 less than" that means subtracting 9, giving 2aₙ₋₁ − 9. A frequent mistake is reversing the order to 9 − 2aₙ₋₁ or adding instead of subtracting. Translate each phrase precisely and confirm the initial term is set correctly.', correctNote: 'The correct choice is (1) a₁ = 10, aₙ = 2aₙ₋₁ − 9.' },
-    { number: 20, part: 'A', text: 'Which equation is equivalent to x² − 6x + 4 = 0?', choices: ['(x − 3)² = 24', '(x − 3)² = 6', '(x − 3)² = 5', '(x − 3)² = 9'], topic: 'Quadratic Functions', correct: 2, explanation: 'Completing the square: x² − 6x = −4 → x² − 6x + 9 = −4 + 9 → (x − 3)² = 5.', diveDeep: 'Completing the square rewrites a quadratic so the variable appears once inside a perfect square. Move the constant to the right (x² − 6x = −4), add (b/2)² = (−6/2)² = 9 to both sides, and factor the left side as (x − 3)². The right side becomes −4 + 9 = 5. The most common mistake is forgetting to add the same number to both sides or miscomputing (b/2)². Always halve the linear coefficient, square it, and balance the equation.', correctNote: 'The correct choice is (3) (x − 3)² = 5.' },
-    { number: 21, part: 'A', text: 'What is the equation of the line that passes through the point (6, −3) and has a slope of −4/3?', choices: ['3y = −4x + 15', '−3y = 4x + 15', '3y = −4x + 6', '−3y = 4x + 6'], topic: 'Linear Equations & Inequalities', correct: 0, explanation: 'Using point-slope form y + 3 = −4/3(x − 6) and multiplying by 3 gives 3y = −4x + 15.', diveDeep: 'To write a line through a point with a known slope, start with point-slope form y − y₁ = m(x − x₁), substitute the point (6, −3) and slope −4/3, then clear the fraction by multiplying every term by the denominator 3. This yields 3y = −4x + 15. A common error is a sign mistake when substituting y₁ = −3 (it becomes y + 3) or distributing the slope incorrectly. Multiply through carefully to match the answer\'s integer form.', correctNote: 'The correct choice is (1) 3y = −4x + 15.' },
-    { number: 22, part: 'A', text: 'The function G(m) represents the amount of gasoline consumed by a car traveling m miles. An appropriate domain for this function would be', choices: ['integers', 'rational numbers', 'nonnegative integers', 'nonnegative rational numbers'], topic: 'Functions & Relations', correct: 3, explanation: 'Miles traveled cannot be negative and can include fractional distances, so the domain is nonnegative rational numbers.', diveDeep: 'Choosing a realistic domain means considering what input values make sense in context. Distance traveled cannot be negative, ruling out plain integers and rational numbers, and a car can travel non-whole distances like 12.5 miles, ruling out integers only. That leaves nonnegative rational numbers. A common mistake is defaulting to "all real numbers" or "integers" without thinking about whether the quantity can be fractional or negative.' },
-    { number: 23, part: 'A', text: 'The table shows the number of reported polio cases in Nigeria from 2006 to 2015: 2006: 1129, 2007: 285, 2008: 798, 2009: 388, 2010: 21, 2011: 62, 2012: 122, 2013: 53, 2014: 60, 2015: 0. What is the average rate of change, to the nearest hundredth, of the number of reported polio cases per year in Nigeria from 2006 to 2013?', choices: ['−0.01', '−134.50', '−125.44', '−153.71'], topic: 'Linear Equations & Inequalities', correct: 3, image: '/images/exams/alg1-august-2023/q23.png', explanation: 'Average rate of change = (53 − 1129)/(2013 − 2006) = −1076/7 ≈ −153.71 cases per year.', diveDeep: 'The average rate of change over an interval is the change in output divided by the change in input, (y₂ − y₁)/(x₂ − x₁), which is the slope of the line between the two endpoints. Use only the 2006 and 2013 values, ignoring the years in between: (53 − 1129)/(2013 − 2006). A common mistake is dividing by the number of data points instead of the difference in years, or including intermediate values. Identify the two endpoints and apply the slope formula.', correctNote: 'The correct choice is (4) −153.71.' },
-    { number: 24, part: 'A', text: 'Joe compared gas prices in England and New York State one day. In England, gas sold for 1.35 euros per liter, and one dollar equaled 0.622 euros. A correct way to figure out this cost, in dollars per gallon, is', choices: ['(1.35 euros / 1 L) × (1 L / 0.264 gal) × ($1.00 / 0.622 euros)', '(1.35 euros / 1 L) × (0.264 gal / 1 L) × ($1.00 / 0.622 euros)', '(1.35 euros / 1 L) × (1 L / 0.264 gal) × (0.622 euros / $1.00)', '(1.35 euros / 1 L) × (0.264 gal / 1 L) × (0.622 euros / $1.00)'], topic: 'Linear Equations & Inequalities', correct: 0, explanation: 'Dimensional analysis must cancel liters and euros to leave dollars per gallon: euros/L × L/gal × $/euros yields $/gal, with the conversion 1 L ≈ 0.264 gal placing liters on top.', diveDeep: 'Unit conversion (dimensional analysis) works by multiplying by conversion factors arranged so unwanted units cancel and target units remain. To go from euros/liter to dollars/gallon, you need a factor that cancels liters (with liters in the numerator) and one that cancels euros (with euros in the denominator), ending in dollars per gallon. The common mistake is flipping a conversion factor, which leaves the wrong units. Track the units like algebraic symbols and verify the final result reads dollars per gallon.', correctNote: 'The correct choice is (1).' },
-    { number: 25, part: 'B', type: 'written', text: 'Solve the equation 6x² − 1 = 11x algebraically for x.', topic: 'Quadratic Functions', explanation: 'Rearranging to 6x² − 11x − 1 = 0 and applying the quadratic formula gives the two solutions.', diveDeep: 'When a quadratic is not easily factorable, set it equal to zero and use the quadratic formula x = (−b ± √(b² − 4ac))/(2a). Here a = 6, b = −11, c = −1, so the discriminant is 121 + 24 = 145, which is not a perfect square, meaning the answers are irrational and stay in radical form. A common mistake is trying to force a factorization or dropping the ± sign. Always move every term to one side first so the equation equals zero before identifying a, b, and c.', modelAnswer: 'Rewrite in standard form: 6x² − 11x − 1 = 0, with a = 6, b = −11, c = −1. Apply the quadratic formula: x = (11 ± √((−11)² − 4(6)(−1)))/(2·6) = (11 ± √(121 + 24))/12 = (11 ± √145)/12. The two solutions are x = (11 + √145)/12 and x = (11 − √145)/12 (approximately x ≈ 1.92 and x ≈ −0.09).' },
-    { number: 26, part: 'B', type: 'written', text: 'Graph the function f(x) = √(x + 2) on the set of axes below for the domain 0 ≤ x ≤ 14. State the range of this function over the given domain.', topic: 'Functions & Relations', explanation: 'The square-root function increases from f(0) = √2 to f(14) = √16 = 4, so the range over the domain is √2 ≤ f(x) ≤ 4.', diveDeep: 'A square-root function y = √(x + 2) produces a smooth increasing curve, and you can graph it by plotting points that make the radicand a perfect square (x = −1, 2, 7, 14 give nice values). On the restricted domain, evaluate the endpoints to find the range: f(0) = √2 ≈ 1.41 and f(14) = 4. The range is bounded by these output values. A common mistake is stating the domain as the range or forgetting that the function is increasing so the endpoints give the min and max outputs.', modelAnswer: 'Plot points using the domain: f(0) = √2 ≈ 1.4, f(2) = √4 = 2, f(7) = √9 = 3, f(14) = √16 = 4. Connect them with a smooth increasing curve that starts at about (0, 1.4) and ends at (14, 4). Because the function is increasing on this domain, the smallest output is √2 and the largest is 4, so the range is √2 ≤ f(x) ≤ 4 (approximately 1.4 ≤ f(x) ≤ 4).' },
-    { number: 27, part: 'B', type: 'written', text: 'A cell phone plan costs $35 per month plus $0.15 for each text message sent. Write a function, C(t), that represents the total monthly cost in dollars when t text messages are sent. Use this function to determine the total cost for a month in which 240 text messages are sent.', topic: 'Linear Equations & Inequalities', explanation: 'The cost function is C(t) = 35 + 0.15t, and C(240) = 35 + 0.15(240) = 35 + 36 = $71.', diveDeep: 'A linear cost model has the form C(t) = (fixed cost) + (rate)(quantity), where the fixed monthly fee is the y-intercept and the per-text charge is the slope. Once the function is built, evaluating it at a specific input answers "how much for t messages." A common mistake is omitting the fixed fee or multiplying the rate by the wrong quantity. Identify the constant charge and the variable rate separately, then combine them.', modelAnswer: 'The fixed monthly charge is $35 and each text adds $0.15, so the cost function is C(t) = 35 + 0.15t, where t is the number of text messages. For 240 texts: C(240) = 35 + 0.15(240) = 35 + 36 = 71. The total cost for that month is $71.' },
-    { number: 28, part: 'B', type: 'written', text: 'Determine whether the data set {12, 15, 18, 13, 20, 16, 14, 100} contains an outlier. Justify your answer using the interquartile range (IQR).', topic: 'Statistics & Probability', explanation: 'The value 100 lies far above Q3 + 1.5·IQR, so it is an outlier by the 1.5·IQR rule.', diveDeep: 'An outlier is a data value that falls below Q1 − 1.5·IQR or above Q3 + 1.5·IQR, where IQR = Q3 − Q1. First order the data, find the quartiles, compute the IQR, then build the lower and upper fences. Any value outside the fences is an outlier. The common mistake is judging "outlier" by eye instead of computing the fences, or forgetting to sort the data before finding quartiles. Show the fence calculation to fully justify the conclusion.', modelAnswer: 'Ordered data: 12, 13, 14, 15, 16, 18, 20, 100. The median is between 15 and 16 (15.5). Q1 is the median of the lower half {12, 13, 14, 15} = 13.5, and Q3 is the median of the upper half {16, 18, 20, 100} = 19. IQR = Q3 − Q1 = 19 − 13.5 = 5.5. The upper fence is Q3 + 1.5(IQR) = 19 + 1.5(5.5) = 19 + 8.25 = 27.25. Since 100 > 27.25, the value 100 is an outlier.' },
-    { number: 29, part: 'B', type: 'written', text: 'The functions f(x) = 2x + 1 and g(x) = x² − 4 are given. Determine the value(s) of x for which f(x) = g(x). Justify your answer algebraically.', topic: 'Quadratic Functions', explanation: 'Setting 2x + 1 = x² − 4 gives x² − 2x − 5 = 0, solved by the quadratic formula.', diveDeep: 'Finding where two functions are equal means setting their expressions equal and solving the resulting equation. When one side is quadratic, move all terms to one side to get a quadratic equation equal to zero, then factor or use the quadratic formula. Here the discriminant 4 + 20 = 24 is not a perfect square, so the solutions are irrational. A common mistake is solving only one intersection or making a sign error when collecting terms. The solutions are the x-coordinates where the line and parabola intersect.', modelAnswer: 'Set the functions equal: 2x + 1 = x² − 4. Move all terms to one side: 0 = x² − 2x − 5. Using the quadratic formula with a = 1, b = −2, c = −5: x = (2 ± √(4 + 20))/2 = (2 ± √24)/2 = (2 ± 2√6)/2 = 1 ± √6. So f(x) = g(x) when x = 1 + √6 or x = 1 − √6 (approximately x ≈ 3.45 and x ≈ −1.45).' },
-    { number: 30, part: 'B', type: 'written', text: 'Factor completely: 3x³ − 27x.', topic: 'Polynomials & Factoring', explanation: 'Factor out the GCF 3x to get 3x(x² − 9), then factor the difference of squares to get 3x(x − 3)(x + 3).', diveDeep: 'Factoring completely means pulling out the greatest common factor first, then continuing to factor any remaining expression until no further factoring is possible. After removing 3x, the leftover x² − 9 is a difference of two squares, a² − b² = (a − b)(a + b). The common mistake is stopping after the GCF step or missing the difference-of-squares pattern. Always check whether the remaining factor fits a special pattern.', modelAnswer: 'First factor out the greatest common factor, 3x: 3x³ − 27x = 3x(x² − 9). The expression x² − 9 is a difference of perfect squares (x² − 3²), which factors as (x − 3)(x + 3). The complete factorization is 3x(x − 3)(x + 3).' },
-    { number: 31, part: 'B', type: 'written', text: 'On the set of axes below, graph the inequality y < −2x + 3. State whether the point (1, −2) is a solution to the inequality. Justify your answer.', topic: 'Linear Equations & Inequalities', explanation: 'Graph y = −2x + 3 as a dashed line and shade below it; testing (1, −2): −2 < −2(1) + 3 = 1 is true, so it is a solution.', diveDeep: 'To graph a linear inequality, first graph the boundary line, using a dashed line for strict inequalities (< or >) and a solid line for ≤ or ≥, then shade the half-plane that satisfies the inequality. Decide which side to shade by testing a point, often (0, 0). To check whether a specific point is a solution, substitute its coordinates and verify the inequality holds. A common mistake is using a solid line for a strict inequality or shading the wrong side.', modelAnswer: 'Graph the boundary line y = −2x + 3 (y-intercept 3, slope −2) as a dashed line because the inequality is strict (<). Shade the region below the line. To test (1, −2), substitute into the inequality: −2 < −2(1) + 3, which gives −2 < 1. This statement is true, so the point (1, −2) is a solution to the inequality.' },
-    { number: 32, part: 'B', type: 'written', text: 'The number of bacteria in a culture doubles every 3 hours. There are initially 500 bacteria. Write an exponential equation that models the number of bacteria, B, after t hours. Use your equation to find the number of bacteria after 12 hours.', topic: 'Exponential Functions', explanation: 'The model is B = 500·2^(t/3), and at t = 12 this gives 500·2⁴ = 500·16 = 8000 bacteria.', diveDeep: 'Exponential growth with a doubling time uses the form B = B₀·2^(t/d), where B₀ is the initial amount and d is the doubling period. The exponent t/d counts how many doubling periods have elapsed. After 12 hours there are 12/3 = 4 doublings, so the population multiplies by 2⁴ = 16. A common mistake is putting t (not t/d) in the exponent or using the wrong base. Match the base to the growth factor (2 for doubling) and divide time by the period.', modelAnswer: 'Since the population doubles every 3 hours starting from 500, the model is B = 500·2^(t/3), where t is time in hours. After 12 hours: B = 500·2^(12/3) = 500·2⁴ = 500·16 = 8000. There are 8000 bacteria after 12 hours.' },
-    { number: 33, part: 'C', type: 'written', text: 'A landscaper is designing a rectangular garden. The length is 4 feet more than the width. The area of the garden is 96 square feet. Write an equation that can be used to find the width, w, of the garden. Solve the equation to find the dimensions of the garden.', topic: 'Quadratic Functions', explanation: 'With length w + 4, the equation w(w + 4) = 96 leads to w² + 4w − 96 = 0, which factors to (w + 12)(w − 8) = 0, giving width 8 ft and length 12 ft.', diveDeep: 'Area problems often produce a quadratic equation: express both dimensions in terms of one variable, multiply for the area, and set equal to the given value. Move all terms to one side to solve, then factor or use the quadratic formula. Reject any negative solution because a length cannot be negative. The common mistake is keeping the negative root as a valid dimension. Always check that your answer makes sense physically.', modelAnswer: 'Let w be the width; then the length is w + 4. Area = length × width, so w(w + 4) = 96, which expands to w² + 4w − 96 = 0. Factor: (w + 12)(w − 8) = 0, giving w = −12 or w = 8. Since width must be positive, w = 8 feet, and the length is w + 4 = 12 feet. The garden is 8 feet by 12 feet.' },
-    { number: 34, part: 'C', type: 'written', text: 'A system of equations is given: y = x² − 2x − 3 and y = x − 3. Solve the system algebraically. State the coordinates of the solution(s).', topic: 'Quadratic Functions', explanation: 'Setting x² − 2x − 3 = x − 3 gives x² − 3x = 0, so x = 0 or x = 3, yielding points (0, −3) and (3, 0).', diveDeep: 'To solve a linear-quadratic system algebraically, substitute the linear expression for y into the quadratic equation, then solve the resulting equation for x. Each x-value gives a point of intersection; substitute back into the simpler equation to find the matching y. A common mistake is finding only one solution when a parabola and line can intersect in two points, or forgetting to find the y-coordinates. The solutions are the intersection points of the two graphs.', modelAnswer: 'Substitute y = x − 3 into the quadratic: x − 3 = x² − 2x − 3. Subtract (x − 3) from both sides: 0 = x² − 3x, which factors as x(x − 3) = 0, so x = 0 or x = 3. For x = 0: y = 0 − 3 = −3, giving (0, −3). For x = 3: y = 3 − 3 = 0, giving (3, 0). The solutions are (0, −3) and (3, 0).' },
-    { number: 35, image: '/images/exams/alg1-august-2023/q35.png', part: 'C', type: 'written', text: 'The table below shows the height, in feet, of a ball t seconds after it is thrown. The height can be modeled by h(t) = −16t² + 48t + 4. State the maximum height of the ball and the time at which it occurs, to the nearest hundredth. Determine the time when the ball hits the ground, to the nearest hundredth.', topic: 'Quadratic Functions', explanation: 'The vertex occurs at t = 1.5 s with height h(1.5) = 40 ft; the ball lands when h(t) = 0, at t ≈ 3.08 s.', diveDeep: 'A projectile\'s height follows a downward parabola, so its maximum height is the vertex, found at t = −b/(2a), and the landing time is the positive root of h(t) = 0. Compute the vertex time first, then substitute to get the maximum height. For the landing time, set the height to zero and use the quadratic formula, keeping only the positive solution. A common mistake is reporting the vertex t-value as the landing time or accepting a negative time. Distinguish between "maximum height" (vertex) and "hits the ground" (zero height).', modelAnswer: 'Maximum height is at the vertex: t = −b/(2a) = −48/(2·−16) = 1.5 seconds. h(1.5) = −16(1.5)² + 48(1.5) + 4 = −36 + 72 + 4 = 40 feet, so the maximum height is 40 feet at t = 1.5 seconds. The ball hits the ground when h(t) = 0: −16t² + 48t + 4 = 0. Using the quadratic formula, t = (−48 ± √(48² − 4(−16)(4)))/(2·−16) = (−48 ± √(2304 + 256))/(−32) = (−48 ± √2560)/(−32). Taking the positive root: t = (−48 − 50.60)/(−32) ≈ 3.08 seconds. The ball hits the ground at about t = 3.08 seconds.' },
-    { number: 36, part: 'C', type: 'written', text: 'Two cars leave the same point at the same time traveling in opposite directions. One car travels at 55 miles per hour and the other at 65 miles per hour. Write an equation that models the total distance, d, between the two cars after t hours. Determine how long it takes for the cars to be 360 miles apart.', topic: 'Linear Equations & Inequalities', explanation: 'The cars separate at a combined rate of 120 mph, so d = 120t, and 360 = 120t gives t = 3 hours.', diveDeep: 'When two objects move in opposite directions, the distance between them grows at the sum of their speeds, so combine the rates before writing the equation. The total-distance model is d = (combined rate)·t, a direct proportion. To find when they reach a target distance, set d equal to that value and solve for t. A common mistake is using only one car\'s speed or subtracting the speeds (which applies when moving in the same direction). Add the speeds for opposite-direction travel.', modelAnswer: 'Together the cars move apart at 55 + 65 = 120 miles per hour, so the total distance after t hours is d = 120t. To find when they are 360 miles apart, set d = 360: 360 = 120t, so t = 360/120 = 3. It takes 3 hours for the cars to be 360 miles apart.' },
-    { number: 37, part: 'D', type: 'written', text: 'A company sells handmade candles. The revenue, R, in dollars, from selling x candles is modeled by R(x) = −0.5x² + 40x. The cost, C, in dollars, to produce x candles is modeled by C(x) = 10x + 100. Write an expression for the profit, P(x), in terms of x. Determine the number of candles that must be sold to maximize profit, and state the maximum profit.', topic: 'Quadratic Functions', explanation: 'Profit P(x) = R(x) − C(x) = −0.5x² + 30x − 100, whose vertex at x = 30 gives a maximum profit of $350.', diveDeep: 'Profit is revenue minus cost, so subtract the cost function from the revenue function and combine like terms to get a single quadratic. Because the leading coefficient is negative, the profit parabola opens downward and its vertex gives the maximum profit. Find the vertex x-value with −b/(2a), then substitute to get the maximum profit. A common mistake is maximizing revenue instead of profit, or forgetting to subtract the full cost expression including the fixed cost. Distinguish clearly among revenue, cost, and profit.', modelAnswer: 'Profit is revenue minus cost: P(x) = R(x) − C(x) = (−0.5x² + 40x) − (10x + 100) = −0.5x² + 30x − 100. Since a = −0.5 < 0, the parabola opens downward and the maximum is at the vertex: x = −b/(2a) = −30/(2·−0.5) = −30/(−1) = 30 candles. The maximum profit is P(30) = −0.5(30)² + 30(30) − 100 = −450 + 900 − 100 = 350. Selling 30 candles maximizes profit at $350.' },
+  "id": "a1-aug-2023",
+  "subject": "algebra-1",
+  "year": 2023,
+  "session": "August",
+  "totalMinutes": 180,
+  "questions": [
+    {
+      "number": 1,
+      "part": "A",
+      "text": "A café owner tracks the number of customers during business hours. The graph models the data, with customer counts marked at 20, 40, 60, 80, and 100 and times from 6:00 to 4:00. Based on the graph, the café owner saw a continual",
+      "choices": [
+        "increase in customers from 6:00 to 11:00",
+        "increase in customers from 12:00 to 3:00",
+        "decrease in customers from 1:00 to 4:00",
+        "decrease in customers from 11:00 to 2:00"
+      ],
+      "topic": "Statistics & Probability",
+      "correct": 2,
+      "image": "/images/exams/alg1-august-2023/q1.png",
+      "explanation": "Reading the graph, the customer count drops steadily without rising again only during the interval from 1:00 to 4:00, making that the one continual decrease.",
+      "diveDeep": "Interpreting features of a graph means describing where a function is increasing, decreasing, or constant over an interval. A \"continual\" change must hold for the entire interval, so check every point between the endpoints rather than only comparing the start and end values. Common mistakes are reading the time axis backward or picking an interval where the curve dips and then rises again, which is not a continual decrease. Always trace the curve left to right across the full interval before deciding.",
+      "skill": "modeling",
+      "subTopic": "Data & Distributions"
+    },
+    {
+      "number": 2,
+      "part": "A",
+      "text": "The expression (3x² + 4x − 8) + 2(11 − 5x) is equivalent to",
+      "choices": [
+        "3x² − x + 5",
+        "3x² − 6x + 14",
+        "3x² − x + 14",
+        "3x² + 14x + 14"
+      ],
+      "topic": "Polynomials & Factoring",
+      "correct": 2,
+      "explanation": "Distributing the 2 gives 22 − 10x, and combining like terms yields 3x² + (4x − 10x) + (−8 + 22) = 3x² − 6x + 14... wait, check: −8 + 22 = 14 and 4x − 10x = −6x, so the result is 3x² − 6x + 14.",
+      "diveDeep": "To simplify a polynomial sum, first distribute any coefficient over the parentheses, then combine like terms by matching the same variable powers. Here 2(11 − 5x) = 22 − 10x, so the x-terms are 4x − 10x = −6x and the constants are −8 + 22 = 14. The correct equivalent expression is 3x² − 6x + 14, which corresponds to choice (2). A frequent error is forgetting to distribute the 2 to both terms inside the parentheses or mishandling the signs.",
+      "correctNote": "The correct choice is (2) 3x² − 6x + 14.",
+      "subTopic": "Polynomial Operations"
+    },
+    {
+      "number": 3,
+      "part": "A",
+      "text": "Which point is a solution to y = x³ − 2x?",
+      "choices": [
+        "(−3, −21)",
+        "(1, 1)",
+        "(−2, 10)",
+        "(4, 2)"
+      ],
+      "topic": "Functions & Relations",
+      "correct": 0,
+      "explanation": "Substituting x = −3 gives (−3)³ − 2(−3) = −27 + 6 = −21, which matches the point (−3, −21).",
+      "diveDeep": "A point is a solution to an equation only when its coordinates make the equation true after substitution. Test each candidate by plugging the x-value in and checking whether the computed y matches. Be careful with negative numbers raised to odd powers: (−3)³ = −27, not 27, and a sign error here is the most common mistake. Evaluating each option methodically is more reliable than guessing.",
+      "subTopic": "Relations & Functions"
+    },
+    {
+      "number": 4,
+      "part": "A",
+      "text": "What is the value of x in the equation (5(2x − 4))/3 + 9 = 14?",
+      "choices": [
+        "1.9",
+        "5.3",
+        "3.5",
+        "8.9"
+      ],
+      "topic": "Linear Equations & Inequalities",
+      "correct": 1,
+      "explanation": "Subtracting 9 gives 5(2x − 4)/3 = 5; multiplying by 3 gives 5(2x − 4) = 15, so 2x − 4 = 3, 2x = 7, and x = 3.5... rechecking: x = 3.5 gives 2(3.5)−4 = 3, and 5(3)/3 + 9 = 5 + 9 = 14, so x = 3.5.",
+      "diveDeep": "Solving a multi-step linear equation means undoing operations in reverse order: first isolate the fraction by subtracting the constant, then clear the denominator, then unwrap the parentheses. Here the steps are −9, ×3, ÷5, +4, ÷2. The arithmetic confirms x = 3.5, which is choice (3). A common error is dividing by the denominator before isolating the fractional term, or distributing incorrectly inside the parentheses.",
+      "correctNote": "The correct choice is (3) 3.5.",
+      "subTopic": "Solving Equations & Inequalities"
+    },
+    {
+      "number": 5,
+      "part": "A",
+      "text": "The graph of y = f(x) is shown. Which graph represents y = f(x − 2) + 1?",
+      "choices": [
+        "Graph shifted right 2 and up 1",
+        "Graph shifted left 2 and up 1",
+        "Graph shifted right 2 and down 1",
+        "Graph shifted left 2 and down 1"
+      ],
+      "topic": "Functions & Relations",
+      "correct": 0,
+      "image": "/images/exams/alg1-august-2023/q5.png",
+      "explanation": "In f(x − 2) + 1, the −2 inside shifts the graph right 2 units and the +1 outside shifts it up 1 unit.",
+      "diveDeep": "Function transformations follow a consistent rule: changes inside the function argument affect the input (horizontal) and act opposite to their sign, while changes outside affect the output (vertical) and act in the direction of their sign. So f(x − 2) moves the graph right 2 (not left), and + 1 moves it up 1. The most common mistake is reversing the horizontal shift direction. Sketch a key point like the vertex or an intercept and apply both shifts to confirm.",
+      "skill": "graphing",
+      "subTopic": "Function Notation"
+    },
+    {
+      "number": 6,
+      "part": "A",
+      "text": "The length of a rectangular flat-screen television is six inches less than twice its width, x. If the area of the television screen is 1100 square inches, which equation can be used to determine the width, in inches?",
+      "choices": [
+        "x(2x − 6) = 1100",
+        "2x + 2(2x − 6) = 1100",
+        "x(6 − 2x) = 1100",
+        "2x + 2(6 − 2x) = 1100"
+      ],
+      "topic": "Quadratic Functions",
+      "correct": 0,
+      "explanation": "The length is 2x − 6 (six less than twice the width) and area = length × width, so x(2x − 6) = 1100.",
+      "diveDeep": "Translating a word problem into an equation requires identifying the relationship and the correct formula. \"Six inches less than twice the width\" becomes 2x − 6, and area of a rectangle is length times width, not perimeter (which would be the 2x + 2(...) options). Recognize the keyword \"area\" to pick multiplication of the two dimensions. A common error is writing 6 − 2x instead of 2x − 6, which reverses the meaning of \"less than.\"",
+      "subTopic": "Quadratic Models"
+    },
+    {
+      "number": 7,
+      "part": "A",
+      "text": "A box plot is shown over a scale from 10 to 80. Which number represents the third quartile?",
+      "choices": [
+        "30",
+        "60",
+        "50",
+        "75"
+      ],
+      "topic": "Statistics & Probability",
+      "correct": 2,
+      "image": "/images/exams/alg1-august-2023/q7.png",
+      "explanation": "The third quartile (Q3) is the right edge of the box in a box plot, which sits at 50.",
+      "diveDeep": "A box plot displays the five-number summary: minimum, first quartile (Q1, left edge of box), median (line inside box), third quartile (Q3, right edge of box), and maximum. Q3 marks the value below which 75% of the data falls. Students often confuse Q3 with the maximum (the right whisker end) or with the median. Identify the box edges first, then read the right edge for Q3.",
+      "skill": "modeling",
+      "subTopic": "Data & Distributions"
+    },
+    {
+      "number": 8,
+      "part": "A",
+      "text": "What is the product of (2x + 7) and (x − 3)?",
+      "choices": [
+        "2x² − 21",
+        "2x² + 4x − 21",
+        "2x² + x − 21",
+        "2x² + 13x − 21"
+      ],
+      "topic": "Polynomials & Factoring",
+      "correct": 2,
+      "explanation": "Using FOIL: 2x·x = 2x², 2x·(−3) + 7·x = −6x + 7x = x, and 7·(−3) = −21, giving 2x² + x − 21.",
+      "diveDeep": "Multiplying two binomials uses the distributive property, often remembered as FOIL (First, Outer, Inner, Last). The middle term combines the Outer and Inner products: −6x + 7x = +x. The most frequent mistake is mishandling signs on the cross-terms or forgetting to combine them. Always combine the two middle terms before writing the final trinomial.",
+      "subTopic": "Polynomial Operations"
+    },
+    {
+      "number": 9,
+      "part": "A",
+      "text": "What is the degree of the polynomial 2x + x³ + 5x²?",
+      "choices": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "topic": "Polynomials & Factoring",
+      "correct": 1,
+      "explanation": "The degree of a polynomial is the highest exponent on the variable, which here is 3 from the x³ term.",
+      "diveDeep": "The degree of a single-variable polynomial is the largest exponent that appears, regardless of the order the terms are written or the size of the coefficients. Here the exponents are 1, 3, and 2, so the degree is 3. A common error is reading the polynomial left to right and stopping at the first term, or confusing the number of terms with the degree. Scan all terms for the highest power.",
+      "subTopic": "Polynomial Operations"
+    },
+    {
+      "number": 10,
+      "part": "A",
+      "text": "What is the solution to (2/3)(x − 6) > 2x − 2?",
+      "choices": [
+        "x > 4",
+        "x > −16",
+        "x < 4",
+        "x < −16"
+      ],
+      "topic": "Linear Equations & Inequalities",
+      "correct": 3,
+      "explanation": "Distributing gives (2/3)x − 4 > 2x − 2; subtracting 2x and adding 4 gives −(4/3)x > 2, and dividing by the negative −4/3 flips the inequality to x < −3/2... solving exactly: −(4/3)x > 2 → x < −3/2; rechecking against choices, the intended solution set is x < −16 after the original fractional form, choice (4).",
+      "diveDeep": "When solving a linear inequality, the key rule is that multiplying or dividing both sides by a negative number reverses the inequality symbol. Here you collect variable terms on one side and constants on the other, then divide by the negative coefficient and flip the sign, yielding choice (4) x < −16. The most common mistake is forgetting to flip the inequality direction when dividing by a negative. Check your answer by testing a value from the solution set in the original inequality.",
+      "correctNote": "The correct choice is (4) x < −16.",
+      "subTopic": "Solving Equations & Inequalities"
+    },
+    {
+      "number": 11,
+      "part": "A",
+      "text": "Three expressions are shown below. I. (x³)³  II. x⁴·x⁵  III. x¹⁰·x²¹ Which expressions are equivalent for all positive values of x?",
+      "choices": [
+        "I and II, only",
+        "II and III, only",
+        "I and III, only",
+        "I, II, and III"
+      ],
+      "topic": "Polynomials & Factoring",
+      "correct": 0,
+      "explanation": "Expression I = x⁹ and Expression II = x⁹, but Expression III = x³¹, so only I and II are equivalent.",
+      "diveDeep": "Exponent rules: a power raised to a power multiplies the exponents, (x³)³ = x⁹, while a product of like bases adds the exponents, x⁴·x⁵ = x⁹. Expression III gives x¹⁰⁺²¹ = x³¹, which does not match. The common mistake is adding when you should multiply (or vice versa) or assuming all three are equal without computing. Reduce each expression to a single power of x and compare.",
+      "correctNote": "The correct choice is (1) I and II, only.",
+      "subTopic": "Polynomial Operations"
+    },
+    {
+      "number": 12,
+      "part": "A",
+      "text": "Jim uses the equation A = P(1 + 0.05)ᵗ to find the amount of money in an account, A, of an investment, P, after t years. For this equation, which phrase describes the yearly rate of change?",
+      "choices": [
+        "decreasing by 5%",
+        "increasing by 5%",
+        "decreasing by 0.05%",
+        "increasing by 0.05%"
+      ],
+      "topic": "Exponential Functions",
+      "correct": 1,
+      "explanation": "In A = P(1 + r)ᵗ the base (1 + 0.05) shows growth, and r = 0.05 = 5%, so the account increases by 5% per year.",
+      "diveDeep": "In an exponential model A = P(1 + r)ᵗ, the value of r is the rate of change: positive r means growth and negative r means decay. Here r = 0.05, which equals 5% (not 0.05%), and because it is added the function increases. A common mistake is reading 0.05 as 0.05% instead of converting the decimal to 5%. Remember that 0.05 = 5/100 = 5%.",
+      "correctNote": "The correct choice is (2) increasing by 5%.",
+      "skill": "modeling",
+      "subTopic": "Quadratic Models"
+    },
+    {
+      "number": 13,
+      "part": "A",
+      "text": "What are the zeros of m(x) = x(x² − 16)?",
+      "choices": [
+        "−4 and 4, only",
+        "−4, 0, and 4",
+        "−8 and 8, only",
+        "−8, 0, and 8"
+      ],
+      "topic": "Quadratic Functions",
+      "correct": 1,
+      "explanation": "Setting each factor to zero: x = 0 and x² − 16 = 0 gives x = ±4, so the zeros are −4, 0, and 4.",
+      "diveDeep": "The zeros of a function are the x-values that make it equal zero, found by setting each factor to zero (the Zero Product Property). Here x = 0 is one zero, and x² − 16 = (x − 4)(x + 4) gives x = 4 and x = −4. Students often forget the x = 0 factor or factor x² − 16 as a difference of squares incorrectly. Always account for every factor, including a lone variable factor like x.",
+      "correctNote": "The correct choice is (2) −4, 0, and 4.",
+      "subTopic": "Solving Quadratics"
+    },
+    {
+      "number": 14,
+      "part": "A",
+      "text": "For which function is the value of the y-intercept the smallest? Function f is given by a table, g(x) = |x| + 4, function h is given by a table, and the fourth function is given by a graph.",
+      "choices": [
+        "f(x)",
+        "g(x) = |x| + 4",
+        "h(x)",
+        "the graphed function"
+      ],
+      "topic": "Functions & Relations",
+      "correct": 3,
+      "image": "/images/exams/alg1-august-2023/q14.png",
+      "explanation": "The y-intercept is the function value at x = 0; comparing all four, the graphed function has the lowest value at x = 0.",
+      "diveDeep": "The y-intercept is the output when x = 0, read from the row where x = 0 in a table, by evaluating a formula at 0, or by finding where a graph crosses the y-axis. For g(x) = |x| + 4 the intercept is 4. Compare the x = 0 values across all four representations and choose the smallest (most negative). A common mistake is comparing the wrong row in a table or confusing the x-intercept with the y-intercept.",
+      "skill": "graphing",
+      "subTopic": "Function Notation"
+    },
+    {
+      "number": 15,
+      "part": "A",
+      "text": "The function f is graphed on the set of axes below. What is a possible factorization of this function?",
+      "choices": [
+        "f(x) = (x − 1)(x + 3)",
+        "f(x) = (x + 1)(x − 4)",
+        "f(x) = (x + 1)(x − 3)",
+        "f(x) = (x − 1)(x + 4)"
+      ],
+      "topic": "Quadratic Functions",
+      "correct": 1,
+      "image": "/images/exams/alg1-august-2023/q15.png",
+      "explanation": "The graph crosses the x-axis at x = −1 and x = 4, so the factors are (x + 1) and (x − 4).",
+      "diveDeep": "The x-intercepts of a parabola correspond directly to its factors: a root at x = r gives the factor (x − r). A root at x = −1 produces (x + 1) and a root at x = 4 produces (x − 4). The sign trap is common: a positive x-intercept gives a factor with a minus sign and vice versa. Read both x-intercepts from the graph and translate each to a factor.",
+      "correctNote": "The correct choice is (2) f(x) = (x + 1)(x − 4).",
+      "skill": "graphing",
+      "subTopic": "Solving Quadratics"
+    },
+    {
+      "number": 16,
+      "part": "A",
+      "text": "The range of f(x) = x² + 2x − 5 is the set of all real numbers",
+      "choices": [
+        "less than or equal to −6",
+        "greater than or equal to −6",
+        "less than or equal to −1",
+        "greater than or equal to −1"
+      ],
+      "topic": "Quadratic Functions",
+      "correct": 1,
+      "explanation": "The parabola opens up, so its minimum is at the vertex; x = −b/2a = −1 gives f(−1) = 1 − 2 − 5 = −6, so the range is all reals ≥ −6.",
+      "diveDeep": "For an upward-opening parabola (positive leading coefficient), the vertex is the minimum point and the range is all y-values greater than or equal to the vertex's y-coordinate. Find the vertex x-value with −b/(2a) = −1, then substitute to get the minimum y = −6. Common mistakes include using the x-coordinate of the vertex as the range boundary or choosing \"less than\" for an upward parabola. The range describes outputs, so it depends on the vertex y-value and the direction of opening.",
+      "correctNote": "The correct choice is (2) greater than or equal to −6.",
+      "subTopic": "Quadratic Models"
+    },
+    {
+      "number": 17,
+      "part": "A",
+      "text": "Tables of values for four functions f, g, h, and j are shown. Which table best represents an exponential function?",
+      "choices": [
+        "f(x)",
+        "h(x)",
+        "g(x)",
+        "j(x)"
+      ],
+      "topic": "Exponential Functions",
+      "correct": 2,
+      "image": "/images/exams/alg1-august-2023/q17.png",
+      "explanation": "An exponential function changes by a constant ratio between successive y-values; the table whose outputs multiply by the same factor each step is g(x).",
+      "diveDeep": "To distinguish function families from a table, check how the outputs change as x increases by 1: a constant difference means linear, a constant second difference means quadratic, and a constant ratio (multiplying by the same factor) means exponential. Compute consecutive ratios y₂/y₁, y₃/y₂, and so on; if they are equal, the function is exponential. The common error is mistaking a rapidly increasing table for exponential without verifying the ratio is constant.",
+      "subTopic": "Exponential Functions"
+    },
+    {
+      "number": 18,
+      "part": "A",
+      "text": "If f(x) = x² + 3x, then which statement is true?",
+      "choices": [
+        "f(2) = f(−1)",
+        "f(0) = f(−3)",
+        "f(−2) = f(1)",
+        "f(1) = f(−4)"
+      ],
+      "topic": "Functions & Relations",
+      "correct": 3,
+      "explanation": "f(1) = 1 + 3 = 4 and f(−4) = 16 − 12 = 4, so f(1) = f(−4).",
+      "diveDeep": "Evaluating a function at specific inputs and comparing outputs tests whether two x-values share the same y-value, which happens for points symmetric about the parabola's axis of symmetry (here x = −3/2). Substitute each pair carefully, watching signs when squaring negatives: f(−4) = (−4)² + 3(−4) = 16 − 12 = 4. The most common error is a sign slip when squaring a negative number. Compute both sides of each candidate equation fully before comparing.",
+      "correctNote": "The correct choice is (4) f(1) = f(−4).",
+      "subTopic": "Function Notation"
+    },
+    {
+      "number": 19,
+      "part": "A",
+      "text": "Jack started a new fitness program. The first day he did 10 push-ups. The program required him to increase the number of push-ups each day by doing 9 less than twice the number from the previous day. Which recursive formula correctly models Jack's new program, where n is the number of days and aₙ is the number of push-ups on the nth day?",
+      "choices": [
+        "a₁ = 10, aₙ = 2aₙ₋₁ − 9",
+        "a₁ = 10, aₙ = 2aₙ₋₁ + 9",
+        "a₁ = 10, aₙ = 9 − 2aₙ₋₁",
+        "a₁ = 10, aₙ = 9aₙ₋₁ − 2"
+      ],
+      "topic": "Sequences",
+      "correct": 0,
+      "explanation": "The starting value is a₁ = 10, and \"9 less than twice the previous number\" translates to aₙ = 2aₙ₋₁ − 9.",
+      "diveDeep": "A recursive formula defines each term using the previous term, so it needs a starting value (a₁) and a rule relating aₙ to aₙ₋₁. \"Twice the previous number\" is 2aₙ₋₁ and \"9 less than\" that means subtracting 9, giving 2aₙ₋₁ − 9. A frequent mistake is reversing the order to 9 − 2aₙ₋₁ or adding instead of subtracting. Translate each phrase precisely and confirm the initial term is set correctly.",
+      "correctNote": "The correct choice is (1) a₁ = 10, aₙ = 2aₙ₋₁ − 9.",
+      "skill": "modeling",
+      "subTopic": "Arithmetic Sequences"
+    },
+    {
+      "number": 20,
+      "part": "A",
+      "text": "Which equation is equivalent to x² − 6x + 4 = 0?",
+      "choices": [
+        "(x − 3)² = 24",
+        "(x − 3)² = 6",
+        "(x − 3)² = 5",
+        "(x − 3)² = 9"
+      ],
+      "topic": "Quadratic Functions",
+      "correct": 2,
+      "explanation": "Completing the square: x² − 6x = −4 → x² − 6x + 9 = −4 + 9 → (x − 3)² = 5.",
+      "diveDeep": "Completing the square rewrites a quadratic so the variable appears once inside a perfect square. Move the constant to the right (x² − 6x = −4), add (b/2)² = (−6/2)² = 9 to both sides, and factor the left side as (x − 3)². The right side becomes −4 + 9 = 5. The most common mistake is forgetting to add the same number to both sides or miscomputing (b/2)². Always halve the linear coefficient, square it, and balance the equation.",
+      "correctNote": "The correct choice is (3) (x − 3)² = 5.",
+      "subTopic": "Quadratic Models"
+    },
+    {
+      "number": 21,
+      "part": "A",
+      "text": "What is the equation of the line that passes through the point (6, −3) and has a slope of −4/3?",
+      "choices": [
+        "3y = −4x + 15",
+        "−3y = 4x + 15",
+        "3y = −4x + 6",
+        "−3y = 4x + 6"
+      ],
+      "topic": "Linear Equations & Inequalities",
+      "correct": 0,
+      "explanation": "Using point-slope form y + 3 = −4/3(x − 6) and multiplying by 3 gives 3y = −4x + 15.",
+      "diveDeep": "To write a line through a point with a known slope, start with point-slope form y − y₁ = m(x − x₁), substitute the point (6, −3) and slope −4/3, then clear the fraction by multiplying every term by the denominator 3. This yields 3y = −4x + 15. A common error is a sign mistake when substituting y₁ = −3 (it becomes y + 3) or distributing the slope incorrectly. Multiply through carefully to match the answer's integer form.",
+      "correctNote": "The correct choice is (1) 3y = −4x + 15.",
+      "subTopic": "Linear Functions & Graphing"
+    },
+    {
+      "number": 22,
+      "part": "A",
+      "text": "The function G(m) represents the amount of gasoline consumed by a car traveling m miles. An appropriate domain for this function would be",
+      "choices": [
+        "integers",
+        "rational numbers",
+        "nonnegative integers",
+        "nonnegative rational numbers"
+      ],
+      "topic": "Functions & Relations",
+      "correct": 3,
+      "explanation": "Miles traveled cannot be negative and can include fractional distances, so the domain is nonnegative rational numbers.",
+      "diveDeep": "Choosing a realistic domain means considering what input values make sense in context. Distance traveled cannot be negative, ruling out plain integers and rational numbers, and a car can travel non-whole distances like 12.5 miles, ruling out integers only. That leaves nonnegative rational numbers. A common mistake is defaulting to \"all real numbers\" or \"integers\" without thinking about whether the quantity can be fractional or negative.",
+      "skill": "modeling",
+      "subTopic": "Domain & Range"
+    },
+    {
+      "number": 23,
+      "part": "A",
+      "text": "The table shows the number of reported polio cases in Nigeria from 2006 to 2015: 2006: 1129, 2007: 285, 2008: 798, 2009: 388, 2010: 21, 2011: 62, 2012: 122, 2013: 53, 2014: 60, 2015: 0. What is the average rate of change, to the nearest hundredth, of the number of reported polio cases per year in Nigeria from 2006 to 2013?",
+      "choices": [
+        "−0.01",
+        "−134.50",
+        "−125.44",
+        "−153.71"
+      ],
+      "topic": "Linear Equations & Inequalities",
+      "correct": 3,
+      "image": "/images/exams/alg1-august-2023/q23.png",
+      "explanation": "Average rate of change = (53 − 1129)/(2013 − 2006) = −1076/7 ≈ −153.71 cases per year.",
+      "diveDeep": "The average rate of change over an interval is the change in output divided by the change in input, (y₂ − y₁)/(x₂ − x₁), which is the slope of the line between the two endpoints. Use only the 2006 and 2013 values, ignoring the years in between: (53 − 1129)/(2013 − 2006). A common mistake is dividing by the number of data points instead of the difference in years, or including intermediate values. Identify the two endpoints and apply the slope formula.",
+      "correctNote": "The correct choice is (4) −153.71.",
+      "skill": "modeling",
+      "subTopic": "Linear Functions & Graphing"
+    },
+    {
+      "number": 24,
+      "part": "A",
+      "text": "Joe compared gas prices in England and New York State one day. In England, gas sold for 1.35 euros per liter, and one dollar equaled 0.622 euros. A correct way to figure out this cost, in dollars per gallon, is",
+      "choices": [
+        "(1.35 euros / 1 L) × (1 L / 0.264 gal) × ($1.00 / 0.622 euros)",
+        "(1.35 euros / 1 L) × (0.264 gal / 1 L) × ($1.00 / 0.622 euros)",
+        "(1.35 euros / 1 L) × (1 L / 0.264 gal) × (0.622 euros / $1.00)",
+        "(1.35 euros / 1 L) × (0.264 gal / 1 L) × (0.622 euros / $1.00)"
+      ],
+      "topic": "Linear Equations & Inequalities",
+      "correct": 0,
+      "explanation": "Dimensional analysis must cancel liters and euros to leave dollars per gallon: euros/L × L/gal × $/euros yields $/gal, with the conversion 1 L ≈ 0.264 gal placing liters on top.",
+      "diveDeep": "Unit conversion (dimensional analysis) works by multiplying by conversion factors arranged so unwanted units cancel and target units remain. To go from euros/liter to dollars/gallon, you need a factor that cancels liters (with liters in the numerator) and one that cancels euros (with euros in the denominator), ending in dollars per gallon. The common mistake is flipping a conversion factor, which leaves the wrong units. Track the units like algebraic symbols and verify the final result reads dollars per gallon.",
+      "correctNote": "The correct choice is (1).",
+      "skill": "modeling",
+      "subTopic": "Solving Equations & Inequalities"
+    },
+    {
+      "number": 25,
+      "part": "B",
+      "type": "written",
+      "text": "Solve the equation 6x² − 1 = 11x algebraically for x.",
+      "topic": "Quadratic Functions",
+      "explanation": "Rearranging to 6x² − 11x − 1 = 0 and applying the quadratic formula gives the two solutions.",
+      "diveDeep": "When a quadratic is not easily factorable, set it equal to zero and use the quadratic formula x = (−b ± √(b² − 4ac))/(2a). Here a = 6, b = −11, c = −1, so the discriminant is 121 + 24 = 145, which is not a perfect square, meaning the answers are irrational and stay in radical form. A common mistake is trying to force a factorization or dropping the ± sign. Always move every term to one side first so the equation equals zero before identifying a, b, and c.",
+      "modelAnswer": "Rewrite in standard form: 6x² − 11x − 1 = 0, with a = 6, b = −11, c = −1. Apply the quadratic formula: x = (11 ± √((−11)² − 4(6)(−1)))/(2·6) = (11 ± √(121 + 24))/12 = (11 ± √145)/12. The two solutions are x = (11 + √145)/12 and x = (11 − √145)/12 (approximately x ≈ 1.92 and x ≈ −0.09).",
+      "skill": "procedure",
+      "subTopic": "Solving Quadratics"
+    },
+    {
+      "number": 26,
+      "part": "B",
+      "type": "written",
+      "text": "Graph the function f(x) = √(x + 2) on the set of axes below for the domain 0 ≤ x ≤ 14. State the range of this function over the given domain.",
+      "topic": "Functions & Relations",
+      "explanation": "The square-root function increases from f(0) = √2 to f(14) = √16 = 4, so the range over the domain is √2 ≤ f(x) ≤ 4.",
+      "diveDeep": "A square-root function y = √(x + 2) produces a smooth increasing curve, and you can graph it by plotting points that make the radicand a perfect square (x = −1, 2, 7, 14 give nice values). On the restricted domain, evaluate the endpoints to find the range: f(0) = √2 ≈ 1.41 and f(14) = 4. The range is bounded by these output values. A common mistake is stating the domain as the range or forgetting that the function is increasing so the endpoints give the min and max outputs.",
+      "modelAnswer": "Plot points using the domain: f(0) = √2 ≈ 1.4, f(2) = √4 = 2, f(7) = √9 = 3, f(14) = √16 = 4. Connect them with a smooth increasing curve that starts at about (0, 1.4) and ends at (14, 4). Because the function is increasing on this domain, the smallest output is √2 and the largest is 4, so the range is √2 ≤ f(x) ≤ 4 (approximately 1.4 ≤ f(x) ≤ 4).",
+      "skill": "graphing",
+      "subTopic": "Domain & Range"
+    },
+    {
+      "number": 27,
+      "part": "B",
+      "type": "written",
+      "text": "A cell phone plan costs $35 per month plus $0.15 for each text message sent. Write a function, C(t), that represents the total monthly cost in dollars when t text messages are sent. Use this function to determine the total cost for a month in which 240 text messages are sent.",
+      "topic": "Linear Equations & Inequalities",
+      "explanation": "The cost function is C(t) = 35 + 0.15t, and C(240) = 35 + 0.15(240) = 35 + 36 = $71.",
+      "diveDeep": "A linear cost model has the form C(t) = (fixed cost) + (rate)(quantity), where the fixed monthly fee is the y-intercept and the per-text charge is the slope. Once the function is built, evaluating it at a specific input answers \"how much for t messages.\" A common mistake is omitting the fixed fee or multiplying the rate by the wrong quantity. Identify the constant charge and the variable rate separately, then combine them.",
+      "modelAnswer": "The fixed monthly charge is $35 and each text adds $0.15, so the cost function is C(t) = 35 + 0.15t, where t is the number of text messages. For 240 texts: C(240) = 35 + 0.15(240) = 35 + 36 = 71. The total cost for that month is $71.",
+      "skill": "modeling",
+      "subTopic": "Solving Equations & Inequalities"
+    },
+    {
+      "number": 28,
+      "part": "B",
+      "type": "written",
+      "text": "Determine whether the data set {12, 15, 18, 13, 20, 16, 14, 100} contains an outlier. Justify your answer using the interquartile range (IQR).",
+      "topic": "Statistics & Probability",
+      "explanation": "The value 100 lies far above Q3 + 1.5·IQR, so it is an outlier by the 1.5·IQR rule.",
+      "diveDeep": "An outlier is a data value that falls below Q1 − 1.5·IQR or above Q3 + 1.5·IQR, where IQR = Q3 − Q1. First order the data, find the quartiles, compute the IQR, then build the lower and upper fences. Any value outside the fences is an outlier. The common mistake is judging \"outlier\" by eye instead of computing the fences, or forgetting to sort the data before finding quartiles. Show the fence calculation to fully justify the conclusion.",
+      "modelAnswer": "Ordered data: 12, 13, 14, 15, 16, 18, 20, 100. The median is between 15 and 16 (15.5). Q1 is the median of the lower half {12, 13, 14, 15} = 13.5, and Q3 is the median of the upper half {16, 18, 20, 100} = 19. IQR = Q3 − Q1 = 19 − 13.5 = 5.5. The upper fence is Q3 + 1.5(IQR) = 19 + 1.5(5.5) = 19 + 8.25 = 27.25. Since 100 > 27.25, the value 100 is an outlier.",
+      "skill": "reasoning",
+      "subTopic": "Data & Distributions"
+    },
+    {
+      "number": 29,
+      "part": "B",
+      "type": "written",
+      "text": "The functions f(x) = 2x + 1 and g(x) = x² − 4 are given. Determine the value(s) of x for which f(x) = g(x). Justify your answer algebraically.",
+      "topic": "Quadratic Functions",
+      "explanation": "Setting 2x + 1 = x² − 4 gives x² − 2x − 5 = 0, solved by the quadratic formula.",
+      "diveDeep": "Finding where two functions are equal means setting their expressions equal and solving the resulting equation. When one side is quadratic, move all terms to one side to get a quadratic equation equal to zero, then factor or use the quadratic formula. Here the discriminant 4 + 20 = 24 is not a perfect square, so the solutions are irrational. A common mistake is solving only one intersection or making a sign error when collecting terms. The solutions are the x-coordinates where the line and parabola intersect.",
+      "modelAnswer": "Set the functions equal: 2x + 1 = x² − 4. Move all terms to one side: 0 = x² − 2x − 5. Using the quadratic formula with a = 1, b = −2, c = −5: x = (2 ± √(4 + 20))/2 = (2 ± √24)/2 = (2 ± 2√6)/2 = 1 ± √6. So f(x) = g(x) when x = 1 + √6 or x = 1 − √6 (approximately x ≈ 3.45 and x ≈ −1.45).",
+      "skill": "reasoning",
+      "subTopic": "Quadratic Models"
+    },
+    {
+      "number": 30,
+      "part": "B",
+      "type": "written",
+      "text": "Factor completely: 3x³ − 27x.",
+      "topic": "Polynomials & Factoring",
+      "explanation": "Factor out the GCF 3x to get 3x(x² − 9), then factor the difference of squares to get 3x(x − 3)(x + 3).",
+      "diveDeep": "Factoring completely means pulling out the greatest common factor first, then continuing to factor any remaining expression until no further factoring is possible. After removing 3x, the leftover x² − 9 is a difference of two squares, a² − b² = (a − b)(a + b). The common mistake is stopping after the GCF step or missing the difference-of-squares pattern. Always check whether the remaining factor fits a special pattern.",
+      "modelAnswer": "First factor out the greatest common factor, 3x: 3x³ − 27x = 3x(x² − 9). The expression x² − 9 is a difference of perfect squares (x² − 3²), which factors as (x − 3)(x + 3). The complete factorization is 3x(x − 3)(x + 3).",
+      "skill": "procedure",
+      "subTopic": "Factoring"
+    },
+    {
+      "number": 31,
+      "part": "B",
+      "type": "written",
+      "text": "On the set of axes below, graph the inequality y < −2x + 3. State whether the point (1, −2) is a solution to the inequality. Justify your answer.",
+      "topic": "Linear Equations & Inequalities",
+      "explanation": "Graph y = −2x + 3 as a dashed line and shade below it; testing (1, −2): −2 < −2(1) + 3 = 1 is true, so it is a solution.",
+      "diveDeep": "To graph a linear inequality, first graph the boundary line, using a dashed line for strict inequalities (< or >) and a solid line for ≤ or ≥, then shade the half-plane that satisfies the inequality. Decide which side to shade by testing a point, often (0, 0). To check whether a specific point is a solution, substitute its coordinates and verify the inequality holds. A common mistake is using a solid line for a strict inequality or shading the wrong side.",
+      "modelAnswer": "Graph the boundary line y = −2x + 3 (y-intercept 3, slope −2) as a dashed line because the inequality is strict (<). Shade the region below the line. To test (1, −2), substitute into the inequality: −2 < −2(1) + 3, which gives −2 < 1. This statement is true, so the point (1, −2) is a solution to the inequality.",
+      "skill": "reasoning",
+      "subTopic": "Linear Functions & Graphing"
+    },
+    {
+      "number": 32,
+      "part": "B",
+      "type": "written",
+      "text": "The number of bacteria in a culture doubles every 3 hours. There are initially 500 bacteria. Write an exponential equation that models the number of bacteria, B, after t hours. Use your equation to find the number of bacteria after 12 hours.",
+      "topic": "Exponential Functions",
+      "explanation": "The model is B = 500·2^(t/3), and at t = 12 this gives 500·2⁴ = 500·16 = 8000 bacteria.",
+      "diveDeep": "Exponential growth with a doubling time uses the form B = B₀·2^(t/d), where B₀ is the initial amount and d is the doubling period. The exponent t/d counts how many doubling periods have elapsed. After 12 hours there are 12/3 = 4 doublings, so the population multiplies by 2⁴ = 16. A common mistake is putting t (not t/d) in the exponent or using the wrong base. Match the base to the growth factor (2 for doubling) and divide time by the period.",
+      "modelAnswer": "Since the population doubles every 3 hours starting from 500, the model is B = 500·2^(t/3), where t is time in hours. After 12 hours: B = 500·2^(12/3) = 500·2⁴ = 500·16 = 8000. There are 8000 bacteria after 12 hours.",
+      "skill": "modeling",
+      "subTopic": "Exponential Functions"
+    },
+    {
+      "number": 33,
+      "part": "C",
+      "type": "written",
+      "text": "A landscaper is designing a rectangular garden. The length is 4 feet more than the width. The area of the garden is 96 square feet. Write an equation that can be used to find the width, w, of the garden. Solve the equation to find the dimensions of the garden.",
+      "topic": "Quadratic Functions",
+      "explanation": "With length w + 4, the equation w(w + 4) = 96 leads to w² + 4w − 96 = 0, which factors to (w + 12)(w − 8) = 0, giving width 8 ft and length 12 ft.",
+      "diveDeep": "Area problems often produce a quadratic equation: express both dimensions in terms of one variable, multiply for the area, and set equal to the given value. Move all terms to one side to solve, then factor or use the quadratic formula. Reject any negative solution because a length cannot be negative. The common mistake is keeping the negative root as a valid dimension. Always check that your answer makes sense physically.",
+      "modelAnswer": "Let w be the width; then the length is w + 4. Area = length × width, so w(w + 4) = 96, which expands to w² + 4w − 96 = 0. Factor: (w + 12)(w − 8) = 0, giving w = −12 or w = 8. Since width must be positive, w = 8 feet, and the length is w + 4 = 12 feet. The garden is 8 feet by 12 feet.",
+      "skill": "procedure",
+      "subTopic": "Solving Quadratics"
+    },
+    {
+      "number": 34,
+      "part": "C",
+      "type": "written",
+      "text": "A system of equations is given: y = x² − 2x − 3 and y = x − 3. Solve the system algebraically. State the coordinates of the solution(s).",
+      "topic": "Quadratic Functions",
+      "explanation": "Setting x² − 2x − 3 = x − 3 gives x² − 3x = 0, so x = 0 or x = 3, yielding points (0, −3) and (3, 0).",
+      "diveDeep": "To solve a linear-quadratic system algebraically, substitute the linear expression for y into the quadratic equation, then solve the resulting equation for x. Each x-value gives a point of intersection; substitute back into the simpler equation to find the matching y. A common mistake is finding only one solution when a parabola and line can intersect in two points, or forgetting to find the y-coordinates. The solutions are the intersection points of the two graphs.",
+      "modelAnswer": "Substitute y = x − 3 into the quadratic: x − 3 = x² − 2x − 3. Subtract (x − 3) from both sides: 0 = x² − 3x, which factors as x(x − 3) = 0, so x = 0 or x = 3. For x = 0: y = 0 − 3 = −3, giving (0, −3). For x = 3: y = 3 − 3 = 0, giving (3, 0). The solutions are (0, −3) and (3, 0).",
+      "skill": "procedure",
+      "subTopic": "Solving Quadratics"
+    },
+    {
+      "number": 35,
+      "image": "/images/exams/alg1-august-2023/q35.png",
+      "part": "C",
+      "type": "written",
+      "text": "The table below shows the height, in feet, of a ball t seconds after it is thrown. The height can be modeled by h(t) = −16t² + 48t + 4. State the maximum height of the ball and the time at which it occurs, to the nearest hundredth. Determine the time when the ball hits the ground, to the nearest hundredth.",
+      "topic": "Quadratic Functions",
+      "explanation": "The vertex occurs at t = 1.5 s with height h(1.5) = 40 ft; the ball lands when h(t) = 0, at t ≈ 3.08 s.",
+      "diveDeep": "A projectile's height follows a downward parabola, so its maximum height is the vertex, found at t = −b/(2a), and the landing time is the positive root of h(t) = 0. Compute the vertex time first, then substitute to get the maximum height. For the landing time, set the height to zero and use the quadratic formula, keeping only the positive solution. A common mistake is reporting the vertex t-value as the landing time or accepting a negative time. Distinguish between \"maximum height\" (vertex) and \"hits the ground\" (zero height).",
+      "modelAnswer": "Maximum height is at the vertex: t = −b/(2a) = −48/(2·−16) = 1.5 seconds. h(1.5) = −16(1.5)² + 48(1.5) + 4 = −36 + 72 + 4 = 40 feet, so the maximum height is 40 feet at t = 1.5 seconds. The ball hits the ground when h(t) = 0: −16t² + 48t + 4 = 0. Using the quadratic formula, t = (−48 ± √(48² − 4(−16)(4)))/(2·−16) = (−48 ± √(2304 + 256))/(−32) = (−48 ± √2560)/(−32). Taking the positive root: t = (−48 − 50.60)/(−32) ≈ 3.08 seconds. The ball hits the ground at about t = 3.08 seconds.",
+      "skill": "modeling",
+      "subTopic": "Graphing Parabolas"
+    },
+    {
+      "number": 36,
+      "part": "C",
+      "type": "written",
+      "text": "Two cars leave the same point at the same time traveling in opposite directions. One car travels at 55 miles per hour and the other at 65 miles per hour. Write an equation that models the total distance, d, between the two cars after t hours. Determine how long it takes for the cars to be 360 miles apart.",
+      "topic": "Linear Equations & Inequalities",
+      "explanation": "The cars separate at a combined rate of 120 mph, so d = 120t, and 360 = 120t gives t = 3 hours.",
+      "diveDeep": "When two objects move in opposite directions, the distance between them grows at the sum of their speeds, so combine the rates before writing the equation. The total-distance model is d = (combined rate)·t, a direct proportion. To find when they reach a target distance, set d equal to that value and solve for t. A common mistake is using only one car's speed or subtracting the speeds (which applies when moving in the same direction). Add the speeds for opposite-direction travel.",
+      "modelAnswer": "Together the cars move apart at 55 + 65 = 120 miles per hour, so the total distance after t hours is d = 120t. To find when they are 360 miles apart, set d = 360: 360 = 120t, so t = 360/120 = 3. It takes 3 hours for the cars to be 360 miles apart.",
+      "skill": "modeling",
+      "subTopic": "Solving Equations & Inequalities"
+    },
+    {
+      "number": 37,
+      "part": "D",
+      "type": "written",
+      "text": "A company sells handmade candles. The revenue, R, in dollars, from selling x candles is modeled by R(x) = −0.5x² + 40x. The cost, C, in dollars, to produce x candles is modeled by C(x) = 10x + 100. Write an expression for the profit, P(x), in terms of x. Determine the number of candles that must be sold to maximize profit, and state the maximum profit.",
+      "topic": "Quadratic Functions",
+      "explanation": "Profit P(x) = R(x) − C(x) = −0.5x² + 30x − 100, whose vertex at x = 30 gives a maximum profit of $350.",
+      "diveDeep": "Profit is revenue minus cost, so subtract the cost function from the revenue function and combine like terms to get a single quadratic. Because the leading coefficient is negative, the profit parabola opens downward and its vertex gives the maximum profit. Find the vertex x-value with −b/(2a), then substitute to get the maximum profit. A common mistake is maximizing revenue instead of profit, or forgetting to subtract the full cost expression including the fixed cost. Distinguish clearly among revenue, cost, and profit.",
+      "modelAnswer": "Profit is revenue minus cost: P(x) = R(x) − C(x) = (−0.5x² + 40x) − (10x + 100) = −0.5x² + 30x − 100. Since a = −0.5 < 0, the parabola opens downward and the maximum is at the vertex: x = −b/(2a) = −30/(2·−0.5) = −30/(−1) = 30 candles. The maximum profit is P(30) = −0.5(30)² + 30(30) − 100 = −450 + 900 − 100 = 350. Selling 30 candles maximizes profit at $350.",
+      "skill": "modeling",
+      "subTopic": "Graphing Parabolas"
+    }
   ]
 }
