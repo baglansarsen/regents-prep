@@ -55,7 +55,7 @@ export default function QuizScreen({ route, navigation }) {
   const { ready: adReady, showAd } = useRewardedAd({ onReward: addLife })
   const { checkAndEvolve, triggerReaction, updateQuestProgress, getPetMessage, studyBoost, pet } = usePetContext()
   const { say } = useSpeechContext()
-  const { isSubscribed } = useSubscription()
+  const { isSubscribed, isConfigured, presentPaywall } = useSubscription()
   const { playCorrect, playWrong } = useQuizSound()
 
   const [showBubble,    setShowBubble]    = useState(false)
@@ -465,6 +465,8 @@ export default function QuizScreen({ route, navigation }) {
               say={say}
               C={C}
               isSubscribed={isSubscribed}
+              isConfigured={isConfigured}
+              onUpgrade={presentPaywall}
             />
           )}
 
@@ -498,6 +500,8 @@ export default function QuizScreen({ route, navigation }) {
           onWatchAd={showAd}
           onRefill={() => refillLives(spendRP)}
           onGoBack={() => navigation.goBack()}
+          showPremium={isConfigured && !isSubscribed}
+          onGoPremium={presentPaywall}
         />
       )}
     </View>
@@ -507,22 +511,26 @@ export default function QuizScreen({ route, navigation }) {
 // ── AI tutor: "Why was I wrong?" ──────────────────────────────────────────────
 // Calls the grounded explainMistake Cloud Function. The pet voices the nudge;
 // the full why-wrong/why-right explanation reveals inline.
-function TutorButton({ question, wrongIdx, say, C, isSubscribed }) {
+function TutorButton({ question, wrongIdx, say, C, isSubscribed, isConfigured, onUpgrade }) {
   const { loading, data, error, explain } = useTutor()
 
-  // Premium gate: non-subscribers see a locked upsell, not the AI call. The
-  // Cloud Function also enforces a per-user daily cap as a cost backstop.
+  // Premium gate: non-subscribers see an upsell that opens the paywall directly.
+  // (Falls back to a spoken nudge on web / Expo Go where the paywall isn't available.)
   if (!isSubscribed) {
     return (
       <TouchableOpacity
-        onPress={() => say('💜 AI explanations are a Premium feature — unlock them in the Profile tab.')}
+        onPress={() => {
+          if (isConfigured && onUpgrade) onUpgrade()
+          else say('💜 AI explanations are a Premium feature — unlock Premium in your Profile.')
+        }}
         style={{
           marginBottom: 12, paddingVertical: 12, borderRadius: 12,
           borderWidth: 1.5, borderColor: C.purple, alignItems: 'center',
           flexDirection: 'row', justifyContent: 'center', gap: 8,
+          backgroundColor: C.purple + '12',
         }}
       >
-        <Text style={[T.btn, { color: C.purple }]}>🔒 Why was I wrong? · Premium</Text>
+        <Text style={[T.btn, { color: C.purple }]}>💜 Unlock “Why was I wrong?” with Premium</Text>
       </TouchableOpacity>
     )
   }
@@ -530,6 +538,7 @@ function TutorButton({ question, wrongIdx, say, C, isSubscribed }) {
   const onPress = async () => {
     const res = await explain(question, wrongIdx)
     if (res?.nudge) say(`🤔 ${res.nudge}`)
+    else if (!res) say('Hmm, I couldn’t load that explanation — try again in a moment.')
   }
 
   if (data) {
@@ -710,7 +719,7 @@ function WrittenAnswerBlock({ question, C, s, onSubmit, isLast }) {
 }
 
 // ── No-lives overlay ──────────────────────────────────────────────────────────
-function NoLivesGate({ C, s, insets, nextRefillAt, adReady, onWatchAd, onRefill, onGoBack }) {
+function NoLivesGate({ C, s, insets, nextRefillAt, adReady, onWatchAd, onRefill, onGoBack, showPremium, onGoPremium }) {
   const ms  = nextRefillAt ? Math.max(0, new Date(nextRefillAt).getTime() - Date.now()) : 0
   const min = Math.ceil(ms / 60_000)
 
@@ -759,6 +768,17 @@ function NoLivesGate({ C, s, insets, nextRefillAt, adReady, onWatchAd, onRefill,
         >
           <Text style={[T.btn, { color: C.warn }]}>⭐ Refill All (300 RP)</Text>
         </TouchableOpacity>
+
+        {/* Go Premium — unlimited hearts (only when not already subscribed) */}
+        {showPremium && (
+          <TouchableOpacity
+            style={[s.gateBtn, { backgroundColor: C.purple, marginTop: 10 }]}
+            onPress={onGoPremium}
+            activeOpacity={0.85}
+          >
+            <Text style={[T.btn, { color: '#fff' }]}>💜 Go Unlimited — never run out</Text>
+          </TouchableOpacity>
+        )}
 
         {/* Go back */}
         <TouchableOpacity style={s.gateLinkBtn} onPress={onGoBack}>
