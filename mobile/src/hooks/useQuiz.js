@@ -16,7 +16,7 @@ function streakMultiplier(streak) {
   return 1.0
 }
 
-export function useQuiz(questionSet) {
+export function useQuiz(questionSet, { secondChance = false } = {}) {
   const [index, setIndex] = useState(0)
   const [score, setScore] = useState(0)
   const [streak, setStreak] = useState(0)
@@ -25,6 +25,13 @@ export function useQuiz(questionSet) {
   const [lastEarned, setLastEarned] = useState(0)
   const [results, setResults] = useState([])
   const [phase, setPhase] = useState('answering') // 'answering' | 'feedback' | 'done'
+
+  // ── Second-chance + hint (lesson learning aids; off in graded/gate contexts) ──
+  const [eliminated,    setEliminated]    = useState([])   // disabled choice indices (hint + first-wrong)
+  const [attempts,      setAttempts]      = useState(0)     // wrong tries on the current question (0/1)
+  const [hintUsed,      setHintUsed]      = useState(false)
+  const [shaky,         setShaky]         = useState(false) // hinted or already missed once → recovery scoring
+  const [awaitingRetry, setAwaitingRetry] = useState(false) // rising edge drives the dino "try again" prompt
 
   const questions = questionSet
   const currentQuestion = questions[index]
@@ -35,30 +42,82 @@ export function useQuiz(questionSet) {
   const answer = useCallback(
     (choiceIndex) => {
       if (phase !== 'answering') return
+      if (eliminated.includes(choiceIndex)) return  // tapping a crossed-out choice is a no-op
 
       const isCorrect = choiceIndex === correctIndexOf(currentQuestion)
-      let earned = 0
+      const liveCount = (currentQuestion.choices?.length ?? 0) - eliminated.length
 
+      // First wrong in a learning context → offer a retry instead of finalizing.
+      // (Need >2 live choices, else disabling the wrong one reveals the answer.)
+      if (secondChance && !isCorrect && attempts === 0 && liveCount > 2) {
+        setStreak(0)                                   // combo broken the moment they err
+        setEliminated((e) => [...e, choiceIndex])
+        setAttempts(1)
+        setShaky(true)
+        setAwaitingRetry(true)
+        return
+      }
+
+      // Finalize.
+      const recovered = shaky && isCorrect             // right, but had hinted or missed once
+      let earned = 0
       if (isCorrect) {
-        const newStreak = streak + 1
-        earned = Math.round(BASE_POINTS * streakMultiplier(newStreak))
+        if (recovered) {
+          earned = Math.round(BASE_POINTS / 2)         // half RP; no streak bump
+        } else {
+          const newStreak = streak + 1                 // clean first-try correct
+          earned = Math.round(BASE_POINTS * streakMultiplier(newStreak))
+          setStreak(newStreak)
+          setBestStreak((b) => Math.max(b, newStreak))
+        }
         setScore((s) => s + earned)
-        setStreak(newStreak)
-        setBestStreak((b) => Math.max(b, newStreak))
       } else {
         setStreak(0)
       }
 
       setLastEarned(earned)
       setSelected(choiceIndex)
+      setAwaitingRetry(false)
       setResults((r) => [
         ...r,
-        { question: currentQuestion, chosen: choiceIndex, correct: isCorrect, points: earned },
+        {
+          question: currentQuestion,
+          chosen: choiceIndex,
+          // Recovered rows are logged as misses so they enter Smart Review and
+          // count as seen-wrong for predicted score (kindness ≠ inflated mastery).
+          correct: recovered ? false : isCorrect,
+          recovered: recovered || undefined,
+          hintUsed: hintUsed || undefined,
+          points: earned,
+        },
       ])
       setPhase('feedback')
     },
-    [phase, currentQuestion, streak],
+    [phase, currentQuestion, streak, secondChance, attempts, eliminated, shaky, hintUsed],
   )
+
+  // 50/50: cross out wrong choices until only two remain (correct + one other).
+  // Marks the question shaky, so a subsequent correct answer scores as a recovery.
+  const takeHint = useCallback(() => {
+    if (!secondChance || hintUsed || phase !== 'answering' || isWritten) return
+    const correctIdx = correctIndexOf(currentQuestion)
+    const n = currentQuestion.choices?.length ?? 0
+    if (n <= 2) return
+    const wrongs = []
+    for (let i = 0; i < n; i++) {
+      if (i !== correctIdx && !eliminated.includes(i)) wrongs.push(i)
+    }
+    // Shuffle and keep all-but-one wrong → leaves correct + 1 other.
+    for (let i = wrongs.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[wrongs[i], wrongs[j]] = [wrongs[j], wrongs[i]]
+    }
+    const toCut = wrongs.slice(0, Math.max(0, wrongs.length - 1))
+    if (!toCut.length) return
+    setEliminated((e) => [...e, ...toCut])
+    setHintUsed(true)
+    setShaky(true)
+  }, [secondChance, hintUsed, phase, isWritten, currentQuestion, eliminated])
 
   // Self-assessed result for the open-ended capstone. Records a non-graded
   // result entry (correct: null, written: true) so the scoring path can exclude
@@ -79,6 +138,15 @@ export function useQuiz(questionSet) {
     [phase, isWritten, currentQuestion],
   )
 
+  // Clear the per-question second-chance/hint state (next question or reset).
+  const clearAttemptState = () => {
+    setEliminated([])
+    setAttempts(0)
+    setHintUsed(false)
+    setShaky(false)
+    setAwaitingRetry(false)
+  }
+
   const next = useCallback(() => {
     setLastEarned(0)
     if (isLast) {
@@ -86,6 +154,7 @@ export function useQuiz(questionSet) {
     } else {
       setIndex((i) => i + 1)
       setSelected(null)
+      clearAttemptState()
       setPhase('answering')
     }
   }, [isLast])
@@ -97,6 +166,7 @@ export function useQuiz(questionSet) {
     setBestStreak(0)
     setSelected(null)
     setResults([])
+    clearAttemptState()
     setPhase('answering')
   }, [])
 
@@ -117,5 +187,10 @@ export function useQuiz(questionSet) {
     next,
     reset,
     streakMultiplier: streakMultiplier(streak + 1),
+    // Second-chance + hint
+    eliminated,
+    hintUsed,
+    awaitingRetry,
+    takeHint,
   }
 }

@@ -60,6 +60,14 @@ export default function QuizScreen({ route, navigation }) {
 
   const [showBubble,    setShowBubble]    = useState(false)
   const [buddyMessage,  setBuddyMessage]  = useState(null)
+  const [petSay,        setPetSay]        = useState(null)   // custom Reggie line (retry / hint)
+
+  // Reggie says something in the speech bubble for ~2.4s.
+  const dinoSay = useCallback((msg) => {
+    setPetSay(msg)
+    setShowBubble(true)
+    setTimeout(() => { setShowBubble(false); setPetSay(null) }, 2400)
+  }, [])
 
   // ── Study time session tracking ───────────────────────────────────────────
   const sessionSecondsRef = useRef(0)
@@ -85,7 +93,8 @@ export default function QuizScreen({ route, navigation }) {
     currentQuestion, isWritten, index, total, score, streak, bestStreak,
     selected, lastEarned, phase, results,
     answer, submitWritten, next: nextQuestion,
-  } = useQuiz(questionSet)
+    eliminated, hintUsed, awaitingRetry, takeHint,
+  } = useQuiz(questionSet, { secondChance: !isChallenge })
 
   const slideAnim  = useRef(new Animated.Value(300)).current
   const pulseAnim  = useRef(new Animated.Value(1)).current
@@ -169,6 +178,16 @@ export default function QuizScreen({ route, navigation }) {
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase])
+
+  // ── First wrong → Reggie nudges a retry (no heart lost; phase stays answering) ──
+  useEffect(() => {
+    if (awaitingRetry) {
+      hapticWarning()
+      animatePetIncorrect()
+      dinoSay('Oops — take another look! 🦕')
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [awaitingRetry])
 
   // ── Card pulse on new question ────────────────────────────────────────────
   useEffect(() => {
@@ -262,6 +281,8 @@ export default function QuizScreen({ route, navigation }) {
 
   function choiceStyle(idx) {
     if (phase === 'answering') {
+      // Crossed-out (hint or first-wrong) choices show wrong + dimmed and are disabled.
+      if (eliminated?.includes(idx)) return [s.choice, s.choiceWrong, s.choiceDim]
       return [s.choice, selected === idx && s.choiceSelected]
     }
     if (idx === correctIdx) return [s.choice, s.choiceCorrect]
@@ -271,6 +292,7 @@ export default function QuizScreen({ route, navigation }) {
 
   function letterBgColor(idx) {
     if (phase === 'answering') {
+      if (eliminated?.includes(idx)) return C.wrong
       return selected === idx ? C.brand : LETTER_COLORS[idx]
     }
     if (idx === correctIdx) return C.correct
@@ -353,13 +375,23 @@ export default function QuizScreen({ route, navigation }) {
             />
           ) : (
             <View style={s.choices}>
+              {/* 50/50 hint — Reggie crosses out two wrong choices (lessons only) */}
+              {phase === 'answering' && !isChallenge && !hintUsed && (currentQuestion.choices?.length ?? 0) > 2 && (
+                <TouchableOpacity
+                  style={s.hintBtn}
+                  onPress={() => { takeHint(); dinoSay('Here, I crossed two out! 🦕') }}
+                  activeOpacity={0.85}
+                >
+                  <Text style={s.hintText}>💡 Hint — cross out two</Text>
+                </TouchableOpacity>
+              )}
               {currentQuestion.choices.map((choice, idx) => (
                 <TouchableOpacity
                   key={idx}
                   style={choiceStyle(idx)}
-                  onPress={() => { if (phase !== 'answering') return; hapticTick(); answer(idx) }}
+                  onPress={() => { if (phase !== 'answering' || eliminated?.includes(idx)) return; hapticTick(); answer(idx) }}
                   activeOpacity={0.75}
-                  disabled={phase !== 'answering'}
+                  disabled={phase !== 'answering' || eliminated?.includes(idx)}
                 >
                   <View style={[s.letterBadge, { backgroundColor: letterBgColor(idx) }]}>
                     <Text style={s.letterText}>{LETTERS[idx]}</Text>
@@ -450,7 +482,7 @@ export default function QuizScreen({ route, navigation }) {
       {/* Speech bubble from top-bar pet tap */}
       {showBubble && (
         <View style={[s.bubble, { backgroundColor: C.surface }]} pointerEvents="none">
-          <Text style={[s.bubbleText, { color: C.text }]}>{getPetMessage() ?? 'You got this! 💪'}</Text>
+          <Text style={[s.bubbleText, { color: C.text }]}>{petSay ?? getPetMessage() ?? 'You got this! 💪'}</Text>
         </View>
       )}
 
@@ -758,6 +790,12 @@ function makeStyles(C, insets) {
     questionCard:  { backgroundColor: C.surface, borderRadius: 20, padding: 18, marginBottom: 20, borderWidth: 1, borderColor: C.border, borderTopWidth: 3, borderTopColor: C.brand, shadowColor: C.shadow, shadowOffset: { width: 0, height: 3 }, shadowOpacity: 1, shadowRadius: 10, elevation: 5 },
     questionImage: { width: '100%', height: 200, borderRadius: 10, marginBottom: 12, backgroundColor: C.surface2 },
     choices:       { gap: 12 },
+    hintBtn:       {
+      alignSelf: 'flex-start', flexDirection: 'row', alignItems: 'center',
+      paddingVertical: 8, paddingHorizontal: 14, borderRadius: 99,
+      borderWidth: 1.5, borderColor: C.warn, backgroundColor: C.warn + '1A', marginBottom: 4,
+    },
+    hintText:      { fontFamily: 'Fredoka_600SemiBold', fontSize: 13, color: C.warn },
     choice: {
       flexDirection:  'row',
       alignItems:     'center',
