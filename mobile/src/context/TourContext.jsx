@@ -24,7 +24,7 @@ export const TOUR_STEPS = [
   { id: 'subject', placement: 'bottom', title: 'Subject & goal',   body: 'Tap here to switch subjects, set a target score, and watch your 🎯 predicted score climb as you study.' },
   { id: 'streak',  placement: 'bottom', title: 'Your streak',      body: 'Study every day to keep your 🔥 streak alive. Miss a day and a freeze can save it.' },
   { id: 'lives',   placement: 'bottom', title: 'Hearts',           body: 'A wrong answer costs a ❤️. They refill over time — or go unlimited with Premium.' },
-  { id: 'rp',      placement: 'bottom', title: 'Regents Points',   body: 'Earn ⭐ RP for everything you do. Spend it on your pet, streak freezes, and power-ups.' },
+  { id: 'rp',      placement: 'bottom', title: 'Regents Points',   body: 'Earn ⭐ RP (Regents Points) for everything you do. Spend it on your pet, streak freezes, and power-ups.' },
   { id: null,      placement: 'center', title: "You're all set!",  body: 'Find quick practice and past exams in the Exams tab, your study buddy on the Home screen, and Progress, Social & Profile from the tabs below. Happy studying! 🚀' },
 ]
 
@@ -70,20 +70,30 @@ export function TourProvider({ children }) {
   const unregisterTarget  = useCallback((id) => { registry.current.delete(id) }, [])
   const registerScroller  = useCallback((handle) => { scrollerRef.current = handle }, [])
 
-  // Window-absolute rect of a target, or null. rAF lets layout settle; one retry
-  // covers the "measure returns 0 before paint" race.
+  // Window-absolute rect of a target, or null.
+  //
+  // Driven by setTimeout (NOT requestAnimationFrame): on first run the tour can
+  // start while a native prompt (ATT / notifications) or app-inactive state has
+  // rAF paused — an rAF-gated measure then never fires its callback and the
+  // overlay hangs black for 30–40s until the app is backgrounded/foregrounded.
+  // setTimeout still fires in those states. A hard cap guarantees the promise
+  // always resolves (→ graceful centered fallback), so the overlay can't hang.
   const measureTarget = useCallback((id) => new Promise((resolve) => {
     const node = registry.current.get(id)?.current
     if (!node || typeof node.measureInWindow !== 'function') { resolve(null); return }
     let tried = 0
+    let settled = false
+    const done = (v) => { if (!settled) { settled = true; resolve(v) } }
     const attempt = () => {
+      if (settled) return
       node.measureInWindow((x, y, width, height) => {
-        if (width > 0 && height > 0) { resolve({ x, y, width, height }); return }
-        if (tried++ < 1) { setTimeout(attempt, 150); return }
-        resolve(null)
+        if (width > 0 && height > 0) { done({ x, y, width, height }); return }
+        if (tried++ < 8) { setTimeout(attempt, 120); return }  // ~1s of layout-settle retries
+        done(null)
       })
     }
-    requestAnimationFrame(attempt)
+    setTimeout(attempt, 0)
+    setTimeout(() => done(null), 1500)  // hard cap — never leave the overlay measuring
   }), [])
 
   // Scroll a below-the-fold Home target into view, then wait for the scroll.
