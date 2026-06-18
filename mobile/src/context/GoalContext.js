@@ -75,8 +75,10 @@ export function GoalProvider({ children }) {
   const getGoal = useCallback((subject) => goalsRef.current[subject] ?? null, [goals])
 
   // ── Commit a goal for a subject (freezes the exam date at commit time) ──────
-  const commitGoal = useCallback(async (subject, target, baselineScore = null) => {
-    const examDateStr = toLocalDateStr(getNextExamDate(subject))
+  // `chosenExamDateStr` (optional): the session the student picked in goal setup;
+  // falls back to the auto next session when omitted (back-compat).
+  const commitGoal = useCallback(async (subject, target, baselineScore = null, chosenExamDateStr = null) => {
+    const examDateStr = chosenExamDateStr ?? toLocalDateStr(getNextExamDate(subject))
     const entry = {
       target,
       examDateStr,

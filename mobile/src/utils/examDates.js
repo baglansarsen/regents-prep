@@ -25,8 +25,13 @@ function nextTuesdayOfWeek(year, month, targetWeek) {
   return d
 }
 
-/** The next upcoming Regents session date for a subject, as a local Date. */
-export function getNextExamDate(subject = 'living-environment') {
+/**
+ * All upcoming valid Regents session dates for a subject (soonest first), as
+ * local Dates. Spans this year through two years out so the Sept–Jan window
+ * (this year's sessions all past, next January next up) and a multi-session
+ * picker are both covered. Honors the offering rules (HAS_AUGUST / NO_JANUARY).
+ */
+function upcomingExamDates(subject = 'living-environment') {
   const today = new Date()
   today.setHours(0, 0, 0, 0)
   const year  = today.getFullYear()
@@ -34,18 +39,39 @@ export function getNextExamDate(subject = 'living-environment') {
   const hasAugust  = HAS_AUGUST.includes(subject)
   const hasJanuary = !NO_JANUARY.includes(subject)
 
-  // Build every plausible upcoming session across this year and next, then pick
-  // the soonest one still in the future. Spanning two years covers the Sept–Jan
-  // window where this year's sessions are all past but next January is next up.
   const candidates = []
-  for (const y of [year, year + 1]) {
+  for (const y of [year, year + 1, year + 2]) {
     if (hasJanuary) candidates.push(nextTuesdayOfWeek(y, 1, 4))  // 4th week of Jan
     candidates.push(nextTuesdayOfWeek(y, 6, 3))                  // 3rd week of June
     if (hasAugust)  candidates.push(nextTuesdayOfWeek(y, 8, 2))  // 2nd week of August
   }
   candidates.sort((a, b) => a - b)
+  const future = candidates.filter((d) => d >= today)
+  // Never return empty — fall back to the last candidate if somehow all past.
+  return future.length ? future : candidates.slice(-1)
+}
 
-  return candidates.find((d) => d >= today) ?? candidates[candidates.length - 1]
+/** The next upcoming Regents session date for a subject, as a local Date. */
+export function getNextExamDate(subject = 'living-environment') {
+  return upcomingExamDates(subject)[0]
+}
+
+function toDateStr(d) {
+  const pad = (n) => String(n).padStart(2, '0')
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`
+}
+
+/**
+ * The next few valid sessions a student can target for this subject, for the
+ * goal-setup session picker. Each: { dateStr (YYYY-MM-DD), label ("June 2027"),
+ * days (whole days from today) }. Only sessions the subject is actually offered in.
+ */
+export function getUpcomingExamSessions(subject = 'living-environment', count = 3) {
+  return upcomingExamDates(subject).slice(0, count).map((d) => ({
+    dateStr: toDateStr(d),
+    label:   d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' }),
+    days:    daysUntil(d),
+  }))
 }
 
 /** Whole days from today (local midnight) until the given Date or YYYY-MM-DD string. */

@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import React, { useState, useMemo, useEffect } from 'react'
 import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Alert } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
@@ -12,8 +12,7 @@ import { useNotifications } from '../hooks/useNotifications'
 import { GOAL_TIERS } from '../data/goalConfig'
 import { SUBJECT_META } from '../content/subjects'
 import { subjectData } from '../content/subjectData'
-import { getNextExamDate, daysUntil } from '../utils/examDates'
-import { toLocalDateStr } from '../utils/localDate'
+import { getUpcomingExamSessions, daysUntil } from '../utils/examDates'
 import GoalShareSheet from '../components/GoalShareSheet'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import { logEvent } from '../utils/analytics'
@@ -45,13 +44,25 @@ export default function GoalSetupScreen({ navigation }) {
   const [showShare, setShowShare] = useState(false)
   const [committed, setCommitted] = useState(null)   // entry returned by commitGoal
 
-  const examDate    = useMemo(() => getNextExamDate(subject), [subject])
-  const examDateStr = toLocalDateStr(examDate)
-  const days        = daysUntil(examDateStr)
-  const examLabel   = examDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
+  // Valid upcoming sessions the student can target for this subject (Jan/Jun/Aug
+  // filtered to what this subject is actually offered in).
+  const sessions = useMemo(() => getUpcomingExamSessions(subject), [subject])
+  // Pre-select the existing goal's session if it's still upcoming, else the soonest.
+  const [examDateStr, setExamDateStr] = useState(
+    () => (sessions.find((sn) => sn.dateStr === existing?.examDateStr)?.dateStr) ?? sessions[0]?.dateStr,
+  )
+  // If the subject (and thus the valid sessions) changes while mounted, keep the
+  // selection valid — snap to the soonest session when the current pick drops out.
+  useEffect(() => {
+    if (!sessions.some((sn) => sn.dateStr === examDateStr)) {
+      setExamDateStr(sessions[0]?.dateStr)
+    }
+  }, [sessions]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  const days = daysUntil(examDateStr)
 
   async function handleCommit() {
-    const entry = await commitGoal(subject, target, coldStart ? null : rawPredicted)
+    const entry = await commitGoal(subject, target, coldStart ? null : rawPredicted, examDateStr)
     setCommitted(entry)
     logEvent('goal_committed', { subject, target, daysToExam: days })
     setShowShare(true)
@@ -93,10 +104,34 @@ export default function GoalSetupScreen({ navigation }) {
           <View style={{ flex: 1, marginLeft: 12 }}>
             <Text style={[T.h3, { color: C.text }]}>{meta.name} Regents</Text>
             <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-              📅 {examLabel} · {days} days away
+              {sessions.length > 1 ? 'Which session are you taking?' : `📅 ${days} days away`}
             </Text>
           </View>
         </View>
+
+        {/* Session picker — only the sittings this subject is offered in */}
+        {sessions.length > 1 && (
+          <View style={s.sessionRow}>
+            {sessions.map((sn) => {
+              const active = sn.dateStr === examDateStr
+              return (
+                <TouchableOpacity
+                  key={sn.dateStr}
+                  style={[s.sessionCard, cardShadow(C.shadow), active && { borderColor: C.brand, borderWidth: 2, backgroundColor: C.brand + '14' }]}
+                  onPress={() => setExamDateStr(sn.dateStr)}
+                  activeOpacity={0.85}
+                >
+                  <Text style={[T.small, { color: active ? C.brand : C.text, fontFamily: 'Fredoka_600SemiBold' }]} numberOfLines={1}>
+                    {sn.label}
+                  </Text>
+                  <Text style={[T.label, { color: C.textMuted, marginTop: 4, textTransform: 'none', letterSpacing: 0 }]}>
+                    {sn.days} days
+                  </Text>
+                </TouchableOpacity>
+              )
+            })}
+          </View>
+        )}
 
         {/* Where you stand */}
         <Text style={[T.small, { color: C.textMuted, textAlign: 'center', marginBottom: 14, marginHorizontal: 24 }]}>
@@ -183,6 +218,12 @@ function makeStyles(C) {
       flexDirection: 'row', alignItems: 'center',
       backgroundColor: C.surface, borderRadius: 18, borderWidth: 1, borderColor: C.border,
       marginHorizontal: 16, marginBottom: 14, padding: 16,
+    },
+    sessionRow: { flexDirection: 'row', gap: 10, marginHorizontal: 16, marginBottom: 14 },
+    sessionCard: {
+      flex: 1, alignItems: 'center',
+      backgroundColor: C.surface, borderRadius: 16, borderWidth: 1, borderColor: C.border,
+      paddingVertical: 14, paddingHorizontal: 8,
     },
     tierCard: {
       flexDirection: 'row', alignItems: 'center',
