@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useCallback } from 'react'
 import {
   View, Text, TextInput, TouchableOpacity, FlatList,
-  ScrollView, StyleSheet, ActivityIndicator, Alert, Platform,
+  StyleSheet, ActivityIndicator, Alert, Platform,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { doc, setDoc, serverTimestamp } from 'firebase/firestore'
@@ -11,13 +11,9 @@ import { db, auth } from '../firebase'
 import { useTheme } from '../context/ThemeContext'
 import { NY_SCHOOLS, getSchoolsSortedByDistance, distanceMi } from '../content/schools'
 
-const TYPE_FILTERS = [
-  { key: null,      label: 'All',     emoji: '🏫' },
-  { key: 'public',  label: 'Public',  emoji: '🏛' },
-  { key: 'private', label: 'Private', emoji: '🎓' },
-  { key: 'charter', label: 'Charter', emoji: '⭐' },
-]
-
+// Schools are shown all together (no type separation). The per-card badge still
+// labels each school's type; "Find Schools Near Me" narrows by distance across
+// all types.
 const TYPE_COLORS = {
   public:  '#16a34a',
   private: '#9333ea',
@@ -27,7 +23,6 @@ const TYPE_COLORS = {
 export default function SchoolOnboardingScreen({ navigation, onComplete }) {
   const { C } = useTheme()
   const [search,       setSearch]       = useState('')
-  const [typeFilter,   setTypeFilter]   = useState(null)
   const [loading,      setLoading]      = useState(false)
   const [locLoading,   setLocLoading]   = useState(false)
   const [userLocation, setUserLocation] = useState(null)  // { lat, lng }
@@ -37,11 +32,10 @@ export default function SchoolOnboardingScreen({ navigation, onComplete }) {
   const firstName = user?.displayName?.split(' ')[0] ?? 'there'
 
   const filtered = useMemo(() => {
-    let list = NY_SCHOOLS
-    if (typeFilter) list = list.filter(s => s.type === typeFilter)
-    if (search)     list = list.filter(s => s.name.toLowerCase().includes(search.toLowerCase()) || s.borough.toLowerCase().includes(search.toLowerCase()))
-    return list
-  }, [typeFilter, search])
+    if (!search) return NY_SCHOOLS
+    const q = search.toLowerCase()
+    return NY_SCHOOLS.filter(s => s.name.toLowerCase().includes(q) || s.borough.toLowerCase().includes(q))
+  }, [search])
 
   const handleLocate = useCallback(async () => {
     setLocLoading(true)
@@ -131,32 +125,7 @@ export default function SchoolOnboardingScreen({ navigation, onComplete }) {
         </TouchableOpacity>
       )}
 
-      {/* Nearby schools */}
-      {nearby.length > 0 && (
-        <View style={s.nearbySection}>
-          <Text style={s.nearbyLabel}>📍 Near You</Text>
-          {nearby.map(school => {
-            const mi = distanceMi(userLocation.lat, userLocation.lng, school.lat, school.lng)
-            return (
-              <TouchableOpacity key={school.id} style={s.nearbyCard} onPress={() => selectSchool(school)}>
-                <View style={{ flex: 1 }}>
-                  <Text style={s.nearbyName}>{school.name}</Text>
-                  <Text style={s.nearbyMeta}>
-                    {school.borough}
-                    <Text style={{ color: TYPE_COLORS[school.type] ?? '#6b7280' }}> · {school.type}</Text>
-                  </Text>
-                </View>
-                <Text style={s.nearbyDist}>~{mi.toFixed(1)} mi</Text>
-              </TouchableOpacity>
-            )
-          })}
-          <TouchableOpacity onPress={() => { setUserLocation(null); setNearby([]) }}>
-            <Text style={s.clearLoc}>Clear location</Text>
-          </TouchableOpacity>
-        </View>
-      )}
-
-      {/* Search */}
+      {/* Search (fixed — kept out of the FlatList so typing never dismisses the keyboard) */}
       <TextInput
         style={s.search}
         placeholder="Search schools…"
@@ -165,33 +134,11 @@ export default function SchoolOnboardingScreen({ navigation, onComplete }) {
         onChangeText={setSearch}
       />
 
-      {/* Type filter chips */}
-      <ScrollView
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        style={s.typeRow}
-        contentContainerStyle={{ gap: 8, paddingHorizontal: 16, alignItems: 'center' }}
-      >
-        {TYPE_FILTERS.map(({ key, label, emoji }) => (
-          <TouchableOpacity
-            key={key ?? 'all'}
-            style={[s.typeChip, typeFilter === key && s.typeChipActive]}
-            onPress={() => setTypeFilter(typeFilter === key ? null : key)}
-          >
-            <Text
-              style={[s.typeChipText, typeFilter === key && s.typeChipTextActive]}
-              numberOfLines={1}
-              allowFontScaling={false}
-            >
-              {emoji} {label}
-            </Text>
-          </TouchableOpacity>
-        ))}
-      </ScrollView>
-
-      {/* Full school list */}
+      {/* Full school list — all types together. The "Near You" block rides in the
+          list header so it scrolls with the list instead of squashing it. */}
       <FlatList
         data={filtered}
+        style={{ flex: 1 }}
         keyExtractor={item => item.id}
         contentContainerStyle={{ padding: 16, gap: 10, paddingTop: 8 }}
         keyboardShouldPersistTaps="handled"
@@ -199,6 +146,30 @@ export default function SchoolOnboardingScreen({ navigation, onComplete }) {
         maxToRenderPerBatch={10}
         windowSize={5}
         removeClippedSubviews={Platform.OS !== 'web'}
+        ListHeaderComponent={nearby.length > 0 ? (
+          <View style={s.nearbySection}>
+            <Text style={s.nearbyLabel}>📍 Near You</Text>
+            {nearby.map(school => {
+              const mi = distanceMi(userLocation.lat, userLocation.lng, school.lat, school.lng)
+              return (
+                <TouchableOpacity key={school.id} style={s.nearbyCard} onPress={() => selectSchool(school)}>
+                  <View style={{ flex: 1 }}>
+                    <Text style={s.nearbyName}>{school.name}</Text>
+                    <Text style={s.nearbyMeta}>
+                      {school.borough}
+                      <Text style={{ color: TYPE_COLORS[school.type] ?? '#6b7280' }}> · {school.type}</Text>
+                    </Text>
+                  </View>
+                  <Text style={s.nearbyDist}>~{mi.toFixed(1)} mi</Text>
+                </TouchableOpacity>
+              )
+            })}
+            <TouchableOpacity onPress={() => { setUserLocation(null); setNearby([]) }}>
+              <Text style={s.clearLoc}>Clear location</Text>
+            </TouchableOpacity>
+            <Text style={s.allLabel}>All schools</Text>
+          </View>
+        ) : null}
         renderItem={({ item }) => {
           const typeColor = TYPE_COLORS[item.type] ?? '#6b7280'
           return (
@@ -244,8 +215,9 @@ function makeStyles(C) {
     },
     locateBtnText: { color: C.brand, fontWeight: '700', fontSize: 15 },
 
-    nearbySection: { marginHorizontal: 16, marginBottom: 8 },
+    nearbySection: { marginBottom: 8 },
     nearbyLabel:   { fontSize: 12, fontWeight: '700', color: C.brand, textTransform: 'uppercase', letterSpacing: 0.5, marginBottom: 6 },
+    allLabel:      { fontSize: 12, fontWeight: '700', color: C.textMuted, textTransform: 'uppercase', letterSpacing: 0.5, marginTop: 10 },
     nearbyCard:    {
       flexDirection: 'row', alignItems: 'center',
       backgroundColor: C.brand + '14', borderRadius: 10,
@@ -262,16 +234,6 @@ function makeStyles(C) {
       borderRadius: 12, padding: 12, color: C.text, fontSize: 15,
       borderWidth: 1, borderColor: C.border,
     },
-
-    typeRow:   { flexGrow: 0, marginBottom: 8, paddingVertical: 4 },
-    typeChip:  {
-      flexDirection: 'row', alignItems: 'center', justifyContent: 'center',
-      paddingHorizontal: 16, paddingVertical: 10, borderRadius: 99, minHeight: 40,
-      backgroundColor: C.surface2, borderWidth: 1.5, borderColor: C.surface3,
-    },
-    typeChipActive:     { backgroundColor: C.brand, borderColor: C.brand },
-    typeChipText:       { fontSize: 14, fontWeight: '700', color: C.text, lineHeight: 18 },
-    typeChipTextActive: { color: '#fff' },
 
     schoolCard:   {
       backgroundColor: C.surface, borderRadius: 14, padding: 14,
