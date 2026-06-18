@@ -41,7 +41,7 @@ export default function StreakCalendar({
     let textStyle = s.dayText
     if (status === 'studied') { cellStyle = [s.cell, { backgroundColor: C.brand, borderColor: C.brandDark }]; textStyle = [s.dayText, { color: '#fff' }] }
     else if (status === 'frozen') { cellStyle = [s.cell, { backgroundColor: C.blue, borderColor: C.blueDark }]; textStyle = [s.dayText, { color: '#fff' }] }
-    else if (status === 'today')  { cellStyle = [s.cell, { borderColor: C.brand, borderWidth: 2 }]; textStyle = [s.dayText, { color: C.brand, fontFamily: 'Nunito_800ExtraBold' }] }
+    else if (status === 'today')  { cellStyle = [s.cell, { borderColor: C.brand, borderWidth: 2 }]; textStyle = [s.dayText, { color: C.brand, fontFamily: 'Fredoka_600SemiBold' }] }
     else if (status === 'missed') { textStyle = [s.dayText, { color: C.wrong, opacity: 0.7 }] }
     else if (status === 'future') { textStyle = [s.dayText, { color: C.textDim, opacity: 0.45 }] }
 
@@ -113,7 +113,7 @@ const legendStyles = StyleSheet.create({
 function makeStyles(C) {
   return StyleSheet.create({
     header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 12, paddingHorizontal: 4 },
-    nav:    { fontSize: 28, fontFamily: 'Nunito_800ExtraBold', width: 32, textAlign: 'center' },
+    nav:    { fontSize: 28, fontFamily: 'Fredoka_600SemiBold', width: 32, textAlign: 'center' },
 
     row:      { flexDirection: 'row' },
     cellWrap: { flex: 1, alignItems: 'center', paddingVertical: 3 },
@@ -123,7 +123,7 @@ function makeStyles(C) {
       borderWidth: 1, borderColor: 'transparent',
     },
     dayText:      { fontFamily: 'Nunito_700Bold', fontSize: 13, color: C.text },
-    weekdayLabel: { fontFamily: 'Nunito_800ExtraBold', fontSize: 11, paddingVertical: 4 },
+    weekdayLabel: { fontFamily: 'Fredoka_600SemiBold', fontSize: 11, paddingVertical: 4 },
 
     legend: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', gap: 14, marginTop: 14 },
   })

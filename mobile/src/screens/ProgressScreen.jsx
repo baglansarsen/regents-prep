@@ -126,7 +126,7 @@ export default function ProgressScreen({ navigation }) {
             progress={predicted != null && target != null
               ? Math.min(1, Math.max(0, (predicted - 50) / Math.max(1, target - 50)))
               : 0}
-            color={atGoal ? C.correct : (C.warn ?? '#FFC800')}
+            color={atGoal ? C.correct : (C.warn ?? '#FFC93C')}
             trackColor={C.surface2}
           >
             <Text style={[T.num, { color: C.text, fontSize: 30 }]}>{coldStart ? '—' : predicted}</Text>

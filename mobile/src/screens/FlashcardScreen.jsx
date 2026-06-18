@@ -155,9 +155,9 @@ export default function FlashcardScreen({ route, navigation }) {
             <Text style={s.ratingIcon}>😕</Text>
             <Text style={[s.ratingLabel, { color: '#FF9600' }]}>Hard</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={[s.ratingBtn, { backgroundColor: '#1CB0F622', borderColor: '#1CB0F6' }]} onPress={() => rate(Q_GOOD)}>
+          <TouchableOpacity style={[s.ratingBtn, { backgroundColor: '#34B3F122', borderColor: '#34B3F1' }]} onPress={() => rate(Q_GOOD)}>
             <Text style={s.ratingIcon}>🙂</Text>
-            <Text style={[s.ratingLabel, { color: '#1CB0F6' }]}>Good</Text>
+            <Text style={[s.ratingLabel, { color: '#34B3F1' }]}>Good</Text>
           </TouchableOpacity>
           <TouchableOpacity style={[s.ratingBtn, { backgroundColor: C.correctBg, borderColor: C.correct }]} onPress={() => rate(Q_EASY)}>
             <Text style={s.ratingIcon}>😄</Text>

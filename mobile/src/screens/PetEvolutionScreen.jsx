@@ -109,7 +109,7 @@ export default function PetEvolutionScreen({ navigation }) {
         </Animated.View>
 
         <Animated.View style={{ opacity: textOp, width: '80%', marginTop: 32 }}>
-          <TouchableOpacity style={duoBtn('#58CC02', '#3D9B00')} onPress={handleContinue}>
+          <TouchableOpacity style={duoBtn('#1FC36B', '#0E9F52')} onPress={handleContinue}>
             <Text style={[T.btn, { color: '#fff', fontSize: 17 }]}>LET'S GO! 🚀</Text>
           </TouchableOpacity>
         </Animated.View>
@@ -125,7 +125,7 @@ const s = StyleSheet.create({
   content:      { alignItems: 'center', paddingHorizontal: 24 },
   evolvedEmoji: { fontSize: 110, marginBottom: 16 },
   evolvedLabel: {
-    fontFamily:  'Nunito_900Black',
+    fontFamily:  'Fredoka_700Bold',
     fontSize:    28,
     color:       '#FCD34D',
     textAlign:   'center',

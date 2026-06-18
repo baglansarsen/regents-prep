@@ -10,6 +10,11 @@ import {
   Nunito_800ExtraBold,
   Nunito_900Black,
 } from '@expo-google-fonts/nunito'
+import {
+  Fredoka_500Medium,
+  Fredoka_600SemiBold,
+  Fredoka_700Bold,
+} from '@expo-google-fonts/fredoka'
 import { ThemeProvider, useTheme } from './src/context/ThemeContext'
 import { AuthProvider } from './src/context/AuthContext'
 import { SubjectProvider } from './src/context/SubjectContext'
@@ -34,6 +39,9 @@ function Inner() {
     Nunito_700Bold,
     Nunito_800ExtraBold,
     Nunito_900Black,
+    Fredoka_500Medium,
+    Fredoka_600SemiBold,
+    Fredoka_700Bold,
   })
   const [fontTimeout, setFontTimeout] = useState(false)
 

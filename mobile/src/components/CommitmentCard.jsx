@@ -12,10 +12,10 @@ const CARD = {
   border:  '#334155',
   text:    '#F8FAFC',
   muted:   '#94A3B8',
-  brand:   '#58CC02',
-  warn:    '#FFC800',
+  brand:   '#1FC36B',
+  warn:    '#FFC93C',
   fire:    '#FF9600',
-  purple:  '#CE82FF',
+  purple:  '#7C5CFC',
 }
 
 function formatExamDate(dateStr) {

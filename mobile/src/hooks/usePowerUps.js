@@ -98,7 +98,7 @@ export function usePowerUps() {
       name:       'Refill Hearts',
       desc:       isSubscribed ? 'You have unlimited hearts with Premium!' : `Instantly restore all ${maxLives} lives.`,
       cost:       300,
-      accent:     '#FF4B4B',
+      accent:     '#FF5A5F',
       dark:       '#CC0000',
       owned:      isSubscribed || lives >= maxLives,
       ownedLabel: isSubscribed ? '♾️ Unlimited' : '❤️ Full',

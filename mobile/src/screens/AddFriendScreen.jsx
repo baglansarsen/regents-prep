@@ -143,7 +143,7 @@ function makeStyles(C) {
     codeValue: {
       flex: 1,
       fontSize: 20,
-      fontFamily: 'Nunito_900Black',
+      fontFamily: 'Fredoka_700Bold',
       color: C.brand,
       letterSpacing: 3,
     },

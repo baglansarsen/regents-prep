@@ -21,7 +21,7 @@ import {
 import { T, cardShadow } from '../styles/duo'
 
 // ── Avatar initials ───────────────────────────────────────────────────────────
-const AVATAR_COLORS = ['#58CC02','#1CB0F6','#CE82FF','#FF9600','#FF4B4B','#FFC800']
+const AVATAR_COLORS = ['#1FC36B','#34B3F1','#7C5CFC','#FF9600','#FF5A5F','#FFC93C']
 function avatarColor(name) {
   const code = (name ?? 'S').charCodeAt(0)
   return AVATAR_COLORS[code % AVATAR_COLORS.length]
@@ -34,7 +34,7 @@ function Avatar({ name, size = 36, C }) {
       backgroundColor: avatarColor(name),
       alignItems: 'center', justifyContent: 'center',
     }}>
-      <Text style={{ fontSize: size * 0.42, color: '#fff', fontFamily: 'Nunito_900Black' }}>
+      <Text style={{ fontSize: size * 0.42, color: '#fff', fontFamily: 'Fredoka_700Bold' }}>
         {(name ?? '?')[0].toUpperCase()}
       </Text>
     </View>
@@ -61,7 +61,7 @@ function PromotionBanner({ justPromoted, justDemoted, tier, C }) {
     <Animated.View style={[
       s.promotionBanner,
       {
-        backgroundColor: justPromoted ? '#58CC02' : '#FF4B4B',
+        backgroundColor: justPromoted ? '#1FC36B' : '#FF5A5F',
         opacity: opAnim,
         transform: [{ scale: scaleAnim }],
       },
@@ -93,8 +93,8 @@ function ZoneLabel({ label, color }) {
 function MemberRow({ entry, rank, isMe, inPromote, inDemote, C }) {
   const borderColor = isMe
     ? C.brand
-    : inPromote ? '#58CC02'
-    : inDemote  ? '#FF4B4B'
+    : inPromote ? '#1FC36B'
+    : inDemote  ? '#FF5A5F'
     : C.border
 
   const bgColor = isMe
@@ -169,13 +169,13 @@ export default function LeagueScreen({ navigation }) {
 
       // Section headers
       if (rank === 1 && total > 0) {
-        items.push({ type: 'zone', key: 'z-promote', label: `▲  Promotion Zone  (top ${promoteN})`, color: '#58CC02' })
+        items.push({ type: 'zone', key: 'z-promote', label: `▲  Promotion Zone  (top ${promoteN})`, color: '#1FC36B' })
       }
       if (rank === promoteN + 1 && total > promoteN) {
         items.push({ type: 'zone', key: 'z-safe', label: '—  Safe Zone', color: C.textMuted })
       }
       if (rank === demoteFrom && demoteFrom <= total && tier !== 'bronze') {
-        items.push({ type: 'zone', key: 'z-demote', label: `▼  Demotion Zone  (bottom ${demoteN})`, color: '#FF4B4B' })
+        items.push({ type: 'zone', key: 'z-demote', label: `▼  Demotion Zone  (bottom ${demoteN})`, color: '#FF5A5F' })
       }
 
       items.push({ type: 'member', key: m.uid, entry: m, rank, isMe, inPromote, inDemote })
@@ -330,7 +330,7 @@ const s = StyleSheet.create({
     borderWidth:     1,
   },
   rankText: {
-    fontFamily: 'Nunito_800ExtraBold',
+    fontFamily: 'Fredoka_600SemiBold',
     fontSize:   14,
     width:      30,
     textAlign:  'center',

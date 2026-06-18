@@ -30,7 +30,7 @@ export const TIER_META = {
   bronze:  { label: 'Bronze',  emoji: '🥉', color: '#CD7F32', light: '#FEF3E2', dark: '#2D1F0D' },
   silver:  { label: 'Silver',  emoji: '🥈', color: '#8C9BAB', light: '#F0F4F8', dark: '#1A1F25' },
   gold:    { label: 'Gold',    emoji: '🥇', color: '#D97706', light: '#FFFBE6', dark: '#2D2000' },
-  diamond: { label: 'Diamond', emoji: '💎', color: '#1CB0F6', light: '#EBF8FF', dark: '#001D2D' },
+  diamond: { label: 'Diamond', emoji: '💎', color: '#34B3F1', light: '#EBF8FF', dark: '#001D2D' },
 }
 
 export const PROMOTE_N = 10   // cap: at most this many promoted per tier each week

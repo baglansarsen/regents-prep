@@ -27,7 +27,7 @@ export function getScaledScore(rawScore, total = 50) {
 }
 
 export function topicIndicator(pct) {
-  if (pct < 65) return { emoji: '🔴', label: 'Needs Work',  color: '#FF4B4B' }
+  if (pct < 65) return { emoji: '🔴', label: 'Needs Work',  color: '#FF5A5F' }
   if (pct < 85) return { emoji: '🟡', label: 'Review',      color: '#FF9600' }
-  return              { emoji: '🟢', label: 'Strong',       color: '#58CC02' }
+  return              { emoji: '🟢', label: 'Strong',       color: '#1FC36B' }
 }

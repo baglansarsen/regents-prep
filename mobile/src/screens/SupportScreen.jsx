@@ -313,7 +313,7 @@ function makeStyles(C) {
       borderTopRightRadius: 8, borderBottomRightRadius: 8,
     },
     bestBadgeText: {
-      fontFamily: 'Nunito_800ExtraBold', fontSize: 10,
+      fontFamily: 'Fredoka_600SemiBold', fontSize: 10,
       color: '#fff', letterSpacing: 0.5,
     },
     planLeft:  { flexDirection: 'row', alignItems: 'center', flex: 1 },

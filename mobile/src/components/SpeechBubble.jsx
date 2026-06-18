@@ -93,7 +93,7 @@ const s = StyleSheet.create({
   cursor: {
     fontSize:   14,
     color:      '#3B82F6',
-    fontFamily: 'Nunito_800ExtraBold',
+    fontFamily: 'Fredoka_600SemiBold',
     marginLeft: 1,
   },
   tail: {

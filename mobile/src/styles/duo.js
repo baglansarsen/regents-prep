@@ -2,14 +2,14 @@
 
 // Typography scale — use with <Text style={[T.h1, { color: C.text }]}>
 export const T = {
-  h1:    { fontFamily: 'Nunito_900Black',     fontSize: 28, letterSpacing: -0.3 },
-  h2:    { fontFamily: 'Nunito_800ExtraBold', fontSize: 22 },
-  h3:    { fontFamily: 'Nunito_700Bold',      fontSize: 17 },
-  body:  { fontFamily: 'Nunito_700Bold',      fontSize: 15, lineHeight: 22 },
-  small: { fontFamily: 'Nunito_600SemiBold',  fontSize: 13 },
-  label: { fontFamily: 'Nunito_600SemiBold',  fontSize: 12, letterSpacing: 0.8, textTransform: 'uppercase' },
-  btn:   { fontFamily: 'Nunito_800ExtraBold', fontSize: 15, letterSpacing: 0.5, textTransform: 'uppercase' },
-  num:   { fontFamily: 'Nunito_900Black',     fontSize: 36 },
+  h1:    { fontFamily: 'Fredoka_700Bold',      fontSize: 28, letterSpacing: -0.3 },
+  h2:    { fontFamily: 'Fredoka_600SemiBold',  fontSize: 22 },
+  h3:    { fontFamily: 'Fredoka_600SemiBold',  fontSize: 17 },
+  body:  { fontFamily: 'Nunito_700Bold',       fontSize: 15, lineHeight: 22 },
+  small: { fontFamily: 'Nunito_600SemiBold',   fontSize: 13 },
+  label: { fontFamily: 'Fredoka_600SemiBold',  fontSize: 12, letterSpacing: 0.8, textTransform: 'uppercase' },
+  btn:   { fontFamily: 'Fredoka_600SemiBold',  fontSize: 15, letterSpacing: 0.5, textTransform: 'uppercase' },
+  num:   { fontFamily: 'Fredoka_700Bold',      fontSize: 36 },
 }
 
 // 3D "Duo button" — returns style object for the touchable container
@@ -83,7 +83,7 @@ export function elevatedCard(C, opts = {}) {
 // Section label style — use as a Text style object
 export function sectionLabel(C) {
   return {
-    fontFamily: 'Nunito_800ExtraBold',
+    fontFamily: 'Fredoka_600SemiBold',
     fontSize: 11,
     letterSpacing: 1.4,
     textTransform: 'uppercase',

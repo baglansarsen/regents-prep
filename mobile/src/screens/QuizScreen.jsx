@@ -29,12 +29,12 @@ import { skipUnlocksKey } from '../utils/storageKeys'
 import ExamImage from '../components/ExamImage'
 
 const LETTERS = ['A', 'B', 'C', 'D']
-const LETTER_COLORS = ['#1CB0F6', '#CE82FF', '#FF9600', '#FF4B4B']
+const LETTER_COLORS = ['#34B3F1', '#7C5CFC', '#FF9600', '#FF5A5F']
 
 // Combo threshold labels
 function comboInfo(streak) {
-  if (streak >= 10) return { label: `${streak} in a row!`, mult: '×2.0', color: '#FF4B4B' }
-  if (streak >= 5)  return { label: `${streak} in a row!`, mult: '×2.0', color: '#FF4B4B' }
+  if (streak >= 10) return { label: `${streak} in a row!`, mult: '×2.0', color: '#FF5A5F' }
+  if (streak >= 5)  return { label: `${streak} in a row!`, mult: '×2.0', color: '#FF5A5F' }
   if (streak >= 3)  return { label: `${streak} in a row!`, mult: '×1.5', color: '#FF9600' }
   if (streak >= 2)  return { label: `${streak} in a row!`, mult: '×1.25', color: '#FF9600' }
   return null
@@ -803,7 +803,7 @@ function makeStyles(C, insets) {
     choiceWrong:    { borderColor: C.wrong,   backgroundColor: C.wrongBg },
     choiceDim:      { opacity: 0.35 },
     letterBadge:    { width: 36, height: 36, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
-    letterText:     { fontFamily: 'Nunito_900Black', fontSize: 15, color: '#fff' },
+    letterText:     { fontFamily: 'Fredoka_700Bold', fontSize: 15, color: '#fff' },
 
     // No-lives gate
     gateBackdrop:   { backgroundColor: 'rgba(0,0,0,0.72)', justifyContent: 'flex-end', zIndex: 200 },

@@ -25,7 +25,7 @@ import NudgeBanner from '../components/NudgeBanner'
 import { getEngagementNudge } from '../hooks/useEngagementNudge'
 import StreakCalendar from '../components/StreakCalendar'
 
-const AVATAR_COLORS = ['#58CC02', '#1CB0F6', '#CE82FF', '#FFC800', '#FF4B4B']
+const AVATAR_COLORS = ['#1FC36B', '#34B3F1', '#7C5CFC', '#FFC93C', '#FF5A5F']
 
 // ── Time picker data ───────────────────────────────────────────────────────────
 // Every 30 minutes from 6 AM to 11 PM

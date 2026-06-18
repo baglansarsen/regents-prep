@@ -18,7 +18,7 @@ const FLAVORS = {
   broken:    { top: '#64748B', bottom: '#334155', accent: '#0EA5E9' },
 }
 
-const CONFETTI_COLORS = ['#FFD34E', '#FF7A00', '#22C55E', '#1CB0F6', '#EC4899', '#A855F7']
+const CONFETTI_COLORS = ['#FFD34E', '#FF7A00', '#22C55E', '#34B3F1', '#EC4899', '#5B3FD1']
 
 // ── Confetti ────────────────────────────────────────────────────────────────
 function Confetti({ run, count = 28 }) {
@@ -319,16 +319,16 @@ const s = StyleSheet.create({
     borderRadius: 99, paddingHorizontal: 14, paddingVertical: 6, marginBottom: 14,
     borderWidth: 1, borderColor: 'rgba(255,255,255,0.4)',
   },
-  badgeText: { fontFamily: 'Nunito_800ExtraBold', fontSize: 12, color: '#fff', letterSpacing: 1 },
+  badgeText: { fontFamily: 'Fredoka_600SemiBold', fontSize: 12, color: '#fff', letterSpacing: 1 },
 
   flame:    { fontSize: 130, textAlign: 'center' },
   flameNum: {
     position: 'absolute',
-    fontFamily: 'Nunito_900Black', fontSize: 52, color: '#fff',
+    fontFamily: 'Fredoka_700Bold', fontSize: 52, color: '#fff',
     textShadowColor: 'rgba(0,0,0,0.25)', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 6,
   },
 
-  headline: { fontFamily: 'Nunito_900Black', fontSize: 30, color: '#fff', textAlign: 'center', marginTop: 6 },
+  headline: { fontFamily: 'Fredoka_700Bold', fontSize: 30, color: '#fff', textAlign: 'center', marginTop: 6 },
   subtext:  { fontFamily: 'Nunito_600SemiBold', fontSize: 15, color: 'rgba(255,255,255,0.92)', textAlign: 'center', marginTop: 8, lineHeight: 21, paddingHorizontal: 8 },
 
   weekRow:  { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginTop: 22 },
@@ -338,7 +338,7 @@ const s = StyleSheet.create({
     width: 34, height: 34, borderRadius: 17,
     alignItems: 'center', justifyContent: 'center',
   },
-  dotMark:  { fontSize: 14, fontFamily: 'Nunito_800ExtraBold' },
+  dotMark:  { fontSize: 14, fontFamily: 'Fredoka_600SemiBold' },
   dayLabel: { fontFamily: 'Nunito_700Bold', fontSize: 10, color: 'rgba(255,255,255,0.85)' },
 
   petRow:   { marginTop: 18, alignItems: 'center' },
@@ -348,7 +348,7 @@ const s = StyleSheet.create({
 
   buttons:    { width: '100%', marginTop: 22, gap: 10 },
   primaryBtn: { borderRadius: 16, paddingVertical: 15, alignItems: 'center', width: '100%' },
-  primaryText:{ fontFamily: 'Nunito_800ExtraBold', fontSize: 16 },
+  primaryText:{ fontFamily: 'Fredoka_600SemiBold', fontSize: 16 },
   secondaryBtn: { borderRadius: 16, paddingVertical: 13, alignItems: 'center', width: '100%', borderWidth: 1.5, borderColor: 'rgba(255,255,255,0.6)' },
-  secondaryText: { fontFamily: 'Nunito_800ExtraBold', fontSize: 14, color: '#fff' },
+  secondaryText: { fontFamily: 'Fredoka_600SemiBold', fontSize: 14, color: '#fff' },
 })

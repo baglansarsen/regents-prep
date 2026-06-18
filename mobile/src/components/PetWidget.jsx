@@ -327,7 +327,7 @@ const s = StyleSheet.create({
   floatText: {
     position:   'absolute',
     top:        10,
-    fontFamily: 'Nunito_800ExtraBold',
+    fontFamily: 'Fredoka_600SemiBold',
     fontSize:   15,
     color:      '#10B981',
     textAlign:  'center',

@@ -10,7 +10,7 @@ import { skipUnlocksKey } from '../utils/storageKeys'
 
 const MAX_MISTAKES = 3
 const LETTERS = ['A', 'B', 'C', 'D']
-const LETTER_COLORS = ['#1CB0F6', '#CE82FF', '#FF9600', '#FF4B4B']
+const LETTER_COLORS = ['#34B3F1', '#7C5CFC', '#FF9600', '#FF5A5F']
 
 export default function SkipChallengeScreen({ route, navigation }) {
   const { topic, prereqTopic, questions, onUnlockKey, subject } = route.params
@@ -391,7 +391,7 @@ function makeStyles(C, insets) {
     choiceWrong:    { borderColor: C.wrong,   backgroundColor: C.wrongBg },
     choiceDim:      { opacity: 0.35 },
     letterBadge:    { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
-    letterText:     { fontFamily: 'Nunito_900Black', fontSize: 14, color: '#fff' },
+    letterText:     { fontFamily: 'Fredoka_700Bold', fontSize: 14, color: '#fff' },
     feedbackPanel: {
       position: 'absolute', bottom: 0, left: 0, right: 0,
       borderTopLeftRadius: 24, borderTopRightRadius: 24,

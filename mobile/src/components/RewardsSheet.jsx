@@ -258,7 +258,7 @@ function LivesSection({ C, adReady, adLoading, showAd, onClose }) {
       {/* Refill all */}
       <TouchableOpacity
         style={duoBtn(
-          lives < maxLives && rp >= 300 ? '#FF4B4B' : C.surface3,
+          lives < maxLives && rp >= 300 ? '#FF5A5F' : C.surface3,
           lives < maxLives && rp >= 300 ? '#CC0000' : C.border,
           { marginBottom: 12, opacity: (lives < maxLives && rp >= 300) ? 1 : 0.5 },
         )}
@@ -331,7 +331,7 @@ const ss = StyleSheet.create({
   },
   handleWrap:  { alignItems: 'center', paddingTop: 10, paddingBottom: 4 },
   handle:      { width: 40, height: 4, borderRadius: 2 },
-  sheetTitle:  { fontFamily: 'Nunito_800ExtraBold', fontSize: 20, paddingHorizontal: 20, paddingBottom: 4 },
+  sheetTitle:  { fontFamily: 'Fredoka_600SemiBold', fontSize: 20, paddingHorizontal: 20, paddingBottom: 4 },
   body:        { paddingHorizontal: 20, paddingTop: 12, gap: 0 },
 
   // Streak

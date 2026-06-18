@@ -40,7 +40,7 @@ function Avatar({ name, size = 36, C }) {
       width: size, height: size, borderRadius: size / 2,
       backgroundColor: C.brand, alignItems: 'center', justifyContent: 'center',
     }}>
-      <Text style={{ fontSize: size * 0.4, color: '#fff', fontFamily: 'Nunito_900Black' }}>
+      <Text style={{ fontSize: size * 0.4, color: '#fff', fontFamily: 'Fredoka_700Bold' }}>
         {(name ?? '?')[0].toUpperCase()}
       </Text>
     </View>
@@ -482,7 +482,7 @@ export default function FriendsScreen({ navigation, route }) {
                 >
                   <Text style={{ fontSize: 28 }}>{leagueMeta.emoji}</Text>
                   <View style={{ flex: 1 }}>
-                    <Text style={[T.body, { color: leagueMeta.color, fontFamily: 'Nunito_800ExtraBold' }]}>
+                    <Text style={[T.body, { color: leagueMeta.color, fontFamily: 'Fredoka_600SemiBold' }]}>
                       {leagueMeta.label} League
                     </Text>
                     <Text style={[T.small, { color: C.textMuted }]}>Top finishers promote · bottom drop · resets Monday</Text>
@@ -782,7 +782,7 @@ function makeStyles(C) {
     },
     codeValue: {
       fontSize: 20,
-      fontFamily: 'Nunito_900Black',
+      fontFamily: 'Fredoka_700Bold',
       color: C.brand,
       letterSpacing: 3,
       flex: 1,
@@ -803,9 +803,9 @@ function makeStyles(C) {
     requestRow:    { backgroundColor: C.surface, borderRadius: 12, padding: 12, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', borderWidth: 1, borderColor: C.brand + '60' },
     requestBtns:   { flexDirection: 'row', gap: 6 },
     requestBtn:    { width: 36, height: 36, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
-    requestBtnText:{ fontFamily: 'Nunito_800ExtraBold', fontSize: 16 },
+    requestBtnText:{ fontFamily: 'Fredoka_600SemiBold', fontSize: 16 },
     battlePill:    { paddingVertical: 8, paddingHorizontal: 16, borderRadius: 12, alignItems: 'center', justifyContent: 'center' },
-    battlePillText:{ fontFamily: 'Nunito_800ExtraBold', fontSize: 12 },
+    battlePillText:{ fontFamily: 'Fredoka_600SemiBold', fontSize: 12 },
 
     tabRow:        { flexDirection: 'row', marginHorizontal: 16, marginBottom: 10, backgroundColor: C.surface2, borderRadius: 14, padding: 4, gap: 2 },
     tabBtn:        { flex: 1, paddingVertical: 8, borderRadius: 11, alignItems: 'center', gap: 1 },
@@ -828,17 +828,17 @@ function makeStyles(C) {
     podiumCol:        { alignItems: 'center', gap: 3 },
     podiumMedalEmoji: { fontSize: 26, marginBottom: 2 },
     podiumAvatar:     { borderRadius: 50, overflow: 'hidden' },
-    podiumName:       { fontFamily: 'Nunito_800ExtraBold', fontSize: 12, textAlign: 'center', maxWidth: 84 },
+    podiumName:       { fontFamily: 'Fredoka_600SemiBold', fontSize: 12, textAlign: 'center', maxWidth: 84 },
     podiumRP:         { fontFamily: 'Nunito_700Bold', fontSize: 11, marginBottom: 4 },
     podiumBar:        { width: '100%', borderTopWidth: 2, borderRadius: 6 },
 
     // Leaderboard list rows
     lbRow:         { flexDirection: 'row', alignItems: 'center', gap: 10, backgroundColor: C.surface, borderRadius: 14, padding: 12, borderWidth: 1, borderColor: C.border },
     lbRowSelf:     { borderColor: C.brand },
-    lbRank:        { fontFamily: 'Nunito_800ExtraBold', fontSize: 15, width: 32, textAlign: 'center' },
+    lbRank:        { fontFamily: 'Fredoka_600SemiBold', fontSize: 15, width: 32, textAlign: 'center' },
     lbMedalEmoji:  { fontSize: 20, width: 32, textAlign: 'center' },
     lbName:        { fontFamily: 'Nunito_700Bold', fontSize: 14 },
-    lbRP:          { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#F59E0B' },
+    lbRP:          { fontFamily: 'Fredoka_600SemiBold', fontSize: 13, color: '#F59E0B' },
     lbChevron:     { fontFamily: 'Nunito_700Bold', fontSize: 20, marginLeft: 2 },
 
     // Friends tab
@@ -873,7 +873,7 @@ function makeStyles(C) {
       gap: 4,
     },
     friendName: {
-      fontFamily: 'Nunito_800ExtraBold',
+      fontFamily: 'Fredoka_600SemiBold',
       fontSize: 15,
     },
     friendStats: {
@@ -941,7 +941,7 @@ function makeStyles(C) {
       flexShrink: 0,
     },
     feedActor: {
-      fontFamily: 'Nunito_800ExtraBold',
+      fontFamily: 'Fredoka_600SemiBold',
       fontSize: 13,
     },
   })

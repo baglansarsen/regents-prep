@@ -125,6 +125,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: 'transparent',
   },
-  time:  { fontFamily: 'Nunito_800ExtraBold', letterSpacing: 1, textShadowColor: 'rgba(0,0,0,0.08)', textShadowOffset: {width:0,height:1}, textShadowRadius: 2 },
+  time:  { fontFamily: 'Fredoka_600SemiBold', letterSpacing: 1, textShadowColor: 'rgba(0,0,0,0.08)', textShadowOffset: {width:0,height:1}, textShadowRadius: 2 },
   phase: { fontFamily: 'Nunito_700Bold', letterSpacing: 2, marginTop: 2 },
 })

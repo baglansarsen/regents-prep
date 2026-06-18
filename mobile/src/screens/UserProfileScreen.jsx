@@ -13,7 +13,7 @@ import { getLevel } from '../hooks/useRP'
 import { getWeekKey } from '../hooks/useRP'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 
-const AVATAR_COLORS = ['#58CC02', '#1CB0F6', '#CE82FF', '#FFC800', '#FF4B4B', '#FF9600']
+const AVATAR_COLORS = ['#1FC36B', '#34B3F1', '#7C5CFC', '#FFC93C', '#FF5A5F', '#FF9600']
 
 function avatarColor(name) {
   const code = (name ?? 'S').toUpperCase().charCodeAt(0)
@@ -273,7 +273,7 @@ function makeStyles(C) {
 
     statsRow:     { flexDirection: 'row', alignSelf: 'stretch', backgroundColor: C.surface, borderRadius: 18, borderWidth: 1, borderColor: C.border, overflow: 'hidden', marginBottom: 12 },
     statCell:     { flex: 1, alignItems: 'center', paddingVertical: 16, gap: 4 },
-    statValue:    { fontFamily: 'Nunito_800ExtraBold', fontSize: 16, color: C.text },
+    statValue:    { fontFamily: 'Fredoka_600SemiBold', fontSize: 16, color: C.text },
     statDivider:  { width: 1, marginVertical: 16 },
 
     levelCard:    { alignSelf: 'stretch', backgroundColor: C.surface, borderRadius: 16, padding: 16, borderWidth: 1, borderColor: C.border, marginBottom: 16 },

@@ -398,7 +398,7 @@ function makeStyles(C) {
     rareBadge: {
       position:    'absolute',
       bottom:      -6,
-      fontFamily:  'Nunito_800ExtraBold',
+      fontFamily:  'Fredoka_600SemiBold',
       fontSize:    8,
       color:       '#F59E0B',
       letterSpacing: 0.3,

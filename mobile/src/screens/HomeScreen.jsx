@@ -817,7 +817,7 @@ export default function HomeScreen({ navigation }) {
         {/* Regents Goal — predicted score vs committed target */}
         {regentsGoal ? (
           <TouchableOpacity
-            style={[s.goalCard, elevatedCard(C), glassStyle, { borderLeftWidth: 4, borderLeftColor: C.warn ?? '#FFC800' }]}
+            style={[s.goalCard, elevatedCard(C), glassStyle, { borderLeftWidth: 4, borderLeftColor: C.warn ?? '#FFC93C' }]}
             onPress={() => navigation.navigate('GoalDetail')}
             activeOpacity={0.85}
           >
@@ -827,7 +827,7 @@ export default function HomeScreen({ navigation }) {
               progress={predicted != null
                 ? Math.min(1, Math.max(0, (predicted - 50) / Math.max(1, regentsGoal.target - 50)))
                 : 0}
-              color={predicted != null && predicted >= regentsGoal.target ? C.correct : (C.warn ?? '#FFC800')}
+              color={predicted != null && predicted >= regentsGoal.target ? C.correct : (C.warn ?? '#FFC93C')}
               trackColor={C.surface2}
             >
               <Text style={[T.label, { color: C.text, textTransform: 'none', letterSpacing: 0, fontSize: 15 }]}>
@@ -1216,7 +1216,7 @@ export default function HomeScreen({ navigation }) {
               </Text>
             </View>
             <TouchableOpacity
-              style={[duoBtn('#58CC02', '#3D8B02'), { marginTop: 20 }]}
+              style={[duoBtn('#1FC36B', '#0E9F52'), { marginTop: 20 }]}
               onPress={() => setGoalCelebModal(false)}
               activeOpacity={0.85}
             >
@@ -1390,7 +1390,7 @@ function makeStyles(C) {
       zIndex:          1,
     },
     mistakeBadgeText: {
-      fontFamily: 'Nunito_800ExtraBold',
+      fontFamily: 'Fredoka_600SemiBold',
       fontSize:   10,
       color:      '#fff',
       lineHeight: 13,
@@ -1409,7 +1409,7 @@ function makeStyles(C) {
       position:       'relative',
     },
     nodeIcon:   { fontSize: 34 },
-    starBadge:  { position: 'absolute', top: -2, right: -2, backgroundColor: '#FFC800', borderRadius: 12, width: 22, height: 22, alignItems: 'center', justifyContent: 'center' },
+    starBadge:  { position: 'absolute', top: -2, right: -2, backgroundColor: '#FFC93C', borderRadius: 12, width: 22, height: 22, alignItems: 'center', justifyContent: 'center' },
     pctBadge:   { position: 'absolute', bottom: -4, borderRadius: 10, paddingHorizontal: 6, paddingVertical: 2 },
 
     // ── Tips ──

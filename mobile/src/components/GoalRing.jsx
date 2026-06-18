@@ -16,7 +16,7 @@ export default function GoalRing({
   size = 80,
   strokeWidth = 8,
   progress = 0,
-  color = '#58CC02',
+  color = '#1FC36B',
   trackColor = '#E5E7EB',
   children,
 }) {

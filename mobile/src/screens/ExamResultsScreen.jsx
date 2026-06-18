@@ -215,7 +215,7 @@ export default function ExamResultsScreen({ route, navigation }) {
                     ) : (
                       <TouchableOpacity
                         style={duoBtn(
-                          pct < 65 ? '#FF4B4B' : '#FF9600',
+                          pct < 65 ? '#FF5A5F' : '#FF9600',
                           pct < 65 ? '#CC0000' : '#CC7A00',
                           { paddingVertical: 8, paddingHorizontal: 14 },
                         )}

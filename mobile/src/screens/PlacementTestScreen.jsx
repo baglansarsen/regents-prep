@@ -52,7 +52,7 @@ const SUBJECT_DATA = {
 
 const { width: W } = Dimensions.get('window')
 const LETTERS = ['A', 'B', 'C', 'D']
-const LETTER_COLORS = ['#1CB0F6', '#CE82FF', '#FF9600', '#FF4B4B']
+const LETTER_COLORS = ['#34B3F1', '#7C5CFC', '#FF9600', '#FF5A5F']
 const TARGET       = 10        // target question count
 const UNLOCK_PCT   = 80        // auto-unlock threshold
 
@@ -515,7 +515,7 @@ function makeStyles(C) {
     choices:     { gap: 10 },
     choice:      { flexDirection: 'row', alignItems: 'center', borderRadius: 16, padding: 14, gap: 12, borderWidth: 2.5 },
     letterBadge: { width: 32, height: 32, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
-    letterText:  { fontFamily: 'Nunito_900Black', fontSize: 14, color: '#fff' },
+    letterText:  { fontFamily: 'Fredoka_700Bold', fontSize: 14, color: '#fff' },
 
     // Results
     resultsScroll:{ padding: 20, alignItems: 'center', gap: 12 },

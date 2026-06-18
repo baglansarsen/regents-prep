@@ -88,8 +88,8 @@ export default function LoginScreen({ navigation }) {
           {/* Hero */}
           <View style={s.hero}>
             <Image source={require('../../assets/icon.png')} style={s.logo} resizeMode="contain" />
-            <Text style={[T.h1, { color: C.text, marginTop: 10, textAlign: 'center' }]}>
-              Regentify
+            <Text style={[T.h1, { marginTop: 10, textAlign: 'center' }]}>
+              <Text style={{ color: C.text }}>Regent</Text><Text style={{ color: '#FFC93C' }}>ify</Text>
             </Text>
             <Text style={[T.body, { color: C.textMuted, marginTop: 4, textAlign: 'center' }]}>
               Learn smarter. Score higher.

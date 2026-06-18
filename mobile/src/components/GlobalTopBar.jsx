@@ -205,7 +205,7 @@ function makeStyles(topInset, subjectColor) {
       borderRadius: 16,
       ...(Platform.OS === 'web' ? { backdropFilter: 'blur(16px)' } : {}),
     },
-    subjectBtnText: { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#fff' },
+    subjectBtnText: { fontFamily: 'Fredoka_600SemiBold', fontSize: 13, color: '#fff' },
     chevron:        { fontSize: 10, color: 'rgba(255,255,255,0.85)' },
 
     // Inline score chip inside the course pill — light fill so the number reads
@@ -220,7 +220,7 @@ function makeStyles(topInset, subjectColor) {
       justifyContent: 'center',
     },
     scoreChipAtGoal:     { backgroundColor: '#DCFCE7' },
-    scoreChipText:       { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: subjectColor },
+    scoreChipText:       { fontFamily: 'Fredoka_600SemiBold', fontSize: 13, color: subjectColor },
     scoreChipTextAtGoal: { color: '#15803D' },
 
     stats: { flexDirection: 'row', alignItems: 'center', gap: 8 },
@@ -236,6 +236,6 @@ function makeStyles(topInset, subjectColor) {
       borderColor:    'rgba(255,255,255,0.08)',
       ...(Platform.OS === 'web' ? { backdropFilter: 'blur(16px)' } : {}),
     },
-    statText: { fontFamily: 'Nunito_800ExtraBold', fontSize: 13, color: '#fff' },
+    statText: { fontFamily: 'Fredoka_600SemiBold', fontSize: 13, color: '#fff' },
   })
 }

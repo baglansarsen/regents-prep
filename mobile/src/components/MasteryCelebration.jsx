@@ -9,7 +9,7 @@ import { T, duoBtn } from '../styles/duo'
 
 const { width: W, height: H } = Dimensions.get('window')
 
-const COLORS   = ['#FF4B4B', '#FF9600', '#58CC02', '#1CB0F6', '#CE82FF', '#FFC800', '#FF69B4']
+const COLORS   = ['#FF5A5F', '#FF9600', '#1FC36B', '#34B3F1', '#7C5CFC', '#FFC93C', '#FF69B4']
 const COUNT    = 48
 
 // Stable per-particle config (generated once, never changes)

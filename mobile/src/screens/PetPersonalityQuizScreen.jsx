@@ -14,7 +14,7 @@ import { T, duoBtn, elevatedCard } from '../styles/duo';
 import { QUESTIONS, PET_RESULTS, computePetMatch } from '../data/petPersonality';
 import { DEFAULT_NAMES } from '../data/petConfig';
 
-const LETTER_COLORS = ['#1CB0F6', '#CE82FF', '#FF9600', '#FF4B4B'];
+const LETTER_COLORS = ['#34B3F1', '#7C5CFC', '#FF9600', '#FF5A5F'];
 
 export default function PetPersonalityQuizScreen({ navigation }) {
   const { C } = useTheme();
@@ -113,7 +113,7 @@ export default function PetPersonalityQuizScreen({ navigation }) {
           </View>
 
           <TouchableOpacity
-            style={duoBtn('#58CC02', '#3D8B02')}
+            style={duoBtn('#1FC36B', '#0E9F52')}
             onPress={() => setPhase('quiz')}
           >
             <Text style={[T.btn, { color: '#FFF' }]}>Start Quiz →</Text>
@@ -230,7 +230,7 @@ export default function PetPersonalityQuizScreen({ navigation }) {
           {/* Buttons */}
           <View style={styles.buttonRow}>
             <TouchableOpacity
-              style={duoBtn('#58CC02', '#3D8B02')}
+              style={duoBtn('#1FC36B', '#0E9F52')}
               onPress={handleAdopt}
               disabled={adopting}
               activeOpacity={0.8}

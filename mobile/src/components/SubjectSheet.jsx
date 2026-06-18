@@ -63,7 +63,7 @@ export default function SubjectSheet({ visible, onClose, subject, setSubject, go
           {/* ── Goal card (active subject) ── */}
           {goalSet ? (
             <TouchableOpacity
-              style={[s.goalCard, { backgroundColor: C.surface, borderColor: C.border, borderLeftColor: C.warn ?? '#FFC800' }]}
+              style={[s.goalCard, { backgroundColor: C.surface, borderColor: C.border, borderLeftColor: C.warn ?? '#FFC93C' }]}
               onPress={() => go('GoalDetail')}
               activeOpacity={0.85}
             >
@@ -71,7 +71,7 @@ export default function SubjectSheet({ visible, onClose, subject, setSubject, go
                 size={72}
                 strokeWidth={7}
                 progress={predicted != null ? Math.min(1, Math.max(0, (predicted - 50) / Math.max(1, target - 50))) : 0}
-                color={atGoal ? C.correct : (C.warn ?? '#FFC800')}
+                color={atGoal ? C.correct : (C.warn ?? '#FFC93C')}
                 trackColor={C.surface2}
               >
                 <Text style={[T.label, { color: C.text, textTransform: 'none', letterSpacing: 0, fontSize: 15 }]}>
@@ -125,7 +125,7 @@ export default function SubjectSheet({ visible, onClose, subject, setSubject, go
                 activeOpacity={0.75}
               >
                 <Text style={s.subjectIcon}>{meta.icon}</Text>
-                <Text style={[T.body, { color: C.text, flex: 1 }, active && { color, fontFamily: 'Nunito_800ExtraBold' }]}>
+                <Text style={[T.body, { color: C.text, flex: 1 }, active && { color, fontFamily: 'Fredoka_600SemiBold' }]}>
                   {meta.name}
                 </Text>
                 {active && <Text style={[s.check, { color }]}>✓</Text>}
@@ -165,6 +165,6 @@ function makeStyles(C) {
       borderRadius: 14, borderWidth: 1, marginBottom: 8,
     },
     subjectIcon: { fontSize: 20 },
-    check:       { fontSize: 16, fontFamily: 'Nunito_800ExtraBold' },
+    check:       { fontSize: 16, fontFamily: 'Fredoka_600SemiBold' },
   })
 }
