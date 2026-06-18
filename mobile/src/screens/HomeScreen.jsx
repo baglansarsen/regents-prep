@@ -111,7 +111,7 @@ export default function HomeScreen({ navigation }) {
   )
 
   const { lessonComplete, unitLessonsCompleted, unitComplete } = useLessonProgress(subjectHistory)
-  const { mistakesByTopic, dueCount, getReviewSet } = useMistakes()
+  const { mistakesByTopic, dueCount, getReviewSet } = useMistakes(subject)
   const units = sd.UNITS ?? []
   const { isUnitUnlocked, unitUnlockHint, reloadSkipUnlocks } = useUnitUnlocks(units, lessonComplete, unitComplete, subject)
   // Declared before the focus effect below — it reads pendingEvolution in its

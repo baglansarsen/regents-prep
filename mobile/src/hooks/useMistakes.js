@@ -76,7 +76,11 @@ export async function resolveCorrect(correctQuestions, subject) {
 }
 
 // ── Public hook ──────────────────────────────────────────────────────────────
-export function useMistakes() {
+// `subjectScope` (optional): when set, dueCount / dueMistakes / mistakesByTopic
+// are scoped to that subject so the "Review your gaps" card matches what the
+// REVIEW button (which always builds a subject-scoped pool) will actually run.
+// Omit it for a global count (e.g. the Exams-tab Practice Mistakes entry).
+export function useMistakes(subjectScope = null) {
   const [mistakes, setMistakes] = useState([])   // full queue, newest first
 
   useEffect(() => { loadRaw().then(setMistakes) }, [])
@@ -108,10 +112,14 @@ export function useMistakes() {
   )
 
   const now = Date.now()
-  const dueMistakes = mistakes.filter((e) => (e.due ?? 0) <= now)
+  // Scope to the active subject (when given) so the count agrees with the
+  // subject-scoped review pool — a global count over a subject-scoped button is
+  // what made the "Review your gaps" card show a number but do nothing on tap.
+  const scoped = subjectScope ? mistakes.filter((e) => e.subject === subjectScope) : mistakes
+  const dueMistakes = scoped.filter((e) => (e.due ?? 0) <= now)
   // Count under both the normalized topic and the finer subTopic so an in-unit
   // "Fix-ups" node resolves whether the unit is topic- or subTopic-defined.
-  const mistakesByTopic = mistakes.reduce((acc, e) => {
+  const mistakesByTopic = scoped.reduce((acc, e) => {
     if (e.topic)    acc[e.topic]    = (acc[e.topic] ?? 0) + 1
     if (e.subTopic) acc[e.subTopic] = (acc[e.subTopic] ?? 0) + 1
     return acc
@@ -119,7 +127,7 @@ export function useMistakes() {
 
   return {
     mistakes,
-    mistakeCount: mistakes.length,
+    mistakeCount: scoped.length,
     dueMistakes,
     dueCount: dueMistakes.length,
     mistakesByTopic,

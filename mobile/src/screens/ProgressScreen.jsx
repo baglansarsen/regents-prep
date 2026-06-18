@@ -65,7 +65,7 @@ export default function ProgressScreen({ navigation }) {
   const canPracticeWeakest = !!weakestUnit && (sd.getExamContextQuestions?.(weakestUnit.topic) ?? []).length > 0
 
   // ── Smart Review — due gaps across topics ───────────────────────────────────
-  const { dueCount, getReviewSet } = useMistakes()
+  const { dueCount, getReviewSet } = useMistakes(subject)
   const weakMastery = Object.fromEntries(topicBreakdown.map((t) => [t.topic, t.pct]).filter(([, p]) => p != null))
   function startReview() {
     const pool = getReviewSet({ subject, weakMastery, daysToExam: daysLeft, limit: 15 })
