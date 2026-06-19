@@ -6,6 +6,9 @@ const monoRoot = path.resolve(__dirname, '..')
 
 const config = getDefaultConfig(__dirname)
 
+// Bundle Rive animation files (.riv) as static assets so require() resolves them.
+config.resolver.assetExts.push('riv')
+
 // Watch the entire regents-prep project
 config.watchFolders = [monoRoot]
 

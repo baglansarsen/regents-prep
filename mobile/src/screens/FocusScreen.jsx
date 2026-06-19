@@ -23,6 +23,7 @@ const BACKGROUNDS = [
 ]
 import FocusTimerRing from '../components/FocusTimerRing'
 import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
+import RiveDemo from '../components/RiveDemo'
 import { T, cardShadow, duoBtn } from '../styles/duo'
 
 const SESSION_GOAL_PET_MESSAGES = {
@@ -409,6 +410,11 @@ export default function FocusScreen({ navigation }) {
                   : 'rgba(0,0,0,0.2)'
               }} />
             ))}
+          </View>
+
+          {/* Rive demo buddy — testing the Rive runtime in Focus Mode */}
+          <View style={{ alignItems: 'center', marginBottom: 4 }}>
+            <RiveDemo size={Math.min(screenWidth * 0.5, 200)} />
           </View>
 
           {/* Timer ring */}
