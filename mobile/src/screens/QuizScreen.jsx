@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView,
-  Animated, StyleSheet, Image, TextInput, Keyboard, ActivityIndicator,
+  Animated, StyleSheet, Image, TextInput, Keyboard, ActivityIndicator, Modal,
 } from 'react-native'
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
@@ -21,6 +21,7 @@ import { useSpeechContext } from '../context/SpeechContext'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import PetWidget from '../components/PetWidget'
 import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
+import ReggieMascot from '../components/ReggieMascot'
 import { useStudyTime } from '../hooks/useStudyTime'
 import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
 import { useQuizSound } from '../hooks/useQuizSound'
@@ -61,6 +62,7 @@ export default function QuizScreen({ route, navigation }) {
   const [showBubble,    setShowBubble]    = useState(false)
   const [buddyMessage,  setBuddyMessage]  = useState(null)
   const [petSay,        setPetSay]        = useState(null)   // custom Reggie line (retry / hint)
+  const [repeatIntro,   setRepeatIntro]   = useState(false)  // full-screen Reggie before the repeat round
 
   // Reggie says something in the speech bubble for ~2.4s.
   const dinoSay = useCallback((msg) => {
@@ -180,9 +182,9 @@ export default function QuizScreen({ route, navigation }) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase])
 
-  // ── Entering the end-of-lesson repeat round → Reggie cues it ──────────────
+  // ── Entering the end-of-lesson repeat round → full-screen Reggie cue ──────
   useEffect(() => {
-    if (inRepeat) dinoSay("Let's review what you missed 🦕")
+    if (inRepeat) setRepeatIntro(true)
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [inRepeat])
 
@@ -299,6 +301,24 @@ export default function QuizScreen({ route, navigation }) {
 
   return (
     <View style={s.root}>
+      {/* Full-screen Reggie intro before the end-of-lesson repeat round */}
+      <Modal visible={repeatIntro} transparent animationType="fade" onRequestClose={() => setRepeatIntro(false)}>
+        <View style={s.repeatIntroBackdrop}>
+          <ReggieMascot size={180} />
+          <Text style={s.repeatIntroTitle}>Let's fix those mistakes!</Text>
+          <Text style={s.repeatIntroSub}>
+            We'll go back through the {repeatTotal === 1 ? 'one you missed' : `${repeatTotal} you missed`} — one more try each.
+          </Text>
+          <TouchableOpacity
+            style={s.repeatIntroBtn}
+            onPress={() => setRepeatIntro(false)}
+            activeOpacity={0.85}
+          >
+            <Text style={[T.btn, { color: '#fff' }]}>Let's go! 🦕</Text>
+          </TouchableOpacity>
+        </View>
+      </Modal>
+
       <SafeAreaView style={s.safe} edges={[]}>
         {/* ── Top row ── */}
         <View style={s.topRow}>
@@ -818,6 +838,37 @@ function makeStyles(C, insets) {
   return StyleSheet.create({
     root:          { flex: 1, backgroundColor: C.bg },
     safe:          { flex: 1 },
+
+    // Full-screen Reggie intro before the repeat round
+    repeatIntroBackdrop: {
+      flex: 1,
+      backgroundColor: C.bg,
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingHorizontal: 32,
+    },
+    repeatIntroTitle: {
+      fontSize: 26,
+      color: C.text,
+      fontFamily: 'Fredoka_600SemiBold',
+      textAlign: 'center',
+      marginTop: 20,
+    },
+    repeatIntroSub: {
+      fontSize: 15,
+      color: C.textMuted,
+      fontFamily: 'Nunito_600SemiBold',
+      textAlign: 'center',
+      marginTop: 10,
+      lineHeight: 22,
+    },
+    repeatIntroBtn: {
+      marginTop: 28,
+      backgroundColor: C.brand,
+      paddingVertical: 15,
+      paddingHorizontal: 40,
+      borderRadius: 16,
+    },
     topRow:        { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 16, paddingTop: 12, paddingBottom: 12, gap: 10 },
     closeBtn:      { width: 36, height: 36, borderRadius: 18, backgroundColor: C.surface2, alignItems: 'center', justifyContent: 'center' },
     closeBtnText:  { fontSize: 15, color: C.textMuted, fontFamily: 'Nunito_700Bold' },

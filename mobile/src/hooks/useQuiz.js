@@ -59,9 +59,8 @@ export function useQuiz(questionSet, { hint = false, repeat = false } = {}) {
     const isCorrect = selected === correctIndexOf(currentQuestion)
 
     // Repeat round: pedagogical only — no score, no result row, no life loss.
-    // Wrong items are collected for another pass; correct ones simply drop out.
+    // It's a single pass, so nothing is re-queued here.
     if (inRepeat) {
-      if (!isCorrect) setRepeatPending((p) => [...p, currentQuestion])
       setLastEarned(0)
       setPhase('feedback')
       return
@@ -186,24 +185,20 @@ export function useQuiz(questionSet, { hint = false, repeat = false } = {}) {
       return
     }
 
-    // In a repeat pass.
+    // In the repeat pass.
     if (repeatIdx < repeatQueue.length - 1) {
       setRepeatIdx((i) => i + 1)
       clearQ()
       setPhase('answering')
       return
     }
-    // End of this pass: loop again on anything still missed, else finish.
-    if (repeatPending.length) {
-      setRepeatQueue(repeatPending)
-      setRepeatPending([])
-      setRepeatIdx(0)
-      clearQ()
-      setPhase('answering')
-    } else {
-      setPhase('done')
-    }
-  }, [inRepeat, isLast, results, repeat, repeatIdx, repeatQueue, repeatPending])
+    // The repeat is a SINGLE pass — we re-ask each miss exactly once, then
+    // finish regardless of whether it was answered correctly this time. (Looping
+    // until everything is right caused an endless quiz when a question kept being
+    // missed.) Items still wrong remain logged in the main-pass results, so they
+    // still flow into Smart Review.
+    setPhase('done')
+  }, [inRepeat, isLast, results, repeat, repeatIdx, repeatQueue])
 
   const reset = useCallback(() => {
     setIndex(0)
