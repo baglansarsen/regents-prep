@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useEffect, useRef } from 'react'
 import { correctIndexOf } from '../utils/question'
 
 // Points are denominated directly in RP so the score the student watches climb
@@ -213,6 +213,21 @@ export function useQuiz(questionSet, { hint = false, repeat = false } = {}) {
     clearQ()
     setPhase('answering')
   }, [])
+
+  // Start fresh whenever a new question set loads. The "next lesson" flow reuses
+  // this screen via navigation.replace, so without this the previous lesson's
+  // `results` survive and its mistakes leak into the next lesson's repeat round.
+  // Skip the first mount (initial state is already clean) to avoid a needless
+  // reset render.
+  const seededRef = useRef(false)
+  useEffect(() => {
+    if (!seededRef.current) {
+      seededRef.current = true
+      return
+    }
+    reset()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [questionSet])
 
   return {
     currentQuestion,
