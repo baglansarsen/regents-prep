@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import {
-  View, Text, TouchableOpacity, ScrollView, StyleSheet, ActivityIndicator, Linking,
+  View, Text, TouchableOpacity, ScrollView, StyleSheet, ActivityIndicator, Linking, Modal,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useSubscription } from '../context/SubscriptionContext'
+import { useAuthContext } from '../context/AuthContext'
+import { useRP } from '../hooks/useRP'
 import { PRODUCT_IDS } from '../hooks/usePurchases'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 
@@ -39,13 +41,36 @@ const TIP_AMOUNTS = [
 
 const TIP_IDS = TIP_AMOUNTS.map((t) => t.id)
 
+// A thank-you RP reward for tipping — these support the app, so be generous.
+const TIP_REWARD_RP = {
+  [PRODUCT_IDS.TIP_5]:  500,
+  [PRODUCT_IDS.TIP_10]: 1200,
+  [PRODUCT_IDS.TIP_25]: 3500,
+}
+
 export default function SupportScreen({ navigation }) {
   const { C }          = useTheme()
+  const { user }       = useAuthContext()
+  const { earnRP }     = useRP(user?.uid)
   const {
     isSubscribed, loading, isConfigured,
     purchaseMonthly, purchaseSeason, purchaseYearly,
     donate, fetchProducts, restorePurchases,
   } = useSubscription()
+
+  // First name for the personalized thank-you (falls back gracefully).
+  const firstName = (user?.displayName || '').trim().split(/\s+/)[0] || 'friend'
+
+  // Thank-you modal shown after a successful tip: { reward } RP awarded.
+  const [thanks, setThanks] = useState(null)
+
+  async function handleTip(tip) {
+    const ok = await donate(tip.id)
+    if (!ok) return   // cancelled or failed — donate() already surfaced errors
+    const reward = TIP_REWARD_RP[tip.id] ?? 0
+    if (reward) { try { await earnRP(reward) } catch {} }
+    setThanks({ reward })
+  }
 
   // Live localized prices for the tip buttons, keyed by product id.
   const [tipPrices, setTipPrices] = useState({})
@@ -224,7 +249,7 @@ export default function SupportScreen({ navigation }) {
               <TouchableOpacity
                 key={tip.id}
                 style={[s.tipBtn, cardShadow(GOLD + '44')]}
-                onPress={() => donate(tip.id)}
+                onPress={() => handleTip(tip)}
                 disabled={loading}
                 activeOpacity={0.85}
               >
@@ -268,6 +293,32 @@ export default function SupportScreen({ navigation }) {
 
         <View style={{ height: 32 }} />
       </ScrollView>
+
+      {/* Personalized thank-you + RP reward after a successful tip */}
+      <Modal visible={!!thanks} transparent animationType="fade" onRequestClose={() => setThanks(null)}>
+        <View style={s.thanksBackdrop}>
+          <View style={[s.thanksCard, cardShadow(C.shadow)]}>
+            <Text style={s.thanksEmoji}>💛</Text>
+            <Text style={[T.h2, { color: C.text, textAlign: 'center' }]}>Thank you, {firstName}!</Text>
+            <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 8, lineHeight: 22 }]}>
+              Your support keeps Regentify free for students everywhere. It genuinely means the world. 🙏
+            </Text>
+            {!!thanks?.reward && (
+              <View style={s.thanksReward}>
+                <Text style={[T.h3, { color: GOLD_DARK }]}>+{thanks.reward} RP</Text>
+                <Text style={[T.small, { color: C.textMuted }]}>added to your account</Text>
+              </View>
+            )}
+            <TouchableOpacity
+              style={[duoBtn(GOLD, GOLD_DARK, { marginTop: 20, alignSelf: 'stretch' })]}
+              onPress={() => setThanks(null)}
+              activeOpacity={0.85}
+            >
+              <Text style={[T.btn, { color: '#fff' }]}>You're welcome 💛</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      </Modal>
     </SafeAreaView>
   )
 }
@@ -275,6 +326,32 @@ export default function SupportScreen({ navigation }) {
 function makeStyles(C) {
   return StyleSheet.create({
     safe:   { flex: 1, backgroundColor: C.bg },
+
+    // Thank-you modal
+    thanksBackdrop: {
+      flex: 1,
+      backgroundColor: 'rgba(0,0,0,0.5)',
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingHorizontal: 28,
+    },
+    thanksCard: {
+      width: '100%',
+      maxWidth: 360,
+      backgroundColor: C.surface,
+      borderRadius: 24,
+      padding: 28,
+      alignItems: 'center',
+    },
+    thanksEmoji: { fontSize: 56, marginBottom: 8 },
+    thanksReward: {
+      marginTop: 16,
+      backgroundColor: GOLD + '1A',
+      borderRadius: 14,
+      paddingVertical: 12,
+      paddingHorizontal: 24,
+      alignItems: 'center',
+    },
     scroll: { paddingBottom: 24 },
 
     header: {

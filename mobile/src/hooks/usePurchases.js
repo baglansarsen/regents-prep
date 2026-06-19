@@ -288,7 +288,8 @@ export function usePurchases(uid) {
         )
       }
       await Purchases.purchaseStoreProduct(products[0])
-      Alert.alert('Thank you! ☕', 'Your support means the world and helps keep this app free for students.')
+      // The thank-you + RP reward is shown by the caller (SupportScreen) so it
+      // can personalize it with the student's name.
       return true
     } catch (e) {
       if (!e.userCancelled) {
