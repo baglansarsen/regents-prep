@@ -1,29 +1,12 @@
-import { Platform } from 'react-native'
-import { collection, addDoc, serverTimestamp } from 'firebase/firestore'
-import { db, auth } from '../firebase'
-
 /**
- * Minimal product analytics → Firestore `events` collection.
+ * Product analytics — DISABLED.
  *
- * Fire-and-forget: never throws, never blocks UI. Writes queue locally via
- * the persistent Firestore cache and sync when online.
- *
- * Query share rate (e.g. in a local script or Firebase console):
- *   share rate = count(share_completed) / count(results_viewed where params.pct >= 65)
- *
- * NOTE: iOS cannot distinguish "shared" from "dismissed the sheet" —
- * treat share_completed as an upper bound.
+ * All tracking was removed for now (the Firebase JS `firebase/analytics` SDK is
+ * browser-only and can't run in React Native, and we're deferring a proper GA
+ * setup). `logEvent` is kept as a no-op so the existing call sites across the
+ * app keep working untouched. Re-implement here when we add analytics back
+ * (e.g. via @react-native-firebase/analytics).
  */
-export function logEvent(name, params = {}) {
-  try {
-    addDoc(collection(db, 'events'), {
-      name,
-      params,
-      uid: auth.currentUser?.uid ?? null,
-      platform: Platform.OS,
-      ts: serverTimestamp(),
-    }).catch((e) => console.warn('[analytics]', name, e?.message))
-  } catch (e) {
-    console.warn('[analytics]', name, e?.message)
-  }
+export function logEvent(_name, _params = {}) {
+  // intentionally a no-op
 }
