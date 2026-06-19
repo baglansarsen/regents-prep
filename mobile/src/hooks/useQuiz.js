@@ -16,7 +16,7 @@ function streakMultiplier(streak) {
   return 1.0
 }
 
-export function useQuiz(questionSet, { secondChance = false } = {}) {
+export function useQuiz(questionSet, { hint = false, repeat = false } = {}) {
   const [index, setIndex] = useState(0)
   const [score, setScore] = useState(0)
   const [streak, setStreak] = useState(0)
@@ -26,80 +26,84 @@ export function useQuiz(questionSet, { secondChance = false } = {}) {
   const [results, setResults] = useState([])
   const [phase, setPhase] = useState('answering') // 'answering' | 'feedback' | 'done'
 
-  // ── Second-chance + hint (lesson learning aids; off in graded/gate contexts) ──
-  const [eliminated,    setEliminated]    = useState([])   // disabled choice indices (hint + first-wrong)
-  const [attempts,      setAttempts]      = useState(0)     // wrong tries on the current question (0/1)
-  const [hintUsed,      setHintUsed]      = useState(false)
-  const [shaky,         setShaky]         = useState(false) // hinted or already missed once → recovery scoring
-  const [awaitingRetry, setAwaitingRetry] = useState(false) // rising edge drives the dino "try again" prompt
+  // ── 50/50 hint (a learning aid; eliminates wrong choices) ───────────────────
+  const [eliminated, setEliminated] = useState([])   // disabled choice indices
+  const [hintUsed,   setHintUsed]   = useState(false)
+  const [shaky,      setShaky]      = useState(false) // hinted → recovery scoring
 
-  const questions = questionSet
-  const currentQuestion = questions[index]
-  const isLast = index === questions.length - 1
+  // ── Duolingo-style end-of-lesson repeat of missed questions ─────────────────
+  const [mode,          setMode]          = useState('main')  // 'main' | 'repeat'
+  const [repeatQueue,   setRepeatQueue]   = useState([])      // questions in the current repeat pass
+  const [repeatPending, setRepeatPending] = useState([])      // missed again this pass → next pass
+  const [repeatIdx,     setRepeatIdx]     = useState(0)
+
+  const inRepeat = mode === 'repeat'
+  const currentQuestion = inRepeat ? repeatQueue[repeatIdx] : questionSet[index]
+  const isLast = index === questionSet.length - 1
   // Open-ended capstone question: no choices to select, so it's never auto-graded.
   const isWritten = !!currentQuestion && currentQuestion.type === 'written'
 
-  const answer = useCallback(
+  // Tap a choice → highlight only (tap-to-confirm). Grading happens in check().
+  const select = useCallback(
     (choiceIndex) => {
       if (phase !== 'answering') return
-      if (eliminated.includes(choiceIndex)) return  // tapping a crossed-out choice is a no-op
-
-      const isCorrect = choiceIndex === correctIndexOf(currentQuestion)
-      const liveCount = (currentQuestion.choices?.length ?? 0) - eliminated.length
-
-      // First wrong in a learning context → offer a retry instead of finalizing.
-      // (Need >2 live choices, else disabling the wrong one reveals the answer.)
-      if (secondChance && !isCorrect && attempts === 0 && liveCount > 2) {
-        setStreak(0)                                   // combo broken the moment they err
-        setEliminated((e) => [...e, choiceIndex])
-        setAttempts(1)
-        setShaky(true)
-        setAwaitingRetry(true)
-        return
-      }
-
-      // Finalize.
-      const recovered = shaky && isCorrect             // right, but had hinted or missed once
-      let earned = 0
-      if (isCorrect) {
-        if (recovered) {
-          earned = Math.round(BASE_POINTS / 2)         // half RP; no streak bump
-        } else {
-          const newStreak = streak + 1                 // clean first-try correct
-          earned = Math.round(BASE_POINTS * streakMultiplier(newStreak))
-          setStreak(newStreak)
-          setBestStreak((b) => Math.max(b, newStreak))
-        }
-        setScore((s) => s + earned)
-      } else {
-        setStreak(0)
-      }
-
-      setLastEarned(earned)
+      if (eliminated.includes(choiceIndex)) return
       setSelected(choiceIndex)
-      setAwaitingRetry(false)
-      setResults((r) => [
-        ...r,
-        {
-          question: currentQuestion,
-          chosen: choiceIndex,
-          // Recovered rows are logged as misses so they enter Smart Review and
-          // count as seen-wrong for predicted score (kindness ≠ inflated mastery).
-          correct: recovered ? false : isCorrect,
-          recovered: recovered || undefined,
-          hintUsed: hintUsed || undefined,
-          points: earned,
-        },
-      ])
-      setPhase('feedback')
     },
-    [phase, currentQuestion, streak, secondChance, attempts, eliminated, shaky, hintUsed],
+    [phase, eliminated],
   )
+
+  // Submit the highlighted choice.
+  const check = useCallback(() => {
+    if (phase !== 'answering' || selected == null) return
+    const isCorrect = selected === correctIndexOf(currentQuestion)
+
+    // Repeat round: pedagogical only — no score, no result row, no life loss.
+    // Wrong items are collected for another pass; correct ones simply drop out.
+    if (inRepeat) {
+      if (!isCorrect) setRepeatPending((p) => [...p, currentQuestion])
+      setLastEarned(0)
+      setPhase('feedback')
+      return
+    }
+
+    const recovered = shaky && isCorrect   // right, but used a hint
+    let earned = 0
+    if (isCorrect) {
+      if (recovered) {
+        earned = Math.round(BASE_POINTS / 2)   // half RP; no streak bump
+      } else {
+        const newStreak = streak + 1           // clean first-try correct
+        earned = Math.round(BASE_POINTS * streakMultiplier(newStreak))
+        setStreak(newStreak)
+        setBestStreak((b) => Math.max(b, newStreak))
+      }
+      setScore((s) => s + earned)
+    } else {
+      setStreak(0)
+    }
+
+    setLastEarned(earned)
+    setResults((r) => [
+      ...r,
+      {
+        question: currentQuestion,
+        chosen: selected,
+        // Hint-recovered rows are logged as misses so they enter Smart Review
+        // and count as seen-wrong (kindness ≠ inflated mastery).
+        correct: recovered ? false : isCorrect,
+        recovered: recovered || undefined,
+        hintUsed: hintUsed || undefined,
+        points: earned,
+      },
+    ])
+    setPhase('feedback')
+  }, [phase, selected, currentQuestion, inRepeat, repeatIdx, streak, shaky, hintUsed])
 
   // 50/50: cross out wrong choices until only two remain (correct + one other).
   // Marks the question shaky, so a subsequent correct answer scores as a recovery.
   const takeHint = useCallback(() => {
-    if (!secondChance || hintUsed || phase !== 'answering' || isWritten) return
+    if (!hint || hintUsed || phase !== 'answering' || isWritten || inRepeat) return
     const correctIdx = correctIndexOf(currentQuestion)
     const n = currentQuestion.choices?.length ?? 0
     if (n <= 2) return
@@ -107,7 +111,6 @@ export function useQuiz(questionSet, { secondChance = false } = {}) {
     for (let i = 0; i < n; i++) {
       if (i !== correctIdx && !eliminated.includes(i)) wrongs.push(i)
     }
-    // Shuffle and keep all-but-one wrong → leaves correct + 1 other.
     for (let i = wrongs.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1))
       ;[wrongs[i], wrongs[j]] = [wrongs[j], wrongs[i]]
@@ -117,7 +120,7 @@ export function useQuiz(questionSet, { secondChance = false } = {}) {
     setEliminated((e) => [...e, ...toCut])
     setHintUsed(true)
     setShaky(true)
-  }, [secondChance, hintUsed, phase, isWritten, currentQuestion, eliminated])
+  }, [hint, hintUsed, phase, isWritten, inRepeat, currentQuestion, eliminated])
 
   // Self-assessed result for the open-ended capstone. Records a non-graded
   // result entry (correct: null, written: true) so the scoring path can exclude
@@ -138,35 +141,81 @@ export function useQuiz(questionSet, { secondChance = false } = {}) {
     [phase, isWritten, currentQuestion],
   )
 
-  // Clear the per-question second-chance/hint state (next question or reset).
-  const clearAttemptState = () => {
+  // Clear per-question hint/selection state (next question or reset).
+  const clearQ = () => {
+    setSelected(null)
     setEliminated([])
-    setAttempts(0)
     setHintUsed(false)
     setShaky(false)
-    setAwaitingRetry(false)
+  }
+
+  // De-dupe questions by id/text (a repeat pass shouldn't ask the same item twice).
+  const dedupe = (qs) => {
+    const seen = new Set()
+    return qs.filter((q) => {
+      const k = q?.id ?? q?.text
+      if (seen.has(k)) return false
+      seen.add(k)
+      return true
+    })
   }
 
   const next = useCallback(() => {
     setLastEarned(0)
-    if (isLast) {
-      setPhase('done')
-    } else {
-      setIndex((i) => i + 1)
-      setSelected(null)
-      clearAttemptState()
-      setPhase('answering')
+
+    if (!inRepeat) {
+      if (!isLast) {
+        setIndex((i) => i + 1)
+        clearQ()
+        setPhase('answering')
+        return
+      }
+      // Main pass finished. Re-ask the misses (genuine wrong + hint-recovered),
+      // unless repeat is disabled (e.g. challenge gates) or there were none.
+      const misses = dedupe(results.filter((r) => !r.written && !r.correct).map((r) => r.question))
+      if (repeat && misses.length) {
+        setMode('repeat')
+        setRepeatQueue(misses)
+        setRepeatPending([])
+        setRepeatIdx(0)
+        clearQ()
+        setPhase('answering')
+      } else {
+        setPhase('done')
+      }
+      return
     }
-  }, [isLast])
+
+    // In a repeat pass.
+    if (repeatIdx < repeatQueue.length - 1) {
+      setRepeatIdx((i) => i + 1)
+      clearQ()
+      setPhase('answering')
+      return
+    }
+    // End of this pass: loop again on anything still missed, else finish.
+    if (repeatPending.length) {
+      setRepeatQueue(repeatPending)
+      setRepeatPending([])
+      setRepeatIdx(0)
+      clearQ()
+      setPhase('answering')
+    } else {
+      setPhase('done')
+    }
+  }, [inRepeat, isLast, results, repeat, repeatIdx, repeatQueue, repeatPending])
 
   const reset = useCallback(() => {
     setIndex(0)
     setScore(0)
     setStreak(0)
     setBestStreak(0)
-    setSelected(null)
     setResults([])
-    clearAttemptState()
+    setMode('main')
+    setRepeatQueue([])
+    setRepeatPending([])
+    setRepeatIdx(0)
+    clearQ()
     setPhase('answering')
   }, [])
 
@@ -174,7 +223,7 @@ export function useQuiz(questionSet, { secondChance = false } = {}) {
     currentQuestion,
     isWritten,
     index,
-    total: questions.length,
+    total: questionSet.length,
     score,
     streak,
     bestStreak,
@@ -182,15 +231,19 @@ export function useQuiz(questionSet, { secondChance = false } = {}) {
     lastEarned,
     phase,
     results,
-    answer,
+    select,
+    check,
     submitWritten,
     next,
     reset,
     streakMultiplier: streakMultiplier(streak + 1),
-    // Second-chance + hint
+    // 50/50 hint
     eliminated,
     hintUsed,
-    awaitingRetry,
     takeHint,
+    // Repeat round
+    inRepeat,
+    repeatTotal: repeatQueue.length,
+    repeatIndex: repeatIdx,
   }
 }

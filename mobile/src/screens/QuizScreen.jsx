@@ -92,9 +92,10 @@ export default function QuizScreen({ route, navigation }) {
   const {
     currentQuestion, isWritten, index, total, score, streak, bestStreak,
     selected, lastEarned, phase, results,
-    answer, submitWritten, next: nextQuestion,
-    eliminated, hintUsed, awaitingRetry, takeHint,
-  } = useQuiz(questionSet, { secondChance: !isChallenge })
+    select, check, submitWritten, next: nextQuestion,
+    eliminated, hintUsed, takeHint,
+    inRepeat, repeatTotal, repeatIndex,
+  } = useQuiz(questionSet, { hint: !isChallenge, repeat: !isChallenge })
 
   const slideAnim  = useRef(new Animated.Value(300)).current
   const pulseAnim  = useRef(new Animated.Value(1)).current
@@ -171,7 +172,7 @@ export default function QuizScreen({ route, navigation }) {
       } else {
         hapticWarning()
         playWrong()
-        loseLife()
+        if (!inRepeat) loseLife()   // the end-of-lesson repeat round costs no hearts
         triggerReaction('sad')
         animatePetIncorrect()
       }
@@ -179,15 +180,11 @@ export default function QuizScreen({ route, navigation }) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase])
 
-  // ── First wrong → Reggie nudges a retry (no heart lost; phase stays answering) ──
+  // ── Entering the end-of-lesson repeat round → Reggie cues it ──────────────
   useEffect(() => {
-    if (awaitingRetry) {
-      hapticWarning()
-      animatePetIncorrect()
-      dinoSay('Oops — take another look! 🦕')
-    }
+    if (inRepeat) dinoSay("Let's review what you missed 🦕")
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [awaitingRetry])
+  }, [inRepeat])
 
   // ── Card pulse on new question ────────────────────────────────────────────
   useEffect(() => {
@@ -311,13 +308,21 @@ export default function QuizScreen({ route, navigation }) {
 
           <View style={s.progressWrap}>
             <View style={s.progressBg}>
-              <View style={[s.progressFill, { width: `${(index / total) * 100}%` }]} />
+              <View style={[s.progressFill, {
+                width: inRepeat
+                  ? `${repeatTotal ? (repeatIndex / repeatTotal) * 100 : 0}%`
+                  : `${(index / total) * 100}%`,
+              }]} />
             </View>
-            {/* Hearts inline under progress bar */}
+            {/* Hearts inline under progress bar — premium has unlimited (∞) */}
             <View style={s.heartsRow}>
-              {Array.from({ length: maxLives }).map((_, i) => (
-                <Text key={i} style={[s.heart, { opacity: i < lives ? 1 : 0.2 }]}>❤️</Text>
-              ))}
+              {isSubscribed ? (
+                <Text style={s.heart}>❤️ ∞</Text>
+              ) : (
+                Array.from({ length: maxLives }).map((_, i) => (
+                  <Text key={i} style={[s.heart, { opacity: i < lives ? 1 : 0.2 }]}>❤️</Text>
+                ))
+              )}
             </View>
           </View>
 
@@ -352,6 +357,11 @@ export default function QuizScreen({ route, navigation }) {
           keyboardShouldPersistTaps="handled"
           keyboardDismissMode="interactive"
         >
+          {inRepeat && (
+            <View style={s.repeatBanner}>
+              <Text style={s.repeatBannerText}>🦕  Reviewing your misses — get each one right to finish</Text>
+            </View>
+          )}
           <Animated.View style={[s.questionCard, cardShadow(C.shadow), { transform: [{ scale: pulseAnim }] }]}>
             {currentQuestion.context ? (
               <Text style={[T.small, { color: C.textMuted, marginBottom: 8, fontStyle: 'italic', lineHeight: 18 }]}>
@@ -389,7 +399,7 @@ export default function QuizScreen({ route, navigation }) {
                 <TouchableOpacity
                   key={idx}
                   style={choiceStyle(idx)}
-                  onPress={() => { if (phase !== 'answering' || eliminated?.includes(idx)) return; hapticTick(); answer(idx) }}
+                  onPress={() => { if (phase !== 'answering' || eliminated?.includes(idx)) return; hapticTick(); select(idx) }}
                   activeOpacity={0.75}
                   disabled={phase !== 'answering' || eliminated?.includes(idx)}
                 >
@@ -399,6 +409,18 @@ export default function QuizScreen({ route, navigation }) {
                   <Text style={[T.body, { flex: 1, color: C.text }]}>{choice}</Text>
                 </TouchableOpacity>
               ))}
+
+              {/* Tap-to-confirm: a choice highlights on tap; CHECK submits it. */}
+              {phase === 'answering' && (
+                <TouchableOpacity
+                  style={[duoBtn(C.brand, C.brandDark, { marginTop: 6 }), selected == null && { opacity: 0.4 }]}
+                  onPress={() => { if (selected == null) return; hapticTick(); check() }}
+                  disabled={selected == null}
+                  activeOpacity={0.85}
+                >
+                  <Text style={[T.btn, { color: '#fff' }]}>CHECK</Text>
+                </TouchableOpacity>
+              )}
             </View>
           )}
 
@@ -810,6 +832,11 @@ function makeStyles(C, insets) {
     questionCard:  { backgroundColor: C.surface, borderRadius: 20, padding: 18, marginBottom: 20, borderWidth: 1, borderColor: C.border, borderTopWidth: 3, borderTopColor: C.brand, shadowColor: C.shadow, shadowOffset: { width: 0, height: 3 }, shadowOpacity: 1, shadowRadius: 10, elevation: 5 },
     questionImage: { width: '100%', height: 200, borderRadius: 10, marginBottom: 12, backgroundColor: C.surface2 },
     choices:       { gap: 12 },
+    repeatBanner:  {
+      backgroundColor: C.warn + '1A', borderColor: C.warn + '55', borderWidth: 1,
+      borderRadius: 12, paddingVertical: 10, paddingHorizontal: 14, marginBottom: 12,
+    },
+    repeatBannerText: { fontFamily: 'Fredoka_600SemiBold', fontSize: 13, color: C.warn, textAlign: 'center' },
     hintBtn:       {
       alignSelf: 'flex-start', flexDirection: 'row', alignItems: 'center',
       paddingVertical: 8, paddingHorizontal: 14, borderRadius: 99,
