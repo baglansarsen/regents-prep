@@ -88,9 +88,10 @@ export function useQuiz(questionSet, { hint = false, repeat = false } = {}) {
       {
         question: currentQuestion,
         chosen: selected,
-        // Hint-recovered rows are logged as misses so they enter Smart Review
-        // and count as seen-wrong (kindness ≠ inflated mastery).
-        correct: recovered ? false : isCorrect,
+        // A right answer counts as correct even if a hint was used — it just
+        // earns half RP and no streak (see above). Logging it as a miss made the
+        // score read 0/N and re-queued it into the repeat, which felt broken.
+        correct: isCorrect,
         recovered: recovered || undefined,
         hintUsed: hintUsed || undefined,
         points: earned,
@@ -101,8 +102,10 @@ export function useQuiz(questionSet, { hint = false, repeat = false } = {}) {
 
   // 50/50: cross out wrong choices until only two remain (correct + one other).
   // Marks the question shaky, so a subsequent correct answer scores as a recovery.
+  // Allowed in the repeat round too — it's a learning aid, and the repeat is
+  // pedagogical (check() ignores scoring there anyway).
   const takeHint = useCallback(() => {
-    if (!hint || hintUsed || phase !== 'answering' || isWritten || inRepeat) return
+    if (!hint || hintUsed || phase !== 'answering' || isWritten) return
     const correctIdx = correctIndexOf(currentQuestion)
     const n = currentQuestion.choices?.length ?? 0
     if (n <= 2) return
