@@ -66,10 +66,21 @@ export const PRODUCT_IDS = {
   TIP_25  : 'tip_25',
 }
 
-// Must EXACTLY match the entitlement identifier in the RevenueCat dashboard
-// (Project → Entitlements) — including the space and capitalization. A mismatch
-// silently leaves isSubscribed false even after a successful purchase.
+// The entitlement identifier configured in the RevenueCat dashboard
+// (Project → Entitlements). Used as the *preferred* match.
 export const ENTITLEMENT_KEY = 'regentify Unlimited'
+
+// Premium check. This app has a single premium tier, so we treat ANY active
+// entitlement as premium rather than requiring an exact identifier match — a
+// dashboard identifier that doesn't byte-for-byte match ENTITLEMENT_KEY (e.g. a
+// different name, casing, or the trailing space) was silently locking out
+// paying users after a successful purchase. The named key is still preferred;
+// the fallback just prevents a mismatch from blocking access.
+export function hasPremium(info) {
+  const active = info?.entitlements?.active ?? {}
+  if (active[ENTITLEMENT_KEY]) return true
+  return Object.keys(active).length > 0
+}
 
 // Last known entitlement, cached so a returning subscriber is treated as premium
 // immediately on launch instead of for the ~moment before getCustomerInfo resolves.
@@ -126,7 +137,10 @@ export function usePurchases(uid) {
 
     // Authoritative entitlement state → React state + cache + leaderboard flag.
     const applyInfo = (info) => {
-      const active = !!info?.entitlements?.active?.[ENTITLEMENT_KEY]
+      const active = hasPremium(info)
+      if (__DEV__) {
+        console.log('[Purchases] active entitlements:', Object.keys(info?.entitlements?.active ?? {}), '→ premium:', active)
+      }
       settledRef.current = true
       setIsSubscribed(active)
       AsyncStorage.setItem(SUB_CACHE_KEY, active ? '1' : '0').catch(() => {})
@@ -186,7 +200,7 @@ export function usePurchases(uid) {
       ) ?? offerings.current?.monthly
       if (!pkg) throw new Error('Monthly plan not found in offerings')
       const { customerInfo } = await Purchases.purchasePackage(pkg)
-      const active = !!customerInfo.entitlements.active[ENTITLEMENT_KEY]
+      const active = hasPremium(customerInfo)
       setIsSubscribed(active)
       if (active) Alert.alert('Welcome to Premium! 💜', 'You now have unlimited hearts. Happy studying!')
       return active
@@ -211,7 +225,7 @@ export function usePurchases(uid) {
       ) ?? offerings.current?.threeMonth
       if (!pkg) throw new Error('Season Pass not found in offerings')
       const { customerInfo } = await Purchases.purchasePackage(pkg)
-      const active = !!customerInfo.entitlements.active[ENTITLEMENT_KEY]
+      const active = hasPremium(customerInfo)
       setIsSubscribed(active)
       if (active) Alert.alert('Welcome to Premium! 💜', 'Unlimited hearts through exam season. Go get that diploma!')
       return active
@@ -236,7 +250,7 @@ export function usePurchases(uid) {
       ) ?? offerings.current?.annual
       if (!pkg) throw new Error('Yearly plan not found in offerings')
       const { customerInfo } = await Purchases.purchasePackage(pkg)
-      const active = !!customerInfo.entitlements.active[ENTITLEMENT_KEY]
+      const active = hasPremium(customerInfo)
       setIsSubscribed(active)
       if (active) Alert.alert('Welcome to Premium! 💜', 'You now have unlimited hearts for a whole year!')
       return active
@@ -314,7 +328,7 @@ export function usePurchases(uid) {
     setLoading(true)
     try {
       const info   = await Purchases.restorePurchases()
-      const active = !!info.entitlements.active[ENTITLEMENT_KEY]
+      const active = hasPremium(info)
       setIsSubscribed(active)
       Alert.alert(
         active ? 'Restored! 💜' : 'No Subscription Found',
@@ -345,7 +359,7 @@ export function usePurchases(uid) {
       // Refresh entitlement state whatever the outcome (purchase, restore, cancel).
       try {
         const info = await Purchases.getCustomerInfo()
-        setIsSubscribed(!!info.entitlements.active[ENTITLEMENT_KEY])
+        setIsSubscribed(hasPremium(info))
       } catch {}
       return success
     } catch (e) {
