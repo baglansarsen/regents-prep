@@ -45,6 +45,7 @@ import { useLeague, formatCountdown, msUntilReset } from '../hooks/useLeague'
 import { getLevel } from '../hooks/useRP'
 import { useStudyTime, formatTime as fmtStudyTime } from '../hooks/useStudyTime'
 import { getExamLabel, getDaysUntilExam, daysUntilExam } from '../utils/examDates'
+import { PETS_ENABLED } from '../config/features'
 import { useGoal } from '../context/GoalContext'
 import { usePredictedScore } from '../hooks/usePredictedScore'
 import { pickSmartQuest } from '../utils/smartQuest'
@@ -144,7 +145,7 @@ export default function HomeScreen({ navigation }) {
     reloadHistory()
     reloadSkipUnlocks()
     reloadStudyTime()   // reflect study/quiz time logged on other screens
-    if (pendingEvolution) navigation.navigate('PetEvolution')
+    if (PETS_ENABLED && pendingEvolution) navigation.navigate('PetEvolution')
 
     // Refresh quest data (goal-aware when a smart quest applies)
     getTodayQuest(smartQuestDef).then(setQuestData).catch(() => {})
@@ -875,18 +876,29 @@ export default function HomeScreen({ navigation }) {
         {/* Pet companion — compact; the full buddy hub (feed, play, dig, shop,
             trivia) now lives on its own Pet screen so home stays lesson-focused. */}
         {pet.chosen && (
-          <TouchableOpacity
-            style={[s.goalCard, elevatedCard(C), glassStyle]}
-            onPress={() => navigation.navigate('Pet')}
-            activeOpacity={0.85}
-          >
-            <PetWidget size={56} onPress={() => navigation.navigate('Pet')} />
-            <View style={{ flex: 1, marginLeft: 14 }}>
-              <Text style={[T.h3, { color: C.text }]}>{pet.name ?? 'Your buddy'}</Text>
-              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Tap to feed, play & dig</Text>
+          PETS_ENABLED ? (
+            <TouchableOpacity
+              style={[s.goalCard, elevatedCard(C), glassStyle]}
+              onPress={() => navigation.navigate('Pet')}
+              activeOpacity={0.85}
+            >
+              <PetWidget size={56} onPress={() => navigation.navigate('Pet')} />
+              <View style={{ flex: 1, marginLeft: 14 }}>
+                <Text style={[T.h3, { color: C.text }]}>{pet.name ?? 'Your buddy'}</Text>
+                <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Tap to feed, play & dig</Text>
+              </View>
+              <Text style={[T.label, { color: C.textDim }]}>{'VISIT\n›'}</Text>
+            </TouchableOpacity>
+          ) : (
+            /* Pets hidden — show Reggie as a non-interactive study buddy */
+            <View style={[s.goalCard, elevatedCard(C), glassStyle]}>
+              <PetWidget size={56} />
+              <View style={{ flex: 1, marginLeft: 14 }}>
+                <Text style={[T.h3, { color: C.text }]}>Reggie</Text>
+                <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Your study buddy — keep going! 🦕</Text>
+              </View>
             </View>
-            <Text style={[T.label, { color: C.textDim }]}>{'VISIT\n›'}</Text>
-          </TouchableOpacity>
+          )
         )}
 
 

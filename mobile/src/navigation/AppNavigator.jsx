@@ -7,6 +7,7 @@ import { doc, getDoc } from 'firebase/firestore'
 import { db } from '../firebase'
 import { useAuthContext } from '../context/AuthContext'
 import { useTheme } from '../context/ThemeContext'
+import { PETS_ENABLED } from '../config/features'
 
 import LoginScreen              from '../screens/LoginScreen'
 import SchoolOnboardingScreen   from '../screens/SchoolOnboardingScreen'
@@ -133,8 +134,8 @@ export default function AppNavigator() {
         {!user ? (
           <Stack.Screen name="Login" component={LoginScreen} />
 
-        ) : !petChosen ? (
-          /* ── 3. Pet picker — once per user ──────────────────────────────── */
+        ) : (PETS_ENABLED && !petChosen) ? (
+          /* ── 3. Pet picker — once per user (hidden while pets are disabled) ── */
           <Stack.Screen name="PetPicker" options={{ animation: 'slide_from_bottom' }}>
             {(props) => <PetPickerScreen {...props} onComplete={() => setPetChosen(true)} />}
           </Stack.Screen>
@@ -175,12 +176,16 @@ export default function AppNavigator() {
               options={{ presentation: 'fullScreenModal', animation: 'slide_from_bottom' }} />
             <Stack.Screen name="ExamResults" component={ExamResultsScreen}
               options={{ presentation: 'fullScreenModal', animation: 'none' }} />
-            <Stack.Screen name="PetShop" component={PetShopScreen}
-              options={{ presentation: 'fullScreenModal', animation: 'slide_from_bottom' }} />
-            <Stack.Screen name="Pet" component={PetScreen}
-              options={{ presentation: 'card', animation: 'slide_from_right' }} />
-            <Stack.Screen name="PetEvolution" component={PetEvolutionScreen}
-              options={{ presentation: 'fullScreenModal', animation: 'fade' }} />
+            {PETS_ENABLED && (
+              <>
+                <Stack.Screen name="PetShop" component={PetShopScreen}
+                  options={{ presentation: 'fullScreenModal', animation: 'slide_from_bottom' }} />
+                <Stack.Screen name="Pet" component={PetScreen}
+                  options={{ presentation: 'card', animation: 'slide_from_right' }} />
+                <Stack.Screen name="PetEvolution" component={PetEvolutionScreen}
+                  options={{ presentation: 'fullScreenModal', animation: 'fade' }} />
+              </>
+            )}
             <Stack.Screen name="FriendsMain" component={FriendsStack}
               options={{ presentation: 'modal', animation: 'slide_from_bottom' }} />
             <Stack.Screen name="FocusMain" component={FocusStack}

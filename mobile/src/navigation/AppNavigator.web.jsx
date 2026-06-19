@@ -7,6 +7,7 @@ import { doc, getDoc } from 'firebase/firestore'
 import { db } from '../firebase'
 import { useAuthContext } from '../context/AuthContext'
 import { useTheme } from '../context/ThemeContext'
+import { PETS_ENABLED } from '../config/features'
 
 import LoginScreen              from '../screens/LoginScreen'
 import SchoolOnboardingScreen   from '../screens/SchoolOnboardingScreen'
@@ -110,7 +111,7 @@ export default function AppNavigator() {
         {!user ? (
           <Stack.Screen name="Login" component={LoginScreen} />
 
-        ) : !petChosen ? (
+        ) : (PETS_ENABLED && !petChosen) ? (
           <Stack.Screen name="PetPicker">
             {(props) => <PetPickerScreen {...props} onComplete={() => setPetChosen(true)} />}
           </Stack.Screen>
@@ -146,9 +147,13 @@ export default function AppNavigator() {
             <Stack.Screen name="Main"        component={TabNavigator} />
             <Stack.Screen name="Exam"        component={ExamScreen} />
             <Stack.Screen name="ExamResults" component={ExamResultsScreen} />
-            <Stack.Screen name="PetShop"     component={PetShopScreen} />
-            <Stack.Screen name="Pet"         component={PetScreen} />
-            <Stack.Screen name="PetEvolution" component={PetEvolutionScreen} />
+            {PETS_ENABLED && (
+              <>
+                <Stack.Screen name="PetShop"     component={PetShopScreen} />
+                <Stack.Screen name="Pet"         component={PetScreen} />
+                <Stack.Screen name="PetEvolution" component={PetEvolutionScreen} />
+              </>
+            )}
           </>
         )}
 

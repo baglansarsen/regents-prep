@@ -6,6 +6,8 @@ import { usePetAnimation } from '../hooks/usePetAnimation'
 import PET_SPRITES from '../assets/petSprites'
 import SpriteAnimation from './SpriteAnimation'
 import { hapticHeavy } from '../utils/haptics'
+import { PETS_ENABLED } from '../config/features'
+import ReggieMascot from './ReggieMascot'
 
 const PARTICLE_POSITIONS = [
   { top: -10, left: 10  },
@@ -184,6 +186,34 @@ export default function PetWidget({ size = 120, onPress, onLongPress, mini = fal
       idleRef.current?.start()
     })
   }, [activeReaction])
+
+  // ── Mascot mode (pets hidden) — render Reggie, still reacting to cheer/sad ──
+  // Reuses the shared animation values above (driven by the activeReaction
+  // effect and, in the quiz, by the parent's wrapper), so the buddy keeps its
+  // bounce/shake without the pet engine.
+  if (!PETS_ENABLED) {
+    const reggie = (
+      <Animated.View
+        style={{
+          opacity,
+          transform: [
+            { translateX },
+            { translateY },
+            { scale },
+            { rotate: rotateZ.interpolate({ inputRange: [-1, 1], outputRange: ['-60deg', '60deg'] }) },
+          ],
+        }}
+      >
+        <ReggieMascot size={size} />
+      </Animated.View>
+    )
+    if (!onPress && !onLongPress) return reggie
+    return (
+      <TouchableOpacity onPress={onPress} onLongPress={onLongPress} activeOpacity={0.85}>
+        {reggie}
+      </TouchableOpacity>
+    )
+  }
 
   if (!pet.chosen || !config) return null
 

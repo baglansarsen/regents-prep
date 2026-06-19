@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from 'react'
 import { View, Text, Animated, StyleSheet, TouchableOpacity } from 'react-native'
 import { PETS } from '../data/petConfig'
 import { useTheme } from '../context/ThemeContext'
+import { PETS_ENABLED } from '../config/features'
+import ReggieMascot from './ReggieMascot'
 
 const IDLE_MESSAGES = [
   "You've got this! 💪",
@@ -69,8 +71,10 @@ export default function StudyBuddyCompanion({
     }
   }, [message])
 
-  // Guard after all hooks
-  if (!config || !petType) return null
+  // Guard after all hooks. In mascot mode (pets hidden) we render Reggie even
+  // without a pet config, so skip the config guard then.
+  const mascot = !PETS_ENABLED
+  if (!mascot && (!config || !petType)) return null
 
   const hat = accessories.includes('graduationCap') ? '🎓'
             : accessories.includes('wizardHat')     ? '🧙'
@@ -101,8 +105,14 @@ export default function StudyBuddyCompanion({
         }}
       >
         <Animated.View style={[s.petWrap, { transform: [{ translateY: bounceY }, { scale: scaleAnim }] }]}>
-          {hat && <Text style={s.hat}>{hat}</Text>}
-          <Text style={s.emoji}>{config.emoji}</Text>
+          {mascot ? (
+            <ReggieMascot size={64} />
+          ) : (
+            <>
+              {hat && <Text style={s.hat}>{hat}</Text>}
+              <Text style={s.emoji}>{config.emoji}</Text>
+            </>
+          )}
           {accessories.includes('sunglasses') && <Text style={s.sunglasses}>🕶️</Text>}
           {accessories.includes('tinyBackpack') && <Text style={s.backpack}>🎒</Text>}
         </Animated.View>

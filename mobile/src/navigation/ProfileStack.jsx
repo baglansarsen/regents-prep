@@ -5,6 +5,7 @@ import ShopScreen           from '../screens/ShopScreen'
 import SupportScreen        from '../screens/SupportScreen'
 import SchoolOnboardingScreen from '../screens/SchoolOnboardingScreen'
 import PetPersonalityQuizScreen from '../screens/PetPersonalityQuizScreen'
+import { PETS_ENABLED } from '../config/features'
 
 const Stack = createNativeStackNavigator()
 
@@ -22,7 +23,9 @@ export default function ProfileStack() {
           />
         )}
       </Stack.Screen>
-      <Stack.Screen name="PetPersonalityQuiz" component={PetPersonalityQuizScreen} />
+      {PETS_ENABLED && (
+        <Stack.Screen name="PetPersonalityQuiz" component={PetPersonalityQuizScreen} />
+      )}
     </Stack.Navigator>
   )
 }

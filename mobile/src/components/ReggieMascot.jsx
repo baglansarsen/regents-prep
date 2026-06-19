@@ -1,0 +1,29 @@
+import React from 'react'
+import { SvgXml } from 'react-native-svg'
+
+// Reggie the Dino — transparent mark (no tile), from the Regentify brand kit.
+// Used as the in-app study-buddy avatar while the virtual-pet feature is hidden.
+const REGGIE_XML = `<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#FFC93C" stroke="#FFC93C" stroke-width="10" stroke-linejoin="round">
+    <path d="M176 206 L150 150 L210 184 Z"/>
+    <path d="M150 270 L104 232 L168 230 Z"/>
+  </g>
+  <path d="M246 172 C322 172 380 220 392 286 C406 292 408 318 394 328 C384 380 350 414 298 426 C284 430 270 432 254 432 C186 432 148 386 148 316 C148 230 178 172 246 172 Z" fill="#1FC36B"/>
+  <ellipse cx="248" cy="372" rx="72" ry="60" fill="#EAFBF1"/>
+  <path d="M196 372 q-26 8 -30 34" fill="none" stroke="#15A95B" stroke-width="22" stroke-linecap="round"/>
+  <ellipse cx="214" cy="442" rx="36" ry="17" fill="#FFC93C"/>
+  <ellipse cx="304" cy="444" rx="36" ry="17" fill="#FFC93C"/>
+  <circle cx="320" cy="252" r="44" fill="#fff"/>
+  <circle cx="333" cy="257" r="22" fill="#0F2018"/>
+  <circle cx="341" cy="250" r="7" fill="#fff"/>
+  <circle cx="388" cy="300" r="8" fill="#0E7A45"/>
+  <path d="M348 340 q30 18 52 4" fill="none" stroke="#0F2018" stroke-width="12" stroke-linecap="round"/>
+  <path d="M262 116 L352 152 L262 188 L172 152 Z" fill="#0F2018"/>
+  <circle cx="262" cy="116" r="11" fill="#FFC93C"/>
+  <path d="M344 156 L344 192" stroke="#FFC93C" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="344" cy="200" r="11" fill="#FFC93C"/>
+</svg>`
+
+export default function ReggieMascot({ size = 120 }) {
+  return <SvgXml xml={REGGIE_XML} width={size} height={size} />
+}

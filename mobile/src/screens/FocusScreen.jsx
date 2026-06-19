@@ -6,6 +6,7 @@ import {
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
+import { PETS_ENABLED } from '../config/features'
 import { useAuthContext } from '../context/AuthContext'
 import { useRP } from '../hooks/useRP'
 import { usePetContext } from '../context/PetContext'
@@ -390,8 +391,9 @@ export default function FocusScreen({ navigation }) {
             </TouchableOpacity>
           </View>
 
-          {/* Big centered pet */}
-          {pet?.chosen && (
+          {/* Big centered pet (hidden while pets are disabled — the floating
+              Reggie companion above already covers the buddy presence) */}
+          {PETS_ENABLED && pet?.chosen && (
             <View style={s.bigPetArea}>
               <BigPet pet={pet} message={buddyMessage} onPress={() => setBuddyMessage(null)} />
             </View>

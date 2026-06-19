@@ -8,6 +8,7 @@ import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useAuth } from '../hooks/useAuth'
 import { useSubject } from '../context/SubjectContext'
+import { PETS_ENABLED } from '../config/features'
 import { SUBJECT_META } from '../content/subjects'
 import { useProgress } from '../hooks/useProgress'
 import { useRP } from '../hooks/useRP'
@@ -340,23 +341,25 @@ export default function ProfileScreen({ navigation }) {
           </TouchableOpacity>
         )}
 
-        {/* ── Pet Personality Quiz ── */}
-        <TouchableOpacity
-          style={[s.rowCard, cardShadow(C.shadow)]}
-          onPress={() => navigation.navigate('PetPersonalityQuiz')}
-          activeOpacity={0.85}
-        >
-          <View style={s.rowLeft}>
-            <Text style={{ fontSize: 28 }}>🐾</Text>
-            <View style={{ marginLeft: 12 }}>
-              <Text style={[T.h3, { color: C.text }]}>Find Your Pet</Text>
-              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-                Discover which pet matches your personality
-              </Text>
+        {/* ── Pet Personality Quiz (hidden while pets are disabled) ── */}
+        {PETS_ENABLED && (
+          <TouchableOpacity
+            style={[s.rowCard, cardShadow(C.shadow)]}
+            onPress={() => navigation.navigate('PetPersonalityQuiz')}
+            activeOpacity={0.85}
+          >
+            <View style={s.rowLeft}>
+              <Text style={{ fontSize: 28 }}>🐾</Text>
+              <View style={{ marginLeft: 12 }}>
+                <Text style={[T.h3, { color: C.text }]}>Find Your Pet</Text>
+                <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                  Discover which pet matches your personality
+                </Text>
+              </View>
             </View>
-          </View>
-          <Text style={[T.body, { color: C.textMuted }]}>›</Text>
-        </TouchableOpacity>
+            <Text style={[T.body, { color: C.textMuted }]}>›</Text>
+          </TouchableOpacity>
+        )}
 
         {/* ── How it works — replay the guided spotlight tour ── */}
         <TouchableOpacity
