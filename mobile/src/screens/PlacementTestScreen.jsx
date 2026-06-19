@@ -232,7 +232,7 @@ export default function PlacementTestScreen({ onComplete }) {
   // ─────────────────────────────────────────────────────────────────────────
   if (phase === 'intro') {
     return (
-      <SafeAreaView style={s.safe} edges={['bottom']}>
+      <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
         <View style={s.introWrap}>
           <View style={s.introHeroCircle}>
             <Text style={s.introEmoji}>🎯</Text>
@@ -306,7 +306,7 @@ export default function PlacementTestScreen({ onComplete }) {
     }
 
     return (
-      <SafeAreaView style={s.safe} edges={['bottom']}>
+      <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
 
         {/* ── Header ── */}
         <View style={s.header}>
@@ -389,7 +389,7 @@ export default function PlacementTestScreen({ onComplete }) {
   }, 0)
 
   return (
-    <SafeAreaView style={s.safe} edges={['bottom']}>
+    <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
       <ScrollView contentContainerStyle={s.resultsScroll} showsVerticalScrollIndicator={false}>
 
         {/* Hero */}
