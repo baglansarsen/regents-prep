@@ -123,6 +123,20 @@ export function useRP(uid) {
           loadedRP = rpSnap.data().total ?? 0
         }
 
+        // ── Repair a corrupted (negative) balance ──────────────────────────────
+        // RP should never be below 0. A spend against a stale/optimistic cache
+        // (before this load finished) could push the server total negative via
+        // increment(), leaving it stuck — earning only climbs back toward 0.
+        // Reset it to 0 here so the account self-heals on next load.
+        if (loadedRP < 0) {
+          loadedRP = 0
+          try {
+            await setDoc(doc(db, 'users', uid, 'meta', 'xp'), { total: 0 }, { merge: true })
+            await setDoc(doc(db, 'leaderboard', uid), { xp: 0 }, { merge: true })
+            await AsyncStorage.setItem(AS_KEY, '0')
+          } catch {}
+        }
+
         // Load weekly RP (reset to 0 if it belongs to a past week)
         let loadedWeeklyRP = globalWeeklyRP
         const wSnap = await getDoc(doc(db, 'users', uid, 'meta', 'weeklyXP'))
@@ -219,8 +233,13 @@ export function useRP(uid) {
   }, [uid])
 
   const spendRP = useCallback(async (amount) => {
+    // Never spend before the authoritative total has loaded — the cached value
+    // shown at startup can be higher than the real Firestore total, and spending
+    // against it drives the server balance negative via increment(-amount).
+    if (!uid || !globalLoaded) return false
+    if (!(amount > 0)) return false
     if (rpRef.current < amount) return false
-    const next = rpRef.current - amount
+    const next = Math.max(0, rpRef.current - amount)
     _setRP(next)
     try { await setDoc(doc(db, 'users', uid, 'meta', 'xp'), { total: increment(-amount) }, { merge: true }) } catch {}
     try { await setDoc(doc(db, 'leaderboard', uid), { xp: increment(-amount) }, { merge: true }) } catch {}
