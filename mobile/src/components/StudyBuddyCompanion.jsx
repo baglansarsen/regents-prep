@@ -18,6 +18,7 @@ export default function StudyBuddyCompanion({
   petName,
   accessories = [],
   message = null,
+  pose = 'idle',   // Reggie mood (idle · wave · celebrate · think · encourage · oops · sleep)
   onPress,
 }) {
   const { C } = useTheme()
@@ -106,7 +107,7 @@ export default function StudyBuddyCompanion({
       >
         <Animated.View style={[s.petWrap, { transform: [{ translateY: bounceY }, { scale: scaleAnim }] }]}>
           {mascot ? (
-            <ReggieMascot size={64} />
+            <ReggieMascot size={64} pose={pose} />
           ) : (
             <>
               {hat && <Text style={s.hat}>{hat}</Text>}

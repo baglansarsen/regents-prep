@@ -8,6 +8,7 @@ import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useRP } from '../hooks/useRP'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 import MasteryCelebration from '../components/MasteryCelebration'
+import ReggieMascot from '../components/ReggieMascot'
 import ShareCardSheet from '../components/ShareCardSheet'
 import { logEvent } from '../utils/analytics'
 import NudgeBanner from '../components/NudgeBanner'
@@ -156,6 +157,9 @@ export default function ResultsScreen({ route, navigation }) {
   return (
     <SafeAreaView style={s.safe} edges={['bottom']}>
       <ScrollView contentContainerStyle={s.scroll} showsVerticalScrollIndicator={false}>
+
+        {/* Reggie reacts to the result */}
+        <ReggieMascot size={120} pose={passed ? 'celebrate' : 'encourage'} style={{ marginBottom: 8 }} />
 
         {/* Score circle */}
         <View style={[s.circleOuter, { borderColor: ringColor, ...cardShadow(C.shadow) }]}>

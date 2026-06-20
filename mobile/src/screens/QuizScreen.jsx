@@ -304,7 +304,7 @@ export default function QuizScreen({ route, navigation }) {
       {/* Full-screen Reggie intro before the end-of-lesson repeat round */}
       <Modal visible={repeatIntro} transparent animationType="fade" onRequestClose={() => setRepeatIntro(false)}>
         <View style={s.repeatIntroBackdrop}>
-          <ReggieMascot size={180} />
+          <ReggieMascot size={180} pose="encourage" />
           <Text style={s.repeatIntroTitle}>Let's fix those mistakes!</Text>
           <Text style={s.repeatIntroSub}>
             We'll go back through the {repeatTotal === 1 ? 'one you missed' : `${repeatTotal} you missed`} — one more try each.
@@ -461,11 +461,14 @@ export default function QuizScreen({ route, navigation }) {
             },
           ]}
         >
-          {/* Header row: result + combo badge */}
+          {/* Header row: Reggie reacts + result + combo badge */}
           <View style={s.feedbackHeader}>
-            <Text style={[T.h2, { color: isCorrect ? C.correct : C.wrong }]}>
-              {isCorrect ? '🎉 Correct!' : '❌ Incorrect'}
-            </Text>
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+              <ReggieMascot size={48} pose={isCorrect ? 'encourage' : 'oops'} />
+              <Text style={[T.h2, { color: isCorrect ? C.correct : C.wrong }]}>
+                {isCorrect ? '🎉 Correct!' : '❌ Incorrect'}
+              </Text>
+            </View>
 
             {/* 🔥 Combo badge */}
             {combo && (
@@ -779,7 +782,9 @@ function NoLivesGate({ C, s, insets, nextRefillAt, adReady, onWatchAd, onRefill,
     <View style={[StyleSheet.absoluteFill, s.gateBackdrop]}>
       <Animated.View style={[s.gateCard, { opacity: opAnim, transform: [{ scale: scaleAnim }], paddingBottom: insets.bottom + 16 }]}>
 
-        <Text style={{ fontSize: 52, textAlign: 'center', marginBottom: 8 }}>💔</Text>
+        <View style={{ alignItems: 'center', marginBottom: 4 }}>
+          <ReggieMascot size={96} pose="sleep" />
+        </View>
         <Text style={[T.h2, { color: C.text, textAlign: 'center' }]}>Out of Lives!</Text>
         <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 6, marginBottom: 24 }]}>
           {min > 0
