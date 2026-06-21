@@ -3,6 +3,7 @@ import { SUBJECT_META } from '@content/subjects'
 import { FOOD_ITEMS, HAPPINESS_ITEMS, STAGE_NAMES } from '@content/petConfig'
 import { useLessonProgress } from '../hooks/useLessonProgress'
 import { useUnlocks } from '../hooks/useUnlocks'
+import { Reggie } from '../components/brand/Reggie'
 
 export default function HomeScreen({
   user,
@@ -33,9 +34,15 @@ export default function HomeScreen({
   getPetMessage,
   onStartLesson,
   onStartChallenge,
+  onStartCustomQuiz,
   onStartPlacementTest,
   mistakeCount,
+  dueCount = 0,
+  dueMistakes = [],
+  mistakes = [],
   setScreen,
+  setFlashcardSubject,
+  setFlashcardTopic,
   classroomHook = {},
   setActiveAssignmentId = () => {}
 }) {
@@ -52,6 +59,128 @@ export default function HomeScreen({
   const [petMsg, setPetMsg] = useState('Welcome back! Ready to study today? 🎓')
   const [showGoalModal, setShowGoalModal] = useState(false)
   const [dailyGoal, setDailyGoal] = useState(() => Number(localStorage.getItem('@dailyGoal') || '50'))
+
+  const [selectedLesson, setSelectedLesson] = useState(null)
+
+  // Calculate mistakes grouped by topic for this subject
+  const mistakesByTopic = useMemo(() => {
+    const counts = {}
+    for (const m of mistakes) {
+      if (m && (m.subject ?? 'living-environment') === subject && m.topic) {
+        counts[m.topic] = (counts[m.topic] || 0) + 1
+      }
+    }
+    return counts
+  }, [mistakes, subject])
+
+  // Find first active (unlocked and incomplete) node to animate a pulse
+  const firstActiveNodeKey = useMemo(() => {
+    for (let uIdx = 0; uIdx < units.length; uIdx++) {
+      const unit = units[uIdx]
+      if (!isUnlocked(unit.topic)) continue
+      
+      for (let li = 0; li < unit.lessonCount; li++) {
+        if (!lessonComplete(unit.topic, li)) {
+          return `${unit.topic}-lesson-${li}`
+        }
+      }
+      
+      if (!unitComplete(unit.topic, unit.lessonCount)) {
+        return `${unit.topic}-challenge`
+      }
+    }
+    return null
+  }, [units, isUnlocked, lessonComplete, unitComplete])
+
+  const getZigzagTransform = (idx) => {
+    const cycle = idx % 4
+    if (cycle === 1) return 'translateX(70px)'
+    if (cycle === 3) return 'translateX(-70px)'
+    return 'translateX(0px)'
+  }
+
+  // Render a smooth, curved vector path connecting the zigzag nodes
+  const renderPathConnectors = (nodes) => {
+    if (!nodes || nodes.length <= 1) return null
+    const pitch = 104
+    const points = nodes.map((_, idx) => {
+      const cycle = idx % 4
+      let x = 150
+      if (cycle === 1) x = 220
+      if (cycle === 3) x = 80
+      const y = 78 + idx * pitch
+      return { x, y }
+    })
+
+    let pathD = `M ${points[0].x} ${points[0].y}`
+    for (let i = 1; i < points.length; i++) {
+      const p0 = points[i - 1]
+      const p1 = points[i]
+      const cpY1 = p0.y + 52
+      const cpY2 = p1.y - 52
+      pathD += ` C ${p0.x} ${cpY1}, ${p1.x} ${cpY2}, ${p1.x} ${p1.y}`
+    }
+
+    return (
+      <svg 
+        style={{
+          position: 'absolute',
+          top: 0,
+          bottom: 0,
+          left: '50%',
+          width: '300px',
+          height: '100%',
+          transform: 'translateX(-50%)',
+          pointerEvents: 'none',
+          zIndex: 0
+        }}
+        aria-hidden="true"
+      >
+        <path
+          d={pathD}
+          fill="none"
+          stroke="var(--border)"
+          strokeWidth="8"
+          strokeLinecap="round"
+          strokeDasharray="4 8"
+        />
+      </svg>
+    )
+  }
+
+  const handleStartFlashcards = (topic) => {
+    setFlashcardSubject(subject)
+    setFlashcardTopic(topic)
+    setScreen('flashcards')
+    setSelectedLesson(null)
+  }
+
+  const handleStartReview = (topic) => {
+    const topicMistakes = mistakes.filter(m => m && (m.subject ?? 'living-environment') === subject && (m.topic === topic || m.subTopic === topic))
+    if (topicMistakes.length === 0) return
+    
+    // Sort mistakes by priority (due/overdue first, then wrongCount)
+    const now = Date.now()
+    const sortedMistakes = [...topicMistakes].sort((a, b) => {
+      const aOverdue = now - (a.due ?? now)
+      const bOverdue = now - (b.due ?? now)
+      if (Math.abs(aOverdue - bOverdue) > 1000) {
+        return bOverdue - aOverdue
+      }
+      return (b.wrongCount || 1) - (a.wrongCount || 1)
+    })
+    
+    let pool = [...sortedMistakes]
+    if (pool.length < 6) {
+      const allTopicQuestions = subjectData.questions?.filter(q => q.topic === topic || q.subTopic === topic) || []
+      const seenIds = new Set(pool.map(q => q.id ?? q.text))
+      const extra = allTopicQuestions.filter(q => !seenIds.has(q.id ?? q.text)).sort(() => 0.5 - Math.random())
+      pool = [...pool, ...extra.slice(0, 6 - pool.length)]
+    }
+    
+    onStartCustomQuiz(pool, true)
+    setSelectedLesson(null)
+  }
 
   // Daily Quests state
   const [dailyQuest, setDailyQuest] = useState(null)
@@ -200,147 +329,68 @@ export default function HomeScreen({
             </div>
           )}
 
-          {/* B2B Classroom Connection & Goals Panel */}
-          <div className="card-glass" style={{
-            background: 'linear-gradient(135deg, var(--surface), var(--surface-2))',
-            padding: '24px',
-            border: '2px solid var(--border)',
-            borderRadius: '20px'
-          }}>
-            {!joinedClassroom ? (
+          {/* Classroom Assignments Panel */}
+          {joinedClassroom && assignments.length > 0 && (
+            <div className="card-glass" style={{
+              background: 'linear-gradient(135deg, var(--surface), var(--surface-2))',
+              padding: '24px',
+              border: '2px solid var(--border)',
+              borderRadius: '20px'
+            }}>
               <div>
-                <h3 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '18px', display: 'flex', alignItems: 'center', gap: '8px', margin: 0 }}>
-                  <span>🏫</span> Link to School Classroom
-                </h3>
-                <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '6px', marginBottom: '14px', lineHeight: '18px' }}>
-                  Enter the unique B2B classroom code shared by your teacher to link your study logs, track standards, and receive active assignments.
-                </p>
-                <form onSubmit={async (e) => {
-                  e.preventDefault()
-                  const code = e.target.classCode.value.trim()
-                  if (!code) return
-                  const res = await joinClassroom(code)
-                  if (res === 'success') {
-                    alert('Successfully linked to classroom! 🎉')
-                    e.target.reset()
-                  } else if (res === 'not_found') {
-                    alert('Invalid classroom code. Please check with your teacher.')
-                  } else {
-                    alert('Failed to join classroom.')
-                  }
-                }} style={{ display: 'flex', gap: '10px' }}>
-                  <input
-                    name="classCode"
-                    type="text"
-                    placeholder="e.g. LIF-ABCDE"
-                    style={{
-                      flexGrow: 1,
-                      padding: '8px 12px',
-                      borderRadius: '10px',
-                      border: '2px solid var(--border)',
-                      background: 'var(--bg)',
-                      fontWeight: 700,
-                      fontSize: '13px'
-                    }}
-                  />
-                  <button type="submit" className="btn-duo btn-duo-purple" style={{ padding: '8px 16px', fontSize: '13px' }}>
-                    Join Class
-                  </button>
-                </form>
-              </div>
-            ) : (
-              <div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-                  <div>
-                    <h3 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '18px', display: 'flex', alignItems: 'center', gap: '8px', margin: 0 }}>
-                      <span>🏫</span> Linked Class: {joinedClassroom.className}
-                    </h3>
-                    <span style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: 800, display: 'block', marginTop: '4px' }}>
-                      Teacher: {joinedClassroom.teacherName} • Code: {joinedClassroom.classCode}
-                    </span>
-                  </div>
-                  <button
-                    onClick={() => {
-                      if (confirm('Leave this classroom? You will no longer receive assignments.')) {
-                        leaveClassroom(joinedClassroom.classCode)
-                      }
-                    }}
-                    style={{
-                      background: 'none',
-                      border: 'none',
-                      color: 'var(--wrong-dark)',
-                      fontSize: '11px',
-                      fontWeight: 800,
-                      cursor: 'pointer',
-                      textDecoration: 'underline'
-                    }}
-                  >
-                    Leave Class
-                  </button>
-                </div>
+                <h4 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '14px', margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <span>📋</span> Classroom Assignments ({joinedClassroom.className})
+                </h4>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                  {assignments.map(assign => {
+                    const isDone = assign.completedStudents?.includes(user?.uid)
+                    return (
+                      <div key={assign.id} style={{
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                        background: 'var(--surface-2)',
+                        padding: '10px 14px',
+                        borderRadius: '10px',
+                        border: '1px solid var(--border)'
+                      }}>
+                        <div>
+                          <span style={{ fontWeight: 800, fontSize: '13px', display: 'block' }}>{assign.title}</span>
+                          <span style={{ fontSize: '10px', color: 'var(--text-dim)', fontWeight: 800 }}>
+                            Due: {assign.dueDate}
+                          </span>
+                        </div>
 
-                {/* Assignments Subpanel */}
-                <div style={{ marginTop: '16px', borderTop: '1.5px solid var(--border)', paddingTop: '14px' }}>
-                  <h4 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '14px', margin: '0 0 10px 0', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                    <span>📋</span> Classroom Assignments
-                  </h4>
-                  {assignments.length === 0 ? (
-                    <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: 0, fontStyle: 'italic' }}>
-                      No assignments active currently. Keep practicing freely!
-                    </p>
-                  ) : (
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                      {assignments.map(assign => {
-                        const isDone = assign.completedStudents?.includes(user?.uid)
-                        return (
-                          <div key={assign.id} style={{
-                            display: 'flex',
-                            justifyContent: 'space-between',
-                            alignItems: 'center',
-                            background: 'var(--surface-2)',
-                            padding: '10px 14px',
-                            borderRadius: '10px',
-                            border: '1px solid var(--border)'
-                          }}>
-                            <div>
-                              <span style={{ fontWeight: 800, fontSize: '13px', display: 'block' }}>{assign.title}</span>
-                              <span style={{ fontSize: '10px', color: 'var(--text-dim)', fontWeight: 800 }}>
-                                Due: {assign.dueDate}
-                              </span>
-                            </div>
-
-                            <div>
-                              {isDone ? (
-                                <span style={{
-                                  fontSize: '11px',
-                                  fontWeight: 900,
-                                  color: 'var(--correct-dark)',
-                                  background: 'var(--correct-bg)',
-                                  padding: '4px 10px',
-                                  borderRadius: '6px',
-                                  border: '1px solid currentColor'
-                                }}>
-                                  ✅ Completed
-                                </span>
-                              ) : (
-                                <button
-                                  className="btn-duo btn-duo-purple"
-                                  onClick={() => handleLaunchAssignment(assign)}
-                                  style={{ padding: '6px 12px', fontSize: '12px', borderBottomWidth: '2.5px' }}
-                                >
-                                  Launch 🚀
-                                </button>
-                              )}
-                            </div>
-                          </div>
-                        )
-                      })}
-                    </div>
-                  )}
+                        <div>
+                          {isDone ? (
+                            <span style={{
+                              fontSize: '11px',
+                              fontWeight: 900,
+                              color: 'var(--correct-dark)',
+                              background: 'var(--correct-bg)',
+                              padding: '4px 10px',
+                              borderRadius: '6px',
+                              border: '1px solid currentColor'
+                            }}>
+                              ✅ Completed
+                            </span>
+                          ) : (
+                            <button
+                              className="btn-duo btn-duo-purple"
+                              onClick={() => handleLaunchAssignment(assign)}
+                              style={{ padding: '6px 12px', fontSize: '12px', borderBottomWidth: '2.5px' }}
+                            >
+                              Launch 🚀
+                            </button>
+                          )}
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
               </div>
-            )}
-          </div>
+            </div>
+          )}
 
           {/* Daily Streak Shield Warning Banner */}
           {!studiedToday && streak > 0 && (
@@ -399,8 +449,37 @@ export default function HomeScreen({
             </div>
           )}
 
+          {/* Focus Timer Quick Access Card */}
+          <div
+            className="card-glass"
+            onClick={() => setScreen('focus')}
+            style={{
+              background: 'linear-gradient(135deg, rgba(88,204,2,0.18) 0%, rgba(28,176,246,0.10) 100%)',
+              border: '2px solid var(--brand)',
+              cursor: 'pointer',
+              padding: '20px 24px',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '18px',
+              transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+            }}
+            onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 12px 28px rgba(88,204,2,0.2)' }}
+            onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = '' }}
+          >
+            <div style={{ fontSize: '48px', lineHeight: 1 }}>🎯</div>
+            <div style={{ flex: 1 }}>
+              <h3 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '18px', color: 'var(--brand-dark)', margin: 0, marginBottom: '4px' }}>
+                Focus Timer
+              </h3>
+              <p style={{ fontSize: '13px', color: 'var(--text-muted)', margin: 0, lineHeight: '18px' }}>
+                Study in focused Pomodoro sessions with ambient sounds. Reggie cheers you on! 🦕
+              </p>
+            </div>
+            <div style={{ fontSize: '20px', color: 'var(--brand)' }}>→</div>
+          </div>
+
           <div className="roadmap-container">
-            <h1 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '28px', display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <h1 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '28px', display: 'flex', alignItems: 'center', gap: '12px', margin: '0 0 10px 0' }}>
               <span>🚀</span> Study units
             </h1>
 
@@ -411,6 +490,64 @@ export default function HomeScreen({
               const isUnitDone = unitComplete(unit.topic, unit.lessonCount)
               const activeColor = unit.color || 'var(--brand)'
               const progressPct = Math.round((completedLessons / totalLessons) * 100)
+
+              // Generate winding path items for this unit
+              const unitNodes = []
+              if (!locked) {
+                // 1. Standard Lessons
+                for (let li = 0; li < totalLessons; li++) {
+                  unitNodes.push({
+                    type: 'lesson',
+                    lessonIndex: li,
+                    isChallenge: false,
+                    label: `L${li + 1}`,
+                    title: `Lesson ${li + 1}`,
+                    icon: unit.icon || '🔬',
+                    done: lessonComplete(unit.topic, li),
+                    unlocked: isLessonUnlocked(unit.topic, li)
+                  })
+                }
+
+                // 2. Unit Challenge
+                unitNodes.push({
+                  type: 'challenge',
+                  lessonIndex: totalLessons,
+                  isChallenge: true,
+                  label: 'CHALLENGE',
+                  title: `${unit.title} Challenge`,
+                  icon: '🏆',
+                  done: isUnitDone,
+                  unlocked: completedLessons >= totalLessons
+                })
+
+                // 3. Stimulus Source Context
+                const stimQuestions = subjectData.getExamContextQuestions ? subjectData.getExamContextQuestions(unit.topic) : []
+                if (stimQuestions && stimQuestions.length > 0) {
+                  unitNodes.push({
+                    type: 'stimulus',
+                    questions: stimQuestions,
+                    label: 'CONTEXT',
+                    title: 'Regents Context Practice',
+                    icon: '📄',
+                    done: false,
+                    unlocked: true
+                  })
+                }
+
+                // 4. Topic Mistake Fix-ups
+                const topicMistakesCount = mistakesByTopic[unit.topic] || 0
+                if (topicMistakesCount > 0) {
+                  unitNodes.push({
+                    type: 'review',
+                    count: topicMistakesCount,
+                    label: 'FIX-UPS',
+                    title: `Topic Mistakes Fix-up`,
+                    icon: '🩹',
+                    done: false,
+                    unlocked: true
+                  })
+                }
+              }
 
               return (
                 <div key={unit.id || unitIdx} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -436,61 +573,95 @@ export default function HomeScreen({
                     </div>
                   </div>
 
-                  {/* Lesson Nodes Grid */}
+                  {/* Winding road map path connector */}
                   {!locked && (
-                    <div className="lessons-grid">
-                      {Array.from({ length: totalLessons }, (_, lessonIdx) => {
-                        const isDone = lessonComplete(unit.topic, lessonIdx)
-                        const lessonOpen = isLessonUnlocked(unit.topic, lessonIdx)
-                        const isNext = lessonOpen && !isDone && (lessonIdx === 0 || lessonComplete(unit.topic, lessonIdx - 1))
+                    <div className="roadmap-path">
+                      {renderPathConnectors(unitNodes)}
+                      {unitNodes.map((node, nodeIdx) => {
+                        const nodeKey = node.type === 'lesson' 
+                          ? `${unit.topic}-lesson-${node.lessonIndex}` 
+                          : node.type === 'challenge' 
+                            ? `${unit.topic}-challenge` 
+                            : `${unit.topic}-${node.type}`
+                        
+                        const isFirstActive = firstActiveNodeKey === (node.type === 'lesson' 
+                          ? `${unit.topic}-lesson-${node.lessonIndex}` 
+                          : node.type === 'challenge' 
+                            ? `${unit.topic}-challenge` 
+                            : null)
+
+                        const transformOffset = getZigzagTransform(nodeIdx)
+                        const isDone = node.done
+                        const nodeOpen = node.unlocked
+
+                        const handleNodeClick = () => {
+                          if (!nodeOpen) {
+                            if (node.type === 'challenge') {
+                              alert('Complete all unit lessons first to unlock the challenge!')
+                            } else {
+                              alert('Complete the previous lesson first to unlock this one!')
+                            }
+                            return
+                          }
+                          
+                          setSelectedLesson({
+                            type: node.type,
+                            unit,
+                            unitIdx,
+                            lessonIndex: node.lessonIndex,
+                            isChallenge: node.isChallenge,
+                            title: node.title,
+                            label: node.label,
+                            icon: node.icon,
+                            done: isDone,
+                            count: node.count,
+                            questions: node.questions
+                          })
+                        }
 
                         return (
-                          <button
-                            key={lessonIdx}
-                            onClick={() => lessonOpen && onStartLesson(unit.topic, lessonIdx, totalLessons)}
-                            disabled={!lessonOpen}
-                            className={`lesson-node ${isDone ? 'completed' : ''}`}
-                            title={lessonOpen ? `Lesson ${lessonIdx + 1}` : `Complete Lesson ${lessonIdx} first`}
-                            style={{
-                              opacity: lessonOpen ? 1 : 0.35,
-                              cursor: lessonOpen ? 'pointer' : 'not-allowed',
-                              borderColor: isDone ? 'var(--brand-dark)' : isNext ? activeColor : 'var(--border)',
-                              boxShadow: isDone
-                                ? '0 6px 0 var(--brand-dark)'
-                                : isNext
-                                  ? `0 6px 0 ${activeColor}`
-                                  : '0 6px 0 var(--border)',
-                              background: isDone
-                                ? 'var(--brand)'
-                                : isNext
-                                  ? 'var(--surface-2)'
-                                  : 'var(--surface)',
-                              color: isDone ? '#fff' : 'var(--text)'
-                            }}
+                          <div 
+                            key={nodeKey} 
+                            className="node-wrapper"
+                            style={{ transform: transformOffset }}
                           >
-                            <span className="node-icon">{isDone ? '✅' : lessonOpen ? (unit.icon || '🔬') : '🔒'}</span>
-                            <span className="node-label">L{lessonIdx + 1}</span>
-                          </button>
+                            <button
+                              onClick={handleNodeClick}
+                              className={`lesson-node ${isDone ? 'completed' : ''} ${node.type === 'challenge' ? 'challenge' : ''} ${isFirstActive ? 'pulse-active' : ''}`}
+                              disabled={!nodeOpen}
+                              style={{
+                                opacity: nodeOpen ? 1 : 0.35,
+                                cursor: nodeOpen ? 'pointer' : 'not-allowed',
+                                borderColor: isDone ? 'var(--brand-dark)' : isFirstActive ? activeColor : 'var(--border)',
+                                boxShadow: isDone
+                                  ? '0 6px 0 var(--brand-dark)'
+                                  : isFirstActive
+                                    ? `0 6px 0 ${activeColor}`
+                                    : '0 6px 0 var(--border)',
+                                background: isDone
+                                  ? 'var(--brand)'
+                                  : isFirstActive
+                                    ? 'var(--surface-2)'
+                                    : 'var(--surface)',
+                                color: isDone ? '#fff' : 'var(--text)'
+                              }}
+                              title={node.title}
+                            >
+                              <span className="node-icon">
+                                {nodeOpen ? node.icon : '🔒'}
+                              </span>
+                              {isDone && node.type === 'lesson' && (
+                                <div className="star-badge">
+                                  <span style={{ fontSize: '10px' }}>⭐</span>
+                                </div>
+                              )}
+                            </button>
+                            <span className="node-title-label">
+                              {node.label}
+                            </span>
+                          </div>
                         )
                       })}
-
-                      {/* Final Challenge Node */}
-                      <button
-                        onClick={() => onStartChallenge(unit.topic, totalLessons)}
-                        className={`lesson-node challenge ${isUnitDone ? 'completed' : ''}`}
-                        disabled={completedLessons < totalLessons}
-                        style={{
-                          opacity: completedLessons < totalLessons ? 0.4 : 1,
-                          cursor: completedLessons < totalLessons ? 'not-allowed' : 'pointer',
-                          borderColor: isUnitDone ? 'var(--brand-dark)' : 'var(--purple-dark)',
-                          boxShadow: isUnitDone ? '0 6px 0 var(--brand-dark)' : '0 6px 0 var(--purple-dark)',
-                          background: isUnitDone ? 'var(--brand)' : 'var(--purple)',
-                        }}
-                        title="Unit Challenge"
-                      >
-                        <span className="node-icon">{isUnitDone ? '🏆' : '👑'}</span>
-                        <span className="node-label">CHALLENGE</span>
-                      </button>
                     </div>
                   )}
                 </div>
@@ -641,7 +812,7 @@ export default function HomeScreen({
           {pet.chosen ? (
             <div className="card-glass pet-breathe">
               <h3 className="card-title" style={{ justifyContent: 'space-between' }}>
-                <span>🦫 Pet sanctuary</span>
+                <span>🦖 Pet sanctuary</span>
                 <span className="pet-stage">{STAGE_NAMES[pet.stage]}</span>
               </h3>
               
@@ -652,7 +823,8 @@ export default function HomeScreen({
                       position: 'absolute',
                       top: '-16px',
                       fontSize: '32px',
-                      animation: 'float 1s ease infinite'
+                      animation: 'float 1s ease infinite',
+                      zIndex: 10
                     }}>
                       {activeReaction === 'cheer' ? '🎉' : activeReaction === 'happy_dance' ? '🕺' : '💖'}
                     </div>
@@ -668,26 +840,22 @@ export default function HomeScreen({
                       padding: '4px 8px',
                       fontSize: '12px',
                       fontWeight: 800,
-                      boxShadow: '0 4px 8px var(--shadow)'
+                      boxShadow: '0 4px 8px var(--shadow)',
+                      zIndex: 10
                     }}>
                       {activeFloatMessage}
                     </div>
                   )}
-                  <span className="pet-sprite">
-                    {pet.petType === 'axolotl' ? '🦎' : pet.petType === 'fox' ? '🦊' : pet.petType === 'capybara' ? '🦫' : pet.petType === 'bear' ? '🐻' : pet.petType === 'bunny' ? '🐰' : '🐱'}
-                  </span>
                   
-                  {/* Cosmetic hats if equipped */}
-                  {pet.accessories?.includes('graduationCap') && <span className="pet-accessory">🎓</span>}
-                  {pet.accessories?.includes('wizardHat') && <span className="pet-accessory">🧙</span>}
-                  {pet.accessories?.includes('cowboyHat') && <span className="pet-accessory">🤠</span>}
-                  {pet.accessories?.includes('crown') && <span className="pet-accessory">👑</span>}
-                  {pet.accessories?.includes('sunglasses') && <span style={{ position: 'absolute', top: '24px', fontSize: '24px' }}>🕶️</span>}
-                  {pet.accessories?.includes('tinyBackpack') && <span style={{ position: 'absolute', bottom: '10px', right: '10px', fontSize: '24px' }}>🎒</span>}
-                  {pet.accessories?.includes('glowAura') && <span style={{ position: 'absolute', inset: 0, fontSize: '80px', display: 'flex', alignItems: 'center', justifyContent: 'center', animation: 'pulse 1.5s infinite', opacity: 0.3 }}>✨</span>}
+                  {(() => {
+                    const reggiePose = activeReaction === 'cheer' || activeReaction === 'celebrate' || activeReaction === 'happy_dance' ? 'cheer'
+                      : activeReaction === 'think' ? 'think'
+                      : pet.hunger < 30 || pet.happiness < 30 ? 'sleepy' : 'happy';
+                    return <Reggie pose={reggiePose} size={120} accessories={pet.accessories || []} />;
+                  })()}
                 </div>
 
-                <div className="pet-name">{pet.name || 'Mochi'}</div>
+                <div className="pet-name">{pet.name || 'Reggie'}</div>
                 
                 <div className="pet-speech-bubble">
                   "{petMsg}"
@@ -783,25 +951,25 @@ export default function HomeScreen({
           )}
 
           {/* Mistakes Banner Alert */}
-          {mistakeCount > 0 && (
+          {dueCount > 0 && (
             <div className="card-glass" style={{ borderLeftColor: 'var(--wrong)', display: 'flex', flexDirection: 'column', gap: '8px' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <span style={{ color: 'var(--wrong)', fontWeight: 900, display: 'flex', alignItems: 'center', gap: '8px' }}>
-                  <span>📕</span> Review Mistakes
+                  <span>🩹</span> Smart Review
                 </span>
                 <span style={{ background: 'var(--wrong-bg)', color: 'var(--wrong-dark)', padding: '2px 8px', borderRadius: '8px', fontWeight: 800, fontSize: '11px' }}>
-                  {mistakeCount} wrong
+                  {dueCount} due
                 </span>
               </div>
               <p style={{ fontSize: '13px', color: 'var(--text-muted)' }}>
-                You have collected {mistakeCount} wrong answers during your studying. Review them in a custom mistake quiz to earn back hearts!
+                You have {dueCount} weak concepts scheduled for spaced repetition review today.
               </p>
               <button
                 className="btn-duo btn-duo-wrong"
                 style={{ padding: '8px 12px', fontSize: '12px', marginTop: '4px' }}
                 onClick={() => setScreen('mistakes')}
               >
-                Review Mistakes Now
+                Review Gaps Now
               </button>
             </div>
           )}
@@ -890,6 +1058,134 @@ export default function HomeScreen({
             >
               Hooray! 🚀
             </button>
+          </div>
+        </div>
+      )}
+
+      {/* Centered Glassmorphic Details Dialog Popup */}
+      {selectedLesson && (
+        <div className="modal-backdrop" onClick={() => setSelectedLesson(null)}>
+          <div className="lesson-details-dialog" onClick={(e) => e.stopPropagation()}>
+            {/* Close Button */}
+            <button 
+              onClick={() => setSelectedLesson(null)}
+              style={{
+                position: 'absolute',
+                top: '16px',
+                right: '16px',
+                background: 'none',
+                border: 'none',
+                cursor: 'pointer',
+                fontSize: '20px',
+                color: 'var(--text-muted)',
+                fontWeight: 900
+              }}
+            >
+              ✕
+            </button>
+
+            {/* Companion illustration */}
+            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
+              {(() => {
+                const reggiePose = selectedLesson.type === 'challenge' ? 'cheer'
+                  : selectedLesson.type === 'review' ? 'think'
+                  : selectedLesson.done ? 'cheer' : 'happy';
+                return <Reggie pose={reggiePose} size={110} accessories={pet.accessories || []} />;
+              })()}
+            </div>
+
+            <div style={{
+              fontSize: '11px',
+              fontWeight: 800,
+              textTransform: 'uppercase',
+              color: 'var(--brand)',
+              letterSpacing: '1.5px',
+              marginBottom: '6px'
+            }}>
+              {selectedLesson.unit.title}
+            </div>
+
+            <h2 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '22px', marginBottom: '8px' }}>
+              {selectedLesson.title}
+            </h2>
+
+            <p style={{ fontSize: '14px', color: 'var(--text-muted)', lineHeight: '20px', marginBottom: '24px', padding: '0 8px' }}>
+              {selectedLesson.type === 'lesson' && `Practice fundamental concepts of ${selectedLesson.unit.title}. Complete it to earn XP and progress on your road map!`}
+              {selectedLesson.type === 'challenge' && `Put your mastery of ${selectedLesson.unit.title} to the test. Finish the challenge with high accuracy to master this topic!`}
+              {selectedLesson.type === 'stimulus' && `Solve advanced document and source analysis questions for ${selectedLesson.unit.title}.`}
+              {selectedLesson.type === 'review' && `Tackle your queued mistake items in ${selectedLesson.unit.title} to earn back points and reinforce your knowledge!`}
+            </p>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              {selectedLesson.type === 'lesson' && (
+                <>
+                  <button
+                    className="btn-duo btn-duo-purple"
+                    style={{ width: '100%', padding: '12px', fontSize: '14px' }}
+                    onClick={() => {
+                      onStartLesson(selectedLesson.unit.topic, selectedLesson.lessonIndex, selectedLesson.unit.lessonCount)
+                      setSelectedLesson(null)
+                    }}
+                  >
+                    {selectedLesson.done ? '🔁 REDO QUIZ' : '▶ START LESSON'}
+                  </button>
+                  
+                  <button
+                    className="btn-duo-outline"
+                    style={{ width: '100%', padding: '10px', fontSize: '13px' }}
+                    onClick={() => handleStartFlashcards(selectedLesson.unit.topic)}
+                  >
+                    🃏 PRACTICE FLASHCARDS
+                  </button>
+                </>
+              )}
+
+              {selectedLesson.type === 'challenge' && (
+                <>
+                  <button
+                    className="btn-duo btn-duo-purple"
+                    style={{ width: '100%', padding: '12px', fontSize: '14px' }}
+                    onClick={() => {
+                      onStartChallenge(selectedLesson.unit.topic)
+                      setSelectedLesson(null)
+                    }}
+                  >
+                    {selectedLesson.done ? '🔁 RETRY CHALLENGE' : '🏆 START CHALLENGE'}
+                  </button>
+
+                  <button
+                    className="btn-duo-outline"
+                    style={{ width: '100%', padding: '10px', fontSize: '13px' }}
+                    onClick={() => handleStartFlashcards(selectedLesson.unit.topic)}
+                  >
+                    🃏 TOPIC FLASHCARDS
+                  </button>
+                </>
+              )}
+
+              {selectedLesson.type === 'stimulus' && (
+                <button
+                  className="btn-duo btn-duo-purple"
+                  style={{ width: '100%', padding: '12px', fontSize: '14px' }}
+                  onClick={() => {
+                    onStartCustomQuiz(selectedLesson.questions)
+                    setSelectedLesson(null)
+                  }}
+                >
+                  📄 START CONTEXT PRACTICE
+                </button>
+              )}
+
+              {selectedLesson.type === 'review' && (
+                <button
+                  className="btn-duo btn-duo-purple"
+                  style={{ width: '100%', padding: '12px', fontSize: '14px' }}
+                  onClick={() => handleStartReview(selectedLesson.unit.topic)}
+                >
+                  🩹 RESOLVE MISTAKES ({selectedLesson.count})
+                </button>
+              )}
+            </div>
           </div>
         </div>
       )}

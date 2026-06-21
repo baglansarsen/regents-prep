@@ -5,25 +5,25 @@
   --surface: #FFFFFF;
   --surface-2: #F3F4F6;
   --surface-3: #E5E7EB;
-  --text: #1F2937;
-  --text-muted: #6B7280;
-  --text-dim: #9CA3AF;
+  --text: #0F2018;
+  --text-muted: #4A5D54;
+  --text-dim: #84968C;
   
-  --brand: #58CC02;
-  --brand-light: #7FDD2A;
-  --brand-dark: #46A302;
-  --brand-bg: #D7FFB8;
+  --brand: #1FC36B;
+  --brand-light: #27D078;
+  --brand-dark: #0E9F52;
+  --brand-bg: #EAFBF1;
   
-  --correct: #58CC02;
-  --correct-bg: #D7FFB8;
-  --correct-dark: #46A302;
+  --correct: #1FC36B;
+  --correct-bg: #EAFBF1;
+  --correct-dark: #0E9F52;
   
   --wrong: #FF4B4B;
   --wrong-bg: #FFDFE0;
   --wrong-dark: #CC0000;
   
-  --warn: #FFC800;
-  --warn-bg: #FFF3CD;
+  --warn: #FFC93C;
+  --warn-bg: #FEF3C7;
   --warn-dark: #D97706;
   
   --blue: #1CB0F6;
@@ -36,8 +36,9 @@
   
   --border: #E5E7EB;
   --shadow: rgba(0, 0, 0, 0.08);
-  --shadow-glow: rgba(88, 204, 2, 0.15);
+  --shadow-glow: rgba(31, 195, 107, 0.15);
   
+  --font-fredoka: 'Fredoka', sans-serif;
   --font-nunito: 'Nunito', sans-serif;
   --font-outfit: 'Outfit', sans-serif;
 }
@@ -51,20 +52,20 @@
   --text-muted: #94a3b8;
   --text-dim: #64748b;
   
-  --brand: #58CC02;
-  --brand-light: #7FDD2A;
-  --brand-dark: #46A302;
-  --brand-bg: #1A3A00;
+  --brand: #1FC36B;
+  --brand-light: #27D078;
+  --brand-dark: #0E9F52;
+  --brand-bg: #0a2f1c;
   
-  --correct: #58CC02;
-  --correct-bg: #1A3A00;
-  --correct-dark: #46A302;
+  --correct: #1FC36B;
+  --correct-bg: #0a2f1c;
+  --correct-dark: #0E9F52;
   
   --wrong: #FF4B4B;
   --wrong-bg: #3A0000;
   --wrong-dark: #CC0000;
   
-  --warn: #FFC800;
+  --warn: #FFC93C;
   --warn-bg: #3A2A00;
   --warn-dark: #D97706;
   
@@ -78,7 +79,7 @@
   
   --border: #334155;
   --shadow: rgba(0, 0, 0, 0.4);
-  --shadow-glow: rgba(88, 204, 2, 0.25);
+  --shadow-glow: rgba(31, 195, 107, 0.25);
 }
 
 /* ─── Global Resets ─── */
@@ -141,11 +142,15 @@ button, input, select {
 }
 
 .sidebar-logo-text {
-  font-family: var(--font-outfit);
-  font-weight: 800;
+  font-family: var(--font-fredoka);
+  font-weight: 700;
   font-size: 24px;
   color: var(--brand);
   letter-spacing: -0.5px;
+}
+
+.sidebar-logo-text .logo-accent {
+  color: var(--warn);
 }
 
 .sidebar-menu {
@@ -514,13 +519,34 @@ button, input, select {
   border-radius: 3px;
 }
 
-/* Interactive Node Path Grid */
-.lessons-grid {
+/* ─── UI Winding Skill Path ─── */
+.roadmap-path {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 16px 0;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 28px;
+  padding: 40px 0;
+  width: 100%;
+}
+
+.node-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.node-title-label {
+  font-family: var(--font-nunito);
+  font-weight: 800;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 8px;
+  color: var(--text);
+  text-shadow: 0 1px 2px var(--bg);
+  pointer-events: none;
 }
 
 .lesson-node {
@@ -538,7 +564,7 @@ button, input, select {
   cursor: pointer;
   position: relative;
   top: 0;
-  transition: transform 0.15s, border-bottom 0.1s, top 0.05s;
+  transition: transform 0.15s, border-bottom 0.1s, top 0.05s, box-shadow 0.2s ease;
 }
 
 .lesson-node:hover {
@@ -547,7 +573,7 @@ button, input, select {
 
 .lesson-node:active {
   top: 4px;
-  border-bottom: 2px solid var(--border);
+  border-bottom-width: 2px;
 }
 
 .lesson-node.completed {
@@ -564,7 +590,7 @@ button, input, select {
 }
 
 .node-icon {
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .node-label {
@@ -574,6 +600,78 @@ button, input, select {
   text-transform: uppercase;
   margin-top: 2px;
 }
+
+.star-badge {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  background: #fff;
+  border: 2px solid var(--brand);
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+@keyframes nodePulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(88, 204, 2, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 16px rgba(88, 204, 2, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(88, 204, 2, 0);
+  }
+}
+
+.pulse-active {
+  animation: nodePulse 2s infinite;
+  border-color: var(--brand) !important;
+}
+
+/* Glassmorphic Centered Dialog Overlay */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(8px);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.lesson-details-dialog {
+  max-width: 480px;
+  width: 90%;
+  background: var(--card-bg-glass);
+  backdrop-filter: blur(20px);
+  border: 2px solid var(--border);
+  border-radius: 24px;
+  padding: 32px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  color: var(--text);
+  position: relative;
+  z-index: 1000;
+  text-align: center;
+  animation: scaleUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleUp {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
 
 /* ─── Pet Widget Panel ─── */
 .pet-widget {
@@ -1447,4 +1545,138 @@ button, input, select {
 .regents-review-divedeep p { margin: 0; padding: 8px 12px; font-size: .78rem; color: var(--text-muted); line-height: 1.55; }
 .regents-result-actions   { display: flex; gap: 10px; padding-bottom: 24px; }
 
-
+/* ─── AI Tutor Side Drawer ─── */
+.tutor-drawer-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  z-index: 9999;
+  display: flex;
+  justify-content: flex-end;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+}
+.tutor-drawer-backdrop.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+.tutor-drawer {
+  width: 460px;
+  max-width: 90vw;
+  height: 100%;
+  background: var(--surface);
+  border-left: 3px solid var(--border);
+  box-shadow: -10px 0 40px var(--shadow);
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  padding: 32px 24px;
+  box-sizing: border-box;
+}
+[data-theme="dark"] .tutor-drawer {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(25px);
+}
+.tutor-drawer-backdrop.open .tutor-drawer {
+  transform: translateX(0);
+}
+.tutor-drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+}
+.tutor-drawer-title {
+  font-family: var(--font-outfit);
+  font-weight: 900;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+.tutor-drawer-close {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 24px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.tutor-drawer-close:hover {
+  color: var(--text);
+}
+.tutor-drawer-body {
+  flex-grow: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tutor-mascot-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+.tutor-speech-bubble {
+  flex: 1;
+  background: var(--surface-2);
+  border: 2px solid var(--border);
+  border-radius: 0 16px 16px 16px;
+  padding: 16px;
+  position: relative;
+  box-shadow: 0 4px 15px var(--shadow);
+}
+.tutor-speech-bubble::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 12px;
+  border-width: 5px 10px 5px 0;
+  border-style: solid;
+  border-color: transparent var(--border) transparent transparent;
+}
+.tutor-speech-bubble::after {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 12px;
+  border-width: 5px 8px 5px 0;
+  border-style: solid;
+  border-color: transparent var(--surface-2) transparent transparent;
+}
+.tutor-step-card {
+  border-radius: 16px;
+  border: 1.5px solid var(--border);
+  padding: 16px;
+  background: var(--surface-3);
+  box-shadow: 0 4px 12px var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  animation: modal-fade-in 0.3s ease-out forwards;
+}
+.tutor-step-header {
+  font-family: var(--font-outfit);
+  font-weight: 800;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.tutor-step-content {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--text);
+}

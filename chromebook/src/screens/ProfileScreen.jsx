@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useCallback } from 'react'
 import { NY_SCHOOLS, BOROUGHS, getSchoolsSortedByDistance, distanceMi } from '@content/schools'
+import { usePredictedScore } from '../hooks/usePredictedScore'
 
 export default function ProfileScreen({
   user,
@@ -16,7 +17,12 @@ export default function ProfileScreen({
   setSoundEnabled,
   teacherMode = false,
   setTeacherMode,
+  subject,
+  subjectData,
+  classroomHook = {}
 }) {
+  const { joinedClassroom, joinClassroom = () => {}, leaveClassroom = () => {} } = classroomHook
+  const predictedScore = usePredictedScore(subject, subjectData?.UNITS || [], history, streak)
   const [selectedBorough, setSelectedBorough] = useState(() => {
     const matched = NY_SCHOOLS.find(s => s.name === school)
     return matched ? matched.borough : 'Manhattan'
@@ -541,6 +547,120 @@ export default function ProfileScreen({
               <div style={{ height: '100%', width: `${level.progress * 100}%`, backgroundColor: 'var(--brand)' }} />
             </div>
           </div>
+        </div>
+
+        {/* Classroom Connection Settings */}
+        <div className="card-glass" style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+          <h2 className="card-title">🏫 Classroom Connection</h2>
+          {!joinedClassroom ? (
+            <div>
+              <p style={{ fontSize: '13px', color: 'var(--text-muted)', margin: '0 0 14px 0', lineHeight: '20px' }}>
+                Enter the unique B2B classroom code shared by your teacher to link your study logs, track standards, and receive active assignments.
+              </p>
+              <form onSubmit={async (e) => {
+                e.preventDefault()
+                const code = e.target.classCode.value.trim()
+                if (!code) return
+                const res = await joinClassroom(code)
+                if (res === 'success') {
+                  alert('Successfully linked to classroom! 🎉')
+                  e.target.reset()
+                } else if (res === 'not_found') {
+                  alert('Invalid classroom code. Please check with your teacher.')
+                } else {
+                  alert('Failed to join classroom.')
+                }
+              }} style={{ display: 'flex', gap: '12px' }}>
+                <input
+                  name="classCode"
+                  type="text"
+                  placeholder="e.g. LIF-ABCDE"
+                  style={{
+                    flexGrow: 1,
+                    padding: '10px 14px',
+                    borderRadius: '12px',
+                    border: '2px solid var(--border)',
+                    background: 'var(--bg)',
+                    color: 'var(--text)',
+                    fontWeight: 700,
+                    fontSize: '13px'
+                  }}
+                />
+                <button type="submit" className="btn-duo btn-duo-purple" style={{ padding: '10px 20px', fontSize: '13px' }}>
+                  Link Class
+                </button>
+              </form>
+            </div>
+          ) : (
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+              <div>
+                <div style={{ fontWeight: 800, fontSize: '15px' }}>Linked Class: {joinedClassroom.className}</div>
+                <div style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '4px' }}>
+                  Teacher: {joinedClassroom.teacherName} • Code: {joinedClassroom.classCode}
+                </div>
+              </div>
+              <button
+                onClick={() => {
+                  if (confirm('Leave this classroom? You will no longer receive assignments.')) {
+                    leaveClassroom(joinedClassroom.classCode)
+                  }
+                }}
+                className="btn-duo-outline"
+                style={{ padding: '8px 16px', fontSize: '12px', color: 'var(--wrong-dark)', borderColor: 'var(--wrong)' }}
+              >
+                Leave Class
+              </button>
+            </div>
+          )}
+        </div>
+
+        {/* Predicted Regents Score Widget */}
+        <div className="card-glass" style={{ background: 'linear-gradient(135deg, rgba(88,204,2,0.12), rgba(88,204,2,0.03))', border: '2px solid var(--brand)' }}>
+          <h2 className="card-title" style={{ color: 'var(--brand-dark)' }}>🎯 Predicted Regents Score</h2>
+          <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '16px' }}>
+            Based on your placement test performance, unit mastery, and study consistency.
+          </p>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+            <div style={{
+              width: '100px',
+              height: '100px',
+              borderRadius: '50%',
+              background: `conic-gradient(var(--brand) ${(predictedScore.score / 100) * 360}deg, var(--surface-3) 0deg)`,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexShrink: 0,
+              boxShadow: '0 4px 16px rgba(88,204,2,0.3)',
+              position: 'relative',
+            }}>
+              <div style={{ width: '74px', height: '74px', borderRadius: '50%', background: 'var(--surface)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                <div style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '22px', color: 'var(--brand-dark)', lineHeight: 1 }}>{predictedScore.score}</div>
+                <div style={{ fontSize: '9px', fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>/ 100</div>
+              </div>
+            </div>
+            <div style={{ flex: 1 }}>
+              <div style={{ fontFamily: 'var(--font-outfit)', fontWeight: 800, fontSize: '18px', color: predictedScore.score >= 65 ? 'var(--brand-dark)' : 'var(--wrong-dark)', marginBottom: '6px' }}>
+                {predictedScore.score >= 85 ? '🌟 Mastery Level' : predictedScore.score >= 65 ? '✅ On Track to Pass' : '⚠️ Needs Improvement'}
+              </div>
+              <div style={{ fontSize: '13px', color: 'var(--text-muted)', lineHeight: '18px' }}>
+                {predictedScore.score >= 65
+                  ? `You're predicted to score above the passing threshold. Keep studying to raise your score further!`
+                  : `Focus on your weak units and take more practice quizzes to raise your predicted score above 65.`}
+              </div>
+              <div style={{ display: 'flex', gap: '8px', marginTop: '12px', flexWrap: 'wrap' }}>
+                {predictedScore.factors?.map((f, i) => (
+                  <span key={i} style={{ fontSize: '11px', fontWeight: 700, background: 'var(--surface-2)', border: '1px solid var(--border)', borderRadius: '8px', padding: '3px 8px', color: 'var(--text-muted)' }}>
+                    {f}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+          {predictedScore.confidence && (
+            <div style={{ marginTop: '14px', fontSize: '12px', color: 'var(--text-dim)', borderTop: '1px solid var(--border)', paddingTop: '10px' }}>
+              ℹ️ Confidence: <strong>{predictedScore.confidence}</strong> · Based on {predictedScore.dataPoints || 0} data points.
+            </div>
+          )}
         </div>
 
         {/* Logout Card */}

@@ -1,13 +1,16 @@
 import React, { useMemo } from 'react'
 import { SUBJECT_META } from '@content/subjects'
+import { usePredictedScore } from '../hooks/usePredictedScore'
 
 export default function AnalyticsScreen({
   subject,
   history = [],
   subjectData,
+  uid,
 }) {
   const meta = SUBJECT_META[subject] || { name: 'Subject', icon: '🔬', color: 'var(--brand)' }
   const { TOPIC_ORDER = [] } = subjectData
+  const predictedScore = usePredictedScore(subject, subjectData?.UNITS || [], history)
 
   const stats = useMemo(() => {
     const relevant = history.filter(h => (h.subject ?? 'living-environment') === subject)
@@ -111,6 +114,31 @@ export default function AnalyticsScreen({
                 </div>
               )
             })}
+          </div>
+        </div>
+
+        {/* Predicted Score Banner */}
+        <div className="card-glass" style={{ background: 'linear-gradient(135deg, rgba(88,204,2,0.1), rgba(28,176,246,0.05))', border: '2px solid var(--brand)', display: 'flex', alignItems: 'center', gap: '20px', flexWrap: 'wrap' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+            <div style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '48px', color: predictedScore.score >= 65 ? 'var(--brand-dark)' : 'var(--wrong)', lineHeight: 1 }}>
+              {predictedScore.score}
+            </div>
+            <div style={{ fontSize: '11px', fontWeight: 700, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>/ 100 Predicted</div>
+          </div>
+          <div style={{ flex: 1, minWidth: '200px' }}>
+            <h2 className="card-title" style={{ margin: 0, marginBottom: '6px', fontSize: '18px' }}>🎯 AI Predicted Regents Score</h2>
+            <p style={{ fontSize: '13px', color: 'var(--text-muted)', lineHeight: '18px', margin: 0 }}>
+              {predictedScore.score >= 85
+                ? `🌟 Outstanding! You're on track for a mastery-level score. Keep up the consistency.`
+                : predictedScore.score >= 65
+                ? `✅ You're predicted to pass! Push your weak units past 85% to maximize your score.`
+                : `⚠️ Below passing threshold. Review your weakest topics and retake those quizzes to improve.`}
+            </p>
+            {predictedScore.confidence && (
+              <div style={{ fontSize: '11px', color: 'var(--text-dim)', marginTop: '8px' }}>
+                Confidence: <strong>{predictedScore.confidence}</strong>
+              </div>
+            )}
           </div>
         </div>
 

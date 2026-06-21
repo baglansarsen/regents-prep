@@ -39,6 +39,10 @@ import BattleScreen from './screens/BattleScreen'
 import BattleQuizScreen from './screens/BattleQuizScreen'
 import BattleResultsScreen from './screens/BattleResultsScreen'
 import TeacherDashboardScreen from './screens/TeacherDashboardScreen'
+import FocusScreen from './screens/FocusScreen'
+import FocusHistoryScreen from './screens/FocusHistoryScreen'
+import FlashcardScreen from './screens/FlashcardScreen'
+import PlacementTestScreen from './screens/PlacementTestScreen'
 import { db } from './firebase'
 import { collection, addDoc } from 'firebase/firestore'
 
@@ -47,9 +51,10 @@ function MainLayout() {
   const { isDark, mode, themeChosen, toggleTheme, pickTheme } = useTheme()
 
   // User States & hooks
+  const [subject, setSubjectRaw] = useState(() => localStorage.getItem('regents_subject') || 'living-environment')
   const { xp, earnXP, spendXP, level } = useXP(user?.uid)
   const { streak, studiedToday, weekDays, markStudied, hasFreeze, buyFreeze } = useDailyStreak(user?.uid)
-  const { mistakes, mistakeCount, saveMistakes, removeMistakes, clearMistakes } = useMistakes()
+  const { mistakes, mistakeCount, dueMistakes, dueCount, saveMistakes, removeMistakes, clearMistakes, getReviewSet } = useMistakes(subject)
   const { school, saveSchool, loading: schoolLoading } = useSchool(user)
   const { history, saveResult } = useProgress(user?.uid)
   const classroomHook = useClassroom(user?.uid, user)
@@ -94,9 +99,10 @@ function MainLayout() {
     updateQuestProgress
   } = usePet(user?.uid)
 
-  const [screen, setScreen] = useState('home') // 'home' | 'exams' | 'mistakes' | 'analytics' | 'shop' | 'profile' | 'petPicker' | 'quiz' | 'examActive' | 'results'
-  const [subject, setSubjectRaw] = useState(() => localStorage.getItem('regents_subject') || 'living-environment')
-  
+  const [screen, setScreen] = useState('home') // 'home' | 'focus' | 'focusHistory' | 'flashcards' | 'placement' | 'exams' | 'mistakes' | 'analytics' | 'shop' | 'profile' | 'petPicker' | 'quiz' | 'examActive' | 'results'
+  const [flashcardSubject, setFlashcardSubject] = useState(null) // subject key when navigating to flashcards
+  const [flashcardTopic, setFlashcardTopic] = useState(null) // topic key when navigating to flashcards
+
   // Quiz parameters
   const [quizQuestions, setQuizQuestions] = useState([])
   const [quizResults, setQuizResults] = useState(null)
@@ -341,6 +347,7 @@ function MainLayout() {
     
     // Add lesson metadata to questions
     const tagged = questions.map(q => ({ ...q, topic, lessonIndex: lessonIdx }))
+    setIsMistakeQuiz(false)
     setQuizQuestions(tagged)
     setScreen('quiz')
   }
@@ -354,13 +361,23 @@ function MainLayout() {
     }
     // Take 5 random questions
     const selected = [...pools].sort(() => 0.5 - Math.random()).slice(0, 5)
+    setIsMistakeQuiz(false)
     setQuizQuestions(selected)
     setScreen('quiz')
   }
 
-  // Mistakes quiz loader
+  // Start custom quiz (used by HomeScreen for stimulus/context practice and topic review nodes)
+  function handleStartCustomQuiz(questions, isMistake = false) {
+    if (!questions || questions.length === 0) return
+    setIsMistakeQuiz(isMistake)
+    setQuizQuestions(questions)
+    setScreen('quiz')
+  }
+
+  // Mistakes quiz loader (Smart Review prioritized due set)
   function handleStartMistakeQuiz() {
-    const selected = [...mistakes].slice(0, 5)
+    const selected = getReviewSet({ subject, limit: 10 })
+    if (selected.length === 0) return
     setQuizQuestions(selected)
     setIsMistakeQuiz(true)
     setScreen('quiz')
@@ -393,13 +410,13 @@ function MainLayout() {
       await saveMistakes(resultsData.wrongQuestions, subject)
     }
 
-    // 2b. If this was a mistakes review quiz, remove correctly answered questions from the review deck
-    if (isMistakeQuiz) {
-      const correctQuestions = quizQuestions.filter(
-        (q) => !resultsData.wrongQuestions?.some((wq) => (wq.id ?? wq.text) === (q.id ?? q.text))
-      )
-      if (correctQuestions.length > 0) {
-        await removeMistakes(correctQuestions)
+    // 2b. Resolve/advance correctly answered questions in Smart Review
+    const correctQuestions = quizQuestions.filter(
+      (q) => !resultsData.wrongQuestions?.some((wq) => (wq.id ?? wq.text) === (q.id ?? q.text))
+    )
+    if (correctQuestions.length > 0) {
+      await removeMistakes(correctQuestions)
+      if (isMistakeQuiz) {
         const current = Number(localStorage.getItem('@achievement_mistakes_resolved') || '0')
         localStorage.setItem('@achievement_mistakes_resolved', String(current + correctQuestions.length))
       }
@@ -703,8 +720,8 @@ function MainLayout() {
       {/* Left Navigation Sidebar */}
       <nav className="sidebar">
         <div className="sidebar-logo" onClick={() => setScreen('home')}>
-          <span style={{ fontSize: '32px' }}>📖</span>
-          <span className="sidebar-logo-text">Regentify</span>
+          <img src="/images/reggie-dino-icon.svg" className="sidebar-logo-img" alt="Regentify Logo" />
+          <span className="sidebar-logo-text">Regent<span className="logo-accent">ify</span></span>
         </div>
 
         <div className="sidebar-menu">
@@ -721,7 +738,11 @@ function MainLayout() {
           </button>
 
           <button className={`sidebar-btn ${screen === 'mistakes' ? 'active' : ''}`} onClick={() => setScreen('mistakes')}>
-            <span className="sidebar-icon">📕</span> Mistakes
+            <span className="sidebar-icon">🩹</span> Smart Review
+          </button>
+
+          <button className={`sidebar-btn ${screen === 'focus' || screen === 'focusHistory' ? 'active' : ''}`} onClick={() => setScreen('focus')}>
+            <span className="sidebar-icon">🎯</span> Focus Timer
           </button>
 
           <button className={`sidebar-btn ${screen === 'analytics' ? 'active' : ''}`} onClick={() => setScreen('analytics')}>
@@ -835,9 +856,15 @@ function MainLayout() {
               getPetMessage={getPetMessage}
               onStartLesson={handleStartLesson}
               onStartChallenge={handleStartChallenge}
+              onStartCustomQuiz={handleStartCustomQuiz}
               onStartPlacementTest={handleStartPlacementTest}
               mistakeCount={mistakeCount}
+              dueCount={dueCount}
+              dueMistakes={dueMistakes}
+              mistakes={mistakes}
               setScreen={setScreen}
+              setFlashcardSubject={setFlashcardSubject}
+              setFlashcardTopic={setFlashcardTopic}
               classroomHook={classroomHook}
               setActiveAssignmentId={setActiveAssignmentId}
             />
@@ -877,7 +904,7 @@ function MainLayout() {
 
           {screen === 'mistakes' && (
             <MistakesScreen
-              mistakes={mistakes}
+              mistakes={mistakes.filter(m => m.subject === subject)}
               clearMistakes={clearMistakes}
               onStartMistakeQuiz={handleStartMistakeQuiz}
               setScreen={setScreen}
@@ -889,6 +916,7 @@ function MainLayout() {
               subject={subject}
               history={history}
               subjectData={subjectData}
+              uid={user?.uid}
             />
           )}
 
@@ -936,6 +964,46 @@ function MainLayout() {
               setSoundEnabled={setSoundEnabled}
               teacherMode={teacherMode}
               setTeacherMode={setTeacherMode}
+              subject={subject}
+              subjectData={subjectData}
+              classroomHook={classroomHook}
+            />
+          )}
+
+
+          {screen === 'focus' && (
+            <FocusScreen
+              user={user}
+              subject={subject}
+              onShowHistory={() => setScreen('focusHistory')}
+            />
+          )}
+
+          {screen === 'focusHistory' && (
+            <FocusHistoryScreen
+              onBack={() => setScreen('focus')}
+            />
+          )}
+
+          {screen === 'flashcards' && (
+            <FlashcardScreen
+              user={user}
+              subject={flashcardSubject || subject}
+              topic={flashcardTopic}
+              onClose={() => {
+                setScreen('home')
+                setFlashcardTopic(null)
+                setFlashcardSubject(null)
+              }}
+            />
+          )}
+
+          {screen === 'placement' && (
+            <PlacementTestScreen
+              subject={subject}
+              subjectData={subjectData}
+              onComplete={() => setScreen('home')}
+              onSkip={() => setScreen('home')}
             />
           )}
 
