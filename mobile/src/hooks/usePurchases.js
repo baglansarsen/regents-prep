@@ -38,9 +38,8 @@ if (Platform.OS !== 'web') {
 // Connect side to be complete — Paid Apps Agreement signed, IAP products created,
 // and an In-App Purchase Key / shared secret configured in RevenueCat.
 const RC_API_KEY_IOS     = 'appl_FQIPzvELTjrEQzZcRZgrlTIXdET'
-// Android: still the RevenueCat Test Store key (no real charges, no Play products).
-// Replace with the production `goog_` key before any Android release.
-const RC_API_KEY_ANDROID = 'test_AfUgVDbhzDNlbAlRSxHlDCvaMoW'
+// Android: production Google Play SDK key.
+const RC_API_KEY_ANDROID = 'goog_CUpFPWbSCSOZKwxQgRtpLChdNVI'
 
 // Guard: skip configure() if key is still a placeholder.
 // With New Architecture (TurboModules), RevenueCat throws a native NSException
