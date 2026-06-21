@@ -229,12 +229,16 @@ export default function QuizScreen({ route, navigation }) {
         }).catch(() => {})
       }
 
-      // Persist wrong answers for "Practice Mistakes" mode — graded only, so the
-      // choice-less written question is never re-queued into a MC-only mode.
-      const wrongQs = graded.filter((r) => !r.correct).map((r) => r.question)
+      // Smart Review: queue genuinely-wrong answers AND hint-recovered ones.
+      // A hint-recovered answer counts as correct for the SCORE (so it doesn't
+      // read 0/N), but a hinted answer is shaky mastery — it still belongs in
+      // Smart Review so it resurfaces. (graded only, so the choice-less written
+      // question is never re-queued into a MC-only mode.)
+      const wrongQs = graded.filter((r) => !r.correct || r.recovered).map((r) => r.question)
       appendMistakes(wrongQs, subject)
-      // Self-clearing review queue: a correct answer advances/retires the item.
-      const correctQs = graded.filter((r) => r.correct).map((r) => r.question)
+      // Self-clearing review queue: a clean (un-hinted) correct answer advances/
+      // retires the item; hint-recovered answers are NOT resolved away.
+      const correctQs = graded.filter((r) => r.correct && !r.recovered).map((r) => r.question)
       resolveCorrect(correctQs, subject)
 
       saveResult({ topic, score, total: gradedTotal, correct, pct, subject, lessonIndex })
