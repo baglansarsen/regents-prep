@@ -1,10 +1,22 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
-import { Alert, Platform } from 'react-native'
+import { Alert, Platform, TurboModuleRegistry } from 'react-native'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { doc, setDoc } from 'firebase/firestore'
 import { db } from '../firebase'
 
-// Lazy-load RevenueCat — absent on web/Expo Go, present in native builds
+// Lazy-load RevenueCat — absent on web/Expo Go, present in native builds.
+//
+// CRITICAL (Android crash): probe the native TurboModule BEFORE touching the JS
+// API. In Expo Go the JS `require('react-native-purchases')` succeeds, so the old
+// code set `Purchases = RC.default` (non-null) even though the native module is
+// missing — then `Purchases.configure()` crashes natively (SIGABRT, which a JS
+// try/catch cannot catch) under the New Architecture, hard-crashing the app on
+// Android launch. Gating the load on native presence keeps Purchases `null` when
+// the native module is absent, so every `!Purchases` guard skips RevenueCat
+// cleanly. Same pattern as the AdMob guard in useRewardedAd.js.
+// (`TurboModuleRegistry` may be undefined on web — optional-chain the access.)
+const RC_NATIVE_PRESENT = Platform.OS !== 'web' && !!TurboModuleRegistry?.get?.('RNPurchases')
+
 let Purchases = null
 let LOG_LEVEL = null
 // Product category for one-time (consumable) products. getProducts() defaults to
@@ -12,7 +24,7 @@ let LOG_LEVEL = null
 // store returns nothing ("Donation product not found"). Fall back to the string
 // literal the native side expects if the enum isn't present.
 let NON_SUBSCRIPTION = 'NON_SUBSCRIPTION'
-if (Platform.OS !== 'web') {
+if (RC_NATIVE_PRESENT) {
   try {
     const RC = require('react-native-purchases')
     Purchases = RC.default
@@ -26,7 +38,7 @@ if (Platform.OS !== 'web') {
 // changes never require an app update.
 let RevenueCatUI = null
 let PAYWALL_RESULT = null
-if (Platform.OS !== 'web') {
+if (Platform.OS !== 'web' && !!TurboModuleRegistry?.get?.('RNPaywalls')) {
   try {
     const UI = require('react-native-purchases-ui')
     RevenueCatUI = UI.default
