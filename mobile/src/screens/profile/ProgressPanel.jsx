@@ -238,6 +238,23 @@ export default function ProgressPanel({ navigation }) {
         </View>
       </View>
 
+      {/* ── Achievements preview row (kept high — easy to reach) ── */}
+      <TouchableOpacity
+        style={[s.achievementRow, cardShadow(C.shadow)]}
+        onPress={() => navigation.navigate('Achievements')}
+        activeOpacity={0.85}
+      >
+        <Text style={{ fontSize: 26 }}>🏅</Text>
+        <View style={{ flex: 1, marginLeft: 12 }}>
+          <Text style={[T.h3, { color: C.text }]}>Achievements</Text>
+          <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>{earned.length} of {achTotal} earned</Text>
+        </View>
+        <Text style={s.achievementEmojis} numberOfLines={1}>
+          {earned.slice(-3).map((a) => a.emoji).join(' ')}
+        </Text>
+        <Text style={[T.body, { color: C.textMuted, marginLeft: 8 }]}>›</Text>
+      </TouchableOpacity>
+
       {/* ── Streak card ── */}
       <View style={[s.card, cardShadow(C.shadow)]}>
         <View style={s.cardHeader}>
@@ -285,22 +302,6 @@ export default function ProgressPanel({ navigation }) {
         )
       })}
 
-      {/* ── Achievements preview row ── */}
-      <TouchableOpacity
-        style={[s.achievementRow, cardShadow(C.shadow)]}
-        onPress={() => navigation.navigate('Achievements')}
-        activeOpacity={0.85}
-      >
-        <Text style={{ fontSize: 26 }}>🏅</Text>
-        <View style={{ flex: 1, marginLeft: 12 }}>
-          <Text style={[T.h3, { color: C.text }]}>Achievements</Text>
-          <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>{earned.length} of {achTotal} earned</Text>
-        </View>
-        <Text style={s.achievementEmojis} numberOfLines={1}>
-          {earned.slice(-3).map((a) => a.emoji).join(' ')}
-        </Text>
-        <Text style={[T.body, { color: C.textMuted, marginLeft: 8 }]}>›</Text>
-      </TouchableOpacity>
     </>
   )
 }
@@ -325,7 +326,7 @@ function makeStyles(C) {
     barBg:      { height: 8, backgroundColor: C.surface2, borderRadius: 4, overflow: 'hidden' },
     barFill:    { height: 8, borderRadius: 4 },
 
-    achievementRow:   { flexDirection: 'row', alignItems: 'center', marginHorizontal: 16, marginTop: 4, marginBottom: 4, backgroundColor: C.surface, borderRadius: 16, padding: 16, borderWidth: 1, borderColor: C.border },
+    achievementRow:   { flexDirection: 'row', alignItems: 'center', marginHorizontal: 16, marginBottom: 12, backgroundColor: C.surface, borderRadius: 16, padding: 16, borderWidth: 1, borderColor: C.border },
     achievementEmojis:{ fontSize: 18 },
   })
 }
