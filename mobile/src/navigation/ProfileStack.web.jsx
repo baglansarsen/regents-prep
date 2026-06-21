@@ -4,13 +4,15 @@ import ProfileScreen          from '../screens/ProfileScreen'
 import ShopScreen             from '../screens/ShopScreen'
 import SupportScreen          from '../screens/SupportScreen'
 import SchoolOnboardingScreen from '../screens/SchoolOnboardingScreen'
+import AchievementsScreen     from '../screens/AchievementsScreen'
 
 const Stack = createStackNavigator()
 
 export default function ProfileStack() {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
-      <Stack.Screen name="Profile"  component={ProfileScreen} />
+      <Stack.Screen name="Profile"      component={ProfileScreen} />
+      <Stack.Screen name="Achievements" component={AchievementsScreen} />
       <Stack.Screen name="Shop"     component={ShopScreen} />
       <Stack.Screen name="Support"  component={SupportScreen} />
       <Stack.Screen name="SchoolChange">

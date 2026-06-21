@@ -6,7 +6,6 @@ import { useTheme } from '../context/ThemeContext'
 
 import StudyStack    from './StudyStack'
 import ExamsStack    from './ExamsStack'
-import ProgressStack from './ProgressStack'
 import FriendsStack  from './FriendsStack'
 import ProfileStack  from './ProfileStack'
 import GlobalTopBar  from '../components/GlobalTopBar'
@@ -58,14 +57,6 @@ export default function TabNavigator() {
           options={{
             tabBarLabel: 'Exams',
             tabBarIcon: ({ focused }) => <TabIcon emoji="📝" focused={focused} />,
-          }}
-        />
-        <Tab.Screen
-          name="ProgressTab"
-          component={ProgressStack}
-          options={{
-            tabBarLabel: 'Progress',
-            tabBarIcon: ({ focused }) => <TabIcon emoji="📊" focused={focused} />,
           }}
         />
         <Tab.Screen
