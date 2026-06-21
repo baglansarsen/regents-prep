@@ -499,15 +499,15 @@ export default function ExamPickerScreen({ navigation }) {
     if (!pool.length) { Alert.alert('No written questions', 'This subject has no constructed-response questions yet.'); return }
     runPractice('Quiz', { questionSet: shuffle(pool).slice(0, 8), topic: null, subject })
   }
-  function practiceMistakes() {
+  function smartStudy() {
     if (!mistakeCount) {
-      Alert.alert('No mistakes yet! 🎉', 'Complete some quizzes or exams first — wrong answers will appear here.')
+      Alert.alert('Nothing to review yet! 🎉', 'Complete some quizzes or exams first — Smart Study builds a personalized review from the questions you miss.')
       return
     }
     // Prioritized review set (most-missed / overdue / weak-topic first).
     const pool = getReviewSet({ subject, limit: 20 })
     if (!pool.length) {
-      Alert.alert('No mistakes yet! 🎉', 'Complete some quizzes or exams first — wrong answers will appear here.')
+      Alert.alert('All caught up! 🎉', 'No questions are due for review right now. Keep studying and Smart Study will resurface the ones you need.')
       return
     }
     runPractice('Quiz', { questionSet: pool, topic: null, subject, isMistakesPractice: true })
@@ -529,9 +529,9 @@ export default function ExamPickerScreen({ navigation }) {
           <Text style={s.practiceIcon}>🃏</Text>
           <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>Flash{'\n'}Cards</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={[s.practiceBtn, duoBtn('#B45309', '#92400E')]} onPress={practiceMistakes} activeOpacity={0.85}>
-          <Text style={s.practiceIcon}>📕</Text>
-          <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>Practice{'\n'}Mistakes</Text>
+        <TouchableOpacity style={[s.practiceBtn, duoBtn('#B45309', '#92400E')]} onPress={smartStudy} activeOpacity={0.85}>
+          <Text style={s.practiceIcon}>🧠</Text>
+          <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>Smart{'\n'}Study</Text>
         </TouchableOpacity>
         {sd.getWritten && (
           <TouchableOpacity style={[s.practiceBtn, duoBtn('#0891b2', '#0e7490')]} onPress={practiceWritten} activeOpacity={0.85}>
