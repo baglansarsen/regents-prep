@@ -1,6 +1,7 @@
 import { initializeApp } from 'firebase/app'
 import { getAuth, GoogleAuthProvider } from 'firebase/auth'
 import { getFirestore } from 'firebase/firestore'
+import { getFunctions } from 'firebase/functions'
 
 const firebaseConfig = {
   apiKey:            "AIzaSyBZrJZ1MBnLAefK2gmc9B8YY5IS_AGBAUI",
@@ -19,3 +20,5 @@ export const googleProvider = new GoogleAuthProvider()
 // Use default Firestore (no IndexedDB persistence) to avoid SDK version
 // mismatch crashes caused by stale cached data from a newer SDK version.
 export const db = getFirestore(app)
+export const functions = getFunctions(app)
+

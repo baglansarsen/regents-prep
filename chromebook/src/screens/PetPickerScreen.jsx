@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { PETS } from '@content/petConfig'
+import { Reggie } from '../components/brand/Reggie'
 
 export default function PetPickerScreen({
   initializePet,
@@ -53,37 +54,41 @@ export default function PetPickerScreen({
         animation: 'fade-in 0.3s ease-out'
       }}>
         
-        <span style={{ fontSize: '72px', display: 'inline-block', animation: 'float 3s ease infinite' }}>🥚</span>
+        <div style={{ display: 'inline-block', animation: 'float 3s ease infinite', marginBottom: '12px' }}>
+          <Reggie pose="happy" size={160} />
+        </div>
         <h1 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '28px', marginTop: '12px' }}>
           Hatch Your Study Buddy!
         </h1>
         <p style={{ color: 'var(--text-muted)', fontSize: '15px', marginTop: '4px', maxWidth: '460px', margin: '6px auto 28px' }}>
-          Hatch an egg to study alongside! Your buddy grows, speaks, digests food, and helps you succeed.
+          Meet Reggie, your encouraging study companion! Your buddy grows, speaks, digests food, and helps you succeed.
         </p>
 
         {/* Eggs list grid */}
-        <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '28px' }}>
-          {PETS.map((p, idx) => (
-            <button
-              key={p.id}
-              onClick={() => setSelectedIdx(idx)}
-              className="btn-duo-outline"
-              style={{
-                width: '64px',
-                height: '64px',
-                padding: 0,
-                fontSize: '28px',
-                borderColor: selectedIdx === idx ? 'var(--brand)' : 'var(--border)',
-                backgroundColor: selectedIdx === idx ? 'var(--brand-bg)' : 'var(--surface)',
-                boxShadow: selectedIdx === idx ? '0 0 12px var(--shadow-glow)' : 'none',
-                cursor: 'pointer'
-              }}
-              title={p.name}
-            >
-              {p.emoji}
-            </button>
-          ))}
-        </div>
+        {PETS.length > 1 && (
+          <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '28px' }}>
+            {PETS.map((p, idx) => (
+              <button
+                key={p.id}
+                onClick={() => setSelectedIdx(idx)}
+                className="btn-duo-outline"
+                style={{
+                  width: '64px',
+                  height: '64px',
+                  padding: 0,
+                  fontSize: '28px',
+                  borderColor: selectedIdx === idx ? 'var(--brand)' : 'var(--border)',
+                  backgroundColor: selectedIdx === idx ? 'var(--brand-bg)' : 'var(--surface)',
+                  boxShadow: selectedIdx === idx ? '0 0 12px var(--shadow-glow)' : 'none',
+                  cursor: 'pointer'
+                }}
+                title={p.name}
+              >
+                {p.emoji}
+              </button>
+            ))}
+          </div>
+        )}
 
         {/* Selected Egg Stats */}
         <div style={{

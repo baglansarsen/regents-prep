@@ -88,10 +88,10 @@ export function useFriends(uid, user) {
     if (!uid) {
       // Guest local mock peers
       setSchoolPeers([
-        { uid: 'peer1', displayName: 'Elena Rostova', xp: 1980, petType: 'axolotl', school: schoolName },
-        { uid: 'peer2', displayName: 'Raj Patel', xp: 1720, petType: 'capybara', school: schoolName },
-        { uid: 'peer3', displayName: 'Chloe Zhao', xp: 1450, petType: 'voidCat', school: schoolName },
-        { uid: 'peer4', displayName: 'Sofia Bianchi', xp: 950, petType: 'bunny', school: schoolName },
+        { uid: 'peer1', displayName: 'Elena Rostova', xp: 1980, petType: 'reggie', school: schoolName },
+        { uid: 'peer2', displayName: 'Raj Patel', xp: 1720, petType: 'reggie', school: schoolName },
+        { uid: 'peer3', displayName: 'Chloe Zhao', xp: 1450, petType: 'reggie', school: schoolName },
+        { uid: 'peer4', displayName: 'Sofia Bianchi', xp: 950, petType: 'reggie', school: schoolName },
       ])
       return
     }
@@ -104,17 +104,17 @@ export function useFriends(uid, user) {
         )
       )
       const peers = snap.docs
-        .map((d) => ({ uid: d.id, displayName: d.data().displayName || 'Classmate', xp: d.data().xp || 0, petType: d.data().petType || 'fox', school: d.data().school }))
+        .map((d) => ({ uid: d.id, displayName: d.data().displayName || 'Classmate', xp: d.data().xp || 0, petType: d.data().petType || 'reggie', school: d.data().school }))
         .filter((p) => p.uid !== uid) // exclude self
       setSchoolPeers(peers)
     } catch (e) {
       console.warn('[useFriends] Failed to load school peers:', e)
       // offline/no-data mock fallback
       setSchoolPeers([
-        { uid: 'peer1', displayName: 'Elena Rostova', xp: 1980, petType: 'axolotl', school: schoolName },
-        { uid: 'peer2', displayName: 'Raj Patel', xp: 1720, petType: 'capybara', school: schoolName },
-        { uid: 'peer3', displayName: 'Chloe Zhao', xp: 1450, petType: 'voidCat', school: schoolName },
-        { uid: 'peer4', displayName: 'Sofia Bianchi', xp: 950, petType: 'bunny', school: schoolName },
+        { uid: 'peer1', displayName: 'Elena Rostova', xp: 1980, petType: 'reggie', school: schoolName },
+        { uid: 'peer2', displayName: 'Raj Patel', xp: 1720, petType: 'reggie', school: schoolName },
+        { uid: 'peer3', displayName: 'Chloe Zhao', xp: 1450, petType: 'reggie', school: schoolName },
+        { uid: 'peer4', displayName: 'Sofia Bianchi', xp: 950, petType: 'reggie', school: schoolName },
       ])
     }
   }, [uid])

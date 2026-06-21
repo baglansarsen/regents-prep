@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react'
 import ReportQuestionModal from '../components/ReportQuestionModal'
 import DynamicDiagram from '../components/DynamicDiagram'
+import { Reggie } from '../components/brand/Reggie'
+import { useTutor } from '../hooks/useTutor'
 
 const TIMER_SECONDS = 30
 const BASE_POINTS = 10
@@ -33,6 +35,11 @@ export default function QuizScreen({
   const [earnedXP, setEarnedXP] = useState(0)
   const [showExplanationModal, setShowExplanationModal] = useState(false)
   const [showReportModal, setShowReportModal] = useState(false)
+  const [showTutorDrawer, setShowTutorDrawer] = useState(false)
+  const [tutorLevel, setTutorLevel] = useState(1) // 1 = nudge, 2 = method, 3 = full explanation
+  
+  const { loading: tutorLoading, data: tutorData, error: tutorError, explain: tutorExplain, reset: tutorReset } = useTutor()
+
   
   const currentQuestion = questions[index] || { text: 'Loading Question...', choices: [], options: [], correct: 0 }
   const questionChoices = currentQuestion.choices || currentQuestion.options || []
@@ -94,6 +101,9 @@ export default function QuizScreen({
 
   // Proceed to next question or end
   const handleNext = useCallback(() => {
+    tutorReset()
+    setShowTutorDrawer(false)
+    setTutorLevel(1)
     if (isLast) {
       // Calculate results and fire callback
       const accuracy = Math.round(((total - wrongAnswers.length) / total) * 100)
@@ -113,7 +123,135 @@ export default function QuizScreen({
       setShowExplanationModal(false)
       setShowReportModal(false)
     }
-  }, [isLast, score, total, wrongAnswers, bestStreak, onFinish, setShowExplanationModal, setShowReportModal])
+  }, [isLast, score, total, wrongAnswers, bestStreak, onFinish, setShowExplanationModal, setShowReportModal, tutorReset])
+
+  // Open AI Tutor and call the explainMistake Cloud Function
+  const handleOpenTutor = useCallback(async () => {
+    setShowTutorDrawer(true)
+    if (!tutorData) {
+      // Kick off the Cloud Function call — useTutor caches by (question, wrongIdx)
+      const wrongIdx = selected
+      if (wrongIdx !== null && currentQuestion) {
+        await tutorExplain(currentQuestion, wrongIdx)
+      }
+    }
+  }, [tutorData, tutorExplain, selected, currentQuestion])
+
+  // Render the Socratic AI Tutor right-side drawer
+  function renderTutorDrawer() {
+    const isWrongAnswer = selected !== null && !isSelectedCorrect
+
+    return (
+      <div className={`tutor-drawer-backdrop ${showTutorDrawer ? 'open' : ''}`}
+        onClick={(e) => { if (e.target === e.currentTarget) setShowTutorDrawer(false) }}
+      >
+        <div className="tutor-drawer">
+          <div className="tutor-drawer-header">
+            <h2 className="tutor-drawer-title">🤔 Coach Reggie</h2>
+            <button className="tutor-drawer-close" onClick={() => setShowTutorDrawer(false)}>✕</button>
+          </div>
+          <div className="tutor-drawer-body">
+            {/* Mascot + intro bubble */}
+            <div className="tutor-mascot-row">
+              <Reggie size={64} pose="think" isAvatar />
+              <div className="tutor-speech-bubble">
+                <div style={{ fontSize: '13px', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '6px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+                  Socratic Coaching
+                </div>
+                <div style={{ fontSize: '14px', lineHeight: '20px', color: 'var(--text)' }}>
+                  {tutorLoading
+                    ? 'Thinking…'
+                    : tutorError
+                    ? 'Hmm, couldn\'t load that — try again in a moment.'
+                    : tutorData
+                    ? 'I\'ll guide you step-by-step. Click to reveal more detail!'
+                    : 'I\'ll help you understand why you missed this one.'}
+                </div>
+              </div>
+            </div>
+
+            {/* Loading spinner */}
+            {tutorLoading && (
+              <div style={{ textAlign: 'center', padding: '20px', color: 'var(--text-muted)', fontSize: '14px' }}>
+                <div style={{ fontSize: '32px', marginBottom: '8px' }}>🦕</div>
+                Reggie is thinking…
+              </div>
+            )}
+
+            {/* Error state */}
+            {tutorError && !tutorLoading && (
+              <div style={{ background: 'var(--wrong-bg)', border: '1.5px solid var(--wrong)', borderRadius: '12px', padding: '16px', fontSize: '13px', color: 'var(--wrong-dark)' }}>
+                ⚠️ Couldn't load explanation. Check your connection and try again.
+                <button
+                  onClick={() => tutorExplain(currentQuestion, selected)}
+                  style={{ display: 'block', marginTop: '10px', background: 'var(--wrong)', color: '#fff', border: 'none', borderRadius: '8px', padding: '8px 14px', cursor: 'pointer', fontWeight: 700, fontSize: '13px' }}
+                >
+                  Try Again
+                </button>
+              </div>
+            )}
+
+            {/* Socratic steps — reveal one level at a time */}
+            {tutorData && !tutorLoading && (
+              <>
+                {/* Level 1: Nudge */}
+                <div className="tutor-step-card" style={{ borderColor: 'var(--brand)', background: 'var(--brand-bg)' }}>
+                  <div className="tutor-step-header" style={{ color: 'var(--brand-dark)' }}>
+                    <span>💡</span> Step 1 — Nudge
+                  </div>
+                  <div className="tutor-step-content">{tutorData.nudge}</div>
+                </div>
+
+                {/* Level 2: Method (revealed on click) */}
+                {tutorLevel >= 2 ? (
+                  <div className="tutor-step-card" style={{ borderColor: 'var(--warn)', background: 'var(--warn-bg)' }}>
+                    <div className="tutor-step-header" style={{ color: 'var(--warn-dark)' }}>
+                      <span>🧭</span> Step 2 — Strategy
+                    </div>
+                    <div className="tutor-step-content">{tutorData.method}</div>
+                  </div>
+                ) : (
+                  <button
+                    onClick={() => setTutorLevel(2)}
+                    style={{ padding: '12px', borderRadius: '12px', border: '1.5px dashed var(--warn)', background: 'transparent', color: 'var(--warn-dark)', fontWeight: 800, fontSize: '13px', cursor: 'pointer', width: '100%' }}
+                  >
+                    🧭 Reveal Strategy Hint →
+                  </button>
+                )}
+
+                {/* Level 3: Full Explanation (revealed on click) */}
+                {tutorLevel >= 3 ? (
+                  <div className="tutor-step-card" style={{ borderColor: 'var(--purple)', background: 'rgba(139,92,246,0.08)' }}>
+                    <div className="tutor-step-header" style={{ color: 'var(--purple)' }}>
+                      <span>🔍</span> Step 3 — Full Coaching
+                    </div>
+                    <div className="tutor-step-content">{tutorData.explanation}</div>
+                  </div>
+                ) : tutorLevel >= 2 ? (
+                  <button
+                    onClick={() => setTutorLevel(3)}
+                    style={{ padding: '12px', borderRadius: '12px', border: '1.5px dashed var(--purple)', background: 'transparent', color: 'var(--purple)', fontWeight: 800, fontSize: '13px', cursor: 'pointer', width: '100%' }}
+                  >
+                    🔍 Reveal Full Coaching →
+                  </button>
+                ) : null}
+              </>
+            )}
+
+            {/* Wrong answer context */}
+            {isWrongAnswer && (
+              <div style={{ background: 'var(--wrong-bg)', border: '1px solid var(--wrong)', borderRadius: '12px', padding: '14px', fontSize: '13px' }}>
+                <div style={{ fontWeight: 700, color: 'var(--wrong-dark)', marginBottom: '4px' }}>❌ Your answer:</div>
+                <div style={{ color: 'var(--text)' }}>{questionChoices[selected]}</div>
+                <div style={{ fontWeight: 700, color: 'var(--brand-dark)', marginTop: '10px', marginBottom: '4px' }}>✅ Correct answer:</div>
+                <div style={{ color: 'var(--text)' }}>{questionChoices[normalizedCorrect]}</div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    )
+  }
 
   // Audio synthesize beep
   function playBeep(freq, type, duration) {
@@ -131,6 +269,7 @@ export default function QuizScreen({
       osc.stop(ctx.currentTime + duration)
     } catch {}
   }
+
 
   // Keyboard Hotkeys
   useEffect(() => {
@@ -506,6 +645,31 @@ export default function QuizScreen({
                     >
                       🚩 Report
                     </button>
+                    {/* AI Tutor button — only on wrong answers */}
+                    {!isSelectedCorrect && (
+                      <button
+                        onClick={handleOpenTutor}
+                        className="btn-duo-outline"
+                        style={{
+                          padding: '6px 14px',
+                          fontSize: '13px',
+                          fontWeight: 900,
+                          borderRadius: '16px',
+                          borderWidth: '1.5px',
+                          borderColor: 'var(--brand)',
+                          color: 'var(--brand-dark)',
+                          background: 'var(--brand-bg)',
+                          cursor: 'pointer',
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          gap: '4px',
+                          textTransform: 'uppercase',
+                          letterSpacing: '0.5px'
+                        }}
+                      >
+                        🤔 Ask AI Tutor
+                      </button>
+                    )}
                   </div>
                   
                   {/* Detailed explanation text */}
@@ -538,18 +702,11 @@ export default function QuizScreen({
       {/* Pet companion reactions bubble */}
       {pet && pet.chosen && (
         <div className={`pet-quiz-companion ${selected === null ? 'thinking' : isSelectedCorrect ? 'correct' : 'wrong'}`}>
-          <div className="pet-quiz-sprite-container">
-            <span style={{ fontSize: '48px' }}>
-              {pet.petType === 'axolotl' ? '🦎' : pet.petType === 'fox' ? '🦊' : pet.petType === 'capybara' ? '🦫' : pet.petType === 'bear' ? '🐻' : pet.petType === 'bunny' ? '🐰' : '🐱'}
-            </span>
-            {/* Accessories layers */}
-            {pet.accessories?.includes('graduationCap') && <span className="pet-accessory" style={{ position: 'absolute', top: '-12px', left: '16px', fontSize: '24px' }}>🎓</span>}
-            {pet.accessories?.includes('wizardHat') && <span className="pet-accessory" style={{ position: 'absolute', top: '-14px', left: '16px', fontSize: '24px' }}>🧙</span>}
-            {pet.accessories?.includes('cowboyHat') && <span className="pet-accessory" style={{ position: 'absolute', top: '-14px', left: '16px', fontSize: '24px' }}>🤠</span>}
-            {pet.accessories?.includes('crown') && <span className="pet-accessory" style={{ position: 'absolute', top: '-14px', left: '16px', fontSize: '24px' }}>👑</span>}
-            {pet.accessories?.includes('sunglasses') && <span style={{ position: 'absolute', top: '16px', left: '16px', fontSize: '18px' }}>🕶️</span>}
-            {pet.accessories?.includes('tinyBackpack') && <span style={{ position: 'absolute', bottom: '0px', right: '0px', fontSize: '18px' }}>🎒</span>}
-            {pet.accessories?.includes('glowAura') && <span style={{ position: 'absolute', inset: 0, fontSize: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', animation: 'pulse 1.5s infinite', opacity: 0.3 }}>✨</span>}
+          <div className="pet-quiz-sprite-container" style={{ width: '48px', height: '48px', overflow: 'hidden' }}>
+            {(() => {
+              const companionPose = selected === null ? 'think' : isSelectedCorrect ? 'cheer' : 'sleepy';
+              return <Reggie isAvatar={true} size={48} pose={companionPose} accessories={pet.accessories || []} />;
+            })()}
           </div>
           <div className="pet-quiz-bubble-speech">
             {selected === null ? '🧐 Focus, buddy!' : isSelectedCorrect ? '🎉 Correct! +XP' : '🥺 You got this!'}
@@ -663,6 +820,9 @@ export default function QuizScreen({
         question={currentQuestion}
         subject={subject}
       />
+
+      {/* AI Tutor Socratic Drawer — always mounted, toggled via .open class */}
+      {renderTutorDrawer()}
     </div>
   )
 }

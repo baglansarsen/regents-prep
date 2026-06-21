@@ -77,6 +77,18 @@ export function usePet(uid) {
         return
       }
 
+      if (loaded?.chosen && loaded?.petType !== 'reggie') {
+        loaded = {
+          ...loaded,
+          petType: 'reggie',
+          name: loaded.name && loaded.name !== 'Mochi' && loaded.name !== 'Nova' && loaded.name !== 'Biscuit' && loaded.name !== 'Shadow' && loaded.name !== 'Bruno' && loaded.name !== 'Cleo' && loaded.name !== 'Pebble' ? loaded.name : 'Reggie',
+        }
+        localStorage.setItem(AS_KEY_PET, JSON.stringify(loaded))
+        if (uid) {
+          setDoc(doc(db, 'users', uid, 'meta', 'pet'), loaded, { merge: true }).catch(() => {})
+        }
+      }
+
       const now         = Date.now()
       const last        = new Date(loaded.lastCheckedAt ?? now).getTime()
       const elapsedHr   = (now - last) / 3_600_000

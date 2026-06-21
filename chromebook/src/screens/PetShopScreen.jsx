@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { FOOD_ITEMS, HAPPINESS_ITEMS, COSMETICS } from '@content/petConfig'
+import { Reggie } from '../components/brand/Reggie'
 
 export default function PetShopScreen({
   xp,
@@ -131,23 +132,12 @@ export default function PetShopScreen({
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              fontSize: '80px',
               position: 'relative',
               margin: '0 auto 12px',
-              boxShadow: 'inset 0 4px 12px rgba(0,0,0,0.4)'
+              boxShadow: 'inset 0 4px 12px rgba(0,0,0,0.4)',
+              overflow: 'hidden'
             }}>
-              <span className="pet-sprite" style={{ fontSize: '80px' }}>
-                {pet.petType === 'axolotl' ? '🦎' : pet.petType === 'fox' ? '🦊' : pet.petType === 'capybara' ? '🦫' : pet.petType === 'bear' ? '🐻' : pet.petType === 'bunny' ? '🐰' : '🐱'}
-              </span>
-
-              {/* Layered cosmetics */}
-              {activeAccessories.includes('graduationCap') && <span style={{ position: 'absolute', top: '12px', fontSize: '28px' }}>🎓</span>}
-              {activeAccessories.includes('wizardHat') && <span style={{ position: 'absolute', top: '12px', fontSize: '28px' }}>🧙</span>}
-              {activeAccessories.includes('cowboyHat') && <span style={{ position: 'absolute', top: '12px', fontSize: '28px' }}>🤠</span>}
-              {activeAccessories.includes('crown') && <span style={{ position: 'absolute', top: '12px', fontSize: '28px' }}>👑</span>}
-              {activeAccessories.includes('sunglasses') && <span style={{ position: 'absolute', top: '38px', fontSize: '28px' }}>🕶️</span>}
-              {activeAccessories.includes('tinyBackpack') && <span style={{ position: 'absolute', bottom: '10px', right: '10px', fontSize: '28px' }}>🎒</span>}
-              {activeAccessories.includes('glowAura') && <span style={{ position: 'absolute', inset: 0, fontSize: '110px', display: 'flex', alignItems: 'center', justifyContent: 'center', animation: 'pulse 1.5s infinite', opacity: 0.3 }}>✨</span>}
+              <Reggie size={100} accessories={activeAccessories} />
             </div>
 
             <p style={{ fontSize: '13px', color: 'var(--text-muted)', maxWidth: '400px', margin: '0 auto', lineHeight: '18px' }}>
@@ -359,42 +349,7 @@ export default function PetShopScreen({
           </div>
         </div>
 
-        {/* Section: Switch Buddy */}
-        <div>
-          <h2 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 800, fontSize: '20px', marginBottom: '12px' }}>🦎 Choose Another Egg (Hatch New Buddy)</h2>
-          <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '16px' }}>
-            Want to study with a different personality? Switch your study buddy below (transfers current evolution stage and name).
-          </p>
-          <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
-            {['axolotl', 'fox', 'capybara', 'bear', 'bunny', 'voidCat'].map((buddy) => {
-              const emoji = buddy === 'axolotl' ? '🦎' : buddy === 'fox' ? '🦊' : buddy === 'capybara' ? '🦫' : buddy === 'bear' ? '🐻' : buddy === 'bunny' ? '🐰' : '🐱'
-              const isActive = pet.petType === buddy
-              return (
-                <button
-                  key={buddy}
-                  className={`btn-duo-outline ${isActive ? 'active' : ''}`}
-                  style={{
-                    padding: '12px 18px',
-                    borderColor: isActive ? 'var(--brand)' : 'var(--border)',
-                    background: isActive ? 'var(--brand-bg)' : 'var(--surface)',
-                    color: isActive ? 'var(--brand-dark)' : 'var(--text)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '8px'
-                  }}
-                  disabled={isActive}
-                  onClick={() => {
-                    if (confirm(`Switch your buddy egg to ${buddy}?`)) {
-                      switchBuddy(buddy)
-                    }
-                  }}
-                >
-                  <span style={{ fontSize: '20px' }}>{emoji}</span> {buddy}
-                </button>
-              )
-            })}
-          </div>
-        </div>
+
 
       </div>
     </div>

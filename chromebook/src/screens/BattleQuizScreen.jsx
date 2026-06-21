@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react'
 import ReportQuestionModal from '../components/ReportQuestionModal'
 import DynamicDiagram from '../components/DynamicDiagram'
+import { Reggie } from '../components/brand/Reggie'
 
 export default function BattleQuizScreen({
   questions = [],
@@ -643,18 +644,11 @@ export default function BattleQuizScreen({
       {/* Pet companion reactions bubble */}
       {pet && pet.chosen && (
         <div className={`pet-quiz-companion ${selected === null ? 'thinking' : isSelectedCorrect ? 'correct' : 'wrong'}`}>
-          <div className="pet-quiz-sprite-container">
-            <span style={{ fontSize: '48px' }}>
-              {pet.petType === 'axolotl' ? '🦎' : pet.petType === 'fox' ? '🦊' : pet.petType === 'capybara' ? '🦫' : pet.petType === 'bear' ? '🐻' : pet.petType === 'bunny' ? '🐰' : '🐱'}
-            </span>
-            {/* Accessories layers */}
-            {pet.accessories?.includes('graduationCap') && <span className="pet-accessory" style={{ position: 'absolute', top: '-12px', left: '16px', fontSize: '24px' }}>🎓</span>}
-            {pet.accessories?.includes('wizardHat') && <span className="pet-accessory" style={{ position: 'absolute', top: '-14px', left: '16px', fontSize: '24px' }}>🧙</span>}
-            {pet.accessories?.includes('cowboyHat') && <span className="pet-accessory" style={{ position: 'absolute', top: '-14px', left: '16px', fontSize: '24px' }}>🤠</span>}
-            {pet.accessories?.includes('crown') && <span className="pet-accessory" style={{ position: 'absolute', top: '-14px', left: '16px', fontSize: '24px' }}>👑</span>}
-            {pet.accessories?.includes('sunglasses') && <span style={{ position: 'absolute', top: '16px', left: '16px', fontSize: '18px' }}>🕶️</span>}
-            {pet.accessories?.includes('tinyBackpack') && <span style={{ position: 'absolute', bottom: '0px', right: '0px', fontSize: '18px' }}>🎒</span>}
-            {pet.accessories?.includes('glowAura') && <span style={{ position: 'absolute', inset: 0, fontSize: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', animation: 'pulse 1.5s infinite', opacity: 0.3 }}>✨</span>}
+          <div className="pet-quiz-sprite-container" style={{ width: '48px', height: '48px', overflow: 'hidden' }}>
+            {(() => {
+              const companionPose = selected === null ? 'think' : isSelectedCorrect ? 'cheer' : 'sleepy';
+              return <Reggie isAvatar={true} size={48} pose={companionPose} accessories={pet.accessories || []} />;
+            })()}
           </div>
           <div className="pet-quiz-bubble-speech">
             {selected === null ? '⚔️ Defeat them!' : isSelectedCorrect ? '🎉 Boom! Correct!' : '🥺 You got this!'}

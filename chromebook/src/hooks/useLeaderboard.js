@@ -22,12 +22,12 @@ export function useLeaderboard(uid) {
       console.warn('[useLeaderboard] Failed to load leaderboard:', e)
       // Provide mock items for rich visual mockups when offline or Firestore has no data
       setLeaderboard([
-        { uid: '1', displayName: 'Alex Mercer', xp: 2450, petType: 'fox', school: 'Brooklyn Technical HS' },
-        { uid: '2', displayName: 'Elena Rostova', xp: 1980, petType: 'axolotl', school: 'Stuyvesant HS' },
-        { uid: '3', displayName: 'Raj Patel', xp: 1720, petType: 'capybara', school: 'Bronx Science' },
-        { uid: '4', displayName: 'Chloe Zhao', xp: 1450, petType: 'voidCat', school: 'Townsend Harris HS' },
-        { uid: uid ?? 'me', displayName: 'You (Studying)', xp: 1250, petType: 'bear', school: 'Brooklyn Technical HS' },
-        { uid: '5', displayName: 'Sofia Bianchi', xp: 950, petType: 'bunny', school: 'Staten Island Tech' },
+        { uid: '1', displayName: 'Alex Mercer', xp: 2450, petType: 'reggie', school: 'Brooklyn Technical HS' },
+        { uid: '2', displayName: 'Elena Rostova', xp: 1980, petType: 'reggie', school: 'Stuyvesant HS' },
+        { uid: '3', displayName: 'Raj Patel', xp: 1720, petType: 'reggie', school: 'Bronx Science' },
+        { uid: '4', displayName: 'Chloe Zhao', xp: 1450, petType: 'reggie', school: 'Townsend Harris HS' },
+        { uid: uid ?? 'me', displayName: 'You (Studying)', xp: 1250, petType: 'reggie', school: 'Brooklyn Technical HS' },
+        { uid: '5', displayName: 'Sofia Bianchi', xp: 950, petType: 'reggie', school: 'Staten Island Tech' },
       ])
     }
     setLoading(false)

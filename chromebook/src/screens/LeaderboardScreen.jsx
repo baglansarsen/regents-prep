@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react'
 import { collection, query, where, getDocs, doc, getDoc } from 'firebase/firestore'
 import { db } from '../firebase'
+import { Reggie } from '../components/brand/Reggie'
+import { useLeague, TIER_META, msUntilReset, formatCountdown } from '../hooks/useLeague'
 
 export default function LeaderboardScreen({
   user,
@@ -11,10 +13,33 @@ export default function LeaderboardScreen({
   friends = [],
   setScreen,
 }) {
-  const [tab, setTab] = useState('school') // 'school' | 'friends'
+  const [tab, setTab] = useState('school') // 'school' | 'friends' | 'league'
   const [schoolList, setSchoolList] = useState([])
   const [friendsList, setFriendsList] = useState([])
   const [localLoading, setLocalLoading] = useState(false)
+
+  // ms-based live countdown
+  const [countdown, setCountdown] = useState(() => formatCountdown(msUntilReset()))
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCountdown(formatCountdown(msUntilReset()))
+    }, 60000)
+    return () => clearInterval(interval)
+  }, [])
+
+  // Hook for leagues
+  const {
+    tier: leagueTier,
+    members: leagueMembers,
+    loading: leagueLoading,
+    promoteN,
+    demoteN,
+    refresh: refreshLeague,
+  } = useLeague(user?.uid)
+
+  const activeMeta = useMemo(() => {
+    return TIER_META[leagueTier] ?? TIER_META.bronze
+  }, [leagueTier])
 
   const loadLeaderboardData = useCallback(async () => {
     if (!user?.uid) {
@@ -22,18 +47,18 @@ export default function LeaderboardScreen({
       const activeSchool = school || 'Brooklyn Technical High School'
       
       const sPeers = [
-        { uid: 'peer1', displayName: 'Elena Rostova', xp: 1980, petType: 'axolotl', school: activeSchool },
-        { uid: 'peer2', displayName: 'Raj Patel', xp: 1720, petType: 'capybara', school: activeSchool },
-        { uid: 'peer3', displayName: 'Chloe Zhao', xp: 1450, petType: 'voidCat', school: activeSchool },
-        { uid: 'peer4', displayName: 'Sofia Bianchi', xp: 950, petType: 'bunny', school: activeSchool },
-        { uid: 'me', displayName: 'You (Guest Mode)', xp: 1250, petType: 'bear', school: activeSchool, isSelf: true }
+        { uid: 'peer1', displayName: 'Elena Rostova', xp: 1980, petType: 'reggie', school: activeSchool },
+        { uid: 'peer2', displayName: 'Raj Patel', xp: 1720, petType: 'reggie', school: activeSchool },
+        { uid: 'peer3', displayName: 'Chloe Zhao', xp: 1450, petType: 'reggie', school: activeSchool },
+        { uid: 'peer4', displayName: 'Sofia Bianchi', xp: 950, petType: 'reggie', school: activeSchool },
+        { uid: 'me', displayName: 'You (Guest Mode)', xp: 1250, petType: 'reggie', school: activeSchool, isSelf: true }
       ].sort((a, b) => b.xp - a.xp)
       setSchoolList(sPeers)
 
       const fRank = [
-        { uid: 'f1', displayName: 'Study Buddy Sophia', xp: 950, petType: 'bunny', school: activeSchool },
-        { uid: 'f2', displayName: 'Alex from Chemistry', xp: 1420, petType: 'fox', school: activeSchool },
-        { uid: 'me', displayName: 'You (Guest Mode)', xp: 1250, petType: 'bear', school: activeSchool, isSelf: true }
+        { uid: 'f1', displayName: 'Study Buddy Sophia', xp: 950, petType: 'reggie', school: activeSchool },
+        { uid: 'f2', displayName: 'Alex from Chemistry', xp: 1420, petType: 'reggie', school: activeSchool },
+        { uid: 'me', displayName: 'You (Guest Mode)', xp: 1250, petType: 'reggie', school: activeSchool, isSelf: true }
       ].sort((a, b) => b.xp - a.xp)
       setFriendsList(fRank)
       return
@@ -50,7 +75,7 @@ export default function LeaderboardScreen({
           uid: d.id,
           displayName: d.data().displayName || 'Classmate',
           xp: d.data().xp || 0,
-          petType: d.data().petType || 'fox',
+          petType: d.data().petType || 'reggie',
           school: d.data().school
         }))
         // Ensure current user is in the list
@@ -59,12 +84,11 @@ export default function LeaderboardScreen({
           if (selfSnap.exists()) {
             peers.push({ uid: user.uid, ...selfSnap.data() })
           } else {
-            // fallback if user doc has not propagated yet
             peers.push({
               uid: user.uid,
               displayName: user.displayName || 'You',
               xp: leaderboard.find(l => l.uid === user.uid)?.xp || 0,
-              petType: 'bear',
+              petType: 'reggie',
               school: school
             })
           }
@@ -99,7 +123,7 @@ export default function LeaderboardScreen({
           uid,
           displayName: dName,
           xp: data.xp || 0,
-          petType: data.petType || 'fox',
+          petType: data.petType || 'reggie',
           school: data.school || 'Unaffiliated',
           isSelf
         }
@@ -116,8 +140,45 @@ export default function LeaderboardScreen({
     loadLeaderboardData()
   }, [loadLeaderboardData])
 
-  const activeList = tab === 'school' ? schoolList : friendsList
-  const showLoading = loading || localLoading
+  const showLoading = loading || localLoading || (tab === 'league' && leagueLoading)
+
+  // Format list items for League with zone banners
+  const leagueListItems = useMemo(() => {
+    if (tab !== 'league') return []
+    const items = []
+    const total = leagueMembers.length
+    const demoteFrom = Math.max(total - demoteN + 1, promoteN + 1)
+
+    leagueMembers.forEach((m, i) => {
+      const rank = i + 1
+      const isMe = m.uid === user?.uid
+      const inPromote = rank <= promoteN
+      const inDemote = rank >= demoteFrom && leagueTier !== 'bronze'
+
+      if (rank === 1 && total > 0) {
+        items.push({ type: 'zone', key: 'z-promote', label: `▲  Promotion Zone  (top ${promoteN})`, color: 'var(--correct)' })
+      }
+      if (rank === promoteN + 1 && total > promoteN) {
+        items.push({ type: 'zone', key: 'z-safe', label: '—  Safe Zone', color: 'var(--text-muted)' })
+      }
+      if (rank === demoteFrom && demoteFrom <= total && leagueTier !== 'bronze') {
+        items.push({ type: 'zone', key: 'z-demote', label: `▼  Demotion Zone  (bottom ${demoteN})`, color: 'var(--wrong)' })
+      }
+
+      items.push({
+        type: 'member',
+        key: m.uid || i,
+        entry: m,
+        rank,
+        isMe,
+        inPromote,
+        inDemote
+      })
+    })
+    return items
+  }, [tab, leagueMembers, promoteN, demoteN, leagueTier, user])
+
+  const activeList = tab === 'school' ? schoolList : tab === 'friends' ? friendsList : leagueMembers
 
   return (
     <div className="screen-container">
@@ -133,8 +194,12 @@ export default function LeaderboardScreen({
             className="btn-duo-outline"
             style={{ padding: '8px 16px', fontSize: '13px', borderBottomWidth: '2.5px' }}
             onClick={async () => {
-              await loadLeaderboardData()
-              if (refresh) refresh()
+              if (tab === 'league') {
+                await refreshLeague()
+              } else {
+                await loadLeaderboardData()
+                if (refresh) refresh()
+              }
             }}
             disabled={showLoading}
           >
@@ -152,7 +217,8 @@ export default function LeaderboardScreen({
         }}>
           {[
             { id: 'school', label: `🏫 My School (${school && school !== 'Independent' ? school.split(' ')[0] : 'None'})` },
-            { id: 'friends', label: '🤝 Classmate Friends' }
+            { id: 'friends', label: '🤝 Classmate Friends' },
+            { id: 'league', label: `💎 Weekly Leagues (${activeMeta.label})` }
           ].map((t) => {
             const isActive = tab === t.id
             return (
@@ -175,6 +241,40 @@ export default function LeaderboardScreen({
             )
           })}
         </div>
+
+        {/* Leagues tier banner */}
+        {tab === 'league' && (
+          <div className="card-glass" style={{
+            padding: '24px',
+            backgroundColor: activeMeta.light,
+            borderColor: `${activeMeta.color}40`,
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            textAlign: 'center',
+            gap: '8px'
+          }}>
+            <span style={{ fontSize: '48px' }}>{activeMeta.emoji}</span>
+            <h2 style={{ fontFamily: 'var(--font-outfit)', fontWeight: 900, fontSize: '22px', color: activeMeta.color }}>
+              {activeMeta.label} Division
+            </h2>
+            <p style={{ fontSize: '13px', color: 'var(--text-muted)', fontWeight: 700, margin: 0 }}>
+              Top {promoteN} promote to next tier · Bottom {demoteN} demote (except Bronze)
+            </p>
+            <div style={{
+              backgroundColor: `${activeMeta.color}15`,
+              color: activeMeta.color,
+              padding: '6px 12px',
+              borderRadius: '20px',
+              fontSize: '12px',
+              fontWeight: 800,
+              border: `1px solid ${activeMeta.color}30`,
+              marginTop: '4px'
+            }}>
+              ⏳ Reset in: {countdown}
+            </div>
+          </div>
+        )}
 
         {/* Dynamic View Panel */}
         {tab === 'school' && (!school || school === 'Independent') ? (
@@ -249,7 +349,7 @@ export default function LeaderboardScreen({
           /* RANKINGS VIEW */
           <div style={{ display: 'flex', flexDirection: 'column', gap: '28px', animation: 'fade-in 0.2s ease-out' }}>
             
-            {/* Global Podium */}
+            {/* Global Podium (Rendered for School/Friends, or for League if active) */}
             <div style={{
               display: 'flex',
               justifyContent: 'center',
@@ -263,22 +363,23 @@ export default function LeaderboardScreen({
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flexGrow: 1, maxWidth: '140px' }}>
                   <span style={{ fontSize: '32px' }}>🥈</span>
                   <div style={{
-                    fontSize: '44px',
-                    background: 'var(--surface-2)',
                     width: '64px',
                     height: '64px',
                     borderRadius: '50%',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    boxShadow: '0 4px 12px var(--shadow)'
+                    boxShadow: '0 4px 12px var(--shadow)',
+                    overflow: 'hidden'
                   }}>
-                    {activeList[1].petType === 'fox' ? '🦊' : activeList[1].petType === 'axolotl' ? '🦎' : activeList[1].petType === 'capybara' ? '🦫' : activeList[1].petType === 'voidCat' ? '🐱' : activeList[1].petType === 'bunny' ? '🐰' : '🐻'}
+                    <Reggie isAvatar={true} size={64} pose="happy" />
                   </div>
                   <div style={{ fontWeight: 800, marginTop: '8px', fontSize: '14px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', width: '100%', textAlign: 'center' }}>
                     {activeList[1].displayName}
                   </div>
-                  <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>{activeList[1].xp} XP</div>
+                  <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
+                    {tab === 'league' ? activeList[1].weeklyXP : activeList[1].xp} {tab === 'league' ? 'weekly XP' : 'XP'}
+                  </div>
                   <div style={{ height: '80px', width: '100%', background: 'linear-gradient(to top, var(--surface-2), var(--surface-3))', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', marginTop: '12px' }} />
                 </div>
               )}
@@ -288,7 +389,6 @@ export default function LeaderboardScreen({
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flexGrow: 1, maxWidth: '160px', zIndex: 2 }}>
                   <span style={{ fontSize: '48px', animation: 'float 2s ease infinite' }}>🥇</span>
                   <div style={{
-                    fontSize: '56px',
                     background: 'var(--warn-bg)',
                     border: '3px solid var(--warn)',
                     width: '84px',
@@ -297,14 +397,17 @@ export default function LeaderboardScreen({
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    boxShadow: '0 6px 16px rgba(255,200,0,0.2)'
+                    boxShadow: '0 6px 16px rgba(255,200,0,0.2)',
+                    overflow: 'hidden'
                   }}>
-                    {activeList[0].petType === 'fox' ? '🦊' : activeList[0].petType === 'axolotl' ? '🦎' : activeList[0].petType === 'capybara' ? '🦫' : activeList[0].petType === 'voidCat' ? '🐱' : activeList[0].petType === 'bunny' ? '🐰' : '🐻'}
+                    <Reggie isAvatar={true} size={84} pose="cheer" />
                   </div>
                   <div style={{ fontWeight: 900, marginTop: '8px', fontSize: '15px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', width: '100%', textAlign: 'center' }}>
                     {activeList[0].displayName}
                   </div>
-                  <div style={{ fontSize: '13px', fontWeight: 800, color: 'var(--warn-dark)' }}>{activeList[0].xp} XP</div>
+                  <div style={{ fontSize: '13px', fontWeight: 800, color: 'var(--warn-dark)' }}>
+                    {tab === 'league' ? activeList[0].weeklyXP : activeList[0].xp} {tab === 'league' ? 'weekly XP' : 'XP'}
+                  </div>
                   <div style={{ height: '120px', width: '100%', background: 'linear-gradient(to top, var(--warn-bg), var(--warn))', borderTopLeftRadius: '16px', borderTopRightRadius: '16px', marginTop: '12px' }} />
                 </div>
               )}
@@ -314,75 +417,147 @@ export default function LeaderboardScreen({
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flexGrow: 1, maxWidth: '140px' }}>
                   <span style={{ fontSize: '32px' }}>🥉</span>
                   <div style={{
-                    fontSize: '44px',
-                    background: 'var(--surface-2)',
                     width: '64px',
                     height: '64px',
                     borderRadius: '50%',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    boxShadow: '0 4px 12px var(--shadow)'
+                    boxShadow: '0 4px 12px var(--shadow)',
+                    overflow: 'hidden'
                   }}>
-                    {activeList[2].petType === 'fox' ? '🦊' : activeList[2].petType === 'axolotl' ? '🦎' : activeList[2].petType === 'capybara' ? '🦫' : activeList[2].petType === 'voidCat' ? '🐱' : activeList[2].petType === 'bunny' ? '🐰' : '🐻'}
+                    <Reggie isAvatar={true} size={64} pose="happy" />
                   </div>
                   <div style={{ fontWeight: 800, marginTop: '8px', fontSize: '14px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', width: '100%', textAlign: 'center' }}>
                     {activeList[2].displayName}
                   </div>
-                  <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>{activeList[2].xp} XP</div>
+                  <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
+                    {tab === 'league' ? activeList[2].weeklyXP : activeList[2].xp} {tab === 'league' ? 'weekly XP' : 'XP'}
+                  </div>
                   <div style={{ height: '60px', width: '100%', background: 'linear-gradient(to top, var(--surface-2), var(--surface-3))', borderTopLeftRadius: '12px', borderTopRightRadius: '12px', marginTop: '12px' }} />
                 </div>
               )}
             </div>
 
             {/* Scrollable Leaderboard Table */}
-            <div className="card-glass" style={{ padding: '8px 0' }}>
-              <div style={{ display: 'flex', flexDirection: 'column' }}>
-                {activeList.slice(3).map((student, index) => {
-                  const rank = index + 4
-                  const isCurrentUser = student.uid === user?.uid || student.isSelf
+            {tab === 'league' ? (
+              /* LEAGUE DETAILED LIST (With zones) */
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                {leagueListItems.map((item) => {
+                  if (item.type === 'zone') {
+                    return (
+                      <div
+                        key={item.key}
+                        style={{
+                          borderRadius: '10px',
+                          padding: '6px 12px',
+                          border: '1px solid transparent',
+                          borderColor: `${item.color}40`,
+                          backgroundColor: `${item.color}15`,
+                          color: item.color,
+                          textAlign: 'center',
+                          fontSize: '11px',
+                          fontWeight: 900,
+                          textTransform: 'uppercase',
+                          letterSpacing: '1px',
+                          margin: '8px 0 4px'
+                        }}
+                      >
+                        {item.label}
+                      </div>
+                    )
+                  }
+
+                  const student = item.entry
+                  const isCurrentUser = item.isMe
+                  const borderStyle = isCurrentUser
+                    ? '3px solid var(--brand)'
+                    : item.inPromote ? '2.5px solid var(--correct)'
+                    : item.inDemote ? '2.5px solid var(--wrong)'
+                    : '1px solid var(--border)'
 
                   return (
                     <div
-                      key={student.uid || index}
+                      key={item.key}
+                      className="card-glass"
                       style={{
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'space-between',
                         padding: '12px 24px',
-                        borderBottom: '1px solid var(--border)',
-                        backgroundColor: isCurrentUser ? 'var(--brand-bg)' : 'transparent',
+                        border: borderStyle,
+                        backgroundColor: isCurrentUser ? 'var(--brand-bg)' : 'var(--surface)',
                         fontWeight: isCurrentUser ? 800 : 'inherit'
                       }}
                     >
                       <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
                         <span style={{ width: '24px', textAlign: 'center', fontWeight: 900, color: 'var(--text-dim)' }}>
-                          {rank}
+                          {item.rank <= 3 ? ['🥇','🥈','🥉'][item.rank - 1] : item.rank}
                         </span>
-                        <span style={{ fontSize: '24px' }}>
-                          {student.petType === 'fox' ? '🦊' : student.petType === 'axolotl' ? '🦎' : student.petType === 'capybara' ? '🦫' : student.petType === 'voidCat' ? '🐱' : student.petType === 'bunny' ? '🐰' : '🐻'}
-                        </span>
+                        <div style={{ width: '32px', height: '32px', borderRadius: '50%', overflow: 'hidden' }}>
+                          <Reggie isAvatar={true} size={32} pose={item.rank === 1 ? 'cheer' : 'happy'} />
+                        </div>
                         <div>
                           <div style={{ fontSize: '15px' }}>{student.displayName || 'Anonymous'}</div>
-                          <div style={{ fontSize: '11px', color: 'var(--text-dim)', marginTop: '2px' }}>
-                            {student.school || 'Unaffiliated'}
-                          </div>
                         </div>
                       </div>
                       <div style={{ fontFamily: 'var(--font-outfit)', fontWeight: 800 }}>
-                        ⭐ {student.xp} XP
+                        ⭐ {student.weeklyXP} weekly XP
                       </div>
                     </div>
                   )
                 })}
-
-                {activeList.length <= 3 && (
-                  <div style={{ textAlign: 'center', padding: '24px', color: 'var(--text-muted)' }}>
-                    📭 Earn some XP to climb the podium!
-                  </div>
-                )}
               </div>
-            </div>
+            ) : (
+              /* STANDARD LEADERBOARD LIST */
+              <div className="card-glass" style={{ padding: '8px 0' }}>
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  {activeList.slice(3).map((student, index) => {
+                    const rank = index + 4
+                    const isCurrentUser = student.uid === user?.uid || student.isSelf
+
+                    return (
+                      <div
+                        key={student.uid || index}
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'space-between',
+                          padding: '12px 24px',
+                          borderBottom: '1px solid var(--border)',
+                          backgroundColor: isCurrentUser ? 'var(--brand-bg)' : 'transparent',
+                          fontWeight: isCurrentUser ? 800 : 'inherit'
+                        }}
+                      >
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+                          <span style={{ width: '24px', textAlign: 'center', fontWeight: 900, color: 'var(--text-dim)' }}>
+                            {rank}
+                          </span>
+                          <div style={{ width: '32px', height: '32px', borderRadius: '50%', overflow: 'hidden' }}>
+                            <Reggie isAvatar={true} size={32} pose="happy" />
+                          </div>
+                          <div>
+                            <div style={{ fontSize: '15px' }}>{student.displayName || 'Anonymous'}</div>
+                            <div style={{ fontSize: '11px', color: 'var(--text-dim)', marginTop: '2px' }}>
+                              {student.school || 'Unaffiliated'}
+                            </div>
+                          </div>
+                        </div>
+                        <div style={{ fontFamily: 'var(--font-outfit)', fontWeight: 800 }}>
+                          ⭐ {student.xp} XP
+                        </div>
+                      </div>
+                    )
+                  })}
+
+                  {activeList.length <= 3 && (
+                    <div style={{ textAlign: 'center', padding: '24px', color: 'var(--text-muted)' }}>
+                      📭 Earn some XP to climb the podium!
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
 
           </div>
         )}
