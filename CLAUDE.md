@@ -73,3 +73,19 @@ Both Metro (mobile) and Vite (web) resolve `@content/*` → `shared/content/*`. 
 
 ## Focus Rule
 Default to working in `mobile/` only. Do not touch `chromebook/` or root `src/` unless the user explicitly asks.
+
+## Git Workflow (monorepo: mobile + chromebook)
+
+**One app per commit.** Never mix `mobile/` and `chromebook/` changes in the same commit. This is the single most important rule — it's what lets you cherry-pick or merge one app's work without dragging the other's along.
+
+**Branch model:**
+- `master` — the **mobile** release line. Every push to `master` triggers an Xcode Cloud iOS build (real minutes), so push intentionally: batch a few mobile commits, then push once. Always ask before pushing.
+- `feat/chromebook-b2b` — the **permanent** chromebook home. **Never merges to `master`.**
+- `feat/<mobile-thing>` — short-lived mobile feature branches off `master`; merge back to `master` and delete. Don't let them live long (they diverge).
+- Don't create a branch that collects **both** apps' work (that mistake forced a cherry-pick untangle once).
+
+**`shared/content/` flows one direction (master → chromebook):** edit + commit it on `master`, then `git merge master` into `feat/chromebook-b2b` to carry it forward. Never edit shared content on the chromebook branch to bring back.
+
+**Hygiene:** commit or stash WIP on the branch it belongs to **before** switching branches (loose cross-branch WIP forces stash gymnastics). Keep the `feat(<scope>)` commit prefixes — they make "which app" obvious.
+
+**Cross-cutting work:** split into two commits on two branches (mobile half on a master-based branch, chromebook half on `feat/chromebook-b2b`), with shared content flowing master → chromebook. Don't do both halves in one place.
