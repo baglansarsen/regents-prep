@@ -9,7 +9,6 @@ import { useAuth } from '../../hooks/useAuth'
 import { useSubject } from '../../context/SubjectContext'
 import { PETS_ENABLED } from '../../config/features'
 import { SUBJECT_META } from '../../content/subjects'
-import { useRP } from '../../hooks/useRP'
 import { useDailyStreak } from '../../hooks/useDailyStreak'
 import { useNotifications, formatTime } from '../../hooks/useNotifications'
 import { auth, db } from '../../firebase'
@@ -20,8 +19,6 @@ import { T, duoBtn, cardShadow } from '../../styles/duo'
 import { useDoubleRP } from '../../context/DoubleRPContext'
 import { useSubscription } from '../../context/SubscriptionContext'
 import { useTour } from '../../context/TourContext'
-import NudgeBanner from '../../components/NudgeBanner'
-import { getEngagementNudge } from '../../hooks/useEngagementNudge'
 
 // ── Time picker data — every 30 minutes from 6 AM to 11 PM ──────────────────────
 const TIME_OPTIONS = Array.from({ length: 36 }, (_, i) => {
@@ -40,8 +37,7 @@ export default function SettingsPanel({ navigation }) {
   const { deleteAccount } = useAuth()
   const uid = user?.uid
 
-  const { weeklyRP } = useRP(uid)
-  const { streak, longestStreak } = useDailyStreak(uid)
+  const { streak } = useDailyStreak(uid)
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
   const { isSubscribed, isConfigured } = useSubscription()
   const { start: startTour } = useTour()
@@ -66,10 +62,6 @@ export default function SettingsPanel({ navigation }) {
 
   const [showTimePicker,    setShowTimePicker]    = useState(false)
   const [showSubjectPicker, setShowSubjectPicker] = useState(false)
-  const [nudgeDismissed,    setNudgeDismissed]    = useState(false)
-
-  // Reset nudge on screen focus
-  useEffect(() => navigation.addListener('focus', () => setNudgeDismissed(false)), [navigation])
 
   // Slide-up animation for the sheets
   const slideAnim        = useRef(new Animated.Value(400)).current
@@ -176,12 +168,6 @@ export default function SettingsPanel({ navigation }) {
 
   return (
     <>
-      {/* Engagement nudge */}
-      {!nudgeDismissed && (() => {
-        const nudge = getEngagementNudge('profile', { streak, longestStreak, weeklyRP })
-        return nudge && <NudgeBanner {...nudge} onDismiss={() => setNudgeDismissed(true)} />
-      })()}
-
       {/* ── Regents Exam Selection ── */}
       <TouchableOpacity
         style={[s.rowCard, cardShadow(C.shadow)]}

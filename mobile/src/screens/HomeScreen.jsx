@@ -50,8 +50,6 @@ import { useGoal } from '../context/GoalContext'
 import { usePredictedScore } from '../hooks/usePredictedScore'
 import { pickSmartQuest } from '../utils/smartQuest'
 import { tierFor } from '../data/goalConfig'
-import NudgeBanner from '../components/NudgeBanner'
-import { getEngagementNudge } from '../hooks/useEngagementNudge'
 
 const MILESTONE_GIFTS = {
   3:  { rp: 50,   items: {},                       label: '50 ⭐ RP!' },
@@ -197,8 +195,6 @@ export default function HomeScreen({ navigation }) {
   const [showFreezeBanner,setShowFreezeBanner] = useState(false)
   const [tipsUnit,        setTipsUnit]         = useState(null)
   const [expandedTip,     setExpandedTip]      = useState(null)
-  const [nudgeDismissed,  setNudgeDismissed]   = useState(false)
-  const [bannerResolved,  setBannerResolved]   = useState(false)
 
   // ── League ────────────────────────────────────────────────────────────────
   const { tier, members, promoteN } = useLeague(uid)
@@ -220,16 +216,9 @@ export default function HomeScreen({ navigation }) {
       const today = localDateStr()
       AsyncStorage.getItem(`@streakWarnDismissed_${today}`).then((val) => {
         if (!val) setShowFreezeBanner(true)
-        setBannerResolved(true)
-        setNudgeDismissed(false)
-      }).catch(() => {
-        setBannerResolved(true)
-        setNudgeDismissed(false)
-      })
+      }).catch(() => {})
     } else {
       setShowFreezeBanner(false)
-      setBannerResolved(true)
-      setNudgeDismissed(false)
     }
   }, [uid, streak, studiedToday, hasFreeze]))
 
@@ -602,14 +591,6 @@ export default function HomeScreen({ navigation }) {
         </View>
 
         {/* Week streak moved to the top bar — tap the 🔥 there for the full calendar */}
-
-        {/* Engagement nudge */}
-        {bannerResolved && !nudgeDismissed && !showFreezeBanner && getEngagementNudge('home', { streak, studiedToday, hasFreeze, weekDays, todayRP, goal, goalMet }) && (
-          <NudgeBanner
-            {...getEngagementNudge('home', { streak, studiedToday, hasFreeze, weekDays, todayRP, goal, goalMet })}
-            onDismiss={() => setNudgeDismissed(true)}
-          />
-        )}
 
         {/* Streak-at-risk freeze banner */}
         {showFreezeBanner && (
