@@ -4,6 +4,7 @@ import { useStreak } from '../context/StreakContext'
 import { usePetContext } from '../context/PetContext'
 import { useRP } from '../hooks/useRP'
 import StreakCelebration from './StreakCelebration'
+import { maybeRequestReview } from '../utils/appReview'
 
 /**
  * StreakCelebrationHost — mounts the streak celebration once, inside the main
@@ -31,10 +32,21 @@ export default function StreakCelebrationHost() {
     if (pendingEvent.type === 'broken')      triggerReaction?.('sad')
   }, [pendingEvent?.type])
 
+  // When the celebration is dismissed after a 3+ day streak advance, ask the
+  // user to rate the app — deferred slightly so the overlay's dismiss animation
+  // finishes before the system rating sheet appears.
+  const handleClose = () => {
+    const ev = pendingEvent
+    clearEvent()
+    if (ev?.type === 'continued' && ev.streak >= 3) {
+      setTimeout(() => { maybeRequestReview() }, 600)
+    }
+  }
+
   return (
     <StreakCelebration
       event={pendingEvent}
-      onClose={clearEvent}
+      onClose={handleClose}
       weekDays={weekDays}
       streak={streak}
       rp={rp}
