@@ -22,6 +22,7 @@ import { T, duoBtn, cardShadow } from '../styles/duo'
 import PetWidget from '../components/PetWidget'
 import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
 import ReggieMascot from '../components/ReggieMascot'
+import AiGradeButton from '../components/AiGradeButton'
 import { useStudyTime } from '../hooks/useStudyTime'
 import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
 import { useQuizSound } from '../hooks/useQuizSound'
@@ -404,6 +405,10 @@ export default function QuizScreen({ route, navigation }) {
               question={currentQuestion}
               C={C}
               s={s}
+              subject={subject}
+              isSubscribed={isSubscribed}
+              isConfigured={isConfigured}
+              onUpgrade={presentPaywall}
               onSubmit={(gotIt) => { submitWritten({ gotIt }); nextQuestion() }}
               isLast={index + 1 === total}
             />
@@ -681,9 +686,10 @@ function ExplanationBlock({ question, C }) {
 }
 
 // ── Open-ended capstone: write → reveal model answer → self-assess ────────────
-function WrittenAnswerBlock({ question, C, s, onSubmit, isLast }) {
+function WrittenAnswerBlock({ question, C, s, subject, isSubscribed, isConfigured, onUpgrade, onSubmit, isLast }) {
   const [text, setText]         = useState('')
   const [revealed, setRevealed] = useState(false)
+  const [graded, setGraded]     = useState(null)
 
   function reveal() {
     Keyboard.dismiss()
@@ -740,27 +746,70 @@ function WrittenAnswerBlock({ question, C, s, onSubmit, isLast }) {
             <ExplanationBlock question={question} C={C} />
           ) : null}
 
-          {/* Self-assessment */}
-          <Text style={[T.h3, { color: C.text, marginTop: 4, marginBottom: 10 }]}>Did you get it right?</Text>
-          <View style={{ flexDirection: 'row', gap: 12 }}>
-            <TouchableOpacity
-              style={[duoBtn(C.correct, C.brandDark, { flex: 1 })]}
-              onPress={() => onSubmit(true)}
-              activeOpacity={0.85}
-            >
-              <Text style={[T.btn, { color: '#fff' }]}>✅ I got it  +10</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={[duoBtn(C.surface2, C.border, { flex: 1 })]}
-              onPress={() => onSubmit(false)}
-              activeOpacity={0.85}
-            >
-              <Text style={[T.btn, { color: C.textMuted }]}>❌ Not quite</Text>
-            </TouchableOpacity>
-          </View>
-          <Text style={[T.small, { color: C.textMuted, textAlign: 'center', marginTop: 12 }]}>
-            {isLast ? 'This finishes the lesson — choose one to see your results.' : 'Choose one to continue.'}
-          </Text>
+          {isSubscribed ? (
+            /* Premium: AI grades the answer against the model answer. */
+            <>
+              <Text style={[T.h3, { color: C.text, marginTop: 4, marginBottom: 4 }]}>Grade your answer</Text>
+              <AiGradeButton
+                question={question}
+                studentAnswer={text}
+                subject={subject}
+                isSubscribed
+                isConfigured={isConfigured}
+                onUpgrade={onUpgrade}
+                onGraded={setGraded}
+                C={C}
+              />
+              {graded ? (
+                <TouchableOpacity
+                  style={duoBtn(C.brand, C.brandDark, { marginTop: 14 })}
+                  onPress={() => onSubmit(graded.verdict !== 'incorrect')}
+                  activeOpacity={0.85}
+                >
+                  <Text style={[T.btn, { color: '#fff' }]}>
+                    {isLast ? 'SEE RESULTS' : 'CONTINUE'}
+                  </Text>
+                </TouchableOpacity>
+              ) : (
+                <TouchableOpacity onPress={() => onSubmit(false)} style={{ marginTop: 14, alignItems: 'center' }}>
+                  <Text style={[T.small, { color: C.textMuted }]}>Continue without grading</Text>
+                </TouchableOpacity>
+              )}
+            </>
+          ) : (
+            /* Free: manual self-assessment + a Premium upsell. */
+            <>
+              <Text style={[T.h3, { color: C.text, marginTop: 4, marginBottom: 10 }]}>Did you get it right?</Text>
+              <View style={{ flexDirection: 'row', gap: 12 }}>
+                <TouchableOpacity
+                  style={[duoBtn(C.correct, C.brandDark, { flex: 1 })]}
+                  onPress={() => onSubmit(true)}
+                  activeOpacity={0.85}
+                >
+                  <Text style={[T.btn, { color: '#fff' }]}>✅ I got it  +10</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  style={[duoBtn(C.surface2, C.border, { flex: 1 })]}
+                  onPress={() => onSubmit(false)}
+                  activeOpacity={0.85}
+                >
+                  <Text style={[T.btn, { color: C.textMuted }]}>❌ Not quite</Text>
+                </TouchableOpacity>
+              </View>
+              <Text style={[T.small, { color: C.textMuted, textAlign: 'center', marginTop: 12 }]}>
+                {isLast ? 'This finishes the lesson — choose one to see your results.' : 'Choose one to continue.'}
+              </Text>
+              <AiGradeButton
+                question={question}
+                studentAnswer={text}
+                subject={subject}
+                isSubscribed={false}
+                isConfigured={isConfigured}
+                onUpgrade={onUpgrade}
+                C={C}
+              />
+            </>
+          )}
         </>
       )}
     </View>

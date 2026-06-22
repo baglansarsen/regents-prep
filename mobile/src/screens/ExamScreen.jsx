@@ -10,9 +10,11 @@ import { useRP } from '../hooks/useRP'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { appendMistakes } from '../hooks/useMistakes'
 import { usePetContext } from '../context/PetContext'
+import { useSubscription } from '../context/SubscriptionContext'
 import { hapticTick } from '../utils/haptics'
 import { logActivity } from '../utils/activityLogger'
 import ExamImage from '../components/ExamImage'
+import AiGradeButton from '../components/AiGradeButton'
 
 const EXAM_MINUTES = 85
 
@@ -25,6 +27,7 @@ export default function ExamScreen({ route, navigation }) {
   const { rp, earnRP } = useRP(uid)
   const { markStudied } = useDailyStreak(uid)
   const { checkAndEvolve } = usePetContext()
+  const { isSubscribed, isConfigured, presentPaywall } = useSubscription()
 
   const [currentIdx,     setCurrentIdx]     = useState(0)
   const [answers,        setAnswers]        = useState({})
@@ -203,12 +206,25 @@ export default function ExamScreen({ route, navigation }) {
               textAlignVertical="top"
             />
             {q.modelAnswer && (
-              <TouchableOpacity
-                style={[s.modelAnswerBtn, { borderColor: C.border }]}
-                onPress={() => Alert.alert('Model Answer', q.modelAnswer)}
-              >
-                <Text style={[s.modelAnswerBtnText, { color: C.textMuted }]}>💡 Show model answer (after you've tried)</Text>
-              </TouchableOpacity>
+              <>
+                <TouchableOpacity
+                  style={[s.modelAnswerBtn, { borderColor: C.border }]}
+                  onPress={() => Alert.alert('Model Answer', q.modelAnswer)}
+                >
+                  <Text style={[s.modelAnswerBtnText, { color: C.textMuted }]}>💡 Show model answer (after you've tried)</Text>
+                </TouchableOpacity>
+                {/* AI grading (Premium) — keyed per question so state resets on navigation */}
+                <AiGradeButton
+                  key={currentIdx}
+                  question={q}
+                  studentAnswer={writtenAnswers[currentIdx]}
+                  subject={subject}
+                  isSubscribed={isSubscribed}
+                  isConfigured={isConfigured}
+                  onUpgrade={presentPaywall}
+                  C={C}
+                />
+              </>
             )}
           </View>
         )}
