@@ -1,0 +1,39 @@
+:root {
+  /* ---- Brand core ---- */
+  --spark-green: #1FC36B;   /* primary */
+  --forest:      #0E9F52;   /* gradient depth / pressed */
+  --green-deep:  #0A7D40;   /* darkest green */
+  --xp-yellow:   #FFC93C;   /* XP / coins accent */
+  --ink:         #0F2018;   /* near-black green — dark text */
+  --slate:       #5B6B62;   /* secondary text */
+  --mint-wash:   #EAFBF1;   /* soft tint background */
+  --mint-2:      #D6F5E3;   /* deeper mint */
+  --paper:       #FFFFFF;
+  --line:        #E3EDE7;   /* hairline borders */
+
+  /* ---- Gamification accents (each metric owns ONE color) ---- */
+  --coral:  #FF5A5F;   /* streaks / lives */
+  --violet: #7C5CFC;   /* premium / Pro */
+  --sky:    #34B3F1;   /* info / links */
+
+  /* ---- Icon gradient ---- */
+  --icon-grad-top:    #27D078;
+  --icon-grad-bottom: #0E9F52;
+
+  /* ---- Semantic aliases ---- */
+  --surface-page:   var(--mint-wash);
+  --surface-card:   var(--paper);
+  --surface-dark:   var(--ink);
+  --text-strong:    var(--ink);
+  --text-muted:     var(--slate);
+  --text-on-dark:   #FFFFFF;
+  --accent:         var(--xp-yellow);
+  --brand-primary:  var(--spark-green);
+  --brand-pressed:  var(--forest);
+  --border-card:    var(--line);
+  --border-active:  var(--spark-green);
+
+  /* states */
+  --correct: var(--spark-green);
+  --wrong:   var(--coral);
+}

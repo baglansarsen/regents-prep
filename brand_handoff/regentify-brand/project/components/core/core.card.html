@@ -1,0 +1,35 @@
+<!-- @dsCard group="Components" viewport="700x220" name="Cards" subtitle="Default / selected / interactive surfaces" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; background: var(--mint-wash); font-family: var(--font-body); color: var(--ink); }
+  .grid { padding: 22px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+  .t { font-family: var(--font-display); font-weight: 600; font-size: 17px; }
+  .s { color: var(--slate); font-size: 13px; margin-top: 3px; }
+  .tag { font-family: var(--font-display); font-weight: 600; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--slate); margin-bottom: 8px; }
+</style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <script src="../../_ds_bundle.js"></script>
+  <script type="text/babel">
+    const { Card } = window.DesignSystem_756e59;
+    function Demo() {
+      return (
+        <div className="grid">
+          <Card><div className="tag">Default</div><div className="t">U.S. History</div><div className="s">New · start now</div></Card>
+          <Card selected><div className="tag">Selected</div><div className="t">Algebra I</div><div className="s">12 / 18 lessons</div></Card>
+          <Card interactive><div className="tag">Interactive</div><div className="t">Chemistry</div><div className="s">Hover me ↗</div></Card>
+        </div>
+      );
+    }
+    ReactDOM.createRoot(document.getElementById('root')).render(<Demo />);
+  </script>
+</body>
+</html>

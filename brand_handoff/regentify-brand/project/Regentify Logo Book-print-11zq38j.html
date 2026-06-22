@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style data-omelette-print-defaults>
+@media print {
+  @page { margin: 0; }
+  body { padding: 0.5in; box-sizing: border-box; }
+  h1, h2, h3, h4, h5, h6 { break-after: avoid; }
+  figure, table, pre, blockquote, img, svg, tr, [class~="card" i] { break-inside: avoid; }
+  img, svg { max-width: 100%; }
+  p { orphans: 3; widows: 3; }
+}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regentify — Logo Book</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo/reggie-dino-favicon.svg">
+<link rel="stylesheet" href="styles.css">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: #C8D6CD;
+    font-family: var(--font-body);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    padding: 40px 0 64px;
+  }
+
+  /* ---------- sheet ---------- */
+  .book { width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+  .sheet {
+    width: 1240px; height: 877px; background: #fff; position: relative;
+    box-shadow: 0 18px 50px rgba(15,32,24,.16); overflow: hidden;
+    display: flex; flex-direction: column;
+  }
+  .pad { padding: 64px 72px; flex: 1; display: flex; flex-direction: column; }
+
+  /* running header / footer */
+  .runner { position: absolute; left: 72px; right: 72px; display: flex; align-items: center; justify-content: space-between;
+            font-family: var(--font-display); font-weight: 600; font-size: 12px; letter-spacing: .14em;
+            text-transform: uppercase; color: #9fb2a7; }
+  .runner.top { top: 40px; }
+  .runner.bot { bottom: 40px; }
+  .runner .pg { color: var(--forest); }
+  .runner .brand-dot { display: inline-flex; align-items: center; gap: 9px; }
+  .runner .brand-dot svg { width: 22px; height: 22px; border-radius: 6px; }
+
+  .eyebrow { font-family: var(--font-display); font-weight: 600; text-transform: uppercase;
+             letter-spacing: .18em; font-size: 13px; color: var(--forest); margin: 0 0 16px; }
+  .sheet h2 { font-family: var(--font-display); font-weight: 700; font-size: 40px; letter-spacing: -.02em;
+              line-height: 1.04; margin: 0 0 16px; }
+  .lead { font-size: 17px; line-height: 1.6; color: #3a4a42; max-width: 640px; margin: 0; }
+
+  /* wordmark */
+  .wm { font-family: var(--font-display); font-weight: 700; letter-spacing: -.03em; line-height: 1; white-space: nowrap; }
+  .wm .r { color: var(--ink); } .wm .ify { color: var(--xp-yellow); }
+  .wm.on-dark .r { color: #fff; }
+
+  /* ============ COVER ============ */
+  .cover { background: radial-gradient(120% 120% at 78% 18%, #167a44 0%, var(--ink) 62%); color: #fff; }
+  .cover .pad { justify-content: space-between; }
+  .cover .runner { color: #5f7a6c; }
+  .cover .runner .pg { color: #9bd9b5; }
+  .cover-top { display: flex; align-items: center; gap: 14px; font-family: var(--font-display);
+               font-weight: 600; font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: #8fb6a1; }
+  .cover-hero { display: flex; flex-direction: column; align-items: flex-start; gap: 34px; }
+  .cover-hero .big-ico { width: 250px; height: 250px; filter: drop-shadow(0 24px 50px rgba(0,0,0,.35)); }
+  .cover h1 { font-family: var(--font-display); font-weight: 700; font-size: 92px; letter-spacing: -.035em;
+              line-height: .92; margin: 0; }
+  .cover .sub { font-size: 19px; line-height: 1.5; color: #bfe0cd; max-width: 520px; margin: 8px 0 0; }
+  .cover-bottom { display: flex; align-items: flex-end; justify-content: space-between; }
+  .cover-bottom .wm { font-size: 38px; }
+  .cover .meta { text-align: right; font-family: var(--font-display); font-weight: 600; font-size: 13px;
+                 letter-spacing: .12em; text-transform: uppercase; color: #7fa491; line-height: 1.9; }
+
+  /* ============ generic blocks ============ */
+  .stage { background: var(--mint-wash); border-radius: 24px; display: grid; place-items: center; position: relative; }
+  .stage.dark { background: var(--ink); }
+  .stage .corner { position: absolute; top: 18px; left: 22px; font-family: var(--font-display); font-size: 11px;
+                   font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: #93a69b; }
+  .stage.dark .corner { color: #5f7a6c; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  .grid3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; }
+
+  .note-h { font-family: var(--font-display); font-weight: 600; font-size: 17px; margin: 0 0 7px; }
+  .note-p { font-size: 14px; line-height: 1.55; color: #51635a; margin: 0; }
+
+  /* mark anatomy callouts */
+  .anatomy { display: grid; grid-template-columns: 1.15fr .85fr; gap: 40px; align-items: center; flex: 1; }
+  .callouts { display: flex; flex-direction: column; gap: 18px; }
+  .callout { display: flex; gap: 16px; align-items: flex-start; }
+  .callout .dot { flex: none; width: 30px; height: 30px; border-radius: 9px; background: var(--spark-green);
+                  color: #fff; font-family: var(--font-display); font-weight: 700; font-size: 14px;
+                  display: grid; place-items: center; box-shadow: 0 3px 0 var(--forest); }
+  .callout .dot.y { background: var(--xp-yellow); color: var(--ink); box-shadow: 0 3px 0 #d9a722; }
+  .callout .dot.k { background: var(--ink); color: #fff; box-shadow: 0 3px 0 #000; }
+
+  /* lockups */
+  .lock { border-radius: 22px; padding: 34px; display: flex; align-items: center; justify-content: center;
+          gap: 26px; position: relative; min-height: 150px; }
+  .lock.stacked { flex-direction: column; gap: 16px; }
+
+  /* construction grid overlay */
+  .constructbox { position: relative; }
+  .gridlines { position: absolute; inset: 0; }
+  .gridlines line { stroke: #bcd6c8; stroke-width: 1; }
+  .gridlines circle { fill: none; stroke: #9ec9b1; stroke-width: 1; stroke-dasharray: 4 4; }
+
+  /* misuse */
+  .dont { border-radius: 20px; background: var(--mint-wash); padding: 26px 22px 20px; position: relative;
+          display: flex; flex-direction: column; align-items: center; gap: 16px; }
+  .dont .x { position: absolute; top: 16px; right: 16px; width: 28px; height: 28px; border-radius: 50%;
+             background: var(--coral); color: #fff; display: grid; place-items: center; font-family: var(--font-display);
+             font-weight: 700; font-size: 16px; }
+  .dont .lbl { font-size: 13px; line-height: 1.4; color: #51635a; text-align: center; }
+  .dont .lbl b { color: var(--ink); font-weight: 800; }
+  .dont .frame { width: 120px; height: 120px; display: grid; place-items: center; }
+
+  /* color swatches */
+  .swatches { display: flex; gap: 14px; flex-wrap: wrap; }
+  .sw { width: 168px; border-radius: 16px; overflow: hidden; border: 1px solid #eef2ef; }
+  .sw .chip { height: 92px; display: flex; align-items: flex-end; padding: 10px 12px; }
+  .sw .chip .role { font-family: var(--font-display); font-weight: 600; font-size: 11px; letter-spacing: .08em;
+                    text-transform: uppercase; color: rgba(255,255,255,.85); }
+  .sw .meta { padding: 11px 13px 13px; }
+  .sw .nm { font-family: var(--font-display); font-weight: 600; font-size: 14px; }
+  .sw .hex { font-family: var(--font-body); font-weight: 700; font-size: 12px; color: #8a9c92; letter-spacing: .03em; }
+
+  /* applications */
+  .phone { background: var(--mint-wash); border-radius: 22px; display: grid; place-items: center; padding: 26px; }
+  .screen { width: 232px; height: 320px; border-radius: 36px; overflow: hidden; position: relative;
+            background: linear-gradient(165deg,#34d27d 0%,#0E9F52 55%,#0a7d41 100%);
+            box-shadow: 0 14px 30px rgba(14,159,82,.4); padding: 16px 14px; }
+  .screen .status { display: flex; justify-content: space-between; color: #fff; font-family: var(--font-display);
+                    font-weight: 600; font-size: 11px; opacity: .92; padding: 2px 6px 0; }
+  .grid-apps { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px 10px; margin-top: 26px; padding: 0 4px; }
+  .ghost { aspect-ratio: 1; border-radius: 14px; background: rgba(255,255,255,.16); }
+  .applet { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .applet .ic { width: 46px; height: 46px; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 12px rgba(0,0,0,.22); }
+  .applet .nm { font-family: var(--font-display); font-weight: 600; font-size: 9px; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.28); }
+  .browser-tab { display: inline-flex; align-items: center; gap: 8px; background: #fff; border-radius: 10px 10px 0 0;
+                 padding: 9px 16px 10px; box-shadow: 0 -1px 0 #e3ede7 inset; }
+  .browser-tab span { font-family: var(--font-body); font-weight: 700; font-size: 12px; color: #45564d; }
+  .px { font-family: var(--font-body); font-weight: 700; font-size: 11px; color: #8a9c92; }
+
+  /* asset index */
+  .asset-list { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; }
+  .asset { border: 1px solid var(--line); border-radius: 18px; padding: 20px; display: flex; flex-direction: column;
+           align-items: center; gap: 14px; }
+  .asset .holder { height: 96px; display: flex; align-items: flex-end; }
+  .asset .fn { font-family: ui-monospace, 'SF Mono', monospace; font-size: 12px; color: var(--forest);
+               background: var(--mint-wash); padding: 4px 10px; border-radius: 7px; }
+  .asset .desc { font-size: 12.5px; color: #6b7d74; text-align: center; line-height: 1.45; margin: 0; }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .book { gap: 0; }
+    .sheet { box-shadow: none; page-break-after: always; break-after: page; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ reusable dino symbols ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <linearGradient id="tileGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#27D078"/><stop offset="1" stop-color="#0E9F52"/></linearGradient>
+
+  <symbol id="dino" viewBox="0 0 512 512">
+    <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+    <g fill="#FFC93C" stroke="#FFC93C" stroke-width="10" stroke-linejoin="round"><path d="M176 206 L150 150 L210 184 Z"/><path d="M150 270 L104 232 L168 230 Z"/></g>
+    <path d="M246 172 C322 172 380 220 392 286 C406 292 408 318 394 328 C384 380 350 414 298 426 C284 430 270 432 254 432 C186 432 148 386 148 316 C148 230 178 172 246 172 Z" fill="#1FC36B"/>
+    <ellipse cx="248" cy="372" rx="72" ry="60" fill="#EAFBF1"/>
+    <path d="M196 372 q-26 8 -30 34" fill="none" stroke="#15A95B" stroke-width="22" stroke-linecap="round"/>
+    <ellipse cx="214" cy="442" rx="36" ry="17" fill="#FFC93C"/><ellipse cx="304" cy="444" rx="36" ry="17" fill="#FFC93C"/>
+    <circle cx="320" cy="252" r="44" fill="#fff"/><circle cx="333" cy="257" r="22" fill="#0F2018"/><circle cx="341" cy="250" r="7" fill="#fff"/>
+    <circle cx="388" cy="300" r="8" fill="#0E7A45"/><path d="M348 340 q30 18 52 4" fill="none" stroke="#0F2018" stroke-width="12" stroke-linecap="round"/>
+    <path d="M262 116 L352 152 L262 188 L172 152 Z" fill="#0F2018"/><circle cx="262" cy="116" r="11" fill="#FFC93C"/><path d="M344 156 L344 192" stroke="#FFC93C" stroke-width="9" stroke-linecap="round"/><circle cx="344" cy="200" r="11" fill="#FFC93C"/>
+  </symbol>
+
+  <symbol id="dino-solid" viewBox="0 0 512 512">
+    <rect x="16" y="16" width="480" height="480" rx="118" fill="#1FC36B"/>
+    <g fill="#FFC93C" stroke="#FFC93C" stroke-width="10" stroke-linejoin="round"><path d="M176 206 L150 150 L210 184 Z"/><path d="M150 270 L104 232 L168 230 Z"/></g>
+    <path d="M246 172 C322 172 380 220 392 286 C406 292 408 318 394 328 C384 380 350 414 298 426 C284 430 270 432 254 432 C186 432 148 386 148 316 C148 230 178 172 246 172 Z" fill="#0E9F52"/>
+    <ellipse cx="248" cy="372" rx="72" ry="60" fill="#EAFBF1"/>
+    <path d="M196 372 q-26 8 -30 34" fill="none" stroke="#0C8A47" stroke-width="22" stroke-linecap="round"/>
+    <ellipse cx="214" cy="442" rx="36" ry="17" fill="#FFC93C"/><ellipse cx="304" cy="444" rx="36" ry="17" fill="#FFC93C"/>
+    <circle cx="320" cy="252" r="44" fill="#fff"/><circle cx="333" cy="257" r="22" fill="#0F2018"/><circle cx="341" cy="250" r="7" fill="#fff"/>
+    <circle cx="388" cy="300" r="8" fill="#0C8A47"/><path d="M348 340 q30 18 52 4" fill="none" stroke="#0F2018" stroke-width="12" stroke-linecap="round"/>
+    <path d="M262 116 L352 152 L262 188 L172 152 Z" fill="#0F2018"/><circle cx="262" cy="116" r="11" fill="#FFC93C"/><path d="M344 156 L344 192" stroke="#FFC93C" stroke-width="9" stroke-linecap="round"/><circle cx="344" cy="200" r="11" fill="#FFC93C"/>
+  </symbol>
+
+  <symbol id="dino-sm" viewBox="0 0 512 512">
+    <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+    <path d="M240 158 C322 158 388 214 400 292 C414 298 416 326 400 336 C390 396 352 436 296 448 C282 452 268 454 250 454 C176 454 130 402 130 322 C130 226 168 158 240 158 Z" fill="#1FC36B"/>
+    <ellipse cx="244" cy="384" rx="84" ry="70" fill="#EAFBF1"/>
+    <circle cx="322" cy="252" r="56" fill="#fff"/><circle cx="338" cy="258" r="28" fill="#0F2018"/>
+    <circle cx="396" cy="306" r="10" fill="#0E7A45"/>
+    <path d="M262 110 L360 148 L262 186 L164 148 Z" fill="#0F2018"/><circle cx="262" cy="110" r="13" fill="#FFC93C"/>
+  </symbol>
+
+  <!-- body-only mark, no tile (for misuse/recolor demos) -->
+  <symbol id="dino-mark" viewBox="0 0 512 512">
+    <g fill="#FFC93C" stroke="#FFC93C" stroke-width="10" stroke-linejoin="round"><path d="M176 206 L150 150 L210 184 Z"/><path d="M150 270 L104 232 L168 230 Z"/></g>
+    <path d="M246 172 C322 172 380 220 392 286 C406 292 408 318 394 328 C384 380 350 414 298 426 C284 430 270 432 254 432 C186 432 148 386 148 316 C148 230 178 172 246 172 Z" fill="#1FC36B"/>
+    <ellipse cx="248" cy="372" rx="72" ry="60" fill="#EAFBF1"/>
+    <path d="M196 372 q-26 8 -30 34" fill="none" stroke="#15A95B" stroke-width="22" stroke-linecap="round"/>
+    <ellipse cx="214" cy="442" rx="36" ry="17" fill="#FFC93C"/><ellipse cx="304" cy="444" rx="36" ry="17" fill="#FFC93C"/>
+    <circle cx="320" cy="252" r="44" fill="#fff"/><circle cx="333" cy="257" r="22" fill="#0F2018"/><circle cx="341" cy="250" r="7" fill="#fff"/>
+    <circle cx="388" cy="300" r="8" fill="#0E7A45"/><path d="M348 340 q30 18 52 4" fill="none" stroke="#0F2018" stroke-width="12" stroke-linecap="round"/>
+    <path d="M262 116 L352 152 L262 188 L172 152 Z" fill="#0F2018"/><circle cx="262" cy="116" r="11" fill="#FFC93C"/><path d="M344 156 L344 192" stroke="#FFC93C" stroke-width="9" stroke-linecap="round"/><circle cx="344" cy="200" r="11" fill="#FFC93C"/>
+  </symbol>
+</defs></svg>
+
+<div class="book">
+
+  <!-- ===================== 01 · COVER ===================== -->
+  <section class="sheet cover" data-screen-label="01 Cover">
+    <div class="runner top"><span>Brand · Logo Book</span><span class="pg">2026 Edition</span></div>
+    <div class="pad">
+      <div class="cover-top"><span>Regentify</span><span style="opacity:.4">/</span><span>The Mark</span></div>
+      <div class="cover-hero">
+        <svg class="big-ico" viewBox="0 0 512 512"><use href="#dino"/></svg>
+        <div>
+          <h1>Logo<br>Book</h1>
+          <p class="sub">Everything you need to use Reggie &amp; the Regentify wordmark correctly — anatomy, lockups, spacing, color and applications.</p>
+        </div>
+      </div>
+      <div class="cover-bottom">
+        <div class="wm on-dark"><span class="r">Regent</span><span class="ify">ify</span></div>
+        <div class="meta">Version 1.0<br>Nine pages</div>
+      </div>
+    </div>
+    <div class="runner bot"><span class="brand-dot"><svg viewBox="0 0 512 512"><use href="#dino"/></svg>Reggie the Dino</span><span class="pg">01</span></div>
+  </section>
+
+  <!-- ===================== 02 · THE MARK / ANATOMY ===================== -->
+  <section class="sheet" data-screen-label="02 The mark">
+    <div class="runner top"><span class="brand-dot"><svg viewBox="0 0 512 512"><use href="#dino"/></svg>Logo Book</span><span>The Mark</span></div>
+    <div class="pad">
+      <p class="eyebrow">01 · The Mark</p>
+      <h2>Meet Reggie.</h2>
+      <p class="lead">Reggie is a round, friendly baby dinosaur wearing a graduation cap — the face of learning that levels up. The mark always sits inside a rounded green tile, balanced by XP-yellow spikes, feet and tassel.</p>
+      <div class="anatomy">
+        <div class="stage" style="min-height:380px"><svg width="320" height="320" viewBox="0 0 512 512"><use href="#dino"/></svg></div>
+        <div class="callouts">
+          <div class="callout"><span class="dot">1</span><div><div class="note-h">Squircle tile</div><div class="note-p">A 118px-radius rounded square in the brand green gradient — the constant container for the mark.</div></div></div>
+          <div class="callout"><span class="dot y">2</span><div><div class="note-h">XP accents</div><div class="note-p">Back-spikes, feet and cap tassel in XP Yellow — the reward color carried from the product.</div></div></div>
+          <div class="callout"><span class="dot k">3</span><div><div class="note-h">Graduation cap</div><div class="note-p">Ink-black mortarboard signals education; it anchors the silhouette and reads even at small sizes.</div></div></div>
+          <div class="callout"><span class="dot">4</span><div><div class="note-h">Belly &amp; eye</div><div class="note-p">Mint belly and a single oversized eye give Reggie warmth and a clear focal point.</div></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="runner bot"><span>Regentify</span><span class="pg">02</span></div>
+  </section>
+
+  <!-- ===================== 03 · LOCKUPS ===================== -->
+  <section class="sheet" data-screen-label="03 Lockups">
+    <div class="runner top"><span class="brand-dot"><svg viewBox="0 0 512 512"><use href="#dino"/></svg>Logo Book</span><span>Lockups</span></div>
+    <div class="pad">
+      <p class="eyebrow">02 · Lockups</p>
+      <h2>Mark &amp; wordmark.</h2>
+      <p class="lead">The icon can stand alone, or pair with the wordmark in two approved lockups. Always keep the relationship and spacing fixed — never re-typeset the wordmark or re-scale one part independently.</p>
+      <div class="grid2" style="margin-top:30px;flex:1">
+        <div class="lock stage"><span class="corner">Horizontal · primary</span><svg width="96" height="96" viewBox="0 0 512 512"><use href="#dino"/></svg><div class="wm" style="font-size:56px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+        <div class="lock stage dark"><span class="corner">Horizontal · reversed</span><svg width="96" height="96" viewBox="0 0 512 512"><use href="#dino-solid"/></svg><div class="wm on-dark" style="font-size:56px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+        <div class="lock stacked stage"><span class="corner">Stacked</span><svg width="112" height="112" viewBox="0 0 512 512"><use href="#dino"/></svg><div class="wm" style="font-size:44px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+        <div class="lock stacked stage dark"><span class="corner">Stacked · reversed</span><svg width="112" height="112" viewBox="0 0 512 512"><use href="#dino-solid"/></svg><div class="wm on-dark" style="font-size:44px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+      </div>
+    </div>
+    <div class="runner bot"><span>Wordmark set in Fredoka 700 · “ify” in XP Yellow</span><span class="pg">03</span></div>
+  </section>
+
+  <!-- ===================== 04 · CONSTRUCTION ===================== -->
+  <section class="sheet" data-screen-label="04 Construction">
+    <div class="runner top"><span class="brand-dot"><svg viewBox="0 0 512 512"><use href="#dino"/></svg>Logo Book</span><span>Construction</span></div>
+    <div class="pad">
+      <p class="eyebrow">03 · Construction</p>
+      <h2>Built on a grid.</h2>
+      <p class="lead">The tile is a 512-unit square with a 16-unit margin and 118-unit corner radius. Reggie is centered on the optical axis; the cap and eye align to the upper third.</p>
+      <div class="grid2" style="margin-top:30px;flex:1;align-items:center">
+        <div class="stage" style="min-height:380px">
+          <span class="corner">Grid · 512 units</span>
+          <div class="constructbox" style="width:320px;height:320px">
+            <svg width="320" height="320" viewBox="0 0 512 512"><use href="#dino"/></svg>
+            <svg class="gridlines" viewBox="0 0 512 512" preserveAspectRatio="none">
+              <line x1="170.6" y1="0" x2="170.6" y2="512"/><line x1="341.3" y1="0" x2="341.3" y2="512"/>
+              <line x1="0" y1="170.6" x2="512" y2="170.6"/><line x1="0" y1="341.3" x2="512" y2="341.3"/>
+              <line x1="256" y1="0" x2="256" y2="512" stroke="#9ec9b1"/>
+              <circle cx="256" cy="256" r="220"/>
+            </svg>
+          </div>
+        </div>
+        <div class="callouts">
+          <div class="callout"><span class="dot">16</span><div><div class="note-h">Tile margin</div><div class="note-p">16 units of breathing room inside the 512 artboard keeps the squircle off every edge.</div></div></div>
+          <div class="callout"><span class="dot y">118</span><div><div class="note-h">Corner radius</div><div class="note-p">A fixed 118-unit radius — the same squircle softness used across all product surfaces.</div></div></div>
+          <div class="callout"><span class="dot k">⌖</span><div><div class="note-h">Optical centering</div><div class="note-p">Reggie shifts slightly right of true center so the back-spikes don’t pull the silhouette off balance.</div></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="runner bot"><span>Never rebuild the mark by hand — always use the supplied vector files</span><span class="pg">04</span></div>
+  </section>
+
+  <!-- ===================== 05 · CLEAR SPACE & SIZING ===================== -->
+  <section class="sheet" data-screen-label="05 Clear space">
+    <div class="runner top"><span class="brand-dot"><svg viewBox="0 0 512 512"><use href="#dino"/></svg>Logo Book</span><span>Clear Space &amp; Sizing</span></div>
+    <div class="pad">
+      <p class="eyebrow">04 · Clear Space &amp; Minimum Size</p>
+      <h2>Give it room.</h2>
+      <p class="lead">Maintain clear space of at least one-quarter of the tile width on every side. Below 32px, switch to the simplified mark so the silhouette stays crisp.</p>
+      <div class="grid2" style="margin-top:30px;flex:1;align-items:center">
+        <div class="stage" style="min-height:360px">
+          <span class="corner">Clear space · ¼ tile</span>
+          <svg width="220" height="220" viewBox="0 0 512 512" style="outline:2px dashed #aacdba;outline-offset:55px;border-radius:50px"><use href="#dino"/></svg>
+        </div>
+        <div>
+          <div class="stage" style="min-height:360px;padding:30px">
+            <span class="corner">Minimum size · full → simplified</span>
+            <div style="display:flex;align-items:flex-end;gap:30px">
+              <div style="display:flex;flex-direction:column;align-items:center;gap:11px"><svg width="72" height="72" viewBox="0 0 512 512"><use href="#dino"/></svg><span class="px">72px</span></div>
+              <div style="display:flex;flex-direction:column;align-items:center;gap:11px"><svg width="48" height="48" viewBox="0 0 512 512"><use href="#dino"/></svg><span class="px">48px</span></div>
+              <div style="display:flex;flex-direction:column;align-items:center;gap:11px"><svg width="32" height="32" viewBox="0 0 512 512"><use href="#dino-sm"/></svg><span class="px">32px ·simpl.</span></div>
+              <div style="display:flex;flex-direction:column;align-items:center;gap:11px"><svg width="24" height="24" viewBox="0 0 512 512"><use href="#dino-sm"/></svg><span class="px">24px ·simpl.</span></div>
+              <div style="display:flex;flex-direction:column;align-items:center;gap:11px"><svg width="16" height="16" viewBox="0 0 512 512"><use href="#dino-sm"/></svg><span class="px">16px ·simpl.</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="runner bot"><span>Simplified mark drops spikes, feet &amp; tassel — body, eye, snout &amp; cap remain</span><span class="pg">05</span></div>
+  </section>
+
+  <!-- ===================== 06 · COLOR ===================== -->
+  <section class="sheet" data-screen-label="06 Color">
+    <div class="runner top"><span class="brand-dot"><svg viewBox="0 0 512 512"><use href="#dino"/></svg>Logo Book</span><span>Color</span></div>
+    <div class="pad">
+      <p class="eyebrow">05 · Color</p>
+      <h2>Two tiles, one palette.</h2>
+      <p class="lead">Use the green <b>gradient</b> tile on light and neutral surfaces. On dark or busy backgrounds, use the <b>solid Spark Green</b> tile so the squircle keeps a clean edge. The mark inside never changes proportion or color.</p>
+      <div class="grid2" style="margin:30px 0 28px">
+        <div class="stage" style="min-height:200px"><span class="corner">Gradient · light &amp; neutral bg</span><svg width="148" height="148" viewBox="0 0 512 512"><use href="#dino"/></svg></div>
+        <div class="stage dark" style="min-height:200px"><span class="corner">Solid · dark &amp; busy bg</span><svg width="148" height="148" viewBox="0 0 512 512"><use href="#dino-solid"/></svg></div>
+      </div>
+      <div class="swatches">
+        <div class="sw"><div class="chip" style="background:#1FC36B"><span class="role">Primary</span></div><div class="meta"><div class="nm">Spark Green</div><div class="hex">#1FC36B</div></div></div>
+        <div class="sw"><div class="chip" style="background:#0E9F52"><span class="role">Depth</span></div><div class="meta"><div class="nm">Forest</div><div class="hex">#0E9F52</div></div></div>
+        <div class="sw"><div class="chip" style="background:#FFC93C"><span class="role" style="color:rgba(15,32,24,.6)">Accent</span></div><div class="meta"><div class="nm">XP Yellow</div><div class="hex">#FFC93C</div></div></div>
+        <div class="sw"><div class="chip" style="background:#0F2018"><span class="role">Ink</span></div><div class="meta"><div class="nm">Ink</div><div class="hex">#0F2018</div></div></div>
+        <div class="sw"><div class="chip" style="background:#EAFBF1;border-bottom:1px solid #eef2ef"><span class="role" style="color:rgba(15,32,24,.45)">Tint</span></div><div class="meta"><div class="nm">Mint Wash</div><div class="hex">#EAFBF1</div></div></div>
+      </div>
+    </div>
+    <div class="runner bot"><span>Gradient runs #27D078 → #0E9F52, top to bottom</span><span class="pg">06</span></div>
+  </section>
+
+  <!-- ===================== 07 · MISUSE ===================== -->
+  <section class="sheet" data-screen-label="07 Misuse">
+    <div class="runner top"><span class="brand-dot"><svg viewBox="0 0 512 512"><use href="#dino"/></svg>Logo Book</span><span>Misuse</span></div>
+    <div class="pad">
+      <p class="eyebrow">06 · Don’ts</p>
+      <h2>Protect the mark.</h2>
+      <p class="lead">The mark is a fixed asset. Don’t alter its color, proportion, orientation or effects — these examples are all incorrect.</p>
+      <div class="grid3" style="margin-top:30px;flex:1;align-content:center">
+        <div class="dont"><span class="x">✕</span><div class="frame"><svg width="120" height="84" viewBox="0 0 512 512" preserveAspectRatio="none"><use href="#dino"/></svg></div><div class="lbl"><b>Don’t stretch</b> or distort the proportions.</div></div>
+        <div class="dont"><span class="x">✕</span><div class="frame"><svg width="120" height="120" viewBox="0 0 512 512"><rect x="16" y="16" width="480" height="480" rx="118" fill="#7C5CFC"/><use href="#dino-mark"/></svg></div><div class="lbl"><b>Don’t recolor</b> the tile to off-brand hues.</div></div>
+        <div class="dont"><span class="x">✕</span><div class="frame"><svg width="120" height="120" viewBox="0 0 512 512" style="transform:rotate(18deg)"><use href="#dino"/></svg></div><div class="lbl"><b>Don’t rotate</b> or tilt the mark.</div></div>
+        <div class="dont"><span class="x">✕</span><div class="frame"><svg width="120" height="120" viewBox="0 0 512 512" style="filter:drop-shadow(0 8px 6px rgba(0,0,0,.5))"><use href="#dino"/></svg></div><div class="lbl"><b>Don’t add</b> drop shadows or effects.</div></div>
+        <div class="dont" style="background:url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22><rect width=%2220%22 height=%2220%22 fill=%22%23cdd9d1%22/><circle cx=%225%22 cy=%225%22 r=%223%22 fill=%22%23aebbb2%22/></svg>')"><span class="x">✕</span><div class="frame"><svg width="120" height="120" viewBox="0 0 512 512"><use href="#dino-mark"/></svg></div><div class="lbl"><b>Don’t place</b> the tile-less mark on a busy bg.</div></div>
+        <div class="dont"><span class="x">✕</span><div class="frame"><svg width="120" height="120" viewBox="0 0 512 512" style="filter:grayscale(1)"><use href="#dino"/></svg></div><div class="lbl"><b>Don’t desaturate</b> or convert to mono.</div></div>
+      </div>
+    </div>
+    <div class="runner bot"><span>When in doubt, use a supplied file unchanged</span><span class="pg">07</span></div>
+  </section>
+
+  <!-- ===================== 08 · APPLICATIONS ===================== -->
+  <section class="sheet" data-screen-label="08 Applications">
+    <div class="runner top"><span class="brand-dot"><svg viewBox="0 0 512 512"><use href="#dino"/></svg>Logo Book</span><span>In Context</span></div>
+    <div class="pad">
+      <p class="eyebrow">07 · Applications</p>
+      <h2>Out in the world.</h2>
+      <p class="lead">Reggie is built to thrive as an app icon, favicon and avatar — high contrast, instantly recognizable, legible at a glance on a crowded home screen.</p>
+      <div class="grid2" style="margin-top:30px;flex:1;align-items:center">
+        <div class="phone">
+          <div class="screen">
+            <div class="status"><span>9:41</span><span>5G ▮</span></div>
+            <div class="grid-apps">
+              <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+              <div class="applet"><span class="ic"><svg viewBox="0 0 512 512" width="46" height="46"><use href="#dino"/></svg></span><span class="nm">Regentify</span></div>
+              <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+              <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:20px">
+          <div class="stage" style="min-height:150px;padding:26px"><span class="corner">Favicon · browser tab</span>
+            <div style="display:flex;align-items:flex-end;gap:28px">
+              <div style="display:flex;flex-direction:column;align-items:center;gap:10px"><span class="browser-tab"><svg width="16" height="16" viewBox="0 0 512 512"><use href="#dino-sm"/></svg><span>Regentify</span></span><span class="px">tab · 16px</span></div>
+              <div style="display:flex;flex-direction:column;align-items:center;gap:10px"><svg width="40" height="40" viewBox="0 0 512 512"><use href="#dino-sm"/></svg><span class="px">favicon</span></div>
+            </div>
+          </div>
+          <div class="stage" style="min-height:150px;padding:26px"><span class="corner">Avatar · profile</span>
+            <div style="display:flex;align-items:center;gap:26px">
+              <svg width="74" height="74" viewBox="0 0 512 512" style="border-radius:50%"><use href="#dino"/></svg>
+              <svg width="54" height="54" viewBox="0 0 512 512" style="border-radius:50%"><use href="#dino"/></svg>
+              <svg width="40" height="40" viewBox="0 0 512 512" style="border-radius:50%"><use href="#dino"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="runner bot"><span>Mask the tile to a circle only for avatars — never crop the silhouette</span><span class="pg">08</span></div>
+  </section>
+
+  <!-- ===================== 09 · ASSET INDEX ===================== -->
+  <section class="sheet" data-screen-label="09 Asset index">
+    <div class="runner top"><span class="brand-dot"><svg viewBox="0 0 512 512"><use href="#dino"/></svg>Logo Book</span><span>Assets</span></div>
+    <div class="pad">
+      <p class="eyebrow">08 · Asset Index</p>
+      <h2>Download &amp; go.</h2>
+      <p class="lead">Every approved file lives in <code style="font-family:ui-monospace,monospace;background:var(--mint-wash);padding:2px 8px;border-radius:6px;color:var(--forest)">assets/logo/</code>. Each is hand-layered, commented, and ready for production.</p>
+      <div class="asset-list" style="margin-top:30px">
+        <div class="asset"><div class="holder"><img src="assets/logo/reggie-dino-icon.svg" width="92" style="border-radius:22px;display:block"></div><span class="fn">reggie-dino-icon.svg</span><p class="desc">Primary app icon — gradient tile, full detail.</p></div>
+        <div class="asset"><div class="holder" style="background:var(--ink);border-radius:18px;padding:14px;align-items:center"><img src="assets/logo/reggie-dino-icon-dark.svg" width="80" style="border-radius:20px;display:block"></div><span class="fn">reggie-dino-icon-dark.svg</span><p class="desc">Solid Spark Green tile for dark surfaces.</p></div>
+        <div class="asset"><div class="holder"><img src="assets/logo/reggie-dino-mark.svg" width="84" style="display:block"></div><span class="fn">reggie-dino-mark.svg</span><p class="desc">Tile-less mark, transparent background.</p></div>
+        <div class="asset"><div class="holder"><img src="assets/logo/reggie-dino-favicon.svg" width="56" style="border-radius:14px;display:block"></div><span class="fn">reggie-dino-favicon.svg</span><p class="desc">Simplified mark for 16–32px favicons.</p></div>
+        <div class="asset"><div class="holder"><img src="assets/logo/lockup-horizontal.svg" height="56" style="display:block"></div><span class="fn">lockup-horizontal.svg</span><p class="desc">Icon + wordmark, side by side.</p></div>
+        <div class="asset"><div class="holder"><img src="assets/logo/lockup-stacked.svg" height="92" style="display:block"></div><span class="fn">lockup-stacked.svg</span><p class="desc">Icon above wordmark, centered.</p></div>
+      </div>
+    </div>
+    <div class="runner bot"><span class="brand-dot"><svg viewBox="0 0 512 512"><use href="#dino"/></svg>Regentify · Logo Book v1.0</span><span class="pg">09</span></div>
+  </section>
+
+</div>
+<script>
+(async () => {
+  if (!document.title || !document.title.trim()) document.title = "Regentify Logo Book";
+  // Prepend so page-supplied @page / break rules (deck-stage's margin:0,
+  // author CSS) keep source-order precedence over the baseline.
+  const baseCss = document.createElement('style');
+  baseCss.textContent = "@media print {\n  @page { margin: 0.5cm; }\n  figure, table { break-inside: avoid; }\n  *, *::before, *::after {\n    print-color-adjust: exact; -webkit-print-color-adjust: exact;\n    backdrop-filter: none !important; -webkit-backdrop-filter: none !important;\n    animation-delay: -99s !important; animation-duration: .001s !important;\n    animation-iteration-count: 1 !important; animation-fill-mode: both !important;\n    animation-play-state: running !important; transition-duration: 0s !important;\n  }\n}";
+  document.head.prepend(baseCss);
+  if (document.readyState === 'loading') {
+    await new Promise((r) => document.addEventListener('DOMContentLoaded', r, { once: true }));
+  }
+  let ds = document.querySelector('deck-stage');
+  // whenDefined never resolves when nothing registers the element, so only
+  // await it when a <deck-stage> tag exists (and race a timeout regardless).
+  if (ds && !customElements.get('deck-stage')) {
+    try {
+      await Promise.race([
+        customElements.whenDefined('deck-stage'),
+        new Promise((r) => setTimeout(r, 3000)),
+      ]);
+    } catch (e) {}
+    ds = document.querySelector('deck-stage');
+  }
+  // dc-runtime assigns window.DCLogic at init and mounts into #dc-root on
+  // DOMContentLoaded; settle on that subtree so React has rendered before
+  // print(). Non-DC pages fall through to weighing body.
+  const isDc = !ds && 'DCLogic' in window;
+  const settleRoot = ds || (isDc ? document.getElementById('dc-root') : null) || document.body;
+  if (settleRoot) {
+    // Weigh only content children — skip script/style/template so inline
+    // Babel/CSS doesn't register as stable "content" before the framework
+    // has mounted anything.
+    const MEDIA = 'img,svg,canvas,video,picture,iframe,embed,object';
+    const weigh = () => {
+      let text = 0, media = 0;
+      for (const c of settleRoot.children) {
+        const t = c.tagName;
+        if (t === 'SCRIPT' || t === 'STYLE' || t === 'TEMPLATE') continue;
+        text += (c.textContent || '').trim().length;
+        media += c.querySelectorAll(MEDIA).length + (c.matches(MEDIA) ? 1 : 0);
+      }
+      return text + media * 100;
+    };
+    // "Non-zero and stable" alone is not sufficient to mean rendered: generic
+    // body can carry a static shell while async main content is pending, and
+    // #dc-root can carry the root DC's static text while child refs are still
+    // .sc-placeholder boxes. Gate generic on readyState 'complete', and never
+    // accept stability while a dc-runtime placeholder is present.
+    const isGeneric = settleRoot === document.body;
+    const deadline = Date.now() + 15000;
+    let last = -1, stable = 0;
+    while (Date.now() < deadline) {
+      const n = weigh();
+      const ready =
+        (!isGeneric || document.readyState === 'complete') &&
+        !settleRoot.querySelector('.sc-placeholder');
+      if (n > 0 && n === last && ready) { if (++stable >= 2) break; } else { stable = 0; }
+      last = n;
+      await new Promise((r) => setTimeout(r, 250));
+    }
+  }
+  // Reveal content gated on scroll or visibility before printing. Lazy <img>,
+  // IntersectionObserver fade-ins, and collapsed <details> don't render while
+  // off-screen, so a long page would print with them blank or closed. Open
+  // every <details>, force native-lazy images eager, and scroll the document
+  // through its full height to trip lazy-load + IO; then wait (bounded) for the
+  // newly-triggered images. Inert for deck-stage (slides aren't scroll-gated).
+  try {
+    for (const d of document.querySelectorAll('details')) d.open = true;
+    for (const img of document.querySelectorAll('img[loading="lazy"]'))
+      img.loading = 'eager';
+    const scroller = document.scrollingElement || document.documentElement;
+    const full = Math.max(scroller.scrollHeight, document.body.scrollHeight);
+    const step = window.innerHeight || 800;
+    for (let y = 0; y <= full; y += step) {
+      window.scrollTo(0, y);
+      await new Promise((r) => requestAnimationFrame(r));
+    }
+    window.scrollTo(0, 0);
+    await Promise.race([
+      Promise.all(
+        [...document.images].map((img) =>
+          img.complete
+            ? null
+            : new Promise((res) => {
+                img.addEventListener('load', res, { once: true });
+                img.addEventListener('error', res, { once: true });
+              })
+        )
+      ),
+      new Promise((r) => setTimeout(r, 4000)),
+    ]);
+  } catch (e) {}
+  try { await document.fonts.ready; } catch (e) {}
+  // Jump every animation to its end state so print() never captures a slide
+  // mid-entrance. Ordering matters: the 0s-transition style must be live
+  // BEFORE data-deck-active is set so attribute-keyed transitions don't
+  // start a (now-0s) run from the pre-active base.
+  const st = document.createElement('style');
+  st.textContent = '*,*::before,*::after{animation-delay:-99s !important;animation-duration:.001s !important;animation-iteration-count:1 !important;animation-fill-mode:both !important;animation-play-state:running !important;transition-duration:0s !important}';
+  document.head.appendChild(st);
+  for (const d of document.querySelectorAll('deck-stage')) {
+    for (const c of d.children) {
+      const t = c.tagName;
+      if (t === 'SCRIPT' || t === 'STYLE' || t === 'TEMPLATE') continue;
+      c.setAttribute('data-deck-active', '');
+    }
+  }
+  // Re-append deck-stage's @page last so no author @page can add a margin and
+  // spill each full-bleed slide onto two sheets. Backstop for old copies.
+  if (ds) {
+    let pg = document.getElementById('deck-stage-print-page');
+    if (!pg) {
+      pg = document.createElement('style');
+      pg.textContent = '@page{size:' + (+ds.getAttribute('width') || 1920) +
+        'px ' + (+ds.getAttribute('height') || 1080) + 'px;margin:0}';
+    }
+    document.body.appendChild(pg);
+  }
+  try {
+    const sweep = () => {
+      for (const a of document.getAnimations()) {
+        try { a.finish(); } catch (e) {
+          try { a.currentTime = (a.effect && a.effect.getComputedTiming().duration) || 0; a.pause(); } catch (e2) {}
+        }
+      }
+    };
+    sweep();
+    await new Promise((r) => requestAnimationFrame(r));
+    sweep();
+    await new Promise((r) => requestAnimationFrame(r));
+  } catch (e) {}
+  // Relax break-inside on oversized elements. An element taller than a
+  // printable page can't honor break-inside: avoid — browsers either overflow
+  // it or push it whole to the next page, leaving a blank gap, then break it
+  // anyway at an arbitrary point. After the final layout (content revealed,
+  // animations jumped), find elements taller than a page that still compute
+  // break-inside: avoid and reset them to auto, so the browser breaks them at
+  // their children's boundaries instead (children keep their own avoid). PAGE_PX
+  // is a conservative portrait estimate at 96 CSS px/in — Letter/A4 usable
+  // height minus our 0.5in margins — so only clearly-oversized elements are
+  // touched and under-page elements still stay whole. Skipped for decks, whose
+  // slides are sized to the page.
+  try {
+    if (!document.querySelector('deck-stage')) {
+      const PAGE_PX = 1024;
+      // Our print defaults add a body padding inset only when we also zero the
+      // @page margin; computed style can't tell us (it reports screen media),
+      // so read the injected rule directly.
+      const defaults = document.querySelector('style[data-omelette-print-defaults]');
+      const pageInset = /body\s*\{[^}]*padding/.test(defaults ? defaults.textContent || '' : '');
+      const SEL = 'section,article,figure,table,pre,blockquote,[class~="card" i],[class~="page" i],[class~="sheet" i]';
+      for (const el of document.body.querySelectorAll(SEL)) {
+        if (el instanceof HTMLElement && el.offsetHeight > PAGE_PX) {
+          el.setAttribute('data-om-oversized', '');
+          // Fake-paged docs simulate sheets with over-tall break-after:page
+          // boxes; honoring the break spills half-blank pages and ends a
+          // colored box mid-sheet. Flow them, and (only when we own the page
+          // inset) drop the redundant padding/background via the rule below.
+          const cs = getComputedStyle(el);
+          if (cs.breakAfter === 'page' || cs.pageBreakAfter === 'always') {
+            el.setAttribute('data-om-fakepage', '');
+          }
+        }
+      }
+      const ost = document.createElement('style');
+      ost.textContent = '@media print{' +
+        '[data-om-oversized]{break-inside:auto !important;page-break-inside:auto !important}' +
+        '[data-om-fakepage]{break-after:auto !important;page-break-after:auto !important}' +
+        (pageInset ? '[data-om-fakepage]{padding:0 !important;background:none !important}' : '') +
+        '}';
+      document.head.appendChild(ost);
+    }
+  } catch (e) {}
+  // macOS Preview renders Skia-PDF Luminosity soft-masks as opaque grey boxes;
+  // swap the CSS that triggers them for Preview-safe forms.
+  try {
+    for (const el of document.body.querySelectorAll('*')) {
+      const cs = getComputedStyle(el);
+
+      if (cs.boxShadow !== 'none' && cs.filter === 'none') {
+        const outs = [], kept = [];
+        for (const s of cs.boxShadow.split(/,(?![^(]*[)])/)) {
+          const t = s.trim();
+          const m = t.match(/^(rgba?[(][^)]+[)]) (-?[0-9.]+px) (-?[0-9.]+px) ([0-9.]+px) -?[0-9.]+px$/);
+          if (m && parseFloat(m[4]) > 0) outs.push('drop-shadow(' + m[2] + ' ' + m[3] + ' ' + m[4] + ' ' + m[1] + ')');
+          else kept.push(t);
+        }
+        if (outs.length) {
+          el.style.setProperty('filter', outs.join(' '), 'important');
+          el.style.setProperty('box-shadow', kept.join(', ') || 'none', 'important');
+        }
+      }
+
+      const mask = cs.maskImage && cs.maskImage !== 'none' ? cs.maskImage : cs.webkitMaskImage;
+      if (mask && mask !== 'none' && cs.filter === 'none') el.style.setProperty('filter', 'opacity(1)', 'important');
+    }
+  } catch (e) {}
+  setTimeout(() => { try { window.print(); } catch (e) {} }, 200);
+})();
+</script>
+</body>
+</html>

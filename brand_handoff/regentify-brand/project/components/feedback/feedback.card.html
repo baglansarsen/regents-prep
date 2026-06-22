@@ -1,0 +1,49 @@
+<!-- @dsCard group="Components" viewport="700x220" name="Stat Chips & Progress" subtitle="Gamification pills + progress meter" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; background: var(--mint-wash); font-family: var(--font-body); color: var(--ink); }
+  .pad { padding: 22px; display: flex; flex-direction: column; gap: 20px; }
+  .row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  .lbl { font-family: var(--font-display); font-weight: 600; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--slate); margin-bottom: 10px; }
+  .bars { display: flex; flex-direction: column; gap: 14px; max-width: 440px; }
+</style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <script src="../../_ds_bundle.js"></script>
+  <script type="text/babel">
+    const { StatChip, ProgressBar } = window.DesignSystem_756e59;
+    function Demo() {
+      return (
+        <div className="pad">
+          <div>
+            <div className="lbl">Gamification chips</div>
+            <div className="row">
+              <StatChip kind="xp" value="1,250 XP" />
+              <StatChip kind="streak" value="7-day streak" />
+              <StatChip kind="lives" value="3 lives" />
+              <StatChip kind="pro" value="Pro" />
+              <StatChip kind="xp" value="+15 XP" solid />
+            </div>
+          </div>
+          <div>
+            <div className="lbl">Progress</div>
+            <div className="bars">
+              <ProgressBar value={68} label="Algebra I" count="12 / 18" />
+              <ProgressBar value={34} label="Quiz" count="Q4 of 12" />
+            </div>
+          </div>
+        </div>
+      );
+    }
+    ReactDOM.createRoot(document.getElementById('root')).render(<Demo />);
+  </script>
+</body>
+</html>

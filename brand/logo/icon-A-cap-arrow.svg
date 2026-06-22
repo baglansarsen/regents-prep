@@ -1,0 +1,19 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#27D078"/>
+      <stop offset="1" stop-color="#0E9F52"/>
+    </linearGradient>
+  </defs>
+  <!-- squircle tile -->
+  <rect x="16" y="16" width="480" height="480" rx="116" fill="url(#gA)"/>
+  <!-- graduation cap board -->
+  <path d="M256 150 L392 214 L256 278 L120 214 Z" fill="#FFFFFF"/>
+  <!-- cap underside / arrow shaft -->
+  <path d="M256 300 L256 372" stroke="#FFFFFF" stroke-width="26" stroke-linecap="round"/>
+  <!-- upward level-up chevron in XP yellow -->
+  <path d="M214 334 L256 296 L298 334" fill="none" stroke="#FFC93C" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- tassel button -->
+  <circle cx="362" cy="228" r="13" fill="#FFC93C"/>
+  <path d="M362 228 L362 262" stroke="#FFC93C" stroke-width="9" stroke-linecap="round"/>
+</svg>

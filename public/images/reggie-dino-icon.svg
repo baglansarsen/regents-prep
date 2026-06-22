@@ -1,0 +1,34 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#27D078"/>
+      <stop offset="1" stop-color="#0E9F52"/>
+    </linearGradient>
+  </defs>
+  <!-- Background gradient squircle tile -->
+  <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tile)"/>
+  
+  <!-- Reggie the Dino -->
+  <g id="reggie">
+    <g id="tail" fill="#FFC93C" stroke="#FFC93C" stroke-width="10" stroke-linejoin="round">
+      <path d="M176 206 L150 150 L210 184 Z"/>
+      <path d="M150 270 L104 232 L168 230 Z"/>
+    </g>
+    <path id="body" d="M246 172 C322 172 380 220 392 286 C406 292 408 318 394 328 C384 380 350 414 298 426 C284 430 270 432 254 432 C186 432 148 386 148 316 C148 230 178 172 246 172 Z" fill="#1FC36B"/>
+    <ellipse id="belly" cx="248" cy="372" rx="72" ry="60" fill="#EAFBF1"/>
+    <path id="arm" d="M196 372 q-26 8 -30 34" fill="none" stroke="#15A95B" stroke-width="22" stroke-linecap="round"/>
+    <ellipse id="leg-left" cx="214" cy="442" rx="36" ry="17" fill="#FFC93C"/>
+    <ellipse id="leg-right" cx="304" cy="444" rx="36" ry="17" fill="#FFC93C"/>
+    <circle id="eye-white" cx="320" cy="252" r="44" fill="#fff"/>
+    <circle id="eye-pupil" cx="333" cy="257" r="22" fill="#0F2018"/>
+    <circle id="eye-highlight" cx="341" cy="250" r="7" fill="#fff"/>
+    <circle id="nostril" cx="388" cy="300" r="8" fill="#0E7A45"/>
+    <path id="mouth" d="M348 340 q30 18 52 4" fill="none" stroke="#0F2018" stroke-width="12" stroke-linecap="round"/>
+    <g id="cap">
+      <path d="M262 116 L352 152 L262 188 L172 152 Z" fill="#0F2018"/>
+      <circle cx="262" cy="116" r="11" fill="#FFC93C"/>
+      <path d="M344 156 L344 192" stroke="#FFC93C" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="344" cy="200" r="11" fill="#FFC93C"/>
+    </g>
+  </g>
+</svg>

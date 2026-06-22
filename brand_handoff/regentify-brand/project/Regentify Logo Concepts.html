@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regentify — Logo Concepts · Round 1</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #DCE6E0;
+    font-family: var(--font-body);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+  }
+  .page { width: max-content; min-width: 100%; padding: 56px 48px 80px; }
+  .head { max-width: 1180px; margin: 0 auto 40px; }
+  .kicker {
+    font-family: var(--font-display); font-weight: 600;
+    text-transform: uppercase; letter-spacing: .18em; font-size: 13px;
+    color: var(--forest); margin: 0 0 12px;
+  }
+  .head h1 {
+    font-family: var(--font-display); font-weight: 700;
+    font-size: 46px; letter-spacing: -.02em; line-height: 1.05; margin: 0 0 14px;
+  }
+  .head p { font-size: 17px; line-height: 1.55; color: #3a4a42; max-width: 660px; margin: 0; }
+
+  .concept {
+    width: 1180px; margin: 0 auto 28px; background: #fff; border-radius: 28px;
+    padding: 36px; box-shadow: 0 14px 40px rgba(15,32,24,.10);
+  }
+  .concept-head { display: flex; align-items: baseline; gap: 16px; margin: 0 0 6px; }
+  .concept-num {
+    font-family: var(--font-display); font-weight: 700; font-size: 15px;
+    color: #fff; background: var(--spark-green); width: 34px; height: 34px;
+    border-radius: 11px; display: grid; place-items: center; flex: none;
+    box-shadow: 0 3px 0 var(--forest);
+  }
+  .concept-head h2 { font-family: var(--font-display); font-weight: 600; font-size: 28px; margin: 0; letter-spacing: -.01em; white-space: nowrap; }
+  .concept-head .tag {
+    font-family: var(--font-display); font-size: 12px; font-weight: 600; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--forest); background: var(--mint-wash);
+    padding: 5px 12px; border-radius: 999px;
+  }
+  .concept > p.desc { margin: 0 0 26px 50px; color: #51635a; font-size: 15px; max-width: 720px; line-height: 1.5; }
+
+  .grid { display: grid; grid-template-columns: 300px 300px 1fr; gap: 18px; }
+  .cell {
+    border-radius: 20px; padding: 22px; position: relative;
+    border: 1px solid #eef2ef;
+  }
+  .cell.light { background: var(--mint-wash); }
+  .cell.dark  { background: var(--ink); }
+  .cell .label {
+    position: absolute; top: 14px; left: 16px;
+    font-family: var(--font-display); font-size: 10.5px; font-weight: 600;
+    letter-spacing: .12em; text-transform: uppercase; color: #93a69b;
+  }
+  .cell.dark .label { color: #5f7a6c; }
+  .cell.icon-cell { display: grid; place-items: center; min-height: 248px; }
+  .icon-xl { width: 168px; height: 168px; }
+
+  .stack-col { display: flex; flex-direction: column; gap: 18px; }
+  .lock-cell { background: #fff; border: 1px solid #eef2ef; border-radius: 20px; padding: 24px 26px; display: flex; align-items: center; gap: 22px; position: relative; }
+  .lock-cell.stacked { flex-direction: column; gap: 14px; }
+
+  /* wordmark */
+  .wm { font-family: var(--font-display); font-weight: 700; letter-spacing: -.03em; line-height: 1; white-space: nowrap; }
+  .wm .r { color: var(--ink); }
+  .wm .ify { color: var(--xp-yellow); }
+  .wm.on-dark .r { color: #fff; }
+  .lock-cell .icon-h { width: 64px; height: 64px; flex: none; }
+  .lock-cell.stacked .icon-h { width: 72px; height: 72px; }
+
+  /* bottom row: home screen + favicon */
+  .util-row { display: grid; grid-template-columns: 300px 1fr; gap: 18px; margin-top: 18px; }
+
+  .phone {
+    background: #fff; border: 1px solid #eef2ef; border-radius: 20px; padding: 18px;
+    display: grid; place-items: center;
+  }
+  .screen {
+    width: 232px; height: 300px; border-radius: 34px; overflow: hidden; position: relative;
+    background: linear-gradient(170deg, #1FC36B 0%, #0E9F52 60%, #0b8746 100%);
+    box-shadow: 0 10px 26px rgba(14,159,82,.34); padding: 16px 14px;
+  }
+  .screen .status { display: flex; justify-content: space-between; align-items: center; color: #fff; font-family: var(--font-display); font-weight: 600; font-size: 12px; opacity: .92; padding: 2px 6px 0; }
+  .screen .grid-apps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px 12px; margin-top: 26px; padding: 0 4px; }
+  .ghost { aspect-ratio: 1; border-radius: 14px; background: rgba(255,255,255,.18); }
+  .applet { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .applet .ic { width: 46px; height: 46px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,.18); }
+  .applet .nm { font-family: var(--font-display); font-weight: 600; font-size: 9.5px; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.25); }
+  .screen .dock { position: absolute; left: 14px; right: 14px; bottom: 12px; height: 58px; border-radius: 22px; background: rgba(255,255,255,.22); backdrop-filter: blur(6px); display: flex; align-items: center; justify-content: space-around; padding: 0 12px; }
+  .dock .ic { width: 42px; height: 42px; border-radius: 11px; overflow: hidden; }
+
+  .fav-cell { background: #fff; border: 1px solid #eef2ef; border-radius: 20px; padding: 24px 26px; position: relative; }
+  .fav-row { display: flex; align-items: flex-end; gap: 30px; height: 100%; padding-top: 18px; }
+  .fav-item { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+  .fav-item .px { font-family: var(--font-body); font-weight: 700; font-size: 11px; color: #8a9c92; }
+  .fav-item .frame { display: grid; place-items: center; }
+  .browser-tab { display: flex; align-items: center; gap: 8px; background: var(--mint-wash); border-radius: 9px 9px 0 0; padding: 8px 14px 9px; margin-left: 10px; }
+  .browser-tab span { font-family: var(--font-body); font-weight: 700; font-size: 12px; color: #45564d; }
+
+  .icsvg { display: block; }
+  .foot { max-width: 1180px; margin: 30px auto 0; color: #51635a; font-size: 14px; line-height: 1.6; }
+  .foot b { color: var(--ink); font-family: var(--font-display); font-weight: 600; }
+</style>
+</head>
+<body>
+<!-- ============ SVG DEFINITIONS (layered, reusable) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="tileGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#27D078"/>
+      <stop offset="1" stop-color="#0E9F52"/>
+    </linearGradient>
+
+    <!-- ░░ CONCEPT A — "Summit": the mortarboard IS an upward arrow ░░ -->
+    <symbol id="A-full" viewBox="0 0 512 512">
+      <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+      <!-- arrow shaft -->
+      <path d="M256 214 L256 372" stroke="#fff" stroke-width="58" stroke-linecap="round"/>
+      <!-- mortarboard arrowhead (wide shallow chevron) -->
+      <path d="M126 254 L256 158 L386 254" fill="none" stroke="#fff" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- tassel: button + swinging cord + knob -->
+      <circle cx="256" cy="150" r="17" fill="#FFC93C"/>
+      <path d="M256 150 Q330 168 338 214 L338 244" fill="none" stroke="#FFC93C" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="338" cy="258" r="15" fill="#FFC93C"/>
+    </symbol>
+    <symbol id="A-small" viewBox="0 0 512 512">
+      <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+      <path d="M256 232 L256 366" stroke="#fff" stroke-width="74" stroke-linecap="round"/>
+      <path d="M118 262 L256 150 L394 262" fill="none" stroke="#fff" stroke-width="74" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- ░░ CONCEPT B — "Cap & Stem": literal diamond cap + yellow launch arrow ░░ -->
+    <symbol id="B-full" viewBox="0 0 512 512">
+      <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+      <!-- mortarboard board (diamond) -->
+      <path d="M256 138 L398 206 L256 274 L114 206 Z" fill="#fff" stroke="#fff" stroke-width="20" stroke-linejoin="round"/>
+      <!-- tassel button + cord -->
+      <circle cx="256" cy="206" r="15" fill="#FFC93C"/>
+      <path d="M256 206 Q372 230 372 278 L372 320" fill="none" stroke="#FFC93C" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="372" cy="334" r="14" fill="#FFC93C"/>
+      <!-- yellow launch arrow beneath the cap -->
+      <path d="M256 312 L256 392" stroke="#FFC93C" stroke-width="46" stroke-linecap="round"/>
+      <path d="M206 350 L256 298 L306 350" fill="none" stroke="#FFC93C" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="B-small" viewBox="0 0 512 512">
+      <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+      <path d="M256 150 L408 224 L256 298 L104 224 Z" fill="#fff" stroke="#fff" stroke-width="26" stroke-linejoin="round"/>
+      <path d="M256 318 L256 378" stroke="#FFC93C" stroke-width="56" stroke-linecap="round"/>
+      <path d="M204 356 L256 300 L308 356" fill="none" stroke="#FFC93C" stroke-width="56" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <!-- ░░ CONCEPT C — "Reggie": mascot owl head (secondary option) ░░ -->
+    <symbol id="C-full" viewBox="0 0 512 512">
+      <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+      <!-- owl body -->
+      <path d="M256 150 C346 150 408 214 408 306 C408 386 340 432 256 432 C172 432 104 386 104 306 C104 214 166 150 256 150 Z" fill="#1FC36B"/>
+      <!-- mint belly -->
+      <path d="M256 300 C300 300 330 332 330 374 C330 408 296 432 256 432 C216 432 182 408 182 374 C182 332 212 300 256 300 Z" fill="#EAFBF1"/>
+      <!-- eye discs -->
+      <circle cx="206" cy="276" r="58" fill="#fff"/>
+      <circle cx="306" cy="276" r="58" fill="#fff"/>
+      <circle cx="212" cy="282" r="26" fill="#0F2018"/>
+      <circle cx="300" cy="282" r="26" fill="#0F2018"/>
+      <circle cx="221" cy="274" r="8" fill="#fff"/>
+      <circle cx="309" cy="274" r="8" fill="#fff"/>
+      <!-- beak -->
+      <path d="M256 312 L238 336 L274 336 Z" fill="#FFC93C"/>
+      <!-- mortarboard cap -->
+      <path d="M256 150 L356 188 L256 226 L156 188 Z" fill="#0F2018"/>
+      <rect x="240" y="150" width="32" height="20" rx="6" fill="#0F2018"/>
+      <circle cx="256" cy="150" r="10" fill="#FFC93C"/>
+      <path d="M348 192 L348 232" stroke="#FFC93C" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="348" cy="240" r="11" fill="#FFC93C"/>
+      <!-- feet -->
+      <path d="M232 430 L228 452 M256 432 L256 454 M280 430 L284 452" stroke="#FFC93C" stroke-width="11" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="C-small" viewBox="0 0 512 512">
+      <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+      <path d="M256 168 C350 168 414 232 414 318 C414 398 344 440 256 440 C168 440 98 398 98 318 C98 232 162 168 256 168 Z" fill="#1FC36B"/>
+      <circle cx="202" cy="296" r="62" fill="#fff"/>
+      <circle cx="310" cy="296" r="62" fill="#fff"/>
+      <circle cx="208" cy="302" r="30" fill="#0F2018"/>
+      <circle cx="304" cy="302" r="30" fill="#0F2018"/>
+      <path d="M256 330 L234 360 L278 360 Z" fill="#FFC93C"/>
+      <path d="M256 150 L368 192 L256 234 L144 192 Z" fill="#0F2018"/>
+      <circle cx="256" cy="150" r="12" fill="#FFC93C"/>
+    </symbol>
+
+    <!-- solid (on-dark) variants share silhouettes but flat Spark Green tile -->
+  </defs>
+</svg>
+
+<div class="page">
+  <header class="head">
+    <p class="kicker">Regentify · Brand Identity</p>
+    <h1>Logo concepts — Round 1</h1>
+    <p>Three directions for the app mark. The primary idea is a graduation cap that doubles as a “level-up” arrow; concepts 1 &amp; 2 explore two takes on that, and concept 3 brings in Reggie the owl as a mascot alternate. Every mark is built as layered SVG on the brand green gradient. Tell me which to refine.</p>
+  </header>
+
+  <!-- ============ CONCEPT 1 ============ -->
+  <section class="concept">
+    <div class="concept-head">
+      <span class="concept-num">1</span>
+      <h2>Summit</h2>
+      <span class="tag">Primary direction</span>
+    </div>
+    <p class="desc">The mortarboard and the up-arrow are <em>the same shape</em> — one bold white arrow, its wide head reading as a cap board, with an XP-yellow tassel swinging off the top. Maximum momentum, minimum parts. Reads cleanly all the way down to a favicon.</p>
+
+    <div class="grid">
+      <div class="cell light icon-cell"><span class="label">Icon · Light</span><svg class="icon-xl icsvg"><use href="#A-full"/></svg></div>
+      <div class="cell dark icon-cell"><span class="label">Icon · Dark</span><svg class="icon-xl icsvg" viewBox="0 0 512 512"><use href="#A-full"/></svg></div>
+      <div class="stack-col">
+        <div class="lock-cell"><span class="label" style="position:static;color:#93a69b">&nbsp;</span><svg class="icon-h icsvg"><use href="#A-full"/></svg><div class="wm" style="font-size:42px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+        <div class="lock-cell stacked"><svg class="icon-h icsvg"><use href="#A-full"/></svg><div class="wm" style="font-size:34px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+      </div>
+    </div>
+
+    <div class="util-row">
+      <div class="phone">
+        <div class="screen">
+          <div class="status"><span>9:41</span><span>▦ ▪ ▮</span></div>
+          <div class="grid-apps">
+            <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+            <div class="applet"><span class="ic"><svg viewBox="0 0 512 512" width="46" height="46"><use href="#A-full"/></svg></span><span class="nm">Regentify</span></div>
+            <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+            <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+          </div>
+          <div class="dock">
+            <span class="ic" style="background:rgba(255,255,255,.3)"></span>
+            <span class="ic"><svg viewBox="0 0 512 512" width="42" height="42"><use href="#A-full"/></svg></span>
+            <span class="ic" style="background:rgba(255,255,255,.3)"></span>
+            <span class="ic" style="background:rgba(255,255,255,.3)"></span>
+          </div>
+        </div>
+      </div>
+      <div class="fav-cell">
+        <span class="label" style="position:absolute;top:14px;left:18px;font-family:var(--font-display);font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#93a69b">Small-size legibility · full → simplified</span>
+        <div class="fav-row">
+          <div class="fav-item"><div class="frame"><svg width="64" height="64" viewBox="0 0 512 512"><use href="#A-full"/></svg></div><span class="px">64px</span></div>
+          <div class="fav-item"><div class="frame"><svg width="32" height="32" viewBox="0 0 512 512"><use href="#A-full"/></svg></div><span class="px">32px</span></div>
+          <div class="fav-item"><div class="frame"><svg width="24" height="24" viewBox="0 0 512 512"><use href="#A-small"/></svg></div><span class="px">24px ·simplified</span></div>
+          <div class="fav-item"><div class="frame"><svg width="16" height="16" viewBox="0 0 512 512"><use href="#A-small"/></svg></div><span class="px">16px ·simplified</span></div>
+          <div class="fav-item" style="margin-left:auto">
+            <div class="browser-tab"><svg width="16" height="16" viewBox="0 0 512 512"><use href="#A-small"/></svg><span>Regentify</span></div>
+            <span class="px">browser tab</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONCEPT 2 ============ -->
+  <section class="concept">
+    <div class="concept-head">
+      <span class="concept-num">2</span>
+      <h2>Cap &amp; Stem</h2>
+      <span class="tag">Primary direction</span>
+    </div>
+    <p class="desc">The most literal grad-cap reading: a crisp white mortarboard board with the launch arrow rendered in XP-yellow, bursting up out of the stem. Two-tone and instantly “graduation” — the yellow arrow carries the gamified energy.</p>
+
+    <div class="grid">
+      <div class="cell light icon-cell"><span class="label">Icon · Light</span><svg class="icon-xl icsvg" viewBox="0 0 512 512"><use href="#B-full"/></svg></div>
+      <div class="cell dark icon-cell"><span class="label">Icon · Dark</span><svg class="icon-xl icsvg" viewBox="0 0 512 512"><use href="#B-full"/></svg></div>
+      <div class="stack-col">
+        <div class="lock-cell"><svg class="icon-h icsvg" viewBox="0 0 512 512"><use href="#B-full"/></svg><div class="wm" style="font-size:42px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+        <div class="lock-cell stacked"><svg class="icon-h icsvg" viewBox="0 0 512 512"><use href="#B-full"/></svg><div class="wm" style="font-size:34px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+      </div>
+    </div>
+
+    <div class="util-row">
+      <div class="phone">
+        <div class="screen">
+          <div class="status"><span>9:41</span><span>▦ ▪ ▮</span></div>
+          <div class="grid-apps">
+            <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+            <div class="applet"><span class="ic"><svg viewBox="0 0 512 512" width="46" height="46"><use href="#B-full"/></svg></span><span class="nm">Regentify</span></div>
+            <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+            <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+          </div>
+          <div class="dock">
+            <span class="ic" style="background:rgba(255,255,255,.3)"></span>
+            <span class="ic"><svg viewBox="0 0 512 512" width="42" height="42"><use href="#B-full"/></svg></span>
+            <span class="ic" style="background:rgba(255,255,255,.3)"></span>
+            <span class="ic" style="background:rgba(255,255,255,.3)"></span>
+          </div>
+        </div>
+      </div>
+      <div class="fav-cell">
+        <span class="label" style="position:absolute;top:14px;left:18px;font-family:var(--font-display);font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#93a69b">Small-size legibility · full → simplified</span>
+        <div class="fav-row">
+          <div class="fav-item"><div class="frame"><svg width="64" height="64" viewBox="0 0 512 512"><use href="#B-full"/></svg></div><span class="px">64px</span></div>
+          <div class="fav-item"><div class="frame"><svg width="32" height="32" viewBox="0 0 512 512"><use href="#B-full"/></svg></div><span class="px">32px</span></div>
+          <div class="fav-item"><div class="frame"><svg width="24" height="24" viewBox="0 0 512 512"><use href="#B-small"/></svg></div><span class="px">24px ·simplified</span></div>
+          <div class="fav-item"><div class="frame"><svg width="16" height="16" viewBox="0 0 512 512"><use href="#B-small"/></svg></div><span class="px">16px ·simplified</span></div>
+          <div class="fav-item" style="margin-left:auto">
+            <div class="browser-tab"><svg width="16" height="16" viewBox="0 0 512 512"><use href="#B-small"/></svg><span>Regentify</span></div>
+            <span class="px">browser tab</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONCEPT 3 ============ -->
+  <section class="concept">
+    <div class="concept-head">
+      <span class="concept-num">3</span>
+      <h2>Reggie</h2>
+      <span class="tag" style="color:#b8860b;background:#FFF6DE">Mascot alternate</span>
+    </div>
+    <p class="desc">A character-led option: Reggie the owl in his graduation cap — green feathers, mint belly, XP-yellow beak &amp; feet. Warmer and more personality-forward; best as a secondary mark or in-app companion rather than the everyday app icon.</p>
+
+    <div class="grid">
+      <div class="cell light icon-cell"><span class="label">Icon · Light</span><svg class="icon-xl icsvg" viewBox="0 0 512 512"><use href="#C-full"/></svg></div>
+      <div class="cell dark icon-cell"><span class="label">Icon · Dark</span><svg class="icon-xl icsvg" viewBox="0 0 512 512"><use href="#C-full"/></svg></div>
+      <div class="stack-col">
+        <div class="lock-cell"><svg class="icon-h icsvg" viewBox="0 0 512 512"><use href="#C-full"/></svg><div class="wm" style="font-size:42px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+        <div class="lock-cell stacked"><svg class="icon-h icsvg" viewBox="0 0 512 512"><use href="#C-full"/></svg><div class="wm" style="font-size:34px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+      </div>
+    </div>
+
+    <div class="util-row">
+      <div class="phone">
+        <div class="screen">
+          <div class="status"><span>9:41</span><span>▦ ▪ ▮</span></div>
+          <div class="grid-apps">
+            <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+            <div class="applet"><span class="ic"><svg viewBox="0 0 512 512" width="46" height="46"><use href="#C-full"/></svg></span><span class="nm">Regentify</span></div>
+            <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+            <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+          </div>
+          <div class="dock">
+            <span class="ic" style="background:rgba(255,255,255,.3)"></span>
+            <span class="ic"><svg viewBox="0 0 512 512" width="42" height="42"><use href="#C-full"/></svg></span>
+            <span class="ic" style="background:rgba(255,255,255,.3)"></span>
+            <span class="ic" style="background:rgba(255,255,255,.3)"></span>
+          </div>
+        </div>
+      </div>
+      <div class="fav-cell">
+        <span class="label" style="position:absolute;top:14px;left:18px;font-family:var(--font-display);font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#93a69b">Small-size legibility · full → simplified</span>
+        <div class="fav-row">
+          <div class="fav-item"><div class="frame"><svg width="64" height="64" viewBox="0 0 512 512"><use href="#C-full"/></svg></div><span class="px">64px</span></div>
+          <div class="fav-item"><div class="frame"><svg width="32" height="32" viewBox="0 0 512 512"><use href="#C-full"/></svg></div><span class="px">32px</span></div>
+          <div class="fav-item"><div class="frame"><svg width="24" height="24" viewBox="0 0 512 512"><use href="#C-small"/></svg></div><span class="px">24px ·simplified</span></div>
+          <div class="fav-item"><div class="frame"><svg width="16" height="16" viewBox="0 0 512 512"><use href="#C-small"/></svg></div><span class="px">16px ·simplified</span></div>
+          <div class="fav-item" style="margin-left:auto">
+            <div class="browser-tab"><svg width="16" height="16" viewBox="0 0 512 512"><use href="#C-small"/></svg><span>Regentify</span></div>
+            <span class="px">browser tab</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <p class="foot"><b>Next:</b> tell me which concept to refine (1, 2, or 3) and I’ll take it to final — clean layered SVG exports, full lockup set, and the wordmark dialed in. The off-brand purple “R” mark currently in the repo will be retired.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regentify — Mascot Options</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #DCE6E0; font-family: var(--font-body); color: var(--ink); -webkit-font-smoothing: antialiased; }
+  .page { width: max-content; min-width: 100%; padding: 56px 48px 80px; }
+  .head { max-width: 1100px; margin: 0 auto 40px; }
+  .kicker { font-family: var(--font-display); font-weight: 600; text-transform: uppercase; letter-spacing: .18em; font-size: 13px; color: var(--forest); margin: 0 0 12px; }
+  .head h1 { font-family: var(--font-display); font-weight: 700; font-size: 46px; letter-spacing: -.02em; line-height: 1.05; margin: 0 0 14px; }
+  .head p { font-size: 17px; line-height: 1.55; color: #3a4a42; max-width: 660px; margin: 0; }
+
+  .concept { width: 1100px; margin: 0 auto 26px; background: #fff; border-radius: 28px; padding: 34px; box-shadow: 0 14px 40px rgba(15,32,24,.10); }
+  .concept-head { display: flex; align-items: center; gap: 14px; margin: 0 0 6px; }
+  .concept-num { font-family: var(--font-display); font-weight: 700; font-size: 15px; color: #fff; background: var(--spark-green); width: 34px; height: 34px; border-radius: 11px; display: grid; place-items: center; flex: none; box-shadow: 0 3px 0 var(--forest); }
+  .concept-head h2 { font-family: var(--font-display); font-weight: 600; font-size: 28px; margin: 0; letter-spacing: -.01em; white-space: nowrap; }
+  .concept > p.desc { margin: 4px 0 26px 48px; color: #51635a; font-size: 15px; max-width: 760px; line-height: 1.5; }
+  .concept > p.desc b { color: var(--ink); font-family: var(--font-display); font-weight: 600; }
+
+  .grid { display: grid; grid-template-columns: 270px 270px 1fr; gap: 18px; align-items: stretch; }
+  .cell { border-radius: 20px; padding: 22px; position: relative; border: 1px solid #eef2ef; }
+  .cell.light { background: var(--mint-wash); }
+  .cell.dark  { background: var(--ink); }
+  .cell .label { position: absolute; top: 14px; left: 16px; font-family: var(--font-display); font-size: 10.5px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: #93a69b; }
+  .cell.dark .label { color: #5f7a6c; }
+  .cell.icon-cell { display: grid; place-items: center; min-height: 230px; }
+  .icon-xl { width: 158px; height: 158px; }
+
+  .stack-col { display: flex; flex-direction: column; gap: 18px; }
+  .lock-cell { background: #fff; border: 1px solid #eef2ef; border-radius: 20px; padding: 22px 24px; display: flex; align-items: center; gap: 20px; }
+  .wm { font-family: var(--font-display); font-weight: 700; letter-spacing: -.03em; line-height: 1; white-space: nowrap; }
+  .wm .r { color: var(--ink); }
+  .wm .ify { color: var(--xp-yellow); }
+  .lock-cell .icon-h { width: 60px; height: 60px; flex: none; }
+  .fav-cell { background: #fff; border: 1px solid #eef2ef; border-radius: 20px; padding: 22px 24px; position: relative; flex: 1; display: flex; align-items: flex-end; }
+  .fav-row { display: flex; align-items: flex-end; gap: 26px; padding-top: 16px; }
+  .fav-item { display: flex; flex-direction: column; align-items: center; gap: 9px; }
+  .fav-item .px { font-family: var(--font-body); font-weight: 700; font-size: 11px; color: #8a9c92; }
+  .fav-lbl { position: absolute; top: 14px; left: 16px; font-family: var(--font-display); font-size: 10.5px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: #93a69b; }
+  .icsvg { display: block; }
+  .foot { max-width: 1100px; margin: 28px auto 0; color: #51635a; font-size: 14px; line-height: 1.6; }
+  .foot b { color: var(--ink); font-family: var(--font-display); font-weight: 600; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="tileGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#27D078"/><stop offset="1" stop-color="#0E9F52"/>
+    </linearGradient>
+
+    <!-- ░░ FROG — "leap = level up" ░░ -->
+    <symbol id="frog" viewBox="0 0 512 512">
+      <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+      <!-- body -->
+      <ellipse cx="256" cy="318" rx="158" ry="150" fill="#1FC36B"/>
+      <ellipse cx="256" cy="318" rx="158" ry="150" fill="none" stroke="#19A95C" stroke-width="0"/>
+      <!-- belly -->
+      <ellipse cx="256" cy="360" rx="100" ry="100" fill="#EAFBF1"/>
+      <!-- eye bumps -->
+      <circle cx="190" cy="196" r="62" fill="#1FC36B"/>
+      <circle cx="322" cy="196" r="62" fill="#1FC36B"/>
+      <circle cx="190" cy="196" r="40" fill="#fff"/>
+      <circle cx="322" cy="196" r="40" fill="#fff"/>
+      <circle cx="196" cy="202" r="19" fill="#0F2018"/>
+      <circle cx="316" cy="202" r="19" fill="#0F2018"/>
+      <circle cx="204" cy="195" r="6" fill="#fff"/>
+      <circle cx="324" cy="195" r="6" fill="#fff"/>
+      <!-- cheeks -->
+      <circle cx="158" cy="312" r="20" fill="#FFC93C" opacity=".55"/>
+      <circle cx="354" cy="312" r="20" fill="#FFC93C" opacity=".55"/>
+      <!-- smile -->
+      <path d="M180 300 Q256 372 332 300" fill="none" stroke="#0F2018" stroke-width="15" stroke-linecap="round"/>
+      <!-- nostrils -->
+      <circle cx="238" cy="262" r="6" fill="#0E7A45"/>
+      <circle cx="274" cy="262" r="6" fill="#0E7A45"/>
+      <!-- grad cap between eyes -->
+      <path d="M256 96 L344 130 L256 164 L168 130 Z" fill="#0F2018"/>
+      <circle cx="256" cy="96" r="11" fill="#FFC93C"/>
+      <path d="M336 134 L336 170" stroke="#FFC93C" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="336" cy="178" r="11" fill="#FFC93C"/>
+      <!-- feet -->
+      <path d="M214 456 q-26 14 -38 0 M298 456 q26 14 38 0" fill="none" stroke="#FFC93C" stroke-width="16" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="frog-sm" viewBox="0 0 512 512">
+      <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+      <ellipse cx="256" cy="320" rx="170" ry="160" fill="#1FC36B"/>
+      <ellipse cx="256" cy="356" rx="108" ry="108" fill="#EAFBF1"/>
+      <circle cx="180" cy="208" r="70" fill="#1FC36B"/>
+      <circle cx="332" cy="208" r="70" fill="#1FC36B"/>
+      <circle cx="180" cy="208" r="44" fill="#fff"/>
+      <circle cx="332" cy="208" r="44" fill="#fff"/>
+      <circle cx="186" cy="214" r="22" fill="#0F2018"/>
+      <circle cx="326" cy="214" r="22" fill="#0F2018"/>
+      <path d="M186 312 Q256 384 326 312" fill="none" stroke="#0F2018" stroke-width="20" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- ░░ FOX — "clever" ░░ -->
+    <symbol id="fox" viewBox="0 0 512 512">
+      <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+      <!-- ears (tall, pointed up & out) -->
+      <path d="M150 108 L126 236 L240 200 Z" fill="#1FC36B" stroke="#1FC36B" stroke-width="14" stroke-linejoin="round"/>
+      <path d="M362 108 L386 236 L272 200 Z" fill="#1FC36B" stroke="#1FC36B" stroke-width="14" stroke-linejoin="round"/>
+      <path d="M158 150 L146 218 L214 198 Z" fill="#FFC93C" stroke="#FFC93C" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M354 150 L366 218 L298 198 Z" fill="#FFC93C" stroke="#FFC93C" stroke-width="8" stroke-linejoin="round"/>
+      <!-- face -->
+      <path d="M256 168 C338 168 392 224 392 300 C392 372 332 426 256 426 C180 426 120 372 120 300 C120 224 174 168 256 168 Z" fill="#1FC36B"/>
+      <!-- white cheek ruff / muzzle -->
+      <path d="M256 270 C300 270 332 300 332 344 C332 392 296 426 256 440 C216 426 180 392 180 344 C180 300 212 270 256 270 Z" fill="#EAFBF1"/>
+      <!-- eyes -->
+      <circle cx="206" cy="288" r="26" fill="#fff"/>
+      <circle cx="306" cy="288" r="26" fill="#fff"/>
+      <circle cx="210" cy="292" r="14" fill="#0F2018"/>
+      <circle cx="302" cy="292" r="14" fill="#0F2018"/>
+      <circle cx="215" cy="287" r="5" fill="#fff"/>
+      <circle cx="307" cy="287" r="5" fill="#fff"/>
+      <!-- nose + snout line -->
+      <path d="M256 332 L240 350 L272 350 Z" fill="#0F2018"/>
+      <path d="M256 350 L256 384" stroke="#0F2018" stroke-width="9" stroke-linecap="round"/>
+      <!-- grad cap -->
+      <path d="M256 110 L344 144 L256 178 L168 144 Z" fill="#0F2018"/>
+      <circle cx="256" cy="110" r="11" fill="#FFC93C"/>
+      <path d="M336 148 L336 184" stroke="#FFC93C" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="336" cy="192" r="11" fill="#FFC93C"/>
+    </symbol>
+    <symbol id="fox-sm" viewBox="0 0 512 512">
+      <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+      <path d="M138 110 L112 258 L240 212 Z" fill="#1FC36B" stroke="#1FC36B" stroke-width="16" stroke-linejoin="round"/>
+      <path d="M374 110 L400 258 L272 212 Z" fill="#1FC36B" stroke="#1FC36B" stroke-width="16" stroke-linejoin="round"/>
+      <path d="M256 178 C346 178 404 240 404 322 C404 398 338 456 256 456 C174 456 108 398 108 322 C108 240 166 178 256 178 Z" fill="#1FC36B"/>
+      <path d="M256 290 C304 290 338 322 338 370 C338 420 300 456 256 470 C212 456 174 420 174 370 C174 322 208 290 256 290 Z" fill="#EAFBF1"/>
+      <circle cx="200" cy="306" r="30" fill="#fff"/>
+      <circle cx="312" cy="306" r="30" fill="#fff"/>
+      <circle cx="204" cy="310" r="17" fill="#0F2018"/>
+      <circle cx="308" cy="310" r="17" fill="#0F2018"/>
+      <path d="M256 352 L238 372 L274 372 Z" fill="#0F2018"/>
+    </symbol>
+
+    <!-- ░░ DINO — "playful & bold" ░░ -->
+    <symbol id="dino" viewBox="0 0 512 512">
+      <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+      <!-- back spikes -->
+      <path d="M150 250 l-30 -44 l44 8 Z" fill="#FFC93C"/>
+      <path d="M134 312 l-36 -30 l40 -6 Z" fill="#FFC93C"/>
+      <!-- body/head blob -->
+      <path d="M276 150 C356 150 416 208 416 292 C416 300 415 308 414 316 C430 330 430 360 410 372 C404 408 372 432 320 438 L320 458 L286 458 L286 440 C214 440 150 392 150 312 C150 224 200 150 276 150 Z" fill="#1FC36B"/>
+      <!-- belly -->
+      <path d="M250 360 C250 330 276 308 312 308 C346 308 372 330 372 360 C372 400 338 430 300 432 C270 430 250 400 250 360 Z" fill="#EAFBF1"/>
+      <!-- eye -->
+      <circle cx="316" cy="248" r="40" fill="#fff"/>
+      <circle cx="328" cy="252" r="20" fill="#0F2018"/>
+      <circle cx="335" cy="246" r="6" fill="#fff"/>
+      <!-- snout / nostril + smile -->
+      <circle cx="402" cy="300" r="7" fill="#0E7A45"/>
+      <path d="M360 340 q26 14 48 4" fill="none" stroke="#0F2018" stroke-width="11" stroke-linecap="round"/>
+      <!-- tiny arm -->
+      <path d="M232 360 q-30 6 -36 30" fill="none" stroke="#19A95C" stroke-width="20" stroke-linecap="round"/>
+      <!-- feet -->
+      <ellipse cx="244" cy="452" rx="34" ry="16" fill="#FFC93C"/>
+      <ellipse cx="332" cy="452" rx="34" ry="16" fill="#FFC93C"/>
+      <!-- grad cap -->
+      <path d="M300 120 L388 154 L300 188 L212 154 Z" fill="#0F2018"/>
+      <circle cx="300" cy="120" r="11" fill="#FFC93C"/>
+      <path d="M380 158 L380 194" stroke="#FFC93C" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="380" cy="202" r="11" fill="#FFC93C"/>
+    </symbol>
+    <symbol id="dino-sm" viewBox="0 0 512 512">
+      <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+      <path d="M150 240 l-34 -50 l50 10 Z" fill="#FFC93C"/>
+      <path d="M128 316 l-44 -34 l48 -8 Z" fill="#FFC93C"/>
+      <path d="M272 140 C362 140 430 206 430 300 C430 396 360 456 280 456 C190 456 120 396 120 308 C120 214 184 140 272 140 Z" fill="#1FC36B"/>
+      <path d="M248 366 C248 330 280 304 320 304 C360 304 392 330 392 366 C392 410 354 444 320 446 C284 444 248 410 248 366 Z" fill="#EAFBF1"/>
+      <circle cx="320" cy="244" r="46" fill="#fff"/>
+      <circle cx="334" cy="248" r="24" fill="#0F2018"/>
+      <circle cx="420" cy="300" r="9" fill="#0E7A45"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="page">
+  <header class="head">
+    <p class="kicker">Regentify · Mascot Exploration</p>
+    <h1>A friendlier face — three mascots</h1>
+    <p>You liked the character direction but the owl skews too Duolingo. Here are three non-owl mascots, each built native to the brand green with the graduation cap and XP-yellow accents. Same name — <b style="color:var(--ink);font-family:var(--font-display)">Reggie</b> — different creature. Pick one and I’ll refine it into the full set.</p>
+  </header>
+
+  <!-- FROG -->
+  <section class="concept">
+    <div class="concept-head"><span class="concept-num">1</span><h2>Reggie the Frog</h2></div>
+    <p class="desc">A frog <b>leaps</b> — the perfect “level-up” metaphor, and it’s already green. Big bright eyes and a wide grin make it the most cheerful, energetic option. Reads great tiny: just the two eyes + smile.</p>
+    <div class="grid">
+      <div class="cell light icon-cell"><span class="label">Light</span><svg class="icon-xl icsvg" viewBox="0 0 512 512"><use href="#frog"/></svg></div>
+      <div class="cell dark icon-cell"><span class="label">Dark</span><svg class="icon-xl icsvg" viewBox="0 0 512 512"><use href="#frog"/></svg></div>
+      <div class="stack-col">
+        <div class="lock-cell"><svg class="icon-h icsvg" viewBox="0 0 512 512"><use href="#frog"/></svg><div class="wm" style="font-size:40px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+        <div class="fav-cell"><span class="fav-lbl">Small-size · full → simplified</span>
+          <div class="fav-row">
+            <div class="fav-item"><svg width="56" height="56" viewBox="0 0 512 512"><use href="#frog"/></svg><span class="px">56px</span></div>
+            <div class="fav-item"><svg width="32" height="32" viewBox="0 0 512 512"><use href="#frog"/></svg><span class="px">32px</span></div>
+            <div class="fav-item"><svg width="24" height="24" viewBox="0 0 512 512"><use href="#frog-sm"/></svg><span class="px">24px ·simpl.</span></div>
+            <div class="fav-item"><svg width="16" height="16" viewBox="0 0 512 512"><use href="#frog-sm"/></svg><span class="px">16px ·simpl.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOX -->
+  <section class="concept">
+    <div class="concept-head"><span class="concept-num">2</span><h2>Reggie the Fox</h2></div>
+    <p class="desc">A fox reads as <b>clever and quick</b> — exactly the study-smart attitude. Pointy ears give a sharp, recognizable silhouette with XP-yellow inner-ear pops; mint muzzle keeps it soft and friendly.</p>
+    <div class="grid">
+      <div class="cell light icon-cell"><span class="label">Light</span><svg class="icon-xl icsvg" viewBox="0 0 512 512"><use href="#fox"/></svg></div>
+      <div class="cell dark icon-cell"><span class="label">Dark</span><svg class="icon-xl icsvg" viewBox="0 0 512 512"><use href="#fox"/></svg></div>
+      <div class="stack-col">
+        <div class="lock-cell"><svg class="icon-h icsvg" viewBox="0 0 512 512"><use href="#fox"/></svg><div class="wm" style="font-size:40px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+        <div class="fav-cell"><span class="fav-lbl">Small-size · full → simplified</span>
+          <div class="fav-row">
+            <div class="fav-item"><svg width="56" height="56" viewBox="0 0 512 512"><use href="#fox"/></svg><span class="px">56px</span></div>
+            <div class="fav-item"><svg width="32" height="32" viewBox="0 0 512 512"><use href="#fox"/></svg><span class="px">32px</span></div>
+            <div class="fav-item"><svg width="24" height="24" viewBox="0 0 512 512"><use href="#fox-sm"/></svg><span class="px">24px ·simpl.</span></div>
+            <div class="fav-item"><svg width="16" height="16" viewBox="0 0 512 512"><use href="#fox-sm"/></svg><span class="px">16px ·simpl.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DINO -->
+  <section class="concept">
+    <div class="concept-head"><span class="concept-num">3</span><h2>Reggie the Dino</h2></div>
+    <p class="desc">A round, goofy dino is <b>bold and fun</b> — big personality, instantly kid-friendly, with XP-yellow back-spikes and feet. The strongest, chunkiest silhouette of the three for an app tile.</p>
+    <div class="grid">
+      <div class="cell light icon-cell"><span class="label">Light</span><svg class="icon-xl icsvg" viewBox="0 0 512 512"><use href="#dino"/></svg></div>
+      <div class="cell dark icon-cell"><span class="label">Dark</span><svg class="icon-xl icsvg" viewBox="0 0 512 512"><use href="#dino"/></svg></div>
+      <div class="stack-col">
+        <div class="lock-cell"><svg class="icon-h icsvg" viewBox="0 0 512 512"><use href="#dino"/></svg><div class="wm" style="font-size:40px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+        <div class="fav-cell"><span class="fav-lbl">Small-size · full → simplified</span>
+          <div class="fav-row">
+            <div class="fav-item"><svg width="56" height="56" viewBox="0 0 512 512"><use href="#dino"/></svg><span class="px">56px</span></div>
+            <div class="fav-item"><svg width="32" height="32" viewBox="0 0 512 512"><use href="#dino"/></svg><span class="px">32px</span></div>
+            <div class="fav-item"><svg width="24" height="24" viewBox="0 0 512 512"><use href="#dino-sm"/></svg><span class="px">24px ·simpl.</span></div>
+            <div class="fav-item"><svg width="16" height="16" viewBox="0 0 512 512"><use href="#dino-sm"/></svg><span class="px">16px ·simpl.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <p class="foot"><b>Next:</b> tell me which mascot (Frog, Fox, or Dino) and I’ll refine it — cleaner curves, full lockups, app-icon mockup, and layered SVG export. Happy to try a different animal too if none of these click.</p>
+</div>
+</body>
+</html>

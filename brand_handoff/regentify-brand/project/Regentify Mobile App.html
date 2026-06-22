@@ -1,0 +1,743 @@
+<!-- @dsCard group="App" viewport="980x980" name="Regentify Mobile App" subtitle="iOS prototype — onboarding, study path, lesson, league, shop, profile" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regentify — Mobile App</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo/reggie-dino-favicon.svg">
+<link rel="stylesheet" href="styles.css">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    background:
+      radial-gradient(1100px 700px at 18% -8%, #E7F6EE 0%, rgba(231,246,238,0) 60%),
+      radial-gradient(900px 600px at 96% 8%, #FBF3DC 0%, rgba(251,243,220,0) 55%),
+      #D7E3DC;
+    font-family: var(--font-body); color: var(--ink);
+    -webkit-font-smoothing: antialiased; overflow: hidden;
+  }
+
+  /* ---------- stage + scaling ---------- */
+  .stage { position: fixed; inset: 0; display: grid; place-items: center; }
+  .scaler { transform-origin: center center; display: flex; align-items: center; gap: 54px; }
+  .sidecard { width: 250px; }
+  .sidecard .badge { display:inline-flex; align-items:center; gap:8px; background:#fff; border:1px solid var(--line); border-radius:999px; padding:7px 14px 7px 8px; box-shadow: var(--shadow-card); font-family:var(--font-display); font-weight:600; font-size:13px; }
+  .sidecard .badge .dot { width:26px; height:26px; border-radius:50%; background:linear-gradient(135deg,#27D078,#0E9F52); display:grid; place-items:center; }
+  .sidecard .badge .dot svg { width:24px; height:24px; }
+  .sidecard h1 { font-family:var(--font-display); font-weight:700; font-size:30px; letter-spacing:-.02em; line-height:1.08; margin:18px 0 12px; }
+  .sidecard p { font-size:14.5px; line-height:1.6; color:#3a4a42; margin:0 0 18px; }
+  .sidecard .hint { display:flex; gap:10px; align-items:flex-start; font-size:13px; color:#46564d; line-height:1.5; margin-bottom:12px; }
+  .sidecard .hint b { font-family:var(--font-display); font-weight:600; color:var(--ink); }
+  .sidecard .kbd { flex:none; font-family:var(--font-display); font-weight:600; font-size:11px; color:var(--forest); background:var(--mint-wash); border:1px solid var(--mint-2); border-radius:8px; padding:3px 8px; }
+
+  /* ---------- device ---------- */
+  .device { width: 393px; height: 852px; background:#0B130E; border-radius: 56px; padding: 13px;
+    box-shadow: 0 2px 0 2px #232c26, 0 40px 90px rgba(15,32,24,.40); flex: none; position: relative; }
+  .screen { position: relative; width: 100%; height: 100%; border-radius: 44px; overflow: hidden; background: var(--mint-wash); }
+
+  /* dynamic island */
+  .island { position:absolute; top:11px; left:50%; transform:translateX(-50%); width:122px; height:34px; background:#050806; border-radius:20px; z-index:60; }
+  /* status bar */
+  .status { position:absolute; top:0; left:0; right:0; height:54px; z-index:50; display:flex; align-items:center; justify-content:space-between; padding:18px 30px 0; pointer-events:none; }
+  .status .time { font-family:var(--font-display); font-weight:600; font-size:16px; letter-spacing:.01em; }
+  .status .sys { display:flex; align-items:center; gap:7px; }
+  .status .sys svg { display:block; }
+  .status.onlight .time, .status.onlight .sys { color: var(--ink); }
+  .status.ondark .time, .status.ondark .sys { color:#fff; }
+
+  /* home indicator */
+  .home-ind { position:absolute; bottom:8px; left:50%; transform:translateX(-50%); width:134px; height:5px; border-radius:99px; background:rgba(15,32,24,.32); z-index:55; }
+  .home-ind.ondark { background:rgba(255,255,255,.6); }
+
+  /* ---------- views ---------- */
+  .view { position:absolute; inset:0; display:none; flex-direction:column; }
+  .view.active { display:flex; }
+  .scroll { flex:1; overflow-y:auto; -webkit-overflow-scrolling:touch; }
+  .scroll::-webkit-scrollbar { width:0; }
+  .pad { padding: 18px 18px; }
+  .safetop { height:54px; flex:none; }
+
+  h2.scrh { font-family:var(--font-display); font-weight:600; letter-spacing:-.01em; margin:0; }
+  .muted { color: var(--slate); }
+  .wm { font-family:var(--font-display); font-weight:700; letter-spacing:-.03em; }
+  .wm .ify { color: var(--xp-yellow); }
+  .caption { font-family:var(--font-display); font-size:11px; letter-spacing:.13em; text-transform:uppercase; color:var(--slate); font-weight:600; white-space:nowrap; }
+
+  /* pop button */
+  .btn { font-family:var(--font-display); font-weight:600; letter-spacing:.02em; border:none; cursor:pointer; color:#fff;
+    display:inline-flex; align-items:center; justify-content:center; gap:9px; border-radius: var(--r-btn);
+    padding:16px 24px; font-size:16.5px; background: var(--spark-green); box-shadow: var(--pop-green);
+    transition: transform .06s, filter .15s, box-shadow .06s; width:100%; -webkit-tap-highlight-color:transparent; }
+  .btn:active { transform: translateY(3px); box-shadow: 0 2px 0 var(--forest); }
+  .btn.sec { background:#fff; color: var(--green-deep); border:1px solid var(--line); box-shadow: var(--pop-grey); }
+  .btn.sec:active { box-shadow:0 2px 0 var(--line); }
+  .btn.ghost { background:none; box-shadow:none; color:var(--slate); font-size:15px; padding:10px; }
+  .btn.ghost:active { transform:none; }
+  .btn.violet { background:var(--violet); box-shadow: var(--pop-violet); }
+  .btn.violet:active { box-shadow:0 2px 0 #5b3fd1; }
+  .btn.white { background:#fff; color:#2f3d36; box-shadow:0 5px 0 var(--line); }
+  .btn.coral { background:var(--coral); box-shadow:var(--pop-coral); }
+  .btn.coral:active { box-shadow:0 2px 0 #d8403f; }
+  .btn.lg { padding:18px 24px; font-size:17px; }
+  .btn[disabled] { opacity:.45; pointer-events:none; }
+
+  /* chips */
+  .chip { display:inline-flex; align-items:center; gap:6px; background:#fff; border:1px solid var(--line); border-radius:999px; padding:6px 12px; font-family:var(--font-body); font-weight:800; font-size:13px; }
+  .chip.xp { color:var(--green-deep); } .chip.streak { color:var(--coral); } .chip.pro { color:var(--violet); }
+
+  /* card */
+  .card { background:#fff; border:1px solid var(--line); border-radius: var(--r-xl); box-shadow: var(--shadow-card); padding:16px; }
+
+  /* progress */
+  .track { height:12px; background:var(--mint-2); border-radius:999px; overflow:hidden; }
+  .fill { height:100%; background:linear-gradient(90deg,var(--forest),var(--spark-green)); border-radius:999px; transition: width .45s cubic-bezier(.3,1.3,.5,1); }
+
+  /* hearts */
+  .hearts { display:flex; gap:3px; }
+
+  /* selectable option (subject / goal / answer) */
+  .opt { display:flex; gap:13px; align-items:center; width:100%; background:#fff; border:2px solid var(--line); border-radius: var(--r-lg); padding:14px 15px; cursor:pointer; text-align:left; font-family:var(--font-body); font-weight:800; font-size:15px; color:var(--ink); transition: border-color .14s, background .14s, transform .1s; -webkit-tap-highlight-color:transparent; }
+  .opt:active { transform: scale(.985); }
+  .opt .oic { flex:none; width:44px; height:44px; border-radius:13px; display:grid; place-items:center; font-size:24px; background:var(--mint-wash); }
+  .opt .otext { display:flex; flex-direction:column; gap:2px; }
+  .opt .otext .ot { font-weight:800; font-size:15px; }
+  .opt .osub { font-family:var(--font-body); font-weight:700; font-size:12.5px; color:var(--slate); }
+  .opt.sel { border-color:var(--spark-green); background:var(--mint-wash); }
+  .opt .check { margin-left:auto; width:24px; height:24px; border-radius:50%; border:2px solid var(--line); flex:none; display:grid; place-items:center; color:#fff; }
+  .opt.sel .check { background:var(--spark-green); border-color:var(--spark-green); }
+
+  /* quiz choice */
+  .choice { display:flex; gap:11px; align-items:center; width:100%; background:#fff; border:2px solid var(--line); border-radius: var(--r-lg); padding:14px 15px; cursor:pointer; text-align:left; font-family:var(--font-body); font-weight:700; font-size:15px; color:var(--ink); transition: border-color .14s, background .14s, transform .1s; -webkit-tap-highlight-color:transparent; }
+  .choice:active { transform: scale(.985); }
+  .choice .clbl { flex:none; width:28px; height:28px; display:grid; place-items:center; background:var(--mint-2); color:var(--green-deep); border-radius:9px; font-family:var(--font-display); font-weight:700; font-size:14px; }
+  .choice.correct { border-color:var(--spark-green); background:rgba(31,195,107,.12); }
+  .choice.wrong { border-color:var(--coral); background:rgba(255,90,95,.10); }
+  .choice.dim { opacity:.4; }
+  .choice.correct .clbl { background:var(--spark-green); color:#fff; } .choice.wrong .clbl { background:var(--coral); color:#fff; }
+  #choices .choice > span:last-child { white-space:nowrap; }
+
+  /* lesson nodes */
+  .path { display:flex; flex-direction:column; align-items:center; }
+  .node { width:62px; height:62px; border-radius:50%; border:none; display:grid; place-items:center; cursor:pointer; font-size:23px; transition: transform .12s; -webkit-tap-highlight-color:transparent; position:relative; }
+  .node:active { transform: translateY(3px); }
+  .node.done { background:linear-gradient(135deg,#1FC36B,#0E9F52); color:#fff; box-shadow:0 0 0 4px #1FC36B, 0 6px 14px #1FC36B55; }
+  .node.active { background:#fff; box-shadow:0 0 0 4px #1FC36B, 0 4px 0 #1FC36B; }
+  .node.locked { background:var(--mint-2); box-shadow:0 0 0 4px #C7D6CD; color:#9fb3a8; cursor:not-allowed; }
+  .node.chest { background:#FFF3D6; box-shadow:0 0 0 4px #E6C98A; }
+  @keyframes bob { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+  .node.active { animation: bob 1.5s ease-in-out infinite; }
+  .node .start { position:absolute; top:-34px; left:50%; transform:translateX(-50%); background:#fff; color:var(--green-deep); font-family:var(--font-display); font-weight:600; font-size:11px; letter-spacing:.04em; padding:4px 10px; border-radius:9px; box-shadow:0 4px 0 var(--line); white-space:nowrap; }
+  .node .start::after { content:""; position:absolute; bottom:-6px; left:50%; transform:translateX(-50%); border:6px solid transparent; border-top-color:#fff; border-bottom:0; }
+  .conn { width:5px; height:20px; background:var(--mint-2); border-radius:99px; margin:3px auto; }
+  .conn.on { background:var(--spark-green); }
+
+  /* tab bar */
+  .tabbar { flex:none; display:flex; background:#fff; border-top:1px solid var(--line); padding:9px 6px 26px; }
+  .tab { flex:1; display:flex; flex-direction:column; align-items:center; gap:3px; font-family:var(--font-display); font-size:10px; font-weight:600; color:#a4b6ab; background:none; border:none; cursor:pointer; -webkit-tap-highlight-color:transparent; transition: color .12s; }
+  .tab .ic { font-size:21px; line-height:1; }
+  .tab.on { color: var(--spark-green); }
+
+  /* banners */
+  .banner { border-radius: var(--r-lg); padding:16px; display:flex; align-items:center; gap:12px; color:#fff; }
+  .banner.pro { background:linear-gradient(135deg,#7c5cfc,#5b3fd1); }
+  .feedback { border-radius: var(--r-lg); padding:14px 16px; font-weight:800; font-size:14px; }
+  .feedback.ok { background:rgba(31,195,107,.14); border:1px solid var(--spark-green); color:var(--green-deep); }
+  .feedback.warn { background:rgba(255,201,60,.16); border:1px solid var(--xp-yellow); color:#9a7400; }
+
+  /* numeric tiles (fill-in question) */
+  .tilegrid { display:flex; gap:9px; justify-content:center; flex-wrap:wrap; }
+  .tile { width:56px; height:56px; border-radius:14px; border:2px solid var(--line); background:#fff; font-family:var(--font-display); font-weight:700; font-size:22px; color:var(--ink); cursor:pointer; transition: transform .1s, border-color .14s, background .14s; }
+  .tile:active { transform: scale(.94); }
+  .answerbox { height:64px; border-radius:16px; border:2px dashed var(--mint-2); background:#fff; display:grid; place-items:center; font-family:var(--font-display); font-weight:700; font-size:30px; color:var(--ink); }
+
+  /* shop */
+  .shopgrid { display:grid; grid-template-columns:1fr 1fr; gap:11px; }
+  .shopitem { background:#fff; border:2px solid var(--line); border-radius:var(--r-lg); padding:14px 12px; text-align:center; cursor:pointer; transition: border-color .14s, transform .1s; -webkit-tap-highlight-color:transparent; }
+  .shopitem:active { transform: scale(.97); }
+  .shopitem.equipped { border-color:var(--spark-green); background:var(--mint-wash); }
+  .shopitem .thumb { width:62px; height:62px; margin:0 auto 8px; border-radius:16px; display:grid; place-items:center; font-size:30px; }
+  .shopitem .nm { font-family:var(--font-display); font-weight:600; font-size:13.5px; }
+  .shopitem .price { display:inline-flex; align-items:center; gap:4px; margin-top:5px; font-weight:800; font-size:12px; color:var(--green-deep); }
+  .shopitem.equipped .price { color:var(--spark-green); }
+
+  /* modal */
+  .modal-layer { position:absolute; inset:0; z-index:80; display:none; align-items:flex-end; justify-content:center; background:rgba(15,32,24,.46); }
+  .modal-layer.open { display:flex; animation: fade .2s ease; }
+  @keyframes fade { from{opacity:0} to{opacity:1} }
+  .sheet { width:100%; background:#fff; border-radius:28px 28px 0 0; padding:24px 20px 30px; animation: slideup .28s cubic-bezier(.3,1.2,.5,1); }
+  @keyframes slideup { from{transform:translateY(100%)} to{transform:translateY(0)} }
+  .grab { width:42px; height:5px; border-radius:99px; background:var(--mint-2); margin:0 auto 18px; }
+
+  /* confetti */
+  .confetti { position:absolute; inset:0; pointer-events:none; overflow:hidden; z-index:40; }
+  .confetti i { position:absolute; top:-14px; width:9px; height:14px; border-radius:2px; opacity:0; }
+  @keyframes drop { 0%{transform:translateY(-20px) rotate(0); opacity:1} 100%{transform:translateY(900px) rotate(540deg); opacity:.9} }
+
+  .rowdiv { height:1px; background:var(--line); }
+  .listrow { display:flex; align-items:center; gap:13px; padding:14px 4px; }
+  .listrow .li-ic { width:38px; height:38px; border-radius:11px; display:grid; place-items:center; font-size:19px; flex:none; }
+  .listrow .li-t { font-weight:800; font-size:14.5px; }
+  .listrow .li-s { font-size:12.5px; color:var(--slate); }
+  .listrow .li-arrow { margin-left:auto; color:#c0cdc5; font-size:20px; }
+  .toggle { margin-left:auto; width:48px; height:28px; border-radius:99px; background:var(--spark-green); position:relative; flex:none; cursor:pointer; }
+  .toggle::after { content:""; position:absolute; top:3px; left:23px; width:22px; height:22px; border-radius:50%; background:#fff; box-shadow:0 2px 4px rgba(0,0,0,.2); transition:left .16s; }
+  .toggle.off { background:#cdd9d2; } .toggle.off::after { left:3px; }
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="scaler" id="scaler">
+    <div class="device">
+      <div class="island"></div>
+      <div class="screen" id="screen">
+
+        <!-- status bar (updated per screen) -->
+        <div class="status onlight" id="status">
+          <span class="time">9:41</span>
+          <span class="sys">
+            <svg width="18" height="12" viewBox="0 0 18 12"><g fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5" width="3" height="7" rx="1"/><rect x="10" y="2.5" width="3" height="9.5" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></g></svg>
+            <svg width="17" height="12" viewBox="0 0 17 12" fill="none"><path d="M8.5 2.2c2.3 0 4.4.9 6 2.4l1.3-1.4A11 11 0 0 0 8.5.4 11 11 0 0 0 1.2 3.2L2.5 4.6a8.7 8.7 0 0 1 6-2.4Z" fill="currentColor"/><path d="M8.5 6c1.2 0 2.3.5 3.1 1.3l1.3-1.4A6.8 6.8 0 0 0 8.5 4 6.8 6.8 0 0 0 4.1 5.9l1.3 1.4A4.4 4.4 0 0 1 8.5 6Z" fill="currentColor"/><path d="m8.5 9.6 2-2.1a2.9 2.9 0 0 0-4 0l2 2.1Z" fill="currentColor"/></svg>
+            <svg width="26" height="13" viewBox="0 0 26 13"><rect x="0.5" y="0.5" width="21" height="12" rx="3.5" fill="none" stroke="currentColor" opacity="0.4"/><rect x="2" y="2" width="18" height="9" rx="2" fill="currentColor"/><rect x="23" y="4" width="2" height="5" rx="1" fill="currentColor" opacity="0.5"/></svg>
+          </span>
+        </div>
+
+        <!-- ============ ONBOARDING · WELCOME ============ -->
+        <div class="view active" id="v-welcome" data-status="light">
+          <div class="scroll"><div class="safetop" style="height:20px"></div>
+            <div class="pad" style="min-height:760px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:4px;">
+              <div id="reg-welcome" style="width:200px;"></div>
+              <div class="wm" style="font-size:46px; margin-top:6px;">Regent<span class="ify">ify</span></div>
+              <p class="muted" style="font-size:16px; line-height:1.5; margin:8px 0 30px; max-width:280px;">The fun, fast way to ace your Regents. Bite-size lessons, real exam questions, zero stress.</p>
+              <div style="width:100%; display:flex; flex-direction:column; gap:11px;">
+                <button class="btn lg" onclick="go('subject')">Get started</button>
+                <button class="btn ghost" onclick="enterApp('home')">I already have an account</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ ONBOARDING · SUBJECT ============ -->
+        <div class="view" id="v-subject" data-status="light">
+          <div class="safetop"></div>
+          <div class="pad" style="padding-bottom:6px; display:flex; align-items:center; gap:12px;">
+            <button class="btn ghost" style="padding:6px; font-size:22px;" onclick="go('welcome')">‹</button>
+            <div class="track" style="flex:1;"><div class="fill" style="width:33%"></div></div>
+          </div>
+          <div class="scroll"><div class="pad" style="padding-top:8px;">
+            <h2 class="scrh" style="font-size:25px;">What are you prepping for?</h2>
+            <p class="muted" style="font-size:14px; margin:7px 0 18px;">Pick your exam — you can add more later.</p>
+            <div style="display:flex; flex-direction:column; gap:10px;" id="subjlist"></div>
+          </div></div>
+          <div class="pad"><button class="btn lg" id="subj-next" disabled onclick="go('goal')">Continue</button></div>
+        </div>
+
+        <!-- ============ ONBOARDING · GOAL ============ -->
+        <div class="view" id="v-goal" data-status="light">
+          <div class="safetop"></div>
+          <div class="pad" style="padding-bottom:6px; display:flex; align-items:center; gap:12px;">
+            <button class="btn ghost" style="padding:6px; font-size:22px;" onclick="go('subject')">‹</button>
+            <div class="track" style="flex:1;"><div class="fill" style="width:66%"></div></div>
+          </div>
+          <div class="scroll"><div class="pad" style="padding-top:8px;">
+            <div style="display:flex; gap:12px; align-items:center; margin-bottom:6px;">
+              <div id="reg-goal" style="width:74px; flex:none;"></div>
+              <h2 class="scrh" style="font-size:24px;">Set your daily goal</h2>
+            </div>
+            <p class="muted" style="font-size:14px; margin:4px 0 18px;">A little every day beats cramming. Promise.</p>
+            <div style="display:flex; flex-direction:column; gap:10px;" id="goallist"></div>
+          </div></div>
+          <div class="pad"><button class="btn lg" id="goal-next" disabled onclick="enterApp('home')">Let’s go!</button></div>
+        </div>
+
+        <!-- ============ HOME / STUDY PATH ============ -->
+        <div class="view" id="v-home" data-status="light">
+          <div class="safetop"></div>
+          <div class="pad" style="padding-bottom:10px; display:flex; align-items:center; gap:8px;">
+            <div class="wm" style="font-size:22px;">Regent<span class="ify">ify</span></div>
+            <div style="margin-left:auto; display:flex; gap:7px;">
+              <span class="chip streak">🔥 7</span>
+              <span class="chip xp">🪙 1,250</span>
+            </div>
+          </div>
+          <div class="scroll"><div class="pad" style="padding-top:6px; display:flex; flex-direction:column; gap:14px;">
+            <div class="card" style="display:flex; align-items:center; gap:14px; background:linear-gradient(135deg,#1FC36B,#0E9F52); border:none; color:#fff; box-shadow:0 12px 26px rgba(14,159,82,.32);">
+              <div style="font-size:30px;">📅</div>
+              <div style="flex:1;">
+                <div style="font-family:var(--font-display); font-weight:600; font-size:17px;">Regents in 34 days</div>
+                <div style="font-size:12.5px; opacity:.92;">Algebra I · June 18 · you’re on track 🎯</div>
+              </div>
+            </div>
+
+            <div style="display:flex; align-items:center; justify-content:space-between;">
+              <div class="caption">Algebra I · Unit 3</div>
+              <div class="caption" style="color:var(--green-deep);">72% mastery</div>
+            </div>
+            <div class="card" style="padding:18px 16px;">
+              <div style="display:flex; align-items:center; gap:10px; margin-bottom:8px;">
+                <span style="font-size:24px;">📐</span>
+                <div style="flex:1;"><div style="font-weight:800; font-size:15px;">Quadratics</div><div class="muted" style="font-size:12px;">3 / 6 lessons complete</div></div>
+              </div>
+              <div class="track" style="height:8px;"><div class="fill" style="width:50%"></div></div>
+              <div class="path" style="margin-top:18px;">
+                <button class="node done">✓</button><div class="conn on"></div>
+                <button class="node done">✓</button><div class="conn on"></div>
+                <button class="node active" onclick="startLesson()">★<span class="start">START</span></button><div class="conn"></div>
+                <button class="node locked">🔒</button><div class="conn"></div>
+                <button class="node chest">🎁</button>
+              </div>
+            </div>
+
+            <div class="caption">Daily challenge</div>
+            <div class="card" style="display:flex; align-items:center; gap:12px;">
+              <div style="font-size:26px;">💡</div>
+              <div style="flex:1;"><div style="font-weight:800; font-size:14px;">Today’s question</div><div class="muted" style="font-size:12px;">+15 XP · keep your streak</div></div>
+              <button class="btn" style="width:auto; padding:11px 20px; font-size:14px;" onclick="startLesson()">Go</button>
+            </div>
+
+            <div class="caption">Other subjects</div>
+            <div style="display:flex; gap:10px;">
+              <div class="card" style="flex:1; text-align:center; padding:14px 8px;"><div style="font-size:24px;">🧬</div><div style="font-weight:800; font-size:12.5px; margin-top:5px;">Living Env.</div><div class="muted" style="font-size:11px;">41%</div></div>
+              <div class="card" style="flex:1; text-align:center; padding:14px 8px;"><div style="font-size:24px;">🌍</div><div style="font-weight:800; font-size:12.5px; margin-top:5px;">Global Hist.</div><div class="muted" style="font-size:11px;">12%</div></div>
+              <div class="card" style="flex:1; text-align:center; padding:14px 8px; border-style:dashed; color:var(--slate); display:flex; flex-direction:column; align-items:center; justify-content:center;"><div style="font-size:22px;">＋</div><div style="font-weight:800; font-size:12px; margin-top:4px;">Add</div></div>
+            </div>
+          </div></div>
+          <div class="tabbar" data-tab="home"></div>
+        </div>
+
+        <!-- ============ LESSON ============ -->
+        <div class="view" id="v-lesson" data-status="light">
+          <div class="safetop"></div>
+          <div class="pad" style="display:flex; align-items:center; gap:12px;">
+            <button class="btn ghost" style="font-size:22px; padding:0;" onclick="openQuit()">✕</button>
+            <div class="track" style="flex:1;"><div class="fill" id="lesson-prog" style="width:0%"></div></div>
+            <span class="chip" style="color:var(--coral); gap:3px;"><span class="hearts" id="lesson-hearts"></span></span>
+          </div>
+          <div class="scroll"><div class="pad" style="padding-top:8px;" id="q-body"></div></div>
+          <div class="pad" id="lesson-foot"></div>
+        </div>
+
+        <!-- ============ RESULTS ============ -->
+        <div class="view" id="v-results" data-status="light">
+          <div class="scroll"><div class="safetop" style="height:20px"></div>
+            <div class="pad" style="min-height:740px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;">
+              <div id="reg-results" style="width:170px;"></div>
+              <h2 class="scrh" style="font-size:30px; margin-top:8px;">Lesson complete!</h2>
+              <p class="muted" style="font-size:15.5px; margin:8px 0 22px;">Nice work — you’re building a serious streak. 🔥</p>
+              <div style="display:flex; gap:10px; width:100%; margin-bottom:26px;">
+                <div class="card" style="flex:1; text-align:center; padding:16px 8px;"><div style="font-family:var(--font-display); font-weight:700; font-size:26px; color:var(--green-deep);">+45</div><div class="caption" style="margin-top:3px;">XP</div></div>
+                <div class="card" style="flex:1; text-align:center; padding:16px 8px;"><div style="font-family:var(--font-display); font-weight:700; font-size:26px; color:var(--spark-green);">92%</div><div class="caption" style="margin-top:3px;">Accuracy</div></div>
+                <div class="card" style="flex:1; text-align:center; padding:16px 8px;"><div style="font-family:var(--font-display); font-weight:700; font-size:26px; color:var(--coral);">8</div><div class="caption" style="margin-top:3px;">Streak</div></div>
+              </div>
+              <button class="btn lg" onclick="enterApp('home')">Continue</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ LEAGUE ============ -->
+        <div class="view" id="v-league" data-status="light">
+          <div class="safetop"></div>
+          <div class="pad" style="padding-bottom:8px;"><h2 class="scrh" style="font-size:25px;">League</h2></div>
+          <div class="scroll"><div class="pad" style="padding-top:4px; display:flex; flex-direction:column; gap:14px;">
+            <div class="card" style="text-align:center; background:linear-gradient(135deg,#FFF3D6,#FFE3A3); border:none;">
+              <div style="font-size:44px; line-height:1;">🥇</div>
+              <div style="font-family:var(--font-display); font-weight:700; font-size:23px; color:#B26B00; margin-top:4px;">Gold League</div>
+              <div class="muted" style="font-size:13px; margin-top:2px;">Top 7 advance · resets in 2d 14h</div>
+            </div>
+            <div style="display:flex; gap:10px; justify-content:center; align-items:center;">
+              <span style="font-size:22px; opacity:.4;">🥉</span>
+              <span style="font-size:22px; opacity:.4;">🥈</span>
+              <span style="font-size:28px; filter:drop-shadow(0 3px 6px #D9770655);">🥇</span>
+              <span style="font-size:22px; opacity:.4;">💎</span>
+            </div>
+            <div class="card" style="padding:6px 0;"><div id="league-rows"></div></div>
+            <div style="display:flex; justify-content:space-between; font-size:12px; font-weight:800; padding:0 6px;">
+              <span style="color:var(--spark-green);">↑ Top 7 promote</span>
+              <span style="color:var(--coral);">↓ Bottom 5 demote</span>
+            </div>
+          </div></div>
+          <div class="tabbar" data-tab="league"></div>
+        </div>
+
+        <!-- ============ REGGIE SHOP ============ -->
+        <div class="view" id="v-shop" data-status="light">
+          <div class="safetop"></div>
+          <div class="pad" style="padding-bottom:8px; display:flex; align-items:center;">
+            <h2 class="scrh" style="font-size:25px;">Reggie</h2>
+            <span class="chip xp" style="margin-left:auto;">🪙 1,250</span>
+          </div>
+          <div class="scroll"><div class="pad" style="padding-top:4px; display:flex; flex-direction:column; gap:14px;">
+            <div class="card" style="display:flex; flex-direction:column; align-items:center; padding:18px; background:linear-gradient(180deg,var(--mint-wash),#fff); border:none;">
+              <div id="reg-shop" style="width:150px;"></div>
+              <div style="font-family:var(--font-display); font-weight:600; font-size:16px; margin-top:6px; white-space:nowrap;" id="shop-mood">Reggie’s feeling great!</div>
+              <div class="muted" style="font-size:12.5px; margin-top:2px;">Tap an item to dress him up</div>
+            </div>
+            <div class="caption">Moods · free</div>
+            <div class="shopgrid" id="shop-moods"></div>
+            <div class="caption">Outfits · 🪙</div>
+            <div class="shopgrid" id="shop-outfits"></div>
+          </div></div>
+          <div class="tabbar" data-tab="shop"></div>
+        </div>
+
+        <!-- ============ PROFILE ============ -->
+        <div class="view" id="v-profile" data-status="light">
+          <div class="scroll">
+            <div class="safetop"></div>
+            <div class="pad" style="display:flex; flex-direction:column; align-items:center; gap:3px; padding-top:8px;">
+              <div style="width:104px; height:104px; border-radius:50%; overflow:hidden; background:linear-gradient(135deg,#27D078,#0E9F52); display:grid; place-items:center; box-shadow:0 8px 20px rgba(14,159,82,.3);" id="reg-profile"></div>
+              <div style="font-family:var(--font-display); font-weight:700; font-size:23px; margin-top:8px;">Alex Rivera</div>
+              <div class="muted" style="font-size:13px;">Lincoln High · joined Mar 2026</div>
+              <div style="display:flex; gap:8px; margin-top:10px;">
+                <span class="chip streak">🔥 7-day streak</span>
+                <span class="chip xp">🪙 1,250</span>
+              </div>
+            </div>
+            <div class="pad" style="display:flex; flex-direction:column; gap:14px; padding-top:10px;">
+              <div style="display:flex; gap:10px;">
+                <div class="card" style="flex:1; text-align:center; padding:14px 6px;"><div style="font-family:var(--font-display); font-weight:700; font-size:22px; color:var(--green-deep);">86%</div><div class="caption" style="margin-top:2px;">Avg score</div></div>
+                <div class="card" style="flex:1; text-align:center; padding:14px 6px;"><div style="font-family:var(--font-display); font-weight:700; font-size:22px; color:var(--spark-green);">142</div><div class="caption" style="margin-top:2px;">Lessons</div></div>
+                <div class="card" style="flex:1; text-align:center; padding:14px 6px;"><div style="font-family:var(--font-display); font-weight:700; font-size:22px; color:#B26B00;">🥇</div><div class="caption" style="margin-top:2px;">Gold</div></div>
+              </div>
+              <div class="caption">Achievements</div>
+              <div style="display:flex; gap:10px;">
+                <div class="card" style="flex:1; text-align:center; padding:14px 6px;"><div style="font-size:26px;">🔥</div><div style="font-weight:800; font-size:11.5px; margin-top:4px;">Week Warrior</div></div>
+                <div class="card" style="flex:1; text-align:center; padding:14px 6px;"><div style="font-size:26px;">🎯</div><div style="font-weight:800; font-size:11.5px; margin-top:4px;">Sharpshooter</div></div>
+                <div class="card" style="flex:1; text-align:center; padding:14px 6px; opacity:.45;"><div style="font-size:26px;">🔒</div><div style="font-weight:800; font-size:11.5px; margin-top:4px;">Perfect 10</div></div>
+              </div>
+              <div class="banner pro" onclick="openPaywall()" style="cursor:pointer;">
+                <div style="font-size:26px;">⭐</div>
+                <div style="flex:1;"><div style="font-weight:800; font-size:15px;">Go Pro</div><div style="font-size:12px; opacity:.92;">Unlimited hearts + full practice tests</div></div>
+                <span style="font-family:var(--font-display); font-weight:600; font-size:13px; background:#fff; color:var(--violet); padding:8px 14px; border-radius:12px;">Upgrade</span>
+              </div>
+              <div class="caption">Settings</div>
+              <div class="card" style="padding:4px 14px;">
+                <div class="listrow"><div class="li-ic" style="background:rgba(255,90,95,.12);">🔔</div><div><div class="li-t">Reminders</div><div class="li-s">Daily at 6:00 PM</div></div><div class="toggle" onclick="this.classList.toggle('off')"></div></div>
+                <div class="rowdiv"></div>
+                <div class="listrow"><div class="li-ic" style="background:rgba(52,179,241,.12);">🔊</div><div><div class="li-t">Sound effects</div><div class="li-s">Pops &amp; chimes</div></div><div class="toggle" onclick="this.classList.toggle('off')"></div></div>
+                <div class="rowdiv"></div>
+                <div class="listrow"><div class="li-ic" style="background:var(--mint-wash);">🎓</div><div><div class="li-t">My exams</div><div class="li-s">Algebra I, Living Env.</div></div><div class="li-arrow">›</div></div>
+              </div>
+              <button class="btn sec" onclick="resetOnboarding()">Sign out</button>
+            </div>
+          </div>
+          <div class="tabbar" data-tab="profile"></div>
+        </div>
+
+        <!-- confetti layer -->
+        <div class="confetti" id="confetti"></div>
+
+        <!-- modal layer -->
+        <div class="modal-layer" id="modal"></div>
+
+        <div class="home-ind" id="homeind"></div>
+      </div>
+    </div>
+
+    <div class="sidecard">
+      <span class="badge"><span class="dot" id="badge-reggie"></span> Regentify</span>
+      <h1>The mobile app</h1>
+      <p>An interactive iOS prototype of the gamified Regents prep loop — built for high-school students on the Reggie brand.</p>
+      <div class="hint"><span class="kbd">TAP</span><span>Start at the welcome screen — <b>Get started</b> walks the onboarding, then play a real lesson.</span></div>
+      <div class="hint"><span class="kbd">NAV</span><span>The bottom bar switches between <b>Study, League, Reggie</b> and <b>You</b>.</span></div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/reggie/reggie-character.js"></script>
+<script>
+  const R = window.Reggie;
+
+  /* ---------- scaling ---------- */
+  function fit(){
+    const sc = document.getElementById('scaler');
+    const w = sc.scrollWidth, h = sc.scrollHeight;
+    const s = Math.min(1, (window.innerWidth - 48) / w, (window.innerHeight - 40) / h);
+    sc.style.transform = 'scale(' + s + ')';
+  }
+  window.addEventListener('resize', fit);
+
+  /* ---------- mascots ---------- */
+  document.getElementById('reg-welcome').innerHTML = R.reggie(R.POSES.wave);
+  document.getElementById('reg-goal').innerHTML    = R.reggie(R.POSES.think);
+  document.getElementById('reg-results').innerHTML = R.reggie(R.POSES.celebrate);
+  document.getElementById('reg-profile').innerHTML = R.avatar({eye:'happy', mouth:'grin'});
+  document.getElementById('badge-reggie').innerHTML = R.avatar({eye:'open', mouth:'smile'});
+
+  /* ---------- hearts ---------- */
+  let lives = 5;
+  function heartsHTML(n){ let s=''; for(let i=0;i<5;i++){ s += '<span style="font-size:13px;'+(i<n?'':'filter:grayscale(1);opacity:.35')+'">❤️</span>'; } return s; }
+  function paintHearts(){ document.querySelectorAll('#home-hearts,#lesson-hearts').forEach(e=>e.innerHTML=heartsHTML(lives)); }
+  paintHearts();
+
+  /* ---------- navigation ---------- */
+  const STATUS = { dark:['ondark','onlight'], light:['onlight','ondark'] };
+  function setStatus(view){
+    const st = document.getElementById('status'), hi = document.getElementById('homeind');
+    const mode = view.dataset.status || 'light';
+    st.classList.toggle('ondark', mode==='dark'); st.classList.toggle('onlight', mode!=='dark');
+    hi.classList.toggle('ondark', mode==='dark');
+  }
+  function go(id){
+    document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+    const v = document.getElementById('v-'+id); v.classList.add('active');
+    setStatus(v); v.querySelector('.scroll') && (v.querySelector('.scroll').scrollTop = 0);
+  }
+  function enterApp(id){ go(id); }
+  function buildTabs(){
+    const tabs = [['home','🏠','Study'],['league','🏆','League'],['shop','🦖','Reggie'],['profile','👤','You']];
+    document.querySelectorAll('.tabbar').forEach(bar=>{
+      const cur = bar.dataset.tab;
+      bar.innerHTML = tabs.map(([id,ic,lbl])=>`<button class="tab ${id===cur?'on':''}" onclick="go('${id}')"><span class="ic">${ic}</span>${lbl}</button>`).join('');
+    });
+  }
+  buildTabs();
+
+  /* ---------- onboarding: subjects ---------- */
+  const subjects = [
+    ['📐','Algebra I','Most popular · June',true],
+    ['🧬','Living Environment','Biology'],
+    ['🌍','Global History & Geo','II'],
+    ['🌎','Earth Science','Physical setting'],
+    ['📊','Geometry',''],
+    ['⚗️','Chemistry','Physical setting'],
+  ];
+  document.getElementById('subjlist').innerHTML = subjects.map((s,i)=>`
+    <button class="opt ${s[3]?'sel':''}" data-sub onclick="pickOpt(this,'subjlist','subj-next')">
+      <span class="oic">${s[0]}</span>
+      <span class="otext"><span class="ot">${s[1]}</span>${s[2]?`<span class="osub">${s[2]}</span>`:''}</span>
+      <span class="check">✓</span>
+    </button>`).join('');
+  if(document.querySelector('#subjlist .sel')) document.getElementById('subj-next').disabled=false;
+
+  /* ---------- onboarding: goals ---------- */
+  const goals = [
+    ['🌱','Chill','5 min / day'],
+    ['⚡','Regular','10 min / day',true],
+    ['🔥','Serious','15 min / day'],
+    ['🚀','Intense','20 min / day'],
+  ];
+  document.getElementById('goallist').innerHTML = goals.map(g=>`
+    <button class="opt ${g[3]?'sel':''}" onclick="pickOpt(this,'goallist','goal-next')">
+      <span class="oic">${g[0]}</span>
+      <span class="otext"><span class="ot">${g[1]}</span><span class="osub">${g[2]}</span></span>
+      <span class="check">✓</span>
+    </button>`).join('');
+  if(document.querySelector('#goallist .sel')) document.getElementById('goal-next').disabled=false;
+
+  function pickOpt(el, listId, nextId){
+    document.querySelectorAll('#'+listId+' .opt').forEach(o=>o.classList.remove('sel'));
+    el.classList.add('sel');
+    document.getElementById(nextId).disabled = false;
+  }
+
+  /* ---------- lesson engine ---------- */
+  const QUESTIONS = [
+    {
+      type:'choice', tag:'Quadratics',
+      q:'Which expression is equivalent to <b>x² + 5x + 6</b>?',
+      choices:[['A','(x + 1)(x + 6)',0],['B','(x + 2)(x + 3)',1],['C','(x + 5)(x + 6)',0],['D','(x − 2)(x − 3)',0]],
+      ok:'Yes! The middle term 5 = 2 + 3, so it factors to (x + 2)(x + 3). +15 XP',
+      no:'Close! You need two numbers that multiply to 6 and add to 5 → 2 and 3.'
+    },
+    {
+      type:'tf', tag:'Functions',
+      q:'A parabola <b>y = x²</b> always opens <b>upward</b>.',
+      ok:'Right! A positive leading coefficient opens the parabola upward. +15 XP',
+      no:'Actually true — when the x² coefficient is positive, it opens up.',
+      answer:true
+    },
+    {
+      type:'fill', tag:'Solve',
+      q:'Solve for x: <b>2x + 6 = 14</b>',
+      tiles:[2,3,4,5,8], answer:4,
+      ok:'Nailed it! 2x = 8, so x = 4. +15 XP',
+      no:'Not quite — subtract 6 then divide by 2: x = 4.'
+    },
+  ];
+  let qi = 0, lessonCorrect = 0;
+
+  function startLesson(){ qi=0; lessonCorrect=0; lives=5; paintHearts(); go('lesson'); renderQ(); }
+
+  function renderQ(){
+    const q = QUESTIONS[qi];
+    document.getElementById('lesson-prog').style.width = (qi/QUESTIONS.length*100) + '%';
+    document.getElementById('lesson-foot').innerHTML = '';
+    const body = document.getElementById('q-body');
+    let inner = `<div class="card" style="margin-bottom:14px;">
+        <span class="chip" style="color:var(--green-deep); padding:4px 11px; font-size:12px;">${q.tag}</span>
+        <div style="font-weight:700; font-size:18px; line-height:1.5; margin:14px 0 2px;">${q.q}</div>
+      </div>`;
+
+    if(q.type==='choice'){
+      inner += `<div style="display:flex; flex-direction:column; gap:9px;" id="choices">` +
+        q.choices.map((c,idx)=>`<button class="choice" onclick="answerChoice(this,${c[2]})"><span class="clbl">${c[0]}</span><span>${c[1]}</span></button>`).join('') +
+        `</div>`;
+    } else if(q.type==='tf'){
+      inner += `<div style="display:flex; gap:11px;" id="choices">
+        <button class="choice" style="justify-content:center; padding:22px;" onclick="answerChoice(this,${q.answer?1:0})">✅ True</button>
+        <button class="choice" style="justify-content:center; padding:22px;" onclick="answerChoice(this,${q.answer?0:1})">❌ False</button>
+      </div>`;
+    } else if(q.type==='fill'){
+      inner += `<div class="answerbox" id="answerbox">—</div>
+        <div class="caption" style="text-align:center; margin:14px 0 10px;">Tap your answer</div>
+        <div class="tilegrid" id="tilegrid">` +
+        q.tiles.map(t=>`<button class="tile" onclick="pickTile(this,${t})">${t}</button>`).join('') + `</div>`;
+    }
+    inner += `<div id="q-feedback" style="margin-top:14px;"></div>`;
+    body.innerHTML = inner;
+    document.querySelector('#v-lesson .scroll').scrollTop = 0;
+  }
+
+  function lockChoices(){ document.querySelectorAll('#choices .choice').forEach(c=>{ c.style.pointerEvents='none'; }); }
+
+  function answerChoice(el, correct){
+    lockChoices();
+    const q = QUESTIONS[qi];
+    const all = [...document.querySelectorAll('#choices .choice')];
+    if(correct){
+      el.classList.add('correct'); lessonCorrect++;
+      feedback(true, q.ok);
+    } else {
+      el.classList.add('wrong');
+      // reveal a correct one
+      all.forEach(c=>{ if(c!==el) c.classList.add('dim'); });
+      el.classList.remove('dim');
+      loseLife();
+      feedback(false, q.no);
+    }
+    showNext();
+  }
+
+  let pickedTile=null, pickedTileEl=null;
+  function pickTile(el, val){
+    if(document.getElementById('answerbox').dataset.locked) return;
+    document.querySelectorAll('#tilegrid .tile').forEach(t=>{ t.style.borderColor='var(--line)'; t.style.background='#fff'; });
+    el.style.borderColor='var(--spark-green)'; el.style.background='var(--mint-wash)';
+    pickedTile=val; pickedTileEl=el;
+    document.getElementById('answerbox').textContent = val;
+    document.getElementById('lesson-foot').innerHTML = `<button class="btn lg" onclick="checkFill()">Check</button>`;
+  }
+  function checkFill(){
+    const q = QUESTIONS[qi];
+    const box = document.getElementById('answerbox'); box.dataset.locked='1';
+    const correct = pickedTile===q.answer;
+    if(correct){ box.style.borderColor='var(--spark-green)'; box.style.borderStyle='solid'; lessonCorrect++; feedback(true,q.ok); }
+    else { box.style.borderColor='var(--coral)'; box.style.borderStyle='solid'; box.style.color='var(--coral)'; loseLife(); feedback(false,q.no); }
+    showNext();
+  }
+
+  function feedback(ok, msg){
+    document.getElementById('q-feedback').innerHTML =
+      `<div class="feedback ${ok?'ok':'warn'}">${ok?'🎉 ':'💪 '}${msg}</div>`;
+  }
+  function loseLife(){ if(lives>0) lives--; paintHearts(); }
+
+  function showNext(){
+    const last = qi >= QUESTIONS.length-1;
+    document.getElementById('lesson-foot').innerHTML =
+      `<button class="btn lg" onclick="${last?'finishLesson()':'nextQ()'}">${last?'Finish':'Continue'}</button>`;
+  }
+  function nextQ(){ qi++; pickedTile=null; renderQ(); }
+  function finishLesson(){
+    document.getElementById('lesson-prog').style.width='100%';
+    go('results'); burstConfetti();
+  }
+
+  /* ---------- confetti ---------- */
+  function burstConfetti(){
+    const layer = document.getElementById('confetti');
+    const cols = ['#FF5A5F','#34B3F1','#7C5CFC','#FFC93C','#1FC36B'];
+    layer.innerHTML = '';
+    for(let i=0;i<46;i++){
+      const c = document.createElement('i');
+      c.style.left = Math.random()*100 + '%';
+      c.style.background = cols[i%cols.length];
+      c.style.animation = `drop ${0.9+Math.random()*0.9}s ${Math.random()*0.5}s ease-in forwards`;
+      layer.appendChild(c);
+    }
+    setTimeout(()=>{ layer.innerHTML=''; }, 2600);
+  }
+
+  /* ---------- quit modal ---------- */
+  function openModal(html){ const m=document.getElementById('modal'); m.innerHTML = `<div class="sheet"><div class="grab"></div>${html}</div>`; m.classList.add('open'); m.onclick=e=>{ if(e.target===m) closeModal(); }; }
+  function closeModal(){ document.getElementById('modal').classList.remove('open'); }
+  function openQuit(){
+    openModal(`
+      <div style="display:flex; flex-direction:column; align-items:center; text-align:center; gap:6px;">
+        <div style="width:96px;" id="reg-quit"></div>
+        <div style="font-family:var(--font-display); font-weight:600; font-size:20px;">Quit already?</div>
+        <p class="muted" style="font-size:14px; margin:2px 0 18px;">You’ll lose your progress on this lesson. Reggie believes in you!</p>
+        <button class="btn lg" onclick="closeModal()" style="margin-bottom:10px;">Keep going</button>
+        <button class="btn ghost" onclick="closeModal();enterApp('home')" style="width:100%; color:var(--coral);">Quit lesson</button>
+      </div>`);
+    document.getElementById('reg-quit').innerHTML = R.reggie(R.POSES.oops);
+  }
+  function openPaywall(){
+    openModal(`
+      <div style="text-align:center;">
+        <div style="display:inline-flex; align-items:center; gap:7px; background:rgba(124,92,252,.12); color:var(--violet); font-family:var(--font-display); font-weight:600; font-size:12px; padding:6px 14px; border-radius:999px; letter-spacing:.06em;">⭐ REGENTIFY PRO</div>
+        <div style="font-family:var(--font-display); font-weight:700; font-size:25px; margin:14px 0 4px;">Study without limits</div>
+        <p class="muted" style="font-size:14px; margin:0 0 18px;">Pass with confidence — everything unlocked.</p>
+        <div style="text-align:left; display:flex; flex-direction:column; gap:12px; margin-bottom:20px;">
+          ${['Unlimited hearts — never get stopped','Full-length practice Regents exams','Detailed answer explanations','Ad-free, distraction-free studying'].map(t=>`<div style="display:flex; gap:11px; align-items:center;"><span style="width:26px;height:26px;border-radius:50%;background:var(--violet);color:#fff;display:grid;place-items:center;font-size:14px;flex:none;">✓</span><span style="font-weight:700; font-size:14.5px;">${t}</span></div>`).join('')}
+        </div>
+        <button class="btn violet lg" onclick="closeModal()">Start 7-day free trial</button>
+        <button class="btn ghost" onclick="closeModal()" style="width:100%; margin-top:6px;">Then $4.99/mo · Maybe later</button>
+      </div>`);
+  }
+
+  function resetOnboarding(){ go('welcome'); }
+
+  /* ---------- shop ---------- */
+  const moods = [['idle','😎','Cool'],['celebrate','🎉','Hype'],['encourage','👍','Coach'],['think','🤔','Focus']];
+  const outfits = [['🎓','Scholar','Owned',true],['🧢','Cap','120'],['🕶️','Shades','250'],['🧣','Scarf','300'],['👑','Crown','900'],['🦴','Bone pal','450']];
+  let shopMood='idle';
+  function renderShop(){
+    document.getElementById('reg-shop').innerHTML = R.reggie(R.POSES[shopMood] || R.POSES.idle);
+    const moodNames={idle:'Reggie’s feeling cool 😎',celebrate:'Reggie’s hyped! 🎉',encourage:'Coach Reggie 👍',think:'Reggie’s focused 🤔'};
+    document.getElementById('shop-mood').textContent = moodNames[shopMood];
+    document.getElementById('shop-moods').innerHTML = moods.map(m=>`
+      <div class="shopitem ${m[0]===shopMood?'equipped':''}" onclick="setMood('${m[0]}')">
+        <div class="thumb" style="background:var(--mint-wash);">${m[1]}</div>
+        <div class="nm">${m[2]}</div>
+        <div class="price">${m[0]===shopMood?'Equipped':'Free'}</div>
+      </div>`).join('');
+    document.getElementById('shop-outfits').innerHTML = outfits.map(o=>`
+      <div class="shopitem ${o[3]?'equipped':''}">
+        <div class="thumb" style="background:#fff; border:1px solid var(--line);">${o[0]}</div>
+        <div class="nm">${o[1]}</div>
+        <div class="price">${o[3]?'Equipped':'🪙 '+o[2]}</div>
+      </div>`).join('');
+  }
+  function setMood(m){ shopMood=m; renderShop(); }
+  renderShop();
+
+  /* ---------- league ---------- */
+  (function(){
+    const players = [
+      ['Maya P.',2840,'🦊'],['Jordan K.',2610,'🐢'],['Alex Rivera',2390,'🦖',true],
+      ['Sam T.',2180,'🐸'],['Priya N.',1990,'🦉'],['Devin L.',1740,'🐧'],
+      ['Chris M.',1520,'🐙'],['Nina R.',1280,'🦝'],['Omar F.',1040,'🐨'],
+      ['Riya S.',860,'🦜'],['Ben W.',540,'🐰'],['Tara V.',320,'🦔']
+    ];
+    document.getElementById('league-rows').innerHTML = players.map((p,i)=>{
+      const rank=i+1, me=p[3];
+      const promote=rank<=7, demote=rank>players.length-5;
+      const rankColor = promote?'var(--spark-green)':demote?'var(--coral)':'var(--slate)';
+      const medal = rank===1?'🥇':rank===2?'🥈':rank===3?'🥉':rank;
+      return `<div style="display:flex; align-items:center; gap:11px; padding:10px 16px; ${me?'background:var(--mint-wash); border-radius:12px; margin:0 6px;':''} ${i<players.length-1&&!me?'border-bottom:1px solid var(--line)':''}">
+        <span style="width:24px; text-align:center; font-family:var(--font-display); font-weight:700; font-size:15px; color:${rankColor};">${medal}</span>
+        <span style="font-size:22px;">${p[2]}</span>
+        <span style="flex:1; font-weight:${me?800:700}; font-size:14px; color:${me?'var(--green-deep)':'var(--ink)'};">${p[0]}${me?' (you)':''}</span>
+        <span style="font-weight:800; font-size:13px; color:var(--green-deep);">${p[1].toLocaleString()} XP</span>
+      </div>`;
+    }).join('');
+  })();
+
+  fit();
+  window.addEventListener('load', fit);
+</script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+{
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "rules": {
+    "react/forbid-elements": [
+      "warn",
+      {
+        "forbid": []
+      }
+    ],
+    "no-restricted-imports": [
+      "warn",
+      {
+        "patterns": [
+          {
+            "group": [
+              "assets/reggie/**",
+              "components/brand/**",
+              "components/core/**",
+              "components/feedback/**",
+              "components/forms/**",
+              "components/navigation/**"
+            ],
+            "message": "Import design-system components from 'index.js', not component internals."
+          }
+        ]
+      }
+    ],
+    "no-restricted-syntax": [
+      "warn",
+      {
+        "selector": "Literal[value=/#[0-9a-fA-F]{3,8}\\b/]",
+        "message": "Raw hex color — use a design-system color token via var()."
+      },
+      {
+        "selector": "Literal[value=/\\b\\d+px\\b/]",
+        "message": "Raw px value — use a design-system spacing token via var()."
+      },
+      {
+        "selector": "Literal[value=/font-family\\s*:\\s*(?!['\\\"]?(?:Fredoka|Nunito))/i]",
+        "message": "Font not provided by the design system. Available: Fredoka, Nunito."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Button'] > JSXAttribute > JSXIdentifier[name!=/^(?:variant|size|full|icon|children|key|ref|className|style|children)$/]",
+        "message": "<Button> doesn't accept that prop. Declared props: variant, size, full, icon, children."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Button'] > JSXAttribute[name.name='variant'] > Literal[value!=/^(?:primary|secondary|pro|danger)$/]",
+        "message": "<Button> variant must be one of 'primary' | 'secondary' | 'pro' | 'danger'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Button'] > JSXAttribute[name.name='size'] > Literal[value!=/^(?:sm|md|lg)$/]",
+        "message": "<Button> size must be one of 'sm' | 'md' | 'lg'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Card'] > JSXAttribute > JSXIdentifier[name!=/^(?:selected|interactive|pad|children|key|ref|className|style|children)$/]",
+        "message": "<Card> doesn't accept that prop. Declared props: selected, interactive, pad, children."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='ChoiceButton'] > JSXAttribute > JSXIdentifier[name!=/^(?:label|state|children|key|ref|className|style|children)$/]",
+        "message": "<ChoiceButton> doesn't accept that prop. Declared props: label, state, children."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='ChoiceButton'] > JSXAttribute[name.name='state'] > Literal[value!=/^(?:idle|correct|wrong|dim)$/]",
+        "message": "<ChoiceButton> state must be one of 'idle' | 'correct' | 'wrong' | 'dim'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='LessonNode'] > JSXAttribute > JSXIdentifier[name!=/^(?:state|icon|label|color|size|key|ref|className|style|children)$/]",
+        "message": "<LessonNode> doesn't accept that prop. Declared props: state, icon, label, color, size."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='LessonNode'] > JSXAttribute[name.name='state'] > Literal[value!=/^(?:done|active|locked)$/]",
+        "message": "<LessonNode> state must be one of 'done' | 'active' | 'locked'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='ProgressBar'] > JSXAttribute > JSXIdentifier[name!=/^(?:value|label|count|showMeta|height|style|key|ref|className|style|children)$/]",
+        "message": "<ProgressBar> doesn't accept that prop. Declared props: value, label, count, showMeta, height, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Reggie'] > JSXAttribute > JSXIdentifier[name!=/^(?:pose|size|className|style|title|key|ref|className|style|children)$/]",
+        "message": "<Reggie> doesn't accept that prop. Declared props: pose, size, className, style, title."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Reggie'] > JSXAttribute[name.name='pose'] > Literal[value!=/^(?:happy|cheer|think|sleepy|wave)$/]",
+        "message": "<Reggie> pose must be one of 'happy' | 'cheer' | 'think' | 'sleepy' | 'wave'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='StatChip'] > JSXAttribute > JSXIdentifier[name!=/^(?:kind|value|icon|color|solid|key|ref|className|style|children)$/]",
+        "message": "<StatChip> doesn't accept that prop. Declared props: kind, value, icon, color, solid."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='StatChip'] > JSXAttribute[name.name='kind'] > Literal[value!=/^(?:xp|streak|lives|pro|info)$/]",
+        "message": "<StatChip> kind must be one of 'xp' | 'streak' | 'lives' | 'pro' | 'info'."
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/index.js"
+      ],
+      "rules": {
+        "no-restricted-imports": "off"
+      }
+    }
+  ],
+  "x-omelette": {
+    "components": {
+      "Button": {
+        "replaces": []
+      },
+      "Card": {
+        "replaces": []
+      },
+      "ChoiceButton": {
+        "replaces": []
+      },
+      "LessonNode": {
+        "replaces": []
+      },
+      "ProgressBar": {
+        "replaces": []
+      },
+      "Reggie": {
+        "replaces": []
+      },
+      "StatChip": {
+        "replaces": []
+      }
+    },
+    "tokens": [
+      "--accent",
+      "--border-active",
+      "--border-card",
+      "--brand-pressed",
+      "--brand-primary",
+      "--coral",
+      "--correct",
+      "--font-body",
+      "--font-display",
+      "--forest",
+      "--green-deep",
+      "--icon-grad-bottom",
+      "--icon-grad-top",
+      "--ink",
+      "--line",
+      "--mint-2",
+      "--mint-wash",
+      "--paper",
+      "--pop-coral",
+      "--pop-green",
+      "--pop-grey",
+      "--pop-press",
+      "--pop-violet",
+      "--r-btn",
+      "--r-lg",
+      "--r-md",
+      "--r-pill",
+      "--r-sm",
+      "--r-tile",
+      "--r-xl",
+      "--shadow-card",
+      "--shadow-float",
+      "--sky",
+      "--slate",
+      "--space-1",
+      "--space-10",
+      "--space-2",
+      "--space-3",
+      "--space-4",
+      "--space-5",
+      "--space-6",
+      "--space-8",
+      "--spark-green",
+      "--surface-card",
+      "--surface-dark",
+      "--surface-page",
+      "--text-muted",
+      "--text-on-dark",
+      "--text-strong",
+      "--tracking-display",
+      "--tracking-eyebrow",
+      "--tracking-wordmark",
+      "--violet",
+      "--weight-body",
+      "--weight-body-bold",
+      "--weight-display",
+      "--weight-wordmark",
+      "--wrong",
+      "--xp-yellow"
+    ],
+    "tokenKinds": {
+      "--spark-green": "color",
+      "--forest": "color",
+      "--green-deep": "color",
+      "--xp-yellow": "color",
+      "--ink": "color",
+      "--slate": "color",
+      "--mint-wash": "color",
+      "--mint-2": "color",
+      "--paper": "color",
+      "--line": "color",
+      "--coral": "color",
+      "--violet": "color",
+      "--sky": "color",
+      "--icon-grad-top": "color",
+      "--icon-grad-bottom": "color",
+      "--surface-page": "color",
+      "--surface-card": "color",
+      "--surface-dark": "color",
+      "--text-strong": "font",
+      "--text-muted": "font",
+      "--text-on-dark": "font",
+      "--accent": "color",
+      "--brand-primary": "color",
+      "--brand-pressed": "color",
+      "--border-card": "color",
+      "--border-active": "color",
+      "--correct": "color",
+      "--wrong": "color",
+      "--font-display": "font",
+      "--font-body": "font",
+      "--weight-display": "font",
+      "--weight-wordmark": "font",
+      "--weight-body": "font",
+      "--weight-body-bold": "font",
+      "--tracking-display": "font",
+      "--tracking-wordmark": "font",
+      "--tracking-eyebrow": "font",
+      "--r-sm": "spacing",
+      "--r-md": "spacing",
+      "--r-lg": "spacing",
+      "--r-xl": "spacing",
+      "--r-btn": "spacing",
+      "--r-pill": "spacing",
+      "--r-tile": "spacing",
+      "--space-1": "spacing",
+      "--space-2": "spacing",
+      "--space-3": "spacing",
+      "--space-4": "spacing",
+      "--space-5": "spacing",
+      "--space-6": "spacing",
+      "--space-8": "spacing",
+      "--space-10": "spacing",
+      "--shadow-card": "shadow",
+      "--shadow-float": "shadow",
+      "--pop-green": "color",
+      "--pop-grey": "color",
+      "--pop-violet": "shadow",
+      "--pop-coral": "shadow",
+      "--pop-press": "spacing"
+    },
+    "fontFamilies": [
+      "Fredoka",
+      "Nunito"
+    ]
+  }
+}

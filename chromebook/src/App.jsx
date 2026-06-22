@@ -43,6 +43,7 @@ import FocusScreen from './screens/FocusScreen'
 import FocusHistoryScreen from './screens/FocusHistoryScreen'
 import FlashcardScreen from './screens/FlashcardScreen'
 import PlacementTestScreen from './screens/PlacementTestScreen'
+import ReggieAnim from './components/ReggieAnim'
 import { db } from './firebase'
 import { collection, addDoc } from 'firebase/firestore'
 
@@ -586,9 +587,9 @@ function MainLayout() {
         background: '#0f172a',
         color: '#f8fafc',
         fontFamily: 'var(--font-outfit)',
-        gap: '12px'
+        gap: '16px'
       }}>
-        <div style={{ fontSize: '72px', animation: 'float 1.5s ease-in-out infinite' }}>📖</div>
+        <ReggieAnim scene="loading" size={180} />
         <h2 style={{ fontWeight: 900, fontSize: '22px', margin: 0 }}>Loading Regentify...</h2>
         <p style={{ color: '#94a3b8', fontSize: '14px', margin: 0 }}>Preparing your study sanctuary</p>
       </div>

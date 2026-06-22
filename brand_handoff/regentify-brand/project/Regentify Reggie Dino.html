@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regentify — Reggie the Dino · Final</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo/reggie-dino-favicon.svg">
+<link rel="stylesheet" href="styles.css">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #DCE6E0; font-family: var(--font-body); color: var(--ink); -webkit-font-smoothing: antialiased; }
+  .page { width: max-content; min-width: 100%; padding: 56px 48px 80px; }
+  .wrap { width: 1180px; margin: 0 auto; }
+  .head { margin: 0 0 30px; }
+  .kicker { font-family: var(--font-display); font-weight: 600; text-transform: uppercase; letter-spacing: .18em; font-size: 13px; color: var(--forest); margin: 0 0 12px; }
+  .head h1 { font-family: var(--font-display); font-weight: 700; font-size: 46px; letter-spacing: -.02em; line-height: 1.05; margin: 0 0 14px; }
+  .head p { font-size: 17px; line-height: 1.55; color: #3a4a42; max-width: 700px; margin: 0; }
+
+  .card { background: #fff; border-radius: 28px; padding: 34px; box-shadow: 0 14px 40px rgba(15,32,24,.10); margin-bottom: 24px; }
+  .card > h3 { font-family: var(--font-display); font-weight: 600; font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: #93a69b; margin: 0 0 22px; }
+
+  /* hero row */
+  .hero { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  .hcell { border-radius: 22px; display: grid; place-items: center; padding: 40px; position: relative; min-height: 320px; }
+  .hcell.light { background: var(--mint-wash); }
+  .hcell.dark { background: var(--ink); }
+  .hcell .tag { position: absolute; top: 18px; left: 20px; font-family: var(--font-display); font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: #93a69b; }
+  .hcell.dark .tag { color: #5f7a6c; }
+  .hicon { width: 220px; height: 220px; }
+
+  /* lockups */
+  .locks { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  .lcell { border-radius: 22px; padding: 36px; display: flex; align-items: center; justify-content: center; gap: 26px; position: relative; min-height: 168px; }
+  .lcell.stacked { flex-direction: column; gap: 16px; }
+  .lcell.light { background: var(--mint-wash); }
+  .lcell.dark { background: var(--ink); }
+  .lcell .tag { position: absolute; top: 16px; left: 20px; font-family: var(--font-display); font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: #93a69b; }
+  .lcell.dark .tag { color: #5f7a6c; }
+  .wm { font-family: var(--font-display); font-weight: 700; letter-spacing: -.03em; line-height: 1; white-space: nowrap; }
+  .wm .r { color: var(--ink); } .wm .ify { color: var(--xp-yellow); }
+  .lcell.dark .wm .r { color: #fff; }
+  .lock-ico { flex: none; }
+
+  /* mockup + favicon row */
+  .row3 { display: grid; grid-template-columns: 320px 1fr; gap: 24px; }
+  .phone { background: var(--mint-wash); border-radius: 22px; display: grid; place-items: center; padding: 28px; }
+  .screen { width: 250px; height: 330px; border-radius: 38px; overflow: hidden; position: relative; background: linear-gradient(165deg,#34d27d 0%,#0E9F52 55%,#0a7d41 100%); box-shadow: 0 14px 30px rgba(14,159,82,.4); padding: 18px 16px; }
+  .screen .status { display: flex; justify-content: space-between; color: #fff; font-family: var(--font-display); font-weight: 600; font-size: 12px; opacity: .92; padding: 2px 6px 0; }
+  .grid-apps { display: grid; grid-template-columns: repeat(4,1fr); gap: 18px 12px; margin-top: 30px; padding: 0 4px; }
+  .ghost { aspect-ratio: 1; border-radius: 15px; background: rgba(255,255,255,.16); }
+  .applet { display: flex; flex-direction: column; align-items: center; gap: 7px; }
+  .applet .ic { width: 50px; height: 50px; border-radius: 13px; overflow: hidden; box-shadow: 0 5px 12px rgba(0,0,0,.22); }
+  .applet .nm { font-family: var(--font-display); font-weight: 600; font-size: 10px; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.28); }
+  .dock { position: absolute; left: 16px; right: 16px; bottom: 14px; height: 64px; border-radius: 24px; background: rgba(255,255,255,.2); backdrop-filter: blur(8px); display: flex; align-items: center; justify-content: space-around; padding: 0 14px; }
+  .dock .ic { width: 46px; height: 46px; border-radius: 12px; overflow: hidden; }
+
+  .fav { background: var(--mint-wash); border-radius: 22px; padding: 30px 34px; position: relative; display: flex; flex-direction: column; justify-content: center; }
+  .fav .tag { font-family: var(--font-display); font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: #93a69b; margin-bottom: 26px; }
+  .fav-row { display: flex; align-items: flex-end; gap: 38px; }
+  .fav-item { display: flex; flex-direction: column; align-items: center; gap: 11px; }
+  .fav-item .px { font-family: var(--font-body); font-weight: 700; font-size: 11px; color: #8a9c92; }
+  .browser-tab { display: flex; align-items: center; gap: 8px; background: #fff; border-radius: 10px 10px 0 0; padding: 9px 16px 10px; }
+  .browser-tab span { font-family: var(--font-body); font-weight: 700; font-size: 12px; color: #45564d; }
+
+  /* construction / clearspace */
+  .twocol { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  .mini { background: var(--mint-wash); border-radius: 22px; padding: 30px; }
+  .mini h4 { font-family: var(--font-display); font-weight: 600; font-size: 16px; margin: 0 0 6px; }
+  .mini p { font-size: 13.5px; color: #51635a; line-height: 1.5; margin: 0; }
+  .mini .vis { display: grid; place-items: center; padding: 18px 0 22px; }
+
+  /* color row */
+  .swatches { display: flex; gap: 14px; flex-wrap: wrap; }
+  .sw { width: 150px; border-radius: 16px; overflow: hidden; border: 1px solid #eef2ef; }
+  .sw .chip { height: 76px; }
+  .sw .meta { padding: 10px 12px; }
+  .sw .nm { font-family: var(--font-display); font-weight: 600; font-size: 13.5px; }
+  .sw .hex { font-family: var(--font-body); font-weight: 700; font-size: 12px; color: #8a9c92; letter-spacing: .02em; }
+
+  .icsvg { display: block; }
+  .asset-note { font-size: 13px; color: #51635a; line-height: 1.6; margin-top: 6px; }
+  .asset-note code { background: var(--mint-wash); padding: 2px 7px; border-radius: 6px; font-family: ui-monospace, monospace; font-size: 12px; color: var(--forest); }
+</style>
+</head>
+<body>
+<!-- reusable dino symbols -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <linearGradient id="tileGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#27D078"/><stop offset="1" stop-color="#0E9F52"/></linearGradient>
+
+  <symbol id="dino" viewBox="0 0 512 512">
+    <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+    <g fill="#FFC93C" stroke="#FFC93C" stroke-width="10" stroke-linejoin="round"><path d="M176 206 L150 150 L210 184 Z"/><path d="M150 270 L104 232 L168 230 Z"/></g>
+    <path d="M246 172 C322 172 380 220 392 286 C406 292 408 318 394 328 C384 380 350 414 298 426 C284 430 270 432 254 432 C186 432 148 386 148 316 C148 230 178 172 246 172 Z" fill="#1FC36B"/>
+    <ellipse cx="248" cy="372" rx="72" ry="60" fill="#EAFBF1"/>
+    <path d="M196 372 q-26 8 -30 34" fill="none" stroke="#15A95B" stroke-width="22" stroke-linecap="round"/>
+    <ellipse cx="214" cy="442" rx="36" ry="17" fill="#FFC93C"/><ellipse cx="304" cy="444" rx="36" ry="17" fill="#FFC93C"/>
+    <circle cx="320" cy="252" r="44" fill="#fff"/><circle cx="333" cy="257" r="22" fill="#0F2018"/><circle cx="341" cy="250" r="7" fill="#fff"/>
+    <circle cx="388" cy="300" r="8" fill="#0E7A45"/><path d="M348 340 q30 18 52 4" fill="none" stroke="#0F2018" stroke-width="12" stroke-linecap="round"/>
+    <path d="M262 116 L352 152 L262 188 L172 152 Z" fill="#0F2018"/><circle cx="262" cy="116" r="11" fill="#FFC93C"/><path d="M344 156 L344 192" stroke="#FFC93C" stroke-width="9" stroke-linecap="round"/><circle cx="344" cy="200" r="11" fill="#FFC93C"/>
+  </symbol>
+
+  <!-- solid Spark Green tile (dark-bg usage) -->
+  <symbol id="dino-solid" viewBox="0 0 512 512">
+    <rect x="16" y="16" width="480" height="480" rx="118" fill="#1FC36B"/>
+    <g fill="#FFC93C" stroke="#FFC93C" stroke-width="10" stroke-linejoin="round"><path d="M176 206 L150 150 L210 184 Z"/><path d="M150 270 L104 232 L168 230 Z"/></g>
+    <path d="M246 172 C322 172 380 220 392 286 C406 292 408 318 394 328 C384 380 350 414 298 426 C284 430 270 432 254 432 C186 432 148 386 148 316 C148 230 178 172 246 172 Z" fill="#0E9F52"/>
+    <ellipse cx="248" cy="372" rx="72" ry="60" fill="#EAFBF1"/>
+    <path d="M196 372 q-26 8 -30 34" fill="none" stroke="#0C8A47" stroke-width="22" stroke-linecap="round"/>
+    <ellipse cx="214" cy="442" rx="36" ry="17" fill="#FFC93C"/><ellipse cx="304" cy="444" rx="36" ry="17" fill="#FFC93C"/>
+    <circle cx="320" cy="252" r="44" fill="#fff"/><circle cx="333" cy="257" r="22" fill="#0F2018"/><circle cx="341" cy="250" r="7" fill="#fff"/>
+    <circle cx="388" cy="300" r="8" fill="#0C8A47"/><path d="M348 340 q30 18 52 4" fill="none" stroke="#0F2018" stroke-width="12" stroke-linecap="round"/>
+    <path d="M262 116 L352 152 L262 188 L172 152 Z" fill="#0F2018"/><circle cx="262" cy="116" r="11" fill="#FFC93C"/><path d="M344 156 L344 192" stroke="#FFC93C" stroke-width="9" stroke-linecap="round"/><circle cx="344" cy="200" r="11" fill="#FFC93C"/>
+  </symbol>
+
+  <!-- simplified (small sizes) -->
+  <symbol id="dino-sm" viewBox="0 0 512 512">
+    <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#tileGrad)"/>
+    <path d="M240 158 C322 158 388 214 400 292 C414 298 416 326 400 336 C390 396 352 436 296 448 C282 452 268 454 250 454 C176 454 130 402 130 322 C130 226 168 158 240 158 Z" fill="#1FC36B"/>
+    <ellipse cx="244" cy="384" rx="84" ry="70" fill="#EAFBF1"/>
+    <circle cx="322" cy="252" r="56" fill="#fff"/><circle cx="338" cy="258" r="28" fill="#0F2018"/>
+    <circle cx="396" cy="306" r="10" fill="#0E7A45"/>
+    <path d="M262 110 L360 148 L262 186 L164 148 Z" fill="#0F2018"/><circle cx="262" cy="110" r="13" fill="#FFC93C"/>
+  </symbol>
+</defs></svg>
+
+<div class="page"><div class="wrap">
+  <header class="head">
+    <p class="kicker">Regentify · Final Mark</p>
+    <h1>Reggie the Dino</h1>
+    <p>The refined mascot mark — a round, friendly baby dino in a graduation cap, XP-yellow back-spikes and feet, on the brand green gradient tile. Below: light/dark icons, both lockups, the app-icon mockup, small-size tests, construction, and the layered SVG exports.</p>
+  </header>
+
+  <!-- HERO -->
+  <section class="card">
+    <h3>Primary icon</h3>
+    <div class="hero">
+      <div class="hcell light"><span class="tag">Gradient tile · light bg</span><svg class="hicon icsvg" viewBox="0 0 512 512"><use href="#dino"/></svg></div>
+      <div class="hcell dark"><span class="tag">Solid Spark Green · dark bg</span><svg class="hicon icsvg" viewBox="0 0 512 512"><use href="#dino-solid"/></svg></div>
+    </div>
+  </section>
+
+  <!-- LOCKUPS -->
+  <section class="card">
+    <h3>Lockups</h3>
+    <div class="locks">
+      <div class="lcell light"><span class="tag">Horizontal</span><svg class="lock-ico icsvg" width="92" height="92" viewBox="0 0 512 512"><use href="#dino"/></svg><div class="wm" style="font-size:54px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+      <div class="lcell dark"><span class="tag">Horizontal · dark</span><svg class="lock-ico icsvg" width="92" height="92" viewBox="0 0 512 512"><use href="#dino-solid"/></svg><div class="wm" style="font-size:54px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+      <div class="lcell stacked light"><span class="tag">Stacked</span><svg class="lock-ico icsvg" width="104" height="104" viewBox="0 0 512 512"><use href="#dino"/></svg><div class="wm" style="font-size:42px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+      <div class="lcell stacked dark"><span class="tag">Stacked · dark</span><svg class="lock-ico icsvg" width="104" height="104" viewBox="0 0 512 512"><use href="#dino-solid"/></svg><div class="wm" style="font-size:42px"><span class="r">Regent</span><span class="ify">ify</span></div></div>
+    </div>
+  </section>
+
+  <!-- MOCKUP + FAVICON -->
+  <section class="card">
+    <h3>In context</h3>
+    <div class="row3">
+      <div class="phone">
+        <div class="screen">
+          <div class="status"><span>9:41</span><span>5G ▮</span></div>
+          <div class="grid-apps">
+            <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+            <div class="applet"><span class="ic"><svg viewBox="0 0 512 512" width="50" height="50"><use href="#dino"/></svg></span><span class="nm">Regentify</span></div>
+            <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+            <div class="ghost"></div><div class="ghost"></div><div class="ghost"></div><div class="ghost"></div>
+          </div>
+          <div class="dock">
+            <span class="ic" style="background:rgba(255,255,255,.28)"></span>
+            <span class="ic"><svg viewBox="0 0 512 512" width="46" height="46"><use href="#dino"/></svg></span>
+            <span class="ic" style="background:rgba(255,255,255,.28)"></span>
+            <span class="ic" style="background:rgba(255,255,255,.28)"></span>
+          </div>
+        </div>
+      </div>
+      <div class="fav">
+        <span class="tag">Small-size legibility · full → simplified</span>
+        <div class="fav-row">
+          <div class="fav-item"><svg width="72" height="72" viewBox="0 0 512 512"><use href="#dino"/></svg><span class="px">72px</span></div>
+          <div class="fav-item"><svg width="48" height="48" viewBox="0 0 512 512"><use href="#dino"/></svg><span class="px">48px</span></div>
+          <div class="fav-item"><svg width="32" height="32" viewBox="0 0 512 512"><use href="#dino-sm"/></svg><span class="px">32px ·simpl.</span></div>
+          <div class="fav-item"><svg width="24" height="24" viewBox="0 0 512 512"><use href="#dino-sm"/></svg><span class="px">24px ·simpl.</span></div>
+          <div class="fav-item"><svg width="16" height="16" viewBox="0 0 512 512"><use href="#dino-sm"/></svg><span class="px">16px ·simpl.</span></div>
+          <div class="fav-item">
+            <div class="browser-tab"><svg width="16" height="16" viewBox="0 0 512 512"><use href="#dino-sm"/></svg><span>Regentify</span></div>
+            <span class="px">browser tab</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONSTRUCTION + COLORS -->
+  <section class="card">
+    <h3>Usage &amp; palette</h3>
+    <div class="twocol" style="margin-bottom:24px">
+      <div class="mini">
+        <div class="vis"><svg width="150" height="150" viewBox="0 0 512 512" style="outline:2px dashed #b9d2c4;outline-offset:14px;border-radius:36px"><use href="#dino"/></svg></div>
+        <h4>Clear space &amp; minimum size</h4>
+        <p>Keep clear space of at least ¼ the tile width on all sides. Minimum app-icon size 24px; below 32px switch to the simplified mark (no spikes, feet or tassel — just body, eye, snout &amp; cap).</p>
+      </div>
+      <div class="mini">
+        <div class="vis" style="gap:18px;display:flex;background:#fff;border-radius:16px;margin-bottom:4px">
+          <svg width="118" height="118" viewBox="0 0 512 512"><use href="#dino"/></svg>
+          <svg width="118" height="118" viewBox="0 0 512 512"><use href="#dino-solid"/></svg>
+        </div>
+        <h4>Gradient vs solid tile</h4>
+        <p>Use the green <b>gradient</b> tile on light or neutral surfaces. On dark or busy backgrounds, use the <b>solid Spark Green</b> tile so the squircle keeps a clean edge. The mark inside never changes proportion.</p>
+      </div>
+    </div>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#1FC36B"></div><div class="meta"><div class="nm">Spark Green</div><div class="hex">#1FC36B</div></div></div>
+      <div class="sw"><div class="chip" style="background:#0E9F52"></div><div class="meta"><div class="nm">Forest</div><div class="hex">#0E9F52</div></div></div>
+      <div class="sw"><div class="chip" style="background:#FFC93C"></div><div class="meta"><div class="nm">XP Yellow</div><div class="hex">#FFC93C</div></div></div>
+      <div class="sw"><div class="chip" style="background:#0F2018"></div><div class="meta"><div class="nm">Ink</div><div class="hex">#0F2018</div></div></div>
+      <div class="sw"><div class="chip" style="background:#EAFBF1;border-bottom:1px solid #eef2ef"></div><div class="meta"><div class="nm">Mint Wash</div><div class="hex">#EAFBF1</div></div></div>
+    </div>
+  </section>
+
+  <!-- EXPORTS -->
+  <section class="card">
+    <h3>Layered SVG exports — <code style="font-family:ui-monospace,monospace;font-size:13px">assets/logo/</code></h3>
+    <div style="display:flex;gap:22px;flex-wrap:wrap;align-items:flex-end">
+      <div style="text-align:center"><img src="assets/logo/reggie-dino-icon.svg" width="118" style="border-radius:26px;display:block"><div class="px" style="font-family:var(--font-body);font-weight:700;font-size:11px;color:#8a9c92;margin-top:9px">reggie-dino-icon.svg</div></div>
+      <div style="text-align:center;background:var(--ink);padding:14px;border-radius:18px"><img src="assets/logo/reggie-dino-icon-dark.svg" width="104" style="border-radius:24px;display:block"><div class="px" style="font-family:var(--font-body);font-weight:700;font-size:11px;color:#7d9488;margin-top:9px">…icon-dark.svg</div></div>
+      <div style="text-align:center"><img src="assets/logo/reggie-dino-favicon.svg" width="64" style="border-radius:15px;display:block;margin:0 auto"><div class="px" style="font-family:var(--font-body);font-weight:700;font-size:11px;color:#8a9c92;margin-top:9px">…favicon.svg</div></div>
+      <div style="text-align:center"><img src="assets/logo/lockup-horizontal.svg" height="64" style="display:block"><div class="px" style="font-family:var(--font-body);font-weight:700;font-size:11px;color:#8a9c92;margin-top:9px">lockup-horizontal.svg</div></div>
+      <div style="text-align:center"><img src="assets/logo/lockup-stacked.svg" height="104" style="display:block"><div class="px" style="font-family:var(--font-body);font-weight:700;font-size:11px;color:#8a9c92;margin-top:9px">lockup-stacked.svg</div></div>
+    </div>
+    <p class="asset-note">Each file is hand-layered and commented (tile · spikes · body · belly · eye · snout · cap). Also exported: <code>reggie-dino-mark.svg</code> (no tile, transparent). Lockups embed Fredoka 700 via web import.</p>
+  </section>
+
+</div></div>
+</body>
+</html>

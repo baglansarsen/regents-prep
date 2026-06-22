@@ -1,0 +1,31 @@
+:root {
+  /* ---- Corner radii — bouncy & chunky (14–24px everywhere) ---- */
+  --r-sm:   10px;   /* chips, small controls */
+  --r-md:   14px;   /* inputs, list rows */
+  --r-lg:   18px;   /* cards, choices */
+  --r-xl:   22px;   /* big cards, modals, panels */
+  --r-btn:  16px;   /* buttons */
+  --r-pill: 999px;  /* pills, progress tracks */
+  --r-tile: 24px;   /* app-icon squircle */
+
+  /* ---- Spacing scale (8pt base) ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  /* ---- Shadows ---- */
+  --shadow-card: 0 10px 30px rgba(15, 32, 24, .08);   /* soft card lift */
+  --shadow-float: 0 14px 40px rgba(15, 32, 24, .12);  /* modals / hovers */
+
+  /* ---- The signature tactile "pop" — solid offset bottom shadow on buttons ---- */
+  --pop-green:  0 5px 0 var(--forest);
+  --pop-grey:   0 5px 0 var(--line);
+  --pop-violet: 0 5px 0 #5b3fd1;
+  --pop-coral:  0 5px 0 #d8403f;
+  --pop-press:  3px;   /* px to translateY when a popped button is pressed */
+}

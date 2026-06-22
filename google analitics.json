@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "488614490944",
+    "project_id": "regapp-c3e0d",
+    "storage_bucket": "regapp-c3e0d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488614490944:android:499456d5a392139a0940a5",
+        "android_client_info": {
+          "package_name": "com.regentify.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeOzgRqW4SsMcXn0PLoKaICaD0gyQTbjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

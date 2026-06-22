@@ -1,0 +1,18 @@
+/* Webfonts via Google Fonts — Fredoka (display / wordmark) + Nunito (body).
+   Substitution note: Regentify ships these from Google Fonts CDN (no local
+   binaries in the source repo). Swap to self-hosted files if needed. */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800;900&display=swap');
+
+:root {
+  --font-display: 'Fredoka', system-ui, sans-serif;  /* headings, wordmark, buttons */
+  --font-body:    'Nunito', system-ui, sans-serif;   /* body copy */
+
+  --weight-display: 600;
+  --weight-wordmark: 700;
+  --weight-body: 600;
+  --weight-body-bold: 800;
+
+  --tracking-display: -0.01em;
+  --tracking-wordmark: -0.02em;
+  --tracking-eyebrow: 0.16em;
+}

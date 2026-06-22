@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Regentify favicon">
+  <title>Regentify · favicon (simplified Reggie)</title>
+  <defs>
+    <linearGradient id="favTile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#27D078"></stop>
+      <stop offset="1" stop-color="#0E9F52"></stop>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#favTile)"></rect>
+  
+  <path d="M240 158 C322 158 388 214 400 292 C414 298 416 326 400 336 C390 396 352 436 296 448 C282 452 268 454 250 454 C176 454 130 402 130 322 C130 226 168 158 240 158 Z" fill="#1FC36B"></path>
+  <ellipse cx="244" cy="384" rx="84" ry="70" fill="#EAFBF1"></ellipse>
+  <circle cx="322" cy="252" r="56" fill="#FFFFFF"></circle>
+  <circle cx="338" cy="258" r="28" fill="#0F2018"></circle>
+  <circle cx="396" cy="306" r="10" fill="#0E7A45"></circle>
+  <path d="M262 110 L360 148 L262 186 L164 148 Z" fill="#0F2018"></path>
+  <circle cx="262" cy="110" r="13" fill="#FFC93C"></circle>
+</svg>

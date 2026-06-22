@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regentify — Reggie In-App</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo/reggie-dino-favicon.svg">
+<link rel="stylesheet" href="styles.css">
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#DCE6E0; font-family:var(--font-body); color:var(--ink); -webkit-font-smoothing:antialiased; }
+  .page { width:max-content; min-width:100%; padding:56px 48px 88px; }
+  .wrap { width:1180px; margin:0 auto; }
+
+  .head { margin:0 0 30px; }
+  .kicker { font-family:var(--font-display); font-weight:600; text-transform:uppercase; letter-spacing:.18em; font-size:13px; color:var(--forest); margin:0 0 12px; }
+  .head h1 { font-family:var(--font-display); font-weight:700; font-size:46px; letter-spacing:-.02em; line-height:1.05; margin:0 0 14px; }
+  .head p { font-size:17px; line-height:1.55; color:#3a4a42; max-width:720px; margin:0; }
+
+  .card { background:#fff; border-radius:28px; padding:34px; box-shadow:0 14px 40px rgba(15,32,24,.10); margin-bottom:24px; }
+  .card > h3 { font-family:var(--font-display); font-weight:600; font-size:13px; letter-spacing:.14em; text-transform:uppercase; color:#93a69b; margin:0 0 22px; }
+
+  /* hero */
+  .hero { display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+  .hcell { border-radius:22px; display:grid; place-items:center; padding:36px; position:relative; min-height:340px; }
+  .hcell.light { background:var(--mint-wash); }
+  .hcell.dark  { background:var(--ink); }
+  .hcell .tag { position:absolute; top:18px; left:20px; font-family:var(--font-display); font-size:11px; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:#93a69b; }
+  .hcell.dark .tag { color:#5f7a6c; }
+  .hero svg { width:280px; height:280px; display:block; }
+
+  /* pose grid */
+  .poses { display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
+  .pose { background:var(--mint-wash); border-radius:20px; padding:18px 18px 20px; display:flex; flex-direction:column; align-items:center; text-align:center; }
+  .pose svg { width:150px; height:150px; display:block; }
+  .pose .nm { font-family:var(--font-display); font-weight:600; font-size:16px; margin:8px 0 3px; }
+  .pose .cap { font-size:12.5px; color:#51635a; line-height:1.45; }
+
+  /* avatars */
+  .avrow { display:flex; gap:16px; flex-wrap:wrap; align-items:flex-end; margin-bottom:26px; }
+  .av { border-radius:50%; overflow:hidden; display:grid; place-items:center; box-shadow:0 6px 16px rgba(15,32,24,.16); }
+  .av svg { width:100%; height:100%; display:block; }
+  .av-item { display:flex; flex-direction:column; align-items:center; gap:9px; }
+  .av-item .px { font-family:var(--font-body); font-weight:700; font-size:11px; color:#8a9c92; }
+
+  .ctxrow { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+  .ctxbox { background:var(--mint-wash); border-radius:18px; padding:22px; }
+  .ctxbox .lbl { font-family:var(--font-display); font-size:11px; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:#93a69b; margin-bottom:16px; }
+  /* nav bar */
+  .navbar { background:#fff; border-radius:16px; padding:10px 8px; display:flex; justify-content:space-around; box-shadow:0 4px 14px rgba(15,32,24,.08); }
+  .nav-i { display:flex; flex-direction:column; align-items:center; gap:4px; color:#9fb3a8; font-family:var(--font-display); font-weight:600; font-size:11px; }
+  .nav-i.on { color:var(--forest); }
+  .nav-dot { width:30px; height:30px; border-radius:9px; background:#e3ede7; }
+  .nav-av { width:30px; height:30px; border-radius:50%; overflow:hidden; }
+  .nav-av svg { width:100%; height:100%; }
+  /* chat */
+  .chat { display:flex; gap:12px; align-items:flex-end; }
+  .chat .who { width:52px; height:52px; border-radius:50%; overflow:hidden; flex:none; background:var(--spark-green); }
+  .chat .who svg { width:100%; height:100%; }
+  .bubble { background:#fff; border-radius:16px 16px 16px 4px; padding:13px 16px; font-size:14px; line-height:1.45; color:#2f3d36; box-shadow:0 3px 10px rgba(15,32,24,.07); max-width:280px; }
+  .bubble b { font-family:var(--font-display); font-weight:600; }
+
+  /* motion */
+  .motion { display:grid; grid-template-columns:300px 1fr; gap:24px; }
+  .mcell { background:var(--mint-wash); border-radius:20px; padding:24px; position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:240px; }
+  .mcell .tag { position:absolute; top:16px; left:18px; font-family:var(--font-display); font-size:11px; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:#93a69b; }
+  .mcell .cap { font-size:12.5px; color:#51635a; margin-top:14px; text-align:center; line-height:1.45; max-width:360px; }
+  .bob svg { width:170px; height:170px; display:block; }
+  @media (prefers-reduced-motion:no-preference){
+    .bob svg { animation:bob 2.6s ease-in-out infinite; transform-origin:50% 90%; }
+    .load svg { animation:hop 1s ease-in-out infinite; }
+    .load .l2 svg { animation-delay:.16s; } .load .l3 svg { animation-delay:.32s; }
+  }
+  @keyframes bob { 0%,100%{ transform:translateY(0) scale(1,1);} 50%{ transform:translateY(-10px) scale(1.015,.985);} }
+  @keyframes hop { 0%,100%{ transform:translateY(0);} 40%{ transform:translateY(-16px);} }
+  .load { display:flex; gap:6px; align-items:flex-end; }
+  .load svg { width:74px; height:74px; display:block; }
+
+  /* construction + palette */
+  .twocol { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-bottom:24px; }
+  .mini { background:var(--mint-wash); border-radius:22px; padding:28px; }
+  .mini h4 { font-family:var(--font-display); font-weight:600; font-size:16px; margin:0 0 6px; }
+  .mini p { font-size:13.5px; color:#51635a; line-height:1.5; margin:0; }
+  .mini .vis { display:grid; place-items:center; padding:6px 0 20px; }
+  .mini .vis svg { width:150px; height:150px; }
+  .dont .vis svg { outline:none; }
+
+  .swatches { display:flex; gap:14px; flex-wrap:wrap; }
+  .sw { width:150px; border-radius:16px; overflow:hidden; border:1px solid #eef2ef; }
+  .sw .chip { height:72px; }
+  .sw .meta { padding:10px 12px; }
+  .sw .nm { font-family:var(--font-display); font-weight:600; font-size:13.5px; }
+  .sw .hex { font-family:var(--font-body); font-weight:700; font-size:12px; color:#8a9c92; letter-spacing:.02em; }
+
+  .asset-note { font-size:13px; color:#51635a; line-height:1.6; margin-top:12px; }
+  .asset-note code { background:var(--mint-wash); padding:2px 7px; border-radius:6px; font-family:ui-monospace,monospace; font-size:12px; color:var(--forest); }
+  .exports { display:flex; gap:20px; flex-wrap:wrap; align-items:flex-end; }
+  .exp-i { text-align:center; }
+  .exp-i .frame { background:var(--mint-wash); border-radius:18px; padding:14px; }
+  .exp-i .frame.dk { background:var(--ink); }
+  .exp-i .frame svg { width:96px; height:96px; display:block; }
+  .exp-i .fn { font-family:var(--font-body); font-weight:700; font-size:11px; color:#8a9c92; margin-top:9px; }
+</style>
+</head>
+<body>
+<div class="page"><div class="wrap">
+  <header class="head">
+    <p class="kicker">Regentify · Mascot System</p>
+    <h1>Reggie, In-App</h1>
+    <p>The free-standing version of Reggie — lifted off the app-icon tile into a full-body character that lives inside the product. Same DNA as the mark (one big eye, mortarboard cap, XP-yellow spikes &amp; feet, mint belly), now with arms and a working set of expressions for heroes, empty states, celebrations, avatars and loading moments.</p>
+  </header>
+
+  <!-- HERO -->
+  <section class="card">
+    <h3>Free-standing character</h3>
+    <div class="hero">
+      <div class="hcell light"><span class="tag">On light · transparent</span><div class="reg" data-pose="idle"></div></div>
+      <div class="hcell dark"><span class="tag">On dark · transparent</span><div class="reg" data-pose="wave"></div></div>
+    </div>
+  </section>
+
+  <!-- POSES -->
+  <section class="card">
+    <h3>Expression &amp; pose set</h3>
+    <div class="poses">
+      <div class="pose"><div class="reg" data-pose="idle"></div><div class="nm">Idle</div><div class="cap">Default presence — tab corners, headers, resting hero.</div></div>
+      <div class="pose"><div class="reg" data-pose="wave"></div><div class="nm">Wave</div><div class="cap">Login &amp; onboarding hero, first-run greeting.</div></div>
+      <div class="pose"><div class="reg" data-pose="celebrate"></div><div class="nm">Celebrate</div><div class="cap">Lesson complete, streak hit, XP unlocked.</div></div>
+      <div class="pose"><div class="reg" data-pose="think"></div><div class="nm">Think</div><div class="cap">Hints, &ldquo;working on it&rdquo;, quiz prompts.</div></div>
+      <div class="pose"><div class="reg" data-pose="encourage"></div><div class="nm">Encourage</div><div class="cap">Correct answer, nudges, &ldquo;you&rsquo;ve got this&rdquo;.</div></div>
+      <div class="pose"><div class="reg" data-pose="oops"></div><div class="nm">Oops</div><div class="cap">Wrong answer, errors, empty / not-found states.</div></div>
+      <div class="pose"><div class="reg" data-pose="sleep"></div><div class="nm">Sleep</div><div class="cap">Idle timeout, &ldquo;no activity&rdquo;, streak about to break.</div></div>
+      <div class="pose"><div class="reg" data-pose="idleAlt"></div><div class="nm">Peek</div><div class="cap">Tooltips &amp; toasts — half-body crop works too.</div></div>
+    </div>
+  </section>
+
+  <!-- AVATARS -->
+  <section class="card">
+    <h3>Avatars &amp; small sizes</h3>
+    <div class="avrow" id="avrow"></div>
+    <div class="ctxrow">
+      <div class="ctxbox">
+        <div class="lbl">Bottom nav · profile slot</div>
+        <div class="navbar">
+          <div class="nav-i on"><span class="nav-dot" style="background:#bfe8d2"></span>Learn</div>
+          <div class="nav-i"><span class="nav-dot"></span>Practice</div>
+          <div class="nav-i"><span class="nav-dot"></span>Ranks</div>
+          <div class="nav-i"><span class="nav-av" data-av='{"eye":"open","mouth":"smile"}'></span>You</div>
+        </div>
+      </div>
+      <div class="ctxbox">
+        <div class="lbl">Coach message</div>
+        <div class="chat">
+          <span class="who" data-av='{"eye":"happy","mouth":"grin"}'></span>
+          <div class="bubble"><b>Nice streak!</b> Two more correct and you&rsquo;ll clear today&rsquo;s goal. Keep going. 🔥</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MOTION -->
+  <section class="card">
+    <h3>Motion</h3>
+    <div class="motion">
+      <div class="mcell">
+        <span class="tag">Idle breathing</span>
+        <div class="bob"><div class="reg" data-pose="idle"></div></div>
+        <div class="cap">A gentle 2.6s bob keeps Reggie alive on heroes &amp; empty states without distracting.</div>
+      </div>
+      <div class="mcell">
+        <span class="tag">Loading</span>
+        <div class="load">
+          <div class="l1"><div class="reg" data-pose="idleMini"></div></div>
+          <div class="l2"><div class="reg" data-pose="idleMini"></div></div>
+          <div class="l3"><div class="reg" data-pose="idleMini"></div></div>
+        </div>
+        <div class="cap">Three Reggies hop in sequence for loaders &amp; transitions — pairs with the green progress fill.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONSTRUCTION + PALETTE -->
+  <section class="card">
+    <h3>Usage &amp; palette</h3>
+    <div class="twocol">
+      <div class="mini">
+        <div class="vis"><div class="reg" data-pose="idle" data-clear="1"></div></div>
+        <h4>Clear space &amp; minimum size</h4>
+        <p>Give the full-body character clear space of at least ¼ his height. Use the free-standing mascot at 96px and up; below that, switch to the circular face avatar. Never crop the cap or feet on the full body.</p>
+      </div>
+      <div class="mini">
+        <div class="vis" style="display:flex;gap:24px">
+          <div class="reg" data-pose="idle" style="width:120px"></div>
+          <div class="reg" data-pose="celebrate" style="width:120px"></div>
+        </div>
+        <h4>One character, many moods</h4>
+        <p>Keep proportions, cap, eye and belly fixed — only the arms, mouth and eye change between poses. Don&rsquo;t recolor Reggie, add outlines, rotate him, or place him on a busy photo. On dark surfaces the gradient body still reads; no tile needed.</p>
+      </div>
+    </div>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#1FC36B"></div><div class="meta"><div class="nm">Spark Green</div><div class="hex">#1FC36B</div></div></div>
+      <div class="sw"><div class="chip" style="background:#0E9F52"></div><div class="meta"><div class="nm">Forest</div><div class="hex">#0E9F52</div></div></div>
+      <div class="sw"><div class="chip" style="background:#FFC93C"></div><div class="meta"><div class="nm">XP Yellow</div><div class="hex">#FFC93C</div></div></div>
+      <div class="sw"><div class="chip" style="background:#0F2018"></div><div class="meta"><div class="nm">Ink</div><div class="hex">#0F2018</div></div></div>
+      <div class="sw"><div class="chip" style="background:#EAFBF1;border-bottom:1px solid #eef2ef"></div><div class="meta"><div class="nm">Mint Wash</div><div class="hex">#EAFBF1</div></div></div>
+    </div>
+  </section>
+
+  <!-- EXPORTS -->
+  <section class="card">
+    <h3>SVG exports — <code style="font-family:ui-monospace,monospace;font-size:13px">assets/reggie/</code></h3>
+    <div class="exports" id="exports"></div>
+    <p class="asset-note">Each pose is exported as a standalone, transparent SVG (full body, no tile). Drop them straight into screens — heroes, empty states, toasts, celebrations. Generated from a single source, <code>assets/reggie/reggie-character.js</code>, so poses stay perfectly consistent. For the circular avatar, render any pose inside a <code>border-radius:50%</code> mask on a brand-color fill.</p>
+  </section>
+
+</div></div>
+
+<script src="assets/reggie/reggie-character.js"></script>
+<script>
+  const R = window.Reggie;
+  const VARIANTS = Object.assign({}, R.POSES, {
+    idleAlt:  Object.assign({}, R.POSES.idle, { eye:'sparkle', mouth:'grin' }),
+    idleMini: R.POSES.idle,
+  });
+  // full-body characters
+  document.querySelectorAll('.reg[data-pose]').forEach(el=>{
+    const o = Object.assign({}, VARIANTS[el.dataset.pose] || R.POSES.idle);
+    el.innerHTML = R.reggie(o);
+    if(el.dataset.clear){ const s=el.querySelector('svg'); s.style.outline='2px dashed #b9d2c4'; s.style.outlineOffset='10px'; s.style.borderRadius='20px'; }
+  });
+  // avatars row
+  const avDefs = [
+    {bg:'#1FC36B', px:'96px', o:{eye:'open',mouth:'smile'}},
+    {bg:'#EAFBF1', px:'72px', o:{eye:'happy',mouth:'grin'}},
+    {bg:'#7C5CFC', px:'56px', o:{eye:'wink',mouth:'grin'}},
+    {bg:'#0F2018', px:'48px', o:{eye:'open',mouth:'smile'}},
+    {bg:'#FFC93C', px:'40px', o:{eye:'sparkle',mouth:'smile'}},
+    {bg:'#34B3F1', px:'32px', o:{eye:'happy',mouth:'smile'}},
+  ];
+  const avrow = document.getElementById('avrow');
+  avDefs.forEach(d=>{
+    const wrap = document.createElement('div'); wrap.className='av-item';
+    const sz = parseInt(d.px,10);
+    wrap.innerHTML = `<div class="av" style="width:${d.px};height:${d.px};background:${d.bg}">${R.avatar(d.o)}</div><span class="px">${d.px}</span>`;
+    avrow.appendChild(wrap);
+  });
+  // inline avatar slots (nav, chat)
+  document.querySelectorAll('[data-av]').forEach(el=>{
+    el.innerHTML = R.avatar(JSON.parse(el.dataset.av));
+    el.style.background = el.classList.contains('who') ? '#1FC36B' : '#bfe8d2';
+  });
+  // exports preview
+  const exDefs = [
+    {fn:'reggie-wave.svg', pose:'wave', dk:false},
+    {fn:'reggie-celebrate.svg', pose:'celebrate', dk:false},
+    {fn:'reggie-think.svg', pose:'think', dk:false},
+    {fn:'reggie-encourage.svg', pose:'encourage', dk:true},
+    {fn:'reggie-oops.svg', pose:'oops', dk:false},
+    {fn:'reggie-sleep.svg', pose:'sleep', dk:true},
+  ];
+  const ex = document.getElementById('exports');
+  exDefs.forEach(d=>{
+    const i = document.createElement('div'); i.className='exp-i';
+    i.innerHTML = `<div class="frame ${d.dk?'dk':''}">${R.reggie(R.POSES[d.pose])}</div><div class="fn">${d.fn}</div>`;
+    ex.appendChild(i);
+  });
+</script>
+</body>
+</html>

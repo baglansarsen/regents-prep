@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#27D078"/>
+      <stop offset="1" stop-color="#0E9F52"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="116" fill="url(#gB)"/>
+  <!-- shield -->
+  <path d="M256 120
+           L372 158
+           V268
+           C372 332 322 374 256 400
+           C190 374 140 332 140 268
+           V158 Z" fill="#FFFFFF"/>
+  <!-- inner shield tint -->
+  <path d="M256 150
+           L344 179
+           V266
+           C344 314 308 347 256 368
+           C204 347 168 314 168 266
+           V179 Z" fill="#EAFBF1"/>
+  <!-- checkmark -->
+  <path d="M214 262 L244 292 L306 224" fill="none" stroke="#0E9F52" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- spark accents -->
+  <circle cx="256" cy="120" r="14" fill="#FFC93C"/>
+  <circle cx="372" cy="158" r="9" fill="#FFC93C"/>
+  <circle cx="140" cy="158" r="9" fill="#FFC93C"/>
+</svg>

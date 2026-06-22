@@ -1,0 +1,35 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#27D078"/>
+      <stop offset="1" stop-color="#0E9F52"/>
+    </linearGradient>
+  </defs>
+  <!-- full-bleed tile (iOS masks corners; opaque, no transparency) -->
+  <rect width="1024" height="1024" fill="url(#tile)"/>
+  <!-- ===== Reggie (white) ===== -->
+  <!-- wings -->
+  <path d="M300 572 q-44 68 16 128 q36 -24 48 -76 Z" fill="#0C8A47"/>
+  <path d="M724 572 q44 68 -16 128 q-36 -24 -48 -76 Z" fill="#0C8A47"/>
+  <!-- body -->
+  <path d="M512 336 C676 336 744 464 744 592 C744 732 644 808 512 808 C380 808 280 732 280 592 C280 464 348 336 512 336 Z" fill="#FFFFFF"/>
+  <!-- belly -->
+  <ellipse cx="512" cy="628" rx="138" ry="146" fill="#EAFBF1"/>
+  <!-- eyes -->
+  <circle cx="438" cy="524" r="80" fill="#FFFFFF" stroke="#0E9F52" stroke-width="7"/>
+  <circle cx="586" cy="524" r="80" fill="#FFFFFF" stroke="#0E9F52" stroke-width="7"/>
+  <circle cx="448" cy="532" r="33" fill="#0F2018"/>
+  <circle cx="576" cy="532" r="33" fill="#0F2018"/>
+  <circle cx="460" cy="520" r="10" fill="#FFFFFF"/>
+  <circle cx="588" cy="520" r="10" fill="#FFFFFF"/>
+  <!-- beak -->
+  <path d="M512 572 l32 44 -64 0 Z" fill="#FFC93C"/>
+  <!-- feet -->
+  <path d="M468 802 l-20 38 M488 806 l0 38 M508 806 l18 38" stroke="#FFC93C" stroke-width="14" stroke-linecap="round"/>
+  <path d="M556 802 l20 38 M536 806 l0 38" stroke="#FFC93C" stroke-width="14" stroke-linecap="round"/>
+  <!-- graduation cap -->
+  <path d="M356 392 L512 332 L668 392 L512 452 Z" fill="#0F2018"/>
+  <path d="M512 452 L512 398" stroke="#0F2018" stroke-width="10"/>
+  <path d="M668 392 L668 466 q-7 24 -17 0 L651 398 Z" fill="#FFC93C"/>
+  <circle cx="668" cy="392" r="15" fill="#FFC93C"/>
+</svg>

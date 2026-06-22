@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback, useRef } from 'react'
 import ReportQuestionModal from '../components/ReportQuestionModal'
 import DynamicDiagram from '../components/DynamicDiagram'
 import { Reggie } from '../components/brand/Reggie'
+import ReggieAnim from '../components/ReggieAnim'
 import { useTutor } from '../hooks/useTutor'
 
 const TIMER_SECONDS = 30
@@ -590,7 +591,15 @@ export default function QuizScreen({
           <div className={`quiz-feedback-banner ${isSelectedCorrect ? 'correct' : 'wrong'}`}>
             <div className="feedback-wrapper">
               <div className="feedback-message">
-                <span className="feedback-icon">{isSelectedCorrect ? '🎉' : '❌'}</span>
+                {/* Animated Reggie reaction */}
+                <div style={{ flexShrink: 0 }}>
+                  <ReggieAnim
+                    key={`${index}-${isSelectedCorrect}`}
+                    scene={isSelectedCorrect ? 'celebrate' : 'encourage'}
+                    size={96}
+                    style={{ borderRadius: '12px', overflow: 'hidden' }}
+                  />
+                </div>
                 <div>
                   <h4 className="feedback-title">
                     {isSelectedCorrect ? 'Awesome! Correct!' : 'Incorrect Answer'}

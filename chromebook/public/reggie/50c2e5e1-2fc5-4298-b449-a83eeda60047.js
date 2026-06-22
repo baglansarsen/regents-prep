@@ -1,0 +1,136 @@
+/* Regentify — Reggie the Dino · free-standing in-app character generator.
+   Single source of truth: the showcase page and the SVG asset exporter both
+   build from window.Reggie. Same shape vocabulary as the app-icon mark
+   (one big eye, mortarboard cap, XP-yellow spikes + feet, mint belly). */
+(function () {
+  const C = {
+    bodyTop:'#34D27D', bodyBot:'#0E9F52', body:'#1FC36B', shade:'#16A95C', deep:'#0A7D40',
+    belly:'#EAFBF1', bellyEdge:'#CDEFDC',
+    yellow:'#FFC93C', yellowDk:'#EFAE2E',
+    ink:'#0F2018', white:'#fff', capDk:'#16241D',
+    slate:'#5B6B62', coral:'#FF5A5F', sky:'#34B3F1', violet:'#7C5CFC'
+  };
+
+  const BODY = `M252 122
+C198 122 156 158 150 208
+C118 234 116 290 136 326
+C152 376 198 412 252 412
+C306 412 352 376 368 326
+C388 290 386 234 354 208
+C348 158 306 122 252 122 Z`;
+
+  const tail = () => `<path d="M150 330 C112 332 96 360 104 392 C108 408 126 410 134 396 C124 374 132 350 158 344 Z" fill="${C.shade}"/>`;
+  const spikes = () => `<g fill="${C.yellow}" stroke="${C.yellow}" stroke-width="6" stroke-linejoin="round"><path d="M170 176 L150 128 L210 160 Z"/><path d="M138 236 L96 206 L160 220 Z"/></g>`;
+  const feet = (pose) => pose==='sleep'
+    ? `<ellipse cx="232" cy="412" rx="46" ry="18" fill="${C.yellow}"/><ellipse cx="300" cy="406" rx="40" ry="16" fill="${C.yellowDk}"/>`
+    : `<ellipse cx="214" cy="416" rx="38" ry="17" fill="${C.yellowDk}"/><ellipse cx="296" cy="416" rx="38" ry="17" fill="${C.yellow}"/>`;
+  const bodyShape = () => `<path d="${BODY}" fill="url(#bodyG)"/><path d="M252 412 C198 412 152 376 136 326 C150 360 196 384 252 384 C308 384 354 360 368 326 C352 376 306 412 252 412 Z" fill="${C.shade}" opacity=".55"/>`;
+  const belly = () => `<ellipse cx="256" cy="320" rx="86" ry="82" fill="${C.belly}"/><path d="M196 286 q-22 30 0 64" fill="none" stroke="${C.bellyEdge}" stroke-width="10" stroke-linecap="round"/>`;
+  const snout = () => `<ellipse cx="356" cy="288" rx="26" ry="22" fill="${C.body}"/><circle cx="372" cy="282" r="5" fill="${C.deep}"/>`;
+
+  function arm(key){
+    const F = C.body, S = C.shade;
+    const A = {
+      rest_l:`<path d="M150 312 C124 318 114 344 126 364 C140 372 156 360 160 342 Z" fill="${S}"/>`,
+      rest_r:`<path d="M354 312 C380 318 390 344 378 364 C364 372 348 360 344 342 Z" fill="${F}"/>`,
+      wave_r:`<path d="M356 286 C396 262 420 214 414 176 C410 158 392 156 382 172 C372 206 352 244 340 268 Z" fill="${F}"/><circle cx="404" cy="172" r="20" fill="${F}"/>`,
+      up_l:`<path d="M150 290 C120 256 110 214 120 184 C126 168 144 168 152 184 C160 214 168 256 170 286 Z" fill="${S}"/>`,
+      up_r:`<path d="M356 290 C386 256 396 214 386 184 C380 168 362 168 354 184 C346 214 338 256 340 286 Z" fill="${F}"/>`,
+      think_r:`<path d="M348 366 C338 344 338 328 348 316" stroke="${F}" stroke-width="24" fill="none" stroke-linecap="round"/><circle cx="346" cy="312" r="21" fill="${F}"/>`,
+      thumb_r:`<path d="M344 304 C362 314 380 312 393 300" stroke="${F}" stroke-width="27" fill="none" stroke-linecap="round"/><circle cx="395" cy="276" r="25" fill="${F}"/><rect x="386" y="234" width="17" height="36" rx="8" fill="${F}"/>`,
+      droop_l:`<path d="M150 334 C126 348 120 374 134 392 C148 398 162 384 162 366 Z" fill="${S}"/>`,
+      droop_r:`<path d="M354 334 C378 348 384 374 370 392 C356 398 342 384 342 366 Z" fill="${F}"/>`,
+      tuck_l:`<path d="M156 344 C140 356 138 374 152 384 C164 388 174 378 172 366 Z" fill="${S}"/>`,
+      tuck_r:`<path d="M348 344 C364 356 366 374 352 384 C340 388 330 378 332 366 Z" fill="${F}"/>`,
+    };
+    return A[key] || '';
+  }
+
+  function eye(exp){
+    const cx=298, cy=226;
+    const white = `<circle cx="${cx}" cy="${cy}" r="50" fill="${C.white}"/>`;
+    switch(exp){
+      case 'happy': return `<path d="M268 236 Q298 200 328 236" fill="none" stroke="${C.ink}" stroke-width="13" stroke-linecap="round"/>`;
+      case 'wink':  return `<path d="M270 230 Q298 250 326 230" fill="none" stroke="${C.ink}" stroke-width="13" stroke-linecap="round"/>`;
+      case 'look_up': return white+`<circle cx="${cx+6}" cy="${cy-16}" r="24" fill="${C.ink}"/><circle cx="${cx+15}" cy="${cy-24}" r="8" fill="${C.white}"/>`;
+      case 'sad':   return white+`<circle cx="${cx+2}" cy="${cy+10}" r="24" fill="${C.ink}"/><circle cx="${cx+10}" cy="${cy+3}" r="7" fill="${C.white}"/><path d="M262 196 Q286 186 312 198" fill="none" stroke="${C.deep}" stroke-width="9" stroke-linecap="round"/>`;
+      case 'sleep': return `<path d="M270 224 Q298 244 326 224" fill="none" stroke="${C.ink}" stroke-width="12" stroke-linecap="round"/>`;
+      case 'sparkle': return white+`<circle cx="${cx+8}" cy="${cy+4}" r="25" fill="${C.ink}"/><circle cx="${cx+18}" cy="${cy-6}" r="9" fill="${C.white}"/><circle cx="${cx-2}" cy="${cy+12}" r="5" fill="${C.white}"/>`;
+      default:      return white+`<circle cx="${cx+8}" cy="${cy+6}" r="26" fill="${C.ink}"/><circle cx="${cx+18}" cy="${cy-4}" r="9" fill="${C.white}"/><circle cx="${cx-2}" cy="${cy+14}" r="5" fill="${C.white}"/>`;
+    }
+  }
+
+  function mouth(key){
+    switch(key){
+      case 'open':  return `<path d="M296 296 Q330 296 350 300 Q336 336 312 332 Q298 328 296 296 Z" fill="${C.deep}"/><path d="M302 320 Q318 332 336 322" fill="#FF8FA0"/>`;
+      case 'grin':  return `<path d="M292 300 Q322 338 356 304" fill="none" stroke="${C.ink}" stroke-width="12" stroke-linecap="round"/>`;
+      case 'frown': return `<path d="M300 326 Q322 308 346 324" fill="none" stroke="${C.ink}" stroke-width="11" stroke-linecap="round"/>`;
+      case 'small': return `<ellipse cx="324" cy="314" rx="12" ry="14" fill="${C.deep}"/>`;
+      default:      return `<path d="M300 306 Q326 326 350 308" fill="none" stroke="${C.ink}" stroke-width="11" stroke-linecap="round"/>`;
+    }
+  }
+
+  function cap(tilt){
+    return `<g transform="rotate(${tilt||0} 250 120)">
+      <path d="M214 118 Q252 150 292 118 L292 134 Q252 166 214 134 Z" fill="${C.capDk}"/>
+      <path d="M250 80 L338 116 L250 150 L162 116 Z" fill="${C.ink}"/>
+      <circle cx="250" cy="116" r="8" fill="${C.yellow}"/>
+      <path d="M250 116 L330 122 L332 168" fill="none" stroke="${C.yellow}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="332" cy="176" r="11" fill="${C.yellow}"/>
+    </g>`;
+  }
+
+  function props(list){
+    let s='';
+    (list||[]).forEach(p=>{
+      if(p==='confetti'){
+        [['#FF5A5F',120,120,14],['#34B3F1',392,140,12],['#7C5CFC',150,90,10],['#FFC93C',360,86,12],['#1FC36B',420,220,10],['#FF5A5F',96,210,10],['#7C5CFC',412,300,9]].forEach(([c,x,y,r])=>{ s+=`<rect x="${x}" y="${y}" width="${r*2}" height="${r}" rx="3" fill="${c}" transform="rotate(${(x+y)%90} ${x} ${y})"/>`; });
+      }
+      if(p==='zzz'){ s+=`<g fill="${C.slate}" font-family="Fredoka,system-ui" font-weight="700"><text x="372" y="150" font-size="34">z</text><text x="404" y="120" font-size="46">Z</text><text x="440" y="84" font-size="60">Z</text></g>`; }
+      if(p==='think'){ s+=`<g fill="${C.white}" stroke="${C.bellyEdge}" stroke-width="3"><circle cx="392" cy="150" r="34"/><circle cx="356" cy="196" r="14"/><circle cx="338" cy="224" r="8"/></g><text x="392" y="161" font-size="36" text-anchor="middle" fill="${C.slate}" font-family="Fredoka,system-ui" font-weight="700">?</text>`; }
+      if(p==='tear'){ s+=`<path d="M276 250 q-10 22 0 34 q12 -2 12 -16 q0 -10 -12 -18 Z" fill="${C.sky}"/>`; }
+      if(p==='sparkles'){ [['#FFC93C',120,140,16],['#34B3F1',402,182,12],['#7C5CFC',150,300,10]].forEach(([c,x,y,r])=>{ s+=`<path d="M${x} ${y-r} L${x+r*0.28} ${y-r*0.28} L${x+r} ${y} L${x+r*0.28} ${y+r*0.28} L${x} ${y+r} L${x-r*0.28} ${y+r*0.28} L${x-r} ${y} L${x-r*0.28} ${y-r*0.28} Z" fill="${c}"/>`; }); }
+    });
+    return s;
+  }
+
+  function reggie(o){
+    o = o || {};
+    const vb = o.viewBox || '0 0 512 512';
+    const layers = [
+      `<defs><linearGradient id="bodyG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${C.bodyTop}"/><stop offset="1" stop-color="${C.bodyBot}"/></linearGradient></defs>`,
+      props(o.propsBehind),
+      tail(),
+      spikes(),
+      o.armL ? arm(o.armL) : '',
+      bodyShape(),
+      feet(o.pose),
+      belly(),
+      snout(),
+      cap(o.capTilt),
+      eye(o.eye),
+      mouth(o.mouth),
+      o.armR ? arm(o.armR) : '',
+      props(o.props),
+    ];
+    return `<svg viewBox="${vb}" xmlns="http://www.w3.org/2000/svg">${layers.join('')}</svg>`;
+  }
+
+  // circular face avatar — cropped viewBox onto the head
+  function avatar(o){
+    o = o || {};
+    return reggie(Object.assign({ viewBox:'112 64 296 296', armL:'rest_l', armR:'rest_r' }, o));
+  }
+
+  const POSES = {
+    idle:      { eye:'open',    mouth:'smile', armL:'rest_l', armR:'rest_r' },
+    wave:      { eye:'happy',   mouth:'grin',  armL:'rest_l', armR:'wave_r' },
+    celebrate: { eye:'happy',   mouth:'open',  armL:'up_l',   armR:'up_r',    props:['confetti'] },
+    think:     { eye:'look_up', mouth:'small', armL:'rest_l', armR:'think_r', props:['think'] },
+    encourage: { eye:'wink',    mouth:'grin',  armL:'rest_l', armR:'thumb_r', props:['sparkles'] },
+    oops:      { eye:'sad',     mouth:'frown', armL:'droop_l',armR:'droop_r', props:['tear'] },
+    sleep:     { eye:'sleep',   mouth:'small', armL:'tuck_l', armR:'tuck_r',  pose:'sleep', props:['zzz'] },
+  };
+
+  window.Reggie = { reggie, avatar, POSES, C };
+})();

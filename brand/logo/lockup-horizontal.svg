@@ -1,0 +1,31 @@
+<svg width="1120" height="320" viewBox="0 0 1120 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#27D078"/><stop offset="1" stop-color="#0E9F52"/>
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&amp;display=swap');
+      .wm{font-family:'Fredoka',sans-serif;font-weight:700;font-size:150px;letter-spacing:-3px}
+    </style>
+  </defs>
+  <!-- icon -->
+  <g transform="translate(40,40)">
+    <rect width="240" height="240" rx="58" fill="url(#lt)"/>
+    <g transform="translate(120,120) scale(0.234) translate(-512,-512)">
+      <path d="M300 572 q-44 68 16 128 q36 -24 48 -76 Z" fill="#0C8A47"/>
+      <path d="M724 572 q44 68 -16 128 q-36 -24 -48 -76 Z" fill="#0C8A47"/>
+      <path d="M512 336 C676 336 744 464 744 592 C744 732 644 808 512 808 C380 808 280 732 280 592 C280 464 348 336 512 336 Z" fill="#FFFFFF"/>
+      <ellipse cx="512" cy="628" rx="138" ry="146" fill="#EAFBF1"/>
+      <circle cx="438" cy="524" r="80" fill="#FFFFFF" stroke="#0E9F52" stroke-width="7"/>
+      <circle cx="586" cy="524" r="80" fill="#FFFFFF" stroke="#0E9F52" stroke-width="7"/>
+      <circle cx="448" cy="532" r="33" fill="#0F2018"/>
+      <circle cx="576" cy="532" r="33" fill="#0F2018"/>
+      <path d="M512 572 l32 44 -64 0 Z" fill="#FFC93C"/>
+      <path d="M356 392 L512 332 L668 392 L512 452 Z" fill="#0F2018"/>
+      <path d="M668 392 L668 466 q-7 24 -17 0 L651 398 Z" fill="#FFC93C"/>
+      <circle cx="668" cy="392" r="15" fill="#FFC93C"/>
+    </g>
+  </g>
+  <!-- wordmark -->
+  <text x="320" y="210" class="wm"><tspan fill="#0F2018">Regent</tspan><tspan fill="#FFC93C">ify</tspan></text>
+</svg>

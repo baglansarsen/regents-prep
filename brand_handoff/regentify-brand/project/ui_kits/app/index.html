@@ -1,0 +1,349 @@
+<!-- @dsCard group="App" viewport="900x720" name="Regentify App — UI Kit" subtitle="Login → Study Path → Quiz → Results (interactive)" -->
+<!-- @startingPoint section="App" subtitle="Full app flow recreation in the playful brand" viewport="900x720" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Regentify — App UI Kit</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #DCE6E0; font-family: var(--font-body); color: var(--ink); -webkit-font-smoothing: antialiased; }
+  .stage { min-height: 100vh; display: flex; align-items: center; justify-content: center; gap: 40px; padding: 40px; flex-wrap: wrap; }
+
+  /* phone frame */
+  .phone { width: 390px; height: 800px; background: #fff; border-radius: 46px; padding: 12px; box-shadow: 0 30px 70px rgba(15,32,24,.28); position: relative; flex: none; }
+  .notch { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); width: 130px; height: 26px; background: #0F2018; border-radius: 0 0 16px 16px; z-index: 30; }
+  .scr { position: absolute; inset: 12px; border-radius: 36px; overflow: hidden; background: var(--mint-wash); }
+  .view { position: absolute; inset: 0; display: none; flex-direction: column; overflow-y: auto; }
+  .view.active { display: flex; }
+  .pad { padding: 20px; }
+
+  h2.scr-h { font-family: var(--font-display); font-weight: 600; letter-spacing: -.01em; margin: 0; line-height: 1.08; }
+  .muted { color: var(--slate); }
+
+  /* wordmark */
+  .wm { font-family: var(--font-display); font-weight: 700; letter-spacing: -.03em; }
+  .wm .ify { color: var(--xp-yellow); }
+
+  /* pop button */
+  .btn { font-family: var(--font-display); font-weight: 600; letter-spacing:.02em; border: none; cursor: pointer; color: #fff;
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: var(--r-btn);
+    padding: 15px 26px; font-size: 16px; background: var(--spark-green); box-shadow: var(--pop-green); transition: transform .06s, filter .15s; width: 100%; }
+  .btn:active { transform: translateY(3px); box-shadow: 0 2px 0 var(--forest); }
+  .btn.sec { background:#fff; color: var(--green-deep); border:1px solid var(--line); box-shadow: var(--pop-grey); }
+  .btn.sec:active { box-shadow: 0 2px 0 var(--line); }
+  .btn.ghost { background: none; box-shadow: none; color: var(--slate); font-size: 14px; padding: 8px; width: auto; }
+  .btn.ghost:active { transform: none; }
+  .btn.white { background:#fff; color:#3c4043; box-shadow: 0 5px 0 var(--line); }
+
+  /* chips */
+  .chip { display: inline-flex; align-items: center; gap: 6px; background:#fff; border:1px solid var(--line); border-radius: 999px; padding: 6px 13px; font-weight: 800; font-size: 13px; }
+  .chip.xp { color: var(--green-deep); } .chip.streak { color: var(--coral); } .chip.pro { color: var(--violet); }
+
+  /* card */
+  .card { background:#fff; border:1px solid var(--line); border-radius: var(--r-xl); box-shadow: var(--shadow-card); padding: 18px; }
+
+  /* progress */
+  .track { height: 12px; background: var(--mint-2); border-radius:999px; overflow:hidden; }
+  .fill { height:100%; background: linear-gradient(90deg, var(--forest), var(--spark-green)); border-radius:999px; transition: width .4s; }
+
+  /* choices */
+  .choice { display:flex; gap:11px; align-items:flex-start; width:100%; background:#fff; border:2px solid var(--line); border-radius: var(--r-lg); padding:13px 15px; cursor:pointer; text-align:left; font-weight:700; font-size:14.5px; color:var(--ink); font-family:var(--font-body); transition: border-color .15s, background .15s, transform .12s; }
+  .choice:hover { border-color: var(--spark-green); background: var(--mint-wash); }
+  .choice.correct { border-color: var(--spark-green); background: rgba(31,195,107,.12); }
+  .choice.wrong { border-color: var(--coral); background: rgba(255,90,95,.10); }
+  .choice.dim { opacity:.45; }
+  .clbl { flex:none; width:27px; height:27px; display:grid; place-items:center; background:var(--mint-2); color:var(--green-deep); border-radius:var(--r-sm); font-family:var(--font-display); font-weight:700; font-size:13px; }
+  .choice.correct .clbl { background:var(--spark-green); color:#fff; } .choice.wrong .clbl { background:var(--coral); color:#fff; }
+
+  /* lesson node */
+  .node { width:64px; height:64px; border-radius:50%; border:none; display:grid; place-items:center; cursor:pointer; font-size:24px; transition: transform .12s; }
+  .node:active { transform: translateY(3px); }
+  .node.done { background: linear-gradient(135deg,#1FC36B,#0E9F52); color:#fff; box-shadow:0 0 0 4px #1FC36B, 0 6px 14px #1FC36B55; }
+  .node.active { background:#fff; box-shadow:0 0 0 4px #1FC36B, 0 4px 0 #1FC36B; animation: bob 1.4s ease-in-out infinite; }
+  .node.locked { background: var(--mint-2); box-shadow:0 0 0 4px #C7D6CD; cursor:not-allowed; }
+  @keyframes bob { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-5px)} }
+  .conn { width:5px; height:22px; background:var(--mint-2); border-radius:99px; margin:2px auto; }
+  .conn.on { background: var(--spark-green); }
+
+  /* tab bar */
+  .tabbar { margin-top:auto; display:flex; background:#fff; border-top:1px solid var(--line); padding: 10px 8px 16px; }
+  .tab { flex:1; display:flex; flex-direction:column; align-items:center; gap:3px; font-size:10px; font-weight:800; color:var(--slate); background:none; border:none; cursor:pointer; }
+  .tab .ic { font-size:20px; }
+  .tab.on { color: var(--spark-green); }
+
+  .banner { border-radius: var(--r-lg); padding: 16px; display:flex; align-items:center; gap:12px; color:#fff; background: linear-gradient(135deg,#7c5cfc,#5b3fd1); }
+  .feedback { border-radius: var(--r-lg); padding: 14px 16px; font-weight:800; font-size:14px; animation: rise .2s ease; }
+  .feedback.ok { background: rgba(31,195,107,.14); border:1px solid var(--spark-green); color: var(--green-deep); }
+  @keyframes rise { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+  .caption { font-family: var(--font-display); font-size: 11px; letter-spacing:.12em; text-transform:uppercase; color: var(--slate); font-weight:600; }
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="phone">
+    <div class="notch"></div>
+    <div class="scr">
+
+      <!-- ===== LOGIN ===== -->
+      <div class="view active" id="v-login">
+        <div class="pad" style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; text-align:center;">
+          <div id="reggie-login"></div>
+          <div class="wm" style="font-size:42px; margin-top:4px;">Regent<span class="ify">ify</span></div>
+          <p class="muted" style="font-size:15px; margin:2px 0 22px; max-width:260px;">The playful way to pass the Regents. Study smart, keep your streak, pass with confidence.</p>
+          <div style="width:100%; display:flex; flex-direction:column; gap:11px;">
+            <button class="btn white" onclick="go('home')"><span style="font-size:18px">🇬</span> Continue with Google</button>
+            <button class="btn" onclick="go('home')">Sign up with email</button>
+            <button class="btn ghost" style="width:100%" onclick="go('home')">Continue as guest</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== HOME / STUDY PATH ===== -->
+      <div class="view" id="v-home">
+        <div class="pad" style="padding-bottom:8px; display:flex; align-items:center; gap:8px; border-bottom:1px solid var(--line);">
+          <div class="wm" style="font-size:22px;">Regent<span class="ify">ify</span></div>
+          <div style="margin-left:auto; display:flex; gap:7px;">
+            <span class="chip streak">🔥 7</span>
+            <span class="chip xp">🪙 1,250</span>
+          </div>
+        </div>
+        <div class="pad" style="display:flex; flex-direction:column; gap:14px;">
+          <div class="card" style="display:flex; align-items:center; gap:14px; background:linear-gradient(135deg,#1FC36B,#0E9F52); border:none; color:#fff;">
+            <div style="font-size:30px;">📅</div>
+            <div style="flex:1;">
+              <div style="font-weight:800; font-size:16px;">Regents in 34 days</div>
+              <div style="font-size:12.5px; opacity:.9;">Algebra I · June 18 · you're on track</div>
+            </div>
+          </div>
+
+          <div class="caption">Algebra I · Unit 3</div>
+          <div class="card" style="padding:16px;">
+            <div style="display:flex; align-items:center; gap:10px; margin-bottom:6px;">
+              <span style="font-size:24px;">📐</span>
+              <div style="flex:1;"><div style="font-weight:800; font-size:15px;">Quadratics</div><div class="muted" style="font-size:12px;">3 / 6 lessons · 72% mastery</div></div>
+            </div>
+            <div class="track" style="height:8px;"><div class="fill" style="width:50%"></div></div>
+            <div style="display:flex; flex-direction:column; align-items:center; margin-top:14px;">
+              <button class="node done">✓</button><div class="conn on"></div>
+              <button class="node done">✓</button><div class="conn on"></div>
+              <button class="node active" onclick="startQuiz()">★</button><div class="conn"></div>
+              <button class="node locked">🔒</button><div class="conn"></div>
+              <button class="node locked" style="box-shadow:0 0 0 4px #E6C98A; background:#FFF3D6;">🏆</button>
+            </div>
+          </div>
+
+          <div class="caption">Daily question</div>
+          <div class="card" style="display:flex; align-items:center; gap:12px;">
+            <div style="font-size:26px;">💡</div>
+            <div style="flex:1;"><div style="font-weight:800; font-size:14px;">Today's challenge</div><div class="muted" style="font-size:12px;">+15 XP · keep your streak</div></div>
+            <button class="btn" style="width:auto; padding:10px 18px; font-size:14px;" onclick="startQuiz()">Go</button>
+          </div>
+        </div>
+        <div class="tabbar">
+          <button class="tab on" onclick="go('home')"><span class="ic">🏠</span>Study</button>
+          <button class="tab" onclick="go('league')"><span class="ic">🏆</span>League</button>
+          <button class="tab" onclick="startQuiz()"><span class="ic">🦖</span>Reggie</button>
+          <button class="tab" onclick="go('profile')"><span class="ic">👤</span>You</button>
+        </div>
+      </div>
+
+      <!-- ===== QUIZ ===== -->
+      <div class="view" id="v-quiz">
+        <div class="pad" style="display:flex; align-items:center; gap:12px;">
+          <button class="btn ghost" style="font-size:22px; padding:0;" onclick="go('home')">✕</button>
+          <div class="track" style="flex:1;"><div class="fill" id="quiz-prog" style="width:34%"></div></div>
+          <span class="chip streak">🔥 7</span>
+        </div>
+        <div class="pad" style="display:flex; flex-direction:column; gap:14px;">
+          <div class="card">
+            <span class="chip" style="color:var(--green-deep); padding:4px 11px; font-size:12px;">Quadratics</span>
+            <div style="font-weight:700; font-size:18px; line-height:1.5; margin:14px 0 4px;">Which expression is equivalent to <b>x² + 5x + 6</b>?</div>
+          </div>
+          <div id="choices" style="display:flex; flex-direction:column; gap:9px;">
+            <button class="choice" onclick="answer(this,false)"><span class="clbl">A</span><span>(x + 1)(x + 6)</span></button>
+            <button class="choice" onclick="answer(this,true)"><span class="clbl">B</span><span>(x + 2)(x + 3)</span></button>
+            <button class="choice" onclick="answer(this,false)"><span class="clbl">C</span><span>(x + 5)(x + 6)</span></button>
+            <button class="choice" onclick="answer(this,false)"><span class="clbl">D</span><span>(x − 2)(x − 3)</span></button>
+          </div>
+          <div id="quiz-feedback"></div>
+        </div>
+        <div class="pad" style="margin-top:auto;">
+          <button class="btn" id="quiz-next" style="display:none;" onclick="go('results')">Continue</button>
+        </div>
+      </div>
+
+      <!-- ===== RESULTS ===== -->
+      <div class="view" id="v-results">
+        <div class="pad" style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; text-align:center;">
+          <div id="reggie-results"></div>
+          <h2 class="scr-h" style="font-size:30px; margin-top:6px;">Lesson complete!</h2>
+          <p class="muted" style="font-size:15px; margin:2px 0 20px;">Nice — 5 in a row. Keep the streak alive. 🔥</p>
+          <div style="display:flex; gap:10px; width:100%; margin-bottom:24px;">
+            <div class="card" style="flex:1; text-align:center; padding:14px;"><div style="font-family:var(--font-display); font-weight:700; font-size:24px; color:var(--green-deep);">+45</div><div class="caption" style="margin-top:2px;">XP</div></div>
+            <div class="card" style="flex:1; text-align:center; padding:14px;"><div style="font-family:var(--font-display); font-weight:700; font-size:24px; color:var(--spark-green);">92%</div><div class="caption" style="margin-top:2px;">Accuracy</div></div>
+            <div class="card" style="flex:1; text-align:center; padding:14px;"><div style="font-family:var(--font-display); font-weight:700; font-size:24px; color:var(--coral);">8</div><div class="caption" style="margin-top:2px;">Streak</div></div>
+          </div>
+          <button class="btn" onclick="go('home')">Continue</button>
+        </div>
+      </div>
+
+      <!-- ===== LEAGUE ===== -->
+      <div class="view" id="v-league">
+        <div class="pad" style="padding-bottom:8px; border-bottom:1px solid var(--line);">
+          <h2 class="scr-h" style="font-size:24px;">League</h2>
+        </div>
+        <div class="pad" style="display:flex; flex-direction:column; gap:14px;">
+          <!-- tier banner -->
+          <div class="card" style="text-align:center; background:linear-gradient(135deg,#FFF3D6,#FFE3A3); border:none;">
+            <div style="font-size:42px; line-height:1;">🥇</div>
+            <div style="font-family:var(--font-display); font-weight:700; font-size:22px; color:#B26B00; margin-top:4px;">Gold League</div>
+            <div class="muted" style="font-size:13px; margin-top:2px;">Top 7 advance to Diamond · resets in 2d 14h</div>
+          </div>
+          <!-- tier tabs -->
+          <div style="display:flex; gap:7px; justify-content:center;">
+            <span style="font-size:22px; opacity:.45;">🥉</span>
+            <span style="font-size:22px; opacity:.45;">🥈</span>
+            <span style="font-size:26px; filter:drop-shadow(0 3px 6px #D9770655);">🥇</span>
+            <span style="font-size:22px; opacity:.45;">💎</span>
+          </div>
+          <!-- leaderboard -->
+          <div class="card" style="padding:6px 0;">
+            <div id="league-rows"></div>
+          </div>
+          <div style="display:flex; justify-content:space-between; font-size:12px; font-weight:800; padding:0 4px;">
+            <span style="color:var(--spark-green);">↑ Top 7 promote</span>
+            <span style="color:var(--coral);">↓ Bottom 5 demote</span>
+          </div>
+        </div>
+        <div class="tabbar">
+          <button class="tab" onclick="go('home')"><span class="ic">🏠</span>Study</button>
+          <button class="tab on" onclick="go('league')"><span class="ic">🏆</span>League</button>
+          <button class="tab" onclick="startQuiz()"><span class="ic">🦖</span>Reggie</button>
+          <button class="tab" onclick="go('profile')"><span class="ic">👤</span>You</button>
+        </div>
+      </div>
+
+      <!-- ===== PROFILE ===== -->
+      <div class="view" id="v-profile">
+        <div class="pad" style="display:flex; flex-direction:column; align-items:center; gap:4px; padding-top:26px;">
+          <div id="reggie-profile"></div>
+          <div style="font-family:var(--font-display); font-weight:700; font-size:23px;">Alex Rivera</div>
+          <div class="muted" style="font-size:13px;">Lincoln High · joined Mar 2026</div>
+          <div style="display:flex; gap:8px; margin-top:10px;">
+            <span class="chip streak">🔥 7-day streak</span>
+            <span class="chip xp">🪙 1,250 XP</span>
+          </div>
+        </div>
+        <div class="pad" style="display:flex; flex-direction:column; gap:14px; padding-top:8px;">
+          <div style="display:flex; gap:10px;">
+            <div class="card" style="flex:1; text-align:center; padding:14px;"><div style="font-family:var(--font-display); font-weight:700; font-size:22px; color:var(--green-deep);">86%</div><div class="caption" style="margin-top:2px;">Avg score</div></div>
+            <div class="card" style="flex:1; text-align:center; padding:14px;"><div style="font-family:var(--font-display); font-weight:700; font-size:22px; color:var(--spark-green);">142</div><div class="caption" style="margin-top:2px;">Lessons</div></div>
+            <div class="card" style="flex:1; text-align:center; padding:14px;"><div style="font-family:var(--font-display); font-weight:700; font-size:22px; color:var(--violet);">🥇</div><div class="caption" style="margin-top:2px;">Gold</div></div>
+          </div>
+          <div class="caption">Achievements</div>
+          <div style="display:flex; gap:10px;">
+            <div class="card" style="flex:1; text-align:center; padding:14px 8px;"><div style="font-size:26px;">🔥</div><div style="font-weight:800; font-size:12px; margin-top:4px;">Week Warrior</div></div>
+            <div class="card" style="flex:1; text-align:center; padding:14px 8px;"><div style="font-size:26px;">🎯</div><div style="font-weight:800; font-size:12px; margin-top:4px;">Sharpshooter</div></div>
+            <div class="card" style="flex:1; text-align:center; padding:14px 8px; opacity:.45;"><div style="font-size:26px;">🔒</div><div style="font-weight:800; font-size:12px; margin-top:4px;">Perfect 10</div></div>
+          </div>
+          <div class="banner">
+            <div style="font-size:26px;">⭐</div>
+            <div style="flex:1;"><div style="font-weight:800; font-size:15px;">Go Pro</div><div style="font-size:12px; opacity:.92;">Unlimited lives + full practice tests</div></div>
+            <button class="btn" style="width:auto; padding:9px 16px; font-size:13px; background:#fff; color:var(--violet); box-shadow:0 4px 0 rgba(0,0,0,.18);">Upgrade</button>
+          </div>
+        </div>
+        <div class="tabbar">
+          <button class="tab" onclick="go('home')"><span class="ic">🏠</span>Study</button>
+          <button class="tab" onclick="go('league')"><span class="ic">🏆</span>League</button>
+          <button class="tab" onclick="startQuiz()"><span class="ic">🦖</span>Reggie</button>
+          <button class="tab on" onclick="go('profile')"><span class="ic">👤</span>You</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div style="max-width:300px; align-self:center;">
+    <div class="caption" style="margin-bottom:10px;">Regentify · App UI Kit</div>
+    <p style="font-size:14px; line-height:1.6; color:#3a4a42;">An interactive recreation of the core loop in the playful brand. <b>Tap “Continue as guest”</b> to enter, follow the study path into a lesson, answer the question, and finish on the results screen. Built from the same tokens &amp; component patterns as the design system.</p>
+  </div>
+</div>
+
+<script>
+  function go(id){ document.querySelectorAll('.view').forEach(v=>v.classList.remove('active')); document.getElementById('v-'+id).classList.add('active'); if(id==='quiz') resetQuiz(); }
+  function startQuiz(){ go('quiz'); }
+  function resetQuiz(){
+    document.querySelectorAll('#choices .choice').forEach(c=>{ c.className='choice'; c.disabled=false; });
+    document.getElementById('quiz-feedback').innerHTML='';
+    document.getElementById('quiz-next').style.display='none';
+    document.getElementById('quiz-prog').style.width='34%';
+  }
+  function answer(el, correct){
+    document.querySelectorAll('#choices .choice').forEach(c=>{ c.disabled=true; if(c!==el) c.classList.add('dim'); });
+    if(correct){ el.classList.remove('dim'); el.classList.add('correct');
+      document.getElementById('quiz-feedback').innerHTML='<div class="feedback ok">Yes! x² + 5x + 6 factors to (x + 2)(x + 3). +15 XP</div>'; }
+    else { el.classList.remove('dim'); el.classList.add('wrong');
+      document.querySelectorAll('#choices .choice')[1].classList.remove('dim');
+      document.querySelectorAll('#choices .choice')[1].classList.add('correct');
+      document.getElementById('quiz-feedback').innerHTML='<div class="feedback ok" style="background:rgba(255,201,60,.16);border-color:var(--xp-yellow);color:#9a7400">Close! The middle term 5 = 2 + 3 — so it is (x + 2)(x + 3).</div>'; }
+    document.getElementById('quiz-prog').style.width='42%';
+    document.getElementById('quiz-next').style.display='flex';
+  }
+
+  // Reggie (inline) — happy/wave for login, cheer for results
+  function reggie(pose, size){
+    const faces = {
+      wave: '<circle cx="196" cy="150" r="36" fill="#fff"/><circle cx="207" cy="153" r="18" fill="#0F2018"/><circle cx="214" cy="146" r="6" fill="#fff"/><path d="M168 194 q26 18 46 4" fill="none" stroke="#0F2018" stroke-width="10" stroke-linecap="round"/>',
+      cheer: '<path d="M178 150 q18 -22 36 0" fill="none" stroke="#0F2018" stroke-width="11" stroke-linecap="round"/><path d="M170 188 q26 4 44 0 q-6 30 -22 30 q-16 0 -22 -30 Z" fill="#0F2018"/><path d="M176 206 q14 10 30 0" fill="#FF7A85"/>'
+    };
+    const armBack = pose==='wave' ? '<path d="M214 150 q40 -8 44 -44" fill="none" stroke="#0E9F52" stroke-width="18" stroke-linecap="round"/>'
+                  : '<path d="M214 150 q34 -16 40 -50" fill="none" stroke="#0E9F52" stroke-width="18" stroke-linecap="round"/>';
+    const armFront = pose==='cheer' ? '<path d="M104 214 q-30 -22 -22 -54" fill="none" stroke="#15A95B" stroke-width="18" stroke-linecap="round"/>'
+                   : '<path d="M104 232 q-22 7 -25 30" fill="none" stroke="#15A95B" stroke-width="18" stroke-linecap="round"/>';
+    const extras = pose==='cheer' ? '<g fill="#FFC93C"><path d="M70 96 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 Z"/><path d="M252 70 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 Z"/></g>' : '';
+    return '<svg width="'+size+'" height="'+size+'" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">'
+      +'<ellipse cx="160" cy="298" rx="78" ry="13" fill="#0F2018" opacity="0.08"/>'
+      +'<g fill="#FFC93C" stroke="#FFC93C" stroke-width="7" stroke-linejoin="round"><path d="M104 150 L86 108 L132 134 Z"/><path d="M84 196 L48 168 L98 166 Z"/></g>'
+      + armBack
+      +'<path d="M150 96 C214 96 262 138 272 196 C284 202 286 226 273 235 C264 282 232 312 184 322 C172 326 160 326 146 326 C84 326 48 282 48 218 C48 140 84 96 150 96 Z" transform="translate(0,-22) scale(0.92)" fill="#1FC36B"/>'
+      +'<ellipse cx="150" cy="232" rx="62" ry="52" fill="#EAFBF1"/>'
+      +'<ellipse cx="118" cy="288" rx="30" ry="14" fill="#FFC93C"/><ellipse cx="196" cy="290" rx="30" ry="14" fill="#FFC93C"/>'
+      + armFront
+      + faces[pose]
+      +'<circle cx="236" cy="168" r="6.5" fill="#0E7A45"/>'
+      +'<path d="M158 52 L232 82 L158 112 L84 82 Z" fill="#0F2018"/><circle cx="158" cy="52" r="9" fill="#FFC93C"/><path d="M224 86 L224 116" stroke="#FFC93C" stroke-width="7.5" stroke-linecap="round"/><circle cx="224" cy="123" r="9" fill="#FFC93C"/>'
+      + extras + '</svg>';
+  }
+  document.getElementById('reggie-login').innerHTML = reggie('wave', 150);
+  document.getElementById('reggie-results').innerHTML = reggie('cheer', 150);
+  document.getElementById('reggie-profile').innerHTML = reggie('happy', 110);
+
+  // League leaderboard
+  (function(){
+    const players = [
+      ['Maya P.', 2840, '🦊'], ['Jordan K.', 2610, '🐢'], ['Alex Rivera', 2390, '🦖', true],
+      ['Sam T.', 2180, '🐸'], ['Priya N.', 1990, '🦉'], ['Devin L.', 1740, '🐧'],
+      ['Chris M.', 1520, '🐙'], ['Nina R.', 1280, '🦝'], ['Omar F.', 1040, '🐨'],
+      ['Riya S.', 860, '🦜'], ['Ben W.', 540, '🐰'], ['Tara V.', 320, '🦔']
+    ];
+    const rows = players.map((p, i) => {
+      const rank = i + 1;
+      const me = p[3];
+      const promote = rank <= 7, demote = rank > players.length - 5;
+      const rankColor = promote ? 'var(--spark-green)' : demote ? 'var(--coral)' : 'var(--slate)';
+      const medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : rank;
+      return `<div style="display:flex; align-items:center; gap:11px; padding:10px 16px; ${me ? 'background:var(--mint-wash); border-radius:12px; margin:0 6px;' : ''} border-bottom:${i<players.length-1 && !me ? '1px solid var(--line)' : 'none'};">
+        <span style="width:24px; text-align:center; font-family:var(--font-display); font-weight:700; font-size:15px; color:${rankColor};">${medal}</span>
+        <span style="font-size:22px;">${p[2]}</span>
+        <span style="flex:1; font-weight:${me ? 800 : 700}; font-size:14px; color:${me ? 'var(--green-deep)' : 'var(--ink)'};">${p[0]}${me ? ' (you)' : ''}</span>
+        <span style="font-weight:800; font-size:13px; color:var(--green-deep);">${p[1].toLocaleString()} XP</span>
+      </div>`;
+    }).join('');
+    document.getElementById('league-rows').innerHTML = rows;
+  })();
+</script>
+</body>
+</html>

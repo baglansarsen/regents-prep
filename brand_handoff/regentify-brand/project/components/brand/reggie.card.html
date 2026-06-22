@@ -1,0 +1,39 @@
+<!-- @dsCard group="Brand" viewport="700x230" name="Reggie — Mascot Poses" subtitle="Five expressions for the app's emotional moments" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { margin: 0; background: var(--mint-wash); font-family: var(--font-body); }
+  .row { display: flex; gap: 8px; padding: 18px 20px; align-items: flex-end; justify-content: space-between; }
+  .pose { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+  .pose .nm { font-family: var(--font-display); font-weight: 600; font-size: 13px; color: var(--slate); text-transform: capitalize; }
+  .pose .bubble { background: #fff; border: 1px solid var(--line); border-radius: var(--r-md); padding: 8px; box-shadow: var(--shadow-card); }
+</style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <script src="../../_ds_bundle.js"></script>
+  <script type="text/babel">
+    const { Reggie } = window.DesignSystem_756e59;
+    const poses = ['wave', 'happy', 'cheer', 'think', 'sleepy'];
+    function Demo() {
+      return (
+        <div className="row">
+          {poses.map(p => (
+            <div className="pose" key={p}>
+              <div className="bubble"><Reggie pose={p} size={112} /></div>
+              <span className="nm">{p}</span>
+            </div>
+          ))}
+        </div>
+      );
+    }
+    ReactDOM.createRoot(document.getElementById('root')).render(<Demo />);
+  </script>
+</body>
+</html>

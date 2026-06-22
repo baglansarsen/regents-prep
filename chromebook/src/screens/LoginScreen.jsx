@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import ReggieAnim from '../components/ReggieAnim'
 
 export default function LoginScreen({
   signInWithGoogle,
@@ -65,25 +66,91 @@ export default function LoginScreen({
 
   return (
     <div className="auth-layout">
-      {/* Hero Pane */}
+      {/* ── LEFT: Marketing / Mobile Upsell ── */}
       <div className="auth-hero">
-        <div style={{ transform: 'scale(1.1)', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <div style={{
-            fontSize: '100px',
-            lineHeight: 1,
-            animation: 'breathe 4s ease-in-out infinite',
-            filter: 'drop-shadow(0 12px 24px rgba(0,0,0,0.15))'
-          }}>
-            📚
+        {/* Top brand lockup */}
+        <div className="auth-hero-brand">
+          <ReggieAnim scene="welcome" size={120} clip={false} style={{ margin: '0 auto' }} />
+          <h1 className="auth-logo-text">
+            Regent<span className="logo-accent">ify</span>
+          </h1>
+          <div className="auth-hero-badge">🦕 Meet Reggie, your study buddy</div>
+        </div>
+
+        {/* Phone mockup — direct lift from landing page */}
+        <div className="auth-phone-wrap">
+          <div className="auth-phone-xp-pop">+10 RP 🎉</div>
+          <div className="auth-phone">
+            <div className="auth-phone-notch" />
+            <div className="auth-phone-header">
+              <div className="auth-streak-badge">
+                <span className="auth-streak-fire">🔥</span> 47 day streak
+              </div>
+              <div className="auth-xp-badge">⚡ 2,840 RP</div>
+            </div>
+            <div className="auth-xp-bar-wrap">
+              <div className="auth-xp-bar-bg">
+                <div className="auth-xp-bar-fill" />
+              </div>
+            </div>
+            <div className="auth-phone-subject">🧬 Living Environment</div>
+            <div className="auth-phone-question">
+              Which organelle is primarily responsible for cellular respiration and ATP production?
+            </div>
+            <div className="auth-phone-options">
+              <div className="auth-opt auth-opt-a"><span className="auth-opt-key">A</span> Nucleus</div>
+              <div className="auth-opt auth-opt-b"><span className="auth-opt-key">B</span> Mitochondria</div>
+              <div className="auth-opt auth-opt-c"><span className="auth-opt-key">C</span> Ribosome</div>
+              <div className="auth-opt auth-opt-d"><span className="auth-opt-key">D</span> Vacuole</div>
+            </div>
+            <div className="auth-phone-nav">
+              <span className="auth-phone-nav-active">🏠</span>
+              <span>📚</span>
+              <span>🏆</span>
+              <span>👤</span>
+            </div>
           </div>
-          <h1 className="auth-logo-text">Regentify</h1>
-          <p className="auth-tagline">
-            Complete NY Regents preparation optimized for Chromebook classrooms. Study smart, track your pet, and earn high scores!
+        </div>
+
+        {/* Stat pills */}
+        <div className="auth-stat-pills">
+          <div className="auth-stat-pill">
+            <span className="auth-stat-num">200+</span>
+            <span className="auth-stat-label">Real Exams</span>
+          </div>
+          <div className="auth-stat-pill">
+            <span className="auth-stat-num">11</span>
+            <span className="auth-stat-label">Subjects</span>
+          </div>
+          <div className="auth-stat-pill">
+            <span className="auth-stat-num">Free</span>
+            <span className="auth-stat-label">Forever</span>
+          </div>
+        </div>
+
+        {/* Mobile app CTA */}
+        <div className="auth-mobile-cta">
+          <p className="auth-mobile-cta-label">📱 Study on your phone too</p>
+          <a
+            href="https://apps.apple.com/app/id6776260260"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="auth-store-btn"
+            id="login-ios-cta"
+          >
+            <span className="auth-store-icon"></span>
+            <span className="auth-store-lbl">
+              <span>Download on the</span>
+              <span>App Store</span>
+            </span>
+          </a>
+          <p className="auth-trust-line">
+            Built on official <strong>NYSED</strong> past exams · No ads in the way of learning
           </p>
         </div>
       </div>
 
-      {/* Form Pane */}
+      {/* ── RIGHT: Auth Form ── */}
       <div className="auth-form-container">
         <div className="auth-form-wrapper">
           <h2 className="auth-form-title">

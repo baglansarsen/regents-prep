@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Regentify — Brand Book</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --green:#1FC36B;        /* Spark Green — primary */
+    --green-dark:#0E9F52;   /* Forest — depth, pressed states */
+    --green-deep:#0A7D40;   /* darkest */
+    --mint:#EAFBF1;         /* soft tint background */
+    --mint-2:#D6F5E3;
+    --ink:#0F2018;          /* near-black green */
+    --slate:#5B6B62;        /* secondary text */
+    --yellow:#FFC93C;       /* XP / coins */
+    --coral:#FF5A5F;        /* streaks / lives */
+    --violet:#7C5CFC;       /* premium / pro */
+    --sky:#34B3F1;          /* info / links */
+    --paper:#FFFFFF;
+    --line:#E3EDE7;
+    --radius:22px;
+    --shadow:0 10px 30px rgba(15,32,24,.08);
+    --shadow-pop:0 6px 0 var(--green-dark);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--mint);color:var(--ink);
+    font-family:"Nunito",system-ui,sans-serif;font-weight:600;
+    line-height:1.55;-webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.display{font-family:"Fredoka",sans-serif;font-weight:600;line-height:1.1;letter-spacing:-.01em}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 28px}
+  section{padding:74px 0;border-bottom:1px solid var(--line)}
+  .eyebrow{font-family:"Fredoka";font-weight:600;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--green-dark);margin:0 0 10px}
+  .lead{font-size:19px;color:var(--slate);max-width:62ch}
+  .grid{display:grid;gap:20px}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:26px;box-shadow:var(--shadow)}
+
+  /* ---------- HERO ---------- */
+  .hero{background:
+      radial-gradient(1200px 500px at 80% -10%, rgba(255,201,60,.20), transparent 60%),
+      linear-gradient(160deg,var(--green) 0%, var(--green-dark) 100%);
+    color:#fff;border-bottom:none;position:relative;overflow:hidden}
+  .hero:after{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.12) 2px, transparent 2px);background-size:26px 26px;opacity:.5;pointer-events:none}
+  .hero .wrap{position:relative;z-index:1}
+  .hero h1{font-size:clamp(48px,9vw,104px);margin:.1em 0 .15em}
+  .hero p{font-size:20px;max-width:54ch;color:rgba(255,255,255,.92)}
+  .badge{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);padding:7px 16px;border-radius:999px;font-family:"Fredoka";font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+  .toc{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px}
+  .toc a{color:#fff;text-decoration:none;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);padding:8px 15px;border-radius:999px;font-size:14px;font-weight:700}
+  .toc a:hover{background:rgba(255,255,255,.26)}
+
+  /* ---------- LOGO ---------- */
+  .logo-stage{display:flex;align-items:center;justify-content:center;min-height:200px;border-radius:var(--radius)}
+  .stage-light{background:var(--mint)}
+  .stage-dark{background:var(--ink)}
+  .lockup{display:flex;align-items:center;gap:16px}
+  .wordmark{font-family:"Fredoka";font-weight:700;font-size:46px;letter-spacing:-.02em}
+  .wordmark .ify{color:var(--yellow)}
+  .icon-app{width:96px;height:96px;border-radius:24px;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow)}
+  .swatches-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:6px}
+  .mini-icon{width:64px;height:64px;border-radius:16px;display:flex;align-items:center;justify-content:center}
+
+  /* ---------- COLOR ---------- */
+  .palette{grid-template-columns:repeat(4,1fr)}
+  .swatch{border-radius:18px;overflow:hidden;border:1px solid var(--line);background:#fff}
+  .swatch .chip{height:96px}
+  .swatch .meta{padding:12px 14px}
+  .swatch .name{font-family:"Fredoka";font-size:15px}
+  .swatch .hex{font-size:12.5px;color:var(--slate);font-weight:700;letter-spacing:.03em}
+  .accents{grid-template-columns:repeat(4,1fr)}
+
+  /* ---------- TYPE ---------- */
+  .type-card .big{font-family:"Fredoka";font-weight:600;font-size:60px;line-height:1}
+  .type-card .alpha{font-size:18px;color:var(--slate);margin-top:10px;letter-spacing:.04em}
+  .scale > div{display:flex;align-items:baseline;gap:18px;padding:10px 0;border-bottom:1px dashed var(--line)}
+  .scale .tag{font-size:12px;font-weight:800;color:var(--green-dark);width:120px;flex:none;letter-spacing:.05em}
+
+  /* ---------- MASCOT ---------- */
+  .mascot-wrap{display:grid;grid-template-columns:280px 1fr;gap:30px;align-items:center}
+  .mascot-card{background:var(--mint);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;padding:24px;border:1px solid var(--line)}
+
+  /* ---------- VOICE ---------- */
+  .voice{grid-template-columns:1fr 1fr}
+  .do,.dont{border-radius:18px;padding:20px 22px}
+  .do{background:var(--mint);border:1px solid var(--mint-2)}
+  .dont{background:#FFF0F0;border:1px solid #FFD9DA}
+  .do h4,.dont h4{margin:0 0 8px;font-family:"Fredoka";font-size:16px}
+  .do h4{color:var(--green-deep)} .dont h4{color:#C8333A}
+  ul.clean{margin:0;padding-left:18px} ul.clean li{margin:6px 0}
+
+  /* ---------- COMPONENTS ---------- */
+  .ui-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+  .btn{font-family:"Fredoka";font-weight:600;border:none;border-radius:16px;padding:14px 26px;font-size:16px;cursor:pointer;color:#fff;background:var(--green);box-shadow:0 5px 0 var(--green-dark);letter-spacing:.02em}
+  .btn.sec{background:#fff;color:var(--green-deep);box-shadow:0 5px 0 var(--line);border:1px solid var(--line)}
+  .btn.pro{background:var(--violet);box-shadow:0 5px 0 #5b3fd1}
+  .pill{display:inline-flex;align-items:center;gap:7px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-weight:800;font-size:14px}
+  .stat{display:inline-flex;align-items:center;gap:8px;font-family:"Fredoka";font-size:20px}
+
+  footer{padding:40px 0 70px;color:var(--slate);font-size:14px;text-align:center}
+  .two{grid-template-columns:1fr 1fr}
+  @media (max-width:760px){
+    .palette,.accents{grid-template-columns:repeat(2,1fr)}
+    .voice,.two,.mascot-wrap{grid-template-columns:1fr}
+  }
+  @media print{
+    body{background:#fff}
+    section{break-inside:avoid;border-bottom:1px solid #eee;padding:40px 0}
+    .hero{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .hero .wrap{padding-top:48px!important;padding-bottom:48px!important}
+    .toc{display:none}
+    .wrap{padding:0 22px}
+    .palette,.accents{grid-template-columns:repeat(2,1fr)!important}
+    .two,.voice,.mascot-wrap{grid-template-columns:1fr!important}
+    #essence .grid[style*="repeat(4"]{grid-template-columns:repeat(2,1fr)!important}
+    .swatches-row{gap:10px}
+    *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== HERO ===== -->
+<header class="hero">
+  <div class="wrap" style="padding-top:80px;padding-bottom:80px">
+    <span class="badge">Brand Book · v1.0</span>
+    <h1>Regentify</h1>
+    <p>The playful way to pass the Regents. This is our brand: how we look, how we sound, and how we make studying feel like a win.</p>
+    <nav class="toc">
+      <a href="#essence">Essence</a>
+      <a href="#logo">Logo</a>
+      <a href="#color">Color</a>
+      <a href="#type">Typography</a>
+      <a href="#mascot">Mascot</a>
+      <a href="#voice">Voice</a>
+      <a href="#ui">UI Kit</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== ESSENCE ===== -->
+<section id="essence">
+  <div class="wrap">
+    <p class="eyebrow">01 · Brand Essence</p>
+    <h2 style="font-size:38px;margin:0 0 14px">Serious results, joyful journey.</h2>
+    <p class="lead">Regentify turns the stress of New York's Regents exams into a game students actually want to play. We're warm, encouraging, and a little cheeky — but always trustworthy, because real grades are on the line.</p>
+    <div class="grid two" style="margin-top:30px">
+      <div class="card">
+        <p class="eyebrow" style="margin-bottom:6px">Mission</p>
+        <p style="margin:0;font-size:18px">Help every NY student walk into the Regents confident, prepared, and maybe even smiling.</p>
+      </div>
+      <div class="card">
+        <p class="eyebrow" style="margin-bottom:6px">Personality</p>
+        <p style="margin:0;font-size:18px">Encouraging coach × playful classmate. Bright, bouncy, and motivating — never childish, never preachy.</p>
+      </div>
+    </div>
+    <div class="grid" style="grid-template-columns:repeat(4,1fr);margin-top:20px">
+      <div class="card" style="text-align:center"><div class="stat">🎯 Focused</div></div>
+      <div class="card" style="text-align:center"><div class="stat">🔥 Motivating</div></div>
+      <div class="card" style="text-align:center"><div class="stat">😄 Playful</div></div>
+      <div class="card" style="text-align:center"><div class="stat">✅ Trustworthy</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LOGO ===== -->
+<section id="logo">
+  <div class="wrap">
+    <p class="eyebrow">02 · Logo &amp; Mark</p>
+    <h2 style="font-size:34px;margin:0 0 8px">The mark</h2>
+    <p class="lead">A rounded squircle app icon holding a graduation cap that doubles as an upward "level-up" arrow — growth, achievement, momentum. The wordmark splits <strong>Regent</strong> (the exam) and <strong>-ify</strong> (the playful spin) with a pop of XP yellow.</p>
+
+    <div class="grid two" style="margin-top:28px">
+      <div class="card">
+        <p class="eyebrow" style="margin-bottom:14px">Primary lockup — light</p>
+        <div class="logo-stage stage-light">
+          <div class="lockup">
+            <!-- ICON -->
+            <div class="icon-app" style="background:linear-gradient(155deg,var(--green),var(--green-dark))">
+              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30 12 L52 23 L30 34 L8 23 Z" fill="#fff"/>
+                <path d="M30 34 L30 46" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+                <path d="M24 40 L30 46 L36 40" stroke="var(--yellow)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <circle cx="46" cy="29" r="3" fill="var(--yellow)"/>
+              </svg>
+            </div>
+            <div class="wordmark">Regent<span class="ify">ify</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <p class="eyebrow" style="margin-bottom:14px">Reverse lockup — dark</p>
+        <div class="logo-stage stage-dark">
+          <div class="lockup">
+            <div class="icon-app" style="background:var(--green)">
+              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30 12 L52 23 L30 34 L8 23 Z" fill="#fff"/>
+                <path d="M30 34 L30 46" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+                <path d="M24 40 L30 46 L36 40" stroke="var(--yellow)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <circle cx="46" cy="29" r="3" fill="var(--yellow)"/>
+              </svg>
+            </div>
+            <div class="wordmark" style="color:#fff">Regent<span class="ify">ify</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:20px">
+      <p class="eyebrow" style="margin-bottom:14px">App icon · scale test (read clearly down to a favicon)</p>
+      <div class="swatches-row" style="align-items:center">
+        <div class="icon-app" style="background:linear-gradient(155deg,var(--green),var(--green-dark));width:120px;height:120px;border-radius:30px">
+          <svg width="74" height="74" viewBox="0 0 60 60" fill="none"><path d="M30 12 L52 23 L30 34 L8 23 Z" fill="#fff"/><path d="M30 34 L30 46" stroke="#fff" stroke-width="4" stroke-linecap="round"/><path d="M24 40 L30 46 L36 40" stroke="#FFC93C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="46" cy="29" r="3" fill="#FFC93C"/></svg>
+        </div>
+        <div class="mini-icon" style="background:linear-gradient(155deg,var(--green),var(--green-dark))">
+          <svg width="40" height="40" viewBox="0 0 60 60"><path d="M30 12 L52 23 L30 34 L8 23 Z" fill="#fff"/><path d="M30 34 L30 46" stroke="#fff" stroke-width="4" stroke-linecap="round"/><path d="M24 40 L30 46 L36 40" stroke="#FFC93C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+        </div>
+        <div class="mini-icon" style="background:linear-gradient(155deg,var(--green),var(--green-dark));width:40px;height:40px;border-radius:11px">
+          <svg width="26" height="26" viewBox="0 0 60 60"><path d="M30 12 L52 23 L30 34 L8 23 Z" fill="#fff"/><path d="M30 34 L30 46" stroke="#fff" stroke-width="4" stroke-linecap="round"/></svg>
+        </div>
+        <div class="mini-icon" style="background:linear-gradient(155deg,var(--green),var(--green-dark));width:26px;height:26px;border-radius:7px">
+          <svg width="17" height="17" viewBox="0 0 60 60"><path d="M30 14 L52 24 L30 34 L8 24 Z" fill="#fff"/></svg>
+        </div>
+        <p style="color:var(--slate);margin:0;font-size:14px;max-width:24ch">Below ~24px, drop the arrow tail and keep only the cap silhouette.</p>
+      </div>
+    </div>
+
+    <div class="grid two" style="margin-top:20px">
+      <div class="do">
+        <h4>✓ Do</h4>
+        <ul class="clean">
+          <li>Keep clear space ≥ the height of the cap around the lockup.</li>
+          <li>Use the gradient icon on light backgrounds, solid green on dark.</li>
+          <li>Keep "-ify" in XP yellow whenever color is available.</li>
+        </ul>
+      </div>
+      <div class="dont">
+        <h4>✕ Don't</h4>
+        <ul class="clean">
+          <li>Recolor the wordmark outside the brand palette.</li>
+          <li>Stretch, rotate, or add drop shadows to the mark.</li>
+          <li>Place the icon on a busy photo without a solid backing.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== COLOR ===== -->
+<section id="color">
+  <div class="wrap">
+    <p class="eyebrow">03 · Color</p>
+    <h2 style="font-size:34px;margin:0 0 8px">Green that means go.</h2>
+    <p class="lead">Spark Green leads everything — buttons, progress, brand. A small cast of bright "gamification" accents flag XP, streaks, lives, and Pro. Use accents sparingly; green should always win the page.</p>
+
+    <p class="eyebrow" style="margin:26px 0 12px">Core</p>
+    <div class="grid palette">
+      <div class="swatch"><div class="chip" style="background:#1FC36B"></div><div class="meta"><div class="name">Spark Green</div><div class="hex">#1FC36B · primary</div></div></div>
+      <div class="swatch"><div class="chip" style="background:#0E9F52"></div><div class="meta"><div class="name">Forest</div><div class="hex">#0E9F52 · pressed</div></div></div>
+      <div class="swatch"><div class="chip" style="background:#0A7D40"></div><div class="meta"><div class="name">Deep Pine</div><div class="hex">#0A7D40 · text on tint</div></div></div>
+      <div class="swatch"><div class="chip" style="background:#EAFBF1;border-bottom:1px solid #e3ede7"></div><div class="meta"><div class="name">Mint Wash</div><div class="hex">#EAFBF1 · surface</div></div></div>
+    </div>
+
+    <p class="eyebrow" style="margin:26px 0 12px">Gamification accents</p>
+    <div class="grid accents">
+      <div class="swatch"><div class="chip" style="background:#FFC93C"></div><div class="meta"><div class="name">XP Yellow</div><div class="hex">#FFC93C · xp, coins</div></div></div>
+      <div class="swatch"><div class="chip" style="background:#FF5A5F"></div><div class="meta"><div class="name">Streak Coral</div><div class="hex">#FF5A5F · streaks, lives</div></div></div>
+      <div class="swatch"><div class="chip" style="background:#7C5CFC"></div><div class="meta"><div class="name">Pro Violet</div><div class="hex">#7C5CFC · premium</div></div></div>
+      <div class="swatch"><div class="chip" style="background:#34B3F1"></div><div class="meta"><div class="name">Sky Blue</div><div class="hex">#34B3F1 · info, links</div></div></div>
+    </div>
+
+    <p class="eyebrow" style="margin:26px 0 12px">Neutrals</p>
+    <div class="grid accents">
+      <div class="swatch"><div class="chip" style="background:#0F2018"></div><div class="meta"><div class="name">Ink</div><div class="hex">#0F2018 · headings</div></div></div>
+      <div class="swatch"><div class="chip" style="background:#5B6B62"></div><div class="meta"><div class="name">Slate</div><div class="hex">#5B6B62 · body</div></div></div>
+      <div class="swatch"><div class="chip" style="background:#E3EDE7;border-bottom:1px solid #d7e3dc"></div><div class="meta"><div class="name">Line</div><div class="hex">#E3EDE7 · borders</div></div></div>
+      <div class="swatch"><div class="chip" style="background:#FFFFFF;border-bottom:1px solid #e3ede7"></div><div class="meta"><div class="name">Paper</div><div class="hex">#FFFFFF · cards</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TYPOGRAPHY ===== -->
+<section id="type">
+  <div class="wrap">
+    <p class="eyebrow">04 · Typography</p>
+    <h2 style="font-size:34px;margin:0 0 8px">Rounded &amp; readable.</h2>
+    <p class="lead">A friendly rounded display for personality, a sturdy humanist sans for everything you actually read. Both are free Google Fonts, so they ship everywhere — app, web, and print.</p>
+    <div class="grid two" style="margin-top:26px">
+      <div class="card type-card">
+        <p class="eyebrow" style="margin-bottom:6px">Display · Fredoka</p>
+        <div class="big">Level up.</div>
+        <div class="alpha">Aa Bb Cc · 0123456789 · weights 400–700</div>
+        <p style="margin:14px 0 0;color:var(--slate)">Logo, headlines, big numbers, buttons, celebratory moments.</p>
+      </div>
+      <div class="card type-card">
+        <p class="eyebrow" style="margin-bottom:6px">Text · Nunito</p>
+        <div class="big" style="font-family:'Nunito';font-weight:900">Study smart.</div>
+        <div class="alpha">Aa Bb Cc · 0123456789 · weights 400–900</div>
+        <p style="margin:14px 0 0;color:var(--slate)">Body copy, questions, explanations, UI labels, captions.</p>
+      </div>
+    </div>
+    <div class="card scale" style="margin-top:20px">
+      <p class="eyebrow" style="margin-bottom:6px">Type scale</p>
+      <div><span class="tag">DISPLAY / 48</span><span style="font-family:'Fredoka';font-size:40px">Pass with confidence</span></div>
+      <div><span class="tag">H1 / 32</span><span style="font-family:'Fredoka';font-size:28px">Algebra II — Unit 3</span></div>
+      <div><span class="tag">H2 / 22</span><span style="font-family:'Fredoka';font-size:20px">Today's challenge</span></div>
+      <div><span class="tag">BODY / 16</span><span style="font-size:16px">Which expression is equivalent to the polynomial below?</span></div>
+      <div><span class="tag">CAPTION / 13</span><span style="font-size:13px;color:var(--slate)">+15 XP · 4-day streak</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MASCOT ===== -->
+<section id="mascot">
+  <div class="wrap">
+    <p class="eyebrow">05 · Mascot</p>
+    <h2 style="font-size:34px;margin:0 0 8px">Meet Reggie</h2>
+    <p class="lead">A wise-but-goofy little owl in a graduation cap — Regentify's cheerleader, study buddy, and the face of every streak reminder. Reggie is encouraging, never nagging; proud of you, never disappointed.</p>
+    <div class="mascot-wrap" style="margin-top:26px">
+      <div class="mascot-card">
+        <!-- Simple Reggie placeholder illustration -->
+        <svg width="200" height="210" viewBox="0 0 200 210" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="100" cy="196" rx="54" ry="9" fill="#1FC36B" opacity=".15"/>
+          <!-- body -->
+          <path d="M100 60 C145 60 162 100 162 138 C162 178 134 196 100 196 C66 196 38 178 38 138 C38 100 55 60 100 60 Z" fill="#1FC36B"/>
+          <path d="M100 60 C145 60 162 100 162 138 C162 178 134 196 100 196 C66 196 38 178 38 138 C38 100 55 60 100 60 Z" fill="#0E9F52" opacity=".0"/>
+          <!-- belly -->
+          <ellipse cx="100" cy="150" rx="40" ry="44" fill="#EAFBF1"/>
+          <!-- eyes -->
+          <circle cx="80" cy="120" r="22" fill="#fff" stroke="#0E9F52" stroke-width="3"/>
+          <circle cx="120" cy="120" r="22" fill="#fff" stroke="#0E9F52" stroke-width="3"/>
+          <circle cx="83" cy="122" r="9" fill="#0F2018"/>
+          <circle cx="117" cy="122" r="9" fill="#0F2018"/>
+          <circle cx="86" cy="119" r="3" fill="#fff"/>
+          <circle cx="120" cy="119" r="3" fill="#fff"/>
+          <!-- beak -->
+          <path d="M100 134 l9 12 -18 0 z" fill="#FFC93C"/>
+          <!-- wings -->
+          <path d="M44 132 q-12 18 4 34 q10 -6 14 -20 z" fill="#0E9F52"/>
+          <path d="M156 132 q12 18 -4 34 q-10 -6 -14 -20 z" fill="#0E9F52"/>
+          <!-- feet -->
+          <path d="M86 194 l-6 10 M92 196 l0 10 M98 196 l6 10" stroke="#FFC93C" stroke-width="4" stroke-linecap="round"/>
+          <path d="M108 194 l6 10 M102 196 l0 10" stroke="#FFC93C" stroke-width="4" stroke-linecap="round"/>
+          <!-- grad cap -->
+          <path d="M58 64 L100 48 L142 64 L100 80 Z" fill="#0F2018"/>
+          <path d="M100 80 L100 64" stroke="#0F2018" stroke-width="3"/>
+          <path d="M142 64 L142 84 q-2 8 -6 0 L138 66" fill="#FFC93C"/>
+          <circle cx="142" cy="64" r="4" fill="#FFC93C"/>
+        </svg>
+      </div>
+      <div>
+        <div class="grid two">
+          <div class="do"><h4>✓ Reggie is</h4><ul class="clean"><li>Warm, hype, and a bit silly</li><li>Always on the student's side</li><li>Celebrating small wins loudly</li></ul></div>
+          <div class="dont"><h4>✕ Reggie isn't</h4><ul class="clean"><li>Strict, scolding, or guilt-tripping</li><li>A know-it-all professor</li><li>Babyish or overly cutesy</li></ul></div>
+        </div>
+        <p style="color:var(--slate);margin:16px 0 0;font-size:15px">This is a reference sketch to define proportions, palette, and vibe. Final art should be a polished vector character with expression variants (happy, cheering, sleepy/streak-at-risk, celebrating).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VOICE ===== -->
+<section id="voice">
+  <div class="wrap">
+    <p class="eyebrow">06 · Voice &amp; Tone</p>
+    <h2 style="font-size:34px;margin:0 0 8px">Talk like a hype-friend who happens to know the answer key.</h2>
+    <p class="lead">Short, encouraging, second-person. Celebrate effort. Make mistakes feel safe. Keep academic accuracy non-negotiable.</p>
+    <div class="grid voice" style="margin-top:24px">
+      <div class="do">
+        <h4>✓ Say this</h4>
+        <ul class="clean">
+          <li>"Nice — 4 in a row! Keep the streak alive. 🔥"</li>
+          <li>"Close! Let's break this one down together."</li>
+          <li>"You just unlocked Geometry. Let's go."</li>
+        </ul>
+      </div>
+      <div class="dont">
+        <h4>✕ Not this</h4>
+        <ul class="clean">
+          <li>"Incorrect. Please review the material."</li>
+          <li>"You have failed to maintain your streak."</li>
+          <li>"Mastery of this competency is required."</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card" style="margin-top:20px">
+      <p class="eyebrow" style="margin-bottom:6px">Tone dials</p>
+      <p style="margin:0;font-size:17px">Playful <strong>but</strong> credible · Encouraging <strong>but</strong> honest · Casual <strong>but</strong> clear · Brief <strong>but</strong> warm.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== UI KIT ===== -->
+<section id="ui">
+  <div class="wrap">
+    <p class="eyebrow">07 · UI Kit</p>
+    <h2 style="font-size:34px;margin:0 0 8px">Bouncy, chunky, tappable.</h2>
+    <p class="lead">Big rounded shapes, a soft "pressable" bottom shadow on buttons, and generous spacing. Built for thumbs on a phone and quick wins.</p>
+
+    <div class="grid two" style="margin-top:26px">
+      <div class="card">
+        <p class="eyebrow" style="margin-bottom:14px">Buttons</p>
+        <div class="ui-row">
+          <button class="btn">Continue</button>
+          <button class="btn sec">Skip</button>
+          <button class="btn pro">Go Pro</button>
+        </div>
+        <p style="color:var(--slate);margin:16px 0 0;font-size:14px">Radius 16px · Fredoka 600 · 5px offset bottom shadow for the tactile "pop".</p>
+      </div>
+      <div class="card">
+        <p class="eyebrow" style="margin-bottom:14px">Gamification chips</p>
+        <div class="ui-row">
+          <span class="pill" style="color:#0A7D40">🪙 1,250 XP</span>
+          <span class="pill" style="color:#C8333A">🔥 7-day streak</span>
+          <span class="pill" style="color:#C8333A">❤️ ❤️ ❤️ Lives</span>
+          <span class="pill" style="color:#5b3fd1">⭐ Pro</span>
+        </div>
+        <p style="color:var(--slate);margin:16px 0 0;font-size:14px">Each metric owns one accent color, used consistently everywhere.</p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:20px">
+      <p class="eyebrow" style="margin-bottom:14px">Progress &amp; cards</p>
+      <div style="background:var(--mint);border-radius:14px;padding:6px;max-width:420px">
+        <div style="height:18px;width:68%;background:linear-gradient(90deg,var(--green),var(--green-dark));border-radius:12px"></div>
+      </div>
+      <div class="grid two" style="margin-top:18px">
+        <div style="border:2px solid var(--green);border-radius:18px;padding:18px;background:#fff">
+          <div style="font-family:'Fredoka';font-size:18px">Algebra I</div>
+          <div style="color:var(--slate);font-size:14px">12 / 18 lessons · selected</div>
+        </div>
+        <div style="border:1px solid var(--line);border-radius:18px;padding:18px;background:#fff">
+          <div style="font-family:'Fredoka';font-size:18px">U.S. History</div>
+          <div style="color:var(--slate);font-size:14px">New · start now</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid two" style="margin-top:20px">
+      <div class="do"><h4>✓ Do</h4><ul class="clean"><li>Use 14–24px corner radii everywhere</li><li>One primary green action per screen</li><li>Reward instantly — animate XP and streaks</li></ul></div>
+      <div class="dont"><h4>✕ Don't</h4><ul class="clean"><li>Crowd screens with multiple accent colors</li><li>Use sharp corners or thin hairline buttons</li><li>Punish wrong answers with red-heavy screens</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Regentify Brand Book · v1.0 · Built for the playful path to passing the Regents.
+  </div>
+</footer>
+
+</body>
+</html>
