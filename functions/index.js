@@ -181,7 +181,7 @@ const GRADE_SCHEMA = {
   required: ['score', 'maxPoints', 'verdict', 'strengths', 'missing', 'tip'],
 }
 
-const GRADE_DAILY_CAP = 40 // per-user grades/day — abuse bound
+const GRADE_DAILY_CAP = 10 // per-user grades/day — abuse bound
 
 export const gradeWriting = onCall(
   { secrets: [ANTHROPIC_API_KEY], region: 'us-central1' },
@@ -231,10 +231,12 @@ export const gradeWriting = onCall(
     let resp
     try {
       resp = await client.messages.create({
-        model: 'claude-opus-4-8',
+        // Haiku keeps per-grade cost ~5x lower than Opus; it has no answer-cache,
+        // so every grade is a live call. Haiku 4.5 doesn't support adaptive
+        // thinking or the effort param, so neither is set.
+        model: 'claude-haiku-4-5',
         max_tokens: 700,
-        thinking: { type: 'adaptive' },
-        output_config: { effort: 'medium', format: { type: 'json_schema', schema: GRADE_SCHEMA } },
+        output_config: { format: { type: 'json_schema', schema: GRADE_SCHEMA } },
         system: GRADE_SYSTEM,
         messages: [{ role: 'user', content: userMsg }],
       })
