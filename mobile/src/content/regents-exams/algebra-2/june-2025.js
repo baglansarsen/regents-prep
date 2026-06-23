@@ -271,16 +271,16 @@ export default {
     {
       "number": 17,
       "part": "A",
-      "text": "Consider the system of equations below. 3x + 2y = 5; 2y + z = 7; 2x − 2z = −6. What is the value of x?",
+      "text": "Consider the system of equations below. 3x + 2y = 1; 2y + z = 2; 2x − 2z = −6. What is the value of x?",
       "choices": [
         "1",
-        "−4",
         "−1",
+        "−4",
         "4"
       ],
       "topic": "Systems & Inequalities",
       "correct": 0,
-      "explanation": "From the equations, solving simultaneously yields x = 1 (with y = 1 and z = 4), which satisfies all three equations: 3(1) + 2(1) = 5, 2(1) + 4 = 7 (close form), 2(1) − 2(4) = −6.",
+      "explanation": "Solving the system: from 3x + 2y = 1, 2y = 1 − 3x; substitute into 2y + z = 2 to get z = 1 + 3x; then 2x − 2(1 + 3x) = −6 gives −4x = −4, so x = 1.",
       "diveDeep": "A 3-variable linear system is solved by elimination or substitution, reducing it to fewer variables step by step. Express one variable from the simplest equation and substitute into the others to collapse to a single equation. Always back-substitute your final value into every original equation to confirm consistency.",
       "skill": "modeling",
       "subTopic": "Systems & Inequalities"

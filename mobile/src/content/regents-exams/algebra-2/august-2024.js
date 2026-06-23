@@ -335,16 +335,11 @@ export default {
     {
       "number": 21,
       "part": "A",
-      "text": "What is the value of y for the system shown below?\n3x + 4y − 5z = −27\n2x + 3y − z = 23\n6x − y + 4z = 3",
-      "choices": [
-        "−27",
-        "3",
-        "6",
-        "−3"
-      ],
+      "text": "What is the value of y for the system shown below?\\n3x + 4y − 5z = −27\\n2x + 3y − z = −3\\n6x − y + 4z = 3",
+      "choices": ["−27", "6", "3", "−3"],
       "topic": "Systems of Equations",
       "correct": 2,
-      "explanation": "Solving the 3-variable system (by elimination or a calculator matrix) yields y = 6.",
+      "explanation": "Solving the 3-variable system yields y = 3.",
       "diveDeep": "A system of three equations in three unknowns can be solved by elimination, substitution, or matrix methods such as reduced row echelon form on a graphing calculator. The fastest reliable approach on the Regents is entering the coefficient matrix and constants and using rref. When solving by hand, eliminate one variable across two pairs of equations to reduce to a 2×2 system. Arithmetic slips during elimination are the main hazard, so verify your solution in all three original equations.",
       "skill": "modeling",
       "subTopic": "Systems & Inequalities"

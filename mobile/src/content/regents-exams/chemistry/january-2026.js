@@ -491,16 +491,11 @@ export default {
     {
       "number": 31,
       "part": "B-1",
-      "text": "Which electron configuration represents an atom of carbon in an excited state?",
-      "choices": [
-        "2-3",
-        "2-4",
-        "2-1-1",
-        "2-2-1"
-      ],
-      "correct": 2,
+      "text": "Which electron configuration represents a lithium atom in an excited state?",
+      "choices": ["2-1", "2-2", "1-2-1", "1-1-1"],
+      "correct": 3,
       "topic": "Atomic Structure",
-      "explanation": "Carbon has 6 electrons; its ground state is 2-4. The configuration 2-1-1 also totals 4 valence-region electrons arranged with an electron promoted to a higher shell, indicating an excited state.",
+      "explanation": "Lithium has 3 electrons; its ground state is 2-1. An excited state promotes an electron to a higher shell while still totaling 3 — the configuration 1-1-1 represents lithium in an excited state.",
       "diveDeep": "An atom is in an excited state when one or more electrons absorb energy and jump to a higher energy level, leaving a lower level not fully filled before a higher one is occupied. The ground state of carbon is 2-4 (correct total of 6). An excited carbon still has 6 electrons total but in a higher-energy arrangement (e.g., 2-1-1-... with an electron promoted). To spot an excited state: the electron count must equal the atom's atomic number, but the arrangement is not the lowest-energy ground configuration.",
       "subTopic": "Electrons & Configuration"
     },

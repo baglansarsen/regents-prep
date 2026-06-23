@@ -377,16 +377,11 @@ export default {
     {
       "number": 23,
       "part": "A",
-      "text": "Consider the system of equations below:\nx + y + z = 6\n2x − 3y + 2z = 19\n−x + 4y − z = −17\nWhich number is not the value of any variable in the solution of the system?",
-      "choices": [
-        "−2",
-        "1",
-        "4",
-        "5"
-      ],
+      "text": "Consider the system of equations below:\\nx + y − z = 6\\n2x − 3y + 2z = −19\\n−x + 4y − z = 17\\nWhich number is not the value of any variable in the solution of the system?",
+      "choices": ["−1", "2", "3", "−4"],
       "topic": "Systems & Inequalities",
       "correct": 1,
-      "explanation": "Solving the 3-variable system yields x = 5, y = −2, z = ... the solution values that appear among the choices are 5, −2, and 4, so the number 1 is not any variable’s value.",
+      "explanation": "The solution is x = 3, y = −1, z = −4, so the only listed number that is not a variable value is 2.",
       "diveDeep": "A linear system in three variables is solved by elimination or substitution, reducing it step by step to one variable. Add or subtract equations to cancel a variable, then back-substitute. The question asks which listed number is NOT a coordinate of the solution, so you must actually find x, y, and z and compare. A common mistake is stopping after finding only one variable; you need the full solution triple to answer reliably.",
       "skill": "modeling",
       "subTopic": "Systems & Inequalities"

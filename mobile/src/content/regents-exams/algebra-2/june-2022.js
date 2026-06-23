@@ -123,16 +123,11 @@ export default {
     {
       "number": 8,
       "part": "A",
-      "text": "Consider the system of equations: x + 2y - z = 1; x - 3y + 2z = 0; 2x - 4y + z = 10. What is the solution to the given system of equations?",
-      "choices": [
-        "(1,1,2)",
-        "(5,1,2)",
-        "(3,1,0)",
-        "(3,-5,-8)"
-      ],
+      "text": "Consider the system of equations below.  x + 2y − z = 1;  −x − 3y + 2z = 0;  2x − 4y + z = 10.  What is the solution to the given system of equations?",
+      "choices": ["(1,1,2)", "(3,−1,0)", "(5,−1,2)", "(3,5,8)"],
       "correct": 1,
       "topic": "Systems & Inequalities",
-      "explanation": "Substituting (5,1,2) satisfies all three equations: 5+2-2=5? Checking carefully, (5,1,2) is the ordered triple that makes each equation true simultaneously.",
+      "explanation": "The solution is (3,−1,0): it satisfies all three equations — 3+2(−1)−0 = 1 ✓; −3−3(−1)+2(0) = 0 ✓; 2(3)−4(−1)+0 = 10 ✓.",
       "diveDeep": "A system of three linear equations in three unknowns is solved by elimination or substitution to reduce it step by step. With multiple-choice triples, the fastest reliable strategy is to substitute each candidate into all three equations and confirm every one holds—a triple must satisfy ALL equations, not just one. Verify x + 2y - z, then x - 3y + 2z, then 2x - 4y + z. This guards against picking a triple that coincidentally satisfies a single equation.",
       "subTopic": "Systems & Inequalities"
     },

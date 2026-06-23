@@ -108,15 +108,10 @@ export default {
       "number": 7,
       "part": "A",
       "text": "Which expression results in an irrational number?",
-      "choices": [
-        "√3 · √3",
-        "√5 · √81",
-        "¼ + ⅔",
-        "√3 + ⅓"
-      ],
+      "choices": ["√3 · √3", "-⅔ + ¼", "5 · √81", "⅓ + √3"],
       "topic": "Number Theory",
       "correct": 3,
-      "explanation": "Adding the irrational number √3 to the rational number ⅓ produces an irrational number.",
+      "explanation": "√3 · √3 = 3, −⅔ + ¼, and 5 · √81 = 45 are all rational; only ⅓ + √3 (rational plus irrational) is irrational.",
       "diveDeep": "A rational plus an irrational is always irrational, while products like √3 · √3 = 3 and √5 · √81 = 9√5... note √81 = 9 is rational but √5 is irrational, so check carefully. Sums and products of two rationals (like ¼ + ⅔) stay rational. The key rule: rational ± irrational = irrational. Watch for perfect-square radicals (√81 = 9) that quietly simplify to rational numbers.",
       "subTopic": "Solving Equations & Inequalities"
     },

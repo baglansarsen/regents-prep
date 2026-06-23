@@ -177,16 +177,11 @@ export default {
     {
       "number": 11,
       "part": "A",
-      "text": "What is the solution for the system of equations below? x + y + z = −2 ; x − 2y − z = 24 ; x − 9y + z = −18",
-      "choices": [
-        "(−2, 2, 2)",
-        "(0, 2, 0)",
-        "(−2, −2, 6)",
-        "(0, 2, 4)"
-      ],
+      "text": "What is the solution for the system of equations below? x + y + z = 2 ; x − 2y − z = −4 ; x − 9y + z = −18",
+      "choices": ["(−2, 2, 2)", "(−2, −2, 6)", "(0, 2, 0)", "(0, 2, 4)"],
       "topic": "Systems & Inequalities",
       "correct": 2,
-      "explanation": "Solving the 3×3 system gives x = −2, y = −2, z = 6, which satisfies all three equations.",
+      "explanation": "The solution is (0, 2, 0): 0 + 2 + 0 = 2 ✓; 0 − 4 − 0 = −4 ✓; 0 − 18 + 0 = −18 ✓.",
       "diveDeep": "A linear system in three variables can be solved by elimination or substitution, or fastest on this exam by substituting each answer choice into all three equations. The solution must satisfy every equation simultaneously — a point that works for two but fails the third is not a solution. The trap is stopping after checking one or two equations. With multiple-choice options available, plugging in is often quicker and less error-prone than full elimination.",
       "subTopic": "Systems & Inequalities"
     },
