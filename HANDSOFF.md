@@ -1,45 +1,76 @@
-# Handoff — Session 2026-06-07
+# Handoff — AI grading for written/constructed-response answers (humanities content)
 
-## Branch strategy established
-- `master` — mobile source of truth, triggers Xcode Cloud build on every push
-- `feat/web-app-vite` — active mobile feature branch
-- `feat/chromebook-b2b` — permanent chromebook branch, never merges to master; merge master → chromebook after `shared/content/` updates
-- Xcode Cloud updated to build from `master` only (no more builds on every commit)
-- Deploy chromebook: `git checkout feat/chromebook-b2b && npm run deploy`
+_Supersedes the prior 2026-06-07 handoff. Current active effort._
 
-## Commits merged to master (fix/mobile-bugs)
+## Goal
+Premium users can submit a written answer and have it AI-graded against an
+authoritative `modelAnswer`. The code feature already ships (STEM-only at first);
+this effort **fills the humanities content gap** so the grader covers Global
+History, US History, and English too.
 
-### 1. Pet speech bubble — `1b4cdd3`
-- **Removed** the slow typewriter `SpeechBubble` overlay from `PetWidget` — it floated above the daily goal section at 35ms/char
-- **Improved** the right-side pet bubble on HomeScreen:
-  - Shows active `say()` message (dig reward, milestone) → falls back to time-of-day/subject-aware daily greeting → falls back to `getPetMessage()`
-  - Pet-colored left accent border, pet name label, larger text
-  - Active messages auto-dismiss after 4s; pet plays talk animation while speaking
-- Files: `PetWidget.jsx`, `HomeScreen.jsx`
+The "fill" = for each `type: "written"` constructed-response question (CRQ), populate:
+- `text` — the real prompt (the crawled data is often corrupted; see below)
+- `modelAnswer` — a concise exemplary full-credit response
+- `explanation` — official acceptance criteria ("Full credit (1 pt) for… Acceptable responses (NYSED rating guide) include: …; Not acceptable: …")
+- `maxPoints: 1` (CRQs are 1 point)
 
-### 2. Images disappearing from exam + lessons — `7259918`
-- **Root cause 1**: `QuestionCard.jsx` (lesson mode) used `question.image` as a bare relative path — React Native can't resolve `/images/exams/...` without a full URL. Lesson images were broken every single run.
-- **Root cause 2**: `CDN_BASE` hardcoded separately in `QuizScreen.jsx` and `ExamScreen.jsx` (`regents-csas.web.app`) with no shared constant — drift on every edit.
-- **Root cause 3**: `mobile/dist` (served by Firebase Hosting `regents` target) has no `/images/` directory — `expo export` doesn't copy exam images, so every deploy silently wiped them.
-- **Fix**: single `imageUri()` helper in `mobile/src/utils/cdn.js` (`regents-prep.web.app`). All three files import it. Deploy scripts now run `copy:images` (copies `public/images/` → `mobile/dist/`) before every Firebase deploy.
-- Files: `utils/cdn.js` (new), `QuizScreen.jsx`, `ExamScreen.jsx`, `QuestionCard.jsx`, root `package.json`
+Source of truth = **official NYSED rating guides** (public PDFs), not invented answers (confirmed with user).
 
-### 3. PetTriviaCard crash — `0b1548d`
-- **Crash**: `TypeError: Cannot read property 'map' of undefined` in `PetTriviaCard` on HomeScreen
-- **Root cause**: `getDayQuestion(pool)` was picking from the raw questions array which includes written/constructed-response questions (no `choices` field). `q.choices.map()` threw on them.
-- **Fix**: filter to `Array.isArray(q.choices) && q.choices.length > 0` in `triviaPool.js` before picking. Safety guard added in `PetTriviaCard` as well.
-- Files: `triviaPool.js`, `PetTriviaCard.jsx`
+## The repeatable per-exam loop (proven, mechanical)
+1. **List written Qs** in `shared/content/regents-exams/<subject>/<exam>.js` — note each Q's `number`, `image` basename, current `text`.
+2. **Fetch the rating-guide PDF** with `WebFetch`. It can't parse the PDF, but it **saves the binary to disk** at `…/tool-results/webfetch-*.pdf` and prints the path.
+3. **`Read` the saved PDF** pages ~4–12 (Part II "Question-Specific Rubric"). Each CRQ has a **"Score of 1: Correct response — Examples:"** list (acceptable answers) + **"Score of 0:"** list (not acceptable). That's the ground truth.
+4. **Match CRQs by number + verified prompt text** (NOT by position). Edit the file **by `image`-path anchor** with a small Python script (template below).
+5. **Verify**: `npx --no-install esbuild <file>.js --bundle=false --outfile=/dev/null --log-level=warning` prints nothing if it parses; re-grep `modelAnswer` set/null counts.
+6. **Commit one exam per commit**: `content(<subject>): AI-grading model answers for <Mon Year> CRQs`, cite the source PDF URL, Co-author footer.
 
-## Commits on feat/web-app-vite (from prior session, already pushed)
-- `38b3f06` — streak freeze lastDate bug, lesson unlock race condition (pending queue in `useProgress`), timer removal from lessons, written question filter for all 10 subjects, LE june-2025 q43 context fix
+### NYSED rating-guide URL patterns
+- **Global History II** (Framework, Grade 10): `https://www.nysedregents.org/ghg2/{Myy}/glhg2-{Myyyy}-rg.pdf` — month code `1`=Jan, `6`=June, `8`=Aug. E.g. Jun 2025 = `ghg2/625/glhg2-62025-rg.pdf`. **All 15 Global exams DONE.**
+- **US History** (Framework): base dir `https://www.nysedregents.org/us-history-govt/{Myy}/`. ⚠️ **Two different guides per exam — use the right one:**
+  - `ushg-{Myyyy}-rga.pdf` = **Part II Short-Essay Questions (Q29/Q30)** — full essays scored 0–5 by anchor papers. **NOT in our content data, and NOT Score-of-1 — skip.**
+  - **Part III "Volume 2" guide** = **Part IIIA scaffold (document short-answer) questions** — these ARE our gradeable written Qs (#31–36 etc.), scored **0–1 with "Score of 1: Examples" lists** just like Global CRQs. ⚠️ **Filename is inconsistent across exams**: e.g. `ushg62023-rg2.pdf` (no hyphen), `ushg-82024-rg2.pdf` (hyphen). June 2024's `ushg-62024-rg2.pdf` returned 404 — try `-rgb.pdf` or WebSearch `nysedregents.org "ushg <Month Year> Part III rating guide"` to get the exact URL per exam. The `ushg-framework/` path (vs `us-history-govt/`) also hosts copies.
+  - In our data, US written Qs are numbered ~#31–36 (the Civic Literacy document scaffold) plus image-only stimulus items (#7, #22 — leave null). No #29/#30 SEQ essays in the data.
+- **English (ELA)**: path not confirmed; ELA is anchor-paper essays, not Score-of-1 lists — see Caveats.
 
-## Active branches
-| Branch | Status |
-|---|---|
-| `master` | Clean, Xcode Cloud building |
-| `feat/web-app-vite` | Mobile feature work, ahead of master |
-| `feat/chromebook-b2b` | Chromebook B2B Teacher Mode, deployed to `regents-prep.web.app` |
+### Image-anchor edit script (used every exam)
+`#30` and `#33` often share truncated text like `"Based on this excerpt,"`, so anchor on the unique `image` path and replace the whole `text` value + insert fields:
+```python
+pat = re.compile(r'"text":\s*"(?:[^"\\]|\\.)*",\s*\n\s*"modelAnswer":\s*null,\s*\n\s*"image":\s*"'+re.escape(img)+r'"', re.S)
+repl = ('"text": '+json.dumps(text,ensure_ascii=False)+',\n'
+        '      "maxPoints": 1,\n'
+        '      "modelAnswer": '+json.dumps(model,ensure_ascii=False)+',\n'
+        '      "explanation": '+json.dumps(expl,ensure_ascii=False)+',\n'
+        '      "image": '+json.dumps(img,ensure_ascii=False))
+# write only if count of replacements == expected N
+```
+Run with the project Python: `$(cat graphify-out/.graphify_python)`.
 
-## Known issues / next session
-- `feat/web-app-vite` has mobile fixes not yet merged to master (streak freeze, lesson unlock, timer removal, written question filter) — consider merging or opening a PR
-- `daysUntilExam: 14` in `HomeScreen.jsx` is hardcoded — wire to real exam date when available
+## ⚠️ Data-quality reality
+Crawled content is **corrupted**, not just missing answers:
+- `text` is sometimes just the question number (`"29"`/`"30"`) — the real prompt is only in the scanned `image` and the rating guide.
+- `text` sometimes has **bled-in garbage** (an entire Part III essay + all 5 documents appended). Replace the whole value with the clean prompt from the guide.
+- The rating guide therefore both **repairs the prompt** and **supplies the answer**.
+
+## Caveats / out of scope (don't guess)
+- **Image-only questions** (`text: ""`, no rating-guide CRQ match): leave `modelAnswer: null`. These are the expected "pending" nulls in otherwise-complete files.
+- **Big essays** — Global "Enduring Issues Essay" (Q35), US "Civic Literacy Essay", ELA Part 2/3: scored by **anchor papers** (scanned handwriting per score level), not Score-of-1 lists. Need a **separate pass** with a different rubric shape. Flag, don't fabricate.
+- **English (ELA)**: only ~11 of 31 exams have essays as `type:"written"`; the rest are prose Parts. Decide structuring when you reach it.
+
+## Progress (as of this handoff)
+**Global History: 15 / 15 DONE ✅** — all CRQs filled from official NYSED guides, committed on `master` (commits `3ff7b5b` → `89edb53`).
+
+**Remaining:**
+- **US History (9):** `august-2023/24/25, january-2024/25/26, june-2023/24/25` (all pending). Fill the Part IIIA scaffold Qs (~#31–36) from each exam's Part III "Volume 2" rating guide (see URL note above — filename varies, locate per exam). Skip image-only stimulus Qs and the 0–5 SEQ essays.
+- **English (~11 structured written Qs across 31 files)** — mostly anchor-paper argument essays; likely needs the separate essay-handling decision, not this loop.
+
+## Repo state
+- All work = **local commits on `master`**, currently **ahead of `origin/master` by 10**, **NOT pushed**. ⚠️ Pushing `master` triggers an Xcode Cloud iOS build — push intentionally.
+- Content lives in `shared/content/` (single source of truth; `@content` alias). Per workflow, shared-content edits go on `master`, then `git merge master` into the chromebook branch to carry forward.
+
+## Related: the code feature (already shipped, deployed live)
+- `functions/index.js` → `gradeWriting` callable: Haiku 4.5, no thinking, 10/day per-user cap, structured-output schema. **Deployed & live.** Required a manual invoker grant after first deploy (`gcloud run services add-iam-policy-binding gradewriting --region=us-central1 --project=regents-prep --member=allUsers --role=roles/run.invoker`) — gen-2 callable gotcha (see memory `project_callable_invoker_gotcha`).
+- Mobile: `hooks/useEssayGrader.js`, `components/AiGradeButton.jsx`; wired into `QuizScreen` (premium replaces self-assessment) and `ExamScreen`. Shipped via PR #2 (merged to master).
+- The grader reads `question.text` + `modelAnswer` + `explanation` — exactly the fields this content effort fills, so completing the humanities content is what extends grading to those subjects.
+
+## Next action
+Continue the loop on the 5 remaining Global exams; then confirm the US History rating-guide URL and do those 9; then decide ELA structuring. ~2 exams/turn is the sustainable quality pace. The grading model is Haiku — spot-check that humanities answers read sensibly on a device build before relying on it.
