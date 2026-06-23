@@ -122,16 +122,11 @@ export default {
     {
       "number": 8,
       "part": "A",
-      "text": "Which description could represent the graph of f(x) = 4x²(x − a) − (x − a), if a is an integer?",
-      "choices": [
-        "As x → −∞, f(x) → −∞; as x → ∞, f(x) → ∞; and the graph has 3 x-intercepts.",
-        "As x → −∞, f(x) → −∞; as x → ∞, f(x) → ∞; and the graph has 3 x-intercepts.",
-        "As x → −∞, f(x) → ∞; as x → ∞, f(x) → ∞; and the graph has 4 x-intercepts.",
-        "As x → −∞, f(x) → ∞; as x → ∞, f(x) → ∞; and the graph has 4 x-intercepts."
-      ],
+      "text": "Which description could represent the graph of f(x) = 4x²(x + a) − x − a, if a is an integer?",
+      "choices": ["As x → −∞, f(x) → ∞; as x → ∞, f(x) → ∞; and the graph has 3 x-intercepts.", "As x → −∞, f(x) → −∞; as x → ∞, f(x) → ∞; and the graph has 3 x-intercepts.", "As x → −∞, f(x) → ∞; as x → ∞, f(x) → −∞; and the graph has 4 x-intercepts.", "As x → −∞, f(x) → −∞; as x → ∞, f(x) → ∞; and the graph has 4 x-intercepts."],
       "topic": "Polynomial Functions",
       "correct": 1,
-      "explanation": "Factoring gives f(x) = (x − a)(4x² − 1) = (x − a)(2x − 1)(2x + 1), a cubic with positive leading coefficient and three distinct real roots, so it falls left/rises right with 3 x-intercepts.",
+      "explanation": "The leading term of f(x) = 4x²(x + a) − x − a is 4x³ (odd degree, positive), so as x → −∞, f(x) → −∞ and as x → ∞, f(x) → ∞. Factoring f(x) = (x + a)(4x² − 1) = (x + a)(2x − 1)(2x + 1) gives 3 x-intercepts.",
       "diveDeep": "Factor by grouping: (x − a) is common, leaving 4x² − 1, a difference of squares. The degree (3) and leading coefficient (+) determine end behavior: odd degree with positive lead means down-on-left, up-on-right. Count distinct roots for x-intercepts. A common mistake is miscounting intercepts or reversing end behavior; sketch a quick sign analysis of the leading term.",
       "skill": "graphing",
       "subTopic": "Polynomial Graphs, Zeros & Conics"
@@ -369,16 +364,11 @@ export default {
     {
       "number": 23,
       "part": "A",
-      "text": "What is the inverse of f(x) = x/(x − 2), where x ≠ 2?",
-      "choices": [
-        "f⁻¹(x) = 2x/(x − 1)",
-        "f⁻¹(x) = 2x/(x − 1)",
-        "f⁻¹(x) = x/(x + 2)",
-        "f⁻¹(x) = x/(x − 2)"
-      ],
+      "text": "What is the inverse of f(x) = x/(x + 2), where x ≠ −2?",
+      "choices": ["f⁻¹(x) = 2x/(x − 1)", "f⁻¹(x) = −2x/(x − 1)", "f⁻¹(x) = x/(x − 2)", "f⁻¹(x) = −x/(x − 2)"],
       "topic": "Functions",
-      "correct": 0,
-      "explanation": "Swap x and y in x = y/(y − 2), solve: x(y − 2) = y, xy − 2x = y, y(x − 1) = 2x, so f⁻¹(x) = 2x/(x − 1).",
+      "correct": 1,
+      "explanation": "Swap x and y and solve: x = y/(y + 2) → x(y + 2) = y → 2x = y − xy = y(1 − x) → y = 2x/(1 − x) = −2x/(x − 1).",
       "diveDeep": "To find an inverse, swap x and y, then solve for y. With rational functions, multiply out, collect all y-terms on one side, factor out y, and divide. Here y(x − 1) = 2x gives y = 2x/(x − 1). A common mistake is forgetting to gather y-terms before factoring. Verify by checking f(f⁻¹(x)) = x.",
       "subTopic": "Polynomial Operations & Factoring"
     },

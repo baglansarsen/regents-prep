@@ -58,16 +58,11 @@ export default {
     {
       "number": 4,
       "part": "A",
-      "text": "The expression 2(2x² − 2x + 1) + (3x² + 3x − 5) is equivalent to",
-      "choices": [
-        "x² + x − 4",
-        "x² + 7x − 4",
-        "7x² − x − 3",
-        "7x² − x − 3"
-      ],
+      "text": "The expression −2(x² − 2x + 1) + (3x² + 3x − 5) is equivalent to",
+      "choices": ["x² + x − 4", "x² − x − 7", "x² + 7x − 4", "x² + 7x − 7"],
       "topic": "Polynomials & Factoring",
-      "correct": 2,
-      "explanation": "Distribute the 2 to get 4x² − 4x + 2, then combine with 3x² + 3x − 5 to obtain 7x² − x − 3.",
+      "correct": 3,
+      "explanation": "−2(x² − 2x + 1) + (3x² + 3x − 5) = −2x² + 4x − 2 + 3x² + 3x − 5 = x² + 7x − 7.",
       "diveDeep": "Adding polynomials requires distributing any coefficient first, then combining like terms by matching degrees. Here 2(2x² − 2x + 1) = 4x² − 4x + 2, and adding 3x² + 3x − 5 gives (4+3)x² + (−4+3)x + (2−5) = 7x² − x − 3. The most common slip is forgetting to distribute the 2 to every term inside the parentheses or mishandling negative signs. Line up like terms vertically if you tend to make sign errors.",
       "subTopic": "Polynomial Operations"
     },

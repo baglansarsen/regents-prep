@@ -327,16 +327,11 @@ export default {
     {
       "number": 20,
       "part": "A",
-      "text": "Segment JM has endpoints J(5, 1) and M(7, 9). Which equation represents the perpendicular bisector of JM?",
-      "choices": [
-        "y − 5 = −(1/4)(x − 6)",
-        "y − 5 = 4(x − 6)",
-        "y + 5 = −(1/4)(x + 6)",
-        "y − 5 = −(1/4)(x − 6)"
-      ],
+      "text": "Segment JM has endpoints J(−5,1) and M(7,−9). An equation of the perpendicular bisector of JM is",
+      "choices": ["y − 4 = 5/6 (x + 1)", "y + 4 = 5/6 (x − 1)", "y − 4 = 6/5 (x + 1)", "y + 4 = 6/5 (x − 1)"],
       "topic": "Coordinate Geometry",
       "correct": 3,
-      "explanation": "Midpoint of JM = (6, 5). Slope of JM = (9 − 1)/(7 − 5) = 8/2 = 4. Perpendicular slope = −1/4. Equation: y − 5 = −(1/4)(x − 6).",
+      "explanation": "The midpoint of JM is (1, −4) and the slope of JM is (−9 − 1)/(7 − (−5)) = −5/6, so the perpendicular bisector has slope 6/5 through (1, −4): y + 4 = (6/5)(x − 1).",
       "diveDeep": "Steps for a perpendicular bisector: (1) midpoint = ((5+7)/2, (1+9)/2) = (6, 5); (2) slope of JM = (9−1)/(7−5) = 4; (3) perpendicular slope = −1/4 (negative reciprocal); (4) point-slope form: y − 5 = −(1/4)(x − 6). The perpendicular bisector is the locus of all points equidistant from J and M. It is used to find the circumcenter of a triangle (intersection of perpendicular bisectors). Always compute the midpoint and slope carefully before forming the equation.",
       "subTopic": "Lines & Slope"
     },
