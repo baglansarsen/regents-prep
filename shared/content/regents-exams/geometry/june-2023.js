@@ -230,7 +230,7 @@ export default {
       text: 'The endpoints of AB are A(0, 4) and B(−4, 6). Which equation of a line represents the perpendicular bisector of AB?',
       choices: ['y = −(1/2)x + 4', 'y = 2x + 8', 'y = −2x + 1', 'y = 2x + 9'],
       topic: 'Coordinate Geometry',
-      correct: 1,
+      correct: 3,
       explanation: 'The midpoint of AB is (−2, 5) and the slope of AB is (6 − 4)/(−4 − 0) = −1/2, so the perpendicular bisector has slope 2 and passes through (−2, 5): y − 5 = 2(x + 2), or y = 2x + 9.',
       diveDeep: 'A perpendicular bisector must satisfy two conditions: it passes through the midpoint of the segment and it is perpendicular to the segment. First find the midpoint with the average of coordinates, then find the segment slope and take its negative reciprocal for the perpendicular slope, and finally use point-slope form through the midpoint. Skipping the midpoint (using an endpoint instead) or forgetting the negative reciprocal are the two most common errors, which generate the trap choices.'
     },

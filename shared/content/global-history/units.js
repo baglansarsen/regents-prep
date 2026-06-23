@@ -25,7 +25,7 @@ const LESSON_SIZE = 25
 
 function getExamsByYear(minYear, maxYear) {
   return EXAMS.filter(exam => exam.year >= minYear && exam.year <= maxYear)
-    .flatMap(exam => (exam.questions || []).filter(q => Array.isArray(q.choices) && q.choices.length > 0))
+    .flatMap(exam => (exam.questions || []).filter(q => Array.isArray(q.choices) && q.choices.length > 0 && q.choices.every((c) => String(c ?? '').trim() !== '')))
 }
 
 export function getLessonQuestions(unitId, lessonIndex, lessonCount) {

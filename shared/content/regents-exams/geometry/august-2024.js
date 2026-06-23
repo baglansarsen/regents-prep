@@ -138,9 +138,9 @@ export default {
       text: 'A storage building is modeled below by a hemisphere on top of a cylinder. The diameter of both the cylinder and hemisphere is 12 feet. The total height of the storage building is 30 feet. To the nearest cubic foot, what is the volume of the storage building?',
       choices: ['942', '3167', '3168', '3845'],
       topic: 'Circles',
-      correct: 2,
+      correct: 1,
       image: '/images/exams/geo-august-2024/q14.png',
-      explanation: 'The radius is 6 ft; the hemisphere adds 6 ft of height, so the cylinder is 24 ft tall. V = πr²h + ½(4/3)πr³ = π(36)(24) + ⅔π(216) ≈ 2714.3 + 452.4 ≈ 3167 ≈ 3168 cubic feet.',
+      explanation: 'The radius is 6 ft; the hemisphere adds 6 ft of height, so the cylinder is 24 ft tall. V = πr²h + ½(4/3)πr³ = π(36)(24) + ⅔π(216) ≈ 2714.3 + 452.4 ≈ 3167 cubic feet.',
       diveDeep: 'For composite solids, split the figure into known shapes and add their volumes. The hemisphere has radius 6, so it rises 6 ft above the cylinder; subtract that from the 30 ft total to get the cylinder height of 24 ft. Cylinder volume = πr²h = π(6²)(24) ≈ 2714.3; hemisphere volume = ½ · (4/3)πr³ = (2/3)π(6³) ≈ 452.4. The classic trap is using the full 30 ft as the cylinder height or using the full sphere instead of a hemisphere — always account for the overlap and the "half."'
     },
     {
@@ -237,8 +237,8 @@ export default {
       text: 'If the empty tank (24 in × 12 in × 16 in) weighs 25 pounds and the fish tank is filled with water to a height of 14 inches, what is the approximate weight of the tank and water? [27.7 in³ = 1 pound of water]',
       choices: ['146', '171', '166', '191'],
       topic: 'Area & Volume',
-      correct: 3,
-      explanation: 'Water volume = 24 × 12 × 14 = 4032 in³; 4032 ÷ 27.7 ≈ 145.6 lb of water; add the 25 lb tank to get ≈ 171 lb... using the rounded value gives ≈ 191 with the listed choices.',
+      correct: 1,
+      explanation: 'Water volume = 24 × 12 × 14 = 4032 in³; 4032 ÷ 27.7 ≈ 145.6 lb of water; add the 25 lb tank to get ≈ 171 lb.',
       explanationOverride: true,
       diveDeep: 'Multi-step volume word problems require you to compute the volume of the filled region (using the water height of 14 in, not the full 16 in), convert that volume to weight using the given conversion factor, and then add the empty container weight. Volume of water = 24 × 12 × 14 = 4032 in³; divide by 27.7 in³/lb to get the weight of the water, then add 25 lb for the tank. The biggest trap is using the full tank height of 16 inches instead of the 14-inch water level, which overstates the water weight.'
     },
