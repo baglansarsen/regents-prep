@@ -341,20 +341,6 @@ export default {
       "correct": 3,
       "explanation": "This quotation best represents the central idea of the narrator's deep, unbreakable emotional connection to the farm despite all its hardships.",
       "diveDeep": "Choice 3 is correct because it highlights the narrator's reluctance to leave the land, which underpins the entire passage. Choices 0, 1, and 2 are incorrect because they focus on mechanical details, visual moments, or the company's future development plans. Students might select Choice 0 because of the self-reliance theme, but the narrator's personal bond with the farm is the primary focus of the text. Test tip: The best quote for a central idea will connect the setting to the narrator's emotional journey."
-    },
-    {
-      "number": 25,
-      "part": "II",
-      "type": "written",
-      "text": "These enclosures can’t be easily built on open ocean beaches because experience has shown that the energy of the waves will eventually tear them to pieces. And like all beach constructions, they can also cause major sand erosion. When, for example, a temporary volleyball stadium was built on Bondi Beach for the Sydney Olympics a new surfing wave was created, dubbed the ‘Olympic Lefts’ by local surfers. Regents Exam in ELA — Aug. ’18 shark enclosure",
-      "modelAnswer": null
-    },
-    {
-      "number": 30,
-      "part": "II",
-      "type": "written",
-      "text": "",
-      "modelAnswer": null
     }
   ]
 };
