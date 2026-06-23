@@ -97,7 +97,9 @@ export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
   function getLessonQuestions(unitTopic, lessonIndex, lessonCount) {
     const topicPool = getExamPool(unitTopic)
 
-    if (lessonIndex >= lessonCount) {
+    // No valid chunking (or asking past the last lesson) → return the whole
+    // shuffled pool. Guards lessonCount < 1, which would make chunkSize Infinity.
+    if (!(lessonCount >= 1) || lessonIndex >= lessonCount) {
       return [...topicPool].sort(() => Math.random() - 0.5)
     }
 

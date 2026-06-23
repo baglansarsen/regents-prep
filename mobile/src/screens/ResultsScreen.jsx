@@ -139,7 +139,7 @@ export default function ResultsScreen({ route, navigation }) {
   // score/%/mastery. `total` already arrives as the graded count from QuizScreen.
   const graded   = results.filter((r) => !r.written)
   const correct  = graded.filter((r) => r.correct).length
-  const pct      = Math.round((correct / total) * 100)
+  const pct      = total ? Math.round((correct / total) * 100) : 0   // guard reflection-only (total = 0)
   const passed   = pct >= 65
   const mastered = pct >= 85
 

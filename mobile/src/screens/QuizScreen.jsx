@@ -204,17 +204,20 @@ export default function QuizScreen({ route, navigation }) {
       // every scoring computation (%, mastery, mistakes, results total) so it
       // never drags the lesson score down or re-enters Mistakes Practice.
       const graded     = results.filter((r) => !r.written)
-      const gradedTotal = graded.length || 1
+      const hasGraded  = graded.length > 0
+      const gradedTotal = graded.length
       const correct    = graded.filter((r) => r.correct).length
       const mistakes   = gradedTotal - correct
-      const pct        = Math.round((correct / gradedTotal) * 100)
+      // No gradeable (MC) questions → a reflection-only lesson. Don't fabricate
+      // a 0% (which would read "0/1" and wrongly count as a failed attempt).
+      const pct        = hasGraded ? Math.round((correct / gradedTotal) * 100) : 0
       // `score` already bakes in speed + streak multipliers, so it IS the RP.
       const rpEarned   = Math.round(score * rpMultiplier)
       const doubleRP   = rpMultiplier > 1
 
       // First-time mastery = consistency rule flips from false → true with this
       // attempt included (isMastered = 85%+ on 2 of the last 3 attempts).
-      const firstMastery = !!topic && isMastered(topic, subject, pct) && !isMastered(topic, subject)
+      const firstMastery = hasGraded && !!topic && isMastered(topic, subject, pct) && !isMastered(topic, subject)
 
       // Challenge passed with ≤3 mistakes → unlock next unit immediately
       const challengeUnlocked = isChallenge && !!nextUnitTopic && mistakes <= 3
@@ -242,7 +245,7 @@ export default function QuizScreen({ route, navigation }) {
       const correctQs = graded.filter((r) => r.correct && !r.recovered).map((r) => r.question)
       resolveCorrect(correctQs, subject)
 
-      saveResult({ topic, score, total: gradedTotal, correct, pct, subject, lessonIndex })
+      if (hasGraded) saveResult({ topic, score, total: gradedTotal, correct, pct, subject, lessonIndex })
       markStudied()
       // Evolve against the authoritative post-award total, not the stale `xp` state
       earnRP(rpEarned).then((newTotal) => checkAndEvolve(newTotal ?? rp + rpEarned))
