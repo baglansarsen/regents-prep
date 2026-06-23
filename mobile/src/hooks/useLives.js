@@ -148,7 +148,16 @@ export function useLives(uid, isSubscribed = false) {
     return true
   }, [])
 
-  // ─── addLife (rewarded ad — +1, never exceeds max) ───────────────────────
+  // ─── grantFullRefill (rewarded ad — free full refill, no RP cost) ────────
+  const grantFullRefill = useCallback(async () => {
+    livesRef.current = MAX_LIVES
+    setLives(MAX_LIVES)
+    setNextRefillAt(null)
+    refillRef.current = null
+    await save(uid_ref.current, MAX_LIVES, null)
+  }, [])
+
+  // ─── addLife (+1, never exceeds max — used by the natural 30-min refill) ──
   const addLife = useCallback(async () => {
     const newLives  = Math.min(livesRef.current + 1, MAX_LIVES)
     // Keep existing refill timer running if it's already set; only start one
@@ -168,7 +177,7 @@ export function useLives(uid, isSubscribed = false) {
   // every 30s). Callbacks are already stable; only lives/nextRefillAt/
   // isSubscribed change. maxLives/refillCost are constants.
   return useMemo(
-    () => ({ lives, maxLives: MAX_LIVES, loseLife, refillLives, addLife, nextRefillAt, refillCost: REFILL_COST_RP, isSubscribed }),
-    [lives, nextRefillAt, isSubscribed, loseLife, refillLives, addLife],
+    () => ({ lives, maxLives: MAX_LIVES, loseLife, refillLives, addLife, grantFullRefill, nextRefillAt, refillCost: REFILL_COST_RP, isSubscribed }),
+    [lives, nextRefillAt, isSubscribed, loseLife, refillLives, addLife, grantFullRefill],
   )
 }
