@@ -23,6 +23,7 @@ import PetWidget from '../components/PetWidget'
 import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
 import ReggieMascot from '../components/ReggieMascot'
 import AiGradeButton from '../components/AiGradeButton'
+import LivesRefillGate from '../components/LivesRefillGate'
 import { useStudyTime } from '../hooks/useStudyTime'
 import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
 import { useQuizSound } from '../hooks/useQuizSound'
@@ -53,8 +54,8 @@ export default function QuizScreen({ route, navigation }) {
   const { rpMultiplier }           = useDoubleRP()
   const { markStudied }          = useDailyStreak(uid)
   const { rp, earnRP, spendRP }  = useRP(uid)
-  const { lives, maxLives, nextRefillAt, loseLife, refillLives, addLife } = useLivesContext()
-  const { ready: adReady, showAd } = useRewardedAd({ onReward: addLife })
+  const { lives, maxLives, nextRefillAt, loseLife, refillLives, grantFullRefill } = useLivesContext()
+  const { ready: adReady, showAd } = useRewardedAd({ onReward: grantFullRefill })
   const { checkAndEvolve, triggerReaction, updateQuestProgress, getPetMessage, studyBoost, pet } = usePetContext()
   const { say } = useSpeechContext()
   const { isSubscribed, isConfigured, presentPaywall } = useSubscription()
@@ -64,6 +65,7 @@ export default function QuizScreen({ route, navigation }) {
   const [buddyMessage,  setBuddyMessage]  = useState(null)
   const [petSay,        setPetSay]        = useState(null)   // custom Reggie line (retry / hint)
   const [repeatIntro,   setRepeatIntro]   = useState(false)  // full-screen Reggie before the repeat round
+  const [endGateParams, setEndGateParams] = useState(null)   // Results nav params, held while the end-of-lesson refill gate shows
 
   // Reggie says something in the speech bubble for ~2.4s.
   const dinoSay = useCallback((msg) => {
@@ -137,7 +139,8 @@ export default function QuizScreen({ route, navigation }) {
     ]).start()
   }
 
-  // (No-lives gate is now rendered as an overlay — see NoLivesGate below)
+  // (Out of hearts shows a non-blocking banner mid-lesson + a refill gate at the
+  //  end — see the LivesRefillGate render and the phase==='done' effect.)
 
   // ── Feedback panel slide ──────────────────────────────────────────────────
   useEffect(() => {
@@ -265,15 +268,32 @@ export default function QuizScreen({ route, navigation }) {
       updateQuestProgress('complete_quiz', 1, { topic }).then(awardQuest)   // topic lets smart topic-quests match
       if (route.params?.isMistakesPractice) updateQuestProgress('complete_mistakes').then(awardQuest)
       const { seconds: sessionSecs } = endSession()
-      navigation.replace('Results', {
+      const resultsParams = {
         score, total: gradedTotal, results, bestStreak, topic, subject,
         rpEarned, doubleRP, firstMastery, masteredTopic: topic ?? null,
         lessonIndex, challengeUnlocked, unlockedTopic: nextUnitTopic ?? null,
         nextLessonMeta: nextLessonMeta ?? null,
         sessionTime: sessionSecs,
-      })
+      }
+      // Finished the lesson at 0 hearts (free users): let them see the refill
+      // gate before moving on, so they can ad/refill and keep going. The gate is
+      // dismissable — dismissing just proceeds to Results.
+      if (lives === 0 && !isSubscribed) {
+        setEndGateParams(resultsParams)
+      } else {
+        navigation.replace('Results', resultsParams)
+      }
     }
   }, [phase])
+
+  // End-gate: once a refill lands (ad or RP → lives > 0), proceed to Results.
+  useEffect(() => {
+    if (endGateParams && lives > 0) {
+      const p = endGateParams
+      setEndGateParams(null)
+      navigation.replace('Results', p)
+    }
+  }, [endGateParams, lives])
 
   if (!currentQuestion) return null
 
@@ -543,19 +563,29 @@ export default function QuizScreen({ route, navigation }) {
       )}
 
 
-      {/* ── No-lives gate — reactive overlay, auto-dismisses when lives > 0 ── */}
-      {lives === 0 && (
-        <NoLivesGate
+      {/* ── Out of hearts: a non-blocking banner during the lesson. The student
+            finishes uninterrupted (wrong answers already cost nothing at 0); the
+            refill gate appears at the end (endGateParams) instead of blocking. ── */}
+      {lives === 0 && !isSubscribed && phase !== 'done' && !endGateParams && (
+        <View style={[s.outOfHeartsBanner, { backgroundColor: C.wrongBg, borderColor: C.wrong + '55' }]} pointerEvents="none">
+          <Text style={[T.label, { color: C.wrong, textTransform: 'none', letterSpacing: 0 }]}>
+            💔 Out of hearts — finish this lesson, then refill to keep going
+          </Text>
+        </View>
+      )}
+
+      {/* ── End-of-lesson refill gate — shown after finishing at 0 hearts ── */}
+      {endGateParams && (
+        <LivesRefillGate
           C={C}
-          s={s}
-          insets={insets}
+          context="end"
           nextRefillAt={nextRefillAt}
           adReady={adReady}
           onWatchAd={showAd}
           onRefill={() => refillLives(spendRP)}
-          onGoBack={() => navigation.goBack()}
           showPremium={isConfigured && !isSubscribed}
           onGoPremium={presentPaywall}
+          onDismiss={() => { const p = endGateParams; setEndGateParams(null); navigation.replace('Results', p) }}
         />
       )}
     </View>
@@ -816,81 +846,6 @@ function WrittenAnswerBlock({ question, C, s, subject, isSubscribed, isConfigure
   )
 }
 
-// ── No-lives overlay ──────────────────────────────────────────────────────────
-function NoLivesGate({ C, s, insets, nextRefillAt, adReady, onWatchAd, onRefill, onGoBack, showPremium, onGoPremium }) {
-  const ms  = nextRefillAt ? Math.max(0, new Date(nextRefillAt).getTime() - Date.now()) : 0
-  const min = Math.ceil(ms / 60_000)
-
-  const scaleAnim = useRef(new Animated.Value(0.85)).current
-  const opAnim    = useRef(new Animated.Value(0)).current
-
-  useEffect(() => {
-    Animated.parallel([
-      Animated.spring(scaleAnim, { toValue: 1, tension: 130, friction: 8, useNativeDriver: true }),
-      Animated.timing(opAnim,    { toValue: 1, duration: 200, useNativeDriver: true }),
-    ]).start()
-  }, [])
-
-  return (
-    <View style={[StyleSheet.absoluteFill, s.gateBackdrop]}>
-      <Animated.View style={[s.gateCard, { opacity: opAnim, transform: [{ scale: scaleAnim }], paddingBottom: insets.bottom + 16 }]}>
-
-        <View style={{ alignItems: 'center', marginBottom: 4 }}>
-          <ReggieMascot size={96} pose="sleep" />
-        </View>
-        <Text style={[T.h2, { color: C.text, textAlign: 'center' }]}>Out of Lives!</Text>
-        <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 6, marginBottom: 24 }]}>
-          {min > 0
-            ? `Next life in ${min}m — or get one now.`
-            : 'Your next life is almost ready — or get one now.'}
-        </Text>
-
-        {/* Watch ad — primary CTA */}
-        {adReady ? (
-          <TouchableOpacity
-            style={[s.gateBtn, { backgroundColor: C.brand }]}
-            onPress={onWatchAd}
-            activeOpacity={0.85}
-          >
-            <Text style={[T.btn, { color: '#fff' }]}>▶  Watch Ad  (+1 ❤️)</Text>
-          </TouchableOpacity>
-        ) : (
-          <View style={[s.gateBtn, { backgroundColor: C.surface2 }]}>
-            <Text style={[T.btn, { color: C.textMuted }]}>Loading ad…</Text>
-          </View>
-        )}
-
-        {/* Refill with RP */}
-        <TouchableOpacity
-          style={[s.gateBtn, { backgroundColor: C.warnBg, borderWidth: 1, borderColor: C.warn + '60', marginTop: 10 }]}
-          onPress={onRefill}
-          activeOpacity={0.85}
-        >
-          <Text style={[T.btn, { color: C.warn }]}>⭐ Refill All (300 RP)</Text>
-        </TouchableOpacity>
-
-        {/* Go Premium — unlimited hearts (only when not already subscribed) */}
-        {showPremium && (
-          <TouchableOpacity
-            style={[s.gateBtn, { backgroundColor: C.purple, marginTop: 10 }]}
-            onPress={onGoPremium}
-            activeOpacity={0.85}
-          >
-            <Text style={[T.btn, { color: '#fff' }]}>💜 Go Unlimited — never run out</Text>
-          </TouchableOpacity>
-        )}
-
-        {/* Go back */}
-        <TouchableOpacity style={s.gateLinkBtn} onPress={onGoBack}>
-          <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>
-            Save progress &amp; go back
-          </Text>
-        </TouchableOpacity>
-
-      </Animated.View>
-    </View>
-  )
-}
 
 function makeStyles(C, insets) {
   return StyleSheet.create({
@@ -1000,10 +955,11 @@ function makeStyles(C, insets) {
     letterText:     { fontFamily: 'Fredoka_700Bold', fontSize: 15, color: '#fff' },
 
     // No-lives gate
-    gateBackdrop:   { backgroundColor: 'rgba(0,0,0,0.72)', justifyContent: 'flex-end', zIndex: 200 },
-    gateCard:       { backgroundColor: C.bg, borderTopLeftRadius: 28, borderTopRightRadius: 28, padding: 24, paddingTop: 28 },
-    gateBtn:        { borderRadius: 16, paddingVertical: 15, alignItems: 'center' },
-    gateLinkBtn:    { alignItems: 'center', paddingVertical: 16 },
+    outOfHeartsBanner: {
+      position: 'absolute', left: 12, right: 12, bottom: 12,
+      borderRadius: 12, borderWidth: 1, paddingVertical: 10, paddingHorizontal: 14,
+      alignItems: 'center', zIndex: 50,
+    },
 
     bubble: {
       position:     'absolute',

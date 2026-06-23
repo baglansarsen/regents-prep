@@ -11,29 +11,11 @@ import { useLivesContext } from '../context/LivesContext'
 import { SUBJECT_META } from '../content/subjects'
 import { useDoubleRP } from '../context/DoubleRPContext'
 import { useRewardedAd } from '../hooks/useRewardedAd'
+import { useCountdown, formatCountdown as formatSecs } from '../hooks/useCountdown'
 import { useTourTarget } from '../context/TourContext'
 import { T } from '../styles/duo'
 import RewardsSheet from './RewardsSheet'
 import SubjectSheet from './SubjectSheet'
-
-function useCountdown(isoStr) {
-  const [secs, setSecs] = useState(() =>
-    isoStr ? Math.max(0, Math.ceil((new Date(isoStr).getTime() - Date.now()) / 1000)) : 0
-  )
-  useEffect(() => {
-    if (!isoStr) { setSecs(0); return }
-    const id = setInterval(() => {
-      setSecs(Math.max(0, Math.ceil((new Date(isoStr).getTime() - Date.now()) / 1000)))
-    }, 1000)
-    return () => clearInterval(id)
-  }, [isoStr])
-  return secs
-}
-
-function formatSecs(s) {
-  const m = Math.floor(s / 60)
-  return `${m}:${String(s % 60).padStart(2, '0')}`
-}
 
 export default function GlobalTopBar() {
   const insets = useSafeAreaInsets()

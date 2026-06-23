@@ -12,6 +12,9 @@ import { useProgress } from '../hooks/useProgress'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useRP } from '../hooks/useRP'
 import { useLivesContext } from '../context/LivesContext'
+import { useSubscription } from '../context/SubscriptionContext'
+import { useRewardedAd } from '../hooks/useRewardedAd'
+import LivesRefillGate from '../components/LivesRefillGate'
 import { useDailyGoal } from '../hooks/useDailyGoal'
 import { useLessonProgress } from '../hooks/useLessonProgress'
 import { useMistakes } from '../hooks/useMistakes'
@@ -101,7 +104,10 @@ export default function HomeScreen({ navigation }) {
   const { history, reloadHistory } = useProgress(uid)
   const { weekDays, streak, studiedToday, studiedDates, hasFreeze, buyFreeze } = useDailyStreak(uid)
   const { rp, earnRP, spendRP, loaded: rpLoaded } = useRP(uid)
-  const { lives, maxLives, nextRefillAt, refillLives } = useLivesContext()
+  const { lives, maxLives, nextRefillAt, refillLives, grantFullRefill } = useLivesContext()
+  const { isSubscribed, isConfigured, presentPaywall } = useSubscription()
+  const { ready: adReady, showAd } = useRewardedAd({ onReward: grantFullRefill })
+  const [pendingProceed, setPendingProceed] = useState(null)   // callback held while the lesson-start refill gate shows
   const { todaySeconds, reloadTotals: reloadStudyTime } = useStudyTime(uid, null, null)  // read-only: no session, just load persisted totals
 
   const subjectHistory = useMemo(
@@ -371,19 +377,23 @@ export default function HomeScreen({ navigation }) {
   }
 
   // ── Lives gate ───────────────────────────────────────────────────────────
+  // Subscribers and anyone with hearts proceed straight in; out-of-hearts free
+  // users get the shared refill gate (ad / RP / premium + live countdown). The
+  // pending action runs once a refill lands (see the effect below).
   function livesGate(onProceed) {
-    if (lives > 0) { onProceed(); return }
-    const ms  = nextRefillAt ? Math.max(0, new Date(nextRefillAt).getTime() - Date.now()) : 0
-    const min = Math.ceil(ms / 60000)
-    Alert.alert(
-      '🚫 Out of Lives!',
-      `Next life in ${min > 0 ? `${min}m` : 'a moment'}, or refill all 5 for 300 ⭐ RP.`,
-      [
-        { text: 'Refill (300 RP)', onPress: () => refillLives(spendRP).then((ok) => ok && onProceed()) },
-        { text: 'Not now', style: 'cancel' },
-      ],
-    )
+    if (lives > 0 || isSubscribed) { onProceed(); return }
+    setPendingProceed(() => onProceed)
   }
+
+  // When a refill lands (ad or RP → lives > 0) while the start gate is open,
+  // dismiss it and run the held action (start the tapped lesson).
+  useEffect(() => {
+    if (pendingProceed && lives > 0) {
+      const go = pendingProceed
+      setPendingProceed(null)
+      go()
+    }
+  }, [pendingProceed, lives])
 
   // ── Placement test completion ────────────────────────────────────────────
   function handlePlacementComplete() {
@@ -1141,6 +1151,21 @@ export default function HomeScreen({ navigation }) {
       >
         <PlacementTestScreen onComplete={handlePlacementComplete} />
       </Modal>
+
+      {/* ── Out-of-hearts refill gate (lesson start) ── */}
+      {pendingProceed && (
+        <LivesRefillGate
+          C={C}
+          context="start"
+          nextRefillAt={nextRefillAt}
+          adReady={adReady}
+          onWatchAd={showAd}
+          onRefill={() => refillLives(spendRP)}
+          showPremium={isConfigured && !isSubscribed}
+          onGoPremium={presentPaywall}
+          onDismiss={() => setPendingProceed(null)}
+        />
+      )}
 
       {/* ── Streak milestone gift modal ── */}
       <Modal transparent visible={!!milestoneModal} animationType="fade" onRequestClose={() => setMilestoneModal(null)}>

@@ -22,27 +22,9 @@ import { useRP, getLevel } from '../hooks/useRP'
 import { useLivesContext } from '../context/LivesContext'
 import { usePowerUps }     from '../hooks/usePowerUps'
 import { useDoubleRP }     from '../context/DoubleRPContext'
+import { useCountdown, formatCountdown as fmt } from '../hooks/useCountdown'
 import { T, duoBtn }       from '../styles/duo'
 import StreakCalendar      from './StreakCalendar'
-
-// ── Countdown ────────────────────────────────────────────────────────────────
-function useCountdown(isoStr) {
-  const [secs, setSecs] = useState(() =>
-    isoStr ? Math.max(0, Math.ceil((new Date(isoStr).getTime() - Date.now()) / 1000)) : 0,
-  )
-  useEffect(() => {
-    if (!isoStr) { setSecs(0); return }
-    const id = setInterval(() => {
-      setSecs(Math.max(0, Math.ceil((new Date(isoStr).getTime() - Date.now()) / 1000)))
-    }, 1000)
-    return () => clearInterval(id)
-  }, [isoStr])
-  return secs
-}
-
-function fmt(s) {
-  return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`
-}
 
 // ── Shared sheet wrapper ──────────────────────────────────────────────────────
 function Sheet({ title, children, C, insets, onClose }) {
