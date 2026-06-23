@@ -313,20 +313,22 @@ export default function PlacementTestScreen({ onComplete }) {
     const q          = questionSet[index]
     const correctIdx = q.correct ?? q.correctIndex
 
+    // Pre-submit selection uses a neutral blue (not the green brand/correct color)
+    // so a picked-but-unsubmitted answer never looks like it's been marked correct.
     function choiceBg(idx) {
-      if (!submitted) return idx === selected ? C.brandBg : C.surface
+      if (!submitted) return idx === selected ? C.blue + '22' : C.surface
       if (idx === correctIdx) return C.correctBg
       if (idx === selected && idx !== correctIdx) return C.wrongBg
       return C.surface
     }
     function choiceBorder(idx) {
-      if (!submitted) return idx === selected ? C.brand : C.border
+      if (!submitted) return idx === selected ? C.blue : C.border
       if (idx === correctIdx) return C.correct
       if (idx === selected && idx !== correctIdx) return C.wrong
       return C.border + '40'
     }
     function letterBg(idx) {
-      if (!submitted) return idx === selected ? C.brand : LETTER_COLORS[idx]
+      if (!submitted) return idx === selected ? C.blue : LETTER_COLORS[idx]
       if (idx === correctIdx) return C.correct
       if (idx === selected && idx !== correctIdx) return C.wrong
       return LETTER_COLORS[idx] + '60'
