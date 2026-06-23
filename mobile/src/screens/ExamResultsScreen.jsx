@@ -41,7 +41,7 @@ import { SUBJECTS } from '../content/subjects'
 // predicted-score model shares the same (estimate-only) conversion table.
 
 export default function ExamResultsScreen({ route, navigation }) {
-  const { exam, questions, answers, writtenAnswers = {}, correct, total, rpEarned } = route.params
+  const { exam, questions, answers, writtenAnswers = {}, writtenScores = {}, correct, total, rpEarned } = route.params
   const { C } = useTheme()
   const s = makeStyles(C)
   const [showReview,    setShowReview]    = useState(false)
@@ -57,6 +57,13 @@ export default function ExamResultsScreen({ route, navigation }) {
   const writtenMaxPts     = writtenQuestions.reduce((sum, q) => sum + (q.maxPoints ?? 1), 0)
   const mcMaxPts          = questions.filter((q) => q.type !== 'written').length
   const totalMaxPts       = mcMaxPts + writtenMaxPts
+  const pctCorrect        = total ? Math.round((raw / total) * 100) : 0   // guard written-only exams (total = 0)
+
+  // Written scoring: AI-graded answers (writtenScores keyed by question index)
+  // contribute earned points; the rest are submitted-but-ungraded.
+  const writtenGraded     = Object.values(writtenScores)
+  const writtenEarned     = writtenGraded.reduce((sum, g) => sum + (g?.score ?? 0), 0)
+  const writtenUngraded   = writtenQuestions.length - writtenGraded.length
 
   const [displayScore, setDisplayScore] = useState(0)
   const [displayRP,    setDisplayRP]    = useState(0)
@@ -137,10 +144,10 @@ export default function ExamResultsScreen({ route, navigation }) {
         {/* Score breakdown */}
         <View style={[s.card, cardShadow(C.shadow)]}>
           {[
-            { label: 'Raw Score',    value: `${raw} / ${total}`,              valueColor: C.text },
-            { label: 'Percentage',   value: `${Math.round((raw/total)*100)}%`, valueColor: C.text },
-            { label: 'Scaled Score', value: `${scaled}`,                       valueColor: color  },
-            { label: 'Passing (65+)',value: passed ? '✓ Yes' : '✗ No',         valueColor: color  },
+            { label: 'Raw Score',    value: `${raw} / ${total}`,        valueColor: C.text },
+            { label: 'Percentage',   value: `${pctCorrect}%`,           valueColor: C.text },
+            { label: 'Scaled Score', value: `${scaled}`,                valueColor: color  },
+            { label: 'Passing (65+)',value: passed ? '✓ Yes' : '✗ No',  valueColor: color  },
           ].map(({ label, value, valueColor }) => (
             <View key={label} style={s.breakdownRow}>
               <Text style={[T.body, { color: C.textMuted }]}>{label}</Text>
@@ -160,7 +167,11 @@ export default function ExamResultsScreen({ route, navigation }) {
           {writtenQuestions.length > 0 && (
             <View style={s.breakdownRow}>
               <Text style={[T.body, { color: C.textMuted }]}>Written Responses ({writtenMaxPts} pts max)</Text>
-              <Text style={[T.h3, { color: C.textMuted }]}>{writtenQuestions.length} submitted</Text>
+              <Text style={[T.h3, { color: writtenGraded.length ? C.text : C.textMuted }]}>
+                {writtenGraded.length
+                  ? `${writtenEarned} / ${writtenMaxPts}${writtenUngraded ? ` · ${writtenUngraded} ungraded` : ' (AI)'}`
+                  : `${writtenQuestions.length} submitted · ungraded`}
+              </Text>
             </View>
           )}
           <View style={[s.breakdownRow, { marginTop: 4 }]}>
@@ -283,17 +294,18 @@ export default function ExamResultsScreen({ route, navigation }) {
               </View>
             )
           }
-          const userAns    = answers[i] ?? answers[String(i)]
-          const correctAns = q.correct ?? q.correctIndex
-          const isCorrect  = userAns === correctAns
+          const userAns      = answers[i]
+          const correctAns   = q.correct ?? q.correctIndex
+          const correctText  = q.choices?.[correctAns]
+          const isCorrect    = userAns === correctAns
           return (
             <View key={i} style={[s.reviewRow, { borderColor: isCorrect ? C.correct : C.wrong }]}>
               <Text style={[T.label, { color: C.textMuted, width: 22, textTransform: 'none', letterSpacing: 0 }]}>{i + 1}</Text>
               <View style={{ flex: 1, gap: 3 }}>
                 <Text style={[T.small, { color: C.text, lineHeight: 18 }]} numberOfLines={2}>{q.text}</Text>
-                {!isCorrect && (
+                {!isCorrect && correctText != null && (
                   <Text style={[T.label, { color: C.correct, textTransform: 'none', letterSpacing: 0 }]}>
-                    ✓ {q.choices?.[correctAns]}
+                    ✓ {correctText}
                   </Text>
                 )}
                 {q.explanation && (

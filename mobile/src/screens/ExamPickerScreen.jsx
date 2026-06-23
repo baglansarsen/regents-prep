@@ -463,13 +463,13 @@ export default function ExamPickerScreen({ navigation }) {
   function openExam(exam) {
     try {
       const loader = EXAM_DATA_MAP[exam.id]
-      if (!loader) { alert('Exam data not yet available.'); return }
+      if (!loader) { Alert.alert('Exam unavailable', 'Exam data is not yet available for this date.'); return }
       const data = loader()
       const questions = data.questions ?? data.QUESTIONS ?? data.default?.questions ?? []
-      if (!questions.length) { alert('No questions found for this exam.'); return }
+      if (!questions.length) { Alert.alert('No questions', 'No questions were found for this exam.'); return }
       navigation.navigate('Exam', { exam, questions, subject })
     } catch (e) {
-      alert('Could not load exam: ' + e.message)
+      Alert.alert('Could not load exam', e.message)
     }
   }
 
