@@ -62,30 +62,25 @@ const UNLOCK_PCT   = 80        // auto-unlock threshold
 // set to a single question.)
 const questionKey = (q) => q.id ?? q.text
 
-function buildPlacementSet(topicOrder, questions, target = TARGET) {
-  function pick(topic, n) {
-    const pool = questions.filter((q) => q.topic === topic)
-    return shuffle(pool).slice(0, n)
+// Placement is UNIT-aware: it samples by unit using the subject's `getByTopic`
+// (which routes the split sub-topic and skill pools exactly like lessons do),
+// and tags each question with `__unitTopic`. Scoring/unlocking then key on the
+// unit topic, so acing a unit on placement force-unlocks that same unit on the
+// Home grid (which gates on the unit topic). Sampling by the raw normalized
+// `q.topic` instead would unlock nothing for the split-cell and skill units,
+// whose unit names differ from their coarse pool topic.
+function buildPlacementSet(units, getByTopic, target = TARGET) {
+  function pick(unit, n) {
+    const pool = (getByTopic?.(unit.topic) ?? [])
+      .filter((q) => Array.isArray(q.choices) && q.choices.length > 0)
+    return shuffle(pool).slice(0, n).map((q) => ({ ...q, __unitTopic: unit.topic }))
   }
 
-  // Cover the topics that actually exist in the pool (the normalized exam
-  // topics on the questions), not the unit `TOPIC_ORDER` — the two taxonomies
-  // diverge, which left most TOPIC_ORDER entries with zero questions. Prefer
-  // TOPIC_ORDER's ordering where it overlaps, then append any pool-only topics.
-  const poolTopics = [...new Set(questions.map((q) => q.topic))]
-  const topics = [
-    ...topicOrder.filter((t) => poolTopics.includes(t)),
-    ...poolTopics.filter((t) => !topicOrder.includes(t)),
-  ]
+  // 1. Guarantee exactly 1 question per unit (covers all units)
+  const guaranteed = units.map((u) => pick(u, 1)[0]).filter(Boolean)
 
-  // 1. Guarantee exactly 1 question per topic (covers all topics)
-  const guaranteed = topics
-    .map((t) => pick(t, 1)[0])
-    .filter(Boolean)
-
-  // 2. Fill remaining slots with a 2nd question from each topic (in random order)
-  const extras = shuffle(topics)
-    .flatMap((t) => pick(t, 2).slice(1))   // 2nd question per topic
+  // 2. Fill remaining slots with a 2nd question from each unit (random order)
+  const extras = shuffle(units).flatMap((u) => pick(u, 2).slice(1))
 
   const combined = [...guaranteed, ...extras]
   const used = new Set()
@@ -101,10 +96,12 @@ function buildPlacementSet(topicOrder, questions, target = TARGET) {
 }
 
 // ── Score helper ─────────────────────────────────────────────────────────────
+// Keyed on the unit topic (carried as `__unitTopic`) so the scores line up with
+// the unit-unlock store.
 function scoreByTopic(questionSet, answers) {
-  const map = {}   // topic → { correct, total }
+  const map = {}   // unitTopic → { correct, total }
   questionSet.forEach((q, i) => {
-    const t = q.topic
+    const t = q.__unitTopic ?? q.topic
     if (!map[t]) map[t] = { correct: 0, total: 0 }
     map[t].total++
     const correctIdx = q.correct ?? q.correctIndex
@@ -149,7 +146,7 @@ export default function PlacementTestScreen({ onComplete }) {
   const s = makeStyles(C)
 
   const questionSet = useMemo(
-    () => buildPlacementSet(sd.TOPIC_ORDER ?? [], sd.questions ?? []),
+    () => buildPlacementSet(sd.UNITS ?? [], sd.getByTopic),
     [subject]   // rebuild if subject changes (shouldn't happen mid-test, but safe)
   )
   const total = questionSet.length
@@ -361,10 +358,10 @@ export default function PlacementTestScreen({ onComplete }) {
 
         <ScrollView contentContainerStyle={s.scroll} showsVerticalScrollIndicator={false}>
 
-          {/* Topic chip */}
+          {/* Topic chip — the unit being placed (not the coarse pool topic) */}
           <View style={[s.topicChip, { backgroundColor: C.brandBg }]}>
             <Text style={[T.label, { color: C.brand }]}>
-              {sd.TOPIC_ICONS?.[q.topic] ?? '📖'} {q.topic}
+              {sd.TOPIC_ICONS?.[q.__unitTopic ?? q.topic] ?? '📖'} {q.__unitTopic ?? q.topic}
             </Text>
           </View>
 
