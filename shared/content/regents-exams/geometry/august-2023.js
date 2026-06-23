@@ -127,11 +127,11 @@ export default {
     {
       number: 13,
       part: 'A',
-      text: 'The equation of a circle is x² + y² + 12x = 27. What are the coordinates of the center and the length of the radius of the circle?',
+      text: 'The equation of a circle is x² + y² + 12x = −27. What are the coordinates of the center and the length of the radius of the circle?',
       choices: ['center (6, 0) and radius 3', 'center (6, 0) and radius 9', 'center (−6, 0) and radius 3', 'center (−6, 0) and radius 9'],
       topic: 'Circles',
-      correct: 3,
-      explanation: 'Completing the square: x² + 12x + 36 + y² = 27 + 36 gives (x + 6)² + y² = 63... actually (x+6)² + y² = 81, so the center is (−6, 0) and the radius is √81 = 9.',
+      correct: 2,
+      explanation: 'Completing the square: x² + 12x + 36 + y² = −27 + 36 gives (x + 6)² + y² = 9, so the center is (−6, 0) and the radius is √9 = 3.',
       diveDeep: 'To find a circle\'s center and radius from general form, complete the square on the x-terms (and y-terms): take half the coefficient of x, square it (12/2 = 6, 6² = 36), and add it to both sides. The center coordinate is the OPPOSITE sign of the number inside the squared binomial — (x + 6)² means the center x is −6, a classic sign trap. The radius is the square root of the constant on the right side, not the constant itself. Always move loose terms to the right before reading off r².'
     },
     {
