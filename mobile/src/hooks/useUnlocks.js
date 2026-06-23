@@ -25,8 +25,10 @@ export function useUnlocks(history, topicOrder, subject) {
     await AsyncStorage.setItem(storageKey(subject), JSON.stringify([...updated]))
   }, [forceSet, subject])
 
-  // Build normally-unlocked set (sequential progression)
-  const unlocked = new Set([TOPIC_ORDER[0]])
+  // Build normally-unlocked set (sequential progression). Guard the empty case:
+  // `new Set([TOPIC_ORDER[0]])` would seed the set with `undefined`, making
+  // isUnlocked(undefined) truthy and corrupting unlock checks.
+  const unlocked = new Set(TOPIC_ORDER[0] != null ? [TOPIC_ORDER[0]] : [])
   for (let i = 1; i < TOPIC_ORDER.length; i++) {
     const prev = TOPIC_ORDER[i - 1]
     if (passed.has(prev) || forceSet.has(prev)) {
