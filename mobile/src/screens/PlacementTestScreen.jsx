@@ -156,7 +156,8 @@ export default function PlacementTestScreen({ onComplete }) {
 
   // ── Quiz state ────────────────────────────────────────────────────────────
   const [index,     setIndex]     = useState(0)
-  const [selected,  setSelected]  = useState(null)   // chosen idx or null
+  const [selected,  setSelected]  = useState(null)   // pending choice (changeable until submitted)
+  const [submitted, setSubmitted] = useState(false)  // answer committed → reveal + lock
   const [answers,   setAnswers]   = useState([])     // final answer per question
   const [phase,     setPhase]     = useState('intro') // 'intro' | 'quiz' | 'results'
 
@@ -172,14 +173,18 @@ export default function PlacementTestScreen({ onComplete }) {
 
   useEffect(() => { if (phase === 'quiz') slideIn() }, [index, phase])
 
-  // ── Answer a question ─────────────────────────────────────────────────────
-  function handleAnswer(idx) {
-    if (selected !== null) return
+  // ── Pick a choice (changeable until the answer is submitted) ───────────────
+  function selectChoice(idx) {
+    if (submitted) return
     setSelected(idx)
+  }
 
-    const correctIdx = questionSet[index].correct ?? questionSet[index].correctIndex
-    const newAnswers = [...answers, idx]
+  // ── Submit the chosen answer: lock + reveal, then advance ──────────────────
+  function submitAnswer() {
+    if (selected === null || submitted) return
+    setSubmitted(true)
 
+    const newAnswers = [...answers, selected]
     autoTimer.current = setTimeout(() => {
       const next = index + 1
       if (next >= total) {
@@ -187,9 +192,10 @@ export default function PlacementTestScreen({ onComplete }) {
       } else {
         setAnswers(newAnswers)
         setSelected(null)
+        setSubmitted(false)
         setIndex(next)
       }
-    }, 1300)
+    }, 1100)
   }
 
   function finishQuiz(finalAnswers) {
@@ -198,6 +204,13 @@ export default function PlacementTestScreen({ onComplete }) {
   }
 
   useEffect(() => () => clearTimeout(autoTimer.current), [])
+
+  // Exam-only subjects (humanities) have no MC pool — finish once, in an effect
+  // (never as a side effect during render, which would re-fire every render).
+  useEffect(() => {
+    if (total === 0) markDone().then(() => onComplete?.())
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [total])
 
   // ── Skip entire test ──────────────────────────────────────────────────────
   async function handleSkip() {
@@ -237,11 +250,9 @@ export default function PlacementTestScreen({ onComplete }) {
     } catch {}
   }
 
-  // Exam-only subjects (humanities) have no practice questions — skip placement test
-  if (total === 0) {
-    markDone().then(() => onComplete?.())
-    return null
-  }
+  // Exam-only subjects (humanities) have no practice questions — skip placement
+  // test (the effect above performs the markDone + onComplete).
+  if (total === 0) return null
 
   // ─────────────────────────────────────────────────────────────────────────
   // RENDER: INTRO
@@ -303,19 +314,19 @@ export default function PlacementTestScreen({ onComplete }) {
     const correctIdx = q.correct ?? q.correctIndex
 
     function choiceBg(idx) {
-      if (selected === null) return C.surface
+      if (!submitted) return idx === selected ? C.brandBg : C.surface
       if (idx === correctIdx) return C.correctBg
       if (idx === selected && idx !== correctIdx) return C.wrongBg
       return C.surface
     }
     function choiceBorder(idx) {
-      if (selected === null) return C.border
+      if (!submitted) return idx === selected ? C.brand : C.border
       if (idx === correctIdx) return C.correct
       if (idx === selected && idx !== correctIdx) return C.wrong
       return C.border + '40'
     }
     function letterBg(idx) {
-      if (selected === null) return LETTER_COLORS[idx]
+      if (!submitted) return idx === selected ? C.brand : LETTER_COLORS[idx]
       if (idx === correctIdx) return C.correct
       if (idx === selected && idx !== correctIdx) return C.wrong
       return LETTER_COLORS[idx] + '60'
@@ -340,11 +351,11 @@ export default function PlacementTestScreen({ onComplete }) {
 
         {/* Progress bar */}
         <View style={s.progressBg}>
-          <View style={[s.progressFill, { width: `${((index + (selected !== null ? 1 : 0)) / total) * 100}%` }]} />
+          <View style={[s.progressFill, { width: `${((index + (submitted ? 1 : 0)) / total) * 100}%` }]} />
         </View>
 
         {/* Dots */}
-        <ProgressDots total={total} current={index} answered={selected !== null} C={C} />
+        <ProgressDots total={total} current={index} answered={submitted} C={C} />
 
         <ScrollView contentContainerStyle={s.scroll} showsVerticalScrollIndicator={false}>
 
@@ -366,23 +377,39 @@ export default function PlacementTestScreen({ onComplete }) {
               <TouchableOpacity
                 key={idx}
                 style={[s.choice, { backgroundColor: choiceBg(idx), borderColor: choiceBorder(idx) }]}
-                onPress={() => handleAnswer(idx)}
-                disabled={selected !== null}
+                onPress={() => selectChoice(idx)}
+                disabled={submitted}
                 activeOpacity={0.75}
               >
                 <View style={[s.letterBadge, { backgroundColor: letterBg(idx) }]}>
                   <Text style={s.letterText}>{LETTERS[idx]}</Text>
                 </View>
                 <Text style={[T.body, { flex: 1, color: C.text }]}>{choice}</Text>
-                {selected !== null && idx === correctIdx && (
+                {submitted && idx === correctIdx && (
                   <Text style={{ fontSize: 18 }}>✅</Text>
                 )}
-                {selected === idx && idx !== correctIdx && (
+                {submitted && selected === idx && idx !== correctIdx && (
                   <Text style={{ fontSize: 18 }}>❌</Text>
                 )}
               </TouchableOpacity>
             ))}
           </View>
+
+          {/* Submit — under the question so a tap selects (changeable) and only
+              this button commits the answer, preventing accidental selection. */}
+          <TouchableOpacity
+            style={[
+              duoBtn(C.brand, C.brandDark, { alignSelf: 'stretch', marginTop: 20 }),
+              (selected === null || submitted) && { opacity: 0.5 },
+            ]}
+            onPress={submitAnswer}
+            disabled={selected === null || submitted}
+            activeOpacity={0.85}
+          >
+            <Text style={[T.btn, { color: '#fff' }]}>
+              {index + 1 === total ? 'SUBMIT & FINISH' : 'SUBMIT'}
+            </Text>
+          </TouchableOpacity>
 
           <View style={{ height: 32 }} />
         </ScrollView>
