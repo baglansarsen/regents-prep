@@ -57,26 +57,42 @@ const TARGET       = 10        // target question count
 const UNLOCK_PCT   = 80        // auto-unlock threshold
 
 // ── Build the placement set ───────────────────────────────────────────────────
+// Stable identity for de-dup: questions carry no `id`, so fall back to the
+// question text. (Deduping on the missing `id` previously collapsed the whole
+// set to a single question.)
+const questionKey = (q) => q.id ?? q.text
+
 function buildPlacementSet(topicOrder, questions, target = TARGET) {
   function pick(topic, n) {
     const pool = questions.filter((q) => q.topic === topic)
     return shuffle(pool).slice(0, n)
   }
 
+  // Cover the topics that actually exist in the pool (the normalized exam
+  // topics on the questions), not the unit `TOPIC_ORDER` — the two taxonomies
+  // diverge, which left most TOPIC_ORDER entries with zero questions. Prefer
+  // TOPIC_ORDER's ordering where it overlaps, then append any pool-only topics.
+  const poolTopics = [...new Set(questions.map((q) => q.topic))]
+  const topics = [
+    ...topicOrder.filter((t) => poolTopics.includes(t)),
+    ...poolTopics.filter((t) => !topicOrder.includes(t)),
+  ]
+
   // 1. Guarantee exactly 1 question per topic (covers all topics)
-  const guaranteed = topicOrder
+  const guaranteed = topics
     .map((t) => pick(t, 1)[0])
     .filter(Boolean)
 
   // 2. Fill remaining slots with a 2nd question from each topic (in random order)
-  const extras = shuffle(topicOrder)
+  const extras = shuffle(topics)
     .flatMap((t) => pick(t, 2).slice(1))   // 2nd question per topic
 
   const combined = [...guaranteed, ...extras]
   const used = new Set()
   const deduped = combined.filter((q) => {
-    if (used.has(q.id)) return false
-    used.add(q.id)
+    const k = questionKey(q)
+    if (used.has(k)) return false
+    used.add(k)
     return true
   })
 
