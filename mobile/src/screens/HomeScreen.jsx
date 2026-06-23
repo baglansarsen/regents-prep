@@ -131,14 +131,18 @@ export default function HomeScreen({ navigation }) {
   const { predicted, coldStart, weakestUnit, hasTakenPracticeExam } =
     usePredictedScore(subject, units, subjectHistory)
   const goalDaysToExam = regentsGoal ? daysUntilExam(subject, regentsGoal.examDateStr) : null
+  // Countdown the whole screen shares: prefer the student's committed goal
+  // session, else the next scheduled Regents session for the subject.
+  const daysToExam = goalDaysToExam ?? getDaysUntilExam(subject)
+  const examLabel  = getExamLabel(subject, daysToExam)
   const smartQuestDef = useMemo(() => pickSmartQuest({
     hasGoal: !!regentsGoal,
-    daysToExam: goalDaysToExam ?? getDaysUntilExam(subject),
+    daysToExam,
     dayOfWeek: new Date().getDay(),
     studiedYesterday: studiedDates.includes(yesterdayStr()),
     hasTakenPracticeExam,
     weakestUnit,
-  }), [regentsGoal, goalDaysToExam, subject, studiedDates, hasTakenPracticeExam, weakestUnit])
+  }), [regentsGoal, daysToExam, subject, studiedDates, hasTakenPracticeExam, weakestUnit])
   useFocusEffect(useCallback(() => {
     reloadHistory()
     reloadSkipUnlocks()
@@ -181,10 +185,6 @@ export default function HomeScreen({ navigation }) {
   }, [reloadHistory, reloadSkipUnlocks, pendingEvolution, uid, streak, smartQuestDef]))
 
   const { goal, setGoal, todayRP, progress: goalProgress, goalMet, GOALS, celebrated, markCelebrated } = useDailyGoal(rp, rpLoaded)
-
-  // ── Exam countdown (real dates — computed once per render) ─────────────────
-  const daysToExam = getDaysUntilExam(subject)
-  const examLabel  = getExamLabel(subject)
 
   const [selectedLesson,    setSelectedLesson]    = useState(null)
   const [showGoalPicker,    setShowGoalPicker]     = useState(false)

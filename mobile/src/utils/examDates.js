@@ -116,8 +116,7 @@ export function effectiveExamDateStr(subject = 'living-environment', goalExamDat
   return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`
 }
 
-export function getExamLabel(subject = 'living-environment') {
-  const days = getDaysUntilExam(subject)
+export function getExamLabel(subject = 'living-environment', days = getDaysUntilExam(subject)) {
   if (days === 0) return '📅 Exam is today!'
   if (days === 1) return '📅 Exam tomorrow!'
   if (days <= 14) return `📅 ${days} days until Regents`
