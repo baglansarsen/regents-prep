@@ -515,7 +515,7 @@ export default {
         "dilute"
       ],
       "topic": "Solutions",
-      "correct": 2,
+      "correct": 0,
       "explanation": "At 40°C the maximum solubility of NaNO₃ is ~75 g/100 g H₂O; 90 g exceeds this maximum, making the solution supersaturated.",
       "diveDeep": "A supersaturated solution contains more dissolved solute than the saturation limit at that temperature — it is unstable and can crystallize rapidly when disturbed. It is prepared by dissolving extra solute at high temperature and carefully cooling. On Table G, a point plotted above the curve represents supersaturation. This concept is often paired with crystallization questions in Part B-2.",
       "skill": "reference",
