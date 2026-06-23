@@ -2,6 +2,7 @@ import React, { useRef, useEffect, useState, useCallback } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView,
   Animated, StyleSheet, Image, TextInput, Keyboard, ActivityIndicator, Modal,
+  useWindowDimensions,
 } from 'react-native'
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
@@ -46,6 +47,7 @@ export default function QuizScreen({ route, navigation }) {
   const { questionSet, topic, subject, lessonIndex, isChallenge, nextUnitTopic, nextLessonMeta } = route.params
   const { C } = useTheme()
   const insets = useSafeAreaInsets()
+  const { height: screenH } = useWindowDimensions()
   const { user } = useAuthContext()
   const uid = user?.uid
 
@@ -467,9 +469,21 @@ export default function QuizScreen({ route, navigation }) {
               borderTopColor:  isCorrect ? C.brand     : C.wrong,
               transform: [{ translateY: slideAnim }],
               paddingBottom: insets.bottom + 16,
+              // Cap the panel so a long explanation/tutor answer can't grow past
+              // the top of the screen; the content scrolls inside instead.
+              maxHeight: screenH * 0.82,
             },
           ]}
         >
+          {/* Scrollable region: result + explanation + tutor. Keeps the panel
+              bounded (maxHeight above) so long content scrolls here while the
+              CONTINUE button stays pinned below. */}
+          <ScrollView
+            style={{ flexShrink: 1 }}
+            contentContainerStyle={{ paddingBottom: 4 }}
+            showsVerticalScrollIndicator
+            keyboardShouldPersistTaps="handled"
+          >
           {/* Header row: Reggie reacts + result + combo badge */}
           <View style={s.feedbackHeader}>
             <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
@@ -523,9 +537,10 @@ export default function QuizScreen({ route, navigation }) {
               onUpgrade={presentPaywall}
             />
           )}
+          </ScrollView>
 
           <TouchableOpacity
-            style={duoBtn(isCorrect ? C.brand : C.wrong, isCorrect ? C.brandDark : C.wrongDark)}
+            style={[duoBtn(isCorrect ? C.brand : C.wrong, isCorrect ? C.brandDark : C.wrongDark), { marginTop: 12 }]}
             onPress={nextQuestion}
           >
             <Text style={[T.btn, { color: '#fff' }]}>
