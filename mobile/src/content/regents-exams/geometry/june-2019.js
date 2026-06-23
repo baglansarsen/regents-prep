@@ -349,7 +349,7 @@ export default {
         "50°"
       ],
       "topic": "Triangles & Congruence",
-      "correct": 3,
+      "correct": 2,
       "image": "/images/exams/geo-june-2019/q21.png",
       "explanation": "∠P ≅ ∠R = 130° (opposite angles), so ∠SPT = 180° − 130° = 50° (linear pair). Triangle SPT is isosceles with ST ≅ SP, so base angles ∠SPT = ∠STP = 50°, leaving ∠PST = 180° − 50° − 50° = 80°... so ∠PST = 80°.",
       "diveDeep": "Chain the relationships: opposite angles of a parallelogram are equal, so ∠SPQ = ∠R = 130°. Since T is on the extension of QP, ∠SPT and ∠SPQ form a linear pair: ∠SPT = 180° − 130° = 50°. Triangle SPT is isosceles (ST ≅ SP), so its base angles at P and T are equal, both 50°. The apex angle ∠PST = 180° − 50° − 50° = 80°. The trap 50° stops at the base angle; the trap 65° wrongly assumes ∠SPT is the apex. Track which angle the question actually asks for.",

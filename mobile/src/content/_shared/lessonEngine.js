@@ -20,7 +20,9 @@ export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
       // lesson UI only renders selectable choices, so a choice-less question
       // leaves the user with no way to answer or advance. Must match the
       // predicate in shared/content/*/units.js (parity across content copies).
-      .filter((q) => topicMap[q.topic] != null && Array.isArray(q.choices) && q.choices.length > 0)
+      // Require non-blank choices too: some image-answer questions carry a
+      // choices array of empty strings, which would render as blank buttons.
+      .filter((q) => topicMap[q.topic] != null && Array.isArray(q.choices) && q.choices.length > 0 && q.choices.every((c) => String(c ?? '').trim() !== ''))
       // Carry `skill` and `subTopic` through normalization so the Science
       // Practices unit (skill pool) and finer Smart Review buckets can use them.
       .map((q) => ({ ...q, topic: topicMap[q.topic] }))

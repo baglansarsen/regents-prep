@@ -115,7 +115,7 @@ export default {
         "37°"
       ],
       "topic": "Right Triangles & Trig",
-      "correct": 0,
+      "correct": 1,
       "explanation": "FS is adjacent to ∠F and HF is the hypotenuse, so cos(∠F) = 23/30, giving ∠F = cos⁻¹(23/30) ≈ 40°. Correct value rounds to 40°.",
       "diveDeep": "In a right triangle, identify each side relative to the angle you want. Here FS (23) is adjacent to ∠F and HF (30) is the hypotenuse, so cosine is the right ratio: cos(∠F) = adjacent/hypotenuse = 23/30. Then use the inverse cosine. A common error is mismatching the side roles or using the wrong trig function — sketch and label opposite, adjacent, and hypotenuse before choosing SOH-CAH-TOA. Confirm degree mode on your calculator.",
       "subTopic": "Pythagorean & Special Triangles"

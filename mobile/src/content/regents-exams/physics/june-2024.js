@@ -355,9 +355,9 @@ export default {
         "All of mass M's kinetic energy is converted to internal energy."
       ],
       "topic": "Energy & Work",
-      "correct": 0,
+      "correct": 1,
       "image": "/images/exams/phys-june-2024/q22.png",
-      "explanation": "Between positions A and B, the mass is still moving at vf (slowed but not stopped), so it still has kinetic energy. Only some KE has been converted to elastic PE stored in the spring.",
+      "explanation": "At maximum compression (position B) the mass is momentarily at rest, so all of its kinetic energy has been converted to elastic potential energy stored in the spring.",
       "diveDeep": "At position B the mass moves at a slower speed vf (not zero), so it still has kinetic energy — not all KE is converted. The spring stores elastic PE = ½kx². Since the surface is frictionless and horizontal, no gravitational PE or thermal energy is involved. The conversion is KE → elastic PE, but only partially. If the question stated the mass came to rest at B, then all KE would be converted (choice B). The key word \"slower speed, vf\" rather than \"at rest\" makes the answer \"some\" not \"all.\" This is conservation of energy applied to a spring-mass system.",
       "subTopic": "Springs & PE"
     },

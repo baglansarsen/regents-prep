@@ -251,8 +251,8 @@ export default {
         "I = I₀(0.165)ᵗ"
       ],
       "topic": "Exponential & Logarithmic",
-      "correct": 1,
-      "explanation": "Since e^(−0.6·3t) = e^(−1.8t) = (e^(−1.8))ᵗ ≈ (0.165)ᵗ; using the exam's rounding the equivalent base form gives approximately (0.0067)ᵗ for the stated decay rate.",
+      "correct": 3,
+      "explanation": "Since e^(−0.6·3t) = e^(−1.8t) = (e^(−1.8))ᵗ ≈ (0.165)ᵗ.",
       "diveDeep": "A continuous exponential e^(kt) can be rewritten in base form as (e^k)ᵗ, converting a continuous growth/decay rate to a per-unit factor. When k is negative the base is between 0 and 1, indicating decay. The trap is sign errors in the exponent and forgetting that e raised to a negative number is a small positive fraction, not a negative value. Evaluate e^k on a calculator to find the equivalent base, then express the model as I₀·(base)ᵗ.",
       "skill": "modeling",
       "subTopic": "Exponential Models"

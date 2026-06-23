@@ -107,14 +107,14 @@ export default {
     {
       "number": 7,
       "part": "A",
-      "text": "The solution to the equation 5e^x - 2 = 7 is",
+      "text": "The solution to the equation 5e^(x-2) = 7 is",
       "choices": [
         "2 + ln(7/5)",
         "3/5",
         "ln(7)/ln(5) - 2",
         "2 - ln(9/5)"
       ],
-      "correct": 3,
+      "correct": 0,
       "topic": "Exponential & Logarithmic",
       "explanation": "From 5e^(x-2) = 7, divide to get e^(x-2) = 7/5, take ln of both sides to get x - 2 = ln(7/5), so x = 2 + ln(7/5).",
       "diveDeep": "To solve exponential equations, isolate the exponential term before applying the natural logarithm, the inverse of e^x. The key identity is ln(e^u) = u, which strips the base e and exposes the exponent. A common error is taking the log too early (before dividing off the coefficient 5) or distributing the logarithm incorrectly. Always undo multiplication and addition outside the exponential first, then apply ln to release the variable.",
