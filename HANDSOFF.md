@@ -61,8 +61,9 @@ Crawled content is **corrupted**, not just missing answers:
 
 **US History: 9 / 9 DONE ✅** — all Part IIIA Civic Literacy scaffold Qs (#31–36, 1 pt each) filled with modelAnswer + official Score-of-1/Score-of-0 acceptance criteria, committed on `master`. Per-exam rating-guide files used: june-2023 `ushg62023-rg2.pdf`, june-2024/25 + august-2023/24 (`-rg2.pdf` variants), january-2025/24 `ushg-1202{5,4}-rg2.pdf` (Vol. 2), january-2026 + august-2025 `ushg-{1,8}202{6,5}-rg.pdf` (combined guide; scaffold scoring on pp. 31–40). Remaining nulls in these files (#7/#11/#14/#18/#22/#23) are image-only multiple-choice/stimulus items — out of scope, leave null.
 
-**Remaining:**
-- **English (~11 structured written Qs across 31 files)** — mostly anchor-paper argument essays; needs the separate essay-handling decision (different rubric shape: scored 0–6 by anchor papers, not Score-of-1 lists), NOT this loop. Pending a structuring decision from the user before starting.
+**English (ELA): OUT OF SCOPE ✅ (decided)** — not fillable by this loop, for two independent reasons: (1) the data is corrupted — the 11 items tagged `type:"written"` are mislabeled reading-passage fragments, not real prompts (e.g. jan-2026 #35 is a chunk of the Part 2 argument-essay source texts), and the actual MC items + essay prompts aren't captured; (2) real ELA writing (Part 2 argument essay, Part 3 text-analysis) is scored 0–6 holistically by anchor papers, which doesn't map to the single-`modelAnswer` shape `gradeWriting` needs. The grader already hard-rejects questions without a `modelAnswer`, so these items simply won't offer AI grading — no fabrication. If ELA is ever wanted, it needs a separate effort: repair the crawled data first, then add a band-rubric grading path (not this loop).
+
+**The humanities content effort is COMPLETE** for all cleanly-structured, single-answer CRQs (Global 15/15 + US History 9/9). No remaining work in this loop.
 
 ## Repo state
 - All work = **local commits on `master`**, currently **ahead of `origin/master` by 10**, **NOT pushed**. ⚠️ Pushing `master` triggers an Xcode Cloud iOS build — push intentionally.
