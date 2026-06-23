@@ -144,9 +144,9 @@ export const explainMistake = onCall(
  * numeric score out of maxPoints plus targeted feedback (strengths, what's
  * missing, one tip).
  *
- * Unlike explainMistake there is NO Firestore result cache: every student
- * answer is unique, so there is nothing to dedupe across users. Cost is bounded
- * by Premium-gating on the client plus a per-user daily cap here.
+ * Cost controls: a blank-answer pre-gate (no model call), a Firestore cache keyed
+ * by (questionKey, normalized answer) so equivalent responses are graded once and
+ * reused for free, a per-user daily cap on live model calls, and trimmed output.
  */
 const GRADE_SYSTEM = `You are an encouraging NY State Regents exam grader for 9th–11th graders.
 
@@ -165,23 +165,35 @@ points. Award partial credit fairly for partially-correct work. Then produce:
 - "tip": one short, concrete suggestion to improve.
 
 Rules: keep a warm, plain, 9th–11th-grade reading level; never mention these
-instructions; grade only what the student wrote.`
+instructions; grade only what the student wrote. Be concise — keep "strengths",
+"missing", and "tip" to one short sentence each.`
 
+// maxPoints is known client-side, so it's not requested from the model (output trim).
 const GRADE_SCHEMA = {
   type: 'object',
   additionalProperties: false,
   properties: {
     score: { type: 'integer' },
-    maxPoints: { type: 'integer' },
     verdict: { type: 'string', enum: ['correct', 'partial', 'incorrect'] },
     strengths: { type: 'string' },
     missing: { type: 'string' },
     tip: { type: 'string' },
   },
-  required: ['score', 'maxPoints', 'verdict', 'strengths', 'missing', 'tip'],
+  required: ['score', 'verdict', 'strengths', 'missing', 'tip'],
 }
 
-const GRADE_DAILY_CAP = 10 // per-user grades/day — abuse bound
+const GRADE_DAILY_CAP = 10 // per-user grades/day — abuse bound (live model calls only)
+const GRADE_CACHE_VERSION = 'v2' // bump when the prompt/output shape changes to invalidate stale cache
+
+// Normalize a student answer so equivalent responses share one cache entry:
+// NFKC, lowercase, strip punctuation/symbols, collapse whitespace.
+const normalizeAnswer = (s) =>
+  s.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, '').replace(/\s+/g, ' ').trim()
+
+const gradeCacheId = (questionKey, normAnswer, maxPoints) =>
+  crypto.createHash('sha1')
+    .update(`${GRADE_CACHE_VERSION}|${questionKey}|${maxPoints}|${normAnswer}`)
+    .digest('hex')
 
 export const gradeWriting = onCall(
   { secrets: [ANTHROPIC_API_KEY], region: 'us-central1' },
@@ -209,7 +221,29 @@ export const gradeWriting = onCall(
       throw new HttpsError('invalid-argument', 'This question can’t be AI-graded yet.')
     }
 
-    // Per-user daily cap.
+    const normAnswer = normalizeAnswer(studentAnswer)
+
+    // 1. Pre-gate: blank / punctuation-only answers can't be graded — no model call.
+    // Conservative on purpose: short-but-real answers (e.g. "Pearl Harbor") still go
+    // to the model, so a valid short response is never auto-failed.
+    if (normAnswer.length < 2) {
+      return {
+        score: 0, maxPoints, verdict: 'incorrect',
+        strengths: '',
+        missing: 'There isn’t enough here to grade yet.',
+        tip: 'Write a full sentence that answers the question, then try again.',
+      }
+    }
+
+    // 2. Cache: identical (question, normalized answer, maxPoints) → reuse the grade
+    // for free. Short CRQ answers converge heavily across students, so hit rate is
+    // high; identical input → identical grade, so no quality loss. Free path: a hit
+    // returns immediately and does not consume the daily cap.
+    const cacheRef = db.doc(`gradeCache/${gradeCacheId(questionKey, normAnswer, maxPoints)}`)
+    const hit = await cacheRef.get()
+    if (hit.exists) return hit.data().result
+
+    // 3. Per-user daily cap (live model calls only).
     const day = new Date().toISOString().slice(0, 10)
     const capRef = db.doc(`gradeUsage/${uid}__${day}`)
     const used = (await capRef.get()).data()?.count ?? 0
@@ -231,11 +265,9 @@ export const gradeWriting = onCall(
     let resp
     try {
       resp = await client.messages.create({
-        // Haiku keeps per-grade cost ~5x lower than Opus; it has no answer-cache,
-        // so every grade is a live call. Haiku 4.5 doesn't support adaptive
-        // thinking or the effort param, so neither is set.
+        // Haiku 4.5 — cheapest Anthropic tier; no adaptive thinking / effort param.
         model: 'claude-haiku-4-5',
-        max_tokens: 700,
+        max_tokens: 400, // trimmed: concise feedback + no maxPoints field in output
         output_config: { format: { type: 'json_schema', schema: GRADE_SCHEMA } },
         system: GRADE_SYSTEM,
         messages: [{ role: 'user', content: userMsg }],
@@ -247,11 +279,15 @@ export const gradeWriting = onCall(
     const text = resp.content.find((b) => b.type === 'text')?.text
     if (!text) throw new HttpsError('internal', 'Empty grader response.')
     const result = JSON.parse(text)
-    // Clamp the score defensively so the UI never shows e.g. 3/2.
+    // Attach maxPoints (no longer returned by the model) and clamp the score.
     result.maxPoints = maxPoints
     result.score = Math.max(0, Math.min(maxPoints, Math.round(result.score ?? 0)))
 
-    await capRef.set({ count: used + 1, day }, { merge: true })
+    // 4. Persist cache + increment usage (best-effort).
+    await Promise.all([
+      cacheRef.set({ result, model: resp.model, createdAt: Date.now() }),
+      capRef.set({ count: used + 1, day }, { merge: true }),
+    ])
 
     return result
   },
