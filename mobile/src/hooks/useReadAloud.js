@@ -6,6 +6,12 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 let Speech = null
 try { Speech = require('expo-speech') } catch {}
 
+// expo-av is used only to put the audio session in "play in silent mode" so the
+// speech is audible even when the iOS ring/silent switch is OFF (muted) — TTS is
+// an accessibility aid and must not be silenced by the hardware switch.
+let Audio = null
+try { Audio = require('expo-av').Audio } catch {}
+
 /**
  * Text-to-speech for reading questions aloud (accessibility, free).
  * Returns:
@@ -28,11 +34,13 @@ export function useReadAloud() {
     setSpeaking(false)
   }, [])
 
-  const toggle = useCallback((text) => {
+  const toggle = useCallback(async (text) => {
     if (!available || !text) return
     if (speakingRef.current) { stop(); return }
     setSpeaking(true)
     try {
+      // Make TTS audible regardless of the iOS ring/silent switch.
+      try { await Audio?.setAudioModeAsync?.({ playsInSilentModeIOS: true }) } catch {}
       Speech.speak(String(text), {
         rate: 0.95,
         onDone:    () => setSpeaking(false),
