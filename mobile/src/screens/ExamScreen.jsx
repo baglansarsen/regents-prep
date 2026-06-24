@@ -16,6 +16,7 @@ import { logActivity } from '../utils/activityLogger'
 import { examMinutes } from '../utils/examConfig'
 import ExamImage from '../components/ExamImage'
 import AiGradeButton from '../components/AiGradeButton'
+import ReadAloudButton from '../components/ReadAloudButton'
 
 export default function ExamScreen({ route, navigation }) {
   const { exam, questions, subject } = route.params
@@ -38,6 +39,8 @@ export default function ExamScreen({ route, navigation }) {
   const [timeLeft,   setTimeLeft]   = useState(examMinutes(subject) * 60)
   const timerRef = useRef(null)
   const submitRef = useRef(null)
+  const scrollRef = useRef(null)
+  const writtenY  = useRef(0)   // y-offset of the written block within the scroll, for scroll-to-input on focus
   const choiceScales = useRef(Array.from({ length: 4 }, () => new Animated.Value(1))).current
   const s = makeStyles(C)
 
@@ -127,7 +130,11 @@ export default function ExamScreen({ route, navigation }) {
   const answeredCount = questions.filter((_, i) => isAnswered(i)).length
 
   return (
-    <KeyboardAvoidingView style={s.safe} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+    <KeyboardAvoidingView
+      style={s.safe}
+      behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+      keyboardVerticalOffset={insets.top}
+    >
       {/* Top bar */}
       <View style={[s.topBar, { paddingTop: insets.top + 8 }]}>
         <TouchableOpacity onPress={() => Alert.alert('Exit?', 'Progress will be lost.', [
@@ -173,7 +180,7 @@ export default function ExamScreen({ route, navigation }) {
         ))}
       </ScrollView>
 
-      <ScrollView contentContainerStyle={s.scroll}>
+      <ScrollView ref={scrollRef} contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
         {/* Question header */}
         <View style={s.qHeader}>
           <Text style={s.qNum}>Question {currentIdx + 1} of {questions.length}</Text>
@@ -203,6 +210,11 @@ export default function ExamScreen({ route, navigation }) {
 
         {/* Question text */}
         <Text style={s.questionText}>{q.text}</Text>
+        <ReadAloudButton
+          C={C}
+          style={{ marginTop: 12 }}
+          text={[q.context, q.text].filter(Boolean).join('. ')}
+        />
 
         {/* Multiple-choice questions */}
         {q.type !== 'written' && q.choices?.map((choice, idx) => (
@@ -223,7 +235,7 @@ export default function ExamScreen({ route, navigation }) {
 
         {/* Written / constructed-response questions */}
         {q.type === 'written' && (
-          <View>
+          <View onLayout={(e) => { writtenY.current = e.nativeEvent.layout.y }}>
             <View style={s.writtenHeader}>
               <Text style={[s.writtenLabel, { color: C.brand }]}>
                 Part {q.part} · {q.maxPoints ?? 1} {(q.maxPoints ?? 1) === 1 ? 'point' : 'points'}
@@ -237,8 +249,12 @@ export default function ExamScreen({ route, navigation }) {
               placeholderTextColor={C.textDim}
               value={writtenAnswers[currentIdx] ?? ''}
               onChangeText={(t) => setWrittenAnswers((w) => ({ ...w, [currentIdx]: t }))}
+              onFocus={() => setTimeout(() => scrollRef.current?.scrollTo({ y: Math.max(0, writtenY.current - 12), animated: true }), 150)}
               textAlignVertical="top"
             />
+            <Text style={[s.writtenHint, { color: C.textMuted, marginTop: 6 }]}>
+              🎤 Tip: tap the mic on your keyboard to speak your answer.
+            </Text>
             {q.modelAnswer && (
               <>
                 <TouchableOpacity

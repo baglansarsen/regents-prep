@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState, useCallback } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView,
   Animated, StyleSheet, Image, TextInput, Keyboard, ActivityIndicator, Modal,
-  useWindowDimensions,
+  useWindowDimensions, KeyboardAvoidingView, Platform,
 } from 'react-native'
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
@@ -25,6 +25,7 @@ import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
 import ReggieMascot from '../components/ReggieMascot'
 import AiGradeButton from '../components/AiGradeButton'
 import LivesRefillGate from '../components/LivesRefillGate'
+import ReadAloudButton from '../components/ReadAloudButton'
 import { useStudyTime } from '../hooks/useStudyTime'
 import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
 import { useQuizSound } from '../hooks/useQuizSound'
@@ -104,6 +105,7 @@ export default function QuizScreen({ route, navigation }) {
     inRepeat, repeatTotal, repeatIndex,
   } = useQuiz(questionSet, { hint: !isChallenge, repeat: !isChallenge })
 
+  const scrollRef  = useRef(null)
   const slideAnim  = useRef(new Animated.Value(300)).current
   const pulseAnim  = useRef(new Animated.Value(1)).current
   const comboAnim  = useRef(new Animated.Value(0)).current
@@ -350,6 +352,10 @@ export default function QuizScreen({ route, navigation }) {
       </Modal>
 
       <SafeAreaView style={s.safe} edges={[]}>
+       <KeyboardAvoidingView
+         style={{ flex: 1 }}
+         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+       >
         {/* ── Top row ── */}
         <View style={s.topRow}>
           <TouchableOpacity onPress={() => navigation.goBack()} style={s.closeBtn}>
@@ -402,6 +408,7 @@ export default function QuizScreen({ route, navigation }) {
         </View>
 
         <ScrollView
+          ref={scrollRef}
           contentContainerStyle={s.scroll}
           showsVerticalScrollIndicator={false}
           keyboardShouldPersistTaps="handled"
@@ -422,6 +429,11 @@ export default function QuizScreen({ route, navigation }) {
               <ExamImage path={currentQuestion.image} style={s.questionImage} />
             ) : null}
             <Text style={[T.h3, { color: C.text, lineHeight: 26 }]}>{currentQuestion.text}</Text>
+            <ReadAloudButton
+              C={C}
+              style={{ marginTop: 12 }}
+              text={[currentQuestion.context, currentQuestion.text].filter(Boolean).join('. ')}
+            />
           </Animated.View>
 
           {isWritten ? (
@@ -435,6 +447,7 @@ export default function QuizScreen({ route, navigation }) {
               isConfigured={isConfigured}
               onUpgrade={presentPaywall}
               onSubmit={(gotIt) => { submitWritten({ gotIt }); nextQuestion() }}
+              onFocusInput={() => setTimeout(() => scrollRef.current?.scrollToEnd({ animated: true }), 150)}
               isLast={index + 1 === total}
             />
           ) : (
@@ -480,6 +493,7 @@ export default function QuizScreen({ route, navigation }) {
 
           <View style={{ height: 200 }} />
         </ScrollView>
+       </KeyboardAvoidingView>
       </SafeAreaView>
 
       {/* ── Slide-up feedback panel ── */}
@@ -716,7 +730,7 @@ function UnderstandThisBlock({ question, isCorrect, selected, correctIdx, say, C
 }
 
 // ── Open-ended capstone: write → reveal model answer → self-assess ────────────
-function WrittenAnswerBlock({ question, C, s, subject, isSubscribed, isConfigured, onUpgrade, onSubmit, isLast }) {
+function WrittenAnswerBlock({ question, C, s, subject, isSubscribed, isConfigured, onUpgrade, onSubmit, onFocusInput, isLast }) {
   const [text, setText]         = useState('')
   const [revealed, setRevealed] = useState(false)
   const [graded, setGraded]     = useState(null)
@@ -740,8 +754,12 @@ function WrittenAnswerBlock({ question, C, s, subject, isSubscribed, isConfigure
             placeholderTextColor={C.textMuted}
             value={text}
             onChangeText={setText}
+            onFocus={onFocusInput}
             textAlignVertical="top"
           />
+          <Text style={[T.small, { color: C.textMuted, marginTop: 6 }]}>
+            🎤 Tip: tap the mic on your keyboard to speak your answer.
+          </Text>
           <TouchableOpacity
             style={duoBtn(C.brand, C.brandDark, { marginTop: 14 })}
             onPress={reveal}
