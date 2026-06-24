@@ -6,7 +6,7 @@ import { useTheme } from '../context/ThemeContext'
 import { useSubject } from '../context/SubjectContext'
 import { SUBJECTS, SUBJECT_META } from '../content/subjects'
 import { T, duoBtn, cardShadow } from '../styles/duo'
-import { useExamScores } from '../hooks/useExamScores'
+import { useExamScores, loadExamAttempt } from '../hooks/useExamScores'
 import { useMistakes } from '../hooks/useMistakes'
 import { getSubjectData } from '../utils/subjectData'
 import { shuffle } from '../utils/question'
@@ -473,6 +473,16 @@ export default function ExamPickerScreen({ navigation }) {
     }
   }
 
+  // Reopen the saved last attempt in read-only review mode.
+  async function openReview(exam) {
+    const a = await loadExamAttempt(exam.id)
+    if (!a) {
+      Alert.alert('No saved review', "Detailed review wasn't saved for this attempt. Retake the exam to generate one.")
+      return
+    }
+    navigation.navigate('ExamResults', { ...a, exam: a.exam ?? exam, review: true, takenAt: a.takenAt })
+  }
+
   // ── Quick Practice (relocated from Home) — build a session from the current
   // subject's question bank and run it in the Study tab's screens. ──
   const sd = getSubjectData(subject)
@@ -583,6 +593,11 @@ export default function ExamPickerScreen({ navigation }) {
                     <Text style={[s.scoreChip, { color: C.textMuted, borderColor: C.border, backgroundColor: C.surface2 }]}>
                       Last {sc.last}
                     </Text>
+                    <TouchableOpacity onPress={() => openReview(item)} hitSlop={{ top: 8, bottom: 8, left: 4, right: 8 }}>
+                      <Text style={[s.scoreChip, { color: C.brand, borderColor: C.brand + '50', backgroundColor: C.brand + '12' }]}>
+                        🔁 Review
+                      </Text>
+                    </TouchableOpacity>
                   </View>
                 )}
               </View>
