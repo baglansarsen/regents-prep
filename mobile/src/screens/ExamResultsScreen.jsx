@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { analyzeExamResults } from '../utils/topicAnalysis'
 import { shuffle } from '../utils/question'
-import { saveExamScore } from '../hooks/useExamScores'
+import { saveExamScore, saveExamAttempt } from '../hooks/useExamScores'
 import { getScaledScore, topicIndicator } from '../utils/examScoring'
 import { usePetContext } from '../context/PetContext'
 import { useAuthContext } from '../context/AuthContext'
@@ -41,7 +41,8 @@ import { SUBJECTS } from '../content/subjects'
 // predicted-score model shares the same (estimate-only) conversion table.
 
 export default function ExamResultsScreen({ route, navigation }) {
-  const { exam, questions, answers, writtenAnswers = {}, writtenScores = {}, correct, total, rpEarned } = route.params
+  const { exam, questions, answers, writtenAnswers = {}, writtenScores = {}, correct, total, rpEarned,
+          review = false, takenAt = null } = route.params
   const { C } = useTheme()
   const s = makeStyles(C)
   const [showReview,    setShowReview]    = useState(false)
@@ -75,7 +76,13 @@ export default function ExamResultsScreen({ route, navigation }) {
   const { earnRP } = useRP(user?.uid)
 
   useEffect(() => {
+    if (review) return   // reopened from saved data — never re-save or re-award
     saveExamScore(exam.id, scaled)
+    // Persist the full attempt so it can be reviewed later (last-attempt-only).
+    saveExamAttempt(exam.id, {
+      exam, questions, answers, writtenAnswers, writtenScores,
+      correct, total, rpEarned, scaled, takenAt: Date.now(),
+    })
     // smart practice-exam quests — award the daily-quest RP on completion
     updateQuestProgress('complete_exam').then((r) => { if (r?.rp) earnRP(r.rp) })
   }, [])
@@ -121,6 +128,14 @@ export default function ExamResultsScreen({ route, navigation }) {
       <ScrollView contentContainerStyle={s.scroll}>
         {/* Header */}
         <Text style={[T.label, { color: C.textMuted, textAlign: 'center' }]}>{exam.label} Regents</Text>
+
+        {review && (
+          <View style={[s.reviewBanner, { backgroundColor: C.brandBg, borderColor: C.brand + '50' }]}>
+            <Text style={[T.small, { color: C.brand, textAlign: 'center' }]}>
+              🔁 Reviewing your last attempt{takenAt ? ` · ${new Date(takenAt).toLocaleDateString()}` : ''}
+            </Text>
+          </View>
+        )}
 
         {/* Score circle */}
         <View style={[s.scoreBox, { borderColor: color }]}>
@@ -332,9 +347,11 @@ export default function ExamResultsScreen({ route, navigation }) {
         <View style={s.actions}>
           <TouchableOpacity
             style={[duoBtn(C.brand, C.brandDark, { flex: 1 })]}
-            onPress={() => navigation.navigate('Main', { screen: 'ExamsTab', params: { screen: 'ExamPicker' } })}
+            onPress={() => review
+              ? navigation.goBack()
+              : navigation.navigate('Main', { screen: 'ExamsTab', params: { screen: 'ExamPicker' } })}
           >
-            <Text style={[T.btn, { color: '#fff' }]}>← ALL EXAMS</Text>
+            <Text style={[T.btn, { color: '#fff' }]}>{review ? '← BACK' : '← ALL EXAMS'}</Text>
           </TouchableOpacity>
         </View>
 
@@ -378,6 +395,7 @@ function makeStyles(C) {
   return StyleSheet.create({
     safe:          { flex: 1, backgroundColor: C.bg },
     scroll:        { padding: 20, gap: 14 },
+    reviewBanner:  { borderWidth: 1, borderRadius: 12, paddingVertical: 8, paddingHorizontal: 12, alignSelf: 'center' },
     scoreBox:      {
       alignSelf: 'center', width: 170, height: 170, borderRadius: 85,
       borderWidth: 4, alignItems: 'center', justifyContent: 'center',
