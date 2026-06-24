@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { localDateStr } from '../utils/localDate'
+import { getDailyGoalExclusion } from '../utils/dailyGoalExclusions'
 
 const KEY = '@dailyGoal_v4'
 const OLD_KEY = '@dailyGoal_v3'
@@ -19,6 +20,7 @@ export function useDailyGoal(currentRP, rpLoaded = false) {
   const [baseRP,     setBaseRP]    = useState(null)   // total RP at start of today
   const [loaded,     setLoaded]    = useState(false)
   const [celebrated, setCelebrated] = useState(false)
+  const [excluded,   setExcluded]  = useState(0)      // non-study RP today (e.g. tip bonuses) to exclude
 
   const today = localDateStr()
 
@@ -74,6 +76,9 @@ export function useDailyGoal(currentRP, rpLoaded = false) {
     baseDayRef.current = today
     lastRPRef.current  = currentRP
 
+    // Seed today's excluded (tip-bonus) RP so the first render is correct.
+    getDailyGoalExclusion().then((x) => { if (isMounted) setExcluded(x) }).catch(() => {})
+
     return () => { isMounted = false }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [rpLoaded])
@@ -86,12 +91,18 @@ export function useDailyGoal(currentRP, rpLoaded = false) {
   useEffect(() => {
     if (!loaded || baseRP === null) return
 
+    // Re-read today's excluded RP (e.g. a tip just awarded a thank-you bonus,
+    // which bumps currentRP and triggers this effect). getDailyGoalExclusion
+    // returns 0 on a new day, so this also clears the exclusion at rollover.
+    getDailyGoalExclusion().then(setExcluded).catch(() => {})
+
     // Midnight rollover while mounted: start a fresh day from the current total.
     if (baseDayRef.current !== today) {
       baseDayRef.current = today
       lastRPRef.current  = currentRP
       setBaseRP(currentRP)
       setCelebrated(false)
+      setExcluded(0)
       AsyncStorage.setItem(KEY, JSON.stringify({
         goal: goalRef.current, date: today, rpAtStart: currentRP, celebrated: false,
       })).catch(() => {})
@@ -129,7 +140,8 @@ export function useDailyGoal(currentRP, rpLoaded = false) {
     await AsyncStorage.setItem(KEY, JSON.stringify({ ...prev, celebrated: true }))
   }, [today, currentRP])
 
-  const todayRP = loaded && baseRP !== null ? Math.max(0, currentRP - baseRP) : 0
+  // Exclude non-study RP (tip bonuses) so they never count toward the study goal.
+  const todayRP = loaded && baseRP !== null ? Math.max(0, currentRP - baseRP - excluded) : 0
   const progress = Math.min(1, todayRP / goal)
   const goalMet  = todayRP >= goal
 
