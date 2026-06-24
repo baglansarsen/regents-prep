@@ -545,21 +545,19 @@ export default function QuizScreen({ route, navigation }) {
               Correct answer: {correctText}
             </Text>
           ) : null}
-          {(currentQuestion.explanation || currentQuestion.diveDeep) ? (
-            <ExplanationBlock question={currentQuestion} C={C} />
-          ) : <View style={{ height: 16 }} />}
-
-          {!isCorrect && selected !== null && (
-            <TutorButton
+          {(currentQuestion.explanation || currentQuestion.diveDeep || selected !== null) ? (
+            <UnderstandThisBlock
               question={currentQuestion}
-              wrongIdx={selected}
+              isCorrect={isCorrect}
+              selected={selected}
+              correctIdx={correctIdx}
               say={say}
               C={C}
               isSubscribed={isSubscribed}
               isConfigured={isConfigured}
               onUpgrade={presentPaywall}
             />
-          )}
+          ) : <View style={{ height: 16 }} />}
           </ScrollView>
 
           <TouchableOpacity
@@ -610,95 +608,46 @@ export default function QuizScreen({ route, navigation }) {
   )
 }
 
-// ── AI tutor: "Why was I wrong?" ──────────────────────────────────────────────
-// Calls the grounded explainMistake Cloud Function. The pet voices the nudge;
-// the full why-wrong/why-right explanation reveals inline.
-function TutorButton({ question, wrongIdx, say, C, isSubscribed, isConfigured, onUpgrade }) {
+// ── "Understand this" — one surface that layers the authored explanation,
+// the free Dive Deeper expandable, and the premium AI Coach. Shown on BOTH
+// correct and incorrect; the coach adapts: "Why was I wrong?" (mistake mode)
+// vs "Go deeper on this concept" (concept mode). ────────────────────────────────
+function UnderstandThisBlock({ question, isCorrect, selected, correctIdx, say, C, isSubscribed, isConfigured, onUpgrade, coach = true }) {
+  const [showDeep, setShowDeep] = useState(false)
   const { loading, data, error, explain } = useTutor()
 
-  // Premium gate: non-subscribers see an upsell that opens the paywall directly.
-  // (Falls back to a spoken nudge on web / Expo Go where the paywall isn't available.)
-  if (!isSubscribed) {
-    return (
-      <TouchableOpacity
-        onPress={() => {
-          if (isConfigured && onUpgrade) onUpgrade()
-          else say('💜 AI explanations are a Premium feature — unlock Premium in your Profile.')
-        }}
-        style={{
-          marginBottom: 12, paddingVertical: 12, borderRadius: 12,
-          borderWidth: 1.5, borderColor: C.purple, alignItems: 'center',
-          flexDirection: 'row', justifyContent: 'center', gap: 8,
-          backgroundColor: C.purple + '12',
-        }}
-      >
-        <Text style={[T.btn, { color: C.purple }]}>💜 Unlock “Why was I wrong?” with Premium</Text>
-      </TouchableOpacity>
-    )
-  }
+  const hasExplain = !!question.explanation
+  const coachLabel = isCorrect ? '🔍 Go deeper on this concept' : '🤔 Why was I wrong?'
 
-  const onPress = async () => {
-    const res = await explain(question, wrongIdx)
+  const askCoach = async () => {
+    const res = isCorrect
+      ? await explain(question, correctIdx, { mode: 'concept' })
+      : await explain(question, selected)
     if (res?.nudge) say(`🤔 ${res.nudge}`)
     else if (!res) say('Hmm, I couldn’t load that explanation — try again in a moment.')
   }
 
-  if (data) {
-    return (
-      <View style={{ marginBottom: 12, padding: 12, borderRadius: 12, backgroundColor: C.surface }}>
-        <Text style={[T.label, { color: C.brand, marginBottom: 6 }]}>🤔 Coach</Text>
-        <Text style={[T.body, { color: C.text, marginBottom: data.method ? 8 : 0 }]}>
-          {data.explanation}
-        </Text>
-        {data.method ? (
-          <Text style={[T.body, { color: C.textDim, fontStyle: 'italic' }]}>{data.method}</Text>
-        ) : null}
-      </View>
-    )
-  }
-
   return (
-    <TouchableOpacity
-      onPress={onPress}
-      disabled={loading}
-      style={{
-        marginBottom: 12, paddingVertical: 12, borderRadius: 12,
-        borderWidth: 1.5, borderColor: C.brand, alignItems: 'center',
-        flexDirection: 'row', justifyContent: 'center', gap: 8, opacity: loading ? 0.7 : 1,
-      }}
-    >
-      {loading && <ActivityIndicator size="small" color={C.brand} />}
-      <Text style={[T.btn, { color: C.brand }]}>
-        {loading ? 'Thinking…' : error ? 'Try again' : '🤔 Why was I wrong?'}
-      </Text>
-    </TouchableOpacity>
-  )
-}
+    <View style={{
+      marginVertical: 4, marginBottom: 12, padding: 16, borderRadius: 16,
+      backgroundColor: C.surface, borderWidth: 1.5, borderColor: C.brand + '40',
+      borderLeftWidth: 4, borderLeftColor: C.brand, gap: 10,
+    }}>
+      <Text style={[T.label, { color: C.brand, fontSize: 12, letterSpacing: 1 }]}>UNDERSTAND THIS</Text>
 
-// ── Explanation + Dive Deeper ─────────────────────────────────────────────────
-function ExplanationBlock({ question, C }) {
-  const [showDeep, setShowDeep] = useState(false)
-  return (
-    <View style={{ marginBottom: 16, marginTop: 4 }}>
-      <Text style={[T.small, { color: C.textMuted, lineHeight: 20 }]}>
-        {question.explanation}
-      </Text>
+      {/* Authored explanation (always, if present) */}
+      {hasExplain ? (
+        <Text style={[T.small, { color: C.textMuted, lineHeight: 20 }]}>{question.explanation}</Text>
+      ) : null}
+
+      {/* Dive Deeper — free, authored */}
       {question.diveDeep ? (
         showDeep ? (
-          <View style={{
-            marginTop: 14,
-            backgroundColor: C.surface,
-            borderRadius: 14,
-            padding: 16,
-            borderWidth: 1.5,
-            borderColor: C.brand + '55',
-            borderLeftWidth: 4,
-            borderLeftColor: C.brand,
-          }}>
-            <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 10 }}>
+          <View style={{ backgroundColor: C.bg, borderRadius: 12, padding: 14, borderWidth: 1, borderColor: C.brand + '40' }}>
+            <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: 8 }}>
               <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
-                <Text style={{ fontSize: 18 }}>🔍</Text>
-                <Text style={[T.label, { color: C.brand, fontSize: 13, letterSpacing: 1 }]}>DIVE DEEPER</Text>
+                <Text style={{ fontSize: 16 }}>🔍</Text>
+                <Text style={[T.label, { color: C.brand, fontSize: 12, letterSpacing: 1 }]}>DIVE DEEPER</Text>
               </View>
               <TouchableOpacity onPress={() => setShowDeep(false)} hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}>
                 <Text style={{ fontSize: 16, color: C.textMuted }}>✕</Text>
@@ -711,17 +660,9 @@ function ExplanationBlock({ question, C }) {
             onPress={() => setShowDeep(true)}
             activeOpacity={0.75}
             style={{
-              alignSelf: 'flex-start',
-              marginTop: 10,
-              flexDirection: 'row',
-              alignItems: 'center',
-              gap: 6,
-              borderWidth: 1,
-              borderColor: C.brand + '55',
-              backgroundColor: C.brand + '18',
-              borderRadius: 8,
-              paddingHorizontal: 12,
-              paddingVertical: 6,
+              alignSelf: 'flex-start', flexDirection: 'row', alignItems: 'center', gap: 6,
+              borderWidth: 1, borderColor: C.brand + '55', backgroundColor: C.brand + '18',
+              borderRadius: 8, paddingHorizontal: 12, paddingVertical: 6,
             }}
           >
             <Text style={{ fontSize: 14 }}>🔍</Text>
@@ -729,6 +670,47 @@ function ExplanationBlock({ question, C }) {
           </TouchableOpacity>
         )
       ) : null}
+
+      {/* AI Coach — premium. Result reveals inline; the pet voices the nudge.
+          Suppressed for the written capstone, which has its own AiGradeButton. */}
+      {!coach ? null : data ? (
+        <View style={{ padding: 12, borderRadius: 12, backgroundColor: C.bg }}>
+          <Text style={[T.label, { color: C.brand, marginBottom: 6 }]}>🤔 Coach</Text>
+          <Text style={[T.body, { color: C.text, marginBottom: data.method ? 8 : 0 }]}>{data.explanation}</Text>
+          {data.method ? (
+            <Text style={[T.body, { color: C.textDim, fontStyle: 'italic' }]}>{data.method}</Text>
+          ) : null}
+        </View>
+      ) : !isSubscribed ? (
+        <TouchableOpacity
+          onPress={() => {
+            if (isConfigured && onUpgrade) onUpgrade()
+            else say('💜 AI explanations are a Premium feature — unlock Premium in your Profile.')
+          }}
+          style={{
+            paddingVertical: 12, borderRadius: 12, borderWidth: 1.5, borderColor: C.purple,
+            alignItems: 'center', flexDirection: 'row', justifyContent: 'center', gap: 8,
+            backgroundColor: C.purple + '12',
+          }}
+        >
+          <Text style={[T.btn, { color: C.purple }]}>💜 Unlock AI explanations with Premium</Text>
+        </TouchableOpacity>
+      ) : (
+        <TouchableOpacity
+          onPress={askCoach}
+          disabled={loading}
+          style={{
+            paddingVertical: 12, borderRadius: 12, borderWidth: 1.5, borderColor: C.brand,
+            alignItems: 'center', flexDirection: 'row', justifyContent: 'center', gap: 8,
+            opacity: loading ? 0.7 : 1,
+          }}
+        >
+          {loading && <ActivityIndicator size="small" color={C.brand} />}
+          <Text style={[T.btn, { color: C.brand }]}>
+            {loading ? 'Thinking…' : error ? 'Try again' : coachLabel}
+          </Text>
+        </TouchableOpacity>
+      )}
     </View>
   )
 }
@@ -789,9 +771,10 @@ function WrittenAnswerBlock({ question, C, s, subject, isSubscribed, isConfigure
             <Text style={[T.body, { color: C.text, lineHeight: 23 }]}>{question.modelAnswer}</Text>
           </View>
 
-          {/* Reuse explanation + Dive Deeper */}
+          {/* Reuse explanation + Dive Deeper (no AI coach — the written block
+              has its own AiGradeButton below). */}
           {(question.explanation || question.diveDeep) ? (
-            <ExplanationBlock question={question} C={C} />
+            <UnderstandThisBlock question={question} C={C} coach={false} />
           ) : null}
 
           {isSubscribed ? (
