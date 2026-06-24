@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, Image,
-  StyleSheet, Alert, Animated, TextInput, KeyboardAvoidingView, Platform, Keyboard,
+  StyleSheet, Alert, Animated, TextInput, Keyboard,
 } from 'react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
@@ -130,11 +130,11 @@ export default function ExamScreen({ route, navigation }) {
   const answeredCount = questions.filter((_, i) => isAnswered(i)).length
 
   return (
-    <KeyboardAvoidingView
-      style={s.safe}
-      behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
-      keyboardVerticalOffset={insets.top}
-    >
+    // Plain container with a fixed top bar + bottom nav. The keyboard is absorbed
+    // by the content ScrollView (automaticallyAdjustKeyboardInsets) so the input
+    // scrolls above the keyboard WITHOUT padding the whole screen — a
+    // KeyboardAvoidingView here pushed a keyboard-height gap below the bottom bar.
+    <View style={s.safe}>
       {/* Top bar */}
       <View style={[s.topBar, { paddingTop: insets.top + 8 }]}>
         <TouchableOpacity onPress={() => Alert.alert('Exit?', 'Progress will be lost.', [
@@ -180,7 +180,12 @@ export default function ExamScreen({ route, navigation }) {
         ))}
       </ScrollView>
 
-      <ScrollView ref={scrollRef} contentContainerStyle={s.scroll} keyboardShouldPersistTaps="handled">
+      <ScrollView
+        ref={scrollRef}
+        contentContainerStyle={[s.scroll, { paddingBottom: 24 }]}
+        keyboardShouldPersistTaps="handled"
+        automaticallyAdjustKeyboardInsets
+      >
         {/* Question header */}
         <View style={s.qHeader}>
           <Text style={s.qNum}>Question {currentIdx + 1} of {questions.length}</Text>
@@ -316,7 +321,7 @@ export default function ExamScreen({ route, navigation }) {
       </View>
       </>
       )}
-    </KeyboardAvoidingView>
+    </View>
   )
 }
 
