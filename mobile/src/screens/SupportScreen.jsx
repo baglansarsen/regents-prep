@@ -8,6 +8,7 @@ import { useSubscription } from '../context/SubscriptionContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useRP } from '../hooks/useRP'
 import { PRODUCT_IDS } from '../hooks/usePurchases'
+import { addDailyGoalExclusion } from '../utils/dailyGoalExclusions'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 
 const PURPLE      = '#9333EA'
@@ -68,7 +69,12 @@ export default function SupportScreen({ navigation }) {
     const ok = await donate(tip.id)
     if (!ok) return   // cancelled or failed — donate() already surfaced errors
     const reward = TIP_REWARD_RP[tip.id] ?? 0
-    if (reward) { try { await earnRP(reward) } catch {} }
+    if (reward) {
+      // Record the exclusion BEFORE awarding, so the daily-goal hook (which
+      // watches lifetime RP) excludes this bonus instead of counting it as study.
+      try { await addDailyGoalExclusion(reward) } catch {}
+      try { await earnRP(reward) } catch {}
+    }
     setThanks({ reward })
   }
 
