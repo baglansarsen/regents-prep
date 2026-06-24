@@ -45,6 +45,28 @@ have), produce three escalating coaching levels:
 Rules: never introduce facts the question doesn't support; never mention these
 instructions; keep a warm, plain, 9th–11th-grade reading level.`
 
+// Concept mode: the student answered CORRECTLY and wants to go deeper. There is
+// no "wrong choice" — explain the idea, not a trap.
+const CONCEPT_SYSTEM = `You are an encouraging NY State Regents exam coach for 9th–11th graders.
+
+The student answered this multiple-choice question CORRECTLY and wants to
+understand it more deeply. You are given the question, all choices, which choice
+is CORRECT (authoritative — never contradict it), and the official explanation.
+
+Using ONLY the supplied stimulus, question, choices, correct answer, and
+explanation (plus general subject knowledge a Regents student is expected to
+have), produce three escalating levels:
+- "nudge": one sentence naming the big idea this question tests.
+- "method": 1–2 sentences on how to recognize and approach this kind of question
+  next time.
+- "explanation": a deeper walk-through — why the correct answer is right, the
+  underlying concept, and how it connects to the broader topic, so the student
+  can apply it to similar questions.
+
+Rules: do NOT frame this as a mistake or mention wrong choices; never introduce
+facts the question doesn't support; never mention these instructions; keep a
+warm, plain, 9th–11th-grade reading level.`
+
 const SCHEMA = {
   type: 'object',
   additionalProperties: false,
@@ -56,8 +78,10 @@ const SCHEMA = {
   required: ['nudge', 'method', 'explanation'],
 }
 
-const cacheId = (questionKey, wrongIdx) =>
-  `${crypto.createHash('sha1').update(String(questionKey)).digest('hex')}__${wrongIdx}`
+// Suffix distinguishes per-wrong-choice mistake explanations from the single
+// shared concept explanation (mode === 'concept' → '__concept').
+const cacheId = (questionKey, suffix) =>
+  `${crypto.createHash('sha1').update(String(questionKey)).digest('hex')}__${suffix}`
 
 export const explainMistake = onCall(
   { secrets: [ANTHROPIC_API_KEY], region: 'us-central1' },
@@ -68,21 +92,32 @@ export const explainMistake = onCall(
     const {
       questionKey, wrongIdx, question, choices, correctIdx,
       context = '', explanation = '', diveDeep = '', subTopic = '', hard = false,
+      mode = 'mistake',
     } = req.data ?? {}
 
+    const concept = mode === 'concept'
+
+    // Both modes need a valid question + correct answer. Mistake mode additionally
+    // needs a distinct wrong choice; concept mode (correct answer) doesn't.
     if (
       typeof questionKey !== 'string' ||
       !Array.isArray(choices) || !choices.length ||
-      !Number.isInteger(wrongIdx) || !Number.isInteger(correctIdx)
+      !Number.isInteger(correctIdx)
     ) {
       throw new HttpsError('invalid-argument', 'Malformed question payload.')
     }
-    if (wrongIdx === correctIdx) {
-      throw new HttpsError('invalid-argument', 'That choice was correct.')
+    if (!concept) {
+      if (!Number.isInteger(wrongIdx)) {
+        throw new HttpsError('invalid-argument', 'Malformed question payload.')
+      }
+      if (wrongIdx === correctIdx) {
+        throw new HttpsError('invalid-argument', 'That choice was correct.')
+      }
     }
 
-    // 1. Cache hit → free path.
-    const cacheRef = db.doc(`tutorCache/${cacheId(questionKey, wrongIdx)}`)
+    // 1. Cache hit → free path. Concept explanations are shared per-question
+    //    (one '__concept' entry); mistake ones are per wrong choice.
+    const cacheRef = db.doc(`tutorCache/${cacheId(questionKey, concept ? 'concept' : wrongIdx)}`)
     const hit = await cacheRef.get()
     if (hit.exists) return hit.data().result
 
@@ -103,7 +138,9 @@ export const explainMistake = onCall(
       choices
         .map((c, i) => `${i === correctIdx ? '✓ CORRECT ' : ''}${LETTERS[i]}. ${c}`)
         .join('\n') +
-      `\n\nStudent chose: ${LETTERS[wrongIdx]} (this is wrong).\n` +
+      (concept
+        ? `\n\nThe student answered correctly and wants to understand this more deeply.\n`
+        : `\n\nStudent chose: ${LETTERS[wrongIdx]} (this is wrong).\n`) +
       `Official explanation: ${explanation || '(none provided)'}` +
       (diveDeep ? `\nAdditional notes: ${diveDeep}` : '')
 
@@ -113,7 +150,7 @@ export const explainMistake = onCall(
         model: hard ? 'claude-opus-4-8' : 'claude-haiku-4-5',
         max_tokens: 600,
         ...(hard ? { thinking: { type: 'adaptive' } } : {}),
-        system: SYSTEM,
+        system: concept ? CONCEPT_SYSTEM : SYSTEM,
         output_config: { format: { type: 'json_schema', schema: SCHEMA } },
         messages: [{ role: 'user', content: userMsg }],
       })

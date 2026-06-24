@@ -22,8 +22,10 @@ const sessionCache = new Map()
 export function useTutor() {
   const [state, setState] = useState({ loading: false, data: null, error: null })
 
-  const explain = useCallback(async (question, wrongIdx, { hard = false } = {}) => {
-    const key = `${questionKey(question)}__${wrongIdx}`
+  const explain = useCallback(async (question, wrongIdx, { hard = false, mode = 'mistake' } = {}) => {
+    // Concept mode (correct answer, "go deeper") has one shared result per
+    // question; mistake mode is keyed per wrong choice. Match the backend.
+    const key = `${questionKey(question)}__${mode === 'concept' ? 'concept' : wrongIdx}`
     if (sessionCache.has(key)) {
       const data = sessionCache.get(key)
       setState({ loading: false, data, error: null })
@@ -43,6 +45,7 @@ export function useTutor() {
         diveDeep: question.diveDeep ?? '',
         subTopic: question.subTopic ?? question.topic ?? '',
         hard,
+        mode,
       })
       sessionCache.set(key, data)
       setState({ loading: false, data, error: null })
