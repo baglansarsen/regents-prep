@@ -83,7 +83,6 @@ export const NY_SCHOOLS = [
   // ── Bronx — Charter ───────────────────────────────────────────────────────
   { id: 'success_bx1', name: 'Success Academy Bronx 1',                   borough: 'Bronx',         type: 'charter', lat: 40.81349, lng: -73.92549 },
   { id: 'success_bx2', name: 'Success Academy Bronx 2',                   borough: 'Bronx',         type: 'charter', lat: 40.83322, lng: -73.91413 },
-  { id: 'achiev_bx',   name: 'Achievement First Bronx High School',       borough: 'Bronx',         type: 'charter', lat: 40.67729, lng: -73.94211 },
   { id: 'democracy_bx',name: 'Democracy Prep Bronx',                      borough: 'Bronx',         type: 'charter', lat: 40.82363, lng: -73.89379 },
   { id: 'bronx_arts',  name: 'Bronx Charter School for the Arts',         borough: 'Bronx',         type: 'charter', lat: 40.82135, lng: -73.88643 },
   { id: 'hyde_bx',     name: 'Hyde Leadership Charter School',            borough: 'Bronx',         type: 'charter', lat: 40.81537, lng: -73.88568 },
@@ -147,7 +146,6 @@ export const NY_SCHOOLS = [
   { id: 'sacred_heart',   name: 'Buffalo Academy of the Sacred Heart',         borough: 'Buffalo', type: 'private', lat: 42.9354, lng: -78.8621 },
   { id: 'health_sci_buf', name: 'Health Sciences Charter School',              borough: 'Buffalo', type: 'charter', lat: 42.90222, lng: -78.86421 },
   { id: 'enterprise',     name: 'Enterprise Charter School',                   borough: 'Buffalo', type: 'charter', lat: 42.89556, lng: -78.86717 },
-  { id: 'excel_charter',  name: 'Excel Academy Charter School',                borough: 'Buffalo', type: 'charter', lat: 42.8864, lng: -78.8784 },
 
   // ── Rochester ─────────────────────────────────────────────────────────────
   { id: 'roch_east',      name: 'East High School',                            borough: 'Rochester', type: 'public',  lat: 43.1493, lng: -77.5676 },
