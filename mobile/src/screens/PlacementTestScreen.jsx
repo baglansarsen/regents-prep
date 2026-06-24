@@ -31,6 +31,7 @@ import * as a2Data    from '../content/algebra-2/index'
 import * as geoData   from '../content/geometry/index'
 import * as lsData    from '../content/life-science/index'
 import { T, duoBtn, duoBtnOutline, cardShadow, elevatedCard } from '../styles/duo'
+import ReadAloudButton from '../components/ReadAloudButton'
 
 import * as enData from '../content/english/index'
 import * as ghData from '../content/global-history/index'
@@ -343,6 +344,7 @@ export default function PlacementTestScreen({ onComplete }) {
           {/* Question card */}
           <Animated.View style={[s.questionCard, { transform: [{ translateX: slideAnim }] }]}>
             <Text style={[T.h3, { color: C.text, lineHeight: 26 }]}>{q.text}</Text>
+            <ReadAloudButton C={C} style={{ marginTop: 12 }} text={q.text} />
           </Animated.View>
 
           {/* Choices */}
