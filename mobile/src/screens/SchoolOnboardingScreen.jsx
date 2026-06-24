@@ -50,7 +50,7 @@ export default function SchoolOnboardingScreen({ navigation, onComplete }) {
         const { coords } = await Location.getCurrentPositionAsync({ accuracy: Location.Accuracy.Balanced })
         const loc = { lat: coords.latitude, lng: coords.longitude }
         setUserLocation(loc)
-        setNearby(getSchoolsSortedByDistance(loc.lat, loc.lng, 6))
+        setNearby(getSchoolsSortedByDistance(loc.lat, loc.lng, 10))
       } catch {
         Alert.alert('Location Error', 'Could not get your location. Search manually below.')
       }
@@ -60,7 +60,7 @@ export default function SchoolOnboardingScreen({ navigation, onComplete }) {
         (pos) => {
           const loc = { lat: pos.coords.latitude, lng: pos.coords.longitude }
           setUserLocation(loc)
-          setNearby(getSchoolsSortedByDistance(loc.lat, loc.lng, 6))
+          setNearby(getSchoolsSortedByDistance(loc.lat, loc.lng, 10))
           setLocLoading(false)
         },
         () => {
