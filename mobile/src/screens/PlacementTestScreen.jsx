@@ -152,13 +152,10 @@ export default function PlacementTestScreen({ onComplete }) {
   const total = questionSet.length
 
   // ── Quiz state ────────────────────────────────────────────────────────────
-  const [index,     setIndex]     = useState(0)
-  const [selected,  setSelected]  = useState(null)   // pending choice (changeable until submitted)
-  const [submitted, setSubmitted] = useState(false)  // answer committed → reveal + lock
-  const [answers,   setAnswers]   = useState([])     // final answer per question
-  const [phase,     setPhase]     = useState('intro') // 'intro' | 'quiz' | 'results'
-
-  const autoTimer = useRef(null)
+  const [index,    setIndex]    = useState(0)
+  const [selected, setSelected] = useState(null)   // pending choice (changeable until you tap Next)
+  const [answers,  setAnswers]  = useState([])     // final answer per question
+  const [phase,    setPhase]    = useState('intro') // 'intro' | 'quiz' | 'results'
 
   // ── Card slide animation ──────────────────────────────────────────────────
   const slideAnim = useRef(new Animated.Value(0)).current
@@ -170,37 +167,32 @@ export default function PlacementTestScreen({ onComplete }) {
 
   useEffect(() => { if (phase === 'quiz') slideIn() }, [index, phase])
 
-  // ── Pick a choice (changeable until the answer is submitted) ───────────────
+  // ── Pick a choice (changeable until you tap Next) ──────────────────────────
   function selectChoice(idx) {
-    if (submitted) return
     setSelected(idx)
   }
 
-  // ── Submit the chosen answer: lock + reveal, then advance ──────────────────
+  // ── Submit: record the answer and advance immediately. This is a diagnostic,
+  // not a lesson — we don't reveal correct/wrong per question (no corrective
+  // value mid-test, and it keeps onboarding fast and low-pressure). The outcome
+  // is shown on the results screen.
   function submitAnswer() {
-    if (selected === null || submitted) return
-    setSubmitted(true)
-
+    if (selected === null) return
     const newAnswers = [...answers, selected]
-    autoTimer.current = setTimeout(() => {
-      const next = index + 1
-      if (next >= total) {
-        finishQuiz(newAnswers)
-      } else {
-        setAnswers(newAnswers)
-        setSelected(null)
-        setSubmitted(false)
-        setIndex(next)
-      }
-    }, 1100)
+    const next = index + 1
+    if (next >= total) {
+      finishQuiz(newAnswers)
+    } else {
+      setAnswers(newAnswers)
+      setSelected(null)
+      setIndex(next)
+    }
   }
 
   function finishQuiz(finalAnswers) {
     setAnswers(finalAnswers)
     setPhase('results')
   }
-
-  useEffect(() => () => clearTimeout(autoTimer.current), [])
 
   // Exam-only subjects (humanities) have no MC pool — finish once, in an effect
   // (never as a side effect during render, which would re-fire every render).
@@ -211,7 +203,6 @@ export default function PlacementTestScreen({ onComplete }) {
 
   // ── Skip entire test ──────────────────────────────────────────────────────
   async function handleSkip() {
-    clearTimeout(autoTimer.current)
     await markDone()
     onComplete?.()
   }
@@ -307,29 +298,13 @@ export default function PlacementTestScreen({ onComplete }) {
   // RENDER: QUIZ
   // ─────────────────────────────────────────────────────────────────────────
   if (phase === 'quiz') {
-    const q          = questionSet[index]
-    const correctIdx = q.correct ?? q.correctIndex
+    const q = questionSet[index]
 
-    // Pre-submit selection uses a neutral blue (not the green brand/correct color)
-    // so a picked-but-unsubmitted answer never looks like it's been marked correct.
-    function choiceBg(idx) {
-      if (!submitted) return idx === selected ? C.blue + '22' : C.surface
-      if (idx === correctIdx) return C.correctBg
-      if (idx === selected && idx !== correctIdx) return C.wrongBg
-      return C.surface
-    }
-    function choiceBorder(idx) {
-      if (!submitted) return idx === selected ? C.blue : C.border
-      if (idx === correctIdx) return C.correct
-      if (idx === selected && idx !== correctIdx) return C.wrong
-      return C.border + '40'
-    }
-    function letterBg(idx) {
-      if (!submitted) return idx === selected ? C.blue : LETTER_COLORS[idx]
-      if (idx === correctIdx) return C.correct
-      if (idx === selected && idx !== correctIdx) return C.wrong
-      return LETTER_COLORS[idx] + '60'
-    }
+    // Diagnostic: no per-question reveal. A choice just highlights neutral-blue
+    // when selected; correct/wrong is never shown mid-test.
+    function choiceBg(idx)     { return idx === selected ? C.blue + '22' : C.surface }
+    function choiceBorder(idx) { return idx === selected ? C.blue : C.border }
+    function letterBg(idx)     { return idx === selected ? C.blue : LETTER_COLORS[idx] }
 
     return (
       <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
@@ -350,11 +325,11 @@ export default function PlacementTestScreen({ onComplete }) {
 
         {/* Progress bar */}
         <View style={s.progressBg}>
-          <View style={[s.progressFill, { width: `${((index + (submitted ? 1 : 0)) / total) * 100}%` }]} />
+          <View style={[s.progressFill, { width: `${(index / total) * 100}%` }]} />
         </View>
 
         {/* Dots */}
-        <ProgressDots total={total} current={index} answered={submitted} C={C} />
+        <ProgressDots total={total} current={index} answered={false} C={C} />
 
         <ScrollView contentContainerStyle={s.scroll} showsVerticalScrollIndicator={false}>
 
@@ -377,36 +352,29 @@ export default function PlacementTestScreen({ onComplete }) {
                 key={idx}
                 style={[s.choice, { backgroundColor: choiceBg(idx), borderColor: choiceBorder(idx) }]}
                 onPress={() => selectChoice(idx)}
-                disabled={submitted}
                 activeOpacity={0.75}
               >
                 <View style={[s.letterBadge, { backgroundColor: letterBg(idx) }]}>
                   <Text style={s.letterText}>{LETTERS[idx]}</Text>
                 </View>
                 <Text style={[T.body, { flex: 1, color: C.text }]}>{choice}</Text>
-                {submitted && idx === correctIdx && (
-                  <Text style={{ fontSize: 18 }}>✅</Text>
-                )}
-                {submitted && selected === idx && idx !== correctIdx && (
-                  <Text style={{ fontSize: 18 }}>❌</Text>
-                )}
               </TouchableOpacity>
             ))}
           </View>
 
-          {/* Submit — under the question so a tap selects (changeable) and only
-              this button commits the answer, preventing accidental selection. */}
+          {/* Next — a tap selects a choice (changeable); this button commits it
+              and advances. No per-question reveal (diagnostic, not a lesson). */}
           <TouchableOpacity
             style={[
               duoBtn(C.brand, C.brandDark, { alignSelf: 'stretch', marginTop: 20 }),
-              (selected === null || submitted) && { opacity: 0.5 },
+              selected === null && { opacity: 0.5 },
             ]}
             onPress={submitAnswer}
-            disabled={selected === null || submitted}
+            disabled={selected === null}
             activeOpacity={0.85}
           >
             <Text style={[T.btn, { color: '#fff' }]}>
-              {index + 1 === total ? 'SUBMIT & FINISH' : 'SUBMIT'}
+              {index + 1 === total ? 'FINISH' : 'NEXT'}
             </Text>
           </TouchableOpacity>
 
