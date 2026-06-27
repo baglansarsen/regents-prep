@@ -24,4 +24,8 @@ export const SUBJECT_META = {
   'english':            { id: 'english',            name: 'English (ELA)',         icon: '📖', color: '#ef4444', shortName: 'EN' },
   'global-history':     { id: 'global-history',     name: 'Global History',        icon: '🌐', color: '#0ea5e9', shortName: 'GH' },
   'us-history':         { id: 'us-history',         name: 'US History',            icon: '🗽', color: '#a855f7', shortName: 'US' },
+  // Level 0 — Basic Math. Intentionally NOT in SUBJECTS, so it stays off the
+  // normal subject picker; it's reached via the placement remediation gate
+  // (Phase 4). A META entry here lets screens style it when navigated to.
+  'basic-math':         { id: 'basic-math',         name: 'Level 0 · Basic Math',  icon: '🧮', color: '#0d9488', shortName: 'L0' },
 }

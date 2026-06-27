@@ -8,7 +8,7 @@ import { useAuthContext } from '../../context/AuthContext'
 import { useAuth } from '../../hooks/useAuth'
 import { useSubject } from '../../context/SubjectContext'
 import { PETS_ENABLED } from '../../config/features'
-import { SUBJECT_META } from '../../content/subjects'
+import { SUBJECTS, SUBJECT_META } from '../../content/subjects'
 import { useDailyStreak } from '../../hooks/useDailyStreak'
 import { useNotifications, formatTime } from '../../hooks/useNotifications'
 import { auth, db } from '../../firebase'
@@ -407,7 +407,8 @@ export default function SettingsPanel({ navigation }) {
           <Text style={[T.h3, { color: C.text, textAlign: 'center', marginBottom: 16 }]}>
             My Regents Exam
           </Text>
-          {Object.values(SUBJECT_META).map(({ id, name, icon, color }) => {
+          {Object.values(SUBJECTS).map((subId) => {
+            const { id, name, icon, color } = SUBJECT_META[subId]
             const active = subject === id
             return (
               <TouchableOpacity
