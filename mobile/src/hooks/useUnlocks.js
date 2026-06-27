@@ -18,9 +18,10 @@ export function useUnlocks(history, topicOrder, subject) {
   }, [subject])
 
   // Save a force-unlock after passing the skip challenge
-  const forceUnlock = useCallback(async (topic) => {
+  const forceUnlock = useCallback(async (topicOrTopics) => {
+    const topics = Array.isArray(topicOrTopics) ? topicOrTopics : [topicOrTopics]
     const updated = new Set(forceSet)
-    updated.add(topic)
+    topics.forEach((t) => updated.add(t))
     setForceSet(updated)
     await AsyncStorage.setItem(storageKey(subject), JSON.stringify([...updated]))
   }, [forceSet, subject])

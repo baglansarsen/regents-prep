@@ -34,6 +34,7 @@ import * as lifeScienceData from '../content/life-science/index'
 import * as englishData from '../content/english/index'
 import * as globalHistoryData from '../content/global-history/index'
 import * as usHistoryData from '../content/us-history/index'
+import * as basicMathData from '../content/basic-math/index'
 import { STRATEGY_CATEGORIES } from '../content/strategies-meta'
 import { T, duoBtn, duoBtnOutline, cardShadow, elevatedCard, sectionLabel } from '../styles/duo'
 import GoalRing from '../components/GoalRing'
@@ -243,6 +244,7 @@ export default function HomeScreen({ navigation }) {
   const [placementDone,   setPlacementDone]   = useState(null)   // null = loading
   const [showPlacement,   setShowPlacement]   = useState(false)
   const [pendingLesson,   setPendingLesson]   = useState(null)
+  const [showLevel0Card,  setShowLevel0Card]  = useState(false)
 
   useEffect(() => {
     if (!uid) return
@@ -250,6 +252,13 @@ export default function HomeScreen({ navigation }) {
     AsyncStorage.getItem(`@placementDone_v1_${uid}`)
       .then((val) => setPlacementDone(!!val))
       .catch(() => setPlacementDone(true))  // fail open — don't block lessons
+  }, [uid])
+
+  useEffect(() => {
+    if (!uid || user?.isAnonymous) return
+    AsyncStorage.getItem(`@needsLevel0_v1_${uid}`)
+      .then((val) => setShowLevel0Card(!!val))
+      .catch(() => {})
   }, [uid])
 
   // ── First-run guided tour — start once Home is focused & targets exist ──────
@@ -648,6 +657,43 @@ export default function HomeScreen({ navigation }) {
             </View>
             <Text style={[T.btn, { color: C.brand }]}>REVIEW ›</Text>
           </TouchableOpacity>
+        )}
+
+        {/* ── Level 0 remediation card — shown when placement flagged weak math foundations ── */}
+        {showLevel0Card && (
+          <View style={[s.reviewCard, cardShadow(C.shadow), { backgroundColor: '#ccfbf1', borderColor: '#0d9488', borderWidth: 1.5 }]}>
+            <Text style={{ fontSize: 26 }}>🧮</Text>
+            <View style={{ flex: 1, marginLeft: 12 }}>
+              <Text style={[T.h3, { color: '#0d9488' }]}>Level 0 · Basic Math</Text>
+              <Text style={[T.small, { color: '#0f766e', marginTop: 2 }]}>
+                Build your foundation before tackling algebra
+              </Text>
+            </View>
+            <View style={{ gap: 6, alignItems: 'flex-end' }}>
+              <TouchableOpacity
+                style={[duoBtn('#0d9488', '#0f766e', { paddingHorizontal: 14, paddingVertical: 8 })]}
+                onPress={() => {
+                  const topic = basicMathData.TOPIC_ORDER?.[0]
+                  if (!topic) return
+                  const questionSet = basicMathData.getLessonQuestions(topic, 0, basicMathData.UNITS?.[0]?.lessonCount ?? 2)
+                  livesGate(() => {
+                    navigation.navigate('Quiz', { questionSet, topic, subject: 'basic-math', lessonIndex: 0 })
+                  })
+                }}
+                activeOpacity={0.85}
+              >
+                <Text style={[T.btn, { color: '#fff', fontSize: 12 }]}>START →</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                onPress={async () => {
+                  try { await AsyncStorage.removeItem(`@needsLevel0_v1_${uid}`) } catch {}
+                  setShowLevel0Card(false)
+                }}
+              >
+                <Text style={[T.small, { color: '#0f766e', padding: 4 }]}>Not now</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
         )}
 
         {/* ── LEARNING PATH — the home screen's primary content, lessons first ── */}
