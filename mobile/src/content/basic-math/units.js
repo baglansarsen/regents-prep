@@ -1,0 +1,25 @@
+import { TOPICS, TOPIC_ICONS, QUESTIONS } from './questions'
+import { makeLessonApi } from '../_shared/lessonEngine'
+import { isEasy } from '../_shared/difficulty'
+
+// Authored questions already use final topic strings, so the topicMap is identity.
+const TOPIC_MAP = Object.fromEntries(Object.values(TOPICS).map((t) => [t, t]))
+
+// Wrap the authored set as a single pseudo-"exam" to reuse the whole lesson
+// engine (slicing, easy→hard ordering, Dive Deeper). Smaller lessons than the
+// Regents subjects — these are short confidence-builders.
+const _api = makeLessonApi({ exams: [{ questions: QUESTIONS }], topicMap: TOPIC_MAP, lessonSize: 12 })
+
+// Only units with authored questions are listed (Integers first; the rest are
+// authored next). Colors match the warm "foundations" palette.
+export const UNITS = [
+  { id: 'basic-integers', title: 'Integers & Order of Operations', icon: TOPIC_ICONS[TOPICS.INTEGERS], color: '#0d9488', darkColor: '#0f766e', topic: TOPICS.INTEGERS, lessonCount: 2 },
+]
+
+export const getLessonQuestions = _api.getLessonQuestions
+export const getByTopic         = _api.getByTopic
+export function getEasyPool(topic) { return getByTopic(topic).filter(isEasy) }
+export const getWritten         = _api.getWritten
+export const buildDiagnosticSet = _api.buildDiagnosticSet
+export const allQuestions       = _api.allQuestions
+export const writtenLabel       = 'Worked Examples'

@@ -10,6 +10,7 @@ import * as lifeScienceData from '../content/life-science/index'
 import * as englishData from '../content/english/index'
 import * as globalHistoryData from '../content/global-history/index'
 import * as usHistoryData from '../content/us-history/index'
+import * as basicMathData from '../content/basic-math/index'
 
 /**
  * Resolve the question-bank module for a subject. Shared so HomeScreen and the
@@ -28,6 +29,7 @@ const SUBJECT_DATA = {
   [SUBJECTS.ENGLISH]:            englishData,
   [SUBJECTS.GLOBAL_HISTORY]:     globalHistoryData,
   [SUBJECTS.US_HISTORY]:         usHistoryData,
+  'basic-math':                  basicMathData,
 }
 
 export function getSubjectData(subject) {

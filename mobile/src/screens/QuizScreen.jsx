@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState, useCallback } from 'react'
+import React, { useRef, useEffect, useState, useCallback, useMemo } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView,
   Animated, StyleSheet, Image, TextInput, Keyboard, ActivityIndicator, Modal,
@@ -31,6 +31,8 @@ import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
 import { useQuizSound } from '../hooks/useQuizSound'
 import { logActivity } from '../utils/activityLogger'
 import { skipUnlocksKey } from '../utils/storageKeys'
+import { getSubjectData } from '../utils/subjectData'
+import { getEasier as easierFromPool } from '../content/_shared/difficulty'
 import ExamImage from '../components/ExamImage'
 
 const LETTERS = ['A', 'B', 'C', 'D']
@@ -97,13 +99,29 @@ export default function QuizScreen({ route, navigation }) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
+  // Adaptive confidence loop: when a math student struggles, the quiz can splice
+  // in easier questions from this topic. Only math subjects expose getEasyPool;
+  // others get an empty pool (→ getEasier=null → no injection). Skipped in challenges.
+  const easyPool = useMemo(() => {
+    const sd = getSubjectData(subject)
+    return (!isChallenge && topic && typeof sd.getEasyPool === 'function') ? sd.getEasyPool(topic) : []
+  }, [subject, topic, isChallenge])
+  const getEasier = useCallback(
+    (n, exclude) => easierFromPool(easyPool, n, exclude),
+    [easyPool],
+  )
+
   const {
     currentQuestion, isWritten, index, total, score, streak, bestStreak,
-    selected, lastEarned, phase, results,
+    selected, lastEarned, phase, results, struggleMode,
     select, check, submitWritten, next: nextQuestion,
     eliminated, hintUsed, takeHint,
     inRepeat, repeatTotal, repeatIndex,
-  } = useQuiz(questionSet, { hint: !isChallenge, repeat: !isChallenge })
+  } = useQuiz(questionSet, {
+    hint: !isChallenge,
+    repeat: !isChallenge,
+    getEasier: easyPool.length ? getEasier : null,
+  })
 
   const scrollRef  = useRef(null)
   const slideAnim  = useRef(new Animated.Value(300)).current
@@ -146,6 +164,12 @@ export default function QuizScreen({ route, navigation }) {
   // (Out of hearts shows a non-blocking banner mid-lesson + a refill gate at the
   //  end — see the LivesRefillGate render and the phase==='done' effect.)
 
+  // Encourage when the adaptive loop kicks in (struggle → easier questions).
+  useEffect(() => {
+    if (struggleMode) dinoSay("Let's warm up with a few easier ones 💪")
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [struggleMode])
+
   // ── Feedback panel slide ──────────────────────────────────────────────────
   useEffect(() => {
     if (phase === 'feedback') {
@@ -182,7 +206,9 @@ export default function QuizScreen({ route, navigation }) {
       } else {
         hapticWarning()
         playWrong()
-        if (!inRepeat) loseLife()   // the end-of-lesson repeat round costs no hearts
+        // No heart loss during the repeat round, or while the student is in the
+        // adaptive "struggle" mode — don't punish a kid who's already struggling.
+        if (!inRepeat && !struggleMode) loseLife()
         triggerReaction('sad')
         animatePetIncorrect()
       }

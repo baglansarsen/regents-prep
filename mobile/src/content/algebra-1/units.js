@@ -1,5 +1,6 @@
 import { TOPICS, TOPIC_ICONS } from './questions'
 import { makeLessonApi } from '../_shared/lessonEngine'
+import { isEasy } from '../_shared/difficulty'
 import a1Aug2019 from '../regents-exams/algebra-1/august-2019'
 import a1Jun2019 from '../regents-exams/algebra-1/june-2019'
 import a1Aug2022 from '../regents-exams/algebra-1/august-2022'
@@ -72,6 +73,11 @@ export const buildDiagnosticSet  = _api.buildDiagnosticSet
 export const allQuestions        = _api.allQuestions
 export const getWritten          = _api.getWritten
 export const getBySkill          = _api.getBySkill
+// Easy-question pool for the in-lesson confidence loop. Honors the same routing
+// as getByTopic (skill/subTopic units), filtered to easy difficulty.
+export function getEasyPool(topic) {
+  return getByTopic(topic).filter(isEasy)
+}
 // Label the Written Practice surface as "Worked Examples" for math (step-by-step
 // solutions), vs "Written Practice" for the sciences.
 export const writtenLabel        = 'Worked Examples'

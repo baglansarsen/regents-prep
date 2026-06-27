@@ -54,8 +54,10 @@ const SUBJECT_DATA = {
 const { width: W } = Dimensions.get('window')
 const LETTERS = ['A', 'B', 'C', 'D']
 const LETTER_COLORS = ['#34B3F1', '#7C5CFC', '#FF9600', '#FF5A5F']
-const TARGET       = 10        // target question count
-const UNLOCK_PCT   = 80        // auto-unlock threshold
+const TARGET          = 10        // target question count
+const UNLOCK_PCT      = 80        // auto-unlock threshold
+const REMEDIATION_PCT = 40        // overall pct below which we suggest Level 0
+const MATH_SUBJECTS   = new Set(['algebra-1', 'algebra-2', 'geometry'])
 
 // ── Build the placement set ───────────────────────────────────────────────────
 // Stable identity for de-dup: questions carry no `id`, so fall back to the
@@ -223,10 +225,25 @@ export default function PlacementTestScreen({ onComplete }) {
     await Promise.all(saves)
 
     // Force-unlock topics that scored ≥ UNLOCK_PCT
-    const unlocks = Object.entries(topicScores)
+    const forcedTopics = Object.entries(topicScores)
       .filter(([, { correct, total: t }]) => Math.round((correct / t) * 100) >= UNLOCK_PCT)
-      .map(([topic]) => forceUnlock(topic))
-    await Promise.all(unlocks)
+      .map(([topic]) => topic)
+    if (forcedTopics.length > 0) {
+      await forceUnlock(forcedTopics)
+    }
+
+    // Remediation gate: math subjects with a weak overall score → flag Level 0
+    if (MATH_SUBJECTS.has(subject)) {
+      const totalQ = questionSet.length
+      const totalC = answers.reduce((sum, ans, i) => {
+        const q = questionSet[i]
+        return sum + (ans === (q.correct ?? q.correctIndex) ? 1 : 0)
+      }, 0)
+      const overallPct = totalQ > 0 ? Math.round((totalC / totalQ) * 100) : 100
+      if (overallPct < REMEDIATION_PCT && forcedTopics.length <= 1) {
+        try { await AsyncStorage.setItem(`@needsLevel0_v1_${uid}`, '1') } catch {}
+      }
+    }
 
     await markDone()
     setSaving(false)
@@ -399,6 +416,8 @@ export default function PlacementTestScreen({ onComplete }) {
     const q = questionSet[i]
     return sum + (ans === (q.correct ?? q.correctIndex) ? 1 : 0)
   }, 0)
+  const overallPct      = total > 0 ? Math.round((totalCorrect / total) * 100) : 100
+  const needsRemediation = MATH_SUBJECTS.has(subject) && overallPct < REMEDIATION_PCT && unlockedList.length <= 1
 
   return (
     <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
@@ -426,6 +445,22 @@ export default function PlacementTestScreen({ onComplete }) {
           <View style={[s.unlockBanner, { backgroundColor: C.surface2, borderColor: C.border }]}>
             <Text style={[T.body, { color: C.textMuted, textAlign: 'center' }]}>
               📚 You'll start from the beginning — that's totally fine!
+            </Text>
+          </View>
+        )}
+
+        {/* Level 0 remediation card — shown only for struggling math students */}
+        {needsRemediation && (
+          <View style={[s.unlockBanner, { backgroundColor: '#ccfbf1', borderColor: '#0d9488' }]}>
+            <Text style={{ fontSize: 32, textAlign: 'center' }}>🧮</Text>
+            <Text style={[T.h3, { color: '#0d9488', textAlign: 'center', marginTop: 6 }]}>
+              Let's build your foundation first
+            </Text>
+            <Text style={[T.small, { color: '#0f766e', textAlign: 'center', marginTop: 4 }]}>
+              A few quick warm-up lessons will make the algebra much easier.
+            </Text>
+            <Text style={[T.small, { color: '#0f766e', textAlign: 'center', marginTop: 2 }]}>
+              Level 0 · Basic Math will appear on your Home screen.
             </Text>
           </View>
         )}

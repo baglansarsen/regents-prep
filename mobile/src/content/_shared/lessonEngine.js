@@ -12,6 +12,8 @@
  *
  * @returns {object} { getExamPool, getLessonQuestions, getByTopic, buildDiagnosticSet, allQuestions }
  */
+import { orderByDifficulty, isEasy, difficultyOf } from './difficulty'
+
 export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
   // Flatten all exam questions and normalize topics once at construction time.
   const pool = exams.flatMap((exam) =>
@@ -61,6 +63,11 @@ export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
     return pool.filter((q) => q.subTopic === subTopic)
   }
 
+  /** Easy (difficulty ≤2) questions for a unit topic — the in-lesson confidence pool. */
+  function getEasyPool(unitTopic) {
+    return getExamPool(unitTopic).filter(isEasy)
+  }
+
   /** Written/constructed-response pool, optionally filtered to a unit topic. */
   function getWritten(unitTopic = null) {
     return unitTopic ? writtenPool.filter((q) => q.topic === unitTopic) : writtenPool
@@ -82,11 +89,12 @@ export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
   }
 
   // Shared slicer for skill/sub-topic units (no written capstone — pure MC).
+  // Ordered easy→hard within the lesson (light shuffle per tier).
   function sliceLessons(p, lessonIndex, lessonCount) {
-    if (lessonIndex >= lessonCount) return [...p].sort(() => Math.random() - 0.5)
+    if (lessonIndex >= lessonCount) return orderByDifficulty(p)
     const chunkSize = Math.ceil(p.length / lessonCount) || 1
     const slice = p.slice(lessonIndex * chunkSize, lessonIndex * chunkSize + chunkSize)
-    return [...slice].sort(() => Math.random() - 0.5).slice(0, lessonSize)
+    return orderByDifficulty([...slice].sort(() => Math.random() - 0.5).slice(0, lessonSize))
   }
 
   /**
@@ -100,14 +108,15 @@ export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
     // No valid chunking (or asking past the last lesson) → return the whole
     // shuffled pool. Guards lessonCount < 1, which would make chunkSize Infinity.
     if (!(lessonCount >= 1) || lessonIndex >= lessonCount) {
-      return [...topicPool].sort(() => Math.random() - 0.5)
+      return orderByDifficulty(topicPool)
     }
 
     const chunkSize = Math.ceil(topicPool.length / lessonCount)
     const start = lessonIndex * chunkSize
     const slice = topicPool.slice(start, start + chunkSize)
 
-    const mc = [...slice].sort(() => Math.random() - 0.5).slice(0, lessonSize)
+    // Cap to lessonSize via a random pick, then order the chosen set easy→hard.
+    const mc = orderByDifficulty([...slice].sort(() => Math.random() - 0.5).slice(0, lessonSize))
 
     // Capstone: append exactly one open-ended question for this topic. Picked
     // deterministically by lessonIndex so re-attempting a lesson shows the same
@@ -137,5 +146,6 @@ export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
   return {
     getExamPool, getLessonQuestions, getByTopic, buildDiagnosticSet, allQuestions,
     getBySkill, getBySubTopic, getWritten, getSkillLessonQuestions, getSubTopicLessonQuestions,
+    getEasyPool,
   }
 }

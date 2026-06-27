@@ -16,7 +16,25 @@ function streakMultiplier(streak) {
   return 1.0
 }
 
-export function useQuiz(questionSet, { hint = false, repeat = false } = {}) {
+// ── Adaptive confidence loop ──────────────────────────────────────────────────
+// When a student misses STRUGGLE_WRONG in a row, splice STRUGGLE_EASY easier
+// questions into the lesson to rebuild confidence (and ease heart-loss, handled
+// in QuizScreen). Exit after RECOVER_STREAK clean answers in a row.
+const STRUGGLE_WRONG  = 2
+const STRUGGLE_EASY   = 3
+const RECOVER_STREAK  = 3
+const keyOf = (q) => q?.id ?? q?.text
+
+export function useQuiz(questionSet, { hint = false, repeat = false, getEasier = null } = {}) {
+  // The lesson's live question list. Seeded from questionSet; the adaptive loop
+  // may splice in easier questions, so the main pass indexes THIS, not the prop.
+  const [dynamicSet, setDynamicSet] = useState(questionSet)
+  const [struggleMode, setStruggleMode] = useState(false)
+  const consecutiveWrongRef = useRef(0)
+  const recoverRef          = useRef(0)
+  const struggleRef         = useRef(false)
+  struggleRef.current = struggleMode
+
   const [index, setIndex] = useState(0)
   const [score, setScore] = useState(0)
   const [streak, setStreak] = useState(0)
@@ -38,8 +56,8 @@ export function useQuiz(questionSet, { hint = false, repeat = false } = {}) {
   const [repeatIdx,     setRepeatIdx]     = useState(0)
 
   const inRepeat = mode === 'repeat'
-  const currentQuestion = inRepeat ? repeatQueue[repeatIdx] : questionSet[index]
-  const isLast = index === questionSet.length - 1
+  const currentQuestion = inRepeat ? repeatQueue[repeatIdx] : dynamicSet[index]
+  const isLast = index === dynamicSet.length - 1
   // Open-ended capstone question: no choices to select, so it's never auto-graded.
   const isWritten = !!currentQuestion && currentQuestion.type === 'written'
 
@@ -97,8 +115,40 @@ export function useQuiz(questionSet, { hint = false, repeat = false } = {}) {
         points: earned,
       },
     ])
+
+    // ── Adaptive confidence loop (main pass only) ──
+    if (!isCorrect) {
+      consecutiveWrongRef.current += 1
+      recoverRef.current = 0
+      if (getEasier && consecutiveWrongRef.current >= STRUGGLE_WRONG) {
+        const exclude = new Set([
+          ...dynamicSet.map(keyOf),
+          ...results.map((r) => keyOf(r.question)),
+        ])
+        const easy = getEasier(STRUGGLE_EASY, exclude)
+        if (easy.length) {
+          setDynamicSet((prev) => {
+            const copy = [...prev]
+            copy.splice(index + 1, 0, ...easy)   // serve them next
+            return copy
+          })
+          setStruggleMode(true)
+          consecutiveWrongRef.current = 0   // don't immediately re-inject
+        }
+      }
+    } else {
+      consecutiveWrongRef.current = 0
+      if (struggleRef.current) {
+        recoverRef.current += 1
+        if (recoverRef.current >= RECOVER_STREAK) {
+          setStruggleMode(false)
+          recoverRef.current = 0
+        }
+      }
+    }
+
     setPhase('feedback')
-  }, [phase, selected, currentQuestion, inRepeat, repeatIdx, streak, shaky, hintUsed])
+  }, [phase, selected, currentQuestion, inRepeat, repeatIdx, streak, shaky, hintUsed, getEasier, dynamicSet, index, results])
 
   // 50/50: cross out wrong choices until only two remain (correct + one other).
   // Marks the question shaky, so a subsequent correct answer scores as a recovery.
@@ -213,9 +263,13 @@ export function useQuiz(questionSet, { hint = false, repeat = false } = {}) {
     setRepeatQueue([])
     setRepeatPending([])
     setRepeatIdx(0)
+    setDynamicSet(questionSet)
+    setStruggleMode(false)
+    consecutiveWrongRef.current = 0
+    recoverRef.current = 0
     clearQ()
     setPhase('answering')
-  }, [])
+  }, [questionSet])
 
   // Start fresh whenever a new question set loads. The "next lesson" flow reuses
   // this screen via navigation.replace, so without this the previous lesson's
@@ -236,7 +290,8 @@ export function useQuiz(questionSet, { hint = false, repeat = false } = {}) {
     currentQuestion,
     isWritten,
     index,
-    total: questionSet.length,
+    total: dynamicSet.length,
+    struggleMode,
     score,
     streak,
     bestStreak,

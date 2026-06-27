@@ -3,9 +3,9 @@ import { View, Text, TouchableOpacity, ScrollView, StyleSheet } from 'react-nati
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useSubject } from '../context/SubjectContext'
-import { SUBJECT_META } from '../content/subjects'
+import { SUBJECTS, SUBJECT_META } from '../content/subjects'
 
-const SUBJECTS = Object.values(SUBJECT_META)
+const SUBJECTS_LIST = Object.values(SUBJECTS).map((id) => SUBJECT_META[id])
 
 export default function SubjectOnboardingScreen({ onComplete }) {
   const { C } = useTheme()
@@ -26,7 +26,7 @@ export default function SubjectOnboardingScreen({ onComplete }) {
         <Text style={s.subtitle}>You can change this any time in your profile.</Text>
 
         <View style={s.grid}>
-          {SUBJECTS.map(({ id, name, icon, color }) => (
+          {SUBJECTS_LIST.map(({ id, name, icon, color }) => (
             <TouchableOpacity
               key={id}
               style={[s.card, { borderColor: color, backgroundColor: color + '18' }]}
