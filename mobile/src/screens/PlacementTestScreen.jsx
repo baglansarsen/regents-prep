@@ -225,9 +225,24 @@ export default function PlacementTestScreen({ onComplete }) {
     await Promise.all(saves)
 
     // Force-unlock topics that scored ≥ UNLOCK_PCT
-    const forcedTopics = Object.entries(topicScores)
-      .filter(([, { correct, total: t }]) => Math.round((correct / t) * 100) >= UNLOCK_PCT)
-      .map(([topic]) => topic)
+    let forcedTopics = []
+    if (MATH_SUBJECTS.has(subject)) {
+      // Sequential unlock for Math: stop at the first topic below UNLOCK_PCT
+      for (const topic of (sd.TOPIC_ORDER ?? [])) {
+        const sc = topicScores[topic]
+        if (sc && Math.round((sc.correct / sc.total) * 100) >= UNLOCK_PCT) {
+          forcedTopics.push(topic)
+        } else {
+          break
+        }
+      }
+    } else {
+      // Independent unlock for Science: unlock any topic scoring ≥ UNLOCK_PCT
+      forcedTopics = Object.entries(topicScores)
+        .filter(([, { correct, total: t }]) => Math.round((correct / t) * 100) >= UNLOCK_PCT)
+        .map(([topic]) => topic)
+    }
+
     if (forcedTopics.length > 0) {
       await forceUnlock(forcedTopics)
     }
@@ -407,11 +422,25 @@ export default function PlacementTestScreen({ onComplete }) {
   // RENDER: RESULTS
   // ─────────────────────────────────────────────────────────────────────────
   const topicScores  = scoreByTopic(questionSet, answers)
-  const unlockedList = (sd.TOPIC_ORDER ?? []).filter((t) => {
-    const sc = topicScores[t]
-    if (!sc) return false
-    return Math.round((sc.correct / sc.total) * 100) >= UNLOCK_PCT
-  })
+  let unlockedList = []
+  if (MATH_SUBJECTS.has(subject)) {
+    // Sequential unlock for Math: stop at the first topic below UNLOCK_PCT
+    for (const topic of (sd.TOPIC_ORDER ?? [])) {
+      const sc = topicScores[topic]
+      if (sc && Math.round((sc.correct / sc.total) * 100) >= UNLOCK_PCT) {
+        unlockedList.push(topic)
+      } else {
+        break
+      }
+    }
+  } else {
+    // Independent unlock for Science: unlock any topic scoring ≥ UNLOCK_PCT
+    unlockedList = (sd.TOPIC_ORDER ?? []).filter((t) => {
+      const sc = topicScores[t]
+      if (!sc) return false
+      return Math.round((sc.correct / sc.total) * 100) >= UNLOCK_PCT
+    })
+  }
   const totalCorrect = answers.reduce((sum, ans, i) => {
     const q = questionSet[i]
     return sum + (ans === (q.correct ?? q.correctIndex) ? 1 : 0)
@@ -474,7 +503,7 @@ export default function PlacementTestScreen({ onComplete }) {
           const icon     = sd.TOPIC_ICONS?.[topic] ?? '📖'
           const tested   = !!sc
           const pct      = tested ? Math.round((sc.correct / sc.total) * 100) : null
-          const unlocked = tested && pct >= UNLOCK_PCT
+          const unlocked = unlockedList.includes(topic)
 
           return (
             <View key={topic} style={[s.topicRow, cardShadow(C.shadow), {
