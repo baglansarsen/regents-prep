@@ -1,5 +1,6 @@
 import { TOPICS, TOPIC_ICONS } from './questions'
 import { makeLessonApi } from '../_shared/lessonEngine'
+import { isEasy } from '../_shared/difficulty'
 import a2Aug2019 from '../regents-exams/algebra-2/august-2019'
 import a2Jun2019 from '../regents-exams/algebra-2/june-2019'
 import a2Aug2022 from '../regents-exams/algebra-2/august-2022'
@@ -67,3 +68,4 @@ export const allQuestions       = _api.allQuestions
 export const getWritten         = _api.getWritten
 export const getBySkill         = _api.getBySkill
 export const writtenLabel       = 'Worked Examples'
+export function getEasyPool(topic) { return getByTopic(topic).filter(isEasy) }

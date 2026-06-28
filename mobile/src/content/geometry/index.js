@@ -1,7 +1,7 @@
 export { TOPICS, TOPIC_ICONS, shuffled } from './questions'
 export { flashcards, FLASHCARD_TOPIC_LIST } from './flashcards'
 export { ACHIEVEMENTS as achievements } from './achievements'
-export { UNITS, getLessonQuestions, getByTopic, buildDiagnosticSet, getWritten, getBySkill, writtenLabel } from './units'
+export { UNITS, getLessonQuestions, getByTopic, buildDiagnosticSet, getWritten, getBySkill, writtenLabel, getEasyPool } from './units'
 export { STRATEGIES as strategies } from './strategies'
 
 import { TOPICS } from './questions'
