@@ -32,6 +32,9 @@ const q = (number, text, choices, correct, difficulty, explanation, diveDeep) =>
 const qf = (number, text, choices, correct, difficulty, explanation, diveDeep) =>
   ({ number, part: 'A', topic: TOPICS.FRACTIONS, text, choices, correct, difficulty, explanation, diveDeep })
 
+const qr = (number, text, choices, correct, difficulty, explanation, diveDeep) =>
+  ({ number, part: 'A', topic: TOPICS.RATIOS, text, choices, correct, difficulty, explanation, diveDeep })
+
 const INTEGERS_QUESTIONS = [
   q(1, 'What is −7 + 12?', ['−19', '−5', '5', '19'], 2, 1,
     'Adding a positive to a negative moves right on the number line: 12 − 7 = 5.',
@@ -146,4 +149,61 @@ const FRACTIONS_QUESTIONS = [
     'To compare unlike fractions, find a common denominator. LCD(2,5,8,20)=40. 1/2=20/40, 2/5=16/40, 3/8=15/40, 7/20=14/40. So 1/2 wins.'),
 ]
 
-export const QUESTIONS = [...INTEGERS_QUESTIONS, ...FRACTIONS_QUESTIONS]
+const RATIOS_QUESTIONS = [
+  qr(1, 'What is the ratio 4 to 12 in simplest form?', ['1:2', '1:3', '2:6', '4:12'], 1, 1,
+    'GCF of 4 and 12 is 4. Divide both: 4÷4 : 12÷4 = 1:3.',
+    'A ratio is simplified by dividing both terms by their GCF. GCF(4,12)=4, so 4:12 = 1:3. Leave ratios as whole numbers, not fractions.'),
+  qr(2, 'Which ratio is equivalent to 2:3?', ['4:9', '6:8', '8:12', '10:12'], 2, 1,
+    'Multiply both terms by 4: 2×4=8, 3×4=12 → 8:12.',
+    'Equivalent ratios are created by multiplying (or dividing) both terms by the same number. 2:3 × 4/4 = 8:12. Check: 8÷4=2, 12÷4=3 ✓'),
+  qr(3, 'A recipe calls for 2 cups of flour for every 3 cups of sugar. What is the ratio of flour to sugar?', ['2:1', '2:3', '3:2', '5:1'], 1, 1,
+    'The ratio is written in the order stated: flour to sugar = 2:3.',
+    'Ratios preserve the order of the question. "Flour to sugar" → put flour first: 2:3. If the question asked "sugar to flour" the answer would be 3:2.'),
+  qr(4, 'A car travels 120 miles in 3 hours. What is its speed in miles per hour?', ['30 mph', '40 mph', '60 mph', '360 mph'], 1, 1,
+    'Speed = distance ÷ time: 120 ÷ 3 = 40 mph.',
+    'A unit rate has a denominator of 1. Divide both parts of the ratio by 3: 120 miles / 3 hours = 40 miles per 1 hour = 40 mph.'),
+  qr(5, 'Five pencils cost $1.25. What is the cost per pencil?', ['$0.20', '$0.25', '$0.50', '$1.00'], 1, 1,
+    'Divide total cost by number of pencils: $1.25 ÷ 5 = $0.25.',
+    'Unit rate = total ÷ count. $1.25 / 5 = $0.25 per pencil. Always label your unit rate ("per pencil," "per hour," etc.).'),
+  qr(6, 'Simplify the ratio 15:25.', ['1:2', '3:5', '5:3', '15:25'], 1, 1,
+    'GCF(15, 25) = 5. Divide both: 15÷5 : 25÷5 = 3:5.',
+    'Find the GCF first. GCF(15,25)=5. Then 15/5=3 and 25/5=5, giving 3:5. Quick check: 3 and 5 share no common factor, so it is fully simplified.'),
+  qr(7, 'A map uses a scale of 1 inch = 50 miles. How many miles does 3 inches represent?', ['50 miles', '100 miles', '150 miles', '200 miles'], 2, 1,
+    '3 × 50 miles = 150 miles.',
+    'Set up a proportion: 1 inch/50 miles = 3 inches/x miles. Cross-multiply: x = 3 × 50 = 150.'),
+  qr(8, 'A store sells 3 cans of soup for $2.40. What is the price per can?', ['$0.60', '$0.80', '$1.20', '$2.40'], 1, 1,
+    '$2.40 ÷ 3 = $0.80 per can.',
+    'Unit price = total cost ÷ quantity. $2.40/3 = $0.80. Unit prices let you compare deals: the cheaper unit price = better buy.'),
+  qr(9, 'Solve for x: x/3 = 8/12', ['2', '3', '4', '6'], 0, 1,
+    '8/12 simplifies to 2/3. So x/3 = 2/3 → x = 2.',
+    'Cross-multiply: 12x = 3×8 = 24 → x = 24÷12 = 2. Or simplify the right side first: 8/12 = 2/3, so x must equal 2.'),
+  qr(10, 'If a car gets 32 miles per gallon, how far can it travel on 5 gallons?', ['120 miles', '140 miles', '160 miles', '200 miles'], 2, 1,
+    '32 miles/gallon × 5 gallons = 160 miles.',
+    'Set up: 32 miles / 1 gallon = x miles / 5 gallons. Cross-multiply: x = 32 × 5 = 160.'),
+  qr(11, 'Solve for x: 3/5 = x/20', ['4', '8', '12', '15'], 2, 2,
+    'Cross-multiply: 5x = 3×20 = 60 → x = 60÷5 = 12.',
+    'Proportion rule: if a/b = c/d, then ad = bc. Here 3×20 = 5×x → 60 = 5x → x=12. Check: 3/5 = 12/20 = 0.6 ✓'),
+  qr(12, 'Solve for x: 6/x = 2/5', ['5', '10', '12', '15'], 3, 2,
+    'Cross-multiply: 2x = 6×5 = 30 → x = 15.',
+    '6/x = 2/5 → 6×5 = 2×x → 30 = 2x → x=15. Check: 6/15 = 2/5 ✓ (both equal 0.4).'),
+  qr(13, 'The ratio of boys to girls in a class is 3:2. If there are 12 boys, how many girls are there?', ['6', '8', '10', '18'], 1, 2,
+    '3/2 = 12/g → 3g = 24 → g = 8.',
+    'Set up the proportion: boys/girls → 3/2 = 12/g. Cross-multiply: 3g = 24 → g=8. Or: 12 boys ÷ 3 = 4 (scale factor) → 2 × 4 = 8 girls.'),
+  qr(14, 'The ratio of red to blue marbles is 5:3 and there are 24 marbles total. How many are red?', ['10', '12', '15', '18'], 2, 2,
+    'Total parts = 5+3 = 8. Red = 5/8 × 24 = 15.',
+    'Ratio parts: 5 red + 3 blue = 8 parts total. Each part = 24÷8 = 3. Red = 5 × 3 = 15. Check: blue = 3×3=9; 15+9=24 ✓'),
+  qr(15, 'A car travels 30 miles in 45 minutes. What is this speed in miles per hour?', ['30 mph', '35 mph', '40 mph', '45 mph'], 2, 2,
+    '45 min = 3/4 hour. Speed = 30 ÷ 3/4 = 30 × 4/3 = 40 mph.',
+    'Convert time to hours: 45 min ÷ 60 = 0.75 h. Rate = 30/0.75 = 40 mph. Or: in 60 min you go 30×(60/45) = 30×4/3 = 40 miles.'),
+  qr(16, 'Two quantities are proportional. When x = 4, y = 10. Find y when x = 6.', ['12', '14', '15', '16'], 2, 2,
+    'Set up: 10/4 = y/6 → 4y = 60 → y = 15.',
+    'Proportional means y/x is constant. Constant = 10/4 = 2.5. When x=6: y = 2.5×6 = 15. Or cross-multiply the proportion directly.'),
+  qr(17, 'A recipe for 4 servings needs 3/4 cup of milk. How much milk is needed for 8 servings?', ['3/4 cup', '1 cup', '1 1/4 cups', '1 1/2 cups'], 3, 2,
+    '8 servings is double 4 servings, so double the milk: 2 × 3/4 = 6/4 = 1 1/2 cups.',
+    'Scale factor = 8÷4 = 2. Multiply every ingredient by 2: 3/4 × 2 = 6/4 = 3/2 = 1 1/2 cups.'),
+  qr(18, 'A photograph is 4 inches wide and 6 inches tall. It is enlarged so the width becomes 10 inches. What is the new height?', ['12 in', '14 in', '15 in', '16 in'], 2, 2,
+    'Scale factor = 10÷4 = 2.5. New height = 6 × 2.5 = 15 inches.',
+    'Set up a proportion: 4/6 = 10/h → 4h = 60 → h = 15. The ratio of width to height must stay the same to keep the image undistorted.'),
+]
+
+export const QUESTIONS = [...INTEGERS_QUESTIONS, ...FRACTIONS_QUESTIONS, ...RATIOS_QUESTIONS]

@@ -15,6 +15,7 @@ const _api = makeLessonApi({ exams: [{ questions: QUESTIONS }], topicMap: TOPIC_
 export const UNITS = [
   { id: 'basic-integers',  title: 'Integers & Order of Operations', icon: TOPIC_ICONS[TOPICS.INTEGERS],  color: '#0d9488', darkColor: '#0f766e', topic: TOPICS.INTEGERS,  lessonCount: 2 },
   { id: 'basic-fractions', title: 'Fractions, Decimals & Percents',  icon: TOPIC_ICONS[TOPICS.FRACTIONS], color: '#d97706', darkColor: '#b45309', topic: TOPICS.FRACTIONS, lessonCount: 2 },
+  { id: 'basic-ratios',    title: 'Ratios & Proportions',           icon: TOPIC_ICONS[TOPICS.RATIOS],    color: '#7c3aed', darkColor: '#6d28d9', topic: TOPICS.RATIOS,    lessonCount: 2 },
 ]
 
 export const getLessonQuestions = _api.getLessonQuestions
