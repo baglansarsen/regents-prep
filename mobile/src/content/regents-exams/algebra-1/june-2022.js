@@ -1,4 +1,4 @@
-// Enriched Algebra 1 exam — tagged with skill + subTopic (see content/_shared/lessonEngine.js)
+// Enriched algebra-1 exam — difficulty tags mapped offline
 export default {
   "id": "a1-jun-2022",
   "subject": "algebra-1",
@@ -20,7 +20,9 @@ export default {
       "correct": 0,
       "explanation": "Add 9 to both sides to get 6x = 24, then divide by 6 to find x = 4.",
       "diveDeep": "This is a two-step linear equation. The strategy is to undo operations in reverse order: first undo the subtraction (add 9), then undo the multiplication (divide by 6). A common mistake is dividing before adding, or forgetting to apply the operation to both sides. You can always check your answer by substituting back: 6(4) − 9 = 24 − 9 = 15. ✓",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
     },
     {
       "number": 2,
@@ -37,7 +39,9 @@ export default {
       "explanation": "A parabola with its vertex at the origin (0, 0) touches the x-axis at exactly one point, giving exactly one x-intercept.",
       "diveDeep": "An x-intercept occurs where a graph crosses or touches the x-axis (where y = 0). A parabola whose vertex sits on the x-axis touches it once (a double root). The horizontal line y = 0 IS the x-axis, so it intersects everywhere (infinitely many), and a vertical line is not even a function. When counting x-intercepts, think about how many times the curve meets the x-axis — a positive-slope line with nonzero y-intercept also crosses once, so read each description carefully for the function-vs-relation distinction.",
       "skill": "graphing",
-      "subTopic": "Interpreting Graphs"
+      "subTopic": "Interpreting Graphs",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
     },
     {
       "number": 3,
@@ -53,7 +57,9 @@ export default {
       "correct": 0,
       "explanation": "Set 2x − 4 = −x + 5, giving 3x = 9, so x = 3 and y = 2(3) − 4 = 2; the point is (3, 2).",
       "diveDeep": "When two equations are both solved for y, the fastest method is substitution: set the right-hand sides equal to each other. This finds the x-value where the lines cross; then plug it into either equation to get y. A common error is stopping after finding x and never computing y. You can verify by checking the point satisfies BOTH equations: −(3) + 5 = 2. ✓",
-      "subTopic": "Solving Systems"
+      "subTopic": "Solving Systems",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
     },
     {
       "number": 4,
@@ -69,7 +75,9 @@ export default {
       "correct": 0,
       "explanation": "This is a difference of two squares: (x − 5)(x + 5) = x² − 25, since the middle terms (−5x and +5x) cancel.",
       "diveDeep": "The pattern (a − b)(a + b) = a² − b² is one of the most useful identities in algebra. Because the outer and inner products are opposites, they cancel, leaving no middle term. Students often incorrectly add a middle term or square the constant as +25 instead of recognizing the subtraction. Recognizing this pattern in reverse also lets you factor expressions like x² − 25 quickly into (x − 5)(x + 5).",
-      "subTopic": "Polynomial Operations"
+      "subTopic": "Polynomial Operations",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
     },
     {
       "number": 5,
@@ -85,7 +93,9 @@ export default {
       "correct": 0,
       "explanation": "Factoring gives (x − 4)(x + 2) = 0, so the roots are x = 4 and x = −2; 4 is the listed root.",
       "diveDeep": "A root (or zero) of a function is an x-value that makes f(x) = 0. To find roots of a quadratic, factor it into two binomials whose constants multiply to −8 and add to −2 (namely −4 and +2). You can always verify a candidate by substitution: f(4) = 16 − 8 − 8 = 0. ✓ A frequent mistake is mixing up the sign of the root versus the factor — the factor (x − 4) gives the root x = +4.",
-      "subTopic": "Quadratic Models"
+      "subTopic": "Quadratic Models",
+      "difficulty": 2,
+      "difficultyRationale": "Requires evaluating a function for a given numerical input using order of operations."
     },
     {
       "number": 6,
@@ -101,7 +111,9 @@ export default {
       "correct": 0,
       "explanation": "The interquartile range (IQR) is Q3 − Q1 = 55 − 25 = 30.",
       "diveDeep": "The IQR measures the spread of the middle 50% of the data and is found by subtracting the first quartile from the third quartile. Unlike the range (Max − Min = 60 here), the IQR is resistant to outliers, which is why it pairs with the median to describe skewed data. A common error is computing the full range instead of the IQR, or subtracting the median. The IQR is also the length of the box in a box plot.",
-      "subTopic": "Data & Distributions"
+      "subTopic": "Data & Distributions",
+      "difficulty": 1,
+      "difficultyRationale": "Requires reading statistical values directly from a box plot."
     },
     {
       "number": 7,
@@ -117,7 +129,9 @@ export default {
       "correct": 0,
       "explanation": "The slope is (9 − 5)/(4 − 2) = 2, and using point (2, 5): 5 = 2(2) + b gives b = 1, so y = 2x + 1.",
       "diveDeep": "To write a line through two points, first find the slope (change in y over change in x), then substitute one point to solve for the y-intercept. Be careful to subtract the coordinates in the same order in numerator and denominator. A quick verification is to test the second point: y = 2(4) + 1 = 9. ✓ Both given points should satisfy the final equation.",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
     },
     {
       "number": 8,
@@ -133,7 +147,9 @@ export default {
       "correct": 0,
       "explanation": "Substitute x = −3: (−3)² + 2(−3) − 1 = 9 − 6 − 1 = 2.",
       "diveDeep": "Evaluating a function means replacing every x with the input value and simplifying. The most common error is mishandling the squared negative: (−3)² = 9 (positive), not −9, because the entire −3 is squared. Use parentheses around the input to avoid sign mistakes. Follow order of operations: exponents first, then multiplication, then addition and subtraction left to right.",
-      "subTopic": "Function Notation"
+      "subTopic": "Function Notation",
+      "difficulty": 2,
+      "difficultyRationale": "Requires evaluating a function for a given numerical input using order of operations."
     },
     {
       "number": 9,
@@ -149,7 +165,9 @@ export default {
       "correct": 0,
       "explanation": "Check (−1, 4): y = −(−1) + 3 = 4 ✓ and y = 2(−1) + 6 = 4 ✓, so both equations are satisfied.",
       "diveDeep": "A solution to a system must satisfy ALL equations simultaneously. The fastest way to verify a candidate point is direct substitution into each equation in a choice. A common mistake is checking only one equation and stopping; an ordered pair might fit one line but not the other. Substitute the x-value, compute y, and confirm it matches the given y-coordinate for every equation in the option.",
-      "subTopic": "Solving Systems"
+      "subTopic": "Solving Systems",
+      "difficulty": 3,
+      "difficultyRationale": "Requires solving a system of linear equations algebraically or checking solution points."
     },
     {
       "number": 10,
@@ -165,7 +183,9 @@ export default {
       "correct": 0,
       "explanation": "The degree is the highest exponent on the variable, which is 4 (from the term 5x⁴).",
       "diveDeep": "The degree of a polynomial is the largest exponent among all its terms, not the number of terms or the leading coefficient. Here the exponents are 4, 2, 1, and 0, so the degree is 4. Students sometimes confuse the degree with the leading coefficient (5) or count the terms (4 terms). The degree tells you the maximum number of roots and the end behavior of the graph.",
-      "subTopic": "Polynomial Operations"
+      "subTopic": "Polynomial Operations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 11,
@@ -182,7 +202,9 @@ export default {
       "explanation": "The axis of symmetry is x = −b/(2a) = −(−12)/(2·3) = 12/6 = 2.",
       "diveDeep": "For a quadratic in standard form y = ax² + bx + c, the axis of symmetry (and the x-coordinate of the vertex) is x = −b/(2a). Watch the signs carefully: b = −12, so −b = +12. A common error is forgetting the negative sign in the formula or dividing by a instead of 2a. The parabola is a mirror image across this vertical line, so the vertex lies on it.",
       "skill": "graphing",
-      "subTopic": "Graphing Parabolas"
+      "subTopic": "Graphing Parabolas",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 12,
@@ -198,7 +220,9 @@ export default {
       "correct": 0,
       "explanation": "The primes from 1 to 10 are 2, 3, 5, and 7 — that is 4 out of 10 tiles, which simplifies to 2/5.",
       "diveDeep": "Probability is the number of favorable outcomes divided by the total number of equally likely outcomes. The key here is correctly identifying the prime numbers: 1 is NOT prime (a common mistake), and even numbers other than 2 are not prime. So the primes are 2, 3, 5, 7 → 4/10 = 2/5. Always simplify your final fraction.",
-      "subTopic": "Probability"
+      "subTopic": "Probability",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 13,
@@ -215,7 +239,9 @@ export default {
       "explanation": "Each dime is worth $0.10 (so 0.10d) and each nickel is worth $0.05 with (2d + 5) nickels, giving 0.10d + 0.05(2d + 5) = 1.45.",
       "diveDeep": "Coin word problems require multiplying the VALUE of each coin by the NUMBER of that coin, then summing to the total dollar amount. A dime is worth $0.10 and a nickel $0.05 — a frequent error is mixing up which coin is worth more or forgetting to multiply by the value (as in choices C and D, which only add quantities). Translate the phrase \"5 more than twice the dimes\" as 2d + 5, and attach it to the nickel value 0.05.",
       "skill": "modeling",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 14,
@@ -231,7 +257,9 @@ export default {
       "correct": 0,
       "explanation": "The form is f(x) = a·bˣ with a = 0.5 (initial value) and base b = 2 > 1, so it represents exponential growth.",
       "diveDeep": "In an exponential function f(x) = a·bˣ, the value a is the initial value (the y-intercept at x = 0) and b is the growth or decay factor. When b > 1 the function grows; when 0 < b < 1 it decays. Do not let the small initial value 0.5 trick you into thinking it decays — decay depends on the BASE, not on a. Since the base 2 is greater than 1, the function increases.",
-      "subTopic": "Function Notation"
+      "subTopic": "Function Notation",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 15,
@@ -247,7 +275,9 @@ export default {
       "correct": 0,
       "explanation": "Set x + 4 = x² − 2, giving x² − x − 6 = 0 → (x − 3)(x + 2) = 0, so x = 3 (y = 7) and x = −2 (y = 2).",
       "diveDeep": "To find where a line and a parabola intersect, set the expressions equal and solve the resulting quadratic. Move everything to one side to get x² − x − 6 = 0, then factor. Each x-value gives an intersection point — plug it into the simpler (line) equation to get y. A system of a line and a parabola can have 0, 1, or 2 solutions; here there are two real intersection points.",
-      "subTopic": "Solving Systems"
+      "subTopic": "Solving Systems",
+      "difficulty": 3,
+      "difficultyRationale": "Requires solving a system of linear equations algebraically or checking solution points."
     },
     {
       "number": 16,
@@ -263,7 +293,9 @@ export default {
       "correct": 0,
       "explanation": "Factor out the greatest common factor 2 from both terms: 2x² − 8 = 2(x² − 4).",
       "diveDeep": "Always look for a greatest common factor (GCF) first when factoring. Here both terms share a factor of 2, leaving x² − 4 inside. Note that x² − 4 could be factored further as (x − 2)(x + 2) — a difference of squares — so the fully factored form is 2(x − 2)(x + 2), which is NOT the same as choice C, 2(x − 2)(x − 2). Be careful to match signs exactly when checking equivalent expressions.",
-      "subTopic": "Polynomial Operations"
+      "subTopic": "Polynomial Operations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 17,
@@ -279,7 +311,9 @@ export default {
       "correct": 0,
       "explanation": "In vertex form f(x) = a(x − h)² + k with a = −2 < 0, the parabola opens downward and its maximum is the vertex value k = 8.",
       "diveDeep": "Vertex form a(x − h)² + k reveals the vertex (h, k) directly. When a is negative the parabola opens downward, so the vertex is the MAXIMUM; when a is positive it opens upward and the vertex is the minimum. The maximum value is the y-coordinate of the vertex, k = 8 (not the x-coordinate h = −1). Because the squared term is always ≥ 0, multiplying by −2 makes it ≤ 0, so the largest f(x) can be is when the squared term equals 0.",
-      "subTopic": "Graphing Parabolas"
+      "subTopic": "Graphing Parabolas",
+      "difficulty": 3,
+      "difficultyRationale": "Requires finding the vertex, minimum, or maximum value of a quadratic function."
     },
     {
       "number": 18,
@@ -295,7 +329,9 @@ export default {
       "correct": 0,
       "explanation": "In a perfectly symmetric distribution the mean and median fall at the same center point, so the mean equals the median.",
       "diveDeep": "The relationship between mean and median reveals skew. In a symmetric distribution they coincide; in a right-skewed (positive) distribution the mean is pulled above the median by large values, and in a left-skewed distribution the mean is below the median. The mean is sensitive to outliers while the median is resistant, which is why comparing them is a quick way to detect skewness in a data set.",
-      "subTopic": "Data & Distributions"
+      "subTopic": "Data & Distributions",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 19,
@@ -312,7 +348,9 @@ export default {
       "explanation": "Split into 2x − 3 = 7 (x = 5) and 2x − 3 = −7 (x = −2), giving the two solutions x = 5 and x = −2.",
       "diveDeep": "An absolute value equation |expression| = k (with k > 0) produces TWO cases because the inside can be either positive or negative k. Solve each linear equation separately. A common mistake is finding only the positive case or forgetting to negate the entire right side. If k were negative there would be no solution, since absolute value is never negative.",
       "skill": "procedure",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 20,
@@ -328,7 +366,9 @@ export default {
       "correct": 0,
       "explanation": "Swap x and y in y = 3x + 1 to get x = 3y + 1, then solve for y: y = (x − 1)/3.",
       "diveDeep": "To find an inverse function, swap x and y, then solve for the new y. The inverse \"undoes\" the original function, so the operations reverse order: the original multiplies by 3 then adds 1, so the inverse subtracts 1 then divides by 3. A common error is reversing only part of the process or distributing incorrectly. You can verify with f(f⁻¹(x)) = x: 3·((x−1)/3) + 1 = x. ✓",
-      "subTopic": "Function Notation"
+      "subTopic": "Function Notation",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 21,
@@ -344,7 +384,9 @@ export default {
       "correct": 0,
       "explanation": "Let p = pencils, n = pens: p + n = 12 and 0.25p + 1.50n = 6.75; solving gives p = 9, n = 3.",
       "diveDeep": "This is a classic two-variable word problem solved with a system: one equation for the count of items and one for the total cost. Substitute n = 12 − p into the cost equation: 0.25p + 1.50(12 − p) = 6.75, which simplifies to −1.25p + 18 = 6.75, so p = 9. Be sure to keep the units consistent (dollars) and confirm the answer satisfies both the count and the cost.",
-      "subTopic": "Solving Systems"
+      "subTopic": "Solving Systems",
+      "difficulty": 3,
+      "difficultyRationale": "Requires solving a system of linear equations algebraically or checking solution points."
     },
     {
       "number": 22,
@@ -360,7 +402,9 @@ export default {
       "correct": 3,
       "explanation": "Raising (2x) to the 4th power gives 2⁴x⁴ = 16x⁴, so (2x)⁴ is equivalent.",
       "diveDeep": "When raising a product to a power, apply the exponent to each factor: (2x)⁴ = 2⁴ · x⁴ = 16x⁴. Note that choices A and B also equal 16x⁴ — (4x²)² = 16x⁴ and 4²x⁴ = 16x⁴ — so this item really tests recognizing all equivalent forms; the keyed answer highlights the fully factored power-of-a-product form. Be careful with 16^(1/4) = 2, which combined with only one x does not reproduce x⁴.",
-      "subTopic": "Polynomial Operations"
+      "subTopic": "Polynomial Operations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 23,
@@ -376,7 +420,9 @@ export default {
       "correct": 0,
       "explanation": "Factoring gives (2x + 1)(x − 3) = 0, so x = −1/2 and x = 3.",
       "diveDeep": "For a quadratic with a leading coefficient other than 1, factor by finding two numbers that multiply to a·c = 2·(−3) = −6 and add to b = −5 (namely −6 and +1), then group. Each factor set to zero gives a zero of the function. A common error is sign confusion: the factor (2x + 1) gives x = −1/2, not +1/2. You can verify with the quadratic formula or by substitution: f(3) = 18 − 15 − 3 = 0. ✓",
-      "subTopic": "Solving Quadratics"
+      "subTopic": "Solving Quadratics",
+      "difficulty": 3,
+      "difficultyRationale": "Requires solving a quadratic equation to find the roots or zeros."
     },
     {
       "number": 24,
@@ -393,7 +439,9 @@ export default {
       "explanation": "With 7 ordered values, the median is the 4th value, 80, which represents the typical (center) score and is resistant to the low outlier of 55.",
       "diveDeep": "The median is the middle value of an ordered data set and is the best measure of center when there are low or high outliers (here 55 pulls the mean down). The mode is the most frequent value, but with no repeats it is not meaningful, and the range only describes spread, not a typical value. For a data set with an even number of values, the median is the average of the two middle numbers; with 7 values it is simply the 4th.",
       "skill": "modeling",
-      "subTopic": "Data & Distributions"
+      "subTopic": "Data & Distributions",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 25,
@@ -405,7 +453,9 @@ export default {
       "diveDeep": "A number is rational if it can be expressed as a ratio of two integers. √1024 = 32 because 32² = 1024, so it is a rational integer. Multiplying two rational numbers always yields another rational number — the result −108.8 = −544/5 confirms this. A common mistake is assuming any expression involving a square root must be irrational; only irrational square roots (of non-perfect squares) produce irrational results. Since both factors here are rational, no irrational numbers are involved at all.",
       "modelAnswer": "Step 1: Evaluate √1024. Since 32² = 1024, √1024 = 32.\nStep 2: Multiply: 32 × (−3.4) = −108.8.\nStep 3: Classify: −108.8 is a terminating decimal, which can be written as −544/5. A ratio of two integers is rational.\nConclusion: The product is rational because both √1024 = 32 and −3.4 are rational numbers, and the product of two rational numbers is always rational.",
       "skill": "reasoning",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Requires explaining real number properties (closure) by providing a counterexample."
     },
     {
       "number": 26,
@@ -417,7 +467,9 @@ export default {
       "diveDeep": "Vertex form g(x) = a(x − h)² + k encodes transformations directly: h gives the horizontal shift (positive h means right), and k gives the vertical shift (positive k means up, negative means down). Here h = 3 (shift right 3) and k = −4 (shift down 4). A frequent error is reading (x − 3) as a shift left because the sign inside is negative — remember the shift is opposite to the sign in the parentheses. Because a = 1 (unchanged), there is no reflection or vertical stretch.",
       "modelAnswer": "Compare g(x) = (x − 3)² − 4 with f(x) = x² = (x − 0)² + 0 using vertex form a(x − h)² + k:\n• h = 3: translate the graph 3 units to the right.\n• k = −4: translate the graph 4 units down.\n• a = 1: no vertical stretch, compression, or reflection.\nThe vertex of f is (0, 0); the vertex of g is (3, −4). The parabola has the same shape and opens upward, but is shifted right 3 and down 4.",
       "skill": "graphing",
-      "subTopic": "Graphing Parabolas"
+      "subTopic": "Graphing Parabolas",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 27,
@@ -430,7 +482,9 @@ export default {
       "diveDeep": "The average rate of change of a function over an interval [a, b] is (f(b) − f(a)) / (b − a), which geometrically is the slope of the secant line between those two points. For this context it represents the average increase in total profit per hour over those three hours. Reading graph values accurately is critical — common errors include misreading axis scales or subtracting x-values in the wrong order. The units are dollars ÷ hours = dollars per hour.",
       "modelAnswer": "Step 1: Read function values from the graph.\n  At x = 1: profit = $20\n  At x = 4: profit = $80\nStep 2: Apply the average rate of change formula:\n  Average rate of change = (f(4) − f(1)) / (4 − 1) = (80 − 20) / 3 = 60 / 3 = 20\nAnswer: The average rate of change over 1 ≤ x ≤ 4 is $20 per hour.",
       "skill": "modeling",
-      "subTopic": "Interpreting Graphs"
+      "subTopic": "Interpreting Graphs",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 28,
@@ -442,7 +496,9 @@ export default {
       "diveDeep": "\"Subtract A from B\" means B − A, so the computation is 6(x² − xy) − 3x(x − 2y). A very common error is reversing the order and computing A − B instead. After expanding, the like terms −6xy and +6xy cancel completely, leaving only 3x². The cancellation of the xy terms is what makes the result a monomial rather than a binomial — the problem is designed to test whether students recognize this simplification.",
       "modelAnswer": "Step 1: Expand 6(x² − xy) = 6x² − 6xy.\nStep 2: Expand 3x(x − 2y) = 3x² − 6xy.\nStep 3: Subtract (subtract the second from the first, since \"subtract A from B\" = B − A):\n  (6x² − 6xy) − (3x² − 6xy)\n  = 6x² − 6xy − 3x² + 6xy\n  = 3x² + (−6xy + 6xy)\n  = 3x²\nAnswer: 3x² (a monomial).",
       "skill": "procedure",
-      "subTopic": "Polynomial Operations"
+      "subTopic": "Polynomial Operations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 29,
@@ -454,7 +510,9 @@ export default {
       "diveDeep": "Domain and range are read from the graph by looking at the extent of the curve along each axis. Domain is determined by scanning left-to-right (minimum x to maximum x), and range by scanning bottom-to-top (minimum y to maximum y). Pay attention to whether endpoints are open (circle, excluded) or closed (dot, included) to decide between strict and non-strict inequalities. Closed dots mean the endpoint value IS included; open circles mean it is not.",
       "modelAnswer": "Step 1: Identify the leftmost and rightmost x-values on the graph to find the domain.\n  Domain: −4 ≤ x ≤ 4 (or {x | −4 ≤ x ≤ 4})\nStep 2: Identify the lowest and highest y-values on the graph to find the range.\n  Range: −2 ≤ y ≤ 6 (or {y | −2 ≤ y ≤ 6})\nNote: Use open/closed intervals according to whether endpoints are included on the actual graph provided.",
       "skill": "graphing",
-      "subTopic": "Domain & Range"
+      "subTopic": "Domain & Range",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 30,
@@ -466,7 +524,9 @@ export default {
       "diveDeep": "To factor a quadratic with a leading coefficient, find two numbers that multiply to a·c = 6·(−6) = −36 and add to b = 5 (namely +9 and −4), then split the middle term and group: 6x² + 9x − 4x − 6 = 3x(2x + 3) − 2(2x + 3) = (3x − 2)(2x + 3). Setting each factor to zero and solving gives the exact rational answers. Alternatively, the quadratic formula with a = 6, b = 5, c = −6 gives the same result. Exact values means leave answers as fractions, not decimals.",
       "modelAnswer": "Step 1: Find factors of ac = 6(−6) = −36 that add to 5: +9 and −4.\nStep 2: Rewrite and factor by grouping:\n  6x² + 9x − 4x − 6\n  = 3x(2x + 3) − 2(2x + 3)\n  = (3x − 2)(2x + 3)\nStep 3: Set each factor equal to zero:\n  3x − 2 = 0 → x = 2/3\n  2x + 3 = 0 → x = −3/2\nAnswer: x = 2/3 or x = −3/2.",
       "skill": "procedure",
-      "subTopic": "Solving Quadratics"
+      "subTopic": "Solving Quadratics",
+      "difficulty": 3,
+      "difficultyRationale": "Requires solving a quadratic equation by isolating the squared term and taking the square root."
     },
     {
       "number": 31,
@@ -478,7 +538,9 @@ export default {
       "diveDeep": "\"Factor completely\" means apply every possible factoring strategy in sequence. Step one is always to look for a greatest common factor — here x² can be factored out. Step two recognizes x² − 36 as a difference of perfect squares (a² − b² = (a−b)(a+b)) with a = x and b = 6. Note that x² itself cannot be factored further over the integers, so the final answer is x²(x − 6)(x + 6). Omitting either the GCF or the difference-of-squares step earns only partial credit.",
       "modelAnswer": "Step 1: Factor out the GCF, x²:\n  x⁴ − 36x² = x²(x² − 36)\nStep 2: Factor x² − 36 as a difference of squares (x² − 6²):\n  = x²(x − 6)(x + 6)\nStep 3: Check that no factor can be factored further. x² is already a perfect square monomial; (x − 6) and (x + 6) are linear and irreducible.\nAnswer: x²(x − 6)(x + 6).",
       "skill": "procedure",
-      "subTopic": "Factoring"
+      "subTopic": "Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 32,
@@ -489,7 +551,9 @@ export default {
       "explanation": "Complete the square: (x − 4)² = 21, so x = 4 ± √21.",
       "diveDeep": "Completing the square converts ax² + bx + c = 0 into (x − h)² = k form. Move the constant to the right, add (b/2)² to both sides, then write the left side as a perfect square trinomial. Here b = −8, so (b/2)² = 16. Adding 16 to both sides gives x² − 8x + 16 = 21, or (x − 4)² = 21. Taking the square root of both sides (remembering ±) and solving gives the two exact irrational solutions. The problem specifies \"completing the square,\" so using the quadratic formula earns no credit even if the answer is correct.",
       "modelAnswer": "Step 1: Move the constant to the right side:\n  x² − 8x = 5\nStep 2: Complete the square — take half of −8 (= −4), square it (= 16), and add to both sides:\n  x² − 8x + 16 = 5 + 16\n  (x − 4)² = 21\nStep 3: Take the square root of both sides:\n  x − 4 = ±√21\nStep 4: Solve for x:\n  x = 4 + √21  or  x = 4 − √21\nAnswer: x = 4 ± √21.",
-      "subTopic": "Quadratic Models"
+      "subTopic": "Quadratic Models",
+      "difficulty": 3,
+      "difficultyRationale": "Requires solving a quadratic equation by isolating the squared term and taking the square root."
     },
     {
       "number": 33,
@@ -502,7 +566,9 @@ export default {
       "diveDeep": "Interpreting a graph in context requires connecting mathematical features to real-world meaning. Zeros (x-intercepts) occur where y = 0, which in this context means the kite height is zero — the kite is on the ground at those times. Increasing intervals are where the graph goes up as you move left to right. The maximum is the peak y-value. Students often confuse where the graph is at zero height with some other event; always tie the math directly to the story (height of a kite in feet over time in minutes).",
       "modelAnswer": "Zeros: The zeros of the graph represent the times when the kite is on the ground (height = 0 feet). The kite starts on the ground, and any other zero represents when it returns to the ground.\n\nIncreasing intervals: The height of the kite is increasing on the intervals where the graph rises (moves upward from left to right). Based on the graph, this is approximately 0 < x < 1 minute (first rise segment).\n\nMaximum height: The maximum height that the kite reaches is approximately 40 feet, which occurs at the highest point of the graph.",
       "skill": "reasoning",
-      "subTopic": "Interpreting Graphs"
+      "subTopic": "Interpreting Graphs",
+      "difficulty": 4,
+      "difficultyRationale": "Standard Regents Part III constructed-response requiring multi-step modeling, graphing, and algebraic justification."
     },
     {
       "number": 34,
@@ -514,7 +580,9 @@ export default {
       "diveDeep": "Graphing both functions on the same axes lets you visually identify intersections, which correspond to solutions of f(x) = g(x). The parabola f(x) = x² − 1 has vertex (0, −1) and opens upward; the line g(x) = 3x passes through the origin with slope 3. A line and an upward parabola can intersect 0, 1, or 2 times depending on their relative positions. Setting them equal and checking the discriminant (b² − 4ac = 9 + 4 = 13 > 0) confirms exactly 2 intersection points. Students should label both graphs clearly and indicate the intersection points.",
       "modelAnswer": "Graph f(x) = x² − 1 (parabola, vertex at (0, −1), opens upward) and g(x) = 3x (line through origin, slope 3).\n\nKey points for f(x): (−2, 3), (−1, 0), (0, −1), (1, 0), (2, 3).\nKey points for g(x): (−1, −3), (0, 0), (1, 3), (2, 6).\n\nThe graphs intersect at 2 points.\n\nExplanation: Setting f(x) = g(x): x² − 1 = 3x → x² − 3x − 1 = 0. The discriminant = (−3)² − 4(1)(−1) = 9 + 4 = 13 > 0, confirming two distinct real solutions. Therefore the graphs intersect at exactly 2 values of x.",
       "skill": "reasoning",
-      "subTopic": "Solving Systems"
+      "subTopic": "Solving Systems",
+      "difficulty": 4,
+      "difficultyRationale": "Standard Regents Part III constructed-response requiring multi-step modeling, graphing, and algebraic justification."
     },
     {
       "number": 35,
@@ -526,7 +594,9 @@ export default {
       "diveDeep": "Linear regression finds the line of best fit that minimizes the sum of squared residuals (distances from data points to the line). The slope −0.89 means that for each additional year of age, the percentage of speeding accidents decreases by about 0.89 percentage points on average. The correlation coefficient r ranges from −1 to 1; values near −1 indicate a strong negative linear association (as one variable increases, the other decreases). An r of −0.99 is extremely close to −1, meaning driver age is an excellent linear predictor of speeding accident percentage in this dataset.",
       "modelAnswer": "Using a graphing calculator (STAT → LinReg(ax+b) with L1 = age, L2 = percentage):\n\nLinear regression equation: y = −0.89x + 64.27\n(where x = driver age and y = percentage of accidents caused by speeding)\n\nCorrelation coefficient: r ≈ −0.99\n\nInterpretation: The correlation coefficient of −0.99 is very close to −1, indicating a very strong negative linear relationship between driver age and the percentage of accidents caused by speeding. As the age of the driver increases, the percentage of accidents caused by speeding decreases in a nearly linear pattern.",
       "skill": "reasoning",
-      "subTopic": "Scatter Plots & Correlation"
+      "subTopic": "Scatter Plots & Correlation",
+      "difficulty": 4,
+      "difficultyRationale": "Requires performing linear regression, writing the equation, finding the correlation coefficient, and interpreting its sign in context."
     },
     {
       "number": 36,
@@ -538,7 +608,9 @@ export default {
       "diveDeep": "Graphing a system of inequalities requires graphing each boundary line (solid for ≤ or ≥, dashed for < or >), then shading the correct half-plane for each. The solution set is the intersection of all shaded regions. To test a point, substitute its coordinates into each inequality; if it satisfies ALL inequalities, it is a solution. At (0, 3): 2(0) + 3(3) = 9 ≤ 9 ✓ and 2(3) = 6 ≥ 4(0) + 6 = 6 ✓. Since (0, 3) is on the boundary of both lines and both use ≤ / ≥ (non-strict), boundary points are included in the solution.",
       "modelAnswer": "Graph inequality 1: 2x + 3y ≤ 9\n  Boundary line: 2x + 3y = 9 (solid line; intercepts at (4.5, 0) and (0, 3))\n  Shade below the line (where 2x + 3y < 9).\n\nGraph inequality 2: 2y ≥ 4x + 6 → y ≥ 2x + 3\n  Boundary line: y = 2x + 3 (solid line; y-intercept (0, 3), slope 2)\n  Shade above the line.\n\nLabel the overlapping region S.\n\nTest point (0, 3):\n  Inequality 1: 2(0) + 3(3) = 9 ≤ 9 ✓\n  Inequality 2: 2(3) = 6 ≥ 4(0) + 6 = 6 ✓\n\nConclusion: (0, 3) satisfies both inequalities, so it IS a solution to the system.",
       "skill": "reasoning",
-      "subTopic": "Solving Systems"
+      "subTopic": "Solving Systems",
+      "difficulty": 4,
+      "difficultyRationale": "Standard Regents Part III constructed-response requiring multi-step modeling, graphing, and algebraic justification."
     },
     {
       "number": 37,
@@ -550,7 +622,9 @@ export default {
       "diveDeep": "Writing a system of equations from a word problem requires identifying the unknowns and forming one equation per condition given. Group 1: 6 people with 2 children means 4 adults and 2 children → 4a + 2c = 325.94. Group 2: 5 people with 3 children means 2 adults and 3 children → 2a + 3c = 256.95. Solve algebraically using elimination or substitution. For the final part, interpret \"a group of four that includes three children\" as 1 adult and 3 children, then evaluate 1·a + 3·c. A common mistake is misreading the group composition or computing the wrong combination in part (c).",
       "modelAnswer": "Part (a) — System of equations:\n  Group 1: 4 adults + 2 children = $325.94 → 4a + 2c = 325.94\n  Group 2: 2 adults + 3 children = $256.95 → 2a + 3c = 256.95\n\nPart (b) — Solve algebraically (elimination):\n  Multiply the second equation by 2:\n    4a + 6c = 513.90\n  Subtract the first equation:\n    (4a + 6c) − (4a + 2c) = 513.90 − 325.94\n    4c = 187.96\n    c = 46.99\n  Substitute c = 46.99 into 2a + 3c = 256.95:\n    2a + 3(46.99) = 256.95\n    2a + 140.97 = 256.95\n    2a = 115.98\n    a = 57.99\n\n  Adult ticket: $57.99  |  Child ticket: $46.99\n\nPart (c) — Cost for 4 people, 3 children (= 1 adult + 3 children):\n  1(57.99) + 3(46.99) = 57.99 + 140.97 = $198.96",
       "skill": "modeling",
-      "subTopic": "Solving Systems"
+      "subTopic": "Solving Systems",
+      "difficulty": 5,
+      "difficultyRationale": "Part IV constructed-response requiring multi-step mathematical modeling."
     }
   ]
 }

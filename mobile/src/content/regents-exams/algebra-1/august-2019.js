@@ -1,4 +1,4 @@
-// Enriched Algebra 1 exam — tagged with skill + subTopic (see content/_shared/lessonEngine.js)
+// Enriched algebra-1 exam — difficulty tags mapped offline
 export default {
   "id": "a1-aug-2019",
   "subject": "algebra-1",
@@ -21,7 +21,9 @@ export default {
       "explanation": "The $250 set-up fee is charged once, and $23 is charged for each of the x jerseys, so the total cost is 23x + 250.",
       "diveDeep": "This is a linear model in the form y = mx + b, where the slope m (the rate of change) is the $23 per-jersey cost and the y-intercept b (the fixed starting amount) is the $250 set-up fee. A common mistake is multiplying the one-time fee by x (as in 23 + 250x), which would incorrectly charge $250 for every jersey. To set up these expressions, ask which quantity repeats with each item (that becomes the coefficient of x) and which happens only once (that becomes the constant).",
       "skill": "modeling",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
     },
     {
       "number": 2,
@@ -38,7 +40,9 @@ export default {
       "image": "/images/exams/alg1-august-2019/q2.png",
       "explanation": "A relation is a function only when each x-value (input) maps to exactly one y-value; the correct table has no repeated x-value paired with different y-values.",
       "diveDeep": "The defining rule of a function is \"one input, one output\" — every x can appear only once. You can test this visually with the vertical line test on a graph, but with a table you simply scan the x-column for duplicates. It is perfectly fine for two different x-values to share the same y-value (that is still a function); the rule only forbids one x-value having two different y-values.",
-      "subTopic": "Relations & Functions"
+      "subTopic": "Relations & Functions",
+      "difficulty": 1,
+      "difficultyRationale": "Requires foundational understanding of relations and functions (e.g. checking for repeated inputs or finding intersection points on a graph)."
     },
     {
       "number": 3,
@@ -54,7 +58,9 @@ export default {
       "correct": 3,
       "explanation": "Distributing gives 2x² + 2 + 3x² + 12x, and combining like terms yields 5x² + 12x + 2.",
       "diveDeep": "Use the distributive property to expand each product, then combine like terms by adding coefficients of matching powers. A frequent error is forgetting to multiply the 3x through both terms inside its parentheses, which loses the 12x term. Organize your work by lining up the x² terms, x terms, and constants separately so nothing gets dropped.",
-      "subTopic": "Polynomial Operations"
+      "subTopic": "Polynomial Operations",
+      "difficulty": 2,
+      "difficultyRationale": "Requires distributing terms and combining like terms in a polynomial expression."
     },
     {
       "number": 4,
@@ -70,7 +76,9 @@ export default {
       "correct": 2,
       "explanation": "Solving the equation by distributing and isolating x gives x = −5.",
       "diveDeep": "When an equation contains fractions, a clean strategy is to multiply both sides by the least common denominator to clear them before solving. Alternatively, distribute carefully and then use inverse operations to isolate the variable. Always substitute your answer back into the original equation to confirm both sides are equal, which catches sign and arithmetic slips.",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 2,
+      "difficultyRationale": "Requires solving a simple two-step linear equation."
     },
     {
       "number": 5,
@@ -86,7 +94,9 @@ export default {
       "correct": 0,
       "explanation": "In vertex form a(x − h)² + k, the constant k is the y-coordinate of the vertex; changing +2 to −5 moves the vertex down 7 units.",
       "diveDeep": "Vertex form, a(x − h)² + k, reveals the vertex directly as (h, k), which makes transformations easy to read. The +k value shifts the parabola vertically, while the h inside the parentheses shifts it horizontally; here only k changed, so the motion is purely vertical. Going from +2 to −5 is a decrease of 7, meaning the vertex slides 7 units down — watch the sign, since \"below\" corresponds to a smaller k.",
-      "subTopic": "Graphing Parabolas"
+      "subTopic": "Graphing Parabolas",
+      "difficulty": 2,
+      "difficultyRationale": "Requires evaluating a function for a given numerical input using order of operations."
     },
     {
       "number": 6,
@@ -103,7 +113,9 @@ export default {
       "image": "/images/exams/alg1-august-2019/q6.png",
       "explanation": "There are 56 + 74 + 103 = 233 boys; 56 of them chose Niagara Falls, and 56/233 ≈ 0.24, or 24%.",
       "diveDeep": "This is a conditional relative frequency from a two-way table: the question asks \"of the boys\" so the denominator is the boys’ row total, not the grand total of all students. Identify whether the percentage is by row, by column, or of the whole before dividing — mixing these up is the most common error. Convert the decimal to a percent by multiplying by 100 and round only at the final step.",
-      "subTopic": "Data & Distributions"
+      "subTopic": "Data & Distributions",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic probability calculations or calculating relative frequency from a table."
     },
     {
       "number": 7,
@@ -121,7 +133,9 @@ export default {
       "explanation": "A curve that rises slowly then increasingly steeply, with a steadily growing rate of change, is the signature of exponential growth.",
       "diveDeep": "Each function family has a recognizable shape: a line is straight, a square-root curve grows but bends downward (concave down) and flattens, absolute value forms a V, and exponential growth curves upward ever more steeply. The key distinguishing feature of exponential growth is that the rate of increase itself keeps increasing, producing a \"J-shaped\" curve. Population growth is a classic real-world context modeled by exponential functions when resources are unlimited.",
       "skill": "graphing",
-      "subTopic": "Interpreting Graphs"
+      "subTopic": "Interpreting Graphs",
+      "difficulty": 1,
+      "difficultyRationale": "Requires foundational recognition of a function family from the shape of its graph."
     },
     {
       "number": 8,
@@ -137,7 +151,9 @@ export default {
       "correct": 1,
       "explanation": "16x² − 81 is a difference of two squares, (4x)² − 9², which factors as (4x + 9)(4x − 9).",
       "diveDeep": "The difference of squares pattern a² − b² = (a + b)(a − b) applies whenever you see a perfect square minus a perfect square. Here a = 4x because (4x)² = 16x², and b = 9 because 9² = 81. A common slip is using 8x, but (8x)² = 64x², not 16x² — always take the actual square root of each term, not half the coefficient.",
-      "subTopic": "Polynomial Operations"
+      "subTopic": "Polynomial Operations",
+      "difficulty": 1,
+      "difficultyRationale": "Requires foundational factoring of a basic difference of two perfect squares."
     },
     {
       "number": 9,
@@ -153,7 +169,9 @@ export default {
       "correct": 3,
       "explanation": "He wants time per lawn, so the rate must have time in the numerator and one lawn in the denominator — hours per lawn.",
       "diveDeep": "A rate compares two quantities, and the unit you want as your answer should appear in the numerator while the per-unit appears in the denominator. Since the question asks how much time per single lawn, \"hours per lawn\" matches exactly. Reading the wording carefully — \"time spent mowing one lawn\" — tells you the answer must be measured in time, ruling out any rate expressed in lawns or employees.",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 10,
@@ -170,7 +188,9 @@ export default {
       "explanation": "The ball hits the ground when h(t) = 0; solving −16t² + 64t + 80 = 0 gives t = 5 (rejecting the negative root).",
       "diveDeep": "In projectile problems, \"hits the ground\" means height equals zero, so set h(t) = 0 and solve the quadratic. Factoring out −16 gives −16(t² − 4t − 5) = −16(t − 5)(t + 1) = 0, so t = 5 or t = −1. Time cannot be negative, so reject t = −1; the 80 in the equation is the starting height, not the time, which is a common distractor.",
       "skill": "modeling",
-      "subTopic": "Quadratic Models"
+      "subTopic": "Quadratic Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 11,
@@ -186,7 +206,9 @@ export default {
       "correct": 0,
       "explanation": "Completing the square: half of −24 is −12, and (−12)² = 144, so y = (x − 12)² − 144 + 18 = (x − 12)² − 126.",
       "diveDeep": "Completing the square converts standard form to vertex form by taking half the x-coefficient, squaring it, and balancing the equation. Here b = −24, so (b/2)² = (−12)² = 144; you add 144 to form the perfect square trinomial and subtract it back to keep the equation equal, giving −144 + 18 = −126. The sign inside the parentheses matches the sign of b/2, so a negative middle term produces (x − 12), not (x + 12).",
-      "subTopic": "Quadratic Models"
+      "subTopic": "Quadratic Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 12,
@@ -202,7 +224,9 @@ export default {
       "correct": 1,
       "explanation": "Multiplying the three factors gives a degree-3 polynomial whose highest-degree term comes from x · x · 2x = 2x³, so the leading coefficient is 2.",
       "diveDeep": "You can often answer questions about a product’s leading coefficient, degree, or constant term without full expansion. The degree is the sum of the degrees of the factors (1 + 1 + 1 = 3), and the leading coefficient is the product of the leading coefficients (1 × 1 × 2 = 2). The constant term comes from multiplying the constants in each factor, but the factor x has no constant (its constant is 0), so the product has no constant term.",
-      "subTopic": "Polynomial Operations"
+      "subTopic": "Polynomial Operations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 13,
@@ -219,7 +243,9 @@ export default {
       "explanation": "Using the power rule, (1.0005)⁷ᵗ = ((1.0005)⁷)ᵗ ≈ (1.0035)ᵗ, while the initial amount 3810 stays the same.",
       "diveDeep": "To rewrite an exponential with a coefficient on the exponent, use the property a^(mt) = (a^m)^t, which folds the constant 7 into a new base. Computing 1.0005⁷ ≈ 1.0035 gives the equivalent yearly growth factor. The initial value 3810 is the amount when t = 0 and is unaffected by manipulating the exponent, so any answer that changes it (like 26,670) is incorrect.",
       "skill": "modeling",
-      "subTopic": "Relations & Functions"
+      "subTopic": "Relations & Functions",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 14,
@@ -237,7 +263,9 @@ export default {
       "explanation": "The graphs are equal where they intersect; the point of intersection occurs at x = −2.",
       "diveDeep": "The equation f(x) = g(x) is asking for the x-value(s) where the two curves cross, because that is where their outputs are identical. Read the x-coordinate of the intersection point directly off the graph, not the y-coordinate. If graphs intersect more than once, all such x-values are solutions, so scan the whole picture before answering.",
       "skill": "graphing",
-      "subTopic": "Function Notation"
+      "subTopic": "Function Notation",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 15,
@@ -255,7 +283,9 @@ export default {
       "explanation": "The range is the maximum value minus the minimum value, which are the two ends of the box plot’s whiskers, giving 7.",
       "diveDeep": "In a box plot, the leftmost point of the whisker is the minimum and the rightmost is the maximum, so the range is simply max minus min. Do not confuse the range with the interquartile range (IQR), which is the width of the box (Q3 − Q1). Make sure you read the full span end-to-end, not just the boxed middle 50% of the data.",
       "skill": "graphing",
-      "subTopic": "Data & Distributions"
+      "subTopic": "Data & Distributions",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 16,
@@ -271,7 +301,9 @@ export default {
       "correct": 1,
       "explanation": "Expanding (2x − 3)(x + 4) gives 2x² + 5x − 12, which does not match 2x² − 10x − 12, so it is the non-equivalent expression.",
       "diveDeep": "To test whether a factored form equals a given polynomial, multiply it out with FOIL or distribution and compare every term. The original factors as 2(x − 6)(x + 1), and the other choices are just different but valid groupings of that. The key check is the middle (x) term and the constant: a sign or coefficient mismatch there, as in the +5x here versus the required −10x, flags the impostor.",
-      "subTopic": "Polynomial Operations"
+      "subTopic": "Polynomial Operations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 17,
@@ -288,7 +320,9 @@ export default {
       "correct": 1,
       "explanation": "The vertex of q(x) gives a minimum of −9, while r(x)’s table shows a minimum of −16; since −16 < −9, r(x) has the smaller minimum.",
       "diveDeep": "To compare minimum values you must find each function’s vertex: for q(x) = x² + 2x − 8, the axis of symmetry is x = −b/(2a) = −1, and q(−1) = −9. For a function given as a table, scan for the lowest y-value, which is −16 here. \"Smallest\" means most negative on the number line, so −16 is smaller than −9 — a frequent trap is treating −9 as smaller because 9 looks bigger than 16.",
-      "subTopic": "Graphing Parabolas"
+      "subTopic": "Graphing Parabolas",
+      "difficulty": 3,
+      "difficultyRationale": "Requires finding the vertex, minimum, or maximum value of a quadratic function."
     },
     {
       "number": 18,
@@ -306,7 +340,9 @@ export default {
       "explanation": "Moving closer to home means distance is decreasing, which corresponds to the interval where the graph has a negative slope, 0 < t < 2.",
       "diveDeep": "On a distance-versus-time graph, a downward (decreasing) segment means the object is getting closer to the reference point, while an upward segment means moving away and a horizontal segment means stationary. \"Constantly moving closer\" requires the whole interval to slope downward without flattening. Translate the verbal description into a behavior of the curve first, then locate the matching interval.",
       "skill": "modeling",
-      "subTopic": "Interpreting Graphs"
+      "subTopic": "Interpreting Graphs",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 19,
@@ -322,7 +358,9 @@ export default {
       "correct": 0,
       "explanation": "Using the recursive rule, a₂ = 3 + 2(a₁)² = 3 + 2(6)² = 3 + 72 = 75.",
       "diveDeep": "A recursive sequence defines each term using the previous one, so you compute terms in order starting from the given first term. Substitute a₁ = 6 into the rule, being careful with order of operations: square first (6² = 36), then multiply by 2 (72), then add 3. A classic mistake is multiplying before squaring or forgetting the +3 constant.",
-      "subTopic": "Arithmetic Sequences"
+      "subTopic": "Arithmetic Sequences",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 20,
@@ -338,7 +376,9 @@ export default {
       "correct": 2,
       "explanation": "Length is w + 7 and width is w, so area = length × width = w(w + 7) = w² + 7w.",
       "diveDeep": "Translate the words into expressions first: \"7 feet more than the width\" means length = w + 7. Area of a rectangle is length times width, so multiply w(w + 7) and distribute to get a quadratic. Choices like 4w + 14 confuse area with perimeter (which would use 2 lengths and 2 widths), so be sure you are computing the right quantity.",
-      "subTopic": "Relations & Functions"
+      "subTopic": "Relations & Functions",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 21,
@@ -355,7 +395,9 @@ export default {
       "explanation": "Time is continuous and cannot be negative, so the domain is the set of positive real numbers.",
       "diveDeep": "Domain describes the allowable input values — here, time. Time flows continuously (it takes on every fractional value, not just whole numbers), which rules out integers, and time during the jump cannot be negative, which rules out all real numbers. The combination of \"continuous\" and \"non-negative\" points to positive real numbers; always consider both the type of values and any real-world restrictions.",
       "skill": "graphing",
-      "subTopic": "Domain & Range"
+      "subTopic": "Domain & Range",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 22,
@@ -371,7 +413,9 @@ export default {
       "correct": 0,
       "explanation": "Multiplying the second equation by 4 and adding it to the first eliminates y and gives 5x = 30, which paired with x − y = 5 has the same solution.",
       "diveDeep": "The elimination method lets you replace one equation in a system with a linear combination of both without changing the solution set. Here, 4(x − y = 5) gives 4x − 4y = 20; adding it to x + 4y = 10 cancels the y-terms and yields 5x = 30. Keeping one original equation alongside the new combined one preserves the same intersection point.",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Requires solving a system of linear equations algebraically or checking solution points."
     },
     {
       "number": 23,
@@ -388,7 +432,9 @@ export default {
       "explanation": "The parabola opens upward, so its range starts at the minimum y-value (the vertex), which is −4.5, and includes it, giving [−4.5, ∞).",
       "diveDeep": "For an upward-opening parabola, the range is all y-values from the vertex’s y-coordinate up to infinity, and the vertex value is included (so use a square bracket). Find the vertex x-coordinate with x = −b/(2a) = −2/4 = −0.5, then evaluate h(−0.5) = 2(0.25) + 2(−0.5) − 4 = −4.5. The bracket versus parenthesis distinction matters: the minimum is achieved, so it is part of the range.",
       "skill": "modeling",
-      "subTopic": "Quadratic Models"
+      "subTopic": "Quadratic Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 24,
@@ -404,7 +450,9 @@ export default {
       "correct": 0,
       "explanation": "In a geometric sequence, a₃ = a₁ · r², so 245 = 5r² gives r² = 49 and r = 7.",
       "diveDeep": "In a geometric sequence each term is the previous term times a constant ratio r, so the nth term is a₁ · r^(n−1). Going from the first to the third term multiplies by r twice, giving a₁r²; setting 5r² = 245 yields r² = 49. Note that r could technically be +7 or −7 since both square to 49, but 7 is the listed choice; do not confuse the common ratio (multiplied) with a common difference (added).",
-      "subTopic": "Geometric Sequences"
+      "subTopic": "Geometric Sequences",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 25,
@@ -415,7 +463,9 @@ export default {
       "explanation": "Substitute x = −2 into the function and evaluate using order of operations to get −24.",
       "diveDeep": "Evaluating a function at a value means replacing every x with that value, then simplifying. The trickiest part is handling the squared negative: (−2)² = 4 (positive), so −4(4) = −16. Use parentheses around the substituted value to avoid sign errors, then follow order of operations — exponents before multiplication before addition.",
       "modelAnswer": "g(−2) = −4(−2)² + 3(−2) − 2 = −4(4) + (−6) − 2 = −16 − 6 − 2 = −24.",
-      "subTopic": "Function Notation"
+      "subTopic": "Function Notation",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic substitution and evaluation of a function for a given input."
     },
     {
       "number": 26,
@@ -427,7 +477,9 @@ export default {
       "diveDeep": "The commutative property of addition states that a + b = b + a — the order in which you add terms does not change the sum. Recognize it when terms simply swap positions without their signs or values changing, as opposed to the associative property (regrouping with parentheses) or the distributive property (multiplying across a sum). Carrying the sign with each term (treating −5a as a single quantity) is essential to seeing the swap correctly.",
       "modelAnswer": "The student used the commutative property of addition. This property states that changing the order of the terms being added does not change the sum (a + b = b + a). The student rewrote −5a + 7 as 7 + (−5a), or 7 − 5a, simply reordering the two terms, so the value of the expression remains the same.",
       "skill": "reasoning",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Requires identifying an algebraic property used in a step and justifying its validity."
     },
     {
       "number": 27,
@@ -439,7 +491,9 @@ export default {
       "diveDeep": "To graph a line, first write it in slope-intercept form y = mx + b by isolating y, which here gives y = −(3/2)x + 1 with slope −3/2 and y-intercept 1. Plot the intercept (0, 1), then use the slope (down 3, right 2) to find more points. To find k, substitute the given x-value into the equation; this is just evaluating the function at x = 2.",
       "modelAnswer": "Rewrite the equation in slope-intercept form by dividing every term by 2: y = −(3/2)x + 1. Graph the line by plotting the y-intercept (0, 1) and using the slope of −3/2 (down 3, right 2) to plot a second point at (2, −2), then draw the line. To find k, substitute x = 2: k = −(3/2)(2) + 1 = −3 + 1 = −2. Therefore k = −2.",
       "skill": "graphing",
-      "subTopic": "Linear Functions & Graphing"
+      "subTopic": "Linear Functions & Graphing",
+      "difficulty": 3,
+      "difficultyRationale": "Requires converting a linear equation to slope-intercept form, graphing it, and identifying a missing coordinate."
     },
     {
       "number": 28,
@@ -451,7 +505,9 @@ export default {
       "diveDeep": "Solving a literal equation (a formula with several variables) for one variable uses the same inverse-operation logic as solving for x. Undo the operations attached to v_f in reverse order: first clear the division by t (multiply both sides by t), then move v_i to the other side (add it). Treat all the other letters as constants throughout, and keep the equation balanced by doing the same thing to both sides.",
       "modelAnswer": "Start with a = (v_f − v_i)/t. Multiply both sides by t: at = v_f − v_i. Add v_i to both sides: at + v_i = v_f. Therefore v_f = at + v_i.",
       "skill": "procedure",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others."
     },
     {
       "number": 29,
@@ -463,7 +519,9 @@ export default {
       "diveDeep": "When fractions share a common denominator, you can add their numerators directly, or you can clear the denominators by multiplying every term by the common denominator. Multiplying both sides by 5 here removes the fractions and turns the problem into a simple linear equation. Always simplify the numerator carefully and verify by substituting your solution back into the original equation.",
       "modelAnswer": "Since the fractions share a denominator of 5, combine the numerators: (x + 3 + x + 4)/5 = 3, which simplifies to (2x + 7)/5 = 3. Multiply both sides by 5: 2x + 7 = 15. Subtract 7: 2x = 8. Divide by 2: x = 4.",
       "skill": "procedure",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 30,
@@ -475,7 +533,9 @@ export default {
       "diveDeep": "A statement claiming something is \"always\" true is disproved by a single counterexample. Here, multiplying √2 by itself gives 2, a rational number, so the product of two irrationals is not always irrational. This connects to the broader idea that closure properties (whether an operation stays within a set) do not hold for the irrationals under multiplication; providing a clear, specific example is the most convincing justification.",
       "modelAnswer": "No, the product of two irrational numbers is not always irrational. Counterexample: √2 is irrational, but √2 × √2 = 2, and 2 is a rational number. Since this product is rational, the statement is not always true.",
       "skill": "reasoning",
-      "subTopic": "Polynomial Operations"
+      "subTopic": "Polynomial Operations",
+      "difficulty": 3,
+      "difficultyRationale": "Requires explaining real number properties (closure) by providing a counterexample."
     },
     {
       "number": 31,
@@ -487,7 +547,9 @@ export default {
       "diveDeep": "When a quadratic has no linear (x) term, the fastest method is to isolate the squared term and take the square root of both sides, remembering both the positive and negative roots. \"Exact values\" signals you should leave the answer in radical form rather than rounding to a decimal. Dividing first to make the coefficient of x² equal to 1 keeps the arithmetic clean.",
       "modelAnswer": "Add 42 to both sides: 6x² = 42. Divide by 6: x² = 7. Take the square root of both sides, including both signs: x = ±√7.",
       "skill": "procedure",
-      "subTopic": "Solving Quadratics"
+      "subTopic": "Solving Quadratics",
+      "difficulty": 3,
+      "difficultyRationale": "Requires solving a quadratic equation by isolating the squared term and taking the square root."
     },
     {
       "number": 32,
@@ -499,7 +561,9 @@ export default {
       "diveDeep": "A piecewise function applies different rules over different parts of the domain, so graph each piece only on its specified interval. Use a closed (filled) dot where the inequality includes the boundary (≤ or ≥) and an open (hollow) dot where it does not (< or >). At the boundary x = 0, the first piece includes it (closed at (0, −3)) and the second excludes it (open at (0, 5)); plotting these endpoints correctly is the most commonly graded detail.",
       "modelAnswer": "For x ≤ 0, graph the line y = x − 3: plot a closed (solid) point at (0, −3) and extend the line to the left with slope 1 (through points like (−1, −4) and (−3, −6)). For x > 0, graph the line y = x + 5: plot an open (hollow) point at (0, 5) and extend the line to the right with slope 1 (through points like (1, 6) and (2, 7)). The result is two parallel rays.",
       "skill": "graphing",
-      "subTopic": "Interpreting Graphs"
+      "subTopic": "Interpreting Graphs",
+      "difficulty": 3,
+      "difficultyRationale": "Requires graphing a piecewise-defined function on the coordinate plane."
     },
     {
       "number": 33,
@@ -511,7 +575,9 @@ export default {
       "diveDeep": "To graph a system of inequalities, graph each boundary line (dashed for strict < or >, solid for ≤ or ≥) and shade the side that satisfies each inequality; the solution set is where the shaded regions overlap. To test a point algebraically, substitute it into both inequalities — it belongs to the solution only if it makes every inequality true. Here the point passes the first but fails the second, so it lies outside the overlap.",
       "modelAnswer": "Graph 2x + y > 8 (rewrite as y > −2x + 8) with a dashed line through (0, 8) and (4, 0), shading above it. Graph y ≤ 5 − 3x with a solid line through (0, 5) and shading below it. The solution set is the overlapping region. Test (1, 8): for the first inequality, 2(1) + 8 = 10 > 8, which is true; for the second, 8 ≤ 5 − 3(1) = 2, which is false. Since (1, 8) does not satisfy both inequalities, it is NOT in the solution set.",
       "skill": "reasoning",
-      "subTopic": "Linear Functions & Graphing"
+      "subTopic": "Linear Functions & Graphing",
+      "difficulty": 4,
+      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point."
     },
     {
       "number": 34,
@@ -523,7 +589,9 @@ export default {
       "diveDeep": "Exponential growth is modeled by A(t) = P(1 + r)^t, where P is the initial principal and r is the decimal growth rate. Convert 1.2% to 0.012, so the growth factor is 1.012. To find \"how much more,\" evaluate the function at both times and subtract; keep full precision until the final rounding step to avoid compounding small errors.",
       "modelAnswer": "The function is A(t) = 5000(1.012)^t. At t = 32: A(32) = 5000(1.012)³² ≈ $7330.43. At t = 17: A(17) = 5000(1.012)¹⁷ ≈ $6122.40. The difference is 7330.43 − 6122.40 ≈ $1208. The investment will be worth about $1208 more when Alexander turns 32 than when he turns 17.",
       "skill": "modeling",
-      "subTopic": "Relations & Functions"
+      "subTopic": "Relations & Functions",
+      "difficulty": 4,
+      "difficultyRationale": "Requires writing an exponential growth function and calculating the difference in values over two time periods."
     },
     {
       "number": 35,
@@ -535,7 +603,9 @@ export default {
       "diveDeep": "Use a graphing calculator’s linear regression (LinReg) feature: enter the x-values in one list and y-values in another, then run the regression to obtain the slope, intercept, and correlation coefficient r. The correlation coefficient r ranges from −1 to 1 and measures the strength and direction of a linear relationship; a negative r indicates an inverse relationship. Always interpret the sign in context — here it tells you that hotels farther from Times Square generally cost less per night.",
       "modelAnswer": "Using linear regression on the data, the equation is y = −7.76x + 246.34 (slope and intercept rounded to the nearest hundredth). The correlation coefficient is r ≈ −0.86. The sign of the correlation coefficient is negative, which suggests that as the distance from Times Square increases, the cost of a hotel room tends to decrease — an inverse relationship between distance and price.",
       "skill": "reasoning",
-      "subTopic": "Scatter Plots & Correlation"
+      "subTopic": "Scatter Plots & Correlation",
+      "difficulty": 4,
+      "difficultyRationale": "Requires performing linear regression, writing the equation, finding the correlation coefficient, and interpreting its sign in context."
     },
     {
       "number": 36,
@@ -547,7 +617,9 @@ export default {
       "diveDeep": "Accumulation graphs are piecewise: each phase is a line segment whose slope equals that phase’s rate, and the segments connect because snow already fallen does not disappear (it stays flat when it stops snowing). Compute the snow in each phase as rate × time, then add for the total, and add the durations for the total time. Average rate over the whole storm is total accumulation divided by total time — not the average of the individual rates.",
       "modelAnswer": "Graph: From t = 0 to 4, a segment rising at 1/2 in/hr from (0, 0) to (4, 2). From t = 4 to 10, a segment rising at 1 in/hr from (4, 2) to (10, 8). From t = 10 to 13, a horizontal segment (no snow) from (10, 8) to (13, 8). From t = 13 to 17, a segment rising at 1/2 in/hr from (13, 8) to (17, 10). Total accumulation = 0.5(4) + 1(6) + 0 + 0.5(4) = 2 + 6 + 0 + 2 = 10 inches over 17 hours. Average rate = 10/17 ≈ 0.59 inch per hour.",
       "skill": "modeling",
-      "subTopic": "Linear Functions & Graphing"
+      "subTopic": "Linear Functions & Graphing",
+      "difficulty": 4,
+      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point."
     },
     {
       "number": 37,
@@ -559,7 +631,9 @@ export default {
       "diveDeep": "Set up two equations: one for the total count of chickens and one for the total cost. Solve by substitution (express D = 12 − A and plug into the cost equation) or elimination. For the final part, compute daily eggs, multiply by 7 days, convert to whole dozens (dropping the remainder since she sells only full dozens), and multiply by the price — watch the wording \"full dozen,\" which means you round the number of dozens down.",
       "modelAnswer": "System: A + D = 12 and 3.75A + 2.50D = 35. Solve by substitution: D = 12 − A, so 3.75A + 2.50(12 − A) = 35 → 3.75A + 30 − 2.50A = 35 → 1.25A = 5 → A = 4. Then D = 12 − 4 = 8. So Allysa bought 4 Americana and 8 Delaware chickens. Eggs per day = 4(2) + 8(1) = 16 eggs/day. In one week (7 days): 16 × 7 = 112 eggs. Full dozens = 112 ÷ 12 = 9 full dozens (with 4 eggs left over, which she cannot sell). Money taken in = 9 × $2.50 = $22.50.",
       "skill": "modeling",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 5,
+      "difficultyRationale": "Part IV constructed-response requiring multi-step mathematical modeling."
     }
   ]
 }

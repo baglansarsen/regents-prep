@@ -1,60 +1,585 @@
-// Algebra 1 Regents — January 2025
+// Enriched algebra-1 exam — difficulty tags mapped offline
 export default {
-  id: 'a1-jan-2025',
-  subject: 'algebra-1',
-  year: 2025,
-  session: 'January',
-  totalMinutes: 180,
-  questions: [
-    { number: 1, part: 'A', text: 'When factored, the expression x³ − 36x is equivalent to', choices: ['(x + 6)(x − 6)', 'x(x + 6)(x − 6)', '(x + 18)(x − 18)', 'x(x + 18)(x − 18)'], topic: 'Polynomials & Factoring', correct: 1, explanation: 'First factor out the greatest common factor x to get x(x² − 36), then recognize x² − 36 as a difference of two squares that factors into (x + 6)(x − 6).', diveDeep: 'Always look for a greatest common factor (GCF) before anything else when factoring. Here the GCF is x, leaving x² − 36, which is a difference of perfect squares (a² − b² = (a + b)(a − b)) since 36 = 6². A common mistake is to skip the GCF and jump straight to factoring 36, or to treat 36 as 18² instead of 6². When you see two terms where one is subtracted and both can be perfect squares after pulling out a GCF, the difference-of-squares pattern is your tool.' },
-    { number: 2, part: 'A', text: 'Which equation represents the line that passes through the points (−1, 8) and (4, 22)?', choices: ['y = 2.8x + 10.8', 'y = 2.8x + 7.5', 'y = 2.8x + 6', 'y = 14x + 22'], topic: 'Linear Equations & Inequalities', correct: 0, explanation: 'The slope is (22 − 8)/(4 − (−1)) = 14/5 = 2.8, and substituting a point gives the y-intercept of 10.8, so y = 2.8x + 10.8.', diveDeep: 'To find a line through two points, first compute slope m = (y₂ − y₁)/(x₂ − x₁), then use point-slope or substitute a point into y = mx + b to solve for b. Here m = 14/5 = 2.8; using (4, 22): 22 = 2.8(4) + b → b = 10.8. A common error is reversing the subtraction order in the slope formula or mismatching which coordinate is x versus y. Keep the order consistent in numerator and denominator (same point first in both).' },
-    { number: 3, part: 'A', text: 'A geometric sequence is shown below: ½, 2, 8, 32, … What is the common ratio?', choices: ['¼', '½', '2', '4'], topic: 'Sequences', correct: 3, explanation: 'Dividing any term by the previous one gives 2 ÷ ½ = 4, and 8 ÷ 2 = 4, so the common ratio is 4.', diveDeep: 'In a geometric sequence each term is found by multiplying the previous term by a constant called the common ratio r, found by dividing any term by the one before it (aₙ₊₁ / aₙ). Check more than one pair to confirm the ratio is constant. A frequent mistake is subtracting terms (that gives a common difference, which applies to arithmetic sequences) or dividing in the wrong order. Dividing 2 by ½ means multiplying by the reciprocal, giving 4.' },
-    { number: 4, part: 'A', text: 'What is the constant term of the polynomial 2x³ − x + 5 + 4x²?', choices: ['5', '3', '2', '4'], topic: 'Polynomials & Factoring', correct: 0, explanation: 'The constant term is the term with no variable, which is 5.', diveDeep: 'The constant term of a polynomial is the number that has no variable attached (no x). Coefficients like 2, −1, and 4 are attached to powers of x, so they are not constants. Rewriting the polynomial in standard descending order (2x³ + 4x² − x + 5) makes the constant 5 easy to spot at the end. A common mistake is confusing the leading coefficient or a coefficient with the constant.' },
-    { number: 5, part: 'A', text: 'A landscaping company charges a set fee for a spring cleanup, plus an hourly labor rate. The total cost is modeled by the function C(x) = 55x + 80. In this function, what does the 55 represent?', choices: ['the set fee for the cleanup', 'the hourly labor rate for a cleanup', 'the profit earned by the company for one cleanup', 'the number of hours of labor required for one cleanup'], topic: 'Linear Equations & Inequalities', correct: 1, explanation: 'In C(x) = 55x + 80, x is the number of hours, so 55 (the rate multiplied by hours) is the hourly labor rate, and 80 is the fixed set fee.', diveDeep: 'In a linear model of the form y = mx + b, the slope m is a rate of change (how much the output changes per unit of input) and b is the starting/fixed value. Here x represents hours, so the coefficient 55 is the cost per hour (the rate), while 80 is the one-time set fee that does not depend on hours. A common mistake is to swap the slope and intercept meanings; always identify what the variable counts to interpret the slope correctly.' },
-    { number: 6, part: 'A', text: 'Which expression is equivalent to (5x² − 2x + 4) − (3x² + 3x − 1)?', choices: ['2x² + x + 3', '2x² − 5x + 5', '2x² − 5x + 3', '8x² + x + 3'], topic: 'Polynomials & Factoring', correct: 1, explanation: 'Distributing the negative gives 5x² − 2x + 4 − 3x² − 3x + 1, and combining like terms yields 2x² − 5x + 5.', diveDeep: 'When subtracting polynomials, distribute the subtraction (negative sign) to every term in the second polynomial before combining like terms. Here −(3x² + 3x − 1) becomes −3x² − 3x + 1. Then combine by power: 5x² − 3x² = 2x², −2x − 3x = −5x, and 4 + 1 = 5. The most common error is forgetting to change the sign of all terms in the parentheses, especially the last term (−1 becomes +1).',},
-    { number: 7, part: 'A', text: 'A system of inequalities is graphed on the set of axes below. Which point is a solution to this system?', choices: ['(1, 1)', '(1, 8)', '(2, 22)', '(4, 2)'], topic: 'Linear Equations & Inequalities', correct: 3, explanation: 'A point is a solution to a system of inequalities only if it lies in the overlapping shaded region of all the inequalities; (4, 2) is the point that falls within that common region.', diveDeep: 'To find a solution to a graphed system of inequalities, locate the region where all shaded areas overlap, then check which listed point lands inside it. Pay attention to whether boundary lines are solid (≤ or ≥, points on the line count) or dashed (< or >, points on the line do not count). A common mistake is choosing a point that satisfies only one inequality. You can always verify by substituting the point into each inequality algebraically.', image: '/images/exams/alg1-january-2025/q7.png' },
-    { number: 8, part: 'A', text: 'In an arithmetic sequence, the first term is 25 and the third term is 15. What is the tenth term in this sequence?', choices: ['−20', '70', '−25', '75'], topic: 'Sequences', correct: 0, explanation: 'The common difference is (15 − 25)/2 = −5, so the tenth term is 25 + (10 − 1)(−5) = 25 − 45 = −20.', diveDeep: 'In an arithmetic sequence each term changes by a constant common difference d. Since the third term is two steps after the first, d = (a₃ − a₁)/2 = (15 − 25)/2 = −5. Use the explicit formula aₙ = a₁ + (n − 1)d, so a₁₀ = 25 + 9(−5) = −20. A common mistake is using (n) instead of (n − 1), or miscounting the number of steps between given terms when solving for d.' },
-    { number: 9, part: 'A', text: 'When the formula p = 2l + 2w is solved for w, the result is', choices: ['w = (2l + p)/2', 'w = p − l', 'w = (p − 2l)/2', 'w = l − p/2'], topic: 'Linear Equations & Inequalities', correct: 2, explanation: 'Subtracting 2l from both sides gives p − 2l = 2w, and dividing by 2 yields w = (p − 2l)/2.', diveDeep: 'Solving a literal equation (a formula) for one variable uses the same inverse operations as solving for a number: isolate the target variable step by step. Here subtract 2l to undo the addition, then divide by 2 to undo the multiplication, keeping the entire numerator (p − 2l) over 2. A common mistake is dividing only part of the expression by 2 instead of the whole numerator — every term must be divided.',},
-    { number: 10, part: 'A', text: 'Market Street Pizza kept a record of pizza sales for the month of February. The results are shown in the table below.\nType:  Plain | Veggie | Meat Only | The Works\nThin Crust:  300 | 80 | 120 | 100\nDeep-dish:  200 | 25 | 105 | 70\nOf all the pizzas sold in February, what percent were plain, deep-dish pizzas?', choices: ['20%', '40%', '30%', '50%'], topic: 'Statistics & Probability', correct: 0, explanation: 'The total of all pizzas is 1000, and plain deep-dish pizzas number 200, so 200/1000 = 20%.', diveDeep: 'For a two-way frequency table, a percent of the whole is (the cell you care about) ÷ (the grand total of every cell), then multiply by 100. Add all eight values: 300 + 80 + 120 + 100 + 200 + 25 + 105 + 70 = 1000, and the plain deep-dish cell is 200, giving 200/1000 = 20%. A common mistake is dividing by a row or column total (a conditional percent) instead of the grand total when the question asks "of all the pizzas."', image: '/images/exams/alg1-january-2025/q10.png' },
-    { number: 11, part: 'A', text: 'When solving 2(3x − 5) = 9 − x for x, the solution is', choices: ['19/7', '−1/7', '19/5', '1/5'], topic: 'Linear Equations & Inequalities', correct: 0, explanation: 'Distributing gives 6x − 10 = 9 − x; adding x and 10 to both sides gives 7x = 19, so x = 19/7.', diveDeep: 'To solve a linear equation, distribute first, then collect all variable terms on one side and constants on the other. Here 2(3x − 5) = 6x − 10, and adding x to both sides plus adding 10 gives 7x = 19. Divide by 7 for x = 19/7. Common mistakes include forgetting to distribute the 2 to both terms inside the parentheses, or sign errors when moving the −x across the equals sign.' },
-    { number: 12, part: 'A', text: 'The expression x^(2a + b) is equivalent to', choices: ['x^(2a) + x^b', 'x^a · x^(a + b)', 'x^a + x^(a + b)', 'x^(a + b) · x^(a + b)'], topic: 'Polynomials & Factoring', correct: 1, explanation: 'Using the product rule for exponents, x^a · x^(a + b) = x^(a + a + b) = x^(2a + b).', diveDeep: 'When multiplying powers with the same base, add the exponents: x^m · x^n = x^(m + n). To match x^(2a + b), split the exponent into a sum of two exponents whose total is 2a + b; x^a · x^(a + b) adds to x^(2a + b). A very common mistake is to think x^(2a + b) can be split into a sum of separate terms (x^(2a) + x^b) — exponent rules apply to multiplication of powers, not to splitting a power into added terms.',},
-    { number: 13, part: 'A', text: 'The inputs and outputs of a function are shown in the table below.\nx:  0 | 1 | 2 | 3 | 4\nf(x):  0.0625 | 0.125 | 0.25 | 0.5 | 1\nThis function can best be described as', choices: ['linear', 'exponential', 'quadratic', 'absolute value'], topic: 'Functions & Relations', correct: 1, explanation: 'Each output is double the previous one (a constant multiplicative ratio of 2), which is the defining property of an exponential function.', diveDeep: 'To classify a function from a table with equally spaced x-values, check the pattern in the outputs: a constant difference means linear, a constant second difference means quadratic, and a constant ratio (multiplying by the same factor) means exponential. Here 0.0625 × 2 = 0.125, × 2 = 0.25, and so on, a constant ratio of 2, so it is exponential. A common mistake is seeing the outputs grow and assuming "quadratic" without checking whether the growth is by adding or by multiplying.', image: '/images/exams/alg1-january-2025/q13.png' },
-    { number: 14, part: 'A', text: 'Stephanie is solving the equation x² − 12 = 7x − 8. Her first step is shown below.\nGiven: x² − 12 = 7x − 8\nStep 1: x² − 4 = 7x\nWhich property justifies her first step?', choices: ['associative property', 'distributive property', 'commutative property', 'addition property of equality'], topic: 'Linear Equations & Inequalities', correct: 3, explanation: 'She added 8 to both sides of the equation, which is justified by the addition property of equality.', diveDeep: 'The addition property of equality states that adding the same quantity to both sides of an equation keeps it balanced. From x² − 12 = 7x − 8, adding 8 to both sides gives x² − 4 = 7x. The associative, commutative, and distributive properties describe how to rearrange or expand expressions, not how to change both sides of an equation. Identify what operation was performed across the equals sign to name the correct equality property.' },
-    { number: 15, part: 'A', text: 'What is the sum of 3√8 and √3?', choices: ['6√8', '√11', '6√2 + √3', '3√11'], topic: 'Polynomials & Factoring', correct: 2, explanation: 'Simplify 3√8 = 3·2√2 = 6√2, and since √3 is unlike, the sum is 6√2 + √3.', diveDeep: 'Radicals can only be combined by addition when they are "like radicals" (the same number under the root). First simplify each radical: √8 = √(4·2) = 2√2, so 3√8 = 6√2. Since 6√2 and √3 have different radicands, they cannot be combined into a single term and the answer stays as 6√2 + √3. A common mistake is adding the numbers under the root (treating √8 + √3 as √11), which is not valid.' },
-    { number: 16, part: 'A', text: 'The dot plots below represent test scores for 20 students on a math test. The mode for this math test is 80 and the median is 85. Which dot plot correctly represents this data?', choices: ['I', 'II', 'III', 'IV'], topic: 'Statistics & Probability', correct: 0, explanation: 'The correct plot must have its most frequent value (the tallest stack of dots) at 80 and its middle value at 85, which only plot I satisfies.', diveDeep: 'In a dot plot the mode is the value with the most dots stacked above it, and the median is the value of the middle data point(s) when the 20 values are ordered. With 20 values the median is the average of the 10th and 11th values. Check each plot: it must peak at 80 (mode) yet have its central position at 85 (median). A common mistake is confusing mode (most frequent) with median (middle position) or with the mean.', image: '/images/exams/alg1-january-2025/q16.png' },
-    { number: 17, part: 'A', text: 'A function is graphed on the set of axes below. The domain of this function is', choices: ['{x | x ≥ −2}', '{x | x ≥ −4}', '{x | x > −2}', '{x | x > −4}'], topic: 'Functions & Relations', correct: 0, explanation: 'The graph begins at x = −2 with a solid (closed) endpoint and continues to the right, so the domain is all x greater than or equal to −2.', diveDeep: 'The domain of a function is the set of all x-values (inputs) for which the function is defined — read it left to right along the x-axis. A closed (filled) endpoint means that x-value is included (use ≥ or ≤), while an open endpoint means it is excluded (use > or <). Here the curve starts at x = −2 with a filled dot and extends rightward, giving {x | x ≥ −2}. A common mistake is confusing domain (x-values) with range (y-values), or misreading an open versus closed circle.', image: '/images/exams/alg1-january-2025/q17.png' },
-    { number: 18, part: 'A', text: 'Which ordered pair is a solution to the equation y − 1 = 2(x + ¼)?', choices: ['(0.75, 0)', '(2.5, 6.5)', '(1.25, 4)', '(4, 9.5)'], topic: 'Linear Equations & Inequalities', correct: 1, explanation: 'Substituting x = 2.5: y − 1 = 2(2.5 + 0.25) = 2(2.75) = 5.5, so y = 6.5, making (2.5, 6.5) a solution.', diveDeep: 'To test whether an ordered pair is a solution, substitute the x-value and y-value into the equation and check that both sides are equal. Here, plug x = 2.5 into 2(x + ¼): 2(2.5 + 0.25) = 5.5, then y − 1 = 5.5 gives y = 6.5, matching the pair. A common mistake is mixing up which coordinate is x versus y, or arithmetic slips with the fraction ¼ = 0.25 inside the parentheses.' },
-    { number: 19, part: 'A', text: 'Elena’s fastest time for the 50-meter dash is 7 seconds. She wants to know how fast this is in inches per minute. Which expression can Elena use for a correct conversion?', choices: ['(7 sec / 50 m) · (1 m / 39.37 in) · (60 sec / 1 min)', '(7 sec / 50 m) · (39.37 in / 1 m) · (1 min / 60 sec)', '(50 m / 7 sec) · (1 m / 39.37 in) · (60 sec / 1 min)', '(50 m / 7 sec) · (39.37 in / 1 m) · (60 sec / 1 min)'], topic: 'Linear Equations & Inequalities', correct: 3, explanation: 'Starting with speed 50 m / 7 sec, multiply by 39.37 in / 1 m to convert meters to inches and by 60 sec / 1 min to convert seconds to minutes, so units cancel to inches per minute.', diveDeep: 'Dimensional analysis converts units by multiplying by fractions equal to 1, arranged so unwanted units cancel diagonally (one in a numerator, one in a denominator). Begin with the rate she wants (distance over time = 50 m / 7 sec since she wants inches per minute), then place "in/m" so meters cancel and leave inches, and "sec/min" so seconds cancel and leave minutes. A common mistake is flipping a conversion factor, which leaves units that do not cancel — always check that the leftover units match the target (inches per minute).',},
-    { number: 20, part: 'A', text: 'The table below shows the highest temperatures recorded in August for several years in one town.\nYear / Temperature (°F): 1990: 86, 1991: 78, 1992: 84, 1993: 95, 1994: 81, 1995: 77, 1996: 88, 1997: 93\nThe interquartile range of these data is', choices: ['7', '11', '10', '18'], topic: 'Statistics & Probability', correct: 2, explanation: 'Ordering the data (77, 78, 81, 84, 86, 88, 93, 95), Q1 = 79.5 and Q3 = 90.5, so the IQR = 90.5 − 79.5 = 11.', diveDeep: 'The interquartile range (IQR) measures the spread of the middle 50% of data: IQR = Q3 − Q1. First order all values, then find the median to split the data, and find the median of the lower half (Q1) and upper half (Q3). With 8 values, Q1 is the average of the 2nd and 3rd (78, 81 → 79.5) and Q3 is the average of the 6th and 7th (88, 93 → 90.5), so IQR = 11. A common mistake is forgetting to order the data first, or confusing IQR with the full range (max − min).', image: '/images/exams/alg1-january-2025/q20.png' },
-    { number: 21, part: 'A', text: 'The function f(x) = x² is multiplied by k, where k < −1. Which graph could represent g(x) = k·f(x)?', choices: ['a narrow upward-opening parabola', 'a wide upward-opening parabola', 'a wide downward-opening parabola', 'a narrow downward-opening parabola'], topic: 'Functions & Relations', correct: 3, explanation: 'Since k is negative, the parabola opens downward, and since |k| > 1, it is vertically stretched (narrower), so g(x) is a narrow downward-opening parabola.', diveDeep: 'Multiplying f(x) = x² by a constant k produces g(x) = kx², a vertical scaling. The sign of k controls direction: negative k reflects the parabola to open downward. The absolute value of k controls width: |k| > 1 stretches it vertically (narrower) and 0 < |k| < 1 compresses it (wider). With k < −1 both effects apply, giving a narrow, downward-opening parabola. A common mistake is to forget that a negative coefficient flips the graph, or to confuse stretching with horizontal shifting.', image: '/images/exams/alg1-january-2025/q21.png' },
-    { number: 22, part: 'A', text: 'Which graph is the solution to the inequality 6.4 − 4x ≥ −2.8?', choices: ['x ≤ 2.3 (closed circle, shaded left)', 'x ≥ 2.3 (closed circle, shaded right)', 'x < 2.3 (open circle, shaded left)', 'x > 2.3 (open circle, shaded right)'], topic: 'Linear Equations & Inequalities', correct: 0, explanation: 'Solving 6.4 − 4x ≥ −2.8 gives −4x ≥ −9.2, and dividing by −4 (flipping the inequality) gives x ≤ 2.3, shown with a closed circle shaded to the left.', diveDeep: 'To solve a linear inequality, isolate x using inverse operations, but remember the key rule: when you multiply or divide both sides by a negative number, you must reverse the inequality sign. Here subtract 6.4 to get −4x ≥ −9.2, then divide by −4 (flip ≥ to ≤) to get x ≤ 2.3. Because the original sign was ≥ (inclusive), the boundary point uses a closed/filled circle. The most common mistake is forgetting to flip the inequality when dividing by the negative coefficient.', image: '/images/exams/alg1-january-2025/q22.png' },
-    { number: 23, part: 'A', text: 'The number of fish in a pond is eight more than the number of frogs. The total number of fish and frogs in the pond is at least 20. If x represents the number of frogs, which inequality can be used to represent this situation?', choices: ['x + 8x ≥ 20', 'x + 8x ≤ 20', '2x + 8 ≥ 20', '2x + 8 ≤ 20'], topic: 'Linear Equations & Inequalities', correct: 2, explanation: 'Fish = x + 8 and frogs = x, so the total is x + (x + 8) = 2x + 8, and "at least 20" means ≥ 20, giving 2x + 8 ≥ 20.', diveDeep: 'Translate words into algebra piece by piece: "eight more than the number of frogs" means fish = x + 8, and the total combines fish and frogs: x + (x + 8) = 2x + 8. The phrase "at least 20" means the total is greater than or equal to 20, so use ≥. A common mistake is writing "8x" (eight times the frogs) instead of "x + 8" (eight more than the frogs), or choosing ≤ for "at least" — "at least" means a minimum, so ≥.',},
-    { number: 24, part: 'A', text: 'Which graph below represents a function that is always decreasing over the entire interval −3 < x < 3?', choices: ['a graph that rises then falls', 'a U-shaped (parabola) graph', 'a horizontal line', 'a graph that falls continuously from left to right'], topic: 'Functions & Relations', correct: 3, explanation: 'A function that is always decreasing must have y-values that consistently drop as x increases across the whole interval, which is the graph that falls continuously from left to right.', diveDeep: 'A function is decreasing on an interval when, as x increases, the y-values get smaller — visually the curve goes downhill from left to right with no flat or rising portions. A graph that rises then falls is increasing somewhere, a parabola changes direction at its vertex, and a horizontal line is constant (neither increasing nor decreasing). To be "always decreasing" over the whole interval, the slope must be negative everywhere on −3 < x < 3. A common mistake is picking a graph that decreases in only part of the interval.', image: '/images/exams/alg1-january-2025/q24.png' },
-
-    { number: 25, part: 'B', type: 'written', text: 'The drama club is selling tickets to their play. Adult tickets cost $8 each and student tickets cost $5 each. The drama club wants to earn at least $200 in ticket sales. They have sold 12 adult tickets so far.\n\nWrite an inequality that can be used to determine s, the minimum number of student tickets they still need to sell. Determine, algebraically, the minimum number of student tickets they need to sell.', topic: 'Linear Equations & Inequalities', explanation: 'Revenue so far from 12 adult tickets = $96. Remaining needed ≥ $104 from student tickets at $5 each: 5s ≥ 104, so s ≥ 20.8, meaning at least 21 student tickets.', diveDeep: 'Set up the inequality using the total revenue condition: 8(12) + 5s ≥ 200, which simplifies to 96 + 5s ≥ 200. Subtract 96 from both sides to get 5s ≥ 104, then divide by 5 to get s ≥ 20.8. Since you cannot sell a fraction of a ticket, round up to the next whole number (21). A common mistake is forgetting to round up when a context requires whole-number answers, or setting up ≤ instead of ≥ for "at least."', modelAnswer: 'Revenue from 12 adult tickets: 8(12) = $96\nInequality: 96 + 5s ≥ 200\nSubtract 96: 5s ≥ 104\nDivide by 5: s ≥ 20.8\nSince s must be a whole number, s ≥ 21.\nThe drama club must sell at least 21 student tickets.' },
-
-    { number: 26, part: 'B', type: 'written', text: 'Graph the function f(x) = x² + 4x + 3.\n\nState the equation of the axis of symmetry of f(x).', topic: 'Quadratic Functions', explanation: 'The parabola has vertex at (−2, −1) found via x = −b/(2a) = −4/2 = −2; the axis of symmetry is x = −2.', diveDeep: 'To graph f(x) = x² + 4x + 3, find the vertex using x = −b/(2a) = −4/(2·1) = −2, then y = (−2)² + 4(−2) + 3 = 4 − 8 + 3 = −1, so the vertex is (−2, −1). Build a table with x-values on both sides of −2 (e.g., −4, −3, −2, −1, 0) to get additional points, then sketch the upward-opening parabola. The axis of symmetry is the vertical line through the vertex: x = −2. You can also factor as (x + 1)(x + 3) to find x-intercepts at −1 and −3, which confirms the axis of symmetry is the midpoint x = −2.', modelAnswer: 'Find the vertex: x = −b/(2a) = −4/2 = −2; y = (−2)² + 4(−2) + 3 = −1. Vertex: (−2, −1).\nTable of values: (−4, 3), (−3, 0), (−2, −1), (−1, 0), (0, 3).\nPlot points and draw an upward-opening parabola through them.\nx-intercepts by factoring: (x + 1)(x + 3) = 0 → x = −1 and x = −3.\nEquation of the axis of symmetry: x = −2' },
-
-    { number: 27, image: '/images/exams/alg1-january-2025/q27.png', part: 'B', type: 'written', text: 'The function f(x) is shown in the table below.\n\nx:  0  |  3  |  2  |  6  |  1  |  8  |  4\nf(x):  6  |  2  |  7  |  5  |  5  |  4  |  m\n\nState an appropriate value for m in the table, so that f(x) remains a function. Explain your reasoning.', topic: 'Functions & Relations', explanation: 'Any value other than 6, 2, 7, 5, or 4 (the existing outputs) would work; for example m = 3. However, any value is acceptable because a function only requires each input to map to exactly one output — x = 4 must not already have a different output, and since 4 appears once, any m is valid.', diveDeep: 'A function requires each x-value (input) to have exactly one y-value (output). Since x = 4 appears only once in the table and m is its corresponding f(x) value, any real number is a valid choice for m — there is no restriction on what output values a function can use, only that no input is mapped to two different outputs. A common misconception is thinking output values must all be unique (that would be a one-to-one function), but a function allows repeated output values. The key check: is any x-value repeated with a different f(x)? Here x = 4 appears once, so m can be anything.', modelAnswer: 'A function requires each input to have exactly one output.\nLooking at the table, x = 4 appears exactly once (in the last column).\nSince x = 4 has not been assigned an output yet, any value of m is acceptable.\nFor example, m = 3 is an appropriate value.\nReasoning: No x-value would be repeated with a different output, so f(x) remains a function.' },
-
-    { number: 28, part: 'B', type: 'written', text: 'Solve x² + 8x = 33 for x by completing the square.', topic: 'Quadratic Functions', explanation: 'Add (8/2)² = 16 to both sides: x² + 8x + 16 = 49, so (x + 4)² = 49, giving x + 4 = ±7, thus x = 3 or x = −11.', diveDeep: 'To complete the square, take half the coefficient of x (here 8/2 = 4), square it (4² = 16), and add it to both sides. The left side becomes the perfect square trinomial x² + 8x + 16 = (x + 4)². The right side becomes 33 + 16 = 49. Taking the square root of both sides gives x + 4 = ±7. Solve both cases: x + 4 = 7 → x = 3, and x + 4 = −7 → x = −11. The most common mistakes are forgetting to add 16 to the right side too, or forgetting the ± when taking the square root.', modelAnswer: 'x² + 8x = 33\nHalf of 8 is 4; 4² = 16. Add 16 to both sides:\nx² + 8x + 16 = 33 + 16\n(x + 4)² = 49\nTake the square root of both sides:\nx + 4 = ±7\nCase 1: x + 4 = 7  →  x = 3\nCase 2: x + 4 = −7  →  x = −11\nThe solutions are x = 3 and x = −11.' },
-
-    { number: 29, part: 'B', type: 'written', text: 'If f(x) = (−3x − 5) / 2, algebraically determine the value of x when f(x) = −22.', topic: 'Linear Equations & Inequalities', explanation: 'Set (−3x − 5)/2 = −22, multiply both sides by 2 to get −3x − 5 = −44, then −3x = −39, so x = 13.', diveDeep: 'To find x when a function equals a given value, substitute the value for f(x) and solve the resulting equation. Here (−3x − 5)/2 = −22; multiply both sides by 2 to clear the denominator, giving −3x − 5 = −44. Add 5 to both sides: −3x = −39. Divide by −3: x = 13. Always check by substituting back: (−3(13) − 5)/2 = (−39 − 5)/2 = −44/2 = −22. ✓ A common mistake is forgetting to multiply the entire right side by 2, or making a sign error when moving the constant.', modelAnswer: 'Set f(x) = −22:\n(−3x − 5) / 2 = −22\nMultiply both sides by 2:\n−3x − 5 = −44\nAdd 5 to both sides:\n−3x = −39\nDivide by −3:\nx = 13\nCheck: (−3(13) − 5) / 2 = (−39 − 5) / 2 = −44 / 2 = −22 ✓' },
-
-    { number: 30, part: 'B', type: 'written', text: 'Rationalize the denominator of the fraction 4/√2. Express the solution in simplest form.', topic: 'Polynomials & Factoring', explanation: 'Multiply numerator and denominator by √2: (4·√2)/(√2·√2) = 4√2/2 = 2√2.', diveDeep: 'Rationalizing the denominator means eliminating the radical from the bottom of a fraction. Multiply both numerator and denominator by the radical in the denominator (√2 in this case), which is equivalent to multiplying by 1 and does not change the value. The denominator becomes √2 · √2 = 2, and the numerator becomes 4√2. Then simplify: 4√2/2 = 2√2. Remember to simplify the resulting fraction fully — 4/2 = 2, so the answer is 2√2, not 4√2/2. A common mistake is forgetting to simplify the fraction after rationalizing.', modelAnswer: '4/√2 = (4/√2) · (√2/√2)\n= 4√2 / (√2 · √2)\n= 4√2 / 2\n= 2√2\nThe rationalized form in simplest form is 2√2.' },
-
-    { number: 31, part: 'B', type: 'written', text: 'Alex had $1.70 in nickels and dimes on his desk. There were 25 coins in all.\n\nWrite a system of equations that could be used to determine both the number of nickels, n, and the number of dimes, d, that Alex had.\n\nUse your system of equations to algebraically determine both the number of nickels and the number of dimes that he had.', topic: 'Linear Equations & Inequalities', explanation: 'System: n + d = 25 and 0.05n + 0.10d = 1.70. Multiply the first equation by 0.05: 0.05n + 0.05d = 1.25, subtract from the second to get 0.05d = 0.45, so d = 9 and n = 16.', diveDeep: 'Set up one equation for the count of coins (n + d = 25) and one for the total value in dollars (0.05n + 0.10d = 1.70). Use elimination or substitution: with elimination, multiply the count equation by 0.05 to get 0.05n + 0.05d = 1.25, then subtract from the value equation to eliminate n and solve for d. Substitution also works (n = 25 − d, then substitute). Always verify by checking both the coin count (16 + 9 = 25) and the total value (16 × $0.05 + 9 × $0.10 = $0.80 + $0.90 = $1.70).', modelAnswer: 'System of equations:\nn + d = 25  (total coins)\n0.05n + 0.10d = 1.70  (total value)\n\nSolve using elimination:\nMultiply first equation by 0.05:\n0.05n + 0.05d = 1.25\nSubtract from second equation:\n(0.05n + 0.10d) − (0.05n + 0.05d) = 1.70 − 1.25\n0.05d = 0.45\nd = 9\n\nSubstitute back: n = 25 − 9 = 16\nAlex had 16 nickels and 9 dimes.\nCheck: 16 + 9 = 25 coins ✓ and 16(0.05) + 9(0.10) = 0.80 + 0.90 = $1.70 ✓' },
-
-    { number: 32, image: '/images/exams/alg1-january-2025/q32.png', part: 'B', type: 'written', text: 'The table below shows the average heart rate, x, and Calories burned, y, for seven men on an Olympic rowing team during a one-hour workout class.\n\nAverage Heart Rate (x): 135, 147, 150, 144, 146, 153, 143\nCalories Burned (y): 725, 812, 866, 761, 825, 863, 737\n\nWrite the linear regression equation that models these data, rounding all values to the nearest tenth.\n\nState the correlation coefficient, rounded to the nearest tenth.\n\nState what the correlation coefficient suggests about the linear fit of these data.', topic: 'Statistics & Probability', explanation: 'The linear regression equation is approximately ŷ = 17.1x − 1575.6 (values may vary slightly by calculator). The correlation coefficient r ≈ 0.9, indicating a strong positive linear relationship between heart rate and calories burned.', diveDeep: 'Use a graphing calculator to perform linear regression (LinReg) on the given data: enter the x-values (heart rates) in L1 and y-values (calories) in L2, then run the regression. Round a and b to the nearest tenth. The correlation coefficient r measures how closely the data follow a linear trend: |r| close to 1 means strong linear fit, near 0 means weak. Since r ≈ 0.9 (positive), the data show a strong positive correlation — as heart rate increases, calories burned tend to increase as well. A common mistake is confusing r (correlation coefficient) with r² (coefficient of determination); the question asks for r.', modelAnswer: 'Using a graphing calculator with the given data:\nLinear regression equation: ŷ = 17.1x − 1575.6\n(All values rounded to the nearest tenth.)\n\nCorrelation coefficient: r ≈ 0.9\n\nInterpretation: The correlation coefficient of approximately 0.9 suggests a strong positive linear relationship between average heart rate and Calories burned — as average heart rate increases, the number of Calories burned tends to increase as well, and the data points are closely clustered around the regression line.' },
-
-    { number: 33, part: 'C', type: 'written', text: 'Using the quadratic formula, solve x² + 4x − 3 = 0. Express your solution in simplest radical form.', topic: 'Quadratic Functions', explanation: 'Using x = (−b ± √(b²−4ac))/(2a) with a=1, b=4, c=−3: x = (−4 ± √(16+12))/2 = (−4 ± √28)/2 = (−4 ± 2√7)/2 = −2 ± √7.', diveDeep: 'The quadratic formula x = (−b ± √(b² − 4ac))/(2a) works for any quadratic in standard form ax² + bx + c = 0. Identify a = 1, b = 4, c = −3 carefully (note c is negative). Compute the discriminant: b² − 4ac = 16 − 4(1)(−3) = 16 + 12 = 28. Simplify √28 = √(4·7) = 2√7. Then x = (−4 ± 2√7)/2; divide both terms in the numerator by 2 to get x = −2 ± √7. The most common mistakes are sign errors with the negative c value, forgetting to simplify the radical, or failing to divide the entire numerator by 2a.', modelAnswer: 'Quadratic formula: x = (−b ± √(b² − 4ac)) / (2a)\nWith a = 1, b = 4, c = −3:\nx = (−4 ± √(4² − 4(1)(−3))) / (2·1)\nx = (−4 ± √(16 + 12)) / 2\nx = (−4 ± √28) / 2\nSimplify √28 = √(4·7) = 2√7:\nx = (−4 ± 2√7) / 2\nx = −2 ± √7\nThe solutions are x = −2 + √7 and x = −2 − √7.' },
-
-    { number: 34, part: 'C', type: 'written', text: 'Solve the following system of equations algebraically for all values of x and y.\n\ny = x² − 7x + 12\ny = 2x − 6', topic: 'Quadratic Functions', explanation: 'Set x² − 7x + 12 = 2x − 6, giving x² − 9x + 18 = 0, which factors as (x − 3)(x − 6) = 0. So x = 3 (y = 0) and x = 6 (y = 6).', diveDeep: 'To solve a linear-quadratic system algebraically, substitute one expression for y into the other equation so you have a single equation in x. Set x² − 7x + 12 = 2x − 6, then move all terms to one side: x² − 9x + 18 = 0. Factor by finding two numbers that multiply to 18 and add to −9: those are −3 and −6, giving (x − 3)(x − 6) = 0. Solve for x, then substitute each x back into the simpler linear equation y = 2x − 6 to find y. Express final answers as ordered pairs and verify each pair satisfies both equations.', modelAnswer: 'Set the equations equal:\nx² − 7x + 12 = 2x − 6\nSubtract 2x and add 6 to both sides:\nx² − 9x + 18 = 0\nFactor: (x − 3)(x − 6) = 0\nx − 3 = 0  →  x = 3\nx − 6 = 0  →  x = 6\n\nFind y for each x using y = 2x − 6:\nWhen x = 3: y = 2(3) − 6 = 0  →  (3, 0)\nWhen x = 6: y = 2(6) − 6 = 6  →  (6, 6)\nThe solutions are (3, 0) and (6, 6).\nVerify in y = x² − 7x + 12: (3)² − 7(3) + 12 = 9 − 21 + 12 = 0 ✓ and (6)² − 7(6) + 12 = 36 − 42 + 12 = 6 ✓' },
-
-    { number: 35, part: 'C', type: 'written', text: 'Anna plans to spend $30 on balloons and party hats for her daughter\'s birthday party. Including tax, balloons cost $2 each and party hats cost $1.50 each. The number of party hats Anna needs is twice as many as the number of balloons.\n\nIf x represents the number of balloons and y represents the number of party hats, write a system of equations that can be used to represent this situation.\n\nGraph your system of equations on the set of axes provided.\n\nState the coordinates of the point of intersection of your lines. Explain what each coordinate means in the context of the problem.', topic: 'Linear Equations & Inequalities', explanation: 'System: 2x + 1.5y = 30 and y = 2x. Substituting: 2x + 1.5(2x) = 30 → 5x = 30 → x = 6, y = 12. Anna buys 6 balloons and 12 party hats.', diveDeep: 'Write two equations: one for the total spending (2x + 1.5y = 30) and one for the ratio of hats to balloons (y = 2x). To find the intersection algebraically, substitute y = 2x into the spending equation: 2x + 1.5(2x) = 30 → 2x + 3x = 30 → 5x = 30 → x = 6, then y = 12. To graph: rewrite 2x + 1.5y = 30 in slope-intercept form as y = −(4/3)x + 20, and y = 2x is a line through the origin with slope 2. The intersection at (6, 12) means 6 balloons and 12 party hats, which is exactly the combination that satisfies both the budget and the quantity relationship. A common error is reversing which variable represents balloons vs. hats.', modelAnswer: 'System of equations:\n2x + 1.5y = 30  (total spending)\ny = 2x  (hats are twice the balloons)\n\nAlgebraic solution (to find intersection):\nSubstitute y = 2x into the first equation:\n2x + 1.5(2x) = 30\n2x + 3x = 30\n5x = 30\nx = 6\ny = 2(6) = 12\n\nPoint of intersection: (6, 12)\n\nInterpretation: The x-coordinate 6 means Anna buys 6 balloons. The y-coordinate 12 means Anna buys 12 party hats. This combination costs exactly $30: 2(6) + 1.5(12) = 12 + 18 = $30 ✓' },
-
-    { number: 36, part: 'C', type: 'written', text: 'A local farmer tracks the number of apples produced by a single tree each year. In year 1, the tree produced 120 apples. Each year after, the tree produces 15 more apples than the previous year.\n\nWrite an explicit formula for a(n), the number of apples produced in year n.\n\nDetermine how many apples the tree will produce in year 10.\n\nIn which year will the tree first produce more than 250 apples? Justify your answer algebraically.', topic: 'Sequences', explanation: 'This is arithmetic with a₁ = 120 and d = 15. Explicit formula: a(n) = 120 + 15(n − 1) = 15n + 105. Year 10: a(10) = 255. For a(n) > 250: 15n + 105 > 250 → 15n > 145 → n > 9.67, so year 10.', diveDeep: 'An arithmetic sequence has explicit formula a(n) = a₁ + d(n − 1), where a₁ is the first term and d is the common difference. Here a₁ = 120 and d = 15, so a(n) = 120 + 15(n − 1) = 15n + 105. For the inequality, set 15n + 105 > 250, subtract 105, then divide by 15 to get n > 9.67. Since n must be a whole number (year), the first year with more than 250 apples is year 10. Verify: a(9) = 15(9) + 105 = 240 (not more than 250) and a(10) = 15(10) + 105 = 255 > 250 ✓.', modelAnswer: 'This is an arithmetic sequence with a₁ = 120 and d = 15.\nExplicit formula: a(n) = a₁ + d(n − 1) = 120 + 15(n − 1) = 15n + 105\n\nYear 10: a(10) = 15(10) + 105 = 150 + 105 = 255 apples\n\nFirst year with more than 250 apples:\n15n + 105 > 250\n15n > 145\nn > 9.67\nSince n must be a whole number, n = 10.\nThe tree will first produce more than 250 apples in year 10.\nVerification: a(9) = 15(9) + 105 = 240 (not more than 250); a(10) = 255 > 250 ✓' },
-
-    { number: 37, part: 'D', type: 'written', text: 'Samantha invests $5,000 in a savings account that earns 4% annual interest, compounded annually. She also invests $5,000 in a simple-interest account that earns $220 per year.\n\nWrite a function S(t) to model the balance in the compound-interest account after t years.\n\nWrite a function L(t) to model the balance in the simple-interest account after t years.\n\nUse the functions to determine algebraically the number of years it takes for the compound-interest account balance to exceed the simple-interest account balance. Round to the nearest year.\n\nSamantha wants a total savings balance of at least $12,000 from both accounts combined. Determine, to the nearest year, when this will first occur. Justify your answer.', topic: 'Functions & Relations', explanation: 'S(t) = 5000(1.04)ᵗ; L(t) = 5000 + 220t. The compound account overtakes simple at about t = 6 years. Combined balance ≥ 12,000 first occurs around t = 9 years.', diveDeep: 'Compound interest uses S(t) = P(1 + r)ᵗ with P = 5000 and r = 0.04. Simple interest grows linearly: L(t) = 5000 + 220t (adding $220 each year). To find when S(t) > L(t), set 5000(1.04)ᵗ = 5000 + 220t and test integer values since this is transcendental (cannot be solved by standard algebra). The combined balance is S(t) + L(t) = 5000(1.04)ᵗ + 5000 + 220t; set ≥ 12,000 and test values. Checking t = 9: S(9) ≈ 7114 and L(9) = 6980, total ≈ 14,094 ≥ 12,000. A common error is confusing compounded and simple interest formulas, or forgetting that both accounts start with separate $5,000 investments.', modelAnswer: 'S(t) = 5000(1.04)ᵗ  (compound interest account)\nL(t) = 5000 + 220t  (simple interest account)\n\nWhen does S(t) exceed L(t)?\nTest values:\nt = 5: S(5) = 5000(1.04)⁵ ≈ 6083; L(5) = 5000 + 1100 = 6100 → S < L\nt = 6: S(6) = 5000(1.04)⁶ ≈ 6327; L(6) = 5000 + 1320 = 6320 → S > L\nThe compound account first exceeds the simple account after 6 years.\n\nCombined balance ≥ $12,000:\nC(t) = S(t) + L(t) = 5000(1.04)ᵗ + 5000 + 220t\nt = 8: C(8) ≈ 6843 + 6760 = 13,603 ≥ 12,000 ✓\nt = 7: C(7) ≈ 6583 + 6540 = 13,123 ≥ 12,000 ✓\nt = 6: C(6) ≈ 6327 + 6320 = 12,647 ≥ 12,000 ✓\nt = 5: C(5) ≈ 6083 + 6100 = 12,183 ≥ 12,000 ✓\nt = 4: C(4) ≈ 5849 + 5880 = 11,729 < 12,000\nThe combined balance first reaches at least $12,000 after 5 years.' },
+  "id": "a1-jan-2025",
+  "subject": "algebra-1",
+  "year": 2025,
+  "session": "January",
+  "totalMinutes": 180,
+  "questions": [
+    {
+      "number": 1,
+      "part": "A",
+      "text": "When factored, the expression x³ − 36x is equivalent to",
+      "choices": [
+        "(x + 6)(x − 6)",
+        "x(x + 6)(x − 6)",
+        "(x + 18)(x − 18)",
+        "x(x + 18)(x − 18)"
+      ],
+      "topic": "Polynomials & Factoring",
+      "correct": 1,
+      "explanation": "First factor out the greatest common factor x to get x(x² − 36), then recognize x² − 36 as a difference of two squares that factors into (x + 6)(x − 6).",
+      "diveDeep": "Always look for a greatest common factor (GCF) before anything else when factoring. Here the GCF is x, leaving x² − 36, which is a difference of perfect squares (a² − b² = (a + b)(a − b)) since 36 = 6². A common mistake is to skip the GCF and jump straight to factoring 36, or to treat 36 as 18² instead of 6². When you see two terms where one is subtracted and both can be perfect squares after pulling out a GCF, the difference-of-squares pattern is your tool.",
+      "difficulty": 1,
+      "difficultyRationale": "Requires foundational factoring of a basic difference of two perfect squares."
+    },
+    {
+      "number": 2,
+      "part": "A",
+      "text": "Which equation represents the line that passes through the points (−1, 8) and (4, 22)?",
+      "choices": [
+        "y = 2.8x + 10.8",
+        "y = 2.8x + 7.5",
+        "y = 2.8x + 6",
+        "y = 14x + 22"
+      ],
+      "topic": "Linear Equations & Inequalities",
+      "correct": 0,
+      "explanation": "The slope is (22 − 8)/(4 − (−1)) = 14/5 = 2.8, and substituting a point gives the y-intercept of 10.8, so y = 2.8x + 10.8.",
+      "diveDeep": "To find a line through two points, first compute slope m = (y₂ − y₁)/(x₂ − x₁), then use point-slope or substitute a point into y = mx + b to solve for b. Here m = 14/5 = 2.8; using (4, 22): 22 = 2.8(4) + b → b = 10.8. A common error is reversing the subtraction order in the slope formula or mismatching which coordinate is x versus y. Keep the order consistent in numerator and denominator (same point first in both).",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
+    },
+    {
+      "number": 3,
+      "part": "A",
+      "text": "A geometric sequence is shown below: ½, 2, 8, 32, … What is the common ratio?",
+      "choices": [
+        "¼",
+        "½",
+        "2",
+        "4"
+      ],
+      "topic": "Sequences",
+      "correct": 3,
+      "explanation": "Dividing any term by the previous one gives 2 ÷ ½ = 4, and 8 ÷ 2 = 4, so the common ratio is 4.",
+      "diveDeep": "In a geometric sequence each term is found by multiplying the previous term by a constant called the common ratio r, found by dividing any term by the one before it (aₙ₊₁ / aₙ). Check more than one pair to confirm the ratio is constant. A frequent mistake is subtracting terms (that gives a common difference, which applies to arithmetic sequences) or dividing in the wrong order. Dividing 2 by ½ means multiplying by the reciprocal, giving 4.",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
+    },
+    {
+      "number": 4,
+      "part": "A",
+      "text": "What is the constant term of the polynomial 2x³ − x + 5 + 4x²?",
+      "choices": [
+        "5",
+        "3",
+        "2",
+        "4"
+      ],
+      "topic": "Polynomials & Factoring",
+      "correct": 0,
+      "explanation": "The constant term is the term with no variable, which is 5.",
+      "diveDeep": "The constant term of a polynomial is the number that has no variable attached (no x). Coefficients like 2, −1, and 4 are attached to powers of x, so they are not constants. Rewriting the polynomial in standard descending order (2x³ + 4x² − x + 5) makes the constant 5 easy to spot at the end. A common mistake is confusing the leading coefficient or a coefficient with the constant.",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
+    },
+    {
+      "number": 5,
+      "part": "A",
+      "text": "A landscaping company charges a set fee for a spring cleanup, plus an hourly labor rate. The total cost is modeled by the function C(x) = 55x + 80. In this function, what does the 55 represent?",
+      "choices": [
+        "the set fee for the cleanup",
+        "the hourly labor rate for a cleanup",
+        "the profit earned by the company for one cleanup",
+        "the number of hours of labor required for one cleanup"
+      ],
+      "topic": "Linear Equations & Inequalities",
+      "correct": 1,
+      "explanation": "In C(x) = 55x + 80, x is the number of hours, so 55 (the rate multiplied by hours) is the hourly labor rate, and 80 is the fixed set fee.",
+      "diveDeep": "In a linear model of the form y = mx + b, the slope m is a rate of change (how much the output changes per unit of input) and b is the starting/fixed value. Here x represents hours, so the coefficient 55 is the cost per hour (the rate), while 80 is the one-time set fee that does not depend on hours. A common mistake is to swap the slope and intercept meanings; always identify what the variable counts to interpret the slope correctly.",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
+    },
+    {
+      "number": 6,
+      "part": "A",
+      "text": "Which expression is equivalent to (5x² − 2x + 4) − (3x² + 3x − 1)?",
+      "choices": [
+        "2x² + x + 3",
+        "2x² − 5x + 5",
+        "2x² − 5x + 3",
+        "8x² + x + 3"
+      ],
+      "topic": "Polynomials & Factoring",
+      "correct": 1,
+      "explanation": "Distributing the negative gives 5x² − 2x + 4 − 3x² − 3x + 1, and combining like terms yields 2x² − 5x + 5.",
+      "diveDeep": "When subtracting polynomials, distribute the subtraction (negative sign) to every term in the second polynomial before combining like terms. Here −(3x² + 3x − 1) becomes −3x² − 3x + 1. Then combine by power: 5x² − 3x² = 2x², −2x − 3x = −5x, and 4 + 1 = 5. The most common error is forgetting to change the sign of all terms in the parentheses, especially the last term (−1 becomes +1).",
+      "difficulty": 2,
+      "difficultyRationale": "Requires distributing terms and combining like terms in a polynomial expression."
+    },
+    {
+      "number": 7,
+      "part": "A",
+      "text": "A system of inequalities is graphed on the set of axes below. Which point is a solution to this system?",
+      "choices": [
+        "(1, 1)",
+        "(1, 8)",
+        "(2, 22)",
+        "(4, 2)"
+      ],
+      "topic": "Linear Equations & Inequalities",
+      "correct": 3,
+      "explanation": "A point is a solution to a system of inequalities only if it lies in the overlapping shaded region of all the inequalities; (4, 2) is the point that falls within that common region.",
+      "diveDeep": "To find a solution to a graphed system of inequalities, locate the region where all shaded areas overlap, then check which listed point lands inside it. Pay attention to whether boundary lines are solid (≤ or ≥, points on the line count) or dashed (< or >, points on the line do not count). A common mistake is choosing a point that satisfies only one inequality. You can always verify by substituting the point into each inequality algebraically.",
+      "image": "/images/exams/alg1-january-2025/q7.png",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
+    },
+    {
+      "number": 8,
+      "part": "A",
+      "text": "In an arithmetic sequence, the first term is 25 and the third term is 15. What is the tenth term in this sequence?",
+      "choices": [
+        "−20",
+        "70",
+        "−25",
+        "75"
+      ],
+      "topic": "Sequences",
+      "correct": 0,
+      "explanation": "The common difference is (15 − 25)/2 = −5, so the tenth term is 25 + (10 − 1)(−5) = 25 − 45 = −20.",
+      "diveDeep": "In an arithmetic sequence each term changes by a constant common difference d. Since the third term is two steps after the first, d = (a₃ − a₁)/2 = (15 − 25)/2 = −5. Use the explicit formula aₙ = a₁ + (n − 1)d, so a₁₀ = 25 + 9(−5) = −20. A common mistake is using (n) instead of (n − 1), or miscounting the number of steps between given terms when solving for d.",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
+    },
+    {
+      "number": 9,
+      "part": "A",
+      "text": "When the formula p = 2l + 2w is solved for w, the result is",
+      "choices": [
+        "w = (2l + p)/2",
+        "w = p − l",
+        "w = (p − 2l)/2",
+        "w = l − p/2"
+      ],
+      "topic": "Linear Equations & Inequalities",
+      "correct": 2,
+      "explanation": "Subtracting 2l from both sides gives p − 2l = 2w, and dividing by 2 yields w = (p − 2l)/2.",
+      "diveDeep": "Solving a literal equation (a formula) for one variable uses the same inverse operations as solving for a number: isolate the target variable step by step. Here subtract 2l to undo the addition, then divide by 2 to undo the multiplication, keeping the entire numerator (p − 2l) over 2. A common mistake is dividing only part of the expression by 2 instead of the whole numerator — every term must be divided.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 10,
+      "part": "A",
+      "text": "Market Street Pizza kept a record of pizza sales for the month of February. The results are shown in the table below.\nType:  Plain | Veggie | Meat Only | The Works\nThin Crust:  300 | 80 | 120 | 100\nDeep-dish:  200 | 25 | 105 | 70\nOf all the pizzas sold in February, what percent were plain, deep-dish pizzas?",
+      "choices": [
+        "20%",
+        "40%",
+        "30%",
+        "50%"
+      ],
+      "topic": "Statistics & Probability",
+      "correct": 0,
+      "explanation": "The total of all pizzas is 1000, and plain deep-dish pizzas number 200, so 200/1000 = 20%.",
+      "diveDeep": "For a two-way frequency table, a percent of the whole is (the cell you care about) ÷ (the grand total of every cell), then multiply by 100. Add all eight values: 300 + 80 + 120 + 100 + 200 + 25 + 105 + 70 = 1000, and the plain deep-dish cell is 200, giving 200/1000 = 20%. A common mistake is dividing by a row or column total (a conditional percent) instead of the grand total when the question asks \"of all the pizzas.\"",
+      "image": "/images/exams/alg1-january-2025/q10.png",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 11,
+      "part": "A",
+      "text": "When solving 2(3x − 5) = 9 − x for x, the solution is",
+      "choices": [
+        "19/7",
+        "−1/7",
+        "19/5",
+        "1/5"
+      ],
+      "topic": "Linear Equations & Inequalities",
+      "correct": 0,
+      "explanation": "Distributing gives 6x − 10 = 9 − x; adding x and 10 to both sides gives 7x = 19, so x = 19/7.",
+      "diveDeep": "To solve a linear equation, distribute first, then collect all variable terms on one side and constants on the other. Here 2(3x − 5) = 6x − 10, and adding x to both sides plus adding 10 gives 7x = 19. Divide by 7 for x = 19/7. Common mistakes include forgetting to distribute the 2 to both terms inside the parentheses, or sign errors when moving the −x across the equals sign.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 12,
+      "part": "A",
+      "text": "The expression x^(2a + b) is equivalent to",
+      "choices": [
+        "x^(2a) + x^b",
+        "x^a · x^(a + b)",
+        "x^a + x^(a + b)",
+        "x^(a + b) · x^(a + b)"
+      ],
+      "topic": "Polynomials & Factoring",
+      "correct": 1,
+      "explanation": "Using the product rule for exponents, x^a · x^(a + b) = x^(a + a + b) = x^(2a + b).",
+      "diveDeep": "When multiplying powers with the same base, add the exponents: x^m · x^n = x^(m + n). To match x^(2a + b), split the exponent into a sum of two exponents whose total is 2a + b; x^a · x^(a + b) adds to x^(2a + b). A very common mistake is to think x^(2a + b) can be split into a sum of separate terms (x^(2a) + x^b) — exponent rules apply to multiplication of powers, not to splitting a power into added terms.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 13,
+      "part": "A",
+      "text": "The inputs and outputs of a function are shown in the table below.\nx:  0 | 1 | 2 | 3 | 4\nf(x):  0.0625 | 0.125 | 0.25 | 0.5 | 1\nThis function can best be described as",
+      "choices": [
+        "linear",
+        "exponential",
+        "quadratic",
+        "absolute value"
+      ],
+      "topic": "Functions & Relations",
+      "correct": 1,
+      "explanation": "Each output is double the previous one (a constant multiplicative ratio of 2), which is the defining property of an exponential function.",
+      "diveDeep": "To classify a function from a table with equally spaced x-values, check the pattern in the outputs: a constant difference means linear, a constant second difference means quadratic, and a constant ratio (multiplying by the same factor) means exponential. Here 0.0625 × 2 = 0.125, × 2 = 0.25, and so on, a constant ratio of 2, so it is exponential. A common mistake is seeing the outputs grow and assuming \"quadratic\" without checking whether the growth is by adding or by multiplying.",
+      "image": "/images/exams/alg1-january-2025/q13.png",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 14,
+      "part": "A",
+      "text": "Stephanie is solving the equation x² − 12 = 7x − 8. Her first step is shown below.\nGiven: x² − 12 = 7x − 8\nStep 1: x² − 4 = 7x\nWhich property justifies her first step?",
+      "choices": [
+        "associative property",
+        "distributive property",
+        "commutative property",
+        "addition property of equality"
+      ],
+      "topic": "Linear Equations & Inequalities",
+      "correct": 3,
+      "explanation": "She added 8 to both sides of the equation, which is justified by the addition property of equality.",
+      "diveDeep": "The addition property of equality states that adding the same quantity to both sides of an equation keeps it balanced. From x² − 12 = 7x − 8, adding 8 to both sides gives x² − 4 = 7x. The associative, commutative, and distributive properties describe how to rearrange or expand expressions, not how to change both sides of an equation. Identify what operation was performed across the equals sign to name the correct equality property.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 15,
+      "part": "A",
+      "text": "What is the sum of 3√8 and √3?",
+      "choices": [
+        "6√8",
+        "√11",
+        "6√2 + √3",
+        "3√11"
+      ],
+      "topic": "Polynomials & Factoring",
+      "correct": 2,
+      "explanation": "Simplify 3√8 = 3·2√2 = 6√2, and since √3 is unlike, the sum is 6√2 + √3.",
+      "diveDeep": "Radicals can only be combined by addition when they are \"like radicals\" (the same number under the root). First simplify each radical: √8 = √(4·2) = 2√2, so 3√8 = 6√2. Since 6√2 and √3 have different radicands, they cannot be combined into a single term and the answer stays as 6√2 + √3. A common mistake is adding the numbers under the root (treating √8 + √3 as √11), which is not valid.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 16,
+      "part": "A",
+      "text": "The dot plots below represent test scores for 20 students on a math test. The mode for this math test is 80 and the median is 85. Which dot plot correctly represents this data?",
+      "choices": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "topic": "Statistics & Probability",
+      "correct": 0,
+      "explanation": "The correct plot must have its most frequent value (the tallest stack of dots) at 80 and its middle value at 85, which only plot I satisfies.",
+      "diveDeep": "In a dot plot the mode is the value with the most dots stacked above it, and the median is the value of the middle data point(s) when the 20 values are ordered. With 20 values the median is the average of the 10th and 11th values. Check each plot: it must peak at 80 (mode) yet have its central position at 85 (median). A common mistake is confusing mode (most frequent) with median (middle position) or with the mean.",
+      "image": "/images/exams/alg1-january-2025/q16.png",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 17,
+      "part": "A",
+      "text": "A function is graphed on the set of axes below. The domain of this function is",
+      "choices": [
+        "{x | x ≥ −2}",
+        "{x | x ≥ −4}",
+        "{x | x > −2}",
+        "{x | x > −4}"
+      ],
+      "topic": "Functions & Relations",
+      "correct": 0,
+      "explanation": "The graph begins at x = −2 with a solid (closed) endpoint and continues to the right, so the domain is all x greater than or equal to −2.",
+      "diveDeep": "The domain of a function is the set of all x-values (inputs) for which the function is defined — read it left to right along the x-axis. A closed (filled) endpoint means that x-value is included (use ≥ or ≤), while an open endpoint means it is excluded (use > or <). Here the curve starts at x = −2 with a filled dot and extends rightward, giving {x | x ≥ −2}. A common mistake is confusing domain (x-values) with range (y-values), or misreading an open versus closed circle.",
+      "image": "/images/exams/alg1-january-2025/q17.png",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 18,
+      "part": "A",
+      "text": "Which ordered pair is a solution to the equation y − 1 = 2(x + ¼)?",
+      "choices": [
+        "(0.75, 0)",
+        "(2.5, 6.5)",
+        "(1.25, 4)",
+        "(4, 9.5)"
+      ],
+      "topic": "Linear Equations & Inequalities",
+      "correct": 1,
+      "explanation": "Substituting x = 2.5: y − 1 = 2(2.5 + 0.25) = 2(2.75) = 5.5, so y = 6.5, making (2.5, 6.5) a solution.",
+      "diveDeep": "To test whether an ordered pair is a solution, substitute the x-value and y-value into the equation and check that both sides are equal. Here, plug x = 2.5 into 2(x + ¼): 2(2.5 + 0.25) = 5.5, then y − 1 = 5.5 gives y = 6.5, matching the pair. A common mistake is mixing up which coordinate is x versus y, or arithmetic slips with the fraction ¼ = 0.25 inside the parentheses.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 19,
+      "part": "A",
+      "text": "Elena’s fastest time for the 50-meter dash is 7 seconds. She wants to know how fast this is in inches per minute. Which expression can Elena use for a correct conversion?",
+      "choices": [
+        "(7 sec / 50 m) · (1 m / 39.37 in) · (60 sec / 1 min)",
+        "(7 sec / 50 m) · (39.37 in / 1 m) · (1 min / 60 sec)",
+        "(50 m / 7 sec) · (1 m / 39.37 in) · (60 sec / 1 min)",
+        "(50 m / 7 sec) · (39.37 in / 1 m) · (60 sec / 1 min)"
+      ],
+      "topic": "Linear Equations & Inequalities",
+      "correct": 3,
+      "explanation": "Starting with speed 50 m / 7 sec, multiply by 39.37 in / 1 m to convert meters to inches and by 60 sec / 1 min to convert seconds to minutes, so units cancel to inches per minute.",
+      "diveDeep": "Dimensional analysis converts units by multiplying by fractions equal to 1, arranged so unwanted units cancel diagonally (one in a numerator, one in a denominator). Begin with the rate she wants (distance over time = 50 m / 7 sec since she wants inches per minute), then place \"in/m\" so meters cancel and leave inches, and \"sec/min\" so seconds cancel and leave minutes. A common mistake is flipping a conversion factor, which leaves units that do not cancel — always check that the leftover units match the target (inches per minute).",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 20,
+      "part": "A",
+      "text": "The table below shows the highest temperatures recorded in August for several years in one town.\nYear / Temperature (°F): 1990: 86, 1991: 78, 1992: 84, 1993: 95, 1994: 81, 1995: 77, 1996: 88, 1997: 93\nThe interquartile range of these data is",
+      "choices": [
+        "7",
+        "11",
+        "10",
+        "18"
+      ],
+      "topic": "Statistics & Probability",
+      "correct": 2,
+      "explanation": "Ordering the data (77, 78, 81, 84, 86, 88, 93, 95), Q1 = 79.5 and Q3 = 90.5, so the IQR = 90.5 − 79.5 = 11.",
+      "diveDeep": "The interquartile range (IQR) measures the spread of the middle 50% of data: IQR = Q3 − Q1. First order all values, then find the median to split the data, and find the median of the lower half (Q1) and upper half (Q3). With 8 values, Q1 is the average of the 2nd and 3rd (78, 81 → 79.5) and Q3 is the average of the 6th and 7th (88, 93 → 90.5), so IQR = 11. A common mistake is forgetting to order the data first, or confusing IQR with the full range (max − min).",
+      "image": "/images/exams/alg1-january-2025/q20.png",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 21,
+      "part": "A",
+      "text": "The function f(x) = x² is multiplied by k, where k < −1. Which graph could represent g(x) = k·f(x)?",
+      "choices": [
+        "a narrow upward-opening parabola",
+        "a wide upward-opening parabola",
+        "a wide downward-opening parabola",
+        "a narrow downward-opening parabola"
+      ],
+      "topic": "Functions & Relations",
+      "correct": 3,
+      "explanation": "Since k is negative, the parabola opens downward, and since |k| > 1, it is vertically stretched (narrower), so g(x) is a narrow downward-opening parabola.",
+      "diveDeep": "Multiplying f(x) = x² by a constant k produces g(x) = kx², a vertical scaling. The sign of k controls direction: negative k reflects the parabola to open downward. The absolute value of k controls width: |k| > 1 stretches it vertically (narrower) and 0 < |k| < 1 compresses it (wider). With k < −1 both effects apply, giving a narrow, downward-opening parabola. A common mistake is to forget that a negative coefficient flips the graph, or to confuse stretching with horizontal shifting.",
+      "image": "/images/exams/alg1-january-2025/q21.png",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 22,
+      "part": "A",
+      "text": "Which graph is the solution to the inequality 6.4 − 4x ≥ −2.8?",
+      "choices": [
+        "x ≤ 2.3 (closed circle, shaded left)",
+        "x ≥ 2.3 (closed circle, shaded right)",
+        "x < 2.3 (open circle, shaded left)",
+        "x > 2.3 (open circle, shaded right)"
+      ],
+      "topic": "Linear Equations & Inequalities",
+      "correct": 0,
+      "explanation": "Solving 6.4 − 4x ≥ −2.8 gives −4x ≥ −9.2, and dividing by −4 (flipping the inequality) gives x ≤ 2.3, shown with a closed circle shaded to the left.",
+      "diveDeep": "To solve a linear inequality, isolate x using inverse operations, but remember the key rule: when you multiply or divide both sides by a negative number, you must reverse the inequality sign. Here subtract 6.4 to get −4x ≥ −9.2, then divide by −4 (flip ≥ to ≤) to get x ≤ 2.3. Because the original sign was ≥ (inclusive), the boundary point uses a closed/filled circle. The most common mistake is forgetting to flip the inequality when dividing by the negative coefficient.",
+      "image": "/images/exams/alg1-january-2025/q22.png",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 23,
+      "part": "A",
+      "text": "The number of fish in a pond is eight more than the number of frogs. The total number of fish and frogs in the pond is at least 20. If x represents the number of frogs, which inequality can be used to represent this situation?",
+      "choices": [
+        "x + 8x ≥ 20",
+        "x + 8x ≤ 20",
+        "2x + 8 ≥ 20",
+        "2x + 8 ≤ 20"
+      ],
+      "topic": "Linear Equations & Inequalities",
+      "correct": 2,
+      "explanation": "Fish = x + 8 and frogs = x, so the total is x + (x + 8) = 2x + 8, and \"at least 20\" means ≥ 20, giving 2x + 8 ≥ 20.",
+      "diveDeep": "Translate words into algebra piece by piece: \"eight more than the number of frogs\" means fish = x + 8, and the total combines fish and frogs: x + (x + 8) = 2x + 8. The phrase \"at least 20\" means the total is greater than or equal to 20, so use ≥. A common mistake is writing \"8x\" (eight times the frogs) instead of \"x + 8\" (eight more than the frogs), or choosing ≤ for \"at least\" — \"at least\" means a minimum, so ≥.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 24,
+      "part": "A",
+      "text": "Which graph below represents a function that is always decreasing over the entire interval −3 < x < 3?",
+      "choices": [
+        "a graph that rises then falls",
+        "a U-shaped (parabola) graph",
+        "a horizontal line",
+        "a graph that falls continuously from left to right"
+      ],
+      "topic": "Functions & Relations",
+      "correct": 3,
+      "explanation": "A function that is always decreasing must have y-values that consistently drop as x increases across the whole interval, which is the graph that falls continuously from left to right.",
+      "diveDeep": "A function is decreasing on an interval when, as x increases, the y-values get smaller — visually the curve goes downhill from left to right with no flat or rising portions. A graph that rises then falls is increasing somewhere, a parabola changes direction at its vertex, and a horizontal line is constant (neither increasing nor decreasing). To be \"always decreasing\" over the whole interval, the slope must be negative everywhere on −3 < x < 3. A common mistake is picking a graph that decreases in only part of the interval.",
+      "image": "/images/exams/alg1-january-2025/q24.png",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 25,
+      "part": "B",
+      "type": "written",
+      "text": "The drama club is selling tickets to their play. Adult tickets cost $8 each and student tickets cost $5 each. The drama club wants to earn at least $200 in ticket sales. They have sold 12 adult tickets so far.\n\nWrite an inequality that can be used to determine s, the minimum number of student tickets they still need to sell. Determine, algebraically, the minimum number of student tickets they need to sell.",
+      "topic": "Linear Equations & Inequalities",
+      "explanation": "Revenue so far from 12 adult tickets = $96. Remaining needed ≥ $104 from student tickets at $5 each: 5s ≥ 104, so s ≥ 20.8, meaning at least 21 student tickets.",
+      "diveDeep": "Set up the inequality using the total revenue condition: 8(12) + 5s ≥ 200, which simplifies to 96 + 5s ≥ 200. Subtract 96 from both sides to get 5s ≥ 104, then divide by 5 to get s ≥ 20.8. Since you cannot sell a fraction of a ticket, round up to the next whole number (21). A common mistake is forgetting to round up when a context requires whole-number answers, or setting up ≤ instead of ≥ for \"at least.\"",
+      "modelAnswer": "Revenue from 12 adult tickets: 8(12) = $96\nInequality: 96 + 5s ≥ 200\nSubtract 96: 5s ≥ 104\nDivide by 5: s ≥ 20.8\nSince s must be a whole number, s ≥ 21.\nThe drama club must sell at least 21 student tickets.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 26,
+      "part": "B",
+      "type": "written",
+      "text": "Graph the function f(x) = x² + 4x + 3.\n\nState the equation of the axis of symmetry of f(x).",
+      "topic": "Quadratic Functions",
+      "explanation": "The parabola has vertex at (−2, −1) found via x = −b/(2a) = −4/2 = −2; the axis of symmetry is x = −2.",
+      "diveDeep": "To graph f(x) = x² + 4x + 3, find the vertex using x = −b/(2a) = −4/(2·1) = −2, then y = (−2)² + 4(−2) + 3 = 4 − 8 + 3 = −1, so the vertex is (−2, −1). Build a table with x-values on both sides of −2 (e.g., −4, −3, −2, −1, 0) to get additional points, then sketch the upward-opening parabola. The axis of symmetry is the vertical line through the vertex: x = −2. You can also factor as (x + 1)(x + 3) to find x-intercepts at −1 and −3, which confirms the axis of symmetry is the midpoint x = −2.",
+      "modelAnswer": "Find the vertex: x = −b/(2a) = −4/2 = −2; y = (−2)² + 4(−2) + 3 = −1. Vertex: (−2, −1).\nTable of values: (−4, 3), (−3, 0), (−2, −1), (−1, 0), (0, 3).\nPlot points and draw an upward-opening parabola through them.\nx-intercepts by factoring: (x + 1)(x + 3) = 0 → x = −1 and x = −3.\nEquation of the axis of symmetry: x = −2",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 27,
+      "image": "/images/exams/alg1-january-2025/q27.png",
+      "part": "B",
+      "type": "written",
+      "text": "The function f(x) is shown in the table below.\n\nx:  0  |  3  |  2  |  6  |  1  |  8  |  4\nf(x):  6  |  2  |  7  |  5  |  5  |  4  |  m\n\nState an appropriate value for m in the table, so that f(x) remains a function. Explain your reasoning.",
+      "topic": "Functions & Relations",
+      "explanation": "Any value other than 6, 2, 7, 5, or 4 (the existing outputs) would work; for example m = 3. However, any value is acceptable because a function only requires each input to map to exactly one output — x = 4 must not already have a different output, and since 4 appears once, any m is valid.",
+      "diveDeep": "A function requires each x-value (input) to have exactly one y-value (output). Since x = 4 appears only once in the table and m is its corresponding f(x) value, any real number is a valid choice for m — there is no restriction on what output values a function can use, only that no input is mapped to two different outputs. A common misconception is thinking output values must all be unique (that would be a one-to-one function), but a function allows repeated output values. The key check: is any x-value repeated with a different f(x)? Here x = 4 appears once, so m can be anything.",
+      "modelAnswer": "A function requires each input to have exactly one output.\nLooking at the table, x = 4 appears exactly once (in the last column).\nSince x = 4 has not been assigned an output yet, any value of m is acceptable.\nFor example, m = 3 is an appropriate value.\nReasoning: No x-value would be repeated with a different output, so f(x) remains a function.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 28,
+      "part": "B",
+      "type": "written",
+      "text": "Solve x² + 8x = 33 for x by completing the square.",
+      "topic": "Quadratic Functions",
+      "explanation": "Add (8/2)² = 16 to both sides: x² + 8x + 16 = 49, so (x + 4)² = 49, giving x + 4 = ±7, thus x = 3 or x = −11.",
+      "diveDeep": "To complete the square, take half the coefficient of x (here 8/2 = 4), square it (4² = 16), and add it to both sides. The left side becomes the perfect square trinomial x² + 8x + 16 = (x + 4)². The right side becomes 33 + 16 = 49. Taking the square root of both sides gives x + 4 = ±7. Solve both cases: x + 4 = 7 → x = 3, and x + 4 = −7 → x = −11. The most common mistakes are forgetting to add 16 to the right side too, or forgetting the ± when taking the square root.",
+      "modelAnswer": "x² + 8x = 33\nHalf of 8 is 4; 4² = 16. Add 16 to both sides:\nx² + 8x + 16 = 33 + 16\n(x + 4)² = 49\nTake the square root of both sides:\nx + 4 = ±7\nCase 1: x + 4 = 7  →  x = 3\nCase 2: x + 4 = −7  →  x = −11\nThe solutions are x = 3 and x = −11.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 29,
+      "part": "B",
+      "type": "written",
+      "text": "If f(x) = (−3x − 5) / 2, algebraically determine the value of x when f(x) = −22.",
+      "topic": "Linear Equations & Inequalities",
+      "explanation": "Set (−3x − 5)/2 = −22, multiply both sides by 2 to get −3x − 5 = −44, then −3x = −39, so x = 13.",
+      "diveDeep": "To find x when a function equals a given value, substitute the value for f(x) and solve the resulting equation. Here (−3x − 5)/2 = −22; multiply both sides by 2 to clear the denominator, giving −3x − 5 = −44. Add 5 to both sides: −3x = −39. Divide by −3: x = 13. Always check by substituting back: (−3(13) − 5)/2 = (−39 − 5)/2 = −44/2 = −22. ✓ A common mistake is forgetting to multiply the entire right side by 2, or making a sign error when moving the constant.",
+      "modelAnswer": "Set f(x) = −22:\n(−3x − 5) / 2 = −22\nMultiply both sides by 2:\n−3x − 5 = −44\nAdd 5 to both sides:\n−3x = −39\nDivide by −3:\nx = 13\nCheck: (−3(13) − 5) / 2 = (−39 − 5) / 2 = −44 / 2 = −22 ✓",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 30,
+      "part": "B",
+      "type": "written",
+      "text": "Rationalize the denominator of the fraction 4/√2. Express the solution in simplest form.",
+      "topic": "Polynomials & Factoring",
+      "explanation": "Multiply numerator and denominator by √2: (4·√2)/(√2·√2) = 4√2/2 = 2√2.",
+      "diveDeep": "Rationalizing the denominator means eliminating the radical from the bottom of a fraction. Multiply both numerator and denominator by the radical in the denominator (√2 in this case), which is equivalent to multiplying by 1 and does not change the value. The denominator becomes √2 · √2 = 2, and the numerator becomes 4√2. Then simplify: 4√2/2 = 2√2. Remember to simplify the resulting fraction fully — 4/2 = 2, so the answer is 2√2, not 4√2/2. A common mistake is forgetting to simplify the fraction after rationalizing.",
+      "modelAnswer": "4/√2 = (4/√2) · (√2/√2)\n= 4√2 / (√2 · √2)\n= 4√2 / 2\n= 2√2\nThe rationalized form in simplest form is 2√2.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 31,
+      "part": "B",
+      "type": "written",
+      "text": "Alex had $1.70 in nickels and dimes on his desk. There were 25 coins in all.\n\nWrite a system of equations that could be used to determine both the number of nickels, n, and the number of dimes, d, that Alex had.\n\nUse your system of equations to algebraically determine both the number of nickels and the number of dimes that he had.",
+      "topic": "Linear Equations & Inequalities",
+      "explanation": "System: n + d = 25 and 0.05n + 0.10d = 1.70. Multiply the first equation by 0.05: 0.05n + 0.05d = 1.25, subtract from the second to get 0.05d = 0.45, so d = 9 and n = 16.",
+      "diveDeep": "Set up one equation for the count of coins (n + d = 25) and one for the total value in dollars (0.05n + 0.10d = 1.70). Use elimination or substitution: with elimination, multiply the count equation by 0.05 to get 0.05n + 0.05d = 1.25, then subtract from the value equation to eliminate n and solve for d. Substitution also works (n = 25 − d, then substitute). Always verify by checking both the coin count (16 + 9 = 25) and the total value (16 × $0.05 + 9 × $0.10 = $0.80 + $0.90 = $1.70).",
+      "modelAnswer": "System of equations:\nn + d = 25  (total coins)\n0.05n + 0.10d = 1.70  (total value)\n\nSolve using elimination:\nMultiply first equation by 0.05:\n0.05n + 0.05d = 1.25\nSubtract from second equation:\n(0.05n + 0.10d) − (0.05n + 0.05d) = 1.70 − 1.25\n0.05d = 0.45\nd = 9\n\nSubstitute back: n = 25 − 9 = 16\nAlex had 16 nickels and 9 dimes.\nCheck: 16 + 9 = 25 coins ✓ and 16(0.05) + 9(0.10) = 0.80 + 0.90 = $1.70 ✓",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 32,
+      "image": "/images/exams/alg1-january-2025/q32.png",
+      "part": "B",
+      "type": "written",
+      "text": "The table below shows the average heart rate, x, and Calories burned, y, for seven men on an Olympic rowing team during a one-hour workout class.\n\nAverage Heart Rate (x): 135, 147, 150, 144, 146, 153, 143\nCalories Burned (y): 725, 812, 866, 761, 825, 863, 737\n\nWrite the linear regression equation that models these data, rounding all values to the nearest tenth.\n\nState the correlation coefficient, rounded to the nearest tenth.\n\nState what the correlation coefficient suggests about the linear fit of these data.",
+      "topic": "Statistics & Probability",
+      "explanation": "The linear regression equation is approximately ŷ = 17.1x − 1575.6 (values may vary slightly by calculator). The correlation coefficient r ≈ 0.9, indicating a strong positive linear relationship between heart rate and calories burned.",
+      "diveDeep": "Use a graphing calculator to perform linear regression (LinReg) on the given data: enter the x-values (heart rates) in L1 and y-values (calories) in L2, then run the regression. Round a and b to the nearest tenth. The correlation coefficient r measures how closely the data follow a linear trend: |r| close to 1 means strong linear fit, near 0 means weak. Since r ≈ 0.9 (positive), the data show a strong positive correlation — as heart rate increases, calories burned tend to increase as well. A common mistake is confusing r (correlation coefficient) with r² (coefficient of determination); the question asks for r.",
+      "modelAnswer": "Using a graphing calculator with the given data:\nLinear regression equation: ŷ = 17.1x − 1575.6\n(All values rounded to the nearest tenth.)\n\nCorrelation coefficient: r ≈ 0.9\n\nInterpretation: The correlation coefficient of approximately 0.9 suggests a strong positive linear relationship between average heart rate and Calories burned — as average heart rate increases, the number of Calories burned tends to increase as well, and the data points are closely clustered around the regression line.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 33,
+      "part": "C",
+      "type": "written",
+      "text": "Using the quadratic formula, solve x² + 4x − 3 = 0. Express your solution in simplest radical form.",
+      "topic": "Quadratic Functions",
+      "explanation": "Using x = (−b ± √(b²−4ac))/(2a) with a=1, b=4, c=−3: x = (−4 ± √(16+12))/2 = (−4 ± √28)/2 = (−4 ± 2√7)/2 = −2 ± √7.",
+      "diveDeep": "The quadratic formula x = (−b ± √(b² − 4ac))/(2a) works for any quadratic in standard form ax² + bx + c = 0. Identify a = 1, b = 4, c = −3 carefully (note c is negative). Compute the discriminant: b² − 4ac = 16 − 4(1)(−3) = 16 + 12 = 28. Simplify √28 = √(4·7) = 2√7. Then x = (−4 ± 2√7)/2; divide both terms in the numerator by 2 to get x = −2 ± √7. The most common mistakes are sign errors with the negative c value, forgetting to simplify the radical, or failing to divide the entire numerator by 2a.",
+      "modelAnswer": "Quadratic formula: x = (−b ± √(b² − 4ac)) / (2a)\nWith a = 1, b = 4, c = −3:\nx = (−4 ± √(4² − 4(1)(−3))) / (2·1)\nx = (−4 ± √(16 + 12)) / 2\nx = (−4 ± √28) / 2\nSimplify √28 = √(4·7) = 2√7:\nx = (−4 ± 2√7) / 2\nx = −2 ± √7\nThe solutions are x = −2 + √7 and x = −2 − √7.",
+      "difficulty": 4,
+      "difficultyRationale": "Standard Regents Part III constructed-response requiring multi-step modeling, graphing, and algebraic justification."
+    },
+    {
+      "number": 34,
+      "part": "C",
+      "type": "written",
+      "text": "Solve the following system of equations algebraically for all values of x and y.\n\ny = x² − 7x + 12\ny = 2x − 6",
+      "topic": "Quadratic Functions",
+      "explanation": "Set x² − 7x + 12 = 2x − 6, giving x² − 9x + 18 = 0, which factors as (x − 3)(x − 6) = 0. So x = 3 (y = 0) and x = 6 (y = 6).",
+      "diveDeep": "To solve a linear-quadratic system algebraically, substitute one expression for y into the other equation so you have a single equation in x. Set x² − 7x + 12 = 2x − 6, then move all terms to one side: x² − 9x + 18 = 0. Factor by finding two numbers that multiply to 18 and add to −9: those are −3 and −6, giving (x − 3)(x − 6) = 0. Solve for x, then substitute each x back into the simpler linear equation y = 2x − 6 to find y. Express final answers as ordered pairs and verify each pair satisfies both equations.",
+      "modelAnswer": "Set the equations equal:\nx² − 7x + 12 = 2x − 6\nSubtract 2x and add 6 to both sides:\nx² − 9x + 18 = 0\nFactor: (x − 3)(x − 6) = 0\nx − 3 = 0  →  x = 3\nx − 6 = 0  →  x = 6\n\nFind y for each x using y = 2x − 6:\nWhen x = 3: y = 2(3) − 6 = 0  →  (3, 0)\nWhen x = 6: y = 2(6) − 6 = 6  →  (6, 6)\nThe solutions are (3, 0) and (6, 6).\nVerify in y = x² − 7x + 12: (3)² − 7(3) + 12 = 9 − 21 + 12 = 0 ✓ and (6)² − 7(6) + 12 = 36 − 42 + 12 = 6 ✓",
+      "difficulty": 4,
+      "difficultyRationale": "Standard Regents Part III constructed-response requiring multi-step modeling, graphing, and algebraic justification."
+    },
+    {
+      "number": 35,
+      "part": "C",
+      "type": "written",
+      "text": "Anna plans to spend $30 on balloons and party hats for her daughter's birthday party. Including tax, balloons cost $2 each and party hats cost $1.50 each. The number of party hats Anna needs is twice as many as the number of balloons.\n\nIf x represents the number of balloons and y represents the number of party hats, write a system of equations that can be used to represent this situation.\n\nGraph your system of equations on the set of axes provided.\n\nState the coordinates of the point of intersection of your lines. Explain what each coordinate means in the context of the problem.",
+      "topic": "Linear Equations & Inequalities",
+      "explanation": "System: 2x + 1.5y = 30 and y = 2x. Substituting: 2x + 1.5(2x) = 30 → 5x = 30 → x = 6, y = 12. Anna buys 6 balloons and 12 party hats.",
+      "diveDeep": "Write two equations: one for the total spending (2x + 1.5y = 30) and one for the ratio of hats to balloons (y = 2x). To find the intersection algebraically, substitute y = 2x into the spending equation: 2x + 1.5(2x) = 30 → 2x + 3x = 30 → 5x = 30 → x = 6, then y = 12. To graph: rewrite 2x + 1.5y = 30 in slope-intercept form as y = −(4/3)x + 20, and y = 2x is a line through the origin with slope 2. The intersection at (6, 12) means 6 balloons and 12 party hats, which is exactly the combination that satisfies both the budget and the quantity relationship. A common error is reversing which variable represents balloons vs. hats.",
+      "modelAnswer": "System of equations:\n2x + 1.5y = 30  (total spending)\ny = 2x  (hats are twice the balloons)\n\nAlgebraic solution (to find intersection):\nSubstitute y = 2x into the first equation:\n2x + 1.5(2x) = 30\n2x + 3x = 30\n5x = 30\nx = 6\ny = 2(6) = 12\n\nPoint of intersection: (6, 12)\n\nInterpretation: The x-coordinate 6 means Anna buys 6 balloons. The y-coordinate 12 means Anna buys 12 party hats. This combination costs exactly $30: 2(6) + 1.5(12) = 12 + 18 = $30 ✓",
+      "difficulty": 4,
+      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point."
+    },
+    {
+      "number": 36,
+      "part": "C",
+      "type": "written",
+      "text": "A local farmer tracks the number of apples produced by a single tree each year. In year 1, the tree produced 120 apples. Each year after, the tree produces 15 more apples than the previous year.\n\nWrite an explicit formula for a(n), the number of apples produced in year n.\n\nDetermine how many apples the tree will produce in year 10.\n\nIn which year will the tree first produce more than 250 apples? Justify your answer algebraically.",
+      "topic": "Sequences",
+      "explanation": "This is arithmetic with a₁ = 120 and d = 15. Explicit formula: a(n) = 120 + 15(n − 1) = 15n + 105. Year 10: a(10) = 255. For a(n) > 250: 15n + 105 > 250 → 15n > 145 → n > 9.67, so year 10.",
+      "diveDeep": "An arithmetic sequence has explicit formula a(n) = a₁ + d(n − 1), where a₁ is the first term and d is the common difference. Here a₁ = 120 and d = 15, so a(n) = 120 + 15(n − 1) = 15n + 105. For the inequality, set 15n + 105 > 250, subtract 105, then divide by 15 to get n > 9.67. Since n must be a whole number (year), the first year with more than 250 apples is year 10. Verify: a(9) = 15(9) + 105 = 240 (not more than 250) and a(10) = 15(10) + 105 = 255 > 250 ✓.",
+      "modelAnswer": "This is an arithmetic sequence with a₁ = 120 and d = 15.\nExplicit formula: a(n) = a₁ + d(n − 1) = 120 + 15(n − 1) = 15n + 105\n\nYear 10: a(10) = 15(10) + 105 = 150 + 105 = 255 apples\n\nFirst year with more than 250 apples:\n15n + 105 > 250\n15n > 145\nn > 9.67\nSince n must be a whole number, n = 10.\nThe tree will first produce more than 250 apples in year 10.\nVerification: a(9) = 15(9) + 105 = 240 (not more than 250); a(10) = 255 > 250 ✓",
+      "difficulty": 4,
+      "difficultyRationale": "Standard Regents Part III constructed-response requiring multi-step modeling, graphing, and algebraic justification."
+    },
+    {
+      "number": 37,
+      "part": "D",
+      "type": "written",
+      "text": "Samantha invests $5,000 in a savings account that earns 4% annual interest, compounded annually. She also invests $5,000 in a simple-interest account that earns $220 per year.\n\nWrite a function S(t) to model the balance in the compound-interest account after t years.\n\nWrite a function L(t) to model the balance in the simple-interest account after t years.\n\nUse the functions to determine algebraically the number of years it takes for the compound-interest account balance to exceed the simple-interest account balance. Round to the nearest year.\n\nSamantha wants a total savings balance of at least $12,000 from both accounts combined. Determine, to the nearest year, when this will first occur. Justify your answer.",
+      "topic": "Functions & Relations",
+      "explanation": "S(t) = 5000(1.04)ᵗ; L(t) = 5000 + 220t. The compound account overtakes simple at about t = 6 years. Combined balance ≥ 12,000 first occurs around t = 9 years.",
+      "diveDeep": "Compound interest uses S(t) = P(1 + r)ᵗ with P = 5000 and r = 0.04. Simple interest grows linearly: L(t) = 5000 + 220t (adding $220 each year). To find when S(t) > L(t), set 5000(1.04)ᵗ = 5000 + 220t and test integer values since this is transcendental (cannot be solved by standard algebra). The combined balance is S(t) + L(t) = 5000(1.04)ᵗ + 5000 + 220t; set ≥ 12,000 and test values. Checking t = 9: S(9) ≈ 7114 and L(9) = 6980, total ≈ 14,094 ≥ 12,000. A common error is confusing compounded and simple interest formulas, or forgetting that both accounts start with separate $5,000 investments.",
+      "modelAnswer": "S(t) = 5000(1.04)ᵗ  (compound interest account)\nL(t) = 5000 + 220t  (simple interest account)\n\nWhen does S(t) exceed L(t)?\nTest values:\nt = 5: S(5) = 5000(1.04)⁵ ≈ 6083; L(5) = 5000 + 1100 = 6100 → S < L\nt = 6: S(6) = 5000(1.04)⁶ ≈ 6327; L(6) = 5000 + 1320 = 6320 → S > L\nThe compound account first exceeds the simple account after 6 years.\n\nCombined balance ≥ $12,000:\nC(t) = S(t) + L(t) = 5000(1.04)ᵗ + 5000 + 220t\nt = 8: C(8) ≈ 6843 + 6760 = 13,603 ≥ 12,000 ✓\nt = 7: C(7) ≈ 6583 + 6540 = 13,123 ≥ 12,000 ✓\nt = 6: C(6) ≈ 6327 + 6320 = 12,647 ≥ 12,000 ✓\nt = 5: C(5) ≈ 6083 + 6100 = 12,183 ≥ 12,000 ✓\nt = 4: C(4) ≈ 5849 + 5880 = 11,729 < 12,000\nThe combined balance first reaches at least $12,000 after 5 years.",
+      "difficulty": 5,
+      "difficultyRationale": "Part IV constructed-response requiring multi-step mathematical modeling."
+    }
   ]
 }

@@ -1,4 +1,4 @@
-// Enriched Algebra 2 exam — tagged with skill + subTopic (see content/_shared/lessonEngine.js)
+// Algebra 2 Regents — August 2023
 export default {
   "id": "a2-aug-2023",
   "subject": "algebra-2",
@@ -20,7 +20,9 @@ export default {
       "correct": 3,
       "explanation": "Surveying students entering the building gives a sample of the whole student population, while the gym, library, or one grade level would over-represent particular groups.",
       "diveDeep": "A sample is biased when the method of selection makes some part of the population more likely to be chosen. Students entering the gym are more likely to exercise frequently, and the library sample skews the opposite way; surveying only juniors excludes other grades. The least biased approach selects from the broadest, most representative group — everyone entering the building. When evaluating survey design, always ask whether the selection location or method systematically favors a subgroup.",
-      "subTopic": "Sampling & Studies"
+      "subTopic": "Sampling & Studies",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 2,
@@ -36,7 +38,9 @@ export default {
       "correct": 1,
       "explanation": "Dividing 2x³ + 3x² − 4x + 5 by (x + 3) using synthetic or long division gives a quotient of 2x² − 3x + 5 with a remainder of −10, written as −10/(x + 3).",
       "diveDeep": "Polynomial division works just like long division of numbers: divide the leading terms, multiply back, subtract, and bring down the next term. Using synthetic division with −3 yields coefficients 2, −3, 5 and a remainder of −10. The remainder is written over the divisor, so the answer is 2x² − 3x + 5 − 10/(x + 3). A common mistake is dropping the sign on the remainder or forgetting to write it over (x + 3).",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 3,
@@ -53,7 +57,9 @@ export default {
       "explanation": "Among football fans there are 14 + 20 + 6 = 40 total, and 20 prefer pizza, so P(pizza | football) = 20/40 = 1/2.",
       "diveDeep": "Conditional probability P(A | B) restricts the sample space to only the outcomes where B is true. Here the condition \"given football\" means we only count the 40 football fans, not all fans in the table. Of those, 20 chose pizza, giving 20/40 = 1/2. A frequent error is dividing by the grand total of all 100 fans instead of the 40 football fans only — always identify the conditioning group first.",
       "image": "/images/exams/alg2-august-2023/q3.png",
-      "subTopic": "Probability"
+      "subTopic": "Probability",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 4,
@@ -69,7 +75,9 @@ export default {
       "correct": 1,
       "explanation": "The difference of squares a² − b² = (a − b)(a + b) is a true identity for all values of a and b, while the other choices expand incorrectly.",
       "diveDeep": "A polynomial identity is an equation that holds true for every value of the variables, not just some. You verify one by expanding the right side and checking it matches the left. Choice (a + b)² actually equals a² + 2ab + b² (not a² + b²), and (a − b)² equals a² − 2ab + b². Memorizing the standard identities — difference of squares, perfect-square trinomials, and sum/difference of cubes — lets you recognize the valid one instantly.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 5,
@@ -85,7 +93,9 @@ export default {
       "correct": 2,
       "explanation": "Powers of i cycle every four (i, −1, −i, 1); since 85 ÷ 4 leaves remainder 1, i⁸⁵ = i¹ = i.",
       "diveDeep": "The imaginary unit i = √(−1) follows a four-step cycle: i¹ = i, i² = −1, i³ = −i, i⁴ = 1, then it repeats. To simplify any power, divide the exponent by 4 and use the remainder. Here 85 = 4(21) + 1, so the remainder is 1 and i⁸⁵ = i. A common mistake is using the quotient instead of the remainder, or mis-ordering the cycle.",
-      "subTopic": "Complex Operations"
+      "subTopic": "Complex Operations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 6,
@@ -101,7 +111,9 @@ export default {
       "correct": 0,
       "explanation": "Completing the square or the quadratic formula gives x = (−6 ± √(36 − 52))/2 = (−6 ± √(−16))/2 = −3 ± 2i.",
       "diveDeep": "When the discriminant b² − 4ac is negative, a quadratic has two complex-conjugate solutions. Here b² − 4ac = 36 − 52 = −16, and √(−16) = 4i. Dividing −6 ± 4i by 2 gives −3 ± 2i. Watch the division: every term in the numerator, including the imaginary part, must be divided by 2a, so 4i/2 = 2i, not 4i.",
-      "subTopic": "Complex Operations"
+      "subTopic": "Complex Operations",
+      "difficulty": 2,
+      "difficultyRationale": "Basic complex number arithmetic and simplification."
     },
     {
       "number": 7,
@@ -117,7 +129,9 @@ export default {
       "correct": 1,
       "explanation": "Factoring by grouping gives (x − 3)(x² − 4), and x² − 4 is a difference of squares that factors further into (x − 2)(x + 2).",
       "diveDeep": "Factoring \"completely\" means continuing until no factor can be broken down further. Group the cubic as x²(x − 3) − 4(x − 3) = (x − 3)(x² − 4). Because x² − 4 is a difference of squares, it splits into (x − 2)(x + 2). Choice (x − 3)(x² − 4) is correct but NOT fully factored, which is the trap; always check whether a remaining quadratic factors over the reals.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 8,
@@ -133,7 +147,9 @@ export default {
       "correct": 0,
       "explanation": "Dividing by (x − 3) gives 2x² + 3x − 2 = (2x − 1)(x + 2), whose zeros are x = 1/2 and x = −2.",
       "diveDeep": "When you know one zero of a polynomial, dividing by its corresponding factor reduces the degree, making the remaining zeros easier to find. Synthetic division of 2x³ − 3x² − 11x + 6 by (x − 3) yields the quotient 2x² + 3x − 2. Factoring this quadratic gives (2x − 1)(x + 2), so the other zeros are 1/2 and −2. Be careful with signs when reading zeros from factors: (2x − 1) = 0 gives x = +1/2, and (x + 2) = 0 gives x = −2.",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 9,
@@ -149,7 +165,9 @@ export default {
       "correct": 0,
       "explanation": "Using log rules, log₂(8x³) = log₂ 8 + log₂ x³ = 3 + 3log₂ x.",
       "diveDeep": "Logarithms turn products into sums and exponents into multipliers: log(ab) = log a + log b and log(aⁿ) = n·log a. Here log₂ 8 = 3 because 2³ = 8, and log₂ x³ = 3log₂ x. Combining gives 3 + 3log₂ x. A common error is multiplying instead of adding, or forgetting that the exponent applies only to x, not to the constant 8.",
-      "subTopic": "Logarithms"
+      "subTopic": "Logarithms",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 10,
@@ -165,7 +183,9 @@ export default {
       "correct": 1,
       "explanation": "Evaluating each at x = 0: f gives 0, h gives 5 + 3 = 8, g gives 7, and j gives 6log(4) ≈ 3.6, so h(x) has the greatest y-intercept of 8.",
       "diveDeep": "The y-intercept of any function is its value when x = 0, found by substituting 0 for x. The sine term gives sin(0) = 0; the exponential gives 5e⁰ + 3 = 5(1) + 3 = 8; the polynomial gives just the constant 7; and the log gives 6log(4) ≈ 3.6. Comparing these, 8 is largest. Remember e⁰ = 1 and that the constant added outside an exponential shifts the intercept up.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 11,
@@ -182,7 +202,9 @@ export default {
       "explanation": "One decade equals 10 years, so the decade growth factor is 0.962¹⁰ ≈ 0.679, giving P = 12,150(0.679)ᵈ.",
       "diveDeep": "Changing the time unit of an exponential model requires rewriting the base, not the exponent. Since d decades = 10d years, substitute t = 10d to get 12,150(0.962)^(10d) = 12,150(0.962¹⁰)ᵈ. Computing 0.962¹⁰ ≈ 0.679 gives the new base. A common mistake is multiplying the rate by 10 instead of raising the base to the 10th power — exponential change compounds, it does not add.",
       "skill": "modeling",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 12,
@@ -199,7 +221,9 @@ export default {
       "explanation": "With sin θ = 2/5, cos θ = −√21/5 in quadrant II (cosine negative), so tan θ = sin θ / cos θ = −2/√21.",
       "diveDeep": "In quadrant II, sine is positive but cosine (and therefore tangent) is negative. Using sin²θ + cos²θ = 1: cos²θ = 1 − 4/25 = 21/25, so cos θ = −√21/5. Then tan θ = (2/5) ÷ (−√21/5) = −2/√21. The key is choosing the correct sign for cosine based on the quadrant — forgetting the negative sign is the most frequent error here.",
       "skill": "modeling",
-      "subTopic": "Unit Circle & Radians"
+      "subTopic": "Unit Circle & Radians",
+      "difficulty": 3,
+      "difficultyRationale": "Standard trigonometric ratio or function application."
     },
     {
       "number": 13,
@@ -216,7 +240,9 @@ export default {
       "explanation": "The z-score is (21 − 23)/1.2 ≈ −1.67, and the area to the left of z = −1.67 is about 0.0478, or 4.78%.",
       "diveDeep": "For a normal distribution, convert a raw value to a z-score with z = (x − μ)/σ, then use the normal cumulative distribution (normalcdf) to find the proportion below it. Here z = (21 − 23)/1.2 ≈ −1.67, and normalcdf(−1E99, 21, 23, 1.2) ≈ 0.0478. Converting to a percentage gives 4.78%. A common slip is reporting the area above instead of below, or forgetting to multiply by 100.",
       "skill": "modeling",
-      "subTopic": "Normal Distribution"
+      "subTopic": "Normal Distribution",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 14,
@@ -233,7 +259,9 @@ export default {
       "explanation": "The initial amount a = 105 (positive), and exponential decay requires a base b between 0 and 1 (positive), so both a and b are positive.",
       "diveDeep": "In the exponential model y = a(b)ˣ, a is the initial value at x = 0 and b is the growth/decay factor. Since 105 students started in 2015, a = 105 > 0. Decay means values shrink but stay positive, which requires 0 < b < 1 — a positive base less than 1. A negative base would make the function oscillate between positive and negative values, which never models a real population.",
       "skill": "modeling",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 15,
@@ -249,7 +277,9 @@ export default {
       "correct": 1,
       "explanation": "Squaring gives 3x + 18 = x², which factors to (x − 6)(x + 3) = 0; x = 6 checks but x = −3 is extraneous, so the solution set is {6}.",
       "diveDeep": "Solving radical equations requires checking for extraneous solutions because squaring can introduce values that do not satisfy the original equation. Squaring √(3(x + 6)) = x gives 3x + 18 = x², or x² − 3x − 18 = 0 = (x − 6)(x + 3). Substituting back: x = 6 gives √36 = 6 ✓, but x = −3 gives √9 = 3 ≠ −3 ✗. Always verify each candidate in the original equation, since a square root output must be nonnegative.",
-      "subTopic": "Radical Expressions & Equations"
+      "subTopic": "Radical Expressions & Equations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 16,
@@ -267,7 +297,9 @@ export default {
       "diveDeep": "Amortized-loan formulas require careful substitution: r is the annual rate, so the monthly rate is r/12, and n is the total number of monthly payments (5 years × 12 = 60). Plugging in P = 45,000 and computing (1.005625)⁶⁰ in the numerator and denominator yields M ≈ 885.76. The most common errors are using the annual rate without dividing by 12, or using 5 instead of 60 for n.",
       "image": "/images/exams/alg2-august-2023/q16.png",
       "skill": "modeling",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard application of exponential modeling."
     },
     {
       "number": 17,
@@ -283,7 +315,9 @@ export default {
       "correct": 0,
       "explanation": "Each week the price is 90% of the previous, so 50(0.9)ʷ < 25 when 0.9ʷ < 0.5, which first holds at w = 7.",
       "diveDeep": "Repeated percentage discounts form a geometric (exponential) decay: a 10% discount multiplies the price by 0.90 each week. Half price of $50 is $25, so solve 50(0.9)ʷ < 25, i.e. 0.9ʷ < 0.5. Taking logs gives w > log(0.5)/log(0.9) ≈ 6.58, so the first whole week is 7. Be sure to round UP to the next integer, since the condition is not met until the week after the calculated decimal.",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 18,
@@ -301,7 +335,9 @@ export default {
       "diveDeep": "A function is positive exactly where its graph is above the x-axis. To find an interval where f(x) is \"always\" positive, scan the entire interval and confirm the curve never touches or crosses zero within it. The other choices each include an x-value where the graph reaches or drops below the axis. Reading intervals from a graph is about checking endpoints AND everything between them, not just the endpoints.",
       "image": "/images/exams/alg2-august-2023/q18.png",
       "skill": "graphing",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 19,
@@ -317,7 +353,9 @@ export default {
       "correct": 3,
       "explanation": "Graphing y = f(x) and y = g(x) and counting intersection points shows the curves cross at 4 distinct x-values, so there are 4 real solutions.",
       "diveDeep": "The real solutions of f(x) = g(x) are the x-coordinates where the graphs of the two functions intersect. Since f(x) is a quartic and g(x) is a quadratic, graphing both on the same axes and counting crossings is the most reliable approach. Here the curves meet at four points, giving 4 real solutions. When asked for the NUMBER of real solutions, a graphing-calculator intersection count avoids messy algebra and the risk of dropping a root.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 20,
@@ -334,7 +372,9 @@ export default {
       "explanation": "By the Factor Theorem, (x + 2) is a factor because substituting x = −2 gives 16 + 8 − 44 − 10 + 30 = 0.",
       "diveDeep": "The Factor Theorem says (x − c) is a factor of a polynomial p(x) if and only if p(c) = 0. To test each choice, substitute the value that makes the factor zero: for (x + 2) use x = −2. Evaluating gives 16 + 8 − 44 − 10 + 30 = 0, confirming it is a factor. Testing the others yields nonzero remainders. Always match the factor (x − c) to its root c with the opposite sign before substituting.",
       "skill": "procedure",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 21,
@@ -350,7 +390,9 @@ export default {
       "correct": 3,
       "explanation": "Rewriting the numerator as (x² + 4) + 2 splits the fraction into 1 + 2/(x² + 4).",
       "diveDeep": "To simplify an improper rational expression where the numerator and denominator have the same degree, rewrite the numerator in terms of the denominator. Since x² + 6 = (x² + 4) + 2, the fraction becomes (x² + 4)/(x² + 4) + 2/(x² + 4) = 1 + 2/(x² + 4). You cannot simply cancel the x² terms; the constants must be handled by this add-and-split technique, the same idea as polynomial long division.",
-      "subTopic": "Rational Expressions & Equations"
+      "subTopic": "Rational Expressions & Equations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 22,
@@ -367,7 +409,9 @@ export default {
       "explanation": "R(x) = x(95.4 − 6x) = −6x² + 95.4x, and R(x) − C(x) = −6x² + 95.4x − (0.18x³ + 0.02x² + 4x + 180) = −0.18x³ − 6.02x² + 91.4x − 180.",
       "diveDeep": "Profit is revenue minus cost, so first build R(x) = x·S(x) = 95.4x − 6x², then subtract every term of C(x). Distributing the subtraction is where errors happen: −(0.18x³ + 0.02x² + 4x + 180) flips the sign of each term. Combining like terms: −6x² − 0.02x² = −6.02x² and 95.4x − 4x = 91.4x, leaving −0.18x³ − 6.02x² + 91.4x − 180. Always distribute the negative across the ENTIRE cost polynomial.",
       "skill": "modeling",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 23,
@@ -383,7 +427,9 @@ export default {
       "correct": 2,
       "explanation": "A function is even when f(−x) = f(x); f(x) = x² + 1 satisfies this since (−x)² + 1 = x² + 1.",
       "diveDeep": "An even function is symmetric about the y-axis, meaning f(−x) = f(x) for all x. Test each: x³ + 2 gives −x³ + 2 (not even, it is neither); |x + 2| is not symmetric about the y-axis; sin(2x) is odd because sin(−2x) = −sin(2x); but x² + 1 gives (−x)² + 1 = x² + 1, which matches. The reliable test is always substituting −x and comparing to the original — do not rely on appearance alone.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 24,
@@ -401,7 +447,9 @@ export default {
       "diveDeep": "The behavior of a graph at an x-intercept reveals the multiplicity of that root. A root of even multiplicity (like 2) makes the curve touch and bounce off the x-axis, while an odd multiplicity makes it cross. Here the graph is tangent to the axis at x = 3, signaling a repeated factor (x − 3)². Reading multiplicity from a graph — touch versus cross — is essential for writing a polynomial in factored form from its picture.",
       "image": "/images/exams/alg2-august-2023/q24.png",
       "skill": "graphing",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 25,
@@ -414,7 +462,9 @@ export default {
       "diveDeep": "Quadratic equations must first be set equal to zero before factoring or applying the quadratic formula. After writing 2x² − 5x − 12 = 0, factor by finding two numbers that multiply to (2)(−12) = −24 and add to −5, namely −8 and 3, then factor by grouping. The zeros come from setting each factor equal to zero. If factoring is not obvious, the quadratic formula always works.",
       "modelAnswer": "2x² − 5x = 12\n2x² − 5x − 12 = 0\n(2x + 3)(x − 4) = 0\n2x + 3 = 0  →  x = −3/2\nx − 4 = 0  →  x = 4\nThe solutions are x = −3/2 and x = 4.",
       "skill": "procedure",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 26,
@@ -427,7 +477,9 @@ export default {
       "diveDeep": "For y = A cos(x), the amplitude is |A|, the maximum distance from the midline (here y = 0). With A = 2, the curve oscillates between +2 and −2. A cosine function starts at its maximum: at x = 0 it is +2, crosses zero at x = π/2, reaches its minimum −2 at x = π, crosses zero again at 3π/2, and returns to +2 at 2π. Mark these five key points to sketch one full period accurately.",
       "modelAnswer": "Amplitude = 2. The graph is a cosine curve with key points: (0, 2), (π/2, 0), (π, −2), (3π/2, 0), and (2π, 2). It oscillates smoothly between a maximum of 2 and a minimum of −2, completing one full period over 0 to 2π.",
       "skill": "graphing",
-      "subTopic": "Trig Graphs"
+      "subTopic": "Trig Graphs",
+      "difficulty": 2,
+      "difficultyRationale": "Basic identification of trigonometric properties."
     },
     {
       "number": 27,
@@ -440,7 +492,9 @@ export default {
       "diveDeep": "The Factor Theorem states that (x − c) is a factor of p(x) if and only if p(c) = 0. To check (x − 2), evaluate p(2) by substitution or synthetic division. If the result (the remainder) is zero, the binomial divides evenly and is a factor; any nonzero remainder means it is not. This avoids full division when you only need a yes/no answer.",
       "modelAnswer": "Using the Factor Theorem, evaluate p(2):\np(2) = (2)³ + 2(2)² − 5(2) − 6 = 8 + 8 − 10 − 6 = 0.\nBecause p(2) = 0, the remainder when dividing by (x − 2) is zero. Therefore, (x − 2) IS a factor of p(x).",
       "skill": "reasoning",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 28,
@@ -453,7 +507,9 @@ export default {
       "diveDeep": "In an exponential decay model of the form C(t) = c + a(b)ᵗ, the constant c is the horizontal asymptote — the value the quantity approaches over time — and a is the initial gap between the starting value and that asymptote. Here the coffee cools toward 70°F (room temperature) and begins 110°F above it, so its starting temperature is 180°F. Recognizing the roles of the added constant versus the initial coefficient is key to interpreting any \"Newton’s cooling\" type model.",
       "modelAnswer": "The value 70 represents the room (ambient) temperature in degrees Fahrenheit that the coffee cools down toward; it is the temperature the coffee approaches as time increases. The value 110 represents the initial number of degrees the coffee is ABOVE room temperature when t = 0, so the coffee’s starting temperature is 70 + 110 = 180°F.",
       "skill": "reasoning",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 29,
@@ -465,7 +521,9 @@ export default {
       "explanation": "This is a binomial probability with n = 5, k = 3, p = 0.5: C(5,3)(0.5)³(0.5)² = 10(0.03125) = 0.3125 ≈ 0.313.",
       "diveDeep": "Repeated independent trials with two outcomes and a fixed probability form a binomial distribution, with P(exactly k) = C(n,k)·pᵏ·(1−p)^(n−k). Because the card is replaced each time, p stays 0.5 and trials are independent. Here C(5,3) = 10 counts the orderings of 3 reds among 5 draws, and each specific sequence has probability (0.5)⁵. Multiplying gives 10/32 = 0.3125. The combination factor accounts for all the different positions the successes can occupy.",
       "modelAnswer": "Each draw is independent (the card is replaced), with P(red) = 26/52 = 0.5. This is binomial with n = 5, k = 3:\nP(exactly 3 red) = C(5,3)(0.5)³(0.5)² = 10 · (0.125)(0.25) = 10 · 0.03125 = 0.3125.\nRounded to the nearest thousandth, the probability is 0.313.",
-      "subTopic": "Probability"
+      "subTopic": "Probability",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 30,
@@ -478,7 +536,9 @@ export default {
       "diveDeep": "Multiplying complex numbers uses the same distributive (FOIL) process as binomials, with the extra rule that i² = −1. After distributing, you get 12 − 15i + 8i − 10i². Replace i² with −1 so −10i² becomes +10, then combine the real parts (12 + 10 = 22) and the imaginary parts (−15i + 8i = −7i). The result must be written in standard a + bi form. Forgetting to convert i² is the most common mistake.",
       "modelAnswer": "(3 + 2i)(4 − 5i)\n= 3(4) + 3(−5i) + 2i(4) + 2i(−5i)\n= 12 − 15i + 8i − 10i²\n= 12 − 7i − 10(−1)\n= 12 − 7i + 10\n= 22 − 7i.",
       "skill": "procedure",
-      "subTopic": "Complex Operations"
+      "subTopic": "Complex Operations",
+      "difficulty": 2,
+      "difficultyRationale": "Basic complex number arithmetic and simplification."
     },
     {
       "number": 31,
@@ -491,7 +551,9 @@ export default {
       "diveDeep": "A logarithmic equation is solved by converting it to exponential form: logₐ(M) = c means aᶜ = M. Here log₃(x + 5) = 2 becomes 3² = x + 5, so x + 5 = 9 and x = 4. Always check that the argument of the log stays positive for your solution, since logarithms of zero or negatives are undefined; here x + 5 = 9 > 0, so x = 4 is valid.",
       "modelAnswer": "log₃(x + 5) = 2\nRewrite in exponential form: 3² = x + 5\n9 = x + 5\nx = 4.\nCheck: log₃(4 + 5) = log₃(9) = 2, since 3² = 9. The solution x = 4 is valid because the argument 9 is positive.",
       "skill": "reasoning",
-      "subTopic": "Logarithms"
+      "subTopic": "Logarithms",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 32,
@@ -503,7 +565,9 @@ export default {
       "explanation": "The formula is aₙ = 6(1/2)^(n−1), and a₆ = 6(1/2)⁵ = 6/32 = 3/16.",
       "diveDeep": "A geometric sequence multiplies each term by a constant ratio r to get the next, giving the explicit formula aₙ = a₁·r^(n−1), where a₁ is the first term. Here a₁ = 6 and r = 1/2, so aₙ = 6(1/2)^(n−1). For the 6th term, the exponent is n − 1 = 5, giving 6(1/2)⁵ = 6/32 = 3/16. The exponent is always one less than the term number, which is a frequent source of off-by-one errors.",
       "modelAnswer": "The explicit formula is aₙ = 6(1/2)^(n−1).\nFor the 6th term, n = 6:\na₆ = 6(1/2)^(6−1) = 6(1/2)⁵ = 6(1/32) = 6/32 = 3/16.\nThe 6th term is 3/16.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 33,
@@ -515,7 +579,9 @@ export default {
       "explanation": "Factoring by grouping gives x²(x + 5) − 4(x + 5) = (x + 5)(x² − 4) = (x + 5)(x − 2)(x + 2) = 0, so x = −5, 2, −2.",
       "diveDeep": "Factoring by grouping works well for four-term polynomials: group the terms in pairs, factor each pair, and look for a common binomial. Here x²(x + 5) − 4(x + 5) reveals the shared factor (x + 5), and x² − 4 further factors as a difference of squares. Setting every linear factor to zero gives all three real roots. A cubic can have up to three real solutions, so be sure to factor completely and not stop at the quadratic.",
       "modelAnswer": "x³ + 5x² − 4x − 20 = 0\nGroup: (x³ + 5x²) + (−4x − 20) = 0\nFactor each group: x²(x + 5) − 4(x + 5) = 0\nFactor out (x + 5): (x + 5)(x² − 4) = 0\nFactor the difference of squares: (x + 5)(x − 2)(x + 2) = 0\nSetting each factor to zero: x = −5, x = 2, x = −2.\nThe solutions are x = −5, x = 2, and x = −2.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 4,
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
     },
     {
       "number": 34,
@@ -528,7 +594,9 @@ export default {
       "diveDeep": "To solve for a variable in an exponent, isolate the exponential term, then take the natural log of both sides. Dividing by 500 gives e^(0.4t) = 4; applying ln undoes the base e, leaving 0.4t = ln 4. Dividing by 0.4 gives t = ln 4 / 0.4 ≈ 1.386/0.4 ≈ 3.5 hours. Always isolate the exponential before logging — taking ln of a sum or before dividing is a common error.",
       "modelAnswer": "500e^(0.4t) = 2000\ne^(0.4t) = 4\nTake the natural log of both sides: 0.4t = ln 4\nt = ln 4 / 0.4 ≈ 1.3863 / 0.4 ≈ 3.4657\nTo the nearest tenth, t ≈ 3.5 hours.",
       "skill": "modeling",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 4,
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
     },
     {
       "number": 35,
@@ -540,7 +608,9 @@ export default {
       "explanation": "Setting x² − 2x − 3 = x − 3 gives x² − 3x = 0 = x(x − 3), so x = 0 or x = 3; the intersection points are (0, −3) and (3, 0).",
       "diveDeep": "Points of intersection occur where two functions are equal, so set f(x) = g(x) and solve. Here x² − 2x − 3 = x − 3 simplifies to x² − 3x = 0, which factors as x(x − 3) = 0, giving x = 0 and x = 3. To find the full coordinates, substitute each x back into either function (using the simpler g(x) = x − 3 is efficient): g(0) = −3 and g(3) = 0. Reporting only x-values loses credit — the question asks for ordered pairs.",
       "modelAnswer": "Set f(x) = g(x):\nx² − 2x − 3 = x − 3\nx² − 2x − 3 − x + 3 = 0\nx² − 3x = 0\nx(x − 3) = 0  →  x = 0 or x = 3.\nFind y-values using g(x) = x − 3:\ng(0) = −3  →  (0, −3)\ng(3) = 0   →  (3, 0)\nThe points of intersection are (0, −3) and (3, 0).",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 4,
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
     },
     {
       "number": 36,
@@ -552,7 +622,9 @@ export default {
       "diveDeep": "The 95% interval from a simulation is approximately Mean ± 2·SD. Here 0.01 ± 2(0.38) = 0.01 ± 0.76, giving (−0.75, 0.77). Because the observed difference (0.6) is inside the interval, it could easily occur by random chance, meaning the whiteboard's effect is not statistically significant at the 95% level. A common mistake is confusing the simulation mean (0.01, near 0 because the null is no difference) with the observed difference (0.6).",
       "modelAnswer": "95% interval: Mean ± 2·SD = 0.01 ± 2(0.38) = 0.01 ± 0.76.\nLower bound: 0.01 − 0.76 = −0.75\nUpper bound: 0.01 + 0.76 = 0.77\nInterval: (−0.75, 0.77).\n\nThe observed difference of 0.6 points falls within the interval (−0.75, 0.77). Because 0.6 is inside the middle 95% of results expected by random chance, the difference is not statistically significant. The interactive whiteboard did not produce a difference large enough to rule out random variation.",
       "skill": "reasoning",
-      "subTopic": "Sampling & Studies"
+      "subTopic": "Sampling & Studies",
+      "difficulty": 4,
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
     },
     {
       "number": 37,
@@ -565,7 +637,9 @@ export default {
       "diveDeep": "This is a logistic growth model, where the population rises quickly at first and then levels off toward a carrying capacity given by the numerator (here 8 hundred = 800). To evaluate at t = 0, recall e⁰ = 1. To solve P = 6, isolate the exponential, take a natural log, and divide. For long-term behavior, note that as t grows the term e^(−0.5t) approaches 0, so the denominator approaches 1 and P approaches its maximum. Logistic models always plateau at the carrying capacity rather than growing without bound.",
       "modelAnswer": "(a) At t = 0: P(0) = 8/(1 + 3e⁰) = 8/(1 + 3(1)) = 8/4 = 2. Since P is in hundreds, the population is 200 deer.\n\n(b) Set P(t) = 6 (since 600 deer = 6 hundred):\n6 = 8/(1 + 3e^(−0.5t))\n6(1 + 3e^(−0.5t)) = 8\n1 + 3e^(−0.5t) = 8/6 = 4/3\n3e^(−0.5t) = 4/3 − 1 = 1/3\ne^(−0.5t) = 1/9\n−0.5t = ln(1/9)\nt = ln(1/9)/(−0.5) ≈ (−2.1972)/(−0.5) ≈ 4.4 years.\n\n(c) As t increases without bound, e^(−0.5t) approaches 0, so the denominator approaches 1 and P(t) approaches 8/(1 + 0) = 8 hundred = 800 deer. Therefore, over a long period of time the deer population levels off and approaches a maximum of 800 deer, the carrying capacity of the preserve.",
       "skill": "reasoning",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 5,
+      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison."
     }
   ]
 }

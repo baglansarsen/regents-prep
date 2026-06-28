@@ -1,4 +1,4 @@
-// Enriched Algebra 2 exam — tagged with skill + subTopic (see content/_shared/lessonEngine.js)
+// Algebra 2 Regents — August 2019
 export default {
   "id": "a2-aug-2019",
   "subject": "algebra-2",
@@ -20,7 +20,9 @@ export default {
       "correct": 1,
       "explanation": "Let u = (x − 2). Then u² − 4u + 3 = (u − 1)(u − 3). Substituting back gives (x − 2 − 1)(x − 2 − 3) = (x − 3)(x − 5).",
       "diveDeep": "This is a substitution (or \"u-substitution\") factoring problem. Whenever you see a repeated binomial like (x − 2), let a single variable stand for it, factor the simpler quadratic, then back-substitute. A common mistake is to expand everything first, which is slower and error-prone. Always re-expand at the end by combining the constants: −2 − 1 = −3 and −2 − 3 = −5.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 2,
@@ -36,7 +38,9 @@ export default {
       "correct": 2,
       "explanation": "Since a₁ = 8 and a₄ = a₁r³ = 216, r³ = 27 so r = 3. The series sum S₁₂ = 8(3¹² − 1)/(3 − 1) = 708,584.",
       "diveDeep": "Geometric series use Sₙ = a₁(rⁿ − 1)/(r − 1). First find the ratio from two known terms: a₄/a₁ = r³. A frequent error is forgetting that a₄ = a₁r³ (not a₁r⁴) because the exponent is n − 1. Once r = 3, plug directly into the sum formula on the reference sheet. Be careful entering 3¹² in the calculator.",
-      "subTopic": "Series"
+      "subTopic": "Series",
+      "difficulty": 3,
+      "difficultyRationale": "Standard application of the geometric series sum formula."
     },
     {
       "number": 3,
@@ -53,7 +57,9 @@ export default {
       "explanation": "The value doubles every 5 years (1500 → 3000 → 6000), meaning it grows by a constant factor over equal intervals, which is the defining property of an exponential function.",
       "diveDeep": "The key distinction is constant difference (linear) versus constant ratio (exponential). Here, equal time intervals produce equal multiplicative change (×2 every 5 years), not equal additive change. A common mistake is to see \"increasing\" and pick linear. Whenever a quantity doubles, triples, or grows by a fixed percentage over equal periods, the model is exponential.",
       "skill": "modeling",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 4,
@@ -69,7 +75,9 @@ export default {
       "correct": 1,
       "explanation": "The sum of cubes a³ + 27 = a³ + 3³ factors as (a + 3)(a² − 3a + 9), so the middle coefficient m = −3.",
       "diveDeep": "This tests the sum of cubes identity: a³ + b³ = (a + b)(a² − ab + b²). Note the middle term of the trinomial is negative (−ab). A very common error is writing +ab and choosing m = 3. Memorize \"SOAP\" — Same, Opposite, Always Positive — to remember the signs of the factored trinomial.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 5,
@@ -85,7 +93,9 @@ export default {
       "correct": 0,
       "explanation": "Using sin²θ + cos²θ = 1, sin²θ = 1 − 9/16 = 7/16, so sin θ = ±√7/4. In Quadrant III sine is negative, giving −√7/4.",
       "diveDeep": "Use the Pythagorean identity to find the magnitude, then the quadrant to fix the sign. In Quadrant III both sine and cosine are negative (only tangent is positive). A frequent mistake is forgetting the quadrant and leaving the answer positive, or simplifying √7 incorrectly. Always sketch the quadrant signs (All, Sin, Tan, Cos) before assigning the sign.",
-      "subTopic": "Unit Circle & Radians"
+      "subTopic": "Unit Circle & Radians",
+      "difficulty": 3,
+      "difficultyRationale": "Standard trigonometric ratio or function application."
     },
     {
       "number": 6,
@@ -101,7 +111,9 @@ export default {
       "correct": 3,
       "explanation": "Because a treatment (the drug) is deliberately imposed on a randomly assigned group and compared against a placebo control group, this is a controlled experiment.",
       "diveDeep": "The distinguishing feature of an experiment is that the researcher actively applies a treatment, whereas an observational study only watches without intervening. The presence of random assignment and a placebo control group are hallmarks of a controlled experiment. A common error is calling this an observational study because the vets \"monitor\" — but monitoring follows the imposed treatment, so it is still an experiment.",
-      "subTopic": "Sampling & Studies"
+      "subTopic": "Sampling & Studies",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 7,
@@ -117,19 +129,28 @@ export default {
       "correct": 0,
       "explanation": "Dividing 2x − 1 by x − 2 gives a quotient of 2 with remainder 3, so (2x − 1)/(x − 2) = 2 + 3/(x − 2).",
       "diveDeep": "This is polynomial long division of a rational expression. Write 2x − 1 = 2(x − 2) + 3, so the expression becomes 2 + 3/(x − 2). A common mistake is mishandling the constant: 2(x − 2) = 2x − 4, and we need 2x − 1, so the remainder is −1 − (−4) = 3. Always check by recombining over the common denominator.",
-      "subTopic": "Rational Expressions & Equations"
+      "subTopic": "Rational Expressions & Equations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 8,
       "part": "A",
       "text": "Which description could represent the graph of f(x) = 4x²(x + a) − x − a, if a is an integer?",
-      "choices": ["As x → −∞, f(x) → ∞; as x → ∞, f(x) → ∞; and the graph has 3 x-intercepts.", "As x → −∞, f(x) → −∞; as x → ∞, f(x) → ∞; and the graph has 3 x-intercepts.", "As x → −∞, f(x) → ∞; as x → ∞, f(x) → −∞; and the graph has 4 x-intercepts.", "As x → −∞, f(x) → −∞; as x → ∞, f(x) → ∞; and the graph has 4 x-intercepts."],
+      "choices": [
+        "As x → −∞, f(x) → ∞; as x → ∞, f(x) → ∞; and the graph has 3 x-intercepts.",
+        "As x → −∞, f(x) → −∞; as x → ∞, f(x) → ∞; and the graph has 3 x-intercepts.",
+        "As x → −∞, f(x) → ∞; as x → ∞, f(x) → −∞; and the graph has 4 x-intercepts.",
+        "As x → −∞, f(x) → −∞; as x → ∞, f(x) → ∞; and the graph has 4 x-intercepts."
+      ],
       "topic": "Polynomial Functions",
       "correct": 1,
       "explanation": "The leading term of f(x) = 4x²(x + a) − x − a is 4x³ (odd degree, positive), so as x → −∞, f(x) → −∞ and as x → ∞, f(x) → ∞. Factoring f(x) = (x + a)(4x² − 1) = (x + a)(2x − 1)(2x + 1) gives 3 x-intercepts.",
       "diveDeep": "Factor by grouping: (x − a) is common, leaving 4x² − 1, a difference of squares. The degree (3) and leading coefficient (+) determine end behavior: odd degree with positive lead means down-on-left, up-on-right. Count distinct roots for x-intercepts. A common mistake is miscounting intercepts or reversing end behavior; sketch a quick sign analysis of the leading term.",
       "skill": "graphing",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 9,
@@ -146,7 +167,9 @@ export default {
       "explanation": "Each day’s dosage is 84% of the previous day (2000 → 1680 → 1411.2 → 1185.4), a constant ratio of 0.84, so the recursive rule is m₁ = 2000, mₙ = 0.84·mₙ₋₁.",
       "diveDeep": "A recursive geometric sequence defines each term as a constant multiple of the prior term. Test for a common ratio by dividing consecutive terms: 1680/2000 = 0.84. Recursive formulas must include the initial term (m₁); choice D is explicit, not recursive, and is also off by an index. Distinguish recursive (refers to mₙ₋₁) from explicit (formula in n).",
       "image": "/images/exams/alg2-august-2019/q9.png",
-      "subTopic": "Sequences"
+      "subTopic": "Sequences",
+      "difficulty": 2,
+      "difficultyRationale": "Basic sequence parameter determination."
     },
     {
       "number": 10,
@@ -162,7 +185,9 @@ export default {
       "correct": 0,
       "explanation": "Dividing 9x² − 2 by 3x + 1 gives quotient 3x − 1 with remainder −1, so the expression equals 3x − 1 − 1/(3x + 1).",
       "diveDeep": "Perform polynomial long division: 9x² ÷ 3x = 3x; 3x(3x + 1) = 9x² + 3x; subtract to get −3x − 2; then −3x ÷ 3x = −1; −1(3x + 1) = −3x − 1; subtract to get remainder −1. The result is quotient + remainder/divisor. A common slip is sign errors during subtraction steps, which flip the remainder; double-check each subtraction.",
-      "subTopic": "Rational Expressions & Equations"
+      "subTopic": "Rational Expressions & Equations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 11,
@@ -178,7 +203,9 @@ export default {
       "correct": 1,
       "explanation": "A function is even when g(−x) = g(x); since f(|x|) uses |x|, replacing x with −x leaves |−x| = |x| unchanged, so f(|x|) is always even.",
       "diveDeep": "Even functions are symmetric about the y-axis: g(−x) = g(x). Horizontal shifts like f(x − 2) break this symmetry unless the function is also periodic in a special way, so they are not guaranteed even. Composing with |x| forces evenness regardless of f. Vertical shifts of an even function (f(x) − 3) actually stay even too, but the exam’s intended distinguishing answer is f(|x|), which is even for ANY f, not just even f.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 12,
@@ -195,7 +222,9 @@ export default {
       "explanation": "The average annual temperature corresponds to the vertical center of the cosine curve, which is the midline; changing the average means shifting the midline.",
       "diveDeep": "In a sinusoidal model y = A cos(B(x − C)) + D, the midline is y = D, representing the average value. Amplitude (A) is half the high-low range, period (2π/B) is the cycle length, and C is the horizontal shift. Since \"average annual temperature\" is the mean of the cycle, it maps directly to the midline. A common mistake is choosing amplitude, which controls the temperature swing, not the average.",
       "skill": "graphing",
-      "subTopic": "Trig Graphs"
+      "subTopic": "Trig Graphs",
+      "difficulty": 3,
+      "difficultyRationale": "Standard trigonometric ratio or function application."
     },
     {
       "number": 13,
@@ -211,7 +240,9 @@ export default {
       "correct": 1,
       "explanation": "Using P(A | B) = P(A and B)/P(B), solve 0.8 = 0.2/P(B), giving P(B) = 0.2/0.8 = 0.25... but rearranged, P(B) = 0.2/0.8 = 0.25.",
       "diveDeep": "Conditional probability is defined as P(A | B) = P(A and B) / P(B). Here only P(A and B) and P(A | B) are needed; the P(A or B) value is a distractor. Solve algebraically: P(B) = P(A and B)/P(A | B) = 0.2/0.8 = 0.25. A common error is using the extra given (0.3) unnecessarily or inverting the formula. Identify exactly which two pieces the formula requires.",
-      "subTopic": "Probability"
+      "subTopic": "Probability",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 14,
@@ -227,7 +258,9 @@ export default {
       "correct": 1,
       "explanation": "Multiply under one cube root: ∛(3x²y · 27x³y²) = ∛(81x⁵y³) = ∛(27·3·x³·x²·y³) = 3xy^... = 3x·y·∛(3x²) — simplifying to 3x∛(x²y) form.",
       "diveDeep": "Combine cube roots by multiplying radicands, then extract perfect cubes. 81 = 27·3, x⁵ = x³·x², y³ is a perfect cube. Pull out ∛(27x³y³) = 3xy, leaving ∛(3x²). The cleanest matching form factors the perfect cubes out of the radical. A common mistake is mishandling exponents under the radical; track each variable’s power and divide by the index (3).",
-      "subTopic": "Rational Expressions & Equations"
+      "subTopic": "Rational Expressions & Equations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 15,
@@ -243,7 +276,9 @@ export default {
       "correct": 3,
       "explanation": "Multiplying through by x(x − 2) yields a solution that is extraneous (x = 0 or x = 2 make denominators zero), so the solution set is empty.",
       "diveDeep": "When solving rational equations, multiply by the LCD and ALWAYS check for extraneous solutions that make any denominator zero. Here x² − 2x = x(x − 2), so x ≠ 0 and x ≠ 2. After clearing denominators, the only candidate solutions are exactly the excluded values, so they must be rejected, leaving the empty set { }. Forgetting to exclude domain values is the classic trap on these problems.",
-      "subTopic": "Rational Expressions & Equations"
+      "subTopic": "Rational Expressions & Equations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 16,
@@ -259,7 +294,9 @@ export default {
       "correct": 1,
       "explanation": "Substituting y = 2x gives x² + 4x² = 5, so 5x² = 5, x = ±1, yielding the two points (1, 2) and (−1, −2).",
       "diveDeep": "Solve a circle-line system by substitution. Plug y = 2x into the circle equation, solve the resulting quadratic, then find each y. A line through the origin generally intersects a circle in two points, so expect two solutions. A common error is stopping at the x-values without writing the full ordered pairs, or forgetting the negative root. Report complete (x, y) pairs.",
-      "subTopic": "Systems & Inequalities"
+      "subTopic": "Systems & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 17,
@@ -276,7 +313,9 @@ export default {
       "explanation": "Using A = P(1 + r/n)^(nt) = 5000(1 + 0.035/12)^(12·6) ≈ $6166.50.",
       "diveDeep": "The compound interest formula A = P(1 + r/n)^(nt) requires r as a decimal (0.035), n = 12 for monthly, and t in years. Carefully keep many digits during computation and round only at the end. Common mistakes: using r = 3.5 instead of 0.035, or n·t = 12 instead of 12·6 = 72. Confirm the exponent equals total compounding periods.",
       "skill": "modeling",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard application of exponential modeling."
     },
     {
       "number": 18,
@@ -292,7 +331,9 @@ export default {
       "correct": 3,
       "explanation": "Set 120 = 68 + (195 − 68)e^(−0.05t): 52 = 127e^(−0.05t), so e^(−0.05t) = 52/127, and t = −ln(52/127)/0.05 ≈ 18 minutes.",
       "diveDeep": "This is Newton’s Law of Cooling. Substitute all knowns, isolate the exponential, then take the natural log to solve for t. Watch the order of operations: subtract Fₛ first (120 − 68 = 52, and 195 − 68 = 127), then divide before logging. A common mistake is forgetting the negative on kt, which flips the sign of t. Round only at the final step.",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 19,
@@ -309,7 +350,9 @@ export default {
       "explanation": "An IQ of 130 is two standard deviations above the mean (100 + 2·15); by the empirical rule, about 2.5% of data lies beyond +2 SD, closest to 2%.",
       "diveDeep": "Use the 68-95-99.7 (empirical) rule for normal distributions. About 95% lies within ±2 SD, leaving 5% in both tails, so roughly 2.5% lies above +2 SD. Convert the raw score to a z-score: z = (130 − 100)/15 = 2. A common mistake is forgetting to split the remaining 5% between two tails. The \"greater than\" tail above z = 2 is about 2.3%.",
       "skill": "modeling",
-      "subTopic": "Normal Distribution"
+      "subTopic": "Normal Distribution",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 20,
@@ -325,7 +368,9 @@ export default {
       "correct": 2,
       "explanation": "Graphing both functions over (−2, 3] shows the logarithmic curve and the exponential curve cross at two points, so there are 2 solutions.",
       "diveDeep": "When an equation mixes logs and exponentials with no clean algebraic solution, graph each side and count intersections within the given domain. Pay attention to interval endpoints and the vertical asymptote of ln(x + 2) at x = −2. A common mistake is assuming one solution because the functions are inverses-like; careful graphing reveals two crossings here. Use a calculator’s intersect feature.",
-      "subTopic": "Logarithms"
+      "subTopic": "Logarithms",
+      "difficulty": 3,
+      "difficultyRationale": "Standard logarithmic equation solving."
     },
     {
       "number": 21,
@@ -342,7 +387,9 @@ export default {
       "explanation": "With roots −1, 1, 2 and a = 1, f(x) = (x + 1)(x − 1)(x − 2) = x³ − 2x² − x + 2, so b = −2.",
       "diveDeep": "Build a polynomial from its roots using factored form, then expand to read off coefficients. By Vieta’s formulas, b/a = −(sum of roots) = −(−1 + 1 + 2) = −2. A common error is a sign mistake when summing roots or expanding. You can shortcut with Vieta: for a monic cubic, the x² coefficient equals the negative sum of the roots.",
       "skill": "modeling",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 22,
@@ -359,18 +406,27 @@ export default {
       "explanation": "Because t is a logarithmic function of A, it increases at a decreasing rate, so the average rate of change is larger over the lower interval [6000, 8000] than over [9000, 12,000].",
       "diveDeep": "Average rate of change over [a, b] is (t(b) − t(a))/(b − a). Logarithmic functions are concave down, so their slope decreases as A grows; earlier intervals have steeper average slopes. Computing both confirms [6000, 8000] is larger. A common mistake is thinking different interval widths prevent comparison — average rate of change normalizes for width, so comparison is valid.",
       "skill": "modeling",
-      "subTopic": "Logarithms"
+      "subTopic": "Logarithms",
+      "difficulty": 3,
+      "difficultyRationale": "Standard logarithmic equation solving."
     },
     {
       "number": 23,
       "part": "A",
       "text": "What is the inverse of f(x) = x/(x + 2), where x ≠ −2?",
-      "choices": ["f⁻¹(x) = 2x/(x − 1)", "f⁻¹(x) = −2x/(x − 1)", "f⁻¹(x) = x/(x − 2)", "f⁻¹(x) = −x/(x − 2)"],
+      "choices": [
+        "f⁻¹(x) = 2x/(x − 1)",
+        "f⁻¹(x) = −2x/(x − 1)",
+        "f⁻¹(x) = x/(x − 2)",
+        "f⁻¹(x) = −x/(x − 2)"
+      ],
       "topic": "Functions",
       "correct": 1,
       "explanation": "Swap x and y and solve: x = y/(y + 2) → x(y + 2) = y → 2x = y − xy = y(1 − x) → y = 2x/(1 − x) = −2x/(x − 1).",
       "diveDeep": "To find an inverse, swap x and y, then solve for y. With rational functions, multiply out, collect all y-terms on one side, factor out y, and divide. Here y(x − 1) = 2x gives y = 2x/(x − 1). A common mistake is forgetting to gather y-terms before factoring. Verify by checking f(f⁻¹(x)) = x.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 24,
@@ -387,7 +443,9 @@ export default {
       "explanation": "To find the monthly rate, write 1.025 = (1.025^(1/12))^12 ≈ (1.00206)^12, so P(t) = 3500(1.00206)^(12t), where 12t is the number of months.",
       "diveDeep": "To rebase an annual exponential to monthly, use 1.025 = (1.025^(1/12))^12. The twelfth root of 1.025 ≈ 1.00206 is the monthly multiplier, and the exponent becomes 12t to count months. A common mistake is dividing the rate by 12 (giving an additive approximation) or putting t/12 in the exponent. The base must be the 12th root and the exponent multiplied by 12.",
       "skill": "modeling",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard application of exponential modeling."
     },
     {
       "number": 25,
@@ -398,7 +456,9 @@ export default {
       "explanation": "Using inclusion-exclusion, the number who took World OR European = 165 + 66 − 33 = 198, so the probability is 198/825 = 0.24.",
       "diveDeep": "For \"or\" probabilities with overlapping events, use P(A or B) = P(A) + P(B) − P(A and B) to avoid double-counting the students who took both courses. Here the 33 who took both are counted in each of the 165 and 66, so subtract them once. Convert the favorable count to a probability by dividing by the total of 825. A common mistake is forgetting to subtract the overlap.",
       "modelAnswer": "Students eligible took AP World History or AP European History. Using the addition rule: 165 + 66 − 33 = 198 eligible seniors. Probability = 198/825 = 0.24 (or 24%).",
-      "subTopic": "Sampling & Studies"
+      "subTopic": "Sampling & Studies",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 26,
@@ -410,7 +470,9 @@ export default {
       "diveDeep": "A rational exponent a^(m/n) is defined as the nth root of a, raised to the mth power: (ⁿ√a)^m, equivalently ⁿ√(a^m). The denominator is the root index, the numerator is the power. Taking the root first usually keeps numbers small and easier to compute. A common mistake is multiplying the base by the exponent (9 · 2.5) instead of applying the root-and-power definition.",
       "modelAnswer": "A rational exponent of the form m/n means take the nth root of the base and raise it to the mth power: 9^(5/2) = (9^(1/2))⁵ = (√9)⁵. Since √9 = 3, this equals 3⁵ = 243.",
       "skill": "reasoning",
-      "subTopic": "Rational Expressions & Equations"
+      "subTopic": "Rational Expressions & Equations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 27,
@@ -421,7 +483,9 @@ export default {
       "explanation": "Since i³ = −i and √(−9) = 3i, expand to get (1/2)(−i)(3i + 4) − 3(−1) = (3/2 − 2i) + 3 = 9/2 − 2i.",
       "diveDeep": "Work with imaginary powers: i² = −1, i³ = −i, and √(−9) = 3i. Distribute carefully: (1/2)(−i)(3i + 4) = (1/2)(−3i² − 4i) = (1/2)(3 − 4i) = 3/2 − 2i. Then −3i² = −3(−1) = +3. Combine real parts (3/2 + 3 = 9/2) separately from imaginary parts (−2i). A common mistake is mishandling i³ or forgetting that −3i² is positive 3.",
       "modelAnswer": "(1/2)i³(√(−9) + 4) − 3i²\n= (1/2)(−i)(3i + 4) − 3(−1)\n= (1/2)(−3i² − 4i) + 3\n= (1/2)(3 − 4i) + 3\n= 3/2 − 2i + 3\n= 9/2 − 2i.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 28,
@@ -433,7 +497,9 @@ export default {
       "diveDeep": "For y = A sin(Bt) + D, the maximum is D + |A| and the minimum is D − |A|, because sine ranges from −1 to 1. Here amplitude 250 and midline 2450 give a max of 2700. The maximum models the fullest the lungs get (peak of inhalation). A common mistake is reporting the amplitude (250) or midline (2450) alone instead of their sum.",
       "modelAnswer": "The maximum value of sine is 1, so the maximum of C(t) is 250(1) + 2450 = 2700 mL. This value represents the greatest volume of air in the person’s lungs during one breathing cycle (the peak of inhalation).",
       "skill": "reasoning",
-      "subTopic": "Unit Circle & Radians"
+      "subTopic": "Unit Circle & Radians",
+      "difficulty": 3,
+      "difficultyRationale": "Standard trigonometric ratio or function application."
     },
     {
       "number": 29,
@@ -445,7 +511,9 @@ export default {
       "diveDeep": "The Factor Theorem states (x − c) is a factor of a polynomial if and only if substituting x = c gives 0. Evaluate each polynomial at x = 2 and check whether the result is zero. There is no need to fully factor or divide. A common mistake is sign errors when plugging in negative or even powers; compute each term carefully and sum.",
       "modelAnswer": "By the Factor Theorem, (x − 2) is a factor if and only if substituting x = 2 yields 0.\nP(2) = (2)⁴ − 3(2)³ + 16(2) − 12 = 16 − 24 + 32 − 12 = 12 ≠ 0, so (x − 2) is NOT a factor of P(x).\nQ(2) = (2)³ − 3(2)² − 16(2) + 12 = 8 − 12 − 32 + 12 = −24 ≠ 0, so (x − 2) is NOT a factor of Q(x).\nTherefore, based on the Factor Theorem evaluation, (x − 2) is a factor only of the polynomial whose value at x = 2 equals 0.",
       "skill": "reasoning",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 30,
@@ -456,7 +524,9 @@ export default {
       "explanation": "Amplitude = (high − low)/2. Puget Sound: (10.1 − (−2))/2 = 6.05 ft; Shinnecock: (2.5 − (−0.1))/2 = 1.3 ft; difference = 6.05 − 1.3 = 4.75 ft.",
       "diveDeep": "The amplitude of a sinusoidal model equals half the distance between the maximum and minimum values: A = (max − min)/2. Compute each location separately, being careful with the negative low values (subtracting a negative adds). Then subtract the two amplitudes. A common mistake is using the full high-low range instead of half of it, or sign errors with the negative lows.",
       "modelAnswer": "Amplitude = (high − low)/2.\nPuget Sound: (10.1 − (−2))/2 = 12.1/2 = 6.05 ft.\nShinnecock Bay: (2.5 − (−0.1))/2 = 2.6/2 = 1.3 ft.\nDifference in amplitudes = 6.05 − 1.3 = 4.75 ft.",
-      "subTopic": "Trig Graphs"
+      "subTopic": "Trig Graphs",
+      "difficulty": 2,
+      "difficultyRationale": "Basic identification of trigonometric properties."
     },
     {
       "number": 31,
@@ -467,7 +537,9 @@ export default {
       "explanation": "Each term is 3 times the previous term (4 → 12 → 36 → 108), so a₁ = 4 and aₙ = 3·aₙ₋₁.",
       "diveDeep": "Identify whether the pattern is arithmetic (common difference) or geometric (common ratio) by examining consecutive terms. Here 12/4 = 3 and 36/12 = 3, confirming a geometric sequence with ratio 3. A recursive formula must state the first term AND the rule relating each term to the previous one. A common mistake is writing an explicit formula (aₙ = 4·3^(n−1)) when a recursive one is requested.",
       "modelAnswer": "The ratio between consecutive terms is constant: 12/4 = 36/12 = 108/36 = 3. So the sequence is geometric with first term 4 and common ratio 3.\nRecursive formula: a₁ = 4, aₙ = 3·aₙ₋₁ for n > 1.",
-      "subTopic": "Sequences"
+      "subTopic": "Sequences",
+      "difficulty": 3,
+      "difficultyRationale": "Standard modeling of a recursive sequence."
     },
     {
       "number": 32,
@@ -480,7 +552,9 @@ export default {
       "diveDeep": "To find an intersection of a rational function and an absolute value function, set them equal on the relevant branch. For positive x, |x| = x, so 1/x = x − 3. Clear the fraction (multiply by x) to form a quadratic, then apply the quadratic formula. Choose the positive root. A common mistake is forgetting that on x > 0, |x| simplifies to x, or not multiplying through by x to clear the denominator.",
       "modelAnswer": "For x > 0, a(x) = x − 3. Set r(x) = a(x): 1/x = x − 3.\nMultiply both sides by x: 1 = x² − 3x, so x² − 3x − 1 = 0.\nUsing the quadratic formula: x = (3 ± √(9 + 4))/2 = (3 ± √13)/2.\nThe positive solution is x = (3 + √13)/2 ≈ 3.3.\n(Graph: y = 1/x is a hyperbola in quadrants I and III; y = |x| − 3 is a V-shape with vertex at (0, −3); they intersect near x ≈ 3.3.)",
       "skill": "graphing",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 33,
@@ -492,7 +566,9 @@ export default {
       "diveDeep": "Continuous growth is modeled with base e because e represents the limit of compounding over infinitely small intervals, the definition of \"continuous.\" Write N(t) = N₀e^(rt) with r = 0.0475 as a decimal. Convert 36 hours to 1.5 days before substituting (units must match the model). A common mistake is using base (1 + r) instead of e for continuous growth, or forgetting the hours-to-days conversion.",
       "modelAnswer": "Because the population grows continuously, the base must be e (Euler’s number), which models continuous compounding: N(t) = 950e^(0.0475t), where t is in days and 0.0475 is the daily rate as a decimal.\n36 hours = 36/24 = 1.5 days.\nN(1.5) = 950e^(0.0475 · 1.5) = 950e^(0.07125) ≈ 950(1.07385) ≈ 1020 bacteria.",
       "skill": "reasoning",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 4,
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
     },
     {
       "number": 34,
@@ -505,7 +581,9 @@ export default {
       "diveDeep": "For y = A sin(Bx), amplitude is |A| and period is 2π/B, so B = 2π/period. Here B = 2π ÷ (π/2) = 4. Over [0, 2π], the function completes 4 full cycles. When sketching, mark the max (3), min (−3), and the zeros at multiples of the quarter-period. A common mistake is confusing B with the period itself; remember B = 2π/period, not the period.",
       "modelAnswer": "Amplitude = 3, so A = 3. Period = π/2, so B = 2π ÷ (π/2) = 4.\nEquation: y = 3 sin(4x).\n(Graph: a sine curve with maximum 3 and minimum −3, completing one full cycle every π/2 units, so it shows 4 complete cycles between 0 and 2π. Zeros occur at x = 0, π/4, π/2, 3π/4, ... with peaks at x = π/8, 5π/8, ... )",
       "skill": "graphing",
-      "subTopic": "Trig Identities & Equations"
+      "subTopic": "Trig Identities & Equations",
+      "difficulty": 4,
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
     },
     {
       "number": 35,
@@ -517,7 +595,9 @@ export default {
       "diveDeep": "For a simulation, the middle 95% of plausible values is approximately mean ± 2 standard deviations (the empirical rule). Compute the interval, then compare the observed statistic. If the observed value lies within the interval, it is consistent with the claim and not unusual; if outside, it would be unusual. A common mistake is using 1 SD instead of 2, or forgetting to convert 14/60 to a proportion before comparing.",
       "modelAnswer": "Middle 95% = mean ± 2(SD) = 0.301 ± 2(0.058) = 0.301 ± 0.116, giving the interval (0.185, 0.417).\nMary’s proportion = 14/60 ≈ 0.233.\nSince 0.233 lies within the interval (0.185, 0.417), it is NOT unusual for Mary’s pack to have 14 red candies out of 60. Her result is consistent with the manufacturer’s claim of 30%.",
       "skill": "reasoning",
-      "subTopic": "Sampling & Studies"
+      "subTopic": "Sampling & Studies",
+      "difficulty": 4,
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
     },
     {
       "number": 36,
@@ -529,7 +609,9 @@ export default {
       "diveDeep": "Move all terms to one side to form a standard quadratic, then apply the quadratic formula. A negative discriminant (b² − 4ac < 0) produces complex roots in a ± bi form, where the imaginary part comes from √(negative). Graphically, complex roots mean the parabola and line never intersect on the real plane. A common mistake is sign errors when rearranging or simplifying the radical of a negative number.",
       "modelAnswer": "a) x² − 2x + 7 = 4x − 10 → x² − 2x + 7 − 4x + 10 = 0 → x² − 6x + 17 = 0.\nQuadratic formula: x = (6 ± √(36 − 68))/2 = (6 ± √(−32))/2 = (6 ± 4i√2)/2 = 3 ± 2i√2.\nSo the roots are x = 3 + 2√2·i and x = 3 − 2√2·i.\nb) The roots are imaginary (complex with nonzero imaginary part) because the discriminant is negative. Graphically, the parabola y = x² − 2x + 7 and the line y = 4x − 10 do not intersect — there are no real x-values where they meet — which confirms the solutions are imaginary, not real.",
       "skill": "reasoning",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 3,
+      "difficultyRationale": "Standard algebraic solution of a linear-quadratic system."
     },
     {
       "number": 37,
@@ -541,7 +623,9 @@ export default {
       "diveDeep": "This radical equation problem requires substituting, then isolating the square root before squaring. To solve for s: add 3.49, divide by 1.69, square, then subtract 4.45. For the range producing a rounded value of 10, set B equal to the rounding boundaries 9.5 and 10.5 and solve for s at each end. Common mistakes: rounding too early in part (a), forgetting to isolate the radical fully before squaring, or using exact 10 instead of the rounding interval [9.5, 10.5).",
       "modelAnswer": "a) At s = 30: B = 1.69√(30 + 4.45) − 3.49 = 1.69√34.45 − 3.49 ≈ 1.69(5.870) − 3.49 ≈ 9.92 − 3.49 ≈ 6.43. Rounded to the nearest integer, B = 6, so the force of wind is a \"Steady breeze.\"\nb) Set B = 15: 15 = 1.69√(s + 4.45) − 3.49.\n18.49 = 1.69√(s + 4.45)\n√(s + 4.45) = 18.49/1.69 ≈ 10.941\ns + 4.45 = (10.941)² ≈ 119.71\ns ≈ 115.26, so s ≈ 115 mph.\nc) A Beaufort number of 10 includes all B values rounding to 10, i.e., 9.5 ≤ B < 10.5.\nFor B = 9.5: 9.5 = 1.69√(s + 4.45) − 3.49 → √(s + 4.45) = 12.99/1.69 ≈ 7.686 → s + 4.45 ≈ 59.08 → s ≈ 55 mph.\nFor B = 10.5: 10.5 = 1.69√(s + 4.45) − 3.49 → √(s + 4.45) = 13.99/1.69 ≈ 8.278 → s + 4.45 ≈ 68.53 → s ≈ 64 mph.\nApproximate range of wind speeds for a Beaufort number of 10 is about 55 mph to 64 mph.",
       "skill": "reasoning",
-      "subTopic": "Radical Expressions & Equations"
+      "subTopic": "Radical Expressions & Equations",
+      "difficulty": 5,
+      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison."
     }
   ]
 }

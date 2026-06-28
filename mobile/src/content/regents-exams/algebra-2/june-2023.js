@@ -1,4 +1,4 @@
-// Enriched Algebra 2 exam — tagged with skill + subTopic (see content/_shared/lessonEngine.js)
+// Algebra 2 Regents — June 2023
 export default {
   "id": "a2-jun-2023",
   "subject": "algebra-2",
@@ -22,7 +22,9 @@ export default {
       "explanation": "Average rate of change is the change in population divided by the change in years. From 1990 to 2010, the population rose from 494,290 to 790,390, a change of about 296,100 over 20 years (≈14,805/yr), the steepest of the choices.",
       "diveDeep": "Average rate of change over an interval [a, b] equals (f(b) − f(a))/(b − a) — it is the slope of the secant line connecting the two endpoints. A common trap is to compare only the total change in population without dividing by the number of years; the 1850–1910 span is 60 years while 1990–2010 is just 20 years, so per-year growth matters. Because this data is roughly exponential, the most recent equal-length interval will almost always have the largest rate of change. Always compute Δy/Δx for each option rather than eyeballing raw differences.",
       "skill": "modeling",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 2,
@@ -38,7 +40,9 @@ export default {
       "correct": 2,
       "explanation": "36x⁶ − 25y⁴ is a difference of squares equal to (6x³ − 5y²)(6x³ + 5y²). The expression (6x⁶ − 5y⁴)(6x⁶ + 5y⁴) multiplies to 36x¹² − 25y⁸, which is not equivalent.",
       "diveDeep": "A difference of two squares a² − b² factors as (a − b)(a + b), where here a = 6x³ (since (6x³)² = 36x⁶) and b = 5y² (since (5y²)² = 25y⁴). The classic trap is mishandling the exponents: taking the square root of x⁶ gives x³, not x⁶. Choice C wrongly keeps the original exponents inside the factors, which would square to x¹² and y⁸. When you factor, verify by checking that each factor squared (or the product) returns the original expression.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 3,
@@ -54,7 +58,9 @@ export default {
       "correct": 3,
       "explanation": "Factoring by grouping or testing rational roots gives p(x) = (x + 5)(x + 3)(x − 2)(x − 3), so the zeros are {−5, −3, 2, 3}.",
       "diveDeep": "A degree-4 polynomial has at most four real zeros, and the zeros are the x-values where p(x) = 0. Use the Rational Root Theorem (possible rational roots are factors of the constant 90 over factors of the leading coefficient 1) and synthetic division, or graph and read the x-intercepts. A trap is forgetting that a fourth-degree polynomial can have up to four distinct roots, so answers listing only three values should raise suspicion. Always multiply your factors back out to confirm they reproduce the original polynomial.",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 4,
@@ -71,7 +77,9 @@ export default {
       "image": "/images/exams/alg2-june-2023/q4.png",
       "explanation": "Tangent equals y/x = (2√3)/(−2) = −√3.",
       "diveDeep": "For a point (x, y) on the terminal side of an angle in standard position, tan θ = y/x (it does not require the radius r). Here x is negative and y is positive, placing the angle in Quadrant II where tangent is negative, which confirms the sign. A common error is to swap x and y or to forget the negative sign from the second-quadrant x-coordinate. Remember the ASTC rule: tangent is positive only in Quadrants I and III.",
-      "subTopic": "Unit Circle & Radians"
+      "subTopic": "Unit Circle & Radians",
+      "difficulty": 3,
+      "difficultyRationale": "Standard trigonometric ratio or function application."
     },
     {
       "number": 5,
@@ -88,7 +96,9 @@ export default {
       "explanation": "In the form T(m) = A cos(B·m) + C, the amplitude is |A| = 23.",
       "diveDeep": "For a sinusoid y = A cos(Bx) + C, the amplitude |A| is the vertical distance from the midline to a maximum or minimum, the midline is y = C, and the period is 2π/|B|. Students often confuse amplitude with the midline (56) or the period. Here A = 23, so temperatures swing 23°F above and below the midline of 56°F. Identifying A, B, and C directly from the equation is the fastest route — no graphing required.",
       "skill": "graphing",
-      "subTopic": "Trig Graphs"
+      "subTopic": "Trig Graphs",
+      "difficulty": 2,
+      "difficultyRationale": "Basic identification of trigonometric properties."
     },
     {
       "number": 6,
@@ -105,7 +115,9 @@ export default {
       "correct": 2,
       "explanation": "With midline 56 and amplitude 23, the maximum is 56 + 23 = 79 and the minimum is 56 − 23 = 33, giving a range of [33, 79].",
       "diveDeep": "The range of A cos(Bx) + C is [C − |A|, C + |A|] because cosine oscillates between −1 and 1. The midline C is the center of the range, and the amplitude |A| determines how far above and below the values reach. A frequent mistake is to use the amplitude or midline alone as an endpoint. Always combine them: minimum = midline − amplitude, maximum = midline + amplitude.",
-      "subTopic": "Unit Circle & Radians"
+      "subTopic": "Unit Circle & Radians",
+      "difficulty": 3,
+      "difficultyRationale": "Standard trigonometric ratio or function application."
     },
     {
       "number": 7,
@@ -121,7 +133,9 @@ export default {
       "correct": 1,
       "explanation": "Distribute: 3i·ai − 3i·6i² = 3ai² − 18i³ = 3a(−1) − 18(−i) = −3a + 18i.",
       "diveDeep": "Powers of i cycle: i² = −1, i³ = −i, i⁴ = 1. When simplifying expressions with i, distribute first, then replace every power of i using these identities and combine like terms into a + bi form. The trap here is i³ = −i (not i), which flips the sign of the 18i term, and i² = −1, which makes the real part negative. Track signs carefully when reducing i³ = i²·i = −i.",
-      "subTopic": "Complex Operations"
+      "subTopic": "Complex Operations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 8,
@@ -139,7 +153,9 @@ export default {
       "explanation": "A vertical asymptote at x = −a means the argument is (x + a), and an upward vertical shift of c gives h(x) = log(x + a) + c.",
       "diveDeep": "For y = log(x − h) + k, the vertical asymptote is x = h and k shifts the graph vertically. The argument (x − h) = 0 locates the asymptote, so an asymptote at x = −a forces the argument (x + a). A common trap is sign confusion: an asymptote to the left of the origin corresponds to (x + a), not (x − a). Read the asymptote first to fix the horizontal shift, then use a known point to determine the vertical shift c.",
       "skill": "modeling",
-      "subTopic": "Logarithms"
+      "subTopic": "Logarithms",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 9,
@@ -156,7 +172,9 @@ export default {
       "image": "/images/exams/alg2-june-2023/q9.png",
       "explanation": "The increasing exponential f(x) = 2ˣ grows without bound as x → ∞ and approaches 0 (its horizontal asymptote) as x → −∞.",
       "diveDeep": "End behavior describes what a function does at the extremes of its domain. An exponential growth function bˣ (b > 1) rises to infinity on the right and flattens toward the asymptote y = 0 on the left. Quadratics go to +∞ on both ends, constants stay flat, and −2ˣ falls to −∞. The trap is matching only one of the two end behaviors; check both directions. The horizontal asymptote of a basic exponential is y = 0, which gives the \"approaches 0\" behavior.",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 10,
@@ -172,18 +190,27 @@ export default {
       "correct": 3,
       "explanation": "Let u = x² + 3. Then u² − 2u − 24 = (u − 6)(u + 4) = (x² − 3)(x² + 7) = x⁴ + 4x² − 21. Choice D shown as x⁴ − 2x² − 21 corresponds to the expanded equivalent; substituting back, (x²+3)² − 2(x²+3) − 24 = x⁴ + 6x² + 9 − 2x² − 6 − 24 = x⁴ + 4x² − 21.",
       "diveDeep": "Treating a repeated binomial as a single variable (u-substitution) turns a complicated expression into a simple quadratic to factor. After factoring in u, substitute back and, if needed, expand to match the answer format. The trap is arithmetic when expanding (x² + 3)²; remember the middle term 2·x²·3 = 6x². Verify by fully expanding the original: x⁴ + 6x² + 9 − 2x² − 6 − 24 = x⁴ + 4x² − 21.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 11,
       "part": "A",
       "text": "What is the solution for the system of equations below? x + y + z = 2 ; x − 2y − z = −4 ; x − 9y + z = −18",
-      "choices": ["(−2, 2, 2)", "(−2, −2, 6)", "(0, 2, 0)", "(0, 2, 4)"],
+      "choices": [
+        "(−2, 2, 2)",
+        "(−2, −2, 6)",
+        "(0, 2, 0)",
+        "(0, 2, 4)"
+      ],
       "topic": "Systems & Inequalities",
       "correct": 2,
       "explanation": "The solution is (0, 2, 0): 0 + 2 + 0 = 2 ✓; 0 − 4 − 0 = −4 ✓; 0 − 18 + 0 = −18 ✓.",
       "diveDeep": "A linear system in three variables can be solved by elimination or substitution, or fastest on this exam by substituting each answer choice into all three equations. The solution must satisfy every equation simultaneously — a point that works for two but fails the third is not a solution. The trap is stopping after checking one or two equations. With multiple-choice options available, plugging in is often quicker and less error-prone than full elimination.",
-      "subTopic": "Systems & Inequalities"
+      "subTopic": "Systems & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 12,
@@ -199,7 +226,9 @@ export default {
       "correct": 0,
       "explanation": "Rewrite as x² − 4x + 13 = 0. The quadratic formula gives x = (4 ± √(16 − 52))/2 = (4 ± √(−36))/2 = (4 ± 6i)/2 = 2 ± 3i.",
       "diveDeep": "When the discriminant b² − 4ac is negative, the roots are complex conjugates a ± bi. Move all terms to one side first, then apply the quadratic formula carefully. The trap is mishandling √(−36): it equals 6i, and dividing 4 ± 6i by 2 gives 2 ± 3i — students sometimes forget to divide both terms by the leading coefficient. Complex roots always come in conjugate pairs for real-coefficient quadratics.",
-      "subTopic": "Complex Operations"
+      "subTopic": "Complex Operations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 13,
@@ -215,7 +244,9 @@ export default {
       "correct": 0,
       "explanation": "Polynomial long division of (2x³ + 2x − 7) by (2x + 4) yields quotient x² − 2x + 5 with remainder −27, i.e., x² − 2x + 5 − 27/(2x + 4).",
       "diveDeep": "To divide polynomials, use long division, remembering to include placeholder terms for any missing degrees (here there is no x² term in the dividend, so use 0x²). The result is written as quotient + remainder/divisor. A common trap is dropping the missing x² term, which throws off every subsequent step. Check your answer by multiplying the quotient by the divisor and adding the remainder to recover the original numerator.",
-      "subTopic": "Rational Expressions & Equations"
+      "subTopic": "Rational Expressions & Equations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 14,
@@ -233,7 +264,9 @@ export default {
       "explanation": "Fitting an exponential regression to the data and evaluating at m = 41 months yields approximately 5,420,000 followers (about 5420 thousand).",
       "diveDeep": "Exponential regression fits a model of the form y = a·bˣ to data that grows by a roughly constant percentage. On a graphing calculator, enter the data, run ExpReg, then evaluate the model at the desired x-value. Watch the units — the table counts followers in thousands, so a calculator output of ~5420 means 5,420,000. The trap is forgetting to convert units or miscounting the number of months between the start date and the target date.",
       "skill": "modeling",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 15,
@@ -250,7 +283,9 @@ export default {
       "explanation": "Since e^(−0.6·3t) = e^(−1.8t) = (e^(−1.8))ᵗ ≈ (0.165)ᵗ.",
       "diveDeep": "A continuous exponential e^(kt) can be rewritten in base form as (e^k)ᵗ, converting a continuous growth/decay rate to a per-unit factor. When k is negative the base is between 0 and 1, indicating decay. The trap is sign errors in the exponent and forgetting that e raised to a negative number is a small positive fraction, not a negative value. Evaluate e^k on a calculator to find the equivalent base, then express the model as I₀·(base)ᵗ.",
       "skill": "modeling",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 16,
@@ -266,7 +301,9 @@ export default {
       "correct": 3,
       "explanation": "Using the normal model, P(X < 60) ≈ 0.0086 and P(X > 75) ≈ 0.0212; their sum ≈ 0.0298, or about 2.98%.",
       "diveDeep": "For a normal distribution, use normalcdf(lower, upper, mean, σ) to find probabilities, then add the two tail areas for an \"or\" event involving non-overlapping regions. Convert each boundary to a z-score (z = (x − μ)/σ) if computing by hand. The trap is adding only one tail, or confusing \"less than 60 OR greater than 75\" with the region between them. Because the two events are mutually exclusive, you simply add their probabilities and convert to a percent.",
-      "subTopic": "Normal Distribution"
+      "subTopic": "Normal Distribution",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 17,
@@ -284,7 +321,9 @@ export default {
       "explanation": "The simulated sample proportions cluster around 0.43 with a spread; the standard deviation of these proportions is approximately 0.05.",
       "diveDeep": "In a simulation of sample proportions, the standard deviation measures how spread out the simulated proportions are around the true value. A theoretical estimate is √(p(1−p)/n) = √(0.43·0.57/100) ≈ 0.0495 ≈ 0.05, which matches the simulation. The trap is choosing 0.43 (the mean/center) instead of a measure of spread, or misreading the dot-plot scale. Standard deviation is roughly how far typical points fall from the center, not the center itself.",
       "skill": "modeling",
-      "subTopic": "Normal Distribution"
+      "subTopic": "Normal Distribution",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 18,
@@ -300,7 +339,9 @@ export default {
       "correct": 0,
       "explanation": "Cosine is even, so 2cos(x) and cos(2x) are both even since multiplying by a constant or scaling the input of an even function preserves evenness.",
       "diveDeep": "A function is even if g(−x) = g(x) (symmetric about the y-axis) and odd if g(−x) = −g(x) (symmetric about the origin). Cosine is even, so any vertical scaling 2cos x stays even, and cos(2x) is even because replacing x with −x leaves it unchanged. The trap is assuming a vertical shift like cos x − 1 keeps evenness symmetry — it actually does remain even, but f(π − x) = −cos x is odd-looking only after reflection; test each by substituting −x. Always verify even/odd by direct substitution rather than intuition.",
-      "subTopic": "Unit Circle & Radians"
+      "subTopic": "Unit Circle & Radians",
+      "difficulty": 3,
+      "difficultyRationale": "Standard trigonometric ratio or function application."
     },
     {
       "number": 19,
@@ -316,7 +357,9 @@ export default {
       "correct": 0,
       "explanation": "Multiplying through by (x − 5)(x + 2) and solving gives x = −6 and x = 5, but x = 5 is extraneous (it makes a denominator zero), leaving the solution set {−6}.",
       "diveDeep": "When solving rational equations, multiply both sides by the least common denominator, solve the resulting polynomial, then check every candidate against the original denominators. Any value that makes a denominator zero is extraneous and must be rejected. The trap here is keeping x = 5, which is excluded because (x − 5) = 0. Always identify domain restrictions before solving so you know which solutions to discard.",
-      "subTopic": "Rational Expressions & Equations"
+      "subTopic": "Rational Expressions & Equations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 20,
@@ -332,7 +375,9 @@ export default {
       "correct": 3,
       "explanation": "Each expression simplifies using exponent rules to x³y^(1/2) = x³√y, so all three are equivalent.",
       "diveDeep": "Radicals and rational exponents are interchangeable: √y = y^(1/2) and ⁿ√(aᵐ) = a^(m/n). Convert every radical to a fractional exponent, apply the product, quotient, and power rules, and compare. The trap is mishandling negative exponents (which flip numerator and denominator) and adding exponents that belong to different bases. When all candidate forms reduce to the same simplified expression, the answer is \"all of them.\"",
-      "subTopic": "Radical Expressions & Equations"
+      "subTopic": "Radical Expressions & Equations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 21,
@@ -348,7 +393,9 @@ export default {
       "correct": 2,
       "explanation": "To find f(x), swap x and y in the inverse and solve for y; reversing f⁻¹(x) returns the original f(x) given in choice C.",
       "diveDeep": "A function and its inverse undo each other: to recover f from f⁻¹, set y = f⁻¹(x), swap x and y, and solve for y. Equivalently, the inverse of the inverse is the original function. The trap is sloppy algebra when isolating y, especially with fractions and sign changes. Verify by composing: f(f⁻¹(x)) should simplify to x, confirming you have the correct original function.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 22,
@@ -364,7 +411,9 @@ export default {
       "correct": 3,
       "explanation": "Expanding each right-hand side fails to reproduce the left-hand side (e.g., x³ + y³ actually equals (x + y)(x² − xy + y²), not (x − y)(...)), so none of the three are identities.",
       "diveDeep": "An identity holds for all values of the variables; to test one, expand both sides fully and compare, or substitute a couple of test values. Memorize the correct sum/difference of cubes: x³ + y³ = (x + y)(x² − xy + y²) and x³ − y³ = (x − y)(x² + xy + y²). The trap is the sign in the binomial factor — the listed cube equation uses (x − y), which is wrong. Since each given equation expands incorrectly, the count of true identities is 0.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 23,
@@ -380,7 +429,9 @@ export default {
       "correct": 1,
       "explanation": "The vertex is midway between focus and directrix at (0, 5), and p = 1 (distance from vertex to focus), so x² = 4p(y − 5) = 8(y − 5).",
       "diveDeep": "A parabola is the set of points equidistant from the focus and directrix; the vertex lies halfway between them. For a vertical-axis parabola, the form is (x − h)² = 4p(y − k), where (h, k) is the vertex and p is the signed distance from vertex to focus. Here the vertex is (0, 5) and p = 1, giving 4p = 4 — note the exam answer x² = 8(y − 5) reflects the distance focus-to-directrix of 2. The trap is confusing p with the full focus-to-directrix distance; carefully use the vertex midpoint and the directed distance.",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 24,
@@ -397,7 +448,9 @@ export default {
       "explanation": "This is the sum of a geometric series with first term 500, common ratio 1.04, and 21 terms, given by Sₙ = a₁(1 − rⁿ)/(1 − r) = 500(1 − 1.04²¹)/(1 − 1.04).",
       "diveDeep": "A series of equal periodic deposits earning compound interest is a geometric series, summed with Sₙ = a₁(1 − rⁿ)/(1 − r), where r = 1 + interest rate. Each deposit grows by the factor 1.04 per year, and there are 21 deposits. The trap is using a single compound-interest expression like 500(1.04)²¹ (which models one lump sum, not annual contributions) or using 0.04 instead of 1.04 as the ratio. Identify whether a problem is a single investment or a repeated-payment annuity before choosing the formula.",
       "skill": "modeling",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard application of exponential modeling."
     },
     {
       "number": 25,
@@ -409,7 +462,9 @@ export default {
       "diveDeep": "An absolute value equation |A| = B requires B ≥ 0 and splits into two linear equations: A = B and A = −B. Case 1: 3x + 7 = x − 1 → 2x = −8 → x = −4. Check: |3(−4) + 7| = |−5| = 5 and −4 − 1 = −5; since 5 ≠ −5, x = −4 is extraneous. Case 2: 3x + 7 = −(x − 1) → 3x + 7 = −x + 1 → 4x = −6 → x = −3/2. Check: |3(−3/2) + 7| = |11/2| = 5.5 and −3/2 − 1 = −5/2 = −2.5; since 5.5 ≠ −2.5, x = −3/2 is also extraneous. Therefore there is no solution.",
       "modelAnswer": "Case 1: 3x + 7 = x − 1 → x = −4. Check: |−5| = 5 but −4 − 1 = −5. Extraneous. Case 2: 3x + 7 = −(x − 1) → 4x = −6 → x = −3/2. Check: |11/2| = 5.5 but −3/2 − 1 = −2.5. Extraneous. There is no solution; the solution set is empty.",
       "skill": "procedure",
-      "subTopic": "Rational Expressions & Equations"
+      "subTopic": "Rational Expressions & Equations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 26,
@@ -421,7 +476,9 @@ export default {
       "diveDeep": "In a continuous exponential model P(t) = Ae^(kt), k > 0 means exponential growth and k < 0 means exponential decay. Here k = 0.0532 > 0, so the population grows continuously at a rate of about 5.32% per hour. The initial population is 37 × 100 = 3700 bacteria. As t increases, e^(0.0532t) increases without bound, making P(t) always increasing. A common error is confusing a small positive k with decay; any positive exponent — no matter how small — produces growth.",
       "modelAnswer": "In P(t) = 37e^(0.0532t), the rate constant k = 0.0532 > 0. Since k is positive, e^(0.0532t) is an increasing function of t, so the bacterial population is increasing over time. The population grows continuously at approximately 5.32% per hour.",
       "skill": "reasoning",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 27,
@@ -433,7 +490,9 @@ export default {
       "diveDeep": "The Factor Theorem states that (x − c) is a factor of p(x) if and only if p(c) = 0. Substituting x = 3: 27 + 9a − 15 + 6 = 0 → 9a + 18 = 0 → a = −2. You can verify by dividing g(x) by (x − 3) and confirming the remainder is 0. A common error is substituting x = −3 instead of x = 3, confusing the sign in the factor (x − 3).",
       "modelAnswer": "Since (x − 3) is a factor, g(3) = 0. Substitute: (3)³ + a(3)² − 5(3) + 6 = 0 → 27 + 9a − 15 + 6 = 0 → 9a + 18 = 0 → a = −2.",
       "skill": "modeling",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 28,
@@ -444,7 +503,9 @@ export default {
       "explanation": "Identify the common ratio r = 63/189 = 1/3. Write the recursive formula as a₁ = 189, aₙ = (1/3)aₙ₋₁ for n ≥ 2.",
       "diveDeep": "A geometric sequence has a constant ratio between successive terms: r = aₙ/aₙ₋₁. Here 63/189 = 21/63 = 7/21 = 1/3. The recursive formula defines the first term and then each term as the previous term multiplied by the common ratio. This compact form is aₙ = aₙ₋₁ · (1/3) with a₁ = 189. Students sometimes confuse recursive and explicit formulas; the recursive version refers back to the prior term, while the explicit version uses the term number n directly.",
       "modelAnswer": "Common ratio r = 63/189 = 1/3. Recursive formula: a₁ = 189, aₙ = (1/3)aₙ₋₁ for n ≥ 2.",
-      "subTopic": "Sequences"
+      "subTopic": "Sequences",
+      "difficulty": 3,
+      "difficultyRationale": "Standard modeling of a recursive sequence."
     },
     {
       "number": 29,
@@ -456,7 +517,9 @@ export default {
       "diveDeep": "To solve an equation of the form e^(kx) = C, take the natural logarithm of both sides using the property ln(e^u) = u. Here: e^(0.49x) = 7.5 → 0.49x = ln(7.5) ≈ 2.0149 → x ≈ 4.112. Natural log (ln) undoes the exponential base e. A common mistake is taking log base 10 instead of ln, which will produce the wrong answer; alternatively, the change-of-base formula can reconcile the approaches. Always include division by the coefficient of x.",
       "modelAnswer": "2e^(0.49x) = 15 → e^(0.49x) = 7.5 → ln(e^(0.49x)) = ln(7.5) → 0.49x = ln(7.5) ≈ 2.01490 → x ≈ 2.01490/0.49 ≈ 4.112.",
       "skill": "procedure",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 30,
@@ -468,7 +531,9 @@ export default {
       "diveDeep": "Factor the numerator 2x³ + x² − 18x − 9 by grouping: x²(2x + 1) − 9(2x + 1) = (x² − 9)(2x + 1) = (x − 3)(x + 3)(2x + 1). Factor the denominator: 3x − x² = x(3 − x) = −x(x − 3). The fraction becomes (x − 3)(x + 3)(2x + 1) / [−x(x − 3)]. Cancel (x − 3): the result is −(x + 3)(2x + 1)/x. Expand if needed: −(2x² + 7x + 3)/x. Always state the domain restrictions where x ≠ 0 and x ≠ 3.",
       "modelAnswer": "Numerator: 2x³ + x² − 18x − 9 = (x² − 9)(2x + 1) = (x − 3)(x + 3)(2x + 1). Denominator: 3x − x² = −x(x − 3). Simplified: (x − 3)(x + 3)(2x + 1) / [−x(x − 3)] = −(x + 3)(2x + 1)/x, for x ≠ 0, x ≠ 3.",
       "skill": "procedure",
-      "subTopic": "Rational Expressions & Equations"
+      "subTopic": "Rational Expressions & Equations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 31,
@@ -480,7 +545,9 @@ export default {
       "diveDeep": "In a simulation of sample proportions, results within roughly 2 standard deviations of the mean are considered reasonably likely under the stated assumption. The interval mean ± 2SD = 0.852 ± 0.058 = [0.794, 0.910]. Since 0.88 falls within this interval, the sample result is not unusual, and there is insufficient evidence to reject the company's assumption of 0.85. A common error is interpreting any deviation from exactly 0.85 as evidence against the assumption, when natural sampling variability makes such differences expected.",
       "modelAnswer": "2-SD interval: 0.852 ± 2(0.029) = 0.852 ± 0.058 = [0.794, 0.910]. Since 0.88 falls within this interval, this result is not unusual. The sample does not give the company reason to believe their assumption of 0.85 is incorrect.",
       "skill": "reasoning",
-      "subTopic": "Sampling & Studies"
+      "subTopic": "Sampling & Studies",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 32,
@@ -493,7 +560,9 @@ export default {
       "diveDeep": "A polynomial with given zeros c₁, c₂, c₃ and leading coefficient 1 is p(x) = (x − c₁)(x − c₂)(x − c₃). Expanding: (x − 2)(x − 3) = x² − 5x + 6; then (x² − 5x + 6)(x + 6) = x³ + x² − 24x + 36. For the sketch: the cubic has positive leading coefficient, so it falls left and rises right (end behavior: as x → −∞, p → −∞ and as x → ∞, p → ∞). It crosses the x-axis at x = −6, x = 2, and x = 3. A common error is mishandling the sign of each zero — remember the factor for zero at x = −6 is (x + 6), not (x − 6).",
       "modelAnswer": "p(x) = (x − 2)(x − 3)(x + 6) = (x² − 5x + 6)(x + 6) = x³ + x² − 24x + 36. Graph crosses x-axis at x = −6, 2, 3; y-intercept at p(0) = 36; falls to the left, rises to the right.",
       "skill": "graphing",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 33,
@@ -505,7 +574,9 @@ export default {
       "diveDeep": "Conditional probability P(A|B) = P(A and B)/P(B). Total donors = 400 + 672 + 1200 + 2016 = 4288. P(Supporter | Online) = 1200/3216 ≈ 0.373. P(Supporter) = (400 + 1200)/4288 = 1600/4288 ≈ 0.373. Since P(Supporter | Online) ≈ P(Supporter), being a supporter and donating online are independent events. The equality confirms independence: knowing someone donated online gives no additional information about their supporter status. A common mistake is computing the joint probability P(Online and Supporter) instead of the conditional probability.",
       "modelAnswer": "Total online donations = 1200 + 2016 = 3216. P(Supporter | Online) = 1200/3216 ≈ 0.373. Total donors = 4288; P(Supporter) = 1600/4288 ≈ 0.373. Since P(Supporter | Online) ≈ P(Supporter), being a supporter is independent of donating online.",
       "skill": "reasoning",
-      "subTopic": "Sampling & Studies"
+      "subTopic": "Sampling & Studies",
+      "difficulty": 4,
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
     },
     {
       "number": 34,
@@ -517,7 +588,9 @@ export default {
       "diveDeep": "Substitution reduces the system to one equation in one variable. Replace y with (−2x + 7): (x − 2)² + (−2x + 7 − 3)² = 20 → (x − 2)² + (−2x + 4)² = 20. Expand: (x² − 4x + 4) + (4x² − 16x + 16) = 20 → 5x² − 20x + 20 = 20 → 5x² − 20x = 0 → 5x(x − 4) = 0 → x = 0 or x = 4. When x = 0, y = 7; when x = 4, y = −1. Verify each in the original circle equation. A common error is forgetting to substitute both x-values to find both ordered pairs.",
       "modelAnswer": "Substitute y = −2x + 7: (x − 2)² + (−2x + 4)² = 20 → (x² − 4x + 4) + (4x² − 16x + 16) = 20 → 5x² − 20x = 0 → 5x(x − 4) = 0. x = 0: y = 7 → (0, 7). x = 4: y = −1 → (4, −1). Solutions: (0, 7) and (4, −1).",
       "skill": "procedure",
-      "subTopic": "Systems & Inequalities"
+      "subTopic": "Systems & Inequalities",
+      "difficulty": 4,
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
     },
     {
       "number": 35,
@@ -529,7 +602,9 @@ export default {
       "diveDeep": "The palm tree model uses discrete compounding with rate −3%, giving base 0.97. The flamingo model uses continuous compounding with k = 0.02. To find the intersection, graph both on a calculator and use the intersect feature. Starting at P(0) = 500 > F(0) = 200, the palm population falls while flamingos grow; they will be equal at some future time. A common mistake is using the continuous model for palms or the discrete model for flamingos — the problem specifies which type of rate applies to each population.",
       "modelAnswer": "P(x) = 500(0.97)^x; F(x) = 200e^(0.02x). Setting P(x) = F(x) and solving graphically: the populations are equal at approximately x ≈ 30 years. At that time, both populations will number approximately the same, after which flamingos outnumber palm trees.",
       "skill": "modeling",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 4,
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
     },
     {
       "number": 36,
@@ -541,7 +616,9 @@ export default {
       "diveDeep": "From the graph: the maximum volume ≈ 5000 mL and minimum ≈ 1000 mL, giving amplitude A = (5000 − 1000)/2 = 2000 and midline C = (5000 + 1000)/2 = 3000. The period is approximately 4 seconds, so B = 2π/4 = π/2. The function starts at the midline and increases, consistent with a positive sine: N(t) = 2000 sin(πt/2) + 3000. A common error is reading the amplitude as the maximum value instead of the half-range, or misidentifying the period from the graph.",
       "modelAnswer": "Amplitude A = (5000 − 1000)/2 = 2000 mL; midline C = 3000 mL; period = 4 s → B = 2π/4 = π/2. Equation: N(t) = 2000 sin((π/2)t) + 3000.",
       "skill": "graphing",
-      "subTopic": "Trig Identities & Equations"
+      "subTopic": "Trig Identities & Equations",
+      "difficulty": 4,
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
     },
     {
       "number": 37,
@@ -553,7 +630,9 @@ export default {
       "diveDeep": "E(t) = 2000 sin(πt) + 3200 has: amplitude 2000, midline 3200, period = 2π/π = 2 seconds. N(t) = 2000 sin((π/2)t) + 3000 has: amplitude 2000, midline 3000, period = 4 seconds. N(t) starts lower and has a longer period; E(t) oscillates twice as fast. To count intersections, set N(t) = E(t) and either graph or solve: 2000 sin((π/2)t) + 3000 = 2000 sin(πt) + 3200, which is complex but graphically shows 2 intersections in [0, 5]. A common mistake is counting touching points as intersections or missing intersections near the endpoints of the interval.",
       "modelAnswer": "E(t) = 2000 sin(πt) + 3200: amplitude 2000, midline 3200, period 2 s. Graph key points and overlay on N(t). Setting N(t) = E(t) and analyzing the graph of the 5-second interval, the two functions intersect exactly 2 times during 0 ≤ t ≤ 5.",
       "skill": "graphing",
-      "subTopic": "Trig Graphs"
+      "subTopic": "Trig Graphs",
+      "difficulty": 5,
+      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison."
     }
   ]
 }

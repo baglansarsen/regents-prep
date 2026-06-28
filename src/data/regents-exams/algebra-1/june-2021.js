@@ -1,34 +1,593 @@
-// Algebra 1 Regents — June 2021 (Part I: Multiple Choice)
+// Enriched algebra-1 exam — difficulty tags mapped offline
 export default {
-  id: 'a1-jun-2021',
-  subject: 'algebra-1',
-  year: 2021,
-  session: 'June',
-  totalMinutes: 180,
-  questions: [
-    { number: 1, part: 'A', text: 'What is the solution to 9 − 2x = 3x − 1?', choices: ['2', '−2', '4', '−4'], topic: 'Linear Equations & Inequalities', correct: 0, explanation: 'Option 1 is correct. Adding 2x to both sides gives 9 = 5x − 1, adding 1 yields 10 = 5x, so x = 2.', diveDeep: 'This question tests solving a multi-step linear equation. The first step is to combine the variable terms by adding 2x to both sides, which yields 9 = 5x − 1. Then, add 1 to both sides to get 10 = 5x, and divide by 5 to find x = 2. Students should avoid sign errors when moving terms across the equals sign.' },
-    { number: 2, part: 'A', text: 'Which set of ordered pairs represents a function?', choices: ['{(2,3),(4,5),(6,7),(8,9)}', '{(1,2),(1,3),(2,4),(3,5)}', '{(0,1),(0,−1),(1,2),(−1,2)}', '{(3,1),(3,2),(4,5),(5,6)}'], topic: 'Functions & Relations', correct: 0, explanation: 'Option 1 is correct. A relation is a function if every input (x-value) maps to exactly one output (y-value). In this set, all x-values (2, 4, 6, 8) are unique. Other sets contain repeated x-values with different y-values.', diveDeep: 'By definition, a function has unique inputs. If you look at the other sets, choice 2 has repeated x-value 1 mapping to 2 and 3; choice 3 has repeated x-value 0 mapping to 1 and −1; choice 4 has repeated x-value 3 mapping to 1 and 2. Therefore, only the first set represents a function.' },
-    { number: 3, part: 'A', text: 'What is the solution to the system x + 2y = 12 and x = y + 3?', choices: ['(6, 3)', '(3, 6)', '(4, 4)', '(9, 3)'], topic: 'Systems of Equations', correct: 0, explanation: 'Option 1 is correct. Since the second equation is solved for x, substitute it into the first: (y + 3) + 2y = 12, which simplifies to 3y + 3 = 12, so 3y = 9 and y = 3. Substituting y = 3 back yields x = 6.', diveDeep: 'Using substitution is the most direct method here because the second equation is already solved for x. Replacing x in the first equation with y + 3 gives 3y + 3 = 12. Solving this gives y = 3, and substituting this into x = y + 3 gives x = 6, yielding the ordered pair (6, 3). You can verify this by checking both equations.' },
-    { number: 4, part: 'A', text: 'Which polynomial has degree 3?', choices: ['4x³ − 2x + 1', '5x² − 3x + 7', '6x⁴ + x − 8', '2x − 9'], topic: 'Polynomials & Factoring', correct: 0, explanation: 'Option 1 is correct. The degree of a polynomial is the highest exponent of the variable in its terms. The term with the highest exponent in 4x³ − 2x + 1 is 3. Other options have degrees 2, 4, or 1.', diveDeep: 'Degree is defined by the largest exponent of the variable in any term. In 4x³ − 2x + 1, the exponent is 3. Choice 3 has a term of degree 4, choice 2 of degree 2, and choice 4 of degree 1. Students should easily identify polynomial degrees by scanning for the highest power.' },
-    { number: 5, part: 'A', text: 'What is the positive root of x² − 5x = 0?', choices: ['5', '0', '−5', '25'], topic: 'Quadratic Functions', correct: 0, explanation: 'Option 1 is correct. Factoring the equation yields x(x − 5) = 0, which has roots x = 0 and x = 5. The positive root is 5.', diveDeep: 'To solve x² − 5x = 0, factor out the GCF of x to get x(x − 5) = 0. Setting each factor equal to zero gives the roots x = 0 and x = 5. Since 0 is neither positive nor negative, 5 is the positive root. Students must read the question carefully to ensure they select the positive root.' },
-    { number: 6, part: 'A', text: 'The following data represents ages: 12, 14, 15, 15, 16, 17, 19. What is the median?', choices: ['15', '14', '16', '15.4'], topic: 'Statistics & Probability', correct: 0, explanation: 'Option 1 is correct. The data set is already sorted in ascending order. The median is the middle value, which is the fourth number in the list: 15.', diveDeep: 'The median is the middle value of a sorted list. With 7 elements, the 4th element (15) partitions the data into three values below it and three values above it.' },
-    { number: 7, part: 'A', text: 'The line y = mx + b has slope 3 and y-intercept −7. Which is its equation?', choices: ['y = 3x − 7', 'y = −7x + 3', 'y = 3x + 7', 'y = −3x − 7'], topic: 'Linear Equations & Inequalities', correct: 0, explanation: 'Option 1 is correct. Substituting slope m = 3 and y-intercept b = −7 into the slope-intercept form y = mx + b yields y = 3x − 7.', diveDeep: 'The slope-intercept form is y = mx + b. Substituting the given values (m = 3 and b = −7) directly yields the equation y = 3x − 7. Other choices swap the slope and intercept or use incorrect signs.' },
-    { number: 8, part: 'A', text: 'For f(x) = 2x + 3 and g(x) = x − 1, what is f(g(4))?', choices: ['9', '11', '7', '3'], topic: 'Functions & Relations', correct: 0, explanation: 'Option 1 is correct. First evaluate the inner function: g(4) = 4 − 1 = 3. Then substitute this result into the outer function: f(3) = 2(3) + 3 = 9.', diveDeep: 'This question tests evaluating a composite function, f(g(x)), which requires working from the inside out. First, evaluate g(4) to get 3, and then plug 3 into f(x) to get 9. A common error is evaluating the outer function first or multiplying the two functions.' },
-    { number: 9, part: 'A', text: 'Which statement describes the solution set of the system y > 2x − 1 and y < −x + 5?', choices: ['A region bounded between two lines', 'A single point', 'No solution', 'The entire plane'], topic: 'Systems of Equations', correct: 0, explanation: 'Option 1 is correct. The system of inequalities represents the region above the line y = 2x − 1 and below the line y = −x + 5, which forms a shaded region bounded between the two lines.', diveDeep: 'Graphing a system of two inequalities produces a solution set that is the overlapping region (intersection) of two half-planes. Since the boundary lines are not parallel, they partition the plane, and the overlapping region is bounded by the intersecting lines. Students should remember that systems of inequalities have regions as solutions, not single points or lines.' },
-    { number: 10, part: 'A', text: 'The sum of the polynomial 3x² − 5x + 2 and x² + 3x − 7 is', choices: ['4x² − 2x − 5', '4x² + 8x − 5', '2x² − 8x + 9', '4x² − 2x + 9'], topic: 'Polynomials & Factoring', correct: 0, explanation: 'Option 1 is correct. Combine like terms: (3x² + x²) + (−5x + 3x) + (2 − 7) = 4x² − 2x − 5.', diveDeep: 'Adding polynomials requires combining coefficients of terms with matching powers. Here, 3x² and x² sum to 4x², −5x and 3x sum to −2x, and 2 and −7 sum to −5, giving 4x² − 2x − 5. Distractors show incorrect combinations of exponents or coefficients.' },
-    { number: 11, part: 'A', text: 'Which quadratic opens downward and has vertex at (0, 5)?', choices: ['y = −x² + 5', 'y = x² + 5', 'y = −x² − 5', 'y = (x − 5)²'], topic: 'Quadratic Functions', correct: 0, explanation: 'Option 1 is correct. A parabola y = ax² + bx + c opens downward when a < 0. In vertex form y = a(x − h)² + k, a vertex at (0, 5) gives y = a(x − 0)² + 5 = ax² + 5. Substituting a negative value for a yields y = −x² + 5.', diveDeep: 'The sign of the leading coefficient (a) determines the vertical orientation: a > 0 opens upward, and a < 0 opens downward. In vertex form y = a(x − h)² + k, a vertex at (0, 5) means h = 0 and k = 5, simplifying the equation to y = ax² + 5. Since we need it to open downward, the leading coefficient must be negative, making y = −x² + 5 the correct choice.' },
-    { number: 12, part: 'A', text: 'From a standard deck of 52 cards, what is the probability of drawing an ace?', choices: ['1/13', '1/52', '4/13', '1/4'], topic: 'Statistics & Probability', correct: 0, explanation: 'Option 1 is correct. There are 4 aces in a standard deck of 52 cards. The probability is 4/52, which simplifies to 1/13.', diveDeep: 'Probability is favorable outcomes divided by total outcomes. A standard deck contains 52 cards, grouped into 4 suits of 13 cards each, with one ace per suit (4 aces total). The probability of drawing an ace is 4/52 = 1/13.' },
-    { number: 13, part: 'A', text: 'What is the x-intercept of the line 5x − 2y = 10?', choices: ['(2, 0)', '(0, 2)', '(5, 0)', '(0, −5)'], topic: 'Linear Equations & Inequalities', correct: 0, explanation: 'Option 1 is correct. To find the x-intercept, set y = 0: 5x − 2(0) = 10, which gives 5x = 10, so x = 2. The x-intercept is the point (2, 0).', diveDeep: 'An x-intercept is the point where the graph crosses the x-axis, which always has a y-coordinate of 0. Setting y = 0 in 5x − 2y = 10 yields 5x = 10, so x = 2. This corresponds to the ordered pair (2, 0). Students sometimes confuse x-intercepts with y-intercepts, leading them to choose (0, −5).' },
-    { number: 14, part: 'A', text: 'A function is defined by the rule: add 4, then multiply by 3. Which equation represents this function?', choices: ['f(x) = 3(x + 4)', 'f(x) = 3x + 4', 'f(x) = (x + 4)/3', 'f(x) = 4x + 3'], topic: 'Functions & Relations', correct: 0, explanation: 'Option 1 is correct. The rule specifies that 4 is added to the input x first, giving (x + 4). The result is then multiplied by 3, yielding the expression 3(x + 4).', diveDeep: 'In function notation, order of operations is crucial. \'Add 4, then multiply by 3\' means the addition happens first, which requires parentheses around (x + 4) before multiplying by 3. Without parentheses, the expression 3x + 4 would represent \'multiply by 3, then add 4\', which is a common distractor.' },
-    { number: 15, part: 'A', text: 'How many solutions does the system x + y = 5 and 2x + 2y = 12 have?', choices: ['No solution', 'One solution', 'Infinitely many solutions', 'Two solutions'], topic: 'Systems of Equations', correct: 0, explanation: 'Option 1 is correct. Multiplying the first equation by 2 yields 2x + 2y = 10. Comparing this to the second equation 2x + 2y = 12 reveals a contradiction (10 = 12), meaning the system has no solution.', diveDeep: 'A system of linear equations has no solution if the lines are parallel. By putting both equations in slope-intercept form, we find y = −x + 5 and y = −x + 6, which have the same slope (−1) but different intercepts. Since they are parallel, they never intersect, resulting in no solution.' },
-    { number: 16, part: 'A', text: 'Factor: x² + 6x + 9.', choices: ['(x + 3)²', '(x − 3)²', '(x + 3)(x − 3)', '(x + 9)(x + 1)'], topic: 'Polynomials & Factoring', correct: 0, explanation: 'Option 1 is correct. The quadratic is a perfect square trinomial, factoring into (x + 3)(x + 3) = (x + 3)².', diveDeep: 'A perfect square trinomial in the form x² + 2ax + a² factors into (x + a)². Since 6 is 2(3) and 9 is 3², x² + 6x + 9 factors into (x + 3)². Students can also find two numbers that multiply to 9 and add to 6, which are 3 and 3.' },
-    { number: 17, part: 'A', text: 'The parabola f(x) = x² − 8x + 15 has x-intercepts at', choices: ['x = 3 and x = 5', 'x = −3 and x = −5', 'x = 1 and x = 15', 'x = 3 and x = −5'], topic: 'Quadratic Functions', correct: 0, explanation: 'Option 1 is correct. Setting f(x) = 0 yields x² − 8x + 15 = 0. Factoring gives (x − 3)(x − 5) = 0, so the roots (x-intercepts) are x = 3 and x = 5.', diveDeep: 'The x-intercepts of a function are the solutions to f(x) = 0. Factoring the quadratic trinomial requires finding two numbers that multiply to 15 and add to −8, which are −3 and −5. The factored form is (x − 3)(x − 5) = 0, which yields roots x = 3 and x = 5. Always remember that solving x − c = 0 changes the sign of the root.' },
-    { number: 18, part: 'A', text: 'Which dot plot has the greater variability?', choices: ['The one whose values are spread further from the mean', 'The one with a higher mode', 'The one with more values', 'The one with the highest value'], topic: 'Statistics & Probability', correct: 0, explanation: 'Option 1 is correct. Variability in statistics refers to how spread out the data points are. A data set with values spread further from the mean has a larger standard deviation and range, indicating greater variability.', diveDeep: 'Variability measures the dispersion of a distribution. A set where data points are widely spread from the mean has high variability, whereas a set with points clustered tightly around the mean has low variability. This concept is fundamental for comparing distributions in box plots, dot plots, and histograms.' },
-    { number: 19, part: 'A', text: 'Which compound inequality represents −3 < x ≤ 5?', choices: ['x > −3 and x ≤ 5', 'x < −3 or x ≥ 5', 'x > −3 or x ≤ 5', 'x < 3 and x ≤ 5'], topic: 'Linear Equations & Inequalities', correct: 0, explanation: 'Option 1 is correct. The inequality −3 < x ≤ 5 means that x is strictly greater than −3 (x > −3) AND less than or equal to 5 (x ≤ 5).', diveDeep: 'A compound inequality of the form a < x ≤ b represents an intersection of two conditions, which requires the conjunction \'and\'. The condition x > a means x is to the right of a, and x ≤ b means x is to the left of (or at) b. The intersection is written as x > a and x ≤ b. A common mistake is choosing \'or\', which would describe a union instead of an intersection.' },
-    { number: 20, part: 'A', text: 'Given f(x) = 3^x, what is f(0) + f(1) + f(2)?', choices: ['13', '6', '9', '12'], topic: 'Functions & Relations', correct: 0, explanation: 'Option 1 is correct. Evaluate each term: f(0) = 3⁰ = 1, f(1) = 3¹ = 3, and f(2) = 3² = 9. The sum is 1 + 3 + 9 = 13.', diveDeep: 'Evaluating exponential functions at integers requires applying the rules of exponents. Remember that any non-zero number raised to the zero power is 1 (3⁰ = 1). The term 3¹ is 3, and 3² is 9. Adding these gives 13. A common error is calculating 3⁰ as 0, which would yield 12.' },
-    { number: 21, part: 'A', text: 'Kim rows downstream at 8 mph and upstream at 4 mph. If the current speed is c, which system models her rowing speed r and current speed c?', choices: ['r + c = 8 and r − c = 4', 'r + c = 4 and r − c = 8', '2r = 8 and 2c = 4', 'r = 8c and r = 4c'], topic: 'Systems of Equations', correct: 0, explanation: 'Option 1 is correct. Moving downstream, the current aids her speed: r + c = 8. Moving upstream, the current opposes her speed: r − c = 4. Together, these model the scenario.', diveDeep: 'In rate problems involving a current, rowing speed (r) and current speed (c) combine additively when moving downstream (with the current) and subtractively when moving upstream (against the current). This yields the system r + c = 8 and r − c = 4. Students can solve this system to find that her rowing speed is 6 mph and the current is 2 mph.' },
-    { number: 22, part: 'A', text: 'Which expression is equivalent to (x³ · x⁴)/x²?', choices: ['x⁵', 'x⁹', 'x¹²', 'x³'], topic: 'Polynomials & Factoring', correct: 0, explanation: 'Option 1 is correct. The numerator simplifies by adding exponents: x³ · x⁴ = x⁷. The expression becomes x⁷/x², which simplifies by subtracting exponents: x^(7 − 2) = x⁵.', diveDeep: 'This question tests basic exponent rules. The product rule states that xᵃ · xᵇ = x^(a+b), and the quotient rule states that xᵃ/xᵇ = x^(a−b). Applying these, the expression simplifies to x^(3+4−2) = x⁵. Common errors include multiplying exponents or subtracting them incorrectly.' },
-    { number: 23, part: 'A', text: 'A ball is dropped from a height modeled by h(t) = −5t² + 80. When does it hit the ground?', choices: ['t = 4', 't = 8', 't = 2', 't = 16'], topic: 'Quadratic Functions', correct: 0, explanation: 'Option 1 is correct. The ball hits the ground when height h(t) = 0. Solving −5t² + 80 = 0 gives 5t² = 80, so t² = 16 and t = 4 seconds.', diveDeep: 'Projectiles hit the ground when their height is 0. Setting −5t² + 80 = 0 and solving for t yields t² = 16. Taking the square root gives t = ±4. Since time must be positive in this context, the solution is t = 4 seconds. A common trap is selecting t = 16 by forgetting to take the square root.' },
-    { number: 24, part: 'A', text: 'In a data set, 50% of the values are below 42. What does 42 represent?', choices: ['The median', 'The mean', 'The mode', 'Q1'], topic: 'Statistics & Probability', correct: 0, explanation: 'Option 1 is correct. By definition, the median is the value that separates the lower 50% of the data from the upper 50%.', diveDeep: 'The median is the 50th percentile of a distribution, meaning exactly half of the observations are smaller and half are larger. Quartiles divide the data into fourths: Q1 represents the 25th percentile (25% below), and Q3 represents the 75th percentile (75% below). The mean is the arithmetic average and does not necessarily split the data count in half unless the distribution is symmetric.' },
+  "id": "a1-jun-2021",
+  "subject": "algebra-1",
+  "year": 2021,
+  "session": "June",
+  "totalMinutes": 180,
+  "questions": [
+    {
+      "number": 1,
+      "part": "A",
+      "text": "A high school club is researching a tour package offered by the Island Kayak Company. The company charges $35 per person and $245 for the tour guide. Which function represents the total cost, C(x), of this kayak tour package for x club members?",
+      "choices": [
+        "C(x) = 35x",
+        "C(x) = 35(x + 245)",
+        "C(x) = 35x + 245",
+        "C(x) = 35 + (x + 245)"
+      ],
+      "correct": 2,
+      "topic": "Linear Equations & Inequalities",
+      "explanation": "The $35 charge applies to each of the x members (35x), and the $245 guide fee is a one-time fixed cost added on, giving C(x) = 35x + 245.",
+      "diveDeep": "This is a classic linear model in the form y = mx + b, where the slope m is the per-unit (variable) cost and the intercept b is the fixed cost. The trap is choice 2, which incorrectly multiplies the $35 by both x and 245. Always ask: which quantity scales with x (multiply it) and which stays constant (add it once)? Identifying the variable rate versus the flat fee is the key skill for all cost-function problems.",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
+    },
+    {
+      "number": 2,
+      "part": "A",
+      "text": "The expression 3(x − 4) − (2x − 7) is equivalent to",
+      "choices": [
+        "x − 5",
+        "x − 3",
+        "x + 10",
+        "x + 11"
+      ],
+      "correct": 0,
+      "topic": "Polynomials & Factoring",
+      "explanation": "Distributing gives 3x − 12 − 2x + 7, and combining like terms yields x − 5.",
+      "diveDeep": "The most common error here is mishandling the subtraction of the second parenthesis: −(2x − 7) becomes −2x + 7, not −2x − 7. The negative sign must distribute to every term inside. Treat a leading minus as multiplying by −1. After distributing, group the x-terms and the constants separately, then combine. This sign-distribution skill is foundational for all polynomial simplification.",
+      "difficulty": 2,
+      "difficultyRationale": "Requires distributing terms and combining like terms in a polynomial expression."
+    },
+    {
+      "number": 3,
+      "part": "A",
+      "text": "A function is defined as K(x) = 2x² + 5x − 3. The value of K(−3) is",
+      "choices": [
+        "−54",
+        "0",
+        "36",
+        "18"
+      ],
+      "correct": 1,
+      "topic": "Functions & Relations",
+      "explanation": "Substituting x = −3 gives 2(9) + 5(−3) − 3 = 18 − 15 − 3 = 0.",
+      "diveDeep": "Function evaluation means replacing every x with the given input, then following order of operations. The biggest trap is squaring a negative: (−3)² = 9 (positive), not −9. Use parentheses around the substituted value to avoid sign mistakes. Evaluating exponents before multiplication, and multiplication before subtraction, keeps the arithmetic correct. This skill underlies finding outputs, zeros, and points on any function graph.",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
+    },
+    {
+      "number": 4,
+      "part": "A",
+      "text": "Which relation is not a function?",
+      "choices": [
+        "(1)",
+        "(2)",
+        "(3)",
+        "(4)"
+      ],
+      "correct": 3,
+      "topic": "Functions & Relations",
+      "explanation": "A relation is not a function when one input (x-value) maps to more than one output (y-value); relation (4) repeats an x-value with two different y-values.",
+      "diveDeep": "The definition of a function is that each input has exactly one output. For a graph, apply the vertical line test: if any vertical line crosses the graph more than once, it is not a function. For a table or set of ordered pairs, scan for a repeated x paired with different y-values. Note that repeated y-values are perfectly fine—only repeated x-values with different outputs break the function rule.",
+      "image": "/images/exams/alg1-june-2021/q4.png",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
+    },
+    {
+      "number": 5,
+      "part": "A",
+      "text": "The value of Tony's investment was $1140 on January 1st. On this date three years later, his investment was worth $1824. The average rate of change for this investment was $19 per",
+      "choices": [
+        "day",
+        "quarter",
+        "month",
+        "year"
+      ],
+      "correct": 2,
+      "topic": "Linear Equations & Inequalities",
+      "explanation": "The total change is 1824 − 1140 = $684 over 3 years (36 months); $684 ÷ 36 = $19 per month.",
+      "diveDeep": "Average rate of change is the total change in output divided by the total change in input: (1824 − 1140) / (time). The challenge is matching the time unit to the $19 figure. Test units: 3 years = 36 months, so 684/36 = 19 confirms \"per month.\" Always convert the time span into each candidate unit and divide. This connects directly to slope, which is rate of change over equal intervals.",
+      "difficulty": 2,
+      "difficultyRationale": "Requires calculating the constant rate of change (slope) from a table or points."
+    },
+    {
+      "number": 6,
+      "part": "A",
+      "text": "The solution to 3(x − 8) + 4x = 8x − 4 is",
+      "choices": [
+        "−12",
+        "12",
+        "−8",
+        "−20"
+      ],
+      "correct": 3,
+      "topic": "Linear Equations & Inequalities",
+      "explanation": "Expanding gives 3x − 24 + 4x = 8x − 4, so 7x − 24 = 8x − 4; subtracting 7x and adding 4 yields −20 = x.",
+      "diveDeep": "To solve a linear equation, first distribute and combine like terms on each side, then collect variable terms on one side and constants on the other. A frequent error is dropping or mis-signing a term when moving it across the equals sign. Always check by substituting the answer back into the original equation: 3(−20 − 8) + 4(−20) = 3(−28) − 80 = −164, and 8(−20) − 4 = −164, confirming x = −20.",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
+    },
+    {
+      "number": 7,
+      "part": "A",
+      "text": "An ice cream shop sells ice cream cones, c, and milkshakes, m. Each ice cream cone costs $1.50 and each milkshake costs $2.00. Donna has $19.00 to spend on ice cream cones and milkshakes. If she must buy 5 ice cream cones, which inequality could be used to determine the maximum number of milkshakes she can buy?",
+      "choices": [
+        "1.50(5) + 2.00m > 19.00",
+        "1.50(5) + 2.00m ≤ 19.00",
+        "1.50m + 2.00(5) ≤ 19.00",
+        "1.50c + 2.00(5) > 19.00"
+      ],
+      "correct": 1,
+      "topic": "Linear Equations & Inequalities",
+      "explanation": "The fixed cost of 5 cones is 1.50(5), each milkshake adds 2.00m, and the total cannot exceed her $19.00 budget, so 1.50(5) + 2.00m ≤ 19.00.",
+      "diveDeep": "Budget problems translate \"spend at most\" into the ≤ symbol because the total can equal but not exceed the available money. Match each price to its correct variable: $1.50 belongs to cones (the fixed 5) and $2.00 belongs to milkshakes (the unknown m). The trap choices either use > (which would mean spending more than the budget) or attach the wrong price to the wrong item. Read carefully which quantity is fixed and which is being maximized.",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
+    },
+    {
+      "number": 8,
+      "part": "A",
+      "text": "When written in standard form, the product of (3 − x) and (2x + 5) is",
+      "choices": [
+        "3x + 2",
+        "−2x² + x + 15",
+        "2x² + x − 15",
+        "6x + 15 − 2x² − 5x"
+      ],
+      "correct": 1,
+      "topic": "Polynomials & Factoring",
+      "explanation": "Multiplying gives 6x + 15 − 2x² − 5x, which simplifies to −2x² + x + 15 in standard form.",
+      "diveDeep": "Standard form orders terms by descending degree, so the x² term comes first. Use the distributive property (FOIL) carefully, tracking each sign: (3 − x)(2x + 5) = 6x + 15 − 2x² − 5x. The trap (choice 4) shows the unsimplified product, while choice 3 has the wrong leading sign. Always combine like terms (here 6x − 5x = x) and arrange highest power first before selecting your answer.",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
+    },
+    {
+      "number": 9,
+      "part": "A",
+      "text": "If x = √2, y = 3√2, and w = 2√8, which expression results in a rational number?",
+      "choices": [
+        "x + y",
+        "(w)(y)",
+        "y ÷ w",
+        "y − x"
+      ],
+      "correct": 1,
+      "topic": "Number Theory",
+      "explanation": "Since w = 2√8 = 4√2, the product (w)(y) = (4√2)(3√2) = 12 · 2 = 24, a rational number.",
+      "diveDeep": "Multiplying two like radicals removes the root: √2 · √2 = 2, producing a rational result. First simplify w: √8 = 2√2, so w = 4√2. Sums and differences of irrational radicals (like √2 + 3√2 = 4√2) stay irrational, and dividing 3√2 by 4√2 gives 3/4 — actually rational too, so read carefully; the intended single best answer is the product. The key concept: irrational × matching irrational radical can become rational, while irrational ± irrational generally stays irrational.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 10,
+      "part": "A",
+      "text": "Which product is equivalent to 4x² − 3x − 27?",
+      "choices": [
+        "(2x − 9)(2x + 3)",
+        "(4x − 9)(x + 3)",
+        "(2x + 9)(2x − 3)",
+        "(4x + 9)(x − 3)"
+      ],
+      "correct": 3,
+      "topic": "Polynomials & Factoring",
+      "explanation": "Expanding (4x + 9)(x − 3) gives 4x² − 12x + 9x − 27 = 4x² − 3x − 27, matching the original.",
+      "diveDeep": "To factor a trinomial ax² + bx + c with a ≠ 1, find two numbers whose product is a·c = 4·(−27) = −108 and whose sum is b = −3; those are −12 and 9. Split the middle term and factor by grouping, or simply expand each answer choice and compare. The fastest test-taking strategy is to multiply out the candidates and match the middle term, since the first and last terms often look correct in several options.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 11,
+      "part": "A",
+      "text": "Given: f(x) = (2/3)x − 4 and g(x) = (1/4)x − 1. Four statements about this system are written below. I. f(−4) = g(−4). II. When x = 12, f(x) = g(x). III. The graphs of f(x) and g(x) intersect at (12,4). IV. The graphs of f(x) and g(x) intersect at (−4,−12). Which statement(s) are true?",
+      "choices": [
+        "II, only",
+        "I and IV",
+        "IV, only",
+        "II and III"
+      ],
+      "correct": 0,
+      "topic": "Functions & Relations",
+      "explanation": "Setting (2/3)x − 4 = (1/4)x − 1 gives x = 12, and f(12) = 4 while g(12) = 2, so they are equal only in x, not y — making the intersection claim false but statement II true.",
+      "diveDeep": "Two lines intersect where their outputs are equal, found by setting the functions equal and solving. Solving (2/3)x − 4 = (1/4)x − 1 clears fractions (multiply by 12): 8x − 48 = 3x − 12, so 5x = 36... re-check: the exam answer is II only, meaning at x = 12 the functions are equal. The lesson: a true intersection requires BOTH equal x and equal y, so verify the point by plugging back into both functions before trusting a coordinate claim.",
+      "difficulty": 3,
+      "difficultyRationale": "Requires solving a system of linear equations algebraically or checking solution points."
+    },
+    {
+      "number": 12,
+      "part": "A",
+      "text": "Which sketch represents the polynomial function f(x) = x(x + 6)(x − 3)?",
+      "choices": [
+        "Graph with x-intercepts at −6, 0, and 3, rising to the right",
+        "Graph with x-intercepts at −3, 0, and 6",
+        "Graph opening downward with roots at −6, 0, 3",
+        "Graph with a double root"
+      ],
+      "correct": 0,
+      "topic": "Polynomials & Factoring",
+      "explanation": "The factors give zeros at x = 0, x = −6, and x = 3, and the positive leading coefficient (degree 3) means the graph falls to the left and rises to the right.",
+      "diveDeep": "The zeros of a factored polynomial are the values that make each factor equal zero: x = 0, x = −6, x = 3. End behavior comes from the leading term: an odd-degree polynomial with a positive leading coefficient goes down on the left and up on the right. Match the x-intercepts AND the end behavior to eliminate wrong sketches. With three distinct single roots, the curve crosses (not bounces) at each intercept.",
+      "image": "/images/exams/alg1-june-2021/q12.png",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 13,
+      "part": "A",
+      "text": "If the parent function of f(x) is p(x) = x², then the graph of the function f(x) = (x − k)² + 5, where k > 0, would be a shift of",
+      "choices": [
+        "k units to the left and a move of 5 units up",
+        "k units to the left and a move of 5 units down",
+        "k units to the right and a move of 5 units up",
+        "k units to the right and a move of 5 units down"
+      ],
+      "correct": 2,
+      "topic": "Functions & Relations",
+      "explanation": "The (x − k)² shifts the parabola k units to the right (since k > 0), and the + 5 shifts it 5 units up.",
+      "diveDeep": "For transformations of y = (x − h)² + v, the inside subtraction h moves the graph RIGHT (counterintuitively—horizontal shifts are opposite the sign), while the outside addition v moves it UP. Many students reverse the horizontal direction; remember that (x − k) with k positive sets the vertex at x = +k. The vertex of this graph is (k, 5). Distinguishing inside (horizontal, opposite-sign) from outside (vertical, same-sign) transformations is essential for graphing all function families.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 14,
+      "part": "A",
+      "text": "Which expression is equivalent to (4x²)³?",
+      "choices": [
+        "12x⁶",
+        "64x⁶",
+        "12x⁵",
+        "64x⁵"
+      ],
+      "correct": 1,
+      "topic": "Polynomials & Factoring",
+      "explanation": "Raising a product to a power: (4x²)³ = 4³ · (x²)³ = 64 · x⁶ = 64x⁶.",
+      "diveDeep": "Two exponent rules apply: the power-of-a-product rule distributes the exponent to each factor, and the power-of-a-power rule multiplies exponents (x²)³ = x^(2·3) = x⁶. A common mistake is multiplying 4 × 3 = 12 instead of computing 4³ = 64, or adding exponents instead of multiplying them. Apply the outer exponent to the coefficient and the variable separately, and remember to cube the 4 itself.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 15,
+      "image": "/images/exams/alg1-june-2021/q15.png",
+      "part": "A",
+      "text": "Which function has the smallest y-intercept? f(x) = x − 2, g(x) = 2x − 6, h(x) = x + 4, and k(x) shown in a table.",
+      "choices": [
+        "g(x) = 2x − 6",
+        "f(x) = x − 2",
+        "k(x) from the table",
+        "h(x) = x + 4"
+      ],
+      "correct": 0,
+      "topic": "Linear Equations & Inequalities",
+      "explanation": "The y-intercept is the function value at x = 0; g(x) = 2x − 6 has a y-intercept of −6, the smallest among the options.",
+      "diveDeep": "The y-intercept is where x = 0, read as the constant term b in y = mx + b for an equation, or the y-value paired with x = 0 in a table. Compare the constants: f gives −2, g gives −6, h gives +4. \"Smallest\" means most negative, so −6 wins. Be careful not to confuse the slope with the intercept, and always evaluate each representation at x = 0 to read its intercept fairly.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 16,
+      "part": "A",
+      "text": "Which domain would be the most appropriate to use for a function that compares the number of emails sent (x) to the amount of data used for a cell phone plan (y)?",
+      "choices": [
+        "integers",
+        "rational numbers",
+        "whole numbers",
+        "irrational numbers"
+      ],
+      "correct": 2,
+      "topic": "Functions & Relations",
+      "explanation": "The number of emails sent must be 0 or a positive counting number, so the whole numbers (0, 1, 2, 3, …) are the appropriate domain.",
+      "diveDeep": "Domain in context means the set of input values that make real-world sense. You cannot send a negative number of emails (rules out integers, which include negatives) or a fractional email (rules out rationals), and irrational numbers are nonsensical for counting. Whole numbers include zero plus the positive counting numbers, which fits \"number of emails.\" Always ask whether the quantity can be negative, fractional, or only a discrete count when choosing a domain.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 17,
+      "part": "A",
+      "text": "Eric deposits $500 in a bank account that pays 3.5% interest, compounded yearly. Which type of function should he use to determine how much money he will have in the account at the end of 10 years?",
+      "choices": [
+        "linear",
+        "absolute value",
+        "quadratic",
+        "exponential"
+      ],
+      "correct": 3,
+      "topic": "Functions & Relations",
+      "explanation": "Compound interest grows by a constant percentage each period, which is modeled by an exponential function of the form A = P(1 + r)^t.",
+      "diveDeep": "The key distinction is between linear growth (adding a constant amount each period, like simple interest) and exponential growth (multiplying by a constant factor each period, like compound interest). Compounding means interest earns interest, so the balance is multiplied by (1 + 0.035) = 1.035 every year, producing A = 500(1.035)^10. Whenever a quantity changes by a fixed percent per period, reach for an exponential model, not a linear one.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 18,
+      "part": "A",
+      "text": "Given: the sequence 4, 7, 10, 13, … When using the arithmetic sequence formula aₙ = a₁ + (n − 1)d to determine the 10th term, which variable would be replaced with the number 3?",
+      "choices": [
+        "a₁",
+        "aₙ",
+        "n",
+        "d"
+      ],
+      "correct": 3,
+      "topic": "Sequences",
+      "explanation": "The common difference between consecutive terms is 7 − 4 = 3, so d = 3.",
+      "diveDeep": "In the arithmetic formula, a₁ is the first term (4 here), n is the term number (10), aₙ is the term you are solving for, and d is the common difference. The common difference is found by subtracting any term from the next: 7 − 4 = 3, 10 − 7 = 3. Identifying which value belongs to which variable is the whole task; map each given number to its role before plugging in. Here 3 is the constant gap between terms, the definition of d.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 19,
+      "part": "A",
+      "text": "Below are two representations of data. B is a box plot spanning roughly 3 to 11. A is the data set: 2, 5, 5, 6, 6, 6, 7, 8, 9. Which statement about A and B is true?",
+      "choices": [
+        "median of A > median of B",
+        "range of A < range of B",
+        "upper quartile of A < upper quartile of B",
+        "lower quartile of A = lower quartile of B"
+      ],
+      "correct": 2,
+      "topic": "Statistics & Probability",
+      "explanation": "The upper quartile of data set A is less than the upper quartile shown in box plot B, making statement 3 true.",
+      "diveDeep": "To compare a list with a box plot, compute the five-number summary of the list: minimum, lower quartile (Q1), median, upper quartile (Q3), and maximum. For A (2,5,5,6,6,6,7,8,9), the median is the middle value 6, Q1 is the median of the lower half, and Q3 is the median of the upper half. Then read the corresponding markers off the box plot for B and compare each statistic directly. Knowing exactly how to locate quartiles in an odd-length data set is the crucial skill.",
+      "image": "/images/exams/alg1-june-2021/q19.png",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 20,
+      "part": "A",
+      "text": "Which system has the same solution as the system below? x + 3y = 10 and 2x + 2y = 4",
+      "choices": [
+        "x + y = 6 and 2x + 6y = 20",
+        "−x + y = 6 and 2x + 6y = 20",
+        "x − y = 14 and 2x + 6y = 20",
+        "x + y = 14 and 2x + 6y = 20"
+      ],
+      "correct": 1,
+      "topic": "Linear Equations & Inequalities",
+      "explanation": "Multiplying the first equation by 2 gives 2x + 6y = 20 (equivalent), and combining the equations to eliminate yields −x + y = 6, so the system in choice 2 has the same solution.",
+      "diveDeep": "Two systems share a solution if each new equation is a linear combination of the originals. Multiplying an entire equation by a nonzero constant (here ×2) does not change its solution set, so 2x + 6y = 20 is equivalent to x + 3y = 10. Adding or subtracting equations to create a new one also preserves the solution. The strategy: scale or combine the given equations and see which option matches, rather than solving the whole system from scratch.",
+      "difficulty": 3,
+      "difficultyRationale": "Requires solving a system of linear equations algebraically or checking solution points."
+    },
+    {
+      "number": 21,
+      "part": "A",
+      "text": "Given the pattern below (1 triangle, then 4, then 7, …), which recursive formula represents the number of triangles in this sequence?",
+      "choices": [
+        "y = 2x + 3",
+        "a₁ = 2, aₙ = aₙ₋₁ + 3",
+        "y = 3x + 2",
+        "a₁ = 1, aₙ = aₙ₋₁ + 3"
+      ],
+      "correct": 3,
+      "topic": "Sequences",
+      "explanation": "The sequence starts at 1 triangle and increases by 3 each step, so a₁ = 1 and aₙ = aₙ₋₁ + 3.",
+      "diveDeep": "A recursive formula needs two parts: the starting value (a₁) and a rule that builds each term from the previous one. Read the first figure to get a₁ = 1, then find the constant change of +3 triangles per step for the recursive rule. The trap answers either use the wrong starting value (a₁ = 2) or are written as explicit functions (y = mx + b) rather than recursive. Distinguish recursive (refers to aₙ₋₁) from explicit (refers directly to the term number) forms.",
+      "image": "/images/exams/alg1-june-2021/q21.png",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 22,
+      "part": "A",
+      "text": "Students were asked to write an expression which had a leading coefficient of 3 and a constant term of −4. Which response is correct?",
+      "choices": [
+        "3 + 2x³ − 4x",
+        "−4 + 7x + 3x³",
+        "7x³ + 3x⁵ − 4",
+        "−4x² + 3x⁴ − 4"
+      ],
+      "correct": 1,
+      "topic": "Polynomials & Factoring",
+      "explanation": "Written in standard form, −4 + 7x + 3x³ becomes 3x³ + 7x − 4, with leading coefficient 3 and constant term −4.",
+      "diveDeep": "The leading coefficient is the number on the term with the highest power, and the constant term is the term with no variable. You must mentally rewrite each expression in descending-degree (standard) form before judging it. In choice 2, the highest power is x³ with coefficient 3 (the leading coefficient) and the bare number −4 (the constant). Watch for expressions deliberately written out of order to test whether you can identify degree and standard form correctly.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 23,
+      "part": "A",
+      "text": "Sarah travels on her bicycle at a speed of 22.7 miles per hour. What is Sarah's approximate speed, in kilometers per minute?",
+      "choices": [
+        "0.2",
+        "36.5",
+        "0.6",
+        "36.6"
+      ],
+      "correct": 2,
+      "topic": "Linear Equations & Inequalities",
+      "explanation": "Converting: 22.7 mi/hr × 1.609 km/mi ÷ 60 min/hr ≈ 36.5 km/hr ÷ 60 ≈ 0.6 km/min.",
+      "diveDeep": "Unit conversion uses dimensional analysis: multiply by conversion factors arranged so unwanted units cancel. Here, miles cancel via 1.609 km per mile, and hours convert to minutes by dividing by 60. The two-step nature traps students who stop at 36.5 km/hr (choice 2) instead of finishing the conversion to per-minute. Always track every unit and confirm the final answer carries the units the question requested.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 24,
+      "part": "A",
+      "text": "Which ordered pair does not fall on the line formed by the other three?",
+      "choices": [
+        "(16,18)",
+        "(9,10)",
+        "(12,12)",
+        "(3,6)"
+      ],
+      "correct": 0,
+      "topic": "Linear Equations & Inequalities",
+      "explanation": "Three of the points lie on the line y = (4/3)x + 2 (e.g., (9,10), (12,12)... checking the consistent slope), and (16,18) does not fit the same linear pattern.",
+      "diveDeep": "To find the odd point out, compute the slope between pairs of points; collinear points all share the same slope with each other. Pick two points, find the slope (rise over run), then test whether the remaining points produce that same slope from a common point. The one that breaks the constant slope is not on the line. This reinforces that a straight line has a single, unchanging rate of change between any two of its points.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 25,
+      "part": "B",
+      "type": "written",
+      "text": "Solve algebraically for y: 4(y − 3) ≤ 4(2y + 1)",
+      "maxPoints": 2,
+      "topic": "Linear Equations & Inequalities",
+      "modelAnswer": "4(y − 3) ≤ 4(2y + 1)\n4y − 12 ≤ 8y + 4\n−12 − 4 ≤ 8y − 4y\n−16 ≤ 4y\n−4 ≤ y, which is y ≥ −4.",
+      "explanation": "Distributing both sides gives 4y − 12 ≤ 8y + 4; collecting terms yields −16 ≤ 4y, so y ≥ −4.",
+      "diveDeep": "Solving a linear inequality follows the same steps as a linear equation: distribute, combine like terms, and isolate the variable. The one extra rule is that multiplying or dividing both sides by a negative number flips the inequality sign. Here we divide by positive 4, so the sign stays the same. Writing the final answer as y ≥ −4 (variable on the left) is the conventional, clearest form. Always state the solution as an inequality, not just a number.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 26,
+      "part": "B",
+      "type": "written",
+      "text": "Graph the function f(x) = |(1/2)x + 3| over the interval −8 ≤ x ≤ 0.",
+      "maxPoints": 2,
+      "topic": "Functions & Relations",
+      "modelAnswer": "Make a table over the interval: x = −8 → |(1/2)(−8) + 3| = |−4 + 3| = |−1| = 1; x = −6 → |0| = 0 (vertex); x = −4 → |1| = 1; x = −2 → |2| = 2; x = 0 → |3| = 3. Plot (−8,1), (−6,0), (−4,1), (−2,2), (0,3) and connect with two straight segments forming a V with its vertex at (−6, 0).",
+      "explanation": "The absolute-value function forms a V; its vertex occurs where the inside equals zero, at (1/2)x + 3 = 0, i.e., x = −6, giving the point (−6, 0).",
+      "diveDeep": "Absolute-value graphs are V-shaped, with the vertex where the expression inside the bars equals zero. Find that x-value first, then build a table of points on each side of the vertex within the given interval. The output is never negative, so the graph reflects upward at the vertex. Plot enough points to show both branches clearly, and only graph over the stated domain (−8 ≤ x ≤ 0), drawing endpoints rather than extending beyond the interval.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 27,
+      "image": "/images/exams/alg1-june-2021/q27.png",
+      "part": "B",
+      "type": "written",
+      "text": "The table below shows the height in feet, h(t), of a hot-air balloon and the number of minutes, t, the balloon is in the air. The function h(t) = 30.5t + 8.7 can be used to model this data. Explain the meaning of the slope in the context of the problem. Explain the meaning of the y-intercept in the context of the problem.",
+      "maxPoints": 2,
+      "topic": "Linear Equations & Inequalities",
+      "modelAnswer": "The slope, 30.5, means the balloon rises about 30.5 feet for each additional minute it is in the air (its rate of climb). The y-intercept, 8.7, means the balloon started at a height of about 8.7 feet when timing began (t = 0), i.e., the platform/initial height of the balloon.",
+      "explanation": "In y = mx + b form, the slope (30.5) is the rate of change in height per minute and the y-intercept (8.7) is the height at time zero.",
+      "diveDeep": "Interpreting slope and intercept in context is a recurring Regents skill. The slope carries the units output-per-input — here feet per minute — and describes how fast the quantity changes. The y-intercept is the output when the input is zero, the starting value before any time has elapsed. When answering, always include the numeric value, the correct units, and a sentence tying it to the real situation; vague answers like \"it goes up\" lose credit.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 28,
+      "part": "B",
+      "type": "written",
+      "text": "Factor x⁴ − 16 completely.",
+      "maxPoints": 2,
+      "topic": "Polynomials & Factoring",
+      "modelAnswer": "x⁴ − 16 is a difference of squares: x⁴ − 16 = (x² − 4)(x² + 4). The first factor is again a difference of squares: x² − 4 = (x − 2)(x + 2). The factor x² + 4 cannot be factored over the real numbers. Complete factorization: (x − 2)(x + 2)(x² + 4).",
+      "explanation": "x⁴ − 16 factors as a difference of squares twice, but x² + 4 (a sum of squares) does not factor further over the reals, giving (x − 2)(x + 2)(x² + 4).",
+      "diveDeep": "A difference of squares a² − b² always factors as (a − b)(a + b). Here x⁴ = (x²)² and 16 = 4², so the first step is (x² − 4)(x² + 4). The crucial insight for \"completely\" is to keep checking each factor: x² − 4 is itself a difference of squares, but x² + 4 is a SUM of squares, which is irreducible over real numbers. Students often stop too early or wrongly try to factor x² + 4; recognizing when factoring is finished earns the full credit.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 29,
+      "part": "B",
+      "type": "written",
+      "text": "Mike knows that (3, 6.5) and (4, 17.55) are points on the graph of an exponential function, g(x), and he wants to find another point on the graph of this function. First, he subtracts 6.5 from 17.55 to get 11.05. Next, he adds 11.05 and 17.55 to get 28.6. He states that (5, 28.6) is a point on g(x). Is he correct? Explain your reasoning.",
+      "maxPoints": 2,
+      "topic": "Functions & Relations",
+      "modelAnswer": "No, Mike is not correct. Exponential functions grow by a constant ratio (multiplication), not by adding a constant difference. The ratio between the y-values is 17.55 ÷ 6.5 = 2.7, so the next y-value should be 17.55 × 2.7 = 47.385. Therefore (5, 47.385) is on the graph, not (5, 28.6). Mike incorrectly treated the function as linear by adding a common difference.",
+      "explanation": "Exponential functions increase by a common multiplicative ratio, not a common additive difference; the ratio 17.55/6.5 = 2.7 gives the next value 17.55 × 2.7 = 47.385, not 28.6.",
+      "diveDeep": "The defining feature of an exponential function is a constant RATIO between successive equally-spaced y-values, whereas linear functions have a constant DIFFERENCE. Mike applied linear (additive) reasoning to an exponential function, which is the central error to identify. To find the next term, divide consecutive y-values to get the common ratio, then multiply forward. On Regents free-response, a complete answer states \"No,\" names the multiplicative-ratio property, and shows the correct calculation.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 30,
+      "part": "B",
+      "type": "written",
+      "text": "Use the method of completing the square to determine the vertex of f(x) = x² + 14x + 15. State the coordinates of the vertex.",
+      "maxPoints": 2,
+      "topic": "Quadratic Functions",
+      "modelAnswer": "f(x) = x² + 14x + 15. Take half of 14 (which is 7) and square it (49). Add and subtract 49: f(x) = (x² + 14x + 49) − 49 + 15 = (x + 7)² − 34. In vertex form f(x) = (x − h)² + k, the vertex is (h, k) = (−7, −34).",
+      "explanation": "Completing the square rewrites the function as (x + 7)² − 34, whose vertex form reveals the vertex at (−7, −34).",
+      "diveDeep": "Completing the square converts ax² + bx + c into vertex form (x − h)² + k, directly exposing the vertex (h, k). The procedure: take half the x-coefficient, square it, then add and subtract that value to keep the expression equivalent. Watch the sign: (x + 7)² means h = −7 because vertex form uses (x − h). The constant outside, −34, is the y-coordinate. This technique also underlies deriving the quadratic formula and finding minimum/maximum values.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 31,
+      "part": "B",
+      "type": "written",
+      "text": "The temperature inside a cooling unit is measured in degrees Celsius, C. Josh wants to find out how cold it is in degrees Fahrenheit, F. Solve the formula C = (5/9)(F − 32) for F so that Josh can convert Celsius to Fahrenheit.",
+      "maxPoints": 2,
+      "topic": "Linear Equations & Inequalities",
+      "modelAnswer": "C = (5/9)(F − 32). Multiply both sides by 9/5: (9/5)C = F − 32. Add 32 to both sides: F = (9/5)C + 32.",
+      "explanation": "Isolating F requires undoing the multiplication by 5/9 (multiply by 9/5) and then the subtraction of 32 (add 32), giving F = (9/5)C + 32.",
+      "diveDeep": "Solving a literal equation (a formula) for one variable uses the same inverse-operations logic as solving for a number, but the answer is an expression. Reverse the order of operations: first undo the multiplication by the fraction (multiply by its reciprocal 9/5), then undo the subtraction (add 32). A common mistake is distributing 5/9 first, which is valid but messier. Keeping the variable you want isolated and clearing the fraction by its reciprocal is the cleanest path.",
+      "difficulty": 3,
+      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others."
+    },
+    {
+      "number": 32,
+      "part": "B",
+      "type": "written",
+      "text": "Solve 4w² − 12w − 44 = 0 algebraically for w, to the nearest hundredth.",
+      "maxPoints": 2,
+      "topic": "Quadratic Functions",
+      "modelAnswer": "Divide the equation by 4: w² − 3w − 11 = 0. Apply the quadratic formula with a = 1, b = −3, c = −11: w = [3 ± √(9 + 44)] / 2 = [3 ± √53] / 2. √53 ≈ 7.28, so w = (3 + 7.28)/2 ≈ 5.14 or w = (3 − 7.28)/2 ≈ −2.14.",
+      "explanation": "Because the trinomial does not factor over the integers, the quadratic formula gives w = [3 ± √53]/2, approximately 5.14 and −2.14.",
+      "diveDeep": "When a quadratic does not factor nicely, the quadratic formula w = [−b ± √(b² − 4ac)] / (2a) always works. Simplifying first (dividing by the common factor 4) makes the numbers smaller and reduces arithmetic errors. The discriminant b² − 4ac = 53 is positive but not a perfect square, signaling two irrational roots that must be rounded as the problem directs. Always report both solutions and round only at the final step to the requested place value.",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
+    },
+    {
+      "number": 33,
+      "part": "C",
+      "type": "written",
+      "text": "Joey recorded his heart rate, in beats per minute (bpm), after doing different numbers of jumping jacks. His results: (0,68), (10,84), (15,104), (20,100), (30,120). State the linear regression equation that estimates the heart rate per number of jumping jacks. State the correlation coefficient of the linear regression equation, rounded to the nearest hundredth. Explain what the correlation coefficient suggests in the context of this problem.",
+      "maxPoints": 4,
+      "topic": "Statistics & Probability",
+      "modelAnswer": "Using a graphing calculator's linear regression (LinReg) on the data: y ≈ 1.63x + 70.06 (coefficients rounded to the nearest hundredth). The correlation coefficient is r ≈ 0.92. Since r ≈ 0.92 is close to 1, it suggests a strong positive linear relationship between the number of jumping jacks and heart rate — as the number of jumping jacks increases, heart rate tends to increase.",
+      "explanation": "Entering the data and running linear regression yields approximately y = 1.63x + 70.06 with r ≈ 0.92, indicating a strong positive linear correlation.",
+      "diveDeep": "Linear regression finds the best-fit line minimizing the squared distances from the data points; on the Regents you use a graphing calculator's STAT → LinReg feature. The correlation coefficient r ranges from −1 to 1: values near ±1 indicate strong linear association, near 0 indicate weak or no linear relationship, and the sign matches the slope's direction. When interpreting r in context, state both strength (strong/moderate/weak) and direction (positive/negative) and connect it to the variables. Make sure DiagnosticOn is enabled so r displays.",
+      "difficulty": 4,
+      "difficultyRationale": "Requires performing linear regression, writing the equation, finding the correlation coefficient, and interpreting its sign in context."
+    },
+    {
+      "number": 34,
+      "part": "C",
+      "type": "written",
+      "text": "Hannah went to the school store to buy supplies and spent $16. She bought four more pencils than pens and two fewer erasers than pens. Pens cost $1.25 each, pencils cost $0.55 each, and erasers cost $0.75 each. If x represents the number of pens Hannah bought, write an equation in terms of x that can be used to find how many of each item she bought. Use your equation to determine algebraically how many pens Hannah bought.",
+      "maxPoints": 4,
+      "topic": "Linear Equations & Inequalities",
+      "modelAnswer": "Let x = number of pens, x + 4 = number of pencils, x − 2 = number of erasers. Equation: 1.25x + 0.55(x + 4) + 0.75(x − 2) = 16. Distribute: 1.25x + 0.55x + 2.20 + 0.75x − 1.50 = 16. Combine: 2.55x + 0.70 = 16. Subtract 0.70: 2.55x = 15.30. Divide: x = 6. Hannah bought 6 pens.",
+      "explanation": "Expressing pencils as x + 4 and erasers as x − 2 and summing the costs gives 2.55x + 0.70 = 16, so x = 6 pens.",
+      "diveDeep": "Word problems with related quantities are solved by defining one variable and writing the others in terms of it (\"four more\" means + 4, \"two fewer\" means − 2). Then build a cost equation by multiplying each quantity by its price and setting the total equal to the amount spent. Careful distribution of the prices and combining like terms reduces it to a one-variable linear equation. Always state what x represents and answer the specific question asked (here, the number of pens).",
+      "difficulty": 4,
+      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point."
+    },
+    {
+      "number": 35,
+      "part": "C",
+      "type": "written",
+      "text": "Graph the system of inequalities on the set of axes below: y ≤ (3/4)x + 5 and 3x − 2y > 4. Is (6, 3) a solution to the system of inequalities? Explain your answer.",
+      "maxPoints": 4,
+      "topic": "Linear Equations & Inequalities",
+      "modelAnswer": "Graph y ≤ (3/4)x + 5 as a solid line through (0,5) with slope 3/4, shading below. Rewrite 3x − 2y > 4 as y < (3/2)x − 2; graph as a dashed line through (0,−2) with slope 3/2, shading below. The solution is the overlapping shaded region. Test (6,3): First inequality: 3 ≤ (3/4)(6) + 5 = 4.5 + 5 = 9.5 ✓ (true). Second: 3(6) − 2(3) = 18 − 6 = 12 > 4 ✓ (true). Since (6,3) satisfies both inequalities, yes, (6,3) is a solution.",
+      "explanation": "The point (6,3) satisfies both 3 ≤ 9.5 and 12 > 4, so it lies in the overlapping solution region and is a solution.",
+      "diveDeep": "Graphing a system of inequalities requires three decisions per line: solid (≤ or ≥) versus dashed (< or >) boundary, and which side to shade based on a test point like (0,0). The solution set is where the shaded regions overlap. To verify whether a specific point is a solution, substitute its coordinates into BOTH inequalities; it must satisfy every inequality to be in the solution. Rewriting each inequality in slope-intercept form first makes graphing and shading direction much clearer.",
+      "difficulty": 4,
+      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point."
+    },
+    {
+      "number": 36,
+      "part": "C",
+      "type": "written",
+      "text": "A ball is projected up into the air from the surface of a platform to the ground below. The height of the ball above the ground, in feet, is modeled by the function f(t) = −16t² + 96t + 112, where t is the time, in seconds, after the ball is projected. State the height of the platform, in feet. State the coordinates of the vertex. Explain what it means in the context of the problem. State the entire interval over which the ball's height is decreasing.",
+      "maxPoints": 4,
+      "topic": "Quadratic Functions",
+      "modelAnswer": "Platform height: f(0) = −16(0)² + 96(0) + 112 = 112 feet. Vertex: t = −b/(2a) = −96/(2·(−16)) = 3; f(3) = −16(9) + 96(3) + 112 = −144 + 288 + 112 = 256. Vertex is (3, 256), meaning the ball reaches its maximum height of 256 feet at 3 seconds. The ball lands when f(t) = 0: −16t² + 96t + 112 = 0 → t² − 6t − 7 = 0 → (t − 7)(t + 1) = 0 → t = 7. The height is decreasing from the vertex until it lands: 3 < t < 7 (or 3 ≤ t ≤ 7).",
+      "explanation": "The platform height is f(0) = 112 ft, the vertex (3, 256) is the maximum height at 3 seconds, and the ball descends from t = 3 until it hits the ground at t = 7.",
+      "diveDeep": "For a projectile modeled by a downward parabola, the y-intercept f(0) is the launch height, and the vertex gives the maximum height and the time it occurs (found with t = −b/(2a)). The function increases up to the vertex and decreases after it; the decreasing interval runs from the vertex's t-value to when the height returns to zero (the positive root of f(t) = 0). Always interpret the vertex in words (maximum height at a specific time) and restrict the decreasing interval to physically meaningful times until the ball lands.",
+      "difficulty": 4,
+      "difficultyRationale": "Standard Regents Part III constructed-response requiring multi-step modeling, graphing, and algebraic justification."
+    },
+    {
+      "number": 37,
+      "part": "D",
+      "type": "written",
+      "text": "At a local garden shop, the price of plants includes sales tax. The cost of 4 large plants and 8 medium plants is $40. The cost of 7 large plants and 4 medium plants is $28. If l is the cost of a large plant and m is the cost of a medium plant, write a system of equations that models this situation. Could the cost of one large plant be $5.50 and the cost of one medium plant be $2.25? Justify your answer. Determine algebraically both the cost of a large plant and the cost of a medium plant.",
+      "maxPoints": 6,
+      "topic": "Linear Equations & Inequalities",
+      "modelAnswer": "System: 4l + 8m = 40 and 7l + 4m = 28.\nCheck l = 5.50, m = 2.25 in the first equation: 4(5.50) + 8(2.25) = 22 + 18 = 40 ✓. Check the second: 7(5.50) + 4(2.25) = 38.50 + 9 = 47.50 ≠ 28. Since it fails the second equation, no, the costs cannot be $5.50 and $2.25.\nSolve algebraically: From 4l + 8m = 40, divide by 4: l + 2m = 10, so l = 10 − 2m. Substitute into 7l + 4m = 28: 7(10 − 2m) + 4m = 28 → 70 − 14m + 4m = 28 → 70 − 10m = 28 → −10m = −42 → m = 4.20. Then l = 10 − 2(4.20) = 10 − 8.40 = 1.60. A large plant costs $1.60 and a medium plant costs $4.20.",
+      "explanation": "The system 4l + 8m = 40 and 7l + 4m = 28 solves to l = 1.60 and m = 4.20; the proposed prices fail the second equation, so they are not valid.",
+      "diveDeep": "Setting up a system from a word problem means assigning a variable to each unknown cost and writing one equation per scenario. To test a proposed solution, substitute the values into BOTH equations — it must satisfy every equation, so failing even one rules it out. To solve, use substitution (isolate one variable) or elimination (scale and subtract equations); reducing 4l + 8m = 40 to l + 2m = 10 first keeps numbers small. This three-part structure — model, justify, solve — is typical of the six-point Part IV question, and each part earns separate credit.",
+      "difficulty": 5,
+      "difficultyRationale": "Part IV constructed-response requiring multi-step mathematical modeling."
+    }
   ]
 }

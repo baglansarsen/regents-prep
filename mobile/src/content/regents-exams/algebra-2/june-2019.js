@@ -1,4 +1,4 @@
-// Enriched Algebra 2 exam — tagged with skill + subTopic (see content/_shared/lessonEngine.js)
+// Algebra 2 Regents — June 2019
 export default {
   "id": "a2-jun-2019",
   "subject": "algebra-2",
@@ -21,7 +21,9 @@ export default {
       "explanation": "The sociologist only observes and records behavior without imposing any treatment or interviewing subjects, which is the definition of an observational study.",
       "diveDeep": "The four study types differ by how data is gathered. A census collects data from every member of a population; a sample survey asks questions of a subset; an experiment imposes a treatment and measures the response. An observational study simply watches and records naturally occurring behavior without intervention — exactly what happens here. A common mistake is calling this an experiment, but no treatment is being applied, so causation cannot be established.",
       "skill": "modeling",
-      "subTopic": "Sampling & Studies"
+      "subTopic": "Sampling & Studies",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 2,
@@ -37,7 +39,9 @@ export default {
       "correct": 3,
       "explanation": "Correctly expanded, (x − y)² = x² − 2xy + y² and (x − y)³ = x³ − 3x²y + 3xy² − y³, so neither given statement matches.",
       "diveDeep": "These are binomial-expansion identities. Squaring a binomial always produces a middle cross term (−2xy), so the \"difference of squares\" shortcut x² − y² is wrong for (x − y)². The cube expands using the binomial theorem with coefficients 1, 3, 3, 1. A frequent error is dropping the cross terms or forgetting that each term must carry the correct power of both variables. Always expand fully rather than relying on a half-remembered pattern.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 3,
@@ -53,7 +57,9 @@ export default {
       "correct": 2,
       "explanation": "Setting 3x + 6 = (x − 4)² − 10 gives x² − 11x + 0 → x = 0 or x = 5, but only x = 5 yields a consistent point (5, 21); the value (0,6) does not satisfy the parabola, so the verified solution is {(5,21)}.",
       "diveDeep": "To solve a linear-quadratic system, substitute the line into the quadratic and solve the resulting quadratic equation. Setting 3x + 6 = (x − 4)² − 10 expands to 3x + 6 = x² − 8x + 6, so 0 = x² − 11x, giving x = 0 or x = 11... carefully re-substitute each candidate into BOTH equations to discard extraneous values. The key lesson: always verify candidate solutions in the original equations, because algebraic manipulation can introduce points that fit one equation but not the other.",
-      "subTopic": "Systems & Inequalities"
+      "subTopic": "Systems & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 4,
@@ -71,7 +77,9 @@ export default {
       "diveDeep": "This question tests the inverse relationship between time and speed: speed = distance ÷ time. A shorter time over a fixed distance (one mile) means a higher speed. Students often confuse the decreasing graph (time going down) with decreasing speed, but the two move in opposite directions. When interpreting rate graphs, always pin down exactly what the y-axis measures and translate it into the quantity the question asks about.",
       "image": "/images/exams/alg2-june-2019/q4.png",
       "skill": "graphing",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 5,
@@ -87,7 +95,9 @@ export default {
       "correct": 3,
       "explanation": "This is a geometric series with a₁ = 85,000 and r = 1.06; the 7-year sum S₇ = 85000(1 − 1.06⁷)/(1 − 1.06) ≈ $713,476.20.",
       "diveDeep": "A constant percentage increase each period creates a geometric sequence with ratio r = 1 + rate. To total all the terms, use the geometric series formula Sₙ = a₁(1 − rⁿ)/(1 − r). A common mistake is using a1·r^n (a single future value) instead of summing all seven years, or treating the 6% as simple/arithmetic growth. Distinguish \"value after n years\" (one term) from \"total over n years\" (a series sum).",
-      "subTopic": "Sequences"
+      "subTopic": "Sequences",
+      "difficulty": 2,
+      "difficultyRationale": "Basic sequence parameter determination."
     },
     {
       "number": 6,
@@ -105,7 +115,9 @@ export default {
       "diveDeep": "Reading an exponential from a graph means identifying the y-intercept (the \"a\" in a·bˣ) and the growth factor (how y multiplies over a fixed x-step). Here values double, indicating base 2, while the vertical stretch is 5. Eliminate choices that are linear (2x) or that produce negative outputs (5(−2ˣ)), since the graph is positive and increasing. Always check a known point against each candidate equation.",
       "image": "/images/exams/alg2-june-2019/q6.png",
       "skill": "graphing",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 7,
@@ -121,7 +133,9 @@ export default {
       "correct": 3,
       "explanation": "By the Factor Theorem, (x − a) is a factor only when P(a) = 0; here P(−1) = −1 − 3 + 2 + 4 = ... = 0, so (x + 1) is a factor.",
       "diveDeep": "The Factor Theorem states (x − a) divides P(x) exactly when P(a) = 0 (a remainder of zero). The matching Remainder Theorem says P(a) equals the remainder when dividing by (x − a). The crucial point is that a NONZERO value like P(1) = 2 proves (x − 1) is NOT a factor. Watch the sign: the factor (x + 1) corresponds to the root a = −1, not +1. Always evaluate at the value that makes the factor zero.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 8,
@@ -137,7 +151,9 @@ export default {
       "correct": 0,
       "explanation": "Applying the power-of-a-power rule, (x^(1/2))² = x¹ = x, which is not equal to √(4x) = 2√x, so that statement is false while the others correctly convert rational exponents to radicals.",
       "diveDeep": "Rational exponents and radicals are interchangeable: x^(m/n) = ⁿ√(xᵐ). The power-of-a-power rule multiplies exponents, (xᵃ)ᵇ = x^(ab). Each true choice simply rewrites a rational-exponent expression as an equivalent radical. The false choice introduces an extra factor of 4 inside the radical that the exponent rules never produce. When checking such identities, convert everything to a single form (all rational exponents) and compare exponents directly.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 9,
@@ -153,7 +169,9 @@ export default {
       "correct": 1,
       "explanation": "Swapping x and y gives x = 4y − 5, and solving for y yields y = (1/4)x + 5/4, the inverse function.",
       "diveDeep": "To find an inverse, swap x and y, then solve for y. Inverses undo each other, so the slope reciprocates and the operations reverse order. A common error is confusing the inverse function with the reciprocal 1/f(x); the choice 1/(4x − 5) is that distractor. Another error is forgetting to divide the constant term by the coefficient when isolating y, which is why the sign and the 5/4 term matter here.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 10,
@@ -170,7 +188,9 @@ export default {
       "explanation": "A repeated 5% weekly increase multiplies each term by a constant factor of 1.05, which defines a geometric sequence.",
       "diveDeep": "Geometric sequences grow by MULTIPLYING by a common ratio each step, while arithmetic sequences grow by ADDING a common difference. The tell-tale phrase \"increase by 5% per week\" signals a constant multiplier (×1.05). The other choices all involve adding or subtracting fixed amounts ($12.50, 2°, $15.00), which are arithmetic. When classifying real-world scenarios, ask whether the change is a fixed amount (arithmetic) or a fixed percentage/factor (geometric).",
       "skill": "modeling",
-      "subTopic": "Sequences"
+      "subTopic": "Sequences",
+      "difficulty": 3,
+      "difficultyRationale": "Standard modeling of a recursive sequence."
     },
     {
       "number": 11,
@@ -186,7 +206,9 @@ export default {
       "correct": 1,
       "explanation": "Grouping the polynomial factors to (n² − 9)(n² + 4n − 12), and each quadratic factors further into (n + 3)(n − 3)(n + 6)(n − 2).",
       "diveDeep": "Factoring a degree-4 polynomial often works by grouping terms to reveal a common binomial, here producing a product of two quadratics. Then factor each quadratic: n² − 9 is a difference of squares (n + 3)(n − 3), and n² + 4n − 12 factors to (n + 6)(n − 2). A common mistake is stopping after the first factoring step or mismatching signs when splitting the middle term. \"Completely factored\" means every factor is irreducible over the integers, so always keep factoring until you cannot anymore.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 12,
@@ -202,7 +224,9 @@ export default {
       "correct": 3,
       "explanation": "Factoring gives w(x² + 1) = 0; since w ≠ 0, x² = −1, so x = ±i, an imaginary number.",
       "diveDeep": "When a quadratic has no real solutions, the answers are complex. Here x² + 1 = 0 leads to x² = −1, and the square root of −1 is the imaginary unit i, so x = ±i. The positive integer w simply factors out and cannot equal zero, so it does not affect the roots. A common error is concluding \"no solution\"; over the complex numbers there are always solutions, and a negative under the square root signals imaginary results.",
-      "subTopic": "Complex Operations"
+      "subTopic": "Complex Operations",
+      "difficulty": 2,
+      "difficultyRationale": "Basic complex number arithmetic and simplification."
     },
     {
       "number": 13,
@@ -220,7 +244,9 @@ export default {
       "diveDeep": "For an approximately normal distribution, the Empirical Rule places about 95% of data within 2 standard deviations of the mean. So the interval is mean ± 2·SD. A common mistake is using only 1 SD (which captures ~68%) or mis-multiplying the standard deviation. Compute the margin (2 × 0.060 = 0.120) first, then add and subtract from the mean. This margin-of-error logic underlies confidence intervals and plausibility checks against a claimed value (0.24 here falls inside, so the claim is plausible).",
       "image": "/images/exams/alg2-june-2019/q13.png",
       "skill": "graphing",
-      "subTopic": "Normal Distribution"
+      "subTopic": "Normal Distribution",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 14,
@@ -237,7 +263,9 @@ export default {
       "explanation": "At x = 8.52 the tables give f(8.52) = 2.53 and g(8.52) = 2.53, so the outputs are equal, making x = 8.52 a solution to f(x) = g(x).",
       "diveDeep": "Solving f(x) = g(x) means finding an input where both functions produce the SAME output. Scan the tables for an x-value whose f and g entries match. A frequent error is choosing an x where one function’s output equals the other function’s INPUT, or picking a matching output value rather than the input that produces it. The intersection of two graphs corresponds exactly to such shared (x, y) points.",
       "image": "/images/exams/alg2-june-2019/q14.png",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 15,
@@ -253,7 +281,9 @@ export default {
       "correct": 0,
       "explanation": "Expanding (3x − 2i)² = 9x² − 12xi + 4i² = 9x² − 12xi − 4, then adding 6 gives 9x² − 12xi + 2.",
       "diveDeep": "Squaring a complex binomial uses (a − b)² = a² − 2ab + b², but the key twist is i² = −1. So the (−2i)² term becomes 4i² = −4, not +4. A very common mistake is forgetting to replace i² with −1, which leaves an erroneous +4 and the wrong constant. After simplifying the i² terms, combine the real constants (−4 + 6 = 2) while keeping the imaginary term −12xi separate.",
-      "subTopic": "Complex Operations"
+      "subTopic": "Complex Operations",
+      "difficulty": 2,
+      "difficultyRationale": "Basic complex number arithmetic and simplification."
     },
     {
       "number": 16,
@@ -270,7 +300,9 @@ export default {
       "explanation": "The equation x − 20/x = 8 multiplies to x² − 8x − 20 = 0, which factors as (x − 10)(x + 2) = 0, giving x = 10 or x = −2.",
       "diveDeep": "Translate the words into an equation: the number is x, its reciprocal is 1/x, so x − 20·(1/x) = 8. Clear the fraction by multiplying every term by x, producing the quadratic x² − 8x − 20 = 0. Factor or use the quadratic formula to find both roots. A common mistake is mishandling the reciprocal term or dropping one of the two solutions; quadratics typically yield two answers, both of which should be checked in the original wording.",
       "skill": "modeling",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 17,
@@ -287,7 +319,9 @@ export default {
       "explanation": "As compounding frequency n grows without bound, the compound-interest formula approaches the continuous-growth model S(t) = 50e^(0.02t).",
       "diveDeep": "The limit of (1 + r/n)^(nt) as n → ∞ is e^(rt); this is the definition of continuous compounding. So more frequent compounding nudges the account value toward the natural-exponential model with the same rate. Choice (4) is true only as a literal substitution when n = 1, but it is phrased as an \"approaches\" limit, which is the wrong concept. Understanding the connection between discrete compounding and e is central to exponential growth problems.",
       "skill": "modeling",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard application of exponential modeling."
     },
     {
       "number": 18,
@@ -304,7 +338,9 @@ export default {
       "explanation": "By the Empirical Rule about 99.7% of a normal distribution lies within 3 standard deviations, and 0.997 × 400 ≈ 399, which is closest to 380... the best available estimate.",
       "diveDeep": "The Empirical (68–95–99.7) Rule gives the proportion of normally distributed data within 1, 2, and 3 standard deviations of the mean. Within 3 SDs lies ~99.7% of the data. Multiply that percentage by the population size (400) to count students, rather than treating the percentage as a raw count. A common mistake is confusing the 1-SD (68%) or 2-SD (95%) figure with the 3-SD figure; match the number of standard deviations to the correct percentage.",
       "skill": "modeling",
-      "subTopic": "Normal Distribution"
+      "subTopic": "Normal Distribution",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 19,
@@ -320,7 +356,9 @@ export default {
       "correct": 3,
       "explanation": "Squaring gives b² − 64... but in the original equation √(2b² − 64) = b, squaring yields 2b² − 64 = b² → b² = 64 → b = ±8, and checking shows only the value satisfying the radical survives; in the intended problem the candidate is extraneous, leaving the empty set { }.",
       "diveDeep": "Radical equations require squaring both sides, which can introduce EXTRANEOUS solutions, so every candidate must be checked in the original equation. A value that makes the right side negative cannot equal a principal (nonnegative) square root and must be rejected. When all candidates fail the check, the solution set is empty, { }. The habit to build: solve, then substitute back, and discard any answer that breaks the original radical.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 20,
@@ -337,7 +375,9 @@ export default {
       "explanation": "The correct table shows y-values that change by a constant MULTIPLICATIVE factor for each equal step in x, the defining feature of exponential growth.",
       "diveDeep": "To identify an exponential relationship from a table, check the RATIO of consecutive y-values: if it is constant, the data is exponential. Contrast this with linear data, where the DIFFERENCE of consecutive y-values is constant. A common mistake is testing differences instead of ratios. Make sure the x-values increase by equal steps before comparing, otherwise the constant-ratio test is invalid.",
       "image": "/images/exams/alg2-june-2019/q20.png",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 21,
@@ -355,7 +395,9 @@ export default {
       "diveDeep": "A polynomial’s factors encode its roots: a root at x = r corresponds to factor (x − r), so a root at a negative value −a appears as (x + a). The MULTIPLICITY of a root controls graph behavior: odd multiplicity crosses the x-axis, even multiplicity (like a squared factor) touches and turns back. Match each visible x-intercept to its factor and decide whether the graph crosses or bounces to set the exponent. Sign errors on negative roots are the most common pitfall.",
       "image": "/images/exams/alg2-june-2019/q21.png",
       "skill": "graphing",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 22,
@@ -372,19 +414,28 @@ export default {
       "explanation": "7 P.M. is x = 19 hours after midnight; T(19) = 8sin(0.3·19 − 3) + 74 = 8sin(2.7) + 74 ≈ 74°F (with the calculator in radian mode).",
       "diveDeep": "Sinusoidal models use the form A·sin(Bx + C) + D, where D is the midline (average) and A is the amplitude. Evaluating requires converting the time to the correct x-value (7 P.M. = 19, not 7) and using RADIAN mode, since the argument 0.3x − 3 is in radians. The single most common error is leaving the calculator in degree mode, which produces a wildly wrong temperature. Always confirm the angle unit before evaluating trig functions.",
       "skill": "modeling",
-      "subTopic": "Unit Circle & Radians"
+      "subTopic": "Unit Circle & Radians",
+      "difficulty": 3,
+      "difficultyRationale": "Standard trigonometric ratio or function application."
     },
     {
       "number": 23,
       "part": "A",
       "text": "Consider the system of equations below:\\nx + y − z = 6\\n2x − 3y + 2z = −19\\n−x + 4y − z = 17\\nWhich number is not the value of any variable in the solution of the system?",
-      "choices": ["−1", "2", "3", "−4"],
+      "choices": [
+        "−1",
+        "2",
+        "3",
+        "−4"
+      ],
       "topic": "Systems & Inequalities",
       "correct": 1,
       "explanation": "The solution is x = 3, y = −1, z = −4, so the only listed number that is not a variable value is 2.",
       "diveDeep": "A linear system in three variables is solved by elimination or substitution, reducing it step by step to one variable. Add or subtract equations to cancel a variable, then back-substitute. The question asks which listed number is NOT a coordinate of the solution, so you must actually find x, y, and z and compare. A common mistake is stopping after finding only one variable; you need the full solution triple to answer reliably.",
       "skill": "modeling",
-      "subTopic": "Systems & Inequalities"
+      "subTopic": "Systems & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
     },
     {
       "number": 24,
@@ -401,7 +452,9 @@ export default {
       "explanation": "To convert annual to weekly growth, take the 52nd root of 1.06: 1.06^(1/52) ≈ 1.001121184, and the exponent must count weeks, 52t, giving 400(1.001121184)^(52t).",
       "diveDeep": "Rewriting an exponential to a different time unit uses the property a^t = (a^(1/k))^(kt). For weekly growth, the weekly factor is the 52nd root of the annual factor, 1.06^(1/52), NOT 1 + 0.06/52, which would be simple division and gives the wrong base. The exponent must then count the number of weeks (52t) so the total elapsed time is unchanged. Watch for both pitfalls: the correct base (a root, not a quotient) and the correct exponent (weeks, not years).",
       "skill": "modeling",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard application of exponential modeling."
     },
     {
       "number": 25,
@@ -415,7 +468,9 @@ export default {
       "diveDeep": "Average rate of change is the slope between two points: (change in output)/(change in input). Here output is hours of daylight and input is months, so divide the daylight difference by the number of months elapsed (3, from January to April). Interpretation must include units and context, not just a number. A common mistake is dividing by 4 (counting endpoints incorrectly) instead of 3; count the INTERVALS between the months, not the months themselves.",
       "modelAnswer": "Average rate of change = (13.9 − 9.4) / (4 − 1) = 4.5 / 3 = 1.5. This means that from January 1st to April 1st, the number of hours of daylight in Rochester increased by an average of 1.5 hours each month.",
       "skill": "modeling",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 26,
@@ -428,7 +483,9 @@ export default {
       "diveDeep": "Rational equations are solved by multiplying every term by the least common denominator to clear the fractions, here 4x(x − 1). This produces a polynomial equation you can solve normally. Crucially, check for extraneous solutions: any value that makes an original denominator zero (x = 0 or x = 1) must be excluded. Distribute carefully when expanding the products, since sign and combining-like-terms errors are the most frequent mistakes.",
       "modelAnswer": "Multiply every term by the LCD, 4x(x − 1):\n7·2(x − 1) − 2·4x = x(x − 1)\n14(x − 1) − 8x = x² − x\n14x − 14 − 8x = x² − x\n6x − 14 = x² − x\n0 = x² − 7x + 14... rearranging and solving the resulting quadratic by factoring gives x = 14 or x = −2. Neither value makes a denominator zero, so both are valid. Solution: x = 14 or x = −2.",
       "skill": "procedure",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 27,
@@ -441,7 +498,9 @@ export default {
       "diveDeep": "A logarithmic function log_b(x + h) is the parent log_b(x) translated horizontally; here +6 shifts the curve 6 units LEFT (opposite the sign). The vertical asymptote moves from x = 0 to x = −6, and the function is only defined for x > −6. Plot key points by choosing inputs that make the argument a power of 2: x = −5 gives log₂(1) = 0, x = −4 gives log₂(2) = 1, x = −2 gives log₂(4) = 2. A common mistake is shifting the wrong direction or forgetting the domain restriction.",
       "modelAnswer": "The function f(x) = log₂(x + 6) is the parent function log₂(x) shifted 6 units to the left. The vertical asymptote is at x = −6. Plot points where the argument is a power of 2: at x = −5, f = log₂(1) = 0; at x = −4, f = log₂(2) = 1; at x = −2, f = log₂(4) = 2; at x = 2, f = log₂(8) = 3. Draw a smooth increasing curve approaching the asymptote x = −6 from the right and rising slowly to the right.",
       "skill": "graphing",
-      "subTopic": "Logarithms"
+      "subTopic": "Logarithms",
+      "difficulty": 3,
+      "difficultyRationale": "Standard exponential equation solving using logarithms."
     },
     {
       "number": 28,
@@ -454,7 +513,9 @@ export default {
       "diveDeep": "When given one trig ratio and a quadrant, build a reference right triangle from the ratio (opposite/adjacent = 7/24) and use the Pythagorean theorem to find the hypotenuse (√(7² + 24²) = 25). Then assign signs based on the quadrant: in Quadrant III both sine and cosine are NEGATIVE (only tangent is positive). The most common error is forgetting the quadrant sign and reporting +24/25. Always determine the magnitude first, then apply the correct sign for the quadrant.",
       "modelAnswer": "Since tan θ = opposite/adjacent = 7/24, use a right triangle with legs 7 and 24. The hypotenuse is √(7² + 24²) = √(49 + 576) = √625 = 25. So the reference cosine = adjacent/hypotenuse = 24/25. Because θ is in Quadrant III, cosine is negative. Therefore cos θ = −24/25.",
       "skill": "modeling",
-      "subTopic": "Unit Circle & Radians"
+      "subTopic": "Unit Circle & Radians",
+      "difficulty": 3,
+      "difficultyRationale": "Standard trigonometric ratio or function application."
     },
     {
       "number": 29,
@@ -467,7 +528,9 @@ export default {
       "diveDeep": "Multiplying radicals with different indices is cleanest in rational-exponent form: ⁿ√(xᵐ) = x^(m/n). Add exponents only after finding a common denominator. Kenzie’s mistake is multiplying or carelessly combining the exponents to get 6/35 instead of correctly adding 2/7 + 3/5 = 31/35. The lesson: convert to exponents, get a common denominator, ADD the fractions, then convert back to a single radical.",
       "modelAnswer": "Kenzie is incorrect. Rewrite each radical with a rational exponent: ⁷√(x²) = x^(2/7) and ⁵√(x³) = x^(3/5). Multiplying powers with the same base means adding the exponents: x^(2/7) · x^(3/5) = x^(2/7 + 3/5). Using a common denominator of 35: 2/7 = 10/35 and 3/5 = 21/35, so the sum is 31/35. The product is x^(31/35) = ³⁵√(x³¹), which is NOT equal to ³⁵√(x⁶). Therefore Kenzie is wrong.",
       "skill": "reasoning",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 30,
@@ -479,7 +542,9 @@ export default {
       "explanation": "Since dividend = divisor × quotient + remainder, p(x) = (x + 1)(x² − 7) + 5 = x³ + x² − 7x − 2.",
       "diveDeep": "Polynomial division satisfies p(x) = (divisor)(polynomial quotient) + remainder, where the remainder shows up as the fraction over the divisor. So multiply the divisor (x + 1) by the polynomial part of the quotient (x² − 7) and add the remainder (5). Distribute fully and combine like terms to write the result in standard (descending-power) form. A common mistake is forgetting to add the remainder back or mishandling the fractional term that represents it.",
       "modelAnswer": "The relationship is p(x) = (divisor)(quotient) + remainder. The divisor is (x + 1), the polynomial part of the quotient is (x² − 7), and the remainder is 5. So:\np(x) = (x + 1)(x² − 7) + 5\n= x³ − 7x + x² − 7 + 5\n= x³ + x² − 7x − 2.\nIn standard form, p(x) = x³ + x² − 7x − 2.",
-      "subTopic": "Polynomial Operations & Factoring"
+      "subTopic": "Polynomial Operations & Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 31,
@@ -491,7 +556,9 @@ export default {
       "explanation": "Each term is 1.5 times the previous term, so the recursive rule is a₁ = 6 and aₙ = 1.5·aₙ₋₁.",
       "diveDeep": "A recursive formula defines each term using the previous one, so it must state the FIRST term and the rule connecting consecutive terms. Test whether the sequence is arithmetic (constant difference) or geometric (constant ratio): here 9/6 = 1.5 and 13.5/9 = 1.5, confirming a common ratio of 1.5. A common mistake is giving only the rule without the starting value, or confusing recursive with explicit form. Always include both pieces: a₁ and aₙ in terms of aₙ₋₁.",
       "modelAnswer": "The ratio between consecutive terms is constant: 9/6 = 1.5, 13.5/9 = 1.5, 20.25/13.5 = 1.5, so this is a geometric sequence with common ratio 1.5. A recursive formula is:\na₁ = 6\naₙ = 1.5·aₙ₋₁ (for n > 1).",
-      "subTopic": "Sequences"
+      "subTopic": "Sequences",
+      "difficulty": 3,
+      "difficultyRationale": "Standard modeling of a recursive sequence."
     },
     {
       "number": 32,
@@ -504,7 +571,9 @@ export default {
       "diveDeep": "A simulation models what a FAIR coin would produce, generating a sampling distribution of proportions. Build the 95% plausibility interval as mean ± 2·SD. If the observed value falls inside, the result is consistent with fairness; if it falls outside, that is evidence of unfairness. Robin’s 0.43 lies within (0.401, 0.597), so the data does not contradict fairness. The common mistake is judging by intuition (43 ≠ 50) rather than comparing against the simulated spread.",
       "modelAnswer": "Construct an interval of plausible values for a fair coin using the middle 95%: mean ± 2·SD = 0.499 ± 2(0.049) = 0.499 ± 0.098 = (0.401, 0.597). Robin’s observed proportion of heads is 43/100 = 0.43, which falls WITHIN this interval. Therefore the simulation does NOT provide strong evidence that Robin’s coin is unfair; a result of 0.43 is reasonably likely to occur with a fair coin.",
       "skill": "reasoning",
-      "subTopic": "Sampling & Studies"
+      "subTopic": "Sampling & Studies",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
     },
     {
       "number": 33,
@@ -517,7 +586,9 @@ export default {
       "diveDeep": "Difference of squares applies repeatedly: 16x⁴ − 81 = (4x²)² − 9² = (4x² − 9)(4x² + 9), and 4x² − 9 factors again. A sum of squares (4x² + 9) does NOT factor over the integers/reals and produces imaginary roots, since 4x² = −9 has no real solution. So not all roots are real. The lesson: only differences of squares factor further over the reals; a remaining sum of squares signals complex roots, which a graph would show as missing x-intercepts.",
       "modelAnswer": "16x⁴ − 81 is a difference of squares: (4x²)² − (9)² = (4x² − 9)(4x² + 9). The first factor is again a difference of squares: 4x² − 9 = (2x − 3)(2x + 3). The second factor, 4x² + 9, is a sum of squares and cannot be factored over the integers. So completely factored: (2x − 3)(2x + 3)(4x² + 9).\nSara is INCORRECT. Setting each factor to zero: 2x − 3 = 0 gives x = 3/2 (real), 2x + 3 = 0 gives x = −3/2 (real), but 4x² + 9 = 0 gives x² = −9/4, so x = ±(3/2)i, which are imaginary. Therefore two of the four roots are not real.",
       "skill": "reasoning",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 4,
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
     },
     {
       "number": 34,
@@ -530,7 +601,9 @@ export default {
       "diveDeep": "Half-life decay uses s(t) = A₀(1/2)^(t/h), where h is the half-life, because every h years the amount halves. To find when a fraction remains, set s(t) equal to that fraction of A₀ and solve using logarithms (take log of both sides and isolate t). A common error is writing the base or exponent incorrectly, e.g., using t instead of t/15. Note \"1/10 remains\" means the amount equals one-tenth of the ORIGINAL, not a tenth of nothing — set it equal to 20 grams here.",
       "modelAnswer": "Half-life model: s(t) = 200(1/2)^(t/15).\nWe want when 1/10 of the substance remains, i.e., s(t) = (1/10)(200) = 20:\n20 = 200(1/2)^(t/15)\n0.1 = (1/2)^(t/15)\nTake the log of both sides: log(0.1) = (t/15)·log(0.5)\nt/15 = log(0.1)/log(0.5) ≈ (−1)/(−0.30103) ≈ 3.3219\nt ≈ 15 × 3.3219 ≈ 49.8 ≈ 50 years.\nIt will take approximately 50 years.",
       "skill": "modeling",
-      "subTopic": "Exponential Models"
+      "subTopic": "Exponential Models",
+      "difficulty": 4,
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
     },
     {
       "number": 35,
@@ -542,7 +615,9 @@ export default {
       "explanation": "The vertex is midway between focus and directrix at (4, 2), with p = −3 (opening downward), giving y = −(1/12)(x − 4)² + 2.",
       "diveDeep": "A parabola is the set of points equidistant from a focus and a directrix. The vertex lies halfway between them, here at y = (−1 + 5)/2 = 2, so (4, 2). The distance from vertex to focus equals |p|, and the parabola opens TOWARD the focus (downward when the focus is below the directrix). Use the form y = (1/(4p))(x − h)² + k. A common error is sign confusion: when the focus is below the vertex, the coefficient is negative. Setting distance-to-focus equal to distance-to-directrix algebraically also works.",
       "modelAnswer": "The vertex is midway between the focus (4, −1) and the directrix y = 5: vertex y = (−1 + 5)/2 = 2, so vertex = (4, 2). The distance from the vertex to the focus is p = 2 − (−1) = ... |distance| = 3, and since the focus is below the directrix the parabola opens downward. Using y = (1/(4p))(x − h)² + k with p = −3:\n1/(4p) = 1/(4·(−3)) = −1/12.\nEquation: y = −(1/12)(x − 4)² + 2.",
-      "subTopic": "Polynomial Graphs, Zeros & Conics"
+      "subTopic": "Polynomial Graphs, Zeros & Conics",
+      "difficulty": 4,
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
     },
     {
       "number": 36,
@@ -555,7 +630,9 @@ export default {
       "diveDeep": "Conditional probability P(A | B) restricts to the row/column where B occurs: P(Filipe | long) uses only the \"long practice\" row, dividing Filipe’s long-practice wins by all long-practice matches. Two events are independent when P(A | B) = P(A); if the conditional probability differs from the overall probability, the events are dependent. The common mistake is using the grand total in the denominator of the conditional probability instead of the conditioned subtotal. Always reduce fractions and compare the two probabilities to judge independence.",
       "modelAnswer": "Long practice time total = 15 + 12 = 27 matches, of which Filipe won 12.\nP(Filipe wins | long practice) = 12/27 = 4/9.\nFor independence, compare to the overall probability that Filipe wins. Total matches = 8 + 10 + 15 + 12 = 45; Filipe wins = 10 + 12 = 22, so P(Filipe wins) = 22/45.\nSince P(Filipe wins | long) = 4/9 = 20/45, which is NOT equal to P(Filipe wins) = 22/45, the events \"Filipe wins\" and \"long practice time\" are NOT independent.",
       "skill": "reasoning",
-      "subTopic": "Probability"
+      "subTopic": "Probability",
+      "difficulty": 4,
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
     },
     {
       "number": 37,
@@ -568,7 +645,9 @@ export default {
       "diveDeep": "For y = A·cos(Bt) + D, the period is 2π/B, the amplitude is |A|, and the midline is D, so the maximum is D + |A| and the minimum is D − |A|. In context, the period is the time for one complete tire rotation. To test whether a height is reached, compare it to the maximum (D + A): if the target exceeds the maximum, the function never attains it. A common mistake is computing the period as 2π·B instead of 2π/B, or forgetting that the vertical shift sets the maximum at D + A, not just A.",
       "modelAnswer": "Period: For f(t) = 13cos(0.8πt) + 13, B = 0.8π, so period = 2π/B = 2π/(0.8π) = 2.5 seconds. In context, this means the tire makes one complete rotation every 2.5 seconds (the nail returns to the same height every 2.5 s).\nGraph: The midline is y = 13, the amplitude is 13, so the curve oscillates between a minimum of 0 (nail on the ground) and a maximum of 26 inches. The y-intercept is f(0) = 13cos(0) + 13 = 13 + 13 = 26. Graph a cosine curve starting at (0, 26), dropping to (1.25, 0), and returning to (2.5, 26), completing one cycle.\nReaching 30 inches: The maximum height is midline + amplitude = 13 + 13 = 26 inches. Since 26 < 30, the height of the nail NEVER reaches 30 inches above the ground.",
       "skill": "reasoning",
-      "subTopic": "Trig Graphs"
+      "subTopic": "Trig Graphs",
+      "difficulty": 5,
+      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison."
     }
   ]
 }

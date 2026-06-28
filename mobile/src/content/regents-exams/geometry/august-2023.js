@@ -20,7 +20,9 @@ export default {
       "correct": 3,
       "explanation": "When a transversal crosses two parallel lines, same-side interior angles (co-interior angles) are supplementary, so ∠4 and ∠5 sum to 180°.",
       "diveDeep": "Parallel-line angle relationships fall into a few families: corresponding angles are equal, alternate interior/exterior angles are equal, and same-side (consecutive) interior angles are supplementary. The classic trap is assuming any two angles are equal — only specific positional pairs are congruent. Sketch the \"F,\" \"Z,\" and \"C\" shapes formed by the transversal to identify corresponding, alternate, and co-interior pairs respectively. Always confirm the lines are actually parallel before applying these theorems.",
-      "subTopic": "Lines, Angles & Transformations"
+      "subTopic": "Lines, Angles & Transformations",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 2,
@@ -37,7 +39,9 @@ export default {
       "image": "/images/exams/geo-august-2023/q2.png",
       "explanation": "A translation is a rigid motion (isometry), so it preserves distance, angle measure, area, and orientation.",
       "diveDeep": "The three basic rigid motions — translations, rotations, and reflections — all preserve distance and angle measure, which is why images are congruent to pre-images. The key distinction: translations and rotations preserve orientation (direct isometries), while reflections reverse it (opposite isometries). Dilations, by contrast, preserve angle measure and orientation but NOT distance unless the scale factor is 1. On the exam, memorize which properties each transformation preserves; \"distance preserved\" is the defining feature of any rigid motion.",
-      "subTopic": "Lines, Angles & Transformations"
+      "subTopic": "Lines, Angles & Transformations",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 3,
@@ -53,7 +57,9 @@ export default {
       "correct": 2,
       "explanation": "An angle inscribed in a semicircle is a right angle, so ∠ACB = 90°; the remaining angle ∠ABC = 180° − 90° − 35° = 55°.",
       "diveDeep": "Thales' theorem states that any inscribed angle subtending a diameter measures 90°, which is one of the most frequently used circle facts on the Regents. Once you spot a diameter and an inscribed angle, you instantly have a right triangle and can use the fact that the acute angles sum to 90°. A common trap is forgetting the angle is 90° and instead trying to use the inscribed-angle-equals-half-arc rule directly. Look for the word \"diameter\" — it almost always signals a right angle.",
-      "subTopic": "Circle Segments & Lines"
+      "subTopic": "Circle Segments & Lines",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of circle properties."
     },
     {
       "number": 4,
@@ -70,7 +76,9 @@ export default {
       "explanation": "The midpoint is the average of the coordinates: ((−4 + 8)/2, (6 + (−2))/2) = (2, 2).",
       "diveDeep": "The midpoint formula averages the x-coordinates and averages the y-coordinates independently. A frequent error is subtracting instead of adding, or mixing up which value goes with which axis. Keep signs straight when endpoints are negative. This formula is the foundation for proving a quadrilateral is a parallelogram (diagonals bisect each other) and for finding the center of a circle from a diameter's endpoints.",
       "skill": "graphing",
-      "subTopic": "Distance, Midpoint & Partition"
+      "subTopic": "Distance, Midpoint & Partition",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of coordinate formulas."
     },
     {
       "number": 5,
@@ -86,7 +94,9 @@ export default {
       "correct": 1,
       "explanation": "Lateral area of a cylinder equals circumference times height: 2π(3)(10) = 60π cm².",
       "diveDeep": "A cylinder's lateral (side) surface \"unrolls\" into a rectangle whose width is the base circumference (2πr) and whose height is the cylinder's height, giving lateral area = 2πrh. Don't confuse lateral area with total surface area, which adds the two circular bases (2πr²). The most common mistake is using diameter instead of radius. Knowing how 3-D surfaces unfold into flat shapes makes these formulas intuitive rather than memorized.",
-      "subTopic": "Volume & Surface Area"
+      "subTopic": "Volume & Surface Area",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 6,
@@ -102,7 +112,9 @@ export default {
       "correct": 0,
       "explanation": "m∠C = 70°, and the side opposite the smallest angle is shortest: BC (opposite ∠A=50°) < AC (opposite ∠B=60°) < AB (opposite ∠C=70°).",
       "diveDeep": "The triangle inequality's ordering corollary says larger angles are opposite longer sides and vice versa. The crucial step is matching each side to the angle directly across from it — side BC is opposite vertex A, not adjacent to it. Find the missing angle first (angles sum to 180°), then rank. A classic trap is ordering sides by the angle they touch rather than the angle they face. This concept also underlies the hinge theorem and the standard side-vs-angle reasoning in proofs.",
-      "subTopic": "Lines, Angles & Transformations"
+      "subTopic": "Lines, Angles & Transformations",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 7,
@@ -118,7 +130,9 @@ export default {
       "correct": 1,
       "explanation": "Using the distance formula: √[(7−1)² + (10−2)²] = √(36 + 64) = √100 = 10.",
       "diveDeep": "The distance formula is just the Pythagorean theorem applied to the horizontal and vertical legs of a right triangle drawn on the coordinate plane. Recognize the 6-8-10 (a 3-4-5 scaled by 2) Pythagorean triple to save time. Common errors include forgetting to square the differences or losing track of negative signs. Distances are always positive, so if you get a negative under the radical you've made an arithmetic slip.",
-      "subTopic": "Coordinate Proofs"
+      "subTopic": "Coordinate Proofs",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents coordinate geometry calculation."
     },
     {
       "number": 8,
@@ -134,7 +148,9 @@ export default {
       "correct": 1,
       "explanation": "The given line has slope −2/3; a perpendicular line has the negative reciprocal slope, which is 3/2.",
       "diveDeep": "Perpendicular slopes are opposite reciprocals: flip the fraction and change the sign, so their product is −1. First rewrite the line in slope-intercept form (y = mx + b) to read off the slope. A frequent trap is choosing the parallel slope (same value) or only flipping the fraction without changing the sign. Horizontal and vertical lines are a special case — they're perpendicular but their slopes are 0 and undefined, so the reciprocal rule doesn't apply directly.",
-      "subTopic": "Lines & Slope"
+      "subTopic": "Lines & Slope",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents coordinate geometry calculation."
     },
     {
       "number": 9,
@@ -150,7 +166,9 @@ export default {
       "correct": 3,
       "explanation": "Diagonals of a parallelogram bisect each other, so AE = EC: 2x + 1 = 3x − 4 gives x = 5, AE = 11, and AC = 2(11) = 22.",
       "diveDeep": "A defining property of every parallelogram is that the diagonals bisect each other, meaning the intersection point is the midpoint of both diagonals. The common error here is solving for x and stopping at AE without doubling to get the full diagonal AC. Watch the wording: questions sometimes ask for half the diagonal and sometimes the whole thing. This bisection property is also a valid way to PROVE a quadrilateral is a parallelogram in coordinate proofs.",
-      "subTopic": "Quadrilaterals & Polygons"
+      "subTopic": "Quadrilaterals & Polygons",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 10,
@@ -168,7 +186,9 @@ export default {
       "explanation": "Water at height 8 in a cone (height 9, radius 5) forms a smaller similar cone; by proportion its radius is 5·(8/9) = 40/9, so V = (1/3)π(40/9)²(8) ≈ 628 cm³.",
       "diveDeep": "When liquid partially fills a cone, the water itself is a smaller cone similar to the container, so the radius scales by the same ratio as the height (radius/height stays constant). The big trap is plugging the full radius 5 with height 8 instead of scaling the radius down to 40/9. Set up the proportion r/8 = 5/9 first, then apply V = (1/3)πr²h. Always read whether the cup is filled to the brim or to a partial height — that distinction drives the whole problem.",
       "skill": "modeling",
-      "subTopic": "Volume & Surface Area"
+      "subTopic": "Volume & Surface Area",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 11,
@@ -184,7 +204,9 @@ export default {
       "correct": 2,
       "explanation": "In a right triangle, the cosine of one acute angle equals the sine of the complementary acute angle, so cos T = sin C.",
       "diveDeep": "The cofunction identity states sin(θ) = cos(90° − θ): the sine of an angle equals the cosine of its complement. Since the two acute angles in a right triangle are complementary, cos T and sin C describe the same ratio (the same pair of sides). The trap answers tempt you with cos C or sin T, which involve the other angle. Drawing the triangle and labeling opposite/adjacent/hypotenuse for each angle makes the equivalence obvious.",
-      "subTopic": "Right Triangle Trig"
+      "subTopic": "Right Triangle Trig",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 12,
@@ -201,18 +223,27 @@ export default {
       "explanation": "Volume = (1/3)(base area)(height) = (1/3)(36)(10) = 120 cm³; mass = volume × density = 120 × 2.7 = 324 grams.",
       "diveDeep": "Two ideas combine here: the pyramid volume formula V = (1/3)Bh and the density relationship mass = density × volume. The most common error is forgetting the 1/3 factor and computing 36×10 = 360 (a distractor) or skipping the density multiplication and answering 120 (another distractor). Density problems reward careful unit tracking — grams per cm³ times cm³ yields grams. Read carefully whether the prism-vs-pyramid distinction applies, since prisms drop the 1/3.",
       "skill": "modeling",
-      "subTopic": "Density & Modeling"
+      "subTopic": "Density & Modeling",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 13,
       "part": "A",
       "text": "The equation of a circle is x² + y² + 12x = −27. What are the coordinates of the center and the length of the radius of the circle?",
-      "choices": ["center (6, 0) and radius 3", "center (6, 0) and radius 9", "center (−6, 0) and radius 3", "center (−6, 0) and radius 9"],
+      "choices": [
+        "center (6, 0) and radius 3",
+        "center (6, 0) and radius 9",
+        "center (−6, 0) and radius 3",
+        "center (−6, 0) and radius 9"
+      ],
       "topic": "Circles",
       "correct": 2,
       "explanation": "Completing the square: x² + 12x + 36 + y² = −27 + 36 gives (x + 6)² + y² = 9, so the center is (−6, 0) and the radius is √9 = 3.",
       "diveDeep": "To find a circle's center and radius from general form, complete the square on the x-terms (and y-terms): take half the coefficient of x, square it (12/2 = 6, 6² = 36), and add it to both sides. The center coordinate is the OPPOSITE sign of the number inside the squared binomial — (x + 6)² means the center x is −6, a classic sign trap. The radius is the square root of the constant on the right side, not the constant itself. Always move loose terms to the right before reading off r².",
-      "subTopic": "Equations of Circles"
+      "subTopic": "Equations of Circles",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of circle properties."
     },
     {
       "number": 14,
@@ -228,7 +259,9 @@ export default {
       "correct": 3,
       "explanation": "By the side-splitter theorem, AD/DB = AE/EC, so 12/8 = AE/10 gives AE = 15; then AC = AE + EC = 15 + 10 = 25.",
       "diveDeep": "A line parallel to one side of a triangle divides the other two sides proportionally (the side-splitter or triangle proportionality theorem). The biggest pitfall is solving for the segment AE but reporting it as the full side AC — you must add AE and EC. Set the proportion up consistently, matching the upper segment of one side to the upper segment of the other. This theorem flows directly from the AA similarity of the small top triangle and the whole triangle.",
-      "subTopic": "Triangle Relationships"
+      "subTopic": "Triangle Relationships",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 15,
@@ -245,7 +278,9 @@ export default {
       "image": "/images/exams/geo-august-2023/q15.png",
       "explanation": "Since △ABE is equilateral, BE = BC and ∠EBC = 90° − 60° = 30°; the isosceles triangle BEC has base angles (180° − 30°)/2 = 75°.",
       "diveDeep": "This problem layers an equilateral triangle inside a square, so each angle of △ABE is 60° and each square angle is 90°. The key insight is that BE = AB = BC, making △BEC isosceles, and its apex angle ∠EBC equals the square's 90° minus the equilateral 60° = 30°. The base angles then split the remaining 150° evenly. Watch for the common trap of assuming △BEC is also equilateral; it isn't, even though two of its sides are equal.",
-      "subTopic": "Lines, Angles & Transformations"
+      "subTopic": "Lines, Angles & Transformations",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 16,
@@ -262,7 +297,9 @@ export default {
       "image": "/images/exams/geo-august-2023/q16.png",
       "explanation": "Because DE is the perpendicular bisector of AB, point D is equidistant from A and B and △ADC ≅ △BDC by SAS, making ∠ADC ≅ ∠BDC.",
       "diveDeep": "Any point on the perpendicular bisector of a segment is equidistant from the segment's two endpoints — this is the perpendicular bisector theorem. Here C is the midpoint and the perpendicular foot, so the two right triangles ADC and BDC share leg DC, have equal legs AC = BC, and equal right angles, giving SAS congruence. The distractors compare segments that need not be equal (like AD and BE on different points). Mark the congruent parts on the figure to see which conclusion is forced.",
-      "subTopic": "Lines, Angles & Transformations"
+      "subTopic": "Lines, Angles & Transformations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multi-step geometric or coordinate calculation."
     },
     {
       "number": 17,
@@ -278,7 +315,9 @@ export default {
       "correct": 3,
       "explanation": "Reflecting over the horizontal line y = 1 keeps x the same and maps the y-coordinate to its mirror: the point is 2 units above y=1, so the image is 2 units below, at (4, −1).",
       "diveDeep": "Reflecting over a horizontal line y = k leaves the x-coordinate unchanged and sends y to 2k − y. Here 2(1) − 3 = −1, giving (4, −1). The classic error is reflecting over the x-axis (y = 0) out of habit, or swapping which coordinate stays fixed. Visualize the line of reflection as a mirror: the pre-image and image are equidistant from it on opposite sides. Reflecting over a vertical line x = h instead fixes y and changes x to 2h − x.",
-      "subTopic": "Lines, Angles & Transformations"
+      "subTopic": "Lines, Angles & Transformations",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 18,
@@ -296,7 +335,9 @@ export default {
       "explanation": "The radius is 8; the height is √(17² − 8²) = √225 = 15, so V = (1/3)π(8²)(15) = (1/3)π(64)(15) = 320π in³.",
       "diveDeep": "Volume needs the perpendicular height, not the slant height, so you must first apply the Pythagorean theorem: height = √(slant² − radius²). The 8-15-17 Pythagorean triple appears here — recognizing it avoids a messy calculation. Two common traps: using the diameter (16) as the radius, and plugging the slant height (17) directly into the volume formula. Always convert diameter to radius and verify whether a given length is slant or vertical height before computing.",
       "skill": "modeling",
-      "subTopic": "Volume & Surface Area"
+      "subTopic": "Volume & Surface Area",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 19,
@@ -314,7 +355,9 @@ export default {
       "explanation": "Each congruence forces a pair of lines to be parallel (equal corresponding/alternate angles), and showing both pairs of opposite sides parallel proves the quadrilateral is a parallelogram.",
       "diveDeep": "To prove a quadrilateral is a parallelogram, you must establish that BOTH pairs of opposite sides are parallel; one pair alone is insufficient. Each given angle congruence corresponds to one pair of lines being parallel via corresponding or alternate-angle converses. The trap answers give two conditions that prove only one pair parallel (or the same pair twice). Map each angle pair to which set of lines (ℓ∥m or n∥p) it forces, and pick the option that pins down both directions.",
       "skill": "proof",
-      "subTopic": "Quadrilaterals & Polygons"
+      "subTopic": "Quadrilaterals & Polygons",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 20,
@@ -332,7 +375,9 @@ export default {
       "explanation": "By the two-secant power-of-a-point theorem, (TS)(TR) = (TM)(TH): x(x + 5) = 3(3 + 9) = 36.",
       "diveDeep": "When two secants meet outside a circle, the product of each whole secant and its external segment are equal: (near₁)(far₁) = (near₂)(far₂). The whole secants are the entire lengths from T: TR = TS + SR = x + 5 and TH = TM + HM = 3 + 9 = 12. The most common error is using only the chord pieces inside the circle instead of the full external-to-far distances. Carefully identify which point is the external vertex (here T) so you know which segment is \"whole\" and which is \"external.\"",
       "skill": "procedure",
-      "subTopic": "Circle Segments & Lines"
+      "subTopic": "Circle Segments & Lines",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of circle properties."
     },
     {
       "number": 21,
@@ -349,7 +394,9 @@ export default {
       "image": "/images/exams/geo-august-2023/q21.png",
       "explanation": "A trapezoid needs one pair of parallel sides; AB has slope 1, so DC must also have slope 1, and from D(−2, 3) the point (−3, 8) does not... C must give DC parallel to AB, satisfied by the choice whose slope from D equals 1.",
       "diveDeep": "A trapezoid is defined by exactly one pair of parallel sides, so to place C you make one pair of opposite sides have equal slopes. Compute the slope of the known base AB, then find which candidate makes the opposite side DC share that slope (or makes BC parallel to AD). The trap choices create slopes that don't match any side or that accidentally form a parallelogram (two parallel pairs). Always test slopes with the slope formula rise/run and confirm the figure has exactly one parallel pair.",
-      "subTopic": "Coordinate Proofs"
+      "subTopic": "Coordinate Proofs",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents coordinate geometry calculation."
     },
     {
       "number": 22,
@@ -366,7 +413,9 @@ export default {
       "image": "/images/exams/geo-august-2023/q22.png",
       "explanation": "The congruent triangles share vertex C and have opposite orientation across a line through C, so a single line reflection maps one onto the other.",
       "diveDeep": "Because the triangles are congruent (not just similar), the mapping must be a rigid motion, which rules out anything involving a dilation. When the image has reversed orientation relative to the pre-image, a single reflection (opposite isometry) is the natural mapping; same-orientation images call for rotations or translations. The choice \"reflection followed by reflection\" actually composes to a rotation or translation, so it's more than needed. Check orientation (clockwise vs. counterclockwise vertex order) to decide between a reflection and a rotation.",
-      "subTopic": "Lines, Angles & Transformations"
+      "subTopic": "Lines, Angles & Transformations",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 23,
@@ -382,7 +431,9 @@ export default {
       "correct": 2,
       "explanation": "A dilation preserves angle measures but multiplies lengths by the scale factor 0.5, so T′A′ = 0.5·TA, which means TA = 2(T′A′).",
       "diveDeep": "Dilations preserve angle measure (the image is similar, not necessarily congruent) but scale every length by the factor k. With k = 0.5 the image is half the size, so each pre-image length is twice the corresponding image length. The trap answers alter the angle measures, which never change under dilation, or invert the length relationship. Be precise about direction: \"image is half\" means the original is double — rearrange T′A′ = 0.5·TA carefully to avoid flipping the ratio.",
-      "subTopic": "Similarity"
+      "subTopic": "Similarity",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 24,
@@ -399,7 +450,9 @@ export default {
       "correct": 3,
       "explanation": "Since ∠AYX ≅ ∠B and ∠A is shared, △AXY ~ △ABC; the valid proportions follow from this similarity, but (AY)(AB) = (AC)(AX) mismatches corresponding sides and is not always true.",
       "diveDeep": "The condition ∠AYX = ∠B with the shared angle A gives AA similarity, but note the correspondence: △AXY ~ △ABC, so AX corresponds to AB and AY corresponds to AC. Correct proportions cross-multiply matching pairs, e.g. AX/AB = AY/AC, equivalently (AX)(AC) = (AY)(AB). The false statement scrambles which sides correspond, pairing AY with AB and AX with AC. The safest approach is to write the similarity statement with vertices in matching order, then read proportions straight off it.",
-      "subTopic": "Triangle Relationships"
+      "subTopic": "Triangle Relationships",
+      "difficulty": 2,
+      "difficultyRationale": "Basic application of geometric concepts."
     },
     {
       "number": 25,
@@ -411,7 +464,9 @@ export default {
       "explanation": "An angle bisector is constructed by swinging equal arcs from the vertex and then equal arcs from the two arc-intersection points, locating a point equidistant from both rays.",
       "diveDeep": "The angle-bisector construction works because it builds a rhombus: equal arc radii guarantee equal distances, so the ray from the vertex to the final intersection is equidistant from both sides of the angle. Credit on the Regents requires visible, correct construction marks — neat freehand drawing earns nothing. Keep the compass width fixed within each step and don't erase your arcs. The same equidistant principle underlies perpendicular-bisector and perpendicular-from-a-point constructions.",
       "modelAnswer": "Place the compass point at vertex B and draw an arc that crosses both rays BA and BC; label these intersection points D and E. Without changing the compass width (or using any fixed width), place the compass point at D and draw an arc in the interior of the angle, then place the compass point at E and draw a second arc that intersects the first; label the intersection F. Draw ray BF using the straightedge. Ray BF is the bisector of ∠ABC. All arc marks are left on the diagram.",
-      "subTopic": "Triangle Congruence & Constructions"
+      "subTopic": "Triangle Congruence & Constructions",
+      "difficulty": 3,
+      "difficultyRationale": "Standard constructed-response geometric construction."
     },
     {
       "number": 26,
@@ -423,7 +478,9 @@ export default {
       "diveDeep": "Setting the two alternate interior angle expressions equal relies on the parallel-line theorem; you must justify parallelism before equating. After solving for x, always substitute back to find the requested angle measure rather than leaving the answer as x. A common mistake is treating the angles as supplementary (summing to 180°) when they're actually congruent. Double-check by confirming both angle expressions yield the same value once x is found.",
       "modelAnswer": "Because AB ∥ CD and EF is a transversal, ∠AGH and ∠GHD are alternate interior angles, which are congruent. Set the expressions equal: 3x + 20 = 5x − 40. Subtract 3x from both sides: 20 = 2x − 40. Add 40: 60 = 2x, so x = 30. Substitute into m∠AGH: 3(30) + 20 = 90 + 20 = 110°. Therefore x = 30 and m∠AGH = 110°.",
       "skill": "procedure",
-      "subTopic": "Lines, Angles & Transformations"
+      "subTopic": "Lines, Angles & Transformations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard constructed-response calculation."
     },
     {
       "number": 27,
@@ -434,7 +491,9 @@ export default {
       "explanation": "AB is horizontal with length 5 and BC is vertical with length 3, forming a right angle at B, so area = (1/2)(5)(3) = 7.5 square units.",
       "diveDeep": "When two sides of a triangle are horizontal and vertical, they meet at a right angle and serve directly as base and height. Compute each length by subtracting the matching coordinates (|3 − (−2)| = 5 and |4 − 1| = 3). The trap is using the slanted side CA as a dimension or forgetting the 1/2 factor. If no sides are axis-aligned, you'd instead use the shoelace formula, but here the right angle makes the base-height approach fastest.",
       "modelAnswer": "Plot or analyze the vertices. Side AB runs from (−2, 1) to (3, 1), a horizontal segment of length |3 − (−2)| = 5. Side BC runs from (3, 1) to (3, 4), a vertical segment of length |4 − 1| = 3. Since AB is horizontal and BC is vertical, they meet at a right angle at B, so they are the base and height. Area = (1/2)(base)(height) = (1/2)(5)(3) = 7.5 square units.",
-      "subTopic": "Coordinate Proofs"
+      "subTopic": "Coordinate Proofs",
+      "difficulty": 3,
+      "difficultyRationale": "Standard constructed-response calculation."
     },
     {
       "number": 28,
@@ -445,7 +504,9 @@ export default {
       "explanation": "From V = πr²h, 1000 = πr²(10), so r² = 100/π ≈ 31.83 and r ≈ 5.6 inches.",
       "diveDeep": "Solving for a dimension means rearranging the volume formula and isolating the variable before taking a square root. Divide both sides by πh first, then take the positive square root (length must be positive). A common error is forgetting to divide by π, or rounding too early and accumulating error. Keep full decimal precision until the final rounding step, and confirm the result is reasonable by plugging it back into the formula.",
       "modelAnswer": "Use V = πr²h. Substitute the known values: 1000 = πr²(10). Divide both sides by 10π: r² = 1000/(10π) = 100/π ≈ 31.831. Take the positive square root: r ≈ √31.831 ≈ 5.642. Rounded to the nearest tenth, the radius is approximately 5.6 inches.",
-      "subTopic": "Volume & Surface Area"
+      "subTopic": "Volume & Surface Area",
+      "difficulty": 3,
+      "difficultyRationale": "Standard constructed-response calculation."
     },
     {
       "number": 29,
@@ -457,7 +518,9 @@ export default {
       "diveDeep": "The midsegment (midline) theorem can be proven with coordinate geometry or with similar triangles: △AMN ~ △ABC by SAS similarity with ratio 1:2 (shared angle A, sides halved), which forces MN ∥ BC and MN = (1/2)BC. On a coordinate proof, assign general coordinates, use the midpoint formula for M and N, and compare slopes (for parallelism) and the distance formula (for the half-length). Be sure to address BOTH conclusions — parallel AND half — since the problem requires each.",
       "modelAnswer": "Since M is the midpoint of AB and N is the midpoint of AC, we have AM = (1/2)AB and AN = (1/2)AC. Consider △AMN and △ABC: they share ∠A, and AM/AB = AN/AC = 1/2. By the SAS similarity criterion, △AMN ~ △ABC with ratio 1:2. Corresponding angles of similar triangles are congruent, so ∠AMN ≅ ∠ABC; these are corresponding angles for lines MN and BC cut by transversal AB, so MN ∥ BC. Because the similarity ratio is 1:2, the corresponding side MN = (1/2)BC. Therefore MN ∥ BC and MN = (1/2)BC.",
       "skill": "proof",
-      "subTopic": "Lines, Angles & Transformations"
+      "subTopic": "Lines, Angles & Transformations",
+      "difficulty": 4,
+      "difficultyRationale": "Challenging constructed-response geometric proof."
     },
     {
       "number": 30,
@@ -468,7 +531,9 @@ export default {
       "explanation": "P is 3/4 of the way from A to B: P = (1 + (3/4)(9−1), 2 + (3/4)(6−2)) = (1 + 6, 2 + 3) = (7, 5).",
       "diveDeep": "To partition a segment in ratio m:n from A, move m/(m+n) of the way from A toward B and add that to A's coordinates: P = A + (m/(m+n))(B − A). With ratio 3:1, the fraction is 3/4. The classic trap is using 1/3 (the raw ratio) instead of 3/4, or measuring from the wrong endpoint. Verify by checking that AP is three times PB in length once you have P.",
       "modelAnswer": "Point P divides AB so that AP:PB = 3:1, meaning P is 3/(3+1) = 3/4 of the way from A to B. Find the horizontal and vertical changes: Δx = 9 − 1 = 8 and Δy = 6 − 2 = 4. Multiply by 3/4: (3/4)(8) = 6 and (3/4)(4) = 3. Add to A: P = (1 + 6, 2 + 3) = (7, 5). Therefore the coordinates of point P are (7, 5).",
-      "subTopic": "Coordinate Proofs"
+      "subTopic": "Coordinate Proofs",
+      "difficulty": 3,
+      "difficultyRationale": "Standard constructed-response calculation."
     },
     {
       "number": 31,
@@ -479,7 +544,9 @@ export default {
       "explanation": "In a regular hexagon inscribed in a circle, each side equals the radius, so each side is 8 cm and the perimeter is 6 × 8 = 48 cm.",
       "diveDeep": "A regular hexagon decomposes into six equilateral triangles meeting at the center, so each side length equals the circumradius. This is a special property of the hexagon among regular polygons — it does not hold for pentagons, octagons, etc. The trap is treating the side as some other fraction of the radius or applying a generic apothem formula unnecessarily. Recognizing the hexagon-equals-six-equilateral-triangles structure shortcuts both perimeter and area problems.",
       "modelAnswer": "A regular hexagon inscribed in a circle can be divided into six congruent equilateral triangles, each with two sides equal to the radius. Therefore each side of the hexagon equals the radius, which is 8 cm. The hexagon has 6 equal sides, so the perimeter = 6 × 8 = 48 cm.",
-      "subTopic": "Arcs & Angles"
+      "subTopic": "Arcs & Angles",
+      "difficulty": 3,
+      "difficultyRationale": "Standard constructed-response calculation."
     },
     {
       "number": 32,
@@ -491,7 +558,9 @@ export default {
       "diveDeep": "Reflecting over the y-axis maps (x, y) to (−x, y), keeping y fixed and flipping the sign of x. Because reflections are isometries (rigid motions), they preserve all distances and therefore all areas and angle measures — only orientation reverses. A full-credit justification must explicitly state that reflection is a rigid motion/isometry and that isometries preserve area, not merely assert the areas look equal. Confirm the rule direction: over the x-axis you'd negate y instead.",
       "modelAnswer": "A reflection over the y-axis maps each point (x, y) to (−x, y). Applying this rule: R(−3, 2) → R′(3, 2); S(1, 6) → S′(−1, 6); T(5, 2) → T′(−5, 2). The reflection preserves area. Justification: a line reflection is a rigid motion (isometry), and isometries preserve distance. Since all corresponding lengths are preserved, the base and height of the triangle are unchanged, so the area of △R′S′T′ equals the area of △RST.",
       "skill": "reasoning",
-      "subTopic": "Triangle Congruence & Constructions"
+      "subTopic": "Triangle Congruence & Constructions",
+      "difficulty": 4,
+      "difficultyRationale": "Challenging constructed-response multi-step application or modeling."
     },
     {
       "number": 33,
@@ -503,7 +572,9 @@ export default {
       "diveDeep": "Composite-solid problems require summing the volumes of each piece, here a cylinder (πr²h) plus a hemisphere (half of (4/3)πr³, i.e. (2/3)πr³). Keep results in terms of π until the end to minimize rounding error, then multiply by π once. The common trap is using the full-sphere volume instead of halving it, or mismatching the shared radius. Always confirm whether the shapes share a dimension and whether any surface is \"internal\" and shouldn't be double-counted (relevant for surface area, not volume).",
       "modelAnswer": "The silo is a cylinder plus a hemisphere sharing radius r = 6 ft. Cylinder volume = πr²h = π(6²)(20) = π(36)(20) = 720π. Hemisphere volume = (1/2)(4/3)πr³ = (2/3)π(6³) = (2/3)π(216) = 144π. Total volume = 720π + 144π = 864π. Evaluating: 864 × π ≈ 864 × 3.14159 ≈ 2714.3. To the nearest cubic foot, the total volume is approximately 2714 cubic feet.",
       "skill": "modeling",
-      "subTopic": "Volume & Surface Area"
+      "subTopic": "Volume & Surface Area",
+      "difficulty": 4,
+      "difficultyRationale": "Challenging constructed-response multi-step application or modeling."
     },
     {
       "number": 34,
@@ -515,7 +586,9 @@ export default {
       "diveDeep": "A diagonal of a parallelogram splits it into two congruent triangles, a foundational theorem proven with a two-column or paragraph proof. The cleanest route uses alternate interior angles: AB ∥ CD and AD ∥ BC each generate a pair of congruent angles, and the shared diagonal AC gives the included side, yielding ASA. Alternatively, opposite-sides-congruent plus the shared diagonal gives SSS. The key is citing the parallelogram properties as reasons, not assuming the congruence you're trying to prove. Always include the shared (reflexive) side AC ≅ CA.",
       "modelAnswer": "Statements/Reasons: (1) ABCD is a parallelogram — Given. (2) AB ∥ CD and AD ∥ BC — Opposite sides of a parallelogram are parallel. (3) ∠BAC ≅ ∠DCA — Alternate interior angles formed by transversal AC with AB ∥ CD are congruent. (4) ∠BCA ≅ ∠DAC — Alternate interior angles formed by transversal AC with AD ∥ BC are congruent. (5) AC ≅ CA — Reflexive property. (6) △ABC ≅ △CDA — ASA (using the two angle pairs and the included shared side). Therefore △ABC ≅ △CDA.",
       "skill": "proof",
-      "subTopic": "Lines, Angles & Transformations"
+      "subTopic": "Lines, Angles & Transformations",
+      "difficulty": 4,
+      "difficultyRationale": "Challenging constructed-response geometric proof."
     },
     {
       "number": 35,
@@ -526,7 +599,9 @@ export default {
       "explanation": "tan(38°) = h/50 gives h ≈ 39.06 feet above eye level; adding the 5-foot eye height yields a pole height ≈ 44.1 feet.",
       "diveDeep": "Angle-of-elevation problems set up a right triangle where the horizontal distance is adjacent and the vertical rise is opposite, so tangent relates them: tan(angle) = opposite/adjacent. A frequent oversight is forgetting to add the observer's eye height back to the computed vertical distance — the tangent only gives the height above the line of sight. Make sure the calculator is in degree mode. Round only at the very end to keep precision.",
       "modelAnswer": "Model the line of sight as the hypotenuse of a right triangle. The horizontal distance (adjacent) is 50 ft and the angle of elevation is 38°. Using tangent: tan(38°) = h/50, where h is the height of the pole above the surveyor's eye level. So h = 50·tan(38°) ≈ 50(0.78129) ≈ 39.06 ft. Since the surveyor's eye level is 5 ft above the ground, add this: total height = 39.06 + 5 = 44.06 ft. To the nearest tenth, the flagpole is approximately 44.1 feet tall.",
-      "subTopic": "Right Triangle Trig"
+      "subTopic": "Right Triangle Trig",
+      "difficulty": 4,
+      "difficultyRationale": "Challenging constructed-response multi-step application or modeling."
     },
     {
       "number": 36,
@@ -538,7 +613,9 @@ export default {
       "diveDeep": "Multi-part modeling questions chain a volume computation into rate and cost calculations, so an early rounding error propagates. Compute the volume once with full precision (192π ≈ 603.186), then reuse it for both the fill-time (volume ÷ rate) and cost (volume × unit price). The trap is rounding the volume to 603 before the cost step, which can shift the final cents. Keep units explicit — cubic feet, minutes, dollars — and round each part only to the precision the question asks for.",
       "modelAnswer": "(a) Volume of cylinder = πr²h = π(4²)(12) = π(16)(12) = 192π ≈ 603.186, which rounds to 603 cubic feet. (b) Time to fill = volume ÷ rate = 603.186 ÷ 10 ≈ 60.32 minutes, which rounds to 60 minutes. (c) Cost = volume × price per cubic foot = 603.186 × $0.004 ≈ $2.4127, which rounds to $2.41. Therefore the tank holds about 603 ft³, takes about 60 minutes to fill, and costs about $2.41 to fill.",
       "skill": "modeling",
-      "subTopic": "Volume & Surface Area"
+      "subTopic": "Volume & Surface Area",
+      "difficulty": 5,
+      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof."
     }
   ]
 }

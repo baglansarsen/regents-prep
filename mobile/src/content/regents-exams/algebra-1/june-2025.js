@@ -1,4 +1,4 @@
-// Enriched Algebra 1 exam — tagged with skill + subTopic (see content/_shared/lessonEngine.js)
+// Enriched algebra-1 exam — difficulty tags mapped offline
 export default {
   "id": "a1-jun-2025",
   "subject": "algebra-1",
@@ -20,7 +20,9 @@ export default {
       "correct": 0,
       "explanation": "Distribute 3 across (2x − 5) to get 6x − 15, then add 4x to combine like terms: 6x + 4x = 10x, leaving 10x − 15.",
       "diveDeep": "The distributive property a(b + c) = ab + ac is the foundation of simplifying expressions. A common mistake is forgetting to multiply the 3 by BOTH terms inside the parentheses, or combining the constant −15 with the variable terms. Always distribute completely first, then collect like terms (terms with the same variable and exponent). When you see a number directly outside a parenthesis, treat distribution as your first step before anything else.",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 2,
+      "difficultyRationale": "Requires distributing terms and combining like terms in a polynomial expression."
     },
     {
       "number": 2,
@@ -36,7 +38,9 @@ export default {
       "correct": 2,
       "explanation": "This is a difference of two perfect squares, x² − 7², which always factors as (x − 7)(x + 7).",
       "diveDeep": "The difference of squares pattern a² − b² = (a − b)(a + b) appears constantly on the Regents. Recognize it when you see two perfect-square terms separated by a minus sign and no middle term. A frequent error is choosing (x − 7)(x − 7), which would multiply out to x² − 14x + 49 — note the extra middle term. The key is that the two binomial factors are identical except for opposite signs, which makes the middle terms cancel.",
-      "subTopic": "Polynomial Operations"
+      "subTopic": "Polynomial Operations",
+      "difficulty": 1,
+      "difficultyRationale": "Requires foundational factoring of a basic difference of two perfect squares."
     },
     {
       "number": 3,
@@ -52,7 +56,9 @@ export default {
       "correct": 2,
       "explanation": "Substitute −2 for x: 2(−2)² − 3(−2) + 1 = 2(4) + 6 + 1 = 8 + 6 + 1 = 15.",
       "diveDeep": "Evaluating a function means substituting the input value everywhere x appears and following order of operations. The most common mistake is mishandling the negative inside the squared term: (−2)² = 4 (positive), not −4. Use parentheses around the substituted value to keep signs correct, and remember that −3(−2) = +6 because a negative times a negative is positive.",
-      "subTopic": "Function Notation"
+      "subTopic": "Function Notation",
+      "difficulty": 2,
+      "difficultyRationale": "Requires evaluating a function for a given numerical input using order of operations."
     },
     {
       "number": 4,
@@ -69,7 +75,9 @@ export default {
       "explanation": "Compound interest grows by a constant percentage (a constant multiplier) each period, which is the defining feature of exponential growth.",
       "diveDeep": "Linear models change by a constant ADDED amount per step, while exponential models change by a constant MULTIPLIED factor (percentage) per step. Constant speed, flat fees plus hourly rates, and fixed monthly costs all add equal amounts, making them linear. Interest \"compounded annually\" multiplies the balance by 1.03 each year, so the increase itself grows over time — the hallmark of exponential behavior. Ask yourself: is the quantity adding the same number, or multiplying by the same number?",
       "skill": "modeling",
-      "subTopic": "Exponential Functions"
+      "subTopic": "Exponential Functions",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
     },
     {
       "number": 5,
@@ -85,7 +93,9 @@ export default {
       "correct": 1,
       "explanation": "Subtract 4 from both sides to get −2x < 6, then divide by −2 and flip the inequality sign to get x > −3.",
       "diveDeep": "The single most important rule for inequalities: whenever you multiply or divide both sides by a negative number, you must reverse the inequality symbol. Here dividing by −2 changes < to >. Students who forget this get x < −3, which is the wrong half of the number line. You can always check your answer by testing a value — try x = 0: 4 − 2(0) = 4 < 10 is true, and 0 > −3 is also true, confirming the solution.",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
     },
     {
       "number": 6,
@@ -101,7 +111,9 @@ export default {
       "correct": 0,
       "explanation": "Substituting x = 2 gives y = 3(2) − 5 = 6 − 5 = 1, so the point (2, 1) satisfies the equation.",
       "diveDeep": "A point lies on a line only if its coordinates make the equation true. Test each candidate by substituting the x-value and checking whether the result equals the given y-value. Be careful with ordered-pair order: (2, 1) means x = 2 and y = 1, while (1, 2) means x = 1 and y = 2 — swapping them is a classic error. When a point fails, the left and right sides simply won't balance.",
-      "subTopic": "Linear Functions & Graphing"
+      "subTopic": "Linear Functions & Graphing",
+      "difficulty": 2,
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
     },
     {
       "number": 7,
@@ -117,7 +129,9 @@ export default {
       "correct": 0,
       "explanation": "Slope = (y₂ − y₁)/(x₂ − x₁) = (−8 − 4)/(3 − (−1)) = −12/4 = −3.",
       "diveDeep": "Slope measures the change in y over the change in x (\"rise over run\"). The two most common errors are subtracting the coordinates in inconsistent orders (you must keep the same point first in both numerator and denominator) and mishandling the negatives, especially 3 − (−1) = 4. A negative slope means the line falls from left to right, which makes sense here since y dropped from 4 to −8 as x increased.",
-      "subTopic": "Linear Functions & Graphing"
+      "subTopic": "Linear Functions & Graphing",
+      "difficulty": 2,
+      "difficultyRationale": "Requires calculating the constant rate of change (slope) from a table or points."
     },
     {
       "number": 8,
@@ -133,7 +147,9 @@ export default {
       "correct": 1,
       "explanation": "Multiply the coefficients (2 × 4 = 8) and add the exponents of like bases (x³ · x² = x⁵), giving 8x⁵.",
       "diveDeep": "When multiplying powers with the same base, you ADD the exponents: xᵃ · xᵇ = xᵃ⁺ᵇ. The coefficients are multiplied normally. A frequent mistake is multiplying the exponents (3 × 2 = 6) instead of adding them, or adding the coefficients. Keep the two operations separate: coefficients multiply, exponents add. This contrasts with the power-of-a-power rule (xᵃ)ᵇ = xᵃᵇ where exponents DO multiply.",
-      "subTopic": "Polynomial Operations"
+      "subTopic": "Polynomial Operations",
+      "difficulty": 2,
+      "difficultyRationale": "Requires distributing terms and combining like terms in a polynomial expression."
     },
     {
       "number": 9,
@@ -149,7 +165,9 @@ export default {
       "correct": 1,
       "explanation": "Dividing 2y = 4x + 6 by 2 gives y = 2x + 3, with slope 2; a parallel line must have the same slope of 2, which is y = 2x + 1.",
       "diveDeep": "Parallel lines have equal slopes but different y-intercepts. First put the given equation into slope-intercept form (y = mx + b) by isolating y so the slope is clearly visible. Here the slope is 2. Perpendicular lines, by contrast, have slopes that are negative reciprocals (the perpendicular slope would be −1/2). Don't confuse the two — the answer y = −1/2 x + 5 is a perpendicular slope, a tempting distractor.",
-      "subTopic": "Linear Functions & Graphing"
+      "subTopic": "Linear Functions & Graphing",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 10,
@@ -165,7 +183,9 @@ export default {
       "correct": 2,
       "explanation": "Divide each term by 2x: 8x² ÷ 2x = 4x and 2x ÷ 2x = 1, giving 4x + 1.",
       "diveDeep": "To divide a polynomial by a monomial, split the fraction so each term of the numerator is divided separately by the denominator. A very common error is forgetting that 2x ÷ 2x = 1 (not 0 and not just x), which would lose the \"+ 1\" term. When dividing powers of the same base you subtract exponents: x² ÷ x¹ = x¹. Always check by multiplying your answer back by 2x to recover the original expression.",
-      "subTopic": "Polynomial Operations"
+      "subTopic": "Polynomial Operations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 11,
@@ -181,7 +201,9 @@ export default {
       "correct": 1,
       "explanation": "Completing the square adds (−6/2)² = 9 to both sides: x² − 6x + 9 = 27 + 9, and the left side factors as (x − 3)².",
       "diveDeep": "Completing the square turns x² + bx into a perfect-square trinomial by adding (b/2)². Here b = −6, so (b/2)² = (−3)² = 9. Crucially, whatever you add to one side you must add to the OTHER side to keep the equation balanced — that is why the right side becomes 27 + 9, not 27 − 9. This technique underlies the quadratic formula and is essential for finding the vertex form of a parabola.",
-      "subTopic": "Quadratic Models"
+      "subTopic": "Quadratic Models",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 12,
@@ -198,7 +220,9 @@ export default {
       "image": "/images/exams/alg1-june-2025/q12.png",
       "explanation": "The interquartile range (IQR) is the width of the box (Q3 − Q1); when both boxes span the same distance, the IQRs are equal even if the centers differ.",
       "diveDeep": "A box plot displays a five-number summary: minimum, Q1, median, Q3, and maximum. The IQR is the length of the box, the range is the distance from minimum to maximum (whisker to whisker), and the median is the line inside the box. Box plots show the distribution of values but NOT how many data points there are, so you can never conclude which team has more athletes. Always match each statement to the specific feature of the plot it describes.",
-      "subTopic": "Data & Distributions"
+      "subTopic": "Data & Distributions",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 13,
@@ -216,7 +240,9 @@ export default {
       "explanation": "The domain is the set of all x-values the graph covers; the graph spans from x = 15 to x = 45, written in interval notation as [15, 45].",
       "diveDeep": "Domain refers to all possible input (x) values, while range refers to all output (y) values — students frequently swap them. Read the domain by looking at how far the graph extends left and right (its horizontal span). Interval notation uses square brackets [ ] for included endpoints and parentheses ( ) for excluded endpoints. Here both endpoints are part of the graph, so brackets are used: [15, 45].",
       "skill": "graphing",
-      "subTopic": "Domain & Range"
+      "subTopic": "Domain & Range",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 14,
@@ -232,7 +258,9 @@ export default {
       "correct": 3,
       "explanation": "Adding a rational number (3) to an irrational number (√2) always produces an irrational number, whose decimal neither terminates nor repeats.",
       "diveDeep": "A rational number can be written as a fraction of integers and has a decimal that either terminates or repeats; an irrational number (like √2 or π) cannot, and its decimal goes on forever without repeating. The sum of a rational and an irrational is always irrational. Watch the wording carefully: \"terminating decimal\" describes a rational number, so any choice using that phrase to justify \"irrational\" is internally contradictory. The correct reasoning must pair \"irrational\" with \"cannot be expressed as a terminating or repeating decimal.\"",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 15,
@@ -248,7 +276,9 @@ export default {
       "correct": 1,
       "explanation": "Since a⁸ = (a⁴)² and b⁶ = (b³)², the expression equals (a⁴)² − (b³)², a difference of squares.",
       "diveDeep": "Recognizing perfect squares hidden in exponents is key: (a⁴)² = a⁴·² = a⁸ and (b³)² = b³·² = b⁶, because the power-of-a-power rule multiplies exponents. The trap answer (a⁴ − b³)² is NOT equal, since squaring a binomial produces a middle term: (a⁴ − b³)² = a⁸ − 2a⁴b³ + b⁶. The expression a⁸ − b⁶ is a difference of two squares but written as the difference of the squared terms, not a single squared binomial.",
-      "subTopic": "Polynomial Operations"
+      "subTopic": "Polynomial Operations",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 16,
@@ -264,7 +294,9 @@ export default {
       "correct": 0,
       "explanation": "Simplify each radical: √27 = 3√3 and √12 = 2√3, so the sum is 3√3 + 2√3 = 5√3.",
       "diveDeep": "To add radicals you must first simplify each one to find like radical terms — only radicals with the same radicand (the number under the root) can be combined. Factor out perfect squares: 27 = 9 · 3 so √27 = 3√3, and 12 = 4 · 3 so √12 = 2√3. A common error is adding the radicands (27 + 12) under one root, which is invalid. Treat √3 like a variable: 3√3 + 2√3 = 5√3, just as 3x + 2x = 5x.",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 17,
@@ -280,7 +312,9 @@ export default {
       "correct": 0,
       "explanation": "Jack’s age is x, Tim’s age is \"4 less than 7 times Jack’s age\" = 7x − 4, and their sum is 44, giving (7x − 4) + x = 44.",
       "diveDeep": "Translating words into algebra requires careful attention to phrasing. \"4 less than 7 times x\" means start with 7x and subtract 4, written 7x − 4, NOT 4 − 7x (the order of subtraction matters). Then \"the sum of Tim and Jack\" means add both ages together and set equal to 44. Build each person's expression separately before combining, and reread the problem to confirm the subtraction order.",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 18,
@@ -296,7 +330,9 @@ export default {
       "correct": 0,
       "explanation": "Substitute −2: (−2)² − 2(−2) + 3 = 4 + 4 + 3 = 11.",
       "diveDeep": "When substituting a negative input, always wrap it in parentheses to handle signs correctly. Here (−2)² = 4 (a negative squared is positive) and −2(−2) = +4 (negative times negative). Forgetting that the squared term is positive, or mishandling the double negative in the middle term, are the usual mistakes. Follow order of operations: exponents first, then multiplication, then addition.",
-      "subTopic": "Function Notation"
+      "subTopic": "Function Notation",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 19,
@@ -313,7 +349,9 @@ export default {
       "image": "/images/exams/alg1-june-2025/q19.png",
       "explanation": "A graph represents a function if it passes the vertical line test; graphs A, B, and C each have at most one y-value per x-value, while D fails (a vertical line crosses it more than once).",
       "diveDeep": "The vertical line test is the quickest way to identify a function from a graph: if any vertical line crosses the graph more than once, that x-value maps to multiple y-values, so it is NOT a function. Sideways parabolas, circles, and other relations fail this test. The definition of a function is that each input has exactly one output — graphs like A, B, and C satisfy this, while D does not.",
-      "subTopic": "Interpreting Graphs"
+      "subTopic": "Interpreting Graphs",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 20,
@@ -329,7 +367,9 @@ export default {
       "correct": 0,
       "explanation": "Starting from K = ½mv², multiply both sides by 2 to get 2K = mv², then divide both sides by v² to isolate m = 2K/v².",
       "diveDeep": "Solving a formula for a different variable (literal equation) uses the same inverse-operation logic as solving for x. To undo multiplication by ½, multiply by 2; to undo multiplication by v², divide by v². Perform the inverse operations in reverse order of operations to peel away everything attached to the target variable. The result m = 2K/v² keeps K and v² where they belong — a common error is leaving v² in the numerator instead of the denominator.",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 21,
@@ -345,7 +385,9 @@ export default {
       "correct": 0,
       "explanation": "Distribute: 2x − 14 = x − 1, then subtract x from both sides to get x − 14 = −1, so x = 13.",
       "diveDeep": "When a fraction multiplies a parenthesis, distribute it across each term: ⅔ · 3x = 2x and ⅔ · 21 = 14. Then move variable terms to one side and constants to the other using inverse operations. A common slip is mis-multiplying ⅔ by 3x or by 21. Always verify by substituting back: ⅔(3·13 − 21) = ⅔(18) = 12, and 13 − 1 = 12 — both sides match, confirming x = 13.",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 22,
@@ -362,7 +404,9 @@ export default {
       "explanation": "Each term is half the previous one, so the common ratio is ½ and the explicit geometric formula is aₙ = a₁·rⁿ⁻¹ = 12·(½)ⁿ⁻¹.",
       "diveDeep": "A geometric sequence multiplies by a constant ratio each step; find r by dividing any term by the one before it (6 ÷ 12 = ½). The explicit formula is aₙ = a₁ · rⁿ⁻¹, where the exponent is n − 1 so that the first term (n = 1) gives a₁ · r⁰ = a₁. Using exponent n instead of n − 1 shifts the whole sequence and is a frequent mistake. Check: a₂ = 12·(½)¹ = 6, which matches the second term.",
       "skill": "modeling",
-      "subTopic": "Arithmetic Sequences"
+      "subTopic": "Arithmetic Sequences",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 23,
@@ -380,7 +424,9 @@ export default {
       "explanation": "The axis of symmetry is x = −b/(2a); for g(x) = x² + 4x + 3, that is −4/(2·1) = −2.",
       "diveDeep": "Every parabola is symmetric about the vertical line x = −b/(2a), where a and b come from the standard form ax² + bx + c. This line passes through the vertex. Be careful with signs: the formula already includes a negative, so a positive b gives a negative axis. For g(x), b = +4 yields x = −4/2 = −2. The other choices give different axes: f(x) gives x = 2, h(x) gives x = −1, and j(x) gives x = 2.",
       "skill": "graphing",
-      "subTopic": "Graphing Parabolas"
+      "subTopic": "Graphing Parabolas",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 24,
@@ -397,7 +443,9 @@ export default {
       "explanation": "Dimensional analysis: 49 mi/hr × 5280 ft/mi cancels miles to ft/hr, × 1 car/56 ft cancels feet to cars/hr, × 1 hr/60 min cancels hours to give cars/min.",
       "diveDeep": "Unit conversion (dimensional analysis) works by multiplying conversion factors arranged so unwanted units cancel diagonally — one unit in a numerator cancels the same unit in a denominator. To convert miles to feet you multiply by 5280 ft/mi (feet on top). To convert per-hour to per-minute, you must DIVIDE by 60, which means multiplying by (1 hr/60 min) so hours cancel and minutes land in the denominator. Track each unit carefully and confirm the final answer has the units \"cars per minute.\"",
       "skill": "modeling",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 25,
@@ -409,7 +457,9 @@ export default {
       "diveDeep": "To solve a linear-quadratic system algebraically, use substitution: set the two expressions for y equal to each other, then collect all terms on one side to form a quadratic equal to zero. Factor (or use the quadratic formula) to find the x-values, then substitute each back into the simpler linear equation to get its y-value. The solutions are the intersection points of the parabola and the line — there can be two, one, or zero real solutions depending on how they meet.",
       "modelAnswer": "Set the two expressions for y equal:\nx² + 4x − 5 = 2x − 2\nMove all terms to one side:\nx² + 4x − 5 − 2x + 2 = 0\nx² + 2x − 3 = 0\nFactor:\n(x + 3)(x − 1) = 0\nSo x = −3 or x = 1.\nSubstitute into y = 2x − 2:\nWhen x = −3: y = 2(−3) − 2 = −8, giving (−3, −8).\nWhen x = 1: y = 2(1) − 2 = 0, giving (1, 0).\nThe solutions are (−3, −8) and (1, 0).",
       "skill": "procedure",
-      "subTopic": "Solving Quadratics"
+      "subTopic": "Solving Quadratics",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 26,
@@ -421,7 +471,9 @@ export default {
       "diveDeep": "For an exponential function in the form f(x) = a·bˣ, the value a is the y-intercept (since b⁰ = 1) and b is the growth/decay factor. If b > 1 the function grows; if 0 < b < 1 it decays. The base controls direction and the multiplier a controls starting height. A common mistake is thinking 2⁰ = 0 — any nonzero base raised to the power 0 equals 1, so f(0) = a.",
       "modelAnswer": "The y-intercept is found by evaluating f(0):\nf(0) = 3(2)⁰ = 3(1) = 3.\nSo the y-intercept is (0, 3).\nThe function represents growth because the base of the exponent, 2, is greater than 1. Since each time x increases by 1 the output is multiplied by 2, the value of the function increases, which is exponential growth.",
       "skill": "reasoning",
-      "subTopic": "Exponential Functions"
+      "subTopic": "Exponential Functions",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 27,
@@ -433,7 +485,9 @@ export default {
       "diveDeep": "Factoring completely means continuing until no factor can be broken down further. Always start by pulling out the greatest common factor (GCF) — here both terms share 3x. After factoring out the GCF, examine what remains for additional patterns; x² − 4 is a difference of squares. Stopping at 3x(x² − 4) is incomplete and loses credit. The complete answer must show every factor fully reduced.",
       "modelAnswer": "First, factor out the greatest common factor, 3x:\n3x³ − 12x = 3x(x² − 4)\nThe remaining factor x² − 4 is a difference of two perfect squares (x² − 2²), which factors as (x + 2)(x − 2):\n3x(x² − 4) = 3x(x + 2)(x − 2)\nThe complete factorization is 3x(x + 2)(x − 2).",
       "skill": "procedure",
-      "subTopic": "Factoring"
+      "subTopic": "Factoring",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 28,
@@ -445,7 +499,9 @@ export default {
       "diveDeep": "To decide between linear and exponential, compare consecutive data values. If the differences are constant (same amount added each step), the data is linear; if the ratios are constant (same factor multiplied each step), it is exponential. Here the differences (100, 200, 400) keep changing, but the ratios (200/100 = 2, 400/200 = 2, 800/400 = 2) are all equal to 2. Constant ratio means exponential.",
       "modelAnswer": "An exponential model best fits the data.\nJustification: From hour to hour the number of bacteria is multiplied by a constant factor rather than increased by a constant amount.\n200 ÷ 100 = 2, 400 ÷ 200 = 2, 800 ÷ 400 = 2.\nSince the data increases by a common ratio of 2 each hour (not a common difference), the growth is exponential, not linear.",
       "skill": "reasoning",
-      "subTopic": "Exponential Functions"
+      "subTopic": "Exponential Functions",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 29,
@@ -457,7 +513,9 @@ export default {
       "diveDeep": "To graph a parabola, first find the axis of symmetry x = −b/(2a) to locate the vertex (the turning point), then build a table of values on either side. Because parabolas are symmetric, points equidistant from the axis share the same y-value, which speeds up plotting. With a = 1 > 0 the parabola opens upward, so the vertex is a minimum. Always label the vertex and at least a few points to earn full credit.",
       "modelAnswer": "Find the axis of symmetry: x = −b/(2a) = −(−2)/(2·1) = 1.\nFind the vertex by evaluating f(1): f(1) = (1)² − 2(1) − 3 = 1 − 2 − 3 = −4.\nVertex: (1, −4).\nTable of values:\nx = −2: f(−2) = 4 + 4 − 3 = 5 → (−2, 5)\nx = −1: f(−1) = 1 + 2 − 3 = 0 → (−1, 0)\nx = 0: f(0) = 0 − 0 − 3 = −3 → (0, −3)\nx = 1: f(1) = −4 → (1, −4)\nx = 2: f(2) = 4 − 4 − 3 = −3 → (2, −3)\nx = 3: f(3) = 9 − 6 − 3 = 0 → (3, 0)\nx = 4: f(4) = 16 − 8 − 3 = 5 → (4, 5)\nPlot these points and draw a smooth upward-opening parabola. The vertex is (1, −4).",
       "skill": "graphing",
-      "subTopic": "Graphing Parabolas"
+      "subTopic": "Graphing Parabolas",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 30,
@@ -468,7 +526,9 @@ export default {
       "explanation": "The explicit formula is aₙ = 7 + 4(n − 1); substituting n = 10 gives a₁₀ = 7 + 4(9) = 7 + 36 = 43.",
       "diveDeep": "An arithmetic sequence adds a constant common difference d each step. Its explicit formula is aₙ = a₁ + d(n − 1), where the (n − 1) ensures the first term equals a₁ when n = 1. Confusing arithmetic with geometric sequences (which multiply) is a common error — arithmetic uses addition and a linear formula. To find a specific term, substitute its position number for n and simplify.",
       "modelAnswer": "For an arithmetic sequence, aₙ = a₁ + d(n − 1), where a₁ = 7 and d = 4.\nExplicit formula: aₙ = 7 + 4(n − 1).\nThis can also be written as aₙ = 4n + 3.\nFind the 10th term by substituting n = 10:\na₁₀ = 7 + 4(10 − 1) = 7 + 4(9) = 7 + 36 = 43.\nThe 10th term is 43.",
-      "subTopic": "Arithmetic Sequences"
+      "subTopic": "Arithmetic Sequences",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 31,
@@ -479,7 +539,9 @@ export default {
       "explanation": "Let width = w and length = 2w + 3; the perimeter equation 2(w) + 2(2w + 3) = 66 simplifies to 6w + 6 = 66, so w = 10 and length = 23.",
       "diveDeep": "Word problems with geometric figures require defining a variable, translating relationships into expressions, and applying the correct formula (perimeter = 2l + 2w for a rectangle). Define the width as the simplest unknown and express the length in terms of it. Carefully translate \"3 more than twice the width\" as 2w + 3. After solving for the variable, remember to find BOTH dimensions and include units.",
       "modelAnswer": "Let w = the width of the garden in feet.\nThen the length = 2w + 3.\nThe perimeter of a rectangle is P = 2(length) + 2(width):\n2(2w + 3) + 2(w) = 66\n4w + 6 + 2w = 66\n6w + 6 = 66\n6w = 60\nw = 10\nThe width is 10 feet.\nThe length is 2(10) + 3 = 23 feet.\nThe garden is 10 feet wide and 23 feet long.",
-      "subTopic": "Solving Equations & Inequalities"
+      "subTopic": "Solving Equations & Inequalities",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 32,
@@ -491,7 +553,9 @@ export default {
       "diveDeep": "For quadratics where a ≠ 1, factor using the AC method: multiply a·c (here 2·−3 = −6) and find two numbers that multiply to −6 and add to the middle coefficient 5 (those are 6 and −1). Then split the middle term and factor by grouping, or use the quadratic formula if factoring is difficult. Once factored, apply the zero-product property: if a product equals zero, at least one factor must be zero. Solve each factor separately.",
       "modelAnswer": "Factor 2x² + 5x − 3 using the AC method.\na·c = 2·(−3) = −6. Find two numbers that multiply to −6 and add to 5: those are 6 and −1.\nSplit the middle term:\n2x² + 6x − x − 3 = 0\nFactor by grouping:\n2x(x + 3) − 1(x + 3) = 0\n(2x − 1)(x + 3) = 0\nSet each factor equal to zero:\n2x − 1 = 0 → x = ½\nx + 3 = 0 → x = −3\nThe solutions are x = ½ and x = −3.",
       "skill": "procedure",
-      "subTopic": "Solving Quadratics"
+      "subTopic": "Solving Quadratics",
+      "difficulty": 3,
+      "difficultyRationale": "Standard Regents Part II constructed-response requiring multi-step algebraic solving or graphing."
     },
     {
       "number": 33,
@@ -503,7 +567,9 @@ export default {
       "diveDeep": "Solving f(x) = g(x) graphically means finding the x-coordinates of intersection points; algebraically it means setting the two expressions equal and solving. Here setting −3x = x² + 2 and rearranging to x² + 3x + 2 = 0 gives a factorable quadratic. A common mistake is giving the full ordered pairs instead of just the x-values — the question asks only for the values of x. Verify each answer by checking that f(x) equals g(x): f(−1) = 3 and g(−1) = 1 + 2 = 3 ✓; f(−2) = 6 and g(−2) = 4 + 2 = 6 ✓.",
       "modelAnswer": "Graph f(x) = −3x (a line through the origin with slope −3) and g(x) = x² + 2 (an upward-opening parabola shifted up 2 units) on the same axes.\n\nTo find where f(x) = g(x), set the expressions equal:\n−3x = x² + 2\nMove all terms to one side:\n0 = x² + 3x + 2\nFactor:\n0 = (x + 1)(x + 2)\nSet each factor equal to zero:\nx + 1 = 0 → x = −1\nx + 2 = 0 → x = −2\n\nCheck: f(−1) = −3(−1) = 3 and g(−1) = (−1)² + 2 = 3 ✓\nf(−2) = −3(−2) = 6 and g(−2) = (−2)² + 2 = 6 ✓\n\nThe values of x that satisfy f(x) = g(x) are x = −1 and x = −2.",
       "skill": "graphing",
-      "subTopic": "Function Notation"
+      "subTopic": "Function Notation",
+      "difficulty": 4,
+      "difficultyRationale": "Standard Regents Part III constructed-response requiring multi-step modeling, graphing, and algebraic justification."
     },
     {
       "number": 34,
@@ -515,7 +581,9 @@ export default {
       "diveDeep": "The quadratic formula x = (−b ± √(b² − 4ac)) / (2a) always works, but simplifying the result requires reducing the radical and the fraction. Here √28 = √(4·7) = 2√7, and dividing numerator and denominator by 2 gives (−1 ± √7)/6. A frequent error is forgetting to simplify the radical or not dividing ALL terms in the numerator by the common factor. \"Simplest radical form\" means the radicand has no perfect-square factors and the fraction is fully reduced.",
       "modelAnswer": "Identify a = 6, b = 2, c = −1.\nApply the quadratic formula:\nx = (−b ± √(b² − 4ac)) / (2a)\nx = (−2 ± √(2² − 4(6)(−1))) / (2·6)\nx = (−2 ± √(4 + 24)) / 12\nx = (−2 ± √28) / 12\n\nSimplify √28:\n√28 = √(4·7) = 2√7\n\nSubstitute back:\nx = (−2 ± 2√7) / 12\n\nDivide numerator and denominator by 2:\nx = (−1 ± √7) / 6\n\nThe solutions in simplest radical form are x = (−1 + √7) / 6 and x = (−1 − √7) / 6.",
       "skill": "procedure",
-      "subTopic": "Solving Quadratics"
+      "subTopic": "Solving Quadratics",
+      "difficulty": 4,
+      "difficultyRationale": "Standard Regents Part III constructed-response requiring multi-step modeling, graphing, and algebraic justification."
     },
     {
       "number": 35,
@@ -528,7 +596,9 @@ export default {
       "diveDeep": "Linear regression finds the line of best fit that minimizes the sum of squared vertical distances from data points to the line. The slope (−23.67) tells you the average price drops about $23.67 per month. The correlation coefficient r ranges from −1 to 1: values close to ±1 indicate a strong linear relationship, values near 0 indicate little to no linear correlation, and a negative r means the variables move in opposite directions. Students often confuse r (correlation coefficient) with r² (coefficient of determination) — the question asks for r specifically.",
       "modelAnswer": "Enter the data into a calculator using the linear regression (LinReg) function:\nx-values: 0, 3, 6, 9, 12\ny-values: 1200, 1150, 1100, 1000, 920\n\nThe linear regression equation (rounded to the nearest hundredth):\ny = −23.67x + 1216.00\n\nThe correlation coefficient (rounded to the nearest hundredth):\nr = −0.99\n\nInterpretation: The correlation coefficient of −0.99 indicates a strong negative linear relationship between the time since release and the price of the cell phone. As the time since release increases, the price decreases in a pattern that is very closely modeled by a linear equation.",
       "skill": "modeling",
-      "subTopic": "Scatter Plots & Correlation"
+      "subTopic": "Scatter Plots & Correlation",
+      "difficulty": 4,
+      "difficultyRationale": "Requires performing linear regression, writing the equation, finding the correlation coefficient, and interpreting its sign in context."
     },
     {
       "number": 36,
@@ -540,7 +610,9 @@ export default {
       "diveDeep": "To solve a linear-quadratic system algebraically, isolate y in the simpler (linear) equation and substitute into the quadratic. After collecting all terms on one side, factor or use the quadratic formula. A common mistake is forgetting to find the corresponding y-values after finding the x-values — the question asks for all values of x AND y, so both coordinates of each intersection point are required. Always substitute back into the linear equation (not the quadratic) for the y-values, as the arithmetic is simpler.",
       "modelAnswer": "Rewrite the second equation to isolate y:\ny − 2x = −6\ny = 2x − 6\n\nSubstitute into the first equation:\n2x − 6 = x² + 9x + 4\nMove all terms to one side:\n0 = x² + 9x + 4 − 2x + 6\n0 = x² + 7x + 10\n\nFactor:\n0 = (x + 5)(x + 2)\n\nSet each factor equal to zero:\nx + 5 = 0 → x = −5\nx + 2 = 0 → x = −2\n\nFind the corresponding y-values using y = 2x − 6:\nWhen x = −5: y = 2(−5) − 6 = −10 − 6 = −16\nWhen x = −2: y = 2(−2) − 6 = −4 − 6 = −10\n\nCheck (−5, −16): y = (−5)² + 9(−5) + 4 = 25 − 45 + 4 = −16 ✓\nCheck (−2, −10): y = (−2)² + 9(−2) + 4 = 4 − 18 + 4 = −10 ✓\n\nThe solutions are (−5, −16) and (−2, −10).",
       "skill": "procedure",
-      "subTopic": "Solving Quadratics"
+      "subTopic": "Solving Quadratics",
+      "difficulty": 4,
+      "difficultyRationale": "Standard Regents Part III constructed-response requiring multi-step modeling, graphing, and algebraic justification."
     },
     {
       "number": 37,
@@ -552,7 +624,9 @@ export default {
       "diveDeep": "Modeling a real-world constraint system requires translating each condition into a separate inequality. The earnings constraint uses the rates as coefficients ($6 and $12 per hour) and \"at least\" means ≥. The time constraint uses the total hours and \"maximum\" means ≤. After graphing, the solution region is the overlap of all shaded areas. To justify a specific answer, show that the chosen point satisfies BOTH inequalities by substituting the values — one substitution check per inequality is required for full credit. Don't forget that x ≥ 0 and y ≥ 0 because hours cannot be negative.",
       "modelAnswer": "Define variables: x = hours babysitting, y = hours tutoring.\n\nSystem of inequalities:\nEarnings constraint (at least $120): 6x + 12y ≥ 120  (which simplifies to x + 2y ≥ 20)\nTime constraint (maximum 14 hours): x + y ≤ 14\nAlso: x ≥ 0 and y ≥ 0 (hours cannot be negative)\n\nTo graph:\n• Graph x + 2y = 20 (or 6x + 12y = 120): y-intercept (0, 10), x-intercept (20, 0). Shade above (toward higher earnings).\n• Graph x + y = 14: y-intercept (0, 14), x-intercept (14, 0). Shade below (toward fewer hours).\n• The solution region is where the two shaded areas overlap in the first quadrant.\n\nSample valid combination: x = 2 hours babysitting, y = 10 hours tutoring.\n\nJustification:\nEarnings: 6(2) + 12(10) = 12 + 120 = $132 ≥ $120 ✓\nTotal hours: 2 + 10 = 12 ≤ 14 ✓\nBoth constraints are satisfied, so working 2 hours babysitting and 10 hours tutoring is a valid solution.",
       "skill": "reasoning",
-      "subTopic": "Linear Functions & Graphing"
+      "subTopic": "Linear Functions & Graphing",
+      "difficulty": 5,
+      "difficultyRationale": "Part IV constructed-response requiring multi-step mathematical modeling."
     }
   ]
 }
