@@ -279,6 +279,13 @@ export default function QuizScreen({ route, navigation }) {
       resolveCorrect(correctQs, subject)
 
       if (hasGraded) saveResult({ topic, score, total: gradedTotal, correct, pct, subject, lessonIndex })
+
+      // Clear the Level 0 remediation flag once the student completes any basic-math lesson
+      if (subject === 'basic-math' && uid) {
+        const AsyncStorage = require('@react-native-async-storage/async-storage').default
+        AsyncStorage.removeItem(`@needsLevel0_v1_${uid}`).catch(() => {})
+      }
+
       markStudied()
       // Evolve against the authoritative post-award total, not the stale `xp` state
       earnRP(rpEarned).then((newTotal) => checkAndEvolve(newTotal ?? rp + rpEarned))
