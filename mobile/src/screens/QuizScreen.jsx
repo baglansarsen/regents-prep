@@ -487,13 +487,11 @@ export default function QuizScreen({ route, navigation }) {
               style={{ marginTop: 12 }}
               text={[currentQuestion.context, currentQuestion.text].filter(Boolean).join('. ')}
             />
-            {getTutorHint(currentQuestion) && phase === 'answering' && (
+            {(() => { const hint = getTutorHint(currentQuestion); return hint && phase === 'answering' && (
               <View style={s.tutorHintBox}>
-                <Text style={s.tutorHintText}>
-                  {getTutorHint(currentQuestion)}
-                </Text>
+                <Text style={s.tutorHintText}>{hint}</Text>
               </View>
-            )}
+            ); })()}
           </Animated.View>
 
           {isWritten ? (

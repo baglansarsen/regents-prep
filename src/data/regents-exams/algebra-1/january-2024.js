@@ -538,8 +538,7 @@ export default {
       "diveDeep": "Real-world linear models take the form y = (fixed amount) + (rate)(number of items). Identify the base salary as the constant and the per-car commission as the coefficient of x. To find the number of cars for a given total, substitute the total for y and solve the linear equation: subtract the base, then divide by the rate. Show each algebraic step — stating only the answer typically loses credit on constructed-response questions.",
       "modelAnswer": "Equation: y = 1500 + 250x, where x is the number of cars sold and y is total monthly earnings. Set y = 4750: 4750 = 1500 + 250x. Subtract 1500: 3250 = 250x. Divide by 250: x = 13. Caleb sold 13 cars that month.",
       "difficulty": 4,
-      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point.",
-      "isLiteralEquation": true
+      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point."
     },
     {
       "number": 35,

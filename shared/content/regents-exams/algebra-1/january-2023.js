@@ -559,8 +559,7 @@ export default {
       "explanation": "Both groups have similar means, but Group B's larger standard deviation shows its heights vary more widely around the mean.",
       "diveDeep": "Use the statistics functions on a graphing calculator (1-Var Stats) to find the mean (x̄) and population standard deviation (σx). The mean measures center; the standard deviation measures spread. When comparing data sets, address both: similar centers with different spreads mean one set is more consistent. Be sure to use population standard deviation (σx) when the problem specifies \"population.\"",
       "difficulty": 4,
-      "difficultyRationale": "Requires performing linear regression, writing the equation, finding the correlation coefficient, and interpreting its sign in context.",
-      "isLiteralEquation": true
+      "difficultyRationale": "Requires performing linear regression, writing the equation, finding the correlation coefficient, and interpreting its sign in context."
     },
     {
       "number": 36,

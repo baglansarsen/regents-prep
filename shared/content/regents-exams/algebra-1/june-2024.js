@@ -618,8 +618,7 @@ export default {
       "skill": "modeling",
       "subTopic": "Solving Equations & Inequalities",
       "difficulty": 4,
-      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point.",
-      "isLiteralEquation": true
+      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point."
     },
     {
       "number": 37,
@@ -633,8 +632,7 @@ export default {
       "skill": "reasoning",
       "subTopic": "Graphing Parabolas",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response requiring multi-step mathematical modeling.",
-      "isLiteralEquation": true
+      "difficultyRationale": "Part IV constructed-response requiring multi-step mathematical modeling."
     }
   ]
 }

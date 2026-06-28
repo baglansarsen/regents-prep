@@ -543,8 +543,7 @@ export default {
       "modelAnswer": "t₁ = 5\nt₂ = 3(5) − 2 = 15 − 2 = 13\nt₃ = 3(13) − 2 = 39 − 2 = 37\nt₄ = 3(37) − 2 = 111 − 2 = 109\nThe first four terms are 5, 13, 37, and 109.",
       "subTopic": "Arithmetic Sequences",
       "difficulty": 3,
-      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others.",
-      "isLiteralEquation": true
+      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others."
     },
     {
       "number": 32,
