@@ -53,6 +53,7 @@ import { PETS_ENABLED } from '../config/features'
 import { useGoal } from '../context/GoalContext'
 import { usePredictedScore } from '../hooks/usePredictedScore'
 import { pickSmartQuest } from '../utils/smartQuest'
+import { pickTodayMission } from '../utils/todayMission'
 import { tierFor } from '../data/goalConfig'
 
 const MILESTONE_GIFTS = {
@@ -150,6 +151,16 @@ export default function HomeScreen({ navigation }) {
     hasTakenPracticeExam,
     weakestUnit,
   }), [regentsGoal, daysToExam, subject, studiedDates, hasTakenPracticeExam, weakestUnit])
+
+  // ── Today's Mission — single highest-priority action ───────────────────────
+  const mission = useMemo(() => pickTodayMission({
+    hasGoal:              !!regentsGoal,
+    coldStart,
+    daysToExam,
+    hasTakenPracticeExam,
+    dueCount,
+    weakestUnit,
+  }), [regentsGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestUnit])
   useFocusEffect(useCallback(() => {
     reloadHistory()
     reloadSkipUnlocks()
@@ -529,6 +540,39 @@ export default function HomeScreen({ navigation }) {
     }
   }
 
+  // ── Today's Mission dispatcher — routes each actionType to the right helper ─
+  function runMission(m) {
+    switch (m.actionType) {
+      case 'set_goal':
+        navigation.navigate('GoalSetup')
+        break
+      case 'checkup':
+        // Short mixed quiz (~12 questions) — just enough to calibrate the prediction
+        livesGate(() => navigation.navigate('Quiz', {
+          questionSet: shuffle(sd.questions).slice(0, 12),
+          subject,
+        }))
+        break
+      case 'practice_exam':
+        navigation.navigate('ExamsTab')
+        break
+      case 'review_mistakes':
+        startReview(null)
+        break
+      case 'weak_unit_quiz':
+        startQuiz(m.topic)
+        break
+      case 'next_lesson':
+      default:
+        if (firstActiveLesson) {
+          startLesson(firstActiveLesson.unit, firstActiveLesson.lessonIndex)
+        } else {
+          startQuiz(null)
+        }
+        break
+    }
+  }
+
   function startSkipChallenge(unit, unitIdx) {
     const prev = units[unitIdx - 1]
     const pool = shuffle(sd.getByTopic(prev?.topic ?? unit.topic)).slice(0, 15)
@@ -569,15 +613,17 @@ export default function HomeScreen({ navigation }) {
     }
   })
 
-  // ── First unlocked+incomplete path node (for pulse indicator) ─────────────
-  let firstActiveKey = null
+  // ── First unlocked+incomplete path node (for pulse indicator + mission) ────
+  let firstActiveKey    = null
+  let firstActiveLesson = null   // { unit, lessonIndex } — used by runMission next_lesson
   for (const item of pathItems) {
     if (item.type !== 'lesson') continue
     const { unit, unitIdx, lessonIndex } = item
     if (!isUnitUnlocked(unitIdx)) continue
     if (!isLessonUnlocked(unit, lessonIndex)) continue
     if (lessonComplete(unit.topic, lessonIndex)) continue
-    firstActiveKey = `${unit.id}-l${lessonIndex}`
+    firstActiveKey    = `${unit.id}-l${lessonIndex}`
+    firstActiveLesson = { unit, lessonIndex }
     break
   }
 
@@ -687,34 +733,36 @@ export default function HomeScreen({ navigation }) {
               </View>
             </TouchableOpacity>
 
-            {/* Row 2: primary CTA */}
-            <TouchableOpacity
-              style={duoBtn(C.brand, C.brandDark, { marginTop: 12, paddingVertical: 11 })}
-              onPress={() => {
-                if (!regentsGoal) {
-                  navigation.navigate('GoalSetup')
-                } else if (coldStart) {
-                  startQuiz(null)
-                } else {
-                  startTodaysMission()
-                }
-              }}
-              activeOpacity={0.85}
-            >
-              <Text style={[T.btn, { color: '#fff' }]}>
-                {!regentsGoal
-                  ? 'Set Goal'
-                  : coldStart
-                  ? 'Start Checkup'
-                  : predicted != null && predicted < regentsGoal.target
-                  ? "Do Today's Mission"
-                  : 'Keep It Locked'}
-              </Text>
-            </TouchableOpacity>
           </View>
         )}
 
         {/* Week streak moved to the top bar — tap the 🔥 there for the full calendar */}
+
+        {/* ── Today's Mission — single prioritized next action ── */}
+        {goalLoaded && (
+          <View style={[s.missionCard, elevatedCard(C)]}>
+            <View style={s.missionHeader}>
+              <Text style={s.missionIcon}>{mission.icon}</Text>
+              <View style={{ flex: 1 }}>
+                <Text style={[T.label, { color: C.brand, marginBottom: 2 }]}>TODAY'S MISSION</Text>
+                <Text style={[T.h3, { color: C.text }]} numberOfLines={1}>{mission.title}</Text>
+              </View>
+              <View style={[s.missionTimePill, { backgroundColor: C.brand + '18', borderColor: C.brand + '40' }]}>
+                <Text style={[T.small, { color: C.brand, fontSize: 11 }]}>⏱ ~{mission.estimatedMinutes}m</Text>
+              </View>
+            </View>
+            <Text style={[T.small, { color: C.textMuted, marginTop: 4, marginBottom: 12 }]} numberOfLines={2}>
+              {mission.subtitle}
+            </Text>
+            <TouchableOpacity
+              style={duoBtn(C.brand, C.brandDark)}
+              onPress={() => runMission(mission)}
+              activeOpacity={0.85}
+            >
+              <Text style={[T.btn, { color: '#fff' }]}>{mission.cta}</Text>
+            </TouchableOpacity>
+          </View>
+        )}
 
         {/* Streak-at-risk freeze banner */}
         {showFreezeBanner && (
@@ -1477,6 +1525,26 @@ function makeStyles(C) {
     outcomeInfo: {
       flex:       1,
       flexShrink: 1,
+    },
+    missionCard: {
+      marginHorizontal: 16,
+      marginBottom:    14,
+      padding:         16,
+    },
+    missionHeader: {
+      flexDirection: 'row',
+      alignItems:    'center',
+      gap:           12,
+      marginBottom:  2,
+    },
+    missionIcon: {
+      fontSize: 28,
+    },
+    missionTimePill: {
+      borderRadius:    10,
+      paddingHorizontal: 8,
+      paddingVertical:  4,
+      borderWidth:      1,
     },
     goalOption: {
       flexDirection: 'row',
