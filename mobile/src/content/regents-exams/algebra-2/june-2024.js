@@ -58,7 +58,8 @@ export default {
       "diveDeep": "The imaginary unit follows the cycle i, −1, −i, 1, repeating every four powers. To evaluate any power of i, divide the exponent by 4 and use only the remainder: remainder 0 → 1, 1 → i, 2 → −1, 3 → −i. A common mistake is forgetting that i² = −1 and i⁴ = 1, which anchor the entire cycle. This same modular reasoning applies to simplifying any high power of i quickly.",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic application of the cyclic powers of i."
+      "difficultyRationale": "Basic application of the cyclic powers of i.",
+      "isComplexSimplification": true
     },
     {
       "number": 4,
@@ -76,7 +77,8 @@ export default {
       "diveDeep": "A negative under a square root introduces the imaginary unit i, since √(−1) = i. Separate the radical into the perfect-square factor, the remaining radical, and i. The trap here is leaving i under the radical or omitting it entirely and giving a real answer. Always pull out the largest perfect square (25 from 50) so the remaining radical (√2) is fully simplified.",
       "subTopic": "Complex Operations",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question.",
+      "isComplexSimplification": true
     },
     {
       "number": 5,
@@ -186,7 +188,8 @@ export default {
       "diveDeep": "When the discriminant b² − 4ac is negative, the quadratic has two complex-conjugate solutions. Here 16 − 24 = −8 introduces √(−8) = 2i√2, and dividing every term by the common factor 2 simplifies (4 ± 2i√2)/6 to (2 ± i√2)/3. The two most common errors are mishandling the negative under the radical and failing to reduce the fraction fully. Always simplify the radical and the fraction before selecting an answer.",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 11,
@@ -458,7 +461,8 @@ export default {
       "skill": "procedure",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 26,

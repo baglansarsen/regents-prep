@@ -21,7 +21,8 @@ export default {
       "explanation": "i⁰=1, i¹=i, i²=−1, i³=−i, so the sum is 1 + i − 1 − i = 0.",
       "diveDeep": "Powers of i cycle through a period of 4: 1, i, −1, −i, and then repeat. The sum of any four consecutive powers of i is always 0 because they cancel in conjugate-and-opposite pairs. A common trap is forgetting that i⁰ = 1 (not i) or misremembering i² = −1. For larger exponents, reduce the exponent modulo 4 to find the equivalent power.",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 2,
@@ -416,7 +417,8 @@ export default {
       "explanation": "A fourth-degree polynomial has 4 roots total; exactly two imaginary roots means exactly two real roots, so the graph crosses the x-axis exactly twice.",
       "diveDeep": "By the Fundamental Theorem of Algebra, a degree-n polynomial has exactly n roots in the complex numbers, counting multiplicity. Imaginary (non-real) roots come in conjugate pairs, so they always appear in even numbers. If a quartic has exactly two imaginary roots, the other two are real, appearing as exactly two x-intercepts on the graph. The trap is counting turning points or confusing tangent points (double real roots) with crossings. Each distinct real root where the curve passes straight through is one real solution.",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 25,
@@ -494,7 +496,8 @@ export default {
       "explanation": "Multiplying with FOIL and using i² = −1 gives 14 + 5i.",
       "diveDeep": "Multiplying complex numbers uses the distributive property (FOIL) just like binomials, with the key extra step of replacing i² with −1. After distributing, group the real parts and the imaginary parts separately to write the result as a + bi. The most common mistake is forgetting that i² = −1, which converts an imaginary term into a real one and changes its sign. Always simplify i² before combining like terms, then collect real and imaginary parts.",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 31,
@@ -559,7 +562,8 @@ export default {
       "explanation": "Squaring and solving gives x = 11 and x = 3, but x = 3 is extraneous since the radical cannot equal a negative; only x = 11 is valid.",
       "diveDeep": "Solving radical equations requires squaring both sides, which can create extraneous solutions, so checking each candidate in the ORIGINAL equation is mandatory for full credit. When you square, remember to expand (x − 6)² fully as x² − 12x + 36, not just x² + 36 — dropping the middle term is the most common algebra error. The principal square root is non-negative, so any solution that forces the radical to equal a negative number (like x = 3 here, giving −3) must be rejected. State explicitly which solutions you keep and which you discard.",
       "difficulty": 4,
-      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis.",
+      "isExtraneousCheck": true
     },
     {
       "number": 36,

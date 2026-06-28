@@ -579,7 +579,8 @@ export default {
       "skill": "proof",
       "subTopic": "Coordinate Proofs",
       "difficulty": 4,
-      "difficultyRationale": "Challenging constructed-response geometric proof."
+      "difficultyRationale": "Challenging constructed-response geometric proof.",
+      "isGeometricProof": true
     },
     {
       "number": 34,
@@ -607,7 +608,8 @@ export default {
       "skill": "proof",
       "subTopic": "Coordinate Proofs",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof."
+      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof.",
+      "isGeometricProof": true
     }
   ]
 }

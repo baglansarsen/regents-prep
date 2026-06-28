@@ -248,7 +248,8 @@ export default {
       "diveDeep": "Solving a literal equation for one variable means isolating it using inverse operations while treating the other letters as constants. Move all a-terms to one side and all b-terms to the other, then combine. The sign management is where students slip — bringing 7b across the equals sign makes it −7b, and −8b − 7b combines to −15b.",
       "subTopic": "Solving Equations & Inequalities",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing.",
+      "isLiteralEquation": true
     },
     {
       "number": 14,
@@ -540,7 +541,8 @@ export default {
       "skill": "procedure",
       "subTopic": "Solving Equations & Inequalities",
       "difficulty": 3,
-      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others."
+      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others.",
+      "isLiteralEquation": true
     },
     {
       "number": 31,

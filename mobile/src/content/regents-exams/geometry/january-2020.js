@@ -514,7 +514,8 @@ export default {
       "diveDeep": "A rhombus is defined as a quadrilateral with all four sides congruent. Compute each side using the distance formula: NA = √((1−(−4))²+(2−(−3))²) = √(25+25) = √50; AT = √((8−1)²+(1−2)²) = √(49+1) = √50; TS = √((3−8)²+(−4−1)²) = √(25+25) = √50; SN = √((−4−3)²+(−3−(−4))²) = √(49+1) = √50. Since all four sides equal √50 = 5√2, NATS is a rhombus. Some students also verify the diagonals are perpendicular as an alternative proof of rhombus, but the all-sides-equal method is most direct.",
       "modelAnswer": "Use the distance formula to compute all four side lengths:\nNA = √((1−(−4))² + (2−(−3))²) = √(5² + 5²) = √50 = 5√2\nAT = √((8−1)² + (1−2)²) = √(7² + (−1)²) = √(49+1) = √50 = 5√2\nTS = √((3−8)² + (−4−1)²) = √((−5)² + (−5)²) = √50 = 5√2\nSN = √((−4−3)² + (−3−(−4))²) = √((−7)² + 1²) = √(49+1) = √50 = 5√2\nSince NA = AT = TS = SN = 5√2, all four sides of quadrilateral NATS are congruent.\nTherefore, NATS is a rhombus.",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof."
+      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof.",
+      "isCoordinateProof": true
     },
     {
       "number": 33,
@@ -550,7 +551,8 @@ export default {
       "diveDeep": "Step-by-step strategy: (1) Prove △ABG ≅ △CDG using ASA — ∠ABG = ∠CDG (given), AB = CD (given), and ∠AGB = ∠CGB is not directly vertical... note that ∠BGA = ∠DGC as vertical angles since BGD is a straight line and G is the intersection. So the \"included angle\" between AB and BG is ∠ABG, and between CD and DG is ∠CDG; both are equal (given), making the triangles congruent by ASA. (2) From CPCTC: AG = CG and BG = DG. (3) Given AF = CE, note F is on BC and E is on AD; AG = CG (from step 2); AF = CE (given). Then in △AGF and △CGE: AG = CG, AF = CE, and ∠GAF = ∠GCE (from △ABG ≅ △CDG via CPCTC). So △AGF ≅ △CGE by SAS, giving GF = GE.",
       "modelAnswer": "Proof:\n1. ∠ABG = ∠CDG (Given)\n2. AB = CD (Given)\n3. ∠AGB = ∠CGD (Vertical angles — BGD is a line through G)\n4. △ABG ≅ △CDG (ASA: steps 1, 2, 3)\n5. AG = CG and BG = DG (CPCTC from step 4)\n6. ∠GAF = ∠GCE (CPCTC from step 4, corresponding angles)\n7. AF = CE (Given)\n8. △AGF ≅ △CGE (SAS: AG = CG from step 5, ∠GAF = ∠GCE from step 6, AF = CE from step 7)\n9. FG = EG (CPCTC from step 8)\nTherefore FG ≅ EG. ∎",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof."
+      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof.",
+      "isGeometricProof": true
     }
   ]
 }

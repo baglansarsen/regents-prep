@@ -561,7 +561,8 @@ export default {
       "diveDeep": "A coordinate proof that a figure is a rectangle typically: (1) shows it is a parallelogram (opposite sides parallel via equal slopes, or both pairs of opposite sides congruent), then (2) shows one interior angle is 90° (a pair of adjacent slopes are negative reciprocals). Computing all four slopes is the cleanest route. State a concluding sentence tying the facts to the definition (\"a parallelogram with a right angle is a rectangle\"). Forgetting the concluding statement or only checking sides without an angle is the usual lost-credit point.",
       "modelAnswer": "Compute the four side slopes. slope RE = (7−3)/(2−(−1)) = 4/3. slope EA = (1−7)/(10−2) = −6/8 = −3/4. slope AD = (−3−1)/(7−10) = −4/−3 = 4/3. slope DR = (3−(−3))/(−1−7) = 6/−8 = −3/4. Opposite sides have equal slopes: slope RE = slope AD = 4/3 and slope EA = slope DR = −3/4, so RE ∥ AD and EA ∥ DR; therefore READ is a parallelogram. Adjacent sides RE and EA have slopes 4/3 and −3/4, which are negative reciprocals (their product is −1), so RE ⊥ EA and ∠E is a right angle. A parallelogram with a right angle is a rectangle. Therefore READ is a rectangle.",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof."
+      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof.",
+      "isCoordinateProof": true
     },
     {
       "number": 35,
@@ -575,7 +576,8 @@ export default {
       "diveDeep": "This proof chains a triangle-congruence (SAS using the bisected diagonals and vertical angles) into the \"one pair of opposite sides both parallel and congruent\" parallelogram criterion. Key moves: bisecting segments give two pairs of congruent halves; vertical angles at F complete SAS; CPCTC gives AB ≅ DE and ∠ABF ≅ ∠DEF (alternate interior angles → AB ∥ DE). Then substitute DE ≅ DC to transfer congruence and parallelism onto DC. The standard trap is proving sides congruent but forgetting to also establish they are parallel, which is required for this particular parallelogram theorem.",
       "modelAnswer": "Given: AFD and BFE bisect each other at F, so AF ≅ FD and BF ≅ FE. ∠AFB ≅ ∠DFE because they are vertical angles. Therefore △AFB ≅ △DFE by SAS. By CPCTC, AB ≅ DE and ∠ABF ≅ ∠DEF. Since ∠ABF and ∠DEF are congruent alternate interior angles for lines AB and DE cut by transversal BE, AB ∥ DE. It is given that DE ≅ DC, so by substitution AB ≅ DC. Because E is on ray CD extended (E, D, C are collinear), line DE is the same as line DC, so AB ∥ DC. Quadrilateral ABCD therefore has one pair of opposite sides, AB and DC, that are both congruent and parallel. A quadrilateral with one pair of opposite sides both congruent and parallel is a parallelogram. Therefore ABCD is a parallelogram.",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof."
+      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof.",
+      "isGeometricProof": true
     }
   ]
 }

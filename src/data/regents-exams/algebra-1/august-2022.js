@@ -449,7 +449,8 @@ export default {
       "diveDeep": "Solving a formula for a specific variable (literal equation) uses the same inverse-operation steps as solving a numeric equation. Undo the operations wrapped around b in reverse order: first clear the ½ by multiplying by 2, then divide off the product ah, and finally subtract the c that is added to b. Keep the whole quantity (b + c) grouped until b is isolated, then peel off the c last.",
       "subTopic": "Solving Equations & Inequalities",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing.",
+      "isLiteralEquation": true
     },
     {
       "number": 25,
@@ -519,7 +520,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Solving Equations & Inequalities",
       "difficulty": 3,
-      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others."
+      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others.",
+      "isLiteralEquation": true
     },
     {
       "number": 30,

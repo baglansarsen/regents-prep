@@ -516,7 +516,8 @@ export default {
       "diveDeep": "MS ∥ IL gives: ∠MIS ≅ ∠LIS... more precisely, with transversals IS and ML, ∠IMS ≅ ∠SLI (alternate interior angles, MS ∥ IL cut by ML) and ∠MIS ≅ ∠LSI (alternate interior angles, MS ∥ IL cut by IS). MS ≅ IL (given). By AAS: ∠IMS ≅ ∠ILS, MS ≅ IL, ∠MSI ≅ ∠LIS → △MIE ≅ △LSE. Alternatively, use ASA with ∠MIE ≅ ∠LSE, IE... careful labeling of which angles and sides correspond is essential for full credit.",
       "modelAnswer": "Statements | Reasons\n1. MS ∥ IL | Given\n2. MS ≅ IL | Given\n3. ∠IMS ≅ ∠LIS | Alternate interior angles (MS ∥ IL, transversal ML... wait — transversal MI)\n   ∠MIS ≅ ∠LSI | Alternate interior angles (MS ∥ IL, transversal IS)\n4. In △MIE and △LSE:\n   ∠EMI ≅ ∠ELS | Alternate interior angles (step 3)\n   MS ≅ IL | Given (step 2)\n   ∠MSI ≅ ∠LIS | Alternate interior angles (step 3)\n5. △MIE ≅ △LSE | AAS (two pairs of angles and the non-included side MS ≅ IL)",
       "difficulty": 4,
-      "difficultyRationale": "Challenging constructed-response geometric proof."
+      "difficultyRationale": "Challenging constructed-response geometric proof.",
+      "isGeometricProof": true
     },
     {
       "number": 33,
@@ -540,7 +541,8 @@ export default {
       "diveDeep": "Slope of AD: (5−1)/(0−(−3)) = 4/3. Slope of BC: (5−(−7))/(6−(−3)) = 12/9 = 4/3. Slope of AB: (−7−1)/(−3−(−3)) = undefined (vertical). Slope of DC: (5−5)/(6−0) = 0 (horizontal). Since AD ∥ BC (same slope 4/3) but AB is not parallel to DC (vertical vs. horizontal), ABCD is a trapezoid. Slope of EF = (5−(−3))/(3−(−3)) = 8/6 = 4/3 = slope of AD and BC, so EF ∥ AD ∥ BC. AD = √((0−(−3))² + (5−1)²) = √(9+16) = 5. BC = √((6−(−3))² + (5−(−7))²) = √(81+144) = √225 = 15. EF = √((3−(−3))² + (5−(−3))²) = √(36+64) = √100 = 10. (1/2)(AD + BC) = (1/2)(5+15) = 10 = EF ✓. EF is the midsegment.",
       "modelAnswer": "Part 1 — Prove ABCD is a trapezoid:\nSlope AD = (5−1)/(0−(−3)) = 4/3\nSlope BC = (5−(−7))/(6−(−3)) = 12/9 = 4/3\nAD ∥ BC (equal slopes)\n\nSlope AB = (−7−1)/(−3−(−3)) = undefined (vertical)\nSlope DC = (5−5)/(6−0) = 0 (horizontal)\nAB is not parallel to DC.\n\nExactly one pair of opposite sides is parallel → ABCD is a trapezoid.\n\nPart 2 — EF ∥ AD and BC:\nSlope EF = (5−(−3))/(3−(−3)) = 8/6 = 4/3\nSince slope EF = slope AD = slope BC = 4/3, EF ∥ AD ∥ BC.\n\nPart 3 — Is EF = (1/2)(AD + BC)?\nAD = √((0+3)² + (5−1)²) = √(9+16) = 5\nBC = √((6+3)² + (5+7)²) = √(81+144) = 15\nEF = √((3+3)² + (5+3)²) = √(36+64) = 10\n(1/2)(AD + BC) = (1/2)(5+15) = 10 = EF ✓\nYes, EF = (1/2)(AD + BC).",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof."
+      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof.",
+      "isCoordinateProof": true
     },
     {
       "number": 35,
@@ -552,7 +554,8 @@ export default {
       "diveDeep": "A full 6-credit response must address all three parts with justified coordinate calculations. Trapezoid: show exactly one pair of opposite sides parallel (AD ∥ BC but AB not parallel to DC). EF parallel: compute slope of EF and compare to slopes of AD and BC. Midsegment formula: compute all three lengths using the distance formula and verify (1/2)(5 + 15) = 10 = EF. Organize the work clearly, labeling each part. Losing points on this question usually comes from incomplete justification — computing lengths or slopes without explicitly stating the conclusion drawn from each calculation.",
       "modelAnswer": "Trapezoid proof:\nSlope AD = 4/3, Slope BC = 4/3 → AD ∥ BC\nSlope AB = undefined, Slope DC = 0 → AB not ∥ DC\n→ Exactly one pair parallel → ABCD is a trapezoid.\n\nEF ∥ AD and BC:\nSlope EF = (5−(−3))/(3−(−3)) = 8/6 = 4/3 = slope AD = slope BC ✓\n\nMidsegment check:\nAD = √(3² + 4²) = √25 = 5\nBC = √(9² + 12²) = √(81+144) = √225 = 15\nEF = √(6² + 8²) = √(36+64) = √100 = 10\n(1/2)(AD + BC) = (1/2)(20) = 10 = EF ✓\nYes, EF satisfies the midsegment theorem.",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof."
+      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof.",
+      "isCoordinateProof": true
     }
   ]
 }

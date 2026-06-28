@@ -516,7 +516,8 @@ export default {
       "diveDeep": "Translating a word problem into an inequality requires identifying the fixed cost ($18 first hour), the variable cost ($7.50 per additional hour x), and the budget constraint (≤ $78). The total cost is 18 + 7.50x and must not exceed 78. When dividing by a positive number like 7.50 the inequality direction stays the same. The answer x ≤ 8 means Vince can rent at most 8 additional hours (9 hours total including the first), spending exactly $78.",
       "modelAnswer": "Inequality: 18 + 7.50x ≤ 78\nStep 1: Subtract 18 from both sides — 7.50x ≤ 60.\nStep 2: Divide both sides by 7.50 — x ≤ 8.\nVince can rent the canoe for a maximum of 8 additional hours (9 hours total).",
       "difficulty": 3,
-      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others."
+      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others.",
+      "isLiteralEquation": true
     },
     {
       "number": 33,

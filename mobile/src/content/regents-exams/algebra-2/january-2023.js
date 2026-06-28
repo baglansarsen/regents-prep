@@ -140,7 +140,8 @@ export default {
       "explanation": "Expanding (6 − ki)² = 36 − 12ki + k²i² = (36 − k²) − 12ki; matching the imaginary part −12k = −36 gives k = 3, but matching with the real part 36 − k² = 27 gives k² = 9 so k = ±3; with −12k = −36, k = 3... the listed answer −3 corresponds to the sign convention used in the original key.",
       "diveDeep": "When squaring a complex number, use i² = −1 and the formula (a − bi)² = a² − b² − 2abi, separating into real and imaginary parts. Set the real part equal to the real part of the target and the imaginary part equal to the imaginary part, then solve the resulting system. The most common mistakes are forgetting i² = −1 or mishandling the sign of the middle term; check both equations for consistency.",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question.",
+      "isComplexSimplification": true
     },
     {
       "number": 9,
@@ -415,7 +416,8 @@ export default {
       "diveDeep": "The zeros of a quadratic correspond to its x-intercepts; if the parabola does not intersect the x-axis, both zeros are complex conjugates. This happens when the discriminant b² − 4ac is negative. A parabola touching the axis once has a repeated real root (discriminant zero), and one crossing it twice has two real roots. Connect the graph's relationship to the x-axis with the sign of the discriminant.",
       "image": "/images/exams/alg2-january-2023/q24.png",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question.",
+      "isComplexSimplification": true
     },
     {
       "number": 25,

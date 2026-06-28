@@ -95,7 +95,8 @@ export default {
       "diveDeep": "The imaginary unit i = √(−1) follows a four-step cycle: i¹ = i, i² = −1, i³ = −i, i⁴ = 1, then it repeats. To simplify any power, divide the exponent by 4 and use the remainder. Here 85 = 4(21) + 1, so the remainder is 1 and i⁸⁵ = i. A common mistake is using the quotient instead of the remainder, or mis-ordering the cycle.",
       "subTopic": "Complex Operations",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question.",
+      "isComplexSimplification": true
     },
     {
       "number": 6,
@@ -113,7 +114,8 @@ export default {
       "diveDeep": "When the discriminant b² − 4ac is negative, a quadratic has two complex-conjugate solutions. Here b² − 4ac = 36 − 52 = −16, and √(−16) = 4i. Dividing −6 ± 4i by 2 gives −3 ± 2i. Watch the division: every term in the numerator, including the imaginary part, must be divided by 2a, so 4i/2 = 2i, not 4i.",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 7,
@@ -538,7 +540,8 @@ export default {
       "skill": "procedure",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 31,

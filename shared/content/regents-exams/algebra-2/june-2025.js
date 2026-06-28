@@ -76,7 +76,8 @@ export default {
       "diveDeep": "Multiplying complex numbers uses the distributive (FOIL) property, then the substitution i² = −1, which is the step students most often forget. Always combine real parts and imaginary parts separately at the end. A useful check: the product of a complex number and its conjugate is purely real, so verify your imaginary terms cancel only when expected.",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 5,
@@ -473,7 +474,8 @@ export default {
       "skill": "procedure",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 27,
@@ -577,7 +579,8 @@ export default {
       "skill": "procedure",
       "subTopic": "Rational Expressions & Equations",
       "difficulty": 4,
-      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis.",
+      "isComplexSimplification": true
     },
     {
       "number": 34,

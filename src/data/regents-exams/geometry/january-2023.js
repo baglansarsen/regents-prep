@@ -539,7 +539,8 @@ export default {
       "diveDeep": "This is a classic \"overlapping/collinear\" proof where the key step is using the Subtraction Property of Equality to turn AC ≅ DB into AB ≅ DC (both equal after removing common segment BC). Parallel lines cut by the transversal AD create congruent corresponding angles at A/D and B/C. With two angles and the included side, ASA completes the proof. Always look for a shared or overlapping segment that can be added or subtracted to produce the side you need.",
       "modelAnswer": "Statements / Reasons:\n1. AE || DF; EB || FC; AC ≅ DB; A, B, C, D collinear (Given).\n2. ∠EAB ≅ ∠FDC (When AE || DF cut by transversal AD, corresponding angles are congruent).\n3. ∠EBA ≅ ∠FCD (When EB || FC cut by transversal AD, corresponding angles are congruent).\n4. AC ≅ DB, and BC ≅ BC (Reflexive property).\n5. AC − BC = AB and DB − BC = DC, so AB ≅ DC (Subtraction property of segment lengths).\n6. △EAB ≅ △FDC (ASA, using ∠EAB ≅ ∠FDC, AB ≅ DC, ∠EBA ≅ ∠FCD). ∎",
       "difficulty": 4,
-      "difficultyRationale": "Challenging constructed-response geometric proof."
+      "difficultyRationale": "Challenging constructed-response geometric proof.",
+      "isGeometricProof": true
     },
     {
       "number": 34,
@@ -566,7 +567,8 @@ export default {
       "diveDeep": "A coordinate proof of a right triangle uses slopes: perpendicular legs have slopes whose product is −1. To prove a square, you must show all four sides congruent (using the distance formula) AND a right angle (using perpendicular slopes), because congruent sides alone give only a rhombus. The reflection over DC maps U to U′ so that DC is the perpendicular bisector of UU′, guaranteeing symmetry. Lay out the proof in two parts: first the right angle, then the four equal sides plus one right angle for the square.",
       "modelAnswer": "Part 1 — Right triangle: slope of DU = (8 − (−1))/(−1 − (−3)) = 9/2; slope of UC = (6 − 8)/(8 − (−1)) = −2/9. Since (9/2)(−2/9) = −1, DU ⊥ UC, so ∠DUC = 90° and △DUC is a right triangle.\n\nLengths: DU = √((−1−(−3))² + (8−(−1))²) = √(2² + 9²) = √85. UC = √((8−(−1))² + (6−8)²) = √(9² + (−2)²) = √85. So the two legs are congruent (DU ≅ UC), making △DUC an isosceles right triangle.\n\nPart 2 — Square: Reflecting U over the hypotenuse DC produces U′ such that DC is the perpendicular bisector of UU′. By the reflection, DU′ ≅ DU = √85 and CU′ ≅ CU = √85, so all four sides DU, UC, CU′, U′D equal √85 and the quadrilateral is a rhombus. Because ∠DUC = 90° (proven above) and the reflection preserves angle measure (∠DU′C = 90°), the quadrilateral has right angles. A rhombus with a right angle is a square. Therefore DUCU′ is a square. ∎",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof."
+      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof.",
+      "isCoordinateProof": true
     }
   ]
 }

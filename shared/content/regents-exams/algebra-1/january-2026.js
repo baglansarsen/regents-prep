@@ -158,7 +158,8 @@ export default {
       "explanation": "Solve for h: S − 2πr² = 2πrh, so h = (S − 2πr²)/(2πr).",
       "diveDeep": "Solving a literal equation (a formula) for one variable uses the same inverse-operation steps as solving a numeric equation: isolate the term with h, then divide. First subtract 2πr² from both sides to undo the addition, leaving S − 2πr² = 2πrh, then divide both sides by 2πr. A common error is dividing only part of the left side by 2πr or canceling terms incorrectly; the entire quantity S − 2πr² must be divided by 2πr. Keep the operations balanced on both sides and treat π and r as if they were ordinary numbers.",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing.",
+      "isLiteralEquation": true
     },
     {
       "number": 10,
@@ -481,7 +482,8 @@ export default {
       "maxPoints": 2,
       "topic": "Linear Equations & Inequalities",
       "difficulty": 3,
-      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others."
+      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others.",
+      "isLiteralEquation": true
     },
     {
       "number": 30,

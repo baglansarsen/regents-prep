@@ -22,7 +22,8 @@ export default {
       "diveDeep": "Squaring a complex binomial uses the same (a + b)² = a² + 2ab + b² pattern as real numbers, but you must replace i² with −1 at the end. A very common mistake is forgetting that 9i² = −9 (not +9), which leads students to pick 13 + 12i. Always isolate the real part (from the 4 and the i² term) and the imaginary part (the 2ab middle term) separately before combining.",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 2,
@@ -130,7 +131,8 @@ export default {
       "diveDeep": "When the discriminant b² − 4ac is negative (here 36 − 52 = −16), the solutions are a complex-conjugate pair. Using the quadratic formula, x = (−6 ± √(−16))/2 = (−6 ± 4i)/2 = −3 ± 2i. Remember √(−16) = 4i, and divide both the real part and the imaginary part by the denominator. Complex roots always come in conjugate pairs for real-coefficient polynomials.",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 8,
@@ -456,7 +458,8 @@ export default {
       "skill": "procedure",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 26,
@@ -510,7 +513,8 @@ export default {
       "skill": "reasoning",
       "subTopic": "Radical Expressions & Equations",
       "difficulty": 3,
-      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps.",
+      "isExtraneousCheck": true
     },
     {
       "number": 30,

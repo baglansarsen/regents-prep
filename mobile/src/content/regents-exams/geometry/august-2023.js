@@ -520,7 +520,8 @@ export default {
       "skill": "proof",
       "subTopic": "Lines, Angles & Transformations",
       "difficulty": 4,
-      "difficultyRationale": "Challenging constructed-response geometric proof."
+      "difficultyRationale": "Challenging constructed-response geometric proof.",
+      "isGeometricProof": true
     },
     {
       "number": 30,
@@ -588,7 +589,8 @@ export default {
       "skill": "proof",
       "subTopic": "Lines, Angles & Transformations",
       "difficulty": 4,
-      "difficultyRationale": "Challenging constructed-response geometric proof."
+      "difficultyRationale": "Challenging constructed-response geometric proof.",
+      "isGeometricProof": true
     },
     {
       "number": 35,

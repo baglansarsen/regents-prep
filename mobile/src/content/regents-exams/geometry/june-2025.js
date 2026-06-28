@@ -566,7 +566,8 @@ export default {
       "skill": "proof",
       "subTopic": "Lines & Slope",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof."
+      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof.",
+      "isCoordinateProof": true
     },
     {
       "number": 34,
@@ -594,7 +595,8 @@ export default {
       "skill": "proof",
       "subTopic": "Proofs",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof."
+      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof.",
+      "isGeometricProof": true
     }
   ]
 }

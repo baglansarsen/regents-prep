@@ -509,7 +509,8 @@ export default {
       "explanation": "Isolating F requires undoing the multiplication by 5/9 (multiply by 9/5) and then the subtraction of 32 (add 32), giving F = (9/5)C + 32.",
       "diveDeep": "Solving a literal equation (a formula) for one variable uses the same inverse-operations logic as solving for a number, but the answer is an expression. Reverse the order of operations: first undo the multiplication by the fraction (multiply by its reciprocal 9/5), then undo the subtraction (add 32). A common mistake is distributing 5/9 first, which is valid but messier. Keeping the variable you want isolated and clearing the fraction by its reciprocal is the cleanest path.",
       "difficulty": 3,
-      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others."
+      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others.",
+      "isLiteralEquation": true
     },
     {
       "number": 32,
@@ -548,7 +549,8 @@ export default {
       "explanation": "Expressing pencils as x + 4 and erasers as x − 2 and summing the costs gives 2.55x + 0.70 = 16, so x = 6 pens.",
       "diveDeep": "Word problems with related quantities are solved by defining one variable and writing the others in terms of it (\"four more\" means + 4, \"two fewer\" means − 2). Then build a cost equation by multiplying each quantity by its price and setting the total equal to the amount spent. Careful distribution of the prices and combining like terms reduces it to a one-variable linear equation. Always state what x represents and answer the specific question asked (here, the number of pens).",
       "difficulty": 4,
-      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point."
+      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point.",
+      "isLiteralEquation": true
     },
     {
       "number": 35,

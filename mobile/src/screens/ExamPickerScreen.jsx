@@ -552,6 +552,13 @@ export default function ExamPickerScreen({ navigation }) {
           </TouchableOpacity>
         )}
       </View>
+      {sd.writtenLabel === 'Worked Examples' && (
+        <View style={s.workedExamplesBanner}>
+          <Text style={s.workedExamplesBannerText}>
+            💡 <Text style={{ fontWeight: 'bold' }}>Tutor Tip:</Text> Part II–IV open-ended questions count for <Text style={{ fontWeight: 'bold' }}>63%</Text> of your Regents score. Practice step-by-step solutions in <Text style={{ fontWeight: 'bold' }}>Worked Examples</Text> above!
+          </Text>
+        </View>
+      )}
       <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0, fontSize: 13, marginTop: 22 }]}>Past Exams</Text>
     </View>
   )
@@ -627,5 +634,20 @@ function makeStyles(C) {
     scoreRow:  { flexDirection: 'row', gap: 6, marginTop: 6 },
     scoreChip: { fontSize: 11, fontWeight: '700', borderWidth: 1, borderRadius: 8, paddingHorizontal: 8, paddingVertical: 3 },
     qChip:     { borderRadius: 10, paddingHorizontal: 10, paddingVertical: 4 },
+    workedExamplesBanner: {
+      backgroundColor: C.brand + '12',
+      borderColor: C.brand + '33',
+      borderWidth: 1,
+      borderRadius: 12,
+      padding: 12,
+      marginTop: 16,
+      marginBottom: 4,
+    },
+    workedExamplesBannerText: {
+      fontFamily: 'Nunito_600SemiBold',
+      fontSize: 13,
+      color: C.text,
+      lineHeight: 18,
+    },
   })
 }

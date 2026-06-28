@@ -141,7 +141,8 @@ export default {
       "explanation": "Subtracting u² from both sides gives v² − u² = 2as, and dividing both sides by 2s isolates a = (v² − u²)/(2s).",
       "diveDeep": "Solving a literal equation (a formula) for one variable uses the same inverse-operation steps as solving for x. Here a is multiplied by 2s and that product is added to u², so you undo in reverse: first subtract u² from both sides, then divide both sides by 2s. A common mistake is dividing only part of an expression by 2s — the entire quantity (v² − u²) must be divided. Keep terms grouped to avoid splitting the numerator incorrectly.",
       "difficulty": 2,
-      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations.",
+      "isLiteralEquation": true
     },
     {
       "number": 9,
@@ -537,7 +538,8 @@ export default {
       "diveDeep": "Real-world linear models take the form y = (fixed amount) + (rate)(number of items). Identify the base salary as the constant and the per-car commission as the coefficient of x. To find the number of cars for a given total, substitute the total for y and solve the linear equation: subtract the base, then divide by the rate. Show each algebraic step — stating only the answer typically loses credit on constructed-response questions.",
       "modelAnswer": "Equation: y = 1500 + 250x, where x is the number of cars sold and y is total monthly earnings. Set y = 4750: 4750 = 1500 + 250x. Subtract 1500: 3250 = 250x. Divide by 250: x = 13. Caleb sold 13 cars that month.",
       "difficulty": 4,
-      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point."
+      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point.",
+      "isLiteralEquation": true
     },
     {
       "number": 35,

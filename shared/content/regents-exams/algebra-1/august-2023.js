@@ -650,7 +650,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Graphing Parabolas",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response requiring multi-step mathematical modeling."
+      "difficultyRationale": "Part IV constructed-response requiring multi-step mathematical modeling.",
+      "isLiteralEquation": true
     }
   ]
 }

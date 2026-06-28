@@ -525,7 +525,8 @@ export default {
       "diveDeep": "Since BE ∥ CD and ABC / AED are straight lines, ∠ABE and ∠ACD are corresponding angles (equal), and ∠A is shared. By AA Similarity, △ABE ~ △ACD. From the similarity ratio: AB/AC = AE/AD. Cross-multiplying: AB · AD = AE · AC. The proof must explicitly state the AA condition with both angles identified, then the similarity statement, then the proportion, then the cross-multiplication. Skipping the cross-multiplication step and just stating the proportion loses partial credit because the goal equation is the product form.",
       "modelAnswer": "Statements | Reasons\n1. BE ∥ CD | Given\n2. ∠ABE ≅ ∠ACD | Corresponding angles, BE ∥ CD (with transversal AC)\n3. ∠A ≅ ∠A | Reflexive property\n4. △ABE ~ △ACD | AA Similarity (steps 2, 3)\n5. AB/AC = AE/AD | Corresponding sides of similar triangles are proportional\n6. AB · AD = AE · AC | Cross-multiplication (means-extremes product)",
       "difficulty": 4,
-      "difficultyRationale": "Challenging constructed-response geometric proof."
+      "difficultyRationale": "Challenging constructed-response geometric proof.",
+      "isGeometricProof": true
     },
     {
       "number": 34,
@@ -537,7 +538,8 @@ export default {
       "diveDeep": "Slope of PE = (8−4)/(6−(−6)) = 4/12 = 1/3. Slope of PT = (−2−4)/(−4−(−6)) = −6/2 = −3. Since (1/3)(−3) = −1, PE ⊥ PT, so ∠P = 90° and △PET is a right triangle. For the 180° rotation about (1, 3): N = (2·1 − (−6), 2·3 − 4) = (8, 2). For PENT: verify all four angles are 90° using slopes of all four sides, or show diagonals are congruent and bisect each other. This is a 4-credit question requiring organized, complete work.",
       "modelAnswer": "Part 1 — Prove △PET is right:\nSlope of PE = (8−4)/(6−(−6)) = 4/12 = 1/3\nSlope of PT = (−2−4)/(−4−(−6)) = −6/2 = −3\n(1/3)(−3) = −1 → PE ⊥ PT → ∠TPE = 90°\n∴ △PET is a right triangle.\n\nPart 2 — Coordinates of N (180° rotation about (1,3)):\nN = (2(1) − (−6), 2(3) − 4) = (2+6, 6−4) = (8, 2)\n\nPart 3 — Prove PENT is a rectangle:\nVertices: P(−6,4), E(6,8), N(8,2), T(−4,−2)\nSlope PE = 1/3; Slope EN = (2−8)/(8−6) = −6/2 = −3 → PE ⊥ EN\nSlope NT = (−2−2)/(−4−8) = −4/−12 = 1/3; Slope PT = −3\nOpposite sides are parallel (PE ∥ NT, EN ∥ PT) and all angles are 90°.\n∴ PENT is a rectangle.",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof."
+      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof.",
+      "isCoordinateProof": true
     },
     {
       "number": 35,
@@ -549,7 +551,8 @@ export default {
       "diveDeep": "A full rectangle proof requires establishing: (1) both pairs of opposite sides are parallel (slopes equal), and (2) consecutive sides are perpendicular (slopes are negative reciprocals). Vertices P(−6,4), E(6,8), N(8,2), T(−4,−2): Slope PE = 1/3, Slope NT = 1/3 (parallel); Slope EN = −3, Slope PT = −3 (parallel); (1/3)(−3) = −1 confirms perpendicularity. Alternatively show diagonals PN and ET are congruent and bisect each other (parallelogram + equal diagonals = rectangle). Organize as a two-column proof or clearly labeled coordinate calculations for full 6-credit score.",
       "modelAnswer": "Vertices: P(−6,4), E(6,8), N(8,2), T(−4,−2)\n\nSlope of PE = (8−4)/(6−(−6)) = 4/12 = 1/3\nSlope of NT = (−2−2)/(−4−8) = −4/−12 = 1/3\nPE ∥ NT (equal slopes)\n\nSlope of EN = (2−8)/(8−6) = −6/2 = −3\nSlope of PT = (−2−4)/(−4−(−6)) = −6/2 = −3\nEN ∥ PT (equal slopes)\n\nPENT is a parallelogram (both pairs of opposite sides parallel).\n\nSince slope PE × slope EN = (1/3)(−3) = −1, PE ⊥ EN → ∠PEN = 90°.\n\nA parallelogram with a right angle is a rectangle.\n∴ PENT is a rectangle.",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof."
+      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof.",
+      "isGeometricProof": true
     }
   ]
 }

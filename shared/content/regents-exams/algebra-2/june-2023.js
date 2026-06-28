@@ -135,7 +135,8 @@ export default {
       "diveDeep": "Powers of i cycle: i² = −1, i³ = −i, i⁴ = 1. When simplifying expressions with i, distribute first, then replace every power of i using these identities and combine like terms into a + bi form. The trap here is i³ = −i (not i), which flips the sign of the 18i term, and i² = −1, which makes the real part negative. Track signs carefully when reducing i³ = i²·i = −i.",
       "subTopic": "Complex Operations",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question.",
+      "isComplexSimplification": true
     },
     {
       "number": 8,
@@ -228,7 +229,8 @@ export default {
       "diveDeep": "When the discriminant b² − 4ac is negative, the roots are complex conjugates a ± bi. Move all terms to one side first, then apply the quadratic formula carefully. The trap is mishandling √(−36): it equals 6i, and dividing 4 ± 6i by 2 gives 2 ± 3i — students sometimes forget to divide both terms by the leading coefficient. Complex roots always come in conjugate pairs for real-coefficient quadratics.",
       "subTopic": "Complex Operations",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question.",
+      "isComplexSimplification": true
     },
     {
       "number": 13,

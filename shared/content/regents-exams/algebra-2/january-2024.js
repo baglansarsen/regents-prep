@@ -89,7 +89,8 @@ export default {
       "explanation": "Multiply using FOIL: 8 − 2i + 12i − 3i² = 8 + 10i − 3(−1) = 11 + 10i, since i² = −1.",
       "diveDeep": "Multiplying complex numbers follows the same FOIL pattern as binomials, with the key extra step that i² = −1. The most common error is leaving i² in the answer or forgetting that −3i² becomes +3. Always combine the real parts (8 + 3) and the imaginary parts (−2i + 12i) separately to land in standard a + bi form.",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 6,
@@ -140,7 +141,8 @@ export default {
       "explanation": "Factor out the negative as i and simplify the radical: √(−48) = √(16 · 3) · i = 4√3 · i = 4i√3.",
       "diveDeep": "The square root of a negative number introduces the imaginary unit i = √(−1). Separate the radical into √(−1) · √(positive part), then simplify the positive radical by pulling out perfect-square factors (here 48 = 16 · 3). A common slip is forgetting the i entirely or miscomputing the largest perfect-square factor of the radicand.",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question.",
+      "isComplexSimplification": true
     },
     {
       "number": 9,
@@ -276,7 +278,8 @@ export default {
       "explanation": "Using the quadratic formula, x = (−6 ± √(36 − 40))/2 = (−6 ± √(−4))/2 = (−6 ± 2i)/2 = −3 ± i.",
       "diveDeep": "When the discriminant is negative, the quadratic formula produces complex roots. Simplify √(negative) using i, then reduce the whole expression by dividing every term by the denominator 2a. A frequent error is forgetting to divide the imaginary part by 2 as well, or leaving √(−4) instead of writing 2i.",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 17,
@@ -486,7 +489,8 @@ export default {
       "diveDeep": "Powers of i cycle with period 4: i¹ = i, i² = −1, i³ = −i, i⁴ = 1. Substituting i³ = −i gives (2x(−i) − 3y)² = (−2xi − 3y)². Expand: (−2xi)² − 2(−2xi)(3y) + (3y)² = 4x²i² + 12xyi + 9y² = −4x² + 12xyi + 9y². The real part is 9y² − 4x² and the imaginary part is 12xy. A common error is forgetting that i² = −1 in the first term, leaving 4x²i² unresolved.",
       "modelAnswer": "Since i³ = −i: (2x(−i) − 3y)² = (−2xi − 3y)². Expand: (−2xi)² + 2(−2xi)(−3y) + (−3y)² = 4x²i² + 12xyi + 9y². Since i² = −1: = −4x² + 12xyi + 9y². Simplest form: (9y² − 4x²) + 12xyi.",
       "difficulty": 3,
-      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps.",
+      "isComplexSimplification": true
     },
     {
       "number": 31,

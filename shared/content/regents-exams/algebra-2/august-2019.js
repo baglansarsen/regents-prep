@@ -485,7 +485,8 @@ export default {
       "modelAnswer": "(1/2)i³(√(−9) + 4) − 3i²\n= (1/2)(−i)(3i + 4) − 3(−1)\n= (1/2)(−3i² − 4i) + 3\n= (1/2)(3 − 4i) + 3\n= 3/2 − 2i + 3\n= 9/2 − 2i.",
       "subTopic": "Polynomial Operations & Factoring",
       "difficulty": 3,
-      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps."
+      "difficultyRationale": "Standard Part II open-ended question requiring multi-step math steps.",
+      "isComplexSimplification": true
     },
     {
       "number": 28,
@@ -611,7 +612,8 @@ export default {
       "skill": "reasoning",
       "subTopic": "Polynomial Graphs, Zeros & Conics",
       "difficulty": 3,
-      "difficultyRationale": "Standard algebraic solution of a linear-quadratic system."
+      "difficultyRationale": "Standard algebraic solution of a linear-quadratic system.",
+      "isComplexSimplification": true
     },
     {
       "number": 37,

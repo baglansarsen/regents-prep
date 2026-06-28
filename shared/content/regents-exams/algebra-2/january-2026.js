@@ -38,7 +38,8 @@ export default {
       "explanation": "Powers of i cycle every 4: i^1 = i, i^2 = −1, i^3 = −i, i^4 = 1. Since 45 = 4·11 + 1, i^45 = i^1 = i.",
       "diveDeep": "The powers of i are periodic with period 4, so reduce the exponent modulo 4 to find the value. A remainder of 1 gives i, 2 gives −1, 3 gives −i, and 0 gives 1. The most common mistake is forgetting that i^4 = 1, not −1. For any i^n, just divide n by 4 and use the remainder.",
       "difficulty": 2,
-      "difficultyRationale": "Basic application of the cyclic powers of i."
+      "difficultyRationale": "Basic application of the cyclic powers of i.",
+      "isComplexSimplification": true
     },
     {
       "number": 3,
@@ -429,7 +430,8 @@ export default {
       "explanation": "The discriminant 25 − 32 = −7 is negative, producing complex conjugate roots; the imaginary part comes from √(−7) = i√7.",
       "diveDeep": "When the discriminant b² − 4ac is negative, the quadratic has two complex conjugate solutions of the form a ± bi. Factor out i = √(−1) from the negative radicand and divide every term by 2a. A common error is dropping the i or mishandling the division by the leading coefficient. Complex roots always come in conjugate pairs for real-coefficient polynomials.",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 26,
@@ -442,7 +444,8 @@ export default {
       "explanation": "Multiply using the distributive property (FOIL), then replace i² with −1 and combine like terms to get 14 + 5i.",
       "diveDeep": "Multiplying complex numbers uses the same distribution as binomials, but the key step is substituting i² = −1, which converts an imaginary term into a real one. Keep real and imaginary parts separate when combining. A frequent mistake is forgetting that i² = −1 (treating it as +1 or leaving it as i²). Always simplify to the standard a + bi form with real a and b.",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 27,
@@ -533,7 +536,8 @@ export default {
       "explanation": "Clearing denominators reduces the equation to −3 = 0, a contradiction, so the equation has no solution.",
       "diveDeep": "Rational equations are solved by multiplying through by the least common denominator, but you must exclude values that make any denominator zero (here x ≠ 0 and x ≠ 3). When the resulting equation is a contradiction, there is no solution; when it is always true, there are infinitely many. A common trap is failing to check candidate solutions against the excluded values, which produces extraneous answers. Always state restrictions before solving.",
       "difficulty": 4,
-      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis.",
+      "isExtraneousCheck": true
     },
     {
       "number": 34,

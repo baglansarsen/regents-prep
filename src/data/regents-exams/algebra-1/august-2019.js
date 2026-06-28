@@ -507,7 +507,8 @@ export default {
       "skill": "procedure",
       "subTopic": "Solving Equations & Inequalities",
       "difficulty": 3,
-      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others."
+      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others.",
+      "isLiteralEquation": true
     },
     {
       "number": 29,

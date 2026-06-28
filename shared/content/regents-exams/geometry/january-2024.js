@@ -462,7 +462,8 @@ export default {
       "diveDeep": "On coordinate proofs you can show a right angle by computing slopes of two sides and verifying their product is −1 (or that one is horizontal and the other vertical). Alternatively, compute all three side lengths with the distance formula and confirm the Pythagorean relationship. Either method earns full credit, but you must state the perpendicular-slopes (negative-reciprocal) or Pythagorean reasoning explicitly. The common pitfall is computing slopes correctly but failing to conclude WHY that proves a right angle.",
       "modelAnswer": "Slope of ̅RS = (3 − 3)/(4 − (−2)) = 0/6 = 0, so ̅RS is horizontal. Slope of ̅ST = (−1 − 3)/(4 − 4) = −4/0, which is undefined, so ̅ST is vertical. A horizontal segment and a vertical segment are perpendicular, so ̅RS ⊥ ̅ST and ∠S = 90°. Since △RST contains a right angle at S, △RST is a right triangle.",
       "difficulty": 4,
-      "difficultyRationale": "Challenging constructed-response geometric proof."
+      "difficultyRationale": "Challenging constructed-response geometric proof.",
+      "isCoordinateProof": true
     },
     {
       "number": 28,
@@ -536,7 +537,8 @@ export default {
       "diveDeep": "This is a classic two-column proof combining an angle bisector, perpendicularity, and the reflexive property to invoke ASA. The strategy: identify the shared side (̅AD) and the two pairs of congruent angles it sits between. After proving the small triangles congruent, use CPCTC (corresponding parts of congruent triangles are congruent) to get ̅AB ≅ ̅AC, which is the definition of isosceles. The frequent gap is forgetting the reflexive ̅AD ≅ ̅AD or omitting the CPCTC justification at the end.",
       "modelAnswer": "Statements / Reasons:\n1. ̅AD bisects ∠BAC. (Given)\n2. ∠BAD ≅ ∠CAD. (Definition of angle bisector)\n3. ̅AD ⊥ ̅BC. (Given)\n4. ∠ADB and ∠ADC are right angles. (Perpendicular lines form right angles)\n5. ∠ADB ≅ ∠ADC. (All right angles are congruent)\n6. ̅AD ≅ ̅AD. (Reflexive property)\n7. △ABD ≅ △ACD. (ASA)\n8. ̅AB ≅ ̅AC. (CPCTC)\n9. △ABC is isosceles. (A triangle with two congruent sides is isosceles)",
       "difficulty": 4,
-      "difficultyRationale": "Challenging constructed-response geometric proof."
+      "difficultyRationale": "Challenging constructed-response geometric proof.",
+      "isGeometricProof": true
     },
     {
       "number": 34,
@@ -561,7 +563,8 @@ export default {
       "diveDeep": "A complete coordinate proof that a quadrilateral is a square shows two things: all four sides congruent (using the distance formula) AND at least one right angle (using perpendicular slopes that are negative reciprocals). Equal sides alone prove only a rhombus; a single right angle with equal sides upgrades it to a square. An alternative path proves it is a rectangle (right angles via slopes) plus one pair of adjacent congruent sides. State conclusions explicitly — \"therefore a rhombus, and with a right angle, a square.\" Skipping the perpendicularity step is the usual point loss.",
       "modelAnswer": "Find all four side lengths with the distance formula:\nAB = √((2−(−2))² + (4−1)²) = √(16 + 9) = √25 = 5.\nBC = √((5−2)² + (0−4)²) = √(9 + 16) = √25 = 5.\nCD = √((1−5)² + (−3−0)²) = √(16 + 9) = √25 = 5.\nDA = √((−2−1)² + (1−(−3))²) = √(9 + 16) = √25 = 5.\nSince AB = BC = CD = DA = 5, all four sides are congruent, so ABCD is a rhombus.\nNow check for a right angle using slopes:\nSlope of ̅AB = (4−1)/(2−(−2)) = 3/4.\nSlope of ̅BC = (0−4)/(5−2) = −4/3.\nBecause (3/4)(−4/3) = −1, ̅AB ⊥ ̅BC, so ∠B is a right angle.\nA rhombus with a right angle is a square. Therefore ABCD is a square.",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof."
+      "difficultyRationale": "Part IV constructed-response full coordinate or abstract proof.",
+      "isCoordinateProof": true
     }
   ]
 }

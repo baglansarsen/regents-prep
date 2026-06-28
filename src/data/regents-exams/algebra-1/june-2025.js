@@ -369,7 +369,8 @@ export default {
       "diveDeep": "Solving a formula for a different variable (literal equation) uses the same inverse-operation logic as solving for x. To undo multiplication by ½, multiply by 2; to undo multiplication by v², divide by v². Perform the inverse operations in reverse order of operations to peel away everything attached to the target variable. The result m = 2K/v² keeps K and v² where they belong — a common error is leaving v² in the numerator instead of the denominator.",
       "subTopic": "Solving Equations & Inequalities",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing.",
+      "isLiteralEquation": true
     },
     {
       "number": 21,

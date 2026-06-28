@@ -55,7 +55,8 @@ export default {
       "explanation": "Add real parts (5 + 3 = 8) and imaginary parts (2i − 7i = −5i) separately to get 8 − 5i.",
       "diveDeep": "Complex numbers add componentwise, just like combining like terms where i plays the role of a variable. Keep real and imaginary parts in separate columns. A common slip is sign error on the imaginary part: 2 − 7 = −5, not +5. Remember i is not combined with the real numbers.",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 4,
@@ -208,7 +209,8 @@ export default {
       "explanation": "First (5x − 2i)² = 25x² − 20xi + 4i² = 25x² − 20xi − 4; multiplying by i² = −1 gives −25x² + 20xi + 4.",
       "diveDeep": "Expand the square using (a − b)² = a² − 2ab + b², remembering i² = −1 so 4i² = −4. Then multiply the entire result by i² = −1, flipping every sign. The trap is forgetting that i² appears twice—inside the square and as the outside factor—each contributing a sign change.",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question.",
+      "isComplexSimplification": true
     },
     {
       "number": 13,
@@ -363,7 +365,8 @@ export default {
       "explanation": "Squaring gives 4 − x = x² + 16x + 64, so x² + 17x + 60 = 0, (x + 5)(x + 12) = 0, x = −5 or x = −12; checking, x = −5 works but the algebra also surfaces x = 3 as a false root that fails the original equation.",
       "diveDeep": "Squaring both sides can create extraneous solutions that satisfy the squared equation but not the original radical equation. Always substitute each candidate back into the ORIGINAL equation: the principal root √(4 − x) must be nonnegative and equal x + 8. Any value making the radical and the right side unequal (or the right side negative) is extraneous and must be discarded.",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question.",
+      "isExtraneousCheck": true
     },
     {
       "number": 22,
@@ -441,7 +444,8 @@ export default {
       "explanation": "The negative discriminant (25 − 32 = −7) yields complex conjugate roots, written as 5/4 ± (√7/4)i.",
       "diveDeep": "When the discriminant b² − 4ac is negative, the roots are complex conjugates. Write √(−7) as i√7. Keep the real part (−b/2a = 5/4) and imaginary part separate to match a + bi form. A frequent error is dropping the i or simplifying √(−7) to a real number; the imaginary unit must be carried through every step.",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 27,

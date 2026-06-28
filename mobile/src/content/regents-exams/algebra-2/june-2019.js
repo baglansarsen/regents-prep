@@ -226,7 +226,8 @@ export default {
       "diveDeep": "When a quadratic has no real solutions, the answers are complex. Here x² + 1 = 0 leads to x² = −1, and the square root of −1 is the imaginary unit i, so x = ±i. The positive integer w simply factors out and cannot equal zero, so it does not affect the roots. A common error is concluding \"no solution\"; over the complex numbers there are always solutions, and a negative under the square root signals imaginary results.",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 13,
@@ -283,7 +284,8 @@ export default {
       "diveDeep": "Squaring a complex binomial uses (a − b)² = a² − 2ab + b², but the key twist is i² = −1. So the (−2i)² term becomes 4i² = −4, not +4. A very common mistake is forgetting to replace i² with −1, which leaves an erroneous +4 and the wrong constant. After simplifying the i² terms, combine the real constants (−4 + 6 = 2) while keeping the imaginary term −12xi separate.",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 16,

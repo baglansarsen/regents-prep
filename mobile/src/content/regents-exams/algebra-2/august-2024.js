@@ -58,7 +58,8 @@ export default {
       "diveDeep": "A negative number under a square root requires the imaginary unit i, where i = √(−1). First factor out the perfect square (25) and the −1, then simplify: √(−50) = 5√2 i. A frequent error is dropping the i and treating the result as a real number, or pulling out the wrong perfect square. Always extract the largest perfect-square factor so the radical is fully simplified.",
       "subTopic": "Complex Operations",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question.",
+      "isComplexSimplification": true
     },
     {
       "number": 4,
@@ -262,7 +263,8 @@ export default {
       "skill": "graphing",
       "subTopic": "Polynomial Graphs, Zeros & Conics",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question."
+      "difficultyRationale": "Standard Regents Algebra 2 multiple-choice question.",
+      "isComplexSimplification": true
     },
     {
       "number": 15,
@@ -280,7 +282,8 @@ export default {
       "diveDeep": "When multiplying expressions with i, distribute as usual and then replace i² with −1, which is the step that converts an imaginary term into a real one. Here 15i² becomes −15, producing the real part. Keep the real and imaginary parts separate when combining like terms. The most common error is forgetting that i² = −1 and leaving 15i² unsimplified, or mishandling the trailing −x.",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 16,
@@ -486,7 +489,8 @@ export default {
       "skill": "procedure",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 28,

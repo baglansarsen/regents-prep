@@ -158,7 +158,8 @@ export default {
       "explanation": "Subtracting 2l from both sides gives p − 2l = 2w, and dividing by 2 yields w = (p − 2l)/2.",
       "diveDeep": "Solving a literal equation (a formula) for one variable uses the same inverse operations as solving for a number: isolate the target variable step by step. Here subtract 2l to undo the addition, then divide by 2 to undo the multiplication, keeping the entire numerator (p − 2l) over 2. A common mistake is dividing only part of the expression by 2 instead of the whole numerator — every term must be divided.",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing.",
+      "isLiteralEquation": true
     },
     {
       "number": 10,

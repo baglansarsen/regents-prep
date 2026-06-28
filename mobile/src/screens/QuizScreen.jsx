@@ -38,6 +38,26 @@ import ExamImage from '../components/ExamImage'
 const LETTERS = ['A', 'B', 'C', 'D']
 const LETTER_COLORS = ['#34B3F1', '#7C5CFC', '#FF9600', '#FF5A5F']
 
+const getTutorHint = (q) => {
+  if (!q) return null
+  if (q.isExtraneousCheck) {
+    return "⚠️ Tutor Tip: Check for extraneous roots! Solve the equation, then plug your answers back into the original expression to verify."
+  }
+  if (q.isCoordinateProof) {
+    return "📝 Tutor Tip: Remember to write a final concluding statement linking your calculations to geometric definitions (e.g. parallel slopes, perpendicular lines)."
+  }
+  if (q.isGeometricProof) {
+    return "📝 Tutor Tip: For full credit on proofs, justify each statement with a formal definition, theorem, or postulate."
+  }
+  if (q.isComplexSimplification) {
+    return "i² = -1. Express your final answer in simplest a + bi form."
+  }
+  if (q.isLiteralEquation) {
+    return "🔑 Tutor Tip: Solve the literal equation step-by-step. Keep grouping symbols intact and apply inverse operations."
+  }
+  return null
+}
+
 // Combo threshold labels
 function comboInfo(streak) {
   if (streak >= 10) return { label: `${streak} in a row!`, mult: '×2.0', color: '#FF5A5F' }
@@ -467,6 +487,13 @@ export default function QuizScreen({ route, navigation }) {
               style={{ marginTop: 12 }}
               text={[currentQuestion.context, currentQuestion.text].filter(Boolean).join('. ')}
             />
+            {getTutorHint(currentQuestion) && phase === 'answering' && (
+              <View style={s.tutorHintBox}>
+                <Text style={s.tutorHintText}>
+                  {getTutorHint(currentQuestion)}
+                </Text>
+              </View>
+            )}
           </Animated.View>
 
           {isWritten ? (
@@ -946,6 +973,20 @@ function makeStyles(C, insets) {
     heart:         { fontSize: 13 },
     scroll:        { paddingHorizontal: 16, paddingTop: 12, paddingBottom: 16 },
     questionCard:  { backgroundColor: C.surface, borderRadius: 20, padding: 18, marginBottom: 20, borderWidth: 1, borderColor: C.border, borderTopWidth: 3, borderTopColor: C.brand, shadowColor: C.shadow, shadowOffset: { width: 0, height: 3 }, shadowOpacity: 1, shadowRadius: 10, elevation: 5 },
+    tutorHintBox: {
+      backgroundColor: C.warn + '1A',
+      borderColor: C.warn + '55',
+      borderWidth: 1,
+      borderRadius: 12,
+      padding: 12,
+      marginTop: 12,
+    },
+    tutorHintText: {
+      fontFamily: 'Nunito_600SemiBold',
+      fontSize: 13,
+      color: C.warn,
+      lineHeight: 18,
+    },
     questionImage: { width: '100%', height: 200, borderRadius: 10, marginBottom: 12, backgroundColor: C.surface2 },
     choices:       { gap: 12 },
     repeatBanner:  {

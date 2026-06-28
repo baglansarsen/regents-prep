@@ -76,7 +76,8 @@ export default {
       "diveDeep": "When squaring a complex number (a + bi)², expand as a² + 2abi + b²i² and remember i² = -1, which turns the last term real. The most common mistake is treating i² as +1 or forgetting the middle cross term. Writing the result in standard a + bi form requires combining the real parts (9 - 25) and keeping the imaginary part (-30i) separate. This skill underpins operations with complex conjugates and solving quadratics with negative discriminants.",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 5,
@@ -427,7 +428,8 @@ export default {
       "diveDeep": "Multiplying complex expressions requires distributing every term and replacing i² with -1 wherever it appears. Group the result into real and imaginary parts at the end. Here the products generate terms with i and i² that partially cancel, leaving a clean x³ + y³i. The most common mistakes are mishandling i² (treating it as +1) or losing track of signs across the multiple cross-products. Organize the expansion systematically—FOIL-style or with a grid—then collect real and imaginary parts separately.",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 24,
@@ -461,7 +463,8 @@ export default {
       "skill": "reasoning",
       "subTopic": "Complex Operations",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 26,

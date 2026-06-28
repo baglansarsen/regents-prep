@@ -412,7 +412,8 @@ export default {
       "explanation": "Collecting x-terms: 3x − ax = 12, so x(3 − a) = 12 and x = 12/(3 − a).",
       "diveDeep": "To solve a literal equation for one variable in terms of another, gather all terms containing that variable on one side and factor it out. Here 3x − ax = 5 + 7 = 12, factor to x(3 − a) = 12, then divide by (3 − a). A common mistake is dividing before factoring or mishandling the subtraction of ax. Treat the other letter (a) as a constant and use the same isolating steps you would with numbers.",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing.",
+      "isLiteralEquation": true
     },
     {
       "number": 23,
@@ -617,7 +618,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Solving Equations & Inequalities",
       "difficulty": 4,
-      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point."
+      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point.",
+      "isLiteralEquation": true
     },
     {
       "number": 37,
@@ -631,7 +633,8 @@ export default {
       "skill": "reasoning",
       "subTopic": "Graphing Parabolas",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response requiring multi-step mathematical modeling."
+      "difficultyRationale": "Part IV constructed-response requiring multi-step mathematical modeling.",
+      "isLiteralEquation": true
     }
   ]
 }

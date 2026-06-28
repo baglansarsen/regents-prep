@@ -374,7 +374,8 @@ export default {
       "diveDeep": "Treat a as a constant and isolate x as usual. Collect the ax terms on one side (6 = 2ax − 2), move constants (8 = 2ax), then divide both sides by the coefficient of x, which is 2a, giving x = 8/(2a) = 4/a. The key step is recognizing 2ax as a single term with coefficient 2a; divide by the entire coefficient, not just a, and simplify the fraction.",
       "subTopic": "Solving Equations & Inequalities",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing.",
+      "isLiteralEquation": true
     },
     {
       "number": 21,
@@ -542,7 +543,8 @@ export default {
       "modelAnswer": "t₁ = 5\nt₂ = 3(5) − 2 = 15 − 2 = 13\nt₃ = 3(13) − 2 = 39 − 2 = 37\nt₄ = 3(37) − 2 = 111 − 2 = 109\nThe first four terms are 5, 13, 37, and 109.",
       "subTopic": "Arithmetic Sequences",
       "difficulty": 3,
-      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others."
+      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others.",
+      "isLiteralEquation": true
     },
     {
       "number": 32,

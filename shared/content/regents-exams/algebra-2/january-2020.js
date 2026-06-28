@@ -347,7 +347,8 @@ export default {
       "explanation": "Rearranging gives 5x² − 4x + 2 = 0; the quadratic formula yields x = [4 ± √(16 − 40)]/10 = (4 ± √(−24))/10 = 2/5 ± (√6/5)i, so b = √6/5.",
       "diveDeep": "When a quadratic has a negative discriminant (b² − 4ac < 0), its solutions are complex and come in the form a ± bi. Writing 2(2x − 1) = 5x² as 5x² − 4x + 2 = 0 and applying the quadratic formula gives x = (4 ± √−24)/10; since √−24 = √24·i = 2√6·i, the solutions are 2/5 ± (√6/5)i. The imaginary part b is the coefficient of i, namely √6/5. Be careful to simplify the radical fully (√24 = 2√6) and to separate the real part from the imaginary coefficient — b is just the number multiplying i.",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 21,
@@ -381,7 +382,8 @@ export default {
       "explanation": "Expanding (x + 2i)² = x² + 4xi + 4i² = x² − 4 + 4xi; combining 7 − 3i − (x² − 4 + 4xi) + 4i − 2x² gives real part (3 − x²)... wait, recompute carefully to get (3 − x²) + (−4x − 7)i.",
       "diveDeep": "Squaring a complex binomial uses i² = −1: (x + 2i)² = x² + 4xi + 4i² = x² − 4 + 4xi. Substituting and distributing the subtraction: (7 − 3i) − (x² − 4 + 4xi) + (4i − 2x²) = 7 − 3i − x² + 4 − 4xi + 4i − 2x². Wait — combine real terms 7 + 4 − x² − 2x² = 11 − 3x² and imaginary −3 − 4x + 4 = (1 − 4x); the official key groups to (3 − x²) + (−4x − 7)i after the intended grouping of like terms. The reliable method is: expand each piece, replace i² with −1, then collect all real (no i) terms separately from all imaginary (with i) terms. Track signs when distributing a leading minus sign across a parenthesis.",
       "difficulty": 2,
-      "difficultyRationale": "Basic complex number arithmetic and simplification."
+      "difficultyRationale": "Basic complex number arithmetic and simplification.",
+      "isComplexSimplification": true
     },
     {
       "number": 23,

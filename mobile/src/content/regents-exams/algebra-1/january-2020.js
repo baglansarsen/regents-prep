@@ -514,7 +514,8 @@ export default {
       "diveDeep": "Solving a literal equation means isolating the requested variable using inverse operations, treating the other letters as constants. Undo the multiplication by n/2 by multiplying both sides by its reciprocal 2/n, which gives a + b on one side. Then subtract a from both sides to leave b alone. The result b = (2S)/n − a is exact; rearranging formulas this way is the same skill as solving for one variable, just with symbols instead of numbers.",
       "modelAnswer": "S = (n/2)(a + b). Multiply both sides by 2/n: 2S/n = a + b. Subtract a from both sides: b = 2S/n − a (equivalently b = (2S − an)/n).",
       "difficulty": 3,
-      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others."
+      "difficultyRationale": "Requires solving a literal equation for a specified variable in terms of others.",
+      "isLiteralEquation": true
     },
     {
       "number": 33,
