@@ -11,7 +11,7 @@ import { PETS_ENABLED } from '../config/features'
 
 import LoginScreen              from '../screens/LoginScreen'
 import SchoolOnboardingScreen   from '../screens/SchoolOnboardingScreen'
-import SubjectOnboardingScreen  from '../screens/SubjectOnboardingScreen'
+import ReggieOnboardingScreen   from '../screens/ReggieOnboardingScreen'
 import PetPickerScreen, { petChosenKey } from '../screens/PetPickerScreen'
 import TabNavigator             from './TabNavigator'
 import ExamScreen               from '../screens/ExamScreen'
@@ -117,9 +117,10 @@ export default function AppNavigator() {
           </Stack.Screen>
 
         ) : !subjectChosen ? (
-          <Stack.Screen name="SubjectOnboarding">
+          /* ── Reggie-led onboarding — intro, subject, exam date, goal ── */
+          <Stack.Screen name="ReggieOnboarding">
             {(props) => (
-              <SubjectOnboardingScreen
+              <ReggieOnboardingScreen
                 {...props}
                 onComplete={async () => {
                   await AsyncStorage.setItem(subjectChosenKey(user.uid), '1')
