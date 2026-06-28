@@ -10,7 +10,7 @@ export {
 } from './units'
 
 // Topic sequence (only authored topics for now).
-export const TOPIC_ORDER = [TOPICS.INTEGERS]
+export const TOPIC_ORDER = [TOPICS.INTEGERS, TOPICS.FRACTIONS]
 
 // Materialized pool (parity with the Regents subject indexes).
 export const questions = allQuestions()

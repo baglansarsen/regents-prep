@@ -13,7 +13,8 @@ const _api = makeLessonApi({ exams: [{ questions: QUESTIONS }], topicMap: TOPIC_
 // Only units with authored questions are listed (Integers first; the rest are
 // authored next). Colors match the warm "foundations" palette.
 export const UNITS = [
-  { id: 'basic-integers', title: 'Integers & Order of Operations', icon: TOPIC_ICONS[TOPICS.INTEGERS], color: '#0d9488', darkColor: '#0f766e', topic: TOPICS.INTEGERS, lessonCount: 2 },
+  { id: 'basic-integers',  title: 'Integers & Order of Operations', icon: TOPIC_ICONS[TOPICS.INTEGERS],  color: '#0d9488', darkColor: '#0f766e', topic: TOPICS.INTEGERS,  lessonCount: 2 },
+  { id: 'basic-fractions', title: 'Fractions, Decimals & Percents',  icon: TOPIC_ICONS[TOPICS.FRACTIONS], color: '#d97706', darkColor: '#b45309', topic: TOPICS.FRACTIONS, lessonCount: 2 },
 ]
 
 export const getLessonQuestions = _api.getLessonQuestions
