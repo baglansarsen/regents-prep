@@ -519,6 +519,16 @@ export default function HomeScreen({ navigation }) {
     closeSheet(() => navigation.navigate('Study', { questionSet: pool, subject }))
   }
 
+  // Drives the student into action via the smart-quest topic if available,
+  // falling back to a mixed quiz (first prediction signal for cold-start users).
+  function startTodaysMission() {
+    if (questData?.topic && questData.action === 'complete_quiz_topic' && !questData.completed) {
+      startQuiz(questData.topic)
+    } else {
+      startQuiz(null)
+    }
+  }
+
   function startSkipChallenge(unit, unitIdx) {
     const prev = units[unitIdx - 1]
     const pool = shuffle(sd.getByTopic(prev?.topic ?? unit.topic)).slice(0, 15)
@@ -608,6 +618,101 @@ export default function HomeScreen({ navigation }) {
             </View>
           )}
         </View>
+
+        {/* ── Outcome-first card — predicted score vs. goal, sits directly under the greeting ── */}
+        {goalLoaded && (
+          <View
+            style={[
+              s.outcomeCard,
+              elevatedCard(C),
+              glassStyle,
+              { borderLeftWidth: 4, borderLeftColor: regentsGoal ? (C.warn ?? '#FFC93C') : C.brand },
+            ]}
+          >
+            {/* Row 1: ring + subject info (Tapping here navigates to GoalDetail/GoalSetup) */}
+            <TouchableOpacity
+              style={s.outcomeRow}
+              onPress={() => navigation.navigate(regentsGoal ? 'GoalDetail' : 'GoalSetup')}
+              activeOpacity={0.75}
+            >
+              <GoalRing
+                size={60}
+                strokeWidth={6}
+                progress={
+                  regentsGoal && predicted != null && !coldStart
+                    ? Math.min(1, Math.max(0, (predicted - 50) / Math.max(1, regentsGoal.target - 50)))
+                    : 0
+                }
+                color={
+                  regentsGoal && predicted != null && predicted >= regentsGoal.target
+                    ? C.correct
+                    : (C.warn ?? '#FFC93C')
+                }
+                trackColor={C.surface2}
+              >
+                <Text style={{ fontFamily: 'Fredoka_700Bold', fontSize: 13, color: C.text }}>
+                  {!regentsGoal ? '🎯' : coldStart ? '—' : predicted}
+                </Text>
+              </GoalRing>
+
+              <View style={s.outcomeInfo}>
+                <Text style={[T.h3, { color: C.text }]} numberOfLines={1}>{subjectName}</Text>
+
+                {regentsGoal ? (
+                  <>
+                    <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]} numberOfLines={1}>
+                      {coldStart
+                        ? 'Checkup needed · take a quiz'
+                        : `${predicted} → ${regentsGoal.target} ${tierFor(regentsGoal.target).icon}`}
+                    </Text>
+                    <Text
+                      style={[T.small, { color: daysToExam <= 14 ? C.wrong : C.textMuted, marginTop: 2 }]}
+                      numberOfLines={1}
+                    >
+                      {!coldStart && predicted != null && predicted < regentsGoal.target
+                        ? `${regentsGoal.target - predicted} pts to go · `
+                        : ''}{examLabel}
+                    </Text>
+                  </>
+                ) : (
+                  <>
+                    <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]} numberOfLines={1}>
+                      Set a target to track your score
+                    </Text>
+                    <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]} numberOfLines={1}>
+                      {examLabel}
+                    </Text>
+                  </>
+                )}
+              </View>
+            </TouchableOpacity>
+
+            {/* Row 2: primary CTA */}
+            <TouchableOpacity
+              style={duoBtn(C.brand, C.brandDark, { marginTop: 12, paddingVertical: 11 })}
+              onPress={() => {
+                if (!regentsGoal) {
+                  navigation.navigate('GoalSetup')
+                } else if (coldStart) {
+                  startQuiz(null)
+                } else {
+                  startTodaysMission()
+                }
+              }}
+              activeOpacity={0.85}
+            >
+              <Text style={[T.btn, { color: '#fff' }]}>
+                {!regentsGoal
+                  ? 'Set Goal'
+                  : coldStart
+                  ? 'Start Checkup'
+                  : predicted != null && predicted < regentsGoal.target
+                  ? "Do Today's Mission"
+                  : 'Keep It Locked'}
+              </Text>
+            </TouchableOpacity>
+          </View>
+        )}
 
         {/* Week streak moved to the top bar — tap the 🔥 there for the full calendar */}
 
@@ -851,61 +956,7 @@ export default function HomeScreen({ navigation }) {
         </View>
 
         {/* ── Secondary content (goals, pet, quests, practice) lives below the path ── */}
-
-        {/* Regents Goal — predicted score vs committed target */}
-        {regentsGoal ? (
-          <TouchableOpacity
-            style={[s.goalCard, elevatedCard(C), glassStyle, { borderLeftWidth: 4, borderLeftColor: C.warn ?? '#FFC93C' }]}
-            onPress={() => navigation.navigate('GoalDetail')}
-            activeOpacity={0.85}
-          >
-            <GoalRing
-              size={72}
-              strokeWidth={7}
-              progress={predicted != null
-                ? Math.min(1, Math.max(0, (predicted - 50) / Math.max(1, regentsGoal.target - 50)))
-                : 0}
-              color={predicted != null && predicted >= regentsGoal.target ? C.correct : (C.warn ?? '#FFC93C')}
-              trackColor={C.surface2}
-            >
-              <Text style={[T.label, { color: C.text, textTransform: 'none', letterSpacing: 0, fontSize: 15 }]}>
-                {coldStart ? '—' : predicted}
-              </Text>
-            </GoalRing>
-            <View style={{ flex: 1, marginLeft: 14 }}>
-              <Text style={[T.h3, { color: C.text }]}>🎯 Regents Goal</Text>
-              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-                {coldStart
-                  ? `Goal: ${regentsGoal.target} ${tierFor(regentsGoal.target).icon} · take a quiz to unlock your prediction`
-                  : `${predicted} → ${regentsGoal.target} ${tierFor(regentsGoal.target).icon}`}
-              </Text>
-              {!coldStart && (
-                <Text style={[T.small, { color: predicted >= regentsGoal.target ? C.correct : C.textMuted, marginTop: 3 }]}>
-                  {predicted >= regentsGoal.target
-                    ? '🎉 Predicted at your goal!'
-                    : `${regentsGoal.target - predicted} points to go`}
-                  {goalDaysToExam != null ? ` · ${goalDaysToExam} days left` : ''}
-                </Text>
-              )}
-            </View>
-            <Text style={[T.label, { color: C.textDim }]}>{'DETAILS\n›'}</Text>
-          </TouchableOpacity>
-        ) : goalLoaded ? (
-          <TouchableOpacity
-            style={[s.goalCard, elevatedCard(C), glassStyle, { borderLeftWidth: 4, borderLeftColor: C.brand }]}
-            onPress={() => navigation.navigate('GoalSetup')}
-            activeOpacity={0.85}
-          >
-            <Text style={{ fontSize: 34 }}>🎯</Text>
-            <View style={{ flex: 1, marginLeft: 14 }}>
-              <Text style={[T.h3, { color: C.text }]}>Set your Regents goal</Text>
-              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-                Commit to a score and watch your prediction climb
-              </Text>
-            </View>
-            <Text style={[T.label, { color: C.textDim }]}>{'START\n›'}</Text>
-          </TouchableOpacity>
-        ) : null}
+        {/* Regents Goal card moved to the outcome-first header above the learning path. */}
 
         {/* Daily Goal ring consolidated away — the Regents Goal card above covers
             goals, and today's RP progress already shows in the top bar. */}
@@ -1412,6 +1463,20 @@ function makeStyles(C) {
       marginHorizontal: 16,
       marginBottom:    20,
       padding:         16,
+    },
+    outcomeCard: {
+      marginHorizontal: 16,
+      marginBottom:    14,
+      padding:         16,
+    },
+    outcomeRow: {
+      flexDirection: 'row',
+      alignItems:    'center',
+      gap:           14,
+    },
+    outcomeInfo: {
+      flex:       1,
+      flexShrink: 1,
     },
     goalOption: {
       flexDirection: 'row',
