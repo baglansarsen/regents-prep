@@ -47,3 +47,6 @@ yarn-error.*
 # Firebase credentials (added via EAS secrets or local only)
 # google-services.json
 # GoogleService-Info.plist
+
+# Google Play service account key — never commit
+regapp-c3e0d-b147688ce5b5.json

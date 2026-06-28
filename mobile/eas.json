@@ -31,7 +31,7 @@
   "submit": {
     "production": {
       "android": {
-        "serviceAccountKeyPath": "REPLACE_WITH_PATH_TO_SERVICE_ACCOUNT_KEY.json",
+        "serviceAccountKeyPath": "./regapp-c3e0d-b147688ce5b5.json",
         "track": "internal"
       },
       "ios": {
