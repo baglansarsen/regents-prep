@@ -96,7 +96,8 @@ export default {
       "diveDeep": "The standard equation of a circle encodes the center and radius directly, but two sign/value traps catch students: the center coordinates are the OPPOSITE of the signs in the parentheses (x − 3 gives h = +3; y + 2 means y − (−2), so k = −2), and the right side equals r², not r, so you must take the square root. If the equation is given in general form (expanded), complete the square first to recover this standard form.",
       "subTopic": "Equations of Circles",
       "difficulty": 2,
-      "difficultyRationale": "Basic application of circle properties."
+      "difficultyRationale": "Basic application of circle properties.",
+      "isCircleEquation": true
     },
     {
       "number": 6,

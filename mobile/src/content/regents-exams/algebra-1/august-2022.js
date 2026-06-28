@@ -606,7 +606,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Solving Equations & Inequalities",
       "difficulty": 4,
-      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point."
+      "difficultyRationale": "Requires graphing a system of linear inequalities, shading the solution region, and algebraically/graphically verifying a solution point.",
+      "isInequalitySystem": true
     },
     {
       "number": 36,

@@ -169,7 +169,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 10,
@@ -206,7 +207,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 12,
@@ -260,7 +262,8 @@ export default {
       "diveDeep": "For exponential functions of the form a·bˣ + k with b > 1, the term bˣ shrinks toward 0 as x heads to negative infinity, leaving the constant k as the horizontal asymptote. Here k = 2, so the end behavior on the left is f(x) → 2. The vertical shift +2 is what moves the asymptote off the x-axis; without it the function would approach 0. Identifying the constant added to the exponential is the fast way to read off the left-end behavior.",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 15,
@@ -444,7 +447,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 25,
@@ -528,7 +532,8 @@ export default {
       "skill": "graphing",
       "subTopic": "Trig Graphs",
       "difficulty": 3,
-      "difficultyRationale": "Standard trigonometric ratio or function application."
+      "difficultyRationale": "Standard trigonometric ratio or function application.",
+      "isTrigModeling": true
     },
     {
       "number": 31,
@@ -555,7 +560,8 @@ export default {
       "skill": "graphing",
       "subTopic": "Trig Graphs",
       "difficulty": 2,
-      "difficultyRationale": "Basic identification of trigonometric properties."
+      "difficultyRationale": "Basic identification of trigonometric properties.",
+      "isTrigModeling": true
     },
     {
       "number": 33,
@@ -569,7 +575,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 4,
-      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis.",
+      "isExponentialRate": true
     },
     {
       "number": 34,
@@ -597,7 +604,8 @@ export default {
       "skill": "reasoning",
       "subTopic": "Exponential Models",
       "difficulty": 4,
-      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis.",
+      "isExponentialRate": true
     },
     {
       "number": 36,
@@ -625,7 +633,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison."
+      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison.",
+      "isExponentialRate": true
     }
   ]
 }

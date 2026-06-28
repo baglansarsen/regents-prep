@@ -263,7 +263,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Solving Equations & Inequalities",
       "difficulty": 3,
-      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing."
+      "difficultyRationale": "Standard Regents multiple-choice question requiring multi-step algebraic solving or graphing.",
+      "isInequalitySystem": true
     },
     {
       "number": 15,

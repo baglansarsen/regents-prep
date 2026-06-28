@@ -114,7 +114,8 @@ export default {
       "diveDeep": "To find the center and radius, complete the square on both x and y. For x² − 6x add (6/2)² = 9; for y² + 2y add (2/2)² = 1; add both to the right side: 14 + 9 + 1 = 24, giving (x−3)² + (y+1)² = 24, so the center is (3,−1) and r = √24. The sign trap is the biggest pitfall: the center coordinates are the opposite of the numbers inside the squared terms. Carefully balance the equation by adding the same constants to both sides.",
       "subTopic": "Equations of Circles",
       "difficulty": 2,
-      "difficultyRationale": "Basic application of circle properties."
+      "difficultyRationale": "Basic application of circle properties.",
+      "isCircleEquation": true
     },
     {
       "number": 7,

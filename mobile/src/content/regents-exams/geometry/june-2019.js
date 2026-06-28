@@ -376,7 +376,8 @@ export default {
       "diveDeep": "To convert general form to center-radius form, complete the square for x and y separately. For x² + 8x, add (8/2)² = 16; for y² − 12y, add (−12/2)² = 36. Add these to both sides: (x + 4)² + (y − 6)² = 144 + 16 + 36 = 196. The center reads off as the opposite signs inside the parentheses: (−4, 6), and the radius is √196 = 14 (not 196). Traps include sign errors on the center and forgetting to add the completed-square constants to the right side, which would give the wrong radius (12).",
       "subTopic": "Equations of Circles",
       "difficulty": 2,
-      "difficultyRationale": "Basic application of circle properties."
+      "difficultyRationale": "Basic application of circle properties.",
+      "isCircleEquation": true
     },
     {
       "number": 21,

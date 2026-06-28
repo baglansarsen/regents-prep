@@ -115,7 +115,8 @@ export default {
       "diveDeep": "Completing the square converts general form to standard form. Half the x-coefficient is 4 (square: 16); half the y-coefficient is 3 (square: 9). Add both to both sides. The radius is √(right side), NOT the right side itself — confusing r² with r is the most common error. Signs in the center: (x−4)² → center x = +4; (y+3)² → center y = −3. The center coordinates always have the opposite sign from what appears in the parentheses.",
       "subTopic": "Equations of Circles",
       "difficulty": 2,
-      "difficultyRationale": "Basic application of circle properties."
+      "difficultyRationale": "Basic application of circle properties.",
+      "isCircleEquation": true
     },
     {
       "number": 7,

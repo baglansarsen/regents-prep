@@ -59,7 +59,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 4,
@@ -224,7 +225,8 @@ export default {
       "skill": "graphing",
       "subTopic": "Trig Graphs",
       "difficulty": 3,
-      "difficultyRationale": "Standard trigonometric ratio or function application."
+      "difficultyRationale": "Standard trigonometric ratio or function application.",
+      "isTrigModeling": true
     },
     {
       "number": 13,
@@ -315,7 +317,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard application of exponential modeling."
+      "difficultyRationale": "Standard application of exponential modeling.",
+      "isExponentialRate": true
     },
     {
       "number": 18,
@@ -333,7 +336,8 @@ export default {
       "diveDeep": "This is Newton’s Law of Cooling. Substitute all knowns, isolate the exponential, then take the natural log to solve for t. Watch the order of operations: subtract Fₛ first (120 − 68 = 52, and 195 − 68 = 127), then divide before logging. A common mistake is forgetting the negative on kt, which flips the sign of t. Round only at the final step.",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 19,
@@ -445,7 +449,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard application of exponential modeling."
+      "difficultyRationale": "Standard application of exponential modeling.",
+      "isExponentialRate": true
     },
     {
       "number": 25,
@@ -527,7 +532,8 @@ export default {
       "modelAnswer": "Amplitude = (high − low)/2.\nPuget Sound: (10.1 − (−2))/2 = 12.1/2 = 6.05 ft.\nShinnecock Bay: (2.5 − (−0.1))/2 = 2.6/2 = 1.3 ft.\nDifference in amplitudes = 6.05 − 1.3 = 4.75 ft.",
       "subTopic": "Trig Graphs",
       "difficulty": 2,
-      "difficultyRationale": "Basic identification of trigonometric properties."
+      "difficultyRationale": "Basic identification of trigonometric properties.",
+      "isTrigModeling": true
     },
     {
       "number": 31,
@@ -569,7 +575,8 @@ export default {
       "skill": "reasoning",
       "subTopic": "Exponential Models",
       "difficulty": 4,
-      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis.",
+      "isExponentialRate": true
     },
     {
       "number": 34,

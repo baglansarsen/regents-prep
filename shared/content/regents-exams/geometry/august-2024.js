@@ -115,7 +115,8 @@ export default {
       "diveDeep": "The center-radius form (x − h)² + (y − k)² = r² lets you read the center and radius directly, but you must flip the signs of h and k. The (x − 3)² gives h = +3, and (y + 2)² = (y − (−2))² gives k = −2. The most common mistake is taking r = 16 instead of √16 = 4, forgetting that the equation stores r², not r. If a circle is given in general form x² + y² + Dx + Ey + F = 0, you must complete the square to convert before reading the center and radius.",
       "subTopic": "Equations of Circles",
       "difficulty": 2,
-      "difficultyRationale": "Basic application of circle properties."
+      "difficultyRationale": "Basic application of circle properties.",
+      "isCircleEquation": true
     },
     {
       "number": 7,

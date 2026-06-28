@@ -152,7 +152,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 9,
@@ -170,7 +171,8 @@ export default {
       "diveDeep": "When an exponential equation has both sides expressible as powers of the same base, set the exponents equal. Here 8 = 2³, so the equation reduces to a simple linear one: x + 1 = 3. A frequent slip is forgetting to subtract 1 after equating exponents, or failing to convert 8 to base 2. This common-base technique is faster and exact compared with using logarithms when the numbers cooperate.",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 10,
@@ -243,7 +245,8 @@ export default {
       "skill": "graphing",
       "subTopic": "Trig Graphs",
       "difficulty": 2,
-      "difficultyRationale": "Basic identification of trigonometric properties."
+      "difficultyRationale": "Basic identification of trigonometric properties.",
+      "isTrigModeling": true
     },
     {
       "number": 14,
@@ -319,7 +322,8 @@ export default {
       "diveDeep": "When an equation mixes a logarithmic and a polynomial expression, there is no clean algebraic solution, so use a graphing calculator to find where the two curves intersect. Enter each side as a separate function and use the intersect feature, reading the x-coordinate to the requested precision. Estimating by plugging answer choices back in can confirm the result. The pitfall is reporting the y-value of the intersection instead of the x-value.",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard logarithmic equation solving."
+      "difficultyRationale": "Standard logarithmic equation solving.",
+      "isExponentialRate": true
     },
     {
       "number": 18,
@@ -504,7 +508,8 @@ export default {
       "skill": "graphing",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 29,
@@ -531,7 +536,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 31,
@@ -559,7 +565,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 33,
@@ -629,7 +636,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison."
+      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison.",
+      "isExponentialRate": true
     }
   ]
 }

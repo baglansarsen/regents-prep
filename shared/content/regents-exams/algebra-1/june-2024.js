@@ -42,7 +42,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Solving Equations & Inequalities",
       "difficulty": 2,
-      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations."
+      "difficultyRationale": "Requires basic application of algebraic formulas, function evaluation, or solving simple equations.",
+      "isInequalitySystem": true
     },
     {
       "number": 3,

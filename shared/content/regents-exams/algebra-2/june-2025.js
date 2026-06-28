@@ -114,7 +114,8 @@ export default {
       "skill": "graphing",
       "subTopic": "Trig Graphs",
       "difficulty": 2,
-      "difficultyRationale": "Basic identification of trigonometric properties."
+      "difficultyRationale": "Basic identification of trigonometric properties.",
+      "isTrigModeling": true
     },
     {
       "number": 7,
@@ -169,7 +170,8 @@ export default {
       "diveDeep": "Horizontal shifts come from the input: x − h moves right by h (counterintuitively, subtraction moves right), while vertical shifts come from a constant added outside the function. The trap is reversing the horizontal direction. For exponentials, the horizontal asymptote also moves up/down by the vertical shift, so g(x) here has asymptote y = 4.",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 10,
@@ -281,7 +283,8 @@ export default {
       "diveDeep": "When an unknown sits in an exponent, isolate the power and apply a logarithm — that is the defining purpose of logs. If the bases on both sides cannot be matched, you must use a log (change of base if needed) rather than equating exponents. Equating exponents only works when both sides share the same base.",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 16,
@@ -373,7 +376,8 @@ export default {
       "diveDeep": "To rescale an exponential's growth period, raise the base to the new period length and divide the exponent by that same length, keeping the overall value unchanged. The 5-year factor is the annual factor to the 5th power. A common error is multiplying the exponent by 5 instead of dividing, which would change the time units incorrectly.",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 21,
@@ -490,7 +494,8 @@ export default {
       "skill": "graphing",
       "subTopic": "Trig Graphs",
       "difficulty": 3,
-      "difficultyRationale": "Standard trigonometric ratio or function application."
+      "difficultyRationale": "Standard trigonometric ratio or function application.",
+      "isTrigModeling": true
     },
     {
       "number": 28,
@@ -520,7 +525,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 30,
@@ -638,7 +644,8 @@ export default {
       "skill": "reasoning",
       "subTopic": "Exponential Models",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison."
+      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison.",
+      "isExponentialRate": true
     }
   ]
 }

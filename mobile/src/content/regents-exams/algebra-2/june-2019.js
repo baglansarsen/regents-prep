@@ -117,7 +117,8 @@ export default {
       "skill": "graphing",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 7,
@@ -323,7 +324,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard application of exponential modeling."
+      "difficultyRationale": "Standard application of exponential modeling.",
+      "isExponentialRate": true
     },
     {
       "number": 18,
@@ -379,7 +381,8 @@ export default {
       "image": "/images/exams/alg2-june-2019/q20.png",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 21,
@@ -456,7 +459,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard application of exponential modeling."
+      "difficultyRationale": "Standard application of exponential modeling.",
+      "isExponentialRate": true
     },
     {
       "number": 25,
@@ -605,7 +609,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 4,
-      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis.",
+      "isExponentialRate": true
     },
     {
       "number": 35,
@@ -649,7 +654,8 @@ export default {
       "skill": "reasoning",
       "subTopic": "Trig Graphs",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison."
+      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison.",
+      "isTrigModeling": true
     }
   ]
 }

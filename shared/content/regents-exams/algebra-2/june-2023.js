@@ -24,7 +24,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 2,
@@ -98,7 +99,8 @@ export default {
       "skill": "graphing",
       "subTopic": "Trig Graphs",
       "difficulty": 2,
-      "difficultyRationale": "Basic identification of trigonometric properties."
+      "difficultyRationale": "Basic identification of trigonometric properties.",
+      "isTrigModeling": true
     },
     {
       "number": 6,
@@ -268,7 +270,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 15,
@@ -287,7 +290,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 16,
@@ -452,7 +456,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard application of exponential modeling."
+      "difficultyRationale": "Standard application of exponential modeling.",
+      "isExponentialRate": true
     },
     {
       "number": 25,
@@ -480,7 +485,8 @@ export default {
       "skill": "reasoning",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 27,
@@ -521,7 +527,8 @@ export default {
       "skill": "procedure",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 30,
@@ -606,7 +613,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 4,
-      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis.",
+      "isExponentialRate": true
     },
     {
       "number": 36,
@@ -634,7 +642,8 @@ export default {
       "skill": "graphing",
       "subTopic": "Trig Graphs",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison."
+      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison.",
+      "isTrigModeling": true
     }
   ]
 }

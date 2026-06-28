@@ -55,6 +55,18 @@ const getTutorHint = (q) => {
   if (q.isLiteralEquation) {
     return "🔑 Tutor Tip: Solve the literal equation step-by-step. Keep grouping symbols intact and apply inverse operations."
   }
+  if (q.isInequalitySystem) {
+    return "⚠️ Tutor Tip: Watch your inequality signs! \"At most\" / \"no more than\" → ≤, \"at least\" / \"minimum\" → ≥. When graphing a system, shade the overlapping region and label it S."
+  }
+  if (q.isCircleEquation) {
+    return "⭕ Tutor Tip: Complete the square for both x and y to write the equation in standard form (x−h)² + (y−k)² = r². Group x-terms and y-terms separately before completing each square."
+  }
+  if (q.isExponentialRate) {
+    return "📈 Tutor Tip: To convert an annual rate r to monthly, use (1+r)^(1/12) − 1. For continuous growth, use A = Pe^(rt). Always identify the time unit of t before plugging in."
+  }
+  if (q.isTrigModeling) {
+    return "〰️ Tutor Tip: Identify the parameters in y = A·sin(Bx + C) + D. |A| = amplitude, period = 2π/B, C/B = phase shift, D = midline. Read the graph carefully for max, min, and period."
+  }
   return null
 }
 

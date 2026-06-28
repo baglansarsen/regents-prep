@@ -243,7 +243,8 @@ export default {
       "diveDeep": "To find a circle's center and radius from general form, complete the square on the x-terms (and y-terms): take half the coefficient of x, square it (12/2 = 6, 6² = 36), and add it to both sides. The center coordinate is the OPPOSITE sign of the number inside the squared binomial — (x + 6)² means the center x is −6, a classic sign trap. The radius is the square root of the constant on the right side, not the constant itself. Always move loose terms to the right before reading off r².",
       "subTopic": "Equations of Circles",
       "difficulty": 2,
-      "difficultyRationale": "Basic application of circle properties."
+      "difficultyRationale": "Basic application of circle properties.",
+      "isCircleEquation": true
     },
     {
       "number": 14,

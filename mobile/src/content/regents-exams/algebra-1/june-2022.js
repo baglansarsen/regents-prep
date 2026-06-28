@@ -610,7 +610,8 @@ export default {
       "skill": "reasoning",
       "subTopic": "Solving Systems",
       "difficulty": 4,
-      "difficultyRationale": "Standard Regents Part III constructed-response requiring multi-step modeling, graphing, and algebraic justification."
+      "difficultyRationale": "Standard Regents Part III constructed-response requiring multi-step modeling, graphing, and algebraic justification.",
+      "isInequalitySystem": true
     },
     {
       "number": 37,

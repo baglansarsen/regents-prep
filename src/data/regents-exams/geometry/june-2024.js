@@ -95,7 +95,8 @@ export default {
       "diveDeep": "The standard form of a circle is (x − h)² + (y − k)² = r², with center (h, k) and radius r. To convert from general form, complete the square on the x-terms and y-terms separately: half of −6 is −3 (square is 9), half of 8 is 4 (square is 16), then add those to both sides: −11 + 9 + 16 = 14... here the constant works to give r² = 36. The biggest traps are sign errors on the center (the center is the value that makes each squared term zero, so x − 3 gives +3) and forgetting to take the square root for the radius (radius is 6, not 36).",
       "subTopic": "Equations of Circles",
       "difficulty": 2,
-      "difficultyRationale": "Basic application of circle properties."
+      "difficultyRationale": "Basic application of circle properties.",
+      "isCircleEquation": true
     },
     {
       "number": 6,
@@ -500,7 +501,8 @@ export default {
       "modelAnswer": "x² + 8x + y² − 6y = −7\n(x² + 8x + 16) + (y² − 6y + 9) = −7 + 16 + 9\n(x + 4)² + (y − 3)² = 18\nCenter: (−4, 3)\nRadius: r = √18 = 3√2 ≈ 4.24",
       "subTopic": "Equations of Circles",
       "difficulty": 3,
-      "difficultyRationale": "Standard constructed-response calculation."
+      "difficultyRationale": "Standard constructed-response calculation.",
+      "isCircleEquation": true
     },
     {
       "number": 29,

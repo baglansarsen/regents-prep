@@ -361,7 +361,8 @@ export default {
       "diveDeep": "Convert from general form to center-radius form x²·+(y−k)² = r² by completing the square on each variable. Here only y needs it: half of 12 is 6, squared is 36, added to both sides. The center coordinate is the opposite sign of the number inside the squared binomial, so (y+6)² gives k = −6. The radius is √(constant on the right) = √56.25 = 7.5. Sign errors on the center coordinate are the most common slip.",
       "subTopic": "Equations of Circles",
       "difficulty": 2,
-      "difficultyRationale": "Basic application of circle properties."
+      "difficultyRationale": "Basic application of circle properties.",
+      "isCircleEquation": true
     },
     {
       "number": 20,
@@ -437,7 +438,8 @@ export default {
       "diveDeep": "A tangent line to a circle is perpendicular to the radius drawn to the point of tangency. Find the radius slope from the center to A, then take its negative reciprocal for the tangent slope (−4/3 → +3/4). Write the line in point-slope form through A(−3,4). The frequent error is using the radius slope itself instead of its negative reciprocal, or a sign slip on the reciprocal — verify the product of the two slopes equals −1.",
       "subTopic": "Equations of Circles",
       "difficulty": 2,
-      "difficultyRationale": "Basic application of circle properties."
+      "difficultyRationale": "Basic application of circle properties.",
+      "isCircleEquation": true
     },
     {
       "number": 24,

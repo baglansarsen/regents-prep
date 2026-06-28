@@ -534,7 +534,8 @@ export default {
       "modelAnswer": "x² + y² + 6x − 6y − 63 = 0\n(x² + 6x) + (y² − 6y) = 63\nComplete the square:\n(x² + 6x + 9) + (y² − 6y + 9) = 63 + 9 + 9\n(x + 3)² + (y − 3)² = 81\n\nCenter: (−3, 3)\nRadius: r = √81 = 9",
       "subTopic": "Equations of Circles",
       "difficulty": 3,
-      "difficultyRationale": "Standard constructed-response calculation."
+      "difficultyRationale": "Standard constructed-response calculation.",
+      "isCircleEquation": true
     },
     {
       "number": 31,

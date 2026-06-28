@@ -206,7 +206,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 12,
@@ -263,7 +264,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 15,
@@ -301,7 +303,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard application of exponential modeling."
+      "difficultyRationale": "Standard application of exponential modeling.",
+      "isExponentialRate": true
     },
     {
       "number": 17,
@@ -319,7 +322,8 @@ export default {
       "diveDeep": "Repeated percentage discounts form a geometric (exponential) decay: a 10% discount multiplies the price by 0.90 each week. Half price of $50 is $25, so solve 50(0.9)ʷ < 25, i.e. 0.9ʷ < 0.5. Taking logs gives w > log(0.5)/log(0.9) ≈ 6.58, so the first whole week is 7. Be sure to round UP to the next integer, since the condition is not met until the week after the calculated decimal.",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 18,
@@ -481,7 +485,8 @@ export default {
       "skill": "graphing",
       "subTopic": "Trig Graphs",
       "difficulty": 2,
-      "difficultyRationale": "Basic identification of trigonometric properties."
+      "difficultyRationale": "Basic identification of trigonometric properties.",
+      "isTrigModeling": true
     },
     {
       "number": 27,
@@ -511,7 +516,8 @@ export default {
       "skill": "reasoning",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 29,
@@ -599,7 +605,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 4,
-      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis."
+      "difficultyRationale": "Part III multi-step mathematical modeling or complex algebraic analysis.",
+      "isExponentialRate": true
     },
     {
       "number": 35,
@@ -642,7 +649,8 @@ export default {
       "skill": "reasoning",
       "subTopic": "Exponential Models",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison."
+      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison.",
+      "isExponentialRate": true
     }
   ]
 }

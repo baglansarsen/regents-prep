@@ -133,7 +133,8 @@ export default {
       "diveDeep": "To solve exponential equations, isolate the exponential term before applying the natural logarithm, the inverse of e^x. The key identity is ln(e^u) = u, which strips the base e and exposes the exponent. A common error is taking the log too early (before dividing off the coefficient 5) or distributing the logarithm incorrectly. Always undo multiplication and addition outside the exponential first, then apply ln to release the variable.",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 8,
@@ -170,7 +171,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard application of exponential modeling."
+      "difficultyRationale": "Standard application of exponential modeling.",
+      "isExponentialRate": true
     },
     {
       "number": 10,
@@ -206,7 +208,8 @@ export default {
       "diveDeep": "In an exponential decay model A₀·b^(t/h), A₀ is the initial amount (value at t = 0) and h is the half-life when b = 0.5. The exponent t/5715 means one full halving takes 5715 years, the carbon-14 half-life. The trap in statement I is misreading the rate as per-year rather than per-half-life-period. Always evaluate the function at t = 0 to find the initial value and inspect the denominator of the exponent to identify the time scale of the decay.",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 12,
@@ -262,7 +265,8 @@ export default {
       "diveDeep": "When the variable is in the exponent and the bases cannot be matched, apply a logarithm to both sides and use the power rule log(aᵇ) = b·log(a) to bring the exponent down. Then solve the resulting linear equation by dividing. The coefficient 2 multiplied by x stays attached, so it goes into the denominator with log(5). A common error is splitting log(8)/log(5) incorrectly or forgetting the factor of 2. Any consistent base (common or natural log) works.",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 15,
@@ -410,7 +414,8 @@ export default {
       "diveDeep": "For y = A·cos(x) + D or y = A·sin(x) + D, the midline is D and the maximum equals D + |A|. To get a max of 4 with midline 1, you need amplitude 3, so 1 + 3 = 4. The distractor j(x) = 4sin(x) + 1 has amplitude 4, giving a max of 5, not 4. Always separate the vertical shift (midline) from the amplitude and check that max = midline + amplitude. Sketching the midline and marking one amplitude above it confirms the peak.",
       "subTopic": "Trig Graphs",
       "difficulty": 2,
-      "difficultyRationale": "Basic identification of trigonometric properties."
+      "difficultyRationale": "Basic identification of trigonometric properties.",
+      "isTrigModeling": true
     },
     {
       "number": 23,
@@ -448,7 +453,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard application of exponential modeling."
+      "difficultyRationale": "Standard application of exponential modeling.",
+      "isExponentialRate": true
     },
     {
       "number": 25,
@@ -553,7 +559,8 @@ export default {
       "skill": "graphing",
       "subTopic": "Trig Graphs",
       "difficulty": 3,
-      "difficultyRationale": "Standard trigonometric ratio or function application."
+      "difficultyRationale": "Standard trigonometric ratio or function application.",
+      "isTrigModeling": true
     },
     {
       "number": 32,
@@ -569,7 +576,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 3,
-      "difficultyRationale": "Standard exponential equation solving using logarithms."
+      "difficultyRationale": "Standard exponential equation solving using logarithms.",
+      "isExponentialRate": true
     },
     {
       "number": 33,
@@ -643,7 +651,8 @@ export default {
       "skill": "modeling",
       "subTopic": "Exponential Models",
       "difficulty": 5,
-      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison."
+      "difficultyRationale": "Part IV constructed-response requiring multi-step modeling and comparison.",
+      "isExponentialRate": true
     }
   ]
 }
