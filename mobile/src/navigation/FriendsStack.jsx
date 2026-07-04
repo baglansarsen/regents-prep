@@ -6,6 +6,7 @@ import ChallengeScreen       from '../screens/ChallengeScreen'
 import ChallengeResultScreen from '../screens/ChallengeResultScreen'
 import UserProfileScreen     from '../screens/UserProfileScreen'
 import LeagueScreen          from '../screens/LeagueScreen'
+import SchoolOnboardingScreen from '../screens/SchoolOnboardingScreen'
 
 const Stack = createNativeStackNavigator()
 
@@ -18,6 +19,13 @@ export default function FriendsStack() {
       <Stack.Screen name="UserProfile"     component={UserProfileScreen} />
       <Stack.Screen name="Challenge"       component={ChallengeScreen} />
       <Stack.Screen name="ChallengeResult" component={ChallengeResultScreen} />
+      {/* Reuses the onboarding school picker to (re)choose a school for the
+          school leaderboard; FriendsScreen refreshes on focus when we return. */}
+      <Stack.Screen name="SchoolPicker">
+        {(props) => (
+          <SchoolOnboardingScreen {...props} onComplete={() => props.navigation.goBack()} />
+        )}
+      </Stack.Screen>
     </Stack.Navigator>
   )
 }

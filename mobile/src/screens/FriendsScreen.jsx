@@ -1,9 +1,10 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useRef, useEffect, useCallback } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, StyleSheet,
   RefreshControl, Animated, Alert,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import { useFocusEffect } from '@react-navigation/native'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useFriends, timeAgo } from '../hooks/useFriends'
@@ -261,10 +262,14 @@ export default function FriendsScreen({ navigation, route }) {
 
   const { friends, incomingRequests, sentRequests, friendCode, feed, acceptRequest, declineRequest, removeFriend, refreshFeed, refreshRequests, refreshFriends } = useFriends(uid, user)
   const { incoming: incomingBattles, completed: completedBattles, refresh: refreshBattles } = useChallenges(uid, user)
-  const { leaderboard, school, loading: schoolLoading, refresh: refreshSchool } = useLeaderboard(uid)
+  const { leaderboard, school, loading: schoolLoading, refresh: refreshSchool } = useLeaderboard(uid, user)
   const { weeklyRanking, loading: weekLoading, refresh: refreshWeekly } = useFriendsLeaderboard(uid, user)
   const { tier, members: leagueMembers, refresh: refreshLeague } = useLeague(uid)
   const leagueMeta = TIER_META[tier] ?? TIER_META.bronze
+
+  // Re-read the school leaderboard on focus — picks up a school chosen in the
+  // SchoolPicker screen (one cached meta read + one small query when unchanged).
+  useFocusEffect(useCallback(() => { refreshSchool() }, [refreshSchool]))
 
   function confirmRemoveFriend(f) {
     Alert.alert('Remove Friend', `Remove ${f.displayName ?? 'this friend'}?`, [
@@ -426,48 +431,82 @@ export default function FriendsScreen({ navigation, route }) {
               </>
             )}
 
-            {/* ── ALL TIME ── */}
+            {/* ── SCHOOL (this week) ── */}
             {lbMode === 'school' && (
               <>
-                {!school && (
-                  <Text style={[T.body, { color: C.textMuted, textAlign: 'center', padding: 20 }]}>
-                    Set your school in onboarding to see the school leaderboard.
-                  </Text>
-                )}
-                {school && (
-                  <Text style={[T.label, { color: C.textMuted, textAlign: 'center', marginBottom: 8 }]}>
-                    🏫 {school} · Top 25
-                  </Text>
-                )}
-                {leaderboard.map((entry, i) => {
-                  const isSelf = entry.uid === uid
-                  const medal  = i < 3 ? MEDALS[i] : null
-                  return (
-                    <TouchableOpacity
-                      key={entry.uid}
-                      style={[s.lbRow, isSelf && s.lbRowSelf, cardShadow(C.shadow)]}
-                      onPress={() => navigateToProfile(entry)}
-                      activeOpacity={0.75}
-                    >
-                      {medal
-                        ? <Text style={s.lbMedalEmoji}>{medal.emoji}</Text>
-                        : <Text style={[s.lbRank, { color: C.textMuted }]}>#{i + 1}</Text>
-                      }
-                      <Avatar name={entry.displayName} size={36} C={C} />
-                      <View style={{ flex: 1 }}>
-                        <Text style={[s.lbName, { color: isSelf ? C.brand : C.text }]} numberOfLines={1}>
-                          {entry.displayName ?? 'Student'}
-                        </Text>
-                      </View>
-                      <Text style={s.lbRP}>⭐ {entry.xp ?? 0}</Text>
-                      <Text style={[s.lbChevron, { color: C.textDim }]}>›</Text>
-                    </TouchableOpacity>
-                  )
-                })}
                 {schoolLoading && (
-                  <Text style={[T.small, { color: C.textMuted, textAlign: 'center', marginVertical: 12 }]}>
+                  <Text style={[T.small, { color: C.textMuted, textAlign: 'center', marginVertical: 20 }]}>
                     Loading...
                   </Text>
+                )}
+
+                {/* No school chosen yet → prompt to pick one */}
+                {!schoolLoading && !school && (
+                  <View style={{ paddingVertical: 40, alignItems: 'center' }}>
+                    <Text style={{ fontSize: 48, marginBottom: 12 }}>🏫</Text>
+                    <Text style={[T.h3, { color: C.text, textAlign: 'center', marginBottom: 4 }]}>
+                      Pick your school to join your leaderboard
+                    </Text>
+                    <Text style={[T.small, { color: C.textMuted, textAlign: 'center', marginBottom: 16 }]}>
+                      Compete with classmates on weekly RP
+                    </Text>
+                    <TouchableOpacity
+                      style={[s.battlePill, { backgroundColor: C.brand, paddingHorizontal: 24 }]}
+                      onPress={() => navigation.navigate('SchoolPicker')}
+                      activeOpacity={0.85}
+                    >
+                      <Text style={[s.battlePillText, { color: '#fff' }]}>Choose School</Text>
+                    </TouchableOpacity>
+                  </View>
+                )}
+
+                {/* School set but you're the only one here */}
+                {!schoolLoading && school && leaderboard.length <= 1 && (
+                  <View style={{ paddingVertical: 40, alignItems: 'center' }}>
+                    <Text style={{ fontSize: 48, marginBottom: 12 }}>🎒</Text>
+                    <Text style={[T.h3, { color: C.text, textAlign: 'center', marginBottom: 4 }]}>
+                      No classmates yet
+                    </Text>
+                    <Text style={[T.small, { color: C.textMuted, textAlign: 'center' }]}>
+                      You're the first from {school} — invite classmates and you'll see each other here
+                    </Text>
+                  </View>
+                )}
+
+                {!schoolLoading && school && leaderboard.length > 1 && (
+                  <>
+                    <Text style={[T.label, { color: C.textMuted, textAlign: 'center', marginBottom: 8 }]}>
+                      🏫 {school} · This Week
+                    </Text>
+                    {leaderboard.map((entry, i) => {
+                      const isSelf = entry.uid === uid
+                      const medal  = i < 3 ? MEDALS[i] : null
+                      return (
+                        <TouchableOpacity
+                          key={entry.uid}
+                          style={[s.lbRow, isSelf && s.lbRowSelf, cardShadow(C.shadow)]}
+                          onPress={() => navigateToProfile(entry)}
+                          activeOpacity={0.75}
+                        >
+                          {medal
+                            ? <Text style={s.lbMedalEmoji}>{medal.emoji}</Text>
+                            : <Text style={[s.lbRank, { color: C.textMuted }]}>#{i + 1}</Text>
+                          }
+                          <Avatar name={entry.displayName} size={36} C={C} />
+                          <View style={{ flex: 1 }}>
+                            <Text style={[s.lbName, { color: isSelf ? C.brand : C.text }]} numberOfLines={1}>
+                              {isSelf ? 'You' : entry.displayName ?? 'Student'}
+                            </Text>
+                          </View>
+                          <Text style={s.lbRP}>⭐ {entry.weeklyXP ?? 0}</Text>
+                          <Text style={[s.lbChevron, { color: C.textDim }]}>›</Text>
+                        </TouchableOpacity>
+                      )
+                    })}
+                    <Text style={[T.label, { color: C.textDim, textAlign: 'center', marginTop: 8, textTransform: 'none', letterSpacing: 0 }]}>
+                      Resets every Monday 🗓
+                    </Text>
+                  </>
                 )}
               </>
             )}
