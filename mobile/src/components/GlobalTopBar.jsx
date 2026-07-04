@@ -108,14 +108,14 @@ export default function GlobalTopBar() {
           </Text>
         </TouchableOpacity>
 
-        {/* ❤️ Lives — taps open sheet focused on lives (unless subscribed/full) */}
+        {/* ❤️ Energy — taps open sheet focused on energy (unless subscribed/full) */}
         {isSubscribed ? (
           <TouchableOpacity
             {...livesTarget}
             style={s.stat}
             onPress={() => setSheet('lives')}
             activeOpacity={0.75}
-            accessibilityLabel="Unlimited lives subscription active"
+            accessibilityLabel="Unlimited energy subscription active"
             accessibilityRole="button"
           >
             <Text style={s.statText}>♾️ ❤️</Text>
@@ -126,9 +126,9 @@ export default function GlobalTopBar() {
             style={s.stat}
             onPress={() => setSheet('lives')}
             activeOpacity={0.8}
-            accessibilityLabel={`${lives} out of ${maxLives} lives remaining`}
+            accessibilityLabel={`${lives} of ${maxLives} energy`}
             accessibilityRole="button"
-            accessibilityHint={lives < maxLives ? 'Tap to refill lives or watch an ad.' : 'Your lives are fully charged. Tap to view.'}
+            accessibilityHint={lives < maxLives ? 'Tap to recharge or watch an ad.' : 'Your energy is full. Tap to view.'}
           >
             <Text style={s.statText}>
               {'❤️'.repeat(lives)}{'🖤'.repeat(maxLives - lives)}

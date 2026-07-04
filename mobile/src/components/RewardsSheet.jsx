@@ -210,14 +210,14 @@ function LivesSection({ C, adReady, adLoading, showAd, onClose }) {
 
   async function handleRefill() {
     const ok = await refillLives(spendRP)
-    if (ok) { Alert.alert('❤️ Lives Refilled!', 'All 5 lives restored.'); onClose?.() }
+    if (ok) { Alert.alert('❤️ Recharged!', 'Your energy is fully restored.'); onClose?.() }
     else    Alert.alert('Not enough RP', `You need 300 RP. You have ${rp} RP.`)
   }
 
   if (isSubscribed) {
     return (
       <Text style={[T.h3, { color: C.text, textAlign: 'center', marginVertical: 12 }]}>
-        ♾️ Unlimited hearts with Premium
+        ♾️ Unlimited energy with Premium
       </Text>
     )
   }
@@ -231,10 +231,10 @@ function LivesSection({ C, adReady, adLoading, showAd, onClose }) {
 
       <Text style={[T.body, { color: lives >= maxLives ? C.brand : C.textMuted, textAlign: 'center', marginBottom: 20 }]}>
         {lives >= maxLives
-          ? 'All hearts full!'
+          ? 'Energy full!'
           : secsUntilRefill > 0
-            ? `Next life in ${fmt(secsUntilRefill)}`
-            : 'Life refilling…'}
+            ? `Next recharge in ${fmt(secsUntilRefill)}`
+            : 'Recharging…'}
       </Text>
 
       {/* Refill all */}
@@ -248,7 +248,7 @@ function LivesSection({ C, adReady, adLoading, showAd, onClose }) {
         onPress={handleRefill}
         activeOpacity={0.8}
       >
-        <Text style={[T.btn, { color: '#fff' }]}>❤️ Refill All · 300 RP</Text>
+        <Text style={[T.btn, { color: '#fff' }]}>❤️ Recharge All · 300 RP</Text>
       </TouchableOpacity>
 
       {/* Watch ad — always visible */}
@@ -274,7 +274,7 @@ function LivesSection({ C, adReady, adLoading, showAd, onClose }) {
 const TITLES = {
   streak: '🔥 Streak',
   rp:     '⭐ Regents Points',
-  lives:  '❤️ Lives',
+  lives:  '❤️ Energy',
 }
 
 export default function RewardsSheet({ visible, focus, onClose, adReady, adLoading, showAd }) {

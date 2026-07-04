@@ -25,6 +25,7 @@ import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
 import ReggieMascot from '../components/ReggieMascot'
 import AiGradeButton from '../components/AiGradeButton'
 import LivesRefillGate from '../components/LivesRefillGate'
+import { shouldSpendEnergy } from '../utils/energy'
 import ReadAloudButton from '../components/ReadAloudButton'
 import { useStudyTime } from '../hooks/useStudyTime'
 import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
@@ -198,7 +199,7 @@ export default function QuizScreen({ route, navigation }) {
 
   // Encourage when the adaptive loop kicks in (struggle → easier questions).
   useEffect(() => {
-    if (struggleMode) dinoSay("Let's warm up with a few easier ones 💪")
+    if (struggleMode) dinoSay("Confidence round — let's rebuild with easier wins 💪")
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [struggleMode])
 
@@ -238,9 +239,9 @@ export default function QuizScreen({ route, navigation }) {
       } else {
         hapticWarning()
         playWrong()
-        // No heart loss during the repeat round, or while the student is in the
-        // adaptive "struggle" mode — don't punish a kid who's already struggling.
-        if (!inRepeat && !struggleMode) loseLife()
+        // Misses are free during the repeat round and the adaptive confidence
+        // round — see shouldSpendEnergy for the policy (and its tests).
+        if (shouldSpendEnergy({ inRepeat, struggleMode })) loseLife()
         triggerReaction('sad')
         animatePetIncorrect()
       }
@@ -484,6 +485,11 @@ export default function QuizScreen({ route, navigation }) {
               <Text style={s.repeatBannerText}>🦕  Reviewing your misses — get each one right to finish</Text>
             </View>
           )}
+          {struggleMode && !inRepeat && (
+            <View style={s.confidenceBanner}>
+              <Text style={s.confidenceBannerText}>💪  Confidence round — let's rebuild with easier wins</Text>
+            </View>
+          )}
           <Animated.View style={[s.questionCard, cardShadow(C.shadow), { transform: [{ scale: pulseAnim }] }]}>
             {currentQuestion.context ? (
               <Text style={[T.small, { color: C.textMuted, marginBottom: 8, fontStyle: 'italic', lineHeight: 18 }]}>
@@ -663,13 +669,13 @@ export default function QuizScreen({ route, navigation }) {
       )}
 
 
-      {/* ── Out of hearts: a non-blocking banner during the lesson. The student
+      {/* ── Out of energy: a non-blocking banner during the lesson. The student
             finishes uninterrupted (wrong answers already cost nothing at 0); the
-            refill gate appears at the end (endGateParams) instead of blocking. ── */}
+            recharge gate appears at the end (endGateParams) instead of blocking. ── */}
       {lives === 0 && !isSubscribed && phase !== 'done' && !endGateParams && (
         <View style={[s.outOfHeartsBanner, { backgroundColor: C.wrongBg, borderColor: C.wrong + '55' }]} pointerEvents="none">
           <Text style={[T.label, { color: C.wrong, textTransform: 'none', letterSpacing: 0 }]}>
-            💔 Out of hearts — finish this lesson, then refill to keep going
+            🪫 Out of energy — finish this lesson, then recharge to keep going
           </Text>
         </View>
       )}
@@ -1004,6 +1010,11 @@ function makeStyles(C, insets) {
       borderRadius: 12, paddingVertical: 10, paddingHorizontal: 14, marginBottom: 12,
     },
     repeatBannerText: { fontFamily: 'Fredoka_600SemiBold', fontSize: 13, color: C.warn, textAlign: 'center' },
+    confidenceBanner: {
+      backgroundColor: C.brand + '1A', borderColor: C.brand + '55', borderWidth: 1,
+      borderRadius: 12, paddingVertical: 10, paddingHorizontal: 14, marginBottom: 12,
+    },
+    confidenceBannerText: { fontFamily: 'Fredoka_600SemiBold', fontSize: 13, color: C.brand, textAlign: 'center' },
     hintBtn:       {
       alignSelf: 'flex-start', flexDirection: 'row', alignItems: 'center',
       paddingVertical: 8, paddingHorizontal: 14, borderRadius: 99,

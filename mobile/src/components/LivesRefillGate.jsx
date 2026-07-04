@@ -6,11 +6,13 @@ import { useCountdown, formatCountdown } from '../hooks/useCountdown'
 import ReggieMascot from './ReggieMascot'
 
 /**
- * LivesRefillGate — the "out of hearts" refill sheet, shared by the lesson-start
- * gate (HomeScreen) and the end-of-lesson gate (QuizScreen). A bottom card with
- * Reggie, a LIVE ticking countdown to the next free life, and actions:
- *   • Watch Ad (full ❤️ refill) — primary CTA; disabled→"Loading ad…" if not ready
- *   • Refill All (300 RP)
+ * LivesRefillGate — the "out of energy" recharge sheet, shared by the
+ * lesson-start gate (HomeScreen) and the end-of-lesson gate (QuizScreen).
+ * User-facing copy says "energy"; the mechanics underneath are still the
+ * lives system (see hooks/useLives.js). A bottom card with Reggie, a LIVE
+ * ticking countdown to the next free recharge, and actions:
+ *   • Watch Ad (full recharge) — primary CTA; disabled→"Loading ad…" if not ready
+ *   • Recharge All (300 RP)
  *   • Go Unlimited (premium) — only when `showPremium`
  *   • Dismiss link — label/behavior set by `context` ('start' | 'end')
  *
@@ -37,7 +39,7 @@ export default function LivesRefillGate({
     ]).start()
   }, [])
 
-  const dismissLabel = context === 'start' ? 'Not now' : 'Continue without refilling'
+  const dismissLabel = context === 'start' ? 'Not now' : 'Continue without recharging'
 
   return (
     <View style={[StyleSheet.absoluteFill, s.backdrop]}>
@@ -46,17 +48,17 @@ export default function LivesRefillGate({
         <View style={{ alignItems: 'center', marginBottom: 4 }}>
           <ReggieMascot size={96} pose="sleep" />
         </View>
-        <Text style={[T.h2, { color: C.text, textAlign: 'center' }]}>Out of Lives!</Text>
+        <Text style={[T.h2, { color: C.text, textAlign: 'center' }]}>Time to recharge!</Text>
         <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 6, marginBottom: 24 }]}>
           {secs > 0
-            ? `Next life in ${formatCountdown(secs)} — or get all 5 back now.`
-            : 'Your next life is almost ready — or get all 5 back now.'}
+            ? `Energy refills in ${formatCountdown(secs)} — or get a full recharge now.`
+            : 'Your energy is almost back — or get a full recharge now.'}
         </Text>
 
-        {/* Watch ad — full refill (primary CTA) */}
+        {/* Watch ad — full recharge (primary CTA) */}
         {adReady ? (
           <TouchableOpacity style={[s.btn, { backgroundColor: C.brand }]} onPress={onWatchAd} activeOpacity={0.85}>
-            <Text style={[T.btn, { color: '#fff' }]}>▶  Watch Ad  (refill ❤️❤️❤️❤️❤️)</Text>
+            <Text style={[T.btn, { color: '#fff' }]}>▶  Watch Ad  (full recharge ❤️)</Text>
           </TouchableOpacity>
         ) : (
           <View style={[s.btn, { backgroundColor: C.surface2 }]}>
@@ -64,19 +66,19 @@ export default function LivesRefillGate({
           </View>
         )}
 
-        {/* Refill with RP */}
+        {/* Recharge with RP */}
         <TouchableOpacity
           style={[s.btn, { backgroundColor: C.warnBg, borderWidth: 1, borderColor: C.warn + '60', marginTop: 10 }]}
           onPress={onRefill}
           activeOpacity={0.85}
         >
-          <Text style={[T.btn, { color: C.warn }]}>⭐ Refill All (300 RP)</Text>
+          <Text style={[T.btn, { color: C.warn }]}>⭐ Recharge All (300 RP)</Text>
         </TouchableOpacity>
 
         {/* Go Premium */}
         {showPremium && (
           <TouchableOpacity style={[s.btn, { backgroundColor: C.purple, marginTop: 10 }]} onPress={onGoPremium} activeOpacity={0.85}>
-            <Text style={[T.btn, { color: '#fff' }]}>💜 Go Unlimited — never run out</Text>
+            <Text style={[T.btn, { color: '#fff' }]}>💜 Go Unlimited — unlimited energy</Text>
           </TouchableOpacity>
         )}
 

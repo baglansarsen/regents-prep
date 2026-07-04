@@ -14,6 +14,8 @@
  *   - at max after catch-up → nextRefillAt cleared to null
  */
 
+import { shouldSpendEnergy } from '../utils/energy'
+
 const MAX_LIVES = 5
 const REFILL_MS = 30 * 60 * 1000 // 30 minutes
 
@@ -130,4 +132,25 @@ test('subscriber: loseLife is a no-op (simulated via isSubscribed guard)', () =>
   }
   mockLoseLife()
   expect(called).toBe(false)
+})
+
+// ── Energy spend policy (utils/energy.js — drives QuizScreen's loseLife call) ─
+
+describe('shouldSpendEnergy', () => {
+  test('a normal main-pass miss spends energy', () => {
+    expect(shouldSpendEnergy({ inRepeat: false, struggleMode: false })).toBe(true)
+    expect(shouldSpendEnergy()).toBe(true)   // defaults
+  })
+
+  test('the end-of-lesson repeat round is free', () => {
+    expect(shouldSpendEnergy({ inRepeat: true, struggleMode: false })).toBe(false)
+  })
+
+  test('the adaptive confidence round (struggle mode) is free', () => {
+    expect(shouldSpendEnergy({ inRepeat: false, struggleMode: true })).toBe(false)
+  })
+
+  test('both at once is still free', () => {
+    expect(shouldSpendEnergy({ inRepeat: true, struggleMode: true })).toBe(false)
+  })
 })
