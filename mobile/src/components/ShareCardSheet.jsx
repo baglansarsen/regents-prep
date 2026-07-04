@@ -5,39 +5,39 @@ import { T, duoBtn, duoBtnOutline } from '../styles/duo'
 import ShareCard from './ShareCard'
 import { useShareCard } from '../hooks/useShareCard'
 import { SUBJECT_META } from '../content/subjects'
+import { shareCardContent } from '../utils/shareCardCopy'
 import { logEvent } from '../utils/analytics'
 
 /**
  * Preview-then-share bottom sheet. Shows the branded ShareCard so the user
  * sees exactly what they're posting, with one-tap share to the native sheet.
+ * `variant` selects the achievement story (see utils/shareCardCopy.js);
+ * omit it for the classic quiz-result card.
  *
  * <ShareCardSheet visible={show} onClose={...} pct={92} correct={11} total={12}
  *                 subject="algebra-2" streak={5} topic="Polynomials" />
+ * <ShareCardSheet visible variant="practice_exam" scaled={72} subject="algebra-2" ... />
  */
-export default function ShareCardSheet({ visible, onClose, ...cardProps }) {
+export default function ShareCardSheet({ visible, onClose, variant = 'quiz_result', ...cardProps }) {
   const { C } = useTheme()
   const { cardRef, sharing, shareCard } = useShareCard()
   const meta = SUBJECT_META[cardProps.subject] ?? { name: 'Regents' }
+  const spec = shareCardContent(variant, { ...cardProps, subjectName: meta.name })
 
   useEffect(() => {
-    if (visible) logEvent('share_sheet_opened', { pct: cardProps.pct, subject: cardProps.subject })
+    if (visible) logEvent('share_sheet_opened', { variant, pct: cardProps.pct, subject: cardProps.subject })
   }, [visible])
-
-  const fallbackMessage =
-    `I just scored ${cardProps.pct}% on ${meta.name} in Regentify 🎯` +
-    (cardProps.streak > 0 ? ` (${cardProps.streak}-day streak 🔥)` : '') +
-    ' — think you can beat me?'
 
   return (
     <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose}>
       <TouchableOpacity style={s.backdrop} activeOpacity={1} onPress={onClose} />
       <View style={[s.sheet, { backgroundColor: C.surface }]}>
         <View style={[s.handle, { backgroundColor: C.border }]} />
-        <Text style={[T.h3, { color: C.text, marginBottom: 14 }]}>Flex your score 💪</Text>
+        <Text style={[T.h3, { color: C.text, marginBottom: 14 }]}>{spec.sheetTitle}</Text>
 
         {/* collapsable={false} is required for captureRef on Android */}
         <View ref={cardRef} collapsable={false}>
-          <ShareCard {...cardProps} />
+          <ShareCard variant={variant} {...cardProps} />
         </View>
 
         <View style={s.actions}>
@@ -51,9 +51,9 @@ export default function ShareCardSheet({ visible, onClose, ...cardProps }) {
           <TouchableOpacity
             style={duoBtn(C.brand, C.brandDark, { flex: 1.4, opacity: sharing ? 0.6 : 1 })}
             onPress={async () => {
-              const ok = await shareCard({ message: fallbackMessage })
+              const ok = await shareCard({ message: spec.fallbackMessage })
               // iOS can't distinguish share vs dismiss — treat as upper bound
-              if (ok) logEvent('share_completed', { pct: cardProps.pct, subject: cardProps.subject })
+              if (ok) logEvent('share_completed', { variant, pct: cardProps.pct, subject: cardProps.subject })
             }}
             disabled={sharing}
             activeOpacity={0.8}

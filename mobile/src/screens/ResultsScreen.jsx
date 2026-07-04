@@ -375,16 +375,17 @@ export default function ResultsScreen({ route, navigation }) {
         />
       )}
 
-      {/* ── Share card sheet ── */}
+      {/* ── Share card sheet — first mastery gets the comeback story ── */}
       <ShareCardSheet
         visible={showShare}
         onClose={() => setShowShare(false)}
+        variant={firstMastery && masteredTopic ? 'weak_topic_mastered' : 'quiz_result'}
         pct={pct}
         correct={correct}
         total={total}
         subject={subject}
         streak={streak}
-        topic={topic}
+        topic={firstMastery && masteredTopic ? masteredTopic : topic}
       />
 
       {/* ── Dive Deep modal ── */}

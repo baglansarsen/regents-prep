@@ -10,6 +10,7 @@ import { usePetContext } from '../context/PetContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useRP } from '../hooks/useRP'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
+import ShareCardSheet from '../components/ShareCardSheet'
 import * as leData   from '../content/living-environment/index'
 import * as esData   from '../content/earth-science/index'
 import * as chemData from '../content/chemistry/index'
@@ -48,6 +49,7 @@ export default function ExamResultsScreen({ route, navigation }) {
   const [showReview,    setShowReview]    = useState(false)
   const [showStudyPlan, setShowStudyPlan] = useState(true)
   const [diveDeepQ,     setDiveDeepQ]    = useState(null)
+  const [showShare,     setShowShare]    = useState(false)
 
   const raw    = correct
   const scaled = getScaledScore(raw, total)
@@ -346,6 +348,12 @@ export default function ExamResultsScreen({ route, navigation }) {
         {/* Actions — read-only after submission, no retake */}
         <View style={s.actions}>
           <TouchableOpacity
+            style={duoBtnOutline(C.border, { flex: 1 })}
+            onPress={() => setShowShare(true)}
+          >
+            <Text style={[T.btn, { color: C.text }]}>📤 SHARE</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
             style={[duoBtn(C.brand, C.brandDark, { flex: 1 })]}
             onPress={() => review
               ? navigation.goBack()
@@ -357,6 +365,15 @@ export default function ExamResultsScreen({ route, navigation }) {
 
         <View style={{ height: 20 }} />
       </ScrollView>
+
+      {/* ── Practice-exam share card — positive framing for low scores ── */}
+      <ShareCardSheet
+        visible={showShare}
+        onClose={() => setShowShare(false)}
+        variant="practice_exam"
+        scaled={scaled}
+        subject={exam.subject}
+      />
 
       {/* Dive Deep modal */}
       <Modal visible={!!diveDeepQ} transparent animationType="slide" onRequestClose={() => setDiveDeepQ(null)}>

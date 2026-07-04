@@ -2,6 +2,7 @@ import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 import { T } from '../styles/duo'
 import { SUBJECT_META } from '../content/subjects'
+import { shareCardContent } from '../utils/shareCardCopy'
 
 // ── Fixed brand palette ──────────────────────────────────────────────────────
 // The card is always rendered in dark "brand" colors regardless of app theme,
@@ -13,31 +14,29 @@ const CARD = {
   text:    '#F8FAFC',
   muted:   '#94A3B8',
   brand:   '#1FC36B',
-  warn:    '#FFC93C',
   fire:    '#FF9600',
 }
 
 /**
- * Branded, capture-able result card (square-ish, story-friendly).
+ * Branded, capture-able achievement card (square-ish, story-friendly).
+ *
+ * `variant` picks the readiness story (see utils/shareCardCopy.js):
+ *   quiz_result (default) · predicted_up · goal_committed · practice_exam ·
+ *   streak_milestone · weak_topic_mastered
+ * Remaining props are the variant's inputs (pct/correct/total, scaled,
+ * from/to, target, streak, topic) plus `subject`.
  *
  * Render it inside a ref'd View (see useShareCard) — typically offscreen or
  * inside a preview modal — then capture + share.
  */
 export default function ShareCard({
-  pct = 0,
-  correct = 0,
-  total = 0,
+  variant = 'quiz_result',
   subject = 'living-environment',
   streak = 0,
-  topic = null,
+  ...props
 }) {
   const meta = SUBJECT_META[subject] ?? { name: 'Regents', icon: '🎓', color: CARD.brand }
-  const ringColor = pct >= 85 ? CARD.brand : pct >= 65 ? CARD.warn : CARD.fire
-  const flexLine =
-    pct >= 95 ? 'Certified genius 🧠' :
-    pct >= 85 ? 'Mastered it 🏆' :
-    pct >= 65 ? 'Passed it ✅' :
-    'Grinding 📚'
+  const spec = shareCardContent(variant, { ...props, streak, subjectName: meta.name })
 
   return (
     <View style={s.card}>
@@ -49,28 +48,35 @@ export default function ShareCard({
         </View>
       </View>
 
-      {/* Score ring */}
-      <View style={[s.ring, { borderColor: ringColor }]}>
-        <Text style={[T.num, { color: ringColor, fontSize: 44 }]}>{pct}%</Text>
-        <Text style={[T.small, { color: CARD.muted }]}>{correct} / {total} correct</Text>
-      </View>
-
-      <Text style={[T.h2, { color: CARD.text }]}>{flexLine}</Text>
-      {topic ? (
-        <Text style={[T.small, { color: CARD.muted }]} numberOfLines={1}>{topic}</Text>
+      {/* Variant kicker (e.g. PRACTICE REGENTS EXAM) */}
+      {spec.kicker ? (
+        <Text style={[T.label, { color: CARD.muted, letterSpacing: 2 }]}>{spec.kicker}</Text>
       ) : null}
 
-      {/* Streak */}
-      {streak > 0 && (
+      {/* Metric ring */}
+      <View style={[s.ring, { borderColor: spec.ringColor }]}>
+        <Text style={[T.num, { color: spec.ringColor, fontSize: 44 }]}>{spec.ringValue}</Text>
+        <Text style={[T.small, { color: CARD.muted }]}>{spec.ringLabel}</Text>
+      </View>
+
+      <Text style={[T.h2, { color: CARD.text, textAlign: 'center' }]}>{spec.copy}</Text>
+      {spec.subCopy ? (
+        <Text style={[T.small, { color: CARD.muted, textAlign: 'center' }]} numberOfLines={2}>
+          {spec.subCopy}
+        </Text>
+      ) : null}
+
+      {/* Streak (hidden when the ring already shows it) */}
+      {spec.showStreak && streak > 0 && (
         <View style={s.streakRow}>
           <Text style={{ fontSize: 18 }}>🔥</Text>
           <Text style={[T.body, { color: CARD.fire }]}>{streak}-day streak</Text>
         </View>
       )}
 
-      {/* Footer / challenge hook */}
+      {/* Footer / hook */}
       <View style={s.footer}>
-        <Text style={[T.body, { color: CARD.text }]}>Think you can beat me? 👀</Text>
+        <Text style={[T.body, { color: CARD.text }]}>{spec.footerLine}</Text>
         <Text style={[T.label, { color: CARD.muted }]}>Regentify · NY Regents Prep</Text>
       </View>
     </View>

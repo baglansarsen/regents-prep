@@ -16,6 +16,7 @@ import { topicIndicator } from '../utils/examScoring'
 import { shuffle } from '../utils/question'
 import GoalRing from '../components/GoalRing'
 import GoalShareSheet from '../components/GoalShareSheet'
+import ShareCardSheet from '../components/ShareCardSheet'
 import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
 
 /**
@@ -41,7 +42,8 @@ export default function GoalDetailScreen({ navigation }) {
     usePredictedScore(subject, sd.UNITS ?? [], subjectHistory)
 
   const goal = getGoal(subject)
-  const [showShare, setShowShare] = useState(false)
+  const [showShare,      setShowShare]      = useState(false)
+  const [showClimbShare, setShowClimbShare] = useState(false)
 
   // Goal removed (or never set) — bounce back gracefully (in an effect, not
   // during render).
@@ -126,6 +128,24 @@ export default function GoalDetailScreen({ navigation }) {
           </View>
         </View>
 
+        {/* Predicted-score-improved share — only once there's a real climb */}
+        {!coldStart && predicted != null && goal.baselineScore != null && predicted > goal.baselineScore && (
+          <TouchableOpacity
+            style={[s.actionRow, cardShadow(C.shadow)]}
+            onPress={() => setShowClimbShare(true)}
+            activeOpacity={0.85}
+          >
+            <Text style={{ fontSize: 22 }}>📈</Text>
+            <View style={{ flex: 1, marginLeft: 10 }}>
+              <Text style={[T.h3, { color: C.text }]}>Share your climb</Text>
+              <Text style={[T.small, { color: C.textMuted }]}>
+                {goal.baselineScore} → {predicted} predicted — flex the progress
+              </Text>
+            </View>
+            <Text style={[T.body, { color: C.textMuted }]}>›</Text>
+          </TouchableOpacity>
+        )}
+
         {/* Recommended actions */}
         <Text style={[T.label, { color: C.textMuted, marginHorizontal: 16, marginTop: 6, marginBottom: 8 }]}>FASTEST PATH TO POINTS</Text>
         {weakestUnit?.topic && (
@@ -192,6 +212,17 @@ export default function GoalDetailScreen({ navigation }) {
         baselineScore={goal.baselineScore}
         streak={streak}
         name={user?.displayName?.split(' ')[0] ?? null}
+      />
+
+      {/* Predicted-score-improved share card */}
+      <ShareCardSheet
+        visible={showClimbShare}
+        onClose={() => setShowClimbShare(false)}
+        variant="predicted_up"
+        from={goal.baselineScore}
+        to={predicted}
+        subject={subject}
+        streak={streak}
       />
     </SafeAreaView>
   )

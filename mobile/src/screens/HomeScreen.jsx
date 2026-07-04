@@ -15,6 +15,7 @@ import { useLivesContext } from '../context/LivesContext'
 import { useSubscription } from '../context/SubscriptionContext'
 import { useRewardedAd } from '../hooks/useRewardedAd'
 import LivesRefillGate from '../components/LivesRefillGate'
+import ShareCardSheet from '../components/ShareCardSheet'
 import { useDailyGoal } from '../hooks/useDailyGoal'
 import { useLessonProgress } from '../hooks/useLessonProgress'
 import { useMistakes } from '../hooks/useMistakes'
@@ -210,6 +211,7 @@ export default function HomeScreen({ navigation }) {
   const [questData,         setQuestData]          = useState(null)
   const [goalCelebModal,    setGoalCelebModal]    = useState(false)
   const [milestoneModal,  setMilestoneModal]   = useState(null)
+  const [streakShare,     setStreakShare]      = useState(null)   // streak count → share sheet
   const [levelUpModal,    setLevelUpModal]     = useState(null)  // { level, name }
   const [showFreezeBanner,setShowFreezeBanner] = useState(false)
   const [tipsUnit,        setTipsUnit]         = useState(null)
@@ -1324,9 +1326,31 @@ export default function HomeScreen({ navigation }) {
             >
               <Text style={[T.btn, { color: '#fff' }]}>CLAIM! 🎉</Text>
             </TouchableOpacity>
+            <TouchableOpacity
+              style={{ marginTop: 12, alignItems: 'center', paddingVertical: 4 }}
+              onPress={() => {
+                const n = milestoneModal?.streak
+                setMilestoneModal(null)
+                if (n) setStreakShare(n)
+              }}
+              activeOpacity={0.7}
+            >
+              <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>
+                📤 Share the streak
+              </Text>
+            </TouchableOpacity>
           </View>
         </View>
       </Modal>
+
+      {/* ── Streak milestone share card ── */}
+      <ShareCardSheet
+        visible={!!streakShare}
+        onClose={() => setStreakShare(null)}
+        variant="streak_milestone"
+        streak={streakShare ?? 0}
+        subject={subject}
+      />
 
       {/* Level-up modal */}
       <Modal transparent visible={!!levelUpModal} animationType="fade" onRequestClose={() => setLevelUpModal(null)}>
