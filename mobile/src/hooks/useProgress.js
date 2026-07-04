@@ -3,9 +3,9 @@ import {
   collection, addDoc, query, orderBy, limit, getDocs, serverTimestamp,
 } from 'firebase/firestore'
 import { db } from '../firebase'
+import { MASTERY_MIN } from '../utils/studyConstants'
 
-// Mastery = 85%+ on at least 2 of the last 3 attempts (consistency, not luck)
-const MASTERY_MIN    = 85
+// Mastery = MASTERY_MIN%+ on at least 2 of the last 3 attempts (consistency, not luck)
 const MASTERY_WINDOW = 3
 const MASTERY_NEED   = 2
 
@@ -22,15 +22,20 @@ function mergeWithPending(firestoreHistory) {
 
 export function useProgress(uid) {
   const [history, setHistory] = useState([])
+  // false until the first Firestore load settles — lets consumers avoid acting
+  // on the empty initial history (e.g. Home briefly misreading a veteran as cold-start)
+  const [historyLoaded, setHistoryLoaded] = useState(false)
 
   useEffect(() => {
-    if (!uid) { setHistory([]); return }
+    if (!uid) { setHistory([]); setHistoryLoaded(true); return }
+    setHistoryLoaded(false)
     loadHistory(uid)
       .then((h) => setHistory(mergeWithPending(h)))
       .catch((err) => {
         console.warn('[useProgress] Failed to load history:', err)
         setHistory([..._pending])
       })
+      .finally(() => setHistoryLoaded(true))
   }, [uid])
 
   // Reload history from Firestore (useful when returning to screen after quiz)
@@ -101,7 +106,7 @@ export function useProgress(uid) {
     return seq.filter((p) => p >= MASTERY_MIN).length >= MASTERY_NEED
   }
 
-  return { history, saveResult, reloadHistory, masteryPct, isMastered }
+  return { history, historyLoaded, saveResult, reloadHistory, masteryPct, isMastered }
 }
 
 async function loadHistory(uid) {

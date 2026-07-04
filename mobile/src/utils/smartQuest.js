@@ -9,18 +9,22 @@
  * quest in progress survives day-context changes.
  */
 
+import { PRACTICE_EXAM_WINDOW_DAYS } from './studyConstants'
+
 /**
  * @param {object} args
  * @param {boolean} args.hasGoal
+ * @param {boolean} args.coldStart             no quiz/exam history yet
  * @param {number}  args.daysToExam            days until the goal's exam date
  * @param {number}  args.dayOfWeek             new Date().getDay() — 0 Sun … 6 Sat
  * @param {boolean} args.studiedYesterday
  * @param {boolean} args.hasTakenPracticeExam  any exam score recorded for this subject
- * @param {{topic:string, title:string}|null} args.weakestUnit
+ * @param {{topic:string, title:string}|null} args.weakestUnit  weakest ATTEMPTED unit
  * @returns {object|null} quest def, or null → fall back to the standard rotation
  */
 export function pickSmartQuest({
   hasGoal = false,
+  coldStart = false,
   daysToExam = 999,
   dayOfWeek = new Date().getDay(),
   studiedYesterday = true,
@@ -29,12 +33,16 @@ export function pickSmartQuest({
 } = {}) {
   if (!hasGoal) return null
 
+  // Cold start — no data means no smart advice; the Today's Mission card owns
+  // this state (checkup), and a smart quest here would contradict it.
+  if (coldStart) return null
+
   const isWeekend = dayOfWeek === 0 || dayOfWeek === 6
 
   // ① Exam is close and they've never sat a practice exam — nothing predicts
   //    readiness better than a real attempt. In the final week, resurface a
   //    practice exam every other day even if they've taken one.
-  if (daysToExam <= 14 && !hasTakenPracticeExam) {
+  if (daysToExam <= PRACTICE_EXAM_WINDOW_DAYS && !hasTakenPracticeExam) {
     return {
       id: 'practice_exam', icon: '📝', action: 'complete_exam', goal: 1, rp: 60,
       label: 'Take a practice Regents exam',

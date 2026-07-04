@@ -103,7 +103,7 @@ export default function HomeScreen({ navigation }) {
   }
   const sd = mobileSubjectMap[subject] ?? leData
 
-  const { history, reloadHistory } = useProgress(uid)
+  const { history, historyLoaded, reloadHistory } = useProgress(uid)
   const { weekDays, streak, studiedToday, studiedDates, hasFreeze, buyFreeze } = useDailyStreak(uid)
   const { rp, earnRP, spendRP, loaded: rpLoaded } = useRP(uid)
   const { lives, maxLives, nextRefillAt, refillLives, grantFullRefill } = useLivesContext()
@@ -136,7 +136,7 @@ export default function HomeScreen({ navigation }) {
   // (Also before the focus effect: smartQuestDef appears in its deps array.)
   const { getGoal, loaded: goalLoaded } = useGoal()
   const regentsGoal = getGoal(subject)
-  const { predicted, coldStart, weakestUnit, hasTakenPracticeExam } =
+  const { predicted, coldStart, weakestAttemptedUnit, hasTakenPracticeExam } =
     usePredictedScore(subject, units, subjectHistory)
   const goalDaysToExam = regentsGoal ? daysUntilExam(subject, regentsGoal.examDateStr) : null
   // Countdown the whole screen shares: prefer the student's committed goal
@@ -145,12 +145,13 @@ export default function HomeScreen({ navigation }) {
   const examLabel  = getExamLabel(subject, daysToExam)
   const smartQuestDef = useMemo(() => pickSmartQuest({
     hasGoal: !!regentsGoal,
+    coldStart,
     daysToExam,
     dayOfWeek: new Date().getDay(),
     studiedYesterday: studiedDates.includes(yesterdayStr()),
     hasTakenPracticeExam,
-    weakestUnit,
-  }), [regentsGoal, daysToExam, subject, studiedDates, hasTakenPracticeExam, weakestUnit])
+    weakestUnit: weakestAttemptedUnit,
+  }), [regentsGoal, coldStart, daysToExam, subject, studiedDates, hasTakenPracticeExam, weakestAttemptedUnit])
 
   // ── Today's Mission — single highest-priority action ───────────────────────
   const mission = useMemo(() => pickTodayMission({
@@ -159,8 +160,8 @@ export default function HomeScreen({ navigation }) {
     daysToExam,
     hasTakenPracticeExam,
     dueCount,
-    weakestUnit,
-  }), [regentsGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestUnit])
+    weakestUnit:          weakestAttemptedUnit,
+  }), [regentsGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestAttemptedUnit])
   useFocusEffect(useCallback(() => {
     reloadHistory()
     reloadSkipUnlocks()
@@ -396,10 +397,10 @@ export default function HomeScreen({ navigation }) {
     openSheet(lesson)
   }
 
-  // ── Lives gate ───────────────────────────────────────────────────────────
-  // Subscribers and anyone with hearts proceed straight in; out-of-hearts free
-  // users get the shared refill gate (ad / RP / premium + live countdown). The
-  // pending action runs once a refill lands (see the effect below).
+  // ── Energy gate (lives mechanics underneath) ──────────────────────────────
+  // Subscribers and anyone with energy proceed straight in; out-of-energy free
+  // users get the shared recharge gate (ad / RP / premium + live countdown).
+  // The pending action runs once a refill lands (see the effect below).
   function livesGate(onProceed) {
     if (lives > 0 || isSubscribed) { onProceed(); return }
     setPendingProceed(() => onProceed)
@@ -513,11 +514,12 @@ export default function HomeScreen({ navigation }) {
     livesGate(() => navigation.navigate('Quiz', { questionSet: pool, topic, subject, isMistakesPractice: true }))
   }
 
-  function startQuiz(topic) {
+  function startQuiz(topic, { limit } = {}) {
     const pool = topic ? sd.getByTopic(topic) : sd.questions
     if (!pool.length) return
     const shuffled = shuffle(pool)
-    livesGate(() => navigation.navigate('Quiz', { questionSet: shuffled, topic, subject }))
+    const questionSet = limit ? shuffled.slice(0, limit) : shuffled
+    livesGate(() => navigation.navigate('Quiz', { questionSet, topic, subject }))
   }
 
   function startFlashcards(topic) {
@@ -530,16 +532,6 @@ export default function HomeScreen({ navigation }) {
     closeSheet(() => navigation.navigate('Study', { questionSet: pool, subject }))
   }
 
-  // Drives the student into action via the smart-quest topic if available,
-  // falling back to a mixed quiz (first prediction signal for cold-start users).
-  function startTodaysMission() {
-    if (questData?.topic && questData.action === 'complete_quiz_topic' && !questData.completed) {
-      startQuiz(questData.topic)
-    } else {
-      startQuiz(null)
-    }
-  }
-
   // ── Today's Mission dispatcher — routes each actionType to the right helper ─
   function runMission(m) {
     switch (m.actionType) {
@@ -547,11 +539,8 @@ export default function HomeScreen({ navigation }) {
         navigation.navigate('GoalSetup')
         break
       case 'checkup':
-        // Short mixed quiz (~12 questions) — just enough to calibrate the prediction
-        livesGate(() => navigation.navigate('Quiz', {
-          questionSet: shuffle(sd.questions).slice(0, 12),
-          subject,
-        }))
+        // Short mixed quiz — just enough to calibrate the prediction
+        startQuiz(null, { limit: 12 })
         break
       case 'practice_exam':
         navigation.navigate('ExamsTab')
@@ -738,8 +727,10 @@ export default function HomeScreen({ navigation }) {
 
         {/* Week streak moved to the top bar — tap the 🔥 there for the full calendar */}
 
-        {/* ── Today's Mission — single prioritized next action ── */}
-        {goalLoaded && (
+        {/* ── Today's Mission — single prioritized next action.
+             Waits for quiz history too: acting on the empty initial history
+             would misread a veteran as cold-start and offer the wrong mission. ── */}
+        {goalLoaded && historyLoaded && (
           <View style={[s.missionCard, elevatedCard(C)]}>
             <View style={s.missionHeader}>
               <Text style={s.missionIcon}>{mission.icon}</Text>
@@ -1297,7 +1288,7 @@ export default function HomeScreen({ navigation }) {
         <PlacementTestScreen onComplete={handlePlacementComplete} />
       </Modal>
 
-      {/* ── Out-of-hearts refill gate (lesson start) ── */}
+      {/* ── Out-of-energy recharge gate (lesson start) ── */}
       {pendingProceed && (
         <LivesRefillGate
           C={C}

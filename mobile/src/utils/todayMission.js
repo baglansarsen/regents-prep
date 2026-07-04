@@ -3,11 +3,13 @@
  * take right now, based on their Regents goal state, predicted score, exam
  * countdown, mistake queue, and lesson path progress.
  *
- * Pure function (no imports, no side effects) — mirrors the pattern of
- * predictedScore.js and smartQuest.js so it stays unit-testable.
+ * Pure function (constants-only imports, no side effects) — mirrors the
+ * pattern of predictedScore.js and smartQuest.js so it stays unit-testable.
  *
  * Callers supply all inputs; HomeScreen drives it via useMemo.
  */
+
+import { MASTERY_MIN, PRACTICE_EXAM_WINDOW_DAYS } from './studyConstants'
 
 const ICONS = {
   set_goal:       '🎯',
@@ -26,8 +28,8 @@ const ICONS = {
  * @param {boolean} args.hasTakenPracticeExam — any practice-exam score recorded for this subject
  * @param {number}  args.dueCount             — number of mistake-queue items currently due
  * @param {{topic:string, title:string, pct:number|null, attempts:number}|null} args.weakestUnit
- *   — the unit with the lowest effective mastery; always set when units exist (even unattempted);
- *     check attempts + pct before using so unattempted topics fall through to next_lesson.
+ *   — the weakest ATTEMPTED unit (weakestAttemptedUnitOf); null until the student
+ *     has attempted at least one unit, so fresh topics fall through to next_lesson.
  *
  * @returns {{
  *   id:              string,
@@ -56,7 +58,7 @@ export function pickTodayMission({
       id:               'set_goal',
       icon:             ICONS.set_goal,
       title:            'Set your Regents goal',
-      subtitle:         'Tell me your target score and exam date\nto unlock personalized missions.',
+      subtitle:         'Tell me your target score and exam date to unlock personalized missions.',
       cta:              'Set Goal',
       priority:         1,
       actionType:       'set_goal',
@@ -71,7 +73,7 @@ export function pickTodayMission({
       id:               'checkup',
       icon:             ICONS.checkup,
       title:            'Take a quick checkup',
-      subtitle:         'Answer a few questions so I can\nestimate where you stand.',
+      subtitle:         'Answer a few questions so I can estimate where you stand.',
       cta:              'Start Checkup',
       priority:         2,
       actionType:       'checkup',
@@ -80,13 +82,13 @@ export function pickTodayMission({
     }
   }
 
-  // ③ Exam is ≤14 days out and they've never taken a full practice exam
-  if (daysToExam != null && daysToExam <= 14 && !hasTakenPracticeExam) {
+  // ③ Exam is close and they've never taken a full practice exam
+  if (daysToExam != null && daysToExam <= PRACTICE_EXAM_WINDOW_DAYS && !hasTakenPracticeExam) {
     return {
       id:               'practice_exam',
       icon:             ICONS.practice_exam,
       title:            'Take a practice Regents exam',
-      subtitle:         `${daysToExam} day${daysToExam === 1 ? '' : 's'} to go — find out where you really stand\nbefore the real thing.`,
+      subtitle:         `${daysToExam} day${daysToExam === 1 ? '' : 's'} to go — find out where you really stand.`,
       cta:              'Start Practice Exam',
       priority:         3,
       actionType:       'practice_exam',
@@ -101,7 +103,7 @@ export function pickTodayMission({
       id:               'review_mistakes',
       icon:             ICONS.review_mistakes,
       title:            'Review your mistakes',
-      subtitle:         `${dueCount} ${dueCount === 1 ? 'item' : 'items'} queued — reviewing gaps\nbefore new material locks in deeper.`,
+      subtitle:         `${dueCount} ${dueCount === 1 ? 'item' : 'items'} queued — close the gaps first.`,
       cta:              'Review Now',
       priority:         4,
       actionType:       'review_mistakes',
@@ -111,20 +113,12 @@ export function pickTodayMission({
   }
 
   // ⑤ There's an attempted but under-mastered topic — drill it
-  // Guard: weakestUnit is always non-null when any units exist (includes unattempted),
-  // so only trigger when the student has actually tried it and hasn't mastered it yet.
-  const MASTERY_THRESHOLD = 85
-  if (
-    weakestUnit &&
-    weakestUnit.attempts > 0 &&
-    weakestUnit.pct != null &&
-    weakestUnit.pct < MASTERY_THRESHOLD
-  ) {
+  if (weakestUnit && weakestUnit.pct != null && weakestUnit.pct < MASTERY_MIN) {
     return {
       id:               `weak_unit_${weakestUnit.topic}`,
       icon:             ICONS.weak_unit_quiz,
       title:            `Strengthen ${weakestUnit.title}`,
-      subtitle:         `Your weakest topic right now — a focused\nquiz will move the needle fast.`,
+      subtitle:         `Your weakest topic right now — a focused quiz will move the needle fast.`,
       cta:              'Start Quiz',
       priority:         5,
       actionType:       'weak_unit_quiz',
@@ -138,7 +132,7 @@ export function pickTodayMission({
     id:               'next_lesson',
     icon:             ICONS.next_lesson,
     title:            'Continue your lessons',
-    subtitle:         'Keep making progress on the\nlearning path.',
+    subtitle:         'Keep making progress on the learning path.',
     cta:              'Continue',
     priority:         6,
     actionType:       'next_lesson',

@@ -20,6 +20,12 @@ describe('pickSmartQuest', () => {
     expect(pickSmartQuest({ ...base, hasGoal: false })).toBeNull()
   })
 
+  test('cold start → null even with exam close (mission card owns the checkup)', () => {
+    expect(pickSmartQuest({
+      ...base, coldStart: true, daysToExam: 10, hasTakenPracticeExam: false,
+    })).toBeNull()
+  })
+
   test('exam ≤14 days + never took a practice exam → practice-exam quest (beats everything)', () => {
     const q = pickSmartQuest({
       ...base, daysToExam: 10, hasTakenPracticeExam: false,

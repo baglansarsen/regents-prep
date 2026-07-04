@@ -52,13 +52,24 @@ export function predictRegentsScore({
     return { topic: u.topic, title: u.title, pct, attempts: rows.length }
   })
   const attemptedTopics = topicBreakdown.filter((t) => t.pct !== null)
+
+  // Mixed-topic rows ('All Topics' checkups / mixed quizzes) match no unit but
+  // are still real signal: they clear cold start and stand in for the
+  // unattempted-topic prior until per-topic data arrives.
+  const unitTopics = new Set(units.map((u) => u.topic))
+  const mixedRows  = history.filter((h) => !unitTopics.has(h.topic))
+  const mixedPct   = mixedRows.length
+    ? mixedRows.reduce((sum, h) => sum + (h.pct ?? 0), 0) / mixedRows.length
+    : null
+
+  const priorPct = mixedPct ?? UNATTEMPTED_PRIOR_PCT
   const meanPct = topicBreakdown.length
-    ? topicBreakdown.reduce((sum, t) => sum + (t.pct ?? UNATTEMPTED_PRIOR_PCT), 0) / topicBreakdown.length
+    ? topicBreakdown.reduce((sum, t) => sum + (t.pct ?? priorPct), 0) / topicBreakdown.length
     : 0
   const masteryScaled = getScaledScore(meanPct, 100)
 
   // ── Cold start: literally nothing to estimate from ────────────────────────
-  if (examCount === 0 && attemptedTopics.length === 0) {
+  if (examCount === 0 && attemptedTopics.length === 0 && mixedRows.length === 0) {
     return {
       score: null, coldStart: true, examCount: 0,
       components: { examAvg: null, masteryScaled, consistency: 0 },
@@ -113,4 +124,16 @@ export function weakestUnitOf(topicBreakdown = []) {
   const scored = topicBreakdown.map((t) => ({ ...t, eff: t.pct ?? -1 }))
   scored.sort((a, b) => a.eff - b.eff)
   return scored[0]
+}
+
+/**
+ * The weakest unit the student has actually ATTEMPTED (null until any attempt).
+ * weakestUnitOf always surfaces unattempted units first, which is right for
+ * "where to start" UIs but wrong for "what to strengthen" — this variant is
+ * what drives weak-unit drills (Today's Mission, smart quest).
+ */
+export function weakestAttemptedUnitOf(topicBreakdown = []) {
+  const attempted = topicBreakdown.filter((t) => t.pct != null)
+  if (!attempted.length) return null
+  return attempted.reduce((min, t) => (t.pct < min.pct ? t : min))
 }

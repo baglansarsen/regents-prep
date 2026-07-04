@@ -3,7 +3,7 @@
  * Covers cold start, exam-count weighting, clamping, consistency bonus,
  * smoothing step caps, and weakest-unit selection.
  */
-import { predictRegentsScore, smoothPrediction, weakestUnitOf } from '../utils/predictedScore'
+import { predictRegentsScore, smoothPrediction, weakestUnitOf, weakestAttemptedUnitOf } from '../utils/predictedScore'
 
 const UNITS = [
   { topic: 'cell_biology', title: 'Cell Biology' },
@@ -130,5 +130,39 @@ describe('weakestUnitOf', () => {
       { topic: 'c', pct: 90 },
     ]).topic).toBe('a')
     expect(weakestUnitOf([])).toBeNull()
+  })
+})
+
+describe('weakestAttemptedUnitOf', () => {
+  test('skips unattempted units and finds the weakest attempted one', () => {
+    expect(weakestAttemptedUnitOf([
+      { topic: 'a', pct: 55,   attempts: 3 },
+      { topic: 'b', pct: null, attempts: 0 },
+      { topic: 'c', pct: 90,   attempts: 5 },
+    ]).topic).toBe('a')
+  })
+
+  test('null when nothing is attempted', () => {
+    expect(weakestAttemptedUnitOf([
+      { topic: 'b', pct: null, attempts: 0 },
+    ])).toBeNull()
+    expect(weakestAttemptedUnitOf([])).toBeNull()
+  })
+})
+
+describe('mixed "All Topics" history (checkup signal)', () => {
+  test('a mixed quiz clears coldStart even with no topic-tagged rows', () => {
+    const r = predictRegentsScore({
+      units: UNITS,
+      history: [{ topic: 'All Topics', pct: 60 }],
+    })
+    expect(r.coldStart).toBe(false)
+    expect(r.score).not.toBeNull()
+  })
+
+  test('mixed-quiz pct informs the prediction (higher mixed pct → higher score)', () => {
+    const low  = predictRegentsScore({ units: UNITS, history: [{ topic: 'All Topics', pct: 40 }] })
+    const high = predictRegentsScore({ units: UNITS, history: [{ topic: 'All Topics', pct: 90 }] })
+    expect(high.score).toBeGreaterThan(low.score)
   })
 })

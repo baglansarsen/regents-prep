@@ -2,7 +2,7 @@ import { useEffect, useMemo } from 'react'
 import { useExamScores } from './useExamScores'
 import { useDailyStreak } from './useDailyStreak'
 import { useGoal } from '../context/GoalContext'
-import { predictRegentsScore, smoothPrediction, weakestUnitOf } from '../utils/predictedScore'
+import { predictRegentsScore, smoothPrediction, weakestUnitOf, weakestAttemptedUnitOf } from '../utils/predictedScore'
 import { REGENTS_EXAMS } from '../content/regents-exams/index'
 import { localDateStr } from '../utils/localDate'
 
@@ -55,7 +55,11 @@ export function usePredictedScore(subject, units = [], history = []) {
   // Memoized — a fresh object identity per render here would cascade into
   // HomeScreen's smartQuestDef memo and its focus effect, re-running it every
   // render (render loop). Stable as long as `result` is stable.
-  const weakestUnit = useMemo(() => weakestUnitOf(result.topicBreakdown), [result])
+  const weakestUnit          = useMemo(() => weakestUnitOf(result.topicBreakdown), [result])
+  // Attempted-only variant for weak-unit drills (mission card / smart quest) —
+  // weakestUnit ranks unattempted units first, which would mask genuinely weak
+  // attempted topics behind untouched ones.
+  const weakestAttemptedUnit = useMemo(() => weakestAttemptedUnitOf(result.topicBreakdown), [result])
 
   return {
     predicted:    smoothed?.value ?? result.score,
@@ -64,6 +68,7 @@ export function usePredictedScore(subject, units = [], history = []) {
     examCount:    result.examCount,
     topicBreakdown: result.topicBreakdown,
     weakestUnit,
+    weakestAttemptedUnit,
     hasTakenPracticeExam: result.examCount > 0,
   }
 }

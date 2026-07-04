@@ -1,8 +1,9 @@
 import { pickTodayMission } from '../todayMission'
 
-// Convenience: a weakestUnit that HAS been attempted and is weak
+// Callers pass the weakest ATTEMPTED unit (weakestAttemptedUnitOf); the picker
+// still guards on pct so an unattempted unit passed by mistake falls through.
 const weakAttempted = { topic: 'cell-biology', title: 'Cell Biology', pct: 55, attempts: 3 }
-// A unit that has never been attempted
+// A unit that has never been attempted (defensive: producer should never send this)
 const weakUnattempted = { topic: 'ecology', title: 'Ecology', pct: null, attempts: 0 }
 // A unit that has been mastered
 const weakMastered = { topic: 'genetics', title: 'Genetics', pct: 90, attempts: 5 }
