@@ -15,7 +15,8 @@ const require = createRequire(import.meta.url)
 const babel = require('@babel/core')
 
 const out = execSync(
-  'git diff --name-only HEAD -- src; git ls-files --others --exclude-standard -- src',
+  // --relative → paths relative to cwd (mobile/), matching the untracked list
+  'git diff --name-only --relative HEAD -- src; git ls-files --others --exclude-standard -- src',
   { cwd: process.cwd(), encoding: 'utf8' },
 )
 const files = [...new Set(out.split('\n').filter((f) => /\.(js|jsx)$/.test(f)))]

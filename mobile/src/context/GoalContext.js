@@ -18,6 +18,7 @@ import { logActivity } from '../utils/activityLogger'
  *       committedAt: ISO string,
  *       baselineScore: number|null,  // predicted score at commit (null = cold start)
  *       predicted: { value, date } | null,  // smoothing anchor (usePredictedScore)
+ *       rescuePlan: { urgency, targetMode } | undefined,  // utils/rescuePlan.js profile
  *     },
  *   }
  *
@@ -115,8 +116,15 @@ export function GoalProvider({ children }) {
     await persist({ ...goalsRef.current, [subject]: { ...cur, predicted: anchor } })
   }, [])
 
+  // ── Rescue Plan profile ({ urgency, targetMode }) — lives on the goal entry ─
+  const setRescuePlan = useCallback(async (subject, plan) => {
+    const cur = goalsRef.current[subject]
+    if (!cur) return
+    await persist({ ...goalsRef.current, [subject]: { ...cur, rescuePlan: plan ?? null } })
+  }, [])
+
   return (
-    <GoalContext.Provider value={{ goals, loaded, getGoal, commitGoal, clearGoal, updatePredicted }}>
+    <GoalContext.Provider value={{ goals, loaded, getGoal, commitGoal, clearGoal, updatePredicted, setRescuePlan }}>
       {children}
     </GoalContext.Provider>
   )

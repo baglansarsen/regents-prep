@@ -14,6 +14,7 @@ import { SUBJECT_META } from '../content/subjects'
 import { subjectData } from '../content/subjectData'
 import { getUpcomingExamSessions, daysUntil } from '../utils/examDates'
 import GoalShareSheet from '../components/GoalShareSheet'
+import RescuePlanSheet from '../components/RescuePlanSheet'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import { logEvent } from '../utils/analytics'
 
@@ -26,7 +27,7 @@ export default function GoalSetupScreen({ navigation }) {
   const { user } = useAuthContext()
   const uid = user?.uid
   const { subject } = useSubject()
-  const { getGoal, commitGoal } = useGoal()
+  const { getGoal, commitGoal, setRescuePlan } = useGoal()
   const { history } = useProgress(uid)
   const { streak } = useDailyStreak(uid)
   const { enabled: notifEnabled, enable: enableNotifs } = useNotifications(streak)
@@ -41,8 +42,9 @@ export default function GoalSetupScreen({ navigation }) {
 
   const existing = getGoal(subject)
   const [target, setTarget] = useState(existing?.target ?? 65)
-  const [showShare, setShowShare] = useState(false)
-  const [committed, setCommitted] = useState(null)   // entry returned by commitGoal
+  const [showShare,  setShowShare]  = useState(false)
+  const [showRescue, setShowRescue] = useState(false)
+  const [committed,  setCommitted]  = useState(null)   // entry returned by commitGoal
 
   // Valid upcoming sessions the student can target for this subject (Jan/Jun/Aug
   // filtered to what this subject is actually offered in).
@@ -65,6 +67,19 @@ export default function GoalSetupScreen({ navigation }) {
     const entry = await commitGoal(subject, target, coldStart ? null : rawPredicted, examDateStr)
     setCommitted(entry)
     logEvent('goal_committed', { subject, target, daysToExam: days })
+    // Rescue Plan first (two quick questions), then the share card.
+    setShowRescue(true)
+  }
+
+  async function handleRescueSave(plan) {
+    await setRescuePlan(subject, plan)
+    logEvent('rescue_plan_set', { subject, ...plan })
+    setShowRescue(false)
+    setShowShare(true)
+  }
+
+  function handleRescueSkip() {
+    setShowRescue(false)
     setShowShare(true)
   }
 
@@ -189,6 +204,19 @@ export default function GoalSetupScreen({ navigation }) {
 
         <View style={{ height: 32 }} />
       </ScrollView>
+
+      {/* Rescue Plan — two questions, pre-answered from exam date + tier.
+          key remounts it per commit so the pre-selects re-derive. */}
+      {showRescue && (
+        <RescuePlanSheet
+          key={committed?.committedAt ?? 'rescue'}
+          visible={showRescue}
+          daysToExam={days}
+          target={committed?.target ?? target}
+          onSave={handleRescueSave}
+          onSkip={handleRescueSkip}
+        />
+      )}
 
       <GoalShareSheet
         visible={showShare}

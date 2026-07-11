@@ -55,6 +55,7 @@ import { useGoal } from '../context/GoalContext'
 import { usePredictedScore } from '../hooks/usePredictedScore'
 import { pickSmartQuest } from '../utils/smartQuest'
 import { pickTodayMission } from '../utils/todayMission'
+import { pickRescueAction } from '../utils/rescuePlan'
 import { tierFor } from '../data/goalConfig'
 
 const MILESTONE_GIFTS = {
@@ -155,14 +156,32 @@ export default function HomeScreen({ navigation }) {
   }), [regentsGoal, coldStart, daysToExam, subject, studiedDates, hasTakenPracticeExam, weakestAttemptedUnit])
 
   // ── Today's Mission — single highest-priority action ───────────────────────
-  const mission = useMemo(() => pickTodayMission({
-    hasGoal:              !!regentsGoal,
-    coldStart,
-    daysToExam,
-    hasTakenPracticeExam,
-    dueCount,
-    weakestUnit:          weakestAttemptedUnit,
-  }), [regentsGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestAttemptedUnit])
+  // With a Rescue Plan set and the exam ≤30 days out, the plan's daily
+  // recommendation takes over (same actionTypes → same runMission dispatch).
+  // set_goal / checkup still win: without a goal or any data there's nothing
+  // for the plan to work with.
+  const mission = useMemo(() => {
+    const base = pickTodayMission({
+      hasGoal:              !!regentsGoal,
+      coldStart,
+      daysToExam,
+      hasTakenPracticeExam,
+      dueCount,
+      weakestUnit:          weakestAttemptedUnit,
+    })
+    const plan = regentsGoal?.rescuePlan
+    if (plan && daysToExam != null && daysToExam <= 30 &&
+        base.actionType !== 'set_goal' && base.actionType !== 'checkup') {
+      return pickRescueAction({
+        plan,
+        daysToExam,
+        weakestUnit: weakestAttemptedUnit,
+        dueCount,
+        hasTakenPracticeExam,
+      })
+    }
+    return base
+  }, [regentsGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestAttemptedUnit])
   useFocusEffect(useCallback(() => {
     reloadHistory()
     reloadSkipUnlocks()
@@ -737,7 +756,9 @@ export default function HomeScreen({ navigation }) {
             <View style={s.missionHeader}>
               <Text style={s.missionIcon}>{mission.icon}</Text>
               <View style={{ flex: 1 }}>
-                <Text style={[T.label, { color: C.brand, marginBottom: 2 }]}>TODAY'S MISSION</Text>
+                <Text style={[T.label, { color: mission.rescue ? C.warn : C.brand, marginBottom: 2 }]}>
+                  {mission.rescue ? `🧭 ${mission.planLabel}` : "TODAY'S MISSION"}
+                </Text>
                 <Text style={[T.h3, { color: C.text }]} numberOfLines={1}>{mission.title}</Text>
               </View>
               <View style={[s.missionTimePill, { backgroundColor: C.brand + '18', borderColor: C.brand + '40' }]}>
