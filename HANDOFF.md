@@ -1,75 +1,33 @@
-# Handoff — Regentify mobile session
+# Handoff — session ending 2026-07-05
 
-_Last updated: 2026-06-17 · branch `master` · all work below is **committed and pushed** to `origin/master` (HEAD `15c4a14`)._
+Context for the next Claude Code session in `regents-prep/`. Work is on `master`, **all pushed** through `ffcecca` (the push triggered an Xcode Cloud iOS build — check its status if a new TestFlight build is expected). Previous handoff (2026-06-17) fully superseded; that work shipped long ago.
 
-> **2026-06-17 update:** a full **curriculum revision of all 11 subjects** landed on top of the 2026-06-16 UI/bugfix work. See the "Curriculum revision" section near the bottom. The original 2026-06-16 notes below are unchanged.
+## What shipped this session (all mobile/, all pushed)
 
-## TL;DR
-This session reworked several `mobile/` surfaces (top bar, Tour, Profile, Progress tab, Social tab) and fixed two real bugs (tip purchases, exam countdown). **None of it has been run on a device/simulator yet** — the changes are visual/multi-screen and the highest-value items need on-device (and in two cases, two-account / StoreKit) verification. See **Needs verification** below.
+1. `22ca5f5` — **Today's Mission system**: `pickTodayMission()` 6-rule priority cascade (`mobile/src/utils/todayMission.js`), mission card on HomeScreen, 22 unit tests.
+2. `2d732f2` — **Code-review fixes** for it (a full multi-agent /code-review was run):
+   - Mixed "All Topics" checkup quizzes now clear `coldStart` and seed the prediction prior (was an infinite-checkup loop).
+   - New `weakestAttemptedUnitOf` feeds both pickers (weak-unit mission was unreachable while any unit was unattempted).
+   - `pickSmartQuest` got a coldStart guard; shared constants live in `mobile/src/utils/studyConstants.js` (`MASTERY_MIN=85`, `PRACTICE_EXAM_WINDOW_DAYS=14`).
+   - Checkup routes through `startQuiz(null, {limit:12})`; mission card gated on new `historyLoaded` flag from `useProgress`; dead `startTodaysMission` deleted; subtitle `\n`s removed.
+3. `ef42967` — **Energy/recharge UX**: lives copy → energy ("Time to recharge!", 🪫 banner, "Confidence round" banner in struggle mode); new pure policy `shouldSpendEnergy()` (`mobile/src/utils/energy.js`) — repeat round + struggle mode never spend energy; lives mechanics/LivesContext untouched.
+4. `8d094e9` — **School leaderboard v1**: School segment (Friends|School|League toggle in FriendsScreen) now ranks classmates by weekly RP (`rankSchoolWeekly` in `mobile/src/utils/schoolLeaderboard.js`; equality-only Firestore query, no composite index needed). Empty states: "Pick your school…" → new `SchoolPicker` route (both FriendsStack variants, reuses SchoolOnboardingScreen); "No classmates yet". `'Independent'` (onboarding skip) = no school.
+5. `ffcecca` — **Share card variants**: `shareCardContent(variant)` in `mobile/src/utils/shareCardCopy.js` — quiz_result (copy unchanged), predicted_up, goal_committed, practice_exam, streak_milestone, weak_topic_mastered. Low exam scores framed positively ("I found my weak spots", number never shown). Triggers wired: ExamResults share button, GoalDetail "Share your climb", HomeScreen milestone "Share the streak", ResultsScreen auto-switches to mastery variant.
 
-## Commits this session (oldest → newest, all pushed)
-| Commit | What |
-|--------|------|
-| `fbfd77d` | Replace startup intro carousel with in-app spotlight Tour |
-| `94726af` | Fix school onboarding filter-chip clipping |
-| `297ec77` | Enable Tip Jar with live App Store prices |
-| `f1ada7f` | Merge "Go Premium" + "Support" into one Profile row |
-| `f7a8204` | Relocate Quick Practice → Exams tab; extract `PetScreen` |
-| `ff923f4` | Top-bar subject sheet (switch + goal) + score badge |
-| `8ce5c2d` | Align Tour with new UI; remove intro carousel entirely |
-| `335f1d7` | Rebuild Progress tab into one hub; retire `AnalyticsScreen` |
-| `b1dba85` | Merge subject + score into one Duolingo-style course pill |
-| `233d01e` | **Fix:** tip consumables query `NON_SUBSCRIPTION` |
-| `8de17a7` | **Fix:** exam countdown rolls to next session once date passes |
-| `47707d3` | Social tab: close battle loop, Battles tab, League segment, friend mgmt |
+**Tests: 8 suites, 133 passing** (`cd mobile && npx jest`). Note: root CLAUDE.md still (wrongly) says the repo has no tests — flagged as improvement option #3.
 
-## Key areas changed
-- **Top bar** (`components/GlobalTopBar.jsx`): one course pill = subject + inline score chip + chevron → opens `SubjectSheet` (`components/SubjectSheet.jsx`, new) showing the Regents goal + subject switcher. Score read cheaply from `useGoal().getGoal(subject).predicted.value`.
-- **Tour** (`context/TourContext.jsx`, `components/TourHost.jsx`): steps now subject → streak → lives → rp → done; anchors live in the fixed top bar. Replays from Profile → "How It Works". Carousel (`IntroductionScreen.jsx`) deleted. First-run gate fixed (was blocked for all new users by `placementDone===false`).
-- **Home/Exams** (`screens/HomeScreen.jsx`, `ExamPickerScreen.jsx`, `utils/subjectData.js`): Quick Practice moved to Exams tab; pet hub extracted to `screens/PetScreen.jsx` (new `Pet` route).
-- **Progress tab** (`screens/ProgressScreen.jsx`): predicted-score hero, 3×2 stat strip, weakest/strongest insight + Practice CTA, achievements preview row. `utils/achievements.js` (new) shared with `AchievementsScreen`. `AnalyticsScreen.jsx` deleted (was stale LE-only data).
-- **Social tab** (`screens/FriendsScreen.jsx` + challenge/league screens, `hooks/useChallenges.js`, `useFriends.js`): live-updating battle result (`onSnapshot`), new Battles tab (pending + results + rematch), Leaderboard 3-way segment (Friends/School/League), League pull-to-refresh, `removeFriend` + pending-requests surfaced.
-- **Bug fixes:** `hooks/usePurchases.js` passes `PRODUCT_CATEGORY.NON_SUBSCRIPTION` to `getProducts` (tips are consumables); `utils/examDates.js` adds `daysUntilExam()` / `effectiveExamDateStr()` used at all countdown sites.
+## Open decision — waiting on the user
 
-## Needs verification (not yet run anywhere)
-1. **Social battle loop — needs TWO accounts.** A challenges B → "Waiting…" should flip live to Won/Lost/Tie when B plays; result then appears in A's **Battles** tab with Rematch.
-2. **Tip Jar — needs native build.** Tap a tip → StoreKit purchase sheet (no "product not found"). Simulator only works when **launched from Xcode** (StoreKit config), or use a device with a Sandbox Apple ID. See StoreKit note below.
-3. **Exam countdown:** a goal whose committed exam date has passed should show the *next* session, never a negative number.
-4. **Visual passes:** course pill (score chip readable, greens at goal), Progress hero/stat-grid/insights, Social Leaderboard segment + League inline standings.
-5. Fresh-signup flow: pet → subject → school → Home → spotlight Tour starts (~0.9s) on the subject pill.
+`SESSION_IMPROVEMENTS.md` (repo root, untracked) holds a 17-session audit with a **ranked table of 10 improvement options** (skills / automations / corrections). The user has NOT chosen which to implement. Top items: `/ship`+`/release-ios` skill; "check delivery path before re-debugging stale builds" rule; CLAUDE.md test-suite fix + `npm run check`; RevenueCat product-state rule. **Do nothing on these until the user picks numbers.**
 
-## Local-only / uncommitted (intentionally not pushed)
-- `mobile/ios/Products.storekit` (gitignored) + the **Run-action** `Regentify.xcscheme` edit — local StoreKit testing only; lets a simulator render simulated tip prices when **launched from Xcode** (Edit Scheme ▸ Run ▸ Options ▸ StoreKit Configuration = Products.storekit). Archive action untouched → production unaffected.
-- `REDESIGN_NOTES.md` — untracked, not authored this session.
-- `graphify-out/` — knowledge-graph artifacts (kept current; `/graphify update` after code changes, code-only runs cost 0 tokens).
+## Manual verification still pending (from this session's features)
 
-## Project gotchas (carry forward)
-- **Always ask before commit/push** — every push triggers an Xcode Cloud build.
-- **Mobile only** — don't touch `src/` (web) or `chromebook/` unless asked.
-- Validate JSX via local `@babel/core` (`transformFileSync`, preset `babel-preset-expo`) — `npx babel` resolves to a broken babel@5 in this env.
-- Committed `mobile/ios/` means `app.json` plugins/infoPlist are ignored; edit `mobile/ios/Info.plist` directly.
-- No tests anywhere in the repo; verification is manual.
+- Today's Mission: exercise the 6 branches on device/web; confirm single CTA on Home; no clipping at 320px.
+- School leaderboard: Social → Leaderboard → School — all three states (no school / alone / ranked); pick a school via the new SchoolPicker route and confirm the list refreshes on return.
+- Share cards: all 5 new variants render + capture correctly (especially the low-score practice exam card).
+- Energy copy: struggle mode shows the "Confidence round" banner; refill gate says "Time to recharge!"; subscribers still bypass.
 
----
+## Repo state / reminders
 
-## Curriculum revision — all 11 subjects (2026-06-17)
-
-Every subject's content was restructured for "top Regents score" outcomes. **Commits:** `401fde0` Life Science · `7f0dbf0` Living Environment · `62457d9` Earth Science · `8a981d3` Chemistry · `f5b7f11` Physics · `101a740` Algebra 1 · `8d90bab` Algebra 2 · `9228106` Geometry · `e2bbc93` Global History · `f60ec96` US History · `15c4a14` English. All pushed.
-
-**The pattern (applied per subject):**
-1. **Script-assisted tagging** of the Regents exam-question bank with `skill` + `subTopic` (deterministic rule scripts, reviewed via dry-run distributions; the scripts live in `/tmp` and are deleted after use).
-2. **Split mega-units** into focused sub-topic units; **merge/fix starved or fake units**; tune `lessonCount` to pool depth.
-3. **Add a cross-cutting skill unit** + a per-subject practice surface.
-4. **Engine**: `src/content/_shared/lessonEngine.js` gained `getBySkill` / `getBySubTopic` / `getWritten` / `getSkillLessonQuestions` / `getSubTopicLessonQuestions`. Each subject's `units.js` routes units to topic-pool / sub-topic-pool / skill-pool.
-5. **Smart Review** (`utils/reviewQueue.js`, `hooks/useMistakes.js`) matches a unit key by `topic` OR `subTopic` so split sub-units resolve.
-
-**Per-group specifics:**
-- **Sciences** (LS, LE, ES, Chem, Physics): science-practice skills (`data`/`model`/`experiment`/`reference`/`map`/`lab`) → a **"Science Practices / Data & Investigations / Reference Tables"** unit. **Chemistry & Physics pools were expanded** (Chem 4→9 exams, Physics 3→8). LE adds a **Lab Skills** unit; ES a **"Data, Maps & Reference Tables"** unit.
-- **Math** (Alg 1, Alg 2, Geometry): skills `modeling`/`graphing`/`procedure`/`reasoning` (+`proof` for Geometry) → a **"Problem-Solving & Modeling"** unit (Geometry: **"Proofs & Reasoning"**). NEW **"Worked Examples"** mode surfaces the step-by-step `modelAnswer` solutions (Exams tab; per-subject `writtenLabel`).
-- **Humanities** (Global, US, English): were a **custom positional-slice engine with untagged questions and fake units** — fully re-architected onto `makeLessonApi` with **source-/reading-analysis skill units** (era-tagging proved only ~37% reliable; skill-tagging ~77% and matches the post-2019 framework). Created the **missing local `flashcards.js`/`strategies.js`/`achievements.js`** for all three (they had none). English pool expanded 18→31 exams.
-
-**Key carry-forwards / known gaps:**
-- ⚠️ **English MC questions reference reading passages that are NOT in the data** (`context` absent), so they're hard to answer as shown. Structure/tagging/assets are now real; **adding the passages is a separate content-data task**.
-- **None of the curriculum work is device-verified.** Per subject, confirm: the new unit list renders in order, every unit's lessons populate (no repetition), the skill unit + Worked Examples/Essay/Written Practice surfaces work, and flashcards/strategies show.
-- **Achievements display**: `AchievementsScreen`/Progress preview compute from the LE+ES catalog via `utils/achievements.js`; the new per-subject `achievements.js` arrays exist but aren't yet wired into that screen (they're consumed where a subject's `sd.achievements` is read). Worth confirming each subject's achievements actually surface.
-- **Tagging is heuristic** (keyword rules), reviewed at the distribution level, not question-by-question — expect occasional mis-tags; the `subTopic`/`skill` values come from a controlled vocab per subject.
+- Untracked (intentional, don't commit without asking): `SESSION_IMPROVEMENTS.md`, `handoff.md`, `AGENTS.md`, `CHROMEBACK_BRANCH_POLICY.md`, `TESTING_CHECKLIST.md`, root `app.json`, `.codex/`, `graphify-out/`. Modified: `.firebase/` cache (chromebook deploy artifact — leave it).
+- Rules that have bitten before: **ask before commit AND push** (Xcode Cloud minutes); one app per commit; work in `mobile/` only unless asked; `feat/chromebook-b2b` never merges to master; `shared/content/` flows master → chromebook only.

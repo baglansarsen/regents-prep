@@ -23,7 +23,11 @@ mobile/*.mobileprovision
 .vscode/
 
 # Claude Code internal
-.claude/
+.claude/*
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/ship/
+!.claude/skills/fill-content/
 
 # OS
 .DS_Store
@@ -32,3 +36,6 @@ Thumbs.db
 # Env
 .env
 .env.local
+
+# git worktrees (deploy-chromebook.sh)
+.worktrees/

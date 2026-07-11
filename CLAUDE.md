@@ -9,7 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `mobile/` — React Native + Expo app (iOS/Android/PWA), deploys to Firebase Hosting target `mobile-web`
 - `shared/content/` — single source of truth for all subject/exam question data, aliased as `@content` in both apps
 
-Backend is Firebase (Firestore + Auth), project ID `regents-prep`. There are no tests anywhere in the repo.
+Backend is Firebase (Firestore + Auth), project ID `regents-prep`. `mobile/` has a Jest suite (`cd mobile && npx jest`) — run it after changing `mobile/src`, and parse-check edited JS/JSX with `npm run check` before committing multi-file changes.
 
 ## Commands
 
@@ -20,6 +20,8 @@ npm start                        # Expo dev server (Expo Go or dev client)
 npm run ios                      # run on iOS simulator
 npm run android                  # run on Android emulator
 npm run web                      # run as web PWA
+npx jest                         # run the unit test suite
+npm run check                    # jest + babel parse-check of git-changed src files
 npx eas build --profile development   # EAS dev build
 npx eas build --profile preview       # EAS preview build (APK / device IPA)
 npx eas build --profile production    # EAS production build
@@ -73,6 +75,13 @@ Both Metro (mobile) and Vite (web) resolve `@content/*` → `shared/content/*`. 
 
 ## Focus Rule
 Default to working in `mobile/` only. Do not touch `chromebook/` or root `src/` unless the user explicitly asks.
+
+## Debugging Rules (learned the hard way)
+
+- **"My change isn't showing" → check the delivery path FIRST, not the code.** Which branch are the commits on vs. what Xcode Cloud builds (`master` only)? Is TestFlight showing the new build number? Is the simulator running a fresh Metro bundle (`npx expo start -c`)? Days were lost re-debugging working code that simply wasn't deployed.
+- **RevenueCat "product not found" / "store didn't return 'X'"** almost always means store-side state — App Store Connect consumable not approved, product not attached to the RC offering, or missing StoreKit config in the simulator scheme. Check the dashboards first; don't re-audit `usePurchases.js`.
+- **Never bulk-rename with `sed -i` across `mobile/src`.** Use per-file edits, then `npm run check` before committing (a sed rename once shipped a crashing TestFlight build). In renames, Firestore field names and AsyncStorage keys keep their old names — only UI strings and local identifiers change.
+- **Content-coverage audits must grep both key syntaxes** — files mix bare (`explanation:`) and quoted (`"explanation":`) keys, so use `grep -E '"?explanation"?:'`. A 0% enrichment result means the check is wrong, not the content.
 
 ## Git Workflow (monorepo: mobile + chromebook)
 
