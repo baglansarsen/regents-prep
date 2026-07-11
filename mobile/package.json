@@ -9,7 +9,8 @@
     "web": "expo start --web",
     "build:web": "expo export -p web",
     "postinstall": "patch-package",
-    "test": "jest"
+    "test": "jest",
+    "check": "jest --no-coverage && node scripts/parse-check.mjs"
   },
   "dependencies": {
     "@expo-google-fonts/fredoka": "^0.4.1",
