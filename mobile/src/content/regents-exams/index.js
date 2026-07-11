@@ -126,11 +126,20 @@ import geoJun2023 from './geometry/june-2023'
 import geoJun2024 from './geometry/june-2024'
 import geoJun2025 from './geometry/june-2025'
 
+import leJun2026 from './living-environment/june-2026'
+import esJun2026 from './earth-science/june-2026'
+import chemJun2026 from './chemistry/june-2026'
+import physJun2026 from './physics/june-2026'
+import a1Jun2026 from './algebra-1/june-2026'
+import a2Jun2026 from './algebra-2/june-2026'
+import geoJun2026 from './geometry/june-2026'
+
 import lsJan2026 from './life-science/january-2026'
 import lsJun2025 from './life-science/june-2025'
 import lsAug2025 from './life-science/august-2025'
 
 import engJanuary2026 from './english/january-2026'
+import engJune2026 from './english/june-2026'
 import engJune2025 from './english/june-2025'
 import engAugust2025 from './english/august-2025'
 import engJanuary2025 from './english/january-2025'
@@ -163,6 +172,7 @@ import engJune2014 from './english/june-2014'
 import engAugust2014 from './english/august-2014'
 
 import ghJanuary2026 from './global-history/january-2026'
+import ghJune2026 from './global-history/june-2026'
 import ghJune2025 from './global-history/june-2025'
 import ghAugust2025 from './global-history/august-2025'
 import ghJanuary2025 from './global-history/january-2025'
@@ -216,6 +226,7 @@ export const REGENTS_EXAMS = {
     leJun2023,
     leJun2024,
     leJun2025,
+    leJun2026,
   ],
   'earth-science': [
     esAug2018,
@@ -237,6 +248,7 @@ export const REGENTS_EXAMS = {
     esJun2023,
     esJun2024,
     esJun2025,
+    esJun2026,
   ],
   'chemistry': [
     chemAug2016,
@@ -262,6 +274,7 @@ export const REGENTS_EXAMS = {
     chemJun2023,
     chemJun2024,
     chemJun2025,
+    chemJun2026,
   ],
   'physics': [
     physJun2016,
@@ -272,6 +285,7 @@ export const REGENTS_EXAMS = {
     physJun2023,
     physJun2024,
     physJun2025,
+    physJun2026,
   ],
   'algebra-1': [
     a1Aug2019,
@@ -289,6 +303,7 @@ export const REGENTS_EXAMS = {
     a1Jun2023,
     a1Jun2024,
     a1Jun2025,
+    a1Jun2026,
   ],
   'algebra-2': [
     a2Aug2019,
@@ -306,6 +321,7 @@ export const REGENTS_EXAMS = {
     a2Jun2023,
     a2Jun2024,
     a2Jun2025,
+    a2Jun2026,
   ],
   'geometry': [
     geoAug2019,
@@ -323,6 +339,7 @@ export const REGENTS_EXAMS = {
     geoJun2023,
     geoJun2024,
     geoJun2025,
+    geoJun2026,
   ],
   'life-science': [
     lsAug2025,
@@ -331,6 +348,7 @@ export const REGENTS_EXAMS = {
   ],
   'english': [
     engJanuary2026,
+    engJune2026,
     engJune2025,
     engAugust2025,
     engJanuary2025,
@@ -364,6 +382,7 @@ export const REGENTS_EXAMS = {
   ],
   'global-history': [
     ghJanuary2026,
+    ghJune2026,
     ghJune2025,
     ghAugust2025,
     ghJanuary2025,
