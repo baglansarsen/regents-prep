@@ -19,9 +19,11 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useSubject } from '../context/SubjectContext'
+import { useGoal } from '../context/GoalContext'
 import { useProgress } from '../hooks/useProgress'
 import { useUnlocks } from '../hooks/useUnlocks'
 import { shuffle } from '../utils/question'
+import { predictRegentsScore } from '../utils/predictedScore'
 import * as leData    from '../content/living-environment/index'
 import * as esData    from '../content/earth-science/index'
 import * as chemData  from '../content/chemistry/index'
@@ -141,6 +143,7 @@ export default function PlacementTestScreen({ onComplete }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
   const { subject } = useSubject()
+  const { getGoal } = useGoal()
   const uid = user?.uid
   const { history, saveResult } = useProgress(uid)
 
@@ -447,6 +450,29 @@ export default function PlacementTestScreen({ onComplete }) {
   }, 0)
   const overallPct      = total > 0 ? Math.round((totalCorrect / total) * 100) : 100
   const needsRemediation = MATH_SUBJECTS.has(subject) && overallPct < REMEDIATION_PCT && unlockedList.length <= 1
+  const regentsGoal = getGoal(subject)
+  const placementHistory = Object.entries(topicScores).map(([topic, { correct, total: topicTotal }]) => ({
+    topic,
+    pct: Math.round((correct / topicTotal) * 100),
+  }))
+  // Keep this estimate consistent with the Home/Progress prediction model; the
+  // copy below frames it as directional because placement is only ~10 questions.
+  const placementPrediction = predictRegentsScore({
+    units: sd.UNITS ?? [],
+    history: placementHistory,
+  })
+  const estimatedScore = placementPrediction.score
+  const scoreGap = regentsGoal?.target && estimatedScore != null
+    ? Math.max(0, regentsGoal.target - estimatedScore)
+    : null
+  const focusTopics = Object.entries(topicScores)
+    .map(([topic, { correct, total: topicTotal }]) => {
+      const pct = Math.round((correct / topicTotal) * 100)
+      const unit = (sd.UNITS ?? []).find((u) => u.topic === topic)
+      return { topic, title: unit?.title ?? topic, pct, correct, total: topicTotal }
+    })
+    .sort((a, b) => a.pct - b.pct || b.total - a.total)
+    .slice(0, 2)
 
   return (
     <SafeAreaView style={s.safe} edges={['top', 'bottom']}>
@@ -493,6 +519,56 @@ export default function PlacementTestScreen({ onComplete }) {
             </Text>
           </View>
         )}
+
+        {/* First-session win: turn the placement result into a concrete plan. */}
+        <View style={[s.passPlanCard, cardShadow(C.shadow)]}>
+          <View style={s.passPlanHeader}>
+            <Text style={{ fontSize: 26 }}>🧭</Text>
+            <View style={{ flex: 1 }}>
+              <Text style={[T.h3, { color: C.text }]}>Your Regents Pass Plan</Text>
+              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+                Based on this quick {total}-question checkup. It sharpens as you practice.
+              </Text>
+            </View>
+          </View>
+
+          <View style={s.planStatsRow}>
+            <View style={[s.planStat, { backgroundColor: C.brand + '14', borderColor: C.brand + '35' }]}>
+              <Text style={[T.label, { color: C.brand, textTransform: 'none', letterSpacing: 0 }]}>Start estimate</Text>
+              <Text style={[T.num, { color: C.brand, fontSize: 28 }]}>
+                {estimatedScore ?? '—'}
+              </Text>
+            </View>
+            <View style={[s.planStat, { backgroundColor: C.surface2, borderColor: C.border }]}>
+              <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>Goal gap</Text>
+              <Text style={[T.num, { color: scoreGap === 0 ? C.correct : C.text, fontSize: 28 }]}>
+                {scoreGap == null ? '—' : scoreGap === 0 ? 'On track' : `+${scoreGap}`}
+              </Text>
+            </View>
+          </View>
+
+          {focusTopics.length > 0 && (
+            <View style={s.focusBlock}>
+              <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>
+                Start here
+              </Text>
+              {focusTopics.map((item) => (
+                <View key={item.topic} style={s.focusTopicRow}>
+                  <Text style={[T.body, { color: C.text, flex: 1 }]} numberOfLines={1}>
+                    {item.title}
+                  </Text>
+                  <Text style={[T.small, { color: item.pct >= UNLOCK_PCT ? C.correct : C.warn }]}>
+                    {item.correct}/{item.total} · {item.pct}%
+                  </Text>
+                </View>
+              ))}
+            </View>
+          )}
+
+          <Text style={[T.small, { color: C.textMuted, marginTop: 12 }]}>
+            Next: practice these first, then Regentify will update your mission from real quiz results.
+          </Text>
+        </View>
 
         {/* Per-topic breakdown */}
         <Text style={[T.label, { color: C.textMuted, alignSelf: 'stretch', textAlign: 'left', marginBottom: 8, marginTop: 4 }]}>
@@ -598,6 +674,12 @@ function makeStyles(C) {
     resultsBigEmoji: { fontSize: 64, marginTop: 8 },
     scorePill:   { flexDirection: 'row', alignItems: 'baseline', justifyContent: 'center', marginTop: 4, marginBottom: 4 },
     unlockBanner: { alignSelf: 'stretch', borderRadius: 16, padding: 16, borderWidth: 1, marginTop: 4 },
+    passPlanCard: { alignSelf: 'stretch', backgroundColor: C.surface, borderRadius: 18, borderWidth: 1, borderColor: C.border, padding: 16, marginTop: 4 },
+    passPlanHeader: { flexDirection: 'row', alignItems: 'center', gap: 12 },
+    planStatsRow: { flexDirection: 'row', gap: 10, marginTop: 14 },
+    planStat: { flex: 1, borderRadius: 14, borderWidth: 1, paddingHorizontal: 12, paddingVertical: 10 },
+    focusBlock: { marginTop: 14, gap: 8 },
+    focusTopicRow: { flexDirection: 'row', alignItems: 'center', gap: 10, backgroundColor: C.surface2, borderRadius: 12, paddingHorizontal: 12, paddingVertical: 9 },
     topicRow:    { alignSelf: 'stretch', flexDirection: 'row', alignItems: 'center', gap: 12, backgroundColor: C.surface, borderRadius: 14, padding: 14, borderLeftWidth: 4, borderWidth: 1, borderColor: C.border },
     topicRowIcon:{ fontSize: 22 },
     statusBadge: { borderRadius: 20, paddingHorizontal: 10, paddingVertical: 4 },
