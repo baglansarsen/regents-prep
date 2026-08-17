@@ -211,6 +211,10 @@ function makeStyles(topInset, subjectColor) {
       flexDirection:  'row',
       alignItems:     'center',
       justifyContent: 'center',
+      // Separates the energy battery's "90%" from the refill countdown, which
+      // otherwise render as one run-on token ("90%29:52"). The streak and RP
+      // pills hold a single Text child, so this only affects the energy pill.
+      gap: 6,
       backgroundColor: 'rgba(0,0,0,0.18)',
       borderRadius:   14,
       paddingHorizontal: 12,
