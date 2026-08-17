@@ -37,7 +37,10 @@ yarn-error.*
 *.tsbuildinfo
 
 # generated native folders
-/ios
+# NOTE: /ios is deliberately NOT ignored — this project commits the native iOS
+# project (Xcode Cloud builds it, and app.json plugins/infoPlist are therefore
+# ignored). Generated paths inside it are covered by mobile/ios/.gitignore
+# (build/, Pods/, xcuserdata, DerivedData, .xcode.env.local).
 /android
 
 # Android build outputs
