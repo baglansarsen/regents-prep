@@ -58,6 +58,37 @@ npm ci --legacy-peer-deps
 # Install CocoaPods.
 echo "==> pod install in mobile/ios/"
 cd "$ios_dir"
-pod install
+
+# The CocoaPods CDN ("trunk") pulls podspecs from raw.githubusercontent.com,
+# which rate-limits shared Xcode Cloud runner IPs with HTTP 429. A cold runner
+# has to fetch the whole spec index every build, so this fails intermittently
+# on pods with many published versions (lottie-ios is the usual victim).
+# Retry with backoff, then fall back to the git Specs repo, which is served
+# over github.com git rather than the rate-limited raw host.
+pod_install_with_retry() {
+  attempt=1
+  max_attempts=3
+  while [ "$attempt" -le "$max_attempts" ]; do
+    echo "==> pod install (attempt $attempt/$max_attempts)"
+    if pod install; then
+      return 0
+    fi
+    if [ "$attempt" -lt "$max_attempts" ]; then
+      delay=$((attempt * 45))
+      echo "    pod install failed; sleeping ${delay}s before retry"
+      sleep "$delay"
+    fi
+    attempt=$((attempt + 1))
+  done
+
+  echo "==> CDN retries exhausted; falling back to the git Specs repo"
+  pod repo remove trunk 2>/dev/null || true
+  # Git clone over github.com instead of raw.githubusercontent.com. Slower
+  # (several minutes to clone the Specs repo) but not subject to the raw 429s.
+  pod repo add trunk https://github.com/CocoaPods/Specs.git
+  pod install
+}
+
+pod_install_with_retry
 
 echo "==> ci_post_clone.sh complete"
