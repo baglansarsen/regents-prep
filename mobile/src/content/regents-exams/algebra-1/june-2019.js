@@ -124,9 +124,9 @@ export default {
       "text": "Which expression results in a rational number?",
       "choices": [
         "√2 · √18",
+        "5 · √5",
         "√2 + √2",
-        "√5 · √5 stays irrational form mislabel",
-        "3 − √2"
+        "3√2 + 2√3"
       ],
       "topic": "Number Theory",
       "correct": 0,
