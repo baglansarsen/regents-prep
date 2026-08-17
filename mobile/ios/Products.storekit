@@ -1,0 +1,195 @@
+{
+  "identifier" : "3F4CB363-852C-4EBC-BF64-0FB70E8C9EBB",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "63A9E6CB-750D-445F-914A-B1576F1CF58B",
+      "localizations" : [
+        {
+          "description" : "Buy me a coffee — one-time tip to support the app.",
+          "displayName" : "Tip — Coffee",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "tip_5",
+      "referenceName" : "Tip 5",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "3FA01DCA-CDC2-4BFD-988A-0B65A4E8DEFB",
+      "localizations" : [
+        {
+          "description" : "Buy me lunch — one-time tip to support the app.",
+          "displayName" : "Tip — Lunch",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "tip_10",
+      "referenceName" : "Tip 10",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "24.99",
+      "familyShareable" : false,
+      "internalID" : "C314D403-8844-431F-8FB4-6F2D64F362B7",
+      "localizations" : [
+        {
+          "description" : "You're amazing — one-time tip to support the app.",
+          "displayName" : "Tip — Generous",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "tip_25",
+      "referenceName" : "Tip 25",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "4A1EC49F-9BAF-477D-BBAB-992E9490F68A",
+      "localizations" : [
+
+      ],
+      "name" : "regentify Unlimited",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "61474CE2-2FB9-4313-BD98-BA4F59BFEF5A",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited hearts, billed monthly. Cancel anytime.",
+              "displayName" : "Monthly Plan",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.regentify.app",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly",
+          "subscriptionGroupID" : "4A1EC49F-9BAF-477D-BBAB-992E9490F68A",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "EE234F42-B218-4F5F-B3C0-DD1C8E0D62C4",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited hearts for all of exam season (3 months).",
+              "displayName" : "Season Pass",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "hearts_season",
+          "recurringSubscriptionPeriod" : "P3M",
+          "referenceName" : "Season",
+          "subscriptionGroupID" : "4A1EC49F-9BAF-477D-BBAB-992E9490F68A",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "24.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "36E5101F-ECA4-48CF-B76F-D0D83D65F0AC",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited hearts for a full year — best value.",
+              "displayName" : "Yearly Plan",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "unlimited_hearts_yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Yearly",
+          "subscriptionGroupID" : "4A1EC49F-9BAF-477D-BBAB-992E9490F68A",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
