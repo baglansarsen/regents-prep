@@ -60,7 +60,7 @@ export function usePowerUps() {
   async function handleRefillLives() {
     if (lives >= maxLives) return 'already_full'
     const ok = await refillLives(spendRP)
-    if (ok) Alert.alert('❤️ Lives Refilled!', 'All 5 lives restored.')
+    if (ok) Alert.alert('Energy recharged!', 'Your battery is back to 100%.')
     else    Alert.alert('Not enough RP', `You need 300 RP. You have ${rp} RP.`)
     return ok ? 'success' : 'insufficient_rp'
   }
@@ -94,14 +94,14 @@ export function usePowerUps() {
     },
     {
       key:        'lives',
-      icon:       '❤️',
-      name:       'Refill Hearts',
-      desc:       isSubscribed ? 'You have unlimited hearts with Premium!' : `Instantly restore all ${maxLives} lives.`,
+      icon:       '🔋',
+      name:       'Refill Energy',
+      desc:       isSubscribed ? 'You have unlimited energy with Premium!' : `Instantly recharge to 100% (${maxLives}/${maxLives}).`,
       cost:       300,
       accent:     '#FF5A5F',
       dark:       '#CC0000',
       owned:      isSubscribed || lives >= maxLives,
-      ownedLabel: isSubscribed ? '♾️ Unlimited' : '❤️ Full',
+      ownedLabel: isSubscribed ? '♾️ Unlimited' : '🔋 100%',
       canBuy:     !isSubscribed && lives < maxLives && rp >= 300,
       onBuy:      handleRefillLives,
     },

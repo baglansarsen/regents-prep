@@ -25,6 +25,12 @@ export function maxEnergyForSubject(subject) {
   return isMathSubject(subject) ? MATH_MAX_ENERGY : BASE_MAX_ENERGY
 }
 
+export function energyPercent(lives = 0, maxLives = BASE_MAX_ENERGY) {
+  if (!maxLives || maxLives <= 0) return 0
+  const clampedLives = Math.max(0, Math.min(lives, maxLives))
+  return Math.round((clampedLives / maxLives) * 100)
+}
+
 /**
  * Should a wrong answer spend energy (a life)?
  *

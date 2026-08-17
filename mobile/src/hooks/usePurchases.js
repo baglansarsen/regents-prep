@@ -213,7 +213,7 @@ export function usePurchases(uid) {
       const { customerInfo } = await Purchases.purchasePackage(pkg)
       const active = hasPremium(customerInfo)
       setIsSubscribed(active)
-      if (active) Alert.alert('Welcome to Premium! 💜', 'You now have unlimited hearts. Happy studying!')
+      if (active) Alert.alert('Welcome to Premium! 💜', 'You now have unlimited energy. Happy studying!')
       return active
     } catch (e) {
       if (!e.userCancelled) Alert.alert('Purchase Failed', e.message)
@@ -238,7 +238,7 @@ export function usePurchases(uid) {
       const { customerInfo } = await Purchases.purchasePackage(pkg)
       const active = hasPremium(customerInfo)
       setIsSubscribed(active)
-      if (active) Alert.alert('Welcome to Premium! 💜', 'Unlimited hearts through exam season. Go get that diploma!')
+      if (active) Alert.alert('Welcome to Premium! 💜', 'Unlimited energy through exam season. Go get that diploma!')
       return active
     } catch (e) {
       if (!e.userCancelled) Alert.alert('Purchase Failed', e.message)
@@ -263,7 +263,7 @@ export function usePurchases(uid) {
       const { customerInfo } = await Purchases.purchasePackage(pkg)
       const active = hasPremium(customerInfo)
       setIsSubscribed(active)
-      if (active) Alert.alert('Welcome to Premium! 💜', 'You now have unlimited hearts for a whole year!')
+      if (active) Alert.alert('Welcome to Premium! 💜', 'You now have unlimited energy for a whole year!')
       return active
     } catch (e) {
       if (!e.userCancelled) Alert.alert('Purchase Failed', e.message)

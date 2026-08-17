@@ -23,7 +23,7 @@ export const tourDoneKey = (uid) => `@tour_done_v1_${uid}`
 export const TOUR_STEPS = [
   { id: 'subject', placement: 'bottom', title: 'Subject & goal',   body: 'Tap here to switch subjects, set a target score, and watch your 🎯 predicted score climb as you study.' },
   { id: 'streak',  placement: 'bottom', title: 'Your streak',      body: 'Study every day to keep your 🔥 streak alive. Miss a day and a freeze can save it.' },
-  { id: 'lives',   placement: 'bottom', title: 'Energy',           body: 'A miss uses a bit of energy ❤️. It recharges over time — or go unlimited with Premium.' },
+  { id: 'lives',   placement: 'bottom', title: 'Energy',           body: 'A miss drains your battery a bit. It recharges over time — or go unlimited with Premium.' },
   { id: 'rp',      placement: 'bottom', title: 'Regents Points',   body: 'Earn ⭐ RP (Regents Points) for everything you do. Spend it on your pet, streak freezes, and power-ups.' },
   { id: null,      placement: 'center', title: "You're all set!",  body: 'Find quick practice and past exams in the Exams tab, your study buddy on the Home screen, and Progress, Social & Profile from the tabs below. Happy studying! 🚀' },
 ]

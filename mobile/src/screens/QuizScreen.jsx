@@ -25,6 +25,7 @@ import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
 import ReggieMascot from '../components/ReggieMascot'
 import AiGradeButton from '../components/AiGradeButton'
 import LivesRefillGate from '../components/LivesRefillGate'
+import EnergyBattery from '../components/EnergyBattery'
 import { shouldSpendEnergy } from '../utils/energy'
 import ReadAloudButton from '../components/ReadAloudButton'
 import { useStudyTime } from '../hooks/useStudyTime'
@@ -437,15 +438,15 @@ export default function QuizScreen({ route, navigation }) {
                   : `${(index / total) * 100}%`,
               }]} />
             </View>
-            {/* Hearts inline under progress bar — premium has unlimited (∞) */}
-            <View style={s.heartsRow}>
-              {isSubscribed ? (
-                <Text style={s.heart}>❤️ ∞</Text>
-              ) : (
-                Array.from({ length: maxLives }).map((_, i) => (
-                  <Text key={i} style={[s.heart, { opacity: i < lives ? 1 : 0.2 }]}>❤️</Text>
-                ))
-              )}
+            <View style={s.energyRow}>
+              <EnergyBattery
+                lives={lives}
+                maxLives={maxLives}
+                unlimited={isSubscribed}
+                C={C}
+                size="compact"
+                showLabel={false}
+              />
             </View>
           </View>
 
@@ -986,8 +987,7 @@ function makeStyles(C, insets) {
     progressFill:  { height: 14, backgroundColor: C.brand, borderRadius: 7 },
     topRightCol:   { flexDirection: 'row', alignItems: 'center', gap: 6 },
     scoreChip:     { flexDirection: 'row', alignItems: 'center', backgroundColor: C.surface2, borderRadius: 20, paddingHorizontal: 10, paddingVertical: 5 },
-    heartsRow:     { flexDirection: 'row', justifyContent: 'flex-start', gap: 3, marginTop: 6 },
-    heart:         { fontSize: 13 },
+    energyRow:     { flexDirection: 'row', justifyContent: 'flex-start', marginTop: 6 },
     scroll:        { paddingHorizontal: 16, paddingTop: 12, paddingBottom: 16 },
     questionCard:  { backgroundColor: C.surface, borderRadius: 20, padding: 18, marginBottom: 20, borderWidth: 1, borderColor: C.border, borderTopWidth: 3, borderTopColor: C.brand, shadowColor: C.shadow, shadowOffset: { width: 0, height: 3 }, shadowOpacity: 1, shadowRadius: 10, elevation: 5 },
     tutorHintBox: {

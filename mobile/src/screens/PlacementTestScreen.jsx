@@ -299,7 +299,7 @@ export default function PlacementTestScreen({ onComplete }) {
           <View style={[s.introCard, elevatedCard(C, { marginTop: 24 })]}>
             {[
               ['⚡', 'Takes about 2 minutes'],
-              ['❤️', 'No lives, no timer — just diagnostic'],
+              ['🔋', 'No energy drain, no timer — just diagnostic'],
               ['🔓', 'Topics you ace get unlocked instantly'],
             ].map(([icon, label]) => (
               <View key={label} style={s.introRow}>

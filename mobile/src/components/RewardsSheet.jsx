@@ -25,6 +25,7 @@ import { useDoubleRP }     from '../context/DoubleRPContext'
 import { useCountdown, formatCountdown as fmt } from '../hooks/useCountdown'
 import { T, duoBtn }       from '../styles/duo'
 import StreakCalendar      from './StreakCalendar'
+import EnergyBattery       from './EnergyBattery'
 
 // ── Shared sheet wrapper ──────────────────────────────────────────────────────
 function Sheet({ title, children, C, insets, onClose }) {
@@ -207,13 +208,10 @@ function LivesSection({ C, adReady, adLoading, showAd, onClose }) {
   const { lives, maxLives, nextRefillAt, refillLives, isSubscribed } = useLivesContext()
   const { rp, spendRP } = useRP(user?.uid)
   const secsUntilRefill = useCountdown(lives < maxLives ? nextRefillAt : null)
-  const energyText = maxLives > 5
-    ? `❤️ ${lives}/${maxLives}`
-    : `${'❤️'.repeat(lives)}${'🖤'.repeat(maxLives - lives)}`
 
   async function handleRefill() {
     const ok = await refillLives(spendRP)
-    if (ok) { Alert.alert('❤️ Recharged!', 'Your energy is fully restored.'); onClose?.() }
+    if (ok) { Alert.alert('Energy recharged!', 'Your battery is back to 100%.'); onClose?.() }
     else    Alert.alert('Not enough RP', `You need 300 RP. You have ${rp} RP.`)
   }
 
@@ -227,14 +225,16 @@ function LivesSection({ C, adReady, adLoading, showAd, onClose }) {
 
   return (
     <>
-      {/* Hearts */}
-      <Text style={[ss.heartsText, maxLives > 5 && ss.heartsTextCompact]}>
-        {energyText}
-      </Text>
+      <View style={ss.energyHero}>
+        <EnergyBattery lives={lives} maxLives={maxLives} C={C} showLabel={false} />
+        <Text style={[ss.energyCount, { color: C.text }]}>
+          {lives}/{maxLives}
+        </Text>
+      </View>
 
       <Text style={[T.body, { color: lives >= maxLives ? C.brand : C.textMuted, textAlign: 'center', marginBottom: 20 }]}>
         {lives >= maxLives
-          ? 'Energy full!'
+          ? 'Battery full!'
           : secsUntilRefill > 0
             ? `Next recharge in ${fmt(secsUntilRefill)}`
             : 'Recharging…'}
@@ -251,7 +251,7 @@ function LivesSection({ C, adReady, adLoading, showAd, onClose }) {
         onPress={handleRefill}
         activeOpacity={0.8}
       >
-        <Text style={[T.btn, { color: '#fff' }]}>❤️ Recharge All · 300 RP</Text>
+        <Text style={[T.btn, { color: '#fff' }]}>Recharge to 100% · 300 RP</Text>
       </TouchableOpacity>
 
       {/* Watch ad — always visible */}
@@ -266,7 +266,7 @@ function LivesSection({ C, adReady, adLoading, showAd, onClose }) {
         activeOpacity={0.8}
       >
         <Text style={[T.btn, { color: '#fff' }]}>
-          {adReady ? '▶ Watch Ad  +1 ❤️' : adLoading ? 'Ad loading…' : 'Ad unavailable'}
+          {adReady ? `▶ Watch Ad  +${Math.round(100 / maxLives)}%` : adLoading ? 'Ad loading…' : 'Ad unavailable'}
         </Text>
       </TouchableOpacity>
     </>
@@ -277,7 +277,7 @@ function LivesSection({ C, adReady, adLoading, showAd, onClose }) {
 const TITLES = {
   streak: '🔥 Streak',
   rp:     '⭐ Regents Points',
-  lives:  '❤️ Energy',
+  lives:  '🔋 Energy',
 }
 
 export default function RewardsSheet({ visible, focus, onClose, adReady, adLoading, showAd }) {
@@ -347,7 +347,16 @@ const ss = StyleSheet.create({
   powerInfo:  { flex: 1 },
   ownedBadge: { borderRadius: 10, borderWidth: 1.5, paddingHorizontal: 10, paddingVertical: 7, alignItems: 'center' },
 
-  // Lives
-  heartsText: { fontSize: 32, textAlign: 'center', marginBottom: 8, letterSpacing: 4 },
-  heartsTextCompact: { letterSpacing: 0 },
+  // Energy
+  energyHero: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 12,
+    marginBottom: 8,
+  },
+  energyCount: {
+    fontFamily: 'Fredoka_700Bold',
+    fontSize: 28,
+  },
 })

@@ -58,7 +58,7 @@ export default function LivesRefillGate({
         {/* Watch ad — full recharge (primary CTA) */}
         {adReady ? (
           <TouchableOpacity style={[s.btn, { backgroundColor: C.brand }]} onPress={onWatchAd} activeOpacity={0.85}>
-            <Text style={[T.btn, { color: '#fff' }]}>▶  Watch Ad  (full recharge ❤️)</Text>
+            <Text style={[T.btn, { color: '#fff' }]}>▶  Watch Ad  (full battery)</Text>
           </TouchableOpacity>
         ) : (
           <View style={[s.btn, { backgroundColor: C.surface2 }]}>

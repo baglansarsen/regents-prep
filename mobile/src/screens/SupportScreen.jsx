@@ -18,7 +18,7 @@ const GOLD        = '#F59E0B'
 const GOLD_DARK   = '#B45309'
 
 const FEATURES = [
-  '♾️  Unlimited hearts — never run out',
+  '♾️  Unlimited energy — never run out',
   '🚫  Ad-free — never watch ads to keep studying',
   '📚  Study without interruptions',
   '💜  Support a student-built app',
@@ -114,7 +114,7 @@ export default function SupportScreen({ navigation }) {
           <Text style={s.heroEmoji}>💜</Text>
           <Text style={[T.h1, { color: C.text, textAlign: 'center' }]}>Go Unlimited</Text>
           <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 6, lineHeight: 22 }]}>
-            Remove the heart limit and support{'\n'}a student-built app.
+            Remove the energy limit and support{'\n'}a student-built app.
           </Text>
         </View>
 
@@ -123,7 +123,7 @@ export default function SupportScreen({ navigation }) {
           <View style={[s.activeBanner, { backgroundColor: PURPLE_BG, borderColor: PURPLE + '55' }]}>
             <Text style={[T.h3, { color: PURPLE, textAlign: 'center' }]}>💜 Premium Active</Text>
             <Text style={[T.small, { color: PURPLE, textAlign: 'center', marginTop: 4 }]}>
-              You have unlimited hearts. Thank you for your support!
+              You have unlimited energy. Thank you for your support!
             </Text>
           </View>
         )}

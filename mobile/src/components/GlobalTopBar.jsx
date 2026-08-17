@@ -16,6 +16,7 @@ import { useTourTarget } from '../context/TourContext'
 import { T } from '../styles/duo'
 import RewardsSheet from './RewardsSheet'
 import SubjectSheet from './SubjectSheet'
+import EnergyBattery from './EnergyBattery'
 
 export default function GlobalTopBar() {
   const insets = useSafeAreaInsets()
@@ -39,9 +40,6 @@ export default function GlobalTopBar() {
   const { rp }                                           = useRP(uid)
   const { lives, maxLives, nextRefillAt, isSubscribed, addLife } = useLivesContext()
   const secsUntilRefill = useCountdown(lives < maxLives ? nextRefillAt : null)
-  const energyText = maxLives > 5
-    ? `❤️ ${lives}/${maxLives}`
-    : `${'❤️'.repeat(lives)}${'🖤'.repeat(maxLives - lives)}`
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
   const { ready: adReady, loading: adLoading, showAd } = useRewardedAd({ onReward: addLife })
 
@@ -111,7 +109,7 @@ export default function GlobalTopBar() {
           </Text>
         </TouchableOpacity>
 
-        {/* ❤️ Energy — taps open sheet focused on energy (unless subscribed/full) */}
+        {/* Energy — taps open sheet focused on recharge state */}
         {isSubscribed ? (
           <TouchableOpacity
             {...livesTarget}
@@ -121,7 +119,7 @@ export default function GlobalTopBar() {
             accessibilityLabel="Unlimited energy subscription active"
             accessibilityRole="button"
           >
-            <Text style={s.statText}>♾️ ❤️</Text>
+            <EnergyBattery unlimited light size="compact" showLabel={false} />
           </TouchableOpacity>
         ) : (
           <TouchableOpacity
@@ -133,10 +131,10 @@ export default function GlobalTopBar() {
             accessibilityRole="button"
             accessibilityHint={lives < maxLives ? 'Tap to recharge or watch an ad.' : 'Your energy is full. Tap to view.'}
           >
-            <Text style={s.statText}>
-              {energyText}
-              {lives < maxLives && secsUntilRefill > 0 ? `  ${formatSecs(secsUntilRefill)}` : ''}
-            </Text>
+            <EnergyBattery lives={lives} maxLives={maxLives} light size="compact" showLabel={false} />
+            {lives < maxLives && secsUntilRefill > 0 && (
+              <Text style={s.statText}>{formatSecs(secsUntilRefill)}</Text>
+            )}
           </TouchableOpacity>
         )}
 

@@ -16,6 +16,7 @@
 
 import {
   BASE_MAX_ENERGY,
+  energyPercent,
   MATH_MAX_ENERGY,
   isMathSubject,
   maxEnergyForSubject,
@@ -186,5 +187,15 @@ describe('maxEnergyForSubject', () => {
   test('math subject detection is explicit', () => {
     expect(isMathSubject('algebra-1')).toBe(true)
     expect(isMathSubject('chemistry')).toBe(false)
+  })
+})
+
+describe('energyPercent', () => {
+  test('formats battery energy as a clamped percentage', () => {
+    expect(energyPercent(5, 10)).toBe(50)
+    expect(energyPercent(3, 5)).toBe(60)
+    expect(energyPercent(12, 10)).toBe(100)
+    expect(energyPercent(-1, 5)).toBe(0)
+    expect(energyPercent(3, 0)).toBe(0)
   })
 })

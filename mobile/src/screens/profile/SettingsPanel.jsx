@@ -216,7 +216,7 @@ export default function SettingsPanel({ navigation }) {
           <Text style={{ fontSize: 28 }}>🛒</Text>
           <View style={{ marginLeft: 12 }}>
             <Text style={[T.h3, { color: C.text }]}>RP Shop</Text>
-            <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Freeze, hearts, boosts</Text>
+            <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>Freeze, energy, boosts</Text>
           </View>
         </View>
         <View style={s.rowRight}>
@@ -245,8 +245,8 @@ export default function SettingsPanel({ navigation }) {
               <Text style={[T.h3, { color: C.text }]}>{isSubscribed ? 'Premium Active' : 'Go Premium'}</Text>
               <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
                 {isSubscribed
-                  ? 'Unlimited hearts · tip the dev anytime'
-                  : 'No ads + unlimited hearts · support the app'}
+                  ? 'Unlimited energy · tip the dev anytime'
+                  : 'No ads + unlimited energy · support the app'}
               </Text>
             </View>
           </View>
