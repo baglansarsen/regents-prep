@@ -7,6 +7,24 @@
  * costs energy, so the policy is testable and can't drift between screens.
  */
 
+export const BASE_MAX_ENERGY = 5
+export const MATH_MAX_ENERGY = BASE_MAX_ENERGY * 2
+
+const MATH_SUBJECT_IDS = new Set([
+  'algebra-1',
+  'algebra-2',
+  'geometry',
+  'basic-math',
+])
+
+export function isMathSubject(subject) {
+  return MATH_SUBJECT_IDS.has(subject)
+}
+
+export function maxEnergyForSubject(subject) {
+  return isMathSubject(subject) ? MATH_MAX_ENERGY : BASE_MAX_ENERGY
+}
+
 /**
  * Should a wrong answer spend energy (a life)?
  *

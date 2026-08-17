@@ -10,11 +10,17 @@
  *   - refill not yet due → no change
  *   - one refill due → +1 life, timer advanced
  *   - multiple refills accrued → all granted up to MAX
- *   - always caps at MAX_LIVES (5)
+ *   - always caps at the non-math MAX_LIVES test fixture (5)
  *   - at max after catch-up → nextRefillAt cleared to null
  */
 
-import { shouldSpendEnergy } from '../utils/energy'
+import {
+  BASE_MAX_ENERGY,
+  MATH_MAX_ENERGY,
+  isMathSubject,
+  maxEnergyForSubject,
+  shouldSpendEnergy,
+} from '../utils/energy'
 
 const MAX_LIVES = 5
 const REFILL_MS = 30 * 60 * 1000 // 30 minutes
@@ -152,5 +158,28 @@ describe('shouldSpendEnergy', () => {
 
   test('both at once is still free', () => {
     expect(shouldSpendEnergy({ inRepeat: true, struggleMode: true })).toBe(false)
+  })
+})
+
+// ── Subject energy caps ─────────────────────────────────────────────────────
+
+describe('maxEnergyForSubject', () => {
+  test('math Regents subjects get double energy', () => {
+    expect(maxEnergyForSubject('algebra-1')).toBe(MATH_MAX_ENERGY)
+    expect(maxEnergyForSubject('algebra-2')).toBe(MATH_MAX_ENERGY)
+    expect(maxEnergyForSubject('geometry')).toBe(MATH_MAX_ENERGY)
+    expect(maxEnergyForSubject('basic-math')).toBe(MATH_MAX_ENERGY)
+    expect(MATH_MAX_ENERGY).toBe(BASE_MAX_ENERGY * 2)
+  })
+
+  test('non-math subjects keep the normal energy cap', () => {
+    expect(maxEnergyForSubject('living-environment')).toBe(BASE_MAX_ENERGY)
+    expect(maxEnergyForSubject('english')).toBe(BASE_MAX_ENERGY)
+    expect(maxEnergyForSubject(undefined)).toBe(BASE_MAX_ENERGY)
+  })
+
+  test('math subject detection is explicit', () => {
+    expect(isMathSubject('algebra-1')).toBe(true)
+    expect(isMathSubject('chemistry')).toBe(false)
   })
 })

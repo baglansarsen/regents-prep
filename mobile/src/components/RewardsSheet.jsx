@@ -207,6 +207,9 @@ function LivesSection({ C, adReady, adLoading, showAd, onClose }) {
   const { lives, maxLives, nextRefillAt, refillLives, isSubscribed } = useLivesContext()
   const { rp, spendRP } = useRP(user?.uid)
   const secsUntilRefill = useCountdown(lives < maxLives ? nextRefillAt : null)
+  const energyText = maxLives > 5
+    ? `❤️ ${lives}/${maxLives}`
+    : `${'❤️'.repeat(lives)}${'🖤'.repeat(maxLives - lives)}`
 
   async function handleRefill() {
     const ok = await refillLives(spendRP)
@@ -225,8 +228,8 @@ function LivesSection({ C, adReady, adLoading, showAd, onClose }) {
   return (
     <>
       {/* Hearts */}
-      <Text style={ss.heartsText}>
-        {'❤️'.repeat(lives)}{'🖤'.repeat(maxLives - lives)}
+      <Text style={[ss.heartsText, maxLives > 5 && ss.heartsTextCompact]}>
+        {energyText}
       </Text>
 
       <Text style={[T.body, { color: lives >= maxLives ? C.brand : C.textMuted, textAlign: 'center', marginBottom: 20 }]}>
@@ -346,4 +349,5 @@ const ss = StyleSheet.create({
 
   // Lives
   heartsText: { fontSize: 32, textAlign: 'center', marginBottom: 8, letterSpacing: 4 },
+  heartsTextCompact: { letterSpacing: 0 },
 })

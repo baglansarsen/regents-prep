@@ -39,6 +39,9 @@ export default function GlobalTopBar() {
   const { rp }                                           = useRP(uid)
   const { lives, maxLives, nextRefillAt, isSubscribed, addLife } = useLivesContext()
   const secsUntilRefill = useCountdown(lives < maxLives ? nextRefillAt : null)
+  const energyText = maxLives > 5
+    ? `❤️ ${lives}/${maxLives}`
+    : `${'❤️'.repeat(lives)}${'🖤'.repeat(maxLives - lives)}`
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
   const { ready: adReady, loading: adLoading, showAd } = useRewardedAd({ onReward: addLife })
 
@@ -131,7 +134,7 @@ export default function GlobalTopBar() {
             accessibilityHint={lives < maxLives ? 'Tap to recharge or watch an ad.' : 'Your energy is full. Tap to view.'}
           >
             <Text style={s.statText}>
-              {'❤️'.repeat(lives)}{'🖤'.repeat(maxLives - lives)}
+              {energyText}
               {lives < maxLives && secsUntilRefill > 0 ? `  ${formatSecs(secsUntilRefill)}` : ''}
             </Text>
           </TouchableOpacity>
