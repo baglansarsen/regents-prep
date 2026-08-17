@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd=$(jq -r '.tool_input.command // \"\"'); if echo \"$cmd\" | grep -qE 'deploy:(web|mobile|all)'; then echo '🧪 Running tests before deploy...' >&2; if ! (cd /Users/baglansarsen/regents-prep/mobile && npm test 2>&1); then echo '{\"continue\":false,\"stopReason\":\"Tests failed — deploy blocked. Fix failing tests before deploying.\"}'; fi; fi",
+            "timeout": 60,
+            "statusMessage": "Running tests before deploy..."
+          }
+        ]
+      }
+    ]
+  }
+}

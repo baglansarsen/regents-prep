@@ -39,3 +39,7 @@ Thumbs.db
 
 # git worktrees (deploy-chromebook.sh)
 .worktrees/
+
+# Generated / cached artifacts
+graphify-out/
+scripts/pdf_cache/
