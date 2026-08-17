@@ -11,6 +11,9 @@ import MasteryCelebration from '../components/MasteryCelebration'
 import ReggieMascot from '../components/ReggieMascot'
 import ShareCardSheet from '../components/ShareCardSheet'
 import { logEvent } from '../utils/analytics'
+import AsyncStorage from '@react-native-async-storage/async-storage'
+import { trapDoneKey } from '../utils/dailyTrap'
+import { localDateStr } from '../utils/localDate'
 import NudgeBanner from '../components/NudgeBanner'
 import { getEngagementNudge } from '../hooks/useEngagementNudge'
 import { shuffle } from '../utils/question'
@@ -87,6 +90,7 @@ export default function ResultsScreen({ route, navigation }) {
     challengeUnlocked = false, unlockedTopic = null,
     nextLessonMeta = null,
     sessionTime = 0,
+    isDailyTrap = false,
   } = route.params
   const { C } = useTheme()
   const { user } = useAuthContext()
@@ -150,7 +154,21 @@ export default function ResultsScreen({ route, navigation }) {
 
   const ringColor  = mastered ? C.correct : passed ? C.warn : C.wrong
   const ringDark   = mastered ? C.brandDark : passed ? '#B38500' : C.wrongDark
-  const statusLabel = mastered ? '🏆 Amazing!' : passed ? '✅ Great job!' : '📚 Keep going!'
+  // Daily Trap gets its own framing — a miss here is a WIN for exam day.
+  const trapDodged  = isDailyTrap && correct === total
+  const statusLabel = isDailyTrap
+    ? (trapDodged ? '🪤 You dodged the trap!' : '🛡 Good catch for exam day')
+    : mastered ? '🏆 Amazing!' : passed ? '✅ Great job!' : '📚 Keep going!'
+
+  // Record today's trap as solved (attempted) — keyed by uid + subject + local
+  // date so the Home card flips to "Solved today" until midnight.
+  useEffect(() => {
+    if (!isDailyTrap || !user?.uid) return
+    AsyncStorage.setItem(
+      trapDoneKey(user.uid, subject, localDateStr()),
+      trapDodged ? 'correct' : 'wrong',
+    ).catch(() => {})
+  }, [])
 
   const s = makeStyles(C)
 

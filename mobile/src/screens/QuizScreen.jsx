@@ -81,7 +81,7 @@ function comboInfo(streak) {
 }
 
 export default function QuizScreen({ route, navigation }) {
-  const { questionSet, topic, subject, lessonIndex, isChallenge, nextUnitTopic, nextLessonMeta } = route.params
+  const { questionSet, topic, subject, lessonIndex, isChallenge, nextUnitTopic, nextLessonMeta, isDailyTrap } = route.params
   const { C } = useTheme()
   const insets = useSafeAreaInsets()
   const { height: screenH } = useWindowDimensions()
@@ -152,8 +152,8 @@ export default function QuizScreen({ route, navigation }) {
     inRepeat, repeatTotal, repeatIndex,
   } = useQuiz(questionSet, {
     hint: !isChallenge,
-    repeat: !isChallenge,
-    getEasier: easyPool.length ? getEasier : null,
+    repeat: !isChallenge && !isDailyTrap,   // the trap is one-shot — no repeat round
+    getEasier: easyPool.length && !isDailyTrap ? getEasier : null,
   })
 
   const scrollRef  = useRef(null)
@@ -239,9 +239,9 @@ export default function QuizScreen({ route, navigation }) {
       } else {
         hapticWarning()
         playWrong()
-        // Misses are free during the repeat round and the adaptive confidence
-        // round — see shouldSpendEnergy for the policy (and its tests).
-        if (shouldSpendEnergy({ inRepeat, struggleMode })) loseLife()
+        // Misses are free during the repeat round, the adaptive confidence
+        // round, and the Daily Trap — see shouldSpendEnergy for the policy.
+        if (shouldSpendEnergy({ inRepeat, struggleMode, isDailyTrap })) loseLife()
         triggerReaction('sad')
         animatePetIncorrect()
       }
@@ -347,6 +347,7 @@ export default function QuizScreen({ route, navigation }) {
         lessonIndex, challengeUnlocked, unlockedTopic: nextUnitTopic ?? null,
         nextLessonMeta: nextLessonMeta ?? null,
         sessionTime: sessionSecs,
+        isDailyTrap: !!isDailyTrap,
       }
       // Finished the lesson at 0 hearts (free users): let them see the refill
       // gate before moving on, so they can ad/refill and keep going. The gate is

@@ -32,10 +32,12 @@ export function maxEnergyForSubject(subject) {
  *  - the end-of-lesson repeat round — it's pedagogical, not graded
  *  - adaptive struggle mode ("confidence round") — the student is already
  *    struggling; easier questions are served to rebuild, not to punish
+ *  - the Daily Regents Trap — it's designed to be missed; "good catch for
+ *    exam day" shouldn't cost anything
  *
  * Subscriber bypass is handled inside loseLife() itself (no-op when
  * subscribed) — callers don't need to check it here.
  */
-export function shouldSpendEnergy({ inRepeat = false, struggleMode = false } = {}) {
-  return !inRepeat && !struggleMode
+export function shouldSpendEnergy({ inRepeat = false, struggleMode = false, isDailyTrap = false } = {}) {
+  return !inRepeat && !struggleMode && !isDailyTrap
 }

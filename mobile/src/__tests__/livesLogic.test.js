@@ -159,6 +159,11 @@ describe('shouldSpendEnergy', () => {
   test('both at once is still free', () => {
     expect(shouldSpendEnergy({ inRepeat: true, struggleMode: true })).toBe(false)
   })
+
+  test('the Daily Regents Trap is free — a miss is the point', () => {
+    expect(shouldSpendEnergy({ isDailyTrap: true })).toBe(false)
+    expect(shouldSpendEnergy({ isDailyTrap: false })).toBe(true)
+  })
 })
 
 // ── Subject energy caps ─────────────────────────────────────────────────────

@@ -56,6 +56,8 @@ import { usePredictedScore } from '../hooks/usePredictedScore'
 import { pickSmartQuest } from '../utils/smartQuest'
 import { pickTodayMission } from '../utils/todayMission'
 import { pickRescueAction } from '../utils/rescuePlan'
+import { useDailyTrap } from '../hooks/useDailyTrap'
+import { trapHookFor } from '../utils/dailyTrap'
 import { tierFor } from '../data/goalConfig'
 
 const MILESTONE_GIFTS = {
@@ -107,6 +109,7 @@ export default function HomeScreen({ navigation }) {
 
   const { history, historyLoaded, reloadHistory } = useProgress(uid)
   const { weekDays, streak, studiedToday, studiedDates, hasFreeze, buyFreeze } = useDailyStreak(uid)
+  const { trapQuestion, done: trapDone, refresh: refreshTrap } = useDailyTrap(uid, subject, sd.questions)
   const { rp, earnRP, spendRP, loaded: rpLoaded } = useRP(uid)
   const { lives, maxLives, nextRefillAt, refillLives, grantFullRefill } = useLivesContext()
   const { isSubscribed, isConfigured, presentPaywall } = useSubscription()
@@ -186,6 +189,7 @@ export default function HomeScreen({ navigation }) {
     reloadHistory()
     reloadSkipUnlocks()
     reloadStudyTime()   // reflect study/quiz time logged on other screens
+    refreshTrap()       // flip the Daily Trap card after it's played
     if (PETS_ENABLED && pendingEvolution) navigation.navigate('PetEvolution')
 
     // Refresh quest data (goal-aware when a smart quest applies)
@@ -221,7 +225,7 @@ export default function HomeScreen({ navigation }) {
       daysUntilExam: daysToExam,
       subject,
     }).then((msg) => { if (msg) say(msg) }).catch(() => {})
-  }, [reloadHistory, reloadSkipUnlocks, pendingEvolution, uid, streak, smartQuestDef]))
+  }, [reloadHistory, reloadSkipUnlocks, refreshTrap, pendingEvolution, uid, streak, smartQuestDef]))
 
   const { goal, setGoal, todayRP, progress: goalProgress, goalMet, GOALS, celebrated, markCelebrated } = useDailyGoal(rp, rpLoaded)
 
@@ -776,6 +780,44 @@ export default function HomeScreen({ navigation }) {
               <Text style={[T.btn, { color: '#fff' }]}>{mission.cta}</Text>
             </TouchableOpacity>
           </View>
+        )}
+
+        {/* ── Daily Regents Trap — one tricky question a day, misses are free ── */}
+        {trapQuestion && (
+          <TouchableOpacity
+            style={[s.trapCard, elevatedCard(C), trapDone && { opacity: 0.75 }]}
+            onPress={() => {
+              if (trapDone) return
+              navigation.navigate('Quiz', {
+                questionSet: [trapQuestion],
+                topic: trapQuestion.topic ?? null,
+                subject,
+                isDailyTrap: true,
+              })
+            }}
+            activeOpacity={trapDone ? 1 : 0.85}
+            disabled={!!trapDone}
+          >
+            <Text style={s.trapIcon}>🪤</Text>
+            <View style={{ flex: 1, marginLeft: 10 }}>
+              <Text style={[T.h3, { color: C.text }]} numberOfLines={1}>Daily Regents Trap</Text>
+              <Text style={[T.small, { color: C.textMuted }]} numberOfLines={2}>
+                {trapDone
+                  ? (trapDone === 'correct' ? 'You dodged the trap 🎉' : 'Good catch for exam day 🛡')
+                  : trapHookFor(subject)}
+              </Text>
+            </View>
+            <View style={[
+              s.trapPill,
+              trapDone
+                ? { backgroundColor: C.correct + '18', borderColor: C.correct + '50' }
+                : { backgroundColor: C.brand, borderColor: C.brandDark },
+            ]}>
+              <Text style={[T.label, { color: trapDone ? C.correct : '#fff', textTransform: 'none', letterSpacing: 0 }]}>
+                {trapDone ? '✓ Solved today' : 'Try it'}
+              </Text>
+            </View>
+          </TouchableOpacity>
         )}
 
         {/* Streak-at-risk freeze banner */}
@@ -1566,6 +1608,22 @@ function makeStyles(C) {
       marginHorizontal: 16,
       marginBottom:    14,
       padding:         16,
+    },
+    trapCard: {
+      flexDirection:     'row',
+      alignItems:        'center',
+      marginHorizontal:  16,
+      marginBottom:      14,
+      paddingVertical:   12,
+      paddingHorizontal: 14,
+    },
+    trapIcon: { fontSize: 26 },
+    trapPill: {
+      borderRadius:      12,
+      borderWidth:       1,
+      paddingHorizontal: 12,
+      paddingVertical:   7,
+      marginLeft:        8,
     },
     missionHeader: {
       flexDirection: 'row',
