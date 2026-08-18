@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState, useCallback, useMemo } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView,
   Animated, StyleSheet, Image, TextInput, Keyboard, ActivityIndicator, Modal,
-  useWindowDimensions, KeyboardAvoidingView, Platform,
+  useWindowDimensions, KeyboardAvoidingView, Platform, Alert,
 } from 'react-native'
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
@@ -94,7 +94,7 @@ export default function QuizScreen({ route, navigation }) {
   const { rpMultiplier }           = useDoubleRP()
   const { markStudied }          = useDailyStreak(uid)
   const { rp, earnRP, spendRP }  = useRP(uid)
-  const { lives, maxLives, nextRefillAt, loseLife, refillLives, grantFullRefill } = useLivesContext()
+  const { lives, maxLives, nextRefillAt, loseLife, refillLives, grantFullRefill, refillCost } = useLivesContext()
   const { ready: adReady, showAd } = useRewardedAd({ onReward: grantFullRefill })
   const { checkAndEvolve, triggerReaction, updateQuestProgress, getPetMessage, studyBoost, pet } = usePetContext()
   const { say } = useSpeechContext()
@@ -707,7 +707,10 @@ export default function QuizScreen({ route, navigation }) {
           nextRefillAt={nextRefillAt}
           adReady={adReady}
           onWatchAd={showAd}
-          onRefill={() => refillLives(spendRP)}
+          onRefill={async () => {
+            const ok = await refillLives(spendRP)
+            if (!ok) Alert.alert('Not enough RP', `You need ${refillCost} RP to recharge. Keep studying to earn more!`)
+          }}
           showPremium={isConfigured && !isSubscribed}
           onGoPremium={presentPaywall}
           onDismiss={() => { const p = endGateParams; setEndGateParams(null); navigation.replace('Results', p) }}

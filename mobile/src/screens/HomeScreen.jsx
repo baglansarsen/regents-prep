@@ -113,7 +113,7 @@ export default function HomeScreen({ navigation }) {
   const { weekDays, streak, studiedToday, studiedDates, hasFreeze, buyFreeze } = useDailyStreak(uid)
   const { trapQuestion, done: trapDone, refresh: refreshTrap } = useDailyTrap(uid, subject, sd.questions)
   const { rp, earnRP, spendRP, loaded: rpLoaded } = useRP(uid)
-  const { lives, maxLives, nextRefillAt, refillLives, grantFullRefill } = useLivesContext()
+  const { lives, maxLives, nextRefillAt, refillLives, grantFullRefill, refillCost } = useLivesContext()
   const { isSubscribed, isConfigured, presentPaywall } = useSubscription()
   const { ready: adReady, showAd } = useRewardedAd({ onReward: grantFullRefill })
   const [pendingProceed, setPendingProceed] = useState(null)   // callback held while the lesson-start refill gate shows
@@ -1505,7 +1505,10 @@ export default function HomeScreen({ navigation }) {
           nextRefillAt={nextRefillAt}
           adReady={adReady}
           onWatchAd={showAd}
-          onRefill={() => refillLives(spendRP)}
+          onRefill={async () => {
+            const ok = await refillLives(spendRP)
+            if (!ok) Alert.alert('Not enough RP', `You need ${refillCost} RP to recharge. Keep studying to earn more!`)
+          }}
           showPremium={isConfigured && !isSubscribed}
           onGoPremium={presentPaywall}
           onDismiss={() => setPendingProceed(null)}

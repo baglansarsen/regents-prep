@@ -28,6 +28,18 @@ import { logActivity } from '../utils/activityLogger'
 
 const asKey = (uid) => `@regentsGoal_v1_${uid}`
 
+// Firestore's getDoc() never settles on its own when the network is unreachable
+// and nothing is cached yet — it just hangs, which used to leave `loaded` stuck
+// at false forever (every goal-dependent screen blanks out with no error state).
+// Race it against a timeout so the AsyncStorage fallback always gets a turn.
+const GOAL_FETCH_TIMEOUT_MS = 6000
+function withTimeout(promise, ms) {
+  return Promise.race([
+    promise,
+    new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), ms)),
+  ])
+}
+
 const GoalContext = createContext(null)
 
 export function GoalProvider({ children }) {
@@ -47,7 +59,7 @@ export function GoalProvider({ children }) {
     ;(async () => {
       let data = null
       try {
-        const snap = await getDoc(doc(db, 'users', uid, 'meta', 'goals'))
+        const snap = await withTimeout(getDoc(doc(db, 'users', uid, 'meta', 'goals')), GOAL_FETCH_TIMEOUT_MS)
         if (snap.exists()) data = snap.data()
       } catch {}
       if (!data) {
