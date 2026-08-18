@@ -730,6 +730,12 @@ const COACH_RUNGS = [
   { key: 'explanation', label: 'FULL EXPLANATION', icon: '💡' },
 ]
 
+// Rungs a free student gets: the nudge and the method — the two that teach
+// without handing over the answer. A ladder nobody can start isn't a ladder,
+// and a student who can be unstuck by a hint shouldn't need a subscription to
+// get one. The worked first step and the full explanation stay premium.
+const FREE_RUNGS = 2
+
 function UnderstandThisBlock({ question, isCorrect, selected, correctIdx, say, C, isSubscribed, isConfigured, onUpgrade, coach = true, onMistakeTyped }) {
   const [showDeep, setShowDeep] = useState(false)
   const [revealed, setRevealed] = useState(1)   // rungs shown; 1 = nudge only
@@ -740,7 +746,10 @@ function UnderstandThisBlock({ question, isCorrect, selected, correctIdx, say, C
 
   // Only rungs the response actually carries — a result cached before the
   // ladder shipped has no firstStep, and an empty rung would strand the student.
-  const rungs = COACH_RUNGS.filter((r) => !!data?.[r.key])
+  const allRungs = COACH_RUNGS.filter((r) => !!data?.[r.key])
+  const rungs = isSubscribed ? allRungs : allRungs.slice(0, FREE_RUNGS)
+  // Only a genuine wall — not "there was nothing more to show anyway".
+  const atFreeLimit = !isSubscribed && revealed >= rungs.length && allRungs.length > rungs.length
   const mistake = mistakeLabelOf(data?.mistakeType)
 
   const askCoach = async () => {
@@ -798,7 +807,10 @@ function UnderstandThisBlock({ question, isCorrect, selected, correctIdx, say, C
         )
       ) : null}
 
-      {/* AI Coach — premium. Result reveals inline; the pet voices the nudge.
+      {/* AI Coach — open to everyone; the ladder is what's metered. Free
+          students climb the nudge and the method, then hit the upsell for the
+          worked first step and the full explanation. One call serves the whole
+          ladder either way, so upgrading reveals what's already loaded.
           Suppressed for the written capstone, which has its own AiGradeButton. */}
       {!coach ? null : data ? (
         <View style={{ padding: 12, borderRadius: 12, backgroundColor: C.bg, gap: 10 }}>
@@ -827,7 +839,27 @@ function UnderstandThisBlock({ question, isCorrect, selected, correctIdx, say, C
             </View>
           ))}
 
-          {revealed < rungs.length ? (
+          {atFreeLimit ? (
+            // Free students get the two rungs that teach without giving the
+            // answer away; the worked first step and full explanation are the
+            // upsell. The remaining rungs are already in `data` — we simply
+            // don't render them, so unlocking costs no extra call.
+            <TouchableOpacity
+              onPress={() => {
+                if (isConfigured && onUpgrade) onUpgrade()
+                else say('💜 The full explanation is a Premium feature — unlock Premium in your Profile.')
+              }}
+              activeOpacity={0.85}
+              style={{
+                paddingVertical: 11, borderRadius: 12, borderWidth: 1.5, borderColor: C.purple,
+                alignItems: 'center', backgroundColor: C.purple + '12',
+              }}
+            >
+              <Text style={[T.btn, { color: C.purple, fontSize: 14 }]}>
+                💜 Unlock the first step + full explanation
+              </Text>
+            </TouchableOpacity>
+          ) : revealed < rungs.length ? (
             <TouchableOpacity
               onPress={() => setRevealed((n) => n + 1)}
               activeOpacity={0.75}
@@ -838,25 +870,15 @@ function UnderstandThisBlock({ question, isCorrect, selected, correctIdx, say, C
               }}
             >
               <Text style={[T.label, { color: C.brand, textTransform: 'none', letterSpacing: 0, fontSize: 13 }]}>
-                {revealed === rungs.length - 1 ? 'Show me the full explanation' : 'Still stuck — more help'}
+                {/* Name the rung the tap actually reveals — for a free student
+                    the last available rung is the method, not the answer. */}
+                {rungs[revealed]?.key === 'explanation'
+                  ? 'Show me the full explanation'
+                  : 'Still stuck — more help'}
               </Text>
             </TouchableOpacity>
           ) : null}
         </View>
-      ) : !isSubscribed ? (
-        <TouchableOpacity
-          onPress={() => {
-            if (isConfigured && onUpgrade) onUpgrade()
-            else say('💜 AI explanations are a Premium feature — unlock Premium in your Profile.')
-          }}
-          style={{
-            paddingVertical: 12, borderRadius: 12, borderWidth: 1.5, borderColor: C.purple,
-            alignItems: 'center', flexDirection: 'row', justifyContent: 'center', gap: 8,
-            backgroundColor: C.purple + '12',
-          }}
-        >
-          <Text style={[T.btn, { color: C.purple }]}>💜 Unlock AI explanations with Premium</Text>
-        </TouchableOpacity>
       ) : (
         <TouchableOpacity
           onPress={askCoach}
