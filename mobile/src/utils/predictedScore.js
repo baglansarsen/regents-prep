@@ -11,6 +11,7 @@
  */
 
 import { getScaledScore } from './examScoring'
+import { MASTERY_MIN, PASSING_PCT } from './studyConstants'
 
 // A topic the student has never attempted isn't a 0 — on a real MC exam,
 // partial knowledge + elimination puts a floor well above zero. Treat
@@ -116,6 +117,83 @@ export function smoothPrediction(prev, raw, todayStr) {
   }
   const step = Math.min(5, Math.max(-3, raw - prev.value))
   return { value: prev.value + step, date: todayStr }
+}
+
+// ── Per-topic confidence ─────────────────────────────────────────────────────
+
+/** Attempts before a tier is trustworthy — one lucky quiz isn't "Ready". */
+const CONFIDENCE_MIN_ATTEMPTS = 2
+/** A topic untouched this long has decayed a full tier. */
+const STALE_DAYS = 21
+
+export const CONFIDENCE_TIERS = {
+  weak:     { key: 'weak',     label: 'Weak',     emoji: '🔴', color: '#FF5A5F' },
+  building: { key: 'building', label: 'Building', emoji: '🟡', color: '#FF9600' },
+  ready:    { key: 'ready',    label: 'Ready',    emoji: '🟢', color: '#1FC36B' },
+}
+
+/**
+ * How confident a student should feel about a topic — Weak / Building / Ready.
+ *
+ * This deliberately does NOT reuse the `pct` in topicBreakdown, which is
+ * `Math.max()` of every past attempt: a best-ever score that never decays and
+ * ignores the bad runs around it. As a mastery display that flatters; as a
+ * confidence signal it's actively misleading — a topic aced once in September
+ * and missed every time since still reads 100%.
+ *
+ * Instead it blends three things the student would recognise as evidence:
+ *   accuracy — recency-weighted mean of attempts (newest weighted highest)
+ *   volume   — one attempt can't earn "Ready", however good it was
+ *   recency  — untouched topics decay toward "Building", then "Weak"
+ *
+ * Rows carry a Firestore `timestamp` (written on every quiz, and — until now —
+ * never read). Optimistic rows written this session have none; they're the
+ * newest thing there is, so they're treated as today.
+ *
+ * @param {Array<{pct:number, timestamp?:any}>} rows  attempts for ONE topic
+ * @param {number} now  ms epoch (injectable for tests)
+ * @returns {{ tier:string, label:string, emoji:string, color:string,
+ *             score:number|null, attempts:number, daysSince:number|null }}
+ */
+export function topicConfidence(rows = [], now = Date.now()) {
+  const parsed = rows
+    .map((r) => {
+      const t = r?.timestamp
+      const d = t?.toDate ? t.toDate() : t ? new Date(t) : null
+      const ms = d && !Number.isNaN(d.getTime()) ? d.getTime() : now
+      return { pct: Math.max(0, Math.min(100, r?.pct ?? 0)), ms }
+    })
+    .sort((a, b) => a.ms - b.ms)   // oldest → newest
+
+  if (!parsed.length) {
+    return { ...CONFIDENCE_TIERS.weak, tier: 'weak', score: null, attempts: 0, daysSince: null }
+  }
+
+  // Recency weighting: each older attempt counts half as much as the one after
+  // it, so a recent run of misses outweighs an old good score without erasing
+  // history entirely.
+  let weight = 1
+  let weighted = 0
+  let total = 0
+  for (let i = parsed.length - 1; i >= 0; i--) {
+    weighted += parsed[i].pct * weight
+    total += weight
+    weight /= 2
+  }
+  const accuracy = weighted / total
+
+  const daysSince = Math.max(0, Math.floor((now - parsed[parsed.length - 1].ms) / 86_400_000))
+  // Full credit for a fresh topic, sliding to zero at STALE_DAYS.
+  const freshness = Math.max(0, 1 - daysSince / STALE_DAYS)
+  const score = Math.round(accuracy * (0.75 + 0.25 * freshness))
+
+  const enoughAttempts = parsed.length >= CONFIDENCE_MIN_ATTEMPTS
+  let tier
+  if (score >= MASTERY_MIN && enoughAttempts && daysSince < STALE_DAYS) tier = 'ready'
+  else if (score >= PASSING_PCT) tier = 'building'
+  else tier = 'weak'
+
+  return { ...CONFIDENCE_TIERS[tier], tier, score, attempts: parsed.length, daysSince }
 }
 
 /** The unit with the lowest effective mastery (unattempted counts lowest). */

@@ -17,6 +17,7 @@ import { computeAchievements } from '../../utils/achievements'
 import { REGENTS_EXAMS } from '../../content/regents-exams/index'
 import { tierFor } from '../../data/goalConfig'
 import { daysUntilExam } from '../../utils/examDates'
+import { topicConfidence } from '../../utils/predictedScore'
 import { T, cardShadow, duoBtn } from '../../styles/duo'
 import GoalRing from '../../components/GoalRing'
 import StreakCalendar from '../../components/StreakCalendar'
@@ -281,9 +282,11 @@ export default function ProgressPanel({ navigation }) {
       </Text>
       {topicBreakdown.map(({ topic, title, pct, attempts }) => {
         const started = attempts > 0 && pct !== null
-        const mastered = isMastered(topic, subject)
-        const passing  = started && pct >= 65
-        const barColor = !started ? C.surface3 : mastered ? C.correct : passing ? C.warn : C.wrong
+        // Weak / Building / Ready from recency-weighted accuracy, not the
+        // best-ever pct — see topicConfidence(). The bar still shows pct so the
+        // raw number stays available; the tier is what the student should act on.
+        const conf = started ? topicConfidence(subjectHistory.filter((h) => h.topic === topic)) : null
+        const barColor = !started ? C.surface3 : conf.color
         return (
           <View key={topic} style={[s.topicCard, cardShadow(C.shadow)]}>
             <Text style={{ fontSize: 22 }}>{sd.TOPIC_ICONS?.[topic] ?? '📖'}</Text>
@@ -291,12 +294,17 @@ export default function ProgressPanel({ navigation }) {
               <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginBottom: 6 }}>
                 <Text style={[T.small, { color: C.text, flex: 1 }]} numberOfLines={1}>{title}</Text>
                 <Text style={[T.label, { color: started ? barColor : C.textDim, textTransform: 'none', letterSpacing: 0 }]}>
-                  {started ? `${pct}%` : 'Not started'}
+                  {started ? `${conf.emoji} ${conf.label}` : 'Not started'}
                 </Text>
               </View>
               <View style={s.barBg}>
                 <View style={[s.barFill, { width: started ? `${Math.min(pct, 100)}%` : '0%', backgroundColor: barColor }]} />
               </View>
+              {started && conf.daysSince >= 14 ? (
+                <Text style={[T.small, { color: C.textDim, fontSize: 11, marginTop: 4 }]}>
+                  Not practiced in {conf.daysSince} days
+                </Text>
+              ) : null}
             </View>
           </View>
         )
