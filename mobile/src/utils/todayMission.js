@@ -140,3 +140,141 @@ export function pickTodayMission({
     estimatedMinutes: 5,
   }
 }
+
+// ── Today's Pass Plan ────────────────────────────────────────────────────────
+
+const PLAN_ICONS = {
+  ...ICONS,
+  drill_set:   '🎯',
+  flashcards:  '🃏',
+  study_notes: '📖',
+}
+
+/** Free, energy-exempt work — what to offer when the tank is empty. */
+const RECOVERY_ACTIONS = new Set(['flashcards', 'study_notes', 'review_mistakes'])
+
+function task(over) {
+  return {
+    icon: PLAN_ICONS[over.actionType] ?? '•',
+    topic: null,
+    estimatedMinutes: 5,
+    ...over,
+  }
+}
+
+/**
+ * Build the day's plan: up to three concrete tasks instead of one, headlined by
+ * the score gap so the work is visibly attached to the outcome the student
+ * cares about ("+8 points to reach 75").
+ *
+ * Composition — one of each, so the day mixes recall, instruction, and practice:
+ *   ① fix     — the weakest skill or the queued mistakes
+ *   ② learn   — the next lesson, or notes when energy is low
+ *   ③ practice— a short question set
+ *
+ * Energy shapes the OFFER, not the gate: at `recover` the plan only proposes
+ * work that costs nothing, so a student at zero energy is never handed a task
+ * that dead-ends in a refill sheet.
+ *
+ * Pure — no storage, no navigation. HomeScreen maps actionType → runMission.
+ *
+ * @param {number|null} predicted  — current predicted scaled score
+ * @param {number|null} target     — the committed goal score
+ * @param {'recover'|'steady'|'push'} band — from energyBand()
+ * @param {number} setSize         — questions in the practice set
+ * @returns {{ pointsToGo:number|null, headline:string, tasks:Array }}
+ */
+export function buildTodayPlan({
+  hasGoal              = false,
+  coldStart            = false,
+  daysToExam           = null,
+  hasTakenPracticeExam = false,
+  dueCount             = 0,
+  weakestUnit          = null,
+  nextLessonTopic      = null,
+  predicted            = null,
+  target               = null,
+  band                 = 'steady',
+  setSize              = 5,
+} = {}) {
+  const lead = pickTodayMission({ hasGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestUnit })
+
+  // Before a goal or any data exists there is no plan to build — the single
+  // onboarding action IS the plan, and inventing two more would be noise.
+  if (lead.actionType === 'set_goal' || lead.actionType === 'checkup') {
+    return { pointsToGo: null, headline: lead.title, tasks: [task(lead)], lead }
+  }
+
+  const pointsToGo = predicted != null && target != null ? Math.max(0, Math.round(target - predicted)) : null
+  const headline =
+    pointsToGo == null ? 'Your plan for today'
+    : pointsToGo === 0 ? `You're at ${target} — hold it there`
+    : `You need +${pointsToGo} to reach ${target}`
+
+  const recovering = band === 'recover'
+  const tasks = []
+
+  // ① Fix — queued mistakes first (they're free and already diagnosed), else
+  //    drill the weakest attempted topic.
+  if (dueCount > 0) {
+    tasks.push(task({
+      id: 'plan_review', actionType: 'review_mistakes',
+      title: 'Clear your gaps',
+      subtitle: `${dueCount} ${dueCount === 1 ? 'item' : 'items'} due — the fastest points you'll get.`,
+      cta: 'Review', estimatedMinutes: 8,
+    }))
+  } else if (weakestUnit?.topic) {
+    tasks.push(task({
+      id: `plan_weak_${weakestUnit.topic}`,
+      actionType: recovering ? 'flashcards' : 'weak_unit_quiz',
+      title: recovering ? `Flashcards: ${weakestUnit.title}` : `Drill ${weakestUnit.title}`,
+      subtitle: recovering
+        ? 'Low energy — recall practice costs nothing and still counts.'
+        : 'Your weakest topic — the single biggest score mover.',
+      cta: recovering ? 'Practice' : 'Drill it',
+      topic: weakestUnit.topic, estimatedMinutes: 8,
+    }))
+  }
+
+  // ② Learn — one piece of new instruction, or notes if energy is low.
+  tasks.push(task({
+    id: recovering ? 'plan_study' : 'plan_lesson',
+    actionType: recovering ? 'study_notes' : 'next_lesson',
+    title: recovering ? 'Read one concept' : 'One mini lesson',
+    subtitle: recovering
+      ? 'No energy needed — build the idea now, drill it when you recharge.'
+      : 'Keep the learning path moving.',
+    cta: recovering ? 'Read' : 'Start',
+    topic: nextLessonTopic, estimatedMinutes: 6,
+  }))
+
+  // ③ Practice — a short set to convert the day's work into retrieval.
+  //    Skipped entirely while recovering; it would hit the energy gate.
+  if (!recovering) {
+    tasks.push(task({
+      id: 'plan_set', actionType: 'drill_set',
+      title: `${setSize}-question set`,
+      subtitle: band === 'push'
+        ? 'Full tank — mixed questions under exam conditions.'
+        : 'A quick mixed set to lock in today.',
+      cta: 'Practice', topic: weakestUnit?.topic ?? null, estimatedMinutes: 6,
+    }))
+  }
+
+  // Never propose the same action twice (e.g. weak-topic drill + set on the
+  // same topic reads as one task listed twice).
+  const seen = new Set()
+  const deduped = tasks.filter((t) => {
+    const k = `${t.actionType}:${t.topic ?? ''}`
+    if (seen.has(k)) return false
+    seen.add(k)
+    return true
+  })
+
+  return { pointsToGo, headline, tasks: deduped.slice(0, 3), lead }
+}
+
+/** True when an action can run with an empty energy tank. */
+export function isEnergyFree(actionType) {
+  return RECOVERY_ACTIONS.has(actionType)
+}

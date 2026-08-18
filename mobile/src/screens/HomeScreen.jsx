@@ -54,8 +54,10 @@ import { PETS_ENABLED } from '../config/features'
 import { useGoal } from '../context/GoalContext'
 import { usePredictedScore } from '../hooks/usePredictedScore'
 import { pickSmartQuest } from '../utils/smartQuest'
-import { pickTodayMission } from '../utils/todayMission'
+import { pickTodayMission, buildTodayPlan } from '../utils/todayMission'
+import { energyBand } from '../utils/energy'
 import { pickRescueAction } from '../utils/rescuePlan'
+import { mistakeLabelOf } from '../utils/reviewQueue'
 import { useDailyTrap } from '../hooks/useDailyTrap'
 import { trapHookFor } from '../utils/dailyTrap'
 import { tierFor } from '../data/goalConfig'
@@ -123,7 +125,19 @@ export default function HomeScreen({ navigation }) {
   )
 
   const { lessonComplete, unitLessonsCompleted, unitComplete } = useLessonProgress(subjectHistory)
-  const { mistakesByTopic, dueCount, getReviewSet } = useMistakes(subject)
+  const { mistakesByTopic, dueCount, dueMistakes, getReviewSet } = useMistakes(subject)
+
+  // The most common way this student is currently going wrong, when the coach
+  // has classified enough of the queue to say. Turns "5 items due" into a
+  // direction rather than a chore.
+  const topMistakeType = useMemo(() => {
+    const counts = {}
+    for (const e of dueMistakes ?? []) {
+      if (e.mistakeType) counts[e.mistakeType] = (counts[e.mistakeType] ?? 0) + 1
+    }
+    const [top] = Object.entries(counts).sort((a, b) => b[1] - a[1])
+    return top ? mistakeLabelOf(top[0]) : null
+  }, [dueMistakes])
   const units = sd.UNITS ?? []
   const { isUnitUnlocked, unitUnlockHint, reloadSkipUnlocks } = useUnitUnlocks(units, lessonComplete, unitComplete, subject)
   // Declared before the focus effect below — it reads pendingEvolution in its
@@ -185,6 +199,28 @@ export default function HomeScreen({ navigation }) {
     }
     return base
   }, [regentsGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestAttemptedUnit])
+
+  // Energy read as pacing, not as a gate — see energyBand().
+  const pacing = useMemo(
+    () => energyBand(lives, maxLives, isSubscribed),
+    [lives, maxLives, isSubscribed],
+  )
+
+  // Today's Pass Plan — three concrete tasks headlined by the score gap.
+  // Rescue Plan keeps its single-action card: inside 30 days of the exam the
+  // point is ruthless focus, and offering three things works against that.
+  const rescueActive = mission?.rescue === true
+  const todayPlan = useMemo(() => buildTodayPlan({
+    hasGoal:              !!regentsGoal,
+    coldStart,
+    daysToExam,
+    hasTakenPracticeExam,
+    dueCount,
+    weakestUnit:          weakestAttemptedUnit,
+    predicted,
+    target:               regentsGoal?.target ?? null,
+    band:                 pacing,
+  }), [regentsGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestAttemptedUnit, predicted, pacing])
   useFocusEffect(useCallback(() => {
     reloadHistory()
     reloadSkipUnlocks()
@@ -529,7 +565,16 @@ export default function HomeScreen({ navigation }) {
   // or cross-topic for the Review card. Pads a thin single-topic set with fresh
   // same-topic questions to confirm mastery.
   function startReview(topic = null) {
-    let pool = getReviewSet({ subject, topic, daysToExam: goalDaysToExam, limit: 15 })
+    // similarPool lets the queue swap an already-recovered item for a sibling
+    // question (same topic, ±1 difficulty) so the retry tests the skill, not
+    // recall of one item. Answering it still resolves the original entry.
+    let pool = getReviewSet({
+      subject,
+      topic,
+      daysToExam: goalDaysToExam,
+      limit: 15,
+      similarPool: topic ? (sd.getByTopic(topic) ?? []) : sd.questions,
+    })
     if (topic && pool.length < 6) {
       const seen = new Set(pool.map((q) => q.id ?? q.text))
       const extra = shuffle(sd.getByTopic(topic) ?? []).filter((q) => !seen.has(q.id ?? q.text)).slice(0, 6 - pool.length)
@@ -575,6 +620,18 @@ export default function HomeScreen({ navigation }) {
         break
       case 'weak_unit_quiz':
         startQuiz(m.topic)
+        break
+      // ── Pass Plan additions ──
+      case 'drill_set':
+        // Short mixed set — the day's retrieval practice.
+        startQuiz(m.topic, { limit: 5 })
+        break
+      case 'flashcards':
+        // Energy-free recall practice; the plan offers this at low energy.
+        navigation.navigate('Flashcards', { subject, topic: m.topic ?? null })
+        break
+      case 'study_notes':
+        startStudy(m.topic ?? null)
         break
       case 'next_lesson':
       default:
@@ -752,10 +809,48 @@ export default function HomeScreen({ navigation }) {
 
         {/* Week streak moved to the top bar — tap the 🔥 there for the full calendar */}
 
-        {/* ── Today's Mission — single prioritized next action.
-             Waits for quiz history too: acting on the empty initial history
-             would misread a veteran as cold-start and offer the wrong mission. ── */}
-        {goalLoaded && historyLoaded && (
+        {/* ── Today's Pass Plan — the score gap plus the three things that close
+             it. Rescue Plan (inside 30 days) keeps the single-action card below;
+             so does onboarding, where one action IS the plan. Waits for quiz
+             history too: acting on the empty initial history would misread a
+             veteran as cold-start and offer the wrong work. ── */}
+        {goalLoaded && historyLoaded && !rescueActive && todayPlan.tasks.length > 1 && (
+          <View style={[s.missionCard, elevatedCard(C)]}>
+            <Text style={[T.label, { color: C.brand, marginBottom: 2 }]}>TODAY'S PASS PLAN</Text>
+            <Text style={[T.h3, { color: C.text }]}>{todayPlan.headline}</Text>
+            <Text style={[T.small, { color: C.textMuted, marginTop: 2, marginBottom: 12 }]}>
+              {todayPlan.tasks.length} things today
+              {pacing === 'recover' ? ' · low energy, so these are free' : ''}
+              {pacing === 'push' ? ' · full tank' : ''}
+            </Text>
+
+            {todayPlan.tasks.map((t, i) => (
+              <TouchableOpacity
+                key={t.id}
+                onPress={() => runMission(t)}
+                activeOpacity={0.8}
+                style={{
+                  flexDirection: 'row', alignItems: 'center', gap: 12,
+                  paddingVertical: 10,
+                  borderTopWidth: i === 0 ? 0 : 1, borderTopColor: C.border + '55',
+                }}
+              >
+                <Text style={{ fontSize: 22 }}>{t.icon}</Text>
+                <View style={{ flex: 1 }}>
+                  <Text style={[T.body, { color: C.text, fontWeight: '700' }]} numberOfLines={1}>{t.title}</Text>
+                  <Text style={[T.small, { color: C.textMuted, marginTop: 1 }]} numberOfLines={2}>{t.subtitle}</Text>
+                </View>
+                <View style={{ alignItems: 'flex-end', gap: 3 }}>
+                  <Text style={[T.small, { color: C.textDim, fontSize: 11 }]}>~{t.estimatedMinutes}m</Text>
+                  <Text style={[T.btn, { color: C.brand, fontSize: 13 }]}>{t.cta} ›</Text>
+                </View>
+              </TouchableOpacity>
+            ))}
+          </View>
+        )}
+
+        {/* ── Single-action card — onboarding steps and Rescue Plan focus ── */}
+        {goalLoaded && historyLoaded && (rescueActive || todayPlan.tasks.length <= 1) && (
           <View style={[s.missionCard, elevatedCard(C)]}>
             <View style={s.missionHeader}>
               <Text style={s.missionIcon}>{mission.icon}</Text>
@@ -863,6 +958,11 @@ export default function HomeScreen({ navigation }) {
                 {dueCount} {dueCount === 1 ? 'item' : 'items'} due
                 {goalDaysToExam != null && goalDaysToExam <= 14 ? ` · exam in ${goalDaysToExam}d` : ''}
               </Text>
+              {topMistakeType ? (
+                <Text style={[T.small, { color: C.textDim, marginTop: 2 }]}>
+                  {topMistakeType.icon} Mostly {topMistakeType.label.toLowerCase()} — {topMistakeType.hint.toLowerCase()}
+                </Text>
+              ) : null}
             </View>
             <Text style={[T.btn, { color: C.brand }]}>REVIEW ›</Text>
           </TouchableOpacity>

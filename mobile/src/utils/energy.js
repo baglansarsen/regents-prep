@@ -32,6 +32,33 @@ export function energyPercent(lives = 0, maxLives = BASE_MAX_ENERGY) {
 }
 
 /**
+ * Energy as a PACING signal rather than a paywall.
+ *
+ * Energy already gates quizzes, so a student who is out of it gets an ad/refill
+ * sheet where a task should be. Reading the same number as a band lets the day's
+ * plan offer work that fits: review and flashcards cost nothing, so they're the
+ * right suggestion at low energy; a challenge or a past exam suits a full tank.
+ *
+ * Thresholds match the battery fill colors in components/EnergyBattery.jsx, so
+ * the recommendation always agrees with what the student sees in the top bar.
+ *
+ *   'recover' — ≤20% (red): free, no-risk work only
+ *   'steady'  — ≤50% (amber): normal lessons and short quizzes
+ *   'push'    — otherwise (green): the demanding stuff
+ *
+ * Subscribers have unlimited energy, so the band would always read 'push' and
+ * stop meaning anything — they get 'steady', the neutral default, and their
+ * plan is driven by the other signals instead.
+ */
+export function energyBand(lives = 0, maxLives = BASE_MAX_ENERGY, isSubscribed = false) {
+  if (isSubscribed) return 'steady'
+  const pct = energyPercent(lives, maxLives)
+  if (pct <= 20) return 'recover'
+  if (pct <= 50) return 'steady'
+  return 'push'
+}
+
+/**
  * Should a wrong answer spend energy (a life)?
  *
  * Free (no energy spent):
