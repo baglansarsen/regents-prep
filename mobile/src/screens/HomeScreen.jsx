@@ -21,7 +21,7 @@ import { useLessonProgress } from '../hooks/useLessonProgress'
 import { useMistakes } from '../hooks/useMistakes'
 import { useUnitUnlocks } from '../hooks/useUnitUnlocks'
 import { useFocusEffect } from '@react-navigation/native'
-import { localDateStr, yesterdayStr } from '../utils/localDate'
+import { localDateStr, yesterdayStr, toLocalDateStr } from '../utils/localDate'
 import { shuffle } from '../utils/question'
 import { SUBJECTS } from '../content/subjects'
 import * as leData from '../content/living-environment/index'
@@ -54,10 +54,10 @@ import { PETS_ENABLED } from '../config/features'
 import { useGoal } from '../context/GoalContext'
 import { usePredictedScore } from '../hooks/usePredictedScore'
 import { pickSmartQuest } from '../utils/smartQuest'
-import { pickTodayMission, buildTodayPlan } from '../utils/todayMission'
+import { pickTodayMission, buildTodayPlan, planProgress } from '../utils/todayMission'
 import { energyBand } from '../utils/energy'
 import { pickRescueAction } from '../utils/rescuePlan'
-import { mistakeLabelOf } from '../utils/reviewQueue'
+import { mistakeLabelOf, stickiestTopicOf } from '../utils/reviewQueue'
 import { useDailyTrap } from '../hooks/useDailyTrap'
 import { trapHookFor } from '../utils/dailyTrap'
 import { tierFor } from '../data/goalConfig'
@@ -125,7 +125,14 @@ export default function HomeScreen({ navigation }) {
   )
 
   const { lessonComplete, unitLessonsCompleted, unitComplete } = useLessonProgress(subjectHistory)
-  const { mistakesByTopic, dueCount, dueMistakes, getReviewSet } = useMistakes(subject)
+  const { mistakes, mistakesByTopic, dueCount, dueMistakes, getReviewSet } = useMistakes(subject)
+
+  // The topic that keeps catching this student out — repeated misses, as
+  // opposed to weakestAttemptedUnit's best-ever percentage.
+  const stickiestTopic = useMemo(
+    () => stickiestTopicOf(mistakes.filter((e) => e.subject === subject)),
+    [mistakes, subject],
+  )
 
   // The most common way this student is currently going wrong, when the coach
   // has classified enough of the queue to say. Turns "5 items due" into a
@@ -170,7 +177,8 @@ export default function HomeScreen({ navigation }) {
     studiedYesterday: studiedDates.includes(yesterdayStr()),
     hasTakenPracticeExam,
     weakestUnit: weakestAttemptedUnit,
-  }), [regentsGoal, coldStart, daysToExam, subject, studiedDates, hasTakenPracticeExam, weakestAttemptedUnit])
+    stickiestTopic,
+  }), [regentsGoal, coldStart, daysToExam, subject, studiedDates, hasTakenPracticeExam, weakestAttemptedUnit, stickiestTopic])
 
   // ── Today's Mission — single highest-priority action ───────────────────────
   // With a Rescue Plan set and the exam ≤30 days out, the plan's daily
@@ -221,6 +229,24 @@ export default function HomeScreen({ navigation }) {
     target:               regentsGoal?.target ?? null,
     band:                 pacing,
   }), [regentsGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestAttemptedUnit, predicted, pacing])
+
+  // What the student has actually finished today, derived from recorded work
+  // (see planProgress) rather than from tapping a task.
+  const planDone = useMemo(() => {
+    const today = localDateStr()
+    const todays = subjectHistory.filter((h) => {
+      // Optimistic rows written this session have no server timestamp yet —
+      // they are, by definition, from today.
+      if (!h.timestamp) return true
+      const d = h.timestamp?.toDate ? h.timestamp.toDate() : new Date(h.timestamp)
+      return Number.isNaN(d?.getTime?.()) ? true : toLocalDateStr(d) === today
+    })
+    return planProgress(todayPlan.tasks, {
+      topicsQuizzedToday: todays.map((h) => h.topic ?? ''),
+      lessonDoneToday:    todays.some((h) => h.lessonIndex != null),
+      dueCount,
+    })
+  }, [subjectHistory, todayPlan, dueCount])
   useFocusEffect(useCallback(() => {
     reloadHistory()
     reloadSkipUnlocks()
@@ -819,33 +845,51 @@ export default function HomeScreen({ navigation }) {
             <Text style={[T.label, { color: C.brand, marginBottom: 2 }]}>TODAY'S PASS PLAN</Text>
             <Text style={[T.h3, { color: C.text }]}>{todayPlan.headline}</Text>
             <Text style={[T.small, { color: C.textMuted, marginTop: 2, marginBottom: 12 }]}>
-              {todayPlan.tasks.length} things today
+              {planDone.done > 0
+                ? `${planDone.done} of ${planDone.total} done today`
+                : `${todayPlan.tasks.length} things today`}
               {pacing === 'recover' ? ' · low energy, so these are free' : ''}
               {pacing === 'push' ? ' · full tank' : ''}
             </Text>
 
-            {todayPlan.tasks.map((t, i) => (
-              <TouchableOpacity
-                key={t.id}
-                onPress={() => runMission(t)}
-                activeOpacity={0.8}
-                style={{
-                  flexDirection: 'row', alignItems: 'center', gap: 12,
-                  paddingVertical: 10,
-                  borderTopWidth: i === 0 ? 0 : 1, borderTopColor: C.border + '55',
-                }}
-              >
-                <Text style={{ fontSize: 22 }}>{t.icon}</Text>
-                <View style={{ flex: 1 }}>
-                  <Text style={[T.body, { color: C.text, fontWeight: '700' }]} numberOfLines={1}>{t.title}</Text>
-                  <Text style={[T.small, { color: C.textMuted, marginTop: 1 }]} numberOfLines={2}>{t.subtitle}</Text>
-                </View>
-                <View style={{ alignItems: 'flex-end', gap: 3 }}>
-                  <Text style={[T.small, { color: C.textDim, fontSize: 11 }]}>~{t.estimatedMinutes}m</Text>
-                  <Text style={[T.btn, { color: C.brand, fontSize: 13 }]}>{t.cta} ›</Text>
-                </View>
-              </TouchableOpacity>
-            ))}
+            {todayPlan.tasks.map((t, i) => {
+              const done = planDone.doneIds.has(t.id)
+              return (
+                <TouchableOpacity
+                  key={t.id}
+                  onPress={() => runMission(t)}
+                  activeOpacity={0.8}
+                  style={{
+                    flexDirection: 'row', alignItems: 'center', gap: 12,
+                    paddingVertical: 10,
+                    borderTopWidth: i === 0 ? 0 : 1, borderTopColor: C.border + '55',
+                    opacity: done ? 0.6 : 1,
+                  }}
+                >
+                  <Text style={{ fontSize: 22 }}>{done ? '✅' : t.icon}</Text>
+                  <View style={{ flex: 1 }}>
+                    <Text
+                      style={[T.body, {
+                        color: C.text, fontWeight: '700',
+                        textDecorationLine: done ? 'line-through' : 'none',
+                      }]}
+                      numberOfLines={1}
+                    >
+                      {t.title}
+                    </Text>
+                    <Text style={[T.small, { color: C.textMuted, marginTop: 1 }]} numberOfLines={2}>
+                      {done ? 'Done today — tap to go again' : t.subtitle}
+                    </Text>
+                  </View>
+                  <View style={{ alignItems: 'flex-end', gap: 3 }}>
+                    <Text style={[T.small, { color: C.textDim, fontSize: 11 }]}>~{t.estimatedMinutes}m</Text>
+                    <Text style={[T.btn, { color: done ? C.textDim : C.brand, fontSize: 13 }]}>
+                      {done ? 'Again ›' : `${t.cta} ›`}
+                    </Text>
+                  </View>
+                </TouchableOpacity>
+              )
+            })}
           </View>
         )}
 

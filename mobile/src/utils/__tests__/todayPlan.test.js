@@ -1,4 +1,4 @@
-import { buildTodayPlan, isEnergyFree } from '../todayMission'
+import { buildTodayPlan, isEnergyFree, planProgress } from '../todayMission'
 import { energyBand } from '../energy'
 
 const base = {
@@ -92,5 +92,47 @@ describe('buildTodayPlan', () => {
 
   it('still exposes the single lead mission for callers that want one action', () => {
     expect(buildTodayPlan({ ...base, dueCount: 4 }).lead.actionType).toBe('review_mistakes')
+  })
+})
+
+describe('planProgress', () => {
+  const tasks = [
+    { id: 'r', actionType: 'review_mistakes' },
+    { id: 'l', actionType: 'next_lesson' },
+    { id: 's', actionType: 'drill_set' },
+    { id: 'w', actionType: 'weak_unit_quiz', topic: 'algebra' },
+    { id: 'f', actionType: 'flashcards' },
+  ]
+
+  it('marks review done only once the queue is empty', () => {
+    expect(planProgress(tasks, { dueCount: 3 }).doneIds.has('r')).toBe(false)
+    expect(planProgress(tasks, { dueCount: 0 }).doneIds.has('r')).toBe(true)
+  })
+
+  it('marks a weak-topic drill done only for that topic', () => {
+    expect(planProgress(tasks, { topicsQuizzedToday: ['geometry'] }).doneIds.has('w')).toBe(false)
+    expect(planProgress(tasks, { topicsQuizzedToday: ['algebra'] }).doneIds.has('w')).toBe(true)
+  })
+
+  it('marks the practice set done after any quiz today', () => {
+    expect(planProgress(tasks, { topicsQuizzedToday: [] }).doneIds.has('s')).toBe(false)
+    expect(planProgress(tasks, { topicsQuizzedToday: ['anything'] }).doneIds.has('s')).toBe(true)
+  })
+
+  it('marks the lesson done from a lesson-linked result', () => {
+    expect(planProgress(tasks, { lessonDoneToday: true }).doneIds.has('l')).toBe(true)
+  })
+
+  it('never marks actions with no completion signal', () => {
+    const all = planProgress(tasks, {
+      dueCount: 0, lessonDoneToday: true, topicsQuizzedToday: ['algebra'],
+    })
+    expect(all.doneIds.has('f')).toBe(false)   // flashcards leave no trace
+    expect(all.done).toBe(4)
+    expect(all.total).toBe(5)
+  })
+
+  it('counts nothing on an empty day', () => {
+    expect(planProgress(tasks, { dueCount: 2 }).done).toBe(0)
   })
 })

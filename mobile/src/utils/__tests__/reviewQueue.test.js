@@ -1,5 +1,5 @@
 import {
-  findSimilar, buildReviewSet, questionKey, mistakeLabelOf, MISTAKE_TYPES,
+  findSimilar, buildReviewSet, questionKey, mistakeLabelOf, MISTAKE_TYPES, stickiestTopicOf,
 } from '../reviewQueue'
 
 // Difficulty comes from difficultyOf(): explicit `difficulty` wins, so these
@@ -109,5 +109,33 @@ describe('mistake labels', () => {
     expect(mistakeLabelOf(undefined)).toBeNull()
     expect(mistakeLabelOf('not_a_type')).toBeNull()
     expect(mistakeLabelOf('careless').label).toBe('Careless slip')
+  })
+})
+
+describe('stickiestTopicOf', () => {
+  const e = (topic, wrongCount, over = {}) => ({ topic, wrongCount, ...over })
+
+  it('returns the topic with the most total misses', () => {
+    const top = stickiestTopicOf([e('algebra', 2), e('geometry', 4), e('algebra', 2)])
+    expect(top.topic).toBe('algebra')   // 4 total, tie broken by first seen
+    expect(top.misses).toBe(4)
+  })
+
+  it('stays quiet below the threshold — one bad day is not a pattern', () => {
+    expect(stickiestTopicOf([e('algebra', 1), e('geometry', 1)])).toBeNull()
+    expect(stickiestTopicOf([e('algebra', 3)]).topic).toBe('algebra')
+  })
+
+  it('counts an entry with no wrongCount as one miss', () => {
+    expect(stickiestTopicOf([{ topic: 'algebra' }, { topic: 'algebra' }, { topic: 'algebra' }]).misses).toBe(3)
+  })
+
+  it('ignores entries with no topic', () => {
+    expect(stickiestTopicOf([{ wrongCount: 9 }])).toBeNull()
+  })
+
+  it('handles an empty queue', () => {
+    expect(stickiestTopicOf([])).toBeNull()
+    expect(stickiestTopicOf()).toBeNull()
   })
 })

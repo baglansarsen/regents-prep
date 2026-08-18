@@ -121,6 +121,37 @@ export function findSimilar(question, pool = [], { exclude = new Set(), limit = 
     .map(({ q }) => q)
 }
 
+/**
+ * The topic the student keeps getting wrong, by total misses across the queue.
+ *
+ * This is direct evidence, unlike the "weakest unit" used elsewhere, which is
+ * the MAX of past quiz percentages — a best-ever score that never decays and
+ * says nothing about a topic being missed over and over.
+ *
+ * Returns null below `minMisses`, so one bad day doesn't get treated as a
+ * pattern.
+ */
+export function stickiestTopicOf(entries = [], { minMisses = 3 } = {}) {
+  const totals = new Map()
+  for (const e of entries) {
+    const topic = e?.topic
+    if (!topic) continue
+    const misses = Number.isFinite(e.wrongCount) ? e.wrongCount : 1
+    const prev = totals.get(topic)
+    totals.set(topic, {
+      topic,
+      title: prev?.title ?? e.subTopic ?? topic,
+      misses: (prev?.misses ?? 0) + misses,
+    })
+  }
+
+  let best = null
+  for (const t of totals.values()) {
+    if (!best || t.misses > best.misses) best = t
+  }
+  return best && best.misses >= minMisses ? best : null
+}
+
 function clamp(n, lo, hi) { return Math.max(lo, Math.min(hi, n)) }
 
 /**

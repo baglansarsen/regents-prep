@@ -20,6 +20,9 @@ import { PRACTICE_EXAM_WINDOW_DAYS } from './studyConstants'
  * @param {boolean} args.studiedYesterday
  * @param {boolean} args.hasTakenPracticeExam  any exam score recorded for this subject
  * @param {{topic:string, title:string}|null} args.weakestUnit  weakest ATTEMPTED unit
+ * @param {{topic:string, title:string, misses:number}|null} args.stickiestTopic
+ *   the topic with the most queued misses (stickiestTopicOf) — evidence of a
+ *   repeated problem, unlike weakestUnit's best-ever percentage
  * @returns {object|null} quest def, or null → fall back to the standard rotation
  */
 export function pickSmartQuest({
@@ -30,6 +33,7 @@ export function pickSmartQuest({
   studiedYesterday = true,
   hasTakenPracticeExam = false,
   weakestUnit = null,
+  stickiestTopic = null,
 } = {}) {
   if (!hasGoal) return null
 
@@ -71,7 +75,18 @@ export function pickSmartQuest({
     }
   }
 
-  // ④ Weekday — chip away at the weakest topic.
+  // ④ A topic they keep missing outranks the "weakest" one. weakestUnit is the
+  //    MAX of past quiz percentages — a best-ever score that never decays —
+  //    whereas repeated misses are the student telling us directly.
+  if (stickiestTopic?.topic) {
+    return {
+      id: `sticky_${stickiestTopic.topic}`, icon: '🩹', action: 'complete_quiz_topic',
+      topic: stickiestTopic.topic, goal: 1, rp: 35,
+      label: `${stickiestTopic.title ?? 'This topic'} keeps catching you — take it on`,
+    }
+  }
+
+  // ⑤ Weekday — chip away at the weakest topic.
   if (weakestUnit?.topic) {
     return {
       id: `focus_${weakestUnit.topic}`, icon: '🎯', action: 'complete_quiz_topic',
@@ -80,6 +95,6 @@ export function pickSmartQuest({
     }
   }
 
-  // ⑤ Nothing smarter to say — use the regular rotation.
+  // ⑥ Nothing smarter to say — use the regular rotation.
   return null
 }

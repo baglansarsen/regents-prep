@@ -278,3 +278,49 @@ export function buildTodayPlan({
 export function isEnergyFree(actionType) {
   return RECOVERY_ACTIONS.has(actionType)
 }
+
+/**
+ * Which of today's tasks are already done.
+ *
+ * DERIVED, deliberately — not a checklist the app writes when you tap a task.
+ * Launching something isn't finishing it, and a stored "done" flag would drift
+ * from reality the first time a student backs out of a quiz. Everything here is
+ * read from work the student actually completed today.
+ *
+ *   topicsQuizzedToday — topics with a quiz result recorded today ('' for mixed)
+ *   lessonDoneToday    — a lesson-linked quiz was completed today
+ *   dueCount           — items still due in the mistake queue (0 ⇒ gaps cleared)
+ *
+ * Actions with no completion signal (flashcards, reading, a 90-minute practice
+ * exam that spans sessions) are intentionally never marked done rather than
+ * guessed at — a false checkmark is worse than none.
+ *
+ * @returns {{ doneIds: Set<string>, done: number, total: number }}
+ */
+export function planProgress(tasks = [], { topicsQuizzedToday = [], lessonDoneToday = false, dueCount = 0 } = {}) {
+  const quizzed = new Set(topicsQuizzedToday)
+  const anyQuizToday = quizzed.size > 0
+  const doneIds = new Set()
+
+  for (const t of tasks) {
+    switch (t.actionType) {
+      case 'review_mistakes':
+        if (dueCount === 0) doneIds.add(t.id)
+        break
+      case 'weak_unit_quiz':
+        if (t.topic && quizzed.has(t.topic)) doneIds.add(t.id)
+        break
+      case 'drill_set':
+      case 'checkup':
+        if (anyQuizToday) doneIds.add(t.id)
+        break
+      case 'next_lesson':
+        if (lessonDoneToday) doneIds.add(t.id)
+        break
+      default:
+        break   // no reliable signal — leave unmarked
+    }
+  }
+
+  return { doneIds, done: doneIds.size, total: tasks.length }
+}
