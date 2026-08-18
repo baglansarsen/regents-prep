@@ -49,9 +49,15 @@ export default function AppNavigator() {
       return
     }
     if (user.isAnonymous) {
+      // Guests still need subject + goal onboarding — skipping it silently leaves them
+      // on the Living Environment default (SubjectContext.js), the wrong course for
+      // most students. School stays skipped: it writes leaderboard/{uid}, and throwaway
+      // guest accounts shouldn't land on school leaderboards. They get asked on convert.
       setPetChosen(true)
-      setSubjectChosen(true)
-      setSchoolChosen(true)   // anonymous users skip all pickers
+      setSchoolChosen(true)
+      AsyncStorage.getItem(subjectChosenKey(user.uid))
+        .then((v) => setSubjectChosen(!!v))
+        .catch(() => setSubjectChosen(false))
       return
     }
     async function checkFlags() {
@@ -93,9 +99,7 @@ export default function AppNavigator() {
   const isLoading =
     (loading && !user) ||
     themeChosen === null ||
-    (!!user && !user.isAnonymous && (
-      petChosen === null || subjectChosen === null || schoolChosen === null
-    ))
+    (!!user && (petChosen === null || subjectChosen === null || schoolChosen === null))
 
   const [forceLoad, setForceLoad] = useState(false)
 
