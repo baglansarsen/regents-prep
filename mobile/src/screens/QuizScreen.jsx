@@ -27,6 +27,7 @@ import AiGradeButton from '../components/AiGradeButton'
 import LivesRefillGate from '../components/LivesRefillGate'
 import EnergyBattery from '../components/EnergyBattery'
 import { shouldSpendEnergy } from '../utils/energy'
+import { mistakeLabelOf, questionKey } from '../utils/reviewQueue'
 import ReadAloudButton from '../components/ReadAloudButton'
 import { useStudyTime } from '../hooks/useStudyTime'
 import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
@@ -115,6 +116,14 @@ export default function QuizScreen({ route, navigation }) {
 
   // ── Study time session tracking ───────────────────────────────────────────
   const sessionSecondsRef = useRef(0)
+
+  // questionKey → mistakeType, collected from the coach during feedback and
+  // applied when the queue is written at the end of the lesson. A ref (not
+  // state) because nothing renders from it and it must not re-run the quiz.
+  const mistakeTypesRef = useRef({})
+  const noteMistakeType = useCallback((question, type) => {
+    mistakeTypesRef.current[questionKey(question)] = type
+  }, [])
 
   const handleMilestone = useCallback((milestone) => {
     setBuddyMessage(milestone.message)
@@ -305,7 +314,14 @@ export default function QuizScreen({ route, navigation }) {
       // read 0/N), but a hinted answer is shaky mastery — it still belongs in
       // Smart Review so it resurfaces. (graded only, so the choice-less written
       // question is never re-queued into a MC-only mode.)
-      const wrongQs = graded.filter((r) => !r.correct || r.recovered).map((r) => r.question)
+      // Carry any coach classification onto the queued entry, so Smart Review
+      // can say *how* it went wrong rather than only that it did.
+      const wrongQs = graded
+        .filter((r) => !r.correct || r.recovered)
+        .map((r) => {
+          const type = mistakeTypesRef.current[questionKey(r.question)]
+          return type ? { ...r.question, mistakeType: type } : r.question
+        })
       appendMistakes(wrongQs, subject)
       // Self-clearing review queue: a clean (un-hinted) correct answer advances/
       // retires the item; hint-recovered answers are NOT resolved away.
@@ -648,6 +664,7 @@ export default function QuizScreen({ route, navigation }) {
               isSubscribed={isSubscribed}
               isConfigured={isConfigured}
               onUpgrade={presentPaywall}
+              onMistakeTyped={noteMistakeType}
             />
           ) : <View style={{ height: 16 }} />}
           </ScrollView>
@@ -704,17 +721,35 @@ export default function QuizScreen({ route, navigation }) {
 // the free Dive Deeper expandable, and the premium AI Coach. Shown on BOTH
 // correct and incorrect; the coach adapts: "Why was I wrong?" (mistake mode)
 // vs "Go deeper on this concept" (concept mode). ────────────────────────────────
-function UnderstandThisBlock({ question, isCorrect, selected, correctIdx, say, C, isSubscribed, isConfigured, onUpgrade, coach = true }) {
+// The Socratic ladder, in reveal order. The tutor returns all of these at once;
+// the student climbs only as far as they need.
+const COACH_RUNGS = [
+  { key: 'nudge',       label: 'NUDGE',            icon: '💭' },
+  { key: 'method',      label: 'HOW TO APPROACH',  icon: '🧭' },
+  { key: 'firstStep',   label: 'FIRST STEP',       icon: '👣' },
+  { key: 'explanation', label: 'FULL EXPLANATION', icon: '💡' },
+]
+
+function UnderstandThisBlock({ question, isCorrect, selected, correctIdx, say, C, isSubscribed, isConfigured, onUpgrade, coach = true, onMistakeTyped }) {
   const [showDeep, setShowDeep] = useState(false)
+  const [revealed, setRevealed] = useState(1)   // rungs shown; 1 = nudge only
   const { loading, data, error, explain } = useTutor()
 
   const hasExplain = !!question.explanation
   const coachLabel = isCorrect ? '🔍 Go deeper on this concept' : '🤔 Why was I wrong?'
 
+  // Only rungs the response actually carries — a result cached before the
+  // ladder shipped has no firstStep, and an empty rung would strand the student.
+  const rungs = COACH_RUNGS.filter((r) => !!data?.[r.key])
+  const mistake = mistakeLabelOf(data?.mistakeType)
+
   const askCoach = async () => {
     const res = isCorrect
       ? await explain(question, correctIdx, { mode: 'concept' })
       : await explain(question, selected)
+    setRevealed(1)
+    // Hand the classification up so the miss files under a type in Smart Review.
+    if (res?.mistakeType) onMistakeTyped?.(question, res.mistakeType)
     if (res?.nudge) say(`🤔 ${res.nudge}`)
     else if (!res) say('Hmm, I couldn’t load that explanation — try again in a moment.')
   }
@@ -766,11 +801,46 @@ function UnderstandThisBlock({ question, isCorrect, selected, correctIdx, say, C
       {/* AI Coach — premium. Result reveals inline; the pet voices the nudge.
           Suppressed for the written capstone, which has its own AiGradeButton. */}
       {!coach ? null : data ? (
-        <View style={{ padding: 12, borderRadius: 12, backgroundColor: C.bg }}>
-          <Text style={[T.label, { color: C.brand, marginBottom: 6 }]}>🤔 Coach</Text>
-          <Text style={[T.body, { color: C.text, marginBottom: data.method ? 8 : 0 }]}>{data.explanation}</Text>
-          {data.method ? (
-            <Text style={[T.body, { color: C.textDim, fontStyle: 'italic' }]}>{data.method}</Text>
+        <View style={{ padding: 12, borderRadius: 12, backgroundColor: C.bg, gap: 10 }}>
+          <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+            <Text style={[T.label, { color: C.brand }]}>🤔 Coach</Text>
+            {mistake ? (
+              <View style={{
+                flexDirection: 'row', alignItems: 'center', gap: 4,
+                backgroundColor: C.brand + '18', borderRadius: 8,
+                paddingHorizontal: 8, paddingVertical: 3,
+              }}>
+                <Text style={{ fontSize: 11 }}>{mistake.icon}</Text>
+                <Text style={[T.label, { color: C.brand, fontSize: 11, letterSpacing: 0 }]}>{mistake.label}</Text>
+              </View>
+            ) : null}
+          </View>
+
+          {/* One rung at a time — the student stops as soon as they can finish
+              it themselves. Every rung is already in `data`; advancing is free. */}
+          {rungs.slice(0, revealed).map((r) => (
+            <View key={r.key} style={{ gap: 3 }}>
+              <Text style={[T.label, { color: C.textDim, fontSize: 11, letterSpacing: 1 }]}>
+                {r.icon}  {r.label}
+              </Text>
+              <Text style={[T.body, { color: C.text, lineHeight: 22 }]}>{data[r.key]}</Text>
+            </View>
+          ))}
+
+          {revealed < rungs.length ? (
+            <TouchableOpacity
+              onPress={() => setRevealed((n) => n + 1)}
+              activeOpacity={0.75}
+              style={{
+                alignSelf: 'flex-start', flexDirection: 'row', alignItems: 'center', gap: 6,
+                borderWidth: 1, borderColor: C.brand + '55', backgroundColor: C.brand + '18',
+                borderRadius: 8, paddingHorizontal: 12, paddingVertical: 7,
+              }}
+            >
+              <Text style={[T.label, { color: C.brand, textTransform: 'none', letterSpacing: 0, fontSize: 13 }]}>
+                {revealed === rungs.length - 1 ? 'Show me the full explanation' : 'Still stuck — more help'}
+              </Text>
+            </TouchableOpacity>
           ) : null}
         </View>
       ) : !isSubscribed ? (

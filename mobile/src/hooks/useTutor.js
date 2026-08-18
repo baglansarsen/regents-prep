@@ -4,8 +4,10 @@
  * Calls the `explainMistake` Cloud Function (which holds the Anthropic key and
  * does the Firestore result-caching). The question's authoritative answer +
  * explanation are sent as context, so the tutor personalizes — it never
- * decides the answer. Returns three escalating levels: nudge → method →
- * explanation (a Socratic ladder the UI reveals progressively).
+ * decides the answer. Returns four escalating levels — nudge → method →
+ * firstStep → explanation — which the UI reveals one rung at a time, plus a
+ * `mistakeType` classification (mistake mode only). The whole ladder arrives in
+ * one response, so advancing a rung costs nothing.
  */
 import { useCallback, useState } from 'react'
 import { httpsCallable } from 'firebase/functions'

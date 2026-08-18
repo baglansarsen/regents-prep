@@ -38,13 +38,26 @@ async function persist(list) {
   try { await AsyncStorage.setItem(KEY, JSON.stringify(list.slice(0, MAX_SAVED))) } catch (_) {}
 }
 
+// A substitute served by the retry loop carries `__retryFor` — the key of the
+// entry it stands in for. Both writers below must credit (or re-fault) the
+// ORIGINAL entry, or a swapped question would never clear the mistake it was
+// chosen to test.
+const entryKeyOf = (q) => q?.__retryFor ?? questionKey(q)
+
 // Apply a batch of newly-missed questions: reset/insert at front, dedup, cap.
 function applyWrong(existing, wrongQuestions, subject) {
   const now = Date.now()
   const map = new Map(existing.map((e) => [questionKey(e), e]))
   for (const q of wrongQuestions) {
-    const k = questionKey(q)
-    map.set(k, reset({ ...q, ...map.get(k) }, subject, now))
+    const k = entryKeyOf(q)
+    // Never persist the substitute's own text over the original question, and
+    // never persist the provenance marker itself.
+    const { __retryFor, ...clean } = q
+    const merged = reset({ ...clean, ...map.get(k) }, subject, now)
+    // The existing entry wins on question fields, but a fresh classification
+    // should replace a stale one — how you miss something changes over time.
+    if (clean.mistakeType) merged.mistakeType = clean.mistakeType
+    map.set(k, merged)
   }
   // Newest (most-recently-touched, lowest due) first.
   return [...map.values()].sort((a, b) => (b.lastSeen ?? 0) - (a.lastSeen ?? 0)).slice(0, MAX_SAVED)
@@ -52,7 +65,7 @@ function applyWrong(existing, wrongQuestions, subject) {
 
 // Apply correct answers: advance matched entries; drop those that graduate.
 function applyCorrect(existing, correctQuestions) {
-  const correctKeys = new Set(correctQuestions.map(questionKey))
+  const correctKeys = new Set(correctQuestions.map(entryKeyOf))
   const out = []
   for (const e of existing) {
     if (!correctKeys.has(questionKey(e))) { out.push(e); continue }
