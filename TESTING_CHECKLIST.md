@@ -248,10 +248,18 @@ Branches:
       a timer independent of any tap. The ~30-90s I spent between screenshots
       (visible in the countdown timer ticking down) fully accounts for the +1..+5
       I saw. Not farmable by repeated selection — false alarm.
-- [ ] **Guest-mode stat pollution** (confirmed reproducible pre-existing bug, not new
-      this session) — start as guest, answer a few questions, then sign into a real
-      account without a fresh app relaunch → confirm guest quiz stats do **not** bleed
-      into the real account's history.
+- [ ] **Guest-mode stat pollution** — fixed. Root cause: `StreakContext`'s
+      `@regents_streak_v1`/`@streakFreeze_v2` cache, `useRP.js`'s module-level
+      `globalRP`/`globalWeeklyRP` singleton, and `useProgress.js`'s module-level
+      `_pending` queue are all un-scoped by uid, and `clearLocalUserData()` was only
+      wired to `logOut()`/`deleteAccount()` — never to an in-session anonymous → real
+      sign-in. `AuthContext.js` now tracks the previous user and, when a guest
+      (`isAnonymous`) uid swaps to a different uid without a relaunch, calls
+      `clearLocalUserData()` plus the new `resetGlobalRP()` (`useRP.js`) and
+      `resetPendingProgress()` (`useProgress.js`) before the new uid's providers read
+      anything. `npm run check` passes (209/209). **Still worth a manual pass:** sign
+      in as guest, answer a few questions, sign into a real account without
+      relaunching, confirm streak/RP/history all start clean for the real account.
 - [ ] Regression: mistake → coach ladder → **mistakeType badge** (e.g. "CONCEPT GAP")
       renders correctly and the classification looks sane for a few different wrong-answer
       types (careless slip vs. genuine concept gap) — verified once this session

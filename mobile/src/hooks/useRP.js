@@ -53,6 +53,14 @@ function updateGlobalRP(nextRP, nextWeeklyRP, loadedVal) {
   })
 }
 
+// Call when an in-session account swap (e.g. guest -> real sign-in) discards the
+// previous uid's session — without this, the outgoing account's RP total stays in
+// this module-level singleton and briefly (or permanently, if earnRP fires first)
+// bleeds into the next account's balance.
+export function resetGlobalRP() {
+  updateGlobalRP(0, 0, false)
+}
+
 export function useRP(uid) {
   const [rp,        setRP]       = useState(globalRP)
   const [weeklyRP,  setWeeklyRP] = useState(globalWeeklyRP)

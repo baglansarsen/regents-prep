@@ -13,6 +13,14 @@ const MASTERY_NEED   = 2
 // sees results immediately — before the Firestore write round-trips. Cleared once confirmed.
 const _pending = []
 
+// Call when an in-session account swap (e.g. guest -> real sign-in) discards the
+// previous uid's session — without this, an in-flight guest quiz-result write can
+// still be sitting in this module-level queue and merge into the next account's
+// history the moment its first loadHistory() resolves.
+export function resetPendingProgress() {
+  _pending.length = 0
+}
+
 function mergeWithPending(firestoreHistory) {
   if (!_pending.length) return firestoreHistory
   const ids = new Set(firestoreHistory.map((h) => `${h.topic}::${h.lessonIndex}::${h.pct}`))
