@@ -265,6 +265,33 @@ Branches:
       types (careless slip vs. genuine concept gap) — verified once this session
       (concept_gap on a properties-of-equality miss), worth 2-3 more spot checks.
 
+## 10. Home screen — one dominant "do this next" action (2026-08-18)
+Consolidated ~7 competing above-the-path cards (predicted-score/outcome, Today's
+Pass Plan, the mission/rescue card, Daily Trap, streak-at-risk freeze banner,
+Smart Review, Level 0 remediation) into a single `NextActionCard` hero plus an
+`ActionChipRow` of runner-ups. New `utils/homeAgenda.js` composes the ladder
+(`pickTodayMission`, extended with `level0_math`/`daily_trap`/`all_caught_up`
+rungs) with the Rescue Plan override; `npm run check` passes (235/235,
+including 40+ new ladder/chip/agenda tests). Not yet live-verified on device:
+- [ ] Above the learning path shows exactly **one** primary CTA in every state:
+      fresh account (`set_goal`), post-goal cold start (`checkup`), math subject
+      flagged for Level 0, due mistakes, weak topic, normal lesson flow, and
+      path-exhausted (Daily Trap hero).
+- [ ] "See today's full plan (N more)" expands/collapses and its rows still
+      show the derived ✅ checkmarks.
+- [ ] Chip row ("ALSO TODAY") never repeats the hero action, caps at 3, and
+      each chip navigates to the same screen its deleted card used to.
+- [ ] Streak-at-risk shows as a 🔥 chip (not a banner) and `buyFreeze` still
+      works from it.
+- [ ] Level 0 "Not now" (via the hero's "Not now" link) snoozes for today only
+      — reappears tomorrow — rather than being destroyed permanently like the
+      old card's dismiss.
+- [ ] Rescue Plan (goal has `rescuePlan`, exam ≤30 days): hero shows the
+      warn-colored plan-label kicker, no plan disclosure, chips still appear.
+- [ ] Cold-launch as an established user with mistakes due: hero doesn't flash
+      a cold-start action before goal/history resolve (loading skeleton first).
+- [ ] Web build (`npm run web`) renders the hero/chip row correctly.
+
 ---
 
 ### Sign-off

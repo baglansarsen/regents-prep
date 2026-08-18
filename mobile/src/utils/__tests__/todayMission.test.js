@@ -1,4 +1,4 @@
-import { pickTodayMission } from '../todayMission'
+import { pickTodayMission, nextActionChips, isEnergyFree } from '../todayMission'
 
 // Callers pass the weakest ATTEMPTED unit (weakestAttemptedUnitOf); the picker
 // still guards on pct so an unattempted unit passed by mistake falls through.
@@ -205,5 +205,98 @@ describe('pickTodayMission — return shape', () => {
   test('topic is set for weak_unit_quiz', () => {
     const m = pickTodayMission({ hasGoal: true, coldStart: false, dueCount: 0, weakestUnit: weakAttempted })
     expect(m.topic).toBe('cell-biology')
+  })
+})
+
+describe('pickTodayMission — Level 0 remediation', () => {
+  const mathArgs = { hasGoal: true, coldStart: true, needsLevel0: true, mathSubject: true }
+
+  test('outranks checkup for a flagged math student', () => {
+    const m = pickTodayMission(mathArgs)
+    expect(m.actionType).toBe('level0_math')
+  })
+
+  test('never fires outside a math subject', () => {
+    const m = pickTodayMission({ ...mathArgs, mathSubject: false })
+    expect(m.actionType).not.toBe('level0_math')
+    expect(m.actionType).toBe('checkup')
+  })
+
+  test('drops out once snoozed for today', () => {
+    const m = pickTodayMission({ ...mathArgs, level0Snoozed: true })
+    expect(m.actionType).not.toBe('level0_math')
+  })
+
+  test('still loses to set_goal — nothing outranks having no goal at all', () => {
+    const m = pickTodayMission({ ...mathArgs, hasGoal: false })
+    expect(m.actionType).toBe('set_goal')
+  })
+})
+
+describe('pickTodayMission — Daily Trap and the all-caught-up floor', () => {
+  const clear = { hasGoal: true, coldStart: false, daysToExam: 60, hasTakenPracticeExam: true, dueCount: 0, weakestUnit: null }
+
+  test('never outranks a real lesson', () => {
+    const m = pickTodayMission({ ...clear, hasNextLesson: true, trapAvailable: true })
+    expect(m.actionType).toBe('next_lesson')
+  })
+
+  test('wins once the path is exhausted', () => {
+    const m = pickTodayMission({ ...clear, hasNextLesson: false, trapAvailable: true })
+    expect(m.actionType).toBe('daily_trap')
+  })
+
+  test('falls through to all_caught_up when nothing is left, including the trap', () => {
+    const m = pickTodayMission({ ...clear, hasNextLesson: false, trapAvailable: false })
+    expect(m.actionType).toBe('all_caught_up')
+  })
+})
+
+describe('pickTodayMission — streak urgency is decoration, not a rung', () => {
+  const args = { hasGoal: true, coldStart: false, daysToExam: 60, hasTakenPracticeExam: true, dueCount: 3, weakestUnit: null }
+
+  test('does not change which action wins', () => {
+    const calm  = pickTodayMission(args)
+    const urgent = pickTodayMission({ ...args, streakAtRisk: true, streakDays: 12 })
+    expect(urgent.actionType).toBe(calm.actionType)
+    expect(urgent.urgencyNote).toContain('12-day streak')
+    expect(calm.urgencyNote).toBeNull()
+  })
+})
+
+describe('nextActionChips', () => {
+  const loaded = {
+    dueCount: 4, weakestUnit: weakAttempted, daysToExam: 10, hasTakenPracticeExam: false,
+    needsLevel0: true, mathSubject: true, level0Snoozed: false, trapAvailable: true,
+  }
+
+  test('excludes whichever action type is currently the hero', () => {
+    const chips = nextActionChips(loaded, 'review_mistakes')
+    expect(chips.some((c) => c.actionType === 'review_mistakes')).toBe(false)
+  })
+
+  test('caps at 3 even when every surface is eligible', () => {
+    const chips = nextActionChips(loaded, 'next_lesson')
+    expect(chips.length).toBeLessThanOrEqual(3)
+  })
+
+  test('never surfaces next_lesson, set_goal, checkup, or all_caught_up as a chip', () => {
+    const chips = nextActionChips(loaded, 'weak_unit_quiz')
+    const types = chips.map((c) => c.actionType)
+    expect(types).not.toContain('next_lesson')
+    expect(types).not.toContain('set_goal')
+    expect(types).not.toContain('checkup')
+    expect(types).not.toContain('all_caught_up')
+  })
+
+  test('empty when nothing else is eligible', () => {
+    const chips = nextActionChips({ dueCount: 0, weakestUnit: null, daysToExam: null, trapAvailable: false }, 'next_lesson')
+    expect(chips).toEqual([])
+  })
+})
+
+describe('isEnergyFree', () => {
+  test('the Daily Trap is free — a miss costs nothing', () => {
+    expect(isEnergyFree('daily_trap')).toBe(true)
   })
 })

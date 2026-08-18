@@ -37,10 +37,11 @@ import * as globalHistoryData from '../content/global-history/index'
 import * as usHistoryData from '../content/us-history/index'
 import * as basicMathData from '../content/basic-math/index'
 import { STRATEGY_CATEGORIES } from '../content/strategies-meta'
-import { T, duoBtn, duoBtnOutline, cardShadow, elevatedCard, sectionLabel } from '../styles/duo'
-import GoalRing from '../components/GoalRing'
+import { T, duoBtn, duoBtnOutline, cardShadow, elevatedCard } from '../styles/duo'
 import UnitBanner from '../components/UnitBanner'
 import PetWidget from '../components/PetWidget'
+import NextActionCard from '../components/NextActionCard'
+import ActionChipRow from '../components/ActionChipRow'
 import { usePetContext } from '../context/PetContext'
 import { useSpeechContext, loadDailyMessage } from '../context/SpeechContext'
 import { useTour, useTourTarget } from '../context/TourContext'
@@ -54,13 +55,11 @@ import { PETS_ENABLED } from '../config/features'
 import { useGoal } from '../context/GoalContext'
 import { usePredictedScore } from '../hooks/usePredictedScore'
 import { pickSmartQuest } from '../utils/smartQuest'
-import { pickTodayMission, buildTodayPlan, planProgress } from '../utils/todayMission'
-import { energyBand } from '../utils/energy'
-import { pickRescueAction } from '../utils/rescuePlan'
+import { planProgress, isEnergyFree } from '../utils/todayMission'
+import { buildHomeAgenda } from '../utils/homeAgenda'
+import { energyBand, isMathSubject } from '../utils/energy'
 import { mistakeLabelOf, stickiestTopicOf } from '../utils/reviewQueue'
 import { useDailyTrap } from '../hooks/useDailyTrap'
-import { trapHookFor } from '../utils/dailyTrap'
-import { tierFor } from '../data/goalConfig'
 
 const MILESTONE_GIFTS = {
   3:  { rp: 50,   items: {},                       label: '50 ⭐ RP!' },
@@ -111,7 +110,7 @@ export default function HomeScreen({ navigation }) {
 
   const { history, historyLoaded, reloadHistory } = useProgress(uid)
   const { weekDays, streak, studiedToday, studiedDates, hasFreeze, buyFreeze } = useDailyStreak(uid)
-  const { trapQuestion, done: trapDone, refresh: refreshTrap } = useDailyTrap(uid, subject, sd.questions)
+  const { trapQuestion, done: trapDone, loaded: trapLoaded, refresh: refreshTrap } = useDailyTrap(uid, subject, sd.questions)
   const { rp, earnRP, spendRP, loaded: rpLoaded } = useRP(uid)
   const { lives, maxLives, nextRefillAt, refillLives, grantFullRefill, refillCost } = useLivesContext()
   const { isSubscribed, isConfigured, presentPaywall } = useSubscription()
@@ -147,6 +146,46 @@ export default function HomeScreen({ navigation }) {
   }, [dueMistakes])
   const units = sd.UNITS ?? []
   const { isUnitUnlocked, unitUnlockHint, reloadSkipUnlocks } = useUnitUnlocks(units, lessonComplete, unitComplete, subject)
+
+  // ── Path items: interleave banners + lesson nodes ──────────────────────────
+  // Hoisted above the home-agenda memo below (was originally computed just
+  // before rendering the path) so its `nextLessonTopic`/`hasNextLesson` can
+  // feed the priority ladder — previously buildTodayPlan's nextLessonTopic
+  // input was simply never supplied.
+  const pathItems = []
+  units.forEach((unit, unitIdx) => {
+    pathItems.push({ type: 'banner', unit, unitIdx })
+    for (let li = 0; li <= unit.lessonCount; li++) {
+      pathItems.push({ type: 'lesson', unit, unitIdx, lessonIndex: li, isChallenge: li === unit.lessonCount })
+    }
+    if ((sd.getExamContextQuestions(unit.topic) ?? []).length > 0) {
+      pathItems.push({ type: 'stimulus', unit, unitIdx })
+    }
+    // Targeted "Fix-ups" node — only when this unit's topic has queued mistakes.
+    if ((mistakesByTopic[unit.topic] ?? 0) > 0) {
+      pathItems.push({ type: 'review', unit, unitIdx, count: mistakesByTopic[unit.topic] })
+    }
+  })
+
+  // ── First unlocked+incomplete path node (for pulse indicator + mission) ────
+  // isLessonUnlocked is a `function` declaration further down in this
+  // component (see "Within-unit lesson unlock") — hoisted to the top of the
+  // component's scope like any function declaration, so it's safe to call
+  // here even though it's defined later in the file.
+  let firstActiveKey    = null
+  let firstActiveLesson = null   // { unit, lessonIndex } — used by runMission next_lesson
+  for (const item of pathItems) {
+    if (item.type !== 'lesson') continue
+    const { unit, unitIdx, lessonIndex } = item
+    if (!isUnitUnlocked(unitIdx)) continue
+    if (!isLessonUnlocked(unit, lessonIndex)) continue
+    if (lessonComplete(unit.topic, lessonIndex)) continue
+    firstActiveKey    = `${unit.id}-l${lessonIndex}`
+    firstActiveLesson = { unit, lessonIndex }
+    break
+  }
+  const hasNextLesson   = !!firstActiveLesson
+  const nextLessonTopic = firstActiveLesson?.unit?.topic ?? null
   // Declared before the focus effect below — it reads pendingEvolution in its
   // dependency array, so this destructuring must run first or the const is in
   // its temporal dead zone at render time (crashes HomeScreen).
@@ -180,33 +219,17 @@ export default function HomeScreen({ navigation }) {
     stickiestTopic,
   }), [regentsGoal, coldStart, daysToExam, subject, studiedDates, hasTakenPracticeExam, weakestAttemptedUnit, stickiestTopic])
 
-  // ── Today's Mission — single highest-priority action ───────────────────────
-  // With a Rescue Plan set and the exam ≤30 days out, the plan's daily
-  // recommendation takes over (same actionTypes → same runMission dispatch).
-  // set_goal / checkup still win: without a goal or any data there's nothing
-  // for the plan to work with.
-  const mission = useMemo(() => {
-    const base = pickTodayMission({
-      hasGoal:              !!regentsGoal,
-      coldStart,
-      daysToExam,
-      hasTakenPracticeExam,
-      dueCount,
-      weakestUnit:          weakestAttemptedUnit,
-    })
-    const plan = regentsGoal?.rescuePlan
-    if (plan && daysToExam != null && daysToExam <= 30 &&
-        base.actionType !== 'set_goal' && base.actionType !== 'checkup') {
-      return pickRescueAction({
-        plan,
-        daysToExam,
-        weakestUnit: weakestAttemptedUnit,
-        dueCount,
-        hasTakenPracticeExam,
-      })
-    }
-    return base
-  }, [regentsGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestAttemptedUnit])
+  // Placement flagged weak basic-math foundations — loaded/snoozed below,
+  // declared here so the home-agenda memo can read them.
+  const [needsLevel0,   setNeedsLevel0]   = useState(false)
+  const [level0Snoozed, setLevel0Snoozed] = useState(false)
+
+  // Streak would break today — no freeze, hasn't studied yet. A study action
+  // protects it, so this decorates the hero rather than winning its own slot
+  // (see pickTodayMission's urgencyNote) — the top bar's 🔥 pill is where a
+  // freeze purchase actually happens, via the chip row below.
+  const streakAtRisk  = streak >= 3 && !studiedToday && !hasFreeze
+  const trapAvailable = trapLoaded && !!trapQuestion && !trapDone
 
   // Energy read as pacing, not as a gate — see energyBand().
   const pacing = useMemo(
@@ -214,21 +237,47 @@ export default function HomeScreen({ navigation }) {
     [lives, maxLives, isSubscribed],
   )
 
-  // Today's Pass Plan — three concrete tasks headlined by the score gap.
-  // Rescue Plan keeps its single-action card: inside 30 days of the exam the
-  // point is ruthless focus, and offering three things works against that.
-  const rescueActive = mission?.rescue === true
-  const todayPlan = useMemo(() => buildTodayPlan({
+  // ── Home agenda — the single dominant "do this next" action, its runner-up
+  // chips, and the day's full plan behind the hero's disclosure. Replaces
+  // what used to be five separate cards (outcome, Pass Plan, mission/rescue,
+  // Daily Trap, Smart Review) plus the Level 0 card and freeze banner.
+  const agenda = useMemo(() => buildHomeAgenda({
+    ready:                goalLoaded && historyLoaded,
     hasGoal:              !!regentsGoal,
     coldStart,
     daysToExam,
     hasTakenPracticeExam,
     dueCount,
     weakestUnit:          weakestAttemptedUnit,
+    needsLevel0,
+    mathSubject:          isMathSubject(subject),
+    level0Snoozed,
+    hasNextLesson,
+    nextLessonTopic,
+    trapAvailable,
+    streakAtRisk,
+    streakDays:           streak,
     predicted,
     target:               regentsGoal?.target ?? null,
     band:                 pacing,
-  }), [regentsGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestAttemptedUnit, predicted, pacing])
+    rescuePlan:           regentsGoal?.rescuePlan ?? null,
+  }), [
+    goalLoaded, historyLoaded, regentsGoal, coldStart, daysToExam, hasTakenPracticeExam,
+    dueCount, weakestAttemptedUnit, needsLevel0, subject, level0Snoozed, hasNextLesson,
+    nextLessonTopic, trapAvailable, streakAtRisk, streak, predicted, pacing,
+  ])
+  const { hero: rankedHero, plan: todayPlan, chips: nextChips, rescue: rescueActive } = agenda
+
+  // Fold in the "mostly careless slips" / "mostly concept gaps" read when the
+  // hero is a review action — this was the best copy on the old Smart Review
+  // card, and would otherwise have died with it.
+  const hero = useMemo(() => {
+    if (!rankedHero || rankedHero.actionType !== 'review_mistakes' || !topMistakeType) return rankedHero
+    return {
+      ...rankedHero,
+      subtitle: `${rankedHero.subtitle} ${topMistakeType.icon} Mostly ${topMistakeType.label.toLowerCase()} — ${topMistakeType.hint.toLowerCase()}`,
+    }
+  }, [rankedHero, topMistakeType])
 
   // What the student has actually finished today, derived from recorded work
   // (see planProgress) rather than from tapping a task.
@@ -245,8 +294,9 @@ export default function HomeScreen({ navigation }) {
       topicsQuizzedToday: todays.map((h) => h.topic ?? ''),
       lessonDoneToday:    todays.some((h) => h.lessonIndex != null),
       dueCount,
+      trapDoneToday:      !!trapDone,
     })
-  }, [subjectHistory, todayPlan, dueCount])
+  }, [subjectHistory, todayPlan, dueCount, trapDone])
   useFocusEffect(useCallback(() => {
     reloadHistory()
     reloadSkipUnlocks()
@@ -298,7 +348,6 @@ export default function HomeScreen({ navigation }) {
   const [milestoneModal,  setMilestoneModal]   = useState(null)
   const [streakShare,     setStreakShare]      = useState(null)   // streak count → share sheet
   const [levelUpModal,    setLevelUpModal]     = useState(null)  // { level, name }
-  const [showFreezeBanner,setShowFreezeBanner] = useState(false)
   const [tipsUnit,        setTipsUnit]         = useState(null)
   const [expandedTip,     setExpandedTip]      = useState(null)
 
@@ -316,17 +365,7 @@ export default function HomeScreen({ navigation }) {
       earnRP(25)
       setLevelUpModal(data)
     }).catch(() => {})
-
-    // Streak-at-risk freeze banner (show once per day if streak > 2 and no freeze)
-    if (streak >= 3 && !studiedToday && !hasFreeze) {
-      const today = localDateStr()
-      AsyncStorage.getItem(`@streakWarnDismissed_${today}`).then((val) => {
-        if (!val) setShowFreezeBanner(true)
-      }).catch(() => {})
-    } else {
-      setShowFreezeBanner(false)
-    }
-  }, [uid, streak, studiedToday, hasFreeze]))
+  }, [uid]))
 
   // ── Re-run uid-dependent init when auth resolves after mount ────────────────
   // useFocusEffect fires once on mount (uid may still be null). This effect
@@ -343,7 +382,6 @@ export default function HomeScreen({ navigation }) {
   const [placementDone,   setPlacementDone]   = useState(null)   // null = loading
   const [showPlacement,   setShowPlacement]   = useState(false)
   const [pendingLesson,   setPendingLesson]   = useState(null)
-  const [showLevel0Card,  setShowLevel0Card]  = useState(false)
 
   useEffect(() => {
     if (!uid) return
@@ -356,9 +394,24 @@ export default function HomeScreen({ navigation }) {
   useEffect(() => {
     if (!uid || user?.isAnonymous) return
     AsyncStorage.getItem(`@needsLevel0_v1_${uid}`)
-      .then((val) => setShowLevel0Card(!!val))
+      .then((val) => setNeedsLevel0(!!val))
       .catch(() => {})
   }, [uid])
+
+  // Snoozed ("Not now") for TODAY only — unlike the old card's permanent
+  // dismiss, this doesn't destroy the placement's diagnostic flag, so the
+  // hero can offer it again tomorrow instead of losing it forever.
+  useEffect(() => {
+    if (!uid || user?.isAnonymous) return
+    AsyncStorage.getItem(`@level0Snooze_v1_${uid}`)
+      .then((val) => setLevel0Snoozed(val === localDateStr()))
+      .catch(() => {})
+  }, [uid])
+
+  function snoozeLevel0() {
+    setLevel0Snoozed(true)
+    AsyncStorage.setItem(`@level0Snooze_v1_${uid}`, localDateStr()).catch(() => {})
+  }
 
   // ── First-run guided tour — start once Home is focused & targets exist ──────
   // Only block while the placement MODAL is actually up (showPlacement). Do not
@@ -642,7 +695,10 @@ export default function HomeScreen({ navigation }) {
         navigation.navigate('ExamsTab')
         break
       case 'review_mistakes':
-        startReview(null)
+        // Honor a topic-scoped review (e.g. the path's in-unit Fix-ups node,
+        // or a review chip for a specific weak topic) rather than always
+        // pooling every subject's mistakes.
+        startReview(m.topic ?? null)
         break
       case 'weak_unit_quiz':
         startQuiz(m.topic)
@@ -659,6 +715,24 @@ export default function HomeScreen({ navigation }) {
       case 'study_notes':
         startStudy(m.topic ?? null)
         break
+      // ── Absorbed from the old Level 0 / Daily Trap cards ──
+      case 'level0_math': {
+        const topic = basicMathData.TOPIC_ORDER?.[0]
+        if (!topic) break
+        const questionSet = basicMathData.getLessonQuestions(topic, 0, basicMathData.UNITS?.[0]?.lessonCount ?? 2)
+        livesGate(() => navigation.navigate('Quiz', { questionSet, topic, subject: 'basic-math', lessonIndex: 0 }))
+        break
+      }
+      case 'daily_trap':
+        // No livesGate — a Daily Trap miss is free (shouldSpendEnergy), so
+        // gating entry here would contradict the answer-level policy.
+        if (!trapQuestion || trapDone) break
+        navigation.navigate('Quiz', {
+          questionSet: [trapQuestion], topic: trapQuestion.topic ?? null, subject, isDailyTrap: true,
+        })
+        break
+      case 'all_caught_up':
+        break   // nothing to launch — the hero is just a "you're done" state
       case 'next_lesson':
       default:
         if (firstActiveLesson) {
@@ -668,6 +742,16 @@ export default function HomeScreen({ navigation }) {
         }
         break
     }
+  }
+
+  function buyStreakFreeze() {
+    buyFreeze(spendRP).then((res) => {
+      if (res === 'success') {
+        Alert.alert('🧊 Streak Freeze active!', 'Your streak is protected if you miss today.')
+      } else if (res === 'insufficient_xp') {
+        Alert.alert('Not enough RP', 'You need 200 RP to buy a Streak Freeze.')
+      }
+    })
   }
 
   function startSkipChallenge(unit, unitIdx) {
@@ -692,36 +776,6 @@ export default function HomeScreen({ navigation }) {
     if (lessonIndex === 0) return true
     if (lessonIndex < unit.lessonCount) return lessonComplete(unit.topic, lessonIndex - 1)
     return unitLessonsCompleted(unit.topic, unit.lessonCount) >= unit.lessonCount
-  }
-
-  // ── Path items: interleave banners + lesson nodes ──────────────────────────
-  const pathItems = []
-  units.forEach((unit, unitIdx) => {
-    pathItems.push({ type: 'banner', unit, unitIdx })
-    for (let li = 0; li <= unit.lessonCount; li++) {
-      pathItems.push({ type: 'lesson', unit, unitIdx, lessonIndex: li, isChallenge: li === unit.lessonCount })
-    }
-    if ((sd.getExamContextQuestions(unit.topic) ?? []).length > 0) {
-      pathItems.push({ type: 'stimulus', unit, unitIdx })
-    }
-    // Targeted "Fix-ups" node — only when this unit's topic has queued mistakes.
-    if ((mistakesByTopic[unit.topic] ?? 0) > 0) {
-      pathItems.push({ type: 'review', unit, unitIdx, count: mistakesByTopic[unit.topic] })
-    }
-  })
-
-  // ── First unlocked+incomplete path node (for pulse indicator + mission) ────
-  let firstActiveKey    = null
-  let firstActiveLesson = null   // { unit, lessonIndex } — used by runMission next_lesson
-  for (const item of pathItems) {
-    if (item.type !== 'lesson') continue
-    const { unit, unitIdx, lessonIndex } = item
-    if (!isUnitUnlocked(unitIdx)) continue
-    if (!isLessonUnlocked(unit, lessonIndex)) continue
-    if (lessonComplete(unit.topic, lessonIndex)) continue
-    firstActiveKey    = `${unit.id}-l${lessonIndex}`
-    firstActiveLesson = { unit, lessonIndex }
-    break
   }
 
   // Zigzag counter uses only lesson nodes
@@ -762,291 +816,40 @@ export default function HomeScreen({ navigation }) {
           )}
         </View>
 
-        {/* ── Outcome-first card — predicted score vs. goal, sits directly under the greeting ── */}
-        {goalLoaded && (
-          <View
-            style={[
-              s.outcomeCard,
-              elevatedCard(C),
-              glassStyle,
-              { borderLeftWidth: 4, borderLeftColor: regentsGoal ? (C.warn ?? '#FFC93C') : C.brand },
-            ]}
-          >
-            {/* Row 1: ring + subject info (Tapping here navigates to GoalDetail/GoalSetup) */}
-            <TouchableOpacity
-              style={s.outcomeRow}
-              onPress={() => navigation.navigate(regentsGoal ? 'GoalDetail' : 'GoalSetup')}
-              activeOpacity={0.75}
-            >
-              <GoalRing
-                size={60}
-                strokeWidth={6}
-                progress={
-                  regentsGoal && predicted != null && !coldStart
-                    ? Math.min(1, Math.max(0, (predicted - 50) / Math.max(1, regentsGoal.target - 50)))
-                    : 0
-                }
-                color={
-                  regentsGoal && predicted != null && predicted >= regentsGoal.target
-                    ? C.correct
-                    : (C.warn ?? '#FFC93C')
-                }
-                trackColor={C.surface2}
-              >
-                <Text style={{ fontFamily: 'Fredoka_700Bold', fontSize: 13, color: C.text }}>
-                  {!regentsGoal ? '🎯' : coldStart ? '—' : predicted}
-                </Text>
-              </GoalRing>
+        {/* ── The dominant "do this next" action. Replaces what used to be five
+             separate cards (outcome/predicted-score, Today's Pass Plan, the
+             mission/rescue card, Daily Trap, Smart Review) plus the Level 0
+             card and the freeze banner. Waits for quiz history too: acting on
+             the empty initial history would misread a veteran as cold-start
+             and offer the wrong work. ── */}
+        <NextActionCard
+          loading={!goalLoaded || !historyLoaded}
+          hero={hero}
+          goal={{
+            subjectName, hasGoal: !!regentsGoal, predicted, coldStart,
+            target: regentsGoal?.target ?? null, examLabel,
+          }}
+          headline={todayPlan.headline}
+          extras={rescueActive ? [] : todayPlan.tasks.slice(1)}
+          doneIds={planDone.doneIds}
+          progress={rescueActive ? null : planDone}
+          energyFree={hero ? isEnergyFree(hero.actionType) : true}
+          pacing={pacing}
+          onPress={() => hero && runMission(hero)}
+          onExtraPress={(t) => runMission(t)}
+          onOpenGoal={() => navigation.navigate(regentsGoal ? 'GoalDetail' : 'GoalSetup')}
+          onSkip={hero?.actionType === 'level0_math' ? snoozeLevel0 : undefined}
+        />
 
-              <View style={s.outcomeInfo}>
-                <Text style={[T.h3, { color: C.text }]} numberOfLines={1}>{subjectName}</Text>
-
-                {regentsGoal ? (
-                  <>
-                    <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]} numberOfLines={1}>
-                      {coldStart
-                        ? 'Checkup needed · take a quiz'
-                        : `${predicted} → ${regentsGoal.target} ${tierFor(regentsGoal.target).icon}`}
-                    </Text>
-                    <Text
-                      style={[T.small, { color: daysToExam <= 14 ? C.wrong : C.textMuted, marginTop: 2 }]}
-                      numberOfLines={1}
-                    >
-                      {!coldStart && predicted != null && predicted < regentsGoal.target
-                        ? `${regentsGoal.target - predicted} pts to go · `
-                        : ''}{examLabel}
-                    </Text>
-                  </>
-                ) : (
-                  <>
-                    <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]} numberOfLines={1}>
-                      Set a target to track your score
-                    </Text>
-                    <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]} numberOfLines={1}>
-                      {examLabel}
-                    </Text>
-                  </>
-                )}
-              </View>
-            </TouchableOpacity>
-
-          </View>
-        )}
-
-        {/* Week streak moved to the top bar — tap the 🔥 there for the full calendar */}
-
-        {/* ── Today's Pass Plan — the score gap plus the three things that close
-             it. Rescue Plan (inside 30 days) keeps the single-action card below;
-             so does onboarding, where one action IS the plan. Waits for quiz
-             history too: acting on the empty initial history would misread a
-             veteran as cold-start and offer the wrong work. ── */}
-        {goalLoaded && historyLoaded && !rescueActive && todayPlan.tasks.length > 1 && (
-          <View style={[s.missionCard, elevatedCard(C)]}>
-            <Text style={[T.label, { color: C.brand, marginBottom: 2 }]}>TODAY'S PASS PLAN</Text>
-            <Text style={[T.h3, { color: C.text }]}>{todayPlan.headline}</Text>
-            <Text style={[T.small, { color: C.textMuted, marginTop: 2, marginBottom: 12 }]}>
-              {planDone.done > 0
-                ? `${planDone.done} of ${planDone.total} done today`
-                : `${todayPlan.tasks.length} things today`}
-              {pacing === 'recover' ? ' · low energy, so these are free' : ''}
-              {pacing === 'push' ? ' · full tank' : ''}
-            </Text>
-
-            {todayPlan.tasks.map((t, i) => {
-              const done = planDone.doneIds.has(t.id)
-              return (
-                <TouchableOpacity
-                  key={t.id}
-                  onPress={() => runMission(t)}
-                  activeOpacity={0.8}
-                  style={{
-                    flexDirection: 'row', alignItems: 'center', gap: 12,
-                    paddingVertical: 10,
-                    borderTopWidth: i === 0 ? 0 : 1, borderTopColor: C.border + '55',
-                    opacity: done ? 0.6 : 1,
-                  }}
-                >
-                  <Text style={{ fontSize: 22 }}>{done ? '✅' : t.icon}</Text>
-                  <View style={{ flex: 1 }}>
-                    <Text
-                      style={[T.body, {
-                        color: C.text, fontWeight: '700',
-                        textDecorationLine: done ? 'line-through' : 'none',
-                      }]}
-                      numberOfLines={1}
-                    >
-                      {t.title}
-                    </Text>
-                    <Text style={[T.small, { color: C.textMuted, marginTop: 1 }]} numberOfLines={2}>
-                      {done ? 'Done today — tap to go again' : t.subtitle}
-                    </Text>
-                  </View>
-                  <View style={{ alignItems: 'flex-end', gap: 3 }}>
-                    <Text style={[T.small, { color: C.textDim, fontSize: 11 }]}>~{t.estimatedMinutes}m</Text>
-                    <Text style={[T.btn, { color: done ? C.textDim : C.brand, fontSize: 13 }]}>
-                      {done ? 'Again ›' : `${t.cta} ›`}
-                    </Text>
-                  </View>
-                </TouchableOpacity>
-              )
-            })}
-          </View>
-        )}
-
-        {/* ── Single-action card — onboarding steps and Rescue Plan focus ── */}
-        {goalLoaded && historyLoaded && (rescueActive || todayPlan.tasks.length <= 1) && (
-          <View style={[s.missionCard, elevatedCard(C)]}>
-            <View style={s.missionHeader}>
-              <Text style={s.missionIcon}>{mission.icon}</Text>
-              <View style={{ flex: 1 }}>
-                <Text style={[T.label, { color: mission.rescue ? C.warn : C.brand, marginBottom: 2 }]}>
-                  {mission.rescue ? `🧭 ${mission.planLabel}` : "TODAY'S MISSION"}
-                </Text>
-                <Text style={[T.h3, { color: C.text }]} numberOfLines={1}>{mission.title}</Text>
-              </View>
-              <View style={[s.missionTimePill, { backgroundColor: C.brand + '18', borderColor: C.brand + '40' }]}>
-                <Text style={[T.small, { color: C.brand, fontSize: 11 }]}>⏱ ~{mission.estimatedMinutes}m</Text>
-              </View>
-            </View>
-            <Text style={[T.small, { color: C.textMuted, marginTop: 4, marginBottom: 12 }]} numberOfLines={2}>
-              {mission.subtitle}
-            </Text>
-            <TouchableOpacity
-              style={duoBtn(C.brand, C.brandDark)}
-              onPress={() => runMission(mission)}
-              activeOpacity={0.85}
-            >
-              <Text style={[T.btn, { color: '#fff' }]}>{mission.cta}</Text>
-            </TouchableOpacity>
-          </View>
-        )}
-
-        {/* ── Daily Regents Trap — one tricky question a day, misses are free ── */}
-        {trapQuestion && (
-          <TouchableOpacity
-            style={[s.trapCard, elevatedCard(C), trapDone && { opacity: 0.75 }]}
-            onPress={() => {
-              if (trapDone) return
-              navigation.navigate('Quiz', {
-                questionSet: [trapQuestion],
-                topic: trapQuestion.topic ?? null,
-                subject,
-                isDailyTrap: true,
-              })
-            }}
-            activeOpacity={trapDone ? 1 : 0.85}
-            disabled={!!trapDone}
-          >
-            <Text style={s.trapIcon}>🪤</Text>
-            <View style={{ flex: 1, marginLeft: 10 }}>
-              <Text style={[T.h3, { color: C.text }]} numberOfLines={1}>Daily Regents Trap</Text>
-              <Text style={[T.small, { color: C.textMuted }]} numberOfLines={2}>
-                {trapDone
-                  ? (trapDone === 'correct' ? 'You dodged the trap 🎉' : 'Good catch for exam day 🛡')
-                  : trapHookFor(subject)}
-              </Text>
-            </View>
-            <View style={[
-              s.trapPill,
-              trapDone
-                ? { backgroundColor: C.correct + '18', borderColor: C.correct + '50' }
-                : { backgroundColor: C.brand, borderColor: C.brandDark },
-            ]}>
-              <Text style={[T.label, { color: trapDone ? C.correct : '#fff', textTransform: 'none', letterSpacing: 0 }]}>
-                {trapDone ? '✓ Solved today' : 'Try it'}
-              </Text>
-            </View>
-          </TouchableOpacity>
-        )}
-
-        {/* Streak-at-risk freeze banner */}
-        {showFreezeBanner && (
-          <View style={[s.freezeBanner, { backgroundColor: '#FF460015', borderColor: '#FF460040' }]}>
-            <Text style={[T.body, { color: C.wrong, flex: 1 }]}>
-              ⚠️ Study today to keep your {streak}-day streak!
-            </Text>
-            <View style={s.freezeBannerBtns}>
-              <TouchableOpacity
-                style={[s.freezeBtn, { backgroundColor: C.brand }]}
-                onPress={() => buyFreeze(spendRP).then((res) => {
-                  if (res === 'success') { setShowFreezeBanner(false); Alert.alert('🧊 Streak Freeze active!', 'Your streak is protected if you miss today.') }
-                  else if (res === 'insufficient_xp') Alert.alert('Not enough RP', 'You need 200 RP to buy a Streak Freeze.')
-                })}
-              >
-                <Text style={{ color: '#fff', fontSize: 11, fontWeight: '700' }}>🧊 Freeze (200 RP)</Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                onPress={() => {
-                  const today = localDateStr()
-                  AsyncStorage.setItem(`@streakWarnDismissed_${today}`, '1').catch(() => {})
-                  setShowFreezeBanner(false)
-                }}
-              >
-                <Text style={[T.small, { color: C.textMuted, padding: 6 }]}>Dismiss</Text>
-              </TouchableOpacity>
-            </View>
-          </View>
-        )}
-
-        {/* ── Smart Review — one tap to clear due gaps across topics ── */}
-        {dueCount > 0 && (
-          <TouchableOpacity
-            style={[s.reviewCard, cardShadow(C.shadow)]}
-            onPress={() => startReview(null)}
-            activeOpacity={0.85}
-          >
-            <Text style={{ fontSize: 26 }}>🩹</Text>
-            <View style={{ flex: 1, marginLeft: 12 }}>
-              <Text style={[T.h3, { color: C.text }]}>Review your gaps</Text>
-              <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
-                {dueCount} {dueCount === 1 ? 'item' : 'items'} due
-                {goalDaysToExam != null && goalDaysToExam <= 14 ? ` · exam in ${goalDaysToExam}d` : ''}
-              </Text>
-              {topMistakeType ? (
-                <Text style={[T.small, { color: C.textDim, marginTop: 2 }]}>
-                  {topMistakeType.icon} Mostly {topMistakeType.label.toLowerCase()} — {topMistakeType.hint.toLowerCase()}
-                </Text>
-              ) : null}
-            </View>
-            <Text style={[T.btn, { color: C.brand }]}>REVIEW ›</Text>
-          </TouchableOpacity>
-        )}
-
-        {/* ── Level 0 remediation card — shown when placement flagged weak math foundations ── */}
-        {showLevel0Card && (
-          <View style={[s.reviewCard, cardShadow(C.shadow), { backgroundColor: '#ccfbf1', borderColor: '#0d9488', borderWidth: 1.5 }]}>
-            <Text style={{ fontSize: 26 }}>🧮</Text>
-            <View style={{ flex: 1, marginLeft: 12 }}>
-              <Text style={[T.h3, { color: '#0d9488' }]}>Level 0 · Basic Math</Text>
-              <Text style={[T.small, { color: '#0f766e', marginTop: 2 }]}>
-                Build your foundation before tackling algebra
-              </Text>
-            </View>
-            <View style={{ gap: 6, alignItems: 'flex-end' }}>
-              <TouchableOpacity
-                style={[duoBtn('#0d9488', '#0f766e', { paddingHorizontal: 14, paddingVertical: 8 })]}
-                onPress={() => {
-                  const topic = basicMathData.TOPIC_ORDER?.[0]
-                  if (!topic) return
-                  const questionSet = basicMathData.getLessonQuestions(topic, 0, basicMathData.UNITS?.[0]?.lessonCount ?? 2)
-                  livesGate(() => {
-                    navigation.navigate('Quiz', { questionSet, topic, subject: 'basic-math', lessonIndex: 0 })
-                  })
-                }}
-                activeOpacity={0.85}
-              >
-                <Text style={[T.btn, { color: '#fff', fontSize: 12 }]}>START →</Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                onPress={async () => {
-                  try { await AsyncStorage.removeItem(`@needsLevel0_v1_${uid}`) } catch {}
-                  setShowLevel0Card(false)
-                }}
-              >
-                <Text style={[T.small, { color: '#0f766e', padding: 4 }]}>Not now</Text>
-              </TouchableOpacity>
-            </View>
-          </View>
+        {/* ── Runner-up actions that lost the hero slot — a compact chip row,
+             not cards, so nothing here competes with the action above. ── */}
+        {goalLoaded && historyLoaded && (
+          <ActionChipRow
+            chips={nextChips}
+            streak={streakAtRisk ? { days: streak } : null}
+            onPress={(c) => runMission(c)}
+            onFreeze={buyStreakFreeze}
+          />
         )}
 
         {/* ── LEARNING PATH — the home screen's primary content, lessons first ── */}
@@ -1634,9 +1437,6 @@ function makeStyles(C) {
     studyTimePill: { flexDirection: 'row', alignItems: 'center', gap: 4, borderRadius: 14, paddingHorizontal: 10, paddingVertical: 6, borderWidth: 1, marginTop: 6, alignSelf: 'flex-start' },
     studyTimePillIcon: { fontSize: 14 },
     studyTimePillText: { fontSize: 13, fontWeight: '700' },
-    freezeBanner: { marginHorizontal: 16, marginBottom: 12, borderRadius: 14, padding: 12, borderWidth: 1, gap: 8 },
-    freezeBannerBtns: { flexDirection: 'row', alignItems: 'center', gap: 8 },
-    freezeBtn:    { borderRadius: 10, paddingHorizontal: 12, paddingVertical: 7 },
     focusRow:     { marginHorizontal: 16, marginBottom: 14, borderRadius: 16, padding: 14, flexDirection: 'row', alignItems: 'center', gap: 10 },
     leagueCard:   { marginHorizontal: 16, marginBottom: 14, borderRadius: 16, padding: 14, flexDirection: 'row', alignItems: 'center', gap: 10 },
     leagueHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
@@ -1737,56 +1537,6 @@ function makeStyles(C) {
       marginBottom:    20,
       padding:         16,
     },
-    outcomeCard: {
-      marginHorizontal: 16,
-      marginBottom:    14,
-      padding:         16,
-    },
-    outcomeRow: {
-      flexDirection: 'row',
-      alignItems:    'center',
-      gap:           14,
-    },
-    outcomeInfo: {
-      flex:       1,
-      flexShrink: 1,
-    },
-    missionCard: {
-      marginHorizontal: 16,
-      marginBottom:    14,
-      padding:         16,
-    },
-    trapCard: {
-      flexDirection:     'row',
-      alignItems:        'center',
-      marginHorizontal:  16,
-      marginBottom:      14,
-      paddingVertical:   12,
-      paddingHorizontal: 14,
-    },
-    trapIcon: { fontSize: 26 },
-    trapPill: {
-      borderRadius:      12,
-      borderWidth:       1,
-      paddingHorizontal: 12,
-      paddingVertical:   7,
-      marginLeft:        8,
-    },
-    missionHeader: {
-      flexDirection: 'row',
-      alignItems:    'center',
-      gap:           12,
-      marginBottom:  2,
-    },
-    missionIcon: {
-      fontSize: 28,
-    },
-    missionTimePill: {
-      borderRadius:    10,
-      paddingHorizontal: 8,
-      paddingVertical:  4,
-      borderWidth:      1,
-    },
     goalOption: {
       flexDirection: 'row',
       alignItems:    'center',
@@ -1835,7 +1585,6 @@ function makeStyles(C) {
     },
 
     pathContainer: { alignItems: 'center', paddingBottom: 20 },
-    reviewCard:    { flexDirection: 'row', alignItems: 'center', marginHorizontal: 16, marginBottom: 14, backgroundColor: C.surface, borderRadius: 16, padding: 16, borderWidth: 1, borderColor: '#EF4444' + '55' },
     nodeWrapper:   { alignItems: 'center', marginBottom: 4 },
     connector:     { width: 5, height: 36, backgroundColor: C.border, marginBottom: 4, borderRadius: 2.5 },
     node: {

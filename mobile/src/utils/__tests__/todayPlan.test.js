@@ -93,6 +93,29 @@ describe('buildTodayPlan', () => {
   it('still exposes the single lead mission for callers that want one action', () => {
     expect(buildTodayPlan({ ...base, dueCount: 4 }).lead.actionType).toBe('review_mistakes')
   })
+
+  it('lead is always tasks[0] — even for a mission type fix/learn/practice never composes', () => {
+    // practice_exam wins the ladder here but isn't one of the fix/learn/practice
+    // rungs, so it must be force-inserted rather than silently disagreeing
+    // with the hero card the caller renders from `lead`.
+    const plan = buildTodayPlan({ ...base, daysToExam: 5, hasTakenPracticeExam: false })
+    expect(plan.lead.actionType).toBe('practice_exam')
+    expect(plan.tasks[0].actionType).toBe('practice_exam')
+  })
+
+  it('passes nextLessonTopic through to the lesson task', () => {
+    const { tasks } = buildTodayPlan({ ...base, weakestUnit: null, dueCount: 0, nextLessonTopic: 'geometry' })
+    const lesson = tasks.find((t) => t.actionType === 'next_lesson')
+    expect(lesson.topic).toBe('geometry')
+  })
+
+  it('offers a genuinely mixed set instead of drilling the weak topic twice', () => {
+    const { tasks } = buildTodayPlan({ ...base, dueCount: 0 })   // weakestUnit = algebra, from `base`
+    const drillSet = tasks.find((t) => t.actionType === 'drill_set')
+    const weakDrill = tasks.find((t) => t.actionType === 'weak_unit_quiz')
+    expect(weakDrill.topic).toBe('algebra')
+    expect(drillSet.topic).toBeNull()
+  })
 })
 
 describe('planProgress', () => {
@@ -121,6 +144,12 @@ describe('planProgress', () => {
 
   it('marks the lesson done from a lesson-linked result', () => {
     expect(planProgress(tasks, { lessonDoneToday: true }).doneIds.has('l')).toBe(true)
+  })
+
+  it('marks the Daily Trap done once played today', () => {
+    const withTrap = [...tasks, { id: 't', actionType: 'daily_trap' }]
+    expect(planProgress(withTrap, { trapDoneToday: false }).doneIds.has('t')).toBe(false)
+    expect(planProgress(withTrap, { trapDoneToday: true }).doneIds.has('t')).toBe(true)
   })
 
   it('never marks actions with no completion signal', () => {
