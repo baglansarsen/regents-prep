@@ -19,6 +19,12 @@ export const TOPICS = {
   WATER_CYCLE:       'Water Cycle & Oceans',
   SCIENCE_PRACTICES: 'Data, Maps & Reference Tables',
   MIXED_REVIEW:      'Earth Science Mixed Review',
+  // ESS3 ("Earth and Human Activity") — authored content, see
+  // content/earth-science/authored/ess3.js. The pre-2026 exam never tested
+  // this strand, so unlike every other topic here these have no real NYSED
+  // exam bank behind them yet.
+  HAZARDS:        'Natural Hazards & Risk',
+  CLIMATE_CHANGE: 'Global Climate Change',
 }
 
 export const TOPIC_ICONS = {
@@ -36,6 +42,8 @@ export const TOPIC_ICONS = {
   [TOPICS.WATER_CYCLE]:       '🌊',
   [TOPICS.SCIENCE_PRACTICES]: '📊',
   [TOPICS.MIXED_REVIEW]:      '📚',
+  [TOPICS.HAZARDS]:           '⚠️',
+  [TOPICS.CLIMATE_CHANGE]:    '🌡️',
 }
 
 export function shuffled(arr) {

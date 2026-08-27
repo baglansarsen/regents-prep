@@ -22,6 +22,8 @@ export const TOPIC_ORDER = [
   TOPICS.SOLAR_SYSTEM,
   TOPICS.COSMOS,
   TOPICS.MIXED_REVIEW,
+  TOPICS.HAZARDS,
+  TOPICS.CLIMATE_CHANGE,
 ]
 
 // ── Exam context questions for Stimulus Practice ──────────────────────────────

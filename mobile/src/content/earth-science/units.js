@@ -21,6 +21,7 @@ import esJun2025 from '../regents-exams/earth-science/june-2025'
 import esJan2025 from '../regents-exams/earth-science/january-2025'
 import esJan2026 from '../regents-exams/earth-science/january-2026'
 import esJun2026 from '../regents-exams/earth-science/june-2026'
+import { hazardsExam, climateChangeExam } from './authored/ess3'
 
 // Every posted NYSED Earth Science / Earth and Space Sciences exam we have on
 // disk. august-2021 has no `topic` tags yet (pre-enrichment) so it currently
@@ -35,6 +36,10 @@ export const ES_EXAMS = [
   esAug2024, esJun2024, esJan2024,
   esAug2025, esJun2025, esJan2025,
   esJan2026, esJun2026,
+  // Authored, not NYSED — see authored/ess3.js. Kept in a separate append
+  // rather than interleaved above so "every posted NYSED exam" stays literally
+  // true of the block above it.
+  hazardsExam, climateChangeExam,
 ]
 
 // Exported so index.js's Stimulus Practice pool can share this instead of
@@ -60,6 +65,10 @@ export const ES_TOPIC_MAP = {
   'General':             TOPICS.MIXED_REVIEW,
   'General Review':      TOPICS.MIXED_REVIEW,
   'Earth Science Skills':TOPICS.MIXED_REVIEW,
+  // Authored ESS3 questions already carry their final topic value (no raw
+  // exam-topic string to normalize), so these map to themselves.
+  [TOPICS.HAZARDS]:        TOPICS.HAZARDS,
+  [TOPICS.CLIMATE_CHANGE]: TOPICS.CLIMATE_CHANGE,
 }
 
 const LESSON_SIZE = 20
@@ -103,6 +112,16 @@ export const UNITS = [
   { id: 'es-solar',   title: 'Solar System & Earth Motions',     icon: TOPIC_ICONS[TOPICS.SOLAR_SYSTEM],      color: '#1d4ed8', darkColor: '#1e40af', topic: TOPICS.SOLAR_SYSTEM,      lessonCount: 3, strand: 'ESS1', essCodes: ['HS-ESS1-4'],              examWeight: 0.125, prereqs: ['es-u7'] },
   { id: 'es-cosmos',  title: 'Moon, Stars & the Universe',       icon: TOPIC_ICONS[TOPICS.COSMOS],            color: '#4f46e5', darkColor: '#4338ca', topic: TOPICS.COSMOS,            lessonCount: 2, strand: 'ESS1', essCodes: ['HS-ESS1-1', 'HS-ESS1-2', 'HS-ESS1-3'], examWeight: 0.069, prereqs: ['es-solar'] },
   { id: 'es-u9',      title: 'Earth and Space Sciences Mixed Review', icon: TOPIC_ICONS[TOPICS.MIXED_REVIEW], color: '#6b7280', darkColor: '#4b5563', topic: TOPICS.MIXED_REVIEW,      lessonCount: 3, strand: 'MIXED', essCodes: [],              examWeight: null,  prereqs: ['es-cosmos'] },
+  // ── ESS3, authored (see authored/ess3.js) ──
+  // Appended at the end rather than interleaved earlier so every existing
+  // unit's positional unlock requirement (see useUnitUnlocks.js) is
+  // unchanged. Conceptually these don't depend on the geology/astronomy
+  // sequence at all — prereqs should likely become [] or ['es-sp'] once
+  // Step 4f wires unlocking to the prereq graph instead of array position;
+  // for now prereqs describes the de-facto position-based gate so the field
+  // stays truthful about current behavior.
+  { id: 'es-hazards',   title: 'Natural Hazards & Risk',    icon: TOPIC_ICONS[TOPICS.HAZARDS],        color: '#dc2626', darkColor: '#991b1b', topic: TOPICS.HAZARDS,        lessonCount: 1, strand: 'ESS3', essCodes: ['HS-ESS3-1', 'HS-ESS3-2', 'HS-ESS3-4'], examWeight: null, prereqs: ['es-u9'] },
+  { id: 'es-climchange',title: 'Global Climate Change',     icon: TOPIC_ICONS[TOPICS.CLIMATE_CHANGE], color: '#ea580c', darkColor: '#9a3412', topic: TOPICS.CLIMATE_CHANGE, lessonCount: 1, strand: 'ESS3', essCodes: ['HS-ESS3-5', 'HS-ESS3-6'],              examWeight: null, prereqs: ['es-hazards'] },
 ]
 
 // _api's MIXED_REVIEW bucket (General/Maps/etc + the untagged Geology/
