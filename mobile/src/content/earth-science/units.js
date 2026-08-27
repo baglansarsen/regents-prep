@@ -1,5 +1,6 @@
 import { TOPICS, TOPIC_ICONS } from './questions'
 import { makeLessonApi } from '../_shared/lessonEngine'
+import { orderByDifficulty } from '../_shared/difficulty'
 import esAug2018 from '../regents-exams/earth-science/august-2018'
 import esAug2019 from '../regents-exams/earth-science/august-2019'
 import esAug2021 from '../regents-exams/earth-science/august-2021'
@@ -39,12 +40,20 @@ export const ES_EXAMS = [
 // Exported so index.js's Stimulus Practice pool can share this instead of
 // keeping a second, driftable copy.
 export const ES_TOPIC_MAP = {
-  'Geology':             TOPICS.GEOLOGY,        // split into 3 sub-topic units
+  // 'Geology' and 'Astronomy' are split into sub-topic units (Rocks/WED/
+  // Minerals and Solar System/Cosmos) via SUBTOPIC_UNITS below, which filters
+  // by the raw question's `subTopic` field independently of this map. Only
+  // ~55% of Geology/Astronomy-tagged questions across the 20-exam bank carry
+  // a matching subTopic (the rest predate that enrichment pass); routing the
+  // untagged remainder here to MIXED_REVIEW folds it into the review capstone
+  // instead of silently dropping ~224 real, correct questions from every
+  // lesson. Re-point these once the untagged residue gets subTopic-tagged.
+  'Geology':             TOPICS.MIXED_REVIEW,
+  'Astronomy':           TOPICS.MIXED_REVIEW,
   'Plate Tectonics':     TOPICS.PLATE_TECTONICS,
   'Geologic Time':       TOPICS.GEOLOGIC_TIME,
   'Meteorology':         TOPICS.METEOROLOGY,
   'Climate':             TOPICS.CLIMATE,
-  'Astronomy':           TOPICS.ASTRONOMY,      // split into 2 sub-topic units
   'Water Cycle':         TOPICS.WATER_CYCLE,
   'Oceanography':        TOPICS.WATER_CYCLE,
   'Maps':                TOPICS.MIXED_REVIEW,   // thin (9 Q) — merged; map SKILL feeds Science Practices
@@ -53,7 +62,8 @@ export const ES_TOPIC_MAP = {
   'Earth Science Skills':TOPICS.MIXED_REVIEW,
 }
 
-const _api = makeLessonApi({ exams: ES_EXAMS, topicMap: ES_TOPIC_MAP, lessonSize: 20 })
+const LESSON_SIZE = 20
+const _api = makeLessonApi({ exams: ES_EXAMS, topicMap: ES_TOPIC_MAP, lessonSize: LESSON_SIZE })
 
 const SUBTOPIC_UNITS = [TOPICS.ROCKS, TOPICS.SURFACE_PROCESSES, TOPICS.MINERALS, TOPICS.SOLAR_SYSTEM, TOPICS.COSMOS]
 // Earth and Space Sciences is a data/map/reference-table exam — these skills define it.
@@ -95,15 +105,38 @@ export const UNITS = [
   { id: 'es-u9',      title: 'Earth and Space Sciences Mixed Review', icon: TOPIC_ICONS[TOPICS.MIXED_REVIEW], color: '#6b7280', darkColor: '#4b5563', topic: TOPICS.MIXED_REVIEW,      lessonCount: 3, strand: 'MIXED', essCodes: [],              examWeight: null,  prereqs: ['es-cosmos'] },
 ]
 
-// Route each unit to its pool: sub-topic split, skill pool, or whole topic.
+// _api's MIXED_REVIEW bucket (General/Maps/etc + the untagged Geology/
+// Astronomy residue, see ES_TOPIC_MAP above) also picks up every
+// subtopic-tagged Geology/Astronomy question, because topic normalization
+// runs per raw exam topic independently of subTopic. Excluded here so a
+// rock/mineral/astronomy question already homed in its own subtopic unit
+// doesn't also show up in Mixed Review.
+function getMixedReviewPool() {
+  return _api.getByTopic(TOPICS.MIXED_REVIEW).filter((q) => !SUBTOPIC_UNITS.includes(q.subTopic))
+}
+
+// Mirrors lessonEngine.js's own sliceLessons math (kept local rather than
+// exported from the shared engine, since this is the one unit whose pool
+// isn't just `getExamPool(topic)`).
+function sliceMixedReviewLessons(pool, lessonIndex, lessonCount) {
+  if (!(lessonCount >= 1) || lessonIndex >= lessonCount) return orderByDifficulty(pool)
+  const chunkSize = Math.ceil(pool.length / lessonCount)
+  const start = lessonIndex * chunkSize
+  const slice = pool.slice(start, start + chunkSize)
+  return orderByDifficulty([...slice].sort(() => Math.random() - 0.5).slice(0, LESSON_SIZE))
+}
+
+// Route each unit to its pool: sub-topic split, skill pool, mixed review, or whole topic.
 export function getLessonQuestions(topic, lessonIndex, lessonCount) {
   if (topic === TOPICS.SCIENCE_PRACTICES) return _api.getSkillLessonQuestions(SP_SKILLS, lessonIndex, lessonCount)
   if (SUBTOPIC_UNITS.includes(topic))     return _api.getSubTopicLessonQuestions(topic, lessonIndex, lessonCount)
+  if (topic === TOPICS.MIXED_REVIEW)      return sliceMixedReviewLessons(getMixedReviewPool(), lessonIndex, lessonCount)
   return _api.getLessonQuestions(topic, lessonIndex, lessonCount)
 }
 export function getByTopic(topic) {
   if (topic === TOPICS.SCIENCE_PRACTICES) return SP_SKILLS.flatMap((sk) => _api.getBySkill(sk))
   if (SUBTOPIC_UNITS.includes(topic))     return _api.getBySubTopic(topic)
+  if (topic === TOPICS.MIXED_REVIEW)      return getMixedReviewPool()
   return _api.getByTopic(topic)
 }
 export const buildDiagnosticSet = _api.buildDiagnosticSet

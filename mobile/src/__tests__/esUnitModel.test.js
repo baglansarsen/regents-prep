@@ -1,4 +1,4 @@
-import { UNITS } from '../content/earth-science/units'
+import { UNITS, getByTopic, allQuestions } from '../content/earth-science/units'
 
 // Guards the unit-metadata invariants added for goal-wiring (Step 2 of
 // ~/.claude/plans/expressive-meandering-lagoon.md) so a future exam import or
@@ -42,5 +42,20 @@ describe('earth-science UNITS metadata', () => {
     const withoutPrereqs = UNITS.filter((u) => (u.prereqs ?? []).length === 0)
     expect(withoutPrereqs.length).toBeGreaterThan(0)
     expect(ids.length).toBe(new Set(ids).size) // no duplicate ids
+  })
+
+  // Regression guard: 'Geology'/'Astronomy' raw exam questions with no
+  // subTopic tag used to be silently dropped from every unit (they normalized
+  // to a topic no unit routes on); folding them into Mixed Review without
+  // also excluding the already-homed subtopic-tagged questions caused the
+  // opposite bug — those showing up twice. Every unit's pool (deduping the
+  // es-sp skill overlay, which intentionally reuses questions already counted
+  // in their own topic unit) should partition the full pool exactly once.
+  it("every question is served by exactly one non-skill unit's pool", () => {
+    const total = allQuestions().length
+    const sum = UNITS
+      .filter((u) => u.id !== 'es-sp')
+      .reduce((acc, u) => acc + getByTopic(u.topic).length, 0)
+    expect(sum).toBe(total)
   })
 })

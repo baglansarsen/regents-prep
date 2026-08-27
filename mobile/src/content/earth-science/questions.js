@@ -3,8 +3,8 @@
 // See units.js (makeLessonApi) and _shared/lessonEngine.js
 
 export const TOPICS = {
-  // GEOLOGY & ASTRONOMY stay for exam-topic mapping, but are no longer units —
-  // they're split into the sub-topic units below.
+  // GEOLOGY & ASTRONOMY are icon-map keys only now — units.js's ES_TOPIC_MAP
+  // routes both straight to sub-topic units or MIXED_REVIEW, never to these.
   GEOLOGY:           'Geology & Rocks',
   ROCKS:             'Rocks & the Rock Cycle',
   SURFACE_PROCESSES: 'Weathering, Erosion & Deposition',
