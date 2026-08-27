@@ -50,7 +50,11 @@ export function predictRegentsScore({
   const topicBreakdown = units.map((u) => {
     const rows = history.filter((h) => h.topic === u.topic)
     const pct  = rows.length ? Math.max(...rows.map((h) => h.pct ?? 0)) : null
-    return { topic: u.topic, title: u.title, pct, attempts: rows.length }
+    const confidence = rows.length ? topicConfidence(rows).score : null
+    return {
+      id: u.id, topic: u.topic, title: u.title, pct, attempts: rows.length,
+      strand: u.strand, examWeight: u.examWeight, confidence,
+    }
   })
   const attemptedTopics = topicBreakdown.filter((t) => t.pct !== null)
 
@@ -64,8 +68,24 @@ export function predictRegentsScore({
     : null
 
   const priorPct = mixedPct ?? UNATTEMPTED_PRIOR_PCT
+  // Weight each unit by its real share of exam points (u.examWeight, see
+  // content/earth-science/units.js) instead of a flat per-unit average, so a
+  // high-yield unit's mastery moves the score more than a low-yield one.
+  // Subjects/units with no examWeight data (every subject but Earth and Space
+  // Sciences today) fall back to weight 1 for every unit — algebraically
+  // identical to the old flat mean, so this is a no-op there. A unit that
+  // HAS peers with declared weights but no weight of its own (an overlapping
+  // skill unit like es-sp, or a strand with no empirical exam-weight data
+  // yet like the authored ESS3 units) gets the average of its peers' declared
+  // weights — enough to still count, not enough to double-count.
+  const declaredWeights = units.map((u) => u.examWeight).filter((w) => typeof w === 'number')
+  const fallbackWeight  = declaredWeights.length
+    ? declaredWeights.reduce((a, b) => a + b, 0) / declaredWeights.length
+    : 1
+  const weights   = units.map((u) => (typeof u.examWeight === 'number' ? u.examWeight : fallbackWeight))
+  const weightSum = weights.reduce((a, b) => a + b, 0) || 1
   const meanPct = topicBreakdown.length
-    ? topicBreakdown.reduce((sum, t) => sum + (t.pct ?? priorPct), 0) / topicBreakdown.length
+    ? topicBreakdown.reduce((sum, t, i) => sum + (t.pct ?? priorPct) * weights[i], 0) / weightSum
     : 0
   const masteryScaled = getScaledScore(meanPct, 100)
 
@@ -199,7 +219,7 @@ export function topicConfidence(rows = [], now = Date.now()) {
 /** The unit with the lowest effective mastery (unattempted counts lowest). */
 export function weakestUnitOf(topicBreakdown = []) {
   if (!topicBreakdown.length) return null
-  const scored = topicBreakdown.map((t) => ({ ...t, eff: t.pct ?? -1 }))
+  const scored = topicBreakdown.map((t) => ({ ...t, eff: t.confidence ?? t.pct ?? -1 }))
   scored.sort((a, b) => a.eff - b.eff)
   return scored[0]
 }
@@ -209,9 +229,46 @@ export function weakestUnitOf(topicBreakdown = []) {
  * weakestUnitOf always surfaces unattempted units first, which is right for
  * "where to start" UIs but wrong for "what to strengthen" — this variant is
  * what drives weak-unit drills (Today's Mission, smart quest).
+ *
+ * Ranks by `confidence` (topicConfidence's recency-weighted, decaying score)
+ * when present, falling back to the best-ever `pct` otherwise — the fallback
+ * keeps this correct for callers that pass plain {topic, pct} breakdowns
+ * (tests, or any future caller that hasn't adopted confidence).  Ranking by
+ * best-ever pct alone was the previous behavior: it never decays and can't
+ * re-surface a topic the student aced once in September and has missed every
+ * time since — see topicConfidence's docstring above.
  */
 export function weakestAttemptedUnitOf(topicBreakdown = []) {
   const attempted = topicBreakdown.filter((t) => t.pct != null)
   if (!attempted.length) return null
-  return attempted.reduce((min, t) => (t.pct < min.pct ? t : min))
+  const eff = (t) => t.confidence ?? t.pct
+  return attempted.reduce((min, t) => (eff(t) < eff(min) ? t : min))
+}
+
+/**
+ * Exam points a unit stands to gain if the student went from their current
+ * confidence to full mastery — high examWeight × low confidence = highest
+ * leverage. Units with no examWeight (an overlapping skill unit, or a strand
+ * with no empirical exam-weight data yet) return null: there's no defensible
+ * points-gained number to show without a real weight, even though their
+ * mastery still counts (via the fallback weight) toward the overall score.
+ */
+export function pointsToGain(unit) {
+  if (typeof unit?.examWeight !== 'number') return null
+  const confidence = unit.confidence ?? unit.pct ?? 0
+  return Math.round(unit.examWeight * (100 - confidence) * 10) / 10
+}
+
+/**
+ * Units ranked by how many exam points are up for grabs (pointsToGain,
+ * highest first), for a "study this next, it's worth the most" recommendation
+ * — distinct from weakestAttemptedUnitOf, which ranks by weakness alone and
+ * can point at a low-yield unit ahead of a high-yield one that's only
+ * slightly stronger. Units with no examWeight sort last (not excluded —
+ * still worth surfacing once nothing weighted remains to recommend).
+ */
+export function rankUnitsByYield(topicBreakdown = []) {
+  return [...topicBreakdown]
+    .map((t) => ({ ...t, yield: pointsToGain(t) }))
+    .sort((a, b) => (b.yield ?? -1) - (a.yield ?? -1))
 }

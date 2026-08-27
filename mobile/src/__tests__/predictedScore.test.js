@@ -3,7 +3,10 @@
  * Covers cold start, exam-count weighting, clamping, consistency bonus,
  * smoothing step caps, and weakest-unit selection.
  */
-import { predictRegentsScore, smoothPrediction, weakestUnitOf, weakestAttemptedUnitOf } from '../utils/predictedScore'
+import {
+  predictRegentsScore, smoothPrediction, weakestUnitOf, weakestAttemptedUnitOf,
+  pointsToGain, rankUnitsByYield,
+} from '../utils/predictedScore'
 
 const UNITS = [
   { topic: 'cell_biology', title: 'Cell Biology' },
@@ -147,6 +150,99 @@ describe('weakestAttemptedUnitOf', () => {
       { topic: 'b', pct: null, attempts: 0 },
     ])).toBeNull()
     expect(weakestAttemptedUnitOf([])).toBeNull()
+  })
+})
+
+describe('examWeight-weighted mastery', () => {
+  const WEIGHTED_UNITS = [
+    { topic: 'high', title: 'High Weight', examWeight: 0.8 },
+    { topic: 'low',  title: 'Low Weight',  examWeight: 0.2 },
+  ]
+
+  test('a high-examWeight unit moves the mean more than a low-examWeight one', () => {
+    const highStrong = predictRegentsScore({
+      units: WEIGHTED_UNITS,
+      history: [{ topic: 'high', pct: 100 }, { topic: 'low', pct: 40 }],
+    })
+    const lowStrong = predictRegentsScore({
+      units: WEIGHTED_UNITS,
+      history: [{ topic: 'high', pct: 40 }, { topic: 'low', pct: 100 }],
+    })
+    // Same two pcts, swapped between the 0.8-weight and 0.2-weight unit —
+    // the weighted mean must favor whichever arrangement puts the high pct
+    // on the high-weight unit.
+    expect(highStrong.components.masteryScaled).toBeGreaterThan(lowStrong.components.masteryScaled)
+  })
+
+  test('a unit with no examWeight gets the average of its peers\' declared weights, not zero', () => {
+    const units = [
+      { topic: 'a', examWeight: 0.6 },
+      { topic: 'b', examWeight: 0.4 },
+      { topic: 'skill' }, // no examWeight, e.g. es-sp
+    ]
+    const withSkillAttempted = predictRegentsScore({
+      units, history: [{ topic: 'a', pct: 40 }, { topic: 'b', pct: 40 }, { topic: 'skill', pct: 100 }],
+    })
+    const withoutSkillAttempted = predictRegentsScore({
+      units, history: [{ topic: 'a', pct: 40 }, { topic: 'b', pct: 40 }],
+    })
+    // If the no-weight unit counted for nothing, a perfect score on it
+    // wouldn't move the mean at all versus not attempting it.
+    expect(withSkillAttempted.components.masteryScaled).toBeGreaterThan(withoutSkillAttempted.components.masteryScaled)
+  })
+
+  test('no unit declares examWeight → identical to the old flat mean (regression guard)', () => {
+    const withWeights = predictRegentsScore({ units: UNITS, history: [
+      { topic: 'cell_biology', pct: 90 }, { topic: 'genetics', pct: 80 }, { topic: 'ecology', pct: 70 },
+    ] })
+    expect(withWeights.components.masteryScaled).toBe(85) // same as the flat-mean test above
+  })
+
+  test('topicBreakdown carries id/strand/examWeight through from the unit', () => {
+    const units = [{ id: 'u1', topic: 'a', title: 'A', strand: 'ESS2', examWeight: 0.5 }]
+    const r = predictRegentsScore({ units, history: [{ topic: 'a', pct: 80 }] })
+    expect(r.topicBreakdown[0]).toMatchObject({ id: 'u1', strand: 'ESS2', examWeight: 0.5 })
+  })
+})
+
+describe('weakestAttemptedUnitOf prefers confidence over best-ever pct', () => {
+  test('a decayed high best-ever score loses to a fresher, lower best-ever score', () => {
+    const breakdown = [
+      { topic: 'stale',  pct: 100, confidence: 20 }, // aced once, long ago / missed since
+      { topic: 'steady', pct: 70,  confidence: 70 }, // one recent, middling attempt
+    ]
+    // Old (pct-only) logic would have picked 'steady' (70 < 100); confidence
+    // flips it because 'stale' has actually decayed further.
+    expect(weakestAttemptedUnitOf(breakdown).topic).toBe('stale')
+  })
+
+  test('falls back to pct when confidence is absent (back-compat with plain breakdowns)', () => {
+    expect(weakestAttemptedUnitOf([
+      { topic: 'a', pct: 55, attempts: 3 },
+      { topic: 'b', pct: null, attempts: 0 },
+      { topic: 'c', pct: 90, attempts: 5 },
+    ]).topic).toBe('a')
+  })
+})
+
+describe('pointsToGain / rankUnitsByYield', () => {
+  test('higher examWeight and lower confidence both increase points to gain', () => {
+    const highYield = pointsToGain({ examWeight: 0.3, confidence: 40 })
+    const lowYield  = pointsToGain({ examWeight: 0.05, confidence: 90 })
+    expect(highYield).toBeGreaterThan(lowYield)
+  })
+
+  test('returns null for a unit with no examWeight', () => {
+    expect(pointsToGain({ confidence: 50 })).toBeNull()
+  })
+
+  test('rankUnitsByYield sorts highest points-to-gain first, unweighted units last', () => {
+    const ranked = rankUnitsByYield([
+      { topic: 'a', examWeight: 0.1, confidence: 90 }, // small gain
+      { topic: 'b', examWeight: 0.3, confidence: 20 }, // biggest gain
+      { topic: 'skill', confidence: 0 },               // no weight — sorts last regardless
+    ])
+    expect(ranked.map((r) => r.topic)).toEqual(['b', 'a', 'skill'])
   })
 })
 

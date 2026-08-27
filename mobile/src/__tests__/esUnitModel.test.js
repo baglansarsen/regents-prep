@@ -1,4 +1,5 @@
 import { UNITS, getByTopic, allQuestions } from '../content/earth-science/units'
+import { predictRegentsScore } from '../utils/predictedScore'
 
 // Guards the unit-metadata invariants added for goal-wiring (Step 2 of
 // ~/.claude/plans/expressive-meandering-lagoon.md) so a future exam import or
@@ -57,5 +58,19 @@ describe('earth-science UNITS metadata', () => {
       .filter((u) => u.id !== 'es-sp')
       .reduce((acc, u) => acc + getByTopic(u.topic).length, 0)
     expect(sum).toBe(total)
+  })
+
+  // Step 4b's examWeight-weighted mean must actually count the null-weight
+  // units (es-sp, Mixed Review, the authored ESS3 units) via the fallback
+  // weight, not silently zero them out of the score — see the comment above
+  // `declaredWeights`/`fallbackWeight` in predictedScore.js.
+  it('mastering a null-examWeight unit still measurably raises the predicted score', () => {
+    const nullWeightUnit = UNITS.find((u) => u.examWeight == null)
+    expect(nullWeightUnit).toBeTruthy()
+    const withIt = predictRegentsScore({ units: UNITS, history: [{ topic: nullWeightUnit.topic, pct: 100 }] })
+    const withoutIt = predictRegentsScore({ units: UNITS, history: [] })
+    expect(withIt.coldStart).toBe(false)
+    expect(withoutIt.coldStart).toBe(true) // no signal at all yet
+    expect(withIt.score).toBeGreaterThan(50)
   })
 })
