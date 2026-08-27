@@ -117,6 +117,7 @@ export function pickRescueAction({
         cta:              `Let's Go (${minutes} min)`,
         actionType:       'weak_unit_quiz',
         topic:            weakestUnit.topic,
+        unitId:           weakestUnit.id ?? null,
         estimatedMinutes: minutes,
       }
     }

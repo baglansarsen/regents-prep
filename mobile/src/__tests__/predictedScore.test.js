@@ -5,7 +5,7 @@
  */
 import {
   predictRegentsScore, smoothPrediction, weakestUnitOf, weakestAttemptedUnitOf,
-  pointsToGain, rankUnitsByYield,
+  pointsToGain, rankUnitsByYield, highestYieldWeakUnitOf,
 } from '../utils/predictedScore'
 
 const UNITS = [
@@ -243,6 +243,35 @@ describe('pointsToGain / rankUnitsByYield', () => {
       { topic: 'skill', confidence: 0 },               // no weight — sorts last regardless
     ])
     expect(ranked.map((r) => r.topic)).toEqual(['b', 'a', 'skill'])
+  })
+})
+
+describe('highestYieldWeakUnitOf', () => {
+  test('picks the weak, weighted unit with the most points on the table over a weaker-but-lower-value one', () => {
+    const breakdown = [
+      { id: 'small', topic: 'small', title: 'Small', pct: 50, confidence: 40, examWeight: 0.05 }, // weaker but low-value
+      { id: 'big',   topic: 'big',   title: 'Big',   pct: 70, confidence: 60, examWeight: 0.3 },  // less weak but high-value
+      { id: 'mastered', topic: 'mastered', title: 'Mastered', pct: 95, confidence: 95, examWeight: 0.2 },
+    ]
+    expect(highestYieldWeakUnitOf(breakdown).id).toBe('big')
+  })
+
+  test('returns null when no unit in the breakdown declares examWeight', () => {
+    const breakdown = [
+      { topic: 'a', pct: 40, confidence: 40 },
+      { topic: 'b', pct: 90, confidence: 90 },
+    ]
+    expect(highestYieldWeakUnitOf(breakdown)).toBeNull()
+  })
+
+  test('returns null when every weighted unit is already at/above the mastery threshold', () => {
+    const breakdown = [{ topic: 'a', pct: 90, confidence: 90, examWeight: 0.5 }]
+    expect(highestYieldWeakUnitOf(breakdown)).toBeNull()
+  })
+
+  test('ignores unattempted units even if weighted', () => {
+    const breakdown = [{ topic: 'a', pct: null, confidence: null, examWeight: 0.9 }]
+    expect(highestYieldWeakUnitOf(breakdown)).toBeNull()
   })
 })
 

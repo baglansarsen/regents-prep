@@ -90,7 +90,7 @@ export function pickSmartQuest({
   if (weakestUnit?.topic) {
     return {
       id: `focus_${weakestUnit.topic}`, icon: '🎯', action: 'complete_quiz_topic',
-      topic: weakestUnit.topic, goal: 1, rp: 30,
+      topic: weakestUnit.topic, unitId: weakestUnit.id ?? null, goal: 1, rp: 30,
       label: `Complete a ${weakestUnit.title ?? 'weak-topic'} quiz`,
     }
   }

@@ -179,6 +179,7 @@ function pickBase({
       priority:         5,
       actionType:       'weak_unit_quiz',
       topic:            weakestUnit.topic,
+      unitId:           weakestUnit.id ?? null,
       estimatedMinutes: 10,
     }
   }
@@ -251,7 +252,7 @@ export function nextActionChips(args, heroActionType, limit = 3) {
     out.push({ id: 'chip_review', icon: ICONS.review_mistakes, title: `${args.dueCount} due`, cta: 'Review', actionType: 'review_mistakes', topic: null, estimatedMinutes: 8 })
   }
   if (heroActionType !== 'weak_unit_quiz' && args.weakestUnit && args.weakestUnit.pct != null && args.weakestUnit.pct < MASTERY_MIN) {
-    out.push({ id: `chip_weak_${args.weakestUnit.topic}`, icon: ICONS.weak_unit_quiz, title: args.weakestUnit.title, cta: 'Drill', actionType: 'weak_unit_quiz', topic: args.weakestUnit.topic, estimatedMinutes: 10 })
+    out.push({ id: `chip_weak_${args.weakestUnit.topic}`, icon: ICONS.weak_unit_quiz, title: args.weakestUnit.title, cta: 'Drill', actionType: 'weak_unit_quiz', topic: args.weakestUnit.topic, unitId: args.weakestUnit.id ?? null, estimatedMinutes: 10 })
   }
   if (heroActionType !== 'practice_exam' && args.daysToExam != null && args.daysToExam <= PRACTICE_EXAM_WINDOW_DAYS && !args.hasTakenPracticeExam) {
     out.push({ id: 'chip_exam', icon: ICONS.practice_exam, title: 'Practice exam', cta: 'Start', actionType: 'practice_exam', topic: null, estimatedMinutes: 90 })
@@ -369,7 +370,7 @@ export function buildTodayPlan({
         ? 'Low energy — recall practice costs nothing and still counts.'
         : 'Your weakest topic — the single biggest score mover.',
       cta: recovering ? 'Practice' : 'Drill it',
-      topic: weakestUnit.topic, estimatedMinutes: 8,
+      topic: weakestUnit.topic, unitId: weakestUnit.id ?? null, estimatedMinutes: 8,
     }))
   }
 

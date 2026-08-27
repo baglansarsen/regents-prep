@@ -272,3 +272,27 @@ export function rankUnitsByYield(topicBreakdown = []) {
     .map((t) => ({ ...t, yield: pointsToGain(t) }))
     .sort((a, b) => (b.yield ?? -1) - (a.yield ?? -1))
 }
+
+/**
+ * The attempted, under-mastered unit worth the most exam points right now —
+ * what "drill the highest-value weak spot" (the copy already used in
+ * rescuePlan.js) should actually mean. Feeds the weak-unit rung in
+ * todayMission.js/smartQuest.js/rescuePlan.js via usePredictedScore's
+ * weakestAttemptedUnit, so none of those pure planners need to change: they
+ * already just consume whichever unit object they're handed.
+ *
+ * Returns null whenever no unit in the breakdown has a real examWeight —
+ * every subject except Earth and Space Sciences today — so callers should
+ * fall back to weakestAttemptedUnitOf, which is exactly what
+ * usePredictedScore does. rankUnitsByYield alone can't be used directly here:
+ * with no unit weighted, every yield is null and the sort becomes a no-op
+ * that would silently return topicBreakdown[0] instead of the weakest unit.
+ */
+export function highestYieldWeakUnitOf(topicBreakdown = [], threshold = MASTERY_MIN) {
+  const candidates = topicBreakdown.filter((t) => {
+    if (t.pct == null || typeof t.examWeight !== 'number') return false
+    return (t.confidence ?? t.pct) < threshold
+  })
+  if (!candidates.length) return null
+  return rankUnitsByYield(candidates)[0]
+}

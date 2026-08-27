@@ -2,7 +2,7 @@ import { useEffect, useMemo } from 'react'
 import { useExamScores } from './useExamScores'
 import { useDailyStreak } from './useDailyStreak'
 import { useGoal } from '../context/GoalContext'
-import { predictRegentsScore, smoothPrediction, weakestUnitOf, weakestAttemptedUnitOf } from '../utils/predictedScore'
+import { predictRegentsScore, smoothPrediction, weakestUnitOf, weakestAttemptedUnitOf, highestYieldWeakUnitOf } from '../utils/predictedScore'
 import { REGENTS_EXAMS } from '../content/regents-exams/index'
 import { localDateStr } from '../utils/localDate'
 
@@ -58,8 +58,14 @@ export function usePredictedScore(subject, units = [], history = []) {
   const weakestUnit          = useMemo(() => weakestUnitOf(result.topicBreakdown), [result])
   // Attempted-only variant for weak-unit drills (mission card / smart quest) —
   // weakestUnit ranks unattempted units first, which would mask genuinely weak
-  // attempted topics behind untouched ones.
-  const weakestAttemptedUnit = useMemo(() => weakestAttemptedUnitOf(result.topicBreakdown), [result])
+  // attempted topics behind untouched ones. Prefer the highest-EXAM-VALUE weak
+  // unit when examWeight data exists (Earth and Space Sciences today); every
+  // other subject has no weighted units, so highestYieldWeakUnitOf returns
+  // null and this falls back to the original weakest-by-confidence pick.
+  const weakestAttemptedUnit = useMemo(
+    () => highestYieldWeakUnitOf(result.topicBreakdown) ?? weakestAttemptedUnitOf(result.topicBreakdown),
+    [result],
+  )
 
   return {
     predicted:    smoothed?.value ?? result.score,
