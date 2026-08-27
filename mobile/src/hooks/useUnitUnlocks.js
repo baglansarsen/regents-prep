@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { skipUnlocksKey } from '../utils/storageKeys'
+import { isUnitUnlocked as isUnitUnlockedPure, unitUnlockHint as unitUnlockHintPure } from '../utils/unitUnlocks'
 
 export function useUnitUnlocks(units, lessonComplete, unitComplete, subject) {
   const [skipUnlocked, setSkipUnlocked] = useState(new Set())
@@ -15,18 +16,8 @@ export function useUnitUnlocks(units, lessonComplete, unitComplete, subject) {
 
   useEffect(() => { reloadSkipUnlocks() }, [reloadSkipUnlocks])
 
-  function isUnitUnlocked(unitIndex) {
-    if (unitIndex === 0) return true
-    const prev    = units[unitIndex - 1]
-    const current = units[unitIndex]
-    return unitComplete(prev.topic, prev.lessonCount) || skipUnlocked.has(current?.topic)
-  }
-
-  function unitUnlockHint(unitIndex) {
-    if (unitIndex === 0) return null
-    const prev = units[unitIndex - 1]
-    return `Complete all lessons in ${prev.title} to unlock, or pass the ⚡ Challenge with ≤3 mistakes`
-  }
+  const isUnitUnlocked  = (unitIndex) => isUnitUnlockedPure(units, unitIndex, unitComplete, skipUnlocked)
+  const unitUnlockHint  = (unitIndex) => unitUnlockHintPure(units, unitIndex)
 
   return { isUnitUnlocked, unitUnlockHint, reloadSkipUnlocks }
 }

@@ -1,5 +1,6 @@
 import { UNITS, getByTopic, allQuestions } from '../content/earth-science/units'
 import { predictRegentsScore } from '../utils/predictedScore'
+import { isUnitUnlocked } from '../utils/unitUnlocks'
 
 // Guards the unit-metadata invariants added for goal-wiring (Step 2 of
 // ~/.claude/plans/expressive-meandering-lagoon.md) so a future exam import or
@@ -72,5 +73,18 @@ describe('earth-science UNITS metadata', () => {
     expect(withIt.coldStart).toBe(false)
     expect(withoutIt.coldStart).toBe(true) // no signal at all yet
     expect(withIt.score).toBeGreaterThan(50)
+  })
+
+  // Step 4f wired useUnitUnlocks.js to real UNITS.prereqs instead of array
+  // position — confirm it actually gates on the real content, not just the
+  // synthetic fixtures in unitUnlocks.test.js.
+  it('unlock graph over the real UNITS: first unit open, later ones gated until prereqs complete', () => {
+    const noneComplete = () => false
+    expect(isUnitUnlocked(UNITS, 0, noneComplete)).toBe(true)
+    const lastIndex = UNITS.length - 1
+    expect(isUnitUnlocked(UNITS, lastIndex, noneComplete)).toBe(false)
+
+    const allComplete = () => true
+    expect(isUnitUnlocked(UNITS, lastIndex, allComplete)).toBe(true)
   })
 })
