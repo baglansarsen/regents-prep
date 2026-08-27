@@ -60,7 +60,7 @@ export const ACHIEVEMENTS = [
   {
     id: 'es_earth_scientist',
     title: 'Earth Scientist',
-    description: 'Pass all 8 Earth Science topics',
+    description: 'Pass all 8 Earth and Space Sciences topics',
     icon: '🌍',
     condition: s => s.topicsPassed?.size >= 8,
   },
@@ -74,7 +74,7 @@ export const ACHIEVEMENTS = [
   {
     id: 'es_perfect_quiz',
     title: 'Perfect Field Study',
-    description: 'Score 100% on any Earth Science quiz',
+    description: 'Score 100% on any Earth and Space Sciences quiz',
     icon: '💯',
     condition: s => s.perfectScore,
   },

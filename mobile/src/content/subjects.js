@@ -14,7 +14,7 @@ export const SUBJECTS = {
 
 export const SUBJECT_META = {
   'living-environment': { id: 'living-environment', name: 'Living Environment',    icon: '🔬', color: '#16a34a', shortName: 'LE' },
-  'earth-science':      { id: 'earth-science',      name: 'Earth Science',         icon: '🌍', color: '#3b82f6', shortName: 'ES' },
+  'earth-science':      { id: 'earth-science',      name: 'Earth and Space Sciences', icon: '🌍', color: '#3b82f6', shortName: 'ES' },
   'chemistry':          { id: 'chemistry',          name: 'Chemistry',             icon: '🧪', color: '#ec4899', shortName: 'CH' },
   'physics':            { id: 'physics',            name: 'Physics',               icon: '⚡', color: '#f59e0b', shortName: 'PH' },
   'algebra-1':          { id: 'algebra-1',          name: 'Algebra 1',             icon: '📐', color: '#8b5cf6', shortName: 'A1' },

@@ -30,7 +30,7 @@ const ES_TOPIC_MAP = {
 const _api = makeLessonApi({ exams: ES_EXAMS, topicMap: ES_TOPIC_MAP, lessonSize: 20 })
 
 const SUBTOPIC_UNITS = [TOPICS.ROCKS, TOPICS.SURFACE_PROCESSES, TOPICS.MINERALS, TOPICS.SOLAR_SYSTEM, TOPICS.COSMOS]
-// Earth Science is a data/map/reference-table exam — these skills define it.
+// Earth and Space Sciences is a data/map/reference-table exam — these skills define it.
 const SP_SKILLS = ['data', 'map', 'reference', 'experiment']
 
 export const UNITS = [
@@ -48,7 +48,7 @@ export const UNITS = [
   // ── Astronomy, split ──
   { id: 'es-solar',   title: 'Solar System & Earth Motions',     icon: TOPIC_ICONS[TOPICS.SOLAR_SYSTEM],      color: '#1d4ed8', darkColor: '#1e40af', topic: TOPICS.SOLAR_SYSTEM,      lessonCount: 3 },
   { id: 'es-cosmos',  title: 'Moon, Stars & the Universe',       icon: TOPIC_ICONS[TOPICS.COSMOS],            color: '#4f46e5', darkColor: '#4338ca', topic: TOPICS.COSMOS,            lessonCount: 2 },
-  { id: 'es-u9',      title: 'Earth Science Mixed Review',       icon: TOPIC_ICONS[TOPICS.MIXED_REVIEW],      color: '#6b7280', darkColor: '#4b5563', topic: TOPICS.MIXED_REVIEW,      lessonCount: 3 },
+  { id: 'es-u9',      title: 'Earth and Space Sciences Mixed Review', icon: TOPIC_ICONS[TOPICS.MIXED_REVIEW], color: '#6b7280', darkColor: '#4b5563', topic: TOPICS.MIXED_REVIEW,      lessonCount: 3 },
 ]
 
 // Route each unit to its pool: sub-topic split, skill pool, or whole topic.

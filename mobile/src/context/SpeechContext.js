@@ -7,7 +7,7 @@ const SpeechContext = createContext(null)
 // ─── Subject display names for speech messages ───────────────────────────────
 const SUBJECT_LABEL = {
   'living-environment': 'Living Environment',
-  'earth-science':      'Earth Science',
+  'earth-science':      'Earth and Space Sciences',
   'chemistry':          'Chemistry',
   'physics':            'Physics',
   'algebra-1':          'Algebra 1',

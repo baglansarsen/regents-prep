@@ -1,4 +1,4 @@
-// Topic constants for Earth Science — kept for flashcards, achievements, and navigation.
+// Topic constants for Earth and Space Sciences — kept for flashcards, achievements, and navigation.
 // Practice questions removed; lessons are now sourced from the Regents exam bank.
 // See units.js (makeLessonApi) and _shared/lessonEngine.js
 
@@ -18,7 +18,7 @@ export const TOPICS = {
   COSMOS:            'Moon, Stars & the Universe',
   WATER_CYCLE:       'Water Cycle & Oceans',
   SCIENCE_PRACTICES: 'Data, Maps & Reference Tables',
-  MIXED_REVIEW:      'Earth Science Mixed Review',
+  MIXED_REVIEW:      'Earth and Space Sciences Mixed Review',
 }
 
 export const TOPIC_ICONS = {

@@ -457,7 +457,7 @@ export default function HomeScreen({ navigation }) {
   // ── Idle speech — fires every 4–8 min while home screen is active ────────
   const subjectName = {
     'living-environment': 'Living Environment',
-    'earth-science':      'Earth Science',
+    'earth-science':      'Earth and Space Sciences',
     'chemistry':          'Chemistry',
     'physics':            'Physics',
     'algebra-1':          'Algebra 1',
