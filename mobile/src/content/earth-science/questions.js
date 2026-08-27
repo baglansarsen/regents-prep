@@ -18,7 +18,7 @@ export const TOPICS = {
   COSMOS:            'Moon, Stars & the Universe',
   WATER_CYCLE:       'Water Cycle & Oceans',
   SCIENCE_PRACTICES: 'Data, Maps & Reference Tables',
-  MIXED_REVIEW:      'Earth and Space Sciences Mixed Review',
+  MIXED_REVIEW:      'Earth Science Mixed Review',
 }
 
 export const TOPIC_ICONS = {

@@ -1,18 +1,44 @@
 import { TOPICS, TOPIC_ICONS } from './questions'
 import { makeLessonApi } from '../_shared/lessonEngine'
+import esAug2018 from '../regents-exams/earth-science/august-2018'
 import esAug2019 from '../regents-exams/earth-science/august-2019'
+import esAug2021 from '../regents-exams/earth-science/august-2021'
+import esJun2018 from '../regents-exams/earth-science/june-2018'
 import esJun2019 from '../regents-exams/earth-science/june-2019'
+import esJun2021 from '../regents-exams/earth-science/june-2021'
+import esJan2020 from '../regents-exams/earth-science/january-2020'
 import esAug2022 from '../regents-exams/earth-science/august-2022'
 import esJun2022 from '../regents-exams/earth-science/june-2022'
 import esAug2023 from '../regents-exams/earth-science/august-2023'
 import esJun2023 from '../regents-exams/earth-science/june-2023'
+import esJan2023 from '../regents-exams/earth-science/january-2023'
 import esAug2024 from '../regents-exams/earth-science/august-2024'
 import esJun2024 from '../regents-exams/earth-science/june-2024'
+import esJan2024 from '../regents-exams/earth-science/january-2024'
+import esAug2025 from '../regents-exams/earth-science/august-2025'
 import esJun2025 from '../regents-exams/earth-science/june-2025'
+import esJan2025 from '../regents-exams/earth-science/january-2025'
+import esJan2026 from '../regents-exams/earth-science/january-2026'
+import esJun2026 from '../regents-exams/earth-science/june-2026'
 
-const ES_EXAMS = [esAug2019, esJun2019, esAug2022, esJun2022, esAug2023, esJun2023, esAug2024, esJun2024, esJun2025]
+// Every posted NYSED Earth Science / Earth and Space Sciences exam we have on
+// disk. august-2021 has no `topic` tags yet (pre-enrichment) so it currently
+// contributes 0 questions to the pool — harmless placeholder until tagged.
+export const ES_EXAMS = [
+  esAug2018, esJun2018,
+  esAug2019, esJun2019,
+  esJan2020,
+  esAug2021, esJun2021,
+  esAug2022, esJun2022,
+  esAug2023, esJun2023, esJan2023,
+  esAug2024, esJun2024, esJan2024,
+  esAug2025, esJun2025, esJan2025,
+  esJan2026, esJun2026,
+]
 
-const ES_TOPIC_MAP = {
+// Exported so index.js's Stimulus Practice pool can share this instead of
+// keeping a second, driftable copy.
+export const ES_TOPIC_MAP = {
   'Geology':             TOPICS.GEOLOGY,        // split into 3 sub-topic units
   'Plate Tectonics':     TOPICS.PLATE_TECTONICS,
   'Geologic Time':       TOPICS.GEOLOGIC_TIME,
