@@ -74,7 +74,12 @@ const questionKey = (q) => q.id ?? q.text
 // Home grid (which gates on the unit topic). Sampling by the raw normalized
 // `q.topic` instead would unlock nothing for the split-cell and skill units,
 // whose unit names differ from their coarse pool topic.
-function buildPlacementSet(units, getByTopic, target = TARGET) {
+// Guarantees 1 question per unit (see step 1 below) — the guarantee is only
+// real if target can hold every unit. TARGET (10) was already too small for
+// chemistry/earth-science's larger unit counts; deriving the floor from
+// units.length instead of hardcoding it keeps the default test length (10)
+// for subjects with fewer units while it grows automatically for larger ones.
+function buildPlacementSet(units, getByTopic, target = Math.max(TARGET, units.length)) {
   function pick(unit, n) {
     const pool = (getByTopic?.(unit.topic) ?? [])
       .filter((q) => Array.isArray(q.choices) && q.choices.length > 0)

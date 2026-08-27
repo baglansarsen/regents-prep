@@ -1,5 +1,15 @@
 import { TOPICS } from './questions'
 
+// The 8 topics with their own achievement below — es_earth_scientist checks
+// against exactly this list (not s.topicsPassed?.size), since topicsPassed is
+// evaluated against COMBINED Living Environment + Earth and Space Sciences
+// history (see utils/achievements.js) and a raw size check could fire off
+// Living Environment topics alone.
+const CORE_TOPICS = [
+  TOPICS.ROCKS, TOPICS.PLATE_TECTONICS, TOPICS.GEOLOGIC_TIME, TOPICS.METEOROLOGY,
+  TOPICS.CLIMATE, TOPICS.SOLAR_SYSTEM, TOPICS.WATER_CYCLE, TOPICS.SCIENCE_PRACTICES,
+]
+
 export const ACHIEVEMENTS = [
   {
     id: 'es_rock_hound',
@@ -60,9 +70,23 @@ export const ACHIEVEMENTS = [
   {
     id: 'es_earth_scientist',
     title: 'Earth Scientist',
-    description: 'Pass all 8 Earth and Space Sciences topics',
+    description: 'Pass all 8 core Earth and Space Sciences topics',
     icon: '🌍',
-    condition: s => s.topicsPassed?.size >= 8,
+    condition: s => CORE_TOPICS.every(t => s.topicsPassed?.has(t)),
+  },
+  {
+    id: 'es_risk_analyst',
+    title: 'Risk Analyst',
+    description: 'Pass Natural Hazards & Risk with 80%+',
+    icon: '⚠️',
+    condition: s => s.topicsPassed?.has(TOPICS.HAZARDS),
+  },
+  {
+    id: 'es_climate_guardian',
+    title: 'Climate Guardian',
+    description: 'Pass Global Climate Change with 80%+',
+    icon: '🌡️',
+    condition: s => s.topicsPassed?.has(TOPICS.CLIMATE_CHANGE),
   },
   {
     id: 'es_speed_geologist',

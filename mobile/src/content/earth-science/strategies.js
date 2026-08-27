@@ -224,4 +224,60 @@ export const STRATEGIES = {
       'Latitude/longitude identification questions are quick — answer those immediately.',
     ],
   },
+
+  'es-hazards': { // Natural Hazards & Risk
+    mentalPrep: [
+      'Keep the vocabulary straight before anything else: hazard = the natural event/process; exposure = who/what is in its path; vulnerability = how much harm results; risk = all three combined.',
+      'Remember hazard distribution isn\'t random — it maps onto plate boundaries (earthquakes, volcanoes), floodplains (flooding), and steep saturated slopes (landslides).',
+      'Two identical-magnitude hazards can produce very different risk depending on population density and construction standards — the hazard didn\'t change, the exposure did.',
+    ],
+    answeringTechniques: [
+      'When a question distinguishes hazard from risk, find the part of the stem describing exposure/vulnerability (people, buildings, land use) — that\'s the risk half.',
+      'For mitigation-technology questions (early-warning systems, building codes), ask what specifically the technology buys: usually time to evacuate or resistance to damage, not prevention of the hazard itself.',
+      'Cause-and-effect chains matter: match the specific trigger described (fault rupture, seafloor displacement, saturated slope) to its named hazard rather than a general "natural disaster" answer.',
+    ],
+    guessingStrategy: [
+      'If the stem mentions a floodplain, coastline, or steep saturated slope, the correct answer is almost always the hazard tied to that specific setting (flood, tsunami, landslide) — not a generic one.',
+      'Answers describing consequences of BOTH more people and weaker buildings are usually the risk-side answer; answers about the event itself are the hazard-side answer.',
+      'When a technology choice is offered, the one that increases warning time or engineered resistance beats one that just sounds high-tech.',
+    ],
+    processOfElimination: [
+      'Eliminate choices that treat hazard and risk as interchangeable — they measure two different things.',
+      'Drop answers claiming a location with zero natural hazards can still have hazard-driven risk — risk requires a hazard to begin with.',
+      'Remove choices reversing cause and effect (e.g. saying dense population causes earthquakes, rather than increasing their risk).',
+    ],
+    timeManagement: [
+      'Vocabulary-precision questions (lahar vs. caldera vs. fumarole, hazard vs. risk) are fast recall once the definitions are solid — answer those first.',
+      'Plate-boundary-to-hazard reasoning questions take a moment to trace the mechanism; don\'t rush past the setup.',
+      'Mitigation/technology questions are usually straightforward "what does this actually protect against" — don\'t overthink them.',
+    ],
+  },
+
+  'es-climchange': { // Global Climate Change
+    mentalPrep: [
+      'Separate the mechanism (greenhouse effect — natural and necessary) from the trend (enhanced/human-driven warming from added CO₂) before answering anything.',
+      'Know the two big feedback ideas: ice-albedo (less ice → more absorbed sunlight → more warming) and thermal expansion + land-ice melt driving sea-level rise.',
+      'Keep proxy data straight: ice cores, tree rings, and sediment layers all record past temperature/precipitation in their thickness or composition — that\'s how we know about climate before direct measurements.',
+    ],
+    answeringTechniques: [
+      'Rate-of-change questions are the exam\'s favorite way to test human vs. natural causation: natural cycles (Milankovitch) act over tens of thousands of years; the recent CO₂/temperature rise happened in about a century.',
+      'Mitigation vs. adaptation: mitigation reduces the CAUSE (cutting emissions); adaptation adjusts to the EFFECT (sea walls, drought-resistant crops). Ask which one the choice targets.',
+      'Ocean acidification questions: trace the chain — CO₂ dissolves in seawater → forms carbonic acid → lowers pH. Don\'t confuse it with warming, a separate (related) effect of the same excess CO₂.',
+    ],
+    guessingStrategy: [
+      'If a question is really about the RATE of change rather than whether change happens at all, human causation is almost always the intended answer.',
+      'When a strategy reduces emissions or fossil fuel use, it\'s mitigation; when it helps people/systems cope with a changed climate, it\'s adaptation.',
+      'Melting SEA ice barely changes sea level (it displaces its own weight already); melting LAND ice (glaciers, ice sheets) does — watch for that distinction.',
+    ],
+    processOfElimination: [
+      'Eliminate choices citing the ozone layer or UV protection when the question is about heat-trapping gases — those are different phenomena.',
+      'Drop answers that reverse the ice-albedo feedback (claiming ice absorbs more sunlight than open water — it\'s the opposite).',
+      'Remove choices treating a single volcanic eruption or a short-term weather event as evidence for or against long-term climate trends.',
+    ],
+    timeManagement: [
+      'Vocabulary questions (greenhouse effect, mitigation vs. adaptation, proxy data) are fast recall — answer those first.',
+      'Cause-and-rate reasoning questions (why is this human-caused, not natural) take a moment to reconstruct the timescale argument; don\'t skip that step under time pressure.',
+      'Feedback-loop questions (ice-albedo, sea-level rise) reward drawing the chain of cause and effect rather than guessing from memory.',
+    ],
+  },
 }
