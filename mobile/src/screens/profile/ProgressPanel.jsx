@@ -91,7 +91,7 @@ export default function ProgressPanel({ navigation }) {
   }, [])
   const achHistory = history.filter((h) => {
     const sub = h.subject ?? 'living-environment'
-    return sub === 'living-environment' || sub === 'earth-science'
+    return sub === 'living-environment' || sub === 'earth-science' || sub === 'life-science'
   })
   const { earned, total: achTotal } = computeAchievements({ history: achHistory, streak, rp, examScores, diagCount })
 

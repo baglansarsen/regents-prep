@@ -1,5 +1,6 @@
 import * as leData from '../content/living-environment/index'
 import * as esData from '../content/earth-science/index'
+import * as lsData from '../content/life-science/index'
 
 /**
  * computeAchievements — evaluate which achievements a student has earned.
@@ -8,12 +9,13 @@ import * as esData from '../content/earth-science/index'
  * Progress tab's preview row evaluate from one source. Achievements are computed
  * on the fly from aggregate stats (never persisted).
  *
- * Note: the achievement catalog is Living-Environment + Earth-Science only (the
- * two subjects that ship `achievements`), so `history` should already be the
- * combined LE+ES history, matching the prior screen behavior.
+ * Note: the achievement catalog is Living-Environment + Earth-Science +
+ * Life-Science only (the three subjects that ship `achievements`), so
+ * `history` should already be the combined history of those subjects,
+ * matching the prior screen behavior.
  *
  * @param {object} args
- * @param {Array}  args.history     combined LE+ES quiz history rows
+ * @param {Array}  args.history     combined LE+ES+LS quiz history rows
  * @param {number} args.streak      current day streak
  * @param {number} args.rp          total RP
  * @param {object} args.examScores  useExamScores().scores  ({ [id]: {best,last} })
@@ -43,7 +45,7 @@ export function computeAchievements({ history = [], streak = 0, rp = 0, examScor
     noTimeouts: totalQuizzes >= 1,
   }
 
-  const all = [...(leData.achievements ?? []), ...(esData.achievements ?? [])]
+  const all = [...(leData.achievements ?? []), ...(esData.achievements ?? []), ...(lsData.achievements ?? [])]
   const passes = (a) => { try { return a.condition(stats) } catch { return false } }
 
   const earned = all.filter(passes)

@@ -30,6 +30,7 @@ export default function AchievementsScreen({ navigation }) {
 
   const leHistory = history.filter((h) => (h.subject ?? 'living-environment') === 'living-environment')
   const esHistory = history.filter((h) => h.subject === 'earth-science')
+  const lsHistory = history.filter((h) => h.subject === 'life-science')
 
   useEffect(() => {
     async function checkDiag() {
@@ -46,7 +47,7 @@ export default function AchievementsScreen({ navigation }) {
   }, [])
 
   const { earned, locked, total: totalAchievements } = computeAchievements({
-    history: [...leHistory, ...esHistory],
+    history: [...leHistory, ...esHistory, ...lsHistory],
     streak, rp, examScores, diagCount,
   })
 
