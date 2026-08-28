@@ -32,9 +32,9 @@ export default {
         "AB = (1/2)DE"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 0,
-      "explanation": "Segment DE connects the midpoints of two sides of the triangle, so it is a midsegment. A midsegment is parallel to the third side and half its length, so DE = (1/2)AB.",
-      "subTopic": "Triangle Relationships"
+      "explanation": "Segment DE connects the midpoints of two sides of the triangle, so it is a midsegment. A midsegment is parallel to the third side and half its length, so DE = (1/2)AB."
     },
     {
       "number": 3,

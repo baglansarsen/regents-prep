@@ -17,6 +17,7 @@ export default {
         "150°"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 2,
       "explanation": "A regular hexagon has 6 lines/orders of rotational symmetry, so it maps onto itself at multiples of 360° ÷ 6 = 60°. Of the choices, only 120° (which is 2 × 60°) is a multiple of 60°.",
       "diveDeep": "For any regular n-gon, the smallest angle of rotational symmetry is 360°/n, and any integer multiple of that angle also maps the figure onto itself. A regular hexagon (n = 6) has symmetry every 60°, so 60°, 120°, 180°, 240°, 300°, and 360° all work. The common trap is choosing 90° because it works for a square — but the polygon here has 6 sides, not 4. Always compute 360°/n first, then test which choices are multiples of that value.",
@@ -51,6 +52,7 @@ export default {
         "a translation ten units to the left followed by a reflection over the x-axis"
       ],
       "topic": "Transformations",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 0,
       "image": "/images/exams/geo-january-2025/q3.png",
       "explanation": "Tracking corresponding vertices, ABCD is first reflected over the x-axis (negating each y-coordinate) and then slid ten units left and one unit up, which places each image vertex exactly on the matching vertex of RSTU.",
@@ -69,6 +71,7 @@ export default {
         "a reflection followed by a translation"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 1,
       "explanation": "Congruent triangles can always be mapped onto each other by some sequence of rigid motions, but a single reflection alone will not necessarily work unless the figures happen to be mirror images in the correct position; a reflection changes orientation and may not align them.",
       "diveDeep": "Two figures are congruent if and only if some composition of rigid motions (translations, rotations, reflections) maps one onto the other — but a SINGLE specified motion is not guaranteed to do it. Orientation is the key idea: translations and rotations preserve orientation (direct isometries), while reflections reverse it. If △ABC and △DEF have the same orientation, no reflection (odd count) can map one onto the other. When a problem asks which motion does \"not necessarily\" work, look for the one whose orientation requirement may conflict with the given figures.",
@@ -205,6 +208,7 @@ export default {
         "DA ≅ EC"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 0,
       "explanation": "A midsegment DE is half the length of the parallel side BC, so DE = ½BC. Since D is the midpoint of AB, BD = ½AB. Given BD ≅ DE means ½AB = ½BC, so AB = BC, making △ABC isosceles.",
       "diveDeep": "The Triangle Midsegment Theorem states a midsegment is parallel to the third side and exactly half its length. Here DE connects midpoints, so DE = ½BC, and BD as half of side AB equals ½AB. Setting the two halves equal forces two sides of the triangle to be congruent. The trap answers (scalene, or pairing the wrong segments) ignore that a midsegment relates to the side it is parallel to, not an arbitrary side. Always identify which full side a midsegment parallels before comparing lengths.",
@@ -223,6 +227,7 @@ export default {
         "128°"
       ],
       "topic": "Lines & Angles",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 2,
       "explanation": "Since OR ≅ ON, △ORN is isosceles with base angles ∠ORN ≅ ∠ONR. The base angles each equal (180° − 116°)/2 = 32°. Then ∠LKN, an alternate interior angle relationship through the parallel lines, equals 116°.",
       "diveDeep": "This problem combines parallel-line angle relationships with the Isosceles Triangle Theorem. When two parallel lines are cut by a transversal, alternate interior angles are congruent and co-interior (same-side interior) angles are supplementary. The congruent sides OR ≅ ON create equal base angles, letting you find the triangle's angles. Map each angle carefully to its parallel-line pair; mixing up alternate-interior with co-interior angles is the most common error here.",
@@ -257,6 +262,7 @@ export default {
         "a clockwise rotation of 180° about point E"
       ],
       "topic": "Transformations",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 3,
       "explanation": "The diagonals of a parallelogram bisect each other at E, so a 180° rotation about E maps A→C, B→D, and C→A, carrying △ABC exactly onto △CDA.",
       "diveDeep": "A parallelogram has point symmetry about the intersection of its diagonals: a 180° rotation about that center maps each vertex to the opposite vertex. Because the diagonals bisect each other, E is the midpoint of both AC and BD, which is precisely what a half-turn requires. Reflections over a diagonal generally do NOT map a parallelogram onto itself unless it is also a rhombus (where the diagonal is a line of symmetry). Verify by tracking each vertex to its image rather than relying on the figure's appearance.",

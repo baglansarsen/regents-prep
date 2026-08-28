@@ -35,6 +35,7 @@ export default {
         "a dilation"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 3,
       "explanation": "A dilation changes the size of a figure by a scale factor, so it does not preserve distance unless the scale factor is 1.",
       "diveDeep": "Translations, rotations, and reflections are rigid motions (isometries) that preserve both distance and angle measure, so the image is always congruent to the pre-image. A dilation preserves angle measure and shape but multiplies all lengths by the scale factor, producing a similar (not congruent) figure. A frequent error is assuming dilations preserve everything — remember that only when k = 1 is a dilation an isometry. Know the difference between congruence-preserving rigid motions and similarity-preserving dilations.",
@@ -52,6 +53,7 @@ export default {
         "72°"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 2,
       "explanation": "A regular hexagon has 6-fold rotational symmetry, so the smallest rotation that maps it onto itself is 360° ÷ 6 = 60°.",
       "diveDeep": "For any regular n-sided polygon, the minimum rotation that carries it onto itself is 360°/n. A hexagon has n = 6, giving 60°. The trap choice 72° is the answer for a pentagon (360/5), and 45° corresponds to an octagon (360/8). On the exam, count the sides carefully and divide 360 by that number; multiples of that smallest angle also work, but the question asks for the minimum.",
@@ -154,6 +156,7 @@ export default {
         "AB ≅ BC"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 1,
       "explanation": "In any parallelogram the diagonals bisect each other, so E is the midpoint of AC, making AE ≅ EC.",
       "diveDeep": "A defining property of all parallelograms is that the diagonals bisect each other (each diagonal cuts the other in half). The traps describe properties of special parallelograms: congruent diagonals (AC ≅ BD) hold only for rectangles, perpendicular diagonals (AC ⊥ BD) only for rhombi, and adjacent congruent sides (AB ≅ BC) only for rhombi. Always distinguish properties that hold for every parallelogram from those reserved for rectangles, rhombi, or squares.",
@@ -189,6 +192,7 @@ export default {
         "a translation followed by a line reflection"
       ],
       "topic": "Transformations",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 0,
       "explanation": "The first image preserves orientation and slides position (a translation), and the second turns the figure while preserving congruence (a rotation).",
       "diveDeep": "Identifying a sequence of transformations relies on tracking orientation (the order of labeled vertices) and position. A translation preserves orientation and merely shifts the figure; a rotation preserves congruence but turns it; a reflection reverses orientation (flips it like a mirror). Check whether vertex order stays clockwise/counterclockwise: if it never flips, no reflection occurred, eliminating the reflection choices. Compare corresponding vertices step by step to confirm slide vs. turn.",
@@ -311,6 +315,7 @@ export default {
         "The orientation of △ABC is the same as the orientation of △A'B'C'."
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 1,
       "explanation": "Rigid motions preserve distance, so corresponding segments are always congruent: AB ≅ A′B′.",
       "diveDeep": "Rigid motions (translations, rotations, reflections) preserve length and angle measure, guaranteeing the image is congruent to the pre-image — so AB ≅ A′B′ always holds. Parallelism (AB ∥ A′B′) fails for rotations and reflections; matching A to B′ confuses corresponding parts (A corresponds to A′, not B′); and orientation reverses under reflection. Focus on the invariants of isometries: distance and angle measure, hence congruence of corresponding parts.",
@@ -380,6 +385,7 @@ export default {
         "∠ADC ≅ ∠ABC"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 1,
       "explanation": "A parallelogram with two consecutive sides congruent (AB ≅ BC) must have all four sides congruent, which defines a rhombus.",
       "diveDeep": "A rhombus is a parallelogram with all sides congruent; since opposite sides of a parallelogram are already congruent, proving one pair of consecutive sides congruent (AB ≅ BC) forces all four equal. Congruent diagonals (AC ≅ BD) would prove a rectangle, not a rhombus. Properties like AD ∥ BC and ∠ADC ≅ ∠ABC are already true of every parallelogram and add nothing. Identify which extra condition uniquely upgrades the parallelogram to the target shape.",
@@ -414,6 +420,7 @@ export default {
         "TM = TR"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 1,
       "explanation": "The centroid divides each median in a 2:1 ratio from vertex to midpoint, so BX = 2RX.",
       "diveDeep": "The centroid is the intersection of a triangle's three medians and divides each median so the portion from the vertex is twice the portion to the opposite midpoint (a 2:1 ratio). With BR a median, BX (vertex side) = 2 × RX (midpoint side). The other choices use arbitrary numerical relationships that need not hold. Memorize the centroid's defining 2:1 partition and that medians connect a vertex to the midpoint of the opposite side.",

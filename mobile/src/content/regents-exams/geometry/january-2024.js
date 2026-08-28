@@ -69,6 +69,7 @@ export default {
         "AC ≅ BD"
       ],
       "topic": "Constructions",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 0,
       "image": "/images/exams/geo-january-2024/q4.png",
       "explanation": "A perpendicular bisector of ̅AB crosses it at its midpoint E, so by definition E divides AB into two congruent halves, giving AE ≅ BE.",
@@ -87,6 +88,7 @@ export default {
         "dilation"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 3,
       "explanation": "Reflections, translations, and rotations are rigid motions (isometries) that preserve all distances, but a dilation with scale factor ≠ 1 changes lengths, so it does not always preserve distance.",
       "diveDeep": "Distinguish rigid motions (reflection, translation, rotation, and their compositions) from non-rigid transformations (dilations). Dilations preserve angle measure and parallelism but multiply every length by the scale factor k, so distance is preserved only in the trivial case k = 1. This distinction underlies the definitions of congruence (via rigid motions) and similarity (via similarity transformations including dilation). A common trap is assuming all transformations preserve size because they all preserve shape — only similarity, not congruence, is guaranteed by a dilation.",
@@ -121,6 +123,7 @@ export default {
         "180°"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 3,
       "image": "/images/exams/geo-january-2024/q7.png",
       "explanation": "A regular hexagon has rotational symmetry of order 6, so it maps onto itself after any rotation that is a multiple of 360°/6 = 60°; of the choices, only 180° is a multiple of 60°.",
@@ -139,6 +142,7 @@ export default {
         "23"
       ],
       "topic": "Parallel Lines & Angles",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 1,
       "image": "/images/exams/geo-january-2024/q8.png",
       "explanation": "Corresponding angles formed by a transversal cutting parallel lines are congruent, so 3x + 20 = 5x − 12; solving gives 32 = 2x, hence x = 16.",
@@ -280,6 +284,7 @@ export default {
         "y = −½x + 4"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 1,
       "image": "/images/exams/geo-january-2024/q16.png",
       "explanation": "A dilation preserves slope, so ⃗CD keeps the slope of ⃗AB, m = (0 − 6)/(4 − (−2)) = −1; but since the line does not pass through the center, its y-intercept is halved. Line AB is y = −x + 4, and after dilation by ½ about the origin the image is y = −½x + 2 once both intercept and slope scale — matching the listed equation y = −½x + 2.",
@@ -367,6 +372,7 @@ export default {
         "56°"
       ],
       "topic": "Parallel Lines & Angles",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 3,
       "image": "/images/exams/geo-january-2024/q21.png",
       "explanation": "Since ̅BC ≅ ̅BH, triangle BCH is isosceles, making its base angles equal; using parallel-line angle relationships with the given 62° and the isosceles base angles yields m∠PHK = 56°.",
@@ -385,6 +391,7 @@ export default {
         "There is a sequence of rigid motions that maps point Y onto point P and ̅YG onto ̅PM."
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 2,
       "explanation": "A sequence of rigid motions mapping ∠E onto ∠O together with ̅YE onto ̅PO, combined with the given ∠G ≅ ∠M, establishes ASA correspondence, and rigid motions guarantee congruence.",
       "diveDeep": "Congruence can be proven either by the rigid-motion definition (a sequence of isometries mapping one figure exactly onto the other) or by shortcut postulates (SSS, SAS, ASA, AAS, HL). Choice A (AAA) only proves similarity, not congruence — a classic trap, since equal angles fix shape but not size. The rigid-motion choice that maps an angle and an included side guarantees the full correspondence. Distinguish \"maps onto\" (forces congruence) from merely \"congruent angles\" (may only give similarity).",
@@ -402,6 +409,7 @@ export default {
         "△EAF ∼ △DCF"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 0,
       "image": "/images/exams/geo-january-2024/q23.png",
       "explanation": "The shared angle B and the given ∠ADB ≅ ∠CEB establish AA similarity (△ADB ∼ △CEB), but with no side information the triangles cannot be proven congruent.",

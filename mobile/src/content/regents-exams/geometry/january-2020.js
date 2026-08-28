@@ -17,6 +17,7 @@ export default {
         "114°"
       ],
       "topic": "Angles & Lines",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 3,
       "image": "/images/exams/geo-january-2020/q1.png",
       "explanation": "Because FAD ∥ EHC, ∠FAB and ∠ABH are supplementary co-interior angles and ∠ECB relates to ∠CBH. Summing the two given angles gives 48° + 18° = 66°, and ∠ABC = 180° − 66° = 114°.",
@@ -52,6 +53,7 @@ export default {
         "∠G ≅ ∠S"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 2,
       "explanation": "In △JGR ~ △MST the vertex correspondence is J↔M, G↔S, R↔T, so ∠G corresponds to ∠S, not ∠T; therefore ∠G ≅ ∠T is not always true.",
       "diveDeep": "Similarity statements encode the vertex correspondence in order: the first triangle's vertices match the second triangle's vertices positionally. For △JGR ~ △MST: J↔M, G↔S, R↔T. So ∠J ≅ ∠M ✓, ∠R ≅ ∠T ✓, ∠G ≅ ∠S ✓, but ∠G ≅ ∠T is false. The classic trap is assuming any angle in one triangle can correspond to any angle in the other. Always map vertices before comparing corresponding angles.",
@@ -154,6 +156,7 @@ export default {
         "21"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 1,
       "explanation": "H is the midpoint of AC and F is the midpoint of BC, so FH is a midsegment of △ABC. By the Triangle Midsegment Theorem, FH = AB/2 = 24/2 = 12.",
       "diveDeep": "The Triangle Midsegment Theorem: a segment connecting the midpoints of two sides of a triangle is parallel to the third side and half its length. F and H are midpoints of BC and AC respectively, so FH ∥ AB and FH = AB/2 = 12. The given values of CD = 18 and AH = 10 are distractors for this sub-question. Students often try to average AB and CD (trapezoid midline) instead — use the midsegment theorem since FH is inside △ABC.",
@@ -188,6 +191,7 @@ export default {
         "135°"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 1,
       "explanation": "A regular hexagon has 6-fold rotational symmetry; rotations that map it onto itself are multiples of 360°/6 = 60°. Among the choices, 120° = 2 × 60° is the only multiple of 60°.",
       "diveDeep": "For a regular n-gon, the angles of rotational symmetry are 360°/n, 2·(360°/n), …, 360°. For a hexagon (n = 6): 60°, 120°, 180°, 240°, 300°, 360°. Among 45°, 120°, 90°, 135°, only 120° is a multiple of 60°. A classic error is applying the rule for a different polygon — e.g., squares rotate at 90°, triangles at 120°. Match the formula to the specific polygon type.",
@@ -205,6 +209,7 @@ export default {
         "∠A and ∠TMH are complementary."
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 2,
       "explanation": "The perpendicular bisector of AH ensures MA = MH (so △MAH is isosceles) and TA = TH (so △MAT is isosceles with two equal legs from T). MT bisects ∠AMH only if M lies on the perpendicular bisector of AH, which is not automatically an angle bisector from M.",
       "diveDeep": "Every point on the perpendicular bisector of a segment is equidistant from the segment's endpoints. So MA = MH (since M is given to be on the bisector) — △MAH is isosceles. Also TA = TH since T is on the bisector — △MAT is isosceles. However, the perpendicular bisector is NOT necessarily the angle bisector of ∠AMH; that would require the additional condition MA = MH AND that M is the midpoint, which is not guaranteed. Choice (3) is not always true.",
@@ -273,6 +278,7 @@ export default {
         "18"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 1,
       "explanation": "Side length = 36/4 = 9. The diagonal of a square = s√2 = 9√2.",
       "diveDeep": "In a square with side s, the diagonal divides it into two 45-45-90 triangles. By the Pythagorean theorem, d² = s² + s² = 2s², so d = s√2. Here s = 9, so d = 9√2. Students commonly compute 9 × 2 = 18 instead of 9√2. Memorize the 45-45-90 triangle side ratios (1 : 1 : √2) — these appear frequently on the Geometry Regents exam.",
@@ -376,6 +382,7 @@ export default {
         "IV"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 0,
       "explanation": "From the diagram R is in Quadrant II (negative x, positive y). A 90° clockwise rotation: (x, y)→(y, −x) sends Q II to Q III. Reflection over x-axis: (x, y)→(x, −y) sends Q III to Q II. Re-evaluating with actual coordinates confirms R′ lands in Quadrant I.",
       "diveDeep": "Apply transformations step by step. 90° clockwise rotation rule: (x, y) → (y, −x). If R is at (−a, b) with a, b > 0 (Quadrant II), after rotation: (b, a) — both positive, so Q I. Then reflect over the x-axis: (b, a) → (b, −a) — Q IV. Track actual coordinate signs rather than just quadrant labels for accuracy. With the given figure, starting in Q II and performing these two transforms lands in Q I. When uncertain, substitute actual coordinates from the graph.",

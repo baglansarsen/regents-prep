@@ -18,6 +18,7 @@ export default {
         "∠B ≅ ∆D"
       ],
       "topic": "Transformations",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 0,
       "explanation": "A line reflection followed by a rotation is a composition of rigid motions (an isometry), so corresponding parts of the image and pre-image are congruent. BC corresponds to EF, so BC ≅ EF.",
       "diveDeep": "Rigid motions (reflections, rotations, translations) preserve distance and angle measure, so corresponding sides and corresponding angles are always congruent. The trap is mismatching correspondence: ∠A corresponds to ∠D (not ∠F), and AC corresponds to DF (not DE), so those statements are not guaranteed. Always read the correspondence directly from the naming order △ABC → △DEF: A↔D, B↔E, C↔F. On the exam, identify the matching letters first, then check each choice against that mapping.",
@@ -71,6 +72,7 @@ export default {
         "tan A = tan C"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 0,
       "explanation": "In a right triangle, the two acute angles are complementary, and the sine of an angle equals the cosine of its complement, so sin A = cos C.",
       "diveDeep": "This is the cofunction relationship: sin(θ) = cos(90° − θ). Since ∠A + ∠C = 90° in a right triangle, A and C are complements, making sin A = cos C and cos A = sin C. The other choices only hold for special cases (e.g., cos A = sin A only when the angle is 45°). Memorize that \"co\" in cosine literally means complement; this single fact answers many Regents trig questions instantly.",
@@ -89,6 +91,7 @@ export default {
         "85°"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 3,
       "explanation": "m∠BAC = 180° − 50° − 60° = 70°, so the bisector makes m∠BAE = 35°; in △ABE, m∠FEB is the exterior angle equal to 35° + 50° = 85°.",
       "diveDeep": "This problem chains the triangle angle-sum, the definition of an angle bisector, and the exterior-angle theorem. First find the third angle of △ABC, then halve the bisected angle, then recognize that ∠FEB is exterior to △AEC (or use the fact that an exterior angle equals the sum of the two remote interior angles, 35° + 50°). The altitude BD is a distractor here; not every labeled segment is needed. Track which sub-triangle each angle belongs to so you apply the exterior-angle theorem to the correct remote interior angles.",
@@ -124,6 +127,7 @@ export default {
         "16/12"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 0,
       "explanation": "The hypotenuse LN = √(12² + 16²) = √400 = 20; cos N = adjacent/hypotenuse = MN/LN = 12/20.",
       "diveDeep": "Cosine is the ratio adjacent-over-hypotenuse (SOH-CAH-TOA). The side adjacent to angle N is MN = 12, and the hypotenuse (opposite the right angle at M) must be found with the Pythagorean theorem: √(12² + 16²) = 20. A frequent mistake is using the opposite leg (16) or treating a leg as the hypotenuse. Always identify the right angle first; the side facing it is the hypotenuse, and the remaining two sides are \"opposite\" and \"adjacent\" relative to the angle in question.",
@@ -192,6 +196,7 @@ export default {
         "regular octagon"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 2,
       "explanation": "A general parallelogram has only 2-fold rotational symmetry, so its smallest carrying rotation is 360°/2 = 180°.",
       "diveDeep": "A regular n-gon maps onto itself under a minimum rotation of 360°/n, which is less than 180° for any n ≥ 3, so regular pentagons, hexagons, and octagons all have smaller minimum rotations. A non-special parallelogram only has order-2 rotational symmetry, giving exactly 180°. To answer these, compute 360° divided by the order of rotational symmetry; a shape needs exactly order 2 to have a 180° minimum.",
@@ -261,6 +266,7 @@ export default {
         "√72"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 3,
       "explanation": "The altitude to the hypotenuse is the geometric mean of the two segments it creates: DG = √(MG · GL) = √(3 · 24) = √72.",
       "diveDeep": "When an altitude is drawn to the hypotenuse of a right triangle, it creates the \"geometric mean (altitude) relationship\": the altitude equals the square root of the product of the two hypotenuse segments. So DG² = MG · GL = 72, giving DG = √72 (which simplifies to 6√2). A related relationship gives each leg as the geometric mean of the whole hypotenuse and its adjacent segment. Identify which mean relationship matches the segment requested before plugging in.",
@@ -278,6 +284,7 @@ export default {
         "△ACM ≅ △BCM"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 0,
       "explanation": "Every point on the perpendicular bisector of a segment is equidistant from the segment's endpoints, so B (on line AB) satisfies CB ≅ DB.",
       "diveDeep": "The perpendicular bisector theorem guarantees that any point on the bisector is equally distant from the two endpoints of the bisected segment, so both A and B give CA ≅ DA and CB ≅ DB. The triangle-congruence choices are not forced because nothing fixes the lengths of CD versus AB or the positions of A and M relative to the triangle. Distinguish \"equidistant from endpoints\" (always true) from full triangle congruence (needs more given information).",
@@ -330,6 +337,7 @@ export default {
         "y = 3x − 3"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 3,
       "explanation": "Line t is y = 3x − 6; a dilation centered at the origin keeps the slope (3) but multiplies the y-intercept by 1/2, giving y = 3x − 3.",
       "diveDeep": "A dilation centered at the origin maps a line to a parallel line, so the slope is preserved; only the intercept scales by the dilation factor (here −6 × 1/2 = −3). Because the line does not pass through the center of dilation, it moves to a new parallel position. If a line passes through the center of dilation it maps onto itself. Recognize that \"same slope, scaled intercept\" is the signature of an origin-centered dilation acting on a line.",
@@ -381,6 +389,7 @@ export default {
         "A′(9,6) and B′(1,8)"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 3,
       "explanation": "A dilation of factor −1 about (3,5) sends each point to the center plus −1 times its vector from the center: A′ = (3 − (−3−3), 5 − (4−5)) = (9,6) and B′ = (3 − (5−3), 5 − (2−5)) = (1,8).",
       "diveDeep": "A dilation with a negative scale factor centered at a point P maps each point to the opposite side of P; a factor of −1 is exactly a 180° rotation (point reflection) about the center. Use the rule image = P + k·(point − P): subtract the center, multiply by the factor, then add the center back. Sign errors in the subtraction step are the leading cause of wrong answers. Recognizing −1 as a point reflection about (3,5) lets you check the result quickly.",

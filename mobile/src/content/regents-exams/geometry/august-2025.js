@@ -34,6 +34,7 @@ export default {
         "SQ"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 2,
       "explanation": "Rotations and reflections are rigid motions that preserve the order of vertices, so each vertex of BDGF maps to the correspondingly positioned vertex of MQSP, sending side BD onto side PS.",
       "diveDeep": "The key to \"maps onto\" problems is matching corresponding vertices using the naming order, not the picture. Track where B and D land through the composition of the two transformations; their images are the endpoints of the matching side. A frequent error is grabbing whatever side looks closest on the diagram instead of following the correspondence given by the image name MQSP. Since both transformations are isometries, side lengths and the vertex sequence are preserved, guaranteeing the correspondence is consistent.",
@@ -120,6 +121,7 @@ export default {
         "an angle and its same-side exterior angle"
       ],
       "topic": "Angles & Lines",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 1,
       "explanation": "When parallel lines are cut by a transversal, alternate interior angles are congruent.",
       "diveDeep": "Parallel-line angle relationships split into two families: congruent pairs (corresponding, alternate interior, alternate exterior) and supplementary pairs (same-side/co-interior, same-side exterior, and any linear pair). Same-side interior angles sum to 180° but are only congruent in the special case of right angles, so they are not \"must be congruent.\" A linear pair is always supplementary, never necessarily congruent. Memorize which relationships give congruence versus supplementary sums — it is tested on nearly every Regents.",
@@ -137,6 +139,7 @@ export default {
         "dilation"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 0,
       "explanation": "A reflection is an isometry (rigid motion) but reverses orientation, flipping the figure to a mirror image.",
       "diveDeep": "All rigid motions (isometries) preserve distance and angle measure, but only reflections (and glide reflections) reverse orientation; translations and rotations preserve orientation. A dilation is NOT a rigid motion at all unless its scale factor is ±1, because it changes size. The trap is choosing dilation — it does change the figure but it is a similarity transformation, not an isometry. Distinguish \"rigid motion that reverses orientation\" (reflection) from \"non-rigid transformation\" (dilation).",
@@ -154,6 +157,7 @@ export default {
         "translation 4 units left and 4 units down"
       ],
       "topic": "Transformations",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 2,
       "explanation": "Each image point is the negative of the original (x,y) → (−x,−y), which is exactly a point reflection through the origin (equivalently a 180° rotation about the origin).",
       "diveDeep": "A point reflection through the origin maps (x,y) to (−x,−y) and is identical to a 180° rotation about the origin. Test a single vertex with each rule to eliminate options: reflection over y = x gives (y,x), reflection over y = −x gives (−y,−x), and a translation shifts every point by the same vector. Reading exact coordinates from the graph and applying each rule algebraically is far more reliable than eyeballing the flip, especially when several transformations look similar on the figure.",
@@ -189,6 +193,7 @@ export default {
         "△CDB is an isosceles triangle"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 3,
       "explanation": "Since CD ∥ AB, ∠DCB ≅ ∠CBA (alternate interior angles), and because CB bisects ∠ABD, ∠CBA ≅ ∠CBD. Thus ∠DCB ≅ ∠DBC, making △CDB isosceles.",
       "diveDeep": "This combines the parallel-line angle theorem with an angle-bisector condition: alternate interior angles give one equality, the bisector gives another, and transitivity makes two base angles of the triangle equal. By the converse of the Isosceles Triangle Theorem, equal base angles force equal opposite sides. The trap answers assert relationships (right triangle, congruent specific segments) that are not guaranteed by the given conditions. Always chase the angle equalities to a triangle property rather than assuming from the picture.",
@@ -240,6 +245,7 @@ export default {
         "4"
       ],
       "topic": "Triangles & Congruence",
+      "subTopic": "Triangle Congruence & Constructions",
       "correct": 1,
       "explanation": "The midsegment is half the third side: DE = ½·AC, so x + 3 = ½(3x − 5). Solving: 2x + 6 = 3x − 5, x = 11... then DE = ½(3·11−5) gives the matching value; using the relation 2(x+3)=3x−5 yields x=11, AC=28, DE=14 — and the consistent solution gives DE = 7 when 2(x+3)=3x−5 is solved as x=11... so DE corresponds to choice 7 via the midsegment half-relationship.",
       "diveDeep": "The Midsegment (Midline) Theorem says a segment joining midpoints of two sides is parallel to the third side and exactly half its length: DE = ½·AC. Set up 2·DE = AC, i.e. 2(x+3) = 3x−5, solve for x, then substitute back into the DE expression — never stop at x. The classic trap is reporting x itself, or forgetting the factor of ½ and setting the two expressions equal directly. Always substitute the solved variable back into the requested quantity.",
@@ -291,6 +297,7 @@ export default {
         "(0,0)"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 1,
       "explanation": "The center of dilation is the single fixed point that lies on every line connecting each pre-image vertex to its image; drawing lines AR, BS, CT and finding their common intersection gives (3,3).",
       "diveDeep": "For any dilation, a pre-image point, its image, and the center are collinear. To locate the center, draw the line through at least two corresponding point pairs (A→R and B→S) and find where they cross — that intersection is the center, even for a negative scale factor where the image is on the opposite side of the center. A negative scale factor also rotates the figure 180°, so the image appears flipped; this is expected and does not change the collinearity method.",
@@ -361,6 +368,7 @@ export default {
         "y = 2x − 4"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 0,
       "explanation": "A dilation centered at the origin preserves slope but scales the y-intercept by the factor. Rewriting 4x − 6y = 24 as y = (2/3)x − 4, the slope stays 2/3 and the intercept becomes −4 × 3 = −12: y = (2/3)x − 12.",
       "diveDeep": "A line dilated about the origin maps to a PARALLEL line (same slope) unless it passes through the center, in which case it maps to itself. The slope is invariant; only the intercept scales by the factor. The big trap is dilating the slope — slope is a ratio and does not change. First put the equation in slope-intercept form, keep the slope, and multiply only the y-intercept by the scale factor.",
@@ -378,6 +386,7 @@ export default {
         "a reflection over its other diagonal"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 0,
       "explanation": "A figure is carried onto itself only by symmetries about its own center or its lines of symmetry; a 180° rotation about the origin (a point other than the rhombus's center) moves the figure, so it does NOT map it onto itself.",
       "diveDeep": "Symmetry-mapping (\"carries onto itself\") problems require transformations whose center/line is an actual symmetry element of the figure. A rhombus has point symmetry about its CENTER and line symmetry across each DIAGONAL. A rotation about a point that is not the center — such as the origin when the rhombus is not centered there — translates the figure away from itself. Always check that the rotation center is the figure's center and that reflection lines are genuine axes of symmetry.",
@@ -413,6 +422,7 @@ export default {
         "144"
       ],
       "topic": "Transformations",
+      "subTopic": "Lines, Angles & Transformations",
       "correct": 0,
       "explanation": "Area scales by the SQUARE of the linear scale factor: new area = (1/2)² × 36 = (1/4)(36) = 9.",
       "diveDeep": "Under a dilation, lengths scale by k but areas scale by k² (and volumes by k³). With k = 1/2, area is multiplied by 1/4, giving 9. The location of the center (here vertex A) does not affect the area of the image — only the scale factor does. The trap is multiplying the area directly by 1/2 (giving 18) instead of by k². Memorize: linear factor k → area factor k² → volume factor k³.",

@@ -3,15 +3,32 @@ import { makeLessonApi } from '../_shared/lessonEngine'
 import { isEasy } from '../_shared/difficulty'
 import geoAug2019 from '../regents-exams/geometry/august-2019'
 import geoJun2019 from '../regents-exams/geometry/june-2019'
+import geoJan2020 from '../regents-exams/geometry/january-2020'
 import geoAug2022 from '../regents-exams/geometry/august-2022'
 import geoJun2022 from '../regents-exams/geometry/june-2022'
 import geoAug2023 from '../regents-exams/geometry/august-2023'
 import geoJun2023 from '../regents-exams/geometry/june-2023'
+import geoJan2023 from '../regents-exams/geometry/january-2023'
 import geoAug2024 from '../regents-exams/geometry/august-2024'
 import geoJun2024 from '../regents-exams/geometry/june-2024'
+import geoJan2024 from '../regents-exams/geometry/january-2024'
+import geoAug2025 from '../regents-exams/geometry/august-2025'
 import geoJun2025 from '../regents-exams/geometry/june-2025'
+import geoJan2025 from '../regents-exams/geometry/january-2025'
+import geoJan2026 from '../regents-exams/geometry/january-2026'
+import geoJun2026 from '../regents-exams/geometry/june-2026'
 
-const GEO_EXAMS = [geoAug2019, geoJun2019, geoAug2022, geoJun2022, geoAug2023, geoJun2023, geoAug2024, geoJun2024, geoJun2025]
+// Every posted NYSED Geometry exam we have on disk — 7 more than before
+// (august-2025, january-2020/23/24/25/26, june-2026) were sitting unused.
+const GEO_EXAMS = [
+  geoAug2019, geoJun2019,
+  geoJan2020,
+  geoAug2022, geoJun2022,
+  geoAug2023, geoJun2023, geoJan2023,
+  geoAug2024, geoJun2024, geoJan2024,
+  geoAug2025, geoJun2025, geoJan2025,
+  geoJan2026, geoJun2026,
+]
 
 const GEO_TOPIC_MAP = {
   'Congruence & Transformations': TOPICS.CONGRUENCE,
