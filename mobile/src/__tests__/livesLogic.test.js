@@ -170,6 +170,10 @@ describe('shouldSpendEnergy', () => {
     expect(shouldSpendEnergy({ isCheckup: true })).toBe(false)
     expect(shouldSpendEnergy({ isCheckup: false })).toBe(true)
   })
+
+  test('the checkup stays free even with every other flag explicitly off — the exact shape QuizScreen passes', () => {
+    expect(shouldSpendEnergy({ isCheckup: true, inRepeat: false, struggleMode: false, isDailyTrap: false })).toBe(false)
+  })
 })
 
 // ── Subject energy caps ─────────────────────────────────────────────────────

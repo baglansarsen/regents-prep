@@ -22,7 +22,7 @@ import { useMistakes } from '../hooks/useMistakes'
 import { useUnitUnlocks } from '../hooks/useUnitUnlocks'
 import { useFocusEffect } from '@react-navigation/native'
 import { localDateStr, yesterdayStr, toLocalDateStr } from '../utils/localDate'
-import { shuffle } from '../utils/question'
+import { shuffle, buildUnitSampledSet, checkupTarget } from '../utils/question'
 import { SUBJECTS } from '../content/subjects'
 import * as leData from '../content/living-environment/index'
 import * as esData from '../content/earth-science/index'
@@ -664,10 +664,19 @@ export default function HomeScreen({ navigation }) {
   }
 
   function startQuiz(topic, { limit, isCheckup = false } = {}) {
-    const pool = topic ? sd.getByTopic(topic) : sd.questions
-    if (!pool.length) return
-    const shuffled = shuffle(pool)
-    const questionSet = limit ? shuffled.slice(0, limit) : shuffled
+    let questionSet
+    if (isCheckup) {
+      // Real diagnostic coverage across the whole subject (>=1 question
+      // per unit, clamped to a sane length) — not a flat random slice that
+      // could skew to 2-3 topics and skip most units entirely.
+      const units = sd.UNITS ?? []
+      questionSet = buildUnitSampledSet(units, sd.getByTopic, checkupTarget(units.length))
+    } else {
+      const pool = topic ? sd.getByTopic(topic) : sd.questions
+      const shuffled = shuffle(pool)
+      questionSet = limit ? shuffled.slice(0, limit) : shuffled
+    }
+    if (!questionSet.length) return
     const params = { questionSet, topic, subject, isCheckup }
     // The cold-start checkup never spends energy (shouldSpendEnergy) and,
     // like the placement test it mirrors, shouldn't be blocked by the
@@ -693,11 +702,12 @@ export default function HomeScreen({ navigation }) {
         navigation.navigate('GoalSetup')
         break
       case 'checkup':
-        // Short mixed quiz — just enough to calibrate the prediction.
-        // Energy-free and ungated (see startQuiz/shouldSpendEnergy) — it's
-        // diagnostic, not a graded lesson, and is often a brand-new user's
-        // very first action right after committing a goal.
-        startQuiz(null, { limit: 12, isCheckup: true })
+        // Unit-sampled diagnostic quiz — enough to calibrate the prediction
+        // across the whole subject. Energy-free and ungated (see startQuiz/
+        // shouldSpendEnergy) — it's diagnostic, not a graded lesson, and is
+        // often a brand-new user's very first action right after committing
+        // a goal.
+        startQuiz(null, { isCheckup: true })
         break
       case 'practice_exam':
         navigation.navigate('ExamsTab')

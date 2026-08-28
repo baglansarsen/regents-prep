@@ -144,11 +144,13 @@ export default function QuizScreen({ route, navigation }) {
 
   // Adaptive confidence loop: when a math student struggles, the quiz can splice
   // in easier questions from this topic. Only math subjects expose getEasyPool;
-  // others get an empty pool (→ getEasier=null → no injection). Skipped in challenges.
+  // others get an empty pool (→ getEasier=null → no injection). Skipped in
+  // challenges and the checkup (the checkup already passes topic: null, so
+  // this is currently a no-op for it too — kept explicit against future change).
   const easyPool = useMemo(() => {
     const sd = getSubjectData(subject)
-    return (!isChallenge && topic && typeof sd.getEasyPool === 'function') ? sd.getEasyPool(topic) : []
-  }, [subject, topic, isChallenge])
+    return (!isChallenge && !isCheckup && topic && typeof sd.getEasyPool === 'function') ? sd.getEasyPool(topic) : []
+  }, [subject, topic, isChallenge, isCheckup])
   const getEasier = useCallback(
     (n, exclude) => easierFromPool(easyPool, n, exclude),
     [easyPool],
@@ -161,8 +163,8 @@ export default function QuizScreen({ route, navigation }) {
     eliminated, hintUsed, takeHint,
     inRepeat, repeatTotal, repeatIndex,
   } = useQuiz(questionSet, {
-    hint: !isChallenge,
-    repeat: !isChallenge && !isDailyTrap,   // the trap is one-shot — no repeat round
+    hint: !isChallenge && !isCheckup,
+    repeat: !isChallenge && !isDailyTrap && !isCheckup,   // trap and checkup are one-shot — no repeat round
     getEasier: easyPool.length && !isDailyTrap ? getEasier : null,
   })
 
@@ -550,7 +552,7 @@ export default function QuizScreen({ route, navigation }) {
           ) : (
             <View style={s.choices}>
               {/* 50/50 hint — Reggie crosses out two wrong choices (lessons only) */}
-              {phase === 'answering' && !isChallenge && !hintUsed && (currentQuestion.choices?.length ?? 0) > 2 && (
+              {phase === 'answering' && !isChallenge && !isCheckup && !hintUsed && (currentQuestion.choices?.length ?? 0) > 2 && (
                 <TouchableOpacity
                   style={s.hintBtn}
                   onPress={() => { takeHint(); dinoSay('Here, I crossed two out! 🦕') }}
