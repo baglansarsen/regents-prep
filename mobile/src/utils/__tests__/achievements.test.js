@@ -2,6 +2,8 @@ import { computeAchievements } from '../achievements'
 import { TOPICS as LS_TOPICS } from '../../content/life-science/questions'
 import { TOPICS as GEO_TOPICS } from '../../content/geometry/questions'
 import { TOPICS as CHEM_TOPICS } from '../../content/chemistry/questions'
+import { UNITS as CHEM_UNITS } from '../../content/chemistry/units'
+import { ACHIEVEMENTS as CHEM_ACHIEVEMENTS } from '../../content/chemistry/achievements'
 
 // Regression guard for Step 2 of
 // ~/.claude/plans/expressive-meandering-lagoon.md: computeAchievements used
@@ -82,5 +84,23 @@ describe('computeAchievements includes chemistry achievements', () => {
     ]
     const { earned } = computeAchievements({ history })
     expect(earned.some((a) => a.id === 'chem_atomic_master')).toBe(false)
+  })
+
+  // Regression guard for the chemistry-u6/u7/u8 unit split (7 new units):
+  // every non-skill unit topic must have a matching achievement, mirroring
+  // geometry's "every unit topic has its own achievement" convention —
+  // otherwise a newly split unit silently has no way to be celebrated.
+  // Drives each achievement's real condition() fn instead of parsing its
+  // source — babel-jest strips optional chaining, so a source-text match
+  // reports a false negative for every achievement.
+  it('every chemistry unit topic (except skill-overlay and Mixed Review) has its own achievement', () => {
+    // Mixed Review catch-all units don't get a dedicated achievement anywhere
+    // in this app — earth-science's es-u9 has none either — since "passing" a
+    // grab-bag of leftover topics isn't a focused mastery milestone.
+    for (const u of CHEM_UNITS) {
+      if (u.skillPool || u.topic === CHEM_TOPICS.MIXED_REVIEW) continue
+      const covered = CHEM_ACHIEVEMENTS.some((a) => a.condition({ topicsPassed: new Set([u.topic]) }))
+      expect(covered).toBe(true)
+    }
   })
 })
