@@ -18,8 +18,6 @@
       "bundleIdentifier": "com.regentify.app",
       "usesAppleSignIn": true,
       "infoPlist": {
-        "NSCameraUsageDescription": "Used for profile photos",
-        "NSPhotoLibraryUsageDescription": "Used for profile photos",
         "NSLocationWhenInUseUsageDescription": "Used to find schools near your current location.",
         "CFBundleURLTypes": [
           {

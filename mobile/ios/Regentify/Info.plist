@@ -64,8 +64,6 @@
       <key>NSAllowsLocalNetworking</key>
       <true/>
     </dict>
-    <key>NSCameraUsageDescription</key>
-    <string>Used for profile photos</string>
     <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
     <string>Used to find schools near your current location.</string>
     <key>NSLocationAlwaysUsageDescription</key>
@@ -74,8 +72,6 @@
     <string>Used to find schools near your current location.</string>
     <key>NSMicrophoneUsageDescription</key>
     <string>Allow $(PRODUCT_NAME) to access your microphone</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>Used for profile photos</string>
     <key>NSUserTrackingUsageDescription</key>
     <string>This identifier will be used to deliver personalized ads to you. You can disable this anytime in Settings.</string>
     <key>RCTNewArchEnabled</key>
