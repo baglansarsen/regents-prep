@@ -1,6 +1,7 @@
 import { computeAchievements } from '../achievements'
 import { TOPICS as LS_TOPICS } from '../../content/life-science/questions'
 import { TOPICS as GEO_TOPICS } from '../../content/geometry/questions'
+import { TOPICS as CHEM_TOPICS } from '../../content/chemistry/questions'
 
 // Regression guard for Step 2 of
 // ~/.claude/plans/expressive-meandering-lagoon.md: computeAchievements used
@@ -60,5 +61,26 @@ describe('computeAchievements includes geometry achievements', () => {
     })
     expect([...earned, ...locked].some((a) => a.id === 'geo_triangle_congruence')).toBe(true)
     expect(earned.some((a) => a.id === 'geo_triangle_congruence')).toBe(true)
+  })
+})
+
+// Regression guard: content/chemistry/achievements.js's 8 achievements had
+// the exact same dead-code problem — never included in the catalog, so
+// permanently unearnable.
+describe('computeAchievements includes chemistry achievements', () => {
+  it('a chemistry achievement can now be earned', () => {
+    const history = [
+      { subject: 'chemistry', topic: CHEM_TOPICS.ATOMIC_STRUCTURE, pct: 90 },
+    ]
+    const { earned } = computeAchievements({ history })
+    expect(earned.some((a) => a.id === 'chem_atomic_master')).toBe(true)
+  })
+
+  it('chemistry achievements do not fire from unrelated subject history alone', () => {
+    const history = [
+      { subject: 'living-environment', topic: 'cell_biology', pct: 90 },
+    ]
+    const { earned } = computeAchievements({ history })
+    expect(earned.some((a) => a.id === 'chem_atomic_master')).toBe(false)
   })
 })

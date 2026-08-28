@@ -28,10 +28,11 @@ export default function AchievementsScreen({ navigation }) {
   const [diagCount, setDiagCount] = useState(0)
   const s = makeStyles(C)
 
-  const leHistory  = history.filter((h) => (h.subject ?? 'living-environment') === 'living-environment')
-  const esHistory  = history.filter((h) => h.subject === 'earth-science')
-  const lsHistory  = history.filter((h) => h.subject === 'life-science')
-  const geoHistory = history.filter((h) => h.subject === 'geometry')
+  const leHistory   = history.filter((h) => (h.subject ?? 'living-environment') === 'living-environment')
+  const esHistory   = history.filter((h) => h.subject === 'earth-science')
+  const lsHistory   = history.filter((h) => h.subject === 'life-science')
+  const geoHistory  = history.filter((h) => h.subject === 'geometry')
+  const chemHistory = history.filter((h) => h.subject === 'chemistry')
 
   useEffect(() => {
     async function checkDiag() {
@@ -48,7 +49,7 @@ export default function AchievementsScreen({ navigation }) {
   }, [])
 
   const { earned, locked, total: totalAchievements } = computeAchievements({
-    history: [...leHistory, ...esHistory, ...lsHistory, ...geoHistory],
+    history: [...leHistory, ...esHistory, ...lsHistory, ...geoHistory, ...chemHistory],
     streak, rp, examScores, diagCount,
   })
 
