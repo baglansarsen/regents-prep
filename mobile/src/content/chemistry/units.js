@@ -1,7 +1,21 @@
 import { TOPICS, TOPIC_ICONS } from './questions'
 import { makeLessonApi } from '../_shared/lessonEngine'
+import chemAug2016 from '../regents-exams/chemistry/august-2016'
+import chemJun2016 from '../regents-exams/chemistry/june-2016'
+import chemAug2017 from '../regents-exams/chemistry/august-2017'
+import chemJan2017 from '../regents-exams/chemistry/january-2017'
+import chemJun2017 from '../regents-exams/chemistry/june-2017'
+import chemAug2018 from '../regents-exams/chemistry/august-2018'
+import chemJan2018 from '../regents-exams/chemistry/january-2018'
+import chemJun2018 from '../regents-exams/chemistry/june-2018'
+import chemAug2019 from '../regents-exams/chemistry/august-2019'
+import chemJun2019 from '../regents-exams/chemistry/june-2019'
+import chemJan2020 from '../regents-exams/chemistry/january-2020'
+import chemAug2022 from '../regents-exams/chemistry/august-2022'
+import chemJun2022 from '../regents-exams/chemistry/june-2022'
 import chemJun2023 from '../regents-exams/chemistry/june-2023'
 import chemAug2023 from '../regents-exams/chemistry/august-2023'
+import chemJan2023 from '../regents-exams/chemistry/january-2023'
 import chemJan2024 from '../regents-exams/chemistry/january-2024'
 import chemJun2024 from '../regents-exams/chemistry/june-2024'
 import chemAug2024 from '../regents-exams/chemistry/august-2024'
@@ -9,10 +23,22 @@ import chemJan2025 from '../regents-exams/chemistry/january-2025'
 import chemJun2025 from '../regents-exams/chemistry/june-2025'
 import chemAug2025 from '../regents-exams/chemistry/august-2025'
 import chemJan2026 from '../regents-exams/chemistry/january-2026'
+import chemJun2026 from '../regents-exams/chemistry/june-2026'
 
-// Expanded from 4 → 9 recent exams (2023–2026) to match the other sciences'
-// pool depth (200 → ~450 questions) and fill the new sub-topic units.
-const CHEM_EXAMS = [chemJun2023, chemAug2023, chemJan2024, chemJun2024, chemAug2024, chemJan2025, chemJun2025, chemAug2025, chemJan2026]
+// Every posted NYSED Chemistry exam we have on disk — 15 more than before
+// (all of 2016-2022 plus january-2023 and june-2026) were sitting unused.
+const CHEM_EXAMS = [
+  chemAug2016, chemJun2016,
+  chemJan2017, chemAug2017, chemJun2017,
+  chemJan2018, chemAug2018, chemJun2018,
+  chemAug2019, chemJun2019,
+  chemJan2020,
+  chemAug2022, chemJun2022,
+  chemJan2023, chemAug2023, chemJun2023,
+  chemJan2024, chemAug2024, chemJun2024,
+  chemJan2025, chemAug2025, chemJun2025,
+  chemJan2026, chemJun2026,
+]
 
 const CHEM_TOPIC_MAP = {
   'Atomic Structure':         TOPICS.ATOMIC_STRUCTURE,
@@ -45,6 +71,7 @@ const CHEM_TOPIC_MAP = {
   'General':                  TOPICS.MIXED_REVIEW,
   'General Review':           TOPICS.MIXED_REVIEW,
   'Measurement':              TOPICS.MIXED_REVIEW,
+  'Laboratory':               TOPICS.MIXED_REVIEW,
 }
 
 const _api = makeLessonApi({ exams: CHEM_EXAMS, topicMap: CHEM_TOPIC_MAP, lessonSize: 20 })
