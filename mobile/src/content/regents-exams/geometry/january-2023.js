@@ -36,6 +36,7 @@ export default {
         "cylinder"
       ],
       "topic": "Circles",
+      "subTopic": "Circle Segments & Lines",
       "correct": 1,
       "explanation": "Rotating a full circle 360° about its diameter sweeps out a perfectly round solid in every direction, producing a sphere.",
       "diveDeep": "These \"solid of revolution\" questions ask what shape a 2-D figure traces when spun about an axis. A rectangle rotated about a side gives a cylinder; a right triangle rotated about a leg gives a cone; a semicircle rotated about its straight edge also gives a sphere. The key insight for a circle is that every point stays at distance r from the center as it rotates, so all swept points lie on a sphere of radius r. Visualize the axis of rotation and imagine the cross-sections sweeping out the 3-D form.",
@@ -54,6 +55,7 @@ export default {
         "2.8"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Triangle Relationships",
       "correct": 2,
       "explanation": "Because LA || CR, the Side-Splitter Theorem gives CL/LE = AR/EA, so AR = (CL · EA)/LE = (3.5 · 9.5)/7.5 ≈ 4.4.",
       "diveDeep": "A segment parallel to one side of a triangle divides the other two sides proportionally (the Side-Splitter Theorem). Set up the ratio carefully: the two pieces of one side correspond to the two pieces of the other side, matching the segment near the vertex to the segment near the vertex. A common error is inverting the proportion or pairing CL with EA instead of LE. Cross-multiply and solve, then round only at the end.",
@@ -109,6 +111,7 @@ export default {
         "$205.08"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Density & Modeling",
       "correct": 1,
       "explanation": "Total volume = 24 · 0.75 = 18 in³; weight = 18 · 0.323 = 5.814 lb; cost = 5.814 · 3.68 ≈ $21.40… but the per-heart chain gives 0.75 · 0.323 · 3.68 · 24 ≈ $21.40, and the correct full computation yields the listed value.",
       "diveDeep": "This is a unit-conversion (dimensional analysis) problem: multiply volume by density to get weight, then weight by price to get cost, then scale by the number of hearts. Set up the factors so units cancel: in³ × (lb/in³) × ($/lb) × hearts. The wrong answers come from dropping a factor or stopping early. Carry full precision through intermediate steps and round only the final dollar amount.",
@@ -145,6 +148,7 @@ export default {
         "AD/BC = DE/AB"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Triangle Relationships",
       "correct": 1,
       "explanation": "Because DE || BC, △ADE ~ △ABC and the Side-Splitter Theorem gives proportional segments on the two cut sides: AD/DB = AE/EC.",
       "diveDeep": "When a line parallel to one side cuts the other two sides, it divides them proportionally, so the corresponding pieces form equal ratios (AD/DB = AE/EC). This is distinct from the full similarity ratio AD/AB = DE/BC, which uses whole sides, not the split pieces. The traps mix a piece of one side with a whole side or pair sides that are not corresponding. Decide whether each ratio compares \"piece to piece on the same line type\" before selecting.",
@@ -179,6 +183,7 @@ export default {
         "1065"
       ],
       "topic": "Circles",
+      "subTopic": "Circle Segments & Lines",
       "correct": 1,
       "explanation": "From C = 2πr, r = 19.9/(2π) ≈ 3.167 cm; V = (4/3)πr³ ≈ (4/3)π(3.167)³ ≈ 133 cm³.",
       "diveDeep": "This is a two-step solid problem: first recover the radius from the circumference (r = C/(2π)), then substitute into the sphere volume formula V = (4/3)πr³. The biggest error is forgetting to cube the radius or using the diameter as the radius. Keep r unrounded in calculator memory when cubing, since premature rounding can push the answer to a neighboring choice. The listed correct answer corresponds to evaluating the volume from the recovered radius.",
@@ -214,6 +219,7 @@ export default {
         "4"
       ],
       "topic": "Circles",
+      "subTopic": "Circle Segments & Lines",
       "correct": 1,
       "explanation": "By the tangent-secant rule, AD² = DC · DB. Let DC = 4x, CB = 5x, so DB = 9x; then 24² = 4x · 9x = 36x², giving x = 4 and CB = 5x = 20… so DC = 16 and CB = 20; the segment of length 16 is DC, matching the listed value for the named piece.",
       "diveDeep": "The tangent-secant power-of-a-point relationship states (tangent)² equals the product of the whole secant and its external part: AD² = DC · DB, where DC is the near (external) part and DB the whole secant. Setting DC = 4x and the whole DB = DC + CB = 9x lets you solve 576 = 36x², so x = 4. Be careful which segment the question asks for and which part is \"external\"; mixing up DC, CB, and DB is the most common error here.",
@@ -231,6 +237,7 @@ export default {
         "−5/3"
       ],
       "topic": "Coordinate Geometry",
+      "subTopic": "Lines & Slope",
       "correct": 3,
       "explanation": "Rewriting gives y = (3/5)x − 8/5, so the slope is 3/5; the perpendicular slope is the negative reciprocal, −5/3.",
       "diveDeep": "Perpendicular lines have slopes that are negative reciprocals, so their product is −1. First put the equation in slope-intercept form (or use slope = −A/B = −(3)/(−5) = 3/5) to read the original slope, then flip and negate it. Students often forget either the \"flip\" or the \"negate.\" A quick check: (3/5)·(−5/3) = −1 confirms perpendicularity.",
@@ -248,6 +255,7 @@ export default {
         "center (−1,8) and radius 16"
       ],
       "topic": "Circles",
+      "subTopic": "Equations of Circles",
       "correct": 1,
       "explanation": "Completing the square: (x+1)² + (y−8)² = −49 + 1 + 64 = 16, so the center is (−1, 8) and the radius is √16 = 4.",
       "diveDeep": "To convert the general form of a circle to center-radius form, group x- and y-terms and complete the square on each: half of 2 is 1 (add 1), half of −16 is −8 (add 64), and move the constants to the right side. The center coordinates are the opposites of the numbers inside the squared binomials, and the radius is the square root of the right-hand side (not the right-hand side itself). Forgetting to take the square root for the radius, or sign-flipping the center, are the two classic mistakes.",
@@ -303,6 +311,7 @@ export default {
         "31.5π"
       ],
       "topic": "Circles",
+      "subTopic": "Arcs & Angles",
       "correct": 3,
       "explanation": "The inscribed angle ACB = 70° intercepts arc AB, so the central angle AOB = 140°; sector area = (140/360)·π·9² = (7/18)·81π = 31.5π.",
       "diveDeep": "An inscribed angle is half its intercepted central angle, so the 70° inscribed angle corresponds to a 140° central angle for sector AOB. The sector area is the fraction (central angle/360°) of the full circle area πr². The common trap is using 70° directly as the sector's central angle, which halves the correct answer to 15.75π. Always check whether a given angle is inscribed or central before computing arc length or sector area.",
@@ -355,6 +364,7 @@ export default {
         "6016"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Density & Modeling",
       "correct": 1,
       "explanation": "Water height = 4 − 0.5 = 3.5 ft; volume = π·8²·3.5 ≈ 703.7 ft³; gallons = 703.7 · 7.48 ≈ 5264.",
       "diveDeep": "This combines cylinder volume V = πr²h with a unit conversion and a careful read of the water depth. The radius is half the diameter (8 ft), and the water height is the pool height minus the 0.5-ft gap (3.5 ft), not 4 ft. Compute the volume in cubic feet, then multiply by 7.48 to convert to gallons. The wrong choices come from forgetting the conversion (≈704), using the full 4 ft, or using the diameter as the radius.",
@@ -372,6 +382,7 @@ export default {
         "27"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Triangle Relationships",
       "correct": 0,
       "explanation": "The medial triangle has sides half as long, so it is similar with ratio 1:2 and area ratio 1:4; (1/4)·36 = 9 cm².",
       "diveDeep": "Connecting the midpoints of a triangle creates the medial triangle, which is similar to the original with a scale factor of 1/2. Areas of similar figures scale by the square of the linear ratio, so the medial triangle has (1/2)² = 1/4 the area. The trap is taking half the area (18) instead of one-fourth. Remember: linear ratio k means area ratio k² and volume ratio k³.",
@@ -408,6 +419,7 @@ export default {
         "∠ADC ≅ ∠ADE"
       ],
       "topic": "Circles",
+      "subTopic": "Arcs & Angles",
       "correct": 1,
       "explanation": "Because AD || BC, the chords AD and BC are equidistant from center and cut congruent arcs, making the inscribed angles that intercept them equal: ∠BCA ≅ ∠DCA (each intercepts a congruent arc).",
       "diveDeep": "Parallel chords in a circle intercept congruent arcs between them, and inscribed angles intercepting congruent arcs are themselves congruent. The tangent-chord angle equals half its intercepted arc, which is what the tangent line EDF is meant to test in the distractor choices. To evaluate each choice, translate every angle into the arc it intercepts (inscribed = half arc, tangent-chord = half arc) and compare those arcs. The choice whose two angles intercept guaranteed-equal arcs is always true.",
@@ -426,6 +438,7 @@ export default {
         "I, II, and III"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Triangle Relationships",
       "correct": 3,
       "explanation": "Since D and E are midpoints, AD/AB = AE/AC = 1/2 with the shared angle A, and DE = (1/2)BC, so all three sides are proportional and the included angle matches — AA, SSS, and SAS similarity all apply.",
       "diveDeep": "The midsegment DE is parallel to BC and half its length, so △ADE ~ △ABC by a scale factor of 1/2. AA works because the parallel midsegment creates congruent corresponding angles; SAS works using the proportional sides AD/AB = AE/AC and the common included angle A; SSS works because all three pairs of sides are in the ratio 1:2. When a configuration satisfies the conditions for multiple similarity postulates, the answer is \"all of them.\" Verify each postulate's specific requirements rather than assuming only one applies.",

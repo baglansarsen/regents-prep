@@ -71,6 +71,7 @@ export default {
         "a pyramid with a height of 4 cm and a base length of 14 cm"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Cross-Sections & Solids of Revolution",
       "correct": 0,
       "explanation": "Rotating a right triangle 360° about one leg sweeps out a cone whose height equals that leg (4 cm) and whose radius equals the other leg (7 cm).",
       "diveDeep": "Rotating a 2-D figure about an axis generates a 3-D solid of revolution. A right triangle spun about a leg always produces a cone: the leg on the axis becomes the height, and the perpendicular leg becomes the radius of the circular base. A common trap is doubling the leg to 14 cm (treating it as a diameter) — the radius equals the leg itself, not twice it. Visualize the path the far vertex traces as it spins; that circle is the base.",
@@ -88,6 +89,7 @@ export default {
         "(x + 3)² + (y − 5)² = 4"
       ],
       "topic": "Circles",
+      "subTopic": "Equations of Circles",
       "correct": 1,
       "explanation": "The standard form is (x − h)² + (y − k)² = r², so center (−3, 5) gives (x + 3)² + (y − 5)² and r² = 4² = 16.",
       "diveDeep": "In the equation (x − h)² + (y − k)² = r², the center is (h, k) and the right side is the radius squared, not the radius. The signs flip: a center x-coordinate of −3 appears as (x + 3). The classic traps here are forgetting to square the radius (using 4 instead of 16) and mishandling the negative sign of the center. Always double-check both the sign reversal and the squaring of the radius.",
@@ -105,6 +107,7 @@ export default {
         "40"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Similarity",
       "correct": 1,
       "explanation": "Areas of similar figures scale by the square of the linear scale factor, so (3/2)² × 20 = 9/4 × 20 = 45 square units.",
       "diveDeep": "When two figures are similar with linear ratio a:b, their areas are in ratio a²:b² and their volumes in ratio a³:b³. Here the linear ratio 2:3 gives an area ratio 4:9, so the larger triangle has area 20 × 9/4 = 45. A common mistake is multiplying area by the linear factor (3/2) instead of its square. Always square the scale factor for area and cube it for volume.",
@@ -122,6 +125,7 @@ export default {
         "a pyramid with a height of 4 cm and a base length of 14 cm"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Cross-Sections & Solids of Revolution",
       "correct": 1,
       "explanation": "Rotating the right triangle about the 4 cm leg produces a cone whose height is 4 cm and whose radius equals the other leg, 14 cm.",
       "diveDeep": "A solid of revolution from a right triangle spun about one of its legs is always a cone, with that leg as the height and the perpendicular leg as the radius. The trap of halving 14 to 7 (treating it as a diameter) is wrong — the radius equals the full perpendicular leg. Picture the far vertex tracing a circle of radius 14 as the triangle sweeps a full turn.",
@@ -139,6 +143,7 @@ export default {
         "78"
       ],
       "topic": "Circles",
+      "subTopic": "Arcs & Angles",
       "correct": 3,
       "explanation": "Arc length = (central angle/360°) × 2πr = (140/360) × 2π(32) ≈ 78 cm.",
       "diveDeep": "Arc length is a fraction of the full circumference, where the fraction is the central angle over 360°. Compute (140/360) × 2π × 32 ≈ 0.3889 × 201.06 ≈ 78.2 cm. A frequent error is confusing arc length (a distance) with sector area (a region using πr²) — be sure to use circumference 2πr for arc length. Keep the calculator in degree mode and don't round until the end.",
@@ -174,6 +179,7 @@ export default {
         "56°"
       ],
       "topic": "Right Triangles & Trig",
+      "subTopic": "Right Triangle Trig",
       "correct": 2,
       "explanation": "Half the 10 ft base is 5 ft, so the base angle satisfies tan(∠EGF) = 6/5, giving about 50°; then ∠EGD = 90° − 50° ≈ 40°.",
       "diveDeep": "Drop the altitude of the isosceles triangle from E to the midpoint of FG, creating a right triangle with horizontal leg 5 ft and vertical leg 6 ft. The base angle of the triangle is arctan(6/5) ≈ 50°. Since GD is the vertical side of the rectangle (90° from the horizontal base), ∠EGD = 90° − 50° ≈ 40°. The trap choice 50° is the triangle's base angle itself; read carefully which angle the question asks for relative to the rectangle.",
@@ -211,6 +217,7 @@ export default {
         "y + 1 = −4⁄3(x − 3)"
       ],
       "topic": "Coordinate Geometry",
+      "subTopic": "Lines & Slope",
       "correct": 3,
       "explanation": "The given line has slope (−1 − (−4))/(3 − (−1)) = 3/4, so a perpendicular line must have the negative reciprocal slope −4/3, matching the last choice.",
       "diveDeep": "Perpendicular lines have slopes that are negative reciprocals (their product is −1). First find the slope of the given line: rise over run = 3/4. The perpendicular slope is −4/3. The trap choices keep the original slope 3/4 or use the wrong reciprocal; only the equation with slope −4/3 qualifies. Point-slope form y − y₁ = m(x − x₁) is being used, so focus on matching the slope rather than the point.",
@@ -228,6 +235,7 @@ export default {
         "32"
       ],
       "topic": "Right Triangles & Trig",
+      "subTopic": "Pythagorean & Special Triangles",
       "correct": 1,
       "explanation": "In right triangle DAY, hypotenuse DY corresponds to TN; since AD = DY = 6 the triangle is isosceles with the scale factor giving TN = 8√2.",
       "diveDeep": "Similar right triangles have proportional corresponding sides. With AD = 6 and DY = 6 in △DAY, and IT = 16 corresponding to a leg, the scale factor is determined by matching corresponding parts (the ratio is 16/6 reduced appropriately). The hypotenuse of the smaller triangle is 6√2, so the corresponding hypotenuse TN scales to 8√2. A common error is misidentifying which sides correspond — always match vertices in the similarity statement order (D↔N, A↔I, Y↔T).",
@@ -246,6 +254,7 @@ export default {
         "10.4"
       ],
       "topic": "Circles",
+      "subTopic": "Circle Segments & Lines",
       "correct": 1,
       "explanation": "From V = (4/3)πr³ = 333, r³ = 333 × 3/(4π) ≈ 79.5, so r ≈ 4.3 cm and the diameter is 2r ≈ 8.6 cm.",
       "diveDeep": "Use the sphere volume formula V = (4/3)πr³ and solve for r by isolating r³ = 3V/(4π). Here r³ ≈ 79.5, so r ≈ 4.3 cm; the question asks for the diameter, which is twice the radius (≈ 8.6 cm). The trap choice 4.3 is the radius — read whether the problem wants radius or diameter. Take the cube root carefully and double at the end.",
@@ -281,6 +290,7 @@ export default {
         "(−4, 1)"
       ],
       "topic": "Coordinate Geometry",
+      "subTopic": "Coordinate Proofs",
       "correct": 3,
       "explanation": "Using the section formula, A = R + (5/9)(Z − R) = (6 + (5/9)(−18), 6 + (5/9)(−9)) = (−4, 1).",
       "diveDeep": "To find a point dividing a segment in ratio m:n from R toward Z, use A = R + (m/(m+n))(Z − R). Here m:n = 5:4, so the fraction is 5/9 of the way from R to Z. Compute each coordinate separately: x = 6 + (5/9)(−18) = −4 and y = 6 + (5/9)(−9) = 1. A common trap is reversing the ratio direction (going from Z to R) — anchor at the first-named endpoint R and move toward Z.",
@@ -298,6 +308,7 @@ export default {
         "16"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Triangle Relationships",
       "correct": 3,
       "explanation": "By the Side-Splitter Theorem, BD/DA = BE/EC, so 9/3 = BE/4 gives BE = 12, and BC = BE + EC = 12 + 4 = 16.",
       "diveDeep": "A line parallel to one side of a triangle divides the other two sides proportionally (the Side-Splitter Theorem): BD/DA = BE/EC. Solving 9/3 = BE/4 yields BE = 12. The question asks for the full side BC, so add EC: BC = 12 + 4 = 16. The trap answer 12 stops at BE — remember BC is the entire side, not just the upper segment. Set up the proportion with matching segments on the same sides.",
@@ -333,6 +344,7 @@ export default {
         "center (−8, 10) and radius 3"
       ],
       "topic": "Circles",
+      "subTopic": "Equations of Circles",
       "correct": 2,
       "explanation": "Completing the square gives (x − 8)² + (y + 10)² = −155 + 64 + 100 = 9, so the center is (8, −10) and the radius is √9 = 3.",
       "diveDeep": "To convert general form to center-radius form, complete the square on x and y separately. Half of −16 is −8, squared is 64; half of 20 is 10, squared is 100; add both to each side: −155 + 64 + 100 = 9. So (x − 8)² + (y + 10)² = 9, giving center (8, −10) and radius √9 = 3. Two classic traps: forgetting to take the square root of the right side (using 9 as the radius) and mishandling the sign of the center coordinates.",
@@ -350,6 +362,7 @@ export default {
         "New Jersey, Connecticut, New York, Pennsylvania"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Density & Modeling",
       "correct": 0,
       "explanation": "Density = population ÷ land area: PA ≈ 291, NY ≈ 429, CT ≈ 745, NJ ≈ 1263 people/mi², ordered smallest to largest as Pennsylvania, New York, Connecticut, New Jersey.",
       "diveDeep": "Population density is a rate found by dividing population by land area. Compute each: PA 13,002,700/44,743 ≈ 291; NY 20,201,249/47,126 ≈ 429; CT 3,605,944/4,842 ≈ 745; NJ 9,288,994/7,354 ≈ 1263. A trap is ordering by population or area alone — density combines both, so a small dense state (NJ) outranks a large populous one (NY). This models the Regents emphasis on density as mass/volume or count/area; always divide and then sort.",
@@ -368,6 +381,7 @@ export default {
         "y = 6x − 1"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Similarity",
       "correct": 0,
       "explanation": "A dilation preserves slope but scales the y-intercept by the factor 3, so the image is y = 2x − 3 (since the line does not pass through the center, it moves parallel to itself).",
       "diveDeep": "Dilating a line not through the center of dilation produces a parallel image: the slope stays the same and the y-intercept multiplies by the scale factor. Here slope 2 is unchanged, and the intercept −1 becomes −1 × 3 = −3, giving y = 2x − 3. The trap choices change the slope to 6 — but dilation never alters slope (parallelism is preserved). If a line passes through the center of dilation, it maps onto itself entirely.",
@@ -403,6 +417,7 @@ export default {
         "3√5"
       ],
       "topic": "Right Triangles & Trig",
+      "subTopic": "Pythagorean & Special Triangles",
       "correct": 3,
       "explanation": "By the geometric mean (leg) relationship, AB² = AD × AC = 3 × 15 = 45, so AB = √45 = 3√5.",
       "diveDeep": "When the altitude is drawn to the hypotenuse of a right triangle, each leg is the geometric mean between the whole hypotenuse and the segment adjacent to that leg: AB² = AD × AC. Here AC = AD + CD = 3 + 12 = 15, so AB² = 3 × 15 = 45 and AB = √45 = 3√5. A common trap is using BD² = AD × CD (the altitude relationship) instead of the leg relationship — match the leg to its adjacent hypotenuse segment, not the two segments to each other.",

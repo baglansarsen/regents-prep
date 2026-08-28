@@ -17,6 +17,7 @@ export default {
         "rectangular prism"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Cross-Sections & Solids of Revolution",
       "correct": 2,
       "explanation": "Rotating a rectangle 360° about one of its sides sweeps out a circular path at every point, producing a right circular cylinder whose radius is the rectangle’s width and whose height is the side it spins around.",
       "diveDeep": "Solids of revolution are a recurring Regents topic: a right triangle rotated about a leg forms a cone, a semicircle about its diameter forms a sphere, and a rectangle about a side forms a cylinder. A common trap is confusing the rectangle (cylinder) with a triangle (cone). Visualize the cross-section: the shape farthest from the axis traces the outer surface. Knowing which 2-D figure generates which 3-D solid — and the reverse (cross sections) — covers a whole cluster of exam questions.",
@@ -34,6 +35,7 @@ export default {
         "20"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Density & Modeling",
       "correct": 1,
       "image": "/images/exams/geo-january-2024/q2.png",
       "explanation": "Two rectangles of 40 × 16 = 640 ft² each give a total of 1280 ft²; dividing by 33⅓ ft² per bundle yields 38.4, so you must round up to 39 whole bundles.",
@@ -52,6 +54,7 @@ export default {
         "y = ³⁄₂x + 7"
       ],
       "topic": "Coordinate Geometry",
+      "subTopic": "Lines & Slope",
       "correct": 0,
       "explanation": "Rewriting 2y = 3x − 10 as y = ³⁄₂x − 5 shows slope ³⁄₂; a perpendicular line must have the negative reciprocal slope −⅔, which matches y = −⅔x + 7.",
       "diveDeep": "Perpendicular slopes are negative reciprocals — flip the fraction AND change the sign. The most common error is using only the negative (−³⁄₂) or only the reciprocal (⅔) instead of both. Always convert to slope-intercept form y = mx + b first so the slope is visible; the y-intercept is irrelevant to perpendicularity. Parallel lines, by contrast, share the same slope, so distinguishing the two relationships is essential.",
@@ -106,6 +109,7 @@ export default {
         "center (3,−2), radius 25"
       ],
       "topic": "Circles",
+      "subTopic": "Equations of Circles",
       "correct": 1,
       "explanation": "Completing the square gives (x − 3)² + (y + 2)² = 25, so the center is (3, −2) and the radius is √25 = 5.",
       "diveDeep": "Converting general form to center-radius form requires completing the square for both x and y: add (−6/2)² = 9 and (4/2)² = 4 to both sides, giving 12 + 9 + 4 = 25 on the right. Common traps are sign errors (the center signs are opposite the constants inside the squares) and forgetting that the right side equals r², not r — so radius is √25 = 5, not 25. Keep the standard form (x − h)² + (y − k)² = r² firmly in mind.",
@@ -161,6 +165,7 @@ export default {
         "160"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Similarity",
       "correct": 2,
       "explanation": "For similar figures the ratio of areas equals the square of the ratio of corresponding sides; (2:5)² = 4:25, so 16/areaDEF = 4/25, giving areaDEF = 100 square units.",
       "diveDeep": "Linear scale factor k relates to area by k² and to volume by k³. A frequent trap is multiplying the area by the linear ratio (2:5) instead of its square. Here, since ABC is the smaller triangle (ratio 2:5), DEF must be larger: 16 × (25/4) = 100. Always set up the proportion with the squared ratio and check that the larger triangle ends up with the larger area as a sanity test.",
@@ -178,6 +183,7 @@ export default {
         "(−1, 1)"
       ],
       "topic": "Coordinate Geometry",
+      "subTopic": "Coordinate Proofs",
       "correct": 0,
       "explanation": "Point E divides AJ in the ratio 2:3, so E = A + ⅕(J − A) = (5 + 0.4(−15), 7 + 0.4(21)) = (5 − 6, 7 + 8.4) ... recompute: x = 5 + (2/5)(−15) = −1, y = 7 + (2/5)(21) = 15.4. Using the correct partition fraction 2/(2+3) = 2/5 gives E = (−1, 15.4), so the matching listed point is (1, 21).",
       "diveDeep": "To partition a directed segment in ratio m:n, use the fraction m/(m+n) of the way from the first endpoint: E = (x₁ + (m/(m+n))(x₂ − x₁), y₁ + (m/(m+n))(y₂ − y₁)). The most common trap is using m/n (here 2/3) instead of m/(m+n) (here 2/5), or starting from the wrong endpoint. Always move from A toward J by the correct fraction. Plotting the endpoints and estimating where the 2:3 split lands provides a quick reasonableness check.",
@@ -195,6 +201,7 @@ export default {
         "37.5"
       ],
       "topic": "Right Triangles & Trig",
+      "subTopic": "Right Triangle Trig",
       "correct": 3,
       "explanation": "The ramp length 75 is the hypotenuse and x is the side opposite the 30° angle, so x = 75·sin(30°) = 75(0.5) = 37.5 feet.",
       "diveDeep": "Set up the trig ratio by identifying which sides relate to the given angle: opposite/hypotenuse uses sine, adjacent/hypotenuse uses cosine. Here the rising height is opposite the 30° angle and the ramp is the hypotenuse, so sine applies. A classic trap is using cosine (which would give 65.0, the horizontal run) or tangent. Note sin(30°) = 0.5 exactly — a value worth memorizing along with the 30-60-90 special triangle ratios.",
@@ -212,6 +219,7 @@ export default {
         "4"
       ],
       "topic": "Right Triangles & Trig",
+      "subTopic": "Pythagorean & Special Triangles",
       "correct": 0,
       "image": "/images/exams/geo-january-2024/q12.png",
       "explanation": "By the geometric-mean (leg) relationship, leg ME is the mean proportional between the whole hypotenuse MT and the adjacent segment SM: ME² = SM · MT, so 6² = 4 · MT, giving MT = 36/4 = 9.",
@@ -248,6 +256,7 @@ export default {
         "88°"
       ],
       "topic": "Circles",
+      "subTopic": "Circle Segments & Lines",
       "correct": 1,
       "image": "/images/exams/geo-january-2024/q14.png",
       "explanation": "The angle formed by two secants from an external point equals half the difference of the intercepted arcs: 44 = ½(136 − m⏜FH), so 88 = 136 − m⏜FH, giving m⏜FH = 48°.",
@@ -266,6 +275,7 @@ export default {
         "a rectangle 4 by 12"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Cross-Sections & Solids of Revolution",
       "correct": 2,
       "image": "/images/exams/geo-january-2024/q15.png",
       "explanation": "A vertical cut through the center of a cylinder perpendicular to the base produces a rectangle whose width is the full diameter (8 inches) and whose height is the cylinder’s height (12 inches).",
@@ -320,6 +330,7 @@ export default {
         "CE/AC = AC/ET"
       ],
       "topic": "Right Triangles & Trig",
+      "subTopic": "Pythagorean & Special Triangles",
       "correct": 0,
       "image": "/images/exams/geo-january-2024/q18.png",
       "explanation": "The altitude to the hypotenuse is the geometric mean between the two hypotenuse segments, so AE² = CE · ET, which rearranges to the proportion CE/AE = AE/ET.",
@@ -338,6 +349,7 @@ export default {
         "8"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Density & Modeling",
       "correct": 0,
       "explanation": "The volume is 43 × 30 × 9 = 11,610 cubic inches; dividing by 1728 (in³ per ft³) gives ≈ 6.72 ft³, and dividing by 0.5 ft³ per bag gives ≈ 13.4, so 14 bags must be purchased.",
       "diveDeep": "This problem layers three steps: compute volume in cubic inches, convert to cubic feet (divide by 12³ = 1728), then divide by the per-bag volume and round up. The dominant traps are forgetting the unit conversion (mixing inches and feet) and rounding 13.4 down to 13 — you must round UP to fully fill the box. Keep track of units throughout and apply a ceiling because partial bags cannot be bought.",
@@ -428,6 +440,7 @@ export default {
         "75"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Density & Modeling",
       "correct": 1,
       "explanation": "Required volume = 100,000 ÷ 7.48 ≈ 13,369 ft³; with V = πr²h, 13,369 = πr²(30) gives r² ≈ 141.8, r ≈ 11.9, so diameter ≈ 23.8, rounding up to 24 feet.",
       "diveDeep": "Multi-step volume problems require converting the gallon requirement to cubic feet first (divide by 7.48), then solving V = πr²h for the radius and doubling it for the diameter. The two big traps are reporting the radius (≈12) instead of the diameter (≈24), and rounding down when \"at least\" demands rounding the minimum diameter up. Carry the cylinder volume formula and isolate r² = V/(πh) before taking the square root.",

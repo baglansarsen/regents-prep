@@ -35,6 +35,7 @@ export default {
         "(2,16)"
       ],
       "topic": "Coordinate Geometry",
+      "subTopic": "Coordinate Proofs",
       "correct": 0,
       "explanation": "Point A divides PQ in the ratio 2:3, so A = P + (2/5)(Q − P). The change is (2/5)(3−(−2), 21−6) = (2/5)(5,15) = (2,6), giving A = (−2+2, 6+6) = (0,12).",
       "diveDeep": "To partition a segment in ratio m:n from the first endpoint, use the section formula A = P + (m/(m+n))(Q − P), or equivalently weight the coordinates. The fraction of the way from P to Q is m/(m+n) = 2/5, NOT 2/3 — a very common trap is using the raw ratio numbers as the fraction. Always confirm by checking that the resulting point lies on the segment and that PA is the smaller piece when m < n. Plotting the points roughly can catch gross errors quickly.",
@@ -89,6 +90,7 @@ export default {
         "20"
       ],
       "topic": "Circles",
+      "subTopic": "Circle Segments & Lines",
       "correct": 0,
       "explanation": "By the tangent-secant relationship, AD² = AB · AC = 4 · 16 = 64, so AD = √64 = 8.",
       "diveDeep": "When a tangent and a secant are drawn from the same external point, the tangent length squared equals the product of the whole secant and its external segment: (tangent)² = (external part)(whole secant). A frequent mistake is multiplying AB by BC instead of AB by the entire secant AC. Always identify the \"whole × external\" pairing carefully before substituting. This power-of-a-point relationship also generalizes to two secants from one point: (external₁)(whole₁) = (external₂)(whole₂).",
@@ -106,6 +108,7 @@ export default {
         "center (−3,4) and radius 36"
       ],
       "topic": "Circles",
+      "subTopic": "Equations of Circles",
       "correct": 0,
       "explanation": "Completing the square gives (x−3)² + (y+4)² = 11 + 9 + 16 = 36, so the center is (3,−4) and the radius is √36 = 6.",
       "diveDeep": "To convert general form x² + y² + Dx + Ey + F = 0 to center-radius form, complete the square on the x-terms and y-terms separately, adding the same constants to both sides. The center is (−D/2, −E/2) and the radius is the square root of the right-hand side — students often forget to take the square root, choosing 36 instead of 6. Watch the signs: a +8y term means E = 8, so the y-coordinate of the center is −4. Always add the squared half-coefficients to BOTH sides to keep the equation balanced.",
@@ -123,6 +126,7 @@ export default {
         "√7"
       ],
       "topic": "Coordinate Geometry",
+      "subTopic": "Coordinate Proofs",
       "correct": 0,
       "explanation": "Using the distance formula, AC = √((4−1)² + (5−1)²) = √(9 + 16) = √25 = 5.",
       "diveDeep": "The distance formula d = √((x₂−x₁)² + (y₂−y₁)²) is just the Pythagorean theorem applied to the horizontal and vertical legs between two points. Here the legs are 3 and 4, a classic 3-4-5 right triangle, so AC = 5 exactly with no radical needed. A common error is forgetting to square the differences or mismatching coordinate pairs. When the result under the radical is a perfect square, simplify fully rather than leaving it in radical form.",
@@ -140,6 +144,7 @@ export default {
         "An angle of one triangle is congruent to an angle of the other triangle."
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Similarity",
       "correct": 0,
       "explanation": "By the AA (Angle-Angle) similarity criterion, if two angles of one triangle are congruent to two angles of another, the triangles are similar because the third angles must also be congruent.",
       "diveDeep": "Triangle similarity can be established by AA, SAS~ (two proportional sides with included congruent angle), or SSS~ (all three sides proportional). The simplest is AA, since knowing two angle pairs forces the third by the Triangle Angle Sum Theorem. Beware of choices describing congruent sides — congruent (not proportional) sides prove congruence, which is stronger than what similarity requires, and a single congruent angle is never enough. Distinguish similarity (same shape, proportional sides) from congruence (same shape AND size).",
@@ -157,6 +162,7 @@ export default {
         "√100"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Volume & Surface Area",
       "correct": 0,
       "explanation": "Using V = πr²h, 1000π = πr²(10), so r² = 100 and r = 10 inches.",
       "diveDeep": "The volume of a cylinder is V = πr²h; solve for the unknown by isolating r². Dividing 1000π by π cancels π immediately, leaving 1000 = 10r², so r² = 100 and r = 10. A common slip is forgetting to divide by the height as well, or stopping at r² without taking the square root. Keeping π symbolic until it cancels avoids unnecessary decimal rounding.",
@@ -174,6 +180,7 @@ export default {
         "120°"
       ],
       "topic": "Circles",
+      "subTopic": "Arcs & Angles",
       "correct": 1,
       "explanation": "The angle formed by two chords intersecting inside a circle equals half the sum of the two intercepted arcs. Arc NA = 180° − 105° = 75° (since YN is a diameter) and arc YK = 120°... ∠ASN intercepts arcs NA (75°) and arc KY on the other side; m∠ASN = ½(75° + 120°) = 97.5°.",
       "diveDeep": "When two chords intersect inside a circle, each formed angle equals half the SUM of its intercepted arc and the arc intercepted by its vertical angle. Because YN is a diameter, the arc on one side from Y to N is 180°, which lets you find the missing arcs by subtraction. A frequent trap is using the half-DIFFERENCE formula, which applies only to angles with vertices OUTSIDE the circle. Carefully match each angle to the pair of arcs its sides cut off before averaging.",
@@ -191,6 +198,7 @@ export default {
         "14"
       ],
       "topic": "Coordinate Geometry",
+      "subTopic": "Coordinate Proofs",
       "correct": 1,
       "explanation": "Using the coordinate area formula ½|x_A(y_B−y_C) + x_B(y_C−y_A) + x_C(y_A−y_B)| = ½|−3(1−2) + (−5)(2−4) + 3(4−1)| = ½|3 + 10 + 9| = ½(22) = 11.",
       "diveDeep": "For a triangle given by coordinates, the \"shoelace\" formula Area = ½|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)| gives the area directly without finding a base and height. Keep track of signs carefully and take the absolute value at the end, since area is never negative. An alternative is the bounding-box method: enclose the triangle in a rectangle and subtract the surrounding right triangles. Choosing whichever method matches the given information reduces arithmetic errors.",
@@ -245,6 +253,7 @@ export default {
         "80"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Similarity",
       "correct": 1,
       "explanation": "The side ratio gives AB/WX = 2/5, so (x+3)/(3x+5) = 2/5. Cross-multiplying: 5(x+3) = 2(3x+5), 5x+15 = 6x+10, x = 5. Then AB = 8, and the perimeter is 4 × 8 = 32.",
       "diveDeep": "For similar figures, the ratio of any pair of corresponding lengths (including sides and perimeters) equals the scale factor. Set up a proportion of corresponding sides, solve for the variable, then compute the requested quantity. A common trap is reporting the side length (8) instead of the perimeter (32), or accidentally using the area ratio (which would be 2²:5²). Re-read what the question asks for after solving for x.",
@@ -280,6 +289,7 @@ export default {
         "25"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Volume & Surface Area",
       "correct": 1,
       "explanation": "Volume of a pyramid is V = ⅓(base area)(height): 175 = ⅓(s²)(21) = 7s², so s² = 25 and s = 5. The base is a square, so its perimeter is 4 × 5 = 20.",
       "diveDeep": "The volume of any pyramid is one-third the base area times the height, V = ⅓Bh. For a square base, B = s², so solve for s², take the square root to get the side, then multiply by 4 for perimeter. Common traps include forgetting the ⅓ factor, stopping at the side length instead of the perimeter, or using a wrong base shape. Track units and re-read the requested quantity (perimeter vs. side vs. area) at the end.",
@@ -297,6 +307,7 @@ export default {
         "178"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Density & Modeling",
       "correct": 0,
       "image": "/images/exams/geo-january-2025/q17.png",
       "explanation": "A quarter-cylinder volume is ¼πr²h = ¼ × π × 22² × 27 ≈ 10,261 in³. Dividing by 231 in³/gal gives ≈ 44 gallons.",
@@ -315,6 +326,7 @@ export default {
         "y = −x + 8"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Similarity",
       "correct": 0,
       "explanation": "A dilation centered at the origin keeps a line's slope unchanged (−2) but scales the y-intercept by the scale factor: 8 × ½ = 4. The image is y = −2x + 4.",
       "diveDeep": "A dilation centered at the origin preserves slope (parallel image line) and multiplies the y-intercept by the scale factor. If the line passed through the center of dilation, it would map onto itself; here it does not, so it shifts to a parallel line. The common error is dilating the slope as well — but slope is a ratio of changes and is unaffected by a dilation about the origin. Identify the fixed point (origin) and apply the scale factor only to the intercept.",
@@ -332,6 +344,7 @@ export default {
         "TR/VR = VR/SR"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Triangle Relationships",
       "correct": 0,
       "explanation": "The altitude to the hypotenuse creates similar triangles, giving the leg geometric-mean relationship: each leg is the geometric mean of the hypotenuse and the adjacent hypotenuse segment, so ST² = RT · VT, i.e., RT/ST = ST/VT.",
       "diveDeep": "When an altitude is drawn from the right angle to the hypotenuse, it forms two smaller triangles each similar to the original and to each other (the \"geometric mean\" relationships). Two key results: each leg is the geometric mean of the whole hypotenuse and the segment of the hypotenuse adjacent to that leg, and the altitude is the geometric mean of the two hypotenuse segments. Set up the correct proportion by pairing corresponding parts of the similar triangles. The frequent error is mismatching segments — always identify which leg is adjacent to which hypotenuse piece.",
@@ -349,6 +362,7 @@ export default {
         "3π/2"
       ],
       "topic": "Circles",
+      "subTopic": "Arcs & Angles",
       "correct": 1,
       "explanation": "Arc length s = rθ, with radius r = 18 (half of 36). So θ = s/r = 12π/18 = 2π/3 radians.",
       "diveDeep": "Arc length in radians follows s = rθ, where θ is the central angle in radians and r is the radius — be sure to halve the diameter first. Solving for θ gives θ = s/r. A classic trap is using the diameter instead of the radius, which would halve the answer incorrectly. Radian measure has no degree symbol; if a problem mixes degrees and radians, convert consistently before computing.",
@@ -366,6 +380,7 @@ export default {
         "y = −x + 1"
       ],
       "topic": "Coordinate Geometry",
+      "subTopic": "Lines & Slope",
       "correct": 0,
       "explanation": "The midpoint of AB is (5,4) and the slope of AB is (1−7)/(8−2) = −1, so the perpendicular bisector has slope 1 and passes through (5,4): y − 4 = 1(x − 5), y = x − 1.",
       "diveDeep": "A perpendicular bisector passes through the midpoint of a segment and is perpendicular to it. First find the midpoint with the average of the coordinates, then find the segment's slope and take its negative reciprocal for the perpendicular slope. Substitute the midpoint and perpendicular slope into point-slope form, then simplify. Common errors include forgetting to use the midpoint (just any point won't do) or forgetting to negate AND reciprocate the slope.",
@@ -383,6 +398,7 @@ export default {
         "370"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Density & Modeling",
       "correct": 3,
       "image": "/images/exams/geo-january-2025/q22.png",
       "explanation": "The quarter-cylinder volume is ¼π(22²)(27) ≈ 10,261 in³, and multiplying by 0.036 lb/in³ gives ≈ 370 pounds.",
@@ -402,6 +418,7 @@ export default {
         "2347"
       ],
       "topic": "Circles",
+      "subTopic": "Arcs & Angles",
       "correct": 2,
       "explanation": "Each rotation covers one circumference = πd = π(2.25) ≈ 7.0686 feet. Number of rotations = 5280 ÷ 7.0686 ≈ 747.",
       "diveDeep": "One full rotation of a wheel moves it forward a distance equal to its circumference, C = πd. Divide the total distance (converted to the same units as the circumference) by the circumference to get the number of rotations. The biggest pitfall is unit consistency: convert the mile to 5280 feet so it matches the tire diameter in feet. Using radius instead of diameter in C = πd, or forgetting the mile-to-feet conversion, produces the distractor answers.",

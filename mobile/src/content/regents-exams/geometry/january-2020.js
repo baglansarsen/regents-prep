@@ -36,6 +36,7 @@ export default {
         "12"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Volume & Surface Area",
       "correct": 1,
       "explanation": "The radius is 6. Using V = (1/3)πr²h: 108π = (1/3)π(36)h → 12h = 108 → h = 9.",
       "diveDeep": "The cone volume formula is V = (1/3)πr²h. Remember: diameter ÷ 2 = radius, so r = 6, not 12. Substituting: (1/3)π(36)h = 108π → 12h = 108 → h = 9. A very common error is using the diameter as the radius, which yields h = 9/4. Always convert diameter to radius before substituting into any circle or cone formula.",
@@ -88,6 +89,7 @@ export default {
         "A(2, 3)"
       ],
       "topic": "Coordinate Geometry",
+      "subTopic": "Coordinate Proofs",
       "correct": 0,
       "explanation": "Using the section formula with ratio 1:3 (fraction = 1/4): A_x = −7 + (1/4)(5−(−7)) = −7 + 3 = −4; A_y = 5 + (1/4)(−3−5) = 5 − 2 = 3. So A = (−4, 3).",
       "diveDeep": "The directed partition formula: given ratio m:n, the point is at (x₁ + m/(m+n)·Δx, y₁ + m/(m+n)·Δy). Here m:n = 1:3, fraction = 1/4. Δx = 5−(−7) = 12, Δy = −3−5 = −8. A = (−7 + 3, 5 − 2) = (−4, 3). Watch carefully for sign errors with negative coordinates. Also confirm you start from the correct endpoint (the \"from\" point P, not Q) since the ratio is directional.",
@@ -105,6 +107,7 @@ export default {
         "13.1"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Triangle Relationships",
       "correct": 2,
       "explanation": "Triangles AEB and CED are similar by AA. The ratio AE/CE = 5.2/(11.7 − 5.2) = 5.2/6.5 = 0.8. So AB = CD × 0.8 = 10.5 × 0.8 ≈ 8.4. Checking the other setup gives AB ≈ 6.5.",
       "diveDeep": "When a diagonal of a trapezoid is divided by another diagonal or segment, the resulting triangles share an angle at the intersection and have parallel sides creating equal alternate interior angles — producing similar triangles by AA. Set up the proportion carefully using the correct corresponding sides. The ratio involves the sub-segments of the diagonal, not the full diagonal. A common error is using the full diagonal length instead of the two parts.",
@@ -122,6 +125,7 @@ export default {
         "88°"
       ],
       "topic": "Right Triangles & Trig",
+      "subTopic": "Right Triangle Trig",
       "correct": 1,
       "explanation": "In △ABC: AB = √(17² − 15²) = 8. The correspondence gives ∠C ↔ ∠F. cos C = BC/AC = 15/17, so ∠C ≈ 28°. But ∠F ↔ ∠C so ∠F ≈ 28°… Actually sin A = 15/17, ∠A ≈ 62°, and since A↔D, C↔F, we get ∠F = ∠C = 90° − 62° = 28°. The answer for ∠F is 28°, matching choice 0 (28°). With the choices given as 28°, 62°, 41°, 88°, the answer is 62° if the question asks for ∠D or ∠A.",
       "diveDeep": "In the similarity △ABC ~ △DEF with right angles at B and E: A↔D, B↔E, C↔F. In right △ABC, sin A = BC/AC = 15/17 ≈ 0.882, so ∠A ≈ 62°. Then ∠C = 90° − 62° = 28° and ∠F = ∠C = 28°. If the exam asks for ∠D, the answer is 62°. Always track the vertex correspondence from the similarity statement to identify which angle is which in each triangle.",
@@ -139,6 +143,7 @@ export default {
         "k = 4"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Similarity",
       "correct": 0,
       "explanation": "Rewriting: 2y = x − 8 gives y = (1/2)x − 4. The image is y = (1/2)x − 2. The slope is unchanged; the y-intercept changed from −4 to −2, a ratio of 1/2. So k = 1/2.",
       "diveDeep": "A dilation of a line not through the origin scales the intercept by k while the slope remains the same. Original y-intercept = −4; image y-intercept = −2; ratio = (−2)/(−4) = 1/2, confirming k = 1/2. If the line passed through the origin, dilation would map it onto itself for any k. A frequent mistake is thinking the slope also changes under dilation — it does not for a non-origin-centered dilation of a line (the line remains parallel to itself).",
@@ -174,6 +179,7 @@ export default {
         "equal to half the volume of cone B"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Volume & Surface Area",
       "correct": 0,
       "explanation": "Let cone B have radius r and height 2h. Cone A has radius 2r and height h. V_A = (1/3)π(2r)²h = (4/3)πr²h; V_B = (1/3)πr²(2h) = (2/3)πr²h. Ratio V_A/V_B = 2, so cone A is twice the volume.",
       "diveDeep": "V = (1/3)πr²h. Doubling the radius multiplies r² by 4 (since (2r)² = 4r²), while the height is halved relative to cone B (cone B has twice cone A's height). Net factor: 4 × (1/2) = 2. So V_A = 2·V_B. The most common mistake is not squaring the radius factor: students compute 2 × (1/2) = 1 instead of 4 × (1/2) = 2. Always square the radius change when computing volume ratios.",
@@ -227,6 +233,7 @@ export default {
         "37.125π"
       ],
       "topic": "Circles",
+      "subTopic": "Arcs & Angles",
       "correct": 2,
       "explanation": "Inscribed angle ∠TRE = 15° intercepts arc TE, so arc TE = 30°. Since RT is a diameter, arc RE = 180° − 30° = 150°. Central angle ∠EBR = 150°. Area = (150/360)π(9²) = (5/12)(81π) = 33.75π.",
       "diveDeep": "The Inscribed Angle Theorem: inscribed angle = (1/2) × intercepted arc. ∠TRE intercepts arc TE, so arc TE = 2 × 15° = 30°. Since RT is a diameter, arc RTE (the semicircle containing E) = 180°, meaning arc RE = 180° − 30° = 150°. Central angle ∠EBR = arc RE = 150°. Sector area = (θ°/360°)πr². Students often confuse the inscribed angle (15°) with the central angle, producing a sector area of (15/360)π(81) = 3.375π — off by a factor of 10.",
@@ -244,6 +251,7 @@ export default {
         "16"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Triangle Relationships",
       "correct": 2,
       "explanation": "By the Triangle Proportionality Theorem (or similar triangles), BC/DE = AB/AD = (4+6)/4 = 10/4 = 2.5. So BC = 8 × 2.5 = 20.",
       "diveDeep": "When DE ∥ BC with D on AB and E on AC, △ADE ~ △ABC by AA similarity. The ratio is AD/AB = 4/10 = 2/5, so BC/DE = AB/AD = 5/2, giving BC = 8 × (5/2) = 20. The most common error is using only the partial segment DB instead of the full side AB in the ratio. Always use the full side lengths of the similar triangles, not just the partial segments.",
@@ -261,6 +269,7 @@ export default {
         "y = 2x − 3"
       ],
       "topic": "Coordinate Geometry",
+      "subTopic": "Lines & Slope",
       "correct": 1,
       "explanation": "The slope of the given line is 2. The perpendicular slope is −1/2. Using point (4, −1): −1 = −(1/2)(4) + b → −1 = −2 + b → b = 1. Equation: y = −(1/2)x + 1.",
       "diveDeep": "Perpendicular slopes are negative reciprocals: if the original slope is m, the perpendicular slope is −1/m. For m = 2, perpendicular slope = −1/2. Substitute the given point (4, −1): −1 = (−1/2)(4) + b → −1 = −2 + b → b = 1. The equation is y = −(1/2)x + 1. Common mistakes include using the same slope (parallel line) or using the reciprocal without negating it.",
@@ -296,6 +305,7 @@ export default {
         "106°"
       ],
       "topic": "Circles",
+      "subTopic": "Arcs & Angles",
       "correct": 0,
       "explanation": "For an angle formed by two secants from an external point: ∠P = (1/2)|arc AC − arc BD| = (1/2)|72° − 34°| = (1/2)(38°) = 19°.",
       "diveDeep": "When two secants are drawn from an external point, the angle at the external point equals half the (positive) difference of the intercepted arcs: ∠P = (1/2)(far arc − near arc) = (1/2)(72° − 34°) = 19°. The \"far arc\" is the larger intercepted arc (AC) and the \"near arc\" is the smaller one (BD). Students often add the arcs instead of subtracting, which gives the answer for an inscribed angle scenario. Remember: external angle = half the difference.",
@@ -313,6 +323,7 @@ export default {
         "36"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Volume & Surface Area",
       "correct": 1,
       "image": "/images/exams/geo-january-2020/q18.png",
       "explanation": "The diagonals of the rhombus are AC with length 6 (from (1,2) to (7,2)) and BD with length 8 (from (4,6) to (4,−2)). Area = (1/2)d₁d₂ = (1/2)(6)(8) = 24.",
@@ -331,6 +342,7 @@ export default {
         "I, III, and IV, only"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Cross-Sections & Solids of Revolution",
       "correct": 3,
       "explanation": "A cone (through apex), a cube (diagonal plane through three vertices), and a square pyramid (through apex and two base vertices) can produce triangular cross sections. A cylinder cannot produce a triangular cross section.",
       "diveDeep": "Cross sections depend on the angle and position of the cutting plane. Cone: a plane through the apex intersects the circular base in two points, forming a triangle. Square pyramid: a plane through the apex and two base vertices forms an isosceles triangle. Cube: a plane through three non-collinear vertices forms a triangle. Cylinder: any cross section is a circle, ellipse, or rectangle — never a triangle because the curved lateral surface cannot produce a straight edge meeting at a single apex point.",
@@ -348,6 +360,7 @@ export default {
         "(x − 2)² + (y + 4)² = 16"
       ],
       "topic": "Circles",
+      "subTopic": "Equations of Circles",
       "correct": 1,
       "explanation": "The center is (−2, 4) and the tangent line is x = 2. The radius is the horizontal distance |−2 − 2| = 4. Equation: (x + 2)² + (y − 4)² = 16.",
       "diveDeep": "For a circle tangent to a vertical line x = k, the radius equals |x_center − k|. Here r = |−2 − 2| = 4, so r² = 16. Standard form: (x − h)² + (y − k)² = r². With center (−2, 4): (x − (−2))² + (y − 4)² = (x + 2)² + (y − 4)² = 16. The most common error is confusing the sign inside the parentheses — remember (x − h)² means h is the x-coordinate of the center, so center x = −2 gives (x + 2)², not (x − 2)².",
@@ -365,6 +378,7 @@ export default {
         "52°"
       ],
       "topic": "Right Triangles & Trig",
+      "subTopic": "Right Triangle Trig",
       "correct": 1,
       "explanation": "Using the co-function identity sin θ = cos(90° − θ): 4x + (3x + 13) = 90 → 7x = 77 → x = 11. The angles are 4(11) = 44° and 3(11) + 13 = 46°. The smaller angle is 44°.",
       "diveDeep": "The co-function identity states that sin A = cos B when A + B = 90° (complementary angles). Setting the two angle expressions as complements: 4x + (3x + 13) = 90 → 7x + 13 = 90 → 7x = 77 → x = 11. Then 4x = 44° and 3x + 13 = 46°. The smaller is 44°. Students sometimes set the expressions equal (4x = 3x + 13) instead of summing them to 90°, giving x = 13 — the wrong approach. The co-function property pairs complementary angles, not equal ones.",
@@ -400,6 +414,7 @@ export default {
         "BC/AB"
       ],
       "topic": "Right Triangles & Trig",
+      "subTopic": "Pythagorean & Special Triangles",
       "correct": 2,
       "image": "/images/exams/geo-january-2020/q23.png",
       "explanation": "In right triangle ABC with right angle at B... actually the right angle is at C. cos A = adjacent/hypotenuse = AB/AC.",
@@ -418,6 +433,7 @@ export default {
         "16"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Triangle Relationships",
       "correct": 3,
       "image": "/images/exams/geo-january-2020/q24.png",
       "explanation": "By the Triangle Proportionality Theorem: RL/RS = LM/ST → 2/(2+6) = 4/(x+2) → 2/8 = 4/(x+2) → x + 2 = 16. So ST = 16.",

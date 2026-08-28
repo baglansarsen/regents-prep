@@ -17,6 +17,7 @@ export default {
         "pyramid"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Cross-Sections & Solids of Revolution",
       "correct": 0,
       "explanation": "Rotating a triangle about an altitude sweeps out a solid with a circular base and a single apex point, which is a cone.",
       "diveDeep": "When a 2-D figure is revolved around an axis, each point traces a circle. The altitude becomes the central axis (the height of the solid), the base of the triangle traces the circular base, and the opposite vertex stays fixed as the apex — producing a cone. A common trap is choosing \"cylinder,\" but a cylinder requires a rectangle rotated about a side, where both ends sweep equal circles. A sphere comes from a semicircle, and a pyramid has flat polygonal faces, not a curved circular base. On the exam, sketch the rotation and ask what shape the boundary traces.",
@@ -52,6 +53,7 @@ export default {
         "51.7"
       ],
       "topic": "Right Triangle Trig",
+      "subTopic": "Right Triangle Trig",
       "correct": 0,
       "explanation": "EJ is adjacent to the 38° angle, so EJ = JO·cos(38°) = 31.8 × cos(38°) ≈ 25.1... — using the cosine ratio with the given hypotenuse yields the adjacent side ≈ 19.6 (cos applied to the correct configuration).",
       "diveDeep": "In right-triangle trig, first identify the right angle, then label each side relative to the given acute angle as opposite, adjacent, or hypotenuse. Here EJ is the leg adjacent to ∠J, so use cosine: adjacent = hypotenuse × cos(angle). Make sure the calculator is in DEGREE mode — radian mode is the single most common source of wrong trig answers on the Regents. Negative options like −5.1 are distractors that can never represent a length, so eliminate them immediately.",
@@ -69,6 +71,7 @@ export default {
         "2145"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Volume & Surface Area",
       "correct": 1,
       "explanation": "A hemisphere is half a sphere: V = ½ · (4/3)πr³ = (2/3)π(8)³ = (2/3)π(512) ≈ 1072 cm³.",
       "diveDeep": "Start from the full-sphere formula V = (4/3)πr³ on the reference sheet, then halve it for a hemisphere. The biggest trap is forgetting to take half and reporting the full sphere volume (≈ 2145 cm³, which appears as a distractor). Also be careful to cube the radius, not the diameter — 8³ = 512, not 8 × 3. Round only at the final step to avoid compounding rounding error.",
@@ -175,6 +178,7 @@ export default {
         "14.2"
       ],
       "topic": "Circles",
+      "subTopic": "Circle Segments & Lines",
       "correct": 2,
       "explanation": "By the secant–secant power of a point relationship, PA·PC = PB·PD. With PB = PD + DB = 10 + 12 = 22, we get 17·PC = 22·10 = 220, so PC = 220/17 ≈ 12.9. (Using the configuration where PC is the near segment of secant PCA.)",
       "diveDeep": "The two-secant rule states (whole external secant)×(its external part) is equal for both secants: PA·PC = PB·PD, where the products use the FULL secant length times the EXTERNAL near-segment. The most common error is mixing up whole-secant versus external-segment lengths, or forgetting to add DB to PD to get the whole second secant PB. Carefully label which lengths are \"whole\" (from P to the far intersection) and which are \"external\" (from P to the near intersection) before substituting.",
@@ -211,6 +215,7 @@ export default {
         "y + 1 = (3/2)(x + 6)"
       ],
       "topic": "Coordinate Geometry",
+      "subTopic": "Lines & Slope",
       "correct": 1,
       "explanation": "The slope of line h is −2/3, so a perpendicular line has the negative reciprocal slope 3/2; in point-slope form through (6,1): y − 1 = (3/2)(x − 6).",
       "diveDeep": "Perpendicular slopes are negative reciprocals: flip the fraction and change the sign, so −2/3 becomes +3/2. Then use point-slope form y − y₁ = m(x − x₁) with the given point, being careful with signs: the point (6,1) produces (x − 6) and (y − 1), not (x + 6) or (y + 1). Two traps appear here at once — using the wrong (parallel) slope, and sign errors in plugging the point into point-slope form.",
@@ -228,6 +233,7 @@ export default {
         "901"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Density & Modeling",
       "correct": 0,
       "explanation": "V = (1/3)·B·h = (1/3)(8.2²)(17.4) = (1/3)(67.24)(17.4) ≈ 389.99 cm³; mass = density × volume = 0.77 × 389.99 ≈ 300 g.",
       "diveDeep": "This is a two-step volume-then-density problem. First compute pyramid volume with V = (1/3)Bh where B is the area of the square base (side², not side). Then apply density: mass = density × volume. The most common error is omitting the 1/3 factor (which would give the prism volume and lead to ~901 g, a distractor), or squaring the wrong quantity. Keep full precision through the volume step and round only the final mass.",
@@ -263,6 +269,7 @@ export default {
         "2√10"
       ],
       "topic": "Right Triangle Trig",
+      "subTopic": "Pythagorean & Special Triangles",
       "correct": 2,
       "explanation": "In an isosceles right triangle the legs are equal and the hypotenuse DU = leg·√2, so leg = DU/√2 = √10/√2 = √5; thus GU = √5.",
       "diveDeep": "A 45-45-90 triangle has the fixed side ratio leg : leg : hypotenuse = 1 : 1 : √2. With the right angle at G, the hypotenuse is the opposite side DU, and the two legs GU and GD are equal. Divide the hypotenuse by √2 to get a leg, then simplify √10/√2 = √5. A common mistake is treating DU as a leg, or mishandling the radical division; rationalizing (√10·√2)/2 = √20/2 = √5 confirms the result.",
@@ -280,6 +287,7 @@ export default {
         "21"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Volume & Surface Area",
       "correct": 2,
       "explanation": "Using the SAS area formula, Area = ½·RS·RT·sin(∠TRS) = ½(9)(8)sin(55°) ≈ 36(0.819) ≈ 29.5... → with the included-angle formula the area rounds to 36 cm² for the given configuration.",
       "diveDeep": "When two sides and the included angle are known, use Area = ½·a·b·sin(C), where C is the angle BETWEEN the two given sides. The included-angle requirement is essential — using a non-included angle gives a wrong result. Confirm DEGREE mode for the sine. This formula is on the Regents implicitly through trig; recognizing the \"two sides + included angle\" pattern signals to use it rather than base-times-height, which would require the height you don't have.",
@@ -316,6 +324,7 @@ export default {
         "12 + 4√5"
       ],
       "topic": "Coordinate Geometry",
+      "subTopic": "Coordinate Proofs",
       "correct": 3,
       "explanation": "AB = 4 (vertical), BC = 8 (horizontal), and AC = √(8² + 4²) = √80 = 4√5; perimeter = 4 + 8 + 4√5 = 12 + 4√5.",
       "diveDeep": "On a coordinate grid, vertical and horizontal segments can be counted directly from coordinate differences, while diagonal segments need the distance formula √((x₂−x₁)² + (y₂−y₁)²). Simplify the radical: √80 = √(16·5) = 4√5. The trap \"5√16\" simplifies to 5·4 = 20, an incorrect, unsimplified-looking distractor. Always reduce radicals fully and add the leg lengths separately from the hypotenuse term.",
@@ -334,6 +343,7 @@ export default {
         "PE/FE = PG/FT"
       ],
       "topic": "Similarity & Proof",
+      "subTopic": "Similarity",
       "correct": 3,
       "explanation": "Since ∠P ≅ ∠F and the vertical angles at E are congruent, △PEG ~ △FET by AA; matching corresponding sides gives PE/FE = PG/FT.",
       "diveDeep": "Intersecting segments with a pair of equal angles create similar triangles via AA (the vertical angles at the intersection provide the second angle pair). The hard part is writing the proportion with CORRESPONDING sides in the same order: list vertices of each triangle so equal angles align (P↔F, E↔E, G↔T), then form ratios of matching sides. Mixing up which sides correspond is the dominant error; carefully name the similar triangles △PEG ~ △FET first, then read off proportional sides.",
@@ -351,6 +361,7 @@ export default {
         "7"
       ],
       "topic": "Area & Volume",
+      "subTopic": "Density & Modeling",
       "correct": 1,
       "explanation": "Convert 4 in to 1/3 ft; volume = 10 × 4 × (1/3) ≈ 13.33 ft³; bags = 13.33 ÷ 0.6 ≈ 22.2, so round UP to 23 bags.",
       "diveDeep": "Two traps live in this problem: unit conversion and rounding direction. The 4-inch depth must become feet (4/12 = 1/3 ft) before multiplying, since the other dimensions and the yield are in feet. After dividing volume by yield, you must round UP — buying 22 bags leaves you short, so the minimum to \"completely replace\" is 23. Whenever a problem asks for the minimum number of whole units needed, always round up regardless of the decimal.",
@@ -405,6 +416,7 @@ export default {
         "16"
       ],
       "topic": "Right Triangle Trig",
+      "subTopic": "Pythagorean & Special Triangles",
       "correct": 1,
       "explanation": "First find HA: by the Pythagorean theorem HA = √(25² − 20²) = √(625−400) = 15; then the altitude AL = (HA·YA)/HY = (15·20)/25 = 12... the leg-altitude relationship gives AL = 12, and the area method ½·HY·AL = ½·HA·YA confirms AL = (15·20)/25 = 12.",
       "diveDeep": "Right-triangle altitude problems can be solved by the equal-area trick: ½·(hypotenuse)·(altitude to hypotenuse) = ½·(leg)·(leg), so altitude = (product of legs)/hypotenuse. First recover the missing leg with the Pythagorean theorem (here a 15-20-25 triple, a multiple of 3-4-5). Alternatively use the geometric-mean (altitude-on-hypotenuse) relationships. Watch which segment is asked — AL is the altitude, not a leg or a hypotenuse segment.",
