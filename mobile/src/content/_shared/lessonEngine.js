@@ -83,9 +83,20 @@ export function makeLessonApi({ exams, topicMap, lessonSize = 20 }) {
     return sliceLessons(pool.filter((q) => skills.includes(q.skill)), lessonIndex, lessonCount)
   }
 
-  /** Lessons for a sub-topic-defined unit (e.g. the Cell Biology split). */
+  /**
+   * Lessons for a sub-topic-defined unit (e.g. the Cell Biology split).
+   * Appends a written capstone matched by `subTopic`, same as
+   * getLessonQuestions does by `topic` — written questions are tagged with
+   * `subTopic` too wherever the enrichment pass reached them, so a
+   * sub-topic-routed unit shouldn't lose that capstone just because it
+   * isn't routed by the coarser `topic` field.
+   */
   function getSubTopicLessonQuestions(subTopic, lessonIndex, lessonCount) {
-    return sliceLessons(pool.filter((q) => q.subTopic === subTopic), lessonIndex, lessonCount)
+    const mc = sliceLessons(pool.filter((q) => q.subTopic === subTopic), lessonIndex, lessonCount)
+    if (!(lessonCount >= 1) || lessonIndex >= lessonCount) return mc
+    const wPool = writtenPool.filter((q) => q.subTopic === subTopic)
+    const written = wPool.length ? wPool[lessonIndex % wPool.length] : null
+    return written ? [...mc, written] : mc
   }
 
   // Shared slicer for skill/sub-topic units (no written capstone — pure MC).
