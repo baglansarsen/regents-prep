@@ -2,7 +2,7 @@
   "expo": {
     "name": "Regentify",
     "slug": "regentify",
-    "version": "1.0.5",
+    "version": "1.0.7",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -26,6 +26,9 @@
             "CFBundleURLSchemes": [
               "com.googleusercontent.apps.752904748328-82me96mfpu3vhv9qm2f5u300qllktr4t"
             ]
+          },
+          {
+            "CFBundleURLSchemes": ["regentify"]
           }
         ],
         "ITSAppUsesNonExemptEncryption": false
@@ -48,13 +51,13 @@
     },
     "plugins": [
       "expo-font",
+      "./plugins/withPodfileModularHeaders",
       [
         "expo-location",
         {
           "locationAlwaysAndWhenInUsePermission": "Used to find schools near your current location."
         }
       ],
-      "./plugins/withForcedKotlin",
       [
         "expo-splash-screen",
         {
@@ -126,9 +129,8 @@
         "expo-build-properties",
         {
           "android": {
-            "kotlinVersion": "1.9.24",
-            "compileSdkVersion": 35,
-            "targetSdkVersion": 35
+            "compileSdkVersion": 36,
+            "targetSdkVersion": 36
           }
         }
       ],
@@ -138,7 +140,8 @@
           "userTrackingPermission": "This identifier will be used to deliver personalized ads to you. You can disable this anytime in Settings."
         }
       ],
-      "expo-asset"
+      "expo-asset",
+      "expo-web-browser"
     ],
     "extra": {
       "eas": {
