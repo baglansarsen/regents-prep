@@ -20,11 +20,11 @@ const ES_TOPIC_MAP = {
   'Geology':              'Earth Science Mixed Review',
   'Plate Tectonics':      'Earth Science Mixed Review',
   'Geologic Time':        'Earth Science Mixed Review',
-  'Meteorology':          'Meteorology & Weather',
-  'Climate':              'Climate & Atmosphere',
+  'Meteorology':          'Earth Science Mixed Review',
+  'Climate':              'Earth Science Mixed Review',
   'Astronomy':            'Astronomy',
-  'Water Cycle':          'Water Cycle & Oceans',
-  'Oceanography':         'Water Cycle & Oceans',
+  'Water Cycle':          'Earth Science Mixed Review',
+  'Oceanography':         'Earth Science Mixed Review',
   'Maps':                 'Earth Science Mixed Review',
   'General':              'Earth Science Mixed Review',
   'General Review':       'Earth Science Mixed Review',
@@ -33,10 +33,10 @@ const ES_TOPIC_MAP = {
 
 // Sub-topic-routed units: pool = questions with this exact subTopic string,
 // pulled OUT of their parent topic (Geology / Astronomy / Plate Tectonics /
-// Geologic Time) rather than counted there. Mirrors SUBTOPIC_UNITS in
-// units.js. Plate Tectonics and Geologic Time were fully dissolved into their
-// subtopics (like Geology/Astronomy) after the hand-enrichment pass gave
-// every one of these real, well-populated pools.
+// Geologic Time / Meteorology / Climate / Water Cycle) rather than counted
+// there. Mirrors SUBTOPIC_UNITS in units.js. All seven whole-topic units were
+// eventually fully dissolved into subtopics once the hand-enrichment pass
+// gave each one a real, well-populated pool.
 const SUBTOPIC_UNITS = {
   'es-rocks':          'Rocks & the Rock Cycle',
   'es-surface':        'Weathering, Erosion & Deposition',
@@ -49,13 +49,18 @@ const SUBTOPIC_UNITS = {
   'es-plateboundaries':'Plate Boundaries',
   'es-earthquakes':    'Earthquakes & Seismic',
   'es-interior':       'Evidence & Convection',
+  'es-weathervar':     'Weather Variables',
+  'es-moisture':       'Moisture & Humidity',
+  'es-fronts':         'Air Masses, Fronts & Maps',
+  'es-storms':         'Storms',
+  'es-water':          'The Water Cycle',
+  'es-groundwater':    'Groundwater & Porosity',
+  'es-climatefactors': 'Climate Factors',
 }
 
-// Whole-topic units (post ES_TOPIC_MAP normalization).
+// Whole-topic units (post ES_TOPIC_MAP normalization). Only Mixed Review is
+// whole-topic-routed now — every other subject-matter unit is sub-topic-routed.
 const TOPIC_UNITS = {
-  'es-u4': 'Meteorology & Weather',
-  'es-u5': 'Climate & Atmosphere',
-  'es-u7': 'Water Cycle & Oceans',
   'es-u9': 'Earth Science Mixed Review',
 }
 

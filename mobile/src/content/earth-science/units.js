@@ -45,22 +45,22 @@ export const ES_EXAMS = [
 // Exported so index.js's Stimulus Practice pool can share this instead of
 // keeping a second, driftable copy.
 export const ES_TOPIC_MAP = {
-  // 'Geology', 'Astronomy', 'Plate Tectonics', and 'Geologic Time' are all
-  // fully dissolved into sub-topic units via SUBTOPIC_UNITS below, which
-  // filters by the raw question's `subTopic` field independently of this
-  // map. A hand-enrichment pass (no ANTHROPIC_API_KEY in this environment,
-  // so done by reading and tagging each question directly) gave every
-  // question a subTopic — the untagged residue of each of these four raw
-  // topics now folds into MIXED_REVIEW rather than being dropped or left in
-  // a near-empty whole-topic unit.
+  // Every raw exam topic below is fully dissolved into sub-topic units via
+  // SUBTOPIC_UNITS, which filters by the raw question's `subTopic` field
+  // independently of this map. A hand-enrichment pass (no ANTHROPIC_API_KEY
+  // in this environment, so done by reading and tagging each question
+  // directly) gave every question a subTopic — the untagged residue of each
+  // raw topic now folds into MIXED_REVIEW rather than being dropped or left
+  // in a near-empty whole-topic unit. Only MIXED_REVIEW itself remains
+  // whole-topic-routed.
   'Geology':             TOPICS.MIXED_REVIEW,
   'Astronomy':           TOPICS.MIXED_REVIEW,
   'Plate Tectonics':     TOPICS.MIXED_REVIEW,
   'Geologic Time':       TOPICS.MIXED_REVIEW,
-  'Meteorology':         TOPICS.METEOROLOGY,
-  'Climate':             TOPICS.CLIMATE,
-  'Water Cycle':         TOPICS.WATER_CYCLE,
-  'Oceanography':        TOPICS.WATER_CYCLE,
+  'Meteorology':         TOPICS.MIXED_REVIEW,
+  'Climate':             TOPICS.MIXED_REVIEW,
+  'Water Cycle':         TOPICS.MIXED_REVIEW,
+  'Oceanography':        TOPICS.MIXED_REVIEW,
   'Maps':                TOPICS.MIXED_REVIEW,   // thin (9 Q) — merged; map SKILL feeds Science Practices
   'General':             TOPICS.MIXED_REVIEW,
   'General Review':      TOPICS.MIXED_REVIEW,
@@ -78,6 +78,8 @@ const SUBTOPIC_UNITS = [
   TOPICS.ROCKS, TOPICS.SURFACE_PROCESSES, TOPICS.MINERALS, TOPICS.SOLAR_SYSTEM, TOPICS.COSMOS,
   TOPICS.RELATIVE_DATING, TOPICS.RADIOACTIVE_DATING, TOPICS.FOSSILS,
   TOPICS.PLATE_BOUNDARIES, TOPICS.EARTHQUAKES, TOPICS.EARTH_INTERIOR,
+  TOPICS.WEATHER_VARIABLES, TOPICS.MOISTURE, TOPICS.AIR_MASSES_FRONTS, TOPICS.STORMS,
+  TOPICS.WATER_CYCLE_PROCESS, TOPICS.GROUNDWATER, TOPICS.CLIMATE_FACTORS,
 ]
 // Earth and Space Sciences is a data/map/reference-table exam — these skills define it.
 const SP_SKILLS = ['data', 'map', 'reference', 'experiment']
@@ -111,26 +113,36 @@ const SP_SKILLS = ['data', 'map', 'reference', 'experiment']
 // dependency chain below is what actually gates progression.
 export const UNITS = [
   // ── Geology, split ──
-  { id: 'es-rocks',   title: 'Rocks & the Rock Cycle',           icon: TOPIC_ICONS[TOPICS.ROCKS],             color: '#92400e', darkColor: '#78350f', topic: TOPICS.ROCKS,             lessonCount: 3, strand: 'ESS2', essCodes: ['HS-ESS2-1'],              examWeight: 0.133, prereqs: [] },
+  { id: 'es-rocks',   title: 'Rocks & the Rock Cycle',           icon: TOPIC_ICONS[TOPICS.ROCKS],             color: '#92400e', darkColor: '#78350f', topic: TOPICS.ROCKS,             lessonCount: 3, strand: 'ESS2', essCodes: ['HS-ESS2-1'],              examWeight: 0.136, prereqs: [] },
   // ── Science practices early: data/map/reference reading recurs across every unit ──
   { id: 'es-sp',      title: 'Data, Maps & Reference Tables',    icon: TOPIC_ICONS[TOPICS.SCIENCE_PRACTICES], color: '#0891b2', darkColor: '#0e7490', topic: TOPICS.SCIENCE_PRACTICES, lessonCount: 3, skillPool: SP_SKILLS, strand: 'PRACTICE', essCodes: [],              examWeight: null,  prereqs: ['es-rocks'] },
-  { id: 'es-surface', title: 'Weathering, Erosion & Deposition', icon: TOPIC_ICONS[TOPICS.SURFACE_PROCESSES], color: '#a16207', darkColor: '#854d0e', topic: TOPICS.SURFACE_PROCESSES, lessonCount: 3, strand: 'ESS2', essCodes: ['HS-ESS2-1', 'HS-ESS2-5'], examWeight: 0.066, prereqs: ['es-sp'] },
-  { id: 'es-min',     title: 'Minerals',                         icon: TOPIC_ICONS[TOPICS.MINERALS],          color: '#7c3aed', darkColor: '#6d28d9', topic: TOPICS.MINERALS,          lessonCount: 2, strand: 'ESS2', essCodes: ['HS-ESS2-1'],              examWeight: 0.037, prereqs: ['es-surface'] },
+  { id: 'es-surface', title: 'Weathering, Erosion & Deposition', icon: TOPIC_ICONS[TOPICS.SURFACE_PROCESSES], color: '#a16207', darkColor: '#854d0e', topic: TOPICS.SURFACE_PROCESSES, lessonCount: 3, strand: 'ESS2', essCodes: ['HS-ESS2-1', 'HS-ESS2-5'], examWeight: 0.068, prereqs: ['es-sp'] },
+  { id: 'es-min',     title: 'Minerals',                         icon: TOPIC_ICONS[TOPICS.MINERALS],          color: '#7c3aed', darkColor: '#6d28d9', topic: TOPICS.MINERALS,          lessonCount: 2, strand: 'ESS2', essCodes: ['HS-ESS2-1'],              examWeight: 0.038, prereqs: ['es-surface'] },
   // ── Plate Tectonics, split (was one whole-topic unit; the hand-enrichment
   //    pass gave each of these three its own real, well-populated pool) ──
   { id: 'es-plateboundaries', title: 'Plate Boundaries',        icon: TOPIC_ICONS[TOPICS.PLATE_BOUNDARIES], color: '#b45309', darkColor: '#92400e', topic: TOPICS.PLATE_BOUNDARIES, lessonCount: 1, strand: 'ESS2', essCodes: ['HS-ESS1-5', 'HS-ESS2-1', 'HS-ESS2-3'], examWeight: 0.020, prereqs: ['es-min'] },
   { id: 'es-earthquakes',     title: 'Earthquakes & Seismic Waves', icon: TOPIC_ICONS[TOPICS.EARTHQUAKES],  color: '#e11d48', darkColor: '#9f1239', topic: TOPICS.EARTHQUAKES,      lessonCount: 1, strand: 'ESS2', essCodes: ['HS-ESS2-1'],              examWeight: 0.024, prereqs: ['es-plateboundaries'] },
   { id: 'es-interior',        title: "Evidence for Earth's Interior", icon: TOPIC_ICONS[TOPICS.EARTH_INTERIOR], color: '#6b21a8', darkColor: '#581c87', topic: TOPICS.EARTH_INTERIOR, lessonCount: 2, strand: 'ESS2', essCodes: ['HS-ESS1-6'],              examWeight: 0.031, prereqs: ['es-earthquakes'] },
   // ── Geologic Time, split (same reason as Plate Tectonics above) ──
-  { id: 'es-reldate',   title: 'Relative Dating',                icon: TOPIC_ICONS[TOPICS.RELATIVE_DATING],    color: '#9333ea', darkColor: '#7e22ce', topic: TOPICS.RELATIVE_DATING,    lessonCount: 2, strand: 'ESS1', essCodes: ['HS-ESS1-5', 'HS-ESS1-6'], examWeight: 0.058, prereqs: ['es-interior'] },
+  { id: 'es-reldate',   title: 'Relative Dating',                icon: TOPIC_ICONS[TOPICS.RELATIVE_DATING],    color: '#9333ea', darkColor: '#7e22ce', topic: TOPICS.RELATIVE_DATING,    lessonCount: 2, strand: 'ESS1', essCodes: ['HS-ESS1-5', 'HS-ESS1-6'], examWeight: 0.060, prereqs: ['es-interior'] },
   { id: 'es-radiodate', title: 'Radioactive Dating',             icon: TOPIC_ICONS[TOPICS.RADIOACTIVE_DATING], color: '#c026d3', darkColor: '#a21caf', topic: TOPICS.RADIOACTIVE_DATING, lessonCount: 1, strand: 'ESS1', essCodes: ['HS-ESS1-6'],              examWeight: 0.016, prereqs: ['es-reldate'] },
   { id: 'es-fossils',   title: 'Fossils & Correlation',          icon: TOPIC_ICONS[TOPICS.FOSSILS],            color: '#78350f', darkColor: '#451a03', topic: TOPICS.FOSSILS,            lessonCount: 2, strand: 'ESS1', essCodes: ['HS-ESS1-6'],              examWeight: 0.039, prereqs: ['es-radiodate'] },
-  { id: 'es-u4',      title: 'Meteorology',                      icon: TOPIC_ICONS[TOPICS.METEOROLOGY],       color: '#0369a1', darkColor: '#075985', topic: TOPICS.METEOROLOGY,       lessonCount: 3, strand: 'ESS2', essCodes: ['HS-ESS2-2', 'HS-ESS2-4'], examWeight: 0.201, prereqs: ['es-fossils'] },
-  { id: 'es-u5',      title: 'Climate',                          icon: TOPIC_ICONS[TOPICS.CLIMATE],           color: '#0f766e', darkColor: '#0d9488', topic: TOPICS.CLIMATE,           lessonCount: 2, strand: 'ESS2', essCodes: ['HS-ESS2-4', 'HS-ESS3-5'], examWeight: 0.058, prereqs: ['es-u4'] },
-  { id: 'es-u7',      title: 'Water Cycle & Oceans',             icon: TOPIC_ICONS[TOPICS.WATER_CYCLE],       color: '#0284c7', darkColor: '#0369a1', topic: TOPICS.WATER_CYCLE,       lessonCount: 2, strand: 'ESS2', essCodes: ['HS-ESS2-5'],              examWeight: 0.081, prereqs: ['es-u5'] },
+  // ── Meteorology, split (was one whole-topic unit; same hand-enrichment
+  //    treatment as Plate Tectonics/Geologic Time above) ──
+  { id: 'es-weathervar', title: 'Weather Variables',            icon: TOPIC_ICONS[TOPICS.WEATHER_VARIABLES], color: '#0369a1', darkColor: '#075985', topic: TOPICS.WEATHER_VARIABLES, lessonCount: 4, strand: 'ESS2', essCodes: ['HS-ESS2-2'], examWeight: 0.096, prereqs: ['es-fossils'] },
+  { id: 'es-moisture',   title: 'Moisture & Humidity',          icon: TOPIC_ICONS[TOPICS.MOISTURE],          color: '#0e7490', darkColor: '#155e75', topic: TOPICS.MOISTURE,          lessonCount: 2, strand: 'ESS2', essCodes: ['HS-ESS2-2'], examWeight: 0.037, prereqs: ['es-weathervar'] },
+  { id: 'es-fronts',     title: 'Air Masses, Fronts & Maps',    icon: TOPIC_ICONS[TOPICS.AIR_MASSES_FRONTS], color: '#1e40af', darkColor: '#1e3a8a', topic: TOPICS.AIR_MASSES_FRONTS, lessonCount: 2, strand: 'ESS2', essCodes: ['HS-ESS2-2'], examWeight: 0.050, prereqs: ['es-moisture'] },
+  { id: 'es-storms',     title: 'Storms & Severe Weather',      icon: TOPIC_ICONS[TOPICS.STORMS],            color: '#7c2d12', darkColor: '#431407', topic: TOPICS.STORMS,            lessonCount: 1, strand: 'ESS2', essCodes: ['HS-ESS2-2', 'HS-ESS3-1'], examWeight: 0.015, prereqs: ['es-fronts'] },
+  // ── Water Cycle, split (same reason as above) ──
+  { id: 'es-water',      title: 'The Water Cycle',              icon: TOPIC_ICONS[TOPICS.WATER_CYCLE_PROCESS], color: '#0284c7', darkColor: '#0369a1', topic: TOPICS.WATER_CYCLE_PROCESS, lessonCount: 2, strand: 'ESS2', essCodes: ['HS-ESS2-5'], examWeight: 0.066, prereqs: ['es-storms'] },
+  { id: 'es-groundwater',title: 'Groundwater & Porosity',       icon: TOPIC_ICONS[TOPICS.GROUNDWATER],       color: '#155e75', darkColor: '#164e63', topic: TOPICS.GROUNDWATER,       lessonCount: 1, strand: 'ESS2', essCodes: ['HS-ESS2-5'], examWeight: 0.019, prereqs: ['es-water'] },
+  // ── Climate, split (same reason as above; Climate Change and Insolation
+  //    stayed too thin — 10 and 4 questions bank-wide — to fund their own
+  //    units, so their residue folds into Mixed Review instead) ──
+  { id: 'es-climatefactors', title: 'Climate Factors',          icon: TOPIC_ICONS[TOPICS.CLIMATE_FACTORS],   color: '#0f766e', darkColor: '#0d9488', topic: TOPICS.CLIMATE_FACTORS,   lessonCount: 2, strand: 'ESS2', essCodes: ['HS-ESS2-4'], examWeight: 0.042, prereqs: ['es-groundwater'] },
   // ── Astronomy, split ──
-  { id: 'es-solar',   title: 'Solar System & Earth Motions',     icon: TOPIC_ICONS[TOPICS.SOLAR_SYSTEM],      color: '#1d4ed8', darkColor: '#1e40af', topic: TOPICS.SOLAR_SYSTEM,      lessonCount: 4, strand: 'ESS1', essCodes: ['HS-ESS1-4'],              examWeight: 0.153, prereqs: ['es-u7'] },
-  { id: 'es-cosmos',  title: 'Moon, Stars & the Universe',       icon: TOPIC_ICONS[TOPICS.COSMOS],            color: '#4f46e5', darkColor: '#4338ca', topic: TOPICS.COSMOS,            lessonCount: 3, strand: 'ESS1', essCodes: ['HS-ESS1-1', 'HS-ESS1-2', 'HS-ESS1-3'], examWeight: 0.084, prereqs: ['es-solar'] },
+  { id: 'es-solar',   title: 'Solar System & Earth Motions',     icon: TOPIC_ICONS[TOPICS.SOLAR_SYSTEM],      color: '#1d4ed8', darkColor: '#1e40af', topic: TOPICS.SOLAR_SYSTEM,      lessonCount: 4, strand: 'ESS1', essCodes: ['HS-ESS1-4'],              examWeight: 0.156, prereqs: ['es-climatefactors'] },
+  { id: 'es-cosmos',  title: 'Moon, Stars & the Universe',       icon: TOPIC_ICONS[TOPICS.COSMOS],            color: '#4f46e5', darkColor: '#4338ca', topic: TOPICS.COSMOS,            lessonCount: 3, strand: 'ESS1', essCodes: ['HS-ESS1-1', 'HS-ESS1-2', 'HS-ESS1-3'], examWeight: 0.085, prereqs: ['es-solar'] },
   { id: 'es-u9',      title: 'Earth and Space Sciences Mixed Review', icon: TOPIC_ICONS[TOPICS.MIXED_REVIEW], color: '#6b7280', darkColor: '#4b5563', topic: TOPICS.MIXED_REVIEW,      lessonCount: 3, strand: 'MIXED', essCodes: [],              examWeight: null,  prereqs: ['es-cosmos'] },
   // ── ESS3, authored (see authored/ess3.js) ──
   // Conceptually these don't depend on the geology/astronomy sequence at

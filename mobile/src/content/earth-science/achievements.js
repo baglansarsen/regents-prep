@@ -6,15 +6,15 @@ import { TOPICS } from './questions'
 // history (see utils/achievements.js) and a raw size check could fire off
 // Living Environment topics alone.
 //
-// TOPICS.PLATE_TECTONICS and TOPICS.GEOLOGIC_TIME are swapped for their
-// closest replacement unit here: after the Plate Tectonics/Geologic Time
-// whole-topic units were dissolved into finer sub-topic units (units.js),
-// no quiz result can ever carry those two old topic values again — they're
-// icon-map keys only now (see questions.js) — so checking for them would
-// have made this achievement permanently unearnable.
+// TOPICS.PLATE_TECTONICS, TOPICS.GEOLOGIC_TIME, TOPICS.METEOROLOGY, and
+// TOPICS.WATER_CYCLE are all swapped for their closest replacement unit
+// here: after those four whole-topic units were dissolved into finer
+// sub-topic units (units.js), no quiz result can ever carry those old topic
+// values again — they're icon-map keys only now (see questions.js) — so
+// checking for them would have made this achievement permanently unearnable.
 const CORE_TOPICS = [
-  TOPICS.ROCKS, TOPICS.PLATE_BOUNDARIES, TOPICS.RELATIVE_DATING, TOPICS.METEOROLOGY,
-  TOPICS.CLIMATE, TOPICS.SOLAR_SYSTEM, TOPICS.WATER_CYCLE, TOPICS.SCIENCE_PRACTICES,
+  TOPICS.ROCKS, TOPICS.PLATE_BOUNDARIES, TOPICS.RELATIVE_DATING, TOPICS.WEATHER_VARIABLES,
+  TOPICS.CLIMATE_FACTORS, TOPICS.SOLAR_SYSTEM, TOPICS.WATER_CYCLE_PROCESS, TOPICS.SCIENCE_PRACTICES,
 ]
 
 export const ACHIEVEMENTS = [
@@ -70,16 +70,37 @@ export const ACHIEVEMENTS = [
   {
     id: 'es_storm_chaser',
     title: 'Storm Chaser',
-    description: 'Pass Meteorology & Weather with 80%+',
+    description: 'Pass Weather Variables with 80%+',
     icon: '🌩️',
-    condition: s => s.topicsPassed?.has(TOPICS.METEOROLOGY),
+    condition: s => s.topicsPassed?.has(TOPICS.WEATHER_VARIABLES),
+  },
+  {
+    id: 'es_humidity_hunter',
+    title: 'Humidity Hunter',
+    description: 'Pass Moisture & Humidity with 80%+',
+    icon: '💧',
+    condition: s => s.topicsPassed?.has(TOPICS.MOISTURE),
+  },
+  {
+    id: 'es_front_tracker',
+    title: 'Front Tracker',
+    description: 'Pass Air Masses, Fronts & Maps with 80%+',
+    icon: '🗺️',
+    condition: s => s.topicsPassed?.has(TOPICS.AIR_MASSES_FRONTS),
+  },
+  {
+    id: 'es_severe_weather_spotter',
+    title: 'Severe Weather Spotter',
+    description: 'Pass Storms & Severe Weather with 80%+',
+    icon: '🌪️',
+    condition: s => s.topicsPassed?.has(TOPICS.STORMS),
   },
   {
     id: 'es_climate_scientist',
     title: 'Climate Scientist',
-    description: 'Pass Climate & Atmosphere with 80%+',
+    description: 'Pass Climate Factors with 80%+',
     icon: '🌤️',
-    condition: s => s.topicsPassed?.has(TOPICS.CLIMATE),
+    condition: s => s.topicsPassed?.has(TOPICS.CLIMATE_FACTORS),
   },
   {
     id: 'es_stargazer',
@@ -91,9 +112,16 @@ export const ACHIEVEMENTS = [
   {
     id: 'es_ocean_explorer',
     title: 'Ocean Explorer',
-    description: 'Pass Water Cycle & Oceans with 80%+',
+    description: 'Pass The Water Cycle with 80%+',
     icon: '🌊',
-    condition: s => s.topicsPassed?.has(TOPICS.WATER_CYCLE),
+    condition: s => s.topicsPassed?.has(TOPICS.WATER_CYCLE_PROCESS),
+  },
+  {
+    id: 'es_aquifer_analyst',
+    title: 'Aquifer Analyst',
+    description: 'Pass Groundwater & Porosity with 80%+',
+    icon: '🪣',
+    condition: s => s.topicsPassed?.has(TOPICS.GROUNDWATER),
   },
   {
     id: 'es_data_navigator',

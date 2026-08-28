@@ -9,8 +9,8 @@ import { TOPICS } from '../questions'
 // core ES topics instead.
 
 const CORE_TOPICS = [
-  TOPICS.ROCKS, TOPICS.PLATE_BOUNDARIES, TOPICS.RELATIVE_DATING, TOPICS.METEOROLOGY,
-  TOPICS.CLIMATE, TOPICS.SOLAR_SYSTEM, TOPICS.WATER_CYCLE, TOPICS.SCIENCE_PRACTICES,
+  TOPICS.ROCKS, TOPICS.PLATE_BOUNDARIES, TOPICS.RELATIVE_DATING, TOPICS.WEATHER_VARIABLES,
+  TOPICS.CLIMATE_FACTORS, TOPICS.SOLAR_SYSTEM, TOPICS.WATER_CYCLE_PROCESS, TOPICS.SCIENCE_PRACTICES,
 ]
 
 function find(id) {
@@ -50,12 +50,13 @@ describe('new ESS3 unit achievements', () => {
   })
 })
 
-// Regression guard: units.js dissolved the whole-topic Plate Tectonics and
-// Geologic Time units into finer sub-topic units, retiring
-// TOPICS.PLATE_TECTONICS/TOPICS.GEOLOGIC_TIME as icon-map keys only — no quiz
-// result can carry those topic values anymore. Achievements that still
-// checked for them would have become permanently unearnable.
-describe('achievements for the units that replaced Plate Tectonics / Geologic Time', () => {
+// Regression guard: units.js dissolved the whole-topic Plate Tectonics,
+// Geologic Time, Meteorology, Climate, and Water Cycle units into finer
+// sub-topic units, retiring TOPICS.PLATE_TECTONICS/GEOLOGIC_TIME/
+// METEOROLOGY/CLIMATE/WATER_CYCLE as icon-map keys only — no quiz result can
+// carry those topic values anymore. Achievements that still checked for them
+// would have become permanently unearnable.
+describe('achievements for the units that replaced whole-topic units', () => {
   test('es_tectonic_titan fires on Plate Boundaries, not the retired Plate Tectonics value', () => {
     const condition = find('es_tectonic_titan').condition
     expect(condition({ topicsPassed: new Set([TOPICS.PLATE_BOUNDARIES]) })).toBe(true)
@@ -68,10 +69,35 @@ describe('achievements for the units that replaced Plate Tectonics / Geologic Ti
     expect(condition({ topicsPassed: new Set([TOPICS.GEOLOGIC_TIME]) })).toBeFalsy()
   })
 
+  test('es_storm_chaser fires on Weather Variables, not the retired Meteorology value', () => {
+    const condition = find('es_storm_chaser').condition
+    expect(condition({ topicsPassed: new Set([TOPICS.WEATHER_VARIABLES]) })).toBe(true)
+    expect(condition({ topicsPassed: new Set([TOPICS.METEOROLOGY]) })).toBeFalsy()
+  })
+
+  test('es_climate_scientist fires on Climate Factors, not the retired Climate value', () => {
+    const condition = find('es_climate_scientist').condition
+    expect(condition({ topicsPassed: new Set([TOPICS.CLIMATE_FACTORS]) })).toBe(true)
+    expect(condition({ topicsPassed: new Set([TOPICS.CLIMATE]) })).toBeFalsy()
+  })
+
+  test('es_ocean_explorer fires on The Water Cycle, not the retired Water Cycle & Oceans value', () => {
+    const condition = find('es_ocean_explorer').condition
+    expect(condition({ topicsPassed: new Set([TOPICS.WATER_CYCLE_PROCESS]) })).toBe(true)
+    expect(condition({ topicsPassed: new Set([TOPICS.WATER_CYCLE]) })).toBeFalsy()
+  })
+
   test('es_seismologist, es_core_explorer, es_isotope_investigator, es_fossil_hunter fire on their own topics', () => {
     expect(find('es_seismologist').condition({ topicsPassed: new Set([TOPICS.EARTHQUAKES]) })).toBe(true)
     expect(find('es_core_explorer').condition({ topicsPassed: new Set([TOPICS.EARTH_INTERIOR]) })).toBe(true)
     expect(find('es_isotope_investigator').condition({ topicsPassed: new Set([TOPICS.RADIOACTIVE_DATING]) })).toBe(true)
     expect(find('es_fossil_hunter').condition({ topicsPassed: new Set([TOPICS.FOSSILS]) })).toBe(true)
+  })
+
+  test('es_humidity_hunter, es_front_tracker, es_severe_weather_spotter, es_aquifer_analyst fire on their own topics', () => {
+    expect(find('es_humidity_hunter').condition({ topicsPassed: new Set([TOPICS.MOISTURE]) })).toBe(true)
+    expect(find('es_front_tracker').condition({ topicsPassed: new Set([TOPICS.AIR_MASSES_FRONTS]) })).toBe(true)
+    expect(find('es_severe_weather_spotter').condition({ topicsPassed: new Set([TOPICS.STORMS]) })).toBe(true)
+    expect(find('es_aquifer_analyst').condition({ topicsPassed: new Set([TOPICS.GROUNDWATER]) })).toBe(true)
   })
 })

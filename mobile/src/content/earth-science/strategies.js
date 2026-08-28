@@ -194,59 +194,197 @@ export const STRATEGIES = {
     ],
   },
 
-  'es-u4': { // Meteorology
+  'es-weathervar': { // Weather Variables (split out of Meteorology)
     mentalPrep: [
-      'Orient yourself to pressure systems: air flows clockwise out of a High, counter-clockwise into a Low (Northern Hemisphere).',
       'Recall the dew point rule: when air temperature equals the dew point, condensation (fog, clouds, precipitation) occurs.',
-      'Remind yourself: cold fronts bring sudden, brief storms; warm fronts bring slow, steady precipitation.',
+      'Air pressure, temperature, and wind are all connected: rising air cools and can form clouds; sinking air warms and clears skies.',
+      'The Coriolis effect (from Earth\'s rotation) deflects wind and ocean currents — right in the Northern Hemisphere, left in the Southern.',
     ],
     answeringTechniques: [
-      'Weather map questions: trace isobars to find the center of the High or Low, then apply wind direction rules.',
       'Station model questions: decode symbol-by-symbol (temperature, dew point, cloud cover, wind direction/speed, pressure).',
       'Cloud type questions: match altitude first — cirro = high, alto = mid, strato = low/ground level.',
+      'Greenhouse gas questions: nitrogen and oxygen make up 99% of the atmosphere but are NOT greenhouse gases — water vapor, CO₂, and methane are.',
     ],
     guessingStrategy: [
-      'If rapidly changing weather is described, the answer likely involves a cold front passage.',
-      'When a question mentions "steady, prolonged rain," lean toward a warm front.',
       'Pressure and wind questions: higher pressure → clear weather; lower pressure → stormy conditions.',
+      'If a question asks about ozone, remember its role is UV protection in the stratosphere, not heat-trapping.',
+      'A question about "increasing snowfall" from a lake usually points to lake-effect processes, not a general storm.',
     ],
     processOfElimination: [
-      'Eliminate choices that place warm air rising on the cold side of a front — warm air rises over the cold air wedge.',
-      'Remove answers saying relative humidity decreases as temperature drops — it actually increases.',
-      'Drop choices that reverse the wind direction around a High or Low (clockwise out of High is non-negotiable).',
+      'Eliminate choices attributing the Coriolis effect to Earth\'s tilt — it\'s always rotation.',
+      'Remove answers saying relative humidity decreases as temperature drops — it actually increases (at constant moisture).',
+      'Drop choices treating nitrogen or oxygen as greenhouse gases.',
     ],
     timeManagement: [
-      'Station model decoding is the most time-consuming meteorology task; if you know all symbols well, it\'s fast — if not, flag it.',
-      'Large regional weather map questions may require reading several features; answer simpler questions on the same map first.',
-      'Definition questions (what is a front?) are quick — answer those immediately.',
+      'Station model decoding is the most time-consuming task here; if you know all symbols well, it\'s fast — if not, flag it.',
+      'Definition/vocabulary questions (what is the Coriolis effect?) are quick — answer those immediately.',
+      'Layer-of-the-atmosphere questions (troposphere, stratosphere, mesosphere) reward memorizing the temperature-vs-altitude pattern.',
     ],
   },
 
-  'es-u5': { // Climate
+  'es-moisture': { // Moisture & Humidity (split out of Meteorology)
     mentalPrep: [
-      'Separate weather (short-term, local) from climate (long-term average patterns for a region) before every question.',
-      'Recall the main factors controlling climate: latitude, elevation, proximity to large water bodies, and ocean currents.',
-      'Remind yourself: the greenhouse effect is natural; enhanced greenhouse effect (from CO₂, CH₄) drives climate change.',
+      'Relative humidity compares actual moisture to the maximum the air could hold at that temperature — not moisture in isolation.',
+      'The wet-bulb depression (dry-bulb minus wet-bulb) is the key input to both the ESRT relative humidity and dewpoint tables.',
+      'When dry-bulb equals wet-bulb, relative humidity is 100% (saturation) — no depression, no drying evaporation.',
     ],
     answeringTechniques: [
-      'Climate zone questions: use latitude as the first filter — lower latitude = warmer and more solar energy received.',
-      'For climate change questions, identify the mechanism: more greenhouse gases → more heat trapped → rising temperatures.',
-      'Insolation questions: use the ESRT solar angle data — higher angle = more energy per unit area.',
+      'Always calculate the depression first (dry-bulb − wet-bulb), then use it as a coordinate in the correct ESRT table.',
+      'Condensation releases latent heat (2260 J/g); evaporation requires the same amount as input — don\'t mix up which direction energy flows.',
+      'Evapotranspiration = evaporation (from water bodies) + transpiration (from plants) — together they explain nearly all atmospheric water vapor.',
     ],
     guessingStrategy: [
-      'When unsure about why two locations at the same latitude have different climates, the answer usually involves ocean currents or elevation.',
-      'Questions about past climate evidence most often reference ice cores, tree rings, or fossil pollen.',
-      'If a question asks what would happen if CO₂ doubled, the answer involves temperature increase and related chain effects.',
+      'A larger wet-bulb depression always means drier air (lower relative humidity), never the reverse.',
+      'If a question asks about water entering the atmosphere without precipitation or condensation, evaporation or transpiration is the answer.',
+      'Fog and dew form when air cools to its dew point — no depression, so RH is high.',
     ],
     processOfElimination: [
-      'Eliminate choices that confuse the ozone layer (UV protection) with the greenhouse effect (heat trapping) — they are different phenomena.',
-      'Drop answers that say coastal areas have more extreme temperatures than inland areas — it\'s the opposite.',
-      'Remove choices that claim latitude alone determines climate — elevation and ocean proximity also matter greatly.',
+      'Eliminate any answer that subtracts wet-bulb and dry-bulb in the wrong order — depression is always dry-bulb minus wet-bulb.',
+      'Drop choices confusing the relative humidity table with the dewpoint table — check which one the question asks for.',
+      'Remove answers claiming evaporation releases heat — evaporation absorbs heat; condensation releases it.',
     ],
     timeManagement: [
-      'ESRT insolation/climate data questions require finding the right table; locate it before answering.',
+      'ESRT table lookups are fast once you have the depression calculated — do that step first, every time.',
+      'Word problems describing humidity qualitatively (not asking for a number) are quicker — reason from the depression conceptually.',
+      'Double-check units and which reading is dry-bulb vs. wet-bulb before committing to a table lookup.',
+    ],
+  },
+
+  'es-fronts': { // Air Masses, Fronts & Maps (split out of Meteorology)
+    mentalPrep: [
+      'Air mass naming uses two letters: moisture first (m = maritime, c = continental), temperature second (T = tropical, P = polar).',
+      'Cold fronts bring sudden, brief, intense weather; warm fronts bring slow, steady, prolonged precipitation.',
+      'Isobars are lines of equal pressure — closely spaced isobars mean a steep pressure gradient and strong winds.',
+    ],
+    answeringTechniques: [
+      'Weather map questions: trace isobars to find the center of the High or Low, then apply the wind-direction rule (clockwise out of a High, counterclockwise into a Low, Northern Hemisphere).',
+      'Occluded fronts form when a fast cold front catches up to a warm front — sequence questions test that order.',
+      'Front-passage questions: identify what\'s "ahead of," "at," and "behind" the front — conditions differ at each stage.',
+    ],
+    guessingStrategy: [
+      'Rapidly changing weather → cold front passage. Steady, prolonged rain → warm front.',
+      'A description of warm, moist air from the Gulf of Mexico or Caribbean is almost always maritime tropical (mT).',
+      'Closely packed isobars on a map → strong winds, regardless of what else the question describes.',
+    ],
+    processOfElimination: [
+      'Eliminate choices placing warm air rising on the cold side of a front — warm air always rises over the cold air wedge.',
+      'Drop choices that reverse wind direction around a High or Low.',
+      'Remove options describing continental air masses as warm and humid — continental means dry.',
+    ],
+    timeManagement: [
+      'Large regional weather map questions may require reading several features; answer the simpler sub-questions on the same map first.',
+      'Front-type identification from a cross-section diagram is fast once you spot which air mass is overriding the other.',
+      'Definition questions (what is a front? what is an air mass?) are quick — answer those immediately.',
+    ],
+  },
+
+  'es-storms': { // Storms & Severe Weather (split out of Meteorology)
+    mentalPrep: [
+      'Lake-effect snow forms when cold, dry air crosses a relatively warm lake, picking up moisture that then falls as heavy snow downwind.',
+      'Severe weather (thunderstorms, tornadoes, hurricanes) forms along strong temperature/moisture contrasts — usually at or near fronts.',
+      'Know your severe-weather symbols on a station model — they\'re tested directly, not just conceptually.',
+    ],
+    answeringTechniques: [
+      'Lake-effect questions: check wind direction relative to the lake — snow is heaviest downwind of the lake, not upwind.',
+      'Storm-preparation questions match the hazard to the correct action (board windows for hurricanes, seek shelter for tornadoes).',
+      'Severe weather symbol questions: match the icon to its meaning directly from the ESRT weather symbols key.',
+    ],
+    guessingStrategy: [
+      'A NY city known for heavy winter snowfall near a Great Lake (Buffalo, Oswego, Watertown) points to lake-effect snow.',
+      'If a storm forms right at or just behind a fast-moving cold front, think severe thunderstorms.',
+      'Storm intensity questions usually hinge on available moisture and temperature contrast — more of both, more severe.',
+    ],
+    processOfElimination: [
+      'Eliminate answers describing lake-effect snow occurring on the upwind (source) side of a lake.',
+      'Drop generic "bad weather" answers that don\'t match the specific hazard named in the question.',
+      'Remove choices mismatching a hazard with an unrelated safety action (e.g. "seek higher ground" for a tornado).',
+    ],
+    timeManagement: [
+      'Symbol-identification questions are fast recall — answer immediately if you know the ESRT key.',
+      'Scenario questions (why does city X get more snow than city Y?) take a moment to reason through wind direction and lake position.',
+    ],
+  },
+
+  'es-water': { // The Water Cycle (split out of Water Cycle & Oceans)
+    mentalPrep: [
+      'Trace the water cycle steps mentally: evaporation → condensation → precipitation → runoff/infiltration → transpiration.',
+      'The driving energy for the water cycle is solar radiation (evaporation) plus gravity (runoff and stream flow).',
+      'Sediment size and stream velocity are linked: faster streams carry/erode larger particles; as velocity drops, the largest particles are deposited first.',
+    ],
+    answeringTechniques: [
+      'Water cycle stage questions: identify what process moves water from one reservoir to another in the described scenario.',
+      'Stream-erosion questions: abrasion (particle-to-particle collision) rounds sediment; the transport agent and distance determine how rounded/sorted it becomes.',
+      'Deposition-order questions: as a stream slows (entering a lake, ocean, or flatter gradient), largest/heaviest particles settle first, finest particles travel farthest.',
+    ],
+    guessingStrategy: [
+      'If a question describes water moving from land/ocean surface to atmosphere without precipitation, the answer involves evaporation or transpiration.',
+      'Stream curve questions: erosion happens on the outside of a bend (faster current), deposition on the inside (slower current).',
+      'A "V-shaped valley" points to a young, actively down-cutting stream; a wide flat valley points to an older, meandering one.',
+    ],
+    processOfElimination: [
+      'Eliminate choices that confuse evaporation (liquid → gas from a water surface) with transpiration (gas release from plants).',
+      'Drop answers claiming the finest sediment (clay) deposits first or closest to shore — it travels farthest and settles last.',
+      'Remove options describing dissolution as the main cause of pebble rounding — abrasion (mechanical) is responsible, not dissolving.',
+    ],
+    timeManagement: [
+      'Water cycle diagram questions are usually fast — trace the arrow to name the process.',
+      'Sediment-size/velocity graph questions are formulaic once you know "faster = coarser, slower = finer" — apply it directly.',
+      'Simple definition questions (what is infiltration?) — answer immediately, no table needed.',
+    ],
+  },
+
+  'es-groundwater': { // Groundwater & Porosity (split out of Water Cycle & Oceans)
+    mentalPrep: [
+      'Porosity = how much open space a material has; permeability = how easily water flows through those spaces — related but distinct.',
+      'Smaller, more uniform (well-sorted) particles generally increase porosity but can reduce permeability if the pores aren\'t well connected.',
+      'Capillarity (capillary rise) is strongest in fine-grained material with narrow pores — the opposite of where permeability is highest.',
+    ],
+    answeringTechniques: [
+      'Infiltration-vs-runoff questions: gentle slope + permeable soil = maximum infiltration; steep slope + impermeable material = maximum runoff.',
+      'Comparing soil samples: coarse sand has the largest, best-connected pores → highest permeability, lowest capillarity.',
+      'Clay has the smallest pores → lowest permeability but highest capillarity, which is why clay soils drain poorly but retain moisture.',
+    ],
+    guessingStrategy: [
+      'When a question asks which soil lets water pass fastest, lean toward the coarsest, most uniform particle size.',
+      'When it asks which material holds water against gravity best, lean toward the finest particle size (clay).',
+      'Deforestation or clear-cutting almost always increases runoff and decreases infiltration in these questions.',
+    ],
+    processOfElimination: [
+      'Eliminate choices treating porosity and permeability as identical — a material can be porous without being permeable.',
+      'Drop answers that pair "steep slope" with "maximum infiltration," or "impermeable material" with "maximum infiltration."',
+      'Remove options claiming fine clay has the greatest permeability — it has the greatest capillarity, not permeability.',
+    ],
+    timeManagement: [
+      'Soil-comparison questions are quick once you\'ve fixed the coarse-vs-fine relationships above — apply them directly.',
+      'Cross-section/water-table diagrams take longer to read; identify the water table line first before answering.',
+    ],
+  },
+
+  'es-climatefactors': { // Climate Factors (split out of Climate & Atmosphere)
+    mentalPrep: [
+      'The main factors controlling regional climate: latitude, elevation, proximity to large water bodies, and ocean currents.',
+      'Water\'s high specific heat means coastal areas have smaller annual temperature ranges than inland areas at the same latitude.',
+      'Warm ocean currents raise coastal temperatures on the side of a continent they flow toward; cold currents lower them.',
+    ],
+    answeringTechniques: [
+      'Climate-comparison questions: check latitude first (more direct sunlight near the equator), then adjust for elevation, water proximity, and currents.',
+      'Rain-shadow questions: the windward side of a mountain is wetter (rising, cooling air); the leeward side is drier (descending, warming air).',
+      'Ocean current questions: match warm currents to the routes flowing away from the equator, cold currents to routes flowing toward it.',
+    ],
+    guessingStrategy: [
+      'Two locations at the same latitude with different climates → the answer usually involves ocean currents, elevation, or distance from the coast.',
+      'A coastal city with a small annual temperature range vs. an inland city with a large one → specific heat of water is the explanation.',
+      'Snow on a high-elevation peak near the equator → elevation, not latitude, is the climate factor at play.',
+    ],
+    processOfElimination: [
+      'Eliminate choices claiming coastal areas have MORE extreme temperature swings than inland areas — it\'s the opposite.',
+      'Drop answers that say latitude alone determines climate — elevation, ocean proximity, and currents all matter too.',
+      'Remove options describing the leeward side of a mountain as wetter than the windward side.',
+    ],
+    timeManagement: [
+      'Latitude-based reasoning is usually fastest — start there before considering secondary factors.',
       'Climate graph interpretation (temperature and precipitation bar graphs) — read both axes before answering.',
-      'Conceptual climate change questions are usually quick once you understand cause and effect; prioritize them.',
+      'Multi-factor questions (elevation + currents + latitude all mentioned) take longer; address one factor at a time.',
     ],
   },
 
@@ -275,34 +413,6 @@ export const STRATEGIES = {
       'H-R diagram questions require careful axis reading; take 15 seconds to orient yourself before answering.',
       'Moon phase and season questions are quick if you can visualize the geometry — do those early.',
       'Stellar evolution sequence questions (what comes after a red giant?) are fast recall — answer immediately.',
-    ],
-  },
-
-  'es-u7': { // Water Cycle
-    mentalPrep: [
-      'Trace the water cycle steps mentally: evaporation → condensation → precipitation → runoff/infiltration → transpiration.',
-      'Recall that the driving energy for the water cycle is solar radiation (evaporation) and gravity (runoff).',
-      'Remind yourself: impermeable surfaces (pavement, rock) increase runoff; permeable surfaces (soil, vegetation) increase infiltration.',
-    ],
-    answeringTechniques: [
-      'Water cycle stage questions: identify what process moves water from one reservoir to another in the described scenario.',
-      'Watershed questions: all water within a drainage basin flows toward the same outlet — trace downhill.',
-      'For groundwater questions, identify the water table and what factors raise or lower it (precipitation, pumping, drought).',
-    ],
-    guessingStrategy: [
-      'If a question describes water moving from land surface to atmosphere without precipitation, the answer involves evaporation or transpiration.',
-      'When a question asks what increases flooding risk, choices involving impermeable surfaces or steep slopes are correct.',
-      'Drought questions almost always involve decreased infiltration and groundwater recharge.',
-    ],
-    processOfElimination: [
-      'Eliminate choices that confuse evaporation (liquid → gas from water surface) with transpiration (gas release from plants).',
-      'Drop answers that say runoff is the same as infiltration — runoff stays on the surface, infiltration goes into the ground.',
-      'Remove choices claiming deforestation decreases runoff — removing trees reduces infiltration and increases runoff.',
-    ],
-    timeManagement: [
-      'Water cycle diagram questions are usually fast — trace the arrow to name the process.',
-      'Groundwater/watershed questions may require reading the cross-section carefully; budget extra time.',
-      'Simple definition questions (what is infiltration?) — answer immediately, no table needed.',
     ],
   },
 

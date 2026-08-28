@@ -3,9 +3,10 @@
 // See units.js (makeLessonApi) and _shared/lessonEngine.js
 
 export const TOPICS = {
-  // GEOLOGY, ASTRONOMY, PLATE_TECTONICS & GEOLOGIC_TIME are icon-map keys
-  // only now — units.js's ES_TOPIC_MAP routes all four straight to sub-topic
-  // units or MIXED_REVIEW, never to these values directly.
+  // GEOLOGY, ASTRONOMY, PLATE_TECTONICS, GEOLOGIC_TIME, METEOROLOGY, CLIMATE
+  // & WATER_CYCLE are icon-map keys only now — units.js's ES_TOPIC_MAP routes
+  // all seven straight to sub-topic units or MIXED_REVIEW, never to these
+  // values directly.
   GEOLOGY:           'Geology & Rocks',
   ROCKS:             'Rocks & the Rock Cycle',
   SURFACE_PROCESSES: 'Weathering, Erosion & Deposition',
@@ -28,6 +29,14 @@ export const TOPICS = {
   PLATE_BOUNDARIES:   'Plate Boundaries',
   EARTHQUAKES:        'Earthquakes & Seismic',
   EARTH_INTERIOR:     'Evidence & Convection',
+  // Split out of Meteorology / Climate / Water Cycle, same reason as above.
+  WEATHER_VARIABLES: 'Weather Variables',
+  MOISTURE:          'Moisture & Humidity',
+  AIR_MASSES_FRONTS: 'Air Masses, Fronts & Maps',
+  STORMS:            'Storms',
+  WATER_CYCLE_PROCESS: 'The Water Cycle',
+  GROUNDWATER:          'Groundwater & Porosity',
+  CLIMATE_FACTORS:      'Climate Factors',
   // ESS3 ("Earth and Human Activity") — authored content, see
   // content/earth-science/authored/ess3.js. The pre-2026 exam never tested
   // this strand, so unlike every other topic here these have no real NYSED
@@ -57,6 +66,13 @@ export const TOPIC_ICONS = {
   [TOPICS.PLATE_BOUNDARIES]:   '🌋',
   [TOPICS.EARTHQUAKES]:        '📳',
   [TOPICS.EARTH_INTERIOR]:     '🌐',
+  [TOPICS.WEATHER_VARIABLES]:  '🌡️',
+  [TOPICS.MOISTURE]:           '💧',
+  [TOPICS.AIR_MASSES_FRONTS]:  '🗺️',
+  [TOPICS.STORMS]:             '🌪️',
+  [TOPICS.WATER_CYCLE_PROCESS]:'🔄',
+  [TOPICS.GROUNDWATER]:        '🪣',
+  [TOPICS.CLIMATE_FACTORS]:    '🌍',
   [TOPICS.HAZARDS]:           '⚠️',
   [TOPICS.CLIMATE_CHANGE]:    '🌡️',
 }
