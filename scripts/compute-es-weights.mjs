@@ -17,9 +17,9 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const EXAM_DIR = path.join(ROOT, 'mobile/src/content/regents-exams/earth-science')
 
 const ES_TOPIC_MAP = {
-  'Geology':              'Geology & Rocks',
-  'Plate Tectonics':      'Plate Tectonics',
-  'Geologic Time':        'Geologic Time',
+  'Geology':              'Earth Science Mixed Review',
+  'Plate Tectonics':      'Earth Science Mixed Review',
+  'Geologic Time':        'Earth Science Mixed Review',
   'Meteorology':          'Meteorology & Weather',
   'Climate':              'Climate & Atmosphere',
   'Astronomy':            'Astronomy',
@@ -32,20 +32,27 @@ const ES_TOPIC_MAP = {
 }
 
 // Sub-topic-routed units: pool = questions with this exact subTopic string,
-// pulled OUT of their parent topic (Geology / Astronomy) rather than counted
-// there. Mirrors SUBTOPIC_UNITS in units.js.
+// pulled OUT of their parent topic (Geology / Astronomy / Plate Tectonics /
+// Geologic Time) rather than counted there. Mirrors SUBTOPIC_UNITS in
+// units.js. Plate Tectonics and Geologic Time were fully dissolved into their
+// subtopics (like Geology/Astronomy) after the hand-enrichment pass gave
+// every one of these real, well-populated pools.
 const SUBTOPIC_UNITS = {
-  'es-rocks':   'Rocks & the Rock Cycle',
-  'es-surface': 'Weathering, Erosion & Deposition',
-  'es-min':     'Minerals',
-  'es-solar':   'Solar System & Earth Motions',
-  'es-cosmos':  'Moon, Stars & the Universe',
+  'es-rocks':          'Rocks & the Rock Cycle',
+  'es-surface':        'Weathering, Erosion & Deposition',
+  'es-min':            'Minerals',
+  'es-solar':          'Solar System & Earth Motions',
+  'es-cosmos':         'Moon, Stars & the Universe',
+  'es-reldate':        'Relative Dating',
+  'es-radiodate':      'Radioactive Dating',
+  'es-fossils':        'Fossils & Correlation',
+  'es-plateboundaries':'Plate Boundaries',
+  'es-earthquakes':    'Earthquakes & Seismic',
+  'es-interior':       'Evidence & Convection',
 }
 
 // Whole-topic units (post ES_TOPIC_MAP normalization).
 const TOPIC_UNITS = {
-  'es-u2': 'Plate Tectonics',
-  'es-u3': 'Geologic Time',
   'es-u4': 'Meteorology & Weather',
   'es-u5': 'Climate & Atmosphere',
   'es-u7': 'Water Cycle & Oceans',

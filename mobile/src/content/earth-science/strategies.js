@@ -1,4 +1,171 @@
 export const STRATEGIES = {
+  'es-plateboundaries': { // Plate Boundaries (split out of Plate Tectonics)
+    mentalPrep: [
+      'Fix the three boundary types before anything else: convergent (plates collide), divergent (plates separate), transform (plates slide past).',
+      'Recall what each boundary type builds: convergent → mountains/trenches/subduction; divergent → rift valleys/mid-ocean ridges; transform → lateral faults, no volcanism.',
+      'Denser oceanic crust always subducts beneath lighter continental crust at convergent boundaries — never the reverse.',
+    ],
+    answeringTechniques: [
+      'Identify the resulting feature first (trench, ridge, rift, fault) — that names the boundary type.',
+      'Continental-continental convergence (no subduction) builds the tallest mountain ranges via crumpling, not volcanism.',
+      'Use the ESRT magnetic-reversal striping pattern to confirm seafloor spreading at a divergent boundary.',
+    ],
+    guessingStrategy: [
+      'Deep-sea trenches or island arcs → convergent boundary with subduction.',
+      'Mid-ocean ridges → divergent boundary and seafloor spreading.',
+      'A fault with earthquakes but no volcanoes or major mountain-building → transform boundary.',
+    ],
+    processOfElimination: [
+      'Eliminate any choice with continental crust subducting beneath oceanic crust — it\'s always the reverse.',
+      'Drop answers placing mid-ocean ridges at convergent boundaries.',
+      'Remove choices claiming transform boundaries build mountains or produce major volcanism.',
+    ],
+    timeManagement: [
+      'Map-based questions: name the resulting feature before reading choices — it settles the boundary type immediately.',
+      'Seafloor-age/spreading-rate calculations are formula-driven; do them quickly once you have the numbers.',
+      'Diagram questions showing all three boundary types side by side reward matching feature-to-type fast.',
+    ],
+  },
+
+  'es-earthquakes': { // Earthquakes & Seismic Waves (split out of Plate Tectonics)
+    mentalPrep: [
+      'P-waves (primary) travel through solids AND liquids; S-waves (secondary) only travel through solids.',
+      'Distance to an epicenter comes from the ESRT travel-time graph: P-S arrival-time difference maps directly to distance.',
+      'Earthquake magnitude and damage are related but not identical — depth, distance, and local geology all affect damage.',
+    ],
+    answeringTechniques: [
+      'Distance-to-epicenter problems: read the P-wave and S-wave travel-time curves off the ESRT graph at the given distance, then work forward or backward from arrival times.',
+      'Locating an epicenter from multiple stations: each station\'s distance defines a circle; the epicenter is where three circles intersect.',
+      'S-wave shadow zones on the far side of Earth are the direct evidence that the outer core is liquid.',
+    ],
+    guessingStrategy: [
+      'If a wave "disappears" partway through Earth, it\'s an S-wave meeting a liquid layer (the outer core).',
+      'A bigger P-S time gap always means a greater distance to the epicenter — never the reverse.',
+      '"Constant rate of decay" style facts belong to radioactive dating, not seismic waves — don\'t mix them up.',
+    ],
+    processOfElimination: [
+      'Eliminate any choice claiming S-waves travel through the outer core — they cannot travel through a liquid.',
+      'Drop answers that reverse the P-S relationship (S-waves are NOT faster or first-arriving).',
+      'Remove choices treating magnitude alone as the sole predictor of damage.',
+    ],
+    timeManagement: [
+      'ESRT travel-time graph reads are quick once you know which axis is which — practice this specific lookup.',
+      'Triangulation/epicenter-location questions take longer; sketch the three circles rather than trying to reason it out in your head.',
+      'Wave-behavior conceptual questions (why S-waves stop) are fast recall — answer those immediately.',
+    ],
+  },
+
+  'es-interior': { // Evidence for Earth's Interior (split out of Plate Tectonics)
+    mentalPrep: [
+      'Layer order from the surface in: crust → mantle (plastic asthenosphere, then stiffer lower mantle) → liquid outer core → solid inner core.',
+      'The two counterintuitive facts examiners love: the outer core is liquid but the (hotter, higher-pressure) inner core is solid.',
+      'Nearly everything we know about Earth\'s interior comes from indirect seismic-wave evidence, not direct sampling.',
+    ],
+    answeringTechniques: [
+      'Match wave behavior to the boundary it reveals: P-waves refracting/slowing = crossing a density/state boundary; S-waves disappearing = entering a liquid.',
+      'Convection in the mantle/outer core is the inferred driver of plate motion — pair "convection currents" with "asthenosphere" or "outer core," not the rigid crust.',
+      'Composition-and-state diagram questions: pair rocky/solid with the outer layers and iron-nickel/liquid-then-solid with the core layers, in that order.',
+    ],
+    guessingStrategy: [
+      'A property described as "inferred from seismic waves" is testing this unit, even if the raw topic tag says something else.',
+      'Extreme pressure keeping something solid despite extreme heat → inner core, every time.',
+      'Any reference to Earth\'s magnetic field being generated by convection points to the liquid outer core.',
+    ],
+    processOfElimination: [
+      'Eliminate any answer with a solid outer core or a liquid inner core — that reverses the one fact tested most often here.',
+      'Drop choices claiming the crust or lithosphere drives convection — that happens in the plastic mantle/outer core, not the rigid layers.',
+      'Remove options that describe direct sampling of the core — no drill has ever reached it; all evidence here is indirect.',
+    ],
+    timeManagement: [
+      'Layer-labeling diagram questions are fast once the order is memorized — answer those first.',
+      'Wave-behavior reasoning ("why does this wave do X") takes a moment to reconstruct the chain of logic; don\'t rush it.',
+      'Save cross-section "which layer" questions with unfamiliar labeling for a second pass if the diagram is unclear.',
+    ],
+  },
+
+  'es-reldate': { // Relative Dating (split out of Geologic Time)
+    mentalPrep: [
+      'Four core principles, always in this order of use: superposition (bottom = oldest), original horizontality (started flat), crosscutting relationships (the cutter is younger), inclusions (the fragment is older than what holds it).',
+      'Relative dating tells you the ORDER of events, never a number of years — that\'s radioactive dating\'s job.',
+      'Unconformities are missing time — a gap in the rock record from erosion or non-deposition, not a normal layer.',
+    ],
+    answeringTechniques: [
+      'On any cross section, find the oldest undisturbed layer first (lowest), then work upward, then place intrusions/faults using crosscutting relationships.',
+      'Tilted or folded layers were disturbed AFTER deposition — original horizontality tells you they started flat.',
+      'An intrusion or fault is always younger than every layer it cuts through, no exceptions.',
+    ],
+    guessingStrategy: [
+      'If a feature "cuts through" other layers, it\'s the youngest thing in the picture.',
+      'A layer described as "not overturned" means superposition applies directly — don\'t overthink it.',
+      'Correlating layers between two locations usually points to matching index fossils or a shared distinctive layer (like volcanic ash).',
+    ],
+    processOfElimination: [
+      'Eliminate any answer sequencing an intrusion or fault as OLDER than the layers it cuts.',
+      'Drop choices assuming layers are always found in their original deposition order — folding and faulting can invert them.',
+      'Remove options that confuse relative order (older/younger) with an actual age in years.',
+    ],
+    timeManagement: [
+      'Simple "which layer is oldest" superposition questions are the fastest points in this unit — answer those immediately.',
+      'Multi-event cross sections (layers + intrusion + fault + unconformity) take longer; work oldest-to-youngest methodically rather than guessing the order.',
+      'Correlation-between-locations questions reward matching a labeled marker layer or fossil across the two columns — scan for that first.',
+    ],
+  },
+
+  'es-radiodate': { // Radioactive Dating (split out of Geologic Time)
+    mentalPrep: [
+      'Radioactive decay rate (half-life) is constant — it never speeds up or slows down with heat, pressure, or chemistry.',
+      'Age is calculated from the parent-to-daughter isotope ratio TODAY, using the known half-life.',
+      'Different isotopes suit different timescales: Carbon-14 (short half-life) for young/organic material; Uranium-238 or Potassium-40 (long half-lives) for ancient rock.',
+    ],
+    answeringTechniques: [
+      'Equal parent and daughter amounts (50:50) always means exactly one half-life has passed.',
+      'Percent-remaining-after-N-half-lives questions: remaining = 100% × (1/2)^N — after 3 half-lives, 12.5% remains.',
+      'Picking the right isotope for a dating job: match the ROCK\'S AGE to the isotope\'s half-life — a half-life much shorter or longer than the age gives an unreliable result.',
+    ],
+    guessingStrategy: [
+      'If the question mentions a very young sample (thousands of years), lean toward Carbon-14.',
+      'If it mentions billions of years, lean toward Uranium-238 or Potassium-40.',
+      'A "ratio of parent to daughter" phrase is almost always this unit, not relative dating.',
+    ],
+    processOfElimination: [
+      'Eliminate any answer suggesting decay rate changes with temperature, pressure, or the passage of time — it\'s always constant.',
+      'Drop choices using atmospheric carbon ratios to date ROCKS — that method is for once-living organic material only.',
+      'Remove options that confuse "half the parent remains" with "half the age has passed" without checking the half-life count.',
+    ],
+    timeManagement: [
+      'Half-life fraction problems (1/2, 1/4, 1/8...) are formulaic — count the halvings and move fast.',
+      'Isotope-selection questions reward quickly comparing the sample\'s age to each isotope\'s half-life — eliminate mismatches first.',
+      'Word problems describing a decay scenario in prose take longer to parse; extract the parent:daughter ratio and number of half-lives before calculating.',
+    ],
+  },
+
+  'es-fossils': { // Fossils & Correlation (split out of Geologic Time)
+    mentalPrep: [
+      'A good index fossil is widespread geographically, existed for a short time span, and is common/easy to identify.',
+      'Correlation means matching rock layers between different locations — by index fossils, matching rock types, or a shared marker layer (like volcanic ash).',
+      'The fossil record shows a progression from simpler to more complex organisms over geologic time — direct evidence for evolution.',
+    ],
+    answeringTechniques: [
+      'Index-fossil questions: match the organism to its (short) time range on the ESRT, then read off the geologic period.',
+      'Correlation-between-outcrops questions: look for the SAME fossil or the SAME distinctive layer (like an ash bed) appearing in both columns.',
+      'Volcanic ash is an especially good time marker because it\'s deposited rapidly over a huge area — the layer is the same age everywhere it\'s found.',
+    ],
+    guessingStrategy: [
+      'An organism described as short-lived and widespread is being set up as an index fossil.',
+      'If two far-apart locations share an identical fossil or rock sequence, the answer is almost always about correlation.',
+      'Extinction-boundary questions (like an iridium layer) usually point to a sudden environmental catastrophe, not gradual change.',
+    ],
+    processOfElimination: [
+      'Eliminate any "index fossil" answer choice describing a long-lived or geographically limited organism — that fails the definition.',
+      'Drop options claiming correlation requires layers to be the exact same rock type — matching fossils or marker layers is what matters, not lithology alone.',
+      'Remove choices that reverse the fossil-complexity trend (implying older rocks show MORE complex life than younger ones).',
+    ],
+    timeManagement: [
+      'ESRT fossil-range lookups are quick once you know which chart to use — locate it before reading choices.',
+      'Correlation diagrams with several rock columns take longer to scan; look for the one shared, distinctive marker first rather than comparing every layer.',
+      'Definition-style questions (what makes a good index fossil?) are fast recall — answer those immediately.',
+    ],
+  },
   'es-rocks': { // Rocks & the Rock Cycle (covers the Geology split)
     mentalPrep: [
       'Ground yourself with ESRT pages 6–7 (rock cycle diagram, mineral properties table) before this unit\'s questions.',
@@ -24,62 +191,6 @@ export const STRATEGIES = {
       'ESRT lookups add 15–20 seconds per question; locate the correct table before reading the answer choices.',
       'Mineral identification questions are usually quick once you know the table — do them first to bank time.',
       'Rock cycle diagram questions require tracing arrows; budget 30 seconds and move on if the path is unclear.',
-    ],
-  },
-
-  'es-u2': { // Plate Tectonics
-    mentalPrep: [
-      'Orient yourself to the three boundary types: convergent (plates collide → mountains/trenches), divergent (plates separate → rift valleys/mid-ocean ridges), transform (plates slide → earthquakes).',
-      'Recall that denser oceanic crust subducts beneath lighter continental crust at convergent boundaries.',
-      'Remember: most volcanic and earthquake activity clusters at plate boundaries.',
-    ],
-    answeringTechniques: [
-      'Boundary-type questions: identify what is formed (trench, ridge, rift) to name the boundary type.',
-      'Seafloor spreading questions: use the ESRT magnetic reversal pattern — symmetric striping on both sides of a ridge confirms spreading.',
-      'For subduction questions, the denser plate always goes under — check density or rock type in the question.',
-    ],
-    guessingStrategy: [
-      'If a question mentions deep-sea trenches or island arcs, the answer almost certainly involves a convergent boundary and subduction.',
-      'Mid-ocean ridges indicate divergent boundaries and seafloor spreading — use this when the setting is oceanic.',
-      'Earthquakes at transform boundaries are shallow; those at subduction zones can be very deep.',
-    ],
-    processOfElimination: [
-      'Remove choices that say continental crust subducts beneath oceanic crust — it\'s the reverse (denser oceanic goes under).',
-      'Eliminate answers suggesting plate boundaries cause no seismic or volcanic activity.',
-      'Drop choices that place mid-ocean ridges at convergent boundaries — ridges form where plates diverge.',
-    ],
-    timeManagement: [
-      'Map-based plate boundary questions: identify the boundary type from the geographic feature shown before reading choices.',
-      'Calculation questions (spreading rate = distance ÷ time) are straightforward; do them quickly using the formula.',
-      'Multi-step subduction zone questions are the most complex — flag and return if under time pressure.',
-    ],
-  },
-
-  'es-u3': { // Geologic Time
-    mentalPrep: [
-      'Anchor yourself to the ESRT Geologic History of New York State chart — nearly every geologic time question uses it.',
-      'Recall the law of superposition: older layers are on the bottom, younger layers on top (unless disturbed).',
-      'Remind yourself: index fossils = widespread species that lived a short time → excellent time markers.',
-    ],
-    answeringTechniques: [
-      'Age of rock layer questions: use the ESRT geologic time chart, not mental recall — the numbers are complex.',
-      'For cross-section diagrams, identify the oldest layer first (bottom), then trace disturbances (faults, intrusions) which are always younger than the layers they cut.',
-      'Half-life questions: use the formula (amount remaining = original × (1/2)^n, where n = number of half-lives elapsed).',
-    ],
-    guessingStrategy: [
-      'An intrusion (igneous rock cutting through layers) is always younger than the layers it cuts through.',
-      'If a question asks about a mass extinction event, the Permian (largest) or Cretaceous (dinosaurs) are the most tested.',
-      'When unsure about an era, Paleozoic = ancient marine life; Mesozoic = dinosaurs; Cenozoic = mammals.',
-    ],
-    processOfElimination: [
-      'Eliminate answers that say rock layers are always in the order deposited — faulting and folding can invert them.',
-      'Drop choices that confuse relative dating (older/younger) with absolute dating (actual years).',
-      'Remove choices that claim radioactive decay speeds up or slows down with environmental conditions — it is constant.',
-    ],
-    timeManagement: [
-      'ESRT geologic time chart lookups are essential; find the right column and row before answering.',
-      'Half-life calculation questions are straightforward once you count the half-lives — do those early.',
-      'Cross-section interpretation questions require methodical reading; if complex, flag and return.',
     ],
   },
 

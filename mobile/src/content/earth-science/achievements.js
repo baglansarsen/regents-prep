@@ -5,8 +5,15 @@ import { TOPICS } from './questions'
 // evaluated against COMBINED Living Environment + Earth and Space Sciences
 // history (see utils/achievements.js) and a raw size check could fire off
 // Living Environment topics alone.
+//
+// TOPICS.PLATE_TECTONICS and TOPICS.GEOLOGIC_TIME are swapped for their
+// closest replacement unit here: after the Plate Tectonics/Geologic Time
+// whole-topic units were dissolved into finer sub-topic units (units.js),
+// no quiz result can ever carry those two old topic values again — they're
+// icon-map keys only now (see questions.js) — so checking for them would
+// have made this achievement permanently unearnable.
 const CORE_TOPICS = [
-  TOPICS.ROCKS, TOPICS.PLATE_TECTONICS, TOPICS.GEOLOGIC_TIME, TOPICS.METEOROLOGY,
+  TOPICS.ROCKS, TOPICS.PLATE_BOUNDARIES, TOPICS.RELATIVE_DATING, TOPICS.METEOROLOGY,
   TOPICS.CLIMATE, TOPICS.SOLAR_SYSTEM, TOPICS.WATER_CYCLE, TOPICS.SCIENCE_PRACTICES,
 ]
 
@@ -21,16 +28,44 @@ export const ACHIEVEMENTS = [
   {
     id: 'es_tectonic_titan',
     title: 'Tectonic Titan',
-    description: 'Pass Plate Tectonics with 80%+',
+    description: 'Pass Plate Boundaries with 80%+',
     icon: '🌋',
-    condition: s => s.topicsPassed?.has(TOPICS.PLATE_TECTONICS),
+    condition: s => s.topicsPassed?.has(TOPICS.PLATE_BOUNDARIES),
   },
   {
     id: 'es_time_traveler',
     title: 'Time Traveler',
-    description: 'Pass Geologic Time with 80%+',
+    description: 'Pass Relative Dating with 80%+',
     icon: '⏳',
-    condition: s => s.topicsPassed?.has(TOPICS.GEOLOGIC_TIME),
+    condition: s => s.topicsPassed?.has(TOPICS.RELATIVE_DATING),
+  },
+  {
+    id: 'es_seismologist',
+    title: 'Seismologist',
+    description: 'Pass Earthquakes & Seismic Waves with 80%+',
+    icon: '📳',
+    condition: s => s.topicsPassed?.has(TOPICS.EARTHQUAKES),
+  },
+  {
+    id: 'es_core_explorer',
+    title: 'Core Explorer',
+    description: "Pass Evidence for Earth's Interior with 80%+",
+    icon: '🌐',
+    condition: s => s.topicsPassed?.has(TOPICS.EARTH_INTERIOR),
+  },
+  {
+    id: 'es_isotope_investigator',
+    title: 'Isotope Investigator',
+    description: 'Pass Radioactive Dating with 80%+',
+    icon: '☢️',
+    condition: s => s.topicsPassed?.has(TOPICS.RADIOACTIVE_DATING),
+  },
+  {
+    id: 'es_fossil_hunter',
+    title: 'Fossil Hunter',
+    description: 'Pass Fossils & Correlation with 80%+',
+    icon: '🦴',
+    condition: s => s.topicsPassed?.has(TOPICS.FOSSILS),
   },
   {
     id: 'es_storm_chaser',
