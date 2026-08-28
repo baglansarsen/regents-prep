@@ -54,25 +54,52 @@ const GEO_TOPIC_MAP = {
 
 const _api = makeLessonApi({ exams: GEO_EXAMS, topicMap: GEO_TOPIC_MAP, lessonSize: 20 })
 
-const SUBTOPIC_UNITS = [TOPICS.LINES_ANGLES, TOPICS.TRIANGLE_CONG]
+const SUBTOPIC_UNITS = [
+  TOPICS.LINES_ANGLES, TOPICS.TRIANGLE_CONG,
+  TOPICS.SIMILARITY_RATIOS, TOPICS.TRIANGLE_RELATIONSHIPS,
+  TOPICS.CIRCLE_EQUATIONS, TOPICS.ARCS_ANGLES, TOPICS.CIRCLE_SEGMENTS,
+  TOPICS.LINES_SLOPE, TOPICS.COORDINATE_PROOFS,
+  TOPICS.CROSS_SECTIONS, TOPICS.VOLUME_SA, TOPICS.DENSITY_MODELING,
+  TOPICS.RIGHT_TRIANGLE_TRIG, TOPICS.SPECIAL_TRIANGLES,
+]
 // Geometry's distinctive practice is the two-column / paragraph PROOF, plus
 // justify/explain reasoning — the items students lose the most points on.
 const PR_SKILLS = ['proof', 'reasoning']
 
+// examWeight values are each unit's share of the 382-question wired pool
+// (excluding geometry-pr, an overlapping skill tag counted inside its
+// questions' own topic unit — same convention as content/earth-science/
+// units.js). Re-run the classification pass and update these after any
+// future exam import. strand/essCodes use the NY Geometry Regents' own
+// course strands (G.CO congruence, G.SRT similarity/right-triangles, G.C
+// circles, G.GPE coordinate geometry, G.GMD geometric measurement &
+// dimension, G.MG modeling).
 export const UNITS = [
   // ── Congruence & Transformations, split ──
-  { id: 'geometry-lat',  title: 'Lines, Angles & Transformations',    icon: TOPIC_ICONS[TOPICS.LINES_ANGLES],     color: '#10b981', darkColor: '#059669', topic: TOPICS.LINES_ANGLES,     lessonCount: 3 },
-  { id: 'geometry-tc',   title: 'Triangle Congruence & Constructions', icon: TOPIC_ICONS[TOPICS.TRIANGLE_CONG],    color: '#34d399', darkColor: '#10b981', topic: TOPICS.TRIANGLE_CONG,    lessonCount: 2 },
-  { id: 'geometry-u2',   title: 'Similarity & Proof',                 icon: TOPIC_ICONS[TOPICS.SIMILARITY],       color: '#6ee7b7', darkColor: '#34d399', topic: TOPICS.SIMILARITY,       lessonCount: 2 },
+  { id: 'geometry-lat',  title: 'Lines, Angles & Transformations',    icon: TOPIC_ICONS[TOPICS.LINES_ANGLES],     color: '#10b981', darkColor: '#059669', topic: TOPICS.LINES_ANGLES,     lessonCount: 3, strand: 'G.CO', essCodes: ['G.CO.1', 'G.CO.6'], examWeight: 0.196, prereqs: [] },
+  { id: 'geometry-tc',   title: 'Triangle Congruence & Constructions', icon: TOPIC_ICONS[TOPICS.TRIANGLE_CONG],    color: '#34d399', darkColor: '#10b981', topic: TOPICS.TRIANGLE_CONG,    lessonCount: 2, strand: 'G.CO', essCodes: ['G.CO.7', 'G.CO.8', 'G.CO.12'], examWeight: 0.162, prereqs: ['geometry-lat'] },
   // Proofs & Reasoning: cross-topic proof + justify/explain practice.
   // Few proof items are multiple-choice (most are written → surfaced in Worked
   // Examples), so the in-path unit is a single focused lesson.
-  { id: 'geometry-pr',   title: 'Proofs & Reasoning',                 icon: TOPIC_ICONS[TOPICS.PROOFS_REASONING], color: '#2563eb', darkColor: '#1d4ed8', topic: TOPICS.PROOFS_REASONING, lessonCount: 1, skillPool: PR_SKILLS },
-  { id: 'geometry-u3',   title: 'Circles',                            icon: TOPIC_ICONS[TOPICS.CIRCLES],          color: '#059669', darkColor: '#047857', topic: TOPICS.CIRCLES,          lessonCount: 2 },
-  { id: 'geometry-u4',   title: 'Coordinate Geometry',                icon: TOPIC_ICONS[TOPICS.COORDINATE_GEO],   color: '#047857', darkColor: '#065f46', topic: TOPICS.COORDINATE_GEO,   lessonCount: 2 },
-  { id: 'geometry-u5',   title: '3D Geometry & Volume',               icon: TOPIC_ICONS[TOPICS.SOLID_GEOMETRY],   color: '#065f46', darkColor: '#064e3b', topic: TOPICS.SOLID_GEOMETRY,   lessonCount: 3 },
-  { id: 'geometry-u6',   title: 'Trigonometry',                       icon: TOPIC_ICONS[TOPICS.TRIGONOMETRY],     color: '#0d9488', darkColor: '#0f766e', topic: TOPICS.TRIGONOMETRY,     lessonCount: 2 },
-  { id: 'geometry-u7',   title: 'Quadrilaterals & Polygons',          icon: TOPIC_ICONS[TOPICS.QUADRILATERALS],   color: '#14b8a6', darkColor: '#0d9488', topic: TOPICS.QUADRILATERALS,   lessonCount: 1 },
+  { id: 'geometry-pr',   title: 'Proofs & Reasoning',                 icon: TOPIC_ICONS[TOPICS.PROOFS_REASONING], color: '#2563eb', darkColor: '#1d4ed8', topic: TOPICS.PROOFS_REASONING, lessonCount: 1, skillPool: PR_SKILLS, strand: 'PRACTICE', essCodes: [], examWeight: null, prereqs: ['geometry-tc'] },
+  // ── Similarity & Proof, split ──
+  { id: 'geometry-sim',  title: 'Similarity',                        icon: TOPIC_ICONS[TOPICS.SIMILARITY_RATIOS],      color: '#6ee7b7', darkColor: '#34d399', topic: TOPICS.SIMILARITY_RATIOS,      lessonCount: 1, strand: 'G.SRT', essCodes: ['G.SRT.2', 'G.SRT.3'], examWeight: 0.058, prereqs: ['geometry-pr'] },
+  { id: 'geometry-tri',  title: 'Triangle Relationships',            icon: TOPIC_ICONS[TOPICS.TRIANGLE_RELATIONSHIPS], color: '#4ade80', darkColor: '#22c55e', topic: TOPICS.TRIANGLE_RELATIONSHIPS, lessonCount: 1, strand: 'G.SRT', essCodes: ['G.SRT.4', 'G.SRT.5'], examWeight: 0.060, prereqs: ['geometry-sim'] },
+  // ── Circles, split ──
+  { id: 'geometry-eqcirc', title: 'Equations of Circles',            icon: TOPIC_ICONS[TOPICS.CIRCLE_EQUATIONS], color: '#059669', darkColor: '#047857', topic: TOPICS.CIRCLE_EQUATIONS, lessonCount: 1, strand: 'G.GPE', essCodes: ['G.GPE.1'], examWeight: 0.042, prereqs: ['geometry-tri'] },
+  { id: 'geometry-arcs',   title: 'Arcs & Angles',                   icon: TOPIC_ICONS[TOPICS.ARCS_ANGLES],      color: '#10b981', darkColor: '#059669', topic: TOPICS.ARCS_ANGLES,      lessonCount: 1, strand: 'G.C',   essCodes: ['G.C.2', 'G.C.5'], examWeight: 0.042, prereqs: ['geometry-eqcirc'] },
+  { id: 'geometry-segs',   title: 'Circle Segments & Lines',         icon: TOPIC_ICONS[TOPICS.CIRCLE_SEGMENTS],  color: '#0d9488', darkColor: '#0f766e', topic: TOPICS.CIRCLE_SEGMENTS,  lessonCount: 1, strand: 'G.C',   essCodes: ['G.C.2'],           examWeight: 0.050, prereqs: ['geometry-arcs'] },
+  // ── Coordinate Geometry, split ──
+  { id: 'geometry-slope',      title: 'Lines & Slope',               icon: TOPIC_ICONS[TOPICS.LINES_SLOPE],       color: '#047857', darkColor: '#065f46', topic: TOPICS.LINES_SLOPE,       lessonCount: 1, strand: 'G.GPE', essCodes: ['G.GPE.5'], examWeight: 0.045, prereqs: ['geometry-segs'] },
+  { id: 'geometry-coordproof', title: 'Coordinate Proofs',           icon: TOPIC_ICONS[TOPICS.COORDINATE_PROOFS], color: '#065f46', darkColor: '#064e3b', topic: TOPICS.COORDINATE_PROOFS, lessonCount: 1, strand: 'G.GPE', essCodes: ['G.GPE.4', 'G.GPE.6', 'G.GPE.7'], examWeight: 0.052, prereqs: ['geometry-slope'] },
+  // ── 3D Geometry & Volume, split ──
+  { id: 'geometry-crosssec', title: 'Cross-Sections & Solids of Revolution', icon: TOPIC_ICONS[TOPICS.CROSS_SECTIONS], color: '#064e3b', darkColor: '#022c22', topic: TOPICS.CROSS_SECTIONS, lessonCount: 1, strand: 'G.GMD', essCodes: ['G.GMD.4'], examWeight: 0.034, prereqs: ['geometry-coordproof'] },
+  { id: 'geometry-vol',      title: 'Volume & Surface Area',                 icon: TOPIC_ICONS[TOPICS.VOLUME_SA],       color: '#065f46', darkColor: '#064e3b', topic: TOPICS.VOLUME_SA,       lessonCount: 2, strand: 'G.GMD', essCodes: ['G.GMD.1', 'G.GMD.3'], examWeight: 0.089, prereqs: ['geometry-crosssec'] },
+  { id: 'geometry-density',  title: 'Density & Modeling',                    icon: TOPIC_ICONS[TOPICS.DENSITY_MODELING], color: '#0f766e', darkColor: '#115e59', topic: TOPICS.DENSITY_MODELING, lessonCount: 1, strand: 'G.MG',  essCodes: ['G.MG.1', 'G.MG.2', 'G.MG.3'], examWeight: 0.034, prereqs: ['geometry-vol'] },
+  // ── Trigonometry, split ──
+  { id: 'geometry-rttrig',  title: 'Right Triangle Trig',            icon: TOPIC_ICONS[TOPICS.RIGHT_TRIANGLE_TRIG], color: '#0d9488', darkColor: '#0f766e', topic: TOPICS.RIGHT_TRIANGLE_TRIG, lessonCount: 1, strand: 'G.SRT', essCodes: ['G.SRT.6', 'G.SRT.8'], examWeight: 0.042, prereqs: ['geometry-density'] },
+  { id: 'geometry-special', title: 'Pythagorean & Special Triangles', icon: TOPIC_ICONS[TOPICS.SPECIAL_TRIANGLES], color: '#14b8a6', darkColor: '#0d9488', topic: TOPICS.SPECIAL_TRIANGLES,  lessonCount: 1, strand: 'G.SRT', essCodes: ['G.SRT.4', 'G.SRT.8'], examWeight: 0.045, prereqs: ['geometry-rttrig'] },
+  { id: 'geometry-u7',   title: 'Quadrilaterals & Polygons',          icon: TOPIC_ICONS[TOPICS.QUADRILATERALS],   color: '#14b8a6', darkColor: '#0d9488', topic: TOPICS.QUADRILATERALS,   lessonCount: 1, strand: 'G.CO',  essCodes: ['G.CO.11'], examWeight: 0.050, prereqs: ['geometry-special'] },
 ]
 
 export function getLessonQuestions(topic, lessonIndex, lessonCount) {

@@ -1,6 +1,7 @@
 import * as leData from '../content/living-environment/index'
 import * as esData from '../content/earth-science/index'
 import * as lsData from '../content/life-science/index'
+import * as geoData from '../content/geometry/index'
 
 /**
  * computeAchievements — evaluate which achievements a student has earned.
@@ -10,12 +11,12 @@ import * as lsData from '../content/life-science/index'
  * on the fly from aggregate stats (never persisted).
  *
  * Note: the achievement catalog is Living-Environment + Earth-Science +
- * Life-Science only (the three subjects that ship `achievements`), so
+ * Life-Science + Geometry only (the subjects that ship `achievements`), so
  * `history` should already be the combined history of those subjects,
  * matching the prior screen behavior.
  *
  * @param {object} args
- * @param {Array}  args.history     combined LE+ES+LS quiz history rows
+ * @param {Array}  args.history     combined LE+ES+LS+Geometry quiz history rows
  * @param {number} args.streak      current day streak
  * @param {number} args.rp          total RP
  * @param {object} args.examScores  useExamScores().scores  ({ [id]: {best,last} })
@@ -45,7 +46,7 @@ export function computeAchievements({ history = [], streak = 0, rp = 0, examScor
     noTimeouts: totalQuizzes >= 1,
   }
 
-  const all = [...(leData.achievements ?? []), ...(esData.achievements ?? []), ...(lsData.achievements ?? [])]
+  const all = [...(leData.achievements ?? []), ...(esData.achievements ?? []), ...(lsData.achievements ?? []), ...(geoData.achievements ?? [])]
   const passes = (a) => { try { return a.condition(stats) } catch { return false } }
 
   const earned = all.filter(passes)

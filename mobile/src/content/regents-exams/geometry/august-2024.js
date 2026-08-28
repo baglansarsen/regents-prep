@@ -76,7 +76,7 @@ export default {
       "explanation": "The midpoint is the average of the coordinates: ((−2 + 4)/2, (6 + (−2))/2) = (1, 2).",
       "diveDeep": "The midpoint formula M = ((x₁ + x₂)/2, (y₁ + y₂)/2) finds the point exactly halfway between two endpoints. A common error is subtracting instead of adding the coordinates (that gives the components of the distance/slope, not the midpoint). Watch signs carefully when negative coordinates are involved. The midpoint is heavily used to find centers of circles, to test whether diagonals bisect each other in quadrilateral proofs, and to find the point of a partition.",
       "skill": "graphing",
-      "subTopic": "Distance, Midpoint & Partition",
+      "subTopic": "Coordinate Proofs",
       "difficulty": 2,
       "difficultyRationale": "Basic application of coordinate formulas."
     },
@@ -497,7 +497,7 @@ export default {
       "modelAnswer": "AB is horizontal: AB = |5 − 1| = 4. BC is vertical: BC = |6 − 2| = 4. AC uses the distance formula: AC = √[(5 − 1)² + (6 − 2)²] = √[16 + 16] = √32 = 4√2. The perimeter is AB + BC + AC = 4 + 4 + 4√2 = 8 + 4√2.",
       "explanation": "The two legs are 4 each and the hypotenuse is √32 = 4√2 by the distance formula, so the perimeter is 8 + 4√2.",
       "diveDeep": "For coordinate-geometry perimeter problems, find each side length with the distance formula d = √[(x₂ − x₁)² + (y₂ − y₁)²]; horizontal and vertical segments can be found by simple subtraction. Simplest radical form requires factoring out perfect squares: √32 = √(16·2) = 4√2. A frequent error is leaving the answer as a decimal when \"simplest radical form\" is requested, or forgetting to simplify the radical. Recognizing this as an isosceles right (45-45-90) triangle confirms the hypotenuse is leg × √2.",
-      "subTopic": "Distance, Midpoint & Partition",
+      "subTopic": "Coordinate Proofs",
       "difficulty": 3,
       "difficultyRationale": "Standard constructed-response calculation."
     },

@@ -1,5 +1,6 @@
 import { computeAchievements } from '../achievements'
 import { TOPICS as LS_TOPICS } from '../../content/life-science/questions'
+import { TOPICS as GEO_TOPICS } from '../../content/geometry/questions'
 
 // Regression guard for Step 2 of
 // ~/.claude/plans/expressive-meandering-lagoon.md: computeAchievements used
@@ -30,5 +31,26 @@ describe('computeAchievements includes life-science achievements', () => {
     ]
     const { earned } = computeAchievements({ history })
     expect(earned.some((a) => a.id === 'ls_cell_biologist')).toBe(false)
+  })
+})
+
+// Regression guard: content/geometry/achievements.js's achievements had the
+// exact same dead-code problem as life-science's — never included in the
+// catalog, so permanently unearnable.
+describe('computeAchievements includes geometry achievements', () => {
+  it('a geometry achievement can now be earned', () => {
+    const history = [
+      { subject: 'geometry', topic: GEO_TOPICS.LINES_ANGLES, pct: 90 },
+    ]
+    const { earned } = computeAchievements({ history })
+    expect(earned.some((a) => a.id === 'geo_congruence_master')).toBe(true)
+  })
+
+  it('geometry achievements do not fire from unrelated subject history alone', () => {
+    const history = [
+      { subject: 'living-environment', topic: 'cell_biology', pct: 90 },
+    ]
+    const { earned } = computeAchievements({ history })
+    expect(earned.some((a) => a.id === 'geo_congruence_master')).toBe(false)
   })
 })

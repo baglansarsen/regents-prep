@@ -76,7 +76,7 @@ export default {
       "explanation": "The midpoint is the average of the coordinates: ((−4 + 8)/2, (6 + (−2))/2) = (2, 2).",
       "diveDeep": "The midpoint formula averages the x-coordinates and averages the y-coordinates independently. A frequent error is subtracting instead of adding, or mixing up which value goes with which axis. Keep signs straight when endpoints are negative. This formula is the foundation for proving a quadrilateral is a parallelogram (diagonals bisect each other) and for finding the center of a circle from a diameter's endpoints.",
       "skill": "graphing",
-      "subTopic": "Distance, Midpoint & Partition",
+      "subTopic": "Coordinate Proofs",
       "difficulty": 2,
       "difficultyRationale": "Basic application of coordinate formulas."
     },
