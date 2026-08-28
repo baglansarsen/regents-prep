@@ -226,10 +226,10 @@ export default {
         "The mixture is homogeneous, the solute is H₂O and the solvent is NaCl."
       ],
       "topic": "Solutions",
+      "subTopic": "Solutions & Concentration",
       "correct": 2,
       "explanation": "A solution is a homogeneous mixture; the substance dissolved (NaCl) is the solute and the dissolving substance (H₂O) is the solvent.",
       "diveDeep": "Homogeneous means uniform composition throughout — you cannot see separate components. The solute is present in smaller quantity; the solvent is the substance doing the dissolving (usually in greater quantity). \"Like dissolves like\" — polar solvents dissolve polar/ionic solutes. NaCl dissociates into Na⁺ and Cl⁻ ions in water. Do not confuse solute and solvent — the solvent is always the liquid medium.",
-      "subTopic": "Solutions"
     },
     {
       "number": 15,
@@ -434,10 +434,10 @@ export default {
         "positrons"
       ],
       "topic": "Nuclear Chemistry",
+      "subTopic": "Nuclear Chemistry",
       "correct": 2,
       "explanation": "Gamma rays are high-energy electromagnetic radiation with the greatest penetrating power, requiring lead or thick concrete to be stopped.",
       "diveDeep": "Penetrating power order: gamma (greatest) > beta > alpha (least). Ionizing power is the reverse: alpha (greatest) > beta > gamma. Alpha particles are stopped by paper or skin; beta by aluminum; gamma by thick lead or concrete. On the Regents, this inverse relationship between penetrating and ionizing power is tested. Gamma emission does not change mass number or atomic number.",
-      "subTopic": "Solutions"
     },
     {
       "number": 28,
@@ -450,10 +450,10 @@ export default {
         "a loss of protons"
       ],
       "topic": "Redox & Electrochemistry",
+      "subTopic": "Redox & Electrochemistry",
       "correct": 1,
       "explanation": "Oxidation is defined as the loss of electrons (LEO — Lose Electrons = Oxidation).",
       "diveDeep": "The mnemonic LEO the lion says GER: Loss of Electrons = Oxidation; Gain of Electrons = Reduction. Oxidation number increases during oxidation. In a redox reaction, oxidation and reduction always occur together. The substance that loses electrons is the reducing agent; the one that gains electrons is the oxidizing agent. This is one of the most-tested definitions on the Chemistry Regents.",
-      "subTopic": "Redox Basics"
     },
     {
       "number": 29,

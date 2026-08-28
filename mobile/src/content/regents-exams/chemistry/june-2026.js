@@ -677,9 +677,9 @@ export default {
         "Sr"
       ],
       "topic": "Redox Chemistry",
+      "subTopic": "Redox & Electrochemistry",
       "correct": 3,
       "explanation": "On Table J (Activity Series), a metal will spontaneously replace the ions of any metal below it. Strontium (Sr) is above zinc in the activity series, so it will react with Zn(NO3)2(aq). Co, Cu, and Sn are all below Zn and will not react.",
-      "subTopic": "Redox Basics"
     },
     {
       "number": 46,

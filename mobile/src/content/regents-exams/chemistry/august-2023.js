@@ -275,9 +275,9 @@ export default {
       ],
       "correct": 1,
       "topic": "Redox & Electrochemistry",
+      "subTopic": "Redox & Electrochemistry",
       "explanation": "Oxidation-reduction (redox) reactions are defined by the transfer of electrons from the species oxidized (loses electrons) to the species reduced (gains electrons).",
       "diveDeep": "In redox reactions, oxidation numbers change because electrons move between species — remember LEO the lion says GER: Lose Electrons = Oxidation, Gain Electrons = Reduction. Neutralization is an acid-base reaction producing salt and water (no net electron transfer), while esterification and fermentation are organic reactions. The signal for redox is any change in oxidation state, such as a metal becoming a metal ion or an element appearing as a reactant or product.",
-      "subTopic": "Redox Basics"
     },
     {
       "number": 18,
@@ -613,10 +613,10 @@ export default {
       ],
       "correct": 3,
       "topic": "Solutions",
+      "subTopic": "Solutions & Concentration",
       "explanation": "Per Table F, compounds containing nitrate (NO₃⁻) and Group 1 ions like Na⁺ are soluble, so NaNO₃ is soluble.",
       "diveDeep": "Reference Table F lists the solubility guidelines for ionic compounds. Nitrates (NO₃⁻) and Group 1/ammonium salts are always soluble. AgCl and PbCl₂ are exceptions among chlorides (insoluble), and most sulfates are soluble except those with Ba²⁺, Pb²⁺, etc., making BaSO₄ insoluble. When asked about solubility, check the anion first against Table F, then look for the listed exceptions.",
       "skill": "reference",
-      "subTopic": "Solutions"
     },
     {
       "number": 39,

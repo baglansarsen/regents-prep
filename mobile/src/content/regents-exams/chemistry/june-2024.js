@@ -309,10 +309,10 @@ export default {
         "higher boiling point and a higher freezing point"
       ],
       "topic": "Solutions",
+      "subTopic": "Solutions & Concentration",
       "correct": 3,
       "explanation": "Compared to the KI solution, pure water has a higher freezing point (0°C vs. below 0°C) and a higher boiling point — wait, dissolving solute lowers freezing point AND raises boiling point of the solution. So pure water has a higher freezing point and a lower boiling point compared to the KI solution.",
       "diveDeep": "Colligative properties: adding solute (1) lowers freezing point, (2) raises boiling point, (3) increases osmotic pressure, (4) lowers vapor pressure. So KI solution has lower freezing point AND higher boiling point than pure water. Comparing pure water to the KI solution: water has higher freezing point (less negative) and lower boiling point. The answer choice \"higher boiling point and a higher freezing point\" for WATER is correct relative to the KI solution because the solution has a LOWER boiling point and LOWER freezing point than water. Wait — re-reading: water vs. 2.0 M KI: water boiling point 100°C, KI solution boiling point >100°C; water freezing 0°C, KI solution <0°C. So water has a LOWER boiling point AND a HIGHER freezing point compared to the solution. Correct answer is choice 1 (lower boiling point and higher freezing point) — but the key says correct: 3. Re-checking: the question asks how water compares to the KI solution. The KI solution has a higher boiling point and lower freezing point than water. So water has a lower boiling point and higher freezing point than the KI solution. This matches choice 1, index 0. The file has correct: 3 which appears to be an error in the original data. Note: keep correct: 3 as given but explanation reflects the actual chemistry.",
-      "subTopic": "Solutions"
     },
     {
       "number": 20,
@@ -717,10 +717,10 @@ export default {
         "ZnCl₂"
       ],
       "topic": "Redox Chemistry",
+      "subTopic": "Redox & Electrochemistry",
       "correct": 0,
       "explanation": "Zinc (Zn) is oxidized from 0 to +2 oxidation state, meaning it loses 2 electrons. Losing electrons is oxidation.",
       "diveDeep": "Assign oxidation numbers: Zn goes from 0 (element) to +2 (in ZnCl₂) — oxidized, loses 2e⁻. H goes from +1 (in HCl) to 0 (in H₂) — reduced, gains 1e⁻ each (2H⁺ + 2e⁻ → H₂). Cl⁻ remains −1 throughout — not oxidized or reduced (spectator in net ionic equation). Zn is the reducing agent (it causes reduction of H⁺). H⁺ is the oxidizing agent (it causes oxidation of Zn). This is a classic single-replacement redox reaction.",
-      "subTopic": "Redox Basics"
     },
     {
       "number": 45,
@@ -766,10 +766,10 @@ export default {
         "Cl⁻ ions are reduced to Cl₂ gas"
       ],
       "topic": "Electrochemistry",
+      "subTopic": "Redox & Electrochemistry",
       "correct": 1,
       "explanation": "At the cathode (reduction electrode), Na⁺ ions gain electrons (are reduced) to form Na metal: Na⁺ + e⁻ → Na.",
       "diveDeep": "In electrolysis of molten NaCl: Cathode (−): Na⁺ + e⁻ → Na (reduction); Anode (+): 2Cl⁻ → Cl₂ + 2e⁻ (oxidation). This industrial process (Down's cell) produces sodium metal and chlorine gas. Electrolysis is the reverse of a voltaic cell — an external power source forces a non-spontaneous reaction. The cathode in electrolysis is the negative electrode (connected to the negative terminal of the power source), opposite to a voltaic cell where the cathode is positive.",
-      "subTopic": "Redox Basics"
     },
     {
       "number": 48,
@@ -782,10 +782,10 @@ export default {
         "NaOH and NaCl"
       ],
       "topic": "Acids & Bases",
+      "subTopic": "Acids, Bases & pH",
       "correct": 2,
       "explanation": "A buffer consists of a weak acid and its conjugate base (or a weak base and its conjugate acid). CH₃COOH (acetic acid) and CH₃COONa (sodium acetate, the conjugate base) form a classic acetate buffer.",
       "diveDeep": "Buffer action: when H⁺ is added, CH₃COO⁻ + H⁺ → CH₃COOH (base component neutralizes added acid). When OH⁻ is added, CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O (acid component neutralizes added base). HCl and H₂SO₄ are strong acids — they fully dissociate and cannot act as a weak acid component. NaOH is a strong base. Buffers are critical in biology: blood pH (7.35–7.45) is maintained by the carbonic acid/bicarbonate buffer system.",
-      "subTopic": "Redox Basics"
     },
     {
       "number": 49,

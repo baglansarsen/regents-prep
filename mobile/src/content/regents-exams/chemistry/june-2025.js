@@ -584,11 +584,11 @@ export default {
         "4 neutrons"
       ],
       "topic": "Nuclear Chemistry",
+      "subTopic": "Nuclear Chemistry",
       "correct": 2,
       "explanation": "Mass and atomic numbers must be conserved. 235 + 1 = 141 + 92 + x; x = 3. Atomic: 92 + 0 = 56 + 36 + 0; balanced. Three neutrons are released.",
       "diveDeep": "Nuclear fission of U-235 is a chain reaction: each fission releases 2–3 neutrons that can trigger further fissions. Conservation laws for nuclear equations: (1) sum of mass numbers (top) must be equal on both sides; (2) sum of atomic numbers (bottom) must be equal. 235 + 1 = 236 total mass; 141 + 92 = 233; difference = 3 neutrons (each mass 1, charge 0). This specific reaction is the basis of uranium-fueled nuclear reactors and weapons.",
       "skill": "reference",
-      "subTopic": "Solutions"
     },
     {
       "number": 37,
@@ -634,11 +634,11 @@ export default {
         "Zn"
       ],
       "topic": "Redox Chemistry",
+      "subTopic": "Redox & Electrochemistry",
       "correct": 3,
       "explanation": "Table J (Activity Series) lists metals by their tendency to be oxidized. Zinc is above copper in the activity series, so Zn is more easily oxidized and will displace Cu²⁺ from solution.",
       "diveDeep": "Activity Series (Table J) ranks metals by their ease of oxidation: Li > K > Ca > Na > Mg > Al > Zn > Fe > Ni > Sn > Pb > H > Cu > Ag > Au > Pt. A metal higher on the list displaces ions of metals lower on the list. Zn + CuSO₄ → ZnSO₄ + Cu (spontaneous). Au, Ag, and Pt are all below Cu, so they cannot displace Cu²⁺. This table is essential for predicting single-replacement reactions.",
       "skill": "reference",
-      "subTopic": "Redox Basics"
     },
     {
       "number": 40,
@@ -715,10 +715,10 @@ export default {
         "FeCl₂"
       ],
       "topic": "Redox Chemistry",
+      "subTopic": "Redox & Electrochemistry",
       "correct": 2,
       "explanation": "H⁺ is reduced (gains electrons, oxidation number goes from +1 to 0 in H₂), making it the oxidizing agent. Fe is oxidized (loses electrons), making it the reducing agent.",
       "diveDeep": "Oxidation-reduction identification: the oxidizing agent is reduced (gains electrons); the reducing agent is oxidized (loses electrons). Fe: 0 → +2 (oxidized, loses 2e⁻) — Fe is the reducing agent. H: +1 → 0 (reduced, gains 1e⁻ per H) — H⁺ is the oxidizing agent. Cl stays at −1 throughout. Mnemonic: OIL RIG (Oxidation Is Loss, Reduction Is Gain). This is a classic single-replacement redox reaction between a metal and an acid.",
-      "subTopic": "Redox Basics"
     },
     {
       "number": 45,
@@ -764,10 +764,10 @@ export default {
         "Because electrolysis only works with acidic solutions."
       ],
       "topic": "Electrochemistry",
+      "subTopic": "Redox & Electrochemistry",
       "correct": 1,
       "explanation": "Electrolysis drives a nonspontaneous oxidation-reduction reaction using electrical energy — the reverse of a spontaneous galvanic cell reaction.",
       "diveDeep": "Galvanic (voltaic) cells: spontaneous redox → produces electrical energy (e.g., batteries). Electrolytic cells: electrical energy → forces a nonspontaneous redox reaction (e.g., electroplating, refining metals, decomposing water). The key distinction: galvanic cells generate electricity; electrolytic cells consume it. In electrolysis of water: 2H₂O → 2H₂ + O₂. This is endothermic and nonspontaneous, requiring continuous energy input. Electrolysis is used industrially for aluminum production and chlorine manufacture.",
-      "subTopic": "Redox Basics"
     },
     {
       "number": 48,

@@ -433,10 +433,10 @@ export default {
         "positron"
       ],
       "topic": "Nuclear Chemistry",
+      "subTopic": "Nuclear Chemistry",
       "correct": 2,
       "explanation": "Gamma (γ) radiation consists of high-energy photons; photons have no mass and no charge, unlike alpha (mass 4, charge +2), beta (mass ≈ 0, charge −1), and positrons (mass ≈ 0, charge +1).",
       "diveDeep": "Reference Table N lists nuclear decay particles. Alpha particles are helium-4 nuclei (mass 4, charge +2) and are stopped by paper. Beta particles are electrons (mass ≈ 0, charge −1) stopped by thin metal. Gamma rays are electromagnetic radiation (no mass, no charge) and require dense shielding like lead. Positrons are antimatter electrons (charge +1). The question asks for NO mass AND no charge, which uniquely identifies gamma. A common trap is choosing beta, which has negligible mass but does carry charge.",
-      "subTopic": "Solutions"
     },
     {
       "number": 28,
@@ -632,11 +632,11 @@ export default {
         "Hg"
       ],
       "topic": "Redox Chemistry",
+      "subTopic": "Redox & Electrochemistry",
       "correct": 2,
       "explanation": "Reference Table J (Activity Series) lists metals in order of decreasing activity. Cu is above Ag in the activity series, so Cu is more easily oxidized and will spontaneously reduce Ag⁺ to Ag metal.",
       "diveDeep": "Reference Table J is the Standard Electrode Potentials (or Activity Series) table. A metal higher in the activity series (more negative E°) will spontaneously reduce any metal ion below it. Here Cu (E° = −0.34 V for oxidation, or more active than Ag) displaces Ag⁺ from solution. Au and Pt are below Ag and are less reactive, so they cannot oxidize in the presence of Ag⁺. Hg is also below Cu in activity. A simple rule: if the metal is above the metal ion in Table J, the reaction is spontaneous.",
       "skill": "reference",
-      "subTopic": "Redox Basics"
     },
     {
       "number": 40,
@@ -763,10 +763,10 @@ export default {
         "oxygen gas"
       ],
       "topic": "Redox Chemistry",
+      "subTopic": "Redox & Electrochemistry",
       "correct": 1,
       "explanation": "In electrolysis of molten NaCl, Cl⁻ ions migrate to the anode and are oxidized to form Cl₂(g). Na⁺ ions migrate to the cathode and are reduced to Na(s).",
       "diveDeep": "Electrolysis uses electrical energy to drive a non-spontaneous redox reaction. The anode is the positive electrode where oxidation occurs, and the cathode is the negative electrode where reduction occurs. In molten NaCl (no water present), the only anion is Cl⁻, so oxidation at the anode produces Cl₂ gas: 2Cl⁻ → Cl₂ + 2e⁻. At the cathode, Na⁺ + e⁻ → Na(l). Note: in aqueous NaCl, water is oxidized at the anode instead (producing O₂), because that is energetically preferred. The word \"molten\" is the key that tells you only Na⁺ and Cl⁻ are present.",
-      "subTopic": "Redox Basics"
     },
     {
       "number": 48,

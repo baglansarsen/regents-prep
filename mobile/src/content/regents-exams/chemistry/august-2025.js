@@ -452,9 +452,9 @@ export default {
       ],
       "correct": 0,
       "topic": "Nuclear Chemistry",
+      "subTopic": "Nuclear Chemistry",
       "explanation": "Carbon-14 is used to date once-living materials because living things absorb carbon and C-14 decays at a known rate after death.",
       "diveDeep": "Each radioisotope has uses tied to its half-life. C-14 (half-life ~5,700 years) dates organic remains; U-238 (billions of years) dates rocks; Co-60 and I-131 are used in medicine. Reference Table N lists half-lives. The trap is picking U-238 for biological dating; its half-life is far too long for once-living material and it is used for geologic dating instead.",
-      "subTopic": "Solutions"
     },
     {
       "number": 29,
@@ -612,9 +612,9 @@ export default {
       ],
       "correct": 0,
       "topic": "Acids, Bases & Salts",
+      "subTopic": "Acids, Bases & pH",
       "explanation": "An acid (HNO₃) reacting with a base (KOH) to form a salt and water is a neutralization reaction.",
       "diveDeep": "Neutralization is the reaction of an acid with a base producing a salt and water. Here HNO₃ (acid) plus KOH (base) yields KNO₃ (salt) and water — the signature pattern. The trap is labeling it oxidation-reduction; in a simple acid-base neutralization, oxidation numbers do not change. Spot the acid + base → salt + water pattern to classify quickly.",
-      "subTopic": "Redox Basics"
     },
     {
       "number": 39,
@@ -628,9 +628,9 @@ export default {
       ],
       "correct": 0,
       "topic": "Solutions",
+      "subTopic": "Solutions & Concentration",
       "explanation": "NaCl dissociates into mobile ions in water, allowing it to conduct electricity, while the molecular sugars and alcohol do not ionize.",
       "diveDeep": "Electrolytes conduct electricity because they release mobile ions in solution; ionic compounds and strong acids/bases are electrolytes. Molecular substances like glucose, methanol, and sucrose dissolve without forming ions, so their solutions do not conduct. The trap is assuming any dissolved substance conducts. Look for ionic compounds (like NaCl) to identify the best conductor.",
-      "subTopic": "Solutions"
     },
     {
       "number": 40,
@@ -804,9 +804,9 @@ export default {
       ],
       "correct": 0,
       "topic": "Solutions",
+      "subTopic": "Solutions & Concentration",
       "explanation": "In a solution, the solute (smaller amount) is dissolved in the solvent (larger amount, the dissolving medium).",
       "diveDeep": "A solution consists of a solute dissolved in a solvent; the solvent is usually the substance present in greater amount and does the dissolving (often water). A precipitate is an insoluble solid that forms and is not part of a true solution. The trap is reversing solute and solvent. Remember: solute gets dissolved, solvent does the dissolving.",
-      "subTopic": "Solutions"
     },
     {
       "number": 51,

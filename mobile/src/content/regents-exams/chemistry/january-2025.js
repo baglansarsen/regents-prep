@@ -196,9 +196,9 @@ export default {
       ],
       "correct": 3,
       "topic": "Solutions",
+      "subTopic": "Solutions & Concentration",
       "explanation": "A solution is a homogeneous mixture—uniform throughout—because the solute is evenly dissolved in the solvent.",
       "diveDeep": "All true solutions are homogeneous mixtures: their composition is uniform at every point, and the components are not chemically bonded so they can be present in varying proportions. \"Compound\" is wrong because mixing is a physical process, not a chemical combination. \"Heterogeneous\" is wrong because a dissolved solution shows no visibly distinct phases. Classify substances by asking: is it uniform (homogeneous) and is it physically combined (mixture)?",
-      "subTopic": "Solutions"
     },
     {
       "number": 13,
@@ -212,9 +212,9 @@ export default {
       ],
       "correct": 3,
       "topic": "Solutions",
+      "subTopic": "Solutions & Concentration",
       "explanation": "KBr(aq) is a solution (mixture), so the ratio of KBr to water can be varied; the others are pure substances with fixed composition.",
       "diveDeep": "Mixtures have variable composition because their components are physically combined and not in fixed ratios. The (aq) label indicates an aqueous solution—a mixture of solute and water whose concentration can change. Elements (Cl₂, Br₂) and compounds (KCl) are pure substances with fixed, definite composition set by their formulas. Spotting the (aq) or recognizing a solution is the key to \"variable proportion\" questions.",
-      "subTopic": "Solutions"
     },
     {
       "number": 14,
@@ -421,9 +421,9 @@ export default {
       ],
       "correct": 1,
       "topic": "Nuclear Chemistry",
+      "subTopic": "Nuclear Chemistry",
       "explanation": "A beta particle is a high-speed electron, which has a mass roughly 1/1836 that of a proton or neutron, far less than an alpha particle.",
       "diveDeep": "Relative masses: a beta particle (electron) has essentially negligible mass (≈0 amu on the atomic scale), a proton and neutron are each about 1 amu, and an alpha particle (a helium nucleus, 2 protons + 2 neutrons) is about 4 amu. Reference Table O lists these particles and their symbols. The trap is forgetting that the beta particle is just an electron and therefore by far the lightest; alpha is the heaviest of the listed particles.",
-      "subTopic": "Solutions"
     },
     {
       "number": 27,
@@ -453,10 +453,10 @@ export default {
       ],
       "correct": 0,
       "topic": "Redox & Electrochemistry",
+      "subTopic": "Redox & Electrochemistry",
       "explanation": "A metal more active than zinc but less active than magnesium can replace Zn²⁺ but not Mg²⁺; aluminum sits between them on Table J's activity series.",
       "diveDeep": "Table J ranks metals by activity: a more active metal will displace the ions of a less active metal from solution. Aluminum is more active than zinc (so it reacts with Zn²⁺) but less active than magnesium (so it cannot displace Mg²⁺). Barium and calcium are more active than magnesium, while lead is less active than zinc. Single-replacement reactions only proceed when the free metal is above the dissolved metal ion on the activity series.",
       "skill": "reference",
-      "subTopic": "Redox Basics"
     },
     {
       "number": 29,
@@ -616,9 +616,9 @@ export default {
       ],
       "correct": 0,
       "topic": "Nuclear Chemistry",
+      "subTopic": "Nuclear Chemistry",
       "explanation": "An alpha particle is a helium nucleus (2 protons and 2 neutrons), giving it a charge of +2 and a mass of 4 amu.",
       "diveDeep": "Reference Table O lists the symbols and properties of nuclear emissions. An alpha particle (⁴₂He) has a +2 charge and mass 4. A beta particle is an electron (charge −1, negligible mass), a positron has charge +1, and a gamma ray is high-energy radiation with no charge and no mass. Matching both charge and mass to +2 and 4 uniquely identifies the alpha particle. These properties also explain why alpha radiation is the least penetrating.",
-      "subTopic": "Solutions"
     },
     {
       "number": 39,

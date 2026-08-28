@@ -604,10 +604,10 @@ export default {
         "potassium-40"
       ],
       "topic": "Nuclear Chemistry",
+      "subTopic": "Nuclear Chemistry",
       "correct": 1,
       "explanation": "Cobalt-60 emits gamma radiation and is used in radiation therapy to treat cancer.",
       "diveDeep": "Different radioisotopes have specific practical uses listed in Reference Table N. Cobalt-60 is a gamma emitter used in cancer radiation therapy and to sterilize equipment. Carbon-14 is used for radioactive dating of once-living material; uranium-238 dates rocks; potassium-40 also dates geological samples. Matching the isotope to its application is a common Regents skill, so review the uses on the reference table.",
-      "subTopic": "Solutions"
     },
     {
       "number": 39,
@@ -636,10 +636,10 @@ export default {
         "its density"
       ],
       "topic": "Acids & Bases",
+      "subTopic": "Acids, Bases & pH",
       "correct": 2,
       "explanation": "Dissolved HCl produces mobile H⁺ and Cl⁻ ions that carry electric current, explaining the solution's electrical conductivity.",
       "diveDeep": "Electrolytes are substances that conduct electricity in solution because they dissociate into free-moving (mobile) ions. HCl is a strong acid that ionizes completely into H⁺ and Cl⁻, so the solution conducts well. Color, odor, and density are not caused by ion mobility. When a question links a property to \"mobile ions,\" the answer is almost always electrical conductivity.",
-      "subTopic": "Redox Basics"
     },
     {
       "number": 41,
@@ -684,10 +684,10 @@ export default {
         "a positron"
       ],
       "topic": "Nuclear Chemistry",
+      "subTopic": "Nuclear Chemistry",
       "correct": 0,
       "explanation": "The mass number drops by 4 (236→232... here 238→234) and atomic number drops by 2, which is the loss of an alpha particle.",
       "diveDeep": "Nuclear equations must balance mass numbers (top) and atomic numbers (bottom). Here mass decreases by 4 and atomic number decreases by 2, exactly the signature of an alpha particle (⁴₂He). A beta particle would increase atomic number by 1 with no mass change; a positron would decrease atomic number by 1; a neutron would decrease mass by 1 with no atomic-number change. Balance both numbers to identify the emitted particle. (Note: this isotope is conventionally uranium-238 decaying to thorium-234.)",
-      "subTopic": "Solutions"
     },
     {
       "number": 44,
@@ -797,10 +797,10 @@ export default {
         "H₂O"
       ],
       "topic": "Acids & Bases",
+      "subTopic": "Acids, Bases & pH",
       "correct": 2,
       "explanation": "In this neutralization, the acid and base combine to form water and the salt NaCl.",
       "diveDeep": "A salt is an ionic compound formed from the positive ion of a base and the negative ion of an acid during neutralization. Here Na⁺ (from NaOH) combines with Cl⁻ (from HCl) to form NaCl, while H⁺ and OH⁻ form water. HCl is the acid and NaOH is the base, not products. To find the salt, pair the cation of the base with the anion of the acid.",
-      "subTopic": "Redox Basics"
     },
     {
       "number": 51,

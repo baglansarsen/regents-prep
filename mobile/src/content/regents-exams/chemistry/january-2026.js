@@ -484,9 +484,9 @@ export default {
       ],
       "correct": 1,
       "topic": "Nuclear Chemistry",
+      "subTopic": "Nuclear Chemistry",
       "explanation": "According to Reference Table N, cobalt-60 is a radioisotope used in cancer treatment because of the high-energy gamma radiation it emits.",
       "diveDeep": "Reference Table N lists selected radioisotopes and their uses: carbon-14 for dating once-living things, uranium-238 for dating rocks, iodine-131 for diagnosing/treating the thyroid, technetium-99 for medical imaging, and cobalt-60 for cancer treatment (and food irradiation). Cobalt-60 emits penetrating gamma rays that destroy cancer cells. Memorize the key isotope-use pairs from Table N, as they appear nearly every exam.",
-      "subTopic": "Solutions"
     },
     {
       "number": 31,
@@ -575,10 +575,10 @@ export default {
       ],
       "correct": 3,
       "topic": "Solutions",
+      "subTopic": "Solutions & Concentration",
       "explanation": "According to Reference Table F, all nitrates (NO₃⁻) are soluble, so KNO₃ is soluble, whereas AgCl, PbSO₄, and BaSO₄ are insoluble exceptions.",
       "diveDeep": "Reference Table F lists soluble and insoluble ion combinations. Nitrates (NO₃⁻), Group 1 ions, and ammonium are always soluble. Chlorides are soluble except with Ag⁺, Pb²⁺, and Hg₂²⁺; sulfates are soluble except with Ba²⁺, Pb²⁺, Sr²⁺, and Ca²⁺. AgCl, PbSO₄, and BaSO₄ all fall into the insoluble-exception categories. Knowing the \"always soluble\" rows (nitrates, Group 1, ammonium) lets you spot the soluble answer instantly.",
       "skill": "reference",
-      "subTopic": "Solutions"
     },
     {
       "number": 37,
