@@ -165,6 +165,11 @@ describe('shouldSpendEnergy', () => {
     expect(shouldSpendEnergy({ isDailyTrap: true })).toBe(false)
     expect(shouldSpendEnergy({ isDailyTrap: false })).toBe(true)
   })
+
+  test('the cold-start checkup is free — diagnostic, not graded', () => {
+    expect(shouldSpendEnergy({ isCheckup: true })).toBe(false)
+    expect(shouldSpendEnergy({ isCheckup: false })).toBe(true)
+  })
 })
 
 // ── Subject energy caps ─────────────────────────────────────────────────────

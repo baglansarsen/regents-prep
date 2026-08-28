@@ -67,10 +67,16 @@ export function energyBand(lives = 0, maxLives = BASE_MAX_ENERGY, isSubscribed =
  *    struggling; easier questions are served to rebuild, not to punish
  *  - the Daily Regents Trap — it's designed to be missed; "good catch for
  *    exam day" shouldn't cost anything
+ *  - the cold-start "quick checkup" — same intent as the placement test
+ *    ("no lives, diagnostic only", PlacementTestScreen.jsx), just triggered
+ *    later in the funnel once a goal is set; it spans unfamiliar topics on
+ *    purpose to calibrate the prediction, so missing several questions is
+ *    expected, not a signal to burn a brand-new user's hearts before their
+ *    first real lesson
  *
  * Subscriber bypass is handled inside loseLife() itself (no-op when
  * subscribed) — callers don't need to check it here.
  */
-export function shouldSpendEnergy({ inRepeat = false, struggleMode = false, isDailyTrap = false } = {}) {
-  return !inRepeat && !struggleMode && !isDailyTrap
+export function shouldSpendEnergy({ inRepeat = false, struggleMode = false, isDailyTrap = false, isCheckup = false } = {}) {
+  return !inRepeat && !struggleMode && !isDailyTrap && !isCheckup
 }

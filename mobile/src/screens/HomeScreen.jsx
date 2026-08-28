@@ -663,12 +663,17 @@ export default function HomeScreen({ navigation }) {
     livesGate(() => navigation.navigate('Quiz', { questionSet: pool, topic, subject, isMistakesPractice: true }))
   }
 
-  function startQuiz(topic, { limit } = {}) {
+  function startQuiz(topic, { limit, isCheckup = false } = {}) {
     const pool = topic ? sd.getByTopic(topic) : sd.questions
     if (!pool.length) return
     const shuffled = shuffle(pool)
     const questionSet = limit ? shuffled.slice(0, limit) : shuffled
-    livesGate(() => navigation.navigate('Quiz', { questionSet, topic, subject }))
+    const params = { questionSet, topic, subject, isCheckup }
+    // The cold-start checkup never spends energy (shouldSpendEnergy) and,
+    // like the placement test it mirrors, shouldn't be blocked by the
+    // recharge gate either — it's a new user's very first action.
+    if (isCheckup) { navigation.navigate('Quiz', params); return }
+    livesGate(() => navigation.navigate('Quiz', params))
   }
 
   function startFlashcards(topic) {
@@ -688,8 +693,11 @@ export default function HomeScreen({ navigation }) {
         navigation.navigate('GoalSetup')
         break
       case 'checkup':
-        // Short mixed quiz — just enough to calibrate the prediction
-        startQuiz(null, { limit: 12 })
+        // Short mixed quiz — just enough to calibrate the prediction.
+        // Energy-free and ungated (see startQuiz/shouldSpendEnergy) — it's
+        // diagnostic, not a graded lesson, and is often a brand-new user's
+        // very first action right after committing a goal.
+        startQuiz(null, { limit: 12, isCheckup: true })
         break
       case 'practice_exam':
         navigation.navigate('ExamsTab')

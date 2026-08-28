@@ -83,7 +83,7 @@ function comboInfo(streak) {
 }
 
 export default function QuizScreen({ route, navigation }) {
-  const { questionSet, topic, subject, lessonIndex, isChallenge, nextUnitTopic, nextLessonMeta, isDailyTrap } = route.params
+  const { questionSet, topic, subject, lessonIndex, isChallenge, nextUnitTopic, nextLessonMeta, isDailyTrap, isCheckup } = route.params
   const { C } = useTheme()
   const insets = useSafeAreaInsets()
   const { height: screenH } = useWindowDimensions()
@@ -250,8 +250,9 @@ export default function QuizScreen({ route, navigation }) {
         hapticWarning()
         playWrong()
         // Misses are free during the repeat round, the adaptive confidence
-        // round, and the Daily Trap — see shouldSpendEnergy for the policy.
-        if (shouldSpendEnergy({ inRepeat, struggleMode, isDailyTrap })) loseLife()
+        // round, the Daily Trap, and the cold-start checkup — see
+        // shouldSpendEnergy for the policy.
+        if (shouldSpendEnergy({ inRepeat, struggleMode, isDailyTrap, isCheckup })) loseLife()
         triggerReaction('sad')
         animatePetIncorrect()
       }
@@ -368,8 +369,10 @@ export default function QuizScreen({ route, navigation }) {
       }
       // Finished the lesson at 0 hearts (free users): let them see the refill
       // gate before moving on, so they can ad/refill and keep going. The gate is
-      // dismissable — dismissing just proceeds to Results.
-      if (lives === 0 && !isSubscribed) {
+      // dismissable — dismissing just proceeds to Results. The cold-start
+      // checkup never spends energy (see shouldSpendEnergy), so it never
+      // triggers this gate either, even if lives happened to be at 0 already.
+      if (lives === 0 && !isSubscribed && !isCheckup) {
         setEndGateParams(resultsParams)
       } else {
         navigation.replace('Results', resultsParams)
