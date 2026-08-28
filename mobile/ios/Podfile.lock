@@ -219,10 +219,13 @@ PODS:
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
     - Yoga
-  - ExpoAdapterGoogleSignIn (16.1.2):
+  - ExpoAdapterGoogleSignIn (16.1.4):
     - ExpoModulesCore
     - GoogleSignIn (~> 9.0)
+    - GoogleUtilities/Environment
+    - GoogleUtilities/UserDefaults
     - React-Core
+    - RecaptchaInterop
   - ExpoAppleAuthentication (8.0.8):
     - ExpoModulesCore
   - ExpoAsset (12.0.13):
@@ -363,11 +366,11 @@ PODS:
   - PromisesObjC (2.4.1)
   - PromisesSwift (2.4.1):
     - PromisesObjC (= 2.4.1)
-  - PurchasesHybridCommon (18.14.1):
-    - RevenueCat (= 5.78.0)
-  - PurchasesHybridCommonUI (18.14.1):
-    - PurchasesHybridCommon (= 18.14.1)
-    - RevenueCatUI (= 5.78.0)
+  - PurchasesHybridCommon (18.33.1):
+    - RevenueCat (= 5.87.1)
+  - PurchasesHybridCommonUI (18.33.1):
+    - PurchasesHybridCommon (= 18.33.1)
+    - RevenueCatUI (= 5.87.1)
   - RCTDeprecation (0.81.5)
   - RCTRequired (0.81.5)
   - RCTTypeSafety (0.81.5):
@@ -2089,13 +2092,13 @@ PODS:
     - ReactNativeDependencies
   - ReactNativeDependencies (0.81.5)
   - RecaptchaInterop (101.0.0)
-  - RevenueCat (5.78.0)
-  - RevenueCatUI (5.78.0):
-    - RevenueCat (= 5.78.0)
-  - rive-react-native (9.8.3):
+  - RevenueCat (5.87.1)
+  - RevenueCatUI (5.87.1):
+    - RevenueCat (= 5.87.1)
+  - rive-react-native (9.8.5):
     - React-Core
-    - RiveRuntime (= 6.18.2)
-  - RiveRuntime (6.18.2)
+    - RiveRuntime (= 6.21.1)
+  - RiveRuntime (6.21.1)
   - RNCAsyncStorage (2.2.0):
     - hermes-engine
     - RCTRequired
@@ -2164,7 +2167,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
     - Yoga
-  - RNGoogleSignin (16.1.2):
+  - RNGoogleSignin (16.1.4):
     - GoogleSignIn (~> 9.0)
     - hermes-engine
     - RCTRequired
@@ -2187,11 +2190,11 @@ PODS:
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
     - Yoga
-  - RNPaywalls (10.3.0):
-    - PurchasesHybridCommonUI (= 18.14.1)
+  - RNPaywalls (10.8.1):
+    - PurchasesHybridCommonUI (= 18.33.1)
     - React-Core
-  - RNPurchases (10.3.0):
-    - PurchasesHybridCommon (= 18.14.1)
+  - RNPurchases (10.8.1):
+    - PurchasesHybridCommon (= 18.33.1)
     - React-Core
   - RNScreens (4.16.0):
     - hermes-engine
@@ -2657,7 +2660,7 @@ SPEC CHECKSUMS:
   expo-dev-launcher: 62424c01202c528a0421e5736c7cba2aa95312b6
   expo-dev-menu: ffb77acaa6a91d260780ab72a7d236ece882c787
   expo-dev-menu-interface: 600df12ea01efecdd822daaf13cc0ac091775533
-  ExpoAdapterGoogleSignIn: ab4d9fc38cb91077a4138d178395525ec65d0c2e
+  ExpoAdapterGoogleSignIn: cfc75819d7d2490488250ce5634f57f92c60a2b8
   ExpoAppleAuthentication: 9413ae9a5e631a424cc04c1b13b0694dbab7d594
   ExpoAsset: 9e5a7c9c0a9fb83ad5b2bb365141f2bd7f289b66
   ExpoCrypto: e2a2c4c748aac8485e5675f027b7901f511d43ff
@@ -2688,8 +2691,8 @@ SPEC CHECKSUMS:
   lottie-react-native: d954917e9e5f3217eac0ca0eb3be75de412dea93
   PromisesObjC: 752c3227f599e3467650e47ea36f433eeb10c273
   PromisesSwift: 217dea0fd5d2ad65222a109c48698add13cc1c5b
-  PurchasesHybridCommon: 825e4e748b62c919bc4cb4032b0d1e452409bd74
-  PurchasesHybridCommonUI: 536abdfc64b82adcbb9ba352630722a4a1270571
+  PurchasesHybridCommon: 10fa5043609584e834a84b4641f9c1166e69ea55
+  PurchasesHybridCommonUI: 72905af114e6f8f0d089b3b09bb9442ba053a933
   RCTDeprecation: 943572d4be82d480a48f4884f670135ae30bf990
   RCTRequired: 8f3cfc90cc25cf6e420ddb3e7caaaabc57df6043
   RCTTypeSafety: 16a4144ca3f959583ab019b57d5633df10b5e97c
@@ -2757,16 +2760,16 @@ SPEC CHECKSUMS:
   ReactCommon: 08810150b1206cc44aecf5f6ae19af32f29151a8
   ReactNativeDependencies: 71ce9c28beb282aa720ea7b46980fff9669f428a
   RecaptchaInterop: 11e0b637842dfb48308d242afc3f448062325aba
-  RevenueCat: f3641992451c1426da8d8d1466cec3bbdb765962
-  RevenueCatUI: 32998f100fe73f1d0172df7eef4f0dd1bc781a05
-  rive-react-native: 3692bf8b8b617c8c801e6af54d961a2574fdbf38
-  RiveRuntime: 55c7a7badd9a8389d20fc8a75b7c6accc851b69a
+  RevenueCat: 7d45133f048270481facf0f7b02530e503a01620
+  RevenueCatUI: 9e9a56493980e8186af3344022a81835b4553413
+  rive-react-native: 0fad980aaaff989d45befe808c33de7dbec3f135
+  RiveRuntime: b762bd437b7de47d34d0f8e670112d0b9143f8d6
   RNCAsyncStorage: 3a4f5e2777dae1688b781a487923a08569e27fe4
   RNGestureHandler: 2914750df066d89bf9d8f48a10ad5f0051108ac3
   RNGoogleMobileAds: 7d442aa08f60f9ad22a6345d4f69c4b6ae052309
-  RNGoogleSignin: 104dd7238c56fe354e4b0a8fd267f866039ffdf3
-  RNPaywalls: f125e0b623a8ccadbe45e2815ac024bbf9053bb9
-  RNPurchases: ebcfb4effc608048bf2481a413b0bcaa2b6677f7
+  RNGoogleSignin: e4caaa71be97fed950d445f55e5181f6c5e9e065
+  RNPaywalls: 3f00ea06f77a22d3d1c08733605387aa3cd2ca71
+  RNPurchases: d3601e9d241046f8ef3837505b62ce7bd3057720
   RNScreens: d8d6f1792f6e7ac12b0190d33d8d390efc0c1845
   RNSVG: 31d6639663c249b7d5abc9728dde2041eb2a3c34
   Yoga: 5934998fbeaef7845dbf698f698518695ab4cd1a
