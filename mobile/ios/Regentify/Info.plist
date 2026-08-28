@@ -40,6 +40,12 @@
 				<string>com.googleusercontent.apps.752904748328-82me96mfpu3vhv9qm2f5u300qllktr4t</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>regentify</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>18</string>
