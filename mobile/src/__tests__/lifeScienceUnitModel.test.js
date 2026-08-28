@@ -1,0 +1,85 @@
+import { UNITS, getByTopic, allQuestions } from '../content/life-science/units'
+import { predictRegentsScore } from '../utils/predictedScore'
+import { isUnitUnlocked } from '../utils/unitUnlocks'
+
+// Guards the unit-metadata invariants added for goal-wiring (Step 1 of
+// ~/.claude/plans/expressive-meandering-lagoon.md), mirroring
+// __tests__/esUnitModel.test.js — so a future exam import can't silently
+// break the exam-weight math or the prereq graph.
+
+describe('life-science UNITS metadata', () => {
+  it('examWeight sums to ~1.0 across the weighted (non-null) units', () => {
+    const sum = UNITS.reduce((acc, u) => acc + (u.examWeight ?? 0), 0)
+    expect(sum).toBeGreaterThan(0.98)
+    expect(sum).toBeLessThan(1.02)
+  })
+
+  it('every prereq id refers to a real unit', () => {
+    const ids = new Set(UNITS.map((u) => u.id))
+    for (const u of UNITS) {
+      for (const p of u.prereqs ?? []) {
+        expect(ids.has(p)).toBe(true)
+      }
+    }
+  })
+
+  it('the prereq graph has no cycles', () => {
+    const byId = new Map(UNITS.map((u) => [u.id, u]))
+    const visiting = new Set()
+    const visited = new Set()
+
+    function visit(id) {
+      if (visited.has(id)) return
+      if (visiting.has(id)) throw new Error(`prereq cycle at ${id}`)
+      visiting.add(id)
+      for (const p of byId.get(id)?.prereqs ?? []) visit(p)
+      visiting.delete(id)
+      visited.add(id)
+    }
+
+    expect(() => UNITS.forEach((u) => visit(u.id))).not.toThrow()
+  })
+
+  it('every unit is reachable and ids are unique', () => {
+    const ids = UNITS.map((u) => u.id)
+    const withoutPrereqs = UNITS.filter((u) => (u.prereqs ?? []).length === 0)
+    expect(withoutPrereqs.length).toBeGreaterThan(0)
+    expect(ids.length).toBe(new Set(ids).size)
+  })
+
+  // life-science-sp is a skill overlay (data/model/experiment tags) that
+  // reuses questions already counted in their own content-topic unit — same
+  // pattern as earth-science's es-sp. Every content question should still be
+  // served by exactly one non-skill unit's pool.
+  it("every question is served by exactly one non-skill unit's pool", () => {
+    const total = allQuestions().length
+    const sum = UNITS
+      .filter((u) => u.id !== 'life-science-sp')
+      .reduce((acc, u) => acc + getByTopic(u.topic).length, 0)
+    expect(sum).toBe(total)
+  })
+
+  // The examWeight-weighted mean must actually count the one null-weight
+  // unit (life-science-sp) via the fallback weight, not silently zero it out
+  // — see the comment above declaredWeights/fallbackWeight in
+  // predictedScore.js.
+  it('the null-examWeight unit measurably moves masteryScaled via its fallback weight, not zero', () => {
+    const weightedUnits = UNITS.filter((u) => typeof u.examWeight === 'number')
+    const nullUnits = UNITS.filter((u) => u.examWeight == null)
+    expect(nullUnits.length).toBeGreaterThan(0)
+    const baseline = weightedUnits.map((u) => ({ topic: u.topic, pct: 50 }))
+    const low  = predictRegentsScore({ units: UNITS, history: [...baseline, ...nullUnits.map((u) => ({ topic: u.topic, pct: 0 }))] })
+    const high = predictRegentsScore({ units: UNITS, history: [...baseline, ...nullUnits.map((u) => ({ topic: u.topic, pct: 100 }))] })
+    expect(high.components.masteryScaled).toBeGreaterThan(low.components.masteryScaled)
+  })
+
+  it('unlock graph over the real UNITS: first unit open, later ones gated until prereqs complete', () => {
+    const noneComplete = () => false
+    expect(isUnitUnlocked(UNITS, 0, noneComplete)).toBe(true)
+    const lastIndex = UNITS.length - 1
+    expect(isUnitUnlocked(UNITS, lastIndex, noneComplete)).toBe(false)
+
+    const allComplete = () => true
+    expect(isUnitUnlocked(UNITS, lastIndex, allComplete)).toBe(true)
+  })
+})
