@@ -53,4 +53,12 @@ describe('computeAchievements includes geometry achievements', () => {
     const { earned } = computeAchievements({ history })
     expect(earned.some((a) => a.id === 'geo_congruence_master')).toBe(false)
   })
+
+  it('every geometry unit topic has its own achievement', () => {
+    const { locked, earned } = computeAchievements({
+      history: [{ subject: 'geometry', topic: GEO_TOPICS.TRIANGLE_CONG, pct: 90 }],
+    })
+    expect([...earned, ...locked].some((a) => a.id === 'geo_triangle_congruence')).toBe(true)
+    expect(earned.some((a) => a.id === 'geo_triangle_congruence')).toBe(true)
+  })
 })

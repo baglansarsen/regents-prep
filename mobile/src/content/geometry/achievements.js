@@ -4,9 +4,16 @@ export const ACHIEVEMENTS = [
   {
     id: 'geo_congruence_master',
     title: 'Proof Builder',
-    description: 'Pass Congruence & Transformations with 80%+',
+    description: 'Pass Lines, Angles & Transformations with 80%+',
     icon: '🔄',
     condition: s => s.topicsPassed?.has(TOPICS.LINES_ANGLES),
+  },
+  {
+    id: 'geo_triangle_congruence',
+    title: 'Congruence Constructor',
+    description: 'Pass Triangle Congruence & Constructions with 80%+',
+    icon: '🔺',
+    condition: s => s.topicsPassed?.has(TOPICS.TRIANGLE_CONG),
   },
   {
     id: 'geo_similarity_master',
