@@ -44,3 +44,5 @@ Thumbs.db
 graphify-out/
 scripts/pdf_cache/
 .planning/**/.cache/
+.gsd/
+.planning/milestone.lock
