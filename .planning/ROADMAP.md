@@ -27,10 +27,11 @@ Four of the app's largest, most tangled screens (`HomeScreen`, `QuizScreen`, `Fr
   1. `cd mobile && npx jest` runs and passes with `@testing-library/react-native@14.0.1` as the sole rendering/query library
   2. `react-test-renderer@18.x` and `@testing-library/jest-native` no longer appear in `mobile/package.json`
   3. Existing tests that previously relied on `jest-native` matchers or the old renderer (e.g. `useQuiz.test.js`) are updated and pass under the new setup
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 01-01: TBD
+- [ ] 01-01-PLAN.md — Tracer: install baseline, failing-first `renderHook` smoke test, then the package swap (RNTL 14.0.1 only, `setupFilesAfterEnv` key deleted)
+- [ ] 01-02-PLAN.md — Expansion: prove `render()` + RNTL v14's built-in matchers work with zero setup wiring
 
 ### Phase 2: FocusScreen Decomposition
 **Goal**: FocusScreen's business logic and UI are fully decomposed into a tested orchestration hook and named sub-components, with behavior and UI unchanged, establishing the extraction template for the remaining three screens
@@ -107,7 +108,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Test Infrastructure | 0/1 | Not started | - |
+| 1. Test Infrastructure | 0/2 | Planned | - |
 | 2. FocusScreen Decomposition | 0/1 | Not started | - |
 | 3. FriendsScreen Decomposition | 0/1 | Not started | - |
 | 4. QuizScreen Decomposition | 0/1 | Not started | - |
