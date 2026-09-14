@@ -31,7 +31,7 @@ Four of the app's largest, most tangled screens (`HomeScreen`, `QuizScreen`, `Fr
   2. `react-test-renderer@18.x` and `@testing-library/jest-native` no longer appear in `mobile/package.json`
   3. Existing tests that previously relied on `jest-native` matchers or the old renderer (e.g. `useQuiz.test.js`) are updated and pass under the new setup
 
-**Plans**: 1/2 plans executed
+**Plans**: 2/2 plans executed
 
 Plans:
 **Wave 1**
@@ -40,7 +40,7 @@ Plans:
 
 **Wave 2** *(blocked on Wave 1 completion)*
 
-- [ ] 01-02-PLAN.md — Expansion: prove `render()` + RNTL v14's built-in matchers work with zero setup wiring
+- [x] 01-02-PLAN.md — Expansion: prove `render()` + RNTL v14's built-in matchers work with zero setup wiring
 
 ### Phase 2: FocusScreen Decomposition
 
@@ -133,7 +133,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Test Infrastructure | 1/2 | In Progress|  |
+| 1. Test Infrastructure | 2/2 | In Progress|  |
 | 2. FocusScreen Decomposition | 0/1 | Not started | - |
 | 3. FriendsScreen Decomposition | 0/1 | Not started | - |
 | 4. QuizScreen Decomposition | 0/1 | Not started | - |
