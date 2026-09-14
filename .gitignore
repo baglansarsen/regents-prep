@@ -28,6 +28,7 @@ mobile/*.mobileprovision
 .claude/skills/*
 !.claude/skills/ship/
 !.claude/skills/fill-content/
+.planning/
 
 # OS
 .DS_Store
