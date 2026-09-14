@@ -80,43 +80,41 @@ Explicitly excluded. Documented to prevent scope creep on a mature, shipping app
 
 ## Traceability
 
-Populated during roadmap creation.
-
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| INFRA-01 | Pending | Pending |
-| FOCUS-01 | Pending | Pending |
-| FOCUS-02 | Pending | Pending |
-| FOCUS-03 | Pending | Pending |
-| FOCUS-04 | Pending | Pending |
-| FOCUS-05 | Pending | Pending |
-| FOCUS-06 | Pending | Pending |
-| FRIENDS-01 | Pending | Pending |
-| FRIENDS-02 | Pending | Pending |
-| FRIENDS-03 | Pending | Pending |
-| FRIENDS-04 | Pending | Pending |
-| FRIENDS-05 | Pending | Pending |
-| FRIENDS-06 | Pending | Pending |
-| QUIZ-01 | Pending | Pending |
-| QUIZ-02 | Pending | Pending |
-| QUIZ-03 | Pending | Pending |
-| QUIZ-04 | Pending | Pending |
-| QUIZ-05 | Pending | Pending |
-| QUIZ-06 | Pending | Pending |
-| QUIZ-07 | Pending | Pending |
-| HOME-01 | Pending | Pending |
-| HOME-02 | Pending | Pending |
-| HOME-03 | Pending | Pending |
-| HOME-04 | Pending | Pending |
-| HOME-05 | Pending | Pending |
-| HOME-06 | Pending | Pending |
-| HOME-07 | Pending | Pending |
+| INFRA-01 | Phase 1 | Pending |
+| FOCUS-01 | Phase 2 | Pending |
+| FOCUS-02 | Phase 2 | Pending |
+| FOCUS-03 | Phase 2 | Pending |
+| FOCUS-04 | Phase 2 | Pending |
+| FOCUS-05 | Phase 2 | Pending |
+| FOCUS-06 | Phase 2 | Pending |
+| FRIENDS-01 | Phase 3 | Pending |
+| FRIENDS-02 | Phase 3 | Pending |
+| FRIENDS-03 | Phase 3 | Pending |
+| FRIENDS-04 | Phase 3 | Pending |
+| FRIENDS-05 | Phase 3 | Pending |
+| FRIENDS-06 | Phase 3 | Pending |
+| QUIZ-01 | Phase 4 | Pending |
+| QUIZ-02 | Phase 4 | Pending |
+| QUIZ-03 | Phase 4 | Pending |
+| QUIZ-04 | Phase 4 | Pending |
+| QUIZ-05 | Phase 4 | Pending |
+| QUIZ-06 | Phase 4 | Pending |
+| QUIZ-07 | Phase 4 | Pending |
+| HOME-01 | Phase 5 | Pending |
+| HOME-02 | Phase 5 | Pending |
+| HOME-03 | Phase 5 | Pending |
+| HOME-04 | Phase 5 | Pending |
+| HOME-05 | Phase 5 | Pending |
+| HOME-06 | Phase 5 | Pending |
+| HOME-07 | Phase 5 | Pending |
 
 **Coverage:**
 - v1 requirements: 27 total
-- Mapped to phases: 0
-- Unmapped: 27 ⚠️ (resolved during roadmap creation)
+- Mapped to phases: 27
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-09-14*
-*Last updated: 2026-09-14 after initial definition*
+*Last updated: 2026-09-14 after roadmap creation*
