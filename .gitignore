@@ -43,3 +43,4 @@ Thumbs.db
 # Generated / cached artifacts
 graphify-out/
 scripts/pdf_cache/
+.planning/**/.cache/
