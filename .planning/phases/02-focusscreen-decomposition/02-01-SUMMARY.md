@@ -16,6 +16,7 @@ actuals:
   tokens: 17447
   tasks: 3
   commits: 4
+plan_head_before: aac73d002e465313d53356dac2d8756d7e0dee73
 tech-stack:
   added: []
   patterns:
@@ -117,7 +118,7 @@ status: complete
 2. **Task 2 (GREEN): Create useFocusScreenState, reduce the screen to one hook call** - `0d5065a6` (feat)
 3. **Task 3: Extract FocusDoneScreen as the first named sub-component** - `838808cf` (feat)
 
-**Plan metadata:** commit pending — SUMMARY.md + STATE.md/ROADMAP.md commit is created by the orchestrator in worktree mode (only SUMMARY.md is committed here per this dispatch's worktree instructions).
+**Plan metadata:** `a0da8fdb` (docs: add plan SUMMARY) — in worktree mode only `SUMMARY.md` is committed here; `STATE.md`/`ROADMAP.md` are updated centrally by the orchestrator after all wave agents complete.
 
 ## Files Created/Modified
 - `.planning/phases/02-focusscreen-decomposition/02-CHARACTERIZATION.md` - pre-extraction behavior baseline (8 required sections), the FOCUS-06 parity reference
