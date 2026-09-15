@@ -53,9 +53,10 @@ root [VERIFIED: `ls components.json tailwind.config.* postcss.config.* mobile/co
 
 Could not enumerate via package tooling: no installed component-library package exists (`Tool:
 none` above). Enumerated instead by `grep -nE "^export (function|const)" mobile/src/styles/duo.js
-mobile/src/theme.js` — 2026-09-15 — 9 exports — this is the project's actual internal
-design-system surface (hand-authored helpers, not a versioned package), so the list below is a
-non-exhaustive account of what exists today, not a closed allowlist.
+mobile/src/theme.js` — 9 exports — hand-authored; no package version applicable — 2026-09-15 —
+this is the project's actual internal design-system surface (hand-authored helpers, not a
+versioned package), so the list below is a non-exhaustive account of what exists today, not a
+closed allowlist.
 
 | Component | Import path | Notes |
 |-----------|-------------|-------|
@@ -163,6 +164,22 @@ outcome icon/text color — won/lost, distinct from the `Alert.alert` destructiv
 
 ---
 
+## Visual Hierarchy (Per-Tab Focal Points)
+
+Existing focal-point behavior per tab, transcribed from the current layout order and accent
+usage — **describing what the shipped screen already does, not proposing new hierarchy.**
+Extraction must preserve each tab's current first-glance order (component boundaries may change,
+render order/emphasis must not).
+
+| Tab | What draws the eye first (as currently rendered) |
+|-----|----------------------------------------------------|
+| LeaderboardTab | The Podium block (top-3, medal-colored avatars at 1/2/3 sizing) sits above the ranked list and renders first when `top3` is non-empty; within the podium and the rows below it, the current user's `lbRowSelf` border (`C.brand`) and name-color override are the next-strongest signal, distinguishing "you" from other ranked friends/classmates/league members |
+| FriendsTab | The incoming friend-request banner (`"{fromName} wants to be friends"` with ✓/✕ buttons) renders above the friend list whenever a pending request exists, interrupting the normal card list — this is the strongest attention pull on the tab; when no request is pending, the friend-code banner (`"Your Friend Code"` + `codeValue`, `letterSpacing: 3`) and the "➕ Add" CTA are the first fixed elements above the scrolling `friendCard` list |
+| BattlesTab | The "Your turn" section (pending incoming battle rows with a "Play" CTA) renders above the "Results" section whenever any battle is pending — action-required items are placed first; when no battle is pending, the empty-state block is the sole focal point |
+| ActivityTab | Each `feedRow` leads with a colored icon (`feedIconWrap`, `activityConfig`'s per-type accent color: amber for RP, purple for level-up, blue for quiz, cyan for exam, orange for speedround, red for streak, green for focus) — the color-coded icon is the first-glance differentiator down the reverse-chronological feed, not the row text |
+
+---
+
 ## Copywriting Contract
 
 Transcribed verbatim from `FriendsScreen.jsx` — extraction must not alter any of this copy
@@ -251,11 +268,27 @@ none`, confirmed above).
 ## Checker Sign-Off
 
 - [ ] Dimension 1 Copywriting: PASS
-- [ ] Dimension 2 Visuals: PASS
+- [ ] Dimension 2 Visuals: FLAG (non-blocking) — no new visual-hierarchy design; per-tab focal
+      points documented in the "Visual Hierarchy (Per-Tab Focal Points)" section above describe
+      existing behavior to preserve, not a proposal
 - [ ] Dimension 3 Color: PASS
-- [ ] Dimension 4 Typography: PASS
-- [ ] Dimension 5 Spacing: PASS
+- [ ] Dimension 4 Typography: PASS (parity-lock exception explicitly documented — see the
+      "Contract type: PARITY LOCK, not a redesign" banner at the top of this document and the
+      explicit norm-exceeds callout in the Typography section above; the full 9-size/4-weight set
+      transcribed from the shipped screen is the contract for this phase, not an unacknowledged
+      violation of the generic 3-4 size / 2 weight new-design norm)
+- [ ] Dimension 5 Spacing: PASS (parity-lock exception explicitly documented — same banner and the
+      explicit off-grid-values callout in the Spacing Scale section above; every listed exception
+      (10, 14, 6, 3, 9px, etc.) is a deliberate transcription of the shipped screen, to be
+      preserved verbatim during extraction, not rounded to the 8pt grid)
 - [ ] Dimension 6 Registry Safety: PASS
-- [ ] Dimension 7 Inventory Provenance: PASS
+- [ ] Dimension 7 Inventory Provenance: FLAG (non-blocking) — provenance line records command,
+      count, and date; `<package>@<version>` slot is explicitly marked "hand-authored; no package
+      version applicable" since this is a hand-rolled internal helper surface (`styles/duo.js` /
+      `theme.js`), not a versioned installed package
 
-**Approval:** pending
+**Approval:** pending — this revision (2026-09-15) resolves the prior BLOCK findings on
+Dimensions 4 and 5 by making the parity-lock exception explicit at the contract-approval level
+(this sign-off section), per the precedent set by `02-UI-SPEC.md` (approved 2026-09-14), and adds
+the Dimension 2 focal-point notes and Dimension 7 package/version clarification requested as
+non-blocking FLAGs. No transcribed spacing, typography, color, or copy value was changed.
