@@ -57,7 +57,7 @@ Plans:
   4. Every extracted hook has unit tests covering its state transitions, and every extracted sub-component has a render/snapshot test
   5. Manual verification confirms FocusScreen's behavior and UI still match the pre-extraction characterization notes
 
-**Plans**: 1/8 plans executed
+**Plans**: 3/8 plans executed
 
 Plans:
 **Wave 1**
@@ -66,8 +66,8 @@ Plans:
 
 **Wave 2** *(blocked on Wave 1)*
 
-- [ ] 02-02-PLAN.md — Active branch: `FocusActiveScreen` + `BigPetDisplay` extracted, screen rewired, interaction tests
-- [ ] 02-03-PLAN.md — Done widgets: `SessionSummaryStats` (render-only per D-01), `DoneActions`, `GoalCelebrationModal` + tests
+- [x] 02-02-PLAN.md — Active branch: `FocusActiveScreen` + `BigPetDisplay` extracted, screen rewired, interaction tests
+- [x] 02-03-PLAN.md — Done widgets: `SessionSummaryStats` (render-only per D-01), `DoneActions`, `GoalCelebrationModal` + tests
 
 **Wave 3** *(blocked on Wave 2)*
 
@@ -157,7 +157,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Test Infrastructure | 2/2 | Complete    | 2026-09-14 |
-| 2. FocusScreen Decomposition | 1/8 | In Progress|  |
+| 2. FocusScreen Decomposition | 3/8 | In Progress|  |
 | 3. FriendsScreen Decomposition | 0/1 | Not started | - |
 | 4. QuizScreen Decomposition | 0/1 | Not started | - |
 | 5. HomeScreen Decomposition | 0/1 | Not started | - |
