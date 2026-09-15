@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`two pomodoros with three partial minutes renders all four figures and matches snapshot 1`] = `
+<>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "gap": 12,
+        "marginTop": 8,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderRadius": 14,
+            "gap": 4,
+            "justifyContent": "center",
+            "paddingHorizontal": 18,
+            "paddingVertical": 14,
+          },
+          {
+            "backgroundColor": "#374151",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 22,
+          }
+        }
+      >
+        ⏱
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "fontSize": 20,
+              "fontWeight": "800",
+            },
+            {
+              "color": "#F9FAFB",
+            },
+          ]
+        }
+      >
+        53
+         min
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderRadius": 14,
+            "gap": 4,
+            "justifyContent": "center",
+            "paddingHorizontal": 18,
+            "paddingVertical": 14,
+          },
+          {
+            "backgroundColor": "#374151",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 22,
+          }
+        }
+      >
+        🍅
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "fontSize": 20,
+              "fontWeight": "800",
+            },
+            {
+              "color": "#F9FAFB",
+            },
+          ]
+        }
+      >
+        ×
+        2
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "fontSize": 11,
+              "fontWeight": "600",
+              "marginTop": 1,
+            },
+            {
+              "color": "#9CA3AF",
+            },
+          ]
+        }
+      >
+        +
+        3
+        m
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "borderRadius": 14,
+            "gap": 4,
+            "justifyContent": "center",
+            "paddingHorizontal": 18,
+            "paddingVertical": 14,
+          },
+          {
+            "backgroundColor": "#3A2A00",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 22,
+          }
+        }
+      >
+        ⭐
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "fontSize": 20,
+              "fontWeight": "800",
+            },
+            {
+              "color": "#FFC93C",
+            },
+          ]
+        }
+      >
+        +
+        30
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Nunito_600SemiBold",
+          "fontSize": 13,
+        },
+        {
+          "color": "#9CA3AF",
+          "marginTop": 4,
+        },
+      ]
+    }
+  >
+    ✓ 
+    1
+     / 
+    2
+     tasks done
+  </Text>
+</>
+`;
