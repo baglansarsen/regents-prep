@@ -10,6 +10,10 @@
  * parity lock). Pure presentation: all mutation happens via the callback
  * props supplied by useFocusScreenState. It takes only plain values and
  * callbacks — no screen routing prop of any kind reaches this component.
+ *
+ * The subject, session-length, and session-goal sections were extracted into
+ * named pickers by plan 02-06 (FOCUS-03/FOCUS-05); this container now
+ * composes them rather than inlining their JSX.
  */
 import React from 'react'
 import {
@@ -19,6 +23,9 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../../context/ThemeContext'
 import { T } from '../../styles/duo'
+import SubjectPicker from './SubjectPicker'
+import DurationPicker from './DurationPicker'
+import GoalPicker from './GoalPicker'
 
 export default function FocusSetupScreen({
   subjectChips,
@@ -80,85 +87,29 @@ export default function FocusSetupScreen({
           </View>
 
           {/* Subject */}
-          <Text style={[s.sectionLabel, { color: C.textMuted }]}>What are you studying?</Text>
-          <View style={s.chips}>
-            {subjectChips.map((chip) => {
-              const active = subject === chip.emoji + ' ' + chip.label
-              return (
-                <TouchableOpacity
-                  key={chip.id}
-                  style={[s.chip, active && { backgroundColor: C.brand, borderColor: C.brand }]}
-                  onPress={() => handleSubjectChip(chip)}
-                  activeOpacity={0.75}
-                >
-                  <Text style={s.chipEmoji}>{chip.emoji}</Text>
-                  <Text style={[s.chipText, { color: active ? '#fff' : C.text }]}>{chip.label}</Text>
-                </TouchableOpacity>
-              )
-            })}
-            <TouchableOpacity
-              style={[s.chip, showCustomInput && { backgroundColor: C.surface2, borderColor: C.brand }]}
-              onPress={showCustomSubjectInput}
-              activeOpacity={0.75}
-            >
-              <Text style={s.chipEmoji}>✏️</Text>
-              <Text style={[s.chipText, { color: C.text }]}>Other</Text>
-            </TouchableOpacity>
-          </View>
-
-          {showCustomInput && (
-            <View style={[s.customInputRow, { backgroundColor: C.surface2, borderColor: C.border }]}>
-              <TextInput
-                style={[s.customInput, { color: C.text }]}
-                placeholder="e.g. Piano practice, Drawing..."
-                placeholderTextColor={C.textMuted}
-                value={customSubject}
-                onChangeText={setCustomSubject}
-                onSubmitEditing={handleCustomSubject}
-                onBlur={handleCustomSubject}
-                returnKeyType="done"
-                autoFocus
-              />
-            </View>
-          )}
+          <SubjectPicker
+            chips={subjectChips}
+            subject={subject}
+            showCustomInput={showCustomInput}
+            customSubject={customSubject}
+            onSelectChip={handleSubjectChip}
+            onShowCustomInput={showCustomSubjectInput}
+            onCustomSubjectChange={setCustomSubject}
+            onCommitCustomSubject={handleCustomSubject}
+          />
 
           {/* Duration */}
-          <Text style={[s.sectionLabel, { color: C.textMuted }]}>Session length</Text>
-          <View style={s.presetRow}>
-            {presets.map((p) => {
-              const active = preset.id === p.id
-              return (
-                <TouchableOpacity
-                  key={p.id}
-                  style={[s.presetBtn, active && { backgroundColor: C.brand, borderColor: C.brand }]}
-                  onPress={() => setPreset(p)}
-                  activeOpacity={0.8}
-                >
-                  <Text style={[s.presetBtnText, { color: active ? '#fff' : C.text }]}>{p.label}</Text>
-                  <Text style={[s.presetBtnSub, { color: active ? 'rgba(255,255,255,0.7)' : C.textMuted }]}>
-                    {p.break}m break
-                  </Text>
-                </TouchableOpacity>
-              )
-            })}
-          </View>
+          <DurationPicker
+            presets={presets}
+            preset={preset}
+            onSelectPreset={setPreset}
+          />
 
           {/* Session Goal */}
-          <Text style={[s.sectionLabel, { color: C.textMuted }]}>Session goal</Text>
-          <View style={s.goalChips}>
-            {[0, 1, 2, 3, 4, 5].map(n => (
-              <TouchableOpacity
-                key={n}
-                onPress={() => setSessionGoal(n)}
-                style={[s.goalChip, sessionGoal === n && { backgroundColor: C.brand, borderColor: C.brand }]}
-                activeOpacity={0.75}
-              >
-                <Text style={[s.goalChipText, { color: sessionGoal === n ? '#fff' : C.text }]}>
-                  {n === 0 ? 'None' : `${n} 🍅`}
-                </Text>
-              </TouchableOpacity>
-            ))}
-          </View>
+          <GoalPicker
+            sessionGoal={sessionGoal}
+            onSelectGoal={setSessionGoal}
+          />
 
           {/* Tasks */}
           <Text style={[s.sectionLabel, { color: C.textMuted }]}>Tasks <Text style={{ fontWeight: '400', fontSize: 12 }}>(optional)</Text></Text>
@@ -277,39 +228,6 @@ function makeStyles(C) {
     },
     chipEmoji: { fontSize: 16 },
     chipText:  { fontSize: 13, fontWeight: '600' },
-
-    customInputRow: {
-      marginTop: 10,
-      borderRadius: 12,
-      borderWidth: 1.5,
-      paddingHorizontal: 14,
-      paddingVertical: 10,
-    },
-    customInput: { fontSize: 14 },
-
-    presetRow:     { flexDirection: 'row', gap: 10 },
-    presetBtn: {
-      flex: 1,
-      alignItems:      'center',
-      paddingVertical:  14,
-      borderRadius:    14,
-      borderWidth:     1.5,
-      borderColor:     C.border,
-      backgroundColor: C.surface,
-    },
-    presetBtnText:  { fontSize: 16, fontWeight: '800' },
-    presetBtnSub:   { fontSize: 11, marginTop: 2 },
-
-    goalChips: { flexDirection: 'row', gap: 8, flexWrap: 'wrap', marginBottom: 8 },
-    goalChip: {
-      paddingHorizontal: 12,
-      paddingVertical: 8,
-      borderRadius: 20,
-      borderWidth: 1.5,
-      borderColor: C.border,
-      backgroundColor: C.surface,
-    },
-    goalChipText: { fontSize: 13, fontWeight: '600' },
 
     todoInputRow: {
       flexDirection:    'row',
