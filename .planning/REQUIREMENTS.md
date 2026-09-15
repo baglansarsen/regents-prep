@@ -13,12 +13,12 @@ Requirements for this refactor initiative. Each maps to one roadmap phase (one p
 
 ### FocusScreen
 
-- [ ] **FOCUS-01**: Pre-extraction characterization notes capture FocusScreen's current filter, search, and empty-category behavior
-- [ ] **FOCUS-02**: FocusScreen's business logic is extracted into a `useFocusScreenState` orchestration hook; the screen is reduced to calling the hook and rendering
-- [ ] **FOCUS-03**: FocusScreen's UI is decomposed into named sub-components under `components/FocusScreen/`
-- [ ] **FOCUS-04**: Every hook extracted from FocusScreen has unit tests covering its state transitions
-- [ ] **FOCUS-05**: Every sub-component extracted from FocusScreen has a render/snapshot test
-- [ ] **FOCUS-06**: FocusScreen's manually-verified behavior/UI matches its pre-extraction characterization notes
+- [x] **FOCUS-01**: Pre-extraction characterization notes capture FocusScreen's current filter, search, and empty-category behavior
+- [x] **FOCUS-02**: FocusScreen's business logic is extracted into a `useFocusScreenState` orchestration hook; the screen is reduced to calling the hook and rendering
+- [x] **FOCUS-03**: FocusScreen's UI is decomposed into named sub-components under `components/FocusScreen/`
+- [x] **FOCUS-04**: Every hook extracted from FocusScreen has unit tests covering its state transitions
+- [x] **FOCUS-05**: Every sub-component extracted from FocusScreen has a render/snapshot test
+- [ ] **FOCUS-06**: FocusScreen's manually-verified behavior/UI matches its pre-extraction characterization notes (left open — manual pass could not be exercised in the worktree-isolated executor environment; see `02-08-SUMMARY.md`)
 
 ### FriendsScreen
 
@@ -83,12 +83,12 @@ Explicitly excluded. Documented to prevent scope creep on a mature, shipping app
 | Requirement | Phase | Status |
 |-------------|-------|--------|
 | INFRA-01 | Phase 1 | Complete |
-| FOCUS-01 | Phase 2 | Pending |
-| FOCUS-02 | Phase 2 | Pending |
-| FOCUS-03 | Phase 2 | Pending |
-| FOCUS-04 | Phase 2 | Pending |
-| FOCUS-05 | Phase 2 | Pending |
-| FOCUS-06 | Phase 2 | Pending |
+| FOCUS-01 | Phase 2 | Complete |
+| FOCUS-02 | Phase 2 | Complete |
+| FOCUS-03 | Phase 2 | Complete |
+| FOCUS-04 | Phase 2 | Complete |
+| FOCUS-05 | Phase 2 | Complete |
+| FOCUS-06 | Phase 2 | Pending (manual pass unrun) |
 | FRIENDS-01 | Phase 3 | Pending |
 | FRIENDS-02 | Phase 3 | Pending |
 | FRIENDS-03 | Phase 3 | Pending |
