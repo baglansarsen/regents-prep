@@ -1,97 +1,17 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView,
-  TextInput, StyleSheet, Animated, KeyboardAvoidingView, Platform,
-  useWindowDimensions,
+  TextInput, StyleSheet, KeyboardAvoidingView, Platform,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
-import { PETS_ENABLED } from '../config/features'
 import { useFocusScreenState, BACKGROUNDS } from '../hooks/useFocusScreenState'
 import FocusDoneScreen from '../components/FocusScreen/FocusDoneScreen'
-import FocusTimerRing from '../components/FocusTimerRing'
-import RiveDemo from '../components/RiveDemo'
-import { T, cardShadow, duoBtn } from '../styles/duo'
-
-// ── BigPet: large centered pet with bounce + speech bubble ───────────────────
-function BigPet({ pet, message, onPress }) {
-  const { C } = useTheme()
-  const config = require('../data/petConfig').PETS.find((p) => p.id === pet?.petType)
-  const bounceY  = useRef(new Animated.Value(0)).current
-  const scaleAnim = useRef(new Animated.Value(1)).current
-  const [bubble, setBubble] = useState(null)
-  const bubbleOpacity = useRef(new Animated.Value(0)).current
-
-  useEffect(() => {
-    const float = Animated.loop(Animated.sequence([
-      Animated.timing(bounceY, { toValue: -8, duration: 1600, useNativeDriver: true }),
-      Animated.timing(bounceY, { toValue: 0,  duration: 1600, useNativeDriver: true }),
-    ]))
-    float.start()
-    return () => float.stop()
-  }, [])
-
-  useEffect(() => {
-    if (!message) return
-    setBubble(message)
-    bubbleOpacity.setValue(0)
-    Animated.sequence([
-      Animated.timing(bubbleOpacity, { toValue: 1, duration: 250, useNativeDriver: true }),
-      Animated.delay(2800),
-      Animated.timing(bubbleOpacity, { toValue: 0, duration: 350, useNativeDriver: true }),
-    ]).start(() => setBubble(null))
-  }, [message])
-
-  if (!config) return null
-
-  const accessories = pet.accessories ?? []
-  const hat = accessories.includes('graduationCap') ? '🎓'
-            : accessories.includes('wizardHat')     ? '🧙'
-            : accessories.includes('cowboyHat')     ? '🤠'
-            : accessories.includes('crown')         ? '👑' : null
-
-  return (
-    <View style={{ alignItems: 'center' }}>
-      {bubble && (
-        <Animated.View style={{
-          opacity: bubbleOpacity,
-          backgroundColor: 'rgba(255,255,255,0.92)',
-          borderRadius: 16,
-          paddingHorizontal: 16,
-          paddingVertical: 10,
-          marginBottom: 10,
-          maxWidth: 220,
-          shadowColor: '#000',
-          shadowOffset: { width: 0, height: 2 },
-          shadowOpacity: 0.12,
-          shadowRadius: 6,
-          elevation: 4,
-        }}>
-          <Text style={{ fontSize: 14, fontWeight: '700', color: '#1f2937', textAlign: 'center' }}>{bubble}</Text>
-        </Animated.View>
-      )}
-      <TouchableOpacity activeOpacity={0.85} onPress={onPress}>
-        <Animated.View style={{
-          transform: [{ translateY: bounceY }, { scale: scaleAnim }],
-          alignItems: 'center',
-          justifyContent: 'center',
-          width: 110,
-          height: 110,
-        }}>
-          {hat && <Text style={{ position: 'absolute', top: -8, left: 18, fontSize: 28, zIndex: 2 }}>{hat}</Text>}
-          <Text style={{ fontSize: 88 }}>{config.emoji}</Text>
-          {accessories.includes('sunglasses') && (
-            <Text style={{ position: 'absolute', top: 22, left: 22, fontSize: 22 }}>🕶️</Text>
-          )}
-        </Animated.View>
-      </TouchableOpacity>
-    </View>
-  )
-}
+import FocusActiveScreen from '../components/FocusScreen/FocusActiveScreen'
+import { T } from '../styles/duo'
 
 export default function FocusScreen({ navigation }) {
   const { C } = useTheme()
-  const { width: screenWidth } = useWindowDimensions()
 
   const {
     phase, secondsLeft, progress, pomodoroCount, sessionRP, partialMinutes, cyclePosition,
@@ -134,147 +54,27 @@ export default function FocusScreen({ navigation }) {
 
   // ── ACTIVE screen (focus / break / paused) ─────────────────────────────────
   if (isActive) {
-    const bg = background
-    const isBreak = phase === 'break'
-    const textColor = (bg.id === 'night' || bg.id === 'space') ? '#fff' : '#1f2937'
-    const mutedColor = (bg.id === 'night' || bg.id === 'space') ? 'rgba(255,255,255,0.6)' : 'rgba(0,0,0,0.45)'
-    const ringColor = bg.accent
-
     return (
-      <View style={{ flex: 1, backgroundColor: bg.top }}>
-        {/* Gradient-style background — two-tone vertical split */}
-        <View style={StyleSheet.absoluteFill}>
-          <View style={{ flex: 1, backgroundColor: bg.top }} />
-          <View style={{ flex: 1, backgroundColor: bg.bottom }} />
-        </View>
-
-        <SafeAreaView style={{ flex: 1 }} edges={['bottom']}>
-          {/* Top bar */}
-          <View style={s.activeHeader}>
-            <TouchableOpacity
-              style={[s.stopBtn, { backgroundColor: 'rgba(0,0,0,0.15)' }]}
-              onPress={confirmStopAndGoBack}
-              activeOpacity={0.8}
-              hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
-            >
-              <Text style={[s.stopBtnText, { color: textColor }]}>✕</Text>
-            </TouchableOpacity>
-            <View style={{ flex: 1, alignItems: 'center' }}>
-              {subject ? (
-                <Text style={[s.activeSubject, { color: mutedColor }]}>{subject}</Text>
-              ) : null}
-              {sessionGoal > 0 ? (
-                <Text style={{ fontSize: 18, marginTop: 2, fontWeight: '700', color: textColor }}>
-                  {pomodoroCount}/{sessionGoal} 🍅
-                </Text>
-              ) : pomodoroCount > 0 ? (
-                <Text style={{ fontSize: 18, marginTop: 2 }}>{'🍅'.repeat(Math.min(pomodoroCount, 8))}</Text>
-              ) : null}
-            </View>
-            <TouchableOpacity
-              style={[s.stopBtn, { backgroundColor: 'rgba(0,0,0,0.15)' }]}
-              onPress={stop}
-              activeOpacity={0.8}
-            >
-              <Text style={[s.stopBtnText, { color: textColor }]}>■ Stop</Text>
-            </TouchableOpacity>
-          </View>
-
-          {/* Big centered pet (hidden while pets are disabled — the floating
-              Reggie companion above already covers the buddy presence) */}
-          {PETS_ENABLED && pet?.chosen && (
-            <View style={s.bigPetArea}>
-              <BigPet pet={pet} message={buddyMessage} onPress={clearBuddyMessage} />
-            </View>
-          )}
-
-          {/* Pomodoro cycle dots */}
-          <View style={{ flexDirection: 'row', gap: 8, justifyContent: 'center', marginBottom: 12 }}>
-            {[0, 1, 2, 3].map(i => (
-              <View key={i} style={{
-                width: 12, height: 12, borderRadius: 6,
-                backgroundColor: i < cyclePosition ? ringColor
-                  : i === cyclePosition ? ringColor + '60'
-                  : 'rgba(0,0,0,0.2)'
-              }} />
-            ))}
-          </View>
-
-          {/* Rive demo buddy — testing the Rive runtime in Focus Mode */}
-          <View style={{ alignItems: 'center', marginBottom: 4 }}>
-            <RiveDemo size={Math.min(screenWidth * 0.5, 200)} />
-          </View>
-
-          {/* Timer ring */}
-          <View style={s.ringArea}>
-            <FocusTimerRing
-              progress={progress}
-              secondsLeft={secondsLeft}
-              phase={phase}
-              size={Math.min(screenWidth * 0.58, 240)}
-              color={ringColor}
-              textColor={textColor}
-            />
-          </View>
-
-          {/* Controls */}
-          <View style={s.timerControls}>
-            {phase === 'paused' ? (
-              <TouchableOpacity
-                style={[s.controlBtn, { backgroundColor: bg.accent }]}
-                onPress={resume}
-                activeOpacity={0.85}
-              >
-                <Text style={[s.controlBtnText, { color: '#fff' }]}>▶ Resume</Text>
-              </TouchableOpacity>
-            ) : (
-              <TouchableOpacity
-                style={[s.controlBtn, { backgroundColor: 'rgba(0,0,0,0.15)' }]}
-                onPress={pause}
-                activeOpacity={0.85}
-              >
-                <Text style={[s.controlBtnText, { color: textColor }]}>⏸ Pause</Text>
-              </TouchableOpacity>
-            )}
-            <TouchableOpacity
-              style={[s.controlBtn, { backgroundColor: 'rgba(0,0,0,0.12)' }]}
-              onPress={skip}
-              activeOpacity={0.85}
-            >
-              <Text style={[s.controlBtnText, { color: mutedColor }]}>
-                {isBreak ? '⏭ Skip break' : '⏭ Skip'}
-              </Text>
-            </TouchableOpacity>
-          </View>
-
-          {/* Tasks */}
-          {todos.length > 0 && (
-            <ScrollView style={s.activeTodos} showsVerticalScrollIndicator={false}>
-              {todos.map((t) => (
-                <TouchableOpacity
-                  key={t.id}
-                  style={s.todoRow}
-                  onPress={() => toggleTodo(t.id)}
-                  activeOpacity={0.7}
-                >
-                  <View style={[s.todoCheck, {
-                    borderColor: t.done ? bg.accent : 'rgba(255,255,255,0.5)',
-                    backgroundColor: t.done ? bg.accent : 'transparent',
-                  }]}>
-                    {t.done && <Text style={{ color: '#fff', fontSize: 11, fontWeight: '700' }}>✓</Text>}
-                  </View>
-                  <Text style={[s.todoText, {
-                    color: t.done ? mutedColor : textColor,
-                    textDecorationLine: t.done ? 'line-through' : 'none',
-                  }]}>
-                    {t.text}
-                  </Text>
-                </TouchableOpacity>
-              ))}
-            </ScrollView>
-          )}
-        </SafeAreaView>
-      </View>
+      <FocusActiveScreen
+        phase={phase}
+        secondsLeft={secondsLeft}
+        progress={progress}
+        pomodoroCount={pomodoroCount}
+        sessionGoal={sessionGoal}
+        cyclePosition={cyclePosition}
+        subject={subject}
+        background={background}
+        todos={todos}
+        pet={pet}
+        buddyMessage={buddyMessage}
+        pause={pause}
+        resume={resume}
+        skip={skip}
+        stop={stop}
+        confirmStopAndGoBack={confirmStopAndGoBack}
+        toggleTodo={toggleTodo}
+        clearBuddyMessage={clearBuddyMessage}
+      />
     )
   }
 
@@ -574,46 +374,6 @@ function makeStyles(C) {
     startBtnText: { color: '#fff', fontSize: 17, fontWeight: '800', letterSpacing: 0.3 },
     historyLink:  { alignItems: 'center', paddingTop: 16 },
 
-    // Active session
-    activeHeader: {
-      flexDirection:     'row',
-      alignItems:        'center',
-      paddingHorizontal: 20,
-      paddingTop:        12,
-      paddingBottom:     4,
-    },
-    activeSubject:  { fontSize: 15, fontWeight: '700' },
-    stopBtn: {
-      borderRadius:      12,
-      paddingHorizontal: 16,
-      paddingVertical:   8,
-    },
-    stopBtnText: { fontSize: 14, fontWeight: '700' },
-    bigPetArea: {
-      alignItems:     'center',
-      justifyContent: 'flex-end',
-      paddingTop:      8,
-      paddingBottom:   4,
-    },
-    ringArea: { alignItems: 'center', justifyContent: 'center', paddingVertical: 8 },
-    timerControls: {
-      flexDirection:     'row',
-      gap:               12,
-      paddingHorizontal: 20,
-      paddingVertical:   12,
-    },
-    controlBtn: {
-      flex:           1,
-      borderRadius:   14,
-      paddingVertical: 13,
-      alignItems:     'center',
-    },
-    controlBtnText: { fontSize: 14, fontWeight: '700' },
-    activeTodos: {
-      maxHeight:         160,
-      paddingHorizontal: 20,
-      marginBottom:      8,
-    },
     // Background picker
     bgRow:   { flexDirection: 'row', gap: 10, flexWrap: 'wrap' },
     bgSwatch: {
