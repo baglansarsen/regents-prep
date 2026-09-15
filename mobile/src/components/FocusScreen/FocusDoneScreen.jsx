@@ -1,17 +1,24 @@
 /**
  * FocusDoneScreen — the done-phase container for FocusScreen.
  *
- * First named sub-component under components/FocusScreen/ (FOCUS-03). Renders
- * the JSX that used to be FocusScreen.jsx's inline "done" branch, unchanged —
- * every copy string, style key, and numeric value carried over verbatim
- * (UI-SPEC parity lock). Pure presentation: all mutation happens via the
+ * First named sub-component under components/FocusScreen/ (FOCUS-03). Now
+ * composes three extracted widgets — SessionSummaryStats, DoneActions, and
+ * GoalCelebrationModal (02-03-PLAN.md) — instead of inlining their JSX. The
+ * container still owns the close control, the scroll wrapper, the done
+ * emoji, and the subject badge, and still computes the displayed minute
+ * total and done/total task counts (that computation stayed where the
+ * screen always did it — moving it would be a behavior-location change,
+ * not a structural one). Pure presentation: all mutation happens via the
  * callback props supplied by useFocusScreenState.
  */
 import React from 'react'
-import { View, Text, TouchableOpacity, ScrollView, StyleSheet, Modal } from 'react-native'
+import { View, Text, TouchableOpacity, ScrollView, StyleSheet } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../../context/ThemeContext'
 import StudyBuddyCompanion from '../StudyBuddyCompanion'
+import SessionSummaryStats from './SessionSummaryStats'
+import DoneActions from './DoneActions'
+import GoalCelebrationModal from './GoalCelebrationModal'
 import { T } from '../../styles/duo'
 
 export default function FocusDoneScreen({
@@ -57,54 +64,16 @@ export default function FocusDoneScreen({
           </View>
         ) : null}
 
-        <View style={s.doneSummary}>
-          <View style={[s.doneStat, { backgroundColor: C.surface2 }]}>
-            <Text style={s.doneStatEmoji}>⏱</Text>
-            <Text style={[s.doneStatVal, { color: C.text }]}>{displayMin} min</Text>
-          </View>
-          {pomodoroCount > 0 && (
-            <View style={[s.doneStat, { backgroundColor: C.surface2 }]}>
-              <Text style={s.doneStatEmoji}>🍅</Text>
-              <Text style={[s.doneStatVal, { color: C.text }]}>×{pomodoroCount}</Text>
-              {partialMinutes > 0 && (
-                <Text style={[s.doneStatSub, { color: C.textMuted }]}>+{partialMinutes}m</Text>
-              )}
-            </View>
-          )}
-          {pomodoroCount === 0 && partialMinutes > 0 && (
-            <View style={[s.doneStat, { backgroundColor: C.warnBg }]}>
-              <Text style={s.doneStatEmoji}>⏳</Text>
-              <Text style={[s.doneStatVal, { color: C.warn }]}>{partialMinutes}m</Text>
-              <Text style={[s.doneStatSub, { color: C.warn }]}>partial</Text>
-            </View>
-          )}
-          <View style={[s.doneStat, { backgroundColor: C.warnBg }]}>
-            <Text style={s.doneStatEmoji}>⭐</Text>
-            <Text style={[s.doneStatVal, { color: C.warn }]}>+{sessionRP}</Text>
-          </View>
-        </View>
+        <SessionSummaryStats
+          displayMin={displayMin}
+          pomodoroCount={pomodoroCount}
+          partialMinutes={partialMinutes}
+          sessionRP={sessionRP}
+          doneTaskCount={doneTodos}
+          totalTaskCount={totalTodos}
+        />
 
-        {totalTodos > 0 && (
-          <Text style={[T.small, { color: C.textMuted, marginTop: 4 }]}>
-            ✓ {doneTodos} / {totalTodos} tasks done
-          </Text>
-        )}
-
-        <TouchableOpacity
-          style={[s.primaryBtn, { backgroundColor: C.brand }]}
-          onPress={reset}
-          activeOpacity={0.85}
-        >
-          <Text style={s.primaryBtnText}>New Session</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          style={[s.secondaryBtn, { backgroundColor: C.surface2 }]}
-          onPress={openHistory}
-          activeOpacity={0.85}
-        >
-          <Text style={[s.secondaryBtnText, { color: C.textMuted }]}>View History</Text>
-        </TouchableOpacity>
+        <DoneActions onNewSession={reset} onViewHistory={openHistory} />
       </ScrollView>
 
       {pet?.chosen && (
@@ -116,27 +85,12 @@ export default function FocusDoneScreen({
         />
       )}
 
-      {/* Session goal celebration modal */}
-      <Modal transparent visible={goalCelebModal} animationType="fade" onRequestClose={dismissGoalCeleb}>
-        <View style={[s.modalBackdrop, { backgroundColor: 'rgba(0,0,0,0.5)' }]}>
-          <View style={[s.modalCard, { backgroundColor: C.surface }]}>
-            <Text style={{ fontSize: 64, textAlign: 'center' }}>🎯</Text>
-            <Text style={[T.h2, { color: C.text, textAlign: 'center', marginTop: 8 }]}>Session Goal Reached!</Text>
-            <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 4 }]}>{sessionGoal} pomodoro{sessionGoal !== 1 ? 's' : ''} completed</Text>
-            <View style={{ backgroundColor: C.brand + '20', borderRadius: 12, padding: 12, marginTop: 16, alignItems: 'center' }}>
-              <Text style={{ fontSize: 36 }}>🐾</Text>
-              <Text style={[T.label, { color: C.brand, marginTop: 4, textAlign: 'center' }]}>+8 Happiness bonus for {pet?.name}!</Text>
-            </View>
-            <TouchableOpacity
-              style={[s.goalCelebBtn, { backgroundColor: C.brand }]}
-              onPress={dismissGoalCeleb}
-              activeOpacity={0.85}
-            >
-              <Text style={[T.btn, { color: '#FFF' }]}>Keep Studying! 🚀</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
-      </Modal>
+      <GoalCelebrationModal
+        visible={goalCelebModal}
+        sessionGoal={sessionGoal}
+        petName={pet?.name}
+        onDismiss={dismissGoalCeleb}
+      />
     </SafeAreaView>
   )
 }
@@ -159,58 +113,5 @@ function makeStyles(C) {
 
     doneScroll:  { alignItems: 'center', paddingHorizontal: 28, paddingTop: 40, gap: 14 },
     doneEmoji:   { fontSize: 64 },
-    doneSummary: { flexDirection: 'row', gap: 12, marginTop: 8 },
-    doneStat: {
-      alignItems:       'center',
-      justifyContent:   'center',
-      borderRadius:     14,
-      paddingHorizontal: 18,
-      paddingVertical:   14,
-      gap:               4,
-    },
-    doneStatEmoji: { fontSize: 22 },
-    doneStatVal:   { fontSize: 20, fontWeight: '800' },
-    doneStatSub:   { fontSize: 11, fontWeight: '600', marginTop: 1 },
-    primaryBtn: {
-      width:          '100%',
-      borderRadius:    16,
-      paddingVertical:  16,
-      alignItems:      'center',
-      marginTop:        8,
-    },
-    primaryBtnText:  { color: '#fff', fontSize: 16, fontWeight: '800' },
-    secondaryBtn: {
-      width:          '100%',
-      borderRadius:    16,
-      paddingVertical:  14,
-      alignItems:      'center',
-    },
-    secondaryBtnText: { fontSize: 15, fontWeight: '600' },
-
-    // Modal
-    modalBackdrop: {
-      flex: 1,
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-    modalCard: {
-      borderRadius: 24,
-      padding: 28,
-      width: '80%',
-      maxWidth: 340,
-      alignItems: 'center',
-      shadowColor: '#000',
-      shadowOffset: { width: 0, height: 8 },
-      shadowOpacity: 0.15,
-      shadowRadius: 12,
-      elevation: 10,
-    },
-    goalCelebBtn: {
-      width: '100%',
-      borderRadius: 12,
-      paddingVertical: 14,
-      alignItems: 'center',
-      marginTop: 20,
-    },
   })
 }
