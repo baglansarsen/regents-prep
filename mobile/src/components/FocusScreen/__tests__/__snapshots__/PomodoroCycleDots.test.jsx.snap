@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`at cycle position two, renders four dots and the tree matches a committed snapshot: two solid, one partial, one neutral 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+      "gap": 8,
+      "justifyContent": "center",
+      "marginBottom": 12,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "borderRadius": 6,
+          "height": 12,
+          "width": 12,
+        },
+        {
+          "backgroundColor": "#F59E0B",
+        },
+      ]
+    }
+    testID="cycle-dot-0"
+  />
+  <View
+    style={
+      [
+        {
+          "borderRadius": 6,
+          "height": 12,
+          "width": 12,
+        },
+        {
+          "backgroundColor": "#F59E0B",
+        },
+      ]
+    }
+    testID="cycle-dot-1"
+  />
+  <View
+    style={
+      [
+        {
+          "borderRadius": 6,
+          "height": 12,
+          "width": 12,
+        },
+        {
+          "backgroundColor": "#F59E0B60",
+        },
+      ]
+    }
+    testID="cycle-dot-2"
+  />
+  <View
+    style={
+      [
+        {
+          "borderRadius": 6,
+          "height": 12,
+          "width": 12,
+        },
+        {
+          "backgroundColor": "rgba(0,0,0,0.2)",
+        },
+      ]
+    }
+    testID="cycle-dot-3"
+  />
+</View>
+`;
