@@ -101,11 +101,37 @@ Plans:
   4. Every extracted hook has unit tests covering its state transitions, and every extracted sub-component has a render/snapshot test
   5. Manual verification confirms FriendsScreen's behavior and UI still match the pre-extraction characterization notes
 
-**Plans**: TBD
+**Plans**: 11 plans
 
 Plans:
+**Wave 1**
 
-- [ ] 03-01: TBD
+- [ ] 03-01-PLAN.md — Tracer: characterization baseline, `useFriendsScreenState` wrapping all 5 domain hooks, screen reduced to one hook call, `ActivityTab` + `EmptyState` extracted, hook + component tests
+
+**Wave 2** *(blocked on Wave 1)*
+
+- [ ] 03-02-PLAN.md — Verbatim relocation of `Avatar`, `Podium`, `RankRow` and the medal table (D-05), screen rewired
+- [ ] 03-06-PLAN.md — Activity split: `ActivityRow` extracted, derivation kept in the container
+
+**Wave 3** *(blocked on Wave 2)*
+
+- [ ] 03-03-PLAN.md — `LeaderboardTab` extracted whole (mode segment + all three mode bodies inline), screen rewired
+
+**Wave 4** *(blocked on Wave 3)*
+
+- [ ] 03-04-PLAN.md — `FriendsTab` + `BattlesTab` extracted, screen holds no tab-body JSX
+- [ ] 03-07-PLAN.md — Leaderboard split A: `LeaderboardModeToggle` + `FriendsLeaderboard`
+
+**Wave 5** *(blocked on Wave 4)*
+
+- [ ] 03-05-PLAN.md — Shell chrome: `FriendRequestBanner`, `IncomingBattleBanner`, `FriendsTabBar`; screen reaches final form (FRIENDS-02 closed)
+- [ ] 03-08-PLAN.md — Leaderboard split B: `SchoolLeaderboard`, `SchoolRankRow`, `SchoolPickerPrompt`, `LeagueLeaderboard`, `LeagueRankRow`
+- [ ] 03-09-PLAN.md — Friends split: `FriendCodeBanner` + `FriendCard`
+- [ ] 03-10-PLAN.md — Battles split: `PendingBattleRow` + `CompletedBattleRow`, kept deliberately separate
+
+**Wave 6** *(blocked on Wave 5)*
+
+- [ ] 03-11-PLAN.md — Phase close: pairing/tier/purity/untouched gates, FRIENDS-06 parity pass, `03-EXTRACTION-NOTES.md` for Phases 4-5
 
 ### Phase 4: QuizScreen Decomposition
 
@@ -158,6 +184,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 |-------|----------------|--------|-----------|
 | 1. Test Infrastructure | 2/2 | Complete    | 2026-09-14 |
 | 2. FocusScreen Decomposition | 8/8 | In Progress|  |
-| 3. FriendsScreen Decomposition | 0/1 | Not started | - |
+| 3. FriendsScreen Decomposition | 0/11 | Planned | - |
 | 4. QuizScreen Decomposition | 0/1 | Not started | - |
 | 5. HomeScreen Decomposition | 0/1 | Not started | - |
