@@ -1,7 +1,7 @@
 ---
 phase: "2"
 slug: "focusscreen-decomposition"
-status: draft
+status: approved
 shadcn_initialized: false
 preset: none
 created: "2026-09-14"
@@ -206,12 +206,12 @@ none`, confirmed above).
 
 ## Checker Sign-Off
 
-- [ ] Dimension 1 Copywriting: PASS
-- [ ] Dimension 2 Visuals: PASS
-- [ ] Dimension 3 Color: PASS
-- [ ] Dimension 4 Typography: PASS
-- [ ] Dimension 5 Spacing: PASS
-- [ ] Dimension 6 Registry Safety: PASS
-- [ ] Dimension 7 Inventory Provenance: PASS
+- [x] Dimension 1 Copywriting: PASS
+- [x] Dimension 2 Visuals: FLAG (non-blocking) — no explicit focal-point/visual-hierarchy section; executor may reference `FocusScreen.jsx` source directly for visual structure
+- [x] Dimension 3 Color: PASS
+- [x] Dimension 4 Typography: PASS (parity-lock exception explicitly documented)
+- [x] Dimension 5 Spacing: PASS (parity-lock exception explicitly documented)
+- [x] Dimension 6 Registry Safety: PASS
+- [x] Dimension 7 Inventory Provenance: FLAG (non-blocking) — provenance line records command + date but not component count
 
-**Approval:** pending
+**Approval:** approved (5 PASS, 2 non-blocking FLAG) — 2026-09-14, gsd-ui-checker
