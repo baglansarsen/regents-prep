@@ -57,7 +57,7 @@ Plans:
   4. Every extracted hook has unit tests covering its state transitions, and every extracted sub-component has a render/snapshot test
   5. Manual verification confirms FocusScreen's behavior and UI still match the pre-extraction characterization notes
 
-**Plans**: 5/8 plans executed
+**Plans**: 6/8 plans executed
 
 Plans:
 **Wave 1**
@@ -76,7 +76,7 @@ Plans:
 
 **Wave 4** *(blocked on Wave 3)*
 
-- [ ] 02-06-PLAN.md — Setup widgets A: `SubjectPicker`, `DurationPicker`, `GoalPicker` + interaction tests
+- [x] 02-06-PLAN.md — Setup widgets A: `SubjectPicker`, `DurationPicker`, `GoalPicker` + interaction tests
 
 **Wave 5** *(blocked on Wave 4)*
 
@@ -157,7 +157,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Test Infrastructure | 2/2 | Complete    | 2026-09-14 |
-| 2. FocusScreen Decomposition | 5/8 | In Progress|  |
+| 2. FocusScreen Decomposition | 6/8 | In Progress|  |
 | 3. FriendsScreen Decomposition | 0/1 | Not started | - |
 | 4. QuizScreen Decomposition | 0/1 | Not started | - |
 | 5. HomeScreen Decomposition | 0/1 | Not started | - |
