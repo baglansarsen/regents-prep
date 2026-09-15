@@ -18,12 +18,16 @@
  * theme-parameterized factory.
  */
 import React from 'react'
-import { View, Text, TouchableOpacity, ScrollView, StyleSheet, useWindowDimensions } from 'react-native'
+import { View, StyleSheet, useWindowDimensions } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { PETS_ENABLED } from '../../config/features'
 import FocusTimerRing from '../FocusTimerRing'
 import RiveDemo from '../RiveDemo'
 import BigPetDisplay from './BigPetDisplay'
+import ActiveSessionHeader from './ActiveSessionHeader'
+import PomodoroCycleDots from './PomodoroCycleDots'
+import TimerControls from './TimerControls'
+import ActiveTaskList from './ActiveTaskList'
 
 export default function FocusActiveScreen({
   phase,
@@ -63,35 +67,15 @@ export default function FocusActiveScreen({
 
       <SafeAreaView style={{ flex: 1 }} edges={['bottom']}>
         {/* Top bar */}
-        <View style={s.activeHeader}>
-          <TouchableOpacity
-            style={[s.stopBtn, { backgroundColor: 'rgba(0,0,0,0.15)' }]}
-            onPress={confirmStopAndGoBack}
-            activeOpacity={0.8}
-            hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
-          >
-            <Text style={[s.stopBtnText, { color: textColor }]}>✕</Text>
-          </TouchableOpacity>
-          <View style={{ flex: 1, alignItems: 'center' }}>
-            {subject ? (
-              <Text style={[s.activeSubject, { color: mutedColor }]}>{subject}</Text>
-            ) : null}
-            {sessionGoal > 0 ? (
-              <Text style={{ fontSize: 18, marginTop: 2, fontWeight: '700', color: textColor }}>
-                {pomodoroCount}/{sessionGoal} 🍅
-              </Text>
-            ) : pomodoroCount > 0 ? (
-              <Text style={{ fontSize: 18, marginTop: 2 }}>{'🍅'.repeat(Math.min(pomodoroCount, 8))}</Text>
-            ) : null}
-          </View>
-          <TouchableOpacity
-            style={[s.stopBtn, { backgroundColor: 'rgba(0,0,0,0.15)' }]}
-            onPress={stop}
-            activeOpacity={0.8}
-          >
-            <Text style={[s.stopBtnText, { color: textColor }]}>■ Stop</Text>
-          </TouchableOpacity>
-        </View>
+        <ActiveSessionHeader
+          subject={subject}
+          pomodoroCount={pomodoroCount}
+          sessionGoal={sessionGoal}
+          textColor={textColor}
+          mutedColor={mutedColor}
+          onRequestStop={confirmStopAndGoBack}
+          onStop={stop}
+        />
 
         {/* Big centered pet (hidden while pets are disabled — the floating
             Reggie companion above already covers the buddy presence) */}
@@ -102,16 +86,7 @@ export default function FocusActiveScreen({
         )}
 
         {/* Pomodoro cycle dots */}
-        <View style={{ flexDirection: 'row', gap: 8, justifyContent: 'center', marginBottom: 12 }}>
-          {[0, 1, 2, 3].map(i => (
-            <View key={i} style={{
-              width: 12, height: 12, borderRadius: 6,
-              backgroundColor: i < cyclePosition ? ringColor
-                : i === cyclePosition ? ringColor + '60'
-                : 'rgba(0,0,0,0.2)'
-            }} />
-          ))}
-        </View>
+        <PomodoroCycleDots cyclePosition={cyclePosition} accentColor={ringColor} />
 
         {/* Rive demo buddy — testing the Rive runtime in Focus Mode */}
         <View style={{ alignItems: 'center', marginBottom: 4 }}>
@@ -131,81 +106,31 @@ export default function FocusActiveScreen({
         </View>
 
         {/* Controls */}
-        <View style={s.timerControls}>
-          {phase === 'paused' ? (
-            <TouchableOpacity
-              style={[s.controlBtn, { backgroundColor: bg.accent }]}
-              onPress={resume}
-              activeOpacity={0.85}
-            >
-              <Text style={[s.controlBtnText, { color: '#fff' }]}>▶ Resume</Text>
-            </TouchableOpacity>
-          ) : (
-            <TouchableOpacity
-              style={[s.controlBtn, { backgroundColor: 'rgba(0,0,0,0.15)' }]}
-              onPress={pause}
-              activeOpacity={0.85}
-            >
-              <Text style={[s.controlBtnText, { color: textColor }]}>⏸ Pause</Text>
-            </TouchableOpacity>
-          )}
-          <TouchableOpacity
-            style={[s.controlBtn, { backgroundColor: 'rgba(0,0,0,0.12)' }]}
-            onPress={skip}
-            activeOpacity={0.85}
-          >
-            <Text style={[s.controlBtnText, { color: mutedColor }]}>
-              {isBreak ? '⏭ Skip break' : '⏭ Skip'}
-            </Text>
-          </TouchableOpacity>
-        </View>
+        <TimerControls
+          phase={phase}
+          isBreak={isBreak}
+          accentColor={bg.accent}
+          textColor={textColor}
+          mutedColor={mutedColor}
+          onPause={pause}
+          onResume={resume}
+          onSkip={skip}
+        />
 
         {/* Tasks */}
-        {todos.length > 0 && (
-          <ScrollView style={s.activeTodos} showsVerticalScrollIndicator={false}>
-            {todos.map((t) => (
-              <TouchableOpacity
-                key={t.id}
-                style={s.todoRow}
-                onPress={() => toggleTodo(t.id)}
-                activeOpacity={0.7}
-              >
-                <View style={[s.todoCheck, {
-                  borderColor: t.done ? bg.accent : 'rgba(255,255,255,0.5)',
-                  backgroundColor: t.done ? bg.accent : 'transparent',
-                }]}>
-                  {t.done && <Text style={{ color: '#fff', fontSize: 11, fontWeight: '700' }}>✓</Text>}
-                </View>
-                <Text style={[s.todoText, {
-                  color: t.done ? mutedColor : textColor,
-                  textDecorationLine: t.done ? 'line-through' : 'none',
-                }]}>
-                  {t.text}
-                </Text>
-              </TouchableOpacity>
-            ))}
-          </ScrollView>
-        )}
+        <ActiveTaskList
+          tasks={todos}
+          onToggle={toggleTodo}
+          accentColor={bg.accent}
+          textColor={textColor}
+          mutedColor={mutedColor}
+        />
       </SafeAreaView>
     </View>
   )
 }
 
 const s = StyleSheet.create({
-  activeHeader: {
-    flexDirection:     'row',
-    alignItems:        'center',
-    paddingHorizontal: 20,
-    paddingTop:        12,
-    paddingBottom:     4,
-  },
-  activeSubject:  { fontSize: 15, fontWeight: '700' },
-  stopBtn: {
-    borderRadius:      12,
-    paddingHorizontal: 16,
-    paddingVertical:   8,
-  },
-  stopBtnText: { fontSize: 14, fontWeight: '700' },
   bigPetArea: {
     alignItems:     'center',
     justifyContent: 'flex-end',
@@ -213,37 +138,4 @@ const s = StyleSheet.create({
     paddingBottom:   4,
   },
   ringArea: { alignItems: 'center', justifyContent: 'center', paddingVertical: 8 },
-  timerControls: {
-    flexDirection:     'row',
-    gap:               12,
-    paddingHorizontal: 20,
-    paddingVertical:   12,
-  },
-  controlBtn: {
-    flex:           1,
-    borderRadius:   14,
-    paddingVertical: 13,
-    alignItems:     'center',
-  },
-  controlBtnText: { fontSize: 14, fontWeight: '700' },
-  activeTodos: {
-    maxHeight:         160,
-    paddingHorizontal: 20,
-    marginBottom:      8,
-  },
-  todoRow:  {
-    flexDirection:  'row',
-    alignItems:     'center',
-    gap:            10,
-    paddingVertical: 8,
-  },
-  todoCheck: {
-    width:        20,
-    height:       20,
-    borderRadius: 6,
-    borderWidth:  1.5,
-    alignItems:   'center',
-    justifyContent: 'center',
-  },
-  todoText: { flex: 1, fontSize: 14 },
 })
