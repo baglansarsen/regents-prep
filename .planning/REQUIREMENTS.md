@@ -9,7 +9,7 @@ Requirements for this refactor initiative. Each maps to one roadmap phase (one p
 
 ### Test Infrastructure
 
-- [ ] **INFRA-01**: `mobile/`'s test stack has the deprecated `react-test-renderer@18.x` and `@testing-library/jest-native` removed, with `@testing-library/react-native@14.0.1` as the sole rendering/query library, and `cd mobile && npx jest` passing after the change
+- [x] **INFRA-01**: `mobile/`'s test stack has the deprecated `react-test-renderer@18.x` and `@testing-library/jest-native` removed, with `@testing-library/react-native@14.0.1` as the sole rendering/query library, and `cd mobile && npx jest` passing after the change
 
 ### FocusScreen
 
@@ -82,7 +82,7 @@ Explicitly excluded. Documented to prevent scope creep on a mature, shipping app
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| INFRA-01 | Phase 1 | Pending |
+| INFRA-01 | Phase 1 | Complete |
 | FOCUS-01 | Phase 2 | Pending |
 | FOCUS-02 | Phase 2 | Pending |
 | FOCUS-03 | Phase 2 | Pending |
@@ -111,6 +111,7 @@ Explicitly excluded. Documented to prevent scope creep on a mature, shipping app
 | HOME-07 | Phase 5 | Pending |
 
 **Coverage:**
+
 - v1 requirements: 27 total
 - Mapped to phases: 27
 - Unmapped: 0 ✓

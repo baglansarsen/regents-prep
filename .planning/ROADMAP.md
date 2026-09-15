@@ -11,7 +11,7 @@ Four of the app's largest, most tangled screens (`HomeScreen`, `QuizScreen`, `Fr
 - Integer phases (1, 2, 3): Planned milestone work
 - Decimal phases (2.1, 2.2): Urgent insertions (marked with INSERTED)
 
-- [ ] **Phase 1: Test Infrastructure** - Remove deprecated test-renderer/jest-native, standardize on `@testing-library/react-native@14.0.1`
+- [x] **Phase 1: Test Infrastructure** - Remove deprecated test-renderer/jest-native, standardize on `@testing-library/react-native@14.0.1` (completed 2026-09-14)
 - [ ] **Phase 2: FocusScreen Decomposition** - Extract `useFocusScreenState` + sub-components, with characterization tests and parity check
 - [ ] **Phase 3: FriendsScreen Decomposition** - Extract `useFriendsScreenState` + sub-components, with characterization tests and parity check
 - [ ] **Phase 4: QuizScreen Decomposition** - Extract scoring pure functions + `useQuizState` + sub-components, with characterization tests and parity check
@@ -133,7 +133,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Test Infrastructure | 2/2 | In Progress|  |
+| 1. Test Infrastructure | 2/2 | Complete    | 2026-09-14 |
 | 2. FocusScreen Decomposition | 0/1 | Not started | - |
 | 3. FriendsScreen Decomposition | 0/1 | Not started | - |
 | 4. QuizScreen Decomposition | 0/1 | Not started | - |
