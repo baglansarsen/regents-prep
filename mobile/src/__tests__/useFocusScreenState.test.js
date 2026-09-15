@@ -40,6 +40,16 @@ jest.mock('@react-native-async-storage/async-storage', () =>
   require('@react-native-async-storage/async-storage/jest/async-storage-mock')
 )
 
+// useFocusSession's stop() calls logActivity(uid, ...) on a completed session.
+// logActivity imports the real 'firebase/firestore' package (ESM, unparseable
+// under this repo's jest transform — no prior test has exercised this import
+// chain) and would otherwise perform a real Firestore write. Mocked here, not
+// in useFocusSession itself, per Rule 3 (blocking issue, out of scope to fix
+// the transform config for one test file).
+jest.mock('../utils/activityLogger', () => ({
+  logActivity: jest.fn(),
+}))
+
 function makeNavigation() {
   return {
     addListener: jest.fn(() => jest.fn()),
@@ -252,12 +262,18 @@ test('toggleTodo flips only the matching row and preserves array order', async (
   const navigation = makeNavigation()
   const { result } = await renderHook(() => useFocusScreenState(navigation))
 
+  // addTodo ids come from Date.now(); under modern fake timers that clock is
+  // frozen unless advanced, so back-to-back adds would otherwise collide on
+  // the same id. Advance 1ms between adds so each row gets a distinct id.
   for (const text of ['first', 'second', 'third']) {
     await act(async () => {
       result.current.setTodoInput(text)
     })
     await act(async () => {
       result.current.handleAddTodo()
+    })
+    await act(async () => {
+      jest.advanceTimersByTime(1)
     })
   }
 
