@@ -17,3 +17,10 @@ Out-of-scope discoveries logged during execution per the executor's Scope Bounda
 - **Recommendation:** A future test-infrastructure or placement-test phase should either seed the
   shuffle for deterministic test runs or loosen the assertion to a tolerance, rather than asserting
   an exact `Set` size against unseeded randomness.
+
+## Reconfirmed during Plan 02-04
+
+- Same test failed once more during `npm --prefix mobile run check` (`Expected: 6, Received: 5`),
+  passed on immediate re-run (23/23) with zero code changes and zero files touched in this plan's
+  `files_modified`. No new information beyond 02-03's entry above — recorded here only to confirm
+  the flake is still present and still out of this refactor's scope.
