@@ -57,7 +57,7 @@ Plans:
   4. Every extracted hook has unit tests covering its state transitions, and every extracted sub-component has a render/snapshot test
   5. Manual verification confirms FocusScreen's behavior and UI still match the pre-extraction characterization notes
 
-**Plans**: 3/8 plans executed
+**Plans**: 5/8 plans executed
 
 Plans:
 **Wave 1**
@@ -71,8 +71,8 @@ Plans:
 
 **Wave 3** *(blocked on Wave 2)*
 
-- [ ] 02-04-PLAN.md — Setup branch: `FocusSetupScreen` extracted, `FocusScreen.jsx` reduced to its final ≤35-line form (FOCUS-02 closed)
-- [ ] 02-05-PLAN.md — Active widgets: `ActiveSessionHeader`, `PomodoroCycleDots` (render-only per D-01), `TimerControls`, `ActiveTaskList` + tests
+- [x] 02-04-PLAN.md — Setup branch: `FocusSetupScreen` extracted, `FocusScreen.jsx` reduced to its final ≤35-line form (FOCUS-02 closed)
+- [x] 02-05-PLAN.md — Active widgets: `ActiveSessionHeader`, `PomodoroCycleDots` (render-only per D-01), `TimerControls`, `ActiveTaskList` + tests
 
 **Wave 4** *(blocked on Wave 3)*
 
@@ -157,7 +157,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Test Infrastructure | 2/2 | Complete    | 2026-09-14 |
-| 2. FocusScreen Decomposition | 3/8 | In Progress|  |
+| 2. FocusScreen Decomposition | 5/8 | In Progress|  |
 | 3. FriendsScreen Decomposition | 0/1 | Not started | - |
 | 4. QuizScreen Decomposition | 0/1 | Not started | - |
 | 5. HomeScreen Decomposition | 0/1 | Not started | - |
