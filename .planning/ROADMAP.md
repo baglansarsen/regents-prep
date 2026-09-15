@@ -57,11 +57,34 @@ Plans:
   4. Every extracted hook has unit tests covering its state transitions, and every extracted sub-component has a render/snapshot test
   5. Manual verification confirms FocusScreen's behavior and UI still match the pre-extraction characterization notes
 
-**Plans**: TBD
+**Plans**: 8 plans
 
 Plans:
+**Wave 1**
 
-- [ ] 02-01: TBD
+- [ ] 02-01-PLAN.md — Tracer: characterization baseline, `useFocusScreenState` wrapping `useFocusSession`, screen reduced to one hook call, `FocusDoneScreen` extracted, hook + container tests
+
+**Wave 2** *(blocked on Wave 1)*
+
+- [ ] 02-02-PLAN.md — Active branch: `FocusActiveScreen` + `BigPetDisplay` extracted, screen rewired, interaction tests
+- [ ] 02-03-PLAN.md — Done widgets: `SessionSummaryStats` (render-only per D-01), `DoneActions`, `GoalCelebrationModal` + tests
+
+**Wave 3** *(blocked on Wave 2)*
+
+- [ ] 02-04-PLAN.md — Setup branch: `FocusSetupScreen` extracted, `FocusScreen.jsx` reduced to its final ≤35-line form (FOCUS-02 closed)
+- [ ] 02-05-PLAN.md — Active widgets: `ActiveSessionHeader`, `PomodoroCycleDots` (render-only per D-01), `TimerControls`, `ActiveTaskList` + tests
+
+**Wave 4** *(blocked on Wave 3)*
+
+- [ ] 02-06-PLAN.md — Setup widgets A: `SubjectPicker`, `DurationPicker`, `GoalPicker` + interaction tests
+
+**Wave 5** *(blocked on Wave 4)*
+
+- [ ] 02-07-PLAN.md — Setup widgets B: `TaskInput`, `TaskList`, `SoundPicker`, `BackgroundPicker` + tests (FOCUS-03 closed)
+
+**Wave 6** *(blocked on Wave 5)*
+
+- [ ] 02-08-PLAN.md — Phase close: mechanical test-pairing and D-01 tier audit, FOCUS-06 manual parity pass, `02-EXTRACTION-TEMPLATE.md` for Phases 3-5
 
 ### Phase 3: FriendsScreen Decomposition
 
@@ -134,7 +157,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Test Infrastructure | 2/2 | Complete    | 2026-09-14 |
-| 2. FocusScreen Decomposition | 0/1 | Not started | - |
+| 2. FocusScreen Decomposition | 0/8 | Not started | - |
 | 3. FriendsScreen Decomposition | 0/1 | Not started | - |
 | 4. QuizScreen Decomposition | 0/1 | Not started | - |
 | 5. HomeScreen Decomposition | 0/1 | Not started | - |
