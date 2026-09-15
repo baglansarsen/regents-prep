@@ -29,7 +29,7 @@ affects: [03-friendsscreen-decomposition, 04-quizscreen-decomposition, 05-homesc
 actuals:
   tokens: 12000
   tasks: 3
-  commits: 1
+  commits: 3
 plan_head_before: 96703290c89cb70e41012ab72d2a21ad29d361de
 tech-stack:
   added: []
@@ -113,7 +113,7 @@ status: complete
 2. **Task 2: Manual behavior and appearance parity pass (FOCUS-06)** — no commit (`git status --porcelain mobile/src` empty throughout; result recorded in this SUMMARY, no files changed)
 3. **Task 3: Write the extraction template for Phases 3-5** - `265897ad` (docs)
 
-**Plan metadata:** this SUMMARY plus the `REQUIREMENTS.md` update — per this dispatch's worktree-mode instruction, `STATE.md`/`ROADMAP.md` are updated centrally by the orchestrator after this final wave agent completes; `SUMMARY.md` and `REQUIREMENTS.md` are committed here.
+**Plan metadata:** `52ab583a` (docs: SUMMARY.md + REQUIREMENTS.md) plus one follow-up correction commit fixing this SUMMARY's own measured `actuals.commits` count after the metadata commit itself changed it — per this dispatch's worktree-mode instruction, `STATE.md`/`ROADMAP.md` are updated centrally by the orchestrator after this final wave agent completes; `SUMMARY.md` and `REQUIREMENTS.md` are committed here.
 
 ## Files Created/Modified
 - `.planning/phases/02-focusscreen-decomposition/02-EXTRACTION-TEMPLATE.md` - the reusable extraction recipe for Phases 3-5 (recipe, hook composition, hook contract shape, component boundaries, test tiers, 10 traps, cost, carry-forward)
