@@ -1,10 +1,11 @@
 ---
 phase: "2"
 slug: "focusscreen-decomposition"
-status: draft
-nyquist_compliant: false
-wave_0_complete: false
+status: validated
+nyquist_compliant: true
+wave_0_complete: true
 created: "2026-09-14"
+validated: "2026-09-15"
 ---
 
 # Phase 2 — Validation Strategy
@@ -38,21 +39,23 @@ created: "2026-09-14"
 
 | Task ID | Plan | Wave | Requirement | Threat Ref | Secure Behavior | Test Type | Automated Command | File Exists | Status |
 |---------|------|------|-------------|------------|-----------------|-----------|-------------------|-------------|--------|
-| 02-01-01 | 01 | 0 | FOCUS-01 | — | N/A | docs | N/A | ❌ W0 | ⬜ pending |
-| 02-01-02 | 01 | 1 | FOCUS-02, FOCUS-04 | — | N/A | unit | `cd mobile && npx jest src/__tests__/useFocusScreenState.test.js` | ❌ W0 | ⬜ pending |
-| 02-01-03 | 01 | 1-2 | FOCUS-03, FOCUS-05 | — | N/A | render/snapshot | `cd mobile && npx jest src/components/FocusScreen` | ❌ W0 | ⬜ pending |
-| 02-01-04 | 01 | final | FOCUS-06 | — | N/A | manual | N/A — manual QA vs. 02-CHARACTERIZATION.md + 02-UI-SPEC.md | manual-only | ⬜ pending |
+| 02-01-01 | 01 | 0 | FOCUS-01 | — | N/A | docs | N/A | ✅ | ✅ green |
+| 02-01-02 | 01 | 1 | FOCUS-02, FOCUS-04 | — | N/A | unit | `cd mobile && npx jest src/__tests__/useFocusScreenState.test.js` | ✅ | ✅ green |
+| 02-01-03 | 01 | 1-2 | FOCUS-03, FOCUS-05 | — | N/A | render/snapshot | `cd mobile && npx jest src/components/FocusScreen` | ✅ (18 suites, 117 tests) | ✅ green |
+| 02-01-04 | 01 | final | FOCUS-06 | — | N/A | manual | N/A — manual QA vs. 02-CHARACTERIZATION.md + 02-UI-SPEC.md | manual-only | ⬜ pending (see Manual-Only) |
 
 *Status: ⬜ pending · ✅ green · ❌ red · ⚠️ flaky*
+
+**Audit note (2026-09-15):** All 8 execution plans (02-01 through 02-08) completed and merged. `npm run check` (mobile) exits 0 with 43 suites / 475 tests passing, including all FOCUS-02/03/04/05-covered files above. FOCUS-01 (behavior baseline doc) and FOCUS-06's automation-eligible scaffolding are both satisfied; FOCUS-06 itself is inherently a manual UI-parity pass (see Manual-Only Verifications below) and was correctly not force-automated. No coverage gaps found — `nyquist_compliant: true`.
 
 ---
 
 ## Wave 0 Requirements
 
-- [ ] `.planning/phases/02-focusscreen-decomposition/02-CHARACTERIZATION.md` — pre-extraction characterization notes for REQ FOCUS-01; must exist and be committed *before* any extraction code moves
-- [ ] `mobile/src/__tests__/useFocusScreenState.test.js` — stubs for FOCUS-02/FOCUS-04
-- [ ] `mobile/src/components/FocusScreen/__tests__/*.test.jsx` — one per sub-component, stubs for FOCUS-03/FOCUS-05
-- [ ] Per-test-file `jest.mock()` fixtures for `AuthContext`/`PetContext`/`ThemeContext` — both context hooks throw when called outside their providers; `useTheme()` returns `null` and will crash on destructuring unless mocked
+- [x] `.planning/phases/02-focusscreen-decomposition/02-CHARACTERIZATION.md` — pre-extraction characterization notes for REQ FOCUS-01; must exist and be committed *before* any extraction code moves
+- [x] `mobile/src/__tests__/useFocusScreenState.test.js` — stubs for FOCUS-02/FOCUS-04
+- [x] `mobile/src/components/FocusScreen/__tests__/*.test.jsx` — one per sub-component, stubs for FOCUS-03/FOCUS-05 (18 files)
+- [x] Per-test-file `jest.mock()` fixtures for `AuthContext`/`PetContext`/`ThemeContext` — both context hooks throw when called outside their providers; `useTheme()` returns `null` and will crash on destructuring unless mocked
 
 ---
 
@@ -66,11 +69,11 @@ created: "2026-09-14"
 
 ## Validation Sign-Off
 
-- [ ] All tasks have `<automated>` verify or Wave 0 dependencies
-- [ ] Sampling continuity: no 3 consecutive tasks without automated verify
-- [ ] Wave 0 covers all MISSING references
-- [ ] No watch-mode flags
-- [ ] Feedback latency < 60s
-- [ ] `nyquist_compliant: true` set in frontmatter
+- [x] All tasks have `<automated>` verify or Wave 0 dependencies
+- [x] Sampling continuity: no 3 consecutive tasks without automated verify
+- [x] Wave 0 covers all MISSING references
+- [x] No watch-mode flags
+- [x] Feedback latency < 60s (full suite runs in ~1.5-2s)
+- [x] `nyquist_compliant: true` set in frontmatter
 
-**Approval:** pending
+**Approval:** automated coverage validated 2026-09-15. FOCUS-06 manual UI parity pass remains open — tracked in Manual-Only Verifications, not a Nyquist gap.
