@@ -12,13 +12,16 @@
  * callbacks — no screen routing prop of any kind reaches this component.
  *
  * The subject, session-length, and session-goal sections were extracted into
- * named pickers by plan 02-06 (FOCUS-03/FOCUS-05); this container now
- * composes them rather than inlining their JSX.
+ * named pickers by plan 02-06 (FOCUS-03/FOCUS-05). Plan 02-07 completed the
+ * decomposition: the task entry field, task rows, background-sound chips,
+ * and scene swatches are now named components too. This container holds no
+ * option-section JSX at all — it is chrome (safe area, keyboard avoidance,
+ * scroll, header, start action, history link) plus composition.
  */
 import React from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView,
-  TextInput, StyleSheet, KeyboardAvoidingView, Platform,
+  StyleSheet, KeyboardAvoidingView, Platform,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../../context/ThemeContext'
@@ -26,6 +29,10 @@ import { T } from '../../styles/duo'
 import SubjectPicker from './SubjectPicker'
 import DurationPicker from './DurationPicker'
 import GoalPicker from './GoalPicker'
+import TaskInput from './TaskInput'
+import TaskList from './TaskList'
+import SoundPicker from './SoundPicker'
+import BackgroundPicker from './BackgroundPicker'
 
 export default function FocusSetupScreen({
   subjectChips,
@@ -112,70 +119,29 @@ export default function FocusSetupScreen({
           />
 
           {/* Tasks */}
-          <Text style={[s.sectionLabel, { color: C.textMuted }]}>Tasks <Text style={{ fontWeight: '400', fontSize: 12 }}>(optional)</Text></Text>
-          <View style={[s.todoInputRow, { backgroundColor: C.surface2, borderColor: C.border }]}>
-            <TextInput
-              style={[s.todoInputField, { color: C.text }]}
-              placeholder="Add a task..."
-              placeholderTextColor={C.textMuted}
-              value={todoInput}
-              onChangeText={setTodoInput}
-              onSubmitEditing={handleAddTodo}
-              returnKeyType="done"
-            />
-            {todoInput.trim().length > 0 && (
-              <TouchableOpacity onPress={handleAddTodo} style={s.todoAddBtn}>
-                <Text style={[s.todoAddBtnText, { color: C.brand }]}>Add</Text>
-              </TouchableOpacity>
-            )}
-          </View>
-          {todos.map((t) => (
-            <View key={t.id} style={s.todoRow}>
-              <View style={[s.todoCheck, { borderColor: C.border }]} />
-              <Text style={[s.todoText, { color: C.text }]}>{t.text}</Text>
-              <TouchableOpacity onPress={() => toggleTodo(t.id)} hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}>
-                <Text style={{ color: C.textMuted, fontSize: 16 }}>✕</Text>
-              </TouchableOpacity>
-            </View>
-          ))}
+          <TaskInput
+            value={todoInput}
+            onChangeText={setTodoInput}
+            onAdd={handleAddTodo}
+          />
+          <TaskList
+            tasks={todos}
+            onToggle={toggleTodo}
+          />
 
           {/* Sound */}
-          <Text style={[s.sectionLabel, { color: C.textMuted }]}>Background sound</Text>
-          <View style={s.chips}>
-            {soundOptions.map((opt) => {
-              const active = sound.id === opt.id
-              return (
-                <TouchableOpacity
-                  key={opt.id}
-                  style={[s.chip, active && { backgroundColor: C.brand, borderColor: C.brand }]}
-                  onPress={() => setSound(opt)}
-                  activeOpacity={0.75}
-                >
-                  <Text style={s.chipEmoji}>{opt.emoji}</Text>
-                  <Text style={[s.chipText, { color: active ? '#fff' : C.text }]}>{opt.label}</Text>
-                </TouchableOpacity>
-              )
-            })}
-          </View>
+          <SoundPicker
+            soundOptions={soundOptions}
+            sound={sound}
+            onSelectSound={setSound}
+          />
 
           {/* Background */}
-          <Text style={[s.sectionLabel, { color: C.textMuted }]}>Background</Text>
-          <View style={s.bgRow}>
-            {backgrounds.map((bg) => (
-              <TouchableOpacity
-                key={bg.id}
-                onPress={() => setBackground(bg)}
-                activeOpacity={0.8}
-                style={[
-                  s.bgSwatch,
-                  { backgroundColor: bg.bottom },
-                  background.id === bg.id && { borderColor: C.text, borderWidth: 3 },
-                ]}
-              >
-                <Text style={{ fontSize: 18 }}>{bg.emoji}</Text>
-              </TouchableOpacity>
-            ))}
-          </View>
+          <BackgroundPicker
+            backgrounds={backgrounds}
+            background={background}
+            onSelectBackground={setBackground}
+          />
 
           {/* Start button */}
           <TouchableOpacity
@@ -213,48 +179,6 @@ function makeStyles(C) {
 
     setupScroll:  { paddingHorizontal: 20, paddingTop: 16 },
     setupHeader:  { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 24 },
-    sectionLabel: { fontSize: 12, fontWeight: '700', letterSpacing: 0.8, textTransform: 'uppercase', marginBottom: 10, marginTop: 20 },
-    chips:        { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
-    chip: {
-      flexDirection:    'row',
-      alignItems:       'center',
-      gap:              5,
-      paddingHorizontal: 12,
-      paddingVertical:   8,
-      borderRadius:     20,
-      borderWidth:      1.5,
-      borderColor:      C.border,
-      backgroundColor:  C.surface,
-    },
-    chipEmoji: { fontSize: 16 },
-    chipText:  { fontSize: 13, fontWeight: '600' },
-
-    todoInputRow: {
-      flexDirection:    'row',
-      alignItems:       'center',
-      borderRadius:     12,
-      borderWidth:      1.5,
-      paddingHorizontal: 14,
-      paddingVertical:   10,
-    },
-    todoInputField: { flex: 1, fontSize: 14 },
-    todoAddBtn:     { paddingLeft: 12 },
-    todoAddBtnText: { fontSize: 13, fontWeight: '700' },
-    todoRow:  {
-      flexDirection:  'row',
-      alignItems:     'center',
-      gap:            10,
-      paddingVertical: 8,
-    },
-    todoCheck: {
-      width:        20,
-      height:       20,
-      borderRadius: 6,
-      borderWidth:  1.5,
-      alignItems:   'center',
-      justifyContent: 'center',
-    },
-    todoText: { flex: 1, fontSize: 14 },
 
     startBtn: {
       marginTop:     24,
@@ -264,17 +188,5 @@ function makeStyles(C) {
     },
     startBtnText: { color: '#fff', fontSize: 17, fontWeight: '800', letterSpacing: 0.3 },
     historyLink:  { alignItems: 'center', paddingTop: 16 },
-
-    // Background picker
-    bgRow:   { flexDirection: 'row', gap: 10, flexWrap: 'wrap' },
-    bgSwatch: {
-      width:          48,
-      height:         48,
-      borderRadius:   14,
-      alignItems:     'center',
-      justifyContent: 'center',
-      borderWidth:    2,
-      borderColor:    'transparent',
-    },
   })
 }
