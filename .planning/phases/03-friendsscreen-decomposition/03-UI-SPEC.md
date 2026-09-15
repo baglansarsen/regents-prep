@@ -1,10 +1,11 @@
 ---
 phase: "3"
 slug: "friendsscreen-decomposition"
-status: draft
+status: approved
 shadcn_initialized: false
 preset: none
 created: "2026-09-15"
+approved: "2026-09-15"
 ---
 
 # Phase 3 — UI Design Contract
@@ -287,8 +288,20 @@ none`, confirmed above).
       version applicable" since this is a hand-rolled internal helper surface (`styles/duo.js` /
       `theme.js`), not a versioned installed package
 
-**Approval:** pending — this revision (2026-09-15) resolves the prior BLOCK findings on
-Dimensions 4 and 5 by making the parity-lock exception explicit at the contract-approval level
-(this sign-off section), per the precedent set by `02-UI-SPEC.md` (approved 2026-09-14), and adds
-the Dimension 2 focal-point notes and Dimension 7 package/version clarification requested as
-non-blocking FLAGs. No transcribed spacing, typography, color, or copy value was changed.
+**Approval:** approved 2026-09-15 — checker re-verification returned `## UI-SPEC VERIFIED` /
+APPROVED after this revision resolved the prior BLOCK findings on Dimensions 4 and 5 by making
+the parity-lock exception explicit at the contract-approval level (this sign-off section), per
+the precedent set by `02-UI-SPEC.md` (approved 2026-09-14). Dimensions 2 and 7 remain non-blocking
+FLAGs, both self-documented above. No transcribed spacing, typography, color, or copy value was
+changed at any point in the revision.
+
+**UI-consideration probe note:** the mechanical probe engine (`ui-consideration-probe.cjs`) raised
+95 category×element combinations across 14 named surfaces — far more granular than the 12-row
+table above, since it enumerates every taxonomy category against every element regardless of
+practical relevance (e.g. "partial data" against a Firestore document that is always all-or-
+nothing). The UI Considerations table above is the source-grounded consolidation of that same
+substance (10 covered, 2 correctly left unresolved with reasons) produced during authoring by
+direct reads of `FriendsScreen.jsx`, not a mechanical per-permutation enumeration. Both loading
+states (`weekLoading`/`schoolLoading` "Loading..." text) and the total absence of error-state UI
+are the two genuinely open items, already flagged — the planner must preserve, not invent handling
+for, both.
