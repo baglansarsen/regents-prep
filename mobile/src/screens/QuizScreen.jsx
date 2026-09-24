@@ -37,6 +37,8 @@ import { skipUnlocksKey } from '../utils/storageKeys'
 import { getSubjectData } from '../utils/subjectData'
 import { getEasier as easierFromPool } from '../content/_shared/difficulty'
 import ExamImage from '../components/ExamImage'
+import { correctIndexOf } from '../utils/question'
+import { isPilotQuestion, getPilotHint } from '../data/pilotLearnMode'
 
 const LETTERS = ['A', 'B', 'C', 'D']
 const LETTER_COLORS = ['#34B3F1', '#7C5CFC', '#FF9600', '#FF5A5F']
@@ -528,7 +530,7 @@ export default function QuizScreen({ route, navigation }) {
               style={{ marginTop: 12 }}
               text={[currentQuestion.context, currentQuestion.text].filter(Boolean).join('. ')}
             />
-            {(() => { const hint = getTutorHint(currentQuestion); return hint && phase === 'answering' && (
+            {(() => { const hint = getTutorHint(currentQuestion) ?? getPilotHint(currentQuestion, uid); return hint && phase === 'answering' && (
               <View style={s.tutorHintBox}>
                 <Text style={s.tutorHintText}>{hint}</Text>
               </View>
@@ -580,7 +582,18 @@ export default function QuizScreen({ route, navigation }) {
               {phase === 'answering' && (
                 <TouchableOpacity
                   style={[duoBtn(C.brand, C.brandDark, { marginTop: 6 }), selected == null && { opacity: 0.4 }]}
-                  onPress={() => { if (selected == null) return; hapticTick(); check() }}
+                  onPress={() => {
+                    if (selected == null) return
+                    hapticTick()
+                    if (isPilotQuestion(currentQuestion)) {
+                      logActivity(uid, 'pilot_learn_mode', 'Learn Mode pilot: pre-answer hint probe', {
+                        questionId: currentQuestion.id,
+                        variant: getPilotHint(currentQuestion, uid) ? 'B' : 'A',
+                        correct: selected === correctIndexOf(currentQuestion),
+                      })
+                    }
+                    check()
+                  }}
                   disabled={selected == null}
                   activeOpacity={0.85}
                 >
