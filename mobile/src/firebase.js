@@ -1,9 +1,5 @@
 import { initializeApp } from 'firebase/app'
-import { initializeAuth, GoogleAuthProvider } from 'firebase/auth'
-// firebase v12's `firebase/auth` doesn't re-export getReactNativePersistence by
-// default in React Native — Metro's main-field resolution lands on the Node
-// bundle. Import the RN variant directly to guarantee it's available.
-import { getReactNativePersistence } from '@firebase/auth/dist/rn'
+import { initializeAuth, GoogleAuthProvider, getReactNativePersistence } from 'firebase/auth'
 import { initializeFirestore, persistentLocalCache } from 'firebase/firestore'
 import { getFunctions } from 'firebase/functions'
 import AsyncStorage from '@react-native-async-storage/async-storage'
