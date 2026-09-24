@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095359108E64E8BD4DE8BFDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDEEC32115821711C93A5F1 /* SceneDelegate.swift */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		930F5282E5A54A67AF811B67 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0B71E5F8456BC4F11E0776EA /* PrivacyInfo.xcprivacy */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		0B71E5F8456BC4F11E0776EA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Regentify/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		0EDEEC32115821711C93A5F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = Regentify/SceneDelegate.swift; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Regentify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Regentify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Regentify/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Regentify/Info.plist; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				F11748412D0307B40044C1D9 /* AppDelegate.swift */,
+				0EDEEC32115821711C93A5F1 /* SceneDelegate.swift */,
 				F11748442D0722820044C1D9 /* Regentify-Bridging-Header.h */,
 				BB2F792B24A3F905000567C9 /* Supporting */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -384,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
+				095359108E64E8BD4DE8BFDE /* SceneDelegate.swift in Sources */,
 				B24049171B9601790E689EE6 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
