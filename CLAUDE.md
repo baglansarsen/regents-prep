@@ -98,3 +98,19 @@ Default to working in `mobile/` only. Do not touch `chromebook/` or root `src/` 
 **Hygiene:** commit or stash WIP on the branch it belongs to **before** switching branches (loose cross-branch WIP forces stash gymnastics). Keep the `feat(<scope>)` commit prefixes — they make "which app" obvious.
 
 **Cross-cutting work:** split into two commits on two branches (mobile half on a master-based branch, chromebook half on `feat/chromebook-b2b`), with shared content flowing master → chromebook. Don't do both halves in one place.
+
+## TypeSafe Jev
+
+- For any bounded judgment (routing, classifying, scoring, ranking, extraction of a candidate
+  the code already found), follow the typesafe-ai skill at `.agents/skills/typesafe-ai/SKILL.md`
+  and read the live docs it links before designing a question. Do not invent API fields from memory.
+- Jev is called from Firebase Cloud Functions (`functions/`) only. Never from the mobile app,
+  chromebook app or web client: a key in client code is a leaked key.
+- The API key comes from Firebase Functions secrets (`defineSecret`) at runtime. Never in a config
+  file, a log or an error.
+- Never send student personal data (names, emails, school, friends graph, user IDs), payment or
+  subscription data (RevenueCat), or auth tokens in the question state. Send the smallest state
+  that answers the question; replace names with opaque ids.
+- Keep thresholds and escalation rules in code. Confidence is not permission to act: decisions
+  about people, money or safety go to a person.
+- A function that calls Jev has a test with the client stubbed; the suite never reaches the network.
