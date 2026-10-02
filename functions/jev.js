@@ -50,8 +50,13 @@ export function buildMistakeRequest({ question, choices, correctIdx, wrongIdx, e
 /**
  * @returns {Promise<{choice: string, probabilities: object, confidence: number}|null>}
  */
-export async function classifyMistake({ apiKey, input, fetchImpl = fetch, timeoutMs = TIMEOUT_MS }) {
-  if (!apiKey) return null
+export async function classifyMistake({ apiKey, input, fetchImpl = fetch, timeoutMs = TIMEOUT_MS, warn = console.warn }) {
+  // Log the reason only (status, error name, bad label) — never the key, the request
+  // state or the response body, so logs stay free of secrets and question content.
+  if (!apiKey) {
+    warn('[jev] skipped: no API key')
+    return null
+  }
   try {
     const res = await fetchImpl(ENDPOINT, {
       method: 'POST',
@@ -59,11 +64,18 @@ export async function classifyMistake({ apiKey, input, fetchImpl = fetch, timeou
       body: JSON.stringify(buildMistakeRequest(input)),
       signal: AbortSignal.timeout(timeoutMs),
     })
-    if (!res.ok) return null
+    if (!res.ok) {
+      warn(`[jev] unavailable: HTTP ${res.status}`)
+      return null
+    }
     const answer = (await res.json())?.answers?.mistakeType
-    if (answer?.type !== 'choice' || !(answer.choice in MISTAKE_CRITERIA)) return null
+    if (answer?.type !== 'choice' || !(answer.choice in MISTAKE_CRITERIA)) {
+      warn(`[jev] unusable answer: type=${answer?.type} choice=${answer?.choice}`)
+      return null
+    }
     return { choice: answer.choice, probabilities: answer.probabilities ?? {}, confidence: answer.confidence ?? null }
-  } catch {
+  } catch (e) {
+    warn(`[jev] unavailable: ${e?.name ?? 'Error'}`)
     return null
   }
 }
