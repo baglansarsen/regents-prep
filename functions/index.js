@@ -19,9 +19,11 @@ import { initializeApp } from 'firebase-admin/app'
 import { getFirestore } from 'firebase-admin/firestore'
 import crypto from 'node:crypto'
 import Anthropic from '@anthropic-ai/sdk'
+import { classifyMistake } from './jev.js'
 
 initializeApp()
 const ANTHROPIC_API_KEY = defineSecret('ANTHROPIC_API_KEY')
+const TYPESAFE_API_KEY = defineSecret('TYPESAFE_API_KEY')
 const db = getFirestore()
 
 const DAILY_CAP = 60 // per-user calls/day — abuse bound
@@ -124,7 +126,7 @@ const cacheId = (questionKey, suffix) =>
   `${TUTOR_CACHE_VERSION}__${crypto.createHash('sha1').update(String(questionKey)).digest('hex')}__${suffix}`
 
 export const explainMistake = onCall(
-  { secrets: [ANTHROPIC_API_KEY], region: 'us-central1' },
+  { secrets: [ANTHROPIC_API_KEY, TYPESAFE_API_KEY], region: 'us-central1' },
   async (req) => {
     if (!req.auth) throw new HttpsError('unauthenticated', 'Sign in required.')
     const uid = req.auth.uid
@@ -169,6 +171,16 @@ export const explainMistake = onCall(
       throw new HttpsError('resource-exhausted', 'Daily tutor limit reached. Try again tomorrow.')
     }
 
+    // Shadow mode: ask Jev the same mistakeType question in parallel with Claude so
+    // the two can be compared offline. Stored beside the result, never returned or
+    // acted on; null on any failure (see jev.js).
+    const jevPromise = concept
+      ? Promise.resolve(null)
+      : classifyMistake({
+          apiKey: TYPESAFE_API_KEY.value(),
+          input: { question, choices, correctIdx, wrongIdx, explanation, context, subTopic },
+        })
+
     // 3. Grounded generation.
     const client = new Anthropic({ apiKey: ANTHROPIC_API_KEY.value() })
     const userMsg =
@@ -205,8 +217,9 @@ export const explainMistake = onCall(
     const result = JSON.parse(text)
 
     // 4. Persist cache + increment usage (best-effort).
+    const jev = await jevPromise
     await Promise.all([
-      cacheRef.set({ result, model: resp.model, createdAt: Date.now() }),
+      cacheRef.set({ result, model: resp.model, createdAt: Date.now(), ...(jev ? { jev } : {}) }),
       capRef.set({ count: used + 1, day }, { merge: true }),
     ])
 
