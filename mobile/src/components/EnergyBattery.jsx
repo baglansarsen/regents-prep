@@ -1,7 +1,9 @@
-import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import React, { useEffect, useRef } from 'react'
+import { Animated, View, Text, StyleSheet } from 'react-native'
 import { Ionicons } from '@expo/vector-icons'
 import { energyPercent } from '../utils/energy'
+import { NATIVE_DRIVER, SPRING } from '../motion/tokens'
+import { useReducedMotion } from '../motion/useReducedMotion'
 
 function batteryColor(percent, C, light) {
   if (percent <= 20) return '#EF4444'
@@ -28,8 +30,29 @@ export default function EnergyBattery({
   const shellBorder = light ? 'rgba(255,255,255,0.88)' : (C?.border ?? '#D1D5DB')
   const shellBg = light ? 'rgba(255,255,255,0.18)' : (C?.surface2 ?? '#F3F4F6')
 
+  // Energy just dropped (a miss) → pop + shake once so the loss is noticed.
+  const reduced = useReducedMotion()
+  const pop = useRef(new Animated.Value(1)).current
+  const shake = useRef(new Animated.Value(0)).current
+  const prevLives = useRef(lives)
+  useEffect(() => {
+    const dropped = !unlimited && lives < prevLives.current
+    prevLives.current = lives
+    if (!dropped || reduced) return
+    const step = (v) => Animated.timing(shake, { toValue: v, duration: 45, useNativeDriver: NATIVE_DRIVER })
+    const a = Animated.parallel([
+      Animated.sequence([
+        Animated.timing(pop, { toValue: 1.22, duration: 110, useNativeDriver: NATIVE_DRIVER }),
+        Animated.spring(pop, { toValue: 1, ...SPRING.bouncy, useNativeDriver: NATIVE_DRIVER }),
+      ]),
+      Animated.sequence([step(3), step(-3), step(2), step(0)]),
+    ])
+    a.start()
+    return () => a.stop()
+  }, [lives, unlimited, reduced])
+
   return (
-    <View style={[s.wrap, isCompact && s.wrapCompact, style]}>
+    <Animated.View style={[s.wrap, isCompact && s.wrapCompact, style, { transform: [{ translateX: shake }, { scale: pop }] }]}>
       <View
         style={[
           s.battery,
@@ -61,7 +84,7 @@ export default function EnergyBattery({
           {label}
         </Text>
       )}
-    </View>
+    </Animated.View>
   )
 }
 
