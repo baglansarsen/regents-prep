@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { Animated } from 'react-native'
-import ReggieMascot from '../components/ReggieMascot'
+import AnimatedReggie from './AnimatedReggie'
 import { NATIVE_DRIVER, SPRING } from './tokens'
 import { useReducedMotion } from './useReducedMotion'
 
@@ -42,7 +42,7 @@ export default function ReactingReggie({ pose = 'idle', size = 48, style }) {
 
   return (
     <Animated.View style={[style, { transform: [{ translateY: y }, { rotate }, { scaleY: sy }] }]}>
-      <ReggieMascot pose={pose} size={size} />
+      <AnimatedReggie pose={pose} size={size} />
     </Animated.View>
   )
 }

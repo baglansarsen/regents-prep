@@ -7,7 +7,7 @@ import PET_SPRITES from '../assets/petSprites'
 import SpriteAnimation from './SpriteAnimation'
 import { hapticHeavy } from '../utils/haptics'
 import { PETS_ENABLED } from '../config/features'
-import ReggieMascot from './ReggieMascot'
+import AnimatedReggie from '../motion/AnimatedReggie'
 
 const PARTICLE_POSITIONS = [
   { top: -10, left: 10  },
@@ -204,7 +204,7 @@ export default function PetWidget({ size = 120, onPress, onLongPress, mini = fal
           ],
         }}
       >
-        <ReggieMascot size={size} />
+        <AnimatedReggie size={size} breathe={!mini} />
       </Animated.View>
     )
     if (!onPress && !onLongPress) return reggie

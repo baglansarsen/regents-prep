@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, StyleSheet, Animated } from 'react-native
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { T } from '../styles/duo'
 import { useCountdown, formatCountdown } from '../hooks/useCountdown'
-import ReggieMascot from './ReggieMascot'
+import AnimatedReggie from '../motion/AnimatedReggie'
 
 /**
  * LivesRefillGate — the "out of energy" recharge sheet, shared by the
@@ -46,7 +46,7 @@ export default function LivesRefillGate({
       <Animated.View style={[s.card, { opacity: opAnim, transform: [{ scale: scaleAnim }], paddingBottom: insets.bottom + 16 }]}>
 
         <View style={{ alignItems: 'center', marginBottom: 4 }}>
-          <ReggieMascot size={96} pose="sleep" />
+          <AnimatedReggie size={96} pose="sleep" />
         </View>
         <Text style={[T.h2, { color: C.text, textAlign: 'center' }]}>Time to recharge!</Text>
         <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 6, marginBottom: 24 }]}>

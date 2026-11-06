@@ -22,7 +22,7 @@ import { useSpeechContext } from '../context/SpeechContext'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import PetWidget from '../components/PetWidget'
 import StudyBuddyCompanion from '../components/StudyBuddyCompanion'
-import ReggieMascot from '../components/ReggieMascot'
+import AnimatedReggie from '../motion/AnimatedReggie'
 import AiGradeButton from '../components/AiGradeButton'
 import LivesRefillGate from '../components/LivesRefillGate'
 import EnergyBattery from '../components/EnergyBattery'
@@ -430,7 +430,7 @@ export default function QuizScreen({ route, navigation }) {
       {/* Full-screen Reggie intro before the end-of-lesson repeat round */}
       <Modal visible={repeatIntro} transparent animationType="fade" onRequestClose={() => setRepeatIntro(false)}>
         <View style={s.repeatIntroBackdrop}>
-          <ReggieMascot size={180} pose="encourage" />
+          <AnimatedReggie size={180} pose="encourage" />
           <Text style={s.repeatIntroTitle}>Let's fix those mistakes!</Text>
           <Text style={s.repeatIntroSub}>
             We'll go back through the {repeatTotal === 1 ? 'one you missed' : `${repeatTotal} you missed`} — one more try each.

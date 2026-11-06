@@ -11,7 +11,7 @@ import { getUpcomingExamSessions } from '../utils/examDates'
 import { GOAL_TIERS } from '../data/goalConfig'
 import { T, elevatedCard } from '../styles/duo'
 import PressableDuo from '../motion/PressableDuo'
-import ReggieMascot from '../components/ReggieMascot'
+import AnimatedReggie from '../motion/AnimatedReggie'
 
 // All exam-offering subjects, in the order SUBJECTS defines them
 const SUBJECTS_LIST = Object.values(SUBJECTS)
@@ -119,7 +119,7 @@ export default function ReggieOnboardingScreen({ onComplete }) {
           </View>
 
           {/* Reggie (right) */}
-          <ReggieMascot pose={pose} size={110} />
+          <AnimatedReggie pose={pose} size={110} />
         </View>
 
         {/* Progress dots */}

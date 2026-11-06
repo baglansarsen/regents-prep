@@ -3,7 +3,7 @@ import { View, Text, Animated, StyleSheet, TouchableOpacity } from 'react-native
 import { PETS } from '../data/petConfig'
 import { useTheme } from '../context/ThemeContext'
 import { PETS_ENABLED } from '../config/features'
-import ReggieMascot from './ReggieMascot'
+import AnimatedReggie from '../motion/AnimatedReggie'
 
 const IDLE_MESSAGES = [
   "You've got this! 💪",
@@ -107,7 +107,7 @@ export default function StudyBuddyCompanion({
       >
         <Animated.View style={[s.petWrap, { transform: [{ translateY: bounceY }, { scale: scaleAnim }] }]}>
           {mascot ? (
-            <ReggieMascot size={64} pose={pose} />
+            <AnimatedReggie size={64} pose={pose} />
           ) : (
             <>
               {hat && <Text style={s.hat}>{hat}</Text>}
