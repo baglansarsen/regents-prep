@@ -339,8 +339,10 @@ export function buildTodayPlan({
 
   // Before a goal or any data exists there is no plan to build — the single
   // onboarding action IS the plan, and inventing two more would be noise.
+  // No headline either: the card already shows lead.title as its hero, and
+  // repeating it as the footer line just echoed the title under the CTA.
   if (lead.actionType === 'set_goal' || lead.actionType === 'checkup') {
-    return { pointsToGo: null, headline: lead.title, tasks: [task(lead)], lead }
+    return { pointsToGo: null, headline: '', tasks: [task(lead)], lead }
   }
 
   const pointsToGo = predicted != null && target != null ? Math.max(0, Math.round(target - predicted)) : null
