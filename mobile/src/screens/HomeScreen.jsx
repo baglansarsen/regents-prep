@@ -217,6 +217,12 @@ export default function HomeScreen({ navigation }) {
     weakestUnit: weakestAttemptedUnit,
     stickiestTopic,
   }), [regentsGoal, coldStart, daysToExam, subject, studiedDates, hasTakenPracticeExam, weakestAttemptedUnit, stickiestTopic])
+  // smartQuestDef is derived from history, so it changes whenever history
+  // reloads. The focus effect below reloads history — reading the quest def via
+  // a ref (instead of listing it as a dep) keeps that effect from re-firing on
+  // its own output, which looped Home for students with quiz history.
+  const smartQuestDefRef = useRef(smartQuestDef)
+  smartQuestDefRef.current = smartQuestDef
 
   // Placement flagged weak basic-math foundations — loaded/snoozed below,
   // declared here so the home-agenda memo can read them.
@@ -304,7 +310,7 @@ export default function HomeScreen({ navigation }) {
     if (PETS_ENABLED && pendingEvolution) navigation.navigate('PetEvolution')
 
     // Refresh quest data (goal-aware when a smart quest applies)
-    getTodayQuest(smartQuestDef).then(setQuestData).catch(() => {})
+    getTodayQuest(smartQuestDefRef.current).then(setQuestData).catch(() => {})
 
     // Streak milestone gifts
     if (uid && streak > 0) {
@@ -336,7 +342,7 @@ export default function HomeScreen({ navigation }) {
       daysUntilExam: daysToExam,
       subject,
     }).then((msg) => { if (msg) say(msg) }).catch(() => {})
-  }, [reloadHistory, reloadSkipUnlocks, refreshTrap, pendingEvolution, uid, streak, smartQuestDef]))
+  }, [reloadHistory, reloadSkipUnlocks, refreshTrap, pendingEvolution, uid, streak]))
 
   const { goal, setGoal, todayRP, progress: goalProgress, goalMet, GOALS, celebrated, markCelebrated } = useDailyGoal(rp, rpLoaded)
 
@@ -366,14 +372,13 @@ export default function HomeScreen({ navigation }) {
     }).catch(() => {})
   }, [uid]))
 
-  // ── Re-run uid-dependent init when auth resolves after mount ────────────────
-  // useFocusEffect fires once on mount (uid may still be null). This effect
-  // covers the gap so quest data, history, and unlocks load without requiring
-  // the user to switch tabs and back.
+  // ── Keep the quest in sync with auth + the goal-aware quest definition ─────
+  // useFocusEffect fires once on mount (uid may still be null). History and
+  // skip-unlocks already load themselves on uid/subject change (useProgress,
+  // useUnitUnlocks), so this only refreshes the quest — never reloads history,
+  // which would feed back into smartQuestDef.
   useEffect(() => {
     if (!uid) return
-    reloadHistory()
-    reloadSkipUnlocks()
     getTodayQuest(smartQuestDef).then(setQuestData).catch(() => {})
   }, [uid, smartQuestDef])
 

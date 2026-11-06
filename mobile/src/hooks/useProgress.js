@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import {
   collection, addDoc, query, orderBy, limit, getDocs, serverTimestamp,
 } from 'firebase/firestore'
@@ -21,6 +21,17 @@ export function resetPendingProgress() {
   _pending.length = 0
 }
 
+// Same entries in the same order → keep the old array so consumers' memos and
+// effects don't re-run on a no-op reload (Home re-runs its focus effect on
+// history-derived values; a fresh array every reload kept it looping).
+const entryKey = (h) => `${h.id ?? ''}|${h.topic}|${h.lessonIndex}|${h.pct}`
+export function sameHistory(a, b) {
+  if (a === b) return true
+  if (!a || !b || a.length !== b.length) return false
+  for (let i = 0; i < a.length; i++) if (entryKey(a[i]) !== entryKey(b[i])) return false
+  return true
+}
+
 function mergeWithPending(firestoreHistory) {
   if (!_pending.length) return firestoreHistory
   const ids = new Set(firestoreHistory.map((h) => `${h.topic}::${h.lessonIndex}::${h.pct}`))
@@ -33,29 +44,40 @@ export function useProgress(uid) {
   // false until the first Firestore load settles — lets consumers avoid acting
   // on the empty initial history (e.g. Home briefly misreading a veteran as cold-start)
   const [historyLoaded, setHistoryLoaded] = useState(false)
+  // Latest uid, so a reload that resolves after an account switch (guest →
+  // signed-in) can't write the previous account's history into the new one.
+  const uidRef = useRef(uid)
+  uidRef.current = uid
 
   useEffect(() => {
     if (!uid) { setHistory([]); setHistoryLoaded(true); return }
     setHistoryLoaded(false)
+    let cancelled = false
     loadHistory(uid)
-      .then((h) => setHistory(mergeWithPending(h)))
+      .then((h) => { if (!cancelled) setHistory(mergeWithPending(h)) })
       .catch((err) => {
         console.warn('[useProgress] Failed to load history:', err)
-        setHistory([..._pending])
+        if (!cancelled) setHistory([..._pending])
       })
-      .finally(() => setHistoryLoaded(true))
+      .finally(() => { if (!cancelled) setHistoryLoaded(true) })
+    return () => { cancelled = true }
   }, [uid])
 
-  // Reload history from Firestore (useful when returning to screen after quiz)
-  async function reloadHistory() {
+  // Reload history from Firestore (useful when returning to screen after quiz).
+  // Memoised on uid: HomeScreen lists it in its useFocusEffect deps, and a new
+  // function each render re-ran that focus effect on every render — an endless
+  // reload → setHistory → render loop (~125 commits/s) on the Home screen.
+  const reloadHistory = useCallback(async () => {
     if (!uid) return
     try {
       const updated = await loadHistory(uid)
-      setHistory(mergeWithPending(updated))
+      if (uidRef.current !== uid) return   // account changed mid-flight
+      const next = mergeWithPending(updated)
+      setHistory((prev) => (sameHistory(prev, next) ? prev : next))
     } catch (err) {
       console.warn('[useProgress] Failed to reload history:', err)
     }
-  }
+  }, [uid])
 
   async function saveResult({ topic, score, total, correct, pct, subject, lessonIndex }) {
     if (!uid) return
