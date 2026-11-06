@@ -18,7 +18,9 @@ Scope: `mobile/` only. Native, web PWA and iPhone Duo must all work.
 | 5 Reggie alive | ✅ code-only | AnimatedReggie (breathe/blink/pose cross-fade), useReggieReaction. **Rive version still needs art.** |
 | 6 Guardrails | ✅ | Reduce Motion verified on every surface (web, `prefers-reduced-motion`); fold/unfold mid-celebration responsive at Duo sizes; Home idle ≈61 commits/s on web (same as before the work) |
 
-Still open: §5 decisions 2–4 (Rive/Lottie art, new sounds, in-app Sound/Animations toggles), and on-device feel (haptics, 120Hz) on iPhone + iPhone Duo hardware.
+In-app toggles shipped (§5.4): Profile → Settings → **Sound Effects** and **Reduce Animations** (device-level; the OS Reduce Motion setting still wins and locks the switch on).
+
+Still open: §5 decisions 2–3 (Rive/Lottie art, new sounds), and on-device feel (haptics, 120Hz) on iPhone + iPhone Duo hardware.
 Press feedback (PressableDuo, PressScale) intentionally stays on under Reduce Motion: direct, touch-anchored feedback, per Apple's guidance.
 
 ## 1. What exists today (audit, 2026-11-06)
