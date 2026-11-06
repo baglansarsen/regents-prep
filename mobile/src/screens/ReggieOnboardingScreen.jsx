@@ -21,19 +21,19 @@ const SUBJECTS_LIST = Object.values(SUBJECTS)
 const STEPS = [
   {
     pose:   'wave',
-    bubble: "Hi, I'm Reggie! 🦕\nI'll get you Regents-ready.\nReady to set up?",
+    bubble: "Hi, I'm Reggie! 🦕\nI'll be your study\nbuddy for the Regents.",
   },
   {
     pose:   'think',
-    bubble: 'Which Regents exam\nare you preparing for?',
+    bubble: "I'll tailor every lesson\nto your exam.",
   },
   {
     pose:   'think',
-    bubble: "When's your Regents?",
+    bubble: "I'll pace your plan\nto the exam date.",
   },
   {
     pose:   'encourage',
-    bubble: "What score are you\naiming for? You've got this.",
+    bubble: "Aim high — you can\nchange it any time.",
   },
   {
     pose:   'celebrate',
@@ -162,7 +162,7 @@ export default function ReggieOnboardingScreen({ onComplete }) {
             <Text style={[T.small, { color: C.textMuted, textAlign: 'center', marginBottom: 36 }]}>
               Let me help you set up in under a minute.
             </Text>
-            <TouchableOpacity
+            <TouchableOpacity accessibilityRole="button"
               style={duoBtn(C.brand, C.brandDark)}
               onPress={() => setStep(1)}
               activeOpacity={0.85}
@@ -180,7 +180,7 @@ export default function ReggieOnboardingScreen({ onComplete }) {
             </Text>
             <View style={s.subjectGrid}>
               {SUBJECTS_LIST.map(({ id, name, icon, color }) => (
-                <TouchableOpacity
+                <TouchableOpacity accessibilityRole="button"
                   key={id}
                   style={[s.subjectCard, { borderColor: color, backgroundColor: color + '18' }]}
                   onPress={() => {
@@ -212,7 +212,7 @@ export default function ReggieOnboardingScreen({ onComplete }) {
               {sessions.map((sn) => {
                 const active = examDateStr === sn.dateStr
                 return (
-                  <TouchableOpacity
+                  <TouchableOpacity accessibilityRole="button"
                     key={sn.dateStr}
                     style={[
                       elevatedCard(C),
@@ -246,7 +246,7 @@ export default function ReggieOnboardingScreen({ onComplete }) {
               {GOAL_TIERS.map((tier) => {
                 const active = target === tier.value
                 return (
-                  <TouchableOpacity
+                  <TouchableOpacity accessibilityRole="button"
                     key={tier.value}
                     style={[
                       elevatedCard(C),
@@ -308,7 +308,7 @@ export default function ReggieOnboardingScreen({ onComplete }) {
             </View>
 
             {/* CTA */}
-            <TouchableOpacity
+            <TouchableOpacity accessibilityRole="button"
               style={[duoBtn(C.brand, C.brandDark, { marginTop: 24, opacity: committing ? 0.6 : 1 })]}
               onPress={handleFinish}
               disabled={committing}
