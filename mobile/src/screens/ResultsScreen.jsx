@@ -6,9 +6,16 @@ import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useRP } from '../hooks/useRP'
-import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
+import { T, duoBtnOutline, cardShadow } from '../styles/duo'
 import MasteryCelebration from '../components/MasteryCelebration'
-import ReggieMascot from '../components/ReggieMascot'
+import ReactingReggie from '../motion/ReactingReggie'
+import Reveal from '../motion/Reveal'
+import Burst from '../motion/Burst'
+import PressableDuo from '../motion/PressableDuo'
+import { useCelebrationSequence } from '../motion/useCelebrationSequence'
+import { useReducedMotion } from '../motion/useReducedMotion'
+import { NATIVE_DRIVER } from '../motion/tokens'
+import { hapticTick, hapticSuccess, hapticHeavy } from '../utils/haptics'
 import ShareCardSheet from '../components/ShareCardSheet'
 import { logEvent } from '../utils/analytics'
 import AsyncStorage from '@react-native-async-storage/async-storage'
@@ -81,6 +88,23 @@ function computeNextNextMeta(sd, nextLessonMeta) {
   return null
 }
 
+// Reveal schedule (ms). RP counts up for 700ms from 'rp'; the streak lands
+// after it with a short beat; actions come last. Tap anywhere skips to the end.
+const RESULTS_SEQUENCE = [
+  ['reggie',  0],
+  ['score',   300],
+  ['status',  600],
+  ['perfect', 650],
+  ['unlock',  850],
+  ['rp',      930],
+  ['combo',   1010],
+  ['time',    1090],
+  ['streak',  1950],
+  ['summary', 2200],
+  ['cta',     2350],
+]
+const PERFECT_COLORS = ['#F5B301', '#FFD34E', '#FFE58A', '#FF9600', '#FFFFFF']
+
 export default function ResultsScreen({ route, navigation }) {
   const {
     score, total, results, bestStreak, topic, subject,
@@ -101,20 +125,8 @@ export default function ResultsScreen({ route, navigation }) {
   const [showShare,      setShowShare]      = useState(false)
   const [showCelebration, setShowCelebration] = useState(firstMastery)
   const [displayRP,    setDisplayRP]    = useState(0)
-  const [showStreak,   setShowStreak]   = useState(false)
   const rpAnim     = useRef(new Animated.Value(0)).current
-  const streakAnim = useRef(new Animated.Value(0)).current
-
-  useEffect(() => {
-    if (rpEarned <= 0) return
-    const id = rpAnim.addListener(({ value }) => setDisplayRP(Math.round(value)))
-    Animated.timing(rpAnim, { toValue: rpEarned, duration: 900, useNativeDriver: false }).start(() => {
-      // After RP counts up, reveal the streak banner
-      setShowStreak(true)
-      Animated.spring(streakAnim, { toValue: 1, useNativeDriver: true, tension: 120, friction: 8 }).start()
-    })
-    return () => rpAnim.removeListener(id)
-  }, [])
+  const flame      = useRef(new Animated.Value(0)).current
 
   // Auto-advance to next unit Lesson 1 after a challenge pass
   useEffect(() => {
@@ -146,13 +158,61 @@ export default function ResultsScreen({ route, navigation }) {
   const pct      = total ? Math.round((correct / total) * 100) : 0   // guard reflection-only (total = 0)
   const passed   = pct >= 65
   const mastered = pct >= 85
+  const perfect  = !isDailyTrap && total >= 3 && correct === total
+
+  // ── Staged, skippable reveal (animation-plan.md Phase 2) ───────────────────
+  // Held while the first-mastery overlay is up; Reduce Motion reveals at once.
+  const reduced = useReducedMotion()
+  const seq = useCelebrationSequence(RESULTS_SEQUENCE, { run: !showCelebration, instant: reduced })
+  const at = seq.reached
+
+  // Haptic beats: arrival, and the Perfect stamp landing.
+  useEffect(() => { if (at('reggie') && passed) hapticSuccess() }, [at('reggie')])
+  useEffect(() => { if (at('perfect') && perfect) hapticHeavy() }, [at('perfect')])
+
+  // RP counts up once its banner is in, with a light tick at each quarter.
+  useEffect(() => {
+    if (!at('rp') || rpEarned <= 0) return
+    let lastQuarter = 0
+    const id = rpAnim.addListener(({ value }) => {
+      setDisplayRP(Math.round(value))
+      const q = Math.floor((value / rpEarned) * 4)
+      if (q > lastQuarter && q < 4) { lastQuarter = q; hapticTick() }
+    })
+    Animated.timing(rpAnim, { toValue: rpEarned, duration: reduced ? 0 : 700, useNativeDriver: false }).start()
+    return () => rpAnim.removeListener(id)
+  }, [at('rp')])
+
+  // Streak flame ignites (0 → 1.15 → 1), then a gentle flicker.
+  useEffect(() => {
+    if (!at('streak') || streak <= 0) return
+    if (reduced) { flame.setValue(1); return }
+    flame.setValue(0)
+    const a = Animated.sequence([
+      Animated.spring(flame, { toValue: 1, tension: 260, friction: 6, useNativeDriver: NATIVE_DRIVER }),
+      Animated.loop(Animated.sequence([
+        Animated.timing(flame, { toValue: 1.08, duration: 380, useNativeDriver: NATIVE_DRIVER }),
+        Animated.timing(flame, { toValue: 0.97, duration: 420, useNativeDriver: NATIVE_DRIVER }),
+      ]), { iterations: 4 }),
+    ])
+    a.start()
+    return () => a.stop()
+  }, [at('streak'), streak])
+
+  // Tap anywhere skips to the final state (RP lands at its total).
+  function skipReveal() {
+    if (seq.done) return
+    seq.skip()
+    rpAnim.stopAnimation()
+    setDisplayRP(rpEarned)
+  }
 
   // Denominator for share-rate: every results view, with score context
   useEffect(() => {
     logEvent('results_viewed', { pct, subject, topic, passed })
   }, [])
 
-  const ringColor  = mastered ? C.correct : passed ? C.warn : C.wrong
+  const ringColor  = perfect ? '#F5B301' : mastered ? C.correct : passed ? C.warn : C.wrong
   const ringDark   = mastered ? C.brandDark : passed ? '#B38500' : C.wrongDark
   // Daily Trap gets its own framing — a miss here is a WIN for exam day.
   const trapDodged  = isDailyTrap && correct === total
@@ -173,60 +233,80 @@ export default function ResultsScreen({ route, navigation }) {
   const s = makeStyles(C)
 
   return (
-    <SafeAreaView style={s.safe} edges={['bottom']}>
+    <SafeAreaView style={s.safe} edges={['bottom']} onTouchStart={skipReveal} onClick={skipReveal}>
+      {/* Confetti for a pass; gold and bigger for a perfect lesson */}
+      <Burst
+        run={passed && at('reggie')}
+        intensity={perfect ? 'large' : 'medium'}
+        colors={perfect ? PERFECT_COLORS : undefined}
+      />
       <ScrollView contentContainerStyle={s.scroll} showsVerticalScrollIndicator={false}>
 
-        {/* Reggie reacts to the result */}
-        <ReggieMascot size={120} pose={passed ? 'celebrate' : 'encourage'} style={{ marginBottom: 8 }} />
-
-        {/* Score circle */}
-        <View style={[s.circleOuter, { borderColor: ringColor, ...cardShadow(C.shadow) }]}>
-          <View style={[s.circleInner, { backgroundColor: ringColor + '20' }]}>
-            <Text style={[T.num, { color: ringColor }]}>{pct}%</Text>
-            <Text style={[T.small, { color: C.textMuted }]}>{correct} / {total}</Text>
-          </View>
+        {/* Reggie reacts to the result (mounting on reveal plays his hop) */}
+        <View style={{ width: 120, height: 120, marginBottom: 8 }}>
+          {at('reggie') && (
+            <Reveal shown from="pop">
+              <ReactingReggie size={120} pose={passed ? 'celebrate' : 'encourage'} />
+            </Reveal>
+          )}
         </View>
 
-        <Text style={[T.h1, { color: C.text, marginBottom: 16 }]}>{statusLabel}</Text>
+        {/* Score circle (+ Perfect stamp) */}
+        <Reveal shown={at('score')} from="pop">
+          <View style={[s.circleOuter, { borderColor: ringColor, ...cardShadow(C.shadow) }]}>
+            <View style={[s.circleInner, { backgroundColor: ringColor + '20' }]}>
+              <Text style={[T.num, { color: ringColor }]}>{pct}%</Text>
+              <Text style={[T.small, { color: C.textMuted }]}>{correct} / {total}</Text>
+            </View>
+          </View>
+          {perfect && (
+            <Reveal shown={at('perfect')} from="stamp" style={s.perfectStamp}>
+              <Text style={s.perfectText}>PERFECT!</Text>
+            </Reveal>
+          )}
+        </Reveal>
 
-        {/* Banners */}
+        <Reveal shown={at('status')} style={{ alignItems: 'center' }}>
+          <Text style={[T.h1, { color: C.text, marginBottom: 16 }]}>{statusLabel}</Text>
+        </Reveal>
+
+        {/* Banners, staggered */}
         {challengeUnlocked && unlockedTopic && (
-          <View style={[s.banner, { backgroundColor: '#22C55E15', borderColor: '#22C55E60' }]}>
+          <Reveal shown={at('unlock')} style={[s.banner, { backgroundColor: '#22C55E15', borderColor: '#22C55E60' }]}>
             <Text style={[T.h3, { color: '#16a34a' }]}>
               🔓 Next unit unlocked! ({unlockedTopic})
             </Text>
-          </View>
+          </Reveal>
         )}
         {rpEarned > 0 && (
-          <View style={[s.banner, { backgroundColor: C.warnBg, borderColor: C.warn + '60' }]}>
+          <Reveal shown={at('rp')} style={[s.banner, { backgroundColor: C.warnBg, borderColor: C.warn + '60' }]}>
             <Text style={[T.h3, { color: C.warn }]}>
               ⭐ +{displayRP} RP earned{doubleRP ? '  ⚡ 2× boost!' : ''}
             </Text>
-          </View>
+          </Reveal>
         )}
         {bestStreak >= 3 && (
-          <View style={[s.banner, { backgroundColor: '#FF960015', borderColor: '#FF960040' }]}>
+          <Reveal shown={at('combo')} style={[s.banner, { backgroundColor: '#FF960015', borderColor: '#FF960040' }]}>
             <Text style={[T.body, { color: '#FF9600' }]}>
               🔥 Best combo: {bestStreak} in a row!
             </Text>
-          </View>
+          </Reveal>
         )}
         {sessionTime >= 60 && (
-          <View style={[s.banner, { backgroundColor: C.surface2, borderColor: C.border }]}>
+          <Reveal shown={at('time')} style={[s.banner, { backgroundColor: C.surface2, borderColor: C.border }]}>
             <Text style={[T.body, { color: C.textMuted }]}>
               ⏱ Time: {formatTime(sessionTime)}
             </Text>
-          </View>
+          </Reveal>
         )}
 
-        {/* Streak celebration banner */}
-        {showStreak && streak > 0 && (
-          <Animated.View style={[
+        {/* Streak banner — flame ignites when it lands */}
+        {streak > 0 && (
+          <Reveal shown={at('streak')} style={[
             s.streakBanner,
             { backgroundColor: C.surface, borderColor: C.brand + '60' },
-            { transform: [{ scale: streakAnim }], opacity: streakAnim },
           ]}>
-            <Text style={s.streakFire}>🔥</Text>
+            <Animated.Text style={[s.streakFire, { transform: [{ scale: flame }] }]}>🔥</Animated.Text>
             <View style={{ flex: 1 }}>
               <Text style={[T.h3, { color: C.text }]}>
                 {streak}-day streak!{streak >= 7 ? ' 🏆' : ''}
@@ -240,9 +320,11 @@ export default function ResultsScreen({ route, navigation }) {
                 ))}
               </View>
             </View>
-          </Animated.View>
+          </Reveal>
         )}
 
+        {/* Everything below the headline arrives together, after the streak */}
+        <Reveal shown={at('summary')} style={{ alignSelf: 'stretch', alignItems: 'center' }}>
         {/* Engagement nudge */}
         {rp !== undefined && (() => {
           const nudge = getEngagementNudge('results', { pct, rpEarned, rp, level })
@@ -267,13 +349,14 @@ export default function ResultsScreen({ route, navigation }) {
 
         {/* Share — only surface wins (65%+); people share flexes, not fails */}
         {passed && (
-          <TouchableOpacity
-            style={duoBtn(C.warn, '#B38500', { alignSelf: 'stretch' })}
+          <PressableDuo
+            color={C.warn}
+            darkColor="#B38500"
+            style={{ alignSelf: 'stretch' }}
             onPress={() => setShowShare(true)}
-            activeOpacity={0.85}
           >
             <Text style={[T.btn, { color: '#fff' }]}>📤 FLEX MY SCORE</Text>
-          </TouchableOpacity>
+          </PressableDuo>
         )}
 
         {/* Review */}
@@ -325,11 +408,13 @@ export default function ResultsScreen({ route, navigation }) {
           </View>
         ))}
 
+        </Reveal>
+
         <View style={{ height: 8 }} />
       </ScrollView>
 
       {/* ── Sticky action footer — always visible without scrolling ── */}
-      <View style={[s.stickyFooter, { backgroundColor: C.bg, borderTopColor: C.border }]}>
+      <Reveal shown={at('cta')} style={[s.stickyFooter, { backgroundColor: C.bg, borderTopColor: C.border }]}>
         {passed ? (
           <View style={s.actions}>
             <TouchableOpacity
@@ -339,8 +424,11 @@ export default function ResultsScreen({ route, navigation }) {
               <Text style={[T.btn, { color: C.text }]}>🏠 HOME</Text>
             </TouchableOpacity>
             {nextLessonMeta && (
-              <TouchableOpacity
-                style={duoBtn(C.brand, C.brandDark, { flex: 1 })}
+              <PressableDuo
+                color={C.brand}
+                darkColor={C.brandDark}
+                style={{ flex: 1 }}
+                faceStyle={{ paddingHorizontal: 12 }}
                 onPress={() => {
                   const sd = SUBJECT_DATA[subject] ?? leData
                   const qs = sd.getLessonQuestions(
@@ -362,20 +450,23 @@ export default function ResultsScreen({ route, navigation }) {
                 <Text style={[T.btn, { color: '#fff' }]} numberOfLines={1}>
                   {nextLessonMeta.isChallenge ? '⚡' : '▶'} {nextLessonMeta.label}
                 </Text>
-              </TouchableOpacity>
+              </PressableDuo>
             )}
           </View>
         ) : (
           <View style={s.actions}>
-            <TouchableOpacity
-              style={duoBtn(C.brand, C.brandDark, { flex: 1 })}
+            <PressableDuo
+              color={C.brand}
+              darkColor={C.brandDark}
+              style={{ flex: 1 }}
+              faceStyle={{ paddingHorizontal: 12 }}
               onPress={() => navigation.replace('Quiz', {
                 questionSet: shuffle(results.map((r) => r.question)),
                 topic, subject, lessonIndex,
               })}
             >
               <Text style={[T.btn, { color: '#fff' }]}>🔁 TRY AGAIN</Text>
-            </TouchableOpacity>
+            </PressableDuo>
             <TouchableOpacity
               style={duoBtnOutline(C.border, { flex: 1 })}
               onPress={() => navigation.navigate('Home')}
@@ -384,7 +475,7 @@ export default function ResultsScreen({ route, navigation }) {
             </TouchableOpacity>
           </View>
         )}
-      </View>
+      </Reveal>
       {/* ── Mastery celebration overlay ── */}
       {showCelebration && (
         <MasteryCelebration
@@ -445,6 +536,12 @@ function makeStyles(C) {
     banner:       { alignSelf: 'stretch', borderRadius: 16, paddingHorizontal: 18, paddingVertical: 13, borderWidth: 1 },
     streakBanner: { flexDirection: 'row', alignItems: 'center', gap: 12, alignSelf: 'stretch', borderRadius: 16, padding: 14, borderWidth: 1.5 },
     streakFire:   { fontSize: 36 },
+    perfectStamp: {
+      position: 'absolute', top: -6, right: -38,
+      paddingHorizontal: 10, paddingVertical: 4, borderRadius: 8,
+      backgroundColor: '#F5B301', borderWidth: 2, borderColor: '#FFFFFF',
+    },
+    perfectText:  { fontFamily: 'Fredoka_700Bold', fontSize: 16, color: '#3B2A00', letterSpacing: 1 },
     streakDots:   { flexDirection: 'row', gap: 5, marginTop: 6 },
     streakDot:    { width: 12, height: 12, borderRadius: 6, backgroundColor: C.surface2, borderWidth: 1, borderColor: C.border },
     summaryCard:  { alignSelf: 'stretch', backgroundColor: C.surface, borderRadius: 20, overflow: 'hidden', borderWidth: 1, borderColor: C.border, shadowColor: '#000', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.1, shadowRadius: 12, elevation: 5 },
