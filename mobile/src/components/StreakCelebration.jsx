@@ -1,11 +1,14 @@
 import React, { useEffect, useRef, useState } from 'react'
 import {
-  Modal, View, Text, TouchableOpacity, StyleSheet, Animated, Easing, useWindowDimensions,
+  Modal, View, Text, TouchableOpacity, StyleSheet, Animated,
 } from 'react-native'
 import Svg, { Defs, LinearGradient, Stop, Rect } from 'react-native-svg'
 import { useTheme } from '../context/ThemeContext'
 import PetWidget from './PetWidget'
 import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
+import Burst from '../motion/Burst'
+
+const STREAK_COLORS = ['#FFD34E', '#FF7A00', '#22C55E', '#34B3F1', '#EC4899', '#5B3FD1']
 
 // Palette per celebration flavor.
 const FLAVORS = {
@@ -14,64 +17,6 @@ const FLAVORS = {
   record:    { top: '#FFE066', bottom: '#FF7A00', accent: '#F59E0B' },
   freeze:    { top: '#5EC8F5', bottom: '#1C8FE0', accent: '#0EA5E9' },
   broken:    { top: '#64748B', bottom: '#334155', accent: '#0EA5E9' },
-}
-
-const CONFETTI_COLORS = ['#FFD34E', '#FF7A00', '#22C55E', '#34B3F1', '#EC4899', '#5B3FD1']
-
-// ── Confetti ────────────────────────────────────────────────────────────────
-function Confetti({ run, count = 28 }) {
-  const { width: SCREEN_W, height: SCREEN_H } = useWindowDimensions()
-  const pieces = useRef(
-    Array.from({ length: count }, (_, i) => ({
-      key: i,
-      xFrac: Math.random(),   // scaled by live window width at render
-      size: 7 + Math.random() * 7,
-      color: CONFETTI_COLORS[i % CONFETTI_COLORS.length],
-      delay: Math.random() * 400,
-      drift: (Math.random() - 0.5) * 120,
-      rounded: Math.random() > 0.5,
-      anim: new Animated.Value(0),
-    }))
-  ).current
-
-  useEffect(() => {
-    if (!run) return
-    const animations = pieces.map((p) =>
-      Animated.timing(p.anim, {
-        toValue: 1,
-        duration: 1500 + Math.random() * 900,
-        delay: p.delay,
-        easing: Easing.in(Easing.quad),
-        useNativeDriver: true,
-      })
-    )
-    Animated.stagger(20, animations).start()
-  }, [run])
-
-  if (!run) return null
-  return (
-    <View pointerEvents="none" style={StyleSheet.absoluteFill}>
-      {pieces.map((p) => {
-        const translateY = p.anim.interpolate({ inputRange: [0, 1], outputRange: [-40, SCREEN_H * 0.62] })
-        const translateX = p.anim.interpolate({ inputRange: [0, 1], outputRange: [0, p.drift] })
-        const rotate = p.anim.interpolate({ inputRange: [0, 1], outputRange: ['0deg', `${720 + Math.random() * 360}deg`] })
-        const opacity = p.anim.interpolate({ inputRange: [0, 0.85, 1], outputRange: [1, 1, 0] })
-        return (
-          <Animated.View
-            key={p.key}
-            style={{
-              position: 'absolute', top: 0, left: p.xFrac * SCREEN_W,
-              width: p.size, height: p.size,
-              borderRadius: p.rounded ? p.size / 2 : 2,
-              backgroundColor: p.color,
-              opacity,
-              transform: [{ translateY }, { translateX }, { rotate }],
-            }}
-          />
-        )
-      })}
-    </View>
-  )
 }
 
 // ── Animated week chain ───────────────────────────────────────────────────────
@@ -238,7 +183,8 @@ export default function StreakCelebration({ event, onClose, weekDays, streak, rp
         </Svg>
 
         {/* Confetti for positive events */}
-        <Confetti run={isContinued} count={isMilestone || isRecord ? 40 : 26} />
+        {/* Warm palette to match the flame backdrop; falls to ~62% height. */}
+        <Burst run={isContinued} count={isMilestone || isRecord ? 40 : 26} colors={STREAK_COLORS} fall={0.62} />
 
         <Animated.View style={[s.content, { opacity: cardOpacity, transform: [{ scale: cardScale }] }]}>
 

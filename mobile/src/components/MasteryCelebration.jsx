@@ -1,81 +1,17 @@
-import React, { useRef, useEffect, useMemo } from 'react'
+import React, { useRef, useEffect } from 'react'
 import {
   View, Text, TouchableOpacity, StyleSheet,
-  Animated, ScrollView, useWindowDimensions,
+  Animated, ScrollView,
 } from 'react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { T, duoBtn } from '../styles/duo'
+import Burst from '../motion/Burst'
 
-const COLORS   = ['#FF5A5F', '#FF9600', '#1FC36B', '#34B3F1', '#7C5CFC', '#FFC93C', '#FF69B4']
-const COUNT    = 48
-
-// Stable per-particle config (generated once, never changes)
-function makeParticles() {
-  return Array.from({ length: COUNT }, (_, i) => ({
-    id:        i,
-    xFrac:     Math.random(),                   // scaled by live window width
-    color:     COLORS[Math.floor(Math.random() * COLORS.length)],
-    delay:     Math.random() * 700,
-    duration:  1800 + Math.random() * 1200,
-    size:      6 + Math.random() * 7,           // 6–13 dp
-    aspect:    0.4 + Math.random() * 0.8,       // width/height ratio
-    rotations: (Math.random() > 0.5 ? 1 : -1)  // clockwise or counter
-               * (1 + Math.floor(Math.random() * 3)), // 1–3 full spins
-  }))
-}
-
-function ConfettiParticle({ xFrac, W, H, color, delay, duration, size, aspect, rotations }) {
-  const x = xFrac * (W - 10)
-  const translateY = useRef(new Animated.Value(-size - 10)).current
-  const rotate     = useRef(new Animated.Value(0)).current
-
-  useEffect(() => {
-    Animated.sequence([
-      Animated.delay(delay),
-      Animated.parallel([
-        Animated.timing(translateY, {
-          toValue:         H + size + 20,
-          duration,
-          useNativeDriver: true,
-        }),
-        Animated.timing(rotate, {
-          toValue:         1,
-          duration,
-          useNativeDriver: true,
-        }),
-      ]),
-    ]).start()
-  }, [])
-
-  const rotateDeg = rotate.interpolate({
-    inputRange:  [0, 1],
-    outputRange: ['0deg', `${rotations * 360}deg`],
-  })
-
-  return (
-    <Animated.View
-      style={{
-        position:        'absolute',
-        left:            x,
-        top:             0,
-        width:           size,
-        height:          size * aspect,
-        borderRadius:    2,
-        backgroundColor: color,
-        transform:       [{ translateY }, { rotate: rotateDeg }],
-      }}
-    />
-  )
-}
 
 export default function MasteryCelebration({ topic, onDismiss }) {
   const { C } = useTheme()
   const insets = useSafeAreaInsets()
-  const { width: W, height: H } = useWindowDimensions()
-
-  // Stable particle config — must not change on re-render
-  const particles = useMemo(makeParticles, [])
 
   // Entry animations
   const bgOpacity   = useRef(new Animated.Value(0)).current
@@ -110,11 +46,7 @@ export default function MasteryCelebration({ topic, onDismiss }) {
     <Animated.View style={[s.overlay, { opacity: bgOpacity }]} pointerEvents="box-none">
 
       {/* Confetti layer */}
-      <View style={StyleSheet.absoluteFill} pointerEvents="none">
-        {particles.map((p) => (
-          <ConfettiParticle key={p.id} {...p} W={W} H={H} />
-        ))}
-      </View>
+      <Burst intensity="large" />
 
       {/* Card */}
       <Animated.View
