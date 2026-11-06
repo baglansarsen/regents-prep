@@ -3,6 +3,7 @@ import {
   View, Text, TextInput, TouchableOpacity, StyleSheet,
   KeyboardAvoidingView, Platform, ScrollView, ActivityIndicator, Alert, Image, Animated,
 } from 'react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import * as AppleAuthentication from 'expo-apple-authentication'
 import { useTheme } from '../context/ThemeContext'
@@ -97,9 +98,11 @@ export default function LoginScreen({ navigation }) {
           </View>
 
           {/* Mode toggle */}
-          <View style={[s.toggle, cardShadow(C.shadow)]}>
+          <View style={[s.toggle, cardShadow(C.shadow)]} accessibilityRole="tablist">
             {['login', 'signup'].map((m) => (
               <TouchableOpacity
+                accessibilityRole="tab"
+                aria-selected={mode === m}
                 key={m}
                 style={[s.toggleBtn, mode === m && { backgroundColor: C.brand }]}
                 onPress={() => setMode(m)}
@@ -115,7 +118,7 @@ export default function LoginScreen({ navigation }) {
           <View style={s.form}>
             {mode === 'signup' && (
               <View style={[s.inputWrap, focusedField === 'name' && { borderColor: C.brand }]}>
-                <Text style={s.inputIcon}>👤</Text>
+                <Ionicons name="person-outline" size={18} color={C.textMuted} style={s.inputIcon} />
                 <TextInput
                   style={s.input}
                   placeholder="Your name"
@@ -132,7 +135,7 @@ export default function LoginScreen({ navigation }) {
               </View>
             )}
             <View style={[s.inputWrap, focusedField === 'email' && { borderColor: C.brand }]}>
-              <Text style={s.inputIcon}>📧</Text>
+              <Ionicons name="mail-outline" size={18} color={C.textMuted} style={s.inputIcon} />
               <TextInput
                 style={s.input}
                 placeholder="Email address"
@@ -153,7 +156,7 @@ export default function LoginScreen({ navigation }) {
               />
             </View>
             <View style={[s.inputWrap, focusedField === 'password' && { borderColor: C.brand }]}>
-              <Text style={s.inputIcon}>🔒</Text>
+              <Ionicons name="lock-closed-outline" size={18} color={C.textMuted} style={s.inputIcon} />
               <TextInput
                 style={s.input}
                 placeholder="Password"
@@ -173,7 +176,7 @@ export default function LoginScreen({ navigation }) {
             </View>
 
             <Animated.View style={{ transform: [{ scale: submitScale }], width: '100%' }}>
-              <TouchableOpacity
+              <TouchableOpacity accessibilityRole="button"
                 style={duoBtn(C.brand, C.brandDark, { marginTop: 8, width: '100%' })}
                 onPress={handleSubmit}
                 disabled={loading}
@@ -221,7 +224,7 @@ export default function LoginScreen({ navigation }) {
 
           {/* Google Sign-In */}
           <Animated.View style={{ transform: [{ scale: googleScale }], width: '100%' }}>
-            <TouchableOpacity
+            <TouchableOpacity accessibilityRole="button"
               style={[s.googleBtn, { width: '100%' }]}
               onPress={async () => {
                 setLoading(true)
@@ -252,7 +255,7 @@ export default function LoginScreen({ navigation }) {
           </Animated.View>
 
           <Animated.View style={{ transform: [{ scale: guestScale }], width: '100%' }}>
-            <TouchableOpacity
+            <TouchableOpacity accessibilityRole="button"
               style={[duoBtnOutline(C.border), { marginTop: 10, width: '100%' }]}
               onPress={handleGuest}
               disabled={loading}
@@ -296,7 +299,7 @@ function makeStyles(C) {
     toggleBtn:  { flex: 1, paddingVertical: 11, borderRadius: 11, alignItems: 'center' },
     form:       { gap: 12 },
     inputWrap:  { flexDirection: 'row', alignItems: 'center', backgroundColor: C.surface, borderRadius: 14, borderWidth: 2, borderColor: C.border, paddingHorizontal: 14 },
-    inputIcon:  { fontSize: 18, marginRight: 8 },
+    inputIcon:  { marginRight: 10 },
     input:      { flex: 1, paddingVertical: 14, color: C.text, fontFamily: 'Nunito_600SemiBold', fontSize: 15 },
     divider:    { flexDirection: 'row', alignItems: 'center', marginVertical: 22, gap: 12 },
     divLine:    { flex: 1, height: 1.5, backgroundColor: C.border },

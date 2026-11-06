@@ -1,7 +1,7 @@
 import React from 'react'
 import { View } from 'react-native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import { Text } from 'react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { useTheme } from '../context/ThemeContext'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 
@@ -15,12 +15,10 @@ import TourHost from '../components/TourHost'
 
 const Tab = createBottomTabNavigator()
 
-function TabIcon({ emoji, focused }) {
-  return (
-    <Text style={{ fontSize: focused ? 22 : 20, opacity: focused ? 1 : 0.55 }}>
-      {emoji}
-    </Text>
-  )
+// Vector icons, tinted by the tab bar (emoji ignored tint colours and render
+// differently on every platform). Filled when focused, outline otherwise.
+function TabIcon({ name, focused, color }) {
+  return <Ionicons name={focused ? name : `${name}-outline`} size={22} color={color} />
 }
 
 export default function TabNavigator() {
@@ -55,7 +53,7 @@ export default function TabNavigator() {
           component={StudyStack}
           options={{
             tabBarLabel: 'Study',
-            tabBarIcon: ({ focused }) => <TabIcon emoji="🏠" focused={focused} />,
+            tabBarIcon: ({ focused, color }) => <TabIcon name="home" focused={focused} color={color} />,
           }}
         />
         <Tab.Screen
@@ -63,7 +61,7 @@ export default function TabNavigator() {
           component={ExamsStack}
           options={{
             tabBarLabel: 'Exams',
-            tabBarIcon: ({ focused }) => <TabIcon emoji="📝" focused={focused} />,
+            tabBarIcon: ({ focused, color }) => <TabIcon name="document-text" focused={focused} color={color} />,
           }}
         />
         <Tab.Screen
@@ -71,7 +69,7 @@ export default function TabNavigator() {
           component={FriendsStack}
           options={{
             tabBarLabel: 'Social',
-            tabBarIcon: ({ focused }) => <TabIcon emoji="👥" focused={focused} />,
+            tabBarIcon: ({ focused, color }) => <TabIcon name="people" focused={focused} color={color} />,
           }}
         />
         <Tab.Screen
@@ -79,7 +77,7 @@ export default function TabNavigator() {
           component={ProfileStack}
           options={{
             tabBarLabel: 'Profile',
-            tabBarIcon: ({ focused }) => <TabIcon emoji="👤" focused={focused} />,
+            tabBarIcon: ({ focused, color }) => <TabIcon name="person" focused={focused} color={color} />,
           }}
         />
       </Tab.Navigator>
