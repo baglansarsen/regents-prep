@@ -55,7 +55,7 @@ export default function NextActionCard({
     <View style={[s.card, elevatedCard(C)]}>
       {/* ── Goal strip — subject, predicted→target, exam countdown ── */}
       {goal && (
-        <TouchableOpacity style={s.goalStrip} onPress={onOpenGoal} activeOpacity={0.75}>
+        <TouchableOpacity accessibilityRole="button" style={s.goalStrip} onPress={onOpenGoal} activeOpacity={0.75}>
           <GoalRing size={34} strokeWidth={4} progress={ringProgress} color={ringColor} trackColor={C.surface2}>
             <Text style={{ fontSize: 12 }}>{!goal.hasGoal ? '🎯' : goal.coldStart ? '—' : ''}</Text>
           </GoalRing>
@@ -97,12 +97,12 @@ export default function NextActionCard({
         </Text>
       )}
 
-      <TouchableOpacity style={duoBtn(C.brand, C.brandDark)} onPress={onPress} activeOpacity={0.85}>
+      <TouchableOpacity accessibilityRole="button" style={duoBtn(C.brand, C.brandDark)} onPress={onPress} activeOpacity={0.85}>
         <Text style={[T.btn, { color: '#fff' }]}>{hero.cta}</Text>
       </TouchableOpacity>
 
       {onSkip && (
-        <TouchableOpacity onPress={onSkip} activeOpacity={0.7} style={{ alignSelf: 'center', marginTop: 8 }}>
+        <TouchableOpacity accessibilityRole="button" onPress={onSkip} activeOpacity={0.7} style={{ alignSelf: 'center', marginTop: 8 }}>
           <Text style={[T.small, { color: C.textDim }]}>Not now</Text>
         </TouchableOpacity>
       )}
@@ -117,7 +117,7 @@ export default function NextActionCard({
             </Text>
           ) : null}
           {showDisclosure && (
-            <TouchableOpacity onPress={() => setExpanded((v) => !v)} activeOpacity={0.7}>
+            <TouchableOpacity accessibilityRole="button" onPress={() => setExpanded((v) => !v)} activeOpacity={0.7}>
               <Text style={[T.small, { color: C.brand, marginTop: 4, fontWeight: '700' }]}>
                 {expanded ? 'Hide the rest' : `See today's full plan (${extras.length} more)`} {expanded ? '⌃' : '›'}
               </Text>
@@ -131,7 +131,7 @@ export default function NextActionCard({
           {extras.map((t, i) => {
             const done = doneIds?.has(t.id)
             return (
-              <TouchableOpacity
+              <TouchableOpacity accessibilityRole="button"
                 key={t.id}
                 onPress={() => onExtraPress?.(t)}
                 activeOpacity={0.8}
