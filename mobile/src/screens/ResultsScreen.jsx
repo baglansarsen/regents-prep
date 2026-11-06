@@ -15,6 +15,7 @@ import PressableDuo from '../motion/PressableDuo'
 import { useCelebrationSequence } from '../motion/useCelebrationSequence'
 import { useReducedMotion } from '../motion/useReducedMotion'
 import { NATIVE_DRIVER } from '../motion/tokens'
+import { useRewardFlight } from '../motion/RewardFlight'
 import { hapticTick, hapticSuccess, hapticHeavy } from '../utils/haptics'
 import ShareCardSheet from '../components/ShareCardSheet'
 import { logEvent } from '../utils/analytics'
@@ -127,6 +128,8 @@ export default function ResultsScreen({ route, navigation }) {
   const [displayRP,    setDisplayRP]    = useState(0)
   const rpAnim     = useRef(new Animated.Value(0)).current
   const flame      = useRef(new Animated.Value(0)).current
+  const rpBannerRef = useRef(null)
+  const { fly }     = useRewardFlight()
 
   // Auto-advance to next unit Lesson 1 after a challenge pass
   useEffect(() => {
@@ -179,7 +182,10 @@ export default function ResultsScreen({ route, navigation }) {
       const q = Math.floor((value / rpEarned) * 4)
       if (q > lastQuarter && q < 4) { lastQuarter = q; hapticTick() }
     })
-    Animated.timing(rpAnim, { toValue: rpEarned, duration: reduced ? 0 : 700, useNativeDriver: false }).start()
+    Animated.timing(rpAnim, { toValue: rpEarned, duration: reduced ? 0 : 700, useNativeDriver: false }).start(({ finished }) => {
+      // Counted up naturally (not skipped) → the stars fly home to the top bar.
+      if (finished) fly({ fromRef: rpBannerRef, to: 'rp', icon: '⭐', count: Math.min(8, Math.max(4, Math.round(rpEarned / 10))) })
+    })
     return () => rpAnim.removeListener(id)
   }, [at('rp')])
 
@@ -280,9 +286,11 @@ export default function ResultsScreen({ route, navigation }) {
         )}
         {rpEarned > 0 && (
           <Reveal shown={at('rp')} style={[s.banner, { backgroundColor: C.warnBg, borderColor: C.warn + '60' }]}>
-            <Text style={[T.h3, { color: C.warn }]}>
-              ⭐ +{displayRP} RP earned{doubleRP ? '  ⚡ 2× boost!' : ''}
-            </Text>
+            <View ref={rpBannerRef} collapsable={false}>
+              <Text style={[T.h3, { color: C.warn }]}>
+                ⭐ +{displayRP} RP earned{doubleRP ? '  ⚡ 2× boost!' : ''}
+              </Text>
+            </View>
           </Reveal>
         )}
         {bestStreak >= 3 && (

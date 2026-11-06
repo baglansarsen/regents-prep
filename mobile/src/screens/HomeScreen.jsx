@@ -65,6 +65,7 @@ import StartCallout from '../motion/StartCallout'
 import UnlockPop, { newlyUnlocked } from '../motion/UnlockPop'
 import PressScale from '../motion/PressScale'
 import Burst from '../motion/Burst'
+import LevelUpCelebration from '../motion/LevelUpCelebration'
 import { hapticSuccess } from '../utils/haptics'
 
 const MILESTONE_GIFTS = {
@@ -85,6 +86,8 @@ const GOAL_PET_MESSAGES = {
 }
 
 const NODE_SIZE = 84
+// Shown in the level-up moment and awarded on it — one number so the copy can't drift.
+const LEVEL_UP_BONUS_RP = 25
 const ZIGZAG   = 72
 
 export default function HomeScreen({ navigation }) {
@@ -372,7 +375,7 @@ export default function HomeScreen({ navigation }) {
       const data = JSON.parse(raw)
       // Small bonus for levelling up. Kept low (and flat) so it can't cross the
       // next level threshold and cascade, and doesn't dwarf actual question RP.
-      earnRP(25)
+      earnRP(LEVEL_UP_BONUS_RP)
       setLevelUpModal(data)
     }).catch(() => {})
   }, [uid]))
@@ -1463,31 +1466,14 @@ export default function HomeScreen({ navigation }) {
         subject={subject}
       />
 
-      {/* Level-up modal */}
-      <Modal transparent visible={!!levelUpModal} animationType="fade" onRequestClose={() => setLevelUpModal(null)}>
-        <View style={s.modalBackdrop}>
-          <View style={[s.modalCard, { backgroundColor: C.surface }]}>
-            <Text style={{ fontSize: 52, textAlign: 'center' }}>🏆</Text>
-            <Text style={[T.h2, { color: C.text, textAlign: 'center', marginTop: 8 }]}>Level Up!</Text>
-            <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 4 }]}>
-              You've reached
-            </Text>
-            <Text style={[T.h1, { color: C.brand, textAlign: 'center', marginTop: 4 }]}>
-              {levelUpModal?.name}
-            </Text>
-            <Text style={[T.small, { color: C.textMuted, textAlign: 'center', marginTop: 8 }]}>
-              +200 bonus RP awarded 🎁
-            </Text>
-            <TouchableOpacity
-              style={[duoBtn(C.brand, C.brandDark), { marginTop: 20 }]}
-              onPress={() => setLevelUpModal(null)}
-              activeOpacity={0.85}
-            >
-              <Text style={[T.btn, { color: '#fff' }]}>AWESOME! 🚀</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
-      </Modal>
+      {/* Level-up moment (once per level; useRP writes @levelUp) */}
+      <LevelUpCelebration
+        visible={!!levelUpModal}
+        levelName={levelUpModal?.name}
+        bonusRP={LEVEL_UP_BONUS_RP}
+        C={C}
+        onClose={() => setLevelUpModal(null)}
+      />
 
       {/* Daily goal celebration modal */}
       <Modal transparent visible={goalCelebModal} animationType="fade" onRequestClose={() => setGoalCelebModal(false)}>
