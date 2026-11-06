@@ -5,11 +5,12 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useSubject } from '../context/SubjectContext'
 import { SUBJECTS, SUBJECT_META } from '../content/subjects'
-import { T, duoBtn, cardShadow } from '../styles/duo'
+import { T, cardShadow } from '../styles/duo'
 import { useExamScores, loadExamAttempt } from '../hooks/useExamScores'
 import { useMistakes } from '../hooks/useMistakes'
 import { getSubjectData } from '../utils/subjectData'
 import { shuffle } from '../utils/question'
+import PracticeTile from '../components/PracticeTile'
 
 // Import exam registry dynamically
 const LE_EXAMS = [
@@ -527,29 +528,18 @@ export default function ExamPickerScreen({ navigation }) {
     <View style={{ marginBottom: 8 }}>
       <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0, fontSize: 13, marginBottom: 10 }]}>Quick Practice</Text>
       <View style={s.practiceGrid}>
-        <TouchableOpacity style={[s.practiceBtn, duoBtn(C.brand, C.brandDark)]} onPress={practiceQuiz} activeOpacity={0.85}>
-          <Text style={s.practiceIcon}>⚡</Text>
-          <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>Quick{'\n'}Quiz</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={[s.practiceBtn, duoBtn(C.blue, C.blueDark)]} onPress={practiceSpeed} activeOpacity={0.85}>
-          <Text style={s.practiceIcon}>🏃</Text>
-          <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>Speed{'\n'}Round</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={[s.practiceBtn, duoBtn(C.purple, C.purpleDark)]} onPress={practiceFlashcards} activeOpacity={0.85}>
-          <Text style={s.practiceIcon}>🃏</Text>
-          <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>Flash{'\n'}Cards</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={[s.practiceBtn, duoBtn('#B45309', '#92400E')]} onPress={smartStudy} activeOpacity={0.85}>
-          <Text style={s.practiceIcon}>🧠</Text>
-          <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>Smart{'\n'}Study</Text>
-        </TouchableOpacity>
+        <PracticeTile icon="⚡" label={'Quick\nQuiz'} color={C.brand} darkColor={C.brandDark} onPress={practiceQuiz} />
+        <PracticeTile icon="🏃" label={'Speed\nRound'} color={C.blue} darkColor={C.blueDark} onPress={practiceSpeed} />
+        <PracticeTile icon="🃏" label={'Flash\nCards'} color={C.purple} darkColor={C.purpleDark} onPress={practiceFlashcards} />
+        <PracticeTile icon="🧠" label={'Smart\nStudy'} color="#B45309" darkColor="#92400E" onPress={smartStudy} />
         {sd.getWritten && (
-          <TouchableOpacity style={[s.practiceBtn, duoBtn('#0891b2', '#0e7490')]} onPress={practiceWritten} activeOpacity={0.85}>
-            <Text style={s.practiceIcon}>{sd.writtenLabel === 'Worked Examples' ? '🧠' : '✍️'}</Text>
-            <Text style={[T.btn, { color: '#fff', fontSize: 11, textAlign: 'center' }]}>
-              {(sd.writtenLabel ?? 'Written Practice').replace(' ', '\n')}
-            </Text>
-          </TouchableOpacity>
+          <PracticeTile
+            icon={sd.writtenLabel === 'Worked Examples' ? '🧠' : '✍️'}
+            label={(sd.writtenLabel ?? 'Written Practice').replace(' ', '\n')}
+            color="#0891b2"
+            darkColor="#0e7490"
+            onPress={practiceWritten}
+          />
         )}
       </View>
       {sd.writtenLabel === 'Worked Examples' && (
@@ -585,8 +575,15 @@ export default function ExamPickerScreen({ navigation }) {
               style={[s.examCard, cardShadow(C.shadow), { borderLeftColor: meta.color ?? C.brand }]}
               onPress={() => openExam(item)}
               activeOpacity={0.75}
+              accessibilityRole="button"
+              accessibilityLabel={`${meta.name} ${item.label} Regents${sc ? `, best score ${sc.best}, last ${sc.last}` : ''}`}
+              accessibilityHint="Opens the full exam."
+              // The card is one accessible element on iOS, which hides the nested
+              // Review button from VoiceOver — expose Review as a named action.
+              accessibilityActions={sc ? [{ name: 'review', label: 'Review' }] : undefined}
+              onAccessibilityAction={(e) => { if (e.nativeEvent.actionName === 'review') openReview(item) }}
             >
-              <Text style={{ fontSize: 28, marginRight: 12 }}>📋</Text>
+              <Text style={{ fontSize: 28, marginRight: 12 }} accessibilityElementsHidden importantForAccessibility="no" aria-hidden>📋</Text>
               <View style={{ flex: 1 }}>
                 <Text style={[T.label, { color: C.textMuted, textTransform: 'none', letterSpacing: 0 }]}>
                   {meta.name}
@@ -600,7 +597,7 @@ export default function ExamPickerScreen({ navigation }) {
                     <Text style={[s.scoreChip, { color: C.textMuted, borderColor: C.border, backgroundColor: C.surface2 }]}>
                       Last {sc.last}
                     </Text>
-                    <TouchableOpacity onPress={() => openReview(item)} hitSlop={{ top: 8, bottom: 8, left: 4, right: 8 }}>
+                    <TouchableOpacity onPress={() => openReview(item)} hitSlop={{ top: 8, bottom: 8, left: 4, right: 8 }} accessibilityRole="button" accessibilityLabel={`Review ${item.label} exam`}>
                       <Text style={[s.scoreChip, { color: C.brand, borderColor: C.brand + '50', backgroundColor: C.brand + '12' }]}>
                         🔁 Review
                       </Text>
@@ -628,8 +625,6 @@ function makeStyles(C) {
     list:      { padding: 16, gap: 12 },
 
     practiceGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10 },
-    practiceBtn:  { flexBasis: '47%', flexGrow: 1, alignItems: 'center', paddingVertical: 14, gap: 4 },
-    practiceIcon: { fontSize: 24, marginBottom: 2 },
     examCard:  { backgroundColor: C.surface, borderRadius: 16, padding: 16, flexDirection: 'row', alignItems: 'center', borderWidth: 1, borderColor: C.border, borderLeftWidth: 4 },
     scoreRow:  { flexDirection: 'row', gap: 6, marginTop: 6 },
     scoreChip: { fontSize: 11, fontWeight: '700', borderWidth: 1, borderRadius: 8, paddingHorizontal: 8, paddingVertical: 3 },
