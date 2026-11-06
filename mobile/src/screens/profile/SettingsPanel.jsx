@@ -19,6 +19,8 @@ import { T, duoBtn, cardShadow } from '../../styles/duo'
 import { useDoubleRP } from '../../context/DoubleRPContext'
 import { useSubscription } from '../../context/SubscriptionContext'
 import { useTour } from '../../context/TourContext'
+import { usePreferences } from '../../context/PreferencesContext'
+import { useSystemReducedMotion } from '../../motion/useReducedMotion'
 
 // ── Time picker data — every 30 minutes from 6 AM to 11 PM ──────────────────────
 const TIME_OPTIONS = Array.from({ length: 36 }, (_, i) => {
@@ -33,6 +35,10 @@ const TIME_OPTIONS = Array.from({ length: 36 }, (_, i) => {
 // the parent ProfileScreen / ProgressPanel, so this panel no longer renders them.
 export default function SettingsPanel({ navigation }) {
   const { C, isDark, toggleTheme } = useTheme()
+  const { soundEffects, setSoundEffects, reduceAnimations, setReduceAnimations, loaded: prefsLoaded } = usePreferences()
+  // When the device's own Reduce Motion is on, animations are reduced no matter
+  // what — show the switch on and locked so the screen never contradicts it.
+  const systemReducedMotion = useSystemReducedMotion()
   const { user } = useAuthContext()
   const { deleteAccount } = useAuth()
   const uid = user?.uid
@@ -359,6 +365,46 @@ export default function SettingsPanel({ navigation }) {
             onValueChange={toggleTheme}
             trackColor={{ false: C.surface2, true: C.brand }}
             thumbColor="#fff"
+          />
+        </View>
+
+        {/* Sound effects — correct/wrong quiz sounds */}
+        <View style={[s.settingRow, { borderTopWidth: 1, borderTopColor: C.border }]}>
+          <View style={{ flex: 1 }}>
+            <Text style={[T.body, { color: C.text }]}>Sound Effects</Text>
+            <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+              {soundEffects ? 'Sounds for right and wrong answers' : 'Off — quizzes are silent'}
+            </Text>
+          </View>
+          <Switch
+            value={soundEffects}
+            onValueChange={setSoundEffects}
+            trackColor={{ false: C.surface2, true: C.brand }}
+            thumbColor="#fff"
+            disabled={!prefsLoaded}
+            accessibilityLabel="Sound effects"
+          />
+        </View>
+
+        {/* Reduce animations — in-app Reduce Motion */}
+        <View style={[s.settingRow, { borderTopWidth: 1, borderTopColor: C.border }]}>
+          <View style={{ flex: 1 }}>
+            <Text style={[T.body, { color: C.text }]}>Reduce Animations</Text>
+            <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
+              {systemReducedMotion
+                ? "On because your device's Reduce Motion is on"
+                : reduceAnimations
+                  ? 'Calmer: fades instead of motion'
+                  : 'Celebrations, confetti and bouncy feedback'}
+            </Text>
+          </View>
+          <Switch
+            value={systemReducedMotion || reduceAnimations}
+            onValueChange={setReduceAnimations}
+            trackColor={{ false: C.surface2, true: C.brand }}
+            thumbColor="#fff"
+            disabled={!prefsLoaded || systemReducedMotion}
+            accessibilityLabel="Reduce animations"
           />
         </View>
       </View>

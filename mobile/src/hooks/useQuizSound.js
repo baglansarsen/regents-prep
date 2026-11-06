@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef } from 'react'
+import { usePreferences } from '../context/PreferencesContext'
 
 let Audio = null
 try {
@@ -9,12 +10,17 @@ const CDN_BASE = 'https://regents-prep.web.app'
 
 // enabled=false skips loading the audio entirely (callers that only want the
 // stable no-op API, e.g. useFeedback on a plain button).
+// Also silent (and nothing loaded) when "Sound effects" is off in Settings.
 export function useQuizSound({ enabled = true } = {}) {
+  const { soundEffects, loaded } = usePreferences()
+  // Wait for the saved preference — the default (on) would otherwise start
+  // downloading sounds for someone who turned them off.
+  const on = enabled && loaded && soundEffects
   const correctRef = useRef(null)
   const wrongRef   = useRef(null)
 
   useEffect(() => {
-    if (!Audio || !enabled) return
+    if (!Audio || !on) return
     let mounted = true
 
     async function load() {
@@ -36,8 +42,10 @@ export function useQuizSound({ enabled = true } = {}) {
       mounted = false
       correctRef.current?.unloadAsync()
       wrongRef.current?.unloadAsync()
+      correctRef.current = null
+      wrongRef.current = null
     }
-  }, [enabled])
+  }, [on])
 
   // Stable identities: safe to list in deps / memoise on.
   const playCorrect = useCallback(async () => {

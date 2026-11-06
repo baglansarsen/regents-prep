@@ -26,6 +26,7 @@ import { PetProvider }    from './src/context/PetContext'
 import { SpeechProvider } from './src/context/SpeechContext'
 import { StreakProvider } from './src/context/StreakContext'
 import { TourProvider } from './src/context/TourContext'
+import { PreferencesProvider } from './src/context/PreferencesContext'
 import AppNavigator from './src/navigation/AppNavigator'
 import { GoalNotificationBridge } from './src/hooks/useGoalNotificationScheduler'
 import { requestAdTracking } from './src/utils/adTracking'
@@ -118,6 +119,7 @@ export default function App() {
 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
+    <PreferencesProvider>
     <ThemeProvider>
       <AuthProvider>
         <SubjectProvider>
@@ -141,6 +143,7 @@ export default function App() {
         </SubjectProvider>
       </AuthProvider>
     </ThemeProvider>
+    </PreferencesProvider>
     </GestureHandlerRootView>
   )
 }

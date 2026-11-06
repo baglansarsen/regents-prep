@@ -44,14 +44,12 @@ describe('RewardFlight', () => {
 
   test('no flight under Reduce Motion', async () => {
     AccessibilityInfo.isReduceMotionEnabled.mockResolvedValue(true)
-    function Late() {
-      // fire after the reduce-motion setting has resolved
-      const [go, setGo] = React.useState(false)
-      useEffect(() => { setTimeout(() => setGo(true), 0) }, [])
-      return go ? <Harness /> : null
-    }
-    await render(<RewardFlightProvider><Late /></RewardFlightProvider>)
-    await act(async () => { await new Promise((r) => setTimeout(r, 5)) })
+    // Deterministic: let the provider learn the setting first, then launch.
+    const Gate = ({ go }) => (go ? <Harness /> : null)
+    const { rerender } = await render(<RewardFlightProvider><Gate go={false} /></RewardFlightProvider>)
+    await act(async () => {})
+    await rerender(<RewardFlightProvider><Gate go /></RewardFlightProvider>)
+    await act(async () => {})
     expect(screen.queryAllByText('⭐', { includeHiddenElements: true })).toHaveLength(0)
   })
 

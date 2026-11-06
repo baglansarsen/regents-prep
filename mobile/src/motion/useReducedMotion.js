@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
 import { AccessibilityInfo } from 'react-native'
+import { usePreferences } from '../context/PreferencesContext'
 
 /**
- * true when the user asked the OS to reduce motion (iOS/Android setting, or
+ * true when the OS asks for reduced motion (iOS/Android setting, or
  * `prefers-reduced-motion` on web — RN-web backs AccessibilityInfo with it).
- * Movement should then become an opacity cross-fade; haptics and sound stay.
  */
-export function useReducedMotion() {
+export function useSystemReducedMotion() {
   const [reduced, setReduced] = useState(false)
 
   useEffect(() => {
@@ -19,4 +19,15 @@ export function useReducedMotion() {
   }, [])
 
   return reduced
+}
+
+/**
+ * true when motion should be reduced: the OS setting OR the in-app
+ * "Reduce animations" toggle (Profile → Settings). Movement then becomes an
+ * opacity cross-fade; haptics and sound stay.
+ */
+export function useReducedMotion() {
+  const system = useSystemReducedMotion()
+  const { reduceAnimations } = usePreferences()
+  return system || reduceAnimations
 }
