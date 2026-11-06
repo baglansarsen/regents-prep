@@ -6,6 +6,21 @@ Scope: `mobile/` only. Native, web PWA and iPhone Duo must all work.
 
 ---
 
+## Status (2026-11-06): phases 0–6 shipped
+
+| Phase | Shipped | Notes |
+|---|---|---|
+| 0 Foundation | ✅ | `src/motion/`: tokens, useReducedMotion, useFeedback, PressableDuo, Burst |
+| 1 Answer moment | ✅ | AnswerChoice, ProgressBar (sheen/glow), ReactingReggie, energy flash |
+| 2 Lesson complete | ✅ | useCelebrationSequence + Reveal; tap-to-skip; Perfect stamp |
+| 3 Home path | ✅ | StartCallout, UnlockPop, PressScale, scroll-to-node, animated unit bars |
+| 4 Rewards travel | ✅ | RewardFlight (RP → top bar), streak flicker, LevelUpCelebration |
+| 5 Reggie alive | ✅ code-only | AnimatedReggie (breathe/blink/pose cross-fade), useReggieReaction. **Rive version still needs art.** |
+| 6 Guardrails | ✅ | Reduce Motion verified on every surface (web, `prefers-reduced-motion`); fold/unfold mid-celebration responsive at Duo sizes; Home idle ≈61 commits/s on web (same as before the work) |
+
+Still open: §5 decisions 2–4 (Rive/Lottie art, new sounds, in-app Sound/Animations toggles), and on-device feel (haptics, 120Hz) on iPhone + iPhone Duo hardware.
+Press feedback (PressableDuo, PressScale) intentionally stays on under Reduce Motion: direct, touch-anchored feedback, per Apple's guidance.
+
 ## 1. What exists today (audit, 2026-11-06)
 
 | Area | Today | Gap |
