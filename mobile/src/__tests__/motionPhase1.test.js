@@ -7,7 +7,8 @@ import { render, screen, act } from '@testing-library/react-native'
 
 jest.mock('../components/ReggieMascot', () => {
   const { Text } = require('react-native')
-  return ({ pose }) => <Text>reggie:{pose}</Text>
+  const Mock = ({ pose }) => <Text>reggie:{pose}</Text>
+  return { __esModule: true, default: Mock, BLINKABLE_EYES: ['open', 'look_up', 'sad', 'sparkle', undefined] }
 })
 
 const AnswerChoice = require('../motion/AnswerChoice').default

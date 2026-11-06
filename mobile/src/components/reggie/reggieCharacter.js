@@ -62,6 +62,8 @@ function eye(exp) {
     case 'look_up': return white + `<circle cx="${cx + 6}" cy="${cy - 16}" r="24" fill="${C.ink}"/><circle cx="${cx + 15}" cy="${cy - 24}" r="8" fill="${C.white}"/>`
     case 'sad': return white + `<circle cx="${cx + 2}" cy="${cy + 10}" r="24" fill="${C.ink}"/><circle cx="${cx + 10}" cy="${cy + 3}" r="7" fill="${C.white}"/><path d="M262 196 Q286 186 312 198" fill="none" stroke="${C.deep}" stroke-width="9" stroke-linecap="round"/>`
     case 'sleep': return `<path d="M270 224 Q298 244 326 224" fill="none" stroke="${C.ink}" stroke-width="12" stroke-linecap="round"/>`
+    // Mid-blink: lid closed on the open eye's line (AnimatedReggie swaps it in for ~130ms).
+    case 'blink': return `<path d="M266 230 Q298 246 330 230" fill="none" stroke="${C.ink}" stroke-width="12" stroke-linecap="round"/>`
     case 'sparkle': return white + `<circle cx="${cx + 8}" cy="${cy + 4}" r="25" fill="${C.ink}"/><circle cx="${cx + 18}" cy="${cy - 6}" r="9" fill="${C.white}"/><circle cx="${cx - 2}" cy="${cy + 12}" r="5" fill="${C.white}"/>`
     default: return white + `<circle cx="${cx + 8}" cy="${cy + 6}" r="26" fill="${C.ink}"/><circle cx="${cx + 18}" cy="${cy - 4}" r="9" fill="${C.white}"/><circle cx="${cx - 2}" cy="${cy + 14}" r="5" fill="${C.white}"/>`
   }

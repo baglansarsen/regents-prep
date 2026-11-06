@@ -18,11 +18,15 @@ import { reggie, avatar as reggieAvatar, POSES } from './reggie/reggieCharacter'
  *
  * Back-compat: <ReggieMascot size={120} /> still renders idle, unchanged.
  */
-export default function ReggieMascot({ pose = 'idle', size = 120, avatar = false, style }) {
+// Eyes that can blink (open-eyed looks). Happy/wink/sleep are already closed-ish.
+export const BLINKABLE_EYES = ['open', 'look_up', 'sad', 'sparkle', undefined]
+
+export default function ReggieMascot({ pose = 'idle', size = 120, avatar = false, blink = false, style }) {
   const xml = useMemo(() => {
-    const opts = POSES[pose] || POSES.idle
+    const base = POSES[pose] || POSES.idle
+    const opts = blink && BLINKABLE_EYES.includes(base.eye) ? { ...base, eye: 'blink' } : base
     return avatar ? reggieAvatar(opts) : reggie(opts)
-  }, [pose, avatar])
+  }, [pose, avatar, blink])
 
   return <SvgXml xml={xml} width={size} height={size} style={style} />
 }
