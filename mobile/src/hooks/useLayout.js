@@ -17,8 +17,9 @@ export function layoutFor(width, height) {
     width,
     height,
     contentWidth,
+    // Decide layout from available space, never from orientation or idiom
+    // (Apple's iPhone Duo guidance).
     isWide: width >= 600,
-    isLandscape: width > height,
   }
 }
 

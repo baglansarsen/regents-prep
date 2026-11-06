@@ -17,13 +17,12 @@ describe('layoutFor', () => {
     const l = layoutFor(...DUO_INNER)
     expect(l.contentWidth).toBe(626)
     expect(l.isWide).toBe(true)
-    expect(l.isLandscape).toBe(false)
   })
 
   it('caps content width when the unfolded Duo is in landscape', () => {
     const l = layoutFor(...DUO_INNER_L)
     expect(l.contentWidth).toBe(MAX_CONTENT_WIDTH)
-    expect(l.isLandscape).toBe(true)
+    expect(l.isWide).toBe(true)
   })
 
   it('recomputes for a new size (fold → unfold)', () => {

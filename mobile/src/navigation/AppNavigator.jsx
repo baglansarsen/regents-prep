@@ -10,6 +10,10 @@ import { useAuthContext } from '../context/AuthContext'
 import { useTheme } from '../context/ThemeContext'
 import { PETS_ENABLED } from '../config/features'
 
+// expo-system-ui is a native module: guard it so Expo Go / tests never crash.
+let SystemUI = null
+try { SystemUI = require('expo-system-ui') } catch { SystemUI = null }
+
 import LoginScreen              from '../screens/LoginScreen'
 import SchoolOnboardingScreen   from '../screens/SchoolOnboardingScreen'
 import ReggieOnboardingScreen   from '../screens/ReggieOnboardingScreen'
@@ -37,6 +41,13 @@ export default function AppNavigator() {
   const { user, loading } = useAuthContext()
   const { C, isDark, themeChosen } = useTheme()
   const readableStyle = useReadableContentStyle()
+
+  // On wide windows (Duo unfolded in landscape, iPad) screens are narrowed to a
+  // centred column; paint the root view with the theme background so the
+  // gutters match instead of showing the bare white root view.
+  useEffect(() => {
+    SystemUI?.setBackgroundColorAsync?.(C.bg)?.catch?.(() => {})
+  }, [C.bg])
 
   // null = still checking, true/false = resolved
   const [petChosen,      setPetChosen]      = useState(null)
