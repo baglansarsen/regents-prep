@@ -1,5 +1,6 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
+import { Ionicons } from '@expo/vector-icons'
 import { energyPercent } from '../utils/energy'
 
 function batteryColor(percent, C, light) {
@@ -43,6 +44,14 @@ export default function EnergyBattery({
           ]}
         />
         <View style={[s.nub, { backgroundColor: shellBorder }]} />
+        {/* Bolt marks this as game energy, not the phone's battery level. */}
+        <View style={s.boltWrap} pointerEvents="none">
+          <Ionicons
+            name="flash"
+            size={isCompact ? 11 : 13}
+            color={light ? 'rgba(17,24,39,0.8)' : '#FFFFFF'}
+          />
+        </View>
       </View>
       <Text style={[s.percent, isCompact && s.percentCompact, { color: textColor }]}>
         {unlimited ? '∞' : `${percent}%`}
@@ -84,6 +93,11 @@ const s = StyleSheet.create({
   fill: {
     height: '100%',
     borderRadius: 2,
+  },
+  boltWrap: {
+    ...StyleSheet.absoluteFillObject,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   nub: {
     position: 'absolute',
