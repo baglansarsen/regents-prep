@@ -38,6 +38,28 @@ public class AppDelegate: ExpoAppDelegate {
     return config
   }
 
+  // Orientation policy (iPhone Duo / large screens).
+  // Info.plist lists every orientation so the app is eligible for rotation and
+  // Split View on large displays; this narrows it at runtime. Regular iPhones
+  // and the Duo's folded 5.4" outer screen (short side < 500pt) stay portrait,
+  // as the UI was designed. The Duo's unfolded 7.6" inner screen and iPads get
+  // all orientations. SceneDelegate re-asks on fold/unfold.
+  static let largeScreenMinSide: CGFloat = 500
+
+  static func orientationMask(for window: UIWindow?) -> UIInterfaceOrientationMask {
+    if UIDevice.current.userInterfaceIdiom == .pad { return .all }
+    guard let screen = window?.windowScene?.screen else { return .portrait }
+    let b = screen.bounds
+    return min(b.width, b.height) >= largeScreenMinSide ? .all : .portrait
+  }
+
+  public override func application(
+    _ application: UIApplication,
+    supportedInterfaceOrientationsFor window: UIWindow?
+  ) -> UIInterfaceOrientationMask {
+    return AppDelegate.orientationMask(for: window)
+  }
+
   // Linking API
   public override func application(
     _ app: UIApplication,

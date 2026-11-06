@@ -1,13 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react'
 import {
-  Modal, View, Text, TouchableOpacity, StyleSheet, Animated, Easing, Dimensions,
+  Modal, View, Text, TouchableOpacity, StyleSheet, Animated, Easing, useWindowDimensions,
 } from 'react-native'
 import Svg, { Defs, LinearGradient, Stop, Rect } from 'react-native-svg'
 import { useTheme } from '../context/ThemeContext'
 import PetWidget from './PetWidget'
 import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
-
-const { width: SCREEN_W, height: SCREEN_H } = Dimensions.get('window')
 
 // Palette per celebration flavor.
 const FLAVORS = {
@@ -22,10 +20,11 @@ const CONFETTI_COLORS = ['#FFD34E', '#FF7A00', '#22C55E', '#34B3F1', '#EC4899', 
 
 // ── Confetti ────────────────────────────────────────────────────────────────
 function Confetti({ run, count = 28 }) {
+  const { width: SCREEN_W, height: SCREEN_H } = useWindowDimensions()
   const pieces = useRef(
     Array.from({ length: count }, (_, i) => ({
       key: i,
-      x: Math.random() * SCREEN_W,
+      xFrac: Math.random(),   // scaled by live window width at render
       size: 7 + Math.random() * 7,
       color: CONFETTI_COLORS[i % CONFETTI_COLORS.length],
       delay: Math.random() * 400,
@@ -61,7 +60,7 @@ function Confetti({ run, count = 28 }) {
           <Animated.View
             key={p.key}
             style={{
-              position: 'absolute', top: 0, left: p.x,
+              position: 'absolute', top: 0, left: p.xFrac * SCREEN_W,
               width: p.size, height: p.size,
               borderRadius: p.rounded ? p.size / 2 : 2,
               backgroundColor: p.color,
@@ -228,14 +227,14 @@ export default function StreakCelebration({ event, onClose, weekDays, streak, rp
     <Modal transparent animationType="fade" visible statusBarTranslucent onRequestClose={onClose}>
       <View style={s.fill}>
         {/* Gradient backdrop */}
-        <Svg style={StyleSheet.absoluteFill} width={SCREEN_W} height={SCREEN_H}>
+        <Svg style={StyleSheet.absoluteFill} width="100%" height="100%">
           <Defs>
             <LinearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
               <Stop offset="0" stopColor={flavor.top} />
               <Stop offset="1" stopColor={flavor.bottom} />
             </LinearGradient>
           </Defs>
-          <Rect x="0" y="0" width={SCREEN_W} height={SCREEN_H} fill="url(#bg)" />
+          <Rect x="0" y="0" width="100%" height="100%" fill="url(#bg)" />
         </Svg>
 
         {/* Confetti for positive events */}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import { useReadableContentStyle } from '../hooks/useLayout'
 import HomeScreen          from '../screens/HomeScreen'
 import QuizScreen          from '../screens/QuizScreen'
 import ResultsScreen       from '../screens/ResultsScreen'
@@ -13,8 +14,9 @@ import GoalDetailScreen    from '../screens/GoalDetailScreen'
 const Stack = createNativeStackNavigator()
 
 export default function StudyStack() {
+  const contentStyle = useReadableContentStyle()
   return (
-    <Stack.Navigator screenOptions={{ headerShown: false }}>
+    <Stack.Navigator screenOptions={{ headerShown: false, contentStyle }}>
       <Stack.Screen name="Home"          component={HomeScreen} />
       <Stack.Screen name="Quiz"          component={QuizScreen} />
       <Stack.Screen name="Results"       component={ResultsScreen} />

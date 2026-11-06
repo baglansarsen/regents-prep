@@ -12,7 +12,7 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, StyleSheet,
-  Animated, Dimensions, ActivityIndicator,
+  Animated, ActivityIndicator, useWindowDimensions,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import AsyncStorage from '@react-native-async-storage/async-storage'
@@ -53,7 +53,6 @@ const SUBJECT_DATA = {
   'us-history':         usData,
 }
 
-const { width: W } = Dimensions.get('window')
 const LETTERS = ['A', 'B', 'C', 'D']
 const LETTER_COLORS = ['#34B3F1', '#7C5CFC', '#FF9600', '#FF5A5F']
 const UNLOCK_PCT      = 80        // auto-unlock threshold
@@ -119,6 +118,7 @@ export default function PlacementTestScreen({ onComplete }) {
 
   const sd = SUBJECT_DATA[subject] ?? leData
   const { forceUnlock } = useUnlocks(history, sd.TOPIC_ORDER ?? [], subject)
+  const { width: W } = useWindowDimensions()
   const s = makeStyles(C)
 
   const questionSet = useMemo(

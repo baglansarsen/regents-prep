@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { View, ActivityIndicator, StyleSheet } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import { useReadableContentStyle } from '../hooks/useLayout'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { doc, getDoc } from 'firebase/firestore'
 import { db } from '../firebase'
@@ -35,6 +36,7 @@ function schoolChosenKey(uid) {
 export default function AppNavigator() {
   const { user, loading } = useAuthContext()
   const { C, isDark, themeChosen } = useTheme()
+  const readableStyle = useReadableContentStyle()
 
   // null = still checking, true/false = resolved
   const [petChosen,      setPetChosen]      = useState(null)
@@ -132,7 +134,7 @@ export default function AppNavigator() {
         },
       }}
     >
-      <Stack.Navigator screenOptions={{ headerShown: false, animation: 'fade' }}>
+      <Stack.Navigator screenOptions={{ headerShown: false, animation: 'fade', contentStyle: readableStyle }}>
 
         {/* ── 1. Auth flow (theme picker onboarding removed — dark by default) ── */}
         {!user ? (
@@ -175,7 +177,9 @@ export default function AppNavigator() {
         ) : (
           /* ── 6. Main app ──────────────────────────────────────────────────── */
           <>
-            <Stack.Screen name="Main" component={TabNavigator} />
+            {/* Tabs stay full-width: the tab stacks constrain their own content,
+                and TourHost/celebration overlays need window-sized coords. */}
+            <Stack.Screen name="Main" component={TabNavigator} options={{ contentStyle: undefined }} />
             <Stack.Screen name="Exam" component={ExamScreen}
               options={{ presentation: 'fullScreenModal', animation: 'slide_from_bottom' }} />
             <Stack.Screen name="ExamResults" component={ExamResultsScreen}

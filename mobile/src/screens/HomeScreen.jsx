@@ -1,7 +1,7 @@
 import React, { useMemo, useState, useRef, useCallback, useEffect } from 'react'
 import {
   View, Text, TouchableOpacity, ScrollView, StyleSheet,
-  Dimensions, Alert, Animated, Modal, Platform,
+  Alert, Animated, Modal, Platform,
 } from 'react-native'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { SafeAreaView } from 'react-native-safe-area-context'
@@ -60,6 +60,7 @@ import { buildHomeAgenda } from '../utils/homeAgenda'
 import { energyBand, isMathSubject } from '../utils/energy'
 import { mistakeLabelOf, stickiestTopicOf } from '../utils/reviewQueue'
 import { useDailyTrap } from '../hooks/useDailyTrap'
+import { useLayout } from '../hooks/useLayout'
 
 const MILESTONE_GIFTS = {
   3:  { rp: 50,   items: {},                       label: '50 ⭐ RP!' },
@@ -78,8 +79,6 @@ const GOAL_PET_MESSAGES = {
   default: "Amazing! You reached your daily goal! Keep it up! 🌟",
 }
 
-const W_RAW = Dimensions.get('window').width
-const width = Platform.OS === 'web' ? Math.min(Math.max(W_RAW || 360, 320), 480) : W_RAW
 const NODE_SIZE = 84
 const ZIGZAG   = 72
 
@@ -787,7 +786,9 @@ export default function HomeScreen({ navigation }) {
   // Quick Practice (startSpeedRound / startPracticeMistakes) moved to the Exams
   // tab; the pet's dig (handleDig) moved to PetScreen.
 
-  const s = makeStyles(C)
+  // Re-derived on every window resize (Duo fold/unfold, Split View, rotation).
+  const { contentWidth, height: winH } = useLayout()
+  const s = makeStyles(C, contentWidth)
 
   // ── Within-unit lesson unlock ──────────────────────────────────────────────
   function isLessonUnlocked(unit, lessonIndex) {
@@ -1260,7 +1261,7 @@ export default function HomeScreen({ navigation }) {
       {/* ── Tips sheet ── */}
       {tipsUnit && (
         <Animated.View
-          style={[s.sheet, cardShadow(C.shadow), { backgroundColor: C.surface, transform: [{ translateY: tipsAnim }], maxHeight: Math.round(Dimensions.get('window').height * 0.82) }]}
+          style={[s.sheet, cardShadow(C.shadow), { backgroundColor: C.surface, transform: [{ translateY: tipsAnim }], maxHeight: Math.round(winH * 0.82) }]}
         >
           <View style={s.sheetHandle} />
           <Text style={[T.h3, { color: C.text, marginBottom: 16 }]} numberOfLines={1}>
@@ -1447,7 +1448,7 @@ function timeOfDay() {
   return 'evening'
 }
 
-function makeStyles(C) {
+function makeStyles(C, width) {
   return StyleSheet.create({
     safe:       { flex: 1, backgroundColor: C.bg },
     scroll:     { paddingBottom: 20 },
@@ -1569,6 +1570,8 @@ function makeStyles(C) {
       paddingHorizontal: 16,
       gap:            10,
       marginBottom:   24,
+      width,
+      alignSelf:      'center',
     },
     quickBtn: {
       // each button takes ~half the row width minus gap

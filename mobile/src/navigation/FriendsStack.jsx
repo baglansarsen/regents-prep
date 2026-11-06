@@ -1,5 +1,6 @@
 import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import { useReadableContentStyle } from '../hooks/useLayout'
 import FriendsScreen         from '../screens/FriendsScreen'
 import AddFriendScreen       from '../screens/AddFriendScreen'
 import ChallengeScreen       from '../screens/ChallengeScreen'
@@ -11,8 +12,9 @@ import SchoolOnboardingScreen from '../screens/SchoolOnboardingScreen'
 const Stack = createNativeStackNavigator()
 
 export default function FriendsStack() {
+  const contentStyle = useReadableContentStyle()
   return (
-    <Stack.Navigator screenOptions={{ headerShown: false }}>
+    <Stack.Navigator screenOptions={{ headerShown: false, contentStyle }}>
       <Stack.Screen name="Friends"         component={FriendsScreen} />
       <Stack.Screen name="League"          component={LeagueScreen} />
       <Stack.Screen name="AddFriend"       component={AddFriendScreen} />

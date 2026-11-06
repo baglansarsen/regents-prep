@@ -1,13 +1,11 @@
 import React, { useRef, useEffect, useMemo } from 'react'
 import {
   View, Text, TouchableOpacity, StyleSheet,
-  Animated, Dimensions, ScrollView,
+  Animated, ScrollView, useWindowDimensions,
 } from 'react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { T, duoBtn } from '../styles/duo'
-
-const { width: W, height: H } = Dimensions.get('window')
 
 const COLORS   = ['#FF5A5F', '#FF9600', '#1FC36B', '#34B3F1', '#7C5CFC', '#FFC93C', '#FF69B4']
 const COUNT    = 48
@@ -16,7 +14,7 @@ const COUNT    = 48
 function makeParticles() {
   return Array.from({ length: COUNT }, (_, i) => ({
     id:        i,
-    x:         Math.random() * (W - 10),
+    xFrac:     Math.random(),                   // scaled by live window width
     color:     COLORS[Math.floor(Math.random() * COLORS.length)],
     delay:     Math.random() * 700,
     duration:  1800 + Math.random() * 1200,
@@ -27,7 +25,8 @@ function makeParticles() {
   }))
 }
 
-function ConfettiParticle({ x, color, delay, duration, size, aspect, rotations }) {
+function ConfettiParticle({ xFrac, W, H, color, delay, duration, size, aspect, rotations }) {
+  const x = xFrac * (W - 10)
   const translateY = useRef(new Animated.Value(-size - 10)).current
   const rotate     = useRef(new Animated.Value(0)).current
 
@@ -73,6 +72,7 @@ function ConfettiParticle({ x, color, delay, duration, size, aspect, rotations }
 export default function MasteryCelebration({ topic, onDismiss }) {
   const { C } = useTheme()
   const insets = useSafeAreaInsets()
+  const { width: W, height: H } = useWindowDimensions()
 
   // Stable particle config — must not change on re-render
   const particles = useMemo(makeParticles, [])
@@ -112,7 +112,7 @@ export default function MasteryCelebration({ topic, onDismiss }) {
       {/* Confetti layer */}
       <View style={StyleSheet.absoluteFill} pointerEvents="none">
         {particles.map((p) => (
-          <ConfettiParticle key={p.id} {...p} />
+          <ConfettiParticle key={p.id} {...p} W={W} H={H} />
         ))}
       </View>
 

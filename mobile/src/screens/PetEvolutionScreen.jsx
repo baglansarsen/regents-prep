@@ -1,23 +1,20 @@
 import React, { useEffect, useRef } from 'react'
 import {
-  View, Text, TouchableOpacity, StyleSheet, Animated, Dimensions,
+  View, Text, TouchableOpacity, StyleSheet, Animated, useWindowDimensions,
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { usePetContext } from '../context/PetContext'
 import { PETS, STAGE_NAMES } from '../data/petConfig'
 import { T, duoBtn } from '../styles/duo'
 
-const { width, height } = Dimensions.get('window')
-
 const CONFETTI = ['✨', '🌟', '⭐', '🎉', '💫', '🌟', '✨', '⭐', '🎊', '💥', '🌠', '⚡']
-const POSITIONS = CONFETTI.map((_, i) => ({
-  left: Math.random() * (width - 40),
-  top:  Math.random() * height * 0.6 + 40,
-}))
+// Fractions of the window, scaled at render so they survive fold/unfold.
+const POSITIONS = CONFETTI.map(() => ({ x: Math.random(), y: Math.random() }))
 
 export default function PetEvolutionScreen({ navigation }) {
   const { pet, clearPendingEvolution } = usePetContext()
   const config = PETS.find((p) => p.id === pet.petType)
+  const { width, height } = useWindowDimensions()
 
   const shakeX   = useRef(new Animated.Value(0)).current
   const flashOp  = useRef(new Animated.Value(0)).current
@@ -81,7 +78,7 @@ export default function PetEvolutionScreen({ navigation }) {
           key={i}
           style={[
             s.confetti,
-            { left: POSITIONS[i].left, top: POSITIONS[i].top },
+            { left: POSITIONS[i].x * (width - 40), top: POSITIONS[i].y * height * 0.6 + 40 },
             { opacity: confettiAnims[i].opacity, transform: [{ translateY: confettiAnims[i].translateY }] },
           ]}
         >

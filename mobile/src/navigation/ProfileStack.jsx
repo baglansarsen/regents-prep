@@ -1,5 +1,6 @@
 import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import { useReadableContentStyle } from '../hooks/useLayout'
 import ProfileScreen        from '../screens/ProfileScreen'
 import ShopScreen           from '../screens/ShopScreen'
 import SupportScreen        from '../screens/SupportScreen'
@@ -11,8 +12,9 @@ import { PETS_ENABLED } from '../config/features'
 const Stack = createNativeStackNavigator()
 
 export default function ProfileStack() {
+  const contentStyle = useReadableContentStyle()
   return (
-    <Stack.Navigator screenOptions={{ headerShown: false, animation: 'slide_from_right' }}>
+    <Stack.Navigator screenOptions={{ headerShown: false, animation: 'slide_from_right', contentStyle }}>
       <Stack.Screen name="Profile"      component={ProfileScreen} />
       <Stack.Screen name="Achievements" component={AchievementsScreen} />
       <Stack.Screen name="Shop"         component={ShopScreen} />

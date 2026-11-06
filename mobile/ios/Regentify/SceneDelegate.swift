@@ -18,4 +18,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
       in: window,
       launchOptions: appDelegate.launchOptions)
   }
+
+  // Folding/unfolding an iPhone Duo moves the scene between the outer and
+  // inner screens (and Split View resizes it). Ask UIKit to re-query
+  // AppDelegate.orientationMask so the outer screen snaps back to portrait.
+  func windowScene(
+    _ windowScene: UIWindowScene,
+    didUpdate previousCoordinateSpace: UICoordinateSpace,
+    interfaceOrientation previousInterfaceOrientation: UIInterfaceOrientation,
+    traitCollection previousTraitCollection: UITraitCollection
+  ) {
+    if #available(iOS 16.0, *) {
+      window?.rootViewController?.setNeedsUpdateOfSupportedInterfaceOrientations()
+    }
+  }
 }

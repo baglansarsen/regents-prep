@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react'
-import { View, Text, TouchableOpacity, ScrollView, Animated, StyleSheet, Dimensions } from 'react-native'
+import { View, Text, TouchableOpacity, ScrollView, Animated, StyleSheet } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
@@ -15,7 +15,6 @@ import * as lsData from '../content/life-science/index'
 import { SUBJECTS } from '../content/subjects'
 import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
 
-const { width } = Dimensions.get('window')
 
 export default function FlashcardScreen({ route, navigation }) {
   const { topic, subject } = route.params ?? {}
