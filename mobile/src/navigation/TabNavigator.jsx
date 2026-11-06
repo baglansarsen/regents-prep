@@ -3,6 +3,7 @@ import { View } from 'react-native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { Text } from 'react-native'
 import { useTheme } from '../context/ThemeContext'
+import { useSafeAreaInsets } from 'react-native-safe-area-context'
 
 import StudyStack    from './StudyStack'
 import ExamsStack    from './ExamsStack'
@@ -24,6 +25,7 @@ function TabIcon({ emoji, focused }) {
 
 export default function TabNavigator() {
   const { C } = useTheme()
+  const insets = useSafeAreaInsets()
 
   return (
     <View style={{ flex: 1, backgroundColor: C.bg }}>
@@ -35,12 +37,17 @@ export default function TabNavigator() {
             backgroundColor: C.tabBar,
             borderTopColor:  C.border,
             borderTopWidth:  1,
+            // paddingBottom replaces bottom-tabs' inset padding, so its default
+            // 49pt height left ~32pt for icon + 12px label on devices without a
+            // home indicator (SE, 3-button Android, web). Unchanged when the
+            // inset is >= 8 (notched iPhones keep 49 + inset).
+            height:          49 + Math.max(insets.bottom, 8),
             paddingBottom:   10,
             paddingTop:      6,
           },
           tabBarActiveTintColor:   C.tabActive,
           tabBarInactiveTintColor: C.tabInactive,
-          tabBarLabelStyle: { fontFamily: 'Nunito_700Bold', fontSize: 10 },
+          tabBarLabelStyle: { fontFamily: 'Nunito_700Bold', fontSize: 12 },
         }}
       >
         <Tab.Screen
