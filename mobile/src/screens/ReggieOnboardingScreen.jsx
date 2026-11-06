@@ -102,18 +102,9 @@ export default function ReggieOnboardingScreen({ onComplete }) {
       {/* ── Mascot area (fixed height) ── */}
       <View style={s.mascotArea}>
 
-        {/* Back button — hidden on step 0 */}
-        {step > 0 ? (
-          <TouchableOpacity
-            onPress={goBack}
-            style={s.backBtn}
-            hitSlop={{ top: 12, left: 12, bottom: 12, right: 12 }}
-          >
-            <Text style={[T.btn, { color: C.brand, fontSize: 14 }]}>‹ Back</Text>
-          </TouchableOpacity>
-        ) : (
-          <View style={s.backBtnPlaceholder} />
-        )}
+        {/* Fixed-height slot for the Back button on every step, so the mascot
+            never shifts when Back appears on step 1. */}
+        <View style={s.backBtnPlaceholder} />
 
         {/* Reggie + speech bubble side by side */}
         <View style={s.mascotRow}>
@@ -139,6 +130,20 @@ export default function ReggieOnboardingScreen({ onComplete }) {
             />
           ))}
         </View>
+
+        {/* Back button — hidden on step 0. Rendered last and absolutely
+            positioned so its full 44pt target sits above the mascot row and
+            receives taps there (hitSlop is ignored on web). */}
+        {step > 0 && (
+          <TouchableOpacity
+            onPress={goBack}
+            style={s.backBtn}
+            accessibilityRole="button"
+            accessibilityLabel="Back"
+          >
+            <Text style={[T.btn, { color: C.brand, fontSize: 14 }]}>‹ Back</Text>
+          </TouchableOpacity>
+        )}
       </View>
 
       {/* ── Step body (scrollable) ── */}
@@ -333,9 +338,19 @@ function makeStyles(C) {
       borderBottomWidth: 1,
       borderBottomColor: C.border,
     },
+    // Overlay inside mascotArea: label top lines up with mascotArea's 6pt
+    // paddingTop and x=20 (left 8 + padding 12), exactly where it used to sit;
+    // the 44pt-tall box overlaps the mascot row without moving it.
     backBtn: {
-      alignSelf: 'flex-start',
-      marginBottom: 4,
+      position: 'absolute',
+      top: 0,
+      left: 8,
+      minHeight: 44,
+      minWidth: 44,
+      paddingTop: 6,
+      paddingHorizontal: 12,
+      zIndex: 2,
+      elevation: 2,
     },
     backBtnPlaceholder: {
       height: 22,
