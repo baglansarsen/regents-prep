@@ -8,7 +8,8 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import * as AppleAuthentication from 'expo-apple-authentication'
 import { useTheme } from '../context/ThemeContext'
 import { useAuth } from '../hooks/useAuth'
-import { T, duoBtn, duoBtnOutline, cardShadow } from '../styles/duo'
+import { T, duoBtnOutline, cardShadow } from '../styles/duo'
+import PressableDuo from '../motion/PressableDuo'
 
 
 export default function LoginScreen({ navigation }) {
@@ -32,7 +33,6 @@ export default function LoginScreen({ navigation }) {
     return () => { mounted = false }
   }, [])
 
-  const submitScale = useRef(new Animated.Value(1)).current
   const googleScale = useRef(new Animated.Value(1)).current
   const guestScale  = useRef(new Animated.Value(1)).current
 
@@ -175,33 +175,18 @@ export default function LoginScreen({ navigation }) {
               />
             </View>
 
-            <Animated.View style={{ transform: [{ scale: submitScale }], width: '100%' }}>
-              <TouchableOpacity accessibilityRole="button"
-                style={duoBtn(C.brand, C.brandDark, { marginTop: 8, width: '100%' })}
-                onPress={handleSubmit}
-                disabled={loading}
-                onPressIn={() => {
-                  Animated.timing(submitScale, {
-                    toValue: 0.96,
-                    duration: 80,
-                    useNativeDriver: true,
-                  }).start()
-                }}
-                onPressOut={() => {
-                  Animated.spring(submitScale, {
-                    toValue: 1,
-                    tension: 180,
-                    friction: 12,
-                    useNativeDriver: true,
-                  }).start()
-                }}
-              >
-                {loading
-                  ? <ActivityIndicator color="#fff" />
-                  : <Text style={[T.btn, { color: '#fff' }]}>{mode === 'login' ? 'LOG IN' : 'CREATE ACCOUNT'}</Text>
-                }
-              </TouchableOpacity>
-            </Animated.View>
+            <PressableDuo
+              color={C.brand}
+              darkColor={C.brandDark}
+              onPress={handleSubmit}
+              disabled={loading}
+              style={{ marginTop: 8, width: '100%' }}
+            >
+              {loading
+                ? <ActivityIndicator color="#fff" />
+                : <Text style={[T.btn, { color: '#fff' }]}>{mode === 'login' ? 'LOG IN' : 'CREATE ACCOUNT'}</Text>
+              }
+            </PressableDuo>
           </View>
 
           {/* Divider */}

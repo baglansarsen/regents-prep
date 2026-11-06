@@ -9,7 +9,8 @@ import { useGoal } from '../context/GoalContext'
 import { SUBJECTS, SUBJECT_META } from '../content/subjects'
 import { getUpcomingExamSessions } from '../utils/examDates'
 import { GOAL_TIERS } from '../data/goalConfig'
-import { T, duoBtn, elevatedCard } from '../styles/duo'
+import { T, elevatedCard } from '../styles/duo'
+import PressableDuo from '../motion/PressableDuo'
 import ReggieMascot from '../components/ReggieMascot'
 
 // All exam-offering subjects, in the order SUBJECTS defines them
@@ -162,13 +163,9 @@ export default function ReggieOnboardingScreen({ onComplete }) {
             <Text style={[T.small, { color: C.textMuted, textAlign: 'center', marginBottom: 36 }]}>
               Let me help you set up in under a minute.
             </Text>
-            <TouchableOpacity accessibilityRole="button"
-              style={duoBtn(C.brand, C.brandDark)}
-              onPress={() => setStep(1)}
-              activeOpacity={0.85}
-            >
+            <PressableDuo color={C.brand} darkColor={C.brandDark} onPress={() => setStep(1)}>
               <Text style={[T.btn, { color: '#fff' }]}>Let's go →</Text>
-            </TouchableOpacity>
+            </PressableDuo>
           </View>
         )}
 
@@ -308,16 +305,17 @@ export default function ReggieOnboardingScreen({ onComplete }) {
             </View>
 
             {/* CTA */}
-            <TouchableOpacity accessibilityRole="button"
-              style={[duoBtn(C.brand, C.brandDark, { marginTop: 24, opacity: committing ? 0.6 : 1 })]}
+            <PressableDuo
+              color={C.brand}
+              darkColor={C.brandDark}
               onPress={handleFinish}
               disabled={committing}
-              activeOpacity={0.85}
+              style={{ marginTop: 24 }}
             >
               <Text style={[T.btn, { color: '#fff' }]}>
                 {committing ? 'Setting up…' : 'Start studying →'}
               </Text>
-            </TouchableOpacity>
+            </PressableDuo>
           </View>
         )}
 

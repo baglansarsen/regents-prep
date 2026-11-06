@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import { useTheme } from '../context/ThemeContext'
-import { T, duoBtn, elevatedCard } from '../styles/duo'
+import { T, elevatedCard } from '../styles/duo'
+import PressableDuo from '../motion/PressableDuo'
 import GoalRing from './GoalRing'
 
 /**
@@ -97,9 +98,9 @@ export default function NextActionCard({
         </Text>
       )}
 
-      <TouchableOpacity accessibilityRole="button" style={duoBtn(C.brand, C.brandDark)} onPress={onPress} activeOpacity={0.85}>
+      <PressableDuo color={C.brand} darkColor={C.brandDark} onPress={onPress}>
         <Text style={[T.btn, { color: '#fff' }]}>{hero.cta}</Text>
-      </TouchableOpacity>
+      </PressableDuo>
 
       {onSkip && (
         <TouchableOpacity accessibilityRole="button" onPress={onSkip} activeOpacity={0.7} style={{ alignSelf: 'center', marginTop: 8 }}>
