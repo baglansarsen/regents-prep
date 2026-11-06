@@ -12,6 +12,7 @@ import ProfileStack  from './ProfileStack'
 import GlobalTopBar  from '../components/GlobalTopBar'
 import StreakCelebrationHost from '../components/StreakCelebrationHost'
 import TourHost from '../components/TourHost'
+import { RewardFlightProvider } from '../motion/RewardFlight'
 
 const Tab = createBottomTabNavigator()
 
@@ -26,6 +27,8 @@ export default function TabNavigator() {
   const insets = useSafeAreaInsets()
 
   return (
+    // Reward flights (⭐ to the top bar) travel across the whole tab area.
+    <RewardFlightProvider>
     <View style={{ flex: 1, backgroundColor: C.bg }}>
       <GlobalTopBar />
       <Tab.Navigator
@@ -84,5 +87,6 @@ export default function TabNavigator() {
       <StreakCelebrationHost />
       <TourHost />
     </View>
+    </RewardFlightProvider>
   )
 }

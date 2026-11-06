@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { View, Text, TouchableOpacity, StyleSheet, Platform } from 'react-native'
+import React, { useState, useEffect, useRef } from 'react'
+import { Animated, View, Text, TouchableOpacity, StyleSheet, Platform } from 'react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
@@ -14,6 +14,9 @@ import { useRewardedAd } from '../hooks/useRewardedAd'
 import { useCountdown, formatCountdown as formatSecs } from '../hooks/useCountdown'
 import { useTourTarget } from '../context/TourContext'
 import { T } from '../styles/duo'
+import { useFlightTarget } from '../motion/RewardFlight'
+import { NATIVE_DRIVER } from '../motion/tokens'
+import { useReducedMotion } from '../motion/useReducedMotion'
 import RewardsSheet from './RewardsSheet'
 import SubjectSheet from './SubjectSheet'
 import EnergyBattery from './EnergyBattery'
@@ -42,6 +45,31 @@ export default function GlobalTopBar() {
   const secsUntilRefill = useCountdown(lives < maxLives ? nextRefillAt : null)
   const { isActive: boostActive, timeLeft: boostTimeLeft } = useDoubleRP()
   const { ready: adReady, loading: adLoading, showAd } = useRewardedAd({ onReward: addLife })
+
+  // ⭐ chip is where earned RP flies to (animation-plan.md Phase 4).
+  const rpBump = useFlightTarget('rp', rpTarget.ref)
+
+  // 🔥 flickers when today's streak is secured (the count goes up while the
+  // app is open). Ignore the first 2s — the streak loads in after mount.
+  const reduced = useReducedMotion()
+  const flame = useRef(new Animated.Value(0)).current
+  const prevStreak = useRef(streak)
+  const mountedAt = useRef(Date.now())
+  useEffect(() => {
+    const rose = streak > prevStreak.current && Date.now() - mountedAt.current > 2000
+    prevStreak.current = streak
+    if (!rose || reduced) return
+    flame.setValue(0)
+    const a = Animated.timing(flame, { toValue: 1, duration: 900, useNativeDriver: NATIVE_DRIVER })
+    a.start()
+    return () => a.stop()
+  }, [streak, reduced])
+  const flameStyle = {
+    transform: [
+      { scale: flame.interpolate({ inputRange: [0, 0.2, 0.5, 0.8, 1], outputRange: [1, 1.35, 1.1, 1.2, 1] }) },
+      { rotate: flame.interpolate({ inputRange: [0, 0.25, 0.5, 0.75, 1], outputRange: ['0deg', '-10deg', '8deg', '-5deg', '0deg'] }) },
+    ],
+  }
 
   const subjectColor = SUBJECT_META[subject]?.color ?? '#16a34a'
   const s = makeStyles(insets.top, subjectColor)
@@ -91,7 +119,9 @@ export default function GlobalTopBar() {
           accessibilityRole="button"
           accessibilityHint="Tap to view streak details and buy a streak freeze."
         >
-          <Text style={s.statText}>🔥 {streak}</Text>
+          <Animated.View style={flameStyle}>
+            <Text style={s.statText}>🔥 {streak}</Text>
+          </Animated.View>
         </TouchableOpacity>
 
         {/* ⭐ RP — taps open sheet focused on RP & power-ups */}
@@ -104,9 +134,11 @@ export default function GlobalTopBar() {
           accessibilityRole="button"
           accessibilityHint={boostActive ? `Double RP boost active. Tap to view RP and shop.` : 'Tap to view RP and buy power-ups.'}
         >
-          <Text style={s.statText}>
-            {boostActive ? '⚡' : '⭐'} {rp >= 1000 ? `${(rp / 1000).toFixed(1)}k` : rp}
-          </Text>
+          <Animated.View style={{ transform: [{ scale: rpBump }] }}>
+            <Text style={s.statText}>
+              {boostActive ? '⚡' : '⭐'} {rp >= 1000 ? `${(rp / 1000).toFixed(1)}k` : rp}
+            </Text>
+          </Animated.View>
         </TouchableOpacity>
 
         {/* Energy — taps open sheet focused on recharge state */}
