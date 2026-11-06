@@ -55,6 +55,10 @@ export default function ProgressBar({
       accessible
       accessibilityRole="progressbar"
       accessibilityValue={{ min: 0, max: 100, now: Math.round(progress * 100) }}
+      // RN-web ignores accessibilityValue; the aria-value* props reach the DOM.
+      aria-valuemin={0}
+      aria-valuemax={100}
+      aria-valuenow={Math.round(progress * 100)}
     >
       {w > 0 && (
         <Animated.View
