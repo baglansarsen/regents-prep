@@ -851,7 +851,8 @@ export default function HomeScreen({ navigation }) {
           hero={hero}
           goal={{
             subjectName, hasGoal: !!regentsGoal, predicted, coldStart,
-            target: regentsGoal?.target ?? null, examLabel,
+            target: regentsGoal?.target ?? null,
+            // examLabel omitted: the greeting above already shows the countdown
           }}
           headline={todayPlan.headline}
           extras={rescueActive ? [] : todayPlan.tasks.slice(1)}
