@@ -36,6 +36,7 @@ import PressableDuo from '../motion/PressableDuo'
 import ProgressBar from '../motion/ProgressBar'
 import AnswerChoice, { verdictFor } from '../motion/AnswerChoice'
 import ReactingReggie from '../motion/ReactingReggie'
+import { useReducedMotion } from '../motion/useReducedMotion'
 import { logActivity } from '../utils/activityLogger'
 import { skipUnlocksKey } from '../utils/storageKeys'
 import { getSubjectData } from '../utils/subjectData'
@@ -106,6 +107,7 @@ export default function QuizScreen({ route, navigation }) {
   const { say } = useSpeechContext()
   const { isSubscribed, isConfigured, presentPaywall } = useSubscription()
   const feedback = useFeedback()
+  const reducedMotion = useReducedMotion()
 
   const [showBubble,    setShowBubble]    = useState(false)
   const [buddyMessage,  setBuddyMessage]  = useState(null)
@@ -185,6 +187,7 @@ export default function QuizScreen({ route, navigation }) {
   const petScale   = useRef(new Animated.Value(1)).current
 
   function animatePetCorrect() {
+    if (reducedMotion) return
     Animated.sequence([
       Animated.spring(petBounceY, { toValue: -14, useNativeDriver: true, tension: 400, friction: 6 }),
       Animated.spring(petBounceY, { toValue: -6,  useNativeDriver: true, tension: 300, friction: 5 }),
@@ -198,6 +201,7 @@ export default function QuizScreen({ route, navigation }) {
   }
 
   function animatePetIncorrect() {
+    if (reducedMotion) return
     Animated.sequence([
       Animated.timing(petShakeX, { toValue:  8, duration: 50, useNativeDriver: true }),
       Animated.timing(petShakeX, { toValue: -8, duration: 50, useNativeDriver: true }),
@@ -224,7 +228,9 @@ export default function QuizScreen({ route, navigation }) {
   // ── Feedback panel slide ──────────────────────────────────────────────────
   useEffect(() => {
     if (phase === 'feedback') {
-      Animated.spring(slideAnim, { toValue: 0, useNativeDriver: true, tension: 100, friction: 10 }).start()
+      // Reduce Motion: the panel appears in place instead of sliding 300pt.
+      if (reducedMotion) slideAnim.setValue(0)
+      else Animated.spring(slideAnim, { toValue: 0, useNativeDriver: true, tension: 100, friction: 10 }).start()
     } else {
       slideAnim.setValue(300)
     }
@@ -234,8 +240,8 @@ export default function QuizScreen({ route, navigation }) {
   useEffect(() => {
     if (phase === 'feedback' && streak >= 2) {
       if (streak === 5 || streak === 10) hapticHeavy()   // combo milestones land harder
-      comboAnim.setValue(0)
-      Animated.spring(comboAnim, {
+      comboAnim.setValue(reducedMotion ? 1 : 0)   // Reduce Motion: badge just appears
+      if (!reducedMotion) Animated.spring(comboAnim, {
         toValue: 1, useNativeDriver: true, tension: 200, friction: 7,
       }).start()
     } else {
