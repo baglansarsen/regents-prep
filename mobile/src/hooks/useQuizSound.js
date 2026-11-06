@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useCallback, useEffect, useRef } from 'react'
 
 let Audio = null
 try {
@@ -7,12 +7,14 @@ try {
 
 const CDN_BASE = 'https://regents-prep.web.app'
 
-export function useQuizSound() {
+// enabled=false skips loading the audio entirely (callers that only want the
+// stable no-op API, e.g. useFeedback on a plain button).
+export function useQuizSound({ enabled = true } = {}) {
   const correctRef = useRef(null)
   const wrongRef   = useRef(null)
 
   useEffect(() => {
-    if (!Audio) return
+    if (!Audio || !enabled) return
     let mounted = true
 
     async function load() {
@@ -35,15 +37,16 @@ export function useQuizSound() {
       correctRef.current?.unloadAsync()
       wrongRef.current?.unloadAsync()
     }
+  }, [enabled])
+
+  // Stable identities: safe to list in deps / memoise on.
+  const playCorrect = useCallback(async () => {
+    try { await correctRef.current?.replayAsync() } catch {}
   }, [])
 
-  async function playCorrect() {
-    try { await correctRef.current?.replayAsync() } catch {}
-  }
-
-  async function playWrong() {
+  const playWrong = useCallback(async () => {
     try { await wrongRef.current?.replayAsync() } catch {}
-  }
+  }, [])
 
   return { playCorrect, playWrong }
 }
