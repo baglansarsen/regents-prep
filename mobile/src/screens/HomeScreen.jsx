@@ -20,7 +20,7 @@ import { useDailyGoal } from '../hooks/useDailyGoal'
 import { useLessonProgress } from '../hooks/useLessonProgress'
 import { useMistakes } from '../hooks/useMistakes'
 import { useUnitUnlocks } from '../hooks/useUnitUnlocks'
-import { useFocusEffect } from '@react-navigation/native'
+import { useFocusEffect, useIsFocused } from '@react-navigation/native'
 import { localDateStr, yesterdayStr, toLocalDateStr } from '../utils/localDate'
 import { shuffle, buildUnitSampledSet, checkupTarget } from '../utils/question'
 import { SUBJECTS } from '../content/subjects'
@@ -61,6 +61,11 @@ import { energyBand, isMathSubject } from '../utils/energy'
 import { mistakeLabelOf, stickiestTopicOf } from '../utils/reviewQueue'
 import { useDailyTrap } from '../hooks/useDailyTrap'
 import { useLayout } from '../hooks/useLayout'
+import StartCallout from '../motion/StartCallout'
+import UnlockPop, { newlyUnlocked } from '../motion/UnlockPop'
+import PressScale from '../motion/PressScale'
+import Burst from '../motion/Burst'
+import { hapticSuccess } from '../utils/haptics'
 
 const MILESTONE_GIFTS = {
   3:  { rp: 50,   items: {},                       label: '50 ⭐ RP!' },
@@ -445,18 +450,69 @@ export default function HomeScreen({ navigation }) {
   const sheetAnim     = useRef(new Animated.Value(400)).current
   const goalSheetAnim = useRef(new Animated.Value(400)).current
   const tipsAnim      = useRef(new Animated.Value(400)).current
-  const pulseNodeAnim = useRef(new Animated.Value(1)).current
+
+  // ── Path motion (animation-plan.md Phase 3) ────────────────────────────────
+  // Unlock moment: compare the unlocked lesson nodes against what was unlocked
+  // the last time Home was focused. No animation on first load (or for the
+  // settling ~1.5s after it, while skip-unlocks/history finish loading), and
+  // none while Home is in the background — the diff waits for focus.
+  const isFocused = useIsFocused()
+  const unlockedKeys = []
+  for (const item of pathItems) {
+    if (item.type !== 'lesson') continue
+    if (isUnitUnlocked(item.unitIdx) && isLessonUnlocked(item.unit, item.lessonIndex)) {
+      unlockedKeys.push(`${item.unit.id}-l${item.lessonIndex}`)
+    }
+  }
+  const unlockedSig = unlockedKeys.join(',')
+  const unlockBase  = useRef({ subject: null, keys: null, settleUntil: 0 })
+  const [justUnlocked, setJustUnlocked] = useState([])
+  const [unlockBurst,  setUnlockBurst]  = useState(0)
+
+  // Scroll-to-node: node y's (within the path) + live scroll position.
+  // Zero-height layouts are ignored: RN-web hides unfocused tabs with
+  // display:none, which reports 0 and would wipe the real positions.
+  const nodeY        = useRef({})
+  const pathY        = useRef(0)
+  const scrollYRef   = useRef(0)
+  const viewportH    = useRef(0)
+  const focusedOnce  = useRef(false)
+
+  function scrollToNode(key) {
+    const y = nodeY.current[key]
+    if (y == null || !viewportH.current) return
+    const top = pathY.current + y
+    const visible = top >= scrollYRef.current + 60 && top + NODE_SIZE + 40 <= scrollYRef.current + viewportH.current
+    if (visible) return
+    scrollRef.current?.scrollTo({ y: Math.max(0, top - viewportH.current * 0.45), animated: true })
+  }
 
   useEffect(() => {
-    const loop = Animated.loop(
-      Animated.sequence([
-        Animated.timing(pulseNodeAnim, { toValue: 1.1, duration: 750, useNativeDriver: true }),
-        Animated.timing(pulseNodeAnim, { toValue: 1,   duration: 750, useNativeDriver: true }),
-      ])
-    )
-    loop.start()
-    return () => loop.stop()
-  }, [])
+    if (!historyLoaded || !isFocused) return
+    const base = unlockBase.current
+    if (base.subject !== subject || !base.keys) {
+      unlockBase.current = { subject, keys: unlockedKeys, settleUntil: Date.now() + 1500 }
+      return
+    }
+    const fresh = newlyUnlocked(base.keys, unlockedKeys)
+    base.keys = unlockedKeys
+    if (!fresh.length || Date.now() < base.settleUntil) return
+    setJustUnlocked(fresh)
+    setUnlockBurst((n) => n + 1)
+    hapticSuccess()
+    setTimeout(() => scrollToNode(fresh[0]), 120)   // after the screen re-lays out
+    const t = setTimeout(() => setJustUnlocked([]), 1600)
+    return () => clearTimeout(t)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [unlockedSig, historyLoaded, isFocused, subject])
+
+  // Coming back to Home: bring the current lesson into view if it's off-screen.
+  useEffect(() => {
+    if (!isFocused) return
+    if (!focusedOnce.current) { focusedOnce.current = true; return }   // not on first open
+    if (firstActiveKey) setTimeout(() => scrollToNode(firstActiveKey), 120)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isFocused])
 
   // ── Idle speech — fires every 4–8 min while home screen is active ────────
   const subjectName = {
@@ -817,7 +873,14 @@ export default function HomeScreen({ navigation }) {
   return (
     <SafeAreaView style={s.safe} edges={['bottom']}>
 
-      <ScrollView ref={scrollRef} showsVerticalScrollIndicator={false} contentContainerStyle={s.scroll}>
+      <ScrollView
+        ref={scrollRef}
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={s.scroll}
+        onLayout={(e) => { const h = e.nativeEvent.layout.height; if (h > 0) viewportH.current = h }}
+        onScroll={(e) => { scrollYRef.current = e.nativeEvent.contentOffset.y }}
+        scrollEventThrottle={64}
+      >
 
         {/* Greeting + status bar */}
         <View style={s.header}>
@@ -878,7 +941,7 @@ export default function HomeScreen({ navigation }) {
         )}
 
         {/* ── LEARNING PATH — the home screen's primary content, lessons first ── */}
-        <View style={s.pathContainer}>
+        <View style={s.pathContainer} onLayout={(e) => { const l = e.nativeEvent.layout; if (l.height > 0) pathY.current = l.y }}>
           {pathItems.map((item) => {
             if (item.type === 'banner') {
               const { unit, unitIdx } = item
@@ -973,11 +1036,19 @@ export default function HomeScreen({ navigation }) {
             const isFirstActive = nodeKey === firstActiveKey
 
             return (
-              <View key={nodeKey} style={[s.nodeWrapper, { marginLeft: offsetX }]}>
+              <View
+                key={nodeKey}
+                style={[s.nodeWrapper, { marginLeft: offsetX }, isFirstActive && s.nodeWithCallout]}
+                onLayout={(e) => { const l = e.nativeEvent.layout; if (l.height > 0) nodeY.current[nodeKey] = l.y }}
+              >
 
-                <Animated.View style={isFirstActive ? { transform: [{ scale: pulseNodeAnim }] } : undefined}>
-                <TouchableOpacity
-                  activeOpacity={lessonLocked ? 1 : 0.8}
+                {isFirstActive && !justUnlocked.includes(nodeKey) && (
+                  <StartCallout color={unit.color ?? C.brand} style={s.startCallout} />
+                )}
+                <UnlockPop active={justUnlocked.includes(nodeKey)}>
+                <PressScale
+                  accessibilityLabel={`${label}${lessonLocked ? ', locked' : done ? ', completed' : ''}`}
+                  restScale={selected ? 1.08 : 1}
                   onPress={() => {
                     if (unitLocked) {
                       Alert.alert(
@@ -1006,7 +1077,6 @@ export default function HomeScreen({ navigation }) {
                       shadowOffset: { width: 0, height: 4 },
                     },
                     cardShadow(C.shadow),
-                    selected     && { transform: [{ scale: 1.08 }] },
                     lessonLocked && { opacity: 0.5 },
                   ]}
                 >
@@ -1016,8 +1086,8 @@ export default function HomeScreen({ navigation }) {
                       <Text style={{ fontSize: 12 }}>⭐</Text>
                     </View>
                   )}
-                </TouchableOpacity>
-                </Animated.View>
+                </PressScale>
+                </UnlockPop>
 
                 <Text
                   style={[T.small, { color: lessonLocked ? C.textDim : C.text, textAlign: 'center', marginTop: 8 }]}
@@ -1143,6 +1213,9 @@ export default function HomeScreen({ navigation }) {
 
         <View style={{ height: 40 }} />
       </ScrollView>
+
+      {/* Unlock confetti — keyed so each unlock replays it */}
+      <Burst key={`unlock-${unlockBurst}`} run={unlockBurst > 0} intensity="small" />
 
       {/* ── Backdrop (tap-outside to dismiss) ── */}
       {selectedLesson && (
@@ -1613,6 +1686,8 @@ function makeStyles(C, width) {
 
     pathContainer: { alignItems: 'center', paddingBottom: 20 },
     nodeWrapper:   { alignItems: 'center', marginBottom: 4 },
+    startCallout:  { position: 'absolute', top: -44, zIndex: 2, elevation: 2 },
+    nodeWithCallout: { marginTop: 22 },   // room for the START tab so it never covers a unit banner
     connector:     { width: 5, height: 36, backgroundColor: C.border, marginBottom: 4, borderRadius: 2.5 },
     node: {
       width:          NODE_SIZE,
