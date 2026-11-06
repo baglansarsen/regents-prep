@@ -30,8 +30,12 @@ import { shouldSpendEnergy } from '../utils/energy'
 import { mistakeLabelOf, questionKey } from '../utils/reviewQueue'
 import ReadAloudButton from '../components/ReadAloudButton'
 import { useStudyTime } from '../hooks/useStudyTime'
-import { hapticTick, hapticSuccess, hapticWarning } from '../utils/haptics'
-import { useQuizSound } from '../hooks/useQuizSound'
+import { hapticTick, hapticHeavy } from '../utils/haptics'
+import { useFeedback } from '../motion/useFeedback'
+import PressableDuo from '../motion/PressableDuo'
+import ProgressBar from '../motion/ProgressBar'
+import AnswerChoice, { verdictFor } from '../motion/AnswerChoice'
+import ReactingReggie from '../motion/ReactingReggie'
 import { logActivity } from '../utils/activityLogger'
 import { skipUnlocksKey } from '../utils/storageKeys'
 import { getSubjectData } from '../utils/subjectData'
@@ -101,7 +105,7 @@ export default function QuizScreen({ route, navigation }) {
   const { checkAndEvolve, triggerReaction, updateQuestProgress, getPetMessage, studyBoost, pet } = usePetContext()
   const { say } = useSpeechContext()
   const { isSubscribed, isConfigured, presentPaywall } = useSubscription()
-  const { playCorrect, playWrong } = useQuizSound()
+  const feedback = useFeedback()
 
   const [showBubble,    setShowBubble]    = useState(false)
   const [buddyMessage,  setBuddyMessage]  = useState(null)
@@ -229,6 +233,7 @@ export default function QuizScreen({ route, navigation }) {
   // ── Combo badge pop animation ─────────────────────────────────────────────
   useEffect(() => {
     if (phase === 'feedback' && streak >= 2) {
+      if (streak === 5 || streak === 10) hapticHeavy()   // combo milestones land harder
       comboAnim.setValue(0)
       Animated.spring(comboAnim, {
         toValue: 1, useNativeDriver: true, tension: 200, friction: 7,
@@ -246,13 +251,11 @@ export default function QuizScreen({ route, navigation }) {
       const correctIdx = currentQuestion?.correct ?? currentQuestion?.correctIndex
       const wasCorrect = selected === correctIdx
       if (wasCorrect) {
-        hapticSuccess()
-        playCorrect()
+        feedback.correct()
         triggerReaction('cheer')
         animatePetCorrect()
       } else {
-        hapticWarning()
-        playWrong()
+        feedback.wrong()
         // Misses are free during the repeat round, the adaptive confidence
         // round, the Daily Trap, and the cold-start checkup — see
         // shouldSpendEnergy for the policy.
@@ -454,13 +457,13 @@ export default function QuizScreen({ route, navigation }) {
           </TouchableOpacity>
 
           <View style={s.progressWrap}>
-            <View style={s.progressBg}>
-              <View style={[s.progressFill, {
-                width: inRepeat
-                  ? `${repeatTotal ? (repeatIndex / repeatTotal) * 100 : 0}%`
-                  : `${(index / total) * 100}%`,
-              }]} />
-            </View>
+            <ProgressBar
+              progress={inRepeat ? (repeatTotal ? repeatIndex / repeatTotal : 0) : (total ? index / total : 0)}
+              color={C.brand}
+              trackColor={C.surface2}
+              sheenKey={score}
+              glow={streak >= 3}
+            />
             <View style={s.energyRow}>
               <EnergyBattery
                 lives={lives}
@@ -564,8 +567,12 @@ export default function QuizScreen({ route, navigation }) {
                 </TouchableOpacity>
               )}
               {currentQuestion.choices.map((choice, idx) => (
+                <AnswerChoice
+                  key={`${index}-${idx}`}
+                  selected={phase === 'answering' && selected === idx}
+                  verdict={verdictFor(idx, { phase, selected, correctIdx })}
+                >
                 <TouchableOpacity
-                  key={idx}
                   style={choiceStyle(idx)}
                   onPress={() => { if (phase !== 'answering' || eliminated?.includes(idx)) return; hapticTick(); select(idx) }}
                   activeOpacity={0.75}
@@ -576,15 +583,17 @@ export default function QuizScreen({ route, navigation }) {
                   </View>
                   <Text style={[T.body, { flex: 1, color: C.text }]}>{choice}</Text>
                 </TouchableOpacity>
+                </AnswerChoice>
               ))}
 
               {/* Tap-to-confirm: a choice highlights on tap; CHECK submits it. */}
               {phase === 'answering' && (
-                <TouchableOpacity
-                  style={[duoBtn(C.brand, C.brandDark, { marginTop: 6 }), selected == null && { opacity: 0.4 }]}
+                <PressableDuo
+                  color={C.brand}
+                  darkColor={C.brandDark}
+                  style={{ marginTop: 6 }}
                   onPress={() => {
                     if (selected == null) return
-                    hapticTick()
                     if (isPilotQuestion(currentQuestion)) {
                       logActivity(uid, 'pilot_learn_mode', 'Learn Mode pilot: pre-answer hint probe', {
                         questionId: currentQuestion.id,
@@ -595,10 +604,9 @@ export default function QuizScreen({ route, navigation }) {
                     check()
                   }}
                   disabled={selected == null}
-                  activeOpacity={0.85}
                 >
                   <Text style={[T.btn, { color: '#fff' }]}>CHECK</Text>
-                </TouchableOpacity>
+                </PressableDuo>
               )}
             </View>
           )}
@@ -636,7 +644,7 @@ export default function QuizScreen({ route, navigation }) {
           {/* Header row: Reggie reacts + result + combo badge */}
           <View style={s.feedbackHeader}>
             <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
-              <ReggieMascot size={48} pose={isCorrect ? 'encourage' : 'oops'} />
+              <ReactingReggie key={`reggie-${index}`} size={48} pose={isCorrect ? 'encourage' : 'oops'} />
               <Text style={[T.h2, { color: isCorrect ? C.correct : C.wrong }]}>
                 {isCorrect ? '🎉 Correct!' : '❌ Incorrect'}
               </Text>
@@ -687,14 +695,16 @@ export default function QuizScreen({ route, navigation }) {
           ) : <View style={{ height: 16 }} />}
           </ScrollView>
 
-          <TouchableOpacity
-            style={[duoBtn(isCorrect ? C.brand : C.wrong, isCorrect ? C.brandDark : C.wrongDark), { marginTop: 12 }]}
+          <PressableDuo
+            color={isCorrect ? C.brand : C.wrong}
+            darkColor={isCorrect ? C.brandDark : C.wrongDark}
+            style={{ marginTop: 12 }}
             onPress={nextQuestion}
           >
             <Text style={[T.btn, { color: '#fff' }]}>
               {index + 1 === total ? 'SEE RESULTS' : 'CONTINUE'}
             </Text>
-          </TouchableOpacity>
+          </PressableDuo>
         </Animated.View>
       )}
 
@@ -1096,8 +1106,6 @@ function makeStyles(C, insets) {
     closeBtn:      { width: 36, height: 36, borderRadius: 18, backgroundColor: C.surface2, alignItems: 'center', justifyContent: 'center' },
     closeBtnText:  { fontSize: 15, color: C.textMuted, fontFamily: 'Nunito_700Bold' },
     progressWrap:  { flex: 1 },
-    progressBg:    { height: 14, backgroundColor: C.surface2, borderRadius: 7, overflow: 'hidden' },
-    progressFill:  { height: 14, backgroundColor: C.brand, borderRadius: 7 },
     topRightCol:   { flexDirection: 'row', alignItems: 'center', gap: 6 },
     scoreChip:     { flexDirection: 'row', alignItems: 'center', backgroundColor: C.surface2, borderRadius: 20, paddingHorizontal: 10, paddingVertical: 5 },
     energyRow:     { flexDirection: 'row', justifyContent: 'flex-start', marginTop: 6 },
