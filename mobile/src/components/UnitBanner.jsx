@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import { T, cardShadow } from '../styles/duo'
+import ProgressBar from '../motion/ProgressBar'
 
 export default function UnitBanner({ unit, unitIndex, completed, total, locked, C, onTips }) {
   const bg          = locked ? C.surface2 : unit.color
@@ -34,10 +35,8 @@ export default function UnitBanner({ unit, unitIndex, completed, total, locked, 
         )}
       </View>
 
-      {/* Progress bar */}
-      <View style={[styles.barTrack, { backgroundColor: barTrack }]}>
-        <View style={[styles.barFill, { backgroundColor: barFill, width: `${fillPct * 100}%` }]} />
-      </View>
+      {/* Progress bar — springs from the old value when a lesson is finished */}
+      <ProgressBar progress={fillPct} color={barFill} trackColor={barTrack} height={6} />
     </View>
   )
 }
@@ -64,15 +63,6 @@ const styles = StyleSheet.create({
   titleBlock: {
     flex: 1,
     marginLeft: 10,
-  },
-  barTrack: {
-    height: 6,
-    borderRadius: 3,
-    overflow: 'hidden',
-  },
-  barFill: {
-    height: 6,
-    borderRadius: 3,
   },
   tipsPill: {
     borderRadius: 10,
