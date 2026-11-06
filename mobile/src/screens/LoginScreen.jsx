@@ -119,6 +119,9 @@ export default function LoginScreen({ navigation }) {
                 <TextInput
                   style={s.input}
                   placeholder="Your name"
+                  accessibilityLabel="Your name"
+                  autoComplete="name"
+                  textContentType="name"
                   placeholderTextColor={C.textDim}
                   value={name}
                   onChangeText={setName}
@@ -133,6 +136,12 @@ export default function LoginScreen({ navigation }) {
               <TextInput
                 style={s.input}
                 placeholder="Email address"
+                accessibilityLabel="Email address"
+                autoComplete="email"
+                // iOS pairs the keychain credential on the "username" field
+                // (the account id here is the email); "emailAddress" only
+                // suggests contact emails.
+                textContentType="username"
                 placeholderTextColor={C.textDim}
                 value={email}
                 onChangeText={setEmail}
@@ -148,6 +157,12 @@ export default function LoginScreen({ navigation }) {
               <TextInput
                 style={s.input}
                 placeholder="Password"
+                accessibilityLabel="Password"
+                autoComplete={mode === 'signup' ? 'new-password' : 'current-password'}
+                // Not "newPassword": without a webcredentials Associated Domain
+                // iOS would offer a generated Strong Password it can't autofill
+                // later, locking students out of a password they never typed.
+                textContentType="password"
                 placeholderTextColor={C.textDim}
                 value={password}
                 onChangeText={setPassword}
