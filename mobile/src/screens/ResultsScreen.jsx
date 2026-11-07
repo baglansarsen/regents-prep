@@ -428,6 +428,8 @@ export default function ResultsScreen({ route, navigation }) {
             <TouchableOpacity
               style={duoBtnOutline(C.border, { flex: nextLessonMeta ? 1 : undefined, paddingHorizontal: nextLessonMeta ? 0 : 32 })}
               onPress={() => navigation.navigate('Home')}
+              accessibilityRole="button"
+              accessibilityLabel="Home"
             >
               <Text style={[T.btn, { color: C.text }]}>🏠 HOME</Text>
             </TouchableOpacity>
@@ -478,6 +480,8 @@ export default function ResultsScreen({ route, navigation }) {
             <TouchableOpacity
               style={duoBtnOutline(C.border, { flex: 1 })}
               onPress={() => navigation.navigate('Home')}
+              accessibilityRole="button"
+              accessibilityLabel="Home"
             >
               <Text style={[T.btn, { color: C.text }]}>🏠 HOME</Text>
             </TouchableOpacity>
