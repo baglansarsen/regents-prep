@@ -119,6 +119,7 @@ export function buildStudyPlan({
   const lessonsTotal = unitRows.reduce((s, u) => s + u.total, 0)
   const lessonsDone  = unitRows.reduce((s, u) => s + u.done, 0)
   const lessonsLeft  = lessonsTotal - lessonsDone
+  const unitsLeft    = unitRows.filter((u) => u.left > 0).length
 
   // Weak units: attempted and below the target, ranked by points available.
   const pctByTopic = new Map(topicBreakdown.map((b) => [b.topic, b]))
@@ -134,7 +135,7 @@ export function buildStudyPlan({
       daysLeft, studyDaysLeft: 0,
       phase: daysLeft < 0 ? 'passed' : 'exam_day',
       phases: [],
-      pace: { lessonsTotal, lessonsDone, lessonsLeft, learnStudyDays: 0, lessonsPerStudyDay: 0, capacityPerStudyDay: 0, shortfallLessons: 0, status: daysLeft < 0 ? 'passed' : 'exam_day' },
+      pace: { lessonsTotal, lessonsDone, lessonsLeft, unitsLeft, learnStudyDays: 0, lessonsPerStudyDay: 0, capacityPerStudyDay: 0, shortfallLessons: 0, status: daysLeft < 0 ? 'passed' : 'exam_day' },
       thisWeek: { units: [], weakUnits: [], reviews: 0, practiceExam: false },
       milestones: [],
       feasibility: { fits: true, minutesNeededPerDay: 0, suggestions: [] },
@@ -230,7 +231,7 @@ export function buildStudyPlan({
     studyDaysLeft,
     phase,
     phases,
-    pace: { lessonsTotal, lessonsDone, lessonsLeft, learnStudyDays, lessonsPerStudyDay, capacityPerStudyDay, shortfallLessons, status },
+    pace: { lessonsTotal, lessonsDone, lessonsLeft, unitsLeft, learnStudyDays, lessonsPerStudyDay, capacityPerStudyDay, shortfallLessons, status },
     thisWeek,
     milestones,
     feasibility: { fits, minutesNeededPerDay, suggestions },

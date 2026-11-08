@@ -69,3 +69,13 @@ test('updateGoal leaves other subjects untouched', async () => {
   await act(async () => { await get().updateGoal('chemistry', { target: 75 }) })
   expect(get().getGoal('physics')).toEqual({ target: 85, examDateStr: '2027-06-22', committedAt: 'x' })
 })
+
+test('commitGoal saves study time passed from goal setup', async () => {
+  const get = await mountWith(null)
+  await act(async () => {
+    await get().commitGoal('chemistry', 75, null, '2027-06-22', { availability: { daysPerWeek: 4, minutesPerDay: 25 } })
+  })
+  expect(get().getGoal('chemistry')).toMatchObject({
+    target: 75, examDateStr: '2027-06-22', availability: { daysPerWeek: 4, minutesPerDay: 25 },
+  })
+})

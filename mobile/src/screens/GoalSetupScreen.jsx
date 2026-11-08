@@ -9,12 +9,18 @@ import { useProgress } from '../hooks/useProgress'
 import { usePredictedScore } from '../hooks/usePredictedScore'
 import { useDailyStreak } from '../hooks/useDailyStreak'
 import { useNotifications } from '../hooks/useNotifications'
+import { useLessonProgress } from '../hooks/useLessonProgress'
+import { useMistakes } from '../hooks/useMistakes'
 import { GOAL_TIERS } from '../data/goalConfig'
 import { SUBJECT_META } from '../content/subjects'
 import { subjectData } from '../content/subjectData'
 import { getUpcomingExamSessions, daysUntil } from '../utils/examDates'
 import GoalShareSheet from '../components/GoalShareSheet'
 import RescuePlanSheet from '../components/RescuePlanSheet'
+import StudyTimePicker from '../components/StudyTimePicker'
+import PlanPreviewCard from '../components/PlanPreviewCard'
+import { buildStudyPlan, DEFAULT_AVAILABILITY } from '../utils/studyPlan'
+import { localDateStr } from '../utils/localDate'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import { logEvent } from '../utils/analytics'
 
@@ -38,7 +44,9 @@ export default function GoalSetupScreen({ navigation }) {
     () => history.filter((h) => (h.subject ?? 'living-environment') === subject),
     [history, subject],
   )
-  const { rawPredicted, coldStart } = usePredictedScore(subject, sd.UNITS ?? [], subjectHistory)
+  const { rawPredicted, coldStart, topicBreakdown, examCount } = usePredictedScore(subject, sd.UNITS ?? [], subjectHistory)
+  const { unitLessonsCompleted } = useLessonProgress(subjectHistory)
+  const { dueCount } = useMistakes(subject)
 
   const existing = getGoal(subject)
   const [target, setTarget] = useState(existing?.target ?? 65)
@@ -63,6 +71,31 @@ export default function GoalSetupScreen({ navigation }) {
 
   const days = daysUntil(examDateStr)
 
+  // ── Study time + the plan preview (docs/designs/exam-date-study-plan.md §5) ─
+  const [availability, setAvailability] = useState(() => existing?.availability ?? DEFAULT_AVAILABILITY)
+  const units = sd.UNITS ?? []
+  const lessonsDoneByTopic = useMemo(
+    () => Object.fromEntries(units.map((u) => [u.topic, unitLessonsCompleted(u.topic, u.lessonCount ?? 0)])),
+    [units, subjectHistory], // eslint-disable-line react-hooks/exhaustive-deps
+  )
+  const plan = useMemo(() => buildStudyPlan({
+    today: localDateStr(),
+    examDateStr, target, availability, units, lessonsDoneByTopic,
+    topicBreakdown: topicBreakdown ?? [],
+    predicted: coldStart ? null : rawPredicted,
+    dueCount, practiceExamsTaken: examCount ?? 0, coldStart,
+  }), [examDateStr, target, availability, units, lessonsDoneByTopic, topicBreakdown, coldStart, rawPredicted, dueCount, examCount])
+  // The session after the selected one, for the "take a later session" fix.
+  const nextSession = sessions[sessions.findIndex((sn) => sn.dateStr === examDateStr) + 1] ?? null
+
+  function applyFix(fix) {
+    if (fix.type === 'more_minutes') setAvailability((a) => ({ ...a, minutesPerDay: fix.minutesPerDay }))
+    else if (fix.type === 'more_days') setAvailability((a) => ({ ...a, daysPerWeek: fix.daysPerWeek }))
+    else if (fix.type === 'later_session' && nextSession) setExamDateStr(nextSession.dateStr)
+    else if (fix.type === 'lower_target') setTarget(fix.target)
+    logEvent('plan_fix_applied', { subject, type: fix.type })
+  }
+
   async function handleCommit() {
     // Editing keeps the goal's history (commit date, baseline, prediction
     // anchor, rescue answers); only a first goal starts fresh. A missing
@@ -71,12 +104,17 @@ export default function GoalSetupScreen({ navigation }) {
       ? await updateGoal(subject, {
           target,
           examDateStr,
+          availability,
           ...(existing.baselineScore == null && !coldStart && rawPredicted != null
             ? { baselineScore: rawPredicted } : {}),
         })
-      : await commitGoal(subject, target, coldStart ? null : rawPredicted, examDateStr)
+      : await commitGoal(subject, target, coldStart ? null : rawPredicted, examDateStr, { availability })
     setCommitted(entry)
-    logEvent('goal_committed', { subject, target, daysToExam: days })
+    logEvent('goal_committed', {
+      subject, target, daysToExam: days,
+      daysPerWeek: availability.daysPerWeek, minutesPerDay: availability.minutesPerDay,
+      planFits: plan?.feasibility.fits ?? null, planStatus: plan?.pace.status ?? null,
+    })
     // Rescue Plan first (two quick questions), then the share card.
     setShowRescue(true)
   }
@@ -185,6 +223,11 @@ export default function GoalSetupScreen({ navigation }) {
             </TouchableOpacity>
           )
         })}
+
+        {/* Study time → plan preview */}
+        <Text style={[T.label, { color: C.textMuted, marginHorizontal: 16, marginTop: 10, marginBottom: 8 }]}>WHEN CAN YOU STUDY?</Text>
+        <StudyTimePicker value={availability} onChange={setAvailability} />
+        <PlanPreviewCard plan={plan} nextSessionLabel={nextSession?.label ?? null} onApply={applyFix} />
 
         {/* Reminder nudge */}
         {!notifEnabled && (

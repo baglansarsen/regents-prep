@@ -127,6 +127,7 @@ describe('pace', () => {
     const p = plan({ lessonsDoneByTopic: { T1: 3, T2: 1, T3: 99 } })
     expect(p.pace.lessonsDone).toBe(7)
     expect(p.pace.lessonsLeft).toBe(23)
+    expect(p.pace.unitsLeft).toBe(8)   // T2 is part-done, T1/T3 finished
   })
 
   test('10 units left with two weeks to go is at risk, with the shortfall', () => {

@@ -19,6 +19,7 @@ import { logActivity } from '../utils/activityLogger'
  *       baselineScore: number|null,  // predicted score at commit (null = cold start)
  *       predicted: { value, date } | null,  // smoothing anchor (usePredictedScore)
  *       rescuePlan: { urgency, targetMode } | undefined,  // utils/rescuePlan.js profile
+ *       availability: { daysPerWeek, minutesPerDay } | undefined,  // utils/studyPlan.js
  *     },
  *   }
  *
@@ -90,9 +91,10 @@ export function GoalProvider({ children }) {
   // ── Commit a goal for a subject (freezes the exam date at commit time) ──────
   // `chosenExamDateStr` (optional): the session the student picked in goal setup;
   // falls back to the auto next session when omitted (back-compat).
-  const commitGoal = useCallback(async (subject, target, baselineScore = null, chosenExamDateStr = null) => {
+  const commitGoal = useCallback(async (subject, target, baselineScore = null, chosenExamDateStr = null, extra = {}) => {
     const examDateStr = chosenExamDateStr ?? toLocalDateStr(getNextExamDate(subject))
     const entry = {
+      ...extra,            // e.g. { availability } from goal setup
       target,
       examDateStr,
       committedAt: new Date().toISOString(),
