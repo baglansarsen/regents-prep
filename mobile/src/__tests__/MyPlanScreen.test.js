@@ -12,9 +12,11 @@ jest.mock('react-native-safe-area-context', () => {
   return { SafeAreaView: View }
 })
 jest.mock('../context/AuthContext', () => ({ useAuthContext: () => ({ user: { uid: 'u1' } }) }))
-jest.mock('../context/SubjectContext', () => ({ useSubject: () => ({ subject: 'chemistry' }) }))
+jest.mock('../context/SubjectContext', () => ({ useSubject: () => ({ subject: 'chemistry', setSubject: mockSetSubject }) }))
 jest.mock('../hooks/useProgress', () => ({ useProgress: () => ({ history: [] }) }))
-jest.mock('../hooks/useStudyPlan', () => ({ useStudyPlan: () => mockPlanState }))
+let mockEntries = []
+const mockSetSubject = jest.fn()
+jest.mock('../hooks/useStudyPlan', () => ({ useStudyPlan: () => mockPlanState, useAllStudyPlans: () => ({ entries: mockEntries, loaded: true }) }))
 
 const { buildStudyPlan } = require('../utils/studyPlan')
 const MyPlanScreen = require('../screens/MyPlanScreen').default
@@ -48,4 +50,33 @@ test('a plan shows summary, timeline, this week and milestones', async () => {
   expect(screen.getByText('Practice exam 3')).toBeTruthy()
   await fireEvent.press(screen.getByRole('button', { name: 'Change date, goal or study time' }))
   expect(n.navigate).toHaveBeenCalledWith('GoalSetup')
+})
+
+// ── Phase 5: all subjects ────────────────────────────────────────────────────
+test('one subject → no "All subjects" section', async () => {
+  const goal = { target: 75, examDateStr: inDays(200) }
+  mockPlanState = { plan: buildStudyPlan({ today, examDateStr: goal.examDateStr, target: 75, units: UNITS }), goal }
+  mockEntries = [{ subject: 'chemistry', name: 'Chemistry', icon: '🧪', goal, plan: mockPlanState.plan }]
+  await render(<MyPlanScreen navigation={nav()} />)
+  expect(screen.queryByText('All subjects')).toBeNull()
+})
+
+test('two subjects: rows, totals, overlap warning, and switching', async () => {
+  const chemGoal = { target: 75, examDateStr: inDays(100) }
+  const physGoal = { target: 85, examDateStr: inDays(105), availability: { daysPerWeek: 5, minutesPerDay: 25 } }
+  const chem = buildStudyPlan({ today, examDateStr: chemGoal.examDateStr, target: 75, units: UNITS })
+  const phys = buildStudyPlan({ today, examDateStr: physGoal.examDateStr, target: 85, units: UNITS, availability: physGoal.availability })
+  mockPlanState = { plan: chem, goal: chemGoal }
+  mockEntries = [
+    { subject: 'chemistry', name: 'Chemistry', icon: '🧪', goal: chemGoal, plan: chem },
+    { subject: 'physics', name: 'Physics', icon: '⚛️', goal: physGoal, plan: phys },
+  ]
+  mockSetSubject.mockClear()
+  await render(<MyPlanScreen navigation={nav()} />)
+  expect(screen.getByText('All subjects')).toBeTruthy()
+  expect(screen.getByText('Chemistry · showing')).toBeTruthy()
+  expect(screen.getByText(/Together: up to 40 min a day/)).toBeTruthy()
+  expect(screen.getByText(/Chemistry and Physics are 5 days apart/)).toBeTruthy()
+  await fireEvent.press(screen.getByRole('button', { name: /^Physics\./ }))
+  expect(mockSetSubject).toHaveBeenCalledWith('physics')
 })

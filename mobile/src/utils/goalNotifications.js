@@ -6,7 +6,9 @@
  *
  * Identifier scheme (each schedule call replaces its own identifier, so these
  * never collide with the daily reminder or pet notifications):
- *   goal-exam-30 / -14 / -7 / -3 / -1   one-shot exam countdown alerts
+ *   goal-exam-<subject>-30 / -14 / -7 / -3 / -1   one-shot exam countdowns, one
+ *                                       set per subject with a goal (Phase 5)
+ *   goal-exam-30 … -1                   legacy single-subject ids, cancelled on sight
  *   goal-streak-risk                    one-shot "streak ends tonight"
  *   goal-weekly-report                  repeating Sunday-evening summary
  */
@@ -23,11 +25,13 @@ function getNotifications() {
 }
 
 const COUNTDOWN_DAYS = [30, 14, 7, 3, 1]
+const LEGACY_COUNTDOWN_IDS = COUNTDOWN_DAYS.map((d) => `goal-exam-${d}`)
 const GOAL_IDS = [
-  ...COUNTDOWN_DAYS.map((d) => `goal-exam-${d}`),
+  ...LEGACY_COUNTDOWN_IDS,
   'goal-streak-risk',
   'goal-weekly-report',
 ]
+export const countdownId = (subject, days) => (subject ? `goal-exam-${subject}-${days}` : `goal-exam-${days}`)
 
 async function cancelId(N, identifier) {
   try { await N.cancelScheduledNotificationAsync(identifier) } catch {}
@@ -37,13 +41,13 @@ async function cancelId(N, identifier) {
  * One-shot countdown alerts at 4 PM local, N days before the exam.
  * Past trigger dates are skipped (e.g. goal set 10 days out → only 7/3/1 fire).
  */
-export async function scheduleExamCountdowns({ examDateStr, target, subjectName }) {
+export async function scheduleExamCountdowns({ examDateStr, target, subjectName, subject = null }) {
   const N = getNotifications()
   if (!N || !examDateStr) return
   const [y, m, d] = examDateStr.split('-').map(Number)
 
   for (const days of COUNTDOWN_DAYS) {
-    const id = `goal-exam-${days}`
+    const id = countdownId(subject, days)
     await cancelId(N, id)
     const fireAt = new Date(y, m - 1, d - days, 16, 0, 0)   // 4 PM local
     if (fireAt <= new Date()) continue
@@ -113,9 +117,30 @@ export async function scheduleWeeklyReport({ body }) {
   } catch {}
 }
 
-/** Remove every goal-system notification (goal cleared / notifications off). */
+/** Cancel one subject's countdowns (its goal was cleared or its date passed). */
+export async function cancelExamCountdowns(subject) {
+  const N = getNotifications()
+  if (!N) return
+  for (const days of COUNTDOWN_DAYS) await cancelId(N, countdownId(subject, days))
+}
+
+/** Cancel the pre-Phase-5 single-subject countdowns so they can't double up. */
+export async function cancelLegacyCountdowns() {
+  const N = getNotifications()
+  if (!N) return
+  for (const id of LEGACY_COUNTDOWN_IDS) await cancelId(N, id)
+}
+
+/** Remove every goal-system notification (notifications off). */
 export async function cancelGoalNotifications() {
   const N = getNotifications()
   if (!N) return
   for (const id of GOAL_IDS) await cancelId(N, id)
+  // Per-subject countdowns: their ids depend on which subjects had goals.
+  try {
+    const scheduled = await N.getAllScheduledNotificationsAsync()
+    for (const n of scheduled ?? []) {
+      if (n?.identifier?.startsWith('goal-exam-')) await cancelId(N, n.identifier)
+    }
+  } catch {}
 }

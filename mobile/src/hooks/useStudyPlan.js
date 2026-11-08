@@ -1,50 +1,81 @@
 import { useMemo } from 'react'
 import { useGoal } from '../context/GoalContext'
-import { usePredictedScore } from './usePredictedScore'
-import { useLessonProgress } from './useLessonProgress'
+import { useAuthContext } from '../context/AuthContext'
+import { useExamScores } from './useExamScores'
+import { useDailyStreak } from './useDailyStreak'
 import { useMistakes } from './useMistakes'
-import { buildStudyPlan } from '../utils/studyPlan'
-import { isGoalDatePassed } from '../utils/examDates'
+import { useProgress } from './useProgress'
+import { buildSubjectPlan, dueCountFor } from '../utils/subjectPlan'
+import { subjectData } from '../content/subjectData'
+import { SUBJECT_META } from '../content/subjects'
+import { REGENTS_EXAMS } from '../content/regents-exams/index'
 import { localDateStr } from '../utils/localDate'
+
+const examIdsOf = (subject) => (REGENTS_EXAMS[subject] ?? []).map((e) => e.id)
 
 /**
  * The student's study plan for one subject, from their saved goal and current
  * progress (docs/designs/exam-date-study-plan.md, Phase 3). One source for Home
- * and My Plan so they never disagree.
+ * and My Plan so they never disagree; built by utils/subjectPlan like every
+ * other subject's plan (useAllStudyPlans).
  *
- * Returns { plan, goal } — plan is null when there's no goal, or its exam date
- * has passed (Home asks for a new date in that case).
+ * Returns { plan, goal } — plan is null when there's no goal, its exam date
+ * has passed, or goals haven't loaded yet.
  */
 export function useStudyPlan(subject, units = [], subjectHistory = []) {
   const { getGoal, loaded } = useGoal()
   const goal = getGoal(subject)
-  const { rawPredicted, coldStart, topicBreakdown, examCount } =
-    usePredictedScore(subject, units, subjectHistory)
-  const { unitLessonsCompleted } = useLessonProgress(subjectHistory)
-  const { dueCount } = useMistakes(subject)
+  const { scores } = useExamScores()
+  const { streak, studiedDates } = useDailyStreak()
+  const { mistakes } = useMistakes(null)
   const today = localDateStr()
 
-  const lessonsDoneByTopic = useMemo(
-    () => Object.fromEntries(units.map((u) => [u.topic, unitLessonsCompleted(u.topic, u.lessonCount ?? 0)])),
-    [units, subjectHistory], // eslint-disable-line react-hooks/exhaustive-deps
-  )
-
   const plan = useMemo(() => {
-    if (!loaded || !goal?.examDateStr || isGoalDatePassed(goal.examDateStr)) return null
-    return buildStudyPlan({
-      today,
-      examDateStr:  goal.examDateStr,
-      target:       goal.target,
-      availability: goal.availability,
-      units,
-      lessonsDoneByTopic,
-      topicBreakdown: topicBreakdown ?? [],
-      predicted:    coldStart ? null : rawPredicted,
-      dueCount,
-      practiceExamsTaken: examCount ?? 0,
-      coldStart,
+    if (!loaded) return null
+    return buildSubjectPlan({
+      subject, goal, today, units, subjectHistory,
+      subjectExamIds: examIdsOf(subject),
+      examScores: scores, streak, studiedDates,
+      dueCount: dueCountFor(subject, mistakes),
     })
-  }, [loaded, goal, today, units, lessonsDoneByTopic, topicBreakdown, coldStart, rawPredicted, dueCount, examCount])
+  }, [loaded, subject, goal, today, units, subjectHistory, scores, streak, studiedDates, mistakes])
 
   return { plan, goal }
+}
+
+/**
+ * Every subject with a goal → its plan (study plan Phase 5). Passed-date goals
+ * are included with plan: null so callers can show "date passed".
+ * Returns { entries: [{ subject, name, icon, goal, plan }], loaded }.
+ */
+export function useAllStudyPlans() {
+  const { user } = useAuthContext()
+  const { goals, loaded } = useGoal()
+  const { history } = useProgress(user?.uid)
+  const { scores } = useExamScores()
+  const { streak, studiedDates } = useDailyStreak()
+  const { mistakes } = useMistakes(null)
+  const today = localDateStr()
+
+  const entries = useMemo(() => {
+    if (!loaded) return []
+    return Object.entries(goals ?? {})
+      .filter(([, goal]) => goal && goal.examDateStr)
+      .map(([subject, goal]) => {
+        const units = subjectData(subject)?.UNITS ?? []
+        const subjectHistory = history.filter((h) => (h.subject ?? 'living-environment') === subject)
+        const meta = SUBJECT_META[subject] ?? { name: subject, icon: '🎓' }
+        return {
+          subject, name: meta.name, icon: meta.icon, goal,
+          plan: buildSubjectPlan({
+            subject, goal, today, units, subjectHistory,
+            subjectExamIds: examIdsOf(subject),
+            examScores: scores, streak, studiedDates,
+            dueCount: dueCountFor(subject, mistakes),
+          }),
+        }
+      })
+  }, [loaded, goals, history, scores, streak, studiedDates, mistakes, today])
+
+  return { entries, loaded }
 }

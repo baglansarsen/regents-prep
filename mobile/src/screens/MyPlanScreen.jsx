@@ -5,13 +5,14 @@ import { useTheme } from '../context/ThemeContext'
 import { useAuthContext } from '../context/AuthContext'
 import { useSubject } from '../context/SubjectContext'
 import { useProgress } from '../hooks/useProgress'
-import { useStudyPlan } from '../hooks/useStudyPlan'
+import { useStudyPlan, useAllStudyPlans } from '../hooks/useStudyPlan'
+import { combinePlans, warningText, formatMinutes } from '../utils/combinedPlan'
 import { subjectData } from '../content/subjectData'
 import { SUBJECT_META } from '../content/subjects'
 import { getExamLabel } from '../utils/examDates'
 import { localDateStr } from '../utils/localDate'
 import {
-  describePlan, planProgressLine, catchUpHint, shortDate, PHASE_INFO, milestoneTitle,
+  describePlan, planProgressLine, catchUpHint, shortDate, PHASE_INFO, milestoneTitle, STATUS_LABELS,
 } from '../utils/studyPlanCopy'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 
@@ -23,7 +24,8 @@ import { T, duoBtn, cardShadow } from '../styles/duo'
 export default function MyPlanScreen({ navigation }) {
   const { C } = useTheme()
   const { user } = useAuthContext()
-  const { subject } = useSubject()
+  const { subject, setSubject } = useSubject()
+  const { entries } = useAllStudyPlans()
   const { history } = useProgress(user?.uid)
   const sd = subjectData(subject)
   const units = sd.UNITS ?? []
@@ -46,10 +48,16 @@ export default function MyPlanScreen({ navigation }) {
     </View>
   )
 
+  // Two or more subjects with goals: the week across all of them (Phase 5).
+  const allSubjects = entries.length > 1 ? (
+    <AllSubjects entries={entries} active={subject} onPick={setSubject} C={C} s={s} />
+  ) : null
+
   if (!plan) {
     return (
       <SafeAreaView style={s.safe} edges={['bottom']}>
         {header}
+        {allSubjects}
         <View style={[s.card, cardShadow(C.shadow), { alignItems: 'center' }]}>
           <Text style={{ fontSize: 36 }}>🎯</Text>
           <Text style={[T.h3, { color: C.text, marginTop: 8, textAlign: 'center' }]}>
@@ -86,6 +94,8 @@ export default function MyPlanScreen({ navigation }) {
           {line && <Text style={[T.body, { color: C.brand, marginTop: 8 }]}>{line}</Text>}
           {hint && <Text style={[T.small, { color: C.text, marginTop: 6 }]}>{hint}</Text>}
         </View>
+
+        {allSubjects}
 
         {/* Timeline */}
         <Text style={s.section} accessibilityRole="header">Timeline</Text>
@@ -160,6 +170,54 @@ export default function MyPlanScreen({ navigation }) {
   )
 }
 
+function AllSubjects({ entries, active, onPick, C, s }) {
+  const { rows, totalMinutesPerDay, totalMinutesPerWeek, warnings } = combinePlans(entries)
+  return (
+    <>
+      <Text style={s.section} accessibilityRole="header">All subjects</Text>
+      <View style={[s.card, cardShadow(C.shadow), { paddingVertical: 6 }]}>
+        {rows.map((r, i) => {
+          const entry = entries.find((e) => e.subject === r.subject)
+          const isActive = r.subject === active
+          const state = r.status === 'passed'
+            ? 'Exam date passed'
+            : `${PHASE_INFO[r.phase]?.title ?? ''} · ${STATUS_LABELS[r.status] ?? ''}`
+          const when = r.status === 'passed' ? shortDate(r.examDateStr) : `${shortDate(r.examDateStr)} · ${r.minutesPerDay} min/day`
+          return (
+            <TouchableOpacity
+              key={r.subject}
+              style={[s.subjectRow, i > 0 && { borderTopWidth: 1, borderTopColor: C.border }]}
+              onPress={() => onPick(r.subject)}
+              disabled={isActive}
+              accessibilityRole="button"
+              accessibilityState={{ selected: isActive, disabled: isActive }}
+              accessibilityLabel={`${r.name}${isActive ? ', showing now' : ''}. ${state}. Exam ${when}`}
+            >
+              <Text style={{ fontSize: 22, width: 32 }}>{entry?.icon ?? '🎓'}</Text>
+              <View style={{ flex: 1 }}>
+                <Text style={[T.body, { color: isActive ? C.brand : C.text }]}>{r.name}{isActive ? ' · showing' : ''}</Text>
+                <Text style={[T.small, { color: C.textMuted }]}>{state}</Text>
+                <Text style={[T.small, { color: C.textMuted }]}>{when}</Text>
+              </View>
+              {!isActive && <Text style={[T.body, { color: C.textMuted }]}>›</Text>}
+            </TouchableOpacity>
+          )
+        })}
+        {totalMinutesPerDay > 0 && (
+          <Text style={[T.small, { color: C.text, marginTop: 8 }]}>
+            Together: up to {formatMinutes(totalMinutesPerDay)} a day, about {formatMinutes(totalMinutesPerWeek)} a week.
+          </Text>
+        )}
+        {warnings.map((w, i) => (
+          <Text key={`${w.type}-${i}`} style={[T.small, { color: w.type === 'at_risk' ? C.wrong : C.text, marginTop: 6 }]}>
+            ⚠️ {warningText(w)}
+          </Text>
+        ))}
+      </View>
+    </>
+  )
+}
+
 function makeStyles(C) {
   return StyleSheet.create({
     safe:    { flex: 1, backgroundColor: C.bg },
@@ -174,5 +232,6 @@ function makeStyles(C) {
     dot:     { width: 12, height: 12, borderRadius: 6, marginHorizontal: 3 },
     item:    { marginBottom: 6 },
     milestone: { flexDirection: 'row', alignItems: 'center', paddingVertical: 8 },
+    subjectRow: { flexDirection: 'row', alignItems: 'center', paddingVertical: 10, minHeight: 56 },
   })
 }
