@@ -73,10 +73,12 @@ export function pickTodayMission({
   trapAvailable        = false,
   streakAtRisk         = false,
   streakDays           = 0,
+  passedGoalMonth      = null,
 } = {}) {
   const mission = pickBase({
     hasGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestUnit,
     needsLevel0, mathSubject, level0Snoozed, hasNextLesson, nextLessonTopic, trapAvailable,
+    passedGoalMonth,
   })
   // Streak pressure decorates whichever action already won — it never changes
   // WHICH action wins. Promoting "buy a freeze" over studying would make the
@@ -90,8 +92,24 @@ export function pickTodayMission({
 function pickBase({
   hasGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestUnit,
   needsLevel0, mathSubject, level0Snoozed, hasNextLesson, nextLessonTopic, trapAvailable,
+  passedGoalMonth = null,
 }) {
-  // ① No goal set — nothing else is actionable without one
+  // ① No goal set — nothing else is actionable without one. A goal whose exam
+  // date has passed counts as no goal: ask for the next date instead of
+  // silently counting down to a session the student never picked.
+  if (!hasGoal && passedGoalMonth) {
+    return {
+      id:               'set_goal',
+      icon:             ICONS.set_goal,
+      title:            'Pick your next exam date',
+      subtitle:         `Your ${passedGoalMonth} Regents date has passed. Choose your next session so your plan keeps pacing to the right day.`,
+      cta:              'Pick a Date',
+      priority:         1,
+      actionType:       'set_goal',
+      topic:            null,
+      estimatedMinutes: 1,
+    }
+  }
   if (!hasGoal) {
     return {
       id:               'set_goal',

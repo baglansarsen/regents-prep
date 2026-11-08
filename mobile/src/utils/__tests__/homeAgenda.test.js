@@ -73,3 +73,25 @@ describe('buildHomeAgenda — rescue override', () => {
     expect(agenda.chips.some((c) => c.actionType === 'level0_math')).toBe(true)
   })
 })
+
+// Phase 0 (docs/designs/exam-date-study-plan.md, G3): a goal whose date has
+// passed is treated as no goal, and the hero asks for the next date.
+describe('buildHomeAgenda — passed exam date', () => {
+  test('hero asks for the next exam date, naming the passed session', () => {
+    const agenda = buildHomeAgenda({ ...base, hasGoal: false, passedGoalMonth: 'June' })
+    expect(agenda.hero.actionType).toBe('set_goal')
+    expect(agenda.hero.title).toBe('Pick your next exam date')
+    expect(agenda.hero.subtitle).toMatch(/June Regents date has passed/)
+    expect(agenda.chips).toEqual([])
+  })
+
+  test('no passed date → the original set-goal copy', () => {
+    const agenda = buildHomeAgenda({ ...base, hasGoal: false })
+    expect(agenda.hero.title).toBe('Set your Regents goal')
+  })
+
+  test('a passedGoalMonth with an active goal changes nothing', () => {
+    const agenda = buildHomeAgenda({ ...base, hasGoal: true, passedGoalMonth: 'June' })
+    expect(agenda.hero.actionType).not.toBe('set_goal')
+  })
+})

@@ -85,7 +85,13 @@ export function pickRescueAction({
   dueCount = 0,
   hasTakenPracticeExam = false,
 } = {}) {
-  const { urgency = 'month', targetMode = 'pass' } = plan ?? {}
+  const { targetMode = 'pass' } = plan ?? {}
+  // Urgency tracks the calendar, not the one-time answer from the sheet: a
+  // student who said "a few months" eight weeks ago is in a different spot now.
+  // The stored answer only applies when the countdown is unknown.
+  const urgency = daysToExam != null && daysToExam >= 0
+    ? urgencyFromDays(daysToExam)
+    : (plan?.urgency ?? 'month')
   const minutes   = MINUTES[urgency] ?? 12
   const planLabel = planLabelOf({ urgency, targetMode })
   const base = { rescue: true, planLabel, priority: 1, topic: null }
@@ -168,6 +174,7 @@ export function pickRescueAction({
       cta:              `Let's Go (${minutes} min)`,
       actionType:       'weak_unit_quiz',
       topic:            weakestUnit.topic,
+      unitId:           weakestUnit.id ?? null,
       estimatedMinutes: minutes,
     }
   }

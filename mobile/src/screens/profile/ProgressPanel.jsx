@@ -38,7 +38,7 @@ export default function ProgressPanel({ navigation }) {
   const { streak, studiedToday, studiedDates, frozenDates, longestStreak } = useDailyStreak(uid)
   const { rp, weeklyRP, level, spendRP } = useRP(uid)
   const { scores: examScores } = useExamScores()
-  const { todaySeconds, formatTime } = useStudyTime()
+  const { todaySeconds, formatTime } = useStudyTime(uid)
   const { getGoal } = useGoal()
 
   const subjectHistory = history.filter((h) => (h.subject ?? 'living-environment') === subject)

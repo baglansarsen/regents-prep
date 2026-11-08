@@ -51,7 +51,9 @@ export function GoalNotificationBridge() {
       if (!prefs?.enabled) return
 
       const goal = getGoal(subject)
-      if (!goal) {
+      // No goal, or its exam date has passed: no countdowns or goal-based text
+      // (raw daysUntil would go negative and feed the reminder a past exam).
+      if (!goal || (goal.examDateStr && daysUntil(goal.examDateStr) < 0)) {
         await cancelGoalNotifications()
         return
       }

@@ -27,7 +27,7 @@ export default function GoalSetupScreen({ navigation }) {
   const { user } = useAuthContext()
   const uid = user?.uid
   const { subject } = useSubject()
-  const { getGoal, commitGoal, setRescuePlan } = useGoal()
+  const { getGoal, commitGoal, updateGoal, setRescuePlan } = useGoal()
   const { history } = useProgress(uid)
   const { streak } = useDailyStreak(uid)
   const { enabled: notifEnabled, enable: enableNotifs } = useNotifications(streak)
@@ -64,7 +64,17 @@ export default function GoalSetupScreen({ navigation }) {
   const days = daysUntil(examDateStr)
 
   async function handleCommit() {
-    const entry = await commitGoal(subject, target, coldStart ? null : rawPredicted, examDateStr)
+    // Editing keeps the goal's history (commit date, baseline, prediction
+    // anchor, rescue answers); only a first goal starts fresh. A missing
+    // baseline is filled in once there's a prediction to anchor it.
+    const entry = existing
+      ? await updateGoal(subject, {
+          target,
+          examDateStr,
+          ...(existing.baselineScore == null && !coldStart && rawPredicted != null
+            ? { baselineScore: rawPredicted } : {}),
+        })
+      : await commitGoal(subject, target, coldStart ? null : rawPredicted, examDateStr)
     setCommitted(entry)
     logEvent('goal_committed', { subject, target, daysToExam: days })
     // Rescue Plan first (two quick questions), then the share card.

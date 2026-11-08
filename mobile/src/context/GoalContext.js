@@ -107,6 +107,22 @@ export function GoalProvider({ children }) {
     return entry
   }, [])
 
+  // ── Change an existing goal without wiping it ──────────────────────────────
+  // Merges `patch` (target / examDateStr / …) into the current entry so
+  // committedAt, the baseline, the prediction anchor and the rescue-plan answers
+  // survive an edit. With no existing goal it commits a new one.
+  const updateGoal = useCallback(async (subject, patch = {}) => {
+    const cur = goalsRef.current[subject]
+    if (!cur) {
+      return commitGoal(subject, patch.target ?? 65, patch.baselineScore ?? null, patch.examDateStr ?? null)
+    }
+    const entry = { ...cur, ...patch, updatedAt: new Date().toISOString() }
+    await persist({ ...goalsRef.current, [subject]: entry })
+    logActivity(uidRef.current, 'goal_updated',
+      `Updated ${subject} Regents goal to ${entry.target} 🎯`, { subject, target: entry.target, examDateStr: entry.examDateStr })
+    return entry
+  }, [commitGoal])
+
   const clearGoal = useCallback(async (subject) => {
     const next = { ...goalsRef.current }
     delete next[subject]
@@ -136,7 +152,7 @@ export function GoalProvider({ children }) {
   }, [])
 
   return (
-    <GoalContext.Provider value={{ goals, loaded, getGoal, commitGoal, clearGoal, updatePredicted, setRescuePlan }}>
+    <GoalContext.Provider value={{ goals, loaded, getGoal, commitGoal, updateGoal, clearGoal, updatePredicted, setRescuePlan }}>
       {children}
     </GoalContext.Provider>
   )

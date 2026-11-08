@@ -50,7 +50,7 @@ import PlacementTestScreen from './PlacementTestScreen'
 import { useLeague, formatCountdown, msUntilReset } from '../hooks/useLeague'
 import { getLevel } from '../hooks/useRP'
 import { useStudyTime, formatTime as fmtStudyTime } from '../hooks/useStudyTime'
-import { getExamLabel, getDaysUntilExam, daysUntilExam } from '../utils/examDates'
+import { getExamLabel, getDaysUntilExam, daysUntilExam, isGoalDatePassed, sessionMonthOf } from '../utils/examDates'
 import { PETS_ENABLED } from '../config/features'
 import { useGoal } from '../context/GoalContext'
 import { usePredictedScore } from '../hooks/usePredictedScore'
@@ -207,14 +207,22 @@ export default function HomeScreen({ navigation }) {
   // ── Regents goal + predicted score + smart daily quest ─────────────────────
   // (Also before the focus effect: smartQuestDef appears in its deps array.)
   const { getGoal, loaded: goalLoaded } = useGoal()
-  const regentsGoal = getGoal(subject)
+  const storedGoal = getGoal(subject)
+  // A goal whose exam date has passed is treated as no goal: Home asks for the
+  // next date (set_goal, "Pick your next exam date") rather than silently
+  // counting down to a session the student never chose.
+  const goalPassed  = isGoalDatePassed(storedGoal?.examDateStr)
+  const regentsGoal = goalPassed ? null : storedGoal
   const { predicted, coldStart, weakestAttemptedUnit, hasTakenPracticeExam } =
     usePredictedScore(subject, units, subjectHistory)
   const goalDaysToExam = regentsGoal ? daysUntilExam(subject, regentsGoal.examDateStr) : null
   // Countdown the whole screen shares: prefer the student's committed goal
   // session, else the next scheduled Regents session for the subject.
   const daysToExam = goalDaysToExam ?? getDaysUntilExam(subject)
-  const examLabel  = getExamLabel(subject, daysToExam)
+  const passedGoalMonth = goalPassed ? sessionMonthOf(storedGoal.examDateStr) : null
+  const examLabel  = passedGoalMonth
+    ? `📅 Your ${passedGoalMonth} Regents date has passed`
+    : getExamLabel(subject, daysToExam, regentsGoal?.examDateStr ?? null)
   const smartQuestDef = useMemo(() => pickSmartQuest({
     hasGoal: !!regentsGoal,
     coldStart,
@@ -274,10 +282,11 @@ export default function HomeScreen({ navigation }) {
     target:               regentsGoal?.target ?? null,
     band:                 pacing,
     rescuePlan:           regentsGoal?.rescuePlan ?? null,
+    passedGoalMonth,
   }), [
     goalLoaded, historyLoaded, regentsGoal, coldStart, daysToExam, hasTakenPracticeExam,
     dueCount, weakestAttemptedUnit, needsLevel0, subject, level0Snoozed, hasNextLesson,
-    nextLessonTopic, trapAvailable, streakAtRisk, streak, predicted, pacing,
+    nextLessonTopic, trapAvailable, streakAtRisk, streak, predicted, pacing, passedGoalMonth,
   ])
   const { hero: rankedHero, plan: todayPlan, chips: nextChips, rescue: rescueActive } = agenda
 

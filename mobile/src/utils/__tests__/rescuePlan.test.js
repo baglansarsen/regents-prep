@@ -118,3 +118,34 @@ describe('mission-shape contract', () => {
     expect(VALID_ACTIONS).toContain(m.actionType)
   })
 })
+
+// Phase 0 (docs/designs/exam-date-study-plan.md, G5): the one-time urgency
+// answer goes stale as the date approaches, so urgency follows the countdown.
+describe('urgency follows the calendar, not the stored answer', () => {
+  const stale = { urgency: 'long', targetMode: 'pass' }
+
+  test('a "long" answer acts as final week when 5 days remain', () => {
+    const m = pickRescueAction({ plan: stale, daysToExam: 5, dueCount: 4, weakestUnit: weakLow, hasTakenPracticeExam: false })
+    expect(m.planLabel).toBe('EMERGENCY PASS PLAN')
+    expect(m.actionType).toBe('review_mistakes')   // week order: mistakes first
+    expect(m.estimatedMinutes).toBe(8)
+  })
+
+  test('a "long" answer acts as month mode when 20 days remain', () => {
+    const m = pickRescueAction({ plan: stale, daysToExam: 20, dueCount: 4, weakestUnit: weakLow, hasTakenPracticeExam: false })
+    expect(m.planLabel).toBe('PASS PLAN · 4 WEEKS')
+    expect(m.actionType).toBe('practice_exam')   // month order: diagnose first
+  })
+
+  test('the stored answer still applies when the countdown is unknown', () => {
+    const m = pickRescueAction({ plan: { urgency: 'week', targetMode: 'pass' }, daysToExam: null, dueCount: 2 })
+    expect(m.planLabel).toBe('EMERGENCY PASS PLAN')
+  })
+
+  test('month-mode weak-unit action carries the unit id, like week mode', () => {
+    const unit = { id: 'u-gen', topic: 'genetics', title: 'Genetics', pct: 55, attempts: 3 }
+    const m = pickRescueAction({ plan: stale, daysToExam: 20, dueCount: 0, weakestUnit: unit, hasTakenPracticeExam: true })
+    expect(m.actionType).toBe('weak_unit_quiz')
+    expect(m.unitId).toBe('u-gen')
+  })
+})

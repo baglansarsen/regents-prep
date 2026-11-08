@@ -116,7 +116,31 @@ export function effectiveExamDateStr(subject = 'living-environment', goalExamDat
   return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`
 }
 
-export function getExamLabel(subject = 'living-environment', days = getDaysUntilExam(subject)) {
+/** "June" for '2027-06-22' — the session a goal date belongs to. */
+export function sessionMonthOf(dateStr) {
+  if (!dateStr) return null
+  const [y, m] = dateStr.split('-').map(Number)
+  if (!y || !m) return null
+  return new Date(y, m - 1, 1).toLocaleDateString('en-US', { month: 'long' })
+}
+
+/** True once the student's committed exam date is in the past. */
+export function isGoalDatePassed(goalExamDateStr) {
+  return !!goalExamDateStr && daysUntil(goalExamDateStr) < 0
+}
+
+/**
+ * Countdown copy. With `sessionDateStr` (the student's committed session) the
+ * label names it — "228 days to your June Regents" — instead of implying it's
+ * the next sitting, which it may not be (they can pick a later session).
+ */
+export function getExamLabel(subject = 'living-environment', days = getDaysUntilExam(subject), sessionDateStr = null) {
+  const month = sessionMonthOf(sessionDateStr)
+  if (month) {
+    if (days === 0) return `📅 Your ${month} Regents is today!`
+    if (days === 1) return `📅 Your ${month} Regents is tomorrow!`
+    return `📅 ${days} days to your ${month} Regents`
+  }
   if (days === 0) return '📅 Exam is today!'
   if (days === 1) return '📅 Exam tomorrow!'
   if (days <= 14) return `📅 ${days} days until Regents`
