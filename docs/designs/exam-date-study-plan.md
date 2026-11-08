@@ -1,6 +1,6 @@
 # Exam-date study plan: goals and pacing from the date the student picks
 
-**Status:** proposal, 2026-11-07; **Phase 0 shipped 2026-11-08.** Scope: `mobile/` only.
+**Status:** proposal, 2026-11-07; **Phase 0 shipped 2026-11-08; Phase 1 (engine, `utils/studyPlan.js`) built 2026-11-08.** Scope: `mobile/` only.
 
 **Goal:** when a student picks "June 2027, Safe Pass (75)", the app should turn that into a plan they can follow. That means what to finish this week and what to do today, plus whether they're on track and what to change if they're not. The plan adjusts itself as days pass, sessions are missed, scores change, or the date changes.
 
@@ -73,7 +73,7 @@ buildStudyPlan({
   daysLeft, studyDaysLeft,
   phase: 'learn'|'strengthen'|'exam_prep'|'final_week'|'exam_day'|'passed',
   phases: [{ id, start, end }],                 // timeline for My Plan
-  pace: { lessonsPerStudyDay, expectedLessonsDoneByToday, lessonsDone, status: 'ahead'|'on_track'|'behind'|'at_risk' },
+  pace: { lessonsTotal, lessonsDone, lessonsLeft, learnStudyDays, lessonsPerStudyDay, capacityPerStudyDay, shortfallLessons, status: 'ahead'|'on_track'|'behind'|'at_risk' },
   thisWeek: { units: [{unitId, lessons}], reviews, quizzes, practiceExam?: boolean },
   milestones: [{ id, date, done }],             // checkup, unit coverage done, practice exam 1/2/3, mistakes cleared
   feasibility: { fits: boolean, minutesNeededPerDay, suggestions: [...] },
@@ -96,11 +96,13 @@ buildStudyPlan({
 - Lessons left = Σ(lessonCount − lessonsDone) over all units.
 - Study days in Learn = study days between today and the coverage date, using `daysPerWeek`.
 - `lessonsPerStudyDay = ceil(lessonsLeft / learnStudyDays)`.
-- Status:
-  - **ahead:** lessons done ≥ expected + 1 study-day's worth
-  - **on_track:** within one day's worth
-  - **behind:** more than one day short
-  - **at_risk:** "behind", and the catch-up rate exceeds what `minutesPerDay` allows
+- Status looks forward, so it needs no record of where the student started and can't drift. It compares the minutes the remaining lessons need per study day (`lessonsPerStudyDay × minutesPerLesson`) with `minutesPerDay`:
+  - **ahead:** ratio ≤ 0.6
+  - **on_track:** ≤ 1.0
+  - **behind:** ≤ 1.3
+  - **at_risk:** above 1.3, or lessons left with no learn days remaining
+  - `shortfallLessons` = lessons the learn window can't fit at the student's minutes (for "N lessons behind" copy).
+- Phase windows: final week 7 days (all remaining days when ≤ 7); exam prep up to 14 days (half of what's left, rounded up, when short); strengthen 2 days per unit (7–42) when the timeline is long, 25% of the pre-prep time when short; learn is the rest. The coverage date is anchored to the exam, so it doesn't drift as days pass. *(Implemented in Phase 1; replaces the earlier "expected lessons by today" idea.)*
 - Minutes per lesson are estimated from real data where available: `useStudyTime` quiz minutes per lesson completed. Otherwise the default is 8 min (the current `MINUTES` constants).
 
 **Feasibility:** `minutesNeededPerDay` = (learn + strengthen + prep minutes) / study days. If it exceeds `minutesPerDay` by more than 20%, `fits = false`. Suggestions are ranked by how much they close the gap:
