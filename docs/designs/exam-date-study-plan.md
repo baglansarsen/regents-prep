@@ -1,6 +1,6 @@
 # Exam-date study plan: goals and pacing from the date the student picks
 
-**Status:** proposal, 2026-11-07; **Phase 0 shipped 2026-11-08; Phase 1 (engine, `utils/studyPlan.js`) built 2026-11-08; Phase 2 (study time + plan preview in goal setup) built 2026-11-08.** Decisions taken: study-time question in goal setup only (not onboarding); "N days a week", not fixed weekdays. Scope: `mobile/` only.
+**Status:** proposal, 2026-11-07; **Phase 0 shipped 2026-11-08; Phase 1 (engine, `utils/studyPlan.js`) built 2026-11-08; Phase 2 (study time + plan preview in goal setup) built 2026-11-08; Phase 3 (plan on Home + My Plan screen) built 2026-11-08.** Decisions taken: study-time question in goal setup only (not onboarding); "N days a week", not fixed weekdays. Scope: `mobile/` only.
 
 **Goal:** when a student picks "June 2027, Safe Pass (75)", the app should turn that into a plan they can follow. That means what to finish this week and what to do today, plus whether they're on track and what to change if they're not. The plan adjusts itself as days pass, sessions are missed, scores change, or the date changes.
 
