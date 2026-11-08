@@ -83,3 +83,862 @@ A draft topic (Congruence & Transformations) and draft pre-answer hints are in `
 - You caught your own weak evidence before I had to push hard: "may be its not 100% true" — that kind of self-honesty is rare and it's why the diagnostic moved fast.
 - Your framing shifted the problem from "add learning content" to a testable format bet ("like duolingo... you need to sit on desk and watch") — that's a founder instinct, not a vague feature wish.
 - You revealed your real unfair advantage almost as an aside — "I teach computer science and i let them practice on this app... i can ask help from my teacher friends" — that's the actual asset here, not the idea itself.
+
+---
+
+# CEO Review (/plan-ceo-review, 2026-11-07)
+
+Reviewer: Claude (Opus 5.5). Working plan: this file. Review depth: implementation-ready.
+
+## System audit
+
+- Pilot code shipped 2026-09-23/24: `mobile/src/data/pilotLearnMode.js` (hints, djb2 uid split) and `mobile/src/screens/QuizScreen.jsx:542` (hint render) / `:603-608` (logs `pilot_learn_mode` to `users/{uid}/activity` via `utils/activityLogger.js:7`).
+- **The pilot cannot fire.** `isPilotQuestion` matches numeric ids 3001-3006. Those ids exist only in `shared/content/geometry/questions.js:22-67`. Mobile does not load `shared/content` for Geometry: every screen imports `mobile/src/content/geometry/index` (e.g. `screens/HomeScreen.jsx:33`), whose `questions.js:1-3` says "Practice questions removed; lessons are now sourced from the Regents exam bank." Commit `0082fbb` (2026-06-07) deleted ids 3001-3006 from mobile content, 3.5 months before the pilot code shipped. `grep` for those ids across `mobile/src/content` returns nothing. So: no student has seen a pre-answer hint and no `pilot_learn_mode` event can have been logged.
+- Root cause of the miss: the design doc, the eng review and CLAUDE.md all describe `shared/content` as the single source of truth for mobile; in practice mobile serves its own copy (known: project memory "three content locations"). No test checked that a pilot id is reachable.
+- 24h follow-up item: not built anywhere (no code, no chosen question).
+- Untracked `learn-mode-pilot-content from teacher.md` is the teacher's v1+v2 review; v2 is already merged into the tracked content doc and `pilotLearnMode.js`. Nothing new in it.
+- TODOS.md: none exists. No stashes. Binding decisions log: empty.
+
+## Premise table
+
+| Premise | Claim | Receipt | Verdict |
+|---|---|---|---|
+| P1 | Khan Academy is desk-bound, not Regents-aligned | design doc "Status Quo" (founder + landscape check 2026-09-23) | unverified (no new evidence) |
+| P2 | Founder has real classroom access via teacher-friends | design doc "Open Questions": "assumed access, not confirmed access" | unverified |
+| P3 | Explanations already exist post-answer, so timing is the variable | `QuizScreen.jsx` post-answer explanation; full version Premium-gated | verified, with a confound: Premium gating means control/test students may see different post-answer text |
+| P4 | Pilot questions 3001-3006 are served to students | `mobile/src/content/geometry/questions.js:1-3`, `0082fbb` | **false** |
+| P5 | A 1-2 week classroom run can show a "measurable" difference on one 24h follow-up item | design doc "Success Criteria" | unverified, and doubtful: ~25-60 students split two ways, one binary item each, can only detect very large effects (rough estimate: a ~35-point difference at N=60) [estimated] |
+| P6 | The deterministic uid split gives clean variants | `pilotLearnMode.js` `getPilotVariant`; `QuizScreen.jsx:542` shows `getTutorHint(q) ?? getPilotHint(...)` | verified for these 6 ids (no tutor flags on them in shared content); would need recheck on any new ids |
+
+unverified=4
+
+## 0A. Premise challenge
+
+The real problem is still "does teaching before testing make Regentify help students learn". The pilot was the cheapest proxy for that. Doing nothing costs little in code (the dead path is harmless) but costs the founder six weeks of believing an experiment is running or ran. The plan as written cannot answer its own question even when fixed, because the success bar ("measurably better" on one item per student) is below what a classroom sample can resolve.
+
+## 0B. Existing code leverage
+
+| Sub-problem | Existing code | Note |
+|---|---|---|
+| Show a pre-answer hint | `QuizScreen.jsx:542` tutor-hint slot | Works; reuse |
+| Split students | `pilotLearnMode.getPilotVariant` | Works; reuse |
+| Log answers | `utils/activityLogger.logActivity` | Writes per-user subcollection; no aggregate read path for the founder |
+| Pilot questions | none in mobile | Must re-target to exam-bank question ids, or run off-app |
+| 24h follow-up | none | Must be built or run off-app |
+
+REALITY: premise-table finding unverified=4, P4 false mobile/src/content/geometry/questions.js:1-3 0082fbb
+REALITY: already-done finding pilot code exists since 927bb5e but is unreachable mobile/src/data/pilotLearnMode.js:20
+REALITY: surface-check pass no CLI/routes named; Firestore path users/{uid}/activity verified mobile/src/utils/activityLogger.js:7
+REALITY: binding-decisions pass none recorded (gstack-decision-search empty) docs/designs/learn-mode-pilot-probe.md:73
+REALITY: numbers finding N and detectable effect are estimates, re-measure before gate docs/designs/learn-mode-pilot-probe.md:65
+REALITY: deferred-asks pass no linked issue docs/designs/learn-mode-pilot-probe.md:1
+REALITY: pr-count pass one mobile commit if in-app path is chosen, zero if off-app CLAUDE.md:83
+
+## 0C. Dream state
+
+```
+  CURRENT STATE                    THIS PLAN (fixed)                 12-MONTH IDEAL
+  Drill app; post-answer     --->  One real signal on whether  --->  Regents-specific pocket tutor:
+  explanations; pilot code         "why before the question"         short teach -> example -> check
+  shipped but unreachable;         moves next-day recall, from       sessions per unit, chosen by
+  zero evidence collected          a teacher-run class this month    what moved recall in pilots
+```
+
+## Landscape (search, 2026-11-07)
+
+- Layer 1: pretesting (attempt before instruction) and worked examples are both established; which wins depends on whether the outcome is recall or transfer, and on the delay ([Miller 2024](https://michellemillerphd.substack.com/p/r3-29-may-28-2024-pretestings-surprising), [van Gog et al.](https://dspace.library.uu.nl/bitstream/handle/1874/327549/Testing.pdf?sequence=1), [Springer 2024](https://link.springer.com/article/10.1007/s10212-024-00869-8)).
+- Layer 2: Regents Geometry competitors are drill banks of past MC questions ([Geometry Regents Review](https://apps.apple.com/us/app/id1455778981), [Regents Prep 2025-2026](https://apps.apple.com/app/id857889651), [OpenExamPrep](https://open-exam-prep.com/practice/ny-regents-geometry)). None teach before testing. The gap the founder sensed is real in the market.
+- Layer 3: a one-sentence hint before the question is neither a pretest nor a worked example; it is closer to a cue. The literature suggests the transfer item (the 24h follow-up) matters more than the hint wording, which supports the teacher's note to make the follow-up a proof-reason item.
+
+## Decision ledger
+
+| ID and owner | Contract and evidence | Current | Proposed | Status | Exact approval and scope |
+|---|---|---|---|---|---|
+| D1 PILOT-PATH (founder) | Pilot must reach real students and yield a 24h result; P4 false | In-app pilot on ids 3001-3006 (unreachable) | A) run off-app with teacher, delete dead code; B) re-target in-app; C) skip to Learn tab | approved: A | User answer 2026-11-07 to D1: "Run it off-app with the teacher (recommended)". Scope: pilot runs in the teacher's class on paper/Google Form with the 6 v2 hints + one next-day proof-reason item; dead in-app pilot code is removed. Measurement bar left to D2. |
+
+## Answered: D1 PILOT-PATH → A (off-app)
+Commitment comparison:
+
+| Commitment | Source/approval | Current | A | B | C |
+|---|---|---|---|---|---|
+| Where students see hints | design doc Approach A | app, ids 3001-3006 (never shown) | teacher's class, paper or Google Form | app, 6 exam-bank Congruence ids | new Learn tab |
+| Teacher re-review of hints | teacher v2 2026-09-24 | done for 3001-3006 | not needed (reuses v2) | needed again for new questions | new content needed |
+| 24h follow-up | content doc | not built | teacher gives one proof-reason item next day | build in app | n/a |
+| Student data location | eng review | prod Firestore per-user activity | teacher's own sheet | prod Firestore | prod Firestore |
+| Dead pilot code | — | stays | deleted (1 mobile commit) | replaced | deleted |
+| Reachability guard test | — | none | n/a | added (fails if a pilot id isn't in mobile content) | n/a |
+| Measurement bar (P5) | design doc | "measurably better" | pending (D2) | pending (D2) | pending (D2) |
+
+Question: D1 — PILOT-PATH: The Learn Mode pilot never ran: its 6 questions were removed from the app in June. How should the pilot reach students now?
+Header: Pilot path
+A) Run it off-app with the teacher (recommended)
+Teacher gives both variants on paper or a Google Form using the 6 teacher-approved hints, then one proof-reason item the next day; delete the dead pilot code. Effort S, risk low, no new app code. ✅ Evidence this month using hints a teacher already approved. ✅ No student data in production Firestore, consent stays with the teacher. ❌ Tests timing of the "why", not the phone/bus-ride setting.
+B) Re-target the in-app pilot
+Pick 6 Congruence questions the app actually serves, get the teacher to re-review hints for them, build the 24h follow-up, add a test that fails if a pilot question isn't reachable. Effort M, risk medium. ✅ Tests the hint inside the real app experience. ✅ The guard test stops this silent failure recurring. ❌ Weeks more before any data, and new hints need a second teacher review.
+C) Skip the probe, build the Learn tab
+Go straight to Approach B from the design doc (micro-lessons tab for Geometry). Effort L, risk high. ✅ Ships something students can see and use. ✅ Uses the market gap no competitor fills. ❌ Builds the feature with zero evidence that teaching-first helps, the risk the design doc set out to avoid.
+
+## Mode
+
+Mode: HOLD SCOPE; approved decisions: D1 PILOT-PATH=A. Provenance: user answer to the mode question 2026-11-07 ("Hold scope (recommended)"). Planned changed files after D1: `mobile/src/data/pilotLearnMode.js` (delete), `mobile/src/screens/QuizScreen.jsx` (remove pilot import, hint fallback and logging), this doc and the content doc (protocol). 4 files [estimated].
+
+## 0G. HOLD SCOPE checks
+
+1. Complexity: 4 files, 0 new classes or services. Pass.
+2. Minimum change for the goal: remove dead pilot code; turn the content doc into a teacher-run protocol (forms, follow-up items, record sheet, decision rule). Nothing deferrable without blocking the goal.
+3. Invariants kept: v2 hints unchanged and teacher-approved; follow-up item is proof-reason, not coordinate (teacher note); nothing added to `shared/content/`; no student data in production Firestore (D1).
+
+## Decision ledger (cont.)
+
+| ID and owner | Contract and evidence | Current | Proposed | Status | Exact approval and scope |
+|---|---|---|---|---|---|
+| D2 MEASURE (founder + teacher) | Success criteria must be resolvable by one or two classes (P5 doubtful) | Between-group A/B, 6 questions, one 24h item, "measurably better" | A) within-student counterbalanced + pre-registered rule; B) keep between-group + pre-registered rule; C) keep as written | approved: A | User answer 2026-11-07 to D2: "Each student is own control (recommended)". Scope: two forms (hints on Q3001-3003 vs Q3004-3006), 4 non-coordinate next-day items (2 per half), decision rule written before the run (≥15 pts across ≥2 classes → in-app test; <5 → drop; between → rerun). |
+
+## Answered: D2 MEASURE → A (within-student)
+Commitment comparison:
+
+| Commitment | Source/approval | Current | A | B | C |
+|---|---|---|---|---|---|
+| Who gets hints | content doc "Variant Assignment" | half the class, all 6 questions | every student, hints on 3 of 6 (Form 1: Q3001-3003, Form 2: Q3004-3006) | half the class, all 6 | half the class, all 6 |
+| Next-day check | teacher note (proof-reason, not coordinate) | 1 item | 4 non-coordinate items, 2 per half | 1 proof-reason item | 1 item |
+| Comparison | design doc | group vs group | each student's hinted vs unhinted next-day score | group vs group | group vs group |
+| Decision rule written before the run | none | none | yes: hinted ≥15 points better across ≥2 classes → build in-app test; <5 → drop timing idea; between → rerun with more items | yes, same thresholds on group difference | none |
+| Teacher effort | — | 1 form + 1 item | 2 forms + 4 items | 1 form + 1 item | 1 form + 1 item |
+| D1 scope (off-app, v2 hints, no Firestore) | D1 approved | — | unchanged | unchanged | unchanged |
+
+Question: D2 — MEASURE: A class of ~25-60 students split in two, answering one next-day question each, can only show a very large effect. How should the pilot be measured?
+Header: Measurement
+A) Each student is their own control (recommended)
+Two paper forms: every student gets hints on half the questions, and next day answers 4 non-coordinate questions covering both halves; a decision rule is written down before the run. Completeness 9/10. Effort S, risk low. ✅ Roughly doubles what one class can detect, since every student counts twice. ✅ Class, teacher and ability differences cancel out. ❌ Teacher prepares 2 forms and 4 follow-up items instead of 1.
+B) Keep two groups, add a decision rule
+Same half-and-half split as now, but write the thresholds down before running. Completeness 6/10. Effort S, risk low. ✅ Least teacher prep, matches the original design. ✅ The written rule stops reading noise as a win. ❌ Likely ends in "no clear difference" even if hints help.
+C) Keep as written
+Run it exactly as the content doc says. Completeness 3/10. Effort S, risk medium. ✅ No changes to explain to the teacher. ✅ Fastest to start. ❌ "Measurably better" has no threshold, so any result can be read either way.
+
+## 0I. Temporal interrogation
+
+```
+  HOUR 1 (foundations):  Teacher needs: 2 forms (Form 1 hints on Q3001-3003, Form 2 hints on Q3004-3006), the v2 hint text, the answer key with the existing post-answer explanations (same for every question, both forms), a roster split, a record sheet.
+  HOUR 2-3 (core):       Ambiguity: who writes the 4 next-day items (teacher, from their unit) and they must not repeat the 6. Who sends results to the founder, and in what form (D3).
+  HOUR 4-5 (integration):Surprise: absentees on day 2 drop out of the comparison; a student who sees a classmate's form sees the other half's hints. Seat by form.
+  HOUR 6+ (polish):      They'll wish they had written the decision rule and the absent-student rule before looking at results.
+```
+Effort: human team ~2h teacher prep + 1 class period + 15 min next day; founder ~1h to write the protocol and remove dead code. CC + gstack: ~15 min for code removal and protocol draft.
+Feasibility blockers: teacher availability (P2, unverified) — founder must confirm before anything else.
+
+## Current scope (after Step 0)
+
+Mode: HOLD SCOPE (user answer 2026-11-07). Accepted: D1 → A (off-app pilot with the teacher; dead in-app code removed). D2 → A (within-student counterbalanced design, 4 next-day items, pre-registered rule). Deferred: none. Rejected: D1 B (re-target in-app), D1 C (Learn tab), D2 B/C. Pending: D3, D4 below.
+
+## Section 1: Architecture
+
+```
+  BEFORE (shipped, dead)                         AFTER (D1 A)
+  QuizScreen.jsx ──imports──> pilotLearnMode.js   QuizScreen.jsx (pilot import, hint
+     │  getPilotHint(q, uid) → never matches          fallback and logging removed)
+     │  (ids 3001-3006 not in mobile content)
+     └─ logActivity(users/{uid}/activity)         Teacher's classroom
+                                                    Form 1 / Form 2 (paper or Google Form)
+  shared/content/geometry/questions.js            ──> answer key + post-answer explanation
+     ids 3001-3006 (served to chromebook only)    ──> day-2 4-item check
+                                                  ──> record sheet ──> founder (D3)
+```
+- Coupling removed: QuizScreen no longer depends on a pilot module. No new coupling.
+- Single point of failure: the teacher. Rollback: none needed for the classroom run; the code removal is one revertable mobile commit.
+- Value test (record sheet + decision rule): consumed by the founder's build/drop decision; retires after the pilot.
+- WARNING: CLAUDE.md:10 says `shared/content` is the single source of truth for both apps; mobile Geometry does not load it. That false statement caused the pilot miss (D4).
+
+## Section 2: Error & Rescue map
+
+```
+  CODEPATH / STEP                 | WHAT CAN GO WRONG                          | CLASS
+  --------------------------------|--------------------------------------------|----------------
+  QuizScreen after removal        | stray reference to removed module          | ReferenceError at bundle time
+  Classroom run day 1             | student gets the wrong form                | protocol error
+                                  | hints read aloud to the whole class        | contamination
+  Day 2 check                     | student absent                             | missing data
+  Hand-off to founder             | names in the sheet                         | privacy (D3)
+  Analysis                        | rule changed after seeing results          | HARKing
+
+  CLASS               | RESCUED? | RESCUE ACTION                                   | USER (FOUNDER) SEES
+  --------------------|----------|-------------------------------------------------|---------------------
+  ReferenceError      | Y        | grep + jest + npm run check before commit        | red check, no ship
+  wrong form          | Y        | forms labelled, seating by form                  | noted in sheet
+  contamination       | Y        | hints printed on the form only, never spoken     | protocol line
+  missing data        | Y        | absent students excluded from both halves        | count of excluded
+  privacy             | Y        | D3 A: anonymous codes, school sign-off first     | code rows only
+  HARKing             | Y        | rule written in this doc before the run (D2)     | rule visible
+```
+
+## Section 3: Security & threat model
+
+| Threat | Likelihood | Impact | Mitigated? |
+|---|---|---|---|
+| Identifiable student results (minors) leave the school to the founder's company | Med | High | yes, D3 A: codes only, names stay with the teacher |
+| Founder runs the protocol in their own CS class without the Geometry teacher's context | Low | Low | yes: protocol targets a Geometry class |
+| Removing code opens a new surface | — | — | no new surface; removal only |
+Production Firestore exposure: none after D1 (no pilot writes; the dead path never wrote either).
+
+## Decision ledger (cont.)
+
+| ID and owner | Contract and evidence | Current | Proposed | Status | Exact approval and scope |
+|---|---|---|---|---|---|
+| D3 STUDENT-DATA (founder + teacher) | Section 3: students are minors; results leave the classroom | unspecified (content doc: "for each student: variant, per-question correct, timestamp") | A) teacher keeps names, sends founder only anonymous codes + per-code scores; B) teacher sends only class totals; C) unspecified | approved: A | User answer 2026-11-07 to D3: "Anonymous codes, per-student (recommended)". Scope: teacher keeps the code↔name list in school; founder receives one row per code (form, 6 day-1 answers, 4 day-2 answers); teacher clears the run with their school first. |
+
+## Answered: D3 STUDENT-DATA → A (anonymous codes)
+Commitment comparison:
+
+| Commitment | Source/approval | Current | A | B | C |
+|---|---|---|---|---|---|
+| What the founder receives | content doc "Data to Collect" | per-student rows, identity unspecified | one row per anonymous code: form, 6 day-1 answers, 4 day-2 answers | per-form totals only | unspecified |
+| Who holds names | — | unspecified | teacher only (code ↔ name list stays in school) | teacher only | unspecified |
+| Within-student analysis (D2) | D2 approved | — | possible (needs per-student pairs) | not possible (totals lose the pairing) | unclear |
+| Teacher clears it with school admin | — | no | yes, one line in the protocol | yes | no |
+
+Question: D3 — STUDENT-DATA: Results from minors would leave the school and come to you, and the plan never says in what form. What should the teacher hand over?
+Header: Student data
+A) Anonymous codes, per-student scores (recommended)
+Teacher keeps the name list; you get one row per code (form, day-1 answers, day-2 answers). Teacher checks with their school before running. Completeness 9/10. Effort S, risk low. ✅ Keeps the per-student pairing D2's design needs. ✅ No names or ids ever reach you or Firestore. ❌ Teacher maintains a code list for two days.
+B) Class totals only
+Teacher sends total correct per form per question. Completeness 5/10. Effort S, risk low. ✅ Least sensitive data possible. ✅ Least teacher bookkeeping. ❌ Loses per-student pairs, so the within-student comparison you chose in D2 can't be computed.
+C) Leave it unspecified
+Run as the doc says now. Completeness 2/10. Effort S, risk high. ✅ Nothing to explain. ✅ No extra steps. ❌ Names of minors may land in your inbox, a risk for the teacher and for Regentify's school relationships.
+
+## Section 4: Data flow & interaction edge cases
+
+```
+  DAY 1: roster ──> code list (teacher) ──> Form 1 / Form 2 handed out by seat
+          │ shadow: absent day 1 → no code issued, not in data
+          │ shadow: wrong form → teacher notes code + actual form on sheet
+          v
+         answers (6) ──> answer key + same post-answer explanation for all 6, both forms
+          v
+  DAY 2: 4 non-coordinate items (2 per half, written by teacher, not among the 6)
+          │ shadow: absent day 2 → code excluded from analysis, counted
+          │ shadow: blank item → scored wrong, noted
+          v
+         record sheet (code, form, d1×6, d2×4) ──> founder ──> per-student hinted-minus-unhinted day-2 score
+          │ shadow: <10 complete codes → result "too small", rerun, no decision
+          v
+         decision rule (D2): ≥15 pts across ≥2 classes → in-app test; <5 → drop; between → rerun
+```
+| Interaction | Edge case | Handled? | How |
+|---|---|---|---|
+| Hand out forms | students compare forms | yes | seat by form; hints printed only on the form |
+| Day 2 check | student saw the follow-up items early | yes | teacher holds day-2 items until day 2 |
+| Analysis | one class only | yes | rule needs ≥2 classes for "build"; one class can only say "rerun" or "drop" |
+| Analysis | ceiling (everyone right) | **WARNING** | if both halves score ≥90% on day 2, items were too easy: result is "rerun with harder items", not "no effect" |
+
+## Section 5: Code quality
+
+The only code change is removal: `mobile/src/data/pilotLearnMode.js` deleted; `QuizScreen.jsx:46` import, `:542` `?? getPilotHint(...)` fallback and `:603-608` logging removed. No references elsewhere (`grep` across `mobile/src`, `chromebook/src`, `functions`). No tests reference the module. No issues found beyond the removal itself.
+
+## Section 6: Tests
+
+```
+  NEW THING                         | TEST TYPE        | EXISTS? | CHECK
+  ----------------------------------|------------------|---------|---------------------------------------------
+  Pilot code removal                | unit + parse     | yes     | `cd mobile && npx jest` green; `npm run check`
+                                    |                  |         | parses QuizScreen; grep finds no pilot refs
+  Tutor hints still render          | existing behavior| partial | QuizScreen tutor-hint slot unchanged except the
+                                    |                  |         | removed `??` fallback; isGeometricProof etc. still
+                                    |                  |         | return hints (no test today; not changed by this plan)
+  Classroom protocol                | manual           | n/a     | teacher dry-run of both forms before class
+```
+Assertion check — removal: protects=app builds and quizzes run with no pilot module; fails_when=a stray import or call remains; no_claim=classroom protocol correctness (manual only). 2am-Friday test: full jest + a web smoke of one quiz question showing a tutor tip still renders. No new verification scope beyond what D1 implies.
+
+## Section 7: Performance
+
+No issues found. Removal drops one Firestore write per answer on 6 unreachable questions (never executed).
+
+## Section 8: Observability
+
+The original pilot failed silently for 6 weeks because nothing reported "0 pilot events". After D1 there is no in-app path to observe. For the classroom run, the record sheet is the observability: count of codes issued, completed, excluded (absent/wrong form). Founder checks counts before reading scores. No dashboards or alerts are needed for a paper pilot.
+
+## Section 9: Deployment & rollout
+
+- Code removal: one `fix(mobile)` commit on master; ships with the next TestFlight build. Feature flag: none needed (removes unreachable code). Rollback: `git revert` of that commit, minutes.
+- Classroom rollout order: 1) teacher confirms availability and school sign-off; 2) founder sends protocol + forms; 3) teacher dry-runs forms; 4) day 1; 5) day 2; 6) sheet to founder; 7) apply the written rule.
+
+## Section 10: Long-term trajectory
+
+- Debt removed: dead pilot module. Debt remaining: CLAUDE.md:10 misdescribes where mobile content lives (D4).
+- Reversibility: 5/5 (paper pilot; one revertable commit).
+- 1-year question: the next in-app content experiment will hit the same trap unless the content-location fact is written where engineers and agents read it (D4).
+
+## Section 11: Design & UX
+
+SKIPPED (no UI scope). The accepted scope removes an unreachable hint path and adds no screens or states.
+
+## Decision ledger (cont.)
+
+| ID and owner | Contract and evidence | Current | Proposed | Status | Exact approval and scope |
+|---|---|---|---|---|---|
+| D4 CONTENT-DOC (founder) | Sections 1, 10: CLAUDE.md:10 says shared/content is the single source of truth; mobile Geometry loads mobile/src/content (questions.js:1-3) | wrong statement stays | A) correct CLAUDE.md in this plan; B) defer to TODOS.md; C) skip | approved: A | User answer 2026-11-07 to D4: "Correct CLAUDE.md now (recommended)". Scope: rewrite CLAUDE.md content-location lines (:10, :47-48) to say mobile lessons load mobile/src/content and to check a screen's import before targeting question ids; separate docs commit. |
+
+## Answered: D4 CONTENT-DOC → A (correct CLAUDE.md)
+Commitment comparison:
+
+| Commitment | Source/approval | Current | A | B | C |
+|---|---|---|---|---|---|
+| CLAUDE.md content-location text | CLAUDE.md:10, :47-48 | "single source of truth for both apps" | corrected: mobile lessons load mobile/src/content; shared/content feeds chromebook and some mobile paths; check which one a screen imports before targeting question ids | unchanged, TODO written | unchanged |
+| Files touched | — | — | CLAUDE.md (separate docs commit) | TODOS.md | none |
+| D1-D3 scope | approved | — | unchanged | unchanged | unchanged |
+
+Question: D4 — CONTENT-DOC: CLAUDE.md tells every engineer and agent that shared/content is what both apps serve, but mobile lessons load their own copy. That wrong line is why the pilot targeted questions the app doesn't have. Fix it now?
+Header: CLAUDE.md fix
+A) Correct CLAUDE.md in this plan (recommended)
+Rewrite the content-location lines to say which folder mobile lessons actually load and to check a screen's import before targeting question ids; separate docs commit. Effort S, risk low. ✅ Stops the next experiment or content fix from hitting the same silent miss. ✅ Agents read CLAUDE.md first, so the fix reaches every future session. ❌ One more file outside mobile/ in this change.
+B) Defer to TODOS.md
+Write a TODO with the evidence and fix it later. Effort S, risk low. ✅ Keeps this change to the pilot only. ✅ Evidence is captured for later. ❌ The wrong line keeps steering work until someone picks the TODO up.
+C) Skip
+Leave CLAUDE.md as it is. Effort S, risk medium. ✅ No extra work. ✅ Nothing else changes. ❌ The same mistake is likely to repeat on the next content-targeted change.
+
+## Outside voice
+
+- Codex (`gpt-6-astra`, plan-review, frontier tier): completed a response with 6 findings but failed output validation (missing the Recommendation line) → **outside coverage unavailable**. Its findings were not counted as coverage; the parent reviewer checked each claim against the repo and lists the verified ones below as parent findings.
+- Native fallback (Claude Plan subagent, same harness): completed within the 5-minute limit, 9 findings, VERDICT: FINDINGS. Counts as an in-host review, not outside coverage.
+
+### Integrated findings (verified against `shared/content/geometry/questions.js:20-75`)
+
+| # | Source | Finding | Verified | Disposition |
+|---|---|---|---|---|
+| O1 | native + Codex | v2 hints point at the answer: Q3002 hint ≈ correct choice text ("included angle"); Q3004 with choices SSS/ASA/SSA/AAS leaves only SSA; Q3005 "Quadrant I → ?" gives (−x, −y); Q3001 names the dilation property without saying to rule it out; Q3003 "which coordinate is already fixed on the x-axis" is y (=0), which leads to the top distractor (−3, −2) | yes | D5 |
+| O2 | Codex | Hinted items get hint + explanation, control gets explanation only; that tests extra instruction, not timing | yes | D5 |
+| O3 | native + Codex | Halves overlap: Q3002 (included angle) and Q3004 (SSA fails) teach the same idea across halves; contamination pushes the within-student comparison toward zero | yes | D2 reopened (D2R) |
+| O4 | native + Codex | 2 items per half: per-student difference ∈ {−100,−50,0,50,100}; SE ≈10 pts per class [estimated]; "<5 → drop" kills a real 15-pt effect ~8-16% of the time; "<10 codes" floor too low; reruns uncapped | yes (arithmetic) | D2R |
+| O5 | native | "Build" needs ≥2 classes; only one teacher, unconfirmed; Success Criteria still names the CS class | yes | D2R (what one class can decide) + doc fix in tasks |
+| O6 | Codex | D3 option B was described as unable to support the paired analysis; false — the teacher can compute each student's hinted-minus-unhinted difference and send n, sum, sum of squares | yes | D3 reopened (D3R) |
+| O7 | native | Companion content doc still describes the rejected design (uid hash, same 6 for all, 1 item, timestamps); probe doc top still says in-app A/B "APPROVED" | yes | determined by D1 scope: rewrite before anything goes to the teacher (task) |
+| O8 | native | How the post-answer explanation is delivered on paper is undefined; reading answers aloud equalizes both halves | yes | determined with D5 (protocol line) |
+| O9 | native | Students may have seen Q3001-3006 on Chromebook (`chromebook/src/App.jsx:21` imports `@content/geometry/index`) or on mobile before June | yes | protocol line: teacher notes prior Regentify Geometry use per code; no new choice |
+| O10 | native | Privacy step thin: say founder receives no names or app ids; parent notice if district requires | yes | within D3 scope (school sign-off), protocol line |
+| O11 | native | Strategic: a paper result can only lead to an in-app test (D1 B, rejected now); may not justify teacher time | argument, not new evidence; D1 listed this con when chosen | recorded disagreement; D1 not reopened |
+
+## Decision ledger (cont.)
+
+| ID and owner | Contract and evidence | Current | Proposed | Status | Exact approval and scope |
+|---|---|---|---|---|---|
+| D5 HINTS (founder + teacher) | O1, O2, O8 | v2 hints shown before; control sees explanation only | A) teacher rewrites hints to teach the concept without pointing at a choice; unhinted half gets the same hint text after answering; explanations printed on the form back; B) keep v2 hints, add after-answer hint for control; C) keep as is | approved: A | User answer 2026-11-07 to D5: "Rewrite hints; same text after (recommended)". Scope: teacher rewrites all 6 hints to teach the concept without narrowing choices (founder checks each against its choices); unhinted half sees the same hint text after answering; explanations printed on the back of each form; no aloud review until day 2 is done. Supersedes the D1 phrase "6 v2 hints". |
+| D2R MEASURE-REOPEN (founder) | O3, O4, O5 reopen D2 (answer 2026-11-07) | D2 A as approved | A) regroup halves by concept, 4 items per half, interval rule; B) keep D2 | approved: A | User answer 2026-11-07 to D2R: "Regroup halves, 4 items each (recommended)". Scope: halves {3001,3003,3005} vs {3002,3004,3006}; 8 conceptual next-day items (4 per half) by the teacher; per-student hinted-minus-unhinted score, mean + 90% interval; build = pooled ≥2 classes, mean ≥15 and interval >0; drop = pooled ≥2 classes, interval <10; one class = inconclusive/promising (recruit second class); max one rerun; <20 complete students → counts only. Supersedes D2's halves, item count and thresholds; within-student design kept. |
+| D3R STUDENT-DATA-REOPEN (founder) | O6 reopens D3 (answer 2026-11-07, chosen while B was misdescribed) | D3 A as approved | A) keep anonymous codes; B) teacher-computed summaries | approved: A | User answer 2026-11-07 to D3R: "Keep anonymous codes (recommended)". Scope: D3 A stands, extended to 8 day-2 items (D2R) and a prior-Regentify-Geometry-use flag (O9); protocol states the founder receives no names or app ids; parent notice if the district requires it (O10). |
+
+## Answered: D5 HINTS → A (rewrite; same text after for control)
+Commitment comparison:
+
+| Commitment | Source/approval | Current | A | B | C |
+|---|---|---|---|---|---|
+| Hint text | v2, teacher 2026-09-24 | v2 (4-5 of 6 point at the answer) | teacher rewrites all 6: teach the concept, never narrow the choices; founder checks each against its choices | v2 unchanged | v2 unchanged |
+| Unhinted half | D2 A | explanation only | same hint text shown after answering, with the explanation | same v2 hint after answering | explanation only |
+| What the comparison tests | design doc premise 3 "timing" | extra instruction vs none | timing (same content, before vs after) | timing, with leaky hints | extra instruction, with leaky hints |
+| Explanation delivery on paper | — | undefined | printed on the back of each form; no aloud review until day 2 is done | same | undefined |
+| Teacher effort | — | none | rewrite 6 hints (~30 min) | none | none |
+| D1, D3 scope | approved | — | unchanged | unchanged | unchanged |
+
+Question: D5 — HINTS: Both reviewers found that 4-5 of the 6 teacher-approved hints point straight at the answer (Q3003's even points at the most common wrong answer), and the unhinted half gets less teaching overall. What should the pilot use?
+Header: Hints
+A) Rewrite hints; same text after for control (recommended)
+Teacher rewrites the 6 hints to teach the idea without narrowing the choices; the unhinted half sees the same text after answering; explanations printed on the back of each form. Completeness 9/10. Effort S, risk low. ✅ Tests exactly what you asked: does the "why" help more before than after. ✅ Removes the Q3003 hint that leads to the top wrong answer. ❌ Teacher spends about 30 minutes rewriting.
+B) Keep v2 hints, add them after for control
+Same timing fix, but keep the current hint text. Completeness 5/10. Effort S, risk medium. ✅ No rewrite needed. ✅ Both halves see the same content. ❌ Hinted half is mostly being shown the answer, so a result says little about teaching first.
+C) Keep as is
+Run with v2 hints before, explanation only for control. Completeness 2/10. Effort S, risk high. ✅ Nothing new to ask the teacher. ✅ Starts soonest. ❌ Measures "seeing the answer plus extra text", and Q3003's hint can teach the wrong rule.
+
+## Answered: D2R MEASURE-REOPEN → A
+Reopened because O3/O4/O5 show the approved D2 design (answer 2026-11-07) has overlapping halves and thresholds inside the noise. D2's answer stands until this is answered.
+
+Commitment comparison:
+
+| Commitment | Source/approval | Current (D2 A) | A | B |
+|---|---|---|---|---|
+| Halves | D2 A | Q3001-3003 vs Q3004-3006 (Q3002/Q3004 overlap) | by concept: transformations {3001, 3003, 3005} vs triangle congruence & proof {3002, 3004, 3006} | unchanged |
+| Next-day items | D2 A | 4 (2 per half) | 8 (4 per half), written by the teacher, conceptual (no coordinate-mapping items), none repeating the 6 | unchanged |
+| Analysis | D2 A | point gap | per-student hinted-minus-unhinted day-2 score; mean and 90% interval | point gap |
+| Decision rule | D2 A | ≥15 → build; <5 → drop; between → rerun | build in-app test: pooled ≥2 classes, mean ≥15 and interval above 0. Drop: pooled ≥2 classes, interval entirely below 10. One class or anything else: "inconclusive / promising", decides only whether to recruit a second class. At most one rerun. Fewer than 20 complete students in a class: report counts only | unchanged |
+| Within-student design, D1, D3, D5 | approved | — | unchanged | unchanged |
+
+Question: D2R — MEASURE-REOPEN: Reviewers found the measurement you approved in D2 has two flaws: the halves teach overlapping ideas (Q3002 and Q3004 are both about the included angle), and with 2 items per half the cut-offs sit inside random noise. Re-design it?
+Header: Measurement
+A) Regroup halves, 4 items each, interval rule (recommended)
+Split halves by topic (transformations vs triangle congruence), 4 next-day items per half, decide on a range rather than a single number, and let one class only say "promising, recruit a second class". Completeness 9/10. Effort S, risk low. ✅ Hints in one half no longer help the other half's questions. ✅ "Drop" can no longer kill a real effect on one noisy class. ❌ Teacher writes 8 next-day items instead of 4, and a final call needs a second class.
+B) Keep D2 as approved
+Run the D2 design unchanged. Completeness 4/10. Effort S, risk medium. ✅ Least teacher prep. ✅ No change to what you already approved. ❌ Overlap and noise make a "no effect" result likely even if hints help.
+
+## Answered: D3R STUDENT-DATA-REOPEN → A (keep codes)
+Reopened because D3's option B was described as unable to support the paired analysis, which is false (O6). D3's answer (anonymous codes) stands until this is answered.
+
+Commitment comparison:
+
+| Commitment | Source/approval | Current (D3 A) | A | B |
+|---|---|---|---|---|
+| What the founder receives | D3 A | one row per anonymous code: form, 6 day-1 answers, 4 day-2 answers | one row per anonymous code: form, 6 day-1 answers, 8 day-2 answers (D2R), prior Regentify Geometry use (y/n) | per class: n, mean and spread of hinted-minus-unhinted scores, per-item correct counts, exclusion counts; computed by the teacher in a spreadsheet template the founder supplies |
+| Names / app ids | D3 A | stay with teacher | stay with teacher; protocol states founder gets neither | stay with teacher |
+| Founder can check item quality (ceiling, broken item) and recompute | — | yes | yes | item totals only; per-student recompute not possible |
+| Teacher work | — | code list | code list | code list + spreadsheet template |
+| School sign-off, parent notice if district requires | D3 A + O10 | sign-off | sign-off + parent notice if required | same |
+
+Question: D3R — STUDENT-DATA-REOPEN: When you chose anonymous codes in D3, I said class totals couldn't support the per-student comparison. That was wrong: the teacher can compute each student's difference and send just the summary. Keep codes, or switch to summaries?
+Header: Student data
+A) Keep anonymous codes (recommended)
+You get one row per code (no names or app ids) and do the math yourself; the protocol states plainly that names never leave the school. Completeness 9/10. Effort S, risk low. ✅ You can spot a broken or too-easy question and redo the analysis. ✅ Simple for the teacher: fill a sheet, no formulas. ❌ Per-student rows (anonymous) still leave the school.
+B) Teacher sends summaries only
+Teacher pastes answers into a spreadsheet you supply and sends class-level numbers. Completeness 7/10. Effort S, risk low. ✅ The least student data possible leaves the school. ✅ Still supports the comparison you chose. ❌ You can't check or redo the per-student math, and a spreadsheet slip goes unnoticed.
+
+## TODO choices
+
+None. In HOLD SCOPE no evidenced gap was deferred; every finding was resolved in scope (D1-D5, D2R, D3R) or recorded as a protocol line or a disagreement (O11).
+
+## Approval readiness
+
+Approval readiness: PASS — D1 (answer: "Run it off-app with the teacher"), D2 superseded by D2R (answer: "Regroup halves, 4 items each"), D3 kept by D3R (answer: "Keep anonymous codes"), D4 (answer: "Correct CLAUDE.md now"), D5 (answer: "Rewrite hints; same text after"). Mode answer: "Hold scope". No unapproved remedy appears in the tasks below.
+
+## Reality rows
+
+REALITY: premise-table finding unverified=4, P4 false (pilot ids not served on mobile) docs/designs/learn-mode-pilot-probe.md:104
+REALITY: already-done finding pilot code shipped 927bb5e/41e3e9b but unreachable mobile/src/data/pilotLearnMode.js:20
+REALITY: surface-check pass no CLI/routes; Firestore path users/{uid}/activity verified mobile/src/utils/activityLogger.js:7
+REALITY: binding-decisions pass none recorded docs/designs/learn-mode-pilot-probe.md:73
+REALITY: numbers finding detectable effect and SE are estimates [estimated], re-measure after first class docs/designs/learn-mode-pilot-probe.md:65
+REALITY: deferred-asks pass no linked issue docs/designs/learn-mode-pilot-probe.md:1
+REALITY: pr-count pass two commits on master (mobile fix + docs), no PR CLAUDE.md:83
+
+## NOT in scope
+
+- In-app re-targeted pilot (D1 B) — rejected 2026-11-07: weeks before data; second teacher review.
+- Learn tab now (D1 C) — rejected: no evidence teaching-first helps.
+- Between-group design / unspecified bar (D2 B/C, D2R B) — rejected: cannot resolve an effect with one or two classes.
+- Class totals or teacher summaries only (D3 B/C, D3R B) — rejected: founder could not check items or recompute.
+- Keeping v2 hints (D5 B/C) — rejected: hints point at answers.
+- Running the pilot on classroom Chromebooks, which already serve Q3001-3006 (O9) — not proposed in HOLD SCOPE; chromebook work also lives on its own branch.
+Deferred to TODOS.md: none.
+
+## What already exists
+
+- Hint text v2 and teacher notes: `docs/designs/learn-mode-pilot-content.md` — reused as the starting point for the D5 rewrite.
+- Questions and post-answer explanations: `shared/content/geometry/questions.js:20-75` — reused verbatim on the forms (questions, choices, explanation on the back).
+- In-app pilot module and QuizScreen wiring — removed, not reused.
+
+## Dream state delta
+
+After this plan: one trustworthy reading on "why before vs after" from one or two Geometry classes, no dead experiment code, and a CLAUDE.md that tells future work where mobile content really lives. Still missing for the 12-month ideal: any in-app teaching flow, any evidence beyond Geometry Unit 1, and evidence about the phone/bus-ride setting (O11).
+
+## Error & Rescue Registry
+
+| Codepath / step | Failure | Class | Rescued | Action | Founder sees |
+|---|---|---|---|---|---|
+| QuizScreen after pilot removal | stray import/call | ReferenceError (bundle) | Y | grep, `npx jest`, `npm run check` before commit | red check |
+| QuizScreen tutor-hint slot | removed `??` fallback changes tutor hints | logic regression | Y | fallback only ever returned null on mobile; web smoke of a tutor-tip question | tip still shows |
+| Day 1 forms | wrong form / students compare | protocol error | Y | forms labelled, seat by form, hints printed only | noted per code |
+| Day 1 feedback | answers reviewed aloud | contamination | Y | explanation on form back; no aloud review until day 2 done (D5) | protocol line |
+| Day 2 | absent | missing data | Y | exclude code from both halves; count exclusions | counts |
+| Day 2 | ceiling (≥90% both halves) | invalid measure | Y | result = rerun with harder items | rule line |
+| Hand-off | names or app ids sent | privacy | Y | codes only; protocol says so (D3/D3R) | code rows only |
+| Analysis | thresholds moved after viewing | HARKing | Y | rule written here first (D2R) | rule visible |
+| Analysis | one class only | underpowered | Y | "inconclusive/promising" only (D2R) | rule line |
+
+## Failure Modes Registry
+
+```
+  CODEPATH              | FAILURE MODE                 | RESCUED? | TEST?        | USER SEES?      | LOGGED?
+  ----------------------|------------------------------|----------|--------------|-----------------|--------
+  QuizScreen (removal)  | stray pilot reference        | Y        | jest + check | build fails     | CI/local
+  QuizScreen (removal)  | tutor tip stops rendering    | Y        | web smoke    | tip visible     | n/a
+  Forms (day 1)         | wrong form / contamination   | Y        | dry run      | sheet note      | sheet
+  Day-2 check           | absence / ceiling            | Y        | rule         | counts / rerun  | sheet
+  Hand-off              | identifying data             | Y        | protocol     | codes only      | n/a
+  Analysis              | noisy single class           | Y        | rule         | inconclusive    | doc
+```
+CRITICAL GAPS: 0.
+
+## Diagrams
+
+1. System architecture — Section 1 (before/after).
+2. Data flow with shadow paths — Section 4 (updated by D2R: halves {3001,3003,3005} vs {3002,3004,3006}; 8 day-2 items).
+3. State machine — run states:
+```
+  PROPOSED ──teacher yes + school sign-off──> READY ──forms dry-run ok──> DAY1 ──> DAY2 ──> SHEET RECEIVED
+     │ teacher no ──> STOPPED (no evidence; revisit approach)          │ <20 complete ──> COUNTS ONLY
+     v                                                                  v
+  (invalid: DAY1 before hints rewritten (D5) or rule written (D2R))   ANALYZED ──> build | drop | inconclusive(recruit 2nd class, max 1 rerun)
+```
+4. Error flow — Error & Rescue Registry above.
+5. Deployment sequence — Section 9.
+6. Rollback — `git revert <fix(mobile) commit>`; classroom run needs no rollback.
+
+## Stale Diagram Audit
+
+- `docs/designs/learn-mode-pilot-probe.md` top sections (Approach A, Success Criteria, Assignment): stale — still describe the in-app A/B and the CS classroom (O5, O7). Task T3.
+- `docs/designs/learn-mode-pilot-content.md`: stale protocol (uid hash, same 6 for all, 1 item). Task T3.
+- No ASCII diagrams in `QuizScreen.jsx` or `pilotLearnMode.js`.
+
+## Implementation Tasks
+Synthesized from this review's findings. Each task derives from a specific finding above. Run with Claude Code or Codex; checkbox as you ship.
+
+- [ ] **T1 (P1, human: ~30min / CC: ~5min)** — mobile — Remove the dead Learn Mode pilot code
+  - Surfaced by: System audit — pilot ids 3001-3006 not in mobile content (`0082fbb`); D1 A
+  - Files: mobile/src/data/pilotLearnMode.js (delete), mobile/src/screens/QuizScreen.jsx (:46 import, :542 `?? getPilotHint(...)`, :603-608 logging)
+  - Verify: `grep -rn "pilot" mobile/src/screens/QuizScreen.jsx` empty; `cd mobile && npx jest` green; `npm run check`; web smoke shows a tutor tip on a proof question
+- [ ] **T2 (P1, human: ~20min / CC: ~5min)** — repo docs — Correct CLAUDE.md content-location lines
+  - Surfaced by: Section 1/10 — CLAUDE.md:10 "single source of truth"; D4 A
+  - Files: CLAUDE.md
+  - Verify: text says mobile lessons load `mobile/src/content` and to check a screen's import before targeting question ids; separate `docs:` commit
+- [ ] **T3 (P1, human: ~1h / CC: ~15min)** — docs — Rewrite the teacher protocol and mark the in-app design superseded
+  - Surfaced by: O5, O7, O8, O9, O10; D2R, D3/D3R, D5
+  - Files: docs/designs/learn-mode-pilot-content.md, docs/designs/learn-mode-pilot-probe.md (status note at top)
+  - Verify: protocol contains: two forms by concept halves, hint before (hinted half) and same text after (other half), explanation on form back, no aloud review until day 2, 8 conceptual day-2 items (4 per half), code list kept by teacher, record sheet columns (code, form, d1×6, d2×8, prior Regentify use), exclusion rules, decision rule from D2R, school sign-off and parent notice line, "founder receives no names or app ids"
+- [ ] **T4 (P1, human: ~30min teacher / CC: n/a)** — teacher — Rewrite the 6 hints so none narrows the choices
+  - Surfaced by: O1; D5 A
+  - Files: docs/designs/learn-mode-pilot-content.md (hint section)
+  - Verify: founder checks each hint against its four choices in shared/content/geometry/questions.js:20-75; no hint names or eliminates a choice; Q3003 hint no longer points at (−3, −2)
+- [ ] **T5 (P1, human: ~10min / CC: n/a)** — founder — Confirm teacher availability and school sign-off before preparing forms
+  - Surfaced by: P2 unverified; 0I feasibility blocker
+  - Files: none
+  - Verify: written yes from the teacher, date for day 1 and day 2
+
+## Completion Summary
+
+```
+  +====================================================================+
+  |            MEGA PLAN REVIEW — COMPLETION SUMMARY                   |
+  +====================================================================+
+  | Mode selected        | HOLD SCOPE                                  |
+  | System Audit         | pilot unreachable since June (0082fbb);     |
+  |                      | no data ever collected; CLAUDE.md misleads  |
+  | Step 0               | HOLD; D1 off-app, D2 within-student         |
+  | Section 1  (Arch)    | 1 issue found (CLAUDE.md, D4)               |
+  | Section 2  (Errors)  | 9 error paths mapped, 0 GAPS                |
+  | Section 3  (Security)| 1 issue found, 1 High severity (D3)         |
+  | Section 4  (Data/UX) | 4 edge cases mapped, 0 unhandled            |
+  | Section 5  (Quality) | 0 issues found beyond the removal           |
+  | Section 6  (Tests)   | Diagram produced, 0 gaps                    |
+  | Section 7  (Perf)    | 0 issues found                              |
+  | Section 8  (Observ)  | 1 gap found (silent pilot), closed by D1    |
+  | Section 9  (Deploy)  | 1 risk flagged (teacher dependency)         |
+  | Section 10 (Future)  | Reversibility: 5/5, debt items: 1 (D4)      |
+  | Section 11 (Design)  | SKIPPED (no UI scope)                       |
+  +--------------------------------------------------------------------+
+  | NOT in scope         | written (6 items)                           |
+  | What already exists  | written                                     |
+  | Dream state delta    | written                                     |
+  | Error/rescue registry| 9 rows, 0 CRITICAL GAPS                     |
+  | Failure modes        | 6 total, 0 CRITICAL GAPS                    |
+  | TODOS.md updates     | 0 items proposed                            |
+  | Scope proposals      | 0 proposed, 0 accepted (HOLD)               |
+  | CEO plan             | skipped by mode                             |
+  | Outside voice        | codex unavailable (failed validation);      |
+  |                      | native fallback completed, 9 findings       |
+  | Lake Score           | 4/4 recommendations chose complete option   |
+  | Diagrams produced    | 5 (arch, data flow, state, error, rollback) |
+  | Stale diagrams found | 2 (probe doc top, content doc protocol)     |
+  | Unresolved decisions | 0                                           |
+  | Reality rows         | 7/7 rows (PLAN_REALITY), 4 unverified       |
+  +====================================================================+
+```
+
+### Unresolved Decisions
+None.
+
+---
+
+# Eng Review (/plan-eng-review, 2026-11-07)
+
+Target (fixed): `docs/designs/learn-mode-pilot-probe.md` as amended by the CEO review (HOLD SCOPE; D1-D5, D2R, D3R; tasks T1-T5). Report file: this file.
+
+## Eng scope challenge
+
+### A. Assessment
+
+- Already solving each sub-problem: the classroom protocol needs no code; `shared/content/geometry/questions.js:20-75` supplies question text, choices and explanations for the forms; the existing tutor-hint slot (`QuizScreen.jsx:542`) stays for `getTutorHint`.
+- Minimum change: T1 removes `mobile/src/data/pilotLearnMode.js` and three QuizScreen sites; T2 edits CLAUDE.md; T3/T4 are docs and teacher work. Nothing deferrable without blocking the goal.
+- Complexity: 5 changed files (pilotLearnMode.js delete, QuizScreen.jsx, CLAUDE.md, learn-mode-pilot-content.md, learn-mode-pilot-probe.md), 0 new classes/services → complexity selectors skipped.
+- Search check: no new pattern, infrastructure or concurrency approach. Skipped.
+- TODOS cross-reference: no TODOS.md exists.
+- Distribution: no new artifact; T1 ships in the normal Xcode Cloud build from master.
+
+### Findings
+
+1. [INFORMATIONAL] (confidence: 9/10) `mobile/src/data/pilotLearnMode.js:29-31` — removal is behavior-neutral on mobile. `isPilotQuestion` matches ids 3001-3006 (`Object.prototype.hasOwnProperty.call(PILOT_HINTS, question.id)`); a search of `mobile/src/content` for `id: 3001`…`3006` in bare or quoted-key form finds nothing, and exam-bank questions carry `"number": N` (e.g. `content/regents-exams/geometry/january-2020.js`), not numeric ids. So `getPilotHint` always returns null today.
+2. [INFORMATIONAL] (confidence: 9/10) `mobile/src/screens/QuizScreen.jsx:40` — `import { logActivity } from '../utils/activityLogger'` must stay: it is still used at `:358` (`logActivity(uid, 'quiz_complete', …)`). T1 removes only the `:46` pilot import.
+3. [INFORMATIONAL] (confidence: 9/10) `CLAUDE.md:49-50` — "Both Metro (mobile) and Vite (web) resolve `@content/*` → `shared/content/*`. When updating subject/exam data, edit `shared/content/` — never the per-app copies." is an instruction, not just a description: following it for mobile lesson content changes nothing in the app. T2 (D4 A) must rewrite this paragraph as well as line 10.
+4. [CRITICAL] (confidence: 8/10) `mobile/src/screens/QuizScreen.jsx:542` — `const hint = getTutorHint(currentQuestion) ?? getPilotHint(currentQuestion, uid)`: T1 edits the line that renders every tutor tip, and no test covers tutor-tip rendering (`mobile/src/__tests__` has only `useQuiz.test.js` near quizzes). Regression rule applies → R1.
+
+Scope Challenge result: scope accepted as-is.
+
+REALITY: premise-table pass 4 eng premises verified (pilot dead, ids absent, logActivity still used, CLAUDE.md wording), unverified=0 mobile/src/screens/QuizScreen.jsx:542
+REALITY: already-done pass no commits since 2026-11-07 on the named files mobile/src/data/pilotLearnMode.js:1
+REALITY: surface-check pass commands named: `npx jest`, `npm run check` (CLAUDE.md:42-43) CLAUDE.md:42
+REALITY: binding-decisions pass gstack-decision-search: CEO HOLD decision only; plan's D1-D5/D2R/D3R honored docs/designs/learn-mode-pilot-probe.md:157
+REALITY: numbers pass 5 files counted from the task list; effort figures [estimated] docs/designs/learn-mode-pilot-probe.md:560
+REALITY: deferred-asks pass no linked issue docs/designs/learn-mode-pilot-probe.md:1
+REALITY: pr-count pass no ship-policy; two direct commits on master (fix(mobile) + docs), no PR CLAUDE.md:83
+
+## Eng decision ledger
+
+### R1: Regression coverage for tutor-tip rendering after the pilot removal
+Finding: 4, CRITICAL, 8/10, mobile/src/screens/QuizScreen.jsx:542, parent reviewer
+Plan baseline: CEO T1 verify step "web smoke shows a tutor tip on a proof question" (manual only); D1 A approved removal
+Runtime evidence: no automated test renders QuizScreen's tutor-hint slot; getTutorHint is module-private (QuizScreen.jsx:51)
+Comparison grid:
+
+| Choice | Current | A | B |
+|---|---|---|---|
+| R1 tutor-tip coverage | manual web smoke (CEO T1) | jest render test: QuizScreen with a question flagged `isGeometricProof` shows the "Tutor Tip" text while answering; a question with no flags shows none; plus the web smoke | manual web smoke only |
+| D1 removal scope | approved | unchanged | unchanged |
+| Production seam | none | none (renders the real screen with mocked hooks, as ResultsHome.regression-1.test.js does) | none |
+
+Question D1:
+D1 — R1: Removing the pilot edits the one line that shows every tutor tip in quizzes (QuizScreen.jsx:542), and no test covers tutor tips today. How should we protect it?
+
+Project: Regentify mobile, Learn Mode pilot cleanup. ELI10: we're deleting dead code from the exact spot that shows "Tutor Tip" boxes; a slip there would silently hide all tips. Stakes: tips vanish for every proof and inequality question with no error anywhere.
+Recommendation: A, because a render test is the only check that keeps catching this after today, and the same mocking pattern already works in ResultsHome.regression-1.test.js.
+Completeness: A 9/10, B 5/10.
+Net: A adds one test file, about 15 minutes with Claude Code.
+Header: Tip coverage
+Options:
+A) Add a render test (recommended)
+Jest test renders QuizScreen with mocked hooks: a proof-flagged question shows its Tutor Tip while answering, an unflagged one shows none; keep the web smoke too. Human ~1h / CC ~15min, risk low, small upkeep when QuizScreen's hooks change. ✅ Catches a broken hint line on every future run, not just today. ✅ Reuses the mocking pattern already proven in ResultsHome.regression-1.test.js. ❌ QuizScreen has many hooks to mock, so the test can need updates when they change.
+B) Manual web smoke only
+Open one proof question on the web build after the change and check the tip shows. Human ~5min / CC ~2min, risk medium, no upkeep. ✅ No new test to maintain. ✅ Enough to confirm today's edit. ❌ Nothing catches a later edit that breaks tips.
+
+State: approved
+Actual answer: A) Add a render test (recommended) — user answer 2026-11-07 to D1
+Accepted scope: new jest test (mobile/src/__tests__/QuizTutorHint.regression-1.test.js) renders QuizScreen with mocked hooks; asserts a question flagged isGeometricProof shows its "Tutor Tip" text while answering and an unflagged question shows none; must pass before and after T1; web smoke kept.
+History: none
+
+
+## Eng Section 1: Architecture
+
+```
+  mobile/src/screens/QuizScreen.jsx
+     ├─ getTutorHint(q)            (module-private, :51)  ──> tutor-hint box (:542)   [kept]
+     ├─ getPilotHint(q, uid)       (data/pilotLearnMode)  ──> same box               [removed, T1]
+     ├─ isPilotQuestion → logActivity('pilot_learn_mode')  (:603-608)                [removed, T1]
+     └─ logActivity('quiz_complete') (:358)                                           [kept]
+
+  Content sources (unchanged by this plan)
+     mobile screens ──import──> mobile/src/content/<subject>/index   (lessons, exam bank)
+     chromebook App ──import──> @content = shared/content            (chromebook/src/App.jsx:21)
+```
+- No new module, service or boundary: design-twice not applicable (removal only).
+- Red flag 6/8 (two ways to do one task; hand-synced list): question content lives in two trees, `mobile/src/content` and `shared/content`, and CLAUDE.md:49-50 tells contributors the opposite of what mobile does. This is what let the pilot target ids that mobile doesn't serve. T2 fixes the instruction; consolidating the trees is out of HOLD scope → TODO R2.
+- Production failure for the changed path: a botched edit at :542 hides every tutor tip silently → covered by R1's render test.
+- Security: removal stops no data flow that ever ran; no new surface.
+
+Findings:
+- [INFORMATIONAL] (confidence: 8/10) CLAUDE.md:49-50 / chromebook/src/App.jsx:21 — two content trees with no check keeping them in step; R2 (TODO).
+Dispositions: R2 pending TODO question.
+
+## Eng Section 2: Code quality
+
+- [INFORMATIONAL] (confidence: 9/10) mobile/src/screens/QuizScreen.jsx:40 — keep the `logActivity` import (used at :358); remove only :46. Disposition: folded into T1's instructions (exact scope of D1 A).
+- [INFORMATIONAL] (confidence: 9/10) CLAUDE.md:49-50 — T2 must rewrite this paragraph too. Disposition: within D4 A scope ("rewrite CLAUDE.md content-location lines").
+- Shared-code rubric: no extraction candidates (removal only). Touched files have no ASCII diagrams.
+
+## Eng Section 3: Tests
+
+Framework: Jest (`cd mobile && npx jest`, CLAUDE.md:42; `npm run check` parse-checks changed files).
+
+```
+CODE PATHS                                              USER FLOWS
+[+] mobile/src/screens/QuizScreen.jsx                   [+] Answer a quiz question
+  ├── hint = getTutorHint(q)  (:542 after T1)             ├── [GAP→R1] proof question shows Tutor Tip while answering
+  │   ├── [GAP→R1] isGeometricProof → tip text            └── [GAP→R1] plain question shows no tip box
+  │   ├── [GAP→R1] no flags → null → no box
+  │   └── phase !== 'answering' → hidden   [planned ★★ by R3: tip absent in feedback]
+  ├── CHECK onPress (:597-612 after T1)
+  │   └── check() still called without pilot logging      [planned ★★ by R3: CHECK press calls check() once]
+  └── import graph: pilotLearnMode removed                [★★ jest + npm run check fail on a stray import]
+[-] mobile/src/data/pilotLearnMode.js (deleted)           no tests reference it (grep) → nothing to retire
+
+COVERAGE before T1: 0/5 paths tested  |  after R1+R3: 5/5 (render test + jest/parse for the import graph)
+QUALITY: ★★★:1 (R1+R3 test: flagged, unflagged, after-CHECK) ★★:1 ★:0  |  GAPS: 0
+Legend: ★★★ behavior + edge + error | ★★ happy path | ★ smoke check
+```
+
+Approved test (R1, D1 A):
+- File: `mobile/src/__tests__/QuizTutorHint.regression-1.test.js` (unit/render, Jest + @testing-library/react-native, hooks mocked like `ResultsHome.regression-1.test.js`).
+- Assert: QuizScreen with a question `{ isGeometricProof: true, … }` shows "📝 Tutor Tip: For full credit on proofs" text while answering; with an unflagged question, no tutor-tip text is present.
+- Value: protects=tutor tips render for flagged questions and nothing renders otherwise; fails_when=the hint line at QuizScreen.jsx:542 is broken or the box condition inverted; why_new=no test renders QuizScreen's hint slot; seam=none; no_claim=real device layout (render tree only; hooks mocked)
+- Must be green before T1 and after T1.
+Tests to retire: none. LLM/eval scope: none (no prompt changes).
+
+Test plan artifact: written to `~/.gstack/projects/baglansarsen-regents-prep/` (see Required outputs).
+
+## Eng Section 4: Performance
+
+No issues found. The removal drops a `hasOwnProperty` check per render and a never-executed Firestore write path; no queries, caches or loops change.
+
+## Eng decision ledger (cont.)
+
+### R2: TODO — one owner for question content (mobile/src/content vs shared/content)
+Finding: Section 1, INFORMATIONAL, 8/10, CLAUDE.md:49-50 + chromebook/src/App.jsx:21 + mobile/src/content/geometry/questions.js:1-3, parent reviewer
+Plan baseline: not in plan (HOLD SCOPE); T2 corrects the instruction only
+Runtime evidence: mobile screens import `../content/<subject>/index`; chromebook imports `@content/geometry/index`; geometry ids 3001-3006 exist only in shared/content since 0082fbb
+Comparison grid:
+
+| Choice | Current | A | B |
+|---|---|---|---|
+| R2 content-ownership TODO | none | TODOS.md entry: decide one owner per subject's question content, or add a check that fails when the trees drift; P2 | no TODO |
+| T2 (D4 A) | approved | unchanged | unchanged |
+| R1 | approved | unchanged | unchanged |
+
+Question D2:
+D2 — R2: Questions live in two folders (mobile's own copy and shared/content), and nothing keeps them in step; that's how the pilot targeted questions the app doesn't have. Record a TODO to fix the root cause later?
+
+Project: Regentify, content architecture. ELI10: there are two copies of the question bank and they've drifted apart; fixing the instruction file helps people find the right one, but the copies can keep drifting. Stakes: content fixes and experiments can land in the copy the app doesn't read.
+Recommendation: A, because the CLAUDE.md fix stops the misdirection but not the drift, and a written TODO keeps the cause visible without growing this change.
+Note: options differ in kind, not coverage — no completeness score.
+Header: Content TODO
+Options:
+A) Add to TODOS.md (recommended)
+Create TODOS.md with one P2 entry: choose one owner for each subject's questions, or add a check that fails when the two folders disagree. Human ~10min / CC ~2min now, no risk to this change. ✅ The root cause of a six-week silent failure stays on the list. ✅ No code or scope added to this cleanup. ❌ Adds a TODOS.md file the repo doesn't have yet.
+B) Skip
+Rely on the CLAUDE.md correction alone. Zero work, risk medium. ✅ Nothing new to track. ✅ The instruction fix already helps future sessions. ❌ The two copies keep drifting with nothing tracking it.
+
+State: approved
+Actual answer: A) Add to TODOS.md (recommended) — user answer 2026-11-07 to D2
+Accepted scope: TODOS.md created with one P2 entry "One owner for question content (mobile/src/content vs shared/content)"; no code change.
+History: none
+
+
+## Eng outside voice
+
+Codex (`gpt-6-astra`, plan-review, frontier tier), eng pass: **completed**, 2 findings, outside coverage: completed.
+
+```
+CODEX SAYS (plan review — outside voice):
+════════════════════════════════════════════════════════════
+- **Medium — R1 overstates its coverage.** The approved assertions only inspect the answering state. Removing the phase guard—or accidentally deleting `check()` alongside pilot logging—would still pass. The claimed existing quiz coverage provides no backstop: [useQuiz.test.js](/Users/baglansarsen/regents-prep/mobile/src/__tests__/useQuiz.test.js:16) tests copied logic without importing the hook. Require the render test to press CHECK with `selected: 0`, assert `check()` runs once, and rerender in feedback to verify the tip disappears. These protect the actual edit boundaries without adding infrastructure.
+
+- **Low — T1 leaves an orphaned import.** [QuizScreen.jsx:45](/Users/baglansarsen/regents-prep/mobile/src/screens/QuizScreen.jsx:45) imports `correctIndexOf`, whose only use in this screen is inside the pilot logging block being deleted. T1 enumerates removing only the pilot import. Include this import in the cleanup; Jest and the syntax-only parse check will not flag it.
+
+Recommendation: Tighten R1's assertions and include the orphaned import in T1 because the current checks can pass with broken answer submission or hint visibility, and the removal otherwise leaves unused code.
+VERDICT: FINDINGS
+════════════════════════════════════════════════════════════
+```
+
+Cross-model tension:
+- C1 (Low, orphaned import): verified — `QuizScreen.jsx:45` `import { correctIndexOf } from '../utils/question'`, only use `:607` inside the removed block. Factual correction within D1 A's approved removal; T1 now removes `:45` too. No question needed.
+- C2 (Medium, R1 depth): verified — `useQuiz.test.js:1-16` mirrors functions instead of rendering QuizScreen, so CHECK press and post-answer hiding have no backstop. New verification depth for R1 → R3 below. The Section 3 diagram's note "covered by R1 if the test answers once" was optimistic; corrected by R3's answer.
+- Agreement: Codex raised no disagreement with R1's approach, T2 or the removal itself.
+
+## Eng decision ledger (cont.)
+
+### R3: R1 test depth — also cover the CHECK press and the tip hiding after answering
+Finding: C2, Medium, 9/10, mobile/src/__tests__/useQuiz.test.js:1-16 + mobile/src/screens/QuizScreen.jsx:542,597-612, Codex (verified by parent)
+Plan baseline: R1 approved (D1): render test asserts flagged question shows tip while answering; unflagged shows none
+Runtime evidence: no test renders QuizScreen; useQuiz.test.js tests copied functions
+Comparison grid:
+
+| Choice | Current (R1) | A | B | C | D |
+|---|---|---|---|---|---|
+| R3 extra assertions | none | same test also selects choice A, presses CHECK, asserts the quiz's `check` runs once, then asserts the tip box is gone in feedback | none | investigate: confirm QuizScreen can be driven to feedback with mocked useQuiz (≤15 min), then ask again | defer this proposal; R1 as approved |
+| R1 base assertions | approved | unchanged | unchanged | unchanged | unchanged |
+| R2 TODO | pending | pending | pending | pending | pending |
+
+Question D3:
+D3 — R3: Codex found the tutor-tip test you approved only checks the screen before answering. Deleting the pilot's logging sits right next to the CHECK button's handler, and nothing tests that CHECK still works. Extend the test?
+
+Project: Regentify mobile, pilot cleanup. ELI10: the code we're deleting is inside the CHECK button's handler; if the edit slips, CHECK could stop working and the planned test would still pass. Stakes: a quiz where CHECK does nothing ships green.
+Recommendation: A, because the deleted block sits inside CHECK's onPress, so a test that presses CHECK is the one that guards the actual edit.
+Completeness: A 10/10, B 7/10, C 7/10, D 7/10.
+Net: A adds a few lines to the same test file.
+Header: Test depth
+Options:
+A) Apply this change (recommended)
+Same test also picks an answer, presses CHECK, checks the quiz's check runs once, and checks the tip box is gone afterwards. Human ~30min / CC ~5min, risk low, same upkeep as R1. ✅ Guards the CHECK handler the removal edits. ✅ Also proves tips hide after answering. ❌ The mocked quiz hook must support moving to the feedback phase.
+B) Keep R1 as approved
+Test only the before-answering state. Zero extra work, risk medium. ✅ Smallest test. ✅ Already approved. ❌ A broken CHECK handler would still pass.
+C) Investigate before choosing
+Spend up to 15 minutes checking that the screen can be driven to feedback with a mocked quiz hook, then ask again. Approves nothing yet. ✅ Avoids committing to a test that may be awkward. ✅ Keeps R1 unchanged meanwhile. ❌ One more round trip.
+D) Defer this proposal only
+Leave R3 unresolved for now; R1 stays as approved. Zero work, risk medium. ✅ No change today. ✅ Can revisit later. ❌ The CHECK handler stays untested.
+
+State: approved
+Actual answer: A) Apply this change (recommended) — user answer 2026-11-07 to D3
+Accepted scope: QuizTutorHint.regression-1.test.js additionally selects a choice, presses CHECK, asserts the quiz hook's check() is called once, and asserts the tutor-tip text is absent in the feedback phase. R1 base assertions unchanged.
+History: none
+
+
+## Eng approval readiness
+
+Approval readiness: PASS — R1 (D1 answer "Add a render test"), R3 (D3 answer "Apply this change"), R2 (D2 answer "Add to TODOS.md"). C1 orphaned-import removal carried under CEO D1 A (removal of dead pilot code). CEO approvals D1-D5, D2R, D3R unchanged.
+
+## Eng required outputs
+
+### NOT in scope (eng)
+- Consolidating `mobile/src/content` and `shared/content` — deferred to TODOS.md (R2).
+- Any test for the classroom protocol — manual by nature (teacher dry-run).
+
+### What already exists (eng)
+- `getTutorHint` and the hint box (`QuizScreen.jsx:51`, `:542`) — kept; only the `?? getPilotHint` fallback is removed.
+- Render-test mocking pattern — reused from `mobile/src/__tests__/ResultsHome.regression-1.test.js`.
+- `npx jest` + `npm run check` — existing verification for the removal.
+
+### Failure modes (eng)
+| Path | Realistic failure | Test / handling | User sees |
+|---|---|---|---|
+| QuizScreen hint line edit | tips stop rendering | R1 render test | tip visible (test red otherwise) |
+| QuizScreen CHECK onPress edit | check() deleted or doubled | R3 assertions | verdict appears once |
+| Pilot module deletion | stray import | jest + `npm run check` fail | build blocked |
+| Orphaned `correctIndexOf` import | dead import (no runtime effect) | removed in T1 (C1) | nothing |
+Critical gaps: 0.
+
+### Worktree parallelization
+Sequential implementation, no parallelization opportunity (one primary module, `mobile/src/screens`; docs work is independent but tiny).
+
+### Implementation Tasks (eng)
+Synthesized from this review's findings. Each task derives from a specific finding above. Run with Claude Code or Codex; checkbox as you ship.
+
+- [ ] **E1 (P1, human: ~1.5h / CC: ~20min)** — mobile tests — Add `QuizTutorHint.regression-1.test.js` before touching QuizScreen
+  - Surfaced by: Eng Section 3 / R1 + R3 — no test renders QuizScreen's hint slot or CHECK handler
+  - Files: mobile/src/__tests__/QuizTutorHint.regression-1.test.js
+  - Verify: green on current code: flagged proof question shows "📝 Tutor Tip: For full credit on proofs"; unflagged shows none; select + CHECK calls check() once; tip absent in feedback
+- [ ] **E2 (P1, human: ~30min / CC: ~5min)** — mobile — Remove pilot code (CEO T1, with C1)
+  - Surfaced by: CEO D1 A; Eng findings 1-2; Codex C1
+  - Files: mobile/src/data/pilotLearnMode.js (delete); mobile/src/screens/QuizScreen.jsx (remove :45 `correctIndexOf` import, :46 pilot import, `?? getPilotHint(currentQuestion, uid)` at :542, pilot block :603-609; keep :40 `logActivity`)
+  - Verify: E1 still green; `cd mobile && npx jest`; `npm run check`; `grep -rn "pilot\|correctIndexOf" mobile/src/screens/QuizScreen.jsx` empty; web smoke of a proof question
+- [ ] **E3 (P1, human: ~20min / CC: ~5min)** — docs — CLAUDE.md content-location fix (CEO T2), including the `@content` Alias paragraph
+  - Surfaced by: Eng finding 3 — CLAUDE.md:49-50 instructs editing shared/content for all data
+  - Files: CLAUDE.md
+  - Verify: lines 10 and 49-50 say mobile lessons read `mobile/src/content` and to check a screen's import before targeting question ids; separate `docs:` commit
+- CEO tasks T3-T5 (protocol, hint rewrite, teacher confirmation) unchanged; TODOS.md entry added (R2).
+
+### Eng completion summary
+- Step 0: Scope Challenge — scope accepted as-is
+- Reality rows: 7/7 applicable rows emitted (PLAN_REALITY eng below), 4 unverified premises (carried from the CEO premise table; 0 new in eng)
+- Architecture Review: 1 issue found (two content trees → R2 TODO)
+- Code Quality Review: 2 issues found (keep logActivity import; CLAUDE.md alias paragraph)
+- Test Review: diagram produced, 1 gap identified (tutor tip + CHECK untested → R1, R3)
+- Performance Review: 0 issues found
+- NOT in scope: written
+- What already exists: written
+- TODOS.md updates: 1 item proposed to user (accepted)
+- Failure modes: 0 critical gaps flagged
+- Unresolved decisions: 0 in this review
+- Outside voice: codex (gpt-6-astra), completed, 2 findings (both verified; C1 folded into E2, C2 → R3 approved)
+- Parallelization: 1 lane, 0 parallel / 1 sequential
+- Lake Score: 1/1 (D3 offered and chose a 10/10 option; D1 offered no 10/10 option; D2 unscored)
+
+### Suppressed findings
+None.
+
+PLAN_REALITY: phase=ceo rows=7/7 missing=none unverified=4 verdict=complete
+
+PLAN_REALITY: phase=eng rows=7/7 missing=none unverified=4 verdict=complete
+
+## GSTACK REVIEW REPORT
+
+| Review | Trigger | Why | Runs | Status | Findings |
+|--------|---------|-----|------|--------|----------|
+| CEO Review | `/plan-ceo-review` | Scope & strategy | 1 | CLEAR | mode: HOLD_SCOPE, 0 critical gaps |
+| Outside Review | codex `/plan-ceo-review` + `/plan-eng-review` outside voice | Independent 2nd opinion | 2 | CEO: unavailable (codex failed validation; native fallback completed, 9 findings, 9 resolved); Eng: completed | Eng: 2 findings; 2 resolved; 0 unresolved |
+| Eng Review | `/plan-eng-review` | Architecture & tests (required) | 1 | ISSUES OPEN (mapped work, all decided) | 4 issues, 0 critical gaps |
+| Design Review | `/plan-design-review` | UI/UX gaps | 0 | — | — |
+| DX Review | `/plan-devex-review` | Developer experience gaps | 0 | — | — |
+
+- **OUTSIDE COVERAGE:** CEO phase — codex (gpt-6-astra, plan-review) returned output but failed validation (missing Recommendation marker) → unavailable; native Claude Plan fallback completed (in-host, not outside coverage). Eng phase — codex (gpt-6-astra, plan-review) completed, 2 findings (orphaned import, R1 test depth), both verified and resolved (E2, R3).
+- **CROSS-MODEL:** Eng phase: native review and codex agreed on the removal, T2 and R1's approach; codex added two items the native pass missed (orphaned `correctIndexOf` import; CHECK handler untested). No disagreement left open.
+- **VERDICT:** CEO CLEARED. Eng review complete with all findings decided (status issues_open = mapped work in E1-E3, not open questions). Design and DX reviews not run (no UI or developer-facing scope in the accepted work).
+
+NO UNRESOLVED DECISIONS

@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 **Regentify** — an NY Regents Exam prep platform. It is a monorepo with three apps:
 - `chromebook/` — React + Vite SPA for Chromebook/web users, deploys to Firebase Hosting target `regents`
 - `mobile/` — React Native + Expo app (iOS/Android/PWA), deploys to Firebase Hosting target `mobile-web`
-- `shared/content/` — single source of truth for all subject/exam question data, aliased as `@content` in both apps
+- `shared/content/` — subject/exam question data, aliased as `@content`. The chromebook app reads it; mobile lessons read their own copy in `mobile/src/content/` (see the `@content` Alias section)
 
 Backend is Firebase (Firestore + Auth), project ID `regents-prep`. `mobile/` has a Jest suite (`cd mobile && npx jest`) — run it after changing `mobile/src`, and parse-check edited JS/JSX with `npm run check` before committing multi-file changes.
 
@@ -47,7 +47,7 @@ VITE_USE_EMULATORS=true npm run dev   # Web app against emulators
 ## Architecture
 
 ### `@content` Alias
-Both Metro (mobile) and Vite (web) resolve `@content/*` → `shared/content/*`. When updating subject/exam data, edit `shared/content/` — never the per-app copies.
+Both Metro (mobile) and Vite (web) resolve `@content/*` → `shared/content/*`, but mobile screens mostly don't use the alias: lessons and the exam bank load from `mobile/src/content/<subject>/` (e.g. `screens/HomeScreen.jsx` imports `../content/geometry/index`). The two trees have drifted: mobile Geometry practice questions (ids 3001-3006) were replaced by the exam bank in `0082fbb` and now exist only in `shared/content/`. Before changing content or targeting question ids, check which tree the screen actually imports, and update every copy the change must reach. Consolidating the trees is tracked in `TODOS.md`.
 
 ### Mobile App Structure (`mobile/src/`)
 - **`screens/`** — 35+ screens; each maps 1:1 to a navigator route
