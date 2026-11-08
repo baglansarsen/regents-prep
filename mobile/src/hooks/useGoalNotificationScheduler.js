@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback } from 'react'
+import { useEffect, useRef, useCallback, useMemo } from 'react'
 import { AppState } from 'react-native'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useAuthContext } from '../context/AuthContext'
@@ -8,7 +8,11 @@ import { useStreak } from '../context/StreakContext'
 import { SUBJECT_META } from '../content/subjects'
 import { daysUntil } from '../utils/examDates'
 import { localDateStr } from '../utils/localDate'
-import { rescheduleDailyReminder } from './useNotifications'
+import { rescheduleDailyReminder, REMINDER_GOAL_INFO_KEY } from './useNotifications'
+import { useProgress } from './useProgress'
+import { useStudyPlan } from './useStudyPlan'
+import { subjectData } from '../content/subjectData'
+import { planProgressLine } from '../utils/studyPlanCopy'
 import {
   scheduleExamCountdowns, scheduleStreakRisk, scheduleWeeklyReport,
   cancelGoalNotifications,
@@ -39,6 +43,16 @@ export function GoalNotificationBridge() {
   const { getGoal, goals, loaded } = useGoal()
   const { streak, studiedToday } = useStreak()
 
+  // The study plan feeds the reminder text ("Next up: Unit 7, about 15 min")
+  // and the weekly report (docs/designs/exam-date-study-plan.md, Phase 4).
+  const { history } = useProgress(uid)
+  const units = subjectData(subject)?.UNITS ?? []
+  const subjectHistory = useMemo(
+    () => history.filter((h) => (h.subject ?? 'living-environment') === subject),
+    [history, subject],
+  )
+  const { plan } = useStudyPlan(subject, units, subjectHistory)
+
   const passBusy = useRef(false)
 
   const runPass = useCallback(async () => {
@@ -55,6 +69,9 @@ export function GoalNotificationBridge() {
       // (raw daysUntil would go negative and feed the reminder a past exam).
       if (!goal || (goal.examDateStr && daysUntil(goal.examDateStr) < 0)) {
         await cancelGoalNotifications()
+        // Drop goal/plan text from the daily reminder too (only when some was baked in).
+        const hadGoalText = await AsyncStorage.getItem(REMINDER_GOAL_INFO_KEY).catch(() => null)
+        if (hadGoalText) await rescheduleDailyReminder({ streak, goalInfo: null })
         return
       }
 
@@ -63,6 +80,13 @@ export function GoalNotificationBridge() {
       const pointsToGo  = predicted != null ? Math.max(0, goal.target - predicted) : null
       const daysToExam  = goal.examDateStr ? daysUntil(goal.examDateStr) : null
       const today       = localDateStr()
+      const nextUp =
+        plan?.phase === 'learn'      ? plan.thisWeek.units[0]?.title ?? null
+        : plan?.phase === 'strengthen' ? plan.thisWeek.weakUnits[0]?.title ?? null
+        : null
+      const planInfo = plan
+        ? { phase: plan.phase, nextUp, minutes: plan.todayBudgetMinutes }
+        : {}
 
       // Streak-risk: re-evaluated every pass (depends on studiedToday intra-day).
       await scheduleStreakRisk({ studiedToday, streak })
@@ -73,24 +97,30 @@ export function GoalNotificationBridge() {
       const stale =
         stamp?.date !== today ||
         stamp?.examDateStr !== goal.examDateStr ||
-        stamp?.target !== goal.target
+        stamp?.target !== goal.target ||
+        (stamp?.phase ?? null) !== (plan?.phase ?? null) ||
+        (stamp?.nextUp ?? null) !== nextUp
       if (!stale) return
 
       await scheduleExamCountdowns({ examDateStr: goal.examDateStr, target: goal.target, subjectName })
+      const planLine = plan ? planProgressLine(plan, { committedAt: goal.committedAt ?? null, today }) : null
       await scheduleWeeklyReport({
-        body: pointsToGo != null
+        body: planLine
+          ? `${subjectName}: ${planLine}.${nextUp ? ` Next up: ${nextUp}.` : ''}`
+          : pointsToGo != null
           ? `Predicted ${predicted} on ${subjectName} — ${pointsToGo} points to your ${goal.target} goal. Keep going!`
           : `Your ${subjectName} goal: ${goal.target}. Take a practice quiz to unlock your predicted score.`,
       })
-      await rescheduleDailyReminder({ streak, goalInfo: { pointsToGo, target: goal.target, daysToExam } })
+      await rescheduleDailyReminder({ streak, goalInfo: { pointsToGo, target: goal.target, daysToExam, ...planInfo } })
 
       await AsyncStorage.setItem(PASS_KEY(uid), JSON.stringify({
         date: today, examDateStr: goal.examDateStr, target: goal.target,
+        phase: plan?.phase ?? null, nextUp,
       })).catch(() => {})
     } finally {
       passBusy.current = false
     }
-  }, [uid, subject, getGoal, streak, studiedToday])
+  }, [uid, subject, getGoal, streak, studiedToday, plan])
 
   // On mount + whenever goal/studiedToday/subject change.
   useEffect(() => {

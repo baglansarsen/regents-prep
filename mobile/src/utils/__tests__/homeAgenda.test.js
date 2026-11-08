@@ -78,7 +78,7 @@ describe('buildHomeAgenda — rescue override', () => {
 // passed is treated as no goal, and the hero asks for the next date.
 describe('buildHomeAgenda — passed exam date', () => {
   test('hero asks for the next exam date, naming the passed session', () => {
-    const agenda = buildHomeAgenda({ ...base, hasGoal: false, passedGoalMonth: 'June' })
+    const agenda = buildHomeAgenda({ ...base, hasGoal: false, passedGoalMonth: 'June', passedGoalOutcome: 'moved' })
     expect(agenda.hero.actionType).toBe('set_goal')
     expect(agenda.hero.title).toBe('Pick your next exam date')
     expect(agenda.hero.subtitle).toMatch(/June Regents date has passed/)
@@ -93,5 +93,28 @@ describe('buildHomeAgenda — passed exam date', () => {
   test('a passedGoalMonth with an active goal changes nothing', () => {
     const agenda = buildHomeAgenda({ ...base, hasGoal: true, passedGoalMonth: 'June' })
     expect(agenda.hero.actionType).not.toBe('set_goal')
+  })
+})
+
+// Phase 4 (docs/designs/exam-date-study-plan.md): ask how the exam went first.
+describe('buildHomeAgenda — exam outcome', () => {
+  test('a passed date with no answer asks how it went', () => {
+    const a = buildHomeAgenda({ ...base, hasGoal: false, passedGoalMonth: 'June' })
+    expect(a.hero.actionType).toBe('exam_outcome')
+    expect(a.hero.title).toBe('How was your Regents?')
+    expect(a.hero.subtitle).toMatch(/^Your June exam date has passed/)
+    expect(a.chips).toEqual([])
+    expect(a.plan.tasks).toHaveLength(1)
+  })
+  test('took it → "Set your next goal"', () => {
+    const a = buildHomeAgenda({ ...base, hasGoal: false, passedGoalMonth: 'June', passedGoalOutcome: 'took' })
+    expect(a.hero.actionType).toBe('set_goal')
+    expect(a.hero.title).toBe('Set your next goal')
+  })
+  test('missed or moved → pick the next date', () => {
+    for (const status of ['missed', 'moved']) {
+      const a = buildHomeAgenda({ ...base, hasGoal: false, passedGoalMonth: 'June', passedGoalOutcome: status })
+      expect(a.hero.title).toBe('Pick your next exam date')
+    }
   })
 })

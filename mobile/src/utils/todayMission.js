@@ -23,6 +23,7 @@ const ICONS = {
   next_lesson:    '▶️',
   daily_trap:     '🪤',
   all_caught_up:  '✅',
+  exam_outcome:   '🎓',
 }
 
 /**
@@ -74,12 +75,13 @@ export function pickTodayMission({
   streakAtRisk         = false,
   streakDays           = 0,
   passedGoalMonth      = null,
+  passedGoalOutcome    = null,
   planPhase            = null,
 } = {}) {
   const mission = pickBase({
     hasGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestUnit,
     needsLevel0, mathSubject, level0Snoozed, hasNextLesson, nextLessonTopic, trapAvailable,
-    passedGoalMonth, planPhase,
+    passedGoalMonth, passedGoalOutcome, planPhase,
   })
   // Streak pressure decorates whichever action already won — it never changes
   // WHICH action wins. Promoting "buy a freeze" over studying would make the
@@ -94,8 +96,36 @@ function pickBase({
   hasGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestUnit,
   needsLevel0, mathSubject, level0Snoozed, hasNextLesson, nextLessonTopic, trapAvailable,
   passedGoalMonth = null,
+  passedGoalOutcome = null,   // 'took' | 'missed' | 'moved' once the student answers
   planPhase = null,   // utils/studyPlan phase; null keeps the original ladder
 }) {
+  // ⓪ The exam date passed and we haven't asked how it went yet.
+  if (!hasGoal && passedGoalMonth && !passedGoalOutcome) {
+    return {
+      id:               'exam_outcome',
+      icon:             ICONS.exam_outcome,
+      title:            'How was your Regents?',   // short: the card shows one line
+      subtitle:         `Your ${passedGoalMonth} exam date has passed. Tell me how it went and I'll set up what's next.`,
+      cta:              'Tell Me',
+      priority:         1,
+      actionType:       'exam_outcome',
+      topic:            null,
+      estimatedMinutes: 1,
+    }
+  }
+  if (!hasGoal && passedGoalMonth && passedGoalOutcome === 'took') {
+    return {
+      id:               'set_goal',
+      icon:             ICONS.set_goal,
+      title:            'Set your next goal',
+      subtitle:         `You took the ${passedGoalMonth} Regents. Pick your next exam to keep a plan going.`,
+      cta:              'Set Goal',
+      priority:         1,
+      actionType:       'set_goal',
+      topic:            null,
+      estimatedMinutes: 1,
+    }
+  }
   // ① No goal set — nothing else is actionable without one. A goal whose exam
   // date has passed counts as no goal: ask for the next date instead of
   // silently counting down to a session the student never picked.
@@ -361,18 +391,20 @@ export function buildTodayPlan({
   streakDays           = 0,
   planPhase            = null,
   budgetMinutes        = null,   // the student's minutes per day (study plan); null = no trim
+  passedGoalMonth      = null,
+  passedGoalOutcome    = null,
 } = {}) {
   const lead = pickTodayMission({
     hasGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestUnit,
     needsLevel0, mathSubject, level0Snoozed, hasNextLesson, nextLessonTopic, trapAvailable,
-    streakAtRisk, streakDays, planPhase,
+    streakAtRisk, streakDays, planPhase, passedGoalMonth, passedGoalOutcome,
   })
 
   // Before a goal or any data exists there is no plan to build — the single
   // onboarding action IS the plan, and inventing two more would be noise.
   // No headline either: the card already shows lead.title as its hero, and
   // repeating it as the footer line just echoed the title under the CTA.
-  if (lead.actionType === 'set_goal' || lead.actionType === 'checkup') {
+  if (lead.actionType === 'set_goal' || lead.actionType === 'checkup' || lead.actionType === 'exam_outcome') {
     return { pointsToGo: null, headline: '', tasks: [task(lead)], lead }
   }
 

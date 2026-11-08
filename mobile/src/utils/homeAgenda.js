@@ -39,7 +39,7 @@ export function buildHomeAgenda({ ready = true, rescuePlan = null, ...args } = {
   // as before: without a goal or any history there's nothing for the plan to
   // work with).
   const rescueEligible = rescuePlan && args.daysToExam != null && args.daysToExam <= 30 &&
-    ranked.actionType !== 'set_goal' && ranked.actionType !== 'checkup'
+    ranked.actionType !== 'set_goal' && ranked.actionType !== 'checkup' && ranked.actionType !== 'exam_outcome'
 
   const hero = rescueEligible
     ? pickRescueAction({
@@ -54,7 +54,7 @@ export function buildHomeAgenda({ ready = true, rescuePlan = null, ...args } = {
   // Before a goal exists, or before there's any data to estimate from, the
   // single onboarding action IS the agenda — chips would be noise with
   // nothing real behind them yet (mirrors buildTodayPlan's same call).
-  const blocksChips = ranked.actionType === 'set_goal' || ranked.actionType === 'checkup'
+  const blocksChips = ranked.actionType === 'set_goal' || ranked.actionType === 'checkup' || ranked.actionType === 'exam_outcome'
 
   // Runner-ups always come from the normal ladder's signals — even in rescue
   // mode, so a rescue hero doesn't hide the Level 0 / trap chips underneath it.

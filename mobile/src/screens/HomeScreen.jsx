@@ -41,6 +41,8 @@ import { T, duoBtn, duoBtnOutline, cardShadow, elevatedCard } from '../styles/du
 import UnitBanner from '../components/UnitBanner'
 import PetWidget from '../components/PetWidget'
 import NextActionCard from '../components/NextActionCard'
+import ExamOutcomeSheet from '../components/ExamOutcomeSheet'
+import { logEvent } from '../utils/analytics'
 import ActionChipRow from '../components/ActionChipRow'
 import { usePetContext } from '../context/PetContext'
 import { useSpeechContext, loadDailyMessage } from '../context/SpeechContext'
@@ -208,7 +210,7 @@ export default function HomeScreen({ navigation }) {
 
   // ── Regents goal + predicted score + smart daily quest ─────────────────────
   // (Also before the focus effect: smartQuestDef appears in its deps array.)
-  const { getGoal, loaded: goalLoaded } = useGoal()
+  const { getGoal, updateGoal, loaded: goalLoaded } = useGoal()
   const storedGoal = getGoal(subject)
   // A goal whose exam date has passed is treated as no goal: Home asks for the
   // next date (set_goal, "Pick your next exam date") rather than silently
@@ -222,6 +224,11 @@ export default function HomeScreen({ navigation }) {
   // session, else the next scheduled Regents session for the subject.
   const daysToExam = goalDaysToExam ?? getDaysUntilExam(subject)
   const passedGoalMonth = goalPassed ? sessionMonthOf(storedGoal.examDateStr) : null
+  // The answer to "How did your <month> Regents go?" — only counts for this
+  // exam date, so a later passed date asks again.
+  const passedGoalOutcome = goalPassed && storedGoal.planOutcome?.examDateStr === storedGoal.examDateStr
+    ? storedGoal.planOutcome.status : null
+  const [showOutcome, setShowOutcome] = useState(false)
   // The study plan (utils/studyPlan) — orders today's work by phase, sizes it
   // to the student's minutes, and gives the "Week 6 of 33 · On track" line.
   const { plan: studyPlan } = useStudyPlan(subject, units, subjectHistory)
@@ -289,13 +296,14 @@ export default function HomeScreen({ navigation }) {
     band:                 pacing,
     rescuePlan:           regentsGoal?.rescuePlan ?? null,
     passedGoalMonth,
+    passedGoalOutcome,
     planPhase:            studyPlan?.phase ?? null,
     budgetMinutes:        studyPlan?.todayBudgetMinutes ?? null,
   }), [
     goalLoaded, historyLoaded, regentsGoal, coldStart, daysToExam, hasTakenPracticeExam,
     dueCount, weakestAttemptedUnit, needsLevel0, subject, level0Snoozed, hasNextLesson,
     nextLessonTopic, trapAvailable, streakAtRisk, streak, predicted, pacing, passedGoalMonth,
-    studyPlan,
+    passedGoalOutcome, studyPlan,
   ])
   const { hero: rankedHero, plan: todayPlan, chips: nextChips, rescue: rescueActive } = agenda
 
@@ -777,8 +785,22 @@ export default function HomeScreen({ navigation }) {
   }
 
   // ── Today's Mission dispatcher — routes each actionType to the right helper ─
+  async function handleExamOutcome({ status, score }) {
+    await updateGoal(subject, {
+      planOutcome: { status, score: score ?? null, examDateStr: storedGoal.examDateStr, at: new Date().toISOString() },
+    })
+    logEvent('exam_outcome', { subject, status, hasScore: score != null })
+    setShowOutcome(false)
+    // Missed or moved → straight to picking the next date. Deferred a frame:
+    // closing a Modal and navigating in the same tick wedges RN-web.
+    if (status !== 'took') requestAnimationFrame(() => navigation.navigate('GoalSetup'))
+  }
+
   function runMission(m) {
     switch (m.actionType) {
+      case 'exam_outcome':
+        setShowOutcome(true)
+        break
       case 'set_goal':
         navigation.navigate('GoalSetup')
         break
@@ -1500,6 +1522,16 @@ export default function HomeScreen({ navigation }) {
         streak={streakShare ?? 0}
         subject={subject}
       />
+
+      {/* "How did your <month> Regents go?" — after the goal's exam date passes */}
+      {showOutcome && passedGoalMonth && (
+        <ExamOutcomeSheet
+          visible={showOutcome}
+          month={passedGoalMonth}
+          onDone={handleExamOutcome}
+          onClose={() => setShowOutcome(false)}
+        />
+      )}
 
       {/* Level-up moment (once per level; useRP writes @levelUp) */}
       <LevelUpCelebration

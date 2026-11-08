@@ -17,6 +17,10 @@ function getNotifications() {
 }
 
 const KEY            = '@regents_notifications_v2'
+// Last goal/plan details the bridge baked into the reminder. The streak-change
+// reschedule below reuses them so it no longer overwrites the goal-aware text
+// with a streak-only message (study plan Phase 4).
+export const REMINDER_GOAL_INFO_KEY = '@reminderGoalInfo_v1'
 const DEFAULT_HOUR   = 19   // 7 PM
 const DEFAULT_MINUTE = 0
 // Stable identifier so (re)scheduling replaces only this notification — never
@@ -45,9 +49,22 @@ function ensureHandler() {
   }
 }
 
-// ── Personalised notification body — goal-aware when a Regents goal exists ───
-function buildMessage(streak = 0, goalInfo = null) {
-  // goalInfo: { pointsToGo, target, daysToExam } from the goal scheduler bridge
+// ── Personalised notification body — plan-aware, then goal-aware, then streak ─
+export function buildMessage(streak = 0, goalInfo = null) {
+  // goalInfo: { pointsToGo, target, daysToExam, phase?, nextUp?, minutes? } from
+  // the goal scheduler bridge; phase/nextUp/minutes come from the study plan.
+  const plan = goalInfo?.phase ? goalInfo : null
+  if (plan) {
+    const mins = plan.minutes ? `about ${plan.minutes} min` : 'a short session'
+    if (plan.phase === 'final_week') {
+      return plan.daysToExam === 1
+        ? '🎯 Your Regents is tomorrow. A light review, then rest up.'
+        : `🎯 ${plan.daysToExam} days to your Regents. Review your mistakes today, ${mins}.`
+    }
+    if (plan.phase === 'exam_prep') return `📝 Exam prep: a practice exam or mistake review today, ${mins}.`
+    if (plan.phase === 'strengthen' && plan.nextUp) return `🎯 Today: drill ${plan.nextUp}, ${mins}.`
+    if (plan.phase === 'learn' && plan.nextUp) return `📘 Next up: ${plan.nextUp}, ${mins} today.`
+  }
   if (goalInfo && goalInfo.pointsToGo != null) {
     const { pointsToGo, target, daysToExam } = goalInfo
     if (pointsToGo <= 0) return `🎉 You're predicted at your ${target} goal — keep it locked in!`
@@ -72,6 +89,8 @@ export async function rescheduleDailyReminder({ streak = 0, goalInfo = null } = 
     const raw = await AsyncStorage.getItem(KEY)
     const prefs = raw ? JSON.parse(raw) : null
     if (!prefs?.enabled) return
+    if (goalInfo) await AsyncStorage.setItem(REMINDER_GOAL_INFO_KEY, JSON.stringify(goalInfo)).catch(() => {})
+    else await AsyncStorage.removeItem(REMINDER_GOAL_INFO_KEY).catch(() => {})
     try { await N.cancelScheduledNotificationAsync(DAILY_REMINDER_ID) } catch {}
     await N.scheduleNotificationAsync({
       identifier: DAILY_REMINDER_ID,
@@ -122,12 +141,14 @@ export function useNotifications(streak = 0) {
   const schedule = useCallback(async (h, m, currentStreak) => {
     const N = getNotifications()
     if (!N) return
+    let goalInfo = null
+    try { goalInfo = JSON.parse((await AsyncStorage.getItem(REMINDER_GOAL_INFO_KEY)) ?? 'null') } catch {}
     try { await N.cancelScheduledNotificationAsync(DAILY_REMINDER_ID) } catch {}
     await N.scheduleNotificationAsync({
       identifier: DAILY_REMINDER_ID,
       content: {
         title: 'Time to study! 📖',
-        body:  buildMessage(currentStreak),
+        body:  buildMessage(currentStreak, goalInfo),
         sound: true,
       },
       trigger: { hour: h, minute: m, repeats: true },

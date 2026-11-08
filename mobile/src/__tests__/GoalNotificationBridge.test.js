@@ -12,7 +12,14 @@ jest.mock('../context/GoalContext', () => ({
   useGoal: () => ({ getGoal: () => mockGoal, goals: { chemistry: mockGoal }, loaded: true }),
 }))
 jest.mock('../context/StreakContext', () => ({ useStreak: () => ({ streak: 2, studiedToday: false }) }))
-jest.mock('../hooks/useNotifications', () => ({ rescheduleDailyReminder: jest.fn(() => Promise.resolve()) }))
+jest.mock('../hooks/useNotifications', () => ({
+  rescheduleDailyReminder: jest.fn(() => Promise.resolve()),
+  REMINDER_GOAL_INFO_KEY: '@reminderGoalInfo_v1',
+}))
+let mockPlan = null
+jest.mock('../hooks/useProgress', () => ({ useProgress: () => ({ history: [] }) }))
+jest.mock('../hooks/useStudyPlan', () => ({ useStudyPlan: () => ({ plan: mockPlan, goal: null }) }))
+jest.mock('../content/subjectData', () => ({ subjectData: () => ({ UNITS: [] }) }))
 jest.mock('../utils/goalNotifications', () => ({
   scheduleExamCountdowns: jest.fn(() => Promise.resolve()),
   scheduleStreakRisk:     jest.fn(() => Promise.resolve()),
@@ -32,6 +39,7 @@ const ymd = (offsetDays) => {
 
 beforeEach(async () => {
   jest.clearAllMocks()
+  mockPlan = null
   await AsyncStorage.clear()
   await AsyncStorage.setItem('@regents_notifications_v2', JSON.stringify({ enabled: true, hour: 19, minute: 0 }))
 })
@@ -63,4 +71,35 @@ test('exam day itself still counts as upcoming', async () => {
   await runBridge()
   expect(notif.cancelGoalNotifications).not.toHaveBeenCalled()
   expect(notif.scheduleExamCountdowns).toHaveBeenCalled()
+})
+
+// ── Phase 4: plan-aware reminder + weekly report ─────────────────────────────
+const LEARN_PLAN = {
+  phase: 'learn', daysLeft: 40, todayBudgetMinutes: 25,
+  thisWeek: { units: [{ title: 'Atomic Structure', lessons: 2 }], weakUnits: [] },
+  pace: { status: 'on_track', shortfallLessons: 0 },
+  feasibility: { fits: true, suggestions: [] },
+}
+
+test('the reminder carries the plan: phase, next unit and minutes', async () => {
+  mockGoal = { target: 75, examDateStr: ymd(40), predicted: { value: 70 } }
+  mockPlan = LEARN_PLAN
+  await runBridge()
+  expect(rescheduleDailyReminder).toHaveBeenCalledWith(expect.objectContaining({
+    goalInfo: expect.objectContaining({ phase: 'learn', nextUp: 'Atomic Structure', minutes: 25 }),
+  }))
+  expect(notif.scheduleWeeklyReport).toHaveBeenCalledWith({ body: expect.stringMatching(/On track\. Next up: Atomic Structure\./) })
+})
+
+test('a passed date clears goal text baked into the reminder', async () => {
+  await AsyncStorage.setItem('@reminderGoalInfo_v1', JSON.stringify({ pointsToGo: 5, target: 75 }))
+  mockGoal = { target: 75, examDateStr: ymd(-1) }
+  await runBridge()
+  expect(rescheduleDailyReminder).toHaveBeenCalledWith(expect.objectContaining({ goalInfo: null }))
+})
+
+test('no goal text to clear → no extra reschedule', async () => {
+  mockGoal = null
+  await runBridge()
+  expect(rescheduleDailyReminder).not.toHaveBeenCalled()
 })
