@@ -11,6 +11,7 @@ import { getUpcomingExamSessions } from '../utils/examDates'
 import { GOAL_TIERS } from '../data/goalConfig'
 import { T, elevatedCard } from '../styles/duo'
 import PressableDuo from '../motion/PressableDuo'
+import { shortDate } from '../utils/studyPlanCopy'
 import AnimatedReggie from '../motion/AnimatedReggie'
 
 // All exam-offering subjects, in the order SUBJECTS defines them
@@ -224,7 +225,7 @@ export default function ReggieOnboardingScreen({ onComplete }) {
                   >
                     <Text style={[T.h3, { color: C.text }]}>{sn.label}</Text>
                     <Text style={[T.small, { color: C.textMuted, marginTop: 3 }]}>
-                      {sn.days} days away
+                      {sn.days} days away{sn.estimated ? ' · date estimated' : ` · ${shortDate(sn.dateStr)}, ${sn.time}`}
                     </Text>
                   </TouchableOpacity>
                 )

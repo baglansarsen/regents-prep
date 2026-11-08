@@ -63,3 +63,38 @@ describe('daysUntilExam (countdown source)', () => {
     expect(daysUntilExam('chemistry', '2026-06-23')).toBeGreaterThanOrEqual(0)
   })
 })
+
+// ── Official NYSED calendar (data/regentsCalendar.js) ────────────────────────
+import { getUpcomingExamSessions, examSessionsFor, officialSessionDate, getNextExamDate } from '../examDates'
+
+describe('official calendar', () => {
+  test('sessions use NYSED dates and times, per subject', () => {
+    const chem = getUpcomingExamSessions('chemistry')
+    expect(chem.map((s) => s.dateStr)).toEqual(['2027-01-26', '2027-06-23', '2027-08-18'])
+    expect(chem[1]).toMatchObject({ label: 'June 2027', time: '9:15 a.m.', estimated: false })
+    expect(getUpcomingExamSessions('geometry').map((s) => s.dateStr)).toEqual(['2027-01-28', '2027-06-22', '2027-08-18'])
+  })
+  test('physics has no August session', () => {
+    expect(getUpcomingExamSessions('physics').map((s) => s.label)).toEqual(['January 2027', 'June 2027', 'January 2028'])
+    expect(getUpcomingExamSessions('physics')[2].estimated).toBe(true)
+  })
+  test('Living Environment students get the Life Science: Biology dates', () => {
+    expect(getUpcomingExamSessions('living-environment').map((s) => s.dateStr))
+      .toEqual(getUpcomingExamSessions('life-science').map((s) => s.dateStr))
+  })
+  test('sessions after the published ones are estimated', () => {
+    const later = examSessionsFor('algebra-1').filter((s) => s.dateStr > '2027-12-31')
+    expect(later.length).toBeGreaterThan(0)
+    expect(later.every((s) => s.estimated && s.time === null)).toBe(true)
+  })
+  test('the next exam is the official one', () => {
+    const d = getNextExamDate('english')
+    expect([d.getFullYear(), d.getMonth() + 1, d.getDate()]).toEqual([2027, 1, 26])
+  })
+  test('officialSessionDate snaps only within the same session month', () => {
+    expect(officialSessionDate('chemistry', '2027-06-22')).toBe('2027-06-23')
+    expect(officialSessionDate('chemistry', '2027-06-23')).toBe('2027-06-23')
+    expect(officialSessionDate('chemistry', '2028-01-25')).toBe('2028-01-25')
+    expect(officialSessionDate('chemistry', null)).toBeNull()
+  })
+})

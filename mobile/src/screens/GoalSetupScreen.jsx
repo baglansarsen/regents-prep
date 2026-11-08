@@ -21,6 +21,7 @@ import StudyTimePicker from '../components/StudyTimePicker'
 import PlanPreviewCard from '../components/PlanPreviewCard'
 import { buildStudyPlan, DEFAULT_AVAILABILITY } from '../utils/studyPlan'
 import { localDateStr } from '../utils/localDate'
+import { shortDate } from '../utils/studyPlanCopy'
 import { T, duoBtn, cardShadow } from '../styles/duo'
 import { logEvent } from '../utils/analytics'
 
@@ -189,6 +190,9 @@ export default function GoalSetupScreen({ navigation }) {
                   </Text>
                   <Text style={[T.label, { color: C.textMuted, marginTop: 4, textTransform: 'none', letterSpacing: 0 }]}>
                     {sn.days} days
+                  </Text>
+                  <Text style={[T.label, { color: C.textMuted, marginTop: 2, textTransform: 'none', letterSpacing: 0 }]} numberOfLines={1}>
+                    {sn.estimated ? 'Date estimated' : `${shortDate(sn.dateStr)} · ${sn.time}`}
                   </Text>
                 </TouchableOpacity>
               )

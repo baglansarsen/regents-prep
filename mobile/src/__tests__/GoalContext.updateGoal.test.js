@@ -19,7 +19,7 @@ const { GoalProvider, useGoal } = require('../context/GoalContext')
 const EXISTING = {
   chemistry: {
     target: 65,
-    examDateStr: '2027-06-22',
+    examDateStr: '2027-06-23',   // official June 2027 Chemistry date
     committedAt: '2026-09-01T12:00:00.000Z',
     baselineScore: 58,
     predicted: { value: 61, date: '2026-11-01' },
@@ -65,9 +65,9 @@ test('updateGoal with no existing goal commits a new one', async () => {
 })
 
 test('updateGoal leaves other subjects untouched', async () => {
-  const get = await mountWith({ ...EXISTING, physics: { target: 85, examDateStr: '2027-06-22', committedAt: 'x' } })
+  const get = await mountWith({ ...EXISTING, physics: { target: 85, examDateStr: '2027-06-24', committedAt: 'x' } })
   await act(async () => { await get().updateGoal('chemistry', { target: 75 }) })
-  expect(get().getGoal('physics')).toEqual({ target: 85, examDateStr: '2027-06-22', committedAt: 'x' })
+  expect(get().getGoal('physics')).toEqual({ target: 85, examDateStr: '2027-06-24', committedAt: 'x' })
 })
 
 test('commitGoal saves study time passed from goal setup', async () => {
@@ -78,4 +78,17 @@ test('commitGoal saves study time passed from goal setup', async () => {
   expect(get().getGoal('chemistry')).toMatchObject({
     target: 75, examDateStr: '2027-06-22', availability: { daysPerWeek: 4, minutesPerDay: 25 },
   })
+})
+
+test('goals saved on the old computed calendar move to the official session date', async () => {
+  const get = await mountWith({
+    chemistry: { target: 75, examDateStr: '2027-06-22', committedAt: 'x' },   // computed June Tuesday
+    physics:   { target: 85, examDateStr: '2028-06-20', committedAt: 'y' },   // unpublished session: unchanged
+    'living-environment': { target: 65, examDateStr: '2027-06-22' },        // sits Life Science: Biology
+  })
+  expect(get().getGoal('chemistry').examDateStr).toBe('2027-06-23')
+  expect(get().getGoal('physics').examDateStr).toBe('2028-06-20')
+  expect(get().getGoal('living-environment').examDateStr).toBe('2027-06-17')
+  const saved = JSON.parse(await AsyncStorage.getItem('@regentsGoal_v1_u1'))
+  expect(saved.chemistry.examDateStr).toBe('2027-06-23')
 })

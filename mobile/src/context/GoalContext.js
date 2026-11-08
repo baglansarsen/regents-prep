@@ -3,7 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { doc, getDoc, setDoc } from 'firebase/firestore'
 import { db } from '../firebase'
 import { useAuthContext } from './AuthContext'
-import { getNextExamDate } from '../utils/examDates'
+import { getNextExamDate, officialSessionDate } from '../utils/examDates'
 import { toLocalDateStr } from '../utils/localDate'
 import { logActivity } from '../utils/activityLogger'
 
@@ -70,9 +70,22 @@ export function GoalProvider({ children }) {
         } catch {}
       }
       if (cancelled) return
-      goalsRef.current = data ?? {}
-      setGoals(goalsRef.current)
+      // Snap dates saved from the old computed calendar to NYSED's official
+      // date for the same session (data/regentsCalendar.js), and save once.
+      let migrated = false
+      const next = { ...(data ?? {}) }
+      for (const [sub, g] of Object.entries(next)) {
+        if (!g?.examDateStr) continue
+        const official = officialSessionDate(sub, g.examDateStr)
+        if (official !== g.examDateStr) { next[sub] = { ...g, examDateStr: official }; migrated = true }
+      }
+      goalsRef.current = next
+      setGoals(next)
       setLoaded(true)
+      if (migrated) {
+        try { await AsyncStorage.setItem(asKey(uid), JSON.stringify(next)) } catch {}
+        try { await setDoc(doc(db, 'users', uid, 'meta', 'goals'), next, { merge: true }) } catch {}
+      }
     })()
     return () => { cancelled = true }
   }, [uid])
