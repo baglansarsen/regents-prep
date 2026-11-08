@@ -11,7 +11,7 @@
  * Callers supply all inputs; HomeScreen drives it via useMemo.
  */
 
-import { MASTERY_MIN, PRACTICE_EXAM_WINDOW_DAYS } from './studyConstants'
+import { MASTERY_MIN, PASSING_PCT, PRACTICE_EXAM_WINDOW_DAYS } from './studyConstants'
 
 const ICONS = {
   set_goal:       '🎯',
@@ -74,11 +74,12 @@ export function pickTodayMission({
   streakAtRisk         = false,
   streakDays           = 0,
   passedGoalMonth      = null,
+  planPhase            = null,
 } = {}) {
   const mission = pickBase({
     hasGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestUnit,
     needsLevel0, mathSubject, level0Snoozed, hasNextLesson, nextLessonTopic, trapAvailable,
-    passedGoalMonth,
+    passedGoalMonth, planPhase,
   })
   // Streak pressure decorates whichever action already won — it never changes
   // WHICH action wins. Promoting "buy a freeze" over studying would make the
@@ -93,6 +94,7 @@ function pickBase({
   hasGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestUnit,
   needsLevel0, mathSubject, level0Snoozed, hasNextLesson, nextLessonTopic, trapAvailable,
   passedGoalMonth = null,
+  planPhase = null,   // utils/studyPlan phase; null keeps the original ladder
 }) {
   // ① No goal set — nothing else is actionable without one. A goal whose exam
   // date has passed counts as no goal: ask for the next date instead of
@@ -156,8 +158,11 @@ function pickBase({
     }
   }
 
-  // ④ Exam is close and they've never taken a full practice exam
-  if (daysToExam != null && daysToExam <= PRACTICE_EXAM_WINDOW_DAYS && !hasTakenPracticeExam) {
+  // ④ Exam is close and they've never taken a full practice exam. The study
+  // plan's exam-prep window can open earlier than the fixed 14 days.
+  const examWindow = (daysToExam != null && daysToExam <= PRACTICE_EXAM_WINDOW_DAYS) ||
+    planPhase === 'exam_prep' || planPhase === 'final_week'
+  if (examWindow && !hasTakenPracticeExam) {
     return {
       id:               'practice_exam',
       icon:             ICONS.practice_exam,
@@ -186,8 +191,11 @@ function pickBase({
     }
   }
 
-  // ⑥ There's an attempted but under-mastered topic — drill it
-  if (weakestUnit && weakestUnit.pct != null && weakestUnit.pct < MASTERY_MIN) {
+  // ⑥ There's an attempted but under-mastered topic — drill it. In the plan's
+  // learn phase, first-pass coverage comes first: only a unit below passing
+  // interrupts it (the strengthen phase drills the rest later).
+  const learnFirst = planPhase === 'learn' && hasNextLesson && weakestUnit?.pct != null && weakestUnit.pct >= PASSING_PCT
+  if (weakestUnit && weakestUnit.pct != null && weakestUnit.pct < MASTERY_MIN && !learnFirst) {
     return {
       id:               `weak_unit_${weakestUnit.topic}`,
       icon:             ICONS.weak_unit_quiz,
@@ -202,8 +210,9 @@ function pickBase({
     }
   }
 
-  // ⑦ Keep moving forward on the learning path
-  if (hasNextLesson) {
+  // ⑦ Keep moving forward on the learning path — except in the final week,
+  // when the plan says no new units.
+  if (hasNextLesson && planPhase !== 'final_week') {
     return {
       id:               'next_lesson',
       icon:             ICONS.next_lesson,
@@ -272,7 +281,9 @@ export function nextActionChips(args, heroActionType, limit = 3) {
   if (heroActionType !== 'weak_unit_quiz' && args.weakestUnit && args.weakestUnit.pct != null && args.weakestUnit.pct < MASTERY_MIN) {
     out.push({ id: `chip_weak_${args.weakestUnit.topic}`, icon: ICONS.weak_unit_quiz, title: args.weakestUnit.title, cta: 'Drill', actionType: 'weak_unit_quiz', topic: args.weakestUnit.topic, unitId: args.weakestUnit.id ?? null, estimatedMinutes: 10 })
   }
-  if (heroActionType !== 'practice_exam' && args.daysToExam != null && args.daysToExam <= PRACTICE_EXAM_WINDOW_DAYS && !args.hasTakenPracticeExam) {
+  const examWindow = (args.daysToExam != null && args.daysToExam <= PRACTICE_EXAM_WINDOW_DAYS) ||
+    args.planPhase === 'exam_prep' || args.planPhase === 'final_week'
+  if (heroActionType !== 'practice_exam' && examWindow && !args.hasTakenPracticeExam) {
     out.push({ id: 'chip_exam', icon: ICONS.practice_exam, title: 'Practice exam', cta: 'Start', actionType: 'practice_exam', topic: null, estimatedMinutes: 90 })
   }
   if (heroActionType !== 'daily_trap' && args.trapAvailable) {
@@ -348,11 +359,13 @@ export function buildTodayPlan({
   trapAvailable        = false,
   streakAtRisk         = false,
   streakDays           = 0,
+  planPhase            = null,
+  budgetMinutes        = null,   // the student's minutes per day (study plan); null = no trim
 } = {}) {
   const lead = pickTodayMission({
     hasGoal, coldStart, daysToExam, hasTakenPracticeExam, dueCount, weakestUnit,
     needsLevel0, mathSubject, level0Snoozed, hasNextLesson, nextLessonTopic, trapAvailable,
-    streakAtRisk, streakDays,
+    streakAtRisk, streakDays, planPhase,
   })
 
   // Before a goal or any data exists there is no plan to build — the single
@@ -395,7 +408,8 @@ export function buildTodayPlan({
   }
 
   // ② Learn — one piece of new instruction, or notes if energy is low.
-  tasks.push(task({
+  //    Not in the plan's final week: no new units then.
+  if (planPhase !== 'final_week') tasks.push(task({
     id: recovering ? 'plan_study' : 'plan_lesson',
     actionType: recovering ? 'study_notes' : 'next_lesson',
     title: recovering ? 'Read one concept' : 'One mini lesson',
@@ -447,7 +461,16 @@ export function buildTodayPlan({
     deduped = [task({ ...lead, id: `plan_${lead.id}` }), ...deduped]
   }
 
-  const finalTasks = deduped.slice(0, 3)
+  let finalTasks = deduped.slice(0, 3)
+  // Fit the day to the student's study time: drop trailing tasks until the
+  // total fits the budget. The first task (the hero) always stays, even when
+  // it alone runs long (a practice exam).
+  if (budgetMinutes != null) {
+    while (finalTasks.length > 1 &&
+      finalTasks.reduce((sum, t) => sum + (t.estimatedMinutes ?? 0), 0) > budgetMinutes) {
+      finalTasks = finalTasks.slice(0, -1)
+    }
+  }
   return { pointsToGo, headline, tasks: finalTasks, lead: finalTasks[0] ?? lead }
 }
 

@@ -56,6 +56,8 @@ import { useGoal } from '../context/GoalContext'
 import { usePredictedScore } from '../hooks/usePredictedScore'
 import { pickSmartQuest } from '../utils/smartQuest'
 import { planProgress, isEnergyFree } from '../utils/todayMission'
+import { useStudyPlan } from '../hooks/useStudyPlan'
+import { planProgressLine } from '../utils/studyPlanCopy'
 import { buildHomeAgenda } from '../utils/homeAgenda'
 import { energyBand, isMathSubject } from '../utils/energy'
 import { mistakeLabelOf, stickiestTopicOf } from '../utils/reviewQueue'
@@ -220,6 +222,10 @@ export default function HomeScreen({ navigation }) {
   // session, else the next scheduled Regents session for the subject.
   const daysToExam = goalDaysToExam ?? getDaysUntilExam(subject)
   const passedGoalMonth = goalPassed ? sessionMonthOf(storedGoal.examDateStr) : null
+  // The study plan (utils/studyPlan) — orders today's work by phase, sizes it
+  // to the student's minutes, and gives the "Week 6 of 33 · On track" line.
+  const { plan: studyPlan } = useStudyPlan(subject, units, subjectHistory)
+  const planLine = planProgressLine(studyPlan, { committedAt: regentsGoal?.committedAt ?? null, today: localDateStr() })
   const examLabel  = passedGoalMonth
     ? `📅 Your ${passedGoalMonth} Regents date has passed`
     : getExamLabel(subject, daysToExam, regentsGoal?.examDateStr ?? null)
@@ -283,10 +289,13 @@ export default function HomeScreen({ navigation }) {
     band:                 pacing,
     rescuePlan:           regentsGoal?.rescuePlan ?? null,
     passedGoalMonth,
+    planPhase:            studyPlan?.phase ?? null,
+    budgetMinutes:        studyPlan?.todayBudgetMinutes ?? null,
   }), [
     goalLoaded, historyLoaded, regentsGoal, coldStart, daysToExam, hasTakenPracticeExam,
     dueCount, weakestAttemptedUnit, needsLevel0, subject, level0Snoozed, hasNextLesson,
     nextLessonTopic, trapAvailable, streakAtRisk, streak, predicted, pacing, passedGoalMonth,
+    studyPlan,
   ])
   const { hero: rankedHero, plan: todayPlan, chips: nextChips, rescue: rescueActive } = agenda
 
@@ -901,9 +910,26 @@ export default function HomeScreen({ navigation }) {
             <Text style={[T.small, { color: C.textMuted, marginTop: 2 }]}>
               {user?.displayName?.split(' ')[0] ?? 'Student'} · {getLevel(rp).name}
             </Text>
-            <Text style={[T.small, { color: daysToExam <= 14 ? C.wrong : C.textMuted, marginTop: 3 }]}>
-              {examLabel}
-            </Text>
+            {studyPlan ? (
+              <TouchableOpacity
+                onPress={() => navigation.navigate('MyPlan')}
+                accessibilityRole="button"
+                accessibilityLabel={`${examLabel.replace('📅 ', '')}. ${planLine ?? ''}. Open my plan`}
+                accessibilityHint="Shows your study plan week by week"
+                hitSlop={{ top: 6, bottom: 6 }}
+              >
+                <Text style={[T.small, { color: daysToExam <= 14 ? C.wrong : C.textMuted, marginTop: 3 }]}>
+                  {examLabel}
+                </Text>
+                {planLine && (
+                  <Text style={[T.small, { color: C.brand, marginTop: 2 }]}>{planLine} ›</Text>
+                )}
+              </TouchableOpacity>
+            ) : (
+              <Text style={[T.small, { color: daysToExam <= 14 ? C.wrong : C.textMuted, marginTop: 3 }]}>
+                {examLabel}
+              </Text>
+            )}
           </View>
 
           {/* Study time today — shown only after 1 min of study */}

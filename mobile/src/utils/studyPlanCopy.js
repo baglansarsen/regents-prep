@@ -87,3 +87,60 @@ export function suggestionLabel(s, { nextSessionLabel = null } = {}) {
     default: return null
   }
 }
+
+// ── Phase 3: Home line and My Plan screen ─────────────────────────────────────
+
+export const PHASE_INFO = {
+  learn:      { title: 'Learn',       blurb: 'First pass through every unit, in order.' },
+  strengthen: { title: 'Strengthen',  blurb: 'Drill the units furthest below your goal.' },
+  exam_prep:  { title: 'Exam prep',   blurb: 'Practice exams and mistake review.' },
+  final_week: { title: 'Final week',  blurb: 'Short reviews. No new units.' },
+}
+
+const MILESTONE_TITLES = {
+  checkup:           'Take the checkup',
+  all_units_covered: 'Every unit covered',
+  practice_exam_1:   'Practice exam 1',
+  practice_exam_2:   'Practice exam 2',
+  practice_exam_3:   'Practice exam 3',
+  exam:              'Regents exam',
+}
+export const milestoneTitle = (id) => MILESTONE_TITLES[id] ?? id
+
+const dayNum = (ymd) => {
+  const [y, m, d] = (ymd ?? '').split('-').map(Number)
+  return y && m && d ? Math.round(Date.UTC(y, m - 1, d) / 86400000) : null
+}
+
+/**
+ * One line for Home under the countdown: "Week 6 of 33 · On track".
+ * Week numbers count from when the goal was set (committedAt); without it the
+ * line is just the pace. Behind / at risk name the lesson shortfall when known.
+ */
+export function planProgressLine(plan, { committedAt = null, today } = {}) {
+  if (!plan || plan.phase === 'passed' || plan.phase === 'exam_day') return null
+  let pace
+  if (!plan.feasibility.fits) pace = 'Plan needs more time'
+  else if ((plan.pace.status === 'behind' || plan.pace.status === 'at_risk') && plan.pace.shortfallLessons > 0) {
+    pace = `${plural(plan.pace.shortfallLessons, 'lesson')} behind`
+  } else pace = STATUS_LABELS[plan.pace.status] ?? null
+
+  const start = committedAt ? dayNum(committedAt.slice(0, 10)) : null
+  const now = dayNum(today)
+  const exam = now != null ? now + plan.daysLeft : null
+  if (start != null && now != null && exam > start && now >= start) {
+    const totalWeeks = Math.max(1, Math.ceil((exam - start) / 7))
+    const week = Math.min(totalWeeks, Math.floor((now - start) / 7) + 1)
+    return pace ? `Week ${week} of ${totalWeeks} · ${pace}` : `Week ${week} of ${totalWeeks}`
+  }
+  return pace
+}
+
+/** A one-line catch-up hint for My Plan when the pace is behind. */
+export function catchUpHint(plan) {
+  if (!plan || plan.pace.shortfallLessons <= 0) return null
+  const fix = plan.feasibility.suggestions?.find((s) => s.type === 'more_minutes' || s.type === 'more_days')
+  if (fix?.type === 'more_minutes') return `To catch up, study ${fix.minutesPerDay} min a day, or add a weekend session.`
+  if (fix?.type === 'more_days') return `To catch up, study ${fix.daysPerWeek} days a week.`
+  return 'To catch up, add a weekend session or pick a later exam date.'
+}

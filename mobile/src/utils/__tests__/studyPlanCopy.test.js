@@ -74,3 +74,40 @@ describe('suggestionLabel', () => {
     expect(suggestionLabel({ type: 'later_session' })).toBeNull()
   })
 })
+
+// ── Phase 3 ──────────────────────────────────────────────────────────────────
+import { planProgressLine, catchUpHint, milestoneTitle, PHASE_INFO } from '../studyPlanCopy'
+
+describe('planProgressLine', () => {
+  test('week numbers count from when the goal was set', () => {
+    // goal set 5 weeks ago; exam 226 days from today
+    expect(planProgressLine(plan(), { committedAt: '2026-10-04T15:00:00.000Z', today: TODAY }))
+      .toBe('Week 6 of 38 · Ahead of pace')
+  })
+  test('without a commit date it is just the pace', () => {
+    expect(planProgressLine(plan(), { today: TODAY })).toBe('Ahead of pace')
+  })
+  test('a plan that does not fit says so', () => {
+    expect(planProgressLine(plan({ examDateStr: add(14) }), { today: TODAY })).toBe('Plan needs more time')
+  })
+  test('passed date and exam day have no line', () => {
+    expect(planProgressLine(plan({ examDateStr: add(-1) }), { today: TODAY })).toBeNull()
+    expect(planProgressLine(null, { today: TODAY })).toBeNull()
+  })
+})
+
+describe('catchUpHint', () => {
+  test('nothing to catch up → no hint', () => {
+    expect(catchUpHint(plan())).toBeNull()
+  })
+  test('behind → names the fix', () => {
+    expect(catchUpHint(plan({ examDateStr: add(30), availability: { daysPerWeek: 3, minutesPerDay: 10 } })))
+      .toMatch(/^To catch up, /)
+  })
+})
+
+test('every phase and milestone the engine emits has words', () => {
+  const p = plan()
+  for (const ph of p.phases) expect(PHASE_INFO[ph.id]).toBeTruthy()
+  for (const m of p.milestones) expect(milestoneTitle(m.id)).not.toBe(m.id)
+})

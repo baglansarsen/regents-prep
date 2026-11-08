@@ -183,12 +183,20 @@ export default function GoalDetailScreen({ navigation }) {
         </View>
 
         {/* Goal management */}
-        <View style={{ flexDirection: 'row', gap: 10, marginHorizontal: 16, marginTop: 18 }}>
+        <TouchableOpacity
+          style={duoBtn(C.brand, C.brandDark, { marginHorizontal: 16, marginTop: 18 })}
+          onPress={() => navigation.navigate('MyPlan')}
+          activeOpacity={0.85}
+          accessibilityRole="button"
+        >
+          <Text style={[T.btn, { color: '#fff' }]}>🗓️ SEE MY PLAN</Text>
+        </TouchableOpacity>
+        <View style={{ flexDirection: 'row', gap: 10, marginHorizontal: 16, marginTop: 12 }}>
           <TouchableOpacity style={duoBtnOutline(C.border, { flex: 1 })} onPress={() => setShowShare(true)} activeOpacity={0.85}>
             <Text style={[T.btn, { color: C.text }]}>📤 SHARE</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={duoBtn(C.brand, C.brandDark, { flex: 1 })} onPress={() => navigation.navigate('GoalSetup')} activeOpacity={0.85}>
-            <Text style={[T.btn, { color: '#fff' }]}>CHANGE GOAL</Text>
+          <TouchableOpacity style={duoBtnOutline(C.border, { flex: 1 })} onPress={() => navigation.navigate('GoalSetup')} activeOpacity={0.85}>
+            <Text style={[T.btn, { color: C.text }]}>CHANGE GOAL</Text>
           </TouchableOpacity>
         </View>
         <TouchableOpacity onPress={handleRemove} style={{ alignItems: 'center', paddingVertical: 16 }}>

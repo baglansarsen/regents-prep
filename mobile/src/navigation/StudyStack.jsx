@@ -10,6 +10,7 @@ import SkipChallengeScreen from '../screens/SkipChallengeScreen'
 import StudyScreen         from '../screens/StudyScreen'
 import GoalSetupScreen     from '../screens/GoalSetupScreen'
 import GoalDetailScreen    from '../screens/GoalDetailScreen'
+import MyPlanScreen        from '../screens/MyPlanScreen'
 
 const Stack = createNativeStackNavigator()
 
@@ -26,6 +27,7 @@ export default function StudyStack() {
       <Stack.Screen name="Study"         component={StudyScreen} />
       <Stack.Screen name="GoalSetup"     component={GoalSetupScreen} />
       <Stack.Screen name="GoalDetail"    component={GoalDetailScreen} />
+      <Stack.Screen name="MyPlan"        component={MyPlanScreen} />
     </Stack.Navigator>
   )
 }
