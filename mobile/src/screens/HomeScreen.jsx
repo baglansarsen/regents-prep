@@ -16,7 +16,7 @@ import { useSubscription } from '../context/SubscriptionContext'
 import { useRewardedAd } from '../hooks/useRewardedAd'
 import LivesRefillGate from '../components/LivesRefillGate'
 import ShareCardSheet from '../components/ShareCardSheet'
-import { useDailyGoal } from '../hooks/useDailyGoal'
+import { useDailyMinutesGoal, dailyMinutesGoalFrom } from '../hooks/useDailyMinutesGoal'
 import { useLessonProgress } from '../hooks/useLessonProgress'
 import { useMistakes } from '../hooks/useMistakes'
 import { useUnitUnlocks } from '../hooks/useUnitUnlocks'
@@ -51,14 +51,14 @@ import { PET_RESULTS } from '../data/petPersonality'
 import PlacementTestScreen from './PlacementTestScreen'
 import { useLeague, formatCountdown, msUntilReset } from '../hooks/useLeague'
 import { getLevel } from '../hooks/useRP'
-import { useStudyTime, formatTime as fmtStudyTime } from '../hooks/useStudyTime'
+import { useStudyTime } from '../hooks/useStudyTime'
 import { getExamLabel, getDaysUntilExam, daysUntilExam, isGoalDatePassed, sessionMonthOf } from '../utils/examDates'
 import { PETS_ENABLED } from '../config/features'
 import { useGoal } from '../context/GoalContext'
 import { usePredictedScore } from '../hooks/usePredictedScore'
 import { pickSmartQuest } from '../utils/smartQuest'
 import { planProgress, isEnergyFree } from '../utils/todayMission'
-import { useStudyPlan } from '../hooks/useStudyPlan'
+import { useStudyPlan, useAllStudyPlans } from '../hooks/useStudyPlan'
 import { planProgressLine } from '../utils/studyPlanCopy'
 import { buildHomeAgenda } from '../utils/homeAgenda'
 import { energyBand, isMathSubject } from '../utils/energy'
@@ -378,10 +378,13 @@ export default function HomeScreen({ navigation }) {
     }).then((msg) => { if (msg) say(msg) }).catch(() => {})
   }, [reloadHistory, reloadSkipUnlocks, refreshTrap, pendingEvolution, uid, streak]))
 
-  const { goal, setGoal, todayRP, progress: goalProgress, goalMet, GOALS, celebrated, markCelebrated } = useDailyGoal(rp, rpLoaded)
+  // One daily target: the study plan's minutes a day (all subjects), measured
+  // by today's tracked study time. Replaced the RP daily goal.
+  const { entries: planEntries } = useAllStudyPlans()
+  const { goalMinutes, todayMinutes, goalMet, celebrated, markCelebrated } =
+    useDailyMinutesGoal({ todaySeconds, goalMinutes: dailyMinutesGoalFrom(planEntries) })
 
   const [selectedLesson,    setSelectedLesson]    = useState(null)
-  const [showGoalPicker,    setShowGoalPicker]     = useState(false)
   const [questData,         setQuestData]          = useState(null)
   const [goalCelebModal,    setGoalCelebModal]    = useState(false)
   const [milestoneModal,  setMilestoneModal]   = useState(null)
@@ -477,7 +480,6 @@ export default function HomeScreen({ navigation }) {
   }, [goalMet, celebrated, pet.petType, pet.chosen])
 
   const sheetAnim     = useRef(new Animated.Value(400)).current
-  const goalSheetAnim = useRef(new Animated.Value(400)).current
   const tipsAnim      = useRef(new Animated.Value(400)).current
 
   // ── Path motion (animation-plan.md Phase 3) ────────────────────────────────
@@ -588,19 +590,6 @@ export default function HomeScreen({ navigation }) {
   function closeTips() {
     Animated.timing(tipsAnim, { toValue: 400, duration: 200, useNativeDriver: true }).start(
       () => setTipsUnit(null),
-    )
-  }
-
-  // ── Goal picker open / close ─────────────────────────────────────────────
-  function openGoalPicker() {
-    setShowGoalPicker(true)
-    goalSheetAnim.setValue(400)
-    Animated.spring(goalSheetAnim, { toValue: 0, useNativeDriver: true, tension: 120, friction: 9 }).start()
-  }
-
-  function closeGoalPicker() {
-    Animated.timing(goalSheetAnim, { toValue: 400, duration: 200, useNativeDriver: true }).start(
-      () => setShowGoalPicker(false),
     )
   }
 
@@ -956,9 +945,15 @@ export default function HomeScreen({ navigation }) {
 
           {/* Study time today — shown only after 1 min of study */}
           {todaySeconds >= 60 && (
-            <View style={[s.studyTimePill, { backgroundColor: C.brand + '18', borderColor: C.brand + '40' }]}>
-              <Text style={s.studyTimePillIcon}>📚</Text>
-              <Text style={[s.studyTimePillText, { color: C.brand }]}>{fmtStudyTime(todaySeconds)}</Text>
+            <View
+              style={[s.studyTimePill, { backgroundColor: C.brand + '18', borderColor: C.brand + '40' }]}
+              accessible
+              accessibilityLabel={goalMet
+                ? `Studied ${todayMinutes} minutes today. Daily goal of ${goalMinutes} minutes reached.`
+                : `Studied ${todayMinutes} of ${goalMinutes} minutes today.`}
+            >
+              <Text style={s.studyTimePillIcon}>{goalMet ? '✅' : '📚'}</Text>
+              <Text style={[s.studyTimePillText, { color: C.brand }]}>{todayMinutes} / {goalMinutes} min</Text>
             </View>
           )}
         </View>
@@ -1330,64 +1325,6 @@ export default function HomeScreen({ navigation }) {
         </Animated.View>
       )}
 
-      {/* ── Goal picker backdrop ── */}
-      {showGoalPicker && (
-        <TouchableOpacity
-          style={[StyleSheet.absoluteFill, s.backdrop]}
-          onPress={closeGoalPicker}
-          activeOpacity={1}
-        />
-      )}
-
-      {/* ── Goal picker sheet ── */}
-      {showGoalPicker && (
-        <Animated.View
-          style={[s.sheet, cardShadow(C.shadow), { backgroundColor: C.surface, transform: [{ translateY: goalSheetAnim }] }]}
-        >
-          <View style={s.sheetHeader}>
-            <View style={s.sheetHandle} />
-            <TouchableOpacity
-              onPress={closeGoalPicker}
-              style={s.sheetCloseBtn}
-              hitSlop={{ top: 10, right: 10, bottom: 10, left: 10 }}
-            >
-              <Text style={[T.label, { color: C.textMuted, fontSize: 22 }]}>✕</Text>
-            </TouchableOpacity>
-          </View>
-          <Text style={[T.h3, { color: C.text, marginBottom: 4 }]}>🎯 Daily RP Goal</Text>
-          <Text style={[T.small, { color: C.textMuted, marginBottom: 20 }]}>
-            How much do you want to learn today?
-          </Text>
-
-          <View style={{ gap: 10 }}>
-            {GOALS.map((g) => {
-              const labels = { 10: 'Casual', 20: 'Regular', 50: 'Intense', 100: 'Champion' }
-              const emojis = { 10: '🌱', 20: '⚡', 50: '🔥', 100: '🏆' }
-              const active = g === goal
-              return (
-                <TouchableOpacity
-                  key={g}
-                  style={[
-                    s.goalOption,
-                    { borderColor: active ? C.brand : C.border,
-                      backgroundColor: active ? C.brandBg : C.surface2 },
-                  ]}
-                  onPress={() => { setGoal(g); closeGoalPicker() }}
-                  activeOpacity={0.8}
-                >
-                  <Text style={{ fontSize: 22 }}>{emojis[g]}</Text>
-                  <View style={{ flex: 1, marginLeft: 12 }}>
-                    <Text style={[T.h3, { color: active ? C.brand : C.text }]}>{g} RP / day</Text>
-                    <Text style={[T.small, { color: C.textMuted }]}>{labels[g]}</Text>
-                  </View>
-                  {active && <Text style={[T.label, { color: C.brand }]}>✓ ACTIVE</Text>}
-                </TouchableOpacity>
-              )
-            })}
-          </View>
-        </Animated.View>
-      )}
-
       {/* ── Tips backdrop ── */}
       {tipsUnit && (
         <TouchableOpacity
@@ -1549,7 +1486,7 @@ export default function HomeScreen({ navigation }) {
             <Text style={{ fontSize: 64, textAlign: 'center' }}>🎯</Text>
             <Text style={[T.h2, { color: C.text, textAlign: 'center', marginTop: 8 }]}>Daily Goal Reached!</Text>
             <Text style={[T.body, { color: C.textMuted, textAlign: 'center', marginTop: 4 }]}>
-              {todayRP} RP earned today
+              {todayMinutes} min studied today, your plan's {goalMinutes}
             </Text>
             <View style={{ backgroundColor: C.brand + '20', borderRadius: 12, padding: 12, marginTop: 16, alignItems: 'center' }}>
               <Text style={{ fontSize: 36 }}>{PET_RESULTS[pet.petType]?.emoji ?? '🐾'}</Text>
@@ -1688,14 +1625,6 @@ function makeStyles(C, width) {
       marginBottom:    20,
       padding:         16,
     },
-    goalOption: {
-      flexDirection: 'row',
-      alignItems:    'center',
-      borderRadius:  14,
-      borderWidth:   2,
-      padding:       14,
-    },
-
     quickGrid: {
       flexDirection:  'row',
       flexWrap:       'wrap',
