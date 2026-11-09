@@ -2,6 +2,8 @@ export function getDayQuestion(pool) {
   if (!pool?.length) return null
   const eligible = pool.filter((q) => Array.isArray(q.choices) && q.choices.length > 0)
   if (!eligible.length) return null
-  const dayIndex = Math.floor(Date.now() / 86_400_000)
+  // Local calendar day, so the question changes at the student's midnight, not UTC's.
+  const now = new Date()
+  const dayIndex = Math.round(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) / 86_400_000)
   return eligible[dayIndex % eligible.length]
 }

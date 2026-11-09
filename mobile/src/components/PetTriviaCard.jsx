@@ -7,6 +7,7 @@ import { useSubject } from '../context/SubjectContext'
 import { useRP } from '../hooks/useRP'
 import { usePetContext } from '../context/PetContext'
 import { getDayQuestion } from '../data/triviaPool'
+import { localDateStr } from '../utils/localDate'
 import { T } from '../styles/duo'
 import * as leData   from '../content/living-environment/index'
 import * as esData   from '../content/earth-science/index'
@@ -28,7 +29,8 @@ const SUBJECT_DATA = {
   'life-science':       lsData,
 }
 
-function today() { return new Date().toISOString().slice(0, 10) }
+// Local date: "answered today" resets at the student's midnight, not 7 p.m. ET (UTC).
+const today = localDateStr
 
 export default function PetTriviaCard() {
   const { C }           = useTheme()
