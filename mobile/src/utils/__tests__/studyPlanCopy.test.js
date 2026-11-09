@@ -84,6 +84,12 @@ describe('planProgressLine', () => {
     expect(planProgressLine(plan(), { committedAt: '2026-10-04T15:00:00.000Z', today: TODAY }))
       .toBe('Week 6 of 38 · Ahead of pace')
   })
+  test('a goal set late in the evening starts today, not the UTC tomorrow', () => {
+    // 11:30 p.m. local on TODAY; west of UTC its ISO string is already the next day
+    const lateTonight = new Date(2026, 10, 8, 23, 30).toISOString()
+    expect(planProgressLine(plan(), { committedAt: lateTonight, today: TODAY }))
+      .toBe('Week 1 of 33 · Ahead of pace')
+  })
   test('without a commit date it is just the pace', () => {
     expect(planProgressLine(plan(), { today: TODAY })).toBe('Ahead of pace')
   })

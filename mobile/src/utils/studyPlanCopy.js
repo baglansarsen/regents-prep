@@ -4,6 +4,7 @@
  * Design: docs/designs/exam-date-study-plan.md (Phase 2).
  */
 import { GOAL_TIERS } from '../data/goalConfig'
+import { toLocalDateStr } from './localDate'
 
 /** 'Mar 3' for '2027-03-03' (local calendar date, no timezone shift). */
 export function shortDate(ymd) {
@@ -125,7 +126,9 @@ export function planProgressLine(plan, { committedAt = null, today } = {}) {
     pace = `${plural(plan.pace.shortfallLessons, 'lesson')} behind`
   } else pace = STATUS_LABELS[plan.pace.status] ?? null
 
-  const start = committedAt ? dayNum(committedAt.slice(0, 10)) : null
+  // committedAt is an ISO (UTC) timestamp; the week starts on the student's local day.
+  const committed = committedAt ? new Date(committedAt) : null
+  const start = committed && !isNaN(committed) ? dayNum(toLocalDateStr(committed)) : null
   const now = dayNum(today)
   const exam = now != null ? now + plan.daysLeft : null
   if (start != null && now != null && exam > start && now >= start) {
